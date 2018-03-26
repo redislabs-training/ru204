@@ -7,8 +7,6 @@ redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-p = redis.pipeline()
-
 events = [
   { 'sku': "123-ABC-723",
     'name': "Men's 100m Final",
@@ -40,6 +38,11 @@ def create_events(events):
 # Create events
 create_events(events)
 
+# Helper to get the Event, extract and print the venue name
+def print_event_name(event):
+  e = json.loads(redis.get('event:' + event))  
+  print e['name'] if ('name' in e) else e['sku']
+
 # Match Method 1 - Object inspection
 # Find all matching keys, retreive value and then exeamine for all macthing attributes
 
@@ -62,15 +65,15 @@ def match_by_inspection(*keys):
 # Find the match
 matches = match_by_inspection(('disabled_access', True))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_inspection(('disabled_access', True), ('medal_event', False))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_inspection(('disabled_access', False), ('medal_event', False), ('venue', "Nippon Budokan"))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 
 # Match method 2 - Faceted Search
@@ -97,15 +100,15 @@ def match_by_faceting(*keys):
 # Find the match
 matches = match_by_faceting(('disabled_access', True))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_faceting(('disabled_access', True), ('medal_event', False))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_faceting(('disabled_access', False), ('medal_event', False), ('venue', "Nippon Budokan"))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 # Match method 3 - Hashed Faceted Search
 def create_events_with_hashed_lookups(events):
@@ -127,20 +130,20 @@ def match_by_hashed_faceting(*keys):
     k = [x for x in keys if x[0] == lookup_attrs[i]]
     if k:
       hfs.append(k[0])
-  for k in redis.sscan_iter("hfs:" + hashlib.sha256(str(hfs)).hexdigest())
+  for k in redis.sscan_iter("hfs:" + hashlib.sha256(str(hfs)).hexdigest()):
     m.append(k)
   return m
 
 # Find the match
 matches = match_by_hashed_faceting(('disabled_access', True))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_hashed_faceting(('disabled_access', True), ('medal_event', False))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
 matches = match_by_hashed_faceting(('disabled_access', False), ('medal_event', False), ('venue', "Nippon Budokan"))
 for m in matches:
-  print json.loads(redis.get('event:' + m)) 
+  print_event_name(m)
 
