@@ -7,6 +7,8 @@ redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
+chapter_prefix = "ch04:"
+
 events = [
   { 'sku': "123-ABC-723",
     'name': "Men's 100m Final",
@@ -31,16 +33,17 @@ events = [
   }      
 ]
 
+
 def create_events(events):
   for i in range(len(events)):
-    redis.set('event:' + events[i]['sku'], json.dumps(events[i]))
+    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
 
 # Create events
 create_events(events)
 
 # Helper to get the Event, extract and print the venue name
 def print_event_name(event):
-  e = json.loads(redis.get('event:' + event))  
+  e = json.loads(redis.get(chapter_prefix + "event:" + event))  
   print e['name'] if ('name' in e) else e['sku']
 
 # Match Method 1 - Object inspection
@@ -48,7 +51,7 @@ def print_event_name(event):
 
 def match_by_inspection(*keys):
   m = []
-  for key in redis.scan_iter('event:*'):
+  for key in redis.scan_iter('ch4:event:*'):
     match = False
     event = json.loads(redis.get(key))
     for kv in keys:
@@ -82,10 +85,10 @@ lookup_attrs = ['disabled_access', 'medal_event', 'venue', 'tbd']
 
 def create_events_with_lookups(events):
   for i in range(len(events)):
-    redis.set('event:' + events[i]['sku'], json.dumps(events[i]))
+    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
     for k in range(len(lookup_attrs)):
       if lookup_attrs[k] in events[i]:
-        redis.sadd("fs:" + lookup_attrs[k] + ":" + str(events[i][lookup_attrs[k]]), events[i]['sku'])
+        redis.sadd(chapter_prefix + "fs:" + lookup_attrs[k] + ":" + str(events[i][lookup_attrs[k]]), events[i]['sku'])
 
 # Create events
 create_events_with_lookups(events)
@@ -94,7 +97,7 @@ def match_by_faceting(*keys):
   fs = []
   for kv in keys:
     k, v = kv
-    fs.append("fs:" + k + ":" + str(v))
+    fs.append(chapter_prefix + "fs:" + k + ":" + str(v))
   return redis.sinter(fs)
 
 # Find the match
@@ -113,12 +116,12 @@ for m in matches:
 # Match method 3 - Hashed Faceted Search
 def create_events_with_hashed_lookups(events):
   for i in range(len(events)):
-    redis.set('event:' + events[i]['sku'], json.dumps(events[i]))
+    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
     hfs = []
     for k in range(len(lookup_attrs)):
       if lookup_attrs[k] in events[i]:
         hfs.append((lookup_attrs[k], events[i][lookup_attrs[k]]))
-      redis.sadd("hfs:" + hashlib.sha256(str(hfs)).hexdigest(), events[i]['sku'])
+      redis.sadd(chapter_prefix + "hfs:" + hashlib.sha256(str(hfs)).hexdigest(), events[i]['sku'])
 
 # Create events
 create_events_with_hashed_lookups(events)
@@ -130,7 +133,7 @@ def match_by_hashed_faceting(*keys):
     k = [x for x in keys if x[0] == lookup_attrs[i]]
     if k:
       hfs.append(k[0])
-  for k in redis.sscan_iter("hfs:" + hashlib.sha256(str(hfs)).hexdigest()):
+  for k in redis.sscan_iter(chapter_prefix + "hfs:" + hashlib.sha256(str(hfs)).hexdigest()):
     m.append(k)
   return m
 
