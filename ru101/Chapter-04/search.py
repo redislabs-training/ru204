@@ -33,7 +33,6 @@ events = [
   }      
 ]
 
-
 def create_events(events):
   for i in range(len(events)):
     redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
@@ -51,7 +50,7 @@ def print_event_name(event):
 
 def match_by_inspection(*keys):
   m = []
-  for key in redis.scan_iter('ch4:event:*'):
+  for key in redis.scan_iter(chapter_prefix + "event:*"):
     match = False
     event = json.loads(redis.get(key))
     for kv in keys:

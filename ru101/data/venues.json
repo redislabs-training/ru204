@@ -26,7 +26,7 @@
 {
   "venue": "Nippon Budokan",
   "zone": "Heritage",
-  "capacity": 5012,
+  "capacity": 14471,
   "events": ["Judo", "Karate"],
   "geo": {"long": 139.75, "lat": 35.693333},
   "transit":["Toei Shinjuku Line", "Tozai Line", "Hanzomon Line"]
@@ -34,7 +34,7 @@
 {
   "venue": "Tokyo International Forum",
   "zone": "Heritage",
-  "capacity": 14471,
+  "capacity": 5012,
   "events": ["Weightlifting"],
   "geo": {"long": 139.764300, "lat": 35.676657},
   "transit":["Yamanote Line", "Keihin-Tohoku Line"]
