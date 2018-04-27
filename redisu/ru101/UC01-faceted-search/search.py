@@ -2,12 +2,13 @@ from redis import StrictRedis
 import os
 import hashlib
 import json
+import redisu.utils.keynamehelper as keynamehelper
 
 redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"), 
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-chapter_prefix = "ch04:"
+keynamehelper.set_prefix("uc01:")
 
 events = [
   { 'sku': "123-ABC-723",
@@ -35,14 +36,16 @@ events = [
 
 def create_events(events):
   for i in range(len(events)):
-    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
+    key = keynamehelper.create_key_name("event", events[i]['sku'])
+    redis.set(key, json.dumps(events[i]))
 
 # Create events
 create_events(events)
 
 # Helper to get the Event, extract and print the venue name
 def print_event_name(event):
-  e = json.loads(redis.get(chapter_prefix + "event:" + event))  
+  key = keynamehelper.create_key_name("event", event)
+  e = json.loads(redis.get(key))  
   print e['name'] if ('name' in e) else e['sku']
 
 # Match Method 1 - Object inspection
@@ -50,7 +53,8 @@ def print_event_name(event):
 
 def match_by_inspection(*keys):
   m = []
-  for key in redis.scan_iter(chapter_prefix + "event:*"):
+  key = keynamehelper.create_key_name("event", "*")
+  for key in redis.scan_iter(key):
     match = False
     event = json.loads(redis.get(key))
     for kv in keys:
@@ -84,10 +88,12 @@ lookup_attrs = ['disabled_access', 'medal_event', 'venue', 'tbd']
 
 def create_events_with_lookups(events):
   for i in range(len(events)):
-    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
+    key = keynamehelper.create_key_name("event", events[i]['sku'])
+    redis.set(key, json.dumps(events[i]))
     for k in range(len(lookup_attrs)):
       if lookup_attrs[k] in events[i]:
-        redis.sadd(chapter_prefix + "fs:" + lookup_attrs[k] + ":" + str(events[i][lookup_attrs[k]]), events[i]['sku'])
+        fs_key = keynamehelper.create_key_name("fs", lookup_attrs[k], str(events[i][lookup_attrs[k]]))
+        redis.sadd(fs_key, events[i]['sku'])
 
 # Create events
 create_events_with_lookups(events)
@@ -96,7 +102,8 @@ def match_by_faceting(*keys):
   fs = []
   for kv in keys:
     k, v = kv
-    fs.append(chapter_prefix + "fs:" + k + ":" + str(v))
+    key = keynamehelper.create_key_name("fs", k, str(v))
+    fs.append(key)
   return redis.sinter(fs)
 
 # Find the match
@@ -115,12 +122,14 @@ for m in matches:
 # Match method 3 - Hashed Faceted Search
 def create_events_with_hashed_lookups(events):
   for i in range(len(events)):
-    redis.set(chapter_prefix + "event:" + events[i]['sku'], json.dumps(events[i]))
+    key = keynamehelper.create_key_name("event", events[i]['sku'])
+    redis.set(key, json.dumps(events[i]))
     hfs = []
     for k in range(len(lookup_attrs)):
       if lookup_attrs[k] in events[i]:
         hfs.append((lookup_attrs[k], events[i][lookup_attrs[k]]))
-      redis.sadd(chapter_prefix + "hfs:" + hashlib.sha256(str(hfs)).hexdigest(), events[i]['sku'])
+      hfs_key = keynamehelper.create_key_name("hfs", hashlib.sha256(str(hfs)).hexdigest())
+      redis.sadd(hfs_key, events[i]['sku'])
 
 # Create events
 create_events_with_hashed_lookups(events)
@@ -132,7 +141,8 @@ def match_by_hashed_faceting(*keys):
     k = [x for x in keys if x[0] == lookup_attrs[i]]
     if k:
       hfs.append(k[0])
-  for k in redis.sscan_iter(chapter_prefix + "hfs:" + hashlib.sha256(str(hfs)).hexdigest()):
+  key = keynamehelper.create_key_name("hfs", hashlib.sha256(str(hfs)).hexdigest())
+  for k in redis.sscan_iter(key):
     m.append(k)
   return m
 

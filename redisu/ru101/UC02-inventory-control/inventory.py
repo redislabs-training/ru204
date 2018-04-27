@@ -5,12 +5,13 @@ import random
 import string
 import json
 from datetime import date
+import redisu.ru101.common
 
 redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"), 
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-chapter_prefix = "ch06:"
+chapter_prefix = "uc02:"
 
 customers = [
   { 'id': "bill", 'customer_name': "bill smith"},
@@ -75,22 +76,18 @@ def create_events(events, available=None, price=None, tier="General"):
     redis.sadd(chapter_prefix + "events", e['sku'])
 
 # Part One - Check availability and Purchase
-def generate_order_id():
-  return ''.join(random.choice(string.ascii_uppercase + string.digits) \
-    for _ in range(6))
-
 def check_availability_and_purchase(customer, event_sku, qty, tier="General"):
   p = redis.pipeline()
   try:
     redis.watch(chapter_prefix + "event:" + event_sku)
     available = int(redis.hget(chapter_prefix + "event:" + event_sku, "available:" + tier))
     if available >= qty:
-      order_id = generate_order_id()
+      order_id = redisu.ru101.common.generate_order_id()
       price = float(redis.hget(chapter_prefix + "event:" + event_sku, "price:" + tier))
       purchase = {  'order_id': order_id, 'customer': customer, 
                     'tier': tier, 'qty': qty, 'cost': qty * price, 'event_sku': event_sku,
                     'ts': long(time.time())}
-      p.hincrby(chapter_prefix + "event:" + event_sku, "available:" + tier, qty * -1)
+      p.hincrby(chapter_prefix + "event:" + event_sku, "available:" + tier, -qty)
       p.hmset(chapter_prefix + "sales_order:" + order_id, purchase)
       p.execute()
   except WatchError:
@@ -119,17 +116,18 @@ print redis.hgetall(chapter_prefix + "event:" + event_requested)
 def reserve(customer, event_sku, qty, tier="General"):
   p = redis.pipeline()
   try:
-    redis.watch(chapter_prefix + "event:" + event_sku)
-    available = int(redis.hget(chapter_prefix + "event:" + event_sku, "available:" + tier))
+    key_name = chapter_prefix + "event:" + event_sku
+    redis.watch(key_name)
+    available = int(redis.hget(key_name, "available:" + tier))
     if available >= qty:
-      order_id = generate_order_id()
+      order_id = redisu.ru101.commongenerate_order_id()
       ts = long(time.time())
-      price = float(redis.hget(chapter_prefix + "event:" + event_sku, "price:" + tier))
-      p.hincrby(chapter_prefix + "event:" + event_sku, "available:" + tier, qty * -1)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id, qty)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-tier:" + order_id, tier)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-ts:" + order_id, ts)
-      p.hincrby(chapter_prefix + "event:" + event_sku, "total-holds", qty)
+      price = float(redis.hget(key_name, "price:" + tier))
+      p.hincrby(key_name, "available:" + tier, -qty)
+      p.hsetnx(key_name, "hold-qty:" + order_id, qty)
+      p.hsetnx(key_name, "hold-tier:" + order_id, tier)
+      p.hsetnx(key_name "hold-ts:" + order_id, ts)
+      p.hincrby(key_name, "total-holds", qty)
       p.execute()
   except WatchError:
     print "Write Conflict: {}".format("event:" + event_sku)
@@ -140,11 +138,13 @@ def reserve(customer, event_sku, qty, tier="General"):
       purchase = {  'order_id': order_id, 'customer': customer,
                     'tier': tier, 'qty': qty, 'cost': qty * price,  'event_sku': event_sku,
                     'ts': long(time.time()) }
-      redis.watch(chapter_prefix + "event:" + event_sku)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-tier:" + order_id)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-ts:" + order_id)
-      p.hincrby(chapter_prefix + "event:" + event_sku, "total-holds", qty * -1)
+      redis.watch(key_name)
+      # Update the Event
+      p.hdel(key_name, "hold-qty:" + order_id)
+      p.hdel(key_name, "hold-tier:" + order_id)
+      p.hdel(key_name, "hold-ts:" + order_id)
+      p.hincrby(key_name, "total-holds", -qty)
+      # Post the Sales Order
       p.hmset(chapter_prefix + "sales_order:" + order_id, purchase)
       p.execute()
     except WatchError:
@@ -178,13 +178,14 @@ def creditcard_auth_random(customer, order_total):
 def backout_hold(event_sku, order_id):
   p = redis.pipeline()
   try:
-    redis.watch(chapter_prefix + "event:" + event_sku)
-    qty = long(redis.hget(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id))
-    p.hincrby(chapter_prefix + "event:" + event_sku, "available:" + tier, qty)
-    p.hdel(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id)
-    p.hdel(chapter_prefix + "event:" + event_sku, "hold-tier:" + order_id)
-    p.hdel(chapter_prefix + "event:" + event_sku, "hold-ts:" + order_id)
-    p.hincrby(chapter_prefix + "event:" + event_sku, "total-holds", qty * -1)
+    key_name = chapter_prefix + "event:" + event_sku
+    redis.watch(key_name)
+    qty = long(redis.hget(key_name, "hold-qty:" + order_id))
+    p.hincrby(key_name, "available:" + tier, qty)
+    p.hdel(key_name, "hold-qty:" + order_id)
+    p.hdel(key_name, "hold-tier:" + order_id)
+    p.hdel(key_name, "hold-ts:" + order_id)
+    p.hincrby(key_name, "total-holds", -qty)
     p.execute()
   except:
     print "Write Conflict: {}".format("event:" + event_sku)
@@ -254,17 +255,18 @@ while True:
 def reserve_with_pending(customer, event_sku, qty, tier="General"):
   p = redis.pipeline()
   try:
-    redis.watch(chapter_prefix + "event:" + event_sku)
-    available = int(redis.hget(chapter_prefix + "event:" + event_sku, "available:" + tier))
+    key_name = chapter_prefix + "event:" + event_sku
+    redis.watch(key_name)
+    available = int(redis.hget(key_name, "available:" + tier))
     if available >= qty:
-      order_id = generate_order_id()
+      order_id = redisu.ru101.commongenerate_order_id()
       ts = long(time.time())
-      price = float(redis.hget(chapter_prefix + "event:" + event_sku, "price:" + tier))
-      p.hincrby(chapter_prefix + "event:" + event_sku, "available:" + tier, qty * -1)
-      p.hincrby(chapter_prefix + "event:" + event_sku, "total-holds", qty)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id, qty)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-tier:" + order_id, tier)
-      p.hsetnx(chapter_prefix + "event:" + event_sku, "hold-ts:" + order_id, ts)
+      price = float(redis.hget(key_name, "price:" + tier))
+      p.hincrby(key_name, "available:" + tier, -qty)
+      p.hincrby(key_name, "total-holds", qty)
+      p.hsetnx(key_name, "hold-qty:" + order_id, qty)
+      p.hsetnx(key_name, "hold-tier:" + order_id, tier)
+      p.hsetnx(key_name, "hold-ts:" + order_id, ts)
       p.execute()
   except WatchError:
     print "Write Conflict: {}".format("event:" + event_sku)
@@ -272,14 +274,14 @@ def reserve_with_pending(customer, event_sku, qty, tier="General"):
     p.reset()
   if creditcard_auth(customer, qty * price):
     try:
+      redis.watch(key_name)
       purchase = {  'order_id': order_id, 'customer': customer,  
                     'tier': tier, 'qty': qty, 'cost': qty * price, 'event': event_sku,
                     'ts': long(time.time()) }
-      redis.watch(chapter_prefix + "event:" + event_sku)
-      p.hincrby(chapter_prefix + "event:" + event_sku, "total-holds", qty * -1)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-qty:" + order_id)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-tier:" + order_id)
-      p.hdel(chapter_prefix + "event:" + event_sku, "hold-ts:" + order_id)
+      p.hincrby(key_name, "total-holds", -qty)
+      p.hdel(key_name, "hold-qty:" + order_id)
+      p.hdel(key_name, "hold-tier:" + order_id)
+      p.hdel(key_name, "hold-ts:" + order_id)
       p.hmset(chapter_prefix + "sales_order:" + order_id, purchase)
       p.lpush(chapter_prefix + "pending:" + event_sku, order_id)
       p.execute()
@@ -344,9 +346,4 @@ for c in redis.sscan_iter(chapter_prefix + "customers"):
     print "   + Details: {}".format(redis.hgetall(chapter_prefix + "sales_order:" + k))
 
 print "= Sales Summary \n{}".format(redis.hgetall(chapter_prefix + "sales_summary"))
-
-
-
-
-
 

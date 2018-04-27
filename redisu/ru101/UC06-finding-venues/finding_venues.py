@@ -5,12 +5,13 @@ import random
 import string
 import json
 from datetime import date
+import redisu.utils.keynamehelper as keynamehelper
 
 redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"), 
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-chapter_prefix = "ch14:"
+keynamehelper.set_prefix("uc06:")
 
 olympic_stadium = {
 	'venue': "Olympic Stadium",
@@ -61,10 +62,10 @@ international_swimming_center = {
 }
 
 def create_venue(venue):
-	p = redis.pipeline()
-	p.hmset(chapter_prefix + "venues:" + venue['venue'], venue)
-	p.geoadd(chapter_prefix + "venues:geo", venue['geo']['long'], venue['geo']['lat'], venue['venue'])
-	p.execute()
+	key = keynamehelper.create_key_name("venue", venue['venue'])
+	redis.hmset(key, venue)
+	key = keynamehelper.create_key_name("geo", "venue")
+	redis.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
 
 create_venue(olympic_stadium)
 create_venue(nippon_budokan)
@@ -74,16 +75,18 @@ create_venue(international_stadium)
 create_venue(international_swimming_center)
 
 # Find venues with 5km of Tokyo Station
-print redis.georadius(chapter_prefix + "venues:geo", 139.771977, 35.668024, 5, "km", withdist=True)
+geo_key = keynamehelper.create_key_name("geo", "venue")
+print redis.georadius(geo_key, 139.771977, 35.668024, 5, "km", withdist=True)
 
 # Find venues within 25km of "Olympic Stadium"
-print redis.georadiusbymember(chapter_prefix + "venues:geo", "Olympic Stadium", 25, "km", withdist=True)
+print redis.georadiusbymember(geo_key, "Olympic Stadium", 25, "km", withdist=True)
 
 def create_event_locations(venue):
 	p = redis.pipeline()
 	for i in range(len(venue['events'])):
 		e, sku =  venue['events'][i]
-		p.geoadd(chapter_prefix + "event:geo:" + venue['venue'], venue['geo']['long'], venue['geo']['lat'], venue['venue'])
+		key = keynamehelper.create_key_name("geo", "event", e)
+		p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
 	p.execute()
 
 create_event_locations(olympic_stadium)
@@ -94,12 +97,14 @@ create_event_locations(international_stadium)
 create_event_locations(international_swimming_center)
 
 # Find venues with Football within 25km of Shin-Yokohama Station
-print redis.georadius(chapter_prefix + "event:geo:" + "Football", 139.606396, 35.509996, 25, "km", withdist=True)
+geo_key = keynamehelper.create_key_name("geo", "event", "Football")
+print redis.georadius(geo_key, 139.606396, 35.509996, 25, "km", withdist=True)
 
 def create_event_transit_locations(venue):
 	p = redis.pipeline()
 	for i in range(len(venue['transit'])):
-		p.geoadd(chapter_prefix + "transit:geo:" + venue['transit'][i], venue['geo']['long'], venue['geo']['lat'], venue['venue'])
+		key = keynamehelper.create_key_name("geo", "transit", venue['transit'][i])
+		p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
 	p.execute()
 
 create_event_transit_locations(olympic_stadium)
@@ -110,13 +115,14 @@ create_event_transit_locations(international_stadium)
 create_event_transit_locations(international_swimming_center)
 
 # Find venues 5km from "Tokyo Station" on the "Keiyo Line"
-print redis.georadius(chapter_prefix + "transit:geo:" + "Keiyo Line", 139.771977, 35.668024, 5, "km", withdist=True)
+geo_key = keynamehelper.create_key_name("geo", "transit", "Keiyo Line")
+print redis.georadius(geo_key, 139.771977, 35.668024, 5, "km", withdist=True)
 
 # Find the distance between locations on the "Keiyo Line"
-print redis.geodist(chapter_prefix + "transit:geo:" + "Keiyo Line", "Makuhari Messe", "Tokyo Tatsumi International Swimming Center", "km")
+print redis.geodist(geo_key, "Makuhari Messe", "Tokyo Tatsumi International Swimming Center", "km")
 
 # Find venues within 20km of "Makuhari Messe" on the Keiyo Line
 # Note: This only works if the member we are search for is on the "Keiyo Line". For example, "Olympic Statdium" is not
-# so this will fail
-print redis.georadiusbymember(chapter_prefix + "transit:geo:" + "Keiyo Line", "Makuhari Messe", 20, "km", withdist=True)
+# on the "Keiyo Line" so would return zero results.
+print redis.georadiusbymember(geo_key, "Makuhari Messe", 20, "km", withdist=True)
 
