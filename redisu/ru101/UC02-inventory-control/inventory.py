@@ -82,7 +82,7 @@ def check_availability_and_purchase(customer, event_sku, qty, tier="General"):
     redis.watch(chapter_prefix + "event:" + event_sku)
     available = int(redis.hget(chapter_prefix + "event:" + event_sku, "available:" + tier))
     if available >= qty:
-      order_id = redisu.ru101.common.generate_order_id()
+      order_id = redisu.ru101.common.generate.order_id()
       price = float(redis.hget(chapter_prefix + "event:" + event_sku, "price:" + tier))
       purchase = {  'order_id': order_id, 'customer': customer, 
                     'tier': tier, 'qty': qty, 'cost': qty * price, 'event_sku': event_sku,
@@ -259,7 +259,7 @@ def reserve_with_pending(customer, event_sku, qty, tier="General"):
     redis.watch(key_name)
     available = int(redis.hget(key_name, "available:" + tier))
     if available >= qty:
-      order_id = redisu.ru101.commongenerate_order_id()
+      order_id = redisu.ru101.common.generate.order_id()
       ts = long(time.time())
       price = float(redis.hget(key_name, "price:" + tier))
       p.hincrby(key_name, "available:" + tier, -qty)

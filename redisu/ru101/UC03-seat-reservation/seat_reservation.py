@@ -7,7 +7,7 @@ import random
 import struct
 import redisu.utils.keynamehelper as keynamehelper
 import redisu.utils.textincr as textincr
-import redisu.ru101.common
+import redisu.ru101.common.generate as generate
 
 redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"), 
                     port=os.environ.get("REDIS_PORT", 6379),
@@ -121,7 +121,7 @@ def reservation(event_sku, tier, block_name, first_seat, last_seat):
 				seat_key = keynamehelper.create_key_name("seatres", event_sku, tier, block_name, str(i))
 				if (redis.set(seat_key, True,	px=5000, nx=True) != True):
 					raise SeatTaken(i, "event:" + event_sku + ":" + block_name + ":" + str(i))
-			order_id = redisu.ru101.common.generate_order_id()
+			order_id = generate.order_id()
 			required_block = int(math.pow(2,last_seat - first_seat + 1))-1 << (first_seat-1)
 			vals = ["SET", "u32", 0, required_block]
 			order_key = keynamehelper.create_key_name("seatres", event_sku, tier, block_name, order_id)

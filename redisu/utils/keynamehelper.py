@@ -1,7 +1,8 @@
-__chapter_prefix__ = ""
+__prefix__ = ""
 
 def set_prefix(ch):
-	__chapter_prefix__ = ch
+	global __prefix__
+	__prefix__ = ch
 
 def create_key_name(*vals):
-	return __chapter_prefix__ + "%s" % ':'.join(vals)
+	return __prefix__ + "%s" % ':'.join(vals)
