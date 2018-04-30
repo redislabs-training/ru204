@@ -8,7 +8,7 @@ redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-keynamehelper.set_prefix("uc01:")
+keynamehelper.set_prefix("uc01")
 
 events = [
   { 'sku': "123-ABC-723",

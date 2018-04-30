@@ -13,13 +13,13 @@ redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                     port=os.environ.get("REDIS_PORT", 6379),
                     db=0)
 
-keynamehelper.set_prefix("uc03:")
+keynamehelper.set_prefix("uc03")
 
 __max__seats_per_block__=32
-def create_event(event_sku, blocks=2, seat_per_block=32, tier="General"):
+def create_event(event_sku, blocks=2, seats_per_block=32, tier="General"):
 	block_name = "A"
 	for i in range(blocks):
-		filled_seat_map = int(math.pow(2,min(seat_per_block, __max__seats_per_block__)))-1
+		filled_seat_map = int(math.pow(2,min(seats_per_block, __max__seats_per_block__)))-1
 		vals = ["SET", "u32", 0, filled_seat_map]
 		key = keynamehelper.create_key_name("seatmap", event_sku, tier, block_name)
 		redis.execute_command("BITFIELD", key, *vals)
@@ -32,8 +32,7 @@ def get_event_seat_block(event_sku, tier, block_name):
 
 def print_event_seat_map(event_sku, tier="*"):
 	key = keynamehelper.create_key_name("seatmap", event_sku, tier, "*")
-	blocks = redis.keys(key)
-	for block in blocks:
+	for block in redis.keys(key):
 		(_, tier_name, block_name) = block.rsplit(":", 2)
 		seat_map = get_event_seat_block(event_sku, tier_name, block_name)
 		print("{:40s} ").format(block),
@@ -44,8 +43,10 @@ def print_event_seat_map(event_sku, tier="*"):
 		print "|"
 
 # Part One - Create the event map
+print "== Create two blocks of 10 seats"
 event = "123-ABC-723"
-create_event(event)
+seats=10
+create_event(event, seats_per_block=seats)
 print_event_seat_map(event)
 
 def get_availbale(seat_map, seats_required, first_seat=-1):
@@ -90,13 +91,16 @@ def set_seat_map(event_sku, tier, block_name, map):
 	key = keynamehelper.create_key_name("seatmap", event_sku, tier, block_name)
 	redis.execute_command("BITFIELD", key, *vals)
 
-available_seats = find_seat_selection(event, "General", 15)
+print "== Find 8 contigious availbale seats"
+available_seats = find_seat_selection(event, "General", 6)
 print_seat_availbailiy(available_seats)
 
 # Check that we skip rows
-set_seat_map(event, "General", "A", int(math.pow(2, 20) - 31))
+print "== Remove a 4 seat from Block A, so only Bock B has the right availbaility for 6 seats"
+# Unset bits 2-5
+set_seat_map(event, "General", "A", int(math.pow(2, seats) - 31))
 print_event_seat_map(event)
-available_seats = find_seat_selection(event, "General", 16)
+available_seats = find_seat_selection(event, "General", 8)
 print_seat_availbailiy(available_seats)
 
 # Part Two - reserve seats
@@ -139,6 +143,7 @@ def reservation(event_sku, tier, block_name, first_seat, last_seat):
 		p.reset()
 	return reserved
 
+print "== Block of 10 seats, with seat 4 taken"
 event="737-DEF-911"
 seats=10
 create_event(event, 1, seats, "VIP")
@@ -146,6 +151,7 @@ create_event(event, 1, seats, "VIP")
 set_seat_map(event, "VIP", "A", int(math.pow(2, seats)-1-8))
 print_event_seat_map(event)
 
+print "== Request 2 seats, succeeds"
 seats = find_seat_selection(event, "VIP", 2)
 print_seat_availbailiy(seats)
 # Just choose the first found
@@ -154,6 +160,7 @@ print "Made reservation? {}".format(made_reservation)
 print_event_seat_map(event)
 
 # Find space for 5 seats
+print "== Request 5 seats, succeeds"
 seats = find_seat_selection(event, "VIP", 5)
 print_seat_availbailiy(seats)
 # Just choose the first found
@@ -162,11 +169,13 @@ print "Made reservation? {}".format(made_reservation)
 print_event_seat_map(event)
 
 # Find space for 2 seat, but not enough inventory
+print "== Request 2 seats, fails"
 seats = find_seat_selection(event, "VIP", 2)
 if ( len(seats) == 0 ):
 	print "Not enough seats"
 
 # Find space for 1 seat
+print "== Simulate two users trying to get the same seat"
 seats = find_seat_selection(event, "VIP", 1)
 # Create a seat reservation (simulating another user), so that the reservation fails
 key = keynamehelper.create_key_name("seatres", event, "VIP", seats[0]['block'], str(seats[0]['available'][0]['first_seat']))
