@@ -1,3 +1,16 @@
+"""Utility to generate key names based on the variadic parameters passed. The
+key name is generated as follows
+	* prefix
+	* seperator
+	* [ value seperator ]
+
+e.g., buy default , gievn the values "foo" and "bar" passed will generate
+	"foo:bar"
+
+Todo:
+	* Deal with non-string values, rather than rely upon the caller to make
+into strings
+"""
 __prefix__ = ""
 __sep__ = ":"
 

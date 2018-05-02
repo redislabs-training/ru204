@@ -1,3 +1,8 @@
+"""Utility to incrmeent caharcters and strings, which will wrap. For example,
+incrmeneting "Z", wraps to "AA" etc. This module provides two functions
+	* incr_char
+	* incr_str
+"""
 def incr_char(c):
 	return chr(ord(c) + 1) if c != 'Z' else 'A'
 

@@ -157,12 +157,20 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
 					else:
 						continue
 					res = find_seats(event_sku, ticket_tiers[k], qty)
+					ts = long(time.time())
 					purchase = {	'customer': customer_id, 'customer_name': customer_name,
 												'order_id': order_id, 'event': event_sku, 'event_name': event_name,
 												'tier': ticket_tiers[k], 'qty': qty, 'cost': qty * price, 
 												'seats' : res['seats'],
-												'ts': long(time.time()) }	
+												'ts': ts }	
 					p.hmset("sales_order:" + order_id, purchase)
+					inv = { 'customer': customer_id,
+		        			'order_date': ts,
+		        			'due_date': ts + datetime.timedelta(days=90),
+	        				'amount_due': qty * price,
+		        			'status': "Invoiced" }
+		        	p.hmset("invoice:" + order_id, inv)
+		        	p.sadd("invoices:" + customer_id, order_id)
 					p.hincrby("event:" + event_sku, "available:" + ticket_tiers[k], -qty)
 					p.sadd("event:" + event_sku + ":sales_orders", order_id)
 					p.sadd("invoices:" + customer_id, order_id)

@@ -1,3 +1,10 @@
+"""Utility to dump and load keys from Redis. Key value sare encoded in JSON. In
+this module the following functions are available:
+
+	* dump(fn, compress, match)
+	* load(fn, compress)
+
+"""
 from redis import StrictRedis
 import os
 import json
