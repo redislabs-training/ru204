@@ -60,10 +60,10 @@ events = [{'sku': "123-ABC-723",
 
 def create_events(event_array, available=None, price=None, tier="General"):
   """ Create events from the array of passed event details. Provides overrides
-for numbe rof availbale tickets, price and ticket tier."""
+for number of available tickets, price and ticket tier."""
   e_set_key = keynamehelper.create_key_name("events")
   for event in event_array:
-    # Override the availbaility & price if provided
+    # Override the availability & price if provided
     if available != None:
       event['available:' + tier] = available
     if price != None:
@@ -74,7 +74,7 @@ for numbe rof availbale tickets, price and ticket tier."""
 
 # Part One - Check availability and Purchase
 def check_availability_and_purchase(customer, event_sku, qty, tier="General"):
-  """Check if there is sufficient inventory before makign the purchase"""
+  """Check if there is sufficient inventory before making the purchase"""
   p = redis.pipeline()
   try:
     e_key = keynamehelper.create_key_name("event", event_sku)
@@ -100,17 +100,17 @@ def check_availability_and_purchase(customer, event_sku, qty, tier="General"):
   print "Purchase complete!"
 
 def print_event_details(event_sku):
-  """Print the details of the event, base don the pased SKU"""
+  """Print the details of the event, based on the passed SKU"""
   e_key = keynamehelper.create_key_name("event", event_sku)
   print redis.hgetall(e_key)
 
 def test_check_and_purchase():
   """Test function Check & purchase method"""
-  print "\n==Check stock levels & purchase"
+  print "\n==Test 1: Check stock levels & purchase"
   # Create events with 10 tickets available
   create_events(events, available=10)
 
-  # Stock availbale
+  # Stock available
   print  "== Request 5 ticket, success"
   requestor = "bill"
   event_requested = "123-ABC-723"
@@ -118,7 +118,7 @@ def test_check_and_purchase():
   print_event_details(event_requested)
 
   # No purchase, not enough stock
-  print  "== Request 10 ticket, failure because of insufficient inventory"
+  print  "== Request 6 ticket, failure because of insufficient inventory"
   requestor = "mary"
   event_requested = "123-ABC-723"
   check_availability_and_purchase(requestor, event_requested, 6)
@@ -139,7 +139,7 @@ then confirm the inventory deduction or back the deducation out."""
       price = float(redis.hget(e_key, "price:" + tier))
       p.hincrby(e_key, "available:" + tier, -qty)
       p.hincrby(e_key, "held:" + tier, qty)
-      # Create a hash to store the seat hold infromation
+      # Create a hash to store the seat hold information
       hold_key = keynamehelper.create_key_name("ticket_hold", event_sku)
       p.hsetnx(hold_key, "qty:" + order_id, qty)
       p.hsetnx(hold_key, "tier:" + order_id, tier)
@@ -207,7 +207,7 @@ def backout_hold(event_sku, order_id):
 
 def test_reserve():
   """Test function reserve & credit auth"""
-  print "\n==Reserve stock, perform credit auth and complete purchase"
+  print "\n==Test 2: Reserve stock, perform credit auth and complete purchase"
   # Create events with 10 tickets available
   create_events(events, available=10)
 
@@ -248,8 +248,8 @@ backout the reservation and return the inventory back to the pool."""
       backout_hold(event_sku, order_id)
 
 def test_expired_res():
-  """Test function expured reservations"""
-  print "\n==Back out reserations when expiration threshold exceeded"
+  """Test function expired reservations"""
+  print "\n==Test 3: Back out reservations when expiration threshold exceeded"
 
   # Create events
   create_events(events)
@@ -263,13 +263,13 @@ def test_expired_res():
   e_key = keynamehelper.create_key_name("ticket_hold", event_requested)
   while True:
     expire_reservation(event_requested)
-    oustanding = redis.hmget(e_key, "qty:VPIR6X", "qty:B1BFG7", "qty:UZ1EL0")
-    availbale = redis.hget(e_key, "available:" + tier)
+    outstanding = redis.hmget(e_key, "qty:VPIR6X", "qty:B1BFG7", "qty:UZ1EL0")
+    available = redis.hget(e_key, "available:" + tier)
     print "{}, Available:{}, Reservations:{}".format(event_requested,
-                                                     availbale,
-                                                     oustanding)
-    # Break if all items in oustanding list are None
-    if all(v is None for v in oustanding):
+                                                     available,
+                                                     outstanding)
+    # Break if all items in outstanding list are None
+    if all(v is None for v in outstanding):
       break
     else:
       time.sleep(1)
