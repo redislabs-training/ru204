@@ -1,4 +1,4 @@
-FROM gcr.io/redis-labs/virtual-lab:v2
+FROM gcr.io/redis-labs/virtual-lab:v9
 
 COPY redisu/ru101 /src/redisu/ru101
 COPY redisu/utils /src/redisu/utils

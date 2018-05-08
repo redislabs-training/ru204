@@ -14,8 +14,8 @@ keynamehelper.set_prefix("uc03")
 __max__seats_per_block__ = 32
 
 def create_event(event_sku, blocks=2, seats_per_block=32, tier="General"):
-  """Create the seats blocks for the given event. 32 bits are availbale for
-seats. This could be extended to accomodate more bits, by storing mutliple
+  """Create the seats blocks for the given event. 32 bits are available for
+seats. This could be extended to accommodate more bits, by storing multiple
 u32 fields."""
   block_name = "A"
   for _ in range(blocks):
@@ -35,7 +35,7 @@ def get_event_seat_block(event_sku, tier, block_name):
 def print_event_seat_map(event_sku, tier="*"):
   """Format the seat map for display purposes."""
   key = keynamehelper.create_key_name("seatmap", event_sku, tier, "*")
-  for block in redis.keys(key):
+  for block in redis.scan_iter(key):
     (_, tier_name, block_name) = block.rsplit(":", 2)
     seat_map = get_event_seat_block(event_sku, tier_name, block_name)
     print("{:40s} ").format(block),
@@ -54,18 +54,16 @@ def test_create_seat_map():
   create_event(event, seats_per_block=seats)
   print_event_seat_map(event)
 
-def get_availbale(seat_map, seats_required, first_seat=-1):
+def get_available(seat_map, seats_required):
   """Return the available contiguous seats that match the criteria"""
   seats = []
-  if first_seat != -1:
-    end_seat = first_seat + seats_required -1
-  else:
-    end_seat = seat_map.bit_length()+1
-  required_block = int(math.pow(2, seats_required))-1
-  for i in range(1, end_seat+1):
-    if (seat_map & required_block) == required_block:
-      seats.append({'first_seat': i, 'last_seat': i + seats_required -1})
-    required_block = required_block << 1
+  end_seat = seat_map.bit_length()+1
+  if seats_required <= end_seat:
+    required_block = int(math.pow(2, seats_required))-1
+    for i in range(1, end_seat+1):
+      if (seat_map & required_block) == required_block:
+        seats.append({'first_seat': i, 'last_seat': i + seats_required -1})
+      required_block = required_block << 1
   return seats
 
 def find_seat_selection(event_sku, tier, seats_required):
@@ -73,14 +71,13 @@ def find_seat_selection(event_sku, tier, seats_required):
   # Get all the seat rows
   seats = []
   key = keynamehelper.create_key_name("seatmap", event_sku, tier, "*")
-  blocks = redis.keys(key)
-  for block in blocks:
+  for block in redis.scan_iter(key):
     # Find if there are enough seats in the row, before checking if they
     # are contiguous
     if redis.bitcount(block) >= seats_required:
       (_, tier_name, block_name) = block.rsplit(":", 2)
       seat_map = get_event_seat_block(event_sku, tier_name, block_name)
-      block_availability = get_availbale(seat_map, seats_required)
+      block_availability = get_available(seat_map, seats_required)
       if len(block_availability) > 0:
         seats.append({'event': event_sku, 'tier' : tier_name,
                       'block': block_name, 'available': block_availability})
@@ -88,7 +85,7 @@ def find_seat_selection(event_sku, tier, seats_required):
       print "Row '{}' does not have enough seats".format(block)
   return seats
 
-def print_seat_availbailiy(seats):
+def print_seat_availabiliy(seats):
   """Print out the seat availbaility"""
   for block in seats:
     print "Event: {}".format(block['event'])
@@ -109,18 +106,20 @@ def test_find_seats():
   print "\n==Test - Find Seats"
   event = "123-ABC-723"
   seats = 10
-  print "== Find 8 contigious availbale seats"
+  create_event(event, seats_per_block=seats)
+
+  print "== Find 6 contiguous available seats"
   available_seats = find_seat_selection(event, "General", 6)
-  print_seat_availbailiy(available_seats)
+  print_seat_availabiliy(available_seats)
 
   # Check that we skip rows
   print """== Remove a 4 seat from Block A, so only Block B has the right
- availbaility for 6 seats"""
+ availability for 6 seats"""
   # Unset bits 2-5
   set_seat_map(event, "General", "A", int(math.pow(2, seats) - 31))
   print_event_seat_map(event)
-  available_seats = find_seat_selection(event, "General", 8)
-  print_seat_availbailiy(available_seats)
+  available_seats = find_seat_selection(event, "General", 6)
+  print_seat_availabiliy(available_seats)
 
 # Part Two - reserve seats
 class Error(Exception):
@@ -141,29 +140,26 @@ def reservation(event_sku, tier, block_name, first_seat, last_seat):
   reserved = False
   p = redis.pipeline()
   try:
-    seat_map = get_event_seat_block(event_sku, tier, block_name)
-    seats = get_availbale(seat_map, last_seat - first_seat + 1, first_seat)
-    if len(seats) > 0:
-      for i in range(first_seat, last_seat+1):
-        # Reserve individual seat, raise exception is already reserved
-        seat_key = keynamehelper.create_key_name("seatres", event_sku,
-                                                 tier, block_name, str(i))
-        if redis.set(seat_key, True, px=5000, nx=True) != True:
-          raise SeatTaken(i, seat_key)
-      order_id = generate.order_id()
-      required_block = int(math.pow(2, 
-                                    last_seat-first_seat +1)
-                          ) -1 << (first_seat-1)
-      vals = ["SET", "u32", 0, required_block]
-      order_key = keynamehelper.create_key_name("seatres", event_sku,
-                                                tier, block_name, order_id)
-      p.execute_command("BITFIELD", order_key, *vals)
-      p.expire(order_key, 5)
-      block_key = keynamehelper.create_key_name("seatmap", event_sku,
-                                                tier, block_name)
-      p.bitop("XOR", block_key, block_key, order_key)
-      p.execute()
-      reserved = True
+    for i in range(first_seat, last_seat+1):
+      # Reserve individual seat, raise exception is already reserved
+      seat_key = keynamehelper.create_key_name("seatres", event_sku,
+                                               tier, block_name, str(i))
+      if redis.set(seat_key, True, px=5000, nx=True) != True:
+        raise SeatTaken(i, seat_key)
+    order_id = generate.order_id()
+    required_block = int(math.pow(2,
+                                  last_seat-first_seat +1)
+                        ) -1 << (first_seat-1)
+    vals = ["SET", "u32", 0, required_block]
+    res_key = keynamehelper.create_key_name("seatres", event_sku,
+                                            tier, block_name, order_id)
+    p.execute_command("BITFIELD", res_key, *vals)
+    p.expire(res_key, 5)
+    block_key = keynamehelper.create_key_name("seatmap", event_sku,
+                                              tier, block_name)
+    p.bitop("XOR", block_key, block_key, res_key)
+    p.execute()
+    reserved = True
   except SeatTaken as error:
     print "Seat Taken/{}".format(error.message)
   finally:
@@ -185,7 +181,7 @@ def test_reserved_seats():
 
   print "== Request 2 seats, succeeds"
   seats = find_seat_selection(event, "VIP", 2)
-  print_seat_availbailiy(seats)
+  print_seat_availabiliy(seats)
   # Just choose the first found
   made_reservation = reservation(event, "VIP", seats[0]['block'],
                                  seats[0]['available'][0]['first_seat'],
@@ -196,7 +192,7 @@ def test_reserved_seats():
   # Find space for 5 seats
   print "== Request 5 seats, succeeds"
   seats = find_seat_selection(event, "VIP", 5)
-  print_seat_availbailiy(seats)
+  print_seat_availabiliy(seats)
   # Just choose the first found
   made_reservation = reservation(event, "VIP", seats[0]['block'],
                                  seats[0]['available'][0]['first_seat'],
@@ -227,7 +223,7 @@ def test_reserved_seats():
   print_event_seat_map(event)
 
 def main():
-  """ Main, used to call the three solutions for Faceted Search"""
+  """ Main, used to call test cases for this use case"""
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),

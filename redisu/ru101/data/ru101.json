@@ -1,3 +1,4 @@
+{"k": "hello", "v": "world", "e": "embstr", "t": "string", "ttl": -1}
 {"k": "sales_order:RCBVXM-CELJA", "v": {"customer": "ZRCTSYZP", "order_id": "RCBVXM-CELJA", "ts": "1524868581", "qty": "44", "event_name": "Archery", "cost": "1408.0", "seats": "['BT:26', 'AR:30', 'L:17', 'L:25', 'B:26', 'B:19', 'B:6', 'AX:6', 'AD:17', 'CB:23', 'CB:13', 'CB:10', 'AJ:29', 'BJ:21', 'BL:23', 'D:30', 'D:2', 'BD:2', 'CD:12', 'CD:18', 'CD:4', 'CD:20', 'CD:26', 'BN:9', 'BN:7', 'BN:23', 'BN:17', 'BN:22', 'AL:24', 'AF:15', 'AF:12', 'AF:9', 'AF:18', 'AF:29', 'AF:10', 'AF:4', 'BV:23', 'BV:26', 'BV:4', 'BV:19', 'AH:29', 'AH:7', 'AV:25', 'V:24']", "tier": "Reserved", "event": "NNGY-IXPK-YPSE-OIOZ", "customer_name": "Caleb Vaughn"}, "t": "hash", "ttl": -1}
 {"k": "seatmap:BRIZ-GFIJ-BGVK-TYYK:General:BS", "v": "/////w==", "e": "raw", "t": "string", "ttl": -1}
 {"k": "seatmap:ZWBJ-QZZL-QNDR-GGQJ:General:AW", "v": "gQAAEA==", "e": "raw", "t": "string", "ttl": -1}
