@@ -67,7 +67,7 @@ def create_venue(venue):
   key = keynamehelper.create_key_name("geo", "venue")
   redis.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
 
-def test_venue_searches():
+def test_venue_search():
   """Test 1 - geo searches around a venue"""
   print "\n==Test 1 - geo searches around a venue"
   create_venue(olympic_stadium)
@@ -95,7 +95,7 @@ def create_event_locations(venue):
     p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
   p.execute()
 
-def test_event_searches():
+def test_event_search():
   """Test 2 - geo searches around events"""
   print "\n==Test 2 - geo searches around events"
   create_event_locations(olympic_stadium)
@@ -119,7 +119,7 @@ def create_event_transit_locations(venue):
     p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
   p.execute()
 
-def test_transit_searches():
+def test_transit_search():
   """Test 3 - geo searched around transit"""
   print "\n==Test 3 - geo searched around transit"
   create_event_transit_locations(olympic_stadium)
@@ -154,9 +154,9 @@ def main():
                       db=0)
 
   # Performs the tests
-  test_venue_searches()
-  test_event_searches()
-  test_transit_searches()
+  test_venue_search()
+  test_event_search()
+  test_transit_search()
 
 if __name__ == "__main__":
     main()

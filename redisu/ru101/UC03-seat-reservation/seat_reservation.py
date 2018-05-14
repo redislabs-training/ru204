@@ -134,8 +134,8 @@ class SeatTaken(Error):
     self.message = message
 
 def reservation(event_sku, tier, block_name, first_seat, last_seat):
-  """ Reserve the required seats. Creat an expiring key (i.e. a latch) to
- reserve each seat. If that is succesful, then an XOR can be executed to
+  """ Reserve the required seats. Create an expiring key (i.e. a latch) to
+ reserve each seat. If that is successful, then an XOR can be executed to
  update the seta map, without needed a Watch."""
   reserved = False
   p = redis.pipeline()
