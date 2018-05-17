@@ -25,3 +25,6 @@ def set_sep(ch):
 
 def create_key_name(*vals):
 	return ((__prefix__ + __sep__ ) if (__prefix__ != "") else "") + "%s" % __sep__.join(vals)
+
+def create_field_name(*vals):
+	return "%s" % __sep__.join(vals)

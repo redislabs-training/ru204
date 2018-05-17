@@ -26,7 +26,7 @@ def purchase(event_sku):
   order_id = generate.order_id()
   s_order = {'who': "Jim", 'qty': qty, 'cost': qty * price,
              'order_id': order_id, 'event': event_sku,
-             'ts': long(time.time())}
+             'ts': generate.random_time_today()}
   post_purchases(order_id, s_order)
 
 # def post_purchases(order_id, s_order):
@@ -50,7 +50,8 @@ def listener_sales_analytics(queue):
   """Listener to summarize the sales statistics. Histograms, using
  BITFIELDs are maintained to show sales by hour."""
   l = redis.pubsub(ignore_subscribe_messages=True)
-  l.subscribe(queue)
+  queue_key = keynamehelper.create_key_name(queue)
+  l.subscribe(queue_key)
   p = redis.pipeline()
   for message in l.listen():
     order_id = message['data']
@@ -70,7 +71,8 @@ def listener_sales_analytics(queue):
 def listener_events_analytics(queue):
   """Listener to sumamrize total sales by ticket numbers and order value."""
   l = redis.pubsub(ignore_subscribe_messages=True)
-  l.subscribe(queue)
+  queue_key = keynamehelper.create_key_name(queue)
+  l.subscribe(queue_key)
   p = redis.pipeline()
   for message in l.listen():
     order_id = message['data']
@@ -79,15 +81,20 @@ def listener_events_analytics(queue):
     so_set_key = keynamehelper.create_key_name("sales", event_sku)
     p.sadd(so_set_key, order_id)
     sum_key = keynamehelper.create_key_name("sales_summary")
-    p.hincrbyfloat(sum_key, event_sku + ":total_sales", cost)
-    p.hincrby(sum_key, event_sku + ":total_tickets_sold", qty)
+    p.hincrbyfloat(sum_key,
+                   keynamehelper.create_field_name(event_sku, "total_sales"),
+                   cost)
+    p.hincrby(sum_key,
+              keynamehelper.create_field_name(event_sku, "total_tickets_sold"),
+              qty)
     p.execute()
 
 def listener_customer_purchases(queue):
   """Listener which post the Invoice details an adds to the customers
  list of Invoices."""
   l = redis.pubsub(ignore_subscribe_messages=True)
-  l.subscribe(queue)
+  queue_key = keynamehelper.create_key_name(queue)
+  l.subscribe(queue_key)
   p = redis.pipeline()
   for message in l.listen():
     order_id = message['data']
@@ -109,34 +116,28 @@ def print_statistics(stop_event):
   """Thread that prints current event statsistics."""
   sum_key = keynamehelper.create_key_name("sales_summary")
   print "\n === START"
+  print "{:25} + {:20} + {:3} + Historgam by hour".format("Timestamp",
+                                                          "Event",
+                                                          "#")
   while not stop_event.is_set():
-    print "\n======== {}".format(time.strftime("%a, %d %b %Y %H:%M:%S"))
+    ts = time.strftime("%a, %d %b %Y %H:%M:%S")
     e_key = keynamehelper.create_key_name("event", "*")
     for event in redis.scan_iter(match=e_key):
       (_, event_sku) = event.rsplit(":", 1)
-      (t_sales, t_tickets) = redis.hmget(sum_key,
-                                         event_sku + ":total_sales",
-                                         event_sku + ":total_tickets_sold")
-      print "Event: {}, Totals Sales: {}, Total Tickets Sold: {}"\
-        .format(event_sku, t_sales, t_tickets)
+      field_key = keynamehelper.create_field_name(event_sku,
+                                                  "total_tickets_sold")
+      t_tickets = redis.hget(sum_key, field_key)
       tod_hist_key = keynamehelper.create_key_name("sales_histogram",
                                                    "time_of_day",
                                                    event_sku)
       hist = redis.get(tod_hist_key)
       if hist != None:
         hist_vals = [hist[i:i+1] for i in range(0, len(hist), 1)]
-        print " Histogram: ",
+        print "\n{:25} | {:20} | {:3d} | ".format(ts,
+                                                  event_sku,
+                                                  int(t_tickets)),
         for i in range(0, 24):
-          print " {}/{}".format(i,
-                                ord(hist_vals[i]) if i < len(hist_vals) else 0),
-
-      # for i in range(0, 24):
-      #   vals = ["GET", "u8", (i+1) * 8]
-      #   total_sales = int(redis.execute_command("BITFIELD",
-      #                                           tod_hist_key,
-      #                                           *vals)[0])
-      #   print " {}/{}".format(i, total_sales),
-      print "\n"
+          print "{:02d}/{:03d}".format(i, ord(hist_vals[i]) if i < len(hist_vals) else 0),
     time.sleep(1)
   print "\n === END"
 
@@ -146,13 +147,12 @@ def test_pub_sub():
   print "== Test 1: Simple pub/sub"
   threads = []
   stop_event = threading.Event()
-  queue = keynamehelper.create_key_name("sales_order_notify")
   threads.append(threading.Thread(target=listener_sales_analytics,
-                                  args=(queue,)))
+                                  args=("sales_order_notify",)))
   threads.append(threading.Thread(target=listener_events_analytics,
-                                  args=(queue,)))
+                                  args=("sales_order_notify",)))
   threads.append(threading.Thread(target=listener_customer_purchases,
-                                  args=(queue,)))
+                                  args=("sales_order_notify",)))
   threads.append(threading.Thread(target=print_statistics,
                                   args=(stop_event,)))
 
@@ -160,38 +160,31 @@ def test_pub_sub():
     threads[i].setDaemon(True)
     threads[i].start()
 
-  events = ["Womens Judo", "Mens 4x400"]
+  events = ["Womens Judo"]
   for e in events:
     create_event(e)
 
   for i in range(15):
     purchase(events[random.randrange(0, len(events))])
-    time.sleep(2)
+    time.sleep(random.choice((0.75, 1, 1.25, 1.5)))
   stop_event.set()
   time.sleep(2)
 
 # Part Two - pattern subscriptions
-# def post_purchases(order_id, s_order):
-#   """Publish purchases to the queue."""
-#   so_key = keynamehelper.create_key_name("sales_order", order_id)
-#   redis.hmset(so_key, s_order)
-#   notify_key = keynamehelper.create_key_name("sales_order_notify")
-#   redis.publish(notify_key, order_id)
-#   notify_key = keynamehelper.create_key_name("sales_order_notify",
-#                                              s_order['event'])
-#   redis.publish(notify_key, order_id)
 
 # Subscribe for 'Opening Ceremony' events, pick every 5th purchase as the
 # lottry winner
-def listener_oc_alerter(queue):
+def listener_oc_alerter(queue, event="Opening Ceremony"):
   """Listener that looks for 'Opening Ceremony' events only. If then tracks
  a Lottery content, award a prize for every 5th order for this event only."""
   l = redis.pubsub(ignore_subscribe_messages=True)
-  l.subscribe(queue + ":Opening Ceremony")
+  queue_key = keynamehelper.create_key_name(queue, event)
+  l.subscribe(queue_key)
   for message in l.listen():
     order_id = message['data']
     sum_key = keynamehelper.create_key_name("sales_summary")
-    total_orders = redis.hincrby(sum_key, "Opening Ceremony:total_orders", 1)
+    field_key = keynamehelper.create_field_name(event, "total_orders")
+    total_orders = redis.hincrby(sum_key, field_key, 1)
     if total_orders % 5 == 0:
       print "===> Winner!!!!! Opening Ceremony Lottery - Order Id: {}"\
         .format(order_id)
@@ -200,7 +193,8 @@ def listener_oc_alerter(queue):
 def listener_event_alerter(queue):
   """Listener for purchases for events other than 'Opening Ceremony'."""
   l = redis.pubsub(ignore_subscribe_messages=True)
-  l.psubscribe(queue + ":[^(Opening)]*")
+  queue_key = keynamehelper.create_key_name(queue, "[^(Opening)]*")
+  l.psubscribe(queue_key)
   for message in l.listen():
     order_id = message['data']
     so_key = keynamehelper.create_key_name("sales_order", order_id)
@@ -211,18 +205,18 @@ def test_patterned_subs():
   """Test function for patterned subscriptions"""
   print "==Test 2: Patterned subscribers - Opening Ceremony Lottery picker"
 
-  threads_2 = []
-  queue = keynamehelper.create_key_name("sales_order_notify")
-  threads_2.append(threading.Thread(target=listener_oc_alerter,
-                                    args=(queue,)))
-  threads_2.append(threading.Thread(target=listener_event_alerter,
-                                    args=(queue,)))
+  threads = []
+  threads.append(threading.Thread(target=listener_oc_alerter,
+                                    args=("sales_order_notify",)))
+  threads.append(threading.Thread(target=listener_event_alerter,
+                                    args=("sales_order_notify",)))
 
-  for i in range(len(threads_2)):
-    threads_2[i].setDaemon(True)
-    threads_2[i].start()
+  for i in range(len(threads)):
+    threads[i].setDaemon(True)
+    threads[i].start()
 
-  events = ["Womens Judo", "Mens 4x400", "Opening Ceremony", "Closing Ceremony"]
+  events = ["Mens Boxing", "Womens 4x400",
+            "Opening Ceremony", "Closing Ceremony"]
   for e in events:
     create_event(e)
 
