@@ -9,8 +9,6 @@ import redisu.utils.keynamehelper as keynamehelper
 
 redis = None
 
-keynamehelper.set_prefix("uc01")
-
 __events__ = [{'sku': "123-ABC-723",
                'name': "Men's 100m Final",
                'disabled_access': True,
@@ -204,4 +202,5 @@ def main():
   test_hashed_faceting()
 
 if __name__ == "__main__":
-    main()
+  keynamehelper.set_prefix("uc01")
+  main()

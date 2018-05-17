@@ -9,8 +9,6 @@ import redisu.ru101.common.generate as generate
 
 redis = None
 
-keynamehelper.set_prefix("uc02")
-
 customers = [{'id': "bill", 'customer_name': "bill smith"},
              {'id': "mary", 'customer_name': "mary jane"},
              {'id': "jamie", 'customer_name': "jamie north"},
@@ -287,4 +285,5 @@ def main():
   test_expired_res()
 
 if __name__ == "__main__":
-    main()
+  keynamehelper.set_prefix("uc02")
+  main()

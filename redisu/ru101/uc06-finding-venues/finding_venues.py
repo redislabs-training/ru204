@@ -7,8 +7,6 @@ import redisu.utils.keynamehelper as keynamehelper
 
 redis = None
 
-keynamehelper.set_prefix("uc06")
-
 olympic_stadium = {'venue': "Olympic Stadium",
                    'capacity': 60000,
                    'events': [("Athletics", "LQRW-GDOE-GZJR-KWXT"),
@@ -159,5 +157,6 @@ def main():
   test_transit_search()
 
 if __name__ == "__main__":
-    main()
+  keynamehelper.set_prefix("uc06")
+  main()
 

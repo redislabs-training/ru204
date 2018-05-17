@@ -12,7 +12,7 @@ import time
 import datetime
 import redisu.utils.textincr as textincr
 import redisu.ru101.common.generate
-from redisu.utils.keynamehelper import create_key_name
+from redisu.utils.keynamehelper import create_key_name, create_field_name
 
 redis = None
 fake = None
@@ -28,10 +28,10 @@ def create_customers(num):
   fake.seed(94002)
   for _ in range(num):
     cust_id = redisu.ru101.common.generate.cust_id()
-    p.hmset(create_key_name("customer", cust_id),
-            {'customer_name': fake.name(),
-             'address': fake.address(),
-             'phone': fake.phone_number()})
+    attr = {'customer_name': fake.name(),
+            'address': fake.address(),
+            'phone': fake.phone_number()}
+    p.hmset(create_key_name("customer", cust_id), attr)
     p.sadd(create_key_name("customers"), cust_id)
     p.execute()
     customers.append(cust_id)
@@ -58,9 +58,8 @@ def create_event(event,
     tiers_availbale = random.randint(1, 3)
     tier_capacity = int(round(event_capacity / tiers_availbale))
     for k in range(tiers_availbale, 0, -1):
-      attrs['available:' + ticket_tiers[k]] = tier_capacity
-      attrs['price:' + ticket_tiers[k]] = random.randint(10 * (k+1),
-                                                         10 * (k+1) + 9)
+      attrs[create_field_name('available', ticket_tiers[k])] = tier_capacity
+      attrs[create_field_name('price', ticket_tiers[k])] =  random.randint(10 * (k+1), 10 * (k+1) + 9)
     p.hmset(create_key_name("event", sku), attrs)
     if add_seatmap:
       create_seatmap(sku, tiers_availbale, tier_capacity)
@@ -79,8 +78,8 @@ def create_faceted_search(obj, key="sku", attrs=search_attrs):
   """Add keys for faceted search unit"""
   for k in range(len(attrs)):
     if search_attrs[k] in obj:
-      k = create_key_name("fs", search_attrs[k], str(obj[search_attrs[k]]))
-      redis.sadd(k, obj[key] if (key in obj) else None)
+      fs_key = create_key_name("fs", search_attrs[k], str(obj[search_attrs[k]]))
+      redis.sadd(fs_key, obj[key] if (key in obj) else None)
 
 def create_hashed_search(obj, key="sku", attrs=search_attrs):
   """Add keys for hashed search unit"""
@@ -105,9 +104,9 @@ def create_seatmap(event_sku, tiers, capacity):
     filled_seat_map = int(math.pow(2, seats_in_block))-1
     # vals = ["SET", "u32", k * seats_per_block, filled_seat_map]
     vals = ["SET", "u32", 0, filled_seat_map]
-    k = create_key_name("seatmap", event_sku,
-                        ticket_tiers[(k % tiers) +1], block_name)
-    p.execute_command("BITFIELD", k, *vals)
+    seat_key = create_key_name("seatmap", event_sku,
+                               ticket_tiers[(k % tiers) +1], block_name)
+    p.execute_command("BITFIELD", seat_key, *vals)
     to_fill -= seats_in_block
     block_name = textincr.incr_str(block_name)
   p.execute()
@@ -163,9 +162,11 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
       event_sku = events[random.randint(0, len(events)-1)]
       for k in range(len(ticket_tiers)-1, 0, -1):
         event_k = create_key_name("event", event_sku)
-        if redis.hexists(event_k, "available:" + ticket_tiers[k]):
-          price = float(redis.hget(event_k, "price:" + ticket_tiers[k]))
-          availbale = long(redis.hget(event_k, "available:" + ticket_tiers[k]))
+        if redis.hexists(event_k, create_field_name("available", ticket_tiers[k])):
+          price = float(redis.hget(event_k,
+                                   create_field_name("price", ticket_tiers[k])))
+          availbale = long(redis.hget(event_k,
+                                      create_field_name("available", ticket_tiers[k])))
           event_name = redis.hget(event_k, "name")
           if availbale > 1:
             qty = random.randint(1, min(75, availbale/2))
@@ -174,11 +175,13 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
           else:
             continue
           res = find_seats(event_sku, ticket_tiers[k], qty)
+          qty_allocated = res['assigned']
           ts = long(time.time())
           purchase = {'customer': customer_id, 'customer_name': customer_name,
                       'order_id': order_id,
                       'event': event_sku, 'event_name': event_name,
-                      'tier': ticket_tiers[k], 'qty': qty, 'cost': qty * price,
+                      'tier': ticket_tiers[k],
+                      'qty': qty_allocated, 'cost': qty_allocated * price,
                       'seats' : res['seats'],
                       'ts': ts}
           p.hmset(create_key_name("sales_order", order_id), purchase)
@@ -186,29 +189,33 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
                  'order_date': ts,
                  'due_date': datetime.date.fromtimestamp(ts) +
                              datetime.timedelta(days=90),
-                 'amount_due': qty * price,
+                 'amount_due': qty_allocated * price,
                  'status': "Invoiced"}
           p.hmset(create_key_name("invoice", order_id), inv)
           p.sadd(create_key_name("invoices", customer_id), order_id)
           p.hincrby(create_key_name("event", event_sku),
-                    "available:" + ticket_tiers[k], -qty)
-          p.sadd(create_key_name("event", event_sku, "sales_orders"), order_id)
+                    create_field_name("available", ticket_tiers[k]),
+                    -qty)
+          p.sadd(create_key_name("event", event_sku, "sales_orders"),
+                 order_id)
           sum_key = create_key_name("sales_summary", event_name)
           p.hincrbyfloat(sum_key, "total_sales", qty * price)
           p.hincrby(sum_key, "total_tickets_sold", qty)
           p.hincrbyfloat(sum_key,
-                         create_key_name("total_sales", ticket_tiers[k]),
+                         create_field_name("total_sales", ticket_tiers[k]),
                          qty * price)
           p.hincrby(sum_key,
-                    create_key_name("total_tickets_sold", ticket_tiers[k]), qty)
+                    create_field_name("total_tickets_sold", ticket_tiers[k]),
+                    qty)
           sum_key = create_key_name("sales_summary")
           p.hincrbyfloat(sum_key, "total_sales", qty * price)
           p.hincrby(sum_key, "total_tickets_sold", qty)
           p.hincrbyfloat(sum_key,
-                         create_key_name("total_sales", ticket_tiers[k]),
+                         create_field_name("total_sales", ticket_tiers[k]),
                          qty * price)
           p.hincrby(sum_key,
-                    create_key_name("total_tickets_sold", ticket_tiers[k]), qty)
+                    create_field_name("total_tickets_sold", ticket_tiers[k]),
+                    qty)
           p.execute()
           break
 

@@ -12,8 +12,6 @@ import redisu.ru101.common.generate as generate
 
 redis = None
 
-keynamehelper.set_prefix("uc05")
-
 def create_event(event_sku):
   """Create the event key from the provided details."""
   e_key = keynamehelper.create_key_name("event", event_sku)
@@ -236,5 +234,6 @@ def main():
   test_patterned_subs()
 
 if __name__ == "__main__":
-    main()
+  keynamehelper.set_prefix("uc05")
+  main()
 

@@ -9,8 +9,6 @@ import redisu.ru101.common.generate as generate
 
 redis = None
 
-keynamehelper.set_prefix("uc03")
-
 __max__seats_per_block__ = 32
 
 def create_event(event_sku, blocks=2, seats_per_block=32, tier="General"):
@@ -234,4 +232,5 @@ def main():
   test_reserved_seats()
 
 if __name__ == "__main__":
-    main()
+  keynamehelper.set_prefix("uc03")
+  main()
