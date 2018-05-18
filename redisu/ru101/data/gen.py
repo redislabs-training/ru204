@@ -162,11 +162,12 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
       event_sku = events[random.randint(0, len(events)-1)]
       for k in range(len(ticket_tiers)-1, 0, -1):
         event_k = create_key_name("event", event_sku)
-        if redis.hexists(event_k, create_field_name("available", ticket_tiers[k])):
+        ticket_tier = ticket_tiers[k]
+        if redis.hexists(event_k, create_field_name("available", ticket_tier)):
           price = float(redis.hget(event_k,
-                                   create_field_name("price", ticket_tiers[k])))
+                                   create_field_name("price", ticket_tier)))
           availbale = long(redis.hget(event_k,
-                                      create_field_name("available", ticket_tiers[k])))
+                                      create_field_name("available", ticket_tier)))
           event_name = redis.hget(event_k, "name")
           if availbale > 1:
             qty = random.randint(1, min(75, availbale/2))
@@ -175,13 +176,14 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
           else:
             continue
           res = find_seats(event_sku, ticket_tiers[k], qty)
-          qty_allocated = res['assigned']
           ts = long(time.time())
+          qty_allocated = res['assigned']
+          order_total = qty_allocated * price
           purchase = {'customer': customer_id, 'customer_name': customer_name,
                       'order_id': order_id,
                       'event': event_sku, 'event_name': event_name,
                       'tier': ticket_tiers[k],
-                      'qty': qty_allocated, 'cost': qty_allocated * price,
+                      'qty': qty_allocated, 'cost': order_total,
                       'seats' : res['seats'],
                       'ts': ts}
           p.hmset(create_key_name("sales_order", order_id), purchase)
@@ -189,33 +191,34 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
                  'order_date': ts,
                  'due_date': datetime.date.fromtimestamp(ts) +
                              datetime.timedelta(days=90),
-                 'amount_due': qty_allocated * price,
+                 'amount_due': order_total,
                  'status': "Invoiced"}
           p.hmset(create_key_name("invoice", order_id), inv)
-          p.sadd(create_key_name("invoices", customer_id), order_id)
+          p.rpush(create_key_name("invoices", customer_id), order_id)
+          p.zadd(create_key_name("invoice_totals"), order_total, order_id)
           p.hincrby(create_key_name("event", event_sku),
                     create_field_name("available", ticket_tiers[k]),
-                    -qty)
+                    -qty_allocated)
           p.sadd(create_key_name("event", event_sku, "sales_orders"),
                  order_id)
           sum_key = create_key_name("sales_summary", event_name)
-          p.hincrbyfloat(sum_key, "total_sales", qty * price)
-          p.hincrby(sum_key, "total_tickets_sold", qty)
+          p.hincrbyfloat(sum_key, "total_sales", order_total)
+          p.hincrby(sum_key, "total_tickets_sold", qty_allocated)
           p.hincrbyfloat(sum_key,
                          create_field_name("total_sales", ticket_tiers[k]),
-                         qty * price)
+                         order_total)
           p.hincrby(sum_key,
                     create_field_name("total_tickets_sold", ticket_tiers[k]),
-                    qty)
+                    qty_allocated)
           sum_key = create_key_name("sales_summary")
-          p.hincrbyfloat(sum_key, "total_sales", qty * price)
-          p.hincrby(sum_key, "total_tickets_sold", qty)
+          p.hincrbyfloat(sum_key, "total_sales", order_total)
+          p.hincrby(sum_key, "total_tickets_sold", qty_allocated)
           p.hincrbyfloat(sum_key,
                          create_field_name("total_sales", ticket_tiers[k]),
-                         qty * price)
+                         order_total)
           p.hincrby(sum_key,
                     create_field_name("total_tickets_sold", ticket_tiers[k]),
-                    qty)
+                    qty_allocated)
           p.execute()
           break
 

@@ -27,13 +27,6 @@ def purchase(event_sku):
              'ts': generate.random_time_today()}
   post_purchases(order_id, s_order)
 
-# def post_purchases(order_id, s_order):
-#   """Publishes the Sales Order for listeners to pick up."""
-#   so_key = keynamehelper.create_key_name("sales_order", order_id)
-#   redis.hmset(so_key, s_order)
-#   notify_key = keynamehelper.create_key_name("sales_order_notify")
-#   redis.publish(notify_key, order_id)
-
 def post_purchases(order_id, s_order):
   """Publish purchases to the queue."""
   so_key = keynamehelper.create_key_name("sales_order", order_id)
@@ -143,6 +136,11 @@ def print_statistics(stop_event):
 def test_pub_sub():
   """Test function for pub/sub messages for fan out"""
   print "== Test 1: Simple pub/sub"
+
+  events = ["Womens Judo"]
+  for e in events:
+    create_event(e)
+
   threads = []
   stop_event = threading.Event()
   threads.append(threading.Thread(target=listener_sales_analytics,
@@ -158,9 +156,6 @@ def test_pub_sub():
     threads[i].setDaemon(True)
     threads[i].start()
 
-  events = ["Womens Judo"]
-  for e in events:
-    create_event(e)
 
   for i in range(15):
     purchase(events[random.randrange(0, len(events))])
