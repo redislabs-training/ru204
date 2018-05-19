@@ -146,11 +146,14 @@ def test_transit_search():
 
 def main():
   """ Main, used to call test cases for this use case"""
+  from redisu.utils.clean import clean_keys
+
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),
                       db=0)
 
+  clean_keys(redis)
   # Performs the tests
   test_venue_search()
   test_event_search()

@@ -1,30 +1,35 @@
 """Utility to generate key names based on the variadic parameters passed. The
 key name is generated as follows
-	* prefix
-	* seperator
-	* [ value seperator ]
+  * prefix
+  * seperator
+  * [ value seperator ]
 
 e.g., buy default , gievn the values "foo" and "bar" passed will generate
-	"foo:bar"
+  "foo:bar"
 
 Todo:
-	* Deal with non-string values, rather than rely upon the caller to make
+  * Deal with non-string values, rather than rely upon the caller to make
 into strings
 """
 __prefix__ = ""
 __sep__ = ":"
 
 def set_prefix(ch):
-	global __prefix__
-	__prefix__ = ch
+  global __prefix__
+  __prefix__ = ch
+
+def get_prefix():
+  return __prefix__
 
 def set_sep(ch):
-	global __sep__
-	__sep__ = ch
+  global __sep__
+  __sep__ = ch
 
+def get_sep():
+  return __sep__
 
 def create_key_name(*vals):
-	return ((__prefix__ + __sep__ ) if (__prefix__ != "") else "") + "%s" % __sep__.join(vals)
+  return ((__prefix__ + __sep__ ) if (__prefix__ != "") else "") + "%s" % __sep__.join(vals)
 
 def create_field_name(*vals):
-	return "%s" % __sep__.join(vals)
+  return "%s" % __sep__.join(vals)

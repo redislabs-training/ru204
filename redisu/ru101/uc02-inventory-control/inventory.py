@@ -274,10 +274,13 @@ def test_expired_res():
 
 def main():
   """ Main, used to call test cases for this use case"""
+  from redisu.utils.clean import clean_keys
+
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),
                       db=0)
+  clean_keys(redis)
   create_customers(customers)
   # Performs the tests
   test_check_and_purchase()

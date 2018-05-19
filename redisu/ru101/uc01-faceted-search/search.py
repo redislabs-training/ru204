@@ -192,10 +192,14 @@ def test_hashed_faceting():
 
 def main():
   """ Main, used to call test cases for this use case"""
+  from redisu.utils.clean import clean_keys
+
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),
                       db=0)
+  clean_keys(redis)
+
   # Perform the tests
   test_object_inspection()
   test_facted_search()

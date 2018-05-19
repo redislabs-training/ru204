@@ -222,10 +222,13 @@ def test_reserved_seats():
 
 def main():
   """ Main, used to call test cases for this use case"""
+  from redisu.utils.clean import clean_keys
+
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),
                       db=0)
+  clean_keys(redis)
   # Perform the test cases
   test_create_seat_map()
   test_find_seats()
