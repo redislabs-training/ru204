@@ -6,11 +6,10 @@ this module the following functions are available:
 
 """
 from redis import StrictRedis
-import os
 import sys
 
 
-def dump(r, filename="/data/ru101.json", compress=False, match="*"):
+def dump(redis, filename="/data/ru101.json", compress=False, match="*"):
   """Dump matching keys into JSOn file format"""
   import json
   import base64
@@ -19,30 +18,30 @@ def dump(r, filename="/data/ru101.json", compress=False, match="*"):
   count = 0
   try:
     if compress:
-      fn = gzip.open(filename, "wb")
+      filen = gzip.open(filename, "wb")
     else:
-      fn = open(filename, "w")
-    for k in r.scan_iter(match):
+      filen = open(filename, "w")
+    for k in redis.scan_iter(match):
       obj = {}
-      t = r.type(k)
+      t = redis.type(k)
       obj['t'] = t
       obj['k'] = k
-      obj['ttl'] = r.ttl(k)
+      obj['ttl'] = redis.ttl(k)
       if t == "hash":
-        obj['v'] = r.hgetall(k)
+        obj['v'] = redis.hgetall(k)
       elif t == "set":
-        obj['v'] = list(r.smembers(k))
+        obj['v'] = list(redis.smembers(k))
       elif t == "zset":
-        obj['v'] = r.zrange(k, 0, -1, withscores=True)
+        obj['v'] = redis.zrange(k, 0, -1, withscores=True)
       elif t == "list":
-        obj['v'] = r.lrange(k, 0, -1)
+        obj['v'] = redis.lrange(k, 0, -1)
       elif t == "string":
-        encoding = r.object("encoding", obj['k'])
+        encoding = redis.object("encoding", obj['k'])
         obj['e'] = encoding
         if encoding == "embstr":
-          obj['v'] = r.get(k)
+          obj['v'] = redis.get(k)
         elif encoding == "raw":
-          obj['v'] = base64.b64encode(bytearray(r.get(k)))
+          obj['v'] = base64.b64encode(bytearray(redis.get(k)))
         else:
           print "got a string encoded as {}".format(encoding)
           continue
@@ -50,13 +49,13 @@ def dump(r, filename="/data/ru101.json", compress=False, match="*"):
         print "got a type I don't do: {}".format(t)
         continue
       count += 1
-      fn.write(json.dumps(obj))
-      fn.write("\n")
+      filen.write(json.dumps(obj))
+      filen.write("\n")
   finally:
-    fn.close()
+    filen.close()
     print "total keys dumped: {}".format(count)
 
-def load(r, filename="/data/ru101.json", compress=False):
+def load(redis, filename="/data/ru101.json", compress=False):
   """Load keys from file in JSON format"""
   import json
   import base64
@@ -64,12 +63,12 @@ def load(r, filename="/data/ru101.json", compress=False):
 
   count = 0
   if compress:
-    fn = gzip.open(filename, "rb")
+    filen = gzip.open(filename, "rb")
   else:
-    fn = open(filename, "r")
+    filen = open(filename, "r")
   try:
-    line = fn.readline()
-    p = r.pipeline()
+    line = filen.readline()
+    p = redis.pipeline()
     while line:
       obj = json.loads(line)
       p.delete(obj['k'])
@@ -97,17 +96,24 @@ def load(r, filename="/data/ru101.json", compress=False):
         p.expire(obj['k'], obj['ttl'])
       p.execute()
       count += 1
-      line = fn.readline()
+      line = filen.readline()
   finally:
-    fn.close()
+    filen.close()
     print "total keys loaded: {}".format(count)
 
+def main(command, datafile):
+  """Entry point to execute eithe rthe dump or load"""
+  import os
+  redis_c = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
+                        port=os.environ.get("REDIS_PORT", 6379),
+                        db=0)
+  if command == "load":
+    load(redis_c, filename=datafile)
+  elif command == "dump":
+    dump(redis_c, filename=datafile)
+  else:
+    print "Don't know how to do {}".format(command)
+
 if __name__ == "__main__":
-  r = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                    port=os.environ.get("REDIS_PORT", 6379),
-                    db=0)
-  if sys.argv[1] == "load":
-    load(r, filename=sys.argv[2])
-  elif sys.argv[1] == "dump":
-    dump(r, filename=sys.argv[2])
+  main(sys.argv[1], sys.argv[2])
 

@@ -5,9 +5,7 @@ import hashlib
 import json
 import random
 from faker import Faker
-import string
 import math
-import struct
 import time
 import datetime
 import redisu.utils.textincr as textincr
@@ -59,7 +57,8 @@ def create_event(event,
     tier_capacity = int(round(event_capacity / tiers_availbale))
     for k in range(tiers_availbale, 0, -1):
       attrs[create_field_name('available', ticket_tiers[k])] = tier_capacity
-      attrs[create_field_name('price', ticket_tiers[k])] =  random.randint(10 * (k+1), 10 * (k+1) + 9)
+      attrs[create_field_name('price', ticket_tiers[k])] =\
+        random.randint(10 * (k+1), 10 * (k+1) + 9)
     p.hmset(create_key_name("event", sku), attrs)
     if add_seatmap:
       create_seatmap(sku, tiers_availbale, tier_capacity)
@@ -167,7 +166,8 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
           price = float(redis.hget(event_k,
                                    create_field_name("price", ticket_tier)))
           availbale = long(redis.hget(event_k,
-                                      create_field_name("available", ticket_tier)))
+                                      create_field_name("available",
+                                                        ticket_tier)))
           event_name = redis.hget(event_k, "name")
           if availbale > 1:
             qty = random.randint(1, min(75, availbale/2))
