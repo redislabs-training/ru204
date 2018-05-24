@@ -1,13 +1,7 @@
 """Generate sample data for RU101 course"""
 from redis import StrictRedis
-import os
-import hashlib
-import json
 import random
 from faker import Faker
-import math
-import time
-import datetime
 import redisu.utils.textincr as textincr
 import redisu.ru101.common.generate
 from redisu.utils.keynamehelper import create_key_name, create_field_name
@@ -66,6 +60,8 @@ def create_event(event,
   if geo is not None:
     p.geoadd(create_key_name("geo", "event", event),
              geo['long'], geo['lat'], venue)
+    p.geoadd(create_key_name("geo", "events"),
+             geo['long'], geo['lat'], event)
   if add_faceted_search:
     create_faceted_search(attrs)
   if add_hashed_search:
@@ -82,6 +78,7 @@ def create_faceted_search(obj, key="sku", attrs=search_attrs):
 
 def create_hashed_search(obj, key="sku", attrs=search_attrs):
   """Add keys for hashed search unit"""
+  import hashlib
   hfs = []
   for k in range(len(attrs)):
     if search_attrs[k] in obj:
@@ -91,6 +88,7 @@ def create_hashed_search(obj, key="sku", attrs=search_attrs):
 
 def create_seatmap(event_sku, tiers, capacity):
   """Add keys for seat reservation unit"""
+  import math
   block_name = "A"
   # Use this formula if you want multiple 32bit blocks stored in a single key.
   # More compact, harder to understand
@@ -119,6 +117,7 @@ def create_transit(transit, venue, event_sku, geo=None):
 
 def create_venues(fn="/data/venues.json"):
   """Create venues from the flatfile JSON representation"""
+  import json
   random.seed(94002)
   f = open(fn)
   venues = json.load(f)
@@ -151,6 +150,8 @@ def create_venues(fn="/data/venues.json"):
 
 def create_orders(num_customers=100, max_orders_per_customer=20):
   """Create orders"""
+  import time
+  import datetime
   for _ in range(num_customers):
     num_orders = random.randint(1, max_orders_per_customer)
     customer_id = customers[random.randint(0, len(customers)-1)]
@@ -225,6 +226,7 @@ def create_orders(num_customers=100, max_orders_per_customer=20):
 def find_seats(event_sku, tier, qty):
   """Find availbale seats"""
   # Find seat maps
+  import math
   allocated_seats = []
   total_allocated = 0
   to_allocate = qty
@@ -257,6 +259,7 @@ def find_seats(event_sku, tier, qty):
 
 def main():
   """ Main, used to call routines"""
+  import os
   global redis
   redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),

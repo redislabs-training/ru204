@@ -7,7 +7,7 @@ import sys
 import redisu.utils.keynamehelper as keynamehelper
 
 
-def clean_keys(connection, prefix=None):
+def clean_keys(redis_c, prefix=None):
   """Remove keys with a given prefix. Stop if the default prefix would result in
   removing all keys. This is used by the various use cases to clean up there
   tets data before running again."""
@@ -15,8 +15,8 @@ def clean_keys(connection, prefix=None):
   count = 0
   if key_prefix != None:
     count = 0
-    for k in connection.scan_iter(key_prefix + "*"):
-      connection.delete(k)
+    for k in redis_c.scan_iter(key_prefix + "*"):
+      redis_c.delete(k)
       count += 1
   else:
     print "No prefix, no way am I goig to remove '*' !"

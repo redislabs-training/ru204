@@ -1,4 +1,4 @@
-FROM gcr.io/redis-labs/virtual-lab:v9
+FROM gcr.io/redis-labs/virtual-lab:v11
 
 COPY redisu/ru101/__init__.py /src/redisu/ru101/__init__.py
 COPY redisu/ru101/common /src/redisu/ru101/common
