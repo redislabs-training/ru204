@@ -58,10 +58,10 @@ def create_event(event,
       create_seatmap(sku, tiers_availbale, tier_capacity)
   attrs['sku'] = sku
   if geo is not None:
-    p.geoadd(create_key_name("geo", "event", event),
+    p.geoadd(create_key_name("geo", "venues", venue),
              geo['long'], geo['lat'], venue)
-    p.geoadd(create_key_name("geo", "events"),
-             geo['long'], geo['lat'], event)
+    p.geoadd(create_key_name("geo", "events", event),
+             geo['long'], geo['lat'], venue)
   if add_faceted_search:
     create_faceted_search(attrs)
   if add_hashed_search:
@@ -112,7 +112,7 @@ def create_transit(transit, venue, event_sku, geo=None):
   """Add keys for transit search unit"""
   p.sadd(create_key_name("transit", transit, "events"), event_sku)
   if geo is not None:
-    p.geoadd(create_key_name("geo", "transit", transit),
+    p.geoadd(create_key_name("geo", "transits", transit),
              geo['long'], geo['lat'], venue)
 
 def create_venues(fn="/data/venues.json"):
@@ -148,7 +148,7 @@ def create_venues(fn="/data/venues.json"):
                  v['geo']['long'], v['geo']['lat'], v['venue'])
     p.execute()
 
-def create_orders(num_customers=100, max_orders_per_customer=20):
+def create_orders(num_customers, max_orders_per_customer=20):
   """Create orders"""
   import time
   import datetime

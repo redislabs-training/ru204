@@ -60,9 +60,7 @@ isc = {'venue': "Tokyo Tatsumi International Swimming Center",
 
 def create_venue(venue):
   """Create key and geo entry for passed venue"""
-  key = keynamehelper.create_key_name("venue", venue['venue'])
-  redis.hmset(key, venue)
-  key = keynamehelper.create_key_name("geo", "venue")
+  key = keynamehelper.create_key_name("geo", "venues")
   redis.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
 
 def test_venue_search():
@@ -76,7 +74,7 @@ def test_venue_search():
   create_venue(isc)
 
   print "== Find venues with 5km of 'Tokyo Station'"
-  geo_key = keynamehelper.create_key_name("geo", "venue")
+  geo_key = keynamehelper.create_key_name("geo", "venues")
   print redis.georadius(geo_key,
                         139.771977, 35.668024, 5, "km", withdist=True)
 
@@ -89,7 +87,7 @@ def create_event_locations(venue):
   p = redis.pipeline()
   for i in range(len(venue['events'])):
     event, _ = venue['events'][i]
-    key = keynamehelper.create_key_name("geo", "event", event)
+    key = keynamehelper.create_key_name("geo", "events", event)
     p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
   p.execute()
 
@@ -104,7 +102,7 @@ def test_event_search():
   create_event_locations(isc)
 
   print "== Find venues for 'Football' within 25km of 'Shin-Yokohama Station'"
-  geo_key = keynamehelper.create_key_name("geo", "event", "Football")
+  geo_key = keynamehelper.create_key_name("geo", "events", "Football")
   print redis.georadius(geo_key,
                         139.606396, 35.509996, 25, "km", withdist=True)
 
@@ -112,7 +110,7 @@ def create_event_transit_locations(venue):
   """Create geo entries for transit stops for the passed venue"""
   p = redis.pipeline()
   for i in range(len(venue['transit'])):
-    key = keynamehelper.create_key_name("geo", "transit",
+    key = keynamehelper.create_key_name("geo", "transits",
                                         venue['transit'][i])
     p.geoadd(key, venue['geo']['long'], venue['geo']['lat'], venue['venue'])
   p.execute()
@@ -128,7 +126,7 @@ def test_transit_search():
   create_event_transit_locations(isc)
 
   print "== Find venues 5km from 'Tokyo Station' on the 'Keiyo Line'"
-  geo_key = keynamehelper.create_key_name("geo", "transit", "Keiyo Line")
+  geo_key = keynamehelper.create_key_name("geo", "transits", "Keiyo Line")
   print redis.georadius(geo_key,
                         139.771977, 35.668024, 5, "km", withdist=True)
 
