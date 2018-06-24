@@ -124,7 +124,7 @@ def test_check_and_purchase():
 
 # Part Two - Reserve stock & Credit Card auth
 def reserve(customer, event_sku, qty, tier="General"):
-  """First reserver the inventory, perform a credit authorization. If succesful
+  """First reserve the inventory and perform a credit authorization. If successful
 then confirm the inventory deduction or back the deducation out."""
   p = redis.pipeline()
   try:
@@ -226,14 +226,16 @@ def test_reserve():
 def create_expired_reservation(event_sku, tier="General"):
   """Test function to create a set of reservation that will shortly expire"""
   cur_t = time.time()
-  holds = {'availbale:' + tier: 485,
-           'held:' + tier: 15,
-           'qty:VPIR6X': 3, 'tier:VPIR6X': tier, 'ts:VPIR6X': long(cur_t - 16),
+  tickets = {'available:' + tier: 485,
+             'held:' + tier: 15}
+  holds = {'qty:VPIR6X': 3, 'tier:VPIR6X': tier, 'ts:VPIR6X': long(cur_t - 16),
            'qty:B1BFG7': 5, 'tier:B1BFG7': tier, 'ts:B1BFG7': long(cur_t - 22),
            'qty:UZ1EL0': 7, 'tier:UZ1EL0': tier, 'ts:UZ1EL0': long(cur_t - 30)
           }
   k = keynamehelper.create_key_name("ticket_hold", event_sku)
   redis.hmset(k, holds)
+  k = keynamehelper.create_key_name("event", event_sku)
+  redis.hmset(k, tickets)
 
 def expire_reservation(event_sku, cutoff_time_secs=30):
   """ Check if any reservation has exceeded the cutoff time. If any have, then
@@ -258,10 +260,11 @@ def test_expired_res():
   create_expired_reservation(event_requested)
 
   tier = "General"
-  e_key = keynamehelper.create_key_name("ticket_hold", event_requested)
+  h_key = keynamehelper.create_key_name("ticket_hold", event_requested)
+  e_key = keynamehelper.create_key_name("event", event_requested)
   while True:
     expire_reservation(event_requested)
-    outstanding = redis.hmget(e_key, "qty:VPIR6X", "qty:B1BFG7", "qty:UZ1EL0")
+    outstanding = redis.hmget(h_key, "qty:VPIR6X", "qty:B1BFG7", "qty:UZ1EL0")
     available = redis.hget(e_key, "available:" + tier)
     print "{}, Available:{}, Reservations:{}".format(event_requested,
                                                      available,
