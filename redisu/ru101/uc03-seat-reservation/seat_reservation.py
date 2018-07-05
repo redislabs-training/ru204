@@ -94,7 +94,7 @@ def print_seat_availabiliy(seats):
                                                 current_block[i]['last_seat'],)
 
 def set_seat_map(event_sku, tier, block_name, seat_map):
-  """ Set the setamap to the given value"""
+  """ Set the seatmap to the given value"""
   vals = ["SET", "u32", 0, seat_map]
   key = keynamehelper.create_key_name("seatmap", event_sku, tier, block_name)
   redis.execute_command("BITFIELD", key, *vals)
@@ -134,7 +134,7 @@ class SeatTaken(Error):
 def reservation(event_sku, tier, block_name, first_seat, last_seat):
   """ Reserve the required seats. Create an expiring key (i.e. a latch) to
  reserve each seat. If that is successful, then an XOR can be executed to
- update the seta map, without needed a Watch."""
+ update the seat map, without needed a Watch."""
   reserved = False
   p = redis.pipeline()
   try:

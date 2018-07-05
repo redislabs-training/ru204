@@ -115,7 +115,7 @@ def match_by_faceting(*keys):
     facets.append(fs_key)
   return redis.sinter(facets)
 
-def test_facted_search():
+def test_faceted_search():
   """Test function for Method 2: Faceted Search"""
   print "\n== Method 2: Faceted Search"
   # Create events
@@ -167,7 +167,7 @@ def match_by_hashed_faceting(*keys):
   return matches
 
 def test_hashed_faceting():
-  """Test function for Method 3: Hased Faceting"""
+  """Test function for Method 3: Hashed Faceting"""
   print "\n== Method 3: Hashed Faceting"
   # Create events
   create_events_hashed_lookups(__events__)
@@ -202,7 +202,7 @@ def main():
 
   # Perform the tests
   test_object_inspection()
-  test_facted_search()
+  test_faceted_search()
   test_hashed_faceting()
 
 if __name__ == "__main__":
