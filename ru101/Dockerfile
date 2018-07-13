@@ -1,8 +1,13 @@
-FROM gcr.io/redis-labs/virtual-lab:v13
+# redislabs/ru101-lab
+FROM redislabs/python-virtual-lab
 
 COPY redisu/ru101/__init__.py /src/redisu/ru101/__init__.py
 COPY redisu/ru101/common /src/redisu/ru101/common
-COPY redisu/ru101/data /src/redisu/ru101/data
+
+COPY redisu/ru101/data/gen.py /src/redisu/ru101/data/gen.py
+COPY redisu/ru101/data/ru101.json /src/redisu/ru101/data/ru101.json
+COPY redisu/ru101/data/venues.json /src/redisu/ru101/data/venues.json
+
 COPY redisu/ru101/uc01-faceted-search /src/redisu/ru101/uc01-faceted-search 
 COPY redisu/ru101/uc02-inventory-control /src/redisu/ru101/uc02-inventory-control
 COPY redisu/ru101/uc03-seat-reservation /src/redisu/ru101/uc03-seat-reservation
@@ -12,6 +17,7 @@ COPY redisu/ru101/uc06-finding-venues /src/redisu/ru101/uc06-finding-venues
 COPY redisu/utils /src/redisu/utils
 COPY redisu/__init__.py /src/redisu/__init__.py
 COPY redisu/virtual-lab/helloworld.py /src/redisu/helloworld.py
+
 COPY redisu/dumps/ru101.rdb /data/dump.rdb
 
 ENV PYTHONPATH .:/src
