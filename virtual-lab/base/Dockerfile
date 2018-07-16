@@ -28,7 +28,8 @@ RUN set -ex && \
       nodejs \
       nodejs-npm \
       libgit2-dev \
-      build-base && \
+      build-base \
+      ttyd && \
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -57,15 +58,6 @@ RUN set -ex && \
     apk del libgit2-dev build-base && \
     rm -rf /tmp/* /var/cache/apk/*
 
-# Gotty Tweaks
-RUN mkdir /gotty && \
-    cd /gotty && \
-    curl -LO https://github.com/yudai/gotty/releases/download/v2.0.0-alpha.3/gotty_2.0.0-alpha.3_linux_amd64.tar.gz && \
-    tar -xzf gotty_2.0.0-alpha.3_linux_amd64.tar.gz && \ 
-    rm gotty_2.0.0-alpha.3_linux_amd64.tar.gz && \
-    rm -rf /tmp/*
-ADD gotty /etc/
-
 # Nginx tweaks:
 #
 # (-) fix the nginx .pid bug (https://github.com/gliderlabs/docker-alpine/issues/185#issuecomment-246595114)
@@ -83,11 +75,11 @@ RUN mkdir /data && chown redis:redis /data
 #VOLUME /data
 #WORKDIR /data
 
-# Supervidrod tweaks
+# Supervisord tweaks
 ADD supervisord.conf /etc/
 
 # Orion tweaks
-ADD nginx-orion-gotty.conf /etc/nginx/conf.d/
+ADD nginx-orion-ttyd.conf /etc/nginx/conf.d/
 ADD wait-for-it.sh /run
 
 # Student user and directories
@@ -97,7 +89,6 @@ RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student s
 ENV HOME=/home/student
 
 EXPOSE 8888
-EXPOSE 8080
 
 WORKDIR /src/redisu
 
