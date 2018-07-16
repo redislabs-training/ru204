@@ -72,8 +72,6 @@ ADD entry.html /var/lib/nginx/html/
 
 # Redis tweaks
 RUN mkdir /data && chown redis:redis /data
-#VOLUME /data
-#WORKDIR /data
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
