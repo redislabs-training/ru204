@@ -1,5 +1,6 @@
 """Generate sample data for RU101 course"""
 from redis import StrictRedis
+import sys
 import random
 from faker import Faker
 import redisu.utils.textincr as textincr
@@ -59,7 +60,7 @@ def create_event(event,
   attrs['sku'] = sku
   if geo is not None:
     p.geoadd(create_key_name("geo", "venues", venue),
-             geo['long'], geo['lat'], venue)
+             geo['long'], geo['lat'], event)
     p.geoadd(create_key_name("geo", "events", event),
              geo['long'], geo['lat'], venue)
   if add_faceted_search:
@@ -257,7 +258,7 @@ def find_seats(event_sku, tier, qty):
   return {'requested': qty, 'assigned': total_allocated,
           'seats': allocated_seats}
 
-def main():
+def main(argv):
   """ Main, used to call routines"""
   import os
   global redis
@@ -274,11 +275,14 @@ def main():
   print "creating customers"
   create_customers(501)
   print "creating venues"
-  create_venues()
+  if len(argv) >1:
+    create_venues(fn=argv[1])
+  else:
+    create_venues()
   print "creating orders"
   create_orders(num_customers=250)
   print "creating `hello` key"
   redis.set("hello", "world")
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
