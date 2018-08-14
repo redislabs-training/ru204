@@ -29,6 +29,7 @@ RUN set -ex && \
       nodejs-npm \
       libgit2-dev \
       build-base \
+      zip \
       ttyd && \
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \

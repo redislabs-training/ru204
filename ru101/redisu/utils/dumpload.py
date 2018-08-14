@@ -88,7 +88,12 @@ def load(redis, filename="/data/ru101.json", compress=False):
         if obj['e'] == "embstr":
           p.set(obj['k'], obj['v'])
         elif obj['e'] == "raw":
-          p.set(obj['k'], base64.b64decode(obj['v']))
+          bin_val = bytearray(base64.b64decode(obj['v']))
+          vals = ["SET", "u8", 0, 0]  
+          for i in range(len(bin_val)):
+            vals[2] = i * 8
+            vals[3] = bin_val[i]
+            p.execute_command("BITFIELD", obj['k'], *vals)
       else:
         print "got a type I don't do: {}".format(obj['t'])
         continue

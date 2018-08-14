@@ -11,8 +11,8 @@ COPY redisu/ru101/data/venues.json /src/redisu/ru101/data/venues.json
 COPY redisu/ru101/uc01-faceted-search /src/redisu/ru101/uc01-faceted-search 
 COPY redisu/ru101/uc02-inventory-control /src/redisu/ru101/uc02-inventory-control
 COPY redisu/ru101/uc03-seat-reservation /src/redisu/ru101/uc03-seat-reservation
-COPY redisu/ru101/uc05-notifications /src/redisu/ru101/uc05-notifications
-COPY redisu/ru101/uc06-finding-venues /src/redisu/ru101/uc06-finding-venues
+COPY redisu/ru101/uc04-notifications /src/redisu/ru101/uc04-notifications
+COPY redisu/ru101/uc05-finding-venues /src/redisu/ru101/uc05-finding-venues
 
 COPY redisu/utils /src/redisu/utils
 COPY redisu/__init__.py /src/redisu/__init__.py
