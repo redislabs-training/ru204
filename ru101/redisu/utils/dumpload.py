@@ -107,7 +107,7 @@ def load(redis, filename="/data/ru101.json", compress=False):
     print "total keys loaded: {}".format(count)
 
 def main(command, datafile):
-  """Entry point to execute eithe rthe dump or load"""
+  """Entry point to execute either the dump or load"""
   import os
   redis_c = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                         port=os.environ.get("REDIS_PORT", 6379),

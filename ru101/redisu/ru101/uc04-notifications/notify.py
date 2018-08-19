@@ -63,32 +63,27 @@ def listener_sales_analytics(channel):
   l = redis.pubsub(ignore_subscribe_messages=True)
   c_key = keynamehelper.create_key_name(channel)
   l.subscribe(c_key)
-  p = redis.pipeline()
   for message in l.listen():
     order_id = message['data']
     so_key = keynamehelper.create_key_name("sales_order", order_id)
     (ts, qty, event_sku) = redis.hmget(so_key, 'ts', 'qty', 'event')
     hour_of_day = int(time.strftime("%H", time.gmtime(long(ts))))
-    vals = ["INCRBY", "u16", hour_of_day * 16, qty]
-    tod_hist_key = keynamehelper.create_key_name("sales_histogram",
-                                                 "time_of_day")
-    p.execute_command("BITFIELD", tod_hist_key, *vals)
+    vals = ["INCRBY", "u16", max(hour_of_day * 16, 0), int(qty)]
     tod_event_hist_key = keynamehelper.create_key_name("sales_histogram",
                                                        "time_of_day",
                                                        event_sku)
-    p.execute_command("BITFIELD", tod_event_hist_key, *vals)
-    p.execute()
+    redis.execute_command("BITFIELD", tod_event_hist_key, *vals)
 
 def print_statistics(stop_event):
   """Thread that prints current event statsistics."""
   from binascii import hexlify
   sum_key = keynamehelper.create_key_name("sales_summary")
   print "\n === START"
-  print "{:25} + {:20} + {:3} + Histogram by hour".format("Timestamp",
+  print "{:8} | {:12} | {:3} |  Histogram by hour".format("T/S",
                                                           "Event",
-                                                          "#")
+                                                          "#"),
   while not stop_event.is_set():
-    ts = time.strftime("%a, %d %b %Y %H:%M:%S")
+    ts = time.strftime("%H:%M:%S")
     e_key = keynamehelper.create_key_name("event", "*")
     for event in redis.scan_iter(match=e_key):
       (_, event_sku) = event.rsplit(":", 1)
@@ -102,12 +97,12 @@ def print_statistics(stop_event):
       hist = redis.get(tod_hist_key)
       if hist != None:
         hist_vals = [hist[i:i+2] for i in range(0, len(hist), 2)]
-        print "\n{:25} | {:20} | {:3d} | ".format(ts,
+        print "\n{:8} | {:12} | {:3d} | ".format(ts,
                                                   event_sku,
                                                   t_tickets),
         for i in range(0, 24):
-          count = int(hexlify(hist_vals[i]), 16) if i < len(hist_vals) else 0
-          print "{:02d}/{:03d}".format(i, count),
+          num = int(hexlify(hist_vals[i]), 16) if i < len(hist_vals) else 0
+          print "{:02d}/{:03d}".format(i, num),
     time.sleep(1)
   print "\n === END"
 
@@ -126,15 +121,12 @@ def test_pub_sub():
                                   args=("sales_order_notify",)))
   threads.append(threading.Thread(target=listener_events_analytics,
                                   args=("sales_order_notify",)))
-  # threads.append(threading.Thread(target=listener_customer_purchases,
-  #                                 args=("sales_order_notify",)))
   threads.append(threading.Thread(target=print_statistics,
                                   args=(stop_event,)))
 
   for i in range(len(threads)):
     threads[i].setDaemon(True)
     threads[i].start()
-
 
   for i in range(15):
     purchase(events[random.randrange(0, len(events))])
@@ -211,9 +203,9 @@ def main():
 
   # Performs the tests
   test_pub_sub()
-  test_patterned_subs()
+  #test_patterned_subs()
 
 if __name__ == "__main__":
-  keynamehelper.set_prefix("uc05")
+  keynamehelper.set_prefix("uc04")
   main()
 

@@ -158,6 +158,6 @@ def main():
   test_transit_search()
 
 if __name__ == "__main__":
-  keynamehelper.set_prefix("uc06")
+  keynamehelper.set_prefix("uc05")
   main()
 
