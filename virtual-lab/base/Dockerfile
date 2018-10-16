@@ -7,9 +7,12 @@ RUN addgroup -S redis && adduser -S -G redis redis
 # grab su-exec for easy step-down from root
 RUN apk add --no-cache 'su-exec>=0.2'
 
-ENV REDIS_VERSION 4.0.10
-ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-$REDIS_VERSION.tar.gz
-ENV REDIS_DOWNLOAD_SHA 1db67435a704f8d18aec9b9637b373c34aa233d65b6e174bdac4c1b161f38ca4
+ARG REDIS_VERSION
+ARG REDIS_DOWNLOAD_SHA
+ARG REDIS_DOWNLOAD_URL
+#ENV REDIS_VERSION 4.0.10
+#ENV REDIS_DOWNLOAD_SHA 1db67435a704f8d18aec9b9637b373c34aa233d65b6e174bdac4c1b161f38ca4
+#ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-$REDIS_VERSION.tar.gz
 
 # for redis-sentinel see: http://redis.io/topics/sentinel
 RUN set -ex && \
@@ -30,7 +33,8 @@ RUN set -ex && \
       libgit2-dev \
       build-base \
       zip \
-      ttyd && \
+      ttyd \
+      cmake && \
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -56,8 +60,25 @@ RUN set -ex && \
 # (-) --production:    https://wiki.eclipse.org/Orion/Node/Getting_started#Installing_with_npm
 # (-) --unsafe-perm:   https://github.com/nodejs/node-gyp/issues/454#issuecomment-134140378
     BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
-    apk del libgit2-dev build-base && \
-    rm -rf /tmp/* /var/cache/apk/*
+    rm -rf /tmp/* /var/cache/apk/* && \
+# INSTALL RediSearch
+    mkdir -p /usr/src/redisearch && \
+    cd /usr/src/redisearch && \
+    git clone https://github.com/RedisLabsModules/RediSearch.git && \
+    cd RediSearch && \
+  #  git checkout 1.4 && \
+  # START HACK until Git Issues resolved https://github.com/RedisLabsModules/RediSearch/issues/497
+    sed -i 's/ ON)/ OFF)/' CMakeLists.txt && \
+    sed -i '19,$d' src/rmutil/Makefile && \
+  # END HACK
+    mkdir build && \
+    cd build && \
+    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+    make && \
+    cp redisearch.so /usr/local/bin/ && \
+    rm -r /usr/src/redisearch && \
+# CLEANUP
+    apk del libgit2-dev build-base
 
 # Nginx tweaks:
 #
