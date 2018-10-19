@@ -1,0 +1,8 @@
+# redislabs/ru201-lab
+FROM redislabs/python-virtual-lab:$REDIS_VERSION
+
+COPY redisu/dumps/ru201.rdb /data/dump.rdb
+
+RUN chown redis:redis /data/dump.rdb
+
+ENV PYTHONPATH .:/src

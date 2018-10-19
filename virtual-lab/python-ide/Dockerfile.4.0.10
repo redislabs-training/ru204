@@ -1,5 +1,5 @@
 # redislabs/python-virtual-lab
-FROM redislabs/virtual-lab
+FROM redislabs/virtual-lab:4.0.10
 
 RUN set -ex && \
 	  apk add --no-cache py-pip && \

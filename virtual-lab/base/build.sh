@@ -8,6 +8,7 @@ export _REDIS_URL="http://download.redis.io/releases/redis-$_REDIS_VER.tar.gz"
 if [ -n "$1" ]
 then
   	export _REDIS_VER=$1
+	export _REDIS_URL="http://download.redis.io/releases/redis-$_REDIS_VER.tar.gz"
 fi
 if [ -n "$2" ]
 then

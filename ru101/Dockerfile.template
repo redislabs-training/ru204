@@ -1,5 +1,5 @@
 # redislabs/ru101-lab
-FROM redislabs/python-virtual-lab
+FROM redislabs/python-virtual-lab:$REDIS_VERSION
 
 COPY redisu/ru101/__init__.py /src/redisu/ru101/__init__.py
 COPY redisu/ru101/common /src/redisu/ru101/common
