@@ -1,4 +1,4 @@
-# redislabs/virtual-lab
+# redislabs/virtual-lab-base
 FROM alpine:3.7
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
@@ -25,13 +25,14 @@ RUN set -ex && \
       git \
       libc6-compat \
       nginx \
-      nodejs \
-      nodejs-npm \
       libgit2-dev \
       build-base \
       zip \
       ttyd \
-      cmake && \
+      cmake \
+      py-pip && \
+    pip install --upgrade pip && \
+    pip install --upgrade --no-cache-dir redis && \  
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -49,15 +50,6 @@ RUN set -ex && \
   	make -C /usr/src/redis -j "$(nproc)" && \
   	make -C /usr/src/redis install && \
   	rm -r /usr/src/redis && \
-# INSTALL `ORION` USING `NPM`
-#
-# Parameters:
-#
-# (-) BUILD_ONLY=true: https://github.com/nodegit/nodegit/issues/1039#issuecomment-223516656
-# (-) --production:    https://wiki.eclipse.org/Orion/Node/Getting_started#Installing_with_npm
-# (-) --unsafe-perm:   https://github.com/nodejs/node-gyp/issues/454#issuecomment-134140378
-    BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
-    rm -rf /tmp/* /var/cache/apk/* && \
 # INSTALL RediSearch
     mkdir -p /usr/src/redisearch && \
     cd /usr/src/redisearch && \
@@ -75,7 +67,7 @@ RUN set -ex && \
     cp redisearch.so /usr/local/bin/ && \
     rm -r /usr/src/redisearch && \
 # CLEANUP
-    apk del libgit2-dev build-base
+    apk del libgit2-dev build-base git make gcc linux-headers musl-dev cmake
 
 # Nginx tweaks:
 #
@@ -91,19 +83,21 @@ ADD entry.html /var/lib/nginx/html/
 
 # Redis tweaks
 RUN mkdir /data && chown redis:redis /data
+ADD nginx.conf /etc/nginx/conf.d/
+ADD wait-for-it.sh /run
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
-
-# Orion tweaks
-ADD nginx-orion-ttyd.conf /etc/nginx/conf.d/
-ADD wait-for-it.sh /run
 
 # Student user and directories
 RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student student && \
     mkdir -p /src/redisu && chown student:student /src/redisu && \
     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
+
+# Add sanity test
+ADD helloworld.py /src/redisu
+RUN chown -R student:student /src/redisu
 
 EXPOSE 8888
 

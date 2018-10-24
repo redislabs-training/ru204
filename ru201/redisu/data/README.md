@@ -36,7 +36,7 @@ When running you'll need to specify:
 
 
 ```
-$ node index.js --source ./General_Building_Permits.csv --connection /path/to/your/connection.json --drop --totaldocs 121828
+$ node index.js --source ./General_Building_Permits.csv --connection ./connection.json --drop --totaldocs 121828
 ```
 
 The output should look something like this:
@@ -46,6 +46,15 @@ Created index. Starting ingest.
 Parsed   [▇▇▇▇▇▇▇▇▇▇▇—————————————————————————————————————————————————] 21798/121828 18% 3.5s 19.8s
 Ingested [▇▇▇▇▇▇▇▇▇▇▇—————————————————————————————————————————————————] 21613/121828 18% 3.5s 20.0s (Pipeline 185)
 Speed    [▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇] 6927 docs/sec, ~6928 doc/sec max
+```
+
+## Confirmation
+
+You can check you have the right data by trying the following search from the redis-cli
+
+```
+127.0.0.1:6379> ft.search permits garage limit 0 0
+1) (integer) 49488
 ```
 
 ## Data

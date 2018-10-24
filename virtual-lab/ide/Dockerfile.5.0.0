@@ -1,0 +1,38 @@
+# redislabs/virtual-lab-ide
+FROM redislabs/virtual-lab-base:5.0.0
+
+# grab su-exec for easy step-down from root
+RUN apk add --no-cache 'su-exec>=0.2'
+
+RUN set -ex && \
+  	apk add --no-cache \
+  		coreutils \
+  		gcc \
+      linux-headers \
+  		make \
+  		musl-dev \
+      libc6-compat \
+      nodejs \
+      nodejs-npm \
+      libgit2-dev \
+      build-base && \
+# INSTALL `ORION` USING `NPM`
+#
+# Parameters:
+#
+# (-) BUILD_ONLY=true: https://github.com/nodegit/nodegit/issues/1039#issuecomment-223516656
+# (-) --production:    https://wiki.eclipse.org/Orion/Node/Getting_started#Installing_with_npm
+# (-) --unsafe-perm:   https://github.com/nodejs/node-gyp/issues/454#issuecomment-134140378
+    BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
+    rm -rf /tmp/* /var/cache/apk/* && \
+# CLEANUP
+    apk del libgit2-dev build-base gcc linux-headers make musl-dev
+
+# Nginx tweaks:
+ADD entry.html /var/lib/nginx/html/
+ADD nginx.conf /etc/nginx/conf.d/
+
+# Supervisord tweaks
+ADD supervisord.conf /etc/
+
+CMD ["supervisord"]

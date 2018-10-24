@@ -1,8 +1,36 @@
 # redislabs/ru201-lab
-FROM redislabs/python-virtual-lab:$REDIS_VERSION
+FROM redislabs/virtual-lab-base:$REDIS_VERSION
 
-COPY redisu/dumps/ru201.rdb /data/dump.rdb
+RUN set -ex && \
+  	apk add --no-cache \
+  		coreutils \
+  		g++ \
+        linux-headers \
+  		make \
+  		musl-dev \
+        libc6-compat \
+        nodejs \
+        nodejs-npm \
+        git
 
+# RU201 files
+ADD redisu/data/General_Building_Permits.csv /src/redisu/ru201/data/General_Building_Permits.csv
+ADD redisu/data/README.md /src/redisu/ru201/data/README.md
+ADD redisu/data/index.js /src/redisu/ru201/data/index.js
+ADD redisu/data/package-lock.json /src/redisu/ru201/data/package-lock.json
+ADD redisu/data/package.json /src/redisu/ru201/data/package.json
+ADD redisu/data/connection.json /src/redisu/ru201/data/connection.json
+RUN chown -R student:student /src/redisu
+
+# Install Node (for data ingest)
+WORKDIR /src/redisu/ru201/data
+RUN npm install && \
+	# Cleanup
+	apk del g++ linux-headers make musl-dev git
+
+# Base rdb files
+ADD redisu/dumps/ru201.rdb /data/dump.rdb
 RUN chown redis:redis /data/dump.rdb
 
-ENV PYTHONPATH .:/src
+# Supervisord config
+ADD supervisord.conf /etc/
