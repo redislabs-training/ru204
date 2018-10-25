@@ -116,7 +116,7 @@ def create_transit(transit, venue, event_sku, geo=None):
     p.geoadd(create_key_name("geo", "transits", transit),
              geo['long'], geo['lat'], venue)
 
-def create_venues(fn="/data/venues.json"):
+def create_venues(fn="/src/redisu/ru101/data/venues.json"):
   """Create venues from the flatfile JSON representation"""
   import json
   random.seed(94002)
