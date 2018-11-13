@@ -1,5 +1,5 @@
 # redislabs/virtual-lab-ide
-FROM redislabs/virtual-lab-base:4.0.10
+FROM redisuniversity/virtual-lab-base:4.0.10
 
 # grab su-exec for easy step-down from root
 RUN apk add --no-cache 'su-exec>=0.2'

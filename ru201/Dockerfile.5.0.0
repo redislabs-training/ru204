@@ -1,5 +1,5 @@
 # redislabs/ru201-lab
-FROM redislabs/virtual-lab-base:5.0.0
+FROM redisuniversity/virtual-lab-base:5.0.0
 
 RUN set -ex && \
   	apk add --no-cache \

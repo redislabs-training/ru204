@@ -1,5 +1,5 @@
 # redislabs/ru101-lab
-FROM redislabs/virtual-lab-ide:$REDIS_VERSION
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 # PIP dependencies for RU101
 RUN set -ex && \
