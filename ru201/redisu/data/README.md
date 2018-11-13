@@ -15,9 +15,8 @@ First, you will need to create a simple JSON file for your connection credential
 
 ```
 {
-  "host"  : "1.1.1.1",
-  "port"  : 1,
-  "password" : "your-password"
+  "host"  : "localhost",
+  "port"  : 6379
 }
 ```
 

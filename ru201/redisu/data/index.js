@@ -51,6 +51,29 @@ if (argv.flush || argv.drop) {
 
   if (argv.flush) { createBatch.flushdb(); }
   if (argv.drop) { createBatch.ft_drop(idx); }
+  createBatch.set("hello", "world");
+  createBatch.ft_drop("slop-fox");
+  createBatch
+    .ft_create(
+      "slop-fox", "SCHEMA",
+      "phrase", "TEXT",
+      "person", "TEXT"
+    );
+  createBatch
+    .ft_add(
+      "slop-fox", "original",
+      "1", "FIELDS",
+      "phrase", "The quick brown fox jumps over the lazy dog",
+      "person", "John Doe"
+    );
+  createBatch
+    .ft_add(
+      "slop-fox", "modified",
+      "1", "FIELDS",
+      "phrase", "Quick foxes are faster than jumping dogs",
+      "person", "Jane Doe"
+    );
+  
   createBatch
     .ft_create(
       idx, "SCHEMA",
