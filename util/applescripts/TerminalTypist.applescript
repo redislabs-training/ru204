@@ -1,12 +1,37 @@
+-- Activate the terminal window.
 tell application "Terminal"
 	activate
-	delay 7
 end tell
 
+-- Prepare the terminal
+tell application "System Events"
+	-- Disable hints
+	my execCmd(":set nohints", 0, true, false)
+
+	-- Clear screen
+	tell application process "Terminal"
+		keystroke "l" using {control down}
+	end tell
+end tell
+
+-- This is where your code examples should live.
 tell application "Terminal"
-	my execCmd("TEXT GOES HERE", 0.5, true, true)
+	-- Delay 5 seconds so that you have time to set up a screen capture
+	delay 5
+
+	-- Example command
+	my execCmd("FT.SEARCH permits greenhouse RETURN 1 construction_value SORTBY construction_value LIMIT 0 1", 2, true, true)
+
+	-- Example command, delaying partway through for explanation
+	my execCmd("FT.SEARCH permits greenhouse RETURN 1", 4, false, true)
+	my execCmd(" construction_value SORTBY construction_value DESC LIMIT 0 1", 4, true, true)
 end tell
 
+-- This funtion takes four arguments:
+--   textBuffer: The text you want to be printed the Terminal
+--   pause: The amount of time in seconds to pause after printing the text
+--   r: Whether to include a "return" keystroke at the end of the text
+--   dodelay: Whether to insert a random delay between keystrokes to simulate typing
 on execCmd(textBuffer, pause, r, dodelay)
 	tell application "System Events"
 		tell application process "Terminal"
