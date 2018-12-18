@@ -1,4 +1,4 @@
-# redislabs/ru101-lab
+# redisuniversity/ru101-lab
 FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 # PIP dependencies for RU101
