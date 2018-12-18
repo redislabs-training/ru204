@@ -1,4 +1,4 @@
-# redislabs/virtual-lab-base
+# redisuniversity/virtual-lab-base
 FROM alpine:3.7
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
@@ -32,7 +32,7 @@ RUN set -ex && \
       cmake \
       py-pip && \
     pip install --upgrade pip && \
-    pip install --upgrade --no-cache-dir redis && \  
+    pip install --upgrade --no-cache-dir redis==2.10.6 && \  
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -55,8 +55,10 @@ RUN set -ex && \
     cd /usr/src/redisearch && \
     git clone https://github.com/RedisLabsModules/RediSearch.git && \
     cd RediSearch && \
-  #  git checkout 1.4.1 && \
-  # START HACK until Git Issues resolved https://github.com/RedisLabsModules/RediSearch/issues/497
+    git checkout 1.4.1 && \
+  # START HACK until Git Issues resolved 
+  # https://github.com/RedisLabsModules/RediSearch/issues/497
+  # https://github.com/RedisLabsModules/RediSearch/issues/517
     sed -i 's/ ON)/ OFF)/' CMakeLists.txt && \
     sed -i '19,$d' src/rmutil/Makefile && \
   # END HACK
