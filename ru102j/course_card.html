@@ -1,0 +1,151 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TCXCQ2Z');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCXCQ2Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<section class="about">
+  <h2>What you will learn</h2>
+  <p>RU102J teaches students how to build robust Redis client application in Java using the Jedis client library.  RU102J focus on writing idiomatic Java applications with the Jedis API, including how to work with language specific patterns for managing Redis database connections, handling errors and using standard clases from the JDK.  The course material use the Jedis API directly and not any additional frameworks, so students learn the basic principles of working Redis.</p>
+</section>
+  <section class="about">
+    <h2>What you will build</h2>
+    <p>In order to get practical experience with Jedis development, as part of this course you will develop an online Java application to make bike sharing data available to end users.  This project consists of three components:</p>
+    <ul>
+      <li>Command-line data loading application</li>
+    <li>Google Map overlay generator</li>
+    <li>Web application for querying data</li>
+  </ul>
+  <p>All of these components will load and query data from Redis using a data model that will be developed as part of the course.  The project will involving developing with several Jedis APIs:</p>
+  <ul>
+    <li>Hashes</li>
+    <li>Sets</li>
+    <li>Geospatial data </li>
+    <li>Transactions</li>
+    <li>PubSub</li>
+  </ul>
+  <p>...and demonstrate best-practices like proper Exception/Error handling and recovery, try-with-resource blocks, and proper connection management practices.</p>
+  <h3>Data Loader application</h3>
+  <p>The data loading application is a Java command line application which uses Jedis to load data about the bike sharing stations from flat-files (in JSON format).  The application will be designed to load the data into an empty database as well as do in-place updates of the data.</p>
+  <h3>Map Overlay Generator</h3>
+  <p>To help visualize and debug the data set, a second Java command line application will be developed to read station data from Redis and generate a Google map overlay file.  This overlay file will generate a map overlay containing all of the bike sharing sites within a specific metro area and can be loaded into Google Maps (free account) for display.</p>
+  <h3>Web Application</h3>
+  <p>The third component of the system that will be built is a web application using the HttpServer class provided by the JDK.  The server will implement a query API to:</p>
+  <ul>
+    <li>Query metadata about a bike sharing station</li>
+    <li>Find sharing stations within a city</li>
+    <li>Find sharing stations by location (latitude and longitude)</li>
+    <li>Find the number of available bikes at a given station</li>
+  </ul>
+  <p>The server will also use Redis to implement a rate-limiting system on calls (either through Lua code or the Rate-limiter module).</p>
+</section>
+
+<section class="about">
+<h2>Course Outline</h2>
+<table style="width:100%" valign="top" cellpadding="20">
+  <tr valign="top" align="left" bgcolor="#dadada">
+    <th><h3>Week 1</h3></th>
+    <th><h3>Week 2</h3></th>
+    <th><h3>Week 3</h3></th>
+  </tr>
+  <tr valign="top">
+    <td>
+      <ul>
+        <li>Overview and Introduction</li>
+        <li>Hello Redis</li>
+        <li>Jedis Interface</li>
+      </ul>
+    </td>
+    <td bgcolor="#f5f5f5">
+      <ul>
+        <li>Transactions, Pipelines and Concurrency Control</li>
+        <li>Error Handling and Robust Code</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Development project - Part 1</li>
+      </ul>
+  </tr>
+  <tr valign="top" align="left" bgcolor="#dadada">
+    <th><h3>Week 4</h3></th>
+    <th><h3>Week 5</h3></th>
+    <th><h3>Week 6</h3></th>
+  </tr>
+  <tr valign="top">
+    <td>
+      <ul>
+        <li>Development project - Part 2</li>
+      </ul>
+    </td> 
+    <td bgcolor="#f5f5f5">
+      <ul>
+        <li>Development project - Part 3</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Modules</li>
+      </ul>
+    </td> 
+  </tr>
+  <tr valign="top" align="left" bgcolor="#dadada">
+    <th><h3>Week 7</h3></th>
+  </tr>
+  <tr valign="top">
+    <td>
+      <ul>
+        <li>Final Exam</li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
+</section>
+
+<section class="prerequisites">
+  <h2>Course Requirements</h2>
+  <p>There are no course prerequisites for RU102J, but the course assumes the student already understands:</p>
+    <ul>
+    <li>Java programming language</li>
+    <li>How build build and compile Java software in a shell environment</li>
+    <li>Redis and Redis Data Structures</li>
+  </ul>
+  <p>The course assumes that the student is familiar with Java programming and the standard tools like Ant, Maven, Gradle used in building Java software.  Students should already be familiar with Redis and Redis data structures to the level covered in RU101.</p>
+   <h2>Software Requirements</h2>
+    <ul>
+      <li>Web Browser: Firefox 39.0+ or Chrome 43+ (Internet Explorer is currently not supported)</li>
+      <li>Operating System: Mac OS X 10.7+ 64-bit, Ubuntu 14.04+ 64-bit, or Windows 8+ (64-bit)</li>
+      <li>Access to www.youtube.com and university.redislabs.com (i.e. non-blocked access)</li>
+    </ul>
+</section>
+
+<section class="course-staff">
+  <h2>Course Instructor</h2>
+  <article class="teacher">
+    <table style="width:100%" valign="top" cellpadding="20">
+      <tr>
+        <td width="30%">
+          <div class="teacher-image" style="width: 250px; height: 275px; border-radius: 10%; overflow: hidden">
+            <img src="/asset-v1:redislabs+RU101+2019_01+type@asset+block@kyle_banker.jpg" align="left" style="width:100%; left:-50px; margin: 0px; display: block; overflow: hidden;">
+<!--
+            <img src="/tmp/kyle_banker.jpg" align="left" style="width:100%; margin: 0px; display: block;">
+-->
+          </div>
+        </td>
+        <td width="70%">
+          <h3>Kyle Banker</h3>
+          <p>Kyle Banker is Director of Developer Education at Redis Labs. He's held data engineering roles at various companies, most recently on a social media analytics product that reliably processed most of the social web (around 10^8 messages) each day, in real time. Kyle's interest in databases began in 2009, when he joined MongoDB as an early employee. There, he worked as a software engineer on the Ruby and C drivers and wrote the first edition of Manning's MongoDB in Action.</p>
+          <br>
+          <p>When not immersed in tech, Kyle can be found spending time in the Colorado mountains or playing piano in his jazz trio. He holds dual degrees in English literature and philosophy.</p>
+        </td>
+      </tr>
+    </table>
+  </article>
+</section>
