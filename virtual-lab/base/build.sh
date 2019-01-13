@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export _REDIS_VER="4.0.10"
-export _REDIS_SHA="1db67435a704f8d18aec9b9637b373c34aa233d65b6e174bdac4c1b161f38ca4"
+export _REDIS_VER="4.0.11"
+export _REDIS_SHA="fc53e73ae7586bcdacb4b63875d1ff04f68c5474c1ddeda78f00e5ae2eed1bbb"
 export _REDIS_URL="http://download.redis.io/releases/redis-$_REDIS_VER.tar.gz"
 
 
