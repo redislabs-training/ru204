@@ -1,3 +1,14 @@
+-- To load this library:
+-- 1. Create the script library directory: "mkdir ~/Library/Script Libraries"
+-- 2. Copy this script into that directory: "cp Typist.scp ~/Library/Script Libraries"
+-- 3. Reference this script within "tell" block:
+-- 
+-- tell application "Terminal"
+--   tell script "Typist"
+--     execCmd("FT.SEARCH permits greenhouse RETURN 1", 4, false, true)
+--   end tell
+-- end tell
+--
 -- Activate the terminal window.
 tell application "Terminal"
 	activate
@@ -7,24 +18,11 @@ end tell
 tell application "System Events"
 	-- Disable hints
 	my execCmd(":set nohints", 0, true, false)
-
+	
 	-- Clear screen
 	tell application process "Terminal"
 		keystroke "l" using {control down}
 	end tell
-end tell
-
--- This is where your code examples should live.
-tell application "Terminal"
-	-- Delay 5 seconds so that you have time to set up a screen capture
-	delay 5
-
-	-- Example command
-	my execCmd("FT.SEARCH permits greenhouse RETURN 1 construction_value SORTBY construction_value LIMIT 0 1", 2, true, true)
-
-	-- Example command, delaying partway through for explanation
-	my execCmd("FT.SEARCH permits greenhouse RETURN 1", 4, false, true)
-	my execCmd(" construction_value SORTBY construction_value DESC LIMIT 0 1", 4, true, true)
 end tell
 
 -- This funtion takes four arguments:
