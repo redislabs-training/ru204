@@ -55,7 +55,7 @@ RUN set -ex && \
     cd /usr/src/redisearch && \
     git clone https://github.com/RedisLabsModules/RediSearch.git && \
     cd RediSearch && \
-    git checkout 1.4.1 && \
+    git checkout 1.4.2 && \
   # START HACK until Git Issues resolved 
   # https://github.com/RedisLabsModules/RediSearch/issues/497
   # https://github.com/RedisLabsModules/RediSearch/issues/517
