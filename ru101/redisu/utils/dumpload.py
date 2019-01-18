@@ -80,7 +80,7 @@ def load(redis, filename="/data/ru101.json", compress=False):
       elif obj['t'] == "zset":
         for j in range(len(obj['v'])):
           v, s = obj['v'][j]
-          p.zadd(obj['k'], s, v)
+          p.zadd(obj['k'], {v: s})
       elif obj['t'] == "list":
         for j in range(len(obj['v'])):
           p.rpush(obj['k'], obj['v'][j])
@@ -89,7 +89,7 @@ def load(redis, filename="/data/ru101.json", compress=False):
           p.set(obj['k'], obj['v'])
         elif obj['e'] == "raw":
           bin_val = bytearray(base64.b64decode(obj['v']))
-          vals = ["SET", "u8", 0, 0]  
+          vals = ["SET", "u8", 0, 0]
           for i in range(len(bin_val)):
             vals[2] = i * 8
             vals[3] = bin_val[i]
@@ -121,4 +121,3 @@ def main(command, datafile):
 
 if __name__ == "__main__":
   main(sys.argv[1], sys.argv[2])
-
