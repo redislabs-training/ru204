@@ -1,7 +1,7 @@
 """Use Case: Inventory Control.
 Usage:
 Part of Redis University RU101 coursewear"""
-from redis import StrictRedis, WatchError
+from redis import Redis, WatchError
 import os
 import time
 import redisu.utils.keynamehelper as keynamehelper
@@ -26,8 +26,8 @@ def create_customers(cust_array):
 
 events = [{'sku': "123-ABC-723",
            'name': "Men's 100m Final",
-           'disabled_access': True,
-           'medal_event': True,
+           'disabled_access': "True",
+           'medal_event': "True",
            'venue': "Olympic Stadium",
            'category': "Track & Field",
            'capacity': 60102,
@@ -36,8 +36,8 @@ events = [{'sku': "123-ABC-723",
           },
           {'sku': "737-DEF-911",
            'name': "Women's 4x100m Heats",
-           'disabled_access': True,
-           'medal_event': False,
+           'disabled_access': "True",
+           'medal_event': "False",
            'venue': "Olympic Stadium",
            'category': "Track & Field",
            'capacity': 60102,
@@ -46,8 +46,8 @@ events = [{'sku': "123-ABC-723",
           },
           {'sku': "320-GHI-921",
            'name': "Womens Judo Qualifying",
-           'disabled_access': False,
-           'medal_event': False,
+           'disabled_access': "False",
+           'medal_event': "False",
            'venue': "Nippon Budokan",
            'category': "Martial Arts",
            'capacity': 14471,
@@ -84,39 +84,39 @@ def check_availability_and_purchase(customer, event_sku, qty, tier="General"):
       order_id = generate.order_id()
       purchase = {'order_id': order_id, 'customer': customer,
                   'tier': tier, 'qty': qty, 'cost': qty * price,
-                  'event_sku': event_sku, 'ts': long(time.time())}
+                  'event_sku': event_sku, 'ts': int(time.time())}
       so_key = keynamehelper.create_key_name("sales_order", order_id)
       p.hmset(so_key, purchase)
       p.execute()
     else:
-      print "Insufficient inventory, have {}, requested {}".format(available,
-                                                                   qty)
+      print("Insufficient inventory, have {}, requested {}".format(available,
+                                                                   qty))
   except WatchError:
-    print "Write Conflict check_availability_and_purchase: {}".format(e_key)
+    print("Write Conflict check_availability_and_purchase: {}".format(e_key))
   finally:
     p.reset()
-  print "Purchase complete!"
+  print("Purchase complete!")
 
 def print_event_details(event_sku):
   """Print the details of the event, based on the passed SKU"""
   e_key = keynamehelper.create_key_name("event", event_sku)
-  print redis.hgetall(e_key)
+  print(redis.hgetall(e_key))
 
 def test_check_and_purchase():
   """Test function Check & purchase method"""
-  print "\n==Test 1: Check stock levels & purchase"
+  print("\n==Test 1: Check stock levels & purchase")
   # Create events with 10 tickets available
   create_events(events, available=10)
 
   # Stock available
-  print  "== Request 5 ticket, success"
+  print("== Request 5 ticket, success")
   requestor = "bill"
   event_requested = "123-ABC-723"
   check_availability_and_purchase(requestor, event_requested, 5)
   print_event_details(event_requested)
 
   # No purchase, not enough stock
-  print  "== Request 6 ticket, failure because of insufficient inventory"
+  print("== Request 6 ticket, failure because of insufficient inventory")
   requestor = "mary"
   event_requested = "123-ABC-723"
   check_availability_and_purchase(requestor, event_requested, 6)
@@ -133,7 +133,7 @@ then confirm the inventory deduction or back the deducation out."""
     available = int(redis.hget(e_key, "available:" + tier))
     if available >= qty:
       order_id = generate.order_id()
-      ts = long(time.time())
+      ts = int(time.time())
       price = float(redis.hget(e_key, "price:" + tier))
       p.hincrby(e_key, "available:" + tier, -qty)
       p.hincrby(e_key, "held:" + tier, qty)
@@ -144,14 +144,14 @@ then confirm the inventory deduction or back the deducation out."""
       p.hsetnx(hold_key, "ts:" + order_id, ts)
       p.execute()
   except WatchError:
-    print "Write Conflict in reserve: {}".format(e_key)
+    print("Write Conflict in reserve: {}".format(e_key))
   finally:
     p.reset()
   if creditcard_auth(customer, qty * price):
     try:
       purchase = {'order_id': order_id, 'customer': customer,
                   'tier': tier, 'qty': qty, 'cost': qty * price,
-                  'event_sku': event_sku, 'ts': long(time.time())}
+                  'event_sku': event_sku, 'ts': int(time.time())}
       redis.watch(e_key)
       # Remove the seat hold, since it is no longer needed
       p.hdel(hold_key, "qty:" + order_id,)
@@ -164,14 +164,14 @@ then confirm the inventory deduction or back the deducation out."""
       p.hmset(so_key, purchase)
       p.execute()
     except WatchError:
-      print "Write Conflict in reserve: {}".format(e_key)
+      print("Write Conflict in reserve: {}".format(e_key))
     finally:
       p.reset()
-    print "Purchase complete!"
+    print("Purchase complete!")
   else:
-    print "Auth failure on order {} for customer {} ${}".format(order_id,
+    print("Auth failure on order {} for customer {} ${}".format(order_id,
                                                                 customer,
-                                                                price * qty)
+                                                                price * qty))
     backout_hold(event_sku, order_id)
 
 def creditcard_auth(customer, order_total):
@@ -189,7 +189,7 @@ def backout_hold(event_sku, order_id):
     hold_key = keynamehelper.create_key_name("ticket_hold", event_sku)
     e_key = keynamehelper.create_key_name("event", event_sku)
     redis.watch(e_key)
-    qty = long(redis.hget(hold_key, "qty:" + order_id))
+    qty = int(redis.hget(hold_key, "qty:" + order_id))
     tier = redis.hget(hold_key, "tier:" + order_id)
     p.hincrby(e_key, "available:" + tier, qty)
     p.hincrby(e_key, "held:" + tier, -qty)
@@ -199,24 +199,24 @@ def backout_hold(event_sku, order_id):
     p.hdel(hold_key, "ts:" + order_id)
     p.execute()
   except WatchError:
-    print "Write Conflict in backout_hold: {}".format(e_key)
+    print("Write Conflict in backout_hold: {}".format(e_key))
   finally:
     p.reset()
 
 def test_reserve():
   """Test function reserve & credit auth"""
-  print "\n==Test 2: Reserve stock, perform credit auth and complete purchase"
+  print("\n==Test 2: Reserve stock, perform credit auth and complete purchase")
   # Create events with 10 tickets available
   create_events(events, available=10)
 
   # Make purchase with reservation and credit authorization steps
-  print  "== Reserve & purchase 5 tickets"
+  print("== Reserve & purchase 5 tickets")
   requestor = "jamie"
   event_requested = "737-DEF-911"
   reserve(requestor, event_requested, 5)
   print_event_details(event_requested)
 
-  print  "== Reserve 5 tickets, failure on auth, return tickets to inventory"
+  print("== Reserve 5 tickets, failure on auth, return tickets to inventory")
   requestor = "joan"
   event_requested = "737-DEF-911"
   reserve(requestor, event_requested, 5)
@@ -228,9 +228,9 @@ def create_expired_reservation(event_sku, tier="General"):
   cur_t = time.time()
   tickets = {'available:' + tier: 485,
              'held:' + tier: 15}
-  holds = {'qty:VPIR6X': 3, 'tier:VPIR6X': tier, 'ts:VPIR6X': long(cur_t - 16),
-           'qty:B1BFG7': 5, 'tier:B1BFG7': tier, 'ts:B1BFG7': long(cur_t - 22),
-           'qty:UZ1EL0': 7, 'tier:UZ1EL0': tier, 'ts:UZ1EL0': long(cur_t - 30)
+  holds = {'qty:VPIR6X': 3, 'tier:VPIR6X': tier, 'ts:VPIR6X': int(cur_t - 16),
+           'qty:B1BFG7': 5, 'tier:B1BFG7': tier, 'ts:B1BFG7': int(cur_t - 22),
+           'qty:UZ1EL0': 7, 'tier:UZ1EL0': tier, 'ts:UZ1EL0': int(cur_t - 30)
           }
   k = keynamehelper.create_key_name("ticket_hold", event_sku)
   redis.hmset(k, holds)
@@ -240,22 +240,22 @@ def create_expired_reservation(event_sku, tier="General"):
 def expire_reservation(event_sku, cutoff_time_secs=30):
   """ Check if any reservation has exceeded the cutoff time. If any have, then
 backout the reservation and return the inventory back to the pool."""
-  cutoff_ts = long(time.time()-cutoff_time_secs)
+  cutoff_ts = int(time.time()-cutoff_time_secs)
   e_key = keynamehelper.create_key_name("ticket_hold", event_sku)
   for field in redis.hscan_iter(e_key, match="ts:*"):
-    if long(field[1]) < cutoff_ts:
+    if int(field[1]) < cutoff_ts:
       (_, order_id) = field[0].split(":")
       backout_hold(event_sku, order_id)
 
 def test_expired_res():
   """Test function expired reservations"""
-  print "\n==Test 3: Back out reservations when expiration threshold exceeded"
+  print("\n==Test 3: Back out reservations when expiration threshold exceeded")
 
   # Create events
   create_events(events)
 
   # Create expired reservations for the Event
-  print  "== Create ticket holds, expire > 30 sec, return tickets to inventory"
+  print("== Create ticket holds, expire > 30 sec, return tickets to inventory")
   event_requested = "320-GHI-921"
   create_expired_reservation(event_requested)
 
@@ -266,9 +266,9 @@ def test_expired_res():
     expire_reservation(event_requested)
     outstanding = redis.hmget(h_key, "qty:VPIR6X", "qty:B1BFG7", "qty:UZ1EL0")
     available = redis.hget(e_key, "available:" + tier)
-    print "{}, Available:{}, Reservations:{}".format(event_requested,
+    print("{}, Available:{}, Reservations:{}".format(event_requested,
                                                      available,
-                                                     outstanding)
+                                                     outstanding))
     # Break if all items in outstanding list are None
     if all(v is None for v in outstanding):
       break
@@ -280,9 +280,9 @@ def main():
   from redisu.utils.clean import clean_keys
 
   global redis
-  redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                      port=os.environ.get("REDIS_PORT", 6379),
-                      db=0)
+  redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
+                port=os.environ.get("REDIS_PORT", 6379),
+                db=0, decode_responses=True)
   clean_keys(redis)
   create_customers(customers)
   # Performs the tests

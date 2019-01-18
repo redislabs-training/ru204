@@ -1,7 +1,7 @@
 """Use Case: Finding Venues.
 Usage:
 Part of Redis University RU101 coursewear"""
-from redis import StrictRedis
+from redis import Redis
 import os
 import redisu.utils.keynamehelper as keynamehelper
 
@@ -65,7 +65,7 @@ def create_venue(venue):
 
 def test_venue_search():
   """Test 1 - geo searches around a venue"""
-  print "\n==Test 1 - geo searches around a venue"
+  print("\n==Test 1 - geo searches around a venue")
   create_venue(olympic_stadium)
   create_venue(nippon_budokan)
   create_venue(makuhari_messe)
@@ -73,14 +73,14 @@ def test_venue_search():
   create_venue(international_stadium)
   create_venue(isc)
 
-  print "== Find venues with 5km of 'Tokyo Station'"
+  print("== Find venues with 5km of 'Tokyo Station'")
   geo_key = keynamehelper.create_key_name("geo", "venues")
-  print redis.georadius(geo_key,
-                        139.771977, 35.668024, 5, "km", withdist=True)
+  print(redis.georadius(geo_key,
+                        139.771977, 35.668024, 5, "km", withdist=True))
 
-  print "== Find venues within 25km of 'Olympic Stadium'"
-  print redis.georadiusbymember(geo_key,
-                                "Olympic Stadium", 25, "km", withdist=True)
+  print("== Find venues within 25km of 'Olympic Stadium'")
+  print(redis.georadiusbymember(geo_key,
+                                "Olympic Stadium", 25, "km", withdist=True))
 
 def create_event_locations(venue):
   """Create geo entry for venues"""
@@ -93,7 +93,7 @@ def create_event_locations(venue):
 
 def test_event_search():
   """Test 2 - geo searches around events"""
-  print "\n==Test 2 - geo searches around events"
+  print("\n==Test 2 - geo searches around events")
   create_event_locations(olympic_stadium)
   create_event_locations(nippon_budokan)
   create_event_locations(makuhari_messe)
@@ -101,10 +101,10 @@ def test_event_search():
   create_event_locations(international_stadium)
   create_event_locations(isc)
 
-  print "== Find venues for 'Football' within 25km of 'Shin-Yokohama Station'"
+  print("== Find venues for 'Football' within 25km of 'Shin-Yokohama Station'")
   geo_key = keynamehelper.create_key_name("geo", "events", "Football")
-  print redis.georadius(geo_key,
-                        139.606396, 35.509996, 25, "km", withdist=True)
+  print(redis.georadius(geo_key,
+                        139.606396, 35.509996, 25, "km", withdist=True))
 
 def create_event_transit_locations(venue):
   """Create geo entries for transit stops for the passed venue"""
@@ -117,7 +117,7 @@ def create_event_transit_locations(venue):
 
 def test_transit_search():
   """Test 3 - geo searched around transit"""
-  print "\n==Test 3 - geo searched around transit"
+  print("\n==Test 3 - geo searched around transit")
   create_event_transit_locations(olympic_stadium)
   create_event_transit_locations(nippon_budokan)
   create_event_transit_locations(makuhari_messe)
@@ -125,31 +125,31 @@ def test_transit_search():
   create_event_transit_locations(international_stadium)
   create_event_transit_locations(isc)
 
-  print "== Find venues 5km from 'Tokyo Station' on the 'Keiyo Line'"
+  print("== Find venues 5km from 'Tokyo Station' on the 'Keiyo Line'")
   geo_key = keynamehelper.create_key_name("geo", "transits", "Keiyo Line")
-  print redis.georadius(geo_key,
-                        139.771977, 35.668024, 5, "km", withdist=True)
+  print(redis.georadius(geo_key,
+                        139.771977, 35.668024, 5, "km", withdist=True))
 
-  print """== Find the distance between 'Makuhari Messe' and 'Tokyo Tatsumi
-   International Swimming Center' on the 'Keiyo Line'"""
-  print redis.geodist(geo_key, "Makuhari Messe",
-                      "Tokyo Tatsumi International Swimming Center", "km")
+  print("""== Find the distance between 'Makuhari Messe' and 'Tokyo Tatsumi
+   International Swimming Center' on the 'Keiyo Line'""")
+  print(redis.geodist(geo_key, "Makuhari Messe",
+                      "Tokyo Tatsumi International Swimming Center", "km"))
 
-  print "== Find venues within 20km of 'Makuhari Messe' on the 'Keiyo Line'"
+  print("== Find venues within 20km of 'Makuhari Messe' on the 'Keiyo Line'")
   # Note: This only works if the member we are search for is on the
   # "Keiyo Line". For example, "Olympic Statdium" is not
   # on the "Keiyo Line" so would return zero results.
-  print redis.georadiusbymember(geo_key,
-                                "Makuhari Messe", 20, "km", withdist=True)
+  print(redis.georadiusbymember(geo_key,
+                                "Makuhari Messe", 20, "km", withdist=True))
 
 def main():
   """ Main, used to call test cases for this use case"""
   from redisu.utils.clean import clean_keys
 
   global redis
-  redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                      port=os.environ.get("REDIS_PORT", 6379),
-                      db=0)
+  redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
+                port=os.environ.get("REDIS_PORT", 6379),
+                db=0, decode_responses=True)
 
   clean_keys(redis)
   # Performs the tests
@@ -160,4 +160,3 @@ def main():
 if __name__ == "__main__":
   keynamehelper.set_prefix("uc05")
   main()
-

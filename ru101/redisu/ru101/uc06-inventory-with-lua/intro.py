@@ -1,6 +1,6 @@
 """Use Case: Examples with Lua and Python"
 Usage: Part of Redis University RU101 courseware"""
-from redis import StrictRedis
+from redis import Redis
 import os
 import redisu.utils.keynamehelper as keynamehelper
 
@@ -31,9 +31,9 @@ stats_script = """
 def main():
     from redisu.utils.clean import clean_keys
     global redis
-    redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                        port=os.environ.get("REDIS_PORT", 6379),
-                        db=0)
+    redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
+                  port=os.environ.get("REDIS_PORT", 6379),
+                  db=0, decode_responses=True)
 
     clean_keys(redis, "hits")
     redis.set("hits:homepage", 2000)

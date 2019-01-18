@@ -1,6 +1,6 @@
 """Use Case: Inventory Control.
 Usage: Part of Redis University RU101 courseware"""
-from redis import StrictRedis
+from redis import Redis
 import os
 import time
 import unittest
@@ -194,9 +194,9 @@ complete_purchase_script = """
 class TestLuaScripts(unittest.TestCase):
     def setUp(self):
         keynamehelper.set_prefix("uc06")
-        self.redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
+        self.redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                       port=os.environ.get("REDIS_PORT", 6379),
-                      db=0)
+                      db=0, decode_responses=True)
         self.redis.flushdb()
         self.event_keys = self.create_events(EVENTS)
         self.customer_keys = self.create_customers(CUSTOMERS)
@@ -235,7 +235,7 @@ class TestLuaScripts(unittest.TestCase):
         purchase = {'state':'RESERVE', 'order_id': order_id,
                     'customer_id': customer['id'], 'qty': quantity,
                     'cost':     quantity * float(event['price:General']),
-                    'event_sku': event['sku'], 'ts': long(time.time())}
+                    'event_sku': event['sku'], 'ts': int(time.time())}
         self.redis.hmset(purchase_key, purchase)
         return purchase_key
 
@@ -261,15 +261,15 @@ class TestLuaScripts(unittest.TestCase):
         assert(self.redis.hget(purchase_key, 'state') == "RESERVE")
 
         # Try to move the purchase to an invalid state
-        assert(update_purchase_state([purchase_key], ["COMPLETE", long(time.time())]) == 0)
+        assert(update_purchase_state([purchase_key], ["COMPLETE", int(time.time())]) == 0)
         assert(self.redis.hget(purchase_key, 'state') == "RESERVE")
 
         # Try to move the purchase to a valid state
-        assert(update_purchase_state([purchase_key], ["AUTHORIZE", long(time.time())]) == 1)
+        assert(update_purchase_state([purchase_key], ["AUTHORIZE", int(time.time())]) == 1)
         assert(self.redis.hget(purchase_key, 'state') == "AUTHORIZE")
 
         # Try to move the purchase to another valid state
-        assert(update_purchase_state([purchase_key], ["COMPLETE", long(time.time())]) == 1)
+        assert(update_purchase_state([purchase_key], ["COMPLETE", int(time.time())]) == 1)
         assert(self.redis.hget(purchase_key, 'state') == "COMPLETE")
 
     def test_reserve_tickets(self):
@@ -326,24 +326,24 @@ class TestLuaScripts(unittest.TestCase):
         if (request_tickets([self.event_key], [customer['id'], 5, 10]) == 1):
             purchase_key = self.create_purchase(customer, event, 5)
         else:
-            print "Failed"
+            print("Failed")
             assert(False)
 
         # 2. The user enters payment info and authorizes us to charge
         # their credit card. First, we make sure we can complete the purchase
         # (i.e., that the user has done this within the requested time period.)
         if (prepare_purchase([self.event_key], [customer['id'], 5, 30]) == 1):
-            update_purchase_state([purchase_key], ["AUTHORIZE", long(time.time())])
+            update_purchase_state([purchase_key], ["AUTHORIZE", int(time.time())])
         else:
             # Inform the user that they did not complete the purchase in time.
             # Mark the purchase as failed.
-            update_purchase_state([purchase_key], ["FAIL", long(time.time())])
+            update_purchase_state([purchase_key], ["FAIL", int(time.time())])
 
         # Now, if we can authorize the credit card, then we complete the purchase.
         if self.creditcard_auth(customer['id'], 500):
-            success = complete_purchase([self.event_key, purchase_key], [customer['id'], 5, long(time.time())])
+            success = complete_purchase([self.event_key, purchase_key], [customer['id'], 5, int(time.time())])
         else:
-            update_purchase_state([purchase_key], ["FAIL", long(time.time())])
+            update_purchase_state([purchase_key], ["FAIL", int(time.time())])
             success = 0
             # The purchase failed. Note that we don't have to explicity
             # return inventory to the event because it will be reclaimed automatically
@@ -373,11 +373,11 @@ class TestLuaScripts(unittest.TestCase):
 
         # This should fail because we timed out.
         if (complete_purchase([self.event_key, purchase_key], [customer['id'], 5]) == 1):
-            update_purchase_state([purchase_key], ["AUTHORIZE", long(time.time())])
+            update_purchase_state([purchase_key], ["AUTHORIZE", int(time.time())])
         else:
             # Inform the user that they did not complete the purchase in time.
             # Mark the purchase as failed.
-            update_purchase_state([purchase_key], ["FAIL", long(time.time())])
+            update_purchase_state([purchase_key], ["FAIL", int(time.time())])
 
         purchase = self.redis.hgetall(purchase_key)
         assert(purchase['state'] == "FAIL")
