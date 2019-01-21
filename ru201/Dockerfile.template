@@ -13,6 +13,12 @@ RUN set -ex && \
         nodejs-npm \
         git
 
+# Install Node (for data ingest)
+WORKDIR /src/redisu/ru201/data
+RUN npm install && \
+  # Cleanup
+  apk del g++ linux-headers make musl-dev git
+
 # RU201 files
 ADD redisu/data/General_Building_Permits.csv /src/redisu/ru201/data/General_Building_Permits.csv
 ADD redisu/data/README.md /src/redisu/ru201/data/README.md
@@ -21,12 +27,6 @@ ADD redisu/data/package-lock.json /src/redisu/ru201/data/package-lock.json
 ADD redisu/data/package.json /src/redisu/ru201/data/package.json
 ADD redisu/data/connection.json /src/redisu/ru201/data/connection.json
 RUN chown -R student:student /src/redisu
-
-# Install Node (for data ingest)
-WORKDIR /src/redisu/ru201/data
-RUN npm install && \
-	# Cleanup
-	apk del g++ linux-headers make musl-dev git
 
 # Base rdb files
 ADD redisu/dumps/ru201.rdb /data/dump.rdb
