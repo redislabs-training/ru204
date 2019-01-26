@@ -1,5 +1,5 @@
-# redislabs/virtual-lab-ide
-FROM redislabs/virtual-lab-base:5.0.3
+# redisuniversity/virtual-lab-ide
+FROM redisuniversity/virtual-lab-base:4.0.11
 
 # grab su-exec for easy step-down from root
 RUN apk add --no-cache 'su-exec>=0.2'
@@ -34,5 +34,13 @@ ADD nginx.conf /etc/nginx/conf.d/
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
+
+# ADD course files
+ADD redisu/ru101/redisu/uc01-faceted-search /src/redisu/ru101/uc01-faceted-search 
+ADD redisu/ru101/redisu/uc02-inventory-control /src/redisu/ru101/uc02-inventory-control
+ADD redisu/ru101/redisu/uc03-seat-reservation /src/redisu/ru101/uc03-seat-reservation
+ADD redisu/ru101/redisu/uc04-notifications /src/redisu/ru101/uc04-notifications
+ADD redisu/ru101/redisu/uc05-finding-venues /src/redisu/ru101/uc05-finding-venues
+ADD redisu/ru101/redisu/uc06-inventory-with-lua /src/redisu/ru101/uc06-inventory-with-lua
 
 CMD ["supervisord"]

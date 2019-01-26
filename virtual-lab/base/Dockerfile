@@ -23,6 +23,7 @@ RUN set -ex && \
       supervisor \
       curl \
       git \
+      vim \
       libc6-compat \
       nginx \
       libgit2-dev \
@@ -30,9 +31,11 @@ RUN set -ex && \
       zip \
       ttyd \
       cmake \
+      dpkg \
+      python3 \
       py-pip && \
-    pip install --upgrade pip && \
-    pip install --upgrade --no-cache-dir redis==2.10.6 && \  
+    pip3 install --upgrade pip && \
+    pip3 install --upgrade --no-cache-dir redis==3.0.1 && \
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -87,6 +90,9 @@ ADD entry.html /var/lib/nginx/html/
 RUN mkdir /data && chown redis:redis /data
 ADD nginx.conf /etc/nginx/conf.d/
 ADD wait-for-it.sh /run
+
+# Use Python 3
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
