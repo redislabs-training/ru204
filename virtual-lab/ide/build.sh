@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export _REDIS_VER="4.0.10"
+export _REDIS_VER="5.0.3"
 
 
 if [ -n "$1" ]
