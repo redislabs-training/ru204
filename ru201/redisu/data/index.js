@@ -113,7 +113,7 @@ parser.on('readable', function () {                                         // w
     transformedRecord.job_category = record['JOB_CATEGORY'];
     transformedRecord.address = record['ADDRESS'];
     transformedRecord.legal_description = record['LEGAL_DESCRIPTION']; // no index
-    transformedRecord.description = record['JOB_DESCRIPTION'];
+    transformedRecord.description = record['JOB_DESCRIPTION'].replace(/\'/gi, '\\\'');
     transformedRecord.building_type = record['BUILDING_TYPE'].replace(/\s+\(\d+\)/gi, '');
     transformedRecord.work_type = record['WORK_TYPE'].replace(/\(\d+\)\s/gi, '');
     transformedRecord.floor_area = Number(record['FLOOR_AREA'].replace(/\,/gi, ''));
