@@ -1,6 +1,8 @@
 PS1="\W$ "
 
-~/.config/init-container.sh --processid $HOSTNAME > ~/.redw
+if [ ! -f ~/.redw ]; then
+   ~/.config/init-container.sh --processid $HOSTNAME > ~/.redw
+fi
 
 if [ -f ~/.redw ]; then
    set -a
