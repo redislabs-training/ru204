@@ -1,0 +1,42 @@
+# redislabs/ru201-lab
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+ARG CREDREDISPASSWORD
+ARG CREDREDISHOST
+ARG CREDREDISPORT
+
+RUN set -ex && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+        linux-headers \
+      make \
+      musl-dev \
+        libc6-compat \
+        nodejs \
+        nodejs-npm \
+        git
+
+# Workshop files
+WORKDIR /src/redisu
+ADD red-endpoints/init-container.sh /home/student/.config/init-container.sh
+ADD red-endpoints/init-container.js /home/student/.config/init-container.js
+ADD red-endpoints/package.json      /home/student/.config/package.json
+ADD .bashrc /home/student/.bashrc
+
+RUN chown -R student:student /src/redisu
+
+# Install Node (for data ingest)
+WORKDIR /home/student/.config
+RUN npm install && \
+  # Cleanup
+  apk del g++ linux-headers make musl-dev git
+
+WORKDIR /src/redius/
+
+ENV CREDREDISPASSWORD=$CREDREDISPASSWORD
+ENV CREDREDISHOST=$CREDREDISHOST
+ENV CREDREDISPORT=$CREDREDISPORT
+
+# Supervisord config
+ADD supervisord.conf /etc/
