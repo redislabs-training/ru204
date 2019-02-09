@@ -1,5 +1,5 @@
-"""Use Case: Examples with Lua and Python"
-Usage: Part of Redis University RU101 courseware"""
+# Use Case: Examples with Lua and Python
+# Usage: Part of Redis University RU101 courseware
 from redis import Redis
 import os
 import redisu.utils.keynamehelper as keynamehelper
