@@ -23,6 +23,7 @@ ADD red-endpoints/init-container.sh /home/student/.config/init-container.sh
 ADD red-endpoints/init-container.js /home/student/.config/init-container.js
 ADD red-endpoints/package.json      /home/student/.config/package.json
 ADD .bashrc /home/student/.bashrc
+ADD .logo /home/student/.logo
 
 RUN chown -R student:student /src/redisu
 
