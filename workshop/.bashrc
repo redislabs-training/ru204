@@ -9,3 +9,6 @@ if [ -f ~/.redw ]; then
    source ~/.redw
    set +a
 fi
+
+echo "To access your Redis Enterprise Cluster, enter the following:"
+echo "redis-cli -h \$REDISHOST -p \$REDISPORT -a \$REDISPASSWORD"
