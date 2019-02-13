@@ -10,4 +10,8 @@ if [ -f ~/.redw ]; then
    set +a
 fi
 
-cat ~/.logo
+if [ -f ~/.logo ]; then
+   cat ~/.logo
+fi
+
+
