@@ -7,10 +7,7 @@ import jdk.nashorn.internal.objects.annotations.Getter;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
@@ -18,6 +15,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Path("/sites")
 @Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.APPLICATION_JSON)
 public class Sites {
 
     private final SiteDao siteDao;
@@ -29,7 +27,9 @@ public class Sites {
 
     @GET
     public Response getSites() {
-        return Response.ok(siteDao.findAll()).build();
+        return Response.ok(siteDao.findAll())
+                .header("Access-Control-Allow-Origin", "*")
+                .build();
     }
 
     @GET
@@ -39,7 +39,7 @@ public class Sites {
         if (site == null) {
             return Response.noContent().status(404).build();
         } else {
-            return Response.ok(site).build();
+            return Response.ok(site).header("Access-Control-Allow-Origin", "*").build();
         }
     }
 }

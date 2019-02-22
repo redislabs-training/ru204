@@ -8,3 +8,10 @@ redis:
   port: 6379
 server:
   rootPath: /api
+  applicationConnectors:
+    - type: http
+      port: 8081
+  adminConnectors:
+    - type: http
+      port: 8082
+

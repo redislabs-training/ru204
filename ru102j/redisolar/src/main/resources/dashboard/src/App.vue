@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <nav-bar/>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">RediSolar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +28,7 @@
 <script>
 import Chart from 'chart.js'
 import {L, LMap, LTileLayer, LMarker} from 'vue2-leaflet'
+import axios from 'axios'
 
 export default {
   name: 'App',
@@ -39,23 +39,34 @@ export default {
   },
   mounted () {
     this.createMap()
-    this.addMarker(37.745800, -122.1769558)
+    this.getData(this)
   },
   methods: {
-    addMarker (lat, lng) {
-      var marker = L.marker([lat, lng]).addTo(this.mymap)
-      marker.bindPopup('<b>ello world!</b><br>I am a popup.')
+    getData (self) {
+       axios.get('http://localhost:8081/api/sites')
+       .then(function (response) {
+          response.data.forEach(function(site) {
+            self.addMarker(site)
+          })
+       })
+       .catch(function (error) {
+         console.log(error);
+       })
+    },
+    addMarker (site) {
+      var coordinate = site.coordinate
+      var marker = L.marker([coordinate.lat, coordinate.lng]).addTo(this.mymap)
+      marker.bindPopup('<b>' + site.address + '</b><br/>' + site.city +
+        ', ' + site.state + ' ' + site.postalCode + '<br>')
     },
     createMap () {
-      this.mymap = L.map('mapid').setView([37.5307, -122.1415], 10)
+      this.mymap = L.map('mapid').setView([37.715732, -122.027342], 11)
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2JyZWRpcyIsImEiOiJjanMxeXZ1bTExemlyNDNvZDc2N2JyY20wIn0.onntwgLbKiGP9-rgZdssNA', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18,
         id: 'mapbox.streets',
         accessToken: 'your.mapbox.access.token'
       }).addTo(this.mymap)
-      //var marker = L.marker([37.745714, -122.1769559]).addTo(this.mymap)
-      //marker.bindPopup('<b>Hello world!</b><br>I am a popup.')
     }
   }
 }
