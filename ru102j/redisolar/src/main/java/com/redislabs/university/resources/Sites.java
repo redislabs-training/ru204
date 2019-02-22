@@ -1,0 +1,45 @@
+package com.redislabs.university.resources;
+
+import com.redislabs.university.api.Site;
+import com.redislabs.university.dao.SiteDao;
+import com.redislabs.university.dao.SiteRedisDao;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
+
+@Path("/sites")
+@Produces(MediaType.APPLICATION_JSON)
+public class Sites {
+
+    private final SiteDao siteDao;
+    private AtomicLong counter;
+
+    public Sites(SiteDao siteDao) {
+        this.siteDao = siteDao;
+    }
+
+    @GET
+    public Response getSites() {
+        return Response.ok(siteDao.findAll()).build();
+    }
+
+    @GET
+    @Path("/{id}")
+    public Response getSite(@PathParam("id") Long id) {
+        Site site = siteDao.findById(id);
+        if (site == null) {
+            return Response.noContent().status(404).build();
+        } else {
+            return Response.ok(site).build();
+        }
+    }
+}
