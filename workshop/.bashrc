@@ -1,12 +1,12 @@
 PS1="\W$ "
 
 if [ ! -f ~/.redw ]; then
-   ~/.config/init-container.sh --processid $HOSTNAME > ~/.redw
+   node ~/.config/init-container.js  --processid $HOSTNAME > ~/.redwrc
 fi
 
-if [ -f ~/.redw ]; then
+if [ -f ~/.redwrc ]; then
    set -a
-   source ~/.redw
+   source ~/.redwrc
    set +a
 fi
 

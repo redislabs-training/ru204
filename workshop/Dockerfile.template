@@ -1,5 +1,5 @@
-# redislabs/ru201-lab
-FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+# redisuniversity/workshop-lab
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 ARG CREDREDISPASSWORD
 ARG CREDREDISHOST
@@ -19,7 +19,6 @@ RUN set -ex && \
 
 # Workshop files
 WORKDIR /src/redisu
-ADD red-endpoints/init-container.sh /home/student/.config/init-container.sh
 ADD red-endpoints/init-container.js /home/student/.config/init-container.js
 ADD red-endpoints/package.json      /home/student/.config/package.json
 ADD .bashrc /home/student/.bashrc

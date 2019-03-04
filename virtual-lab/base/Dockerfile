@@ -102,6 +102,7 @@ RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student s
     mkdir -p /src/redisu && chown student:student /src/redisu && \
     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
+ADD .bashrc /home/student/.bashrc
 
 # Add sanity test
 ADD helloworld.py /src/redisu

@@ -14,6 +14,7 @@ RUN set -ex && \
         git
 
 # RU201 files
+ADD .logo /home/student/.logo
 ADD redisu/data/General_Building_Permits.csv /src/redisu/ru201/data/General_Building_Permits.csv
 ADD redisu/data/README.md /src/redisu/ru201/data/README.md
 ADD redisu/data/index.js /src/redisu/ru201/data/index.js

@@ -7,6 +7,8 @@ RUN set -ex && \
 	pip3 install --upgrade --no-cache-dir Faker
 
 # Files required by RU101
+ADD .logo /home/student/.logo
+
 ADD redisu/ru101/__init__.py /src/redisu/ru101/__init__.py
 ADD redisu/ru101/common /src/redisu/ru101/common
 
