@@ -1,0 +1,171 @@
+package com.redislabs.university.api;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+
+public class Site {
+    private Long id;
+
+    private Integer capacity;
+    private Integer panels;
+
+    private String address;
+    private String city;
+    private String state;
+    private String postalCode;
+
+    private Coordinate coordinate;
+
+    public Site() {
+    }
+
+    public Site(long id, int capacity, String address) {
+        this.id = id;
+        this.capacity = capacity;
+        this.address = address;
+    }
+
+    public Site(Map<String, String> fields) {
+        this.id = Long.valueOf(fields.getOrDefault("id", null));
+        this.capacity = Integer.valueOf(fields.getOrDefault("capacity", null));
+        this.panels = Integer.valueOf(fields.getOrDefault("panels", null));
+        this.address = fields.getOrDefault("address", null);
+        this.city = fields.getOrDefault("city", null);
+        this.state = fields.getOrDefault("state", null);
+        this.postalCode = fields.getOrDefault("postalCode", null);
+        this.coordinate = new Coordinate(fields.getOrDefault("lng", null),
+                fields.getOrDefault("lat", null));
+    }
+
+    @JsonProperty
+    public Long getId() {
+        return id;
+    }
+
+    @JsonProperty
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    @JsonProperty
+    public Integer getCapacity() {
+        return capacity;
+    }
+
+    @JsonProperty
+    public void setCapacity(Integer capacity) {
+        this.capacity = capacity;
+    }
+
+    @JsonProperty
+    public Integer getPanels() {
+        return panels;
+    }
+
+    @JsonProperty
+    public void setPanels(Integer panels) {
+        this.panels = panels;
+    }
+
+    @JsonProperty
+    public String getAddress() {
+        return address;
+    }
+
+    @JsonProperty
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @JsonProperty
+    public String getCity() {
+        return city;
+    }
+
+    @JsonProperty
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    @JsonProperty
+    public String getState() {
+        return state;
+    }
+
+    @JsonProperty
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    @JsonProperty
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    @JsonProperty
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+
+    @JsonProperty
+    public Coordinate getCoordinate() {
+        return coordinate;
+    }
+
+    @JsonProperty
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
+    }
+
+    public Map<String, String> toMap() {
+        Map<String, String> map = new HashMap<>();
+        map.put("id", String.valueOf(id));
+        map.put("capacity", String.valueOf(capacity));
+        map.put("panels", String.valueOf(panels));
+        map.put("address", address);
+        map.put("city", city);
+        map.put("state", state);
+        map.put("postalCode", postalCode);
+        map.put("lat", String.valueOf(coordinate.getLat()));
+        map.put("lng", String.valueOf(coordinate.getLng()));
+
+        return map;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Site that = (Site) o;
+        return Objects.equals(id, that.id) &&
+                Objects.equals(capacity, that.capacity) &&
+                Objects.equals(panels, that.panels) &&
+                Objects.equals(address, that.address) &&
+                Objects.equals(city, that.city) &&
+                Objects.equals(state, that.state) &&
+                Objects.equals(postalCode, that.postalCode) &&
+                Objects.equals(coordinate, that.coordinate);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, capacity, panels, address, city, state, postalCode, coordinate);
+    }
+
+    @Override
+    public String toString() {
+        return "Site{" +
+                "id=" + id +
+                ", capacity=" + capacity +
+                ", panels=" + panels +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                ", coordinate=" + coordinate +
+                '}';
+    }
+}
