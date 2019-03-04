@@ -1,5 +1,5 @@
 # redisuniversity/ru202-lab
-FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 RUN set -ex && \
   	apk add --no-cache \
@@ -11,11 +11,27 @@ RUN set -ex && \
       libc6-compat
 
 # RU202 files
+ADD .logo /home/student/.logo
+ADD src/python/blockingread_sum.py     /src/redisu/ru202/src/python/blockingread_sum.py
+ADD src/python/concurrent_consumers.py /src/redisu/ru202/src/python/concurrent_consumers.py
+ADD src/python/consumer_group.py       /src/redisu/ru202/src/python/consumer_group.py
+ADD src/python/producer_1.py           /src/redisu/ru202/src/python/producer_1.py
+ADD src/python/producer_2.py           /src/redisu/ru202/src/python/producer_2.py
+ADD src/python/range_1.py              /src/redisu/ru202/src/python/range_1.py
+ADD src/python/range_2.py              /src/redisu/ru202/src/python/range_2.py
+ADD src/python/range_3.py              /src/redisu/ru202/src/python/range_3.py
+ADD src/python/util/__init__.py        /src/redisu/ru202/src/python/util/__init__.py
+ADD src/python/util/connection.py      /src/redisu/ru202/src/python/util/connection.py
+ADD src/python/util/streams.py         /src/redisu/ru202/src/python/util/streams.py
+
 RUN chown -R student:student /src/redisu
 
 # Base rdb files
 #ADD redisu/dumps/ru202.rdb /data/dump.rdb
 #RUN chown redis:redis /data/dump.rdb
+
+# Entry page
+ADD entry.html /var/lib/nginx/html/
 
 # Supervisord config
 ADD supervisord.conf /etc/
