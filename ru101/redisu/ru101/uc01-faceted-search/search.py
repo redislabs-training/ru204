@@ -1,7 +1,7 @@
 """Use Case: Faceted search.
 Usage:
 Part of Redis University RU101 coursewear"""
-from redis import StrictRedis
+from redis import Redis
 import os
 import hashlib
 import json
@@ -42,7 +42,7 @@ def print_event_name(event_sku):
   """Helper to get the Event, extract and print the venue name."""
   key = keynamehelper.create_key_name("event", event_sku)
   event = json.loads(redis.get(key))
-  print event['name'] if ('name' in event) else event['sku']
+  print((event['name'] if ('name' in event) else event['sku']))
 
 def match_by_inspection(*keys):
   """Match Method 1 - Object inspection
@@ -66,23 +66,23 @@ def match_by_inspection(*keys):
 
 def test_object_inspection():
   """Test function for Method 1: Object Inspection"""
-  print "\n== Method 1: Object Inspection"
+  print("\n== Method 1: Object Inspection")
   # Create events
   create_events(__events__)
 
   # Find the match
-  print "=== disabled_access=True"
+  print("=== disabled_access=True")
   matches = match_by_inspection(('disabled_access', True))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=True, medal_event=False"
+  print("=== disabled_access=True, medal_event=False")
   matches = match_by_inspection(('disabled_access', True),
                                 ('medal_event', False))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=False, medal_event=False, venue='Nippon Budokan'"
+  print("=== disabled_access=False, medal_event=False, venue='Nippon Budokan'")
   matches = match_by_inspection(('disabled_access', False),
                                 ('medal_event', False),
                                 ('venue', "Nippon Budokan"))
@@ -117,21 +117,21 @@ def match_by_faceting(*keys):
 
 def test_faceted_search():
   """Test function for Method 2: Faceted Search"""
-  print "\n== Method 2: Faceted Search"
+  print("\n== Method 2: Faceted Search")
   # Create events
   create_events_with_lookups(__events__)
   # Find the match
-  print "=== disabled_access=True"
+  print("=== disabled_access=True")
   matches = match_by_faceting(('disabled_access', True))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=True, medal_event=False"
+  print("=== disabled_access=True, medal_event=False")
   matches = match_by_faceting(('disabled_access', True), ('medal_event', False))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=False, medal_event=False, venue='Nippon Budokan'"
+  print("=== disabled_access=False, medal_event=False, venue='Nippon Budokan'")
   matches = match_by_faceting(('disabled_access', False),
                               ('medal_event', False),
                               ('venue', "Nippon Budokan"))
@@ -148,7 +148,7 @@ def create_events_hashed_lookups(e_array):
     for key in range(len(__lookup_attrs__)):
       if __lookup_attrs__[key] in e_array[i]:
         hfs.append((__lookup_attrs__[key], e_array[i][__lookup_attrs__[key]]))
-      hashed_val = hashlib.sha256(str(hfs)).hexdigest()
+      hashed_val = hashlib.sha256(str(hfs).encode('utf-8')).hexdigest()
       hfs_key = keynamehelper.create_key_name("hfs", hashed_val)
       redis.sadd(hfs_key, e_array[i]['sku'])
 
@@ -160,7 +160,7 @@ def match_by_hashed_faceting(*keys):
     key = [x for x in keys if x[0] == __lookup_attrs__[i]]
     if key:
       hfs.append(key[0])
-  hashed_val = hashlib.sha256(str(hfs)).hexdigest()
+  hashed_val = hashlib.sha256(str(hfs).encode('utf-8')).hexdigest()
   hashed_key = keynamehelper.create_key_name("hfs", hashed_val)
   for found_key in redis.sscan_iter(hashed_key):
     matches.append(found_key)
@@ -168,22 +168,22 @@ def match_by_hashed_faceting(*keys):
 
 def test_hashed_faceting():
   """Test function for Method 3: Hashed Faceting"""
-  print "\n== Method 3: Hashed Faceting"
+  print("\n== Method 3: Hashed Faceting")
   # Create events
   create_events_hashed_lookups(__events__)
   # Find the match
-  print "=== disabled_access=True"
+  print("=== disabled_access=True")
   matches = match_by_hashed_faceting(('disabled_access', True))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=True, medal_event=False"
+  print("=== disabled_access=True, medal_event=False")
   matches = match_by_hashed_faceting(('disabled_access', True),
                                      ('medal_event', False))
   for match in matches:
     print_event_name(match)
 
-  print "=== disabled_access=False, medal_event=False, venue='Nippon Budokan'"
+  print("=== disabled_access=False, medal_event=False, venue='Nippon Budokan'")
   matches = match_by_hashed_faceting(('disabled_access', False),
                                      ('medal_event', False),
                                      ('venue', "Nippon Budokan"))
@@ -195,9 +195,9 @@ def main():
   from redisu.utils.clean import clean_keys
 
   global redis
-  redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                      port=os.environ.get("REDIS_PORT", 6379),
-                      db=0)
+  redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
+                port=os.environ.get("REDIS_PORT", 6379),
+                db=0)
   clean_keys(redis)
 
   # Perform the tests

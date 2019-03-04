@@ -117,12 +117,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="course-staff">
   <h2>Course Instructors</h2>
   <article class="teacher">
-    <div class="teacher-image">
-      <img src="/static/kyle_profile.JPG" align="left" style="margin:0 20 px 0" alt="Course Staff Image #1">
-    </div>
-    <h3>Kyle Davis</h3>
-    <pre class="code sh literal-block">
-HSET kyle:davis position "Technical Marketing Manager"
+    <table style="width:100%" valign="top" cellpadding="20">
+      <tr>
+        <td width="30%">
+          <div class="teacher-image" style="width: 250px; border-radius: 10%; overflow: hidden">
+            <img src="/static/kyle_profile.JPG" align="left" style="width:100%; margin: 0px; display: block; overflow: hidden;" >
+<!--
+
+            <img src="/tmp/kyle_profile.JPG" align="left" style="width:150%;margin: 0px; display: block; overflow: hidden;" >
+-->
+          </div>
+        </td>
+        <td width="70%">
+          <h3>Kyle Davis</h3>
+          <pre class="code sh literal-block">
+HSET kyle:davis position "Head of Developer Advocacy"
 HSET kyle:davis company "Redis Labs"
 HSET kyle:davis education-bachelors "University of Southern Indiana"
 HSET kyle:davis education-masters "University of Central Missouri"
@@ -131,14 +140,28 @@ HSET kyle:davis favourite-language "Node.js"
 HSET kyle:davis second-favourite-language "Rust"
 HSET kyle:davis lives-in "Edmonton, Alberta, Canada"
 </pre>
+        </td>
+      </tr>
+    </table>
   </article>
   <article class="teacher">
-    <div class="teacher-image">
-            <img src="/asset-v1:redislabs+RU101+2018_01+type@asset+block@alvin-small.jpg" align="left" style="margin: 0px;    display: block;    height: 300px;    width: 300px; border-radius: 50%;    overflow: hidden;" alt="Course Staff Image #1" height="150">
-    </div>
-    <h3>Alvin Richards</h3>
-    <p>Alvin is Chief Education Officer at Redis Labs, and has held various executive roles, most recently as the Field Chief Technology Officer at MariaDB, Vice President of Product at Aerospike and engineering lead at MongoDB. He has worked with SasS startups, enterprise storage (NetApp) and byte-code virtualization and containers (Docker). Alvin’s early experience as a software engineer at Oracle provided a springboard for his career success building and leading engineering teams across the globe.
-<br><br>
-Alvin holds a computer science degree from Thames Valley University and a Bachelor of Arts in photography from Nottingham Trent University, both in Great Britain.</p>
+    <table style="width:100%" valign="top" cellpadding="20">
+      <tr>
+        <td width="30%">
+          <div class="teacher-image" style="width: 250px; height: 250px; border-radius: 10%; overflow: hidden">
+            <img src="/asset-v1:redislabs+RU101+2019_01+type@asset+block@alvin-small.jpg" align="left" style="width:150%; margin: 0px; display: block; overflow: hidden;" >
+<!--
+            <img src="/tmp/alvin-small.jpg" align="left" style="width:150%;margin: 0px; display: block; overflow: hidden;" >
+-->
+          </div>
+        </td>
+        <td width="70%">
+          <h3>Alvin Richards</h3>
+          <p>Alvin is Chief Education Officer at Redis Labs, and has held various executive roles, most recently as the Field Chief Technology Officer at MariaDB, Vice President of Product at Aerospike and engineering lead at MongoDB. He has worked with SasS startups, enterprise storage (NetApp) and byte-code virtualization and containers (Docker). Alvin’s early experience as a software engineer at Oracle provided a springboard for his career success building and leading engineering teams across the globe.</p>
+          <br>
+          <p>Alvin holds a computer science degree from Thames Valley University and a Bachelor of Arts in photography from Nottingham Trent University, both in Great Britain.</p>
+        </td>
+      </tr>
+    </table>
   </article>
 </section>

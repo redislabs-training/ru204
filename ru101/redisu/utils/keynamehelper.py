@@ -1,6 +1,6 @@
 """Utilities to generate key & field names based on the variadic parameters
-passed.
-e.g., by default , gievn the values "foo" and "bar" as parameters, the functions
+passed in.
+e.g., by default , given the values "foo" and "bar" as parameters, the functions
 will generate
   "foo:bar"
 
@@ -21,7 +21,7 @@ def get_prefix():
   return __prefix__
 
 def set_sep(ch):
-  """Set the seperator to use, the default is dfined in the initialization of
+  """Set the seperator to use, the default is defined in the initialization of
   this script."""
   global __sep__
   __sep__ = ch
@@ -30,20 +30,29 @@ def get_sep():
   """Return the current seperator."""
   return __sep__
 
+def ensure_str(vals):
+  str_vals = []
+  for v in vals:
+    if isinstance(v,bytes):
+      str_vals.append(v.decode())
+    else:
+      str_vals.append(v)
+  return str_vals
+
 def create_key_name(*vals):
   """Create the key name based on the following format
 
      [ prefix + sepatartor] + [ [ separator + value] ]
   """
-  return ((__prefix__ + __sep__) if (__prefix__ != "") else "")\
-         + "%s" % __sep__.join(vals)
+  return ((__prefix__ + __sep__) if (__prefix__ != "") else b"")\
+         + "%s" % __sep__.join(ensure_str(vals))
 
 def create_field_name(*vals):
   """Create the field name based on the following format
 
      [ [ separator + value] ]
 
-  Typically used for field names in a has, where you don't need the prefix
-  added, because the returned value is used in the content of a key.
+  Typically used for field names in a hash, where you don't need the prefix
+  added, because the returned value is used in the context of a key.
   """
-  return "%s" % __sep__.join(vals)
+  return "%s" % __sep__.join(ensure_str(vals))

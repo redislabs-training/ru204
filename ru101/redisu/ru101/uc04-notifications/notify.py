@@ -1,7 +1,7 @@
 """Use Case: Nofications.
 Usage:
 Part of Redis University RU101 coursewear"""
-from redis import StrictRedis
+from redis import Redis
 import os
 import time
 import random
@@ -67,7 +67,7 @@ def listener_sales_analytics(channel):
     order_id = message['data']
     so_key = keynamehelper.create_key_name("sales_order", order_id)
     (ts, qty, event_sku) = redis.hmget(so_key, 'ts', 'qty', 'event')
-    hour_of_day = int(time.strftime("%H", time.gmtime(long(ts))))
+    hour_of_day = int(time.strftime("%H", time.gmtime(int(ts))))
     vals = ["INCRBY", "u16", max(hour_of_day * 16, 0), int(qty)]
     tod_event_hist_key = keynamehelper.create_key_name("sales_histogram",
                                                        "time_of_day",
@@ -78,10 +78,10 @@ def print_statistics(stop_event):
   """Thread that prints current event statsistics."""
   from binascii import hexlify
   sum_key = keynamehelper.create_key_name("sales_summary")
-  print "\n === START"
-  print "{:8} | {:12} | {:3} |  Histogram by hour".format("T/S",
+  print("\n === START")
+  print("{:8} | {:12} | {:3} |  Histogram by hour".format("T/S",
                                                           "Event",
-                                                          "#"),
+                                                          "#"), end=' ')
   while not stop_event.is_set():
     ts = time.strftime("%H:%M:%S")
     e_key = keynamehelper.create_key_name("event", "*")
@@ -97,19 +97,19 @@ def print_statistics(stop_event):
       hist = redis.get(tod_hist_key)
       if hist != None:
         hist_vals = [hist[i:i+2] for i in range(0, len(hist), 2)]
-        print "\n{:8} | {:12} | {:3d} | ".format(ts,
+        print("\n{:8} | {:12} | {:3d} | ".format(ts,
                                                   event_sku,
-                                                  t_tickets),
+                                                  t_tickets), end=' ')
         for i in range(0, 24):
-          num = int(hexlify(hist_vals[i]), 16) if i < len(hist_vals) else 0
-          print "{:02d}/{:03d}".format(i, num),
+          num = int(hexlify(hist_vals[i].encode(encoding='utf-8')), 16) if i < len(hist_vals) else 0
+          print("{:02d}/{:03d}".format(i, num), end=' ')
     time.sleep(1)
-  print "\n === END"
+  print("\n === END")
 
 # Part One - simple publish & subscribe
 def test_pub_sub():
   """Test function for pub/sub messages for fan out"""
-  print "== Test 1: Simple pub/sub"
+  print("== Test 1: Simple pub/sub")
 
   events = ["Womens Judo"]
   for e in events:
@@ -152,8 +152,8 @@ def listener_ceremony_alerter(channel):
     field_key = keynamehelper.create_field_name(event, "total_orders")
     total_orders = redis.hincrby(sum_key, field_key, 1)
     if total_orders % 5 == 0:
-      print "===> Winner!!!!! Ceremony Lottery - Order Id: {}"\
-        .format(order_id)
+      print("===> Winner!!!!! Ceremony Lottery - Order Id: {}"\
+        .format(order_id))
 
 # Subscribe to all event, except 'Opening Ceremony' events
 def listener_event_alerter(channel):
@@ -165,11 +165,11 @@ def listener_event_alerter(channel):
     order_id = message['data']
     so_key = keynamehelper.create_key_name("sales_order", order_id)
     (event_sku, qty, cost) = redis.hmget(so_key, 'event', 'qty', 'cost')
-    print "Purchase {}: #{} ${}".format(event_sku, qty, cost)
+    print("Purchase {}: #{} ${}".format(event_sku, qty, cost))
 
 def test_patterned_subs():
   """Test function for patterned subscriptions"""
-  print "==Test 2: Patterned subscribers - Opening Ceremony Lottery picker"
+  print("==Test 2: Patterned subscribers - Opening Ceremony Lottery picker")
 
   threads = []
   threads.append(threading.Thread(target=listener_ceremony_alerter,
@@ -196,9 +196,9 @@ def main():
   from redisu.utils.clean import clean_keys
 
   global redis
-  redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
-                      port=os.environ.get("REDIS_PORT", 6379),
-                      db=0)
+  redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
+                port=os.environ.get("REDIS_PORT", 6379),
+                db=0, decode_responses=True)
   clean_keys(redis)
 
   # Performs the tests
@@ -208,4 +208,3 @@ def main():
 if __name__ == "__main__":
   keynamehelper.set_prefix("uc04")
   main()
-

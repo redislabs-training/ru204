@@ -32,4 +32,4 @@ def random_time_today():
   #
   time1 = mktime(date1.timetuple())
   time2 = mktime(date2.timetuple())
-  return long(uniform(time1, time2))
+  return int(uniform(time1, time2))

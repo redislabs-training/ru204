@@ -27,4 +27,6 @@ docker push gcr.io/redis-labs/ru201-lab:<version>
 ## Build zip file
 From a running Virtual Lab, run the following
 
+cd /src
 zip -r ru201.zip * -x *node_modules* -x redisu/ru201/data/General_Building_Permits.csv
+cp ru201.zip /rdb/ru201.zip

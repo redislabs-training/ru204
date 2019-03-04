@@ -15,7 +15,7 @@ The build process will default to 4.0.10, but can be overriden
 or
 
 ./build.sh 5.0-rc4 bfc7a27d3ba990e154e5b56484061f01962d40b7c77b520ed7a940914b267cec
-./build.sh 5.0.0 70c98b2d0640b2b73c9d8adb4df63bcb62bad34b788fe46d1634b6cf87dc99a4
+./build.sh 5.0.3 e290b4ddf817b26254a74d5d564095b11f9cd20d8f165459efa53eb63cd93e02
 
 or
 
@@ -25,7 +25,7 @@ or
 
 
 ## By hand
-docker build -t redisuniversity/virtual-lab:4.0.10 --build-arg REDIS_VERSION=4.0.10 .
+docker build -t redisuniversity/virtual-lab-base:4.0.10 --build-arg REDIS_VERSION=4.0.10 .
 
 # Run
-docker run --rm --name redis-lab -p:8888:8888 redisuniversity/virtual-lab:4.0.10
+docker run --rm --name redis-lab -p:8888:8888 redisuniversity/virtual-lab-base:4.0.10

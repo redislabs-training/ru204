@@ -1,4 +1,4 @@
-# redislabs/virtual-lab-ide
+# redisuniversity/virtual-lab-ide
 FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
 
 # grab su-exec for easy step-down from root

@@ -1,4 +1,4 @@
-# redislabs/virtual-lab-base
+# redisuniversity/virtual-lab-base
 FROM alpine:3.7
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
@@ -23,6 +23,7 @@ RUN set -ex && \
       supervisor \
       curl \
       git \
+      vim \
       libc6-compat \
       nginx \
       libgit2-dev \
@@ -30,9 +31,11 @@ RUN set -ex && \
       zip \
       ttyd \
       cmake \
+      dpkg \
+      python3 \
       py-pip && \
-    pip install --upgrade pip && \
-    pip install --upgrade --no-cache-dir redis && \  
+    pip3 install --upgrade pip && \
+    pip3 install --upgrade --no-cache-dir redis==3.0.1 && \
   	wget -O redis.tar.gz "$REDIS_DOWNLOAD_URL" && \
   	echo "$REDIS_DOWNLOAD_SHA *redis.tar.gz" | sha256sum -c - && \
   	mkdir -p /usr/src/redis && \
@@ -55,8 +58,10 @@ RUN set -ex && \
     cd /usr/src/redisearch && \
     git clone https://github.com/RedisLabsModules/RediSearch.git && \
     cd RediSearch && \
-  #  git checkout 1.4.1 && \
-  # START HACK until Git Issues resolved https://github.com/RedisLabsModules/RediSearch/issues/497
+    git checkout 1.4.2 && \
+  # START HACK until Git Issues resolved 
+  # https://github.com/RedisLabsModules/RediSearch/issues/497
+  # https://github.com/RedisLabsModules/RediSearch/issues/517
     sed -i 's/ ON)/ OFF)/' CMakeLists.txt && \
     sed -i '19,$d' src/rmutil/Makefile && \
   # END HACK
@@ -86,6 +91,9 @@ RUN mkdir /data && chown redis:redis /data
 ADD nginx.conf /etc/nginx/conf.d/
 ADD wait-for-it.sh /run
 
+# Use Python 3
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+
 # Supervisord tweaks
 ADD supervisord.conf /etc/
 
@@ -94,6 +102,7 @@ RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student s
     mkdir -p /src/redisu && chown student:student /src/redisu && \
     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
+ADD .bashrc /home/student/.bashrc
 
 # Add sanity test
 ADD helloworld.py /src/redisu

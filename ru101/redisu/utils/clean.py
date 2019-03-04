@@ -19,7 +19,7 @@ def clean_keys(redis_c, prefix=None):
       redis_c.delete(k)
       count += 1
   else:
-    print "No prefix, no way am I goig to remove '*' !"
+    print("No prefix, no way am I goig to remove '*' !")
   return count
 
 def main(prefix):
@@ -29,10 +29,10 @@ def main(prefix):
                       port=os.environ.get("REDIS_PORT", 6379),
                       db=0)
   count = clean_keys(redis, prefix)
-  print "Removed {} keys".format(count)
+  print("Removed {} keys".format(count))
 
 if __name__ == "__main__":
   if len(sys.argv) == 2:
     main(sys.argv[1])
   else:
-    print "Wrong number of args, specify the key prefix"
+    print("Wrong number of args, specify the key prefix")
