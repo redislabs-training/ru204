@@ -53,24 +53,6 @@ RUN set -ex && \
   	make -C /usr/src/redis -j "$(nproc)" && \
   	make -C /usr/src/redis install && \
   	rm -r /usr/src/redis && \
-# INSTALL RediSearch
-    mkdir -p /usr/src/redisearch && \
-    cd /usr/src/redisearch && \
-    git clone https://github.com/RedisLabsModules/RediSearch.git && \
-    cd RediSearch && \
-    git checkout 1.4.2 && \
-  # START HACK until Git Issues resolved 
-  # https://github.com/RedisLabsModules/RediSearch/issues/497
-  # https://github.com/RedisLabsModules/RediSearch/issues/517
-    sed -i 's/ ON)/ OFF)/' CMakeLists.txt && \
-    sed -i '19,$d' src/rmutil/Makefile && \
-  # END HACK
-    mkdir build && \
-    cd build && \
-    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-    make && \
-    cp redisearch.so /usr/local/bin/ && \
-    rm -r /usr/src/redisearch && \
 # CLEANUP
     apk del libgit2-dev build-base git make gcc linux-headers musl-dev cmake
 
@@ -103,6 +85,7 @@ RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student s
     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
 ADD .bashrc /home/student/.bashrc
+ADD .logo /home/student/.logo
 
 # Add sanity test
 ADD helloworld.py /src/redisu

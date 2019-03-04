@@ -5,13 +5,29 @@ RUN set -ex && \
     apk add --no-cache \
       coreutils \
       g++ \
-        linux-headers \
+      linux-headers \
       make \
       musl-dev \
-        libc6-compat \
-        nodejs \
-        nodejs-npm \
-        git
+      libc6-compat \
+      nodejs \
+      nodejs-npm \
+      git \
+      cmake && \
+    # INSTALL RediSearch
+    mkdir -p /usr/src/redisearch && \
+    cd /usr/src/redisearch && \
+    git clone https://github.com/RedisLabsModules/RediSearch.git && \
+    cd RediSearch && \
+  # RediSearch 1.4.5
+    git checkout 25adcfbce60975442b77c04c0debdae6050ee2c0 && \
+    mkdir build && \
+    cd build && \
+    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+    make && \
+    cp redisearch.so /usr/local/bin/ && \
+    rm -r /usr/src/redisearch && \
+# CLEANUP
+    apk del libgit2-dev build-base git make gcc linux-headers musl-dev cmake  
 
 # RU201 files
 ADD .logo /home/student/.logo
@@ -25,9 +41,15 @@ RUN chown -R student:student /src/redisu
 
 # Install Node (for data ingest)
 WORKDIR /src/redisu/ru201/data
-RUN npm install && \
-  # Cleanup
-  apk del g++ linux-headers make musl-dev git
+RUN apk add --no-cache \
+      g++ \
+      linux-headers \
+      make \
+      musl-dev \
+      git && \
+    npm install && \
+    # Cleanup
+    apk del g++ linux-headers make musl-dev git
 
 # Base rdb files
 ADD redisu/dumps/ru201.rdb /data/dump.rdb
