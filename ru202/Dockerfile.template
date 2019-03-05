@@ -32,6 +32,3 @@ RUN chown -R student:student /src/redisu
 
 # Entry page
 ADD entry.html /var/lib/nginx/html/
-
-# Supervisord config
-ADD supervisord.conf /etc/
