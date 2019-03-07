@@ -1,6 +1,7 @@
 package com.redislabs.university.command;
 
 import com.redislabs.university.core.DataLoader;
+import com.redislabs.university.core.SampleDataGenerator;
 import io.dropwizard.cli.Command;
 import io.dropwizard.setup.Bootstrap;
 import net.sourceforge.argparse4j.inf.Namespace;
@@ -43,6 +44,8 @@ public class LoadCommand extends Command {
                 (String)namespace.get("host"), (Integer)namespace.get("port"));
         DataLoader loader = new DataLoader(jedisPool);
         loader.load();
+        SampleDataGenerator generator = new SampleDataGenerator(jedisPool);
+        generator.generateHistorical(1);
         System.exit(0);
     }
 }

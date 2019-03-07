@@ -2,7 +2,6 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import NavBar from './components/NavBar'
 import router from './router'
 
 import { L, LMap, LTileLayer, LMarker } from 'vue2-leaflet'
@@ -26,6 +25,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App, NavBar },
+  components: { App },
   template: '<App/>'
 })

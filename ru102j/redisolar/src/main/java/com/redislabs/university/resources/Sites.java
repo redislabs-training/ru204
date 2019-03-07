@@ -2,15 +2,10 @@ package com.redislabs.university.resources;
 
 import com.redislabs.university.api.Site;
 import com.redislabs.university.dao.SiteDao;
-import com.redislabs.university.dao.SiteRedisDao;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Path("/sites")

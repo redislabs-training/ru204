@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Site {
     private Long id;
 
-    private Integer capacity;
+    private Double capacity;
     private Integer panels;
 
     private String address;
@@ -22,7 +22,7 @@ public class Site {
     public Site() {
     }
 
-    public Site(long id, int capacity, String address) {
+    public Site(long id, double capacity, String address) {
         this.id = id;
         this.capacity = capacity;
         this.address = address;
@@ -30,7 +30,7 @@ public class Site {
 
     public Site(Map<String, String> fields) {
         this.id = Long.valueOf(fields.getOrDefault("id", null));
-        this.capacity = Integer.valueOf(fields.getOrDefault("capacity", null));
+        this.capacity = Double.valueOf(fields.getOrDefault("capacity", null));
         this.panels = Integer.valueOf(fields.getOrDefault("panels", null));
         this.address = fields.getOrDefault("address", null);
         this.city = fields.getOrDefault("city", null);
@@ -51,12 +51,12 @@ public class Site {
     }
 
     @JsonProperty
-    public Integer getCapacity() {
+    public Double getCapacity() {
         return capacity;
     }
 
     @JsonProperty
-    public void setCapacity(Integer capacity) {
+    public void setCapacity(Double capacity) {
         this.capacity = capacity;
     }
 
