@@ -1,26 +1,32 @@
+<style>
+
+</style>
+
 <template>
-  <div id="app">
+
+<div id="app">
     <nav-bar></nav-bar>
     <router-view></router-view>
-  </div>
+</div>
+
 </template>
 
 <script>
-  import Map from './components/Map.vue'
-  import NavBar from './components/NavBar.vue'
-  import Stats from './components/Stats.vue'
-  export default {
-    name: "app",
-	  components: {
-  	  Map,
-      NavBar,
-      Stats
-      // Leaderboard,
-      // Live,
-      // Maintenance
-	  }
-}
-</script>
+/* eslint-disable */
 
-<style>
-</style>
+import Map from './components/Map.vue'
+import NavBar from './components/NavBar.vue'
+import Stats from './components/Stats.vue'
+export default {
+    name: "app",
+    components: {
+        Map,
+        NavBar,
+        Stats
+        // Leaderboard,
+        // Live,
+        // Maintenance
+    }
+}
+
+</script>

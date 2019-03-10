@@ -1,7 +1,7 @@
-package com.redislabs.university.command;
+package com.redislabs.university.RU102J.command;
 
-import com.redislabs.university.core.DataLoader;
-import com.redislabs.university.core.SampleDataGenerator;
+import com.redislabs.university.RU102J.core.DataLoader;
+import com.redislabs.university.RU102J.core.SampleDataGenerator;
 import io.dropwizard.cli.Command;
 import io.dropwizard.setup.Bootstrap;
 import net.sourceforge.argparse4j.inf.Namespace;
@@ -16,6 +16,14 @@ public class LoadCommand extends Command {
 
     @Override
     public void configure(Subparser subparser) {
+        subparser.addArgument("--flush")
+                .dest("flush")
+                .type(Boolean.class)
+                .required(false)
+                .setDefault(false)
+                .help("Run the 'flushdb' command on the Redis database to " +
+                        "clear all data before loading.");
+
         subparser.addArgument("--filename")
                 .dest("filename")
                 .type(String.class)
@@ -43,9 +51,14 @@ public class LoadCommand extends Command {
         JedisPool jedisPool = new JedisPool(new JedisPoolConfig(),
                 (String)namespace.get("host"), (Integer)namespace.get("port"));
         DataLoader loader = new DataLoader(jedisPool);
+        Boolean flush = (Boolean)namespace.get("flush");
+        if (flush) {
+            loader.flush();
+        }
         loader.load();
         SampleDataGenerator generator = new SampleDataGenerator(jedisPool);
         generator.generateHistorical(1);
+        System.out.println("Data load complete!");
         System.exit(0);
     }
 }

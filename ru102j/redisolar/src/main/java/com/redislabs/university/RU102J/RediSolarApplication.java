@@ -1,9 +1,12 @@
-package com.redislabs.university;
+package com.redislabs.university.RU102J;
 
-import com.redislabs.university.command.LoadCommand;
-import com.redislabs.university.dao.SiteRedisDao;
-import com.redislabs.university.health.RediSolarHealthCheck;
-import com.redislabs.university.resources.Sites;
+import com.redislabs.university.RU102J.command.LoadCommand;
+import com.redislabs.university.RU102J.command.RunCommand;
+import com.redislabs.university.RU102J.dao.DayMinuteMetricRedisDao;
+import com.redislabs.university.RU102J.dao.SiteRedisDao;
+import com.redislabs.university.RU102J.health.RediSolarHealthCheck;
+import com.redislabs.university.RU102J.resources.Metrics;
+import com.redislabs.university.RU102J.resources.Sites;
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
@@ -26,6 +29,7 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
     public void initialize(final Bootstrap<RediSolarConfiguration> bootstrap) {
         bootstrap.addBundle(new AssetsBundle("/dashboard/dist", "/", "index.html"));
         bootstrap.addCommand(new LoadCommand());
+        bootstrap.addCommand(new RunCommand());
     }
 
     @Override
@@ -38,8 +42,10 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
 
         // Create resources
         // TODO: Consider using a DI framework here
-        Sites installationResource = new Sites(new SiteRedisDao(jedisPool));
-        environment.jersey().register(installationResource);
+        Sites siteResource = new Sites(new SiteRedisDao(jedisPool));
+        environment.jersey().register(siteResource);
+        Metrics metricsResource = new Metrics(new DayMinuteMetricRedisDao(jedisPool));
+        environment.jersey().register(metricsResource);
 
         // Set up health checks
         // TODO: Create a Redis health check

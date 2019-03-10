@@ -1,4 +1,4 @@
-package com.redislabs.university;
+package com.redislabs.university.RU102J;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

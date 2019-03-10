@@ -1,7 +1,7 @@
-package com.redislabs.university.dao;
+package com.redislabs.university.RU102J.dao;
 
-import com.redislabs.university.api.Coordinate;
-import com.redislabs.university.api.Site;
+import com.redislabs.university.RU102J.api.Coordinate;
+import com.redislabs.university.RU102J.api.Site;
 import redis.clients.jedis.GeoRadiusResponse;
 import redis.clients.jedis.GeoUnit;
 import redis.clients.jedis.Jedis;

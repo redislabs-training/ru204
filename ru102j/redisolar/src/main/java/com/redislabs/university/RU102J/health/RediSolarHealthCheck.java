@@ -1,4 +1,4 @@
-package com.redislabs.university.health;
+package com.redislabs.university.RU102J.health;
 
 import com.codahale.metrics.health.HealthCheck;
 import com.codahale.metrics.health.HealthCheck.Result;

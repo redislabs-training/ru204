@@ -1,9 +1,7 @@
-package com.redislabs.university;
+package com.redislabs.university.RU102J;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.validator.constraints.*;
-import javax.validation.constraints.*;
 
 public class RediSolarConfiguration extends Configuration {
 

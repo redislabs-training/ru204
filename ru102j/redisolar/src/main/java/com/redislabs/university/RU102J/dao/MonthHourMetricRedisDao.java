@@ -1,6 +1,6 @@
-package com.redislabs.university.dao;
+package com.redislabs.university.RU102J.dao;
 
-import com.redislabs.university.api.Measurement;
+import com.redislabs.university.RU102J.api.Measurement;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 

@@ -1,4 +1,4 @@
-package com.redislabs.university.api;
+package com.redislabs.university.RU102J.api;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

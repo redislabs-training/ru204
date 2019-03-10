@@ -1,4 +1,4 @@
-package com.redislabs.university.dao;
+package com.redislabs.university.RU102J.dao;
 
 import redis.clients.jedis.JedisPool;
 

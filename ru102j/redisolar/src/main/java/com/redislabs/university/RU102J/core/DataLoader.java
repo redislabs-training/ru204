@@ -1,9 +1,9 @@
-package com.redislabs.university.core;
+package com.redislabs.university.RU102J.core;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redislabs.university.api.Site;
-import com.redislabs.university.dao.SiteRedisDao;
+import com.redislabs.university.RU102J.api.Site;
+import com.redislabs.university.RU102J.dao.SiteRedisDao;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
@@ -30,11 +30,19 @@ public class DataLoader {
     }
 
     public void load() throws IOException {
+        System.out.println("Loading solar sites...");
         ObjectMapper mapper = new ObjectMapper();
         List<Site> sites = mapper.readValue(inputStream, new TypeReference<List<Site>>(){});
         SiteRedisDao siteDao = new SiteRedisDao(jedisPool);
         for (Site site : sites) {
             siteDao.insert(site);
+        }
+    }
+
+    public void flush() {
+        try (Jedis jedis = jedisPool.getResource()) {
+            System.out.println("Flushing database...");
+            jedis.flushDB();
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.redislabs.university.core;
+package com.redislabs.university.RU102J.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.setup.Environment;

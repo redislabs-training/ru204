@@ -1,10 +1,9 @@
-package com.redislabs.university;
+package com.redislabs.university.RU102J;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import io.dropwizard.Configuration;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
 public class ApplicationModule extends AbstractModule {
 

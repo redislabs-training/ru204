@@ -1,12 +1,11 @@
-package com.redislabs.university.resources;
+package com.redislabs.university.RU102J.resources;
 
-import com.redislabs.university.api.Site;
-import com.redislabs.university.dao.SiteDao;
+import com.redislabs.university.RU102J.api.Site;
+import com.redislabs.university.RU102J.dao.SiteDao;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.concurrent.atomic.AtomicLong;
 
 @Path("/sites")
 @Produces(MediaType.APPLICATION_JSON)
@@ -14,7 +13,6 @@ import java.util.concurrent.atomic.AtomicLong;
 public class Sites {
 
     private final SiteDao siteDao;
-    private AtomicLong counter;
 
     public Sites(SiteDao siteDao) {
         this.siteDao = siteDao;

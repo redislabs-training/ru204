@@ -1,13 +1,14 @@
-package com.redislabs.university.api;
+package com.redislabs.university.RU102J.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 /* Model class used to represent a single measurement
  * at a particular time. These objects are returned in API
  * calls that may request a series of points for a chart, for
- * example. */
+ * examples. */
 public class Measurement {
     public Long siteId;
     public LocalDateTime dateTime;
@@ -61,5 +62,31 @@ public class Measurement {
     @JsonProperty
     public void setValueUnit(ValueUnit valueUnit) {
         this.valueUnit = valueUnit;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Measurement that = (Measurement) o;
+        return Objects.equals(siteId, that.siteId) &&
+                Objects.equals(dateTime, that.dateTime) &&
+                Objects.equals(value, that.value) &&
+                valueUnit == that.valueUnit;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(siteId, dateTime, value, valueUnit);
+    }
+
+    @Override
+    public String toString() {
+        return "Measurement{" +
+                "siteId=" + siteId +
+                ", dateTime=" + dateTime +
+                ", value=" + value +
+                ", valueUnit=" + valueUnit +
+                '}';
     }
 }
