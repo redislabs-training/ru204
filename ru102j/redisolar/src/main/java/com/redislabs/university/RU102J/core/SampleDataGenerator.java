@@ -9,6 +9,7 @@ import redis.clients.jedis.JedisPool;
 
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -35,74 +36,58 @@ public class SampleDataGenerator {
         SiteRedisDao siteDao = new SiteRedisDao(jedisPool);
         DayMinuteMetricRedisDao dayMinute = new DayMinuteMetricRedisDao(jedisPool);
         List<Site> sites = siteDao.findAll();
-        int minuteDays = days * 24 * 60;
+        int minuteDays = days * 12 * 60;
 
 
         // Generate minute-level metrics for energy generated and energy used.
         for (Site site : sites) {
             System.out.print(".");
             Double maxCapacity = getMaxMinuteKWHGenerated(site.getCapacity());
-            Double currentCapacity = getNextCapacity(maxCapacity);
+            Double currentCapacity = getNextValue(maxCapacity);
             Double currentUsage = getInitialMinuteKWHUsed(maxCapacity);
             LocalDateTime currentTime = LocalDateTime.now(ZoneOffset.UTC);
+            List<Measurement> measurements = new ArrayList<>();
             for (int i=0; i<minuteDays; i++) {
-                Double generatedValue = site.getCapacity();
                 Measurement generated = new Measurement(site.getId(), ValueUnit.KWHGenerated, currentTime, currentCapacity);
                 dayMinute.insert(generated);
+
                 Measurement used = new Measurement(site.getId(), ValueUnit.KWHUsed, currentTime, currentUsage);
-                dayMinute.insert(used);
+                //dayMinute.insert(used);
+
                 Measurement temp = new Measurement(site.getId(), ValueUnit.TemperatureCelcius, currentTime, 0.5);
-                dayMinute.insert(temp);
+                //dayMinute.insert(temp);
+
                 currentTime = currentTime.minusMinutes(1L);
-                currentCapacity = getNextCapacity(currentCapacity, maxCapacity);
-                currentUsage = getNextUsage(currentUsage, maxCapacity);
+                currentCapacity = getNextValue(currentCapacity, maxCapacity);
+                currentUsage = getNextValue(currentUsage, maxCapacity);
             }
         }
         // Print a new line
         System.out.println("");
     }
 
-    // Since site capacity is kWh per day, we need to get a
-    // minute-based max to work with.
+    // Since site capacity is measured in kWh per day, we need to get a
+    // minute-based maximum watt-hours to work with.
     private Double getMaxMinuteKWHGenerated(Double capacity) {
-        return capacity / 24 / 60 * 1000;
+        return capacity / 24 / 60;
     }
 
-    private Double getNextCapacity(Double maxCapacity) {
-        return getNextCapacity(maxCapacity, maxCapacity);
+    private Double getNextValue(Double maxCapacity) {
+        return getNextValue(maxCapacity, maxCapacity);
     }
 
     // Returns the next capacity based on current capacity.
-    private Double getNextCapacity(Double currentCapacity, Double maxCapacity) {
+    private Double getNextValue(Double current, Double maxCapacity) {
         Double stepSize = 0.1 * maxCapacity;
         if (Math.random() > 0.5) {
-            if (currentCapacity + stepSize < maxCapacity) {
-                return currentCapacity + stepSize / 2;
-            } else {
-                return currentCapacity;
-            }
+            return current + stepSize;
         } else {
-            if (currentCapacity - stepSize < 0.0) {
+            if (current - stepSize < 0.0) {
                 return 0.0;
             } else {
-                return currentCapacity - stepSize;
+                return current - stepSize;
             }
         }
-    }
-
-    // Returns the next usage based on the current usage.
-    private Double getNextUsage(Double currentUsage, Double maxCapacity) {
-        Double stepSize = 0.1 * maxCapacity;
-        if (Math.random() > 0.5) {
-            return currentUsage + stepSize;
-        } else {
-            if (currentUsage - stepSize < 0.0) {
-                return 0.0;
-            } else {
-                return currentUsage - stepSize;
-            }
-        }
-
     }
 
     // Returns an initial kWhUsed value with a .5 chance of being

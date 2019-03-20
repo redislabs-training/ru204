@@ -27,6 +27,11 @@ export default new Router({
       component: Stats
     },
     {
+      path: '/stats/:id',
+      name: 'stats',
+      component: Stats
+    },
+    {
       path: '/leaderboard',
       name: 'leaderboard',
       component: Leaderboard

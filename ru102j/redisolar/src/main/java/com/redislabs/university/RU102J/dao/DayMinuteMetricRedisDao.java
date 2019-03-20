@@ -6,10 +6,8 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 // Stores one measurement per minute for a give day in a Redis List.
 public class DayMinuteMetricRedisDao implements DayMinuteMetricDao {
@@ -25,6 +23,28 @@ public class DayMinuteMetricRedisDao implements DayMinuteMetricDao {
             String metricKey = generateMetricKey(m.getSiteId(), m.getValueUnit(), m.getDateTime());
             String hour = getMinuteOfDay(m.getDateTime());
             jedis.hset(metricKey, hour, String.valueOf(m.getValue()));
+        }
+    }
+
+    public void insertAll(List<Measurement> measurements) {
+        // Build a map of measurements
+        Map<DayMinuteIdentifier, Map<String, String>> map = new ConcurrentHashMap<>();
+        for (Measurement m : measurements) {
+            DayMinuteIdentifier id = new DayMinuteIdentifier(m.getSiteId(), m.getValueUnit(), m.getDateTime());
+            if (!map.containsKey(id)) {
+                map.put(id, new HashMap<String, String>());
+            }
+            Map<String, String> measurementMap = map.get(id);
+            measurementMap.put(getMinuteOfDay(m.getDateTime()), String.valueOf(m.getValue()));
+        }
+
+        // Populate the entries
+        try (Jedis jedis = jedisPool.getResource()) {
+            for (Map.Entry<DayMinuteIdentifier, Map<String, String>> dayMinuteIdEntry : map.entrySet()) {
+                DayMinuteIdentifier identifer = dayMinuteIdEntry.getKey();
+                String metricKey = generateMetricKey(identifer.getSiteId(), identifer.getUnit(), identifer.getDateTime());
+                jedis.hmset(metricKey, dayMinuteIdEntry.getValue());
+            }
         }
     }
 
@@ -91,5 +111,54 @@ public class DayMinuteMetricRedisDao implements DayMinuteMetricDao {
         int hour = dateTime.getHour();
         int minute = dateTime.getMinute();
         return String.valueOf(hour * 60 + minute);
+    }
+
+    private static class DayMinuteIdentifier {
+
+        private final Long siteId;
+        private final ValueUnit unit;
+        private final LocalDateTime dateTime;
+
+        public DayMinuteIdentifier(Long siteId, ValueUnit unit, LocalDateTime dateTime) {
+            this.siteId = siteId;
+            this.unit = unit;
+            this.dateTime = dateTime;
+        }
+
+        public Long getSiteId() {
+            return siteId;
+        }
+
+        public ValueUnit getUnit() {
+            return unit;
+        }
+
+        public LocalDateTime getDateTime() {
+            return dateTime;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            DayMinuteIdentifier that = (DayMinuteIdentifier) o;
+            return Objects.equals(siteId, that.siteId) &&
+                    unit == that.unit &&
+                    Objects.equals(dateTime, that.dateTime);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(siteId, unit, dateTime);
+        }
+
+        @Override
+        public String toString() {
+            return "DayMinuteIdentifier{" +
+                    "siteId=" + siteId +
+                    ", unit=" + unit +
+                    ", dateTime=" + dateTime +
+                    '}';
+        }
     }
 }

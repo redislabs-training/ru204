@@ -82,7 +82,8 @@ export default {
       var coordinate = site.coordinate
       var marker = L.marker([coordinate.lat, coordinate.lng]).addTo(this.mymap)
       marker.bindPopup('<b>' + site.address + '</b><br/>' + site.city +
-                    ', ' + site.state + ' ' + site.postalCode + '<br>')
+                    ', ' + site.state + ' ' + site.postalCode + '<br>' +
+                    '<a href="#/stats/' + site.id + '">Stats</a>')
     },
     createMap () {
       this.mymap = L.map('mapid').setView([37.715732, -122.027342], 11)
