@@ -33,7 +33,7 @@ def consumer_func(divisor):
     redis = get_connection()
     timeout = 100
     retries = 0
-    last_id = '0'
+    last_id = '$'
 
     while True:       
         reply = redis.xread({KEY: last_id}, count=1, block=timeout)
@@ -62,4 +62,6 @@ if __name__ == '__main__':
     consumer_of_twos.start()
     consumer_of_threes = Process(target=consumer_func, args=(3, ))
     consumer_of_threes.start()
-    producer_func()
+    producer = Process(target=producer_func)
+    producer.start()
+    #producer_func()
