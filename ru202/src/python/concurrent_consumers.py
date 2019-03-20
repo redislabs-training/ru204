@@ -7,6 +7,7 @@ the example's execution
 
 from multiprocessing import Process
 from util.connection import get_connection
+from time import sleep
 
 KEY = 'numbers'
 
@@ -19,20 +20,22 @@ def producer_func():
     ''' Natural Numbers Stream producer '''
     redis = get_connection()
     n = 0
-    while True:
+    while n < 8:
         data = {'n': n}
         _id = redis.xadd(KEY, data)
         print(f'PRODUCER: Produced the number {n}')
         n += 1
+
+    print('PRODUCER: No more numbers for you!')
 
 def consumer_func(divisor):
     ''' Checks whether a number is divisible by the divisor without remainder '''
     redis = get_connection()
     timeout = 100
     retries = 0
-    last_id = '$'
+    last_id = '0'
 
-    while True:
+    while True:       
         reply = redis.xread({KEY: last_id}, count=1, block=timeout)
         if not reply:
             if retries == 5:
