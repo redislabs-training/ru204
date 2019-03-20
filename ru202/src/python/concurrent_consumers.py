@@ -63,4 +63,3 @@ if __name__ == '__main__':
     consumer_of_threes.start()
     producer = Process(target=producer_func)
     producer.start()
-    #producer_func()
