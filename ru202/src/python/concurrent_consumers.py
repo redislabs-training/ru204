@@ -7,7 +7,6 @@ the example's execution
 
 from multiprocessing import Process
 from util.connection import get_connection
-from time import sleep
 
 KEY = 'numbers'
 
