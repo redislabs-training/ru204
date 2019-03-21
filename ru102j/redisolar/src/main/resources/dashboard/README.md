@@ -14,11 +14,11 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# build for production and view the bundle analyzer meterReading
+npm run build --meterReading
 
-# run unit tests
-npm run unit
+# run valueUnit tests
+npm run valueUnit
 
 # run e2e tests
 npm run e2e

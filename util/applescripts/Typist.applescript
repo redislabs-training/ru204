@@ -9,21 +9,26 @@
 --   end tell
 -- end tell
 --
--- Activate the terminal window.
-tell application "Terminal"
-	activate
-end tell
-
--- Prepare the terminal
-tell application "System Events"
-	-- Disable hints
-	my execCmd(":set nohints", 0, true, false)
-	
-	-- Clear screen
-	tell application process "Terminal"
-		keystroke "l" using {control down}
+on execSetup()
+	tell application "Terminal"
+		activate
+		delay 1
 	end tell
-end tell
+	
+	tell application "System Events"
+		-- Disable hints
+		-- my execCmd(":set nohints", 0, true, false)
+		
+		-- Clear screen
+		tell application process "Terminal"
+			keystroke ":set nohints"
+			keystroke return
+			keystroke "l" using {control down}
+		end tell
+		delay 1
+	end tell
+end execSetup
+
 
 -- This funtion takes four arguments:
 --   textBuffer: The text you want to be printed the Terminal
