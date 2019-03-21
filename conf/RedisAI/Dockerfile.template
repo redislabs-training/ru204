@@ -1,0 +1,45 @@
+# redisuniversity/redisconf-redisai
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+      linux-headers \
+      make \
+      musl-dev \
+      m4 \
+      libc6-compat \
+      git \
+      cmake && \
+    # INSTALL RedisAI
+    mkdir -p /usr/src/redisai && \
+    cd /usr/src/redisai && \
+    git clone https://github.com/RedisAI/RedisAI.git && \
+    cd RedisAI && \
+  # RediAI 0.1.0
+    git checkout cd4fbe496250bf301058638d0510cb9a551e3d2b && \
+    OSTYPE="linux-gnu" ./get_deps.sh cpu && \
+    mkdir build && \
+    cd build && \
+    cmake -DDEPS_PATH=../deps/install .. && \
+    make && \
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    cp redisai.so "$LD_LIBRARY_PATH" && \
+    cp ../deps/install/lib/*.so* "$LD_LIBRARY_PATH" && \
+    rm -r /usr/src/redisai && \
+# CLEANUP
+    apk del libgit2-dev build-base git make gcc linux-headers musl-dev cmake  
+
+# Course files
+ADD .logo /home/student/.logo
+
+# Set permissions
+RUN chown -R student:student /src/redisu && \
+    chown    student:student /home/student/.logo
+
+# Supervisord config
+ADD supervisord.conf /etc/

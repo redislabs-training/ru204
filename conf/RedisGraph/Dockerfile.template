@@ -1,0 +1,40 @@
+# redisuniversity/redisconf-redisgraph
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+      linux-headers \
+      m4 \
+      make \
+      musl-dev \
+      libc6-compat \
+      git \
+      cmake && \
+    # INSTALL RedisGraph
+    mkdir -p /usr/src/redisgraph && \
+    cd /usr/src/redisgraph && \
+    git clone https://github.com/RedisLabsModules/RedisGraph.git && \
+    cd RedisGraph && \
+  # RediSearch 1.0.15
+    git checkout 7790a32bd6a19e1af24a86e4bbd7437101ebfa15 && \
+    make clean && \
+    make && \
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    cp ./src/redisgraph.so "$LD_LIBRARY_PATH" && \
+    rm -r /usr/src/redisgraph && \
+# CLEANUP
+    apk del git make gcc linux-headers musl-dev cmake m4
+
+# Course files
+ADD .logo /home/student/.logo
+
+# Set permissions
+RUN chown -R student:student /src/redisu
+RUN chown    student:student /home/student/.logo
+
+# Supervisord config
+ADD supervisord.conf /etc/

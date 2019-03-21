@@ -21,8 +21,9 @@ RUN set -ex && \
 WORKDIR /src/redisu
 ADD red-endpoints/init-container.js /home/student/.config/init-container.js
 ADD red-endpoints/package.json      /home/student/.config/package.json
-ADD .bashrc /home/student/.bashrc
-ADD .logo /home/student/.logo
+ADD helloworld.py                   /src/redisu
+ADD .bashrc                         /home/student/.bashrc
+ADD .logo                           /home/student/.logo
 
 RUN chown -R student:student /src/redisu
 
@@ -30,7 +31,8 @@ RUN chown -R student:student /src/redisu
 WORKDIR /home/student/.config
 RUN npm install && \
   # Cleanup
-  apk del g++ linux-headers make musl-dev git
+  apk del g++ linux-headers make musl-dev git && \
+  chown -R student:student /home/student/.npm
 
 WORKDIR /src/redius/
 

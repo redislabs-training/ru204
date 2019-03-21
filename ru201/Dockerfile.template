@@ -1,6 +1,8 @@
 # redislabs/ru201-lab
 FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
 
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
 RUN set -ex && \
     apk add --no-cache \
       coreutils \
@@ -24,10 +26,11 @@ RUN set -ex && \
     cd build && \
     cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
     make && \
-    cp redisearch.so /usr/local/bin/ && \
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    cp redisearch.so "$LD_LIBRARY_PATH" && \
     rm -r /usr/src/redisearch && \
 # CLEANUP
-    apk del libgit2-dev build-base git make gcc linux-headers musl-dev cmake  
+    apk del git make g++ linux-headers musl-dev cmake  
 
 # RU201 files
 ADD .logo /home/student/.logo
@@ -37,7 +40,6 @@ ADD redisu/data/index.js /src/redisu/ru201/data/index.js
 ADD redisu/data/package-lock.json /src/redisu/ru201/data/package-lock.json
 ADD redisu/data/package.json /src/redisu/ru201/data/package.json
 ADD redisu/data/connection.json /src/redisu/ru201/data/connection.json
-RUN chown -R student:student /src/redisu
 
 # Install Node (for data ingest)
 WORKDIR /src/redisu/ru201/data
@@ -50,6 +52,10 @@ RUN apk add --no-cache \
     npm install && \
     # Cleanup
     apk del g++ linux-headers make musl-dev git
+
+# Set permissions
+RUN chown -R student:student /src/redisu
+RUN chown    student:student /home/student/.logo
 
 # Base rdb files
 ADD redisu/dumps/ru201.rdb /data/dump.rdb

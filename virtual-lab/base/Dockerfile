@@ -64,7 +64,6 @@ RUN set -ex && \
 # (-) tweak nginx config to redirect access logs to stdout
 RUN mkdir -p /run/nginx && chown nginx:nginx /run/nginx && \
     rm /etc/nginx/conf.d/default.conf && \
-    sed -i 's:/var/log/nginx/error.log warn:stderr notice:g' /etc/nginx/nginx.conf && \
     chown -R nginx:nginx /var/lib/nginx && chown -R nginx:nginx /var/log/nginx
 ADD entry.html /var/lib/nginx/html/
 
