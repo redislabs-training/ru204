@@ -1,5 +1,5 @@
-# Use Case: Examples with Lua and Python
-# Usage: Part of Redis University RU101 courseware
+# Use Case: Streams example with Python
+# Usage: Part of Redis University RU202 courseware
 from redis import Redis
 import random
 import time
