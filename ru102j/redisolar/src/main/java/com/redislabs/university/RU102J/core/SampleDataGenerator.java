@@ -12,6 +12,7 @@ import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 public class SampleDataGenerator {
     private final JedisPool jedisPool;
@@ -35,7 +36,7 @@ public class SampleDataGenerator {
 
         SiteRedisDao siteDao = new SiteRedisDao(jedisPool);
         DayMinuteMetricRedisDao dayMinute = new DayMinuteMetricRedisDao(jedisPool);
-        List<Site> sites = siteDao.findAll();
+        Set<Site> sites = siteDao.findAll();
         int minuteDays = days * 12 * 60;
 
 

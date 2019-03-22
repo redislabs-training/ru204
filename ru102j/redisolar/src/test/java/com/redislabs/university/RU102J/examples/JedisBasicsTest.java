@@ -36,6 +36,7 @@ public class JedisBasicsTest {
 
         /* Add all test planets to the Redis set */
         Long result = jedis.rpush("planets", testPlanets);
+        assertThat(result, is(11L));
 
         // Check the length of the list
         Long length = jedis.llen("planets");
@@ -43,7 +44,7 @@ public class JedisBasicsTest {
 
         // Get the planets from the list
         List<String> planets = jedis.lrange("planets", 0, -1);
-        assertThat(planets.size(), is(11));
+        assertThat(planets, is(Arrays.asList(testPlanets)));
 
         // Remove the elements that we know are duplicates
         // Note: O(n) operation.
@@ -62,9 +63,7 @@ public class JedisBasicsTest {
         assertThat(testPlanets.length, is(11));
 
         // Add all test planets to the Redis set
-        for (String planet : testPlanets) {
-            Long result = jedis.sadd("planets", planet);
-        }
+        jedis.sadd("planets", testPlanets);
 
         // Return the cardinality of the set
         Long length = jedis.scard("planets");
@@ -72,14 +71,13 @@ public class JedisBasicsTest {
 
         // Fetch all values from the set
         Set<String> planets = jedis.smembers("planets");
-        assertThat(planets.size(), is(9));
 
         // Ensure that a HashSet created and stored in Java memory and the set stored
         // in Redis have the same values.
         Set<String> planetSet = new HashSet<>(Arrays.asList(testPlanets));
         assertThat(planets, is(planetSet));
 
-        // Pluto is, of course, no longer a planet. Remove it.
+        // Pluto is, of course, no longer a first-class planet. Remove it.
         Long response = jedis.srem("planets", "Pluto");
         assertThat(response, is(1L));
 

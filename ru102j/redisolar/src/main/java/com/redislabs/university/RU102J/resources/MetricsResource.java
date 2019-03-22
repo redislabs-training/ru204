@@ -14,11 +14,11 @@ import java.util.List;
 @Path("/metrics")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class Metrics {
+public class MetricsResource {
 
     private final DayMinuteMetricDao dayMetricDao;
 
-    public Metrics(DayMinuteMetricDao dayMetricDao) {
+    public MetricsResource(DayMinuteMetricDao dayMetricDao) {
         this.dayMetricDao = dayMetricDao;
     }
 

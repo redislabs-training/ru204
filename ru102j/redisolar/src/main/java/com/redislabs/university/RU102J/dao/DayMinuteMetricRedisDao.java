@@ -2,6 +2,7 @@ package com.redislabs.university.RU102J.dao;
 
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.ValueUnit;
+import com.redislabs.university.RU102J.core.KeyHelper;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
@@ -87,7 +88,9 @@ public class DayMinuteMetricRedisDao implements DayMinuteMetricDao {
      */
     private String generateMetricKey(Long siteId, ValueUnit unit, LocalDateTime dateTime) {
         StringBuilder builder = new StringBuilder();
-        return builder.append("metric:")
+        return builder.append(KeyHelper.getPrefix())
+                .append(":")
+                .append("metric:")
                 .append("day-minute:")
                 .append(unit.getShortName())
                 .append(":")

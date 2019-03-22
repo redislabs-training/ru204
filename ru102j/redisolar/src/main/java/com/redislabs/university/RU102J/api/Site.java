@@ -22,10 +22,16 @@ public class Site {
     public Site() {
     }
 
-    public Site(long id, double capacity, String address) {
+    public Site(long id, double capacity, Integer panels, String address, String city,
+                String state, String postalCode) {
         this.id = id;
         this.capacity = capacity;
+        this.panels = panels;
         this.address = address;
+        this.city = city;
+        this.state = state;
+        this.postalCode = postalCode;
+
     }
 
     public Site(Map<String, String> fields) {
@@ -36,8 +42,12 @@ public class Site {
         this.city = fields.getOrDefault("city", null);
         this.state = fields.getOrDefault("state", null);
         this.postalCode = fields.getOrDefault("postalCode", null);
-        this.coordinate = new Coordinate(fields.getOrDefault("lng", null),
-                fields.getOrDefault("lat", null));
+        String lng = fields.getOrDefault("lng", null);
+        String lat = fields.getOrDefault("lat", null);
+        if (lat != null && lng != null) {
+            this.coordinate = new Coordinate(fields.getOrDefault("lng", null),
+                    fields.getOrDefault("lat", null));
+        }
     }
 
     @JsonProperty
@@ -129,8 +139,10 @@ public class Site {
         map.put("city", city);
         map.put("state", state);
         map.put("postalCode", postalCode);
-        map.put("lat", String.valueOf(coordinate.getLat()));
-        map.put("lng", String.valueOf(coordinate.getLng()));
+        if (coordinate != null) {
+            map.put("lat", String.valueOf(coordinate.getLat()));
+            map.put("lng", String.valueOf(coordinate.getLng()));
+        }
 
         return map;
     }
