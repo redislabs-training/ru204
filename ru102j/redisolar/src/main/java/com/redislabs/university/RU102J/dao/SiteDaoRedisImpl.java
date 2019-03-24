@@ -15,6 +15,17 @@ public class SiteDaoRedisImpl implements SiteDao {
         this.jedisPool = jedisPool;
     }
 
+    // When we insert a site, we set all of its values into a single hash.
+    // We then store the site's id in a set for easy access.
+    @Override
+    public void insert(Site site) {
+        try (Jedis jedis = jedisPool.getResource()) {
+            String key = getSiteHashKey(site.getId());
+            jedis.hmset(key, site.toMap());
+            jedis.sadd(getSiteIDsKey(), key);
+        }
+    }
+
     @Override
     public Site findById(Long id) {
         try (Jedis jedis = jedisPool.getResource()) {
@@ -41,18 +52,7 @@ public class SiteDaoRedisImpl implements SiteDao {
             return sites;
         }
     }
-
-    // When we insert a site, we set all of its values into a single hash.
-    // We then store the site's id in a set for easy access.
-    @Override
-    public void insert(Site site) {
-        try (Jedis jedis = jedisPool.getResource()) {
-            String key = getSiteHashKey(site.getId());
-            jedis.hmset(key, site.toMap());
-            jedis.sadd(getSiteIDsKey(), key);
-        }
-    }
-
+    
     private String getSiteHashKey(Long id) {
         return KeyHelper.getKey("sites:info:" + id);
     }
@@ -60,5 +60,4 @@ public class SiteDaoRedisImpl implements SiteDao {
     private String getSiteIDsKey() {
         return KeyHelper.getKey("sites:ids");
     };
-
 }
