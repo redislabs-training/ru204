@@ -1,15 +1,11 @@
 package com.redislabs.university.RU102J.dao;
 
-import com.redislabs.university.RU102J.api.Coordinate;
 import com.redislabs.university.RU102J.api.Site;
 import com.redislabs.university.RU102J.core.KeyHelper;
-import redis.clients.jedis.GeoRadiusResponse;
-import redis.clients.jedis.GeoUnit;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class SiteDaoRedisImpl implements SiteDao {
 

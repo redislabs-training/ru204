@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-/* Model class used to represent a single measurement
+/** Model class used to represent a single measurement
  * at a particular time. These objects are returned in API
- * calls that may request a series of points for a chart, for
- * examples. */
+ * calls that may request a series of points for a chart.
+ */
 public class Measurement {
     public Long siteId;
     public LocalDateTime dateTime;

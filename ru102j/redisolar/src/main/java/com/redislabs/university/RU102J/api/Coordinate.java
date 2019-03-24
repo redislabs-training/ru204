@@ -6,6 +6,9 @@ import redis.clients.jedis.GeoCoordinate;
 
 import java.util.Objects;
 
+/**
+ * A simple coordinate class storing latitude and longitude.
+ */
 public class Coordinate {
     public Double lng;
     public Double lat;

@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-// Stores one measurement per minute for a give day in a Redis List.
+// Stores one measurement per minute for a given day in a Redis List.
 public class DayMinuteMetricDaoRedisImpl implements DayMinuteMetricDao {
     private final JedisPool jedisPool;
 

@@ -5,8 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import java.util.Objects;
 
-// Representation of a plot containing a list of
-// data sets.
+// Representation of a plot containing a list of data sets.
 public class Plot {
 
     private List<Measurement> measurements;

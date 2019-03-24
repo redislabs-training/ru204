@@ -31,9 +31,9 @@ public class Site {
         this.city = city;
         this.state = state;
         this.postalCode = postalCode;
-
     }
 
+    // Build a new Site from a Map<String, String>.
     public Site(Map<String, String> fields) {
         this.id = Long.valueOf(fields.getOrDefault("id", null));
         this.capacity = Double.valueOf(fields.getOrDefault("capacity", null));
@@ -130,6 +130,7 @@ public class Site {
         this.coordinate = coordinate;
     }
 
+    // Create a Map<String, String> from this Site.
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
         map.put("id", String.valueOf(id));
