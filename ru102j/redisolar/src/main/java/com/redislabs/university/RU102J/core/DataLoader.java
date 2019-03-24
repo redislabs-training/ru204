@@ -3,7 +3,7 @@ package com.redislabs.university.RU102J.core;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.dao.SiteRedisDao;
+import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
@@ -33,7 +33,7 @@ public class DataLoader {
         System.out.println("Loading solar sites...");
         ObjectMapper mapper = new ObjectMapper();
         List<Site> sites = mapper.readValue(inputStream, new TypeReference<List<Site>>(){});
-        SiteRedisDao siteDao = new SiteRedisDao(jedisPool);
+        SiteDaoRedisImpl siteDao = new SiteDaoRedisImpl(jedisPool);
         for (Site site : sites) {
             //siteDao.insert(site);
         }

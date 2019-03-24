@@ -4,11 +4,11 @@ import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.ValueUnit;
 import redis.clients.jedis.JedisPool;
 
-public class LeaderRedisDao implements LeaderDao {
+public class LeaderDaoRedisImpl implements LeaderDao {
 
     private final JedisPool jedisPool;
 
-    public LeaderRedisDao(JedisPool jedisPool) {
+    public LeaderDaoRedisImpl(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
     }
 

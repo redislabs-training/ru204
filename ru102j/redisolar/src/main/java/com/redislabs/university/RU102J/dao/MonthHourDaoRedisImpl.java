@@ -11,11 +11,11 @@ import java.time.LocalDateTime;
  * (31 days * 24 hours). Partial weeks that begin and end the year
  * will contain fewer entries.
  */
-public class MonthHourMetricRedisDao implements MonthHourMetricDao {
+public class MonthHourDaoRedisImpl implements MonthHourMetricDao {
     private final JedisPool jedisPool;
 
     // TODO: Create a separate dao that inserts MeterReading with a pipeline
-    public MonthHourMetricRedisDao(JedisPool jedisPool) {
+    public MonthHourDaoRedisImpl(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
     }
 

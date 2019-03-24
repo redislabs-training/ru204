@@ -11,11 +11,11 @@ import redis.clients.jedis.JedisPool;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class SiteRedisDao implements SiteDao {
+public class SiteDaoRedisImpl implements SiteDao {
 
     private final JedisPool jedisPool;
 
-    public SiteRedisDao(JedisPool jedisPool) {
+    public SiteDaoRedisImpl(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
     }
 
@@ -24,7 +24,6 @@ public class SiteRedisDao implements SiteDao {
         try (Jedis jedis = jedisPool.getResource()) {
             Map<String, String> fields = jedis.hgetAll(getSiteHashKey(id));
             if (fields != null && !fields.isEmpty())  {
-                System.out.println(fields);
                 return new Site(fields);
             } else {
                 return null;
@@ -47,50 +46,13 @@ public class SiteRedisDao implements SiteDao {
         }
     }
 
-    @Override
-    public Set<Site> findAllGeo() {
-        try (Jedis jedis = jedisPool.getResource()) {
-            Set<String> keys = jedis.zrange(getSiteGeoKey(), 0, -1);
-            Set<Site> sites = new HashSet<>();
-            for (String key : keys) {
-                Map<String, String> site = jedis.hgetAll(key);
-                if (!site.isEmpty()) {
-                    sites.add(new Site(site));
-                }
-            }
-            return sites;
-        }
-    }
-
-    @Override
-    public Set<Site> findByGeo(Coordinate coord, Double radius, String radiusUnit) {
-        try (Jedis jedis = jedisPool.getResource()) {
-            List<GeoRadiusResponse> radiusResponses = jedis.georadius(getSiteGeoKey(), coord.getLng(), coord.getLat(),
-                    radius, GeoUnit.valueOf(radiusUnit));
-            List<Site> sites = radiusResponses.stream()
-                    .map(response -> jedis.hgetAll(response.getMemberByString()))
-                    .filter(Objects::nonNull)
-                    .map(Site::new)
-                    .collect(Collectors.toList());
-
-            return new HashSet<Site>(sites);
-        }
-    }
-
-    // When we insert a site, we add its values as a hash,
-    // and we put it into a geo key as well.
+    // When we insert a site, we set all of its values into a single hash.
+    // We then store the site's id in a set for easy access.
     @Override
     public void insert(Site site) {
         try (Jedis jedis = jedisPool.getResource()) {
             String key = getSiteHashKey(site.getId());
             jedis.hmset(key, site.toMap());
-
-            if (site.getCoordinate() != null) {
-                Double longitude = site.getCoordinate().getGeoCoordinate().getLongitude();
-                Double latitude = site.getCoordinate().getGeoCoordinate().getLatitude();
-                jedis.geoadd(getSiteGeoKey(), longitude, latitude, key);
-            }
-
             jedis.sadd(getSiteIDsKey(), key);
         }
     }
@@ -103,7 +65,4 @@ public class SiteRedisDao implements SiteDao {
         return KeyHelper.getKey("sites:ids");
     };
 
-    private String getSiteGeoKey() {
-        return KeyHelper.getKey("sites:geo");
-    }
 }

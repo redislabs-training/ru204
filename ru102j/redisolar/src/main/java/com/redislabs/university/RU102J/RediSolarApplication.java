@@ -2,8 +2,8 @@ package com.redislabs.university.RU102J;
 
 import com.redislabs.university.RU102J.command.LoadCommand;
 import com.redislabs.university.RU102J.command.RunCommand;
-import com.redislabs.university.RU102J.dao.DayMinuteMetricRedisDao;
-import com.redislabs.university.RU102J.dao.SiteRedisDao;
+import com.redislabs.university.RU102J.dao.DayMinuteMetricDaoRedisImpl;
+import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import com.redislabs.university.RU102J.health.RediSolarHealthCheck;
 import com.redislabs.university.RU102J.resources.MetricsResource;
 import com.redislabs.university.RU102J.resources.SiteResource;
@@ -42,9 +42,9 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
 
         // Create resources
         // TODO: Consider using a DI framework here
-        SiteResource siteResource = new SiteResource(new SiteRedisDao(jedisPool));
+        SiteResource siteResource = new SiteResource(new SiteDaoRedisImpl(jedisPool));
         environment.jersey().register(siteResource);
-        MetricsResource metricsResource = new MetricsResource(new DayMinuteMetricRedisDao(jedisPool));
+        MetricsResource metricsResource = new MetricsResource(new DayMinuteMetricDaoRedisImpl(jedisPool));
         environment.jersey().register(metricsResource);
 
         // Set up health checks

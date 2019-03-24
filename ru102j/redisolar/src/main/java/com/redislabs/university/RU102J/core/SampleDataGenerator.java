@@ -2,9 +2,9 @@ package com.redislabs.university.RU102J.core;
 
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.dao.DayMinuteMetricRedisDao;
+import com.redislabs.university.RU102J.dao.DayMinuteMetricDaoRedisImpl;
 import com.redislabs.university.RU102J.api.ValueUnit;
-import com.redislabs.university.RU102J.dao.SiteRedisDao;
+import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import redis.clients.jedis.JedisPool;
 
 import java.time.LocalDateTime;
@@ -34,8 +34,8 @@ public class SampleDataGenerator {
                     " for historical request.");
         }
 
-        SiteRedisDao siteDao = new SiteRedisDao(jedisPool);
-        DayMinuteMetricRedisDao dayMinute = new DayMinuteMetricRedisDao(jedisPool);
+        SiteDaoRedisImpl siteDao = new SiteDaoRedisImpl(jedisPool);
+        DayMinuteMetricDaoRedisImpl dayMinute = new DayMinuteMetricDaoRedisImpl(jedisPool);
         Set<Site> sites = siteDao.findAll();
         int minuteDays = days * 12 * 60;
 

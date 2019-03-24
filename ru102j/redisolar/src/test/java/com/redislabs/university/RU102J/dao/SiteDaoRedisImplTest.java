@@ -3,20 +3,20 @@ package com.redislabs.university.RU102J.dao;
 import com.redislabs.university.RU102J.HostPort;
 import com.redislabs.university.RU102J.TestKeyManager;
 import com.redislabs.university.RU102J.api.Site;
+import com.redislabs.university.RU102J.core.KeyHelper;
 import org.junit.*;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
 
-public class SiteRedisDaoTest {
+public class SiteDaoRedisImplTest {
 
     private static JedisPool jedisPool;
     private static Jedis jedis;
@@ -58,7 +58,7 @@ public class SiteRedisDaoTest {
      */
     @Test
     public void findByIdWithExistingSite() {
-        SiteRedisDao dao = new SiteRedisDao(jedisPool);
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
         Site site = new Site(4, 5.5, 4, "910 Pine St.",
                 "Oakland", "CA", "94577");
         dao.insert(site);
@@ -72,7 +72,7 @@ public class SiteRedisDaoTest {
      */
     @Test
     public void findByIdWithMissingSite() {
-        SiteRedisDao dao = new SiteRedisDao(jedisPool);
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
         assertThat(dao.findById(4L), is(nullValue()));
     }
 
@@ -82,7 +82,7 @@ public class SiteRedisDaoTest {
      */
     @Test
     public void findAllWithMultipleSites() {
-        SiteRedisDao dao = new SiteRedisDao(jedisPool);
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
         // Insert all sites
         for (Site site : sites) {
             dao.insert(site);
@@ -97,31 +97,28 @@ public class SiteRedisDaoTest {
      */
     @Test
     public void findAllWithEmptySites() {
-        SiteRedisDao dao = new SiteRedisDao(jedisPool);
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
         assertThat(dao.findAll(), is(empty()));
     }
 
     @Test
     public void insert() {
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
+        Site site = new Site(4, 5.5, 4, "910 Pine St.",
+                "Oakland", "CA", "94577");
+        dao.insert(site);
+
+        Map<String, String> siteFields = jedis.hgetAll(getSiteHashKey(4L));
+        assertEquals(siteFields, site.toMap());
+
+        assertThat(jedis.sismember(getSiteIDsKey(), getSiteHashKey(4L)), is(true));
     }
 
-    @Test
-    public void findAll1() {
+    private String getSiteHashKey(Long id) {
+        return KeyHelper.getKey("sites:info:" + id);
     }
 
-    @Test
-    public void findAllGeo() {
-    }
-
-    @Test
-    public void findByGeo1() {
-    }
-
-    @Test
-    public void findById1() {
-    }
-
-    @Test
-    public void insert1() {
-    }
+    private String getSiteIDsKey() {
+        return KeyHelper.getKey("sites:ids");
+    };
 }

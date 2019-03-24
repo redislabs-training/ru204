@@ -5,8 +5,9 @@ import com.redislabs.university.RU102J.api.Site;
 
 import java.util.Set;
 
-public interface SiteDao {
+public interface SiteGeoDao {
     Site findById(Long id);
     Set<Site> findAll();
+    Set<Site> findByGeo(Coordinate coordinate, Double radius, String radiusUnit);
     void insert(Site site);
 }
