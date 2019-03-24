@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * Model object representing a solar power installation.
+ */
 public class Site {
     private Long id;
 
