@@ -20,9 +20,10 @@ public class SiteDaoRedisImpl implements SiteDao {
     @Override
     public void insert(Site site) {
         try (Jedis jedis = jedisPool.getResource()) {
-            String key = getSiteHashKey(site.getId());
-            jedis.hmset(key, site.toMap());
-            jedis.sadd(getSiteIDsKey(), key);
+            String hashKey = getSiteHashKey(site.getId());
+            String siteIdKey = getSiteIDsKey();
+            jedis.hmset(hashKey, site.toMap());
+            jedis.sadd(siteIdKey, hashKey);
         }
     }
 
@@ -52,7 +53,7 @@ public class SiteDaoRedisImpl implements SiteDao {
             return sites;
         }
     }
-    
+
     private String getSiteHashKey(Long id) {
         return KeyHelper.getKey("sites:info:" + id);
     }
