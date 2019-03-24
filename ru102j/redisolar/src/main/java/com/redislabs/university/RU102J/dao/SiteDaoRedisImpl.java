@@ -20,17 +20,21 @@ public class SiteDaoRedisImpl implements SiteDao {
     @Override
     public void insert(Site site) {
         try (Jedis jedis = jedisPool.getResource()) {
-            String hashKey = getSiteHashKey(site.getId());
-            String siteIdKey = getSiteIDsKey();
+            String hashKey = RedisSchema.getSiteHashKey(site.getId());
+            String siteIdKey = RedisSchema.getSiteIDsSetKey();
             jedis.hmset(hashKey, site.toMap());
             jedis.sadd(siteIdKey, hashKey);
         }
     }
 
     @Override
+    public void updateLatest(Site site, Double currentCapacity) {
+    }
+
+    @Override
     public Site findById(Long id) {
         try (Jedis jedis = jedisPool.getResource()) {
-            Map<String, String> fields = jedis.hgetAll(getSiteHashKey(id));
+            Map<String, String> fields = jedis.hgetAll(RedisSchema.getSiteHashKey(id));
             if (fields != null && !fields.isEmpty())  {
                 return new Site(fields);
             } else {
@@ -42,7 +46,7 @@ public class SiteDaoRedisImpl implements SiteDao {
     @Override
     public Set<Site> findAll() {
         try (Jedis jedis = jedisPool.getResource()) {
-            Set<String> keys = jedis.smembers(getSiteIDsKey());
+            Set<String> keys = jedis.smembers(RedisSchema.getSiteIDsSetKey());
             Set<Site> sites = new HashSet<>();
             for (String key : keys) {
                 Map<String, String> site = jedis.hgetAll(key);
@@ -53,12 +57,4 @@ public class SiteDaoRedisImpl implements SiteDao {
             return sites;
         }
     }
-
-    private String getSiteHashKey(Long id) {
-        return KeyHelper.getKey("sites:info:" + id);
-    }
-
-    private String getSiteIDsKey() {
-        return KeyHelper.getKey("sites:ids");
-    };
 }

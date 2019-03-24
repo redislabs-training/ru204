@@ -2,7 +2,7 @@ package com.redislabs.university.RU102J.core;
 
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.dao.DayMinuteMetricDaoRedisImpl;
+import com.redislabs.university.RU102J.dao.MetricDaoRedisImpl;
 import com.redislabs.university.RU102J.api.ValueUnit;
 import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import redis.clients.jedis.JedisPool;
@@ -35,7 +35,7 @@ public class SampleDataGenerator {
         }
 
         SiteDaoRedisImpl siteDao = new SiteDaoRedisImpl(jedisPool);
-        DayMinuteMetricDaoRedisImpl dayMinute = new DayMinuteMetricDaoRedisImpl(jedisPool);
+        MetricDaoRedisImpl dayMinute = new MetricDaoRedisImpl(jedisPool);
         Set<Site> sites = siteDao.findAll();
         int minuteDays = days * 12 * 60;
 
@@ -53,10 +53,10 @@ public class SampleDataGenerator {
                 dayMinute.insert(generated);
 
                 Measurement used = new Measurement(site.getId(), ValueUnit.KWHUsed, currentTime, currentUsage);
-                //dayMinute.insert(used);
+                dayMinute.insert(used);
 
                 Measurement temp = new Measurement(site.getId(), ValueUnit.TemperatureCelcius, currentTime, 0.5);
-                //dayMinute.insert(temp);
+                dayMinute.insert(temp);
 
                 currentTime = currentTime.minusMinutes(1L);
                 currentCapacity = getNextValue(currentCapacity, maxCapacity);

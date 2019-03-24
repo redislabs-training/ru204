@@ -4,18 +4,15 @@ import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.ValueUnit;
 import redis.clients.jedis.JedisPool;
 
-public class LeaderDaoRedisImpl implements LeaderDao {
+public class CapacityDaoRedisImpl implements CapacityDao {
 
     private final JedisPool jedisPool;
 
-    public LeaderDaoRedisImpl(JedisPool jedisPool) {
+    public CapacityDaoRedisImpl(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
     }
 
     @Override
-    public void insert(Measurement measurement) {
-    }
-
-    public void getTopN(ValueUnit unit, Integer count) {
+    public void update(Measurement measurement) {
     }
 }
