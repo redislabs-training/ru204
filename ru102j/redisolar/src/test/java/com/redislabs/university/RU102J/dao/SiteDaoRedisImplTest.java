@@ -78,7 +78,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #1 Part 1. Use this test case to
-     * implement the challenge in Chapter 1.11.
+     * implement the challenge in Chapter 1.10.
      */
     @Test
     public void findAllWithMultipleSites() {
@@ -93,7 +93,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #1 Part 2. Use this test case to
-     * implement the challenge in Chapter 1.11.
+     * implement the challenge in Chapter 1.10.
      */
     @Test
     public void findAllWithEmptySites() {
@@ -108,17 +108,10 @@ public class SiteDaoRedisImplTest {
                 "Oakland", "CA", "94577");
         dao.insert(site);
 
-        Map<String, String> siteFields = jedis.hgetAll(getSiteHashKey(4L));
+        Map<String, String> siteFields = jedis.hgetAll(RedisSchema.getSiteHashKey(4L));
         assertEquals(siteFields, site.toMap());
 
-        assertThat(jedis.sismember(getSiteIDsKey(), getSiteHashKey(4L)), is(true));
+        assertThat(jedis.sismember(RedisSchema.getSiteIDsSetKey(), RedisSchema.getSiteHashKey(4L)),
+                is(true));
     }
-
-    private String getSiteHashKey(Long id) {
-        return KeyHelper.getKey("sites:info:" + id);
-    }
-
-    private String getSiteIDsKey() {
-        return KeyHelper.getKey("sites:ids");
-    };
 }

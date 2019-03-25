@@ -27,18 +27,16 @@ public class SiteDaoRedisImpl implements SiteDao {
         }
     }
 
-    @Override
-    public void updateLatest(Site site, Double currentCapacity) {
-    }
 
     @Override
     public Site findById(Long id) {
         try (Jedis jedis = jedisPool.getResource()) {
-            Map<String, String> fields = jedis.hgetAll(RedisSchema.getSiteHashKey(id));
-            if (fields != null && !fields.isEmpty())  {
-                return new Site(fields);
-            } else {
+            String key = RedisSchema.getSiteHashKey(id);
+            Map<String, String> fields = jedis.hgetAll(key);
+            if (fields == null || fields.isEmpty()) {
                 return null;
+            } else {
+                return new Site(fields);
             }
         }
     }
@@ -56,5 +54,9 @@ public class SiteDaoRedisImpl implements SiteDao {
             }
             return sites;
         }
+    }
+
+    @Override
+    public void updateLatest(Site site, Double currentCapacity) {
     }
 }
