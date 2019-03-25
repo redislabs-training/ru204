@@ -48,7 +48,7 @@ public class SiteDaoRedisImpl implements SiteDao {
             Set<Site> sites = new HashSet<>();
             for (String key : keys) {
                 Map<String, String> site = jedis.hgetAll(key);
-                if (!site.isEmpty()) {
+                if (site != null && !site.isEmpty()) {
                     sites.add(new Site(site));
                 }
             }
