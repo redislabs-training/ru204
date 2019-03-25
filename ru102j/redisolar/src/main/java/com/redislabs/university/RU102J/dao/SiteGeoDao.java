@@ -7,7 +7,7 @@ import java.util.Set;
 
 public interface SiteGeoDao {
     void insert(Site site);
-    Site findById(Long id);
+    Site findById(long id);
     Set<Site> findAll();
     Set<Site> findByGeo(Coordinate coordinate, Double radius, String radiusUnit);
 }

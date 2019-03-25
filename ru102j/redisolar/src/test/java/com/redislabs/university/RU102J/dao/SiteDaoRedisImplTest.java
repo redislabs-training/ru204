@@ -59,7 +59,7 @@ public class SiteDaoRedisImplTest {
     @Test
     public void findByIdWithExistingSite() {
         SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
-        Site site = new Site(4, 5.5, 4, "910 Pine St.",
+        Site site = new Site(4L, 5.5, 4, "910 Pine St.",
                 "Oakland", "CA", "94577");
         dao.insert(site);
         Site storedSite = dao.findById(4L);
