@@ -10,11 +10,11 @@ import javax.ws.rs.core.Response;
 @Path("/sites")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class Sites {
+public class SiteResource {
 
     private final SiteDao siteDao;
 
-    public Sites(SiteDao siteDao) {
+    public SiteResource(SiteDao siteDao) {
         this.siteDao = siteDao;
     }
 

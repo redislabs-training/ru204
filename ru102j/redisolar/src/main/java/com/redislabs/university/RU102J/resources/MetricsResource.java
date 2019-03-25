@@ -2,8 +2,9 @@ package com.redislabs.university.RU102J.resources;
 
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.Plot;
+import com.redislabs.university.RU102J.api.ReportType;
 import com.redislabs.university.RU102J.api.ValueUnit;
-import com.redislabs.university.RU102J.dao.DayMinuteMetricDao;
+import com.redislabs.university.RU102J.dao.MetricDao;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -14,11 +15,11 @@ import java.util.List;
 @Path("/metrics")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class Metrics {
+public class MetricsResource {
 
-    private final DayMinuteMetricDao dayMetricDao;
+    private final MetricDao dayMetricDao;
 
-    public Metrics(DayMinuteMetricDao dayMetricDao) {
+    public MetricsResource(MetricDao dayMetricDao) {
         this.dayMetricDao = dayMetricDao;
     }
 
@@ -28,11 +29,13 @@ public class Metrics {
         List<Plot> plots = new ArrayList<>();
 
         // Get kWhGenerated measurements
-        List<Measurement> generated = dayMetricDao.getMeasurements(siteId, ValueUnit.KWHGenerated);
+        List<Measurement> generated = dayMetricDao.getMeasurements(siteId, ValueUnit.KWHGenerated,
+                ReportType.MINUTE);
         plots.add(new Plot("kWh Generated", generated));
 
         // Get kWhUsed measurements
-        List<Measurement> used = dayMetricDao.getMeasurements(siteId, ValueUnit.KWHUsed);
+        List<Measurement> used = dayMetricDao.getMeasurements(siteId, ValueUnit.KWHUsed,
+                ReportType.MINUTE);
         plots.add(new Plot("kWh Used", used));
 
         return Response.ok(plots)
