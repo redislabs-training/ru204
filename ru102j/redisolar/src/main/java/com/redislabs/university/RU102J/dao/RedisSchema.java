@@ -12,10 +12,6 @@ import java.time.LocalDateTime;
  * by the RedisDaoImpl classes.
  */
 public class RedisSchema {
-    public static String getCapacityZsetKey() {
-        return KeyHelper.getKey("sites:capacity");
-    }
-
     public static String getSiteHashKey(Long id) {
         return KeyHelper.getKey("sites:info:" + id);
     }
@@ -23,6 +19,11 @@ public class RedisSchema {
     public static String getSiteIDsSetKey() {
         return KeyHelper.getKey("sites:ids");
     };
+
+
+    public static String getCapacityZsetKey() {
+        return KeyHelper.getKey("sites:capacity");
+    }
 
     /* The key for these metrics is as follows:
      * metric:day-minute:[unit-name]:[year-month-day]:[site-id]
