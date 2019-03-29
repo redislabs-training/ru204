@@ -38,6 +38,11 @@ public class Site {
 
     // Build a new Site from a Map<String, String>.
     public Site(Map<String, String> fields) {
+        if (!fields.containsKey("id") || !fields.containsKey("capacity") || !fields.containsKey(
+                "panels")) {
+            throw new IllegalArgumentException("Map<String, String> used to build a Site must " +
+                    "contain keys 'id', 'capacity', and 'panels'.");
+        }
         this.id = Long.valueOf(fields.getOrDefault("id", null));
         this.capacity = Double.valueOf(fields.getOrDefault("capacity", null));
         this.panels = Integer.valueOf(fields.getOrDefault("panels", null));

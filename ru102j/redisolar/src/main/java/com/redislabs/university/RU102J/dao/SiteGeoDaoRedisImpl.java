@@ -19,7 +19,7 @@ public class SiteGeoDaoRedisImpl implements SiteGeoDao {
     }
 
     @Override
-    public Site findById(Long id) {
+    public Site findById(long id) {
         try (Jedis jedis = jedisPool.getResource()) {
             Map<String, String> fields = jedis.hgetAll(getSiteHashKey(id));
             if (fields != null && !fields.isEmpty())  {
