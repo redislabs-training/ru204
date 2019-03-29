@@ -1,0 +1,5 @@
+# redisuniversity/redisconf-redisearch
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+ADD .logo /home/student/.logo
+RUN chown student:student /home/student/.logo

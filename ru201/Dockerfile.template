@@ -21,7 +21,7 @@ RUN set -ex && \
     git clone https://github.com/RedisLabsModules/RediSearch.git && \
     cd RediSearch && \
   # RediSearch 1.4.5
-    git checkout 25adcfbce60975442b77c04c0debdae6050ee2c0 && \
+    git checkout v1.4.5 && \
     mkdir build && \
     cd build && \
     cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \

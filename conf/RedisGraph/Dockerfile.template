@@ -20,7 +20,8 @@ RUN set -ex && \
     git clone https://github.com/RedisLabsModules/RedisGraph.git && \
     cd RedisGraph && \
   # RediSearch 1.0.15
-    git checkout 7790a32bd6a19e1af24a86e4bbd7437101ebfa15 && \
+    git checkout v1.0.15 && \
+  #  git checkout 7790a32bd6a19e1af24a86e4bbd7437101ebfa15 && \
     make clean && \
     make && \
     mkdir -p "$LD_LIBRARY_PATH" && \
