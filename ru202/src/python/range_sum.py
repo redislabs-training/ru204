@@ -45,4 +45,5 @@ if __name__ == '__main__':
             'last_id': last_id,
             'n_sum': n_sum,
         })
+        
     print(f'The running sum of the Natural Numbers Stream is {n_sum} (added {n_count} new numbers)')
