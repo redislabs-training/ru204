@@ -27,18 +27,94 @@ RUN apt-get update && \
 												      python \
 												      python-pip \
 												      dpkg \
-												      supervisor && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y python3 python3-pip && \
-    pip3 install --upgrade --no-cache-dir redis==3.0.1
-
+												      supervisor \
+												      wget \
+												      curl && \
 # TTYD
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y cmake g++ pkg-config git vim-common libwebsockets-dev libjson-c-dev libssl-dev && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y cmake \
+    												  g++ \
+    												  pkg-config \
+    												  git \
+    												  vim-common \
+    												  libwebsockets-dev \
+    												  libjson-c-dev \
+    												  libssl-dev && \
     git clone https://github.com/tsl0922/ttyd.git && \
     cd ttyd && mkdir build && cd build && \
     cmake .. && \
-    make && make install && \
-    DEBIAN_FRONTEND=noninteractive apt-get remove -y cmake g++ pkg-config git libwebsockets-dev libjson-c-dev libssl-dev
+    make -j8 && make install && \
+    DEBIAN_FRONTEND=noninteractive apt-get remove -y \
+    									   cmake \
+    									   make \
+    									   g++ \
+    									   pkg-config \
+    									   git \
+    									   libwebsockets-dev \
+    									   libjson-c-dev \
+    									   libssl-dev && \
+	DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    									   g++ \
+    									   make \
+    									   libgit2-dev && \
+    curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs && \
+# INSTALL `ORION` USING `NPM`
+#
+# Parameters:
+#
+# (-) BUILD_ONLY=true: https://github.com/nodegit/nodegit/issues/1039#issuecomment-223516656
+# (-) --production:    https://wiki.eclipse.org/Orion/Node/Getting_started#Installing_with_npm
+# (-) --unsafe-perm:   https://github.com/nodejs/node-gyp/issues/454#issuecomment-134140378
+    BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
+    rm -rf /tmp/* /var/cache/apk/* && \
+# CLEANUP
+    DEBIAN_FRONTEND=noninteractive apt-get remove -y libgit2-dev g++ make && \
+# Python 3.6
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+      									   make \
+      									   build-essential \
+      									   libssl-dev \
+      									   zlib1g-dev \
+      									   libbz2-dev \
+      									   libreadline-dev \
+      									   libsqlite3-dev \
+      									   wget \
+      									   curl \
+      									   llvm \
+      									   libncurses5-dev \
+      									   libncursesw5-dev \
+      									   xz-utils \
+      									   tk-dev \
+      									   libffi-dev \
+      									   liblzma-dev && \
+    wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz && \
+    tar xvf Python-3.6.3.tgz && \
+    cd Python-3.6.3 && \
+    ./configure --with-ensurepip=install && \
+    make -j8 && \
+    make install && \
+    cd .. && \
+    rm -rf Python-3.6.3 && \
+    DEBIAN_FRONTEND=noninteractive apt-get remove -y make \
+                                           build-essential \
+                                           libssl-dev \
+                                           zlib1g-dev \
+                                           libbz2-dev \
+        								   libreadline-dev \
+        								   libsqlite3-dev \
+        								   llvm \
+        								   libncurses5-dev \
+        								   libncursesw5-dev \
+        								   xz-utils \
+        								   tk-dev \
+        								   libffi-dev \
+        								   liblzma-dev && \
+# Redis Python
+	pip3 install --upgrade --no-cache-dir redis==3.0.1 
 
+# Nginx tweaks:
+ADD entry.html /var/lib/nginx/html/
+ADD nginx.conf /etc/nginx/conf.d/
 
 # NGINX tweaks
 # Nginx tweaks:
@@ -60,7 +136,7 @@ ADD nginx.conf /etc/nginx/conf.d/
 ADD wait-for-it.sh /run
 
 # Use Python 3
-#RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
+# RUN pip3 install --upgrade --no-cache-dir redis==3.0.1 
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/

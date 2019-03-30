@@ -1,0 +1,16 @@
+# redisuniversity/redisconf-redisearch
+FROM redisuniversity/ru201-lab as search
+
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+ADD .logo /home/student/.logo
+RUN chown student:student /home/student/.logo &&\
+    mkdir -p /usr/lib/redis/modules/
+
+
+COPY --from=search /usr/local/bin/redisearch.so /usr/lib/redis/modules/redisearch.so
+
+# Supervisord config
+ADD supervisord.conf /etc/

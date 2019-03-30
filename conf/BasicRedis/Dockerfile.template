@@ -1,5 +1,13 @@
 # redisuniversity/redisconf-redisearch
-FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
+
+RUN set -ex && \
+    apk add --no-cache \
+      nodejs \
+      nodejs-npm
 
 ADD .logo /home/student/.logo
 RUN chown student:student /home/student/.logo
+
+RUN chown -R student:student /home/student
+

@@ -1,5 +1,5 @@
 # redisuniversity/redisconf-redisgraph
-FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
 
@@ -36,6 +36,9 @@ ADD .logo /home/student/.logo
 # Set permissions
 RUN chown -R student:student /src/redisu
 RUN chown    student:student /home/student/.logo
+
+ADD dump.rdb /data/dump.rdb
+RUN chown redis:redis /data/dump.rdb
 
 # Supervisord config
 ADD supervisord.conf /etc/
