@@ -44,7 +44,7 @@ redis.call("PUBLISH", "temperatures", temperature)
 table.insert(response, 'temperatures')
 table.insert(response, redis.call("XADD", "temperatures", "*", "t", temperature))
 
--- Send high temeratures to the 'hightemperatures' stream.
+-- Send high temperatures to the 'hightemperatures' stream.
 if tonumber(temperature) >= 86.0 then
     table.insert(response, 'hightemperatures')
     table.insert(response, redis.call("XADD", "hightemperatures", "*", "t", temperature))
