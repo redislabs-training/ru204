@@ -41,13 +41,15 @@ local response = {}
 redis.call("PUBLISH", "temperatures", temperature)
 
 -- Send all temperatures to 'temperatures' stream.
+local messageId = redis.call("XADD", "temperatures", "*", "t", temperature)
 table.insert(response, 'temperatures')
-table.insert(response, redis.call("XADD", "temperatures", "*", "t", temperature))
+table.insert(response, messageId)
 
 -- Send high temperatures to the 'hightemperatures' stream.
 if tonumber(temperature) >= 86.0 then
+    messageId = redis.call("XADD", "hightemperatures", "*", "t", temperature)
     table.insert(response, 'hightemperatures')
-    table.insert(response, redis.call("XADD", "hightemperatures", "*", "t", temperature))
+    table.insert(response, messageId)
 end
 
 return response
