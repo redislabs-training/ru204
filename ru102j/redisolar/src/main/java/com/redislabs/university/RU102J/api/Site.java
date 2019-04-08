@@ -45,6 +45,8 @@ public class Site implements Comparable<Site> {
     }
 
     // Build a new Site from a Map<String, String>.
+    // Note: we explicitly exclude lastReportingTime and meterReadingTime,
+    // as these fields are volatile.
     public Site(Map<String, String> fields) {
         if (!fields.containsKey("id") || !fields.containsKey("capacity") || !fields.containsKey(
                 "panels")) {
@@ -147,13 +149,13 @@ public class Site implements Comparable<Site> {
     }
 
     @JsonProperty
-    public LocalDateTime getLastMeterReading() {
-        return lastMeterReading;
+    public ZonedDateTime getLastReportingTime() {
+        return lastReportingTime;
     }
 
     @JsonProperty
-    public void setLastMeterReading(LocalDateTime lastMeterReading) {
-        this.lastMeterReading = lastMeterReading;
+    public void setLastReportingTime(ZonedDateTime lastReportingTime) {
+        this.lastReportingTime = lastReportingTime;
     }
 
     @JsonProperty
@@ -176,7 +178,7 @@ public class Site implements Comparable<Site> {
         map.put("city", city);
         map.put("state", state);
         map.put("postalCode", postalCode);
-        map.put("lastMeterReading", String.valueOf(lastMeterReading));
+        map.put("lastReportingTime", String.valueOf(lastReportingTime));
         map.put("meterReadingCount", String.valueOf(meterReadingCount));
         if (coordinate != null) {
             map.put("lat", String.valueOf(coordinate.getLat()));
