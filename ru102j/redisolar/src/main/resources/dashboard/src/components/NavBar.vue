@@ -3,7 +3,7 @@
     <div class="container">
 
     <img class="navbar-brand" src="/static/img/redis-u-small.png" />
-    <a class="navbar-brand text-white" href="#">Energy Data Ingestion and Dashboard</a>
+    <a class="navbar-brand text-white" href="#">Solar Power Dashboard</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
