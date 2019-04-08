@@ -1,8 +1,8 @@
 package com.redislabs.university.RU102J.api;
 
 public enum ValueUnit {
-    KWHGenerated("kwhG"),
-    KWHUsed("kwhU"),
+    WHGenerated("whG"),
+    WHUsed("whU"),
     TemperatureCelcius("tempC");
 
     private final String shortName;

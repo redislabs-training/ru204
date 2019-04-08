@@ -12,15 +12,15 @@ import java.util.Objects;
  * charts, to indicate which solar stations have excess
  * capacity, and to maintain leader boards.
  * The temperature is recorded for correlations against energy usage.
- * The kwhUsed and kwhGenerated values represent an amount of energy
+ * The whUsed and whGenerated values represent an amount of energy (in watt-hours)
  * in the minute the reading was created.
  */
 public class MeterReading {
     public Long siteId;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
     public ZonedDateTime dateTime;
-    public Double kwhUsed;
-    public Double kwhGenerated;
+    public Double whUsed;
+    public Double whGenerated;
     public Double tempC;
 
     public MeterReading() {}
@@ -28,13 +28,13 @@ public class MeterReading {
     @JsonCreator
     public MeterReading(@JsonProperty("siteId") Long siteId,
                         @JsonProperty ("dateTime") ZonedDateTime date,
-                        @JsonProperty("kwhUsed") Double kwhUsed,
-                        @JsonProperty("kwhGenerated") Double kwhGenerated,
+                        @JsonProperty("whUsed") Double whUsed,
+                        @JsonProperty("whGenerated") Double whGenerated,
                         @JsonProperty("tempC") Double tempC) {
         this.siteId = siteId;
         this.dateTime = date;
-        this.kwhUsed = kwhUsed;
-        this.kwhGenerated = kwhGenerated;
+        this.whUsed = whUsed;
+        this.whGenerated = whGenerated;
         this.tempC = tempC;
     }
 
@@ -58,24 +58,24 @@ public class MeterReading {
         this.dateTime = dateTime;
     }
 
-    @JsonProperty("kwhUsed")
-    public Double getKwhUsed() {
-        return kwhUsed;
+    @JsonProperty("whUsed")
+    public Double getWhUsed() {
+        return whUsed;
     }
 
-    @JsonProperty("kwhUsed")
-    public void setKwhUsed(Double kwhUsed) {
-        this.kwhUsed = kwhUsed;
+    @JsonProperty("whUsed")
+    public void setWhUsed(Double whUsed) {
+        this.whUsed = whUsed;
     }
 
-    @JsonProperty("kwhGenerated")
-    public Double getKwhGenerated() {
-        return kwhGenerated;
+    @JsonProperty("whGenerated")
+    public Double getWhGenerated() {
+        return whGenerated;
     }
 
-    @JsonProperty("kwhGenerated")
-    public void setKwhGenerated(Double kwhGenerated) {
-        this.kwhGenerated = kwhGenerated;
+    @JsonProperty("whGenerated")
+    public void setWhGenerated(Double whGenerated) {
+        this.whGenerated = whGenerated;
     }
 
     @JsonProperty("tempC")
@@ -94,14 +94,14 @@ public class MeterReading {
         if (o == null || getClass() != o.getClass()) return false;
         MeterReading meterReading = (MeterReading) o;
         return Objects.equals(dateTime, meterReading.dateTime) &&
-                Objects.equals(kwhUsed, meterReading.kwhUsed) &&
-                Objects.equals(kwhGenerated, meterReading.kwhGenerated) &&
+                Objects.equals(whUsed, meterReading.whUsed) &&
+                Objects.equals(whGenerated, meterReading.whGenerated) &&
                 Objects.equals(tempC, meterReading.tempC);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dateTime, kwhUsed, kwhGenerated, tempC);
+        return Objects.hash(dateTime, whUsed, whGenerated, tempC);
     }
 
     @Override
@@ -109,8 +109,8 @@ public class MeterReading {
         return "MeterReading{" +
                 "siteId=" + siteId +
                 ", dateTime=" + dateTime +
-                ", kwhUsed=" + kwhUsed +
-                ", kwhGenerated=" + kwhGenerated +
+                ", whUsed=" + whUsed +
+                ", whGenerated=" + whGenerated +
                 ", tempC=" + tempC +
                 '}';
     }

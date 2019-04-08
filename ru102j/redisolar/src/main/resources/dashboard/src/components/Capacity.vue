@@ -131,7 +131,7 @@ export default {
               },
               scaleLabel: {labelString: 'Site ID', display: true}
             }],
-            yAxes: [{scaleLabel: {labelString: 'kwH', display: true}}]
+            yAxes: [{scaleLabel: {labelString: 'Watt-Hours', display: true}}]
           }
         }
       })

@@ -25,10 +25,10 @@ public class Site implements Comparable<Site> {
 
     private Coordinate coordinate;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss X")
-    private ZonedDateTime lastReportingTime;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+    private LocalDateTime lastReportingTime;
 
-    private Long meterReadingCount;
+    private Long meterReadingCount = 0L;
 
     public Site() {
     }
@@ -149,12 +149,12 @@ public class Site implements Comparable<Site> {
     }
 
     @JsonProperty
-    public ZonedDateTime getLastReportingTime() {
+    public LocalDateTime getLastReportingTime() {
         return lastReportingTime;
     }
 
     @JsonProperty
-    public void setLastReportingTime(ZonedDateTime lastReportingTime) {
+    public void setLastReportingTime(LocalDateTime lastReportingTime) {
         this.lastReportingTime = lastReportingTime;
     }
 

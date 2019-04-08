@@ -5,10 +5,8 @@ import com.redislabs.university.RU102J.dao.*;
 import com.redislabs.university.RU102J.resources.MeterReadingResource;
 import redis.clients.jedis.JedisPool;
 
-import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
@@ -51,10 +49,10 @@ public class SampleDataGenerator {
         // Generate minute-level metrics for energy generated and energy used.
         for (Site site : sortedSites) {
             System.out.print(".");
-            Double maxCapacity = getMaxMinuteKWHGenerated(site.getCapacity() * 1000);
+            Double maxCapacity = getMaxMinuteWHGenerated(site.getCapacity());
             Double currentCapacity = getNextValue(maxCapacity);
             Double currentTemperature = getNextValue(maxTemperatureC);
-            Double currentUsage = getInitialMinuteKWHUsed(maxCapacity);
+            Double currentUsage = getInitialMinuteWHUsed(maxCapacity);
             ZonedDateTime currentTime = ZonedDateTime.now(ZoneOffset.UTC).minusMinutes(minuteDays);
 
             for (int i=0; i<minuteDays; i++) {
@@ -74,8 +72,8 @@ public class SampleDataGenerator {
 
     // Since site capacity is measured in kWh per day, we need to get a
     // minute-based maximum watt-hours to work with.
-    private Double getMaxMinuteKWHGenerated(Double capacity) {
-        return capacity / 24 / 60;
+    private Double getMaxMinuteWHGenerated(Double capacity) {
+        return capacity * 1000 / 24 / 60;
     }
 
     private Double getNextValue(Double max) {
@@ -98,11 +96,11 @@ public class SampleDataGenerator {
 
     // Returns an initial kWhUsed value with a .5 chance of being
     // above the max solar generating capacity.
-    private Double getInitialMinuteKWHUsed(Double maxCapacity) {
+    private Double getInitialMinuteWHUsed(Double maxCapacity) {
         if (Math.random() > 0.5) {
-            return maxCapacity + maxCapacity * Math.random() * 0.2;
+            return maxCapacity + maxCapacity * Math.random() * 0.1;
         } else {
-            return maxCapacity - maxCapacity * Math.random() * 0.2;
+            return maxCapacity - maxCapacity * Math.random() * 0.1;
         }
     }
 

@@ -33,8 +33,8 @@ public class CapacityDaoRedisImplTest extends JedisDaoTestBase {
             MeterReading reading = new MeterReading();
             reading.setSiteId(Long.valueOf(i));
             reading.setTempC(22.0);
-            reading.setKwhUsed(1.2);
-            reading.setKwhGenerated(Double.valueOf(i));
+            reading.setWhUsed(1.2);
+            reading.setWhGenerated(Double.valueOf(i));
             reading.setDateTime(time);
             readings.add(reading);
         }

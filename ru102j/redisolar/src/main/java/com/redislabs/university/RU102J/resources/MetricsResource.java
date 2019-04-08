@@ -33,12 +33,12 @@ public class MetricsResource {
             count = defaultMetricCount;
         }
         // Get kWhGenerated measurements
-        List<Measurement> generated = metricDao.getRecent(siteId, ValueUnit.KWHGenerated, count);
-        plots.add(new Plot("kWh Generated", generated));
+        List<Measurement> generated = metricDao.getRecent(siteId, ValueUnit.WHGenerated, count);
+        plots.add(new Plot("Watt-Hours Generated", generated));
 
         // Get kWhUsed measurements
-        List<Measurement> used = metricDao.getRecent(siteId, ValueUnit.KWHUsed, count);
-        plots.add(new Plot("kWh Used", used));
+        List<Measurement> used = metricDao.getRecent(siteId, ValueUnit.WHUsed, count);
+        plots.add(new Plot("Watt-Hours Used", used));
 
         return Response.ok(plots)
                 .header("Access-Control-Allow-Origin", "*")

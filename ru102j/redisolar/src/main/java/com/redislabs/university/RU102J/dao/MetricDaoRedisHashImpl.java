@@ -6,7 +6,6 @@ import com.redislabs.university.RU102J.api.ValueUnit;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
-import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.util.*;
@@ -22,10 +21,10 @@ public class MetricDaoRedisHashImpl implements MetricDao {
     @Override
     public void insert(MeterReading reading) {
         try (Jedis jedis = jedisPool.getResource()) {
-            insertMetric(jedis, reading.getSiteId(), reading.getKwhGenerated(),
-                    ValueUnit.KWHGenerated, reading.getDateTime());
-            insertMetric(jedis, reading.getSiteId(), reading.getKwhUsed(),
-                    ValueUnit.KWHUsed, reading.getDateTime());
+            insertMetric(jedis, reading.getSiteId(), reading.getWhGenerated(),
+                    ValueUnit.WHGenerated, reading.getDateTime());
+            insertMetric(jedis, reading.getSiteId(), reading.getWhUsed(),
+                    ValueUnit.WHUsed, reading.getDateTime());
             insertMetric(jedis, reading.getSiteId(), reading.getTempC(),
                     ValueUnit.TemperatureCelcius, reading.getDateTime());
         }

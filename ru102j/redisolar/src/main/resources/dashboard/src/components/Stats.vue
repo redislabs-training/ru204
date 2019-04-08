@@ -119,7 +119,7 @@ export default {
             yAxes: [{
               scaleLabel: {
                 display: true,
-                labelString: 'kWh'
+                labelString: 'Watt-Hours'
               }
             }]
           }
