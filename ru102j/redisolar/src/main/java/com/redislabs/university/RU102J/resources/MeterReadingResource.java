@@ -28,7 +28,7 @@ public class MeterReadingResource {
 
     @POST
     public Response add(MeterReading reading) {
-        siteDao.update(reading.getSiteId());
+        siteDao.update(reading);
         metricDao.insert(reading);
         capacityDao.update(reading);
         return Response.accepted().build();

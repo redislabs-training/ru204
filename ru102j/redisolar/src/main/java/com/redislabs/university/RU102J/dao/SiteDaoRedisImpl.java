@@ -1,5 +1,6 @@
 package com.redislabs.university.RU102J.dao;
 
+import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.Site;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -59,11 +60,12 @@ public class SiteDaoRedisImpl implements SiteDao {
     }
 
     @Override
-    public void update(long siteId) {
+    public void update(MeterReading reading) {
         try(Jedis jedis = jedisPool.getResource()) {
-            String key = RedisSchema.getSiteHashKey(siteId);
-            jedis.hset(key, "latestMetricTS", ZonedDateTime.now(ZoneOffset.UTC).format(formatter));
-            jedis.hincrBy(key, "metricCount", 1);
+            String key = RedisSchema.getSiteHashKey(reading.getSiteId());
+            jedis.hset(key, "lastReportingTime",
+                    ZonedDateTime.now(ZoneOffset.UTC).format(formatter));
+            jedis.hincrBy(key, "meterReadingCount", 1);
         }
     }
 }

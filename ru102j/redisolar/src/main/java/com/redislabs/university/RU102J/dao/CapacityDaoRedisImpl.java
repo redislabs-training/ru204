@@ -51,26 +51,4 @@ public class CapacityDaoRedisImpl implements CapacityDao {
 
         return report;
     }
-
-    private double calculateCapacity(Long siteId, double currentCapacity) {
-        String capacitySampleKey = RedisSchema.getCapacitySampleKey(siteId);
-        List<String> values;
-        try (Jedis jedis = jedisPool.getResource()) {
-            jedis.lpush(capacitySampleKey, String.valueOf(currentCapacity));
-            jedis.ltrim(capacitySampleKey, 0, 59);
-            values = jedis.lrange(capacitySampleKey, 0, -1);
-        }
-
-        return getWeightedAverage(values);
-    }
-
-    private double getWeightedAverage(List<String> values) {
-        int size = values.size();
-        double average = 0.0;
-        for (String value : values) {
-            average += Double.valueOf(value);
-        }
-
-        return average / size;
-    }
 }
