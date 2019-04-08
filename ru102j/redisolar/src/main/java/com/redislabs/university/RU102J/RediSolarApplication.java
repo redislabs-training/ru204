@@ -2,9 +2,12 @@ package com.redislabs.university.RU102J;
 
 import com.redislabs.university.RU102J.command.LoadCommand;
 import com.redislabs.university.RU102J.command.RunCommand;
-import com.redislabs.university.RU102J.dao.MetricDaoRedisImpl;
+import com.redislabs.university.RU102J.dao.CapacityDaoRedisImpl;
+import com.redislabs.university.RU102J.dao.MetricDaoRedisHashImpl;
 import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import com.redislabs.university.RU102J.health.RediSolarHealthCheck;
+import com.redislabs.university.RU102J.resources.CapacityResource;
+import com.redislabs.university.RU102J.resources.MeterReadingResource;
 import com.redislabs.university.RU102J.resources.MetricsResource;
 import com.redislabs.university.RU102J.resources.SiteResource;
 import io.dropwizard.Application;
@@ -40,12 +43,21 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
         JedisPool jedisPool = new JedisPool(new JedisPoolConfig(), redisConfig.getHost(),
                 redisConfig.getPort());
 
-        // Create resources
-        // TODO: Consider using a DI framework here
+        // Create resources and inject dependencies
         SiteResource siteResource = new SiteResource(new SiteDaoRedisImpl(jedisPool));
         environment.jersey().register(siteResource);
-        MetricsResource metricsResource = new MetricsResource(new MetricDaoRedisImpl(jedisPool));
+
+        MetricsResource metricsResource = new MetricsResource(new MetricDaoRedisHashImpl(jedisPool));
         environment.jersey().register(metricsResource);
+
+        CapacityResource capacityResource =
+                new CapacityResource(new CapacityDaoRedisImpl(jedisPool));
+        environment.jersey().register(capacityResource);
+
+        MeterReadingResource meterResource =
+                new MeterReadingResource(new SiteDaoRedisImpl(jedisPool),
+                        new MetricDaoRedisHashImpl(jedisPool), new CapacityDaoRedisImpl(jedisPool));
+        environment.jersey().register(meterResource);
 
         // Set up health checks
         // TODO: Create a Redis health check

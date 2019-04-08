@@ -1,7 +1,9 @@
 package com.redislabs.university.RU102J.dao;
 
-import com.redislabs.university.RU102J.api.Measurement;
+import com.redislabs.university.RU102J.api.CapacityReport;
+import com.redislabs.university.RU102J.api.MeterReading;
 
 public interface CapacityDao {
-    void update(Measurement amountGenerated);
+    void update(MeterReading reading);
+    CapacityReport getReport(Integer limit);
 }

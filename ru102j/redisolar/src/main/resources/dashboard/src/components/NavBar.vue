@@ -1,7 +1,9 @@
 <template>
-  <nav id="main" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="main" class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container">
-    <a class="navbar-brand" href="#">Energy Data Ingestion and Dashboard</a>
+
+    <img class="navbar-brand" src="/static/img/redis-u-small.png" />
+    <a class="navbar-brand text-white" href="#">Solar Power Dashboard</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,19 +11,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link class="nav-link" to="/map">Map</router-link>
+          <router-link class="nav-link text-light" to="/map">Map</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/stats">Stats</router-link>
+          <router-link class="nav-link text-light" to="/stats/1">Stats</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/leaderboard">Leaderboard</router-link>
+          <router-link class="nav-link text-light" to="/capacity">Capacity</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/live">Live</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" to="/maintenance">Maintenance</router-link>
+          <router-link class="nav-link text-light" to="/recent">Recent</router-link>
         </li>
       </ul>
     </div>

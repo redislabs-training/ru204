@@ -19,11 +19,13 @@ def producer_func():
     ''' Natural Numbers Stream producer '''
     redis = get_connection()
     n = 0
-    while True:
+    while n < 8:
         data = {'n': n}
         _id = redis.xadd(KEY, data)
         print(f'PRODUCER: Produced the number {n}')
         n += 1
+
+    print('PRODUCER: No more numbers for you!')
 
 def consumer_func(divisor):
     ''' Checks whether a number is divisible by the divisor without remainder '''
@@ -32,7 +34,7 @@ def consumer_func(divisor):
     retries = 0
     last_id = '$'
 
-    while True:
+    while True:       
         reply = redis.xread({KEY: last_id}, count=1, block=timeout)
         if not reply:
             if retries == 5:
@@ -59,4 +61,5 @@ if __name__ == '__main__':
     consumer_of_twos.start()
     consumer_of_threes = Process(target=consumer_func, args=(3, ))
     consumer_of_threes.start()
-    producer_func()
+    producer = Process(target=producer_func)
+    producer.start()

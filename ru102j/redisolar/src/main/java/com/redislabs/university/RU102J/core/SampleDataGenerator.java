@@ -1,26 +1,26 @@
 package com.redislabs.university.RU102J.core;
 
-import com.redislabs.university.RU102J.api.Measurement;
-import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.dao.MetricDaoRedisImpl;
-import com.redislabs.university.RU102J.api.ValueUnit;
-import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
+import com.redislabs.university.RU102J.api.*;
+import com.redislabs.university.RU102J.dao.*;
+import com.redislabs.university.RU102J.resources.MeterReadingResource;
 import redis.clients.jedis.JedisPool;
 
-import java.time.LocalDateTime;
 import java.time.ZoneOffset;
-import java.util.ArrayList;
+import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class SampleDataGenerator {
+    private final Integer seed = 42;
+    private final double maxTemperatureC = 30.0;
     private final JedisPool jedisPool;
     private final Random random;
 
     public SampleDataGenerator(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
-        this.random = new Random();
+        this.random = new Random(seed);
     }
 
     /* Generate historical data for all sites starting from the
@@ -34,52 +34,55 @@ public class SampleDataGenerator {
                     " for historical request.");
         }
 
-        SiteDaoRedisImpl siteDao = new SiteDaoRedisImpl(jedisPool);
-        MetricDaoRedisImpl dayMinute = new MetricDaoRedisImpl(jedisPool);
-        Set<Site> sites = siteDao.findAll();
-        int minuteDays = days * 12 * 60;
+        SiteDao siteDao = new SiteDaoRedisImpl(jedisPool);
+        CapacityDao capacityDao = new CapacityDaoRedisImpl(jedisPool);
+        MetricDaoRedisHashImpl metricDao = new MetricDaoRedisHashImpl(jedisPool);
+        MeterReadingResource meterResource = new MeterReadingResource(siteDao, metricDao,
+                capacityDao);
 
+        Set<Site> sites = siteDao.findAll();
+        int minuteDays = days * 3 * 60;
+
+        List<Site> sortedSites =
+                sites.stream().sorted().collect(Collectors.toList());
 
         // Generate minute-level metrics for energy generated and energy used.
-        for (Site site : sites) {
+        for (Site site : sortedSites) {
             System.out.print(".");
-            Double maxCapacity = getMaxMinuteKWHGenerated(site.getCapacity());
+            Double maxCapacity = getMaxMinuteWHGenerated(site.getCapacity());
             Double currentCapacity = getNextValue(maxCapacity);
-            Double currentUsage = getInitialMinuteKWHUsed(maxCapacity);
-            LocalDateTime currentTime = LocalDateTime.now(ZoneOffset.UTC);
-            List<Measurement> measurements = new ArrayList<>();
+            Double currentTemperature = getNextValue(maxTemperatureC);
+            Double currentUsage = getInitialMinuteWHUsed(maxCapacity);
+            ZonedDateTime currentTime = ZonedDateTime.now(ZoneOffset.UTC).minusMinutes(minuteDays);
+
             for (int i=0; i<minuteDays; i++) {
-                Measurement generated = new Measurement(site.getId(), ValueUnit.KWHGenerated, currentTime, currentCapacity);
-                dayMinute.insert(generated);
+                MeterReading reading = new MeterReading(site.getId(), currentTime, currentUsage,
+                        currentCapacity, currentTemperature);
 
-                Measurement used = new Measurement(site.getId(), ValueUnit.KWHUsed, currentTime, currentUsage);
-                dayMinute.insert(used);
+                // This is where we insert the meter reading
+                meterResource.add(reading);
 
-                Measurement temp = new Measurement(site.getId(), ValueUnit.TemperatureCelcius, currentTime, 0.5);
-                dayMinute.insert(temp);
-
-                currentTime = currentTime.minusMinutes(1L);
+                currentTime = currentTime.plusMinutes(1L);
+                currentTemperature = getNextValue(currentTemperature);
                 currentCapacity = getNextValue(currentCapacity, maxCapacity);
                 currentUsage = getNextValue(currentUsage, maxCapacity);
             }
         }
-        // Print a new line
-        System.out.println("");
     }
 
     // Since site capacity is measured in kWh per day, we need to get a
     // minute-based maximum watt-hours to work with.
-    private Double getMaxMinuteKWHGenerated(Double capacity) {
-        return capacity / 24 / 60;
+    private Double getMaxMinuteWHGenerated(Double capacity) {
+        return capacity * 1000 / 24 / 60;
     }
 
-    private Double getNextValue(Double maxCapacity) {
-        return getNextValue(maxCapacity, maxCapacity);
+    private Double getNextValue(Double max) {
+        return getNextValue(max, max);
     }
 
-    // Returns the next capacity based on current capacity.
-    private Double getNextValue(Double current, Double maxCapacity) {
-        Double stepSize = 0.1 * maxCapacity;
+    // Returns the next value in the series
+    private Double getNextValue(Double current, Double max) {
+        Double stepSize = 0.1 * max;
         if (Math.random() > 0.5) {
             return current + stepSize;
         } else {
@@ -93,11 +96,11 @@ public class SampleDataGenerator {
 
     // Returns an initial kWhUsed value with a .5 chance of being
     // above the max solar generating capacity.
-    private Double getInitialMinuteKWHUsed(Double maxCapacity) {
+    private Double getInitialMinuteWHUsed(Double maxCapacity) {
         if (Math.random() > 0.5) {
-            return maxCapacity + maxCapacity * Math.random() * 0.2;
+            return maxCapacity + maxCapacity * Math.random() * 0.1;
         } else {
-            return maxCapacity - maxCapacity * Math.random() * 0.2;
+            return maxCapacity - maxCapacity * Math.random() * 0.1;
         }
     }
 

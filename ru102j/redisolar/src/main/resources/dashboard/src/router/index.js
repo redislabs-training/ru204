@@ -3,9 +3,9 @@ import Router from 'vue-router'
 
 import Map from '@/components/Map'
 import Stats from '@/components/Stats'
+import Capacity from '@/components/Capacity'
 import Maintenance from '@/components/Maintenance'
 import Live from '@/components/Live'
-import Leaderboard from '@/components/Leaderboard'
 
 Vue.use(Router)
 
@@ -27,14 +27,14 @@ export default new Router({
       component: Stats
     },
     {
+      path: '/capacity',
+      name: 'capacity',
+      component: Capacity
+    },
+    {
       path: '/stats/:id',
       name: 'stats',
       component: Stats
-    },
-    {
-      path: '/leaderboard',
-      name: 'leaderboard',
-      component: Leaderboard
     },
     {
       path: '/live',

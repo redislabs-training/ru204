@@ -3,7 +3,6 @@ package com.redislabs.university.RU102J.dao;
 import com.redislabs.university.RU102J.HostPort;
 import com.redislabs.university.RU102J.TestKeyManager;
 import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.core.KeyHelper;
 import org.junit.*;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

@@ -1,7 +1,10 @@
 package com.redislabs.university.RU102J.api;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -9,7 +12,7 @@ import java.util.Objects;
 /**
  * Model object representing a solar power installation.
  */
-public class Site {
+public class Site implements Comparable<Site> {
     private Long id;
 
     private Double capacity;
@@ -21,6 +24,11 @@ public class Site {
     private String postalCode;
 
     private Coordinate coordinate;
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+    private LocalDateTime lastReportingTime;
+
+    private Long meterReadingCount = 0L;
 
     public Site() {
     }
@@ -37,6 +45,8 @@ public class Site {
     }
 
     // Build a new Site from a Map<String, String>.
+    // Note: we explicitly exclude lastReportingTime and meterReadingTime,
+    // as these fields are volatile.
     public Site(Map<String, String> fields) {
         if (!fields.containsKey("id") || !fields.containsKey("capacity") || !fields.containsKey(
                 "panels")) {
@@ -138,6 +148,26 @@ public class Site {
         this.coordinate = coordinate;
     }
 
+    @JsonProperty
+    public LocalDateTime getLastReportingTime() {
+        return lastReportingTime;
+    }
+
+    @JsonProperty
+    public void setLastReportingTime(LocalDateTime lastReportingTime) {
+        this.lastReportingTime = lastReportingTime;
+    }
+
+    @JsonProperty
+    public Long getMeterReadingCount() {
+        return meterReadingCount;
+    }
+
+    @JsonProperty
+    public void setMeterReadingCount(Long meterReadingCount) {
+        this.meterReadingCount = meterReadingCount;
+    }
+
     // Create a Map<String, String> from this Site.
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
@@ -148,6 +178,8 @@ public class Site {
         map.put("city", city);
         map.put("state", state);
         map.put("postalCode", postalCode);
+        map.put("lastReportingTime", String.valueOf(lastReportingTime));
+        map.put("meterReadingCount", String.valueOf(meterReadingCount));
         if (coordinate != null) {
             map.put("lat", String.valueOf(coordinate.getLat()));
             map.put("lng", String.valueOf(coordinate.getLng()));
@@ -188,5 +220,10 @@ public class Site {
                 ", postalCode='" + postalCode + '\'' +
                 ", coordinate=" + coordinate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Site o) {
+        return id.compareTo(o.id);
     }
 }

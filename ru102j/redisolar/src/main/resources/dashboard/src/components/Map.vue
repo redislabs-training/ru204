@@ -31,8 +31,8 @@
                     <select class="custom-select">
                         <option selected>Units (e.g, KM, M, FT)</option>
                         <option value="1">KM (Kilometers)</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option value="2">M (Miles)</option>
+                        <option value="3">FT (Feet)</option>
                     </select>
                 </div>
                 <div class="col2 px-1">
@@ -87,12 +87,9 @@ export default {
     },
     createMap () {
       this.mymap = L.map('mapid').setView([37.715732, -122.027342], 11)
-      L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2JyZWRpcyIsImEiOiJjanMxeXZ1bTExemlyNDNvZDc2N2JyY20wIn0.onntwgLbKiGP9-rgZdssNA', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox.streets',
-        accessToken: 'your.mapbox.access.token'
-      }).addTo(this.mymap)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?',
+        { attribution: 'Map and Image data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors. <a href="https://www.openstreetmap.org/copyright">License</a>.' }
+      ).addTo(this.mymap)
     }
   }
 }

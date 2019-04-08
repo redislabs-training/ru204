@@ -35,7 +35,7 @@ public class DataLoader {
         List<Site> sites = mapper.readValue(inputStream, new TypeReference<List<Site>>(){});
         SiteDaoRedisImpl siteDao = new SiteDaoRedisImpl(jedisPool);
         for (Site site : sites) {
-            //siteDao.insert(site);
+            siteDao.insert(site);
         }
     }
 

@@ -1,8 +1,10 @@
 package com.redislabs.university.RU102J.api;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.Objects;
 
 /** Model class used to represent a single measurement
@@ -11,13 +13,14 @@ import java.util.Objects;
  */
 public class Measurement {
     public Long siteId;
-    public LocalDateTime dateTime;
+    @JsonFormat(shape = JsonFormat.Shape.NUMBER)
+    public ZonedDateTime dateTime;
     public Double value;
     public ValueUnit valueUnit;
 
     public Measurement() {}
 
-    public Measurement(Long siteId, ValueUnit valueUnit, LocalDateTime date, Double value) {
+    public Measurement(Long siteId, ValueUnit valueUnit, ZonedDateTime date, Double value) {
         this.siteId = siteId;
         this.valueUnit = valueUnit;
         this.dateTime = date;
@@ -35,12 +38,12 @@ public class Measurement {
     }
 
     @JsonProperty
-    public LocalDateTime getDateTime() {
+    public ZonedDateTime getDateTime() {
         return dateTime;
     }
 
     @JsonProperty
-    public void setDateTime(LocalDateTime dateTime) {
+    public void setDateTime(ZonedDateTime dateTime) {
         this.dateTime = dateTime;
     }
 

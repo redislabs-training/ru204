@@ -1,13 +1,17 @@
 package com.redislabs.university.RU102J.dao;
 
+import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.Site;
-import com.redislabs.university.RU102J.core.KeyHelper;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class SiteDaoRedisImpl implements SiteDao {
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss X");
 
     private final JedisPool jedisPool;
 
@@ -27,10 +31,9 @@ public class SiteDaoRedisImpl implements SiteDao {
         }
     }
 
-
     @Override
     public Site findById(long id) {
-        try (Jedis jedis = jedisPool.getResource()) {
+        try(Jedis jedis = jedisPool.getResource()) {
             String key = RedisSchema.getSiteHashKey(id);
             Map<String, String> fields = jedis.hgetAll(key);
             if (fields == null || fields.isEmpty()) {
@@ -53,6 +56,16 @@ public class SiteDaoRedisImpl implements SiteDao {
                 }
             }
             return sites;
+        }
+    }
+
+    @Override
+    public void update(MeterReading reading) {
+        try(Jedis jedis = jedisPool.getResource()) {
+            String key = RedisSchema.getSiteHashKey(reading.getSiteId());
+            jedis.hset(key, "lastReportingTime",
+                    ZonedDateTime.now(ZoneOffset.UTC).format(formatter));
+            jedis.hincrBy(key, "meterReadingCount", 1);
         }
     }
 }

@@ -1,9 +1,10 @@
 package com.redislabs.university.RU102J.api;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.Objects;
 
 /* Represents a solar meter reading submitted at a particular
@@ -11,75 +12,80 @@ import java.util.Objects;
  * charts, to indicate which solar stations have excess
  * capacity, and to maintain leader boards.
  * The temperature is recorded for correlations against energy usage.
+ * The whUsed and whGenerated values represent an amount of energy (in watt-hours)
+ * in the minute the reading was created.
  */
 public class MeterReading {
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
     public Long siteId;
-    public LocalDateTime dateTime;
-    public Double kwhUsed;
-    public Double kwhGenerated;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
+    public ZonedDateTime dateTime;
+    public Double whUsed;
+    public Double whGenerated;
     public Double tempC;
-    public ReportType type;
 
     public MeterReading() {}
 
-    public MeterReading(Long siteId, LocalDateTime date, Double kwhUsed, Double kwhGenerated, Double tempC, ReportType type) {
+    @JsonCreator
+    public MeterReading(@JsonProperty("siteId") Long siteId,
+                        @JsonProperty ("dateTime") ZonedDateTime date,
+                        @JsonProperty("whUsed") Double whUsed,
+                        @JsonProperty("whGenerated") Double whGenerated,
+                        @JsonProperty("tempC") Double tempC) {
         this.siteId = siteId;
         this.dateTime = date;
-        this.kwhUsed = kwhUsed;
-        this.kwhGenerated = kwhGenerated;
+        this.whUsed = whUsed;
+        this.whGenerated = whGenerated;
         this.tempC = tempC;
-        this.type = type;
     }
 
-    @JsonProperty
-    public LocalDateTime getDateTime() {
+    @JsonProperty("siteId")
+    public Long getSiteId() {
+        return siteId;
+    }
+
+    @JsonProperty("siteId")
+    public void setSiteId(Long siteId) {
+        this.siteId = siteId;
+    }
+
+    @JsonProperty("dateTime")
+    public ZonedDateTime getDateTime() {
         return dateTime;
     }
 
-    @JsonProperty
-    public void setDateTime(LocalDateTime dateTime) {
+    @JsonProperty("dateTime")
+    public void setDateTime(ZonedDateTime dateTime) {
         this.dateTime = dateTime;
     }
 
-    @JsonProperty
-    public Double getKwhUsed() {
-        return kwhUsed;
+    @JsonProperty("whUsed")
+    public Double getWhUsed() {
+        return whUsed;
     }
 
-    @JsonProperty
-    public void setKwhUsed(Double kwhUsed) {
-        this.kwhUsed = kwhUsed;
+    @JsonProperty("whUsed")
+    public void setWhUsed(Double whUsed) {
+        this.whUsed = whUsed;
     }
 
-    @JsonProperty
-    public Double getKwhGenerated() {
-        return kwhGenerated;
+    @JsonProperty("whGenerated")
+    public Double getWhGenerated() {
+        return whGenerated;
     }
 
-    @JsonProperty
-    public void setKwhGenerated(Double kwhGenerated) {
-        this.kwhGenerated = kwhGenerated;
+    @JsonProperty("whGenerated")
+    public void setWhGenerated(Double whGenerated) {
+        this.whGenerated = whGenerated;
     }
 
-    @JsonProperty
+    @JsonProperty("tempC")
     public Double getTempC() {
         return tempC;
     }
 
-    @JsonProperty
+    @JsonProperty("tempC")
     public void setTempC(Double tempC) {
         this.tempC = tempC;
-    }
-
-    @JsonProperty
-    public ReportType getType() {
-        return type;
-    }
-
-    @JsonProperty
-    public void setType(ReportType type) {
-        this.type = type;
     }
 
     @Override
@@ -88,25 +94,24 @@ public class MeterReading {
         if (o == null || getClass() != o.getClass()) return false;
         MeterReading meterReading = (MeterReading) o;
         return Objects.equals(dateTime, meterReading.dateTime) &&
-                Objects.equals(kwhUsed, meterReading.kwhUsed) &&
-                Objects.equals(kwhGenerated, meterReading.kwhGenerated) &&
-                Objects.equals(tempC, meterReading.tempC) &&
-                type == meterReading.type;
+                Objects.equals(whUsed, meterReading.whUsed) &&
+                Objects.equals(whGenerated, meterReading.whGenerated) &&
+                Objects.equals(tempC, meterReading.tempC);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dateTime, kwhUsed, kwhGenerated, tempC, type);
+        return Objects.hash(dateTime, whUsed, whGenerated, tempC);
     }
 
     @Override
     public String toString() {
         return "MeterReading{" +
-                "dateTime=" + dateTime +
-                ", kwhUsed=" + kwhUsed +
-                ", kwhGenerated=" + kwhGenerated +
+                "siteId=" + siteId +
+                ", dateTime=" + dateTime +
+                ", whUsed=" + whUsed +
+                ", whGenerated=" + whGenerated +
                 ", tempC=" + tempC +
-                ", type=" + type +
                 '}';
     }
 }
