@@ -1,7 +1,9 @@
 package com.redislabs.university.RU102J.api;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -9,7 +11,7 @@ import java.util.Objects;
 /**
  * Model object representing a solar power installation.
  */
-public class Site {
+public class Site implements Comparable<Site> {
     private Long id;
 
     private Double capacity;
@@ -21,6 +23,11 @@ public class Site {
     private String postalCode;
 
     private Coordinate coordinate;
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+    private LocalDateTime lastMeterReading;
+
+    private Long meterReadingCount;
 
     public Site() {
     }
@@ -138,6 +145,26 @@ public class Site {
         this.coordinate = coordinate;
     }
 
+    @JsonProperty
+    public LocalDateTime getLastMeterReading() {
+        return lastMeterReading;
+    }
+
+    @JsonProperty
+    public void setLastMeterReading(LocalDateTime lastMeterReading) {
+        this.lastMeterReading = lastMeterReading;
+    }
+
+    @JsonProperty
+    public Long getMeterReadingCount() {
+        return meterReadingCount;
+    }
+
+    @JsonProperty
+    public void setMeterReadingCount(Long meterReadingCount) {
+        this.meterReadingCount = meterReadingCount;
+    }
+
     // Create a Map<String, String> from this Site.
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
@@ -148,6 +175,8 @@ public class Site {
         map.put("city", city);
         map.put("state", state);
         map.put("postalCode", postalCode);
+        map.put("lastMeterReading", String.valueOf(lastMeterReading));
+        map.put("meterReadingCount", String.valueOf(meterReadingCount));
         if (coordinate != null) {
             map.put("lat", String.valueOf(coordinate.getLat()));
             map.put("lng", String.valueOf(coordinate.getLng()));
@@ -188,5 +217,10 @@ public class Site {
                 ", postalCode='" + postalCode + '\'' +
                 ", coordinate=" + coordinate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Site o) {
+        return id.compareTo(o.id);
     }
 }

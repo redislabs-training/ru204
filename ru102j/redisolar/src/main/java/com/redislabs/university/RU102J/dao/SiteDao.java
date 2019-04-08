@@ -8,4 +8,5 @@ public interface SiteDao {
     void insert(Site site);
     Site findById(long id);
     Set<Site> findAll();
+    void update(long siteId);
 }

@@ -7,7 +7,6 @@
 <div id="app">
     <nav-bar></nav-bar>
     <router-view></router-view>
-    <footer></footer>
 </div>
 
 </template>
@@ -18,6 +17,7 @@
 import Map from './components/Map.vue'
 import NavBar from './components/NavBar.vue'
 import Stats from './components/Stats.vue'
+import Capacity from './components/Capacity.vue'
 import Foot from './components/Foot.vue'
 export default {
     name: "app",
@@ -25,10 +25,8 @@ export default {
         Map,
         NavBar,
         Stats,
-        Foot
-        // Leaderboard,
-        // Live,
-        // Maintenance
+        Foot,
+        Capacity
     }
 }
 

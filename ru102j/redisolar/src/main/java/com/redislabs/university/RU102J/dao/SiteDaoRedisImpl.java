@@ -4,9 +4,13 @@ import com.redislabs.university.RU102J.api.Site;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class SiteDaoRedisImpl implements SiteDao {
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss X");
 
     private final JedisPool jedisPool;
 
@@ -25,7 +29,6 @@ public class SiteDaoRedisImpl implements SiteDao {
             jedis.sadd(siteIdKey, hashKey);
         }
     }
-
 
     @Override
     public Site findById(long id) {
@@ -52,6 +55,15 @@ public class SiteDaoRedisImpl implements SiteDao {
                 }
             }
             return sites;
+        }
+    }
+
+    @Override
+    public void update(long siteId) {
+        try(Jedis jedis = jedisPool.getResource()) {
+            String key = RedisSchema.getSiteHashKey(siteId);
+            jedis.hset(key, "latestMetricTS", ZonedDateTime.now(ZoneOffset.UTC).format(formatter));
+            jedis.hincrBy(key, "metricCount", 1);
         }
     }
 }

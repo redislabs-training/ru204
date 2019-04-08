@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <div class="container">
-    <p>TODO: Live</p>
+    <p>Live</p>
   </div>
 </div>
 </template>

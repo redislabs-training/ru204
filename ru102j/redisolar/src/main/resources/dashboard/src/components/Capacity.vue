@@ -3,12 +3,27 @@
 </style>
 
 <template>
+
 <div id="app">
     <div class="container">
-        <h1>Solar Site {{ siteId }}</h1>
         <canvas id="myChart"></canvas>
     </div>
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <td scope="col">ID</td>
+            <td scope="col">Capacity</td>
+          </tr>
+        </thead>
+        <tr v-for="item in capacityTable" :key="item.siteId">
+          <td><router-link :to="{ name: 'stats', params: { id: item.siteId }}">{{ item.siteId }}</router-link></td>
+          <td>{{ item.capacity }}</td>
+        </tr>
+      </table>
+    </div>
 </div>
+
 </template>
 
 <script>
@@ -19,7 +34,7 @@ export default {
   name: 'Chart',
   data: function () {
     return {
-      siteId: null
+      capacityTable: []
     }
   },
   mounted () {
@@ -60,26 +75,27 @@ export default {
       self.chart.data.datasets = []
       self.chart.update()
     },
-    getSiteId (self) {
-      return '1' // self.$route.params.id
-    },
     getData (self) {
-      axios.get('http://localhost:8081/api/metrics/' + self.$route.params.id)
+      axios.get('http://localhost:8081/api/capacity/')
         .then(function (response) {
-          self.siteId = self.$route.params.id
-          response.data.forEach(function (plot) {
-            self.chart.data.datasets.push({
-              label: plot.name,
-              borderColor: self.getBorderColor(),
-              data: plot.measurements.map(function (point) {
-                return {
-                  x: new Date(point.dateTime * 1000),
-                  y: point.value.toPrecision(3)
-                }
-              })
-            })
-            self.chart.update()
+          console.log(response)
+          var items = []
+          var ids = []
+          response.data.highestCapacity.forEach(function (item) {
+            items.push({x: item.siteId, y: item.capacity})
+            ids.push('' + item.siteId)
+            self.capacityTable.push(item)
           })
+          console.log(items)
+          self.chart.data.labels = ids
+          self.chart.data.datasets.push({
+            labels: ids,
+            backgroundColor: '#94c635',
+            borderColor: '#709628',
+            borderWidth: 1,
+            data: items
+          })
+          self.chart.update()
         })
         .catch(function (error) {
           console.log('Got error')
@@ -87,11 +103,10 @@ export default {
         })
     },
     createChart () {
-      var timeFormat = 'MM/DD/YYYY HH:mm'
       var ctx = document.getElementById('myChart').getContext('2d')
       this.chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'line',
+        type: 'bar',
 
         // The data for our dataset
         data: {
@@ -100,28 +115,23 @@ export default {
 
         // Configuration options go here
         options: {
+          legend: {display: false},
           title: {
-            text: 'Time Scale'
+            display: true,
+            text: 'Top 10 Capacity'
           },
           scales: {
             xAxes: [{
-              type: 'time',
-              time: {
-                format: timeFormat,
-                // round: 'day'
-                tooltipFormat: 'll HH:mm'
+              labelString: 'Site ID',
+              barPercentage: 10,
+              maxBarThickness: 60,
+              minBarLength: 2,
+              gridLines: {
+                offsetGridLines: true
               },
-              scaleLabel: {
-                display: true,
-                labelString: 'Date'
-              }
+              scaleLabel: {labelString: 'Site ID', display: true}
             }],
-            yAxes: [{
-              scaleLabel: {
-                display: true,
-                labelString: 'kWh'
-              }
-            }]
+            yAxes: [{scaleLabel: {labelString: 'kwH', display: true}}]
           }
         }
       })

@@ -5,6 +5,7 @@ import com.redislabs.university.RU102J.api.ValueUnit;
 import com.redislabs.university.RU102J.core.KeyHelper;
 
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 /**
  * Methods to generate key names for Redis
@@ -12,24 +13,36 @@ import java.time.LocalDateTime;
  * by the RedisDaoImpl classes.
  */
 public class RedisSchema {
-    public static String getSiteHashKey(Long id) {
-        return KeyHelper.getKey("sites:info:" + id);
+    // sites:info:[siteId]
+    public static String getSiteHashKey(long siteId) {
+        return KeyHelper.getKey("sites:info:" + siteId);
     }
 
+    // sites:ids
     public static String getSiteIDsSetKey() {
         return KeyHelper.getKey("sites:ids");
-    };
+    }
 
+    // sites:capacity:ranking
+    public static String getCapacityRankingKey() {
+        return KeyHelper.getKey("sites:capacity:ranking");
+    }
 
-    public static String getCapacityZsetKey() {
-        return KeyHelper.getKey("sites:capacity");
+    // sites:efficiency:ranking
+    public static String getEfficiencyRankingKey() {
+        return KeyHelper.getKey("sites:efficiency:ranking");
+    }
+
+    // sites:capacity:sample:[siteId]
+    public static String getCapacitySampleKey(long siteId) {
+        return KeyHelper.getKey("sites:capacity:sample:" + siteId);
     }
 
     /* The key for these metrics is as follows:
      * metric:day-minute:[unit-name]:[year-month-day]:[site-id]
      */
     public static String getMinuteMetricKey(Long siteId, ValueUnit unit,
-                                               LocalDateTime dateTime) {
+                                               ZonedDateTime dateTime) {
         StringBuilder builder = new StringBuilder();
         return builder.append(KeyHelper.getPrefix())
                 .append(":")
@@ -59,14 +72,14 @@ public class RedisSchema {
     }
 
     // Return the year and month in the form YEAR-MONTH-DAY
-    private static String getYearMonthDay(LocalDateTime dateTime) {
+    private static String getYearMonthDay(ZonedDateTime dateTime) {
         return String.valueOf(dateTime.getYear()) + "-" +
                 String.valueOf(dateTime.getMonth()) + "-" +
                 String.valueOf(dateTime.getDayOfMonth());
     }
 
      // Return the year and month in the form YEAR-MONTH
-    private static String getYearMonth(LocalDateTime dateTime) {
+    private static String getYearMonth(ZonedDateTime dateTime) {
         return String.valueOf(dateTime.getYear()) + "-" +
                 String.valueOf(dateTime.getMonth());
     }

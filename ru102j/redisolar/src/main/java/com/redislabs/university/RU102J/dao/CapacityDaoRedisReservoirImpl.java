@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class CapacityDaoRedisImpl implements CapacityDao {
+public class CapacityDaoRedisReservoirImpl implements CapacityDao {
 
     private final JedisPool jedisPool;
 
-    public CapacityDaoRedisImpl(JedisPool jedisPool) {
+    public CapacityDaoRedisReservoirImpl(JedisPool jedisPool) {
         this.jedisPool = jedisPool;
     }
 
