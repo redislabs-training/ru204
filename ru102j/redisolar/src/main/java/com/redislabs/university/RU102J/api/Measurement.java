@@ -3,7 +3,6 @@ package com.redislabs.university.RU102J.api;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.util.Objects;
 
@@ -16,13 +15,13 @@ public class Measurement {
     @JsonFormat(shape = JsonFormat.Shape.NUMBER)
     public ZonedDateTime dateTime;
     public Double value;
-    public ValueUnit valueUnit;
+    public MetricUnit metricUnit;
 
     public Measurement() {}
 
-    public Measurement(Long siteId, ValueUnit valueUnit, ZonedDateTime date, Double value) {
+    public Measurement(Long siteId, MetricUnit metricUnit, ZonedDateTime date, Double value) {
         this.siteId = siteId;
-        this.valueUnit = valueUnit;
+        this.metricUnit = metricUnit;
         this.dateTime = date;
         this.value = value;
     }
@@ -58,13 +57,13 @@ public class Measurement {
     }
 
     @JsonProperty
-    public ValueUnit getValueUnit() {
-        return valueUnit;
+    public MetricUnit getMetricUnit() {
+        return metricUnit;
     }
 
     @JsonProperty
-    public void setValueUnit(ValueUnit valueUnit) {
-        this.valueUnit = valueUnit;
+    public void setMetricUnit(MetricUnit metricUnit) {
+        this.metricUnit = metricUnit;
     }
 
     @Override
@@ -75,12 +74,12 @@ public class Measurement {
         return Objects.equals(siteId, that.siteId) &&
                 Objects.equals(dateTime, that.dateTime) &&
                 Objects.equals(value, that.value) &&
-                valueUnit == that.valueUnit;
+                metricUnit == that.metricUnit;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(siteId, dateTime, value, valueUnit);
+        return Objects.hash(siteId, dateTime, value, metricUnit);
     }
 
     @Override
@@ -89,7 +88,7 @@ public class Measurement {
                 "siteId=" + siteId +
                 ", dateTime=" + dateTime +
                 ", value=" + value +
-                ", valueUnit=" + valueUnit +
+                ", metricUnit=" + metricUnit +
                 '}';
     }
 }

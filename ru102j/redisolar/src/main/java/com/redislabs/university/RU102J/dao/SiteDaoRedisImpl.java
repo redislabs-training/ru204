@@ -64,7 +64,7 @@ public class SiteDaoRedisImpl implements SiteDao {
         try(Jedis jedis = jedisPool.getResource()) {
             String key = RedisSchema.getSiteHashKey(reading.getSiteId());
             jedis.hset(key, "lastReportingTime",
-                    ZonedDateTime.now(ZoneOffset.UTC).format(formatter));
+                    ZonedDateTime.now(ZoneOffset.UTC).toString());
             jedis.hincrBy(key, "meterReadingCount", 1);
         }
     }

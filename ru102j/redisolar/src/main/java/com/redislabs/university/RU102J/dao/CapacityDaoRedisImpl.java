@@ -24,7 +24,7 @@ public class CapacityDaoRedisImpl implements CapacityDao {
         String capacityRankingKey = RedisSchema.getCapacityRankingKey();
         Long siteId = reading.getSiteId();
 
-        double currentCapacity = reading.whGenerated - reading.whUsed;
+        double currentCapacity = reading.getWhGenerated() - reading.getWhUsed();
 
         try (Jedis jedis = jedisPool.getResource()) {
             jedis.zadd(capacityRankingKey, currentCapacity, String.valueOf(siteId));

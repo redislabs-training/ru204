@@ -2,12 +2,14 @@ package com.redislabs.university.RU102J.resources;
 
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.Plot;
-import com.redislabs.university.RU102J.api.ValueUnit;
+import com.redislabs.university.RU102J.api.MetricUnit;
 import com.redislabs.university.RU102J.dao.MetricDao;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,11 +35,13 @@ public class MetricsResource {
             count = defaultMetricCount;
         }
         // Get kWhGenerated measurements
-        List<Measurement> generated = metricDao.getRecent(siteId, ValueUnit.WHGenerated, count);
+        List<Measurement> generated = metricDao.getRecent(siteId, MetricUnit.WHGenerated,
+                ZonedDateTime.now(ZoneOffset.UTC), count);
         plots.add(new Plot("Watt-Hours Generated", generated));
 
         // Get kWhUsed measurements
-        List<Measurement> used = metricDao.getRecent(siteId, ValueUnit.WHUsed, count);
+        List<Measurement> used = metricDao.getRecent(siteId, MetricUnit.WHUsed,
+                ZonedDateTime.now(ZoneOffset.UTC), count);
         plots.add(new Plot("Watt-Hours Used", used));
 
         return Response.ok(plots)

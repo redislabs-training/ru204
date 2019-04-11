@@ -2,17 +2,21 @@ package com.redislabs.university.RU102J.dao;
 
 import com.redislabs.university.RU102J.HostPort;
 import com.redislabs.university.RU102J.TestKeyManager;
+import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.Site;
 import org.junit.*;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 
 public class SiteDaoRedisImplTest {
@@ -112,5 +116,19 @@ public class SiteDaoRedisImplTest {
 
         assertThat(jedis.sismember(RedisSchema.getSiteIDsSetKey(), RedisSchema.getSiteHashKey(4L)),
                 is(true));
+    }
+
+    @Test
+    public void update() {
+        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
+        Site site = new Site(4L, 5.5, 4, "910 Pine St.",
+                "Oakland", "CA", "94577");
+        dao.insert(site);
+        ZonedDateTime time = ZonedDateTime.now(ZoneOffset.UTC);
+        MeterReading reading = new MeterReading(site.getId(), time, 1.0, 1.0, 22.0);
+        dao.update(reading);
+        Site modifiedSite = dao.findById(site.getId());
+        assertThat(modifiedSite.getMeterReadingCount(), is(1L));
+        assert(modifiedSite.getLastReportingTime().toInstant().compareTo(time.toInstant()) >= 0);
     }
 }

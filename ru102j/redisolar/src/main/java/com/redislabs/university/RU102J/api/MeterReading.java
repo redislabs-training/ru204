@@ -1,10 +1,13 @@
 package com.redislabs.university.RU102J.api;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.redislabs.university.RU102J.util.CustomDateSerializer;
 
 import java.time.ZonedDateTime;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 /* Represents a solar meter reading submitted at a particular
@@ -16,14 +19,22 @@ import java.util.Objects;
  * in the minute the reading was created.
  */
 public class MeterReading {
-    public Long siteId;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
-    public ZonedDateTime dateTime;
-    public Double whUsed;
-    public Double whGenerated;
-    public Double tempC;
+    private Long siteId;
+    @JsonSerialize(using = CustomDateSerializer.class)
+    private ZonedDateTime dateTime;
+    private Double whUsed;
+    private Double whGenerated;
+    private Double tempC;
 
     public MeterReading() {}
+
+    public MeterReading(Map<String, String> map) {
+        this.siteId = Long.valueOf(map.get("siteId"));
+        this.dateTime = ZonedDateTime.parse(map.get("dateTime"));
+        this.whUsed = Double.valueOf(map.get("whUsed"));
+        this.whGenerated = Double.valueOf(map.get("whGenerated"));
+        this.tempC = Double.valueOf(map.get("tempC"));
+    }
 
     @JsonCreator
     public MeterReading(@JsonProperty("siteId") Long siteId,
@@ -49,6 +60,7 @@ public class MeterReading {
     }
 
     @JsonProperty("dateTime")
+    @JsonSerialize(using = CustomDateSerializer.class)
     public ZonedDateTime getDateTime() {
         return dateTime;
     }
@@ -86,6 +98,18 @@ public class MeterReading {
     @JsonProperty("tempC")
     public void setTempC(Double tempC) {
         this.tempC = tempC;
+    }
+
+    public Map<String, String> toMap() {
+        Map<String, String> map = new HashMap<>();
+
+        map.put("siteId", String.valueOf(siteId));
+        map.put("dateTime", dateTime.toString());
+        map.put("whUsed", String.valueOf(whUsed));
+        map.put("whGenerated", String.valueOf(whGenerated));
+        map.put("tempC", String.valueOf(tempC));
+
+        return map;
     }
 
     @Override

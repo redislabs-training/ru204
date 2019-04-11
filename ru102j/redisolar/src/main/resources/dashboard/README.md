@@ -17,8 +17,8 @@ npm run build
 # build for production and view the bundle analyzer meterReading
 npm run build --meterReading
 
-# run valueUnit tests
-npm run valueUnit
+# run metricUnit tests
+npm run metricUnit
 
 # run e2e tests
 npm run e2e

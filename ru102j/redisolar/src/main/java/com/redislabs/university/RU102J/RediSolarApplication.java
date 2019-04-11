@@ -3,7 +3,8 @@ package com.redislabs.university.RU102J;
 import com.redislabs.university.RU102J.command.LoadCommand;
 import com.redislabs.university.RU102J.command.RunCommand;
 import com.redislabs.university.RU102J.dao.CapacityDaoRedisImpl;
-import com.redislabs.university.RU102J.dao.MetricDaoRedisHashImpl;
+import com.redislabs.university.RU102J.dao.FeedDaoRedisImpl;
+import com.redislabs.university.RU102J.dao.MetricDaoRedisZsetImpl;
 import com.redislabs.university.RU102J.dao.SiteDaoRedisImpl;
 import com.redislabs.university.RU102J.health.RediSolarHealthCheck;
 import com.redislabs.university.RU102J.resources.CapacityResource;
@@ -47,7 +48,7 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
         SiteResource siteResource = new SiteResource(new SiteDaoRedisImpl(jedisPool));
         environment.jersey().register(siteResource);
 
-        MetricsResource metricsResource = new MetricsResource(new MetricDaoRedisHashImpl(jedisPool));
+        MetricsResource metricsResource = new MetricsResource(new MetricDaoRedisZsetImpl(jedisPool));
         environment.jersey().register(metricsResource);
 
         CapacityResource capacityResource =
@@ -56,7 +57,9 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
 
         MeterReadingResource meterResource =
                 new MeterReadingResource(new SiteDaoRedisImpl(jedisPool),
-                        new MetricDaoRedisHashImpl(jedisPool), new CapacityDaoRedisImpl(jedisPool));
+                        new MetricDaoRedisZsetImpl(jedisPool),
+                        new CapacityDaoRedisImpl(jedisPool),
+                        new FeedDaoRedisImpl(jedisPool));
         environment.jersey().register(meterResource);
 
         // Set up health checks

@@ -1,9 +1,7 @@
 package com.redislabs.university.RU102J.api;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,8 +23,7 @@ public class Site implements Comparable<Site> {
 
     private Coordinate coordinate;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
-    private LocalDateTime lastReportingTime;
+    private ZonedDateTime lastReportingTime;
 
     private Long meterReadingCount = 0L;
 
@@ -60,6 +57,14 @@ public class Site implements Comparable<Site> {
         this.city = fields.getOrDefault("city", null);
         this.state = fields.getOrDefault("state", null);
         this.postalCode = fields.getOrDefault("postalCode", null);
+        String latestDate = fields.getOrDefault("lastReportingTime", null);
+        if (latestDate != null) {
+            this.lastReportingTime = ZonedDateTime.parse(latestDate);
+        }
+        String readingCount = fields.getOrDefault("meterReadingCount", null);
+        if (readingCount != null) {
+            this.meterReadingCount = Long.valueOf(readingCount);
+        }
         String lng = fields.getOrDefault("lng", null);
         String lat = fields.getOrDefault("lat", null);
         if (lat != null && lng != null) {
@@ -149,12 +154,12 @@ public class Site implements Comparable<Site> {
     }
 
     @JsonProperty
-    public LocalDateTime getLastReportingTime() {
+    public ZonedDateTime getLastReportingTime() {
         return lastReportingTime;
     }
 
     @JsonProperty
-    public void setLastReportingTime(LocalDateTime lastReportingTime) {
+    public void setLastReportingTime(ZonedDateTime lastReportingTime) {
         this.lastReportingTime = lastReportingTime;
     }
 
@@ -178,8 +183,12 @@ public class Site implements Comparable<Site> {
         map.put("city", city);
         map.put("state", state);
         map.put("postalCode", postalCode);
-        map.put("lastReportingTime", String.valueOf(lastReportingTime));
-        map.put("meterReadingCount", String.valueOf(meterReadingCount));
+        if (lastReportingTime != null) {
+            map.put("lastReportingTime", String.valueOf(lastReportingTime));
+        }
+        if (meterReadingCount != null) {
+            map.put("meterReadingCount", String.valueOf(meterReadingCount));
+        }
         if (coordinate != null) {
             map.put("lat", String.valueOf(coordinate.getLat()));
             map.put("lng", String.valueOf(coordinate.getLng()));

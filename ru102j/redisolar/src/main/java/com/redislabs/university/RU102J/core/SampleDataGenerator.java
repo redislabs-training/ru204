@@ -36,9 +36,10 @@ public class SampleDataGenerator {
 
         SiteDao siteDao = new SiteDaoRedisImpl(jedisPool);
         CapacityDao capacityDao = new CapacityDaoRedisImpl(jedisPool);
-        MetricDaoRedisHashImpl metricDao = new MetricDaoRedisHashImpl(jedisPool);
+        MetricDao metricDao = new MetricDaoRedisZsetImpl(jedisPool);
+        FeedDao feedDao = new FeedDaoRedisImpl(jedisPool);
         MeterReadingResource meterResource = new MeterReadingResource(siteDao, metricDao,
-                capacityDao);
+                capacityDao, feedDao);
 
         Set<Site> sites = siteDao.findAll();
         int minuteDays = days * 3 * 60;
@@ -98,10 +99,14 @@ public class SampleDataGenerator {
     // above the max solar generating capacity.
     private Double getInitialMinuteWHUsed(Double maxCapacity) {
         if (Math.random() > 0.5) {
-            return maxCapacity + maxCapacity * Math.random() * 0.1;
+            return maxCapacity + maxCapacity * randomValue() * 0.1;
         } else {
-            return maxCapacity - maxCapacity * Math.random() * 0.1;
+            return maxCapacity - maxCapacity * randomValue() * 0.1;
         }
+    }
+
+    private Double randomValue() {
+        return Math.random();
     }
 
     /* Generate measurement data for all sites for the current
