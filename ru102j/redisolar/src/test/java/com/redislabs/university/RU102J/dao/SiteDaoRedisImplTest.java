@@ -118,6 +118,9 @@ public class SiteDaoRedisImplTest {
                 is(true));
     }
 
+    /**
+     * Challenge #2.
+     */
     @Test
     public void update() {
         SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);

@@ -40,11 +40,13 @@ public class CapacityDaoRedisImplTest extends JedisDaoTestBase {
         }
     }
 
+    /**
+     * Challenge #3.
+     */
     @Test
     public void update() {
         CapacityDao dao = new CapacityDaoRedisImpl(jedisPool);
         for (MeterReading reading : readings) {
-            System.out.println(reading);
             dao.update(reading);
         }
         Set<Tuple> results = jedis.zrevrangeWithScores(RedisSchema.getCapacityRankingKey(), 0, 20);

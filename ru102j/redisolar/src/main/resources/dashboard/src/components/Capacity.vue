@@ -6,7 +6,8 @@
 
 <div id="app">
     <div class="container">
-        <canvas id="myChart"></canvas>
+      <h2>Top 10 Capacity</h2>
+        <canvas id="maxChart"></canvas>
     </div>
     <div class="container">
       <table class="table">
@@ -17,6 +18,25 @@
           </tr>
         </thead>
         <tr v-for="item in capacityTable" :key="item.siteId">
+          <td><router-link :to="{ name: 'stats', params: { id: item.siteId }}">{{ item.siteId }}</router-link></td>
+          <td>{{ item.capacity }}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container">
+      <h2>Botton 10 Capacity</h2>
+        <canvas id="minChart"></canvas>
+    </div>
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <td scope="col">ID</td>
+            <td scope="col">Capacity</td>
+          </tr>
+        </thead>
+        <tr v-for="item in minCapacityTable" :key="item.siteId">
           <td><router-link :to="{ name: 'stats', params: { id: item.siteId }}">{{ item.siteId }}</router-link></td>
           <td>{{ item.capacity }}</td>
         </tr>
@@ -34,7 +54,8 @@ export default {
   name: 'Chart',
   data: function () {
     return {
-      capacityTable: []
+      capacityTable: [],
+      minCapacityTable: []
     }
   },
   mounted () {
@@ -78,24 +99,41 @@ export default {
     getData (self) {
       axios.get('http://localhost:8081/api/capacity/')
         .then(function (response) {
-          console.log(response)
-          var items = []
-          var ids = []
+          var maxItems = []
+          var maxIds = []
           response.data.highestCapacity.forEach(function (item) {
-            items.push({x: item.siteId, y: item.capacity})
-            ids.push('' + item.siteId)
+            maxItems.push({x: item.siteId, y: item.capacity})
+            maxIds.push('' + item.siteId)
             self.capacityTable.push(item)
           })
-          console.log(items)
-          self.chart.data.labels = ids
-          self.chart.data.datasets.push({
-            labels: ids,
+          self.maxChart.data.labels = maxIds
+
+          self.maxChart.data.datasets.push({
+            labels: maxIds,
             backgroundColor: '#94c635',
             borderColor: '#709628',
             borderWidth: 1,
-            data: items
+            data: maxItems
           })
-          self.chart.update()
+          self.maxChart.update()
+
+          var minIds = []
+          var minItems = []
+          response.data.lowestCapacity.forEach(function (item) {
+            minItems.push({x: item.siteId, y: item.capacity})
+            minIds.push('' + item.siteId)
+            self.minCapacityTable.push(item)
+          })
+          self.minChart.data.labels = minIds
+
+          self.minChart.data.datasets.push({
+            labels: minIds,
+            backgroundColor: '#A50104',
+            borderColor: '#590004',
+            borderWidth: 1,
+            data: minItems
+          })
+          self.minChart.update()
         })
         .catch(function (error) {
           console.log('Got error')
@@ -103,8 +141,9 @@ export default {
         })
     },
     createChart () {
-      var ctx = document.getElementById('myChart').getContext('2d')
-      this.chart = new Chart(ctx, {
+      var maxCtx = document.getElementById('maxChart').getContext('2d')
+      var minCtx = document.getElementById('minChart').getContext('2d')
+      this.maxChart = new Chart(maxCtx, {
         // The type of chart we want to create
         type: 'bar',
 
@@ -117,8 +156,38 @@ export default {
         options: {
           legend: {display: false},
           title: {
-            display: true,
-            text: 'Top 10 Capacity'
+            display: true
+          },
+          scales: {
+            xAxes: [{
+              labelString: 'Site ID',
+              barPercentage: 10,
+              maxBarThickness: 60,
+              minBarLength: 2,
+              gridLines: {
+                offsetGridLines: true
+              },
+              scaleLabel: {labelString: 'Site ID', display: true}
+            }],
+            yAxes: [{scaleLabel: {labelString: 'Watt-Hours', display: true}}]
+          }
+        }
+      })
+
+      this.minChart = new Chart(minCtx, {
+        // The type of chart we want to create
+        type: 'bar',
+
+        // The data for our dataset
+        data: {
+          datasets: []
+        },
+
+        // Configuration options go here
+        options: {
+          legend: {display: false},
+          title: {
+            display: true
           },
           scales: {
             xAxes: [{
