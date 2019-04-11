@@ -3,7 +3,6 @@ package com.redislabs.university.RU102J.api;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.redislabs.university.RU102J.util.CustomDateSerializer;
 
 import java.time.ZonedDateTime;
 import java.util.HashMap;
@@ -20,7 +19,6 @@ import java.util.Objects;
  */
 public class MeterReading {
     private Long siteId;
-    @JsonSerialize(using = CustomDateSerializer.class)
     private ZonedDateTime dateTime;
     private Double whUsed;
     private Double whGenerated;
@@ -60,7 +58,6 @@ public class MeterReading {
     }
 
     @JsonProperty("dateTime")
-    @JsonSerialize(using = CustomDateSerializer.class)
     public ZonedDateTime getDateTime() {
         return dateTime;
     }

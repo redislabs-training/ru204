@@ -25,8 +25,6 @@ public class MeterReadingResourceTest {
             .addResource(new MeterReadingResource(siteDao, metricDao, capacityDao, feedDao))
             .build();
 
-    //private final MeterReading reading = new MeterReading(
-
     @Before
     public void setup() {
     }
