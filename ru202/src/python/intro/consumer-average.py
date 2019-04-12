@@ -50,7 +50,7 @@ def main():
         results = redis.xreadgroup(group_name, consumer_name,
             stream_offsets, None, block_ms)
         print_yellow("Processing: " + json.dumps(results))
-        print_yellow("Rolling Average:", get_rolling_average(results, window), "\n")
+        print_yellow("Rolling Average: " + str(get_rolling_average(results, window)))
         time.sleep(1)
 
 
