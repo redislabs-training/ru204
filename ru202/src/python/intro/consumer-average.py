@@ -9,6 +9,9 @@ import json
 import socket
 import os
 
+def print_yellow(text):
+    print("\033[93m" + text + "\033[0m")
+
 def get_rolling_average(results, window):
     total = 0
     for result in results[0][1]:
@@ -41,13 +44,13 @@ def main():
     try:
         redis.xgroup_create(stream_key, group_name)
     except ResponseError:
-        print("Group already exists.")
+        print_yellow("Group already exists.")
 
     while True:
         results = redis.xreadgroup(group_name, consumer_name,
             stream_offsets, None, block_ms)
-        print("Processing: " + json.dumps(results))
-        print("Rolling Average:", get_rolling_average(results, window), "\n")
+        print_yellow("Processing: " + json.dumps(results))
+        print_yellow("Rolling Average: " + str(get_rolling_average(results, window)))
         time.sleep(1)
 
 
