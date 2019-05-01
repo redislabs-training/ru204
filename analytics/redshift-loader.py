@@ -88,14 +88,14 @@ def load_enrollments(con, filename="/src/redis_user_reports_Feb_13th.csv"):
 
 
 
-def main(command, datafile):
+def main(pw, command, datafile):
     """Entry point to execute either the dump or load"""
     import os
     import psycopg2
 
     try:
 
-        con=psycopg2.connect("dbname=lms host=lms.c3ewdu0ze66e.us-east-1.redshift.amazonaws.com port=5439 user=lmsfeed password=rlisgr8RS!")
+        con=psycopg2.connect("dbname=lms host=lms.c3ewdu0ze66e.us-east-1.redshift.amazonaws.com port=5439 user=lmsfeed password=" + pw)
 
         if command == "reg":
             load_registrations(con, filename=datafile)
@@ -109,4 +109,4 @@ def main(command, datafile):
         con.close()
 
 if __name__ == "__main__":
-  main(sys.argv[1], sys.argv[2])
+  main(sys.argv[1], sys.argv[2], sys.argv[3])
