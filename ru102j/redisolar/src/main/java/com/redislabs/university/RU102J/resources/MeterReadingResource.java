@@ -6,13 +6,11 @@ import com.redislabs.university.RU102J.dao.FeedDao;
 import com.redislabs.university.RU102J.dao.MetricDao;
 import com.redislabs.university.RU102J.dao.SiteDao;
 
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/meter")
+@Path("/meterReading")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class MeterReadingResource {

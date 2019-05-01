@@ -38,7 +38,6 @@ public class MeterReadingTest {
     }
 
     @Test
-    @Ignore
     public void serializesToJSON() throws Exception {
         final String expected = MAPPER.writeValueAsString(
                 MAPPER.readValue(fixture("fixtures/meterReading.json"), MeterReading.class));

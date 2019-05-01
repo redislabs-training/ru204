@@ -20,6 +20,8 @@ ADD src/python/producer_2.py           /src/redisu/ru202/src/python/producer_2.p
 ADD src/python/range_1.py              /src/redisu/ru202/src/python/range_1.py
 ADD src/python/range_2.py              /src/redisu/ru202/src/python/range_2.py
 ADD src/python/range_3.py              /src/redisu/ru202/src/python/range_3.py
+ADD src/python/range_sum.py            /src/redisu/ru202/src/python/range_sum.py
+ADD src/python/read_sum.py             /src/redisu/ru202/src/python/read_sum.py
 ADD src/python/util/__init__.py        /src/redisu/ru202/src/python/util/__init__.py
 ADD src/python/util/connection.py      /src/redisu/ru202/src/python/util/connection.py
 ADD src/python/util/streams.py         /src/redisu/ru202/src/python/util/streams.py
