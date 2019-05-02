@@ -9,6 +9,7 @@ import os
 import sys
 
 STREAM_KEY_BASE = "temps"
+LAST_POSITION_KEY = f"consumer_position"
 
 redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                 port=os.environ.get("REDIS_PORT", 6379),
@@ -28,9 +29,15 @@ def main():
         current_stream_key = sys.argv[1]
         last_message_id = sys.argv[2]
     else:
-        # TODO get this from Redis...
-        current_stream_key = "TODO"
-        last_message_id = "TODO"
+        h = redis.hgetall(LAST_POSITION_KEY)
+        
+        if not h:
+            print("No stream key and last message ID found in Redis.")
+            print("Start the consumer with stream key and last message ID parameters.")
+            sys.exit(1)
+        else:
+            current_stream_key = h["current_stream_key"]
+            last_message_id = h["last_message_id"]
 
     print(f"current_stream_key: {current_stream_key}")
     print(f"last_message_id: {last_message_id}")
@@ -82,7 +89,12 @@ def main():
 
             # Update the last ID we've seen
             last_message_id = msg_id
-            # TODO persist that to Redis
+            
+            # Store current position in Redis.
+            redis.hmset(LAST_POSITION_KEY, {
+                "current_stream_key": current_stream_key,
+                "last_message_id": last_message_id,
+            })
 
 if __name__ == "__main__":
     main()
