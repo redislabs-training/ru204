@@ -19,10 +19,6 @@ def main():
     current_stream_key = ""
     last_message_id = ""
 
-    # Today's stream key, used for knowing when to stop.
-    # TODO what if we catch up with today during today?
-    today_stream_key = f"{STREAM_KEY_BASE}:20250110"
-
     # Read stream name and last ID seen from arguments
     # if not supplied, look in Redis for them.
     if len(sys.argv) == 3:
@@ -46,46 +42,56 @@ def main():
         # Get the next message from the stream, if any
         streamDict = {}
         streamDict[current_stream_key] = last_message_id
-        response = redis.xread(streamDict, count=1)
+        response = redis.xread(streamDict, count=1, block = 5000)
 
         if not response:
-            # We have exhausted this stream, try for another partition
-            print(f"Stream {current_stream_key} exhausted.")
-
-            # If this is today's stream then we are done.
-            if current_stream_key == today_stream_key:
-                print("Caught up to today...")
-                sys.exit()
+            # We either need to switch to another stream partition 
+            # or wait for more messages to appear on the one we are 
+            # on if no newer partitions exist.
 
             # Work out the name of the stream partition that is one
             # day newer than the current one.
             current_stream_date_str = current_stream_key[-8:]
             current_stream_date = datetime.strptime(current_stream_date_str, "%Y%m%d").date()
             new_stream_date = current_stream_date + timedelta(days = 1)
-            new_stream_key = STREAM_KEY_BASE + ":" + new_stream_date.strftime("%Y%m%d")
-            
-            print(f"Last ID was {last_message_id}")
-            print(f"Next stream should be {new_stream_key}")
+            new_stream_key = f"{STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
 
-            # Set the stream key and reset the ID
-            current_stream_key = new_stream_key
-            last_message_id = 0
+            # Does the next partition exist?  If so read from it otherwise
+            # stick with this stream which will block as we are at the 
+            # latest partition now.
+
+            if (redis.exists(new_stream_key) == 1):
+                # We are still catching up and have not reached
+                # the latest stream partition yet, so move on to
+                # consuming the next partition.
+                current_stream_key = new_stream_key
+                last_message_id = 0                
+    
+                print(f"Changing to consume stream: {new_stream_key}")
+            else:
+                # We are currently on the latest stream partition
+                # and have caught up with the producer so should 
+                # block for a while then try reading it again.      
+                print(f"Waiting for new messages in stream: {current_stream_key}")      
         else:
             # Read the response that we got from Redis
             msg = response[0][1][0]
 
             # Get the ID of the message that was just read.
             msg_id = msg[0]
-            print(str(msg_id))
+            #print(str(msg_id))
 
             # Get the timestamp value from the message ID 
             # (everything before the - in the ID).
             msg_timestamp = msg_id.split("-")[0]
-            print(msg_timestamp)
+            #print(msg_timestamp)
 
             # Get the temperature value from the message.
             msg_temperature = msg[1]['temp_f']
-            print(msg_temperature)
+            #print(msg_temperature)
+
+            # TODO do some calculation and put a result on
+            # another stream periodicially.
 
             # Update the last ID we've seen
             last_message_id = msg_id
