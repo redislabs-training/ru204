@@ -1,6 +1,6 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
-from redis import Redis
+from util.connection import get_connection
 import random
 from datetime import datetime, timedelta
 import time
@@ -11,10 +11,8 @@ import sys
 STREAM_KEY_BASE = "temps"
 LAST_POSITION_KEY = f"consumer_position"
 
-redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
-                port=os.environ.get("REDIS_PORT", 6379),
-                db=0, decode_responses=True)
-    
+redis = get_connection()
+
 def main():
     current_stream_key = ""
     last_message_id = ""
