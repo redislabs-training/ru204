@@ -6,6 +6,7 @@ from datetime import datetime
 import time
 import json
 import os
+from util.connection import get_connection
 
 STREAM_KEY_BASE = "temps"
 PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
@@ -13,10 +14,6 @@ TEMPERATURE_READING_INTERVAL = 1
 TIMESTAMP_START = 1735689600 # 01/01/2025 00:00:00 UTC
 DAYS_TO_GENERATE = 5 # change to 30
 ONE_DAY_SECONDS = 60 * 60 * 24
-
-redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
-                port=os.environ.get("REDIS_PORT", 6379),
-                db=0, decode_responses=True)
 
 class Measurement:
     def __init__(self):
@@ -34,6 +31,8 @@ class Measurement:
         return {'temp_f': self.current_temp}
     
 def delete_old_streams():
+    redis = get_connection()
+
     stream_key_names = []
     stream_timestamp = TIMESTAMP_START
 
@@ -57,6 +56,8 @@ def main():
     # Track the stream key names that were generated
     stream_key_names = []
 
+    redis = get_connection()
+    
     while current_timestamp < end_timestamp:
         # Calculate the key for the current stream partition.
         stream_key = STREAM_KEY_BASE + ":" + datetime.utcfromtimestamp(current_timestamp).strftime("%Y%m%d")
