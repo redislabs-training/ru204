@@ -1,5 +1,6 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
+from multiprocessing import Process
 from util.connection import get_connection
 import random
 from datetime import datetime, timedelta
@@ -9,32 +10,10 @@ import os
 import sys
 
 STREAM_KEY_BASE = "temps"
-LAST_POSITION_KEY = f"consumer_position"
+LAST_POSITION_KEY = "aggregating_consumer_position"
 
-redis = get_connection()
-
-def main():
-    current_stream_key = ""
-    last_message_id = ""
-
-    # Read stream name and last ID seen from arguments
-    # if not supplied, look in Redis for them.
-    if len(sys.argv) == 3:
-        current_stream_key = sys.argv[1]
-        last_message_id = sys.argv[2]
-    else:
-        h = redis.hgetall(LAST_POSITION_KEY)
-        
-        if not h:
-            print("No stream key and last message ID found in Redis.")
-            print("Start the consumer with stream key and last message ID parameters.")
-            sys.exit(1)
-        else:
-            current_stream_key = h["current_stream_key"]
-            last_message_id = h["last_message_id"]
-
-    print(f"current_stream_key: {current_stream_key}")
-    print(f"last_message_id: {last_message_id}")
+def aggregating_consumer_func(current_stream_key, last_message_id):
+    redis = get_connection()
 
     while True:
         # Get the next message from the stream, if any
@@ -99,6 +78,34 @@ def main():
                 "current_stream_key": current_stream_key,
                 "last_message_id": last_message_id,
             })
+
+def main():
+    current_stream_key = ""
+    last_message_id = ""
+    redis = get_connection()
+
+    # Read stream name and last ID seen from arguments
+    # if not supplied, look in Redis for them.
+    if len(sys.argv) == 3:
+        current_stream_key = sys.argv[1]
+        last_message_id = sys.argv[2]
+    else:
+        h = redis.hgetall(LAST_POSITION_KEY)
+        
+        if not h:
+            print("No stream key and last message ID found in Redis.")
+            print("Start the consumer with stream key and last message ID parameters.")
+            sys.exit(1)
+        else:
+            current_stream_key = h["current_stream_key"]
+            last_message_id = h["last_message_id"]
+
+    print(f"current_stream_key: {current_stream_key}")
+    print(f"last_message_id: {last_message_id}")
+
+    # Start the aggregating consumer process.
+    aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, ))
+    aggregating_consumer.start()
 
 if __name__ == "__main__":
     main()
