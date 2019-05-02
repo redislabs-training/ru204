@@ -38,11 +38,11 @@ def delete_old_streams():
     stream_timestamp = TIMESTAMP_START
 
     for day in range(DAYS_TO_GENERATE):
-        stream_key_names.append(STREAM_KEY_BASE + ":" + datetime.utcfromtimestamp(stream_timestamp).strftime("%Y%m%d"))
+        stream_key_names.append(f"{STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
         stream_timestamp += ONE_DAY_SECONDS
         
     keys_deleted = redis.delete(*stream_key_names)
-    print("Deleted " + str(keys_deleted) + " old stream partitions.")
+    print(f"Deleted {keys_deleted} old stream partitions.")
 
 def main():
     delete_old_streams()
@@ -70,7 +70,7 @@ def main():
         if (stream_key != previous_stream_key):
             # A new day's stream started.
             stream_key_names.append(stream_key)
-            print("Populating stream partition " + stream_key)
+            print(f"Populating stream partition {stream_key}")
             previous_stream_key = stream_key            
 
         # Move on to the next timestamp value.
@@ -85,7 +85,7 @@ def main():
     # that the prior partition.
     for stream_key_name in stream_key_names:
         partition_expires_at = current_timestamp + (days * PARTITION_EXPIRY_TIME)
-        print(stream_key_name + " expires at " + str(partition_expires_at))
+        print(f"{stream_key_name} expires at {partition_expires_at}")
 
         # Set expiry time in Redis.
         redis.expireat(stream_key_name, partition_expires_at)
