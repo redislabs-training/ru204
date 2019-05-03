@@ -12,6 +12,8 @@ import sys
 STREAM_KEY_BASE = "temps"
 AGGREGATING_CONSUMER_STATE_KEY = "aggregating_consumer_state"
 AVERAGES_CONSUMER_STATE_KEY = "averages_consumer_state"
+AVERAGES_STREAM_KEY = f"{STREAM_KEY_BASE}:averages"
+
 AGGREGATING_CONSUMER_PREFIX = "agg"
 AVERAGES_CONSUMER_PREFIX = "avg"
 
@@ -80,6 +82,17 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
 
             # TODO do some calculation and put a result on
             # another stream periodicially.
+            # Temporary logic to push some things to second stream...
+            if (float(msg_temperature) > 65.0):
+                payload = {
+                    'average_temp_f': msg_temperature,
+                    'timestamp': msg_timestamp
+                }
+
+                # Publish result, trimming the stream each time a new message
+                # is added.
+                new_msg_id = redis.xadd(AVERAGES_STREAM_KEY, payload, "*", maxlen = 20, approximate = True)
+                log(AGGREGATING_CONSUMER_PREFIX, f"Published aggregated result ID {new_msg_id} to {AVERAGES_STREAM_KEY}.")
 
             # Update the last ID we've seen
             last_message_id = msg_id
@@ -93,7 +106,6 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
 def averages_consumer_func():
     redis = get_connection()
 
-    averages_stream_key = f"{STREAM_KEY_BASE}:averages"
     last_message_id = "0" # TODO this needs to come out of Redis
 
     h = redis.hgetall(AVERAGES_CONSUMER_STATE_KEY)
@@ -101,12 +113,12 @@ def averages_consumer_func():
     if h:
         last_message_id = h["last_message_id"]
 
-    log(AVERAGES_CONSUMER_PREFIX, f"Starting averages consumer at messsge {last_message_id}.")
+    log(AVERAGES_CONSUMER_PREFIX, f"Starting averages consumer in stream {AVERAGES_STREAM_KEY} at message {last_message_id}.")
 
     while True:
         # Get the next message from the stream, if any
         streamDict = {}
-        streamDict[averages_stream_key] = last_message_id
+        streamDict[AVERAGES_STREAM_KEY] = last_message_id
         response = redis.xread(streamDict, count = 1, block = 5000)    
 
         if response:
@@ -115,10 +127,15 @@ def averages_consumer_func():
             # Get the ID of the message that was just read.
             msg_id = msg[0]   
 
-            log(AVERAGES_CONSUMER_PREFIX, f"Received message {msg_id}")
+            # Get the average temperature value from the message.
+            msg_average_temperature = msg[1]['average_temp_f']
 
-            # TODO do something with the data from this response!
+            # Get the timestamp value from the message.
+            msg_timestamp = msg[1]['timestamp']
 
+            log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_timestamp} was {msg_average_temperature}F.")
+
+            # Update our last message for the next XREAD.
             last_message_id = msg_id
 
             # Store current state in Redis.
@@ -126,7 +143,7 @@ def averages_consumer_func():
                 "last_message_id": last_message_id
             })
         else:
-            log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {averages_stream_key}")
+            log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {AVERAGES_STREAM_KEY}")
 
 
 def main():
