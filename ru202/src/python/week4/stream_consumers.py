@@ -55,12 +55,12 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 current_stream_key = new_stream_key
                 last_message_id = "0"                
     
-                log(AGGREGATING_CONSUMER_PREFIX, f"Changing to consume stream: {new_stream_key}")
+                log(AGGREGATING_CONSUMER_PREFIX, f"Changing partition to consume stream: {new_stream_key}")
             else:
                 # We are currently on the latest stream partition
                 # and have caught up with the producer so should 
                 # block for a while then try reading it again.      
-                log(AGGREGATING_CONSUMER_PREFIX, f"Waiting for new messages in stream {current_stream_key}")      
+                log(AGGREGATING_CONSUMER_PREFIX, f"Waiting for new messages in stream {current_stream_key}, or new stream partition.")      
         else:
             # Read the response that we got from Redis
             msg = response[0][1][0]
@@ -90,7 +90,18 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             # Did we start a new hour?
             if last_message_hour != msg_hour:
                 # Starting a new hour, push our result to the averages stream.
-                print(f"Hour transition from {last_message_hour} to {msg_hour} at {msg_timestamp} avg {int(current_hourly_total / current_hourly_count)} count {current_hourly_count}")
+                formatted_date = msg_date.strftime('%Y/%m/%d')
+
+                # Publish result for this hour, trimming the stream each 
+                # time a new message is added.
+                payload = {
+                    "hour": last_message_hour,
+                    "date": formatted_date,
+                    "average_temp_f": int(current_hourly_total / current_hourly_count)
+                }
+
+                print(f"{formatted_date} {last_message_hour} {current_hourly_count}")
+                redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 50, approximate = True)
 
                 # Reset values and put the current message's temperature
                 # into the new hour.
@@ -101,22 +112,11 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 current_hourly_total += int(msg_temperature)
                 current_hourly_count += 1
 
-            # Temporary logic to push some things to second stream...
-            if (float(msg_temperature) > 65.0):
-                payload = {
-                    "average_temp_f": msg_temperature,
-                    "timestamp": msg_timestamp
-                }
-
-                # Publish result, trimming the stream each time a new message
-                # is added.
-                #new_msg_id = redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 20, approximate = True)
-                #log(AGGREGATING_CONSUMER_PREFIX, f"Published aggregated result ID {new_msg_id} to {const.AVERAGES_STREAM_KEY}.")
-
-            # Update the last ID we've seen
+            # Update the last ID we've seen.
             last_message_id = msg_id
             
-            # Store current state in Redis.
+            # Store current state in Redis in case we crash and 
+            # have to resume.
             redis.hmset(const.AGGREGATING_CONSUMER_STATE_KEY, {
                 "current_stream_key": current_stream_key,
                 "last_message_id": last_message_id,
@@ -152,10 +152,13 @@ def averages_consumer_func():
             # Get the average temperature value from the message.
             msg_average_temperature = msg[1]["average_temp_f"]
 
-            # Get the timestamp value from the message.
-            msg_timestamp = msg[1]["timestamp"]
+            # Get the date value from the message.
+            msg_date = msg[1]["date"]
 
-            log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_timestamp} was {msg_average_temperature}F.")
+            # Get the hour value from the message.
+            msg_hour = msg[1]["hour"]
+
+            log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_date} at {msg_hour} was {msg_average_temperature}F.")
 
             # Update our last message for the next XREAD.
             last_message_id = msg_id
@@ -194,8 +197,8 @@ def main():
         else:
             current_stream_key = h["current_stream_key"]
             last_message_id = h["last_message_id"]
-            current_hourly_total = h["current_hourly_total"]
-            current_hourly_count = h["current_hourly_count"]
+            current_hourly_total = int(h["current_hourly_total"])
+            current_hourly_count = int(h["current_hourly_count"])
 
     # Start the aggregating consumer process.
     aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, current_hourly_total, current_hourly_count))
