@@ -21,7 +21,7 @@ def log(prefix, message):
     else:
         print(f"{prefix}: {message}")
 
-def aggregating_consumer_func(current_stream_key, last_message_id):
+def aggregating_consumer_func(current_stream_key, last_message_id, current_hourly_avg):
     log(AGGREGATING_CONSUMER_PREFIX, f"Starting aggregating consumer in stream {current_stream_key} at message {last_message_id}.")
 
     redis = get_connection()
@@ -99,7 +99,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
             # Store current state in Redis.
             redis.hmset(const.AGGREGATING_CONSUMER_STATE_KEY, {
                 "current_stream_key": current_stream_key,
-                "last_message_id": last_message_id
+                "last_message_id": last_message_id,
+                "current_hourly_avg": current_hourly_avg
             })
 
 def averages_consumer_func():
@@ -148,6 +149,8 @@ def averages_consumer_func():
 def main():
     current_stream_key = ""
     last_message_id = ""
+    current_hourly_avg = 0
+
     redis = get_connection()
 
     # Read stream name and last ID seen from arguments
@@ -175,9 +178,10 @@ def main():
         else:
             current_stream_key = h["current_stream_key"]
             last_message_id = h["last_message_id"]
+            current_hourly_avg = h["current_hourly_avg"]
 
     # Start the aggregating consumer process.
-    aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, ))
+    aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, current_hourly_avg))
     aggregating_consumer.start()
 
     # Start the averages consumer process.
