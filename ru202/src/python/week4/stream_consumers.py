@@ -78,7 +78,7 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
             #print(msg_timestamp)
 
             # Get the temperature value from the message.
-            msg_temperature = msg[1]['temp_f']
+            msg_temperature = msg[1]["temp_f"]
             #print(msg_temperature)
 
             # TODO do some calculation and put a result on
@@ -86,8 +86,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
             # Temporary logic to push some things to second stream...
             if (float(msg_temperature) > 65.0):
                 payload = {
-                    'average_temp_f': msg_temperature,
-                    'timestamp': msg_timestamp
+                    "average_temp_f": msg_temperature,
+                    "timestamp": msg_timestamp
                 }
 
                 # Publish result, trimming the stream each time a new message
@@ -129,10 +129,10 @@ def averages_consumer_func():
             msg_id = msg[0]   
 
             # Get the average temperature value from the message.
-            msg_average_temperature = msg[1]['average_temp_f']
+            msg_average_temperature = msg[1]["average_temp_f"]
 
             # Get the timestamp value from the message.
-            msg_timestamp = msg[1]['timestamp']
+            msg_timestamp = msg[1]["timestamp"]
 
             log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_timestamp} was {msg_average_temperature}F.")
 
