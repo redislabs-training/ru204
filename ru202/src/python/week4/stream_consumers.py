@@ -11,8 +11,15 @@ import sys
 
 STREAM_KEY_BASE = "temps"
 LAST_POSITION_KEY = "aggregating_consumer_position"
+AGGREGATING_CONSUMER_PREFIX = "agg"
+AVERAGES_CONSUMER_PREFIX = "avg"
+
+def log(prefix, message):
+    print(f"{prefix}: {message}")
 
 def aggregating_consumer_func(current_stream_key, last_message_id):
+    log(AGGREGATING_CONSUMER_PREFIX, f"Starting aggregating consumer in stream {current_stream_key} at message {last_message_id}.")
+
     redis = get_connection()
 
     while True:
@@ -44,12 +51,12 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
                 current_stream_key = new_stream_key
                 last_message_id = 0                
     
-                print(f"Changing to consume stream: {new_stream_key}")
+                log(AGGREGATING_CONSUMER_PREFIX, f"Changing to consume stream: {new_stream_key}")
             else:
                 # We are currently on the latest stream partition
                 # and have caught up with the producer so should 
                 # block for a while then try reading it again.      
-                print(f"Waiting for new messages in stream: {current_stream_key}")      
+                log(AGGREGATING_CONSUMER_PREFIX, f"Waiting for new messages in stream: {current_stream_key}")      
         else:
             # Read the response that we got from Redis
             msg = response[0][1][0]
@@ -79,6 +86,35 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
                 "last_message_id": last_message_id,
             })
 
+def averages_consumer_func():
+    log(AVERAGES_CONSUMER_PREFIX, "Starting averages consumer.")
+
+    redis = get_connection()
+
+    averages_stream_key = f"{STREAM_KEY_BASE}:averages"
+    last_message_id = "0" # TODO this needs to come out of Redis
+
+    while True:
+        # Get the next message from the stream, if any
+        streamDict = {}
+        streamDict[averages_stream_key] = last_message_id
+        response = redis.xread(streamDict, count=1, block = 5000)    
+
+        if response:
+            msg = response[0][1][0]
+
+            # Get the ID of the message that was just read.
+            msg_id = msg[0]   
+
+            log(AVERAGES_CONSUMER_PREFIX, f"Received message {msg_id}")
+
+            # TODO do something with the data from this response!
+
+            last_message_id = msg_id # TODO persist this to Redis
+        else:
+            log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {averages_stream_key}")
+
+
 def main():
     current_stream_key = ""
     last_message_id = ""
@@ -100,12 +136,13 @@ def main():
             current_stream_key = h["current_stream_key"]
             last_message_id = h["last_message_id"]
 
-    print(f"current_stream_key: {current_stream_key}")
-    print(f"last_message_id: {last_message_id}")
-
     # Start the aggregating consumer process.
     aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, ))
     aggregating_consumer.start()
+
+    # Start the averages consumer process.
+    averages_consumer = Process(target = averages_consumer_func, args = ())
+    averages_consumer.start()
 
 if __name__ == "__main__":
     main()
