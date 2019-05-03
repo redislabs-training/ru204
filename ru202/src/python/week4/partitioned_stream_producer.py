@@ -34,18 +34,20 @@ def reset_state():
     redis = get_connection()
 
     # Delete any old streams that have not yet expired.
-    stream_key_names = []
+    keys_to_delete = []
     stream_timestamp = TIMESTAMP_START
 
     for day in range(DAYS_TO_GENERATE):
-        stream_key_names.append(f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
+        keys_to_delete.append(f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
         stream_timestamp += ONE_DAY_SECONDS
         
-    keys_deleted = redis.delete(*stream_key_names)
-    print(f"Deleted {keys_deleted} old stream partitions.")
-
     # Delete the keys used by the consumers to hold state.
-    # TODO!!!!
+    keys_to_delete.append(const.AGGREGATING_CONSUMER_STATE_KEY)
+    keys_to_delete.append(const.AVERAGES_CONSUMER_STATE_KEY)
+    keys_to_delete.append(const.AVERAGES_STREAM_KEY)
+    
+    keys_deleted = redis.delete(*keys_to_delete)
+    print(f"Deleted old streams and consumer keys.")
 
 def main():
     reset_state()
