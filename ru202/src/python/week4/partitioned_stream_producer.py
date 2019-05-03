@@ -7,8 +7,8 @@ import time
 import json
 import os
 from util.connection import get_connection
+import util.constants as const
 
-STREAM_KEY_BASE = "temps"
 PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
 TEMPERATURE_READING_INTERVAL = 1
 TIMESTAMP_START = 1735689600 # 01/01/2025 00:00:00 UTC
@@ -37,7 +37,7 @@ def delete_old_streams():
     stream_timestamp = TIMESTAMP_START
 
     for day in range(DAYS_TO_GENERATE):
-        stream_key_names.append(f"{STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
+        stream_key_names.append(f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
         stream_timestamp += ONE_DAY_SECONDS
         
     keys_deleted = redis.delete(*stream_key_names)
@@ -60,7 +60,7 @@ def main():
     
     while current_timestamp < end_timestamp:
         # Calculate the key for the current stream partition.
-        stream_key = STREAM_KEY_BASE + ":" + datetime.utcfromtimestamp(current_timestamp).strftime("%Y%m%d")
+        stream_key = f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(current_timestamp).strftime('%Y%m%d')}"
         
         # Get a temperature reading.
         entry = measurement.get_next()
@@ -71,7 +71,7 @@ def main():
         if (stream_key != previous_stream_key):
             # A new day's stream started.
             stream_key_names.append(stream_key)
-            print(f"Populating stream partition {stream_key}")
+            print(f"Populating stream partition {stream_key}.")
             previous_stream_key = stream_key            
 
         # Move on to the next timestamp value.

@@ -2,6 +2,7 @@
 # Usage: Part of Redis University RU202 courseware
 from multiprocessing import Process
 from util.connection import get_connection
+import util.constants as const
 import random
 from datetime import datetime, timedelta
 import time
@@ -9,10 +10,10 @@ import json
 import os
 import sys
 
-STREAM_KEY_BASE = "temps"
-AGGREGATING_CONSUMER_STATE_KEY = "aggregating_consumer_state"
-AVERAGES_CONSUMER_STATE_KEY = "averages_consumer_state"
-AVERAGES_STREAM_KEY = f"{STREAM_KEY_BASE}:averages"
+#STREAM_KEY_BASE = "temps"
+#AGGREGATING_CONSUMER_STATE_KEY = "aggregating_consumer_state"
+#AVERAGES_CONSUMER_STATE_KEY = "averages_consumer_state"
+#AVERAGES_STREAM_KEY = f"{STREAM_KEY_BASE}:averages"
 
 AGGREGATING_CONSUMER_PREFIX = "agg"
 AVERAGES_CONSUMER_PREFIX = "avg"
@@ -44,7 +45,7 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
             current_stream_date_str = current_stream_key[-8:]
             current_stream_date = datetime.strptime(current_stream_date_str, "%Y%m%d").date()
             new_stream_date = current_stream_date + timedelta(days = 1)
-            new_stream_key = f"{STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
+            new_stream_key = f"{const.STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
 
             # Does the next partition exist?  If so read from it otherwise
             # stick with this stream which will block as we are at the 
@@ -91,14 +92,14 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
 
                 # Publish result, trimming the stream each time a new message
                 # is added.
-                new_msg_id = redis.xadd(AVERAGES_STREAM_KEY, payload, "*", maxlen = 20, approximate = True)
-                log(AGGREGATING_CONSUMER_PREFIX, f"Published aggregated result ID {new_msg_id} to {AVERAGES_STREAM_KEY}.")
+                new_msg_id = redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 20, approximate = True)
+                log(AGGREGATING_CONSUMER_PREFIX, f"Published aggregated result ID {new_msg_id} to {const.AVERAGES_STREAM_KEY}.")
 
             # Update the last ID we've seen
             last_message_id = msg_id
             
             # Store current state in Redis.
-            redis.hmset(AGGREGATING_CONSUMER_STATE_KEY, {
+            redis.hmset(const.AGGREGATING_CONSUMER_STATE_KEY, {
                 "current_stream_key": current_stream_key,
                 "last_message_id": last_message_id
             })
@@ -106,19 +107,19 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
 def averages_consumer_func():
     redis = get_connection()
 
-    last_message_id = "0" # TODO this needs to come out of Redis
-
-    h = redis.hgetall(AVERAGES_CONSUMER_STATE_KEY)
+    # Recover our last message ID context or default to 0
+    last_message_id = "0"
+    h = redis.hgetall(const.AVERAGES_CONSUMER_STATE_KEY)
     
     if h:
         last_message_id = h["last_message_id"]
 
-    log(AVERAGES_CONSUMER_PREFIX, f"Starting averages consumer in stream {AVERAGES_STREAM_KEY} at message {last_message_id}.")
+    log(AVERAGES_CONSUMER_PREFIX, f"Starting averages consumer in stream {const.AVERAGES_STREAM_KEY} at message {last_message_id}.")
 
     while True:
         # Get the next message from the stream, if any
         streamDict = {}
-        streamDict[AVERAGES_STREAM_KEY] = last_message_id
+        streamDict[const.AVERAGES_STREAM_KEY] = last_message_id
         response = redis.xread(streamDict, count = 1, block = 5000)    
 
         if response:
@@ -139,11 +140,11 @@ def averages_consumer_func():
             last_message_id = msg_id
 
             # Store current state in Redis.
-            redis.hmset(AVERAGES_CONSUMER_STATE_KEY, {
+            redis.hmset(const.AVERAGES_CONSUMER_STATE_KEY, {
                 "last_message_id": last_message_id
             })
         else:
-            log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {AVERAGES_STREAM_KEY}")
+            log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {const.AVERAGES_STREAM_KEY}")
 
 
 def main():
@@ -157,7 +158,7 @@ def main():
         current_stream_key = sys.argv[1]
         last_message_id = sys.argv[2]
     else:
-        h = redis.hgetall(AGGREGATING_CONSUMER_STATE_KEY)
+        h = redis.hgetall(const.AGGREGATING_CONSUMER_STATE_KEY)
         
         if not h:
             print("No stream key and last message ID found in Redis.")
