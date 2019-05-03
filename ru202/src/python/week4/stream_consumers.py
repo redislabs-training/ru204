@@ -15,12 +15,19 @@ from util.connection import get_connection
 AGGREGATING_CONSUMER_PREFIX = "agg"
 AVERAGES_CONSUMER_PREFIX = "avg"
 
+# Utility function for logging.
 def log(prefix, message):
     if prefix == AVERAGES_CONSUMER_PREFIX:
         print(f"\033[93m{prefix}: {message}\033[0m")
     else:
         print(f"{prefix}: {message}")
 
+# The aggregating consumer function: walks through a 
+# time partitioned stream reading temperature values
+# and computing hourly average temperature for each
+# hour of data.  Those values are then published on 
+# a capped length stream for the averages consumer
+# function to read.
 def aggregating_consumer_func(current_stream_key, last_message_id, current_hourly_total, current_hourly_count):
     log(AGGREGATING_CONSUMER_PREFIX, f"Starting aggregating consumer in stream {current_stream_key} at message {last_message_id}.")
 
@@ -53,7 +60,6 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 # the latest stream partition yet, so move on to
                 # consuming the next partition.
                 current_stream_key = new_stream_key
-                last_message_id = "0"                
     
                 log(AGGREGATING_CONSUMER_PREFIX, f"Changing partition to consume stream: {new_stream_key}")
             else:
@@ -100,7 +106,7 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                     "average_temp_f": int(current_hourly_total / current_hourly_count)
                 }
 
-                print(f"{formatted_date} {last_message_hour} {current_hourly_count}")
+                # Keep the stream around 50 entries long.
                 redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 50, approximate = True)
 
                 # Reset values and put the current message's temperature
@@ -124,6 +130,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 "current_hourly_count": current_hourly_count
             })
 
+# The averages consumer function: Listens for new messages
+# on a stream and reports values from them.
 def averages_consumer_func():
     redis = get_connection()
 
@@ -170,24 +178,31 @@ def averages_consumer_func():
         else:
             log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {const.AVERAGES_STREAM_KEY}")
 
+# Setup / initialization: Initializes the two separate 
+# consumers and starts each in its own process.
 def main():
     current_stream_key = ""
     last_message_id = "0"
     current_hourly_total = 0
     current_hourly_count = 0
 
-    redis = get_connection()
-
-    # Read stream name and last ID seen from arguments
-    # if not supplied, look in Redis for them.
+    # The aggregator consumer needs to know its initial start
+    # point stream partition name for reading temperatures from.
+    # Try to read a stream name from arguments, if not supplied
+    # then we are resuming from a crash so should instead load
+    # the saved state from Redis.
     if len(sys.argv) == 2:
         current_stream_key = sys.argv[1]
 
-        # Do basic validation of supplied stream key format temps:20250101
+        # Do very basic validation that we might have been supplied
+        # with a stream name from the command line.
         if not current_stream_key.startswith(const.STREAM_KEY_BASE):
             print("Invalid stream key supplied.")
             sys.exit(1)
     else:
+        # Load aggregator consumer saved state from Redis.
+        redis = get_connection()
+
         h = redis.hgetall(const.AGGREGATING_CONSUMER_STATE_KEY)
         
         if not h:
@@ -204,7 +219,8 @@ def main():
     aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, current_hourly_total, current_hourly_count))
     aggregating_consumer.start()
 
-    # Start the averages consumer process.
+    # Start the averages consumer process which always loads its 
+    # own saved state from Redis.
     averages_consumer = Process(target = averages_consumer_func, args = ())
     averages_consumer.start()
 
