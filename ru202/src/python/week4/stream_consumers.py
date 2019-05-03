@@ -10,11 +10,6 @@ import json
 import os
 import sys
 
-#STREAM_KEY_BASE = "temps"
-#AGGREGATING_CONSUMER_STATE_KEY = "aggregating_consumer_state"
-#AVERAGES_CONSUMER_STATE_KEY = "averages_consumer_state"
-#AVERAGES_STREAM_KEY = f"{STREAM_KEY_BASE}:averages"
-
 AGGREGATING_CONSUMER_PREFIX = "agg"
 AVERAGES_CONSUMER_PREFIX = "avg"
 
