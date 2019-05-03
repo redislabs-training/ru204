@@ -1,13 +1,13 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
-from redis import Redis
-import random
-from datetime import datetime 
-import time
 import json
 import os
-from util.connection import get_connection
+import random
+import time
 import util.constants as const
+
+from datetime import datetime 
+from util.connection import get_connection
 
 PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
 TEMPERATURE_READING_INTERVAL = 1
