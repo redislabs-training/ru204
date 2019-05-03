@@ -21,7 +21,7 @@ def log(prefix, message):
     else:
         print(f"{prefix}: {message}")
 
-def aggregating_consumer_func(current_stream_key, last_message_id, current_hourly_total):
+def aggregating_consumer_func(current_stream_key, last_message_id, current_hourly_total, current_hourly_count):
     log(AGGREGATING_CONSUMER_PREFIX, f"Starting aggregating consumer in stream {current_stream_key} at message {last_message_id}.")
 
     redis = get_connection()
@@ -48,7 +48,6 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             # Does the next partition exist?  If so read from it otherwise
             # stick with this stream which will block as we are at the 
             # latest partition now.
-
             if (redis.exists(new_stream_key) == 1):
                 # We are still catching up and have not reached
                 # the latest stream partition yet, so move on to
@@ -68,19 +67,13 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
 
             # Get the ID of the message that was just read.
             msg_id = msg[0]
-            #print(str(msg_id))
 
             # Get the timestamp value from the message ID 
             # (everything before the - in the ID).
             msg_timestamp = msg_id.split("-")[0]
-            #print(msg_timestamp)
 
             # Get the temperature value from the message.
             msg_temperature = msg[1]["temp_f"]
-            #print(msg_temperature)
-
-            # Add the temperature from the message to the current 
-            # hour's total temperature that we are calculating.
 
             # Get hour for this message
             msg_date = datetime.utcfromtimestamp(int(msg_timestamp))
@@ -94,11 +87,19 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 last_message_date = datetime.utcfromtimestamp(int(last_message_timestamp))
                 last_message_hour = last_message_date.hour
 
+            # Did we start a new hour?
             if last_message_hour != msg_hour:
-                # Starting a new hour
-                print(f"Hour transition from {last_message_hour} to {msg_hour} at {msg_timestamp}")
-            #else:
-            # Continuation of current hour
+                # Starting a new hour, push our result to the averages stream.
+                print(f"Hour transition from {last_message_hour} to {msg_hour} at {msg_timestamp} avg {int(current_hourly_total / current_hourly_count)} count {current_hourly_count}")
+
+                # Reset values and put the current message's temperature
+                # into the new hour.
+                current_hourly_total = int(msg_temperature)
+                current_hourly_count = 1
+            else:
+                # Still working through current hour.
+                current_hourly_total += int(msg_temperature)
+                current_hourly_count += 1
 
             # Temporary logic to push some things to second stream...
             if (float(msg_temperature) > 65.0):
@@ -119,7 +120,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             redis.hmset(const.AGGREGATING_CONSUMER_STATE_KEY, {
                 "current_stream_key": current_stream_key,
                 "last_message_id": last_message_id,
-                "current_hourly_total": current_hourly_total
+                "current_hourly_total": current_hourly_total,
+                "current_hourly_count": current_hourly_count
             })
 
 def averages_consumer_func():
@@ -167,25 +169,20 @@ def averages_consumer_func():
 
 def main():
     current_stream_key = ""
-    last_message_id = ""
+    last_message_id = "0"
     current_hourly_total = 0
+    current_hourly_count = 0
 
     redis = get_connection()
 
     # Read stream name and last ID seen from arguments
     # if not supplied, look in Redis for them.
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 2:
         current_stream_key = sys.argv[1]
-        last_message_id = sys.argv[2]
 
         # Do basic validation of supplied stream key format temps:20250101
         if not current_stream_key.startswith(const.STREAM_KEY_BASE):
             print("Invalid stream key supplied.")
-            sys.exit(1)
-
-        # Do basic validation of supplied ID
-        if not set(last_message_id) <= set(string.digits + "-"):
-            print("Invalid message ID supplied.")
             sys.exit(1)
     else:
         h = redis.hgetall(const.AGGREGATING_CONSUMER_STATE_KEY)
@@ -198,9 +195,10 @@ def main():
             current_stream_key = h["current_stream_key"]
             last_message_id = h["last_message_id"]
             current_hourly_total = h["current_hourly_total"]
+            current_hourly_count = h["current_hourly_count"]
 
     # Start the aggregating consumer process.
-    aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, current_hourly_total))
+    aggregating_consumer = Process(target = aggregating_consumer_func, args = (current_stream_key, last_message_id, current_hourly_total, current_hourly_count))
     aggregating_consumer.start()
 
     # Start the averages consumer process.
