@@ -1,14 +1,16 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
-from multiprocessing import Process
-from util.connection import get_connection
-import util.constants as const
-import random
-from datetime import datetime, timedelta
-import time
 import json
 import os
+import random
+import string
 import sys
+import time
+import util.constants as const
+
+from datetime import datetime, timedelta
+from multiprocessing import Process
+from util.connection import get_connection
 
 AGGREGATING_CONSUMER_PREFIX = "agg"
 AVERAGES_CONSUMER_PREFIX = "avg"
@@ -28,6 +30,7 @@ def aggregating_consumer_func(current_stream_key, last_message_id):
         # Get the next message from the stream, if any
         streamDict = {}
         streamDict[current_stream_key] = last_message_id
+
         response = redis.xread(streamDict, count = 1, block = 5000)
 
         if not response:
@@ -115,6 +118,7 @@ def averages_consumer_func():
         # Get the next message from the stream, if any
         streamDict = {}
         streamDict[const.AVERAGES_STREAM_KEY] = last_message_id
+
         response = redis.xread(streamDict, count = 1, block = 5000)    
 
         if response:
@@ -141,7 +145,6 @@ def averages_consumer_func():
         else:
             log(AVERAGES_CONSUMER_PREFIX, f"Waiting for new messages in stream {const.AVERAGES_STREAM_KEY}")
 
-
 def main():
     current_stream_key = ""
     last_message_id = ""
@@ -152,6 +155,16 @@ def main():
     if len(sys.argv) == 3:
         current_stream_key = sys.argv[1]
         last_message_id = sys.argv[2]
+
+        # Do basic validation of supplied stream key format temps:20250101
+        if not current_stream_key.startswith(const.STREAM_KEY_BASE):
+            print("Invalid stream key supplied.")
+            sys.exit(1)
+
+        # Do basic validation of supplied ID
+        if not set(last_message_id) <= set(string.digits + "-"):
+            print("Invalid message ID supplied.")
+            sys.exit(1)
     else:
         h = redis.hgetall(const.AGGREGATING_CONSUMER_STATE_KEY)
         
