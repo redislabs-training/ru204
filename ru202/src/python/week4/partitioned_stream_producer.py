@@ -47,7 +47,7 @@ def reset_state():
     keys_to_delete.append(const.AVERAGES_STREAM_KEY)
     
     keys_deleted = redis.delete(*keys_to_delete)
-    print(f"Deleted old streams and consumer keys.")
+    print("Deleted old streams and consumer keys.")
 
 def main():
     reset_state()
