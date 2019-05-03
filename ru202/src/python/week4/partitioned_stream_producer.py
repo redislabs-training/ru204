@@ -30,9 +30,10 @@ class Measurement:
 
         return {'temp_f': self.current_temp}
     
-def delete_old_streams():
+def reset_state():
     redis = get_connection()
 
+    # Delete any old streams that have not yet expired.
     stream_key_names = []
     stream_timestamp = TIMESTAMP_START
 
@@ -43,8 +44,11 @@ def delete_old_streams():
     keys_deleted = redis.delete(*stream_key_names)
     print(f"Deleted {keys_deleted} old stream partitions.")
 
+    # Delete the keys used by the consumers to hold state.
+    # TODO!!!!
+
 def main():
-    delete_old_streams()
+    reset_state()
 
     measurement = Measurement()
     previous_stream_key = ""
