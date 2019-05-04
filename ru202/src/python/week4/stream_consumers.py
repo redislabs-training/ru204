@@ -96,14 +96,15 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             # Did we start a new hour?
             if last_message_hour != msg_hour:
                 # Starting a new hour, push our result to the averages stream.
-                formatted_date = msg_date.strftime('%Y/%m/%d')
+                formatted_date = last_message_date.strftime('%Y/%m/%d')
 
                 # Publish result for this hour, trimming the stream each 
                 # time a new message is added.
                 payload = {
                     "hour": last_message_hour,
                     "date": formatted_date,
-                    "average_temp_f": int(current_hourly_total / current_hourly_count)
+                    "average_temp_f": int(current_hourly_total / current_hourly_count),
+                    "num_observations": current_hourly_count
                 }
 
                 # Keep the stream around 50 entries long.
@@ -166,7 +167,10 @@ def averages_consumer_func():
             # Get the hour value from the message.
             msg_hour = msg[1]["hour"]
 
-            log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_date} at {msg_hour} was {msg_average_temperature}F.")
+            # Get the number of observations from the message.
+            msg_num_observations = msg[1]["num_observations"]
+
+            log(AVERAGES_CONSUMER_PREFIX, f"Average temperature for {msg_date} at {msg_hour} was {msg_average_temperature}F ({msg_num_observations} observations).")
 
             # Update our last message for the next XREAD.
             last_message_id = msg_id
