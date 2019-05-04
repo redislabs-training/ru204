@@ -9,12 +9,28 @@ import util.constants as const
 from datetime import datetime 
 from util.connection import get_connection
 
+# We'll make partitions expire 10 mins apart from
+# each other for demo purposes, for a real application
+# they might expire after a few days.
 PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
+
+# Record temperature readings every second.
 TEMPERATURE_READING_INTERVAL = 1
+
+# Date that we'll start recording temperatures for - 
+# using a future date so that all students get the
+# same dataset rather than using dates relative to 
+# when the producer is run.  So this timestamp 
+# represents the oldest temperature reading that 
+# will be generated.
 TIMESTAMP_START = 1735689600 # 01/01/2025 00:00:00 UTC
+
+# Number of days of data to generate.
 DAYS_TO_GENERATE = 5 # change to 30
+
 ONE_DAY_SECONDS = 60 * 60 * 24
 
+# Utility class to peoduce wandering temperature range.
 class Measurement:
     def __init__(self):
         self.current_temp = 50
@@ -29,7 +45,10 @@ class Measurement:
             self.current_temp -= 1
 
         return {'temp_f': self.current_temp}
-    
+
+# To make this demonstration repeatable, running 
+# the producer resets all the streams and stored 
+# state keys used by the producer and consumers. 
 def reset_state():
     redis = get_connection()
 
@@ -49,6 +68,8 @@ def reset_state():
     keys_deleted = redis.delete(*keys_to_delete)
     print("Deleted old streams and consumer keys.")
 
+# Entry point: clean up any old state and run the
+# producer.
 def main():
     reset_state()
 
@@ -66,6 +87,8 @@ def main():
     
     while current_timestamp < end_timestamp:
         # Calculate the key for the current stream partition.
+        # Using one partition per calendar day.  All dates and 
+        # times are in UTC.
         stream_key = f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(current_timestamp).strftime('%Y%m%d')}"
         
         # Get a temperature reading.
@@ -74,6 +97,8 @@ def main():
         # Publish to the stream.
         redis.xadd(stream_key, entry, current_timestamp)
 
+        # Does this still belong in the stream we're currently 
+        # writing to?
         if (stream_key != previous_stream_key):
             # A new day's stream started.
             stream_key_names.append(stream_key)
@@ -84,12 +109,18 @@ def main():
         current_timestamp += TEMPERATURE_READING_INTERVAL
 
     # Set staggered expiry times on the streams we created.
+    # These are set after the streams are all created, as we 
+    # are using exact times for this.  For example when 
+    # creating 5 stream partitions, the oldest date data 
+    # will expire in 10 minutes from when the producer finishes
+    # executing, the 2nd in 20, the 3rd in 30, the 4th in 40 and 
+    # the most recent data for "today" in 50.
     days = 1
     current_timestamp = int(time.time())
 
     # Set the first partition to expire in PARTITION_EXPIRY_TIME seconds.
     # Set subsequent partitions to expire PARTITION_EXPIRY_TIME seconds later
-    # that the prior partition.
+    # than the prior partition.
     for stream_key_name in stream_key_names:
         partition_expires_at = current_timestamp + (days * PARTITION_EXPIRY_TIME)
         print(f"{stream_key_name} expires at {partition_expires_at}")
