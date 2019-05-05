@@ -102,6 +102,7 @@ def main():
         if (stream_key != previous_stream_key):
             # A new day's stream started.
             stream_key_names.append(stream_key)
+            
             print(f"Populating stream partition {stream_key}.")
             previous_stream_key = stream_key            
 
@@ -114,7 +115,9 @@ def main():
     # creating 5 stream partitions, the oldest date data 
     # will expire in 10 minutes from when the producer finishes
     # executing, the 2nd in 20, the 3rd in 30, the 4th in 40 and 
-    # the most recent data for "today" in 50.
+    # the most recent data for "today" in 50.  In a real world 
+    # application we would set expiry as we finish writing a day's
+    # stream.
     days = 1
     current_timestamp = int(time.time())
 
