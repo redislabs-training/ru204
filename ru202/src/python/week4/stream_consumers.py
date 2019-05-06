@@ -22,6 +22,20 @@ def log(prefix, message):
     else:
         print(f"{prefix}: {message}")
 
+# Reset the stored consumer states and averages stream.
+def reset_state():
+    redis = get_connection()
+
+    keys_to_delete = []
+
+    # Delete the keys used by the consumers to hold state.
+    keys_to_delete.append(const.AGGREGATING_CONSUMER_STATE_KEY)
+    keys_to_delete.append(const.AVERAGES_CONSUMER_STATE_KEY)
+    keys_to_delete.append(const.AVERAGES_STREAM_KEY)
+    
+    keys_deleted = redis.delete(*keys_to_delete)
+    print(f"Deleted {const.AVERAGES_STREAM_KEY} stream and consumer state keys.")
+
 # The aggregating consumer function: walks through a 
 # time partitioned stream reading temperature values
 # and computing hourly average temperature for each
@@ -203,6 +217,10 @@ def main():
         if not current_stream_key.startswith(const.STREAM_KEY_BASE):
             print("Invalid stream key supplied.")
             sys.exit(1)
+
+        # When starting for first time, clear any prior saved state
+        # and remove the temps:averages stream.
+        reset_state()
     else:
         # Load aggregator consumer saved state from Redis.
         redis = get_connection()
