@@ -107,8 +107,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                     "num_observations": current_hourly_count
                 }
 
-                # Trim the stream to a maximum 48 entries.
-                redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 48, approximate = False)
+                # Trim the stream to around 120 entries.
+                redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 120, approximate = True)
 
                 # Reset values and put the current message's temperature
                 # into the new hour.
