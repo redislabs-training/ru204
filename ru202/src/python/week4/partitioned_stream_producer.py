@@ -1,5 +1,19 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
+#
+# Simulates a temperature logging device that 
+# continuously outputs new temperature readings, and
+# pushes them into a date-partitioned set of streams 
+# in Redis.  A new stream is created for each new 
+# day, and set to expire a few days after creation
+# to ensure that memory usage is managed.
+#
+# The producer starts at a configurable date and 
+# generates readings for a configurable number of days 
+# at a configurable interval.  By default it starts
+# on January 1st 2025, generating 10 days worth of 
+# data at 1 second intervals.
+
 import json
 import os
 import random

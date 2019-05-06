@@ -1,5 +1,29 @@
 # Use Case: Partitioned Stream Example with Python
 # Usage: Part of Redis University RU202 courseware
+#
+# Defines two consumer processes as follows:
+#
+# Aggregating Consumer - attaches to a date-partitioned 
+# stream of temperature data produced by the producer 
+# process (see partitioned_stream_producer.py).  Reads 
+# each message from the stream, building up an hourly 
+# average temperature for each hour which it then 
+# publishes to a length-capped stream named 
+# temps:averages. 
+# 
+# Contains logic to switch to the next stream in the 
+# date-partitioned sequence of streams when it has 
+# exhausted its initial one.  Uses a Redis hash to 
+# persist the last message ID that it read from the
+# stream plus other work in progress values for crash 
+# recovery purposes. 
+#
+# Averages Consumer - attaches to the temps:averages 
+# stream and simply logs out values for any messages
+# that appear there.  Uses a Redis hash to persist 
+# the last message ID that it read from the stream
+# for crash recovery purposes. 
+
 import json
 import os
 import random
