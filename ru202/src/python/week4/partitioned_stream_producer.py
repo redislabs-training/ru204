@@ -12,7 +12,8 @@ from util.connection import get_connection
 # We'll make partitions expire 10 mins apart from
 # each other for demo purposes, for a real application
 # they might expire after a few days.
-PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
+#PARTITION_EXPIRY_TIME = 60 * 10 # 10 minutes
+PARTITION_EXPIRY_TIME = 60 * 60 * 4 # 4 hours
 
 # Record temperature readings every second.
 TEMPERATURE_READING_INTERVAL = 1
@@ -26,7 +27,7 @@ TEMPERATURE_READING_INTERVAL = 1
 TIMESTAMP_START = 1735689600 # 01/01/2025 00:00:00 UTC
 
 # Number of days of data to generate.
-DAYS_TO_GENERATE = 5 # change to 30
+DAYS_TO_GENERATE = 10
 
 ONE_DAY_SECONDS = 60 * 60 * 24
 
@@ -47,8 +48,7 @@ class Measurement:
         return {'temp_f': self.current_temp}
 
 # To make this demonstration repeatable, running 
-# the producer resets all the streams and stored 
-# state keys used by the producer and consumers. 
+# the producer resets all the streams. 
 def reset_state():
     redis = get_connection()
 
@@ -66,7 +66,7 @@ def reset_state():
     keys_to_delete.append(const.AVERAGES_STREAM_KEY)
     
     keys_deleted = redis.delete(*keys_to_delete)
-    print("Deleted old streams and consumer keys.")
+    print("Deleted old streams.")
 
 # Entry point: clean up any old state and run the
 # producer.
