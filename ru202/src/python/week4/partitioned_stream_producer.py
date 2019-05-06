@@ -16,7 +16,7 @@ ONE_DAY_SECONDS = 60 * 60 * 24
 PARTITION_EXPIRY_TIME = ONE_DAY_SECONDS * 2
 
 # Record temperature readings every second.
-TEMPERATURE_READING_INTERVAL = 1
+TEMPERATURE_READING_INTERVAL_SECONDS = 1
 
 # Date that we'll start recording temperatures for - 
 # using a future date so that all students get the
@@ -54,17 +54,14 @@ def reset_state():
     keys_to_delete = []
     stream_timestamp = TIMESTAMP_START
 
+    print("Deleting old streams:")
     for day in range(DAYS_TO_GENERATE):
-        keys_to_delete.append(f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}")
+        stream_key_name = f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(stream_timestamp).strftime('%Y%m%d')}"
+        print(stream_key_name)
+        keys_to_delete.append(stream_key_name)
         stream_timestamp += ONE_DAY_SECONDS
         
-    # Delete the keys used by the consumers to hold state.
-    keys_to_delete.append(const.AGGREGATING_CONSUMER_STATE_KEY)
-    keys_to_delete.append(const.AVERAGES_CONSUMER_STATE_KEY)
-    keys_to_delete.append(const.AVERAGES_STREAM_KEY)
-    
     keys_deleted = redis.delete(*keys_to_delete)
-    print("Deleted old streams.")
 
 # Set the expiry time for a stream partition.
 def set_expiry(stream_key, expire_at_timestamp):
@@ -117,7 +114,7 @@ def main():
             previous_stream_key = stream_key            
 
         # Move on to the next timestamp value.
-        current_timestamp += TEMPERATURE_READING_INTERVAL
+        current_timestamp += TEMPERATURE_READING_INTERVAL_SECONDS
     
     # Set expiry time on the last partition written
     set_expiry(stream_key, current_timestamp + PARTITION_EXPIRY_TIME)

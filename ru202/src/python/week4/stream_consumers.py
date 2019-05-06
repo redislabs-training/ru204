@@ -36,12 +36,10 @@ def reset_state():
     keys_deleted = redis.delete(*keys_to_delete)
     print(f"Deleted {const.AVERAGES_STREAM_KEY} stream and consumer state keys.")
 
-# The aggregating consumer function: walks through a 
-# time partitioned stream reading temperature values
-# and computing hourly average temperature for each
-# hour of data.  Those values are then published on 
-# a capped length stream for the averages consumer
-# function to read.
+# Walks through a time-partitioned stream reading temperature values
+# and computing hourly average temperature for each hour of data.  
+# Those values are then published on a capped-length stream for the 
+# "averages" consumer process to read.
 def aggregating_consumer_func(current_stream_key, last_message_id, current_hourly_total, current_hourly_count):
     log(AGGREGATING_CONSUMER_PREFIX, f"Starting aggregating consumer in stream {current_stream_key} at message {last_message_id}.")
 
@@ -66,9 +64,9 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             new_stream_date = current_stream_date + timedelta(days = 1)
             new_stream_key = f"{const.STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
 
-            # Does the next partition exist?  If so read from it otherwise
-            # stick with this stream which will block as we are at the 
-            # latest partition now.
+            # Does the next partition exist?  If so, read from it; 
+            # otherwise stick with this stream which will block as we 
+            # are at the latest partition now.
             if (redis.exists(new_stream_key) == 1):
                 # We are still catching up and have not reached
                 # the latest stream partition yet, so move on to
@@ -101,7 +99,6 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
 
             # Get the hour for the last message
             last_message_hour = 0
-
             if "-" in last_message_id:
                 last_message_timestamp = last_message_id.split("-")[0]
                 last_message_date = datetime.utcfromtimestamp(int(last_message_timestamp))
@@ -121,7 +118,8 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                     "num_observations": current_hourly_count
                 }
 
-                # Trim the stream to around 120 entries.
+                # Publish the hourly average value to the temps:averages stream 
+                # and trim the stream's length to around 120 entries.
                 redis.xadd(const.AVERAGES_STREAM_KEY, payload, "*", maxlen = 120, approximate = True)
 
                 # Reset values and put the current message's temperature
@@ -137,7 +135,10 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             last_message_id = msg_id
             
             # Store current state in Redis in case we crash and 
-            # have to resume.
+            # have to resume.  Here we are storing this every 
+            # time we read a message, depending on the nature of 
+            # your workload you may be able to update it less
+            # frequently, for example after reading 100 messages. 
             redis.hmset(const.AGGREGATING_CONSUMER_STATE_KEY, {
                 "current_stream_key": current_stream_key,
                 "last_message_id": last_message_id,
