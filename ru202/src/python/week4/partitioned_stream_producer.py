@@ -116,7 +116,9 @@ def main():
         # or update expiry time on the stream partition.
         # This is done as a pipeline so that both commands are 
         # executed with a single round trip to the Redis Server 
-        # for performance reasons.
+        # for performance reasons.  An alternative strategy might 
+        # be to only update the expiry time every 100th message 
+        # or similar.
         # Pipeline: https://redis.io/topics/pipelining
         pipe = redis.pipeline()
         pipe.xadd(stream_key, entry, current_timestamp)
