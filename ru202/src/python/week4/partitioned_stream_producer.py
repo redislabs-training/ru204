@@ -77,14 +77,19 @@ def reset_state():
         
     keys_deleted = redis.delete(*keys_to_delete)
 
+# Return a string containing the UTC date for 
+# the supplied timestamp in the format specified by
+# format_pattern.  See http://strftime.org/
+def format_timestamp_as_utc(timestamp, format_pattern):
+    return datetime.utcfromtimestamp(timestamp).strftime(format_pattern)
+
 # Set the expiry time for a stream partition.
 def set_expiry(stream_key, expire_at_timestamp):
     redis = get_connection()
     redis.expireat(stream_key, expire_at_timestamp)
-    print(f"{stream_key} expires at {datetime.utcfromtimestamp(expire_at_timestamp).strftime('%m/%d/%Y %H:%M:%S')}")
+    print(f"{stream_key} expires at {format_timestamp_as_utc(expire_at_timestamp, '%m/%d/%Y %H:%M:%S')}")
 
-# Entry point: clean up any old state and run the
-# producer.
+# Entry point: clean up any old state and run the producer.
 def main():
     reset_state()
 
@@ -106,7 +111,7 @@ def main():
         # Calculate the key for the current stream partition.
         # Using one partition per calendar day.  All dates and 
         # times are in UTC.
-        stream_key = f"{const.STREAM_KEY_BASE}:{datetime.utcfromtimestamp(current_timestamp).strftime('%Y%m%d')}"
+        stream_key = f"{const.STREAM_KEY_BASE}:{format_timestamp_as_utc(current_timestamp, '%Y%m%d')}"
         
         # Get a temperature reading.
         entry = measurement.get_next()
