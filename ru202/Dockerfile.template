@@ -30,6 +30,10 @@ ADD src/python/intro/producer.py       /src/redisu/ru202/src/python/intro/produc
 ADD src/python/intro/consumer-average.py /src/redisu/ru202/src/python/intro/consumer-average.py
 ADD src/python/intro/run-consumers.sh /src/redisu/ru202/src/python/intro/run-consumers.sh
 ADD src/python/intro/stop-consumers.sh /src/redisu/ru202/src/python/intro/stop-consumers.sh
+ADD src/python/week4/partitioned_stream_producer.py	/src/redisu/ru202/src/python/week4/partitioned_stream_producer.py
+ADD src/python/week4/stream_consumers.py	/src/redisu/ru202/src/python/week4/stream_consumers.py
+ADD src/python/week4/util/connection.py	/src/redisu/ru202/src/python/week4/util/connection.py
+ADD src/python/week4/util/constants.py	/src/redisu/ru202/src/python/week4/util/constants.py
 
 RUN chown -R student:student /src/redisu
 
