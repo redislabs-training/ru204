@@ -132,8 +132,5 @@ def main():
         # Move on to the next timestamp value.
         current_timestamp += TEMPERATURE_READING_INTERVAL_SECONDS
     
-    # Set expiry time on the last partition written
-    #set_expiry(stream_key, current_timestamp + PARTITION_EXPIRY_TIME)
-
 if __name__ == "__main__":
     main()
