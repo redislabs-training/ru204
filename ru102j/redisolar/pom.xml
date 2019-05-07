@@ -56,6 +56,10 @@
             <artifactId>dropwizard-testing</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.liveperson</groupId>
+            <artifactId>dropwizard-websockets</artifactId>
+        </dependency>
+        <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>3.1.0-m1</version>

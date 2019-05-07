@@ -4,6 +4,7 @@ import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.MetricUnit;
 import com.redislabs.university.RU102J.core.KeyHelper;
 
+import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 
 /**
@@ -27,14 +28,26 @@ public class RedisSchema {
         return KeyHelper.getKey("sites:capacity:ranking");
     }
 
-    // sites:efficiency:ranking
-    public static String getEfficiencyRankingKey() {
-        return KeyHelper.getKey("sites:efficiency:ranking");
-    }
-
     // sites:capacity:sample:[siteId]
     public static String getCapacitySampleKey(long siteId) {
         return KeyHelper.getKey("sites:capacity:sample:" + siteId);
+    }
+
+    /* The key for these metrics is as follows:
+     * metric:[unit-name]:[year-month]:[site-id]
+     */
+    public static String getMonthMetricKey(Long siteId, MetricUnit unit,
+                                           ZonedDateTime dateTime) {
+        StringBuilder builder = new StringBuilder();
+        return builder.append(KeyHelper.getPrefix())
+                .append(":metric:")
+                .append(unit.getShortName())
+                .append(":")
+                .append(getYearMonth(dateTime))
+                .append(":")
+                .append(String.valueOf(siteId))
+                .toString();
+
     }
 
     /* The key for these metrics is as follows:
@@ -44,8 +57,7 @@ public class RedisSchema {
                                          ZonedDateTime dateTime) {
         StringBuilder builder = new StringBuilder();
         return builder.append(KeyHelper.getPrefix())
-                .append(":")
-                .append("metric:")
+                .append(":metric:")
                 .append(unit.getShortName())
                 .append(":")
                 .append(getYearMonthDay(dateTime))

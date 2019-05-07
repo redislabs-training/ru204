@@ -5,6 +5,7 @@ import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.MetricUnit;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Tuple;
 
 import java.text.DecimalFormat;
@@ -12,10 +13,18 @@ import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.util.*;
 
-// Stores one measurement per minute for a given day in a Redis hash.
+/**
+ * Retain metrics using Redis sorted sets.
+ *
+ * In this implementation, we use one sorted set per day for
+ * up to 'maxMetricRetentionDays' days. Old sorted sets are expired
+ * after this number of days.
+ *
+ */
 public class MetricDaoRedisZsetImpl implements MetricDao {
-    private final Integer maxMinuteLevelMetricsRequestDays = 14;
+    private final Integer maxMetricRetentionDays = 30;
     private final Integer metricsPerDay = 60 * 24;
+    private final Integer metricExpirationSeconds = 60 * 60 * 24 * maxMetricRetentionDays + 1;
     private final JedisPool jedisPool;
 
     public MetricDaoRedisZsetImpl(JedisPool jedisPool) {
@@ -38,7 +47,11 @@ public class MetricDaoRedisZsetImpl implements MetricDao {
                               ZonedDateTime dateTime) {
            String metricKey = RedisSchema.getDayMetricKey(siteId, unit, dateTime);
            Integer minuteOfDay = getMinuteOfDay(dateTime);
-           jedis.zadd(metricKey, minuteOfDay, new MeasurementMinute(value, minuteOfDay).toString());
+
+           Pipeline pipeline = jedis.pipelined();
+           pipeline.zadd(metricKey, minuteOfDay, new MeasurementMinute(value, minuteOfDay).toString());
+           pipeline.expire(metricKey, metricExpirationSeconds);
+           pipeline.exec();
     }
 
     /**
@@ -46,7 +59,7 @@ public class MetricDaoRedisZsetImpl implements MetricDao {
      */
     @Override
     public List<Measurement> getRecent(Long siteId, MetricUnit unit, ZonedDateTime time, Integer limit) {
-        if (limit > metricsPerDay * maxMinuteLevelMetricsRequestDays) {
+        if (limit > metricsPerDay * maxMetricRetentionDays) {
             throw new IllegalArgumentException("Cannot request more than two weeks of " +
                     "minute-level data");
         }
