@@ -71,6 +71,35 @@ def get_next_stream_partition_key_name(current_stream_key):
     new_stream_date = current_stream_date + timedelta(days = 1)
     return  f"{const.STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
 
+# Gets the payload from the first message in a response 
+# from an XREAD call.
+#
+# The response looks like this:
+#
+# [['temps:20250101', [('1735691830-0', {'temp_f': '79'})]]]
+#
+# Because XREAD can return values from multiple streams, 
+# the outer list has one entry for each stream.  We want the 
+# first of these (response[0]), as we are only working 
+# with a single stream so our result will always be in the first 
+# stream's response.
+#
+# Inside that we have another list, whose members each contain
+# a stream name in the 1st element and a list of messages 
+# returned for that stream in the 2nd.  To get the messages, we 
+# need response[0][1].
+#
+# In this application we only ever request messages in a 
+# batch size of 1, so the first message will be the first item 
+# in the list hence response[0][1][0].
+#
+# The structure that is returned is a tuple with the first 
+# element being the message ID, and the second being the dict 
+# representing the message payload hash:
+#
+# ('1735691830-0', {'temp_f': '79'})
+def get_message_from_response(response):
+    return response[0][1][0]
 
 # Walks through a time-partitioned stream reading temperature values
 # and computing hourly average temperature for each hour of data.  
@@ -114,7 +143,7 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
                 log(AGGREGATING_CONSUMER_PREFIX, f"Waiting for new messages in stream {current_stream_key}, or new stream partition.")      
         else:
             # Read the response that we got from Redis
-            msg = response[0][1][0]
+            msg = get_message_from_response(response)
 
             # Get the ID of the message that was just read.
             msg_id = msg[0]
@@ -201,7 +230,7 @@ def averages_consumer_func():
         response = redis.xread(streamDict, count = 1, block = 5000)    
 
         if response:
-            msg = response[0][1][0]
+            msg = get_message_from_response(response)
 
             # Get the ID of the message that was just read.
             msg_id = msg[0]   
