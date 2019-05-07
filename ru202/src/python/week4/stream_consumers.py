@@ -60,6 +60,18 @@ def reset_state():
     keys_deleted = redis.delete(*keys_to_delete)
     print(f"Deleted {const.AVERAGES_STREAM_KEY} stream and consumer state keys.")
 
+# Given the name of a stream partition key, work out 
+# the name of the stream partition that is one day 
+# newer than it (the next partition).
+#
+# Example: given temps:20250101 return temps:20250102
+def get_next_stream_partition_key_name(current_stream_key):
+    current_stream_date_str = current_stream_key[-8:]
+    current_stream_date = datetime.strptime(current_stream_date_str, "%Y%m%d").date()
+    new_stream_date = current_stream_date + timedelta(days = 1)
+    return  f"{const.STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
+
+
 # Walks through a time-partitioned stream reading temperature values
 # and computing hourly average temperature for each hour of data.  
 # Those values are then published on a capped-length stream for the 
@@ -81,12 +93,9 @@ def aggregating_consumer_func(current_stream_key, last_message_id, current_hourl
             # or wait for more messages to appear on the one we are 
             # on if no newer partitions exist.
 
-            # Work out the name of the stream partition that is one
-            # day newer than the current one.
-            current_stream_date_str = current_stream_key[-8:]
-            current_stream_date = datetime.strptime(current_stream_date_str, "%Y%m%d").date()
-            new_stream_date = current_stream_date + timedelta(days = 1)
-            new_stream_key = f"{const.STREAM_KEY_BASE}:{new_stream_date.strftime('%Y%m%d')}"
+            # Get the name of the next stream partition to process 
+            # (one day later than the partition currently being processed).
+            new_stream_key = get_next_stream_partition_key_name(current_stream_key)
 
             # Does the next partition exist?  If so, read from it; 
             # otherwise stick with this stream which will block as we 
