@@ -89,12 +89,6 @@ def format_timestamp_as_utc(timestamp, format_pattern):
 def get_stream_key_for_timestamp(timestamp):
     return f"{const.STREAM_KEY_BASE}:{format_timestamp_as_utc(timestamp, '%Y%m%d')}"
 
-# Set the expiry time for a stream partition.
-def set_expiry(stream_key, expire_at_timestamp):
-    redis = get_connection()
-    redis.expireat(stream_key, expire_at_timestamp)
-    print(f"{stream_key} expires at {format_timestamp_as_utc(expire_at_timestamp, '%m/%d/%Y %H:%M:%S')}")
-
 # Entry point: clean up any old state and run the producer.
 def main():
     reset_state()
@@ -105,9 +99,6 @@ def main():
 
     # End data production a configurable number of days after we began.
     end_timestamp = TIMESTAMP_START + (ONE_DAY_SECONDS * DAYS_TO_GENERATE)
-
-    # Track the stream key names that were generated
-    stream_key_names = []
 
     redis = get_connection()
 
@@ -121,19 +112,20 @@ def main():
         # Get a temperature reading.
         entry = measurement.get_next()
         
-        # Publish to the stream.
-        redis.xadd(stream_key, entry, current_timestamp)
+        # Publish to the current stream partition and set 
+        # or update expiry time on the stream partition.
+        # This is done as a pipeline so that both commands are 
+        # executed with a single round trip to the Redis Server 
+        # for performance reasons.
+        # Pipeline: https://redis.io/topics/pipelining
+        pipe = redis.pipeline()
+        pipe.xadd(stream_key, entry, current_timestamp)
+        pipe.expireat(stream_key, current_timestamp + PARTITION_EXPIRY_TIME)
+        pipe.execute()
 
         # Have we started a new stream?
         if (stream_key != previous_stream_key):
             # A new day's stream started.
-            stream_key_names.append(stream_key)
-
-            # Set expiry time on the partition we just finished writing.
-            if previous_stream_key != "":
-                set_expiry(previous_stream_key, current_timestamp + PARTITION_EXPIRY_TIME)
-
-            # Now writing to a new partition.
             print(f"Populating stream partition {stream_key}.")
             previous_stream_key = stream_key            
 
@@ -141,7 +133,7 @@ def main():
         current_timestamp += TEMPERATURE_READING_INTERVAL_SECONDS
     
     # Set expiry time on the last partition written
-    set_expiry(stream_key, current_timestamp + PARTITION_EXPIRY_TIME)
+    #set_expiry(stream_key, current_timestamp + PARTITION_EXPIRY_TIME)
 
 if __name__ == "__main__":
     main()
