@@ -57,7 +57,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #0 Part 1. This challenge is explained in
-     * Chapter 1.9: How to Solve a Sample Challenge
+     * the video "How to Solve a Sample Challenge"
      */
     @Test
     public void findByIdWithExistingSite() {
@@ -71,7 +71,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #0 Part 2. This challenge is explained in
-     * Chapter 1.9: How to Solve a Sample Challenge
+     * the video "How to Solve a Sample Challenge"
      */
     @Test
     public void findByIdWithMissingSite() {

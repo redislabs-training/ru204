@@ -22,7 +22,8 @@ public class FeedDaoRedisImpl implements FeedDao {
     public void insert(MeterReading meterReading) {
         try(Jedis jedis = jedisPool.getResource()) {
             String key = RedisSchema.getFeedKey();
-            jedis.xadd(key, StreamEntryID.NEW_ENTRY, meterReading.toMap(), maxFeedLength, true);
+            jedis.xadd(key, StreamEntryID.NEW_ENTRY, meterReading.toMap(), maxFeedLength,
+                    true);
         }
     }
 

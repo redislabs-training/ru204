@@ -53,7 +53,7 @@ public class LoadCommand extends Command {
         DataLoader loader = new DataLoader(jedisPool);
         Boolean flush = (Boolean)namespace.get("flush");
         if (flush) {
-            loader.flush();
+
         }
         loader.load();
         SampleDataGenerator generator = new SampleDataGenerator(jedisPool);

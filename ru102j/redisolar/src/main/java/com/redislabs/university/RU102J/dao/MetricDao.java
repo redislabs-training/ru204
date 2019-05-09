@@ -8,6 +8,6 @@ import java.time.ZonedDateTime;
 import java.util.List;
 
 public interface MetricDao {
-    public void insert(MeterReading reading);
-    public List<Measurement> getRecent(Long siteId, MetricUnit unit, ZonedDateTime time, Integer limit);
+    void insert(MeterReading reading);
+    List<Measurement> getRecent(Long siteId, MetricUnit unit, ZonedDateTime time, Integer limit);
 }

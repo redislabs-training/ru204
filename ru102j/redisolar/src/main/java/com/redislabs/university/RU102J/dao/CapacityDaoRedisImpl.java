@@ -34,16 +34,16 @@ public class CapacityDaoRedisImpl implements CapacityDao {
     @Override
     public CapacityReport getReport(Integer limit) {
         CapacityReport report;
-        String capacityKey = RedisSchema.getCapacityRankingKey();
+        String key = RedisSchema.getCapacityRankingKey();
         try (Jedis jedis = jedisPool.getResource()) {
-            Set<Tuple> lowCapacity = jedis.zrangeWithScores(capacityKey, 0, limit);
-            Set<Tuple> highCapacity = jedis.zrevrangeWithScores(capacityKey, 0, limit);
+            Set<Tuple> lowCapacity = jedis.zrangeWithScores(key, 0, limit);
+            Set<Tuple> highCapacity = jedis.zrevrangeWithScores(key, 0, limit);
             List<SiteCapacityTuple> lowCapacityList = lowCapacity.stream()
-                    .map(s -> new SiteCapacityTuple(s))
+                    .map(SiteCapacityTuple::new)
                     .collect(Collectors.toList());
 
             List<SiteCapacityTuple> highCapacityList = highCapacity.stream()
-                    .map(s -> new SiteCapacityTuple(s))
+                    .map(SiteCapacityTuple::new)
                     .collect(Collectors.toList());
 
             report = new CapacityReport(highCapacityList, lowCapacityList);

@@ -51,7 +51,7 @@ public class MetricDaoRedisZsetImpl implements MetricDao {
            Pipeline pipeline = jedis.pipelined();
            pipeline.zadd(metricKey, minuteOfDay, new MeasurementMinute(value, minuteOfDay).toString());
            pipeline.expire(metricKey, metricExpirationSeconds);
-           pipeline.exec();
+           pipeline.sync();
     }
 
     /**

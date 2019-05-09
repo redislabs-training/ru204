@@ -11,8 +11,10 @@ import static org.hamcrest.Matchers.is;
 
 public class JedisBasicsTest {
 
-    public static String[] testPlanets = { "Mercury", "Mercury", "Venus", "Earth", "Earth", "Mars",
-            "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto" };
+    public static String[] testPlanets = { "Mercury", "Mercury", "Venus",
+            "Earth", "Earth", "Mars",
+            "Jupiter", "Saturn", "Uranus",
+            "Neptune", "Pluto" };
 
     private Jedis jedis;
 
@@ -70,6 +72,7 @@ public class JedisBasicsTest {
         assertThat(length, is(9L));
 
         // Fetch all values from the set
+        // Note: O(n) operation
         Set<String> planets = jedis.smembers("planets");
 
         // Ensure that a HashSet created and stored in Java memory and the set stored
@@ -99,7 +102,7 @@ public class JedisBasicsTest {
             jedis.hset("earth", property.getKey(), property.getValue());
         }
 
-        // Get the hash we just build from Redis.
+        // Get the hash we just created back from Redis.
         Map<String, String> storedProperties = jedis.hgetAll("earth");
         assertThat(storedProperties, is(earthProperties));
 
