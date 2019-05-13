@@ -41,6 +41,10 @@ def main():
     stream_offsets = {stream_key: ">"}
     window = deque([])
 
+    if not redis.exists(stream_key):
+        print(f"Stream {stream_key} does not exist.  Try running the producer first.")
+        exit(0)
+
     try:
         redis.xgroup_create(stream_key, group_name)
     except ResponseError:
@@ -49,8 +53,11 @@ def main():
     while True:
         results = redis.xreadgroup(group_name, consumer_name,
             stream_offsets, None, block_ms)
-        print_yellow("Processing: " + json.dumps(results))
-        print_yellow("Rolling Average: " + str(get_rolling_average(results, window)))
+
+        if len(results) > 0:
+            print_yellow("Processing: " + json.dumps(results))
+            print_yellow("Rolling Average: " + str(get_rolling_average(results, window)))
+        
         time.sleep(1)
 
 
