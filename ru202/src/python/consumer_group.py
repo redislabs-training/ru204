@@ -8,7 +8,7 @@ from util.connection import get_connection
 
 KEY = 'numbers'
 GROUP = 'primes'
-MEMBERS = 1
+MEMBERS = 3
 
 def prime(a):
     '''
