@@ -8,7 +8,7 @@ from util.connection import get_connection
 
 KEY = 'numbers'
 GROUP = 'primes'
-MEMBERS = 3
+MEMBERS = 1
 
 def prime(a):
     '''
@@ -58,16 +58,24 @@ def consumer_func(name):
         retries = 0
 
         if recovery:
-            # Verify there are messages to recover
-            for _, messages in reply:
-                if messages:
-                    print(f'{name}: Recovering pending messages...')
-                    break
+            # Verify there are messages to recover, get the first member of the
+            # list "reply".  This contains a the name of the stream that the response
+            # is for as its first member, and the list of pending messages if any 
+            # as its second.  Look at the length of that second list to see if there
+            # are any pending messages, in which case the list length will be > 0
+            #
+            # Example contents for "reply":
+            #
+            # [['numbers', [('1557775037438-0', {'n': '8'})]]]
 
-            # If there are no messages to recover, switch to fetching new messages
-            recovery = False
-            from_id = '>'
-            continue
+            if len(reply[0][1]) > 0:
+                print(f'{name}: Recovering pending messages...')
+            else:
+                # If there are no messages to recover, switch to fetching new messages
+                # and call xreadgroup again.
+                recovery = False
+                from_id = '>'
+                continue
 
         # Process the messages
         for _, messages in reply:
