@@ -58,16 +58,18 @@ def consumer_func(name):
         retries = 0
 
         if recovery:
-            # Verify there are messages to recover, get the first member of the
-            # list "reply".  This contains a the name of the stream that the response
-            # is for as its first member, and the list of pending messages if any 
-            # as its second.  Look at the length of that second list to see if there
-            # are any pending messages, in which case the list length will be > 0
+            # Verify that there are messages to recover. The zeroth member of the 
+            # reply contains the following:
             #
+            # At element 0: the name of the stream
+            #
+            # At element 1: a list of pending messages, if any.
+            #
+            # If there are messages, we recover them.
+            #           
             # Example contents for "reply":
             #
             # [['numbers', [('1557775037438-0', {'n': '8'})]]]
-
             if len(reply[0][1]) > 0:
                 print(f'{name}: Recovering pending messages...')
             else:
