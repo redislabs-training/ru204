@@ -75,7 +75,7 @@ def reset_state():
         keys_to_delete.append(stream_key_name)
         stream_timestamp += ONE_DAY_SECONDS
         
-    keys_deleted = redis.delete(*keys_to_delete)
+    redis.delete(*keys_to_delete)
 
 # Return a string containing the UTC date for 
 # the supplied timestamp in the format specified by

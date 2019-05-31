@@ -57,7 +57,7 @@ def reset_state():
     keys_to_delete.append(const.AVERAGES_CONSUMER_STATE_KEY)
     keys_to_delete.append(const.AVERAGES_STREAM_KEY)
     
-    keys_deleted = redis.delete(*keys_to_delete)
+    redis.delete(*keys_to_delete)
     print(f"Deleted {const.AVERAGES_STREAM_KEY} stream and consumer state keys.")
 
 # Given the name of a stream partition key, work out 
