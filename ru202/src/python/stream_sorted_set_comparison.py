@@ -18,10 +18,10 @@ def producer(numToProduce):
     for n in range(1, numToProduce + 1):
         message = f'hello{n}'
 
-        # Add to stream, h here is the identifier.
+        # Add to stream. n here is the identifier.
         redis.xadd(STREAM_KEY, {'m': message}, n)
 
-        # Add to sorted set, n here is the score.
+        # Add to sorted set. n here is the score.
         redis.zadd(SORTED_SET_KEY, {message: n})
 
 def memoryUsage():
