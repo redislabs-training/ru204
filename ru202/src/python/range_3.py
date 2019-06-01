@@ -43,3 +43,4 @@ if __name__ == '__main__':
         last_id = decr_id(last_id)
 
     print(f'The sum of the last {n_count} Natural Numbers in the Stream is {n_sum}')
+    
