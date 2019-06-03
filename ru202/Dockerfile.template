@@ -34,6 +34,7 @@ ADD src/python/week4/partitioned_stream_producer.py	/src/redisu/ru202/src/python
 ADD src/python/week4/stream_consumers.py	/src/redisu/ru202/src/python/week4/stream_consumers.py
 ADD src/python/week4/util/connection.py	/src/redisu/ru202/src/python/week4/util/connection.py
 ADD src/python/week4/util/constants.py	/src/redisu/ru202/src/python/week4/util/constants.py
+ADD src/python/stream_sorted_set_comparison.py /src/redisu/ru202/src/python/stream_sorted_set_comparison.py
 
 RUN chown -R student:student /src/redisu
 
