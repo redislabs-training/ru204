@@ -1,4 +1,5 @@
-const Analytics = require('analytics-node')
+//const Analytics = require('analytics-node')
+const request = require('request')
 
 const processCourseEnrollment = (event, callback) => {
     console.log('Processing a course enrollment event.')
@@ -34,26 +35,51 @@ const processRedisUCourseEnrollment = (event, callback) => {
 }
 
 const writeToSegment = (event, writeKey, callback) => {
+    // Clean up problematic fields.
+    delete event.writeKey // Leaving this here causes Segment to ignore the Authorization header!
+
     console.log('Writing event to Segment:')
     console.log(event)
+
+    const encodedCredentials = Buffer.from(`${writeKey}:`).toString('base64')
+
+    request({
+        url: 'https://api.segment.io/v1/track',
+        headers: {
+            Authorization: `Basic ${encodedCredentials}`,
+            'cache-control': 'no-cache',
+            'Content-Type': 'application/json'
+        },
+        body: event,
+        json: true,
+        method: 'POST'
+    }, (err, response, body) => {
+        if (! response || response.statusCode !== 200 || err) {
+            throw err
+        } else {
+            console.log('Posted to Segment, response body:')
+            console.log(body)
+            respondOK(callback)
+        }
+    })
 
     // Segment recommend flushAt: 1 for development, but 
     // as we are using Lambda functions it should stay here
     // all the time because 
-    const segmentClient = new Analytics(writeKey, { flushAt: 1, flushInterval: .000000000001 })
-    segmentClient.track(event)
-    segmentClient.flush((err) => {
-        if (err) {
-            console.log('Error posting to Segment:')
-            console.log(err)
-            if (callback) {
-                callback(err)
-            }
-        } else {
-            console.log(`Posted to Segment.`)
-            respondOK(callback)
-        }
-    })
+    // const segmentClient = new Analytics(writeKey, { flushAt: 1, flushInterval: .000000000001 })
+    // segmentClient.track(event)
+    // segmentClient.flush((err) => {
+    //     if (err) {
+    //         console.log('Error posting to Segment:')
+    //         console.log(err)
+    //         if (callback) {
+    //             callback(err)
+    //         }
+    //     } else {
+    //         console.log(`Posted to Segment.`)
+    //         respondOK(callback)
+    //     }
+    // })
 }
 
 const respondOK = callback => {
@@ -63,7 +89,7 @@ const respondOK = callback => {
     })
 }
 
-exports.handler = async (event, context, callback) => {
+exports.handler = (event, context, callback) => {
     if (event && event.event) {
         switch (event.event) {
             case 'edx.course.enrollment.activated':
