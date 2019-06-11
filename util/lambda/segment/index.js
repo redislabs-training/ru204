@@ -30,11 +30,27 @@ const processCertificateCreated = (event, callback) => {
 
 const processProblemCheck = (event, callback) => {
     console.log('Processing a problem check event.')
-    // Problematic columns 
-    respondOK(callback)
+    console.log(event)
+
+    const eventProps = event.properties
+    
+    // TODO Fix problematic object key names
+
+    // Generate a redisu.problem_check event...
+    writeToSegment({
+        userId: event.userId,
+        event: 'redisu.problem_check',  // was problem_check
+        properties: eventProps
+    }, process.env.SEGMENT_WRITE_KEY, callback)
 }
 
 const processRedisUCourseEnrollment = (event, callback) => {
+    console.log(`Received a "${event.event}" event:`)
+    console.log(event)
+    respondOK(callback)
+}
+
+const processRedisUProblemCheck = (event, callback) => {
     console.log(`Received a "${event.event}" event:`)
     console.log(event)
     respondOK(callback)
@@ -110,6 +126,10 @@ exports.handler = (event, context, callback) => {
             // Temporary while we prove this out...
             case 'redisu.course.enrollment.activated':
                 processRedisUCourseEnrollment(event, callback)
+                break
+            // Temporary while we prove this out...
+            case 'redisu.problem_check':
+                processRedisUProblemCheck(event, callback)
                 break
             default:
                 console.log(`Unknown event: ${event.event}`)
