@@ -3,18 +3,24 @@ const request = require('request')
 
 const processCourseEnrollment = (event, callback) => {
     console.log('Processing a course enrollment event.')
-    if (event.properties.context && event.properties.context.referer) {      
-        writeToSegment({
-            userId: event.userId,
-            event: 'redisu.course.enrollment.activated', // was edx.course.enrollment.activated
-            properties: {
-                referer: event.properties.context.referer,
-                ...event.properties
-            }
-        }, process.env.SEGMENT_WRITE_KEY, callback)
+    let eventProps = {}
+
+    if (event.properties.context && event.properties.context.referer) {   
+        // Refactor to add referer at the top level.
+        eventProps = {
+            referer: event.properties.context.referer,
+            ...event.properties
+        }
     } else {
-        throw 'event.properties.context.referer is required'
+        // Make sure events get through so send it anyway...
+        eventProps = event.properties
     }
+
+    writeToSegment({
+        userId: event.userId,
+        event: 'redisu.course.enrollment.activated',  // was edx.course.enrollment.activated
+        properties: eventProps
+    }, process.env.SEGMENT_WRITE_KEY, callback)
 }
 
 const processCertificateCreated = (event, callback) => {
