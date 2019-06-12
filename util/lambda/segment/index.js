@@ -1,6 +1,42 @@
 //const Analytics = require('analytics-node')
 const request = require('request')
 
+// https://medium.com/javascript-inside/safely-accessing-deeply-nested-values-in-javascript-99bf72a0855a
+const deepGet = (path, obj) => {
+    return path.reduce((xs, x) => (xs && xs[x]) ? xs[x] : null, obj)
+}
+
+const deepSet = (path, obj, value) => {
+    let i = 0;
+    for (; i < path.length - 1; i++) {
+        obj = obj[path[i]]
+    }
+
+    obj[path[i]] = value
+}
+
+const remapObject = (path, obj) => {
+    const prop = deepGet(path, obj)
+
+    if (prop && typeof(prop) === 'object') {    
+        let n = 0
+        const remapped = {}
+
+        for (const k in prop) {
+            remapped[`${n}`] = prop[k]
+            n++
+        }
+
+        deepSet(path, obj, remapped)
+    } 
+}
+
+const fixObjectPaths = (pathList, obj) => {
+    for (const path of pathList) {
+        remapObject(path, obj)
+    }
+}
+
 const processCourseEnrollment = (event, callback) => {
     console.log('Processing a course enrollment event.')
     let eventProps = {}
@@ -33,8 +69,29 @@ const processProblemCheck = (event, callback) => {
     console.log(event)
 
     const eventProps = event.properties
-    
-    // TODO Fix problematic object key names
+
+    // Fix problematic object key names to deterministic names
+    fixObjectPaths([
+        ['data', 'answers'],
+        [ 'data', 'correct_map'],
+        ['data', 'state', 'correct_map'],
+        ['data', 'state', 'input_state'],
+        ['data', 'state', 'student_answers'],
+        ['data', 'submission']
+    ], eventProps)
+
+    // Add a top level block_id for filtering in Redshift.
+    const problemId = deepGet(['data', 'problem_id'], eventProps)
+
+    // Fallback value, should get overwritten...
+    eventProps.block_id = ''
+
+    if (problemId) {
+        const idParts = problemId.split('@')
+        if (idParts.length === 3) {
+            eventProps.block_id = idParts[2]
+        }
+    }
 
     // Generate a redisu.problem_check event...
     writeToSegment({
