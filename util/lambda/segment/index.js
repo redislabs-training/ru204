@@ -101,12 +101,21 @@ const processProblemCheck = (event, callback) => {
     }, process.env.SEGMENT_WRITE_KEY, callback)
 }
 
+// Temporary until these go to the right destination.
 const processRedisUCourseEnrollment = (event, callback) => {
     console.log(`Received a "${event.event}" event:`)
     console.log(event)
     respondOK(callback)
 }
 
+// Temporary until these go to the right destination.
+const processRedisUCertificateCreated = (event, callback) => {
+    console.log(`Received a "${event.event}" event:`)
+    console.log(event)
+    respondOK(callback)
+}
+
+// Temporary until these go to the right destination.
 const processRedisUProblemCheck = (event, callback) => {
     console.log(`Received a "${event.event}" event:`)
     console.log(event)
@@ -184,6 +193,9 @@ exports.handler = (event, context, callback) => {
             case 'redisu.course.enrollment.activated':
                 processRedisUCourseEnrollment(event, callback)
                 break
+            // Temporary while we prove this out...
+            case 'redisu.certificate.created':
+                processRedisUCertificateCreated(event, callback)
             // Temporary while we prove this out...
             case 'redisu.problem_check':
                 processRedisUProblemCheck(event, callback)
