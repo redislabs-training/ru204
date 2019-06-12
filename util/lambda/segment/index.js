@@ -19,15 +19,15 @@ const remapObject = (path, obj) => {
     const prop = deepGet(path, obj)
 
     if (prop && typeof(prop) === 'object') {    
-        let n = 0
-        const remapped = {}
+        let remapped = {}
 
-        for (const k in prop) {
-            remapped[`${n}`] = prop[k]
-            n++
+        // Remap if there is one enumerable key
+        const keys = Object.keys(prop)
+
+        if (keys.length === 1) {
+            remapped = prop[keys[0]]
+            deepSet(path, obj, remapped)
         }
-
-        deepSet(path, obj, remapped)
     } 
 }
 
