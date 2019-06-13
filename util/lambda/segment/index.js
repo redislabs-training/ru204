@@ -42,9 +42,24 @@ const processCourseEnrollment = (event, callback) => {
     let eventProps = {}
 
     if (event.properties.context && event.properties.context.referer) {   
-        // Refactor to add referer at the top level.
+        // Refactor to add referer at the top level and capture any
+        // marketing params from it.
+        const referer = event.properties.context.referer
+        const marketingProps = {}
+
+        try {
+            const refererURL = new URL(referer)
+            marketingProps.utm_source = refererURL.searchParams.get('utm_source')
+            marketingProps.utm_medium = refererURL.searchParams.get('utm_medium')
+            marketingProps.utm_campaign = refererURL.searchParams.get('utm_campaign')
+            marketingProps.mkt_tok = refererURL.searchParams.get('mkt_tok')
+        } catch(e) {
+            console.log('Referer was a bad URL, omitting parsing out of marketing props.')
+        }
+
         eventProps = {
-            referer: event.properties.context.referer,
+            referer,
+            ...marketingProps,
             ...event.properties
         }
     } else {
