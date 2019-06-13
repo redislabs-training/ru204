@@ -76,7 +76,20 @@ const processCourseEnrollment = (event, callback) => {
 
 const processCertificateCreated = (event, callback) => {
     console.log('Processing a certificate created event.')
-    respondOK(callback)
+    console.log(event)
+
+    const eventProps = event.properties
+
+    if (eventProps && eventProps.data) {
+        eventProps.certificate_id = eventProps.data.certificate_id
+    }
+
+    // Generate a redisu.certificate event...
+    writeToSegment({
+        userId: event.userId,
+        event: 'redisu.certificate.created',  // edx.certificate.created
+        properties: eventProps
+    }, process.env.SEGMENT_WRITE_KEY, callback)
 }
 
 const processProblemCheck = (event, callback) => {
