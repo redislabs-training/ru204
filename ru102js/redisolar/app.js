@@ -11,5 +11,5 @@ app.use('/api', routes);
 
 app.listen(port, () => {
   banner();
-  console.log(`RediSolar listening on port ${port}`);
+  console.log(`RediSolar listening on port: ${port}`);
 });
