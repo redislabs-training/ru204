@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node app.js",
+    "develop": "nodemon app.js",
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint-plugin-react": "^7.13.0",
+    "nodemon": "^1.19.1"
   }
 }
