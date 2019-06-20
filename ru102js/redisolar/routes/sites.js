@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const { param } = require('express-validator');
+const apiErrorReporter = require('../util/apierrorreporter');
 
 router.get('/sites', (req, res) => res.status(200).json([{
   id: 149,
@@ -29,5 +31,32 @@ router.get('/sites', (req, res) => res.status(200).json([{
   lastReportingTime: 1560967216.141000000,
   meterReadingCount: 180,
 }]));
+
+router.get(
+  '/sites/:siteId', 
+  [
+    param('siteId').isInt(),
+    apiErrorReporter,
+  ],
+  (req, res) => {
+    const siteId = parseInt(req.params.siteId, 10);
+
+    return res.status(200).json([{
+      id: siteId,
+      capacity: 7.5,
+      panels: 5,
+      address: '894 Windmill Park Lane ',
+      city: 'Mountain View',
+      state: 'CA',
+      postalCode: '94043',
+      coordinate: {
+        lng: -122.077478,
+        lat: 37.399505,
+      },
+      lastReportingTime: 1560967216.141000000,
+      meterReadingCount: 180,
+    }]);
+  }
+);
 
 module.exports = router;
