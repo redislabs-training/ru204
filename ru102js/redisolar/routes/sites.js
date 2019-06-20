@@ -33,7 +33,7 @@ router.get('/sites', (req, res) => res.status(200).json([{
 }]));
 
 router.get(
-  '/sites/:siteId', 
+  '/sites/:siteId',
   [
     param('siteId').isInt(),
     apiErrorReporter,
@@ -56,7 +56,7 @@ router.get(
       lastReportingTime: 1560967216.141000000,
       meterReadingCount: 180,
     }]);
-  }
+  },
 );
 
 module.exports = router;
