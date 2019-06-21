@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { body } = require('express-validator');
 const apiErrorReporter = require('../util/apierrorreporter');
+const controller = require('../controllers/meterreading_controller.js');
 
 router.post(
   '/meterreading',
@@ -13,7 +14,7 @@ router.post(
     body('*.tempC').isFloat(),
     apiErrorReporter,
   ],
-  (req, res) => res.status(200).json(req.body),
+  controller.createMeterReading,
 );
 
 module.exports = router;
