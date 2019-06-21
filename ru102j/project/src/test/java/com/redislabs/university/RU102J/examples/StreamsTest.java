@@ -20,12 +20,18 @@ public class StreamsTest {
     private Long measurementsPerHour = 60L;
     private Long hoursPerDay = 24L;
     private Long maxDays = 14L;
+    private Map<String, String> entry1;
+    private Map<String, String> entry2;
 
 
     @Before
     public void setUp() {
         this.jedis = new Jedis(HostPort.getRedisHost(), HostPort.getRedisPort());
         this.streamKey = "test:stream";
+        this.entry1 = new HashMap<>();
+        entry1.put("siteId", "1");
+        this.entry2 = new HashMap<>();
+        entry2.put("siteId", "2");
     }
 
     @After
@@ -55,8 +61,8 @@ public class StreamsTest {
     @Test
     public void testStreamWithPipeline() {
         Pipeline p = jedis.pipelined();
-        Response<StreamEntryID> id1 = p.xadd(streamKey, StreamEntryID.NEW_ENTRY, Map.of("siteId", "1"));
-        Response<StreamEntryID> id2 = p.xadd(streamKey, StreamEntryID.NEW_ENTRY, Map.of("siteID", "2"));
+        Response<StreamEntryID> id1 = p.xadd(streamKey, StreamEntryID.NEW_ENTRY, entry1);
+        Response<StreamEntryID> id2 = p.xadd(streamKey, StreamEntryID.NEW_ENTRY, entry2);
         Response<List<StreamEntry>> results = p.xrange(streamKey, null, null, 2);
         p.sync();
 
@@ -69,8 +75,8 @@ public class StreamsTest {
     @Test
     public void testStreamWithTransaction() {
         Transaction t = jedis.multi();
-        t.xadd(streamKey, StreamEntryID.NEW_ENTRY, Map.of("foo", "bar"));
-        t.xadd(streamKey, StreamEntryID.NEW_ENTRY, Map.of("foo", "bar"));
+        t.xadd(streamKey, StreamEntryID.NEW_ENTRY, entry1);
+        t.xadd(streamKey, StreamEntryID.NEW_ENTRY, entry2);
         Response<List<StreamEntry>> results = t.xrange(streamKey, null, null, 2);
         t.exec();
         assertThat(results.get().size(), is(2));
