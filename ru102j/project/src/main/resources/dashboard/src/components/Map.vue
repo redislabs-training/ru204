@@ -21,7 +21,7 @@
                 <div class="col px-1">
                     <input id="lng" name="longitude" type="text" class="form-control" placeholder="Longitude">
                 </div>
-                <div class="col2 px-1">
+                <div class="col-sm-1 px-1">
                     <input name="radius" type="text" class="form-control" placeholder="Radius">
                 </div>
                 <div class="col2 px-1">
@@ -29,6 +29,10 @@
                         <option selected="selected" value="KM">KM (Kilometers)</option>
                         <option value="MI">MI (Miles)</option>
                     </select>
+                </div>
+                <div class="col2 px-1 form-check form-check-inline">
+                  <input type="checkbox" name="onlyExcessCapacity" class="form-check-input" id="excessCapacityCheck">
+                  <label class="form-check-label" for="excessCapacityCheck">Excess Capacity</label>
                 </div>
                 <div class="col2 px-1">
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -69,11 +73,12 @@ export default {
           lat: event.target.lat.value,
           lng: event.target.lng.value,
           radius: event.target.radius.value,
-          radiusUnit: event.target.radiusUnit.value
+          radiusUnit: event.target.radiusUnit.value,
+          onlyExcessCapacity: event.target.onlyExcessCapacity.checked
         }
       }
       const bounds = []
-      axios.get('/api/sites', args)
+      axios.get(`${process.env.apiHost}api/sites`, args)
         .then((response) => {
           response.data.forEach((site) => {
             this.addMarker(site)
@@ -100,7 +105,7 @@ export default {
     addMarker (site) {
       const coordinate = site.coordinate
       const marker = L.marker([coordinate.lat, coordinate.lng]).addTo(this.markerLayers)
-      marker.bindPopup(`<b>${site.address}</b><br/>${site.city}, ${site.state} ${site.postalCode}<br><a href="#/stats/${site.id}">Stats</a>`)
+      marker.bindPopup(`<b>${site.address}</b><br/>${site.city}, ${site.state} ${site.postalCode}<br>(${site.coordinate.lat}, ${site.coordinate.lng})<br/><a href="#/stats/${site.id}">Stats</a>`)
     },
     createMap () {
       this.mymap = L.map('mapid').setView([37.715732, -122.027342], 11)
