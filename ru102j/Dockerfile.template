@@ -31,9 +31,13 @@ RUN set -ex && apk add --no-cache nss
 # Supervisord config
 ADD supervisord.conf /etc/
 
+ADD .logo /home/student/.logo
 ADD project /src/redisu/project
 RUN chown -R student:student /src/redisu
 
 RUN set -ex && \
     cd /src/redisu/project && \
     mvn compile
+
+
+EXPOSE 6391

@@ -4,5 +4,5 @@ const devEnv = require('./dev.env')
 
 module.exports = merge(devEnv, {
   NODE_ENV: '"testing"',
-  apiHost: '"http://localhost:8081/"'
+  apiHost: '"http://localhost:6391/"'
 })
