@@ -89,18 +89,17 @@ export default {
       this.currentColor.r = this.cycleRGBColor(this.currentColor.r)
       this.currentColor.g = this.cycleRGBColor(this.currentColor.g)
       this.currentColor.b = this.cycleRGBColor(this.currentColor.b)
-      return 'rgb(' + this.currentColor.r + ', ' + this.currentColor.g +
-        ', ' + this.currentColor.b + ')'
+      return `rgb(${this.currentColor.r}, ${this.currentColor.g}, ${this.currentColor.b})`
     },
     clearChartData (self) {
       self.chart.data.datasets = []
       self.chart.update()
     },
     getData (self) {
-      axios.get('http://localhost:8081/api/capacity/')
+      axios.get(`${process.env.apiHost}api/capacity/`)
         .then(function (response) {
-          var maxItems = []
-          var maxIds = []
+          const maxItems = []
+          const maxIds = []
           response.data.highestCapacity.forEach(function (item) {
             maxItems.push({x: item.siteId, y: item.capacity})
             maxIds.push('' + item.siteId)
@@ -117,8 +116,8 @@ export default {
           })
           self.maxChart.update()
 
-          var minIds = []
-          var minItems = []
+          const minIds = []
+          const minItems = []
           response.data.lowestCapacity.forEach(function (item) {
             minItems.push({x: item.siteId, y: item.capacity})
             minIds.push('' + item.siteId)
@@ -141,8 +140,8 @@ export default {
         })
     },
     createChart () {
-      var maxCtx = document.getElementById('maxChart').getContext('2d')
-      var minCtx = document.getElementById('minChart').getContext('2d')
+      const maxCtx = document.getElementById('maxChart').getContext('2d')
+      const minCtx = document.getElementById('minChart').getContext('2d')
       this.maxChart = new Chart(maxCtx, {
         // The type of chart we want to create
         type: 'bar',

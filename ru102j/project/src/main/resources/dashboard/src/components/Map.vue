@@ -64,7 +64,7 @@ export default {
       this.markerLayers.clearLayers()
       console.log(event.srcElement)
 
-      var args = {
+      const args = {
         params: {
           lat: event.target.lat.value,
           lng: event.target.lng.value,
@@ -72,8 +72,8 @@ export default {
           radiusUnit: event.target.radiusUnit.value
         }
       }
-      var bounds = []
-      axios.get('http://localhost:8081/api/sites', args)
+      const bounds = []
+      axios.get('/api/sites', args)
         .then((response) => {
           response.data.forEach((site) => {
             this.addMarker(site)
@@ -87,7 +87,7 @@ export default {
     },
     getData () {
       var self = this
-      axios.get('http://localhost:8081/api/sites')
+      axios.get(`${process.env.apiHost}api/sites`)
         .then(function (response) {
           response.data.forEach(function (site) {
             self.addMarker(site)
@@ -98,11 +98,9 @@ export default {
         })
     },
     addMarker (site) {
-      var coordinate = site.coordinate
-      var marker = L.marker([coordinate.lat, coordinate.lng]).addTo(this.markerLayers)
-      marker.bindPopup('<b>' + site.address + '</b><br/>' + site.city +
-                    ', ' + site.state + ' ' + site.postalCode + '<br>' +
-                    '<a href="#/stats/' + site.id + '">Stats</a>')
+      const coordinate = site.coordinate
+      const marker = L.marker([coordinate.lat, coordinate.lng]).addTo(this.markerLayers)
+      marker.bindPopup(`<b>${site.address}</b><br/>${site.city}, ${site.state} ${site.postalCode}<br><a href="#/stats/${site.id}">Stats</a>`)
     },
     createMap () {
       this.mymap = L.map('mapid').setView([37.715732, -122.027342], 11)

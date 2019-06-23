@@ -31,7 +31,9 @@ RUN set -ex && apk add --no-cache nss
 # Supervisord config
 ADD supervisord.conf /etc/
 
-ADD redisolar /src/redisu/project
+ADD project /src/redisu/project
+
+RUN chown -R student:student /src/redisu
 
 RUN set -ex && \
     cd /src/redisu/project && \

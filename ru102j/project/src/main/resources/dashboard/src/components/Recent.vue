@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('http://localhost:8081/api/meterReadings/')
+      axios.get(`${process.env.apiHost}api/meterReadings/`)
         .then((response) => {
           this.meterReadings = response.data
         })

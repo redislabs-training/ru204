@@ -52,18 +52,14 @@ export default {
       this.currentColor.r = this.cycleRGBColor(this.currentColor.r)
       this.currentColor.g = this.cycleRGBColor(this.currentColor.g)
       this.currentColor.b = this.cycleRGBColor(this.currentColor.b)
-      return 'rgb(' + this.currentColor.r + ', ' + this.currentColor.g +
-        ', ' + this.currentColor.b + ')'
+      return `rgb(${this.currentColor.r}, ${this.currentColor.g}, ${this.currentColor.b})`
     },
     clearChartData (self) {
       self.chart.data.datasets = []
       self.chart.update()
     },
-    getSiteId (self) {
-      return '1' // self.$route.params.id
-    },
     getData (self) {
-      axios.get('http://localhost:8081/api/metrics/' + self.$route.params.id)
+      axios.get(`${process.env.apiHost}api/metrics/${self.$route.params.id}`)
         .then(function (response) {
           self.siteId = self.$route.params.id
           response.data.forEach(function (plot) {
