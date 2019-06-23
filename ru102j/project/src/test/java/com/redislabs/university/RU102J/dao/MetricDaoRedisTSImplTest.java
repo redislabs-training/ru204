@@ -2,7 +2,6 @@ package com.redislabs.university.RU102J.dao;
 
 import com.redislabs.redistimeseries.RedisTimeSeries;
 import com.redislabs.university.RU102J.HostPort;
-import com.redislabs.university.RU102J.JedisDaoTestBase;
 import com.redislabs.university.RU102J.TestKeyManager;
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.MeterReading;
@@ -13,7 +12,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 
-import javax.net.ssl.KeyManager;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;

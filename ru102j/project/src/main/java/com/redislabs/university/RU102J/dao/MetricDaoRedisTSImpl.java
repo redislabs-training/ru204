@@ -5,9 +5,7 @@ import com.redislabs.redistimeseries.Value;
 import com.redislabs.university.RU102J.api.Measurement;
 import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.MetricUnit;
-import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.exceptions.JedisDataException;
 
 import java.time.Instant;
 import java.time.ZoneId;
@@ -22,7 +20,7 @@ import java.util.List;
  *
  */
 public class MetricDaoRedisTSImpl implements MetricDao {
-    static private final Integer METRIC_EXPIRATION_SECONDS =
+    static private final Integer SERIES_RETENTION_S =
             60 * 60 * 24 * 14;
     private final RedisTimeSeries rts;
     private final HashSet<String> metricNameCache;
@@ -46,8 +44,7 @@ public class MetricDaoRedisTSImpl implements MetricDao {
     private void insertMetric(Long siteId, Double value, MetricUnit unit,
                               ZonedDateTime dateTime) {
         String metricKey = RedisSchema.getTSKey(siteId, unit);
-        ensureCreated(metricKey);
-        rts.add(metricKey, dateTime.toEpochSecond(), value);
+        rts.add(metricKey, dateTime.toEpochSecond(), value, SERIES_RETENTION_S);
     }
 
     @Override
@@ -70,16 +67,5 @@ public class MetricDaoRedisTSImpl implements MetricDao {
         }
 
         return measurements;
-    }
-
-    private void ensureCreated(String metricName) {
-        if (!metricNameCache.contains(metricName)) {
-            metricNameCache.add(metricName);
-            try {
-                rts.create(metricName, METRIC_EXPIRATION_SECONDS);
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-        }
     }
 }
