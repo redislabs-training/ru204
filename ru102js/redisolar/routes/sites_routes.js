@@ -10,7 +10,15 @@ const controller = require('../controllers/sites_controller.js');
 // Need to make sure we can route this and not confuse with GET /sites
 // or do like java and work this out in controller.getSites
 
-router.get('/sites', controller.getSites);
+router.get(
+  '/sites',
+  [
+    apiErrorReporter,
+  ],
+  (req, res) => (
+    req.query.lat ? controller.getSitesNearby(req, res) : controller.getSites(req, res)
+  ),
+);
 
 router.get(
   '/sites/:siteId',
