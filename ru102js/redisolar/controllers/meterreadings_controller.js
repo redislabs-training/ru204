@@ -1,7 +1,7 @@
 const createMeterReading = (req, res) => res.status(200).json(req.body);
 
 const getMeterReadings = (req, res) => {
-  const limit  = req.query.n;
+  const limit = req.query.n;
   console.log(`Limit is ${limit}.`);
   return res.status(200).json([{
     siteId: 215,
