@@ -6,7 +6,7 @@ const controller = require('../controllers/capacity_controller');
 router.get(
   '/capacity',
   [
-    query('limit').optional().isInt({ min: 1 }),
+    query('limit').optional().isInt({ min: 1 }).toInt(),
     apiErrorReporter,
   ],
   controller.getCapacityReport,

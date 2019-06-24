@@ -20,7 +20,7 @@ router.post(
 router.get(
   '/meterreadings',
   [
-    query('n').optional().isInt({ min: 1 }),
+    query('n').optional().isInt({ min: 1 }).toInt(),
     apiErrorReporter,
   ],
   controller.getMeterReadings,
@@ -29,8 +29,8 @@ router.get(
 router.get(
   '/meterreadings/:siteId',
   [
-    param('siteId').isInt(),
-    query('n').optional().isInt({ min: 1 }),
+    param('siteId').isInt().toInt(),
+    query('n').optional().isInt({ min: 1 }).toInt(),
     apiErrorReporter,
   ],
   controller.getMeterReadingsForSite,

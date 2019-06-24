@@ -6,7 +6,7 @@ const controller = require('../controllers/metrics_controller.js');
 router.get(
   '/metrics/:siteId',
   [
-    param('siteId').isInt(),
+    param('siteId').isInt().toInt(),
     apiErrorReporter,
   ],
   controller.getMetricsForSite,

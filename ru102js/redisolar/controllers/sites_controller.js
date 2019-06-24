@@ -29,8 +29,7 @@ const getSites = (req, res) => res.status(200).json([{
 }]);
 
 const getSite = (req, res) => {
-  const siteId = parseInt(req.params.siteId, 10);
-
+  const { siteId } = req.params
   return res.status(200).json([{
     id: siteId,
     capacity: 7.5,

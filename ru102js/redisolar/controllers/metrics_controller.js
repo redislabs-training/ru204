@@ -1,5 +1,5 @@
 const getMetricsForSite = (req, res) => {
-  const siteId = parseInt(req.params.siteId, 10);
+  const { siteId } = req.params;
 
   return res.status(200).json([{
     measurements: [{

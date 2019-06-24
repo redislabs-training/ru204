@@ -1,11 +1,7 @@
-const getLimit = (req, paramName) => (
-  req.query.hasOwnProperty(paramName) ? parseInt(req.query[paramName], 10) : -1
-);
-
 const createMeterReading = (req, res) => res.status(200).json(req.body);
 
 const getMeterReadings = (req, res) => {
-  const limit = getLimit(req, 'n');
+  const limit  = req.query.n;
   console.log(`Limit is ${limit}.`);
   return res.status(200).json([{
     siteId: 215,
@@ -611,8 +607,8 @@ const getMeterReadings = (req, res) => {
 };
 
 const getMeterReadingsForSite = (req, res) => {
-  const limit = getLimit(req, 'n');
-  const siteId = parseInt(req.params.siteId, 10);
+  const { siteId } = req.params;
+  const limit = req.query.n;
 
   console.log(`Limit is ${limit}.`);
   return res.status(200).json([{
