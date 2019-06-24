@@ -10,8 +10,8 @@ server:
   rootPath: /api
   applicationConnectors:
     - type: http
-      port: 6391
+      port: 8081
   adminConnectors:
     - type: http
-      port: 6392
+      port: 8084
 
