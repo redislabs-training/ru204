@@ -45,4 +45,4 @@ RUN chown redis:redis /data/dump.rdb
 
 # Port for web front end and API. This allows users to hit
 # this port from the virtual lab
-EXPOSE 6391
+EXPOSE 8081
