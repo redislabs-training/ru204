@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { body } = require('express-validator');
+const { body, param, query } = require('express-validator');
 const apiErrorReporter = require('../util/apierrorreporter');
 const controller = require('../controllers/meterreadings_controller');
 
@@ -17,6 +17,23 @@ router.post(
   controller.createMeterReading,
 );
 
-router.get('/meterreadings', controller.getMeterReadings);
+router.get(
+  '/meterreadings',
+  [
+    query('n').optional().isInt({ min: 1 }),
+    apiErrorReporter,
+  ],
+  controller.getMeterReadings,
+);
+
+router.get(
+  '/meterreadings/:siteId',
+  [
+    param('siteId').isInt(),
+    query('n').optional().isInt({ min: 1 }),
+    apiErrorReporter,
+  ],
+  controller.getMeterReadingsForSite,
+);
 
 module.exports = router;
