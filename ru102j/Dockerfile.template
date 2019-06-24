@@ -28,21 +28,16 @@ RUN set -ex && \
 
 RUN set -ex && apk add --no-cache nss
 
-# Supervisord config
+ADD .logo /home/student/.logo
+
+ADD project /src/redisu/project
+RUN chown -R student:student /src/redisu
+
+# Supervisord tweaks
 ADD supervisord.conf /etc/
 
 ADD .logo /home/student/.logo
-ADD project /src/redisu/project
-RUN chown -R student:student /src/redisu
 
 RUN set -ex && \
     cd /src/redisu/project && \
     mvn compile
-
-# Base rdb files
-ADD ru102j.rdb /data/dump.rdb
-RUN chown redis:redis /data/dump.rdb
-
-# Port for web front end and API. This allows users to hit
-# this port from the virtual lab
-EXPOSE 8081
