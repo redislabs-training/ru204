@@ -50,8 +50,15 @@ const getSite = (req, res) => {
 const getSitesNearby = (req, res) => {
   const { siteId } = req.params;
   const {
-    lat, lng, radius, radiusunit, onlyexcesscapacity,
+    lat, lng, radius, radiusUnit, onlyExcessCapacity,
   } = req.query;
+
+  console.log(`siteId: ${siteId}`);
+  console.log(`lat: ${lat}`);
+  console.log(`lng: ${lng}`);
+  console.log(`radius: ${radius}`);
+  console.log(`radiusUnit: ${radiusUnit}`);
+  console.log(`onlyExcessCapacity: ${onlyExcessCapacity}`);
 
   return res.status(200).json([{
     id: 149,
