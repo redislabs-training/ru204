@@ -3,13 +3,12 @@ package com.redislabs.university.RU102J.core;
 import com.redislabs.university.RU102J.api.*;
 import com.redislabs.university.RU102J.dao.*;
 import com.redislabs.university.RU102J.resources.MeterReadingResource;
+import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SampleDataGenerator {
@@ -35,14 +34,13 @@ public class SampleDataGenerator {
         }
 
         SiteStatsDao siteStatsDao = new SiteStatsDaoRedisImpl(jedisPool);
-        SiteDao siteDao = new SiteDaoRedisImpl(jedisPool);
         CapacityDao capacityDao = new CapacityDaoRedisImpl(jedisPool);
         MetricDao metricDao = new MetricDaoRedisZsetImpl(jedisPool);
         FeedDao feedDao = new FeedDaoRedisImpl(jedisPool);
         MeterReadingResource meterResource = new MeterReadingResource(siteStatsDao, metricDao,
                 capacityDao, feedDao);
 
-        Set<Site> sites = siteDao.findAll();
+        Set<Site> sites = getAllSites();
         int minuteDays = days * 3 * 60;
 
         List<Site> sortedSites =
@@ -82,6 +80,20 @@ public class SampleDataGenerator {
         }
     }
 
+    public Set<Site> getAllSites() {
+        try (Jedis jedis = jedisPool.getResource()) {
+            Set<String> keys = jedis.smembers(RedisSchema.getSiteIDsKey());
+            Set<Site> sites = new HashSet<>(keys.size());
+            for (String key : keys) {
+                Map<String, String> site = jedis.hgetAll(key);
+                if (!site.isEmpty()) {
+                    sites.add(new Site(site));
+                }
+            }
+            return sites;
+        }
+    }
+
     // Since site capacity is measured in kWh per day, we need to get a
     // minute-based maximum watt-hours to work with.
     private Double getMaxMinuteWHGenerated(Double capacity) {
@@ -114,9 +126,5 @@ public class SampleDataGenerator {
         } else {
             return maxCapacity - 0.1;
         }
-    }
-
-    private Double randomValue() {
-        return Math.random();
     }
 }

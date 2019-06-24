@@ -20,7 +20,7 @@ public class RedisSchema {
     }
 
     // sites:ids
-    static String getSiteIDsKey() {
+    public static String getSiteIDsKey() {
         return KeyHelper.getKey("sites:ids");
     }
 
