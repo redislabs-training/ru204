@@ -21,7 +21,8 @@
     "express": "^4.17.1",
     "express-validator": "^6.0.0",
     "morgan": "^1.9.1",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",

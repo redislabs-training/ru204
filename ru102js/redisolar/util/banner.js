@@ -1,5 +1,7 @@
+const logger = require('./logger');
+
 const showBanner = () => {
-  console.log(
+  logger.info(
     `
 ================================================================================
     ____           ___ _____       __
