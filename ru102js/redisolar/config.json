@@ -1,10 +1,14 @@
 {
-  "redis": {
-    "host": "localhost",
-    "port": 6379
-  },
-  "server": {
+  "application": {
     "port": 8080,
-    "logLevel": "debug"
+    "logLevel": "debug",
+    "dataStore": "redis"
+  },
+  "dataStores": {
+    "redis": {
+      "host": "localhost",
+      "port": 6379
+    },
+    "static": {}
   }
 }

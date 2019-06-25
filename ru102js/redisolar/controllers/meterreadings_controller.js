@@ -1,8 +1,10 @@
+const logger = require('../utils/logger');
+
 const createMeterReading = (req, res) => res.status(200).json(req.body);
 
 const getMeterReadings = (req, res) => {
   const limit = req.query.n;
-  console.log(`Limit is ${limit}.`);
+  logger.debug(`Limit is ${limit}.`);
   return res.status(200).json([{
     siteId: 215,
     dateTime: 1561153307.090000000,
@@ -610,7 +612,7 @@ const getMeterReadingsForSite = (req, res) => {
   const { siteId } = req.params;
   const limit = req.query.n;
 
-  console.log(`Limit is ${limit}.`);
+  logger.debug(`Limit is ${limit}.`);
   return res.status(200).json([{
     siteId,
     dateTime: 1561153307.090000000,

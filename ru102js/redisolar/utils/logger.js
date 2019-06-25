@@ -2,7 +2,7 @@ const winston = require('winston');
 const config = require('better-config');
 
 const logger = winston.createLogger({
-  level: config.get('server.logLevel'),
+  level: config.get('application.logLevel'),
   transports: [
     new winston.transports.Console({
       format: winston.format.combine(

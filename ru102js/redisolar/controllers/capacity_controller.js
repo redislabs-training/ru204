@@ -1,5 +1,7 @@
+const logger = require('../utils/logger');
+
 const getCapacityReport = (req, res) => {
-  console.log(`Limit = ${req.query.limit}`);
+  logger.debug(`Limit = ${req.query.limit}`);
 
   return res.status(200).json({
     highestCapacity: [{

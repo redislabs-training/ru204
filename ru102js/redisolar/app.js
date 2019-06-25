@@ -19,9 +19,13 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api', routes);
 
-const port = config.get('server.port');
+const port = config.get('application.port');
+
+const capacityDao = require('./daos/capacity_dao');
+
+console.log(capacityDao.update({}));
 
 app.listen(port, () => {
   banner();
-  logger.info(`RediSolar listening on port: ${port}`);
+  logger.info(`RediSolar listening on port ${port}, using database: ${config.get('application.dataStore')}`);
 });
