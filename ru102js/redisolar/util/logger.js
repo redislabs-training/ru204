@@ -1,7 +1,8 @@
 const winston = require('winston');
+const config = require('better-config');
 
 const logger = winston.createLogger({
-  level: 'debug', // TODO configurable...
+  level: config.get('logLevel'),
   transports: [
     new winston.transports.Console({
       format: winston.format.combine(
