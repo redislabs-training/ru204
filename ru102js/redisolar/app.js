@@ -7,12 +7,11 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
-const logger = require('./util/logger');
+const logger = require('./utils/logger');
 const routes = require('./routes');
-const banner = require('./util/banner');
+const banner = require('./utils/banner');
 
 const app = express();
-
 
 app.use(morgan('combined', { stream: logger.stream }));
 app.use(bodyParser.json());

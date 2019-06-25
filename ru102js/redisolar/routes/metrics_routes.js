@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { param } = require('express-validator');
-const apiErrorReporter = require('../util/apierrorreporter');
+const apiErrorReporter = require('../utils/apierrorreporter');
 const controller = require('../controllers/metrics_controller.js');
 
 router.get(

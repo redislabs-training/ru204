@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { query } = require('express-validator');
-const apiErrorReporter = require('../util/apierrorreporter');
+const apiErrorReporter = require('../utils/apierrorreporter');
 const controller = require('../controllers/capacity_controller');
 
 router.get(

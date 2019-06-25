@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { body, param, query } = require('express-validator');
-const apiErrorReporter = require('../util/apierrorreporter');
+const apiErrorReporter = require('../utils/apierrorreporter');
 const controller = require('../controllers/meterreadings_controller');
 
 router.post(
