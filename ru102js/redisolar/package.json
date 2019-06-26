@@ -2,15 +2,15 @@
   "name": "redisolar",
   "version": "1.0.0",
   "description": "Example application for Redis University RU102JS course.",
-  "main": "app.js",
+  "main": "./src/app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "load": "node util/dataloader.js --",
-    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "load": "node src/util/dataloader.js --",
+    "lint": "./node_modules/eslint/bin/eslint.js src",
+    "start": "node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Redis Labs",

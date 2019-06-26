@@ -1,6 +1,6 @@
 const config = require('better-config');
 
-config.set('config.json');
+config.set('../config.json');
 
 const express = require('express');
 const morgan = require('morgan');
@@ -16,7 +16,7 @@ const app = express();
 app.use(morgan('combined', { stream: logger.stream }));
 app.use(bodyParser.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use('/api', routes);
 
 const port = config.get('application.port');
