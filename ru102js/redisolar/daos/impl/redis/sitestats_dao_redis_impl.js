@@ -1,7 +1,8 @@
-/* eslint-disable no-unused-vars */
+const findById = (siteId, timestamp) => 'Redis TODO';
+
 const update = meterReading => 'Redis TODO';
-/* eslint-enable */
 
 module.exports = {
+  findById,
   update,
 };

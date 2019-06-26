@@ -1,7 +1,8 @@
-/* eslint-disable no-unused-vars */
+const findById = (siteId, timestamp) => 'Static TODO';
+
 const update = meterReading => 'Static TODO';
-/* eslint-enable */
 
 module.exports = {
+  findById,
   update,
 };
