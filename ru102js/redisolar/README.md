@@ -5,6 +5,7 @@
 * Complete `LICENSE`
 * Integrate Vue app (currently ships with built version)
 * Choose and install a test framework - likely [Jest](https://jestjs.io/en/)
+* Consider using a better alternative than relative require paths, e.g. [app-module-path-node](https://www.npmjs.com/package/app-module-path-node)
 * Fix double newline bug in winston when logging from morgan
 * Do better with eslint than `npm run lint`
 * Complete `README.md`
