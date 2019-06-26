@@ -2,7 +2,7 @@ const logger = require('../utils/logger');
 const capacityDao = require('../daos/capacity_dao');
 
 const getCapacityReport = (req, res) => {
-  const limit = req.query.limit;
+  const { limit } = req.query;
 
   logger.debug(`Limit = ${limit}`);
 

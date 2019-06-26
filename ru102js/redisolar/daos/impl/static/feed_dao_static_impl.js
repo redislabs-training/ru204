@@ -1,6 +1,4 @@
-const insert = meterReadings => {
-  return { status: 'OK', inserted: meterReadings.length };
-};
+const insert = meterReadings => ({ status: 'OK', inserted: meterReadings.length });
 
 const getRecentGlobal = limit => [{
   siteId: 215,

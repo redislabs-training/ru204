@@ -22,7 +22,7 @@ const getSitesNearby = (req, res) => {
   console.log(`onlyExcessCapacity: ${onlyExcessCapacity}`);
 
   return res.status(200).json(siteDao.findByGeo(lat, lng, radius, radiusUnit, onlyExcessCapacity));
-}
+};
 
 module.exports = {
   getSites,
