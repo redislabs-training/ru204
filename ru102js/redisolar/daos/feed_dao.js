@@ -1,14 +1,12 @@
-const insert = (meterReading) => {
-  // TODO
-};
+const daoLoader = require('./daoloader');
 
-const getRecentGlobal = (limit) => {
-  // TODO
-};
+const impl = daoLoader.loadDao('feed');
 
-const getRecentForSite = (siteId, limit) => {
-  // TODO
-};
+const insert = meterReading => impl.insert(meterReading);
+
+const getRecentGlobal = limit => impl.getRecentGlobal(limit);
+
+const getRecentForSite = (siteId, limit) => impl.getRecentForSite(siteId, limit);
 
 module.exports = {
   insert,

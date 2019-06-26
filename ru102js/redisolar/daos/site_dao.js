@@ -1,18 +1,14 @@
-const insert = (site) => {
-  // TODO
-};
+const daoLoader = require('./daoloader');
 
-const findById = (id) => {
-  // TODO
-};
+const impl = daoLoader.loadDao('site');
 
-const findAll = () => {
-  // TODO
-};
+const insert = site => impl.insert(site);
 
-const findByGeo = (query) => {
-  // TODO
-};
+const findById = id => impl.findById(id);
+
+const findAll = () => impl.findAll();
+
+const findByGeo = query => impl.findByGeo(query);
 
 module.exports = {
   insert,
