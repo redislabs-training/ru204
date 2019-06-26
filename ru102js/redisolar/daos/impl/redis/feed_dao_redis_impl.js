@@ -1,4 +1,4 @@
-const insert = meterReading => 'Redis TODO';
+const insert = meterReadings => 'Redis TODO';
 
 const getRecentGlobal = limit => 'Redis TODO';
 

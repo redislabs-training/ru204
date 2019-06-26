@@ -1,7 +1,12 @@
-/* eslint-disable no-unused-vars */
 const update = meterReading => 'Redis TODO';
-/* eslint-enable */
+
+const getReport = limit => 'Redis TODO';
+
+const getRank = siteId => 'Redis TODO';
 
 module.exports = {
   update,
+  getReport,
+  getRank,
 };
+

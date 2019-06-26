@@ -2,7 +2,7 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('feed');
 
-const insert = meterReading => impl.insert(meterReading);
+const insert = meterReadings => impl.insert(meterReadings);
 
 const getRecentGlobal = limit => impl.getRecentGlobal(limit);
 
