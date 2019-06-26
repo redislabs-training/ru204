@@ -29,3 +29,8 @@ app.listen(port, () => {
   banner();
   logger.info(`RediSolar listening on port ${port}, using database: ${config.get('application.dataStore')}`);
 });
+
+// For test framework purposes...
+module.exports = {
+  app,
+};
