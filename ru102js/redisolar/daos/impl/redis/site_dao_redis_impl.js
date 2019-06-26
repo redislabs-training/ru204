@@ -4,7 +4,7 @@ const findById = id => 'Redis TODO';
 
 const findAll = () => 'Redis TODO';
 
-const findByGeo = query => 'Redis TODO';
+const findByGeo = (lat, lng, radius, radiusUnit, onlyExcessCapacity) => 'Redis TODO';
 
 module.exports = {
   insert,

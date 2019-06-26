@@ -21,7 +21,7 @@ const getSitesNearby = (req, res) => {
   console.log(`radiusUnit: ${radiusUnit}`);
   console.log(`onlyExcessCapacity: ${onlyExcessCapacity}`);
 
-  return res.status(200).json(siteDao.findByGeo('TODO'));
+  return res.status(200).json(siteDao.findByGeo(lat, lng, radius, radiusUnit, onlyExcessCapacity));
 }
 
 module.exports = {

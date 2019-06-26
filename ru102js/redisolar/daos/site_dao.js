@@ -8,7 +8,7 @@ const findById = id => impl.findById(id);
 
 const findAll = () => impl.findAll();
 
-const findByGeo = query => impl.findByGeo(query);
+const findByGeo = query => impl.findByGeo(lat, lng, radius, radiusUnit, onlyExcessCapacity);
 
 module.exports = {
   insert,

@@ -46,7 +46,7 @@ const findAll = () => [{
   meterReadingCount: 180,
 }];
 
-const findByGeo = query => [{
+const findByGeo = (lat, lng, radius, radiusUnit, onlyExcessCapacity) => [{
   id: 149,
   capacity: 9.0,
   panels: 6,
