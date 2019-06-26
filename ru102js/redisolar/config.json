@@ -2,7 +2,7 @@
   "application": {
     "port": 8080,
     "logLevel": "debug",
-    "dataStore": "redis"
+    "dataStore": "static"
   },
   "dataStores": {
     "redis": {
