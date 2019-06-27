@@ -15,7 +15,9 @@ const logger = winston.createLogger({
 
 logger.stream = {
   write: (message) => {
-    logger.info(message);
+    // Removes double newline issue with piping morgan server request
+    // log through winston logger.
+    logger.info(message.length > 0 ? message.substring(0, message.length - 1) : message);
   },
 };
 

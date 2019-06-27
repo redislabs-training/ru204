@@ -6,8 +6,6 @@
 * Integrate Vue app (currently ships with built version)
 * Write some tests
 * Consider using a better alternative than relative require paths, e.g. [app-module-path-node](https://www.npmjs.com/package/app-module-path-node)
-* Fix double newline bug in winston when logging from morgan
-* Do better with eslint than `npm run lint`
 * Complete `README.md`
 * Complete static DAOs
 * Complete Redis DAOs
@@ -65,7 +63,7 @@ npm testdev
 
 ## Linting
 
-TODO
+TODO description, info, `.eslintrc`, `.eslintignore`.
 
 ```
 npm run lint
