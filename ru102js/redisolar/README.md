@@ -4,7 +4,7 @@
 
 * Complete `LICENSE`
 * Integrate Vue app (currently ships with built version)
-* Choose and install a test framework - likely [Jest](https://jestjs.io/en/)
+* Write some tests
 * Consider using a better alternative than relative require paths, e.g. [app-module-path-node](https://www.npmjs.com/package/app-module-path-node)
 * Fix double newline bug in winston when logging from morgan
 * Do better with eslint than `npm run lint`
@@ -47,6 +47,21 @@ TODO tour of `config.json`.
 # Development Workflow
 
 TODO
+
+## Running Tests
+
+The project is setup to use [Jest](https://jestjs.io/en/) for testing.  To run all tests:
+
+```
+npm test
+```
+
+To run Jest continuously in watch mode, which gives you access to menus allowing you to run 
+subsets of tests and many more options:
+
+```
+npm testdev
+```
 
 ## Linting
 
