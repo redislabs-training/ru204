@@ -7,9 +7,7 @@ const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 const testSuiteName = 'redis_key_generator';
 const expectedKeyPrefix = 'test';
 
-beforeAll(() => {
-  keyGenerator.setPrefix(expectedKeyPrefix);
-});
+keyGenerator.setPrefix(expectedKeyPrefix);
 
 /* eslint-disable no-undef */
 
