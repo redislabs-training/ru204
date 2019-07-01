@@ -1,6 +1,8 @@
 const config = require('better-config');
 
-const getKey = key => `${config.get('dataStores.redis.keyPrefix')}:${key}`;
+let prefix = config.get('dataStores.redis.keyPrefix');
+
+const getKey = key => `${prefix}:${key}`;
 
 const getSiteHashKey = siteId => getKey(`sites:info:${siteId}`);
 
@@ -22,6 +24,8 @@ const getGlobalFeedKey = () => getKey('sites:feed');
 
 const getFeedKey = siteId => getKey(`sites:feed:${siteId}`);
 
+const setPrefix = newPrefix => prefix = newPrefix;
+
 module.exports = {
   getSiteHashKey,
   getSiteIDsKey,
@@ -33,4 +37,5 @@ module.exports = {
   getDayMetricKey,
   getGlobalFeedKey,
   getFeedKey,
+  setPrefix,
 };
