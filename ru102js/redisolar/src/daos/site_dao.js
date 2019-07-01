@@ -2,13 +2,13 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('site');
 
-const insert = site => impl.insert(site);
+const insert = async site => impl.insert(site);
 
-const findById = id => impl.findById(id);
+const findById = async id => impl.findById(id);
 
-const findAll = () => impl.findAll();
+const findAll = async () => impl.findAll();
 
-const findByGeo = (lat, lng, radius, radiusUnit, onlyExcessCapacity) => impl.findByGeo(
+const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => impl.findByGeo(
   lat,
   lng,
   radius,

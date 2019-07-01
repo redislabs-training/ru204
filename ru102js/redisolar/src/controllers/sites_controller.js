@@ -1,27 +1,51 @@
 const siteDao = require('../daos/site_dao');
 
-const getSites = (req, res) => res.status(200).json(siteDao.findAll());
-
-const getSite = (req, res) => {
-  const { siteId } = req.params;
-
-  return res.status(200).json(siteDao.findById(siteId));
+const getSites = async (req, res, next) => {
+  try {
+    const sites = await siteDao.findAll();
+    return res.status(200).json(sites);
+  } catch (err) {
+    return next(err);
+  }
 };
 
-const getSitesNearby = (req, res) => {
-  const { siteId } = req.params;
-  const {
-    lat, lng, radius, radiusUnit, onlyExcessCapacity,
-  } = req.query;
+const getSite = async (req, res, next) => {
+  try {
+    const { siteId } = req.params;
 
-  console.log(`siteId: ${siteId}`);
-  console.log(`lat: ${lat}`);
-  console.log(`lng: ${lng}`);
-  console.log(`radius: ${radius}`);
-  console.log(`radiusUnit: ${radiusUnit}`);
-  console.log(`onlyExcessCapacity: ${onlyExcessCapacity}`);
+    const site = await siteDao.findById(siteId);
+    return (site ? res.status(200).json(site) : res.sendStatus(404));
+  } catch (err) {
+    return next(err);
+  }
+};
 
-  return res.status(200).json(siteDao.findByGeo(lat, lng, radius, radiusUnit, onlyExcessCapacity));
+const getSitesNearby = async (req, res, next) => {
+  try {
+    const { siteId } = req.params;
+    const {
+      lat, lng, radius, radiusUnit, onlyExcessCapacity,
+    } = req.query;
+
+    console.log(`siteId: ${siteId}`);
+    console.log(`lat: ${lat}`);
+    console.log(`lng: ${lng}`);
+    console.log(`radius: ${radius}`);
+    console.log(`radiusUnit: ${radiusUnit}`);
+    console.log(`onlyExcessCapacity: ${onlyExcessCapacity}`);
+
+    return res.status(200).json(
+      siteDao.findByGeo(
+        lat, 
+        lng, 
+        radius, 
+        radiusUnit, 
+        onlyExcessCapacity,
+      ),
+    );
+  } catch (err) {
+    return next(err);
+  }
 };
 
 module.exports = {
