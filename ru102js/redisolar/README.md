@@ -5,6 +5,8 @@
 * Complete `LICENSE`
 * Integrate Vue app (currently ships with built version)
 * Write some tests
+* Write insert for Site
+* Determine once and for all about using Models / Domain Objects
 * Consider using a better alternative than relative require paths, e.g. [app-module-path-node](https://www.npmjs.com/package/app-module-path-node)
 * Complete `README.md`
 * Complete static DAOs
