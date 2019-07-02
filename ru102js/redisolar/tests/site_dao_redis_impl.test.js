@@ -34,7 +34,7 @@ test(`${testSuiteName}: findById with existing site`, async () => {
     address: '910 Pine St.',
     city: 'Oakland',
     state: 'CA',
-    postalCode: '94577'
+    postalCode: '94577',
   };
 
   await redisSiteDAO.insert(site);
@@ -56,7 +56,7 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     address: '123 Willow St.',
     city: 'Oakland',
     state: 'CA',
-    postalCode: '94577'
+    postalCode: '94577',
   }, {
     id: 2,
     capacity: 3.0,
@@ -64,7 +64,7 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     address: '456 Maple St.',
     city: 'Oakland',
     state: 'CA',
-    postalCode: '94577'
+    postalCode: '94577',
   }, {
     id: 3,
     capacity: 4.0,
@@ -72,8 +72,10 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     address: '789 Oak St.',
     city: 'Oakland',
     state: 'CA',
-    postalCode: '94577'
+    postalCode: '94577',
   }];
+
+  /* eslint-disable no-await-in-loop */
 
   for (const site of sites) {
     await redisSiteDAO.insert(site);
@@ -86,7 +88,7 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
   expect(sites).toEqual(expect.arrayContaining(sitesFromRedis));
 });
 
-test(`${testSuiteName}: findAll with empty sites`, async() => {
+test(`${testSuiteName}: findAll with empty sites`, async () => {
   const sites = await redisSiteDAO.findAll();
   expect(sites).toEqual([]);
 });
@@ -99,15 +101,15 @@ test(`${testSuiteName}: insert`, async () => {
     address: '910 Pine St.',
     city: 'Oakland',
     state: 'CA',
-    postalCode: '94577'
+    postalCode: '94577',
   };
-  
+
   await redisSiteDAO.insert(site);
 
   const siteHashKey = keyGenerator.getSiteHashKey(site.id);
   const isMember = await client.sismemberAsync(
-    keyGenerator.getSiteIDsKey(), 
-    siteHashKey
+    keyGenerator.getSiteIDsKey(),
+    siteHashKey,
   );
 
   const siteFromRedis = await client.hgetallAsync(siteHashKey);
@@ -117,4 +119,3 @@ test(`${testSuiteName}: insert`, async () => {
 });
 
 /* eslint-enable */
-

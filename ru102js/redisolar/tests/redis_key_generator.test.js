@@ -48,7 +48,7 @@ test(`${testSuiteName}:getFeedKey`, () => {
 });
 
 test(`${testSuiteName}:setPrefix`, () => {
-  expect(keyGenerator.getSiteIDsKey()).toBe(`test:sites:ids`);
+  expect(keyGenerator.getSiteIDsKey()).toBe(`${expectedKeyPrefix}:sites:ids`);
 });
 
 /* eslint-enable */
