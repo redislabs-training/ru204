@@ -36,10 +36,10 @@ const getSitesNearby = async (req, res, next) => {
 
     return res.status(200).json(
       siteDao.findByGeo(
-        lat, 
-        lng, 
-        radius, 
-        radiusUnit, 
+        lat,
+        lng,
+        radius,
+        radiusUnit,
         onlyExcessCapacity,
       ),
     );
