@@ -2,11 +2,11 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('feed');
 
-const insert = meterReadings => impl.insert(meterReadings);
+const insert = async meterReadings => impl.insert(meterReadings);
 
-const getRecentGlobal = limit => impl.getRecentGlobal(limit);
+const getRecentGlobal = async limit => impl.getRecentGlobal(limit);
 
-const getRecentForSite = (siteId, limit) => impl.getRecentForSite(siteId, limit);
+const getRecentForSite = async (siteId, limit) => impl.getRecentForSite(siteId, limit);
 
 module.exports = {
   insert,

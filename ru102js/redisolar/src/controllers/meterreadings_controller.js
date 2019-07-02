@@ -1,22 +1,41 @@
 const logger = require('../utils/logger');
 const feedDao = require('../daos/feed_dao');
 
-const createMeterReading = (req, res) => res.status(200).json(feedDao.insert(req.body));
-
-const getMeterReadings = (req, res) => {
-  const limit = req.query.n;
-  logger.debug(`Limit is ${limit}.`);
-
-  return res.status(200).json(feedDao.getRecentGlobal(limit));
+const createMeterReading = async (req, res, next) => {
+  try {
+    return res.status(200).json(feedDao.insert(req.body));
+  } catch (err) {
+    return next(err);
+  }
 };
 
-const getMeterReadingsForSite = (req, res) => {
-  const { siteId } = req.params;
-  const limit = req.query.n;
+const getMeterReadings = async (req, res, next) => {
+  try {
+    const limit = isNaN(req.query.n) ? undefined : req.query.n;
 
-  logger.debug(`Limit is ${limit}.`);
+    if (limit) {
+      logger.debug(`Limit is ${limit}.`);
+    }
 
-  return res.status(200).json(feedDao.getRecentForSite(siteId, limit));
+    const readings = await feedDao.getRecentGlobal(limit);
+
+    return res.status(200).json(readings);
+  } catch (err) {
+    return next(err);
+  }
+};
+
+const getMeterReadingsForSite = async (req, res, next) => {
+  try {
+    const { siteId } = req.params;
+    const limit = req.query.n;
+
+    logger.debug(`Limit is ${limit}.`);
+
+    return res.status(200).json(feedDao.getRecentForSite(siteId, limit));
+  } catch (err) {
+    next(err);
+  }
 };
 
 module.exports = {
