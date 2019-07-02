@@ -84,7 +84,7 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
   const sitesFromRedis = await redisSiteDAO.findAll();
 
   // Workaround due to ordering differences when using a set...
-  expect(sites.length).toEquals(sitesFromRedis.length);
+  expect(sites.length).toEqual(sitesFromRedis.length);
   expect(sites).toEqual(expect.arrayContaining(sitesFromRedis));
 });
 
