@@ -104,6 +104,16 @@ test(`${testSuiteName}: insert`, async () => {
     postalCode: '94577',
   };
 
+  const expectedSiteHash = {
+    id: '4',
+    capacity: '5.5',
+    panels: '4',
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+  };
+
   await redisSiteDAO.insert(site);
 
   const siteHashKey = keyGenerator.getSiteHashKey(site.id);
@@ -112,10 +122,11 @@ test(`${testSuiteName}: insert`, async () => {
     siteHashKey,
   );
 
+  expect(isMember).toBe(1);
+
   const siteFromRedis = await client.hgetallAsync(siteHashKey);
 
-  expect(isMember).toBe(1);
-  expect(site).toEqual(siteFromRedis);
+  expect(siteFromRedis).toEqual(expectedSiteHash);
 });
 
 /* eslint-enable */
