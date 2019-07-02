@@ -56,6 +56,12 @@ The project is setup to use [Jest](https://jestjs.io/en/) for testing.  To run a
 npm test
 ```
 
+To run a specific suite of tests (e.g. those in `tests/basic.test.js`):
+
+```
+npm test -t basic
+```
+
 To run Jest continuously in watch mode, which gives you access to menus allowing you to run 
 subsets of tests and many more options:
 
