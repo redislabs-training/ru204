@@ -29,9 +29,6 @@ test(`${testSuiteName}: example command pipeline`, async () => {
 
   const replies = await pipeline.execAsync();
 
-  console.log('Replies (example command pipeline):');
-  console.log(replies);
-
   expect(replies).toHaveLength(3);
   expect(replies[0]).toBe('OK');
   expect(replies[1]).toBe(2);
@@ -47,9 +44,6 @@ test(`${testSuiteName}: example pipeline with bad command`, async () => {
   pipeline.get(testKey);
 
   const replies = await pipeline.execAsync();
-
-  console.log('Replies (example pipeline with bad command):');
-  console.log(replies);
 
   expect(replies).toHaveLength(3);
   expect(replies[0]).toBe('OK');
