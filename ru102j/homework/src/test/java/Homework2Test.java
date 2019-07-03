@@ -35,6 +35,7 @@ public class Homework2Test {
         jedis.zadd("metrics", minuteOfDay, measurement);
     }
 
+    /* This method intentionally throws an exception
     @Test
     public void compare() {
         Pipeline p = jedis.pipelined();
@@ -46,10 +47,5 @@ public class Homework2Test {
         }
 
         p.sync();
-    }
-
-    @Test
-    public void zSets(ZonedDateTime day, Integer value) {
-
-    }
+    } */
 }
