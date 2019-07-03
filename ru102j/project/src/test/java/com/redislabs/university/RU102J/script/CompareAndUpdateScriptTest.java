@@ -20,6 +20,7 @@ public class CompareAndUpdateScriptTest {
     private CompareAndUpdateScript cu;
     private String key;
     private String field;
+    private String emptyKey;
 
     @BeforeClass
     public static void setUp() throws Exception {
@@ -43,8 +44,18 @@ public class CompareAndUpdateScriptTest {
     public void prepare() {
         this.cu = new CompareAndUpdateScript(jedisPool);
         this.key = RedisSchema.getSiteStatsKey(1L, ZonedDateTime.now());
+        this.emptyKey = RedisSchema.getSiteStatsKey(1000L, ZonedDateTime.now());
         this.field = "n";
         jedis.hset(key, field, "1.0");
+    }
+
+    @Test
+    public void updateWhenNull() {
+        jedis.del(emptyKey);
+        Transaction t1 = jedis.multi();
+        cu.updateIfGreater(t1, emptyKey, "n", 1.0);
+        t1.exec();
+        assertThat(jedis.hget(emptyKey, "n"), is("1.0"));
     }
 
     @Test
