@@ -1,5 +1,12 @@
-const logger = require('../utils/logger');
 const feedDao = require('../daos/feed_dao');
+
+const getLimit = (n) => {
+  if (Number.isNaN(n) || n < 100) {
+    return 100;
+  }
+
+  return (n > 1000 ? 1000 : n);
+};
 
 const createMeterReading = async (req, res, next) => {
   try {
@@ -11,12 +18,7 @@ const createMeterReading = async (req, res, next) => {
 
 const getMeterReadings = async (req, res, next) => {
   try {
-    const limit = Number.isNaN(req.query.n) ? undefined : req.query.n;
-
-    if (limit) {
-      logger.debug(`Limit is ${limit}.`);
-    }
-
+    const limit = getLimit(req.query.n);
     const readings = await feedDao.getRecentGlobal(limit);
 
     return res.status(200).json(readings);
@@ -27,16 +29,12 @@ const getMeterReadings = async (req, res, next) => {
 
 const getMeterReadingsForSite = async (req, res, next) => {
   try {
-    const { siteId } = req.params;
-    const limit = Number.isNaN(req.query.n) ? undefined : req.query.n;
-
-    if (limit) {
-      logger.debug(`Limit is ${limit}.`);
-    }
+    const { siteId, n } = req.params;
+    const limit = getLimit(n);
 
     return res.status(200).json(feedDao.getRecentForSite(siteId, limit));
   } catch (err) {
-    next(err);
+    return next(err);
   }
 };
 
