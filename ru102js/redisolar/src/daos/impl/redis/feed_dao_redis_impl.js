@@ -1,10 +1,13 @@
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
-const insert = async meterReadings => 'Redis TODO';
+const insert = async (meterReadings) => {
+  const client = redis.getClient();
+};
 
 const getRecent = async (key, limit) => {
   const client = redis.getClient();
+  // const pipeline = client.batch();
 
   let entries;
 
