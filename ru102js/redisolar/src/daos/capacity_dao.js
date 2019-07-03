@@ -2,11 +2,11 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('capacity');
 
-const update = meterReading => impl.update(meterReading);
+const update = async meterReading => impl.update(meterReading);
 
-const getReport = limit => impl.getReport(limit);
+const getReport = async limit => impl.getReport(limit);
 
-const getRank = siteId => impl.getRank(siteId);
+const getRank = async siteId => impl.getRank(siteId);
 
 module.exports = {
   update,

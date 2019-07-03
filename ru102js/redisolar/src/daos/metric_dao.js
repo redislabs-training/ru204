@@ -2,9 +2,9 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('metric');
 
-const insert = meterReading => impl.insert(meterReading);
+const insert = async meterReading => impl.insert(meterReading);
 
-const getRecent = (siteId, unit, time, limit) => impl.getRecent(siteId, unit, time, limit);
+const getRecent = async (siteId, unit, time, limit) => impl.getRecent(siteId, unit, time, limit);
 
 module.exports = {
   insert,
