@@ -1,7 +1,7 @@
 const feedDao = require('../daos/feed_dao');
 
 const getLimit = (n) => {
-  if (Number.isNaN(n) || n < 100) {
+  if (Number.isNaN(n)) {
     return 100;
   }
 
@@ -18,8 +18,7 @@ const createMeterReading = async (req, res, next) => {
 
 const getMeterReadings = async (req, res, next) => {
   try {
-    const limit = getLimit(req.query.n);
-    const readings = await feedDao.getRecentGlobal(limit);
+    const readings = await feedDao.getRecentGlobal(getLimit(req.query.n));
 
     return res.status(200).json(readings);
   } catch (err) {
@@ -30,9 +29,8 @@ const getMeterReadings = async (req, res, next) => {
 const getMeterReadingsForSite = async (req, res, next) => {
   try {
     const { siteId, n } = req.params;
-    const limit = getLimit(n);
 
-    return res.status(200).json(feedDao.getRecentForSite(siteId, limit));
+    return res.status(200).json(feedDao.getRecentForSite(siteId, getLimit(n)));
   } catch (err) {
     return next(err);
   }
