@@ -24,7 +24,9 @@ const getGlobalFeedKey = () => getKey('sites:feed');
 
 const getFeedKey = siteId => getKey(`sites:feed:${siteId}`);
 
-const setPrefix = newPrefix => prefix = newPrefix;
+const setPrefix = (newPrefix) => {
+  prefix = newPrefix;
+};
 
 module.exports = {
   getSiteHashKey,
