@@ -11,7 +11,7 @@ const createMeterReading = async (req, res, next) => {
 
 const getMeterReadings = async (req, res, next) => {
   try {
-    const limit = isNaN(req.query.n) ? undefined : req.query.n;
+    const limit = Number.isNaN(req.query.n) ? undefined : req.query.n;
 
     if (limit) {
       logger.debug(`Limit is ${limit}.`);
@@ -28,9 +28,11 @@ const getMeterReadings = async (req, res, next) => {
 const getMeterReadingsForSite = async (req, res, next) => {
   try {
     const { siteId } = req.params;
-    const limit = req.query.n;
+    const limit = Number.isNaN(req.query.n) ? undefined : req.query.n;
 
-    logger.debug(`Limit is ${limit}.`);
+    if (limit) {
+      logger.debug(`Limit is ${limit}.`);
+    }
 
     return res.status(200).json(feedDao.getRecentForSite(siteId, limit));
   } catch (err) {
