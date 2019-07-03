@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-test('Basic Jest Test', () => {
+test('basic: Basic Jest Test no dependencies', () => {
   expect(2 + 2).toBe(4);
 });
 
