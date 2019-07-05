@@ -1,6 +1,9 @@
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
+const globalMaxFeedLength = 10000;
+const siteMaxFeedLength = 2440;
+
 const remap = (streamEntry) => {
   const remappedStreamEntry = { ...streamEntry };
 
@@ -17,14 +20,31 @@ const remap = (streamEntry) => {
   return remappedStreamEntry;
 };
 
-const insert = async (meterReadings) => {
+const insert = async (meterReading) => {
+  // Unpack meterReading into array of alternating key
+  // names and values for addition to the stream.
+
+  const fields = [];
+
+  for (const k in meterReading) {
+    if (meterReading.hasOwnProperty(k)) {
+      fields.push(k);
+      fields.push(meterReading[k]);
+    }
+  }
+
   const client = redis.getClient();
+  const pipeline = client.batch();
+
+  pipeline.xadd(keyGenerator.getGlobalFeedKey(), 'MAXLEN', globalMaxFeedLength, '*', ...fields);
+  pipeline.xadd(keyGenerator.getFeedKey(meterReading.siteId), 'MAXLEN', siteMaxFeedLength, '*', ...fields);
+
+  await pipeline.execAsync();
 };
 
 const getRecent = async (key, limit) => {
   const client = redis.getClient();
   let meterReadings = [];
-  // const pipeline = client.batch();
 
   const response = await client.xrevrangeAsync(key, '+', '-', 'COUNT', limit);
 

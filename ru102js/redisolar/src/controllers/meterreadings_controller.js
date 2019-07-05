@@ -1,3 +1,6 @@
+const metricDao = require('../daos/metric_dao');
+const siteStatsDao = require('../daos/sitestats_dao');
+const capacityDao = require('../daos/capacity_dao');
 const feedDao = require('../daos/feed_dao');
 
 const getLimit = (n) => {
@@ -8,9 +11,20 @@ const getLimit = (n) => {
   return (n > 1000 ? 1000 : n);
 };
 
-const createMeterReading = async (req, res, next) => {
+const createMeterReadings = async (req, res, next) => {
   try {
-    return res.status(200).json(feedDao.insert(req.body));
+    // TODO does order matter here, or are there
+    // dependencies... if so a for loop with multiple
+    // awaits might be better...
+    await req.body.map(async (meterReading) => Promise.all([
+        metricDao.insert(meterReading),
+        siteStatsDao.update(meterReading),
+        capacityDao.update(meterReading),
+        feedDao.insert(meterReading),
+      ])
+    );
+
+    return res.status(201).send('OK');
   } catch (err) {
     return next(err);
   }
@@ -37,7 +51,7 @@ const getMeterReadingsForSite = async (req, res, next) => {
 };
 
 module.exports = {
-  createMeterReading,
+  createMeterReadings,
   getMeterReadings,
   getMeterReadingsForSite,
 };
