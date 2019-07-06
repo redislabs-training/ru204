@@ -16,13 +16,12 @@ const createMeterReadings = async (req, res, next) => {
     // TODO does order matter here, or are there
     // dependencies... if so a for loop with multiple
     // awaits might be better...
-    await req.body.map(async (meterReading) => Promise.all([
-        metricDao.insert(meterReading),
-        siteStatsDao.update(meterReading),
-        capacityDao.update(meterReading),
-        feedDao.insert(meterReading),
-      ])
-    );
+    await req.body.map(async meterReading => Promise.all([
+      metricDao.insert(meterReading),
+      siteStatsDao.update(meterReading),
+      capacityDao.update(meterReading),
+      feedDao.insert(meterReading),
+    ]));
 
     return res.status(201).send('OK');
   } catch (err) {
