@@ -76,7 +76,7 @@ const getRecent = async (key, limit) => {
 
 const getRecentGlobal = async limit => getRecent(keyGenerator.getGlobalFeedKey(), limit);
 
-const getRecentForSite = async (siteId, limit) => getRecentForSite(
+const getRecentForSite = async (siteId, limit) => getRecent(
   keyGenerator.getFeedKey(siteId),
   limit,
 );
