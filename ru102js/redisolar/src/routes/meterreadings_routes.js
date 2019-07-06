@@ -14,7 +14,7 @@ router.post(
     body('*.tempC').isFloat(),
     apiErrorReporter,
   ],
-  controller.createMeterReading,
+  controller.createMeterReadings,
 );
 
 router.get(
