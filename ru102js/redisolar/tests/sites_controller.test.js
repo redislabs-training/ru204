@@ -25,10 +25,10 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: createMeterReadings`);
+test.todo(`${testSuiteName}: getSites`);
 
-test.todo(`${testSuiteName}: getMeterReadings`);
+test.todo(`${testSuiteName}: getSite`);
 
-test.todo(`${testSuiteName}: getMeterReadingsForSite`);
+test.todo(`${testSuiteName}: getSitesNearby`);
 
 /* eslint-enable */
