@@ -2,7 +2,7 @@ const config = require('better-config');
 const redis = require('../src/daos/impl/redis/redis_client');
 const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 
-const testSuiteName = 'meterreadings_controller_test';
+const testSuiteName = 'meterreadings_controller';
 
 const testKeyPrefix = 'test';
 

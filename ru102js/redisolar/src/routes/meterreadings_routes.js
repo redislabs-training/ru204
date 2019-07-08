@@ -29,7 +29,7 @@ router.post(
     } catch (err) {
       return next(err);
     }
-  }
+  },
 );
 
 router.get(
@@ -44,7 +44,7 @@ router.get(
       return res.status(200).json(readings);
     } catch (err) {
       return next(err);
-    }  
+    }
   },
 );
 
@@ -57,8 +57,11 @@ router.get(
   ],
   async (req, res, next) => {
     try {
-      const readings = await controller.getMeterReadingsForSite(req.params.siteId, getLimit(req.query.n));
-  
+      const readings = await controller.getMeterReadingsForSite(
+        req.params.siteId,
+        getLimit(req.query.n),
+      );
+
       return res.status(200).json(readings);
     } catch (err) {
       return next(err);

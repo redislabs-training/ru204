@@ -26,6 +26,6 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: write tests!`);
+test.todo(`${testSuiteName}: getCapacityReport`);
 
 /* eslint-enable */
