@@ -28,9 +28,23 @@ router.get(
     /* eslint-enable */
     apiErrorReporter,
   ],
-  (req, res) => (
-    req.query.lat ? controller.getSitesNearby(req, res) : controller.getSites(req, res)
-  ),
+  async (req, res, next) => {
+    try {
+      const {
+        lat, lng, radius, radiusUnit, onlyExcessCapacity,
+      } = req.query;
+
+      const sites = (
+        lat
+          ? await controller.getSitesNearby(lat, lng, radius, radiusUnit, onlyExcessCapacity)
+          : await controller.getSites()
+      );
+
+      return res.status(200).json(sites);
+    } catch (err) {
+      return next(err);
+    }
+  },
 );
 
 router.get(
@@ -39,7 +53,14 @@ router.get(
     param('siteId').isInt().toInt(),
     apiErrorReporter,
   ],
-  controller.getSite,
+  async (req, res, next) => {
+    try {
+      const site = await controller.getSite(req.params.siteId);
+      return (site ? res.status(200).json(site) : res.sendStatus(404));
+    } catch (err) {
+      return next(err);
+    }
+  },
 );
 
 
