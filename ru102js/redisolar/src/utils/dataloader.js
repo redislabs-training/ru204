@@ -19,7 +19,7 @@ const loadData = async (filename, flushDb) => {
     await flushDB();
   }
 
-  await Promise.all(sampleData.map((site) => siteDAO.insert(site)));
+  await Promise.all(sampleData.map(site => siteDAO.insert(site)));
 
   // for (const site of sampleData) {
   //   siteDAO.insert(site);
