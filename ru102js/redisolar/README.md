@@ -44,6 +44,16 @@ http://localhost:8080/
 
 TODO tour of `config.json`.
 
+# Load Sample Data
+
+To load sample site data and sample metrics, run:
+
+```
+npm run load src/resources/data/sites.json flushdb
+```
+
+`flushdb` is optional, and will erase all keys from Redis before inserting the sample data.
+
 # Development Workflow
 
 TODO
