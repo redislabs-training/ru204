@@ -93,7 +93,7 @@ test(`${testSuiteName}: findAll with empty sites`, async () => {
   expect(sites).toEqual([]);
 });
 
-test(`${testSuiteName}: insert`, async () => {
+test(`${testSuiteName}: insert without coordinates`, async () => {
   const site = {
     id: 4,
     capacity: 5.5,
@@ -128,5 +128,7 @@ test(`${testSuiteName}: insert`, async () => {
 
   expect(siteFromRedis).toEqual(expectedSiteHash);
 });
+
+test.todo(`${testSuiteName}: insert with coordinates`);
 
 /* eslint-enable */
