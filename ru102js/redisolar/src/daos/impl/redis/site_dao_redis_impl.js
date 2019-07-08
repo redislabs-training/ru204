@@ -1,4 +1,5 @@
 const redis = require('./redis_client');
+const keyGenerator = require('./redis_key_generator');
 
 const remap = (siteHash) => {
   const remappedSiteHash = { ...siteHash };
@@ -22,12 +23,31 @@ const remap = (siteHash) => {
   return remappedSiteHash;
 };
 
-const insert = async site => 'Redis TODO';
+const flatten = (site) => {
+  const flattenedSite = { ...site };
+
+  if (flattenedSite.hasOwnProperty('coordinate')) {
+    flattenedSite.lat = flattenedSite.coordinate.lat;
+    flattenedSite.lng = flattenedSite.coordinate.lng;
+    delete flattenedSite.coordinate;
+  }
+
+  return flattenedSite;
+};
+
+const insert = async (site) => {
+  const client = redis.getClient();
+
+  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
+
+  await client.hmsetAsync(siteHashKey, flatten(site));
+  await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
+};
 
 const findById = async (id) => {
   const client = redis.getClient();
 
-  const siteHash = await client.hgetallAsync(`app:sites:info:${id}`); // TODO generate key names...
+  const siteHash = await client.hgetallAsync(keyGenerator.getSiteHashKey(id));
 
   return (siteHash ? remap(siteHash) : null);
 };
@@ -35,31 +55,33 @@ const findById = async (id) => {
 const findAll = async () => {
   const client = redis.getClient();
 
-  const siteIds = await client.smembersAsync('app:sites:ids'); // TODO generate key names...
+  const siteIds = await client.smembersAsync(keyGenerator.getSiteIDsKey());
 
   // Lots of Promises...
   // This doesn't deal with string -> int / float conversions...
   // const sites = await Promise.all(siteIds.map(async siteId => client.hgetallAsync(siteId)));
 
-  const sites = await Promise.all(
-    siteIds.map(
-      async (siteId) => {
-        const siteHash = await client.hgetallAsync(siteId);
-        return remap(siteHash);
-      },
-    ),
-  );
+  // const sites = await Promise.all(
+  //   siteIds.map(
+  //     async (siteId) => {
+  //       const siteHash = await client.hgetallAsync(siteId);
+  //       return remap(siteHash);
+  //     },
+  //   ),
+  // );
 
   // For loop version
-  // const sites = [];
+  const sites = [];
 
-  // for (const siteId of siteIds) {
-  //   const siteHash = await client.hgetallAsync(siteId);
-  
-  //   if (siteHash) {
-  //     sites.push(remap(siteHash));
-  //   }
-  // }
+  for (const siteId of siteIds) {
+    /* eslint-disable no-await-in-loop */
+    const siteHash = await client.hgetallAsync(siteId);
+    /* eslint-enable */
+
+    if (siteHash) {
+      sites.push(remap(siteHash));
+    }
+  }
 
   return sites;
 };
