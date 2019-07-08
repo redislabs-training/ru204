@@ -11,6 +11,7 @@ const remap = (streamEntry) => {
   remappedStreamEntry.whUsed = parseFloat(streamEntry.whUsed, 10);
   remappedStreamEntry.whGenerated = parseFloat(streamEntry.whGenerated, 10);
   remappedStreamEntry.tempC = parseFloat(streamEntry.tempC, 10);
+  remappedStreamEntry.dateTime = parseInt(streamEntry.dateTime, 10);
 
   return remappedStreamEntry;
 };
