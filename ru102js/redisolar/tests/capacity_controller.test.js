@@ -25,10 +25,7 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: createMeterReadings`);
+test.todo(`${testSuiteName}: getCapacityReport`);
 
-test.todo(`${testSuiteName}: getMeterReadings`);
-
-test.todo(`${testSuiteName}: getMeterReadingsForSite`);
 
 /* eslint-enable */
