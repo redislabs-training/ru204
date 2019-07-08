@@ -10,7 +10,16 @@ router.get(
     query('n').optional().isInt({ min: 1 }).toInt(),
     apiErrorReporter,
   ],
-  controller.getMetricsForSite,
+  async (req, res, next) => {
+    try {
+      const limit = Number.isNaN(req.query.n) ? 120 : req.query.n;
+
+      const siteMetricsReport = await controller.getMetricsForSite(req.params.siteId, limit);
+      return res.status(200).json(siteMetricsReport);
+    } catch (err) {
+      return next(err);
+    }
+  },
 );
 
 module.exports = router;
