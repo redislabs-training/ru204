@@ -7,7 +7,7 @@ const testSuiteName = 'metrics_controller';
 const testKeyPrefix = 'test';
 
 config.set('../config.json');
-keyGenerator.setPrefix('test');
+keyGenerator.setPrefix(testKeyPrefix);
 const client = redis.getClient();
 
 /* eslint-disable no-undef */

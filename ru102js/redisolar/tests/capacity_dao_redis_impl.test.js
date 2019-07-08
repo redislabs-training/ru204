@@ -8,7 +8,7 @@ const testSuiteName = 'site_dao_redis_impl';
 const testKeyPrefix = 'test';
 
 config.set('../config.json');
-keyGenerator.setPrefix('test');
+keyGenerator.setPrefix(testKeyPrefix);
 const client = redis.getClient();
 
 /* eslint-disable no-undef */
