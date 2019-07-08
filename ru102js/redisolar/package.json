@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "./node_modules/nodemon/bin/nodemon.js",
-    "load": "node src/util/dataloader.js --",
+    "load": "node src/utils/dataloader.js --",
     "lint": "./node_modules/eslint/bin/eslint.js src tests",
     "start": "node ./src/app.js",
     "test": "jest",
