@@ -17,7 +17,8 @@ if (process.argv.length !== 4) {
   const filename = process.argv[3];
 
   try {
-    loadData(path.resolve(__dirname, '../', filename));
+    //loadData(filename);
+    loadData(path.resolve(__dirname, '../../', filename));
   } catch (e) {
     console.error(`Error loading ${filename}:`);
     console.error(e);
