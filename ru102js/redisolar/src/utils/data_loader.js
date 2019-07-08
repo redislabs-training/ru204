@@ -5,7 +5,7 @@ const redis = require('../daos/impl/redis/redis_client');
 config.set('../../config.json');
 
 const client = redis.getClient();
-const siteDAO = require('../daos/site_dao');
+const sitesController = require('../controllers/sites_controller');
 const dataGenerator = require('./sample_data_generator');
 
 const dataDaysToGenerate = 1;
@@ -23,26 +23,11 @@ const loadData = async (filename, flushDb) => {
   }
 
   for (const site of sampleData) {
-    await dataGenerator.generateHistorical(site, 1);
+    /* eslint-disable no-await-in-loop */
+    await sitesController.createSite(site);
+    await dataGenerator.generateHistorical(site, dataDaysToGenerate);
+    /* eslint-enable */
   }
-
-  //await Promise.all(sampleData.map(site => siteDAO.insert(site)));
-  // await Promise.all(
-  //   sampleData.map(
-  //     async site => {
-  //       await siteDAO.insert(site);
-  //       await dataGenerator.generateHistorical(site, 1);
-  //     },
-  //   ),
-  // );
-  //await dataGenerator.generateHistorical(dataDaysToGenerate, client);
-
-  // for (const site of sampleData) {
-  //   siteDAO.insert(site);
-  //   console.log(site);
-  // }
-
-  console.log(`Loaded ${sampleData.length} sites, with ${dataDaysToGenerate} day${dataDaysToGenerate !== 1 ? 's' : ''} of sample data.`);
 };
 
 const runDataLoader = async (params) => {
@@ -64,6 +49,7 @@ const runDataLoader = async (params) => {
     }
 
     client.quit();
+    console.log('Data load completed.');
   }
 };
 
