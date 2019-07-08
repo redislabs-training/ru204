@@ -42,6 +42,8 @@ const insert = async (site) => {
 
   await client.hmsetAsync(siteHashKey, flatten(site));
   await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
+
+  return siteHashKey;
 };
 
 const findById = async (id) => {

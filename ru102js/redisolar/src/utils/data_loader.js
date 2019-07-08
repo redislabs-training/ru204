@@ -6,6 +6,9 @@ config.set('../../config.json');
 
 const client = redis.getClient();
 const siteDAO = require('../daos/site_dao');
+const dataGenerator = require('./sample_data_generator');
+
+const dataDaysToGenerate = 1;
 
 const flushDB = async () => client.flushdbAsync();
 
@@ -19,14 +22,27 @@ const loadData = async (filename, flushDb) => {
     await flushDB();
   }
 
-  await Promise.all(sampleData.map(site => siteDAO.insert(site)));
+  for (const site of sampleData) {
+    await dataGenerator.generateHistorical(site, 1);
+  }
+
+  //await Promise.all(sampleData.map(site => siteDAO.insert(site)));
+  // await Promise.all(
+  //   sampleData.map(
+  //     async site => {
+  //       await siteDAO.insert(site);
+  //       await dataGenerator.generateHistorical(site, 1);
+  //     },
+  //   ),
+  // );
+  //await dataGenerator.generateHistorical(dataDaysToGenerate, client);
 
   // for (const site of sampleData) {
   //   siteDAO.insert(site);
   //   console.log(site);
   // }
 
-  console.log(`Loaded ${sampleData.length} sites.`);
+  console.log(`Loaded ${sampleData.length} sites, with ${dataDaysToGenerate} day${dataDaysToGenerate !== 1 ? 's' : ''} of sample data.`);
 };
 
 const runDataLoader = async (params) => {
