@@ -26,6 +26,84 @@ afterAll(() => {
   client.quit();
 });
 
+test(`${testSuiteName}: insert without coordinates`, async () => {
+  const site = {
+    id: 4,
+    capacity: 5.5,
+    panels: 4,
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+  };
+
+  const expectedSiteHash = {
+    id: '4',
+    capacity: '5.5',
+    panels: '4',
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+  };
+
+  await redisSiteDAO.insert(site);
+
+  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
+  const isMember = await client.sismemberAsync(
+    keyGenerator.getSiteIDsKey(),
+    siteHashKey,
+  );
+
+  expect(isMember).toBe(1);
+
+  const siteFromRedis = await client.hgetallAsync(siteHashKey);
+
+  expect(siteFromRedis).toEqual(expectedSiteHash);
+});
+
+test(`${testSuiteName}: insert with coordinates`, async () => {
+  const site = {
+    id: 4,
+    capacity: 5.5,
+    panels: 4,
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+    coordinate: {
+      lat: 37.739659,
+      lng: -122.255689,
+    },
+  };
+
+  const expectedSiteHash = {
+    id: '4',
+    capacity: '5.5',
+    panels: '4',
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+    lat: '37.739659',
+    lng: '-122.255689',
+  };
+
+  await redisSiteDAO.insert(site);
+
+  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
+  const isMember = await client.sismemberAsync(
+    keyGenerator.getSiteIDsKey(),
+    siteHashKey,
+  );
+
+  expect(isMember).toBe(1);
+
+  const siteFromRedis = await client.hgetallAsync(siteHashKey);
+
+  expect(siteFromRedis).toEqual(expectedSiteHash);
+});
+
 test(`${testSuiteName}: findById with existing site`, async () => {
   const site = {
     id: 4,
@@ -35,6 +113,27 @@ test(`${testSuiteName}: findById with existing site`, async () => {
     city: 'Oakland',
     state: 'CA',
     postalCode: '94577',
+  };
+
+  await redisSiteDAO.insert(site);
+  const siteFromRedis = await redisSiteDAO.findById(site.id);
+
+  expect(site).toEqual(siteFromRedis);
+});
+
+test(`${testSuiteName}: findById with existing site with coordinates`, async () => {
+  const site = {
+    id: 4,
+    capacity: 5.5,
+    panels: 4,
+    address: '910 Pine St.',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94577',
+    coordinate: {
+      lat: 37.739659,
+      lng: -122.255689,
+    },
   };
 
   await redisSiteDAO.insert(site);
@@ -92,43 +191,5 @@ test(`${testSuiteName}: findAll with empty sites`, async () => {
   const sites = await redisSiteDAO.findAll();
   expect(sites).toEqual([]);
 });
-
-test(`${testSuiteName}: insert without coordinates`, async () => {
-  const site = {
-    id: 4,
-    capacity: 5.5,
-    panels: 4,
-    address: '910 Pine St.',
-    city: 'Oakland',
-    state: 'CA',
-    postalCode: '94577',
-  };
-
-  const expectedSiteHash = {
-    id: '4',
-    capacity: '5.5',
-    panels: '4',
-    address: '910 Pine St.',
-    city: 'Oakland',
-    state: 'CA',
-    postalCode: '94577',
-  };
-
-  await redisSiteDAO.insert(site);
-
-  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
-  const isMember = await client.sismemberAsync(
-    keyGenerator.getSiteIDsKey(),
-    siteHashKey,
-  );
-
-  expect(isMember).toBe(1);
-
-  const siteFromRedis = await client.hgetallAsync(siteHashKey);
-
-  expect(siteFromRedis).toEqual(expectedSiteHash);
-});
-
-test.todo(`${testSuiteName}: insert with coordinates`);
 
 /* eslint-enable */
