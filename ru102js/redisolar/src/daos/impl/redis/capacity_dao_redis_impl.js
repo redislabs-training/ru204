@@ -6,8 +6,8 @@ const remap = (arr) => {
 
   for (let n = 0; n < arr.length; n += 2) {
     remapped.push({
-      siteId: arr[n],
-      capacity: parseFloat(arr[n + 1]),
+      siteId: parseInt(arr[n], 10),
+      capacity: parseFloat(arr[n + 1], 10),
     });
   }
 

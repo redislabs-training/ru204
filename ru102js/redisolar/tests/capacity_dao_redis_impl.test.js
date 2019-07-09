@@ -47,7 +47,69 @@ test(`${testSuiteName}: update`, async () => {
   expect(score).toBe(`${testReading.whGenerated - testReading.whUsed}`);
 });
 
-test.todo(`${testSuiteName}: getReport`);
+test(`${testSuiteName}: getReport`, async () => {
+  const entries = [
+    {
+      id: 1,
+      score: 10,
+    },
+    {
+      id: 2,
+      score: 15,
+    },
+    {
+      id: 3,
+      score: 30,
+    },
+    {
+      id: 4,
+      score: 20,
+    },
+    {
+      id: 5,
+      score: 50,
+    },
+    {
+      id: 6,
+      score: -4,
+    },
+  ];
+
+  await Promise.all(
+    entries.map(
+      site => client.zaddAsync(
+        keyGenerator.getCapacityRankingKey(),
+        site.score,
+        site.id,
+      ),
+    ),
+  );
+
+  const report = await redisCapacityDAO.getReport(2);
+
+  expect(report).toStrictEqual({
+    lowestCapacity: [
+      {
+        siteId: 6,
+        capacity: -4,
+      },
+      {
+        siteId: 1,
+        capacity: 10,
+      },
+    ],
+    highestCapacity: [
+      {
+        siteId: 5,
+        capacity: 50,
+      },
+      {
+        siteId: 3,
+        capacity: 30,
+      },
+    ],
+  });
+});
 
 test(`${testSuiteName}: getRank`, async () => {
   // Create some data
