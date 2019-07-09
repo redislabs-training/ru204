@@ -2,11 +2,6 @@ const moment = require('moment');
 
 const meterReadingsController = require('../controllers/meterreadings_controller');
 
-// const metricDao = require('../daos/metric_dao');
-// const siteStatsDao = require('../daos/sitestats_dao');
-// const capacityDao = require('../daos/capacity_dao');
-// const feedDao = require('../daos/feed_dao');
-
 const maxTempC = 30;
 
 const getMaxMinuteWHGenerated = capacity => capacity * 1000 / 24 / 60;
