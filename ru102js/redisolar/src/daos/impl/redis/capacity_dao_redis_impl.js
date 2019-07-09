@@ -41,7 +41,16 @@ const getReport = async (limit) => {
   };
 };
 
-const getRank = async siteId => 'Redis TODO';
+const getRank = async (siteId) => {
+  const client = redis.getClient();
+
+  const result = await client.zrevrankAsync(
+    keyGenerator.getCapacityRankingKey(),
+    `${siteId}`,
+  );
+
+  return result;
+};
 
 module.exports = {
   update,
