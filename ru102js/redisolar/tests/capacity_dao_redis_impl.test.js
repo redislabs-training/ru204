@@ -26,7 +26,26 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: update`);
+test(`${testSuiteName}: update`, async () => {
+  const testReading = {
+    siteId: 999,
+    dateTime: Math.floor(new Date().getTime() / 1000),
+    whUsed: 12,
+    whGenerated: 20,
+    tempC: 20,
+  };
+
+  await redisCapacityDAO.update(testReading);
+
+  const score = await client.zscoreAsync(
+    keyGenerator.getCapacityRankingKey(),
+    testReading.siteId,
+  );
+
+  // Remember score will come back as a string, so ensure it is
+  // compared with a string to make the test succeed.
+  expect(score).toBe(`${testReading.whGenerated - testReading.whUsed}`);
+});
 
 test.todo(`${testSuiteName}: getReport`);
 
