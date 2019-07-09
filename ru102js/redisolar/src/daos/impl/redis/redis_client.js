@@ -9,9 +9,10 @@ const client = redis.createClient({
   port: config.get('dataStores.redis.port'),
 });
 
-// TODO deal with optional authentication???
+// TODO add better client error...
+client.on('error', error => console.log(error));
 
-// TODO add client error...
+// TODO deal with optional authentication???
 
 const getClient = () => client; // Later this may need to use param eg for separate pubsub client...
 
