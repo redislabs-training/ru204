@@ -20,50 +20,65 @@ const getNextValueInSeries = (current, max) => {
 
   if (Math.random() < 0.5) {
     return current + stepSize;
-  } else {
-    if (current - stepSize < 0) {
-      return 0;
-    } else {
-      return current - stepSize;
-    }
   }
+
+  if (current - stepSize < 0) {
+    return 0;
+  }
+
+  return current - stepSize;
 };
 
 const getNextValue = max => getNextValueInSeries(max, max);
 
-const generateHistorical = async (site, days) => {
+const generateHistorical = async (sites, days) => {
   if (days < 1 || days > 365) {
     throw { error: `Historical data generation requests must be for 1-365 days, not ${days}.` };
   }
 
-  console.log(`Site: ${site.id} - Generating ${days} day${days !== 1 ? 's' : ''} sample data.`);
-
-  const maxCapacity = getMaxMinuteWHGenerated(site.capacity);
-  let currentCapacity = getNextValue(maxCapacity);
-  let currentTemperature = getNextValue(maxTempC);
-  let currentUsage = getInitialMinuteWHUsed(maxCapacity);
-  let readingTime = moment().utc();
-
+  const generatedMeterReadings = {};
   const numMinutesToGenerate = (60 * 24 * days);
 
-  for (let n = 0; n < numMinutesToGenerate; n += 1) {
-    const meterReading = {
-      siteId: site.id,
-      dateTime: readingTime.unix(),
-      whUsed: currentUsage,
-      whGenerated: currentCapacity,
-      tempC: currentTemperature,
-    };
+  for (const site of sites) {
+    console.log(`Site: ${site.id} - Generating ${days} day${days !== 1 ? 's' : ''} sample data.`);
 
-    await meterReadingsController.createMeterReadings([meterReading]);
+    const readingStartTime = moment.utc();
+    const maxCapacity = getMaxMinuteWHGenerated(site.capacity);
+    let currentCapacity = getNextValue(maxCapacity);
+    let currentTemperature = getNextValue(maxTempC);
+    let currentUsage = getInitialMinuteWHUsed(maxCapacity);
+    let readingTime = readingStartTime;
 
-    readingTime = readingTime.subtract(1, 'minutes');
-    currentTemperature = getNextValue(currentTemperature);
-    currentCapacity = getNextValue(currentCapacity, maxCapacity);
-    currentUsage = getNextValue(currentUsage, maxCapacity);
+    generatedMeterReadings[site.id] = [];
+
+    for (let n = 0; n < numMinutesToGenerate; n += 1) {
+      const meterReading = {
+        siteId: site.id,
+        dateTime: readingTime.unix(),
+        whUsed: currentUsage,
+        whGenerated: currentCapacity,
+        tempC: currentTemperature,
+      };
+
+      generatedMeterReadings[site.id].push(meterReading);
+
+      readingTime = readingTime.subtract(1, 'minutes');
+      currentTemperature = getNextValue(currentTemperature);
+      currentCapacity = getNextValue(currentCapacity, maxCapacity);
+      currentUsage = getNextValue(currentUsage, maxCapacity);
+    }
   }
 
-  return true;
+  // Now feed these into the system one minute per site at a time.
+  for (let n = 0; n < numMinutesToGenerate; n += 1) {
+    for (const site in generatedMeterReadings) {
+      if (generatedMeterReadings.hasOwnProperty(site)) {
+        /* eslint-disable no-await-in-loop */
+        await meterReadingsController.createMeterReadings([generatedMeterReadings[site][n]]);
+        /* eslint-enable */
+      }
+    }
+  }
 };
 
 module.exports = {
