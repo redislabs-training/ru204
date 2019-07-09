@@ -1,8 +1,11 @@
+const moment = require('moment');
 const config = require('better-config');
 
 let prefix = config.get('dataStores.redis.keyPrefix');
 
 const getKey = key => `${prefix}:${key}`;
+
+const formatTimestamp = timestamp => moment.unix(timestamp).utc().format('YYYY-MM-DD');
 
 const getSiteHashKey = siteId => getKey(`sites:info:${siteId}`);
 
@@ -18,7 +21,9 @@ const getCapacityRankingKey = () => getKey('sites:capacity:ranking');
 
 const getTSKey = (siteId, unit) => getKey(`sites:ts:${siteId}:${unit}`);
 
-const getDayMetricKey = (siteId, unit, timestamp) => 'TODO';
+const getDayMetricKey = (siteId, unit, timestamp) => getKey(
+  `metric:${unit}:${formatTimestamp(timestamp)}:${siteId}`
+);
 
 const getGlobalFeedKey = () => getKey('sites:feed');
 
