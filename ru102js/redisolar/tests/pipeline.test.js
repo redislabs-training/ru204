@@ -1,8 +1,9 @@
 const redis = require('../src/daos/impl/redis/redis_client');
 
 const client = redis.getClient();
-const testKeyPrefix = 'test';
+
 const testSuiteName = 'pipeline';
+const testKeyPrefix = `test:${testSuiteName}`;
 
 /* eslint-disable no-undef */
 

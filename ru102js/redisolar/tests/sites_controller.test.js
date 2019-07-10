@@ -4,7 +4,7 @@ const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 
 const testSuiteName = 'sites_controller';
 
-const testKeyPrefix = 'test';
+const testKeyPrefix = `test:${testSuiteName}`;
 
 config.set('../config.json');
 keyGenerator.setPrefix(testKeyPrefix);

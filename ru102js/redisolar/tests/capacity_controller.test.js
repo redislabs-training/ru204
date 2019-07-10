@@ -4,7 +4,7 @@ const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 
 const testSuiteName = 'capacity_controller';
 
-const testKeyPrefix = 'test';
+const testKeyPrefix = `test:${testSuiteName}`;
 
 config.set('../config.json');
 keyGenerator.setPrefix(testKeyPrefix);
@@ -26,6 +26,5 @@ afterAll(() => {
 });
 
 test.todo(`${testSuiteName}: getCapacityReport`);
-
 
 /* eslint-enable */
