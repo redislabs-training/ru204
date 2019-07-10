@@ -12,6 +12,7 @@
 * Complete Redis DAOs
 * JSDoc comments
 * Tidy up field names into constants
+* Make the loader output more synchronous
 
 # Introduction
 
