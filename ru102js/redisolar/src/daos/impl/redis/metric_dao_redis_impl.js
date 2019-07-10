@@ -1,25 +1,12 @@
-const moment = require('moment');
 const roundTo = require('round-to');
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
+const timeUtils = require('../../../utils/time_utils');
 
 const metricsPerDay = 60 * 24;
 const maxMetricRetentionDays = 30;
 const metricExpirationSeconds = 60 * 60 * 24 * maxMetricRetentionDays + 1;
 const maxDaysToReturn = 7;
-
-const getMinuteOfDay = (timestamp) => {
-  const ts = moment.unix(timestamp).utc();
-  const dayStart = moment.unix(timestamp).utc().startOf('day');
-
-  return ts.diff(dayStart, 'minutes');
-};
-
-const getTimestampForMinuteOfDay = (timestamp, minute) => {
-  const dayStart = moment.unix(timestamp).utc().startOf('day');
-
-  return dayStart.add(minute, 'minutes').unix();
-};
 
 const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measurement, 2)}:${minuteOfDay}`;
 
@@ -35,7 +22,7 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   const client = redis.getClient();
 
   const metricKey = keyGenerator.getDayMetricKey(siteId, metricName, timestamp);
-  const minuteOfDay = getMinuteOfDay(timestamp);
+  const minuteOfDay = timeUtils.getMinuteOfDay(timestamp);
 
   const pipeline = client.batch();
 
@@ -60,7 +47,7 @@ const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
     // Add in reverse order.
     formattedMeasurements.unshift({
       siteId,
-      dateTime: getTimestampForMinuteOfDay(timestamp, minute),
+      dateTime: timeUtils.getTimestampForMinuteOfDay(timestamp, minute),
       value: measurement,
       metricUnit,
     });
