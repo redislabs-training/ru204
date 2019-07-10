@@ -4,7 +4,12 @@ const impl = daoLoader.loadDao('metric');
 
 const insert = async meterReading => impl.insert(meterReading);
 
-const getRecent = async (siteId, unit, time, limit) => impl.getRecent(siteId, unit, time, limit);
+const getRecent = async (siteId, metricUnit, timestamp, limit) => impl.getRecent(
+  siteId,
+  metricUnit,
+  timestamp,
+  limit,
+);
 
 module.exports = {
   insert,
