@@ -26,6 +26,12 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: write tests!`);
+test.todo(`${testSuiteName}: hit (fixed window limit not exceeded)`);
+
+test.todo(`${testSuiteName}: hit (fixed window limit exceeded)`);
+
+test.todo(`${testSuiteName}: hit (sliding window limit not exceeded)`);
+
+test.todo(`${testSuiteName}: hit (sliding window limit exceeded)`);
 
 /* eslint-enable */
