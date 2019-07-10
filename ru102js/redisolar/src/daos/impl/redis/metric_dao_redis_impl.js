@@ -50,12 +50,11 @@ const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
 
   const key = keyGenerator.getDayMetricKey(siteId, metricUnit, timestamp);
 
-  // TODO Watch the video why do i need withscores here????
-  const metrics = await client.zrevrangeAsync(key, 0, limit - 1, 'WITHSCORES');
+  const metrics = await client.zrevrangeAsync(key, 0, limit - 1);
 
   const formattedMeasurements = [];
 
-  for (let n = 0; n < metrics.length; n += 2) {
+  for (let n = 0; n < metrics.length; n += 1) {
     const { measurement, minute } = extractMeasurementMinute(metrics[n]);
 
     // Add in reverse order.
