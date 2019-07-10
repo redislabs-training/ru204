@@ -14,6 +14,24 @@
 * Tidy up field names into constants
 * Make the loader output more synchronous
 
+## Number Rounding?
+
+The Java implementation rounds numbers as follows:
+
+* Map page: N/A
+* Site Stats page: 2 decimal places
+* Recent page: raw? but all 3-4 decimal places
+* Capacity report page: raw ?
+
+The JavaScript implementation rounds numbers as follows:
+
+* Map page: N/A
+* Site Stats page: 2 decimal places
+* Recent page: raw? (seems to be some long numbers and cold temps?)
+* Capacity report page: raw? lots of decimal places!
+
+See if we want to standardize this and round all data to 2 decimal places when ingesting / creating it?
+
 # Introduction
 
 TODO.
