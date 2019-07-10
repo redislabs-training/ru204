@@ -22,7 +22,7 @@ const getCapacityRankingKey = () => getKey('sites:capacity:ranking');
 const getTSKey = (siteId, unit) => getKey(`sites:ts:${siteId}:${unit}`);
 
 const getDayMetricKey = (siteId, unit, timestamp) => getKey(
-  `metric:${unit}:${formatTimestamp(timestamp)}:${siteId}`
+  `metric:${unit}:${formatTimestamp(timestamp)}:${siteId}`,
 );
 
 const getGlobalFeedKey = () => getKey('sites:feed');
