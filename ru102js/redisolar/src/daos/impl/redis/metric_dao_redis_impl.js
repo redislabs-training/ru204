@@ -80,7 +80,10 @@ const insert = async (meterReading) => {
 
 const getRecent = async (siteId, metricUnit, timestamp, limit) => {
   if (limit > (metricsPerDay * maxMetricRetentionDays)) {
-    throw new Error('Cannot request more than two weeks of minute level data');
+    const err = new Error(`Cannot request more than ${maxMetricRetentionDays} days of minute level data.`);
+    err.name = 'TooManyMetricsError';
+
+    throw err;
   }
 
   let currentTimestamp = timestamp;

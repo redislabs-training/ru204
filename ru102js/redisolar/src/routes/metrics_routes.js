@@ -17,6 +17,10 @@ router.get(
       const siteMetricsReport = await controller.getMetricsForSite(req.params.siteId, limit);
       return res.status(200).json(siteMetricsReport);
     } catch (err) {
+      if (err.name && err.name === 'TooManyMetricsError') {
+        return res.status(400).send(err.message);
+      }
+
       return next(err);
     }
   },
