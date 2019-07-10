@@ -192,4 +192,8 @@ test(`${testSuiteName}: findAll with empty sites`, async () => {
   expect(sites).toEqual([]);
 });
 
+test.todo(`${testSuiteName}: findByGeo with results`);
+
+test.todo(`${testSuiteName}: findBy Geo no results`);
+
 /* eslint-enable */
