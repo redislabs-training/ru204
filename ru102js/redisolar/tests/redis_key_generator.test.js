@@ -22,7 +22,36 @@ test(`${testSuiteName}: getSiteIDsKey`, () => {
 test.todo(`${testSuiteName}: getSiteStatsKey`);
 
 test(`${testSuiteName}: getRateLimiterKey`, () => {
-  expect(keyGenerator.getRateLimiterKey('test', 1, 12)).toBe(`${expectedKeyPrefix}:test:1:12`);
+  const name = 'resourcename';
+  const interval = 10;
+  const maxHits = 12;
+  const key = keyGenerator.getRateLimiterKey(name, interval, maxHits);
+
+  // The exact value returned depends on the time of day and
+  // checking it could lead to periodic test failure if we
+  // calculate the minute of day first then compare with the
+  // result of calling getRateLimiterKey.  This test avoids
+  // doing this by testing various properties of the returned
+  // key to make sure it's the right format.
+
+  const expectedStart = `${expectedKeyPrefix}:limiter:${name}:`;
+
+  expect(key.length).toBeGreaterThan(expectedStart.length);
+  expect(key.startsWith(expectedStart)).toBe(true);
+  expect(key.endsWith(`:${maxHits}`)).toBe(true);
+
+  const keyParts = key.split(':');
+
+  expect(keyParts.length).toBe(5);
+  expect(keyParts[0]).toBe(expectedKeyPrefix);
+  expect(keyParts[1]).toBe('limiter');
+  expect(keyParts[2]).toBe(name);
+
+  const minuteOfDay = parseInt(keyParts[3], 10);
+  expect(minuteOfDay).toBeGreaterThanOrEqual(0);
+  expect(minuteOfDay).toBeLessThan(1440);
+
+  expect(keyParts[4]).toBe(`${maxHits}`);
 });
 
 test(`${testSuiteName}: getSiteGeoKey`, () => {
