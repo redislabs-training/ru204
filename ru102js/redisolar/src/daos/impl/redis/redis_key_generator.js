@@ -12,7 +12,7 @@ const getSiteHashKey = siteId => getKey(`sites:info:${siteId}`);
 
 const getSiteIDsKey = () => getKey('sites:ids');
 
-const getSiteStatsKey = (siteId, timestamp) => 'TODO';
+const getSiteStatsKey = (siteId, timestamp) => getKey(`sites:stats:${formatTimestamp(timestamp)}:${siteId}`);
 
 const getRateLimiterKey = (name, interval, maxHits) => {
   const minuteOfDay = timeUtils.getMinuteOfDay();

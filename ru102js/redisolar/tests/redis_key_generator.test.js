@@ -19,7 +19,10 @@ test(`${testSuiteName}: getSiteIDsKey`, () => {
   expect(keyGenerator.getSiteIDsKey()).toBe(`${expectedKeyPrefix}:sites:ids`);
 });
 
-test.todo(`${testSuiteName}: getSiteStatsKey`);
+test(`${testSuiteName}: getSiteStatsKey`, () => {
+  // July 10th 2019 16:00:00 UTC.
+  expect(keyGenerator.getSiteStatsKey(999, 1562774400)).toBe(`${expectedKeyPrefix}:sites:stats:2019-07-10:999`);
+});
 
 test(`${testSuiteName}: getRateLimiterKey`, () => {
   const name = 'resourcename';
