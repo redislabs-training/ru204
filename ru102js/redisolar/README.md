@@ -13,6 +13,7 @@
 * JSDoc comments
 * Tidy up field names into constants
 * Make the loader output more synchronous
+* See if I need to implement the sliding window rate limiter.
 
 ## Number Rounding?
 
