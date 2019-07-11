@@ -11,7 +11,7 @@ config.set('../config.json');
 keyGenerator.setPrefix(testKeyPrefix);
 const client = redis.getClient();
 
-/* eslint-disable no-undef */
+/* eslint-disable no-undef, no-await-in-loop */
 
 afterEach(async () => {
   const testKeys = await client.keysAsync(`${testKeyPrefix}:*`);
@@ -26,9 +26,32 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: hit (fixed window limit not exceeded)`);
+const runRateLimiter = async (limiterOpts, iterations) => {
+  let remaining = limiterOpts.maxHits;
 
-test.todo(`${testSuiteName}: hit (fixed window limit exceeded)`);
+  for (let n = 0; n < iterations; n += 1) {
+    if (remaining > 0) {
+      remaining -= 1;
+    }
+
+    const remains = await redisRateLimiterDAO.hit('testresource', limiterOpts);
+    expect(remaining).toBe(remains);
+  }
+};
+
+test(`${testSuiteName}: hit (fixed window limit not exceeded)`, async () => {
+  await runRateLimiter({
+    interval: 1,
+    maxHits: 5,
+  }, 5);
+});
+
+test(`${testSuiteName}: hit (fixed window limit exceeded)`, async () => {
+  await runRateLimiter({
+    interval: 1,
+    maxHits: 5,
+  }, 7);
+});
 
 test.todo(`${testSuiteName}: hit (sliding window limit not exceeded)`);
 

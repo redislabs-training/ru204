@@ -4,7 +4,7 @@ const testSuiteName = 'time_utils';
 
 /* eslint-disable no-undef */
 
-test(`${testSuiteName}: getMinuteOfDay`, () => {
+test(`${testSuiteName}: getMinuteOfDay from provided timestamp`, () => {
   // July 10 2019 00:00:00 UTC
   expect(timeUtils.getMinuteOfDay(1562716800)).toBe(0);
 
@@ -19,6 +19,20 @@ test(`${testSuiteName}: getMinuteOfDay`, () => {
 
   // July 10 2019 23:59:59 UTC
   expect(timeUtils.getMinuteOfDay(1562803199)).toBe(1439);
+});
+
+test(`${testSuiteName}: getMinuteOfDay without providing timestamp`, () => {
+  // This basically runs at whatever the current time is
+  // so it's a looser test as we don't know what the result
+  // will be and there's a chance that even if we worked it
+  // out and compared to the return value of the funtion we
+  // might cross a minute boundary during that time and get
+  // an unexpected result.
+
+  const minuteOfDay = timeUtils.getMinuteOfDay();
+
+  expect(minuteOfDay).toBeGreaterThanOrEqual(0);
+  expect(minuteOfDay).toBeLessThan(1440);
 });
 
 test(`${testSuiteName}: getTimestampForMinuteOfDay`, () => {

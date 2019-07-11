@@ -1,5 +1,6 @@
 const moment = require('moment');
 const config = require('better-config');
+const timeUtils = require('../../../utils/time_utils');
 
 let prefix = config.get('dataStores.redis.keyPrefix');
 
@@ -13,7 +14,10 @@ const getSiteIDsKey = () => getKey('sites:ids');
 
 const getSiteStatsKey = (siteId, timestamp) => 'TODO';
 
-const getRateLimiterKey = (name, minute, maxHits) => getKey(`${name}:${minute}:${maxHits}`);
+const getRateLimiterKey = (name, interval, maxHits) => {
+  const minuteOfDay = timeUtils.getMinuteOfDay();
+  return getKey(`limiter:${name}:${Math.floor(minuteOfDay / interval)}:${maxHits}`);
+};
 
 const getSiteGeoKey = () => getKey('sites:geo');
 
