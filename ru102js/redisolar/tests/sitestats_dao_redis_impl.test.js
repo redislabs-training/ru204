@@ -26,6 +26,99 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: write tests!`);
+test(`${testSuiteName}: update`, async () => {
+  let before = Math.floor(new Date().getTime() / 1000);
+
+  const meterReading = {
+    siteId: 999,
+    dateTime: 1562619432,
+    whUsed: 22.4,
+    whGenerated: 12.3,
+    tempC: 23.4,
+  };
+
+  await redisSiteStatsDAO.update(meterReading);
+
+  const hashKey = `${testKeyPrefix}:sites:stats:2019-07-08:999`;
+
+  let after = Math.floor(new Date().getTime() / 1000);
+  let hash = await client.hgetallAsync(hashKey);
+
+  expect(hash.meterReadingCount).toBe('1');
+  expect(hash.maxWhGenerated).toBe(`${meterReading.whGenerated}`);
+  expect(hash.minWhGenerated).toBe(`${meterReading.whGenerated}`);
+  expect(hash.maxCapacity).toBe(`${meterReading.whGenerated - meterReading.whUsed}`);
+
+  let lastReportingTime = parseInt(hash.lastReportingTime, 10);
+  expect(lastReportingTime).toBeGreaterThanOrEqual(before);
+  expect(lastReportingTime).toBeLessThanOrEqual(after);
+
+  // Send in a reading with less capacity, expect to get previous
+  // maxCapacity back and meterReadingCount of 2.
+
+  const meterReading2 = {
+    siteId: 999,
+    dateTime: 1562619482,
+    whUsed: 24.4,
+    whGenerated: 12.1,
+    tempC: 24.4,
+  };
+
+  before = Math.floor(new Date().getTime() / 1000);
+  await redisSiteStatsDAO.update(meterReading2);
+  after = Math.floor(new Date().getTime() / 1000);
+
+  hash = await client.hgetallAsync(hashKey);
+
+  expect(hash.meterReadingCount).toBe('2');
+
+  // Looking for value from the previous meterReading.
+  expect(hash.maxWhGenerated).toBe(`${meterReading.whGenerated}`);
+
+  // Looking for value from this meterReading.
+  expect(hash.minWhGenerated).toBe(`${meterReading2.whGenerated}`);
+
+  // Looking for value from the previous meterReading.
+  expect(hash.maxCapacity).toBe(`${meterReading.whGenerated - meterReading.whUsed}`);
+
+  lastReportingTime = parseInt(hash.lastReportingTime, 10);
+  expect(lastReportingTime).toBeGreaterThanOrEqual(before);
+  expect(lastReportingTime).toBeLessThanOrEqual(after);
+
+  // Send in a reading with more capacity, expect to get updated
+  // maxCapacity back and meterReadingCount of 3.
+
+  const meterReading3 = {
+    siteId: 999,
+    dateTime: 1562619542,
+    whUsed: 10.4,
+    whGenerated: 22.1,
+    tempC: 22.3,
+  };
+
+  before = Math.floor(new Date().getTime() / 1000);
+  await redisSiteStatsDAO.update(meterReading3);
+  after = Math.floor(new Date().getTime() / 1000);
+
+  hash = await client.hgetallAsync(hashKey);
+
+  expect(hash.meterReadingCount).toBe('3');
+
+  // Looking for value from this meterReading.
+  expect(hash.maxWhGenerated).toBe(`${meterReading3.whGenerated}`);
+
+  // Looking for value from the previous meterReading.
+  expect(hash.minWhGenerated).toBe(`${meterReading2.whGenerated}`);
+
+  // Looking for value from the this meterReading.
+  expect(hash.maxCapacity).toBe(`${meterReading3.whGenerated - meterReading3.whUsed}`);
+
+  lastReportingTime = parseInt(hash.lastReportingTime, 10);
+  expect(lastReportingTime).toBeGreaterThanOrEqual(before);
+  expect(lastReportingTime).toBeLessThanOrEqual(after);
+});
+
+
+test.todo(`${testSuiteName}: more tests!`);
 
 /* eslint-enable */
