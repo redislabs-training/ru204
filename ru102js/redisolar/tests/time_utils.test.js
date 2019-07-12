@@ -4,8 +4,16 @@ const testSuiteName = 'time_utils';
 
 /* eslint-disable no-undef */
 
+test(`${testSuiteName}: getCurrentTimestamp`, () => {
+  const before = Math.floor(new Date().getTime() / 1000);
+  const ts = timeUtils.getCurrentTimestamp();
+  const after = Math.floor(new Date().getTime() / 1000);
+
+  expect(before).toBeLessThanOrEqual(ts);
+  expect(after).toBeGreaterThanOrEqual(ts);
+});
+
 test(`${testSuiteName}: getDateString`, () => {
-  // TODO ADD THESE TESTS!!
   // January 1st 2019 00:00:59 UTC - 2019-01-01 - 1546300859
   expect(timeUtils.getDateString(1546300859)).toBe('2019-01-01');
 
