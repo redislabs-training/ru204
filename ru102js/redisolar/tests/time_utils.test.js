@@ -4,6 +4,21 @@ const testSuiteName = 'time_utils';
 
 /* eslint-disable no-undef */
 
+test(`${testSuiteName}: getDateString`, () => {
+  // TODO ADD THESE TESTS!!
+  // January 1st 2019 00:00:59 UTC - 2019-01-01 - 1546300859
+  expect(timeUtils.getDateString(1546300859)).toBe('2019-01-01');
+
+  // July 10th 2019 23:59:59 UTC - 2019-07-10 - 1562803199
+  expect(timeUtils.getDateString(1562803199)).toBe('2019-07-10');
+
+  // November 22nd 2019 12:00:00 UTC - 2019-11-22 - 1574380800
+  expect(timeUtils.getDateString(1574380800)).toBe('2019-11-22');
+
+  // February 29th 2020 22:15:00 UTC - 2020-02-29 (leap year) - 1583014500
+  expect(timeUtils.getDateString(1583014500)).toBe('2020-02-29');
+});
+
 test(`${testSuiteName}: getMinuteOfDay from provided timestamp`, () => {
   // July 10 2019 00:00:00 UTC
   expect(timeUtils.getMinuteOfDay(1562716800)).toBe(0);
