@@ -3,7 +3,7 @@ const redis = require('../src/daos/impl/redis/redis_client');
 const redisMetricDAO = require('../src/daos/impl/redis/metric_dao_redis_impl');
 const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 
-const testSuiteName = 'site_dao_redis_impl';
+const testSuiteName = 'metric_dao_redis_impl';
 
 const testKeyPrefix = `test:${testSuiteName}`;
 
