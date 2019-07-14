@@ -7,6 +7,7 @@ const metricsPerDay = 60 * 24;
 const maxMetricRetentionDays = 30;
 const metricExpirationSeconds = 60 * 60 * 24 * maxMetricRetentionDays + 1;
 const maxDaysToReturn = 7;
+const daySeconds = 24 * 60 * 60;
 
 const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measurement, 2)}:${minuteOfDay}`;
 
@@ -90,7 +91,7 @@ const getRecent = async (siteId, metricUnit, timestamp, limit) => {
     measurements.unshift(...dateMeasurements);
     count -= dateMeasurements.length;
     iterations += 1;
-    currentTimestamp -= 24 * 60 * 60; // One day, seconds.
+    currentTimestamp -= daySeconds;
   } while (count > 0 && iterations < maxDaysToReturn);
 
   return measurements;
