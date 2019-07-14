@@ -22,7 +22,7 @@ const getSource = () => `
 
 const getSha = async () => {
   // Load script on first use...
-  if (! sha) {
+  if (!sha) {
     const client = redis.getClient();
     sha = await client.scriptAsync('load', getSource());
   }
