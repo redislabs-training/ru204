@@ -43,6 +43,16 @@ const insert = async (site) => {
   await client.hmsetAsync(siteHashKey, flatten(site));
   await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
 
+  // Co-ordinates are optional.
+  if (site.hasOwnProperty('coordinate')) {
+    await client.geoaddAsync(
+      keyGenerator.getSiteGeoKey(), 
+      site.coordinate.lng, 
+      site.coordinate.lat, 
+      siteHashKey,
+    );
+  }
+
   return siteHashKey;
 };
 
@@ -88,7 +98,14 @@ const findAll = async () => {
   return sites;
 };
 
-const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => 'Redis TODO';
+const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => {
+  const client = redis.getClient();
+
+  // TODO handling of onlyExcessCapacity...
+  const response = client.georadiusAsync(key, lat, lng, radius, radiusUnit);
+
+
+};
 
 module.exports = {
   insert,
