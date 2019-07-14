@@ -102,6 +102,8 @@ test(`${testSuiteName}: insert with coordinates`, async () => {
   const siteFromRedis = await client.hgetallAsync(siteHashKey);
 
   expect(siteFromRedis).toEqual(expectedSiteHash);
+
+  // TODO check the site key is in the site geo sorted set.
 });
 
 test(`${testSuiteName}: findById with existing site`, async () => {
