@@ -5,7 +5,25 @@ const timeUtils = require('../../../utils/time_utils');
 
 const weekSeconds = 60 * 60 * 24 * 7;
 
-const findById = (siteId, timestamp) => 'Redis TODO';
+const remap = (siteStatsHash) => {
+  const remappedSiteStatsHash = { ...siteStatsHash };
+
+  remappedSiteStatsHash.lastReportingTime = parseInt(siteStatsHash.lastReportingTime, 10);
+  remappedSiteStatsHash.meterReadingCount = parseInt(siteStatsHash.meterReadingCount, 10);
+  remappedSiteStatsHash.maxWhGenerated = parseFloat(siteStatsHash.maxWhGenerated, 10);
+  remappedSiteStatsHash.minWhGenerated = parseFloat(siteStatsHash.minWhGenerated, 10);
+  remappedSiteStatsHash.maxCapacity = parseFloat(siteStatsHash.maxCapacity, 10);
+
+  return remappedSiteStatsHash;
+};
+
+const findById = async (siteId, timestamp) => {
+  const client = redis.getClient();
+
+  const response = await client.hgetallAsync(keyGenerator.getSiteStatsKey(siteId, timestamp));
+
+  return (response ? remap(response) : response);
+};
 
 const updateBasic = async (key, meterReading) => {
   const client = redis.getClient();
@@ -34,9 +52,9 @@ const updateBasic = async (key, meterReading) => {
 const updateImproved = async (key, meterReading) => {
   const client = redis.getClient();
 
-  // Note: this could also be improved to a single hgetall as 
+  // Note: this could also be improved to a single hgetall as
   //       we know the hash is small.
-  const [ maxWh, minWh, maxCapacity ] = await Promise.all([
+  const [maxWh, minWh, maxCapacity] = await Promise.all([
     client.hgetAsync(key, 'maxWhGenerated'),
     client.hgetAsync(key, 'minWhGenerated'),
     client.hgetAsync(key, 'maxCapacity'),
@@ -82,8 +100,8 @@ const updateOptimized = async (key, meterReading) => {
 const update = async (meterReading) => {
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
 
-  //await updateBasic(key, meterReading);
-  //await updateImproved(key, meterReading);
+  // await updateBasic(key, meterReading);
+  // await updateImproved(key, meterReading);
   await updateOptimized(key, meterReading);
 };
 

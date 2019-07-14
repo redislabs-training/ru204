@@ -119,6 +119,45 @@ test(`${testSuiteName}: update`, async () => {
 });
 
 
-test.todo(`${testSuiteName}: more tests!`);
+test(`${testSuiteName}: findById`, async () => {
+  // Create some data.
+  const meterReading = {
+    siteId: 999,
+    dateTime: 1562619432,
+    whUsed: 22.4,
+    whGenerated: 12.3,
+    tempC: 23.4,
+  };
+
+  // Used for checking lastReportingTime
+  const before = Math.floor(new Date().getTime() / 1000);
+
+  await redisSiteStatsDAO.update(meterReading);
+
+  // Used for checking lastReportingTime
+  const after = Math.floor(new Date().getTime() / 1000);
+
+  // Retrieve the data.
+  const response = await redisSiteStatsDAO.findById(meterReading.siteId, meterReading.dateTime);
+
+  // Check versus expected results.
+  expect(response.meterReadingCount).toBe(1);
+  expect(response.maxWhGenerated).toBe(meterReading.whGenerated);
+  expect(response.minWhGenerated).toBe(meterReading.whGenerated);
+  expect(response.maxCapacity).toBe(meterReading.whGenerated - meterReading.whUsed);
+  expect(response.lastReportingTime).toBeGreaterThanOrEqual(before);
+  expect(response.lastReportingTime).toBeLessThanOrEqual(after);
+
+  // Check that an expiry was set.
+  const ttl = await client.ttlAsync(
+    keyGenerator.getSiteStatsKey(
+      meterReading.siteId,
+      meterReading.dateTime,
+    ),
+  );
+
+  expect(ttl).toBeGreaterThan(0);
+  expect(ttl).toBeLessThanOrEqual(60 * 60 * 24 * 7); // One week in seconds.
+});
 
 /* eslint-enable */
