@@ -296,7 +296,7 @@ test(`${testSuiteName}: findByGeo no results`, async () => {
   expect(response.length).toBe(0);
 });
 
-test(`${testSuiteName}: findByGeoWithExcessCapacity with results`, async () => {
+test(`${testSuiteName}: findByGeoWithExcessCapacity`, async () => {
   const site1 = {
     id: 1,
     capacity: 4.5,
@@ -404,7 +404,5 @@ test(`${testSuiteName}: findByGeoWithExcessCapacity with results`, async () => {
 
   expect(response.length).toBe(0);
 });
-
-test.todo(`${testSuiteName}: findByGeo with capacity no results`);
 
 /* eslint-enable */
