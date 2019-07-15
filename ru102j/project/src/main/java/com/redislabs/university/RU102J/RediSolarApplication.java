@@ -34,25 +34,22 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
     @Override
     public void run(final RediSolarConfiguration configuration,
                     final Environment environment) {
-        // TODO: Make jedisPool a Managed object
         RedisConfig redisConfig = configuration.getRedisConfig();
         JedisPool jedisPool = new JedisPool(new JedisPoolConfig(), redisConfig.getHost(),
                 redisConfig.getPort());
 
-        // Create resources and inject dependencies
-        //SiteResource siteResource =
-        //        new SiteResource(new SiteDaoRedisImpl(jedisPool));
-        //environment.jersey().register(siteResource);
-        SiteGeoResource siteResource =
-                new SiteGeoResource(new SiteGeoDaoRedisImpl(jedisPool));
+        // To use the geospatial features, replace the following lines with:
+        // SiteGeoResource siteResource =
+        //        new SiteGeoResource(new SiteGeoDaoRedisImpl(jedisPool));
+        SiteResource siteResource =
+                new SiteResource(new SiteDaoRedisImpl(jedisPool));
         environment.jersey().register(siteResource);
 
-       //MetricsResource metricsResource =
-                new MetricsResource(new MetricDaoRedisZsetImpl(jedisPool));
-        RedisTimeSeries rts = new RedisTimeSeries(redisConfig.getHost(),
-                redisConfig.getPort());
+        // For RedisTimeSeries: replace the next lines with
+        // MetricsResource metricsResource =
+        //              new MetricsResource(new MetricDaoRedisTSImpl(jedisPool));
                 MetricsResource metricsResource =
-                        new MetricsResource(new MetricDaoRedisTSImpl(rts));
+                        new MetricsResource(new MetricDaoRedisZsetImpl(jedisPool));
         environment.jersey().register(metricsResource);
 
         CapacityResource capacityResource =
@@ -61,15 +58,13 @@ public class RediSolarApplication extends Application<RediSolarConfiguration> {
 
         MeterReadingResource meterResource =
                 new MeterReadingResource(new SiteStatsDaoRedisImpl(jedisPool),
-                        new MetricDaoRedisTSImpl(rts),
+                        new MetricDaoRedisZsetImpl(jedisPool),
+                        // For RedisTimeSeries: new MetricDaoRedisTSImpl(jedisPool),
                         new CapacityDaoRedisImpl(jedisPool),
                         new FeedDaoRedisImpl(jedisPool));
         environment.jersey().register(meterResource);
 
-        // Set up health checks
-        // TODO: Create a Redis health check
-        RediSolarHealthCheck healthCheck = new RediSolarHealthCheck();
+        RediSolarHealthCheck healthCheck = new RediSolarHealthCheck(redisConfig);
         environment.healthChecks().register("healthy", healthCheck);
     }
-
 }

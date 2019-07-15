@@ -75,9 +75,9 @@ public class SiteStatsDaoRedisImpl implements SiteStatsDao {
         }
 
         String maxCapacity = jedis.hget(key, SiteStats.maxCapacityField);
-        if (maxCapacity == null || reading.getWhGenerated() > Double.valueOf(maxCapacity)) {
+        if (maxCapacity == null || getCurrentCapacity(reading) > Double.valueOf(maxCapacity)) {
             jedis.hset(key, SiteStats.maxCapacityField,
-                    String.valueOf(reading.getWhGenerated()));
+                    String.valueOf(getCurrentCapacity(reading)));
         }
     }
 

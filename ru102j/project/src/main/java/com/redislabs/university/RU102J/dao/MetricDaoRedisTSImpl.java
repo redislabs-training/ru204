@@ -11,7 +11,6 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -20,15 +19,12 @@ import java.util.List;
  *
  */
 public class MetricDaoRedisTSImpl implements MetricDao {
-    static private final Integer SERIES_RETENTION_S =
-            60 * 60 * 24 * 14;
+    static private final Integer RETENTION_MS =
+            60 * 60 * 24 * 14 * 1000;
     private final RedisTimeSeries rts;
-    private final HashSet<String> metricNameCache;
-    private JedisPool jedisPool;
 
-    public MetricDaoRedisTSImpl(RedisTimeSeries rts) {
-        this.rts = rts;
-        this.metricNameCache = new HashSet<>();
+    public MetricDaoRedisTSImpl(JedisPool pool) {
+        this.rts = new RedisTimeSeries(pool);
     }
 
     @Override
@@ -44,7 +40,7 @@ public class MetricDaoRedisTSImpl implements MetricDao {
     private void insertMetric(Long siteId, Double value, MetricUnit unit,
                               ZonedDateTime dateTime) {
         String metricKey = RedisSchema.getTSKey(siteId, unit);
-        rts.add(metricKey, dateTime.toEpochSecond(), value, SERIES_RETENTION_S);
+        rts.add(metricKey, dateTime.toEpochSecond() * 1000, value, RETENTION_MS);
     }
 
     @Override
@@ -52,17 +48,17 @@ public class MetricDaoRedisTSImpl implements MetricDao {
         List<Measurement> measurements = new ArrayList<>();
         String metricKey = RedisSchema.getTSKey(siteId, unit);
 
-        Long now = ZonedDateTime.now().toEpochSecond();
-        Long initialTimestamp = now - limit * 60;
-        Value[] values = rts.range(metricKey, initialTimestamp, now);
+        Long nowMs = ZonedDateTime.now().toEpochSecond() * 1000;
+        Long initialTimestamp = nowMs - (limit * 60) * 1000;
+        Value[] values = rts.range(metricKey, initialTimestamp, nowMs);
 
-        for (Value value : values) {
+        for (int j=0; j<limit && j<values.length; j++) {
             Measurement m = new Measurement();
             m.setSiteId(siteId);
             m.setMetricUnit(unit);
-            Instant i = Instant.ofEpochSecond(value.getTime());
+            Instant i = Instant.ofEpochSecond(values[j].getTime() / 1000);
             m.setDateTime(ZonedDateTime.ofInstant(i, ZoneId.of("UTC")));
-            m.setValue(value.getValue());
+            m.setValue(values[j].getValue());
             measurements.add(m);
         }
 

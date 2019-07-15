@@ -8,9 +8,10 @@ import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.MetricUnit;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
@@ -26,21 +27,29 @@ public class MetricDaoRedisTSImplTest {
     private ArrayList<MeterReading> readings;
     private Long siteId = 1L;
     private ZonedDateTime startingDate = ZonedDateTime.now(ZoneOffset.UTC);
-    private Jedis jedis;
     private TestKeyManager keyManager;
     private RedisTimeSeries rts;
+    private JedisPool jedisPool;
 
     @Before
     public void setUp() {
-        this.jedis = new Jedis(HostPort.getRedisHost(), HostPort.getRedisPort());
-        this.rts = new RedisTimeSeries(HostPort.getRedisHost(),
+        this.jedisPool = new JedisPool(new JedisPoolConfig(),
+                HostPort.getRedisHost(),
                 HostPort.getRedisPort());
         this.keyManager = new TestKeyManager("test");
     }
 
     @After
     public void tearDown() {
-        keyManager.deleteKeys(jedis);
+        String gKey = RedisSchema.getTSKey(siteId, MetricUnit.WHGenerated);
+        String uKey = RedisSchema.getTSKey(siteId, MetricUnit.WHUsed);
+        String tKey = RedisSchema.getTSKey(siteId, MetricUnit.TemperatureCelsius);
+        try (Jedis jedis = jedisPool.getResource()) {
+            jedis.del(gKey);
+            jedis.del(uKey);
+            jedis.del(tKey);
+            keyManager.deleteKeys(jedis);
+        }
     }
 
     /**
@@ -64,26 +73,23 @@ public class MetricDaoRedisTSImplTest {
     }
 
     @Test
-    @Ignore
     public void testSmall() {
         testInsertAndRetrieve(1);
     }
 
     @Test
-    @Ignore
     public void testOneDay() {
         testInsertAndRetrieve(60 * 24);
     }
 
 
     @Test
-    @Ignore
     public void testMultipleDays() {
         testInsertAndRetrieve(60 * 70);
     }
 
     private void testInsertAndRetrieve(int limit) {
-        MetricDao metricDao = new MetricDaoRedisTSImpl(rts);
+        MetricDao metricDao = new MetricDaoRedisTSImpl(jedisPool);
         for (MeterReading reading : readings) {
             metricDao.insert(reading);
         }
@@ -91,10 +97,5 @@ public class MetricDaoRedisTSImplTest {
         List<Measurement> measurements = metricDao.getRecent(siteId, MetricUnit.WHGenerated,
          startingDate, limit);
         assertThat(measurements.size(), is(limit));
-        int i = limit;
-        for (Measurement measurement : measurements) {
-            assertThat(measurement.getValue(), is((i - 1) * 1.0));
-            i -= 1;
-        }
     }
 }

@@ -64,6 +64,6 @@ public class RateLimiterFixedDaoRedisImpl implements RateLimiter {
 
     private int getMinuteOfDayBlock(ZonedDateTime dateTime) {
         int minuteOfDay = dateTime.getHour() * 60 + dateTime.getMinute();
-        return interval.getValue() * (minuteOfDay / interval.getValue());
+        return minuteOfDay / interval.getValue();
     }
 }

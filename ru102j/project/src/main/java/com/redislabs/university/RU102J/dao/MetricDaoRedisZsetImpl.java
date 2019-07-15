@@ -62,7 +62,6 @@ public class MetricDaoRedisZsetImpl implements MetricDao {
      * provided day.
      * TODO: Watch out for large data structures when sharding
      * TODO: Or implement your own expiry with zremrange
-     * TODO: People have always wanted nested expiry
      */
     @Override
     public List<Measurement> getRecent(Long siteId, MetricUnit unit,
@@ -92,8 +91,8 @@ public class MetricDaoRedisZsetImpl implements MetricDao {
     }
 
     /**
-     * Return up to count elements from the sorted set corresponding to the siteId,
-     * date, and metric unit specified here.
+     * Return up to `count` elements from the sorted set corresponding to
+     * the siteId, date, and metric unit specified here.
      */
     private List<Measurement> getMeasurementsForDate(Long siteId,
                                                      ZonedDateTime date,
