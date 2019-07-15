@@ -194,8 +194,123 @@ test(`${testSuiteName}: findAll with empty sites`, async () => {
   expect(sites).toEqual([]);
 });
 
-test.todo(`${testSuiteName}: findByGeo with results`);
+test(`${testSuiteName}: findByGeo with results`, async () => {
+  const site1 = {
+    id: 1,
+    capacity: 3.5,
+    panels: 3,
+    address: '637 Britannia Drive',
+    city: 'Vallejo',
+    state: 'CA',
+    postalCode: '94591',
+    coordinate: {
+      lat: 38.10476999999999,
+      lng: -122.193849,
+    },
+  };
 
-test.todo(`${testSuiteName}: findBy Geo no results`);
+  const site2 = {
+    id: 2,
+    capacity: 4.5,
+    panels: 3,
+    address: '31353 Santa Elena Way',
+    city: 'Union City',
+    state: 'CA',
+    postalCode: '94587',
+    coordinate: {
+      lat: 37.593981,
+      lng: -122.059762,
+    },
+  };
+
+  const site3 = {
+    id: 3,
+    capacity: 4.5,
+    panels: 3,
+    address: '1732 27th Avenue',
+    city: 'Oakland',
+    state: 'CA',
+    postalCode: '94601',
+    coordinate: {
+      lat: 37.783431,
+      lng: -122.228238,
+    },
+  };
+
+  await Promise.all([
+    redisSiteDAO.insert(site1),
+    redisSiteDAO.insert(site2),
+    redisSiteDAO.insert(site3),
+  ]);
+
+  // Find Oakland sites, expect 1.
+  let response = await redisSiteDAO.findByGeo(37.804829, -122.272476, 10, 'km');
+  expect(response.length).toBe(1);
+  expect(response[0].id).toBe(site3.id);
+
+  // Find Vallejo sites, expect 1.
+  response = await redisSiteDAO.findByGeo(38.104086, -122.256637, 10, 'km');
+  expect(response.length).toBe(1);
+  expect(response[0].id).toBe(site1.id);
+
+  // Find Union City sites, expect 1.
+  response = await redisSiteDAO.findByGeo(37.596323, -122.081630, 10, 'km');
+  expect(response.length).toBe(1);
+  expect(response[0].id).toBe(site2.id);
+
+  // Larger Radius should return all 3 sites.
+  response = await redisSiteDAO.findByGeo(37.596323, -122.081630, 60, 'km');
+  expect(response.length).toBe(3);
+  expect(response[0].id).toBe(site2.id);
+  expect(response[1].id).toBe(site3.id);
+  expect(response[2].id).toBe(site1.id);
+});
+
+test(`${testSuiteName}: findByGeo no results`, async () => {
+  // This site is not within a 10km radius of Mountain View, CA
+  await redisSiteDAO.insert({
+    id: 1,
+    capacity: 3.5,
+    panels: 3,
+    address: '637 Britannia Drive',
+    city: 'Vallejo',
+    state: 'CA',
+    postalCode: '94591',
+    coordinate: {
+      lat: 38.10476999999999,
+      lng: -122.193849,
+    },
+  });
+
+  // Ensure site was inserted.
+  let response = await redisSiteDAO.findAll();
+  expect(response.length).toBe(1);
+  expect(response[0].id).toBe(1);
+
+  response = await redisSiteDAO.findById(1);
+  expect(response.id).toBe(1);
+
+  // Do a 10km search around Mountain View, CA.
+  response = await redisSiteDAO.findByGeo(37.4134391, -122.1513072, 10, 'km');
+  expect(response.length).toBe(0);
+});
+
+// test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
+//   const site = {
+//     id: 1,
+//     capacity: 4.5,
+//     panels: 3,
+//     address: '637 Britannia Drive',
+//     city: 'Vallejo',
+//     state: 'CA',
+//     postalCode: '94591',
+//     coordinate: {
+//       lat: 38.10476999999999,
+//       lng: -122.193849,
+//     },
+//   };
+// });
+
+test.todo(`${testSuiteName}: findByGeo with capacity no results`);
 
 /* eslint-enable */
