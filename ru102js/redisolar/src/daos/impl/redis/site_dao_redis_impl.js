@@ -123,6 +123,9 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
   return sites;
 };
 
+// TODO implement findByGeoWithExcessCapacityOptimized
+// and rename the one below to findByGeoWithExcessCapacityBasic
+
 const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
   const pipeline = client.batch();
