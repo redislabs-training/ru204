@@ -41,7 +41,7 @@ router.get(
             lng,
             radius,
             radiusUnit,
-            (onlyExcessCapacity.toLowerCase() === 'true'),
+            (onlyExcessCapacity.toLowerCase() === 'true'), // String -> boolean
           )
           : await controller.getSites()
       );
