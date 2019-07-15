@@ -38,10 +38,8 @@ public class SiteDaoRedisImpl implements SiteDao {
         }
     }
 
-    // TODO: Document smembers (complexity)
-    // SSCAN?
-    // Make a few versions of this file
-    // And use a pipeline.
+    // Note: SMEMBERS is an O(n) command. Be careful running this command
+    // with high-cardinality sets. Consider SSCAN as an alternative.
     @Override
     public Set<Site> findAll() {
         try (Jedis jedis = jedisPool.getResource()) {

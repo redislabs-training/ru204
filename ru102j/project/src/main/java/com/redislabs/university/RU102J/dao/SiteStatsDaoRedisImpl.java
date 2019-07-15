@@ -53,9 +53,6 @@ public class SiteStatsDaoRedisImpl implements SiteStatsDao {
 
     // A naive implementation of update. This implementation has
     // potential race conditions and makes several round trips to Redis.
-    // Consider a transaction on a single key.
-    // TODO: In the optimizations pattern, maybe consider using strings?
-    // - If you're always using the entire structure
     private void updateBasic(Jedis jedis, String key, MeterReading reading) {
         String reportingTime = ZonedDateTime.now(ZoneOffset.UTC).toString();
         jedis.hset(key, SiteStats.reportingTimeField, reportingTime);
