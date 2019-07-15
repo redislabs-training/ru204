@@ -1,8 +1,8 @@
-const moment = require('moment');
 const metricDao = require('../daos/metric_dao');
+const timeUtils = require('../utils/time_utils');
 
 const getMetricsForSite = async (siteId, limit) => {
-  const currentTimestamp = moment().utc().unix();
+  const currentTimestamp = timeUtils.getCurrentTimestamp();
 
   const metrics = await Promise.all([
     metricDao.getRecent(siteId, 'whGenerated', currentTimestamp, limit),
