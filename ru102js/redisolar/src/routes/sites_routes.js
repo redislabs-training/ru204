@@ -24,7 +24,7 @@ router.get(
     query('lng').optional().custom(geoParamsValidator).isFloat().toFloat(),
     query('radius').optional().custom(geoParamsValidator).isFloat({ min: 0.1 }).toFloat(),
     query('radiusUnit').optional().custom(geoParamsValidator).isIn(['MI', 'KM']),
-    query('onlyExcessCapacity').optional().isBoolean(),
+    query('onlyExcessCapacity').optional().isBoolean().toBoolean(),
     /* eslint-enable */
     apiErrorReporter,
   ],
@@ -41,7 +41,7 @@ router.get(
             lng,
             radius,
             radiusUnit,
-            (onlyExcessCapacity.toLowerCase() === 'true'), // String -> boolean
+            onlyExcessCapacity,
           )
           : await controller.getSites()
       );
