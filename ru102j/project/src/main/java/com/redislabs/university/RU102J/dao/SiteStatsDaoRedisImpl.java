@@ -78,7 +78,9 @@ public class SiteStatsDaoRedisImpl implements SiteStatsDao {
         }
     }
 
+    // Challenge #3
     private void updateOptimized(Jedis jedis, String key, MeterReading reading) {
+        // START Challenge #3
         try (Transaction t = jedis.multi()) {
             String reportingTime = ZonedDateTime.now(ZoneOffset.UTC).toString();
             t.hset(key, SiteStats.reportingTimeField, reportingTime);
@@ -93,6 +95,7 @@ public class SiteStatsDaoRedisImpl implements SiteStatsDao {
 
             t.exec();
         }
+        // END Challenge #3
     }
 
     private Double getCurrentCapacity(MeterReading reading) {

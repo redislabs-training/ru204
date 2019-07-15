@@ -38,10 +38,11 @@ public class SiteDaoRedisImpl implements SiteDao {
         }
     }
 
-    // Note: SMEMBERS is an O(n) command. Be careful running this command
-    // with high-cardinality sets. Consider SSCAN as an alternative.
+    // Challenge #1
     @Override
     public Set<Site> findAll() {
+        // START Challenge #1
+        // return Collections.emptySet();
         try (Jedis jedis = jedisPool.getResource()) {
             Set<String> keys = jedis.smembers(RedisSchema.getSiteIDsKey());
             Set<Site> sites = new HashSet<>();
@@ -53,5 +54,6 @@ public class SiteDaoRedisImpl implements SiteDao {
             }
             return sites;
         }
+        // END Challenge #1
     }
 }

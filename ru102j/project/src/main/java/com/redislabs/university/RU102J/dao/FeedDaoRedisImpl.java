@@ -18,8 +18,10 @@ public class FeedDaoRedisImpl implements FeedDao {
         this.jedisPool = jedisPool;
     }
 
+    // Challenge #6
     @Override
     public void insert(MeterReading meterReading) {
+        // START Challenge #6
         try (Jedis jedis = jedisPool.getResource()) {
             String globalFeedKey = RedisSchema.getGlobalFeedKey();
             String siteFeedKey = RedisSchema.getFeedKey(meterReading.getSiteId());
@@ -30,6 +32,7 @@ public class FeedDaoRedisImpl implements FeedDao {
                     siteMaxFeedLength, true);
             p.sync();
         }
+        // END Challenge #6
     }
 
     @Override

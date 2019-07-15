@@ -45,6 +45,8 @@ public class JedisBasicsTest {
         assertThat(length, is(11L));
 
         // Get the planets from the list
+        // Note: LRANGE is an O(n) command. Be careful running this command
+        // with high-cardinality sets.
         List<String> planets = jedis.lrange("planets", 0, -1);
         assertThat(planets, is(Arrays.asList(testPlanets)));
 
@@ -72,7 +74,8 @@ public class JedisBasicsTest {
         assertThat(length, is(9L));
 
         // Fetch all values from the set
-        // Note: O(n) operation
+        // Note: SMEMBERS is an O(n) command. Be careful running this command
+        // with high-cardinality sets. Consider SSCAN as an alternative.
         Set<String> planets = jedis.smembers("planets");
 
         // Ensure that a HashSet created and stored in Java memory and the set stored

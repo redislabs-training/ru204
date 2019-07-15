@@ -38,8 +38,16 @@ public class SiteStatsDaoRedisImplTest {
 
     @Test
     public void findById() {
+        MeterReading r1 = generateMeterReading(1);
+        SiteStatsDao dao = new SiteStatsDaoRedisImpl(jedisPool);
+        dao.update(r1);
+        SiteStats stats = dao.findById(1);
+        assertThat(stats.getMeterReadingCount(), is(1L));
+        assertThat(stats.getMinWhGenerated(), is(r1.getWhGenerated()));
+        assertThat(stats.getMaxWhGenerated(), is(r1.getWhGenerated()));
     }
 
+    // Challenge #3
     @Test
     public void testUpdate() {
         SiteStatsDao dao = new SiteStatsDaoRedisImpl(jedisPool);

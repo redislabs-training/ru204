@@ -93,6 +93,8 @@ public class CapacityDaoRedisImplTest extends JedisDaoTestBase {
                 greaterThan(lowest.get(0).getCapacity()));
     }
 
+    // Challenge #4
+    // @Ignore
     @Test
     public void getRank() {
         CapacityDao dao = new CapacityDaoRedisImpl(jedisPool);

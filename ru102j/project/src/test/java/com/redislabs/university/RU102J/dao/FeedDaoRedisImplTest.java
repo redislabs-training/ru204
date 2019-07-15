@@ -39,6 +39,8 @@ public class FeedDaoRedisImplTest {
         keyManager.deleteKeys(jedis);
     }
 
+    // Challenge #6
+    // @Ignore
     @Test
     public void testBasicInsertReturnsRecent() {
         FeedDao dao = new FeedDaoRedisImpl(jedisPool);

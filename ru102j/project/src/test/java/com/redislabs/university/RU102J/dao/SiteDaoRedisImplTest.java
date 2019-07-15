@@ -82,7 +82,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #1 Part 1. Use this test case to
-     * implement the challenge in Chapter 1.10.
+     * implement the challenge in Chapter 1.
      */
     @Test
     public void findAllWithMultipleSites() {
@@ -97,7 +97,7 @@ public class SiteDaoRedisImplTest {
 
     /**
      * Challenge #1 Part 2. Use this test case to
-     * implement the challenge in Chapter 1.10.
+     * implement the challenge in Chapter 1.
      */
     @Test
     public void findAllWithEmptySites() {
@@ -118,21 +118,4 @@ public class SiteDaoRedisImplTest {
         assertThat(jedis.sismember(RedisSchema.getSiteIDsKey(), RedisSchema.getSiteHashKey(4L)),
                 is(true));
     }
-
-    /**
-     * Challenge #2.
-    @Test
-    public void update() {
-        SiteDaoRedisImpl dao = new SiteDaoRedisImpl(jedisPool);
-        Site site = new Site(4L, 5.5, 4, "910 Pine St.",
-                "Oakland", "CA", "94577");
-        dao.insert(site);
-        ZonedDateTime time = ZonedDateTime.now(ZoneOffset.UTC);
-        MeterReading reading = new MeterReading(site.getId(), time, 1.0, 1.0, 22.0);
-        dao.update(reading);
-        Site modifiedSite = dao.findById(site.getId());
-        assertThat(modifiedSite.getMeterReadingCount(), is(1L));
-        assert(modifiedSite.getLastReportingTime().toInstant().compareTo(time.toInstant()) >= 0);
-    }
-    */
 }
