@@ -26,6 +26,8 @@ afterAll(() => {
   client.quit();
 });
 
-test.todo(`${testSuiteName}: getCapacityReport`);
+test.todo(`${testSuiteName}: insert`);
+
+test.todo(`${testSuiteName}: getRecent`);
 
 /* eslint-enable */
