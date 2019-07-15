@@ -1,6 +1,8 @@
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
+const capacityThreshold = 0.2;
+
 const remap = (siteHash) => {
   const remappedSiteHash = { ...siteHash };
 
@@ -35,39 +37,8 @@ const flatten = (site) => {
   return flattenedSite;
 };
 
-const insert = async (site) => {
+const getSitesByKey = async (siteIds) => {
   const client = redis.getClient();
-
-  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
-
-  await client.hmsetAsync(siteHashKey, flatten(site));
-  await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
-
-  // Co-ordinates are optional.
-  if (site.hasOwnProperty('coordinate')) {
-    await client.geoaddAsync(
-      keyGenerator.getSiteGeoKey(), 
-      site.coordinate.lng, 
-      site.coordinate.lat, 
-      siteHashKey,
-    );
-  }
-
-  return siteHashKey;
-};
-
-const findById = async (id) => {
-  const client = redis.getClient();
-
-  const siteHash = await client.hgetallAsync(keyGenerator.getSiteHashKey(id));
-
-  return (siteHash ? remap(siteHash) : null);
-};
-
-const findAll = async () => {
-  const client = redis.getClient();
-
-  const siteIds = await client.smembersAsync(keyGenerator.getSiteIDsKey());
 
   // Lots of Promises...
   // This doesn't deal with string -> int / float conversions...
@@ -98,13 +69,77 @@ const findAll = async () => {
   return sites;
 };
 
+const insert = async (site) => {
+  const client = redis.getClient();
+
+  const siteHashKey = keyGenerator.getSiteHashKey(site.id);
+
+  await client.hmsetAsync(siteHashKey, flatten(site));
+  await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
+
+  // Co-ordinates are optional.
+  if (site.hasOwnProperty('coordinate')) {
+    await client.geoaddAsync(
+      keyGenerator.getSiteGeoKey(),
+      site.coordinate.lng,
+      site.coordinate.lat,
+      siteHashKey,
+    );
+  }
+
+  return siteHashKey;
+};
+
+const findById = async (id) => {
+  const client = redis.getClient();
+
+  const siteHash = await client.hgetallAsync(keyGenerator.getSiteHashKey(id));
+
+  return (siteHash ? remap(siteHash) : null);
+};
+
+const findAll = async () => {
+  const client = redis.getClient();
+
+  const siteIds = await client.smembersAsync(keyGenerator.getSiteIDsKey());
+  const sites = await getSitesByKey(siteIds);
+
+  return sites;
+};
+
 const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => {
   const client = redis.getClient();
 
-  // TODO handling of onlyExcessCapacity...
-  const response = client.georadiusAsync(key, lat, lng, radius, radiusUnit);
+  const siteIds = await client.georadiusAsync(
+    keyGenerator.getSiteGeoKey(),
+    lng,
+    lat,
+    radius,
+    radiusUnit.toLowerCase(),
+  );
 
+  const sites = await getSitesByKey(siteIds);
 
+  if (onlyExcessCapacity) {
+    const pipeline = client.batch();
+
+    for (const site of sites) {
+      pipeline.zscore(keyGenerator.getCapacityRankingKey(), site.id);
+    }
+
+    const scores = await pipeline.execAsync();
+    const sitesWithCapacity = [];
+
+    for (let n = 0; n < sites.length; n += 1) {
+      if (parseFloat(scores[n], 10) >= capacityThreshold) {
+        sitesWithCapacity.push(sites[n]);
+      }
+    }
+
+    return sitesWithCapacity;
+  }
+
+  return sites;
 };
 
 module.exports = {

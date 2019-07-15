@@ -1,6 +1,7 @@
 const config = require('better-config');
 const redis = require('../src/daos/impl/redis/redis_client');
 const redisSiteDAO = require('../src/daos/impl/redis/site_dao_redis_impl');
+const redisCapacityDAO = require('../src/daos/impl/redis/capacity_dao_redis_impl');
 const keyGenerator = require('../src/daos/impl/redis/redis_key_generator');
 
 const testSuiteName = 'site_dao_redis_impl';
@@ -295,21 +296,116 @@ test(`${testSuiteName}: findByGeo no results`, async () => {
   expect(response.length).toBe(0);
 });
 
-// test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
-//   const site = {
-//     id: 1,
-//     capacity: 4.5,
-//     panels: 3,
-//     address: '637 Britannia Drive',
-//     city: 'Vallejo',
-//     state: 'CA',
-//     postalCode: '94591',
-//     coordinate: {
-//       lat: 38.10476999999999,
-//       lng: -122.193849,
-//     },
-//   };
-// });
+test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
+  const site1 = {
+    id: 1,
+    capacity: 4.5,
+    panels: 3,
+    address: '637 Britannia Drive',
+    city: 'Vallejo',
+    state: 'CA',
+    postalCode: '94591',
+    coordinate: {
+      lat: 38.10476999999999,
+      lng: -122.193849,
+    },
+  };
+
+  const site2 = {
+    id: 2,
+    capacity: 4.5,
+    panels: 3,
+    address: '31353 Santa Elena Way',
+    city: 'Union City',
+    state: 'CA',
+    postalCode: '94587',
+    coordinate: {
+      lat: 37.593981,
+      lng: -122.059762,
+    },
+  };
+
+  // Add sites.
+  await Promise.all([
+    redisSiteDAO.insert(site1),
+    redisSiteDAO.insert(site2),
+  ]);
+
+  // Should find site1 and site2.
+  let response = await redisSiteDAO.findByGeo(
+    site1.coordinate.lat,
+    site1.coordinate.lng,
+    60,
+    'km',
+  );
+
+  expect(response.length).toBe(2);
+  expect(response[0].id).toBe(site1.id);
+  expect(response[1].id).toBe(site2.id);
+
+  // Now add some meter readings, such that site2 has capacity
+  // and site1 does not.
+  await Promise.all([
+    redisCapacityDAO.update({
+      siteId: site1.id,
+      dateTime: Math.floor(new Date().getTime() / 1000),
+      whUsed: 22,
+      whGenerated: 20,
+      tempC: 20,
+    }),
+    redisCapacityDAO.update({
+      siteId: site2.id,
+      dateTime: Math.floor(new Date().getTime() / 1000),
+      whUsed: 12,
+      whGenerated: 20,
+      tempC: 20,
+    }),
+  ]);
+
+  // Perform a capacity search, should return only site2.
+  response = await redisSiteDAO.findByGeo(
+    site1.coordinate.lat,
+    site1.coordinate.lng,
+    60,
+    'km',
+    true,
+  );
+
+  expect(response.length).toBe(1);
+  expect(response[0].id).toBe(site2.id);
+
+  // Now make both sites have capacity, but not enough to be
+  // considered worth showing as the capacity is below the
+  // threshold.
+  await Promise.all([
+    redisCapacityDAO.update({
+      siteId: site1.id,
+      dateTime: Math.floor(new Date().getTime() / 1000),
+      whUsed: 19.99,
+      whGenerated: 20,
+      tempC: 20,
+    }),
+    redisCapacityDAO.update({
+      siteId: site2.id,
+      dateTime: Math.floor(new Date().getTime() / 1000),
+      whUsed: 19.9,
+      whGenerated: 20,
+      tempC: 20,
+    }),
+  ]);
+
+  // Perform a capacity search, expect no results even though
+  // both sites have some capacity.
+  response = await redisSiteDAO.findByGeo(
+    site1.coordinate.lat,
+    site1.coordinate.lng,
+    60,
+    'km',
+    true,
+  );
+
+  expect(response.length).toBe(0);
+});
 
 test.todo(`${testSuiteName}: findByGeo with capacity no results`);
 
