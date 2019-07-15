@@ -37,11 +37,11 @@ router.get(
       const sites = (
         lat
           ? await controller.getSitesNearby(
-            lat, 
-            lng, 
-            radius, 
-            radiusUnit, 
-            (onlyExcessCapacity.toLowerCase() === 'true')
+            lat,
+            lng,
+            radius,
+            radiusUnit,
+            (onlyExcessCapacity.toLowerCase() === 'true'),
           )
           : await controller.getSites()
       );

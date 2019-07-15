@@ -15,8 +15,6 @@ const getSitesNearby = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) 
     onlyExcessCapacity,
   );
 
-  console.log(`<<<< CONTROLLER HAS ${matchingSites.length} SITES <<<<`);
-
   return matchingSites;
 };
 
