@@ -13,6 +13,15 @@ test(`${testSuiteName}: getCurrentTimestamp`, () => {
   expect(after).toBeGreaterThanOrEqual(ts);
 });
 
+test(`${testSuiteName}: getCurrentTimestampMillis`, () => {
+  const before = new Date().getTime();
+  const ts = timeUtils.getCurrentTimestampMillis();
+  const after = new Date().getTime();
+
+  expect(before).toBeLessThanOrEqual(ts);
+  expect(after).toBeGreaterThanOrEqual(ts);
+});
+
 test(`${testSuiteName}: getDateString`, () => {
   // January 1st 2019 00:00:59 UTC - 2019-01-01 - 1546300859
   expect(timeUtils.getDateString(1546300859)).toBe('2019-01-01');

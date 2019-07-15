@@ -18,9 +18,12 @@ const getDateString = timestamp => moment.unix(timestamp).utc().format('YYYY-MM-
 
 const getCurrentTimestamp = () => moment().unix();
 
+const getCurrentTimestampMillis = () => moment().valueOf();
+
 module.exports = {
   getMinuteOfDay,
   getTimestampForMinuteOfDay,
   getDateString,
   getCurrentTimestamp,
+  getCurrentTimestampMillis,
 };
