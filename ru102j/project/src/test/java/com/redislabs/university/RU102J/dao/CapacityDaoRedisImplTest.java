@@ -38,9 +38,6 @@ public class CapacityDaoRedisImplTest extends JedisDaoTestBase {
         }
     }
 
-    /**
-     * Challenge #3.
-     */
     @Test
     public void update() {
         CapacityDao dao = new CapacityDaoRedisImpl(jedisPool);
@@ -51,27 +48,6 @@ public class CapacityDaoRedisImplTest extends JedisDaoTestBase {
         assertThat(results.size(), is(10));
         results.toArray();
     }
-
-    /*
-    @Test
-    public void testCapacitySetAccounting() {
-        CapacityDao dao = new CapacityDaoRedisImpl(jedisPool);
-        Long siteId = 1L;
-        ZonedDateTime time = ZonedDateTime.now();
-        Double wattHoursUsed = 0.25;
-        MeterReading excessCapacity = new MeterReading(siteId, time, wattHoursUsed,
-                wattHoursUsed + 1, 22.0);
-        MeterReading underCapacity = new MeterReading(siteId, time, wattHoursUsed,
-                wattHoursUsed - 1, 22.0);
-
-        String capacityKey = RedisSchema.getExcessCapacityKey();
-        dao.update(excessCapacity);
-        assertThat(jedis.sismember(capacityKey, siteId.toString()), is(true));
-
-        dao.update(underCapacity);
-        assertThat(jedis.sismember(capacityKey, siteId.toString()), is(false));
-    }
-    */
 
     @Test
     public void getReport() {
