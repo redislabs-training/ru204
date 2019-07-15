@@ -107,7 +107,7 @@ const findAll = async () => {
   return sites;
 };
 
-const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => {
+const findByGeo = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
 
   const siteIds = await client.georadiusAsync(
@@ -120,26 +120,33 @@ const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => {
 
   const sites = await getSitesByKey(siteIds);
 
-  if (onlyExcessCapacity) {
-    const pipeline = client.batch();
+  return sites;
+};
 
-    for (const site of sites) {
-      pipeline.zscore(keyGenerator.getCapacityRankingKey(), site.id);
-    }
+const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
+  const client = redis.getClient();
+  const pipeline = client.batch();
 
-    const scores = await pipeline.execAsync();
-    const sitesWithCapacity = [];
+  // Get sites within the radius.
+  const sites = await findByGeo(lat, lng, radius, radiusUnit);
 
-    for (let n = 0; n < sites.length; n += 1) {
-      if (parseFloat(scores[n], 10) >= capacityThreshold) {
-        sitesWithCapacity.push(sites[n]);
-      }
-    }
-
-    return sitesWithCapacity;
+  // Get current capacity score for each site.
+  for (const site of sites) {
+    pipeline.zscore(keyGenerator.getCapacityRankingKey(), site.id);
   }
 
-  return sites;
+  const scores = await pipeline.execAsync();
+
+  // Only return sites with capacity above the threshold.
+  const sitesWithCapacity = [];
+
+  for (let n = 0; n < sites.length; n += 1) {
+    if (parseFloat(scores[n], 10) >= capacityThreshold) {
+      sitesWithCapacity.push(sites[n]);
+    }
+  }
+
+  return sitesWithCapacity;
 };
 
 module.exports = {
@@ -147,4 +154,5 @@ module.exports = {
   findById,
   findAll,
   findByGeo,
+  findByGeoWithExcessCapacity,
 };

@@ -296,7 +296,7 @@ test(`${testSuiteName}: findByGeo no results`, async () => {
   expect(response.length).toBe(0);
 });
 
-test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
+test(`${testSuiteName}: findByGeoWithExcessCapacity with results`, async () => {
   const site1 = {
     id: 1,
     capacity: 4.5,
@@ -363,12 +363,11 @@ test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
   ]);
 
   // Perform a capacity search, should return only site2.
-  response = await redisSiteDAO.findByGeo(
+  response = await redisSiteDAO.findByGeoWithExcessCapacity(
     site1.coordinate.lat,
     site1.coordinate.lng,
     60,
     'km',
-    true,
   );
 
   expect(response.length).toBe(1);
@@ -396,12 +395,11 @@ test(`${testSuiteName}: findByGeo with capacity with results`, async () => {
 
   // Perform a capacity search, expect no results even though
   // both sites have some capacity.
-  response = await redisSiteDAO.findByGeo(
+  response = await redisSiteDAO.findByGeoWithExcessCapacity(
     site1.coordinate.lat,
     site1.coordinate.lng,
     60,
     'km',
-    true,
   );
 
   expect(response.length).toBe(0);

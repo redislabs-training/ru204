@@ -7,13 +7,19 @@ const getSites = async () => siteDao.findAll();
 const getSite = async siteId => siteDao.findById(siteId);
 
 const getSitesNearby = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => {
-  const matchingSites = await siteDao.findByGeo(
-    lat,
-    lng,
-    radius,
-    radiusUnit,
-    onlyExcessCapacity,
-  );
+  const matchingSites = onlyExcessCapacity
+    ? await siteDao.findByGeoWithExcessCapacity(
+      lat,
+      lng,
+      radius,
+      radiusUnit,
+    )
+    : await siteDao.findByGeo(
+      lat,
+      lng,
+      radius,
+      radiusUnit,
+    );
 
   return matchingSites;
 };

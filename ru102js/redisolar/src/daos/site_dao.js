@@ -8,12 +8,20 @@ const findById = async id => impl.findById(id);
 
 const findAll = async () => impl.findAll();
 
-const findByGeo = async (lat, lng, radius, radiusUnit, onlyExcessCapacity) => impl.findByGeo(
+const findByGeo = async (lat, lng, radius, radiusUnit) => impl.findByGeo(
   lat,
   lng,
   radius,
   radiusUnit,
-  onlyExcessCapacity,
+);
+
+const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => (
+  impl.findByGeoWithExcessCapacity(
+    lat,
+    lng,
+    radius,
+    radiusUnit,
+  )
 );
 
 module.exports = {
@@ -21,4 +29,5 @@ module.exports = {
   findById,
   findAll,
   findByGeo,
+  findByGeoWithExcessCapacity,
 };
