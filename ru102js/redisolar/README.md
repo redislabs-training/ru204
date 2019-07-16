@@ -5,35 +5,16 @@
 * Complete `LICENSE`
 * Integrate Vue app (currently ships with built version - I'd like to just ship the built version TBH)
 * Write some more tests
-* Determine once and for all about using Models / Domain Objects
-* Consider using a better alternative than relative require paths, e.g. [app-module-path-node](https://www.npmjs.com/package/app-module-path-node)
 * Complete `README.md`
 * Complete static DAOs
-* Complete Redis DAOs
 * JSDoc comments
 * Tidy up field names into constants
-* Make the loader output more synchronous
-* See if I need to implement the sliding window rate limiter.
-
-## Number Rounding?
-
-The Java implementation rounds numbers as follows:
-
-* Map page: N/A
-* Site Stats page: 2 decimal places
-* Recent page: raw? but all 3-4 decimal places
-* Capacity report page: raw ?
-
-The JavaScript implementation rounds numbers as follows:
-
-* Map page: N/A
-* Site Stats page: 2 decimal places
-* Recent page: raw? (seems to be some long numbers and cold temps?)
-* Capacity report page: raw? lots of decimal places!
-
-See if we want to standardize this and round all data to 2 decimal places when ingesting / creating it?
+* See if I need to implement the sliding window rate limiter solution or just offer this as a challenge to the students.  Probably should have a stock answer...
+* See if I need to implement the optimized find by geo with capacity that uses intermediate stored results on the server (Itamar's suggestion) or just offer this as a challenge to the students.  Probably should have a stock answer...
 
 # Introduction
+
+This is the sample application codebase for RU102JS, Redis for JavaScript developers.
 
 TODO.
 
@@ -72,11 +53,17 @@ To load sample site data and sample metrics, run:
 npm run load src/resources/data/sites.json flushdb
 ```
 
-`flushdb` is optional, and will erase all keys from Redis before inserting the sample data.
+`flushdb` is optional, and will erase ALL data from Redis before inserting the sample data.
 
 # Development Workflow
 
 TODO
+
+```
+npm run dev
+```
+
+Edit code, application will hot reload on save.
 
 ## Running Tests
 
