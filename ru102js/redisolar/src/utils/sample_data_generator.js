@@ -28,7 +28,7 @@ const getNextValue = max => getNextValueInSeries(max, max);
 
 const generateHistorical = async (sites, days) => {
   if (days < 1 || days > 365) {
-    throw { error: `Historical data generation requests must be for 1-365 days, not ${days}.` };
+    throw new Error(`Historical data generation requests must be for 1-365 days, not ${days}.`);
   }
 
   const generatedMeterReadings = {};
