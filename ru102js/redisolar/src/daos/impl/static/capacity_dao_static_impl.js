@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const update = meterReading => 'Static TODO';
 
 const getReport = limit => ({
@@ -72,6 +74,8 @@ const getReport = limit => ({
 });
 
 const getRank = siteId => 'Static TODO';
+
+/* eslint-enable */
 
 module.exports = {
   update,

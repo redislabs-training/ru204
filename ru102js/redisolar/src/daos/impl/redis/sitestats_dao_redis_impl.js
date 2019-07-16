@@ -25,8 +25,10 @@ const findById = async (siteId, timestamp) => {
   return (response ? remap(response) : response);
 };
 
-const updateBasic = async (key, meterReading) => {
+/* eslint-enable no-unused-vars */
+const updateBasic = async (meterReading) => {
   const client = redis.getClient();
+  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
 
   await client.hsetAsync(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
   await client.hincrbyAsync(key, 'meterReadingCount', 1);
@@ -48,9 +50,12 @@ const updateBasic = async (key, meterReading) => {
     await client.hsetAsync(key, 'maxCapacity', readingCapacity);
   }
 };
+/* eslint-disable */
 
-const updateImproved = async (key, meterReading) => {
+/* eslint-disable no-unused-vars */
+const updateImproved = async (meterReading) => {
   const client = redis.getClient();
+  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
 
   // Note: this could also be improved to a single hgetall as
   //       we know the hash is small.
@@ -81,9 +86,13 @@ const updateImproved = async (key, meterReading) => {
 
   await Promise.all(commands);
 };
+/* eslint-enable */
 
-const updateOptimized = async (key, meterReading) => {
+/* eslint-disable no-unused-vars */
+const updateOptimized = async (meterReading) => {
   const client = redis.getClient();
+  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
+
   const scriptSha = await compareAndUpdateScript.getSha();
   const transaction = client.multi();
 
@@ -96,16 +105,9 @@ const updateOptimized = async (key, meterReading) => {
 
   await transaction.execAsync();
 };
-
-const update = async (meterReading) => {
-  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
-
-  // await updateBasic(key, meterReading);
-  // await updateImproved(key, meterReading);
-  await updateOptimized(key, meterReading);
-};
+/* eslint-enable */
 
 module.exports = {
   findById,
-  update,
+  update: updateBasic, // updateImproved or updateOptimized
 };

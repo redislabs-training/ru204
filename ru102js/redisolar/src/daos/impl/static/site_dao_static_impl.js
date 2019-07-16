@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const insert = site => 'Static TODO';
 
 const findById = id => [{
@@ -105,6 +107,8 @@ const findByGeoWithExcessCapacity = (lat, lng, radius, radiusUnit) => [{
   lastReportingTime: 1560967216.141000000,
   meterReadingCount: 180,
 }];
+
+/* eslint-enable */
 
 module.exports = {
   insert,

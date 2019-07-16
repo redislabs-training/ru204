@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const insert = meterReadings => ({ status: 'OK', inserted: meterReadings.length });
 
 const getRecentGlobal = limit => [{
@@ -1203,6 +1205,8 @@ const getRecentForSite = (siteId, limit) => [{
   whGenerated: 1.458333333333334,
   tempC: 2.438301258112571,
 }];
+
+/* eslint-enable */
 
 module.exports = {
   insert,

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const insert = meterReading => 'Static TODO';
 
 const getRecent = (siteId, unit, time, limit) => [{
@@ -1207,6 +1209,8 @@ const getRecent = (siteId, unit, time, limit) => [{
   }],
   name: 'Watt-Hours Used',
 }];
+
+/* eslint-enable */
 
 module.exports = {
   insert,

@@ -35,6 +35,7 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   await pipeline.execAsync();
 };
 
+/* eslint-disable no-unused-vars */
 const insertMetricTS = async (siteId, metricValue, metricName, timestamp) => {
   const client = redis.getClient();
 
@@ -46,6 +47,7 @@ const insertMetricTS = async (siteId, metricValue, metricName, timestamp) => {
     timeSeriesMetricRetention,
   ]);
 };
+/* eslint-enable */
 
 const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
   const client = redis.getClient();
@@ -79,6 +81,7 @@ const insert = async (meterReading) => {
   ]);
 };
 
+/* eslint-disable no-unused-vars */
 const getRecent = async (siteId, metricUnit, timestamp, limit) => {
   if (limit > (metricsPerDay * maxMetricRetentionDays)) {
     const err = new Error(`Cannot request more than ${maxMetricRetentionDays} days of minute level data.`);
@@ -110,7 +113,9 @@ const getRecent = async (siteId, metricUnit, timestamp, limit) => {
 
   return measurements;
 };
+/* eslint-enable */
 
+/* eslint-disable no-unused-vars */
 const insertTS = async (meterReading) => {
   await Promise.all([
     insertMetricTS(meterReading.siteId, meterReading.whGenerated, 'whGenerated', meterReading.dateTime),
@@ -118,7 +123,9 @@ const insertTS = async (meterReading) => {
     insertMetricTS(meterReading.siteId, meterReading.tempC, 'tempC', meterReading.dateTime),
   ]);
 };
+/* eslint-enable */
 
+/* eslint-disable no-unused-vars */
 const getRecentTS = async (siteId, metricUnit, timestamp, limit) => {
   if (limit > (metricsPerDay * maxMetricRetentionDays)) {
     const err = new Error(`Cannot request more than ${maxMetricRetentionDays} days of minute level data.`);
@@ -161,6 +168,7 @@ const getRecentTS = async (siteId, metricUnit, timestamp, limit) => {
 
   return measurements;
 };
+/* eslint-enable */
 
 module.exports = {
   insert, // : insertTS,
