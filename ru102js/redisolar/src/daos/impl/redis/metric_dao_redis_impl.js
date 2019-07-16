@@ -3,11 +3,13 @@ const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 const timeUtils = require('../../../utils/time_utils');
 
-const metricsPerDay = 60 * 24;
+const metricIntervalSeconds = 60;
+const metricsPerDay = metricIntervalSeconds * 24;
 const maxMetricRetentionDays = 30;
 const metricExpirationSeconds = 60 * 60 * 24 * maxMetricRetentionDays + 1;
 const maxDaysToReturn = 7;
 const daySeconds = 24 * 60 * 60;
+const timeSeriesMetricRetention = daySeconds * maxMetricRetentionDays;
 
 const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measurement, 2)}:${minuteOfDay}`;
 
@@ -31,6 +33,18 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   pipeline.expire(metricKey, metricExpirationSeconds);
 
   await pipeline.execAsync();
+};
+
+const insertMetricTS = async (siteId, metricValue, metricName, timestamp) => {
+  const client = redis.getClient();
+
+  await client.send_commandAsync('TS.ADD', [
+    keyGenerator.getTSKey(siteId, metricName),
+    timestamp * 1000, // Use millseconds
+    metricValue,
+    'RETENTION',
+    timeSeriesMetricRetention,
+  ]);
 };
 
 const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
@@ -97,7 +111,58 @@ const getRecent = async (siteId, metricUnit, timestamp, limit) => {
   return measurements;
 };
 
+const insertTS = async (meterReading) => {
+  await Promise.all([
+    insertMetricTS(meterReading.siteId, meterReading.whGenerated, 'whGenerated', meterReading.dateTime),
+    insertMetricTS(meterReading.siteId, meterReading.whUsed, 'whUsed', meterReading.dateTime),
+    insertMetricTS(meterReading.siteId, meterReading.tempC, 'tempC', meterReading.dateTime),
+  ]);
+};
+
+const getRecentTS = async (siteId, metricUnit, timestamp, limit) => {
+  if (limit > (metricsPerDay * maxMetricRetentionDays)) {
+    const err = new Error(`Cannot request more than ${maxMetricRetentionDays} days of minute level data.`);
+    err.name = 'TooManyMetricsError';
+
+    throw err;
+  }
+
+  const client = redis.getClient();
+
+  // End at the provided start point.
+  const toMillis = timestamp * 1000;
+
+  // Start as far back as we are allowed to go.
+  const fromMillis = toMillis - (maxDaysToReturn * daySeconds * 1000);
+
+  // Get the samples from RedisTimeSeries.
+  const samples = await client.send_commandAsync('ts.range', [
+    keyGenerator.getTSKey(siteId, metricUnit),
+    fromMillis,
+    toMillis,
+  ]);
+
+  // Truncate array if needed.
+  if (samples.length > limit) {
+    samples.length = limit;
+  }
+
+  const measurements = [];
+
+  // Samples is an array of arrays [ timestamp in millis, 'value as string' ]
+  for (const sample of samples) {
+    measurements.push({
+      siteId,
+      dateTime: Math.floor(sample[0] / 1000),
+      value: parseFloat(sample[1], 10),
+      metricUnit,
+    });
+  }
+
+  return measurements;
+};
+
 module.exports = {
-  insert,
-  getRecent,
+  insert, // : insertTS,
+  getRecent, // : getRecentTS,
 };
