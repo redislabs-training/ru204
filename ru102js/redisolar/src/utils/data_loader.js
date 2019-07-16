@@ -22,6 +22,8 @@ const loadData = async (filename, flushDb) => {
     await flushDB();
   }
 
+  console.log('Loading data.');
+
   for (const site of sampleData) {
     /* eslint-disable no-await-in-loop */
     await sitesController.createSite(site);

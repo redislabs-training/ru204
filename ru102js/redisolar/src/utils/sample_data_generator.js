@@ -32,24 +32,21 @@ const generateHistorical = async (sites, days) => {
   }
 
   const generatedMeterReadings = {};
-  const numMinutesToGenerate = (60 * 24 * days);
+  const minuteDays = days * 3 * 60; // TODO wny not days * 60 * 24?
 
   for (const site of sites) {
-    console.log(`Site: ${site.id} - Generating ${days} day${days !== 1 ? 's' : ''} sample data.`);
-
-    const readingStartTime = moment.utc();
     const maxCapacity = getMaxMinuteWHGenerated(site.capacity);
     let currentCapacity = getNextValue(maxCapacity);
     let currentTemperature = getNextValue(maxTempC);
     let currentUsage = getInitialMinuteWHUsed(maxCapacity);
-    let readingTime = readingStartTime;
+    let currentTime = moment().subtract(minuteDays, 'minutes');
 
     generatedMeterReadings[site.id] = [];
 
-    for (let n = 0; n < numMinutesToGenerate; n += 1) {
+    for (let n = 0; n < minuteDays; n += 1) {
       const meterReading = {
         siteId: site.id,
-        dateTime: readingTime.unix(),
+        dateTime: currentTime.unix(),
         whUsed: currentUsage,
         whGenerated: currentCapacity,
         tempC: currentTemperature,
@@ -57,7 +54,7 @@ const generateHistorical = async (sites, days) => {
 
       generatedMeterReadings[site.id].push(meterReading);
 
-      readingTime = readingTime.subtract(1, 'minutes');
+      currentTime = currentTime.add(1, 'minutes');
       currentTemperature = getNextValue(currentTemperature);
       currentCapacity = getNextValue(currentCapacity, maxCapacity);
       currentUsage = getNextValue(currentUsage, maxCapacity);
@@ -65,7 +62,9 @@ const generateHistorical = async (sites, days) => {
   }
 
   // Now feed these into the system one minute per site at a time.
-  for (let n = 0; n < numMinutesToGenerate; n += 1) {
+  for (let n = 0; n < minuteDays; n += 1) {
+    process.stdout.write('.');
+
     for (const site in generatedMeterReadings) {
       if (generatedMeterReadings.hasOwnProperty(site)) {
         /* eslint-disable no-await-in-loop */
