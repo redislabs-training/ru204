@@ -113,6 +113,11 @@ test(`${testSuiteName}: Test Redis Hash`, async () => {
     moonCount: '1',
   });
 
+  // If we want numeric values, we will need to convert the strings
+  // using parseInt or parseFloat
+  let diameter = parseInt(hash.diameterKM, 10);
+  expect(diameter).toBe(12756);
+
   // More efficient, set all properties at once using the object.
   await client.hmsetAsync('earth', earthProps);
   hash = await client.hgetallAsync('earth');
@@ -125,7 +130,7 @@ test(`${testSuiteName}: Test Redis Hash`, async () => {
   });
 
   // Test that we can get a single property.
-  const diameter = await client.hgetAsync('earth', 'diameterKM');
+  diameter = await client.hgetAsync('earth', 'diameterKM');
   expect(diameter).toBe('12756');
 });
 
