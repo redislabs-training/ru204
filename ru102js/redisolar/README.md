@@ -38,7 +38,7 @@ $ npm run dev
 This should start a live reloading server that uses [nodemon](https://www.npmjs.com/package/nodemon).  You should be able to see the front end solar dashboard app at: 
 
 ```
-http://localhost:8080/
+http://localhost:8081/
 ```
 
 # Configuration 
