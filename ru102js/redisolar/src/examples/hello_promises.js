@@ -10,12 +10,7 @@ const setAsync = promisify(client.set).bind(client);
 const getAsync = promisify(client.get).bind(client);
 
 setAsync('hello', 'world')
-  .then((res) => {
-    console.log(res); // OK
-    return getAsync('hello');
-  })
-  .then((res) => {
-    console.log(res); // world
-
-    client.quit();
-  });
+  .then(res => console.log(res)) // OK
+  .then(() => getAsync('hello'))
+  .then(res => console.log(res)) // world
+  .then(() => client.quit());
