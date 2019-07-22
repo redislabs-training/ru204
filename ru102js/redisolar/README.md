@@ -1,22 +1,8 @@
 # RediSolar for Node.js
 
-## TODO List
-
-* Complete `LICENSE`
-* Integrate Vue app (currently ships with built version - I'd like to just ship the built version TBH)
-* Write some more tests
-* Complete `README.md`
-* Complete static DAOs
-* JSDoc comments
-* Tidy up field names into constants
-* See if I need to implement the sliding window rate limiter solution or just offer this as a challenge to the students.  Probably should have a stock answer...
-* See if I need to implement the optimized find by geo with capacity that uses intermediate stored results on the server (Itamar's suggestion) or just offer this as a challenge to the students.  Probably should have a stock answer...
-
 # Introduction
 
 This is the sample application codebase for RU102JS, Redis for JavaScript developers.
-
-TODO.
 
 # Prerequisites
 
@@ -28,7 +14,7 @@ In order to start and run this application, you will need:
 
 # Setup
 
-To get started with the default configuration (server on port 80, Redis on localhost port 6379):
+To get started with the default configuration (server on port 8081, Redis on localhost port 6379):
 
 ```
 $ npm install
@@ -43,7 +29,37 @@ http://localhost:8081/
 
 # Configuration 
 
-TODO tour of `config.json`.
+The application uses a configuration file, `config.json` to specify the port that it listens 
+on plus some logging parameters and how it connects to a database.
+
+There are two options for the database, `static` or `redis`.  `static` just returns static 
+responses and all write operations will do nothing.  It is included to show how you could 
+organize your code using the DAO pattern when you might have more than one database type 
+to consider.
+
+You should use the `redis` database, and the supplied `config.json` file is already set up 
+to use Redis on localhost port 6379.
+
+```
+{
+  "application": {
+    "port": 8081,
+    "logLevel": "debug",
+    "dataStore": "redis"
+  },
+  "dataStores": {
+    "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "keyPrefix": "ru102j"
+    },
+    "static": {}
+  }
+}
+```
+
+The `keyPrefix` for Redis is used to namespace all the keys that the application generates or 
+references.  So for example a key 'sites:999' would be 'ru102j:sites:999' when written to Redis.
 
 # Load Sample Data
 
@@ -57,7 +73,8 @@ npm run load src/resources/data/sites.json flushdb
 
 # Development Workflow
 
-TODO
+In order to speed up development, you can run the application using `nodemon`, so that any 
+changes to source code files cause the server to reload and start using your changes.
 
 ```
 npm run dev
@@ -88,7 +105,14 @@ npm testdev
 
 ## Linting
 
-TODO description, info, `.eslintrc`, `.eslintignore`.
+This project uses [ESLint](https://eslint.org/) with a slightly modified version of the 
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+
+* The file `.eslintrc` contains a short list of rules that have been disabled for this project.
+* The file `.eslintignore` contains details of paths that the linter will not consider when 
+linting the project.
+
+To run the linter:
 
 ```
 npm run lint
