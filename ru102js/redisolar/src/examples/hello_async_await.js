@@ -3,7 +3,7 @@ const bluebird = require('bluebird');
 
 bluebird.promisifyAll(redis);
 
-const hello = async () => {
+const runApplication = async () => {
   const client = redis.createClient({
     host: 'localhost',
     port: 6379,
@@ -19,7 +19,7 @@ const hello = async () => {
 };
 
 try {
-  hello();
+  runApplication();
 } catch (e) {
   console.log(e);
 }
