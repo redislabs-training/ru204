@@ -1,7 +1,10 @@
 const config = require('better-config');
 
 /* eslint-disable import/no-dynamic-require, global-require */
-const loadDao = daoName => require(`./impl/${config.get('application.dataStore')}/${daoName}_dao_${config.get('application.dataStore')}_impl`);
+const loadDao = (daoName) => {
+  const currentDatabase = config.get('application.dataStore');
+  return require(`./impl/${currentDatabase}/${daoName}_dao_${currentDatabase}_impl`);
+};
 /* eslint-enable */
 
 module.exports = {
