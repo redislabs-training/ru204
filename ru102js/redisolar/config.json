@@ -8,7 +8,7 @@
     "redis": {
       "host": "localhost",
       "port": 6379,
-      "keyPrefix": "ru102j"
+      "keyPrefix": "ru102js"
     },
     "static": {}
   }

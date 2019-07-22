@@ -51,7 +51,7 @@ to use Redis on localhost port 6379.
     "redis": {
       "host": "localhost",
       "port": 6379,
-      "keyPrefix": "ru102j"
+      "keyPrefix": "ru102js"
     },
     "static": {}
   }
@@ -59,7 +59,7 @@ to use Redis on localhost port 6379.
 ```
 
 The `keyPrefix` for Redis is used to namespace all the keys that the application generates or 
-references.  So for example a key 'sites:999' would be 'ru102j:sites:999' when written to Redis.
+references.  So for example a key 'sites:999' would be 'ru102js:sites:999' when written to Redis.
 
 # Load Sample Data
 
