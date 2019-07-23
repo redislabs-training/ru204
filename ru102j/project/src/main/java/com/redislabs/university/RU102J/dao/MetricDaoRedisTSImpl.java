@@ -43,12 +43,15 @@ public class MetricDaoRedisTSImpl implements MetricDao {
         rts.add(metricKey, dateTime.toEpochSecond() * 1000, value, RETENTION_MS);
     }
 
+
+    // Return the `limit` most-recent minute-level measurements starting at the
+    // provided timestamp.
     @Override
     public List<Measurement> getRecent(Long siteId, MetricUnit unit, ZonedDateTime time, Integer limit) {
         List<Measurement> measurements = new ArrayList<>();
         String metricKey = RedisSchema.getTSKey(siteId, unit);
 
-        Long nowMs = ZonedDateTime.now().toEpochSecond() * 1000;
+        Long nowMs = time.toEpochSecond() * 1000;
         Long initialTimestamp = nowMs - (limit * 60) * 1000;
         Value[] values = rts.range(metricKey, initialTimestamp, nowMs);
 
