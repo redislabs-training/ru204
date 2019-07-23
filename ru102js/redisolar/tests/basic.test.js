@@ -84,6 +84,17 @@ test(`${testSuiteName}: Test Redis Set`, async () => {
   let length = await client.scardAsync('planets');
   expect(length).toBe(9);
 
+  // Read the set back from Redis and compare with a local set.
+  const jsSet = new Set(testPlanets);
+  const responseArray = await client.smembersAsync('planets');
+  const setFromRedis = new Set(responseArray);
+
+  expect(setFromRedis.length).toBe(jsSet.length);
+
+  for (const member of jsSet) {
+    expect(setFromRedis.has(member)).toBe(true);
+  }
+
   // Remove Pluto from the set.
   const numRemoved = await client.sremAsync('planets', 'Pluto');
   expect(numRemoved).toBe(1);
