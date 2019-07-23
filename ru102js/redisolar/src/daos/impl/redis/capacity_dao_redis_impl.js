@@ -5,7 +5,7 @@ const keyGenerator = require('./redis_key_generator');
  * Transform an array of siteId, capacity tuples to an array
  * of objects.
  * @param {array} arr - array of siteId, capacity tuples
- * @returns {Object[]} - array of Objects  
+ * @returns {Object[]} - array of Objects
  * @private
  */
 const remap = (arr) => {

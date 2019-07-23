@@ -13,8 +13,8 @@ const remap = (siteHash) => {
   // coordinate is optional.
   if (siteHash.hasOwnProperty('lat') && siteHash.hasOwnProperty('lng')) {
     remappedSiteHash.coordinate = {
-      lat: parseFloat(siteHash.lat, 10),
-      lng: parseFloat(siteHash.lng, 10),
+      lat: parseFloat(siteHash.lat),
+      lng: parseFloat(siteHash.lng),
     };
 
     // Remove original fields from resulting object.
@@ -144,7 +144,7 @@ const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   const sitesWithCapacity = [];
 
   for (let n = 0; n < sites.length; n += 1) {
-    if (parseFloat(scores[n], 10) >= capacityThreshold) {
+    if (parseFloat(scores[n]) >= capacityThreshold) {
       sitesWithCapacity.push(sites[n]);
     }
   }
