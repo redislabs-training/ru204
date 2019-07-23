@@ -10,9 +10,9 @@ const remap = (siteStatsHash) => {
 
   remappedSiteStatsHash.lastReportingTime = parseInt(siteStatsHash.lastReportingTime, 10);
   remappedSiteStatsHash.meterReadingCount = parseInt(siteStatsHash.meterReadingCount, 10);
-  remappedSiteStatsHash.maxWhGenerated = parseFloat(siteStatsHash.maxWhGenerated, 10);
-  remappedSiteStatsHash.minWhGenerated = parseFloat(siteStatsHash.minWhGenerated, 10);
-  remappedSiteStatsHash.maxCapacity = parseFloat(siteStatsHash.maxCapacity, 10);
+  remappedSiteStatsHash.maxWhGenerated = parseFloat(siteStatsHash.maxWhGenerated);
+  remappedSiteStatsHash.minWhGenerated = parseFloat(siteStatsHash.minWhGenerated);
+  remappedSiteStatsHash.maxCapacity = parseFloat(siteStatsHash.maxCapacity);
 
   return remappedSiteStatsHash;
 };
@@ -35,7 +35,7 @@ const updateBasic = async (meterReading) => {
   await client.expireAsync(key, weekSeconds);
 
   const maxWh = await client.hgetAsync(key, 'maxWhGenerated');
-  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh, 10)) {
+  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh)) {
     await client.hsetAsync(key, 'maxWhGenerated', meterReading.whGenerated);
   }
 
@@ -46,7 +46,7 @@ const updateBasic = async (meterReading) => {
 
   const maxCapacity = await client.hgetAsync(key, 'maxCapacity');
   const readingCapacity = meterReading.whGenerated - meterReading.whUsed;
-  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity, 10)) {
+  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity)) {
     await client.hsetAsync(key, 'maxCapacity', readingCapacity);
   }
 };
@@ -71,16 +71,16 @@ const updateImproved = async (meterReading) => {
     client.expireAsync(key, weekSeconds),
   ];
 
-  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh, 10)) {
+  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh)) {
     commands.push(client.hsetAsync(key, 'maxWhGenerated', meterReading.whGenerated));
   }
 
-  if (minWh === null || meterReading.whGenerated < parseFloat(minWh, 10)) {
+  if (minWh === null || meterReading.whGenerated < parseFloat(minWh)) {
     commands.push(client.hsetAsync(key, 'minWhGenerated', meterReading.whGenerated));
   }
 
   const readingCapacity = meterReading.whGenerated - meterReading.whUsed;
-  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity, 10)) {
+  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity)) {
     commands.push(client.hsetAsync(key, 'maxCapacity', readingCapacity));
   }
 

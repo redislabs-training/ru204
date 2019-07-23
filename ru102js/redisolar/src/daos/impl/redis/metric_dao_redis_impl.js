@@ -32,7 +32,7 @@ const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measure
 const extractMeasurementMinute = (measurementMinute) => {
   const arr = measurementMinute.split(':');
   return {
-    measurement: parseFloat(arr[0], 10),
+    measurement: parseFloat(arr[0]),
     minute: parseInt(arr[1], 10),
   };
 };

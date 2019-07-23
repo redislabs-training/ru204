@@ -79,7 +79,7 @@ test(`${testSuiteName}: Test Redis float`, async () => {
   value = await client.incrbyfloatAsync(testKeyName, 1);
   expect(typeof (value)).toBe('string');
   expect(value).toBe('23.5');
-  expect(parseFloat(value, 10)).toBeCloseTo(23.5);
+  expect(parseFloat(value)).toBeCloseTo(23.5);
 });
 
 test(`${testSuiteName}: Test Redis integer`, async () => {

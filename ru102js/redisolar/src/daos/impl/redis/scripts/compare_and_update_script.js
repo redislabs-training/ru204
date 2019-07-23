@@ -2,6 +2,11 @@ const redis = require('../redis_client');
 
 let sha;
 
+/**
+ * Get the Lua source code for the script.
+ * @returns {string} - Lua source code for the script.
+ * @private
+ */
 const getSource = () => `
   local key = KEYS[1]
   local field = ARGV[1]
@@ -20,6 +25,10 @@ const getSource = () => `
     end
   end `;
 
+/**
+ * Load the script into Redis and return its SHA.
+ * @returns {string} - The SHA for this script.
+ */
 const getSha = async () => {
   // Load script on first use...
   if (!sha) {

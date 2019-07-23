@@ -16,9 +16,9 @@ const remap = (streamEntry) => {
   const remappedStreamEntry = { ...streamEntry };
 
   remappedStreamEntry.siteId = parseInt(streamEntry.siteId, 10);
-  remappedStreamEntry.whUsed = parseFloat(streamEntry.whUsed, 10);
-  remappedStreamEntry.whGenerated = parseFloat(streamEntry.whGenerated, 10);
-  remappedStreamEntry.tempC = parseFloat(streamEntry.tempC, 10);
+  remappedStreamEntry.whUsed = parseFloat(streamEntry.whUsed);
+  remappedStreamEntry.whGenerated = parseFloat(streamEntry.whGenerated);
+  remappedStreamEntry.tempC = parseFloat(streamEntry.tempC);
   remappedStreamEntry.dateTime = parseInt(streamEntry.dateTime, 10);
 
   return remappedStreamEntry;

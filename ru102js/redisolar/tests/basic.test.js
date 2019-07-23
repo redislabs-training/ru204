@@ -26,16 +26,19 @@ const testPlanets = [
 
 /* eslint-disable no-undef */
 
+// Runs before each test.
 beforeEach(async () => {
   await client.delAsync('planets');
   await client.delAsync('earth');
 });
 
+// Runs after each test.
 afterEach(async () => {
   await client.delAsync('planets');
   await client.delAsync('earth');
 });
 
+// Runs after all tests have finished.
 afterAll(async () => {
   // Release Redis connection.
   client.quit();
