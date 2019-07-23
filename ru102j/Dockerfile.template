@@ -13,11 +13,13 @@ RUN set -ex && \
       openjdk8 \ 
       maven \
       emacs \
+      ngrep \
       git && \
       mkdir -p /usr/src/redistimeseries && \
       cd /usr/src/redistimeseries/ && \
       git clone https://github.com/RedisLabsModules/RedisTimeSeries.git && \
       cd RedisTimeSeries && \
+      git checkout tags/v1.0.0 -b 1.00 && \
       git submodule init && \
       git submodule update && \
       cd src && \
@@ -28,10 +30,11 @@ RUN set -ex && \
 
 RUN set -ex && apk add --no-cache nss
 
-ADD .logo /home/student/.logo
+# Add a welcome message
+ADD .logo /src/redisu/.logo
 
+# Add the sample project
 ADD project /src/redisu/project
-RUN chown -R student:student /src/redisu
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
@@ -41,3 +44,5 @@ ADD .logo /home/student/.logo
 RUN set -ex && \
     cd /src/redisu/project && \
     mvn compile
+
+RUN chown -R student:student /src/redisu

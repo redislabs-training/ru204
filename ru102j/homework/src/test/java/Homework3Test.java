@@ -1,10 +1,8 @@
-import jdk.vm.ci.code.site.Site;
 import org.junit.Before;
 import org.junit.Test;
 import redis.clients.jedis.*;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Homework3Test {
 
