@@ -73,7 +73,7 @@ const getSitesByKey = async (siteIds) => {
  * Insert a new site.
  *
  * @param {Object} site - a site object.
- * @return {Promise} - a Promise, resolving to the string value
+ * @returns {Promise} - a Promise, resolving to the string value
  *   for the key of the site Redis.
  */
 const insert = async (site) => {
@@ -101,7 +101,7 @@ const insert = async (site) => {
  * Get the site object for a given site ID.
  *
  * @param {number} id - a site ID.
- * @return {Promise} - a Promise, resolving to a site object.
+ * @returns {Promise} - a Promise, resolving to a site object.
  */
 const findById = async (id) => {
   const client = redis.getClient();
@@ -115,7 +115,7 @@ const findById = async (id) => {
 /**
  * Get an array of all site objects.
  *
- * @return {Promise} - a Promise, resolving to an array of site objects.
+ * @returns {Promise} - a Promise, resolving to an array of site objects.
  */
 const findAll = async () => {
   const client = redis.getClient();

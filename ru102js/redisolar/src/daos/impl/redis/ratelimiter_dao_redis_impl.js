@@ -5,7 +5,7 @@ const keyGenerator = require('./redis_key_generator');
  *
  * @param {string} name - TODO
  * @param {Object} opts - TODO
- * @return {Promise} - TODO
+ * @returns {Promise} - TODO
  * @private
  */
 const hitFixedWindow = async (name, opts) => {

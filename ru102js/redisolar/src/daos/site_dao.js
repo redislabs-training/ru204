@@ -7,7 +7,7 @@ module.exports = {
    * Insert a new site.
    *
    * @param {Object} site - a site object.
-   * @return {Promise} - a Promise, resolving to the string value
+   * @returns {Promise} - a Promise, resolving to the string value
    *   for the ID of the site in the database.
    */
   insert: async site => impl.insert(site),
@@ -16,14 +16,14 @@ module.exports = {
    * Get the site object for a given site ID.
    *
    * @param {number} id - a site ID.
-   * @return {Promise} - a Promise, resolving to a site object.
+   * @returns {Promise} - a Promise, resolving to a site object.
    */
   findById: async id => impl.findById(id),
 
   /**
    * Get an array of all site objects.
    *
-   * @return {Promise} - a Promise, resolving to an array of site objects.
+   * @returns {Promise} - a Promise, resolving to an array of site objects.
    */
   findAll: async () => impl.findAll(),
 
