@@ -3,6 +3,13 @@ const daoLoader = require('./daoloader');
 const impl = daoLoader.loadDao('site');
 
 module.exports = {
+  /**
+   * Insert a new site.
+   *
+   * @param {Object} site - a site object.
+   * @return {Promise} - a Promise, resolving to the string value
+   *   for the ID of the site in the database.
+   */
   insert: async site => impl.insert(site),
 
   /**

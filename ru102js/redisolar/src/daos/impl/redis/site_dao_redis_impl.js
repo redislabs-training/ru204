@@ -69,6 +69,13 @@ const getSitesByKey = async (siteIds) => {
   return sites;
 };
 
+/**
+ * Insert a new site.
+ *
+ * @param {Object} site - a site object.
+ * @return {Promise} - a Promise, resolving to the string value
+ *   for the key of the site Redis.
+ */
 const insert = async (site) => {
   const client = redis.getClient();
 
