@@ -90,14 +90,26 @@ const insert = async (site) => {
   return siteHashKey;
 };
 
+/**
+ * Get the site object for a given site ID.
+ *
+ * @param {number} id - a site ID.
+ * @return {Promise} - a Promise, resolving to a site object.
+ */
 const findById = async (id) => {
   const client = redis.getClient();
+  const siteKey = keyGenerator.getSiteHashKey(id);
 
-  const siteHash = await client.hgetallAsync(keyGenerator.getSiteHashKey(id));
+  const siteHash = await client.hgetallAsync(siteKey);
 
-  return (siteHash ? remap(siteHash) : null);
+  return (siteHash === null ? siteHash : remap(siteHash));
 };
 
+/**
+ * Get an array of all site objects.
+ *
+ * @return {Promise} - a Promise, resolving to an array of site objects.
+ */
 const findAll = async () => {
   const client = redis.getClient();
 

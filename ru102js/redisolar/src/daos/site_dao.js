@@ -2,32 +2,37 @@ const daoLoader = require('./daoloader');
 
 const impl = daoLoader.loadDao('site');
 
-const insert = async site => impl.insert(site);
+module.exports = {
+  insert: async site => impl.insert(site),
 
-const findById = async id => impl.findById(id);
+  /**
+   * Get the site object for a given site ID.
+   *
+   * @param {number} id - a site ID.
+   * @return {Promise} - a Promise, resolving to a site object.
+   */
+  findById: async id => impl.findById(id),
 
-const findAll = async () => impl.findAll();
+  /**
+   * Get an array of all site objects.
+   *
+   * @return {Promise} - a Promise, resolving to an array of site objects.
+   */
+  findAll: async () => impl.findAll(),
 
-const findByGeo = async (lat, lng, radius, radiusUnit) => impl.findByGeo(
-  lat,
-  lng,
-  radius,
-  radiusUnit,
-);
-
-const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => (
-  impl.findByGeoWithExcessCapacity(
+  findByGeo: async (lat, lng, radius, radiusUnit) => impl.findByGeo(
     lat,
     lng,
     radius,
     radiusUnit,
-  )
-);
+  ),
 
-module.exports = {
-  insert,
-  findById,
-  findAll,
-  findByGeo,
-  findByGeoWithExcessCapacity,
+  findByGeoWithExcessCapacity: async (lat, lng, radius, radiusUnit) => (
+    impl.findByGeoWithExcessCapacity(
+      lat,
+      lng,
+      radius,
+      radiusUnit,
+    )
+  ),
 };
