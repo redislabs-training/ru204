@@ -3,7 +3,10 @@ import org.junit.Test;
 import redis.clients.jedis.*;
 
 import java.time.Instant;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class FinalExam {
 
@@ -52,7 +55,6 @@ public class FinalExam {
         return result;
     }
 
-    @Test
     public void updateTemperature(Double currentTemperature) {
         String maxTemperature = jedis.hget("metrics", "maxTemp");
         if (currentTemperature > Double.valueOf(maxTemperature)) {
@@ -60,7 +62,6 @@ public class FinalExam {
         }
     }
 
-    @Test
     public void hit(String userId, Integer maxHits) throws RateLimitExceededException {
         try (Jedis jedis = jedisPool.getResource()) {
             String key = "limiter-" + Instant.now().getEpochSecond() + "-" + userId;
@@ -85,17 +86,35 @@ public class FinalExam {
 
         Set<String> results = jedis.zrange("z", 0, -1);
         System.out.println(results);
-
     }
 
-    public Set<String> getMembers(String key) {
+    @Test
+    public void testGetMembers() {
+        String key = "members-test";
+        for(int i=0; i<10000; i++) {
+            jedis.sadd(key, String.valueOf(i));
+        }
+
+        Set<String> r1 = getMembers1(key);
+        Set<String> r2 = getMembers2(key);
+        assert(r1.size() == r2.size());
+        assert(r1.equals(r2));
+    }
+
+    Set<String> getMembers1(String key) {
+        return jedis.smembers(key);
+    }
+
+    public Set<String> getMembers2(String key) {
         Set<String> members = new HashSet<>();
         ScanResult<String> scanResult;
-        ScanParams scanParams = new ScanParams().count(10).match("*");
+        ScanParams scanParams = new ScanParams().count(1000).match("*");
         String cursor = ScanParams.SCAN_POINTER_START;
         do {
+            System.out.println("Round Trip");
             scanResult = jedis.sscan(key, cursor, scanParams);
             members.addAll(scanResult.getResult());
+            cursor = scanResult.getCursor();
         } while (!scanResult.isCompleteIteration());
 
         return members;
@@ -108,5 +127,8 @@ public class FinalExam {
             jedis.incr("counter");
             jedis.close();
         }
+    }
+
+    private class RateLimitExceededException extends Throwable {
     }
 }
