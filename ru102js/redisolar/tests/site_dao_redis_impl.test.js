@@ -120,8 +120,7 @@ test(`${testSuiteName}: findById with existing site`, async () => {
 
   await redisSiteDAO.insert(site);
   const siteFromRedis = await redisSiteDAO.findById(site.id);
-
-  expect(site).toEqual(siteFromRedis);
+  expect(siteFromRedis).toEqual(site);
 });
 
 test(`${testSuiteName}: findById with existing site with coordinates`, async () => {
@@ -142,7 +141,7 @@ test(`${testSuiteName}: findById with existing site with coordinates`, async () 
   await redisSiteDAO.insert(site);
   const siteFromRedis = await redisSiteDAO.findById(site.id);
 
-  expect(site).toEqual(siteFromRedis);
+  expect(siteFromRedis).toEqual(site);
 });
 
 test(`${testSuiteName}: findById with missing site`, async () => {
@@ -186,8 +185,8 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
   const sitesFromRedis = await redisSiteDAO.findAll();
 
   // Workaround due to ordering differences when using a set...
-  expect(sites.length).toEqual(sitesFromRedis.length);
-  expect(sites).toEqual(expect.arrayContaining(sitesFromRedis));
+  expect(sitesFromRedis.length).toEqual(sites.length);
+  expect(sitesFromRedis).toEqual(expect.arrayContaining(sites));
 });
 
 test(`${testSuiteName}: findAll with empty sites`, async () => {
