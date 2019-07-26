@@ -126,6 +126,15 @@ const findAll = async () => {
   return sites;
 };
 
+/**
+ * Get an array of sites within a radius of a given coordinate.
+ *
+ * @param {number} lat - Latitude of the coordinate to search from.
+ * @param {number} lng - Longitude of the coordinate to search from.
+ * @param {number} radius - Radius in which to search.
+ * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
+ * @returns {Promise} - a Promise, resolving to an array of site objects.
+ */
 const findByGeo = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
 
@@ -145,6 +154,16 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
 // TODO implement findByGeoWithExcessCapacityOptimized
 // and rename the one below to findByGeoWithExcessCapacityBasic
 
+/**
+ * Get an array of sites where capacity exceeds consumption within
+ * a radius of a given coordinate.
+ *
+ * @param {number} lat - Latitude of the coordinate to search from.
+ * @param {number} lng - Longitude of the coordinate to search from.
+ * @param {number} radius - Radius in which to search.
+ * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
+ * @returns {Promise} - a Promise, resolving to an array of site objects.
+ */
 const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
   const pipeline = client.batch();

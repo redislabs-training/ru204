@@ -27,6 +27,15 @@ module.exports = {
    */
   findAll: async () => impl.findAll(),
 
+  /**
+   * Get an array of sites within a radius of a given coordinate.
+   *
+   * @param {number} lat - Latitude of the coordinate to search from.
+   * @param {number} lng - Longitude of the coordinate to search from.
+   * @param {number} radius - Radius in which to search.
+   * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
+   * @returns {Promise} - a Promise, resolving to an array of site objects.
+   */
   findByGeo: async (lat, lng, radius, radiusUnit) => impl.findByGeo(
     lat,
     lng,
@@ -34,6 +43,16 @@ module.exports = {
     radiusUnit,
   ),
 
+  /**
+   * Get an array of sites where capacity exceeds consumption within
+   * a radius of a given coordinate.
+   *
+   * @param {number} lat - Latitude of the coordinate to search from.
+   * @param {number} lng - Longitude of the coordinate to search from.
+   * @param {number} radius - Radius in which to search.
+   * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
+   * @returns {Promise} - a Promise, resolving to an array of site objects.
+   */
   findByGeoWithExcessCapacity: async (lat, lng, radius, radiusUnit) => (
     impl.findByGeoWithExcessCapacity(
       lat,
