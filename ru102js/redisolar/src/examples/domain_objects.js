@@ -9,6 +9,7 @@ const site = {
   city: 'Vallejo',
   state: 'CA',
   postalCode: '94591',
+  // Optional
   coordinate: {
     lat: 38.10476999999999,
     lng: -122.193849,
