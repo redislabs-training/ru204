@@ -17,6 +17,14 @@ const remap = (siteStatsHash) => {
   return remappedSiteStatsHash;
 };
 
+/**
+ * Gets the site stats for the supplied site ID for the date specified
+ * by the timestamp parameter.
+ *
+ * @param {number} siteId - the site ID to get site stats for.
+ * @param {number} timestamp - timestamp for the day to get site stats for.
+ * @returns {Promise} - promise that resolves to an object containing the site stat details.
+ */
 const findById = async (siteId, timestamp) => {
   const client = redis.getClient();
 
@@ -26,6 +34,13 @@ const findById = async (siteId, timestamp) => {
 };
 
 /* eslint-enable no-unused-vars */
+/**
+ * Updates the site stats for a specific site with the meter
+ * reading data provided.
+ *
+ * @param {Object} meterReading - a meter reading object.
+ * @returns {Promise} - promise that resolves when the operation is complete.
+ */
 const updateBasic = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
@@ -53,6 +68,13 @@ const updateBasic = async (meterReading) => {
 /* eslint-disable */
 
 /* eslint-disable no-unused-vars */
+/**
+ * Updates the site stats for a specific site with the meter 
+ * reading data provided.
+ * 
+ * @param {Object} meterReading - a meter reading object.
+ * @returns {Promise} - promise that resolves when the operation is complete.
+ */
 const updateImproved = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
@@ -89,6 +111,13 @@ const updateImproved = async (meterReading) => {
 /* eslint-enable */
 
 /* eslint-disable no-unused-vars */
+/**
+ * Updates the site stats for a specific site with the meter
+ * reading data provided.
+ *
+ * @param {Object} meterReading - a meter reading object.
+ * @returns {Promise} - promise that resolves when the operation is complete.
+ */
 const updateOptimized = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
