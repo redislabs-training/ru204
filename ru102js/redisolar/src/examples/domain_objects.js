@@ -26,7 +26,6 @@ const meterReading = {
 };
 
 // Measurement
-// metric_dao_redis_impl, would need to be synthesized out of it...
 const measurement = {
   siteId: 114,
   dateTime: 1563897660,
