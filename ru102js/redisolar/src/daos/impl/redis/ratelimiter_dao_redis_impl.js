@@ -2,10 +2,13 @@ const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
 /**
+ * Record a hit against a unique resource that is being
+ * rate limited.  Will return 0 when the resource has hit
+ * the rate limit.  Fixed time window implementation.
  *
- * @param {string} name - TODO
- * @param {Object} opts - TODO
- * @returns {Promise} - TODO
+ * @param {string} name - the unique name of the resource.
+ * @param {Object} opts - object containing maxHits and interval details.
+ * @returns {Promise} - Promise resolving to the number of hits remaining.
  * @private
  */
 const hitFixedWindow = async (name, opts) => {
