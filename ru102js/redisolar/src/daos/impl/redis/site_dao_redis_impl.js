@@ -1,8 +1,21 @@
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
+// Minimum amount of capacity that a site should have to be
+// considered as having 'excess capacity'.
 const capacityThreshold = 0.2;
 
+/**
+ * Takes a flat key/value pairs object representing a Redis hash, and
+ * returns a new object whose structure matches that of the site domain
+ * object.  Also converts fields whose values are numbers back to
+ * numbers as Redis stores all hash key values as strings.
+ *
+ * @param {Object} siteHash - object containing hash values from Redis
+ * @returns {Object} - object containing the values from Redis remapped
+ *  to the shape of a site domain object.
+ * @private
+ */
 const remap = (siteHash) => {
   const remappedSiteHash = { ...siteHash };
 
@@ -25,6 +38,14 @@ const remap = (siteHash) => {
   return remappedSiteHash;
 };
 
+/**
+ * Takes a site domain object and flattens its structure out into
+ * a set of key/value pairs suitable for storage in a Redis hash.
+ *
+ * @param {Object} site - a site domain object.
+ * @returns {Object} - a flattened version of 'site', with no nested
+ *  inner objects, suitable for storage in a Redis hash.
+ */
 const flatten = (site) => {
   const flattenedSite = { ...site };
 
@@ -37,6 +58,12 @@ const flatten = (site) => {
   return flattenedSite;
 };
 
+/**
+ *
+ * @param {*} siteIds - an array of site IDs to get the details for.
+ * @returns {Promise} - a Promise that resolves to an array of site domain
+ *  objects whose IDs are the ones specified in 'siteIds'.
+ */
 const getSitesByKey = async (siteIds) => {
   const client = redis.getClient();
 
@@ -62,6 +89,10 @@ const getSitesByKey = async (siteIds) => {
     /* eslint-enable */
 
     if (siteHash) {
+      // Call remap to remap the flat key/value representation
+      // from the Redis hash into the site domain object format,
+      // and convert any fields that a numerical from the Redis
+      // string representations.
       sites.push(remap(siteHash));
     }
   }
