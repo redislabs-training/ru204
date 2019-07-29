@@ -45,6 +45,7 @@ const remap = (siteHash) => {
  * @param {Object} site - a site domain object.
  * @returns {Object} - a flattened version of 'site', with no nested
  *  inner objects, suitable for storage in a Redis hash.
+ * @private
  */
 const flatten = (site) => {
   const flattenedSite = { ...site };

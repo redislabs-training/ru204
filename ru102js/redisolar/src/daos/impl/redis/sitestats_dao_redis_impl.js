@@ -5,6 +5,13 @@ const timeUtils = require('../../../utils/time_utils');
 
 const weekSeconds = 60 * 60 * 24 * 7;
 
+/**
+ * Takes an object containing keys and values from a Redis hash, and
+ * performs the required type conversions from string -> number on some
+ * of the keysto transform it into a site stat domain object.
+ * @param {Object} siteStatsHash - Object whose key/value pairs represent values from a Redis hash.
+ * @private
+ */
 const remap = (siteStatsHash) => {
   const remappedSiteStatsHash = { ...siteStatsHash };
 
