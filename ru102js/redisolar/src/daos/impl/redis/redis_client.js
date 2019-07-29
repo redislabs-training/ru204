@@ -6,18 +6,24 @@ const config = require('better-config');
 redis.addCommand('ts.add'); // redis.ts_addAsync
 redis.addCommand('ts.range'); // redis.ts_rangeAsync
 
+// Promisify all the functions exported by node_redis.
 bluebird.promisifyAll(redis);
 
+// Create a client and connect to Redis using configuration
+// from config.json.
 const client = redis.createClient({
   host: config.get('dataStores.redis.host'),
   port: config.get('dataStores.redis.port'),
 });
 
-// TODO add better client error...
+// This is a catch all basic error handler.
 client.on('error', error => console.log(error));
 
-const getClient = () => client; // Later this may need to use param eg for separate pubsub client...
-
 module.exports = {
-  getClient,
+  /**
+   * Get the application's connected Redis client instance.
+   *
+   * @returns {Object} - a connected node_redis client instance.
+   */
+  getClient: () => client,
 };
