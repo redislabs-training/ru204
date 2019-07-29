@@ -71,6 +71,9 @@ npm run load src/resources/data/sites.json flushdb
 
 `flushdb` is optional, and will erase ALL data from Redis before inserting the sample data.
 
+The application uses the key prefix `ru102js` by default, so you should be able to use the 
+same Redis instance for this application and other data if necessary.
+
 # Development Workflow
 
 In order to speed up development, you can run the application using `nodemon`, so that any 
