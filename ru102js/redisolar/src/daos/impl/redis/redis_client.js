@@ -16,8 +16,6 @@ const client = redis.createClient({
 // TODO add better client error...
 client.on('error', error => console.log(error));
 
-// TODO deal with optional authentication???
-
 const getClient = () => client; // Later this may need to use param eg for separate pubsub client...
 
 module.exports = {
