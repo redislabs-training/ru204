@@ -3,6 +3,15 @@ const { param, query } = require('express-validator');
 const apiErrorReporter = require('../utils/apierrorreporter');
 const controller = require('../controllers/sites_controller.js');
 
+/**
+ * Custom validate.js validator.  Validates a set of parameters to
+ * make sure enough data was passed in to complete a geo search.
+ *
+ * @param {*} value - unused but required by validate.js.
+ * @param {Object} param1 - object containins request parameters to check.
+ * @returns {boolean} - true if the provided geo params are complete.
+ * @private
+ */
 const geoParamsValidator = (value, { req }) => {
   const {
     lat, lng, radius, radiusUnit,
@@ -15,7 +24,7 @@ const geoParamsValidator = (value, { req }) => {
   throw new Error('When using geo lookup, params lat, lng, radius, radiusUnit are required.');
 };
 
-
+// GET /sites
 router.get(
   '/sites',
   [
@@ -53,6 +62,7 @@ router.get(
   },
 );
 
+// GET /sites/999
 router.get(
   '/sites/:siteId',
   [
@@ -68,6 +78,5 @@ router.get(
     }
   },
 );
-
 
 module.exports = router;

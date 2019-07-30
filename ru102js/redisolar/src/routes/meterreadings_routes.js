@@ -3,6 +3,14 @@ const { body, param, query } = require('express-validator');
 const apiErrorReporter = require('../utils/apierrorreporter');
 const controller = require('../controllers/meterreadings_controller');
 
+/**
+ * Get the numeric limit value, 100 if not specified, otherwise
+ * use the number specified up to 1000 maximum.
+ *
+ * @param {number} n - the number of readings to get.
+ * @returns {number} - the number of readings that the request will be capped at.
+ * @private
+ */
 const getLimit = (n) => {
   if (Number.isNaN(n)) {
     return 100;
@@ -11,6 +19,8 @@ const getLimit = (n) => {
   return (n > 1000 ? 1000 : n);
 };
 
+// POST /meterreadings
+// Body is array of objects as described below.
 router.post(
   '/meterreadings',
   [
@@ -32,6 +42,7 @@ router.post(
   },
 );
 
+// GET /meterreadings?n=99
 router.get(
   '/meterreadings',
   [
@@ -48,6 +59,7 @@ router.get(
   },
 );
 
+// GET /meterreadings/123?n=99
 router.get(
   '/meterreadings/:siteId',
   [
