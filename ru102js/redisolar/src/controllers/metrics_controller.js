@@ -1,6 +1,15 @@
 const metricDao = require('../daos/metric_dao');
 const timeUtils = require('../utils/time_utils');
 
+/**
+ * Retrieve metrics for a specified site ID.
+ *
+ * @param {number} siteId - the numeric site ID of a solar site.
+ * @param {number} limit - the maximum number of metrics to return, if that
+ *  many are available.
+ * @returns {Promise} - a promise that resolves to an array of two objects,
+ *  one for watt hours generated metrics, the other for watt hours used.
+ */
 const getMetricsForSite = async (siteId, limit) => {
   const currentTimestamp = timeUtils.getCurrentTimestamp();
 
