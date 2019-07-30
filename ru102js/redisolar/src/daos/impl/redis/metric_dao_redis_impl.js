@@ -32,7 +32,7 @@ const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measure
 const extractMeasurementMinute = (measurementMinute) => {
   const arr = measurementMinute.split(':');
   return {
-    measurement: parseFloat(arr[0]),
+    value: parseFloat(arr[0]),
     minute: parseInt(arr[1], 10),
   };
 };
@@ -109,15 +109,18 @@ const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
   const formattedMeasurements = [];
 
   for (let n = 0; n < metrics.length; n += 1) {
-    const { measurement, minute } = extractMeasurementMinute(metrics[n]);
+    const { value, minute } = extractMeasurementMinute(metrics[n]);
 
-    // Add in reverse order.
-    formattedMeasurements.unshift({
+    // Create a measurement object
+    const measurement = {
       siteId,
       dateTime: timeUtils.getTimestampForMinuteOfDay(timestamp, minute),
-      value: measurement,
+      value,
       metricUnit,
-    });
+    };
+
+    // Add in reverse order.
+    formattedMeasurements.unshift(measurement);
   }
 
   return formattedMeasurements;
