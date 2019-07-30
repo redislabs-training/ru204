@@ -1,6 +1,7 @@
 const winston = require('winston');
 const config = require('better-config');
 
+// Create a logger based on the log level in config.json
 const logger = winston.createLogger({
   level: config.get('application.logLevel'),
   transports: [
@@ -14,6 +15,7 @@ const logger = winston.createLogger({
 });
 
 logger.stream = {
+  // Write the text in 'message' to the log.
   write: (message) => {
     // Removes double newline issue with piping morgan server request
     // log through winston logger.
