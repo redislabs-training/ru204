@@ -10,8 +10,19 @@ const dataGenerator = require('./sample_data_generator');
 
 const dataDaysToGenerate = 1;
 
+/**
+ * Flush the Redis database, deleting all data.
+ *
+ * @returns {Promise} - a promise that resolves when the operation is complete.
+ */
 const flushDB = async () => client.flushdbAsync();
 
+/**
+ *
+ * @param {string} filename - the name of the file to load data from.
+ * @param {boolean} flushDb - whether or not to delete all data from Redis before loading.
+ * @returns {Promise} - a promise that resolves when the operation is complete.
+ */
 const loadData = async (filename, flushDb) => {
   /* eslint-disable global-require, import/no-dynamic-require */
   const sampleData = require(filename);
@@ -33,6 +44,11 @@ const loadData = async (filename, flushDb) => {
   await dataGenerator.generateHistorical(sampleData, dataDaysToGenerate);
 };
 
+/**
+ * Run the data loader.  Will load the sample data into Redis.
+ *
+ * @param {Array} params - array of command line arguments.
+ */
 const runDataLoader = async (params) => {
   if (params.length !== 4 && params.length !== 5) {
     console.error('Usage: npm run load <path_to_json_data_file> [flushdb]');
