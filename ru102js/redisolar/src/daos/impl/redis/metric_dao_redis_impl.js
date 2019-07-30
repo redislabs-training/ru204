@@ -95,13 +95,17 @@ const insertMetricTS = async (siteId, metricValue, metricName, timestamp) => {
  * @param {number} timestamp - UNIX timestamp for the date to get values for.
  * @param {number} limit - the maximum number of metrics to return.
  * @returns {Promise} - Promise that resolves to an array of metric objects.
+ * @private
  */
 const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
   const client = redis.getClient();
 
+  // e.g. metrics:whGenerated:2020-01-01:1
   const key = keyGenerator.getDayMetricKey(siteId, metricUnit, timestamp);
 
+  // Array of strings formatted <measurement value>:<minute of day>
   const metrics = await client.zrevrangeAsync(key, 0, limit - 1);
+  console.log(metrics);
 
   const formattedMeasurements = [];
 
