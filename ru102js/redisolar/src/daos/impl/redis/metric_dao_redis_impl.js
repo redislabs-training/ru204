@@ -105,7 +105,6 @@ const getMeasurementsForDate = async (siteId, metricUnit, timestamp, limit) => {
 
   // Array of strings formatted <measurement value>:<minute of day>
   const metrics = await client.zrevrangeAsync(key, 0, limit - 1);
-  console.log(metrics);
 
   const formattedMeasurements = [];
 
