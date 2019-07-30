@@ -28,12 +28,12 @@ test(`${testSuiteName}: example command pipeline`, async () => {
   pipeline.incr(testKey);
   pipeline.get(testKey);
 
-  const replies = await pipeline.execAsync();
+  const responses = await pipeline.execAsync();
 
-  expect(replies).toHaveLength(3);
-  expect(replies[0]).toBe('OK');
-  expect(replies[1]).toBe(2);
-  expect(replies[2]).toBe('2');
+  expect(responses).toHaveLength(3);
+  expect(responses[0]).toBe('OK');
+  expect(responses[1]).toBe(2);
+  expect(responses[2]).toBe('2');
 });
 
 test(`${testSuiteName}: example pipeline with bad command`, async () => {
@@ -44,11 +44,11 @@ test(`${testSuiteName}: example pipeline with bad command`, async () => {
   pipeline.incr(testKey, 99); // Error, wrong number of arguments!
   pipeline.get(testKey);
 
-  const replies = await pipeline.execAsync();
+  const responses = await pipeline.execAsync();
 
-  expect(replies).toHaveLength(3);
-  expect(replies[0]).toBe('OK');
-  expect(replies[1]).toEqual({
+  expect(responses).toHaveLength(3);
+  expect(responses[0]).toBe('OK');
+  expect(responses[1]).toEqual({
     command: 'INCR',
     args: [
       testKey,
@@ -57,7 +57,7 @@ test(`${testSuiteName}: example pipeline with bad command`, async () => {
     code: 'ERR',
     position: 1,
   });
-  expect(replies[2]).toBe('1');
+  expect(responses[2]).toBe('1');
 });
 
 /* eslint-enable */
