@@ -23,17 +23,18 @@ afterAll(() => {
 test(`${testSuiteName}: example command pipeline`, async () => {
   const pipeline = client.batch();
   const testKey = `${testKeyPrefix}:example_pipeline`;
+  const testKey2 = `${testKeyPrefix}:example_pipeline_2`;
 
-  pipeline.set(testKey, 1);
-  pipeline.incr(testKey);
-  pipeline.get(testKey);
+  pipeline.hset(testKey, 'available', 'true');
+  pipeline.expire(testKey, 1000);
+  pipeline.sadd(testKey2, 1);
 
   const responses = await pipeline.execAsync();
 
   expect(responses).toHaveLength(3);
-  expect(responses[0]).toBe('OK');
-  expect(responses[1]).toBe(2);
-  expect(responses[2]).toBe('2');
+  expect(responses[0]).toBe(1);
+  expect(responses[1]).toBe(1);
+  expect(responses[2]).toBe(1);
 });
 
 test(`${testSuiteName}: example pipeline with bad command`, async () => {
