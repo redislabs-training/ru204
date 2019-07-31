@@ -82,8 +82,8 @@ const insert = async (meterReading) => {
   const client = redis.getClient();
   const pipeline = client.batch();
 
-  pipeline.xadd(keyGenerator.getGlobalFeedKey(), 'MAXLEN', globalMaxFeedLength, '*', ...fields);
-  pipeline.xadd(keyGenerator.getFeedKey(meterReading.siteId), 'MAXLEN', siteMaxFeedLength, '*', ...fields);
+  pipeline.xadd(keyGenerator.getGlobalFeedKey(), 'MAXLEN', '~', globalMaxFeedLength, '*', ...fields);
+  pipeline.xadd(keyGenerator.getFeedKey(meterReading.siteId), 'MAXLEN', '~', siteMaxFeedLength, '*', ...fields);
 
   await pipeline.execAsync();
 };
