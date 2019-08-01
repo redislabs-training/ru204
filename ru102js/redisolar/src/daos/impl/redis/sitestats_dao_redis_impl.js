@@ -40,7 +40,7 @@ const findById = async (siteId, timestamp) => {
   return (response ? remap(response) : response);
 };
 
-/* eslint-enable no-unused-vars */
+/* eslint-disable no-unused-vars */
 /**
  * Updates the site stats for a specific site with the meter
  * reading data provided.
@@ -72,13 +72,13 @@ const updateBasic = async (meterReading) => {
     await client.hsetAsync(key, 'maxCapacity', readingCapacity);
   }
 };
-/* eslint-disable */
+/* eslint-enable */
 
 /* eslint-disable no-unused-vars */
 /**
- * Updates the site stats for a specific site with the meter 
+ * Updates the site stats for a specific site with the meter
  * reading data provided.
- * 
+ *
  * @param {Object} meterReading - a meter reading object.
  * @returns {Promise} - promise that resolves when the operation is complete.
  */
@@ -129,15 +129,18 @@ const updateOptimized = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
 
-  const scriptSha = await compareAndUpdateScript.getSha();
+  // Load script if needed, uses cached SHA if already loaded.
+  await compareAndUpdateScript.load();
+
   const transaction = client.multi();
 
   transaction.hset(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
   transaction.hincrby(key, 'meterReadingCount', 1);
   transaction.expire(key, weekSeconds);
-  transaction.evalsha(scriptSha, 1, key, 'maxWhGenerated', meterReading.whGenerated, '>');
-  transaction.evalsha(scriptSha, 1, key, 'minWhGenerated', meterReading.whGenerated, '<');
-  transaction.evalsha(scriptSha, 1, key, 'maxCapacity', meterReading.whGenerated - meterReading.whUsed, '>');
+
+  transaction.evalsha(compareAndUpdateScript.updateIfGreater(key, 'maxWhGenerated', meterReading.whGenerated));
+  transaction.evalsha(compareAndUpdateScript.updateIfLess(key, 'minWhGenerated', meterReading.whGenerated));
+  transaction.evalsha(compareAndUpdateScript.updateIfGreater(key, 'maxCapacity', meterReading.whGenerated - meterReading.whUsed));
 
   await transaction.execAsync();
 };
