@@ -72,7 +72,7 @@ module.exports = {
 
   /**
    * Build up an array of parameters that evalsha will use to run
-   * a greater compare and set operation.
+   * a compare and set if greater operation.
    *
    * @param {string} key - Redis key that the script will operate on.
    * @param {string} field - Field name in the hash to use.
@@ -85,7 +85,7 @@ module.exports = {
 
   /**
    * Build up an array of parameters that evalsha will use to run
-   * a less than compare and set operation.
+   * a compare and set if less operation.
    *
    * @param {string} key - Redis key that the script will operate on.
    * @param {string} field - Field name in the hash to use.
