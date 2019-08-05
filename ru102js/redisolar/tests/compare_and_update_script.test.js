@@ -3,7 +3,7 @@ const compareAndUpdateScript = require('../src/daos/impl/redis/scripts/compare_a
 
 const client = redis.getClient();
 
-const testSuiteName = 'lua';
+const testSuiteName = 'compare_and_update_script';
 const testKeyPrefix = `test:${testSuiteName}`;
 
 /* eslint-disable no-undef */
