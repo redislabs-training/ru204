@@ -48,6 +48,7 @@ const extractMeasurementMinute = (measurementMinute) => {
  * @private
  */
 const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
+  // START Challenge #2
   const client = redis.getClient();
 
   const metricKey = keyGenerator.getDayMetricKey(siteId, metricName, timestamp);
@@ -59,12 +60,15 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   pipeline.expire(metricKey, metricExpirationSeconds);
 
   await pipeline.execAsync();
+  // END Challenge #2
 };
 
 /* eslint-disable no-unused-vars */
 /**
  * Insert a metric into the database for a given solar site ID.
- * This function uses RedisTimeSeries to store the metric.
+ * This function is used in week 4, and uses RedisTimeSeries to store
+ * the metric.
+ *
  * @param {number} siteId - a solar site ID.
  * @param {number} metricValue - the value of the metric to store.
  * @param {string} metricName - the name of the metric to store.
