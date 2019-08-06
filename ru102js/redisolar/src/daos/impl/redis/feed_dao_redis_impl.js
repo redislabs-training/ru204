@@ -70,6 +70,7 @@ const insert = async (meterReading) => {
   // Unpack meterReading into array of alternating key
   // names and values for addition to the stream.
 
+  // START Challenge #6
   const fields = [];
 
   for (const k in meterReading) {
@@ -86,6 +87,7 @@ const insert = async (meterReading) => {
   pipeline.xadd(keyGenerator.getFeedKey(meterReading.siteId), 'MAXLEN', '~', siteMaxFeedLength, '*', ...fields);
 
   await pipeline.execAsync();
+  // END Challenge #6
 };
 
 /**
