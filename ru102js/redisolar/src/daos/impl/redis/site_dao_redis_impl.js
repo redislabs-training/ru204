@@ -189,6 +189,7 @@ const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
   const pipeline = client.batch();
 
+  // START Challenge 5
   // Get sites within the radius.
   const sites = await findByGeo(lat, lng, radius, radiusUnit);
 
@@ -209,6 +210,8 @@ const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   }
 
   return sitesWithCapacity;
+
+  // END Challenge 5
 };
 
 module.exports = {
