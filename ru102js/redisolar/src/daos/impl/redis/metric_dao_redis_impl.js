@@ -48,12 +48,12 @@ const extractMeasurementMinute = (measurementMinute) => {
  * @private
  */
 const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
-  // START Challenge #2
   const client = redis.getClient();
 
   const metricKey = keyGenerator.getDayMetricKey(siteId, metricName, timestamp);
   const minuteOfDay = timeUtils.getMinuteOfDay(timestamp);
 
+  // START Challenge #2
   const pipeline = client.batch();
 
   pipeline.zadd(metricKey, minuteOfDay, formatMeasurementMinute(metricValue, minuteOfDay));
