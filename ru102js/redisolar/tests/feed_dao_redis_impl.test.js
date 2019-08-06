@@ -11,14 +11,12 @@ config.set('../config.json');
 keyGenerator.setPrefix(testKeyPrefix);
 const client = redis.getClient();
 
-const testSiteId = 999;
-
-const generateMeterReading = () => ({
-  siteId: testSiteId,
+const generateMeterReading = (val, siteId) => ({
+  siteId: (siteId || 999),
   dateTime: new Date().getTime(),
-  tempC: 22,
-  whUsed: 1.2,
-  whGenerated: 1.4,
+  tempC: val,
+  whUsed: val,
+  whGenerated: val,
 });
 
 /* eslint-disable no-undef */
@@ -36,22 +34,53 @@ afterAll(() => {
   client.quit();
 });
 
-test(`${testSuiteName}: insert and read back from global stream`, async () => {
-  const testMeterReading1 = generateMeterReading();
-  const testMeterReading2 = generateMeterReading();
+const insertAndReadBackFromStream = async (siteId) => {
+  const testMeterReading1 = generateMeterReading(1);
+  const testMeterReading2 = generateMeterReading(2, siteId);
 
   await redisFeedDAO.insert(testMeterReading1);
   await redisFeedDAO.insert(testMeterReading2);
 
-  // Test global feed with and without limit.
-  let meterReadings = await redisFeedDAO.getRecentGlobal(100);
+  // Test feed with and without limit.
+  let meterReadings = await (siteId
+    ? redisFeedDAO.getRecentForSite(siteId, 100)
+    : redisFeedDAO.getRecentGlobal(100)
+  );
 
-  // TODO compare readings...
+  if (siteId) {
+    // Site specific stream.
+    expect(meterReadings.length).toBe(1);
+    expect(meterReadings[0].siteId).toBe(testMeterReading2.siteId);
+    expect(meterReadings[0].tempC).toBe(testMeterReading2.tempC);
+    expect(meterReadings[0].whUsed).toBe(testMeterReading2.whUsed);
+    expect(meterReadings[0].whGenerated).toBe(testMeterReading2.whGenerated);
+  } else {
+    // Global stream.
+    expect(meterReadings.length).toBe(2);
+    expect(meterReadings[0].siteId).toBe(testMeterReading2.siteId);
+    expect(meterReadings[0].tempC).toBe(testMeterReading2.tempC);
+    expect(meterReadings[0].whUsed).toBe(testMeterReading2.whUsed);
+    expect(meterReadings[0].whGenerated).toBe(testMeterReading2.whGenerated);
+    expect(meterReadings[1].siteId).toBe(testMeterReading1.siteId);
+    expect(meterReadings[1].tempC).toBe(testMeterReading1.tempC);
+    expect(meterReadings[1].whUsed).toBe(testMeterReading1.whUsed);
+    expect(meterReadings[1].whGenerated).toBe(testMeterReading1.whGenerated);
+  }
 
-  expect(meterReadings.length).toBe(2);
+  meterReadings = await (siteId
+    ? redisFeedDAO.getRecentForSite(siteId, 1)
+    : redisFeedDAO.getRecentGlobal(1)
+  );
 
-  meterReadings = await redisFeedDAO.getRecentGlobal(1);
   expect(meterReadings.length).toBe(1);
+  expect(meterReadings[0].siteId).toBe(testMeterReading2.siteId);
+  expect(meterReadings[0].tempC).toBe(testMeterReading2.tempC);
+  expect(meterReadings[0].whUsed).toBe(testMeterReading2.whUsed);
+  expect(meterReadings[0].whGenerated).toBe(testMeterReading2.whGenerated);
+};
+
+test(`${testSuiteName}: insert and read back from global stream`, async () => {
+  await insertAndReadBackFromStream();
 });
 
 test(`${testSuiteName}: read stream for site that does not exist`, async () => {
@@ -61,25 +90,7 @@ test(`${testSuiteName}: read stream for site that does not exist`, async () => {
 });
 
 test(`${testSuiteName}: insert and read back from site specific stream`, async () => {
-  const testMeterReading1 = generateMeterReading();
-  const testMeterReading2 = generateMeterReading();
-
-  await redisFeedDAO.insert(testMeterReading1);
-  await redisFeedDAO.insert(testMeterReading2);
-
-  // Test global feed with and without limit.
-  let meterReadings = await redisFeedDAO.getRecentForSite(testSiteId, 100);
-
-  // TODO compare readings...
-
-  expect(meterReadings.length).toBe(2);
-
-  meterReadings.map(meterReading => expect(meterReading.siteId).toBe(testSiteId));
-
-  meterReadings = await redisFeedDAO.getRecentForSite(testSiteId, 1);
-  expect(meterReadings.length).toBe(1);
+  await insertAndReadBackFromStream(998);
 });
-
-test.todo(`${testSuiteName}: test body of meter readings for expected values`);
 
 /* eslint-enable */
