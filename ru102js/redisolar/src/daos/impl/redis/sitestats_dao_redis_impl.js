@@ -132,6 +132,7 @@ const updateOptimized = async (meterReading) => {
   // Load script if needed, uses cached SHA if already loaded.
   await compareAndUpdateScript.load();
 
+  // START Challenge #3
   const transaction = client.multi();
 
   transaction.hset(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
@@ -143,6 +144,7 @@ const updateOptimized = async (meterReading) => {
   transaction.evalsha(compareAndUpdateScript.updateIfGreater(key, 'maxCapacity', meterReading.whGenerated - meterReading.whUsed));
 
   await transaction.execAsync();
+  // END Challenge #3
 };
 /* eslint-enable */
 
