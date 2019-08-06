@@ -103,8 +103,6 @@ test(`${testSuiteName}: insert with coordinates`, async () => {
   const siteFromRedis = await client.hgetallAsync(siteHashKey);
 
   expect(siteFromRedis).toEqual(expectedSiteHash);
-
-  // TODO check the site key is in the site geo sorted set.
 });
 
 test(`${testSuiteName}: findById with existing site`, async () => {
@@ -158,6 +156,10 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     city: 'Oakland',
     state: 'CA',
     postalCode: '94577',
+    coordinate: {
+      lat: 37.739659,
+      lng: -122.255689,
+    },
   }, {
     id: 2,
     capacity: 3.0,
@@ -166,6 +168,10 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     city: 'Oakland',
     state: 'CA',
     postalCode: '94577',
+    coordinate: {
+      lat: 37.739559,
+      lng: -122.256689,
+    },
   }, {
     id: 3,
     capacity: 4.0,
@@ -174,6 +180,10 @@ test(`${testSuiteName}: findAll with multiple sites`, async () => {
     city: 'Oakland',
     state: 'CA',
     postalCode: '94577',
+    coordinate: {
+      lat: 37.739659,
+      lng: -122.255689,
+    },
   }];
 
   /* eslint-disable no-await-in-loop */
