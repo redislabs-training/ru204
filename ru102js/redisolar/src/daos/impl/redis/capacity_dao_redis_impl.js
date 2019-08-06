@@ -64,6 +64,7 @@ const getReport = async (limit) => {
  * @returns {Promise} - Promise containing rank for siteId as a number.
  */
 const getRank = async (siteId) => {
+  // START Challenge #4
   const client = redis.getClient();
 
   const result = await client.zrevrankAsync(
@@ -72,6 +73,7 @@ const getRank = async (siteId) => {
   );
 
   return result;
+  // END Challenge #4
 };
 
 module.exports = {
