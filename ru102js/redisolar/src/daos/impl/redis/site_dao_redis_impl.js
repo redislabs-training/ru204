@@ -60,48 +60,6 @@ const flatten = (site) => {
 };
 
 /**
- *
- * @param {*} siteIds - an array of site IDs to get the details for.
- * @returns {Promise} - a Promise that resolves to an array of site domain
- *  objects whose IDs are the ones specified in 'siteIds'.
- */
-const getSitesByKey = async (siteIds) => {
-  const client = redis.getClient();
-
-  // Lots of Promises...
-  // This doesn't deal with string -> int / float conversions...
-  // const sites = await Promise.all(siteIds.map(async siteId => client.hgetallAsync(siteId)));
-
-  // const sites = await Promise.all(
-  //   siteIds.map(
-  //     async (siteId) => {
-  //       const siteHash = await client.hgetallAsync(siteId);
-  //       return remap(siteHash);
-  //     },
-  //   ),
-  // );
-
-  // For loop version
-  const sites = [];
-
-  for (const siteId of siteIds) {
-    /* eslint-disable no-await-in-loop */
-    const siteHash = await client.hgetallAsync(siteId);
-    /* eslint-enable */
-
-    if (siteHash) {
-      // Call remap to remap the flat key/value representation
-      // from the Redis hash into the site domain object format,
-      // and convert any fields that a numerical from the Redis
-      // string representations.
-      sites.push(remap(siteHash));
-    }
-  }
-
-  return sites;
-};
-
-/**
  * Insert a new site.
  *
  * @param {Object} site - a site object.
@@ -150,12 +108,29 @@ const findById = async (id) => {
  * @returns {Promise} - a Promise, resolving to an array of site objects.
  */
 const findAll = async () => {
+  // START CHALLENGE #1
   const client = redis.getClient();
 
   const siteIds = await client.smembersAsync(keyGenerator.getSiteIDsKey());
-  const sites = await getSitesByKey(siteIds);
+  const sites = [];
+
+  for (const siteId of siteIds) {
+    /* eslint-disable no-await-in-loop */
+    const siteHash = await client.hgetallAsync(siteId);
+    /* eslint-enable */
+
+    if (siteHash) {
+      // Call remap to remap the flat key/value representation
+      // from the Redis hash into the site domain object format,
+      // and convert any fields that a numerical from the Redis
+      // string representations.
+      sites.push(remap(siteHash));
+    }
+  }
 
   return sites;
+  // END CHALLENGE #1
+  // return [];
 };
 
 /**
@@ -178,7 +153,21 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
     radiusUnit.toLowerCase(),
   );
 
-  const sites = await getSitesByKey(siteIds);
+  const sites = [];
+
+  for (const siteId of siteIds) {
+    /* eslint-disable no-await-in-loop */
+    const siteHash = await client.hgetallAsync(siteId);
+    /* eslint-enable */
+
+    if (siteHash) {
+      // Call remap to remap the flat key/value representation
+      // from the Redis hash into the site domain object format,
+      // and convert any fields that a numerical from the Redis
+      // string representations.
+      sites.push(remap(siteHash));
+    }
+  }
 
   return sites;
 };
