@@ -62,6 +62,30 @@ const unpackStreamEntries = (streamResponse) => {
 };
 
 /**
+ * Takes an object and returns an array whose elements are alternating
+ * keys and values from that object.  Example:
+ *
+ * { hello: 'world', shoeSize: 13 } -> [ 'hello', 'world', 'shoeSize', 13 ]
+ *
+ * Used as a helper function for XADD.
+ * =
+ * @param {Object} obj  - object to be converted to an array.
+ * @returns {Array} - array containing alternating keys and values from 'obj'.
+ */
+const objectToArray = (obj) => {
+  const arr = [];
+
+  for (const k in obj) {
+    if (obj.hasOwnProperty(k)) {
+      arr.push(k);
+      arr.push(obj[k]);
+    }
+  }
+
+  return arr;
+};
+
+/**
  * Insert a new meter reading into the system.
  * @param {*} meterReading
  * @returns {Promise} - Promise, resolves on completion.
@@ -71,14 +95,7 @@ const insert = async (meterReading) => {
   // names and values for addition to the stream.
 
   // START Challenge #6
-  const fields = [];
-
-  for (const k in meterReading) {
-    if (meterReading.hasOwnProperty(k)) {
-      fields.push(k);
-      fields.push(meterReading[k]);
-    }
-  }
+  const fields = objectToArray(meterReading);
 
   const client = redis.getClient();
   const pipeline = client.batch();
