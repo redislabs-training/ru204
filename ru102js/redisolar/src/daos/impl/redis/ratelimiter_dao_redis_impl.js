@@ -28,20 +28,21 @@ const hitFixedWindow = async (name, opts) => {
 
 /* eslint-disable no-unused-vars */
 const hitSlidingWindow = async (name, opts) => {
-  // TODO implement hitSlidingWindow...
+  const client = redis.getClient();
+
+  // START Challenge #7
+  // END Challenge #7
 };
 /* eslint-enable */
 
-/**
- * Record a hit against a unique resource that is being
- * rate limited.  Will return 0 when the resource has hit
- * the rate limit.
- * @param {string} name - the unique name of the resource.
- * @param {Object} opts - object containing maxHits and interval details.
- * @returns {Promise} - Promise that resolves to number of hits remaining.
- */
-const hit = async (name, opts) => hitFixedWindow(name, opts);
-
 module.exports = {
-  hit,
+  /**
+   * Record a hit against a unique resource that is being
+   * rate limited.  Will return 0 when the resource has hit
+   * the rate limit.
+   * @param {string} name - the unique name of the resource.
+   * @param {Object} opts - object containing maxHits and interval details.
+   * @returns {Promise} - Promise that resolves to number of hits remaining.
+   */
+  hit: hitFixedWindow,
 };
