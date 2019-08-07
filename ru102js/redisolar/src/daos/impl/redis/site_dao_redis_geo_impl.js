@@ -72,17 +72,18 @@ const insert = async (site) => {
   const siteHashKey = keyGenerator.getSiteHashKey(site.id);
 
   await client.hmsetAsync(siteHashKey, flatten(site));
-  await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
 
-  // Co-ordinates are optional.
-  if (site.hasOwnProperty('coordinate')) {
-    await client.geoaddAsync(
-      keyGenerator.getSiteGeoKey(),
-      site.coordinate.lng,
-      site.coordinate.lat,
-      siteHashKey,
-    );
+  // Co-ordinates are required when using this version of the DAO.
+  if (!site.hasOwnProperty('coordinate')) {
+    throw new Error('Coordinate required for site geo insert!');
   }
+
+  await client.geoaddAsync(
+    keyGenerator.getSiteGeoKey(),
+    site.coordinate.lng,
+    site.coordinate.lat,
+    siteHashKey,
+  );
 
   return siteHashKey;
 };
@@ -110,7 +111,7 @@ const findById = async (id) => {
 const findAll = async () => {
   const client = redis.getClient();
 
-  const siteIds = await client.smembersAsync(keyGenerator.getSiteIDsKey());
+  const siteIds = await client.zrange(keyGenerator.getSiteGeoKey(), 0, -1);
   const sites = [];
 
   for (const siteId of siteIds) {
