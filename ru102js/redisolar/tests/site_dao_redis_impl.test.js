@@ -204,7 +204,8 @@ test(`${testSuiteName}: findAll with empty sites`, async () => {
   expect(sites).toEqual([]);
 });
 
-test(`${testSuiteName}: findByGeo with results`, async () => {
+// This test is for week 3.
+test.skip(`${testSuiteName}: findByGeo with results`, async () => {
   const site1 = {
     id: 1,
     capacity: 3.5,
@@ -276,7 +277,8 @@ test(`${testSuiteName}: findByGeo with results`, async () => {
   expect(response[2].id).toBe(site1.id);
 });
 
-test(`${testSuiteName}: findByGeo no results`, async () => {
+// This test is for week 3.
+test.skip(`${testSuiteName}: findByGeo no results`, async () => {
   // This site is not within a 10km radius of Mountain View, CA
   await redisSiteDAO.insert({
     id: 1,
@@ -305,7 +307,8 @@ test(`${testSuiteName}: findByGeo no results`, async () => {
   expect(response.length).toBe(0);
 });
 
-test(`${testSuiteName}: findByGeoWithExcessCapacity`, async () => {
+// This test is for week 3.
+test.skip(`${testSuiteName}: findByGeoWithExcessCapacity`, async () => {
   const site1 = {
     id: 1,
     capacity: 4.5,

@@ -1,10 +1,6 @@
 const redis = require('./redis_client');
 const keyGenerator = require('./redis_key_generator');
 
-// Minimum amount of capacity that a site should have to be
-// considered as having 'excess capacity'.
-const capacityThreshold = 0.2;
-
 /**
  * Takes a flat key/value pairs object representing a Redis hash, and
  * returns a new object whose structure matches that of the site domain
@@ -74,16 +70,6 @@ const insert = async (site) => {
   await client.hmsetAsync(siteHashKey, flatten(site));
   await client.saddAsync(keyGenerator.getSiteIDsKey(), siteHashKey);
 
-  // Co-ordinates are optional.
-  if (site.hasOwnProperty('coordinate')) {
-    await client.geoaddAsync(
-      keyGenerator.getSiteGeoKey(),
-      site.coordinate.lng,
-      site.coordinate.lat,
-      siteHashKey,
-    );
-  }
-
   return siteHashKey;
 };
 
@@ -133,8 +119,12 @@ const findAll = async () => {
   // return [];
 };
 
+/* eslint-disable no-unused-vars */
+
 /**
  * Get an array of sites within a radius of a given coordinate.
+ *
+ * This will be implemented in week 3.
  *
  * @param {number} lat - Latitude of the coordinate to search from.
  * @param {number} lng - Longitude of the coordinate to search from.
@@ -142,77 +132,21 @@ const findAll = async () => {
  * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
  * @returns {Promise} - a Promise, resolving to an array of site objects.
  */
-const findByGeo = async (lat, lng, radius, radiusUnit) => {
-  const client = redis.getClient();
-
-  const siteIds = await client.georadiusAsync(
-    keyGenerator.getSiteGeoKey(),
-    lng,
-    lat,
-    radius,
-    radiusUnit.toLowerCase(),
-  );
-
-  const sites = [];
-
-  for (const siteId of siteIds) {
-    /* eslint-disable no-await-in-loop */
-    const siteHash = await client.hgetallAsync(siteId);
-    /* eslint-enable */
-
-    if (siteHash) {
-      // Call remap to remap the flat key/value representation
-      // from the Redis hash into the site domain object format,
-      // and convert any fields that a numerical from the Redis
-      // string representations.
-      sites.push(remap(siteHash));
-    }
-  }
-
-  return sites;
-};
-
-// TODO implement findByGeoWithExcessCapacityOptimized
-// and rename the one below to findByGeoWithExcessCapacityBasic
+const findByGeo = async (lat, lng, radius, radiusUnit) => [];
 
 /**
  * Get an array of sites where capacity exceeds consumption within
  * a radius of a given coordinate.
  *
+ * This will be implemented in week 3.
+ *
  * @param {number} lat - Latitude of the coordinate to search from.
  * @param {number} lng - Longitude of the coordinate to search from.
  * @param {number} radius - Radius in which to search.
  * @param {'KM' | 'MI'} radiusUnit - The unit that the value of radius is in.
  * @returns {Promise} - a Promise, resolving to an array of site objects.
  */
-const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
-  const client = redis.getClient();
-  const pipeline = client.batch();
-
-  // START Challenge 5
-  // Get sites within the radius.
-  const sites = await findByGeo(lat, lng, radius, radiusUnit);
-
-  // Get current capacity score for each site.
-  for (const site of sites) {
-    pipeline.zscore(keyGenerator.getCapacityRankingKey(), site.id);
-  }
-
-  const scores = await pipeline.execAsync();
-
-  // Only return sites with capacity above the threshold.
-  const sitesWithCapacity = [];
-
-  for (let n = 0; n < sites.length; n += 1) {
-    if (parseFloat(scores[n]) >= capacityThreshold) {
-      sitesWithCapacity.push(sites[n]);
-    }
-  }
-
-  return sitesWithCapacity;
-
-  // END Challenge 5
-};
+const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => [];
 
 module.exports = {
   insert,
@@ -221,3 +155,5 @@ module.exports = {
   findByGeo,
   findByGeoWithExcessCapacity,
 };
+
+/* eslint-enable no-unused-vars */

@@ -5,7 +5,7 @@ const redis = require('../daos/impl/redis/redis_client');
 config.set('../../config.json');
 
 const client = redis.getClient();
-const sitesController = require('../controllers/sites_controller');
+const sitesDaoWithGeo = require('../daos/impl/redis/site_dao_redis_geo_impl');
 const dataGenerator = require('./sample_data_generator');
 
 const dataDaysToGenerate = 1;
@@ -37,7 +37,7 @@ const loadData = async (filename, flushDb) => {
 
   for (const site of sampleData) {
     /* eslint-disable no-await-in-loop */
-    await sitesController.createSite(site);
+    await sitesDaoWithGeo.insert(site);
     /* eslint-enable */
   }
 
