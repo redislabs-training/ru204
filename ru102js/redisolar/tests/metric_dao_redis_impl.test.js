@@ -73,10 +73,13 @@ const testInsertAndRetrieve = async (limit) => {
   }
 };
 
-test(`${testSuiteName}: test 1 reading`, async () => testInsertAndRetrieve(1));
+// This test is for Challenge #2.
+test.skip(`${testSuiteName}: test 1 reading`, async () => testInsertAndRetrieve(1));
 
-test(`${testSuiteName}: test 1 day of readings`, async () => testInsertAndRetrieve(60 * 24));
+// This test is for Challenge #2.
+test.skip(`${testSuiteName}: test 1 day of readings`, async () => testInsertAndRetrieve(60 * 24));
 
-test(`${testSuiteName}: test multiple days of readings`, async () => testInsertAndRetrieve(60 * 70));
+// This test is for Challenge #2.
+test.skip(`${testSuiteName}: test multiple days of readings`, async () => testInsertAndRetrieve(60 * 70));
 
 /* eslint-enable */
