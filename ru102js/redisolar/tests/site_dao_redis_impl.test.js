@@ -206,7 +206,7 @@ test.skip(`${testSuiteName}: findAll with empty sites`, async () => {
   expect(sites).toEqual([]);
 });
 
-// This test is for week 3.
+// This test is week 3.
 test.skip(`${testSuiteName}: findByGeo with results`, async () => {
   const site1 = {
     id: 1,
@@ -309,7 +309,7 @@ test.skip(`${testSuiteName}: findByGeo no results`, async () => {
   expect(response.length).toBe(0);
 });
 
-// This test is for week 3.
+// This test is for Challenge #5.
 test.skip(`${testSuiteName}: findByGeoWithExcessCapacity`, async () => {
   const site1 = {
     id: 1,
