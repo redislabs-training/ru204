@@ -111,7 +111,7 @@ const findById = async (id) => {
 const findAll = async () => {
   const client = redis.getClient();
 
-  const siteIds = await client.zrange(keyGenerator.getSiteGeoKey(), 0, -1);
+  const siteIds = await client.zrangeAsync(keyGenerator.getSiteGeoKey(), 0, -1);
   const sites = [];
 
   for (const siteId of siteIds) {
