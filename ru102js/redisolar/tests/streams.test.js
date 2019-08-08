@@ -29,18 +29,18 @@ test(`${testSuiteName}: basic stream test`, async () => {
   const streamKey = `${testKeyPrefix}:test:stream`;
   const maxStreamEntries = numberOfSites * measurementsPerHour * hoursPerDay * maxDays;
 
-  const fields = [
+  const entry = [
     'siteId',
     1,
     'tempC',
     18.0,
   ];
 
-  const streamEntryId = await client.xaddAsync(streamKey, 'MAXLEN', '~', maxStreamEntries, '*', ...fields);
-  const results = await client.xrevrangeAsync(streamKey, '+', '-', 'COUNT', 1);
+  const streamEntryId = await client.xaddAsync(streamKey, 'MAXLEN', '~', maxStreamEntries, '*', ...entry);
+  const result = await client.xrevrangeAsync(streamKey, '+', '-', 'COUNT', 1);
 
-  expect(results[0][0]).toBe(streamEntryId);
-  expect(results[0][1]).toEqual(['siteId', '1', 'tempC', '18']);
+  expect(result[0][0]).toBe(streamEntryId);
+  expect(result[0][1]).toEqual(['siteId', '1', 'tempC', '18']);
 });
 
 /* eslint-enable */
