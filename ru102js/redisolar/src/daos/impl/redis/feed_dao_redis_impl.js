@@ -5,6 +5,59 @@ const globalMaxFeedLength = 10000;
 const siteMaxFeedLength = 2440;
 
 /**
+ * Takes an object and returns an array whose elements are alternating
+ * keys and values from that object.  Example:
+ *
+ * { hello: 'world', shoeSize: 13 } -> [ 'hello', 'world', 'shoeSize', 13 ]
+ *
+ * Used as a helper function for XADD.
+ *
+ * @param {Object} obj - object to be converted to an array.
+ * @returns {Array} - array containing alternating keys and values from 'obj'.
+ * @private
+ */
+const objectToArray = (obj) => {
+  const arr = [];
+
+  for (const k in obj) {
+    if (obj.hasOwnProperty(k)) {
+      arr.push(k);
+      arr.push(obj[k]);
+    }
+  }
+
+  return arr;
+};
+
+/**
+ * Takes an array and returns an object whose keys and values are taken
+ * from alternating elements in the array.  Example:
+ *
+ * [ 'hello', 'world', 'shoeSize', 13 ] -> { hello: 'world', shoeSize: 13 }
+ *
+ * Used as a helper function for processing arrays returned by XRANGE / XREVRANGE.
+ *
+ * @param {Array} arr - array of field names and values to convert to an object.
+ * @returns {Object} - object whose keys and values are the field names and values from arr.
+ * @private
+ */
+const arrayToObject = (arr) => {
+  const obj = {};
+
+  // arr contains an even number of entries, with alternating
+  // field names and values.  An empty set of field name/value
+  // pairs is not permitted in Redis Streams.
+  for (let n = 0; n < arr.length; n += 2) {
+    const k = arr[n];
+    const v = arr[n + 1];
+
+    obj[k] = v;
+  }
+
+  return obj;
+};
+
+/**
  * Take an Object representing a meter reading that was
  * read from a stream, and transform the key values to
  * the appropriate types from strings.
@@ -41,48 +94,17 @@ const unpackStreamEntries = (streamResponse) => {
   if (streamResponse && Array.isArray(streamResponse)) {
     meterReadings = streamResponse.map((entry) => {
       // entry[0] is the stream ID, we don't need that.
-      const keyValueArray = entry[1];
-      const keyValueObj = {};
+      const fieldValueArray = entry[1];
 
-      // keyValueArray will always contain an even number of
-      // entries, with alternating keys and values.  An empty
-      // set of key/value pairs is not permitted in Redis Streams.
-      for (let n = 0; n < keyValueArray.length; n += 2) {
-        const k = keyValueArray[n];
-        const v = keyValueArray[n + 1];
+      // Convert the array of field/value pairs to an object.
+      const obj = arrayToObject(fieldValueArray);
 
-        keyValueObj[k] = v;
-      }
-
-      return remap(keyValueObj);
+      // Adjust string values to be correct types before returning.
+      return remap(obj);
     });
   }
 
   return meterReadings;
-};
-
-/**
- * Takes an object and returns an array whose elements are alternating
- * keys and values from that object.  Example:
- *
- * { hello: 'world', shoeSize: 13 } -> [ 'hello', 'world', 'shoeSize', 13 ]
- *
- * Used as a helper function for XADD.
- * =
- * @param {Object} obj  - object to be converted to an array.
- * @returns {Array} - array containing alternating keys and values from 'obj'.
- */
-const objectToArray = (obj) => {
-  const arr = [];
-
-  for (const k in obj) {
-    if (obj.hasOwnProperty(k)) {
-      arr.push(k);
-      arr.push(obj[k]);
-    }
-  }
-
-  return arr;
 };
 
 /**
