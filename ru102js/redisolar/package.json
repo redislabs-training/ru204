@@ -11,7 +11,7 @@
     "load": "node src/utils/data_loader.js --",
     "lint": "./node_modules/eslint/bin/eslint.js src tests",
     "start": "node ./src/app.js",
-    "test": "jest",
+    "test": "jest --no-colors",
     "testdev": "jest --watch"
   },
   "author": "Redis Labs",
