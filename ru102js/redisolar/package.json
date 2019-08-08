@@ -6,6 +6,7 @@
   "directories": {
     "test": "test"
   },
+  "private": true,
   "scripts": {
     "dev": "./node_modules/nodemon/bin/nodemon.js",
     "load": "node src/utils/data_loader.js --",
