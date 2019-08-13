@@ -22,7 +22,7 @@ if __name__ == '__main__':
         n_sum = int(h['n_sum'])
 
     streamDict = {}
-    
+
     while True:
         # Get the next batch of messages
         streamDict[key] = last_id
@@ -45,5 +45,5 @@ if __name__ == '__main__':
             'last_id': last_id,
             'n_sum': n_sum,
         })
-        
+
     print(f'The running **read** sum of the Natural Numbers Stream is {n_sum} (added {n_count} new numbers)')

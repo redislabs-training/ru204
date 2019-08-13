@@ -58,16 +58,26 @@ def consumer_func(name):
         retries = 0
 
         if recovery:
-            # Verify there are messages to recover
-            for _, messages in reply:
-                if messages:
-                    print(f'{name}: Recovering pending messages...')
-                    break
-
-            # If there are no messages to recover, switch to fetching new messages
-            recovery = False
-            from_id = '>'
-            continue
+            # Verify that there are messages to recover. The zeroth member of the
+            # reply contains the following:
+            #
+            # At element 0: the name of the stream
+            #
+            # At element 1: a list of pending messages, if any.
+            #
+            # If there are messages, we recover them.
+            #
+            # Example contents for "reply":
+            #
+            # [['numbers', [('1557775037438-0', {'n': '8'})]]]
+            if reply[0][1]:
+                print(f'{name}: Recovering pending messages...')
+            else:
+                # If there are no messages to recover, switch to fetching new messages
+                # and call xreadgroup again.
+                recovery = False
+                from_id = '>'
+                continue
 
         # Process the messages
         for _, messages in reply:

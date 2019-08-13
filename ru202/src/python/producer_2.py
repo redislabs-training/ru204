@@ -1,10 +1,9 @@
 '''
 Every run starts the count from zero and stops after the one hundred and
 first-th number (being one hundred).
- 
 IMPORTANT: The key is deleted before the main loop to recreate the stream.
 '''
-from time import sleep, time
+from time import time
 from util.connection import get_connection
 
 if __name__ == '__main__':
@@ -21,3 +20,4 @@ if __name__ == '__main__':
         print(f'{time():.3f}: Produced the number {n} as message id {_id}')
 
         n += 1
+        
