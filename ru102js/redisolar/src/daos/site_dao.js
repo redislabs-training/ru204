@@ -30,6 +30,8 @@ module.exports = {
   /**
    * Get an array of sites within a radius of a given coordinate.
    *
+   * For week 3.
+   *
    * @param {number} lat - Latitude of the coordinate to search from.
    * @param {number} lng - Longitude of the coordinate to search from.
    * @param {number} radius - Radius in which to search.
@@ -46,6 +48,8 @@ module.exports = {
   /**
    * Get an array of sites where capacity exceeds consumption within
    * a radius of a given coordinate.
+   *
+   * For week 3.
    *
    * @param {number} lat - Latitude of the coordinate to search from.
    * @param {number} lng - Longitude of the coordinate to search from.
