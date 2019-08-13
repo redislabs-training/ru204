@@ -3,8 +3,8 @@ const redis = require('redis');
 const connectWithPortAndHost = () => {
   // Connect with port and host.
   const client = redis.createClient({
-    host: '127.0.0.1',
     port: 6379,
+    host: '127.0.0.1',
   });
 
   // Send PING command expect PONG response.
