@@ -20,6 +20,7 @@ def create_grades(con):
             create_grade_reports = ("CREATE TABLE IF NOT EXISTS grade_reports ("
                                     "course_id VARCHAR(255) not null,"
                                     "run VARCHAR(255) not null,"
+                                    "planned_run VARCHAR(255) not null,"
                                     "user_id BIGINT not null,"
                                     "username VARCHAR(255) not null,"
                                     "grade FLOAT,"
@@ -79,7 +80,8 @@ def create_grades(con):
         cursor.close()
         print("views initalized")
 
-_valid_fields = [("Student ID", "user_id", True),
+_valid_fields = [("\ufeffStudent ID", "user_id", True),
+                 ("Student ID", "user_id", True),
                  ("Username", "username", True),
                  ("Grade", "grade", True),
                  ("Homework 1: Homework", "hw1", True),
@@ -90,6 +92,14 @@ _valid_fields = [("Student ID", "user_id", True),
                  ("Homework 6: Homework", "hw6", True),
                  ("Homework 7: Homework", "hw7", True),
                  ("Homework 8: Homework", "hw8", True),
+                 ("Homework 1: Week 1 Homework", "hw1", True),
+                 ("Homework 2: Week 2 Homework", "hw2", True),
+                 ("Homework 3: Week 3 Homework", "hw3", True),
+                 ("Homework 4: Week 4 Homework", "hw4", True),
+                 ("Homework 5: Week 5 Homework", "hw5", True),
+                 ("Homework 6: Week 6 Homework", "hw6", True),
+                 ("Homework 7: Week 7 Homework", "hw7", True),
+                 ("Homework 8: Week 8 Homework", "hw8", True),
                  ("Homework (Avg)", "homework_avg", True),
                  ("Final Exam 1: Final Exam - Part One", "fe1", True),
                  ("Final Exam 2: Final Exam - Part Two", "fe2", True),
@@ -101,6 +111,7 @@ _valid_fields = [("Student ID", "user_id", True),
                  ("Certificate Eligible", "graduated", True),
                  ("Certificate Delivered", "got_cert", True)
                  ]
+
 def map_row_definition(row_headers):
     columns_required = []
     for i in range(len(row_headers)):
@@ -115,13 +126,13 @@ def map_row_definition(row_headers):
     return columns_required
 
 def build_insert_sql(columns_required):
-    insert_sql = "insert into grade_reports (course_id,run"
+    insert_sql = "insert into grade_reports (course_id,run,planned_run"
     for i in range(len(columns_required)):
         _, col, use = columns_required[i]
         if use != True:
             continue
         insert_sql += ',' + col
-    insert_sql += ") values (%s,%s"
+    insert_sql += ") values (%s,%s,%s"
     for u in range(len(columns_required)):
         _, _, use = columns_required[u]
         if ( use != False):
@@ -139,6 +150,23 @@ def remove_existing(con, course, run):
         cursor.close()
         print("removed previous course run data")
 
+"""
+This maps the run label, to the actual run when the course went live. This is to deal with the
+fact that RU201, RU202 and RU102J were advertized too early and gain registrations, but with a
+run label that did not refect reality.
+"""
+_run_map = [("RU102J", "2018_01", "2019_03"),
+            ("RU201", "2018_01", "2018_03"),
+            ("RU202", "2018_01", "2019_02")
+            ]
+
+def mangle_run(course, given_run):
+    for i in range(len(_run_map)):
+        _c, _r, _nr = _run_map[i]
+        if (_c == course and _r == given_run):
+            return _nr
+    return given_run
+
 def load_grades(con, course, run, filename):
     import csv
 
@@ -146,8 +174,9 @@ def load_grades(con, course, run, filename):
         cursor = con.cursor()
         columns = []
         transform = ('Not Attempted','Not Available')
+        actual_run = mangle_run(course, run)
         with open(filename, 'rt') as f:
-            remove_existing(con, course, run)
+            remove_existing(con, course, actual_run)
             reader = csv.reader(f)
             for i, row in enumerate(reader):
                 if i == 0:
@@ -156,7 +185,7 @@ def load_grades(con, course, run, filename):
                     print(columns)
                     print(insert_sql)
                     continue
-                vals = [course, run]
+                vals = [course, actual_run, run]
                 for j in range(len(columns)):
                     _,_,use = columns[j]
                     if ( use != False):
@@ -164,12 +193,12 @@ def load_grades(con, course, run, filename):
                             vals.append(None)
                         else:
                             vals.append(row[j])
-                print(vals)
+                # print(vals)
                 cursor.execute(insert_sql, vals)
     finally:
         con.commit()
         cursor.close()
-        print("Last good row imported '{}'".format(i))
+        print("Imported '{}'".format(i))
 
 
 
