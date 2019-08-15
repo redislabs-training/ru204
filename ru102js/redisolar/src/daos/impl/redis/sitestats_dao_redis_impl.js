@@ -30,12 +30,15 @@ const remap = (siteStatsHash) => {
  *
  * @param {number} siteId - the site ID to get site stats for.
  * @param {number} timestamp - timestamp for the day to get site stats for.
- * @returns {Promise} - promise that resolves to an object containing the site stat details.
+ * @returns {Promise} - promise that resolves to an object containing the
+ *   site stat details.
  */
 const findById = async (siteId, timestamp) => {
   const client = redis.getClient();
 
-  const response = await client.hgetallAsync(keyGenerator.getSiteStatsKey(siteId, timestamp));
+  const response = await client.hgetallAsync(
+    keyGenerator.getSiteStatsKey(siteId, timestamp),
+  );
 
   return (response ? remap(response) : response);
 };
