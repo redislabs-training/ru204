@@ -51,40 +51,6 @@ const findById = async (siteId, timestamp) => {
  * @param {Object} meterReading - a meter reading object.
  * @returns {Promise} - promise that resolves when the operation is complete.
  */
-const updateBasic = async (meterReading) => {
-  const client = redis.getClient();
-  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
-
-  await client.hsetAsync(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
-  await client.hincrbyAsync(key, 'meterReadingCount', 1);
-  await client.expireAsync(key, weekSeconds);
-
-  const maxWh = await client.hgetAsync(key, 'maxWhGenerated');
-  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh)) {
-    await client.hsetAsync(key, 'maxWhGenerated', meterReading.whGenerated);
-  }
-
-  const minWh = await client.hgetAsync(key, 'minWhGenerated');
-  if (minWh === null || meterReading.whGenerated < parseFloat(minWh, 10)) {
-    await client.hsetAsync(key, 'minWhGenerated', meterReading.whGenerated);
-  }
-
-  const maxCapacity = await client.hgetAsync(key, 'maxCapacity');
-  const readingCapacity = meterReading.whGenerated - meterReading.whUsed;
-  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity)) {
-    await client.hsetAsync(key, 'maxCapacity', readingCapacity);
-  }
-};
-/* eslint-enable */
-
-/* eslint-disable no-unused-vars */
-/**
- * Updates the site stats for a specific site with the meter
- * reading data provided.
- *
- * @param {Object} meterReading - a meter reading object.
- * @returns {Promise} - promise that resolves when the operation is complete.
- */
 const updateImproved = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
@@ -148,6 +114,40 @@ const updateOptimized = async (meterReading) => {
 
   await transaction.execAsync();
   // END Challenge #3
+};
+/* eslint-enable */
+
+/* eslint-disable no-unused-vars */
+/**
+ * Updates the site stats for a specific site with the meter
+ * reading data provided.
+ *
+ * @param {Object} meterReading - a meter reading object.
+ * @returns {Promise} - promise that resolves when the operation is complete.
+ */
+const updateBasic = async (meterReading) => {
+  const client = redis.getClient();
+  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
+
+  await client.hsetAsync(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
+  await client.hincrbyAsync(key, 'meterReadingCount', 1);
+  await client.expireAsync(key, weekSeconds);
+
+  const maxWh = await client.hgetAsync(key, 'maxWhGenerated');
+  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh)) {
+    await client.hsetAsync(key, 'maxWhGenerated', meterReading.whGenerated);
+  }
+
+  const minWh = await client.hgetAsync(key, 'minWhGenerated');
+  if (minWh === null || meterReading.whGenerated < parseFloat(minWh, 10)) {
+    await client.hsetAsync(key, 'minWhGenerated', meterReading.whGenerated);
+  }
+
+  const maxCapacity = await client.hgetAsync(key, 'maxCapacity');
+  const readingCapacity = meterReading.whGenerated - meterReading.whUsed;
+  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity)) {
+    await client.hsetAsync(key, 'maxCapacity', readingCapacity);
+  }
 };
 /* eslint-enable */
 
