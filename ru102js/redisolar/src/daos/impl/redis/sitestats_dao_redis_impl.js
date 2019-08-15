@@ -127,9 +127,16 @@ const updateOptimized = async (meterReading) => {
  */
 const updateBasic = async (meterReading) => {
   const client = redis.getClient();
-  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
+  const key = keyGenerator.getSiteStatsKey(
+    meterReading.siteId, 
+    meterReading.dateTime,
+  );
 
-  await client.hsetAsync(key, 'lastReportingTime', timeUtils.getCurrentTimestamp());
+  await client.hsetAsync(
+    key, 
+    'lastReportingTime', 
+    timeUtils.getCurrentTimestamp()
+  );
   await client.hincrbyAsync(key, 'meterReadingCount', 1);
   await client.expireAsync(key, weekSeconds);
 
