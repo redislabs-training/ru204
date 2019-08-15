@@ -39,7 +39,7 @@ const siteStat = {
   meterReadingCount: 1,
   maxWhGenerated: 12.3,
   minWhGenerated: 12.3,
-  maxCapacity: -10.09,
+  maxCapacity: 4.5,
 };
 
 /* eslint-enable */
