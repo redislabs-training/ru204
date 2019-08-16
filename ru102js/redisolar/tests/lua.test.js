@@ -59,7 +59,9 @@ test(`${testSuiteName}: update if lowest`, async () => {
 
   await updateIfLowestScript.load();
 
-  const result = await client.evalshaAsync(updateIfLowestScript.updateIfLowest(testKey, 50));
+  const result = await client.evalshaAsync(
+    updateIfLowestScript.updateIfLowest(testKey, 50),
+  );
 
   // Expect the response to be 1 / truthy (value was updated).
   // Value is stored as a string in Redis, remember.
@@ -76,7 +78,9 @@ test(`${testSuiteName}: update if lowest unchanged`, async () => {
   await client.setAsync(testKey, 100);
   await updateIfLowestScript.load();
 
-  const result = await client.evalshaAsync(updateIfLowestScript.updateIfLowest(testKey, 200));
+  const result = await client.evalshaAsync(
+    updateIfLowestScript.updateIfLowest(testKey, 200),
+  );
 
   expect(result).toBeFalsy();
 
