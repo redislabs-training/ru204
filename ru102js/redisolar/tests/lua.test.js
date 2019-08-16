@@ -64,10 +64,9 @@ test(`${testSuiteName}: update if lowest`, async () => {
   );
 
   // Expect the response to be 1 / truthy (value was updated).
-  // Value is stored as a string in Redis, remember.
   expect(result).toBeTruthy();
 
-  // Expect the stored value to be 50.
+  // Expect the stored (string) value to be 50.
   const storedResult = await client.getAsync(testKey);
   expect(parseInt(storedResult, 10)).toEqual(50);
 });
