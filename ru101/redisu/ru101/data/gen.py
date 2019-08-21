@@ -43,20 +43,20 @@ def create_event(event,
   p.sadd(create_key_name("venues", sku), venue)
   attrs = {'name': event,
            'venue': venue,
-           'medal_event' : fake.random_element((True, False)),
-           'disabled_access' : fake.random_element((True, False))}
+           'medal_event' : str(fake.random_element((True, False))),
+           'disabled_access' : str(fake.random_element((True, False)))}
   if capacity is not None:
-    event_capacity = random.randint(capacity/10, capacity/2)
+    event_capacity = random.randint(capacity // 10, capacity // 2)
     attrs['capacity'] = event_capacity
-    tiers_availbale = random.randint(1, 3)
-    tier_capacity = int(round(event_capacity / tiers_availbale))
-    for k in range(tiers_availbale, 0, -1):
+    tiers_abailable = random.randint(1, 3)
+    tier_capacity = int(round(event_capacity / tiers_abailable))
+    for k in range(tiers_abailable, 0, -1):
       attrs[create_field_name('available', ticket_tiers[k])] = tier_capacity
       attrs[create_field_name('price', ticket_tiers[k])] =\
         random.randint(10 * (k+1), 10 * (k+1) + 9)
     p.hmset(create_key_name("event", sku), attrs)
     if add_seatmap:
-      create_seatmap(sku, tiers_availbale, tier_capacity)
+      create_seatmap(sku, tiers_abailable, tier_capacity)
   attrs['sku'] = sku
   if geo is not None:
     p.geoadd(create_key_name("geo", "venues", venue),
@@ -84,7 +84,7 @@ def create_hashed_search(obj, key="sku", attrs=search_attrs):
   for k in range(len(attrs)):
     if search_attrs[k] in obj:
       hfs.append((search_attrs[k], obj[search_attrs[k]]))
-  hfs_k = create_key_name("hfs", hashlib.sha256(str(hfs)).hexdigest())
+  hfs_k = create_key_name("hfs", hashlib.sha256(str(hfs).encode('utf-8')).hexdigest())
   redis.sadd(hfs_k, obj[key] if (key in obj) else None)
 
 def create_seatmap(event_sku, tiers, capacity):
@@ -167,37 +167,40 @@ def create_orders(num_customers, max_orders_per_customer=20):
         if redis.hexists(event_k, create_field_name("available", ticket_tier)):
           price = float(redis.hget(event_k,
                                    create_field_name("price", ticket_tier)))
-          availbale = long(redis.hget(event_k,
+          abailable = int(redis.hget(event_k,
                                       create_field_name("available",
                                                         ticket_tier)))
           event_name = redis.hget(event_k, "name")
-          if availbale > 1:
-            qty = random.randint(1, min(75, availbale/2))
-          elif availbale == 1:
+          if abailable > 1:
+            qty = random.randint(1, min(75, abailable // 2))
+          elif abailable == 1:
             qty = 1
           else:
             continue
           res = find_seats(event_sku, ticket_tiers[k], qty)
-          ts = long(time.time())
+          ts = int(time.time())
           qty_allocated = res['assigned']
           order_total = qty_allocated * price
-          purchase = {'customer': customer_id, 'customer_name': customer_name,
+          purchase = {'customer': customer_id,
+                      'customer_name': customer_name,
                       'order_id': order_id,
-                      'event': event_sku, 'event_name': event_name,
+                      'event': event_sku,
+                      'event_name': event_name,
                       'tier': ticket_tiers[k],
-                      'qty': qty_allocated, 'cost': order_total,
-                      'seats' : res['seats'],
+                      'qty': qty_allocated,
+                      'cost': order_total,
+                      'seats' : str(res['seats']),
                       'ts': ts}
           p.hmset(create_key_name("sales_order", order_id), purchase)
           inv = {'customer': customer_id,
                  'order_date': ts,
-                 'due_date': datetime.date.fromtimestamp(ts) +
-                             datetime.timedelta(days=90),
+                 'due_date': str(datetime.date.fromtimestamp(ts) +
+                             datetime.timedelta(days=90)),
                  'amount_due': order_total,
                  'status': "Invoiced"}
           p.hmset(create_key_name("invoice", order_id), inv)
           p.rpush(create_key_name("invoices", customer_id), order_id)
-          p.zadd(create_key_name("invoice_totals"), order_total, order_id)
+          p.zadd(create_key_name("invoice_totals"), {order_id: order_total})
           p.hincrby(create_key_name("event", event_sku),
                     create_field_name("available", ticket_tiers[k]),
                     -qty_allocated)
@@ -225,7 +228,7 @@ def create_orders(num_customers, max_orders_per_customer=20):
           break
 
 def find_seats(event_sku, tier, qty):
-  """Find availbale seats"""
+  """Find abailable seats"""
   # Find seat maps
   import math
   allocated_seats = []
@@ -237,8 +240,8 @@ def find_seats(event_sku, tier, qty):
       vals = ["GET", "u32", 0]
       new_seat_map = int(redis.execute_command("BITFIELD", key, *vals)[0])
       # Take some seats from this block
-      num_taking = max(1, min(available/2, to_allocate/2))
-      pos = range(0, 31)
+      num_taking = max(1, min(available // 2, to_allocate // 2))
+      pos = list(range(0, 31))
       random.shuffle(pos)
       current_pos = 0
       for _ in range(num_taking):
@@ -246,7 +249,7 @@ def find_seats(event_sku, tier, qty):
           new_seat_map -= int(math.pow(2, pos[current_pos]))
           vals = ["SET", "u32", 0, new_seat_map]
           redis.execute_command("BITFIELD", key, *vals)
-          block_name = key.split(":")[3]
+          block_name = str(key).split(":")[3]
           allocated_seats.append(block_name + ":" + str(pos[current_pos]))
           current_pos += 1
           total_allocated += 1
@@ -272,16 +275,16 @@ def main(argv):
   p = redis.pipeline()
 
   # Create data
-  print "creating customers"
+  print("creating customers")
   create_customers(501)
-  print "creating venues"
+  print("creating venues")
   if len(argv) >1:
     create_venues(fn=argv[1])
   else:
     create_venues()
-  print "creating orders"
+  print("creating orders")
   create_orders(num_customers=250)
-  print "creating `hello` key"
+  print("creating `hello` key")
   redis.set("hello", "world")
 
 if __name__ == "__main__":

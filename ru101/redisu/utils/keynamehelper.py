@@ -42,10 +42,10 @@ def ensure_str(vals):
 def create_key_name(*vals):
   """Create the key name based on the following format
 
-     [ prefix + sepatartor] + [ [ separator + value] ]
+     [ prefix + separator] + [ [ separator + value] ]
   """
-  return ((__prefix__ + __sep__) if (__prefix__ != "") else b"")\
-         + "%s" % __sep__.join(ensure_str(vals))
+  start = ((__prefix__ + __sep__) if (__prefix__ != "") else "")
+  return (start + "%s" % __sep__.join(ensure_str(vals)))
 
 def create_field_name(*vals):
   """Create the field name based on the following format
