@@ -154,6 +154,7 @@ def create_orders(num_customers, max_orders_per_customer=20):
   import time
   import datetime
   for _ in range(num_customers):
+    print('.', end='', flush=True)
     num_orders = random.randint(1, max_orders_per_customer)
     customer_id = customers[random.randint(0, len(customers)-1)]
     customer_name = redis.hget(create_key_name("customer", customer_id),
@@ -275,14 +276,15 @@ def main(argv):
   p = redis.pipeline()
 
   # Create data
-  print("creating customers")
+  print("Creating customers...")
   create_customers(501)
-  print("creating venues")
+  print("Creating venues...")
   if len(argv) >1:
     create_venues(fn=argv[1])
   else:
     create_venues()
-  print("creating orders")
+  print("Creating orders (note: this might take some time!)...", end='', flush=True)
+  print("")
   create_orders(num_customers=250)
   print("creating `hello` key")
   redis.set("hello", "world")
