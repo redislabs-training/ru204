@@ -3,3 +3,4 @@
 *.bak
 .vscode
 *.swp
+Dockerfile.[0-9].*
