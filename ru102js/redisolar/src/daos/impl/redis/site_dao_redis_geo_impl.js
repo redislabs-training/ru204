@@ -188,31 +188,82 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
  */
 const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   const client = redis.getClient();
-  const pipeline = client.batch();
+
+  // Create a pipeline to send multiple commands in one round trip.
+  const setOperationsPipeline = client.batch();
+
+  // Get sites within the radius and store them in a temporary sorted set.
+  const sitesInRadiusSortedSetKey = keyGenerator.getTemporaryKey();
+
+  setOperationsPipeline.georadiusAsync(
+    keyGenerator.getSiteGeoKey(),
+    lng,
+    lat,
+    radius,
+    radiusUnit.toLowerCase(),
+    'STORE',
+    sitesInRadiusSortedSetKey,
+  );
+
+  // Create a temporary sorted set containing sites that fell within
+  // the radius and set each site's score to its capacity.
+  const sitesInRadiusCapacitySortedSetKey = keyGenerator.getTemporaryKey();
+
+  setOperationsPipeline.zinterstoreAsync(
+    sitesInRadiusCapacitySortedSetKey,
+    2,
+    sitesInRadiusSortedSetKey,
+    keyGenerator.getCapacityRankingKey(),
+    'WEIGHTS',
+    0,
+    1,
+  );
+
+  // Execute the set operations commands, we do not need to
+  // use the responses.
+  await setOperationsPipeline.execAsync();
 
   // START Challenge 5
-  // Get sites within the radius.
-  const sites = await findByGeo(lat, lng, radius, radiusUnit);
 
-  // Get current capacity score for each site.
-  for (const site of sites) {
-    pipeline.zscore(keyGenerator.getCapacityRankingKey(), site.id);
+  // Get sites with enough capacity from the temporary sorted set.
+  const siteIds = await client.zrangebyscoreAsync(
+    sitesInRadiusCapacitySortedSetKey,
+    capacityThreshold,
+    '+inf',
+  );
+
+  // Populate array with site details, use pipeline for efficiency.
+  const siteHashPipeline = client.batch();
+
+  for (const siteId of siteIds) {
+    const siteKey = keyGenerator.getSiteHashKey(siteId);
+    siteHashPipeline.hgetall(siteKey);
   }
 
-  const scores = await pipeline.execAsync();
+  const siteHashes = await siteHashPipeline.execAsync();
 
-  // Only return sites with capacity above the threshold.
   const sitesWithCapacity = [];
 
-  for (let n = 0; n < sites.length; n += 1) {
-    if (parseFloat(scores[n]) >= capacityThreshold) {
-      sitesWithCapacity.push(sites[n]);
+  for (const siteHash of siteHashes) {
+    // Ensure a result was found before processing it.
+    if (siteHash) {
+      // Call remap to remap the flat key/value representation
+      // from the Redis hash into the site domain object format,
+      // and convert any fields that a numerical from the Redis
+      // string representations.
+      sitesWithCapacity.push(remap(siteHash));
     }
   }
 
-  return sitesWithCapacity;
-
   // END Challenge 5
+
+  // Tidy up the temporary sorted sets as we no longer need them.
+  await client.delAsync(
+    sitesInRadiusSortedSetKey,
+    sitesInRadiusCapacitySortedSetKey,
+  );
+
+  return sitesWithCapacity;
 };
 
 module.exports = {
