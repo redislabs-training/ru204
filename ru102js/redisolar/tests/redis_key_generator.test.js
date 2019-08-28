@@ -86,4 +86,9 @@ test(`${testSuiteName}: setPrefix`, () => {
   expect(keyGenerator.getSiteIDsKey()).toBe(`${expectedKeyPrefix}:sites:ids`);
 });
 
+test(`${testSuiteName}: getTemporaryKey`, () => {
+  const tmpKey = keyGenerator.getTemporaryKey();
+  expect(tmpKey.length).toBeGreaterThan(0);
+});
+
 /* eslint-enable */

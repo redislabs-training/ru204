@@ -1,4 +1,5 @@
 const config = require('better-config');
+const shortId = require('shortid');
 const timeUtils = require('../../../utils/time_utils');
 
 // Prefix that all keys will start with, taken from config.json
@@ -15,6 +16,16 @@ let prefix = config.get('dataStores.redis.keyPrefix');
  * @private
  */
 const getKey = key => `${prefix}:${key}`;
+
+/**
+ * Generates a temporary unique key name using a the short string
+ * generator module shortid.
+ *
+ * Used in week 3 geo for temporary set key names.
+ *
+ * @returns - a temporary key of the form tmp:PPBqWA9
+ */
+const getTemporaryKey = () => getKey(`tmp:${shortId.generate()}`);
 
 /**
  * Takes a numeric site ID and returns the site information key
@@ -160,6 +171,7 @@ const setPrefix = (newPrefix) => {
 };
 
 module.exports = {
+  getTemporaryKey,
   getSiteHashKey,
   getSiteIDsKey,
   getSiteStatsKey,
