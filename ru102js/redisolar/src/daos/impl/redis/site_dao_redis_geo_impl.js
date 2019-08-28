@@ -216,6 +216,11 @@ const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
     1,
   );
 
+  // Expire the temporary sorted sets after 30 seconds, so that we
+  // don't leave old keys on the server that we no longer need.
+  setOperationsPipeline.expire(sitesInRadiusSortedSetKey, 30);
+  setOperationsPipeline.expire(sitesInRadiusCapacitySortedSetKey, 30);
+
   // Execute the set operations commands, we do not need to
   // use the responses.
   await setOperationsPipeline.execAsync();
@@ -253,12 +258,6 @@ const findByGeoWithExcessCapacity = async (lat, lng, radius, radiusUnit) => {
   }
 
   // END Challenge 5
-
-  // Tidy up the temporary sorted sets as we no longer need them.
-  await client.delAsync(
-    sitesInRadiusSortedSetKey,
-    sitesInRadiusCapacitySortedSetKey,
-  );
 
   return sitesWithCapacity;
 };
