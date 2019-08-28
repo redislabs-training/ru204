@@ -82,7 +82,7 @@ const insert = async (site) => {
     keyGenerator.getSiteGeoKey(),
     site.coordinate.lng,
     site.coordinate.lat,
-    siteHashKey,
+    site.id,
   );
 
   return siteHashKey;
@@ -115,8 +115,10 @@ const findAll = async () => {
   const sites = [];
 
   for (const siteId of siteIds) {
+    const siteKey = keyGenerator.getSiteHashKey(siteId);
+
     /* eslint-disable no-await-in-loop */
-    const siteHash = await client.hgetallAsync(siteId);
+    const siteHash = await client.hgetallAsync(siteKey);
     /* eslint-enable */
 
     if (siteHash) {
@@ -155,7 +157,8 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
 
   for (const siteId of siteIds) {
     /* eslint-disable no-await-in-loop */
-    const siteHash = await client.hgetallAsync(siteId);
+    const siteKey = keyGenerator.getSiteHashKey(siteId);
+    const siteHash = await client.hgetallAsync(siteKey);
     /* eslint-enable */
 
     if (siteHash) {
