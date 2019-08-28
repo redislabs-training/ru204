@@ -173,9 +173,6 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
   return sites;
 };
 
-// TODO implement findByGeoWithExcessCapacityOptimized
-// and rename the one below to findByGeoWithExcessCapacityBasic
-
 /**
  * Get an array of sites where capacity exceeds consumption within
  * a radius of a given coordinate.
