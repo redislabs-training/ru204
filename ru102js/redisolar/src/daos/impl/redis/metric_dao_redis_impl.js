@@ -79,9 +79,6 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
 const insertMetricTS = async (siteId, metricValue, metricName, timestamp) => {
   const client = redis.getClient();
 
-  // We could also use client.send_commandAsync('ts.add')
-  // rather than adding the RedisTimeSeries commands
-  // to the redis module (see redis_client.js)
   await client.ts_add(
     keyGenerator.getTSKey(siteId, metricName),
     timestamp * 1000, // Use millseconds
