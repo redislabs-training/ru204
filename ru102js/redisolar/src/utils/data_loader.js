@@ -6,7 +6,7 @@ config.set('../../config.json');
 
 const client = redis.getClient();
 const sitesDao = require('../daos/impl/redis/site_dao_redis_impl');
-const sitesDaoWithGeo = require('../daos/impl/redis/site_dao_redis_geo_impl');
+const sitesDaoWithGeo = require('../daos/impl/redis/site_geo_dao_redis_impl');
 const dataGenerator = require('./sample_data_generator');
 
 const dataDaysToGenerate = 1;
