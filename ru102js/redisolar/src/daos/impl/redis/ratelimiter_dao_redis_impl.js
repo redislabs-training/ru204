@@ -23,7 +23,17 @@ const hitFixedWindow = async (name, opts) => {
   const response = await pipeline.execAsync();
   const hits = parseInt(response[0], 10);
 
-  return Math.max(0, opts.maxHits - hits);
+  let hitsRemaining;
+
+  if (hits > opts.maxHits) {
+    // Too many hits.
+    hitsRemaining = 0;
+  } else {
+    // Return number of hits remaining.
+    hitsRemaining = opts.maxHits - hits;
+  }
+
+  return hitsRemaining;
 };
 
 /* eslint-disable no-unused-vars */
