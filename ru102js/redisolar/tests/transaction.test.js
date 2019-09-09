@@ -22,8 +22,8 @@ afterAll(() => {
 
 test(`${testSuiteName}: example transaction`, async () => {
   const transaction = client.multi();
-  const testKey = `${testKeyPrefix}:example_pipeline`;
-  const testKey2 = `${testKeyPrefix}:example_pipeline_2`;
+  const testKey = `${testKeyPrefix}:example_transaction`;
+  const testKey2 = `${testKeyPrefix}:example_transaction_2`;
 
   transaction.hset(testKey, 'available', 'true');
   transaction.expire(testKey, 1000);
