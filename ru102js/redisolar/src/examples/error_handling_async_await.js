@@ -44,7 +44,7 @@ const replyErrorExamples = async () => {
     const pipeline = client.batch();
     // This command will succeed.
     pipeline.set(key, 'test');
-    
+
     // This command will fail.
     pipeline.incr(key);
 
@@ -64,7 +64,7 @@ const replyErrorExamples = async () => {
   console.log('----------');
 
   client.quit();
-}
+};
 
 try {
   replyErrorExamples();
