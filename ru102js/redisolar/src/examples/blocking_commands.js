@@ -72,6 +72,7 @@ const startProducer = async () => {
 // Start up both the consumer and producer.
 startConsumer();
 
+// Start producer five seconds later.
 setTimeout(() => {
   startProducer();
 }, 5000);
