@@ -50,7 +50,7 @@ const startProducer = async () => {
     host: '127.0.0.1',
   });
 
-  // Run the produver at one second intervals.
+  // Run the producer at one second intervals.
   const producerInterval = setInterval(async () => {
     console.log(`producer: pushing ${n}.`);
 
