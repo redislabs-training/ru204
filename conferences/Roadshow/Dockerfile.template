@@ -1,0 +1,15 @@
+# redisuniversity/redisconf-streams
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+RUN set -ex && \
+    apk add --no-cache \
+      nodejs \
+      nodejs-npm
+
+ADD .logo /home/student/.logo
+
+RUN chown student:student /home/student/.logo
+
+ADD entry.html /var/lib/nginx/html/
+
+RUN chown -R student:student /home/student

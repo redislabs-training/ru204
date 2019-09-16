@@ -86,7 +86,6 @@ RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student s
     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
 ADD .bashrc /home/student/.bashrc
-ADD .logo /home/student/.logo
 
 # Add sanity test
 ADD helloworld.py /src/redisu

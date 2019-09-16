@@ -1,8 +1,8 @@
 #!/bin/bash
 
 export _ALPINE_VER="3.7"
-export _REDIS_VER="5.0.3"
-export _REDIS_SHA="e290b4ddf817b26254a74d5d564095b11f9cd20d8f165459efa53eb63cd93e02"
+export _REDIS_VER="5.0.5"
+export _REDIS_SHA="2139009799d21d8ff94fc40b7f36ac46699b9e1254086299f8d3b223ca54a375"
 export _REDIS_URL="http://download.redis.io/releases/redis-$_REDIS_VER.tar.gz"
 
 
