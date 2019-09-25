@@ -154,7 +154,7 @@ const getRecentGlobal = async limit => getRecent(
 );
 
 /**
- * Get resent meter readings for a specific solar sites.
+ * Get recent meter readings for a specific solar sites.
  * @param {number} siteId - the ID of the solar site to get readings for.
  * @param {*} limit - the maximum number of readings to return.
  * @returns {Promise} - Promise that resolves to an array of meter reading objects.
