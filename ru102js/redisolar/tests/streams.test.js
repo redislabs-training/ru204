@@ -36,7 +36,15 @@ test(`${testSuiteName}: basic stream test`, async () => {
     18.0,
   ];
 
-  const streamEntryId = await client.xaddAsync(streamKey, 'MAXLEN', '~', maxStreamEntries, '*', ...entry);
+  const streamEntryId = await client.xaddAsync(
+    streamKey,
+    'MAXLEN',
+    '~',
+    maxStreamEntries,
+    '*',
+    ...entry,
+  );
+
   const result = await client.xrevrangeAsync(streamKey, '+', '-', 'COUNT', 1);
 
   expect(result[0][0]).toBe(streamEntryId);
