@@ -160,10 +160,6 @@ const findByGeo = async (lat, lng, radius, radiusUnit) => {
     /* eslint-enable */
 
     if (siteHash) {
-      // Call remap to remap the flat key/value representation
-      // from the Redis hash into the site domain object format,
-      // and convert any fields that a numerical from the Redis
-      // string representations.
       sites.push(remap(siteHash));
     }
   }
