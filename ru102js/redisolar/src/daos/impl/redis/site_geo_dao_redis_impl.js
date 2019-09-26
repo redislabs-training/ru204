@@ -123,9 +123,7 @@ const findAll = async () => {
 
     if (siteHash) {
       // Call remap to remap the flat key/value representation
-      // from the Redis hash into the site domain object format,
-      // and convert any fields that a numerical from the Redis
-      // string representations.
+      // from the Redis hash into the site domain object format.
       sites.push(remap(siteHash));
     }
   }
