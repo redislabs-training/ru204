@@ -9,4 +9,4 @@ fi
 
 docker tag redisuniversity/roadshow gcr.io/redis-labs/roadshow:v$1
 docker push gcr.io/redis-labs/roadshow:v$1
-# docker push redisuniversity/roadshow-lab
+docker push redisuniversity/roadshow-lab
