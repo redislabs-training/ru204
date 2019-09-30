@@ -59,12 +59,10 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   const minuteOfDay = timeUtils.getMinuteOfDay(timestamp);
 
   // START Challenge #2
-  const pipeline = client.batch();
 
-  pipeline.zadd(metricKey, minuteOfDay, formatMeasurementMinute(metricValue, minuteOfDay));
-  pipeline.expire(metricKey, metricExpirationSeconds);
+  await client.zaddAsync(metricKey, minuteOfDay, formatMeasurementMinute(metricValue, minuteOfDay));
+  await client.expireAsync(metricKey, metricExpirationSeconds);
 
-  await pipeline.execAsync();
   // END Challenge #2
 };
 /* eslint-enable */
