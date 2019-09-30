@@ -6,20 +6,25 @@ const timeUtils = require('../../../utils/time_utils');
 const metricIntervalSeconds = 60;
 const metricsPerDay = metricIntervalSeconds * 24;
 const maxMetricRetentionDays = 30;
+/* eslint-disable no-unused-vars */
+// Used in Challenge #2
 const metricExpirationSeconds = 60 * 60 * 24 * maxMetricRetentionDays + 1;
+/* eslint-enable */
 const maxDaysToReturn = 7;
 const daySeconds = 24 * 60 * 60;
 
+/* eslint-disable no-unused-vars */
 /**
  * Transforms measurement and minute values into the format used for
  * storage in a Redis sorted set.  Will round measurement to 2 decimal
- * places.
+ * places.  Used in Challenge 2.
  * @param {number} measurement - the measurement value to store.
  * @param {number} minuteOfDay - the minute of the day.
  * @returns {string} - String containing <measurement>-<minuteOfDay>.
  * @private
  */
 const formatMeasurementMinute = (measurement, minuteOfDay) => `${roundTo(measurement, 2)}:${minuteOfDay}`;
+/* eslint-enable */
 
 /**
  * Transforms a string containing : separated measurement value and
@@ -36,6 +41,7 @@ const extractMeasurementMinute = (measurementMinute) => {
   };
 };
 
+/* eslint-disable no-unused-vars */
 /**
  * Insert a metric into the database for a given solar site ID.
  * This function uses a sorted set to store the metric.
@@ -61,6 +67,7 @@ const insertMetric = async (siteId, metricValue, metricName, timestamp) => {
   await pipeline.execAsync();
   // END Challenge #2
 };
+/* eslint-enable */
 
 /**
  * Get a set of metrics for a specific solar site on a given day.
