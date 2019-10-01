@@ -51,49 +51,6 @@ const findById = async (siteId, timestamp) => {
  * @param {Object} meterReading - a meter reading object.
  * @returns {Promise} - promise that resolves when the operation is complete.
  */
-const updateImproved = async (meterReading) => {
-  const client = redis.getClient();
-  const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
-
-  // Note: this could also be improved to a single hgetall as
-  //       we know the hash is small.
-  const [maxWh, minWh, maxCapacity] = await Promise.all([
-    client.hgetAsync(key, 'maxWhGenerated'),
-    client.hgetAsync(key, 'minWhGenerated'),
-    client.hgetAsync(key, 'maxCapacity'),
-  ]);
-
-  const commands = [
-    client.hsetAsync(key, 'lastReportingTime', timeUtils.getCurrentTimestamp()),
-    client.hincrbyAsync(key, 'meterReadingCount', 1),
-    client.expireAsync(key, weekSeconds),
-  ];
-
-  if (maxWh === null || meterReading.whGenerated > parseFloat(maxWh)) {
-    commands.push(client.hsetAsync(key, 'maxWhGenerated', meterReading.whGenerated));
-  }
-
-  if (minWh === null || meterReading.whGenerated < parseFloat(minWh)) {
-    commands.push(client.hsetAsync(key, 'minWhGenerated', meterReading.whGenerated));
-  }
-
-  const readingCapacity = meterReading.whGenerated - meterReading.whUsed;
-  if (maxCapacity === null || readingCapacity > parseFloat(maxCapacity)) {
-    commands.push(client.hsetAsync(key, 'maxCapacity', readingCapacity));
-  }
-
-  await Promise.all(commands);
-};
-/* eslint-enable */
-
-/* eslint-disable no-unused-vars */
-/**
- * Updates the site stats for a specific site with the meter
- * reading data provided.
- *
- * @param {Object} meterReading - a meter reading object.
- * @returns {Promise} - promise that resolves when the operation is complete.
- */
 const updateOptimized = async (meterReading) => {
   const client = redis.getClient();
   const key = keyGenerator.getSiteStatsKey(meterReading.siteId, meterReading.dateTime);
@@ -160,5 +117,5 @@ const updateBasic = async (meterReading) => {
 
 module.exports = {
   findById,
-  update: updateBasic, // updateImproved or updateOptimized
+  update: updateBasic, // updateOptimized
 };
