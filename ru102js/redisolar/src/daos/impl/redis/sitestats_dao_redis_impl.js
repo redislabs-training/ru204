@@ -103,7 +103,7 @@ const updateBasic = async (meterReading) => {
   }
 
   const minWh = await client.hgetAsync(key, 'minWhGenerated');
-  if (minWh === null || meterReading.whGenerated < parseFloat(minWh, 10)) {
+  if (minWh === null || meterReading.whGenerated < parseFloat(minWh)) {
     await client.hsetAsync(key, 'minWhGenerated', meterReading.whGenerated);
   }
 
