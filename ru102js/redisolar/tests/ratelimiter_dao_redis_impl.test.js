@@ -53,8 +53,10 @@ test(`${testSuiteName}: hit (fixed window limit exceeded)`, async () => {
   }, 7);
 });
 
+// Challenge 7.
 test.todo(`${testSuiteName}: hit (sliding window limit not exceeded)`);
 
+// Challenge 7.
 test.todo(`${testSuiteName}: hit (sliding window limit exceeded)`);
 
 /* eslint-enable */
