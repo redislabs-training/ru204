@@ -30,11 +30,16 @@ RUN set -ex && \
 
 RUN set -ex && apk add --no-cache nss
 
+# Add a welcome message
+ADD .logo /src/redisu/.logo
+
 # Add the sample project
 ADD redisolar /src/redisu/project
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
+
+ADD .logo /home/student/.logo
 
 RUN set -ex && \
     cd /src/redisu/project && \
