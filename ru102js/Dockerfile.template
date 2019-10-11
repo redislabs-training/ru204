@@ -34,7 +34,7 @@ RUN set -ex && apk add --no-cache nss
 ADD .logo /src/redisu/.logo
 
 # Add the sample project
-ADD redisolar /src/redisu/project
+ADD project /src/redisu/project
 
 # Supervisord tweaks
 ADD supervisord.conf /etc/
