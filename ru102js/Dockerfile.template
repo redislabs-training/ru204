@@ -47,4 +47,8 @@ RUN set -ex && \
 
 RUN chown -R student:student /src/redisu
 RUN chown -R student:student /home/student/.config
+RUN chown -R student:student /home/student/.npm
+RUN chown -R student:student /home/student/.node-gyp
 RUN npm config set update-notifier false
+RUN chown -R student:student /home/student/.npmrc
+RUN chmod 755 /home/student/.npmrc
