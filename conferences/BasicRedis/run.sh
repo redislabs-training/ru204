@@ -1,0 +1,1 @@
+docker run --rm --name redis1-lab-basicredis -p:8888:8888 redisuniversity/redisconf-basicredis:latest

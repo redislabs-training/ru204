@@ -1,0 +1,1 @@
+docker run --rm --name redis1-lab-graph -p:8888:8888 redisuniversity/redisconf-redisgraph:latest
