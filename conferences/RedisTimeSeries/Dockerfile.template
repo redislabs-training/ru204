@@ -1,4 +1,6 @@
 # redisuniversity/redisconf-redistimeseries
+FROM redislabs/redistimeseries AS rts
+
 FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
 
 ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
@@ -13,21 +15,12 @@ RUN set -ex && \
       musl-dev \
       libc6-compat \
       git \
-      cmake && \
-    # INSTALL RedisTimeSeries
-    mkdir -p /usr/src/redistimeseries && \
-    cd /usr/src/redistimeseries/ && \
-    git clone https://github.com/RedisLabsModules/RedisTimeSeries.git && \
-    cd RedisTimeSeries && \
-    git checkout tags/v1.0.1 -b 1.01 && \
-    git submodule init && \
-    git submodule update && \
-    cd src && \
-    make all && \
-    mkdir -p /usr/lib/redis/modules && \
-    cp redistimeseries.so /usr/lib/redis/modules && \
+      cmake
+
+COPY --from=rts /usr/lib/redis/modules/redistimeseries.so /usr/lib/redis/modules/redistimeseries.so
+
 # CLEANUP
-    apk del git make gcc linux-headers musl-dev cmake m4
+RUN apk del git make gcc linux-headers musl-dev cmake m4
 
 # Course files
 ADD .logo /home/student/.logo
