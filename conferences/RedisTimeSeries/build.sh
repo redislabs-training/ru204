@@ -12,4 +12,4 @@ fi
 sed 's/$REDIS_VERSION/'$_REDIS_VER'/' Dockerfile.template > Dockerfile.$_REDIS_VER
 echo Building $_REDIS_VER
 
-docker build --no-cache -f Dockerfile.$_REDIS_VER -t redisuniversity/redisconf-redistimeseries .
+docker build -f Dockerfile.$_REDIS_VER -t redisuniversity/redisconf-redistimeseries .
