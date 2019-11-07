@@ -24,6 +24,8 @@ Where `<filename>` should be the name of a file in the same directory as this ut
 
 It will write a corrected version of the file to `fixed_<filename>`, also in the same directory as the utility is in.  The original file `<filename>` remains unchanged.
 
+To get the HTML file from a Google doc, use File -> Download -> Web Page (.html, zipped) in Google docs.  Then get the resulting .html file from the .zip file that you downloaded.
+
 Example output:
 
 ```
@@ -48,3 +50,11 @@ will be transformed to a link in the "fixed" document that looks like this:
 ```
 https://www.google.com/url?q=https://redis.io/topics/data-types%23strings
 ```
+
+You can then paste the contents of the fixed document into Tahoe Studio or wherever you want to use the file.  
+
+## Notes
+
+* When exporting the document from Google docs as HTML, any Google doc comment threads that are unresolved will also be exported.  Be aware of this!
+* The HTML is generated as a single long line, so is hard to read.  I have found importing it into VS Code or similar editor and having it auto format the document both makes it easier to read and faster to import into Appsembler as they seem to do some line by line parsing of HTML that gets pasted into their studio tool.
+
