@@ -1,0 +1,15 @@
+{
+  "name": "google-doc-link-fix",
+  "version": "0.0.1",
+  "description": "Fixes redirect links in HTML exported from Google docs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Redis Labs",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
