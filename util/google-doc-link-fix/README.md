@@ -48,7 +48,7 @@ https://www.google.com/url?q=https://redis.io/topics/data-types%23strings&amp;sa
 will be transformed to a link in the "fixed" document that looks like this:
 
 ```
-https://www.google.com/url?q=https://redis.io/topics/data-types%23strings
+https://www.google.com/url?q=https://redis.io/topics/data-types#strings
 ```
 
 You can then paste the contents of the fixed document into Tahoe Studio or wherever you want to use the file.  
