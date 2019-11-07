@@ -25,7 +25,7 @@ try {
         ? href.substring(GOOGLE_LINK_PREFIX.length)
         : href.substring(GOOGLE_LINK_PREFIX.length, googleParamsStartPos);
 
-      $(this).attr('href', newHref);
+      $(this).attr('href', decodeURIComponent(newHref));
     }
   });
 
