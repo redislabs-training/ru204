@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+*.swp
+*.bak
+*.tmp
+*.html
+*.htm
+fixed_*
