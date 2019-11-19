@@ -1,12 +1,17 @@
 # certification-unlock-app
 
-This is a Python 3 / Flask application that adds students to the Redis developer certification course run in Appsembler.
+This is a Python 3 / [Flask](https://flask.palletsprojects.com/) application that adds students to the Redis Certified Developer Exam course run in Appsembler.
 
 ## Workflow
 
 The application workflow is as follows:
 
-* TODO
+* Present a login screen.  The proctor uses this to enter a password that unlocks the rest of the application for the student to use.
+* If the wrong password was entered, remain on the login screen and show an error.
+* If the correct password was entered, present a form asking the student for their email address.
+* On submit, use the Appsembler API to enroll the email address provided onto the course run for Redis Certified Developer Exam.
+* If the enrollment API call succeeded (201 response), redirect to the course page on Appsembler.
+* If the enrollment API call failed (non 201 response), remain on the email address capture screen and show an error.
 
 ## Setup
 
