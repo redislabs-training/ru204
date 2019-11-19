@@ -5,17 +5,46 @@ from flask import request
 from flask import session
 
 import os
+import requests
 import secrets
 import sys
+
+def getEnvVar(varName):
+    try:
+        return os.environ[varName]
+    except KeyError:
+        print("Missing required environment variable: " + varName)
+        sys.exit(1)
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_urlsafe(16)
 
-try:
-    loginPassword = os.environ['CERTIFICATION_UNLOCK_PASSWORD']
-except KeyError:
-    print("Missing required environment variabe: CERTIFICATION_UNLOCK_PASSWORD")
-    sys.exit(1)
+loginPassword = getEnvVar('CERTIFICATION_UNLOCK_PASSWORD')
+apiToken = getEnvVar('APPSEMBLER_API_TOKEN')
+courseHost = getEnvVar('APPSEMBLER_HOST')
+courseId = getEnvVar('APPSEMBLER_COURSE_ID')
+courseUrlPath = getEnvVar('APPSEMBLER_COURSE_URL_PATH')
+
+def enrollStudentWithAppsembler(studentEmail):
+    identifiers = []
+    identifiers.append(studentEmail)
+
+    courses = []
+    courses.append(courseId)
+
+    response = requests.post(
+        'https://' + courseHost + '/tahoe/api/v1/enrollments/',
+        json={'action': 'enroll',
+              'email_learners': True,
+              'auto_enroll': True,
+              'courses': courses,
+              'identifiers': identifiers},
+        headers={'Authorization': 'Token ' + apiToken,
+                 'Content-Type': 'application/json',
+                 'Cache-Control': 'no-cache'}
+    )
+
+    return response.status_code == 201
 
 @app.route('/')
 def home():
@@ -39,11 +68,11 @@ def login():
 def enrollStudent():
     try:
         if (session['authenticated']):
-            print(request.form['email'])
-            return "TODO: Enroll student!"
-            # TODO END THE SESSION WHEN THEY ARE SUCCESSFULLY REGISTERED
-            # TODO REDIRECT TO THE COURSE URL WHEN THEY ARE SUCCESSFULLY REGISTERED
-            # session.clear()
+            if (enrollStudentWithAppsembler(request.form['email'])):
+                session.clear()
+                return redirect('https://' + courseHost + '/' + courseUrlPath, code=302)
+            else:
+                return render_template('email.html', error='Registration failed!')
         else:
             # No session, go to login...
             session.clear()

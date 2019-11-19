@@ -1,6 +1,11 @@
 {% include "header.html" %}
 <div class="col-3"></div>
 <form class="col-6" method="post" action="student">
+  {% if error %}
+  <div class="alert alert-danger" role="alert">
+    {{ error }}
+  </div>
+  {% endif %}
   <div class="form-group">
     <label for="email">Student Email</label>
     <input type="email" class="form-control" id="email" name="email" autofocus="autofocus">
