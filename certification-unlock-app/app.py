@@ -48,10 +48,9 @@ def enrollStudentWithAppsembler(studentEmail):
 
 @app.before_request
 def before_request():
-    if request.headers.get('X-Forwarded-Proto') == 'http' and app.env != "development":
-        url = request.url.replace("http://", "https://", 1)
-        code = 301
-        return redirect(url, code=code)
+    if request.headers.get('X-Forwarded-Proto') == 'http' and app.env != 'development':
+        url = request.url.replace('http://', 'https://', 1)
+        return redirect(url, code=301)
 
 @app.route('/')
 def home():
