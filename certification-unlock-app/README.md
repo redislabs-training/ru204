@@ -69,6 +69,8 @@ When deploying to AppEngine, environment variables and other information about t
 
 You should edit this to include the correct values for each of the environment variables that the application uses, and do **not** commit this version of `app.yaml` to source control!
 
+The file `app_example.yaml` is provided as a start point for you.  Copy this to `app.yaml` then add the real values to that file before deploying.
+
 ### Deploying to AppEngine
 
 To deploy, you'll need the Google Cloud Platform `gcloud` tools / SDK installed.  You will also need to be authenticated to Google Cloud as a user that can access the `redislabs-university` project with at least "App Engine Admin" rights for the project.
