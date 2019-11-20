@@ -49,3 +49,7 @@ http://localhost:5000
 ## Deploying the Application
 
 TODO
+
+```
+$ gcloud app deploy --project redislabs-university
+```
