@@ -79,6 +79,12 @@ service: stage-certification-unlock
 
 This will deploy to a different URL that you will see when deployment is finished.  It will also create a new AppEngine application that you will need permissions to be allowed to do (ask an account owner).  When you are done testing, be sure to delete this application in the AppEngine console so that it doesn't run continuously and cost money.
 
+When deploying for production, use the `default` service in your YAML:
+
+```
+service: default
+```
+
 A guide to the contents of the `app.yaml` file can be [found here](https://cloud.google.com/appengine/docs/flexible/nodejs/reference/app-yaml).
 
 Note that whenever you deploy to AppEngine you **must** set `FLASK_ENV` to `production` in `app.yaml` otherwise you will get redirect loops due to the way SSL termination works on AppEngine.
@@ -101,6 +107,20 @@ If you want to use separate `app.yaml` files for different environments etc, you
 $ gcloud app deploy staging_app.yaml --project redislabs-university
 ```
 
+#### Error with specific version of `gcloud` command
+
+If you see this when deploying:
+
+```
+ERROR: (gcloud.app.deploy) Failed to parse YAML from [gs://runtime-builders/experiments.yaml]: mapping values are not allowed here
+  in "<file>", line 2, column 14
+```
+
+Then the problem isn't with your YAML file it's a bug in the `gcloud` tools.  Revert to version 271.0.0 and retry:
+
+```
+gcloud components update --version=271.0.0
+```
 ## Forcing SSL on AppEngine
 
 AppEngine allows the application to be reached on both `http` and `https` URLs... this is not desirable as this application has a password field and also collects (but does not store) an email address.  To force use of the application via SSL only, there's code in `app.py` that detects whether the incoming request is on a `http` URL and redirects it to a `https` URL.
