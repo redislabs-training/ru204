@@ -61,7 +61,7 @@ The application is deployed to AppEngine on Google Cloud in the `redislabs-unive
 https://redislabs-university.appspot.com/
 ```
 
-and is the `default` service in AppEngine in the Google Cloud project.
+and is the `default` service in AppEngine in the Google Cloud project.  This should be considered "production".  If you need to deploy it with staging configuration, you should configure both the staging credentials in `app.yaml` and also add a service name (see next section).
 
 ### Editing app.yaml
 
@@ -70,6 +70,16 @@ When deploying to AppEngine, environment variables and other information about t
 You should edit this to include the correct values for each of the environment variables that the application uses, and do **not** commit this version of `app.yaml` to source control!
 
 The file `app_example.yaml` is provided as a start point for you.  Copy this to `app.yaml` then add the real values to that file before deploying.
+
+If you want to deploy the service to test it, add a service name in `app.yaml`.  For example:
+
+```
+service: stage-certification-unlock
+```
+
+This will deploy to a different URL that you will see when deployment is finished.  It will also create a new AppEngine application that you will need permissions to be allowed to do (ask an account owner).  When you are done testing, be sure to delete this application in the AppEngine console so that it doesn't run continuously and cost money.
+
+A guide to the contents of the `app.yaml` file can be [found here](https://cloud.google.com/appengine/docs/flexible/nodejs/reference/app-yaml).
 
 ### Deploying to AppEngine
 
