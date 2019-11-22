@@ -95,6 +95,12 @@ $ gcloud app deploy --project redislabs-university
 
 Answer `Y` when asked if you are sure you want to do this.  Deployments can take some time to complete, like 3-5 minutes.
 
+If you want to use separate `app.yaml` files for different environments etc, you need to specify the name of the file when deploying like so:
+
+```
+$ gcloud app deploy staging_app.yaml --project redislabs-university
+```
+
 ## Forcing SSL on AppEngine
 
 AppEngine allows the application to be reached on both `http` and `https` URLs... this is not desirable as this application has a password field and also collects (but does not store) an email address.  To force use of the application via SSL only, there's code in `app.py` that detects whether the incoming request is on a `http` URL and redirects it to a `https` URL.
