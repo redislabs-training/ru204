@@ -81,6 +81,8 @@ This will deploy to a different URL that you will see when deployment is finishe
 
 A guide to the contents of the `app.yaml` file can be [found here](https://cloud.google.com/appengine/docs/flexible/nodejs/reference/app-yaml).
 
+Note that whenever you deploy to AppEngine you **must** set `FLASK_ENV` to `production` in `app.yaml` otherwise you will get redirect loops due to the way SSL termination works on AppEngine.
+
 ### Deploying to AppEngine
 
 To deploy, you'll need the Google Cloud Platform `gcloud` tools / SDK installed.  You will also need to be authenticated to Google Cloud as a user that can access the `redislabs-university` project with at least "App Engine Admin" rights for the project.
