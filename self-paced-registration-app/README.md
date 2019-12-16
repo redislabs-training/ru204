@@ -1,4 +1,4 @@
-# certification-unlock-app
+# self-paced-registration-app
 
 This is a Python 3 / [Flask](https://flask.palletsprojects.com/) application that adds Redis Labs employees to the Redis University self paced course runs in Appsembler.
 
