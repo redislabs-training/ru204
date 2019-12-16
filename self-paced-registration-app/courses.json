@@ -1,0 +1,24 @@
+{
+    "courses": [
+        {
+            "name": "RU101 Introduction to Redis Data Structures",
+            "id": "course-v1:redislabs+RU101+SP_2019_01"
+        },
+        {
+            "name": "RU102J Redis for Java Developers",
+            "id": "course-v1:redislabs+RU102J+SP_2019_04"
+        },
+        {
+            "name": "RU102JS Redis for JavaScript Developers",
+            "id": "course-v1:redislabs+RU102JS+SP_2019_05"
+        },
+        {
+            "name": "RU201 RediSearch",
+            "id": "course-v1:redislabs+RU201+SP_2019_01"
+        },
+        {
+            "name": "RU202 Redis Streams",
+            "id": "course-v1:redislabs+RU202+SP_2019_03"
+        }
+    ]
+}

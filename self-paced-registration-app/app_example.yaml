@@ -1,0 +1,26 @@
+runtime: python
+env: flex
+service: self-paced-registration
+entrypoint: gunicorn -b :$PORT app:app
+
+runtime_config:
+  python_version: 3
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+env_variables:
+  APPSEMBLER_API_TOKEN: TODO 
+  APPSEMBLER_HOST: redisu-staging.tahoe.appsembler.com
+  FLASK_ENV: production
+  WHITELISTED_EMAIL_DOMAINS: redislabs.com,redislabs.co.uk
+skip_files:
+- ^(.*/)?\.bak$
+- ^(.*/)?\.tmp$
+- ^(.*/)?\.swp$
+- .vscode
+- __pycache__
