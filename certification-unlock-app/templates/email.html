@@ -1,0 +1,19 @@
+{% include "header.html" %}
+<div class="col-3"></div>
+<form class="col-6" method="post" action="student">
+  {% if error %}
+  <div class="alert alert-danger" role="alert">
+    {{ error }}
+  </div>
+  {% endif %}
+  <div class="alert alert-primary" role="alert">
+    Enter the email address that you use to log in to <strong>Redis University</strong>.
+  </div>
+  <div class="form-group">
+    <label for="email">Student Email</label>
+    <input type="email" class="form-control" id="email" name="email" autofocus="autofocus">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<div class="col-3"></div>
+{% include "footer.html" %}

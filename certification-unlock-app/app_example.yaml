@@ -1,0 +1,29 @@
+runtime: python
+env: flex
+service: default 
+entrypoint: gunicorn -b :$PORT app:app
+
+runtime_config:
+  python_version: 3
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+env_variables:
+  CERTIFICATION_UNLOCK_PASSWORD: TODO
+  APPSEMBLER_API_TOKEN: TODO 
+  APPSEMBLER_HOST: redisu-staging.tahoe.appsembler.com
+  APPSEMBLER_COURSE_ID: course-v1:redisu-staging+CERT-TEST+2019-01
+  APPSEMBLER_COURSE_URL_PATH: dashboard
+  FLASK_ENV: production
+
+skip_files:
+- ^(.*/)?\.bak$
+- ^(.*/)?\.tmp$
+- ^(.*/)?\.swp$
+- .vscode
+- __pycache__
