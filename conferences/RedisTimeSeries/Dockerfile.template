@@ -1,0 +1,37 @@
+# redisuniversity/redisconf-redistimeseries
+FROM redislabs/redistimeseries AS rts
+
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+      linux-headers \
+      m4 \
+      make \
+      musl-dev \
+      libc6-compat \
+      git \
+      cmake
+
+COPY --from=rts /usr/lib/redis/modules/redistimeseries.so /usr/lib/redis/modules/redistimeseries.so
+
+# CLEANUP
+RUN apk del git make gcc linux-headers musl-dev cmake m4
+
+# Course files
+ADD .logo /home/student/.logo
+
+# Set permissions
+RUN chown -R student:student /src/redisu
+RUN chown    student:student /home/student/.logo
+
+# Data dump.
+#ADD dump.rdb /data/dump.rdb
+#RUN chown redis:redis /data/dump.rdb
+
+# Supervisord config
+ADD supervisord.conf /etc/
