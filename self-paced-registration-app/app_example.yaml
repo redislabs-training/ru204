@@ -14,10 +14,10 @@ resources:
   disk_size_gb: 10
 
 env_variables:
-  APPSEMBLER_API_TOKEN: TODO 
-  APPSEMBLER_HOST: redisu-staging.tahoe.appsembler.com
+  APPSEMBLER_API_TOKEN: API token goes here... 
+  APPSEMBLER_HOST: university.redislabs.com
   FLASK_ENV: production
-  WHITELISTED_EMAIL_DOMAINS: redislabs.com,redislabs.co.uk
+  WHITELISTED_EMAIL_DOMAINS: redislabs.com
 skip_files:
 - ^(.*/)?\.bak$
 - ^(.*/)?\.tmp$
