@@ -76,7 +76,7 @@ http://localhost:5000
 The application is deployed to AppEngine on Google Cloud in the `redislabs-university` project.  When deployed, it's accessible at:
 
 ```
-TODO
+https://self-paced-registration-dot-redislabs-university.appspot.com/
 ```
 
 and is the `self-paced-registration` service in AppEngine in the Google Cloud project.  This should be considered "production".  If you need to deploy it with staging configuration, you should configure both the staging credentials in `app.yaml` and also add a different service name (see next section).
