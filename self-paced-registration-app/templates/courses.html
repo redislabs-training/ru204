@@ -1,0 +1,23 @@
+{% include "header.html" %}
+<div class="col-3"></div>
+<form class="col-6" method="post" action="enroll">
+  {% if error %}
+  <div class="alert alert-danger" role="alert">
+    {{ error }}
+  </div>
+  {% endif %}
+  <div class="alert alert-primary" role="alert">
+    Select the self-paced course(s) that you would like to enroll in from the options below then click "Submit".
+  </div>
+  <div class="form-group">
+    {% for course in courses %}
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="courses" value="{{course['id']}}" id="{{course['id']}}">
+        <label class="form-check-label" for="{{course['id']}}">{{course['name']}}</label>
+    </div>
+    {% endfor %}
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<div class="col-3"></div>
+{% include "footer.html" %}
