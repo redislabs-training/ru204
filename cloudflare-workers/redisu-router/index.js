@@ -27,7 +27,6 @@ async function handleRequest(request) {
     r.options('.*/assets/.*', req => fetch(replaceDomain(req.url)))
     r.patch('.*/assets/.*', req => fetch(replaceDomain(req.url)))
     r.post('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.post('/', req => fetch(replaceDomain(req.url)))
     r.put('.*/assets/.*', req => fetch(replaceDomain(req.url)))
 
     // If not logged in, override homepage else send to origin.
@@ -37,7 +36,8 @@ async function handleRequest(request) {
         r.head('/', req => fetch(replaceDomain(req.url)))
         r.options('/', req => fetch(replaceDomain(req.url)))
         r.patch('/', req => fetch(replaceDomain(req.url)))
-        r.put('/', req => fetch(replaceDomain(req.url)))        
+        r.put('/', req => fetch(replaceDomain(req.url)))      
+        r.post('/', req => fetch(replaceDomain(req.url)))
     }
 
     // Send everything else to the original origin...
