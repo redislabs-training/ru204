@@ -1,28 +1,70 @@
-## Router
+# Cloudflare Workers Experiment
 
-Selects the logic to respond to requests based on the `request` method and URL. Can be used with REST APIs or apps that require basic routing logic.
+This is a [Cloudflare Worker](https://workers.cloudflare.com/) that acts as a proxy to route URLs so that some paths are served from a different underlying origin than others.
 
-[`index.js`](https://github.com/cloudflare/worker-template-router/blob/master/router.js) is the content of the Workers script.
+The aim of this experiment is to see if we can serve the home page for Redis University (and potentially other paths) from a static site origin to improve SEO, page load speed and design while keeping the rest of Redis University served from Appsembler.
 
-Live Demos are hosted on `workers-tooling.cf/demos/router`:
-[Demo /bar](http://workers-tooling.cf/demos/router/bar) | [Demo /foo](http://workers-tooling.cf/demos/router/foo)
+To do this we'd need to proxy everything through here, point `university.redislabs.com` at Cloudflare, update the DNS servers that currently have `university.redislabs.com`, then stand up a static site for the other pages elsewhere (S3, GitHub pages for example).
 
-#### Wrangler
+We have the additional complication that when a user is logged into Appsembler and they go to `university.redislabs.com`, Appsembler detects they are logged in through their cookies sent with the request and redirects them to the dashboard page.  The code in the Cloudflare Worker here aims to address that by looking a cookie too -- for now I am using the Google Analytics cookie as this is set up to test with my own website not Appsembler.
 
-You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this template by running the following command from your terminal:
+Other complications we may have with moving to using this model would be:
+
+* Getting another URL for Appsembler as we'd need to move `university.redislabs.com` to point at Cloudflare.
+* Moving the SSL for `university.redislabs.com` to Cloudflare?
+* Virtual Labs are also on `university.redislabs.com` URLs so traffic for those would also be affected.
+* Ensuring any uptime checks that Appsembler have work agaist the new URL that the Appsembler site is on, not against `university.redislabs.com`
+
+Currently this is all configured to work on Simon's personal Cloudflare acccount and handle all requests to [`http://test.crudworks.org`](http://test.crudworks.org).
+
+The logic that's run against each request right now looks like this:
+
+* Requests for `/` are proxied to the same path on a different domain (`simonprickett.dev` - representing our static site), unless a specific cookie is set to a specific value, in which case they go to the origin:
+  * If the cookie `_ga` is set to `GA1.2.2027235534.1575393409` (this is the Google Analytics cookie for Simon - just using this to test), then the code assumes that the user has an Appsembler session and proxies the request through to origin (represented by a GitHub pages site in this demo).
+  * If the cookie is not set, the code assumes that this is not a logged in Appsembler session and proxies the request to the static site and `simonprickett.dev` home page will be seen.
+* Requests for anything in `/assets` are proxied to the same path on a different domain, simulating the need we will have to have some path to store images / CSS / JS  for the static site we want to build that isn't on Appsembler.  So, for example `http://test.crudworks.org/assets/whatever.png` will really come from `http://simonprickett.dev/assets/whatever.png`.
+* Requests for all other URLs are proxied to the origin (which would be Appsembler).  We would need more of these paths for any URL structure that we want to have in the static site.
+
+## Tooling
+
+To work with Cloudflare Workers, you'll want to install [wrangler](https://github.com/cloudflare/wrangler) which is their CLI to manage and deploy Workers.
+
+## Configuration
+
+Some configuration items need to be set in `wranger.toml`.  These are:
+
+* `route` - which route(s) to apply to (e.g. `test.crudworks.org/*`).
+* `zone_id` - Cloudflare zone ID, you can get this from your Cloudflare dashboard.
+* `account_id` - Cloudflare account ID, you can get this from your Cloudflare dashboard.
+
+## Testing 
+
+To test your Worker logic without deploying to a real domain, use the command:
 
 ```
-wrangler generate myApp https://github.com/cloudflare/worker-template-router
+$ wrangler preview --watch
 ```
 
-Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about publishing your code can be found [in the documentation](https://workers.cloudflare.com/docs/quickstart/configuring-and-publishing/).
+This will give you a URL to visit where you can use the test tooling to try your logic against requests to a dummy domain without deploying to Cloudflare / a real domain.  Any changes you make to the Worker logic will be deployed to this test environment on save.
+
+Note that the `Cookies` header is protected and won't work in this environment.
+
+You can share the test URL with others, regardless of whether you are still running wrangler.
+
+## Build
+
+Before deployment, build your code:
+
+```
+$ wrangler build
+```
+
+## Deployment
 
 Once you are ready, you can publish your code by running the following command:
 
 ```
-wrangler publish
+$ wrangler publish
 ```
 
-#### Serverless
-
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+This will upload it to Cloudflare, put it live and you should see your worker listed in the "Workers" tab on your Cloudflare dashboard.
