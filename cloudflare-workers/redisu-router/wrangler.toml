@@ -1,0 +1,5 @@
+name = "my-router"
+type = "webpack"
+account_id = "e029dc142accb772d1bb41afd50b70d4"
+route = "test.crudworks.org/*"
+zone_id = "9e975b15f453297c0f8e0bf695c3ebfd"
