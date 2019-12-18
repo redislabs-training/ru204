@@ -1,10 +1,12 @@
 const Router = require('./router')
 
-function replaceDomain(urlToReplace) {
-    const beginDomain = urlToReplace.indexOf('://')
-    const endDomain = 1 + urlToReplace.indexOf('/', beginDomain + 3)
+function modifyRequest(request, updatedDomain) {
+    const targetDomain = updatedDomain || 'simonprickett.dev'
+    const beginDomain = request.url.indexOf('://')
+    const endDomain = 1 + request.url.indexOf('/', beginDomain + 3)
+    const newUrl = `${request.url.substring(0, beginDomain)}://${targetDomain}/${request.url.substring(endDomain)}`
 
-    return `${urlToReplace.substring(0, beginDomain)}://simonprickett.dev/${urlToReplace.substring(endDomain)}`
+    return new Request(new URL(newUrl), request)    
 }
 
 addEventListener('fetch', event => {
@@ -13,41 +15,36 @@ addEventListener('fetch', event => {
 
 async function handleRequest(request) {
     const r = new Router()
-
-    // TODO check the headers to see what to do with / depending 
-    // on whether the user is logged in or not...
-    console.log('HEADERS:')
-    console.log(request.headers)
-    
+   
+    const originHost = 'redisu-staging.tahoe.appsembler.com'
     const cookies = request.headers.get('Cookie')
 
-    r.delete('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.get('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.head('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.options('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.patch('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.post('.*/assets/.*', req => fetch(replaceDomain(req.url)))
-    r.put('.*/assets/.*', req => fetch(replaceDomain(req.url)))
+    r.delete('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/assets/.*', req => fetch(modifyRequest(req)))
 
     // If not logged in, override homepage else send to origin.
-    if (cookies && cookies.indexOf('_ga=GA1.2.2027235534.1575393409') == -1) {
-        r.delete('/', req => fetch(replaceDomain(req.url)))
-        r.get('/', req => fetch(replaceDomain(req.url)))
-        r.head('/', req => fetch(replaceDomain(req.url)))
-        r.options('/', req => fetch(replaceDomain(req.url)))
-        r.patch('/', req => fetch(replaceDomain(req.url)))
-        r.put('/', req => fetch(replaceDomain(req.url)))      
-        r.post('/', req => fetch(replaceDomain(req.url)))
+    if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
+        r.delete('/', req => fetch(modifyRequest(req)))
+        r.get('/', req => fetch(modifyRequest(req)))
+        r.head('/', req => fetch(modifyRequest(req)))
+        r.options('/', req => fetch(modifyRequest(req)))
+        r.patch('/', req => fetch(modifyRequest(req)))
+        r.put('/', req => fetch(modifyRequest(req)))      
+        r.post('/', req => fetch(modifyRequest(req)))
     }
 
-    // Send everything else to the original origin...
-    r.delete('.*', req => fetch(req))
-    r.get('.*', req => fetch(req))
-    r.head('.*', req => fetch(req))
-    r.options('.*', req => fetch(req))
-    r.patch('.*', req => fetch(req))
-    r.post('.*', req => fetch(req))
-    r.put('.*', req => fetch(req))
-    
+    r.delete('.*', req => fetch(modifyRequest(req, originHost)))
+    r.get('.*', req => fetch(modifyRequest(req, originHost)))
+    r.head('.*', req => fetch(modifyRequest(req, originHost)))
+    r.options('.*', req => fetch(modifyRequest(req, originHost)))
+    r.patch('.*', req => fetch(modifyRequest(req, originHost)))
+    r.post('.*', req => fetch(modifyRequest(req, originHost)))
+    r.put('.*', req => fetch(modifyRequest(req, originHost)))
+
     return await r.route(request)
 }
