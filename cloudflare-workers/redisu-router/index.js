@@ -16,7 +16,7 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
     const r = new Router()
    
-    const originHost = 'redisu-staging.tahoe.appsembler.com'
+    const originHost = 'tahoe.appsembler.com'
     const cookies = request.headers.get('Cookie')
 
     r.delete('.*/assets/.*', req => fetch(modifyRequest(req)))
