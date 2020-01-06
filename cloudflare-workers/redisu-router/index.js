@@ -1,7 +1,7 @@
 const Router = require('./router')
 
 function modifyRequest(request, updatedDomain) {
-    const targetDomain = updatedDomain || 'simonprickett.dev'
+    const targetDomain = updatedDomain || 'staticsite.crudworks.org'
     const beginDomain = request.url.indexOf('://')
     const endDomain = 1 + request.url.indexOf('/', beginDomain + 3)
     const newUrl = `${request.url.substring(0, beginDomain)}://${targetDomain}/${request.url.substring(endDomain)}`
@@ -16,16 +16,34 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
     const r = new Router()
    
-    const originHost = 'tahoe.appsembler.com'
+    //const originHost = 'tahoe.appsembler.com'
+    const originHost = 'testinstance.crudworks.org'
     const cookies = request.headers.get('Cookie')
 
-    r.delete('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.get('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.head('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.options('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.patch('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.post('.*/assets/.*', req => fetch(modifyRequest(req)))
-    r.put('.*/assets/.*', req => fetch(modifyRequest(req)))
+    // Always override /courses
+    r.delete('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/courses/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/courses/.*', req => fetch(modifyRequest(req)))
+
+    r.delete('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/certifications/.*', req => fetch(modifyRequest(req)))
+    
+    r.delete('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/staticassets/.*', req => fetch(modifyRequest(req)))
 
     // If not logged in, override homepage else send to origin.
     if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
