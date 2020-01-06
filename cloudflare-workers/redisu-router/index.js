@@ -16,7 +16,7 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
     const r = new Router()
    
-    //const originHost = 'tahoe.appsembler.com'
+    // This is the Tahoe host.
     const originHost = 'testinstance.crudworks.org'
     const cookies = request.headers.get('Cookie')
 
@@ -29,6 +29,7 @@ async function handleRequest(request) {
     r.post('.*/courses/.*', req => fetch(modifyRequest(req)))
     r.put('.*/courses/.*', req => fetch(modifyRequest(req)))
 
+    // Always override /certifications
     r.delete('.*/certifications/.*', req => fetch(modifyRequest(req)))
     r.get('.*/certifications/.*', req => fetch(modifyRequest(req)))
     r.head('.*/certifications/.*', req => fetch(modifyRequest(req)))
@@ -37,6 +38,8 @@ async function handleRequest(request) {
     r.post('.*/certifications/.*', req => fetch(modifyRequest(req)))
     r.put('.*/certifications/.*', req => fetch(modifyRequest(req)))
     
+    // Always override /staticassets, this is where CSS/JS/images for
+    // the static site live, to not conflict with anything in Tahoe.
     r.delete('.*/staticassets/.*', req => fetch(modifyRequest(req)))
     r.get('.*/staticassets/.*', req => fetch(modifyRequest(req)))
     r.head('.*/staticassets/.*', req => fetch(modifyRequest(req)))
@@ -56,6 +59,7 @@ async function handleRequest(request) {
         r.post('/', req => fetch(modifyRequest(req)))
     }
 
+    // Send everything else to origin.
     r.delete('.*', req => fetch(modifyRequest(req, originHost)))
     r.get('.*', req => fetch(modifyRequest(req, originHost)))
     r.head('.*', req => fetch(modifyRequest(req, originHost)))
