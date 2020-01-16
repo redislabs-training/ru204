@@ -19,7 +19,7 @@ The application workflow is as follows:
 To get the application running on your local machine you'll want to clone the repo and use a Python virtual environment:
 
 ```
-$ cd certification-unlock-app
+$ cd self-paced-registration-app
 $ python3 -m venv venv
 $ ./venv/bin/activate
 $ pip3 install -r requirements.txt
