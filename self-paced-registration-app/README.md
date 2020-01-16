@@ -60,6 +60,7 @@ Courses are configured in the `courses.json` file which looks like this:
 ```
 $ export APPSEMBLER_API_TOKEN=<api token for appsembler>
 $ export APPSEMBLER_HOST=redisu-staging.tahoe.appsembler.com
+$ export WHITELISTED_EMAIL_DOMAINS=redislabs.com
 $ export FLASK_APP = app.py
 $ export FLASK_ENV = development
 $ flask run
