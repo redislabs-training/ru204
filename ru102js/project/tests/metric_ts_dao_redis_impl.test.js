@@ -17,6 +17,8 @@ const sampleReadings = [];
 /* eslint-disable no-undef */
 
 beforeAll(() => {
+  jest.setTimeout(60000);
+
   // Create the sample data.
   let time = timeUtils.getCurrentTimestamp();
 

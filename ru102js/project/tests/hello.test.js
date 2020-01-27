@@ -13,6 +13,10 @@ const testKey = 'hello';
 
 /* eslint-disable no-undef */
 
+beforeAll(() => {
+  jest.setTimeout(60000);
+});
+
 afterAll(async () => {
   // Delete the key we may have created.
   await client.delAsync(testKey);

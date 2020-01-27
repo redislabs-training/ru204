@@ -13,6 +13,10 @@ const testKeyName = `${testSuiteName}:test`;
 
 /* eslint-disable no-undef */
 
+beforeAll(() => {
+  jest.setTimeout(60000);
+});
+
 beforeEach(async () => {
   await client.delAsync(testKeyName);
 });
