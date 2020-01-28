@@ -1,6 +1,6 @@
 -- To load this library:
 -- 1. Create the script library directory: "mkdir ~/Library/Script Libraries"
--- 2. Copy this script into that directory: "cp Typist.scp ~/Library/Script Libraries"
+-- 2. Copy this script into that directory: "cp Typist.scpt ~/Library/Script Libraries"
 -- 3. Reference this script within "tell" block:
 -- 
 -- tell application "Terminal"
