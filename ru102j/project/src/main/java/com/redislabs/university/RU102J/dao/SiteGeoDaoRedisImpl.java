@@ -84,7 +84,7 @@ public class SiteGeoDaoRedisImpl implements SiteGeoDao {
                  scores.put(site.getId(), score);
              }
              pipeline.sync();
-             // END Challnege #5
+             // END Challenge #5
 
              for (Site site : sites) {
                  if (scores.get(site.getId()).get() >= capacityThreshold) {
