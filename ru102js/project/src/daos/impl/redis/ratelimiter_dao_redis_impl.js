@@ -41,16 +41,6 @@ const hitFixedWindow = async (name, opts) => {
   return hitsRemaining;
 };
 
-/* eslint-disable no-unused-vars */
-// Challenge 7
-const hitSlidingWindow = async (name, opts) => {
-  const client = redis.getClient();
-
-  // START Challenge #7
-  // END Challenge #7
-};
-/* eslint-enable */
-
 module.exports = {
   /**
    * Record a hit against a unique resource that is being
@@ -65,5 +55,5 @@ module.exports = {
    * @returns {Promise} - Promise that resolves to number of hits remaining,
    *   or 0 if the rate limit has been exceeded..
    */
-  hit: hitFixedWindow, // Challenge 7: change to hitSlidingWindow
+  hit: hitFixedWindow,
 };
