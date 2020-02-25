@@ -183,4 +183,5 @@ module.exports = {
   getGlobalFeedKey,
   getFeedKey,
   setPrefix,
+  getKey,
 };
