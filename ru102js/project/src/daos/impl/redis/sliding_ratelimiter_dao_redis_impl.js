@@ -28,7 +28,7 @@ const hitSlidingWindow = async (name, opts) => {
 
   if (hits > opts.maxHits) {
     // Too many hits.
-    hitsRemaining = 0;
+    hitsRemaining = -1;
   } else {
     // Return number of hits remaining.
     hitsRemaining = opts.maxHits - hits;
