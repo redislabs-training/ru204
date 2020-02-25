@@ -30,7 +30,7 @@ afterAll(() => {
   client.quit();
 });
 
-const runRateLimiter = async (limiterOpts, iterations) => {
+const runRateLimiter = async (name, limiterOpts, iterations) => {
   let remaining = limiterOpts.maxHits;
 
   for (let n = 0; n < iterations; n += 1) {
@@ -38,20 +38,20 @@ const runRateLimiter = async (limiterOpts, iterations) => {
       remaining -= 1;
     }
 
-    const remains = await redisRateLimiterDAO.hit('testresource', limiterOpts);
+    const remains = await redisRateLimiterDAO.hit(name, limiterOpts);
     expect(remaining).toBe(remains);
   }
 };
 
 test(`${testSuiteName}: hit (fixed window limit not exceeded)`, async () => {
-  await runRateLimiter({
+  await runRateLimiter('testresource', {
     interval: 1,
     maxHits: 5,
   }, 5);
 });
 
 test(`${testSuiteName}: hit (fixed window limit exceeded)`, async () => {
-  await runRateLimiter({
+  await runRateLimiter('testresource2', {
     interval: 1,
     maxHits: 5,
   }, 7);
