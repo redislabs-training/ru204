@@ -8,7 +8,7 @@ let prefix = config.get('dataStores.redis.keyPrefix');
 /**
  * Takes a string containing a Redis key name and returns a
  * string containing that key with the application's configurable
- * prefix added to the front.  Prefix is configured in config.json
+ * prefix added to the front.  Prefix is configured in config.json.
  *
  * @param {string} key - a Redis key
  * @returns {string} - a Redis key with the application prefix prepended to
