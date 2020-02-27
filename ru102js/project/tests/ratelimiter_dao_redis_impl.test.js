@@ -30,31 +30,33 @@ afterAll(() => {
   client.quit();
 });
 
-const runRateLimiter = async (limiterOpts, iterations) => {
-  let remaining = limiterOpts.maxHits;
+const runRateLimiter = async (name, limiterOpts, howMany) => {
+  const results = [];
 
-  for (let n = 0; n < iterations; n += 1) {
-    if (remaining > 0) {
-      remaining -= 1;
-    }
-
-    const remains = await redisRateLimiterDAO.hit('testresource', limiterOpts);
-    expect(remaining).toBe(remains);
+  for (n = 0; n < howMany; n += 1) {
+    const remains = await redisRateLimiterDAO.hit(name, limiterOpts);
+    results.push(remains);
   }
+
+  return results;
 };
 
 test(`${testSuiteName}: hit (fixed window limit not exceeded)`, async () => {
-  await runRateLimiter({
+  const results = await runRateLimiter('testresource', {
     interval: 1,
     maxHits: 5,
   }, 5);
+
+  expect(results).toStrictEqual([4, 3, 2, 1, 0]);
 });
 
 test(`${testSuiteName}: hit (fixed window limit exceeded)`, async () => {
-  await runRateLimiter({
+  const results = await runRateLimiter('testresource2', {
     interval: 1,
     maxHits: 5,
   }, 7);
+
+  expect(results).toStrictEqual([4, 3, 2, 1, 0, -1, -1]);
 });
 
 // Challenge 7.
