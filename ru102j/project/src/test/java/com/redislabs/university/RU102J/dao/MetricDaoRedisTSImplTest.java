@@ -8,6 +8,7 @@ import com.redislabs.university.RU102J.api.MeterReading;
 import com.redislabs.university.RU102J.api.MetricUnit;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -22,6 +23,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
 
+@Ignore
 public class MetricDaoRedisTSImplTest {
 
     private ArrayList<MeterReading> readings;
@@ -81,7 +83,6 @@ public class MetricDaoRedisTSImplTest {
     public void testOneDay() {
         testInsertAndRetrieve(60 * 24);
     }
-
 
     @Test
     public void testMultipleDays() {

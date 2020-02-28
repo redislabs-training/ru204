@@ -21,6 +21,10 @@ const generateMeterReading = (val, siteId) => ({
 
 /* eslint-disable no-undef */
 
+beforeAll(() => {
+  jest.setTimeout(60000);
+});
+
 afterEach(async () => {
   const testKeys = await client.keysAsync(`${testKeyPrefix}:*`);
 

@@ -11,6 +11,7 @@ In order to start and run this application, you will need:
 * [Node.js](https://nodejs.org/en/download/) (8.9.4 or newer, we recommend using the current Long Term Stable version)
 * npm (installed with Node.js)
 * Access to a local or remote installation of [Redis](https://redis.io/download) version 5 or newer
+* Your Redis installation should have the RedisTimeSeries module installed.  Installation instructions can be found [here](https://oss.redislabs.com/redistimeseries/#setup)
 
 # Setup
 

@@ -17,6 +17,8 @@ const sampleReadings = [];
 /* eslint-disable no-undef */
 
 beforeAll(() => {
+  jest.setTimeout(60000);
+
   // Create the sample data.
   let time = timeUtils.getCurrentTimestamp();
 
@@ -66,10 +68,13 @@ const testInsertAndRetrieve = async (limit) => {
   expect(measurements.length).toEqual(limit);
 };
 
-test(`${testSuiteName}: test 1 reading`, async () => testInsertAndRetrieve(1));
+// Remove .skip to enable RedisTimeSeries test.
+test.skip(`${testSuiteName}: test 1 reading`, async () => testInsertAndRetrieve(1));
 
-test(`${testSuiteName}: test 1 day of readings`, async () => testInsertAndRetrieve(60 * 24));
+// Remove .skip to enable RedisTimeSeries test.
+test.skip(`${testSuiteName}: test 1 day of readings`, async () => testInsertAndRetrieve(60 * 24));
 
-test(`${testSuiteName}: test multiple days of readings`, async () => testInsertAndRetrieve(60 * 70));
+// Remove .skip to enable RedisTimeSeries test.
+test.skip(`${testSuiteName}: test multiple days of readings`, async () => testInsertAndRetrieve(60 * 70));
 
 /* eslint-enable */

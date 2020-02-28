@@ -26,6 +26,11 @@ const testPlanets = [
 
 /* eslint-disable no-undef */
 
+// Runs before all tests.
+beforeAll(() => {
+  jest.setTimeout(60000);
+});
+
 // Runs before each test.
 beforeEach(async () => {
   await client.delAsync('planets');
