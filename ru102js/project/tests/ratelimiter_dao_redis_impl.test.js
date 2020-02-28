@@ -59,10 +59,4 @@ test(`${testSuiteName}: hit (fixed window limit exceeded)`, async () => {
   expect(results).toStrictEqual([4, 3, 2, 1, 0, -1, -1]);
 });
 
-// Challenge 7.
-test.todo(`${testSuiteName}: hit (sliding window limit not exceeded)`);
-
-// Challenge 7.
-test.todo(`${testSuiteName}: hit (sliding window limit exceeded)`);
-
 /* eslint-enable */
