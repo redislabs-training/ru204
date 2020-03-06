@@ -1,6 +1,6 @@
 """Use Case: Faceted search.
 Usage:
-Part of Redis University RU101 coursewear"""
+Part of Redis University RU101 courseware"""
 from redis import Redis
 import os
 import hashlib
@@ -197,6 +197,7 @@ def main():
   global redis
   redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                 port=os.environ.get("REDIS_PORT", 6379),
+                password=os.environ.get("REDIS_PASSWORD", None),
                 db=0)
   clean_keys(redis)
 

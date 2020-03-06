@@ -33,6 +33,7 @@ def main():
     global redis
     redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                   port=os.environ.get("REDIS_PORT", 6379),
+                  password=os.environ.get("REDIS_PASSWORD", None),
                   db=0, decode_responses=True)
 
     clean_keys(redis, "hits")

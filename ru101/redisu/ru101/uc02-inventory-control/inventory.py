@@ -1,6 +1,6 @@
 """Use Case: Inventory Control.
 Usage:
-Part of Redis University RU101 coursewear"""
+Part of Redis University RU101 courseware"""
 from redis import Redis, WatchError
 import os
 import time
@@ -282,6 +282,7 @@ def main():
   global redis
   redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                 port=os.environ.get("REDIS_PORT", 6379),
+                password=os.environ.get("REDIS_PASSWORD", None),
                 db=0, decode_responses=True)
   clean_keys(redis)
   create_customers(customers)

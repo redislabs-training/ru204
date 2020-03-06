@@ -4,6 +4,7 @@ import os
 
 redis = StrictRedis(host=os.environ.get("REDIS_HOST", "localhost"),
                     port=os.environ.get("REDIS_PORT", 6379),
+                    password=os.environ.get("REDIS_PASSWORD", None),
                     db=0)
 
 redis.delete("event:Football:distances")
