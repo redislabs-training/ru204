@@ -1,0 +1,57 @@
+FROM redisuniversity/virtual-lab-base:$REDIS_VERSION
+
+RUN set -ex && \
+    apk add --no-cache \
+      nodejs \
+      nodejs-npm
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+      linux-headers \
+      make \
+      musl-dev \
+      libc6-compat \
+      nodejs \
+      nodejs-npm \
+      git \
+      cmake && \
+    # INSTALL RediSearch
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    mkdir -p /usr/src/redisearch && \
+    cd /usr/src/redisearch && \
+    git clone https://github.com/RedisLabsModules/RediSearch.git && \
+    cd RediSearch && \
+    # RediSearch 1.6.8
+    git checkout v1.6.8 && \
+    mkdir build && \
+    cd build && \
+    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+    make && \
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    cp redisearch.so "$LD_LIBRARY_PATH" && \
+    rm -r /usr/src/redisearch && \
+    mkdir -p /usr/src/redisjson && \
+    cd /usr/src/redisjson && \
+    git clone https://github.com/RedisJSON/RedisJSON.git && \
+    cd RedisJSON && \
+    git checkout v1.0.4 && \
+    make && \
+    cp src/rejson.so "$LD_LIBRARY_PATH" && \
+    cd /usr  && \
+    rm -r /usr/src/redisjson && \
+# CLEANUP
+    apk del git make g++ linux-headers musl-dev cmake
+
+ADD .logo /home/student/.logo
+
+RUN chown student:student /home/student/.logo
+
+ADD entry.html /var/lib/nginx/html/
+
+RUN chown -R student:student /home/student
+
+ADD supervisord.conf /etc/
