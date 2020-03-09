@@ -9,6 +9,7 @@ def get_connection(name=None):
     '''Returns an optionally-named connection to Redis'''
     redis = Redis(host=os.environ.get("REDIS_HOST", "localhost"),
                   port=os.environ.get("REDIS_PORT", 6379),
+                  password=os.environ.get("REDIS_PASSWORD", None),
                   db=0,
                   decode_responses=True)
     if name is not None:
