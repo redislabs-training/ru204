@@ -20,14 +20,17 @@ async function handleRequest(request) {
     const originHost = 'testinstance.crudworks.org'
     const cookies = request.headers.get('Cookie')
 
-    // Always override /courses
-    r.delete('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.get('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.head('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.options('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.patch('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.post('.*/courses/.*', req => fetch(modifyRequest(req)))
-    r.put('.*/courses/.*', req => fetch(modifyRequest(req)))
+    // Always override /courses unless the URL contains 'course-v1'
+    // this is an edX about page.
+    if (request.url.indexOf('course-v1') == -1) {
+        r.delete('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.get('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.head('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.options('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.patch('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.post('.*/courses/.*', req => fetch(modifyRequest(req)))
+        r.put('.*/courses/.*', req => fetch(modifyRequest(req)))
+    }
 
     // Always override /certifications
     r.delete('.*/certifications/.*', req => fetch(modifyRequest(req)))
