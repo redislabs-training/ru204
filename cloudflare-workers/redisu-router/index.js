@@ -20,6 +20,23 @@ async function handleRequest(request) {
     const originHost = 'testinstance.crudworks.org'
     const cookies = request.headers.get('Cookie')
 
+    // These should always come from the static site.
+    r.delete('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.get('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.head('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.options('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.patch('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.post('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+    r.put('.*/sitemap.xml', req => fetch(modifyRequest(req)))
+
+    r.delete('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.get('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.head('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.options('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.patch('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.post('.*/robots.txt', req => fetch(modifyRequest(req)))
+    r.put('.*/robots.txt', req => fetch(modifyRequest(req)))    
+
     // Always override /courses unless the URL contains 'course-v1'
     // this is an edX about page.
     if (request.url.indexOf('course-v1') == -1) {
