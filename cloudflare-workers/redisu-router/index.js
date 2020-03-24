@@ -32,6 +32,15 @@ async function handleRequest(request) {
         r.put('.*/courses/.*', req => fetch(modifyRequest(req)))
     }
 
+    // Always override /certification
+    r.delete('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/certification/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/certification/.*', req => fetch(modifyRequest(req)))
+
     // Always override /certifications
     r.delete('.*/certifications/.*', req => fetch(modifyRequest(req)))
     r.get('.*/certifications/.*', req => fetch(modifyRequest(req)))
@@ -41,15 +50,15 @@ async function handleRequest(request) {
     r.post('.*/certifications/.*', req => fetch(modifyRequest(req)))
     r.put('.*/certifications/.*', req => fetch(modifyRequest(req)))
     
-    // Always override /staticassets, this is where CSS/JS/images for
-    // the static site live, to not conflict with anything in Tahoe.
-    r.delete('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.get('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.head('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.options('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.patch('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.post('.*/staticassets/.*', req => fetch(modifyRequest(req)))
-    r.put('.*/staticassets/.*', req => fetch(modifyRequest(req)))
+    // Always override /assets, this is where static site assets
+    // live, to not conflict with anything in Tahoe.
+    r.delete('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.get('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.head('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.options('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.patch('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.post('.*/assets/.*', req => fetch(modifyRequest(req)))
+    r.put('.*/assets/.*', req => fetch(modifyRequest(req)))
 
     // If not logged in, override homepage else send to origin.
     if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
