@@ -2,7 +2,7 @@ const Router = require('./router')
 
 // Modify request URL to point to the desired origin URL.
 function modifyRequest(request, updatedDomain) {
-    const targetDomain = updatedDomain || 'staticsite.crudworks.org'
+    const targetDomain = updatedDomain || STATIC_HOST
     const beginDomain = request.url.indexOf('://')
     const endDomain = 1 + request.url.indexOf('/', beginDomain + 3)
     const newUrl = `${request.url.substring(0, beginDomain)}://${targetDomain}/${request.url.substring(endDomain)}`
@@ -31,7 +31,7 @@ async function handleRequest(request) {
     const r = new Router()
    
     // This is the Tahoe host.
-    const originHost = 'testinstance.crudworks.org'
+    const originHost = TAHOE_HOST
     const cookies = request.headers.get('Cookie')
 
     // These should always come from the static site.
