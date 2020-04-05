@@ -19,7 +19,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 2. Point a laptop browser to the VM public IP and sign in to VNC as **trainee!**
 
-3. Open a VNC browser and point it to https://172.18.0.20:10000 (Bind's UI called WebMin)
+3. Open a VNC browser and point it to https://172.18.0.20:10000 - Bind's UI called WebMin
 
 4. Sign in as **root** and **password**
 
@@ -45,4 +45,22 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 11. Click **Edit Zone Records File**
 
-12. 
+12. Make the following changes to the file – see before and after images below:
+- Line 1: reduce TTL to 60
+- Line 2: Insert new line with the following **$ORIGIN** statement to use relative host names – be sure to include ending 'dot':	
+
+```bash
+	$ORIGIN rlabs.org.
+ 
+```
+
+- New lines 3 and 9: remove remaining absolute names **.rlabs.org.**
+
+Zone record – BEFORE
+
+![]()
+
+Zone record - AFTER
+
+![]()
+
