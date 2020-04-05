@@ -1,19 +1,20 @@
 # Admin Training VM Setup
 
-Here are steps to build a training VM image from scratch.
+Here are steps to build the first training VM image from scratch.
 
 Instructors copy student VMs from this image.
 
 Each VM includes the following as shown:
 - VNC
+- Docker network
 - DNS
 - Redis Insight
 - 6 nodes.
 ![](img/00-vm-overview.png)
 
-Nodes run in containers, but they appear to students as VMs with hostnames and IPs.
+Nodes run in containers, but they look like VMs.
 
-Students access a VM on port 80.  All they need is the VM's public IP and the VNC password (provided by instructor).
+VM access is by VNC on port 80.  All students need is the VM's public IP and VNC password (provided by instructor).
 
 Here's what the desktop looks like when students sign in.
 
