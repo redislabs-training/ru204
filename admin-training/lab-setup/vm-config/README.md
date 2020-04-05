@@ -26,9 +26,9 @@ Setup is in 2 stages:
 
 Requirement | Specification
 ------------|--------------
-Name | admin-training-vpc
+Name | ***admin-training-vpc***
 Subnet Creation Mode | Custom
-Subnet Name | admin-training-subnet
+Subnet Name | ***admin-training-subnet***
 Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
@@ -37,16 +37,16 @@ Subnet IP Address Range | 172.18.0.0/16
   
 Requirement  | Specification  
 ------------ | -------------
-Name | **admin-training-stage-1**
+Name | ***admin-training-stage-1***
 CPU | 4
 Memory | 15 GB
 OS | Ubuntu 18.04 LTS
 Disk | 30 GB
-Networking | admin-training-vpc
+Networking | ***admin-training-vpc***
   
 4. SSH to the base VM from GCP console to finish setup.
 
-5. Install vim and add **trainee** user to the **docker** group so it can start, stop, and SSH to containers.
+5. Install vim and add ***trainee*** user to the ***docker*** group so it can start, stop, and SSH to containers.
 
 ```bash 
 sudo su
@@ -87,21 +87,21 @@ apt-get -y install docker-ce
  
 ```
 
-7. Run **sudo visudo** and add the following line so **trainee** can start and stop containers without **sudo**.
+7. Run ***sudo visudo*** and add the following line so ***trainee*** can start and stop containers without ***sudo***.
 
 ```bash
 trainee ALL=(ALL) NOPASSWD:ALL
 ```
 
 
-8. Switch to **trainee** user to create the Docker network, add scripts, and build/run the VNC image.
+8. Switch to ***trainee*** user to create the Docker network, add scripts, and build/run the VNC image.
 
 ```bash
 sudo su - trainee
  
 ```
 
-9. Uncomment the line '#force_color_prompt' in the user's **.bashrc** file. This sets VM user prompt to **green** so you can tell it apart from the VNC user (yellow prompt).
+9. Uncomment the line ***#force_color_prompt*** in the user's ***.bashrc*** file. This sets VM user prompt to ***green*** so you can tell it apart from the VNC user (yellow prompt).
 
 10. Generate keys so students can 'silently' SSH from VNC user to base VM user and start/stop/SSH RE nodes. 
 
@@ -258,37 +258,37 @@ docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlab
  
 ```
 
-14. Run Redis Insight as a container so students can view database contents in a GUI.
+14. Run Redis Insight as a container so students can view database contents in a UI.
 
 ```bash
 docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
  
 ```
 
-15. Run Bind DNS as a container.
+15. Run ***BIND DNS*** as a container.
 
 ```bash
 docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
  
 ```
 
-Someday, you may use **CoreDNS** with Corefile and rlabs.db.
+Someday, you may use ***CoreDNS*** with Corefile and rlabs.db.
 
 ```bash
 docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
 ```
 
-### Configure Bind DNS with its GUI on VNC desktop.
+### Configure BIND DNS with its UI on VNC desktop.
 
 16. Point your browser to the VM public IP (it's in GCP console).
 
-17. Sign in to VNC with password **trainee!**.
+17. Sign in to VNC with password ***trainee!*** .
 
 18. Open Chrome browser on the VNC desktop.
 
-19. Point it to https://172.18.0.20:10000 (this is Bind's admin console).
+19. Point it to https://172.18.0.20:10000 (this is BIND's admin console).
 
-20. Sign in with **root** and **password**.
+20. Sign in with ***root*** and ***password*** .
 
 21. Configure the server using these steps.
 
@@ -332,9 +332,9 @@ exit
 
 ### Push DNS changes to a GCR image.
 
-26. Return to SSH from GCP console so you're using your **GCP account**.
+26. Return to SSH from GCP console so you're using your ***GCP account***.
 
-If you run these as **trainee** you'll get **config.json** errors later when running containers. If that happens, log in as **root** and remove **/home/trainee/.docker/config.json**.
+If you run these as ***trainee*** you'll get ***config.json*** errors later when running containers. If that happens, log in as ***root*** and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
 # authenticate Docker to GCR
@@ -352,7 +352,7 @@ sudo docker push gcr.io/redislabs-university/admin-training-dns
 
 ### Reset your VM before saving your work.
 
-27. Replace the **vanilla-dns** container with a **configured-dns** container from the GCR iamge. 
+27. Replace the ***vanilla-dns*** container with a container called ***configured-dns*** from the GCR iamge. 
 
 ```bash
 sudo docker stop vanilla-dns
@@ -363,7 +363,7 @@ sudo docker rmi admin-training-dns
 sudo docker run --name configured-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  gcr.io/redislabs-university/admin-training-dns
  
 ```
-28. Stop and remove node containers. Removing them forces manual restart on a new VM. Otherwise, cluster names do not resolve after you create a cluster.
+28. Stop and remove node containers. Removing them forces manual restart on new VMs. Otherwise, clusters will be misconfigured and cluster names will not resolve by DNS properly.
 
 ```bash
 sudo docker stop n1 n2 n3 s1 s2 s3
@@ -371,10 +371,10 @@ sudo docker rm n1 n2 n3 s1 s2 s3
  
 ```
 
-29. Return to VNC shell. Remove **known_hosts** and restart **north** nodes.
+29. Return to VNC shell. Remove the ***known_hosts*** file and restart ***north*** nodes.
 
-**known_hosts** gives **REMOTE HOST ID HAS CHANGED! Host key verification failed** errors.
-And clustered nodes would re-create improperly configured clusters on startup.
+***known_hosts*** gives ***REMOTE HOST ID HAS CHANGED! Host key verification failed*** errors in new VMs.
+And clustered nodes would create improperly configured clusters on startup.
 
 ```bash
 start_north_nodes
@@ -390,9 +390,9 @@ Now you have:
 
 ### Save your work.
 
-29. Create a snapshot of the VM called **admin-training-stage-1**.
+29. Create a snapshot of the VM called ***admin-training-stage-1***.
 
-30. Create an image from the snapshot called **admin-training-stage-1**.
+30. Create an image from the snapshot called ***admin-training-stage-1***.
 
 
 
@@ -411,13 +411,13 @@ You'll configure VNC with:
 - 2 workspaces
 - 5 launchers (Chrome and 4 terminal shells).
 
-1. Create a new VM called **admin-training-stage-2** from image **admin-training-stage-1**.
+1. Create a new VM called ***admin-training-stage-2*** from image ***admin-training-stage-1***.
 
 ### Configure VNC.
 
-**IMPORTANT:** There is one dependency in the VNC Docker image. It includes the private key for the **trainee** user to silently authenticate to the base VM. If you configure a new VM that uses new keys, you must create a new VNC Docker image to match it.
+**IMPORTANT:** There is one dependency in the VNC Docker image. It includes the private key for the ***trainee*** user to silently authenticate to the base VM. If you configure a new VM that uses new keys, you must create a new VNC Docker image to match it.
 
-2. Sign in to VNC desktop from your laptop browser with password **trainee!**.
+2. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
 3. Open a terminal shell window.
 
@@ -452,7 +452,7 @@ https://s3:8443
 
 ### Push the VNC container to a GCR image, then download and test it.
 
-9. SSH to the VM from GCP console so you're using your **GCP account**.
+9. SSH to the VM from GCP console so you're using your ***GCP account***.
 
 10. Download the service account key again and authenticate Docker to GCR.
 
@@ -493,7 +493,7 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
-14. Stop and remove node containers. Removing them forces manual restart on a new VM. Otherwise, nodes start automatically and re-create improperly configured clusters and their cluster names won't resolve by DNS.
+14. Stop and remove node containers. Removing them forces manual restart on a new VM. Otherwise, nodes will start automatically and create misconfigured clusters with cluster names that won't resolve by DNS properly.
 
 ```bash
 sudo docker stop n1 n2 n3 s1 s2 s3
@@ -511,7 +511,7 @@ You're ready to create user instances.
 
 ### Save your work.
 
-15. Create a snapshot of the VM called **admin-training-stage-2**.
+15. Create a snapshot of the VM called ***admin-training-stage-2***.
 
-16. Create an image from the snapshot called **admin-training-stage-2**.
+16. Create an image from the snapshot called ***admin-training-stage-2***.
 
