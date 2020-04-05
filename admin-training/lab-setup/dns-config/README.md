@@ -58,7 +58,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 Zone record – BEFORE
 
-![]()
+![](img/06%20-%20DNS%20zone%20record%20start.png)
 
 Zone record - AFTER
 
