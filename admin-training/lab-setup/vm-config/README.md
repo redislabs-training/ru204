@@ -102,7 +102,7 @@ trainee ALL=(ALL) NOPASSWD:ALL
 ```
 
 
-8. Switch to ***trainee*** user to create the Docker network, add scripts, and build/run the VNC image.
+8. Switch to ***trainee*** user to create the Docker network, add scripts, and build the initial VNC Docker image and run it as an unconfigured (vanilla) container.
 
 ```bash
 sudo su - trainee
