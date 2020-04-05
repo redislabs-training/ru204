@@ -17,29 +17,32 @@ This doc explains how to set up:
 docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp sameersbn/bind
 ```
 
-2. Point a laptop browser to the VM public IP and sign in to VNC as 'trainee!'
+2. Point a laptop browser to the VM public IP and sign in to VNC as **trainee!**
 
 3. Open a VNC browser and point it to https://172.18.0.20:10000 (Bind's UI called WebMin)
 
-4. Sign in as 'root' and 'password'
+4. Sign in as **root** and **password**
 
-5. Click Servers > BIND DNS Server
+5. Click **Servers > BIND DNS Server
   
 6. Select all Existing DNS Zones icons at the bottom (to select, hover over one,  click the top-left box)
 
 ![](img/04%20-%20DNS%20default%20zone%20select.png)
 
-7. Click Delete Selected
+7. Click **Delete Selected
 
-8. Click Return to Zone List
+8. Click **Return to Zone List
 
-9. Click Create Master Zone and make sure the following are set:
-- Domain name / Network: rlabs.org
-- Master server: ns.rlabs.org
+9. Click **Create Master Zone** and make sure the following are set:
+- Domain name / Network: **rlabs.org**
+- Master server: **ns.rlabs.org**
 - Add NS record for master server: checked
-- Email address: admin@rlabs.org
+- Email address: **admin@rlabs.org**
 
-![](img/)
-10. Click Create 
+![](img/05%20-%20DNS%20zone%20create.png)
 
-11. Click Edit Zone Records File
+10. Click **Create** 
+
+11. Click **Edit Zone Records File**
+
+12. 
