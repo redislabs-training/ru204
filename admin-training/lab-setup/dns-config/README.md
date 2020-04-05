@@ -24,11 +24,22 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 4. Sign in as 'root' and 'password'
 
 5. Click Servers > BIND DNS Server
-
-![](img/04%20-%20DNS%20default%20zone%20select.png)
-
   
 6. Select all Existing DNS Zones icons at the bottom (to select, hover over one,  click the top-left box)
 
-<image>
+![](img/04%20-%20DNS%20default%20zone%20select.png)
 
+7. Click Delete Selected
+
+8. Click Return to Zone List
+
+9. Click Create Master Zone and make sure the following are set:
+- Domain name / Network: rlabs.org
+- Master server: ns.rlabs.org
+- Add NS record for master server: checked
+- Email address: admin@rlabs.org
+
+![](img/)
+10. Click Create 
+
+11. Click Edit Zone Records File
