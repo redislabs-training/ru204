@@ -5,7 +5,7 @@ Here are steps to build the first training VM image from scratch.
 Instructors copy student VMs from this image.
 
 Each VM includes the following as shown:
-- VNC
+- VNC access on port 80
 - Docker network
 - DNS
 - Redis Insight
@@ -14,14 +14,14 @@ Each VM includes the following as shown:
 
 Nodes run in containers, but they look like VMs.
 
-VM access is by VNC on port 80.  All students need is the VM's public IP and VNC password (provided by instructor).
+All students need is the VM's public IP and VNC password (provided by instructor).
 
 Here's what the desktop looks like when students sign in.
 
-![](img/01-vnc-overview.png).
+![](img/01-vnc-overview.png)
 
 Setup is built in two stages:
-1. Start Docker and VNC, configure DNS
+1. Start Docker/VNC, configure DNS
 2. Configure VNC.
 
 ## Stage 1 - Start Docker and VNC, configure DNS
