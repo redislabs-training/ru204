@@ -81,8 +81,6 @@ Notice the domain name at the top and the Address (A) and Name Server (NS) recor
 
 17. Click the **Address** icon and enter the following A records:
 
-
-
 Name | Address
 ---|---
 ns | 172.18.0.20
@@ -96,7 +94,6 @@ vnc-terminal | 172.18.0.2
 insight | 172.18.0.4
 dnsutils | 172.18.0.6
 
-
 Here's what the final list should look like – notice relative names get automatically replaced with absolute names.
 
 ![](img/11%20-%20DNS%20A%20records%20list.png)
@@ -109,7 +106,14 @@ NOTE: If you make a mistake, delete and recreate the **rlabs.org** zone file rat
 
 19. Click the **Name Server** icon and add the following NS records:
 
-table
+Name | Name Server
+---|---
+north | n1
+north | n2
+north | n3
+south | s1
+south | s2
+south | s3
 
 Here's what the final list should look like – again, relative names automatically get replaced with absolute names.
 
