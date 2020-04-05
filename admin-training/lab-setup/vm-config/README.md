@@ -266,7 +266,7 @@ docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlab
  
 ```
 
-14. Run Redis Insight as a container so students can view database contents in a UI.
+14. Run ***Redis Insight*** as a container so students can view database contents in a UI.
 
 ```bash
 docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
@@ -294,7 +294,7 @@ docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=alwa
 
 18. Open Chrome browser on the VNC desktop.
 
-19. Point it to https://172.18.0.20:10000 (this is BIND's admin console).
+19. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
 
 20. Sign in with ***root*** and ***password*** .
 
@@ -360,7 +360,7 @@ sudo docker push gcr.io/redislabs-university/admin-training-dns
 
 ### Reset your VM before saving your work.
 
-27. Replace the ***vanilla-dns*** container with a container called ***configured-dns*** from the GCR iamge. 
+27. Replace ***vanilla-dns*** container with a container called ***configured-dns*** from the GCR iamge. 
 
 ```bash
 sudo docker stop vanilla-dns
