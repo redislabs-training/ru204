@@ -9,7 +9,7 @@ Each VM includes the following as shown:
 - Docker network
 - DNS
 - Redis Insight
-- 6 nodes.
+- 6 RE nodes.
 ![](img/00-vm-overview.png)
 
 Nodes run in containers, but they look like VMs.
