@@ -71,8 +71,8 @@ Adjust Chrome launcher to open Chrome in the same place every time without warni
 
 7. Open the following tabs in order:
 ```bash
-https://172.18.0.20:10000 (dns)
-http://insight:8001 (not https:)
+https://172.18.0.20:10000
+http://insight:8001
 https://n1:8443
 https://n2:8443
 https://n3:8443
