@@ -62,5 +62,7 @@ Zone record – BEFORE
 
 Zone record - AFTER
 
-![]()
+![](img/07%20-%20DNS%20zone%20record%20zone%20set.png)
+
+13. 
 
