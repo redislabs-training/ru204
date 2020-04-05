@@ -199,92 +199,61 @@
 
 1.
 
-![](img/)
+![](img/141%20-%20step%2041%2C%20node%201%20going%20down%2C%20shard%20not%20promoted%20yet.png)
 
 1.
 
-![](img/)
+![](img/142%20-%20step%2042%2C%20slave%20shards%20promoted.png)
 
 1.
 
-![](img/)
+![](img/143%20-%20step%2043%2C%20data%20still%20in%20promoted%20shards.png)
 
 1.
 
-![](img/)
+![](img/144%20-%20step%2044%2C%20restart%20node%201.png)
 
 1.
 
-![](img/)
+![](img/145%20-%20step%2045%2C%20node%201%20returns%20quickly%20and%20shards%20restart%20as%20slaves.png)
 
 1.
 
-![](img/)
+![](img/146%20-%20step%2046%2C%20stop%20node%202%20with%20master%20shards%20and%20proxy.png)
 
 1.
 
-![](img/)
+![](img/148%20-%20step%2048%2C%20node%202%20down%2C%20master%20shards%20back%20on%20node%201%2C%20proxy%20back%20on%20node%201.png)
 
 1.
 
-![](img/)
+![](img/149%20-%20step%2049%2C%20stop%202%20nodes%2C%20what%20happens.png)
 
 1.
 
-![](img/)
+![](img/150-%20step%2050%2C%20cluster%20down%2C%20now%20what.png)
 
 1.
 
-![](img/)
+![](img/151%20-%20step%2051%2C%20proxy%20down.png)
 
 1.
 
-![](img/)
+![](img/152%20-%20step%2052%2C%20restart%20nodes%201%20and%202%2C%20now%20what%20happens.png)
 
 1.
 
-![](img/)
+![](img/153%20-%20step%2053%2C%20start%20all%20nodes.png)
 
 1.
 
-![](img/)
+![](img/154%20-%20step%2054%2C%20re-create%20cluster.png)
 
 1.
 
-![](img/)
+![](img/155%20-%20step%2055%2C%20no%20cluster%2C%20no%20dbs.png)
 
 1.
 
-![](img/)
+![](img/156%20-%20step%2056%2C%20open%20SSH%20to%20base-vm%20and%20manage%20docker%20containers%20and%20images.png)
 
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
-
-1.
-
-![](img/)
