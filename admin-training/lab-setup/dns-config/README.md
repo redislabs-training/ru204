@@ -23,15 +23,15 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 4. Sign in as **root** and **password**
 
-5. Click **Servers > BIND DNS Server
+5. Click **Servers > BIND DNS Server**
   
 6. Select all Existing DNS Zones icons at the bottom (to select, hover over one,  click the top-left box)
 
 ![](img/04%20-%20DNS%20default%20zone%20select.png)
 
-7. Click **Delete Selected
+7. Click **Delete Selected**
 
-8. Click **Return to Zone List
+8. Click **Return to Zone List**
 
 9. Click **Create Master Zone** and make sure the following are set:
 - Domain name / Network: **rlabs.org**
@@ -50,8 +50,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 - Line 2: Insert new line with the following **$ORIGIN** statement to use relative host names – be sure to include ending 'dot':	
 
 ```bash
-	$ORIGIN rlabs.org.
- 
+$ORIGIN rlabs.org.
 ```
 
 - New lines 3 and 9: remove remaining absolute names **.rlabs.org.**
@@ -64,30 +63,23 @@ Zone record - AFTER
 
 ![](img/07%20-%20DNS%20zone%20record%20zone%20set.png)
 
-13. Click Save
+13. Click **Save**
 
-
-Click Apply config – top-right
-
+14. Click **Apply config** – top-right
 
 ![](img/08%20-%20DNS%20apply%20config.png)
 
-
-Click Return to record types
-
+15. Click **Return to record types**
 
 Notice the domain name at the top and the Address (A) and Name Server (NS) record icons
-
 
 ![](img/09%20-%20DNS%20mater%20zone%20title.png)
 
 ![](img/10%20-%20DNS%20A%20and%20NS%20record%20icons.png)
 
-If at any time, you lose placement on this page, you can return to it by clicking Servers > BIND Server on the left and clicking 'rlabs.org master zone' icon at the bottom (shown below):
+16. If you lose this page, you can return to it by clicking **Servers > BIND Server** on the left and clicking **rlabs.org master zone** icon at the bottom (shown below):
 
-
-
-Click the Address icon and enter the following A records:
+17. Click the **Address** icon and enter the following A records:
 
 table
 
@@ -97,14 +89,11 @@ Here's what the final list should look like – notice relative names get automa
 
 Make sure names and addresses are correct before continuing.
 
-NOTE: If you make a mistake, delete and recreate the 'rlabs.org' zone file rather than edit records.
+NOTE: If you make a mistake, delete and recreate the **rlabs.org** zone file rather than edit records.
 
+18. Click **Return to record types**
 
-Click Return to record types
-
-
-Click the Name Server icon and add the following NS records:
-
+19. Click the **Name Server** icon and add the following NS records:
 
 table
 
@@ -112,43 +101,40 @@ Here's what the final list should look like – again, relative names automatica
 
 ![](img/12%20-%20DNS%20NS%20records%20list.png)
 
-Click Return to record types
-
+20. Click **Return to record types**
 
 You should see the following record counts
 
 ![](img/13%20-%20DNS%20record%20counts.png)
 
-Click Apply config
+21. Click **Apply config**
 
+22. Click the **rlabs.org** icon at the bottom to return to the domain page.
 
-Click the 'rlabs.org' icon at the bottom to return to the domain page.
+23. Click the **Edit Zone Records File** icon to view the resulting records file.
 
-
-Click the Edit Zone Records File icon to view the resulting records file.
-
-NOTE: Important things to make sure are correct include: 
-$ORIGIN statement with ending 'dot' – line 2
-@ symbol for SOA  record – line 3
+Make sure these are correct: 
+**$ORIGIN rlabs.org.** - line 2 with ending 'dot'
+**@** symbol for SOA record – line 3
 NS and A records for the name server – lines 9 and 11
 
 ![](img/14%20-%20DNS%20record%20file%20-%20absolute%20names.png)
 
-You can leave the names as absolutes or shorten them to relative names as follows:
+24. You can leave names as absolutes or shorten them to relative names as follows:
 
 ![](img/15%20-%20DNS%20short%20names%20in%20records%20file.png)
 
-If you shorten names, click Save and Apply config.
+25. If you shorten names, click **Save** and **Apply config**.
 
+26. Do not edit the SOA record again or change an NS or A record type to another (your config will stop working). If you do by accident, start over.
 
-Do not edit the SOA record again or change an NS or A record type to another (your config will stop working). If you do by accident, start over.
+27. Run the following commands from a VNC terminal shell to test:
 
-
-Test DNS is run the following commands from a VNC terminal shell:
+```bash
 run_dnsutils
 nslookup n1.rlabs.org
 Nslookup s1.rlabs.org
+```
 
-
-If at any time, you start to get failures, it will be best to start over with a new zone file.
+If at any time, you start to get failures, it's best to start over with a new zone file.
 
