@@ -64,5 +64,91 @@ Zone record - AFTER
 
 ![](img/07%20-%20DNS%20zone%20record%20zone%20set.png)
 
-13. 
+13. Click Save
+
+
+Click Apply config – top-right
+
+
+![](img/08%20-%20DNS%20apply%20config.png)
+
+
+Click Return to record types
+
+
+Notice the domain name at the top and the Address (A) and Name Server (NS) record icons
+
+
+![](img/09%20-%20DNS%20mater%20zone%20title.png)
+
+![](img/10%20-%20DNS%20A%20and%20NS%20record%20icons.png)
+
+If at any time, you lose placement on this page, you can return to it by clicking Servers > BIND Server on the left and clicking 'rlabs.org master zone' icon at the bottom (shown below):
+
+
+
+Click the Address icon and enter the following A records:
+
+table
+
+Here's what the final list should look like – notice relative names get automatically replaced with absolute names.
+
+![](img/11%20-%20DNS%20A%20records%20list.png)
+
+Make sure names and addresses are correct before continuing.
+
+NOTE: If you make a mistake, delete and recreate the 'rlabs.org' zone file rather than edit records.
+
+
+Click Return to record types
+
+
+Click the Name Server icon and add the following NS records:
+
+
+table
+
+Here's what the final list should look like – again, relative names automatically get replaced with absolute names.
+
+![](img/12%20-%20DNS%20NS%20records%20list.png)
+
+Click Return to record types
+
+
+You should see the following record counts
+
+![](img/13%20-%20DNS%20record%20counts.png)
+
+Click Apply config
+
+
+Click the 'rlabs.org' icon at the bottom to return to the domain page.
+
+
+Click the Edit Zone Records File icon to view the resulting records file.
+
+NOTE: Important things to make sure are correct include: 
+$ORIGIN statement with ending 'dot' – line 2
+@ symbol for SOA  record – line 3
+NS and A records for the name server – lines 9 and 11
+
+![](img/14%20-%20DNS%20record%20file%20-%20absolute%20names.png)
+
+You can leave the names as absolutes or shorten them to relative names as follows:
+
+![](img/15%20-%20DNS%20short%20names%20in%20records%20file.png)
+
+If you shorten names, click Save and Apply config.
+
+
+Do not edit the SOA record again or change an NS or A record type to another (your config will stop working). If you do by accident, start over.
+
+
+Test DNS is run the following commands from a VNC terminal shell:
+run_dnsutils
+nslookup n1.rlabs.org
+Nslookup s1.rlabs.org
+
+
+If at any time, you start to get failures, it will be best to start over with a new zone file.
 
