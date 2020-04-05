@@ -25,7 +25,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 5. Click Servers > BIND DNS Server
 
-![Servers > BIND DNS Server](./img/04 - DNS default zone select.png)
+![](img/04%20-%20DNS%20default%20zone%20select.png)
 
   
 6. Select all Existing DNS Zones icons at the bottom (to select, hover over one,  click the top-left box)
