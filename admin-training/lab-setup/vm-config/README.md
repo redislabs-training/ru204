@@ -1,23 +1,23 @@
 # Admin Training VM Setup
 
-This documents provides steps to create a VM image from scratch.
+This document provides steps to create a VM image from scratch with links to DNS and VNC set up.
 
-Instructors spin up VMs from the image.
+Instructors create user VMs from the final image built by these steps.
 
 Each VM provides:
-- 6 RE nodes
 - A DNS server
 - A VNC desktop
-- Redis Insight.
+- Redis Insight
+- 6 RE nodes.
 
 as follows: https://drive.google.com/open?id=17tM53iHHTu-DQNPD48dYQEAias0qmqz30hpP2embUV4
 
 Nodes run in containers, but they look like they run on VMs.
 
-Users access the VM by VNC on port 80.  All they need is the VM public IP and VNC password.
+Users access the VM by web VNC on port 80.  All they need is the VM public IP and VNC password.
 
 Setup is in 2 stages:
-1. Start Docker/VNC and configure DNS
+1. Start Docker and VNC, configure DNS
 2. Configure VNC.
 
 ## Stage 1 - Start Docker and VNC, configure DNS
@@ -37,7 +37,7 @@ Subnet IP Address Range | 172.18.0.0/16
   
 Requirement  | Specification  
 ------------ | -------------
-Name | admin-training-stage-1
+Name | **admin-training-stage-1**
 CPU | 4
 Memory | 15 GB
 OS | Ubuntu 18.04 LTS
@@ -46,7 +46,7 @@ Networking | admin-training-vpc
   
 4. SSH to the base VM from GCP console to finish setup.
 
-5. Install vim and add 'trainee' user to the 'docker' group so it can start, stop, and SSH to containers.
+5. Install vim and add **trainee** user to the **docker** group so it can start, stop, and SSH to containers.
 
 ```bash 
 sudo su
@@ -87,21 +87,21 @@ apt-get -y install docker-ce
  
 ```
 
-7. Run 'sudo visudo' and add the following line so 'trainee' can start and stop containers without 'sudo'.
+7. Run **sudo visudo** and add the following line so **trainee** can start and stop containers without **sudo**.
 
 ```bash
 trainee ALL=(ALL) NOPASSWD:ALL
 ```
 
 
-8. Switch to 'trainee' to create the Docker network, add scripts, and build/run the VNC image.
+8. Switch to **trainee** user to create the Docker network, add scripts, and build/run the VNC image.
 
 ```bash
 sudo su - trainee
  
 ```
 
-9. Uncomment the line '#force_color_prompt' in the user's .bashrc file. This sets VM user prompt to 'green' so you can tell it apart from the VNC user.
+9. Uncomment the line '#force_color_prompt' in the user's **.bashrc** file. This sets VM user prompt to **green** so you can tell it apart from the VNC user (yellow prompt).
 
 10. Generate keys so students can 'silently' SSH from VNC user to base VM user and start/stop/SSH RE nodes. 
 
@@ -229,7 +229,7 @@ docker network create --subnet=172.18.0.0/16 rlabs
  
 ```
 
-13. Build the VNC Docker image and run it as a container.
+13. Build the VNC Docker image and run it as a container so the VM has a UI.
 
 ```bash
 cat << EOF > vnc_docker/Dockerfile
@@ -272,7 +272,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
  
 ```
 
-Someday, you may use CoreDNS with Corefile and rlabs.db.
+Someday, you may use **CoreDNS** with Corefile and rlabs.db.
 
 ```bash
 docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
@@ -282,13 +282,13 @@ docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=alwa
 
 16. Point your browser to the VM public IP (it's in GCP console).
 
-17. Sign in to VNC with password 'trainee!'.
+17. Sign in to VNC with password **trainee!**.
 
 18. Open Chrome browser on the VNC desktop.
 
-19. Point it to https://172.18.0.20:10000 (this is Bind's GUI).
+19. Point it to https://172.18.0.20:10000 (this is Bind's admin console).
 
-20. Sign in as 'root' with 'password'.
+20. Sign in with **root** and **password**.
 
 21. Configure the server using these steps.
 
@@ -332,9 +332,9 @@ exit
 
 ### Push DNS changes to a GCR image.
 
-26. Return to SSH from GCP console so you're using your GCP account.
+26. Return to SSH from GCP console so you're using your **GCP account**.
 
-If you run these as 'trainee' you'll get 'config.json' errors later when running containers. If that happens, log in as 'root' and remove /home/trainee/.docker/.
+If you run these as **trainee** you'll get **config.json** errors later when running containers. If that happens, log in as **root** and remove **/home/trainee/.docker/config.json**.
 
 ```bash
 # authenticate Docker to GCR
@@ -352,7 +352,7 @@ sudo docker push gcr.io/redislabs-university/admin-training-dns
 
 ### Reset your VM before saving your work.
 
-27. Replace 'vanilla-dns' with 'configured-dns' from the GCR iamge. 
+27. Replace the **vanilla-dns** container with a **configured-dns** container from the GCR iamge. 
 
 ```bash
 sudo docker stop vanilla-dns
@@ -371,10 +371,10 @@ sudo docker rm n1 n2 n3 s1 s2 s3
  
 ```
 
-29. Return to VNC shell. Remove 'known_hosts' and restart 'north' nodes.
+29. Return to VNC shell. Remove **known_hosts** and restart **north** nodes.
 
-'known_hosts' gives 'REMOTE HOST ID HAS CHANGED! Host key verification failed' errors.
-Clustered nodes would re-create a cluster on startup.
+**known_hosts** gives **REMOTE HOST ID HAS CHANGED! Host key verification failed** errors.
+And clustered nodes would re-create improperly configured clusters on startup.
 
 ```bash
 start_north_nodes
@@ -390,15 +390,15 @@ Now you have:
 
 ### Save your work.
 
-29. Create a snapshot of the VM called 'admin-training-stage-1'.
+29. Create a snapshot of the VM called **admin-training-stage-1**.
 
-30. Create an image from the snapshot called 'admin-training-stage-1'.
-
-
+30. Create an image from the snapshot called **admin-training-stage-1**.
 
 
 
-## Stage 2
+
+
+## Stage 2 - Configure VNC
 
 Now you have:
 - vanilla VNC
@@ -411,13 +411,13 @@ You'll configure VNC with:
 - 2 workspaces
 - 5 launchers (Chrome and 4 terminal shells).
 
-1. Create a new VM called 'admin-training-stage-2' from image 'admin-training-stage-1'.
+1. Create a new VM called **admin-training-stage-2** from image **admin-training-stage-1**.
 
 ### Configure VNC.
 
-IMPORTANT: There is a dependency for VNC. It includes the private key for 'trainee' to silently authenticate to the base VM. If you configure a new VM that alters keys, you must create a new VNC as well.
+**IMPORTANT:** There is one dependency in the VNC Docker image. It includes the private key for the **trainee** user to silently authenticate to the base VM. If you configure a new VM that uses new keys, you must create a new VNC Docker image to match it.
 
-2. Sign in to VNC desktop from your laptop browser with password 'trainee!'.
+2. Sign in to VNC desktop from your laptop browser with password **trainee!**.
 
 3. Open a terminal shell window.
 
@@ -450,9 +450,9 @@ https://s3:8443
 
 ![Configure VNC](../vnc-config/README.md)
 
-### Push VNC to GCR, download and test.
+### Push the VNC container to a GCR image, then download and test it.
 
-9. SSH to the VM from GCP console so you're using your GCP account.
+9. SSH to the VM from GCP console so you're using your **GCP account**.
 
 10. Download the service account key again and authenticate Docker to GCR.
 
@@ -493,7 +493,7 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
-14. Stop and remove node containers. Removing them forces manual restart on a new VM. Otherwise, cluster names do not resolve after you create a cluster.
+14. Stop and remove node containers. Removing them forces manual restart on a new VM. Otherwise, nodes start automatically and re-create improperly configured clusters and their cluster names won't resolve by DNS.
 
 ```bash
 sudo docker stop n1 n2 n3 s1 s2 s3
@@ -511,7 +511,7 @@ You're ready to create user instances.
 
 ### Save your work.
 
-15. Create a snapshot of the VM called 'admin-training-stage-2'.
+15. Create a snapshot of the VM called **admin-training-stage-2**.
 
-16. Create an image from the snapshot called 'admin-training-stage-2'.
+16. Create an image from the snapshot called **admin-training-stage-2**.
 
