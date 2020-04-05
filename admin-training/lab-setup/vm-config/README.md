@@ -1,12 +1,12 @@
 # Admin Training VM Setup
 
-Here are steps to build the first training VM image from scratch.
+Here are steps to build the initial training VM image from scratch.
 
 Instructors copy student VMs from this image.
 
 Each VM includes the following as shown:
 - VNC access on port 80
-- Docker network
+- Docker networking
 - DNS
 - Redis Insight
 - 6 RE nodes.
@@ -24,9 +24,9 @@ Setup is built in two stages:
 1. Start Docker/VNC, configure DNS
 2. Configure VNC.
 
-For easy re-config, each stage produces a VM image and a Docker image.
+For easy re-config, each stage produces a VM image and a Docker image (1 for DNS, 1 for VNC).
 
-Docker images are stored in GCR for DNS and VNC.
+Docker images are stored in GCR.
 
 ## Stage 1 - Start Docker and VNC, configure DNS
 
@@ -54,7 +54,7 @@ Networking | ***admin-training-vpc***
   
 4. SSH to the base VM from GCP console to finish setup.
 
-5. Install vim and add ***trainee*** user to the ***docker*** group so it can start, stop, and SSH to containers.
+5. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
 
 ```bash 
 sudo su
