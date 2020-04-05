@@ -123,7 +123,7 @@ cp -r .ssh/ vnc_docker/ssh
  
 ```
 
-11. Create bashrc with aliases to run necessary commands.
+11. Create ***bashrc*** with aliases to run necessary commands.
 
 ```bash
 cat << EOF > vnc_docker/bashrc
@@ -273,7 +273,7 @@ docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --
  
 ```
 
-15. Run ***BIND DNS*** as a container.
+15. Run ***BIND*** DNS as a container.
 
 ```bash
 docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
