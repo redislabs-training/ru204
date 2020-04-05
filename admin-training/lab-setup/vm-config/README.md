@@ -2,26 +2,22 @@
 
 Here are steps to build a training VM image from scratch.
 
-Instructors copy student VMs from the image built here.
+Instructors copy student VMs from this image.
 
-Each VM includes the following connected on a private Docker network as shown below:
-- VNC desktop
-- DNS server
+Each VM includes the following as shown:
+- VNC
+- DNS
 - Redis Insight
-- DNS Utils
-- 6 Redis Labs nodes.
-
+- 6 nodes.
 ![](img/00-vm-overview.png)
 
 Nodes run in containers, but they appear to students as VMs with hostnames and IPs.
 
-Users access the environment by VNC on port 80.  All they need is the VM's public GCP IP and the VNC password (provided by the instructor).
+Students access a VM on port 80.  All they need is the VM's public IP and the VNC password (provided by instructor).
 
-Here's what the desktop looks like students on sign in.
+Here's what the desktop looks like when students sign in.
 
-![](img/01-desktop-overview.png).
-
-
+![](img/01-vnc-overview.png).
 
 Setup is built in two stages:
 1. Start Docker and VNC, configure DNS
