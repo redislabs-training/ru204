@@ -1,4 +1,4 @@
-# VNC Setup Using Xfce
+# VNC Setup Using ConSol/Xfce
 
 Set the display with background image, theme, fewer icons, and fewer menu bar items
 
