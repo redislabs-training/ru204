@@ -60,8 +60,6 @@ Adjust Chrome launcher to open Chrome in the same place every time without warni
 - Remove 'U%'
 - Add the following so Chrome opens in the same place every time
 
-NOTE: Last flag only uses one dash at the start.
-
 ```bash
 --window-position=130,0 --window-size=1150,900 --window-workspace=0 --ignore-certificate-errors -test-type
  
@@ -72,14 +70,16 @@ NOTE: Last flag only uses one dash at the start.
 6. If RE nodes aren't running, start them. You want admin console icons to load in Chrome tabs and bookmarks.
 
 7. Open the following tabs in order:
-- https://172.18.0.20:10000 (dns)
-- http://insight:8001 (not https:)
-- https://n1:8443
-- https://n2:8443
-- https://n3:8443
-- https://s1:8443
-- https://s2:8443
-- https://s3:8443
+```bash
+https://172.18.0.20:10000 (dns)
+http://insight:8001 (not https:)
+https://n1:8443
+https://n2:8443
+https://n3:8443
+https://s1:8443
+https://s2:8443
+https://s3:8443
+```
 
 8. Save each as a bookmark in the bookmark bar
 
