@@ -84,7 +84,7 @@ Notice the domain name at the top and the Address (A) and Name Server (NS) recor
 
 
 Name | Address
---------------
+---|---
 ns | 172.18.0.20
 n1 | 172.18.0.21
 n2 | 172.18.0.22
