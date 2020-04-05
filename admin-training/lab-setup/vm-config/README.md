@@ -1,22 +1,29 @@
 # Admin Training VM Setup
 
-This document provides steps to create a VM image from scratch with links to DNS and VNC set up.
+Here are steps to build a training VM image from scratch.
 
-Instructors create user VMs from the final image built by these steps.
+Instructors copy student VMs from the image built here.
 
-Each VM provides:
-- A DNS server
-- A VNC desktop
+Each VM includes the following connected on a private Docker network as shown below:
+- VNC desktop
+- DNS server
 - Redis Insight
-- 6 RE nodes.
+- DNS Utils
+- 6 Redis Labs nodes.
 
-as follows: https://drive.google.com/open?id=17tM53iHHTu-DQNPD48dYQEAias0qmqz30hpP2embUV4
+![](img/00-vm-overview.png)
 
-Nodes run in containers, but they look like they run on VMs.
+Nodes run in containers, but they appear to students as VMs with hostnames and IPs.
 
-Users access the VM by web VNC on port 80.  All they need is the VM public IP and VNC password.
+Users access the environment by VNC on port 80.  All they need is the VM's public GCP IP and the VNC password (provided by the instructor).
 
-Setup is in 2 stages:
+Here's what the desktop looks like students on sign in.
+
+![](img/01-desktop-overview.png).
+
+
+
+Setup is built in two stages:
 1. Start Docker and VNC, configure DNS
 2. Configure VNC.
 
