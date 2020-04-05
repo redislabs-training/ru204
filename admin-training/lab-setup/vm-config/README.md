@@ -109,7 +109,7 @@ sudo su - trainee
  
 ```
 
-9. Uncomment the line ***#force_color_prompt*** in the user's ***.bashrc*** file. This sets VM user prompt to ***green*** so you can tell it apart from the VNC user (yellow prompt).
+9. Uncomment the line ***#force_color_prompt*** in the user's ***.bashrc*** file. This sets VM user prompt to ***green*** so you can tell it apart from the VNC user (***yellow*** prompt).
 
 10. Generate keys so students can 'silently' SSH from VNC user to base VM user and start/stop/SSH RE nodes. 
 
