@@ -20,7 +20,7 @@ Setup is in 2 stages:
 1. Start Docker/VNC and configure DNS
 2. Configure VNC.
 
-# Stage 1
+## Stage 1 - Start Docker and VNC, configure DNS
 
 1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
 
@@ -278,7 +278,7 @@ Someday, you may use CoreDNS with Corefile and rlabs.db.
 docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
 ```
 
-Configure Bind DNS with its GUI on VNC desktop.
+### Configure Bind DNS with its GUI on VNC desktop.
 
 16. Point your browser to the VM public IP (it's in GCP console).
 
@@ -292,9 +292,9 @@ Configure Bind DNS with its GUI on VNC desktop.
 
 21. Configure the server using these steps.
 
-![](../dns-config/README.md)
+![Configure DNS](../dns-config/README.md)
 
-Test DNS config. If DNS doesn't work, remove the container and try again.
+### Test DNS config. If DNS doesn't work, remove the container and try again.
 
 22. From a VNC shell terminal, run the following.
 
@@ -330,7 +330,7 @@ exit
  
 ```
 
-Push DNS changes to a GCR image.
+### Push DNS changes to a GCR image.
 
 26. Return to SSH from GCP console so you're using your GCP account.
 
@@ -350,7 +350,7 @@ sudo docker push gcr.io/redislabs-university/admin-training-dns
  
 ```
 
-Reset your VM before saving your work.
+### Reset your VM before saving your work.
 
 27. Replace 'vanilla-dns' with 'configured-dns' from the GCR iamge. 
 
@@ -388,7 +388,7 @@ Now you have:
 - Redis Insight
 - RE node image, containers stopped and removed.
 
-Save your work.
+### Save your work.
 
 29. Create a snapshot of the VM called 'admin-training-stage-1'.
 
@@ -398,7 +398,7 @@ Save your work.
 
 
 
-# Stage 2
+## Stage 2
 
 Now you have:
 - vanilla VNC
@@ -413,7 +413,7 @@ You'll configure VNC with:
 
 1. Create a new VM called 'admin-training-stage-2' from image 'admin-training-stage-1'.
 
-Configure VNC.
+### Configure VNC.
 
 IMPORTANT: There is a dependency for VNC. It includes the private key for 'trainee' to silently authenticate to the base VM. If you configure a new VM that alters keys, you must create a new VNC as well.
 
@@ -448,9 +448,9 @@ https://s3:8443
 
 8. Follow steps here to set up VNC with background, workspaces, and launchers.
 
-![](../vnc-config/README.md)
+![Configure VNC](../vnc-config/README.md)
 
-Push VNC to GCR, download and test.
+### Push VNC to GCR, download and test.
 
 9. SSH to the VM from GCP console so you're using your GCP account.
 
@@ -509,7 +509,7 @@ Now you have:
 
 You're ready to create user instances.
 
-Save your work.
+### Save your work.
 
 15. Create a snapshot of the VM called 'admin-training-stage-2'.
 
