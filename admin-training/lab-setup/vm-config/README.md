@@ -24,6 +24,10 @@ Setup is built in two stages:
 1. Start Docker/VNC, configure DNS
 2. Configure VNC.
 
+For easy re-config, each stage produces a VM image and a Docker image.
+
+Docker images are stored in GCR for DNS and VNC.
+
 ## Stage 1 - Start Docker and VNC, configure DNS
 
 1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
