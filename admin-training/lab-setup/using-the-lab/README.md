@@ -1,114 +1,128 @@
-# Using the Lab Environment - Overview
+# Using the Lab
 
-1.
+## Using the desktop
+
+1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
 ![](img/19%20-%20VNC%20starting%20point.png)
 
-2.
+2. On ***workspace 1***, you open Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
 
 ![](img/20%20-%20VNC%20workspace%201%20running.png)
 
-3.
+3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***.
 
 ![](img/21%20-%20VNC%20workspace%202%20running.png)
 
-4.
+4. On ***workspace 3***, you:
+- Start and stop nodes, create clusters, and run DNS Utils and Redis OS from the VNC terminal
+- And install RE software or inspect Docker containers from the base VM terminal.
 
 ![](img/22%20-%20VNC%20workspace%203%20running.png)
 
-5.
+5. When an RE node goes down, intentional or otherwise, you lose its SSH terminal. After a node restarts, you can close and re-open the terminal window containing the SSH shell to see it again.
 
 ![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
 
-6.
+## Getting Started
+
+1. When you first sign in to VNC, nodes aren't running. In the browser, the node's login page on port ***8443*** returns the following message when it's not running.
 
 ![](img/31%20-%20tsh%20-%20chrome%20-%20nodes%20not%20started.png)
 
-1.
+2. To start running nodes, go to ***workspace 3*** and in the VNC terminal, run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
+
+![](img/) <need an image for start_north_nodes>
+  
+3. To start connecting nodes in a cluster, go to ***workspace 1***, double click the Chrome launcher, and go to one of the first 3 node tabs (tab 3, 4, or 5). When nodes are starting, you get ***502 Bad Gateway*** messages from the ***Login*** page.
 
 ![](img/31%20-%20tsh%20-%20chrome%20page%20and%20tab%20not%20loading%20-%20node%20not%20started.png)
 
-1.
+4. <not sure what to do with this image>
 
 ![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
 
-1.
+5. When nodes are started, you get the ***Setup*** page and are able to add them to a cluster.
 
 ![](img/33%20-%20tsh%20-%20nodes%20started%2C%20ready%20to%20cluster.png)
 
-1.
+6. Create the ***north*** cluster by clicking the first node tab (tab 3) for node ***n1***. Its IP address displays. Make sure ***Create Cluster*** is selected. Enter the cluster's Fully Qualified Domain Name as specified in DNS, which in this case is ***north.rlabs.org***. And click ***Next***.
 
 ![](img/101%20-%20step%201%2C%20enter%20cluster%20name.png)
 
-1.
+7. You don't have a license so just click ***Next*** to continue. If you had a license, you'd enter its key here.
+
+8. Enter admin credentials for the cluster. In this case, enter ***admin@rlabs.org*** and password ***admin***. And click ***Next***.
 
 ![](img/102%20-%20step%202%2C%20enter%20cluster%20credentials.png)
 
-1.
+9. You'll be redirected back to the ***Login*** page. Sign in with cluster credentials you just created.
 
 ![](img/103%20-%20step%203%2C%20sign%20in%20to%20n1.png)
 
-1.
+10. Now your node is part of a cluster. From here, you can act on the cluster, nodes, or databases.
 
 ![](img/104%20-%20step%204%2C%20view%20nodes%20or%20create%20db.png)
 
-1.
+11. Click ***nodes*** to view nodes in the cluster. There is only one so far.
 
 ![](img/105%20-%20step%205%2C%20only%20one%20node.png)
 
-1.
+12. Add node ***n2*** to the cluster by clicking the second node tab and clicking ***Setup***.
 
 ![](img/106%20-%20step%206%2C%20go%20to%20node%202%20and%20setup.png)
 
-1.
+13. Its IP address displays. Click ***Join Cluster*** and enter the IP address of node ***n1*** along with the cluster admin credentials you just created. And click ***Next***.
 
 ![](img/107%20-%20step%207%2C%20join%20node%202%20to%20cluster.png)
 
-1.
+14. Now two nodes are in the cluster.
 
 ![](img/108%20-%20step%208%2C%20view%20nodes%2C%20now%20there%20are%202.png)
 
-1.
+15. Add node ***n3*** to the cluster by clicking the third node tab and repeat steps for node ***n2***.
 
 ![](img/109%20-%20step%209%2C%20now%20there%20are%203%20nodes.png)
 
-1.
+16. Go to workspace 2 to view cluster details. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
 ![](img/110%20-%20step%2010%2C%20node%20shell%2C%20run%20rladmin.png)
 
-1.
+17. To run DNS tests, go to ***workspace 3***. Return to the ***vnc terminal*** window and enter ***run_dnsutils*** and ***nslookup n1.rlabs.org***. The DNS server is running on ***172.18.0.20***.
 
 ![](img/111%20-%20step%2011%2C%20run%20dnsutils%2C%20lookup%20node.png)
 
-1.
+18. Run ***nslookup north.rlabs.org***. You get an authoritative answer from one of the nodes in the ***north*** cluster. In this case, ***n1.rlabs.org***. Run ***nslookup south.rlabs.org***. You get SERVFAIL because the ***south*** cluster isn't running yet and there are no nodes in it to respond.
 
 ![](img/112%20-%20step%2012%2C%20nslookup%20returns%20north%20but%20not%20south.png)
 
-1.
+19. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
 
 ![](img/113%20-%20step%2013%2C%20return%20to%20node%201%20and%20click%20dbs.png)
 
-1.
+20. Enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
 
 ![](img/115%20-%20step%2015%2C%20enter%20db%20info.png)
 
-1.
+21. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
 
 ![](img/116%20-%20step%2016%2C%20enter%20endpoint%20port%2012000.png)
 
-1.
+22. Return to node ***n2*** or ***n3***'s SSH terminal to view updated details of your cluster. Note that you have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
 
 ![](img/117%20-%20step%2017%2C%20wait%20for%20db%20and%20endpoint.png)
 
-1.
+23. Connect to your database using the ***redis-cli*** command line client from any node in your VM (in this case node ***n3***). It's good to test this from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups.
+
+NOTE: This example uses simply the cluster name which is not entirely correct. You'll see why shortly.
 
 ![](img/118%20-%20step%2018%2C%201%20shard%2C%201%20proxy%2C%20on%20node%201.png)
 
-1.
+24. Return to the vnc terminal and run ***dig @ns.rlabs.org north.rlabs.org*** to get more DNS information. Notice that all nodes in the cluster can provide an answers to where the proxy is listening and node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
 
 ![](img/119%20-%20step%2019%2C%20db%20connection%20from%20anywhere%20with%20DNS.png)
 
-1.
+25. 
 
 ![](img/120%20-%20step%2020%2C%20how%20does%20DNS%20resolve%20north.rlabs.org.png)
 
