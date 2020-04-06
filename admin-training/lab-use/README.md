@@ -9,13 +9,13 @@ Here are basic steps for them to start using they're lab environment.
 
 ## Here's what users get
 
-Env
-<image>
+An environment with machines running:
+![](img/00-vm-overview.png)
 
-desktop
-<image>
+A main desktop to run everything
+![](img/02-vnc-overview.png)
 
-Public IP and password
+The desktop IP and password
 
 ## First steps users take to access their environment
 
