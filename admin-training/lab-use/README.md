@@ -1,11 +1,13 @@
 # Lab Use
 
-There are a few types of users:
+There are a several types of users:
 - Employees who want to learn RE admin
 - Instructors who want to teach a class
 - Students taking a class.
 
-## Here's what a user gets
+Here are basic steps for them to start using they're lab environment.
+
+## Here's what users get
 
 Env
 <image>
@@ -15,14 +17,14 @@ desktop
 
 Public IP and password
 
-## First steps users take to access their lab environment
+## First steps users take to access their environment
 
 1. Open a laptop browser and point it to the public IP you were given to work with
 
 2. Click in the password box and sign in as ***trainee!***
 
 
-## Next steps users take to set up their desktop
+## Next steps users take to set up their desktop and start using nodes
 
 1. Go to workspace 3
 
