@@ -1,38 +1,55 @@
 # Lab Overview
 
-Running a cluster of RES instances can be done in one of several ways:
+Running a cluster of RE instances can be done in one of several ways:
 - in a group of containers (using Docker, Kubernetes, or a cloud service)
 - in a group of VMs.
 
-
 ## Here's what you get
 
-This lab simulates a group of VMs.
-
-It provides the following:
-- DNS
-- Docker network
-- VNC desktop
-- Redis Insight
-- 6 RES instances, each running in a container, on a single VM.
-![](img/00-vm-overview.png)
-
-
-Benefits are:
+This lab simulates a group of VMs with:
 - easy startup and shutdown
 - simple refresh
-- control of DNS, like in an organization.
+- control of DNS.
 
-An environment with machines running:
+What you get is a single VM with:
+- Desktop access on port 80
+- Docker networking
+- DNS
+- Redis Insight
+- 6 RE nodes.
+![](img/00-vm-overview.png)
 
-You can either start some up on your own in GCP or get one from someone else.
+Nodes run in containers, but they look like VMs because they have hostnames, IPs, and DNS resolution.
 
-To sign on to one, all you need is its public IP address and the VNC password, which is ***trainee!***.
+All a user needs to access a VM is its public IP and password.
 
-A main desktop to run everything
+Here's what the desktop looks like when you first sign in.
+
 ![](img/02-vnc-overview.png)
 
-The desktop IP and password
+## How to get a VM
+
+If you're a student, your instructor will provide with a public IP and VNC password.
+
+If you're a Redis Labs employee, with access to start and stop VMs in the ***redislabs-university*** GCP project, you can spin up your own VMs.
+
+There are couple ways to do this.
+
+The simplest way is to copy your VM from ***admin-training-base-image1*** as follows:
+
+1. Point your browser to
+
+```bash
+https://console.cloud.google.com/compute/instances/?project=redislabs-university
+```
+
+2. Click 
+Create Similarr copy the ***glcoud instance create*** command 
+
+
+
+2. The next quickest way is to spin up a group of them using
+
 
 ## First steps users take to access their environment
 
