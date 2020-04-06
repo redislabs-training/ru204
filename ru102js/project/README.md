@@ -1,8 +1,10 @@
-# RediSolar for Node.js
+# RU102JS Redis for JavaScript Developers
 
 # Introduction
 
-This is the sample application codebase for RU102JS, Redis for JavaScript developers.
+This repository contains the codebase for the Redis University RU102JS course.  It contains the source code for the RediSolar application used by the programming challenges on the course, plus other example code.
+
+Sign up for the latest run of RU102JS at [Redis University](https://university.redislabs.com).
 
 # Prerequisites
 
