@@ -1,16 +1,33 @@
-# Lab Use
+# Lab Overview
 
-There are a several types of users:
-- Employees who want to learn RE admin
-- Instructors who want to teach a class
-- Students taking a class.
+Running a cluster of RES instances can be done in one of several ways:
+- in a group of containers (using Docker, Kubernetes, or a cloud service)
+- in a group of VMs.
 
-Here are basic steps for them to start using they're lab environment.
 
-## Here's what users get
+## Here's what you get
+
+This lab simulates a group of VMs.
+
+It provides the following:
+- DNS
+- Docker network
+- VNC desktop
+- Redis Insight
+- 6 RES instances, each running in a container, on a single VM.
+![](img/00-vm-overview.png)
+
+
+Benefits are:
+- easy startup and shutdown
+- simple refresh
+- control of DNS, like in an organization.
 
 An environment with machines running:
-![](img/00-vm-overview.png)
+
+You can either start some up on your own in GCP or get one from someone else.
+
+To sign on to one, all you need is its public IP address and the VNC password, which is ***trainee!***.
 
 A main desktop to run everything
 ![](img/02-vnc-overview.png)
