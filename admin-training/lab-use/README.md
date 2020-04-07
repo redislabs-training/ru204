@@ -143,9 +143,13 @@ or in Cloud Shell after you run gcloud commands.
 
 This launches an SSH shell where you can start and stop nodes and create clusters.
 
+![](img/212-vnc-terminal.png)
+
 3. Run ***start_north_nodes*** to start nodes ***n1***, ***n2***, and ***n3*** in your environment.
 
-Each starts a VM with a Redis Enterprise node running. No clusters are created yet.
+![](img/213-vnc-terminal-start-north-nodes.png)
+
+This starts nodes ***n1***, ***n2***, and ***n3***. Each node runs an instance of a Redis Enterprise node. No clusters are created yet.
 
 4. Go to workspace 1
 
@@ -158,6 +162,8 @@ This launches Chrome with 8 tabs open (and 8 bookmarks) to admin consoles for yo
 - 3 south nodes.
 
 NOTE: 3 south nodes are not running yet, so their pages return errors.
+
+![](img/)
 
 6. Click the 3rd tab to view node ***n1***'s Setup page that's ready for you to create a cluster and add the node to it.
 
