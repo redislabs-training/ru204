@@ -120,15 +120,14 @@ for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-
 
 1. Open a laptop browser and point it to the public IP you were given to work with.
 
-If you're a student, you get the IP from your instructor.
-
-If you're an employee spinning up your own instances, you get it from one of two places:
+- If you're a student, you get the IP from your instructor.
+- If you're an employee spinning up your own instances, you get it from one of two places:
 
 In Admin Console under ***Compute Engine > VM instances***
 
 ![](img/210-gcp-vm-ip.png)
 
-or in Cloud Shell after you run gcloud commands
+or in Cloud Shell after you run gcloud commands.
 
 ![](img/211-cloudshell-vm-ip.png)
 
