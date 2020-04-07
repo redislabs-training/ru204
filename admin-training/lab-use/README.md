@@ -137,7 +137,7 @@ or in Cloud Shell after you run gcloud commands.
 
 ## Next steps users take to set up their desktop and start using nodes
 
-1. Go to workspace 3
+1. Go to workspace 1
 
 2. Double click the ***vnc terminal*** icon.
 
@@ -145,17 +145,15 @@ This launches an SSH shell where you can start and stop nodes and create cluster
 
 ![](img/212-vnc-terminal.png)
 
-3. Run ***start_north_nodes*** to start nodes ***n1***, ***n2***, and ***n3*** in your environment.
+3. Run ***start_north_nodes*** to start nodes ***n1***, ***n2***, and ***n3*** in your environment. 
+
+Each node runs an instance of a Redis Enterprise node. No clusters are created yet.
 
 ![](img/213-vnc-terminal-start-north-nodes.png)
 
-This starts nodes ***n1***, ***n2***, and ***n3***. Each node runs an instance of a Redis Enterprise node. No clusters are created yet.
+4. Go to workspace 2
 
-4. Go to workspace 1
-
-5. Double click the Chrome browser icon.
-
-This launches Chrome with 8 tabs open (and 8 bookmarks) to admin consoles for your:
+5. Open Chrome browser. 8 tabs open to admin consoles for:
 - DNS server
 - Redis Insight
 - 3 north nodes
@@ -165,7 +163,7 @@ NOTE: 3 south nodes are not running yet, so their pages return errors.
 
 ![](img/214-vnc-chrome-3-nodes-up.png)
 
-6. Click the 3rd tab to view node ***n1***'s Setup page that's ready for you to create a cluster and add the node to it.
+6. Click the 3rd tab to view node ***n1***'s ***Setup*** page. It's ready for you to create a cluster and add the node to it. that's ready for you to create a cluster and add the node to it.
 
 7. Go to workspace 2
 
