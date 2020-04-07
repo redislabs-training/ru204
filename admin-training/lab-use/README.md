@@ -163,7 +163,7 @@ This launches Chrome with 8 tabs open (and 8 bookmarks) to admin consoles for yo
 
 NOTE: 3 south nodes are not running yet, so their pages return errors.
 
-![](img/)
+![](img/214-vnc-chrome-3-north-nodes-up.png)
 
 6. Click the 3rd tab to view node ***n1***'s Setup page that's ready for you to create a cluster and add the node to it.
 
