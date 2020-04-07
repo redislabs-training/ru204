@@ -34,7 +34,7 @@ If you can manage VMs in the ***redislabs-university*** GCP project, you can spi
 
 There are 2 simple options for doing this with a VM template.
 
-### Option 1 - by Admin Console
+### Option 1 - Admin Console
 
 1. Point your browser to:
 
@@ -68,7 +68,7 @@ https://console.cloud.google.com
 
 9. Click in the login box and sign in with ***trainee!*** .
 
-### Option 2 - by Cloud Shell
+### Option 2 - Cloud Shell
 
 1. Point your browser to:
 
