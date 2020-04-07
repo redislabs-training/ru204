@@ -43,47 +43,85 @@ There are 2 simple options for doing this with a VM template.
 https://console.cloud.google.com
 ```
 
-2. Make sure project is set to ***redislabs-university***.
+2. Make sure your project is set to ***redislabs-university***.
 
-<image>
+![](img/200-gcp-project-select)
   
-3. 
-  
+3. Go to the Navication Menu and choose Compute Engine > VM instances
+
+![](img/201-gcp-select-gce)
+
+4. Click ***Create Instance***.
+
+![](img/204-gcp-click-create-instance)
+
+5. Click ***New VM instance from template***, choose one of the highlighted templates (***customer*** for students, ***small*** for yourself if possible), and click ***Continue***.
+
+![](img/206-gcp-choose-template)
+
+6. Name your instance starting with ***admin--***, set the region to ***us-west1-b***, note the price, and click ***Create***.
+
+![](img/207-gcp-set-instance-name-region)
+
+7. Wait about 2 minutes for the instance to fully start.
+
+8. Point your browser to the VM's public IP.
+
+9. Click in the login box and sign in with ***trainee!*** .
+
 ### Option 2 - by Cloud Shell
 
-2. Go to Compute Engine > VM instances
-
-2. Click the Cloud Shell icon
-
-3. 
-
-Activate Cloud Shell
-
-ssh.cloud.google.com/cloudshell/editor
-
-glcoud config list
-
-gcloud compute instances create admin--1 admin--2 --source-instance-template admin-training-employee-small --zone=us-west1-b
-
-for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-template admin-training-employee-small --zone=us-west1-b; done
+1. Point your browser to:
 
 ```bash
-https://console.cloud.google.com/compute/instances/?project=redislabs-university
+https://console.cloud.google.com
 ```
 
-2. Click 
-Create Similarr copy the ***glcoud instance create*** command 
+2. Make sure your project is set to ***redislabs-university*** and click ***Activate Cloud Shell***
 
+![](img/202-gcp-open-cloud-shell)
 
+Alternatively, you can point your browser to:
 
-2. The next quickest way is to spin up a group of them using
+```bash
+https://ssh.shell.google.com/cloudshell
+```
 
+Make sure your project is set to ***redislabs-university*** by running:
+
+```bash
+gcloud config list
+```
+
+If it's not set, run:
+
+```bash
+gcloud config set project redislabs-university
+```
+
+![](img/208-gcp-shell-set-project)
+
+3. Run the command shown below to create instances.
+
+NOTE: This command creates two instances ***admin--1*** and ***admin--2*** using the ***admin-training-employee-small*** template. Remember to specify ***us-west1-b*** and the zone.
+
+```bash
+gcloud compute instances create admin--1 admin--2 --source-instance-template admin-training-employee-small --zone=us-west1-b
+```
+
+4. Run a command like the following to create multiple instances with the same prefix in the name followed by increasing numbers.
+
+NOTE: This command creates three instances ***admin--1***, ***admin--2***, and ***admin--3***.
+
+```bash
+for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-template admin-training-employee-small --zone=us-west1-b; done
+```
 
 ## First steps users take to access their environment
 
 1. Open a laptop browser and point it to the public IP you were given to work with
 
-2. Click in the password box and sign in as ***trainee!***
+2. Click in the password box (top-center) and sign in as ***trainee!*** .
 
 
 ## Next steps users take to set up their desktop and start using nodes
