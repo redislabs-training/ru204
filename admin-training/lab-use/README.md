@@ -122,6 +122,8 @@ for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-
 
 2. Click in the password box (top-center) and sign in as ***trainee!*** .
 
+![](img/209-vnc-password-box.png)
+
 
 ## Next steps users take to set up their desktop and start using nodes
 
