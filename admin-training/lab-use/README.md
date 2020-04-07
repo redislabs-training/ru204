@@ -60,7 +60,7 @@ https://console.cloud.google.com
 
 6. Name your instance starting with ***admin--***, set the region to ***us-west1-b***, note the price, and click ***Create***.
 
-![](img/207-gcp-set-instance-name-region)
+![](img/207-gcp-set-instance-name-region.png)
 
 7. Wait about 2 minutes for the instance to fully start.
 
