@@ -11,8 +11,8 @@ This lab simulates a group of VMs with:
 - control of DNS.
 
 What you get is a single VM with:
-- VNC access on port 80
-- Docker networking
+- Desktop access on port 80
+- An internal network
 - DNS
 - Redis Insight
 - 6 RE nodes.
