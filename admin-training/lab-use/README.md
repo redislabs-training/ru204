@@ -46,7 +46,7 @@ https://console.cloud.google.com
 
 ![](img/200-gcp-project-select.png)
   
-3. Go to the Navication Menu and choose Compute Engine > VM instances
+3. Go to the Navication Menu and choose ***Compute Engine > VM instances***.
 
 ![](img/201-gcp-select-gce.png)
 
@@ -58,7 +58,7 @@ https://console.cloud.google.com
 
 ![](img/206-gcp-choose-template.png)
 
-6. Name your instance starting with ***admin--***, set the region to ***us-west1-b***, note the price, and click ***Create***.
+6. Name your instance starting with ***admin--***, set the region to ***us-west1*** and select a zone, note the price, and click ***Create***.
 
 ![](img/207-gcp-set-instance-name-region.png)
 
@@ -118,12 +118,23 @@ for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-
 
 ## First steps users take to access their environment
 
-1. Open a laptop browser and point it to the public IP you were given to work with
+1. Open a laptop browser and point it to the public IP you were given to work with.
+
+If you're a student, you get the IP from your instructor.
+
+If you're an employee spinning up your own instances, you get it from one of two places:
+
+In Admin Console under ***Compute Engine > VM instances***
+
+![](img/210-gcp-vm-ip.png)
+
+or in Cloud Shell after you run gcloud commands
+
+![](img/211-cloudshell-vm-ip.png)
 
 2. Click in the password box (top-center) and sign in as ***trainee!*** .
 
 ![](img/209-vnc-password-box.png)
-
 
 ## Next steps users take to set up their desktop and start using nodes
 
