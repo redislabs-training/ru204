@@ -8,11 +8,11 @@ Running a cluster of RE instances can be done in one of several ways:
 
 This lab simulates a group of VMs with:
 - easy startup and shutdown
-- simple refresh
+- simple reset
 - control of DNS.
 
 What you get is a single VM with:
-- Desktop access on port 80
+- VNC access on port 80
 - Docker networking
 - DNS
 - Redis Insight
@@ -21,7 +21,7 @@ What you get is a single VM with:
 
 Nodes run in containers, but they look like VMs because they have hostnames, IPs, and DNS resolution.
 
-All a user needs to access a VM is its public IP and password.
+All a user needs to access a VM is its public IP and VNC password.
 
 Here's what the desktop looks like when you first sign in.
 
@@ -31,13 +31,41 @@ Here's what the desktop looks like when you first sign in.
 
 If you're a student, your instructor will provide with a public IP and VNC password.
 
-If you're a Redis Labs employee, with access to start and stop VMs in the ***redislabs-university*** GCP project, you can spin up your own VMs.
+If you're a Redis Labs employee, with access to manage VMs in the ***redislabs-university*** GCP project, you can spin up your own VMs.
 
-There are couple ways to do this.
+There are 2 simple options for doing this with a VM template.
 
-The simplest way is to copy your VM from ***admin-training-base-image1*** as follows:
+### Option 1 - by Admin Console
 
-1. Point your browser to
+1. Point your browser to:
+
+```bash
+https://console.cloud.google.com
+```
+
+2. Make sure project is set to ***redislabs-university***.
+
+<image>
+  
+3. 
+  
+### Option 2 - by Cloud Shell
+
+2. Go to Compute Engine > VM instances
+
+2. Click the Cloud Shell icon
+
+3. 
+
+Activate Cloud Shell
+
+ssh.cloud.google.com/cloudshell/editor
+
+glcoud config list
+
+gcloud compute instances create admin--1 admin--2 --source-instance-template admin-training-employee-small --zone=us-west1-b
+
+for i in {1..3}; do gcloud compute instances create admin--$i --source-instance-template admin-training-employee-small --zone=us-west1-b; done
 
 ```bash
 https://console.cloud.google.com/compute/instances/?project=redislabs-university
