@@ -7,8 +7,7 @@ Running a cluster of RE instances can be done in one of several ways:
 ## Here's what you get
 
 This lab simulates a group of VMs with:
-- easy startup and shutdown
-- simple reset
+- easy startup, shutdown, and reset
 - control of DNS.
 
 What you get is a single VM with:
