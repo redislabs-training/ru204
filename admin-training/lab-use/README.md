@@ -44,19 +44,19 @@ https://console.cloud.google.com
 
 2. Make sure your project is set to ***redislabs-university***.
 
-![](img/200-gcp-project-select)
+![](img/200-gcp-project-select.png)
   
 3. Go to the Navication Menu and choose Compute Engine > VM instances
 
-![](img/201-gcp-select-gce)
+![](img/201-gcp-select-gce.png)
 
 4. Click ***Create Instance***.
 
-![](img/204-gcp-click-create-instance)
+![](img/204-gcp-click-create-instance.png)
 
 5. Click ***New VM instance from template***, choose one of the highlighted templates (***customer*** for students, ***small*** for yourself if possible), and click ***Continue***.
 
-![](img/206-gcp-choose-template)
+![](img/206-gcp-choose-template.png)
 
 6. Name your instance starting with ***admin--***, set the region to ***us-west1-b***, note the price, and click ***Create***.
 
@@ -78,7 +78,7 @@ https://console.cloud.google.com
 
 2. Make sure your project is set to ***redislabs-university*** and click ***Activate Cloud Shell***
 
-![](img/202-gcp-open-cloud-shell)
+![](img/202-gcp-open-cloud-shell.png)
 
 Alternatively, you can point your browser to:
 
@@ -98,7 +98,7 @@ If it's not set, run:
 gcloud config set project redislabs-university
 ```
 
-![](img/208-gcp-shell-set-project)
+![](img/208-gcp-shell-set-project.png)
 
 3. Run the command shown below to create instances.
 
