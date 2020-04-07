@@ -30,7 +30,7 @@ Here's what the desktop looks like when you first sign in.
 
 If you're a student, your instructor will provide with a public IP and VNC password.
 
-If you're a Redis Labs employee, with access to manage VMs in the ***redislabs-university*** GCP project, you can spin up your own VMs.
+If you can manage VMs in the ***redislabs-university*** GCP project, you can spin up your own.
 
 There are 2 simple options for doing this with a VM template.
 
