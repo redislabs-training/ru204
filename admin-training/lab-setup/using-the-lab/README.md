@@ -4,7 +4,7 @@
 
 1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
-![](img/19%20-%20VNC%20starting%20point.png)
+![](../lab-use/img/02-vnc-overview.png)
 
 2. On ***workspace 1***, you open Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
 
@@ -30,19 +30,23 @@
 
 ![](img/31%20-%20tsh%20-%20chrome%20-%20nodes%20not%20started.png)
 
-2. To start running nodes, go to ***workspace 3*** and in the VNC terminal, run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
+2. To start running nodes, go to ***workspace 3*** and launch the VNC terminal.
 
-![](img/) <need an image for start_north_nodes>
-  
-3. To start connecting nodes in a cluster, go to ***workspace 1***, double click the Chrome launcher, and go to one of the first 3 node tabs (tab 3, 4, or 5). When nodes are starting, you get ***502 Bad Gateway*** messages from the ***Login*** page.
+![](img/212-vnc-terminal.png)
+
+In the VNC terminal, run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
+
+![](img/213-vnc-terminal-start-north-nodes.png)
+
+3. To start connecting nodes in a cluster, go to ***workspace 1***, double click the Chrome launcher. Nodes are down at first and tabs do not display icons and pages return errors.
 
 ![](img/31%20-%20tsh%20-%20chrome%20page%20and%20tab%20not%20loading%20-%20node%20not%20started.png)
 
-4. <not sure what to do with this image>
+As ***north*** nodes (***n1***, ***n2***, and ***n3***) start running in tabs 3, 4, and 5 respectively. Icons display, and pages start returning ***502 Bad Gateway*** for ***Login*** pages.
 
 ![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
 
-5. When nodes are started, you get the ***Setup*** page and are able to add them to a cluster.
+5. When nodes are started, you get the ***Setup*** page and are able to create a cluster and add the first node to the cluster.
 
 ![](img/33%20-%20tsh%20-%20nodes%20started%2C%20ready%20to%20cluster.png)
 
