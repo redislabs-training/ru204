@@ -118,15 +118,15 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 1. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
 
-![](img/113%20-%20step%2013%2C%20return%20to%20node%201%20and%20click%20dbs.png)
+![](img/340-click-dbs.png)
 
 2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
 
-![](img/115%20-%20step%2015%2C%20enter%20db%20info.png)
+![](img/341-db-create-page.png)
 
 21. Enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
 
-![](img/116%20-%20step%2016%2C%20enter%20endpoint%20port%2012000.png)
+![](img/342-db-redis-cli-connect.png)
 
 22. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
 
