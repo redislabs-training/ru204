@@ -64,27 +64,27 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 10. Now your node is part of a cluster. From here, you can act on the cluster, nodes, or databases.
 
-![](img/104%20-%20step%204%2C%20view%20nodes%20or%20create%20db.png)
+![](img/313-create-db-prompt.png)
 
 11. Click ***nodes*** to view nodes in the cluster. There is only one so far.
 
-![](img/105%20-%20step%205%2C%20only%20one%20node.png)
+![](img/314-node-list-1-node.png)
 
 12. Add node ***n2*** to the cluster by clicking the second node tab and clicking ***Setup***.
 
-![](img/106%20-%20step%206%2C%20go%20to%20node%202%20and%20setup.png)
+![](img/315-node-2-setup-page.png)
 
 13. Its IP address displays. Click ***Join Cluster*** and enter the IP address of node ***n1*** along with the cluster admin credentials you just created. And click ***Next***.
 
-![](img/107%20-%20step%207%2C%20join%20node%202%20to%20cluster.png)
+![](img/316-join-cluster-page.png)
 
 14. Now two nodes are in the cluster.
 
-![](img/108%20-%20step%208%2C%20view%20nodes%2C%20now%20there%20are%202.png)
+![](img/317-node-list-2-nodes.png)
 
 15. Add node ***n3*** to the cluster by clicking the third node tab and repeat steps for node ***n2***.
 
-![](img/109%20-%20step%209%2C%20now%20there%20are%203%20nodes.png)
+![](img/318-node-list-3-nodes.png)
 
 16. Go to workspace 2 to view cluster details. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
