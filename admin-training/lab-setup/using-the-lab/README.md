@@ -96,178 +96,178 @@
 
 ![](img/112%20-%20step%2012%2C%20nslookup%20returns%20north%20but%20not%20south.png)
 
-19. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
+19. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
 
 ![](img/113%20-%20step%2013%2C%20return%20to%20node%201%20and%20click%20dbs.png)
 
-20. Enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
+20. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
 
 ![](img/115%20-%20step%2015%2C%20enter%20db%20info.png)
 
-21. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
+21. Enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
 
 ![](img/116%20-%20step%2016%2C%20enter%20endpoint%20port%2012000.png)
 
-22. Return to node ***n2*** or ***n3***'s SSH terminal to view updated details of your cluster. Note that you have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
+22. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
 
 ![](img/117%20-%20step%2017%2C%20wait%20for%20db%20and%20endpoint.png)
 
-23. Connect to your database using the ***redis-cli*** command line client from any node in your VM (in this case node ***n3***). It's good to test this from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups.
-
-NOTE: This example uses simply the cluster name which is not entirely correct. You'll see why shortly.
+23. Return to node ***n2*** or ***n3***'s SSH terminal to view updated details of your cluster. Note that you have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
 
 ![](img/118%20-%20step%2018%2C%201%20shard%2C%201%20proxy%2C%20on%20node%201.png)
 
-24. Return to the vnc terminal and run ***dig @ns.rlabs.org north.rlabs.org*** to get more DNS information. Notice that all nodes in the cluster can provide an answers to where the proxy is listening and node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
+24. Connect to your database using the ***redis-cli*** command line client from any node in your VM (in this case node ***n3***). It's good to test this from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups.
+
+NOTE: This example uses simply the cluster name which is not entirely correct. You'll see why shortly.
 
 ![](img/119%20-%20step%2019%2C%20db%20connection%20from%20anywhere%20with%20DNS.png)
 
-25. 
+25. Return to the vnc terminal and run ***dig @ns.rlabs.org north.rlabs.org*** to get more DNS information. Notice that all nodes in the cluster can provide an answers to where the proxy is listening and node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
 
 ![](img/120%20-%20step%2020%2C%20how%20does%20DNS%20resolve%20north.rlabs.org.png)
 
-1.
+26.
 
 ![](img/121%20-%20step%2021%2C%20set%20a%20key.png)
 
-1.
+27.
 
 ![](img/122%20-%20step%2022%2C%20add%20the%20db%20to%20redis%20insight.png)
 
-1.
+28.
 
 ![](img/123%20-%20step%2023%2C%20connect%20insight%20to%20db.png)
 
-1.
+29.
 
 ![](img/124%20-%20step%2024%2C%20open%20db%20connection%20in%20insight.png)
 
-1.
+30.
 
 ![](img/125%20-%20step%2025%2C%20view%20data%20in%20Insight.png)
 
-1.
+31.
 
 ![](img/126%20-%20step%2026%2C%20click%20CLI%20to%20execute%20Redis%20commands%20in%20Insight.png)
 
-1.
+32.
 
 ![](img/127%20-%20step%2027%2C%20stop%20n1.png)
 
-1.
+33.
 
 ![](img/128%20-%20step%2028%2C%20node%20down%2C%20SSH%20tab%20closes%2C%20db%20down%2C%20another%20proxy%20listens.png)
 
-1.
+34.
 
 ![](img/129%20-%20step%2029%2C%20restart%20node%201.png)
 
-1.
+35.
 
 ![](img/130%20-%20step%2030%2C%20relaunch%20terminals%20to%20regain%20node%201's%20tab%20and%20check%20proxy%20and%20db.png)
 
-1.
+36.
 
 ![](img/131%20-%20step%2031%2C%20connection%20still%20works%2C%20data%20gone.png)
 
-1.
+37.
 
 ![](img/132%20-%20step%2032%2C%20DNS%20points%20north%20to%20node%202%20proxy.png)
 
-1.
+38.
 
 ![](img/132%20-%20step%2032%2C%20click%20db%20to%20view%2C%20edit%2C%20or%20delete.png)
 
-1.
+39.
 
 ![](img/133%20-%20step%2033%2C%20create%20new%20db%20with%202%20master%20shards%20and%202%20replicas.png)
 
-1.
+40.
 
 ![](img/134%20%3D%20step%2034%2C%20view%20rladmin%2C%20notice%20shard%20placement%2C%201%20proxy%2C%20dense%20setting.png)
 
 
-1.
+41.
 
 ![](img/135%20-%20step%2035%2C%20dig%20shows%20node%202%20pDNS%20provides%20DNS%20query%20answer%2C%20where's%20the%20proxy.png)
 
-1.
+42.
 
 ![](img/136%20-%20step%2036%2C%20cluster%20nslookup%20returns%20pDNS%20answering%20queries%2C%20db%20nslookup%20returns%20proxy%20host%20listening.png)
 
-1.
+43.
 
 ![](img/137%20-%20step%2037%2C%20need%20redis-port%20in%20db%20client%20connection.png)
 
-1.
+44.
 
 ![](img/138%20-%20step%2038%2C%20deleted%20db%20repots%20server%20offline%20in%20insight.png)
 
-1.
+45.
 
 ![](img/139%20-%20step%2039%2C%20no%20client%20connect%20in%20inisght%20with%20FQDN%2C%20no%20pwd.png)
 
-1.
+46.
 
 ![](img/140%20-%20step%2040%2C%20set%20a%20key%20again.png)
 
-1.
+47.
 
 ![](img/141%20-%20step%2041%2C%20node%201%20going%20down%2C%20shard%20not%20promoted%20yet.png)
 
-1.
+48.
 
 ![](img/142%20-%20step%2042%2C%20slave%20shards%20promoted.png)
 
-1.
+49.
 
 ![](img/143%20-%20step%2043%2C%20data%20still%20in%20promoted%20shards.png)
 
-1.
+50.
 
 ![](img/144%20-%20step%2044%2C%20restart%20node%201.png)
 
-1.
+51.
 
 ![](img/145%20-%20step%2045%2C%20node%201%20returns%20quickly%20and%20shards%20restart%20as%20slaves.png)
 
-1.
+52.
 
 ![](img/146%20-%20step%2046%2C%20stop%20node%202%20with%20master%20shards%20and%20proxy.png)
 
-1.
+53.
 
 ![](img/148%20-%20step%2048%2C%20node%202%20down%2C%20master%20shards%20back%20on%20node%201%2C%20proxy%20back%20on%20node%201.png)
 
-1.
+54.
 
 ![](img/149%20-%20step%2049%2C%20stop%202%20nodes%2C%20what%20happens.png)
 
-1.
+55.
 
 ![](img/150-%20step%2050%2C%20cluster%20down%2C%20now%20what.png)
 
-1.
+56.
 
 ![](img/151%20-%20step%2051%2C%20proxy%20down.png)
 
-1.
+57.
 
 ![](img/152%20-%20step%2052%2C%20restart%20nodes%201%20and%202%2C%20now%20what%20happens.png)
 
-1.
+58.
 
 ![](img/153%20-%20step%2053%2C%20start%20all%20nodes.png)
 
-1.
+59.
 
 ![](img/154%20-%20step%2054%2C%20re-create%20cluster.png)
 
-1.
+60.
 
 ![](img/155%20-%20step%2055%2C%20no%20cluster%2C%20no%20dbs.png)
 
-1.
+61.
 
 ![](img/156%20-%20step%2056%2C%20open%20SSH%20to%20base-vm%20and%20manage%20docker%20containers%20and%20images.png)
 
