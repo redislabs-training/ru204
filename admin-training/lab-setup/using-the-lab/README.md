@@ -1,6 +1,6 @@
 # Using the Lab
 
-## Using the desktop
+## Using the Desktop
 
 1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
@@ -24,9 +24,9 @@
 
 ![](img/22%20-%20VNC%20workspace%203%20running.png)
 
-## Getting Started
+## Creating a Cluster
 
-1. To start running nodes, go to ***workspace 3*** and launch the VNC terminal.
+1. Go to ***workspace 3*** and launch the VNC terminal to start running nodes.
 
 ![](img/212-vnc-terminal.png)
 
@@ -34,7 +34,7 @@
 
 ![](img/213-vnc-terminal-start-north-nodes.png)
 
-3. To start connecting nodes in a cluster, return to ***workspace 1*** . Refresh tabs for nodes ***n1***, ***n2***, and ***n3*** (tabs 3, 4, and 5 respectively). 
+3. Return to ***workspace 1*** to start connecting nodes in a cluster. Refresh tabs for nodes ***n1***, ***n2***, and ***n3*** (tabs 3, 4, and 5 respectively). 
 
 As nodes start running, tab icons display and pages return ***502 Bad Gateway*** messages.
 
@@ -86,23 +86,37 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/318-node-list-3-nodes.png)
 
-16. Go to workspace 2 to view cluster details. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
+### Possible Issues:
 
-![](img/110%20-%20step%2010%2C%20node%20shell%2C%20run%20rladmin.png)
+1. Entering the wrong IP (an unreachable one).
 
-17. To run DNS tests, go to ***workspace 3***. Return to the ***vnc terminal*** window and enter ***run_dnsutils*** and ***nslookup n1.rlabs.org***. The DNS server is running on ***172.18.0.20***.
+![](img/319-join-cluster-wrong-unreachable-ip.png)
 
-![](img/111%20-%20step%2011%2C%20run%20dnsutils%2C%20lookup%20node.png)
+2. Entering the cluster name, or your own IP, or the wrong credentials.
 
-18. Run ***nslookup north.rlabs.org***. You get an authoritative answer from one of the nodes in the ***north*** cluster. In this case, ***n1.rlabs.org***. Run ***nslookup south.rlabs.org***. You get SERVFAIL because the ***south*** cluster isn't running yet and there are no nodes in it to respond.
+![](img/320-join-cluster-not-ip-or-wrong-creds.png)
 
-![](img/112%20-%20step%2012%2C%20nslookup%20returns%20north%20but%20not%20south.png)
+# Check Cluster Status
 
-19. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
+1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
+
+![](img/330-check-rladmin.png)
+
+2. To run DNS tests, go to ***workspace 3***. Return to the ***vnc terminal*** window and enter ***run_dnsutils*** and ***nslookup n1.rlabs.org***. The DNS server is running on ***172.18.0.20***.
+
+![](img/331-check-nslookup-n1.png)
+
+3. Run ***nslookup north.rlabs.org***. You get an authoritative answer from one of the nodes in the ***north*** cluster. In this case, ***n1.rlabs.org***. Run ***nslookup south.rlabs.org***. You get SERVFAIL because the ***south*** cluster isn't running yet and there are no nodes in it to respond.
+
+![](img/332-check-nslookup-north-and-south.png)
+
+# Add a Database
+
+1. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
 
 ![](img/113%20-%20step%2013%2C%20return%20to%20node%201%20and%20click%20dbs.png)
 
-20. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
+2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
 
 ![](img/115%20-%20step%2015%2C%20enter%20db%20info.png)
 
