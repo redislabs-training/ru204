@@ -17,6 +17,6 @@
     "lodash": "^4.17.15",
     "redis": "^2.8.0",
     "redis-redisearch": "https://github.com/stockholmux/node_redis-redisearch",
-    "yargs": "^11.0.0"
+    "yargs": "^15.3.1"
   }
 }
