@@ -90,21 +90,21 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 1. Entering the wrong IP (an unreachable one).
 
-![](img/320-join-cluster-wrong-ip.png)
+![](img/320-issue-join-cluster-wrong-ip.png)
 
 2. Entering the cluster name, or your own IP, or the wrong credentials.
 
-![](img/321-join-cluster-not-ip-or-wrong-creds.png)
+![](img/321-issue-join-cluster-with-name-or-wrong-creds.png)
 
 3. Session timeout to Admin Console. Page refresh returns spinner that just keeps spinning. Remove the trailing part of the URL ***/#/loading*** so you only have https://<node-id>:8443 (e.g. https://n1:8443), and hit ***return*** to get a new sign-in page.
 
-![](img/322-issues-session-timed-out-stuck-loading.png)
+![](img/322-issue-session-timed-out-stuck-loading.png)
 
 ## Check Status
 
 1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
-![](img/330-check-rladmin.png)
+![](img/330-check-rladmin-3-nodes.png)
 
 2. To run DNS tests, go to ***workspace 3***. Return to the ***vnc terminal*** window and enter ***run_dnsutils*** and ***nslookup n1.rlabs.org***. The DNS server is running on ***172.18.0.20***.
 
