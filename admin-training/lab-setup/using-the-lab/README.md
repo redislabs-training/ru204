@@ -19,8 +19,8 @@
 ![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
 
 4. On ***workspace 3***, you:
-- Start and stop nodes, create clusters, and run DNS Utils and Redis OS from the VNC terminal
-- And install RE software or inspect Docker containers from the base VM terminal.
+- Use ***vnc terminal*** to start and stop nodes, create clusters, and run DNS Utils
+- Use ***base vm*** to install RE software in one of the labs.
 
 ![](img/22%20-%20VNC%20workspace%203%20running.png)
 
@@ -30,11 +30,11 @@
 
 ![](img/212-vnc-terminal.png)
 
-In the VNC terminal, run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
+2. Run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
 
 ![](img/213-vnc-terminal-start-north-nodes.png)
 
-3. To start connecting nodes in a cluster, go to ***workspace 1***, double click the Chrome launcher. Nodes are down at first and tabs do not display icons and pages return errors.
+3. To start connecting nodes in a cluster, return to ***workspace 1***. Nodes are down at first and tabs do not display icons and pages return errors.
 
 ![](img/31%20-%20tsh%20-%20chrome%20page%20and%20tab%20not%20loading%20-%20node%20not%20started.png)
 
