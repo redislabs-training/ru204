@@ -6,13 +6,17 @@
 
 ![](../../lab-use/img/02-vnc-overview.png)
 
-2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
+2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes. Because nodes aren't running yet, icons in node tabs do not display and admin pages on port ***8443*** return errors. When running, you can sign in to admin consoles and configure cluster, nodes, and databases.
 
 ![](img/301-launch-chrome.png)
 
-3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***.
+3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***. Because nodes aren't running yet, shell tabs and SSH connections won't open.
 
 ![](img/21%20-%20VNC%20workspace%202%20running.png)
+
+4. When a node goes down, intentional or otherwise, you lose its SSH terminal. After a node restarts, you close and re-open the terminal window containing the shell to see it again.
+
+![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
 
 4. On ***workspace 3***, you:
 - Start and stop nodes, create clusters, and run DNS Utils and Redis OS from the VNC terminal
@@ -20,17 +24,9 @@
 
 ![](img/22%20-%20VNC%20workspace%203%20running.png)
 
-5. When an RE node goes down, intentional or otherwise, you lose its SSH terminal. After a node restarts, you can close and re-open the terminal window containing the SSH shell to see it again.
-
-![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
-
 ## Getting Started
 
-1. When you first sign in to VNC, nodes aren't running. In the browser, the node's login page on port ***8443*** returns the following message when it's not running.
-
-![](img/31%20-%20tsh%20-%20chrome%20-%20nodes%20not%20started.png)
-
-2. To start running nodes, go to ***workspace 3*** and launch the VNC terminal.
+1. To start running nodes, go to ***workspace 3*** and launch the VNC terminal.
 
 ![](img/212-vnc-terminal.png)
 
