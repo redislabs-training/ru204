@@ -15,7 +15,7 @@ const
   parser = csv.parse({
     columns: true
   }),
-  ProgressBar = require('ascii-progress'),
+  ProgressBar = require('@magicdawn/ascii-progress'),
   parsedDocs = new ProgressBar({
     current: 0,
     schema: 'Parsed   [:bar] :current/:total :percent :elapseds :etas'
