@@ -34,31 +34,33 @@
 
 ![](img/213-vnc-terminal-start-north-nodes.png)
 
-3. To start connecting nodes in a cluster, return to ***workspace 1***. Nodes are down at first and tabs do not display icons and pages return errors.
+3. To start connecting nodes in a cluster, return to ***workspace 1*** . Refresh tabs for nodes ***n1***, ***n2***, and ***n3*** (tabs 3, 4, and 5 respectively). 
 
-![](img/31%20-%20tsh%20-%20chrome%20page%20and%20tab%20not%20loading%20-%20node%20not%20started.png)
-
-As ***north*** nodes (***n1***, ***n2***, and ***n3***) start running in tabs 3, 4, and 5 respectively. Icons display, and pages start returning ***502 Bad Gateway*** for ***Login*** pages.
+As nodes start running, tab icons display and pages return ***502 Bad Gateway*** messages.
 
 ![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
 
-5. When nodes are started, you get the ***Setup*** page and are able to create a cluster and add the first node to the cluster.
+4. Keep refreshing pages. Once running, the node redirects you to its ***Setup*** page where you can add that node to a cluster.
 
-![](img/33%20-%20tsh%20-%20nodes%20started%2C%20ready%20to%20cluster.png)
+When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the ***north*** cluster and put node ***n1*** in it.
 
-6. Create the ***north*** cluster by clicking the first node tab (tab 3) for node ***n1***. Its IP address displays. Make sure ***Create Cluster*** is selected. Enter the cluster's Fully Qualified Domain Name as specified in DNS, which in this case is ***north.rlabs.org***. And click ***Next***.
+![](img/308-click-setup-to-create-cluster.png)
 
-![](img/101%20-%20step%201%2C%20enter%20cluster%20name.png)
+5. Node ***n1***'s IP address displays. Make sure ***Create Cluster*** is selected. Enter the cluster's Fully Qualified Domain Name as specified in DNS, which in this case is ***north.rlabs.org***. And click ***Next***.
+
+![](img/309-create-cluster-page.png)
 
 7. You don't have a license so just click ***Next*** to continue. If you had a license, you'd enter its key here.
 
+![](img/310-cluster-key-page.png)
+
 8. Enter admin credentials for the cluster. In this case, enter ***admin@rlabs.org*** and password ***admin***. And click ***Next***.
 
-![](img/102%20-%20step%202%2C%20enter%20cluster%20credentials.png)
+![](img/311-cluster-admin-creds-page.png)
 
 9. You'll be redirected back to the ***Login*** page. Sign in with cluster credentials you just created.
 
-![](img/103%20-%20step%203%2C%20sign%20in%20to%20n1.png)
+![](img/312-login-page.png)
 
 10. Now your node is part of a cluster. From here, you can act on the cluster, nodes, or databases.
 
