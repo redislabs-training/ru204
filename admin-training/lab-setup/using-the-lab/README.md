@@ -1,6 +1,6 @@
 # Using the Lab
 
-## Using the Desktop
+## Use the Desktop
 
 1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
@@ -24,7 +24,7 @@
 
 ![](img/22%20-%20VNC%20workspace%203%20running.png)
 
-## Creating a Cluster
+## Create a Cluster
 
 1. Go to ***workspace 3*** and launch the VNC terminal to start running nodes.
 
@@ -86,17 +86,17 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/318-node-list-3-nodes.png)
 
-### Possible Issues:
+## Possible Issues:
 
 1. Entering the wrong IP (an unreachable one).
 
-![](img/319-join-cluster-wrong-unreachable-ip.png)
+![](img/319-join-cluster-wrong-ip.png)
 
 2. Entering the cluster name, or your own IP, or the wrong credentials.
 
 ![](img/320-join-cluster-not-ip-or-wrong-creds.png)
 
-# Check Cluster Status
+## Check Cluster Status
 
 1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
@@ -110,7 +110,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/332-check-nslookup-north-and-south.png)
 
-# Add a Database
+## Add a Database
 
 1. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
 
