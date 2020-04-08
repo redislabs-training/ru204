@@ -4,11 +4,11 @@
 
 1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
-![](../lab-use/img/02-vnc-overview.png)
+![](../../lab-use/img/02-vnc-overview.png)
 
-2. On ***workspace 1***, you open Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
+2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
 
-![](img/20%20-%20VNC%20workspace%201%20running.png)
+![](img/301-launch-chrome.png)
 
 3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***.
 
