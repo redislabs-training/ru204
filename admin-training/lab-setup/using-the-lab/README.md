@@ -314,13 +314,13 @@ exit
 rladmin status
 ```
 
-SSH tab to node ***n1*** closes, node ***n1*** is down, proxy on another node (***n2***) starts listening, and the database is down because the only master shard is down with no replica.
+SSH tab to node ***n1*** closes, node ***n1*** is down, proxy on another node (***n2***) starts listening, and the database is down because the only primary shard is down with no replica.
 
 ![](img/371-node-fail-rladmin-db-down.png)
 
 5. Reconnect to the database with ***redis-cli***
 
-Connection to proxy on node ***n2*** works. But the only master shard that was running is down, without a replica, so no Redis instance replies to requests for data.
+Connection to proxy on node ***n2*** works. But the only primary shard that was running is down, without a replica, so no Redis instance replies to requests for data.
 
 ```bash
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
@@ -512,7 +512,7 @@ stop_n1
 rladmin status
 ```
 
-Node goes down, proxy migrates, master shards are demoted, and slave shards promote to masters.
+Node goes down, proxy migrates, primary shards are demoted, and replica shards promote to primaries.
 
 This happens almost instantly in production.
 
