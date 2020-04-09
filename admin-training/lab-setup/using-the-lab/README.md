@@ -381,13 +381,13 @@ It's called ***database clustering***, but you're splitting the dataset into a *
 - Larger datasets on cheaper hardware (smaller chunks on more common CPU and RAM)
 - Faster response times with more Redis instances acting on data and answering requests.
 
-1. Start by removing the old database.
-
 Enabling database replication and shard clustering requires 4 shards (2 primaries, 2 replicas). The free trial license only provides 4 shards, so you'll need them all.
 
-It's also a good extra step to see how to delete a database and what happens.
+Start by removing the old database.  It's also good to see how to delete a database and what happens.
 
-Return to admin console on any node in your cluster.
+1. Return to admin console on node ***n1*** in your cluster.
+
+NOTE: It could be any node in your cluster, but be sure to use node ***n1*** for this step. It will point out something very useful in DNS later.
 
 Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 
@@ -405,7 +405,7 @@ Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 
 ![](img/392-new-db-old-db-error-in-insight.png)
 
-5. Return to admin console where you were before on the ***databases*** tab and click the ***+*** icon to add a new database.
+5. Return to node 1's admin console where you were before on the ***databases*** tab and click the ***+*** icon to add a new database.
 
 ![](img/393-new-db-click-add.png)
 
@@ -414,7 +414,7 @@ Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 | Field | Value |
 |---|---|
 | Name | ***another-db*** |
-| Memory limit | 1 GB |
+| Memory limit | ***1 GB*** |
 | Replication | ***enabled*** |
 | Database clustering | ***enabled*** |
 | Endpoint port number | ***13000*** |
@@ -426,7 +426,7 @@ Note the number of shards that will be created (4 total).
 7. Click ***Activate***.
 
 8. Note the status:
-- 2 primary shards (4 total)
+- Shards: 2 primary (4 total)
 - Replication (R) and shard clustering (C) enabled
 
 ![](img/395-new-db-check-status.png)
