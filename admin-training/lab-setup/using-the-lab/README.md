@@ -6,11 +6,11 @@ Here you'll do the following in 85 easy steps:
 3. Add a database
 4. Explore DNS
 5. Use Redis Insight
-6. Stop a node and explore failover
-7. Enable database replication and clustering
+6. Explore node failover
+7. Enable replication and clustering
 8. Explore failover with replication and clustering
 9. Stop another node and lose quorum
-10. Restore nodes and cluster.
+10. Restore the nodes and cluster.
 
 ## Use the Lab Environment
 
