@@ -377,13 +377,17 @@ Now you're ready to explore a database with more options.
 
 ## Add Database Replication and (Shard) Clustering
 
-It's called ***database clustering***, but you're splitting the dataset into a ***shard cluster***. This allows the database to scale horizontally across nodes for:
-- Larger datasets on cheaper hardware (smaller chunks on more common CPU and RAM)
-- Faster response times with more Redis instances acting on data and answering requests.
+It's called ***database clustering***, but you're splitting data into a ***shard cluster***.
 
-Enabling database replication and shard clustering requires 4 shards (2 primaries, 2 replicas). The free trial license only provides 4 shards, so you'll need them all.
+This allows the database to scale horizontally across nodes for:
+- Larger datasets on cheaper hardware
+- Faster response times with more Redis instances responding.
 
-Start by removing the old database.  It's also good to see how to delete a database and what happens.
+Enabling replication and clustering requires 4 shards (2 primaries, 2 replicas). 
+
+Free license only provides 4, so you'll need them all.
+
+First remove the old database.  It's also good to see how to delete a database and what happens.
 
 1. Return to admin console on node ***n1*** in your cluster.
 
