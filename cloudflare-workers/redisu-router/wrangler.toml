@@ -3,3 +3,7 @@ type = "webpack"
 account_id = "e029dc142accb772d1bb41afd50b70d4"
 route = "testinstance.crudworks.org/*"
 zone_id = "9e975b15f453297c0f8e0bf695c3ebfd"
+
+[vars]
+TAHOE_HOST = "testinstance.crudworks.org"
+STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod"

@@ -54,6 +54,9 @@ async function handleRequest(request) {
     // live, to not conflict with anything in Tahoe.
     mapURIPattern(r, '.*/assets/.*')
 
+    // site.webmanifest is always on static.
+    mapURIPattern(r, '/site.webmanifest')
+
     // // If not logged in, override homepage else send to origin.
     // if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
     //     mapURIPattern(r, '/')
