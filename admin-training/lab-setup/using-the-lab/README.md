@@ -449,20 +449,18 @@ There are some subtle, but important things to note:
 
 1. Return to ***vnc terminal*** on ***workspace 3*** and run the following to find out more about how DNS is behaving.
 
-What you find is that node 2 is providing answers for proxy IPs.
-But the proxy is listening for the database is on node 1.
-
 ```bash
 run_dnsutils
 nslookup north.rlabs.org
 nslookup redis-13000.north.rlabs.org
 ```
 
+What you find is that node 2 is providing answers for proxy IPs.
+But the proxy is listening for the database is on node 1.
+
 ![](img/398-new-db-nslookup-to-north-and-db.png)
 
 2. Run the following in node 3's SSH terminal to set a database key.
-
-Note, you didn't need to authenticate this time because you didn't set a database password during creation.
 
 ```bash
 redis-cli -p 13000 -h redis-13000.north.rlabs.org
@@ -470,23 +468,24 @@ set hello world
 exit
 ```
 
+Note, you didn't need to authenticate this time because you didn't set a database password during creation.
+
 ![](img/399-new-db-set-key.png)
 
-3. Return to ***Redis Insight*** and connect to the new database (no password).
+3. Return to ***Redis Insight*** and connect to the new database (no password). Then you can view the key and value.
 
 ![](img/400-new-db-insight-connect.png)
 
-Then you can view the key and value.
 
 ### Possible Issues to this Point
 
-1. If you receive the following from ***nslookup*** or ***dig***, you may have not set your port properly.
+1. If you receive either of the following from ***nslookup*** or ***dig***, you may have not set your port properly
 
 ![](img/401-issue-db-port-nslookup-error.png)
 
 ![](img/402-issue-db-port-dig-error.png)
 
-2. To check your port setting, check ***rlamdin*** or admin console as follows:
+2. Check your port setting in ***rlamdin*** or admin console.
 
 ![](img/403-issue-db-port-rladmin.png)
 
