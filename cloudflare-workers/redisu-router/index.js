@@ -54,10 +54,13 @@ async function handleRequest(request) {
     // live, to not conflict with anything in Tahoe.
     mapURIPattern(r, '.*/assets/.*')
 
-    // If not logged in, override homepage else send to origin.
-    if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
-        mapURIPattern(r, '/')
-    }
+    // // If not logged in, override homepage else send to origin.
+    // if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
+    //     mapURIPattern(r, '/')
+    // }
+    
+    // Always make the home page the static site.
+    mapURIPattern(r, '/')
 
     // Send everything else to origin.
     mapURIPattern(r, '.*', originHost)
