@@ -18,7 +18,7 @@
 
 ![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
 
-4. On ***workspace 3***, you:
+5. On ***workspace 3***, you:
 - Use ***vnc terminal*** to start and stop nodes, create clusters, and run DNS Utils
 - Use ***base vm*** to install RE software in one of the labs.
 
@@ -124,7 +124,6 @@ In node ***n3***, get status on nodes and databases by running:
 
 ```bash
 rladmin status
- 
 ```
 
 Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
@@ -138,7 +137,6 @@ Explore DNS.
 ```bash
 run_dnsutils
 nslookup n1.rlabs.org
- 
 ```
 
 The DNS server is running on ***172.18.0.20***.
@@ -150,7 +148,6 @@ The DNS server is running on ***172.18.0.20***.
 ```bash
 nslookup north.rlabs.org
 nslookup south.rlabs.org
- 
 ```
 
 nslookup returns an authoritative answer from ***n1*** in the ***north*** cluster.
@@ -196,7 +193,6 @@ You can run this from anywhere that has DNS resolution to your cluster ***north.
 
 ```bash
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
- 
 ```
 
 ![](img/345-db-cli-connect.png)
@@ -227,7 +223,6 @@ Return to ***vnc terminal*** and perform some more DNS checks.
 
 ```bash
 dig @ns.rlabs.org redis-12000.north.rlabs.org
- 
 ```
 
 Nodes run DNS name servers that resolve queries to DB proxies. DNS does not know where proxies are listening, it only knows the nodes.
@@ -242,21 +237,23 @@ Check the DNS server to see how records are configured for this cluster.
 
 ![](img/348-dns-login.png)
 
-13. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
+13. Navigate to ***Servers > BIND DNS Server*** and click the ***rlabs.org*** zone icon at the bottom.
 
-![](img/349-dns-click-rlabs.png)
+![](img/349-dns-bind-server-page.png)
 
 14. Click ***Edit zone records file*** to view the DNS records.
 
 ![](img/350-dns-click-edit-zone.png)
 
-These zone records say, "For URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for databases in that cluster. 
+These zone records say:
+
+"For URL requests to ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) who can provide IPs of proxies listening for databases in that cluster." 
+
+![](img/351-dns-zone-file.png)
 
 This allows proxies to listen on various nodes and move about as nodes go up or down, databases start or stop, or proxy policies change.
 
 You don't have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records for your nodes.
-
-![](img/351-dns-zone-file.png)
 
 ### Status Check to this Point
 
@@ -294,13 +291,11 @@ Return to ***vnc terminal*** to stop and restart nodes and see how failover work
 
 ```bash
 exit
- 
 ```
 2. Stop node ***n1***.
 
 ```bash
 stop_n1
- 
 ```
 
 You'll see the node that stopped (***n1***) and the connection closed from the base VM where the command was run ***172.18.0.1***.
@@ -311,14 +306,12 @@ You'll see the node that stopped (***n1***) and the connection closed from the b
 
 ```bash
 exit
- 
 ```
 
 4. Get latest cluster status.
 
 ```bash
 rladmin status
- 
 ```
 
 SSH tab to node ***n1*** closes, node ***n1*** is down, proxy on another node (***n2***) starts listening, and the database is down because the only master shard is down with no replica.
@@ -333,7 +326,6 @@ Connection to proxy on node ***n2*** works. But the only master shard that was r
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
 auth admin
 keys *
- 
 ```
 ![](img/372-node-fail-cli-connects-no-db-response.png)
 
@@ -341,7 +333,6 @@ keys *
 
 ```bash
 start_n1
- 
 ```
 
 Again, you see the node ***n1*** started and connection closed to the base VM where the command was run.
@@ -352,7 +343,6 @@ Again, you see the node ***n1*** started and connection closed to the base VM wh
 
 ```bash
 rladmin status
- 
 ```
 
 Proxy still listens on node 2 (it did not return to node 1). DB is running, but is there any data?
@@ -366,7 +356,6 @@ redis-cli -p 12000 -h redis-12000.north.rlabs.org
 auth admin
 keys *
 exit
- 
 ```
 
 There's no data because there's no DB replication or persistence. When the shard restarts, it's empty.
@@ -378,7 +367,6 @@ There's no data because there's no DB replication or persistence. When the shard
 
 ```bash
 dig redis-12000.north.rlabs.org
- 
 ```
 
 Node 2 answers where proxy listens (which happens to be the same node).
