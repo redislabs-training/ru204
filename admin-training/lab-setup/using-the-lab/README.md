@@ -120,7 +120,14 @@ Its IP address displays.
 
 The window opens with 3 tabs SSH'd in to the nodes.
 
-In node ***n3***, run ***rladmin status*** to get status on nodes and databases. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
+In node ***n3***, get status on nodes and databases by running:
+
+```bash
+rladmin status
+ 
+```
+
+Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
 ![](img/330-check-rladmin-3-nodes.png)
 
@@ -281,13 +288,73 @@ Now you're ready to stop nodes and see what happens during failover.
 
 ## Stop Nodes and Explore Failover
 
-![](img/127%20-%20step%2027%2C%20stop%20n1.png)
+Return to ***vnc terminal*** to stop and restart nodes and see how failover works.
 
-33.
+1. In ***vnc terminal***, exit from ***dns_utils***
 
-![](img/128%20-%20step%2028%2C%20node%20down%2C%20SSH%20tab%20closes%2C%20db%20down%2C%20another%20proxy%20listens.png)
+```bash
+exit
+ 
+```
+2. Stop node ***n1***.
 
-34.
+```bash
+stop_n1
+ 
+```
+
+You'll see the node that stopped (***n1***) and the connection closed from the base VM where the command was run ***172.18.0.1***.
+
+![](img/370-node-fail-stop-n1.png)
+
+3. Return to ***n3*** SSH terminal on ***workspace 2***. Exit ***redis-cli*** if still connected.
+
+```bash
+exit
+ 
+```
+
+4. Get latest cluster status.
+
+```bash
+rladmin status
+ 
+```
+
+SSH tab to node ***n1*** closes, node ***n1*** is down, proxy on another node (***n2***) starts listening, and the database is down because the only master shard is down with no replica.
+
+![](img/371-node-fail-rladmin-db-down.png)
+
+5. Reconnect to the database with ***redis-cli***
+
+Connection to proxy on node ***n2*** works. But the only master shard that was running is down, without a replica, so no Redis instance replies to requests for data.
+
+```bash
+redis-cli -p 12000 -h redis-12000.north.rlabs.org
+ 
+```
+![](img/372-node-fail-cli-connects-no-db-response.png)
+
+5. Return to ***vnc terminal*** and restart node ***n1***.
+
+```bash
+start_n1
+ 
+```
+
+Again, you see the node that's started (***n1***) and connection closed to the base VM where this command was run.
+
+![](img/373-node-fail-start-n1.png)
+
+6.
+
+![](img/372-node-fail-start-n1.png)
+![](img/373-node-fail-.png)
+![](img/374-node-fail-.png)
+![](img/375-node-fail-.png)
+![](img/376-node-fail-.png)
+![](img/377-node-fail-.png)
+![](img/378-node-fail-.png)
 
 ![](img/129%20-%20step%2029%2C%20restart%20node%201.png)
 
