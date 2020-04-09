@@ -86,7 +86,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/318-node-list-3-nodes.png)
 
-## Issues
+## Possible Issues to this Point
 
 1. Entering the wrong IP (an unreachable one).
 
@@ -100,7 +100,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/322-issue-session-timed-out-stuck-loading.png)
 
-## Check Status
+## Check your Status Before Moving On
 
 1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
@@ -146,7 +146,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 auth admin
 ```
 
-26. Check to see that you're actually connected and authenticated
+26. Check to see that you're really connected and authenticated
 
 ```bash
 keys *
@@ -162,35 +162,33 @@ set hello world
 
 28. Return to ***vnc terminal*** and perform some DNS checks.
 
-29. Run the following command to get information on how DNS resolves the IP of your DB proxy.
+29. Get some information on how DNS resolves the IP to your database proxy.
 
 ```bash
 dig @ns.rlabs.org redis-12000.north.rlabs.org
 ```
 
-30. Cluster nodes run name servers that resolve DNS queries for databases in their cluster. DNS does not know where the database proxy is listening, but it knows the nodes in your cluster.  In this case, node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
-
 ![](img/347-db-dig.png)
 
-Check DNS server config to see how records are configured for a cluster. 
+Cluster nodes run name servers that resolve DNS queries for databases proxies. DNS does not know where proxies are listening, it only knows the nodes.  In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries for ***redis-12000.north.rlabs.org***.
 
-31. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1).
+Check the DNS server to see how records are configured for this cluster. 
 
-Sign in with credentials: ***root*** and ***password***.
+30. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
 
 ![](img/348-dns-login.png)
 
-32. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
+31. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
 
 ![](img/349-dns-click-rlabs.png)
 
-33. Click ***Edit zone records file*** to view your DNS records
+32. Click ***Edit zone records file*** to view the DNS records.
 
 ![](img/350-dns-click-edit-zone.png)
 
-This zone file says, for URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for specific database connections in that cluster. 
+These zone records say, "For URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for specific database connections in that cluster. 
 
-This allows proxies to listen on 1 or more nodes and move about as nodes go up or down, databases start or stop, or proxy policies change. You don't want to have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records of the nodes. DNS name servers, running on the nodes will return the IP for a proxy.
+This allows proxies to listen on 1 or more nodes and move about as nodes go up or down, databases start or stop, or proxy policies change. You don't have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records for the nodes. DNS name servers on nodes return proxy IPs because they're aware of which proxies are listening on which nodes for various databases and they can load balance requests.
 
 ![](img/351-dns-zone-file.png)
 
