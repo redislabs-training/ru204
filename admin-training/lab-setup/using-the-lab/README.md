@@ -331,6 +331,8 @@ Connection to proxy on node ***n2*** works. But the only master shard that was r
 
 ```bash
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
+auth admin
+keys *
  
 ```
 ![](img/372-node-fail-cli-connects-no-db-response.png)
@@ -342,23 +344,48 @@ start_n1
  
 ```
 
-Again, you see the node that started (***n1***) and connection closed to the base VM where this command was run.
+Again, you see the node ***n1*** started and connection closed to the base VM where the command was run.
 
-![](img/373-node-fail-start-n1.png)
+![](img/380-node-back-start-n1.png)
 
-6. Return to node ***n3*** SSH terminal. Close and re-open the window to regain node 1's tab.
+6. Return to node 3's SSH terminal. Close and re-open the window to regain node 1's tab.
 
-Proxy still listens on node 2. DB is running, but is there any data?
+```bash
+rladmin status
+ 
+```
 
-![](img/374-node-fail-db-back.png)
+Proxy still listens on node 2 (it did not return to node 1). DB is running, but is there any data?
+
+![](img/381-node-back-db-back.png)
+
+7. Reconnect to ***redis-cli***, authenticate, and list keys. 
+
+```bash
+redis-cli -p 12000 -h redis-12000.north.rlabs.org
+auth admin
+keys *
+exit
+ 
+```
+
+There's no data because there's no DB replication or persistence. When the shard restarts, it's empty.
+
+![](img/383-node-back-no-data.png)
 
 
-![](img/373-node-fail-.png)
-![](img/374-node-fail-.png)
-![](img/375-node-fail-.png)
-![](img/376-node-fail-.png)
-![](img/377-node-fail-.png)
-![](img/378-node-fail-.png)
+8. Return to ***vnc terminal*** and re-run dig on the database connection.
+
+```bash
+dig redis-12000.north.rlabs.org
+ 
+```
+
+Node 2 answers where proxy listens (which happens to be the same node).
+
+![](img/382-node-back-dig-node-2.png)
+
+9. 
 
 
 ![](img/132%20-%20step%2032%2C%20DNS%20points%20north%20to%20node%202%20proxy.png)
