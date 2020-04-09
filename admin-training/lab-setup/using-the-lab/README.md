@@ -432,9 +432,18 @@ Note the number of shards that will be created (4 total).
 
 ![](img/395-new-db-check-status.png)
 
-9.
+9. Return to ***workspace 2*** and enter the following in node 3's SSH shell
 
-![](img/391-new-db-.png)
+```bash
+rladmin status
+```
+
+There are some subtle, but important things to note:
+- Under ***Databases***: shards are 2 (primaries), placement in ***dense***, and replication is enabled
+- Under ***Endpoints***: the proxy is again listening on node 1 (remmember this, we'll bring it up again in the next step)
+- Under ***Shards***: both primaries are on node 1 and both replicas are on node 2 (this is because placement ***dense*** tries to pack the shards in as few of nodes as possible for faster response times with the proxy on the same node)
+
+![](img/396-new-db-rladmin.png)
 
 10.
 
