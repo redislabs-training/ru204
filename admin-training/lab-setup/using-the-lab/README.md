@@ -30,35 +30,47 @@
 
 ![](img/212-vnc-terminal.png)
 
-2. Run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started running).
+2. Run the following command to start nodes ***n1***, ***n2***, and ***n3*** (the cluster isn't created yet, only the nodes are started).
 
 ![](img/213-vnc-terminal-start-north-nodes.png)
 
-3. Return to ***workspace 1*** to start connecting nodes in a cluster. Refresh tabs for nodes ***n1***, ***n2***, and ***n3*** (tabs 3, 4, and 5 respectively). 
+3. Return to ***workspace 1*** to start connecting nodes in a cluster. Refresh tabs for nodes ***n1***, ***n2***, and ***n3*** (tabs 3, 4, and 5). 
 
-As nodes start running, tab icons display and pages return ***502 Bad Gateway*** messages.
+As nodes start, icons display in tabs and pages return ***502 Bad Gateway*** errors.
 
 ![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
 
 4. Keep refreshing pages. Once running, the node redirects you to its ***Setup*** page where you can add that node to a cluster.
 
-When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the ***north*** cluster and put node ***n1*** in it.
+5. When available, click ***Setup*** in the node ***n1*** tab (tab 3). 
+
+Here, you create the ***north.rlabs.org*** cluster and add node ***n1*** to it.
 
 ![](img/308-click-setup-to-create-cluster.png)
 
-5. Node ***n1***'s IP address displays. Make sure ***Create Cluster*** is selected. Enter the cluster's Fully Qualified Domain Name as specified in DNS, which in this case is ***north.rlabs.org***. And click ***Next***.
+IP address for node ***n1*** displays.
+
+Make sure ***Create Cluster*** is checked.
+
+6. Enter the cluster's Fully Qualified Domain Name ***north.rlabs.org.*** and click ***Next***.
+
+This matches what is set in DNS which you'll see in a minute.
 
 ![](img/309-create-cluster-page.png)
 
-7. You don't have a license so just click ***Next*** to continue. If you had a license, you'd enter its key here.
+7. You don't have a cluster key so just click ***Next***.
+
+If you had a license, you'd enter its key here.
 
 ![](img/310-cluster-key-page.png)
 
-8. Enter admin credentials for the cluster. In this case, enter ***admin@rlabs.org*** and password ***admin***. And click ***Next***.
+8. Enter cluster admin credentials, ***admin@rlabs.org*** and password ***admin***, and click ***Next***.
 
 ![](img/311-cluster-admin-creds-page.png)
 
-9. You'll be redirected back to the ***Login*** page. Sign in with cluster credentials you just created.
+You'll be redirected back to the ***Login*** page.
+
+9. Sign in with cluster credentials you just created.
 
 ![](img/312-login-page.png)
 
@@ -70,11 +82,13 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/314-node-list-1-node.png)
 
-12. Add node ***n2*** to the cluster by clicking the second node tab and clicking ***Setup***.
+12. Add node ***n2*** to the cluster by clicking its tab and clicking ***Setup***.
 
 ![](img/315-node-2-setup-page.png)
 
-13. Its IP address displays. Click ***Join Cluster*** and enter the IP address of node ***n1*** along with the cluster admin credentials you just created. And click ***Next***.
+Its IP address displays.
+
+13. Click ***Join Cluster***. Enter the node ***n1*** IP address, cluster admin credentials you just created, and click ***Next***.
 
 ![](img/316-join-cluster-page.png)
 
@@ -92,67 +106,107 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/320-issue-join-cluster-wrong-ip.png)
 
-2. Entering the cluster name, or your own IP, or the wrong credentials.
+2. Entering a cluster name, a reachable, but incorrect IP, or wrong credentials.
 
 ![](img/321-issue-join-cluster-with-name-or-wrong-creds.png)
 
-3. Session timeout to Admin Console. Page refresh returns spinner that just keeps spinning. Remove the trailing part of the URL ***/#/loading*** so you only have https://<node-id>:8443 (e.g. https://n1:8443), and hit ***return*** to get a new sign-in page.
+3. Spinner keeps spinning in the web page. Admin console session timed-out. Remove ***/#/loading*** from the URL and hit return to get a new sign-in page.
 
 ![](img/322-issue-session-timed-out-stuck-loading.png)
 
 ### Status Check to this Point
 
-1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
+1. Go to ***workspace 2*** and launch ***north node CLIs***.
+
+The window opens with 3 tabs SSH'd in to the nodes.
+
+In node ***n3***, run ***rladmin status*** to get status on nodes and databases. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
 ![](img/330-check-rladmin-3-nodes.png)
 
-2. To run DNS tests, go to ***workspace 3***. Return to the ***vnc terminal*** window and enter ***run_dnsutils*** and ***nslookup n1.rlabs.org***. The DNS server is running on ***172.18.0.20***.
+Explore DNS.
+
+2. Go to ***workspace 3*** and run the following in ***vnc terminal***.
+
+```bash
+run_dnsutils
+nslookup n1.rlabs.org
+ 
+```
+
+The DNS server is running on ***172.18.0.20***.
 
 ![](img/331-check-nslookup-n1.png)
 
-3. Run ***nslookup north.rlabs.org***. You get an authoritative answer from one of the nodes in the ***north*** cluster. In this case, ***n1.rlabs.org***. Run ***nslookup south.rlabs.org***. You get SERVFAIL because the ***south*** cluster isn't running yet and there are no nodes in it to respond.
+3. Run
+
+```bash
+nslookup north.rlabs.org
+nslookup south.rlabs.org
+ 
+```
+
+nslookup returns an authoritative answer from ***n1*** in the ***north*** cluster.
+nslookup returns SERVFAIL for the ***south*** cluster because there aren't any nodes in it to respond yet.
 
 ![](img/332-check-nslookup-north-and-south.png)
 
+Now you're ready to add a database to your cluster.
+
 ## Add a Database
 
-1. Return to node ***n1***'s admin console and click ***databases*** to add a database to the cluster. 
+1. Return to node ***n1***'s admin console and click ***databases***. 
 
 ![](img/340-click-dbs.png)
 
-2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. 
+2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). 
+
+Leave ***Replication*** and ***Persistence*** disabled for now. 
 
 ![](img/341-db-create-page.png)
 
-21. Click ***Show advanced options*** and enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Activate*** to create the database (not shown).
+3. Click ***Show advanced options*** and enter 12000 for the port number.
+
+Proxies listen for connections on this port for this database. By default, only one proxy starts listening and it's on the node where you created the database (in this case node ***n1***). Click ***Activate*** to create the database.
 
 ![](img/342-db-show-advanced.png)
 
-22. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
+4. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
 
 ![](img/343-db-config-tab.png)
 
-23. Return to node ***n2*** or ***n3***'s SSH terminal to view updated details of your cluster. Note that you have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
+5. Return to the node ***n3*** SSH terminal to view updates.
+
+You have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
 
 ![](img/344-db-check-rladmin.png)
 
-24. Connect to your database using the ***redis-cli*** command line client. You can run this from anywhere that has DNS resolution to your cluster name ***north.rlabs.org***. It's good to test from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups. Your endpoint is listening on node ***n1*** where the DB was created. And you're running ***redis-cli*** on node ***n3***. in this case node ***n3***) 
+Connect to your database using ***redis-cli***.
+
+You can run this from anywhere that has DNS resolution to your cluster ***north.rlabs.org***. It's good to test from a host other than the one the endpoint is listening on to make sure DNS is resolving.
+
+6. Run ***redis-cli*** on node ***n3***. 
+
+```bash
+redis-cli -p 12000 -h redis-12000.north.rlabs.org
+ 
+```
 
 ![](img/345-db-cli-connect.png)
 
-25. Authenticate with the DB admin password you provided when you created the DB.
+7. Authenticate with the DB password you provided when you created the database.
 
 ```bash
 auth admin
 ```
 
-26. Check to see that you're really connected and authenticated
+8. Check to see that you're really connected and authenticated
 
 ```bash
 keys *
 ```
 
-27. Set a key and value in the database.
+9. Set a key and value in the database.
 
 ```bash
 set hello world
@@ -160,41 +214,44 @@ set hello world
 
 ![](img/346-db-set-key.png)
 
-28. Return to ***vnc terminal*** and perform some DNS checks.
+Return to ***vnc terminal*** and perform some more DNS checks.
 
-29. Get some information on how DNS resolves the IP to your database proxy.
+11. Get some information on how DNS resolves the IP to your database proxy.
 
 ```bash
 dig @ns.rlabs.org redis-12000.north.rlabs.org
+ 
 ```
+
+Nodes run DNS name servers that resolve queries to DB proxies. DNS does not know where proxies are listening, it only knows the nodes.
+
+In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries for ***redis-12000.north.rlabs.org***.
 
 ![](img/347-db-dig.png)
 
-Cluster nodes run name servers that resolve DNS queries for databases proxies. DNS does not know where proxies are listening, it only knows the nodes.  In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries for ***redis-12000.north.rlabs.org***.
-
 Check the DNS server to see how records are configured for this cluster. 
 
-30. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
+12. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
 
 ![](img/348-dns-login.png)
 
-31. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
+13. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
 
 ![](img/349-dns-click-rlabs.png)
 
-32. Click ***Edit zone records file*** to view the DNS records.
+14. Click ***Edit zone records file*** to view the DNS records.
 
 ![](img/350-dns-click-edit-zone.png)
 
-These zone records say, "For URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for specific database connections in that cluster. 
+These zone records say, "For URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for databases in that cluster. 
 
-This allows proxies to listen on 1 or more nodes and move about as nodes go up or down, databases start or stop, or proxy policies change. You don't have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records for the nodes. DNS name servers on nodes return proxy IPs because they're aware of which proxies are listening on which nodes for various databases and they can load balance requests.
+This allows proxies to listen on various nodes and move about as nodes go up or down, databases start or stop, or proxy policies change.
+
+You don't have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records for your nodes.
 
 ![](img/351-dns-zone-file.png)
 
-
-
-![](img/121%20-%20step%2021%2C%20set%20a%20key.png)
+## Possible Issues to this Point
 
 27.
 
