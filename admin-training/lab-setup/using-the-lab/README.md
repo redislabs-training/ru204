@@ -1,6 +1,18 @@
-# Using the Lab
+# Lab/Product Demo
 
-## Use the Desktop
+Here you'll do the following in 85 easy steps:
+1. Use the lab environment
+2. Create a cluster
+3. Add a database
+4. Explore DNS
+5. Use Redis Insight
+6. Stop a node and explore failover
+7. Enable database replication and clustering
+8. Explore failover with replication and clustering
+9. Stop another node and lose quorum
+10. Restore nodes and cluster.
+
+## Use the Lab Environment
 
 1. You start with a blank desktop, 3 workspaces, and 5 launchers.
 
@@ -219,7 +231,7 @@ set hello world
 
 Return to ***vnc terminal*** and perform some more DNS checks.
 
-11. Get some information on how DNS resolves the IP to your database proxy.
+10. Get some information on how DNS resolves the IP to your database proxy.
 
 ```bash
 dig @ns.rlabs.org redis-12000.north.rlabs.org
@@ -233,15 +245,15 @@ In this case, node ***n1*** provides the answer. It's tempting to think that dig
 
 Check the DNS server to see how records are configured for this cluster. 
 
-12. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
+11. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
 
 ![](img/348-dns-login.png)
 
-13. Navigate to ***Servers > BIND DNS Server*** and click the ***rlabs.org*** zone icon at the bottom.
+12. Navigate to ***Servers > BIND DNS Server*** and click the ***rlabs.org*** zone icon at the bottom.
 
 ![](img/349-dns-bind-server-page.png)
 
-14. Click ***Edit zone records file*** to view the DNS records.
+13. Click ***Edit zone records file*** to view the DNS records.
 
 ![](img/350-dns-click-edit-zone.png)
 
@@ -329,7 +341,7 @@ keys *
 ```
 ![](img/372-node-fail-cli-connects-no-db-response.png)
 
-5. Return to ***vnc terminal*** and restart node ***n1***.
+6. Return to ***vnc terminal*** and restart node ***n1***.
 
 ```bash
 start_n1
@@ -339,7 +351,7 @@ Again, you see the node ***n1*** started and connection closed to the base VM wh
 
 ![](img/380-node-back-start-n1.png)
 
-6. Return to node 3's SSH terminal. Close and re-open the window to regain node 1's tab.
+7. Return to node 3's SSH terminal. Close and re-open the window to regain node 1's tab.
 
 ```bash
 rladmin status
@@ -349,7 +361,7 @@ Proxy still listens on node 2 (it did not return to node 1). DB is running, but 
 
 ![](img/381-node-back-db-back.png)
 
-7. Reconnect to ***redis-cli***, authenticate, and list keys. 
+8. Reconnect to ***redis-cli***, authenticate, and list keys. 
 
 ```bash
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
@@ -363,7 +375,7 @@ There's no data because there's no DB replication or persistence. When the shard
 ![](img/383-node-back-no-data.png)
 
 
-8. Return to ***vnc terminal*** and re-run dig on the database connection.
+9. Return to ***vnc terminal*** and re-run dig on the database connection.
 
 ```bash
 dig redis-12000.north.rlabs.org
