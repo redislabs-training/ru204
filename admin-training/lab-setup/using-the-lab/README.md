@@ -120,21 +120,21 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/340-click-dbs.png)
 
-2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. Click ***Show advanced options***. 
+2. Give it a name and 1 GB of RAM. Enter a password for the database admin (it could be different than the cluster admin). Leave Replication and Persistence disabled for now. 
 
 ![](img/341-db-create-page.png)
 
-21. Enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
+21. Click ***Show advanced options*** and enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
 
-![](img/342-db-redis-cli-connect.png)
+![](img/342-db-show-advanced.png)
 
 22. Click the ***configuration*** tab to see database information including its endpoint location and connection URL.
 
-![](img/117%20-%20step%2017%2C%20wait%20for%20db%20and%20endpoint.png)
+![](img/343-db-config-tab.png)
 
 23. Return to node ***n2*** or ***n3***'s SSH terminal to view updated details of your cluster. Note that you have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
 
-![](img/118%20-%20step%2018%2C%201%20shard%2C%201%20proxy%2C%20on%20node%201.png)
+![](img/344-db-check-rladmin.png)
 
 24. Connect to your database using the ***redis-cli*** command line client from any node in your VM (in this case node ***n3***). It's good to test this from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups.
 
