@@ -124,7 +124,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/341-db-create-page.png)
 
-21. Click ***Show advanced options*** and enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Create*** to create the database (not shown).
+21. Click ***Show advanced options*** and enter an endpoint port number between 10000-19999. In this case, enter 12000. Proxies in the cluster will listen for connections on port 12000 for this database. By default, only one proxy starts listening and it's on the node from which you create the database (in this case node ***n1***). Click ***Activate*** to create the database (not shown).
 
 ![](img/342-db-show-advanced.png)
 
