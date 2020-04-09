@@ -136,17 +136,43 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/344-db-check-rladmin.png)
 
-24. Connect to your database using the ***redis-cli*** command line client from any node in your VM (in this case node ***n3***). It's good to test this from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups.
+24. Connect to your database using the ***redis-cli*** command line client. You can run this from anywhere that has DNS resolution to your cluster name ***north.rlabs.org***. It's good to test from a host other than the one the endpoint is listening on to make sure DNS is resolving database and cluster lookups. Your endpoint is listening on node ***n1*** where the DB was created. And you're running ***redis-cli*** on node ***n3***. in this case node ***n3***) 
 
-NOTE: This example uses simply the cluster name which is not entirely correct. You'll see why shortly.
+![](img/345-db-cli-connect.png)
 
-![](img/119%20-%20step%2019%2C%20db%20connection%20from%20anywhere%20with%20DNS.png)
+25. Authenticate with the DB admin password you provided when you created the DB.
 
-25. Return to the vnc terminal and run ***dig @ns.rlabs.org north.rlabs.org*** to get more DNS information. Notice that all nodes in the cluster can provide an answers to where the proxy is listening and node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
+```bash
+auth admin
+```
 
-![](img/120%20-%20step%2020%2C%20how%20does%20DNS%20resolve%20north.rlabs.org.png)
+26. Check to see that you're actually connected and authenticated
 
-26.
+```bash
+keys *
+```
+
+27. Set a key and value in the database.
+
+```bash
+set hello world
+```
+
+![](img/346-db-set-key.png)
+
+28. Return to ***vnc terminal*** and perform some DNS checks.
+
+29. Run the following command to get information on how DNS resolves the IP of your DB proxy.
+
+```bash
+dig @ns.rlabs.org redis-12000.north.rlabs.org
+```
+
+30. Cluster nodes run name servers that resolve DNS queries for databases in their cluster. DNS does not know where the database proxy is listening, but it knows the nodes in your cluster.  In this case, node ***n1*** provided the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's telling which node is responding to queries about the cluster ***north.rlabs.org***. In a moment, you'll see how this distincation becomes clearer.
+
+![](img/347-db-dig.png)
+
+31.
 
 ![](img/121%20-%20step%2021%2C%20set%20a%20key.png)
 
