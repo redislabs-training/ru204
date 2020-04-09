@@ -373,49 +373,76 @@ Node 2 answers where proxy listens (which happens to be the same node).
 
 ![](img/382-node-back-dig-node-2.png)
 
-9. 
+Now you're ready to explore a database with more options.
 
+## Add Database Replication and (Shard) Clustering
 
-![](img/132%20-%20step%2032%2C%20DNS%20points%20north%20to%20node%202%20proxy.png)
+It's called ***database clustering***, but you're splitting the dataset into a ***shard cluster***. This allows the database to scale horizontally across nodes for:
+- Larger datasets on cheaper hardware (smaller chunks on more common CPU and RAM)
+- Faster response times with more Redis instances acting on data and answering requests.
 
-38.
+1. Start by removing the old database.
 
-![](img/132%20-%20step%2032%2C%20click%20db%20to%20view%2C%20edit%2C%20or%20delete.png)
+Enabling database replication and shard clustering requires 4 shards (2 primaries, 2 replicas). The free trial license only provides 4 shards, so you'll need them all.
 
-39.
+It's also a good extra step to see how to delete a database and what happens.
 
-![](img/133%20-%20step%2033%2C%20create%20new%20db%20with%202%20master%20shards%20and%202%20replicas.png)
+Return to admin console on any node in your cluster.
 
-40.
+Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 
-![](img/134%20%3D%20step%2034%2C%20view%20rladmin%2C%20notice%20shard%20placement%2C%201%20proxy%2C%20dense%20setting.png)
+![](img/390-new-db-select-old.png)
 
+2. Click the ***configuration*** tab, scroll to the bottom, and click ***Delete***.
 
-41.
+![](img/391-new-db-delete-old.png)
 
-![](img/135%20-%20step%2035%2C%20dig%20shows%20node%202%20pDNS%20provides%20DNS%20query%20answer%2C%20where's%20the%20proxy.png)
+3. Go to ***Redis Insight***, click the ***Redis Insight*** logo (top-left), and click the old database link.
 
-42.
+![](img/391b-new-db-go-to-insight.png)
 
-![](img/136%20-%20step%2036%2C%20cluster%20nslookup%20returns%20pDNS%20answering%20queries%2C%20db%20nslookup%20returns%20proxy%20host%20listening.png)
+4. If the server is unreachable, it reports ***server offline***.
 
-43.
+![](img/392-new-db-old-db-error-in-insight.png)
 
-![](img/137%20-%20step%2037%2C%20need%20redis-port%20in%20db%20client%20connection.png)
+5. Return to admin console where you were before on the ***databases*** tab and click the ***+*** icon to add a new database.
 
-44.
+![](img/393-new-db-click-add.png)
 
-![](img/138%20-%20step%2038%2C%20deleted%20db%20repots%20server%20offline%20in%20insight.png)
+6. Click ***Show advanced options*** and enter the following information:
 
-45.
+| Field | Value |
+|---|---|
+| Name | ***another-db*** |
+| Memory limit | 1 GB |
+| Replication | ***enabled*** |
+| Database clustering | ***enabled*** |
+| Endpoint port number | ***13000*** |
 
-![](img/139%20-%20step%2039%2C%20no%20client%20connect%20in%20inisght%20with%20FQDN%2C%20no%20pwd.png)
+Note the number of shards that will be created (4 total).
 
-46.
+![](img/394-new-db-config-page.png)
 
-![](img/140%20-%20step%2040%2C%20set%20a%20key%20again.png)
+7. Click ***Activate***.
 
-47.
+8. Note the status:
+- 2 primary shards (4 total)
+- Replication (R) and shard clustering (C) enabled
+
+![](img/395-new-db-check-status.png)
+
+9.
+
+![](img/391-new-db-.png)
+
+10.
+
+![](img/391-new-db-.png)
+
+11.
+
+![](img/391-new-db-.png)
+
 
 ![](img/141%20-%20step%2041%2C%20node%201%20going%20down%2C%20shard%20not%20promoted%20yet.png)
 
