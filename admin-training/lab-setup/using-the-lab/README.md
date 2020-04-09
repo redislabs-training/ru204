@@ -445,32 +445,53 @@ There are some subtle, but important things to note:
 
 ![](img/396-new-db-rladmin.png)
 
-10.
+### Status Check to this Point
 
-![](img/391-new-db-.png)
+1. Return to ***vnc terminal*** on ***workspace 3*** and run the following to find out more about how DNS is behaving.
 
-11.
+What you find is that node 2 is providing answers for proxy IPs.
+But the proxy is listening for the database is on node 1.
 
-![](img/391-new-db-.png)
+```bash
+run_dnsutils
+nslookup north.rlabs.org
+nslookup redis-13000.north.rlabs.org
+```
 
+![](img/398-new-db-nslookup-to-north-and-db.png)
 
-![](img/141%20-%20step%2041%2C%20node%201%20going%20down%2C%20shard%20not%20promoted%20yet.png)
+2. Run the following in node 3's SSH terminal to set a database key.
 
-48.
+Note, you didn't need to authenticate this time because you didn't set a database password during creation.
 
-![](img/142%20-%20step%2042%2C%20slave%20shards%20promoted.png)
+```bash
+redis-cli -p 13000 -h redis-13000.north.rlabs.org
+set hello world
+exit
+```
 
-49.
+![](img/399-new-db-set-key.png)
 
-![](img/143%20-%20step%2043%2C%20data%20still%20in%20promoted%20shards.png)
+3. Return to ***Redis Insight*** and connect to the new database (no password).
 
-50.
+![](img/400-new-db-insight-connect.png)
 
-![](img/144%20-%20step%2044%2C%20restart%20node%201.png)
+Then you can view the key and value.
 
-51.
+### Possible Issues to this Point
 
-![](img/145%20-%20step%2045%2C%20node%201%20returns%20quickly%20and%20shards%20restart%20as%20slaves.png)
+1. If you receive the following from ***nslookup*** or ***dig***, you may have not set your port properly.
+
+![](img/401-issue-db-port-nslookup-error.png)
+
+![](img/402-issue-db-port-dig-error.png)
+
+2. To check your port setting, check ***rlamdin*** or admin console as follows:
+
+![](img/403-issue-db-port-rladmin.png)
+
+![](img/404-issue-db-port-admin-console.png)
+
 
 52.
 
