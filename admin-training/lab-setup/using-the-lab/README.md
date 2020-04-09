@@ -283,7 +283,7 @@ You've connected to a DNS-resolvable database by command-line and Insight UI.
 
 Now you're ready to stop nodes and see what happens during failover.
 
-## Stop Nodes and Explore Failover
+## Stop a Node and Explore Failover
 
 Return to ***vnc terminal*** to stop and restart nodes and see how failover works.
 
@@ -496,43 +496,46 @@ Note, you didn't need to authenticate this time because you didn't set a databas
 ![](img/404-issue-db-port-admin-console.png)
 
 
-52.
+## Stop a Node and Explore Failover with Replication and Clustering
 
-![](img/146%20-%20step%2046%2C%20stop%20node%202%20with%20master%20shards%20and%20proxy.png)
+1. Return to ***vnc terminal*** and stop node 1.
 
-53.
+```bash
+stop_n1
+```
 
-![](img/148%20-%20step%2048%2C%20node%202%20down%2C%20master%20shards%20back%20on%20node%201%2C%20proxy%20back%20on%20node%201.png)
+![](img/370-node-fail-stop-n1.png)
 
-54.
+2. Return to node 3's SSH shell and review node, proxy, and database status
 
-![](img/149%20-%20step%2049%2C%20stop%202%20nodes%2C%20what%20happens.png)
+```bash
+rladmin status
+```
 
-55.
+Node goes down, proxy migrates, master shards are demoted, and slave shards promote to masters.
 
-![](img/150-%20step%2050%2C%20cluster%20down%2C%20now%20what.png)
+This happens almost instantly in production.
 
-56.
+![](img/410-node-fail2-node1-down-rladmin.png)
 
-![](img/151%20-%20step%2051%2C%20proxy%20down.png)
 
-57.
+3. Node 1 is down. Replica shards are promoted to primaries on node 2. Replica shards on node 1 are down because the node is down.
 
-![](img/152%20-%20step%2052%2C%20restart%20nodes%201%20and%202%2C%20now%20what%20happens.png)
+![](img/411-node-fail2-rladmin-shards-promoted.png)
 
-58.
+4. Connect to ***redis-cli*** on node 3 and notice that data is available because shards are replicated.
 
-![](img/153%20-%20step%2053%2C%20start%20all%20nodes.png)
+![](img/412-node-fail2-cli-data-still-in-db.png)
 
-59.
+5. Restart node 1 in ***vnc terminal***.
 
-![](img/154%20-%20step%2054%2C%20re-create%20cluster.png)
+```bash
+start_n1
+```
 
-60.
+![](img/413-node-back2-start-n1.png)
 
-![](img/155%20-%20step%2055%2C%20no%20cluster%2C%20no%20dbs.png)
+6. If a failed node with primary shards returns in a given time limit, shards restart as replicas to new primaries on other nodes.
 
-61.
-
-![](img/156%20-%20step%2056%2C%20open%20SSH%20to%20base-vm%20and%20manage%20docker%20containers%20and%20images.png)
+![](img/414-node-back2-rladmin-master-shard-restart.png)
 
