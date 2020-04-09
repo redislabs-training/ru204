@@ -342,13 +342,17 @@ start_n1
  
 ```
 
-Again, you see the node that's started (***n1***) and connection closed to the base VM where this command was run.
+Again, you see the node that started (***n1***) and connection closed to the base VM where this command was run.
 
 ![](img/373-node-fail-start-n1.png)
 
-6.
+6. Return to node ***n3*** SSH terminal. Close and re-open the window to regain node 1's tab.
 
-![](img/372-node-fail-start-n1.png)
+Proxy still listens on node 2. DB is running, but is there any data?
+
+![](img/374-node-fail-db-back.png)
+
+
 ![](img/373-node-fail-.png)
 ![](img/374-node-fail-.png)
 ![](img/375-node-fail-.png)
@@ -356,17 +360,6 @@ Again, you see the node that's started (***n1***) and connection closed to the b
 ![](img/377-node-fail-.png)
 ![](img/378-node-fail-.png)
 
-![](img/129%20-%20step%2029%2C%20restart%20node%201.png)
-
-35.
-
-![](img/130%20-%20step%2030%2C%20relaunch%20terminals%20to%20regain%20node%201's%20tab%20and%20check%20proxy%20and%20db.png)
-
-36.
-
-![](img/131%20-%20step%2031%2C%20connection%20still%20works%2C%20data%20gone.png)
-
-37.
 
 ![](img/132%20-%20step%2032%2C%20DNS%20points%20north%20to%20node%202%20proxy.png)
 
