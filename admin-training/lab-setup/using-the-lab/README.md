@@ -86,7 +86,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/318-node-list-3-nodes.png)
 
-## Possible Issues to this Point
+### Possible Issues to this Point
 
 1. Entering the wrong IP (an unreachable one).
 
@@ -100,7 +100,7 @@ When available, click ***Setup*** in node ***n1***'s tag (tab 3) to create the *
 
 ![](img/322-issue-session-timed-out-stuck-loading.png)
 
-## Check your Status Before Moving On
+### Status Check to this Point
 
 1. Go to ***workspace 2*** to view more cluster information. Double click the launcher for ***north node CLIs***. The window opens with 3 tabs SSH'd in to the nodes. On node ***n2*** or ***n3***, run ***rladmin status*** to get info on nodes, databases, endpoints, and shards. Right now you don't have any databases, so nothing shows up for databases, endpoints, or shards.
 
