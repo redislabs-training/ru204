@@ -172,7 +172,29 @@ dig @ns.rlabs.org redis-12000.north.rlabs.org
 
 ![](img/347-db-dig.png)
 
-31.
+Check DNS server config to see how records are configured for a cluster. 
+
+31. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1).
+
+Sign in with credentials: ***root*** and ***password***.
+
+![](img/348-dns-login.png)
+
+32. Navigate to ***Servers > BIND DNS Server***. click the ***rlabs.org*** zone icon at the bottom.
+
+![](img/349-dns-click-rlabs.png)
+
+33. Click ***Edit zone records file*** to view your DNS records
+
+![](img/350-dns-click-edit-zone.png)
+
+This zone file says, for URL requests to the domain ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) that can provide IPs of proxies listening for specific database connections in that cluster. 
+
+This allows proxies to listen on 1 or more nodes and move about as nodes go up or down, databases start or stop, or proxy policies change. You don't want to have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records of the nodes. DNS name servers, running on the nodes will return the IP for a proxy.
+
+![](img/351-dns-zone-file.png)
+
+
 
 ![](img/121%20-%20step%2021%2C%20set%20a%20key.png)
 
