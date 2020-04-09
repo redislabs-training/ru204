@@ -251,29 +251,35 @@ You don't have to change DNS every time that happens. All you supply is the name
 
 ![](img/351-dns-zone-file.png)
 
-## Possible Issues to this Point
+### Status Check to this Point
 
-27.
+1. Double check you can connecct from anywhere.
 
-![](img/122%20-%20step%2022%2C%20add%20the%20db%20to%20redis%20insight.png)
+Go to ***workspace 1*** and open ***Redis Insight*** in Chrome (tab 2), and click ***Add Redis Database > Add Database***.
 
-28.
+![](img/360-insight-add-db.png)
 
-![](img/123%20-%20step%2023%2C%20connect%20insight%20to%20db.png)
+2. Enter a database name (can be anything), host and port, DB password (if given), and click ***Add Redis Database***.
 
-29.
+![](img/361-insight-connect-db.png)
 
-![](img/124%20-%20step%2024%2C%20open%20db%20connection%20in%20insight.png)
+3. If connection is successful, the DB icon appears. Click it to connect.
 
-30.
+![](img/362-insight-click-db.png)
 
-![](img/125%20-%20step%2025%2C%20view%20data%20in%20Insight.png)
+4. Click ***Browser*** to view and work with DB keys and data.
 
-31.
+![](img/363-insight-click-browser.png)
 
-![](img/126%20-%20step%2026%2C%20click%20CLI%20to%20execute%20Redis%20commands%20in%20Insight.png)
+5. Click ***CLI*** to execute Redis commands on the database.
 
-32.
+![](img/364-insight-click-cli.png)
+
+You've connected to a DNS-resolvable database by command-line and Insight UI.
+
+Now you're ready to stop nodes and see what happens during failover.
+
+## Stop Nodes and Explore Failover
 
 ![](img/127%20-%20step%2027%2C%20stop%20n1.png)
 
