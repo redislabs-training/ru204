@@ -416,6 +416,7 @@ Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 | Name | ***another-db*** |
 | Memory limit | ***1 GB*** |
 | Replication | ***enabled*** |
+| Password | ***none - leave it blank*** |
 | Database clustering | ***enabled*** |
 | Endpoint port number | ***13000*** |
 
@@ -425,7 +426,7 @@ Note the number of shards that will be created (4 total).
 
 7. Click ***Activate***.
 
-8. Note the status:
+8. Click the ***databases*** tab and note the status:
 - Shards: 2 primary (4 total)
 - Replication (R) and shard clustering (C) enabled
 
