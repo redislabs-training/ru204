@@ -50,11 +50,11 @@ Here you'll do the following in 85 easy steps:
 
 As nodes start, icons display in tabs and pages return ***502 Bad Gateway*** errors.
 
+Keep refreshing pages. Once running, nodes redirect to a ***Setup*** page where you add the node to a cluster.
+
 ![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
 
-4. Keep refreshing pages. Once running, the node redirects you to its ***Setup*** page where you can add that node to a cluster.
-
-5. When available, click ***Setup*** in the node ***n1*** tab (tab 3). 
+4. When available, click ***Setup*** in the node ***n1*** tab (tab 3). 
 
 Here, you create the ***north.rlabs.org*** cluster and add node ***n1*** to it.
 
@@ -64,51 +64,51 @@ IP address for node ***n1*** displays.
 
 Make sure ***Create Cluster*** is checked.
 
-6. Enter the cluster's Fully Qualified Domain Name ***north.rlabs.org.*** and click ***Next***.
+5. Enter the cluster's Fully Qualified Domain Name ***north.rlabs.org.*** and click ***Next***.
 
 This matches what is set in DNS which you'll see in a minute.
 
 ![](img/309-create-cluster-page.png)
 
-7. You don't have a cluster key so just click ***Next***.
+6. You don't have a cluster key so just click ***Next***.
 
 If you had a license, you'd enter its key here.
 
 ![](img/310-cluster-key-page.png)
 
-8. Enter cluster admin credentials, ***admin@rlabs.org*** and password ***admin***, and click ***Next***.
+7. Enter cluster admin credentials, ***admin@rlabs.org*** and password ***admin***, and click ***Next***.
 
 ![](img/311-cluster-admin-creds-page.png)
 
 You'll be redirected back to the ***Login*** page.
 
-9. Sign in with cluster credentials you just created.
+8. Sign in with cluster credentials you just created.
 
 ![](img/312-login-page.png)
 
-10. Now your node is part of a cluster. From here, you can act on the cluster, nodes, or databases.
+9. Now your node is part of a cluster. From here, you can act on the cluster, nodes, or databases.
 
 ![](img/313-create-db-prompt.png)
 
-11. Click ***nodes*** to view nodes in the cluster. There is only one so far.
+10. Click ***nodes*** to view nodes in the cluster. There is only one so far.
 
 ![](img/314-node-list-1-node.png)
 
-12. Add node ***n2*** to the cluster by clicking its tab and clicking ***Setup***.
+11. Add node ***n2*** to the cluster by clicking its tab and clicking ***Setup***.
 
 ![](img/315-node-2-setup-page.png)
 
 Its IP address displays.
 
-13. Click ***Join Cluster***. Enter the node ***n1*** IP address, cluster admin credentials you just created, and click ***Next***.
+12. Click ***Join Cluster***. Enter the node ***n1*** IP address, cluster admin credentials you just created, and click ***Next***.
 
 ![](img/316-join-cluster-page.png)
 
-14. Now two nodes are in the cluster.
+13. Now two nodes are in the cluster.
 
 ![](img/317-node-list-2-nodes.png)
 
-15. Add node ***n3*** to the cluster by clicking the third node tab and repeat steps for node ***n2***.
+14. Add node ***n3*** to the cluster by clicking the third node tab and repeat steps for node ***n2***.
 
 ![](img/318-node-list-3-nodes.png)
 
