@@ -24,11 +24,11 @@ Here you'll do the following in 85 easy steps:
 
 3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***. Because nodes aren't running yet, shell tabs and SSH connections won't open.
 
-![](img/21%20-%20VNC%20workspace%202%20running.png)
+![](img/302-launch-clis.png)
 
 4. When a node goes down, intentional or otherwise, you lose its SSH terminal. After a node restarts, you close and re-open the terminal window containing the shell to see it again.
 
-![](img/23%20-%20Node%20down%2C%20re-open%20window.png)
+![](img/303-launch-vnc-and-base-vm.png)
 
 5. On ***workspace 3***, you:
 - Use ***vnc terminal*** to start and stop nodes, create clusters, and run DNS Utils
