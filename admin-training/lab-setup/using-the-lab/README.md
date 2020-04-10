@@ -585,17 +585,36 @@ What does that mean? Remember, you've lost 2 of 3 nodes. Your cluster lost quoru
 
 ![](img/423-fail-2-nodes-cluster-down.png)
 
-5. 
+5. But what about the data? You should have that right because proxies keep listening and shards keep responding if quorum is lost.
 
-![](img/424-fail-node2-.png)
+Return to ***Redis Insight***, click ***Browser*** and what do you get?
 
-6. 
+![](img/424-fail-2-nodes-proxy-fails.png)
 
-![](img/425-fail-node2-.png)
+Wait, proxy down! Why is that shouldn't it be listening on whatever node is up and running (like node 3).
 
-7. 
+Not in this case, because the proxy policy was set to ***single*** which means only 1 proxy in the cluster is listening for this database at a time. If you lose quorum, no admin updates can be made by the system, so it couldn't start another proxy listening. If however, you had set up proxy policy to ***all nodes*** then a proxy on every node would be listening and DNS would automatically reroute you to the one still listening and data would continue to be available.
 
-![](img/426-fail-node2-.png)
+You can recreate another database with proxy policy ***all nodes*** and retry these steps to see what happens.
+
+6. Restart nodes 1 and 2 in ***vnc terminal***.
+
+```bash
+start_n1
+start_n2
+```
+
+![](img/425-fail-2-nodes-start-n1-n2.png)
+
+7. Return to node 3's SSH terminal and see what happens.
+
+```bash
+rladmin status
+```
+
+It may take a try or two, but it should come back with your database intact.
+
+![](img/426-fail-2-nodes-cluster-back.png)
 
 8. 
 
