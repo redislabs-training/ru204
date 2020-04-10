@@ -593,13 +593,13 @@ What does that mean? Remember, you've lost 2 of 3 nodes. Your cluster lost quoru
 
 Return to ***Redis Insight***, click ***Browser*** and what do you get?
 
-![](img/424-fail-2-nodes-proxy-fails.png)
-
 Wait, proxy down! Why is that shouldn't it be listening on whatever node is up and running (like node 3).
 
 Not in this case, because the proxy policy was set to ***single*** which means only 1 proxy in the cluster is listening for this database at a time. If you lose quorum, no admin updates can be made by the system, so it couldn't start another proxy listening. If however, you had set up proxy policy to ***all nodes*** then a proxy on every node would be listening and DNS would automatically reroute you to the one still listening and data would continue to be available.
 
 You can recreate another database with proxy policy ***all nodes*** and retry these steps to see what happens.
+
+![](img/424-fail-2-nodes-proxy-fails.png)
 
 6. Restart nodes 1 and 2 in ***vnc terminal***.
 
@@ -624,8 +624,8 @@ It may take a try or two, but it should come back with your database intact.
 
 1. Losing and restoring quorum can hit tricky. If there's anything wrong with your DNS, you might get an error like the following.
 
-
 ![](img/426-fail-2-nodes-cluster-not-returning.png)
+
 
 ## Restoring the nodes and cluster - brute force
 
@@ -653,6 +653,7 @@ Sometimes you need to wait an additional 20 seconds before you run this. If you 
 
 ```bash
 rladmin status
+```
 
 ![](img/429-fail-2-nodes-cluster-back-no-dbs.png)
 
