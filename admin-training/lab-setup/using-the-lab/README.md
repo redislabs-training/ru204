@@ -71,9 +71,9 @@ If you had a license, you'd enter its key here.
 
 ![](img/311-cluster-admin-creds-page.png)
 
-You'll be redirected back to the ***Login*** page.
+8. You're redirected to the ***Login*** page.
 
-8. Sign in with cluster credentials you just created.
+Sign in with cluster credentials you just created.
 
 ![](img/312-login-page.png)
 
