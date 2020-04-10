@@ -383,15 +383,17 @@ Node 2 answers where proxy listens (which happens to be the same node).
 
 Now you're ready to explore a database with more options.
 
-## Add Database Replication and Clustering (i.e. Sharding)
+## Enable Database Replication and Clustering
 
 It's called ***database clustering***, but it splits your data into ***shards***.
 
 This allows databases to scale horizontally for:
-- Large datasets on cheaper hardware
-- Shorter latency with more instances running.
+- Larger datasets on cheap hardware
+- Shorter latency with more instances responding.
 
-Replication and clustering require 4 shards minimum (2 primaries, 2 replicas). Free license only provides 4, so you'll have to remove your old database. It's good to see how to delete a database and what happens.
+Replication and clustering require 4 shards minimum: 2 primaries, 2 replicas.
+
+Free license only provides 4, so you need to remove your old database. 
 
 1. Return to admin console.
 
