@@ -385,21 +385,13 @@ Now you're ready to explore a database with more options.
 
 ## Enable Database Replication and Clustering
 
-It's called ***database clustering***, but it splits your data into ***shards***.
+It's called ***database clustering***, but it splits your data into ***shards***. This allows databases to scale horizontally for larger datasets and shorter latency.
 
-This allows databases to scale horizontally for:
-- Larger datasets on cheap hardware
-- Shorter latency with more instances responding.
+Replication and clustering require 4 shards minimum: 2 primaries, 2 replicas. Free licenses only provide 4, so you need to remove your old database. 
 
-Replication and clustering require 4 shards minimum: 2 primaries, 2 replicas.
+1. Return to admin console and run this from node 1.
 
-Free license only provides 4, so you need to remove your old database. 
-
-1. Return to admin console.
-
-Run this from node 1.
-
-It could be any node, but node 1 will highlight something in DNS later.
+It could be any node, but node 1 will reveal something in DNS later.
 
 Click ***databases*** and the ***demo-db*** link to view, edit, or delete it.
 
