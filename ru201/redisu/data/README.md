@@ -42,9 +42,8 @@ The output should look something like this:
 
 ```
 Created index. Starting ingest.
-Parsed   [▇▇▇▇▇▇▇▇▇▇▇—————————————————————————————————————————————————] 21798/121828 18% 3.5s 19.8s
-Ingested [▇▇▇▇▇▇▇▇▇▇▇—————————————————————————————————————————————————] 21613/121828 18% 3.5s 20.0s (Pipeline 185)
-Speed    [▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇] 6927 docs/sec, ~6928 doc/sec max
+Ingested: 121828 documents.
+Ingested 121828 documents in 15 seconds. Average rate 8122 docs/sec.
 ```
 
 ## Confirmation
