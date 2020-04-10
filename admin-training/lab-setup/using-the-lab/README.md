@@ -89,9 +89,11 @@ Sign in with cluster credentials you just created.
 
 ![](img/315-node-2-setup-page.png)
 
-Its IP address displays.
-
-12. Click ***Join Cluster***. Enter the node ***n1*** IP address, cluster admin credentials you just created, and click ***Next***.
+12. Node 2's IP address displays
+- Click ***Join Cluster***
+- Enter node 1's IP address (it's part of the cluster)
+- Re-enter cluster admin credentials you just created
+- Click ***Next***.
 
 ![](img/316-join-cluster-page.png)
 
@@ -184,15 +186,15 @@ Proxies listen for connections on this port for this database. By default, only 
 
 5. Return to the node ***n3*** SSH terminal to view updates.
 
-You have a database running. It has a single proxy listening on node ***n1***. And it has one shard running on the node where you created the database.
+You have a database running. It has a single proxy listening and one shard running on the node where you created the database (in this case ***n1***).
 
 ![](img/344-db-check-rladmin.png)
 
-Connect to your database using ***redis-cli***.
+6. Connect to your database using ***redis-cli*** on node ***n3***. 
 
-You can run this from anywhere that has DNS resolution to your cluster ***north.rlabs.org***. It's good to test from a host other than the one the endpoint is listening on to make sure DNS is resolving.
+You can run this from anywhere that has DNS resolution to ***north.rlabs.org***.
 
-6. Run ***redis-cli*** on node ***n3***. 
+But it's useful to test from a host other than the one the endpoint is listening on to make sure DNS resolves.
 
 ```bash
 redis-cli -p 12000 -h redis-12000.north.rlabs.org
