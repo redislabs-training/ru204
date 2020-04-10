@@ -225,11 +225,9 @@ set hello world
 
 ![](img/346-db-set-key.png)
 
-Return to ***vnc terminal*** and perform some more DNS checks.
-
-10. Get some information on how DNS resolves your database proxy IP.
-
-Nodes run DNS name servers that resolve DB queries. DNS does not know where proxies are listening, it only knows the nodes.
+10. Return to ***vnc terminal*** and get more information on how DNS resolves DB queries.
+- Nodes run DNS name servers that resolve DB queries to proxy IPs
+- DNS does not know where proxies listen, it only knows nodes.
 
 In this case, ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to DB queries.
 
