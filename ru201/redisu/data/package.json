@@ -12,7 +12,6 @@
     "node": ">=8.11.1"
   },
   "dependencies": {
-    "@magicdawn/ascii-progress": "^1.0.8",
     "csv": "^3.1.0",
     "lodash": "^4.17.15",
     "redis": "^2.8.0",

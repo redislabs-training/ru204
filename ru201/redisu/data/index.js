@@ -14,26 +14,9 @@ const
   idx = argv.idx || 'permits',
   parser = csv.parse({
     columns: true
-  }),
-  ProgressBar = require('@magicdawn/ascii-progress'),
-  parsedDocs = new ProgressBar({
-    current: 0,
-    schema: 'Parsed   [:bar] :current/:total :percent :elapseds :etas'
-  }),
-  ingestedDocsBar = new ProgressBar({
-    current: 0,
-    schema: 'Ingested [:bar] :current/:total :percent :elapseds :etas (Pipeline :pipeline)'
-  }),
-  speedBar = new ProgressBar({
-    current: 0,
-    schema: 'Speed    [:bar] :current docs/sec, ~:total doc/sec max'
   });
 
 redisearch(redis);
-
-if (argv.totaldocs) {
-  ingestedDocsBar.total = parsedDocs.total = argv.totaldocs;
-}
 
 let
   docs = 0,
@@ -148,19 +131,13 @@ parser.on('readable', function () {                                         // w
   }                       // handled CSV errors (should be none)
 });
 let interval = setInterval(function () {
-  if (!argv.totaldocs) {
-    ingestedDocsBar.total = i;
-  } else {
-    parsedDocs.current = i;
-    parsedDocs.tick(0);
+  if (i > 0) {
+    process.stdout.write(`\rIngested: ${i} documents.`);
   }
-  ingestedDocsBar.current = docs;
-  ingestedDocsBar.tick(0, { pipeline: i - docs });
-
 
   if ((csvPermitsLeft === false) && (i === docs)) {
     let totalTime = Math.round((Date.now() - startTime) / 1000);
-    console.log(`Ingested ${docs} documents in ${totalTime} seconds. Average rate ${Math.round(i / totalTime)} docs/sec`);
+    console.log(`\nIngested ${docs} documents in ${totalTime} seconds. Average rate ${Math.round(i / totalTime)} docs/sec.`);
     client.quit();
     clients.forEach(function (aClient) {
       aClient.quit();
@@ -168,25 +145,7 @@ let interval = setInterval(function () {
     clearInterval(interval);
   }
 }, 250);
-let speedHighmark = 0; 0
 let lastDocs = 0;
-
-let speedInterval = setInterval(() => {
-  let docsSec = docs - lastDocs;
-  lastDocs = docs;
-  if (docsSec > speedHighmark) {
-    speedHighmark = docsSec;
-    speedBar.total = speedHighmark + 1;
-  }
-
-  speedBar.current = docsSec;
-  speedBar.tick(0);
-
-
-  if ((csvPermitsLeft === false) && (i === docs)) {
-    clearInterval(speedInterval);
-  }
-}, 1000);
 
 parser.on('error', function (err) {                                         // when the last readable chunk has been procssed
   console.log('csv parse err', err.message);
