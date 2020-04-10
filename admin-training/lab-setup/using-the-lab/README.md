@@ -224,21 +224,22 @@ set hello world
 
 Return to ***vnc terminal*** and perform some more DNS checks.
 
-10. Get some information on how DNS resolves the IP to your database proxy.
+10. Get some information on how DNS resolves your database proxy IP.
+
+Nodes run DNS name servers that resolve DB queries. DNS does not know where proxies are listening, it only knows the nodes.
+
+In this case, ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to DB queries.
 
 ```bash
 dig @ns.rlabs.org redis-12000.north.rlabs.org
 ```
 
-Nodes run name servers that resolve DNS queries for DB proxies. DNS does not know where proxies are listening, it only knows the nodes.
-
-In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries.
-
 ![](img/347-db-dig.png)
 
-Check the DNS server to see how records are configured for this cluster. 
-
-11. Go to ***workspace 1*** and open the ***BIND*** tab in Chrome (tab 1) and sign in with credentials: ***root*** and ***password***.
+11. Check your corporate DNS server to see how records are configured for your cluster. 
+- Go to ***workspace 1*** 
+- Open the ***BIND*** tab (tab 1)
+- Sign in with ***root*** and ***password***.
 
 ![](img/348-dns-login.png)
 
@@ -250,15 +251,16 @@ Check the DNS server to see how records are configured for this cluster.
 
 ![](img/350-dns-click-edit-zone.png)
 
-These zone records say:
+14. These zone records say:
+- For DB requests to cluster ***north.rlabs.org***
+- There are 3 name servers (***n1***, ***n2***, ***n3***) who provide proxy IPs.
 
-"For requests to your cluster ***north.rlabs.org***, there are 3 name servers (***n1***, ***n2***, ***n3***) who can provide listening proxy IPs for your databases." 
+This allows proxies to listen on various nodes and move about as nodes or databases start or stop or configuration changes, without affecting DNS.
+
+All you supply is your cluster name and NS and A records for nodes.
 
 ![](img/351-dns-zone-file.png)
 
-This allows proxies to listen on various nodes and move about as nodes go up or down, databases start or stop, or proxy policies change.
-
-You don't have to change DNS every time that happens. All you supply is the name of your cluster and NS and A records for your nodes.
 
 ### Status Check to this Point
 
