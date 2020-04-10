@@ -565,13 +565,13 @@ stop_n2
 
 You lose node 2's SSH tab, node 2 goes down, the proxy returns to listening on node 1, and so do primary shards.
 
-![](img/421-fail-node2-rladmin.png)
-
 You may wonder why Redis Enterprise isn't using node 3 to run shards and listen on the proxy.
 
 You're using ***dense*** placement which keeps shards on as few nodes as possible with the proxy on the same node for shorter latency.
 
 You could delete the DB and create a new one with ***sparse*** placement and do the same experiments to see what happens.
+
+![](img/421-fail-node2-rladmin.png)
 
 3. Instead, stop a second node and see what happens.
 
@@ -641,7 +641,7 @@ start_north_nodes
 
 There's a 60 second 'sleep' command at the end of the script that waits for nodes to fully start before letting your run the next command. 
 
-![](img/426-fail-2-node-restart-nodes.png)
+![](img/426-fail-2-nodes-restart-nodes.png)
 
 2. Run the next command to recreate the nodes into a cluster.
 
