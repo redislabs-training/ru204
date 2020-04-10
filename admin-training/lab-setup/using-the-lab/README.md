@@ -620,14 +620,40 @@ It may take a try or two, but it should come back with your database intact.
 
 ![](img/426-fail-2-nodes-cluster-back.png)
 
-8. 
+### Possible Issues to this Point
 
-![](img/427-fail-node2-.png)
+1. Losing and restoring quorum can hit tricky. If there's anything wrong with your DNS, you might get an error like the following.
 
-9. 
 
-![](img/428-fail-node2-.png)
+![](img/426-fail-2-nodes-cluster-not-returning.png)
 
-10. 
+## Restoring the nodes and cluster - brute force
 
-![](img/429-fail-node2-.png)
+If you need to restart your cluster for any reason, here's how to do it the brute force way.
+
+Here you delete nodes and restart default ones with no configuration.
+
+1. Return to ***vnc terminal*** and run
+
+```bash
+start_north_nodes
+```
+
+There's a 60 second 'sleep' command at the end of the script that waits for nodes to fully start before letting your run the next command. 
+
+![](img/426-fail-2-node-restart-nodes.png)
+
+2. Run the next command to recreate the nodes into a cluster.
+
+Sometimes you need to wait an additional 20 seconds before you run this. If you get an error, try again.
+
+![](img/428-fail-2-nodes-recreate-cluster.png)
+
+3. Re-launch ***north node CLIs*** on ***workspace 2*** to make sure tabs are open to all nodes and run the following in one of the nodes SSH terminals.
+
+```bash
+rladmin status
+
+![](img/429-fail-2-nodes-cluster-back-no-dbs.png)
+
+Congratulations! That's it. Now you know how to start and stop nodes, put them in clusters, add databases to clusters, investigate DNS, and watch nodes fail and come back.
