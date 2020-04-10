@@ -551,3 +551,60 @@ start_n1
 
 ![](img/414-node-back2-rladmin-master-shard-restart.png)
 
+## Reverse the failover
+
+1. Stop node 2 in ***vnc terminal*** and see what happens.
+
+```bash
+stop_n2
+```
+
+![](img/420-fail-node2-stop-n2.png)
+
+2. Return to node 3's SSH terminal and see what's happening.
+
+You lose node 2's SSH tab, node 2 goes down, the proxy returns to listening on node 1, and so do primary shards.
+
+![](img/421-fail-node2-rladmin.png)
+
+You may wonder why Redis Enterprise isn't using node 3 to run shards and listen on the proxy.
+
+You're using ***dense*** placement which keeps shards on as few nodes as possible with the proxy on the same node for shorter latency.
+
+You could delete the DB and create a new one with ***sparse*** placement and do the same experiments to see what happens.
+
+3. Instead, stop a second node and see what happens.
+
+![](img/422-fail-2-nodes-stop-n1.png)
+
+4. Return to node 3's SSH shell and recheck the status.
+
+After about 30 seconds, the cluster reports an error.
+
+What does that mean? Remember, you've lost 2 of 3 nodes. Your cluster lost quorum and stops responding to admin requests.
+
+![](img/423-fail-2-nodes-cluster-down.png)
+
+5. 
+
+![](img/424-fail-node2-.png)
+
+6. 
+
+![](img/425-fail-node2-.png)
+
+7. 
+
+![](img/426-fail-node2-.png)
+
+8. 
+
+![](img/427-fail-node2-.png)
+
+9. 
+
+![](img/428-fail-node2-.png)
+
+10. 
+
+![](img/429-fail-node2-.png)
