@@ -231,9 +231,9 @@ Return to ***vnc terminal*** and perform some more DNS checks.
 dig @ns.rlabs.org redis-12000.north.rlabs.org
 ```
 
-Nodes run DNS name servers that resolve queries to DB proxies. DNS does not know where proxies are listening, it only knows the nodes.
+Nodes run name servers that resolve DNS queries for DB proxies. DNS does not know where proxies are listening, it only knows the nodes.
 
-In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries for ***redis-12000.north.rlabs.org***.
+In this case, node ***n1*** provides the answer. It's tempting to think that dig is telling you where the proxy is listening, but it's not. It's only telling which node is responding to database queries.
 
 ![](img/347-db-dig.png)
 
@@ -253,7 +253,7 @@ Check the DNS server to see how records are configured for this cluster.
 
 These zone records say:
 
-"For URL requests to ***north.rlabs.org*** (your cluster), there are 3 name servers (***n1***, ***n2***, ***n3***) who can provide IPs of proxies listening for databases in that cluster." 
+"For requests to your cluster ***north.rlabs.org***, there are 3 name servers (***n1***, ***n2***, ***n3***) who can provide listening proxy IPs for your databases." 
 
 ![](img/351-dns-zone-file.png)
 
@@ -383,17 +383,13 @@ Now you're ready to explore a database with more options.
 
 ## Add Database Replication and (Shard) Clustering
 
-It's called ***database clustering***, but you're splitting data into a ***shard cluster***.
+It's called ***database clustering***, but it splits your data into ***shards***.
 
-This allows the database to scale horizontally across nodes for:
-- Larger datasets on cheaper hardware
-- Faster response times with more Redis instances responding.
+This allows a DB to scale horizontally across nodes for:
+- Larger datasets on cheap hardware
+- Shorter latency with more instances responding.
 
-Enabling replication and clustering requires 4 shards (2 primaries, 2 replicas). 
-
-Free license only provides 4, so you'll need them all.
-
-First remove the old database.  It's also good to see how to delete a database and what happens.
+Replication and clustering require 4 shards minimum (2 primaries, 2 replicas). Free license only provides 4, so you'll have to remove your old database. It's good to see how to delete a database and what happens.
 
 1. Return to admin console on node ***n1*** in your cluster.
 
@@ -449,9 +445,9 @@ rladmin status
 ```
 
 There are some subtle, but important things to note:
-- Under ***Databases***: shards are 2 (primaries), placement in ***dense***, and replication is enabled
-- Under ***Endpoints***: the proxy is again listening on node 1 (remmember this, we'll bring it up again in the next step)
-- Under ***Shards***: both primaries are on node 1 and both replicas are on node 2 (this is because placement ***dense*** tries to pack the shards in as few of nodes as possible for faster response times with the proxy on the same node)
+- Under ***Databases***: 2 primary shards, ***dense*** placement, replication
+- Under ***Endpoints***: proxy listening on node 1 again
+- Under ***Shards***: primaries on node 1, replicas on node 2 (***dense*** placement packs shards and proxy in as few of nodes as possible for shorter latency)
 
 ![](img/396-new-db-rladmin.png)
 
@@ -557,13 +553,11 @@ stop_n2
 
 2. Return to node 3's SSH terminal and see what's happening.
 
-You lose node 2's SSH tab, node 2 goes down, the proxy returns to listening on node 1, and so do primary shards.
+You lose node 2's tab, the proxy and primary shards return to node 1.
 
-You may wonder why Redis Enterprise isn't using node 3 to run shards and listen on the proxy.
+You may wonder why your cluster isn't using node 3. Remember, you're using ***dense*** placement.
 
-You're using ***dense*** placement which keeps shards on as few nodes as possible with the proxy on the same node for shorter latency.
-
-You could delete the DB and create a new one with ***sparse*** placement and do the same experiments to see what happens.
+You could try the same steps with ***sparse*** placement and see what happens.
 
 ![](img/421-fail-node2-rladmin.png)
 
@@ -579,7 +573,7 @@ stop_n1
 
 After about 30 seconds, the cluster reports an error.
 
-What does that mean? Remember, you've lost 2 of 3 nodes. Your cluster lost quorum and stops responding to admin requests.
+Why is that? Remember, you lost 2 nodes. Your cluster lost quorum and stops responding to admin requests.
 
 ![](img/423-fail-2-nodes-cluster-down.png)
 
@@ -589,9 +583,9 @@ Return to ***Redis Insight***, click ***Browser*** and what do you get?
 
 Wait, proxy down! Why is that shouldn't it be listening on whatever node is up and running (like node 3).
 
-Not in this case, because the proxy policy was set to ***single*** which means only 1 proxy in the cluster is listening for this database at a time. If you lose quorum, no admin updates can be made by the system, so it couldn't start another proxy listening. If however, you had set up proxy policy to ***all nodes*** then a proxy on every node would be listening and DNS would automatically reroute you to the one still listening and data would continue to be available.
+Not in this case. Proxy policy is set to ***single*** by default. Only 1 proxy listens at a time. If you lose quorum, no admin updates can be made, so a new proxy can't start listening. If you set proxy policy to ***all nodes*** proxies would  be listening and DNS would re-route you automatically.
 
-You can recreate another database with proxy policy ***all nodes*** and retry these steps to see what happens.
+You can repeat these steps with ***all nodes*** proxy policy and see what happens.
 
 ![](img/424-fail-2-nodes-proxy-fails.png)
 
@@ -616,16 +610,14 @@ It may take a try or two, but it should come back with your database intact.
 
 ### Possible Issues to this Point
 
-1. Losing and restoring quorum can hit tricky. If there's anything wrong with your DNS, you might get an error like the following.
+1. Restoring quorum can be hit or miss. If there's anything wrong, say with DNS, you might get an error like the following. If that happens, you can restore a cluster by resetting it or open a Support ticket for help recovering it.
 
 ![](img/426-fail-2-nodes-cluster-not-returning.png)
 
 
 ## Restoring the nodes and cluster - brute force
 
-If you need to restart your cluster for any reason, here's how to do it the brute force way.
-
-Here you delete nodes and restart default ones with no configuration.
+If you need to reset the lab cluster for any reason, here's how to do it by brute force.
 
 1. Return to ***vnc terminal*** and run
 
