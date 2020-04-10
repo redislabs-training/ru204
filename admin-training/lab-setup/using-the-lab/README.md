@@ -17,6 +17,7 @@ Here you'll do the following in 85 easy steps:
 ![](../../lab-use/img/02-vnc-overview.png)
 
 2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
+
 ![](img/301-launch-chrome.png)
 
 3. On ***workspace 2***, you SSH to node VMs and run commands like ***rladmin*** and ***redis-cli***. 
