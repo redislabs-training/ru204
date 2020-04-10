@@ -575,7 +575,11 @@ You could delete the DB and create a new one with ***sparse*** placement and do 
 
 3. Instead, stop a second node and see what happens.
 
-![](img/422-fail-2-nodes-stop-n1.png)
+```bash
+stop_n1
+```
+
+![](img/422-fail-2-nodes-stop-n1-n2.png)
 
 4. Return to node 3's SSH shell and recheck the status.
 
