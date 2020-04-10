@@ -27,8 +27,8 @@ When a node goes down, intentional or otherwise, you lose its SSH terminal. Just
 ![](img/302-launch-clis.png)
 
 4. On ***workspace 3***, you:
-- Use ***vnc terminal*** to start and stop nodes, create clusters, and run DNS Utils
-- Use ***base vm*** to install RE software and see containers running everything.
+- Use ***vnc terminal*** to start and stop nodes, create clusters, and check DNS
+- Use ***base vm*** to install RE software in a lab.
 
 ![](img/303-launch-ssh-terminals.png)
 
