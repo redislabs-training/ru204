@@ -6,11 +6,9 @@ Here you'll do the following in 85 easy steps:
 3. Add a database
 4. Explore DNS
 5. Use Redis Insight
-6. Explore node failover
+6. Fail nodes
 7. Enable replication and clustering
-8. Explore failover with replication and clustering
-9. Stop another node and lose quorum
-10. Restore the nodes and cluster.
+8. Lose quorum and restore the cluster.
 
 ## Use the Lab Environment
 
@@ -18,19 +16,18 @@ Here you'll do the following in 85 easy steps:
 
 ![](../../lab-use/img/02-vnc-overview.png)
 
-2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes. Because nodes aren't running yet, icons in node tabs do not display and admin pages on port ***8443*** return errors. When running, you can sign in to admin consoles and configure cluster, nodes, and databases.
-
+2. On ***workspace 1***, launch Chrome to work with admin consoles for DNS, Redis Insight, and the Redis Enterprise nodes.
 ![](img/301-launch-chrome.png)
 
-3. On ***workspace 2***, you SSH to node VMs and run commands like ***redis-cli***, ***rladmin***, and ***rlcheck***. Because nodes aren't running yet, shell tabs and SSH connections won't open.
+3. On ***workspace 2***, you SSH to node VMs and run commands like ***rladmin*** and ***redis-cli***. 
 
-When a node goes down, intentional or otherwise, you lose its SSH terminal. After a node restarts, you close and re-open the terminal window containing the shell to see it again.
+When a node goes down, intentional or otherwise, you lose its SSH terminal. Just re-open the window when the node's back.
 
 ![](img/302-launch-clis.png)
 
 4. On ***workspace 3***, you:
 - Use ***vnc terminal*** to start and stop nodes, create clusters, and run DNS Utils
-- Use ***base vm*** to install RE software in one of the labs.
+- Use ***base vm*** to install RE software and see containers running everything.
 
 ![](img/303-launch-ssh-terminals.png)
 
