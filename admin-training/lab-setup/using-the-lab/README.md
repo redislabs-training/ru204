@@ -48,13 +48,15 @@ As nodes start, icons display in tabs and pages return ***502 Bad Gateway*** err
 
 ![](img/214-open-chrome.png)
 
-4. Refresh pages. When running, nodes redirect to the ***Setup*** page where you add nodes to clusters.
+4. Refresh pages.
+
+Once running, nodes redirect to the ***Setup*** page where you add nodes to clusters.
 
 ![](img/308-click-setup-to-create-cluster.png)
 
-5. When available, click ***Setup*** in the node ***n1*** tab (tab 3).
+5. When available, click ***Setup*** in node 1's tab (tab 3).
 
-This will let you create your cluster ***north.rlabs.org*** and add node ***n1*** to it:
+Here you create the cluster ***north.rlabs.org*** and add node ***n1*** to it:
 - IP address for node ***n1*** displays
 - Make sure ***Create Cluster*** is checked
 - Enter the cluster's FQDN ***north.rlabs.org*** (you'll see matching DNS settings in a minute)
