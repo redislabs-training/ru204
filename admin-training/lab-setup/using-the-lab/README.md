@@ -48,13 +48,11 @@ When a node goes down, intentional or otherwise, you lose its SSH terminal. Afte
 
 As nodes start, icons display in tabs and pages return ***502 Bad Gateway*** errors.
 
-Keep refreshing pages. Once running, nodes redirect to a ***Setup*** page where you add the node to a cluster.
+![](img/214-open-chrome.png)
 
-![](img/32%20-%20tsh%20-%20502%20bad%20gateway%20-%20nodes%20still%20coming%20up.png)
+4. Keep refreshing pages. Once running, nodes redirect to the ***Setup*** page where you add the node to a cluster.
 
-4. When available, click ***Setup*** in the node ***n1*** tab (tab 3). 
-
-Here, you create the ***north.rlabs.org*** cluster and add node ***n1*** to it.
+When available, click ***Setup*** in the node ***n1*** tab (tab 3) to create the ***north.rlabs.org*** cluster and add node ***n1*** to it. 
 
 ![](img/308-click-setup-to-create-cluster.png)
 
