@@ -54,13 +54,10 @@ When available, click ***Setup*** in the node ***n1*** tab (tab 3) to create the
 
 ![](img/308-click-setup-to-create-cluster.png)
 
-IP address for node ***n1*** displays.
-
-Make sure ***Create Cluster*** is checked.
-
-5. Enter the cluster's Fully Qualified Domain Name ***north.rlabs.org.*** and click ***Next***.
-
-This matches what is set in DNS which you'll see in a minute.
+5. IP address for node ***n1*** displays.
+- Make sure ***Create Cluster*** is checked.
+- Enter the cluster's FQDN ***north.rlabs.org*** (you'll see this matches DNS settings in a minute).
+- Click ***Next***.
 
 ![](img/309-create-cluster-page.png)
 
