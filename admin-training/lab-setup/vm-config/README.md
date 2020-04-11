@@ -162,29 +162,45 @@ EOF
 mkdir scripts
 
 cat << EOF > scripts/start_north_nodes.sh
-docker kill n1; docker rm n1;
-docker kill n2; docker rm n2;
-docker kill n3; docker rm n3;
-docker run --name n1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n1.rlabs.org --ip 172.18.0.21 redislabs/redis
-docker run --name n2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n2.rlabs.org --ip 172.18.0.22 redislabs/redis
-docker run --name n3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n3.rlabs.org --ip 172.18.0.23 redislabs/redis
-docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-sleep 60
+GREEN='\033[1;32m'
+NC='\033[0m'
+printf "removing old nodes ... "
+docker kill n1  >/dev/null; docker rm n1  >/dev/null;
+docker kill n2  >/dev/null; docker rm n2  >/dev/null;
+docker kill n3  >/dev/null; docker rm n3  >/dev/null;
+echo -e "[${GREEN}OK${NC}]"
+printf "starting new nodes ... "
+docker run --name n1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n1.rlabs.org --ip 172.18.0.21 redislabs/redis >/dev/null
+docker run --name n2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n2.rlabs.org --ip 172.18.0.22 redislabs/redis  >/dev/null
+docker run --name n3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n3.rlabs.org --ip 172.18.0.23 redislabs/redis  >/dev/null
+echo -e "[${GREEN}OK${NC}]"
+printf "setting IP routes - wait 60 seconds ... "
+docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+sleep 70
+echo -e "[${GREEN}OK${NC}]"
 EOF
 
 cat << EOF > scripts/start_south_nodes.sh
-docker kill s1; docker rm s1;
-docker kill s2; docker rm s2;
-docker kill s3; docker rm s3;
-docker run --name s1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s1.rlabs.org --ip 172.18.0.31 redislabs/redis
-docker run --name s2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s2.rlabs.org --ip 172.18.0.32 redislabs/redis
-docker run --name s3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s3.rlabs.org --ip 172.18.0.33 redislabs/redis
-docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300"
-sleep 60
+GREEN='\033[1;32m'
+NC='\033[0m'
+printf "removing old nodes ... "
+docker kill s1  >/dev/null; docker rm s1  >/dev/null;
+docker kill s2  >/dev/null; docker rm s2  >/dev/null;
+docker kill s3  >/dev/null; docker rm s3  >/dev/null;
+echo -e "[${GREEN}OK${NC}]"
+printf "starting new nodes ... "
+docker run --name s1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s1.rlabs.org --ip 172.18.0.31 redislabs/redis  >/dev/null
+docker run --name s2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s2.rlabs.org --ip 172.18.0.32 redislabs/redis  >/dev/null
+docker run --name s3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s3.rlabs.org --ip 172.18.0.33 redislabs/redis  >/dev/null
+echo -e "[${GREEN}OK${NC}]"
+printf "setting IP routes - wait 60 seconds ... "
+docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
+sleep 70
+echo -e "[${GREEN}OK${NC}]"
 EOF
 
 cat << EOF > scripts/create_north_cluster.sh
@@ -214,8 +230,8 @@ docker exec -it s3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
 EOF
 
 cat << EOF > scripts/run_dnsutils.sh
-docker kill dnsutils; docker rm dnsutils
-docker run --name dnsutils -it --net rlabs --dns 172.18.0.20 --hostname dnsutils.rlabs.org --ip 172.18.0.6 tutum/dnsutils
+docker kill dnsutils  >/dev/null 2>&1; docker rm dnsutils  >/dev/null 2>&1
+docker run --name dnsutils -it --net rlabs --dns 172.18.0.20 --hostname dnsutils.rlabs.org --ip 172.18.0.6 tutum/dnsutils 
 EOF
 
 # make the scripts executable
@@ -230,9 +246,6 @@ chmod 755 scripts/run_dnsutils.sh
 12. Create the Docker network.
 
 ```bash
-#mkdir resolve
-#echo 'nameserver 172.18.0.20' > resolve/resolv.conf
-
 docker network create --subnet=172.18.0.0/16 rlabs
  
 ```
