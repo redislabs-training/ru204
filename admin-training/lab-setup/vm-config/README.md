@@ -188,7 +188,7 @@ sleep 60
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-echo "Closing connection."
+echo "Closing SSH connection..."
 EOF
 
 cat << EOF > scripts/start_south_nodes.sh
@@ -218,21 +218,20 @@ sleep 60
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-echo "Closing connection."
+echo "Closing SSH connection..."
 EOF
 
 cat << EOF > scripts/create_north_cluster.sh
 docker exec -it n1 bash -c "/opt/redislabs/bin/rladmin cluster create persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.21 \
         name north.rlabs.org username admin@rlabs.org password admin";
-
 docker exec -it n2 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.22 \
         username admin@rlabs.org password admin nodes 172.18.0.21";
-
 docker exec -it n3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.23 \
         username admin@rlabs.org password admin nodes 172.18.0.21";
+echo "Closing SSH connection..."
 EOF
 
 cat << EOF > scripts/create_south_cluster.sh
@@ -245,6 +244,7 @@ docker exec -it s2 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
 docker exec -it s3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.33 \
         username admin@rlabs.org password admin nodes 172.18.0.31";
+echo "Closing SSH connection..."
 EOF
 
 cat << EOF > scripts/run_dnsutils.sh
