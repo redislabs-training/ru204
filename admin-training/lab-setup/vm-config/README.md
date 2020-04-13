@@ -184,8 +184,11 @@ printf "Setting IP routes - takes 60 seconds... "
 docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
-sleep 70
+sleep 60
 echo -e "${GREEN}ok${NC}"
+
+sleep 1
+echo "Closing connection."
 EOF
 
 cat << EOF > scripts/start_south_nodes.sh
@@ -211,8 +214,11 @@ printf "Setting IP routes - takes 60 seconds... "
 docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
-sleep 70
+sleep 60
 echo -e "${GREEN}ok${NC}"
+
+sleep 1
+echo "Closing connection."
 EOF
 
 cat << EOF > scripts/create_north_cluster.sh
