@@ -166,7 +166,6 @@ GREEN='\033[1;32m'
 NC='\033[0m'
 
 sleep 1 
-
 printf "Removing old nodes... "
 docker kill n1  >/dev/null; docker rm n1  >/dev/null;
 docker kill n2  >/dev/null; docker rm n2  >/dev/null;
@@ -174,7 +173,6 @@ docker kill n3  >/dev/null; docker rm n3  >/dev/null;
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-
 printf "Starting new nodes... "
 docker run --name n1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n1.rlabs.org --ip 172.18.0.21 redislabs/redis >/dev/null
 docker run --name n2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n2.rlabs.org --ip 172.18.0.22 redislabs/redis  >/dev/null
@@ -182,8 +180,7 @@ docker run --name n3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-
-printf "Setting IP routes - wait 60 seconds... "
+printf "Setting IP routes - takes 60 seconds... "
 docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
@@ -196,7 +193,6 @@ GREEN='\033[1;32m'
 NC='\033[0m'
 
 sleep 1
-
 printf "Removing old nodes... "
 docker kill s1  >/dev/null; docker rm s1  >/dev/null;
 docker kill s2  >/dev/null; docker rm s2  >/dev/null;
@@ -204,7 +200,6 @@ docker kill s3  >/dev/null; docker rm s3  >/dev/null;
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-
 printf "Starting new nodes... "
 docker run --name s1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s1.rlabs.org --ip 172.18.0.31 redislabs/redis  >/dev/null
 docker run --name s2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s2.rlabs.org --ip 172.18.0.32 redislabs/redis  >/dev/null
@@ -212,8 +207,7 @@ docker run --name s3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-
-printf "Setting IP routes - wait 60 seconds... "
+printf "Setting IP routes - takes 60 seconds... "
 docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
