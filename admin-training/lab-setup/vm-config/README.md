@@ -162,14 +162,19 @@ EOF
 mkdir scripts
 
 cat << EOF > scripts/start_north_nodes.sh
-GREEN='\033[1;32m'
-NC='\033[0m'
+RED='\e[1;31;1m'
+GREEN='\e[1;32;1m'
+YELLOW='\e[1;33;1m'
+BLUE='\e[1;34;1m'
+MAGENTA='\e[1;35;1m'
+CYAN='\e[1;36;1m'
+NC='\e[0m'
 
 sleep 1 
 printf "Removing old nodes... "
-docker kill n1  >/dev/null; docker rm n1  >/dev/null;
-docker kill n2  >/dev/null; docker rm n2  >/dev/null;
-docker kill n3  >/dev/null; docker rm n3  >/dev/null;
+docker kill n1  >/dev/null 2>&1; docker rm n1  >/dev/null 2>&1
+docker kill n2  >/dev/null 2>&1; docker rm n2  >/dev/null 2>&1
+docker kill n3  >/dev/null 2>&1; docker rm n3  >/dev/null 2>&1
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
@@ -180,7 +185,14 @@ docker run --name n3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-printf "Setting IP routes - takes 60 seconds... "
+printf "Changing prompt colors... "
+docker exec n1 bash -c "echo \"export PS1='${MAGENTA}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+docker exec n2 bash -c "echo \"export PS1='${YELLOW}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+docker exec n3 bash -c "echo \"export PS1='${GREEN}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+echo -e "${GREEN}ok${NC}"
+
+sleep 1
+printf "Creating IP routes - takes 60 seconds... "
 docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
@@ -197,9 +209,9 @@ NC='\033[0m'
 
 sleep 1
 printf "Removing old nodes... "
-docker kill s1  >/dev/null; docker rm s1  >/dev/null;
-docker kill s2  >/dev/null; docker rm s2  >/dev/null;
-docker kill s3  >/dev/null; docker rm s3  >/dev/null;
+docker kill s1  >/dev/null 2>&1; docker rm s1  >/dev/null 2>&1
+docker kill s2  >/dev/null 2>&1; docker rm s2  >/dev/null 2>&1
+docker kill s3  >/dev/null 2>&1; docker rm s3  >/dev/null 2>&1
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
@@ -210,7 +222,14 @@ docker run --name s3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-printf "Setting IP routes - takes 60 seconds... "
+printf "Changing prompt colors... "
+docker exec s1 bash -c "echo \"export PS1='${MAGENTA}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+docker exec s2 bash -c "echo \"export PS1='${YELLOW}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+docker exec s3 bash -c "echo \"export PS1='${GREEN}\u@\h${NC}:${BLUE}\w${NC}$ '\" >> ~/.bashrc"
+echo -e "${GREEN}ok${NC}"
+
+sleep 1
+printf "Creating IP routes - takes 60 seconds... "
 docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
@@ -218,7 +237,7 @@ sleep 60
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-echo "Closing SSH connection..."
+echo "Closing SSH connection."
 EOF
 
 cat << EOF > scripts/create_north_cluster.sh
