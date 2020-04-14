@@ -28,6 +28,12 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
+    if (request.url.endsWith('/courses') || request.url.endsWith('/courses/')) {
+        // Always redirect /courses to /#courses and serve page
+        // from the static site.
+        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses`), 302)
+    }
+
     const r = new Router()
    
     // This is the Tahoe host.
@@ -62,7 +68,7 @@ async function handleRequest(request) {
     //     mapURIPattern(r, '/')
     // }
     
-    // Always make the home page the static site.
+    // Always override /
     mapURIPattern(r, '/')
 
     // Send everything else to origin.
