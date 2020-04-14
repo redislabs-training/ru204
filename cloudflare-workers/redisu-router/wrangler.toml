@@ -1,9 +1,9 @@
 name = "my-router"
 type = "webpack"
-account_id = "e029dc142accb772d1bb41afd50b70d4"
-route = "testinstance.crudworks.org/*"
-zone_id = "9e975b15f453297c0f8e0bf695c3ebfd"
+account_id = "085eb14f95a179f56e42dad3d215212d"
+route = "stage-university.redislabs.com/*"
+zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
 
 [vars]
-TAHOE_HOST = "testinstance.crudworks.org"
+TAHOE_HOST = "stage-university.redislabs.com"
 STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod"
