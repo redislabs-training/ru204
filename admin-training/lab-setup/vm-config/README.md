@@ -181,21 +181,21 @@ printf "Removing old nodes... "
 docker kill n1  >/dev/null 2>&1; docker rm n1  >/dev/null 2>&1
 docker kill n2  >/dev/null 2>&1; docker rm n2  >/dev/null 2>&1
 docker kill n3  >/dev/null 2>&1; docker rm n3  >/dev/null 2>&1
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Starting new nodes... "
 docker run --name n1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n1.rlabs.org --ip 172.18.0.21 redislabs/redis >/dev/null
 docker run --name n2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n2.rlabs.org --ip 172.18.0.22 redislabs/redis  >/dev/null
 docker run --name n3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname n3.rlabs.org --ip 172.18.0.23 redislabs/redis  >/dev/null
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec n1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:${MAGENTA2}\w${NC}$ '\" >> ~/.bashrc"
-docker exec n2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N2]${NC}:${YELLOW2}\w${NC}$ '\" >> ~/.bashrc"
-docker exec n3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N3]${NC}:${GREEN2}\w${NC}$ '\" >> ~/.bashrc"
-echo -e "${GREEN}ok${NC}"
+docker exec n1 bash -c "echo \"export PS1='\u@\${MAGENTA}[Node-N1]\${NC}:\${MAGENTA2}\w\${NC}$ '\" >> ~/.bashrc"
+docker exec n2 bash -c "echo \"export PS1='\u@\${YELLOW}[Node-N2]\${NC}:\${YELLOW2}\w\${NC}$ '\" >> ~/.bashrc"
+docker exec n3 bash -c "echo \"export PS1='\u@\${GREEN}[Node-N3]\${NC}:\${GREEN2}\w\${NC}$ '\" >> ~/.bashrc"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Creating IP routes - wait 60 seconds... "
@@ -203,10 +203,10 @@ docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport
 docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 sleep 60
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
-echo -e "${GREEN}Done${NC} - Closing connection... "
+echo -e "\${GREEN}Done\${NC} - Closing connection... "
 sleep 2
 EOF
 
