@@ -162,7 +162,6 @@ EOF
 mkdir scripts
 
 cat << EOF > scripts/start_north_nodes.sh
-GRAY='\e[30;1m'
 RED='\e[31;1m'
 GREEN='\e[32;1m'
 YELLOW='\e[33;1m'
@@ -187,13 +186,13 @@ echo -e "${GREEN}ok${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec n1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
-docker exec n2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
-docker exec n3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
+docker exec n1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec n2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec n3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-printf "Creating IP routes - takes 60 seconds... "
+printf "Creating IP routes - wait 60 seconds... "
 docker exec --user root n1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root n3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
@@ -201,12 +200,11 @@ sleep 60
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-echo "${GREEN}Done${NC} - Closing connection... "
+echo -e "${GREEN}Done${NC} - Closing connection... "
 sleep 2
 EOF
 
 cat << EOF > scripts/start_south_nodes.sh
-GRAY='\e[30;1m'
 RED='\e[31;1m'
 GREEN='\e[32;1m'
 YELLOW='\e[33;1m'
@@ -231,13 +229,13 @@ echo -e "${GREEN}ok${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec s1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
-docker exec s2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
-docker exec s3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N1]${NC}:${GRAY}\w${NC}$ '\" >> ~/.bashrc"
+docker exec s1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-S1]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec s2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-S2]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec s3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-S3]${NC}:\w$ '\" >> ~/.bashrc"
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-printf "Creating IP routes - takes 60 seconds... "
+printf "Creating IP routes - wait 60 seconds... "
 docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
@@ -245,11 +243,13 @@ sleep 60
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
-echo "${GREEN}Done${NC} - Closing connection... "
+echo -e "${GREEN}Done${NC} - Closing connection... "
 sleep 2
 EOF
 
 cat << EOF > scripts/create_north_cluster.sh
+GREEN='\e[32;1m'
+NC='\e[0m'
 docker exec -it n1 bash -c "/opt/redislabs/bin/rladmin cluster create persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.21 \
         name north.rlabs.org username admin@rlabs.org password admin";
@@ -260,11 +260,13 @@ docker exec -it n3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.23 \
         username admin@rlabs.org password admin nodes 172.18.0.21";
 sleep 1
-echo "${GREEN}Done${NC} - Closing connection... "
+echo -e "${GREEN}Done${NC} - Closing connection... "
 sleep 2
 EOF
 
 cat << EOF > scripts/create_south_cluster.sh
+GREEN='\e[32;1m'
+NC='\e[0m'
 docker exec -it s1 bash -c "/opt/redislabs/bin/rladmin cluster create persistent_path \
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.31 \
         name south.rlabs.org username admin@rlabs.org password admin";
@@ -275,7 +277,7 @@ docker exec -it s3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.33 \
         username admin@rlabs.org password admin nodes 172.18.0.31";
 sleep 1
-echo "${GREEN}Done${NC} - Closing connection... "
+echo -e "${GREEN}Done${NC} - Closing connection... "
 sleep 2
 EOF
 
