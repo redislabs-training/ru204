@@ -168,6 +168,12 @@ YELLOW='\e[33;1m'
 BLUE='\e[34;1m'
 MAGENTA='\e[35;1m'
 CYAN='\e[36;1m'
+RED2='\e[31m'
+GREEN2='\e[32m'
+YELLOW2='\e[33m'
+BLUE2='\e[34m'
+MAGENTA2='\e[35m'
+CYAN2='\e[36m'
 NC='\e[0m'
 
 sleep 1 
@@ -186,9 +192,9 @@ echo -e "${GREEN}ok${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec n1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
-docker exec n2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
-docker exec n3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N1]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec n1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-N1]${NC}:${MAGENTA2}\w${NC}$ '\" >> ~/.bashrc"
+docker exec n2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-N2]${NC}:${YELLOW2}\w${NC}$ '\" >> ~/.bashrc"
+docker exec n3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-N3]${NC}:${GREEN2}\w${NC}$ '\" >> ~/.bashrc"
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
@@ -211,6 +217,12 @@ YELLOW='\e[33;1m'
 BLUE='\e[34;1m'
 MAGENTA='\e[35;1m'
 CYAN='\e[36;1m'
+RED2='\e[31m'
+GREEN2='\e[32m'
+YELLOW2='\e[33m'
+BLUE2='\e[34m'
+MAGENTA2='\e[35m'
+CYAN2='\e[36m'
 NC='\e[0m'
 
 sleep 1
@@ -229,9 +241,9 @@ echo -e "${GREEN}ok${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec s1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-S1]${NC}:\w$ '\" >> ~/.bashrc"
-docker exec s2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-S2]${NC}:\w$ '\" >> ~/.bashrc"
-docker exec s3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-S3]${NC}:\w$ '\" >> ~/.bashrc"
+docker exec s1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-S1]${NC}:${MAGENTA2}\w${NC}$ '\" >> ~/.bashrc"
+docker exec s2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-S2]${NC}:${YELLOW2}\w${NC}$ '\" >> ~/.bashrc"
+docker exec s3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-S3]${NC}:${GREEN2}\w${NC}$ '\" >> ~/.bashrc"
 echo -e "${GREEN}ok${NC}"
 
 sleep 1
