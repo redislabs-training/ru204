@@ -176,6 +176,9 @@ MAGENTA2='\e[35m'
 CYAN2='\e[36m'
 NC='\e[0m'
 
+# had to add '\' before every color variable '\${GREEN}'
+# otherwise copy-paste to 'cat' dereferences each variable during copy-paste when building initial VM image
+
 sleep 1 
 printf "Removing old nodes... "
 docker kill n1  >/dev/null 2>&1; docker rm n1  >/dev/null 2>&1
@@ -230,21 +233,21 @@ printf "Removing old nodes... "
 docker kill s1  >/dev/null 2>&1; docker rm s1  >/dev/null 2>&1
 docker kill s2  >/dev/null 2>&1; docker rm s2  >/dev/null 2>&1
 docker kill s3  >/dev/null 2>&1; docker rm s3  >/dev/null 2>&1
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Starting new nodes... "
 docker run --name s1 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s1.rlabs.org --ip 172.18.0.31 redislabs/redis  >/dev/null
 docker run --name s2 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s2.rlabs.org --ip 172.18.0.32 redislabs/redis  >/dev/null
 docker run --name s3 -d --restart=always --cap-add=ALL --net rlabs --dns 172.18.0.20 --hostname s3.rlabs.org --ip 172.18.0.33 redislabs/redis  >/dev/null
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Changing prompt colors... "
-docker exec s1 bash -c "echo \"export PS1='${NC}\u@${MAGENTA}[Node-S1]${NC}:${MAGENTA2}\w${NC}$ '\" >> ~/.bashrc"
-docker exec s2 bash -c "echo \"export PS1='${NC}\u@${YELLOW}[Node-S2]${NC}:${YELLOW2}\w${NC}$ '\" >> ~/.bashrc"
-docker exec s3 bash -c "echo \"export PS1='${NC}\u@${GREEN}[Node-S3]${NC}:${GREEN2}\w${NC}$ '\" >> ~/.bashrc"
-echo -e "${GREEN}ok${NC}"
+docker exec s1 bash -c "echo \"export PS1='\u@\${MAGENTA}[Node-S1]\${NC}:\${MAGENTA2}\w\${NC}$ '\" >> ~/.bashrc"
+docker exec s2 bash -c "echo \"export PS1='\u@\${YELLOW}[Node-S2]\${NC}:\${YELLOW2}\w\${NC}$ '\" >> ~/.bashrc"
+docker exec s3 bash -c "echo \"export PS1='\u@\${GREEN}[Node-S3]\${NC}:\${GREEN2}\w\${NC}$ '\" >> ~/.bashrc"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
 printf "Creating IP routes - wait 60 seconds... "
@@ -252,10 +255,10 @@ docker exec --user root s1 bash -c "iptables -t nat -I PREROUTING -p udp --dport
 docker exec --user root s2 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 docker exec --user root s3 bash -c "iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300  >/dev/null"
 sleep 60
-echo -e "${GREEN}ok${NC}"
+echo -e "\${GREEN}ok\${NC}"
 
 sleep 1
-echo -e "${GREEN}Done${NC} - Closing connection... "
+echo -e "\${GREEN}Done\${NC} - Closing connection... "
 sleep 2
 EOF
 
@@ -272,7 +275,7 @@ docker exec -it n3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.23 \
         username admin@rlabs.org password admin nodes 172.18.0.21";
 sleep 1
-echo -e "${GREEN}Done${NC} - Closing connection... "
+echo -e "\${GREEN}Done\${NC} - Closing connection... "
 sleep 2
 EOF
 
@@ -289,7 +292,7 @@ docker exec -it s3 bash -c "/opt/redislabs/bin/rladmin cluster join persistent_p
         /var/opt/redislabs/persist ephemeral_path /var/opt/redislabs/tmp addr 172.18.0.33 \
         username admin@rlabs.org password admin nodes 172.18.0.31";
 sleep 1
-echo -e "${GREEN}Done${NC} - Closing connection... "
+echo -e "\${GREEN}Done\${NC} - Closing connection... "
 sleep 2
 EOF
 
