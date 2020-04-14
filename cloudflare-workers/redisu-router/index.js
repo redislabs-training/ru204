@@ -74,5 +74,18 @@ async function handleRequest(request) {
     // Send everything else to origin.
     mapURIPattern(r, '.*', originHost)
 
-    return await r.route(request)
+    const response = await r.route(request)
+
+    if (response.status === 404) {
+        const fourZeroFour = await fetch(`https://${STATIC_HOST}/404/`)
+        const pageText = await fourZeroFour.text()
+        return new Response(pageText, {
+            status: 404,
+            headers: {
+                'content-type': 'text/html'
+            }
+        }) 
+    }
+
+    return response
 }
