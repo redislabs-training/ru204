@@ -29,9 +29,9 @@ Docker images are stored in GCR.
 
 Requirement | Specification
 ------------|--------------
-Name | ***admin-training-vpc***
+Name | ***training***
 Subnet Creation Mode | Custom
-Subnet Name | ***admin-training-subnet***
+Subnet Name | ***training-subnet***
 Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
@@ -40,12 +40,13 @@ Subnet IP Address Range | 172.18.0.0/16
   
 Requirement  | Specification  
 ------------ | -------------
-Name | ***admin-training-stage-1***
+Name | ***admin-training-1***
+Zone | us-west1-b
 CPU | 4
 Memory | 15 GB
 OS | Ubuntu 18.04 LTS
 Disk | 30 GB
-Networking | ***admin-training-vpc***
+Networking | ***training***
   
 ## SSH to the VM
 
