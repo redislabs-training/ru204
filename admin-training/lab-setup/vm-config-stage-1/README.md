@@ -1,11 +1,11 @@
 # Admin Training VM Setup - Stage 1
 
-Here are steps to build the VM image from Ubuntu 18.04 with:
+Here are steps to build VM Stage 1 from Ubuntu 18.04 with:
 - Docker networking
-- vanilla VNC
-- vanilla DNS
+- Vanilla DNS
+- Vanilla VNC
 - Redis Insight
-- Node containers stopped and removed.
+- Node containers - stopped and removed.
 
 Nodes will run in containers, but they look like VMs as shown.
 
@@ -14,13 +14,13 @@ Nodes will run in containers, but they look like VMs as shown.
 All students need is the VM's public IP and VNC password (provided by instructor).
 
 Setup is built in three stages:
-1. Start Docker, VNC, DNS
+1. Start Docker, DNS, VNC, nodes
 2. Configure DNS
 2. Configure VNC.
 
-For easy re-config, each stage produces a snapshot, image, and template.
+For easy re-config, each stage produces a snapshot and image.
 
-Stages 2 and 3 also produce re-usable Docker images for DNS and VNC config.
+Stages 2 and 3 also produce Docker images for DNS and VNC.
 
 Docker images are stored in GCR.
 
@@ -94,7 +94,14 @@ apt-get -y install docker-ce
  
 ```
 
-4. Run ***sudo visudo*** and add the following line so ***trainee*** can start and stop containers without ***sudo***.
+4. Run 
+
+```bash
+sudo visudo
+ 
+```
+
+and add the following line so ***trainee*** can start and stop containers without ***sudo***.
 
 ```bash
 trainee ALL=(ALL) NOPASSWD:ALL
@@ -108,7 +115,13 @@ sudo su - trainee
  
 ```
 
-6. Uncomment the following line in the user's ***.bashrc*** file so the base VM prompt is ***green*** and you can tell it apart from the ***yellow*** VNC container prompt.
+6. Run
+
+```bash
+vi .bashrc
+ 
+```
+and uncomment the following line so ***trainee***'s base VM prompt is ***green*** and you can tell it apart from the ***yellow*** VNC user prompt.
 
 ```bash
 #force_color_prompt
