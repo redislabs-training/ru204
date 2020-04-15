@@ -23,17 +23,17 @@ docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
 
 5. Open a laptop browser and point it to the VMs public IP
 
-6. Sign in to VNC desktop with password 'trainee!'
+6. Sign in to VNC desktop with password ***trainee!***
 
 7. Right click desktop
 
-8. Choose Desktop Settings and click the image - it will appear as the background
+8. Choose ***Desktop Settings*** and click the image - it will appear as the background
 
-9. Choose the Icons tab and remove default icons except Chrome
+9. Choose the ***Icons*** tab and remove default icons except Chrome
 
-10. Right-click desktop to open Applications > Settings > Appearance
+10. Right-click desktop to open ***Applications > Settings > Appearance***
 
-11. Choose 'xfce-4.2' to change the theme
+11. Choose ***xfce-4.2*** to change the theme
 
 12. Right click the menu bar and remove the following:
 - Clock
@@ -44,20 +44,20 @@ docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
 13. Right click the workspace selector in the menu bar
 
 14. Decrease the number to 3 and name the workspaces as:
-- admin UIs
-- node terminals
-- vnc and base VM
+- ***admin UIs***
+- ***node terminals***
+- ***vnc and base VM***
 
 Adjust Chrome launcher to open Chrome in the same place every time without warnings or errors and tabs and bookmarks to admin console UIs
 
-1. Right click the desktop and go to Applications > Settings > Preferred Apps
+1. Right click the desktop and go to ***Applications > Settings > Preferred Apps***
 
 2. Select Chrome as the default browser
 
-3. Right click Chrome launcher and choose Edit Launcher
+3. Right click Chrome launcher and choose ***Edit Launcher***
 
 4. In 'Command' field
-- Remove 'U%'
+- Remove ***U%***
 - Add the following so Chrome opens in the same place every time
 
 ```bash
@@ -83,18 +83,18 @@ https://s3:8443
 
 8. Save each as a bookmark in the bookmark bar
 
-9. Go to Settings > Appearance and set the following:
-- Disable 'Use system title bar and borders'
-- Enable 'Show bookmarks bar'
+9. Go to ***Settings > Appearance*** and set the following:
+- Disable ***Use system title bar and borders***
+- Enable ***Show bookmarks bar***
 - Select Chromium as default browser
 - Set current pages to open on start up.
 
 Create 4 terminal window launchers for Redis Enterprise nodes, VNC terminal, and base VM.
 
-1. Right click the desktop and select 'Create Launcher'
+1. Right click the desktop and select ***Create Launcher***
 
 2. Set up the first launcher for north cluster RE nodes as follows:
-- Name: north node CLIs
+- Name: ***north node CLIs***
 - Command:
 ```bash
 xfce4-terminal --geometry=113x24+130+0 --hide-menubar
@@ -103,12 +103,12 @@ xfce4-terminal --geometry=113x24+130+0 --hide-menubar
 --tab -T "n3" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it n3 bash'"
 ```
 - Run as terminal: checked
-- Icon: click and select 'utilities terminal'
+- Icon: click and select ***utilities terminal***
 
-3. Click Create
+3. Click ***Create***
 
 4. Set up another launcher for south cluster nodes as follows:
-- Name: south node CLIs
+- Name: ***south node CLIs***
 - Command:
 ```bash
 xfce4-terminal --geometry=113x20+130+520 --hide-menubar
@@ -117,25 +117,25 @@ xfce4-terminal --geometry=113x20+130+520 --hide-menubar
 --tab -T "s3" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it s3 bash'"
 ```
 - Run as terminal: checked
-- Icon: click and select 'utilities terminal'
+- Icon: click and select ***utilities terminal***
 
 5. Set up another launcher for the VNC terminal shell as follows:
-- Name: vnc terminal
+- Name: ***vnc terminal***
 - Command: 
 ```bash
 xfce4-terminal --geometry=113x24+130+0 --hide-menubar
 ```
 - Run as terminal: checked
-- Icon: click and select the 'Actions' drop-down item and 'Refresh'
+- Icon: click and select the ***Actions*** drop-down item and ***Refresh***
 
 6. Set up another launcher for the base VM terminal shell as follows:
-- Name: base VM
+- Name: ***base VM***
 - Command:
 ```bash
 xfce4-terminal --geometry=113x22+130+520 --hide-menubar -e "bash -c 'ssh -t trainee@172.18.0.1'"
 ```
 - Run as terminal: checked
-- Icon: click and select 'System Software Installer'
+- Icon: click and select ***System Software Installer***
 
 7. Close, re-open, and re-close all launchers windows to make sure they open in the right places and without issues.
 
