@@ -1,6 +1,29 @@
 # Reconfigure Stage 1 VM
 
-These steps assume you:
+***IMPORTANT:***
+
+If you're making DNS changes, use original ***admin-training-stage-1*** and ***admin-training-stage-2*** VMs. This will save you from having to generate new SSH keys shared by VM image and VNC Docker image.
+
+If making VNC script or configuration changes, use new VMs from ***admin-training-stage-1*** and ***admin-training-stage-2*** 
+
+## Stage 1 changes:
+- Start the ***admin-training-stage-1*** VM with ***configured-dns*** and ***vanilla-vnc*** containers running
+- Make changes to DNS or scripts
+- Commit DNS changes to ***gcr.io/redislabs-university/admin-training-dns*** and re-download it
+- Stop and remove any node containers
+- Save your work in a new VM snapshot and image
+
+## Stage 2 changes:
+- Start the original ***admin-training-stage-2*** VM with ***configured-dns** and ***vanilla-vnc*** containers
+- Replace DNS changes in ***configured-dns*** with ***gcr.io/redislabs-university/admin-training-dns***
+- Replace script changes in ***vanilla-vnc*** with ***gcr.io/redislabs-university/admin-training-vnc***
+- Stop and remove any node containers you may have started running
+- Remove /headless/.ssh/config if one was created
+- Save your work in a new VM snapshot and image
+
+If you need to start with a new VM Stage 1 image (new OS or machine type), you will also need to 
+
+
 - ***DO NOT need to reconfigure DNS*** - you can use the old DNS gcr.io Docker image
 - ***DO need to reconfigure VNC*** - you need to regenerate the secret SSH key shared by VM and VNC container so students can silently authenicate as the 'treainee' user and start/stop nodes without a password 
 
