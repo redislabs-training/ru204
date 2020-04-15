@@ -5,6 +5,7 @@ Here are steps to build the VM image from Ubuntu 18.04 with:
 - vanilla VNC
 - vanilla DNS
 - Redis Insight
+- Node containers stopped and removed.
 
 Nodes will run in containers, but they look like VMs as shown.
 
@@ -48,7 +49,7 @@ OS | Ubuntu 18.04 LTS
 Disk | 30 GB
 Networking | ***training***
   
-## SSH to the VM
+## Install Docker
 
 1. SSH to the base VM from GCP console to finish setup.
 
@@ -120,21 +121,7 @@ docker network create --subnet=172.18.0.0/16 rlabs
  
 ```
 
-8. Run the Xfce VNC container so the VM has a UI.
-
-```bash
-docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901 consol/ubuntu-xfce-vnc
- 
-```
-
-9. Run ***Redis Insight*** so students can view databases in a UI.
-
-```bash
-docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
- 
-```
-
-10. Run ***BIND*** DNS so node and cluster names can be resolved on your private network.
+8. Run ***BIND*** DNS so URLs can get resolved on the Docker network (config is done in stage 2).
 
 ```bash
 docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
@@ -145,6 +132,20 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 
 ```bash
 docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
+```
+
+9. Run ***Xfce VNC*** so the VM has a UI on port 80 (config is done in stage 3).
+
+```bash
+docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901 consol/ubuntu-xfce-vnc
+ 
+```
+
+10. Run ***Redis Insight*** so students can explore databases in a UI.
+
+```bash
+docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
+ 
 ```
 
 ## Add scripts to run nodes and create clusters
@@ -315,7 +316,7 @@ chmod 755 scripts/run_dnsutils.sh
 
 5. Sign in with ***root*** and ***password*** .
 
-## Check nodes and clusters get created
+## Check node and cluster creation
 
 1. From the GCP shell terminal, start nodes:
 
