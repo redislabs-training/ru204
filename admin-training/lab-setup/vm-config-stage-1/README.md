@@ -336,15 +336,15 @@ chmod 755 scripts/run_dnsutils.sh
 1. From the GCP shell terminal, start nodes:
 
 ```bash
-start_north_nodes
-start_south_nodes
+scripts/start_north_nodes.sh
+scripts/start_south_nodes.sh
  
 ```
 
 2. Create the ***north*** cluster
 
 ```bash
-create_north_cluster
+scripts/create_north_cluster.sh
  
 ```
 
