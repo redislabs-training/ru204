@@ -43,10 +43,12 @@ Requirement  | Specification
 ------------ | -------------
 Name | ***admin-training-1***
 Zone | us-west1-b
+Labels | creator, version, os
 CPU | 4
 Memory | 15 GB
 OS | Ubuntu 18.04 LTS
 Disk | 30 GB
+Delete protection | enabled
 Networking | ***training***
   
 ## Install Docker
