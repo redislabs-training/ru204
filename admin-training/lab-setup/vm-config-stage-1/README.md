@@ -166,8 +166,10 @@ Now you have:
 - vanilla DNS
 - Redis Insight.
 
-### Save your work.
+### Save your work
 
-1. Create a snapshot of the VM called ***admin-training-stage-1***.
+1. Create a snapshot of the VM called ***admin-training-1***.
 
-2. Create an image from the snapshot called ***admin-training-stage-1***.
+2. Create an image from the snapshot called ***admin-training-1***.
+
+3. Create a template from the image called ***admin-training-1***.
