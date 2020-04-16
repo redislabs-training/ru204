@@ -18,7 +18,7 @@ start_south_nodes
  
 ```
 
-## Set up the background and theme
+## Set the background and theme
 
 1. Right click the desktop and choose ***Desktop Settings***.
 
@@ -59,7 +59,7 @@ start_south_nodes
 
 15. Click and drag ***Workspace Switcher*** to the top and click ***Close*** to save.
 
-## Set up Chrome browser
+## Set up Chrome
 
 1. Open Chrome browser in VNC.
 
@@ -96,7 +96,7 @@ s3:8443
 
 8. Select Chrome as the default browser and click ***Close*** to save.
 
-## Set up Chrome launcher to open Chrome in the same place every time
+## Set Chrome launcher
 
 1. Right click Chrome launcher and choose ***Edit Launcher***
 
@@ -110,56 +110,70 @@ s3:8443
 
 3. Double click the launcher make sure it opens on the first workspace.
 
-## Set up shell terminal launchers
+## Set terminal launchers
 
-These are for SSH'ing to RE nodes, the VNC shell, and the base VM.
+These SSH to RE nodes, the VNC shell, and base VM.
 
 1. Right click the desktop and select ***Create Launcher***
 
-2. Set up the first launcher for north cluster RE nodes as follows:
-- Name: ***north node CLIs***
-- Command:
+2. Set the launcher for north nodes.
+
+Feature | Setting
+---|---
+Name | ***north node CLIs***
+Run as terminal | enabled
+Icon | set to ***Utilities terminal***
+
+Command:
 ```bash
 xfce4-terminal --geometry=113x24+130+0 --hide-menubar
 --tab -T "n1" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it n1 bash'"
 --tab -T "n2" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it n2 bash'"
 --tab -T "n3" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it n3 bash'"
 ```
-- Run as terminal: checked
-- Icon: click and select ***utilities terminal***
 
 3. Click ***Create***
 
-4. Set up another launcher for south cluster nodes as follows:
-- Name: ***south node CLIs***
-- Command:
+4. Set the next launcher for south nodes.
+
+Feature | Setting
+---|---
+Name | ***south node CLIs***
+Run as terminal | enabled
+Icon | set to ***Utilities terminal***
+
+Command:
 ```bash
 xfce4-terminal --geometry=113x20+130+520 --hide-menubar
 --tab -T "s1" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it s1 bash'"
 --tab -T "s2" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it s2 bash'"
 --tab -T "s3" -e "bash -c 'ssh -t trainee@172.18.0.1 docker exec -it s3 bash'"
 ```
-- Run as terminal: checked
-- Icon: click and select ***utilities terminal***
 
-5. Set up another launcher for the VNC terminal shell as follows:
-- Name: ***vnc terminal***
+5. Set the next launcher for VNC terminal.
+
+Feature | Setting
+---|---
+Name | ***vnc terminal***
+Run as terminal | enabled
+Icon | set to ***Actions > Refresh***
+
 - Command: 
 ```bash
 xfce4-terminal --geometry=113x24+130+0 --hide-menubar
 ```
-- Run as terminal: checked
-- Icon: click and select the ***Actions*** drop-down item and ***Refresh***
 
 6. Set up another launcher for the base VM terminal shell as follows:
-- Name: ***base VM***
+-Feature | Setting
+---|---
+Name | ***base vm***
+Run as terminal | enabled
+Icon | set to ***System Software Installer***
 - Command:
 ```bash
 xfce4-terminal --geometry=113x22+130+520 --hide-menubar -e "bash -c 'ssh -t trainee@172.18.0.1'"
 ```
-- Run as terminal: checked
-- Icon: click and select ***System Software Installer***
 
-7. Close, re-open, and re-close all launchers windows to make sure they open in the right places and without issues.
+7. Close, re-open, and re-close all launchers to make sure they open in the right places and without issues.
 
 8. Return to other instructions to save your VNC setup as a Docker container in GCR.
