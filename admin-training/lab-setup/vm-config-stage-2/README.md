@@ -2,10 +2,9 @@
 
 Here are steps to configure DNS and generate the ***admin-training-2*** snapshot, image, and template.
 
-You can use these steps to:
-- Run the pre-configured DNS Docker image from GCR
-- Re-configure the DNS Docker image
-- Configure a new DNS server from scratch using the vanilla DNS server.
+You can:
+- Use the pre-configured DNS Docker image from GCR
+- Re-configure the DNS Docker image.
 
 ## Create the new VM
 
@@ -130,9 +129,7 @@ docker rm n1 n2 n3
  
 ```
 
-Now you have:
-
-Docker network
+2. Now you have:
 - Docker networking
 - Configured DNS
 - Vanilla VNC
