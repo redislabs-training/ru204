@@ -41,7 +41,7 @@ sudo su - trainee
  
 ```
 
-4. Generate SSH keys so students can 'silently' SSH from the container.
+4. Generate keys so students can 'silently' SSH from the container.
 
 ```bash
 mkdir .ssh
@@ -50,14 +50,14 @@ cp -r .ssh/id_rsa.pub .ssh/authorized_keys
  
 ```
 
-5. Copy keys to the container with ***default*** user and ***root*** group.
+5. Copy keys to the container.
 
 ```bash
 docker cp .ssh/ vanilla-vnc:/headless
 docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
 ```
 
-6. Create ***.bashrc*** with aliases to start and stop containers.
+6. Create a new ***.bashrc*** for the ***default*** user with aliases to start and stop containers.
 
 ```bash
 cat << EOF > vnc-bashrc
@@ -95,7 +95,7 @@ EOF
  
 ```
 
-7. Copy ***.bashrc*** to the ***default*** user's home directory.
+7. Copy ***.bashrc*** to the container.
 
 ```bash
 docker cp vnc-bashrc vanilla-vnc:/headless/.bashrc
@@ -105,9 +105,9 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
 
 8. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
-9. Open a terminal shell window (prompt should be ***yellow*** from the new ***.bashrc*** file).
+9. Open a shell terminal (prompt is ***yellow*** from the new ***.bashrc*** file).
 
-10. Restart RE node containers.
+10. Start RE nodes.
 
 ```bash
 start_north_nodes
