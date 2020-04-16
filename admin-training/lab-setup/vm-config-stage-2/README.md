@@ -9,7 +9,7 @@ You can:
 
 Here's what the DNS zone records file looks like when done.
 
-![](..images/01-DNS-zone-records-file.png)
+![](../images/01-DNS-zone-records-file.png)
 
 ## Create the new VM
 
