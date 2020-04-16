@@ -3,7 +3,7 @@
 Here are steps to configure DNS and generate the ***admin-training-2*** snapshot, image, and template.
 
 You can use these steps to:
-- Run the configured DNS Docker image from GCR
+- Run the pre-configured DNS Docker image from GCR
 - Re-configure the DNS Docker image
 - Configure a new DNS server from scratch using the vanilla DNS server.
 
