@@ -18,7 +18,7 @@ gcloud compute instances create admin-training-2 --source-instance-template admi
  
 ```
 
-## Get the configured DNS Docker image
+## Run the pre-configured DNS Docker image
 
 1. SSH to the VM from GCP console.
 
