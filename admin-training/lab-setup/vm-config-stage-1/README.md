@@ -339,7 +339,6 @@ chmod 755 scripts/run_dnsutils.sh
 
 ```bash
 scripts/start_north_nodes.sh
-scripts/start_south_nodes.sh
  
 ```
 
@@ -361,8 +360,8 @@ scripts/create_north_cluster.sh
 This forces manual restart so clusters build and resolve DNS properly. 
 
 ```bash
-docker stop n1 n2 n3 s1 s2 s3
-docker rm n1 n2 n3 s1 s2 s3
+docker stop n1 n2 n3
+docker rm n1 n2 n3
  
 ```
 
