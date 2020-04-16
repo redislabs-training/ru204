@@ -465,7 +465,6 @@ sudo docker rm n1 n2 n3 s1 s2 s3
 And clustered nodes would create improperly configured clusters on startup.
 
 ```bash
-start_north_nodes
 rm /headless/.ssh/known_hosts
  
 ```
