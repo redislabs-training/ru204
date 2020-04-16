@@ -69,7 +69,7 @@ Adjust Chrome launcher to open Chrome in the same place every time without warni
 
 1. Right click the desktop and go to ***Applications > Settings > Preferred Apps***
 
-2. Select Chrome as the default browser
+2. Select Chrome as the default browser and click ***Close*** to save.
 
 3. Right click Chrome launcher and choose ***Edit Launcher***
 
