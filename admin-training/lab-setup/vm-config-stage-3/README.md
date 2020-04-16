@@ -9,7 +9,7 @@ You can:
 
 Here's what the configured VNC desktop looks like when students sign in.
 
-![](img/01-vnc-overview.png)
+![](../images/02-vnc-overview.png)
 
 ## Create the new VM
 
