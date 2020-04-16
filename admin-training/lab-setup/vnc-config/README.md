@@ -53,6 +53,18 @@ sudo docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.con
 - ***node terminals***
 - ***vnc and base VM***
 
+16. Click ***Close*** to save.
+
+16. Right click the menu bar and choose ***Panel Preferences***.
+
+17. Click ***Appearance***.
+
+18. Click the ***Items*** tab.
+
+19. Switch order of items (click and drag) to place ***Workspace Switcher*** first.
+
+20. Click ***Close*** to save.
+
 Adjust Chrome launcher to open Chrome in the same place every time without warnings or errors and tabs and bookmarks to admin console UIs
 
 1. Right click the desktop and go to ***Applications > Settings > Preferred Apps***
