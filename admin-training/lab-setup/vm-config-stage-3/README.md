@@ -267,8 +267,11 @@ rm /headless/.ssh/known_hosts
 
 This forces manual restart so clusters build and resolve DNS properly.
 
+```bash
 docker stop n1 n2 n3 s1 s2 s3
 docker rm n1 n2 n3 s1 s2 s3
+ 
+```
 
 Now you have:
 - Configured DNS
