@@ -14,13 +14,22 @@ function modifyRequest(request, updatedDomain) {
 // to the static site if originHost is unset, or to the Tahoe
 // site that originHost points to if it is set.
 function mapURIPattern(router, pattern, originHost) {
-    router.delete(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.get(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.head(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.options(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.patch(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.post(pattern, req => fetch(modifyRequest(req, originHost)))
-    router.put(pattern, req => fetch(modifyRequest(req, originHost)))
+    const action = (req) => {
+        if (! originHost && ! req.url.endsWith('/')) {
+            // All static site URLs must end in /
+            return Response.redirect(new URL(`${req.url}/`), 301)
+        }
+
+        return fetch(modifyRequest(req, originHost))
+    }
+
+    router.delete(pattern, action)
+    router.get(pattern, action)
+    router.head(pattern, action)
+    router.options(pattern, action)
+    router.patch(pattern, action)
+    router.post(pattern, action)
+    router.put(pattern, action)
 }
 
 addEventListener('fetch', event => {
@@ -28,6 +37,7 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
+    // This is an exception to the static site pages must end with / rule.
     if (request.url.endsWith('/courses') || request.url.endsWith('/courses/')) {
         // Always redirect /courses to /#courses and serve page
         // from the static site.
@@ -51,10 +61,10 @@ async function handleRequest(request) {
     }
 
     // Always override /certification
-    mapURIPattern(r, '.*/certification/.*')
+    mapURIPattern(r, '.*/certification.*')
 
     // Always override /certifications
-    mapURIPattern(r, '.*/certifications/.*')
+    mapURIPattern(r, '.*/certifications.*')
     
     // Always override /assets, this is where static site assets
     // live, to not conflict with anything in Tahoe.
