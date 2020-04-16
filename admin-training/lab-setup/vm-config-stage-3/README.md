@@ -105,13 +105,21 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
  
 ```
 
-8. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
+8. Download the Redis Labs background image from GCS and copy it to the container.
 
-9. Open a shell terminal.
+```bash
+gsutil cp gs://admin-training-bucket/background-training-classroom.jpg /tmp
+docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
+ 
+```
+
+9. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
+
+10. Open a shell terminal.
 
 Prompt is ***yellow*** from the new ***.bashrc*** file.
 
-10. Start RE nodes.
+11. Start RE nodes.
 
 When asked if you want to continue to host 172.18.0.1, enter ***yes***. This is the base VMs IP.
 
@@ -121,24 +129,7 @@ start_south_nodes
  
 ```
 
-11. Open Chrome browser in VNC and point it to admin consoles:
-
-```bash
-https://172.18.0.20:10000
-http://insight:8001
-https://n1:8443
-https://n2:8443
-https://n3:8443
-https://s1:8443
-https://s2:8443
-https://s3:8443
-```
-
-12. Save tabs as bookmarks.
-
-13. Set pages to open on startup.
-
-14. Follow steps here to set up VNC with background, workspaces, and launchers.
+12. Follow steps here to set up VNC with background, workspaces, and launchers.
 
 ![Configure VNC](../vnc-config/README.md)
 
