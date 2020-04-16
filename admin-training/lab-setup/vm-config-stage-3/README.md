@@ -110,7 +110,7 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
 
 10. Start RE nodes.
 
-When asked if you want to continue to host 172.18.0.1, enter ***yes*** (this is the base VM IP on the Docker network).
+When asked if you want to continue to host 172.18.0.1, enter ***yes***. This is the base VMs IP.
 
 ```bash
 start_north_nodes
