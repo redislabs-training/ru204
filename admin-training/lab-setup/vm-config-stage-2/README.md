@@ -11,7 +11,7 @@ You can use these steps to:
 
 1. Open Cloud Shell.
 
-2. Create a new VM from instance template ***admin-training-1***.
+2. Create a new VM from the ***admin-training-1*** instance template.
 
 ```bash
 gcloud compute instances create admin-training-2 --source-instance-template admin-training-1 --zone=us-west1-b
