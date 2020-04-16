@@ -365,15 +365,16 @@ docker rm n1 n2 n3 s1 s2 s3
 ```
 
 Now you have:
-- Docker network
-- vanilla VNC
-- vanilla DNS
+- Docker networking
+- Vanilla DNS
+- Vanilla VNC
 - Redis Insight
-- Node containers stopped and removed.
-
+- Node containers - stopped and removed.
 
 ## Save your work
 
 1. Create a snapshot of the VM called ***admin-training-1***.
 
 2. Create an image from the snapshot called ***admin-training-1***.
+
+3. Create an instance template from the image called ***admin-training-1***.
