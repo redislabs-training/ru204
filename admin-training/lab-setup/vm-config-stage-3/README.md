@@ -24,7 +24,7 @@ gcloud compute instances create admin-training-3 --source-instance-template admi
 
 ## Building from scratch
 
-Students start and stop nodes from the VNC container. Alias commands transparently SSH to the base VM and run Docker commands  in a controlled manner.
+Students start and stop nodes from the VNC container. Alias commands allow them to transparently SSH to the base VM and run Docker commands from there in a controlled manner.
 
 1. SSH to the VM from GCP console
 
