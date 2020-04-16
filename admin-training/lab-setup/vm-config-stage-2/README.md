@@ -7,6 +7,10 @@ You can:
 - Re-configure the Docker image
 - Configure the vanilla DNS image from scratch.
 
+Here's what the DNS zone records file looks like when done.
+
+![](..images/01-DNS-zone-records-file.png)
+
 ## Create the new VM
 
 1. Open Cloud Shell.
