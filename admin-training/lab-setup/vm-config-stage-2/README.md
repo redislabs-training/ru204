@@ -93,9 +93,7 @@ exit
 
 ## Configure the DNS server
 
-Use these steps to:
-- Re-configure the DNS Docker image
-- Configure a new DNS server from scratch using the vanilla DNS server.
+Use these steps if you want to re-configure the DNS Docker image or configure a new DNS server from scratch using the vanilla DNS server.
 
 1. Point your laptop browser to the VM public IP (it's in GCP console).
 
