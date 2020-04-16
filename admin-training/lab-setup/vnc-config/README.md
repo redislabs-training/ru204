@@ -22,11 +22,11 @@ start_south_nodes
 
 1. Right click the desktop and choose ***Desktop Settings***.
 
-2. Click the Redis image to set it as the background.
+2. Click the ***Redis*** image to set it as the background.
 
 3. Click the ***Icons*** tab.
 
-4. Remove the default icons except Chrome and close the window.
+4. Remove all icons except Chrome and close the window.
 
 4. Right click the Firefox launcher on the desktop and delete it.
 
