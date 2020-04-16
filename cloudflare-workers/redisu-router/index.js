@@ -31,7 +31,7 @@ async function handleRequest(request) {
     if (request.url.endsWith('/courses') || request.url.endsWith('/courses/')) {
         // Always redirect /courses to /#courses and serve page
         // from the static site.
-        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses`), 302)
+        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses`), 301)
     }
 
     const r = new Router()
