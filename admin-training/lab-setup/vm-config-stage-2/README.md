@@ -120,7 +120,8 @@ If a re-config.
 sudo docker commit configured-dns
 sudo docker tag configured-dns gcr.io/redislabs-university/admin-training-dns
 sudo docker push gcr.io/redislabs-university/admin-training-dns
-
+ 
+```
 
 ## Clean up your instance
 
