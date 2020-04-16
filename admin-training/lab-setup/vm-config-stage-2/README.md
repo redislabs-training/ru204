@@ -111,4 +111,38 @@ Use these steps if you want to re-configure the DNS Docker image or configure a 
 
 7. Check DNS is working as described above.
 
-## Save your changes
+8. Return to your ***GCP acocunt*** (not ***trainee***) and commit your changes to the GCR image
+
+```bash
+sudo docker commit configured-dns
+
+```
+
+## Clean up your instance
+
+1. As the ***trainee*** user in GCP shell terminal, stop and remove nodes.
+
+This forces manual restart so clusters build and resolve DNS properly.
+
+```bash
+docker stop n1 n2 n3
+docker rm n1 n2 n3
+ 
+```
+
+Now you have:
+
+Docker network
+- Docker networking
+- Configured DNS
+- Vanilla VNC
+- Redis Insight
+- Node containers - stopped and removed.
+
+## Save your work
+
+1. Create a snapshot of the VM called ***admin-training-2***.
+
+2. Create an image from the snapshot called ***admin-training-2***.
+
+3. Create an instance template from the iamge called ***admin-training-2***.
