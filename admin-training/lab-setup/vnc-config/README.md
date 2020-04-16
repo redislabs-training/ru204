@@ -48,7 +48,7 @@ Default browser | Make Default
 
 2. Right click menu bar and deselect ***Show apps shortcut***.
 
-3. Open these tabs, accept conditions so pages show, add to bookmark bar, and open on startup.
+3. Open these tabs, accept conditions, bookmark and open on startup.
 
 ```bash
 https://172.18.0.20:10000
