@@ -34,11 +34,11 @@ Applications > Settings > Preferred Apps | choose Chrome
 
 5. Right click the menu bar and choose ***Panel Preferences > Appearance > Items*** tab.
 
-6. Click and drag ***Workspace Switcher*** to the top and save.
+6. Move ***Workspace Switcher*** to the top.
 
 ## Set up Chrome
 
-1. Open Chrome and set the following:
+1. Open Chrome and set:
 
 Feature | Setting
 ---|---
@@ -46,9 +46,9 @@ Show bookmark bar | enabled
 Use system title bar and borders | disabled
 Default browser | Make Default
 
-2. Right menu bar and deselect ***Show apps shortcut***.
+2. Right click menu bar and deselect ***Show apps shortcut***.
 
-3. Open these tabs, accept conditions so pages appear, add to bookmark bar, and open on startup.
+3. Open these tabs, accept conditions so pages show, add to bookmark bar, and open on startup.
 
 ```bash
 https://172.18.0.20:10000
