@@ -7,7 +7,7 @@ You can:
 - Re-configure the Docker image
 - Configure the vanilla ***Xfce*** image from scratch.
 
-Here's what the new desktop looks like when students sign in.
+Here's what the configured VNC desktop looks like when students sign in.
 
 ![](img/01-vnc-overview.png)
 
