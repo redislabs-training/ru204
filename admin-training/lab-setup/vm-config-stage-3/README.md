@@ -37,7 +37,7 @@ sudo su - trainee
  
 ```
 
-4. Generate SSH keys so students can 'silently' SSH from the VNC user to base VM user.
+4. Generate SSH keys so students can 'silently' SSH from the VNC user to the base VM user.
 
 ```bash
 ssh-keygen -q -t rsa -N '' -f .ssh/id_rsa 2>/dev/null <<< y >/dev/null
@@ -45,7 +45,24 @@ cp -r .ssh/id_rsa.pub .ssh/authorized_keys
  
 ```
 
-5. 
+5. Run the following as ***root*** or ***default*** on the container.
+
+```bash
+docker exec --user root vanilla-vnc bash -c "mkdir /headless/.ssh"
+docker exec --user root vanilla-vnc copy ./ssh /headless/.ssh
+docker exec --user root vanilla-vnc bash -c "chown -R 1000 /headless/.ssh"
+ 
+```
+
+6. Copy a new alias file with commands to stop and stop node, ***dnsutils***, and ***Redis OS*** containers.
+
+RUN mkdir /headless/.ssh
+COPY ./ssh /headless/.ssh
+RUN chown -R 1000 /headless/.ssh/
+COPY bashrc /headless/.bashrc
+RUN chown -R 1000 /headless/.bashrc
+
+
 
 
 ## 
