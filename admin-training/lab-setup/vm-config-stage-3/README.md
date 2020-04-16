@@ -1,6 +1,6 @@
 # Admin Training VM Setup - Stage 3
 
-Here are steps to configure DNS and generate the ***admin-training-3*** snapshot, image, and template.
+Here are steps to configure VNC and generate the ***admin-training-3*** snapshot, image, and template.
 
 You can:
 - Use the pre-configure VNC Docker image in GCR
