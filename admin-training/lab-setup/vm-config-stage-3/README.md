@@ -56,6 +56,7 @@ cp -r .ssh/id_rsa.pub .ssh/authorized_keys
 ```bash
 docker cp .ssh/ vanilla-vnc:/headless
 docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
+ 
 ```
 
 6. Create a new ***.bashrc*** file so students will have the alias commands.
@@ -106,7 +107,9 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
 
 8. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
-9. Open a shell terminal (prompt is ***yellow*** from the new ***.bashrc*** file).
+9. Open a shell terminal.
+
+Prompt is ***yellow*** from the new ***.bashrc*** file.
 
 10. Start RE nodes.
 
