@@ -7,18 +7,21 @@ Set the display with background image, theme, fewer icons, and fewer menu bar it
 2. If you haven't started Consol/Xfce as a container, run the following:
 ```bash
 docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901  vanilla-vnc
+ 
 ```
 
 3. Download the Redis Labs background image from GCS
 
 ```bash
 gsutil cp gs://admin-training-bucket/background-training-classroom.jpg /tmp
+ 
 ```
 
 4. Copy image to the VNC container
 
 ```bash
-docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
+sudo docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
+ 
 ```
 
 5. Open a laptop browser and point it to the VMs public IP
@@ -29,21 +32,23 @@ docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
 
 8. Choose ***Desktop Settings*** and click the image - it will appear as the background
 
-9. Choose the ***Icons*** tab and remove default icons except Chrome
+9. Click the ***Icons*** tab and remove default icons except Chrome
 
-10. Right-click desktop to open ***Applications > Settings > Appearance***
+10. Right click the Firefox launcher and delete it.
 
-11. Choose ***xfce-4.2*** to change the theme
+11. Right click desktop to open ***Applications > Settings > Appearance***
 
-12. Right click the menu bar and remove the following:
+12. Choose ***xfce-4.2*** to change the theme and click ***Close***.
+
+13. Right click the menu bar and remove the following:
 - Clock
 - User name
 - Separator
 - Applications button
 
-13. Right click the workspace selector in the menu bar
+14. Right click the workspace selector in the menu bar
 
-14. Decrease the number to 3 and name the workspaces as:
+15. Decrease the number to 3 and name the workspaces as:
 - ***admin UIs***
 - ***node terminals***
 - ***vnc and base VM***
