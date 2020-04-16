@@ -1,6 +1,6 @@
 # Set up VNC
 
-If you haven't already done so:
+If you haven't already...
 
 1. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
