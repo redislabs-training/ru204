@@ -5,7 +5,7 @@ Here are steps to configure VNC and generate the ***admin-training-3*** VM snaps
 You can:
 - Use the pre-configured VNC Docker image in GCR
 - Re-configure the Docker image
-- Configure the vanilla Xfce image from scratch.
+- Configure the vanilla ***Xfce*** image from scratch.
 
 Here's what the new desktop looks like when students sign in.
 
