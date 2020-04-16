@@ -58,7 +58,7 @@ docker cp .ssh/ vanilla-vnc:/headless
 docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
 ```
 
-6. Create a new ***.bashrc*** for the ***default*** user with aliases to start and stop containers.
+6. Create a new ***.bashrc*** so students will have the alias commands.
 
 ```bash
 cat << EOF > vnc-bashrc
