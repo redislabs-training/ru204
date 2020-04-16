@@ -11,7 +11,7 @@ You'll end up with:
 
 Nodes run in containers, but they look like VMs.
 
-![](img/00-vm-overview.png)
+![](../images/00-vm-overview.png)
 
 All students need is the VM's public IP and VNC password (provided by instructor).
 
