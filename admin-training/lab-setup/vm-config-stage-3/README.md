@@ -96,7 +96,7 @@ EOF
  
 ```
 
-7. Copy ***.bashrc*** to the container.
+7. Copy the ***.bashrc*** file to the container.
 
 ```bash
 docker cp vnc-bashrc vanilla-vnc:/headless/.bashrc
