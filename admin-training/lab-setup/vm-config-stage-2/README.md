@@ -26,7 +26,6 @@ gcloud compute instances create admin-training-2 --source-instance-template admi
 ```bash
 sudo docker stop vanilla-dns
 sudo docker rm vanilla-dns
-sudo docker rmi vanilla-dns
 sudo docker rmi sameersbn/bind
  
 ```
