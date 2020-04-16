@@ -1,13 +1,15 @@
 # Admin Training VM Setup - Stage 1
 
-Here are steps to build VM Stage 1 from Ubuntu 18.04 with:
+Here are steps to build ***admin-training-1*** from Ubuntu 18.04.
+
+You'll end up with:
 - Docker networking
 - Vanilla DNS
 - Vanilla VNC
 - Redis Insight
 - Node containers - stopped and removed.
 
-Nodes will run in containers, but they look like VMs as shown.
+Nodes run in containers, but they look like VMs.
 
 ![](img/00-vm-overview.png)
 
@@ -18,7 +20,7 @@ Setup is built in three stages:
 2. Configure DNS
 2. Configure VNC.
 
-For easy re-config, each stage produces a snapshot and image.
+For easy re-config, each stage produces a VM snapshot, image, and template.
 
 Stages 2 and 3 also produce Docker images for DNS and VNC.
 
