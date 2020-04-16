@@ -193,7 +193,7 @@ sudo docker rmi consol/ubuntu-xfce-vnc
  
 ```
 
-3. If running without configuring from scratch:
+3. If ***NOT*** running after configuring from scratch:
 
 Authenticate Docker to GCR. 
 
