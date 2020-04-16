@@ -1,112 +1,118 @@
 # VNC Setup Using ConSol/Xfce
 
-Set the display with background image, theme, fewer icons, and fewer menu bar items
+Here you set up VNC with background, workspaces, and launchers.
 
-1. SSH to the VM from GCP console
+## Initial state
 
-2. If you haven't started Consol/Xfce as a container, run the following:
+If you haven't done so already, do the following:
+
+1. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
+
+2. Open a shell terminal.
+
+3. Start RE nodes.
+
 ```bash
-docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901  vanilla-vnc
+start_north_nodes
+start_south_nodes
  
 ```
 
-3. Download the Redis Labs background image from GCS
+## Set up the background and theme
 
-```bash
-gsutil cp gs://admin-training-bucket/background-training-classroom.jpg /tmp
- 
-```
+1. Right click the desktop and choose ***Desktop Settings***.
 
-4. Copy image to the VNC container
+2. Click the Redis image to set it as the background.
 
-```bash
-sudo docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
- 
-```
+3. Click the ***Icons*** tab.
 
-5. Open a laptop browser and point it to the VMs public IP
+4. Remove the default icons except Chrome and close the window.
 
-6. Sign in to VNC desktop with password ***trainee!***
+4. Right click the Firefox launcher on the desktop and delete it.
 
-7. Right click desktop
+5. Right click the desktop and choose ***Arrange Desktop Icons*** to move Chrome to the top.
 
-8. Choose ***Desktop Settings*** and click the image - it will appear as the background
+6. Right click the desktop and choose ***Applications > Settings > Appearance***
 
-9. Click the ***Icons*** tab and remove default icons except Chrome
+7. Choose ***xfce-4.2*** to change the theme and click ***Close***.
 
-10. Right click the Firefox launcher and delete it.
-
-11. Right click desktop to open ***Applications > Settings > Appearance***
-
-12. Choose ***xfce-4.2*** to change the theme and click ***Close***.
-
-13. Right click the menu bar and remove the following:
+8. Right click the menu bar and remove the following:
 - Clock
 - User name
 - Separator
 - Applications button
 
-14. Right click the workspace selector in the menu bar
+9. Right click the workspace selector in the menu bar.
 
-15. Decrease the number to 3 and name the workspaces as:
+10. Decrease the number of workspaces to 3 and name them:
 - ***admin UIs***
 - ***node terminals***
 - ***vnc and base VM***
 
-16. Click ***Close*** to save.
+11. Click ***Close*** to save.
 
-16. Right click the menu bar and choose ***Panel Preferences***.
+12. Right click the menu bar and choose ***Panel Preferences***.
 
-17. Click ***Appearance***.
+13. Click ***Appearance***. 
 
-18. Click the ***Items*** tab.
+14. Click the ***Items*** tab.
 
-19. Switch order of items (click and drag) to place ***Workspace Switcher*** first.
+15. Click and drag ***Workspace Switcher*** to the top and click ***Close*** to save.
 
-20. Click ***Close*** to save.
+## Set up Chrome browser
 
-Adjust Chrome launcher to open Chrome in the same place every time without warnings or errors and tabs and bookmarks to admin console UIs
+1. Open Chrome browser in VNC.
 
-1. Right click the desktop and go to ***Applications > Settings > Preferred Apps***
+2. Go to ***Settings*** and set the following.
 
-2. Select Chrome as the default browser and click ***Close*** to save.
+Feature | Setting
+---|---
+Show bookmark bar | enabled
+Use system title bar and borders | disabled
+Default browser | Make Default
 
-3. Right click Chrome launcher and choose ***Edit Launcher***
+3. In the menu bar, right click ***Apps*** and deselect ***Show apps shortcut***.
 
-4. In 'Command' field
+4. Open tabs to the following.
+
+Accept all conditions so you reach console pages and icons appear in tabs
+
+```bash
+https://172.18.0.20:10000
+insight:8001
+n1:8443
+n2:8443
+n3:8443
+s1:8443
+s2:8443
+s3:8443
+```
+
+5. Add them as bookmarks to the bookmark bar.
+
+6. Return to ***Settings*** and set these pages to open on startup.
+
+7. Right click the desktop and go to ***Applications > Settings > Preferred Apps***
+
+8. Select Chrome as the default browser and click ***Close*** to save.
+
+## Set up Chrome launcher to open Chrome in the same place every time
+
+1. Right click Chrome launcher and choose ***Edit Launcher***
+
+2. In 'Command' field
 - Remove ***U%***
 - Add the following so Chrome opens in the same place every time
 
 ```bash
 --window-position=130,0 --window-size=1150,900 --window-workspace=0 --ignore-certificate-errors -test-type
- 
 ```
 
-5. Double click the launcher to open and adjust Chrome further
+3. Double click the launcher make sure it opens on the first workspace.
 
-6. If RE nodes aren't running, start them. You want admin console icons to load in Chrome tabs and bookmarks.
+## Set up shell terminal launchers
 
-7. Open the following tabs in order:
-```bash
-https://172.18.0.20:10000
-http://insight:8001
-https://n1:8443
-https://n2:8443
-https://n3:8443
-https://s1:8443
-https://s2:8443
-https://s3:8443
-```
-
-8. Save each as a bookmark in the bookmark bar
-
-9. Go to ***Settings > Appearance*** and set the following:
-- Disable ***Use system title bar and borders***
-- Enable ***Show bookmarks bar***
-- Select Chromium as default browser
-- Set current pages to open on start up.
-
-Create 4 terminal window launchers for Redis Enterprise nodes, VNC terminal, and base VM.
+These are for SSH'ing to RE nodes, the VNC shell, and the base VM.
 
 1. Right click the desktop and select ***Create Launcher***
 
