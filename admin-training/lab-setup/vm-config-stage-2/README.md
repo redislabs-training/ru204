@@ -110,12 +110,17 @@ Use these steps if you want to re-configure the DNS Docker image or configure a 
 
 7. Check DNS is working as described above.
 
-8. Return to your ***GCP acocunt*** (not ***trainee***) and commit your changes to the GCR image
+8. Return to your ***GCP acocunt*** (not ***trainee***).
+
+9. Commit your changes and upload to GCR.
+
+If a re-config.
 
 ```bash
 sudo docker commit configured-dns
+sudo docker tag configured-dns gcr.io/redislabs-university/admin-training-dns
+sudo docker push gcr.io/redislabs-university/admin-training-dns
 
-```
 
 ## Clean up your instance
 
@@ -129,8 +134,7 @@ docker rm n1 n2 n3
  
 ```
 
-2. Now you have:
-- Docker networking
+Now you have:
 - Configured DNS
 - Vanilla VNC
 - Redis Insight
