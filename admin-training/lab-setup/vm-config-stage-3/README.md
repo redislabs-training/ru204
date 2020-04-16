@@ -1,11 +1,11 @@
 # Admin Training VM Setup - Stage 3
 
-Here are steps to configure VNC and generate the ***admin-training-3*** snapshot, image, and template.
+Here are steps to configure VNC and generate the ***admin-training-3*** VM snapshot, image, and template.
 
 You can:
-- Use the pre-configure VNC Docker image in GCR
+- Use the pre-configured VNC Docker image in GCR
 - Re-configure the Docker image
-- Configure the vanilla VNC image from scratch.
+- Configure the vanilla Xfce image from scratch.
 
 Here's what the new desktop looks like when students sign in.
 
