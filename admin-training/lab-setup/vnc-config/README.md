@@ -2,7 +2,7 @@
 
 Here you set up VNC with background, workspaces, and launchers.
 
-## Initial state
+## Getting Started
 
 If you haven't done so already, do the following:
 
