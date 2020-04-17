@@ -6,6 +6,11 @@
 
 ### Stage 1 VM
 
+```diff
+- text in red
++ text in green
+```
+
 Starting point
 
 <span style="color:red;">Ubuntu 18.04</span>  \ Redis 5.4 /  \ vanilla VNC / 
