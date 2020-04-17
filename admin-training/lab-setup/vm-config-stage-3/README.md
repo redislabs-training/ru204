@@ -13,9 +13,13 @@ Here's what the configured VNC desktop looks like when students sign in.
 
 ## Create the VM
 
+Create a new VM from the ***admin-training-2*** instance template (or image of same name) by gcloud or GCP console.
+
+Steps are for gcloud with instance template:
+
 1. Open Cloud Shell.
 
-2. Create a new VM from the ***admin-training-2*** instance template (or image) by gcloud or GCP console.
+2. Create a new VM.
 
 ```bash
 gcloud compute instances create admin-training-3 --source-instance-template admin-training-2 --zone=us-west1-b
