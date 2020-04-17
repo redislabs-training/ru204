@@ -22,7 +22,7 @@ gcloud compute instances create admin-training-3 --source-instance-template admi
  
 ```
 
-## Build from scratch
+## Build the VNC Docker image from scratch
 
 Students start and stop nodes from the VNC container. Alias commands allow them to transparently SSH to the base VM and run Docker commands from there in a controlled manner.
 
@@ -134,7 +134,7 @@ start_south_nodes
 ![Configure VNC](../vnc-config/README.md)
 
 
-## Push changes to GCR
+## Push the VNC Docker image changes to GCR
 
 1. SSH to VNC terminal.
 
@@ -174,7 +174,7 @@ sudo docker push gcr.io/redislabs-university/admin-training-vnc
  
 ```
 
-## Use configured VNC Docker image
+## Use the pre-configured VNC Docker image
 
 1. SSH to the VM from GCP console.
 
