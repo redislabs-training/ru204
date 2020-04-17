@@ -134,7 +134,7 @@ start_south_nodes
 ![Configure VNC](../vnc-config/README.md)
 
 
-## Push the VNC Docker image changes to GCR
+## Push VNC Docker image changes to GCR
 
 1. SSH to VNC terminal.
 
