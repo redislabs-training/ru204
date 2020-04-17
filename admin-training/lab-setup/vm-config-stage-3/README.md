@@ -1,6 +1,8 @@
 # Admin Training VM Setup - Stage 3
 
-Here are steps to configure VNC and generate the ***admin-training-3*** VM snapshot/image/template and ***admin-training-vnc*** Docker image.
+Here are steps to configure and generate:
+- Stage 3 VM snapshot, image, and template
+- VNC Docker image.
 
 You can:
 - Use the pre-configured VNC Docker image as is
