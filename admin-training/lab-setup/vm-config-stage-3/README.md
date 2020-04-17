@@ -1,6 +1,6 @@
 # Admin Training VM Setup - Stage 3
 
-Here are steps to configure VNC and generate the ***admin-training-3*** snapshot, image, and template and  ***admin-training-vnc*** Docker image.
+Here are steps to configure VNC and generate the ***admin-training-3*** VM snapshot/image/template and ***admin-training-vnc*** Docker image.
 
 You can:
 - Use the pre-configured VNC Docker image as is
@@ -13,9 +13,9 @@ Here's what the configured VNC desktop looks like when students sign in.
 
 ## Create the VM
 
-Create a new VM from the ***admin-training-2*** instance template (or image of same name) by gcloud or GCP console.
+Create a new VM from ***admin-training-2*** instance template (or image of same name) by gcloud or GCP console.
 
-Steps are for gcloud with instance template:
+Steps for gcloud with instance template:
 
 1. Open Cloud Shell.
 
