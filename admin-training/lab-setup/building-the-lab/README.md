@@ -1,10 +1,12 @@
 # Building the Lab
 
-Color | Meaning
----|---
-![](https://placehold.it/15/c5f015/000000) | vanilla
-![](https://placehold.it/15/f03c15/000000) | configured (unplugable)
-![](https://placehold.it/15/1589F0/000000) | configured (plugable)
+Color codings and meanings.
+
+```diff
+- vanilla
+! configured (pluggable)
++ configured (unpluggable)
+```
 
 ## Here's what you get
 
@@ -47,7 +49,7 @@ Finishing point
 - Ubuntu 18.04
 - Redis 5.4 
 - vanilla VNC
-# configured DNS
+! configured DNS
 + stage 1 changes
 + stage 2 changes
 ```
@@ -60,7 +62,7 @@ Starting point
 - Ubuntu 18.04
 - Redis 5.4 
 - vanilla VNC
-# configured DNS
+! configured DNS
 + stage 1 changes
 + stage 2 changes
 ```
@@ -70,8 +72,8 @@ Finishing point
 ```diff
 - Ubuntu 18.04
 - Redis 5.4 
-# configured VNC
-# configured DNS
+! configured VNC
+! configured DNS
 + stage 1 changes
 + stage 2 changes
 + stage 3 changes
