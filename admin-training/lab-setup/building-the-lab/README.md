@@ -3,15 +3,14 @@
 Color | Meaning
 ---|---
 ![](https://placehold.it/15/c5f015/000000) | vanilla
-![](https://placehold.it/15/f03c15/000000) | configured
-![](https://placehold.it/15/1589F0/000000) | blue
+![](https://placehold.it/15/f03c15/000000) | configured (unplugable)
+![](https://placehold.it/15/1589F0/000000) | configured (plugable)
 
 ## Here's what you get
 
 ## Here's what you build
 
 ### Stage 1 VM
-
 
 Starting point
 
@@ -23,26 +22,59 @@ Starting point
 
 Finishing point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  \ vanilla VNC /  / ***Stage 1 changes*** \
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+- vanilla VNC
++ stage 1 changes
+```
 
 ### Stage 2 VM
 
 Starting point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  \ vanilla VNC /  / Stage 1 changes \  \ ***vanilla DNS*** /
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+- vanilla VNC
+- vanilla DNS
++ stage 1 changes
+```
 
 Finishing point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  \ vanilla VNC /  / Stage 1 changes \  / ***Stage 2 changes*** \  / ***configured DNS*** \
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+- vanilla VNC
+# configured DNS
++ stage 1 changes
++ stage 2 changes
+```
 
 ### Stage 3 VM
 
 Starting point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  \ vanilla VNC /  / Stage 1 changes \  / Stage 2 changes \  / configured DNS \
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+- vanilla VNC
+# configured DNS
++ stage 1 changes
++ stage 2 changes
+```
 
 Finishing point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  / Stage 1 changes \  / Stage 2 changes \  / configured DNS \  / ***configured VNC*** \ / ***Keys*** \ 
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+# configured VNC
+# configured DNS
++ stage 1 changes
++ stage 2 changes
++ stage 3 changes
+```
 
 ## Here's how you modify what you build
