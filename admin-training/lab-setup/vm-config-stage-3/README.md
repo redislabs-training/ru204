@@ -1,6 +1,6 @@
 # Admin Training Setup - Stage 3
 
-Here are steps to generate the stage 3 VM and VNC Docker image.
+Here are steps to generate stage 3 VM and VNC Docker image.
 
 You can:
 - Use the pre-configured VNC Docker image as is
@@ -26,7 +26,7 @@ Students start and stop nodes from the VNC container. Alias commands allow them 
 
 1. SSH to the VM from GCP console
 
-2. Install SSH on the vanilla VNC container.
+2. Install SSH on the VNC container.
 
 ```bash
 sudo docker exec --user root vanilla-vnc bash -c "apt update; apt install -y ssh"
@@ -57,7 +57,7 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
  
 ```
 
-6. Create a new ***.bashrc*** file so students will have the alias commands.
+6. Create a new ***.bashrc*** file so students have alias commands.
 
 ```bash
 cat << EOF > vnc-bashrc
@@ -95,7 +95,7 @@ EOF
  
 ```
 
-7. Copy the ***.bashrc*** file to the container.
+7. Copy ***.bashrc*** to the container.
 
 ```bash
 docker cp vnc-bashrc vanilla-vnc:/headless/.bashrc
@@ -103,7 +103,7 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
  
 ```
 
-8. Download the Redis Labs background image from GCS and copy it to the container.
+8. Download Redis background image from GCS and copy it to the container.
 
 ```bash
 gsutil cp gs://admin-training-bucket/background-training-classroom.jpg /tmp
@@ -119,7 +119,7 @@ Prompt is ***yellow*** from the new ***.bashrc*** file.
 
 11. Start RE nodes.
 
-When asked if you want to continue to host 172.18.0.1, enter ***yes***. This is the base VMs IP.
+When asked to continue to host 172.18.0.1 (base VM), enter ***yes***.
 
 ```bash
 start_north_nodes
@@ -127,12 +127,12 @@ start_south_nodes
  
 ```
 
-12. Follow steps here to set up VNC with background, workspaces, and launchers.
+12. Follow steps to set up VNC.
 
 ![Configure VNC](../vnc-config/README.md)
 
 
-## Push VNC Docker image changes to GCR
+## Push Docker image changes to GCR
 
 1. SSH to VNC terminal.
 
@@ -176,7 +176,9 @@ sudo docker push gcr.io/redislabs-university/admin-training-vnc
 
 1. SSH to the VM from GCP console.
 
-2. Stop and remove vanilla VNC container and images - and ***admin-traininig-vnc*** if you re/configured the image.
+2. Stop and remove vanilla VNC container and images.
+
+If you just built or changed the VNC iamge and are downloading the updated image, you'll also have ***admin-training-vnc***.
 
 ```bash
 sudo docker stop vanilla-vnc
@@ -188,7 +190,7 @@ sudo docker rmi admin-training-vnc
 
 3. Authenticate Docker to GCR. 
 
-***IMPORTANT:*** Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root and remove ***/home/trainee/.docker/config.json*** .
+***IMPORTANT:*** Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root at that time and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
 gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
@@ -203,13 +205,18 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
-## Update to a new VNC Docker image from an old one
+## Update to a new configured VNC Docker image
 
-This is needed when updating to a new Docker image from an ***older*** one.
+This is needed when updating from an older ***configured*** Docker image.
 
-You must generate and save new SSH keys to the VNC Docker image and a new VM image.
+You must generate and save new SSH keys to the new VNC Docker image ***AND a new VM image***.
 
-1. Download and run the older VNC image from GCR.
+1. Download and run the older ***configured*** VNC Docker image from GCR.
+
+```
+sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901  gcr.io/redislabs-university/admin-training-vnc
+ 
+```
 
 2. SSH to the VM from GCP console.
 
@@ -221,6 +228,8 @@ sudo su - trainee
 ```
 3. Generate new keys so students can 'silently' SSH from the container.
 
+***IMPORTANT***: Run this as ***trainee*** user.
+
 ```bash
 mkdir .ssh
 ssh-keygen -q -t rsa -N '' -f .ssh/id_rsa 2>/dev/null <<< y >/dev/null
@@ -228,7 +237,7 @@ cp -r .ssh/id_rsa.pub .ssh/authorized_keys
  
 ```
 
-5. Copy keys to the ***configured*** container.
+5. Copy keys to the running container.
 
 ```bash
 docker cp .ssh/ configured-vnc:/headless
@@ -236,20 +245,23 @@ docker exec --user root configured-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
  
 ```
 
-6. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
+6. Sign in to VNC desktop with password ***trainee!*** .
 
-7. Open the VNC terminal.
+7. Open VNC terminal.
 
 8. Start RE nodes.
 
-***IMPORTANT:*** This step must silently authenticate you to the base VM and ask if you want to continue connecting to 172.18.0.1. 
+***IMPORTANT:*** This step must sign you in to the base VM without a password.
 
 ```bash
 start_north_nodes
  
 ```
 
-9. Clean up the instance and save changes to the VNC Docker image and a new VM image.
+9. Clean up the instance and save changes to the Docker image and new VM.
+
+```bash
+
 
 ## Clean up instance
 
