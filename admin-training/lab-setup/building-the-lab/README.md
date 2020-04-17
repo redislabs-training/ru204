@@ -3,9 +3,9 @@
 Color codings and meanings.
 
 ```diff
-- vanilla
++ vanilla
 ! configured (pluggable)
-+ configured (unpluggable)
+- configured (unpluggable)
 ```
 
 ## Here's what you get
@@ -17,18 +17,18 @@ Color codings and meanings.
 Starting point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
-- vanilla VNC
++ Ubuntu 18.04
++ Redis 5.4 
++ vanilla VNC
 ```
 
 Finishing point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
-- vanilla VNC
-+ stage 1 changes
++ Ubuntu 18.04
++ Redis 5.4 
++ vanilla VNC
+- stage 1 changes
 ```
 
 ### Stage 2 VM
@@ -36,22 +36,22 @@ Finishing point
 Starting point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
-- vanilla VNC
-- vanilla DNS
-+ stage 1 changes
++ Ubuntu 18.04
++ Redis 5.4 
++ vanilla VNC
++ vanilla DNS
+- stage 1 changes
 ```
 
 Finishing point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
-- vanilla VNC
++ Ubuntu 18.04
++ Redis 5.4 
++ vanilla VNC
 ! configured DNS
-+ stage 1 changes
-+ stage 2 changes
+- stage 1 changes
+- stage 2 changes
 ```
 
 ### Stage 3 VM
@@ -59,24 +59,24 @@ Finishing point
 Starting point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
-- vanilla VNC
++ Ubuntu 18.04
++ Redis 5.4 
++ vanilla VNC
 ! configured DNS
-+ stage 1 changes
-+ stage 2 changes
+- stage 1 changes
+- stage 2 changes
 ```
 
 Finishing point
 
 ```diff
-- Ubuntu 18.04
-- Redis 5.4 
++ Ubuntu 18.04
++ Redis 5.4 
 ! configured VNC
 ! configured DNS
-+ stage 1 changes
-+ stage 2 changes
-+ stage 3 changes
+- stage 1 changes
+- stage 2 changes
+- stage 3 changes
 ```
 
 ## Here's how you modify what you build
