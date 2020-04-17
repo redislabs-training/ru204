@@ -11,7 +11,7 @@ Here's what the configured VNC desktop looks like when students sign in.
 
 ![](../images/02-vnc-overview.png)
 
-## Create the new VM
+## Create the VM
 
 1. Open Cloud Shell.
 
