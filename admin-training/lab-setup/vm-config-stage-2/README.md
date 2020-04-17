@@ -1,21 +1,21 @@
 # Admin Training VM Setup - Stage 2
 
-Here are steps to configure DNS and generate the ***admin-training-2*** snapshot, image, and template and ***admin-training-dns*** Docker image.
+Here are steps to configure DNS and generate the ***admin-training-2*** VM snapshot/image/template and ***admin-training-dns*** Docker image.
 
 You can:
 - Use the pre-configure DNS Docker image as is
 - Re-configure the Docker image
 - Configure a new Docker image from scratch.
 
-Here's what the DNS zone records file looks like when done.
+Here's what the BIND DNS zone records file looks like when done.
 
 ![](../images/01-DNS-zone-records-file.png)
 
-## Create the new VM
+## Create the VM
 
 Create a new VM from ***admin-training-1*** instance template (or image of same name) by gcloud or GCP console.
 
-Steps are for gcloud with instance template:
+Steps for gcloud with instance template:
 
 1. Open Cloud Shell.
 
