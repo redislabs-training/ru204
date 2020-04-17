@@ -8,7 +8,7 @@
 
 Starting point
 
-<span style="color: #FF0000;">Ubuntu 18.04</span>  \ Redis 5.4 /  \ vanilla VNC / 
+<span style="color:red;">Ubuntu 18.04</span>  \ Redis 5.4 /  \ vanilla VNC / 
 
 Finishing point
 
