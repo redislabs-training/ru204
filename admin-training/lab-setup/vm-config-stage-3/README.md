@@ -205,7 +205,7 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
-## Update to a new Docker image from an old one
+## Update to a new VNC Docker image from an old one
 
 This is needed when updating to a new Docker image from an ***older*** one.
 
