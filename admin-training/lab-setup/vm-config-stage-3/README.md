@@ -1,11 +1,19 @@
 # Admin Training Setup - Stage 3
 
-Here are steps to generate stage 3 VM and VNC Docker image.
+Here are steps to generate a stage 3 VM and VNC Docker image.
+
+***admin-training-2*** only uses a ***vanilla*** VNC Docker image.
+
+The VM and VNC images share a common pair of SSH keys.
+
+If one image changes, the other must too.
 
 You can:
-- Configure a new Docker image from scratch
-- Use the configured VNC Docker image as is
-- Re-configure the Docker image.
+- Build VM and VNC images from scratch using ***admin-training-2*** and ***vanilla-vnc***
+- Update VM image using ***admin-training-2*** and ***configured-vnc***
+- Update VNC image using ***admin-training-3*** and ***configured-vnc***.
+
+
 
 Here's what the configured VNC desktop looks like when students sign in.
 
@@ -20,21 +28,13 @@ gcloud compute instances create admin-training-3 --source-instance-template admi
  
 ```
 
-## Build the VNC Docker image from scratch
-
-A ***vanilla*** VNC container is running.
+## Build VM and VNC Docker image from scratch
 
 Students start and stop nodes from the container. Alias commands allow them to transparently SSH to the base VM and run Docker commands from there in a controlled manner.
 
-### Copy files to the running container
+### Copy files to the container
 
-Copy the following:
-- SSH
-- SSH keys
-- ***.bashrc*** with alias commands
-- Redis background image.
-
-1. SSH to the VM from GCP console
+1. SSH to the VM from GCP console.
 
 2. Install SSH on the VNC container.
 
