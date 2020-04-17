@@ -15,10 +15,23 @@ function modifyRequest(request, updatedDomain) {
 // site that originHost points to if it is set.
 function mapURIPattern(router, pattern, originHost) {
     const action = (req) => {
+        // If there is a . after the last / in url then 
+        // this is a file request and we don't redirect it.
+        let redirectWithSlash = false
+
         if (! originHost && ! req.url.endsWith('/')) {
-            // All static site URLs must end in /
-            return Response.redirect(new URL(`${req.url}/`), 301)
+            // Only consider static URLs for redirect to / 
+            // version.  But not those that are file requests...
+            // File requests have a . in the path.
+            const u = new URL(req.url)
+            if (u.pathname.indexOf('.') === -1) {
+                redirectWithSlash = true
+            }
         }
+
+        if (redirectWithSlash) {
+            return Response.redirect(new URL(`${req.url}/`), 301)
+        }    
 
         return fetch(modifyRequest(req, originHost))
     }
