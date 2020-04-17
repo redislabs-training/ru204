@@ -1,20 +1,25 @@
 # Building the Lab
 
+Color | Meaning
+---|---
+![](https://placehold.it/15/c5f015/000000) | vanilla
+![](https://placehold.it/15/f03c15/000000) | configured
+![](https://placehold.it/15/1589F0/000000) | blue
+
 ## Here's what you get
 
 ## Here's what you build
 
 ### Stage 1 VM
 
-```diff
-- text in red
-+ text in green
-```
-![](https://placehold.it/15/f03c15/000000) hello
 
 Starting point
 
-<span style="color:red;">Ubuntu 18.04</span>  \ Redis 5.4 /  \ vanilla VNC / 
+```diff
+- Ubuntu 18.04
+- Redis 5.4 
+- vanilla VNC
+```
 
 Finishing point
 
