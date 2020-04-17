@@ -205,6 +205,48 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
+## Generate new SSH keys - if needed
+
+This is needed when updating to a newer Docker image from an ***older configured*** image (not a ***vanilla Xfce*** image).
+
+1. SSH to the VM from GCP console.
+
+2. Switch to the ***trainee*** user.
+
+```bash
+sudo su - trainee
+ 
+```
+3. Generate new keys so students can 'silently' SSH from the container.
+
+```bash
+mkdir .ssh
+ssh-keygen -q -t rsa -N '' -f .ssh/id_rsa 2>/dev/null <<< y >/dev/null
+cp -r .ssh/id_rsa.pub .ssh/authorized_keys
+ 
+```
+
+5. Copy keys to the ***configured*** container.
+
+```bash
+docker cp .ssh/ configured-vnc:/headless
+docker exec --user root configured-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
+ 
+```
+
+6. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
+
+7. Open the VNC terminal.
+
+8. Start RE nodes.
+
+***IMPORTANT:*** This step must work. It will silently authenticate you to the base VM and ask if you want to continue connecting to 172.18.0.1. 
+
+```bash
+start_north_nodes
+ 
+```
+
 ## Clean up instance
 
 If you ***CONFIGURED or TESTED*** VNC...
