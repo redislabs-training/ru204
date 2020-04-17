@@ -257,15 +257,15 @@ start_north_nodes
 
 If you ***CONFIGURED or TESTED*** VNC...
 
-1. Return to VM SSH to GCP console.
+1. Return to the SSH terminal from the GCP console.
  
 2. Stop and remove nodes.
 
 This forces manual restart so clusters build and resolve DNS properly.
 
 ```bash
-sudo docker stop n1 n2 n3 s1 s2 s3
-sudo docker rm n1 n2 n3 s1 s2 s3
+docker stop n1 n2 n3 s1 s2 s3
+docker rm n1 n2 n3 s1 s2 s3
  
 ```
 
