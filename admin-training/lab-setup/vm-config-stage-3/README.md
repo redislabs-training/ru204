@@ -1,6 +1,6 @@
 # Admin Training Setup - Stage 3
 
-Here are steps to generate Stage 3 VM and VNC Docker image.
+Here are steps to generate the stage 3 VM and VNC Docker image.
 
 You can:
 - Use the pre-configured VNC Docker image as is
