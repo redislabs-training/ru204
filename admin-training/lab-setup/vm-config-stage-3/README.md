@@ -205,11 +205,15 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
-## Generate new SSH keys - if needed
+## Updating to a new Docker image from an old one
 
-This is needed when updating to a newer Docker image from an ***older configured*** image (not a ***vanilla Xfce*** image).
+This is needed when updating to a new Docker image from an ***older*** one.
 
-1. SSH to the VM from GCP console.
+You must generate and save new SSH keys to the VNC Docker image and a new VM image.
+
+1. Download and run the older VNC image from GCR.
+
+2. SSH to the VM from GCP console.
 
 2. Switch to the ***trainee*** user.
 
@@ -240,12 +244,14 @@ docker exec --user root configured-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
 
 8. Start RE nodes.
 
-***IMPORTANT:*** This step must work. It will silently authenticate you to the base VM and ask if you want to continue connecting to 172.18.0.1. 
+***IMPORTANT:*** This step must silently authenticate you to the base VM and ask if you want to continue connecting to 172.18.0.1. 
 
 ```bash
 start_north_nodes
  
 ```
+
+9. Clean up the instance and save changes to the VNC Docker image and a new VM image.
 
 ## Clean up instance
 
