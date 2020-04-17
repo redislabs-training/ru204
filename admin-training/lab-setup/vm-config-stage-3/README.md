@@ -139,14 +139,11 @@ start_south_nodes
  
 ```
 
-4. Follow these steps to configure VNC.
+4. Follow these steps to configure the desktop.
 
 ![Configure VNC](../vnc-config/README.md)
 
-
-### Push ***vanilla*** Docker image changes to GCR
-
-1. Remove the ***known_hosts*** file.
+5. Remove the ***known_hosts*** file.
 
 ***known_hosts*** copied to other VMs gives ***REMOTE HOST ID HAS CHANGED!*** and ***Host key verification failed*** errors. 
 
@@ -155,17 +152,17 @@ rm /headless/.ssh/known_hosts
  
 ```
 
-2. Return to SSH terminal on VM from GCP console.
+### Push ***vanilla*** Docker image changes to GCR
 
-You're still signed in as ***trainee***.
+1. Return to VM terminal from GCP console.
 
-3. Exit from ***trainee*** user to return to your ***GCP account***.
+2. Exit from ***trainee*** user to return to your ***GCP account***.
 
 ```bash
 exit
 ```
 
-4. Authenticate Docker to GCR.
+3. Authenticate Docker to GCR.
 
 ***IMPORTANT:*** Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
 
@@ -175,12 +172,22 @@ cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin
  
 ```
 
-5. Commit changes and upload to GCR.
+4. Commit changes and upload to GCR.
 
 ```bash
 sudo docker commit vanilla-vnc admin-training-vnc
 sudo docker tag admin-training-vnc gcr.io/redislabs-university/admin-training-vnc
 sudo docker push gcr.io/redislabs-university/admin-training-vnc
+ 
+```
+
+5. Stop and remove vanilla VNC container and images.
+
+```bash
+sudo docker stop vanilla-vnc
+sudo docker rm vanilla-vnc
+sudo docker rmi consol/ubuntu-xfce-vnc
+sudo docker rmi admin-training-vnc
  
 ```
 
@@ -190,13 +197,10 @@ sudo docker push gcr.io/redislabs-university/admin-training-vnc
 
 2. Stop and remove vanilla VNC container and images.
 
-If you just built or changed the VNC iamge and are downloading the updated image, you'll also have ***admin-training-vnc***.
-
 ```bash
 sudo docker stop vanilla-vnc
 sudo docker rm vanilla-vnc
 sudo docker rmi consol/ubuntu-xfce-vnc
-sudo docker rmi admin-training-vnc
  
 ```
 
