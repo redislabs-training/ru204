@@ -1,4 +1,4 @@
-# Admin Training VM Setup - Stage 3
+# Admin Training Setup - Stage 3
 
 Here are steps to generate Stage 3 VM and VNC Docker image.
 
