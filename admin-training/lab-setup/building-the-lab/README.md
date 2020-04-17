@@ -32,6 +32,6 @@ Starting point
 
 Finishing point
 
-\ Ubuntu 18.04 /  \ Redis 5.4 /  / ***configured VNC*** \ / ***Keys*** \  / Stage 1 changes \  / Stage 2 changes \  / configured DNS \
+\ Ubuntu 18.04 /  \ Redis 5.4 /  / Stage 1 changes \  / Stage 2 changes \  / configured DNS \  / ***configured VNC*** \ / ***Keys*** \ 
 
 ## Here's how you modify what you build
