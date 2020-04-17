@@ -1,6 +1,6 @@
 # Building the Lab
 
-Color codings and meanings.
+Color codings.
 
 ```diff
 + vanilla
