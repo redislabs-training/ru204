@@ -1,6 +1,8 @@
 # Admin Training VM Setup - Stage 2
 
-Here are steps to configure DNS and generate the ***admin-training-2*** VM snapshot/image/template and ***admin-training-dns*** Docker image.
+Here are steps to configure and generate:
+- Stage 2 VM (snapshot, image, template)
+- DNS Docker image.
 
 You can:
 - Use the pre-configure DNS Docker image as is
