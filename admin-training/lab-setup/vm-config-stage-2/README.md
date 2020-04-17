@@ -1,11 +1,11 @@
 # Admin Training VM Setup - Stage 2
 
-Here are steps to configure DNS and generate the ***admin-training-2*** snapshot, image, and template.
+Here are steps to configure DNS and generate the ***admin-training-2*** snapshot, image, and template and ***admin-training-dns*** Docker image.
 
 You can:
-- Use the pre-configure DNS Docker image in GCR as is
+- Use the pre-configure DNS Docker image as is
 - Re-configure the Docker image
-- Configure the vanilla DNS image from scratch.
+- Configure a new Docker image from scratch.
 
 Here's what the DNS zone records file looks like when done.
 
