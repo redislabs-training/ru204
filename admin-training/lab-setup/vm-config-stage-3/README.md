@@ -1,6 +1,6 @@
 # Admin Training VM Setup - Stage 3
 
-Here are steps to configure VNC and generate the ***admin-training-3*** VM snapshot, image, and template and the ***gcr.io/redislabs-university/admin-training-vnc*** Docker image in GCR.
+Here are steps to configure VNC and generate the ***admin-training-3*** VM snapshot, image, and template and the ***admin-training-vnc*** Docker image in GCR.
 
 You can:
 - Use the pre-configured VNC Docker image in GCR
