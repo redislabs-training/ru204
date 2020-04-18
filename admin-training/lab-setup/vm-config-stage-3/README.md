@@ -221,6 +221,52 @@ sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --
  
 ```
 
+5. Switch to the ***trainee*** user.
+
+```bash
+sudo su - trainee
+ 
+```
+
+6. Copy SSH keys from the running container to the VM
+
+```bash
+docker cp configured-vnc:/headless/.ssh/ .
+ 
+```
+
+7. Sign in to VNC desktop with password ***trainee!*** .
+
+8. Open VNC terminal.
+
+9. Start RE nodes.
+
+***IMPORTANT:*** This step must sign you in to the base VM without a password.
+
+Accept to continue.
+
+```bash
+start_north_nodes
+ 
+```
+
+10. Create a cluster.
+
+```bash
+create_north_nodes
+ 
+```
+
+11. Launch ***north node CLIs*** and check that the cluster and prompts work.
+
+```bash
+rladmin status
+ 
+```
+
+12. Clean up the instance and save changes to the Docker image and new VM (see steps below).
+
+
 ## Update to a ***newer*** configured VNC Docker image from an ***older*** one
 
 This is needed when updating from an older ***configured*** Docker image.
