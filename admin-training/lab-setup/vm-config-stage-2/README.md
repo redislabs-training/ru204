@@ -96,6 +96,25 @@ exit
 
 Use these steps if you want to re-configure the DNS Docker image or configure a new DNS server from scratch using the vanilla DNS server.
 
+
+8. Run ***BIND*** DNS so URLs can get resolved on the Docker network (config is done in stage 2).
+
+```bash
+docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
+ 
+```
+
+***SKIP:*** Someday, you may use ***CoreDNS*** with Corefile and rlabs.db.
+
+```bash
+docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
+```
+4. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
+
+5. Sign in with ***root*** and ***password*** .
+
+
+
 1. Point your laptop browser to the VM public IP (it's in GCP console).
 
 2. Sign in to VNC with password ***trainee!*** .
