@@ -1,4 +1,4 @@
-# Admin Training Setup - Stage 3
+# VM Setup - Stage 3
 
 Here are steps to generate a stage 3 VM and VNC Docker image.
 
@@ -317,6 +317,27 @@ You're ready to create user instances.
 
 1. Create a snapshot of the VM called ***admin-training-3***.
 
+```bash
+gcloud compute disks snapshot admin-training-3 --snapshot-names=admin-training-3 --zone=us-west1-b
+ 
+```
+
 2. Create an image from the snapshot called ***admin-training-3***.
 
+```bash
+gcloud compute images create admin-training-3 --source-snapshot admin-training-3 --storage-location us-west1
+ 
+```
+
 3. Create an instance template from the image called ***admin-training-3***.
+
+```bash
+gcloud compute instance-templates create admin-training-3 \
+    --machine-type n1-standard-4 \
+    --image-project redislabs-university \
+    --image admin-training-3 \
+    --network training \
+    --subnet training-subnet \
+    --region us-west1
+ 
+```
