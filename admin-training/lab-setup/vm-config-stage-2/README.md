@@ -2,13 +2,13 @@
 
 Generate a ***Stage 2*** VM and DNS Docker image that resolve node and cluster names.
 
-Here's what the ***BIND*** zone records look like when done.
+Here's what the ***BIND*** DNS zone records look like when done.
 
 ![](../images/01-DNS-zone-records-file.png)
 
 ## Create VM and DNS
 
-Create a VM and ***vanilla*** DNS server the first time.
+Create VM and DNS server the first time.
 
 1. Create the VM from ***admin-training-1***.
 
@@ -19,7 +19,7 @@ gcloud compute instances create admin-training-2 --source-instance-template admi
 
 2. SSH to the VM from GCP console.
 
-3. Run the ***vanilla*** DNS server.
+3. Run a ***vanilla*** DNS server.
 
 ```bash
 sudo docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp sameersbn/bind
@@ -55,7 +55,7 @@ cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin
  
 ```
 
-12. Commit changes and upload DNS Docker image to GCR.
+12. Commit changes and upload the DNS Docker image to GCR.
 
 ```bash
 sudo docker commit vanilla-dns admin-training-dns
