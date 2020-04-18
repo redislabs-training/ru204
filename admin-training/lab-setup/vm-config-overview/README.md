@@ -1,6 +1,6 @@
 # VM Setup - Overview
 
-Each VM provides the following. Nodes run in containers, but they look like VMs with hostnames and IPs.
+Each VM provides the following. Nodes run in containers, but they look like VMs because they have hostnames and IPs.
 
 All someone needs to use a VM is its public IP and VNC password.
 
@@ -36,7 +36,7 @@ Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
 
-3. Create an instance template in the region and subnet where you run instances.
+3. Create an instance template ***admin-training-0*** in the region and subnet where you run instances.
   
 Requirement  | Specification  
 ------------ | -------------
@@ -48,4 +48,13 @@ Network | ***training***
 Subnet | ***training-subnet***
 Region | ***us-west1***
 
-
+```bash
+gcloud compute instance-templates create admin-training-0 \
+    --machine-type n1-standard-4 \
+    --image ubuntu-1804-bionic-v20200414 \
+    --boot-disk-size 30 \
+    --network training \
+    --subnet training-subnet \
+    --region us-west1
+ 
+```
