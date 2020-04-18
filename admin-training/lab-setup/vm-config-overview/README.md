@@ -23,9 +23,7 @@ Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
 ## Getting started
 
-A stage 1 VM needs:
-- VPC
-- base config.
+A stage 1 VM needs a VPC and an instance template.
 
 1. Create a VPC with subnet 172.18.0.0/16 in the region where you run VMs.
 
