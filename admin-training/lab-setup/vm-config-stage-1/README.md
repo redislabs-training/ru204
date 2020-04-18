@@ -3,11 +3,15 @@
 Here are steps to build ***admin-training-1*** from instance template ***admin-training-0***.
 
 The template has:
-- Zone ***us-west1-b***
-- Machine type ***n1-standard-4***
-- Image ***Ubuntu 18.04 LTS***
-- Disk size (GB) ***30***
-- Network ***training***
+Property | Value
+---|---
+Name | ***admin-training-0***
+Machine type | ***n1-standard-4***
+Image | ***Ubuntu 18.04 LTS***
+Disk size (GB) | ***30***
+Network | ***training***
+Subnet | ***training-subnet***
+Region | ***us-west1***
 
 This stage produces:
 - Docker
