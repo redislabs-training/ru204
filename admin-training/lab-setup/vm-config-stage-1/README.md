@@ -1,61 +1,28 @@
-# Admin Training VM Setup - Stage 1
+# VM Setup - Stage 1
 
 Here are steps to build ***admin-training-1*** from instance template ***admin-training-0***.
 
-The template was created with:
+The template has:
 - Ubuntu 18.04
 - ***us-west1-b*** zone
+- Machine type ***n1***
 - 4 CPUs
 - 15 GB RAM
-- ***training*** VPC subnet.
+- ***training*** VPC in ***us-west1***.
 
-You'll end up with:
+This stage produces:
 - Docker
 - VNC
 - Redis Insight
-- Node containers - stopped and removed.
+- RE Nodes.
 
-Nodes run in containers, but they look like VMs.
 
-![](../images/00-vm-overview.png)
 
-All students need is the VM's public IP and VNC password (provided by instructor).
 
-Setup is built in three stages:
-1. Add Docker, VNC, Redis Insight, nodes
-2. Add DNS
-2. Configure VNC.
 
-For easy re-config, each stage produces a VM snapshot, image, and template.
+## Create the VM and add VI, ***trainee*** user, and Docker
 
-Stages 2 and 3 also produce Docker images for DNS and VNC.
 
-Docker images are stored in GCR.
-
-## Create a VM from an instance template
-
-1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
-
-Requirement | Specification
-------------|--------------
-Name | ***training***
-Subnet Creation Mode | Custom
-Subnet Name | ***training-subnet***
-Subnet IP Address Range | 172.18.0.0/16
-
-2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
-
-3. Create an instance template for the base VM in a region and VPC where you run instances.
-  
-Requirement  | Specification  
------------- | -------------
-Name | ***admin-training-0***
-Zone | us-west1-b
-CPU | 4
-Memory | 15 GB
-OS | Ubuntu 18.04 LTS
-Disk | 30 GB
-Networking | ***training***
 
 4. Create a base VM from the instance template.
 
@@ -370,3 +337,50 @@ Now you have:
 2. Create an image from the snapshot called ***admin-training-1***.
 
 3. Create an instance template from the image called ***admin-training-1***.
+
+
+
+Here are steps to build lab VMs.
+
+Setup is built in stages for easy re-config.
+
+Stages include:
+0. Region, machine, OS, VPC
+1. Docker, VNC, Insight, RE nodes
+2. DNS
+3. VNC config.
+
+Each stage produces a snapshot, image, and template.
+
+Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
+
+Nodes run in containers, but they look like VMs.
+
+![](../images/00-vm-overview.png)
+
+All students need is the VM public IP and VNC password (provided by instructor).
+
+This stage builds a VPC and starting instance template.
+
+1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
+
+Requirement | Specification
+------------|--------------
+Name | ***training***
+Subnet Creation Mode | Custom
+Subnet Name | ***training-subnet***
+Subnet IP Address Range | 172.18.0.0/16
+
+2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
+
+3. Create an instance template for the base VM in a region and VPC where you run instances.
+  
+Requirement  | Specification  
+------------ | -------------
+Name | ***admin-training-0***
+Zone | us-west1-b
+CPU | 4
+Memory | 15 GB
+OS | Ubuntu 18.04 LTS
+Disk | 30 GB
+Networking | ***training***
