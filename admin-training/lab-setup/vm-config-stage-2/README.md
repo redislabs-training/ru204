@@ -166,6 +166,28 @@ Now you have:
 
 1. Create a snapshot of the VM called ***admin-training-2***.
 
+```bash
+gcloud compute disks snapshot admin-training-2 --snapshot-names=admin-training-2 --zone=us-west1-b
+ 
+```
+
 2. Create an image from the snapshot called ***admin-training-2***.
 
+```bash
+gcloud compute images create admin-training-2 --source-snapshot admin-training-2 --storage-location us-west1
+ 
+```
+
 3. Create an instance template from the iamge called ***admin-training-2***.
+
+```bash
+gcloud compute instance-templates create admin-training-2 \
+    --machine-type n1-standard-4 \
+    --image-project redislabs-university \
+    --image admin-training-2 \
+    --network training \
+    --subnet training-subnet \
+    --region us-west1
+ 
+```
+
