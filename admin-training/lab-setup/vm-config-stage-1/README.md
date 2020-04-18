@@ -26,7 +26,7 @@ Stages 2 and 3 also produce Docker images for DNS and VNC.
 
 Docker images are stored in GCR.
 
-## Create a VPC and VM
+## Create a VM - with VPC and instance template
 
 1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
 
@@ -38,24 +38,29 @@ Subnet Name | ***training-subnet***
 Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
- 
-3. Create the base VM in the region and VPC where you want to run instances.
+
+3. Create an instance template for the base VM in a region and VPC where you run instances.
   
 Requirement  | Specification  
 ------------ | -------------
-Name | ***admin-training-1***
+Name | ***admin-training-0***
 Zone | us-west1-b
-Labels | creator, version, os
 CPU | 4
 Memory | 15 GB
 OS | Ubuntu 18.04 LTS
 Disk | 30 GB
-Delete protection | enabled
 Networking | ***training***
-  
-## Install Docker
 
-1. SSH to the base VM from GCP console to finish setup.
+4. Create a base VM from the instance template.
+
+```bash
+gcloud compute instances create admin-training-1 --source-instance-template admin-training-0 --zone=us-west1-b
+ 
+```
+
+## Install VI, ***trainee*** user, and Docker 
+
+1. SSH to the VM from GCP console.
 
 2. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
 
@@ -131,43 +136,34 @@ and uncomment the following line so ***trainee***'s base VM prompt is ***green**
 #force_color_prompt
 ```
 
-7. Create the Docker network.
+## Create Docker network and run containers
+
+1. Create the Docker network.
 
 ```bash
 docker network create --subnet=172.18.0.0/16 rlabs
  
 ```
 
-8. Run ***BIND*** DNS so URLs can get resolved on the Docker network (config is done in stage 2).
-
-```bash
-docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
- 
-```
-
-***SKIP:*** Someday, you may use ***CoreDNS*** with Corefile and rlabs.db.
-
-```bash
-docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
-```
-
-9. Run ***Xfce VNC*** so the VM has a UI on port 80 (config is done in stage 3).
+2. Run ***Xfce*** so the VM has a UI on port 80 (config in stage 3).
 
 ```bash
 docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901 consol/ubuntu-xfce-vnc
  
 ```
 
-10. Run ***Redis Insight*** so students can explore databases in a UI.
+3. Run ***Redis Insight*** so students can explore databases in a UI.
 
 ```bash
 docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
  
 ```
 
-## Add scripts to run nodes and create clusters
+## Create scripts that run nodes and create clusters 
 
-1. Scripts run on the base VM, but are run by students from the VNC container via alias commands
+Students start and stop nodes from the VNC container. Alias commands allow them to transparently SSH to the base VM where scripts are run in a safe and controlled manner.
+
+1. Create the scripts.
 
 ```bash
 mkdir scripts
@@ -321,41 +317,31 @@ chmod 755 scripts/run_dnsutils.sh
  
 ```
 
-## Check VNC and DNS access
-
-1. Point your laptop browser to the VMs public IP (found in GCP console).
-
-2. Sign in to VNC with password ***trainee!*** .
-
-3. Open Chrome in VNC desktop.
-
-4. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
-
-5. Sign in with ***root*** and ***password*** .
-
-## Check node and cluster creation
-
-1. From the GCP shell terminal, start nodes:
+2. Start nodes.
 
 ```bash
 scripts/start_north_nodes.sh
  
 ```
 
-2. Create the ***north*** cluster
+3. Create a cluster.
 
 ```bash
 scripts/create_north_cluster.sh
  
 ```
 
-3. From VNC desktop, point Chrome at https://n1:8443
+4. Point your laptop browser to the VM public IP (found in GCP console).
 
-4. Sign in with ***admin@rlabs.org*** and ***admin*** .
+5. Sign in to VNC with password ***trainee!*** .
 
-5. Click ***nodes*** to make sure the cluster was created.
+6. Open Chrome in VNC and point it to ***n1:8443*** .
 
-6. In GCP shell terminal, stop and remove nodes.
+7. Sign in with ***admin@rlabs.org*** and ***admin*** .
+
+8. Click ***nodes*** to make sure the cluster was created.
+
+9. In GCP shell terminal, stop and remove nodes.
 
 This forces manual restart so clusters build and resolve DNS properly. 
 
@@ -366,9 +352,8 @@ docker rm n1 n2 n3
 ```
 
 Now you have:
-- Docker networking
-- Vanilla DNS
-- Vanilla VNC
+- Docker
+- VNC
 - Redis Insight
 - Node containers - stopped and removed.
 
