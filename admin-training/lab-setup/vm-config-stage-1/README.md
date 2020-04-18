@@ -4,11 +4,11 @@ Here are steps to build ***admin-training-1*** from instance template ***admin-t
 
 The template has:
 - Ubuntu 18.04
-- ***us-west1-b*** zone
+- Zone ***us-west1-b***
 - Machine type ***n1***
 - 4 CPUs
 - 15 GB RAM
-- ***training*** VPC in ***us-west1***.
+- ***training*** VPC in region ***us-west1***.
 
 This stage produces:
 - Docker
@@ -16,26 +16,18 @@ This stage produces:
 - Redis Insight
 - RE Nodes.
 
+## Create the VM - add VI, ***trainee*** user, and Docker
 
-
-
-
-## Create the VM and add VI, ***trainee*** user, and Docker
-
-
-
-4. Create a base VM from the instance template.
+1. Create the VM from ***admin-training-0***.
 
 ```bash
 gcloud compute instances create admin-training-1 --source-instance-template admin-training-0 --zone=us-west1-b
  
 ```
 
-## Install VI, ***trainee*** user, and Docker 
+2. SSH to the VM from GCP console.
 
-1. SSH to the VM from GCP console.
-
-2. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
+3. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
 
 ```bash 
 sudo su
@@ -53,7 +45,7 @@ usermod -aG docker trainee
  
 ```
 
-3. Install Docker.
+4. Install Docker.
 
 ```bash
 apt-get install \
@@ -76,7 +68,7 @@ apt-get -y install docker-ce
  
 ```
 
-4. Run 
+5. Run 
 
 ```bash
 sudo visudo
@@ -89,43 +81,36 @@ and add the following line so ***trainee*** can start and stop containers withou
 trainee ALL=(ALL) NOPASSWD:ALL
 ```
 
+## Create the Docker network and run containers
 
-5. Switch to ***trainee*** user to create the Docker network, add scripts, and build the initial VNC Docker image and run it as an unconfigured (vanilla) container.
+1. Switch to ***trainee*** user. 
 
 ```bash
 sudo su - trainee
  
 ```
 
-6. Run
-
-```bash
-vi .bashrc
- 
-```
-and uncomment the following line so ***trainee***'s base VM prompt is ***green*** and you can tell it apart from the ***yellow*** VNC user prompt.
+2. Uncomment this line in ***.bashrc*** so ***trainee***'s VM user prompt is ***green*** and distinguishable from VNC user's prompt which is ***yellow***.
 
 ```bash
 #force_color_prompt
 ```
 
-## Create Docker network and run containers
-
-1. Create the Docker network.
+3. Create Docker network.
 
 ```bash
 docker network create --subnet=172.18.0.0/16 rlabs
  
 ```
 
-2. Run ***Xfce*** so the VM has a UI on port 80 (config in stage 3).
+4. Run ***Xfce*** VNC so the VM has a UI on port 80 (config is in stage 3).
 
 ```bash
 docker run --name vanilla-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901 consol/ubuntu-xfce-vnc
  
 ```
 
-3. Run ***Redis Insight*** so students can explore databases in a UI.
+5. Run ***Redis Insight*** so students can explore databases in a UI.
 
 ```bash
 docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --dns 172.18.0.20 --hostname insight.rlabs.org --ip 172.18.0.4  redislabs/redisinsight
@@ -134,9 +119,9 @@ docker run --name insight -d -v redisinsight:/db --restart=always --net rlabs --
 
 ## Create scripts that run nodes and create clusters 
 
-Students start and stop nodes from the VNC container. Alias commands allow them to transparently SSH to the base VM where scripts are run in a safe and controlled manner.
+Students start and stop nodes from the VNC container. Alias commands allow them to transparently SSH to the base VM where scripts run in a controlled manner.
 
-1. Create the scripts.
+1. Create scripts.
 
 ```bash
 mkdir scripts
@@ -312,7 +297,7 @@ scripts/create_north_cluster.sh
 
 7. Sign in with ***admin@rlabs.org*** and ***admin*** .
 
-8. Click ***nodes*** to make sure the cluster was created.
+8. Click ***nodes*** to make sure the cluster's running.
 
 9. In GCP shell terminal, stop and remove nodes.
 
