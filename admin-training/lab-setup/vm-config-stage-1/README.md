@@ -339,7 +339,8 @@ gcloud compute instance-templates create admin-training-1 \
     --create-disk image=admin-training-1,image-project=redislabs-university,size=30 \
     --machine-type n1-standard-4 \
     --network training \
-    --subnet training-subnet
+    --subnet training-subnet \
+    --region us-west1
  
 ```
 with --label=key=value,key...
