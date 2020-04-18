@@ -1,4 +1,4 @@
-# Admin Training Setup - Stage 2
+# VM Setup - Stage 2
 
 Here are steps to generate the Stage 2 VM and DNS Docker image.
 
