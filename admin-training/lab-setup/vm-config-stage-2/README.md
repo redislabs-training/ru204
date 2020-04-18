@@ -1,41 +1,55 @@
 # VM Setup - Stage 2
 
-Here are steps to generate the Stage 2 VM and DNS Docker image.
-
-You can:
-- Use the pre-configure DNS Docker image as is
-- Re-configure the Docker image
-- Configure a new Docker image from scratch.
+Generate a Stage 2 VM and DNS Docker image to resolve node and cluster names.
 
 Here's what the BIND DNS zone records look like when done.
 
 ![](../images/01-DNS-zone-records-file.png)
 
-## Create the VM
+## Create new VM and DNS
 
-Create a new VM from ***admin-training-1*** image or instance template by gcloud or GCP console.
+Create a new VM with a ***vanilla*** BIND DNS server the first time.
+
+1. Create the VM from ***admin-training-1***.
 
 ```bash
 gcloud compute instances create admin-training-2 --source-instance-template admin-training-1 --zone=us-west1-b
  
 ```
 
-## Use the pre-configured DNS Docker image
+2. SSH to the VM from GCP console.
 
-1. SSH to the VM from GCP console.
-
-2. Stop and remove the vanilla DNS container and images.
+3. Run the ***vanilla*** DNS server.
 
 ```bash
-sudo docker stop vanilla-dns
-sudo docker rm vanilla-dns
-sudo docker rmi sameersbn/bind
+sudo docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp sameersbn/bind
  
 ```
 
-3. Authenticate Docker to GCR. 
+4. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
-***IMPORTANT:*** Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root and remove ***/home/trainee/.docker/config.json*** .
+5. Open Chrome on VNC desktop
+
+6. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
+
+7. Sign in with ***root*** and ***password*** .
+
+8. Configure DNS using these steps.
+
+![Configure DNS](../dns-config/README.md)
+
+9. Check DNS is working.
+
+### Push DNS changes to GCR
+
+1. Return to VM terminal from GCP console.
+
+2. Authenticate Docker to GCR.
+
+```diff
+! IMPORTANT
+```
+Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
 gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
@@ -43,12 +57,60 @@ cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin
  
 ```
 
-4. Run the configured DNS server.
+3. Commit changes and upload DNS Docker image to GCR.
+
+```bash
+sudo docker commit vanilla-dns admin-training-dns
+sudo docker tag admin-training-dns gcr.io/redislabs-university/admin-training-dns
+sudo docker push gcr.io/redislabs-university/admin-training-dns
+ 
+```
+
+4. Stop and remove ***vanilla*** DNS container and images.
+
+```bash
+sudo docker stop vanilla-dns
+sudo docker rm vanilla-dns
+sudo docker rmi sameersbn/bind
+sudo docker rmi admin-training-dns
+ 
+```
+
+## Update VM
+
+Update a VM using the ***configured*** DNS Docker image in GCR.
+
+1. Create the VM from ***admin-training-1***.
+
+```bash
+gcloud compute instances create admin-training-2 --source-instance-template admin-training-1 --zone=us-west1-b
+ 
+```
+
+2. SSH to the VM from GCP console.
+
+3. Authenticate Docker to GCR.
+
+```diff
+! IMPORTANT
+```
+Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
+
+```bash
+gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
+cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin https://gcr.io
+ 
+```
+
+4. Run the ***configured*** DNS server.
 
 ```
 sudo docker run --name configured-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  gcr.io/redislabs-university/admin-training-dns
  
 ```
+
+4. Check DNS is working
+
 
 ## Check DNS is working
 
@@ -92,23 +154,29 @@ exit
  
 ```
 
-## Configure the DNS server
+## Configure the DNS server from scratch
 
 Use these steps if you want to re-configure the DNS Docker image or configure a new DNS server from scratch using the vanilla DNS server.
 
+1. SSH to the VM from GCP console.
 
-8. Run ***BIND*** DNS so URLs can get resolved on the Docker network (config is done in stage 2).
+If configuring from scratch...
+
+Run a ***vanilla*** BIND DNS server.
+
+```bash
+sudo docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
+ 
+```
+
+If re-configuring the DNS Docker image in GCR use steps above to remove the
+
 
 ```bash
 docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20 -p 10000:10000/tcp  sameersbn/bind
  
 ```
 
-***SKIP:*** Someday, you may use ***CoreDNS*** with Corefile and rlabs.db.
-
-```bash
-docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
-```
 4. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
 
 5. Sign in with ***root*** and ***password*** .
@@ -191,3 +259,11 @@ gcloud compute instance-templates create admin-training-2 \
  
 ```
 
+```diff
+! SKIP
+```
+Someday, you may want to use ***CoreDNS*** with Corefile and rlabs.db.
+
+```bash
+docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
+```
