@@ -3,12 +3,11 @@
 Here are steps to build ***admin-training-1*** from instance template ***admin-training-0***.
 
 The template has:
-- Ubuntu 18.04
 - Zone ***us-west1-b***
-- Machine type ***n1***
-- 4 CPUs
-- 15 GB RAM
-- ***training*** VPC in region ***us-west1***.
+- Machine type ***n1-standard-4***
+- Image ***Ubuntu 18.04 LTS***
+- Disk size (GB) ***30***
+- Network ***training***
 
 This stage produces:
 - Docker
@@ -320,7 +319,7 @@ Now you have:
 1. Create a snapshot of the VM called ***admin-training-1***.
 
 ```bash
-gcloud compute disks snapshot admin-training-1 --zone=us-west1-b
+gcloud compute disks snapshot admin-training-1 --snapshot-names=admin-training-1 --zone=us-west1-b
  
 ```
 with --labels
@@ -342,6 +341,11 @@ gcloud compute instance-templates create admin-training-1 \
     --network training
  
 ```
+
+gcloud references:
+https://cloud.google.com/sdk/gcloud/reference/compute/disks/snapshot
+https://cloud.google.com/compute/docs/instance-templates/create-instance-templates
+
 
 
 
