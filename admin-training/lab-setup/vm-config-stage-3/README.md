@@ -323,14 +323,10 @@ start_north_nodes
 
 9. Clean up the instance and save changes to the Docker image and new VM.
 
-```bash
-
 
 ## Clean up instance
 
-If you ***CONFIGURED or TESTED*** VNC...
-
-1. Return to the SSH terminal from the GCP console.
+1. Return to the GCP shell terminal.
  
 2. Stop and remove nodes.
 
