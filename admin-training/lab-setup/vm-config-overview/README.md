@@ -40,7 +40,7 @@ Subnet IP Address Range | 172.18.0.0/16
   
 Requirement  | Specification  
 ------------ | -------------
-Name | ***admin-training-xyz***
+Name | ***admin-training-0***
 Machine type | ***n1-standard-4***
 Image project | ***ubuntu-os-cloud***
 Image | ***Ubuntu 18.04 LTS***
@@ -50,7 +50,7 @@ Subnet | ***training-subnet***
 Region | ***us-west1***
 
 ```bash
-gcloud compute instance-templates create admin-training-xyz \
+gcloud compute instance-templates create admin-training-0 \
     --machine-type n1-standard-4 \
     --image-project ubuntu-os-cloud \
     --image ubuntu-1804-bionic-v20200414 \
