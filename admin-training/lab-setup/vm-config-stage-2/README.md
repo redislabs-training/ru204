@@ -1,14 +1,14 @@
 # VM Setup - Stage 2
 
-Generate a Stage 2 VM and DNS Docker image to resolve node and cluster names.
+Generate a ***Stage 2*** VM and DNS Docker image that resolve node and cluster names.
 
-Here's what the BIND DNS zone records look like when done.
+Here's what the ***BIND*** zone records look like when done.
 
 ![](../images/01-DNS-zone-records-file.png)
 
 ## Create VM and DNS
 
-Create a new VM with ***vanilla*** BIND DNS server the first time.
+Create a VM and ***vanilla*** DNS server the first time.
 
 1. Create the VM from ***admin-training-1***.
 
@@ -28,7 +28,7 @@ sudo docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.
 
 4. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
-5. Open Chrome on VNC desktop
+5. Open Chrome on the VNC desktop.
 
 6. Point it to https://172.18.0.20:10000 (this is ***BIND***'s admin console).
 
