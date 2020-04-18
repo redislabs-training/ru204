@@ -319,9 +319,29 @@ Now you have:
 
 1. Create a snapshot of the VM called ***admin-training-1***.
 
+```bash
+gcloud compute disks snapshot admin-training-1 --zone=us-west1-b
+ 
+```
+with --labels
+
+
 2. Create an image from the snapshot called ***admin-training-1***.
 
+```bash
+gcloud compute images create admin-training-1 --source-snapshot admin-training-1 --storage-location us-west1
+ 
+```
+
 3. Create an instance template from the image called ***admin-training-1***.
+
+```bash
+gcloud compute instance-templates create admin-training-1 \
+    --create-disk image=admin-training-1,image-project=redislabs-university,size=30 \
+    --machine-type n1-standard-4 \
+    --network training
+ 
+```
 
 
 
