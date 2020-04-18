@@ -1,10 +1,12 @@
 # VM Setup - Overview
 
-Each VM provides the following. Nodes run in containers, but they look like VMs because they have hostnames and IPs.
-
-All someone needs to use a VM is its public IP and VNC password.
+A finished VM includes the following. 
 
 ![](../images/00-vm-overview.png)
+
+Nodes run in containers, but they look like VMs because they have hostnames and IPs.
+
+All someone needs to use a VM is its public IP and VNC password.
 
 ## Building VMs
 
@@ -15,7 +17,7 @@ Stages include:
 2. DNS config
 3. VNC config.
 
-Each stage produces a snapshot, image, and template.
+Each stage produces a VM snapshot, image, and template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
@@ -23,9 +25,9 @@ Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
 A stage 1 VM needs:
 - VPC
-- Instance template ***admin-training-0***
+- base config.
 
-1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
+1. Create a VPC with subnet 172.18.0.0/16 in the region where you run VMs.
 
 Requirement | Specification
 ------------|--------------
@@ -34,9 +36,9 @@ Subnet Creation Mode | Custom
 Subnet Name | ***training-subnet***
 Subnet IP Address Range | 172.18.0.0/16
 
-2. Create a firewall rule that allows ingress on all ports from all sources (0.0.0.0/0) to all targets.
+2. Create a firewall rule that allows port 80 ingress from all sources (0.0.0.0/0) to all targets.
 
-3. Create an instance template ***admin-training-0*** in the region and subnet where you run instances.
+3. Create an instance template ***admin-training-0*** in the region and subnet where you run VMs.
   
 Requirement  | Specification  
 ------------ | -------------
