@@ -19,7 +19,7 @@ This stage produces:
 - Redis Insight
 - RE Nodes.
 
-## Create the VM - add VI, ***trainee*** user, and Docker
+## Create VM
 
 1. Create the VM from ***admin-training-0***.
 
@@ -28,9 +28,11 @@ gcloud compute instances create admin-training-1 --source-instance-template admi
  
 ```
 
-2. SSH to the VM from GCP console.
+## Add VI, user, and Docker 
 
-3. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
+1. SSH to the VM from GCP console.
+
+2. Install vim and add ***trainee*** user to the ***docker*** group so users can start, stop, and SSH to containers.
 
 ```bash 
 sudo su
@@ -48,7 +50,7 @@ usermod -aG docker trainee
  
 ```
 
-4. Install Docker.
+3. Install Docker.
 
 ```bash
 apt-get install \
@@ -71,7 +73,7 @@ apt-get -y install docker-ce
  
 ```
 
-5. Run 
+4. Run 
 
 ```bash
 sudo visudo
@@ -84,7 +86,7 @@ and add the following line so ***trainee*** can start and stop containers withou
 trainee ALL=(ALL) NOPASSWD:ALL
 ```
 
-## Create the Docker network and run containers
+## Create Docker network and run containers
 
 1. Switch to ***trainee*** user. 
 
