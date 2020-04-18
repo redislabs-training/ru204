@@ -1,11 +1,17 @@
 # Admin Training VM Setup - Stage 1
 
-Here are steps to build ***admin-training-1*** from Ubuntu 18.04.
+Here are steps to build ***admin-training-1*** from instance template ***admin-training-0***.
+
+The template was created with:
+- Ubuntu 18.04
+- ***us-west1-b*** zone
+- 4 CPUs
+- 15 GB RAM
+- ***training*** VPC subnet.
 
 You'll end up with:
-- Docker networking
-- Vanilla DNS
-- Vanilla VNC
+- Docker
+- VNC
 - Redis Insight
 - Node containers - stopped and removed.
 
@@ -16,8 +22,8 @@ Nodes run in containers, but they look like VMs.
 All students need is the VM's public IP and VNC password (provided by instructor).
 
 Setup is built in three stages:
-1. Start Docker, DNS, VNC, nodes
-2. Configure DNS
+1. Add Docker, VNC, Redis Insight, nodes
+2. Add DNS
 2. Configure VNC.
 
 For easy re-config, each stage produces a VM snapshot, image, and template.
@@ -26,7 +32,7 @@ Stages 2 and 3 also produce Docker images for DNS and VNC.
 
 Docker images are stored in GCR.
 
-## Create a VM - with VPC and instance template
+## Create a VM from an instance template
 
 1. Create a VPC in GCP with subnet 172.18.0.0/16 in the region where you want to run VMs.
 
