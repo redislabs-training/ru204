@@ -338,13 +338,15 @@ gcloud compute images create admin-training-1 --source-snapshot admin-training-1
 gcloud compute instance-templates create admin-training-1 \
     --create-disk image=admin-training-1,image-project=redislabs-university,size=30 \
     --machine-type n1-standard-4 \
-    --network training
+    --network training \
+    --subnet training-subnet
  
 ```
+with --label=key=value,key...
 
 gcloud references:
-https://cloud.google.com/sdk/gcloud/reference/compute/disks/snapshot
-https://cloud.google.com/compute/docs/instance-templates/create-instance-templates
+- https://cloud.google.com/sdk/gcloud/reference/compute/disks/snapshot
+- https://cloud.google.com/compute/docs/instance-templates/create-instance-templates
 
 
 
