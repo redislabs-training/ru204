@@ -42,6 +42,7 @@ Requirement  | Specification
 ------------ | -------------
 Name | ***admin-training-xyz***
 Machine type | ***n1-standard-4***
+Image project | ***ubuntu-os-cloud***
 Image | ***Ubuntu 18.04 LTS***
 Disk size (GB) | ***30***
 Network | ***training***
@@ -51,6 +52,7 @@ Region | ***us-west1***
 ```bash
 gcloud compute instance-templates create admin-training-xyz \
     --machine-type n1-standard-4 \
+    --image-project ubuntu-os-cloud \
     --image ubuntu-1804-bionic-v20200414 \
     --boot-disk-size 30 \
     --network training \
