@@ -13,7 +13,7 @@ All someone needs to use a VM is its public IP and VNC password.
 VMs are built in stages for easy re-config.
 
 Stages include:
-1. Docker, VNC, Insight, node containers
+1. Docker, VNC, Insight, RE node containers
 2. DNS config
 3. VNC config.
 
