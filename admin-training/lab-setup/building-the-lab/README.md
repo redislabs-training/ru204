@@ -28,7 +28,7 @@ Finishing point
 + Ubuntu 18.04
 + Redis 5.4 
 + vanilla VNC
-- stage 1 changes
+- stage 1 adds
 ```
 
 ### Stage 2 VM
@@ -40,7 +40,7 @@ Starting point
 + Redis 5.4 
 + vanilla VNC
 + vanilla DNS
-- stage 1 changes
+- stage 1 adds
 ```
 
 Finishing point
@@ -50,8 +50,7 @@ Finishing point
 + Redis 5.4 
 + vanilla VNC
 ! configured DNS
-- stage 1 changes
-- stage 2 changes
+- stage 1 adds
 ```
 
 ### Stage 3 VM
@@ -63,8 +62,7 @@ Starting point
 + Redis 5.4 
 + vanilla VNC
 ! configured DNS
-- stage 1 changes
-- stage 2 changes
+- stage 1 adds
 ```
 
 Finishing point
@@ -74,9 +72,8 @@ Finishing point
 + Redis 5.4 
 ! configured VNC
 ! configured DNS
-- stage 1 changes
-- stage 2 changes
-- stage 3 changes
+- stage 1 adds
+- stage 3 keys
 ```
 
 ## Here's how you modify what you build
