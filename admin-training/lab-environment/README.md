@@ -14,23 +14,23 @@ Shows you how to [start VMs] as an employee or instructor.
 
 ## Use VMs
 
-Shows you how to <use VMs>.
+Shows you how to [use VMs].
 
-This is not the lab manual. The lab manual has many more steps. This is an overview for employees and instructors on how to use the VM.
+This is not the lab manual, which has much more. This is an overview for employees and instructors on how to use VMs.
 
 ## VM Stage 1 Config
 
-Shows you how to <config a Stage 1 VM> with the Docker network and vanilla VNC.
-
 VMs are created in stages for easy re-config.
+
+Shows you how to [config a Stage 1 VM] with Docker networking and vanilla VNC.
 
 ## VM Stage 2 Config
 
-Shows you how to <configure a Stage 2 VM> with <configured DNS>.
+Shows you how to [configure a Stage 2 VM] with [configured DNS].
 
 ## VM Stage 3 Config
 
-Shows you how to <configure a Stage 3 VM> with <configured VNC>.
+Shows you how to [configure a Stage 3 VM] with [configured VNC].
 
 ## Why Stages
 
