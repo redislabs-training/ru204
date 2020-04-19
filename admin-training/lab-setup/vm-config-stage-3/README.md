@@ -234,7 +234,7 @@ sudo su - trainee
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share a pair of keys. If the VM changes, keys must be copied from the Docker image.
+VM and VNC Docker images share a pair of SSH keys. If the VM changes, you must copy keys from the VNC Docker image.
 
 ```bash
 docker cp configured-vnc:/headless/.ssh/ .
