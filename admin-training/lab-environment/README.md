@@ -1,18 +1,16 @@
-# Lab Environment Overview
+# Overview
 
 Much more than lab setup.
 
 ## Overview
 
-Gives you an <overview> of what's in the environment and what it looks like when you use it.
+Gives you an [overview] of what's in the environment and what it looks like when you use it.
 
 Each student gets a VM with a bunch of stuff in it.
 
-<overview link>
-
 ## Start VMs
 
-Shows you how to <start VMs> as an employee or instructor.
+Shows you how to [start VMs] as an employee or instructor.
 
 ## Use VMs
 
