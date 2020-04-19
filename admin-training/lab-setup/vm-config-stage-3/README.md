@@ -5,7 +5,7 @@ Generate a ***Stage 3*** VM and VNC Docker image.
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share a common pair of SSH keys - if one changes, the other must too.
+VM and VNC Docker images share pair of SSH keys - if one image changes, the other must too.
 
 Here's what the VNC desktop looks like when done.
 
