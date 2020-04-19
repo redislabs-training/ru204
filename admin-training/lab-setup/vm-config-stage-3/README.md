@@ -178,11 +178,20 @@ sudo docker rmi consol/ubuntu-xfce-vnc
  
 ```
 
-## Use the configured VNC Docker image
+## Update VM
 
-1. SSH to the VM from GCP console.
+Update a VM using the configured VNC Docker image in GCR.
 
-2. Stop and remove vanilla VNC container and images.
+1. Create the VM from ***admin-training-2***.
+
+```bash
+gcloud compute instances create admin-training-3 --source-instance-template admin-training-2 --zone=us-west1-b
+ 
+```
+
+3. SSH to the VM from GCP console.
+
+4. Stop and remove vanilla VNC container and images.
 
 ```bash
 sudo docker stop vanilla-vnc
@@ -191,9 +200,12 @@ sudo docker rmi consol/ubuntu-xfce-vnc
  
 ```
 
-3. Authenticate Docker to GCR. 
+5. Authenticate Docker to GCR. 
 
-***IMPORTANT:*** Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root at that time and remove ***/home/trainee/.docker/config.json*** .
+```diff
+! IMPORTANT
+```
+Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root at that time and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
 gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
@@ -201,57 +213,41 @@ cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin
  
 ```
 
-4. Run the configured VNC server.
+6. Run the configured VNC server.
 
 ```
 sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901  gcr.io/redislabs-university/admin-training-vnc
  
 ```
 
-5. Switch to the ***trainee*** user.
+7. Switch to the ***trainee*** user.
 
 ```bash
 sudo su - trainee
  
 ```
 
-6. Copy SSH keys from the running container to the VM
+8. Copy SSH keys from the running container to the VM
 
 ```bash
 docker cp configured-vnc:/headless/.ssh/ .
  
 ```
 
-7. Sign in to VNC desktop with password ***trainee!*** .
+9. Sign in to VNC desktop with password ***trainee!*** .
 
-8. Open VNC terminal.
+10. Open VNC terminal.
 
-9. Start RE nodes.
+11. Start RE nodes.
 
-***IMPORTANT:*** This step must sign you in to the base VM without a password.
+When asked to continue to host 172.18.0.1 (base VM), enter ***yes***.
 
-Accept to continue.
-
-```bash
-start_north_nodes
- 
+```diff
+! IMPORTANT
 ```
+This step must run without requiring a password. If it asks for a password, make sure keys were copied from the container properly.
 
-10. Create a cluster.
-
-```bash
-create_north_nodes
- 
-```
-
-11. Launch ***north node CLIs*** and check that the cluster and prompts work.
-
-```bash
-rladmin status
- 
-```
-
-12. Clean up the instance and save changes to the Docker image and new VM (see steps below).
+12. Clean up your instance and save your work (see below).
 
 
 ## Update to a ***newer*** configured VNC Docker image from an ***older*** one
@@ -311,7 +307,7 @@ start_north_nodes
 9. Clean up the instance and save changes to the Docker image and new VM.
 
 
-## Clean up instance
+## Clean up your instance
 
 1. Return to the GCP shell terminal.
  
