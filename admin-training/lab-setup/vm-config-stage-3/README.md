@@ -5,7 +5,7 @@ Generate a ***Stage 3*** VM and VNC Docker image.
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share a pair of SSH keys - if one image changes, the other must too.
+VM and VNC Docker images share a pair of SSH keys. If the VM changes, you'll be told to copy keys from the VNC Docker image in GCR.
 
 Here's what the VNC desktop looks like when done.
 
@@ -234,8 +234,7 @@ sudo su - trainee
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share a pair of SSH keys - if one image changes, the other must too.
-In this case, you must copy keys from the VNC Docker image to the new VM.
+VM and VNC Docker images share a pair of keys. If the VM changes, keys must be copied from the Docker image.
 
 ```bash
 docker cp configured-vnc:/headless/.ssh/ .
