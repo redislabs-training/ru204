@@ -5,7 +5,7 @@ Generate a ***Stage 3*** VM and VNC Docker image.
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share pair of SSH keys - if one image changes, the other must too.
+VM and VNC Docker images share a pair of SSH keys - if one image changes, the other must too.
 
 Here's what the VNC desktop looks like when done.
 
@@ -230,6 +230,12 @@ sudo su - trainee
 ```
 
 8. Copy SSH keys from the running container to the VM
+
+```diff
+! IMPORTANT
+```
+VM and VNC Docker images share a pair of SSH keys - if one image changes, the other must too.
+In this case, you must copy keys from the VNC Docker image to the new VM.
 
 ```bash
 docker cp configured-vnc:/headless/.ssh/ .
