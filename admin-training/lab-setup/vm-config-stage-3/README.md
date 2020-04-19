@@ -148,7 +148,7 @@ rm /headless/.ssh/known_hosts
 
 2. Authenticate Docker to GCR.
 
-```dash
+```diff
 ! IMPORTANT
 ```
 Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
