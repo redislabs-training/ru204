@@ -1,4 +1,4 @@
-# Overview
+# Admin Training Lab Environment
 
 Much more than lab setup.
 
