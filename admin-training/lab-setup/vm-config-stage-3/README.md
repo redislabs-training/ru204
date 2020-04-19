@@ -182,7 +182,7 @@ sudo docker rmi consol/ubuntu-xfce-vnc
 
 ## Update VM
 
-Update a VM using the configured VNC Docker image in GCR.
+Update to a new VM using the ***configured*** VNC Docker image in GCR.
 
 1. Create the VM from ***admin-training-2***.
 
