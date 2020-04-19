@@ -11,6 +11,7 @@ Here's what the VNC desktop looks like when done.
 
 ![](../images/02-vnc-overview.png)
 
+
 ## Create VM and VNC
 
 1. Create the VM from ***admin-training-2***.
@@ -178,6 +179,7 @@ sudo docker rmi consol/ubuntu-xfce-vnc
  
 ```
 
+
 ## Update VM
 
 Update a VM using the configured VNC Docker image in GCR.
@@ -250,61 +252,37 @@ This step must run without requiring a password. If it asks for a password, make
 12. Clean up your instance and save your work (see below).
 
 
-## Update to a ***newer*** configured VNC Docker image from an ***older*** one
+## Update VNC
 
-This is needed when updating from an older ***configured*** Docker image.
+1. Start ***admin-training-3*** VM.
 
-You must generate and save new SSH keys to the new VNC Docker image ***AND A NEW*** VM image.
+2. SSH to the VM from GCP console.
 
-1. SSH to the VM from GCP console.
+3. Make changes to VNC Docker image.
 
-2. Switch to the ***trainee*** user.
+4. Authenticate Docker to GCR.
+
+```diff
+! IMPORTANT
+```
+Use your ***GCP account***. If you run these as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as root at that time and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
-sudo su - trainee
- 
-```
-1. Download and run the older ***configured*** VNC Docker image from GCR.
-
-```
-sudo docker run --name configured-vnc  -d -e VNC_PW=trainee! --restart=always --net rlabs --hostname vnc-terminal.rlabs.org --ip 172.18.0.2 -p 80:6901  gcr.io/redislabs-university/admin-training-vnc
+gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
+cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin https://gcr.io
  
 ```
 
-
-3. Generate new keys so students can 'silently' SSH from the container.
-
-***IMPORTANT***: Run this as ***trainee*** user.
+5. Commit and push changes to GCR.
 
 ```bash
-mkdir .ssh
-ssh-keygen -q -t rsa -N '' -f .ssh/id_rsa 2>/dev/null <<< y >/dev/null
-cp -r .ssh/id_rsa.pub .ssh/authorized_keys
+sudo docker commit configured-vnc
+sudo docker tag configured-vnc gcr.io/redislabs-university/admin-training-vnc
+sudo docker push gcr.io/redislabs-university/admin-training-vnc
  
 ```
 
-5. Copy keys to the running container.
-
-```bash
-docker cp .ssh/ configured-vnc:/headless
-docker exec --user root configured-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
- 
-```
-
-6. Sign in to VNC desktop with password ***trainee!*** .
-
-7. Open VNC terminal.
-
-8. Start RE nodes.
-
-***IMPORTANT:*** This step must sign you in to the base VM without a password.
-
-```bash
-start_north_nodes
- 
-```
-
-9. Clean up the instance and save changes to the Docker image and new VM.
+6. Clean up your instance and save your work (see below).
 
 
 ## Clean up your instance
