@@ -1,56 +1,46 @@
 # VM Setup - Stage 3
 
-Here are steps to generate a stage 3 VM and VNC Docker image.
+Generate a ***Stage 3*** VM and VNC Docker image.
 
-***admin-training-2*** only uses a ***vanilla*** VNC Docker image.
+```diff
+! IMPORTANT
+```
+VM and VNC Docker images share a common pair of SSH keys - if one changes, the other must too.
 
-The VM and VNC images share a common pair of SSH keys.
-
-If one image changes, the other must too.
-
-You can:
-- Build VM and VNC images from scratch using ***admin-training-2*** and ***vanilla-vnc***
-- Update VM image using ***admin-training-2*** and ***configured-vnc***
-- Update VNC image using ***admin-training-3*** and ***configured-vnc***.
-
-
-
-Here's what the configured VNC desktop looks like when students sign in.
+Here's what the VNC desktop looks like when done.
 
 ![](../images/02-vnc-overview.png)
 
-## Create the VM
+## Create VM and VNC
 
-Create a new VM from ***admin-training-2*** image or instance template by gcloud or GCP console.
+1. Create the VM from ***admin-training-2***.
 
 ```bash
 gcloud compute instances create admin-training-3 --source-instance-template admin-training-2 --zone=us-west1-b
  
 ```
 
-## Build VM and VNC Docker image from scratch
-
-Students start and stop nodes from the container. Alias commands allow them to transparently SSH to the base VM and run Docker commands from there in a controlled manner.
+2. SSH to the VM from GCP console.
 
 ### Copy files to the container
 
-1. SSH to the VM from GCP console.
+Students start and stop nodes from a VNC container terminal. Alias commands allow them to transparently SSH to the base VM and run Docker commands there in a controlled manner.
 
-2. Install SSH on the VNC container.
+1. Install SSH on the VNC container.
 
 ```bash
 sudo docker exec --user root vanilla-vnc bash -c "apt update; apt install -y ssh"
  
 ```
 
-3. Switch to the ***trainee*** user.
+2. Switch to the ***trainee*** user.
 
 ```bash
 sudo su - trainee
  
 ```
 
-4. Generate keys so students can 'silently' SSH from the container.
+3. Generate keys so students can 'silently' SSH from the container.
 
 ```bash
 mkdir .ssh
@@ -59,7 +49,7 @@ cp -r .ssh/id_rsa.pub .ssh/authorized_keys
  
 ```
 
-5. Copy keys to the container.
+4. Copy keys to the container.
 
 ```bash
 docker cp .ssh/ vanilla-vnc:/headless
@@ -67,7 +57,7 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.ssh/"
  
 ```
 
-6. Create a new ***.bashrc*** file so students have alias commands.
+5. Create a new ***.bashrc*** file so students have alias commands.
 
 ```bash
 cat << EOF > vnc-bashrc
@@ -105,7 +95,7 @@ EOF
  
 ```
 
-7. Copy ***.bashrc*** to the container.
+6. Copy ***.bashrc*** to the container.
 
 ```bash
 docker cp vnc-bashrc vanilla-vnc:/headless/.bashrc
@@ -113,7 +103,7 @@ docker exec --user root vanilla-vnc bash -c "chown -R 1000:0 /headless/.bashrc"
  
 ```
 
-8. Download Redis background image from GCS and copy it to the container.
+7. Download Redis background image from GCS and copy it to the container.
 
 ```bash
 gsutil cp gs://admin-training-bucket/background-training-classroom.jpg /tmp
@@ -152,42 +142,39 @@ rm /headless/.ssh/known_hosts
  
 ```
 
-### Push ***vanilla*** Docker image changes to GCR
+### Push VNC changes to GCR
 
 1. Return to VM terminal from GCP console.
 
-2. Exit from ***trainee*** user to return to your ***GCP account***.
+2. Authenticate Docker to GCR.
+
+```dash
+! IMPORTANT
+```
+Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
 
 ```bash
 exit
-```
-
-3. Authenticate Docker to GCR.
-
-***IMPORTANT:*** Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
-
-```bash
 gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
 cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin https://gcr.io
  
 ```
 
-4. Commit changes and upload to GCR.
+3. Commit changes and upload to GCR.
 
 ```bash
-sudo docker commit vanilla-vnc admin-training-vnc
-sudo docker tag admin-training-vnc gcr.io/redislabs-university/admin-training-vnc
+sudo docker commit vanilla-vnc configured-vnc
+sudo docker tag configured-vnc gcr.io/redislabs-university/admin-training-vnc
 sudo docker push gcr.io/redislabs-university/admin-training-vnc
  
 ```
 
-5. Stop and remove vanilla VNC container and images.
+5. Stop and remove ***vanilla*** VNC container and images.
 
 ```bash
 sudo docker stop vanilla-vnc
 sudo docker rm vanilla-vnc
 sudo docker rmi consol/ubuntu-xfce-vnc
-sudo docker rmi admin-training-vnc
  
 ```
 
