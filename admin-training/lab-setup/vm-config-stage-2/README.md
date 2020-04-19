@@ -8,8 +8,6 @@ Here's what the ***BIND*** DNS zone records look like when done.
 
 ## Create VM and DNS
 
-Create VM and DNS server the first time.
-
 1. Create the VM from ***admin-training-1***.
 
 ```bash
@@ -116,6 +114,35 @@ sudo docker run --name configured-dns -d --restart=always --net rlabs --dns 172.
 
 5. Check DNS is working (see below).
 
+## Update DNS
+
+1. Start the ***admin-training-2*** VM.
+
+2. SSH to the VM from GCP console.
+
+3. Make changes to DNS Docker image.
+
+4. Authenticate Docker to GCR.
+
+```diff
+! IMPORTANT
+```
+Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
+
+```bash
+gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
+cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin https://gcr.io
+ 
+```
+
+5. Commit and push changes to GCR.
+
+```bash
+sudo docker commit configured-dns
+sudo docker tag configured-dns gcr.io/redislabs-university/admin-training-dns
+sudo docker push gcr.io/redislabs-university/admin-training-dns
+ 
+```
 
 ## Check DNS is working
 
@@ -150,36 +177,6 @@ nslookup n1.rlabs.org
 nslookup s1.rlabs.org
 dig @ns.rlabs.org north.rlabs.org
 exit
- 
-```
-
-## Update DNS
-
-1. Start the ***admin-training-2*** VM.
-
-2. SSH to the VM from GCP console.
-
-3. Make changes to DNS Docker image.
-
-4. Authenticate Docker to GCR.
-
-```diff
-! IMPORTANT
-```
-Use your ***GCP account***. If you authenticate Docker to GCR as ***trainee*** you'll get ***config.json errors*** later when running containers. If that happens, log in as ***root*** at that time and remove ***/home/trainee/.docker/config.json*** .
-
-```bash
-gsutil cp gs://admin-training-bucket/ru-gcr-write-key.json /tmp
-cat /tmp/ru-gcr-write-key.json | sudo docker login -u _json_key --password-stdin https://gcr.io
- 
-```
-
-5. Commit and push changes to GCR.
-
-```bash
-sudo docker commit configured-dns
-sudo docker tag configured-dns gcr.io/redislabs-university/admin-training-dns
-sudo docker push gcr.io/redislabs-university/admin-training-dns
  
 ```
 
