@@ -32,7 +32,7 @@ This shows how to [configure a Stage 2 VM] with [configured DNS].
 
 This shows how to [configure a Stage 3 VM] with [configured VNC].
 
-## How Stages Help
+## How Staged Config Helps
 
 If you want to update a Stage 1 VM with new OS or Redis:
 - Configure the new Stage 1 VM
