@@ -1,6 +1,6 @@
 # Config VNC - Using Xfce VNC
 
-If you haven't already...
+At this point, you should have done the following. If not, do them now.
 
 1. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
