@@ -51,7 +51,7 @@ Use steps described in [Exporting a custom image to Cloud Storage](https://cloud
 ! IMPORTANT
 ```
 
-If you don't know how to check whether ***CloudBuild API*** and account roles are set:
+If you don't know how to check whether ***CloudBuild API*** or account roles are set:
 
 1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
 
