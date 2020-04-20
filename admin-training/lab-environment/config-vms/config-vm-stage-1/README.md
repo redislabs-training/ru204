@@ -351,8 +351,10 @@ gcloud compute instance-templates create admin-training-1 \
  
 ```
 
+Now you're ready to configure a ***Stage 2 VM***.
+
 ```diff
-+ Click Next to configure a Stage 2 VM
++ Click Next to continue...
 ```
 
 # >> [Next](../config-vm-stage-2) >>
