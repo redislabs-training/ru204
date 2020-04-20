@@ -18,14 +18,14 @@ The latest version is ***2004*** with:
 
 Use one for the following methods.
 
-1. For a few VMs (this creates ***user1*** and ***user2***):
+1. For a few VMs:
 
 ```bash
 gcloud compute instances create user1 user2 --source-instance-template admin-training-3 --zone=us-west1-b --labels=version=2004,redis=5-4
  
 ```
 
-2. For many VMs (this creates ***user1-10***):
+2. For many VMs:
 
 ```bash
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
