@@ -39,6 +39,8 @@ gcloud compute instance-templates create admin-training-0 \
     --region us-west1
 ```
 
+Now you're ready to configure a ***Stage 1 VM***
+
 ```diff
 + Click Next to configure a Stage 1 VM
 ```
