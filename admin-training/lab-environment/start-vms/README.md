@@ -37,7 +37,11 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
  
 ```
 
-3. For manual steps, go to ***Compute Engine > VM instances***. Click ***Create Instance*** and select ***from image*** or ***from template***.
+3. For manual steps in GCP console:
+- Go to ***Compute Engine > VM instances***
+- Click ***Create Instance***
+- Select ***from image*** or ***from template***.
+
 
 ## To export an image to GCS
 
