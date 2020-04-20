@@ -1,20 +1,20 @@
 # Admin Training Lab Environment
 
-This site provide more than just setup.
+This site explains more than just lab setup.
 
 ## Overview
 
-It includes an [overview] of what's in the environment, what it looks like when you use it, and how to set it up.
+This shows what's [in the environment] and what it looks like when you use it.
 
 Each student gets a VM with a bunch of stuff in it.
 
 ## Start VMs
 
-This shows you how to [start VMs] as an employee or instructor.
+This shows how to [start VMs] as an employee or instructor.
 
 ## Use VMs
 
-This shows you how to [use VMs] as an employee or instructor.
+This shows how to [use VMs] as an employee or instructor.
 
 This is not the lab manual, which has much more.
 
@@ -22,17 +22,17 @@ This is not the lab manual, which has much more.
 
 VMs are created in stages for easy re-config.
 
-This shows you how to [config a Stage 1 VM] with Docker networking and vanilla VNC.
+This shows how to [config a Stage 1 VM] with Docker networking and vanilla VNC.
 
 ## VM Stage 2 Config
 
-This shows you how to [configure a Stage 2 VM] with [configured DNS].
+This shows how to [configure a Stage 2 VM] with [configured DNS].
 
 ## VM Stage 3 Config
 
-This shows you how to [configure a Stage 3 VM] with [configured VNC].
+This shows how to [configure a Stage 3 VM] with [configured VNC].
 
-## Why Stages
+## How Stages Help
 
 If you want to update a Stage 1 VM with new OS or Redis:
 - Configure the new Stage 1 VM
