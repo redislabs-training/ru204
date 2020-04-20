@@ -9,7 +9,7 @@ VM and VNC Docker images share a pair of SSH keys. If the VM changes, you'll be 
 
 Here's what the VNC desktop looks like when done.
 
-![](../images/02-vnc-overview.png)
+![](../../Overview/images/02-vnc-overview.png)
 
 
 ## Create VM and VNC
