@@ -117,7 +117,7 @@ docker cp /tmp/background-training-classroom.jpg vanilla-vnc:/headless/.config
  
 ```
 
-### Configure the desktop
+### Configure VNC Desktop
 
 1. Sign in to VNC desktop from your laptop browser with password ***trainee!*** .
 
@@ -135,9 +135,11 @@ start_south_nodes
  
 ```
 
-4. Follow these steps to configure the desktop.
+4. Configure the desktop using [these steps](../config-vnc).
 
-![Configure VNC](../vnc-config/README.md)
+```diff
++ Continue when done
+```
 
 5. Remove the ***known_hosts*** file.
 
