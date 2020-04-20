@@ -1,8 +1,5 @@
 # Config VMs
 
-
-## Building VMs
-
 VMs are built in stages for easy re-config.
 
 Stages include:
@@ -52,3 +49,7 @@ gcloud compute instance-templates create admin-training-0 \
     --subnet training-subnet \
     --region us-west1
 ```
+
+## Next Step
+
+Now you're ready to [configure a Stage 1 VM].
