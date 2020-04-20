@@ -2,6 +2,9 @@
 
 Start user VMs from a ***Stage 3 VM*** image or instance template in project ***redislabs-university***.
 
+```diff
+! IMPORTANT
+```
 If you don't have access, ask someone to export an image to GCS and use that (see below).
 
 If starting in ***redislabs-university***, specify:
