@@ -60,17 +60,17 @@ To sign-in use ***admin@rlabs.org*** and password ***admin***. These are default
 
 Here's what it looks like when you go to workspace 2 and double click the ***north node CLIs*** launcher on the left. North nodes always open in the top half of the screen, south nodes in the bottom half.
 
-Each node gets its own tab and colored prompt (shown below).
+Each node gets its own tab and different colored prompt (shown below).
 
-### Node n1
+### Node n1 - ***magenta***
 
 ![](images/05-n1-terminal.png)
 
-### Node n2
+### Node n2 - ***yellow***
 
 ![](images/06-n2-terminal.png)
 
-### Node n2
+### Node n2 - ***green***
 
 ![](images/07-n3-terminal.png)
 
