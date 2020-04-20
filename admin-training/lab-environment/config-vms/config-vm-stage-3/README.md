@@ -17,7 +17,7 @@ Here's what the VNC desktop looks like when done.
 ![](../../Overview/images/02-vnc-overview.png)
 
 
-## Create VM and VNC
+## Create VM and VNC From Scratch
 
 1. Create the VM from ***admin-training-2***.
 
