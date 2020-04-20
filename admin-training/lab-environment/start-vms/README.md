@@ -1,23 +1,16 @@
 # Start VMs
 
-You start user VMs from ***Stage 3 VM*** image or instance template. Both are named ***admin-training-3*** in the ***redislabs-university*** project.
+Start user VMs from a ***Stage 3 VM*** image or instance template.
 
-If you're not in the ***redislabs-university*** project, you need someone to export the ***admin-training-3*** image to a tar.gz object in GCS and use that to start VMs.
+If you don't have access to them, have someone export the image to a GCS object and use it to start VMs (see below).
 
-Tech stack includes:
-
-Resource | Version
+Current tech stack is:
 ---|---
-Image | ***2004***
+Version | ***2004***
 OS | ***Ubuntu 18.04 LTS***
 RedisLabs | ***5.4***
 
-They also use two Docker images from GCR (already included):
-- ***admin-training-dns***
-- ***admin-training-vnc***
-
-
-## Ways to start VMs
+## Start VMs
 
 1. From ***gcloud*** command:
 
@@ -37,35 +30,24 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 - Select
 
 
-## Steps to export an image to GCS
+## Export image to GCS
 
-Steps are described in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
+Make sure the following are enabled. If not, see [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image) for commands to set them.
 
-1. Make sure ***CloudBuild*** API is enabled for ***redislabs-university*** project.
-
-Search for ***cloudbuild*** in the ***API & Services > Libary*** page. If it's blue, it's enabled.
+1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its enabled (blue icon).
 
 ![](images/01-api-cloudbuild.png) 
 
-If it's gray, enable it with:
+2. In the ***IAM*** page, make sure the following roles are set.
 
-```bash
-gcloud services enable cloudbuild.googleapis.com
- 
-```
-
-2. Make sure ***GCE service account*** has ***project editor*** role.
-
-Look in the ***IAM*** page.
+***GCE service account*** has ***editor*** role
 
 ![](images/02-iam-gce-sa-editor-role.png)
 
-3. Make sure ***CloudBuild API service account*** has the following roles.
+***CloudBuild API service account*** has the following roles:
 - ***
 - ***iam.ServiceAccountUser***
 - ***iam.ServiceAccountTokenCreator***
-
-Look in the ***API*** page.
 
 ![](images/03-iam-cloudbuild-sa-roles.png)
 
