@@ -1,6 +1,6 @@
 # Start VMs
 
-Start user VMs from either a ***Stage 3 VM*** image or instance template called ***admin-training-3*** in the ***redislabs-university*** GCP project.
+Start user VMs from a ***Stage 3 VM*** image or instance template called ***admin-training-3*** in the ***redislabs-university*** project.
 
 ```diff
 ! IMPORTANT
