@@ -1,10 +1,10 @@
 # Admin Training Lab Environment
 
-These docs provide more than just setup.
+This site provide more than just setup.
 
 ## Overview
 
-They include an [overview] of what's in the environment, what it looks like when you use it, and how to set it up.
+It includes an [overview] of what's in the environment, what it looks like when you use it, and how to set it up.
 
 Each student gets a VM with a bunch of stuff in it.
 
