@@ -7,15 +7,15 @@ Stages include:
 2. DNS config
 3. VNC config.
 
-Each stage produces a VM snapshot, image, and template.
+Each stage produces a VM image and template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
-## Getting started
+## Create a VPC and Base Image
 
-A stage 1 VM needs a VPC and an instance template.
+A stage 1 VM needs a VPC and base image.
 
-1. Create a VPC with subnet 172.18.0.0/16 in the region where you run VMs.
+1. Create the VPC and subnet in a region where you run VMs.
 
 Requirement | Specification
 ------------|--------------
@@ -26,18 +26,11 @@ Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows port 80 ingress from all sources (0.0.0.0/0) to all targets.
 
-3. Create an instance template ***admin-training-0*** in the region and subnet where you run VMs.
-  
-Requirement  | Specification  
------------- | -------------
-Name | ***admin-training-0***
-Machine type | ***n1-standard-4***
-Image project | ***ubuntu-os-cloud***
-Image | ***Ubuntu 18.04 LTS***
-Disk size (GB) | ***30***
-Network | ***training***
-Subnet | ***training-subnet***
-Region | ***us-west1***
+3. Create an instance template called ***admin-training-0*** in the region and subnet where you run VMs.
+
+```diff
++ Base image runs Ubuntu 18.04 LTS
+```
 
 ```bash
 gcloud compute instance-templates create admin-training-0 \
@@ -50,9 +43,7 @@ gcloud compute instance-templates create admin-training-0 \
     --region us-west1
 ```
 
-## Next Step
-
-Now you're ready to configure a Stage 1 VM.
+## Configure a Stage 1 VM
 
 ```diff
 + Click next to continue...
