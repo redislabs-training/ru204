@@ -359,11 +359,9 @@ gcloud compute instance-templates create admin-training-3 \
 
 Now you're ready to start user VMs.
 
-## Start User VMs
-
 ```diff
-+ Click Next to configure a Start VMs
++ Click Next to continue...
 ```
 
-# >> [Next](../start-vms) >>
+# >> [Next](../../start-vms) >>
 
