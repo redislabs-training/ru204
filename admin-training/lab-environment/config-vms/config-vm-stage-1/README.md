@@ -17,7 +17,7 @@ gcloud compute instances create admin-training-1 --source-instance-template admi
  
 ```
 
-## Add VI, user, and Docker 
+## Add VI, the ***trainee*** user, and Docker 
 
 1. SSH to the VM from GCP console.
 
