@@ -5,7 +5,7 @@ Start user VMs from a ***Stage 3 VM*** image or instance template called ***admi
 ```diff
 ! IMPORTANT
 ```
-If you don't have access to them, ask someone to export an image to ***Google Cloud Storage*** and use that instead (see below).
+If you don't have access, ask someone to export the VM image to ***Google Cloud Storage*** and use that instead (see below).
 
 If starting in ***redislabs-university***, specify:
 - Zone: ***us-west1-b***
