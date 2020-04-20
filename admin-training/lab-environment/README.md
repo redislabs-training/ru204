@@ -20,19 +20,19 @@ This shows how to [use VMs]. It's not the lab manual. The lab manual has many mo
 
 VMs are created in stages for easy re-config.
 
-### Stage 1 Config
+#### Stage 1
 
 This shows how to [config a Stage 1 VM] with Docker networking and vanilla VNC.
 
-### Stage 2 Config
+#### Stage 2
 
 This shows how to [configure a Stage 2 VM] with [configured DNS].
 
-### Stage 3 Config
+#### Stage 3
 
 This shows how to [configure a Stage 3 VM] with [configured VNC].
 
-### How Stages Help
+## How Stages Help
 
 If you want to update a Stage 1 VM with new OS or Redis:
 - Configure the new Stage 1 VM
