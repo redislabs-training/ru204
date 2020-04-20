@@ -1,4 +1,4 @@
-# VM Setup - Stage 2
+# VM Config - Stage 2
 
 Generate a ***Stage 2*** VM and DNS Docker image that resolve node and cluster names.
 
