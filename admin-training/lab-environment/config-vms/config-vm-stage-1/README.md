@@ -269,31 +269,36 @@ chmod 755 scripts/run_dnsutils.sh
  
 ```
 
-2. Start nodes.
+## Check VNC and scripts are working
+
+1. Start nodes.
 
 ```bash
 scripts/start_north_nodes.sh
  
 ```
 
-3. Create a cluster.
+2. Create a cluster.
 
 ```bash
 scripts/create_north_cluster.sh
  
 ```
 
-4. Point your laptop browser to the VM public IP (found in GCP console).
+3. Point your laptop browser to the VM public IP (found in GCP console).
 
-5. Sign in to VNC with password ***trainee!*** .
+4. Sign in to VNC with password ***trainee!*** .
 
-6. Open Chrome in VNC and point it to ***n1:8443*** .
+5. Open Chrome in VNC and point it to ***n1:8443*** .
 
-7. Sign in with ***admin@rlabs.org*** and ***admin*** .
+6. Sign in with ***admin@rlabs.org*** and ***admin*** .
 
-8. Click ***nodes*** to make sure the cluster's running.
+7. Click ***nodes*** to make sure the cluster's running.
 
-9. In GCP shell terminal, stop and remove nodes.
+
+## Clean up your instance
+
+In GCP shell terminal, stop and remove nodes.
 
 This forces manual restart so clusters build and resolve DNS properly. 
 
@@ -308,6 +313,7 @@ Now you have:
 - VNC
 - Redis Insight
 - Node containers - stopped and removed.
+
 
 ## Save your work
 
