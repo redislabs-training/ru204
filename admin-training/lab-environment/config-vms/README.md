@@ -7,7 +7,7 @@ Stages include:
 2. DNS config
 3. VNC config.
 
-Each stage produces an image and template.
+Each stage produces an VM image and optional instance template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
