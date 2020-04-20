@@ -25,14 +25,14 @@ gcloud compute instances create admin-training-a admin-training-b --source-insta
  
 ```
 
-2. From many VMs:
+2. For many VMs:
 
 ```bash
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
  
 ```
 
-3. If more comfortable using GCP console, go to ***Compute Engine > VM instances***, click ***Create Instance***, and select ***from image*** or ***from template***.
+3. If you want to use GCP console, go to ***Compute Engine > VM instances***. Click ***Create Instance*** and select ***from image*** or ***from template***.
 
 
 ## To export an image to GCS
