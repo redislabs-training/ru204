@@ -356,3 +356,14 @@ gcloud compute instance-templates create admin-training-3 \
     --region us-west1
  
 ```
+
+Now you're ready to start user VMs.
+
+## Start User VMs
+
+```diff
++ Click Next to configure a Start VMs
+```
+
+# >> [Next](../start-vms) >>
+
