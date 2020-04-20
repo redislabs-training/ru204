@@ -4,7 +4,7 @@ Start user VMs from a ***Stage 3 VM*** image or instance template in the ***redi
 
 If you don't have access, ask someone to export an image to GCS and use that (see below).
 
-If you use an image in ***redislabs-university***, specify the following:
+If you start from an image in ***redislabs-university***, use the following:
 - Zone: ***us-west1-b***
 - Machine Type: ***n1-standard-4***
 - Network: ***training***
@@ -49,10 +49,10 @@ If you're not sure whether the CloudBuild API is enabled or accounts have the ri
 
 ***GCE service account*** has ***editor*** role
 
-![](images/02-iam-gce-sa-editor-role.png)
+![](images/02-iam-gce-sa-with-editor-role.png)
 
 ***CloudBuild API service account*** has the following roles:
-- ***
+- ***compute.Administrator***
 - ***iam.ServiceAccountUser***
 - ***iam.ServiceAccountTokenCreator***
 
