@@ -10,8 +10,8 @@ If you start from an image in ***redislabs-university***, use the following:
 - Network: ***training***
 
 The latest version is ***2004*** with:
-- ***Ubuntu 18.04***
-- ***RedisLabs 5.4***
+- Ubuntu ***18.04***
+- RedisLabs ***5.4***
 
 
 ## To Start VMs
@@ -39,7 +39,7 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 See [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
-Here's how to check if the API and account roles are set.
+To check if API and account roles are set:
 
 1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
 
