@@ -45,9 +45,9 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 ## To export an image to GCS
 
-See [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
+Use the steps in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
-To check if ***CloudBuild API*** and account roles are set:
+If you don't know how to check whether ***CloudBuild API*** and account roles are set:
 
 1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
 
