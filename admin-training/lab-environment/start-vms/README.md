@@ -1,6 +1,6 @@
 # Start VMs
 
-Start user VMs from a ***Stage 3 VM*** image or instance template.
+Start user VMs from either a ***Stage 3 VM*** image or instance template called ***admin-training-3***.
 
 ```diff
 ! IMPORTANT
