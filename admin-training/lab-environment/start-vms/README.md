@@ -32,26 +32,26 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
  
 ```
 
-3. If you want to use GCP console, go to ***Compute Engine > VM instances***. Click ***Create Instance*** and select ***from image*** or ***from template***.
+3. From GCP console, go to ***Compute Engine > VM instances***. Click ***Create Instance*** and select ***from image*** or ***from template***.
 
 
 ## To export an image to GCS
 
 See [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
-If you're not sure whether the CloudBuild API is enabled or accounts have the right roles, check the following.
+Here's how to check if the API and account roles are set.
 
-1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its enabled (blue icon).
+1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
 
 ![](images/01-api-cloudbuild.png) 
 
-2. In the ***IAM*** page, make sure the following roles are set.
+2. In the ***IAM*** page, make sure the following are set.
 
 ***GCE service account*** has ***editor*** role
 
 ![](images/02-iam-gce-sa-with-editor-role.png)
 
-***CloudBuild API service account*** has the following roles:
+***CloudBuild API service account*** has roles:
 - ***compute.Administrator***
 - ***iam.ServiceAccountUser***
 - ***iam.ServiceAccountTokenCreator***
