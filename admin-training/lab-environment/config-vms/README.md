@@ -3,11 +3,11 @@
 VMs are built in stages for easy re-config.
 
 Stages include:
-1. OS, Docker, VNC, Insight, RES node containers
+1. Docker, VNC, Insight, node containers
 2. DNS config
 3. VNC config.
 
-Each stage produces a VM image and template.
+Each stage produces an image and template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
