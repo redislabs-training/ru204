@@ -3,7 +3,7 @@
 VMs are built in stages for easy re-config.
 
 Stages include:
-1. Docker, VNC, Insight, RES
+1. Docker, VNC, Redis Insight, RES
 2. DNS config
 3. VNC config.
 
