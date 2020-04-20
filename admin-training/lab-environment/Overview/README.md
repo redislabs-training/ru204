@@ -62,16 +62,22 @@ Here's what it looks like when you go to workspace 2 and double click the ***nor
 
 Each node gets its own tab and different colored prompt (shown below).
 
-### Node n1 - ***magenta***
-
+### Node n1
+```diff
+- magenta
+```
 ![](images/05-n1-terminal.png)
 
 ### Node n2 - ***yellow***
-
+```diff
+! yellow
+```
 ![](images/06-n2-terminal.png)
 
 ### Node n2 - ***green***
-
+```diff
++ green
+```
 ![](images/07-n3-terminal.png)
 
 
