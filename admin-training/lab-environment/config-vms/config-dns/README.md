@@ -123,7 +123,7 @@ Here's what the final list should look like – again, relative names automatica
 
 You should see the following record counts
 
-![](img/10-dns-record-icons-done.png)
+![](images/10-dns-record-icons-done.png)
 
 21. Click **Apply config**
 
