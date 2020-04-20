@@ -45,7 +45,7 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 ## To export an image to GCS
 
-Use the following steps in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
+Use steps described in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
 ```diff
 ! IMPORTANT
