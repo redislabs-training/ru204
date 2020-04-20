@@ -47,6 +47,12 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 Use steps described in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
+Here's the command you'll run to export the image to GCS with version number at the end of the image name:
+
+```bash
+gcloud compute images export --destination-uri gs://admin-training-bucket/admin-training-vm-2004 --image admin-training-3
+```
+
 ```diff
 ! IMPORTANT
 ```
