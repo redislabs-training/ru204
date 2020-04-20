@@ -1,6 +1,6 @@
 # Config VMs
 
-VMs are built in three stages for easy re-config.
+VMs are built in stages for easy re-config.
 
 Stages include:
 1. Docker, VNC, Redis Insight, RES
