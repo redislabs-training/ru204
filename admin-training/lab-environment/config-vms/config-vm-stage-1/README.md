@@ -310,7 +310,7 @@ docker rm n1 n2 n3
 
 Now you have:
 - Docker
-- VNC
+- default VNC
 - Redis Insight
 - Node containers - stopped and removed.
 
