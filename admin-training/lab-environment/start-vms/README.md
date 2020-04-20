@@ -1,6 +1,6 @@
 # Start VMs
 
-Start user VMs from a ***Stage 3 VM*** image or instance template in the ***redislabs-university*** project.
+Start user VMs from a ***Stage 3 VM*** image or instance template in project ***redislabs-university***.
 
 If you don't have access, ask someone to export an image to GCS and use that (see below).
 
