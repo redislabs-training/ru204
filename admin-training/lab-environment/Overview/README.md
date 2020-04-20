@@ -54,9 +54,25 @@ If nodes are not started, node tabs return errors. If nodes are started, but not
 
 If nodes are joined in a cluster, you get the Redis Labs ***login*** page (shown above).
 
-To sign-in use ***admin@rlabs.org*** and password ***admin***. These are the cluster credentials used by default in labs and with the ***create_north_cluster*** command.
+To sign-in use ***admin@rlabs.org*** and password ***admin***. These are default cluster credentials used in labs and with the ***create_north_cluster*** command.
 
-![](images/05-
+## Node terminals
+
+Here's what it looks like when you go to workspace 2 and double click the ***north node CLIs*** launcher on the left. North nodes always open in the top half of the screen, south nodes in the bottom half.
+
+Each node gets its own tab and colored prompt (shown below).
+
+### Node n1
+
+![](images/05-n1-terminal.png)
+
+### Node n2
+
+![](images/06-n2-terminal.png)
+
+### Node n2
+
+![](images/07-n3-terminal.png)
 
 
 
