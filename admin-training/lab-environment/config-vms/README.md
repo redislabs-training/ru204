@@ -3,7 +3,7 @@
 VMs are built in stages for easy re-config.
 
 Stages include:
-1. Docker, VNC, Insight, RE node containers
+1. OS, Docker, VNC, Insight, RES node containers
 2. DNS config
 3. VNC config.
 
@@ -52,4 +52,11 @@ gcloud compute instance-templates create admin-training-0 \
 
 ## Next Step
 
-Now you're ready to [configure a Stage 1 VM].
+Now you're ready to configure a Stage 1 VM.
+
+```diff
++ Click next to continue...
+```
+
+# >> [Next](config-vm-stage-1) >>
+
