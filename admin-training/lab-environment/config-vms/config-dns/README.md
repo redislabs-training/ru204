@@ -1,4 +1,4 @@
-# Config DNS Using Bind DNS
+# Config DNS - Using Bind DNS
 
 Each student gets a VM with a Docker network and the following containers:
 - DNS server
@@ -27,7 +27,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
   
 6. Select all Existing DNS Zones icons at the bottom (to select, hover over one,  click the top-left box)
 
-![](images/04%20-%20DNS%20default%20zone%20select.png)
+![](images/01-dns-delete-default-zones.png)
 
 7. Click **Delete Selected**
 
@@ -39,7 +39,7 @@ docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.0.20 
 - Add NS record for master server: checked
 - Email address: **admin@rlabs.org**
 
-![](images/05%20-%20DNS%20zone%20create.png)
+![](images/02-dns-create-new-zone.png)
 
 10. Click **Create** 
 
@@ -57,25 +57,25 @@ $ORIGIN rlabs.org.
 
 Zone record – BEFORE
 
-![](images/06%20-%20DNS%20zone%20record%20start.png)
+![](images/03-dns-zone-record-start.png)
 
 Zone record - AFTER
 
-![](images/07%20-%20DNS%20zone%20record%20zone%20set.png)
+![](images/04-dns-zone-record-with-origin.png)
 
 13. Click **Save**
 
 14. Click **Apply config** – top-right
 
-![](images/08%20-%20DNS%20apply%20config.png)
+![](images/05-dns-apply-config.png)
 
 15. Click **Return to record types**
 
 Notice the domain name at the top and the Address (A) and Name Server (NS) record icons
 
-![](images/09%20-%20DNS%20mater%20zone%20title.png)
+![](images/06-dns-zone-title.png)
 
-![](images/10%20-%20DNS%20A%20and%20NS%20record%20icons.png)
+![](images/07-dns-zone-record-icons-start.png)
 
 16. If you lose this page, you can return to it by clicking **Servers > BIND Server** on the left and clicking **rlabs.org master zone** icon at the bottom (shown below):
 
@@ -96,7 +96,7 @@ dnsutils | 172.18.0.6
 
 Here's what the final list should look like – notice relative names get automatically replaced with absolute names.
 
-![](images/11%20-%20DNS%20A%20records%20list.png)
+![](images/08-dns-a-record-list.png)
 
 Make sure names and addresses are correct before continuing.
 
@@ -117,13 +117,13 @@ south | s3
 
 Here's what the final list should look like – again, relative names automatically get replaced with absolute names.
 
-![](images/12%20-%20DNS%20NS%20records%20list.png)
+![](images/09-dns-ns-record-list.png)
 
 20. Click **Return to record types**
 
 You should see the following record counts
 
-![](img/13%20-%20DNS%20record%20counts.png)
+![](img/10-dns-record-icons-done.png)
 
 21. Click **Apply config**
 
@@ -136,11 +136,11 @@ Make sure these are correct:
 **@** symbol for SOA record – line 3
 NS and A records for the name server – lines 9 and 11
 
-![](images/14%20-%20DNS%20record%20file%20-%20absolute%20names.png)
+![](images/11-dns-zone-record-long-names.png)
 
 24. You can leave names as absolutes or shorten them to relative names as follows:
 
-![](images/15%20-%20DNS%20short%20names%20in%20records%20file.png)
+![](images/12-dns-done.png)
 
 25. If you shorten names, click **Save** and **Apply config**.
 
