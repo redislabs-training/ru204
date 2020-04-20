@@ -21,7 +21,7 @@ The latest version is ***2004*** with:
 
 ## To Start VMs
 
-Use one for the following methods.
+Use one of the following methods.
 
 1. For a few VMs:
 
