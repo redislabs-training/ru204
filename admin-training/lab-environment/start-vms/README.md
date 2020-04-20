@@ -18,14 +18,14 @@ The latest version is ***2004*** with:
 
 Use one for the following methods.
 
-1. For a few VMs:
+1. For a few VMs (this creates ***user1*** and ***user2***):
 
 ```bash
 gcloud compute instances create user1 user2 --source-instance-template admin-training-3 --zone=us-west1-b --labels=version=2004,redis=5-4
  
 ```
 
-2. For many VMs:
+2. For many VMs (this creates ***user1-10***):
 
 ```bash
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
@@ -39,7 +39,7 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 See [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
 
-To check if API and account roles are set:
+To check if the CloudBuild API and account roles are set:
 
 1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
 
