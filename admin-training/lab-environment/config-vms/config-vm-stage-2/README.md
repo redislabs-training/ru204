@@ -229,9 +229,14 @@ gcloud compute instance-templates create admin-training-2 \
 ```
 
 ```diff
-! SKIP
++ Click Next to configure a Stage 3 VM
 ```
-Someday, you may want to use ***CoreDNS*** with Corefile and rlabs.db.
+
+# >> [Next](../config-vm-stage-3) >>
+
+```diff
+! SKIP - Here's the step to substitute CoreDNS with Corefile and rlabs.db instead of Bind
+```
 
 ```bash
 docker run --name vanilla-dns -d -v /home/trainee/coredns/:/root/ --restart=always --net rlabs --dns 172.18.0.20 --hostname ns.rlabs.org --ip 172.18.0.20  coredns/coredns -conf /root/Corefile
