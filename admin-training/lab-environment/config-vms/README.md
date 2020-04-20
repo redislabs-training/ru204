@@ -39,8 +39,6 @@ gcloud compute instance-templates create admin-training-0 \
     --region us-west1
 ```
 
-## Next Step
-
 ```diff
 + Click Next to create a Stage 1 VM
 ```
