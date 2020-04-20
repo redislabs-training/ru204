@@ -40,7 +40,7 @@ gcloud compute instance-templates create admin-training-0 \
 ```
 
 ```diff
-+ Click Next to create a Stage 1 VM
++ Click Next to configure a Stage 1 VM
 ```
 
 # >> [Next](config-vm-stage-1) >>
