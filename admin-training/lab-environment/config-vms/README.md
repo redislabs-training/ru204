@@ -44,7 +44,7 @@ Now you're ready to configure a ***Stage 1 VM***
 
 ## Configure a ***Stage 1 VM***
 ```diff
-+ Click Next to configure a Stage 1 VM
++ Click Next to continue...
 ```
 
 # >> [Next](config-vm-stage-1) >>
