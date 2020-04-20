@@ -26,7 +26,7 @@ Subnet IP Address Range | 172.18.0.0/16
 
 2. Create a firewall rule that allows port 80 ingress from all sources (0.0.0.0/0) to all targets.
 
-3. Create an instance template called ***admin-training-0*** in the region and subnet where VMs run.
+3. Create an instance template called ***admin-training-0***.
 
 ```bash
 gcloud compute instance-templates create admin-training-0 \
