@@ -16,7 +16,7 @@ All someone needs to use a VM is its public IP and VNC password.
 
 VNC desktop runs on port 80, so organization firewalls should not block it.
 
-You may need to start VMs with specific IP or a hostname.
+You may need to start VMs with specific IP or a hostname, and that's easily doable.
 
 This is what the VNC desktop looks like at sign in.
 
@@ -36,7 +36,7 @@ Here's what it looks like when you go to workspace 3 and run ***vnc-terminal***.
 
 In ***vnc-terminal*** you can run commands to start and stop RE nodes and create clusters.
 
-Students run ***start_north_nodes*** to start 3 nodes (not clustered).
+Students run ***start_north_nodes*** to start the 3 north nodes (not clustered).
 
 Students create clusters manually. the ***create_north_cluster*** command is used to re-create the cluster.
 
