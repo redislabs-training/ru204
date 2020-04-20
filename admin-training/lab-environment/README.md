@@ -1,4 +1,4 @@
-# Admin Training Lab Environment
+# Lab Environment
 
 This site explains more than just lab setup.
 
