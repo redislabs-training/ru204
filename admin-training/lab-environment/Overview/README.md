@@ -28,9 +28,9 @@ Launchers (on the left) open windows in specific locations.
 
 If you launch windows on specific workspaces, they won't overlap and all you have to do is switch workspaces to get to everything.
 
-## VNC Terminal
+## VNC Terminal - workspace 3
 
-Here's what it looks like when you go to workspace 3 and run ***vnc-terminal***.
+Here's what it looks like when you go to ***workspace 3*** and run ***vnc-terminal***.
 
 ![](images/03-vnc-terminal.png)
 
@@ -40,9 +40,9 @@ Students run ***start_north_nodes*** to start the 3 north nodes (not clustered).
 
 Students create clusters manually. the ***create_north_cluster*** command is used to re-create the cluster.
 
-## Admin Consoles
+## Admin Consoles - workspace 1
 
-Here's what it looks like when you go to workspace 1 and run ***Chrome*** browser.
+Here's what it looks like when you go to ***workspace 1*** and run ***Chrome*** browser.
 
 ![](images/04-console-login.png)
 
@@ -56,9 +56,9 @@ If nodes are joined in a cluster, you get the Redis Labs ***login*** page (shown
 
 To sign-in use ***admin@rlabs.org*** and password ***admin***. These are default cluster credentials used in labs and with the ***create_north_cluster*** command.
 
-## Node terminals
+## Node terminals - workspace 2
 
-Here's what it looks like when you go to workspace 2 and double click the ***north node CLIs*** launcher on the left. North nodes always open in the top half of the screen, south nodes in the bottom half.
+Here's what it looks like when you go to ***workspace 2*** and double click the ***north node CLIs*** or ***south node CLIs*** launchers on the left. North nodes always open in the top half of the screen, south nodes in the bottom half.
 
 Each node gets its own tab and different colored prompt (shown below).
 
@@ -77,59 +77,18 @@ Each node gets its own tab and different colored prompt (shown below).
 ```
 ![](images/07-n3-terminal.png)
 
+Tabs are SSH terminals to nodes. If tabs don't open, nodes aren't started. Sometimes one or two tabs won't open even if nodes are started - just re-open the window to get all tabs.
 
+When you shut down nodes in ***vnc-terminal***, with commands like ***stop_n1***, ***stop_n2***, and so on, node tabs close until you restart nodes with commands like ***start_n1***, ***start_n2***, etc.
 
+## Base VM Terminal - workspace 3
 
+Return to ***workspace 3*** and double click ***base VM*** launcher to open the SSH termainal to the base VM.
 
+![](images/08-base-vm.png)
 
-## Building VMs
+From here, students install RES software in lab 3.
 
-VMs are built in stages for easy re-config.
+You can also run Docker commands to inspect the state of nodes, DNS, and Redis Insight (each runs in a container).
 
-Stages include:
-1. Docker, VNC, Insight, RE node containers
-2. DNS config
-3. VNC config.
-
-Each stage produces a VM snapshot, image, and template.
-
-Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
-
-## Getting started
-
-A stage 1 VM needs a VPC and an instance template.
-
-1. Create a VPC with subnet 172.18.0.0/16 in the region where you run VMs.
-
-Requirement | Specification
-------------|--------------
-Name | ***training***
-Subnet Creation Mode | Custom
-Subnet Name | ***training-subnet***
-Subnet IP Address Range | 172.18.0.0/16
-
-2. Create a firewall rule that allows port 80 ingress from all sources (0.0.0.0/0) to all targets.
-
-3. Create an instance template ***admin-training-0*** in the region and subnet where you run VMs.
-  
-Requirement  | Specification  
------------- | -------------
-Name | ***admin-training-0***
-Machine type | ***n1-standard-4***
-Image project | ***ubuntu-os-cloud***
-Image | ***Ubuntu 18.04 LTS***
-Disk size (GB) | ***30***
-Network | ***training***
-Subnet | ***training-subnet***
-Region | ***us-west1***
-
-```bash
-gcloud compute instance-templates create admin-training-0 \
-    --machine-type n1-standard-4 \
-    --image-project ubuntu-os-cloud \
-    --image ubuntu-1804-bionic-v20200414 \
-    --boot-disk-size 30 \
-    --network training \
-    --subnet training-subnet \
-    --region us-west1
-```
+Enjoy!
