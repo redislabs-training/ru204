@@ -10,8 +10,10 @@ If starting in ***redislabs-university***, specify:
 - Network: ***training***
 
 The latest version is ***2004*** with:
-- Ubuntu ***18.04***
-- RedisLabs ***5.4***
+```diff
++ Ubuntu 18.04
++ RedisLabs 5.4
+```
 
 
 ## To Start VMs
