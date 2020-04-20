@@ -1,11 +1,11 @@
 # Start VMs
 
-Start user VMs from either a ***Stage 3 VM*** image or instance template called ***admin-training-3***.
+Start user VMs from either a ***Stage 3 VM*** image or instance template called ***admin-training-3*** in the ***redislabs-university*** GCP project.
 
 ```diff
 ! IMPORTANT
 ```
-If you don't have access to ***redislabs-university***, ask someone to export an image to GCS and use that (see below).
+If you don't have access to them, ask someone to export an image to GCS and use that (see below).
 
 If starting in ***redislabs-university***, specify:
 - Zone: ***us-west1-b***
