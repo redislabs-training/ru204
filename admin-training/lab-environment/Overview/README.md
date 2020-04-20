@@ -54,7 +54,7 @@ If nodes are not started, node tabs return errors. If nodes are started, but not
 
 If nodes are joined in a cluster, you get the Redis Labs ***login*** page (shown above).
 
-To sign-in
+To sign-in use ***admin@rlabs.org*** and password ***admin***. These are the cluster credentials used by default in labs and with the ***create_north_cluster*** command.
 
 ![](images/05-
 
