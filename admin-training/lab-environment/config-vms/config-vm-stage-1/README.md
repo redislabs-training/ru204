@@ -1,21 +1,10 @@
 # VM Config - Stage 1
 
-Here are steps to configure ***admin-training-1*** from instance template ***admin-training-0***.
-
-Template includes:
-
-Property | Value
----|---
-Machine type | ***n1-standard-4***
-Image | ***Ubuntu 18.04 LTS***
-Disk size (GB) | ***30***
-Network | ***training***
-Subnet | ***training-subnet***
-Region | ***us-west1***
+Here are steps to configure a ***Stage 1 VM*** called ***admin-training-1*** from instance template ***admin-training-0***.
 
 This stage produces:
 - Docker
-- VNC
+- default VNC
 - Redis Insight
 - RE Nodes.
 
