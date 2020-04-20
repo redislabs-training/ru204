@@ -4,7 +4,7 @@ Start user VMs from a ***Stage 3 VM*** image or instance template in project ***
 
 If you don't have access, ask someone to export an image to GCS and use that (see below).
 
-If you start from an image in ***redislabs-university***, use the following:
+If starting in ***redislabs-university***, specify:
 - Zone: ***us-west1-b***
 - Machine Type: ***n1-standard-4***
 - Network: ***training***
@@ -33,7 +33,6 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 ```
 
 3. For manual steps, go to ***Compute Engine > VM instances***. Click ***Create Instance*** and select ***from image*** or ***from template***.
-
 
 ## To export an image to GCS
 
