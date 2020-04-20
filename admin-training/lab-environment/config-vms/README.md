@@ -11,7 +11,7 @@ Each stage produces an image and template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
 
-## Create a VPC and Base Image
+## Start
 
 A stage 1 VM needs a VPC and base image.
 
@@ -43,10 +43,10 @@ gcloud compute instance-templates create admin-training-0 \
     --region us-west1
 ```
 
-## Configure a Stage 1 VM
+## Next Step
 
 ```diff
-+ Click next to continue...
++ Click Next to create a Stage 1 VM...
 ```
 
 # >> [Next](config-vm-stage-1) >>
