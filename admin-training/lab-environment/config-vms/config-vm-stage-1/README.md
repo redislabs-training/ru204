@@ -1,4 +1,4 @@
-# VM Setup - Stage 1
+# VM Config - Stage 1
 
 Here are steps to configure ***admin-training-1*** from instance template ***admin-training-0***.
 
