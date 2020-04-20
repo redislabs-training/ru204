@@ -1,4 +1,4 @@
-# VM Setup - Stage 3
+# VM Config - Stage 3
 
 Generate a ***Stage 3*** VM and VNC Docker image.
 
