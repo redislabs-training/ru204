@@ -4,7 +4,7 @@ Generate a ***Stage 2*** VM and DNS Docker image that resolve node and cluster n
 
 Here's what the ***BIND*** DNS zone records look like when done.
 
-![](../images/01-DNS-zone-records-file.png)
+![](../../Overview/images/02-vnc-overview.png)
 
 ## Create VM and DNS
 
