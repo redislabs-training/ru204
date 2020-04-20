@@ -228,14 +228,16 @@ gcloud compute instance-templates create admin-training-2 \
  
 ```
 
+Now you're ready to configure a ***Stage 3 VM***.
+
 ```diff
-+ Click Next to configure a Stage 3 VM
++ Click Next to continue...
 ```
 
 # >> [Next](../config-vm-stage-3) >>
 
 ```diff
-! SKIP - Here's the step to substitute CoreDNS with Corefile and rlabs.db instead of Bind
+! Here's how you could replace Bind with CoreDNS.
 ```
 
 ```bash
