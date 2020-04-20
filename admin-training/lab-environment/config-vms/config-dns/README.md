@@ -75,7 +75,7 @@ Notice the domain name at the top and the Address (A) and Name Server (NS) recor
 
 ![](images/06-dns-zone-title.png)
 
-![](images/07-dns-zone-record-icons-start.png)
+![](images/07-dns-record-icons-start.png)
 
 16. If you lose this page, you can return to it by clicking **Servers > BIND Server** on the left and clicking **rlabs.org master zone** icon at the bottom (shown below):
 
