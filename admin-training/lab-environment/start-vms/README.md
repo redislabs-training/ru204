@@ -21,7 +21,7 @@ Use one for the following methods.
 1. For a few VMs:
 
 ```bash
-gcloud compute instances create admin-training-a admin-training-b --source-instance-template admin-training-3 --zone=us-west1-b --labels=version=2004,redis=5-4
+gcloud compute instances create user1 user2 --source-instance-template admin-training-3 --zone=us-west1-b --labels=version=2004,redis=5-4
  
 ```
 
