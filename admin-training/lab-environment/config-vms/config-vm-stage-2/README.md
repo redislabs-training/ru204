@@ -32,9 +32,10 @@ sudo docker run --name vanilla-dns -d --restart=always --net rlabs --dns 172.18.
 
 7. Sign in with ***root*** and ***password*** .
 
-8. Configure DNS using these steps.
-
-![Config DNS](config-dns)
+8. Configure DNS using [these steps](../config-dns)
+```diff
++ Continue when done
+```
 
 9. Check DNS is working (see below).
 
