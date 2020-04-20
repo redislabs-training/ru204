@@ -1,38 +1,45 @@
 # Start VMs
 
-Start user VMs from a ***Stage 3 VM*** image or instance template.
+Start user VMs from a ***Stage 3 VM*** image or instance template in the ***redislabs-university*** project.
 
-If you don't have access to them, have someone export the image to a GCS object and use it to start VMs (see below).
+If you don't have access, ask someone to export an image to GCS and use that (see below).
 
-Current tech stack is:
----|---
-Version | ***2004***
-OS | ***Ubuntu 18.04 LTS***
-RedisLabs | ***5.4***
+If you use an image in ***redislabs-university***, specify the following:
+- Zone: ***us-west1-b***
+- Machine Type: ***n1-standard-4***
+- Network: ***training***
 
-## Start VMs
+The latest version is ***2004*** with:
+- ***Ubuntu 18.04***
+- ***RedisLabs 5.4***
 
-1. From ***gcloud*** command:
+
+## To Start VMs
+
+Use one for the following methods.
+
+1. For a few VMs:
 
 ```bash
 gcloud compute instances create admin-training-a admin-training-b --source-instance-template admin-training-3 --zone=us-west1-b --labels=version=2004,redis=5-4
  
 ```
 
-2. From ***gcloud*** command (for a group of similarly named instances, e.g. user1, user2, ...):
+2. From many VMs:
 
 ```bash
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
  
 ```
 
-3. From GCP console, go to Compute Engine > VM instances and click Create Instance.
-- Select
+3. If more comfortable using GCP console, go to ***Compute Engine > VM instances***, click ***Create Instance***, and select ***from image*** or ***from template***.
 
 
-## Export image to GCS
+## To export an image to GCS
 
-Make sure the following are enabled. If not, see [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image) for commands to set them.
+See [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
+
+If you're not sure whether the CloudBuild API is enabled or accounts have the right roles, check the following.
 
 1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its enabled (blue icon).
 
