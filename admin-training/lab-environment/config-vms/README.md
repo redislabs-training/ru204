@@ -1,6 +1,6 @@
 # Config VMs
 
-VMs are built in stages for easy re-config.
+VMs are built in three stages for easy re-config.
 
 Stages include:
 1. Docker, VNC, Redis Insight, RES
@@ -10,6 +10,11 @@ Stages include:
 Each stage produces an VM image and optional instance template.
 
 Stages 2 and 3 also produce DNS and VNC Docker images, stored in GCR.
+
+If you want to update a ***Stage 1 VM*** with new OS or Redis:
+- Configure a new ***Stage 1 VM***
+- Start a ***Stage 2 VM*** and add the DNS Docker image.
+- Start a ***Stage 3 VM*** and add the VNC Docker image.
 
 ## Start
 
