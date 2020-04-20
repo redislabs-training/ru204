@@ -2,10 +2,15 @@
 
 Generate a ***Stage 3*** VM and VNC Docker image.
 
+You have 3 options:
+- Create VM and VNC from scratch
+- Update VM
+- Update VNC.
+
 ```diff
 ! IMPORTANT
 ```
-VM and VNC Docker images share a pair of SSH keys. If the VM changes, you'll be told to copy keys from the VNC Docker image in GCR.
+VM and VNC Docker images share a pair of SSH keys. If you update the VM, you'll be told to copy keys from the VNC Docker image.
 
 Here's what the VNC desktop looks like when done.
 
