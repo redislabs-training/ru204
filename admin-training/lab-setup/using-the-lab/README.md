@@ -641,7 +641,14 @@ rladmin status
 
 ![](img/429-fail-2-nodes-cluster-back-no-dbs.png)
 
-Congratulations! That's it. Now you know how to start and stop nodes, put them in clusters, add databases to clusters, investigate DNS, and watch nodes fail and come back.
+## Summary
+
+Congratulations! Now you know how to:
+- Start and stop nodes
+- Join them in clusters
+- Add databases
+- Investigate DNS
+- Explore nodes failing and returning.
 
 Now ready to go on to the lab manual or return to lab overview and setup.
 
@@ -649,4 +656,4 @@ Now ready to go on to the lab manual or return to lab overview and setup.
 + Click Next or Back to continue...
 ```
 
-# <p align="center"><< [Back](../lab-environment) <<   . . . .  >> [Next](../lab-environment) >></p>
+# <p align="center"><< [Back](../../lab-environment) <<   . . . .  >> [Next](../../lab-environment) >></p>
