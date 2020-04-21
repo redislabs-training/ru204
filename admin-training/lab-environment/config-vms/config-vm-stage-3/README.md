@@ -363,5 +363,5 @@ Now you're ready to start user VMs.
 + Click Next to continue...
 ```
 
-# >> [Next](../../start-vms) >>
+# <p align="center"><< [Back](../config-vm-stage-2) <<   . . . .   >> [Next](../../start-vms) >></p>
 
