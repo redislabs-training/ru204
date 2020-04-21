@@ -9,7 +9,7 @@ If you have access to the ***redislabs-university*** GCP project, use a ***Stage
 If you don't have access to ***redislabs-university***, use this image (which was exported to GCS) instead:
 
 ```bash
-gs://admin-training-bucket/admin-training-vm-2004***.
+gs://admin-training-bucket/admin-training-vm-2004
 ```
 
 1. For a few VMs:
