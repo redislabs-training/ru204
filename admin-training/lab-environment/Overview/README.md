@@ -94,7 +94,7 @@ You can also run Docker commands to inspect the state of nodes, DNS, and Redis I
 Now you're ready to start VMs.
 
 ```diff
-+ Click Next to continue...
++ Click Next to continue or Back to return to the Lab Environment menu...
 ```
 
-# <p align="center">>> [Next](../start-vms) >></p>
+# <p align="center"><< [Back](..) <<   . . . .   >> [Next](../start-vms) >></p>
