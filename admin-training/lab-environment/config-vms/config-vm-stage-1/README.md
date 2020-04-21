@@ -353,4 +353,4 @@ Now you're ready to configure a ***Stage 2 VM***.
 ```
 
 
-# <p align="center"><< [Back](config-vms) <<   . . . .   >> [Next](../config-vm-stage-2) >></p>
+# <p align="center"><< [Back](..) <<   . . . .   >> [Next](../config-vm-stage-2) >></p>
