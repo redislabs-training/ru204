@@ -5,7 +5,7 @@ Start user VMs from a ***Stage 3 VM*** image or instance template called ***admi
 ```diff
 ! IMPORTANT
 ```
-If you don't have access, ask someone to export the VM image to ***Google Cloud Storage*** and use that instead (see below).
+If you don't have access, ask someone to export the image to ***GCS*** and use that instead (see below).
 
 If starting in ***redislabs-university***, specify:
 - Zone: ***us-west1-b***
@@ -44,7 +44,7 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
 
 ## To export an image to GCS
 
-Run this.
+Run the following:
 
 ```bash
 gcloud compute images export --destination-uri gs://admin-training-bucket/admin-training-vm-2004 --image admin-training-3
