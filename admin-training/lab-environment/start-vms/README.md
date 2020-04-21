@@ -1,16 +1,15 @@
 # Start VMs
 
-If you have access to ***redislabs-university*** use a ***Stage 3 VM*** image or instance template with one of the methods below.
+```diff
++ The latest version is 2004 with Ubuntu 18.04 and RedisLabs 5.4
+```
 
-If you don't have access to ***redislabs-university***, use this image instead:
+If you have access to the ***redislabs-university*** GCP project, use a ***Stage 3 VM*** image or instance template with one of the methods below.
+
+If you don't have access to ***redislabs-university***, use this image (which was exported to GCS) instead:
 
 ```bash
 gs://admin-training-bucket/admin-training-vm-2004***.
-```
-
-The latest version ***2004*** includes:
-```diff
-+ Ubuntu 18.04 and RedisLabs 5.4
 ```
 
 1. For a few VMs:
@@ -25,14 +24,12 @@ gcloud compute instances create user1 user2 --source-instance-template admin-tra
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
-3. For manual start up in GCP console:
+3. For GCP console:
 - Click ***Create Instance***
 - Select ***from image*** or ***from template***
 - Choose zone ***us-west1-b***, ***n1-standard-4***, and network ***training***.
 
-## To export an image to GCS
-
-Use this command outlined in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image):
+To export an image to GCS, the following command was used as explained [here](https://cloud.google.com/compute/docs/images/export-image).
 
 ```bash
 gcloud compute images export --destination-uri gs://admin-training-bucket/admin-training-vm-2004 --image admin-training-3
