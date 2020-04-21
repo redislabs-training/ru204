@@ -234,7 +234,7 @@ Now you're ready to configure a ***Stage 3 VM***.
 + Click Next to continue...
 ```
 
-# >> [Next](../config-vm-stage-3) >>
+# <p align="center"><< [Back](..) <<   . . . .   >> [Next](../config-vm-stage-3) >></p>
 
 ```diff
 ! Here's how you could replace Bind with CoreDNS.
