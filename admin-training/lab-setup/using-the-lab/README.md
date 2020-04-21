@@ -1,14 +1,12 @@
 # Lab/Product Demo
 
-Here you'll do the following in 85 easy steps:
-1. Use the lab environment
-2. Create a cluster
-3. Add a database
-4. Explore DNS
-5. Use Redis Insight
-6. Fail nodes
-7. Enable replication and clustering
-8. Lose quorum and restore the cluster.
+Here you'll do the following in about 60 easy steps:
+
+1. Create a cluster
+2. Add a database
+3. Explore DNS
+4. Use Redis Insight
+5. Explore node failure
 
 ## Use the Lab Environment
 
@@ -644,11 +642,11 @@ rladmin status
 ## Summary
 
 Congratulations! Now you know how to:
-- Start and stop nodes
-- Join them in clusters
-- Add databases
-- Investigate DNS
-- Explore nodes failing and returning.
+1. Create a cluster
+2. Add a database
+3. Explore DNS
+4. Use Redis Insight
+5. Explore node failure
 
 Now ready to go on to the lab manual or return to the lab environment main menu.
 
