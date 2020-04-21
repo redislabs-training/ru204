@@ -57,25 +57,13 @@ gcloud compute images export --destination-uri gs://admin-training-bucket/admin-
 ! IMPORTANT
 ```
 
-If you don't know how to check whether ***CloudBuild API*** or account roles are set:
-
-1. In the ***API & Service > Library*** page, search for ***cloudbuild*** and make sure its icon is blue.
-
-![](images/01-api-cloudbuild.png) 
-
-2. In the ***IAM*** page, make sure the following are set.
-
-***GCE service account*** has ***editor*** role
-
-![](images/02-iam-gce-sa-with-editor-role.png)
-
-***CloudBuild API service account*** has roles:
-- ***compute.Administrator***
-- ***iam.ServiceAccountUser***
-- ***iam.ServiceAccountTokenCreator***
-
-![](images/03-iam-cloudbuild-sa-roles.png)
-
+You need the following settings for it to work:
+- ***CloudBuild API*** enabled
+- ***GCE service account*** with the ***editor*** role
+- ***CloudBuild API service account*** with the following roles:
+ - ***compute.Administrator***
+ - ***iam.ServiceAccountUser***
+ - ***iam.ServiceAccountTokenCreator***
 
 
 
