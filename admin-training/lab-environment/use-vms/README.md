@@ -1,3 +1,16 @@
+# Use VMs
+
+Here's a light intro to using lab VMs.
+
+This introduces you to the following:
+- Signing in
+- Navigating desktop workspaces
+- Starting nodes
+- Viewing RL admin console
+- Running ***rladmin status***.
+
+For more exploration including clusters, databases, DNS, and node failure, see the link at the bottom.
+
 ## First steps users take to access their environment
 
 1. Open a laptop browser and point it to the public IP you were given to work with.
@@ -57,7 +70,7 @@ This opens a window with 3 tabs SSH'd in to your 3 north nodes. From here, you c
 
 You get an error because nodes aren't added to any cluster yet.
 
-Now you're ready to create clusters, join nodes, and add databases. 
+Now you're ready to create clusters, add databases, and investigate DNS and explore node failures. 
 
 ```diff
 + Click Next to continue...
