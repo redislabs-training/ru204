@@ -29,8 +29,10 @@ for i in {1..20} gcloud compute instances create user$i --source-instance-templa
 - Select ***from image*** or ***from template***
 - Choose zone ***us-west1-b***, ***n1-standard-4***, and network ***training***.
 
+Now you're ready to use VMs.
+
 ```diff
-+ Click Next to see how to use VMs
++ Click Next to continue...
 ```
 # <p align="center"><< [Back](../Overview) <<   . . . .  >> [Next](../use-vms)) >></p>
 
