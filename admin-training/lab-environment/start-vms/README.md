@@ -37,17 +37,14 @@ for i in {1..10} gcloud compute instances create user$i --source-instance-templa
  
 ```
 
-3. For manual steps in GCP console:
-- Go to ***Compute Engine > VM instances***
-- Click ***Create Instance***
+3. For manual start up in GCP console:
+- Go to ***Compute Engine > VM instances*** and click ***Create Instance***
 - Select ***from image*** or ***from template***.
 
 
 ## To export an image to GCS
 
-Use steps described in [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
-
-Here's the command you'll run to export the image to GCS with version number at the end of the image name:
+Run this.
 
 ```bash
 gcloud compute images export --destination-uri gs://admin-training-bucket/admin-training-vm-2004 --image admin-training-3
@@ -57,13 +54,9 @@ gcloud compute images export --destination-uri gs://admin-training-bucket/admin-
 ! IMPORTANT
 ```
 
-You need the following settings for it to work:
+The command needs the following to work:
 - ***CloudBuild API*** enabled
-- ***GCE service account*** with the ***editor*** role
-- ***CloudBuild API service account*** with the following roles:
- - ***compute.Administrator***
- - ***iam.ServiceAccountUser***
- - ***iam.ServiceAccountTokenCreator***
+- ***GCE service account*** with ***editor*** role
+- ***CloudBuild API service account*** with roles ***compute.admin***, ***iam.ServiceAccountUser***,  ***iam.ServiceAccountTokenCreator*
 
-
-
+For help, see [Exporting a custom image to Cloud Storage](https://cloud.google.com/compute/docs/images/export-image).
