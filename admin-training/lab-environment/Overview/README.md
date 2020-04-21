@@ -91,4 +91,10 @@ From here, students install RES software in lab 3.
 
 You can also run Docker commands to inspect the state of nodes, DNS, and Redis Insight (each runs in a container).
 
-Enjoy!
+Now you're ready to start VMs.
+
+```diff
++ Click Next to continue...
+```
+
+# <p align="center">>> [Next](../start-vms) >></p>
