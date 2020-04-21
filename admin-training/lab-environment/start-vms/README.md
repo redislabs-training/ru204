@@ -29,6 +29,11 @@ for i in {1..20} gcloud compute instances create user$i --source-instance-templa
 - Select ***from image*** or ***from template***
 - Choose zone ***us-west1-b***, ***n1-standard-4***, and network ***training***.
 
+```diff
++ Click Next to see how to use VMs
+```
+# <p align="center"><< [Back](../Overview) <<   . . . .  >> [Next](../use-vms)) >></p>
+
 To export an image to GCS, the following command was used as explained [here](https://cloud.google.com/compute/docs/images/export-image).
 
 ```bash
