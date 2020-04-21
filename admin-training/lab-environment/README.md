@@ -6,8 +6,8 @@ From here, you can:
 1. [Get a VM overview](Overview)
 2. [Start VMs](start-vms)
 3. [Use VMs]
-4. [Investigate clusters, databases, DNS, and node failures](../lab-setup/use-the-lab]
-5. [Create VMs](config-vms).
+4. [Investigate clusters, databases, DNS, node failure](../lab-setup/use-the-lab)
+5. [Configure VMs](config-vms).
 
 VMs are configured in 3 stages for easy re-config.
 
