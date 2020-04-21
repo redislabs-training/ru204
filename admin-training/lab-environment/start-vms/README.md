@@ -1,6 +1,6 @@
 # Start VMs
 
-If you have access to ***redislabs-university*** you can start user VMs from a ***Stage 3 VM*** image or instance template using one of the methods below.
+If you have access to ***redislabs-university*** use a ***Stage 3 VM*** image or instance template with one of the methods below.
 
 If you don't have access to ***redislabs-university***, use this image instead:
 
@@ -25,11 +25,10 @@ gcloud compute instances create user1 user2 --source-instance-template admin-tra
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
-3. For start up in GCP console:
-- Go to ***VM instances*** and click ***Create Instance***
+3. For manual start up in GCP console:
+- Click ***Create Instance***
 - Select ***from image*** or ***from template***
-- Choose zone ***us-west1-b***
-- If using an image, also choose machine type ***n1-standard-4***, and network ***training***.
+- Choose zone ***us-west1-b***, ***n1-standard-4***, and network ***training***.
 
 ## To export an image to GCS
 
