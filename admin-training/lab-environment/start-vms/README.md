@@ -1,7 +1,7 @@
 # Start VMs
 
 ```diff
-+ The latest version is 2004 with Ubuntu 18.04 and RedisLabs 5.4
++ The latest version is 2004 with Ubuntu 18.04 and RedisLabs 5.6.0-20
 ```
 
 If you have access to the ***redislabs-university*** GCP project, use a ***Stage 3 VM*** image or instance template with one of the methods below.
