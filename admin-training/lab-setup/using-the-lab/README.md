@@ -650,7 +650,7 @@ Congratulations! Now you know how to:
 - Investigate DNS
 - Explore nodes failing and returning.
 
-Now ready to go on to the lab manual or return to lab overview and setup.
+Now ready to go on to the lab manual or return to the lab environment main menu.
 
 ```diff
 + Click Next or Back to continue...
