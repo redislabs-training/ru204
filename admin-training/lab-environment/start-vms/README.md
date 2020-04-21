@@ -12,19 +12,19 @@ If you don't have access to ***redislabs-university***, use this image (which wa
 gs://admin-training-bucket/admin-training-vm-2004
 ```
 
-1. For a few VMs:
+1. To start a few VMs (e.g., user, user2), run the following:
 
 ```bash
 gcloud compute instances create user1 user2 --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
-2. For many VMs:
+2. To start many VMs (e.g. user1-20), run the following:
 
 ```bash
 for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
-3. For GCP console:
+3. To start VMs manually from GCP console:
 - Click ***Create Instance***
 - Select ***from image*** or ***from template***
 - Choose zone ***us-west1-b***, ***n1-standard-4***, and network ***training***.
