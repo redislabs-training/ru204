@@ -62,4 +62,4 @@ Now you're ready to create clusters, join nodes, and add databases.
 ```diff
 + Click Next to continue...
 ```
-# <p align="center"><< [Back](../start-vms) <<   . . . .  >> [Next](../../use-lab) >></p>
+# <p align="center"><< [Back](../start-vms) <<   . . . .  >> [Next](../../lab-setup/using-the-lab) >></p>
