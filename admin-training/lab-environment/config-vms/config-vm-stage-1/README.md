@@ -352,4 +352,4 @@ Now you're ready to configure a ***Stage 2 VM***.
 + Click Next to continue...
 ```
 
-# << [Back](../config-vms) <<       >> [Next](../config-vm-stage-2) >>
+# << [Back](config-vms) << ........... >> [Next](../config-vm-stage-2) >>
