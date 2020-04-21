@@ -1,15 +1,16 @@
 # Start VMs
 
-```diff
-+ Version 2004, Ubuntu 18.04, RedisLabs 5.4
-```
+If you have access to ***redislabs-university*** you can start user VMs from a ***Stage 3 VM*** image or instance template using one of the methods below.
 
-If you have access to ***redislabs-university***, start VMs from a ***Stage 3 VM*** image or instance template using one of the methods below.
-
-If you don't have access to ***redislabs-university***, use this image that was exported to GCS instead:
+If you don't have access to ***redislabs-university***, use this image instead:
 
 ```bash
 gs://admin-training-bucket/admin-training-vm-2004***.
+```
+
+The latest version ***2004*** includes:
+```diff
++ Ubuntu 18.04 and RedisLabs 5.4
 ```
 
 1. For a few VMs:
