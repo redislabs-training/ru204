@@ -18,10 +18,10 @@ gs://admin-training-bucket/admin-training-vm-2004
 gcloud compute instances create user1 user2 --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
-2. To start many VMs (e.g. user1-20), run the following:
+2. To start a larger number of similarly named VMs (e.g. user1-20), run the following:
 
 ```bash
-for i in {1..10} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
+for i in {1..20} gcloud compute instances create user$i --source-instance-template admin-training-3 --zone=us-west1-b
 ```
 
 3. To start VMs manually from GCP console:
