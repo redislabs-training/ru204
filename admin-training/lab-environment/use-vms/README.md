@@ -59,3 +59,7 @@ You get an error because nodes aren't added to any cluster yet.
 
 Now you're ready to create clusters, join nodes, and add databases. 
 
+```diff
++ Click Next to continue...
+```
+# <p align="center"><< [Back](../start-vms) <<   . . . .  >> [Next](../../use-lab) >></p>
