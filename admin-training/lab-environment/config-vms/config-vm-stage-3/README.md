@@ -76,8 +76,8 @@ alias create_south_cluster="ssh -t trainee@172.18.0.1 ./scripts/create_south_clu
 
 alias run_dnsutils="ssh -t trainee@172.18.0.1 ./scripts/run_dnsutils.sh "
 
-alias run_redis_start="ssh -t trainee@172.18.0.1 docker run -it --name redis -h redis -w / redis bash"
-alias run_redis_stop="ssh -t trainee@172.18.0.1 docker container rm \$\(docker container ls -q -f '\''status=exited'\''\)"
+alias start_redis="ssh -t trainee@172.18.0.1 docker run -it --name redis -h redis -w / redis bash"
+alias stop_redis="ssh -t trainee@172.18.0.1 docker container rm \$\(docker container ls -q -f status=exited\) >/dev/null 2>&1"
 
 alias ssh_base-vm="ssh -t trainee@172.18.0.1"        # only used by admins when building VMs
 
