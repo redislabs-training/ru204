@@ -6,4 +6,4 @@ zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
 
 [vars]
 TAHOE_HOST = "stage-university.redislabs.com"
-STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod"
+STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage"
