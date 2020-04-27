@@ -1,25 +1,23 @@
 const Router = require('./router')
 
 // Modify request URL to point to the desired origin URL.
-function modifyRequest(request, updatedDomain) {
-    const targetDomain = updatedDomain || STATIC_HOST
+function modifyRequest(request) {
     const beginDomain = request.url.indexOf('://')
     const endDomain = 1 + request.url.indexOf('/', beginDomain + 3)
-    const newUrl = `${request.url.substring(0, beginDomain)}://${targetDomain}/${request.url.substring(endDomain)}`
+    const newUrl = `${request.url.substring(0, beginDomain)}://${STATIC_HOST}/${request.url.substring(endDomain)}`
 
     return new Request(new URL(newUrl), request)    
 }
 
-// Map each type of HTTP verb for the supplied URI pattern
-// to the static site if originHost is unset, or to the Tahoe
-// site that originHost points to if it is set.
-function mapURIPattern(router, pattern, originHost) {
+// Map each type of HTTP verb for the supplied 
+// URI pattern to the static site.
+function mapURIPattern(router, pattern) {
     const action = (req) => {
         // If there is a . after the last / in url then 
         // this is a file request and we don't redirect it.
         let redirectWithSlash = false
 
-        if (! originHost && ! req.url.endsWith('/')) {
+        if (! req.url.endsWith('/')) {
             // Only consider static URLs for redirect to / 
             // version.  But not those that are file requests...
             // File requests have a . in the path.
@@ -33,7 +31,7 @@ function mapURIPattern(router, pattern, originHost) {
             return Response.redirect(new URL(`${req.url}/`), 301)
         }    
 
-        return fetch(modifyRequest(req, originHost))
+        return fetch(modifyRequest(req))
     }
 
     router.delete(pattern, action)
@@ -59,37 +57,8 @@ async function handleRequest(request) {
 
     const r = new Router()
    
-    // This is the Tahoe host.
-    const originHost = TAHOE_HOST
-
-    // These should always come from the static site.
-    mapURIPattern(r, '.*/sitemap.xml')
-    mapURIPattern(r, '.*/robots.txt')
-
-    // Always override /courses unless the URL contains 'course-v1'
-    // this is an edX about page.
-    if (request.url.indexOf('course-v1') == -1) {
-        mapURIPattern(r, '.*/courses/.*')
-    }
-
-    // Always override /certification
-    mapURIPattern(r, '.*/certification.*')
-
-    // Always override /certifications
-    mapURIPattern(r, '.*/certifications.*')
-    
-    // Always override /assets, this is where static site assets
-    // live, to not conflict with anything in Tahoe.
-    mapURIPattern(r, '.*/assets/.*')
-
-    // site.webmanifest is always on static.
-    mapURIPattern(r, '/site.webmanifest')
-   
-    // Always override /
-    mapURIPattern(r, '/')
-
-    // Send everything else to origin.
-    mapURIPattern(r, '.*', originHost)
+    // Everything maps to the static site.
+    mapURIPattern(r, '.*.')
 
     const response = await r.route(request)
 
