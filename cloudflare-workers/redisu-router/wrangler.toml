@@ -1,7 +1,19 @@
-name = "my-router"
+name = "redisu-router"
 type = "webpack"
 account_id = "085eb14f95a179f56e42dad3d215212d"
-route = "stage-university.redislabs.com/"
+# These are the URL paths that the static site should be
+# served for.
+routes = [
+    "stage-university.redislabs.com/",
+    "stage-university.redislabs.com/site.webmanifest",
+    "stage-university.redislabs.com/sitemap.xml",
+    "stage-university.redislabs.com/robots.txt",
+    "stage-university.redislabs.com/courses/*",
+    "stage-university.redislabs.com/certification/*",
+    "stage-university.redislabs.com/certifications/*",
+    "stage-university.redislabs.com/assets/*",
+    "stage-university.redislabs.com/courses"
+]
 zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
 
 [vars]
