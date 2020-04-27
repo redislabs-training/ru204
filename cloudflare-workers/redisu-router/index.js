@@ -61,7 +61,6 @@ async function handleRequest(request) {
    
     // This is the Tahoe host.
     const originHost = TAHOE_HOST
-    const cookies = request.headers.get('Cookie')
 
     // These should always come from the static site.
     mapURIPattern(r, '.*/sitemap.xml')
@@ -85,12 +84,7 @@ async function handleRequest(request) {
 
     // site.webmanifest is always on static.
     mapURIPattern(r, '/site.webmanifest')
-
-    // // If not logged in, override homepage else send to origin.
-    // if (cookies && cookies.indexOf('edxloggedin=true') == -1) {
-    //     mapURIPattern(r, '/')
-    // }
-    
+   
     // Always override /
     mapURIPattern(r, '/')
 
