@@ -1,8 +1,11 @@
-name = "redisu-router"
 type = "webpack"
 account_id = "085eb14f95a179f56e42dad3d215212d"
+zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
+
+[env.stage]
 # These are the URL paths that the static site should be
 # served for.
+name = "redisu-stage-router"
 routes = [
     "stage-university.redislabs.com/",
     "stage-university.redislabs.com/site.webmanifest",
@@ -14,8 +17,5 @@ routes = [
     "stage-university.redislabs.com/assets/*",
     "stage-university.redislabs.com/courses"
 ]
-zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
 
-[vars]
-TAHOE_HOST = "stage-university.redislabs.com"
-STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage"
+vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
