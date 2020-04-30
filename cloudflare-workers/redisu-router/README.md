@@ -1,30 +1,38 @@
-# Cloudflare Workers Experiment
+# Cloudflare Workers for Redis University
+
+## Overview
 
 This is a [Cloudflare Worker](https://workers.cloudflare.com/) that acts as a proxy to route URLs so that some paths are served from a different underlying origin than others.
 
-The aim of this experiment is to see if we can serve the home page and other URL paths for Redis University from a static site origin to improve SEO, page load speed and design while keeping the rest of Redis University served from Appsembler.
+The aim of is to serve the Redis University home page and other URL paths from a static site origin to improve SEO, page load speed and design while keeping the rest of Redis University served from Appsembler.
 
-To do this we'd need to proxy everything through here, point `university.redislabs.com` at Cloudflare, update the DNS servers that currently have `university.redislabs.com`, then stand up a static site for the other pages elsewhere (S3, GitHub pages for example.  I have been experimenting with GitHub pages and the Jekyll static site generator).
+To do this, we needed to set a DNS CNAME for `university.redislabs.com` to point to Cloudflare (`university.redislabs.com.cdn.cloudflare.net`).  We had to do this as we aren't moving all of `redislabs.com` to pass through Cloudflare.  Mapping only a subdomain to Cloudflare is a feature that requires a Cloudflare business account, so we have obtained one of those.
 
-We have the additional complication that when a user is logged into Appsembler and they go to `university.redislabs.com`, Appsembler detects they are logged in through their cookies sent with the request and redirects them to the dashboard page.  The code in the Cloudflare Worker here aims to address that by looking for the cookie that edX sets when the user logs in.
+The static site that will be served on some URLs is in a repo in the RedisLabs Training organization.  This static site is contained in three GitHub repos as follows:
 
-Other complications we may have with moving to using this model would be:
+* [Site source (Jekyll)](https://github.com/redislabs-training/redis-university-static-site).
+* [Stage environment built copy](https://github.com/redislabs-training/redis-university-static-site-stage) - GitHub pages is enabled here and this serves as the stage copy of the site.
+* [Production environment built copy](https://github.com/redislabs-training/redis-university-static-site-prod) - GitHub pages is enabled here and this serves as the production copy of the site.
 
-* Moving the SSL for `university.redislabs.com` to Cloudflare?  Experiments indicate not a problem as the SSL has been working fine in my test setup.
-* Virtual Labs are also on `university.redislabs.com` URLs so traffic for those would also be affected / proxied through Cloudflare - not a problem as such I think just means more hits on the Cloudflare worker code than if virtual labs could be handled on another URL - we will never want to proxy / make routing decisions for a virtual lab URL.
-* Ensuring any uptime checks that Appsembler have work agaist the new URL that the Appsembler site is on, not against `university.redislabs.com`
+## Routing Logic
 
-Currently this is all configured to work on Simon's personal Cloudflare acccount and handle all requests to [`http://testinstance.crudworks.org`](http://testinstance.crudworks.org).
+When a request comes into `university.redislabs.com` in production or `stage-university.redislabs.com`, the following happens:
 
-The logic that's run against each request right now looks like this:
+* The request goes to Cloudflare.
+* Cloudflare checks to see if the request URL matches a set of patterns that we want to serve a static site page for, rather than an Appsembler origin page.  Cloudflare uses patterns listed in the file `wrangler.toml` in this repo for this purpose.  There are separate sets of URLs listed for stage and production, the paths are the same for both but the hostnames differ.
+* If the request URL does not match one of these patterns, Cloudflare sends the request to the origin (Appsembler) and Appsembler generates the page and it's returned to the client via Cloudflare.
+* If the request URL des match one of these patterns, Cloudflare instead runs a worker (serverless Node.js function) to decide what to do.  This is where our code in this repo comes into play.
 
-* Requests for `/` are proxied to the same path on a different domain (`staticsite.crudworks.org` - representing our static site - currently implemented using GitHub pages and the Jekyll static site generator), unless a specific cookie is set to a specific value, in which case they go to the origin:
-  * If the cookie `exdloggedin` is set to `true` (this is the cookie that edX sets once the user has logged in and has a session active with edX), then the code assumes that the user has an Appsembler session and proxies the request through to origin (which is the Redis U staging edX instance).
-  * If the cookie is not set, the code assumes that this is not a logged in Appsembler session and proxies the request to the static site and the static site's home page will be seen.
-* Requests for anything in `/staticassets` are proxied to the same path on a different domain, simulating the need we will have to have some path to store images / CSS / JS  for the static site we want to build that isn't on Appsembler.  So, for example `http://testinstance.crudworks.org/staticassets/images/logo.png` will really come from `http://staticsite.crudworks.org/staticassets/images/logo.png`.
-* The static site is also used to serve all `/courses` and `/certifications` URLs, allowing us to serve static pages describing each course etc.
-* All pages on the static site need to have the canonical URL set to `testinstance.crudworks.org`.
-* Requests for all other URLs are proxied to the origin (which would be Appsembler).  We would need more of these paths for any URL structure that we want to have in the static site.
+### Router Workflow
+
+The worker logic works like this:
+
+* We have a general rule for the statuc site that all URLs that aren't file names need to end in /, and there should be a 301 redirect if not.  Example `university.redislabs.com/courses/ru101` should be redirected to `university.redislabs.com/courses/ru101/`.  There's an exception to this, `/courses` needs to go to `/#courses` so that is dealt with first.
+* All other URLs get mapped to the same URL but with the front end `university.redislabs.com` replaced with the static site domain... so `university.redislabs.com/courses/ru101/` would be mapped to `redislabs-training.github.io/redis-university-static-site-prod/courses/ru101` for example.
+* The router then requests the page from the remapped URL, and returns whatever comes back from GitHub pages for that URL. 
+* If the remapped URL returns a 404 from the GitHub pages site, then the router requests the 404 page from GitHub pages and returns that instead.
+
+To better understand how the code in `index.js` works, see the [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/).  The file `router.js` is provided as part of a [router template example](https://developers.cloudflare.com/workers/templates/pages/router) by Cloudflare and has not been modified for use with Redis University.
 
 ## Tooling
 
@@ -34,9 +42,11 @@ To work with Cloudflare Workers, you'll want to install [wrangler](https://githu
 
 Some configuration items need to be set in `wranger.toml`.  These are:
 
-* `route` - which route(s) to apply to (e.g. `test.crudworks.org/*`).
-* `zone_id` - Cloudflare zone ID, you can get this from your Cloudflare dashboard.
-* `account_id` - Cloudflare account ID, you can get this from your Cloudflare dashboard.
+* `zone_id` - Cloudflare zone ID, you can get this from your Cloudflare dashboard.  This is already set with values for the Redis Labs account.
+* `account_id` - Cloudflare account ID, you can get this from your Cloudflare dashboard.  This is already set with values for the Redis Labs account.
+* `name` - The name that Cloudflare will use for the worker on the Cloudflare dashboard.  With the provided config values, this will be `redisu-stage-router` for stage and `redisu-router` for production.
+* `routes` - Array of route patterns that the worker needs to run on.  These routes should between them encompass all possible URLs that the static site needs to show up at, including URLs needed for the static site images, icons, etc.  Read about routes [here](https://developers.cloudflare.com/workers/about/routes/) (Matching Behavior section).  Note that these are set per environment.
+* `vars` - Environment variables that the worker needs.  Note that these are set per environment.  Right now these are `TAHOE_HOST` - the origin URL for Appsembler (which is the same as the front end URL for Cloudflare) and `STATIC_HOST` which is the origin URL for the static site on GitHub pages.
 
 ## Testing 
 
@@ -47,8 +57,6 @@ $ wrangler preview --watch
 ```
 
 This will give you a URL to visit where you can use the test tooling to try your logic against requests to a dummy domain without deploying to Cloudflare / a real domain.  Any changes you make to the Worker logic will be deployed to this test environment on save.
-
-Note that the `Cookies` header is protected and won't work in this environment.  So to do meaningful testing you'll beed to build / deploy the code.
 
 You can share the test URL with others, regardless of whether you are still running wrangler.
 
@@ -62,10 +70,16 @@ $ wrangler build
 
 ## Deployment
 
-Once you are ready, you can publish your code by running the following command:
+Once you are ready, you can publish your code by running one of the following commands depending on which environment you are deploying to:
 
 ```
-$ wrangler publish
+$ wrangler publish --env stage
 ```
 
-This will upload it to Cloudflare, put it live and you should see your worker listed in the "Workers" tab on your Cloudflare dashboard.
+```
+$ wrangler publish --env production
+```
+
+This will upload it to Cloudflare, put it live and you should see your worker listed in the "Workers" tab on your Cloudflare dashboard.  Note that if you do this for production, you have immediately changed production so be careful!
+
+Once you have deployed, your worker will show up on the "Workers" tab in the Cloudflare dashboard.
