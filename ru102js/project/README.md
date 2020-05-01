@@ -1,10 +1,10 @@
-# RU102JS Redis for JavaScript Developers
+# RediSolar for Node.js
 
 # Introduction
 
-This repository contains the codebase for the Redis University RU102JS course.  It contains the source code for the RediSolar application used by the programming challenges on the course, plus other example code.
+This is the sample application codebase for RU102JS, Redis for JavaScript developers at [Redis University](https://university.redislabs.com).
 
-Sign up for the latest run of RU102JS at [Redis University](https://university.redislabs.com).
+Solutions to the course programming challenges can be found on the `solutions` branch.
 
 # Prerequisites
 
@@ -12,36 +12,23 @@ In order to start and run this application, you will need:
 
 * [Node.js](https://nodejs.org/en/download/) (8.9.4 or newer, we recommend using the current Long Term Stable version)
 * npm (installed with Node.js)
-* Access to a local or remote installation of [Redis](https://redis.io/download) version 5 or newer
-* Your Redis installation should have the RedisTimeSeries module installed.  Installation instructions can be found [here](https://oss.redislabs.com/redistimeseries/#setup)
+* Access to a local or remote installation of [Redis](https://redis.io/download) version 5 or newer (local preferred)
+* If you want to try the RedisTimeSeries exercises, you'll need to make sure that your Redis installation also has the [RedisTimeSeries Module](https://oss.redislabs.com/redistimeseries/) installed
 
 # Setup
 
-To get started with the default configuration (server on port 8081, Redis on localhost port 6379):
+To get started:
 
 ```
 $ npm install
-$ npm run dev
-```
-
-This should start a live reloading server that uses [nodemon](https://www.npmjs.com/package/nodemon).  You should be able to see the front end solar dashboard app at: 
-
-```
-http://localhost:8081/
 ```
 
 # Configuration 
 
 The application uses a configuration file, `config.json` to specify the port that it listens 
-on plus some logging parameters and how it connects to a database.
+on plus some logging parameters and how it connects to a database.  
 
-There are two options for the database, `static` or `redis`.  `static` just returns static 
-responses and all write operations will do nothing.  It is included to show how you could 
-organize your code using the DAO pattern when you might have more than one database type 
-to consider.
-
-You should use the `redis` database, and the supplied `config.json` file is already set up 
-to use Redis on localhost port 6379.
+The supplied `config.json` file is already set up to use Redis on localhost port 6379.  Change these values if your Redis instance is on another host or port, or requires a password to connect.
 
 ```
 {
@@ -54,15 +41,15 @@ to use Redis on localhost port 6379.
     "redis": {
       "host": "localhost",
       "port": 6379,
+      "password": null,
       "keyPrefix": "ru102js"
-    },
-    "static": {}
+    }
   }
 }
 ```
 
 The `keyPrefix` for Redis is used to namespace all the keys that the application generates or 
-references.  So for example a key 'sites:999' would be 'ru102js:sites:999' when written to Redis.
+references.  So for example a key `sites:999` would be `ru102js:sites:999` when written to Redis.
 
 # Load Sample Data
 
@@ -88,7 +75,23 @@ npm run dev
 
 Edit code, application will hot reload on save.
 
-## Running Tests
+If you want to run without `nodemon`, use:
+
+```
+npm start
+```
+
+But you will then need to stop the server and restart it when you change code.
+
+# Accessing the Front End Web Application
+
+You should be able to see the front end solar dashboard app at: 
+
+```
+http://localhost:8081/
+```
+
+# Running Tests
 
 The project is setup to use [Jest](https://jestjs.io/en/) for testing.  To run all tests:
 
@@ -109,7 +112,7 @@ subsets of tests and many more options:
 npm testdev
 ```
 
-## Linting
+# Linting
 
 This project uses [ESLint](https://eslint.org/) with a slightly modified version of the 
 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
