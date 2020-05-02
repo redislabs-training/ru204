@@ -12,11 +12,17 @@ routes = [
     "stage-university.redislabs.com/site.webmanifest",
     "stage-university.redislabs.com/sitemap.xml",
     "stage-university.redislabs.com/robots.txt",
-    "stage-university.redislabs.com/courses/*",
     "stage-university.redislabs.com/certification/*",
     "stage-university.redislabs.com/certifications/*",
     "stage-university.redislabs.com/assets/*",
-    "stage-university.redislabs.com/courses"
+    "stage-university.redislabs.com/courses",
+    "stage-university.redislabs.com/courses/ru101*",
+    "stage-university.redislabs.com/courses/ru102j*",
+    "stage-university.redislabs.com/courses/ru102js*",
+    "stage-university.redislabs.com/courses/ru102py*",
+    "stage-university.redislabs.com/courses/ru330*",
+    "stage-university.redislabs.com/courses/ru201*",
+    "stage-university.redislabs.com/courses/ru202*",
 ]
 
 vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
@@ -31,11 +37,17 @@ routes = [
     "university.redislabs.com/site.webmanifest",
     "university.redislabs.com/sitemap.xml",
     "university.redislabs.com/robots.txt",
-    "university.redislabs.com/courses/*",
     "university.redislabs.com/certification/*",
     "university.redislabs.com/certifications/*",
     "university.redislabs.com/assets/*",
-    "university.redislabs.com/courses"
+    "university.redislabs.com/courses",
+    "university.redislabs.com/courses/ru101*",
+    "university.redislabs.com/courses/ru102j*",
+    "university.redislabs.com/courses/ru102js*",
+    "university.redislabs.com/courses/ru102py*",
+    "university.redislabs.com/courses/ru330*",
+    "university.redislabs.com/courses/ru201*",
+    "university.redislabs.com/courses/ru202*",
 ]
 
 vars = { TAHOE_HOST = "university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod" }
