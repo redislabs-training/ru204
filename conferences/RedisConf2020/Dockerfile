@@ -1,71 +1,29 @@
 # redisuniversity/redisconf-2020
-FROM redisuniversity/virtual-lab-base-6:latest
+FROM redislabs/redisgraph:latest as redisgraph
+FROM redislabs/redistimeseries:latest as redistimeseries
+FROM redislabs/rejson:latest as rejson
+FROM redislabs/rebloom:latest as rebloom
+FROM redisuniversity/virtual-lab-ide6:latest
 
-ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules
+ENV REDISGRAPH_DEPS libgomp1
 
-RUN set -ex && \
-    apk add --no-cache \
-      coreutils \
-      g++ \
-      linux-headers \
-      m4 \
-      make \
-      musl-dev \
-      libc6-compat \
-      git \
-      cmake \
-      automake \
-      autoconf
+# Install RediSearch
 
-# INSTALL RediSearch
-#RUN set -ex && \
+# Install Redis Gears
 
-# INSTALL Redis Gears
-#RUN set -ex && \
+# Install RedisTimeSeris
+COPY --from=redistimeseries ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 
-# INSTALL RedisTimeSeris
-#RUN set -ex && \
+# Install RedisJSON
+COPY --from=rejson ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 
-# INSTALL RedisJSON
-RUN set -ex && \
-    mkdir -p /usr/src/redisjson && \
-    cd /usr/src/redisjson && \
-    git clone https://github.com/RedisJSON/RedisJSON.git && \
-    cd RedisJSON && \
-    git checkout v1.0.4 && \
-    make && \
-    mkdir -p /usr/lib/redis/modules && \
-    cp src/rejson.so /usr/lib/redis/modules && \
-    cd /usr  && \
-    rm -r /usr/src/redisjson
+# Install RedisBloom
+COPY --from=rebloom ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 
-# INSTALL Redis Graph
-# RUN set -ex && \
-#     mkdir -p /usr/src/redisgraph && \
-#     cd /usr/src/redisgraph && \
-#     git clone --recurse-submodules -j8 https://github.com/RedisGraph/RedisGraph.git && \
-#     cd RedisGraph && \
-#     git checkout v2.0.11 -b 2.0.11 && \
-#     make && \
-#     mkdir -p /usr/lib/redis/modules && \
-#     cp ./src/redisgraph.so /usr/lib/redis/modules
-
-# INSTALL RedisBloom
-RUN set -ex && \
-    mkdir -p /usr/src/redisbloom && \
-    cd /usr/src/redisbloom/ && \
-    git clone https://github.com/RedisBloom/RedisBloom.git && \
-    cd RedisBloom && \
-    git checkout tags/v2.2.2 -b 2.2.2 && \
-    make && \
-    mkdir -p /usr/lib/redis/modules && \
-    cp redisbloom.so /usr/lib/redis/modules
+# Install Redis Graph
 
 # Install Sqlite for the Redis Gears Demo
-
-# CLEANUP
-RUN set -ex && \
-    apk del git make gcc linux-headers musl-dev cmake m4 automake autoconf
 
 # Course files
 ADD .logo /home/student/.logo
