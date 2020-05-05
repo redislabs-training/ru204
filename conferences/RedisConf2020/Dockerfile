@@ -8,8 +8,10 @@ FROM redisuniversity/virtual-lab-ide6:latest
 
 ENV LD_LIBRARY_PATH /usr/lib/redis/modules
 
+# Install Sqlite for the Redis Gears Demo and 
+# libgomp - Redis Graph dependency
 RUN set -ex && \
-    apk add --no-cache libgomp
+    apk add --no-cache libgomp sqlite
 
 # Install RediSearch
 COPY --from=redisearch ${LD_LIBRARY_PATH}/redisearch.so ${LD_LIBRARY_PATH}/
@@ -27,8 +29,6 @@ COPY --from=rebloom ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 
 # Install Redis Graph
 COPY --from=redisgraph ${LD_LIBRARY_PATH}/redisgraph.so ${LD_LIBRARY_PATH}/
-
-# Install Sqlite for the Redis Gears Demo
 
 # Course files
 ADD .logo /home/student/.logo
