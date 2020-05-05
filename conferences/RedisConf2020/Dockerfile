@@ -13,7 +13,9 @@ RUN set -ex && \
       musl-dev \
       libc6-compat \
       git \
-      cmake
+      cmake \
+      automake \
+      autoconf
 
 # INSTALL RediSearch
 #RUN set -ex && \
@@ -25,10 +27,28 @@ RUN set -ex && \
 #RUN set -ex && \
 
 # INSTALL RedisJSON
-#RUN set -ex && \
+RUN set -ex && \
+    mkdir -p /usr/src/redisjson && \
+    cd /usr/src/redisjson && \
+    git clone https://github.com/RedisJSON/RedisJSON.git && \
+    cd RedisJSON && \
+    git checkout v1.0.4 && \
+    make && \
+    mkdir -p /usr/lib/redis/modules && \
+    cp src/rejson.so /usr/lib/redis/modules && \
+    cd /usr  && \
+    rm -r /usr/src/redisjson
 
 # INSTALL Redis Graph
-#RUN set -ex && \
+# RUN set -ex && \
+#     mkdir -p /usr/src/redisgraph && \
+#     cd /usr/src/redisgraph && \
+#     git clone --recurse-submodules -j8 https://github.com/RedisGraph/RedisGraph.git && \
+#     cd RedisGraph && \
+#     git checkout v2.0.11 -b 2.0.11 && \
+#     make && \
+#     mkdir -p /usr/lib/redis/modules && \
+#     cp ./src/redisgraph.so /usr/lib/redis/modules
 
 # INSTALL RedisBloom
 RUN set -ex && \
@@ -45,7 +65,7 @@ RUN set -ex && \
 
 # CLEANUP
 RUN set -ex && \
-    apk del git make gcc linux-headers musl-dev cmake m4
+    apk del git make gcc linux-headers musl-dev cmake m4 automake autoconf
 
 # Course files
 ADD .logo /home/student/.logo
