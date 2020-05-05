@@ -9,3 +9,4 @@ fi
 
 docker tag redisuniversity/searchjson gcr.io/redis-labs/searchjson:v$1
 docker push gcr.io/redis-labs/searchjson:v$1
+docker push redisuniversity/searchjson
