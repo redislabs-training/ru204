@@ -3,12 +3,16 @@ FROM redislabs/redisgraph:latest as redisgraph
 FROM redislabs/redistimeseries:latest as redistimeseries
 FROM redislabs/rejson:latest as rejson
 FROM redislabs/rebloom:latest as rebloom
+FROM redislabs/redisearch:1.6.10 as redisearch
 FROM redisuniversity/virtual-lab-ide6:latest
 
 ENV LD_LIBRARY_PATH /usr/lib/redis/modules
-ENV REDISGRAPH_DEPS libgomp1
+
+RUN set -ex && \
+    apk add --no-cache libgomp
 
 # Install RediSearch
+COPY --from=redisearch ${LD_LIBRARY_PATH}/redisearch.so ${LD_LIBRARY_PATH}/
 
 # Install Redis Gears
 
@@ -22,6 +26,7 @@ COPY --from=rejson ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 COPY --from=rebloom ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
 
 # Install Redis Graph
+COPY --from=redisgraph ${LD_LIBRARY_PATH}/redisgraph.so ${LD_LIBRARY_PATH}/
 
 # Install Sqlite for the Redis Gears Demo
 
