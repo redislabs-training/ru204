@@ -16,19 +16,19 @@ RUN set -ex && \
       cmake
 
 # INSTALL RediSearch
-RUN set -ex && \
+#RUN set -ex && \
 
 # INSTALL Redis Gears
-RUN set -ex && \
+#RUN set -ex && \
 
 # INSTALL RedisTimeSeris
-RUN set -ex && \
+#RUN set -ex && \
 
 # INSTALL RedisJSON
-RUN set -ex && \
+#RUN set -ex && \
 
 # INSTALL Redis Graph
-RUN set -ex && \
+#RUN set -ex && \
 
 # INSTALL RedisBloom
 RUN set -ex && \
@@ -36,7 +36,7 @@ RUN set -ex && \
     cd /usr/src/redisbloom/ && \
     git clone https://github.com/RedisBloom/RedisBloom.git && \
     cd RedisBloom && \
-    git checkout tags/v2.0.3 -b 2.03 && \
+    git checkout tags/v2.2.2 -b 2.2.2 && \
     make && \
     mkdir -p /usr/lib/redis/modules && \
     cp redisbloom.so /usr/lib/redis/modules
