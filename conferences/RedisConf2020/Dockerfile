@@ -14,46 +14,31 @@ ENV LD_LIBRARY_PATH /usr/lib/redis/modules
 
 # BEGIN GRAPH
 
-RUN apk add --no-cache \
-        build-base \
-        musl-dev \
-        automake \
-        make \
-        cmake \
-        autoconf \
-        libtool \
-        wget \
-        g++ \
-        git \
-        m4 \
-#        libgomp \
-        python \
-        py-setuptools \
-        py-pip \
-        ;\
-    pip install rmtest;\
-    pip install redisgraph;
-
-# Install PEG manually (because there is no Alpine package for it).
-RUN wget https://www.piumarta.com/software/peg/peg-0.1.18.tar.gz;\
-    tar xzf peg-0.1.18.tar.gz;\
-    cd peg-0.1.18;\
-    make; make install
-
-# RUN rm -f /usr/lib/libgomp.a
-
 RUN set -ex && \
+    apk add --no-cache \
+      coreutils \
+      g++ \
+      linux-headers \
+      m4 \
+      make \
+      musl-dev \
+      libc6-compat \
+      git \
+      cmake && \
+    # INSTALL RedisGraph
     mkdir -p /usr/src/redisgraph && \
     cd /usr/src/redisgraph && \
-    git clone --recurse-submodules -j8 https://github.com/RedisGraph/RedisGraph.git && \
+    git clone https://github.com/RedisLabsModules/RedisGraph.git && \
     cd RedisGraph && \
-    git checkout tags/v2.0.11 -b 2.0.11 && \
+    git checkout v1.0.15 && \
     make clean && \
     make && \
-    mkdir -p ${LD_LIBRARY_PATH} && \
-    cp /usr/src/redisgraph/RedisGraph/src/redisgraph.so ${LD_LIBRARY_PATH}/redisgraph.so 
+    mkdir -p "$LD_LIBRARY_PATH" && \
+    cp ./src/redisgraph.so "$LD_LIBRARY_PATH" && \
+    rm -r /usr/src/redisgraph && \
+# CLEANUP
+    apk del git make gcc linux-headers musl-dev cmake m4
 
-# TODO cleanup...
 # END GRAPH
 
 # GEARS
