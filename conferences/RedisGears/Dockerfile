@@ -1,14 +1,23 @@
 # redisuniversity/redisconf-2020-gears
+FROM redislabs/redisgraph:latest as redisgraph
 FROM redislabs/redisgears:latest
 
 # nginx
 RUN set -ex && \
     apt-get install -y supervisor nginx
 
-# sqlite3
+# Gears requirements: sqlite3, vim.
 RUN set -ex && \
-    apt-get install -y sqlite3
-    
+    apt-get install -y sqlite3 vim
+
+# Redis Graph dependencies
+RUN set -ex && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends libgomp1
+
+# Redis Graph
+COPY --from=redisgraph /usr/lib/redis/modules/redisgraph.so /var/opt/redislabs/lib/modules/
+
 # ttyd
 RUN set -ex && \
     apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev && \
