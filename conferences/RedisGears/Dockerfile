@@ -27,6 +27,18 @@ RUN set -ex && \
 # Supervisord config
 ADD supervisord.conf /etc/
 
+# Student user and directories
+RUN groupadd student && \
+    useradd -g student -s /bin/bash -d /home/student -m student && \
+    mkdir -p /src/redisu && \
+    chown student:student /src/redisu
+
+# RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student student && \
+#     mkdir -p /src/redisu && chown student:student /src/redisu && \
+#     echo 'PS1="\W$ "' >> /home/student/.bashrc
+ENV HOME=/home/student
+ADD .bashrc /home/student/.bashrc
+
 EXPOSE 8888
 
 CMD ["supervisord"]
