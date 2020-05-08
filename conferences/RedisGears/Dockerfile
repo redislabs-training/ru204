@@ -5,6 +5,10 @@ FROM redislabs/redisgears:latest
 RUN set -ex && \
     apt-get install -y supervisor nginx
 
+# sqlite3
+RUN set -ex && \
+    apt-get install -y sqlite3
+    
 # ttyd
 RUN set -ex && \
     apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev && \
@@ -21,10 +25,6 @@ RUN set -ex && \
 ADD supervisord.conf /etc/
 
 # nginx setup
-# RUN groupadd nginx && \
-#     useradd -g nginx -m nginx && \
-#     mkdir -p /run/nginx && chown nginx:nginx /run/nginx && \
-#     chown -R nginx:nginx /var/lib/nginx && chown -R nginx:nginx /var/log/nginx
 RUN groupadd nginx && \
     useradd -g nginx -m nginx && \
     mkdir -p /run/nginx && \
