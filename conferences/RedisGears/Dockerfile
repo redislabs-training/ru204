@@ -33,7 +33,6 @@ COPY --from=rebloom ${LIB_SRC_PATH}/redisbloom.so ${LIB_DEST_PATH}/
 # Redis 6
 COPY --from=redis6 /usr/local/bin/redis-server /usr/local/bin/redis6-server
 COPY --from=redis6 /usr/local/bin/redis-cli /usr/local/bin/redis6-cli
-RUN mkdir -p /data/redis6 && chown redis:redis /data/redis6
 
 # ttyd
 RUN set -ex && \
@@ -80,6 +79,13 @@ ADD .logo /home/student/.logo
 # Set permissions
 RUN chown -R student:student /src/redisu
 RUN chown student:student /home/student/.logo
+
+# Redis Data Directories
+RUN set -ex && \
+    mkdir -p /redis5data && \
+    chown redis:redis /redis5data && \
+    mkdir -p /redis6data && \
+    chown redis:redis /redis6data
 
 EXPOSE 8888
 WORKDIR /src/redisu
