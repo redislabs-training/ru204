@@ -1,8 +1,21 @@
 # redisuniversity/redisconf-2020-gears
 FROM redislabs/redisgears:latest
 
+# nginx
 RUN set -ex && \
     apt-get install -y supervisor nginx
+
+# ttyd
+RUN set -ex && \
+    apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev && \
+    cd /tmp && \
+    git clone https://github.com/tsl0922/ttyd.git && \
+    cd ttyd && \
+    mkdir build && \
+    cd build && \
+    cmake .. && \
+    make && \
+    make install
 
 # Course files
 #ADD .logo /home/student/.logo
