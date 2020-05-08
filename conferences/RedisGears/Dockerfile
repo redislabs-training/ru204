@@ -24,9 +24,18 @@ ADD supervisord.conf /etc/
 # RUN groupadd nginx && \
 #     useradd -g nginx -m nginx && \
 #     mkdir -p /run/nginx && chown nginx:nginx /run/nginx && \
-#     rm /etc/nginx/conf.d/default.conf # && \
 #     chown -R nginx:nginx /var/lib/nginx && chown -R nginx:nginx /var/log/nginx
+RUN groupadd nginx && \
+    useradd -g nginx -m nginx && \
+    mkdir -p /run/nginx && \
+    chown nginx:nginx /run/nginx && \
+    chown -R nginx:nginx /var/lib/nginx && \
+    chown -R nginx:nginx /var/log/nginx && \
+    rm /etc/nginx/nginx.conf
+
 ADD entry.html /var/lib/nginx/html/
+ADD nginx.conf /etc/nginx/
+ADD wait-for-it.sh /run
 
 # Student user and directories
 RUN groupadd student && \
@@ -34,9 +43,6 @@ RUN groupadd student && \
     mkdir -p /src/redisu && \
     chown student:student /src/redisu
 
-# RUN addgroup -S student && adduser -G student -s /bin/bash -S -h /home/student student && \
-#     mkdir -p /src/redisu && chown student:student /src/redisu && \
-#     echo 'PS1="\W$ "' >> /home/student/.bashrc
 ENV HOME=/home/student
 ADD .bashrc /home/student/.bashrc
 
