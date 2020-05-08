@@ -1,5 +1,9 @@
 # redisuniversity/redisconf-2020-gears
 FROM redislabs/redisgraph:latest as redisgraph
+FROM redislabs/redistimeseries:latest as redistimeseries
+FROM redislabs/rejson:latest as rejson
+FROM redislabs/rebloom:latest as rebloom
+FROM redislabs/redisearch:1.6.10 as redisearch
 FROM redislabs/redisgears:latest
 
 # nginx
@@ -15,8 +19,15 @@ RUN set -ex && \
     apt-get update && \
     apt-get install -y --no-install-recommends libgomp1
 
-# Redis Graph
-COPY --from=redisgraph /usr/lib/redis/modules/redisgraph.so /var/opt/redislabs/lib/modules/
+# Redis Graph, Search, TimeSeries, JSON and Bloom
+ENV LIB_DEST_PATH /var/opt/redislabs/lib/modules
+ENV LIB_SRC_PATH /usr/lib/redis/modules
+
+COPY --from=redisgraph ${LIB_SRC_PATH}/redisgraph.so ${LIB_DEST_PATH}/
+COPY --from=redisearch ${LIB_SRC_PATH}/redisearch.so ${LIB_DEST_PATH}/
+COPY --from=redistimeseries ${LIB_SRC_PATH}/redistimeseries.so ${LIB_DEST_PATH}/
+COPY --from=rejson ${LIB_SRC_PATH}/rejson.so ${LIB_DEST_PATH}/
+COPY --from=rebloom ${LIB_SRC_PATH}/redisbloom.so ${LIB_DEST_PATH}/
 
 # ttyd
 RUN set -ex && \
