@@ -1,5 +1,6 @@
 # redisuniversity/redisconf-2020-gears
-FROM redislabs/redisgraph:latest as redisgraph
+FROM redis:6.0.1 as redis6
+FROM redislabs/redisgraph:1.99.0 as redisgraph
 FROM redislabs/redistimeseries:latest as redistimeseries
 FROM redislabs/rejson:latest as rejson
 FROM redislabs/rebloom:latest as rebloom
@@ -28,6 +29,11 @@ COPY --from=redisearch ${LIB_SRC_PATH}/redisearch.so ${LIB_DEST_PATH}/
 COPY --from=redistimeseries ${LIB_SRC_PATH}/redistimeseries.so ${LIB_DEST_PATH}/
 COPY --from=rejson ${LIB_SRC_PATH}/rejson.so ${LIB_DEST_PATH}/
 COPY --from=rebloom ${LIB_SRC_PATH}/redisbloom.so ${LIB_DEST_PATH}/
+
+# Redis 6
+COPY --from=redis6 /usr/local/bin/redis-server /usr/local/bin/redis6-server
+COPY --from=redis6 /usr/local/bin/redis-cli /usr/local/bin/redis6-cli
+RUN mkdir -p /data/redis6 && chown redis:redis /data/redis6
 
 # ttyd
 RUN set -ex && \
