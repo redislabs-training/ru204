@@ -31,10 +31,11 @@ COPY --from=rebloom ${LIB_SRC_PATH}/redisbloom.so ${LIB_DEST_PATH}/
 
 # ttyd
 RUN set -ex && \
-    apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev && \
+    apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev pkg-config && \
     cd /tmp && \
     git clone https://github.com/tsl0922/ttyd.git && \
     cd ttyd && \
+    git checkout 1.3.3 -b 1.3.3 && \ 
     mkdir build && \
     cd build && \
     cmake .. && \
@@ -46,11 +47,12 @@ ADD supervisord.conf /etc/
 
 # nginx setup
 RUN groupadd nginx && \
-    useradd -g nginx -m nginx && \
+    useradd -g nginx -m nginx -s /bin/false && \
     mkdir -p /run/nginx && \
     chown nginx:nginx /run/nginx && \
     chown -R nginx:nginx /var/lib/nginx && \
     chown -R nginx:nginx /var/log/nginx && \
+    chmod 777 /run && \
     rm /etc/nginx/nginx.conf
 
 ADD entry.html /var/lib/nginx/html/
