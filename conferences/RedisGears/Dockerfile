@@ -17,13 +17,6 @@ RUN set -ex && \
     make && \
     make install
 
-# Course files
-#ADD .logo /home/student/.logo
-
-# Set permissions
-#RUN chown -R student:student /src/redisu
-#RUN chown    student:student /home/student/.logo
-
 # Supervisord config
 ADD supervisord.conf /etc/
 
@@ -39,10 +32,14 @@ RUN groupadd student && \
 ENV HOME=/home/student
 ADD .bashrc /home/student/.bashrc
 
+# Course files
+ADD .logo /home/student/.logo
+
+# Set permissions
+RUN chown -R student:student /src/redisu
+RUN chown student:student /home/student/.logo
+
 EXPOSE 8888
+WORKDIR /src/redisu
 
 CMD ["supervisord"]
-
-#ENTRYPOINT ["redis-server"]
-#CMD ["--loadmodule", "/var/opt/redislabs/lib/modules/redisgears.so", \
-#    "PythonHomeDir", "/opt/redislabs/lib/modules/python3"]
