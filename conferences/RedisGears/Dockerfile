@@ -20,6 +20,14 @@ RUN set -ex && \
 # Supervisord config
 ADD supervisord.conf /etc/
 
+# nginx setup
+# RUN groupadd nginx && \
+#     useradd -g nginx -m nginx && \
+#     mkdir -p /run/nginx && chown nginx:nginx /run/nginx && \
+#     rm /etc/nginx/conf.d/default.conf # && \
+#     chown -R nginx:nginx /var/lib/nginx && chown -R nginx:nginx /var/log/nginx
+ADD entry.html /var/lib/nginx/html/
+
 # Student user and directories
 RUN groupadd student && \
     useradd -g student -s /bin/bash -d /home/student -m student && \
