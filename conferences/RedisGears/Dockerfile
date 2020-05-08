@@ -2,7 +2,7 @@
 FROM redislabs/redisgears:latest
 
 RUN set -ex && \
-    apt-get install -y supervisor
+    apt-get install -y supervisor nginx
 
 # Course files
 #ADD .logo /home/student/.logo
@@ -13,6 +13,8 @@ RUN set -ex && \
 
 # Supervisord config
 ADD supervisord.conf /etc/
+
+EXPOSE 8888
 
 CMD ["supervisord"]
 
