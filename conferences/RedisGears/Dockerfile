@@ -47,6 +47,24 @@ RUN set -ex && \
     make && \
     make install
 
+# Student user and directories
+RUN groupadd student && \
+    useradd -g student -s /bin/bash -d /home/student -m student && \
+    mkdir -p /src/redisu && \
+    chown student:student /src/redisu
+
+# Orion IDE
+RUN set -ex && \
+    apt-get install -y curl libcurl4-openssl-dev && \
+    cd /tmp && \
+    curl -s -O https://deb.nodesource.com/node_8.x/pool/main/n/nodejs/nodejs_8.9.3-1nodesource1_amd64.deb && \
+    dpkg -i nodejs_8.9.3-1nodesource1_amd64.deb && \
+    BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
+    rm -rf /tmp/* /var/cache/apk/ && \
+    apt-get remove -y curl && \
+    mkdir -p /src/redisu/project && \
+    chown student:student /src/redisu/project
+
 # Supervisord config
 ADD supervisord.conf /etc/
 
@@ -63,12 +81,6 @@ RUN groupadd nginx && \
 ADD entry.html /var/lib/nginx/html/
 ADD nginx.conf /etc/nginx/
 ADD wait-for-it.sh /run
-
-# Student user and directories
-RUN groupadd student && \
-    useradd -g student -s /bin/bash -d /home/student -m student && \
-    mkdir -p /src/redisu && \
-    chown student:student /src/redisu
 
 ENV HOME=/home/student
 ADD .bashrc /home/student/.bashrc
