@@ -47,11 +47,9 @@ RUN set -ex && \
     make && \
     make install
 
-# Student user and directories
-RUN groupadd student && \
-    useradd -g student -s /bin/bash -d /home/student -m student && \
-    mkdir -p /src/redisu && \
-    chown student:student /src/redisu
+# redis user and directories
+RUN mkdir -p /src/redisu && \
+    chown redis:redis /src/redisu
 
 # Orion IDE
 RUN set -ex && \
@@ -63,7 +61,8 @@ RUN set -ex && \
     rm -rf /tmp/* /var/cache/apk/ && \
     apt-get remove -y curl && \
     mkdir -p /src/redisu/project && \
-    chown student:student /src/redisu/project
+    chown redis:redis /src/redisu/project && \
+    chmod 777 /src/redisu/project
 
 # Supervisord config
 ADD supervisord.conf /etc/
@@ -89,8 +88,9 @@ ADD .bashrc /home/student/.bashrc
 ADD .logo /home/student/.logo
 
 # Set permissions
-RUN chown -R student:student /src/redisu
-RUN chown student:student /home/student/.logo
+RUN chown -R redis:redis /src/redisu && \
+    chmod 777 /src/redisu && \
+    chown redis:redis /home/student/.logo
 
 # Redis Data Directories
 RUN set -ex && \
