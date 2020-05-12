@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -f Dockerfile -t redisuniversity/redisconf-2020-gears .
+docker build -f Dockerfile -t redisuniversity/redisconf-2020 .
