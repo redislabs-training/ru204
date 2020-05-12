@@ -1,0 +1,5 @@
+node_modules/
+worker/
+dist/
+.cargo-ok
+package-lock.json
