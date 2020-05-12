@@ -1,1 +1,0 @@
-docker run --rm --name redis1-lab-bloom -p:8888:8888 redisuniversity/redisconf-2020:latest
