@@ -1,83 +1,105 @@
-# redisuniversity/redisconf-2020
+# redisuniversity/redisconf-2020-gears
+FROM redis:6.0.1 as redis6
+FROM redislabs/redisgraph:1.99.0 as redisgraph
 FROM redislabs/redistimeseries:latest as redistimeseries
 FROM redislabs/rejson:latest as rejson
 FROM redislabs/rebloom:latest as rebloom
 FROM redislabs/redisearch:1.6.10 as redisearch
-#FROM redisuniversity/redisgraph-builder:latest as redisgraph
-FROM redisuniversity/virtual-lab-ide6:latest
+FROM redislabs/redisgears:latest
 
-ENV LD_LIBRARY_PATH /usr/lib/redis/modules
-
-# SQLite for Redis Gears demo
-# Commented out as Gears is going to need Ubuntu...
-#RUN apk add --nocache sqlite
-
-# BEGIN GRAPH
-
+# nginx
 RUN set -ex && \
-    apk add --no-cache \
-      coreutils \
-      g++ \
-      linux-headers \
-      m4 \
-      make \
-      musl-dev \
-      libc6-compat \
-      git \
-      cmake && \
-    # INSTALL RedisGraph
-    mkdir -p /usr/src/redisgraph && \
-    cd /usr/src/redisgraph && \
-    git clone https://github.com/RedisLabsModules/RedisGraph.git && \
-    cd RedisGraph && \
-    git checkout v1.0.15 && \
-    make clean && \
+    apt-get install -y supervisor nginx
+
+# Gears requirements: sqlite3, vim.
+RUN set -ex && \
+    apt-get install -y sqlite3 vim
+
+# Redis Graph dependencies
+RUN set -ex && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends libgomp1
+
+# Redis Graph, Search, TimeSeries, JSON and Bloom
+ENV LIB_DEST_PATH /var/opt/redislabs/lib/modules
+ENV LIB_SRC_PATH /usr/lib/redis/modules
+
+COPY --from=redisgraph ${LIB_SRC_PATH}/redisgraph.so ${LIB_DEST_PATH}/
+COPY --from=redisearch ${LIB_SRC_PATH}/redisearch.so ${LIB_DEST_PATH}/
+COPY --from=redistimeseries ${LIB_SRC_PATH}/redistimeseries.so ${LIB_DEST_PATH}/
+COPY --from=rejson ${LIB_SRC_PATH}/rejson.so ${LIB_DEST_PATH}/
+COPY --from=rebloom ${LIB_SRC_PATH}/redisbloom.so ${LIB_DEST_PATH}/
+
+# Redis 6
+COPY --from=redis6 /usr/local/bin/redis-server /usr/local/bin/redis6-server
+COPY --from=redis6 /usr/local/bin/redis-cli /usr/local/bin/redis6-cli
+
+# ttyd
+RUN set -ex && \
+    apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev pkg-config && \
+    cd /tmp && \
+    git clone https://github.com/tsl0922/ttyd.git && \
+    cd ttyd && \
+    git checkout 1.3.3 -b 1.3.3 && \ 
+    mkdir build && \
+    cd build && \
+    cmake .. && \
     make && \
-    mkdir -p "$LD_LIBRARY_PATH" && \
-    cp ./src/redisgraph.so "$LD_LIBRARY_PATH" && \
-    rm -r /usr/src/redisgraph && \
-# CLEANUP
-    apk del git make gcc linux-headers musl-dev cmake m4
+    make install
 
-# END GRAPH
+# redis user and directories
+RUN mkdir -p /src/redisu && \
+    chown redis:redis /src/redisu
 
-# GEARS
-#RUN set -ex && \
-    # mkdir -p /usr/src/redisgears && \
-    # cd /usr/src/redisgears && \
-    # git clone https://github.com/RedisGears/RedisGears.git && \
-    # cd RedisGears && \
-    # git checkout tags/v0.99.1 -b 0.99.1 && \
-    # git submodule update --init --recursive && \
-    # mkdir -p /var/opt/redislabs && \
-    # make setup && \
-    # make fetch && \
-    # make all
+# Orion IDE
+RUN set -ex && \
+    apt-get install -y curl libcurl4-openssl-dev && \
+    cd /tmp && \
+    curl -s -O https://deb.nodesource.com/node_8.x/pool/main/n/nodejs/nodejs_8.9.3-1nodesource1_amd64.deb && \
+    dpkg -i nodejs_8.9.3-1nodesource1_amd64.deb && \
+    BUILD_ONLY=true npm install --production --unsafe-perm -g orion && \
+    rm -rf /tmp/* /var/cache/apk/ && \
+    apt-get remove -y curl && \
+    mkdir -p /src/redisu/project && \
+    chown redis:redis /src/redisu/project && \
+    chmod 777 /src/redisu/project
 
-# END GEARS
+# Supervisord config
+ADD supervisord.conf /etc/
 
-# Install RediSearch
-COPY --from=redisearch ${LD_LIBRARY_PATH}/redisearch.so ${LD_LIBRARY_PATH}/
+# nginx setup
+RUN groupadd nginx && \
+    useradd -g nginx -m nginx -s /bin/false && \
+    mkdir -p /run/nginx && \
+    chown nginx:nginx /run/nginx && \
+    chown -R nginx:nginx /var/lib/nginx && \
+    chown -R nginx:nginx /var/log/nginx && \
+    chmod 777 /run && \
+    rm /etc/nginx/nginx.conf
 
-# Install RedisTimeSeries
-COPY --from=redistimeseries ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
+ADD entry.html /var/lib/nginx/html/
+ADD nginx.conf /etc/nginx/
+ADD wait-for-it.sh /run
 
-# Install RedisJSON
-COPY --from=rejson ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
-
-# Install RedisBloom
-COPY --from=rebloom ${LD_LIBRARY_PATH}/*.so ${LD_LIBRARY_PATH}/
-
-# Install RedisGraph -- COMMENTED OUT AS THIS USES THE BUILDER CONTAINER
-# AND THIS VERSION SEGFAULTS...
-#COPY --from=redisgraph ${LD_LIBRARY_PATH}/redisgraph.so ${LD_LIBRARY_PATH}/
+ENV HOME=/home/student
+ADD .bashrc /home/student/.bashrc
 
 # Course files
 ADD .logo /home/student/.logo
 
 # Set permissions
-RUN chown -R student:student /src/redisu
-RUN chown    student:student /home/student/.logo
+RUN chown -R redis:redis /src/redisu && \
+    chmod 777 /src/redisu && \
+    chown redis:redis /home/student/.logo
 
-# Supervisord config
-ADD supervisord.conf /etc/
+# Redis Data Directories
+RUN set -ex && \
+    mkdir -p /redis5data && \
+    chown redis:redis /redis5data && \
+    mkdir -p /redis6data && \
+    chown redis:redis /redis6data
+
+EXPOSE 8888
+WORKDIR /src/redisu
+
+CMD ["supervisord"]
