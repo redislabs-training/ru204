@@ -12,4 +12,13 @@ fi
 sed 's/$REDIS_VERSION/'$_REDIS_VER'/' Dockerfile.template > Dockerfile.$_REDIS_VER
 echo Building $_REDIS_VER
 
+rm -rf project
+mkdir project
+git clone -b master --single-branch https://github.com/redislabs-training/ru102j.git project
+rm -rf project/.git
+rm -rf solutions
+mkdir solutions
+git clone -b solutions --single-branch https://github.com/redislabs-training/ru102j.git solutions
+rm -rf solutions/.git
+
 docker build -f Dockerfile.$_REDIS_VER -t redisuniversity/ru102j-lab .
