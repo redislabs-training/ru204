@@ -1,0 +1,42 @@
+# redisuniversity/ru102py-lab
+FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+        apk update && \
+        apk upgrade && \
+        apk add --no-cache \
+                coreutils \
+                g++ \
+      linux-headers \
+                make \
+      emacs \
+      ngrep \
+      git && \
+      mkdir -p /usr/src/redistimeseries && \
+      cd /usr/src/redistimeseries/ && \
+      git clone https://github.com/RedisLabsModules/RedisTimeSeries.git && \
+      cd RedisTimeSeries && \
+      git checkout tags/v1.0.0 -b 1.00 && \
+      git submodule init && \
+      git submodule update && \
+      cd src && \
+      make all && \
+      mkdir -p /usr/lib/redis/modules && \
+      cp redistimeseries.so /usr/lib/redis/modules && \
+      mkdir /src/redisu/project && \
+      mkdir /src/redisu/solutions
+
+RUN set -ex && apk add --no-cache nss
+
+# Add a welcome message
+ADD .logo /src/redisu/.logo
+
+# Supervisord tweaks
+ADD supervisord.conf /etc/
+
+ADD .logo /home/student/.logo
+
+RUN chown -R student:student /src/redisu
+RUN chown -R student:student /home/student/.config
