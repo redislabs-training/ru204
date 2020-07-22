@@ -12,4 +12,4 @@ fi
 sed 's/$REDIS_VERSION/'$_REDIS_VER'/' Dockerfile.template > Dockerfile.$_REDIS_VER
 echo Building $_REDIS_VER
 
-docker build -f Dockerfile.$_REDIS_VER $_BUILD_ARGS -t redisuniversity/virtual-lab-ide6only .
+docker build -f Dockerfile.$_REDIS_VER $_BUILD_ARGS -t redisuniversity/virtual-lab-ide6only:$_REDIS_VER .
