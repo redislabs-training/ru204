@@ -36,8 +36,9 @@ RUN set -ex && \
     git checkout v3.8.5 && \
     ./configure --prefix=/usr/local && \
     make install && \
-    update-alternatives --install /usr/bin/python python /usr/local/bin/python3.8 1 && \
     rm -rf /tmp/cpython
+
+RUN update-alternatives --install /usr/bin/python python /usr/local/bin/python3.8 1
 
 RUN set -ex && apk add --no-cache nss
 
@@ -51,6 +52,8 @@ ADD .logo /src/redisu/.logo
 ADD supervisord.conf /etc/
 
 ADD .logo /home/student/.logo
+ADD .bashrc /home/student/.bashrc
 
 RUN chown -R student:student /src/redisu
 RUN chown -R student:student /home/student/.config
+RUN chown -R student:student /home/student/.bashrc
