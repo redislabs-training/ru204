@@ -1,5 +1,5 @@
 # redisuniversity/ru102py-lab
-FROM redisuniversity/virtual-lab-ide:$REDIS_VERSION
+FROM redisuniversity/virtual-lab-ide6only:$REDIS_VERSION
 
 ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
 
@@ -29,6 +29,8 @@ RUN set -ex && \
       mkdir /src/redisu/solutions
 
 RUN set -ex && apk add --no-cache nss
+
+RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.7/main/ nodejs=8.9.3-r1
 
 # Add a welcome message
 ADD .logo /src/redisu/.logo
