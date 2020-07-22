@@ -1,0 +1,1 @@
+docker run --rm --name redis-lab-ide6only -p:8888:8888 redisuniversity/virtual-lab-ide6only:latest
