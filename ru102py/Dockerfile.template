@@ -29,7 +29,7 @@ RUN set -ex && \
       mkdir /src/redisu/solutions
 
 RUN set -ex && \
-    apk add --no-cache zlib-dev && \
+    apk add --no-cache zlib-dev openssl-dev libffi-dev && \
     cd /tmp && \
     git clone https://github.com/python/cpython.git && \
     cd cpython && \
