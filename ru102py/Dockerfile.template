@@ -57,3 +57,6 @@ ADD .bashrc /home/student/.bashrc
 RUN chown -R student:student /src/redisu
 RUN chown -R student:student /home/student/.config
 RUN chown -R student:student /home/student/.bashrc
+
+# Get rid of the base Python file other courses use.
+RUN rm -f /src/redisu/helloworld.py
