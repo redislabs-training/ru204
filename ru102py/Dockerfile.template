@@ -45,18 +45,22 @@ RUN set -ex && apk add --no-cache nss
 # Because Orion needs this.
 RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.7/main/ nodejs=8.9.3-r1
 
-# Add a welcome message
+# Add a welcome message.
 ADD .logo /src/redisu/.logo
 
-# Supervisord tweaks
+# Supervisord tweaks.
 ADD supervisord.conf /etc/
 
 ADD .logo /home/student/.logo
 ADD .bashrc /home/student/.bashrc
 
-RUN chown -R student:student /src/redisu
-RUN chown -R student:student /home/student/.config
-RUN chown -R student:student /home/student/.bashrc
+RUN chown -R student:student /src/redisu && \
+    chown student:student /home/student/.config && \
+    chown student:student /home/student/.bashrc
+
+# Add script to get source code from GitHub.
+ADD get_project_source.sh /home/student/get_project_source.sh
+RUN chown student:student /home/student/get_project_source.sh
 
 # Get rid of the base Python file other courses use.
 RUN rm -f /src/redisu/helloworld.py
