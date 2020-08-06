@@ -23,7 +23,16 @@ docker build -t redislabs/ru201-lab .
 As part of the build process, the contents of the [RU201 GitHub repo](https://github.com/redislabs-training/ru201) will be cloned into the `redisu` folder, which is git ignored.
 
 ### Run
+
+```
+./run.sh
+```
+
+or...
+
+```
 docker run --rm --name redis-lab -p:8888:8888 -v $PWD:/rdb redisuniversity/ru201-lab
+```
 
 ### Tag
 Need to change <version> to align to AVL version number
