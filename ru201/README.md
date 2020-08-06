@@ -40,6 +40,12 @@ docker tag redisuniversity/ru201-lab gcr.io/redis-labs/ru201-lab:<version>
 
 ### Push
 
+```
+./deploy.sh <version>
+```
+
+Or manually...
+
 Push to Docker Hub:
 
 ```
