@@ -45,11 +45,13 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
+    const u = new URL(request.url)
+
     // This is an exception to the static site pages must end with / rule.
-    if (request.url.endsWith('/courses') || request.url.endsWith('/courses/')) {
+    if (u.pathname.endsWith('/courses') || u.pathname.endsWith('/courses/')) {
         // Always redirect /courses to /#courses and serve page
         // from the static site.
-        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses`), 301)
+        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses${u.search}`), 301)
     }
 
     const r = new Router()
