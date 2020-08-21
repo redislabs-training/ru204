@@ -21,5 +21,5 @@ if [[ -z "${GRADE_LOADER_PASSWORD}" ]]; then
 fi
 
 rm -f ~/grades/*.csv
-ls -tr ${GRADE_LOADER_DOWNLOAD}/*grade_report*.csv | tail -5 | xargs -I{} cp {} ${GRADE_LOADER_TMP}
+ls -tr ${GRADE_LOADER_DOWNLOAD}/*grade_report*.csv | tail -7 | xargs -I{} cp {} ${GRADE_LOADER_TMP}
 sh ./grade_loader.sh ${GRADE_LOADER_PASSWORD} ${GRADE_LOADER_TMP}
