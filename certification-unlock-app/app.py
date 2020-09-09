@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import jsonify
 from flask import redirect
 from flask import render_template
 from flask import request
@@ -56,6 +57,10 @@ def before_request():
 def home():
     session.clear()
     return redirect('/login', code=302)
+
+@app.route('/info')
+def info():
+    return jsonify({ 'courseId': courseId })
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
