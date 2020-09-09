@@ -1,5 +1,5 @@
 from flask import Flask
-form flask import jsonify
+from flask import jsonify
 from flask import redirect
 from flask import render_template
 from flask import request
@@ -59,9 +59,9 @@ def home():
     return redirect('/login', code=302)
 
 @app.route('/info')
-def info()
+def info():
     return jsonify({ 'courseId': courseId })
-    
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if (request.method == 'GET'):
