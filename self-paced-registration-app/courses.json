@@ -19,6 +19,10 @@
         {
             "name": "RU202 Redis Streams",
             "id": "course-v1:redislabs+RU202+SP_2019_03"
+        },
+        {
+            "name": "RU330 Redis Security",
+            "id": "course-v1:redislabs+RU330+SP_2020_01"
         }
     ]
 }
