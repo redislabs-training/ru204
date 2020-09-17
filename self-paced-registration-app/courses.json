@@ -13,6 +13,10 @@
             "id": "course-v1:redislabs+RU102JS+SP_2019_05"
         },
         {
+            "name": "RU102PY Redis for Python Developers",
+            "id": "course-v1:redislabs+RU102PY+SP_2020_01"
+        },
+        {
             "name": "RU201 RediSearch",
             "id": "course-v1:redislabs+RU201+SP_2019_01"
         },
