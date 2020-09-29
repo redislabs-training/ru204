@@ -8,7 +8,8 @@ RUN set -ex && \
       linux-headers \
   		make \
   		musl-dev \
-      libc6-compat
+      libc6-compat && \
+			pip3 install --upgrade --no-cache-dir redis==3.5
 
 # RU202 files
 ADD .logo /home/student/.logo
