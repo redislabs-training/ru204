@@ -12,35 +12,8 @@ RUN set -ex && \
 
 # RU202 files
 ADD .logo /home/student/.logo
-ADD src/python/blockingread_sum.py     /src/redisu/ru202/src/python/blockingread_sum.py
-ADD src/python/concurrent_consumers.py /src/redisu/ru202/src/python/concurrent_consumers.py
-ADD src/python/consumer_group.py       /src/redisu/ru202/src/python/consumer_group.py
-ADD src/python/producer_1.py           /src/redisu/ru202/src/python/producer_1.py
-ADD src/python/producer_2.py           /src/redisu/ru202/src/python/producer_2.py
-ADD src/python/range_1.py              /src/redisu/ru202/src/python/range_1.py
-ADD src/python/range_2.py              /src/redisu/ru202/src/python/range_2.py
-ADD src/python/range_3.py              /src/redisu/ru202/src/python/range_3.py
-ADD src/python/range_sum.py            /src/redisu/ru202/src/python/range_sum.py
-ADD src/python/read_sum.py             /src/redisu/ru202/src/python/read_sum.py
-ADD src/python/util/__init__.py        /src/redisu/ru202/src/python/util/__init__.py
-ADD src/python/util/connection.py      /src/redisu/ru202/src/python/util/connection.py
-ADD src/python/util/streams.py         /src/redisu/ru202/src/python/util/streams.py
-ADD src/python/intro/consumer.py       /src/redisu/ru202/src/python/intro/consumer.py
-ADD src/python/intro/producer.py       /src/redisu/ru202/src/python/intro/producer.py
-ADD src/python/intro/consumer-average.py /src/redisu/ru202/src/python/intro/consumer-average.py
-ADD src/python/intro/run-consumers.sh /src/redisu/ru202/src/python/intro/run-consumers.sh
-ADD src/python/intro/stop-consumers.sh /src/redisu/ru202/src/python/intro/stop-consumers.sh
-ADD src/python/week4/partitioned_stream_producer.py	/src/redisu/ru202/src/python/week4/partitioned_stream_producer.py
-ADD src/python/week4/stream_consumers.py	/src/redisu/ru202/src/python/week4/stream_consumers.py
-ADD src/python/week4/util/connection.py	/src/redisu/ru202/src/python/week4/util/connection.py
-ADD src/python/week4/util/constants.py	/src/redisu/ru202/src/python/week4/util/constants.py
-ADD src/python/stream_sorted_set_comparison.py /src/redisu/ru202/src/python/stream_sorted_set_comparison.py
 
 RUN chown -R student:student /src/redisu
-
-# Base rdb files
-#ADD redisu/dumps/ru202.rdb /data/dump.rdb
-#RUN chown redis:redis /data/dump.rdb
 
 # Entry page
 ADD entry.html /var/lib/nginx/html/
