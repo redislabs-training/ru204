@@ -15,7 +15,7 @@ RUN set -ex && \
 ADD .logo /home/student/.logo
 
 # Add the source
-ADD src /src/redisu/ru202
+ADD src /src/redisu/
 
 # Remove spurious file
 RUN rm -f /src/redisu/helloworld.py
