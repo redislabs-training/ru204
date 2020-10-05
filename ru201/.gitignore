@@ -1,3 +1,9 @@
+# Data dump as it is 107mb
+dump/
+
+# redisu as it is populated from the 201 repo now
+redisu/
+
 # Logs
 logs
 *.log

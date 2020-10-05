@@ -15,22 +15,19 @@ function mapURIPattern(router, pattern) {
     const action = (req) => {
         // If there is a . after the last / in url then 
         // this is a file request and we don't redirect it.
-        let redirectWithSlash = false
+        const u = new URL(req.url)
 
-        if (! req.url.endsWith('/')) {
-            // Only consider static URLs for redirect to / 
-            // version.  But not those that are file requests...
-            // File requests have a . in the path.
-            const u = new URL(req.url)
-            if (u.pathname.indexOf('.') === -1) {
-                redirectWithSlash = true
+        if (! u.pathname.endsWith('/')) {
+            // If there is no . after the last slash in the 
+            // path then redirect to a version of this URL
+            // with a slash on the end of the path, and account
+            // for request parameters.
+            if (! (u.pathname.lastIndexOf('.') >= u.pathname.lastIndexOf('/'))) {
+                return Response.redirect(`${u.protocol}//${u.hostname}${u.pathname}/${u.search}`)
             }
         }
 
-        if (redirectWithSlash) {
-            return Response.redirect(new URL(`${req.url}/`), 301)
-        }    
-
+        // Otherwise get the page from the static site origin.
         return fetch(modifyRequest(req))
     }
 
@@ -48,11 +45,13 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
+    const u = new URL(request.url)
+
     // This is an exception to the static site pages must end with / rule.
-    if (request.url.endsWith('/courses') || request.url.endsWith('/courses/')) {
+    if (u.pathname.endsWith('/courses') || u.pathname.endsWith('/courses/')) {
         // Always redirect /courses to /#courses and serve page
         // from the static site.
-        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses`), 301)
+        return await Response.redirect(new URL(`https://${TAHOE_HOST}/#courses${u.search}`), 301)
     }
 
     const r = new Router()

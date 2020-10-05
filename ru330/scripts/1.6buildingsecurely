@@ -1,0 +1,31 @@
+#!/bin/bash
+sudo apt update -y
+sudo apt install build-essential tcl -y
+sudo apt install tcl-tls -y
+sudo apt install redis-tools -y
+sudo apt install libssl-dev -y
+sudo adduser --system --group --no-create-home redis
+sudo mkdir /var/lib/redis
+sudo chown redis:redis /var/lib/redis
+sudo chmod 770 /var/lib/redis
+sudo mkdir /var/log/redis
+sudo touch /var/log/redis/redis.log
+sudo chmod 770 /var/log/redis/
+sudo chmod 640 /var/log/redis/redis.log
+sudo chown redis:redis /var/log/redis/
+sudo chown redis:redis /var/log/redis/redis.log
+apt install wget -y
+cd /tmp
+wget http://download.redis.io/releases/redis-6.0.5.tar.gz
+sha256sum redis-6.0.5.tar.gz
+tar -xzvf redis-6.0.5.tar.gz
+./cd redis-6.0.5
+BUILD_TLS=yes sudo make install
+sudo mkdir /etc/redis
+sudo cp redis.conf 
+/etc/redis
+sudo chown -R redis:redis /etc/redis
+sudo chmod 640 /etc/redis/redis.conf
+/usr/local/bin/redis-server /etc/redis/redis.conf &
+redis-cli
+ping

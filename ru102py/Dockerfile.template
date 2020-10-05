@@ -1,0 +1,66 @@
+# redisuniversity/ru102py-lab
+FROM redisuniversity/virtual-lab-ide6only:$REDIS_VERSION
+
+ENV LD_LIBRARY_PATH /usr/lib/redis/modules/
+
+RUN set -ex && \
+        apk update && \
+        apk upgrade && \
+        apk add --no-cache \
+                coreutils \
+                g++ \
+      linux-headers \
+                make \
+      emacs \
+      ngrep \
+      git && \
+      mkdir -p /usr/src/redistimeseries && \
+      cd /usr/src/redistimeseries/ && \
+      git clone https://github.com/RedisLabsModules/RedisTimeSeries.git && \
+      cd RedisTimeSeries && \
+      git checkout tags/v1.0.0 -b 1.00 && \
+      git submodule init && \
+      git submodule update && \
+      cd src && \
+      make all && \
+      mkdir -p /usr/lib/redis/modules && \
+      cp redistimeseries.so /usr/lib/redis/modules && \
+      mkdir /src/redisu/project && \
+      mkdir /src/redisu/solutions
+
+RUN set -ex && \
+    apk add --no-cache zlib-dev openssl-dev libffi-dev && \
+    cd /tmp && \
+    git clone https://github.com/python/cpython.git && \
+    cd cpython && \
+    git checkout v3.8.5 && \
+    ./configure --prefix=/usr/local && \
+    make install && \
+    rm -rf /tmp/cpython
+
+RUN update-alternatives --install /usr/bin/python python /usr/local/bin/python3.8 1
+
+RUN set -ex && apk add --no-cache nss
+
+# Because Orion needs this.
+RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.7/main/ nodejs=8.9.3-r1
+
+# Add a welcome message.
+ADD .logo /src/redisu/.logo
+
+# Supervisord tweaks.
+ADD supervisord.conf /etc/
+
+ADD .logo /home/student/.logo
+ADD .bashrc /home/student/.bashrc
+
+RUN chown -R student:student /src/redisu && \
+    chown student:student /home/student/.config && \
+    chown student:student /home/student/.bashrc
+
+# Add script to get source code from GitHub.
+ADD get_project_source.sh /home/student/get_project_source.sh
+RUN chown student:student /home/student/get_project_source.sh
+
+# Get rid of the base Python file other courses use.
+RUN rm -f /src/redisu/helloworld.py

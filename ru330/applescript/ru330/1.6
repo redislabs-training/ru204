@@ -1,0 +1,9 @@
+-- when running ensure you are already sshed into a remote server running bionic when running.
+-- This script is not designed for running on your macbook.
+
+tell application "Terminal"
+	tell script "Typist"
+		execSetup()
+		execCmd("sudo apt update -y", 2, true, true)
+	end tell
+end tell

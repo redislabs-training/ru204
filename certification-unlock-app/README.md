@@ -20,8 +20,8 @@ To get the application running on your local machine you'll want to clone the re
 ```
 $ cd certification-unlock-app
 $ python3 -m venv venv
+$ . venv/bin/activate
 $ pip3 install -r requirements.txt
-
 ```
 
 ## Configuration
@@ -62,6 +62,26 @@ https://redislabs-university.appspot.com/
 ```
 
 and is the `default` service in AppEngine in the Google Cloud project.  This should be considered "production".  If you need to deploy it with staging configuration, you should configure both the staging credentials in `app.yaml` and also add a service name (see next section).
+
+## Post Deployment Checks
+
+Check that your deployment happened by making a `GET` request to `/info` which returns a JSON document containing the value of the `APPSEMBLER_COURSE_ID` environment variable.
+
+Ensure that this value matches the version of the certification exam run on Appsembler that you want to unlock.
+
+Note that it can take some time (many minutes) for AppEngine to fully update even after the `gcloud` command indicates that a deployment was completed.
+
+```
+https://redislabs-university.appspot.com/info
+```
+
+Example response:
+
+```
+{
+  "courseId": "course-v1:redisu-staging+CERT-TEST+2019-01"
+}
+```
 
 ### Editing app.yaml
 

@@ -34,12 +34,7 @@ RUN set -ex && \
 
 # RU201 files
 ADD .logo /home/student/.logo
-ADD redisu/data/General_Building_Permits.csv /src/redisu/ru201/data/General_Building_Permits.csv
-ADD redisu/data/README.md /src/redisu/ru201/data/README.md
-ADD redisu/data/index.js /src/redisu/ru201/data/index.js
-ADD redisu/data/package-lock.json /src/redisu/ru201/data/package-lock.json
-ADD redisu/data/package.json /src/redisu/ru201/data/package.json
-ADD redisu/data/connection.json /src/redisu/ru201/data/connection.json
+ADD redisu /src/redisu/ru201
 
 # Install Node (for data ingest)
 WORKDIR /src/redisu/ru201/data
@@ -58,7 +53,7 @@ RUN chown -R student:student /src/redisu
 RUN chown    student:student /home/student/.logo
 
 # Base rdb files
-ADD redisu/dumps/ru201.rdb /data/dump.rdb
+ADD dump/ru201.rdb /data/dump.rdb
 RUN chown redis:redis /data/dump.rdb
 
 # Supervisord config
