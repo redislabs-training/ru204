@@ -1,5 +1,14 @@
 # Analytics
 
+## Setup
+Use Python 3 and a virtual environment:
+
+```
+$ python3 -m venv venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
+```
+
 ## grade_loader.py / grade_loader.sh
 This utility is used to take a CSV file generated for a given course & run and load this into RedShift.
 
@@ -23,4 +32,4 @@ e.g.
 
 
 ### redshift-laoder.py
-Thsi is used to take the CSV fiel provided by Appsembler for course enrollments to upload into RedShift. This is no longer required, since the registration and enrollment events are now fed directly (via Segment) into the LMS.
+This is used to take the CSV file provided by Appsembler for course enrollments to upload into RedShift. This is no longer required, since the registration and enrollment events are now fed directly (via Segment) into the LMS.
