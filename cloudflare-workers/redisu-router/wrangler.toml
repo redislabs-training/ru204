@@ -25,6 +25,7 @@ routes = [
     "stage-university.redislabs.com/courses/ru330*",
     "stage-university.redislabs.com/courses/ru201*",
     "stage-university.redislabs.com/courses/ru202*",
+    "stage-university.redislabs.com/courses/ru203*",
 ]
 
 vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
@@ -33,7 +34,7 @@ vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs
 name = "redisu-router"
 
 # These are the URL paths that the static site should be
-# served for in stage.
+# served for in production.
 routes = [
     "university.redislabs.com/",
     "university.redislabs.com/site.webmanifest",
@@ -52,6 +53,7 @@ routes = [
     "university.redislabs.com/courses/ru330*",
     "university.redislabs.com/courses/ru201*",
     "university.redislabs.com/courses/ru202*",
+    "university.redislabs.com/courses/ru203*",
 ]
 
 vars = { TAHOE_HOST = "university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod" }
