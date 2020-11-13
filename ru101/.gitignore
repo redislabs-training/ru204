@@ -1,2 +1,7 @@
 Dockerfile.[0-9].*
-ru101.zip
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*.log
+redisu/
