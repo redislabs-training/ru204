@@ -3,7 +3,7 @@
 if [ $# -eq 0 ]
   then
     echo "Please provide a version number. Example: "
-    echo "  ./tag.sh 5"
+    echo "  ./deploy.sh 5"
     exit 1
 fi
 
