@@ -8,7 +8,7 @@ from webargs.flaskparser import use_args
     "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
     "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
-    "password": fields.Str(required = True), # length and complexity requirements
+    "password": fields.Str(required = True, validate = validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})")),
     "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "state": fields.Str(), # optional, ideally depends on country value, length requirements
     "province": fields.Str(), # optional, ideally depends on country value, length requirements
