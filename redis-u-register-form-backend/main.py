@@ -1,6 +1,13 @@
 from webargs import fields, validate
 from webargs.flaskparser import use_args
 
+COUNTRY_FIELD = "country"
+STATE_FIELD = "state"
+PROVINCE_FIELD = "province"
+COUNTRY_USA = "United States of America"
+COUNTRY_CANADA = "Canada"
+UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
+
 @use_args({
     "email": fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
     "firstName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
@@ -10,15 +17,27 @@ from webargs.flaskparser import use_args
     "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
     "password": fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
     "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    "state": fields.Str(), # optional, ideally depends on country value, length requirements
-    "province": fields.Str(), # optional, ideally depends on country value, length requirements
+    STATE_FIELD: fields.Str(),
+    PROVINCE_FIELD: fields.Str(),
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True))
 })
 def register_form_processor(request, args):
     if (request.method != "POST" or not request.is_json):
-        return "Bad Request!"
+        return "Bad Request!", 400
+    
     data = request.json
+
+    if (data[COUNTRY_FIELD] == COUNTRY_USA):
+        if (STATE_FIELD not in data):
+            return UNPROCESSABLE_ENTITY_MESSAGE, 422
+    elif (data[COUNTRY_FIELD] == COUNTRY_CANADA):
+        if (PROVINCE_FIELD not in data):
+            return UNPROCESSABLE_ENTITY_MESSAGE, 422
+    else:
+        if (STATE_FIELD in data or PROVINCE_FIELD in data):
+            return UNPROCESSABLE_ENTITY_MESSAGE, 422
+
     print(data)
 
 
-    return "TODO"
+    return "Thanks!"
