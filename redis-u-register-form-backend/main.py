@@ -5,13 +5,13 @@ from webargs.flaskparser import use_args
     "email": fields.Str(required = True, validate = validate.Email()),
     "firstName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "lastName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    "jobFunction": fields.Str(required = True), # length requirements
-    "company": fields.Str(required = True), # length requirements
-    "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)), # length requirements
+    "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+    "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
+    "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
     "password": fields.Str(required = True), # length and complexity requirements
-    "country": fields.Str(required = True), # length requirements
-    "state": fields.Str(), # optional, ideally depends on country value
-    "province": fields.Str(), # optional, ideally depends on country value
+    "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+    "state": fields.Str(), # optional, ideally depends on country value, length requirements
+    "province": fields.Str(), # optional, ideally depends on country value, length requirements
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True))
 })
 def register_form_processor(request, args):
