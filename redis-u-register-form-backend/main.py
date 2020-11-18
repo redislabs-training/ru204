@@ -15,6 +15,12 @@ UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
 APPSEMBLER_API_KEY = os.environ.get("APPSEMBLER_API_KEY")
 APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
+def call_appsembler_api(endpoint, data):
+    # TODO actually call the API...
+    print(f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/")
+    print(data)
+
+
 @use_args({
     "email": fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
     "firstName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
@@ -50,13 +56,12 @@ def register_form_processor(request, args):
     # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
     # TODO can we determine if it is the username or the email?
     print("Need to register the user...")
-
-    print(f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/registrations/")
+    call_appsembler_api("registrations", data)
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
     if (COURSE_ID_FIELD in data):
         print("Need to enroll the user too!")
-        print(f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/enrollments/")
+        call_appsembler_api("enrollments", data)
         # TODO
 
     return "OK"
