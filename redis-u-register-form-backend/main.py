@@ -17,8 +17,8 @@ UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
     "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
     "password": fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
     "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    STATE_FIELD: fields.Str(),
-    PROVINCE_FIELD: fields.Str(),
+    STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
+    PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True))
 })
 def register_form_processor(request, args):
