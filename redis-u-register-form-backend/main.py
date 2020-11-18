@@ -2,13 +2,13 @@ from webargs import fields, validate
 from webargs.flaskparser import use_args
 
 @use_args({
-    "email": fields.Str(required = True, validate = validate.Email()),
+    "email": fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
     "firstName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "lastName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
     "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
-    "password": fields.Str(required = True, validate = validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})")),
+    "password": fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
     "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "state": fields.Str(), # optional, ideally depends on country value, length requirements
     "province": fields.Str(), # optional, ideally depends on country value, length requirements
