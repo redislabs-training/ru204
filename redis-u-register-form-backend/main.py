@@ -7,6 +7,7 @@ import requests
 COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
 PROVINCE_FIELD = "province"
+COURSE_ID_FIELD = "courseId"
 COUNTRY_USA = "United States of America"
 COUNTRY_CANADA = "Canada"
 UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
@@ -23,7 +24,7 @@ UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
     STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
-    "courseId": fields.Str(validate = validate.Length(min = 1, max = 120))
+    COURSE_ID_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120))
 })
 def register_form_processor(request, args):
     if (request.method != "POST" or not request.is_json):
@@ -45,5 +46,11 @@ def register_form_processor(request, args):
 
     # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
     # TODO can we determine if it is the username or the email?
+    print("Need to register the user...")
+
+    # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
+    if (COURSE_ID_FIELD in data):
+        print("Need to enroll the user too!")
+        # TODO
 
     return "OK"
