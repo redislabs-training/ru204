@@ -1,6 +1,9 @@
 from webargs import fields, validate
 from webargs.flaskparser import use_args
 
+import os
+import requests
+
 COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
 PROVINCE_FIELD = "province"
@@ -19,7 +22,8 @@ UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
     "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
-    "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True))
+    "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
+    "courseId": fields.Str(validate = validate.Length(min = 1, max = 120))
 })
 def register_form_processor(request, args):
     if (request.method != "POST" or not request.is_json):
@@ -39,5 +43,7 @@ def register_form_processor(request, args):
 
     print(data)
 
+    # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
+    # TODO can we determine if it is the username or the email?
 
-    return "Thanks!"
+    return "OK"
