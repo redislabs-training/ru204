@@ -4,6 +4,11 @@ from webargs.flaskparser import use_args
 import os
 import requests
 
+EMAIL_FIELD = "email"
+FIRST_NAME_FIELD = "firstName"
+LAST_NAME_FIELD = "lastName"
+USERNAME_FIELD = "userName"
+PASSWORD_FIELD = "password"
 COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
 PROVINCE_FIELD = "province"
@@ -15,21 +20,34 @@ UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
 APPSEMBLER_API_KEY = os.environ.get("APPSEMBLER_API_KEY")
 APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
+SEGMENT_WRITE_KEY = os.environ.get("SEGMENT_WRITE_KEY")
+
 def call_appsembler_api(endpoint, data):
-    # TODO actually call the API...
-    print(f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/")
+    api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
+
+    print(api_endpoint)
     print(data)
+
+    # return requests.post(
+    #     api_endpoint,
+    #     json = data,
+    #     headers = { 
+    #         "Authorization": f"Token {APPSEMBLER_API_KEY}",
+    #         "Content-Type": "application/json",
+    #         "Cache-Control": "no-cache"
+    #     }
+    # )
 
 
 @use_args({
-    "email": fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
-    "firstName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    "lastName": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+    EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
+    FIRST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+    LAST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
-    "userName": fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
-    "password": fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
-    "country": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+    USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
+    PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
+    COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
     STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
@@ -56,12 +74,32 @@ def register_form_processor(request, args):
     # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
     # TODO can we determine if it is the username or the email?
     print("Need to register the user...")
-    call_appsembler_api("registrations", data)
+    response = call_appsembler_api("registrations", {
+        "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
+        "username": data[USERNAME_FIELD],
+        "email": data[EMAIL_FIELD],
+        "password": data[PASSWORD_FIELD]
+    })
+
+    # TODO check what happened... response.status_code
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
     if (COURSE_ID_FIELD in data):
         print("Need to enroll the user too!")
-        call_appsembler_api("enrollments", data)
-        # TODO
+
+        identifiers = []
+        identifiers.append(data[EMAIL_FIELD])
+        courses = []
+        courses.append(data[COURSE_ID_FIELD])
+
+        response = call_appsembler_api("enrollments", {
+            "action": "enroll",
+            "email_learners": True,
+            "auto_enroll": True,
+            "courses": courses,
+            "identifiers": identifiers
+        })
+
+        # TODO check what happened... response.status_code
 
     return "OK"
