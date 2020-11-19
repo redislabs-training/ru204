@@ -17,8 +17,11 @@ COURSE_ID_FIELD = "courseId"
 COUNTRY_USA = "United States of America"
 COUNTRY_CANADA = "Canada"
 
+OK_CODE = 200
+CREATED_CODE = 201
 BAD_REQUEST_MESSAGE = 'Bad Request!'
 BAD_REQUEST_CODE = 400
+CONFLICT_CODE = 409
 UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
 UNPROCESSABLE_ENTITY_CODE = 422
 
@@ -80,6 +83,9 @@ def register_form_processor(request):
         if STATE_FIELD in data or PROVINCE_FIELD in data:
             return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
 
+    if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
+        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
+
     print(data)
 
     # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
@@ -91,6 +97,12 @@ def register_form_processor(request):
         "email": data[EMAIL_FIELD],
         "password": data[PASSWORD_FIELD]
     })
+
+    if response.status_code == CONFLICT_CODE:
+        # TODO error about email or username... try calling the api and see if we can distinguish
+        return "SOMETHING", CONFLICT_CODE
+    elif not response.status_code == OK_CODE:
+        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE
 
     # TODO check what happened... response.status_code
 
@@ -112,7 +124,10 @@ def register_form_processor(request):
         })
 
         # TODO check what happened... response.status_code
+        # Note no 200 as this relates to unenroll only
+        # 201 is ok CREATED_CODE
+        # 400 bad request
+        # 401 unauthorized
+        # 403 forbidden
 
-    return "OK", 200, {
-        "Access-Control-Allow-Origin": "*"
-    }
+    return "OK", OK_CODE
