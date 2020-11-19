@@ -1,6 +1,7 @@
 from webargs import fields, validate
 from webargs.flaskparser import use_args
 
+import analytics
 import os
 import requests
 
@@ -15,12 +16,18 @@ PROVINCE_FIELD = "province"
 COURSE_ID_FIELD = "courseId"
 COUNTRY_USA = "United States of America"
 COUNTRY_CANADA = "Canada"
+
+BAD_REQUEST_MESSAGE = 'Bad Request!'
+BAD_REQUEST_CODE = 400
 UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
+UNPROCESSABLE_ENTITY_CODE = 422
 
 APPSEMBLER_API_KEY = os.environ.get("APPSEMBLER_API_KEY")
 APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
-SEGMENT_WRITE_KEY = os.environ.get("SEGMENT_WRITE_KEY")
+
+
+analytics.write_key = os.environ.get("SEGMENT_WRITE_KEY")
 
 def call_appsembler_api(endpoint, data):
     api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
@@ -53,21 +60,30 @@ def call_appsembler_api(endpoint, data):
     "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
     COURSE_ID_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120))
 })
+
 def register_form_processor(request, args):
-    if (request.method != "POST" or not request.is_json):
-        return "Bad Request!", 400
+    if request.method == "OPTIONS":
+        return "", 204, {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "POST",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Max-Age": "3600"
+        }
+
+    if request.method != "POST" or not request.is_json:
+        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE
     
     data = request.json
 
-    if (data[COUNTRY_FIELD] == COUNTRY_USA):
-        if (STATE_FIELD not in data):
-            return UNPROCESSABLE_ENTITY_MESSAGE, 422
-    elif (data[COUNTRY_FIELD] == COUNTRY_CANADA):
-        if (PROVINCE_FIELD not in data):
-            return UNPROCESSABLE_ENTITY_MESSAGE, 422
+    if data[COUNTRY_FIELD] == COUNTRY_USA:
+        if STATE_FIELD not in data:
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
+    elif data[COUNTRY_FIELD] == COUNTRY_CANADA:
+        if PROVINCE_FIELD not in data:
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
     else:
-        if (STATE_FIELD in data or PROVINCE_FIELD in data):
-            return UNPROCESSABLE_ENTITY_MESSAGE, 422
+        if STATE_FIELD in data or PROVINCE_FIELD in data:
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
 
     print(data)
 
@@ -84,7 +100,7 @@ def register_form_processor(request, args):
     # TODO check what happened... response.status_code
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
-    if (COURSE_ID_FIELD in data):
+    if COURSE_ID_FIELD in data:
         print("Need to enroll the user too!")
 
         identifiers = []
@@ -102,4 +118,6 @@ def register_form_processor(request, args):
 
         # TODO check what happened... response.status_code
 
-    return "OK"
+    return "OK", 200, {
+        "Access-Control-Allow-Origin": "*"
+    }
