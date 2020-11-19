@@ -30,21 +30,28 @@ APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
 analytics.write_key = os.environ.get("SEGMENT_WRITE_KEY")
 
+cors_headers = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST",
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Max-Age": "3600"
+}
+
 def call_appsembler_api(endpoint, data):
     api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
 
     print(api_endpoint)
     print(data)
 
-    # return requests.post(
-    #     api_endpoint,
-    #     json = data,
-    #     headers = { 
-    #         "Authorization": f"Token {APPSEMBLER_API_KEY}",
-    #         "Content-Type": "application/json",
-    #         "Cache-Control": "no-cache"
-    #     }
-    # )
+    return requests.post(
+        api_endpoint,
+        json = data,
+        headers = { 
+            "Authorization": f"Token {APPSEMBLER_API_KEY}",
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache"
+        }
+    )
 
 def register_form_processor(request):
     if request.method == "OPTIONS":
@@ -75,41 +82,37 @@ def register_form_processor(request):
 
     if data[COUNTRY_FIELD] == COUNTRY_USA:
         if STATE_FIELD not in data:
-            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
     elif data[COUNTRY_FIELD] == COUNTRY_CANADA:
         if PROVINCE_FIELD not in data:
-            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
     else:
         if STATE_FIELD in data or PROVINCE_FIELD in data:
-            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
+            return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
     if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
-        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE
-
-    print(data)
+        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
     # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
-    # TODO can we determine if it is the username or the email?
-    print("Need to register the user...")
     response = call_appsembler_api("registrations", {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
         "username": data[USERNAME_FIELD],
         "email": data[EMAIL_FIELD],
-        "password": data[PASSWORD_FIELD]
+        "password": data[PASSWORD_FIELD],
+        "send_activation_email": True
     })
 
     if response.status_code == CONFLICT_CODE:
-        # TODO error about email or username... try calling the api and see if we can distinguish
-        return "SOMETHING", CONFLICT_CODE
+        return "User already exists", CONFLICT_CODE, cors_headers
     elif not response.status_code == OK_CODE:
-        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE
+        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
 
-    # TODO check what happened... response.status_code
+    # We are done unless they also wanted to enroll in a course.
+    if not COURSE_ID_FIELD in data:
+        return "OK", OK_CODE, cors_headers
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
     if COURSE_ID_FIELD in data:
-        print("Need to enroll the user too!")
-
         identifiers = []
         identifiers.append(data[EMAIL_FIELD])
         courses = []
@@ -123,11 +126,9 @@ def register_form_processor(request):
             "identifiers": identifiers
         })
 
-        # TODO check what happened... response.status_code
-        # Note no 200 as this relates to unenroll only
-        # 201 is ok CREATED_CODE
-        # 400 bad request
-        # 401 unauthorized
-        # 403 forbidden
+        if response.status_code == CREATED_CODE:
+            return "OK", cors_headers
+        
+        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
 
-    return "OK", OK_CODE
+    return "OK", cors_headers
