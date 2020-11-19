@@ -1,5 +1,5 @@
 from webargs import fields, validate
-from webargs.flaskparser import use_args
+from webargs.flaskparser import parser
 
 import analytics
 import os
@@ -25,8 +25,6 @@ UNPROCESSABLE_ENTITY_CODE = 422
 APPSEMBLER_API_KEY = os.environ.get("APPSEMBLER_API_KEY")
 APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
-
-
 analytics.write_key = os.environ.get("SEGMENT_WRITE_KEY")
 
 def call_appsembler_api(endpoint, data):
@@ -45,23 +43,7 @@ def call_appsembler_api(endpoint, data):
     #     }
     # )
 
-
-@use_args({
-    EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
-    FIRST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    LAST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
-    USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
-    PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
-    COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-    STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
-    PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
-    "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
-    COURSE_ID_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120))
-})
-
-def register_form_processor(request, args):
+def register_form_processor(request):
     if request.method == "OPTIONS":
         return "", 204, {
             "Access-Control-Allow-Origin": "*",
@@ -73,7 +55,20 @@ def register_form_processor(request, args):
     if request.method != "POST" or not request.is_json:
         return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE
     
-    data = request.json
+    data = parser.parse({
+        EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
+        FIRST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+        LAST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+        "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+        "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
+        USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
+        PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
+        COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+        STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
+        PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
+        "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
+        COURSE_ID_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120))
+    }, request)
 
     if data[COUNTRY_FIELD] == COUNTRY_USA:
         if STATE_FIELD not in data:
