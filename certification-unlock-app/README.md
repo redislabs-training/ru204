@@ -21,7 +21,7 @@ To get the application running on your local machine you'll want to clone the re
 $ cd certification-unlock-app
 $ python3 -m venv venv
 $ . venv/bin/activate
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Configuration
