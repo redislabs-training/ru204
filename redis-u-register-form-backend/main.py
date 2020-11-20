@@ -53,7 +53,7 @@ def call_appsembler_api(endpoint, data):
         }
     )
 
-def register_form_processor(request):
+def register_form_processor(request):    
     if request.method == "OPTIONS":
         return "", 204, {
             "Access-Control-Allow-Origin": "*",
@@ -63,7 +63,7 @@ def register_form_processor(request):
         }
 
     if request.method != "POST" or not request.is_json:
-        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE
+        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
     
     data = parser.parse({
         EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
