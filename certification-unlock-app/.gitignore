@@ -1,2 +1,7 @@
 venv/
 app.yaml
+.DS_Store
+*.tmp
+*.swp
+*.log
+*.bak
