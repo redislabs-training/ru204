@@ -53,7 +53,7 @@ def call_appsembler_api(endpoint, data):
         }
     )
 
-def register_form_processor(request):    
+def register_form_processor(request):  
     if request.method == "OPTIONS":
         return "", 204, {
             "Access-Control-Allow-Origin": "*",
@@ -105,6 +105,7 @@ def register_form_processor(request):
     if response.status_code == CONFLICT_CODE:
         return "User already exists", CONFLICT_CODE, cors_headers
     elif not response.status_code == OK_CODE:
+        # TODO customize the message here...
         return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
 
     # We are done unless they also wanted to enroll in a course.
@@ -120,7 +121,6 @@ def register_form_processor(request):
 
         response = call_appsembler_api("enrollments", {
             "action": "enroll",
-            "email_learners": True,
             "auto_enroll": True,
             "courses": courses,
             "identifiers": identifiers
@@ -129,6 +129,7 @@ def register_form_processor(request):
         if response.status_code == CREATED_CODE:
             return "OK", cors_headers
         
+        # TODO customize the message here
         return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
 
     return "OK", cors_headers
