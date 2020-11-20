@@ -19,9 +19,9 @@ COUNTRY_CANADA = "Canada"
 
 OK_CODE = 200
 CREATED_CODE = 201
-BAD_REQUEST_MESSAGE = 'Bad Request!'
 BAD_REQUEST_CODE = 400
 CONFLICT_CODE = 409
+OK_MESSAGE = "OK"
 UNPROCESSABLE_ENTITY_MESSAGE = "Unprocessable Entity!"
 UNPROCESSABLE_ENTITY_CODE = 422
 
@@ -53,17 +53,13 @@ def call_appsembler_api(endpoint, data):
         }
     )
 
-def register_form_processor(request):  
+def register_form_processor(request): 
+     
     if request.method == "OPTIONS":
-        return "", 204, {
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "POST",
-            "Access-Control-Allow-Headers": "*",
-            "Access-Control-Max-Age": "3600"
-        }
+        return "", 204, cors_headers
 
     if request.method != "POST" or not request.is_json:
-        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
+        return "Bad request!", BAD_REQUEST_CODE, cors_headers
     
     data = parser.parse({
         EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
@@ -93,24 +89,25 @@ def register_form_processor(request):
     if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
         return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
-    # Call Appsembler registration API.... 200 = OK, 400 = return 400, 409 = username or email taken...
     response = call_appsembler_api("registrations", {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
         "username": data[USERNAME_FIELD],
-        "email": data[EMAIL_FIELD],
-        "password": data[PASSWORD_FIELD],
-        "send_activation_email": True
+        "email": data[EMAIL_FIELD] #,
+        # Remove these due to butf in Appsembler API that accidentally activates the user.
+        #"password": data[PASSWORD_FIELD],
+        #"send_activation_email": True
     })
 
     if response.status_code == CONFLICT_CODE:
-        return "User already exists", CONFLICT_CODE, cors_headers
+        return "User already exists.", CONFLICT_CODE, cors_headers
+    elif response.status_code == UNPROCESSABLE_ENTITY_CODE:
+        return "Bad data in one or more registration data fields.", UNPROCESSABLE_ENTITY_CODE, cors_headers
     elif not response.status_code == OK_CODE:
-        # TODO customize the message here...
-        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
+        return "Error processing student registration.", BAD_REQUEST_CODE, cors_headers
 
     # We are done unless they also wanted to enroll in a course.
     if not COURSE_ID_FIELD in data:
-        return "OK", OK_CODE, cors_headers
+        return OK_MESSAGE, OK_CODE, cors_headers
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
     if COURSE_ID_FIELD in data:
@@ -127,9 +124,8 @@ def register_form_processor(request):
         })
 
         if response.status_code == CREATED_CODE:
-            return "OK", cors_headers
+            return OK_MESSAGE, cors_headers
         
-        # TODO customize the message here
-        return BAD_REQUEST_MESSAGE, BAD_REQUEST_CODE, cors_headers
+        return "Error with course enrollment.", BAD_REQUEST_CODE, cors_headers
 
-    return "OK", cors_headers
+    return OK_MESSAGE, cors_headers
