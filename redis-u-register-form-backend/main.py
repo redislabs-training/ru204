@@ -40,9 +40,6 @@ cors_headers = {
 def call_appsembler_api(endpoint, data):
     api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
 
-    print(api_endpoint)
-    print(data)
-
     return requests.post(
         api_endpoint,
         json = data,
@@ -68,7 +65,7 @@ def register_form_processor(request):
         "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
         USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
-        PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
+        # PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
         COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
         PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
@@ -86,27 +83,33 @@ def register_form_processor(request):
         if STATE_FIELD in data or PROVINCE_FIELD in data:
             return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
-    if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
-        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
+    # if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
+    #     return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
+
+    print(f"Registering user: {data[USERNAME_FIELD]}")
 
     response = call_appsembler_api("registrations", {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
         "username": data[USERNAME_FIELD],
-        "email": data[EMAIL_FIELD] #,
-        # Remove these due to butf in Appsembler API that accidentally activates the user.
+        "email": data[EMAIL_FIELD]#,
+        # Remove this due to bug in Appsembler API that accidentally activates the user.
         #"password": data[PASSWORD_FIELD],
         #"send_activation_email": True
     })
 
     if response.status_code == CONFLICT_CODE:
+        print(f"User already exists: {data[USERNAME_FIELD]} {data[EMAIL_FIELD]}")
         return "User already exists.", CONFLICT_CODE, cors_headers
     elif response.status_code == UNPROCESSABLE_ENTITY_CODE:
+        print(f"Bad data in one or more registration data fields, user {data[USERNAME_FIELD]}.")
         return "Bad data in one or more registration data fields.", UNPROCESSABLE_ENTITY_CODE, cors_headers
     elif not response.status_code == OK_CODE:
+        print(f"{response.status_code} error registering user {data[USERNAME_FIELD]}")
         return "Error processing student registration.", BAD_REQUEST_CODE, cors_headers
 
     # We are done unless they also wanted to enroll in a course.
     if not COURSE_ID_FIELD in data:
+        print(f"Successfully registered user {data[USERNAME_FIELD]}")
         return OK_MESSAGE, OK_CODE, cors_headers
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
@@ -124,8 +127,10 @@ def register_form_processor(request):
         })
 
         if response.status_code == CREATED_CODE:
+            print(f"Successfully registered user {data[USERNAME_FIELD]} on course {data[COURSE_ID_FIELD]}")
             return OK_MESSAGE, cors_headers
         
+        print(f"Error enrolling user {data[USERNAME_FIELD]} on course {data[COURSE_ID_FIELD]}")
         return "Error with course enrollment.", BAD_REQUEST_CODE, cors_headers
 
     return OK_MESSAGE, cors_headers
