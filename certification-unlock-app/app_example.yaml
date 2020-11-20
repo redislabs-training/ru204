@@ -27,3 +27,4 @@ skip_files:
 - ^(.*/)?\.swp$
 - .vscode
 - __pycache__
+- venv/
