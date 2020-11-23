@@ -1,5 +1,4 @@
 .DS_Store
 venv/
 env/
-stage_env.yaml
-prod_env.yaml
+*_env.yaml
