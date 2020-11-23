@@ -107,6 +107,8 @@ def register_form_processor(request):
         print(f"{response.status_code} error registering user {data[USERNAME_FIELD]}")
         return "Error processing student registration.", BAD_REQUEST_CODE, cors_headers
 
+    # TODO Send an identify message to Segment...
+
     # We are done unless they also wanted to enroll in a course.
     if not COURSE_ID_FIELD in data:
         print(f"Successfully registered user {data[USERNAME_FIELD]}")
