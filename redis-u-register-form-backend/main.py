@@ -28,10 +28,12 @@ UNPROCESSABLE_ENTITY_CODE = 422
 APPSEMBLER_API_KEY = os.environ.get("APPSEMBLER_API_KEY")
 APPSEMBLER_API_HOST = os.environ.get("APPSEMBLER_API_HOST")
 
+CORS_ORIGIN = os.environ.get("CORS_ORIGIN")
+
 analytics.write_key = os.environ.get("SEGMENT_WRITE_KEY")
 
 cors_headers = {
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": CORS_ORIGIN,
     "Access-Control-Allow-Methods": "POST",
     "Access-Control-Allow-Headers": "*",
     "Access-Control-Max-Age": "3600"
