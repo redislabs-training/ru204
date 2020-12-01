@@ -14,7 +14,7 @@ COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
 PROVINCE_FIELD = "province"
 COURSE_ID_FIELD = "courseId"
-COUNTRY_USA = "United States of America"
+COUNTRY_USA = "United States"
 COUNTRY_CANADA = "Canada"
 
 OK_CODE = 200
