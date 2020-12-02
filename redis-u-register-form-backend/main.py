@@ -9,6 +9,8 @@ EMAIL_FIELD = "email"
 FIRST_NAME_FIELD = "firstName"
 LAST_NAME_FIELD = "lastName"
 USERNAME_FIELD = "userName"
+JOB_FUNCTION_FIELD = "jobFunction"
+COMPANY_FIELD = "company"
 PASSWORD_FIELD = "password"
 COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
@@ -53,7 +55,6 @@ def call_appsembler_api(endpoint, data):
     )
 
 def register_form_processor(request): 
-     
     if request.method == "OPTIONS":
         return "", 204, cors_headers
 
@@ -64,8 +65,8 @@ def register_form_processor(request):
         EMAIL_FIELD: fields.Str(required = True, validate = [ validate.Email(), validate.Length(min = 1, max = 254) ]),
         FIRST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         LAST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-        "jobFunction": fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
-        "company": fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
+        JOB_FUNCTION_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
+        COMPANY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
         USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
         # PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
         COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
@@ -109,7 +110,39 @@ def register_form_processor(request):
         print(f"{response.status_code} error registering user {data[USERNAME_FIELD]}")
         return "Error processing student registration.", BAD_REQUEST_CODE, cors_headers
 
-    # TODO Send an identify message to Segment...
+    state = ""
+
+    if STATE_FIELD in data:
+        state = data[STATE_FIELD]
+    elif PROVINCE_FIELD in data:
+        state = data[PROVINCE_FIELD]
+
+    response_json = response.json()
+
+    # Send an identify message to Segment...
+    # NOTE: Due to a bug in the Appsembler API, the trailing space after user_id is required...
+    #       added defensive code in case they fix this...
+    appsembler_user_id = ""
+
+    if "user_id " in response_json:
+        appsembler_user_id = response_json["user_id "]
+    else:
+        appsembler_user_id = response_json["user_id"]
+
+    analytics.identify(appsembler_user_id, {
+        "Email": data[EMAIL_FIELD],
+        "FirstName": data[FIRST_NAME_FIELD],
+        "LastName": data[LAST_NAME_FIELD],
+        "Job_Function_Mktg__c": data[JOB_FUNCTION_FIELD],
+        "companyNameMKTO": data[COMPANY_FIELD],
+        "UserName": data[USERNAME_FIELD],
+        "Country": data[COUNTRY_FIELD],
+        "State": state,
+        "Lead_Source_New__c": "Redis University",
+        "proxySubcenterRedisUniversity": True
+    })
+
+    analytics.flush()
 
     # We are done unless they also wanted to enroll in a course.
     if not COURSE_ID_FIELD in data:
@@ -131,6 +164,8 @@ def register_form_processor(request):
         })
 
         if response.status_code == CREATED_CODE:
+            # We need to send another Segment message here?
+            # edx.course.enrollment.activated - edx doesn't do this when we use the enrollment API...
             print(f"Successfully registered user {data[USERNAME_FIELD]} on course {data[COURSE_ID_FIELD]}")
             return OK_MESSAGE, cors_headers
         
