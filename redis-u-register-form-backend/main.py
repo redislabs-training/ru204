@@ -166,9 +166,13 @@ def register_form_processor(request):
         if response.status_code == CREATED_CODE:
             # We need to send another Segment message here?
             # edx.course.enrollment.activated - edx doesn't do this when we use the enrollment API...
-            # analytics.track(appsembler_user_id, {
-            #     # TODO what is in here...
+            # analytics.track(appsembler_user_id, "edx.course.enrollment.activated", {
+            # "course_id": data[COURSE_ID_FIELD]
+            # "mode": "honor",
+            # "user_id": appsembler_user_id
             # })
+            #
+            # analytics.flush()
 
             print(f"Successfully registered user {data[USERNAME_FIELD]} on course {data[COURSE_ID_FIELD]}")
             return OK_MESSAGE, cors_headers
