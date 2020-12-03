@@ -1,5 +1,8 @@
 venv/
 app.yaml
+app_production.yaml
+app_stage.yaml
+app_staging.yaml
 .DS_Store
 *.tmp
 *.swp
