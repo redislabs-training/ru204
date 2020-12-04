@@ -25,15 +25,11 @@ https://us-central1-redislabs-university.cloudfunctions.net/stage-register-form-
 
 Deploying Production:
 
-TODO Test this...
-
 ```bash
 $ gcloud functions deploy register-form-processor --entry-point register_form_processor --trigger-http --runtime python38 --allow-unauthenticated --env-vars-file prod_env.yaml --project redislabs-university
 ```
 
 The function will then be available at:
-
-TODO Test this...
 
 ```
 https://us-central1-redislabs-university.cloudfunctions.net/register-form-processor
