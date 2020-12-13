@@ -366,7 +366,6 @@ def register_form_processor(request):
         country_code = lookup_country_code(data[COUNTRY_FIELD])
 
         if country_code is not None:
-            print(f"ADDING COUNTRY CODE {country_code}")
             register_body["country"] = country_code
 
     response = call_appsembler_api("registrations", register_body)
