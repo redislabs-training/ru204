@@ -404,7 +404,8 @@ def register_form_processor(request):
         "FirstName": data[FIRST_NAME_FIELD],
         "LastName": data[LAST_NAME_FIELD],
         "Job_Function_Mktg__c": data[JOB_FUNCTION_FIELD],
-        "companyNameMKTO": data[COMPANY_FIELD],
+        # "companyNameMKTO": data[COMPANY_FIELD],
+        "Company": data[COMPANY_FIELD],
         "UserName": data[USERNAME_FIELD],
         "Country": data[COUNTRY_FIELD],
         "State": state,
@@ -437,9 +438,11 @@ def register_form_processor(request):
             # We need to send another Segment message here...
             # edx.course.enrollment.activated - edx doesn't do this when we use the enrollment API...
             analytics.track(appsembler_user_id, "edx.course.enrollment.activated", {
-                "course_id": data[COURSE_ID_FIELD],
-                "mode": "honor",
-                "user_id": appsembler_user_id
+                "data": {
+                    "course_id": data[COURSE_ID_FIELD],
+                    "mode": "honor",
+                    "user_id": appsembler_user_id
+                }
             })
             
             analytics.flush()
