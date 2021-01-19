@@ -415,7 +415,6 @@ def register_form_processor(request):
         "FirstName": data[FIRST_NAME_FIELD],
         "LastName": data[LAST_NAME_FIELD],
         "Job_Function_Mktg__c": data[JOB_FUNCTION_FIELD],
-        # "companyNameMKTO": data[COMPANY_FIELD],
         "Company": data[COMPANY_FIELD],
         "UserName": data[USERNAME_FIELD],
         "Country": data[COUNTRY_FIELD],
