@@ -313,6 +313,17 @@ def call_appsembler_api(endpoint, data):
         }
     )
 
+def get_org_id_from_course_id(course_id):
+    # Takes a course_id of the form "course-v1:redislabs+RU201+SP_2019_01"
+    # and returns "redislabs" or "" if not found.
+    start_pos = course_id.find(":")
+    end_pos = course_id.find("+")
+
+    if start_pos > -1 and end_pos > -1:
+        return course_id[start_pos + 1:end_pos]
+
+    return ""
+
 def register_form_processor(request): 
     if request.method == "OPTIONS":
         return "", 204, cors_headers
@@ -438,11 +449,21 @@ def register_form_processor(request):
             # We need to send another Segment message here...
             # edx.course.enrollment.activated - edx doesn't do this when we use the enrollment API...
             analytics.track(appsembler_user_id, "edx.course.enrollment.activated", {
+                "context": {
+                    "course_id": data[COURSE_ID_FIELD],
+                    "host": APPSEMBLER_API_HOST,
+                    "org_id": get_org_id_from_course_id(data[COURSE_ID_FIELD]),
+                    "user_id": appsembler_user_id,
+                    "referer": ""
+                },
                 "data": {
                     "course_id": data[COURSE_ID_FIELD],
                     "mode": "honor",
                     "user_id": appsembler_user_id
-                }
+                },
+                "label": data[COURSE_ID_FIELD],
+                "name": "edx.course.enrollment.activated",
+                "nonInteraction": 1
             })
             
             analytics.flush()
