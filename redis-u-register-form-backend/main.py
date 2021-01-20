@@ -16,6 +16,7 @@ COUNTRY_FIELD = "country"
 STATE_FIELD = "state"
 PROVINCE_FIELD = "province"
 COURSE_ID_FIELD = "courseId"
+AGREE_TERMS_FIELD = "agreeTerms"
 COUNTRY_USA = "United States"
 COUNTRY_CANADA = "Canada"
 
@@ -339,7 +340,7 @@ def register_form_processor(request):
         COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
         PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
-        "agreeTerms": fields.Bool(required = True, validate = validate.Equal(True)),
+        AGREE_TERMS_FIELD: fields.Bool(required = True, validate = validate.Equal(True)),
         COURSE_ID_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120))
     }, request)
 
