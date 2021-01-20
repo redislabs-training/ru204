@@ -434,7 +434,6 @@ def register_form_processor(request):
     if COURSE_ID_FIELD in data:
         identifiers = [data[EMAIL_FIELD]]
         courses = [data[COURSE_ID_FIELD]]
-        courses.append()
 
         response = call_appsembler_api("enrollments", {
             "action": "enroll",
