@@ -311,9 +311,11 @@ def call_appsembler_api(endpoint, data):
         }
     )
 
+"""
+Takes a course_id of the form 'course-v1:redislabs+RU201+SP_2019_01' 
+and returns 'redislabs' or '' if not found.
+"""
 def get_org_id_from_course_id(course_id):
-    # Takes a course_id of the form "course-v1:redislabs+RU201+SP_2019_01"
-    # and returns "redislabs" or "" if not found.
     start_pos = course_id.find(":")
     end_pos = course_id.find("+")
 
