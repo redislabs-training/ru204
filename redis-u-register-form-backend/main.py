@@ -432,10 +432,9 @@ def register_form_processor(request):
 
     # Call Appsembler enrollment API if the above succeeded and we have a course to enroll in...
     if COURSE_ID_FIELD in data:
-        identifiers = []
-        identifiers.append(data[EMAIL_FIELD])
-        courses = []
-        courses.append(data[COURSE_ID_FIELD])
+        identifiers = [data[EMAIL_FIELD]]
+        courses = [data[COURSE_ID_FIELD]]
+        courses.append()
 
         response = call_appsembler_api("enrollments", {
             "action": "enroll",
