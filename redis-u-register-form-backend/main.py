@@ -403,12 +403,7 @@ def register_form_processor(request):
     # Send an identify message to Segment...
     # NOTE: Due to a bug in the Appsembler API, the trailing space after user_id is required...
     #       added defensive code in case they fix this...
-    appsembler_user_id = ""
-
-    if "user_id " in response_json:
-        appsembler_user_id = response_json["user_id "]
-    else:
-        appsembler_user_id = response_json["user_id"]
+    appsembler_user_id = response_json.get("user_id ", response_json.get("user_id"))
 
     analytics.identify(appsembler_user_id, {
         "Email": data[EMAIL_FIELD],
