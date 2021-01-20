@@ -295,10 +295,7 @@ COUNTRY_CODE_LOOKUP = {
 }
 
 def lookup_country_code(country_name):
-    if country_name in COUNTRY_CODE_LOOKUP:
-        return COUNTRY_CODE_LOOKUP[country_name]
-
-    return None
+    return COUNTRY_CODE_LOOKUP.get(country_name)
 
 def call_appsembler_api(endpoint, data):
     api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
