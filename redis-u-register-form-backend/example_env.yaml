@@ -1,0 +1,5 @@
+APPSEMBLER_API_HOST: university.redislabs.com
+APPSEMBLER_API_KEY: 123abc456
+SEGMENT_WRITE_KEY: 123abc456
+CORS_ORIGIN: https://university.redislabs.com
+REGISTRATION_REQUIRES_COUNTRY: "True"

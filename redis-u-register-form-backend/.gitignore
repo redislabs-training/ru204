@@ -2,3 +2,4 @@
 venv/
 env/
 *_env.yaml
+!example_env.yaml
