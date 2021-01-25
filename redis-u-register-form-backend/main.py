@@ -360,6 +360,9 @@ def register_form_processor(request):
     # if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
     #     return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
+    if " " in data[USERNAME_FIELD]:
+        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
+
     print(f"Registering user: {data[USERNAME_FIELD]}")
 
     register_body = {
