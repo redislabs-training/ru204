@@ -338,7 +338,7 @@ def register_form_processor(request):
         LAST_NAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         JOB_FUNCTION_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         COMPANY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
-        USERNAME_FIELD: fields.Str(required = True, validate = validate.Length(min = 2, max = 30)),
+        USERNAME_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^[A-Za-z0-9_-]+$"), validate.Length(min = 2, max = 30) ]),
         # PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
         COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
@@ -359,9 +359,6 @@ def register_form_processor(request):
 
     # if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
     #     return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
-
-    if " " in data[USERNAME_FIELD]:
-        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
     print(f"Registering user: {data[USERNAME_FIELD]}")
 
