@@ -34,14 +34,10 @@ or...
 docker run --rm --name redis-lab -p:8888:8888 -v $PWD:/rdb redisuniversity/ru201-lab
 ```
 
-### Tag
-Need to change <version> to align to AVL version number
-docker tag redisuniversity/ru201-lab gcr.io/redis-labs/ru201-lab:<version>
-
 ### Push
 
 ```
-./deploy.sh <version>
+./deploy.sh
 ```
 
 Or manually...
@@ -50,12 +46,6 @@ Push to Docker Hub:
 
 ```
 docker push redisuniversity/ru201-lab
-```
-
-Push to GCR for AVL pull:
-
-```
-docker push gcr.io/redis-labs/ru201-lab:<version>
 ```
 
 ## Build zip file
