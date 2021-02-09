@@ -1,5 +1,6 @@
 from webargs import fields, validate
 from webargs.flaskparser import parser
+from datetime import datetime
 
 import analytics
 import os
@@ -456,7 +457,8 @@ def register_form_processor(request):
                 },
                 "label": data[COURSE_ID_FIELD],
                 "name": "edx.course.enrollment.activated",
-                "nonInteraction": 1
+                "nonInteraction": 1,
+                "timestamp": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.000Z")
             })
             
             analytics.flush()
