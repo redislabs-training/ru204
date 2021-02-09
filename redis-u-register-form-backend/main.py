@@ -458,7 +458,7 @@ def register_form_processor(request):
                 "label": data[COURSE_ID_FIELD],
                 "name": "edx.course.enrollment.activated",
                 "nonInteraction": 1,
-                "timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S.000Z")
+                "timestamp": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.000Z")
             })
             
             analytics.flush()
