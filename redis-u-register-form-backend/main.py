@@ -340,7 +340,7 @@ def register_form_processor(request):
         JOB_FUNCTION_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         COMPANY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 250)),
         USERNAME_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^[A-Za-z0-9_-]+$"), validate.Length(min = 2, max = 30) ]),
-        # PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
+        PASSWORD_FIELD: fields.Str(required = True, validate = [ validate.Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\/\?\,\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-])(?=.{8,})"), validate.Length(min = 8, max = 128) ]),
         COUNTRY_FIELD: fields.Str(required = True, validate = validate.Length(min = 1, max = 120)),
         STATE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
         PROVINCE_FIELD: fields.Str(validate = validate.Length(min = 1, max = 120)),
@@ -358,18 +358,17 @@ def register_form_processor(request):
         if STATE_FIELD in data or PROVINCE_FIELD in data:
             return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
-    # if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
-    #     return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
+    if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
+        return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
     print(f"Registering user: {data[USERNAME_FIELD]}")
 
     register_body = {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
         "username": data[USERNAME_FIELD],
-        "email": data[EMAIL_FIELD]#,
-        # Remove this due to bug in Appsembler API that accidentally activates the user.
-        #"password": data[PASSWORD_FIELD],
-        #"send_activation_email": True
+        "email": data[EMAIL_FIELD],
+        "password": data[PASSWORD_FIELD],
+        "send_activation_email": True
     }
 
     # Our production environment requires the country field as Tahoe is 
