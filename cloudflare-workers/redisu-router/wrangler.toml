@@ -28,6 +28,7 @@ routes = [
     "stage-university.redislabs.com/courses/ru201*",
     "stage-university.redislabs.com/courses/ru202*",
     "stage-university.redislabs.com/courses/ru203*",
+    "stage-university.redislabs.com/courses/ru301*",
 ]
 
 vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
@@ -58,6 +59,7 @@ routes = [
     "university.redislabs.com/courses/ru201*",
     "university.redislabs.com/courses/ru202*",
     "university.redislabs.com/courses/ru203*",
+    "university.redislabs.com/courses/ru301*",
 ]
 
 vars = { TAHOE_HOST = "university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod" }
