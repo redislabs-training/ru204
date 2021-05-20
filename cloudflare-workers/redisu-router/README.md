@@ -27,7 +27,7 @@ When a request comes into `university.redislabs.com` in production or `stage-uni
 
 The worker logic works like this:
 
-* We have a general rule for the statuc site that all URLs that aren't file names need to end in /, and there should be a 301 redirect if not.  Example `university.redislabs.com/courses/ru101` should be redirected to `university.redislabs.com/courses/ru101/`.  There's an exception to this, `/courses` needs to go to `/#courses` so that is dealt with first.
+* We have a general rule for the static site that all URLs that aren't file names need to end in /, and there should be a 301 redirect if not.  Example `university.redislabs.com/courses/ru101` should be redirected to `university.redislabs.com/courses/ru101/`.  There's an exception to this, `/courses` needs to go to `/#courses` so that is dealt with first.
 * All other URLs get mapped to the same URL but with the front end `university.redislabs.com` replaced with the static site domain... so `university.redislabs.com/courses/ru101/` would be mapped to `redislabs-training.github.io/redis-university-static-site-prod/courses/ru101` for example.
 * The router then requests the page from the remapped URL, and returns whatever comes back from GitHub pages for that URL. 
 * If the remapped URL returns a 404 from the GitHub pages site, then the router requests the 404 page from GitHub pages and returns that instead.
