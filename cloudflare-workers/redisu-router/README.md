@@ -2,6 +2,8 @@
 
 To work with this code you need a Cloudflare account that can access Redis University.  If you don't have one, ask Simon Prickett or Kyle Banker.
 
+It's most likely that you're here to add or remove route mappings... these determine which URL patterns the static site is the origin for.  Any URLs not covered by these mappings will be served with Appsembler as the origin.  See the "Configuration" section for how to maintain the rules for stage and production environments.
+
 ## Overview
 
 This is a [Cloudflare Worker](https://workers.cloudflare.com/) that acts as a proxy to route URLs so that some paths are served from a different underlying origin than others.
@@ -55,7 +57,7 @@ Some configuration items need to be set in `wranger.toml`.  These are:
 * `zone_id` - Cloudflare zone ID, you can get this from your Cloudflare dashboard.  This is already set with values for the Redis Labs account.
 * `account_id` - Cloudflare account ID, you can get this from your Cloudflare dashboard.  This is already set with values for the Redis Labs account.
 * `name` - The name that Cloudflare will use for the worker on the Cloudflare dashboard.  With the provided config values, this will be `redisu-stage-router` for stage and `redisu-router` for production.
-* `routes` - Array of route patterns that the worker needs to run on.  These routes should between them encompass all possible URLs that the static site needs to show up at, including URLs needed for the static site images, icons, etc.  Read about routes [here](https://developers.cloudflare.com/workers/about/routes/) (Matching Behavior section).  Note that these are set per environment.
+* `routes` - Array of route patterns that the worker needs to run on.  These routes should between them encompass all possible URLs that the static site needs to show up at, including URLs needed for the static site images, icons, etc.  Each new URL or URL pattern that you add to the static site must have a matching route. Read about routes [here](https://developers.cloudflare.com/workers/about/routes/) (Matching Behavior section).  Note that these are set per environment.
 * `vars` - Environment variables that the worker needs.  Note that these are set per environment.  Right now these are `TAHOE_HOST` - the origin URL for Appsembler (which is the same as the front end URL for Cloudflare) and `STATIC_HOST` which is the origin URL for the static site on GitHub pages.
 
 ## Testing 
