@@ -1,5 +1,7 @@
 # Cloudflare Workers for Redis University
 
+To work with this code you need a Cloudflare account that can access Redis University.  If you don't have one, ask Simon Prickett or Kyle Banker.
+
 ## Overview
 
 This is a [Cloudflare Worker](https://workers.cloudflare.com/) that acts as a proxy to route URLs so that some paths are served from a different underlying origin than others.
@@ -36,7 +38,15 @@ To better understand how the code in `index.js` works, see the [Cloudflare Worke
 
 ## Tooling
 
-To work with Cloudflare Workers, you'll want to install [wrangler](https://github.com/cloudflare/wrangler) which is their CLI to manage and deploy Workers.
+To work with Cloudflare Workers, you'll want to install [wrangler](https://github.com/cloudflare/wrangler) which is their CLI to manage and deploy Workers.  Install this globally using npm (instructions on Wrangler's GitHub page).
+
+Once installed, run `wrangler config` and it will ask you for an API token.  You will need to set up an API token on Cloudflare with permissions as follows:
+
+* All accounts - Workers KV Storage:Edit, Workers Scripts:Edit, Account Settings:Read
+* All zones - Workers Routes:Edit
+* All users - User Details:Read
+
+Once you have that token, supply it to wrangler and that will authenticate you with our Cloudflare environment.
 
 ## Configuration
 
@@ -49,6 +59,8 @@ Some configuration items need to be set in `wranger.toml`.  These are:
 * `vars` - Environment variables that the worker needs.  Note that these are set per environment.  Right now these are `TAHOE_HOST` - the origin URL for Appsembler (which is the same as the front end URL for Cloudflare) and `STATIC_HOST` which is the origin URL for the static site on GitHub pages.
 
 ## Testing 
+
+**This doesn't work well in our use case, so it is recommended to test in stage.**
 
 To test your Worker logic without deploying to a real domain, use the command:
 
@@ -67,6 +79,8 @@ Before deployment, build your code:
 ```
 $ wrangler build
 ```
+
+This process is the same for both the stage and production environments.
 
 ## Deployment
 
