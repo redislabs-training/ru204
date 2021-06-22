@@ -1,0 +1,21 @@
+{
+  "name": "cert_checker",
+  "version": "1.0.0",
+  "description": "Backend service to automatically enroll student into RCE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0"
+  },
+  "private": true,
+  "type": "module"
+}
