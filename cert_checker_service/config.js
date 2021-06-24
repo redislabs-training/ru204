@@ -1,5 +1,5 @@
 export default {
-    'PORT': process.env.CERT_PORT || 3000,
+    'PORT': process.env.CERT_PORT || 8080,
     'TAHOEENDPOINT': 'https://university.redislabs.com/tahoe/api/v1/',
     'APPSEMBLER_TOKEN': `Token ${process.env.APPSEMBLER_PROD}`,
     'LMSDB' : {
