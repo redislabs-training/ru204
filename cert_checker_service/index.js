@@ -124,9 +124,10 @@ app.post('/enroll-student', cors(cors_options), async (req, res) => {
 
 })
 
-app.get('/healthcheck', function(req, res) {
+app.get('/healthcheck', async (req, res) =>  {
   // TODO: send back stats on current exam course, port, etc.
-  res.send('Healthy')
+  const current_exam = await getNewestExamCourse()
+  res.json({ status: 'Healthy', current_exam: current_exam})
 })
 
 app.listen(`${config.PORT}`, function(){
