@@ -1,0 +1,13 @@
+runtime: nodejs14
+
+entrypoint: npm run start
+
+service: cert-enroll
+
+env_variables:
+  APPSEMBLER_PROD: <APPSEMBLER PRODUCTION TOKEN>
+  PGUSER: <PG USER>
+  PGHOST: <PG HOST>
+  PGDATABASE: <PG DATABASE>
+  PGPASSWORD: <PG PASSWORD>
+  PGPORT: <PG PORT>
