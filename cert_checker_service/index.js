@@ -58,7 +58,10 @@ const checkEligibility = async (user_id) => {
           }
   } catch (e) {
     console.error('Error Occurred Fetching Data from Redshift: ', e);
-    throw e;
+    return {
+      success: false,
+      message: `Unable to find user with id: ${user_id}`
+    }
   }
 }
 
