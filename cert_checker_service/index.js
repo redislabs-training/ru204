@@ -111,8 +111,13 @@ app.options('*', cors(cors_options))
 
 app.get('/check-availability', cors(cors_options), async (req, res) => {
   const { user_id } = req.query
-  const eligibility = await checkEligibility(user_id)
-  res.json(eligibility)
+  if(!user_id || user_id === 'undefined') {
+    res.json({ error: 'user_id is undefined or unavailable', user_id: user_id })
+  }
+  if(user_id){
+    const eligibility = await checkEligibility(user_id)
+    res.json(eligibility)
+  } 
 })
 
 app.post('/enroll-student', cors(cors_options), async (req, res) => {
