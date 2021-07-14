@@ -47,6 +47,14 @@ const checkEligibility = async (user_id) => {
       message: `Error from Redshift: ${e.message}`
     }
   }
+    console.log(response)
+    if (response.rows.length === 0) {
+      return {
+        success: false,
+        message: 'No courses have been completed.',
+        reason: 'none completed'
+      }
+    }
     username = response.rows[0][1]
     /* strip course versions and flattens response */
     const rawCourses = response.rows
@@ -60,6 +68,7 @@ const checkEligibility = async (user_id) => {
     const ru202Completed = courses.splice(courses.indexOf('RU202'), 1).length === 1
     const electives = courses.flat()
     return {
+            'success': true,
             'RU101': ru101Completed,
             'RU202': ru202Completed,
             'electives': electives,
