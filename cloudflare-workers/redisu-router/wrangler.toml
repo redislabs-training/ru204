@@ -1,68 +1,68 @@
 type = "webpack"
 account_id = "085eb14f95a179f56e42dad3d215212d"
-zone_id = "b37f240fd18cdd2e2c2f11ad3ed21dd5"
+zone_id = "97715377451b25e96f5555e0f208d867"
 
 [env.stage]
-name = "redisu-stage-router"
+name = "redisdotcomu-stage-router"
 
 # These are the URL paths that the static site should be
 # served for in stage.
 routes = [
-    "stage-university.redislabs.com/",
-    "stage-university.redislabs.com/site.webmanifest",
-    "stage-university.redislabs.com/sitemap.xml",
-    "stage-university.redislabs.com/robots.txt",
-    "stage-university.redislabs.com/register*",
-    "stage-university.redislabs.com/certification/*",
-    "stage-university.redislabs.com/certification-enrollment/*",
-    "stage-university.redislabs.com/certifications/*",
-    "stage-university.redislabs.com/assets/css/*",
-    "stage-university.redislabs.com/assets/favicon/*",
-    "stage-university.redislabs.com/assets/images/*",
-    "stage-university.redislabs.com/assets/js/*",
-    "stage-university.redislabs.com/courses",
-    "stage-university.redislabs.com/courses/ru101*",
-    "stage-university.redislabs.com/courses/ru102j*",
-    "stage-university.redislabs.com/courses/ru102js*",
-    "stage-university.redislabs.com/courses/ru102py*",
-    "stage-university.redislabs.com/courses/ru330*",
-    "stage-university.redislabs.com/courses/ru201*",
-    "stage-university.redislabs.com/courses/ru202*",
-    "stage-university.redislabs.com/courses/ru203*",
-    "stage-university.redislabs.com/courses/ru301*",
+    "stage-university.redis.com/",
+    "stage-university.redis.com/site.webmanifest",
+    "stage-university.redis.com/sitemap.xml",
+    "stage-university.redis.com/robots.txt",
+    "stage-university.redis.com/register*",
+    "stage-university.redis.com/certification/*",
+    "stage-university.redis.com/certification-enrollment/*",
+    "stage-university.redis.com/certifications/*",
+    "stage-university.redis.com/assets/css/*",
+    "stage-university.redis.com/assets/favicon/*",
+    "stage-university.redis.com/assets/images/*",
+    "stage-university.redis.com/assets/js/*",
+    "stage-university.redis.com/courses",
+    "stage-university.redis.com/courses/ru101*",
+    "stage-university.redis.com/courses/ru102j*",
+    "stage-university.redis.com/courses/ru102js*",
+    "stage-university.redis.com/courses/ru102py*",
+    "stage-university.redis.com/courses/ru330*",
+    "stage-university.redis.com/courses/ru201*",
+    "stage-university.redis.com/courses/ru202*",
+    "stage-university.redis.com/courses/ru203*",
+    "stage-university.redis.com/courses/ru301*",
 ]
 
-vars = { TAHOE_HOST = "stage-university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
+vars = { TAHOE_HOST = "stage-university.redis.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-stage" }
 
 [env.production]
-name = "redisu-router"
+name = "redisdotcomu-router"
 
 # These are the URL paths that the static site should be
 # served for in production.
 routes = [
-    "university.redislabs.com/",
-    "university.redislabs.com/site.webmanifest",
-    "university.redislabs.com/sitemap.xml",
-    "university.redislabs.com/robots.txt",
-    "university.redislabs.com/register*",
-    "university.redislabs.com/certification/*",
-    "university.redislabs.com/certification-enrollment/*",
-    "university.redislabs.com/certifications/*",
-    "university.redislabs.com/assets/css/*",
-    "university.redislabs.com/assets/favicon/*",
-    "university.redislabs.com/assets/images/*",
-    "university.redislabs.com/assets/js/*",
-    "university.redislabs.com/courses",
-    "university.redislabs.com/courses/ru101*",
-    "university.redislabs.com/courses/ru102j*",
-    "university.redislabs.com/courses/ru102js*",
-    "university.redislabs.com/courses/ru102py*",
-    "university.redislabs.com/courses/ru330*",
-    "university.redislabs.com/courses/ru201*",
-    "university.redislabs.com/courses/ru202*",
-    "university.redislabs.com/courses/ru203*",
-    "university.redislabs.com/courses/ru301*",
+    "university.redis.com/",
+    "university.redis.com/site.webmanifest",
+    "university.redis.com/sitemap.xml",
+    "university.redis.com/robots.txt",
+    "university.redis.com/register*",
+    "university.redis.com/certification/*",
+    "university.redis.com/certification-enrollment/*",
+    "university.redis.com/certifications/*",
+    "university.redis.com/assets/css/*",
+    "university.redis.com/assets/favicon/*",
+    "university.redis.com/assets/images/*",
+    "university.redis.com/assets/js/*",
+    "university.redis.com/courses",
+    "university.redis.com/courses/ru101*",
+    "university.redis.com/courses/ru102j*",
+    "university.redis.com/courses/ru102js*",
+    "university.redis.com/courses/ru102py*",
+    "university.redis.com/courses/ru330*",
+    "university.redis.com/courses/ru201*",
+    "university.redis.com/courses/ru202*",
+    "university.redis.com/courses/ru203*",
+    "university.redis.com/courses/ru301*",
 ]
 
-vars = { TAHOE_HOST = "university.redislabs.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod" }
+vars = { TAHOE_HOST = "university.redis.com", STATIC_HOST = "redislabs-training.github.io/redis-university-static-site-prod" }
 
