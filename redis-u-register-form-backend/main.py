@@ -299,8 +299,8 @@ COUNTRY_CODE_LOOKUP = {
 def lookup_country_code(country_name):
     return COUNTRY_CODE_LOOKUP.get(country_name)
 
-def call_appsembler_api(endpoint, data):
-    api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
+def call_appsembler_api(api_version, endpoint, data):
+    api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v{api_version}/{endpoint}/"
 
     return requests.post(
         api_endpoint,
@@ -380,7 +380,7 @@ def register_form_processor(request):
         if country_code is not None:
             register_body["country"] = country_code
 
-    response = call_appsembler_api("registrations", register_body)
+    response = call_appsembler_api("2", "registrations", register_body)
 
     if response.status_code == CONFLICT_CODE:
         print(f"User already exists: {data[USERNAME_FIELD]} {data[EMAIL_FIELD]}")
@@ -431,7 +431,7 @@ def register_form_processor(request):
         identifiers = [data[EMAIL_FIELD]]
         courses = [data[COURSE_ID_FIELD]]
 
-        response = call_appsembler_api("enrollments", {
+        response = call_appsembler_api("1", "enrollments", {
             "action": "enroll",
             "auto_enroll": True,
             "courses": courses,
