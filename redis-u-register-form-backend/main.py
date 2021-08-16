@@ -384,9 +384,10 @@ def register_form_processor(request):
 
     if response.status_code == CONFLICT_CODE:
         # TODO look at the response body here and determine which field(s)
-        # are in error...
+        # are in error then log it...
         print(f"User already exists: {data[USERNAME_FIELD]} {data[EMAIL_FIELD]}")
-        return "User already exists.", CONFLICT_CODE, cors_headers
+
+        return response.json(), CONFLICT_CODE, cors_headers
     elif response.status_code == UNPROCESSABLE_ENTITY_CODE:
         print(f"Bad data in one or more registration data fields, user {data[USERNAME_FIELD]}.")
         return "Bad data in one or more registration data fields.", UNPROCESSABLE_ENTITY_CODE, cors_headers
