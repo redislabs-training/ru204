@@ -34,7 +34,7 @@ def enrollStudentWithAppsembler(studentEmail, courses):
     response = requests.post(
         'https://' + courseHost + '/tahoe/api/v1/enrollments/',
         json={'action': 'enroll',
-              'email_learners': True,
+              'email_learners': False,
               'auto_enroll': True,
               'courses': courses,
               'identifiers': identifiers},
