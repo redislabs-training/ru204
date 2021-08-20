@@ -361,7 +361,7 @@ def register_form_processor(request):
     if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
         return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
-    print(f"Registering user: {data[USERNAME_FIELD]}")
+    print(f"Registering user: {data[USERNAME_FIELD]} ({data[EMAIL_FIELD]})")
 
     register_body = {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
@@ -385,7 +385,14 @@ def register_form_processor(request):
     if response.status_code == CONFLICT_CODE:
         # TODO look at the response body here and determine which field(s)
         # are in error then log it...
-        print(f"User already exists: {data[USERNAME_FIELD]} {data[EMAIL_FIELD]}")
+        response_data = response.json()
+        invalid_params = response_data["invalid-params"]
+
+        if "email" in invalid_params:
+            print(f"Email already in use: {data[EMAIL_FIELD]}")
+        
+        if "username" in invalid_params:
+            print(f"Username already in use: {data[USERNAME_FIELD]}")
 
         return response.json(), CONFLICT_CODE, cors_headers
     elif response.status_code == UNPROCESSABLE_ENTITY_CODE:
