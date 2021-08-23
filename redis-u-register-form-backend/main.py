@@ -383,7 +383,7 @@ def register_form_processor(request):
     response = call_appsembler_api("2", "registrations", register_body)
 
     if response.status_code == CONFLICT_CODE:
-        # TODO look at the response body here and determine which field(s)
+        # Look at the response body here and determine which field(s)
         # are in error then log it...
         response_data = response.json()
         invalid_params = response_data["invalid-params"]
