@@ -26,10 +26,10 @@ $ pip install -r requirements.txt
 You can run the Cloud Function locally like so (don't forget to set an environment variable for each value in `example_env.yaml` and to use values for the environment you're working with!):
 
 ```bash
-$ export APPSEMBLER_API_HOST=university.redislabs.com
+$ export APPSEMBLER_API_HOST=university.redis.com
 $ export APPSEMBLER_API_KEY=123abc456
 $ export SEGMENT_WRITE_KEY=123abc456
-$ export CORS_ORIGIN=https://university.redislabs.com
+$ export CORS_ORIGIN=https://university.redis.com
 $ export REGISTRATION_REQUIRES_COUNTRY=True
 $ functions-framework --target=register_form_processor --debug
 ```
@@ -62,10 +62,10 @@ Deploy the Cloud Function to either the stage or production environments.  Each 
 Example YAML (see `example_env.yaml`):
 
 ```yaml
-APPSEMBLER_API_HOST: university.redislabs.com
+APPSEMBLER_API_HOST: university.redis.com
 APPSEMBLER_API_KEY: 123abc456def
 SEGMENT_WRITE_KEY: 123abc456def
-CORS_ORIGIN: https://university.redislabs.com
+CORS_ORIGIN: https://university.redis.com
 REGISTRATION_REQUIRES_COUNTRY: "True"
 ```
 

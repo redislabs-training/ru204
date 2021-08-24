@@ -299,8 +299,8 @@ COUNTRY_CODE_LOOKUP = {
 def lookup_country_code(country_name):
     return COUNTRY_CODE_LOOKUP.get(country_name)
 
-def call_appsembler_api(endpoint, data):
-    api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v1/{endpoint}/"
+def call_appsembler_api(api_version, endpoint, data):
+    api_endpoint = f"https://{APPSEMBLER_API_HOST}/tahoe/api/v{api_version}/{endpoint}/"
 
     return requests.post(
         api_endpoint,
@@ -361,7 +361,7 @@ def register_form_processor(request):
     if data[EMAIL_FIELD] == data[PASSWORD_FIELD] or data[EMAIL_FIELD] == data[USERNAME_FIELD]:
         return UNPROCESSABLE_ENTITY_MESSAGE, UNPROCESSABLE_ENTITY_CODE, cors_headers
 
-    print(f"Registering user: {data[USERNAME_FIELD]}")
+    print(f"Registering user: {data[USERNAME_FIELD]} ({data[EMAIL_FIELD]})")
 
     register_body = {
         "name": f"{data[FIRST_NAME_FIELD]} {data[LAST_NAME_FIELD]}",
@@ -380,11 +380,21 @@ def register_form_processor(request):
         if country_code is not None:
             register_body["country"] = country_code
 
-    response = call_appsembler_api("registrations", register_body)
+    response = call_appsembler_api("2", "registrations", register_body)
 
     if response.status_code == CONFLICT_CODE:
-        print(f"User already exists: {data[USERNAME_FIELD]} {data[EMAIL_FIELD]}")
-        return "User already exists.", CONFLICT_CODE, cors_headers
+        # Look at the response body here and determine which field(s)
+        # are in error then log it...
+        response_data = response.json()
+        invalid_params = response_data["invalid-params"]
+
+        if "email" in invalid_params:
+            print(f"Email already in use: {data[EMAIL_FIELD]}")
+        
+        if "username" in invalid_params:
+            print(f"Username already in use: {data[USERNAME_FIELD]}")
+
+        return response.json(), CONFLICT_CODE, cors_headers
     elif response.status_code == UNPROCESSABLE_ENTITY_CODE:
         print(f"Bad data in one or more registration data fields, user {data[USERNAME_FIELD]}.")
         return "Bad data in one or more registration data fields.", UNPROCESSABLE_ENTITY_CODE, cors_headers
@@ -431,7 +441,7 @@ def register_form_processor(request):
         identifiers = [data[EMAIL_FIELD]]
         courses = [data[COURSE_ID_FIELD]]
 
-        response = call_appsembler_api("enrollments", {
+        response = call_appsembler_api("1", "enrollments", {
             "action": "enroll",
             "auto_enroll": True,
             "courses": courses,
