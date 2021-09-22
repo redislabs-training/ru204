@@ -25,6 +25,10 @@
             "id": "course-v1:redislabs+RU203+SP_INTERNAL_2021_01"
         },
         {
+            "name": "RU301 Running Redis at Scale",
+            "id": "course-v1:redislabs+RU301+SP_2021_01"
+        },
+        {
             "name": "RU330 Redis Security",
             "id": "course-v1:redislabs+RU330+SP_2020_01"
         }
