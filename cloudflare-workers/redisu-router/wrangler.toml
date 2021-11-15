@@ -29,6 +29,7 @@ routes = [
     "stage-university.redis.com/courses/ru201*",
     "stage-university.redis.com/courses/ru202*",
     "stage-university.redis.com/courses/ru203*",
+    "stage-university.redis.com/courses/ru204*",
     "stage-university.redis.com/courses/ru301*",
 ]
 
@@ -61,6 +62,7 @@ routes = [
     "university.redis.com/courses/ru201*",
     "university.redis.com/courses/ru202*",
     "university.redis.com/courses/ru203*",
+    "university.redis.com/courses/ru204*",
     "university.redis.com/courses/ru301*",
 ]
 
