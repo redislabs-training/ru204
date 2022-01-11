@@ -205,3 +205,4 @@ if(email_fail_global_vars['user_vars']):
     fail_json = open('fail-json-' + str(date.today()) + '.json', "w")
     fail_json.write(str(json.dumps(email_fail_global_vars)))
     print(json.dumps(email_fail_global_vars, indent=2))
+    
