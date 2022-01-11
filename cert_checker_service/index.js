@@ -47,7 +47,7 @@ const checkEligibility = async (user_id) => {
       message: `Error from Redshift: ${e.message}`
     }
   }
-    console.log(response)
+    console.log(response.rows)
     if (response.rows.length === 0) {
       return {
         success: false,
@@ -60,14 +60,31 @@ const checkEligibility = async (user_id) => {
     const rawCourses = response.rows
                         .map(course => course[0]
                           .match(ruRegexMatcher))
-                          .flat()                          
+                          .flat()        
     /* deduplicate completed course rows */
     const courses = [...new Set(rawCourses)]
     /* check for presence of RU101, RU202, and an 'elective' class */
-    const ru101Completed = courses.splice(courses.indexOf('RU101'), 1).length === 1
-    const ru202Completed = courses.splice(courses.indexOf('RU202'), 1).length === 1
-    const electives = courses.flat()
-    return {
+    let ru101Completed, ru202Completed
+    let ru101index = courses.indexOf('RU101')
+    let ru202index = courses.indexOf('RU202')
+
+    if(ru101index === -1) {
+      ru101Completed = false
+    } else {
+      courses.splice(ru101index, 1)
+      ru101Completed = true
+    }
+
+    if(ru202index === -1) {
+      ru202Completed = false
+    } else {
+      courses.splice(ru202index, 1)
+      ru202Completed = true
+    }
+
+ const electives = courses.flat()
+ 
+ return {
             'success': true,
             'RU101': ru101Completed,
             'RU202': ru202Completed,
