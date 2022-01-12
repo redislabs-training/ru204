@@ -1,0 +1,59 @@
+{
+    "author_name": "John Wyndham",
+    "base_id": 3607,
+    "book_description": "In 1951 John Wyndham published his novel The Day of the Triffids to moderate acclaim. Fifty-two years later, this horrifying story is a science fiction classic, touted by The Times (London) as having \u201call the reality of a vividly realized nightmare.\u201dBill Masen, bandages over his wounded eyes, misses the most spectacular meteorite shower England has ever seen. Removing his bandages the next morning, he finds masses of sightless people wandering the city. He soon meets Josella, another lucky person who has retained her sight, and together they leave the city, aware that the safe, familiar world they knew a mere twenty-four hours before is gone forever.But to survive in this post-apocalyptic world, one must survive the Triffids, strange plants that years before began appearing all over the world. The Triffids can grow to over seven feet tall, pull their roots from the ground to walk, and kill a man with one quick lash of their poisonous stingers. With society in shambles, they are now poised to prey on humankind. Wyndham chillingly anticipates bio-warfare and mass destruction, fifty years before their realization, in this prescient account of Cold War paranoia.",
+    "book_title": "The Day of the Triffids",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "apocalyptic": 159,
+        "classics": 944,
+        "dystopia": 312,
+        "fantasy": 180,
+        "fiction": 1137,
+        "horror": 524,
+        "novels": 96,
+        "post apocalyptic": 361,
+        "science fiction": 2480,
+        "science fiction fantasy": 160
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "3607_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "3607_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3607_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "3607_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3607_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3607_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3607_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 91886,
+        "score": 4.02
+    },
+    "original_book_title": "The Day of the Triffids",
+    "pages": 1331,
+    "url": "https://www.goodreads.com/book/show/530965.The_Day_of_the_Triffids",
+    "year_published": 1951
+}

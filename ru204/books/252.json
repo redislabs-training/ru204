@@ -1,0 +1,51 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 252,
+    "book_description": "To get amnesty on a remote farm planet, ex-con Tassar has to marry an alien \u2013 specifically, a strange looking creature called a \u2018human\u2019. When he sees gorgeous, delicate Leilani, though, all of his plans change. He wants more than just a marriage of convenience. He wants her forever, but only when she\u2019s ready. A Sci-Fi Alien Romance Novella.",
+    "book_title": "When She's Ready",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 63,
+        "erotica": 14,
+        "fantasy": 18,
+        "fiction": 9,
+        "novella": 25,
+        "paranormal": 19,
+        "paranormal romance": 12,
+        "romance": 79,
+        "science fiction": 65,
+        "science fiction romance": 17
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "252_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "252_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "252_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "252_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "252_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2617,
+        "score": 4
+    },
+    "original_book_title": "When She's Ready",
+    "pages": 1110,
+    "url": "https://www.goodreads.com/book/show/50796382-when-she-s-ready",
+    "year_published": 2019
+}

@@ -1,0 +1,51 @@
+{
+    "author_name": "Ernest Cline",
+    "base_id": 13248,
+    "book_description": "Zack Lightman has spent his life dreaming. Dreaming that the real world could be a little more like the countless science-fiction books, movies, and videogames he\u2019s spent his life consuming. Dreaming that one day, some fantastic, world-altering event will shatter the monotony of his humdrum existence and whisk him off on some grand space-faring adventure. But hey, there\u2019s nothing wrong with a little escapism, right? After all, Zack tells himself, he knows the difference between fantasy and reality. He knows that here in the real world, aimless teenage gamers with anger issues don\u2019t get chosen to save the universe. And then he sees the flying saucer. Even stranger, the alien ship he\u2019s staring at is straight out of the videogame he plays every night, a hugely popular online flight simulator called Armada\u2014in which gamers just happen to be protecting the earth from alien invaders.No, Zack hasn\u2019t lost his mind. As impossible as it seems, what he\u2019s seeing is all too real. And his skills\u2014as well as those of millions of gamers across the world\u2014are going to be needed to save the earth from what\u2019s about to befall it. It\u2019s Zack\u2019s chance, at last, to play the hero. But even through the terror and exhilaration, he can\u2019t help thinking back to all those science-fiction stories he grew up with, and wondering: Doesn\u2019t something about this scenario seem a little\u2026familiar? At once gleefully embracing and brilliantly subverting science-fiction conventions as only Ernest Cline could, Armada is a rollicking, surprising thriller, a classic coming of age adventure, and an alien invasion tale like nothing you\u2019ve ever read before\u2014one whose every page is infused with the pop-culture savvy that has helped make Ready Player One a phenomenon.",
+    "book_title": "Armada",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 119,
+        "adventure": 180,
+        "aliens": 154,
+        "audiobook": 489,
+        "fantasy": 331,
+        "fiction": 1117,
+        "science fiction": 2309,
+        "science fiction fantasy": 218,
+        "space": 89,
+        "young adult": 537
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "13248_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "13248_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "13248_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "13248_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "13248_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 102732,
+        "score": 3.54
+    },
+    "original_book_title": "Armada",
+    "pages": 1219,
+    "url": "https://www.goodreads.com/book/show/16278318-armada",
+    "year_published": 2015
+}

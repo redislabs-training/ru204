@@ -1,0 +1,62 @@
+{
+    "author_name": "K.A. Applegate",
+    "base_id": 89,
+    "book_description": "In an hour or so, once I was out of sight of land, I would lower my sails and wait for a Bug fighter to come lift me off the deck. The engine backwash of the Bug fighter would capsize the boat. Or I might put the Taxxon pilot to the test and see if he could ram the low-slung boat. That would puzzle the humans.Either way, my body would never be found...My time of lying low was over...I would spearhead the invasion of Earth. I would take charge of our greatest conquest. I would stand alone atop the Yeerk military hierarchy.I was to become Visser One.From the Hardcover edition",
+    "book_title": "Visser",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 9,
+        "aliens": 18,
+        "animals": 6,
+        "childrens": 23,
+        "fantasy": 26,
+        "fiction": 42,
+        "science fiction": 96,
+        "war": 6,
+        "young adult": 63
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "89_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "89_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "89_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "89_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "89_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "89_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "89_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "89_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2523,
+        "score": 4.09
+    },
+    "original_book_title": "Visser",
+    "pages": 1208,
+    "url": "https://www.goodreads.com/book/show/343187.Visser",
+    "year_published": 1999
+}

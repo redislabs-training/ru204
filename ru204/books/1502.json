@@ -1,0 +1,35 @@
+{
+    "author_name": "Marko Kloos",
+    "base_id": 1502,
+    "book_description": "The year is 2108, and the North American Commonwealth is bursting at the seams. For welfare rats like Andrew Grayson, there are only two ways out of the crime-ridden and filthy welfare tenements, where you're restricted to two thousand calories of badly flavored soy every day:You can hope to win the lottery and draw a ticket on a colony ship settling off-world, or you can join the service.With the colony lottery a pipe dream, Andrew chooses to enlist in the armed forces for a shot at real food, a retirement bonus, and maybe a ticket off Earth. But as he starts a career of supposed privilege, he soon learns that the good food and decent health care come at a steep price\u2026and that the settled galaxy holds far greater dangers than military bureaucrats or the gangs that rule the slums.The debut novel from Marko Kloos, Terms of Enlistment is a new addition to the great military sci-fi tradition of Robert Heinlein, Joe Haldeman, and John Scalzi.",
+    "book_title": "Terms of Enlistment",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "audiobook": 43,
+        "dystopia": 24,
+        "fiction": 128,
+        "military fiction": 127,
+        "military science fiction": 54,
+        "science fiction": 618,
+        "science fiction fantasy": 22,
+        "space": 33,
+        "space opera": 77,
+        "war": 36
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "1502_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24746,
+        "score": 4.01
+    },
+    "original_book_title": "Terms of Enlistment",
+    "pages": 1177,
+    "url": "https://www.goodreads.com/book/show/18800655-terms-of-enlistment",
+    "year_published": 2013
+}

@@ -1,0 +1,51 @@
+{
+    "author_name": "Ann Aguirre",
+    "base_id": 420,
+    "book_description": "WELCOME TO HELLThe prison ship Perdition, a floating city where the Conglomerate\u2019s most dangerous criminals are confined for life, orbits endlessly around a barren asteroid.Life inside is even more bleak. Hailed as the Dread Queen, inmate Dresdemona \u201cDred\u201d Devos controls one of Perdition\u2019s six territories, bordered on both sides by would-be kings eager to challenge her claim. Keeping them at bay requires constant vigilance, as well as a steady influx of new recruits to replace the fallen. Survival is a constant battle, and death is the only escape.Of the newest convicts, only one is worth Dred\u2019s attention. The mercenary Jael, with his deadly gaze and attitude, may be the most dangerous criminal onboard. His combat skill could give her the edge she needs, if he doesn\u2019t betray her first. Unfortunately, that\u2019s what he does best. Winning Jael\u2019s allegiance will be a challenge, but failure could be worse than death\u2026",
+    "book_title": "Perdition",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 52,
+        "aliens": 47,
+        "dystopia": 21,
+        "fantasy": 75,
+        "fiction": 29,
+        "romance": 91,
+        "science fiction": 304,
+        "space": 31,
+        "space opera": 35,
+        "urban fantasy": 22
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "420_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "420_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "420_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "420_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "420_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3888,
+        "score": 3.89
+    },
+    "original_book_title": "Perdition",
+    "pages": 754,
+    "url": "https://www.goodreads.com/book/show/13421230-perdition",
+    "year_published": 2013
+}

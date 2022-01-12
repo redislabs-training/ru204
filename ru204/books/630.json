@@ -1,0 +1,47 @@
+{
+    "author_name": "C.J. Cherryh",
+    "base_id": 630,
+    "book_description": "The first book in C.J. Cherryh's eponymous series, Foreigner begins an epic tale of the survivors of a lost spacecraft who crash-land on a planet inhabited by a hostile, sentient alien race.From its beginnings as a human-alien story of first contact, the Foreigner series has become a true science fiction odyssey, following a civilization from the age of steam through early space flight to confrontations with other alien species in distant sectors of space. It is the masterwork of a truly remarkable author.",
+    "book_title": "Foreigner",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 11,
+        "aliens": 43,
+        "audiobook": 13,
+        "fantasy": 62,
+        "fiction": 174,
+        "science fiction": 668,
+        "science fiction fantasy": 35,
+        "space": 11,
+        "space opera": 56,
+        "speculative fiction": 14
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "630_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "630_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "630_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "630_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9023,
+        "score": 3.94
+    },
+    "original_book_title": "Foreigner",
+    "pages": 753,
+    "url": "https://www.goodreads.com/book/show/57043.Foreigner",
+    "year_published": 1994
+}

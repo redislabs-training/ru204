@@ -1,0 +1,50 @@
+{
+    "author_name": "Chani Lynn Feener",
+    "base_id": 62,
+    "book_description": "Having gone from kidnapped faux princess to the legitimate heir to an intergalactic throne, an impulsive, sarcastic teen must take charge of her own destiny in this epic YA novel.On Earth, Delaney is a normal teenager who recently graduated high school with a fantastic best friend and a loving boyfriend.But Delaney isn\u2019t on Earth. She\u2019s on Xenith, a war-torn planet half a galaxy away. Originally mistaken for an alien princess, Delaney has gone from kidnapped imposter to the recognized heir to an alien throne. Oh, and she\u2019s engaged to the prince of an enemy nation whose ruthless father is on the warpath.Torn between two planets, two fates, and two loves, Delaney is finally ready to choose her own destiny in Within Ash and Stardust, the stunning conclusion to Chani Lynn Feener\u2019s Xenith Trilogy.Praise for the Xenith Trilogy:\"A thoughtful, sexy adventure with winning characters just begging for a bedtime read.\" \u2014VOYA on Amid Stars and Darkness\"Feener\u2019s world-building is excellent, and readers will feel engulfed in the culture, politics, and technology. The romance between Delaney and Ruckus develops slowly and satisfyingly. Give to fans of Melissa Landers\u2019s Alienated and Ally Condie\u2019s Matched.\" \u2014School Library Journal on Amid Stars and Darkness\"This debut makes for fun, fluffy reading.\" \u2014Booklist on Amid Stars and Darkness\"[A] pulse-pounding adventure.\" \u2014Booklist on Between Frost and Fury",
+    "book_title": "Within Ash and Stardust",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 2,
+        "aliens": 17,
+        "fantasy": 7,
+        "romance": 14,
+        "science fiction": 16,
+        "space": 4,
+        "teen": 2,
+        "young adult": 13,
+        "young adult science fiction": 2
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "62_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "62_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "62_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "62_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "62_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 285,
+        "score": 3.94
+    },
+    "original_book_title": "\n1250123798\n(ISBN13: 9781250123794)\n",
+    "pages": 1087,
+    "url": "https://www.goodreads.com/book/show/40864801-within-ash-and-stardust",
+    "year_published": 2019
+}

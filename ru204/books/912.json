@@ -1,0 +1,35 @@
+{
+    "author_name": "Edgar Rice Burroughs",
+    "base_id": 912,
+    "book_description": "After the long exile on Earth, John Carter finally returned to his beloved Mars. But beautiful Dejah Thoris, the woman he loved, had vanished. Now he was trapped in the legendary Eden of Mars -- an Eden from which none ever escaped alive.",
+    "book_title": "The Gods of Mars",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Pulp": 63,
+        "adventure": 132,
+        "aliens": 24,
+        "audiobook": 33,
+        "classics": 157,
+        "fantasy": 400,
+        "fiction": 238,
+        "science fiction": 682,
+        "science fiction (Sword and Planet) ": 25,
+        "science fiction fantasy": 52
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "912_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17226,
+        "score": 3.88
+    },
+    "original_book_title": "\n0345324390\n (ISBN13: 9780345324399)\n",
+    "pages": 1047,
+    "url": "https://www.goodreads.com/book/show/841973.The_Gods_of_Mars",
+    "year_published": 1913
+}

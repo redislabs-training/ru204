@@ -1,0 +1,51 @@
+{
+    "author_name": "Julie E. Czerneda",
+    "base_id": 164,
+    "book_description": "Sira is on the run. The mysterious Captain Morgan has a starship. But if she goes with him, who will be at risk? Meet the Clan, shadowy figures of unfathomable power. Meet Huido, the lobster-like restauranteur. Meet the Trade Pact Enforcers, who have their own intentions. For events are beginning to unfold that will affect them all.Originally the first of the Trade Pact Universe Trilogy, THOUSAND is now book 4 of The Clan Chronicles. The three books of the Stratification Cycle, REAP THE WILD WIND, RIDERS OF THE STORM, and RIFT IN THE SKY tell the story of the Clan through the eyes of Sira's direct ancestor. The series will conclude with the Reunification Cycle, currently pestering the author.",
+    "book_title": "A Thousand Words for Stranger",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Canada": 6,
+        "aliens": 20,
+        "fantasy": 23,
+        "fiction": 33,
+        "romance": 29,
+        "science fiction": 243,
+        "science fiction fantasy": 18,
+        "space": 7,
+        "space opera": 37,
+        "speculative fiction": 5
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "164_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "164_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "164_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "164_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "164_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2713,
+        "score": 3.89
+    },
+    "original_book_title": "A Thousand Words for Stranger (Trade Pact Universe, #1)",
+    "pages": 1026,
+    "url": "https://www.goodreads.com/book/show/129019.A_Thousand_Words_for_Stranger",
+    "year_published": 1997
+}

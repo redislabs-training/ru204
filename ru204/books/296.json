@@ -1,0 +1,43 @@
+{
+    "author_name": "Alexis Deacon",
+    "base_id": 296,
+    "book_description": "The story of an alienated alienBeegu's spacecraft is stranded on Earth. Now she is lost and wandering. Waiting for a rescue signal from her mother, she fails to make friends with the strange creatures she encounters. Rabbits don't seem to understand her; windblown leaves won't stay still to listen. But at last, on a school playground, Beegu discovers a group of fantastic companions who are happy to let her join their games . . . until a grownup creature spoils the fun.Beegu's spirits are sinking lower than ever just as the mother ship arrives, in this simple, bittersweet picture book that shows us our world through the three eyes of an innocent outsider with the help of stylish art and a wry, understated text. ",
+    "book_title": "Beegu",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Family": 17,
+        "adventure": 13,
+        "aliens": 26,
+        "animals": 8,
+        "childrens": 23,
+        "fantasy": 12,
+        "fiction": 11,
+        "picture books": 333,
+        "science fiction": 12,
+        "space": 12
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "296_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "296_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "296_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1552,
+        "score": 4.22
+    },
+    "original_book_title": "Beegu",
+    "pages": 372,
+    "url": "https://www.goodreads.com/book/show/1362489.Beegu",
+    "year_published": 2003
+}

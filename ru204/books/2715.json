@@ -1,0 +1,63 @@
+{
+    "author_name": "Johan Harstad",
+    "base_id": 2715,
+    "book_description": "Three teenagers are going on the trip of a lifetime. Only one is coming back. It's been more than forty years since NASA sent the first men to the moon, and to grab some much-needed funding and attention, they decide to launch an historic international lottery in which three lucky teenagers can win a week-long trip to moon base DARLAH 2.",
+    "book_title": "172 Hours on the Moon",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 31,
+        "fantasy": 58,
+        "fiction": 124,
+        "horror": 470,
+        "mystery": 81,
+        "paranormal": 55,
+        "science fiction": 430,
+        "space": 72,
+        "thriller": 88,
+        "young adult": 474
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "2715_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2715_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2715_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2715_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2715_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2715_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2715_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2715_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11481,
+        "score": 3.56
+    },
+    "original_book_title": "Darlah - 172 timer p\u00e5 m\u00e5nen",
+    "pages": 1023,
+    "url": "https://www.goodreads.com/book/show/12810834-172-hours-on-the-moon",
+    "year_published": 2008
+}

@@ -1,0 +1,67 @@
+{
+    "author_name": "Carl Sagan",
+    "base_id": 3315,
+    "book_description": "Jeune astronome convaincue de l'existence d'une vie extraterrestre intelligente, Ellie Arroway doit faire face au scepticisme de la communaut\u00e9 scientifique \u00e0 l'\u00e9gard du projet \"Argus\", un programme d'\u00e9coute spatiale install\u00e9 au Nouveau-Mexique qu'elle et son \u00e9quipe tentent par tous les moyens de sauver. Jusqu'au jour o\u00f9 leurs ordinateurs captent un message rationnel \u00e9mis non pas depuis la Terre, mais depuis V\u00e9ga, une lointaine \u00e9toile. Ellie se lance alors \u00e0 coeur perdu dans son d\u00e9chiffrage, pour d\u00e9couvrir qu'il s'agit des plans d'un v\u00e9hicule cens\u00e9 permettre \u00e0 des humains de voyager dans l'espace afin de rencontrer ceux qui nous les ont adress\u00e9s. Or ces \u00eatressemblent \u00e0 pr\u00e9sent impatients d'\u00e9tablir le contact : ils nous surveillent depuis longtemps, et le moment est peut-\u00eatre venu pour eux de nous juger...",
+    "book_title": "Contact",
+    "editions": [
+        "French"
+    ],
+    "genres": {
+        "aliens": 84,
+        "astronomy": 76,
+        "audiobook": 86,
+        "classics": 145,
+        "fantasy": 106,
+        "fiction": 1535,
+        "novels": 129,
+        "science fiction": 2923,
+        "science fiction fantasy": 187,
+        "space": 133
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "3315_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3315_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3315_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "3315_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3315_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3315_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3315_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "3315_8"
+        },
+        {
+            "status": "available",
+            "stock_number": "3315_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 127632,
+        "score": 4.13
+    },
+    "original_book_title": "Contact",
+    "pages": 357,
+    "url": "https://www.goodreads.com/book/show/61666.Contact",
+    "year_published": 1985
+}

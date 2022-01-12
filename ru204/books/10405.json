@@ -1,0 +1,47 @@
+{
+    "author_name": "Sylvain Neuvel",
+    "base_id": 10405,
+    "book_description": "A girl named Rose is riding her new bike near home in Deadwood, South Dakota, when she falls through the earth. She wakes up at the bottom of a square-shaped hole, its walls glowing with intricate carvings. But the firemen who come to save her peer down upon something even stranger: a little girl in the palm of a giant metal hand.Seventeen years later, the mystery of the bizarre artifact remains unsolved - the object's origins, architects, and purpose unknown.But some can never stop searching for answers.Rose Franklin is now a highly trained physicist leading a top-secret team to crack the hand's code. And along with her colleagues, she is being interviewed by a nameless interrogator whose power and purview are as enigmatic as the relic they seek. What's clear is that Rose and her compatriots are on the edge of unravelling history's most perplexing discovery-and finally figuring out what it portends for humanity. But once the pieces of the puzzle are in place, will the result be an instrument of lasting peace or a weapon of mass destruction?",
+    "book_title": "Sleeping Giants",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 393,
+        "adult fiction": 125,
+        "aliens": 181,
+        "audiobook": 486,
+        "fantasy": 746,
+        "fiction": 1207,
+        "mystery": 197,
+        "science fiction": 3125,
+        "science fiction fantasy": 202,
+        "thriller": 135
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "10405_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "10405_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "10405_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "10405_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 72671,
+        "score": 3.83
+    },
+    "original_book_title": "Sleeping Giants",
+    "pages": 379,
+    "url": "https://www.goodreads.com/book/show/25733990-sleeping-giants",
+    "year_published": 2016
+}

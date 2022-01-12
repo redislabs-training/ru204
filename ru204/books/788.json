@@ -1,0 +1,43 @@
+{
+    "author_name": "Rachel Bach",
+    "base_id": 788,
+    "book_description": "The rollicking sequel to Fortune's Pawn -- an action packed science fiction novel. Devi Morris has a lot of problems. And not the fun, easy-to-shoot kind either. After a mysterious attack left her short several memories and one partner, she's determined to keep her head down, do her job, and get on with her life. But even though Devi's not actually looking for it -- trouble keeps finding her. She sees things no one else can, the black stain on her hands is growing, and she is entangled with the cook she's supposed to hate. But when a deadly crisis exposes far more of the truth than she bargained for, Devi discovers there's worse fates than being shot, and sometimes the only people you can trust are the ones who want you dead.",
+    "book_title": "Honor's Knight",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 39,
+        "adventure": 37,
+        "aliens": 69,
+        "fantasy": 41,
+        "fiction": 67,
+        "romance": 138,
+        "science fiction": 495,
+        "science fiction fantasy": 24,
+        "space": 60,
+        "space opera": 122
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "788_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "788_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "788_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8545,
+        "score": 3.98
+    },
+    "original_book_title": "Honor's Knight",
+    "pages": 297,
+    "url": "https://www.goodreads.com/book/show/16131473-honor-s-knight",
+    "year_published": 2014
+}

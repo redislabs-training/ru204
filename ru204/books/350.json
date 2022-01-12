@@ -1,0 +1,55 @@
+{
+    "author_name": "Christopher Golden",
+    "base_id": 350,
+    "book_description": "When Ellen Ripley finally returns to Earth, she learns that the planet LV-426\u2014now called Acheron\u2014has been colonized. But LV-426 is where Ripley and the crew of the Nostromo found the original Xenomorph\u2014the killing machine known as the Alien.Protected by the Colonial Marines, the colonists seek to terraform the storm-swept planet. Two such residents are Anne and Russell Jorden, seeking a fortune that eluded them on Earth. On Acheron, Anne gives birth to the colony\u2019s first newborn. Rebecca Jordan, also known as Newt.The wildcatters discover a vast, decaying spaceship. The horseshoe-shaped vessel is of particular interest to Weyland-Yutani, and may be the answer to their dreams. But what Anne and Russ find on board proves to be the stuff, not of dreams, but of nightmares.Alien TM & \u00a9 1979, 2013 Twentieth Century Fox Film Corporation. All Rights Reserved.",
+    "book_title": "Alien: River of Pain",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 5,
+        "aliens": 27,
+        "audiobook": 41,
+        "fiction": 32,
+        "horror": 122,
+        "media tie-in": 5,
+        "novels": 6,
+        "science fiction": 105,
+        "science fiction fantasy": 6,
+        "thriller": 5
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "350_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "350_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "350_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "350_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "350_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "350_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2649,
+        "score": 3.81
+    },
+    "original_book_title": "Alien: River of Pain",
+    "pages": 1278,
+    "url": "https://www.goodreads.com/book/show/21432866-alien",
+    "year_published": 2014
+}

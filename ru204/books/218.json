@@ -1,0 +1,43 @@
+{
+    "author_name": "Tanya Huff",
+    "base_id": 218,
+    "book_description": "Gunnery Sergeant Torin Kerr's goal is to keep both her superior officers and her troops alive as they face missions throughout the galaxy. But she's been sidelined with endless briefings and debriefings for a while, so she jumps at the chance to go to Crucible - the Marine Corps training planet - as temporary aide to Major Svensson. The major was reduced to little more than a brain and spinal cord in his last combat, and now he and his doctor are eager to field test his new body. It's supposed to be an easy assignment - after all, Crucible was set up to simulate battle situations so recruits could be trained safely. But Torin's barely on-planet when someone starts blasting the training scenarios to smithereens...",
+    "book_title": "The Heart of Valor",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 19,
+        "fantasy": 25,
+        "fiction": 42,
+        "military fiction": 76,
+        "military science fiction": 24,
+        "science fiction": 227,
+        "science fiction fantasy": 15,
+        "space": 19,
+        "space opera": 53,
+        "war": 15
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "218_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "218_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "218_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5087,
+        "score": 4.07
+    },
+    "original_book_title": "The Heart of Valor",
+    "pages": 561,
+    "url": "https://www.goodreads.com/book/show/176410.The_Heart_of_Valor",
+    "year_published": 2007
+}

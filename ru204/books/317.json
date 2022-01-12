@@ -1,0 +1,63 @@
+{
+    "author_name": "Wesley Chu",
+    "base_id": 317,
+    "book_description": " Booklist Starred Review Shelf Awareness Starred ReviewThe sequel to The Lives of Tao.The Prophus and the Genjix are at war. For centuries they have sought a way off-planet, guiding humanity\u2019s social and technological development to the stage where space travel is possible. The end is now in sight, and both factions have plans to leave the Earth, but the Genjix method will mean the destruction of the human race.That\u2019s a price they\u2019re willing to pay.It\u2019s up to Roen and Tao to save the world. Oh, dear\u2026File Under: science fiction [ Manning Up | A Long Journey | Bye-Bye Mankind | Personal Space ]",
+    "book_title": "The Deaths of Tao",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Religion (Taoism) ": 7,
+        "action": 8,
+        "adventure": 8,
+        "aliens": 21,
+        "fantasy": 33,
+        "fiction": 44,
+        "science fiction": 168,
+        "science fiction fantasy": 10,
+        "thriller": 17,
+        "urban fantasy": 11
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "317_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "317_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "317_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "317_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "317_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "317_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "317_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "317_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3428,
+        "score": 3.91
+    },
+    "original_book_title": "\n0857663321\n(ISBN13: 9780857663320)\n",
+    "pages": 1151,
+    "url": "https://www.goodreads.com/book/show/17726421-the-deaths-of-tao",
+    "year_published": 2013
+}

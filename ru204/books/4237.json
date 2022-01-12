@@ -1,0 +1,38 @@
+{
+    "author_name": "Brian K. Vaughan",
+    "base_id": 4237,
+    "book_description": "The multiple Eisner Award-winning series returns with a spacefaring adventure about fake news and genuine terror. Get ready for the most shocking, most impactful SAGA storyline yet.Collects SAGA #49-54",
+    "book_title": "Saga, Vol. 9",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 152,
+        "comic book": 93,
+        "comics": 1021,
+        "fantasy": 785,
+        "fiction": 238,
+        "graphic novels": 1748,
+        "lgbt": 80,
+        "romance": 69,
+        "science fiction": 503
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "4237_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "4237_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22327,
+        "score": 4.57
+    },
+    "original_book_title": "Saga, Vol. 9",
+    "pages": 544,
+    "url": "https://www.goodreads.com/book/show/29237221-saga-vol-9",
+    "year_published": 2018
+}

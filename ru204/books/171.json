@@ -1,0 +1,59 @@
+{
+    "author_name": "Wendy Higgins",
+    "base_id": 171,
+    "book_description": "New York Times bestselling author Wendy Higgins brings you the second book in this thrilling war-torn world...Being on the run in the desert means food and sanctuary are hard to come by, but Amber Tate and her crew are not about to give up. Not after having the things they love brutally ripped from them by an unknown enemy who sent their world into the apocalypse.Survival takes precedence, but once safe shelter is found, their guards fall and the emotions they've been holding in are finally released. Anger, insecurities...lust. In their tight quarters, Amber, Rylen, Tater, and Remy can't escape it. The past must be faced, and passions run even stronger in the darkest of times. In the midst of unrest, their worlds are rocked again when they discover the truth about the war that's ruined their lives. They thought finding out the enemy's identity would give them the edge; instead it's revealed terrifying dangers they never thought possible.",
+    "book_title": "Unrest",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 25,
+        "apocalyptic": 10,
+        "dystopia": 33,
+        "fantasy": 7,
+        "military fiction": 6,
+        "new adult": 52,
+        "paranormal": 13,
+        "post apocalyptic": 8,
+        "romance": 37,
+        "science fiction": 18
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "171_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "171_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "171_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "171_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "171_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "171_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "171_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1221,
+        "score": 4.31
+    },
+    "original_book_title": "Unrest",
+    "pages": 1154,
+    "url": "https://www.goodreads.com/book/show/34299752-unrest",
+    "year_published": 2017
+}

@@ -1,0 +1,63 @@
+{
+    "author_name": "Stephen King",
+    "base_id": 2679,
+    "book_description": "What might be done to human beings by the \"Other\"--whether the \"Other\" be vampires, demons or creatures from outer space--is always in competition for absolute horror with what we do to ourselves. Stephen King has, in his time, played with both sources of the nightmarish and in Dreamcatcher, the first complete novel since his near-fatal accident, he gives us both.Four childhood friends, united by secrets, are caught in the quarantine zone when something crashes into the remote forests of Maine; and the question becomes who will avoid being eaten alive by alien fungi, torn from the inside by alien ferrets, possessed by alien minds or menaced by a psychotic military commander to whom ruthlessness has become a macho ego trip?The Earth is in peril as well, needless to say, but most of our attention is taken up with a few men caught on the edge, and where the most important thing in the world turns out to be the fact that four small boys saved a fifth from a beating.This has the hall-marks of a good King novel--memorable catchphrases whose meaning we only gradually learn and a sense of how it feels to be human. --Roz Kaveney",
+    "book_title": "Dreamcatcher",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 110,
+        "fantasy": 226,
+        "fiction": 1006,
+        "horror": 3062,
+        "mystery": 81,
+        "paranormal": 79,
+        "science fiction": 439,
+        "supernatural": 92,
+        "suspense": 66,
+        "thriller": 264
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "2679_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2679_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2679_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2679_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2679_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2679_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2679_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2679_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 154284,
+        "score": 3.63
+    },
+    "original_book_title": "Dreamcatcher",
+    "pages": 1303,
+    "url": "https://www.goodreads.com/book/show/11570.Dreamcatcher",
+    "year_published": 2001
+}

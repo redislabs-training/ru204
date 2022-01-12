@@ -1,0 +1,63 @@
+{
+    "author_name": "Stacey Kade",
+    "base_id": 622,
+    "book_description": "There is an alternate cover edition for this ISBN10/ISBN13 here.1. Never trust anyone.2. Remember they are always searching.3. Don\u2019t get involved.4. Keep your head down.5. Don\u2019t fall in love.Five simple rules. Ariane Tucker has followed them since the night she escaped from the genetics lab where she was created, the result of combining human and extraterrestrial DNA. Ariane\u2019s survival\u2014and that of her adoptive father\u2014depends on her ability to blend in among the full-blooded humans in a small Wisconsin town, to hide in plain sight at her high school from those who seek to recover their lost (and expensive) \u201cproject.\u201dBut when a cruel prank at school goes awry, it puts her in the path of Zane Bradshaw, the police chief\u2019s son and someone who sees too much. Someone who really sees her. After years of trying to be invisible, Ariane finds the attention frightening\u2014and utterly intoxicating. Suddenly, nothing is simple anymore, especially not the rules\u2026",
+    "book_title": "The Rules",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 118,
+        "dystopia": 53,
+        "fantasy": 67,
+        "fiction": 20,
+        "high school": 18,
+        "paranormal": 65,
+        "romance": 100,
+        "science fiction": 156,
+        "urban fantasy": 19,
+        "young adult": 261
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "622_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "622_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "622_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "622_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "622_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "622_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "622_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "622_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5931,
+        "score": 3.94
+    },
+    "original_book_title": "The Rules",
+    "pages": 687,
+    "url": "https://www.goodreads.com/book/show/11640957-the-rules",
+    "year_published": 2013
+}

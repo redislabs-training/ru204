@@ -1,0 +1,46 @@
+{
+    "author_name": "Brian K. Vaughan",
+    "base_id": 3719,
+    "book_description": "From the worldwide bestselling team of Fiona Staples and Brian K. Vaughan, \u201cThe War for Phang\u201d is an epic, self-contained Saga event! Finally reunited with her ever-expanding family, Hazel travels to a war-torn comet that Wreath and Landfall have been battling over for ages. New friendships are forged and others are lost forever in this action-packed volume about families, combat and the refugee experience. Collecting: Saga 37-42",
+    "book_title": "Saga, Vol. 7",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 215,
+        "adventure": 98,
+        "comic book": 146,
+        "comics": 1440,
+        "fantasy": 1162,
+        "fiction": 364,
+        "graphic novels": 2697,
+        "romance": 106,
+        "science fiction": 792
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "3719_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3719_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3719_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3719_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 35507,
+        "score": 4.5
+    },
+    "original_book_title": "Saga, Volume Seven",
+    "pages": 1365,
+    "url": "https://www.goodreads.com/book/show/29237211-saga-vol-7",
+    "year_published": 2017
+}

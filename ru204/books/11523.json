@@ -1,0 +1,51 @@
+{
+    "author_name": "Hank Green",
+    "base_id": 11523,
+    "book_description": "The Carls just appeared.Roaming through New York City at three AM, twenty-three-year-old April May stumbles across a giant sculpture. Delighted by its appearance and craftsmanship\u2014like a ten-foot-tall Transformer wearing a suit of samurai armor\u2014April and her best friend, Andy, make a video with it, which Andy uploads to YouTube. The next day, April wakes up to a viral video and a new life. News quickly spreads that there are Carls in dozens of cities around the world\u2014from Beijing to Buenos Aires\u2014and April, as their first documentarian, finds herself at the center of an intense international media spotlight.Seizing the opportunity to make her mark on the world, April now has to deal with the consequences her new particular brand of fame has on her relationships, her safety, and her own identity. And all eyes are on April to figure out not just what the Carls are, but what they want from us.",
+    "book_title": "An Absolutely Remarkable Thing",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 222,
+        "adult fiction": 125,
+        "audiobook": 369,
+        "contemporary": 574,
+        "fantasy": 209,
+        "fiction": 1256,
+        "lgbt": 315,
+        "mystery": 143,
+        "science fiction": 1214,
+        "young adult": 694
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "11523_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "11523_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "11523_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "11523_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "11523_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 67722,
+        "score": 4.03
+    },
+    "original_book_title": "An Absolutely Remarkable Thing",
+    "pages": 1153,
+    "url": "https://www.goodreads.com/book/show/24233708-an-absolutely-remarkable-thing",
+    "year_published": 2018
+}

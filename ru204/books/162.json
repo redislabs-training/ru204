@@ -1,0 +1,67 @@
+{
+    "author_name": "Margaret McNamara",
+    "base_id": 162,
+    "book_description": "GREEP BOINK MEEP! The three little aliens are happily settling into their new homes when the Big Bad Robot flies in to crack and smack and whack their houses down! A chase across the solar system follows in this out-of-this-world version of the classic Three Little Pigs tale. Margaret McNamara (How Many Seeds in a Pumpkin?) and Mark Fearing (The Book that Eats People) have created a humorous and visually stunning story that kids will adore\u2014and that will introduce them to the planets and the solar system. The endpapers even include a labeled diagram of all the planets.",
+    "book_title": "The Three Little Aliens and the Big Bad Robot",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Childrens (Storytime) ": 14,
+        "Fairy Tales (Fractured Fairy Tales) ": 11,
+        "aliens": 29,
+        "childrens": 29,
+        "fairy tales": 11,
+        "humor": 11,
+        "picture books": 129,
+        "robots": 24,
+        "science fiction": 16,
+        "space": 28
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "162_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "162_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "162_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "162_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 929,
+        "score": 3.75
+    },
+    "original_book_title": "\n0375866892\n(ISBN13: 9780375866890)\n",
+    "pages": 766,
+    "url": "https://www.goodreads.com/book/show/10475205-the-three-little-aliens-and-the-big-bad-robot",
+    "year_published": 2011
+}

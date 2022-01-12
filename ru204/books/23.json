@@ -1,0 +1,51 @@
+{
+    "author_name": "Angela Castle",
+    "base_id": 23,
+    "book_description": "Sara, abducted from Earth by cruel aliens, is used as a torture slave and left to die.Solron, a healer of Kelon, is annoyed at being ordered to go on a cleanup mission to check abandoned enemy war bases. When he and the crew discover a small human woman on the brink of death, Solron manages to save her. But the beautiful little human stirs more within him than his need to heal. Under Solron\u2019s care, Sara falls deeply in love with the alien doctor and he claims her for himself. But when confronted by the Xerson who tortured her, Solron demands a fight with him.Sara knows she has no choice but to let them fight, but will she now lose the man she loves to the curled Xerson, or will justice at last be served?",
+    "book_title": "Saving Sara",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 21,
+        "erotica": 6,
+        "fantasy": 3,
+        "futuristic": 3,
+        "male female romance": 3,
+        "paranormal": 4,
+        "paranormal romance": 4,
+        "romance": 13,
+        "science fiction": 18,
+        "science fiction romance": 9
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "23_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "23_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "23_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "23_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "23_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 668,
+        "score": 3.87
+    },
+    "original_book_title": "9781611604412",
+    "pages": 824,
+    "url": "https://www.goodreads.com/book/show/16029845-saving-sara",
+    "year_published": 2012
+}

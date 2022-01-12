@@ -1,0 +1,46 @@
+{
+    "author_name": "Brian K. Vaughan",
+    "base_id": 13517,
+    "book_description": "When two soldiers from opposite sides of a never-ending galactic war fall in love, they risk everything to bring a fragile new life into a dangerous old universe. From bestselling writer Brian K. Vaughan, Saga is the sweeping tale of one young family fighting to find their place in the worlds. fantasy and science fiction are wed like never before in this sexy, subversive drama for adults. Collecting: Saga 1-6",
+    "book_title": "Saga, Vol. 1",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 617,
+        "adventure": 360,
+        "comic book": 455,
+        "comics": 6062,
+        "fantasy": 3859,
+        "fiction": 1067,
+        "graphic novels": 8173,
+        "romance": 507,
+        "science fiction": 2373
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "13517_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "13517_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "13517_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "13517_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 263153,
+        "score": 4.18
+    },
+    "original_book_title": "Saga, Volume One",
+    "pages": 1000,
+    "url": "https://www.goodreads.com/book/show/15704307-saga-vol-1",
+    "year_published": 2012
+}

@@ -1,0 +1,47 @@
+{
+    "author_name": "John Christopher",
+    "base_id": 277,
+    "book_description": "Alternate cover edition can be found here. Will Parker has managed to escape from the City of Gold and Lead, where he served as a slave to one of the Masters who rule the modern world. And He has not only discovered what lies behind the Tripods' power, but also how the Masters heartlessly plan to destroy the earth.",
+    "book_title": "The Pool of Fire",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 18,
+        "aliens": 17,
+        "childrens": 35,
+        "dystopia": 42,
+        "fantasy": 55,
+        "fiction": 129,
+        "post apocalyptic": 21,
+        "science fiction": 346,
+        "science fiction fantasy": 21,
+        "young adult": 154
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "277_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "277_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "277_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "277_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6452,
+        "score": 4
+    },
+    "original_book_title": "The Pool of Fire",
+    "pages": 1272,
+    "url": "https://www.goodreads.com/book/show/80491.The_Pool_of_Fire",
+    "year_published": 1968
+}

@@ -1,0 +1,55 @@
+{
+    "author_name": "Margaret Stohl",
+    "base_id": 1003,
+    "book_description": "Your heart beats only with their permission.Everything changed on The Day. The day the windows shattered. The day the power stopped. The day Dol's family dropped dead. The day Earth lost a war it didn't know it was fighting.Since then, Dol has lived a simple life in the countryside -- safe from the shadow of the Icon and its terrifying power. Hiding from the one truth she can't avoid.She's different. She survived. Why?When Dol and her best friend, Ro, are captured and taken to the Embassy, off the coast of the sprawling metropolis once known as the City of Angels, they find only more questions. While Ro and fellow hostage Tima rage against their captors, Dol finds herself drawn to Lucas, the Ambassador's privileged son. But the four teens are more alike than they might think, and the timing of their meeting isn't a coincidence. It's a conspiracy.Within the Icon's reach, Dol, Ro, Tima, and Lucas discover that their uncontrollable emotions -- which they've always thought to be their greatest weaknesses -- may actually be their greatest strengths.Bestselling author Margaret Stohl delivers the first book in a heart-pounding series set in a haunting new world where four teens must piece together the mysteries of their pasts -- in order to save the future.",
+    "book_title": "Icons",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 75,
+        "audiobook": 21,
+        "dystopia": 201,
+        "fantasy": 72,
+        "fiction": 38,
+        "paranormal": 33,
+        "post apocalyptic": 45,
+        "romance": 39,
+        "science fiction": 160,
+        "young adult": 293
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "1003_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1003_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "1003_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1003_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "1003_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1003_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7856,
+        "score": 3.41
+    },
+    "original_book_title": "Icons",
+    "pages": 219,
+    "url": "https://www.goodreads.com/book/show/11861715-icons",
+    "year_published": 2013
+}

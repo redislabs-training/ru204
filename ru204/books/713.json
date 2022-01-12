@@ -1,0 +1,55 @@
+{
+    "author_name": "Eve Silver",
+    "base_id": 713,
+    "book_description": "So what's the game now? This, or the life I used to know? Miki Jones's carefully controlled life spins into chaos after she's run down in the street, left broken and bloody. She wakes up fully healed in a place called the lobby - pulled from her life, through time and space into some kind of game in which she and a team of other teens are sent on missions to eliminate the Drau, terrifying and beautiful alien creatures. There are no practice runs, no training, and no way out. Every moment of the game is kill or be killed, and Miki has only the questionable guidance of Jackson Tate, the team's alluring and secretive leader. He evades her questions, holds himself aloof from the others, and claims it's every player for himself. But when he puts himself at risk to watch Miki's back, he leaves her both frustrated and fascinated. Jackson says the game isn't really a game, that what Miki and her new teammates do now determines their survival. And the survival of every other person on the planet. She laughs. He doesn't. And then the game takes a deadly and terrifying turn.",
+    "book_title": "Rush",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 26,
+        "adventure": 24,
+        "aliens": 106,
+        "dystopia": 57,
+        "fantasy": 108,
+        "fiction": 24,
+        "paranormal": 36,
+        "romance": 72,
+        "science fiction": 180,
+        "young adult": 251
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "713_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "713_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "713_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "713_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "713_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "713_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5237,
+        "score": 3.89
+    },
+    "original_book_title": "Rush",
+    "pages": 388,
+    "url": "https://www.goodreads.com/book/show/13571953-rush",
+    "year_published": 2013
+}

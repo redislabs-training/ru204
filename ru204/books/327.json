@@ -1,0 +1,39 @@
+{
+    "author_name": "Gena Showalter",
+    "base_id": 327,
+    "book_description": "New York Times bestselling author Gena Showalter captivates with a dark, tantalizing world of humans, otherworlders, and a powerful AIR agent consumed by his desire for a woman he can never have. . . .With one caress, he can give unforgettable pleasure . . . or unending pain. . . .Hector Dean is shaved, tattooed, and totally ripped\u2014and he has a deadly secret. He is a walking weapon, capable of killing with a single brush of his fingertips. Little wonder he\u2019s determined to remain on his own. But Noelle Tremain is a temptation like no other. She is beautiful and rich, with a party girl smile that hides a shocking vulnerability, and from the beginning his sizzling attraction to her is undeniable. For the first time, his stone-cold resistance is tested. But to be with her, he risks destroying her.When a wealthy businessman is murdered in New Chicago\u2019s seediest district, the two are partnered, and there\u2019s no escaping what they both want: each other. Yet neither Hector nor Noelle knows what to fear more\u2014the killer case, or their own lethal desires. . . .",
+    "book_title": "Dark Taste of Rapture",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 11,
+        "aliens": 36,
+        "fantasy": 33,
+        "paranormal": 62,
+        "paranormal romance": 79,
+        "romance": 58,
+        "science fiction": 16,
+        "supernatural": 15,
+        "urban fantasy": 16,
+        "vampires": 21
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "327_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "327_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5882,
+        "score": 4.35
+    },
+    "original_book_title": "Dark Taste of Rapture",
+    "pages": 790,
+    "url": "https://www.goodreads.com/book/show/9757229-dark-taste-of-rapture",
+    "year_published": 2011
+}

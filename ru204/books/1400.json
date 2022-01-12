@@ -1,0 +1,47 @@
+{
+    "author_name": "Emma Newman",
+    "base_id": 1400,
+    "book_description": "From the award-nominated author Emma Newman, comes a novel of how one secret withheld to protect humanity\u2019s future might be its undoing\u2026Renata Ghali believed in Lee Suh-Mi\u2019s vision of a world far beyond Earth, calling to humanity. A planet promising to reveal the truth about our place in the cosmos, untainted by overpopulation, pollution, and war. Ren believed in that vision enough to give up everything to follow Suh-Mi into the unknown. More than twenty-two years have passed since Ren and the rest of the faithful braved the starry abyss and established a colony at the base of an enigmatic alien structure where Suh-Mi has since resided, alone. All that time, Ren has worked hard as the colony's 3-D printer engineer, creating the tools necessary for human survival in an alien environment, and harboring a devastating secret.Ren continues to perpetuate the lie forming the foundation of the colony for the good of her fellow colonists, despite the personal cost. Then a stranger appears, far too young to have been part of the first planetfall, a man who bears a remarkable resemblance to Suh-Mi. The truth Ren has concealed since planetfall can no longer be hidden. And its revelation might tear the colony apart\u2026",
+    "book_title": "Planetfall",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 28,
+        "audiobook": 42,
+        "fantasy": 39,
+        "fiction": 200,
+        "lgbt": 41,
+        "mystery": 32,
+        "science fiction": 725,
+        "science fiction fantasy": 47,
+        "space": 32,
+        "speculative fiction": 37
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "1400_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1400_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1400_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "1400_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9440,
+        "score": 3.74
+    },
+    "original_book_title": "Planetfall",
+    "pages": 353,
+    "url": "https://www.goodreads.com/book/show/24237785-planetfall",
+    "year_published": 2015
+}

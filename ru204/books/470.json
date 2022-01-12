@@ -1,0 +1,39 @@
+{
+    "author_name": "Tanya Huff",
+    "base_id": 470,
+    "book_description": "In the distant future, humans and several other races have been granted membership in the Confederation - at a price. They must act as soldier/protectors of the far more civilized races who have long since turned away from war... \u2014 Staff Sergeant Torin Kerr was a battle-hardened professional. So when she and those in her platoon who'd survived the last deadly encounter with the Others were yanked from a well-deserved leave for what was supposed to be \"easy\" duty as the honor guard for a diplomatic mission to the non-Confederation world of the Silsviss, she was ready for anything.At first it seemed that all she'd have to contend with was bored troops getting into mischief, and breaking in the new Second Lieutenant who had been given command of her men.Sure, there'd been rumors of the Others - the sworn enemies of the Confederation - being spotted in this sector of space. But there were always rumors. The key thing was to recruit the Silsviss into the Confederation before the Others either attacked or claimed this lizardlike race of warriors for their own side. And everything seemed to be going perfectly. Maybe too perfectly...",
+    "book_title": "Valor's Choice",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 28,
+        "fantasy": 44,
+        "fiction": 70,
+        "military fiction": 100,
+        "military science fiction": 36,
+        "science fiction": 490,
+        "science fiction fantasy": 25,
+        "space": 22,
+        "space opera": 115,
+        "war": 24
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "470_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "470_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7463,
+        "score": 3.98
+    },
+    "original_book_title": "Valor's Choice",
+    "pages": 1230,
+    "url": "https://www.goodreads.com/book/show/772606.Valor_s_Choice",
+    "year_published": 2000
+}

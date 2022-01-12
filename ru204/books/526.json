@@ -1,0 +1,67 @@
+{
+    "author_name": "Michelle Diener",
+    "base_id": 526,
+    "book_description": "Some secrets carry the weight of the world.Rose McKenzie may be far from Earth with no way back, but she's made a powerful ally--a fellow prisoner with whom she's formed a strong bond. Sazo's an artificial intelligence. He's saved her from captivity and torture, but he's also put her in the middle of a conflict, leaving Rose with her loyalties divided.Captain Dav Jallan doesn't know why he and his crew have stumbled across an almost legendary Class 5 battleship, but he's not going to complain. The only problem is, all its crew are dead, all except for one strange, new alien being.She calls herself Rose. She seems small and harmless, but less and less about her story is adding up, and Dav has a bad feeling his crew, and maybe even the four planets, are in jeopardy. The Class 5's owners, the Tecran, look set to start a war to get it back and Dav suspects Rose isn't the only alien being who survived what happened on the Class 5. And whatever else is out there is playing its own games.In this race for the truth, he's going to have to go against his leaders and trust the dark horse.Winner of a SFR Galaxy Award 2016 and the Prism Award 2016 for Best Futuristic.",
+    "book_title": "Dark Horse",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 22,
+        "aliens": 115,
+        "fantasy": 35,
+        "fiction": 13,
+        "futuristic": 15,
+        "romance": 219,
+        "science fiction": 262,
+        "science fiction romance": 61,
+        "space": 41,
+        "space opera": 37
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "526_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "526_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "526_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "526_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "526_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "526_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "526_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "526_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "526_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4826,
+        "score": 4.12
+    },
+    "original_book_title": "\n0992455928\n(ISBN13: 9780992455927)\n",
+    "pages": 797,
+    "url": "https://www.goodreads.com/book/show/25615831-dark-horse",
+    "year_published": 2015
+}

@@ -1,0 +1,51 @@
+{
+    "author_name": "Melinda Metz",
+    "base_id": 31,
+    "book_description": "Love...too late? Michael: He's being held in a secret compound. But he's concerned less for himself than his friends. Max. Maria. Liz. Alex. And Isabel. He's got to get out before he's forced to betray the Roswell residents whom Sheriff Valenti is dying to capture. And once Sheriff Valenti has the information he wants, he won't be needing Michael anymore. Isabel: She used to think of Michael as a brother. But now that he's been captured, she seems to be the only one able to hear his every thought, feel his every emotion, share his dreams. Could this special bond between them mean they're meant to be together? Time is running out for Isabel to know for sure...",
+    "book_title": "The Intruder",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 18,
+        "fantasy": 11,
+        "fiction": 9,
+        "paranormal": 9,
+        "romance": 8,
+        "science fiction": 30,
+        "science fiction fantasy": 5,
+        "supernatural": 9,
+        "teen": 9,
+        "young adult": 63
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "31_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "31_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "31_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "31_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "31_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1183,
+        "score": 3.64
+    },
+    "original_book_title": "The Intruder",
+    "pages": 1138,
+    "url": "https://www.goodreads.com/book/show/437904.The_Intruder",
+    "year_published": 1999
+}

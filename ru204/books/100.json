@@ -1,0 +1,47 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 100,
+    "book_description": "Journal: ( 1 | 2 | 3 | 4 | 5 | 6 | 7 )",
+    "book_title": "Sam's Journal",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 19,
+        "dystopia": 3,
+        "fantasy": 17,
+        "fiction": 9,
+        "novella": 7,
+        "science fiction": 36,
+        "science fiction fantasy": 3,
+        "short stories": 16,
+        "supernatural": 3,
+        "young adult": 42
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "100_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "100_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "100_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "100_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2002,
+        "score": 3.6
+    },
+    "original_book_title": "English",
+    "pages": 1299,
+    "url": "https://www.goodreads.com/book/show/15845821-sam-s-journal",
+    "year_published": 2012
+}

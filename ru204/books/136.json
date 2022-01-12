@@ -1,0 +1,51 @@
+{
+    "author_name": "Megan Shepherd",
+    "base_id": 136,
+    "book_description": "The Maze Runner meets Scott Westerfeld in the final novel in the gripping and romantic Cage series, about teens abducted from Earth by an otherworldly race.Cora and her friends have escaped the Kindred station and landed at Armstrong\u2014a supposed safe haven on a small moon\u2014where they plan to regroup and figure out how to win the Gauntlet, the challenging competition to prove humanity\u2019s intelligence and set them free. But Armstrong is no paradise; ruled by a power-hungry sheriff, it\u2019s a violent world where the teens are enslaved and put to work in mines. As Nok\u2019s due date grows closer, and Mali and Leon journey across space to rescue Cassian, the former inhabitants of the cage are up against impossible odds.With the whole universe at stake, Cora will do whatever it takes, including pushing her body and mind to the breaking point, to escape Armstrong and run the Gauntlet. But it isn\u2019t just a deranged sheriff she has to overcome: the other intelligent species\u2014the Axion, Kindred, Gatherers, and Mosca\u2014all have their own reasons to stop her. Not knowing who to trust, Cora must rely on her own instincts to win the competition, which could change the world\u2014though it might destroy her in the process.",
+    "book_title": "The Gauntlet",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 20,
+        "audiobook": 5,
+        "dystopia": 16,
+        "fantasy": 13,
+        "fiction": 6,
+        "romance": 14,
+        "science fiction": 46,
+        "space": 4,
+        "teen": 5,
+        "young adult": 37
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "136_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "136_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "136_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "136_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "136_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1048,
+        "score": 3.74
+    },
+    "original_book_title": "The Gauntlet",
+    "pages": 941,
+    "url": "https://www.goodreads.com/book/show/18298581-the-gauntlet",
+    "year_published": 2017
+}

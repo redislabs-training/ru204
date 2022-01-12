@@ -1,0 +1,47 @@
+{
+    "author_name": "Elizabeth Moon",
+    "base_id": 494,
+    "book_description": "For forty years, Colony 3245.12 has been Ofelia\u2019s home. On this planet far away in space and time from the world of her youth, she has lived and loved, weathered the death of her husband, raised her one surviving child, lovingly tended her garden, and grown placidly old. And it is here that she fully expects to finish out her days\u2013until the shifting corporate fortunes of the Sims Bancorp Company dictates that Colony 3245.12 is to be disbanded, its residents shipped off, deep in cryo-sleep, to somewhere new and strange and not of their choosing. But while her fellow colonists grudgingly anticipate a difficult readjustment on some distant world, Ofelia savors the promise of a golden opportunity. Not starting over in the hurly-burly of a new community... but closing out her life in blissful solitude, in the place she has no intention of leaving. A population of one.With everything she needs to sustain her, and her independent spirit to buoy her, Ofelia actually does start life over\u2013for the first time on her own terms: free of the demands, the judgments, and the petty tyrannies of others. But when a reconnaissance ship returns to her idyllic domain, and its crew is mysteriously slaughtered, Ofelia realizes she is not the sole inhabitant of her paradise after all. And, when the inevitable time of first contact finally arrives, she will find her life changed yet again\u2013in ways she could never have imagined...",
+    "book_title": "Remnant Population",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 31,
+        "audiobook": 9,
+        "fantasy": 22,
+        "feminism": 8,
+        "fiction": 59,
+        "science fiction": 396,
+        "science fiction fantasy": 21,
+        "space": 13,
+        "space opera": 11,
+        "speculative fiction": 15
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "494_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "494_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "494_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "494_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4137,
+        "score": 4.06
+    },
+    "original_book_title": "Remnant Population",
+    "pages": 886,
+    "url": "https://www.goodreads.com/book/show/96284.Remnant_Population",
+    "year_published": 1996
+}

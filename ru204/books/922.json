@@ -1,0 +1,63 @@
+{
+    "author_name": "Rachel Caine",
+    "base_id": 922,
+    "book_description": "Petty criminal Zara Cole has a painful past that\u2019s made her stronger than most, which is why she chose life in New Detroit instead of moving with her family to Mars. In her eyes, living inside a dome isn\u2019t much better than a prison cell.Still, when Zara commits a crime that has her running scared, jail might be exactly where she\u2019s headed. Instead Zara is recruited into the Honors, an elite team of humans selected by the Leviathan\u2014a race of sentient alien ships\u2014to explore the outer reaches of the universe as their passengers.Zara seizes the chance to flee Earth\u2019s dangers, but when she meets Nadim, the alien ship she\u2019s assigned, Zara starts to feel at home for the first time. But nothing could have prepared her for the dark, ominous truths that lurk behind the alluring glitter of starlight.",
+    "book_title": "Honor Among Thieves",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 33,
+        "aliens": 59,
+        "audiobook": 23,
+        "dystopia": 38,
+        "fantasy": 113,
+        "fiction": 53,
+        "science fiction": 396,
+        "space": 62,
+        "space opera": 26,
+        "young adult": 332
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "922_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "922_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "922_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "922_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "922_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "922_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "922_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "922_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4254,
+        "score": 3.9
+    },
+    "original_book_title": "Honor Among Thieves",
+    "pages": 315,
+    "url": "https://www.goodreads.com/book/show/30129657-honor-among-thieves",
+    "year_published": 2018
+}

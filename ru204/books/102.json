@@ -1,0 +1,62 @@
+{
+    "author_name": "K.A. Applegate",
+    "base_id": 102,
+    "book_description": "The Ellimist has helped the Animorphs many times. He is all-powerful and has only one enemy, the Crayak. In a cosmic showdown, the two enemies choose champions to represent them in a battle to end all battles. The Crayak chooses the dreaded Howlers. The Ellimist chooses the Animorphs.",
+    "book_title": "The Attack",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 13,
+        "aliens": 28,
+        "animals": 11,
+        "childrens": 28,
+        "fantasy": 37,
+        "fiction": 48,
+        "science fiction": 96,
+        "war": 7,
+        "young adult": 68
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "102_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "102_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "102_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "102_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "102_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "102_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "102_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "102_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2781,
+        "score": 3.94
+    },
+    "original_book_title": "The Attack",
+    "pages": 1340,
+    "url": "https://www.goodreads.com/book/show/125335.The_Attack",
+    "year_published": 1999
+}

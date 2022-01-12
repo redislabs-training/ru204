@@ -1,0 +1,63 @@
+{
+    "author_name": "Gene Doucette",
+    "base_id": 469,
+    "book_description": "When a spaceship lands in Sorrow Falls, a lovable and fearless small-town girl is the planet\u2019s only hope for survivalThree years ago, a spaceship landed in an open field in the quiet mill town of Sorrow Falls, Massachusetts. It never opened its doors, and for all that time, the townspeople have wondered why the ship landed there, and what\u2014or who\u2014could be inside. Then one day a government operative\u2014posing as a journalist\u2014arrives in town, asking questions. He discovers sixteen-year-old Annie Collins, one of the ship\u2019s closest neighbors and a local fixture known throughout the town, who has some of the answers. As a matter of fact, Annie Collins might be the most important person on the planet. She just doesn\u2019t know it.",
+    "book_title": "The Spaceship Next Door",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 20,
+        "audiobook": 30,
+        "fantasy": 9,
+        "fiction": 51,
+        "humor": 8,
+        "mystery": 7,
+        "science fiction": 149,
+        "science fiction fantasy": 7,
+        "space": 6,
+        "young adult": 49
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "469_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "469_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "469_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "469_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "469_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "469_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "469_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "469_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3458,
+        "score": 3.99
+    },
+    "original_book_title": "The Spaceship Next Door",
+    "pages": 878,
+    "url": "https://www.goodreads.com/book/show/38242137-the-spaceship-next-door",
+    "year_published": 2015
+}

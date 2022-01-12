@@ -1,0 +1,47 @@
+{
+    "author_name": "C.S. Lewis",
+    "base_id": 2485,
+    "book_description": "The second book in C. S. Lewis's acclaimed Space Trilogy, which also includes Out of the Silent Planet and That Hideous Strength, Perelandra continues the adventures of the extraordinary Dr. Ransom. Pitted against the most destructive of human weaknesses, temptation, the great man must battle evil on a new planet \u0097 Perelandra \u0097 when it is invaded by a dark force. Will Perelandra succumb to this malevolent being, who strives to create a new world order and who must destroy an old and beautiful civilization to do so? Or will it throw off the yoke of corruption and achieve a spiritual perfection as yet unknown to man? The outcome of Dr. Ransom's mighty struggle alone will determine the fate of this peace-loving planet.",
+    "book_title": "Perelandra",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Christian": 376,
+        "Christian Fiction": 212,
+        "Religion (Christianity) ": 109,
+        "adventure": 80,
+        "classics": 302,
+        "fantasy": 806,
+        "fiction": 1215,
+        "religion": 111,
+        "science fiction": 1314,
+        "science fiction fantasy": 176
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "2485_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2485_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2485_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2485_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 42104,
+        "score": 3.99
+    },
+    "original_book_title": "Perelandra",
+    "pages": 652,
+    "url": "https://www.goodreads.com/book/show/100924.Perelandra",
+    "year_published": 1943
+}

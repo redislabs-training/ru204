@@ -1,0 +1,63 @@
+{
+    "author_name": "Gini Koch",
+    "base_id": 315,
+    "book_description": "For Alien Super-Being Exterminator Katherine \"Kitty\" Katt, anti-alien conspiracies, threats from outer space, and a couple of killer alligators are all in a day's work. It's been five months since Kitty joined Centaurion Division, working with the aliens from Alpha Centauri. She and Jeff Martini have grown closer and life looks rosy. But when an experimental spacecraft is unexpectedly returned to the Kennedy Space Center, Kitty and the rest of Alpha Team are called on to investigate and are immediately embroiled in life-or-death situations that scream \"political conspiracy.\"The team must survive murderous attacks, deal with a mysterious space entity that has seized control of a group of astronauts, and evade a woman who'll do anything to eliminate the competition when she develops an obsessive crush on Kitty's old high school boyfriend. And that's all before the evil masterminds decide Kitty's extermination is vital...Alien Tango is the thrilling second installment of the Alien series.",
+    "book_title": "Alien Tango",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 73,
+        "fantasy": 31,
+        "fiction": 27,
+        "humor": 17,
+        "paranormal": 32,
+        "paranormal romance": 40,
+        "romance": 103,
+        "science fiction": 134,
+        "science fiction romance": 16,
+        "urban fantasy": 75
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "315_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "315_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "315_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "315_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "315_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "315_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "315_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "315_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2780,
+        "score": 4.1
+    },
+    "original_book_title": "Alien Tango (Katherine \"Kitty\" Katt, #2)",
+    "pages": 371,
+    "url": "https://www.goodreads.com/book/show/7948544-alien-tango",
+    "year_published": 2010
+}

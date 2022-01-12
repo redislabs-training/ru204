@@ -1,0 +1,59 @@
+{
+    "author_name": "Lara Adrian",
+    "base_id": 948,
+    "book_description": "Book 4 in the New York Times and #1 internationally bestselling Midnight Breed vampire romance seriesIn a world of shadows and dark, cosuming hungers, desire is the deadliest weapon...For journalist Dylan Alexander, it began with the discovery of a hidden tomb, thrusting her into the center of a gathering storm of violence and secrets. But nothing is as dangerous as the scarred, lethally seductive man who rises from the shadows to draw her into his world of dark desire and endless night. Fueled by pain and rage over a shattering betrayal, the warrior Rio has pledged his life to the war against the Rogues. He will let nothing stand in his way--least of all a mortal woman with the power to expose the entire vampire race. For an ancient evil has been awakened, and a stunning darkness is on the rise. Suddenly Dylan is powerless to resist Rio's touch, even as she uncovers a shocking link to her own past. And now she must choose: Leave Rio's midnight realm, or risk it all for the man who has shown her true passion and the infinite pleasures of the heart. . . .",
+    "book_title": "Midnight Rising",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 80,
+        "contemporary": 38,
+        "fantasy": 171,
+        "fiction": 57,
+        "paranormal": 598,
+        "paranormal romance": 752,
+        "romance": 415,
+        "supernatural": 42,
+        "urban fantasy": 114,
+        "vampires": 631
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "948_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "948_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "948_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "948_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "948_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "948_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "948_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 33393,
+        "score": 4.2
+    },
+    "original_book_title": "Midnight Rising",
+    "pages": 301,
+    "url": "https://www.goodreads.com/book/show/1928873.Midnight_Rising",
+    "year_published": 2008
+}

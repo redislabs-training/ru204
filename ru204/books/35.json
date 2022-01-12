@@ -1,0 +1,63 @@
+{
+    "author_name": "Cia_",
+    "base_id": 35,
+    "book_description": "Saving Caeorleia: Book Two Dade, human-Caeorleian hybrid and ex-military grunt, doesn\u2019t fit in\u2014not with humans, not with aliens, not anywhere. He\u2019s always on the outskirts, angry, and people aren\u2019t sure they can trust him. When he encounters a compatible tziu named Yaseke, secrets, misunderstandings, and attacks nearly prevent the two from making a connection Dade sorely needs. Even after they unite, Dade and Yaseke face challenges that two newly joined males should never have to endure. From traitorous council members, to sadistic aliens who plan to sell them as slaves, to meeting a mysterious race of revered aliens called Collectors, Dade and Yaseke manage to stay together\u2014and even rescue two youths related to Yaseke, who\u2019ve lost their parents to the same betrayer. Someone from Dade\u2019s past is at the root of everything he\u2019s suffered. No way can he let them get away with what they\u2019re planning, but Dade isn\u2019t sure he can stop them on his own. If he doesn\u2019t let go of his isolation and risk the pain letting others in will bring, he\u2019ll never save Caeorleia in time.",
+    "book_title": "Adverse Effects",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "abuse": 8,
+        "aliens": 18,
+        "dystopia": 3,
+        "fiction": 3,
+        "lgbt": 3,
+        "male male romance": 26,
+        "military fiction": 12,
+        "romance": 14,
+        "science fiction": 27,
+        "vampires": 4
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "35_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "35_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "35_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "35_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "35_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "35_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "35_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "35_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 366,
+        "score": 3.98
+    },
+    "original_book_title": "Adverse Effects",
+    "pages": 679,
+    "url": "https://www.goodreads.com/book/show/26445818-adverse-effects",
+    "year_published": 2014
+}

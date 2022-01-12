@@ -1,0 +1,59 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 320,
+    "book_description": "For months, I've been chased by a red dragon. They're the females of the dragon shifter invaders, fierce and vicious and as ruthless as they are wild. She hunts me wherever I go, and I'm not safe even behind the walls of a fort. There's only one thing I can do to stop her\u2026\u2026And that's to take her as my mate.But to win the heart of a female dragon, I have to conquer her first. Not so easy for a human man...but Teva's worth the challenge.",
+    "book_title": "Fire In Her Eyes",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 17,
+        "dragons": 48,
+        "dystopia": 17,
+        "fantasy": 38,
+        "paranormal": 23,
+        "paranormal romance": 25,
+        "post apocalyptic": 13,
+        "romance": 50,
+        "science fiction": 16,
+        "shapeshifters": 25
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "320_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "320_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "320_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "320_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "320_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "320_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "320_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2077,
+        "score": 4.26
+    },
+    "original_book_title": "Fire in Her Eyes",
+    "pages": 305,
+    "url": "https://www.goodreads.com/book/show/50906486-fire-in-her-eyes",
+    "year_published": 2019
+}

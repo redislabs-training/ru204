@@ -1,0 +1,63 @@
+{
+    "author_name": "Karen Lord",
+    "base_id": 798,
+    "book_description": "A proud and reserved alien society finds its homeland destroyed in an unprovoked act of aggression, and the survivors have no choice but to reach out to the indigenous humanoids of their adopted world, to whom they are distantly related. They wish to preserve their cherished way of life but come to discover that in order to preserve their culture, they may have to change it forever. Now a man and a woman from these two clashing societies must work together to save this vanishing race\u2014and end up uncovering ancient mysteries with far-reaching ramifications. As their mission hangs in the balance, this unlikely team\u2014one cool and cerebral, the other fiery and impulsive\u2014just may find in each other their own destinies . . . and a force that transcends all.",
+    "book_title": "The Best of All Possible Worlds",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 20,
+        "aliens": 54,
+        "dystopia": 12,
+        "fantasy": 55,
+        "fiction": 141,
+        "romance": 131,
+        "science fiction": 464,
+        "science fiction fantasy": 49,
+        "space opera": 18,
+        "speculative fiction": 30
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "798_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "798_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "798_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "798_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "798_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "798_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "798_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "798_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4305,
+        "score": 3.59
+    },
+    "original_book_title": "The Best of All Possible Worlds",
+    "pages": 1006,
+    "url": "https://www.goodreads.com/book/show/15743440-the-best-of-all-possible-worlds",
+    "year_published": 2013
+}

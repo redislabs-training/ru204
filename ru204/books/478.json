@@ -1,0 +1,51 @@
+{
+    "author_name": "Sherrilyn Kenyon",
+    "base_id": 478,
+    "book_description": "Born an Outcast, Talyn Batur has spent the whole of his life fighting against the prejudice of his people. An Andarion without a father is not something anyone wants to be.But when his companion's brother draws him into a plot against the Andarion crown, he finds himself torn between the loyalty to their planetary government that his mother has beaten into him and his own beliefs of justice and right.Now, he must decide for himself to remain a pawn of their government or to defy everything and everyone he's ever known to stand up to tyranny. It's a gamble that will either save his life or end it. And when old enemies align with new ones, it's more than just his own life at risk. And more than just his homeworld that will end should he fail, in Born of Defiance, the next League novel from #1 New York Times bestselling author Sherrilyn Kenyon.",
+    "book_title": "Born of Defiance",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 23,
+        "aliens": 24,
+        "fantasy": 69,
+        "fiction": 20,
+        "futuristic": 21,
+        "paranormal": 58,
+        "paranormal romance": 82,
+        "romance": 126,
+        "science fiction": 78,
+        "science fiction romance": 17
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "478_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "478_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "478_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "478_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "478_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6164,
+        "score": 4.45
+    },
+    "original_book_title": "Born of Defiance",
+    "pages": 794,
+    "url": "https://www.goodreads.com/book/show/22046891-born-of-defiance",
+    "year_published": 2015
+}

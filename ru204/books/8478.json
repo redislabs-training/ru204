@@ -1,0 +1,39 @@
+{
+    "author_name": "Amie Kaufman",
+    "base_id": 8478,
+    "book_description": "It's a night like any other on board the Icarus. Then, catastrophe strikes: the massive luxury spaceliner is yanked out of hyperspace and plummets into the nearest planet. Lilac LaRoux and Tarver Merendsen survive. And they seem to be alone. Lilac is the daughter of the richest man in the universe. Tarver comes from nothing, a young war hero who learned long ago that girls like Lilac are more trouble than they\u2019re worth. But with only each other to rely on, Lilac and Tarver must work together, making a tortuous journey across the eerie, deserted terrain to seek help. Then, against all odds, Lilac and Tarver find a strange blessing in the tragedy that has thrown them into each other\u2019s arms. Without the hope of a future together in their own world, they begin to wonder\u2014would they be better off staying here forever?Everything changes when they uncover the truth behind the chilling whispers that haunt their every step. Lilac and Tarver may find a way off this planet. But they won\u2019t be the same people who landed on it.The Starbound Trilogy: Three worlds. Three love stories. One enemy.",
+    "book_title": "These Broken Stars",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 193,
+        "aliens": 263,
+        "audiobook": 169,
+        "dystopia": 417,
+        "fantasy": 1002,
+        "fiction": 295,
+        "romance": 1483,
+        "science fiction": 2074,
+        "space": 273,
+        "young adult": 2202
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "8478_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "8478_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 64603,
+        "score": 3.9
+    },
+    "original_book_title": "These Broken Stars",
+    "pages": 369,
+    "url": "https://www.goodreads.com/book/show/13138635-these-broken-stars",
+    "year_published": 2013
+}

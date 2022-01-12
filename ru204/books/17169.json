@@ -1,0 +1,67 @@
+{
+    "author_name": "Patrick Ness",
+    "base_id": 17169,
+    "book_description": "Todd Hewitt is the only boy in a town of men. Ever since the settlers were infected with the Noise germ, Todd can hear everything the men think, and they hear everything he thinks. Todd is just a month away from becoming a man, but in the midst of the cacophony, he knows that the town is hiding something from him -- something so awful Todd is forced to flee with only his dog, whose simple, loyal voice he hears too. With hostile men from the town in pursuit, the two stumble upon a strange and eerily silent creature: a girl. Who is she? Why wasn't she killed by the germ like all the females on New World? Propelled by Todd's gritty narration, readers are in for a white-knuckle journey in which a boy on the cusp of manhood must unlearn everything he knows in order to figure out who he truly is.",
+    "book_title": "The Knife of Never Letting Go",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 522,
+        "audiobook": 229,
+        "dystopia": 2271,
+        "fantasy": 1968,
+        "fiction": 1345,
+        "post apocalyptic": 192,
+        "science fiction": 2164,
+        "teen": 282,
+        "thriller": 206,
+        "young adult": 4497
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "17169_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "17169_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "17169_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "17169_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "17169_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "17169_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "17169_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "17169_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "17169_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 160252,
+        "score": 3.97
+    },
+    "original_book_title": "The Knife of Never Letting Go",
+    "pages": 1191,
+    "url": "https://www.goodreads.com/book/show/20758104-the-knife-of-never-letting-go",
+    "year_published": 2008
+}

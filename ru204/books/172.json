@@ -1,0 +1,39 @@
+{
+    "author_name": "Andrea K. H\u00f6st",
+    "base_id": 172,
+    "book_description": "Part 2 of the Touchstone trilogy:In the months since Cassandra Devlin walked off Earth onto another planet, she has grappled with everything from making blankets to helping psychics battle the memories of monsters. Not able to find a way home, she has instead gained friends and a purpose. Unfortunately, that purpose brings with it the pressure of being more than a little valuable, and those she has befriended are also her guards, ordered to explore and control her abilities to find out just what it is a touchstone can do.Test subject was not the career path Cass had been planning.With no privacy, too-frequent injuries, and the painful knowledge that she must always be an assignment to her Setari companions, Cass can only wish for some semblance of normality and control.And as her abilities become more and more dangerous, tests and training may be the only thing capable of protecting Cass from herself.",
+    "book_title": "Lab Rat One",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 7,
+        "aliens": 20,
+        "fantasy": 58,
+        "fiction": 9,
+        "romance": 27,
+        "science fiction": 76,
+        "science fiction fantasy": 4,
+        "young adult": 51,
+        "young adult fantasy": 5,
+        "young adult science fiction": 5
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "172_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "172_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2175,
+        "score": 4.29
+    },
+    "original_book_title": "Lab Rat One",
+    "pages": 1087,
+    "url": "https://www.goodreads.com/book/show/11921067-lab-rat-one",
+    "year_published": 2011
+}

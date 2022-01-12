@@ -1,0 +1,63 @@
+{
+    "author_name": "Stephen Wallenfels",
+    "base_id": 242,
+    "book_description": "Surviving a massive alien siege is one thing-surviving humanity is another. I'm all cried out. I'm still alone. The sky is full of giant spinning black balls that kill anyone stupid enough to go outside. I've only been out of the car twice-once to pee and once to look at the sky. That one look was enough for me. Now I sit alone in the car, staring out the window like a rat in a cage. But I don't have anyone to look at. The parking garage is empty, except for twisted-up cars, broken glass, and the smell of leaking gasoline. POD is the story of a global cataclysmic event, told from the viewpoints of Megs, a twelve-year-old streetwise girl trapped in a hotel parking garage in Los Angeles; and sixteen-year-old Josh, who is stuck in a house in Prosser, Washington, with his increasingly obsessive-compulsive father. Food and water and time are running out. Will Megs survive long enough to find her mother? Will Josh and his father survive each other?",
+    "book_title": "Pod",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 23,
+        "apocalyptic": 5,
+        "dystopia": 23,
+        "fiction": 25,
+        "horror": 6,
+        "post apocalyptic": 10,
+        "science fiction": 47,
+        "survival": 10,
+        "teen": 5,
+        "young adult": 57
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "242_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "242_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "242_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "242_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "242_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "242_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "242_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "242_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1340,
+        "score": 3.52
+    },
+    "original_book_title": "Pod",
+    "pages": 749,
+    "url": "https://www.goodreads.com/book/show/7670154-pod",
+    "year_published": 2009
+}

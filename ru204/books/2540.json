@@ -1,0 +1,51 @@
+{
+    "author_name": "John Scalzi",
+    "base_id": 2540,
+    "book_description": "Jack Holloway works alone, for reasons he doesn't care to talk about. Hundreds of miles from ZaraCorp's headquarters on planet, 178 light-years from the corporation's headquarters on Earth, Jack is content as an independent contractor, prospecting and surveying at his own pace. As for his past, that's not up for discussion.Then, in the wake of an accidental cliff collapse, Jack discovers a seam of unimaginably valuable jewels, to which he manages to lay legal claim just as ZaraCorp is cancelling their contract with him for his part in causing the collapse. Briefly in the catbird seat, legally speaking, Jack pressures ZaraCorp into recognizing his claim, and cuts them in as partners to help extract the wealth.But there's another wrinkle to ZaraCorp's relationship with the planet Zarathustra. Their entire legal right to exploit the verdant Earth-like planet, the basis of the wealth they derive from extracting its resources, is based on being able to certify to the authorities on Earth that Zarathustra is home to no sentient species.Then a small furry biped\u2014trusting, appealing, and ridiculously cute\u2014shows up at Jack's outback home. Followed by its family. As it dawns on Jack that despite their stature, these are people, he begins to suspect that ZaraCorp's claim to a planet's worth of wealth is very flimsy indeed\u2026and that ZaraCorp may stop at nothing to eliminate the \"fuzzys\" before their existence becomes more widely known.",
+    "book_title": "Fuzzy Nation",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 33,
+        "adventure": 36,
+        "aliens": 69,
+        "audiobook": 174,
+        "fantasy": 86,
+        "fiction": 292,
+        "humor": 77,
+        "science fiction": 941,
+        "science fiction fantasy": 68,
+        "space opera": 40
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "2540_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2540_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "2540_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2540_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "2540_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 29984,
+        "score": 4.11
+    },
+    "original_book_title": "Fuzzy Nation",
+    "pages": 519,
+    "url": "https://www.goodreads.com/book/show/9647532-fuzzy-nation",
+    "year_published": 2011
+}

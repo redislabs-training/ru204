@@ -1,0 +1,59 @@
+{
+    "author_name": "Cadwell Turnbull",
+    "base_id": 336,
+    "book_description": "THE LESSON explores the nature of belief, the impact of colonialism, and asks how far are we willing to go for progress? Breaking ground as one of the first science fiction novels set in the Virgin Islands, THE LESSON is not only a thought-provoking literary work, delving deeply into allegorical themes of colonialism, but also vividly draws the community of Charlotte Amalie, wherefrom the author hails.An alien ship rests over Water Island. For five years the people of the U.S. Virgin Islands have lived with the Ynaa, a race of super-advanced aliens on a research mission they will not fully disclose. They are benevolent in many ways but meet any act of aggression with disproportional wrath. This has led to a strained relationship between the Ynaa and the local Virgin Islanders and a peace that cannot last. A year after the death of a young boy at the hands of an Ynaa, three families find themselves at the center of the inevitable conflict, witness and victim to events that will touch everyone and teach a terrible lesson.",
+    "book_title": "The Lesson",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Literary Fiction": 8,
+        "adult": 15,
+        "adult fiction": 7,
+        "aliens": 21,
+        "audiobook": 11,
+        "fantasy": 6,
+        "fiction": 58,
+        "science fiction": 150,
+        "science fiction fantasy": 9,
+        "speculative fiction": 13
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "336_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "336_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "336_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "336_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "336_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "336_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "336_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1687,
+        "score": 3.6
+    },
+    "original_book_title": "The Lesson",
+    "pages": 645,
+    "url": "https://www.goodreads.com/book/show/41459037-the-lesson",
+    "year_published": 2019
+}

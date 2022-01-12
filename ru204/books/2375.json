@@ -1,0 +1,39 @@
+{
+    "author_name": "John Scalzi",
+    "base_id": 2375,
+    "book_description": "Retired from his fighting days, John Perry is now village ombudsman for a human colony on distant Huckleberry. With his wife, former Special Forces warrior Jane Sagan, he farms several acres, adjudicates local disputes, and enjoys watching his adopted daughter grow up.That is, until his and Jane's past reaches out to bring them back into the game--as leaders of a new human colony, to be peopled by settlers from all the major human worlds, for a deep political purpose that will put Perry and Sagan back in the thick of interstellar politics, betrayal, and war.",
+    "book_title": "The Last Colony",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 47,
+        "audiobook": 78,
+        "fantasy": 49,
+        "fiction": 445,
+        "military fiction": 101,
+        "science fiction": 1816,
+        "science fiction fantasy": 101,
+        "space": 75,
+        "space opera": 189,
+        "war": 68
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "2375_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2375_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 52759,
+        "score": 4.07
+    },
+    "original_book_title": "The Last Colony",
+    "pages": 916,
+    "url": "https://www.goodreads.com/book/show/88071.The_Last_Colony",
+    "year_published": 2007
+}
