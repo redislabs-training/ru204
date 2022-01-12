@@ -1,0 +1,39 @@
+{
+    "author_name": "Jamie Grey",
+    "base_id": 222,
+    "book_description": "Stealing another galactic secret will get her arrested, but playing by the rules might just get her killed.At twenty-three, Renna Carrizal is the most notorious thief in the galaxy. There's just one problem - all she wants is to get out of the business.But after Renna rescues an injured boy on her final job, she finds herself on the run from the mob instead of enjoying retirement. She unwittingly becomes ensnared by MYTH, a top-secret galactic protection agency who offer her a choice - either help them on their latest mission, or spend the rest of her life on a prison ship.Forced to work under the watchful eye of handsome but arrogant Captain Finn, Renna learns the former mercenary-turned-hero has a few dirty secrets himself. As Renna works to discover the truth about Finn's past and keep the tantalizing man at arm's length, she unearths a plot to create an unstoppable army. The target? The human star fleet.Now Renna must pull off the biggest job of her career - saving the galaxy. And maybe even herself.",
+    "book_title": "The Star Thief",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 19,
+        "adventure": 19,
+        "aliens": 27,
+        "dystopia": 18,
+        "fantasy": 74,
+        "new adult": 183,
+        "romance": 124,
+        "science fiction": 218,
+        "space": 22,
+        "young adult": 20
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "222_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "222_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1831,
+        "score": 3.49
+    },
+    "original_book_title": "The Star Thief",
+    "pages": 880,
+    "url": "https://www.goodreads.com/book/show/19146092-the-star-thief",
+    "year_published": 2014
+}

@@ -1,0 +1,47 @@
+{
+    "author_name": "Malinda Lo",
+    "base_id": 978,
+    "book_description": "Reese can\u2019t remember anything from the time between the accident and the day she woke up almost a month later. She only knows one thing: She\u2019s different now.Across North America, flocks of birds hurl themselves into airplanes, causing at least a dozen to crash. Thousands of people die. Fearing terrorism, the United States government grounds all flights, and millions of travelers are stranded.Reese and her debate team partner and longtime crush David are in Arizona when it happens. Everyone knows the world will never be the same. On their drive home to San Francisco, along a stretch of empty highway at night in the middle of Nevada, a bird flies into their headlights. The car flips over. When they wake up in a military hospital, the doctor won\u2019t tell them what happened, where they are\u2014or how they\u2019ve been miraculously healed.Things become even stranger when Reese returns home. San Francisco feels like a different place with police enforcing curfew, hazmat teams collecting dead birds, and a strange presence that seems to be following her. When Reese unexpectedly collides with the beautiful Amber Gray, her search for the truth is forced in an entirely new direction\u2014and threatens to expose a vast global conspiracy that the government has worked for decades to keep secret.",
+    "book_title": "Adaptation",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 75,
+        "dystopia": 65,
+        "fantasy": 69,
+        "fiction": 155,
+        "lesiban": 47,
+        "lgbt": 392,
+        "queer": 148,
+        "romance": 98,
+        "science fiction": 369,
+        "young adult": 513
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "978_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "978_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "978_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "978_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7119,
+        "score": 3.63
+    },
+    "original_book_title": "Adaptation",
+    "pages": 1377,
+    "url": "https://www.goodreads.com/book/show/10744752-adaptation",
+    "year_published": 2012
+}

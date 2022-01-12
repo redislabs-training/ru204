@@ -1,0 +1,59 @@
+{
+    "author_name": "Ursula K. Le Guin",
+    "base_id": 779,
+    "book_description": "A world shared by three native humanoid races - the cavern-dwelling Gdemiar, elvish Fiia, and warrior clan, Liuar - is suddenly invaded and conquered by a fleet of ships from the stars. Earth scientist Rocannon is on that world, and he sees his friends murdered and his spaceship destroyed. Marooned among alien peoples, he leads the battle to free this new world - and finds that legends grow around him even as he fights.",
+    "book_title": "Rocannon's World",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 21,
+        "americana": 17,
+        "classics": 27,
+        "fantasy": 395,
+        "fiction": 281,
+        "novels": 25,
+        "science fiction": 659,
+        "science fiction fantasy": 50,
+        "space opera": 21,
+        "speculative fiction": 42
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "779_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "779_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "779_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "779_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "779_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "779_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "779_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13118,
+        "score": 3.75
+    },
+    "original_book_title": "Rocannon's World",
+    "pages": 266,
+    "url": "https://www.goodreads.com/book/show/92610.Rocannon_s_World",
+    "year_published": 1966
+}

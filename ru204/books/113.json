@@ -1,0 +1,59 @@
+{
+    "author_name": "Carrie Jones",
+    "base_id": 113,
+    "book_description": "New York Times bestselling author Carrie Jones introduces sassy alien-hunting cheerleader Mana in Flying, the launch of a sparkling new YA SF series.People have always treated seventeen-year-old Mana as someone in need of protection. She's used to being coddled, being an only child, but it's hard to imagine anything could ever happen in her small-town, normal life. As her mother's babying gets more stifling than ever, she's looking forward to cheering at the big game and getting out of the house for a while.But that night, Mana's life goes haywire.First, the hot guy she's been crushing on at school randomly flips out and starts spitting acid during the game. Then they get into a knockdown, drag-out fight in the locker room, during which Mana finds herself leaping around like a kangaroo on steroids. As a flyer on the cheerleading squad, she's always been a good jumper, but this is a bit much. By the time she gets home and finds her house trashed and an alien in the garage, Mana starts to wonder if her mother had her reasons for being overprotective.It turns out, Mana's frumpy, timid mom is actually an alien hunter, and now she's missing--taking a piece of technology with her that everyone wants their hands on, both human and alien. Now her supposed partner, a guy that Mana has never met or heard of (and who seems way too young and way too arrogant to be hunting aliens), has shown up, ordering Mana to come with him. Now, on her own for the first time, Mana will have to find a way to save her mother--and maybe the world--and hope she's up to the challenge.",
+    "book_title": "Flying",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Sports (Sports) ": 4,
+        "aliens": 26,
+        "contemporary": 5,
+        "fantasy": 5,
+        "fiction": 7,
+        "humor": 6,
+        "romance": 4,
+        "science fiction": 34,
+        "teen": 9,
+        "young adult": 33
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "113_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "113_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "113_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "113_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "113_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "113_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "113_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 399,
+        "score": 3.29
+    },
+    "original_book_title": "\n076533657X\n(ISBN13: 9780765336576)\n",
+    "pages": 952,
+    "url": "https://www.goodreads.com/book/show/26114232-flying",
+    "year_published": 2016
+}

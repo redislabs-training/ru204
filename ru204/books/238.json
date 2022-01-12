@@ -1,0 +1,47 @@
+{
+    "author_name": "Jon S. Lewis",
+    "base_id": 238,
+    "book_description": " He didn't ask for the job, but now all that stands between us and chaos... is ColtColt McAlister was having the summer of his life. He spent his days surfing and his nights playing guitar on the beach with friends. He even met a girl and got his first car. But everything changes when his parents are killed in a freak accident.He's forced to leave his old life behind and move to Arizona with his grandfather. The only person he knows at the new high school is a childhood friend named Dani. And Oz, a guy he's sure he's never met but who is strangely familiar.But what if his parents' death wasn't an accident? His mother, an investigative reporter, was going to expose a secret mind-control program run by one of the world's largest companies. Before she could release the story, what if agents from Trident Biotech made sure she couldn't go public?Vowing to uncover the truth, Colt gets drawn into a secret world of aliens, shapeshifters, flying motorcycles, and invisible gateways.The Invasion has begun.\"...An unstoppable cyborg mix of Fringe meets The X-Files. Read Invasion with your eyes wide open. No blinking or you might miss a shapeshifting alien as it blows past you en route to a total planetary take-over.\" -Frank Beddor, New York Times best-selling author ofThe Looking Glass Wars",
+    "book_title": "Invasion",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Christian": 7,
+        "Christian Fiction": 9,
+        "adventure": 21,
+        "aliens": 18,
+        "fantasy": 31,
+        "fiction": 11,
+        "paranormal": 11,
+        "science fiction": 48,
+        "teen": 10,
+        "young adult": 63
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "238_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "238_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "238_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "238_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1452,
+        "score": 3.68
+    },
+    "original_book_title": "\n1595547533\n(ISBN13: 9781595547538)\n",
+    "pages": 389,
+    "url": "https://www.goodreads.com/book/show/8585830-invasion",
+    "year_published": 2010
+}

@@ -1,0 +1,63 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 328,
+    "book_description": "When a rogue Mogadorian meets up with a mysterious amnesiac in Santa Monica, he knows that there's more to this guy than meets the eye. In fact, he might just hold the key to everything.In I Am Number Four: The Lost Files #4, discover what has happened to one of the people with information crucial to the Garde coming together to fight to save Lorien\u2014and Earth.",
+    "book_title": "The Search for Sam",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 10,
+        "aliens": 54,
+        "fantasy": 33,
+        "fiction": 15,
+        "novella": 22,
+        "paranormal": 7,
+        "science fiction": 90,
+        "short stories": 10,
+        "teen": 12,
+        "young adult": 61
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "328_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "328_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "328_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "328_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "328_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "328_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "328_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "328_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8163,
+        "score": 4.24
+    },
+    "original_book_title": "\n0062218778\n(ISBN13: 9780062218773)\n",
+    "pages": 747,
+    "url": "https://www.goodreads.com/book/show/15752308-the-search-for-sam",
+    "year_published": 2012
+}

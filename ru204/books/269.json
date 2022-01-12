@@ -1,0 +1,55 @@
+{
+    "author_name": "Laura Pohl",
+    "base_id": 269,
+    "book_description": "A high-stakes survival story about eight teenagers who outlive an alien attack\u2014perfect for fans of The 5th Wave Clover Martinez has always been a survivor, which is the only reason she isn't among the dead when aliens invade and destroy Earth as she knows it. When Clover hears an inexplicable radio message, she's shocked to learn there are other survivors\u2014and that they're all at the former Area 51. When she arrives, she's greeted by a band of misfits who call themselves The Last Teenagers on Earth.Only they aren't the ragtag group of heroes Clover was expecting. The group seems more interested in hiding than fighting back, and Clover starts to wonder if she was better off alone. But then she finds a hidden spaceship, and she doesn't know what to believe\u2026or who to trust.",
+    "book_title": "The Last 8",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 39,
+        "apocalyptic": 13,
+        "audiobook": 8,
+        "dystopia": 22,
+        "fantasy": 11,
+        "fiction": 28,
+        "lgbt": 74,
+        "queer": 24,
+        "science fiction": 107,
+        "young adult": 98
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "269_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "269_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "269_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "269_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "269_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "269_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1146,
+        "score": 3.68
+    },
+    "original_book_title": "The Last 8",
+    "pages": 574,
+    "url": "https://www.goodreads.com/book/show/36349389-the-last-8",
+    "year_published": 2019
+}

@@ -1,0 +1,35 @@
+{
+    "author_name": "Dan Simmons",
+    "base_id": 3482,
+    "book_description": "In the stunning continuation of the epic adventure begun in Hyperion, Simmons returns us to a far future resplendent with drama and invention. On the world of Hyperion, the mysterious Time Tombs are opening. And the secrets they contain mean that nothing--nothing anywhere in the universe--will ever be the same.",
+    "book_title": "The Fall of Hyperion",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "audiobook": 87,
+        "fantasy": 337,
+        "fiction": 808,
+        "horror": 59,
+        "science fiction": 2686,
+        "science fiction fantasy": 163,
+        "space": 70,
+        "space opera": 243,
+        "speculative fiction": 65,
+        "time travel": 89
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "3482_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 98215,
+        "score": 4.21
+    },
+    "original_book_title": "The Fall of Hyperion",
+    "pages": 1250,
+    "url": "https://www.goodreads.com/book/show/77565.The_Fall_of_Hyperion",
+    "year_published": 1990
+}

@@ -1,0 +1,59 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 2108,
+    "book_description": "You'd think being abducted by aliens would be the worst thing that could happen to me. And you'd be wrong. Because now, the aliens are having ship trouble, and they've left their cargo of human women - including me - on an ice planet.And the only native inhabitant I've met? He's big, horned, blue, and really, really has a thing for me...",
+    "book_title": "Ice Planet Barbarians",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Adult": 104,
+        "Adult Fiction (Erotica) ": 195,
+        "Fiction": 49,
+        "Romance": 621,
+        "Romance (Paranormal Romance) ": 114,
+        "Romance (science fiction Romance) ": 132,
+        "fantasy": 171,
+        "fantasy (Paranormal) ": 156,
+        "science fiction": 436,
+        "science fiction (Aliens) ": 413
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "2108_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2108_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2108_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "2108_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2108_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2108_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2108_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15856,
+        "score": 3.85
+    },
+    "original_book_title": "Ice Planet Barbarians",
+    "pages": 1239,
+    "url": "https://www.goodreads.com/book/show/25128811-ice-planet-barbarians",
+    "year_published": 2015
+}

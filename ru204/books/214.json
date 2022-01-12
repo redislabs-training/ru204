@@ -1,0 +1,39 @@
+{
+    "author_name": "S.L. Viehl",
+    "base_id": 214,
+    "book_description": "Dr. Cherijo Grey Veil leaves Earth and accepts a position as a physician at Kevarzanga-2's FreeClinic. Her surgical skills are desperately needed on a hostile frontier world with over 200 sentient species--and her understanding of alien physiology is nothing short of miraculous. But the truth behind her expertise is a secret which, if discovered, could have disastrous consequences between human and alien relations...",
+    "book_title": "Stardoc",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Medical": 7,
+        "aliens": 21,
+        "fantasy": 15,
+        "fiction": 21,
+        "novels": 5,
+        "romance": 32,
+        "science fiction": 213,
+        "science fiction fantasy": 18,
+        "space": 11,
+        "space opera": 40
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "214_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "214_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3746,
+        "score": 3.8
+    },
+    "original_book_title": "Stardoc (Stardoc, #1)",
+    "pages": 225,
+    "url": "https://www.goodreads.com/book/show/664642.Stardoc",
+    "year_published": 2000
+}

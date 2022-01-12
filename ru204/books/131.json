@@ -1,0 +1,63 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 131,
+    "book_description": "You know we have been betrayed.You must discover why.You must learn the truth.They have put a plan in motion.They have infiltrated your government.They have already turned some of you.They will do whatever it takes to have your planet.The battle lines have been drawn.Whose side are you on?",
+    "book_title": "Hidden Enemy",
+    "editions": [
+        "None"
+    ],
+    "genres": {
+        "action": 5,
+        "aliens": 17,
+        "fantasy": 26,
+        "fiction": 12,
+        "novella": 8,
+        "paranormal": 7,
+        "science fiction": 42,
+        "short stories": 10,
+        "teen": 4,
+        "young adult": 45
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "131_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "131_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "131_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "131_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "131_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "131_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "131_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "131_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1981,
+        "score": 4.17
+    },
+    "original_book_title": "\n0062324926\n(ISBN13: 9780062324924)\n",
+    "pages": 1345,
+    "url": "https://www.goodreads.com/book/show/18738872-hidden-enemy",
+    "year_published": 2014
+}

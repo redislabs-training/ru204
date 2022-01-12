@@ -1,0 +1,51 @@
+{
+    "author_name": "Scarlett Dawn",
+    "base_id": 44,
+    "book_description": "*The individual installments are no longer in publication. Please see Cold Mark (Mark, #1) https://www.goodreads.com/book/show/2... .New York Times bestselling author, Scarlett Dawn, captures the perfect last installment of The Cold Mark Saga, where trust is earned and love soars\u2026Braita Valorn is a disaster walking. One mistake after another on the planet Triaz has landed her in trouble time and again. Only Braita\u2019s quick wit has kept her from complete ruin\u2014and her cunning to blackmail the Plumas of the east.The Plumas of the west own Braita. She is their Soul. But when her ultimate freedom is so close she can taste it, Braita might just \u2018own\u2019 them\u2026if her heart doesn\u2019t get in the way.Or, perhaps, Braita should have followed her heart from the start\u2014to one set of Plumas who are her perfect match.Will Braita obtain her freedom? Or will she finally accept a life she never asked for?",
+    "book_title": "Soar",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 7,
+        "aliens": 20,
+        "dystopia": 7,
+        "erotica": 6,
+        "fantasy": 15,
+        "new adult": 8,
+        "paranormal": 7,
+        "polyamorous": 4,
+        "romance": 11,
+        "science fiction": 15
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "44_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "44_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "44_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "44_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "44_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 781,
+        "score": 3.75
+    },
+    "original_book_title": "B0101M9D9K",
+    "pages": 638,
+    "url": "https://www.goodreads.com/book/show/25322920-soar",
+    "year_published": 2015
+}

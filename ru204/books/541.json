@@ -1,0 +1,67 @@
+{
+    "author_name": "Gabrielle S. Prendergast",
+    "base_id": 541,
+    "book_description": "He has no voice, or name, only a rank, Eighth. He doesn\u2019t know the details of the mission, only the directives that hum in his mind. Dart the humans. Leave them where they fall. His job is to protect his Offside. Let her do the shooting. Until a human kills her\u2026 Sixteen year-old Raven is at summer camp when the terrifying armored Nahx invade, annihilating entire cities, taking control of the Earth. Isolated in the wilderness, Raven and her friends have only a fragment of instruction from the human resistance. Shelter in place. Which seems like good advice at first. Stay put. Await rescue. Raven doesn\u2019t like feeling helpless but what choice does she have? Then a Nahx kills her boyfriend. Thrown together in a violent, unfamiliar world, Eighth and Raven should feel only hate and fear. But when Raven is injured, and Eighth deserts his unit, their survival depends on trusting each other\u2026",
+    "book_title": "Zero Repeat Forever",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 22,
+        "dystopia": 32,
+        "fantasy": 35,
+        "fiction": 14,
+        "romance": 25,
+        "science fiction": 123,
+        "science fiction fantasy": 10,
+        "survival": 8,
+        "young adult": 106,
+        "young adult science fiction": 11
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "541_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "541_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "541_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "541_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "541_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "541_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "541_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "541_8"
+        },
+        {
+            "status": "available",
+            "stock_number": "541_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2009,
+        "score": 3.99
+    },
+    "original_book_title": "Zero Repeat Forever",
+    "pages": 926,
+    "url": "https://www.goodreads.com/book/show/28945665-zero-repeat-forever",
+    "year_published": 2017
+}

@@ -1,0 +1,43 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 950,
+    "book_description": "Years ago, the skies ripped open and the world was destroyed in fire and ash. Dragons - once creatures of legend - are the enemy. Vicious and unpredictable, they rule the skies of the ruined cities, forcing humanity to huddle behind barricades for safety.Claudia's a survivor. She scrapes by as best as she can in a hard, dangerous world. When she runs afoul of the law, she's left as bait in dragon territory. She only has one chance to survive - to somehow 'tame' a dragon and get it to obey her.Except the dragon that finds her is as wild and brutal as any other...and he's not interested in obeying.What he is interested in is a mate.",
+    "book_title": "Fire in His Blood",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 50,
+        "dragons": 255,
+        "dystopia": 78,
+        "fantasy": 225,
+        "paranormal": 175,
+        "paranormal romance": 170,
+        "post apocalyptic": 56,
+        "romance": 234,
+        "science fiction": 50,
+        "shapeshifters": 107
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "950_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "950_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "950_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9039,
+        "score": 3.78
+    },
+    "original_book_title": "Fire In His Blood",
+    "pages": 1139,
+    "url": "https://www.goodreads.com/book/show/33858773-fire-in-his-blood",
+    "year_published": 2017
+}

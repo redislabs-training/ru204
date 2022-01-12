@@ -1,0 +1,35 @@
+{
+    "author_name": "MichaelGrant",
+    "base_id": 3564,
+    "book_description": "It's been three months since everyone under the age of fifteen became trapped in the bubble known as the FAYZ.Three months since all the adults disappeared. GONE.Food ran out weeks ago. Everyone is starving, but no one wants to figure out a solution. And each day, more and more kids are evolving, developing supernatural abilities that set them apart from the kids without powers. Tension rises and chaos is descending upon the town. It's the normal kids against the mutants. Each kid is out for himself, and even the good ones turn murderous.But a larger problem looms. The Darkness, a sinister creature that has lived buried deep in the hills, begins calling to some of the teens in the FAYZ. Calling to them, guiding them, manipulating them.The Darkness has awakened. And it is hungry.",
+    "book_title": "Hunger",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 105,
+        "dystopia": 664,
+        "fantasy": 490,
+        "fiction": 251,
+        "horror": 115,
+        "paranormal": 147,
+        "romance": 99,
+        "science fiction": 517,
+        "supernatural": 98,
+        "young adult": 1204
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "3564_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 77063,
+        "score": 4.03
+    },
+    "original_book_title": "Hunger ",
+    "pages": 804,
+    "url": "https://www.goodreads.com/book/show/5047880-hunger",
+    "year_published": 2009
+}

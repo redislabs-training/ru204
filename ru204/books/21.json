@@ -1,0 +1,40 @@
+{
+    "author_name": "S.D. Perry",
+    "base_id": 21,
+    "book_description": "The space station Innominata has one problem: men die there. Only no one really knows it - or at least, no one who counts. Certainly Colonel Doctor Tony Crespi has no idea; he is simply eager to work with the infamous Doctor Paul Church, who believes that a mutated strain of alien can be made to obey human will.Church's captive creatures live in a warren of tunnels. Inside that labyrinth, Crespi and Lieutenant Sharon McGuinness are about to find the true meaning of Church's experiments. With a chamber of all-too-human horrors at its dark heart, the labyrinth is a death trap - designed by a man who is attempting what no other person in the universe would dare: to bring human and alien together as one!",
+    "book_title": "Aliens: Labyrinth",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 2,
+        "aliens": 18,
+        "fiction": 7,
+        "graphic novels": 2,
+        "horror": 15,
+        "novels": 3,
+        "science fiction": 20
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "21_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "21_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "21_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 371,
+        "score": 3.7
+    },
+    "original_book_title": "Labyrinth (Aliens)",
+    "pages": 795,
+    "url": "https://www.goodreads.com/book/show/783247.Aliens",
+    "year_published": 1996
+}

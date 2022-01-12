@@ -1,0 +1,47 @@
+{
+    "author_name": "J. Patrick Black",
+    "base_id": 266,
+    "book_description": "Centuries of war with aliens threaten the future of human civilization on earth in this gripping, epic science fiction debut...We never saw them coming.Entire cities disappeared in the blink of an eye, leaving nothing but dust and rubble. When an alien race came to make Earth theirs, they brought with them a weapon we had no way to fight, a universe-altering force known as thelemity. It seemed nothing could stop it\u2014until we discovered we could wield the power too.Five hundred years later, the Earth is locked in a grinding war of attrition. The talented few capable of bending thelemity to their will are trained in elite military academies, destined for the front lines. Those who refused to support the war have been exiled to the wilds of a ruined Earth.But the enemy's tactics are changing, and Earth's defenders are about to discover this centuries-old war has only just begun. As a terrible new onslaught looms, heroes will rise from unlikely quarters, and fight back.",
+    "book_title": "Ninth City Burning",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 17,
+        "dystopia": 16,
+        "fantasy": 36,
+        "fiction": 29,
+        "post apocalyptic": 19,
+        "science fiction": 117,
+        "science fiction fantasy": 11,
+        "speculative fiction": 4,
+        "war": 10,
+        "young adult": 10
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "266_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "266_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "266_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "266_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1362,
+        "score": 3.59
+    },
+    "original_book_title": "Ninth City Burning",
+    "pages": 940,
+    "url": "https://www.goodreads.com/book/show/27417551-ninth-city-burning",
+    "year_published": 2016
+}

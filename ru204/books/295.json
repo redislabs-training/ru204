@@ -1,0 +1,35 @@
+{
+    "author_name": "R. Lee Smith",
+    "base_id": 295,
+    "book_description": "They never meant to come to Earth. They were never allowed to leave...Welcome to Cottonwood.",
+    "book_title": "Cottonwood",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 17,
+        "aliens": 115,
+        "dark": 43,
+        "fantasy": 22,
+        "futuristic": 10,
+        "horror": 21,
+        "paranormal": 10,
+        "romance": 95,
+        "science fiction": 112,
+        "science fiction romance": 14
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "295_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2048,
+        "score": 4.32
+    },
+    "original_book_title": "B00BNH25ZM",
+    "pages": 460,
+    "url": "https://www.goodreads.com/book/show/17563213-cottonwood",
+    "year_published": 2013
+}

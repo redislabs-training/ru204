@@ -1,0 +1,47 @@
+{
+    "author_name": "Tade Thompson",
+    "base_id": 1471,
+    "book_description": "Tade Thompson's Rosewater is the start of an award-winning, cutting edge trilogy set in Nigeria, by one of science fiction's most engaging new voices.Rosewater is a town on the edge. A community formed around the edges of a mysterious alien biodome, its residents comprise the hopeful, the hungry and the helpless\u2014people eager for a glimpse inside the dome or a taste of its rumored healing powers.Kaaro is a government agent with a criminal past. He has seen inside the biodome, and doesn't care to again\u2014but when something begins killing off others like himself, Kaaro must defy his masters to search for an answer, facing his dark history and coming to a realization about a horrifying future.",
+    "book_title": "Rosewater",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Africa": 108,
+        "Nigeria": 37,
+        "adult": 37,
+        "aliens": 50,
+        "audiobook": 49,
+        "fantasy": 165,
+        "fiction": 281,
+        "science fiction": 739,
+        "science fiction fantasy": 61,
+        "speculative fiction": 53
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "1471_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1471_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "1471_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1471_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9084,
+        "score": 3.8
+    },
+    "original_book_title": "Rosewater",
+    "pages": 979,
+    "url": "https://www.goodreads.com/book/show/38362809-rosewater",
+    "year_published": 2017
+}

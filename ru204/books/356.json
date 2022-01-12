@@ -1,0 +1,59 @@
+{
+    "author_name": "R.J. Anderson",
+    "base_id": 356,
+    "book_description": "Back in her hometown, Tori Beaugrand had everything a teenaged girl could want\u2014popularity, money, beauty. But she also had a secret. A secret that could change her life in an instant, or destroy it.Now she\u2019s left everything from her old life behind, including her real name and Alison, the one friend who truly understood her. She can\u2019t escape who and what she is. But if she wants to have anything like a normal life, she has to blend in and hide her unusual... talents.Plans change when the enigmatic Sebastian Faraday reappears and gives Tori some bad news: she hasn\u2019t escaped her past. In fact, she\u2019s attracted new interest in the form of an obsessed ex-cop turned investigator for a genetics lab.She has one last shot at getting her enemies off her trail and winning the security and independence she\u2019s always longed for. But saving herself will take every ounce of Tori\u2019s incredible electronics and engineering skills\u2014and even then, she may need to sacrifice more than she could possibly imagine if she wants to be free.",
+    "book_title": "Quicksilver",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "LGBT (Asexual) ": 18,
+        "aliens": 50,
+        "fantasy": 59,
+        "fiction": 22,
+        "lgbt": 31,
+        "mystery": 16,
+        "paranormal": 61,
+        "romance": 22,
+        "science fiction": 145,
+        "young adult": 166
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "356_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "356_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "356_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "356_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "356_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "356_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "356_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2211,
+        "score": 3.91
+    },
+    "original_book_title": "Quicksilver",
+    "pages": 207,
+    "url": "https://www.goodreads.com/book/show/13149420-quicksilver",
+    "year_published": 2013
+}

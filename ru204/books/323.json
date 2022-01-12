@@ -1,0 +1,67 @@
+{
+    "author_name": "Melissa Landers",
+    "base_id": 323,
+    "book_description": "After thwarting a deadly coup and saving the alliance between their worlds, Cara and Aelyx have finally earned a break. Their tiny island colony is everything they dreamed it would be\u2015days spent gathering shells on the beach and nights in each other\u2019s arms.But the vacation is short-lived.The treaty between Earth and L\u2019eihr has awakened an ancient force that threatens to destroy them all. The Aribol, mysterious guardians charged with maintaining interstellar peace, deem the alliance a threat to the galaxy. They order a separation of the races, decreeing humans and L\u2019eihrs must return to their own planets within the month or face extinction. In fact, they already have agents in place on Earth, ready to begin.With the clock ticking, Aelyx and Cara assemble a team of colonists and race back to Earth, where they unite with old friends to solve the mystery of who the Aribol are, what they want, and the real reason the alliance has provoked them. As tensions build to a full-scale war, Aelyx and Cara must fight harder than ever\u2015not just for their future, but for the survival of both their worlds.",
+    "book_title": "United",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 64,
+        "audiobook": 11,
+        "fantasy": 31,
+        "fiction": 10,
+        "paranormal": 9,
+        "romance": 80,
+        "science fiction": 90,
+        "space": 10,
+        "teen": 10,
+        "young adult": 100
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "323_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "323_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "323_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "323_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "323_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "323_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "323_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "323_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "323_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2110,
+        "score": 3.8
+    },
+    "original_book_title": "\n0997086807\n(ISBN13: 9780997086805)\n",
+    "pages": 1092,
+    "url": "https://www.goodreads.com/book/show/26180279-united",
+    "year_published": 2016
+}

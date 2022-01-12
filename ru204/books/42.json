@@ -1,0 +1,67 @@
+{
+    "author_name": "Hannah Davenport",
+    "base_id": 42,
+    "book_description": "Book 2 in The Azziarin Series. This can be read as a stand alone book.The Tureis have attacked Earth, destroying all major cities while killing millions in the process. The buildings lie in shambles while they rape Earth of it natural resources. Humans are used as slaves, while the women are sold off planet in a black market.Chloe, only daughter of an ex-Navy seal, has gotten tired of hiding. She\u2019s decided to take matters into her own hands and has been fighting back. After taking one too many chances, she\u2019s hit from behind while taking on a couple of Tureis and thrown into a cell on board their ship.Dazz, Commander of the Defender, is on his way to the Dreama Sector to help his brother, Jakke. Their younger brother, Takkeo, is missing and Dazz will do anything to get him back.When a Tureis ship exits a wormhole, the Defender fires, disabling the enemy ship. Searching the vessel, he finds an unknown species chained to the floor. Little does he know that the mating fever has started!To be together, Dazz and Chloe have many obstacles to overcome!30,000+ words plus two chapters of Ambriel! For mature readers only.",
+    "book_title": "Dazz",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 3,
+        "aliens": 17,
+        "fantasy": 2,
+        "fiction": 2,
+        "paranormal": 2,
+        "paranormal romance": 3,
+        "romance": 14,
+        "science fiction": 16,
+        "science fiction romance": 10,
+        "short stories": 2
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "42_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "42_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "42_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "42_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "42_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "42_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "42_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "42_8"
+        },
+        {
+            "status": "available",
+            "stock_number": "42_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 731,
+        "score": 3.93
+    },
+    "original_book_title": "B01J24PI2O",
+    "pages": 464,
+    "url": "https://www.goodreads.com/book/show/31217840-dazz",
+    "year_published": 2016
+}

@@ -1,0 +1,39 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 458,
+    "book_description": "When I wake up on the ice planet, I\u2019m scared of everything: this place is cold, silent, and the locals look more like blue devils than aliens. To make matters worse, one of the strangers decides I\u2019m going to be his girlfriend and kidnaps me away from my sister. I\u2019m completely and utterly alone. What\u2019s a girl to do?Well, this girl escapes. Of course, that means I go from frying pan into the fire, and my situation gets even more dangerous. Just when I have no hope left, a new hero appears. Sure, he\u2019s blue, horned, and has a tail. He\u2019s also fierce, protective, makes me purr... and thinks I'm perfect.But is what we have real or just a mating instinct?",
+    "book_title": "Barbarian's Touch",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 34,
+        "aliens": 146,
+        "audiobook": 12,
+        "erotica": 43,
+        "fantasy": 39,
+        "paranormal": 33,
+        "paranormal romance": 37,
+        "romance": 161,
+        "science fiction": 122,
+        "science fiction romance": 46
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "458_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "458_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5439,
+        "score": 4.11
+    },
+    "original_book_title": "Barbarian's Touch",
+    "pages": 1399,
+    "url": "https://www.goodreads.com/book/show/30524238-barbarian-s-touch",
+    "year_published": 2016
+}

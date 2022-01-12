@@ -1,0 +1,51 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 3954,
+    "book_description": "Alternate cover for this ISBN can be found hereThe Garde are finally reunited, but do they have what it takes to win the war against the Mogadorians?John Smith\u2014Number Four\u2014thought that things would change once the Garde found each other. They would stop running. They would fight the Mogadorians. And they would win.But he was wrong. After facing off with the Mogadorian ruler and almost being annihilated, the Garde know they are drastically unprepared and hopelessly outgunned. Now they\u2019re hiding out in Nine\u2019s Chicago penthouse, trying to figure out their next move.The six of them are powerful, but they\u2019re not strong enough yet to take on an entire army\u2014even with the return of an old ally. To defeat their enemy, the Garde must master their Legacies and learn to work together as a team. More importantly, they\u2019ll have to discover the truth about the Elders and their plan for the Loric survivors.And when the Garde receive a sign from Number Five\u2014a crop circle in the shape of a Loric symbol\u2014they know they are so close to being reunited. But could it be a trap? Time is running out, and the only thing they know for certain is that they have to get to Five before it\u2019s too late.The Garde may have lost battles, but they will not lose this war.Lorien will rise again.",
+    "book_title": "The Fall of Five",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 60,
+        "adventure": 112,
+        "aliens": 230,
+        "fantasy": 619,
+        "fiction": 221,
+        "paranormal": 100,
+        "romance": 82,
+        "science fiction": 523,
+        "teen": 60,
+        "young adult": 790
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "3954_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3954_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3954_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "3954_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3954_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 58938,
+        "score": 4.23
+    },
+    "original_book_title": "The Fall of Five",
+    "pages": 431,
+    "url": "https://www.goodreads.com/book/show/15861491-the-fall-of-five",
+    "year_published": 2013
+}

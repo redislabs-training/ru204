@@ -1,0 +1,63 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 210,
+    "book_description": "In this exciting seventy-five-page prequel companion novella to the New York Times bestselling I Am Number Four series, discover the true origins of the traitorous Number Five. Before allying himself with the Mogadorians, before infiltrating the Garde, before committing the ultimate betrayal, Five was in hiding just like the others. But when his C\u00eapan dies, Five is forced to survive on his own. Eager to finally experience the world he was always kept apart from, Five soon gets involved with the wrong kind of people\u2014the Mogadorians. In Five's Legacy see how one of Lorien's last hopes for survival became one of its most dangerous adversaries.",
+    "book_title": "Five's Legacy",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 8,
+        "aliens": 28,
+        "fantasy": 47,
+        "fiction": 23,
+        "novella": 17,
+        "paranormal": 10,
+        "science fiction": 54,
+        "short stories": 19,
+        "teen": 8,
+        "young adult": 88
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "210_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "210_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "210_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "210_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "210_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "210_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "210_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "210_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4095,
+        "score": 3.97
+    },
+    "original_book_title": "\n0062287656\n(ISBN13: 9780062287656)\n",
+    "pages": 223,
+    "url": "https://www.goodreads.com/book/show/18053086-five-s-legacy",
+    "year_published": 2014
+}

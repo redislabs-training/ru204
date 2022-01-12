@@ -1,0 +1,47 @@
+{
+    "author_name": "Lisanne Norman",
+    "base_id": 53,
+    "book_description": "Cut off from Earth by alien conquerors, the human colony on Keiss was slowly building an underground resistance movement to stand against the Valtegan invaders. But for many of the colonists, it was already too late.Her twin sister Elise captured by Valtegan soldiers, Carrie telepathically and empathically linked with Elise, experienced all the pain and terror that her sister was suffering. Only her twin's death freed Carrie from torment, though it also left her completely alone in her own mind for the first time in her life. But this mental void was unexpectedly filled with Kusac, a felinoid crewman of a crashed starship, touched her thoughts. Drawn to him by their shared Talent, Carrie hid the injured Kusac from the Valtegans and in so doing found a friend and an invaluable ally.Yet though trust and understanding between Carrie and Kusac was soon unshakable, it would prove far more difficult to convince each of their races that their only hope of overthrowing the Voltegans was to band together against the common foe. And even such an alliance offered no guarantee of success, for no one on any of the settled worlds had yet found a way to defeat this warrior race ready to lay waste to any civilization they could not conquer.",
+    "book_title": "Turning Point",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 4,
+        "aliens": 17,
+        "fantasy": 18,
+        "fiction": 12,
+        "futuristic": 3,
+        "romance": 19,
+        "science fiction": 81,
+        "science fiction fantasy": 7,
+        "science fiction romance": 5,
+        "space opera": 10
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "53_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "53_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "53_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "53_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1155,
+        "score": 3.9
+    },
+    "original_book_title": "Turning Point (Sholan Alliance, #1)",
+    "pages": 325,
+    "url": "https://www.goodreads.com/book/show/148282.Turning_Point",
+    "year_published": 1993
+}

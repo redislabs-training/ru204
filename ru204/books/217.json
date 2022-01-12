@@ -1,0 +1,59 @@
+{
+    "author_name": "D.B. Reynolds",
+    "base_id": 217,
+    "book_description": "Specialist Amanda Sumner is one of the first to make contact on the Earth-like planet Harp and discovers she's the only Earthling who can hear the trees sing in the strange forest. Determined to remain and learn more of the planet\u2019s secrets, Amanda sets out to become part of the elite Guild there...But there is a secret involving some Guild members \u2014 one that could get her killed.Shifter Rhodry de Mendoza wants the Earthlings off his planet before they destroy it \u2014 even if that means denying what he feels for the fierce and lovely Amanda. The pair is thrown together in what becomes a fight for their lives. And they might just lose everything \u2014 including each other \u2014 in their battle for the right to live in peace.",
+    "book_title": "Shifter Planet",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 8,
+        "adult": 9,
+        "aliens": 29,
+        "fantasy": 32,
+        "paranormal": 54,
+        "paranormal romance": 43,
+        "romance": 50,
+        "science fiction": 63,
+        "science fiction romance": 13,
+        "shapeshifters": 46
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "217_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "217_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "217_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "217_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "217_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "217_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "217_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1483,
+        "score": 4.05
+    },
+    "original_book_title": "Shifter Planet",
+    "pages": 250,
+    "url": "https://www.goodreads.com/book/show/26814821-shifter-planet",
+    "year_published": 2015
+}

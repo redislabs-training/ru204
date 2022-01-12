@@ -1,0 +1,55 @@
+{
+    "author_name": "Sylvain Neuvel",
+    "base_id": 4299,
+    "book_description": "As a child, Rose Franklin made an astonishing discovery: a giant metallic hand, buried deep within the earth. As an adult, she\u2019s dedicated her brilliant scientific career to solving the mystery that began that fateful day: Why was a titanic robot of unknown origin buried in pieces around the world? Years of investigation have produced intriguing answers\u2014and even more perplexing questions. But the truth is closer than ever before when a second robot, more massive than the first, materializes and lashes out with deadly force. Now humankind faces a nightmare invasion scenario made real, as more colossal machines touch down across the globe. But Rose and her team at the Earth Defense Corps refuse to surrender. They can turn the tide if they can unlock the last secrets of an advanced alien technology. The greatest weapon humanity wields is knowledge in a do-or-die battle to inherit the Earth . . . and maybe even the stars.",
+    "book_title": "Waking Gods",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 143,
+        "adult fiction": 50,
+        "aliens": 115,
+        "audiobook": 292,
+        "fantasy": 243,
+        "fiction": 500,
+        "robots": 47,
+        "science fiction": 1412,
+        "science fiction fantasy": 81,
+        "thriller": 46
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "4299_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "4299_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "4299_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "4299_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "4299_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "4299_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 36287,
+        "score": 4.03
+    },
+    "original_book_title": "Waking Gods",
+    "pages": 1389,
+    "url": "https://www.goodreads.com/book/show/30134847-waking-gods",
+    "year_published": 2017
+}

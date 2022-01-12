@@ -1,0 +1,67 @@
+{
+    "author_name": "Marissa Meyer",
+    "base_id": 2163,
+    "book_description": "Cinder, a gifted mechanic, is a cyborg. She\u2019s a second-class citizen with a mysterious past, reviled by her stepmother and blamed for her stepsister\u2019s illness. In Glitches, a short prequel story to Cinder, we see the results of that illness play out, and the emotional toll that takes on Cinder. Something that may, or may not, be a glitch\u2026",
+    "book_title": "Glitches",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "dystopia": 267,
+        "fairy tales": 156,
+        "fantasy": 742,
+        "fiction": 146,
+        "novella": 240,
+        "retellings": 191,
+        "science fiction": 569,
+        "science fiction (Steampunk) ": 61,
+        "short stories": 560,
+        "young adult": 910
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "2163_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2163_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2163_8"
+        },
+        {
+            "status": "available",
+            "stock_number": "2163_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21112,
+        "score": 3.98
+    },
+    "original_book_title": "Glitches",
+    "pages": 308,
+    "url": "https://www.goodreads.com/book/show/13254289-glitches",
+    "year_published": 2011
+}

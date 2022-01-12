@@ -1,0 +1,67 @@
+{
+    "author_name": "Ann Aguirre",
+    "base_id": 499,
+    "book_description": "He's awkward. He's adorable. He's alien as hell.Zylar of Kith Balak is a four-time loser in the annual Choosing. If he fails to find a nest guardian this time, he'll lose his chance to have a mate for all time. Desperation drives him to try a matching service but due to a freak solar flare and a severely malfunctioning ship AI, things go way off course. This 'human being' is not the Tiralan match he was looking for.She's frazzled. She's fierce. She's from St. Louis.Beryl Bowman's mother always said she'd never get married. She should have added a rider about the husband being human. Who would have ever thought that working at the Sunshine Angel daycare center would offer such interstellar prestige? She doesn't know what the hell's going on, but a new life awaits on Barath Colony, where she can have any alien bachelor she wants.They agree to join the Choosing together, but love is about to get seriously strange.",
+    "book_title": "Strange Love",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 20,
+        "aliens": 103,
+        "fantasy": 17,
+        "fiction": 20,
+        "humor": 9,
+        "male female romance": 9,
+        "paranormal": 9,
+        "romance": 209,
+        "science fiction": 115,
+        "science fiction romance": 28
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "499_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "499_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "499_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "499_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "499_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "499_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "499_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "499_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "499_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2234,
+        "score": 3.97
+    },
+    "original_book_title": "Strange Love",
+    "pages": 533,
+    "url": "https://www.goodreads.com/book/show/48915429-strange-love",
+    "year_published": 2020
+}

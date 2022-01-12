@@ -1,0 +1,35 @@
+{
+    "author_name": "Marissa Meyer",
+    "base_id": 1634,
+    "book_description": "It is time. The boy must leave his family to serve in the Queen's army. To be chosen is an honor. To decline is impossible. The boy is modified. He is trained for several years, and learns to fight to the death. He proves to the Queen\u2014and to himself\u2014that he is capable of evil. He is just the kind of soldier the Queen wants: the alpha of his pack.",
+    "book_title": "The Queen's Army",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "dystopia": 192,
+        "fairy tales": 101,
+        "fantasy": 642,
+        "fiction": 98,
+        "novella": 193,
+        "retellings": 134,
+        "romance": 40,
+        "science fiction": 450,
+        "short stories": 423,
+        "young adult": 736
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1634_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17318,
+        "score": 3.98
+    },
+    "original_book_title": "The Queen's Army",
+    "pages": 1233,
+    "url": "https://www.goodreads.com/book/show/16075962-the-queen-s-army",
+    "year_published": 2012
+}

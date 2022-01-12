@@ -1,0 +1,59 @@
+{
+    "author_name": "Octavia E. Butler",
+    "base_id": 1415,
+    "book_description": "A perfect introduction for new readers and a must-have for avid fans, this New York Times Notable Book includes \"Bloodchild,\" winner of both the Hugo and the Nebula awards and \"Speech Sounds,\" winner of the Hugo Award. Appearing in print for the first time, \"Amnesty\" is a story of a woman named Noah who works to negotiate the tense and co-dependent relationship between humans and a species of invaders. Also new to this collection is \"The Book of Martha\" which asks: What would you do if God granted you the ability\u2014and responsibility\u2014to save humanity from itself?Like all of Octavia Butler\u2019s best writing, these works of the imagination are parables of the contemporary world. She proves constant in her vigil, an unblinking pessimist hoping to be proven wrong, and one of contemporary literature\u2019s strongest voices.",
+    "book_title": "Bloodchild and Other Stories",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "African American": 32,
+        "Anthologies": 39,
+        "fantasy": 160,
+        "feminism": 31,
+        "fiction": 422,
+        "horror": 68,
+        "science fiction": 589,
+        "science fiction fantasy": 67,
+        "short stories": 772,
+        "speculative fiction": 82
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1415_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "1415_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1415_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1415_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "1415_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1415_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1415_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14002,
+        "score": 4.34
+    },
+    "original_book_title": "Bloodchild and Other Stories",
+    "pages": 922,
+    "url": "https://www.goodreads.com/book/show/60930.Bloodchild_and_Other_Stories",
+    "year_published": 1995
+}

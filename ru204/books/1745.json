@@ -1,0 +1,35 @@
+{
+    "author_name": "Larry Niven",
+    "base_id": 1745,
+    "book_description": "In 3016, the 2nd Empire of Man spans hundreds of star systems, thanks to faster-than-light Alderson Drive. Intelligent beings are finally found from the Mote, an isolated star in a thick dust cloud. The bottled-up ancient civilization, at least one million years old, are welcoming, kind, yet evasive, with a dark problem they have not solved in over a million years.",
+    "book_title": "The Mote in God's Eye",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 70,
+        "audiobook": 53,
+        "classics": 39,
+        "fantasy": 67,
+        "fiction": 560,
+        "science fiction": 2020,
+        "science fiction fantasy": 126,
+        "space": 38,
+        "space opera": 106,
+        "speculative fiction": 32
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "1745_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 64061,
+        "score": 4.07
+    },
+    "original_book_title": "The Mote in God's Eye",
+    "pages": 1332,
+    "url": "https://www.goodreads.com/book/show/100365.The_Mote_in_God_s_Eye",
+    "year_published": 1974
+}

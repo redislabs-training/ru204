@@ -1,0 +1,51 @@
+{
+    "author_name": "Greg Bear",
+    "base_id": 546,
+    "book_description": "On July 26, Arthur Gordon learns that Europa, the sixth moon of Jupiter, has disappeared. Not hiding, not turned black, but gone. On September 28th, Edward Shaw, a geologist working in Death valley, finds a mysterious new cinder cone in very well-mapped area As more unexplained phenomena spring up around the globeL: a granite mountain appearing in Australia, sounds emanating from the Earth's core, flashes of light among the asteroids, it becomes clear to some that the end is approaching, and there is nothing that can be done. In The Forge of God, award-winning author Greg Bear describes the final days of the world on both a massive, scientific scale and in the everyday, emotional context of individual human lives. Facing the destruction of all they know, some people turn to God, others to their families, and a few turn to saviors promising escape from a planet tearing itself apart. Will they make it in time? And who gets left behind to experience the last moments of beauty and chaos on Earth?",
+    "book_title": "The Forge of God",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 20,
+        "apocalyptic": 23,
+        "fantasy": 15,
+        "fiction": 168,
+        "hard science fiction": 14,
+        "post apocalyptic": 24,
+        "science fiction": 638,
+        "science fiction fantasy": 24,
+        "space opera": 14,
+        "speculative fiction": 16
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "546_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "546_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "546_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "546_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "546_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14043,
+        "score": 3.87
+    },
+    "original_book_title": "The Forge of God",
+    "pages": 1173,
+    "url": "https://www.goodreads.com/book/show/64732.The_Forge_of_God",
+    "year_published": 1987
+}

@@ -1,0 +1,51 @@
+{
+    "author_name": "Paul Antony Jones",
+    "base_id": 685,
+    "book_description": "Reporter Emily Baxter has a great job, an apartment in Manhattan, and a boyfriend she loves. All that changes the day the red rain falls from a cloudless sky. Just hours after the first reports from Europe, humanity is on the brink of extinction, wiped from the face of the earth in a few bloody moments, leaving Emily alone in an empty city. As she struggles to grasp the magnitude of her situation, Emily becomes the final witness to the end of our world\u2026 and the birth of a terrifying new one. The world she knew and loved is dead and gone. Now Emily must try to find a way out of New York as the truth behind the red rain is revealed: the earth no longer belongs to humanity.",
+    "book_title": "Extinction Point",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 28,
+        "apocalyptic": 35,
+        "dystopia": 44,
+        "fantasy": 13,
+        "fiction": 53,
+        "horror": 71,
+        "post apocalyptic": 89,
+        "science fiction": 112,
+        "thriller": 13,
+        "zombies": 13
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "685_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "685_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "685_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "685_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "685_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7582,
+        "score": 3.61
+    },
+    "original_book_title": "B007GFD1WG",
+    "pages": 287,
+    "url": "https://www.goodreads.com/book/show/13509631-extinction-point",
+    "year_published": 2012
+}

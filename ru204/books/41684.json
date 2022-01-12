@@ -1,0 +1,39 @@
+{
+    "author_name": "Antoine de Saint-Exup\u00e9ry",
+    "base_id": 41684,
+    "book_description": "A PBS Great American Read Top 100 PickFew stories are as widely read and as universally cherished by children and adults alike as The Little Prince. Richard Howard's translation of the beloved classic beautifully reflects Saint-Exup\u00e9ry's unique and gifted style. Howard, an acclaimed poet and one of the preeminent translators of our time, has excelled in bringing the English text as close as possible to the French, in language, style, and most important, spirit. The artwork in this edition has been restored to match in detail and in color Saint-Exup\u00e9ry's original artwork. Combining Richard Howard's translation with restored original art, this definitive English-language edition of The Little Prince will capture the hearts of readers of all ages.",
+    "book_title": "The Little Prince",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "European Literature (French Literature) ": 731,
+        "France": 2123,
+        "childrens": 3589,
+        "classics": 14977,
+        "fantasy": 5608,
+        "fiction": 8306,
+        "literature": 962,
+        "middle grade": 762,
+        "philosophy": 1426,
+        "young adult": 1483
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "41684_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "41684_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1437278,
+        "score": 4.31
+    },
+    "original_book_title": "Le Petit Prince",
+    "pages": 1058,
+    "url": "https://www.goodreads.com/book/show/157993.The_Little_Prince",
+    "year_published": 1943
+}

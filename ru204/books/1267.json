@@ -1,0 +1,59 @@
+{
+    "author_name": "Sue Burke",
+    "base_id": 1267,
+    "book_description": "In this character driven novel of first contact by debut author Sue Burke, human survival hinges on an bizarre alliance.Only mutual communication can forge an alliance with the planet's sentient species and prove that mammals are more than tools.Forced to land on a planet they aren't prepared for, human colonists rely on their limited resources to survive. The planet provides a lush but inexplicable landscape--trees offer edible, addictive fruit one day and poison the next, while the ruins of an alien race are found entwined in the roots of a strange plant. Conflicts between generations arise as they struggle to understand one another and grapple with an unknowable alien intellect.",
+    "book_title": "Semiosis",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 35,
+        "adult fiction": 12,
+        "aliens": 49,
+        "audiobook": 37,
+        "fantasy": 28,
+        "fiction": 213,
+        "science fiction": 585,
+        "science fiction fantasy": 28,
+        "space": 16,
+        "speculative fiction": 24
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "1267_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1267_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "1267_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1267_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1267_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "1267_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1267_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8712,
+        "score": 3.92
+    },
+    "original_book_title": "Semiosis",
+    "pages": 1138,
+    "url": "https://www.goodreads.com/book/show/35018907-semiosis",
+    "year_published": 2018
+}

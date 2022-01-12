@@ -1,0 +1,47 @@
+{
+    "author_name": "Clifford D. Simak",
+    "base_id": 1295,
+    "book_description": "Enoch Wallace is an ageless hermit, striding across his untended farm as he has done for over a century, still carrying the gun with which he had served in the Civil War. But what his neighbors must never know is that, inside his unchanging house, he meets with a host of unimaginable friends from the farthest stars.More than a hundred years before, an alien named Ulysses had recruited Enoch as the keeper of Earth's only galactic transfer station. Now, as Enoch studies the progress of Earth and tends the tanks where the aliens appear, the charts he made indicate his world is doomed to destruction. His alien friends can only offer help that seems worse than the dreaded disaster. Then he discovers the horror that lies across the galaxy...",
+    "book_title": "Way Station",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 41,
+        "audiobook": 26,
+        "classics": 54,
+        "fantasy": 43,
+        "fiction": 255,
+        "hugo awards": 71,
+        "science fiction": 1008,
+        "science fiction fantasy": 45,
+        "space": 16,
+        "speculative fiction": 35
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1295_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "1295_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "1295_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "1295_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 23402,
+        "score": 4.04
+    },
+    "original_book_title": "Here Gather the Stars",
+    "pages": 1015,
+    "url": "https://www.goodreads.com/book/show/190999.Way_Station",
+    "year_published": 1963
+}

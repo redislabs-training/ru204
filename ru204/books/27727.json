@@ -1,0 +1,67 @@
+{
+    "author_name": "Kurt Vonnegut Jr.",
+    "base_id": 27727,
+    "book_description": "Selected by the Modern Library as one of the 100 best novels of all time, Slaughterhouse-Five, an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.",
+    "book_title": "Slaughterhouse-Five",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "americana": 658,
+        "classics": 13516,
+        "fantasy": 625,
+        "fiction": 12409,
+        "historical fiction": 1700,
+        "literature": 1533,
+        "novels": 1024,
+        "science fiction": 5351,
+        "time travel": 746,
+        "war": 1884
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "27727_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "27727_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "27727_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "27727_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "27727_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "27727_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "27727_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "27727_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "27727_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1156896,
+        "score": 4.08
+    },
+    "original_book_title": "Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death ",
+    "pages": 660,
+    "url": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five",
+    "year_published": 1969
+}

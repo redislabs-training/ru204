@@ -1,0 +1,39 @@
+{
+    "author_name": "Karen McQuestion",
+    "base_id": 532,
+    "book_description": "Seventeen-year-old Emma was the only one who hadn\u2019t given up on her boyfriend, Lucas. Everyone else\u2014his family, his friends, his doctors\u2014was convinced that any moment could be his last. So when Lucas miraculously returns from the brink of death, Emma thinks her prayers have been answered.As the surprised town rejoices, Emma begins to question whether Lucas is the same boy she\u2019s always known. When she finds an unidentifiable object on his family\u2019s farm\u2014and government agents come to claim it\u2014she begins to suspect that nothing is what it seems. Emma\u2019s out-of-this-world discovery may be the key to setting things right, but only if she and Lucas can evade the agents who are after what they have. With all her hopes and dreams on the line, Emma sets out to save the boy she loves. And with a little help from a distant star, she might just have a chance at making those dreams come true.",
+    "book_title": "From a Distant Star",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 6,
+        "aliens": 23,
+        "audiobook": 12,
+        "contemporary": 19,
+        "fantasy": 26,
+        "fiction": 20,
+        "paranormal": 14,
+        "romance": 60,
+        "science fiction": 76,
+        "young adult": 115
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "532_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "532_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2422,
+        "score": 3.88
+    },
+    "original_book_title": "From a Distant Star",
+    "pages": 665,
+    "url": "https://www.goodreads.com/book/show/24036088-from-a-distant-star",
+    "year_published": 2015
+}

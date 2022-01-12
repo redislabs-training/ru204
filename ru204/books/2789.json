@@ -1,0 +1,67 @@
+{
+    "author_name": "Ann Leckie",
+    "base_id": 2789,
+    "book_description": "For just a moment, things seem to be under control for the soldier known as Breq. Then a search of Athoek Station's slums turns up someone who shouldn't exist\u2014someone who might be a refugee from a ship that's been hiding beyond the empire's reach for three thousand years. In the meantime a messenger from the alien and mysterious Presger empire arrives, as does Breq's enemy, the divided and quite possibly insane Anaander Mianaai\u2014ruler of an empire that's at war with itself.Anaander is heavily armed and extremely unhappy with Breq. She could take her ship and crew and flee, but that would leave everyone at Athoek in terrible danger.Breq has a desperate plan. The odds aren't good, but that's never stopped her before.",
+    "book_title": "Ancillary Mercy",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 40,
+        "audiobook": 58,
+        "fantasy": 47,
+        "fiction": 451,
+        "queer": 34,
+        "science fiction": 1469,
+        "science fiction fantasy": 103,
+        "space": 73,
+        "space opera": 245,
+        "speculative fiction": 55
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "2789_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "2789_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2789_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2789_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2789_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "2789_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "2789_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2789_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2789_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 34165,
+        "score": 4.2
+    },
+    "original_book_title": "Ancillary Mercy",
+    "pages": 502,
+    "url": "https://www.goodreads.com/book/show/23533039-ancillary-mercy",
+    "year_published": 2015
+}

@@ -1,0 +1,63 @@
+{
+    "author_name": "S.E. Smith",
+    "base_id": 61,
+    "book_description": "Mattie Abrams has always had a knack for training animals. Touring with the Cirque de Magik, she knows that she has finally found the \u2018home\u2019 she so desperately craves. She would do anything to keep her small family of circus friends and her pets, including going where they went. When the owner of the circus announces he is taking the circus to the stars, she never expects it to be quite so far \u2013 or so dangerous.Jai t\u2019Dubar never expected to find his mate among the menagerie of humans returning to his world. When a delicate beauty jogs by him, his world changes. His first thought is to chase her down and capture her. His second thought is to keep her forever. When she is taken as a hostage by a group of space pirates who invade the Kassisan Warship, Seeker, he will do everything he can to save her.Can he rescue Mattie from the pirates and traitors who threaten her before she is taken from him? And if he can, will he be able to convince her to open her heart to him and let him show her when he says \u2018forever\u2019, he means forever?",
+    "book_title": "Rescuing Mattie",
+    "editions": [
+        "None"
+    ],
+    "genres": {
+        "aliens": 17,
+        "contemporary": 4,
+        "erotica": 4,
+        "futuristic": 3,
+        "novella": 4,
+        "paranormal": 10,
+        "paranormal romance": 7,
+        "romance": 23,
+        "science fiction": 17,
+        "science fiction romance": 10
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "61_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "61_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "61_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1493,
+        "score": 4.08
+    },
+    "original_book_title": "9781301524075",
+    "pages": 1001,
+    "url": "https://www.goodreads.com/book/show/18480505-rescuing-mattie",
+    "year_published": 2013
+}

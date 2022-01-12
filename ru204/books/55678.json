@@ -1,0 +1,35 @@
+{
+    "author_name": "Marissa Meyer",
+    "base_id": 55678,
+    "book_description": "Humans and androids crowd the raucous streets of New Beijing. A deadly plague ravages the population. From space, a ruthless Lunar people watch, waiting to make their move. No one knows that Earth\u2019s fate hinges on one girl. . . . Cinder, a gifted mechanic, is a cyborg. She\u2019s a second-class citizen with a mysterious past, reviled by her stepmother and blamed for her stepsister\u2019s illness. But when her life becomes intertwined with the handsome Prince Kai\u2019s, she suddenly finds herself at the center of an intergalactic struggle, and a forbidden attraction. Caught between duty and freedom, loyalty and betrayal, she must uncover secrets about her past in order to protect her world\u2019s future.",
+    "book_title": "Cinder",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "audiobook": 994,
+        "dystopia": 3218,
+        "fairy tales": 1513,
+        "fantasy": 10029,
+        "fiction": 2296,
+        "retellings": 2503,
+        "romance": 3417,
+        "science fiction": 6337,
+        "young adult": 10971,
+        "young adult fantasy": 743
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "55678_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 711992,
+        "score": 4.13
+    },
+    "original_book_title": "Cinder",
+    "pages": 283,
+    "url": "https://www.goodreads.com/book/show/36381037-cinder",
+    "year_published": 2012
+}

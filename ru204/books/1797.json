@@ -1,0 +1,35 @@
+{
+    "author_name": "John Scalzi",
+    "base_id": 1797,
+    "book_description": "How do you tell your part in the biggest tale in history?I ask because it's what I have to do. I'm Zoe Boutin Perry: A colonist stranded on a deadly pioneer world. Holy icon to a race of aliens. A player (and a pawn) in a interstellar chess match to save humanity, or to see it fall. Witness to history. Friend. Daughter. Human. Seventeen years old.Everyone on Earth knows the tale I am part of. But you don't know my tale: How I did what I did \u2014 how I did what I had to do \u2014 not just to stay alive but to keep you alive, too. All of you. I'm going to tell it to you now, the only way I know how: not straight but true, the whole thing, to try make you feel what I felt: the joy and terror and uncertainty, panic and wonder, despair and hope. Everything that happened, bringing us to Earth, and Earth out of its captivity. All through my eyes.It's a story you know. But you don't know it all.",
+    "book_title": "Zoe's Tale",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "audiobook": 61,
+        "fantasy": 30,
+        "fiction": 303,
+        "military fiction": 31,
+        "science fiction": 376,
+        "science fiction fantasy": 82,
+        "space": 47,
+        "space opera": 44,
+        "war": 29,
+        "young adult": 54
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1797_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 28382,
+        "score": 3.74
+    },
+    "original_book_title": "Zoe's Tale",
+    "pages": 839,
+    "url": "https://www.goodreads.com/book/show/2102600.Zoe_s_Tale",
+    "year_published": 2008
+}

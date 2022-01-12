@@ -1,0 +1,35 @@
+{
+    "author_name": "Arthur C. Clarke",
+    "base_id": 4159,
+    "book_description": "At first, only a few things are known about the celestial object that astronomers dub Rama. It is huge, weighing more than ten trillion tons. And it is hurtling through the solar system at an inconceivable speed. Then a space probe confirms the unthinkable: Rama is no natural object. It is, incredibly, an interstellar spacecraft. Space explorers and planet-bound scientists alike prepare for mankind's first encounter with alien intelligence. It will kindle their wildest dreams... and fan their darkest fears. For no one knows who the Ramans are or why they have come. And now the moment of rendezvous awaits \u2014 just behind a Raman airlock door.",
+    "book_title": "Rendezvous with Rama",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 89,
+        "audiobook": 84,
+        "classics": 293,
+        "fiction": 1200,
+        "hugo awards": 87,
+        "novels": 89,
+        "science fiction": 4066,
+        "science fiction fantasy": 186,
+        "space": 121,
+        "speculative fiction": 80
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "4159_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 137063,
+        "score": 4.1
+    },
+    "original_book_title": "Rendezvous with Rama",
+    "pages": 250,
+    "url": "https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama",
+    "year_published": 1973
+}

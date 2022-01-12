@@ -1,0 +1,51 @@
+{
+    "author_name": "Elizabeth Norris",
+    "base_id": 1923,
+    "book_description": "Sixteen-year-old Janelle Tenner is used to having a lot of responsibility. She balances working as a lifeguard in San Diego with an intense academic schedule. Janelle's mother is bipolar, and her dad is a workaholic FBI agent, which means Janelle also has to look out for her younger brother, Jared.And that was before she died... and is brought back to life by Ben Michaels, a mysterious, alluring loner from her high school. When she discovers a strange clock that seems to be counting down to the earth's destruction, Janelle learns she has twenty-four days to figure out how to stop the clock and save the planet.",
+    "book_title": "Unraveling",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "dystopia": 113,
+        "fantasy": 224,
+        "fiction": 59,
+        "mystery": 125,
+        "paranormal": 275,
+        "romance": 227,
+        "science fiction": 339,
+        "supernatural": 46,
+        "urban fantasy": 45,
+        "young adult": 622
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "1923_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1923_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1923_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "1923_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1923_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18463,
+        "score": 3.83
+    },
+    "original_book_title": "Unraveling",
+    "pages": 506,
+    "url": "https://www.goodreads.com/book/show/12157365-unraveling",
+    "year_published": 2012
+}

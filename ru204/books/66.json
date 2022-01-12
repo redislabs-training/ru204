@@ -1,0 +1,63 @@
+{
+    "author_name": "M.A. Church",
+    "base_id": 66,
+    "book_description": "Two very different civilizations\u2014one bathed in bright sunlight, and the other veiled in shadow.Bad decisions, declining resources, and a king on the brink of madness force Prince Varo Kutchif, third son of the royal family and a starship captain, to attempt the impossible: barter for Black Phospolrock, an energy source the mysterious Helkan kingdom has in abundance. Varo opens a line of communication with Adlar, an intriguing Helkan who seems to reciprocate Varo\u2019s interest. He hopes so, because if negotiations collapse, Varo has orders to attack.The Helkans preside over a planet shrouded in perpetual darkness. Several species have tried to exploit its natural resources through trade with them, but all have failed. Adlar Mondur is the older brother to the Helkan ruler. An assassin of the highest order, he\u2019ll do anything to protect his king and his people\u2014including tracking down the Yesri prince who crash-lands on their planet, leaving an ugly scar across its untouched beauty.Thus begins a journey where two men from disparate civilizations grow from enemies to lovers.",
+    "book_title": "In Enemy Hands",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 20,
+        "fantasy": 8,
+        "fiction": 3,
+        "gay": 7,
+        "male male romance": 26,
+        "paranormal": 3,
+        "romance": 13,
+        "science fiction": 20,
+        "science fiction romance": 4,
+        "vampires": 4
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "66_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "66_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "66_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "66_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "66_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "66_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "66_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "66_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 424,
+        "score": 3.84
+    },
+    "original_book_title": "\n1634776089\n(ISBN13: 9781634776080)\n",
+    "pages": 935,
+    "url": "https://www.goodreads.com/book/show/33221754-in-enemy-hands",
+    "year_published": 2016
+}

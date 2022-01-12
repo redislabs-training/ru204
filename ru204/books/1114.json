@@ -1,0 +1,63 @@
+{
+    "author_name": "Craig Alanson",
+    "base_id": 1114,
+    "book_description": "We were fighting on the wrong side, of a war we couldn't win. And that was the good news. The Ruhar hit us on Columbus Day. There we were, innocently drifting along the cosmos on our little blue marble, like the native Americans in 1492. Over the horizon come ships of a technologically advanced, aggressive culture, and BAM! There go the good old days, when humans only got killed by each other. So, Columbus Day. It fits. When the morning sky twinkled again, this time with Kristang starships jumping in to hammer the Ruhar, we thought we were saved. The UN Expeditionary Force hitched a ride on Kristang ships to fight the Ruhar, wherever our new allies thought we could be useful. So, I went from fighting with the US Army in Nigeria, to fighting in space. It was lies, all of it. We shouldn't even be fighting the Ruhar, they aren't our enemy, our allies are. I'd better start at the beginning....Alternate Cover Edition can be found here. ",
+    "book_title": "Columbus Day",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 21,
+        "audiobook": 67,
+        "fiction": 90,
+        "humor": 14,
+        "military fiction": 36,
+        "military science fiction": 18,
+        "science fiction": 349,
+        "science fiction fantasy": 16,
+        "space": 20,
+        "space opera": 44
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1114_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1114_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "1114_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "1114_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1114_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1114_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1114_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "1114_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15210,
+        "score": 4.26
+    },
+    "original_book_title": "Columbus Day ",
+    "pages": 298,
+    "url": "https://www.goodreads.com/book/show/28525188-columbus-day",
+    "year_published": 2016
+}

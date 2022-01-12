@@ -1,0 +1,63 @@
+{
+    "author_name": "Cambria Hebert",
+    "base_id": 52,
+    "book_description": " Part One of the Distant Desires serial seriesAn erotic tale from beyond the starsSophie Perez has never believed the stuff she reads online about possible life in space. Aliens are for the movies, for the weirdoes, and they most definitely are not real.One night on the way home from a late shift at work, her car breaks down. Stranded on the side of a country road, with a dead cell phone, doesn't seem like that big of a deal.Until strange neon lights appear in the sky. She thinks it is her imagination.When an inexplicable circular ship appears overhead, she can't deny what's clearly right in front of her. Especially when moments later, she's taken onto the ship, a human hostage among those who are most definitely not human.About to become a human guinea pig, possibly worse, the last thing she ever expects is to like the things these otherworldly beings subject her to. In fact, it is unlike anything she's ever experienced.Will Sophie find her way back to her planet, or will she beg to stay where her pleasure is literally out of this world?",
+    "book_title": "Distant Desires: Part One",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 2,
+        "aliens": 17,
+        "erotica": 3,
+        "fantasy": 3,
+        "paranormal": 7,
+        "paranormal romance": 3,
+        "romance": 3,
+        "science fiction": 8,
+        "science fiction romance": 6,
+        "space": 3
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "52_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "52_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "52_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "52_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "52_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "52_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "52_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "52_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 365,
+        "score": 3.61
+    },
+    "original_book_title": "B00KYSK0H6",
+    "pages": 519,
+    "url": "https://www.goodreads.com/book/show/22466834-distant-desires",
+    "year_published": 2014
+}
