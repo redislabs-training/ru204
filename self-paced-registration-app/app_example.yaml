@@ -17,7 +17,7 @@ env_variables:
   APPSEMBLER_API_TOKEN: API token goes here... 
   APPSEMBLER_HOST: university.redis.com
   FLASK_ENV: production
-  WHITELISTED_EMAIL_DOMAINS: redis.com,redislabs.com,ea.com
+  WHITELISTED_EMAIL_DOMAINS: redis.com,redislabs.com,ea.com,datasciencedojo.com
 skip_files:
 - ^(.*/)?\.bak$
 - ^(.*/)?\.tmp$
