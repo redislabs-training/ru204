@@ -1,5 +1,6 @@
 fail-json/
 pass-json/
 graduates
+failures
 profile_info.csv
 grade_report.csv

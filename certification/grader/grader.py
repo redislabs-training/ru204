@@ -1,4 +1,3 @@
-import argparse
 import csv
 import json
 import os
@@ -6,13 +5,6 @@ import re
 import sys
 from datetime import date
 import requests
-
-# parser = argparse.ArgumentParser(description='Grade a Redis Certified Developer Exam')
-# parser.add_argument('--table', nargs=1, help='The name of the file storing the mapping from questions to catgories', required=True)
-# parser.add_argument('--grades-csv', dest='grades_csv', nargs=1, help='The name of the csv file containing the raw grades', required=True)
-# parser.add_argument('--profile-csv', dest='profile_csv', nargs=1, help='The name of the csv file containing the student profile information', required=True)
-
-# args = parser.parse_args()
 
 ACCREDIBLE_API_KEY = os.environ.get('ACCREDIBLE_API_KEY')
 CUTOFF_SCORE = 500
@@ -29,9 +21,13 @@ field_names = ['email',
     'performance_and_correctness',
     'redis_clustering']
 
-email_pass_global_vars = { "global_vars": {"course_id": "Certification", "course_run_id": "August 2021", "exam_month": "August", "exam_year": "2021"}, "user_vars":[], "template":"certification-passed"}
+d = date.today()
+month = '{0:%B}'.format(d)
+year = '20{0:%y}'.format(d)
 
-email_fail_global_vars = { "global_vars": {"course_id": "Certification", "course_run_id": "August 2021", "exam_month": "August", "exam_year": "2021"}, "user_vars":[], "template":"certification-failed"}
+email_pass_global_vars = { "global_vars": {"course_id": "Certification", "course_run_id": month + ' ' + year, "exam_month": month, "exam_year": year}, "user_vars":[], "template":"certification-passed"}
+
+email_fail_global_vars = { "global_vars": {"course_id": "Certification", "course_run_id": month + ' ' + year, "exam_month": month, "exam_year": year}, "user_vars":[], "template":"certification-failed"}
 
 def insert_user_into_emailer(scaled_score, scored_user, template):
     user_row = {  
@@ -53,13 +49,39 @@ def insert_user_into_emailer(scaled_score, scored_user, template):
         email_fail_global_vars["user_vars"].append(user_row)
 
 
-
 def calculate_scaled_score(score):
     """ We're not doing anything fancy with score scaling just yet. We are saying that
         a passing score is at least 500 out 700 possible points.
     """
     return int(float(score) * 700)
 
+# loads in a list of emails from previous graduates to skip
+# preiously graded students
+def load_graduates():
+    with open('graduates') as grad_list:
+        lines = grad_list.readlines()
+    return list(map(lambda x: x.strip('\r\n'), lines))
+
+
+def add_graduate(email):
+    # open graduates.js and add email to list
+    with open("graduates", "a+") as grad_list:
+        # Append text at the end of file
+        grad_list.write('\n')
+        grad_list.write(email)
+
+def load_failures():
+    with open('failures') as fail_list:
+        lines = fail_list.readlines()
+    return list(map(lambda x: x.strip('\r\n'), lines))
+
+
+def add_failure(email):
+    # open failures.js and add email to list
+    with open("failures", "a+") as grad_list:
+        # Append text at the end of file
+        grad_list.write('\n')
+        grad_list.write(email)
 
 def load_topic_map(filename):
     """ The topic map is just a single column of numbers,
@@ -85,11 +107,10 @@ def accredible_format(pass_name, pass_email):
         Accredible bulk_create API call
     """
     return {'recipient':{'email': pass_email, 'name': pass_name }, 
-    'group': 'Redis Certified Developer' , 'group_id': 163205}
+    'group': 'Redis Certified Developer' , 'group_id': 163205, 'approve': False}
 
 
 def bulk_create_accredible(credentials):
-    print(credentials)
     """ API call to Accredible to create credentials """
     url = 'https://api.accredible.com/v1/credentials/bulk_create'
     headers = {
@@ -100,9 +121,11 @@ def bulk_create_accredible(credentials):
     if 'errors' in response.json():
         error_list = response.json()['errors']
         print(f'There was an error attempting to create credentials: \n {error_list}')
+    elif len(response.json()['credentials']) == 0:
+        print("No Credentials to issue")
     else:
         print(response.json())
-        print('Successfully created credentials')     
+        print('Successfully created credentials') 
 
 
 def calculate_percentage_per_topic(row):
@@ -146,19 +169,26 @@ email_name_mapping = load_profile_info('profile_info.csv')
 
 redis_email_matcher = re.compile('.*redislabs.com')
 float_matcher = re.compile(r'\d+[.]\d+')
-pass_file = open('pass-' + str(date.today()) + '.csv', "w", newline='')
-accredible_file = open('accredible-' + str(date.today()) + '.csv', "w", newline='')
-fail_file = open('fail-' + str(date.today()) + '.csv', "w", newline='')
-pass_csv = csv.writer(pass_file)
-pass_csv.writerow(field_names)
 
-fail_csv = csv.writer(fail_file)
-fail_csv.writerow(field_names)
+grad_list = load_graduates()
+fail_list = load_failures()
+
+
 with open('grade_report.csv') as csvfile:
     reader = csv.reader(csvfile)
     credentials_list= []
     for csv_row in reader:
         email = csv_row[1]
+
+        # check if a past graduate
+        if email in grad_list:
+            continue
+        
+        # check if a past graduate
+        if email in fail_list:
+            continue
+        
+        # check if redis employee
         matches = redis_email_matcher.match(email)
         if matches is not None:
             continue
@@ -172,24 +202,26 @@ with open('grade_report.csv') as csvfile:
             new_row.extend(calculate_percentage_per_topic(csv_row))
             scaled_score = calculate_scaled_score(new_row.pop())
             if scaled_score >= CUTOFF_SCORE:
+                add_graduate(email)
                 new_row[2] = scaled_score
                 insert_user_into_emailer(scaled_score, new_row, "pass")   
-
-                pass_csv.writerow(new_row)
                 credentials_list.append(accredible_format(name, email))
-            else:
+            elif scaled_score > 0:
+                add_failure(email)
                 insert_user_into_emailer(scaled_score, new_row, "fail")   
-                fail_csv.writerow(new_row)
                 
 bulk_create_accredible(credentials_list)
 
 if(email_pass_global_vars['user_vars']):
-    pass_json = open('pass-json-' + str(date.today()) + '.js', "w")
-    pass_json.write(str(email_pass_global_vars))
+    save_path = 'pass-json'
+    file_name = 'pass-json-' + str(date.today()) + '.json'
+    complete_filename = os.path.join(save_path, file_name)
+    pass_json = open(complete_filename, "w")
+    pass_json.write(str(json.dumps(email_pass_global_vars)))
     print(json.dumps(email_pass_global_vars, indent=2))
 
 if(email_fail_global_vars['user_vars']):
-    fail_json = open('fail-json-' + str(date.today()) + '.js', "w")
-    fail_json.write(str(email_fail_global_vars))
+    fail_json = open('fail-json-' + str(date.today()) + '.json', "w")
+    fail_json.write(str(json.dumps(email_fail_global_vars)))
     print(json.dumps(email_fail_global_vars, indent=2))
-
+    
