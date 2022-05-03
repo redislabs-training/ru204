@@ -400,7 +400,7 @@ def register_form_processor(request):
         return "Bad data in one or more registration data fields.", UNPROCESSABLE_ENTITY_CODE, cors_headers
     elif not response.status_code == OK_CODE:
         print(f"{response.status_code} error registering user {data[USERNAME_FIELD]}")
-        return "Error processing student registration.", BAD_REQUEST_CODE, cors_headers
+        return response.json(), BAD_REQUEST_CODE, cors_headers
 
     state = ""
 
