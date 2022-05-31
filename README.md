@@ -71,6 +71,12 @@ CONTAINER ID IMAGE                    COMMAND          CREATED           STATUS 
 f7b89c3ca0dd redis/redis-stack:latest "/entrypoint.sh" About an hour ago Up 8 seconds 0.0.0.0:6379->6379/tcp, 0.0.0.0:8001->8001/tcp redisu-ru204
 ```
 
+Leave the container running for now. When you want to stop it, use this command:
+
+```bash
+docker-compose down
+```
+
 ## Redis Setup Option 2: Install Redis Stack 
 
 TODO
