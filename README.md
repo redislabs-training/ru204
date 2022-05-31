@@ -89,7 +89,9 @@ RedisInsight is a graphical interface allowing you to interact with data and con
 
 ### Option 1: Use the Web Interface
 
-TODO
+TODO URL, agree to terms...
+
+![RedisInsight web interface](readme_images/insight_web.png)
 
 ### Option 2: Install and Configure the Desktop Application
 
@@ -109,7 +111,7 @@ Finally, configure RedisInsight to connect to your Redis Instance... Click the "
 
 Then click the "Add Redis Database" button to connect to your Redis instance.  You should see "RU204" in the list of Redis databases, and can click on it to open the Browser view.
 
-![Configuring RedisInsight Desltop](readme_images/insight_setup.gif)
+![Configuring RedisInsight Desktop](readme_images/insight_setup.gif)
 
 If you see an error while trying to connect to Redis, ensure that your Redis Server is running (make sure the Docker container is up or your locally installed Redis Stack is running) and try again.
 
