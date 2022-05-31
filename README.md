@@ -113,6 +113,14 @@ Then click the "Add Redis Database" button to connect to your Redis instance.  Y
 
 If you see an error while trying to connect to Redis, ensure that your Redis Server is running (make sure the Docker container is up or your locally installed Redis Stack is running) and try again.
 
+## Load the Sample Data into Redis
+
+TODO
+
+## Build the RediSearch Indexes
+
+TODO
+
 ## You're Ready!
 
 You're now ready to take the course!  If you haven't already, [sign up here](https://university.redis.com/courses/ru204/) to access the course materials.
