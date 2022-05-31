@@ -50,7 +50,7 @@ The remainder of these instructions assume that you start from a terminal sessio
 
 ## Redis Setup Option 1: Use Docker
 
-First, make sure you have [Docker installed](https://docs.docker.com/get-docker/).
+This is the most straightforward option, and the recommended one for Windows users.  First, make sure you have [Docker installed](https://docs.docker.com/get-docker/).
 
 This course uses the Redis Stack Docker container.  Download and start it with Docker Compose as follows:
 
@@ -79,7 +79,9 @@ docker-compose down
 
 ## Redis Setup Option 2: Install Redis Stack 
 
-TODO
+Redis Stack can be installed using popular package managers for macOS and Linux.  [Follow the instructions on redis.io](https://redis.io/docs/stack/get-started/install/) to install Redis Stack.
+
+Once you've installed Redis Stack, don't forget to start it.
 
 ## RedisInsight Setup
 
