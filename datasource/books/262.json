@@ -1,0 +1,59 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 262,
+    "book_description": "Escaped convict Vordigar has been hiding out on Risda III. When he\u2019s scooped up by law enforcement, he has two choices - he can be shipped back to the Haven prison system, or he can marry one of the locals. Piper is from an alien race called \u2018humans\u2019 and she needs a mate to help her protect her farm from aggressive neighbors.Vordigar\u2019s not interested in forever. Or marrying. Or settling down. He\u2019ll go along with Piper\u2019s plans just until he can get off planet\u2026or so he thinks.Because one night in Piper\u2019s bed changes everything.",
+    "book_title": "When She's Married",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 50,
+        "erotica": 8,
+        "fantasy": 14,
+        "fiction": 7,
+        "futuristic": 5,
+        "novella": 25,
+        "paranormal romance": 11,
+        "romance": 61,
+        "science fiction": 56,
+        "science fiction romance": 15
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "262_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "262_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "262_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "262_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "262_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "262_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "262_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2799,
+        "score": 4.1
+    },
+    "original_book_title": "B083L3G949",
+    "pages": 547,
+    "url": "https://www.goodreads.com/book/show/50357332-when-she-s-married",
+    "year_published": 2020
+}

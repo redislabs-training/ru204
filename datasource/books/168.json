@@ -1,0 +1,55 @@
+{
+    "author_name": "Alan Dean Foster",
+    "base_id": 168,
+    "book_description": "Ridley Scott returns to the universe he created, with Alien: Covenant, a new chapter in his groundbreaking Alien adventure. The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise. But it is actually a dark, dangerous world.When they uncover a threat beyond their imaginations, they must attempt a harrowing escape.Acclaimed author Alan Dean Foster also returns to the universe he first encountered with the official novelization of the original Alien film. Alien: Covenant is the pivotal adventure that preceded that seminal film, and leads to the events that will yield one of the most terrifying sagas of all time.",
+    "book_title": "Alien: Covenant",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Culture (Film) ": 3,
+        "aliens": 17,
+        "audiobook": 11,
+        "fantasy": 3,
+        "fiction": 15,
+        "horror": 58,
+        "media tie-in": 3,
+        "science fiction": 44,
+        "science fiction fantasy": 3,
+        "space": 4
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "168_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "168_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "168_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "168_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "168_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "168_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1289,
+        "score": 3.79
+    },
+    "original_book_title": "\n1785654780\n(ISBN13: 9781785654787)\n",
+    "pages": 864,
+    "url": "https://www.goodreads.com/book/show/33541226-alien",
+    "year_published": 2017
+}

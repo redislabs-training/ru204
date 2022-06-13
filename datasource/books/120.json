@@ -1,0 +1,43 @@
+{
+    "author_name": "Lyn Gala",
+    "base_id": 120,
+    "book_description": "Tuk-Palteia Liam has survived the front lines of a civil war and a return visit to his home planet, but now he has to face the ultimate obstacle. Stubborn lovers.As long as Liam and Ondry have the same goals\u2014the pursuit of profits and status\u2014they are the perfect partnership. But now Ondry wants to protect his palteia at any cost, even if it costs him his newly won rank. Liam hates the idea of Ondry sacrificing for him, and he is not going to allow Ondry to lose status under any circumstances. Add in the Imshee, a predatory companion animal, a new human, and an obstinate Grandmother, and Liam has the recipe for a serious headache. Despite what Ondry believes, not all problems can be solved with a good trade, a tail or a flash of tooth. This time, Liam and Ondry are going to need to find a compromise.",
+    "book_title": "Expeditions, Estimation, and Other Dangerous Pastimes",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 5,
+        "aliens": 34,
+        "bdsm": 20,
+        "fantasy": 8,
+        "fiction": 7,
+        "gay": 5,
+        "lgbt": 10,
+        "male male romance": 50,
+        "romance": 33,
+        "science fiction": 57
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "120_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "120_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "120_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 745,
+        "score": 4.25
+    },
+    "original_book_title": "English",
+    "pages": 528,
+    "url": "https://www.goodreads.com/book/show/36602760-expeditions-estimation-and-other-dangerous-pastimes",
+    "year_published": 2018
+}

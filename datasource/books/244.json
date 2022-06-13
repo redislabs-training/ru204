@@ -1,0 +1,66 @@
+{
+    "author_name": "AngelMartinez",
+    "base_id": 244,
+    "book_description": "A mysterious distress call draws the crew of courier ship Hermes to what appears to be an empty, drifting troop vessel--empty except for the blood and gore spattered corridors and a lone survivor locked in a holding cell. Drawn to the handsome, traumatized man, the crew\u2019s comm officer, Isaac Ozawa, makes Turk his personal responsibility, offering him the kindness and warmth he needs after the horror he experienced. Isaac knows firsthand what it\u2019s like to be different and an outcast, and this cements their bond. Once a promising pilot, Isaac was left with a damaged body when his brain didn't meld with the high-tech implant needed to fly fighter ships. Turk\u2019s brain is no better. The result of a military experiment gone wrong, his natural abilities have been augmented to a dangerous degree. When an amoral, power-hungry admiral kidnaps Isaac and uses him to convince Turk to become the cataclysmic weapon he\u2019s hungered for, it will take Turk\u2019s strength, the ingenuity of the Hermes crew, the help of the enigmatic Drak\u2019tar, and Isaac\u2019s own stubborn will to save them. 1st Edition published by Silver Publishing, February 2012",
+    "book_title": "Gravitational Attraction",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 32,
+        "fantasy": 15,
+        "futuristic": 11,
+        "gay": 17,
+        "lgbt": 17,
+        "male male romance": 167,
+        "military fiction": 30,
+        "romance": 60,
+        "science fiction": 141
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "244_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "244_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "244_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "244_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "244_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "244_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "244_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "244_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "244_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1528,
+        "score": 4.02
+    },
+    "original_book_title": "Gravitational Attraction",
+    "pages": 201,
+    "url": "https://www.goodreads.com/book/show/22575681-gravitational-attraction",
+    "year_published": 2012
+}

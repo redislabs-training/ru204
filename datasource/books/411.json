@@ -1,0 +1,35 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 411,
+    "book_description": "Before Number Four, there were One, Two, and Three. Until now we've only known that the Mogadorians caught Number One in Malaysia. Number Two in England. And Number Three in Kenya. But all of that is about to change. . . .In I Am Number Four: The Lost Files: The Fallen Legacies, you'll learn the true story behind these ill-fated members of the Garde. Before they were murdered by the Mogadorians, before Number Four was next, they were all just kids on an alien planet called Earth\u2014discovering their powers, trying to stay hidden, and running for their lives.",
+    "book_title": "The Fallen Legacies",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 20,
+        "aliens": 54,
+        "fantasy": 88,
+        "fiction": 43,
+        "novella": 19,
+        "paranormal": 15,
+        "science fiction": 103,
+        "short stories": 30,
+        "teen": 13,
+        "young adult": 158
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "411_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11519,
+        "score": 4.24
+    },
+    "original_book_title": "The Fallen Legacies",
+    "pages": 736,
+    "url": "https://www.goodreads.com/book/show/13622863-the-fallen-legacies",
+    "year_published": 2012
+}

@@ -1,0 +1,47 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 404,
+    "book_description": "Number Nine\u2014when John frees him from his cell in the power of six, he's ferocious, reckless, and ready to fight back. But being held captive changes a person\u2014even a Lorien. See what Nine was like before his capture, and read about his dramatic escape from his point of view.",
+    "book_title": "Nine's Legacy",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 24,
+        "aliens": 62,
+        "fantasy": 112,
+        "fiction": 47,
+        "novella": 20,
+        "paranormal": 24,
+        "science fiction": 129,
+        "short stories": 29,
+        "teen": 16,
+        "young adult": 168
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "404_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "404_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "404_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "404_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11766,
+        "score": 4.18
+    },
+    "original_book_title": "Nine's Legacy",
+    "pages": 452,
+    "url": "https://www.goodreads.com/book/show/13425352-nine-s-legacy",
+    "year_published": 2012
+}

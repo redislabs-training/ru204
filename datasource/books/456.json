@@ -1,0 +1,39 @@
+{
+    "author_name": "Kiersten Fay",
+    "base_id": 456,
+    "book_description": "From USA Today bestselling author Kiersten Fay comes this devilishly passionate tale of a fierce demon captain and the vulnerable young princess he vows to protect. Their passion will ignite the stars.As captain of the merchant ship Marada, Sebastian has only one goal: keep his family and his crew safe while they deliver a curious parcel to a ruthless pirate. But when a bewitching young woman mysteriously appears on his ship, he finds it impossible to focus on the job...and to keep his hands off her.Analia has known only one life: enslavement. In a bid for freedom, she escapes onto a craft led by a fearsome demon captain. If she is to maintain her freedom, she must gain Sebastian's trust while concealing her true nature.Together they contend with the hazards of open space, but what no one knows is her secrets are more dangerous than anything they have encountered before.",
+    "book_title": "The Demon's Possession: Scifi Paranormal Romance",
+    "editions": [
+        "None"
+    ],
+    "genres": {
+        "adult": 34,
+        "aliens": 107,
+        "demons": 104,
+        "erotica": 44,
+        "fantasy": 80,
+        "paranormal": 114,
+        "paranormal romance": 102,
+        "romance": 162,
+        "science fiction": 171,
+        "science fiction romance": 61
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "456_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "456_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4437,
+        "score": 3.93
+    },
+    "original_book_title": "Demon's Possession",
+    "pages": 558,
+    "url": "https://www.goodreads.com/book/show/53510771-the-demon-s-possession",
+    "year_published": 2011
+}

@@ -1,0 +1,63 @@
+{
+    "author_name": "Gena Showalter",
+    "base_id": 84,
+    "book_description": " Alien hunting can get a girl killed. It can also get her a date.High school senior Camille Robins and her best friend are determined to snag the attention of their crushes before graduation next month. Armed with red-hot outfits and killer hair, they sneak into the hottest nightclub in town -- which caters to the rich and famous, both human and alien. They end up following Erik (who is human) and Silver (who isn't) through a guarded door and are soon separated and under attack...and not the good kind.Bad boy Erik spares Camille's life, but the two are soon being chased by gun-toting Alien Investigation and Removal agents. Camille's more confused than ever because Erik's finally showing real interest in her, but the agents are accusing him of dealing Onadyn -- a drug that ruins human lives. Suddenly, with the heat of his kiss lingering on her lips, Camille has to decide whose side she's on...and whether she's willing to put her life on the line to save Erik's.",
+    "book_title": "Blacklisted",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 5,
+        "aliens": 33,
+        "fantasy": 21,
+        "futuristic": 6,
+        "paranormal": 31,
+        "paranormal romance": 32,
+        "romance": 28,
+        "science fiction": 19,
+        "urban fantasy": 7,
+        "young adult": 76
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "84_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "84_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "84_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "84_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "84_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "84_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "84_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "84_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1713,
+        "score": 4
+    },
+    "original_book_title": "Blacklisted (young adult Alien Huntress, #2)",
+    "pages": 1107,
+    "url": "https://www.goodreads.com/book/show/476542.Blacklisted",
+    "year_published": 2007
+}

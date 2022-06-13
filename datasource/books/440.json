@@ -1,0 +1,67 @@
+{
+    "author_name": "Amie Kaufman",
+    "base_id": 440,
+    "book_description": "Trapped aboard the Undying's ancient spaceship and reeling from what they've learned there, scavenger Mia and academic Jules are plunged into a desperate race to warn their home planet of the danger humanity's greed has unleashed. From the mountains of Spain to the streets of Prague, the sequel to Unearthed is a white-knuckle ride that will send readers hurtling back to earth, and leave them breathless until the last page.\nThe earth's fate rests in Mia and Jules's hands in the epic conclusion to New York Times best-selling authors Amie Kaufman and Meagan Spooner's tomb-raiding sci-fi duology.\n",
+    "book_title": "Undying",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 20,
+        "aliens": 24,
+        "audiobook": 23,
+        "dystopia": 21,
+        "fantasy": 31,
+        "romance": 35,
+        "science fiction": 173,
+        "space": 20,
+        "teen": 16,
+        "young adult": 151
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "440_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "440_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "440_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "440_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "440_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "440_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "440_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "440_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "440_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2205,
+        "score": 3.82
+    },
+    "original_book_title": "Undying",
+    "pages": 444,
+    "url": "https://www.goodreads.com/book/show/26839798-undying",
+    "year_published": 2018
+}

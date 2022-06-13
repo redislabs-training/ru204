@@ -1,0 +1,63 @@
+{
+    "author_name": "Patrick Ness",
+    "base_id": 6566,
+    "book_description": "As a world-ending war surges to life around them, Todd and Viola face monstrous decisions. The indigenous Spackle, thinking and acting as one, have mobilized to avenge their murdered people. Ruthless human leaders prepare to defend their factions at all costs, even as a convoy of new settlers approaches. And as the ceaseless Noise lays all thoughts bare, the projected will of the few threatens to overwhelm the desperate desire of the many. The consequences of each action, each word, are unspeakably vast: To follow a tyrant or a terrorist? To save the life of the one you love most or thousands of strangers? To believe in redemption or assume it is lost? Becoming adults amid the turmoil, Todd and Viola question all they have known, racing through horror and outrage toward a shocking finale.",
+    "book_title": "Monsters of Men",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 154,
+        "aliens": 97,
+        "dystopia": 885,
+        "fantasy": 609,
+        "fiction": 479,
+        "romance": 116,
+        "science fiction": 910,
+        "teen": 111,
+        "war": 121,
+        "young adult": 1661
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "6566_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "6566_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "6566_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "6566_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "6566_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "6566_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "6566_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "6566_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 70622,
+        "score": 4.23
+    },
+    "original_book_title": "Monsters of Men",
+    "pages": 269,
+    "url": "https://www.goodreads.com/book/show/20758105-monsters-of-men",
+    "year_published": 2010
+}

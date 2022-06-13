@@ -1,0 +1,39 @@
+{
+    "author_name": "Richard Paul Russo",
+    "base_id": 302,
+    "book_description": "Home to generations of humans, the starship Argonos has wandered aimlessly throughout the galaxy for hundreds of years, desperately searching for other signs of life. Now an unidentified transmission lures them toward a nearby planet-and into the dark heart of an alien mystery.",
+    "book_title": "Ship of Fools",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 20,
+        "fiction": 67,
+        "horror": 115,
+        "mystery": 12,
+        "novels": 6,
+        "science fiction": 239,
+        "space": 16,
+        "space opera": 23,
+        "speculative fiction": 6,
+        "thriller": 6
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "302_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "302_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3133,
+        "score": 3.75
+    },
+    "original_book_title": "Ship of Fools",
+    "pages": 581,
+    "url": "https://www.goodreads.com/book/show/24827.Ship_of_Fools",
+    "year_published": 2001
+}

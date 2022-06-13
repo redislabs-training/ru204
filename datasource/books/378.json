@@ -1,0 +1,47 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 378,
+    "book_description": "Beast. Creature. Monster.Dangerous.All of these things have been said about Gren.Willa doesn\u2019t believe it, though. She knows that monsters can sometimes come in appealing packages. She knows that for all of his snarls and fearsome appearance, he\u2019d never hurt her.And she knows she has to get Gren away from the Icehome camp, because no one will ever see him as a person, not when he attacks all who come close. Not when he\u2019s tied and treated like an animal.She\u2019s going to save him\u2026 or fall in love. Maybe both. Willa doesn\u2019t mind that he\u2019s a beast, as long as he\u2019s *her* beast.",
+    "book_title": "Willa's Beast",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 13,
+        "aliens": 93,
+        "erotica": 27,
+        "fantasy": 25,
+        "fiction": 9,
+        "paranormal": 18,
+        "paranormal romance": 21,
+        "romance": 87,
+        "science fiction": 76,
+        "science fiction romance": 26
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "378_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "378_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "378_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "378_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3701,
+        "score": 4.05
+    },
+    "original_book_title": "Willa's Beast",
+    "pages": 1165,
+    "url": "https://www.goodreads.com/book/show/42193506-willa-s-beast",
+    "year_published": 2018
+}

@@ -1,0 +1,43 @@
+{
+    "author_name": "Marissa Meyer",
+    "base_id": 27145,
+    "book_description": "In this third book in the Lunar Chronicles, Cinder and Captain Thorne are fugitives on the run, now with Scarlet and Wolf in tow. Together, they're plotting to overthrow Queen Levana and her army.Their best hope lies with Cress, a girl imprisoned on a satellite since childhood who's only ever had her netscreens as company. All that screen time has made Cress an excellent hacker. Unfortunately, she's just received orders from Levana to track down Cinder and her handsome accomplice.When a daring rescue of Cress goes awry, the group is separated. Cress finally has her freedom, but it comes at a higher price. Meanwhile, Queen Levana will let nothing prevent her marriage to Emperor Kai. Cress, Scarlet, and Cinder may not have signed up to save the world, but they may be the only hope the world has.",
+    "book_title": "Cress",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 583,
+        "audiobook": 676,
+        "dystopia": 1670,
+        "fairy tales": 933,
+        "fantasy": 5838,
+        "fiction": 1100,
+        "retellings": 1761,
+        "romance": 2237,
+        "science fiction": 3777,
+        "young adult": 6109
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "27145_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "27145_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "27145_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 287656,
+        "score": 4.42
+    },
+    "original_book_title": "Cress",
+    "pages": 1390,
+    "url": "https://www.goodreads.com/book/show/13206828-cress",
+    "year_published": 2014
+}

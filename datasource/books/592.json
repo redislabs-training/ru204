@@ -1,0 +1,62 @@
+{
+    "author_name": "Mark Haddon",
+    "base_id": 592,
+    "book_description": "Jim and his best friend Charlie bug the staff room, and overhear two teachers speak in a strange language. What does \"spudvetch\" mean? Why do Mr Kidd's eyes flicker with fluorescent blue light when Charlie says spudvetch to him? A high-powered adventure can end only with a Boom!",
+    "book_title": "Boom",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 37,
+        "aliens": 19,
+        "childrens": 23,
+        "fantasy": 24,
+        "fiction": 77,
+        "humor": 34,
+        "juvenile": 23,
+        "science fiction": 86,
+        "young adult": 59
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "592_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "592_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "592_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "592_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "592_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "592_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "592_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "592_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4919,
+        "score": 3.41
+    },
+    "original_book_title": "Gridzbi Spudvetch!",
+    "pages": 487,
+    "url": "https://www.goodreads.com/book/show/6116753-boom",
+    "year_published": 1992
+}

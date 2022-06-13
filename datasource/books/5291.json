@@ -1,0 +1,34 @@
+{
+    "author_name": "Brian K. Vaughan",
+    "base_id": 5291,
+    "book_description": "From the Hugo Award-winning duo of Brian K. Vaughan (The Private Eye, Y: The Last Man) and Fiona Staples (North 40, Red Sonja), Saga is the sweeping tale of one young family fighting to find their place in the universe. Searching for their literary hero, new parents Marko and Alana travel to a cosmic lighthouse on the planet Quietus, while the couple's multiple pursuers finally close in on their targets.Collecting: Saga 13-18.",
+    "book_title": "Saga, Vol. 3",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 391,
+        "adventure": 173,
+        "comic book": 301,
+        "comics": 3694,
+        "fantasy": 2159,
+        "fiction": 655,
+        "graphic novels": 5001,
+        "romance": 264,
+        "science fiction": 1440
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "5291_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 80515,
+        "score": 4.51
+    },
+    "original_book_title": "Saga, Volume Three",
+    "pages": 1137,
+    "url": "https://www.goodreads.com/book/show/19358975-saga-vol-3",
+    "year_published": 2014
+}

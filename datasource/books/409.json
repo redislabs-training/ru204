@@ -1,0 +1,43 @@
+{
+    "author_name": "Johanna Lindsey",
+    "base_id": 409,
+    "book_description": "\nIn the year 2139, fearless Tedra De Arr sets out to rescue her beleaguered planet Kystran from the savage rule of the evil Crad Ce Moerr.\nExperienced in combat but not in love, the beautiful, untouched Amazon flies with Martha, her wise-cracking, free-thinking computer, to a world where warriors reign supreme - and into the arms of the one man she can never hope to vanquish: the bronzed barbarian Challen Ly-San-Ter.A magnificent creature of raw yet disciplined desires, the muscle-bound primitive succeeds where no puny Kystran male had before - igniting a raging fire within Tedra that must be extinguished before she can even think of saving her enslaved world...",
+    "book_title": "Warrior's Woman",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Romance (Historical Romance) ": 120,
+        "aliens": 37,
+        "fantasy": 89,
+        "fiction": 39,
+        "futuristic": 46,
+        "historical": 52,
+        "paranormal romance": 36,
+        "romance": 471,
+        "science fiction": 124,
+        "science fiction romance": 36
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "409_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "409_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "409_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8889,
+        "score": 4.01
+    },
+    "original_book_title": "Warrior's Woman",
+    "pages": 775,
+    "url": "https://www.goodreads.com/book/show/763774.Warrior_s_Woman",
+    "year_published": 1990
+}

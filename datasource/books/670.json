@@ -1,0 +1,47 @@
+{
+    "author_name": "Sheri S. Tepper",
+    "base_id": 670,
+    "book_description": "ISBN 9781857987980 moved to this edition.Generations ago, humans fled to the cosmic anomaly known as Grass. But before humanity arrived, another species had already claimed Grass for its own. It too had developed a culture...... Now a deadly plague is spreading across the stars, leaving no planet untouched, save for Grass. But the secret of the planet's immunity hides a truth so shattering it could mean the end of life itself.",
+    "book_title": "Grass",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 18,
+        "dystopia": 20,
+        "fantasy": 190,
+        "feminism": 18,
+        "fiction": 203,
+        "religion": 14,
+        "science fiction": 660,
+        "science fiction fantasy": 48,
+        "space": 12,
+        "speculative fiction": 35
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "670_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "670_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "670_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "670_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11216,
+        "score": 4.05
+    },
+    "original_book_title": "Grass",
+    "pages": 1036,
+    "url": "https://www.goodreads.com/book/show/104342.Grass",
+    "year_published": 1989
+}

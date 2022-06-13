@@ -1,0 +1,51 @@
+{
+    "author_name": "Shaun David Hutchinson",
+    "base_id": 5761,
+    "book_description": "From the author of The Five Stages of Andrew Brawley comes a brand-new novel about a teenage boy who must decide whether or not the world is worth saving.Henry Denton has spent years being periodically abducted by aliens. Then the aliens give him an ultimatum: The world will end in 144 days, and all Henry has to do to stop it is push a big red button.Only he isn\u2019t sure he wants to.After all, life hasn\u2019t been great for Henry. His mom is a struggling waitress held together by a thin layer of cigarette smoke. His brother is a jobless dropout who just knocked someone up. His grandmother is slowly losing herself to Alzheimer\u2019s. And Henry is still dealing with the grief of his boyfriend\u2019s suicide last year.Wiping the slate clean sounds like a pretty good choice to him.But Henry is a scientist first, and facing the question thoroughly and logically, he begins to look for pros and cons: in the bully who is his perpetual one-night stand, in the best friend who betrayed him, in the brilliant and mysterious boy who walked into the wrong class. Weighing the pain and the joy that surrounds him, Henry is left with the ultimate choice: push the button and save the planet and everyone on it\u2026or let the world\u2014and his pain\u2014be destroyed forever.",
+    "book_title": "We Are the Ants",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "contemporary": 956,
+        "fantasy": 156,
+        "fiction": 416,
+        "lgbt": 1082,
+        "mental health": 266,
+        "mental illness": 124,
+        "queer": 234,
+        "romance": 259,
+        "science fiction": 800,
+        "young adult": 1486
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "5761_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "5761_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "5761_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "5761_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "5761_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 31723,
+        "score": 4.17
+    },
+    "original_book_title": "We Are the Ants",
+    "pages": 1270,
+    "url": "https://www.goodreads.com/book/show/23677341-we-are-the-ants",
+    "year_published": 2016
+}

@@ -1,0 +1,35 @@
+{
+    "author_name": "Melinda Metz",
+    "base_id": 40,
+    "book_description": "Circle of danger...Maria: She hasn't told her firends about the strange glowing ring that she found. It seems to be giving her powers -- special abilities that let her enter a world she's been dying to experience. Here's her chance to learn what she longs to know: how Michael feels about her.Michael: He feels all alone on Earth and he's searching for a place to belong. He didn't count on discovering someone to care about right here in Roswell. Now he's falling for his best friend. But what he doesn't know, and Maria doesn't realize, is that she's drawing danger to them all....",
+    "book_title": "The Seeker",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 19,
+        "fantasy": 15,
+        "fiction": 9,
+        "media tie-in": 8,
+        "paranormal": 10,
+        "romance": 12,
+        "science fiction": 36,
+        "supernatural": 7,
+        "teen": 11,
+        "young adult": 79
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "40_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1426,
+        "score": 3.66
+    },
+    "original_book_title": "The Seeker",
+    "pages": 493,
+    "url": "https://www.goodreads.com/book/show/330840.The_Seeker",
+    "year_published": 1998
+}

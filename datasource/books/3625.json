@@ -1,0 +1,43 @@
+{
+    "author_name": "Douglas Adams",
+    "base_id": 3625,
+    "book_description": "The unhappy inhabitants of planet Krikkit are sick of looking at the night sky above their heads\u2013so they plan to destroy it. The universe, that is. Now only five individuals stand between the killer robots of Krikkit and their goal of total annihilation.They are Arthur Dent, a mild-mannered space and time traveler who tries to learn how to fly by throwing himself at the ground and missing; Ford Prefect, his best friend, who decides to go insane to see if he likes it; Slartibartfast, the indomitable vice president of the Campaign for Real Time, who travels in a ship powered by irrational behavior; Zaphod Beeblebrox, the two-headed, three-armed ex-president of the galazy; and Trillian, the sexy space cadet who is torn between a persistent Thunder God and a very depressed Beeblebrox.How will it all end? Will it end? Only this stalwart crew knows as they try to avert \u201cuniversal\u201d Armageddon and save life as we know it\u2013and don\u2019t know it!",
+    "book_title": "Life, the Universe and Everything",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 204,
+        "audiobook": 239,
+        "classics": 336,
+        "comedy": 686,
+        "fantasy": 968,
+        "fiction": 2618,
+        "humor": 2003,
+        "novels": 190,
+        "science fiction": 4614,
+        "science fiction fantasy": 438
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "3625_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "3625_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "3625_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 200098,
+        "score": 4.2
+    },
+    "original_book_title": "Life, the Universe and Everything",
+    "pages": 280,
+    "url": "https://www.goodreads.com/book/show/8694.Life_the_Universe_and_Everything",
+    "year_published": 1982
+}

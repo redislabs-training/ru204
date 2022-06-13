@@ -1,0 +1,42 @@
+{
+    "author_name": "Kaitlyn O'Connor",
+    "base_id": 24,
+    "book_description": "When Captain Danielle Dubois crash lands on the world terra-formed by the Danu she isn\u2019t the only one shocked. The cyborgs that people the world of Danu have never seen a female ... but they definitely like what they see!",
+    "book_title": "Discovery (The Forgotten",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 22,
+        "erotic romance": 7,
+        "erotica": 30,
+        "futuristic": 8,
+        "paranormal": 4,
+        "romance": 14,
+        "science fiction": 23,
+        "science fiction romance": 7,
+        "shapeshifters": 5
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "24_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "24_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "24_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 582,
+        "score": 3.62
+    },
+    "original_book_title": "English",
+    "pages": 811,
+    "url": "https://www.goodreads.com/book/show/8111624-discovery",
+    "year_published": 2010
+}

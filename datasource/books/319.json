@@ -1,0 +1,47 @@
+{
+    "author_name": "Theresa Kay",
+    "base_id": 319,
+    "book_description": "A reclusive human girl. A disillusioned alien boy. They were never meant to meet\u2026When Jax Mitchell\u2019s twin is kidnapped by Earth's alien settlers, the E'rikon, she'll do anything to get him back\u2014even form an alliance with a teenage E'rikon left behind by the same ship that took her brother.Jax agrees to act as a guide, and in return, the alien agrees to sneak her past the human-proof barrier surrounding the E'rikon city. Too bad it's not that simple. Jax soon finds that she's drawn to the alien boy with bright green hair and jewel-like scales on his back\u2014and he's equally affected by her, the courageous redhead with haunted eyes. But she doesn't know the alien's true motives, and he has no idea that she is much more than she seems.With the aliens and the humans at odds, the connection forming between the two teens has consequences. What started off as a rescue mission sets in motion a chain of events that threatens not only the remaining humans and the growing alien society, but Earth itself.",
+    "book_title": "Broken Skies",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 5,
+        "aliens": 74,
+        "dystopia": 51,
+        "fantasy": 35,
+        "fiction": 6,
+        "paranormal": 24,
+        "paranormal romance": 5,
+        "romance": 45,
+        "science fiction": 78,
+        "young adult": 88
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "319_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "319_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "319_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "319_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1542,
+        "score": 4.04
+    },
+    "original_book_title": "B01MCVBE8Q",
+    "pages": 744,
+    "url": "https://www.goodreads.com/book/show/43479909-broken-skies",
+    "year_published": 2014
+}

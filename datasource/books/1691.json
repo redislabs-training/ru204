@@ -1,0 +1,63 @@
+{
+    "author_name": "Scott Sigler",
+    "base_id": 1691,
+    "book_description": "Across America a mysterious disease is turning ordinary people into raving, paranoid murderers who inflict brutal horrors on strangers, themselves, and even their own families. Working under the government\u2019s shroud of secrecy, CIA operative Dew Phillips crisscrosses the country trying in vain to capture a live victim. With only decomposing corpses for clues, CDC epidemiologist Margaret Montoya races to analyze the science behind this deadly contagion. She discovers that these killers all have one thing in common \u2013 they\u2019ve been contaminated by a bioengineered parasite, shaped by a complexity far beyond the limits of known science.Meanwhile Perry Dawsey \u2013 a hulking former football star now resigned to life as a cubicle-bound desk jockey \u2013 awakens one morning to find several mysterious welts growing on his body. Soon Perry finds himself acting and thinking strangely, hearing voices . . . he is infected.The fate of the human race may well depend on the bloody war Perry must wage with his own body, because the parasites want something from him, something that goes beyond mere murder.",
+    "book_title": "Infected",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 43,
+        "apocalyptic": 22,
+        "audiobook": 51,
+        "fantasy": 24,
+        "fiction": 234,
+        "horror": 753,
+        "science fiction": 357,
+        "science fiction fantasy": 20,
+        "thriller": 128,
+        "zombies": 98
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1691_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "1691_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1691_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 19394,
+        "score": 3.84
+    },
+    "original_book_title": "Infected",
+    "pages": 801,
+    "url": "https://www.goodreads.com/book/show/2331954.Infected",
+    "year_published": 2008
+}

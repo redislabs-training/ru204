@@ -1,0 +1,67 @@
+{
+    "author_name": "Mary Doria Russell",
+    "base_id": 1688,
+    "book_description": "Mary Doria Russell's debut novel, The Sparrow, took us on a journey to a distant planet and into the center of the human soul. A critically acclaimed bestseller, The Sparrow was chosen as one of Entertainment Weekly's Ten Best Books of the Year, a finalist for the Book-of-the-Month Club's First Fiction Prize and the winner of the James M. Tiptree Memorial Award. Now, in Children of God, Russell further establishes herself as one of the most innovative, entertaining and philosophically provocative novelists writing today.The only member of the original mission to the planet Rakhat to return to Earth, Father Emilio Sandoz has barely begun to recover from his ordeal when the Society of Jesus calls upon him for help in preparing for another mission to Alpha Centauri. Despite his objections and fear, he cannot escape his past or the future.Old friends, new discoveries and difficult questions await Emilio as he struggles for inner peace and understanding in a moral...",
+    "book_title": "Children of God",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Literary Fiction": 23,
+        "adult": 23,
+        "aliens": 32,
+        "fantasy": 98,
+        "fiction": 467,
+        "novels": 27,
+        "religion": 106,
+        "science fiction": 660,
+        "science fiction fantasy": 92,
+        "speculative fiction": 48
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "1688_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1688_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1688_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1688_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17972,
+        "score": 4.07
+    },
+    "original_book_title": "Children of God",
+    "pages": 1234,
+    "url": "https://www.goodreads.com/book/show/16948.Children_of_God",
+    "year_published": 1998
+}

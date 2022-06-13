@@ -1,0 +1,63 @@
+{
+    "author_name": "Anna Hackett",
+    "base_id": 95,
+    "book_description": "As part of Hell Squad, former Coalition Navy SEAL Reed MacKinnon fights for humanity\u2019s freedom from the alien invaders. He also fights for his brown-eyed girl\u2014the woman he rescued from the aliens\u2019 secret laboratory. He admires her quiet strength and will to survive, not to mention her elfin looks and curvy body\u2026but he knows he has to keep his distance. She\u2019s nowhere near ready for what he has to offer and he\u2019ll protect her from everything, even his own powerful desires.Energy scientist Natalya Vasin has lived through hell. Still struggling after her captivity, scarred by the aliens\u2019 experimentation, all she wants is to be normal again...and she wants Reed MacKinnon. But the rugged soldier is holding back, treating her like glass, and she won\u2019t accept that from anybody.As Reed and Natalya wage a sensual battle of desires, they also work together to decipher a mysterious alien energy cube. Hell Squad needs Natalya\u2019s expertise and they need her to go back into alien territory to use it. But on a mission to destroy an alien outpost, secrets are uncovered\u2014of what the raptors really did to Natalya. Secrets that mean the future she wants with Reed is just an impossible dream.",
+    "book_title": "Reed",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 6,
+        "aliens": 17,
+        "dystopia": 7,
+        "fantasy": 5,
+        "futuristic": 7,
+        "military fiction": 10,
+        "post apocalyptic": 8,
+        "romance": 22,
+        "science fiction": 28,
+        "science fiction romance": 12
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "95_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "95_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "95_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "95_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "95_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "95_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "95_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "95_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1115,
+        "score": 4.19
+    },
+    "original_book_title": "\n0994358407\n(ISBN13: 9780994358400)\n",
+    "pages": 252,
+    "url": "https://www.goodreads.com/book/show/25742835-reed",
+    "year_published": 2015
+}

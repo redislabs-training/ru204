@@ -1,0 +1,59 @@
+{
+    "author_name": "Jaid Black",
+    "base_id": 58,
+    "book_description": "Commander Alexandria Frazier headed up NASA's first deep-space mission to search for other habitable planets in distant galaxies. Where only two years have passed by for the crew of the Methuselah, fifteen hundred years have ticked by on Earth. Alex and her crew were prepared for that eventuality. What they weren't prepared for was a nuclear war and the resulting catastrophic meteor shower that sent them hurling into Earth's very distant, eerie future. Welcome to earth in the year 100,000,007 A.D. Prepare to scream.",
+    "book_title": "Breeding Ground",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 19,
+        "bdsm": 10,
+        "erotic romance": 9,
+        "erotica": 39,
+        "futuristic": 9,
+        "paranormal": 17,
+        "romance": 31,
+        "science fiction": 38,
+        "science fiction romance": 9,
+        "time travel": 19
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "58_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "58_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "58_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "58_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "58_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "58_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "58_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1457,
+        "score": 3.65
+    },
+    "original_book_title": "Breeding Ground",
+    "pages": 1157,
+    "url": "https://www.goodreads.com/book/show/1814114.Breeding_Ground",
+    "year_published": 2004
+}

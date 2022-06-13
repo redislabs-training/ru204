@@ -1,0 +1,59 @@
+{
+    "author_name": "Jennifer L. Armentrout",
+    "base_id": 370,
+    "book_description": "\"This is the never before seen \"real\" wedding between Daemon and Kat from the Lux Series. This should not be read unless you have read the Lux series.\"Found on Wattpad here.",
+    "book_title": "The Wedding",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 90,
+        "fantasy": 74,
+        "novella": 22,
+        "paranormal": 62,
+        "paranormal romance": 34,
+        "romance": 107,
+        "science fiction": 43,
+        "short stories": 36,
+        "urban fantasy": 10,
+        "young adult": 101
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "370_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "370_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "370_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "370_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "370_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "370_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "370_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4779,
+        "score": 4.46
+    },
+    "original_book_title": "English",
+    "pages": 1081,
+    "url": "https://www.goodreads.com/book/show/25397349-the-wedding",
+    "year_published": 2015
+}

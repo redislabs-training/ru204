@@ -1,0 +1,34 @@
+{
+    "author_name": "K.A. Applegate",
+    "base_id": 67,
+    "book_description": "Jake wakes up one morning to find he is suddenly twenty-five years old, the Yeerks rule the world, all the other Animorphs are either dead or Yeerk-infested, and he alone is left to fight.",
+    "book_title": "The Familiar",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 9,
+        "aliens": 17,
+        "animals": 9,
+        "childrens": 18,
+        "fantasy": 26,
+        "fiction": 33,
+        "science fiction": 70,
+        "war": 8,
+        "young adult": 55
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "67_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1939,
+        "score": 3.67
+    },
+    "original_book_title": "The Familiar",
+    "pages": 829,
+    "url": "https://www.goodreads.com/book/show/363352.The_Familiar",
+    "year_published": 2000
+}

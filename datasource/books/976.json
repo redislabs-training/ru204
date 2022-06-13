@@ -1,0 +1,51 @@
+{
+    "author_name": "K.A. Applegate",
+    "base_id": 976,
+    "book_description": "Sometimes weird things happen to people. Ask Jake. He may tell you about the night he and his friends saw the strange light in the sky. He may even tell you about what happened when they realized the \"light\" was only a plane -- from another planet. Here's where Jake's story gets a little weird. It's where they're told that the human race is under attack -- and given the chance to fight back.Now Jake, Rachel, Cassie, Tobias, and Marco have the power to morph into any animal they choose. And they must use that power to outsmart an evil that is greater than anything the world has ever seen...",
+    "book_title": "The Invasion",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 46,
+        "aliens": 79,
+        "animals": 51,
+        "childrens": 109,
+        "fantasy": 164,
+        "fiction": 191,
+        "middle grade": 113,
+        "science fiction": 344,
+        "science fiction fantasy": 24,
+        "young adult": 278
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "976_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "976_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "976_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "976_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "976_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14090,
+        "score": 3.82
+    },
+    "original_book_title": "The Invasion",
+    "pages": 1365,
+    "url": "https://www.goodreads.com/book/show/776877.The_Invasion",
+    "year_published": 1996
+}

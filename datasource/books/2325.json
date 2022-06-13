@@ -1,0 +1,59 @@
+{
+    "author_name": "Melissa Landers",
+    "base_id": 2325,
+    "book_description": "Life in the outer realm is a lawless, dirty, hard existence, and Solara Brooks is hungry for it. Just out of the orphanage, she needs a fresh start in a place where nobody cares about the engine grease beneath her fingernails or the felony tattoos across her knuckles. She's so desperate to reach the realm that she's willing to indenture herself to Doran Spaulding, the rich and popular quarterback who made her life miserable all through high school, in exchange for passage aboard the spaceliner Zenith.When a twist of fate lands them instead on the Banshee, a vessel of dubious repute, Doran learns he's been framed on Earth for conspiracy. As he pursues a set of mysterious coordinates rumored to hold the key to clearing his name, he and Solara must get past their enmity to work together and evade those out for their arrest. Life on the Banshee may be tumultuous, but as Solara and Doran are forced to question everything they once believed about their world\u2014and each other\u2014the ship becomes home, and the eccentric crew family. But what Solara and Doran discover on the mysterious Planet X has the power to not only alter their lives, but the existence of everyone in the universe...",
+    "book_title": "Starflight",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 97,
+        "dystopia": 72,
+        "fantasy": 271,
+        "fiction": 81,
+        "pirates": 44,
+        "romance": 345,
+        "science fiction": 837,
+        "space": 147,
+        "space opera": 60,
+        "young adult": 771
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "2325_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2325_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2325_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "2325_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "2325_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2325_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "2325_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11734,
+        "score": 3.86
+    },
+    "original_book_title": "Starflight",
+    "pages": 596,
+    "url": "https://www.goodreads.com/book/show/21793182-starflight",
+    "year_published": 2016
+}

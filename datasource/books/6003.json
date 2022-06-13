@@ -1,0 +1,59 @@
+{
+    "author_name": "Joe Haldeman",
+    "base_id": 6003,
+    "book_description": "The Earth's leaders have drawn a line in the interstellar sand\u2014despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But \"home\" may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries.",
+    "book_title": "The Forever War",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "classics": 202,
+        "fiction": 1448,
+        "military fiction": 245,
+        "science fiction": 4396,
+        "science fiction fantasy": 228,
+        "space": 144,
+        "space opera": 219,
+        "speculative fiction": 103,
+        "time travel": 168,
+        "war": 456
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "6003_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "6003_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "6003_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "6003_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "6003_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "6003_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "6003_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 143514,
+        "score": 4.14
+    },
+    "original_book_title": "The Forever War",
+    "pages": 703,
+    "url": "https://www.goodreads.com/book/show/21611.The_Forever_War",
+    "year_published": 1974
+}

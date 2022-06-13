@@ -1,0 +1,63 @@
+{
+    "author_name": "Dara Joy",
+    "base_id": 184,
+    "book_description": "Fired from her job, exhausted from her miserable Boston commute, the last thing Deana Jones needed when she got home was to find an alien in her living room. But how else to explain the magnificent man who claimed he was from beyond the stars? He said that his name was Lorgin and that she was part of his celestial destiny. Deana thought his reasoning was ridiculous, and she knew he was making an error of cosmic proportions. But his touch was electric and his arms strong, and when she first felt the sizzling impact of his uncontrollable desire, Deana started to wonder if maybe their passion wasn't written in the stars.",
+    "book_title": "Knight of a Trillion Stars",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 33,
+        "fantasy": 64,
+        "fiction": 18,
+        "futuristic": 26,
+        "paranormal": 70,
+        "paranormal romance": 65,
+        "romance": 191,
+        "science fiction": 66,
+        "science fiction romance": 22,
+        "time travel": 24
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "184_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "184_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "184_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "184_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "184_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "184_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "184_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "184_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3821,
+        "score": 3.93
+    },
+    "original_book_title": "Knight of a Trillion Stars",
+    "pages": 1292,
+    "url": "https://www.goodreads.com/book/show/206857.Knight_of_a_Trillion_Stars",
+    "year_published": 1995
+}

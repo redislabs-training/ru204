@@ -1,0 +1,43 @@
+{
+    "author_name": "Dan Simmons",
+    "base_id": 8549,
+    "book_description": "On the world called Hyperion, beyond the law of the Hegemony of Man, there waits the creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all. On the eve of Armageddon, with the entire galaxy at war, seven pilgrims set forth on a final voyage to Hyperion seeking the answers to the unsolved riddles of their lives. Each carries a desperate hope\u2014and a terrible secret. And one may hold the fate of humanity in his hands.",
+    "book_title": "Hyperion",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "audiobook": 180,
+        "fantasy": 1024,
+        "fiction": 1879,
+        "horror": 140,
+        "novels": 131,
+        "science fiction": 5394,
+        "science fiction fantasy": 407,
+        "space": 138,
+        "space opera": 427,
+        "time travel": 175
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "8549_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "8549_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "8549_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 196214,
+        "score": 4.23
+    },
+    "original_book_title": "Hyperion",
+    "pages": 788,
+    "url": "https://www.goodreads.com/book/show/77566.Hyperion",
+    "year_published": 1989
+}

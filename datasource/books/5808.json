@@ -1,0 +1,35 @@
+{
+    "author_name": "James S.A. Corey",
+    "base_id": 5808,
+    "book_description": "We are not alone.On Ganymede, breadbasket of the outer planets, a Martian marine watches as her platoon is slaughtered by a monstrous supersoldier. On Earth, a high-level politician struggles to prevent interplanetary war from reigniting. And on Venus, an alien protomolecule has overrun the planet, wreaking massive, mysterious changes and threatening to spread out into the solar system.In the vast wilderness of space, James Holden and the crew of the Rocinante have been keeping the peace for the Outer Planets Alliance. When they agree to help a scientist search war-torn Ganymede for a missing child, the future of humanity rests on whether a single ship can prevent an alien invasion that may have already begun . . .Caliban's War is a breakneck science fiction adventure following the critically acclaimed Leviathan Wakes.",
+    "book_title": "Caliban's War",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 82,
+        "aliens": 63,
+        "audiobook": 201,
+        "fantasy": 99,
+        "fiction": 976,
+        "novels": 62,
+        "science fiction": 3129,
+        "science fiction fantasy": 174,
+        "space": 198,
+        "space opera": 611
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "5808_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 102554,
+        "score": 4.34
+    },
+    "original_book_title": "Caliban's War",
+    "pages": 1400,
+    "url": "https://www.goodreads.com/book/show/12591698-caliban-s-war",
+    "year_published": 2012
+}

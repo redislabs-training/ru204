@@ -1,0 +1,51 @@
+{
+    "author_name": "Nancy Kress",
+    "base_id": 237,
+    "book_description": "Aliens have landed in New York. A deadly cloud of spores has already infected and killed the inhabitants of two worlds. Now that plague is heading for Earth, and threatens humans and aliens alike. Can either species be trusted to find the cure?Geneticist Marianne Jenner is immersed in the desperate race to save humanity, yet her family is tearing itself apart. Siblings Elizabeth and Ryan are strident isolationists who agree only that an alien conspiracy is in play. Marianne\u2019s youngest, Noah, is a loner addicted to a drug that constantly changes his identity. But between the four Jenners, the course of human history will be forever altered. Earth\u2019s most elite scientists have ten months to prevent human extinction\u2014and not everyone is willing to wait.",
+    "book_title": "Yesterday's Kin",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "The United States Of America": 2,
+        "aliens": 18,
+        "apocalyptic": 6,
+        "dystopia": 2,
+        "fiction": 39,
+        "novella": 20,
+        "science fiction": 179,
+        "science fiction fantasy": 7,
+        "short stories": 7,
+        "speculative fiction": 7
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "237_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "237_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "237_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "237_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "237_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1477,
+        "score": 3.53
+    },
+    "original_book_title": "Yesterday's Kin",
+    "pages": 1263,
+    "url": "https://www.goodreads.com/book/show/20694897-yesterday-s-kin",
+    "year_published": 2014
+}

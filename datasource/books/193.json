@@ -1,0 +1,50 @@
+{
+    "author_name": "Erica Stevens",
+    "base_id": 193,
+    "book_description": "The world didn\u2019t end with a bang, it didn\u2019t go out in a ball of fire and fury, nor did it end in ice. But in some strange way, ice was the end; or maybe it was the beginning of something more.Bethany is stunned and horrified when she finds herself suddenly alone in a world that was alive only moments before. Terrified, she flees into the streets of her town, looking for answers, and desperate to reach her family. Panicked, she is nearly captured by the monsters hunting her until Cade steps in to rescue her. Dark and distant, most people in school are wary of Cade, yet oddly fascinated by him. They had once been close as children, but it has been years since Bethany has had any real contact with Cade. As their situation becomes even more perilous, Bethany struggles to come to terms with her past, her terrifying new reality, and her growing love for a boy that is powerful, mysterious, and perhaps even more frightening than the aliens hunting them. Aliens that want more than their lives, they also want their blood.",
+    "book_title": "Ravenous",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 41,
+        "apocalyptic": 7,
+        "dystopia": 16,
+        "fantasy": 18,
+        "paranormal": 34,
+        "paranormal romance": 15,
+        "romance": 35,
+        "science fiction": 30,
+        "young adult": 50
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "193_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "193_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "193_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "193_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "193_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2815,
+        "score": 3.88
+    },
+    "original_book_title": "English",
+    "pages": 1200,
+    "url": "https://www.goodreads.com/book/show/23232459-ravenous",
+    "year_published": 2012
+}

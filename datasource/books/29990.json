@@ -1,0 +1,43 @@
+{
+    "author_name": "Rick Yancey",
+    "base_id": 29990,
+    "book_description": "After the 1st wave, only darkness remains. After the 2nd, only the lucky escape. And after the 3rd, only the unlucky survive. After the 4th wave, only one rule applies: trust no one.Now, it's the dawn of the 5th wave, and on a lonely stretch of highway, Cassie runs from Them. The beings who only look human, who roam the countryside killing anyone they see. Who have scattered Earth's last survivors. To stay alone is to stay alive, Cassie believes, until she meets Evan Walker. Beguiling and mysterious, Evan Walker may be Cassie's only hope for rescuing her brother-or even saving herself. But Cassie must choose: between trust and despair, between defiance and surrender, between life and death. To give up or to get up.",
+    "book_title": "The 5th Wave",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 1225,
+        "apocalyptic": 365,
+        "audiobook": 381,
+        "dystopia": 2972,
+        "fantasy": 1043,
+        "fiction": 1247,
+        "post apocalyptic": 876,
+        "romance": 855,
+        "science fiction": 3327,
+        "young adult": 5436
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "29990_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "29990_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "29990_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 400600,
+        "score": 4.03
+    },
+    "original_book_title": "The 5th Wave",
+    "pages": 1390,
+    "url": "https://www.goodreads.com/book/show/16101128-the-5th-wave",
+    "year_published": 2013
+}

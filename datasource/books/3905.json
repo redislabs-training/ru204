@@ -1,0 +1,58 @@
+{
+    "author_name": "Brian K. Vaughan",
+    "base_id": 3905,
+    "book_description": "Multiple storylines collide in this cosmos-spanning new volume. While Gwendolyn and Lying Cat risk everything to find a cure for The Will, Marko makes an uneasy alliance with Prince Robot IV to find their missing children, who are trapped on a strange world with terrifying new enemies.Collecting: Saga 25-30",
+    "book_title": "Saga, Vol. 5",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 304,
+        "adventure": 135,
+        "comic book": 219,
+        "comics": 2204,
+        "fantasy": 1569,
+        "fiction": 490,
+        "graphic novels": 3804,
+        "romance": 164,
+        "science fiction": 1093
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "3905_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3905_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "3905_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "3905_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "3905_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "3905_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "3905_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 57153,
+        "score": 4.42
+    },
+    "original_book_title": "Saga, Volume Five",
+    "pages": 556,
+    "url": "https://www.goodreads.com/book/show/25451555-saga-vol-5",
+    "year_published": 2015
+}

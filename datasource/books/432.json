@@ -1,0 +1,51 @@
+{
+    "author_name": "Andrea K. H\u00f6st",
+    "base_id": 432,
+    "book_description": "On her last day of high school, Cassandra Devlin walked out of exams and into a forest. Surrounded by the wrong sort of trees, and animals never featured in any nature documentary, Cass is only sure of one thing: alone, she will be lucky to survive.The sprawl of abandoned blockish buildings Cass discovers offers her only more puzzles. Where are the people? What is the intoxicating mist which drifts off the buildings in the moonlight? And why does she feel like she's being watched?Increasingly unnerved, Cass is overjoyed at the arrival of the formidable Setari. Whisked to a world as technologically advanced as the first was primitive, where nanotech computers are grown inside people's skulls, and few have any interest in venturing outside the enormous whitestone cities, Cass finds herself processed as a 'stray', a refugee displaced by the gates torn between worlds. Struggling with an unfamiliar language and culture, she must adapt to virtual classrooms, friends who can teleport, and the ingrained attitude that strays are backward and slow.Can Cass ever find her way home? And after the people of her new world discover her unexpected value, will they be willing to let her leave?",
+    "book_title": "Stray",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 25,
+        "aliens": 41,
+        "fantasy": 68,
+        "fiction": 29,
+        "paranormal": 19,
+        "romance": 23,
+        "science fiction": 162,
+        "science fiction fantasy": 12,
+        "young adult": 157,
+        "young adult fantasy": 11
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "432_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "432_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "432_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "432_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "432_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3607,
+        "score": 3.98
+    },
+    "original_book_title": "Stray",
+    "pages": 258,
+    "url": "https://www.goodreads.com/book/show/10837174-stray",
+    "year_published": 2011
+}

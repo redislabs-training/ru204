@@ -1,0 +1,43 @@
+{
+    "author_name": "Stephenie Meyer",
+    "base_id": 334,
+    "book_description": "When an unseen enemy threatens mankind by taking over their bodies and erasing their memories, Melanie Stryder will risk everything to protect the people she cares most about \u2014 Jared, Ian, her brother Jamie and her Uncle Jeb, proving that love can conquer all in a dangerous new world.",
+    "book_title": "The Seeker",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 13,
+        "aliens": 52,
+        "dystopia": 58,
+        "fantasy": 109,
+        "fiction": 49,
+        "paranormal": 44,
+        "romance": 63,
+        "science fiction": 101,
+        "supernatural": 14,
+        "young adult": 97
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "334_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "334_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "334_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1880,
+        "score": 4.08
+    },
+    "original_book_title": "English",
+    "pages": 392,
+    "url": "https://www.goodreads.com/book/show/6138606-the-seeker",
+    "year_published": 0
+}

@@ -1,0 +1,42 @@
+{
+    "author_name": "Mark Verheiden",
+    "base_id": 105,
+    "book_description": "Dark Horse Comics took the industry by storm with its release of Aliens, a comics series that for the first time captured the power of film source material and expanded its universe in a way that fans applauded worldwide. Now, the first three Dark Horse Aliens series \u2014 Outbreak, Nightmare Asylum and Female War \u2014 are collected in a value-priced, quality-format omnibus, featuring nearly 400 story pages in full color. Written by screen and television scribe Mark Verheiden (The Mask, Battlestar Gallactica) and illustrated with consummate skill by Mark A. Nelson, Den Beauvais and Sam Kieth, Aliens Omnibus Volume 1 is an essential piece of the Aliens mythos and a great entry point into the storied Dark Horse Aliens library.",
+    "book_title": "Aliens Omnibus, Vol. 1",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 17,
+        "comic book": 4,
+        "comics": 45,
+        "fiction": 11,
+        "graphic novels": 53,
+        "horror": 34,
+        "media tie-in": 3,
+        "science fiction": 33,
+        "science fiction fantasy": 3
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "105_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "105_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "105_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1079,
+        "score": 3.73
+    },
+    "original_book_title": "Aliens Omnibus Volume 1",
+    "pages": 1235,
+    "url": "https://www.goodreads.com/book/show/343288.Aliens_Omnibus_Vol_1",
+    "year_published": 2007
+}

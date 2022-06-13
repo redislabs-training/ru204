@@ -1,0 +1,67 @@
+{
+    "author_name": "Will McIntosh",
+    "base_id": 205,
+    "book_description": "A new epic of alien invasion and human resistance by Hugo Award-winning author Will McIntosh.The invaders came to claim earth as their own, overwhelming us with superior weapons and the ability to read our minds like open books. Our only chance for survival was to engineer a new race of perfect soldiers to combat them. Seventeen feet tall, knowing and loving nothing but war, their minds closed to the aliens. But these saviors could never be our servants. And what is done cannot be undone.",
+    "book_title": "Defenders",
+    "editions": [
+        "None"
+    ],
+    "genres": {
+        "adult": 3,
+        "aliens": 19,
+        "dark": 3,
+        "dystopia": 8,
+        "fantasy": 4,
+        "fiction": 23,
+        "post apocalyptic": 10,
+        "science fiction": 110,
+        "science fiction fantasy": 7,
+        "war": 4
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "205_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "205_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "205_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "205_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "205_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "205_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "205_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "205_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "205_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1659,
+        "score": 3.61
+    },
+    "original_book_title": "\n031621776X\n(ISBN13: 9780316217767)\n",
+    "pages": 492,
+    "url": "https://www.goodreads.com/book/show/18453098-defenders",
+    "year_published": 2014
+}

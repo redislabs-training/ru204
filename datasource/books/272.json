@@ -1,0 +1,50 @@
+{
+    "author_name": "Siobhan Davis",
+    "base_id": 272,
+    "book_description": "A girl with a hidden past. An alien prince. Their unlikely attraction could save two worlds\u2026 or doom them all\u2026Sadie Owens desperately needed a do-over. When she\u2019s chosen for a six-month residency in a government-run undersea city, she willingly drops everything to participate. After all, the experiment could be a huge step forward for her overcrowded planet and her life. The instant Sadie crosses paths with a hot guy with ocean-blue eyes she\u2019s drawn to him in a way she can\u2019t explain. But Logan gives Sadie mixed signals, and she can\u2019t figure him out.Logan Chandler has kept a lot of secrets for his species. If humans knew the real reason the Saven were on Earth, then their coexistence would be anything but peaceful. Logan has vowed to stay away from human girls, but he can\u2019t help falling for the different and beautiful Sadie. Unfortunately, protecting the girl of his destiny could destroy his own kind\u2026As the mystery of the Saven starts to unravel, is it too late for Sadie to save her heart and the human race?",
+    "book_title": "Saven Deception",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 26,
+        "dystopia": 32,
+        "fantasy": 21,
+        "fiction": 4,
+        "paranormal": 12,
+        "paranormal romance": 5,
+        "romance": 33,
+        "science fiction": 38,
+        "young adult": 42
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "272_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "272_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "272_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "272_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "272_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1222,
+        "score": 4.01
+    },
+    "original_book_title": "Saven Deception",
+    "pages": 1376,
+    "url": "https://www.goodreads.com/book/show/42510024-saven-deception",
+    "year_published": 2015
+}

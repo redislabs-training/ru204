@@ -1,0 +1,47 @@
+{
+    "author_name": "Alison Goodman",
+    "base_id": 141,
+    "book_description": "Seventeen-year-old Joss is a rebel, and a student of time travel at the prestigious Centre for Neo-Historical Studies. This year, for the first time, the Centre has an alien student? Mavkel, from the planet Choria. And Mavkel has chosen Joss, of all people, as his roommate and study partner. Then Mavkel gets sick. Joss quickly realizes that his will to live is draining away. The only way she can help Mavkel is by breaking the Centre's strictest rules . . . and that means going back in time to change history.",
+    "book_title": "Singing the Dogstar Blues",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 18,
+        "dystopia": 5,
+        "fantasy": 13,
+        "fiction": 12,
+        "science fiction": 94,
+        "science fiction fantasy": 4,
+        "teen": 18,
+        "time travel": 51,
+        "young adult": 95,
+        "young adult science fiction": 5
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "141_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "141_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "141_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "141_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1030,
+        "score": 3.67
+    },
+    "original_book_title": "Singing the Dogstar Blues",
+    "pages": 919,
+    "url": "https://www.goodreads.com/book/show/462225.Singing_the_Dogstar_Blues",
+    "year_published": 1998
+}

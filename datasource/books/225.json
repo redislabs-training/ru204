@@ -1,0 +1,67 @@
+{
+    "author_name": "Jaymin Eve",
+    "base_id": 225,
+    "book_description": "Maya has never had much to complain about. Sure, her parents are absent a lot, having important jobs in the government, but at the end of the day she has all the material possessions a girl could want. Not to mention a great best friend, and secure spot in the popular group at her school. Yet she can never shake the feeling of displacement. Constantly searching for something that\u2019s missing from her life. Turns out Maya is part of something much bigger than her human existence, and after a mysterious stranger saves her from an ambush at a party, he brings her into his world. And turns her world completely upside down.",
+    "book_title": "House of Leights",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 18,
+        "fantasy": 31,
+        "high school": 6,
+        "magic": 8,
+        "paranormal": 28,
+        "paranormal romance": 6,
+        "romance": 19,
+        "supernatural": 5,
+        "urban fantasy": 7,
+        "young adult": 20
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "225_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "225_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "225_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "225_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "225_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "225_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "225_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "225_8"
+        },
+        {
+            "status": "available",
+            "stock_number": "225_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3307,
+        "score": 4.31
+    },
+    "original_book_title": "B07DCQM83W",
+    "pages": 1350,
+    "url": "https://www.goodreads.com/book/show/40241655-house-of-leights",
+    "year_published": 2018
+}

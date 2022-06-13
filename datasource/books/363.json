@@ -1,0 +1,63 @@
+{
+    "author_name": "Patrick Ness",
+    "base_id": 363,
+    "book_description": "The Wide, Wide Sea is set in the past, at a time before the Spackle War, and we get a first look at the fishing village on the sea where some very important things happen at the end of Monsters of Men.Best read after The Ask and the Answer but before Monsters.(again, hints of things to come) - Patrick Ness",
+    "book_title": "The Wide, Wide Sea",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 9,
+        "aliens": 21,
+        "dystopia": 80,
+        "fantasy": 63,
+        "fiction": 54,
+        "novella": 27,
+        "romance": 19,
+        "science fiction": 103,
+        "short stories": 137,
+        "young adult": 150
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "363_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "363_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "363_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "363_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "363_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "363_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "363_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "363_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3224,
+        "score": 4.07
+    },
+    "original_book_title": "The Wide, Wide Sea",
+    "pages": 610,
+    "url": "https://www.goodreads.com/book/show/17926807-the-wide-wide-sea",
+    "year_published": 2009
+}

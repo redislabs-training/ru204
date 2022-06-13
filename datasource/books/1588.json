@@ -1,0 +1,43 @@
+{
+    "author_name": "Demitria Lunetta",
+    "base_id": 1588,
+    "book_description": "In debut author Demitria Lunetta's thriller, one girl must fight for her survival in a world overrun by violent, deadly creatures.Amy Harris's life changed forever when They took over. Her parents\u2014vanished. The government\u2014obsolete. Societal structure\u2014nonexistent. No one knows where They came from, but these vicious creatures have been rapidly devouring mankind since They appeared. With fierce survivor instincts, Amy manages to stay alive\u2014and even rescues \"Baby,\" a toddler who was left behind. After years of hiding, they are miraculously rescued and taken to New Hope. On the surface, it appears to be a safe haven for survivors. But there are dark and twisted secrets lurking beneath that could have Amy and Baby paying with not only their freedom... but also their lives.",
+    "book_title": "In the After",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 93,
+        "apocalyptic": 58,
+        "dystopia": 310,
+        "fantasy": 55,
+        "fiction": 68,
+        "horror": 96,
+        "post apocalyptic": 182,
+        "science fiction": 210,
+        "young adult": 442,
+        "zombies": 121
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "1588_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "1588_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1588_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 12009,
+        "score": 4.05
+    },
+    "original_book_title": "In the After",
+    "pages": 778,
+    "url": "https://www.goodreads.com/book/show/12157407-in-the-after",
+    "year_published": 2013
+}

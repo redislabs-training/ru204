@@ -1,0 +1,43 @@
+{
+    "author_name": "Megan Crewe",
+    "base_id": 245,
+    "book_description": "Seventeen-year-old Skylar has been haunted for as long as she can remember by fleeting yet powerful sensations that something is horribly wrong. But despite the panic attacks tormenting her, nothing ever happens, and Sky\u2019s beginning to think she\u2019s crazy. Then she meets a mysterious, otherworldly boy named Win and discovers the shocking truth her premonitions have tapped into: our world no longer belongs to us. For thousands of years, Earth has been at the mercy of alien scientists who care nothing for its inhabitants and are using us as the unwitting subjects of their time-manipulating experiments. Win belongs to a rebel faction seeking to put a stop to it, and he needs Skylar\u2019s help--but with each shift in the past, the very fabric of reality is unraveling, and soon there may be no Earth left to save.",
+    "book_title": "Earth & Sky",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 9,
+        "aliens": 40,
+        "dystopia": 15,
+        "fantasy": 33,
+        "fiction": 14,
+        "romance": 18,
+        "science fiction": 76,
+        "space": 7,
+        "time travel": 32,
+        "young adult": 101
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "245_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "245_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "245_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 880,
+        "score": 3.48
+    },
+    "original_book_title": "\n0670068128\n(ISBN13: 9780670068128)\n",
+    "pages": 565,
+    "url": "https://www.goodreads.com/book/show/17875055-earth-sky",
+    "year_published": 2014
+}

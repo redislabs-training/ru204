@@ -1,0 +1,63 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 163,
+    "book_description": "\n[image]\n",
+    "book_title": "Eight's Origin",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 8,
+        "aliens": 22,
+        "dystopia": 6,
+        "fantasy": 39,
+        "fiction": 11,
+        "novella": 10,
+        "paranormal": 10,
+        "science fiction": 49,
+        "short stories": 18,
+        "young adult": 64
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "163_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "163_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "163_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "163_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "163_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "163_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "163_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "163_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3258,
+        "score": 3.89
+    },
+    "original_book_title": "English",
+    "pages": 996,
+    "url": "https://www.goodreads.com/book/show/15843845-eight-s-origin",
+    "year_published": 2012
+}

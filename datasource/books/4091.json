@@ -1,0 +1,39 @@
+{
+    "author_name": "Beth Revis",
+    "base_id": 4091,
+    "book_description": "\nGodspeed was once fueled by lies. Now it is ruled by chaos.\nIt\u2019s been three months since Amy was unplugged. The life she always knew is over. Everywhere she looks, she sees the walls of the spaceship Godspeed.But there may be hope: Elder has assumed leadership of the ship. He's finally free to act on his vision\u2014no more Phydus, no more lies.But when Elder learns shocking news about the ship, he and Amy race to discover the truth behind life on Godspeed. They must work together to unlock a mystery that was set in motion hundreds of years earlier. Their success\u2014or failure\u2014will determine the fate of the 2,298 passengers aboard Godspeed. But with each step, the journey becomes more perilous, the ship more chaotic, and the love between them more impossible to fight.Beth Revis catapulted readers into the far reaches of space with her New York Times bestselling debut, Across the Universe. In A Million Suns, Beth deepens the mystery with action, suspense, romance, and deep philosophical questions. And this time it all builds to one mind-bending conclusion: They have to get off this ship.",
+    "book_title": "A Million Suns",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "dystopia": 659,
+        "fantasy": 289,
+        "fiction": 197,
+        "futuristic": 72,
+        "mystery": 181,
+        "romance": 463,
+        "science fiction": 1093,
+        "space": 162,
+        "teen": 79,
+        "young adult": 1280
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "4091_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "4091_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 52606,
+        "score": 4.02
+    },
+    "original_book_title": "A Million Suns ",
+    "pages": 598,
+    "url": "https://www.goodreads.com/book/show/10345927-a-million-suns",
+    "year_published": 2012
+}

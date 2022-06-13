@@ -1,0 +1,63 @@
+{
+    "author_name": "Orson Scott Card",
+    "base_id": 851,
+    "book_description": "One hundred years before Ender's Game the aliens arrived on Earth with fire and death. This is the story of the First Formic War. Victor beat the alien ship to Earth, but just barely. But it wasn't enough to convince skeptical governments that there was a threat.",
+    "book_title": "Earth Afire",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 24,
+        "audiobook": 39,
+        "fantasy": 29,
+        "fiction": 145,
+        "science fiction": 453,
+        "science fiction fantasy": 29,
+        "space": 19,
+        "space opera": 12,
+        "war": 16,
+        "young adult": 21
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "851_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "851_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "851_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "851_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "851_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "851_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "851_7"
+        },
+        {
+            "status": "available",
+            "stock_number": "851_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13202,
+        "score": 4.05
+    },
+    "original_book_title": "Earth Afire",
+    "pages": 1095,
+    "url": "https://www.goodreads.com/book/show/16059350-earth-afire",
+    "year_published": 2013
+}

@@ -1,0 +1,67 @@
+{
+    "author_name": "Marcella Burnard",
+    "base_id": 130,
+    "book_description": " An intergalactic cold war-and some heated passion- from an inventive new voice in futuristic romance.After a stint in an alien prison, Captain Ari Rose wonders why she even bothered to survive. Stripped of her command and banished to her father's scientific expedition to finish a Ph.D. she doesn't want, Ari never planned to languish quietly behind a desk. She wasn't built for it, either. But when pirates commandeer her father's ship, Ari once again becomes a prisoner.As far as pirate leader Cullin is concerned, Ari's past imprisonment puts her dead center in Cullin's sights. If she hasn't been brainwashed and returned as a spy, then he's convinced she must be part of a traitorous alliance endangering billions of lives. Cullin can't afford the desire she fires within him and he'll stop at nothing, including destroying her, to uncover the truth.",
+    "book_title": "Enemy Within",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 9,
+        "aliens": 19,
+        "fantasy": 11,
+        "futuristic": 13,
+        "military fiction": 9,
+        "romance": 84,
+        "science fiction": 91,
+        "science fiction romance": 35,
+        "space": 13,
+        "space opera": 12
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "130_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "130_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "130_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "130_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "130_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "130_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "130_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "130_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "130_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1233,
+        "score": 3.63
+    },
+    "original_book_title": "Enemy Within",
+    "pages": 721,
+    "url": "https://www.goodreads.com/book/show/7831138-enemy-within",
+    "year_published": 2010
+}

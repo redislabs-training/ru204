@@ -1,0 +1,55 @@
+{
+    "author_name": "Adam Rex",
+    "base_id": 1713,
+    "book_description": "It all starts with a school essay.When twelve-year-old Gratuity (\u201cTip\u201d) Tucci is assigned to write five pages on \u201cThe True Meaning of Smekday\u201d for the National Time Capsule contest, she\u2019s not sure where to begin. When her mom started telling everyone about the messages aliens were sending through a mole on the back of her neck? Maybe on Christmas Eve, when huge, bizarre spaceships descended on the Earth and the aliens \u2013 called Boov \u2013 abducted her mother? Or when the Boov declared Earth a colony, renamed it \u201cSmekland\u201d (in honor of glorious Captain Smek), and forced all Americans to relocate to Florida via rocketpod?In any case, Gratuity\u2019s story is much, much bigger than the assignment. It involves her unlikely friendship with a renegade Boov mechanic named J.Lo.; a futile journey south to find Gratuity\u2019s mother at the Happy Mouse Kingdom; a cross-country road trip in a hovercar called Slushious; and an outrageous plan to save the Earth from yet another alien invasion.Fully illustrated with \u201cphotos,\u201d drawings, newspaper clippings, and comics sequences, this is a hilarious, perceptive, genre-bending novel by a remarkable new talent. the planet from a really big catastrophe.",
+    "book_title": "The True Meaning of Smekday",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 85,
+        "aliens": 79,
+        "audiobook": 75,
+        "childrens": 88,
+        "fantasy": 110,
+        "fiction": 168,
+        "humor": 186,
+        "middle grade": 204,
+        "science fiction": 366,
+        "young adult": 219
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_number": "1713_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1713_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1713_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1713_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "1713_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "1713_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8887,
+        "score": 4.1
+    },
+    "original_book_title": "The True Meaning of Smekday",
+    "pages": 1135,
+    "url": "https://www.goodreads.com/book/show/1194366.The_True_Meaning_of_Smekday",
+    "year_published": 2007
+}

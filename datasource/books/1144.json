@@ -1,0 +1,67 @@
+{
+    "author_name": "A.G. Riddle",
+    "base_id": 1144,
+    "book_description": "A new ice age... and a shocking discovery...will change humanity forever.In the near future, a new ice age has begun.Humanity stands on the brink of extinction.Desperate for answers, scientists send probes into the solar system to take readings. Near Mars, a probe spots a mysterious object drifting toward the Sun. Is it the cause of the ice age? Or could it be our only hope of survival?With time running out, NASA launches an international mission to make contact with the object. But it isn\u2019t what anyone thought. In the dark of space, alone, the team makes a shocking discovery that will change the course of human history\u2014and possibly end it.",
+    "book_title": "Winter World",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 21,
+        "apocalyptic": 20,
+        "audiobook": 16,
+        "dystopia": 21,
+        "fantasy": 14,
+        "fiction": 89,
+        "post apocalyptic": 21,
+        "science fiction": 189,
+        "science fiction fantasy": 14,
+        "thriller": 45
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "1144_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "1144_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1144_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "1144_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 19213,
+        "score": 4.09
+    },
+    "original_book_title": "Winter World (The Long Winter, #1)",
+    "pages": 640,
+    "url": "https://www.goodreads.com/book/show/43720168-winter-world",
+    "year_published": 2019
+}

@@ -1,0 +1,54 @@
+{
+    "author_name": "S.G. Redling",
+    "base_id": 265,
+    "book_description": "When Earth is rocked by evidence that extraterrestrials may have seeded human DNA throughout the universe, a one-way expedition into deep space is mounted to uncover the truth. What linguist Meg Dupris and her crewmates aboard the Earth ship Damocles discover on Didet\u2014a planet bathed in the near-eternal daylight of seven suns\u2014is a humanoid race with a different language, a different look, and a surprisingly similar society.But here, it\u2019s the \u201cEarthers\u201d who are the extraterrestrial invaders, and it\u2019s up to Meg\u2014a woman haunted by tragedy and obsessed with the power of communication\u2014to find the key to establishing trust between the natives and the newcomers. In Loul Pell, a young Dideto male thrust into the forefront of the historic event, Meg finds an unexpected kindred spirit, and undertakes an extraordinary journey of discovery, friendship, and life-altering knowledge.Told from both sides of a monumental encounter, Damocles is a compelling novel about man\u2019s first contact with an extraterrestrial race.",
+    "book_title": "Damocles",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 17,
+        "audiobook": 9,
+        "fantasy": 3,
+        "fiction": 24,
+        "linguistics": 3,
+        "science fiction": 87,
+        "science fiction fantasy": 4,
+        "space": 4,
+        "speculative fiction": 5
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "265_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "265_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "265_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "265_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "265_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "265_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2175,
+        "score": 3.83
+    },
+    "original_book_title": "B00AOBGZBI",
+    "pages": 456,
+    "url": "https://www.goodreads.com/book/show/17790336-damocles",
+    "year_published": 2013
+}

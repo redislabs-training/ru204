@@ -1,0 +1,51 @@
+{
+    "author_name": "Jamie McGuire",
+    "base_id": 360,
+    "book_description": "\u201cThey\u2019d killed me, but I survived.\u201dThree years after Rory Riordan foiled her own murder, she still trusts no one\u2014not Dr. Z, the eccentric college professor who has taken her under his wing; not Benji, the endearing, attractive classmate who insists on following her around; and certainly not Cy, the beautifully dark and mysterious boy who sits in the first row in Dr. Z\u2019s Astrobiology class and asks far too many questions.When Rory witnesses Cy being abducted by soldiers in the middle of the night, she finds herself immersed in a world that holds more secrets than she could imagine, even darker secrets than her own.From #1 New York Times Bestseller Jamie McGuire, experience the perfect combination of her bestselling books Providence and Beautiful Disaster. This New Adult Sci-Fi Romance is an action-packed, whiplash-inducing roller-coaster ride. Page after page, this unpredictable, dark, and sexy nail-biter will keep readers guessing until the very end! ",
+    "book_title": "Apolonia",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 24,
+        "contemporary": 12,
+        "fantasy": 27,
+        "new adult": 66,
+        "paranormal": 43,
+        "paranormal romance": 13,
+        "romance": 41,
+        "science fiction": 56,
+        "supernatural": 9,
+        "young adult": 7
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "360_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "360_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "360_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "360_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "360_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2733,
+        "score": 3.34
+    },
+    "original_book_title": "Apolonia",
+    "pages": 1353,
+    "url": "https://www.goodreads.com/book/show/23214943-apolonia",
+    "year_published": 2014
+}

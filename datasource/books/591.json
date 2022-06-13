@@ -1,0 +1,67 @@
+{
+    "author_name": "Larry Niven",
+    "base_id": 591,
+    "book_description": "\"This rousing sequel to the classic Ringworld continues the adventures of Louis Wu and Speaker-to-Animals on that fantastic planet.\"--School Library Journal",
+    "book_title": "The Ringworld Engineers",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 25,
+        "aliens": 17,
+        "audiobook": 22,
+        "fantasy": 36,
+        "fiction": 259,
+        "novels": 19,
+        "science fiction": 985,
+        "science fiction fantasy": 60,
+        "space": 17,
+        "space opera": 44
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "591_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "591_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "591_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 29628,
+        "score": 3.88
+    },
+    "original_book_title": "The Ringworld Engineers ",
+    "pages": 1017,
+    "url": "https://www.goodreads.com/book/show/61181.The_Ringworld_Engineers",
+    "year_published": 1979
+}

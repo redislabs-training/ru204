@@ -1,0 +1,59 @@
+{
+    "author_name": "Ruby Dixon",
+    "base_id": 149,
+    "book_description": "No one ever comes back for me.I\u2019ve always been on my own, and why should it be any different on an ice planet? So when I\u2019m kidnapped by a feral outcast, I suspect I\u2019d better learn to love raw fish and rough living.Then\u2026U\u2019dron comes to my rescue.He\u2019s always understood me more than anyone else. He\u2019s been my friend and my confidante. We\u2019ve made music together. And now that he\u2019s my hero? The crush I\u2019ve had on him is turning into something more, something deeper. He won\u2019t want me when he hears my terrible secrets, though.But it turns out that U\u2019dron has a secret of his own\u2026",
+    "book_title": "Raven's Return",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 4,
+        "aliens": 28,
+        "erotica": 3,
+        "fantasy": 8,
+        "male female romance": 3,
+        "paranormal": 5,
+        "paranormal romance": 4,
+        "romance": 26,
+        "science fiction": 24,
+        "science fiction romance": 6
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "149_1"
+        },
+        {
+            "status": "available",
+            "stock_number": "149_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "149_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "149_4"
+        },
+        {
+            "status": "available",
+            "stock_number": "149_5"
+        },
+        {
+            "status": "available",
+            "stock_number": "149_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "149_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1423,
+        "score": 4.26
+    },
+    "original_book_title": "B08GJYDMFZ",
+    "pages": 443,
+    "url": "https://www.goodreads.com/book/show/55107996-raven-s-return",
+    "year_published": 2020
+}

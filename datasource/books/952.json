@@ -1,0 +1,47 @@
+{
+    "author_name": "Megan Shepherd",
+    "base_id": 952,
+    "book_description": "When Cora Mason wakes in a desert, she doesn\u2019t know where she is or who put her there. As she explores, she finds an impossible mix of environments\u2014tundra next to desert, farm next to jungle, and a strangely empty town cobbled together from different cultures, all watched over by eerie black windows. And she isn\u2019t alone.Four other teenagers have also been taken: a beautiful model, a tattooed smuggler, a secretive genius, and an army brat who seems to know too much about Cora\u2019s past. None of them have a clue as to what happened, and all of them have secrets. As the unlikely group struggles for leadership, they slowly start to trust each other. But when their mysterious jailer appears\u2014a handsome young guard called Cassian\u2014they realize that their captivity is more terrifying than they could ever imagine: their captors aren\u2019t from Earth. And they have taken the five teenagers for an otherworldly zoo\u2014where the exhibits are humans.",
+    "book_title": "The Cage",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "aliens": 118,
+        "dystopia": 113,
+        "fantasy": 148,
+        "fiction": 50,
+        "mystery": 34,
+        "paranormal": 24,
+        "romance": 94,
+        "science fiction": 232,
+        "teen": 23,
+        "young adult": 303
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "952_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "952_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "952_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "952_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6078,
+        "score": 3.65
+    },
+    "original_book_title": "The Cage",
+    "pages": 1105,
+    "url": "https://www.goodreads.com/book/show/16071187-the-cage",
+    "year_published": 2015
+}

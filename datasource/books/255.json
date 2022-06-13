@@ -1,0 +1,47 @@
+{
+    "author_name": "James Patterson",
+    "base_id": 255,
+    "book_description": "Daniel X's hunt to eliminate each and every intergalactic criminal on Earth is always relentless, but this time, it's getting personal. Number Three on the List of Alien Outlaws takes the form of raging, soul-possessing fire. And fire transports Daniel back to the most traumatic event of his life-the death of his parents. In the face of his \"kryptonite\", Daniel struggles with his extraordinary powers like never before, and more than ever is at stake: his best friends are in grave peril. The only way to save them is to travel back-through a hole in time-to the demon's arrival during the Dark Ages. Rip-roaring action and humor sets the pages afire in this gripping time-travel adventure with an Arthurian cast-and countless other surprises!",
+    "book_title": "Demons and Druids",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "action": 8,
+        "adventure": 20,
+        "aliens": 25,
+        "fantasy": 63,
+        "fiction": 42,
+        "paranormal": 10,
+        "science fiction": 61,
+        "teen": 9,
+        "time travel": 7,
+        "young adult": 76
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "255_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "255_2"
+        },
+        {
+            "status": "available",
+            "stock_number": "255_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "255_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4988,
+        "score": 3.9
+    },
+    "original_book_title": "Demons and Druids",
+    "pages": 598,
+    "url": "https://www.goodreads.com/book/show/7125335-demons-and-druids",
+    "year_published": 2010
+}

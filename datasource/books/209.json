@@ -1,0 +1,51 @@
+{
+    "author_name": "Pittacus Lore",
+    "base_id": 209,
+    "book_description": "I Am Number Four: The Lost Files: Secret Histories is a collection of three action-packed novellas that share stories the Mogadorians don't want you to know about the inner workings of their regime as well as how they engineered the attack on Lorien. Originally published as e-novellas, now, for the first time ever, they are together in one print volume.You already know the truth about the Garde and the Mogadorian invasion, yet there is still so much to learn. The stories in Secret Histories will help you get the answers you seek, but they will not help you stop the coming war. Only the Garde can save our planet.",
+    "book_title": "Secret Histories",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adventure": 9,
+        "aliens": 26,
+        "fantasy": 43,
+        "fiction": 15,
+        "novella": 10,
+        "paranormal": 7,
+        "science fiction": 55,
+        "short stories": 17,
+        "teen": 8,
+        "young adult": 65
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "209_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "209_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "209_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "209_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "209_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3356,
+        "score": 4.27
+    },
+    "original_book_title": "\n0062223674\n(ISBN13: 9780062223678)\n",
+    "pages": 263,
+    "url": "https://www.goodreads.com/book/show/16065725-secret-histories",
+    "year_published": 2013
+}

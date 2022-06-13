@@ -1,0 +1,43 @@
+{
+    "author_name": "Laurann Dohner",
+    "base_id": 570,
+    "book_description": "Ariel never knew aliens existed until she finds herself kidnapped and taken from Earth. When the Anzon declare humans useless, she learns her fate \u2014 prize for the winner of a brutal fight between large, muscled alien men.Ral is a Zorn warrior. He has also been kidnapped by the Anzon, along with his crew. Forced into slavery, he's got one thing on his mind \u2014 freeing his people. That is, until he sees the small human woman he's willing to fight to win. He doesn't just want her body, he wants her heart forever.In the hands of a hot alien, Ariel is about to discover how pleasurable captivity can be.",
+    "book_title": "Ral's Woman",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 50,
+        "aliens": 252,
+        "erotic romance": 49,
+        "erotica": 207,
+        "fantasy": 82,
+        "paranormal": 137,
+        "paranormal romance": 128,
+        "romance": 256,
+        "science fiction": 277,
+        "science fiction romance": 80
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "570_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "570_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "570_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 12457,
+        "score": 3.82
+    },
+    "original_book_title": "Ral's Woman",
+    "pages": 723,
+    "url": "https://www.goodreads.com/book/show/7203997-ral-s-woman",
+    "year_published": 2009
+}

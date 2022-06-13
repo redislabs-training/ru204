@@ -1,0 +1,43 @@
+{
+    "author_name": "Matt Haig",
+    "base_id": 7278,
+    "book_description": "Body-snatching has never been so heartwarming . . .The Humans is a funny, compulsively readable novel about alien abduction, mathematics, and that most interesting subject of all: ourselves. Combine Douglas Adams\u2019s irreverent take on life, the universe, and everything with a genuinely moving love story, and you have some idea of the humor, originality, and poignancy of Matt Haig\u2019s latest novel.Our hero, Professor Andrew Martin, is dead before the book even begins. As it turns out, though, he wasn\u2019t a very nice man--as the alien imposter who now occupies his body discovers. Sent to Earth to destroy evidence that Andrew had solved a major mathematical problem, the alien soon finds himself learning more about the professor, his family, and \u201cthe humans\u201d than he ever expected. When he begins to fall for his own wife and son--who have no idea he\u2019s not the real Andrew--the alien must choose between completing his mission and returning home or finding a new home right here on Earth.",
+    "book_title": "The Humans",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "adult": 149,
+        "adult fiction": 84,
+        "aliens": 133,
+        "audiobook": 170,
+        "contemporary": 203,
+        "fantasy": 313,
+        "fiction": 1127,
+        "humor": 285,
+        "novels": 81,
+        "science fiction": 1190
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_number": "7278_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "7278_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "7278_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 58198,
+        "score": 4.09
+    },
+    "original_book_title": "The Humans",
+    "pages": 984,
+    "url": "https://www.goodreads.com/book/show/16130537-the-humans",
+    "year_published": 2013
+}

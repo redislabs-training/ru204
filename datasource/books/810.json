@@ -1,0 +1,63 @@
+{
+    "author_name": "Robert J. Sawyer",
+    "base_id": 810,
+    "book_description": "An alien shuttle craft lands outside the Royal Ontario Museum in Toronto. Out pops a six-legged, two-armed alien, who says, in perfect English, \"Take me to a paleontologist.\"It seems that Earth, and the alien's home planet, and the home planet of another alien species traveling on the alien mother ship, all experienced the same five cataclysmic events at about the same time, including events exactly like the meteor that wiped out the dinosaurs. Both alien races believe this proves the existence of God: i.e. he's obviously been manipulating the evolution of life on each of these planets.",
+    "book_title": "Calculating God",
+    "editions": [
+        "English"
+    ],
+    "genres": {
+        "Canada": 34,
+        "aliens": 30,
+        "audiobook": 32,
+        "fantasy": 17,
+        "fiction": 199,
+        "novels": 10,
+        "philosophy": 26,
+        "religion": 67,
+        "science fiction": 489,
+        "science fiction fantasy": 29
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_number": "810_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_number": "810_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "810_3"
+        },
+        {
+            "status": "available",
+            "stock_number": "810_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "810_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "810_6"
+        },
+        {
+            "status": "available",
+            "stock_number": "810_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_number": "810_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8528,
+        "score": 3.85
+    },
+    "original_book_title": "Calculating God",
+    "pages": 237,
+    "url": "https://www.goodreads.com/book/show/264950.Calculating_God",
+    "year_published": 2000
+}
