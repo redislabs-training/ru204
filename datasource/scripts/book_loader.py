@@ -55,4 +55,4 @@ def populate_books(directory):
 
     Migrator().run()
 
-populate_books('books')
+populate_books('../books')

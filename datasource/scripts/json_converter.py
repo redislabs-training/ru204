@@ -9,7 +9,7 @@ from random import randint
 seed(2)
 
 # Opening JSON file
-f = io.open('./data/science_fiction.json', encoding="utf-8")
+f = io.open('../data/science_fiction.json', encoding="utf-8")
 
 data = json.load(f)
 
@@ -39,7 +39,7 @@ for i in data:
             }
         )
     
-    with open(str(i["base_id"]) + '.json', 'w') as outfile:
+    with open('../books/' + str(i["base_id"]) + '.json', 'w') as outfile:
         json.dump(i, outfile, indent=4, sort_keys=True)
 
 # Closing file
