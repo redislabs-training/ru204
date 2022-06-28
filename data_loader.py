@@ -29,4 +29,8 @@ for filename in os.listdir(args.books_dir):
         books_loaded += 1
 
 print(f"Loaded {books_loaded} books into Redis.")
+
+# TODO verify 3-4 things to make sure the dataset was loaded... inc 
+# the value of books_loaded...
+
 r.quit()
