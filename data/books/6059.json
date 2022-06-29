@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 6059,
-    "book_description": "SAGA writer BRIAN K. VAUGHAN launches a brand-new ONGOING SERIES with superstar Wonder Woman artist CLIFF CHIANG! In the early hours after Halloween of 1988, four 12-year-old newspaper delivery girls uncover the most important story of all time.",
-    "book_title": "Paper Girls, Vol. 1",
+    "description": "SAGA writer BRIAN K. VAUGHAN launches a brand-new ONGOING SERIES with superstar Wonder Woman artist CLIFF CHIANG! In the early hours after Halloween of 1988, four 12-year-old newspaper delivery girls uncover the most important story of all time.",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "6059_1"
+            "stock_id": "6059_1"
         },
         {
             "status": "available",
-            "stock_number": "6059_2"
+            "stock_id": "6059_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "6059_3"
+            "stock_id": "6059_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "6059_4"
+            "stock_id": "6059_4"
         }
     ],
     "metrics": {
         "rating_votes": 70643,
         "score": 3.88
     },
-    "original_book_title": "Paper Girls, Vol. 1",
     "pages": 989,
+    "title": "Paper Girls, Vol. 1",
     "url": "https://www.goodreads.com/book/show/28204534-paper-girls-vol-1",
     "year_published": 2016
 }

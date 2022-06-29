@@ -1,8 +1,7 @@
 {
-    "author_name": "Siobhan Davis",
+    "author": "Siobhan Davis",
     "base_id": 304,
-    "book_description": "\nThey came from another world to protect her. Now it\u2019s her destiny to save them\u2026 \nTori King is a normal senior in high school. Head over heels in love with her childhood sweetheart, she is busy making plans for college when a chance encounter with an alien bounty hunter turns her world upside down. Now, she\u2019s experiencing terrifying changes and developing supernatural abilities that leave her questioning her entire existence.Then the arrival of four hot new guys at school has everyone talking\u2014especially when they become fixated on Tori, following her wherever she goes. She can\u2019t shake them off, and as they grow closer, she finds herself drawn to all four of them in ways she cannot explain.When they finally reveal their true identity, and why they\u2019re here for her, she discovers everything she thought she knew about herself is a lie.Because there is nothing normal about Tori King.And she\u2019s about to discover exactly how underrated normal is.From a USA Today bestselling author comes a captivating new alien reverse harem series that is intended for readers aged seventeen and older. This is upper YA/NA crossover which gets steamier as the series develops. This book ends on a cliffhanger and cannot be read as a standalone.",
-    "book_title": "The Lost Savior",
+    "description": "\nThey came from another world to protect her. Now it\u2019s her destiny to save them\u2026 \nTori King is a normal senior in high school. Head over heels in love with her childhood sweetheart, she is busy making plans for college when a chance encounter with an alien bounty hunter turns her world upside down. Now, she\u2019s experiencing terrifying changes and developing supernatural abilities that leave her questioning her entire existence.Then the arrival of four hot new guys at school has everyone talking\u2014especially when they become fixated on Tori, following her wherever she goes. She can\u2019t shake them off, and as they grow closer, she finds herself drawn to all four of them in ways she cannot explain.When they finally reveal their true identity, and why they\u2019re here for her, she discovers everything she thought she knew about herself is a lie.Because there is nothing normal about Tori King.And she\u2019s about to discover exactly how underrated normal is.From a USA Today bestselling author comes a captivating new alien reverse harem series that is intended for readers aged seventeen and older. This is upper YA/NA crossover which gets steamier as the series develops. This book ends on a cliffhanger and cannot be read as a standalone.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "304_1"
+            "stock_id": "304_1"
         },
         {
             "status": "available",
-            "stock_number": "304_2"
+            "stock_id": "304_2"
         },
         {
             "status": "available",
-            "stock_number": "304_3"
+            "stock_id": "304_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "304_4"
+            "stock_id": "304_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "304_5"
+            "stock_id": "304_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "304_6"
+            "stock_id": "304_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "304_7"
+            "stock_id": "304_7"
         }
     ],
     "metrics": {
         "rating_votes": 2217,
         "score": 4.05
     },
-    "original_book_title": "The Lost Savior",
     "pages": 502,
+    "title": "The Lost Savior",
     "url": "https://www.goodreads.com/book/show/38106289-the-lost-savior",
     "year_published": 2018
 }

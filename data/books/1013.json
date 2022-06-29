@@ -1,8 +1,7 @@
 {
-    "author_name": "Nnedi Okorafor",
+    "author": "Nnedi Okorafor",
     "base_id": 1013,
-    "book_description": "When a massive object crashes into the ocean off the coast of Lagos, Nigeria\u2019s most populous and legendary city, three people wandering along Bar Beach (Adaora, the marine biologist- Anthony, the rapper famous throughout Africa- Agu, the troubled soldier) find themselves running a race against time to save the country they love and the world itself\u2026 from itself. Told from multiple points of view and crisscrossing narratives, combining everything from superhero comics to Nigerian mythology to tie together a story about a city consuming itself. \u2018There was no time to flee. No time to turn. No time to shriek. And there was no pain. It was like being thrown into the stars.\u2019",
-    "book_title": "Lagoon",
+    "description": "When a massive object crashes into the ocean off the coast of Lagos, Nigeria\u2019s most populous and legendary city, three people wandering along Bar Beach (Adaora, the marine biologist- Anthony, the rapper famous throughout Africa- Agu, the troubled soldier) find themselves running a race against time to save the country they love and the world itself\u2026 from itself. Told from multiple points of view and crisscrossing narratives, combining everything from superhero comics to Nigerian mythology to tie together a story about a city consuming itself. \u2018There was no time to flee. No time to turn. No time to shriek. And there was no pain. It was like being thrown into the stars.\u2019",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1013_1"
+            "stock_id": "1013_1"
         },
         {
             "status": "available",
-            "stock_number": "1013_2"
+            "stock_id": "1013_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1013_3"
+            "stock_id": "1013_3"
         },
         {
             "status": "available",
-            "stock_number": "1013_4"
+            "stock_id": "1013_4"
         },
         {
             "status": "available",
-            "stock_number": "1013_5"
+            "stock_id": "1013_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1013_6"
+            "stock_id": "1013_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "1013_7"
+            "stock_id": "1013_7"
         }
     ],
     "metrics": {
         "rating_votes": 5904,
         "score": 3.63
     },
-    "original_book_title": "Lagoon",
     "pages": 708,
+    "title": "Lagoon",
     "url": "https://www.goodreads.com/book/show/18753656-lagoon",
     "year_published": 2014
 }

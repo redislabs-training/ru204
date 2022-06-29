@@ -1,8 +1,7 @@
 {
-    "author_name": "C.J. Cherryh",
+    "author": "C.J. Cherryh",
     "base_id": 617,
-    "book_description": "A legend among sci-fi readers, C. J. Cherryh's Union-Alliance novels, while separate and complete in themselves, are part of a much larger tapestry\u2014a future history spanning 5,000 years of human civilization. A blockbuster space opera of the rebellion between Earth and its far-flung colonies, it is a classic science fiction masterwork.",
-    "book_title": "Downbelow Station",
+    "description": "A legend among sci-fi readers, C. J. Cherryh's Union-Alliance novels, while separate and complete in themselves, are part of a much larger tapestry\u2014a future history spanning 5,000 years of human civilization. A blockbuster space opera of the rebellion between Earth and its far-flung colonies, it is a classic science fiction masterwork.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "617_1"
+            "stock_id": "617_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "617_2"
+            "stock_id": "617_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "617_3"
+            "stock_id": "617_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "617_4"
+            "stock_id": "617_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "617_5"
+            "stock_id": "617_5"
         },
         {
             "status": "available",
-            "stock_number": "617_6"
+            "stock_id": "617_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "617_7"
+            "stock_id": "617_7"
         }
     ],
     "metrics": {
         "rating_votes": 14153,
         "score": 3.92
     },
-    "original_book_title": "Downbelow Station",
     "pages": 999,
+    "title": "Downbelow Station",
     "url": "https://www.goodreads.com/book/show/57045.Downbelow_Station",
     "year_published": 1981
 }

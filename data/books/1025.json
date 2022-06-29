@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 1025,
-    "book_description": "When Evelyn Dasher crossed paths with Luc, she was thrown headfirst into the world of the Lux\u2014only to discover that she was already far more involved in their world than she ever suspected.Because the Luxen aren\u2019t the only ones with a hidden past. There\u2019s a gap in Evie\u2019s memory, lost months of her life and a lingering sense that something happened, something she can\u2019t remember and nobody is willing to tell her. She needs to find out the truth about who she is\u2014and who she was. But every answer she finds only brings up more questions.Her search for the truth brings her ever closer to Luc, the Origin at the center of it all. He\u2019s powerful, arrogant, inhumanly beautiful, extremely dangerous\u2026and possibly in love with her. But even as Evie falls for him, she can\u2019t help but wonder if his attraction is to her, or to the memory of a girl who no longer exists.And all the while, a new threat looms: reports of a flu-like, fatal virus that the government insists is being spread by Luxen. A horrifying illness that changes whoever it touches, spreading panic across a country already at its breaking point.#1 New York Times, USA Today, and internationally bestselling author Jennifer L. Armentrout returns to the world of the Lux with this steamy, shocking second installment of the Origin series that will leave readers reeling.",
-    "book_title": "The Burning Shadow",
+    "description": "When Evelyn Dasher crossed paths with Luc, she was thrown headfirst into the world of the Lux\u2014only to discover that she was already far more involved in their world than she ever suspected.Because the Luxen aren\u2019t the only ones with a hidden past. There\u2019s a gap in Evie\u2019s memory, lost months of her life and a lingering sense that something happened, something she can\u2019t remember and nobody is willing to tell her. She needs to find out the truth about who she is\u2014and who she was. But every answer she finds only brings up more questions.Her search for the truth brings her ever closer to Luc, the Origin at the center of it all. He\u2019s powerful, arrogant, inhumanly beautiful, extremely dangerous\u2026and possibly in love with her. But even as Evie falls for him, she can\u2019t help but wonder if his attraction is to her, or to the memory of a girl who no longer exists.And all the while, a new threat looms: reports of a flu-like, fatal virus that the government insists is being spread by Luxen. A horrifying illness that changes whoever it touches, spreading panic across a country already at its breaking point.#1 New York Times, USA Today, and internationally bestselling author Jennifer L. Armentrout returns to the world of the Lux with this steamy, shocking second installment of the Origin series that will leave readers reeling.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1025_1"
+            "stock_id": "1025_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1025_2"
+            "stock_id": "1025_2"
         }
     ],
     "metrics": {
         "rating_votes": 7351,
         "score": 4.37
     },
-    "original_book_title": "\n1250175747\n(ISBN13: 9781250175748)\n",
     "pages": 1307,
+    "title": "The Burning Shadow",
     "url": "https://www.goodreads.com/book/show/43263224-the-burning-shadow",
     "year_published": 2019
 }

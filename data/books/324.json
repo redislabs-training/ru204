@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 324,
-    "book_description": "It's hard to make friends with the other women at the Icehome camp when you'd rather be dissecting the local fauna. Which is why I'm surprised when one of the big, brawny islanders asks me to help him make a prosthetic leg. I don't know N'dek, but since I'm a scientist, he wants my help. And while I'm more into dinosaurs than anatomy, I love a challenge!As we work together, I come to see that N'dek's not just clever and determined, he's also protective and sweet. And he kisses like a fiend!He's a distraction I don't need... but he might be everything I've ever wanted. Too bad he says he's going to resonate to someone else...",
-    "book_title": "Devi's Distraction",
+    "description": "It's hard to make friends with the other women at the Icehome camp when you'd rather be dissecting the local fauna. Which is why I'm surprised when one of the big, brawny islanders asks me to help him make a prosthetic leg. I don't know N'dek, but since I'm a scientist, he wants my help. And while I'm more into dinosaurs than anatomy, I love a challenge!As we work together, I come to see that N'dek's not just clever and determined, he's also protective and sweet. And he kisses like a fiend!He's a distraction I don't need... but he might be everything I've ever wanted. Too bad he says he's going to resonate to someone else...",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "324_1"
+            "stock_id": "324_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "324_2"
+            "stock_id": "324_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "324_3"
+            "stock_id": "324_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "324_4"
+            "stock_id": "324_4"
         },
         {
             "status": "available",
-            "stock_number": "324_5"
+            "stock_id": "324_5"
         }
     ],
     "metrics": {
         "rating_votes": 2777,
         "score": 4.38
     },
-    "original_book_title": "Devi's Distraction ",
     "pages": 706,
+    "title": "Devi's Distraction",
     "url": "https://www.goodreads.com/book/show/45418848-devi-s-distraction",
     "year_published": 2019
 }

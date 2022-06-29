@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 550,
-    "book_description": "The first book in a pulse-pounding new series that's set in the world of the #1 New York Times bestselling I Am Number Four series. The war may be over\u2014but for the next generation, the battle has just begun!It has been over a year since the invasion of Earth was thwarted in Pittacus Lore's United as One. But in order to win, our alien allies known as the Garde unleashed their Loric energy that spread throughout the globe. Now human teenagers have begun to develop incredible powers of their own, known as Legacies.To help these incredible and potentially dangerous individuals\u2014and put the world at ease\u2014the Garde have created an academy where they can train this new generation to control their powers and hopefully one day help mankind. But not everyone thinks that's the best use of their talents. And the teens may need to use their Legacies sooner than they ever imagined.Perfect for fans of Marvel's X-Men and Rick Yancey's The 5th Wave, this epic new series follows a diverse cast of teens as they struggle to hone their abilities and decide what, if anything, they should do with them. As a spin-off of the bestselling I Am Number Four series, those familiar with the original books and newcomers alike will devour this fast-paced, action-packed sci-fi adventure.",
-    "book_title": "Generation One",
+    "description": "The first book in a pulse-pounding new series that's set in the world of the #1 New York Times bestselling I Am Number Four series. The war may be over\u2014but for the next generation, the battle has just begun!It has been over a year since the invasion of Earth was thwarted in Pittacus Lore's United as One. But in order to win, our alien allies known as the Garde unleashed their Loric energy that spread throughout the globe. Now human teenagers have begun to develop incredible powers of their own, known as Legacies.To help these incredible and potentially dangerous individuals\u2014and put the world at ease\u2014the Garde have created an academy where they can train this new generation to control their powers and hopefully one day help mankind. But not everyone thinks that's the best use of their talents. And the teens may need to use their Legacies sooner than they ever imagined.Perfect for fans of Marvel's X-Men and Rick Yancey's The 5th Wave, this epic new series follows a diverse cast of teens as they struggle to hone their abilities and decide what, if anything, they should do with them. As a spin-off of the bestselling I Am Number Four series, those familiar with the original books and newcomers alike will devour this fast-paced, action-packed sci-fi adventure.",
     "editions": [
         "None"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "550_1"
+            "stock_id": "550_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "550_2"
+            "stock_id": "550_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "550_3"
+            "stock_id": "550_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "550_4"
+            "stock_id": "550_4"
         },
         {
             "status": "available",
-            "stock_number": "550_5"
+            "stock_id": "550_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "550_6"
+            "stock_id": "550_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "550_7"
+            "stock_id": "550_7"
         },
         {
             "status": "available",
-            "stock_number": "550_8"
+            "stock_id": "550_8"
         }
     ],
     "metrics": {
         "rating_votes": 5517,
         "score": 4.24
     },
-    "original_book_title": "\n0062493728\n(ISBN13: 9780062493729)\n",
     "pages": 852,
+    "title": "Generation One",
     "url": "https://www.goodreads.com/book/show/32497565-generation-one",
     "year_published": 2017
 }

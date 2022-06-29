@@ -1,8 +1,7 @@
 {
-    "author_name": "Eve Langlais",
+    "author": "Eve Langlais",
     "base_id": 50,
-    "book_description": "Kidnapped or rescued, it\u2019s a matter of alien perspective. Either way, it results in pleasurable probing. Abducted by a hunky blue alien, researcher and admitted geek Penny is eager to study his mating habits\u2014in the flesh. She\u2019d like to blame her illogical affection for him on hormones, but the erotic remedy just heightens her chemical imbalance. Reg never thought a simple rescue mission would make him question his decision to remain single for while Penny drives him crazy with her never-ending questions, her simple presence inflames his lust\u2014and causes havoc with his emotions. But is he ready to give up the galactic travel he loves so much to settle down with an earthling female?",
-    "book_title": "Alien Mate 3",
+    "description": "Kidnapped or rescued, it\u2019s a matter of alien perspective. Either way, it results in pleasurable probing. Abducted by a hunky blue alien, researcher and admitted geek Penny is eager to study his mating habits\u2014in the flesh. She\u2019d like to blame her illogical affection for him on hormones, but the erotic remedy just heightens her chemical imbalance. Reg never thought a simple rescue mission would make him question his decision to remain single for while Penny drives him crazy with her never-ending questions, her simple presence inflames his lust\u2014and causes havoc with his emotions. But is he ready to give up the galactic travel he loves so much to settle down with an earthling female?",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "50_1"
+            "stock_id": "50_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "50_2"
+            "stock_id": "50_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "50_3"
+            "stock_id": "50_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "50_4"
+            "stock_id": "50_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "50_5"
+            "stock_id": "50_5"
         }
     ],
     "metrics": {
         "rating_votes": 1488,
         "score": 3.85
     },
-    "original_book_title": "9781936279647",
     "pages": 593,
+    "title": "Alien Mate 3",
     "url": "https://www.goodreads.com/book/show/10219948-alien-mate-3",
     "year_published": 2011
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Alastair Reynolds",
+    "author": "Alastair Reynolds",
     "base_id": 840,
-    "book_description": "2057. Bella Lind and the crew of her nuclearpowered ship, the Rockhopper, push ice. They mine comets. But when Janus, one of Saturn's ice moons, inexplicably leaves its natural orbit and heads out of the solar system at high speed, Bella is ordered to shadow it for the few vital days before it falls forever out of reach.In accepting this mission she sets her ship and her crew on a collision course with destiny-for Janus has many surprises in store, and not all of them are welcome...",
-    "book_title": "Pushing Ice",
+    "description": "2057. Bella Lind and the crew of her nuclearpowered ship, the Rockhopper, push ice. They mine comets. But when Janus, one of Saturn's ice moons, inexplicably leaves its natural orbit and heads out of the solar system at high speed, Bella is ordered to shadow it for the few vital days before it falls forever out of reach.In accepting this mission she sets her ship and her crew on a collision course with destiny-for Janus has many surprises in store, and not all of them are welcome...",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "840_1"
+            "stock_id": "840_1"
         },
         {
             "status": "available",
-            "stock_number": "840_2"
+            "stock_id": "840_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "840_3"
+            "stock_id": "840_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "840_4"
+            "stock_id": "840_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "840_5"
+            "stock_id": "840_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "840_6"
+            "stock_id": "840_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "840_7"
+            "stock_id": "840_7"
         }
     ],
     "metrics": {
         "rating_votes": 14956,
         "score": 4.05
     },
-    "original_book_title": "Pushing Ice",
     "pages": 537,
+    "title": "Pushing Ice",
     "url": "https://www.goodreads.com/book/show/89186.Pushing_Ice",
     "year_published": 2005
 }

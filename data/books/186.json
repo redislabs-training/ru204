@@ -1,8 +1,7 @@
 {
-    "author_name": "Lyn Gala",
+    "author": "Lyn Gala",
     "base_id": 186,
-    "book_description": "Corporal Jacqs Glebov is a simple soldier who wants a bunk, decent food and the company of other battle-hardened men and women who understand the realities of fighting. Instead he's stuck patrolling a remote corner of the border with cadets straight out of boot camp. They don't understand him, and he sure doesn't have an ounce of respect for them.After a field promotion, Earth sends Commander Zeke Waters to the Candiru for some practical experience in a leadership role. Instead, Zeke falls in lust with the adamantly heterosexual Jacqs. The way Jacqs fights and the way he sees the world draws Zeke closer, even if common sense tells him to walk away.Even if they can find a way to reconcile their sexual differences, they are both still soldiers. The war will eventually take them away from each other unless they can find a way to escape the rules that have defined their lives.",
-    "book_title": "Turbulence",
+    "description": "Corporal Jacqs Glebov is a simple soldier who wants a bunk, decent food and the company of other battle-hardened men and women who understand the realities of fighting. Instead he's stuck patrolling a remote corner of the border with cadets straight out of boot camp. They don't understand him, and he sure doesn't have an ounce of respect for them.After a field promotion, Earth sends Commander Zeke Waters to the Candiru for some practical experience in a leadership role. Instead, Zeke falls in lust with the adamantly heterosexual Jacqs. The way Jacqs fights and the way he sees the world draws Zeke closer, even if common sense tells him to walk away.Even if they can find a way to reconcile their sexual differences, they are both still soldiers. The war will eventually take them away from each other unless they can find a way to escape the rules that have defined their lives.",
     "editions": [
         "English"
     ],
@@ -20,15 +19,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "186_1"
+            "stock_id": "186_1"
         }
     ],
     "metrics": {
         "rating_votes": 1169,
         "score": 3.98
     },
-    "original_book_title": "\n1623005043\n(ISBN13: 9781623005047)\n",
     "pages": 1218,
+    "title": "Turbulence",
     "url": "https://www.goodreads.com/book/show/18694013-turbulence",
     "year_published": 2013
 }

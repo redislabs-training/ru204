@@ -1,8 +1,7 @@
 {
-    "author_name": "Arthur C. Clarke",
+    "author": "Arthur C. Clarke",
     "base_id": 691,
-    "book_description": "70 years after the events of Rendezvous with Rama, a second Raman vessel enters our solar system. Its arrival is expected and an expedition is sent to unlock more of Rama's mysteries, but the crew are unprepared both for what they find and for the conflicts that arise between them.",
-    "book_title": "Rama II",
+    "description": "70 years after the events of Rendezvous with Rama, a second Raman vessel enters our solar system. Its arrival is expected and an expedition is sent to unlock more of Rama's mysteries, but the crew are unprepared both for what they find and for the conflicts that arise between them.",
     "editions": [
         "French"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "691_1"
+            "stock_id": "691_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "691_2"
+            "stock_id": "691_2"
         },
         {
             "status": "available",
-            "stock_number": "691_3"
+            "stock_id": "691_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "691_4"
+            "stock_id": "691_4"
         },
         {
             "status": "available",
-            "stock_number": "691_5"
+            "stock_id": "691_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "691_6"
+            "stock_id": "691_6"
         }
     ],
     "metrics": {
         "rating_votes": 23369,
         "score": 3.69
     },
-    "original_book_title": "Rama II",
     "pages": 436,
+    "title": "Rama II",
     "url": "https://www.goodreads.com/book/show/112520.Rama_II",
     "year_published": 1989
 }

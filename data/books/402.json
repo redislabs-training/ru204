@@ -1,8 +1,7 @@
 {
-    "author_name": "Sean Platt",
+    "author": "Sean Platt",
     "base_id": 402,
-    "book_description": "They are coming. The countdown has begun.First visible only as blips on a telescope image, the discovery of objects approaching from Jupiter orbit immediately sets humanity on edge. NASA doesn't even bother to deny the alien ships' existence. The popular Astral space app (broadcasting from the far side of the moon and accessible by anyone with internet) has already shown the populace what is coming. So the news has turned from evasion to triage, urging calm and offering the few facts they have: The objects are enormous, perfectly round spheres numbering in the dozens, maybe hundreds. They are on an approach vector for Earth. And they will arrive in six days. Fear simmers.Meyer Dempsey - mogul, wealthy entrepreneur, arrogant and always in charge - is in New York, on the phone with his ex-wife in LA when the news breaks. He can hear tension in the voices of reporters and experts chronicling all that's known and unknown. But even while those supposedly in charge restrain their own panic, Meyer finds he recognizes bits and pieces of what the world is facing. He's seen this in dreams - in visions of another place. He knows where he and his family must go. He has prepared \u2026 though he never knew until now what he'd been preparing for. He knows only they cannot hesitate. They must run to their safe haven in the Colorado mountains. Now. Before society shatters into chaos, and it all falls apart. Fear rises.Meyer has been taking steps for months, and has made preparations: a trove of supplies, a van stocked for the worst, a Gulfstream waiting at a small airstrip in Jersey. But he hasn't yet been able to take the final and most important step: moving the family to Colorado, where every contingency is covered. The networks stay on-air longer than expected, creating a farce of calm. But those with means have already begun to scramble as Meyer gathers his wife Piper and his two teenage children and begins their race toward that compound, toward safety. There is no time for hesitation, regret, or pity. Soon, pundits begin to ask questions hard enough to tip those who've thus far stayed calm out of their complacency, inciting chaos: What do the beings inside the ships want? What will they do when they arrive? And what if the scientists are wrong, and the spheres aren't decelerating? Will they strike the planet, raising clouds of extinction dust? Will they knock the Earth off its axis? Is this a prelude to an alien invasion? An alien war? An alien apocalypse? The first domino in the birth of a new alien empire? Fear erupts.Panic, once it breaches the thin crust of civilized society, spreads like a virus. Meyer knows only one thing, and it's a truth that has perched atop his mind like a psychic obsession: When the ships arrive, his family must be at the Colorado compound or all will be lost. The space fleet in itself doesn't matter. The disintegration on the surviving news outlets does not matter. Reports that Las Vegas has been set ablaze do not matter. The fate of humanity, in Meyer's eyes, doesn't matter.All that matters is Piper. Trevor. Delilah. And Meyer's ex-wife Heather, coming to the same destination from the west - a woman who remains his best friend, and his secret lover. Rioting spills into the highways as time ticks away. Unrest boils in both city and hinterlands. But Meyer's obsession to reach Vail is single-minded, guided with the focus of a far-seeing nightmare. Gangs can ground his plane, threaten his vehicles, and steal his belongings. But nothing will stand between Meyer's family and their haven \u2026 and Meyer will kill his way to Colorado if he has to. This relentless, page-turning tale of apocalyptic dawn is the first in the alien invasion series by masters of story Truant and Platt, authors of The Beam, Robot Proletariat, the Dream Engine series, and many more.",
-    "book_title": "Invasion",
+    "description": "They are coming. The countdown has begun.First visible only as blips on a telescope image, the discovery of objects approaching from Jupiter orbit immediately sets humanity on edge. NASA doesn't even bother to deny the alien ships' existence. The popular Astral space app (broadcasting from the far side of the moon and accessible by anyone with internet) has already shown the populace what is coming. So the news has turned from evasion to triage, urging calm and offering the few facts they have: The objects are enormous, perfectly round spheres numbering in the dozens, maybe hundreds. They are on an approach vector for Earth. And they will arrive in six days. Fear simmers.Meyer Dempsey - mogul, wealthy entrepreneur, arrogant and always in charge - is in New York, on the phone with his ex-wife in LA when the news breaks. He can hear tension in the voices of reporters and experts chronicling all that's known and unknown. But even while those supposedly in charge restrain their own panic, Meyer finds he recognizes bits and pieces of what the world is facing. He's seen this in dreams - in visions of another place. He knows where he and his family must go. He has prepared \u2026 though he never knew until now what he'd been preparing for. He knows only they cannot hesitate. They must run to their safe haven in the Colorado mountains. Now. Before society shatters into chaos, and it all falls apart. Fear rises.Meyer has been taking steps for months, and has made preparations: a trove of supplies, a van stocked for the worst, a Gulfstream waiting at a small airstrip in Jersey. But he hasn't yet been able to take the final and most important step: moving the family to Colorado, where every contingency is covered. The networks stay on-air longer than expected, creating a farce of calm. But those with means have already begun to scramble as Meyer gathers his wife Piper and his two teenage children and begins their race toward that compound, toward safety. There is no time for hesitation, regret, or pity. Soon, pundits begin to ask questions hard enough to tip those who've thus far stayed calm out of their complacency, inciting chaos: What do the beings inside the ships want? What will they do when they arrive? And what if the scientists are wrong, and the spheres aren't decelerating? Will they strike the planet, raising clouds of extinction dust? Will they knock the Earth off its axis? Is this a prelude to an alien invasion? An alien war? An alien apocalypse? The first domino in the birth of a new alien empire? Fear erupts.Panic, once it breaches the thin crust of civilized society, spreads like a virus. Meyer knows only one thing, and it's a truth that has perched atop his mind like a psychic obsession: When the ships arrive, his family must be at the Colorado compound or all will be lost. The space fleet in itself doesn't matter. The disintegration on the surviving news outlets does not matter. Reports that Las Vegas has been set ablaze do not matter. The fate of humanity, in Meyer's eyes, doesn't matter.All that matters is Piper. Trevor. Delilah. And Meyer's ex-wife Heather, coming to the same destination from the west - a woman who remains his best friend, and his secret lover. Rioting spills into the highways as time ticks away. Unrest boils in both city and hinterlands. But Meyer's obsession to reach Vail is single-minded, guided with the focus of a far-seeing nightmare. Gangs can ground his plane, threaten his vehicles, and steal his belongings. But nothing will stand between Meyer's family and their haven \u2026 and Meyer will kill his way to Colorado if he has to. This relentless, page-turning tale of apocalyptic dawn is the first in the alien invasion series by masters of story Truant and Platt, authors of The Beam, Robot Proletariat, the Dream Engine series, and many more.",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "402_1"
+            "stock_id": "402_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "402_2"
+            "stock_id": "402_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "402_3"
+            "stock_id": "402_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "402_4"
+            "stock_id": "402_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "402_5"
+            "stock_id": "402_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "402_6"
+            "stock_id": "402_6"
         },
         {
             "status": "available",
-            "stock_number": "402_7"
+            "stock_id": "402_7"
         }
     ],
     "metrics": {
         "rating_votes": 3489,
         "score": 3.67
     },
-    "original_book_title": "B00TADUV1Q",
     "pages": 732,
+    "title": "Invasion",
     "url": "https://www.goodreads.com/book/show/24915344-invasion",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Patrick Ness",
+    "author": "Patrick Ness",
     "base_id": 503,
-    "book_description": "Snowscape is set after the end of Monsters of Men, so that\u2019s when you should read it.That\u2019s all I\u2019ll say, I don\u2019t want to give anything away. ;-)- Patrick Ness",
-    "book_title": "Snowscape",
+    "description": "Snowscape is set after the end of Monsters of Men, so that\u2019s when you should read it.That\u2019s all I\u2019ll say, I don\u2019t want to give anything away. ;-)- Patrick Ness",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "503_1"
+            "stock_id": "503_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "503_2"
+            "stock_id": "503_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "503_3"
+            "stock_id": "503_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "503_4"
+            "stock_id": "503_4"
         }
     ],
     "metrics": {
         "rating_votes": 3426,
         "score": 4.12
     },
-    "original_book_title": "Snowscape",
     "pages": 542,
+    "title": "Snowscape",
     "url": "https://www.goodreads.com/book/show/17926802-snowscape",
     "year_published": 2013
 }

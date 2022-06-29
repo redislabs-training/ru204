@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 628,
-    "book_description": "The ice planet has given me a second lease on life, so I'm thrilled to be here. Sure, there's no cheeseburgers, but I'm healthy and ready to be a productive member of the small tribe.What I didn't anticipate? That there'd be a savage stranger waiting nearby, watching me. And when he takes me captive, the unthinkable happens... I resonate to him. Resonance means mating, and children... but I don't know if this guy's ever been around anyone before. He's truly a barbarian in all ways, right down to clubbing me over the head and claiming me as his own.So why is it that I crave his touch and hunger for more?",
-    "book_title": "Barbarian Mine",
+    "description": "The ice planet has given me a second lease on life, so I'm thrilled to be here. Sure, there's no cheeseburgers, but I'm healthy and ready to be a productive member of the small tribe.What I didn't anticipate? That there'd be a savage stranger waiting nearby, watching me. And when he takes me captive, the unthinkable happens... I resonate to him. Resonance means mating, and children... but I don't know if this guy's ever been around anyone before. He's truly a barbarian in all ways, right down to clubbing me over the head and claiming me as his own.So why is it that I crave his touch and hunger for more?",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "628_1"
+            "stock_id": "628_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "628_2"
+            "stock_id": "628_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "628_3"
+            "stock_id": "628_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "628_4"
+            "stock_id": "628_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "628_5"
+            "stock_id": "628_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "628_6"
+            "stock_id": "628_6"
         },
         {
             "status": "available",
-            "stock_number": "628_7"
+            "stock_id": "628_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "628_8"
+            "stock_id": "628_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "628_9"
+            "stock_id": "628_9"
         }
     ],
     "metrics": {
         "rating_votes": 7838,
         "score": 4.06
     },
-    "original_book_title": "Barbarian Mine",
     "pages": 461,
+    "title": "Barbarian Mine",
     "url": "https://www.goodreads.com/book/show/26570784-barbarian-mine",
     "year_published": 2015
 }

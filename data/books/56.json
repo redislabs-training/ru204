@@ -1,8 +1,7 @@
 {
-    "author_name": "Susan Grant",
+    "author": "Susan Grant",
     "base_id": 56,
-    "book_description": "When co-pilot Jordan Cady\u2019s 747 is snatched from the sky by an immense UFO, she must put aside her own fears and take charge, exactly what the single mother of a six-year old daughter knows how to do. With no power or communications to the plane, Jordan and her crew are far from understanding who\u2014or what\u2014has hijacked them, until an envoy is sent to deliver unthinkable news. Space Force Lieutenant K\u00e0o Vantaar-Moray expected gratitude and not defiance from the Earth-woman pilot. No matter how hard he tries to convince her that his people saved her and hundreds of her passengers from certain death, he can't erase her suspicion that in the eyes of those on Earth her aircraft has vanished without a trace. The more involved he becomes with Jordan, the more his loyalties are torn. He owes his ship commander respect, and his very life, but a new life beckons with Jordan\u2014if he can save her and her people before a heartless enemy reveals its true intentions.. \u201cAs a 747 pilot for United Airlines, there is little doubt that Susan Grant has been forced to confront more directly than most of us the enormous changes September 11, 2001 brought to our world. Drawing on her unique credentials and front-line perspective, Susan Grant has delivered a story of unusual depth and power that, while a terrific romance and a great adventure, resonates with a distinctly post 9-11 sensibility.\u201d\u2014All About Romance",
-    "book_title": "Contact",
+    "description": "When co-pilot Jordan Cady\u2019s 747 is snatched from the sky by an immense UFO, she must put aside her own fears and take charge, exactly what the single mother of a six-year old daughter knows how to do. With no power or communications to the plane, Jordan and her crew are far from understanding who\u2014or what\u2014has hijacked them, until an envoy is sent to deliver unthinkable news. Space Force Lieutenant K\u00e0o Vantaar-Moray expected gratitude and not defiance from the Earth-woman pilot. No matter how hard he tries to convince her that his people saved her and hundreds of her passengers from certain death, he can't erase her suspicion that in the eyes of those on Earth her aircraft has vanished without a trace. The more involved he becomes with Jordan, the more his loyalties are torn. He owes his ship commander respect, and his very life, but a new life beckons with Jordan\u2014if he can save her and her people before a heartless enemy reveals its true intentions.. \u201cAs a 747 pilot for United Airlines, there is little doubt that Susan Grant has been forced to confront more directly than most of us the enormous changes September 11, 2001 brought to our world. Drawing on her unique credentials and front-line perspective, Susan Grant has delivered a story of unusual depth and power that, while a terrific romance and a great adventure, resonates with a distinctly post 9-11 sensibility.\u201d\u2014All About Romance",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "56_1"
+            "stock_id": "56_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "56_2"
+            "stock_id": "56_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "56_3"
+            "stock_id": "56_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "56_4"
+            "stock_id": "56_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "56_5"
+            "stock_id": "56_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "56_6"
+            "stock_id": "56_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "56_7"
+            "stock_id": "56_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "56_8"
+            "stock_id": "56_8"
         }
     ],
     "metrics": {
         "rating_votes": 1103,
         "score": 3.73
     },
-    "original_book_title": "Contact",
     "pages": 690,
+    "title": "Contact",
     "url": "https://www.goodreads.com/book/show/18949861-contact",
     "year_published": 2002
 }

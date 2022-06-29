@@ -1,8 +1,7 @@
 {
-    "author_name": "Gena Showalter",
+    "author": "Gena Showalter",
     "base_id": 257,
-    "book_description": "Eden Black walks among humans, protecting them from the murderous evil of other-worlders who abduct and enslave. And though she appears to be human herself, Eden is an alien, a Raka, distinguished by her golden hair and skin, and gifted with the ominous ability to kill without remorse\u2014and with total accuracy. That is, until the fateful night she has one shot to eliminate her target, a human slaver\u2014and misses.\"Failure\" is not in Eden's vocabulary. Neither is \"partner\"\u2014but that's what she is forcibly assigned after recovering from her disastrous mission. A sexy, steely-nerved human agent, Lucius Adaire enjoys nothing more than sparking the fury\u2014and rousing the desire\u2014of the fiery female assassin too proud to admit defeat. Locked in an assignment they cannot afford to lose, Lucius and Eden find themselves bound in two high-stakes, heart-pounding games: the sensual web of kill or be killed, and the erotic dance of seduction.",
-    "book_title": "Enslave Me Sweetly",
+    "description": "Eden Black walks among humans, protecting them from the murderous evil of other-worlders who abduct and enslave. And though she appears to be human herself, Eden is an alien, a Raka, distinguished by her golden hair and skin, and gifted with the ominous ability to kill without remorse\u2014and with total accuracy. That is, until the fateful night she has one shot to eliminate her target, a human slaver\u2014and misses.\"Failure\" is not in Eden's vocabulary. Neither is \"partner\"\u2014but that's what she is forcibly assigned after recovering from her disastrous mission. A sexy, steely-nerved human agent, Lucius Adaire enjoys nothing more than sparking the fury\u2014and rousing the desire\u2014of the fiery female assassin too proud to admit defeat. Locked in an assignment they cannot afford to lose, Lucius and Eden find themselves bound in two high-stakes, heart-pounding games: the sensual web of kill or be killed, and the erotic dance of seduction.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "257_1"
+            "stock_id": "257_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "257_2"
+            "stock_id": "257_2"
         },
         {
             "status": "available",
-            "stock_number": "257_3"
+            "stock_id": "257_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "257_4"
+            "stock_id": "257_4"
         },
         {
             "status": "available",
-            "stock_number": "257_5"
+            "stock_id": "257_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "257_6"
+            "stock_id": "257_6"
         }
     ],
     "metrics": {
         "rating_votes": 6491,
         "score": 4.15
     },
-    "original_book_title": "Enslave Me Sweetly",
     "pages": 295,
+    "title": "Enslave Me Sweetly",
     "url": "https://www.goodreads.com/book/show/343285.Enslave_Me_Sweetly",
     "year_published": 2006
 }

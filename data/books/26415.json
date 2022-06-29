@@ -1,8 +1,7 @@
 {
-    "author_name": "Stephen King",
+    "author": "Stephen King",
     "base_id": 26415,
-    "book_description": "Welcome to Derry, Maine ...It\u2019s a small city, a place as hauntingly familiar as your own hometown. Only in Derry the haunting is real ...They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But none of them can withstand the force that has drawn them back to Derry to face the nightmare without an end, and the evil without a name.",
-    "book_title": "It",
+    "description": "Welcome to Derry, Maine ...It\u2019s a small city, a place as hauntingly familiar as your own hometown. Only in Derry the haunting is real ...They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But none of them can withstand the force that has drawn them back to Derry to face the nightmare without an end, and the evil without a name.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "26415_1"
+            "stock_id": "26415_1"
         },
         {
             "status": "available",
-            "stock_number": "26415_2"
+            "stock_id": "26415_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "26415_3"
+            "stock_id": "26415_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "26415_4"
+            "stock_id": "26415_4"
         },
         {
             "status": "available",
-            "stock_number": "26415_5"
+            "stock_id": "26415_5"
         }
     ],
     "metrics": {
         "rating_votes": 832236,
         "score": 4.24
     },
-    "original_book_title": "It",
     "pages": 671,
+    "title": "It",
     "url": "https://www.goodreads.com/book/show/830502.It",
     "year_published": 1986
 }

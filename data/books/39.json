@@ -1,8 +1,7 @@
 {
-    "author_name": "Jaid Black",
+    "author": "Jaid Black",
     "base_id": 39,
-    "book_description": "Book 5.5 in the Trek Mi Q\u2019an series.Dee Ellison is catapulted from Earth and ends up in a mysterious alien world populated by an all-male race of ape men. Hoards of ape men who keep humanoid females captive\u2014as sex slaves.More terrifying yet, the alpha male of the most powerful Hoard is hot on Dee\u2019s trail\u2026",
-    "book_title": "Dementia",
+    "description": "Book 5.5 in the Trek Mi Q\u2019an series.Dee Ellison is catapulted from Earth and ends up in a mysterious alien world populated by an all-male race of ape men. Hoards of ape men who keep humanoid females captive\u2014as sex slaves.More terrifying yet, the alpha male of the most powerful Hoard is hot on Dee\u2019s trail\u2026",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "39_1"
+            "stock_id": "39_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "39_2"
+            "stock_id": "39_2"
         }
     ],
     "metrics": {
         "rating_votes": 1231,
         "score": 3.67
     },
-    "original_book_title": "Dementia",
     "pages": 1021,
+    "title": "Dementia",
     "url": "https://www.goodreads.com/book/show/6416260-dementia",
     "year_published": 2002
 }

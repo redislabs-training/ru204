@@ -1,8 +1,7 @@
 {
-    "author_name": "Alessandra Hazard",
+    "author": "Alessandra Hazard",
     "base_id": 301,
-    "book_description": "A prince and a villain incapable of love: it wasn't supposed to be a love story...Separated from his family after an assassination attempt, Prince Eridan is rescued by the reclusive Order of monks who control High Hronthar, an isolated school for telepaths. Eridan believes he\u2019s an ordinary orphan, one of hundreds of initiates of the Order trying to survive in a nest of intrigue, rivalry, and corruption, but he\u2019s more important than he knows.When Castien Idhron, the most powerful man in the Order, claims Eridan as his apprentice, Eridan\u2019s confused and wary. Corrupt, heartless, and calculating, Castien plays with the lives of those around him as if they\u2019re just a game. Eridan\u2019s just another pawn.Eridan despises his Master, and yet he finds himself craving his attention and approval like a drug he can\u2019t live without.Castien has never understood the concepts of kindness and love, but to his displeasure, his insolent apprentice has a way of getting under his skin like nothing else.Will the master manipulator win the game, or will he play himself?This book contains explicit content, a teacher-student MM relationship, power imbalance, age difference (35/21).",
-    "book_title": "Prince's Master",
+    "description": "A prince and a villain incapable of love: it wasn't supposed to be a love story...Separated from his family after an assassination attempt, Prince Eridan is rescued by the reclusive Order of monks who control High Hronthar, an isolated school for telepaths. Eridan believes he\u2019s an ordinary orphan, one of hundreds of initiates of the Order trying to survive in a nest of intrigue, rivalry, and corruption, but he\u2019s more important than he knows.When Castien Idhron, the most powerful man in the Order, claims Eridan as his apprentice, Eridan\u2019s confused and wary. Corrupt, heartless, and calculating, Castien plays with the lives of those around him as if they\u2019re just a game. Eridan\u2019s just another pawn.Eridan despises his Master, and yet he finds himself craving his attention and approval like a drug he can\u2019t live without.Castien has never understood the concepts of kindness and love, but to his displeasure, his insolent apprentice has a way of getting under his skin like nothing else.Will the master manipulator win the game, or will he play himself?This book contains explicit content, a teacher-student MM relationship, power imbalance, age difference (35/21).",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "301_1"
+            "stock_id": "301_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "301_2"
+            "stock_id": "301_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "301_3"
+            "stock_id": "301_3"
         }
     ],
     "metrics": {
         "rating_votes": 1944,
         "score": 4.28
     },
-    "original_book_title": "B089YN1KWD",
     "pages": 764,
+    "title": "Prince's Master",
     "url": "https://www.goodreads.com/book/show/53951435-prince-s-master",
     "year_published": 2020
 }

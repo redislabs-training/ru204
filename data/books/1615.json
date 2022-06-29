@@ -1,8 +1,7 @@
 {
-    "author_name": "Frederik Pohl",
+    "author": "Frederik Pohl",
     "base_id": 1615,
-    "book_description": "Gateway opened on all the wealth of the Universe... and on reaches of unimaginable horror. When prospector Robinette Broadhead went out to Gateway on the Heechee spacecraft, he decided he would know which was the right mission to make him his fortune. Three missions later, now famous and permanently rich, Rob Broadhead has to face what happened to him and what he has become... in a journey into himself as perilous and even more horrifying than the nightmare trip through the interstellar void that he drove himself to take!",
-    "book_title": "Gateway",
+    "description": "Gateway opened on all the wealth of the Universe... and on reaches of unimaginable horror. When prospector Robinette Broadhead went out to Gateway on the Heechee spacecraft, he decided he would know which was the right mission to make him his fortune. Three missions later, now famous and permanently rich, Rob Broadhead has to face what happened to him and what he has become... in a journey into himself as perilous and even more horrifying than the nightmare trip through the interstellar void that he drove himself to take!",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1615_1"
+            "stock_id": "1615_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1615_2"
+            "stock_id": "1615_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1615_3"
+            "stock_id": "1615_3"
         }
     ],
     "metrics": {
         "rating_votes": 40470,
         "score": 4.07
     },
-    "original_book_title": "Gateway",
     "pages": 923,
+    "title": "Gateway",
     "url": "https://www.goodreads.com/book/show/218427.Gateway",
     "year_published": 1977
 }

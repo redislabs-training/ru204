@@ -1,8 +1,7 @@
 {
-    "author_name": "Samantha Shannon",
+    "author": "Samantha Shannon",
     "base_id": 8535,
-    "book_description": "The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: to scout for information by breaking into people\u2019s minds. For Paige is a dreamwalker, a clairvoyant and, in the world of Scion, she commits treason simply by breathing.It is raining the day her life changes for ever. Attacked, drugged and kidnapped, Paige is transported to Oxford \u2013 a city kept secret for two hundred years, controlled by a powerful, otherworldly race. Paige is assigned to Warden, a Rephaite with mysterious motives. He is her master. Her trainer. Her natural enemy. But if Paige wants to regain her freedom she must allow herself to be nurtured in this prison where she is meant to die.The Bone Season introduces a compelling heroine and also introduces an extraordinary young writer, with huge ambition and a teeming imagination. Samantha Shannon has created a bold new reality in this riveting debut.",
-    "book_title": "The Bone Season",
+    "description": "The year is 2059. Nineteen-year-old Paige Mahoney is working in the criminal underworld of Scion London, based at Seven Dials, employed by a man named Jaxon Hall. Her job: to scout for information by breaking into people\u2019s minds. For Paige is a dreamwalker, a clairvoyant and, in the world of Scion, she commits treason simply by breathing.It is raining the day her life changes for ever. Attacked, drugged and kidnapped, Paige is transported to Oxford \u2013 a city kept secret for two hundred years, controlled by a powerful, otherworldly race. Paige is assigned to Warden, a Rephaite with mysterious motives. He is her master. Her trainer. Her natural enemy. But if Paige wants to regain her freedom she must allow herself to be nurtured in this prison where she is meant to die.The Bone Season introduces a compelling heroine and also introduces an extraordinary young writer, with huge ambition and a teeming imagination. Samantha Shannon has created a bold new reality in this riveting debut.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "8535_1"
+            "stock_id": "8535_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "8535_2"
+            "stock_id": "8535_2"
         },
         {
             "status": "available",
-            "stock_number": "8535_3"
+            "stock_id": "8535_3"
         }
     ],
     "metrics": {
         "rating_votes": 63366,
         "score": 3.77
     },
-    "original_book_title": "The Bone Season",
     "pages": 886,
+    "title": "The Bone Season",
     "url": "https://www.goodreads.com/book/show/17199504-the-bone-season",
     "year_published": 2013
 }

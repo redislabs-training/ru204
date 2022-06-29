@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 55,
-    "book_description": "The Yeerks have taken over units of the National Guard with plans to infest all of its officers and soldiers. The plan seems to be to step things up\u2014use the Guard to prepare for an all-out war on Earth. The Animorphs couldn't be less prepared. They're living with the free Hork-Bajir colony, Jake is depressed, and worst of all, the morphing cube is in the hands of the enemy.Marco and the others know they need to take serious action to stop the Yeerk infiltration of the Guard. They decide to approach the governor\u2014but they don't know if she's a controller or not. If she is, they're walking right into enemy hands. If she's not, the Animorphs are finally going public with their secret. And no one knows which situation is worse...",
-    "book_title": "The Absolute",
+    "description": "The Yeerks have taken over units of the National Guard with plans to infest all of its officers and soldiers. The plan seems to be to step things up\u2014use the Guard to prepare for an all-out war on Earth. The Animorphs couldn't be less prepared. They're living with the free Hork-Bajir colony, Jake is depressed, and worst of all, the morphing cube is in the hands of the enemy.Marco and the others know they need to take serious action to stop the Yeerk infiltration of the Guard. They decide to approach the governor\u2014but they don't know if she's a controller or not. If she is, they're walking right into enemy hands. If she's not, the Animorphs are finally going public with their secret. And no one knows which situation is worse...",
     "editions": [
         "English"
     ],
@@ -20,47 +19,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "55_1"
+            "stock_id": "55_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "55_2"
+            "stock_id": "55_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "55_3"
+            "stock_id": "55_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "55_4"
+            "stock_id": "55_4"
         },
         {
             "status": "available",
-            "stock_number": "55_5"
+            "stock_id": "55_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "55_6"
+            "stock_id": "55_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "55_7"
+            "stock_id": "55_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "55_8"
+            "stock_id": "55_8"
         },
         {
             "status": "available",
-            "stock_number": "55_9"
+            "stock_id": "55_9"
         }
     ],
     "metrics": {
         "rating_votes": 1696,
         "score": 3.87
     },
-    "original_book_title": "The Absolute",
     "pages": 1309,
+    "title": "The Absolute",
     "url": "https://www.goodreads.com/book/show/363390.The_Absolute",
     "year_published": 2001
 }

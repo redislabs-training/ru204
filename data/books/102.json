@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 102,
-    "book_description": "The Ellimist has helped the Animorphs many times. He is all-powerful and has only one enemy, the Crayak. In a cosmic showdown, the two enemies choose champions to represent them in a battle to end all battles. The Crayak chooses the dreaded Howlers. The Ellimist chooses the Animorphs.",
-    "book_title": "The Attack",
+    "description": "The Ellimist has helped the Animorphs many times. He is all-powerful and has only one enemy, the Crayak. In a cosmic showdown, the two enemies choose champions to represent them in a battle to end all battles. The Crayak chooses the dreaded Howlers. The Ellimist chooses the Animorphs.",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "102_1"
+            "stock_id": "102_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "102_2"
+            "stock_id": "102_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "102_3"
+            "stock_id": "102_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "102_4"
+            "stock_id": "102_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "102_5"
+            "stock_id": "102_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "102_6"
+            "stock_id": "102_6"
         },
         {
             "status": "available",
-            "stock_number": "102_7"
+            "stock_id": "102_7"
         },
         {
             "status": "available",
-            "stock_number": "102_8"
+            "stock_id": "102_8"
         }
     ],
     "metrics": {
         "rating_votes": 2781,
         "score": 3.94
     },
-    "original_book_title": "The Attack",
     "pages": 1340,
+    "title": "The Attack",
     "url": "https://www.goodreads.com/book/show/125335.The_Attack",
     "year_published": 1999
 }

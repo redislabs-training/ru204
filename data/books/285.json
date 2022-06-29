@@ -1,8 +1,7 @@
 {
-    "author_name": "Sandra R. Neeley",
+    "author": "Sandra R. Neeley",
     "base_id": 285,
-    "book_description": "Command Warship 1 is home to one of the most feared males in the multi-verse. Zha Quin Tha is Sire to his people, next in line to the throne. He rules his military with an iron hand. His people, the Cruestaci, are a warrior race who bow to no one and nothing. They\u2019ve been deemed too violent to be an ally by the Unified Consortium Defense \u2014 the organization responsible for keeping peace between all peoples and worlds. Zha Quin didn\u2019t care what their opinion was. He was only violent when necessary \u2014 like when provoked, or if his planet was threatened, or a weaker people overrun, or he was just irritated in general. Like now, slavers had crossed into the territory of Cruestace. He\u2019d been called in to intercept and process the kidnapped women on board to the Consortium for return to their home worlds. Little did he know, his whole existence was about to be turned upside down. One little, human female was about to teach him a thing or two about survival, patience, and trust.One large room \u2014 every wall, the entire floor, even the ceiling covered in mats. This is now Vivian\u2019s home. Her world extends no further than the end of the chain that keeps her anchored in the center of the room. She\u2019s learned how to use that chain as a weapon. She had to \u2014 her captors find great sport in taunting her, abusing her, hurting her. She\u2019s exhausted, nearly starved, injured and if truth be told \u2014 not long for this world, whatever the hell world it is. All she\u2019s got left is her pride, and she\u2019ll be damned if she gives that up to any of her alien captors. They want to play \u2014 she\u2019ll play \u2014 and she\u2019ll make sure they pay for it in bruises and pain the next day. They may win, but they\u2019ll think twice next time. Days run together, no hope of ever being freed. Survival seems pointless, until she finds herself face to face with the largest, scariest male she\u2019s ever seen. So be it \u2014 she\u2019s got nothing to lose \u2014 she\u2019ll fight him, too. Maybe this time her misery will finally come to an end. She has no idea this male is different. This male is stronger than the rest. This male will be her Haven.Warning: Intended for mature audiences. This book contains violence, abuse both real and inferred, and sexual situations that may be disturbing for some readers. If you are offended by these subjects, please do not buy this book. ",
-    "book_title": "Ascend",
+    "description": "Command Warship 1 is home to one of the most feared males in the multi-verse. Zha Quin Tha is Sire to his people, next in line to the throne. He rules his military with an iron hand. His people, the Cruestaci, are a warrior race who bow to no one and nothing. They\u2019ve been deemed too violent to be an ally by the Unified Consortium Defense \u2014 the organization responsible for keeping peace between all peoples and worlds. Zha Quin didn\u2019t care what their opinion was. He was only violent when necessary \u2014 like when provoked, or if his planet was threatened, or a weaker people overrun, or he was just irritated in general. Like now, slavers had crossed into the territory of Cruestace. He\u2019d been called in to intercept and process the kidnapped women on board to the Consortium for return to their home worlds. Little did he know, his whole existence was about to be turned upside down. One little, human female was about to teach him a thing or two about survival, patience, and trust.One large room \u2014 every wall, the entire floor, even the ceiling covered in mats. This is now Vivian\u2019s home. Her world extends no further than the end of the chain that keeps her anchored in the center of the room. She\u2019s learned how to use that chain as a weapon. She had to \u2014 her captors find great sport in taunting her, abusing her, hurting her. She\u2019s exhausted, nearly starved, injured and if truth be told \u2014 not long for this world, whatever the hell world it is. All she\u2019s got left is her pride, and she\u2019ll be damned if she gives that up to any of her alien captors. They want to play \u2014 she\u2019ll play \u2014 and she\u2019ll make sure they pay for it in bruises and pain the next day. They may win, but they\u2019ll think twice next time. Days run together, no hope of ever being freed. Survival seems pointless, until she finds herself face to face with the largest, scariest male she\u2019s ever seen. So be it \u2014 she\u2019s got nothing to lose \u2014 she\u2019ll fight him, too. Maybe this time her misery will finally come to an end. She has no idea this male is different. This male is stronger than the rest. This male will be her Haven.Warning: Intended for mature audiences. This book contains violence, abuse both real and inferred, and sexual situations that may be disturbing for some readers. If you are offended by these subjects, please do not buy this book. ",
     "editions": [
         "None"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "285_1"
+            "stock_id": "285_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "285_2"
+            "stock_id": "285_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "285_3"
+            "stock_id": "285_3"
         }
     ],
     "metrics": {
         "rating_votes": 1924,
         "score": 4.33
     },
-    "original_book_title": "B07L9JKMFW",
     "pages": 273,
+    "title": "Ascend",
     "url": "https://www.goodreads.com/book/show/43200740-ascend",
     "year_published": 2018
 }

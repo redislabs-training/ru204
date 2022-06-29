@@ -1,8 +1,7 @@
 {
-    "author_name": "J. Fally",
+    "author": "J. Fally",
     "base_id": 416,
-    "book_description": "Riley Cooper is on the run. Misha Tokarev, the love of his life, turned out to be an assassin for the Russian mob, and when it comes to character flaws, Riley draws the line at premeditated murder. Alien armor system McClane is also on the run, for reasons that include accidentally crashing a space ship into Earth and evading U.S. military custody. A failed prototype, McClane was scheduled for destruction. Sabotaging the ship put an end to that, but McClane is dubbed a bone rider for good reason\u2014he can\u2019t live without a host body. That\u2019s why he first stows away in Riley's truck and then in Riley himself. Their reluctant partnership soon evolves into something much more powerful\u2014and personal\u2014than either of them could have imagined.Together, they embark on a road trip from hell, made all the more exciting by the government troops and mob enforcers hot on their trail. Misha is determined to win Riley back and willing to do whatever it takes to keep him safe. When hitman and alien join forces, they discover their impressive combined potential for death and destruction. It will take everything Riley has to steer them through the mess they create.",
-    "book_title": "Bone Rider",
+    "description": "Riley Cooper is on the run. Misha Tokarev, the love of his life, turned out to be an assassin for the Russian mob, and when it comes to character flaws, Riley draws the line at premeditated murder. Alien armor system McClane is also on the run, for reasons that include accidentally crashing a space ship into Earth and evading U.S. military custody. A failed prototype, McClane was scheduled for destruction. Sabotaging the ship put an end to that, but McClane is dubbed a bone rider for good reason\u2014he can\u2019t live without a host body. That\u2019s why he first stows away in Riley's truck and then in Riley himself. Their reluctant partnership soon evolves into something much more powerful\u2014and personal\u2014than either of them could have imagined.Together, they embark on a road trip from hell, made all the more exciting by the government troops and mob enforcers hot on their trail. Misha is determined to win Riley back and willing to do whatever it takes to keep him safe. When hitman and alien join forces, they discover their impressive combined potential for death and destruction. It will take everything Riley has to steer them through the mess they create.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "416_1"
+            "stock_id": "416_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "416_2"
+            "stock_id": "416_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "416_3"
+            "stock_id": "416_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "416_4"
+            "stock_id": "416_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "416_5"
+            "stock_id": "416_5"
         },
         {
             "status": "available",
-            "stock_number": "416_6"
+            "stock_id": "416_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "416_7"
+            "stock_id": "416_7"
         }
     ],
     "metrics": {
         "rating_votes": 1757,
         "score": 4.26
     },
-    "original_book_title": "Bone Rider",
     "pages": 554,
+    "title": "Bone Rider",
     "url": "https://www.goodreads.com/book/show/18619542-bone-rider",
     "year_published": 2013
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Scott Reintgen",
+    "author": "Scott Reintgen",
     "base_id": 693,
-    "book_description": "Getting to Eden brought Emmett and his crewmates one step closer to their promised fortune. But surviving Eden may be the biggest reward of all.Emmett Atwater thought Babel\u2019s game sounded easy. Get points. Get paid. Go home. But it didn\u2019t take long for him to learn that Babel\u2019s competition was full of broken promises, none darker or more damaging than the last one.Now Emmett and the rest of the Genesis survivors must rally and forge their own path through a new world. Their mission from Babel is simple: extract nyxia, the most valuable material in the universe, and play nice with the indigenous Adamite population.But Emmett and the others quickly realize they are caught between two powerful forces\u2014Babel and the Adamites\u2014with clashing desires. Will the Genesis team make it out alive before it\u2019s too late?",
-    "book_title": "Nyxia Unleashed",
+    "description": "Getting to Eden brought Emmett and his crewmates one step closer to their promised fortune. But surviving Eden may be the biggest reward of all.Emmett Atwater thought Babel\u2019s game sounded easy. Get points. Get paid. Go home. But it didn\u2019t take long for him to learn that Babel\u2019s competition was full of broken promises, none darker or more damaging than the last one.Now Emmett and the rest of the Genesis survivors must rally and forge their own path through a new world. Their mission from Babel is simple: extract nyxia, the most valuable material in the universe, and play nice with the indigenous Adamite population.But Emmett and the others quickly realize they are caught between two powerful forces\u2014Babel and the Adamites\u2014with clashing desires. Will the Genesis team make it out alive before it\u2019s too late?",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "693_1"
+            "stock_id": "693_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "693_2"
+            "stock_id": "693_2"
         },
         {
             "status": "available",
-            "stock_number": "693_3"
+            "stock_id": "693_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "693_4"
+            "stock_id": "693_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "693_5"
+            "stock_id": "693_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "693_6"
+            "stock_id": "693_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "693_7"
+            "stock_id": "693_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "693_8"
+            "stock_id": "693_8"
         }
     ],
     "metrics": {
         "rating_votes": 3524,
         "score": 4.21
     },
-    "original_book_title": "Nyxia Unleashed",
     "pages": 782,
+    "title": "Nyxia Unleashed",
     "url": "https://www.goodreads.com/book/show/35424762-nyxia-unleashed",
     "year_published": 2018
 }

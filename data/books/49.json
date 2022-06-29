@@ -1,8 +1,7 @@
 {
-    "author_name": "Cheryl Brooks",
+    "author": "Cheryl Brooks",
     "base_id": 49,
-    "book_description": "A mysterious stranger in danger...The last thing Drusilla expected to find on vacation was a gorgeous man hiding in the jungle. But what is he running from? And why does she feel so mesmerized that she'll stop at nothing to be near him?Hypnotically attracted, he will risk his life to have her...Zetithian warrior Manx, a member of a race hunted to near extinction because of their sexual powers, has done all he can to avoid extermination. But when an uncommon woman enters his jungle lair, the animal inside of him demands he risk it all to have her. Until he saw her, his loneliness threatened to consume him. Would she risk her life to join him...or would their intense pleasure in each other destroy them both?",
-    "book_title": "Fugitive",
+    "description": "A mysterious stranger in danger...The last thing Drusilla expected to find on vacation was a gorgeous man hiding in the jungle. But what is he running from? And why does she feel so mesmerized that she'll stop at nothing to be near him?Hypnotically attracted, he will risk his life to have her...Zetithian warrior Manx, a member of a race hunted to near extinction because of their sexual powers, has done all he can to avoid extermination. But when an uncommon woman enters his jungle lair, the animal inside of him demands he risk it all to have her. Until he saw her, his loneliness threatened to consume him. Would she risk her life to join him...or would their intense pleasure in each other destroy them both?",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "49_1"
+            "stock_id": "49_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "49_2"
+            "stock_id": "49_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "49_3"
+            "stock_id": "49_3"
         }
     ],
     "metrics": {
         "rating_votes": 1056,
         "score": 4.09
     },
-    "original_book_title": "Fugitive: The Cat Star Chronicles #5",
     "pages": 271,
+    "title": "Fugitive",
     "url": "https://www.goodreads.com/book/show/6597635-fugitive",
     "year_published": 2010
 }

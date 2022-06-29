@@ -1,8 +1,7 @@
 {
-    "author_name": "Eileen Glass",
+    "author": "Eileen Glass",
     "base_id": 71,
-    "book_description": "When the alien alphas arrived on Earth, omega-compatible men weren\u2019t given a choice in mating with them. After a long and troubled war, Earth brought down the harem towers and exiled the alien lords to the moon where they rule from afar.Things have calmed down in recent history; the powerful alphas seek mates who will submit themselves voluntarily. But who would sell themselves into slavery? Who would want to become a breeder?Rourke\u2019s terminally ill mother needs a cure that\u2019s only accessible to the very rich. An omega auction can pay for it.",
-    "book_title": "Omega Society Auction: Episode One",
+    "description": "When the alien alphas arrived on Earth, omega-compatible men weren\u2019t given a choice in mating with them. After a long and troubled war, Earth brought down the harem towers and exiled the alien lords to the moon where they rule from afar.Things have calmed down in recent history; the powerful alphas seek mates who will submit themselves voluntarily. But who would sell themselves into slavery? Who would want to become a breeder?Rourke\u2019s terminally ill mother needs a cure that\u2019s only accessible to the very rich. An omega auction can pay for it.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "71_1"
+            "stock_id": "71_1"
         },
         {
             "status": "available",
-            "stock_number": "71_2"
+            "stock_id": "71_2"
         },
         {
             "status": "available",
-            "stock_number": "71_3"
+            "stock_id": "71_3"
         },
         {
             "status": "available",
-            "stock_number": "71_4"
+            "stock_id": "71_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "71_5"
+            "stock_id": "71_5"
         }
     ],
     "metrics": {
         "rating_votes": 662,
         "score": 3.64
     },
-    "original_book_title": "B077LFHQX7",
     "pages": 1162,
+    "title": "Omega Society Auction: Episode One",
     "url": "https://www.goodreads.com/book/show/36621758-omega-society-auction",
     "year_published": 2017
 }

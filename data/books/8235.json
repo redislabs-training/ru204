@@ -1,8 +1,7 @@
 {
-    "author_name": "Ted Chiang",
+    "author": "Ted Chiang",
     "base_id": 8235,
-    "book_description": "Ted Chiang's first published story, \"Tower of Babylon,\" won the Nebula Award in 1990. Subsequent stories have won the Asimov's SF Magazine reader poll, a second Nebula Award, the Theodore Sturgeon Memorial Award, and the Sidewise Award for alternate history. He won the John W. Campbell Award for Best New Writer in 1992. Story for story, he is the most honored young writer in modern SF.Now, collected here for the first time are all seven of this extraordinary writer's stories so far-plus an eighth story written especially for this volume.What if men built a tower from Earth to Heaven-and broke through to Heaven's other side? What if we discovered that the fundamentals of mathematics were arbitrary and inconsistent? What if there were a science of naming things that calls life into being from inanimate matter? What if exposure to an alien language forever changed our perception of time? What if all the beliefs of fundamentalist Christianity were literally true, and the sight of sinners being swallowed into fiery pits were a routine event on city streets? These are the kinds of outrageous questions posed by the stories of Ted Chiang. Stories of your life . . . and others.",
-    "book_title": "Stories of Your Life and Others",
+    "description": "Ted Chiang's first published story, \"Tower of Babylon,\" won the Nebula Award in 1990. Subsequent stories have won the Asimov's SF Magazine reader poll, a second Nebula Award, the Theodore Sturgeon Memorial Award, and the Sidewise Award for alternate history. He won the John W. Campbell Award for Best New Writer in 1992. Story for story, he is the most honored young writer in modern SF.Now, collected here for the first time are all seven of this extraordinary writer's stories so far-plus an eighth story written especially for this volume.What if men built a tower from Earth to Heaven-and broke through to Heaven's other side? What if we discovered that the fundamentals of mathematics were arbitrary and inconsistent? What if there were a science of naming things that calls life into being from inanimate matter? What if exposure to an alien language forever changed our perception of time? What if all the beliefs of fundamentalist Christianity were literally true, and the sight of sinners being swallowed into fiery pits were a routine event on city streets? These are the kinds of outrageous questions posed by the stories of Ted Chiang. Stories of your life . . . and others.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "8235_1"
+            "stock_id": "8235_1"
         },
         {
             "status": "available",
-            "stock_number": "8235_2"
+            "stock_id": "8235_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "8235_3"
+            "stock_id": "8235_3"
         },
         {
             "status": "available",
-            "stock_number": "8235_4"
+            "stock_id": "8235_4"
         },
         {
             "status": "available",
-            "stock_number": "8235_5"
+            "stock_id": "8235_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "8235_6"
+            "stock_id": "8235_6"
         },
         {
             "status": "available",
-            "stock_number": "8235_7"
+            "stock_id": "8235_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "8235_8"
+            "stock_id": "8235_8"
         },
         {
             "status": "available",
-            "stock_number": "8235_9"
+            "stock_id": "8235_9"
         }
     ],
     "metrics": {
         "rating_votes": 70395,
         "score": 4.23
     },
-    "original_book_title": "Stories of Your Life and Others ",
     "pages": 215,
+    "title": "Stories of Your Life and Others",
     "url": "https://www.goodreads.com/book/show/223380.Stories_of_Your_Life_and_Others",
     "year_published": 2002
 }

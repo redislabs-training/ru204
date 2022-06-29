@@ -1,8 +1,7 @@
 {
-    "author_name": "Jack McDevitt",
+    "author": "Jack McDevitt",
     "base_id": 528,
-    "book_description": "Two hundred years ago, humans made a stunning discovery in the far reaches of the solar system: a huge statue of an alien creature, with an inscription that defied all efforts at translation. Now, as faster-than-light drive opens the stars to exploration, humans are finding other relics of the race they call the Monument-Makers - each different, and each heartbreakingly beautiful. But except for a set of footprints on Jupiter's moon Iapetus, there is no trace of the enigmatic race that has left them behind. Then a team of scientists working on a dead world discover an ominous new image of the Monument-Makers. Somehow it all fits with other lost civilizations, and possibly with Earth's own future. And distant past. But Earth itself is on the brink of ecological disaster - there is no time to search for answers. Even to a question that may hold the key to survival for the entire human race...",
-    "book_title": "The Engines of God",
+    "description": "Two hundred years ago, humans made a stunning discovery in the far reaches of the solar system: a huge statue of an alien creature, with an inscription that defied all efforts at translation. Now, as faster-than-light drive opens the stars to exploration, humans are finding other relics of the race they call the Monument-Makers - each different, and each heartbreakingly beautiful. But except for a set of footprints on Jupiter's moon Iapetus, there is no trace of the enigmatic race that has left them behind. Then a team of scientists working on a dead world discover an ominous new image of the Monument-Makers. Somehow it all fits with other lost civilizations, and possibly with Earth's own future. And distant past. But Earth itself is on the brink of ecological disaster - there is no time to search for answers. Even to a question that may hold the key to survival for the entire human race...",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "528_1"
+            "stock_id": "528_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "528_2"
+            "stock_id": "528_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "528_3"
+            "stock_id": "528_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "528_4"
+            "stock_id": "528_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "528_5"
+            "stock_id": "528_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "528_6"
+            "stock_id": "528_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "528_7"
+            "stock_id": "528_7"
         }
     ],
     "metrics": {
         "rating_votes": 8521,
         "score": 3.84
     },
-    "original_book_title": "The Engines of God",
     "pages": 737,
+    "title": "The Engines of God",
     "url": "https://www.goodreads.com/book/show/337048.The_Engines_of_God",
     "year_published": 1994
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Becky Chambers",
+    "author": "Becky Chambers",
     "base_id": 12511,
-    "book_description": "Follow a motley crew on an exciting journey through space-and one adventurous young explorer who discovers the meaning of family in the far reaches of the universe-in this light-hearted debut space opera from a rising sci-fi star.Rosemary Harper doesn\u2019t expect much when she joins the crew of the aging Wayfarer. While the patched-up ship has seen better days, it offers her a bed, a chance to explore the far-off corners of the galaxy, and most importantly, some distance from her past. An introspective young woman who learned early to keep to herself, she\u2019s never met anyone remotely like the ship\u2019s diverse crew, including Sissix, the exotic reptilian pilot, chatty engineers Kizzy and Jenks who keep the ship running, and Ashby, their noble captain.Life aboard the Wayfarer is chaotic and crazy\u2014exactly what Rosemary wants. It\u2019s also about to get extremely dangerous when the crew is offered the job of a lifetime. Tunneling wormholes through space to a distant planet is definitely lucrative and will keep them comfortable for years. But risking her life wasn\u2019t part of the plan. In the far reaches of deep space, the tiny Wayfarer crew will confront a host of unexpected mishaps and thrilling adventures that force them to depend on each other. To survive, Rosemary\u2019s got to learn how to rely on this assortment of oddballs\u2014an experience that teaches her about love and trust, and that having a family isn\u2019t necessarily the worst thing in the universe.",
-    "book_title": "The Long Way to a Small, Angry Planet",
+    "description": "Follow a motley crew on an exciting journey through space-and one adventurous young explorer who discovers the meaning of family in the far reaches of the universe-in this light-hearted debut space opera from a rising sci-fi star.Rosemary Harper doesn\u2019t expect much when she joins the crew of the aging Wayfarer. While the patched-up ship has seen better days, it offers her a bed, a chance to explore the far-off corners of the galaxy, and most importantly, some distance from her past. An introspective young woman who learned early to keep to herself, she\u2019s never met anyone remotely like the ship\u2019s diverse crew, including Sissix, the exotic reptilian pilot, chatty engineers Kizzy and Jenks who keep the ship running, and Ashby, their noble captain.Life aboard the Wayfarer is chaotic and crazy\u2014exactly what Rosemary wants. It\u2019s also about to get extremely dangerous when the crew is offered the job of a lifetime. Tunneling wormholes through space to a distant planet is definitely lucrative and will keep them comfortable for years. But risking her life wasn\u2019t part of the plan. In the far reaches of deep space, the tiny Wayfarer crew will confront a host of unexpected mishaps and thrilling adventures that force them to depend on each other. To survive, Rosemary\u2019s got to learn how to rely on this assortment of oddballs\u2014an experience that teaches her about love and trust, and that having a family isn\u2019t necessarily the worst thing in the universe.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "12511_1"
+            "stock_id": "12511_1"
         },
         {
             "status": "available",
-            "stock_number": "12511_2"
+            "stock_id": "12511_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "12511_3"
+            "stock_id": "12511_3"
         }
     ],
     "metrics": {
         "rating_votes": 80637,
         "score": 4.15
     },
-    "original_book_title": "The Long Way to a Small, Angry Planet",
     "pages": 1022,
+    "title": "The Long Way to a Small, Angry Planet",
     "url": "https://www.goodreads.com/book/show/22733729-the-long-way-to-a-small-angry-planet",
     "year_published": 2014
 }

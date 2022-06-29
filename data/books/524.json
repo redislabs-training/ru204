@@ -1,8 +1,7 @@
 {
-    "author_name": "Whitley Strieber",
+    "author": "Whitley Strieber",
     "base_id": 524,
-    "book_description": "On December 26, 1985, at a secluded cabin in upstate New York, Whitley Strieber went skiing with his wife and son, ate Christmas dinner leftovers, and went to bed early.Six hours later, he found himself suddenly awake...and forever changed.Thus begins the most astonishing true-life odyssey ever recorded -- one man's riveting account of his extraordinary experiences with visitors from\"elsewhere\"... how they found him, where they took him, what they did to him and why...Believe it. Or don't believe it. But read it -- for this gripping story will move you like no other... will fascinate you, terrify you, and alter the way you experience your world.",
-    "book_title": "Communion: A True Story",
+    "description": "On December 26, 1985, at a secluded cabin in upstate New York, Whitley Strieber went skiing with his wife and son, ate Christmas dinner leftovers, and went to bed early.Six hours later, he found himself suddenly awake...and forever changed.Thus begins the most astonishing true-life odyssey ever recorded -- one man's riveting account of his extraordinary experiences with visitors from\"elsewhere\"... how they found him, where they took him, what they did to him and why...Believe it. Or don't believe it. But read it -- for this gripping story will move you like no other... will fascinate you, terrify you, and alter the way you experience your world.",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "524_1"
+            "stock_id": "524_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "524_2"
+            "stock_id": "524_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "524_3"
+            "stock_id": "524_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "524_4"
+            "stock_id": "524_4"
         },
         {
             "status": "available",
-            "stock_number": "524_5"
+            "stock_id": "524_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "524_6"
+            "stock_id": "524_6"
         },
         {
             "status": "available",
-            "stock_number": "524_7"
+            "stock_id": "524_7"
         }
     ],
     "metrics": {
         "rating_votes": 5211,
         "score": 3.5
     },
-    "original_book_title": "Communion",
     "pages": 1145,
+    "title": "Communion: A True Story",
     "url": "https://www.goodreads.com/book/show/294285.Communion",
     "year_published": 1987
 }

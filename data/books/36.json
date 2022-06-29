@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 36,
-    "book_description": "You'd think being abducted by aliens would be the worst thing that could happen to me. And you'd be wrong. Because now, the aliens are having ship trouble, and they've left their cargo of human women - including me - on an ice planet.And the only native inhabitant I've met? He's big, horned, blue, and really, really has a thing for me...",
-    "book_title": "Ice Planet Barbarians Part 1: Stolen",
+    "description": "You'd think being abducted by aliens would be the worst thing that could happen to me. And you'd be wrong. Because now, the aliens are having ship trouble, and they've left their cargo of human women - including me - on an ice planet.And the only native inhabitant I've met? He's big, horned, blue, and really, really has a thing for me...",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "36_1"
+            "stock_id": "36_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "36_2"
+            "stock_id": "36_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "36_3"
+            "stock_id": "36_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "36_4"
+            "stock_id": "36_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "36_5"
+            "stock_id": "36_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "36_6"
+            "stock_id": "36_6"
         },
         {
             "status": "available",
-            "stock_number": "36_7"
+            "stock_id": "36_7"
         }
     ],
     "metrics": {
         "rating_votes": 990,
         "score": 4.14
     },
-    "original_book_title": "B00UAXQGIM",
     "pages": 780,
+    "title": "Ice Planet Barbarians Part 1: Stolen",
     "url": "https://www.goodreads.com/book/show/25080613-ice-planet-barbarians-part-1",
     "year_published": 2015
 }

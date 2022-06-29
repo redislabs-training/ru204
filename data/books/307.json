@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 307,
-    "book_description": "As an a\u2019ani warrior, my life matters little. Cloned from the same matter as thousands of others, I am but one of many. Here on the ice planet, though, I can start over. I can become my own person, have my own needs, my own wants.I know what I want. I have known since the moment I arrived.Her name is Angie. She is human, with sad, lonely eyes and a very pregnant belly. To her, I am not just another clone. I am Vordis, the one who laughs at her jokes, tends to her needs, and makes her smile. I will do anything to make her mine.But my brother and fellow clone Thrand thinks the same way, and he's just as determined to win her. Will I have to destroy my bond with my brother to win my female? Or will he cause a rift between us that's impossible to mend?",
-    "book_title": "Angie's Gladiator",
+    "description": "As an a\u2019ani warrior, my life matters little. Cloned from the same matter as thousands of others, I am but one of many. Here on the ice planet, though, I can start over. I can become my own person, have my own needs, my own wants.I know what I want. I have known since the moment I arrived.Her name is Angie. She is human, with sad, lonely eyes and a very pregnant belly. To her, I am not just another clone. I am Vordis, the one who laughs at her jokes, tends to her needs, and makes her smile. I will do anything to make her mine.But my brother and fellow clone Thrand thinks the same way, and he's just as determined to win her. Will I have to destroy my bond with my brother to win my female? Or will he cause a rift between us that's impossible to mend?",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "307_1"
+            "stock_id": "307_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "307_2"
+            "stock_id": "307_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "307_3"
+            "stock_id": "307_3"
         }
     ],
     "metrics": {
         "rating_votes": 3123,
         "score": 4.2
     },
-    "original_book_title": "Angie's Gladiator",
     "pages": 1002,
+    "title": "Angie's Gladiator",
     "url": "https://www.goodreads.com/book/show/43125503-angie-s-gladiator",
     "year_published": 2018
 }

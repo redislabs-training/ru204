@@ -1,8 +1,7 @@
 {
-    "author_name": "Angela Castle",
+    "author": "Angela Castle",
     "base_id": 15,
-    "book_description": "The Fire Bond Brothers, Bir, Zay, Tev and Niz have been hired to guard an alien Ambassador, but they get more than they bargained for with the appearance of a shapely, red-headed human female. She\u2019s owned by the ambassador...but not for long if they have their way.Kidnapped from Earth and sold as a pet, Ruby MacTavish, causes her new owner nothing but trouble, until four large, red sexy aliens walk in. Their touch awakens burning passions and she falls under their seductive spell.Before their plans can be set in motion, Ruby finds herself in grave danger as she stops the Ambassador from cheating another alien race. Now her men must hurry to her rescue and keep her safe or risk losing her forever.",
-    "book_title": "Galactic Treasure",
+    "description": "The Fire Bond Brothers, Bir, Zay, Tev and Niz have been hired to guard an alien Ambassador, but they get more than they bargained for with the appearance of a shapely, red-headed human female. She\u2019s owned by the ambassador...but not for long if they have their way.Kidnapped from Earth and sold as a pet, Ruby MacTavish, causes her new owner nothing but trouble, until four large, red sexy aliens walk in. Their touch awakens burning passions and she falls under their seductive spell.Before their plans can be set in motion, Ruby finds herself in grave danger as she stops the Ambassador from cheating another alien race. Now her men must hurry to her rescue and keep her safe or risk losing her forever.",
     "editions": [
         "English"
     ],
@@ -19,47 +18,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "15_1"
+            "stock_id": "15_1"
         },
         {
             "status": "available",
-            "stock_number": "15_2"
+            "stock_id": "15_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "15_3"
+            "stock_id": "15_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "15_4"
+            "stock_id": "15_4"
         },
         {
             "status": "available",
-            "stock_number": "15_5"
+            "stock_id": "15_5"
         },
         {
             "status": "available",
-            "stock_number": "15_6"
+            "stock_id": "15_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "15_7"
+            "stock_id": "15_7"
         },
         {
             "status": "available",
-            "stock_number": "15_8"
+            "stock_id": "15_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "15_9"
+            "stock_id": "15_9"
         }
     ],
     "metrics": {
         "rating_votes": 699,
         "score": 3.85
     },
-    "original_book_title": "9781771303378",
     "pages": 778,
+    "title": "Galactic Treasure",
     "url": "https://www.goodreads.com/book/show/17700906-galactic-treasure",
     "year_published": 2013
 }

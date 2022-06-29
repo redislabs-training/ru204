@@ -1,8 +1,7 @@
 {
-    "author_name": "Dianne Duvall",
+    "author": "Dianne Duvall",
     "base_id": 536,
-    "book_description": "Ami isn't much for trusting strangers. She has a hard time trusting anyone. But she's no coward, and she's no pushover in the protection department either. So when she comes across a mysterious warrior taking on eight deranged vampires on his own, she doesn't hesitate to save his bacon. Of course, that was before she realized what one little rescue would get her into . . .Marcus Grayden has been an immortal protector of humanity for eight hundred years, and at the moment he's not interested in backup. From the moment Ami arrives in his life, he can't deny that she's strong, smart, and extremely skilled at watching his back. But she's also destroying his protective solitude and stirring desires he can't bear to awaken. After all, whatever her secrets \u2014 how can she defeat death itself?",
-    "book_title": "Night Reigns",
+    "description": "Ami isn't much for trusting strangers. She has a hard time trusting anyone. But she's no coward, and she's no pushover in the protection department either. So when she comes across a mysterious warrior taking on eight deranged vampires on his own, she doesn't hesitate to save his bacon. Of course, that was before she realized what one little rescue would get her into . . .Marcus Grayden has been an immortal protector of humanity for eight hundred years, and at the moment he's not interested in backup. From the moment Ami arrives in his life, he can't deny that she's strong, smart, and extremely skilled at watching his back. But she's also destroying his protective solitude and stirring desires he can't bear to awaken. After all, whatever her secrets \u2014 how can she defeat death itself?",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "536_1"
+            "stock_id": "536_1"
         }
     ],
     "metrics": {
         "rating_votes": 8480,
         "score": 4.19
     },
-    "original_book_title": "\n1420118625\n(ISBN13: 9781420118629)\n",
     "pages": 1239,
+    "title": "Night Reigns",
     "url": "https://www.goodreads.com/book/show/10430194-night-reigns",
     "year_published": 2011
 }

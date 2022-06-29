@@ -1,8 +1,7 @@
 {
-    "author_name": "Robin Lovett",
+    "author": "Robin Lovett",
     "base_id": 110,
-    "book_description": "Nemona can\u2019t believe she\u2019s crash landed on the planet Fyrian with the brooding, golden-skinned alien who destroyed her ship and scattered her crew. She should want to kill him. But everything on Fyrian is an aphrodisiac. So she just wants to have him. Now.Revenge. That\u2019s all commander Oten has wanted against humans for more than a century, ever since they tried to destroy his kind. He never thought he\u2019d end up in bed with one. But the desire the sex planet stokes for this human female is eating him alive. Keeping his hands, his mouth, and his vampiric fangs to himself proves impossible\u2014especially when she\u2019s begging him to touch her.Nemona has no idea what endless sex with a Ssedez will do to her. But Oten knows all too well. They need to get off this planet. Before their coupling stirs an alien mating bond that neither of their hearts can withstand.",
-    "book_title": "Toxic Desire",
+    "description": "Nemona can\u2019t believe she\u2019s crash landed on the planet Fyrian with the brooding, golden-skinned alien who destroyed her ship and scattered her crew. She should want to kill him. But everything on Fyrian is an aphrodisiac. So she just wants to have him. Now.Revenge. That\u2019s all commander Oten has wanted against humans for more than a century, ever since they tried to destroy his kind. He never thought he\u2019d end up in bed with one. But the desire the sex planet stokes for this human female is eating him alive. Keeping his hands, his mouth, and his vampiric fangs to himself proves impossible\u2014especially when she\u2019s begging him to touch her.Nemona has no idea what endless sex with a Ssedez will do to her. But Oten knows all too well. They need to get off this planet. Before their coupling stirs an alien mating bond that neither of their hearts can withstand.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "110_1"
+            "stock_id": "110_1"
         },
         {
             "status": "available",
-            "stock_number": "110_2"
+            "stock_id": "110_2"
         },
         {
             "status": "available",
-            "stock_number": "110_3"
+            "stock_id": "110_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "110_4"
+            "stock_id": "110_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "110_5"
+            "stock_id": "110_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "110_6"
+            "stock_id": "110_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "110_7"
+            "stock_id": "110_7"
         }
     ],
     "metrics": {
         "rating_votes": 467,
         "score": 3.56
     },
-    "original_book_title": "\n1640634916\n(ISBN13: 9781640634916)\n",
     "pages": 840,
+    "title": "Toxic Desire",
     "url": "https://www.goodreads.com/book/show/36600258-toxic-desire",
     "year_published": 2018
 }

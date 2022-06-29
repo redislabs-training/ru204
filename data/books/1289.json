@@ -1,8 +1,7 @@
 {
-    "author_name": "Ben Hatke",
+    "author": "Ben Hatke",
     "base_id": 1289,
-    "book_description": "A NEW YORK TIMES BESTSELLERZita's life took a cosmic left turn in the blink of an eye.When her best friend is abducted by an alien doomsday cult, Zita leaps to the rescue and finds herself a stranger on a strange planet. Humanoid chickens and neurotic robots are shocking enough as new experiences go, but Zita is even more surprised to find herself taking on the role of intergalactic hero. Before long, aliens in all shapes and sizes don't even phase her. Neither do ancient prophecies, doomed planets, or even a friendly con man who takes a mysterious interest in Zita's quest.Zita the Spacegirl is a fun, captivating tale of friendship and redemption from Flight veteran Ben Hatke. It also has more whimsical, eye-catching, Miyazaki-esque monsters than you can shake a stick at.",
-    "book_title": "Zita the Spacegirl",
+    "description": "A NEW YORK TIMES BESTSELLERZita's life took a cosmic left turn in the blink of an eye.When her best friend is abducted by an alien doomsday cult, Zita leaps to the rescue and finds herself a stranger on a strange planet. Humanoid chickens and neurotic robots are shocking enough as new experiences go, but Zita is even more surprised to find herself taking on the role of intergalactic hero. Before long, aliens in all shapes and sizes don't even phase her. Neither do ancient prophecies, doomed planets, or even a friendly con man who takes a mysterious interest in Zita's quest.Zita the Spacegirl is a fun, captivating tale of friendship and redemption from Flight veteran Ben Hatke. It also has more whimsical, eye-catching, Miyazaki-esque monsters than you can shake a stick at.",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1289_1"
+            "stock_id": "1289_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1289_2"
+            "stock_id": "1289_2"
         },
         {
             "status": "available",
-            "stock_number": "1289_3"
+            "stock_id": "1289_3"
         },
         {
             "status": "available",
-            "stock_number": "1289_4"
+            "stock_id": "1289_4"
         },
         {
             "status": "available",
-            "stock_number": "1289_5"
+            "stock_id": "1289_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1289_6"
+            "stock_id": "1289_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "1289_7"
+            "stock_id": "1289_7"
         },
         {
             "status": "available",
-            "stock_number": "1289_8"
+            "stock_id": "1289_8"
         }
     ],
     "metrics": {
         "rating_votes": 16249,
         "score": 4.09
     },
-    "original_book_title": "Zita the Spacegirl",
     "pages": 636,
+    "title": "Zita the Spacegirl",
     "url": "https://www.goodreads.com/book/show/8879121-zita-the-spacegirl",
     "year_published": 2011
 }

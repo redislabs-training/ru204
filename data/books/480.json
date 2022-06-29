@@ -1,8 +1,7 @@
 {
-    "author_name": "Edward W. Robertson",
+    "author": "Edward W. Robertson",
     "base_id": 480,
-    "book_description": "In New York, Walt Lawson is about to lose his girlfriend Vanessa. In Los Angeles, Raymond and Mia James are about to lose their house. Within days, none of it will matter.When Vanessa dies of the flu, Walt is devastated. But she isn't the last. The virus quickly kills billions, reducing New York to an open grave and LA to a chaotic wilderness of violence and fires. As Raymond and Mia hole up in an abandoned mansion, where they learn to function without electricity, running water, or neighbors, Walt begins an existential walk to LA, where Vanessa had planned to move when she left him. He expects to die along the way.Months later, a massive vessel appears above Santa Monica Bay. Walt is attacked by a crablike monstrosity in a mountain stream. The virus that ended humanity wasn't created by humans. It was inflicted from outside. The colonists who sent it are ready to finish the job--and Earth's survivors may be too few and too weak to resist.",
-    "book_title": "Breakers",
+    "description": "In New York, Walt Lawson is about to lose his girlfriend Vanessa. In Los Angeles, Raymond and Mia James are about to lose their house. Within days, none of it will matter.When Vanessa dies of the flu, Walt is devastated. But she isn't the last. The virus quickly kills billions, reducing New York to an open grave and LA to a chaotic wilderness of violence and fires. As Raymond and Mia hole up in an abandoned mansion, where they learn to function without electricity, running water, or neighbors, Walt begins an existential walk to LA, where Vanessa had planned to move when she left him. He expects to die along the way.Months later, a massive vessel appears above Santa Monica Bay. Walt is attacked by a crablike monstrosity in a mountain stream. The virus that ended humanity wasn't created by humans. It was inflicted from outside. The colonists who sent it are ready to finish the job--and Earth's survivors may be too few and too weak to resist.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "480_1"
+            "stock_id": "480_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "480_2"
+            "stock_id": "480_2"
         }
     ],
     "metrics": {
         "rating_votes": 5108,
         "score": 3.66
     },
-    "original_book_title": "B007712HM4",
     "pages": 554,
+    "title": "Breakers",
     "url": "https://www.goodreads.com/book/show/13485992-breakers",
     "year_published": 2012
 }

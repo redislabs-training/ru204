@@ -1,8 +1,7 @@
 {
-    "author_name": "Christopher Paolini",
+    "author": "Christopher Paolini",
     "base_id": 2765,
-    "book_description": "Kira Nav\u00e1rez dreamed of life on new worlds. Now she's awakened a nightmare. During a routine survey mission on an uncolonized planet, Kira finds an alien relic. At first she's delighted, but elation turns to terror when the ancient dust around her begins to move.As war erupts among the stars, Kira is launched into a galaxy-spanning odyssey of discovery and transformation. First contact isn't at all what she imagined, and events push her to the very limits of what it means to be human. While Kira faces her own horrors, Earth and its colonies stand upon the brink of annihilation. Now, Kira might be humanity's greatest and final hope...",
-    "book_title": "To Sleep in a Sea of Stars",
+    "description": "Kira Nav\u00e1rez dreamed of life on new worlds. Now she's awakened a nightmare. During a routine survey mission on an uncolonized planet, Kira finds an alien relic. At first she's delighted, but elation turns to terror when the ancient dust around her begins to move.As war erupts among the stars, Kira is launched into a galaxy-spanning odyssey of discovery and transformation. First contact isn't at all what she imagined, and events push her to the very limits of what it means to be human. While Kira faces her own horrors, Earth and its colonies stand upon the brink of annihilation. Now, Kira might be humanity's greatest and final hope...",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "2765_1"
+            "stock_id": "2765_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2765_2"
+            "stock_id": "2765_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "2765_3"
+            "stock_id": "2765_3"
         }
     ],
     "metrics": {
         "rating_votes": 12493,
         "score": 3.89
     },
-    "original_book_title": "To Sleep in a Sea of Stars",
     "pages": 569,
+    "title": "To Sleep in a Sea of Stars",
     "url": "https://www.goodreads.com/book/show/48829708-to-sleep-in-a-sea-of-stars",
     "year_published": 2020
 }

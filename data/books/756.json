@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 756,
-    "book_description": "In a universe where assassins make the law, everyone lives in fear--except for Syn. Born of an illicit scandal that once rocked a dynasty, he always knew how to survive on the bloodthirsty streets. But that was then, and the future is now\u2026Syn was raised as a tech-thief until his livelihood uncovered a truth that could end his life. He tried to destroy the evidence, and has been on the run ever since. Now trained as an assassin, he allows no one to threaten him. Ever. He is the darkness that swallows his enemies whole.Shahara Dagan is the best bounty hunter in the universe. When Syn comes back on the radar, she's the only one who can bring him to justice. There's only one problem: Syn is a close family friend who's helped out the Dagans countless times. But if she saves him, both of their lives will be on the line. Is Syn's protection worth the risk? The only hope Shahara has is to find the evidence he buried long ago. Now it's kill or be killed--and they, the predators, have just become the hunted\u2026",
-    "book_title": "Born of Fire",
+    "description": "In a universe where assassins make the law, everyone lives in fear--except for Syn. Born of an illicit scandal that once rocked a dynasty, he always knew how to survive on the bloodthirsty streets. But that was then, and the future is now\u2026Syn was raised as a tech-thief until his livelihood uncovered a truth that could end his life. He tried to destroy the evidence, and has been on the run ever since. Now trained as an assassin, he allows no one to threaten him. Ever. He is the darkness that swallows his enemies whole.Shahara Dagan is the best bounty hunter in the universe. When Syn comes back on the radar, she's the only one who can bring him to justice. There's only one problem: Syn is a close family friend who's helped out the Dagans countless times. But if she saves him, both of their lives will be on the line. Is Syn's protection worth the risk? The only hope Shahara has is to find the evidence he buried long ago. Now it's kill or be killed--and they, the predators, have just become the hunted\u2026",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "756_1"
+            "stock_id": "756_1"
         },
         {
             "status": "available",
-            "stock_number": "756_2"
+            "stock_id": "756_2"
         },
         {
             "status": "available",
-            "stock_number": "756_3"
+            "stock_id": "756_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "756_4"
+            "stock_id": "756_4"
         }
     ],
     "metrics": {
         "rating_votes": 17342,
         "score": 4.34
     },
-    "original_book_title": "Born of Fire",
     "pages": 654,
+    "title": "Born of Fire",
     "url": "https://www.goodreads.com/book/show/3246224-born-of-fire",
     "year_published": 1996
 }

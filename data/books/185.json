@@ -1,8 +1,7 @@
 {
-    "author_name": "Carly Fall",
+    "author": "Carly Fall",
     "base_id": 185,
-    "book_description": "When Abby and Noah meet, there is an explosive attraction between them that neither can deny...As a shy, awkward, social misfit, Abby has gone her whole life feeling as though she's different from everyone else and she simply doesn't fit in well with society as a whole. She longs to feel a real connection with someone, and she finally does when she meets Noah.Unbeknownst to Abby, Noah is from another world and his sole purpose is to hunt down the evil of his people that was unleashed on Earth hundreds of years ago. He's certain he isn't going to be able to return to his home, and anger and the need for revenge are his constant companions. His focus has been eradicating the evil and making them pay for taking his life on his world away from him.Noah tries desperately to fight his attraction to Abby so he can keep his focus on his mission. But when Abby gets dragged into the evil and mayhem from Noah's world, he realizes that maybe with Abby he can find a home here on Earth...if he can save her in time.",
-    "book_title": "The Light Within Me",
+    "description": "When Abby and Noah meet, there is an explosive attraction between them that neither can deny...As a shy, awkward, social misfit, Abby has gone her whole life feeling as though she's different from everyone else and she simply doesn't fit in well with society as a whole. She longs to feel a real connection with someone, and she finally does when she meets Noah.Unbeknownst to Abby, Noah is from another world and his sole purpose is to hunt down the evil of his people that was unleashed on Earth hundreds of years ago. He's certain he isn't going to be able to return to his home, and anger and the need for revenge are his constant companions. His focus has been eradicating the evil and making them pay for taking his life on his world away from him.Noah tries desperately to fight his attraction to Abby so he can keep his focus on his mission. But when Abby gets dragged into the evil and mayhem from Noah's world, he realizes that maybe with Abby he can find a home here on Earth...if he can save her in time.",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "185_1"
+            "stock_id": "185_1"
         },
         {
             "status": "available",
-            "stock_number": "185_2"
+            "stock_id": "185_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "185_3"
+            "stock_id": "185_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "185_4"
+            "stock_id": "185_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "185_5"
+            "stock_id": "185_5"
         },
         {
             "status": "available",
-            "stock_number": "185_6"
+            "stock_id": "185_6"
         },
         {
             "status": "available",
-            "stock_number": "185_7"
+            "stock_id": "185_7"
         }
     ],
     "metrics": {
         "rating_votes": 2046,
         "score": 3.7
     },
-    "original_book_title": "The Light Within Me (Six Saviors, #1)",
     "pages": 825,
+    "title": "The Light Within Me",
     "url": "https://www.goodreads.com/book/show/17336133-the-light-within-me",
     "year_published": 2011
 }

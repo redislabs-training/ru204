@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Aguirre",
+    "author": "Ann Aguirre",
     "base_id": 343,
-    "book_description": "It\u2019s not easy to tread lightly wearing steel-toed boots.Sirantha Jax isn\u2019t known for diplomatic finesse. As a \u201cJumper\u201d who navigates ships through grimspace, she\u2019s used to kicking ass first and taking names later\u2014much later. Not exactly the obvious choice to sell the Conglomerate to the Ithtorians, a people whose opinions of humans are as hard as their exoskeletons.And Ithiss-Tor council meetings aren\u2019t the only place where Ambassador Jax needs to maneuver carefully. Her lover, March, is frozen in permanent \u201ckill\u201d mode, and his hair-trigger threatens to sabotage the talks\u2014not to mention their relationship.But Jax won\u2019t give up on the man or the mission. With the Outskirts beleaguered by raiders, pirates, and the flesh-eating Morgut, an alliance with Ithiss-Tor may be humanity\u2019s only hope.Which has Jax wondering why a notorious troublemaker like her was given the job.",
-    "book_title": "Doubleblind",
+    "description": "It\u2019s not easy to tread lightly wearing steel-toed boots.Sirantha Jax isn\u2019t known for diplomatic finesse. As a \u201cJumper\u201d who navigates ships through grimspace, she\u2019s used to kicking ass first and taking names later\u2014much later. Not exactly the obvious choice to sell the Conglomerate to the Ithtorians, a people whose opinions of humans are as hard as their exoskeletons.And Ithiss-Tor council meetings aren\u2019t the only place where Ambassador Jax needs to maneuver carefully. Her lover, March, is frozen in permanent \u201ckill\u201d mode, and his hair-trigger threatens to sabotage the talks\u2014not to mention their relationship.But Jax won\u2019t give up on the man or the mission. With the Outskirts beleaguered by raiders, pirates, and the flesh-eating Morgut, an alliance with Ithiss-Tor may be humanity\u2019s only hope.Which has Jax wondering why a notorious troublemaker like her was given the job.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "343_1"
+            "stock_id": "343_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "343_2"
+            "stock_id": "343_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "343_3"
+            "stock_id": "343_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "343_4"
+            "stock_id": "343_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "343_5"
+            "stock_id": "343_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "343_6"
+            "stock_id": "343_6"
         }
     ],
     "metrics": {
         "rating_votes": 4979,
         "score": 3.99
     },
-    "original_book_title": "Doubleblind",
     "pages": 445,
+    "title": "Doubleblind",
     "url": "https://www.goodreads.com/book/show/6453280-doubleblind",
     "year_published": 2009
 }

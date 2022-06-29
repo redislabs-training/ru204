@@ -1,8 +1,7 @@
 {
-    "author_name": "Joe Haldeman",
+    "author": "Joe Haldeman",
     "base_id": 342,
-    "book_description": "Two aliens have wandered Earth for centuries. The Changeling has survived by adapting the forms of many different organisms. The Chameleon destroys anything or anyone that threatens it.Now, a sunken relic that holds the key to their origins calls to them to take them home\u2014but the Chameleon has decided there's only room for one.",
-    "book_title": "Camouflage",
+    "description": "Two aliens have wandered Earth for centuries. The Changeling has survived by adapting the forms of many different organisms. The Chameleon destroys anything or anyone that threatens it.Now, a sunken relic that holds the key to their origins calls to them to take them home\u2014but the Chameleon has decided there's only room for one.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "342_1"
+            "stock_id": "342_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "342_2"
+            "stock_id": "342_2"
         }
     ],
     "metrics": {
         "rating_votes": 5759,
         "score": 3.64
     },
-    "original_book_title": "Camouflage",
     "pages": 344,
+    "title": "Camouflage",
     "url": "https://www.goodreads.com/book/show/21607.Camouflage",
     "year_published": 2004
 }

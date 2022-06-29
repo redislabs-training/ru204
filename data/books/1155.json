@@ -1,8 +1,7 @@
 {
-    "author_name": "Tim Lebbon",
+    "author": "Tim Lebbon",
     "base_id": 1155,
-    "book_description": "As a child, Chris Hooper dreamed of monsters. But in deep space, he found only darkness and isolation. Then on planet LV178, he and his fellow miners discovered a storm-scoured, sand-blasted hell - and trimonite, the hardest material known to man.When a shuttle crashed into the mining ship Marion, the miners learn that there was more than trimonite deep in the caverns. There was evil, hibernating - and waiting for suitable prey.Hoop and his associates uncover a nest of Xenomorphs, and hell takes on new meaning. Quickly they discover that their only hope lies with the unlikeliest of saviors...Ellen Ripley, the last human survivor of the salvage ship Nostromo.",
-    "book_title": "Alien: Out of the Shadows",
+    "description": "As a child, Chris Hooper dreamed of monsters. But in deep space, he found only darkness and isolation. Then on planet LV178, he and his fellow miners discovered a storm-scoured, sand-blasted hell - and trimonite, the hardest material known to man.When a shuttle crashed into the mining ship Marion, the miners learn that there was more than trimonite deep in the caverns. There was evil, hibernating - and waiting for suitable prey.Hoop and his associates uncover a nest of Xenomorphs, and hell takes on new meaning. Quickly they discover that their only hope lies with the unlikeliest of saviors...Ellen Ripley, the last human survivor of the salvage ship Nostromo.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1155_1"
+            "stock_id": "1155_1"
         },
         {
             "status": "available",
-            "stock_number": "1155_2"
+            "stock_id": "1155_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1155_3"
+            "stock_id": "1155_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1155_4"
+            "stock_id": "1155_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1155_5"
+            "stock_id": "1155_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1155_6"
+            "stock_id": "1155_6"
         }
     ],
     "metrics": {
         "rating_votes": 8446,
         "score": 3.79
     },
-    "original_book_title": "Alien: Out of the Shadows",
     "pages": 803,
+    "title": "Alien: Out of the Shadows",
     "url": "https://www.goodreads.com/book/show/17672008-alien",
     "year_published": 2013
 }

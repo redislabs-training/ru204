@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 91,
-    "book_description": "Rachel is falling apart. Literally. Her newest morph the ability to regenerate its limbs, but when Rachel demorphs there's a lot more Rachel than when she started out. One more Rachel, to be exact. Rachel is an okay person to have around. But two could be considered overkill. Especially two Rachels with completely opposite personalities: one is pathetically weak; one is super strong and super nasty.Now the Animorphs have to figure out a way to put Rachel back together again. Because if it's up to the \"twins, \" Rachel the weak will surrender to Visser Three. Rachel the super bold will try to single-handedly take him down. And twice the trouble may be twice as much as the other Animorphs and Ax can handle....",
-    "book_title": "The Separation",
+    "description": "Rachel is falling apart. Literally. Her newest morph the ability to regenerate its limbs, but when Rachel demorphs there's a lot more Rachel than when she started out. One more Rachel, to be exact. Rachel is an okay person to have around. But two could be considered overkill. Especially two Rachels with completely opposite personalities: one is pathetically weak; one is super strong and super nasty.Now the Animorphs have to figure out a way to put Rachel back together again. Because if it's up to the \"twins, \" Rachel the weak will surrender to Visser Three. Rachel the super bold will try to single-handedly take him down. And twice the trouble may be twice as much as the other Animorphs and Ax can handle....",
     "editions": [
         "English"
     ],
@@ -20,47 +19,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "91_1"
+            "stock_id": "91_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "91_2"
+            "stock_id": "91_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_3"
+            "stock_id": "91_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_4"
+            "stock_id": "91_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_5"
+            "stock_id": "91_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_6"
+            "stock_id": "91_6"
         },
         {
             "status": "available",
-            "stock_number": "91_7"
+            "stock_id": "91_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_8"
+            "stock_id": "91_8"
         },
         {
             "status": "maintenance",
-            "stock_number": "91_9"
+            "stock_id": "91_9"
         }
     ],
     "metrics": {
         "rating_votes": 2402,
         "score": 3.59
     },
-    "original_book_title": "The Separation",
     "pages": 1260,
+    "title": "The Separation",
     "url": "https://www.goodreads.com/book/show/125340.The_Separation",
     "year_published": 1999
 }

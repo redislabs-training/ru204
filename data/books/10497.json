@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 10497,
-    "book_description": "BEING CONNECTED TO DAEMON BLACK SUCKS\u2026 Thanks to his alien mojo, Daemon\u2019s determined to prove what he feels for me is more than a product of our bizarro connection. So I\u2019ve sworn him off, even though he\u2019s running more hot than cold these days. But we\u2019ve got bigger problems.SOMETHING WORSE THAN ARUM HAS COME TO TOWN The Department of Defense is here. If they ever find out what Daemon can do and that we\u2019re linked, I\u2019m a goner. So is he. And there\u2019s this new boy in school who\u2019s got a secret of his own. He knows what\u2019s happened to me and he can help, but to do so, I have to lie to Daemon and stay away from him. Like that\u2019s possible. Against all common sense, I\u2019m falling for Daemon. Hard.BUT THEN, EVERYTHING CHANGES I\u2019ve seen someone who shouldn\u2019t be alive. And I have to tell Daemon, even though I know he\u2019s never going to stop searching until he gets the truth. What happened to his brother? Who betrayed him? And what does the DOD want from them\u2014from me?NO ONE IS WHO THEY SEEM. AND NOT EVERYONE WILL SURVIVE THE LIES.",
-    "book_title": "Onyx",
+    "description": "BEING CONNECTED TO DAEMON BLACK SUCKS\u2026 Thanks to his alien mojo, Daemon\u2019s determined to prove what he feels for me is more than a product of our bizarro connection. So I\u2019ve sworn him off, even though he\u2019s running more hot than cold these days. But we\u2019ve got bigger problems.SOMETHING WORSE THAN ARUM HAS COME TO TOWN The Department of Defense is here. If they ever find out what Daemon can do and that we\u2019re linked, I\u2019m a goner. So is he. And there\u2019s this new boy in school who\u2019s got a secret of his own. He knows what\u2019s happened to me and he can help, but to do so, I have to lie to Daemon and stay away from him. Like that\u2019s possible. Against all common sense, I\u2019m falling for Daemon. Hard.BUT THEN, EVERYTHING CHANGES I\u2019ve seen someone who shouldn\u2019t be alive. And I have to tell Daemon, even though I know he\u2019s never going to stop searching until he gets the truth. What happened to his brother? Who betrayed him? And what does the DOD want from them\u2014from me?NO ONE IS WHO THEY SEEM. AND NOT EVERYONE WILL SURVIVE THE LIES.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "10497_1"
+            "stock_id": "10497_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "10497_2"
+            "stock_id": "10497_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "10497_3"
+            "stock_id": "10497_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "10497_4"
+            "stock_id": "10497_4"
         },
         {
             "status": "available",
-            "stock_number": "10497_5"
+            "stock_id": "10497_5"
         }
     ],
     "metrics": {
         "rating_votes": 153429,
         "score": 4.27
     },
-    "original_book_title": "Onyx",
     "pages": 546,
+    "title": "Onyx",
     "url": "https://www.goodreads.com/book/show/13047090-onyx",
     "year_published": 2012
 }

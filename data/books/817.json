@@ -1,8 +1,7 @@
 {
-    "author_name": "Lara Adrian",
+    "author": "Lara Adrian",
     "base_id": 817,
-    "book_description": "A woman driven by blood. A man thirsting for vengeance.A place where darkness and desire meet...As night falls, Claire Roth flees, driven from her home by a fiery threat that seems to come from hell itself. Then, from out of the flames and ash, a vampire warrior emerges. He is Andreas Reichen, her onetime lover, now a stranger consumed by vengeance. Caught in the cross fire, Claire cannot escape his savage fury\u2014or the hunger that plunges her into his world of eternal darkness and unending pleasure.Nothing will stop Andreas from destroying the vampire responsible for slaughtering his Breed brethren . . . even if he must use his former lover as a pawn in his deadly mission. Blood-bonded to his treacherous adversary, Claire can lead Andreas to the enemy he seeks, but it is a journey fraught with danger\u2014and deep, unbidden desires. For Claire is the one woman Andreas should not crave, and the only one he\u2019s ever loved. A dangerous seduction begins\u2014one that blurs the lines between predator and prey, and stokes the flames of a white-hot passion that may consume all in its path. . . .",
-    "book_title": "Ashes of Midnight",
+    "description": "A woman driven by blood. A man thirsting for vengeance.A place where darkness and desire meet...As night falls, Claire Roth flees, driven from her home by a fiery threat that seems to come from hell itself. Then, from out of the flames and ash, a vampire warrior emerges. He is Andreas Reichen, her onetime lover, now a stranger consumed by vengeance. Caught in the cross fire, Claire cannot escape his savage fury\u2014or the hunger that plunges her into his world of eternal darkness and unending pleasure.Nothing will stop Andreas from destroying the vampire responsible for slaughtering his Breed brethren . . . even if he must use his former lover as a pawn in his deadly mission. Blood-bonded to his treacherous adversary, Claire can lead Andreas to the enemy he seeks, but it is a journey fraught with danger\u2014and deep, unbidden desires. For Claire is the one woman Andreas should not crave, and the only one he\u2019s ever loved. A dangerous seduction begins\u2014one that blurs the lines between predator and prey, and stokes the flames of a white-hot passion that may consume all in its path. . . .",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "817_1"
+            "stock_id": "817_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "817_2"
+            "stock_id": "817_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "817_3"
+            "stock_id": "817_3"
         },
         {
             "status": "available",
-            "stock_number": "817_4"
+            "stock_id": "817_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "817_5"
+            "stock_id": "817_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "817_6"
+            "stock_id": "817_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "817_7"
+            "stock_id": "817_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "817_8"
+            "stock_id": "817_8"
         }
     ],
     "metrics": {
         "rating_votes": 24751,
         "score": 4.15
     },
-    "original_book_title": "Ashes of Midnight",
     "pages": 374,
+    "title": "Ashes of Midnight",
     "url": "https://www.goodreads.com/book/show/4769247-ashes-of-midnight",
     "year_published": 2009
 }

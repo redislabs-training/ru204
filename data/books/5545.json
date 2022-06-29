@@ -1,8 +1,7 @@
 {
-    "author_name": "Arthur C. Clarke",
+    "author": "Arthur C. Clarke",
     "base_id": 5545,
-    "book_description": "The Overlords appeared suddenly over every city--intellectually, technologically, and militarily superior to humankind. Benevolent, they made few demands: unify earth, eliminate poverty, and end war. With little rebellion, humankind agreed, and a golden age began.But at what cost? With the advent of peace, man ceases to strive for creative greatness, and a malaise settles over the human race. To those who resist, it becomes evident that the Overlords have an agenda of their own. As civilization approaches the crossroads, will the Overlords spell the end for humankind . . . or the beginning?",
-    "book_title": "Childhood's End",
+    "description": "The Overlords appeared suddenly over every city--intellectually, technologically, and militarily superior to humankind. Benevolent, they made few demands: unify earth, eliminate poverty, and end war. With little rebellion, humankind agreed, and a golden age began.But at what cost? With the advent of peace, man ceases to strive for creative greatness, and a malaise settles over the human race. To those who resist, it becomes evident that the Overlords have an agenda of their own. As civilization approaches the crossroads, will the Overlords spell the end for humankind . . . or the beginning?",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "5545_1"
+            "stock_id": "5545_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "5545_2"
+            "stock_id": "5545_2"
         },
         {
             "status": "available",
-            "stock_number": "5545_3"
+            "stock_id": "5545_3"
         },
         {
             "status": "available",
-            "stock_number": "5545_4"
+            "stock_id": "5545_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "5545_5"
+            "stock_id": "5545_5"
         },
         {
             "status": "available",
-            "stock_number": "5545_6"
+            "stock_id": "5545_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "5545_7"
+            "stock_id": "5545_7"
         },
         {
             "status": "available",
-            "stock_number": "5545_8"
+            "stock_id": "5545_8"
         }
     ],
     "metrics": {
         "rating_votes": 134882,
         "score": 4.1
     },
-    "original_book_title": "Childhood's End",
     "pages": 520,
+    "title": "Childhood's End",
     "url": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
     "year_published": 1953
 }

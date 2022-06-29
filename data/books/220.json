@@ -1,8 +1,7 @@
 {
-    "author_name": "Stacey Kade",
+    "author": "Stacey Kade",
     "base_id": 220,
-    "book_description": "Ariane Tucker has finally escaped GTX, the research facility that created her. While on the run, Zane Bradshaw is the only person she can trust. He knows who-and what-she is and still wants to be part of her life. But accepting Zane's help means putting him in danger. Dr. Jacobs, head of GTX, is not the only one hunting for Ariane. Two rival corporations have their sights set on taking down their competition. Permanently. To protect Zane and herself, Ariane needs allies. She needs the other hybrids. The hybrids who are way more alien and a lot less human. Can Ariane win them over before they turn on her? Or will she be forced to choose sides, to decide who lives and who dies?",
-    "book_title": "The Hunt",
+    "description": "Ariane Tucker has finally escaped GTX, the research facility that created her. While on the run, Zane Bradshaw is the only person she can trust. He knows who-and what-she is and still wants to be part of her life. But accepting Zane's help means putting him in danger. Dr. Jacobs, head of GTX, is not the only one hunting for Ariane. Two rival corporations have their sights set on taking down their competition. Permanently. To protect Zane and herself, Ariane needs allies. She needs the other hybrids. The hybrids who are way more alien and a lot less human. Can Ariane win them over before they turn on her? Or will she be forced to choose sides, to decide who lives and who dies?",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "220_1"
+            "stock_id": "220_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "220_2"
+            "stock_id": "220_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "220_3"
+            "stock_id": "220_3"
         },
         {
             "status": "available",
-            "stock_number": "220_4"
+            "stock_id": "220_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "220_5"
+            "stock_id": "220_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "220_6"
+            "stock_id": "220_6"
         },
         {
             "status": "available",
-            "stock_number": "220_7"
+            "stock_id": "220_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "220_8"
+            "stock_id": "220_8"
         }
     ],
     "metrics": {
         "rating_votes": 1974,
         "score": 4.04
     },
-    "original_book_title": "\n1423153294\n(ISBN13: 9781423153290)\n",
     "pages": 1309,
+    "title": "The Hunt",
     "url": "https://www.goodreads.com/book/show/18296013-the-hunt",
     "year_published": 2014
 }

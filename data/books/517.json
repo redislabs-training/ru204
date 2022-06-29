@@ -1,8 +1,7 @@
 {
-    "author_name": "Evangeline Anderson",
+    "author": "Evangeline Anderson",
     "base_id": 517,
-    "book_description": "A desperate girl on the run with nowhere to hide... A warrior who has made a vow never to claim a bride... Sophia Waterhouse is being Hunted and the only man who can save her is the one she fears the most...Sophia Waterhouse has always been afraid of needles and vampires so there\u2019s no way she wants anything to do with a modern day Count Dracula\u2014even if he does come wrapped in the package of a huge Kindred warrior with blond hair and ice blue eyes. She\u2019s only on the Kindred Mothership to participate in her sister Liv\u2019s wedding and that\u2019s all.Sylvan is a Tranq Kindred who has made a sacred vow never to call a bride. After a devastating rejection on his home planet, his heart is a block of ice no one can melt\u2014or so he thinks until he meets Sophia.When their ship is forced down in the middle of a rugged mountain range Sophia and Sylvan are stranded. Running for their lives they have only each other to depend on. Will they give in to the intense attraction between them or will the evil hunting Sophia take its toll? You\u2019ll have to read Brides of the Kindred Book 2\u2014Hunted to find out.",
-    "book_title": "Hunted",
+    "description": "A desperate girl on the run with nowhere to hide... A warrior who has made a vow never to claim a bride... Sophia Waterhouse is being Hunted and the only man who can save her is the one she fears the most...Sophia Waterhouse has always been afraid of needles and vampires so there\u2019s no way she wants anything to do with a modern day Count Dracula\u2014even if he does come wrapped in the package of a huge Kindred warrior with blond hair and ice blue eyes. She\u2019s only on the Kindred Mothership to participate in her sister Liv\u2019s wedding and that\u2019s all.Sylvan is a Tranq Kindred who has made a sacred vow never to call a bride. After a devastating rejection on his home planet, his heart is a block of ice no one can melt\u2014or so he thinks until he meets Sophia.When their ship is forced down in the middle of a rugged mountain range Sophia and Sylvan are stranded. Running for their lives they have only each other to depend on. Will they give in to the intense attraction between them or will the evil hunting Sophia take its toll? You\u2019ll have to read Brides of the Kindred Book 2\u2014Hunted to find out.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "517_1"
+            "stock_id": "517_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "517_2"
+            "stock_id": "517_2"
         }
     ],
     "metrics": {
         "rating_votes": 9599,
         "score": 3.98
     },
-    "original_book_title": "B004YQCGLW",
     "pages": 1044,
+    "title": "Hunted",
     "url": "https://www.goodreads.com/book/show/11273356-hunted",
     "year_published": 2011
 }

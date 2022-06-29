@@ -1,8 +1,7 @@
 {
-    "author_name": "Alan Dean Foster",
+    "author": "Alan Dean Foster",
     "base_id": 466,
-    "book_description": "Based on the screenplay by Dan O'Bannon. The crew of the spaceship Nostromo wake from cryogenic sleep to distress signals from an unknown planet. One is attacked when they investigate a derelict alien craft. Safely on their way back to Sol, none foresee the real horror about to begin.",
-    "book_title": "Alien",
+    "description": "Based on the screenplay by Dan O'Bannon. The crew of the spaceship Nostromo wake from cryogenic sleep to distress signals from an unknown planet. One is attacked when they investigate a derelict alien craft. Safely on their way back to Sol, none foresee the real horror about to begin.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "466_1"
+            "stock_id": "466_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "466_2"
+            "stock_id": "466_2"
         },
         {
             "status": "available",
-            "stock_number": "466_3"
+            "stock_id": "466_3"
         }
     ],
     "metrics": {
         "rating_votes": 17756,
         "score": 4.09
     },
-    "original_book_title": "Alien",
     "pages": 1222,
+    "title": "Alien",
     "url": "https://www.goodreads.com/book/show/35125.Alien",
     "year_published": 1979
 }

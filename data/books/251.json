@@ -1,8 +1,7 @@
 {
-    "author_name": "Zoey Draven",
+    "author": "Zoey Draven",
     "base_id": 251,
-    "book_description": "Welcome to Luxiria, where the twin suns are hot and the alien warriors are hotter\u2026Kate Harper finally had everything going on back on Earth: her dream job, a kickass best friend, and an apartment completely void of her cheating ex. That is, until she wakes up, cuffed and naked, on an alien planet/fight club known as the Pit. Worse? Aliens fight to the death to be able to claim their prize: human pleasure mates. Even worse? She realizes she\u2019s one of them.Vaxa\u2019an, the Prime Leader of Luxiria, has a duty to his warrior species: continue their race. Infamously ruthless and deadly, the Luxirian knows he\u2019ll have no trouble claiming a Breeder at the Pit. What he doesn\u2019t expect to find is his fated mate, with her lush curves and tempting body. And he will stop at nothing to claim her.When Kate becomes the warrior alpha\u2019s prize, her only goal is getting back to the life she was taken from. Certainly not to fall for the sexy, overbearing barbarian with a wicked tongue, who is determined to make her his own\u2026Features a curvy, stubborn human female and a seven-foot tall hot alien with a dirty mouth and an impossibly large (-ahem-) package that does deliciously interesting things. Full-length 55,000+ word novel!",
-    "book_title": "The Alien's Prize",
+    "description": "Welcome to Luxiria, where the twin suns are hot and the alien warriors are hotter\u2026Kate Harper finally had everything going on back on Earth: her dream job, a kickass best friend, and an apartment completely void of her cheating ex. That is, until she wakes up, cuffed and naked, on an alien planet/fight club known as the Pit. Worse? Aliens fight to the death to be able to claim their prize: human pleasure mates. Even worse? She realizes she\u2019s one of them.Vaxa\u2019an, the Prime Leader of Luxiria, has a duty to his warrior species: continue their race. Infamously ruthless and deadly, the Luxirian knows he\u2019ll have no trouble claiming a Breeder at the Pit. What he doesn\u2019t expect to find is his fated mate, with her lush curves and tempting body. And he will stop at nothing to claim her.When Kate becomes the warrior alpha\u2019s prize, her only goal is getting back to the life she was taken from. Certainly not to fall for the sexy, overbearing barbarian with a wicked tongue, who is determined to make her his own\u2026Features a curvy, stubborn human female and a seven-foot tall hot alien with a dirty mouth and an impossibly large (-ahem-) package that does deliciously interesting things. Full-length 55,000+ word novel!",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "251_1"
+            "stock_id": "251_1"
         },
         {
             "status": "available",
-            "stock_number": "251_2"
+            "stock_id": "251_2"
         },
         {
             "status": "available",
-            "stock_number": "251_3"
+            "stock_id": "251_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "251_4"
+            "stock_id": "251_4"
         },
         {
             "status": "available",
-            "stock_number": "251_5"
+            "stock_id": "251_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "251_6"
+            "stock_id": "251_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "251_7"
+            "stock_id": "251_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "251_8"
+            "stock_id": "251_8"
         }
     ],
     "metrics": {
         "rating_votes": 3297,
         "score": 3.83
     },
-    "original_book_title": "The Alien's Prize",
     "pages": 413,
+    "title": "The Alien's Prize",
     "url": "https://www.goodreads.com/book/show/34357797-the-alien-s-prize",
     "year_published": 2017
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Cara Bristol",
+    "author": "Cara Bristol",
     "base_id": 282,
-    "book_description": "To secure his legacy, Commander Dak, a ruling Alpha of planet Parseon, purchases Omra, a breeder slave. He intends to impregnate her, produce a son, and hand her off to his anointed beta partner. As Dak and Omra discover a sexual bliss banned by law, he begins to question the traditions and ways of his people, causing him to jeopardize his command and endanger the life of the woman he has come to love.",
-    "book_title": "Breeder",
+    "description": "To secure his legacy, Commander Dak, a ruling Alpha of planet Parseon, purchases Omra, a breeder slave. He intends to impregnate her, produce a son, and hand her off to his anointed beta partner. As Dak and Omra discover a sexual bliss banned by law, he begins to question the traditions and ways of his people, causing him to jeopardize his command and endanger the life of the woman he has come to love.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "282_1"
+            "stock_id": "282_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "282_2"
+            "stock_id": "282_2"
         },
         {
             "status": "available",
-            "stock_number": "282_3"
+            "stock_id": "282_3"
         },
         {
             "status": "available",
-            "stock_number": "282_4"
+            "stock_id": "282_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "282_5"
+            "stock_id": "282_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "282_6"
+            "stock_id": "282_6"
         },
         {
             "status": "available",
-            "stock_number": "282_7"
+            "stock_id": "282_7"
         }
     ],
     "metrics": {
         "rating_votes": 2083,
         "score": 3.5
     },
-    "original_book_title": "9781623005313",
     "pages": 405,
+    "title": "Breeder",
     "url": "https://www.goodreads.com/book/show/18626685-breeder",
     "year_published": 2013
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 434,
-    "book_description": "A fate worse than death . . .Bastien Cabarro survived the brutal slaughter of his entire family only to have his wife pin their murders on him. Made Ravin by The League, he is now a target for their assassins-in-training to hunt and kill. The average life expectancy for such beings is six weeks. But defying the odds is what this Gyron Force officer does best, and Bastien won\u2019t rest until he lays his betrayers in their graves. Ten years later, he has one chance to balance the scales of justice, provided he relies on his former wingman\u2014 the very sister of the woman who testified against him. Major Ember Wyldestarrin joined the outlaw Tavali the day Kirovar fell into the hands of a tyrant, and she and her team were left on an outpost to die under a barrage of enemy fire. The last thing she wants is to be involved in politics again. But if she doesn\u2019t bring Bastien in, her sister will pay the ultimate price. Now she has to find some way to betray her former wingman (and fiance) before he catches on and kills her. Even so, treachery doesn\u2019t come easy to a woman who took a loyalty oath to protect her homeworld and comrades-in-arms. Yet as she tries to do right by her family, she learns that Bastien doesn\u2019t just hold the key to the fate of Kirovar, he is vital to The Sentella-League war, and to the entire Tavali nation. If she hands him over, three nations fall. If she doesn\u2019t, her entire family dies. Their fates are all in her hands, and time for all of them is quickly running out.",
-    "book_title": "Born of Vengeance",
+    "description": "A fate worse than death . . .Bastien Cabarro survived the brutal slaughter of his entire family only to have his wife pin their murders on him. Made Ravin by The League, he is now a target for their assassins-in-training to hunt and kill. The average life expectancy for such beings is six weeks. But defying the odds is what this Gyron Force officer does best, and Bastien won\u2019t rest until he lays his betrayers in their graves. Ten years later, he has one chance to balance the scales of justice, provided he relies on his former wingman\u2014 the very sister of the woman who testified against him. Major Ember Wyldestarrin joined the outlaw Tavali the day Kirovar fell into the hands of a tyrant, and she and her team were left on an outpost to die under a barrage of enemy fire. The last thing she wants is to be involved in politics again. But if she doesn\u2019t bring Bastien in, her sister will pay the ultimate price. Now she has to find some way to betray her former wingman (and fiance) before he catches on and kills her. Even so, treachery doesn\u2019t come easy to a woman who took a loyalty oath to protect her homeworld and comrades-in-arms. Yet as she tries to do right by her family, she learns that Bastien doesn\u2019t just hold the key to the fate of Kirovar, he is vital to The Sentella-League war, and to the entire Tavali nation. If she hands him over, three nations fall. If she doesn\u2019t, her entire family dies. Their fates are all in her hands, and time for all of them is quickly running out.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "434_1"
+            "stock_id": "434_1"
         },
         {
             "status": "available",
-            "stock_number": "434_2"
+            "stock_id": "434_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "434_3"
+            "stock_id": "434_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "434_4"
+            "stock_id": "434_4"
         },
         {
             "status": "available",
-            "stock_number": "434_5"
+            "stock_id": "434_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "434_6"
+            "stock_id": "434_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "434_7"
+            "stock_id": "434_7"
         },
         {
             "status": "available",
-            "stock_number": "434_8"
+            "stock_id": "434_8"
         }
     ],
     "metrics": {
         "rating_votes": 4174,
         "score": 4.2
     },
-    "original_book_title": "English",
     "pages": 804,
+    "title": "Born of Vengeance",
     "url": "https://www.goodreads.com/book/show/21858682-born-of-vengeance",
     "year_published": 2017
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Mina Carter",
+    "author": "Mina Carter",
     "base_id": 109,
-    "book_description": "Laarn, Lord Healer of the Lathar, is about to become something unique among his people. He\u2019s about to become a father\u2026 of a little girl. The first female child born for a generation. He\u2019s studied childbirth, he\u2019s confident that he has everything planned.Unfortunately, as any human woman could tell him, having a baby doesn\u2019t always go to plan\u2026This short story is set in the WARRIORS OF THE LATHAR world and is not a stand alone. It should be read after PREGNANT BY THE ALIEN HEALER and is a little bite of life story for those who fell in love with the Lathar and their mates.",
-    "book_title": "Alien Healer\u2019s Baby",
+    "description": "Laarn, Lord Healer of the Lathar, is about to become something unique among his people. He\u2019s about to become a father\u2026 of a little girl. The first female child born for a generation. He\u2019s studied childbirth, he\u2019s confident that he has everything planned.Unfortunately, as any human woman could tell him, having a baby doesn\u2019t always go to plan\u2026This short story is set in the WARRIORS OF THE LATHAR world and is not a stand alone. It should be read after PREGNANT BY THE ALIEN HEALER and is a little bite of life story for those who fell in love with the Lathar and their mates.",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "109_1"
+            "stock_id": "109_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "109_2"
+            "stock_id": "109_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "109_3"
+            "stock_id": "109_3"
         },
         {
             "status": "available",
-            "stock_number": "109_4"
+            "stock_id": "109_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "109_5"
+            "stock_id": "109_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "109_6"
+            "stock_id": "109_6"
         }
     ],
     "metrics": {
         "rating_votes": 1307,
         "score": 4.22
     },
-    "original_book_title": "B07B5DB41B",
     "pages": 947,
+    "title": "Alien Healer\u2019s Baby",
     "url": "https://www.goodreads.com/book/show/38920283-alien-healer-s-baby",
     "year_published": 2018
 }

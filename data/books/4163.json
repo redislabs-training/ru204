@@ -1,8 +1,7 @@
 {
-    "author_name": "Michel Faber",
+    "author": "Michel Faber",
     "base_id": 4163,
-    "book_description": "A monumental, genre-defying novel over ten years in the making, Michel Faber's The Book of Strange New Things is a masterwork from a writer in full command of his many talents.It begins with Peter, a devoted man of faith, as he is called to the mission of a lifetime, one that takes him galaxies away from his wife, Bea. Peter becomes immersed in the mysteries of an astonishing new environment, overseen by an enigmatic corporation known only as USIC. His work introduces him to a seemingly friendly native population struggling with a dangerous illness and hungry for Peter's teachings\u2014his Bible is their \"book of strange new things.\" But Peter is rattled when Bea's letters from home become increasingly desperate: typhoons and earthquakes are devastating whole countries, and governments are crumbling. Bea's faith, once the guiding light of their lives, begins to falter. Suddenly, a separation measured by an otherworldly distance, and defined both by one newly discovered world and another in a state of collapse, is threatened by an ever-widening gulf that is much less quantifiable. While Peter is reconciling the needs of his congregation with the desires of his strange employer, Bea is struggling for survival. Their trials lay bare a profound meditation on faith, love tested beyond endurance, and our responsibility to those closest to us. Marked by the same bravura storytelling and precise language that made The Crimson Petal and the White such an international success, The Book of Strange New Things is extraordinary, mesmerizing, and replete with emotional complexity and genuine pathos.",
-    "book_title": "The Book of Strange New Things",
+    "description": "A monumental, genre-defying novel over ten years in the making, Michel Faber's The Book of Strange New Things is a masterwork from a writer in full command of his many talents.It begins with Peter, a devoted man of faith, as he is called to the mission of a lifetime, one that takes him galaxies away from his wife, Bea. Peter becomes immersed in the mysteries of an astonishing new environment, overseen by an enigmatic corporation known only as USIC. His work introduces him to a seemingly friendly native population struggling with a dangerous illness and hungry for Peter's teachings\u2014his Bible is their \"book of strange new things.\" But Peter is rattled when Bea's letters from home become increasingly desperate: typhoons and earthquakes are devastating whole countries, and governments are crumbling. Bea's faith, once the guiding light of their lives, begins to falter. Suddenly, a separation measured by an otherworldly distance, and defined both by one newly discovered world and another in a state of collapse, is threatened by an ever-widening gulf that is much less quantifiable. While Peter is reconciling the needs of his congregation with the desires of his strange employer, Bea is struggling for survival. Their trials lay bare a profound meditation on faith, love tested beyond endurance, and our responsibility to those closest to us. Marked by the same bravura storytelling and precise language that made The Crimson Petal and the White such an international success, The Book of Strange New Things is extraordinary, mesmerizing, and replete with emotional complexity and genuine pathos.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "4163_1"
+            "stock_id": "4163_1"
         }
     ],
     "metrics": {
         "rating_votes": 28373,
         "score": 3.67
     },
-    "original_book_title": "The Book of Strange New Things",
     "pages": 1080,
+    "title": "The Book of Strange New Things",
     "url": "https://www.goodreads.com/book/show/20697435-the-book-of-strange-new-things",
     "year_published": 2014
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 176,
-    "book_description": "I\u2019ve ruined everything.I had a mate. Resonance. Happiness. But then T\u2019chai\u2019s attacked by ravenous sky-claw and almost killed. To help him recover, I tell the healer to turn off our unfulfilled resonance. It's temporary...or so I think.Big mistake. Because now my khui acts like it\u2019s dead and it hates T\u2019chai. But I still love him. How do we move forward when I can\u2019t bear his touch? Is there a way to get back our happiness together, or is it time to give up on what we once had?T'chai has other plans, though. He's not giving up on us. If it means crossing the world, he's ready to do it at my side.",
-    "book_title": "Mari's Mistake",
+    "description": "I\u2019ve ruined everything.I had a mate. Resonance. Happiness. But then T\u2019chai\u2019s attacked by ravenous sky-claw and almost killed. To help him recover, I tell the healer to turn off our unfulfilled resonance. It's temporary...or so I think.Big mistake. Because now my khui acts like it\u2019s dead and it hates T\u2019chai. But I still love him. How do we move forward when I can\u2019t bear his touch? Is there a way to get back our happiness together, or is it time to give up on what we once had?T'chai has other plans, though. He's not giving up on us. If it means crossing the world, he's ready to do it at my side.",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "176_1"
+            "stock_id": "176_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "176_2"
+            "stock_id": "176_2"
         },
         {
             "status": "available",
-            "stock_number": "176_3"
+            "stock_id": "176_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "176_4"
+            "stock_id": "176_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "176_5"
+            "stock_id": "176_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "176_6"
+            "stock_id": "176_6"
         }
     ],
     "metrics": {
         "rating_votes": 1453,
         "score": 4.26
     },
-    "original_book_title": "Mari's Mistake",
     "pages": 522,
+    "title": "Mari's Mistake",
     "url": "https://www.goodreads.com/book/show/54551944-mari-s-mistake",
     "year_published": 2020
 }

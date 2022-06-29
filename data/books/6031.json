@@ -1,8 +1,7 @@
 {
-    "author_name": "Arthur C. Clarke",
+    "author": "Arthur C. Clarke",
     "base_id": 6031,
-    "book_description": "On the Moon, an enigma is uncovered.So great are the implications of this discovery that for the first time men are sent out deep into our solar system.But long before their destination is reached, things begin to go horribly, inexplicably wrong...One of the greatest-selling science fiction novels of our time, this classic book will grip you to the very end.",
-    "book_title": "2001: A Space Odyssey",
+    "description": "On the Moon, an enigma is uncovered.So great are the implications of this discovery that for the first time men are sent out deep into our solar system.But long before their destination is reached, things begin to go horribly, inexplicably wrong...One of the greatest-selling science fiction novels of our time, this classic book will grip you to the very end.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "6031_1"
+            "stock_id": "6031_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "6031_2"
+            "stock_id": "6031_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "6031_3"
+            "stock_id": "6031_3"
         },
         {
             "status": "available",
-            "stock_number": "6031_4"
+            "stock_id": "6031_4"
         },
         {
             "status": "available",
-            "stock_number": "6031_5"
+            "stock_id": "6031_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "6031_6"
+            "stock_id": "6031_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "6031_7"
+            "stock_id": "6031_7"
         }
     ],
     "metrics": {
         "rating_votes": 266542,
         "score": 4.15
     },
-    "original_book_title": "2001: A Space Odyssey",
     "pages": 749,
+    "title": "2001: A Space Odyssey",
     "url": "https://www.goodreads.com/book/show/70535.2001",
     "year_published": 1968
 }

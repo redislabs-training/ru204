@@ -1,8 +1,7 @@
 {
-    "author_name": "Zoey Draven",
+    "author": "Zoey Draven",
     "base_id": 81,
-    "book_description": "Cara Call never expected her life to take such a dramatic turn after she fell in love with her wicked alien captor, Devix. Now, after escaping Sarkon\u2019s grasp, they are building their lives together on the peaceful colony of Rozun.Then, their lives change forever when Cara discovers she\u2019s pregnant.With a difficult and potentially dangerous pregnancy ahead, Devix takes Cara to the only place he knows they can get help: his home planet of Luxiria. The same planet he was wrongly exiled from, accused of a heinous crime he didn't commit.But Devix will do anything to protect his fated mate\u2026even if it means confronting the wrath of his species and the ones who betrayed him.WICKED MATE is the direct sequel to WICKED CAPTOR and concludes Devix and Cara\u2019s story. It features the same spirited and sassy human female and the same seven-foot-tall alien warrior with naughty fantasies and even naughtier -ahem- equipment.",
-    "book_title": "Wicked Mate",
+    "description": "Cara Call never expected her life to take such a dramatic turn after she fell in love with her wicked alien captor, Devix. Now, after escaping Sarkon\u2019s grasp, they are building their lives together on the peaceful colony of Rozun.Then, their lives change forever when Cara discovers she\u2019s pregnant.With a difficult and potentially dangerous pregnancy ahead, Devix takes Cara to the only place he knows they can get help: his home planet of Luxiria. The same planet he was wrongly exiled from, accused of a heinous crime he didn't commit.But Devix will do anything to protect his fated mate\u2026even if it means confronting the wrath of his species and the ones who betrayed him.WICKED MATE is the direct sequel to WICKED CAPTOR and concludes Devix and Cara\u2019s story. It features the same spirited and sassy human female and the same seven-foot-tall alien warrior with naughty fantasies and even naughtier -ahem- equipment.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "81_1"
+            "stock_id": "81_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "81_2"
+            "stock_id": "81_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "81_3"
+            "stock_id": "81_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "81_4"
+            "stock_id": "81_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "81_5"
+            "stock_id": "81_5"
         },
         {
             "status": "available",
-            "stock_number": "81_6"
+            "stock_id": "81_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "81_7"
+            "stock_id": "81_7"
         }
     ],
     "metrics": {
         "rating_votes": 931,
         "score": 4.31
     },
-    "original_book_title": "B07954KLKJ",
     "pages": 407,
+    "title": "Wicked Mate",
     "url": "https://www.goodreads.com/book/show/38105136-wicked-mate",
     "year_published": 2018
 }

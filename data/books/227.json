@@ -1,8 +1,7 @@
 {
-    "author_name": "GraceGoodwin",
+    "author": "GraceGoodwin",
     "base_id": 227,
-    "book_description": "Amanda Bryant has been a spy for five long years, but when aliens suddenly appear claiming a deadly enemy threatens Earth's very survival, Amanda is asked by her superiors to accept the most dangerous mission of her life...volunteer to be an alien's bride, to share the strange warrior's bed and then betray him. Accepting the assignment, Amanda is processed as the first Interstellar Bride and transported halfway across the galaxy to her new mate's battleship where she awakens to discover she has been matched to not just one huge Prillon warrior, but two.Shocked by her craving for the touch of two dominant alpha males, Amanda attempts to hide her body's immediate reaction to Commander Grigg and his second, Rav. Resistance is futile as her new mates expect to control every aspect of her life, and her pleasure, and neither will hesitate to deliver a thorough and embarrassing spanking should she disobey their sensual commands, or resist a complex and deeply arousing series of medical exams designed to ensure her sexual readiness for their claiming. Seduced and cherished by two alpha alien warriors who hide nothing from her, Amanda quickly comes to realize that the threat to Earth is very real. When she witnesses a battle with the enemy and the resulting death of a highly respected warrior, she knows she must tell her mates the truth and hope they can forgive her for her duplicity before it's too late. Loyalties will be tested as Amanda fights the most important battle of her life. How can she protect the warriors she has grown to love and save the people of Earth from making a terrible mistake? Will her human contacts believe her when, with every touch, every look, they will see just how thoroughly she has been mastered by her mates?Publisher's Note: Mastered by Her Mates is a stand-alone prequel novel set in the same world as Assigned a Mate, Mated to the Warriors, Claimed by Her Mates, Taken by Her Mates, and Mated to the Beast. It is an erotic romance novel that includes sexual scenes, spankings and more and is intended for an adult audience. If such material offends you, please do not buy this book.",
-    "book_title": "Mastered By Her Mates",
+    "description": "Amanda Bryant has been a spy for five long years, but when aliens suddenly appear claiming a deadly enemy threatens Earth's very survival, Amanda is asked by her superiors to accept the most dangerous mission of her life...volunteer to be an alien's bride, to share the strange warrior's bed and then betray him. Accepting the assignment, Amanda is processed as the first Interstellar Bride and transported halfway across the galaxy to her new mate's battleship where she awakens to discover she has been matched to not just one huge Prillon warrior, but two.Shocked by her craving for the touch of two dominant alpha males, Amanda attempts to hide her body's immediate reaction to Commander Grigg and his second, Rav. Resistance is futile as her new mates expect to control every aspect of her life, and her pleasure, and neither will hesitate to deliver a thorough and embarrassing spanking should she disobey their sensual commands, or resist a complex and deeply arousing series of medical exams designed to ensure her sexual readiness for their claiming. Seduced and cherished by two alpha alien warriors who hide nothing from her, Amanda quickly comes to realize that the threat to Earth is very real. When she witnesses a battle with the enemy and the resulting death of a highly respected warrior, she knows she must tell her mates the truth and hope they can forgive her for her duplicity before it's too late. Loyalties will be tested as Amanda fights the most important battle of her life. How can she protect the warriors she has grown to love and save the people of Earth from making a terrible mistake? Will her human contacts believe her when, with every touch, every look, they will see just how thoroughly she has been mastered by her mates?Publisher's Note: Mastered by Her Mates is a stand-alone prequel novel set in the same world as Assigned a Mate, Mated to the Warriors, Claimed by Her Mates, Taken by Her Mates, and Mated to the Beast. It is an erotic romance novel that includes sexual scenes, spankings and more and is intended for an adult audience. If such material offends you, please do not buy this book.",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "227_1"
+            "stock_id": "227_1"
         },
         {
             "status": "available",
-            "stock_number": "227_2"
+            "stock_id": "227_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "227_3"
+            "stock_id": "227_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "227_4"
+            "stock_id": "227_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "227_5"
+            "stock_id": "227_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "227_6"
+            "stock_id": "227_6"
         }
     ],
     "metrics": {
         "rating_votes": 2504,
         "score": 3.92
     },
-    "original_book_title": "Mastered By Her Mates",
     "pages": 679,
+    "title": "Mastered By Her Mates",
     "url": "https://www.goodreads.com/book/show/31804430-mastered-by-her-mates",
     "year_published": 2016
 }

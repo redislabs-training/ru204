@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 116,
-    "book_description": "David, the newest Animorph, is not what he appears. His need to control the other Animorphs and Ax is all he thinks about. And the things he does are starting to break up the group.",
-    "book_title": "The Solution",
+    "description": "David, the newest Animorph, is not what he appears. His need to control the other Animorphs and Ax is all he thinks about. And the things he does are starting to break up the group.",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "116_1"
+            "stock_id": "116_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "116_2"
+            "stock_id": "116_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "116_3"
+            "stock_id": "116_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "116_4"
+            "stock_id": "116_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "116_5"
+            "stock_id": "116_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "116_6"
+            "stock_id": "116_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "116_7"
+            "stock_id": "116_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "116_8"
+            "stock_id": "116_8"
         }
     ],
     "metrics": {
         "rating_votes": 3056,
         "score": 3.96
     },
-    "original_book_title": "The Solution",
     "pages": 406,
+    "title": "The Solution",
     "url": "https://www.goodreads.com/book/show/366790.The_Solution",
     "year_published": 1998
 }

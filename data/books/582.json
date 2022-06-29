@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 582,
-    "book_description": "Number Six\u2014when John meets her in I Am Number Four she\u2019s strong, powerful, and ready to fight. But who is she? Where has she been living? How has she been training? When did she develop her legacies? And how does she know so much about the Mogadorians?In I Am Number Four: The Lost Files: Six\u2019s Legacy, discover the story behind Six. Before Paradise, Ohio, before John Smith, Six was traveling through West Texas with her c\u00eapan, Katarina. What happened there would change Six forever\u0085.",
-    "book_title": "Six's Legacy",
+    "description": "Number Six\u2014when John meets her in I Am Number Four she\u2019s strong, powerful, and ready to fight. But who is she? Where has she been living? How has she been training? When did she develop her legacies? And how does she know so much about the Mogadorians?In I Am Number Four: The Lost Files: Six\u2019s Legacy, discover the story behind Six. Before Paradise, Ohio, before John Smith, Six was traveling through West Texas with her c\u00eapan, Katarina. What happened there would change Six forever\u0085.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "582_1"
+            "stock_id": "582_1"
         }
     ],
     "metrics": {
         "rating_votes": 16255,
         "score": 4.08
     },
-    "original_book_title": "Six's Legacy",
     "pages": 1169,
+    "title": "Six's Legacy",
     "url": "https://www.goodreads.com/book/show/11237412-six-s-legacy",
     "year_published": 2011
 }

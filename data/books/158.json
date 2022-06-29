@@ -1,8 +1,7 @@
 {
-    "author_name": "Tammi Sauer",
+    "author": "Tammi Sauer",
     "base_id": 158,
-    "book_description": "One day, you'll be looking out your window when something wonderful comes your way\u2026 and you will want to keep him.When a little boy meets a stranded alien child, the two instantly strike up a fabulous friendship. They go to school, explore the neighborhood, and have lots of fun. But at bedtime, the alien suddenly grows very, very sad. Can the boy figure out what his new buddy needs most of all? This funny, heartwarming story proves that friends and family are the most important things in the universe . . . no matter who or where you are.An NPR Best Book of 2015",
-    "book_title": "Your Alien",
+    "description": "One day, you'll be looking out your window when something wonderful comes your way\u2026 and you will want to keep him.When a little boy meets a stranded alien child, the two instantly strike up a fabulous friendship. They go to school, explore the neighborhood, and have lots of fun. But at bedtime, the alien suddenly grows very, very sad. Can the boy figure out what his new buddy needs most of all? This funny, heartwarming story proves that friends and family are the most important things in the universe . . . no matter who or where you are.An NPR Best Book of 2015",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "158_1"
+            "stock_id": "158_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "158_2"
+            "stock_id": "158_2"
         }
     ],
     "metrics": {
         "rating_votes": 743,
         "score": 3.91
     },
-    "original_book_title": "Your Alien",
     "pages": 915,
+    "title": "Your Alien",
     "url": "https://www.goodreads.com/book/show/24612805-your-alien",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 94,
-    "book_description": "Livia is a Vistan princess who is to be married to an ambassador from a neighboring galaxy--a brutal man, many years her senior. She knows that the one thing he values in her is her virginity, and in a last-ditch effort to escape the fate her father has decreed for her, she sets out to seduce the first man she can find. Adron Quiakides was once a fierce League assassin. Now he lives in constant pain from wounds suffered years earlier at the hands of a madman. When Livia approaches him in a darkened bar, he willingly falls for her seduction. But when he feels the warmth of her healing touch he knows that he can't let her go. With her in his arms, he is free of pain, both body and soul.FIRE & ICE - Originally published in a stand alone ebook in 1998. Currently available in the OUT OF THIS WORLD anthology that features all the short stories Sherri wrote for Penguin.",
-    "book_title": "Fire and Ice",
+    "description": "Livia is a Vistan princess who is to be married to an ambassador from a neighboring galaxy--a brutal man, many years her senior. She knows that the one thing he values in her is her virginity, and in a last-ditch effort to escape the fate her father has decreed for her, she sets out to seduce the first man she can find. Adron Quiakides was once a fierce League assassin. Now he lives in constant pain from wounds suffered years earlier at the hands of a madman. When Livia approaches him in a darkened bar, he willingly falls for her seduction. But when he feels the warmth of her healing touch he knows that he can't let her go. With her in his arms, he is free of pain, both body and soul.FIRE & ICE - Originally published in a stand alone ebook in 1998. Currently available in the OUT OF THIS WORLD anthology that features all the short stories Sherri wrote for Penguin.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "94_1"
+            "stock_id": "94_1"
         },
         {
             "status": "available",
-            "stock_number": "94_2"
+            "stock_id": "94_2"
         }
     ],
     "metrics": {
         "rating_votes": 3243,
         "score": 4.38
     },
-    "original_book_title": "Fire and Ice",
     "pages": 1340,
+    "title": "Fire and Ice",
     "url": "https://www.goodreads.com/book/show/2789282-fire-and-ice",
     "year_published": 2001
 }

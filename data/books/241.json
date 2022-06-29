@@ -1,8 +1,7 @@
 {
-    "author_name": "Mira Grant",
+    "author": "Mira Grant",
     "base_id": 241,
-    "book_description": "An original young adult novel of the Alien universeOlivia and her twin sister Viola have been dragged around the universe for as long as they can remember. Their parents, both xenobiologists, are always in high demand for their research into obscure alien biology.Just settled on a new colony world, they discover an alien threat unlike anything they\u2019ve ever seen. And suddenly the sisters\u2019 world is ripped apart.On the run from terrifying aliens, Olivia\u2019s knowledge of xenobiology and determination to protect her sister are her only weapons as the colony collapses into chaos. But then a shocking family secret bursts open\u2014one that\u2019s as horrifying to Olivia as the aliens surrounding them.The creatures infiltrate the rich wildlife on this virgin colony world\u2014and quickly start adapting. Olivia\u2019s going to have to adapt, too, if she\u2019s going to survive...An Imprint Book",
-    "book_title": "Alien: Echo",
+    "description": "An original young adult novel of the Alien universeOlivia and her twin sister Viola have been dragged around the universe for as long as they can remember. Their parents, both xenobiologists, are always in high demand for their research into obscure alien biology.Just settled on a new colony world, they discover an alien threat unlike anything they\u2019ve ever seen. And suddenly the sisters\u2019 world is ripped apart.On the run from terrifying aliens, Olivia\u2019s knowledge of xenobiology and determination to protect her sister are her only weapons as the colony collapses into chaos. But then a shocking family secret bursts open\u2014one that\u2019s as horrifying to Olivia as the aliens surrounding them.The creatures infiltrate the rich wildlife on this virgin colony world\u2014and quickly start adapting. Olivia\u2019s going to have to adapt, too, if she\u2019s going to survive...An Imprint Book",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "241_1"
+            "stock_id": "241_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "241_2"
+            "stock_id": "241_2"
         }
     ],
     "metrics": {
         "rating_votes": 966,
         "score": 3.81
     },
-    "original_book_title": "\n1250306302\n(ISBN13: 9781250306302)\n",
     "pages": 1357,
+    "title": "Alien: Echo",
     "url": "https://www.goodreads.com/book/show/40776737-alien",
     "year_published": 2019
 }

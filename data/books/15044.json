@@ -1,8 +1,7 @@
 {
-    "author_name": "Stephen King",
+    "author": "Stephen King",
     "base_id": 15044,
-    "book_description": "On an entirely normal, beautiful fall day in Chester\u2019s Mill, Maine, the town is inexplicably and suddenly sealed off from the rest of the world by an invisible force field. Planes crash into it and fall from the sky in flaming wreckage, a gardener\u2019s hand is severed as \u201cthe dome\u201d comes down on it, people running errands in the neighboring town are divided from their families, and cars explode on impact. No one can fathom what this barrier is, where it came from, and when\u2014or if\u2014it will go away.Dale Barbara, Iraq vet and now a short-order cook, finds himself teamed with a few intrepid citizens\u2014town newspaper owner Julia Shumway, a physician\u2019s assistant at the hospital, a selectwoman, and three brave kids. Against them stands Big Jim Rennie, a politician who will stop at nothing\u2014even murder\u2014to hold the reins of power, and his son, who is keeping a horrible secret in a dark pantry. But their main adversary is the Dome itself. Because time isn\u2019t just short. It\u2019s running out.source: stephenking.com",
-    "book_title": "Under the Dome",
+    "description": "On an entirely normal, beautiful fall day in Chester\u2019s Mill, Maine, the town is inexplicably and suddenly sealed off from the rest of the world by an invisible force field. Planes crash into it and fall from the sky in flaming wreckage, a gardener\u2019s hand is severed as \u201cthe dome\u201d comes down on it, people running errands in the neighboring town are divided from their families, and cars explode on impact. No one can fathom what this barrier is, where it came from, and when\u2014or if\u2014it will go away.Dale Barbara, Iraq vet and now a short-order cook, finds himself teamed with a few intrepid citizens\u2014town newspaper owner Julia Shumway, a physician\u2019s assistant at the hospital, a selectwoman, and three brave kids. Against them stands Big Jim Rennie, a politician who will stop at nothing\u2014even murder\u2014to hold the reins of power, and his son, who is keeping a horrible secret in a dark pantry. But their main adversary is the Dome itself. Because time isn\u2019t just short. It\u2019s running out.source: stephenking.com",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "15044_1"
+            "stock_id": "15044_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "15044_2"
+            "stock_id": "15044_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "15044_3"
+            "stock_id": "15044_3"
         },
         {
             "status": "available",
-            "stock_number": "15044_4"
+            "stock_id": "15044_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "15044_5"
+            "stock_id": "15044_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "15044_6"
+            "stock_id": "15044_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "15044_7"
+            "stock_id": "15044_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "15044_8"
+            "stock_id": "15044_8"
         },
         {
             "status": "available",
-            "stock_number": "15044_9"
+            "stock_id": "15044_9"
         }
     ],
     "metrics": {
         "rating_votes": 264126,
         "score": 3.91
     },
-    "original_book_title": "Under the Dome",
     "pages": 782,
+    "title": "Under the Dome",
     "url": "https://www.goodreads.com/book/show/6320534-under-the-dome",
     "year_published": 2009
 }

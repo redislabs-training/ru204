@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 267,
-    "book_description": "Bad day? Try mine on for size. Rogue slavers have landed on the ice planet and captured the tribe. The only ones not snatched? Me, a walking human motormouth with no skill except that of incoherent babbling, and Warrek, who's as silent as he is attractive. Two more unlikely people have never been paired together.And now we're supposed to form a rescue team.Saving the others is either going to bring us closer together - or drive us completely apart. I'm pretty sure the feelings I'm having for my alien companion are as unrequited as they are inappropriate, but since we aren't going to make it out alive, what harm is one teeny, tiny kiss?Who knew that one kiss could change everything?",
-    "book_title": "Barbarian's Rescue",
+    "description": "Bad day? Try mine on for size. Rogue slavers have landed on the ice planet and captured the tribe. The only ones not snatched? Me, a walking human motormouth with no skill except that of incoherent babbling, and Warrek, who's as silent as he is attractive. Two more unlikely people have never been paired together.And now we're supposed to form a rescue team.Saving the others is either going to bring us closer together - or drive us completely apart. I'm pretty sure the feelings I'm having for my alien companion are as unrequited as they are inappropriate, but since we aren't going to make it out alive, what harm is one teeny, tiny kiss?Who knew that one kiss could change everything?",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "267_1"
+            "stock_id": "267_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "267_2"
+            "stock_id": "267_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "267_3"
+            "stock_id": "267_3"
         },
         {
             "status": "available",
-            "stock_number": "267_4"
+            "stock_id": "267_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "267_5"
+            "stock_id": "267_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "267_6"
+            "stock_id": "267_6"
         },
         {
             "status": "available",
-            "stock_number": "267_7"
+            "stock_id": "267_7"
         }
     ],
     "metrics": {
         "rating_votes": 3409,
         "score": 4.15
     },
-    "original_book_title": "B072KFN69Q",
     "pages": 611,
+    "title": "Barbarian's Rescue",
     "url": "https://www.goodreads.com/book/show/35423630-barbarian-s-rescue",
     "year_published": 2017
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Naomi Lucas",
+    "author": "Naomi Lucas",
     "base_id": 249,
-    "book_description": "Dommik was a monster, a Monster Hunter, and an alpha. Part of an elite group that dealt with the horrors of the universe. At least that was what everyone at the spaceport was whispering as he walked by. A Cyborg, a hunter, a beast with eyes as dark as the pits of Hell and the stride of a predator.Katalina was a nobody who was intimate with death. It clung to her like a shroud, It followed her like the plague, and infected her like a parasite. When she overheard that the Monster Hunter needed an assistant, she took the job. And when the Cyborg\u2019s eyes caught hers, she knew getting closer to death might just bring her back to life.The Cyborg didn\u2019t scare her. So she followed him and left fate up to chance.Warning: mature readers only, explicit sex scenes.Book one of Cyborg Shifters, same universe as Stranded in the Stars, every book is a standalone that only subtly builds off of the others.",
-    "book_title": "Wild Blood",
+    "description": "Dommik was a monster, a Monster Hunter, and an alpha. Part of an elite group that dealt with the horrors of the universe. At least that was what everyone at the spaceport was whispering as he walked by. A Cyborg, a hunter, a beast with eyes as dark as the pits of Hell and the stride of a predator.Katalina was a nobody who was intimate with death. It clung to her like a shroud, It followed her like the plague, and infected her like a parasite. When she overheard that the Monster Hunter needed an assistant, she took the job. And when the Cyborg\u2019s eyes caught hers, she knew getting closer to death might just bring her back to life.The Cyborg didn\u2019t scare her. So she followed him and left fate up to chance.Warning: mature readers only, explicit sex scenes.Book one of Cyborg Shifters, same universe as Stranded in the Stars, every book is a standalone that only subtly builds off of the others.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "249_1"
+            "stock_id": "249_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "249_2"
+            "stock_id": "249_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "249_3"
+            "stock_id": "249_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "249_4"
+            "stock_id": "249_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "249_5"
+            "stock_id": "249_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "249_6"
+            "stock_id": "249_6"
         },
         {
             "status": "available",
-            "stock_number": "249_7"
+            "stock_id": "249_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "249_8"
+            "stock_id": "249_8"
         }
     ],
     "metrics": {
         "rating_votes": 2310,
         "score": 3.81
     },
-    "original_book_title": "B072BMG5LS",
     "pages": 868,
+    "title": "Wild Blood",
     "url": "https://www.goodreads.com/book/show/35095979-wild-blood",
     "year_published": 2017
 }

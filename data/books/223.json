@@ -1,8 +1,7 @@
 {
-    "author_name": "J.K. Accinni",
+    "author": "J.K. Accinni",
     "base_id": 223,
-    "book_description": "A gripping psychological thriller on the inherent greed and evil of man, dooming the planet.Two hundred years of tender love between man and alien, political downfalls, wanton violence of unspeakable order tempered with laughter, family loyalty and hope is the thrilling vehicle by which Ms Accinni conveys her cautionary tale of the merciless disrespect man gives his planet and the vulnerable creatures entrusted to him. \"Baby\" introduces Netty, a naive teenage farm girl given in marriage to an older brutal opportunist disguised as a successful citizen during the years of Prohibition in Sussex County, New Jersey. After years of enslavement, Netty flees into the night from her rapist and bootlegger husband, traveling back to the farm worked by her parents, where she rescues an unfamiliar damaged creature she finds in a cave in the woods of her childhood, falling in love with the enigmatic alien she names Baby. Together they find happiness and fulfillment despite the changes to Netty's body wrought by the proximity of the unusual creature.Damaged by entry into our atmosphere while pregnant, the confused creature forgets the purpose of his mission, appearing unconcerned with the disappearance of his offspring and savoring the unexpected joy of the love he shares with young Netty.When a handsome Italian stranger comes into Netty's life, complications ensue as she falls in love while trying to hide the bizarre and wondrous changes to her farm and her body. Netty, Baby and Wil strive to conquer obstacles thrown in their path by life, succeeding wildly until the heart-rending and astonishingly brutal climax to their story.This charming, yet brutal story is the prologue to a series that will chill and surprise you as it foretells the selfishly destructive path man has followed since his species evolved. It pulls no punches while allowing Netty and Baby's influence to transcend mortal life as the world dances toward depraved indifference, introducing other characters along the ride that readers will laugh,shed tears with and learn to despise.What lengths will Baby and his offspring go to complete their mission? Will it spell Armageddon for the beleaguered planet with its vulnerable and exploited creatures or will man tip the scales himself, leaving those that love the creatures to salvage the pitiful ruins?",
-    "book_title": "Baby",
+    "description": "A gripping psychological thriller on the inherent greed and evil of man, dooming the planet.Two hundred years of tender love between man and alien, political downfalls, wanton violence of unspeakable order tempered with laughter, family loyalty and hope is the thrilling vehicle by which Ms Accinni conveys her cautionary tale of the merciless disrespect man gives his planet and the vulnerable creatures entrusted to him. \"Baby\" introduces Netty, a naive teenage farm girl given in marriage to an older brutal opportunist disguised as a successful citizen during the years of Prohibition in Sussex County, New Jersey. After years of enslavement, Netty flees into the night from her rapist and bootlegger husband, traveling back to the farm worked by her parents, where she rescues an unfamiliar damaged creature she finds in a cave in the woods of her childhood, falling in love with the enigmatic alien she names Baby. Together they find happiness and fulfillment despite the changes to Netty's body wrought by the proximity of the unusual creature.Damaged by entry into our atmosphere while pregnant, the confused creature forgets the purpose of his mission, appearing unconcerned with the disappearance of his offspring and savoring the unexpected joy of the love he shares with young Netty.When a handsome Italian stranger comes into Netty's life, complications ensue as she falls in love while trying to hide the bizarre and wondrous changes to her farm and her body. Netty, Baby and Wil strive to conquer obstacles thrown in their path by life, succeeding wildly until the heart-rending and astonishingly brutal climax to their story.This charming, yet brutal story is the prologue to a series that will chill and surprise you as it foretells the selfishly destructive path man has followed since his species evolved. It pulls no punches while allowing Netty and Baby's influence to transcend mortal life as the world dances toward depraved indifference, introducing other characters along the ride that readers will laugh,shed tears with and learn to despise.What lengths will Baby and his offspring go to complete their mission? Will it spell Armageddon for the beleaguered planet with its vulnerable and exploited creatures or will man tip the scales himself, leaving those that love the creatures to salvage the pitiful ruins?",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "223_1"
+            "stock_id": "223_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "223_2"
+            "stock_id": "223_2"
         },
         {
             "status": "available",
-            "stock_number": "223_3"
+            "stock_id": "223_3"
         }
     ],
     "metrics": {
         "rating_votes": 859,
         "score": 3.81
     },
-    "original_book_title": "Baby",
     "pages": 274,
+    "title": "Baby",
     "url": "https://www.goodreads.com/book/show/15992857-baby",
     "year_published": 2012
 }

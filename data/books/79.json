@@ -1,8 +1,7 @@
 {
-    "author_name": "GraceGoodwin",
+    "author": "GraceGoodwin",
     "base_id": 79,
-    "book_description": "After being set up and found guilty of a crime she didn\u2019t commit, Jessica volunteers for the Interstellar Bride Program to avoid a lengthy prison sentence. She is assigned to a prince, the heir to the throne of the powerful planet Prillon, but her future is left in doubt when the match is rejected by Prillon\u2019s current ruler.When his own father seeks to banish him and deny him his right to a mate, Prince Nial takes matters into his own hands. Accompanied by a battle-tested warrior who volunteers as his second, he sets out for Earth to take what is his, but upon his arrival he quickly discovers that the same horrifying enemies who once took him captive now hunt his mate as well.Though believing she has been rejected by a mate she never even met stings more deeply than she would like to admit, Jessica does her best to focus on the dangerous task of bringing down the people who framed her. But before long, her world is turned upside down all over again when two huge, handsome aliens save her life and then inform her that she is their matched mate and they have come to Earth to claim her.Jessica is far from ready to meekly submit, but she soon learns that her new mates expect to be obeyed and defiance will result in a painful, embarrassing spanking on her bare bottom. Despite her fury at such treatment, however, she cannot hide her arousal as she is stripped bare and thoroughly mastered by the fierce, dominant warriors. But when Prince Nial is forced to defend his birthright, will Jessica do what must be done to aid him, even if that means allowing his entire world to bear witness as she is taken by her mates?Publisher\u2019s Note: Taken by Her Mates is a stand-alone book set in the same world as Assigned a Mate, Mated to the Warriors, and Claimed by Her Mates. It is an erotic romance novel that includes spankings, sexual scenes, elements of BDSM, and more. If such material offends you, please don\u2019t buy this book.",
-    "book_title": "Taken By Her Mates",
+    "description": "After being set up and found guilty of a crime she didn\u2019t commit, Jessica volunteers for the Interstellar Bride Program to avoid a lengthy prison sentence. She is assigned to a prince, the heir to the throne of the powerful planet Prillon, but her future is left in doubt when the match is rejected by Prillon\u2019s current ruler.When his own father seeks to banish him and deny him his right to a mate, Prince Nial takes matters into his own hands. Accompanied by a battle-tested warrior who volunteers as his second, he sets out for Earth to take what is his, but upon his arrival he quickly discovers that the same horrifying enemies who once took him captive now hunt his mate as well.Though believing she has been rejected by a mate she never even met stings more deeply than she would like to admit, Jessica does her best to focus on the dangerous task of bringing down the people who framed her. But before long, her world is turned upside down all over again when two huge, handsome aliens save her life and then inform her that she is their matched mate and they have come to Earth to claim her.Jessica is far from ready to meekly submit, but she soon learns that her new mates expect to be obeyed and defiance will result in a painful, embarrassing spanking on her bare bottom. Despite her fury at such treatment, however, she cannot hide her arousal as she is stripped bare and thoroughly mastered by the fierce, dominant warriors. But when Prince Nial is forced to defend his birthright, will Jessica do what must be done to aid him, even if that means allowing his entire world to bear witness as she is taken by her mates?Publisher\u2019s Note: Taken by Her Mates is a stand-alone book set in the same world as Assigned a Mate, Mated to the Warriors, and Claimed by Her Mates. It is an erotic romance novel that includes spankings, sexual scenes, elements of BDSM, and more. If such material offends you, please don\u2019t buy this book.",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "79_1"
+            "stock_id": "79_1"
         },
         {
             "status": "available",
-            "stock_number": "79_2"
+            "stock_id": "79_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "79_3"
+            "stock_id": "79_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "79_4"
+            "stock_id": "79_4"
         }
     ],
     "metrics": {
         "rating_votes": 1434,
         "score": 4.06
     },
-    "original_book_title": "Taken By Her Mates (Interstellar Brides Program, #4)",
     "pages": 366,
+    "title": "Taken By Her Mates",
     "url": "https://www.goodreads.com/book/show/30745522-taken-by-her-mates",
     "year_published": 2016
 }

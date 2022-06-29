@@ -1,8 +1,7 @@
 {
-    "author_name": "John Christopher",
+    "author": "John Christopher",
     "base_id": 897,
-    "book_description": "Long ago, the Tripods\u2014huge, three-legged machines\u2014descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives.But for a brief time in each person's life\u2014in childhood\u2014he is not a slave. For Will, his time of freedom is about to end\u2014unless he can escape to the White Mountains, where the possibility of freedom still exists.",
-    "book_title": "The White Mountains",
+    "description": "Long ago, the Tripods\u2014huge, three-legged machines\u2014descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives.But for a brief time in each person's life\u2014in childhood\u2014he is not a slave. For Will, his time of freedom is about to end\u2014unless he can escape to the White Mountains, where the possibility of freedom still exists.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "897_1"
+            "stock_id": "897_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "897_2"
+            "stock_id": "897_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "897_3"
+            "stock_id": "897_3"
         },
         {
             "status": "available",
-            "stock_number": "897_4"
+            "stock_id": "897_4"
         },
         {
             "status": "available",
-            "stock_number": "897_5"
+            "stock_id": "897_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "897_6"
+            "stock_id": "897_6"
         },
         {
             "status": "available",
-            "stock_number": "897_7"
+            "stock_id": "897_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "897_8"
+            "stock_id": "897_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "897_9"
+            "stock_id": "897_9"
         }
     ],
     "metrics": {
         "rating_votes": 11872,
         "score": 3.94
     },
-    "original_book_title": "The White Mountains",
     "pages": 718,
+    "title": "The White Mountains",
     "url": "https://www.goodreads.com/book/show/64316.The_White_Mountains",
     "year_published": 1967
 }

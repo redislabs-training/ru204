@@ -1,8 +1,7 @@
 {
-    "author_name": "Ursula K. Le Guin",
+    "author": "Ursula K. Le Guin",
     "base_id": 9623,
-    "book_description": "A groundbreaking work of science fiction, The Left Hand of Darkness tells the story of a lone human emissary to Winter, an alien world whose inhabitants can choose - and change - their gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters.Embracing the aspects of psychology, society, and human emotion on an alien world, The Left Hand of Darkness stands as a landmark achievement in the annals of intellectual science fiction.",
-    "book_title": "The Left Hand of Darkness",
+    "description": "A groundbreaking work of science fiction, The Left Hand of Darkness tells the story of a lone human emissary to Winter, an alien world whose inhabitants can choose - and change - their gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters.Embracing the aspects of psychology, society, and human emotion on an alien world, The Left Hand of Darkness stands as a landmark achievement in the annals of intellectual science fiction.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "9623_1"
+            "stock_id": "9623_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "9623_2"
+            "stock_id": "9623_2"
         },
         {
             "status": "available",
-            "stock_number": "9623_3"
+            "stock_id": "9623_3"
         },
         {
             "status": "available",
-            "stock_number": "9623_4"
+            "stock_id": "9623_4"
         }
     ],
     "metrics": {
         "rating_votes": 125384,
         "score": 4.08
     },
-    "original_book_title": "The Left Hand of Darkness",
     "pages": 797,
+    "title": "The Left Hand of Darkness",
     "url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
     "year_published": 1969
 }

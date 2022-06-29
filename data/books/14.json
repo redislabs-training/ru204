@@ -1,8 +1,7 @@
 {
-    "author_name": "Angela Castle",
+    "author": "Angela Castle",
     "base_id": 14,
-    "book_description": "Can things get any worse for Daisy Putter? Abducted and transported across the galaxy, all she can do is wait to be sold by greedy aliens. Her luck changes when she's rescued by a team of red-skinned Demos soldiers from Galafrax. Daisy is thrust into a world of quadruple sexiness she finds hard to resist, especially the Commander and his brothers.Commanding officers Loz and his brothers Tos, Cir, and Bex, are captivated by the white-haired beauty now on their ship, and quickly fall under her alluring spell. A fiery passion flairs between them, and they know she belongs to them.When powerful ruling quads set their sights on Daisy, and try to steal her from her chosen men, the Stormstrong brothers must use every trick they know to save not only their Daisy, but the whole city from a corrupt power.",
-    "book_title": "Precious Starlight",
+    "description": "Can things get any worse for Daisy Putter? Abducted and transported across the galaxy, all she can do is wait to be sold by greedy aliens. Her luck changes when she's rescued by a team of red-skinned Demos soldiers from Galafrax. Daisy is thrust into a world of quadruple sexiness she finds hard to resist, especially the Commander and his brothers.Commanding officers Loz and his brothers Tos, Cir, and Bex, are captivated by the white-haired beauty now on their ship, and quickly fall under her alluring spell. A fiery passion flairs between them, and they know she belongs to them.When powerful ruling quads set their sights on Daisy, and try to steal her from her chosen men, the Stormstrong brothers must use every trick they know to save not only their Daisy, but the whole city from a corrupt power.",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "14_1"
+            "stock_id": "14_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "14_2"
+            "stock_id": "14_2"
         },
         {
             "status": "available",
-            "stock_number": "14_3"
+            "stock_id": "14_3"
         },
         {
             "status": "available",
-            "stock_number": "14_4"
+            "stock_id": "14_4"
         },
         {
             "status": "available",
-            "stock_number": "14_5"
+            "stock_id": "14_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "14_6"
+            "stock_id": "14_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "14_7"
+            "stock_id": "14_7"
         }
     ],
     "metrics": {
         "rating_votes": 474,
         "score": 3.83
     },
-    "original_book_title": "B00O2BOO3C",
     "pages": 397,
+    "title": "Precious Starlight",
     "url": "https://www.goodreads.com/book/show/23342158-precious-starlight",
     "year_published": 2014
 }

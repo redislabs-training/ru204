@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 155,
-    "book_description": "In this explosive one-hundred-page prequel companion novella, uncover the truth behind Number Five\u2019s unknown history with the Mogadorians.This sequel to I Am Number Four: The Lost Files: Five\u2019s Legacy finds Number Five entering the ranks of the Mogadorian army. The Mogs have convinced him that they will be the victor in their war for Earth, and Five decides he would rather be on the winning side. Realizing that the only thing that matters is his survival, Five allies himself with the sworn enemies of the Lorien and pledges to help the Mogs take down the very people he was meant to protect. Is he too far gone to be saved? Discover how Five became one of Earth\u2019s and Lorien\u2019s most dangerous adversaries and decide for yourself.",
-    "book_title": "Five's Betrayal",
+    "description": "In this explosive one-hundred-page prequel companion novella, uncover the truth behind Number Five\u2019s unknown history with the Mogadorians.This sequel to I Am Number Four: The Lost Files: Five\u2019s Legacy finds Number Five entering the ranks of the Mogadorian army. The Mogs have convinced him that they will be the victor in their war for Earth, and Five decides he would rather be on the winning side. Realizing that the only thing that matters is his survival, Five allies himself with the sworn enemies of the Lorien and pledges to help the Mogs take down the very people he was meant to protect. Is he too far gone to be saved? Discover how Five became one of Earth\u2019s and Lorien\u2019s most dangerous adversaries and decide for yourself.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "155_1"
+            "stock_id": "155_1"
         },
         {
             "status": "available",
-            "stock_number": "155_2"
+            "stock_id": "155_2"
         }
     ],
     "metrics": {
         "rating_votes": 3303,
         "score": 4.04
     },
-    "original_book_title": "Five's Betrayal",
     "pages": 1211,
+    "title": "Five's Betrayal",
     "url": "https://www.goodreads.com/book/show/18738863-five-s-betrayal",
     "year_published": 2014
 }

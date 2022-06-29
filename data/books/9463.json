@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 9463,
-    "book_description": "No one is like Daemon Black.When he set out to prove his feelings for me, he wasn\u2019t fooling around. Doubting him isn\u2019t something I\u2019ll do again, and now that we\u2019ve made it through the rough patches, well\u2026 There\u2019s a lot of spontaneous combustion going on.But even he can\u2019t protect his family from the danger of trying to free those they love.After everything, I\u2019m no longer the same Katy. I\u2019m different\u2026 And I\u2019m not sure what that will mean in the end. When each step we take in discovering the truth puts us in the path of the secret organization responsible for torturing and testing hybrids, the more I realize there is no end to what I\u2019m capable. The death of someone close still lingers, help comes from the most unlikely source, and friends will become the deadliest of enemies, but we won\u2019t turn back. Even if the outcome will shatter our worlds forever.Together we\u2019re stronger\u2026 and they know it.",
-    "book_title": "Opal",
+    "description": "No one is like Daemon Black.When he set out to prove his feelings for me, he wasn\u2019t fooling around. Doubting him isn\u2019t something I\u2019ll do again, and now that we\u2019ve made it through the rough patches, well\u2026 There\u2019s a lot of spontaneous combustion going on.But even he can\u2019t protect his family from the danger of trying to free those they love.After everything, I\u2019m no longer the same Katy. I\u2019m different\u2026 And I\u2019m not sure what that will mean in the end. When each step we take in discovering the truth puts us in the path of the secret organization responsible for torturing and testing hybrids, the more I realize there is no end to what I\u2019m capable. The death of someone close still lingers, help comes from the most unlikely source, and friends will become the deadliest of enemies, but we won\u2019t turn back. Even if the outcome will shatter our worlds forever.Together we\u2019re stronger\u2026 and they know it.",
     "editions": [
         "None"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "9463_1"
+            "stock_id": "9463_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "9463_2"
+            "stock_id": "9463_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "9463_3"
+            "stock_id": "9463_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "9463_4"
+            "stock_id": "9463_4"
         },
         {
             "status": "available",
-            "stock_number": "9463_5"
+            "stock_id": "9463_5"
         },
         {
             "status": "available",
-            "stock_number": "9463_6"
+            "stock_id": "9463_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "9463_7"
+            "stock_id": "9463_7"
         },
         {
             "status": "available",
-            "stock_number": "9463_8"
+            "stock_id": "9463_8"
         }
     ],
     "metrics": {
         "rating_votes": 129006,
         "score": 4.27
     },
-    "original_book_title": "Opal",
     "pages": 945,
+    "title": "Opal",
     "url": "https://www.goodreads.com/book/show/13362536-opal",
     "year_published": 2012
 }

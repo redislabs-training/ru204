@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Leckie",
+    "author": "Ann Leckie",
     "base_id": 3415,
-    "book_description": "Seeking atonement for past crimes, Breq takes on a mission as captain of a troublesome new crew of Radchai soldiers, in the sequel to Ann Leckie's NYT bestselling, award-winning Ancillary Justice. A must read for fans of Ursula K. Le Guin and James S. A. Corey.Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she has only a single body and serves the emperor.With a new ship and a troublesome crew, Breq is ordered to go to the only place in the galaxy she would agree to go: to Athoek Station to protect the family of a lieutenant she once knew - a lieutenant she murdered in cold blood.Ann Leckie's Imperial Radch trilogy has become one of the new classics of science fiction. Beautifully written and forward thinking, it does what good science fiction does best, taking readers to bold new worlds with plenty explosions along the way.",
-    "book_title": "Ancillary Sword",
+    "description": "Seeking atonement for past crimes, Breq takes on a mission as captain of a troublesome new crew of Radchai soldiers, in the sequel to Ann Leckie's NYT bestselling, award-winning Ancillary Justice. A must read for fans of Ursula K. Le Guin and James S. A. Corey.Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she has only a single body and serves the emperor.With a new ship and a troublesome crew, Breq is ordered to go to the only place in the galaxy she would agree to go: to Athoek Station to protect the family of a lieutenant she once knew - a lieutenant she murdered in cold blood.Ann Leckie's Imperial Radch trilogy has become one of the new classics of science fiction. Beautifully written and forward thinking, it does what good science fiction does best, taking readers to bold new worlds with plenty explosions along the way.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "3415_1"
+            "stock_id": "3415_1"
         },
         {
             "status": "available",
-            "stock_number": "3415_2"
+            "stock_id": "3415_2"
         }
     ],
     "metrics": {
         "rating_votes": 42798,
         "score": 4.06
     },
-    "original_book_title": "Ancillary Sword",
     "pages": 1189,
+    "title": "Ancillary Sword",
     "url": "https://www.goodreads.com/book/show/20706284-ancillary-sword",
     "year_published": 2014
 }

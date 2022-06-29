@@ -1,8 +1,7 @@
 {
-    "author_name": "John W. Campbell Jr.",
+    "author": "John W. Campbell Jr.",
     "base_id": 712,
-    "book_description": "\"Who Goes There?\" The novella that formed the basis of \"The Thing\" is the John W. Campbell classic about an antarctic research camp that discovers and thaws the ancient, frozen body of a crash-landed alien. The creature revives with terrifying results, shape-shifting to assume the exact form of animal and man, alike. Paranoia ensues as a band of frightened men work to discern friend from foe, and destroy the menace before it challenges all of humanity! The story, hailed as \"one of the finest science fiction novellas ever written\" by the SF Writers of America, is best known to fans as THE THING, as it was the basis of Howard Hawks' The Thing From Another World in 1951, and John Carpenter's The Thing in 1982. With a new Introduction by William F. Nolan, author of Logan's Run, and his never-before-published, suspenseful Screen Treatment written for Universal Studios in 1978, this is a must-have edition for scifi and horror fans!",
-    "book_title": "Who Goes There",
+    "description": "\"Who Goes There?\" The novella that formed the basis of \"The Thing\" is the John W. Campbell classic about an antarctic research camp that discovers and thaws the ancient, frozen body of a crash-landed alien. The creature revives with terrifying results, shape-shifting to assume the exact form of animal and man, alike. Paranoia ensues as a band of frightened men work to discern friend from foe, and destroy the menace before it challenges all of humanity! The story, hailed as \"one of the finest science fiction novellas ever written\" by the SF Writers of America, is best known to fans as THE THING, as it was the basis of Howard Hawks' The Thing From Another World in 1951, and John Carpenter's The Thing in 1982. With a new Introduction by William F. Nolan, author of Logan's Run, and his never-before-published, suspenseful Screen Treatment written for Universal Studios in 1978, this is a must-have edition for scifi and horror fans!",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "712_1"
+            "stock_id": "712_1"
         }
     ],
     "metrics": {
         "rating_votes": 6947,
         "score": 3.86
     },
-    "original_book_title": "Who Goes There?",
     "pages": 776,
+    "title": "Who Goes There",
     "url": "https://www.goodreads.com/book/show/6468870-who-goes-there",
     "year_published": 1938
 }

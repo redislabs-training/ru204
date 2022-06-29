@@ -1,8 +1,7 @@
 {
-    "author_name": "Eve Langlais",
+    "author": "Eve Langlais",
     "base_id": 354,
-    "book_description": "Machines aren\u2019t supposed to feel, but this cyborg can\u2019t help falling in love.Assigned as a specimen collector for a captured cyborg, Chloe is intrigued by the machine disguised as a man. Kidnapped during his daring escape, he shows her that despite the chip in his brain, his humanity is not completely lost.Formerly known as unit X109GI, Joe is on a quest to discover his origin. While he doesn\u2019t find the answers he\u2019s looking for, he does discover that affection isn't just for humans. But when it comes to a battle between logic and love, which side will the cybernetic organism\u2014once a man\u2014choose?Evaluating his feelings will have to wait though because the military isn\u2019t done with Joe. But their threats against him pale in comparison before the shocking discovery of project C791, the revelation of which stuns the rebel cyborgs\u2014and ignites a fury for vengeance.",
-    "book_title": "C791",
+    "description": "Machines aren\u2019t supposed to feel, but this cyborg can\u2019t help falling in love.Assigned as a specimen collector for a captured cyborg, Chloe is intrigued by the machine disguised as a man. Kidnapped during his daring escape, he shows her that despite the chip in his brain, his humanity is not completely lost.Formerly known as unit X109GI, Joe is on a quest to discover his origin. While he doesn\u2019t find the answers he\u2019s looking for, he does discover that affection isn't just for humans. But when it comes to a battle between logic and love, which side will the cybernetic organism\u2014once a man\u2014choose?Evaluating his feelings will have to wait though because the military isn\u2019t done with Joe. But their threats against him pale in comparison before the shocking discovery of project C791, the revelation of which stuns the rebel cyborgs\u2014and ignites a fury for vengeance.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "354_1"
+            "stock_id": "354_1"
         }
     ],
     "metrics": {
         "rating_votes": 4056,
         "score": 3.74
     },
-    "original_book_title": "C791 (Cyborgs; More Than Machines, #1)",
     "pages": 1175,
+    "title": "C791",
     "url": "https://www.goodreads.com/book/show/13458280-c791",
     "year_published": 2012
 }

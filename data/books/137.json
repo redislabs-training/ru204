@@ -1,8 +1,7 @@
 {
-    "author_name": "Mychal Daniels",
+    "author": "Mychal Daniels",
     "base_id": 137,
-    "book_description": "Curvy, intelligent and focused, Kyra Simmons has her eye on the prize. She\u2019s locked her sights on becoming the top technical engineer for the most prestigious space program back on Earth. That is, until her life and plans are turned upside down in an instant on board a maintenance Space Station.Stranded on the now failing Space station, Kyra needs a miracle to survive. She has no idea that the \u2018foreign\u2019 astronauts who show up to rescue her are out of this world\u2014literally.Warrior Lord Tordin, Crown Prince of Olodia, knows he\u2019s outside of the Mandates of the Intergalactic Alliance when he intercedes to rescue the survivors of the Earth space station. But there\u2019s something or someone pulling him in.He\u2019s not prepared for what he finds in the unassuming Earth female. Try as he might to stay away, the pull grows stronger and stronger to be with her. His mission depends on his ability to stay focused and be prepared, but that\u2019s almost impossible with Kyra in his thoughts and dreams.On the alien mother ship speeding away from Earth forever, Kyra\u2019s biggest problem is not getting back to Earth; it\u2019s how not to fall for this alien Warrior Lord who's the actual man of her dreams.Can she find a way to realize her dreams of power and recognition now that she\u2019s been rescued by Tordin?",
-    "book_title": "Rescued by Tordin",
+    "description": "Curvy, intelligent and focused, Kyra Simmons has her eye on the prize. She\u2019s locked her sights on becoming the top technical engineer for the most prestigious space program back on Earth. That is, until her life and plans are turned upside down in an instant on board a maintenance Space Station.Stranded on the now failing Space station, Kyra needs a miracle to survive. She has no idea that the \u2018foreign\u2019 astronauts who show up to rescue her are out of this world\u2014literally.Warrior Lord Tordin, Crown Prince of Olodia, knows he\u2019s outside of the Mandates of the Intergalactic Alliance when he intercedes to rescue the survivors of the Earth space station. But there\u2019s something or someone pulling him in.He\u2019s not prepared for what he finds in the unassuming Earth female. Try as he might to stay away, the pull grows stronger and stronger to be with her. His mission depends on his ability to stay focused and be prepared, but that\u2019s almost impossible with Kyra in his thoughts and dreams.On the alien mother ship speeding away from Earth forever, Kyra\u2019s biggest problem is not getting back to Earth; it\u2019s how not to fall for this alien Warrior Lord who's the actual man of her dreams.Can she find a way to realize her dreams of power and recognition now that she\u2019s been rescued by Tordin?",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "137_1"
+            "stock_id": "137_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "137_2"
+            "stock_id": "137_2"
         }
     ],
     "metrics": {
         "rating_votes": 1237,
         "score": 3.73
     },
-    "original_book_title": "B0157GPPEM",
     "pages": 1131,
+    "title": "Rescued by Tordin",
     "url": "https://www.goodreads.com/book/show/26367697-rescued-by-tordin",
     "year_published": 2015
 }

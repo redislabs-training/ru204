@@ -1,8 +1,7 @@
 {
-    "author_name": "Jaymin Eve",
+    "author": "Jaymin Eve",
     "base_id": 290,
-    "book_description": "Callie has spent her life moving towns every four months in a bid to \u201cstay off the grid.\" Her only family is a paranoid mother who believes there\u2019s a race of supernatural beings out there actively searching for Callie. A race who could destroy Earth if they get their hands on her. Callie\u2019s never seen one thing to suggest there\u2019s any truth to mom\u2019s insane ramblings, and at the age of eighteen now, she\u2019s grown numb to her reality \u2013 she\u2019s never going to have a normal life.That is, until they move to New Orleans. The moment Callie steps foot into the Quarter, hears the jazz music, feels the soul of the city, the cold shell she\u2019s built to protect herself starts to thaw. Then they come for her. Turns out her mom\u2019s stories are quite real, and whatever happens, Callie\u2019s empty world will never be the same again.",
-    "book_title": "House of Imperial",
+    "description": "Callie has spent her life moving towns every four months in a bid to \u201cstay off the grid.\" Her only family is a paranoid mother who believes there\u2019s a race of supernatural beings out there actively searching for Callie. A race who could destroy Earth if they get their hands on her. Callie\u2019s never seen one thing to suggest there\u2019s any truth to mom\u2019s insane ramblings, and at the age of eighteen now, she\u2019s grown numb to her reality \u2013 she\u2019s never going to have a normal life.That is, until they move to New Orleans. The moment Callie steps foot into the Quarter, hears the jazz music, feels the soul of the city, the cold shell she\u2019s built to protect herself starts to thaw. Then they come for her. Turns out her mom\u2019s stories are quite real, and whatever happens, Callie\u2019s empty world will never be the same again.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "290_1"
+            "stock_id": "290_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "290_2"
+            "stock_id": "290_2"
         },
         {
             "status": "available",
-            "stock_number": "290_3"
+            "stock_id": "290_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "290_4"
+            "stock_id": "290_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "290_5"
+            "stock_id": "290_5"
         },
         {
             "status": "available",
-            "stock_number": "290_6"
+            "stock_id": "290_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "290_7"
+            "stock_id": "290_7"
         },
         {
             "status": "available",
-            "stock_number": "290_8"
+            "stock_id": "290_8"
         },
         {
             "status": "maintenance",
-            "stock_number": "290_9"
+            "stock_id": "290_9"
         }
     ],
     "metrics": {
         "rating_votes": 3975,
         "score": 4.18
     },
-    "original_book_title": "House of Imperial",
     "pages": 608,
+    "title": "House of Imperial",
     "url": "https://www.goodreads.com/book/show/40128630-house-of-imperial",
     "year_published": 2018
 }

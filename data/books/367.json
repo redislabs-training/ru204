@@ -1,8 +1,7 @@
 {
-    "author_name": "Jon Agee",
+    "author": "Jon Agee",
     "base_id": 367,
-    "book_description": "In this sneaky, silly picture book for fans of Oliver Jeffers and Jon Klassen, an intrepid but not so clever space explorer is certain he s found the only living thing on MarsA young astronaut is absolutely sure there is life to be found on Mars. He sets off on a solitary mission, determined to prove the naysayers wrong. But when he arrives, equipped with a package of cupcakes as a gift, he sees nothing but a nearly barren planet. Finally, he spies a single flower and packs it away to take back to Earth as proof that there is indeed life on Mars. But as he settles in for the journey home, he cracks open his cupcakes only to discover that someone has eaten them all!Readers will love being in on the secret: Unbeknownst to the explorer, a Martian has been wandering through the illustrations the whole time and he got himself a delicious snack along the way.",
-    "book_title": "Life on Mars",
+    "description": "In this sneaky, silly picture book for fans of Oliver Jeffers and Jon Klassen, an intrepid but not so clever space explorer is certain he s found the only living thing on MarsA young astronaut is absolutely sure there is life to be found on Mars. He sets off on a solitary mission, determined to prove the naysayers wrong. But when he arrives, equipped with a package of cupcakes as a gift, he sees nothing but a nearly barren planet. Finally, he spies a single flower and packs it away to take back to Earth as proof that there is indeed life on Mars. But as he settles in for the journey home, he cracks open his cupcakes only to discover that someone has eaten them all!Readers will love being in on the secret: Unbeknownst to the explorer, a Martian has been wandering through the illustrations the whole time and he got himself a delicious snack along the way.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "367_1"
+            "stock_id": "367_1"
         },
         {
             "status": "available",
-            "stock_number": "367_2"
+            "stock_id": "367_2"
         },
         {
             "status": "available",
-            "stock_number": "367_3"
+            "stock_id": "367_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "367_4"
+            "stock_id": "367_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "367_5"
+            "stock_id": "367_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "367_6"
+            "stock_id": "367_6"
         }
     ],
     "metrics": {
         "rating_votes": 1918,
         "score": 3.96
     },
-    "original_book_title": "Life on Mars",
     "pages": 801,
+    "title": "Life on Mars",
     "url": "https://www.goodreads.com/book/show/30422487-life-on-mars",
     "year_published": 2017
 }

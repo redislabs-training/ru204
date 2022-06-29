@@ -1,8 +1,7 @@
 {
-    "author_name": "Linnea Sinclair",
+    "author": "Linnea Sinclair",
     "base_id": 357,
-    "book_description": "Award-winning author Linnea Sinclair brings her special sizzle to science fiction with this action-packed blend of otherworldly adventure and sexy stellar romance. . . . After a decade of piloting interstellar patrol ships, former captain Chasidah Bergren, onetime pride of the Sixth Fleet, finds herself court-martialed for a crime she didn' t commit-and shipped off to a remote prison planet from which no one ever escapes. But when she kills a brutal guard in an act of self-defense, someone even more dangerous emerges from the shadows.Gabriel Sullivan--alpha mercenary, smuggler, and rogue--is supposed to be dead. Yet now this seductive ghost from Chaz's past is offering her a ticket to freedom--for a price. Someone in the Empire is secretly breeding jukors: vicious and uncontrollable killing machines that have long been outlawed. Gabriel needs Chaz to help him stop the practice before it decimates Imperial space. The mission means putting their lives on the line--but the tensions that heat up between them may be the riskiest part of all.",
-    "book_title": "Gabriel's Ghost",
+    "description": "Award-winning author Linnea Sinclair brings her special sizzle to science fiction with this action-packed blend of otherworldly adventure and sexy stellar romance. . . . After a decade of piloting interstellar patrol ships, former captain Chasidah Bergren, onetime pride of the Sixth Fleet, finds herself court-martialed for a crime she didn' t commit-and shipped off to a remote prison planet from which no one ever escapes. But when she kills a brutal guard in an act of self-defense, someone even more dangerous emerges from the shadows.Gabriel Sullivan--alpha mercenary, smuggler, and rogue--is supposed to be dead. Yet now this seductive ghost from Chaz's past is offering her a ticket to freedom--for a price. Someone in the Empire is secretly breeding jukors: vicious and uncontrollable killing machines that have long been outlawed. Gabriel needs Chaz to help him stop the practice before it decimates Imperial space. The mission means putting their lives on the line--but the tensions that heat up between them may be the riskiest part of all.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "357_1"
+            "stock_id": "357_1"
         },
         {
             "status": "available",
-            "stock_number": "357_2"
+            "stock_id": "357_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "357_3"
+            "stock_id": "357_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "357_4"
+            "stock_id": "357_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "357_5"
+            "stock_id": "357_5"
         }
     ],
     "metrics": {
         "rating_votes": 3663,
         "score": 3.63
     },
-    "original_book_title": "Gabriel's Ghost",
     "pages": 1156,
+    "title": "Gabriel's Ghost",
     "url": "https://www.goodreads.com/book/show/352726.Gabriel_s_Ghost",
     "year_published": 2002
 }

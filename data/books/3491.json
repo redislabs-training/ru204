@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 3491,
-    "book_description": "After a dramatic time jump, the three-time Eisner Award winner for Best Continuing Series continues to evolve, as Hazel begins the most exciting adventure of her life: kindergarten. Meanwhile, her starcrossed family learns hard lessons of their own.Collecting: Saga 31-36",
-    "book_title": "Saga, Vol. 6",
+    "description": "After a dramatic time jump, the three-time Eisner Award winner for Best Continuing Series continues to evolve, as Hazel begins the most exciting adventure of her life: kindergarten. Meanwhile, her starcrossed family learns hard lessons of their own.Collecting: Saga 31-36",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "3491_1"
+            "stock_id": "3491_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "3491_2"
+            "stock_id": "3491_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "3491_3"
+            "stock_id": "3491_3"
         }
     ],
     "metrics": {
         "rating_votes": 43194,
         "score": 4.47
     },
-    "original_book_title": "Saga, Volume Six",
     "pages": 351,
+    "title": "Saga, Vol. 6",
     "url": "https://www.goodreads.com/book/show/28862528-saga-vol-6",
     "year_published": 2016
 }

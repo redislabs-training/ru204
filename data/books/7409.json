@@ -1,8 +1,7 @@
 {
-    "author_name": "Mary Doria Russell",
+    "author": "Mary Doria Russell",
     "base_id": 7409,
-    "book_description": "In 2019, humanity finally finds proof of extraterrestrial life when a listening post in Puerto Rico picks up exquisite singing from a planet that will come to be known as Rakhat. While United Nations diplomats endlessly debate a possible first contact mission, the Society of Jesus quietly organizes an eight-person scientific expedition of its own. What the Jesuits find is a world so beyond comprehension that it will lead them to question what it means to be \"human\".",
-    "book_title": "The Sparrow",
+    "description": "In 2019, humanity finally finds proof of extraterrestrial life when a listening post in Puerto Rico picks up exquisite singing from a planet that will come to be known as Rakhat. While United Nations diplomats endlessly debate a possible first contact mission, the Society of Jesus quietly organizes an eight-person scientific expedition of its own. What the Jesuits find is a world so beyond comprehension that it will lead them to question what it means to be \"human\".",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "7409_1"
+            "stock_id": "7409_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "7409_2"
+            "stock_id": "7409_2"
         }
     ],
     "metrics": {
         "rating_votes": 66205,
         "score": 4.12
     },
-    "original_book_title": "The Sparrow",
     "pages": 1315,
+    "title": "The Sparrow",
     "url": "https://www.goodreads.com/book/show/334176.The_Sparrow",
     "year_published": 1996
 }

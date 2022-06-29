@@ -1,8 +1,7 @@
 {
-    "author_name": "H.G. Wells",
+    "author": "H.G. Wells",
     "base_id": 8237,
-    "book_description": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.Inspiring films, radio dramas, comic-book adaptations, television series and sequels,The War of the Worlds is a prototypical work of science fiction which has influenced every alien story that has come since, and is unsurpassed in its ability to thrill, well over a century since it was first published.",
-    "book_title": "The War of the Worlds",
+    "description": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.Inspiring films, radio dramas, comic-book adaptations, television series and sequels,The War of the Worlds is a prototypical work of science fiction which has influenced every alien story that has come since, and is unsurpassed in its ability to thrill, well over a century since it was first published.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "8237_1"
+            "stock_id": "8237_1"
         }
     ],
     "metrics": {
         "rating_votes": 251747,
         "score": 3.83
     },
-    "original_book_title": "The War of the Worlds",
     "pages": 1271,
+    "title": "The War of the Worlds",
     "url": "https://www.goodreads.com/book/show/8909.The_War_of_the_Worlds",
     "year_published": 1898
 }

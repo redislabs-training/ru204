@@ -1,8 +1,7 @@
 {
-    "author_name": "Alessandra Hazard",
+    "author": "Alessandra Hazard",
     "base_id": 344,
-    "book_description": "A planet at war. Two alphas forced into a political marriage. Attraction that defies all reason and logic\u2026 Or does it? The Kingdom of Pelugia and the Republic of Kadar have been at war for decades. Peace isn\u2019t popular, but the planet can\u2019t survive without it.Forced to marry an enemy prince for the sake of peace, Senator Royce Cleghorn doesn\u2019t like his husband, his alpha scent, or his damned pretty blue eyes. More than anything, Royce hates what Haydn makes him become: a primitive alpha clich\u00e9 who\u2019ll do anything to mark his territory, even if that territory is his alpha husband. Royce likes omegas; he isn\u2019t into alphas, no matter how pretty their eyes are. It\u2019s just a weird territorial instinct. It has to be.Prince Haydn has always tried to be the perfect alpha his father wants him to be. He's the heir to the throne. He's a war general. He isn't supposed to bare his throat to an enemy alpha\u2014and it isn't supposed to feel so good. Everyone knows a marriage between two alphas is a recipe for disaster. He isn't supposed to crave his husband\u2014their marriage is just a political arrangement, nothing more.But when disaster strikes and loyalties are tested, which bond will be the strongest: their marriage, or their allegiances?This book is set in an omegaverse world similar to contemporary Earth, and it contains explicit content, mating cycles, scenting, knotting, and two men obsessed with each other. While mpreg exists in this world, it\u2019s only mentioned and doesn\u2019t appear on-page.",
-    "book_title": "Unnatural",
+    "description": "A planet at war. Two alphas forced into a political marriage. Attraction that defies all reason and logic\u2026 Or does it? The Kingdom of Pelugia and the Republic of Kadar have been at war for decades. Peace isn\u2019t popular, but the planet can\u2019t survive without it.Forced to marry an enemy prince for the sake of peace, Senator Royce Cleghorn doesn\u2019t like his husband, his alpha scent, or his damned pretty blue eyes. More than anything, Royce hates what Haydn makes him become: a primitive alpha clich\u00e9 who\u2019ll do anything to mark his territory, even if that territory is his alpha husband. Royce likes omegas; he isn\u2019t into alphas, no matter how pretty their eyes are. It\u2019s just a weird territorial instinct. It has to be.Prince Haydn has always tried to be the perfect alpha his father wants him to be. He's the heir to the throne. He's a war general. He isn't supposed to bare his throat to an enemy alpha\u2014and it isn't supposed to feel so good. Everyone knows a marriage between two alphas is a recipe for disaster. He isn't supposed to crave his husband\u2014their marriage is just a political arrangement, nothing more.But when disaster strikes and loyalties are tested, which bond will be the strongest: their marriage, or their allegiances?This book is set in an omegaverse world similar to contemporary Earth, and it contains explicit content, mating cycles, scenting, knotting, and two men obsessed with each other. While mpreg exists in this world, it\u2019s only mentioned and doesn\u2019t appear on-page.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "344_1"
+            "stock_id": "344_1"
         },
         {
             "status": "available",
-            "stock_number": "344_2"
+            "stock_id": "344_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "344_3"
+            "stock_id": "344_3"
         }
     ],
     "metrics": {
         "rating_votes": 2349,
         "score": 4.12
     },
-    "original_book_title": "B08FX3656C",
     "pages": 820,
+    "title": "Unnatural",
     "url": "https://www.goodreads.com/book/show/56443216-unnatural",
     "year_published": 2020
 }

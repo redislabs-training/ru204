@@ -1,8 +1,7 @@
 {
-    "author_name": "Jean Johnson",
+    "author": "Jean Johnson",
     "base_id": 361,
-    "book_description": "Ia is a precog, tormented by visions of the future where her home galaxy has been devastated. To prevent this vision from coming true, Ia enlists in the Terran United Planets military with a plan to become a soldier who will inspire generations for the next three hundred years-a soldier history will call Bloody Mary.",
-    "book_title": "A Soldier's Duty",
+    "description": "Ia is a precog, tormented by visions of the future where her home galaxy has been devastated. To prevent this vision from coming true, Ia enlists in the Terran United Planets military with a plan to become a soldier who will inspire generations for the next three hundred years-a soldier history will call Bloody Mary.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "361_1"
+            "stock_id": "361_1"
         },
         {
             "status": "available",
-            "stock_number": "361_2"
+            "stock_id": "361_2"
         },
         {
             "status": "available",
-            "stock_number": "361_3"
+            "stock_id": "361_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "361_4"
+            "stock_id": "361_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "361_5"
+            "stock_id": "361_5"
         }
     ],
     "metrics": {
         "rating_votes": 4494,
         "score": 3.98
     },
-    "original_book_title": "A Soldier's Duty ",
     "pages": 563,
+    "title": "A Soldier's Duty",
     "url": "https://www.goodreads.com/book/show/10814635-a-soldier-s-duty",
     "year_published": 2011
 }

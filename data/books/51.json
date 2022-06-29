@@ -1,8 +1,7 @@
 {
-    "author_name": "Christine d'Abo",
+    "author": "Christine d'Abo",
     "base_id": 51,
-    "book_description": "Haylie knows her life is about to change the moment she sets foot on the Eurus colony. What she didn't count on was her instant, overwhelming sexual desire for the seven-foot-tall, sexy as hell alien ambassador. He's in her every thought and dream, teasing and taunting her body into a sexual frenzy.Kamran has waited his whole life to find his bonded mate. When she arrives in the form of a slender human with brilliant eyes, he can't stop his all-consuming need to possess her. If their bond is discovered, they will be forced by Briel law to leave the colony, giving up the lives they've worked so hard to build.While Haylie and Kamran fight their growing desire, their colony is threatened by an unseen enemy. When the colony comes under attack by a brutal alien force, can Haylie and Kamran keep their bond a secret and stop the invasion in time to save everyone?",
-    "book_title": "The Bond That Ties Us",
+    "description": "Haylie knows her life is about to change the moment she sets foot on the Eurus colony. What she didn't count on was her instant, overwhelming sexual desire for the seven-foot-tall, sexy as hell alien ambassador. He's in her every thought and dream, teasing and taunting her body into a sexual frenzy.Kamran has waited his whole life to find his bonded mate. When she arrives in the form of a slender human with brilliant eyes, he can't stop his all-consuming need to possess her. If their bond is discovered, they will be forced by Briel law to leave the colony, giving up the lives they've worked so hard to build.While Haylie and Kamran fight their growing desire, their colony is threatened by an unseen enemy. When the colony comes under attack by a brutal alien force, can Haylie and Kamran keep their bond a secret and stop the invasion in time to save everyone?",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "51_1"
+            "stock_id": "51_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "51_2"
+            "stock_id": "51_2"
         },
         {
             "status": "available",
-            "stock_number": "51_3"
+            "stock_id": "51_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "51_4"
+            "stock_id": "51_4"
         }
     ],
     "metrics": {
         "rating_votes": 975,
         "score": 3.54
     },
-    "original_book_title": "The Bond That Ties Us (Eternal Bond, #1)",
     "pages": 721,
+    "title": "The Bond That Ties Us",
     "url": "https://www.goodreads.com/book/show/5973979-the-bond-that-ties-us",
     "year_published": 2007
 }

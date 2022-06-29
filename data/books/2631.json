@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 2631,
-    "book_description": "After the traumatic events of the War for Phang, Hazel, her parents, and their surviving companions embark on a life-changing adventure at the westernmost edge of the universe.Collecting: Saga 43-48.",
-    "book_title": "Saga, Vol. 8",
+    "description": "After the traumatic events of the War for Phang, Hazel, her parents, and their surviving companions embark on a life-changing adventure at the westernmost edge of the universe.Collecting: Saga 43-48.",
     "editions": [
         "English"
     ],
@@ -20,19 +19,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "2631_1"
+            "stock_id": "2631_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2631_2"
+            "stock_id": "2631_2"
         }
     ],
     "metrics": {
         "rating_votes": 28019,
         "score": 4.46
     },
-    "original_book_title": "Saga, Vol. 8",
     "pages": 1296,
+    "title": "Saga, Vol. 8",
     "url": "https://www.goodreads.com/book/show/34963526-saga-vol-8",
     "year_published": 2017
 }

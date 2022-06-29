@@ -1,8 +1,7 @@
 {
-    "author_name": "Ursula K. Le Guin",
+    "author": "Ursula K. Le Guin",
     "base_id": 1553,
-    "book_description": "Centuries in the future, Terrans have established a logging colony & military base named \"New Tahiti\" on a tree-covered planet whose small, green-furred, big-eyed inhabitants have a culture centered on lucid dreaming. Terran greed spirals around native innocence & wisdom, overturning the ancient society. Humans have learned interstellar travel from the Hainish (the origin-planet of all humanoid races, including Athsheans). Various planets have been expanding independently, but during the novel it's learned that the League of All Worlds has been formed. News arrives via an ansible, a new discovery. Previously they had been cut off, 27 light years from home.The story occurs after The Dispossessed, where both the ansible & the League of Worlds are unrealised. Also well before Planet of Exile, where human settlers have learned to coexist. The 24th century has been suggested. Terran colonists take over the planet locals call Athshe, meaning \"forest,\" rather than \"dirt,\" like their home planet Terra. They follow the 19th century model of colonization: felling trees, planting farms, digging mines & enslaving indigenous peoples. The natives are unequipped to comprehend this. They're a subsistence race who rely on the forests & have no cultural precedent for tyranny, slavery or war. The invaders take their land without resistance until one fatal act sets rebellion in motion & changes the people of both worlds forever.",
-    "book_title": "The Word for World is Forest",
+    "description": "Centuries in the future, Terrans have established a logging colony & military base named \"New Tahiti\" on a tree-covered planet whose small, green-furred, big-eyed inhabitants have a culture centered on lucid dreaming. Terran greed spirals around native innocence & wisdom, overturning the ancient society. Humans have learned interstellar travel from the Hainish (the origin-planet of all humanoid races, including Athsheans). Various planets have been expanding independently, but during the novel it's learned that the League of All Worlds has been formed. News arrives via an ansible, a new discovery. Previously they had been cut off, 27 light years from home.The story occurs after The Dispossessed, where both the ansible & the League of Worlds are unrealised. Also well before Planet of Exile, where human settlers have learned to coexist. The 24th century has been suggested. Terran colonists take over the planet locals call Athshe, meaning \"forest,\" rather than \"dirt,\" like their home planet Terra. They follow the 19th century model of colonization: felling trees, planting farms, digging mines & enslaving indigenous peoples. The natives are unequipped to comprehend this. They're a subsistence race who rely on the forests & have no cultural precedent for tyranny, slavery or war. The invaders take their land without resistance until one fatal act sets rebellion in motion & changes the people of both worlds forever.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1553_1"
+            "stock_id": "1553_1"
         },
         {
             "status": "available",
-            "stock_number": "1553_2"
+            "stock_id": "1553_2"
         },
         {
             "status": "available",
-            "stock_number": "1553_3"
+            "stock_id": "1553_3"
         },
         {
             "status": "available",
-            "stock_number": "1553_4"
+            "stock_id": "1553_4"
         },
         {
             "status": "available",
-            "stock_number": "1553_5"
+            "stock_id": "1553_5"
         }
     ],
     "metrics": {
         "rating_votes": 18480,
         "score": 3.99
     },
-    "original_book_title": "The Word for World Is Forest",
     "pages": 1049,
+    "title": "The Word for World is Forest",
     "url": "https://www.goodreads.com/book/show/276767.The_Word_for_World_is_Forest",
     "year_published": 1972
 }

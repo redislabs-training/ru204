@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 6862,
-    "book_description": "Katy knows the world changed the night the Luxen came.She can't believe Daemon welcomed his race or stood by as his kind threatened to obliterate every last human and hybrid on Earth. But the lines between good and bad have blurred, and love has become an emotion that could destroy her\u2014could destroy them all.Daemon will do anything to save those he loves, even if it means betrayal.They must team with an unlikely enemy if there is any chance of surviving the invasion. But when it quickly becomes impossible to tell friend from foe, and the world is crumbling around them, they may lose everything\u2014 even what they cherish most\u2014to ensure the survival of their friends\u2026and mankind.War has come to Earth. And no matter the outcome, the future will never be the same for those left standing.This edition includes SHADOWS, a Lux Prequel Novella",
-    "book_title": "Opposition",
+    "description": "Katy knows the world changed the night the Luxen came.She can't believe Daemon welcomed his race or stood by as his kind threatened to obliterate every last human and hybrid on Earth. But the lines between good and bad have blurred, and love has become an emotion that could destroy her\u2014could destroy them all.Daemon will do anything to save those he loves, even if it means betrayal.They must team with an unlikely enemy if there is any chance of surviving the invasion. But when it quickly becomes impossible to tell friend from foe, and the world is crumbling around them, they may lose everything\u2014 even what they cherish most\u2014to ensure the survival of their friends\u2026and mankind.War has come to Earth. And no matter the outcome, the future will never be the same for those left standing.This edition includes SHADOWS, a Lux Prequel Novella",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "6862_1"
+            "stock_id": "6862_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "6862_2"
+            "stock_id": "6862_2"
         },
         {
             "status": "available",
-            "stock_number": "6862_3"
+            "stock_id": "6862_3"
         }
     ],
     "metrics": {
         "rating_votes": 67740,
         "score": 4.37
     },
-    "original_book_title": "Opposition",
     "pages": 865,
+    "title": "Opposition",
     "url": "https://www.goodreads.com/book/show/13644055-opposition",
     "year_published": 2014
 }

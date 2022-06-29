@@ -1,8 +1,7 @@
 {
-    "author_name": "Scarlett Starkleigh",
+    "author": "Scarlett Starkleigh",
     "base_id": 143,
-    "book_description": "Alternative Cover Edition of ASIN: B01MQVDCQYI got tricked and now I'm on another planet. We're here to be matched with alien males who haven't had access to women in years. They are aching for wives, desperate to have children. I got tricked and then the government wouldn't let me opt-out. They say I need to sleep with one of the aliens within 72 hours in order to get life-saving antibodies otherwise I'll die.So, I slept with a hot 7-foot tall alien after he and 3 other hotties battled for the right to marry me. I told him I'd sleep with him, no-strings, to break his dry spell and save me from death. But now the alien considers me to be his WIFE. He's hot, alpha, bossy but sweet, and I might be in love with him. Even if I don't want to admit it.HOT ALPHA ALIEN HUSBANDS: This is book one in a new series by author DD Prince, writing as Scarlett Starkleigh.They look like us, but better. Taller, nicer skin, more muscles. They live a lot like us, but better. They\u2019ve got a lot of the technology that we have but\u2026yep, you guessed it: theirs is better. Their planet is reportedly beautiful, clean, unpolluted and extraordinarily colorful.Medically, they\u2019re superior, too. Except that they were powerless to stop a super-bug that quickly all but wiped out their female population and over 99% of their women were suddenly --- poof --- gone.Their men are lonely and restless. They\u2019re inherently alpha, protective, a family-driven species, and they\u2019re carnally deprived so that\u2019s having an impact on the otherwise peaceful planet. They have gone without women for years and so they\u2019re chomping at the bit and it means fighting, threat of war, general unease / unrest, and threats to pillage other planets for women if something wasn't done to get these men what they needed. Tests were run and since we\u2019re biologically compatible deals were made.I was tricked onto the space ship. I was also tricked into getting married without my knowledge. I'm fighting my emotions but Daxx is doing all sorts of things to try to break down my defenses... the scheming, insatiable, hot, bossy, swoony, alpha.Dirty-talking, steamy panty-melting scenes, over-the-top alpha male insta-love. A fun, light read in the sci-fi romance genre with only a little bit of world-building but a whole lot of steamy insta-love fun & a happily ever after. Future books will follow but this is a complete story with an HEA & no cheating. ",
-    "book_title": "Daxx and Jetta",
+    "description": "Alternative Cover Edition of ASIN: B01MQVDCQYI got tricked and now I'm on another planet. We're here to be matched with alien males who haven't had access to women in years. They are aching for wives, desperate to have children. I got tricked and then the government wouldn't let me opt-out. They say I need to sleep with one of the aliens within 72 hours in order to get life-saving antibodies otherwise I'll die.So, I slept with a hot 7-foot tall alien after he and 3 other hotties battled for the right to marry me. I told him I'd sleep with him, no-strings, to break his dry spell and save me from death. But now the alien considers me to be his WIFE. He's hot, alpha, bossy but sweet, and I might be in love with him. Even if I don't want to admit it.HOT ALPHA ALIEN HUSBANDS: This is book one in a new series by author DD Prince, writing as Scarlett Starkleigh.They look like us, but better. Taller, nicer skin, more muscles. They live a lot like us, but better. They\u2019ve got a lot of the technology that we have but\u2026yep, you guessed it: theirs is better. Their planet is reportedly beautiful, clean, unpolluted and extraordinarily colorful.Medically, they\u2019re superior, too. Except that they were powerless to stop a super-bug that quickly all but wiped out their female population and over 99% of their women were suddenly --- poof --- gone.Their men are lonely and restless. They\u2019re inherently alpha, protective, a family-driven species, and they\u2019re carnally deprived so that\u2019s having an impact on the otherwise peaceful planet. They have gone without women for years and so they\u2019re chomping at the bit and it means fighting, threat of war, general unease / unrest, and threats to pillage other planets for women if something wasn't done to get these men what they needed. Tests were run and since we\u2019re biologically compatible deals were made.I was tricked onto the space ship. I was also tricked into getting married without my knowledge. I'm fighting my emotions but Daxx is doing all sorts of things to try to break down my defenses... the scheming, insatiable, hot, bossy, swoony, alpha.Dirty-talking, steamy panty-melting scenes, over-the-top alpha male insta-love. A fun, light read in the sci-fi romance genre with only a little bit of world-building but a whole lot of steamy insta-love fun & a happily ever after. Future books will follow but this is a complete story with an HEA & no cheating. ",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "143_1"
+            "stock_id": "143_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "143_2"
+            "stock_id": "143_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "143_3"
+            "stock_id": "143_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "143_4"
+            "stock_id": "143_4"
         },
         {
             "status": "available",
-            "stock_number": "143_5"
+            "stock_id": "143_5"
         }
     ],
     "metrics": {
         "rating_votes": 648,
         "score": 3.81
     },
-    "original_book_title": "English",
     "pages": 855,
+    "title": "Daxx and Jetta",
     "url": "https://www.goodreads.com/book/show/38355143-daxx-and-jetta",
     "year_published": 2016
 }

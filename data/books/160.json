@@ -1,8 +1,7 @@
 {
-    "author_name": "Ella James",
+    "author": "Ella James",
     "base_id": 160,
-    "book_description": "Milo Mitchell's life used to be charmed, but that was before her family dissolved, she went a little crazy, and her best friends started acting more like strangers. Spending Saturday morning in a treehouse with a stun gun for company and a herd of deer for friends is the only exciting thing in her life...until she shoots a fawn and finds her dart stuck in a guy.Her gorgeous victim is dressed in a Brioni tux and armed with a hanky. He has no idea who or where he is. Afraid her dart caused his amnesia, Milo takes him in, names him Nick, and vows to help him solve his mystery. Soon the pair find Nick's face in a newspaper obituary, and Nick beings to have strange, ethereal memories of Milo--who is sure she's never met him. Suddenly Nick knows things he shouldn't know and is doing things he shouldn't do. When the Department of Defense shows up, Nick and Milo run--toward a shocking conclusion that could destroy both their worlds.",
-    "book_title": "Here",
+    "description": "Milo Mitchell's life used to be charmed, but that was before her family dissolved, she went a little crazy, and her best friends started acting more like strangers. Spending Saturday morning in a treehouse with a stun gun for company and a herd of deer for friends is the only exciting thing in her life...until she shoots a fawn and finds her dart stuck in a guy.Her gorgeous victim is dressed in a Brioni tux and armed with a hanky. He has no idea who or where he is. Afraid her dart caused his amnesia, Milo takes him in, names him Nick, and vows to help him solve his mystery. Soon the pair find Nick's face in a newspaper obituary, and Nick beings to have strange, ethereal memories of Milo--who is sure she's never met him. Suddenly Nick knows things he shouldn't know and is doing things he shouldn't do. When the Department of Defense shows up, Nick and Milo run--toward a shocking conclusion that could destroy both their worlds.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "160_1"
+            "stock_id": "160_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "160_2"
+            "stock_id": "160_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "160_3"
+            "stock_id": "160_3"
         },
         {
             "status": "available",
-            "stock_number": "160_4"
+            "stock_id": "160_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "160_5"
+            "stock_id": "160_5"
         },
         {
             "status": "available",
-            "stock_number": "160_6"
+            "stock_id": "160_6"
         },
         {
             "status": "available",
-            "stock_number": "160_7"
+            "stock_id": "160_7"
         },
         {
             "status": "available",
-            "stock_number": "160_8"
+            "stock_id": "160_8"
         }
     ],
     "metrics": {
         "rating_votes": 1110,
         "score": 3.71
     },
-    "original_book_title": "B007A0I86Q",
     "pages": 379,
+    "title": "Here",
     "url": "https://www.goodreads.com/book/show/13490992-here",
     "year_published": 2012
 }

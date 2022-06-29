@@ -1,8 +1,7 @@
 {
-    "author_name": "Peter Watts",
+    "author": "Peter Watts",
     "base_id": 2471,
-    "book_description": "It's been two months since a myriad of alien objects clenched about the Earth, screaming as they burned. The heavens have been silent since - until a derelict space probe hears whispers from a distant comet. Something talks out there: but not to us. Who to send to meet the alien, when the alien doesn't want to meet? Send a linguist with multiple-personality disorder, and a biologist so spliced to machinery he can't feel his own flesh. Send a pacifist warrior, and a vampire recalled from the grave by the voodoo of paleogenetics. Send a man with half his mind gone since childhood. Send them to the edge of the solar system, praying you can trust such freaks and monsters with the fate of a world. You fear they may be more alien than the thing they've been sent to find - but you'd give anything for that to be true, if you knew what was waiting for them.",
-    "book_title": "Blindsight",
+    "description": "It's been two months since a myriad of alien objects clenched about the Earth, screaming as they burned. The heavens have been silent since - until a derelict space probe hears whispers from a distant comet. Something talks out there: but not to us. Who to send to meet the alien, when the alien doesn't want to meet? Send a linguist with multiple-personality disorder, and a biologist so spliced to machinery he can't feel his own flesh. Send a pacifist warrior, and a vampire recalled from the grave by the voodoo of paleogenetics. Send a man with half his mind gone since childhood. Send them to the edge of the solar system, praying you can trust such freaks and monsters with the fate of a world. You fear they may be more alien than the thing they've been sent to find - but you'd give anything for that to be true, if you knew what was waiting for them.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "2471_1"
+            "stock_id": "2471_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2471_2"
+            "stock_id": "2471_2"
         }
     ],
     "metrics": {
         "rating_votes": 28367,
         "score": 4.01
     },
-    "original_book_title": "Blindsight",
     "pages": 979,
+    "title": "Blindsight",
     "url": "https://www.goodreads.com/book/show/48484.Blindsight",
     "year_published": 2006
 }

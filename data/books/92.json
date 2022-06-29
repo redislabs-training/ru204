@@ -1,8 +1,7 @@
 {
-    "author_name": "Gini Koch",
+    "author": "Gini Koch",
     "base_id": 92,
-    "book_description": "When rumors of a new super-drug surface, the FBI comes to Jeff and Kitty Katt-Martini for help. It becomes quickly apparent that the drug is merely the tip of a deadly iceberg and a much more insidious plan is underway involving Titan Security, Gaultier Enterprises, and YatesCorp.As newly discovered A-Cs and hybrids begin to surface, each with expanded and deadly talents, more and more signs point to a new evil genius who\u2019s using the A-Cs and their enemies both as guinea pigs. Then Area 51 and the Dulce Science Center go silent while Alpha Team, Airborne, and most of the worldwide A-C Security team are there for training. And if that\u2019s not bad enough, Centaurion Division is hit with more bad, and deadly, news: Chernobog the Ultimate, isn\u2019t a hacker myth, he\u2019s a real person -- and he\u2019s on the bad guys\u2019 side.Now Kitty and company must find the real Dr. Feelgood and stop him or her before the latest version of Surcenthumain hits the streets and more people they love are harmed, or worse. But when the inconceivable happens, Kitty\u2019s focused on two things only: reviving the ACE entity before their enemies realize Earth\u2019s best protection isn\u2019t actually active\u2026and revenge.",
-    "book_title": "Alien Research",
+    "description": "When rumors of a new super-drug surface, the FBI comes to Jeff and Kitty Katt-Martini for help. It becomes quickly apparent that the drug is merely the tip of a deadly iceberg and a much more insidious plan is underway involving Titan Security, Gaultier Enterprises, and YatesCorp.As newly discovered A-Cs and hybrids begin to surface, each with expanded and deadly talents, more and more signs point to a new evil genius who\u2019s using the A-Cs and their enemies both as guinea pigs. Then Area 51 and the Dulce Science Center go silent while Alpha Team, Airborne, and most of the worldwide A-C Security team are there for training. And if that\u2019s not bad enough, Centaurion Division is hit with more bad, and deadly, news: Chernobog the Ultimate, isn\u2019t a hacker myth, he\u2019s a real person -- and he\u2019s on the bad guys\u2019 side.Now Kitty and company must find the real Dr. Feelgood and stop him or her before the latest version of Surcenthumain hits the streets and more people they love are harmed, or worse. But when the inconceivable happens, Kitty\u2019s focused on two things only: reviving the ACE entity before their enemies realize Earth\u2019s best protection isn\u2019t actually active\u2026and revenge.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "92_1"
+            "stock_id": "92_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "92_2"
+            "stock_id": "92_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "92_3"
+            "stock_id": "92_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "92_4"
+            "stock_id": "92_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "92_5"
+            "stock_id": "92_5"
         },
         {
             "status": "available",
-            "stock_number": "92_6"
+            "stock_id": "92_6"
         },
         {
             "status": "available",
-            "stock_number": "92_7"
+            "stock_id": "92_7"
         }
     ],
     "metrics": {
         "rating_votes": 950,
         "score": 4.23
     },
-    "original_book_title": "Alien Research",
     "pages": 901,
+    "title": "Alien Research",
     "url": "https://www.goodreads.com/book/show/17148003-alien-research",
     "year_published": 2013
 }

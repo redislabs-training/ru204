@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 1632,
-    "book_description": "In the Ichidian Universe, The League and their ruthless assassins rule all. Expertly trained and highly valued, the League Assassins are the backbone of the government. But not even the League is immune to corruption . . .Command Assassin Nykyrian Quikiades once turned his back on the League\u2014and has been hunted by them ever since. Though many have tried, none can kill him or stop him from completing his current mission: to protect Kiara Zamir, a woman whose father\u2019s political alliance has made her a target. As her world becomes even deadlier, Kiara must entrust her life to the same kind of beast who once killed her mother and left her for dead. Old enemies and new threaten them both and the only way they can survive is to overcome their suspicions and learn to trust in the very ones who threaten them the most: each other.",
-    "book_title": "Born of Night",
+    "description": "In the Ichidian Universe, The League and their ruthless assassins rule all. Expertly trained and highly valued, the League Assassins are the backbone of the government. But not even the League is immune to corruption . . .Command Assassin Nykyrian Quikiades once turned his back on the League\u2014and has been hunted by them ever since. Though many have tried, none can kill him or stop him from completing his current mission: to protect Kiara Zamir, a woman whose father\u2019s political alliance has made her a target. As her world becomes even deadlier, Kiara must entrust her life to the same kind of beast who once killed her mother and left her for dead. Old enemies and new threaten them both and the only way they can survive is to overcome their suspicions and learn to trust in the very ones who threaten them the most: each other.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1632_1"
+            "stock_id": "1632_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1632_2"
+            "stock_id": "1632_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1632_3"
+            "stock_id": "1632_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1632_4"
+            "stock_id": "1632_4"
         },
         {
             "status": "available",
-            "stock_number": "1632_5"
+            "stock_id": "1632_5"
         },
         {
             "status": "available",
-            "stock_number": "1632_6"
+            "stock_id": "1632_6"
         },
         {
             "status": "available",
-            "stock_number": "1632_7"
+            "stock_id": "1632_7"
         },
         {
             "status": "available",
-            "stock_number": "1632_8"
+            "stock_id": "1632_8"
         }
     ],
     "metrics": {
         "rating_votes": 25419,
         "score": 4.19
     },
-    "original_book_title": "Born of the Night",
     "pages": 885,
+    "title": "Born of Night",
     "url": "https://www.goodreads.com/book/show/2992061-born-of-night",
     "year_published": 1995
 }

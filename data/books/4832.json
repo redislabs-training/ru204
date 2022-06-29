@@ -1,8 +1,7 @@
 {
-    "author_name": "Brandon Sanderson",
+    "author": "Brandon Sanderson",
     "base_id": 4832,
-    "book_description": "All her life, Spensa has dreamed of becoming a pilot. Of proving she's a hero like her father. She made it to the sky, but the truths she learned about her father were crushing.Spensa is sure there's more to the story. And she's sure that whatever happened to her father in his starship could happen to her. When she made it outside the protective shell of her planet, she heard the stars--and it was terrifying. Everything Spensa has been taught about her world is a lie. But Spensa also discovered a few other things about herself--and she'll travel to the end of the galaxy to save humankind if she needs to.",
-    "book_title": "Starsight",
+    "description": "All her life, Spensa has dreamed of becoming a pilot. Of proving she's a hero like her father. She made it to the sky, but the truths she learned about her father were crushing.Spensa is sure there's more to the story. And she's sure that whatever happened to her father in his starship could happen to her. When she made it outside the protective shell of her planet, she heard the stars--and it was terrifying. Everything Spensa has been taught about her world is a lie. But Spensa also discovered a few other things about herself--and she'll travel to the end of the galaxy to save humankind if she needs to.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "4832_1"
+            "stock_id": "4832_1"
         }
     ],
     "metrics": {
         "rating_votes": 42127,
         "score": 4.44
     },
-    "original_book_title": "Starsight",
     "pages": 857,
+    "title": "Starsight",
     "url": "https://www.goodreads.com/book/show/42769202-starsight",
     "year_published": 2019
 }

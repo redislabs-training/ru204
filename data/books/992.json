@@ -1,8 +1,7 @@
 {
-    "author_name": "Melissa Landers",
+    "author": "Melissa Landers",
     "base_id": 992,
-    "book_description": "The romantic sequel to Alienated takes long-distance relationships to a new level as Cara and Aelyx long for each other from opposite ends of the universe...until a threat to both their worlds reunites them. Cara always knew life on planet L\u2019eihr would be an adjustment. With Aelyx, her L\u2019eihr boyfriend, back on Earth, working to mend the broken alliance between their two planets, Cara is left to fend for herself at a new school, surrounded by hostile alien clones. Even the weird dorm pet hates her.Things look up when Cara is appointed as human representative to a panel preparing for a human colony on L\u2019eihr. A society melding their two cultures is a place where Cara and Aelyx could one day make a life together. But with L\u2019eihr leaders balking at granting even the most basic freedoms, Cara begins to wonder if she could ever be happy on this planet, even with Aelyx by her side.Meanwhile, on Earth, Aelyx, finds himself thrown into a full-scale PR campaign to improve human-L\u2019eihr relations. Humans don\u2019t know that their very survival depends on this alliance: only Aelyx\u2019s people have the technology to fix the deadly contamination in the global water supply that human governments are hiding. Yet despite their upper hand, the leaders of his world suddenly seem desperate to get humans on their side, and hardly bat an eye at extremists\u2019 multiple attempts on Aelyx\u2019s life. The Way clearly needs humans\u2019 help . . . but with what? And what will they ask for in return?",
-    "book_title": "Invaded",
+    "description": "The romantic sequel to Alienated takes long-distance relationships to a new level as Cara and Aelyx long for each other from opposite ends of the universe...until a threat to both their worlds reunites them. Cara always knew life on planet L\u2019eihr would be an adjustment. With Aelyx, her L\u2019eihr boyfriend, back on Earth, working to mend the broken alliance between their two planets, Cara is left to fend for herself at a new school, surrounded by hostile alien clones. Even the weird dorm pet hates her.Things look up when Cara is appointed as human representative to a panel preparing for a human colony on L\u2019eihr. A society melding their two cultures is a place where Cara and Aelyx could one day make a life together. But with L\u2019eihr leaders balking at granting even the most basic freedoms, Cara begins to wonder if she could ever be happy on this planet, even with Aelyx by her side.Meanwhile, on Earth, Aelyx, finds himself thrown into a full-scale PR campaign to improve human-L\u2019eihr relations. Humans don\u2019t know that their very survival depends on this alliance: only Aelyx\u2019s people have the technology to fix the deadly contamination in the global water supply that human governments are hiding. Yet despite their upper hand, the leaders of his world suddenly seem desperate to get humans on their side, and hardly bat an eye at extremists\u2019 multiple attempts on Aelyx\u2019s life. The Way clearly needs humans\u2019 help . . . but with what? And what will they ask for in return?",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "992_1"
+            "stock_id": "992_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "992_2"
+            "stock_id": "992_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "992_3"
+            "stock_id": "992_3"
         },
         {
             "status": "available",
-            "stock_number": "992_4"
+            "stock_id": "992_4"
         },
         {
             "status": "available",
-            "stock_number": "992_5"
+            "stock_id": "992_5"
         },
         {
             "status": "available",
-            "stock_number": "992_6"
+            "stock_id": "992_6"
         }
     ],
     "metrics": {
         "rating_votes": 6997,
         "score": 3.94
     },
-    "original_book_title": "Invaded",
     "pages": 442,
+    "title": "Invaded",
     "url": "https://www.goodreads.com/book/show/17316770-invaded",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Mindee Arnett",
+    "author": "Mindee Arnett",
     "base_id": 627,
-    "book_description": "Of the various star systems that make up the Confederation, most lie thousands of light-years from First Earth-and out here, no one is free. The agencies that govern the Confederation are as corrupt as the crime bosses who patrol it, and power is held by anyone with enough greed and ruthlessness to claim it. That power is derived from one thing: metatech, the devices that allow people to travel great distances faster than the speed of light.Jeth Seagrave and his crew of teenage mercenaries have survived in this world by stealing unsecured metatech, and they're damn good at it. Jeth doesn't care about the politics or the law; all he cares about is earning enough money to buy back his parents' ship, Avalon, from his crime-boss employer and getting himself and his sister, Lizzie, the heck out of Dodge. But when Jeth finds himself in possession of information that both the crime bosses and the government are willing to kill for, he is going to have to ask himself how far he'll go to get the freedom he's wanted for so long.",
-    "book_title": "Avalon",
+    "description": "Of the various star systems that make up the Confederation, most lie thousands of light-years from First Earth-and out here, no one is free. The agencies that govern the Confederation are as corrupt as the crime bosses who patrol it, and power is held by anyone with enough greed and ruthlessness to claim it. That power is derived from one thing: metatech, the devices that allow people to travel great distances faster than the speed of light.Jeth Seagrave and his crew of teenage mercenaries have survived in this world by stealing unsecured metatech, and they're damn good at it. Jeth doesn't care about the politics or the law; all he cares about is earning enough money to buy back his parents' ship, Avalon, from his crime-boss employer and getting himself and his sister, Lizzie, the heck out of Dodge. But when Jeth finds himself in possession of information that both the crime bosses and the government are willing to kill for, he is going to have to ask himself how far he'll go to get the freedom he's wanted for so long.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "627_1"
+            "stock_id": "627_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "627_2"
+            "stock_id": "627_2"
         },
         {
             "status": "available",
-            "stock_number": "627_3"
+            "stock_id": "627_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "627_4"
+            "stock_id": "627_4"
         },
         {
             "status": "available",
-            "stock_number": "627_5"
+            "stock_id": "627_5"
         },
         {
             "status": "available",
-            "stock_number": "627_6"
+            "stock_id": "627_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "627_7"
+            "stock_id": "627_7"
         }
     ],
     "metrics": {
         "rating_votes": 3908,
         "score": 3.79
     },
-    "original_book_title": "Avalon",
     "pages": 703,
+    "title": "Avalon",
     "url": "https://www.goodreads.com/book/show/17149396-avalon",
     "year_published": 2014
 }

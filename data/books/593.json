@@ -1,8 +1,7 @@
 {
-    "author_name": "Penelope Fletcher",
+    "author": "Penelope Fletcher",
     "base_id": 593,
-    "book_description": "\"She is mine to protect, mine to shelter, mine to feed and mine to cover. When she is weak, I shall be her strength. She was stolen from her world by our captors. Now her survival is my responsibility. It is her duty to endure my lust, respect my nest mates and honour our union with offspring. I revere this giver of life, as is the way.\"~ Venomous One, formerly of R\u00f6k, enslaved gladiator\"Six things a woman should not have to deal with: 1) More than one barbaric alien lover/life mate. 2) Long term stay on a slave planet where you\u2019re one female amongst thousands of 'needy' males. 3) Killer space pirates. 4) Psychotic mother-in-law. 5) Putting your alien lover/life mates\u2019 species under the threat of annihilation because you ticked off the wrong Slave Chieftain. 6) A marauding overlord with a harem four hundred strong who is determined to make you concubine number four hundred and one. My name is Lumen. I am stranded in a galaxy far, far away and here be huge f***ing aliens.\"~ Lumen Young, formerly of Earth, lost in spaceAbducted from Earth and transported to a slave planet in an unknown galaxy, Lumen finds herself, shackled, naked and put on display before an alien horde. Told the males will battle for the right to slake their lusts with her body, she would become the slave of slaves. Venomous One, a proud warrior enslaved, has given up hope of returning to his home world and finding a life mate. When a female is tossed into the arena his soul demands he claim her. Winning his mate by Right of Might, he vows to protect Lumen and be a good provider, no matter how ugly her human appearance. Rescued by Venomous\u2019 people, the couple face space pirates, the condemnation of an alien government, galactic war, and a deadlier threat from within the warrior\u2019s own kindred.\nWarning: violence, profanity and sexual situations with multiple partners.\n",
-    "book_title": "Venomous",
+    "description": "\"She is mine to protect, mine to shelter, mine to feed and mine to cover. When she is weak, I shall be her strength. She was stolen from her world by our captors. Now her survival is my responsibility. It is her duty to endure my lust, respect my nest mates and honour our union with offspring. I revere this giver of life, as is the way.\"~ Venomous One, formerly of R\u00f6k, enslaved gladiator\"Six things a woman should not have to deal with: 1) More than one barbaric alien lover/life mate. 2) Long term stay on a slave planet where you\u2019re one female amongst thousands of 'needy' males. 3) Killer space pirates. 4) Psychotic mother-in-law. 5) Putting your alien lover/life mates\u2019 species under the threat of annihilation because you ticked off the wrong Slave Chieftain. 6) A marauding overlord with a harem four hundred strong who is determined to make you concubine number four hundred and one. My name is Lumen. I am stranded in a galaxy far, far away and here be huge f***ing aliens.\"~ Lumen Young, formerly of Earth, lost in spaceAbducted from Earth and transported to a slave planet in an unknown galaxy, Lumen finds herself, shackled, naked and put on display before an alien horde. Told the males will battle for the right to slake their lusts with her body, she would become the slave of slaves. Venomous One, a proud warrior enslaved, has given up hope of returning to his home world and finding a life mate. When a female is tossed into the arena his soul demands he claim her. Winning his mate by Right of Might, he vows to protect Lumen and be a good provider, no matter how ugly her human appearance. Rescued by Venomous\u2019 people, the couple face space pirates, the condemnation of an alien government, galactic war, and a deadlier threat from within the warrior\u2019s own kindred.\nWarning: violence, profanity and sexual situations with multiple partners.\n",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "593_1"
+            "stock_id": "593_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "593_2"
+            "stock_id": "593_2"
         },
         {
             "status": "available",
-            "stock_number": "593_3"
+            "stock_id": "593_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "593_4"
+            "stock_id": "593_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "593_5"
+            "stock_id": "593_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "593_6"
+            "stock_id": "593_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "593_7"
+            "stock_id": "593_7"
         },
         {
             "status": "available",
-            "stock_number": "593_8"
+            "stock_id": "593_8"
         }
     ],
     "metrics": {
         "rating_votes": 5541,
         "score": 3.92
     },
-    "original_book_title": "B00RG0IGH6",
     "pages": 1266,
+    "title": "Venomous",
     "url": "https://www.goodreads.com/book/show/24081930-venomous",
     "year_published": 2014
 }

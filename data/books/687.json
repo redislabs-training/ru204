@@ -1,8 +1,7 @@
 {
-    "author_name": "David Brin",
+    "author": "David Brin",
     "base_id": 687,
-    "book_description": "In all the universe, no species reached for the stars without \u201cuplift\u201d guidance, except possibly humankind. Did some cryptic patron race begin the job long ago, then abandon us? Or did we leap all by ourselves? That question burns, yet a greater mystery looms ahead, in the furnace of a star. Under the caverns of Mercury, Expedition Sundiver prepares for the most momentous voyage in our history \u2013 into the boiling inferno of the sun, seeking our destiny in the cosmic order of life.",
-    "book_title": "Sundiver",
+    "description": "In all the universe, no species reached for the stars without \u201cuplift\u201d guidance, except possibly humankind. Did some cryptic patron race begin the job long ago, then abandon us? Or did we leap all by ourselves? That question burns, yet a greater mystery looms ahead, in the furnace of a star. Under the caverns of Mercury, Expedition Sundiver prepares for the most momentous voyage in our history \u2013 into the boiling inferno of the sun, seeking our destiny in the cosmic order of life.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "687_1"
+            "stock_id": "687_1"
         },
         {
             "status": "available",
-            "stock_number": "687_2"
+            "stock_id": "687_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "687_3"
+            "stock_id": "687_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "687_4"
+            "stock_id": "687_4"
         },
         {
             "status": "available",
-            "stock_number": "687_5"
+            "stock_id": "687_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "687_6"
+            "stock_id": "687_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "687_7"
+            "stock_id": "687_7"
         },
         {
             "status": "available",
-            "stock_number": "687_8"
+            "stock_id": "687_8"
         }
     ],
     "metrics": {
         "rating_votes": 23721,
         "score": 3.69
     },
-    "original_book_title": "Sundiver",
     "pages": 685,
+    "title": "Sundiver",
     "url": "https://www.goodreads.com/book/show/96472.Sundiver",
     "year_published": 1980
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "JudeGray",
+    "author": "JudeGray",
     "base_id": 73,
-    "book_description": "This is the first book in the Savage Warriors series.She's abducted from Earth and sold into slavery. Can love break the chains that bind her? Grabbed from the street in broad daylight, Briony is soon sold to a cruel alien leader who needs human women for a very specific purpose. They must \"recharge\" the vicious warriors he forces to fight in his arena. Given to the best fighter in the section, she finds she has arrived in the middle of a secret escape plan. She is surprised to find herself attaching to the handsome alien fighter, and puts everything she can into their risky run for freedom. Will she make it out alive? Maybe. Will she make it out unchanged? Absolutely not.*-*The Savage Warriors series is filled with steamy, fantasy, alien abduction romance tales. If you like strong women, fierce alien men, and fated romance stories, with nonstop action, then this series is for you! There's steamy sex, some violence, and edge of your seat suspense, no cliff-hangers, and the books are aimed at 18+ readers... Enjoy!",
-    "book_title": "Captured and Claimed",
+    "description": "This is the first book in the Savage Warriors series.She's abducted from Earth and sold into slavery. Can love break the chains that bind her? Grabbed from the street in broad daylight, Briony is soon sold to a cruel alien leader who needs human women for a very specific purpose. They must \"recharge\" the vicious warriors he forces to fight in his arena. Given to the best fighter in the section, she finds she has arrived in the middle of a secret escape plan. She is surprised to find herself attaching to the handsome alien fighter, and puts everything she can into their risky run for freedom. Will she make it out alive? Maybe. Will she make it out unchanged? Absolutely not.*-*The Savage Warriors series is filled with steamy, fantasy, alien abduction romance tales. If you like strong women, fierce alien men, and fated romance stories, with nonstop action, then this series is for you! There's steamy sex, some violence, and edge of your seat suspense, no cliff-hangers, and the books are aimed at 18+ readers... Enjoy!",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "73_1"
+            "stock_id": "73_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "73_2"
+            "stock_id": "73_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "73_3"
+            "stock_id": "73_3"
         },
         {
             "status": "available",
-            "stock_number": "73_4"
+            "stock_id": "73_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "73_5"
+            "stock_id": "73_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "73_6"
+            "stock_id": "73_6"
         },
         {
             "status": "available",
-            "stock_number": "73_7"
+            "stock_id": "73_7"
         },
         {
             "status": "available",
-            "stock_number": "73_8"
+            "stock_id": "73_8"
         }
     ],
     "metrics": {
         "rating_votes": 774,
         "score": 3.77
     },
-    "original_book_title": "Captured and Claimed",
     "pages": 347,
+    "title": "Captured and Claimed",
     "url": "https://www.goodreads.com/book/show/51035784-captured-and-claimed",
     "year_published": 2019
 }

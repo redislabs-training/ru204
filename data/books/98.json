@@ -1,8 +1,7 @@
 {
-    "author_name": "Vi Voxley",
+    "author": "Vi Voxley",
     "base_id": 98,
-    "book_description": "Nothing could have prepared her for the general...This is a 100 k full scifi romance novel featuring a BBW human heroine and a growly alpha male Brion warrior general. It can and should be read as a standalone and has a guaranteed HEA ending!Isolde Fenner had big dreams, but surprisingly enough, the universe was even bigger. Curvy and confident, she set out on her first intergalactic mission as a scientist from Earth, studying alien species. But she didn't even get to step foot on her shuttle when everything was turned upside down. The most powerful man in the universe wanted her. Her. And despite knowing better, she wanted him too. No one says no to the general. But she can't let him know that.Diego Grothan is undefeated. Body, mind, soul - there is no one stronger than the Brion general, one of the most feared men in the universe. But even he finds himself on the brink of destruction when a human woman calls to him like nothing else. She is his. She simply doesn't know it yet. Not only is it unthinkable to want a human, but it might just be the push his enemies need to come for him. But Diego Grothan is prepared. Always.Thrust into intrigue, war and hunted by enemies hiding behind veils, Diego must prove himself not only to his new bride, but the galaxy at large. It is no easy feat, but he is, after all, undefeated...Will Isolde give into the mouthwateringly hot and equally as ferocious alien general or will fate make the decision for her?",
-    "book_title": "Alien General's Bride",
+    "description": "Nothing could have prepared her for the general...This is a 100 k full scifi romance novel featuring a BBW human heroine and a growly alpha male Brion warrior general. It can and should be read as a standalone and has a guaranteed HEA ending!Isolde Fenner had big dreams, but surprisingly enough, the universe was even bigger. Curvy and confident, she set out on her first intergalactic mission as a scientist from Earth, studying alien species. But she didn't even get to step foot on her shuttle when everything was turned upside down. The most powerful man in the universe wanted her. Her. And despite knowing better, she wanted him too. No one says no to the general. But she can't let him know that.Diego Grothan is undefeated. Body, mind, soul - there is no one stronger than the Brion general, one of the most feared men in the universe. But even he finds himself on the brink of destruction when a human woman calls to him like nothing else. She is his. She simply doesn't know it yet. Not only is it unthinkable to want a human, but it might just be the push his enemies need to come for him. But Diego Grothan is prepared. Always.Thrust into intrigue, war and hunted by enemies hiding behind veils, Diego must prove himself not only to his new bride, but the galaxy at large. It is no easy feat, but he is, after all, undefeated...Will Isolde give into the mouthwateringly hot and equally as ferocious alien general or will fate make the decision for her?",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "98_1"
+            "stock_id": "98_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "98_2"
+            "stock_id": "98_2"
         },
         {
             "status": "available",
-            "stock_number": "98_3"
+            "stock_id": "98_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "98_4"
+            "stock_id": "98_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "98_5"
+            "stock_id": "98_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "98_6"
+            "stock_id": "98_6"
         }
     ],
     "metrics": {
         "rating_votes": 892,
         "score": 3.98
     },
-    "original_book_title": "B018PVABWW",
     "pages": 262,
+    "title": "Alien General's Bride",
     "url": "https://www.goodreads.com/book/show/28012494-alien-general-s-bride",
     "year_published": 2015
 }

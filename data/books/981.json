@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer Foehner Wells",
+    "author": "Jennifer Foehner Wells",
     "base_id": 981,
-    "book_description": "NASA discovered the alien ship lurking in the asteroid belt in the 1960s. They kept the Target under intense surveillance for decades, letting the public believe they were exploring the solar system, while they worked feverishly to refine the technology needed to reach it.The ship itself remained silent, drifting.Dr. Jane Holloway is content documenting nearly-extinct languages and had never contemplated becoming an astronaut. But when NASA recruits her to join a team of military scientists for an expedition to the Target, it\u2019s an adventure she can\u2019t refuse.The ship isn\u2019t vacant, as they presumed.A disembodied voice rumbles inside Jane\u2019s head, \"You are home.\"Jane fights the growing doubts of her colleagues as she attempts to decipher what the alien wants from her. As the derelict ship devolves into chaos and the crew gets cut off from their escape route, Jane must decide if she can trust the alien\u2019s help to survive.",
-    "book_title": "Fluency",
+    "description": "NASA discovered the alien ship lurking in the asteroid belt in the 1960s. They kept the Target under intense surveillance for decades, letting the public believe they were exploring the solar system, while they worked feverishly to refine the technology needed to reach it.The ship itself remained silent, drifting.Dr. Jane Holloway is content documenting nearly-extinct languages and had never contemplated becoming an astronaut. But when NASA recruits her to join a team of military scientists for an expedition to the Target, it\u2019s an adventure she can\u2019t refuse.The ship isn\u2019t vacant, as they presumed.A disembodied voice rumbles inside Jane\u2019s head, \"You are home.\"Jane fights the growing doubts of her colleagues as she attempts to decipher what the alien wants from her. As the derelict ship devolves into chaos and the crew gets cut off from their escape route, Jane must decide if she can trust the alien\u2019s help to survive.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "981_1"
+            "stock_id": "981_1"
         },
         {
             "status": "available",
-            "stock_number": "981_2"
+            "stock_id": "981_2"
         },
         {
             "status": "available",
-            "stock_number": "981_3"
+            "stock_id": "981_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "981_4"
+            "stock_id": "981_4"
         },
         {
             "status": "available",
-            "stock_number": "981_5"
+            "stock_id": "981_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "981_6"
+            "stock_id": "981_6"
         }
     ],
     "metrics": {
         "rating_votes": 10084,
         "score": 3.82
     },
-    "original_book_title": "Fluency",
     "pages": 312,
+    "title": "Fluency",
     "url": "https://www.goodreads.com/book/show/22566044-fluency",
     "year_published": 2014
 }

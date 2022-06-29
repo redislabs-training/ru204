@@ -1,8 +1,7 @@
 {
-    "author_name": "James S.A. Corey",
+    "author": "James S.A. Corey",
     "base_id": 3430,
-    "book_description": "The fifth novel in Corey's New York Times bestselling Expanse series--now being produced for television by the SyFy Channel!A thousand worlds have opened, and the greatest land rush in human history has begun. As wave after wave of colonists leave, the power structures of the old solar system begin to buckle.Ships are disappearing without a trace. Private armies are being secretly formed. The sole remaining protomolecule sample is stolen. Terrorist attacks previously considered impossible bring the inner planets to their knees. The sins of the past are returning to exact a terrible price.And as a new human order is struggling to be born in blood and fire, James Holden and the crew of the Rocinante must struggle to survive and get back to the only home they have left.",
-    "book_title": "Nemesis Games",
+    "description": "The fifth novel in Corey's New York Times bestselling Expanse series--now being produced for television by the SyFy Channel!A thousand worlds have opened, and the greatest land rush in human history has begun. As wave after wave of colonists leave, the power structures of the old solar system begin to buckle.Ships are disappearing without a trace. Private armies are being secretly formed. The sole remaining protomolecule sample is stolen. Terrorist attacks previously considered impossible bring the inner planets to their knees. The sins of the past are returning to exact a terrible price.And as a new human order is struggling to be born in blood and fire, James Holden and the crew of the Rocinante must struggle to survive and get back to the only home they have left.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "3430_1"
+            "stock_id": "3430_1"
         },
         {
             "status": "available",
-            "stock_number": "3430_2"
+            "stock_id": "3430_2"
         },
         {
             "status": "available",
-            "stock_number": "3430_3"
+            "stock_id": "3430_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "3430_4"
+            "stock_id": "3430_4"
         },
         {
             "status": "available",
-            "stock_number": "3430_5"
+            "stock_id": "3430_5"
         },
         {
             "status": "available",
-            "stock_number": "3430_6"
+            "stock_id": "3430_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "3430_7"
+            "stock_id": "3430_7"
         }
     ],
     "metrics": {
         "rating_votes": 61148,
         "score": 4.41
     },
-    "original_book_title": "Nemesis Games",
     "pages": 230,
+    "title": "Nemesis Games",
     "url": "https://www.goodreads.com/book/show/22886612-nemesis-games",
     "year_published": 2015
 }

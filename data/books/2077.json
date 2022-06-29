@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 2077,
-    "book_description": "The seventh and final book in the #1 New York Times bestselling I Am Number Four series! With United as One, this action-packed series comes to a surprising, breathtaking, and utterly satisfying conclusion. The Garde didn\u2019t start this war, but they\u2019ll do whatever it takes to end it once and for all. . . . The Mogadorians have invaded Earth. Their warships loom over our most populated cities, and no country will risk taking them head on. The Garde are all that stand in the way, but they\u2019ll need an army of their own to win this fight. They\u2019ve teamed up with the US military, but it might not be enough. The Garde need reinforcements, and they\u2019ve found them in the most unexpected place. Teenagers from across the globe, like John Smith\u2019s best friend, Sam, have developed abilities. So John and the others must get to them before the Mogs, because if they don\u2019t their enemies will use these gifted teens for their own sinister plan. But after all the Mogadorians have taken from John\u2014his home, his family, his friends, and the person he loves most\u2014he might not want to put any more lives in danger. He\u2019s got nothing left to lose, and he\u2019s just discovered he has been given an incredible new Legacy. Now he can turn himself into the ultimate weapon. So will he risk his life to save the world, or will he realize that power in numbers will save us all?",
-    "book_title": "United as One",
+    "description": "The seventh and final book in the #1 New York Times bestselling I Am Number Four series! With United as One, this action-packed series comes to a surprising, breathtaking, and utterly satisfying conclusion. The Garde didn\u2019t start this war, but they\u2019ll do whatever it takes to end it once and for all. . . . The Mogadorians have invaded Earth. Their warships loom over our most populated cities, and no country will risk taking them head on. The Garde are all that stand in the way, but they\u2019ll need an army of their own to win this fight. They\u2019ve teamed up with the US military, but it might not be enough. The Garde need reinforcements, and they\u2019ve found them in the most unexpected place. Teenagers from across the globe, like John Smith\u2019s best friend, Sam, have developed abilities. So John and the others must get to them before the Mogs, because if they don\u2019t their enemies will use these gifted teens for their own sinister plan. But after all the Mogadorians have taken from John\u2014his home, his family, his friends, and the person he loves most\u2014he might not want to put any more lives in danger. He\u2019s got nothing left to lose, and he\u2019s just discovered he has been given an incredible new Legacy. Now he can turn himself into the ultimate weapon. So will he risk his life to save the world, or will he realize that power in numbers will save us all?",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "2077_1"
+            "stock_id": "2077_1"
         },
         {
             "status": "available",
-            "stock_number": "2077_2"
+            "stock_id": "2077_2"
         }
     ],
     "metrics": {
         "rating_votes": 24532,
         "score": 4.31
     },
-    "original_book_title": "United as One",
     "pages": 1220,
+    "title": "United as One",
     "url": "https://www.goodreads.com/book/show/27161189-united-as-one",
     "year_published": 2016
 }

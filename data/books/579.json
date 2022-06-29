@@ -1,8 +1,7 @@
 {
-    "author_name": "William Gibson",
+    "author": "William Gibson",
     "base_id": 579,
-    "book_description": "Audible is bringing William Gibson\u2019s uncovered Alien III script to life in audio for the first time, to mark the 40th Anniversary of the birth of the Alien franchise. Alongside a full cast, Michael Biehn and Lance Henriksen reprise their iconic roles as Corporal Hicks and Bishop from the 1986 film Aliens. Father of cyberpunk William Gibson\u2019s original script for Alien III, written in 1987 as a sequel to Aliens, never made it to our screens, although it went on to achieve cult status among fans as the third instalment that might have been after being leaked online. This terrifying, cinematic multicast dramatisation - directed by the multi-award-winning Dirk Maggs - is the chance to experience William Gibson\u2019s untold story and its terrifying, claustrophobic and dark encounters between humans and aliens, as a completely immersive audio experience. The story begins with the Sulaco on its return journey from LV-426. On board the military ship are the cryogenically frozen skeleton crew of that film\u2019s survivors: Ripley, Hicks, Newt and Bishop. We travel aboard and hear an alarm blare. Our heroes are no longer alone....Starring: Tom Alexander, Barbara Barnes, Michael Biehn, Cliff Chapman, Samantha Coughlan, Ben Cura, Dar Dash, Harry Ditson, Mairead Doherty, Lance Henriksen, Graham Hoadly, Lorelei King, Laurel Lefkow, Martin McDougall, Sarah Pitard, Michael Roberts, David Seddon, Andrew James Spooner, Siri Steinmo, Dai Tabuchi, Keith Wickham, Rebecca Yeo.\u00a92019 20th Century Fox (P)2019 Audible, Ltd",
-    "book_title": "Alien III",
+    "description": "Audible is bringing William Gibson\u2019s uncovered Alien III script to life in audio for the first time, to mark the 40th Anniversary of the birth of the Alien franchise. Alongside a full cast, Michael Biehn and Lance Henriksen reprise their iconic roles as Corporal Hicks and Bishop from the 1986 film Aliens. Father of cyberpunk William Gibson\u2019s original script for Alien III, written in 1987 as a sequel to Aliens, never made it to our screens, although it went on to achieve cult status among fans as the third instalment that might have been after being leaked online. This terrifying, cinematic multicast dramatisation - directed by the multi-award-winning Dirk Maggs - is the chance to experience William Gibson\u2019s untold story and its terrifying, claustrophobic and dark encounters between humans and aliens, as a completely immersive audio experience. The story begins with the Sulaco on its return journey from LV-426. On board the military ship are the cryogenically frozen skeleton crew of that film\u2019s survivors: Ripley, Hicks, Newt and Bishop. We travel aboard and hear an alarm blare. Our heroes are no longer alone....Starring: Tom Alexander, Barbara Barnes, Michael Biehn, Cliff Chapman, Samantha Coughlan, Ben Cura, Dar Dash, Harry Ditson, Mairead Doherty, Lance Henriksen, Graham Hoadly, Lorelei King, Laurel Lefkow, Martin McDougall, Sarah Pitard, Michael Roberts, David Seddon, Andrew James Spooner, Siri Steinmo, Dai Tabuchi, Keith Wickham, Rebecca Yeo.\u00a92019 20th Century Fox (P)2019 Audible, Ltd",
     "editions": [
         "None"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "579_1"
+            "stock_id": "579_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "579_2"
+            "stock_id": "579_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "579_3"
+            "stock_id": "579_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "579_4"
+            "stock_id": "579_4"
         },
         {
             "status": "available",
-            "stock_number": "579_5"
+            "stock_id": "579_5"
         },
         {
             "status": "available",
-            "stock_number": "579_6"
+            "stock_id": "579_6"
         },
         {
             "status": "available",
-            "stock_number": "579_7"
+            "stock_id": "579_7"
         }
     ],
     "metrics": {
         "rating_votes": 3744,
         "score": 3.37
     },
-    "original_book_title": "B07QY3KR81",
     "pages": 1300,
+    "title": "Alien III",
     "url": "https://www.goodreads.com/book/show/46223708-alien-iii",
     "year_published": 2019
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 63,
-    "book_description": "The Yeerks have abandoned all secrecy. They are loading people onto underground trains that run directly to the Yeerk pool where they perform mass infestations. The vast army of Controllers is growing rapidly and will soon be unstoppable. Ax and the Animorphs can think of only one solution\u2039to use one of the trains to blow up the Yeerk pool. But the cost will be measured in hundreds, perhaps thousands of innocent human lives.",
-    "book_title": "The Sacrifice",
+    "description": "The Yeerks have abandoned all secrecy. They are loading people onto underground trains that run directly to the Yeerk pool where they perform mass infestations. The vast army of Controllers is growing rapidly and will soon be unstoppable. Ax and the Animorphs can think of only one solution\u2039to use one of the trains to blow up the Yeerk pool. But the cost will be measured in hundreds, perhaps thousands of innocent human lives.",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "63_1"
+            "stock_id": "63_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "63_2"
+            "stock_id": "63_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "63_3"
+            "stock_id": "63_3"
         },
         {
             "status": "available",
-            "stock_number": "63_4"
+            "stock_id": "63_4"
         }
     ],
     "metrics": {
         "rating_votes": 1761,
         "score": 3.91
     },
-    "original_book_title": "The Sacrifice",
     "pages": 420,
+    "title": "The Sacrifice",
     "url": "https://www.goodreads.com/book/show/125338.The_Sacrifice",
     "year_published": 2001
 }

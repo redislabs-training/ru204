@@ -1,8 +1,7 @@
 {
-    "author_name": "Jeff Lemire",
+    "author": "Jeff Lemire",
     "base_id": 1572,
-    "book_description": "Young Robot boy TIM-21 and his companions struggle to stay alive in a universe where all androids have been outlawed and bounty hunters lurk on every planet. Written by award-winning creator, Jeff Lemire, Descender is a rip-roaring and heart-felt cosmic odyssey. Lemire pits humanity against machine, and world against world, to create a sprawling epic. Created by Jeff Lemire (Sweet Tooth, Trillium) and Dustin Nguyen's (Little Gotham) critically acclaimed, bestselling new science fiction series!Collecting: Descender 1-6",
-    "book_title": "Descender, Vol. 1: Tin Stars",
+    "description": "Young Robot boy TIM-21 and his companions struggle to stay alive in a universe where all androids have been outlawed and bounty hunters lurk on every planet. Written by award-winning creator, Jeff Lemire, Descender is a rip-roaring and heart-felt cosmic odyssey. Lemire pits humanity against machine, and world against world, to create a sprawling epic. Created by Jeff Lemire (Sweet Tooth, Trillium) and Dustin Nguyen's (Little Gotham) critically acclaimed, bestselling new science fiction series!Collecting: Descender 1-6",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1572_1"
+            "stock_id": "1572_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1572_2"
+            "stock_id": "1572_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1572_3"
+            "stock_id": "1572_3"
         }
     ],
     "metrics": {
         "rating_votes": 15905,
         "score": 4.09
     },
-    "original_book_title": "Descender, Volume One: Tin Stars",
     "pages": 774,
+    "title": "Descender, Vol. 1: Tin Stars",
     "url": "https://www.goodreads.com/book/show/25546167-descender-vol-1",
     "year_published": 2015
 }

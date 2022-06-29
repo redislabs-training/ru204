@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 294,
-    "book_description": "Discover what really happened in the final days of the doomed planet from the eyes of Sandor\u2014who would go on to become the reluctant C\u00eapan to Number Nine.Before Number Four and the others arrived on Earth, they lived on the planet Lorien. A planet filled with others who also had extraordinary abilities. A peaceful planet\u2013\u2013until the day the Mogadorians attacked, and nearly annihilated, the Loric people.Only a handful of Loric survived the battle. This is Sandor\u2019s story. Sandor was tired of being a teenager, tired of going to school and obeying his teachers and playing by his parents' rules. He enjoyed breaking the rules rather than following them. But when he makes one mistake too many, Sandor's life takes an unexpected turn, and he is forced join the Lorien Defense Academy.Sandor had never believed in the crazy idea that Lorien needed to defend itself\u2014Lorien was a peaceful planet, with no apparent enemies. But when Mogadorians suddenly attack, Sandor learns how real that threat was. Now Sandor is one of only a handful of Loric left alive, and the fate of Lorien is in their hands.",
-    "book_title": "The Last Days of Lorien",
+    "description": "Discover what really happened in the final days of the doomed planet from the eyes of Sandor\u2014who would go on to become the reluctant C\u00eapan to Number Nine.Before Number Four and the others arrived on Earth, they lived on the planet Lorien. A planet filled with others who also had extraordinary abilities. A peaceful planet\u2013\u2013until the day the Mogadorians attacked, and nearly annihilated, the Loric people.Only a handful of Loric survived the battle. This is Sandor\u2019s story. Sandor was tired of being a teenager, tired of going to school and obeying his teachers and playing by his parents' rules. He enjoyed breaking the rules rather than following them. But when he makes one mistake too many, Sandor's life takes an unexpected turn, and he is forced join the Lorien Defense Academy.Sandor had never believed in the crazy idea that Lorien needed to defend itself\u2014Lorien was a peaceful planet, with no apparent enemies. But when Mogadorians suddenly attack, Sandor learns how real that threat was. Now Sandor is one of only a handful of Loric left alive, and the fate of Lorien is in their hands.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "294_1"
+            "stock_id": "294_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "294_2"
+            "stock_id": "294_2"
         }
     ],
     "metrics": {
         "rating_votes": 6717,
         "score": 4.18
     },
-    "original_book_title": "The Last Days of Lorien",
     "pages": 816,
+    "title": "The Last Days of Lorien",
     "url": "https://www.goodreads.com/book/show/15762770-the-last-days-of-lorien",
     "year_published": 2013
 }

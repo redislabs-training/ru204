@@ -1,8 +1,7 @@
 {
-    "author_name": "David Bischoff",
+    "author": "David Bischoff",
     "base_id": 32,
-    "book_description": "Their queen is dead and the hive mind has been left to flounder on its own. On a world bereft of its only guiding force a schism is taking place: two strains of alien, formerly united by one all-powerful mother, now divide their forces for a world-shattering, acid-drenched war. On Earth, after a generation of rebuilding in the wake of alien infestation, athletes from every corner of the world are flocking to humanity's Goodwill Games. But some come with a dangerous new tool: a drug called Fire, distilled from the very essence of the aliens' body chemistry. The military wants it, Pharmaceutical kingpin Daniel Grant wants it. And the only place the essential ingredient can be found is on a world convulsed by alien holocaust...",
-    "book_title": "Aliens: Genocide",
+    "description": "Their queen is dead and the hive mind has been left to flounder on its own. On a world bereft of its only guiding force a schism is taking place: two strains of alien, formerly united by one all-powerful mother, now divide their forces for a world-shattering, acid-drenched war. On Earth, after a generation of rebuilding in the wake of alien infestation, athletes from every corner of the world are flocking to humanity's Goodwill Games. But some come with a dangerous new tool: a drug called Fire, distilled from the very essence of the aliens' body chemistry. The military wants it, Pharmaceutical kingpin Daniel Grant wants it. And the only place the essential ingredient can be found is on a world convulsed by alien holocaust...",
     "editions": [
         "English"
     ],
@@ -20,31 +19,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "32_1"
+            "stock_id": "32_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "32_2"
+            "stock_id": "32_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "32_3"
+            "stock_id": "32_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "32_4"
+            "stock_id": "32_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "32_5"
+            "stock_id": "32_5"
         }
     ],
     "metrics": {
         "rating_votes": 632,
         "score": 3.63
     },
-    "original_book_title": "Aliens: Genocide (Aliens)",
     "pages": 701,
+    "title": "Aliens: Genocide",
     "url": "https://www.goodreads.com/book/show/2186184.Aliens",
     "year_published": 1993
 }

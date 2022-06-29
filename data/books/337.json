@@ -1,8 +1,7 @@
 {
-    "author_name": "David Weber",
+    "author": "David Weber",
     "base_id": 337,
-    "book_description": "Stephanie Harrington always expected to be a forest ranger on her homeworld of Meyerdahl . . . until her parents relocated to the frontier planet of Sphinx in the far distant Star Kingdom of Manticore. It should have been the perfect new home --- a virgin wilderness full of new species of every sort, just waiting to be discovered. But Sphinx is a far more dangerous place than ultra-civilized Meyerdahl, and Stephanie\u2019s explorations come to a sudden halt when her parents lay down the law: no trips into the bush without adult supervision!Yet Stephanie is a young woman determined to make discoveries, and the biggest one of all awaits her: an intelligent alien species.The forest-dwelling treecats are small, cute, smart, and have a pronounced taste for celery. And they are also very, very deadly when they or their friends are threatened . . . as Stephanie discovers when she comes face-to-face with Sphinx's most lethal predator after a hang-gliding accident.But her discoveries are only beginning, for the treecats are also telepathic and able to bond with certain humans, and Stephanie\u2019s find --- and her first-of-its kind bond with the treecat Climbs Quickly --- land both of them in a fresh torrent of danger. Galactic-sized wealth is at stake, and Stephanie and the treecats are squarely in the path of highly-placed enemies determined to make sure the planet Sphinx remains entirely in human hands, even if that means the extermination of another thinking species.Unfortunately for those enemies, the treecats have saved Stephanie Harrington\u2019s life. She owes them . . . and Stephanie is a young woman who stands by her friends.Which means things are about to get very interesting on Sphinx.",
-    "book_title": "A Beautiful Friendship",
+    "description": "Stephanie Harrington always expected to be a forest ranger on her homeworld of Meyerdahl . . . until her parents relocated to the frontier planet of Sphinx in the far distant Star Kingdom of Manticore. It should have been the perfect new home --- a virgin wilderness full of new species of every sort, just waiting to be discovered. But Sphinx is a far more dangerous place than ultra-civilized Meyerdahl, and Stephanie\u2019s explorations come to a sudden halt when her parents lay down the law: no trips into the bush without adult supervision!Yet Stephanie is a young woman determined to make discoveries, and the biggest one of all awaits her: an intelligent alien species.The forest-dwelling treecats are small, cute, smart, and have a pronounced taste for celery. And they are also very, very deadly when they or their friends are threatened . . . as Stephanie discovers when she comes face-to-face with Sphinx's most lethal predator after a hang-gliding accident.But her discoveries are only beginning, for the treecats are also telepathic and able to bond with certain humans, and Stephanie\u2019s find --- and her first-of-its kind bond with the treecat Climbs Quickly --- land both of them in a fresh torrent of danger. Galactic-sized wealth is at stake, and Stephanie and the treecats are squarely in the path of highly-placed enemies determined to make sure the planet Sphinx remains entirely in human hands, even if that means the extermination of another thinking species.Unfortunately for those enemies, the treecats have saved Stephanie Harrington\u2019s life. She owes them . . . and Stephanie is a young woman who stands by her friends.Which means things are about to get very interesting on Sphinx.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "337_1"
+            "stock_id": "337_1"
         },
         {
             "status": "available",
-            "stock_number": "337_2"
+            "stock_id": "337_2"
         },
         {
             "status": "available",
-            "stock_number": "337_3"
+            "stock_id": "337_3"
         },
         {
             "status": "available",
-            "stock_number": "337_4"
+            "stock_id": "337_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "337_5"
+            "stock_id": "337_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "337_6"
+            "stock_id": "337_6"
         }
     ],
     "metrics": {
         "rating_votes": 4413,
         "score": 4.01
     },
-    "original_book_title": "A Beautiful Friendship",
     "pages": 200,
+    "title": "A Beautiful Friendship",
     "url": "https://www.goodreads.com/book/show/10894503-a-beautiful-friendship",
     "year_published": 2011
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Amie Kaufman",
+    "author": "Amie Kaufman",
     "base_id": 1499,
-    "book_description": "When Earth intercepts a message from a long-extinct alien race, it seems like the solution the planet has been waiting for. The Undying's advanced technology has the potential to undo environmental damage and turn lives around, and Gaia, their former home planet, is a treasure trove waiting to be uncovered.For Jules Addison and his fellow scholars, the discovery of an alien culture offers unprecedented opportunity for study... as long as scavengers like Amelia Radcliffe don't loot everything first. Mia and Jules' different reasons for smuggling themselves onto Gaia put them immediately at odds, but after escaping a dangerous confrontation with other scavvers, they form a fragile alliance.In order to penetrate the Undying temple and reach the tech and information hidden within, the two must decode the ancient race's secrets and survive their traps. But the more they learn about the Undying, the more their presence in the temple seems to be part of a grand design that could spell the end of the human race...",
-    "book_title": "Unearthed",
+    "description": "When Earth intercepts a message from a long-extinct alien race, it seems like the solution the planet has been waiting for. The Undying's advanced technology has the potential to undo environmental damage and turn lives around, and Gaia, their former home planet, is a treasure trove waiting to be uncovered.For Jules Addison and his fellow scholars, the discovery of an alien culture offers unprecedented opportunity for study... as long as scavengers like Amelia Radcliffe don't loot everything first. Mia and Jules' different reasons for smuggling themselves onto Gaia put them immediately at odds, but after escaping a dangerous confrontation with other scavvers, they form a fragile alliance.In order to penetrate the Undying temple and reach the tech and information hidden within, the two must decode the ancient race's secrets and survive their traps. But the more they learn about the Undying, the more their presence in the temple seems to be part of a grand design that could spell the end of the human race...",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1499_1"
+            "stock_id": "1499_1"
         },
         {
             "status": "available",
-            "stock_number": "1499_2"
+            "stock_id": "1499_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1499_3"
+            "stock_id": "1499_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1499_4"
+            "stock_id": "1499_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1499_5"
+            "stock_id": "1499_5"
         },
         {
             "status": "available",
-            "stock_number": "1499_6"
+            "stock_id": "1499_6"
         }
     ],
     "metrics": {
         "rating_votes": 6245,
         "score": 3.82
     },
-    "original_book_title": "Unearthed",
     "pages": 695,
+    "title": "Unearthed",
     "url": "https://www.goodreads.com/book/show/25446297-unearthed",
     "year_published": 2017
 }

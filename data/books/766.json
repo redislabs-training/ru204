@@ -1,8 +1,7 @@
 {
-    "author_name": "Walter Tevis",
+    "author": "Walter Tevis",
     "base_id": 766,
-    "book_description": "T.J. Newton is an extraterrestrial who goes to Earth on a desperate mission of mercy. But instead of aid, Newton discovers loneliness and despair that ultimately ends in tragedy.",
-    "book_title": "The Man Who Fell to Earth",
+    "description": "T.J. Newton is an extraterrestrial who goes to Earth on a desperate mission of mercy. But instead of aid, Newton discovers loneliness and despair that ultimately ends in tragedy.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "766_1"
+            "stock_id": "766_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "766_2"
+            "stock_id": "766_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "766_3"
+            "stock_id": "766_3"
         },
         {
             "status": "available",
-            "stock_number": "766_4"
+            "stock_id": "766_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "766_5"
+            "stock_id": "766_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "766_6"
+            "stock_id": "766_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "766_7"
+            "stock_id": "766_7"
         }
     ],
     "metrics": {
         "rating_votes": 7351,
         "score": 4.05
     },
-    "original_book_title": "The Man Who Fell to Earth",
     "pages": 211,
+    "title": "The Man Who Fell to Earth",
     "url": "https://www.goodreads.com/book/show/396329.The_Man_Who_Fell_to_Earth",
     "year_published": 1963
 }

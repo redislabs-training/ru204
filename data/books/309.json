@@ -1,8 +1,7 @@
 {
-    "author_name": "R. Lee Smith",
+    "author": "R. Lee Smith",
     "base_id": 309,
-    "book_description": "Earth. A world quarantined since its discovery by the Far-Reachers of Jota's history. And where the fortunes of slavers and chemists have been made ever since.It was to Earth that Kanetus E'Var, the son of Jota's most ruthless slaver, escaped to make Vahst, a powerful drug manufactured from the human brain. And it was to Earth that Tagen Pahnee, Fourth-ranking officer of the Jotan Off-World Security Fleet, was sent to bring the criminal back to justice. Neither of them could have anticipated that at that moment, E'Var's hunting grounds were experiencing the worst heat wave in years, triggering the Jotan breeding cycle in both males.Home is not an option for either of them. Both are determined to find a way to work on this hostile planet, surrounded by humans, surrounded by dangers, surrounded by Heat.Adult readers only, due to graphic gore, violence, and explicit sexual situations.617 pages, 285,862 words",
-    "book_title": "Heat",
+    "description": "Earth. A world quarantined since its discovery by the Far-Reachers of Jota's history. And where the fortunes of slavers and chemists have been made ever since.It was to Earth that Kanetus E'Var, the son of Jota's most ruthless slaver, escaped to make Vahst, a powerful drug manufactured from the human brain. And it was to Earth that Tagen Pahnee, Fourth-ranking officer of the Jotan Off-World Security Fleet, was sent to bring the criminal back to justice. Neither of them could have anticipated that at that moment, E'Var's hunting grounds were experiencing the worst heat wave in years, triggering the Jotan breeding cycle in both males.Home is not an option for either of them. Both are determined to find a way to work on this hostile planet, surrounded by humans, surrounded by dangers, surrounded by Heat.Adult readers only, due to graphic gore, violence, and explicit sexual situations.617 pages, 285,862 words",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "309_1"
+            "stock_id": "309_1"
         }
     ],
     "metrics": {
         "rating_votes": 2046,
         "score": 3.81
     },
-    "original_book_title": "B001QCWPO0",
     "pages": 506,
+    "title": "Heat",
     "url": "https://www.goodreads.com/book/show/8151462-heat",
     "year_published": 2009
 }

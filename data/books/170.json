@@ -1,8 +1,7 @@
 {
-    "author_name": "Honey Phillips",
+    "author": "Honey Phillips",
     "base_id": 170,
-    "book_description": "Can she create a new family with an alien warrior?On the anniversary of the disappearance of Mariah\u2019s sister and nephew, Mariah returns to their last known location, expecting to find only painful memories. Instead, she encounters an alien spaceship and recklessly sneaks aboard, taking one last chance to be reunited with her family.The desperate move sends her across the galaxy and straight into the arms of a massive alien warrior who is determined to protect her. But no matter how much she is drawn to him, she will not be distracted from her goal\u2014to find her missing family at all costs.Years ago, when Captain Cestov and his brother argued over the fate of their dying race, his brother stormed out of his life. He has been searching for him ever since. He never expected his search to lead him to a distant planet, a troubled ranch, and a little boy who calls him Daddy. And he certainly never expected an enticing human female who makes him consider putting down roots for the first time.Neither Mariah nor Cestov ever thought they would find a permanent home. But can their shared love for a child help them to move on to a new future as a family? Or will the ghosts from their pasts tear them apart?Each book in the Treasured by the Alien series can be read as a standalone romance. This sweet and steamy HEA is intended for adults only.",
-    "book_title": "A Son for the Alien Warrior",
+    "description": "Can she create a new family with an alien warrior?On the anniversary of the disappearance of Mariah\u2019s sister and nephew, Mariah returns to their last known location, expecting to find only painful memories. Instead, she encounters an alien spaceship and recklessly sneaks aboard, taking one last chance to be reunited with her family.The desperate move sends her across the galaxy and straight into the arms of a massive alien warrior who is determined to protect her. But no matter how much she is drawn to him, she will not be distracted from her goal\u2014to find her missing family at all costs.Years ago, when Captain Cestov and his brother argued over the fate of their dying race, his brother stormed out of his life. He has been searching for him ever since. He never expected his search to lead him to a distant planet, a troubled ranch, and a little boy who calls him Daddy. And he certainly never expected an enticing human female who makes him consider putting down roots for the first time.Neither Mariah nor Cestov ever thought they would find a permanent home. But can their shared love for a child help them to move on to a new future as a family? Or will the ghosts from their pasts tear them apart?Each book in the Treasured by the Alien series can be read as a standalone romance. This sweet and steamy HEA is intended for adults only.",
     "editions": [
         "English"
     ],
@@ -20,47 +19,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "170_1"
+            "stock_id": "170_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "170_2"
+            "stock_id": "170_2"
         },
         {
             "status": "available",
-            "stock_number": "170_3"
+            "stock_id": "170_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "170_4"
+            "stock_id": "170_4"
         },
         {
             "status": "available",
-            "stock_number": "170_5"
+            "stock_id": "170_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "170_6"
+            "stock_id": "170_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "170_7"
+            "stock_id": "170_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "170_8"
+            "stock_id": "170_8"
         },
         {
             "status": "available",
-            "stock_number": "170_9"
+            "stock_id": "170_9"
         }
     ],
     "metrics": {
         "rating_votes": 2934,
         "score": 4.19
     },
-    "original_book_title": "B081885LVV",
     "pages": 463,
+    "title": "A Son for the Alien Warrior",
     "url": "https://www.goodreads.com/book/show/48756980-a-son-for-the-alien-warrior",
     "year_published": 2019
 }

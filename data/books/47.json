@@ -1,8 +1,7 @@
 {
-    "author_name": "Stephanie West",
+    "author": "Stephanie West",
     "base_id": 47,
-    "book_description": "Providence worked hard to become one of the first women to join her pararescue squad. It was difficult being one of the guys and yet not, all at the same time, but she was up for the task. Besides, there was nothing more satisfying than helping your fellow man, it was what she was born to do. Never in a million years did Providence expect to find herself abducted from a routine mission off the Florida coast by...ALIENS. Dagaa and Madhava, once enemies, became fast friends after a centuries long civil war. Both of them were beyond ready to see Cadi enter a new era. But now they face a new battle, convincing all of Cadi to embrace and rescue the Toufik, their former slaves, from a dying planet. It wasn't going to be an easy task. Infighting threatened their hard won peace and put Cadi at risk from a new foe. With so much at stake Madhava and Dagaa are blindsided when they find a fiery-haired human female on their enemy's ship. Providence's bold and loving nature awakens a side that both warriors had long since forgotten. The only problem, can Dagaa and Madhava share her affection, and can Providence withstand the love of not just one, but two overprotective warriors. Only fate knows a warrior's providence.Note: This book involves M/F/M scenes. ",
-    "book_title": "Warriors\u2019 Providence",
+    "description": "Providence worked hard to become one of the first women to join her pararescue squad. It was difficult being one of the guys and yet not, all at the same time, but she was up for the task. Besides, there was nothing more satisfying than helping your fellow man, it was what she was born to do. Never in a million years did Providence expect to find herself abducted from a routine mission off the Florida coast by...ALIENS. Dagaa and Madhava, once enemies, became fast friends after a centuries long civil war. Both of them were beyond ready to see Cadi enter a new era. But now they face a new battle, convincing all of Cadi to embrace and rescue the Toufik, their former slaves, from a dying planet. It wasn't going to be an easy task. Infighting threatened their hard won peace and put Cadi at risk from a new foe. With so much at stake Madhava and Dagaa are blindsided when they find a fiery-haired human female on their enemy's ship. Providence's bold and loving nature awakens a side that both warriors had long since forgotten. The only problem, can Dagaa and Madhava share her affection, and can Providence withstand the love of not just one, but two overprotective warriors. Only fate knows a warrior's providence.Note: This book involves M/F/M scenes. ",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "47_1"
+            "stock_id": "47_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "47_2"
+            "stock_id": "47_2"
         },
         {
             "status": "available",
-            "stock_number": "47_3"
+            "stock_id": "47_3"
         }
     ],
     "metrics": {
         "rating_votes": 424,
         "score": 3.93
     },
-    "original_book_title": "B01JHZ4BDU",
     "pages": 1174,
+    "title": "Warriors\u2019 Providence",
     "url": "https://www.goodreads.com/book/show/31327082-warriors-providence",
     "year_published": 2016
 }

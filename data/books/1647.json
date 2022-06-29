@@ -1,8 +1,7 @@
 {
-    "author_name": "James Patterson",
+    "author": "James Patterson",
     "base_id": 1647,
-    "book_description": "He was born with great powerThe greatest superpower of all isn't to be part spider, part man, or to cast magic spells--the greatest power is the power to create.Daniel X has that power.And a deadly secretDaniel's secret abilities - like being able to manipulate objects and animals with his mind or to recreate himself in any shape he chooses - have helped him survive. But Daniel doesn't have a normal life. He is the protector of the earth, the Alien Hunter, with a mission beyond anyone's imagining.Now the fate of the world rests on Daniel XFrom the day that his parents were brutally murdered before his very eyes, Daniel has used his unique gifts to hunt down their assassin. Finally, with the help of The List, bequeathed to him in his parents' dying breath, he is closing in on the killer.Now, on his own, he vows to take on his father's mission - and to take vengeance in the process.",
-    "book_title": "The Dangerous Days of Daniel X",
+    "description": "He was born with great powerThe greatest superpower of all isn't to be part spider, part man, or to cast magic spells--the greatest power is the power to create.Daniel X has that power.And a deadly secretDaniel's secret abilities - like being able to manipulate objects and animals with his mind or to recreate himself in any shape he chooses - have helped him survive. But Daniel doesn't have a normal life. He is the protector of the earth, the Alien Hunter, with a mission beyond anyone's imagining.Now the fate of the world rests on Daniel XFrom the day that his parents were brutally murdered before his very eyes, Daniel has used his unique gifts to hunt down their assassin. Finally, with the help of The List, bequeathed to him in his parents' dying breath, he is closing in on the killer.Now, on his own, he vows to take on his father's mission - and to take vengeance in the process.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1647_1"
+            "stock_id": "1647_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1647_2"
+            "stock_id": "1647_2"
         }
     ],
     "metrics": {
         "rating_votes": 16821,
         "score": 3.58
     },
-    "original_book_title": "The Dangerous Days of Daniel X",
     "pages": 804,
+    "title": "The Dangerous Days of Daniel X",
     "url": "https://www.goodreads.com/book/show/2235597.The_Dangerous_Days_of_Daniel_X",
     "year_published": 2007
 }

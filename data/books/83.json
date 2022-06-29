@@ -1,8 +1,7 @@
 {
-    "author_name": "Rob Colton",
+    "author": "Rob Colton",
     "base_id": 83,
-    "book_description": "The adventure continues in this action-packed follow up to The Degan Incident and The Cassini Mission!Peri McSmith is aboard the U.S.C. Cassini, en route to the Degan Homeworld. A routine medical examination reveals a startling yet impossible link between Peri and the Cassini\u2019s last mission.Beshel Drago, Chief Investigator for the Degan Federation, searches for leads on the rogue scientists conducting illegal genetic experiments using Degan citizens. He hits yet another a dead end\u2014until the rescued embryo\u2019s human parent is identified.When the Degan Science Institute is attacked, and the embryo stolen, it\u2019s up to Beshel and Peri to not only recover the child, but to prevent all-out war between the Degans and the Galactic Planetary Union.",
-    "book_title": "The Degan Paradox",
+    "description": "The adventure continues in this action-packed follow up to The Degan Incident and The Cassini Mission!Peri McSmith is aboard the U.S.C. Cassini, en route to the Degan Homeworld. A routine medical examination reveals a startling yet impossible link between Peri and the Cassini\u2019s last mission.Beshel Drago, Chief Investigator for the Degan Federation, searches for leads on the rogue scientists conducting illegal genetic experiments using Degan citizens. He hits yet another a dead end\u2014until the rescued embryo\u2019s human parent is identified.When the Degan Science Institute is attacked, and the embryo stolen, it\u2019s up to Beshel and Peri to not only recover the child, but to prevent all-out war between the Degans and the Galactic Planetary Union.",
     "editions": [
         "English"
     ],
@@ -20,47 +19,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "83_1"
+            "stock_id": "83_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "83_2"
+            "stock_id": "83_2"
         },
         {
             "status": "available",
-            "stock_number": "83_3"
+            "stock_id": "83_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "83_4"
+            "stock_id": "83_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "83_5"
+            "stock_id": "83_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "83_6"
+            "stock_id": "83_6"
         },
         {
             "status": "available",
-            "stock_number": "83_7"
+            "stock_id": "83_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "83_8"
+            "stock_id": "83_8"
         },
         {
             "status": "available",
-            "stock_number": "83_9"
+            "stock_id": "83_9"
         }
     ],
     "metrics": {
         "rating_votes": 696,
         "score": 4.09
     },
-    "original_book_title": "\n1626330271\n(ISBN13: 9781626330276)\n",
     "pages": 481,
+    "title": "The Degan Paradox",
     "url": "https://www.goodreads.com/book/show/24581363-the-degan-paradox",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "James A. Moore",
+    "author": "James A. Moore",
     "base_id": 254,
-    "book_description": "As a deputy commissioner for the ICC, Alan Decker\u2019s job is to make sure the settlements on LV178 follow all the rules, keeping the colonists safe. But the planet known as New Galveston holds secrets, lurking deep beneath the toxic sands dubbed the Sea of Sorrows.The Weyland-Yutani Corporation has secrets of its own, as Decker discovers when he is forced to join a team of mercenaries sent to investigate an ancient excavation. Somewhere in that long-forgotten dig lies the thing the company wants most in the universe\u2014a living Xenomorph.Decker doesn\u2019t understand why they need him, until his own past comes back to haunt him. Centuries ago, his ancestor fought the Aliens, launching a bloody vendetta that was never satisfied. That was when the creatures swore revenge on the Destroyer\u2026Ellen Ripley. Alien TM & \u00a9 1979, 2013 Twentieth Century Fox Film Corporation. All Rights Reserved.",
-    "book_title": "Alien: Sea of Sorrows",
+    "description": "As a deputy commissioner for the ICC, Alan Decker\u2019s job is to make sure the settlements on LV178 follow all the rules, keeping the colonists safe. But the planet known as New Galveston holds secrets, lurking deep beneath the toxic sands dubbed the Sea of Sorrows.The Weyland-Yutani Corporation has secrets of its own, as Decker discovers when he is forced to join a team of mercenaries sent to investigate an ancient excavation. Somewhere in that long-forgotten dig lies the thing the company wants most in the universe\u2014a living Xenomorph.Decker doesn\u2019t understand why they need him, until his own past comes back to haunt him. Centuries ago, his ancestor fought the Aliens, launching a bloody vendetta that was never satisfied. That was when the creatures swore revenge on the Destroyer\u2026Ellen Ripley. Alien TM & \u00a9 1979, 2013 Twentieth Century Fox Film Corporation. All Rights Reserved.",
     "editions": [
         "None"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "254_1"
+            "stock_id": "254_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "254_2"
+            "stock_id": "254_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "254_3"
+            "stock_id": "254_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "254_4"
+            "stock_id": "254_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "254_5"
+            "stock_id": "254_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "254_6"
+            "stock_id": "254_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "254_7"
+            "stock_id": "254_7"
         },
         {
             "status": "available",
-            "stock_number": "254_8"
+            "stock_id": "254_8"
         }
     ],
     "metrics": {
         "rating_votes": 2302,
         "score": 3.81
     },
-    "original_book_title": "\n1781162700\n(ISBN13: 9781781162705)\n",
     "pages": 402,
+    "title": "Alien: Sea of Sorrows",
     "url": "https://www.goodreads.com/book/show/18772460-alien",
     "year_published": 2014
 }

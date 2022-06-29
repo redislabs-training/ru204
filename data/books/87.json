@@ -1,8 +1,7 @@
 {
-    "author_name": "Tiffany Roberts",
+    "author": "Tiffany Roberts",
     "base_id": 87,
-    "book_description": "An undercover alien. A curvy human female he\u2019s desperate to claim. One month to make her his.Tabitha Mathews has never had much luck with men. Her past relationships only left her heart aching and her self-esteem beaten down. But who needs them? She\u2019s doing just fine on her own. She has a booming home business, an adorable, mischievous dog, and she just became a first-time homeowner\u2026right next door to the hottest man she\u2019s ever seen.Oh, did she mention that he happens to be an alien? An alien with dreamy, glowing eyes, wicked fangs and claws, and a tail.But she\u2019s not supposed to know that, and only finds out after her wonderfully considerate dog leaves a big, odorous gift in her neighbor\u2019s back yard\u2014which promptly results in her being kidnapped.Now she\u2019s tied to the alien\u2019s bed, because of course he\u2019s come to Earth in search of a mate\u2014and he wants Tabitha to fill that role. More specifically, he wants her to carry his baby.Saying he\u2019s moving fast seems like a bit of an understatement. Is Tabitha willing to accept her alien abductor as a mate? Is she ready to be a mother?And he\u2019s generous enough to give her four whole weeks to decide.It\u2019s not like it\u2019s the biggest decision of her life or anything\u2026right?",
-    "book_title": "Taken by the Alien Next Door",
+    "description": "An undercover alien. A curvy human female he\u2019s desperate to claim. One month to make her his.Tabitha Mathews has never had much luck with men. Her past relationships only left her heart aching and her self-esteem beaten down. But who needs them? She\u2019s doing just fine on her own. She has a booming home business, an adorable, mischievous dog, and she just became a first-time homeowner\u2026right next door to the hottest man she\u2019s ever seen.Oh, did she mention that he happens to be an alien? An alien with dreamy, glowing eyes, wicked fangs and claws, and a tail.But she\u2019s not supposed to know that, and only finds out after her wonderfully considerate dog leaves a big, odorous gift in her neighbor\u2019s back yard\u2014which promptly results in her being kidnapped.Now she\u2019s tied to the alien\u2019s bed, because of course he\u2019s come to Earth in search of a mate\u2014and he wants Tabitha to fill that role. More specifically, he wants her to carry his baby.Saying he\u2019s moving fast seems like a bit of an understatement. Is Tabitha willing to accept her alien abductor as a mate? Is she ready to be a mother?And he\u2019s generous enough to give her four whole weeks to decide.It\u2019s not like it\u2019s the biggest decision of her life or anything\u2026right?",
     "editions": [
         "English"
     ],
@@ -16,31 +15,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "87_1"
+            "stock_id": "87_1"
         },
         {
             "status": "available",
-            "stock_number": "87_2"
+            "stock_id": "87_2"
         },
         {
             "status": "available",
-            "stock_number": "87_3"
+            "stock_id": "87_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "87_4"
+            "stock_id": "87_4"
         },
         {
             "status": "available",
-            "stock_number": "87_5"
+            "stock_id": "87_5"
         }
     ],
     "metrics": {
         "rating_votes": 546,
         "score": 4.15
     },
-    "original_book_title": "B08L76VYL9",
     "pages": 951,
+    "title": "Taken by the Alien Next Door",
     "url": "https://www.goodreads.com/book/show/55681599-taken-by-the-alien-next-door",
     "year_published": 2020
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "John Connolly",
+    "author": "John Connolly",
     "base_id": 228,
-    "book_description": "The Earth has been invaded by the Illyri, a beautiful, civilized, yet ruthless alien race. Humanity has been conquered, but still it fights the invaders. The Resistance grows stronger, for it is the young people of Earth who are best equipped to battle the Illyri. Syl Hellais, conceived among the stars, is the oldest alien child on Earth, the first to reach sixteen years of age. Her father rules the planet. Her future is assured. And Syl has hidden gifts, powers that even she does yet fully understand. But all is not as it seems. The Illyri are at war among themselves, and the sinister Nairene Sisterhood has arrived on Earth, hungry for new blood. When Syl helps a pair of young Resistance fighters to escape execution, she finds herself sentenced to death, pursued by her own kind, and risks breaking the greatest taboo of her race by falling in love with a human. Now the hunter has become the hunted, the predator become prey. And as Syl is about to learn, the real invasion has not yet even begun...",
-    "book_title": "Conquest",
+    "description": "The Earth has been invaded by the Illyri, a beautiful, civilized, yet ruthless alien race. Humanity has been conquered, but still it fights the invaders. The Resistance grows stronger, for it is the young people of Earth who are best equipped to battle the Illyri. Syl Hellais, conceived among the stars, is the oldest alien child on Earth, the first to reach sixteen years of age. Her father rules the planet. Her future is assured. And Syl has hidden gifts, powers that even she does yet fully understand. But all is not as it seems. The Illyri are at war among themselves, and the sinister Nairene Sisterhood has arrived on Earth, hungry for new blood. When Syl helps a pair of young Resistance fighters to escape execution, she finds herself sentenced to death, pursued by her own kind, and risks breaking the greatest taboo of her race by falling in love with a human. Now the hunter has become the hunted, the predator become prey. And as Syl is about to learn, the real invasion has not yet even begun...",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "228_1"
+            "stock_id": "228_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "228_2"
+            "stock_id": "228_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "228_3"
+            "stock_id": "228_3"
         },
         {
             "status": "available",
-            "stock_number": "228_4"
+            "stock_id": "228_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "228_5"
+            "stock_id": "228_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "228_6"
+            "stock_id": "228_6"
         }
     ],
     "metrics": {
         "rating_votes": 1322,
         "score": 3.68
     },
-    "original_book_title": "Conquest",
     "pages": 1108,
+    "title": "Conquest",
     "url": "https://www.goodreads.com/book/show/18143898-conquest",
     "year_published": 2013
 }

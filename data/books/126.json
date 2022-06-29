@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 126,
-    "book_description": "On Risda III, it\u2019s custom for women to marry for convenience. It provides safety and security in a universe that offers none for humans.Me, I don\u2019t really *need* a husband. I just want one. And I want one man in particular. There\u2019s a new guy in town, a by-the-books military man named Rektar. Every day I show up to his office and flirt with him. I bring pies. I twirl my hair. I make it very, very obvious what I want.Rektar is patient, and gentle for all his hulking form. He\u2019d be a great husband. He\u2019s also completely clueless that I\u2019m flirting with him.So it\u2019s time for me to be a little bit bolder\u2026",
-    "book_title": "When She's Bold",
+    "description": "On Risda III, it\u2019s custom for women to marry for convenience. It provides safety and security in a universe that offers none for humans.Me, I don\u2019t really *need* a husband. I just want one. And I want one man in particular. There\u2019s a new guy in town, a by-the-books military man named Rektar. Every day I show up to his office and flirt with him. I bring pies. I twirl my hair. I make it very, very obvious what I want.Rektar is patient, and gentle for all his hulking form. He\u2019d be a great husband. He\u2019s also completely clueless that I\u2019m flirting with him.So it\u2019s time for me to be a little bit bolder\u2026",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "126_1"
+            "stock_id": "126_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "126_2"
+            "stock_id": "126_2"
         },
         {
             "status": "available",
-            "stock_number": "126_3"
+            "stock_id": "126_3"
         },
         {
             "status": "available",
-            "stock_number": "126_4"
+            "stock_id": "126_4"
         },
         {
             "status": "available",
-            "stock_number": "126_5"
+            "stock_id": "126_5"
         }
     ],
     "metrics": {
         "rating_votes": 931,
         "score": 4.36
     },
-    "original_book_title": "B08RXS6K4K",
     "pages": 1295,
+    "title": "When She's Bold",
     "url": "https://www.goodreads.com/book/show/56535559-when-she-s-bold",
     "year_published": 2021
 }

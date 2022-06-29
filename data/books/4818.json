@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 4818,
-    "book_description": "Saga is the sweeping tale of one young family fighting to find their place in the universe. As they visit a strange new world and encounter even more adversaries, baby Hazel finally becomes a toddler, while her star-crossed parents Marko and Alana struggle to stay on their feet.Collecting: Saga 19-24",
-    "book_title": "Saga, Vol. 4",
+    "description": "Saga is the sweeping tale of one young family fighting to find their place in the universe. As they visit a strange new world and encounter even more adversaries, baby Hazel finally becomes a toddler, while her star-crossed parents Marko and Alana struggle to stay on their feet.Collecting: Saga 19-24",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "4818_1"
+            "stock_id": "4818_1"
         },
         {
             "status": "available",
-            "stock_number": "4818_2"
+            "stock_id": "4818_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "4818_3"
+            "stock_id": "4818_3"
         }
     ],
     "metrics": {
         "rating_votes": 66121,
         "score": 4.44
     },
-    "original_book_title": "Saga, Volume Four",
     "pages": 285,
+    "title": "Saga, Vol. 4",
     "url": "https://www.goodreads.com/book/show/23093367-saga-vol-4",
     "year_published": 2014
 }

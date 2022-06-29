@@ -1,8 +1,7 @@
 {
-    "author_name": "Cecil Castellucci",
+    "author": "Cecil Castellucci",
     "base_id": 348,
-    "book_description": "On their way to start a new life, Tula and her family travel on the Prairie Rose, a colony ship headed to a planet in the outer reaches of the galaxy. All is going well until the ship makes a stop at a remote space station, the Yertina Feray, and the colonist's leader, Brother Blue, beats Tula within an inch of her life. An alien, Heckleck, saves her and teaches her the ways of life on the space station. When three humans crash land onto the station, Tula's desire for escape becomes irresistible, and her desire for companionship becomes unavoidable. But just as Tula begins to concoct a plan to get off the space station and kill Brother Blue, everything goes awry, and suddenly romance is the farthest thing from her mind.",
-    "book_title": "Tin Star",
+    "description": "On their way to start a new life, Tula and her family travel on the Prairie Rose, a colony ship headed to a planet in the outer reaches of the galaxy. All is going well until the ship makes a stop at a remote space station, the Yertina Feray, and the colonist's leader, Brother Blue, beats Tula within an inch of her life. An alien, Heckleck, saves her and teaches her the ways of life on the space station. When three humans crash land onto the station, Tula's desire for escape becomes irresistible, and her desire for companionship becomes unavoidable. But just as Tula begins to concoct a plan to get off the space station and kill Brother Blue, everything goes awry, and suddenly romance is the farthest thing from her mind.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "348_1"
+            "stock_id": "348_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "348_2"
+            "stock_id": "348_2"
         }
     ],
     "metrics": {
         "rating_votes": 1175,
         "score": 3.68
     },
-    "original_book_title": "Tin Star",
     "pages": 584,
+    "title": "Tin Star",
     "url": "https://www.goodreads.com/book/show/17255996-tin-star",
     "year_published": 2014
 }

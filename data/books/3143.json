@@ -1,8 +1,7 @@
 {
-    "author_name": "China Mi\u00e9ville",
+    "author": "China Mi\u00e9ville",
     "base_id": 3143,
-    "book_description": "In the far future, humans have colonized a distant planet, home to the enigmatic Ariekei, sentient beings famed for a language unique in the universe, one that only a few altered human ambassadors can speak.Avice Benner Cho, a human colonist, has returned to Embassytown after years of deep-space adventure. She cannot speak the Ariekei tongue, but she is an indelible part of it, having long ago been made a figure of speech, a living simile in their language.When distant political machinations deliver a new ambassador to Arieka, the fragile equilibrium between humans and aliens is violently upset. Catastrophe looms, and Avice is torn between competing loyalties\u2014to a husband she no longer loves, to a system she no longer trusts, and to her place in a language she cannot speak yet speaks through her.",
-    "book_title": "Embassytown",
+    "description": "In the far future, humans have colonized a distant planet, home to the enigmatic Ariekei, sentient beings famed for a language unique in the universe, one that only a few altered human ambassadors can speak.Avice Benner Cho, a human colonist, has returned to Embassytown after years of deep-space adventure. She cannot speak the Ariekei tongue, but she is an indelible part of it, having long ago been made a figure of speech, a living simile in their language.When distant political machinations deliver a new ambassador to Arieka, the fragile equilibrium between humans and aliens is violently upset. Catastrophe looms, and Avice is torn between competing loyalties\u2014to a husband she no longer loves, to a system she no longer trusts, and to her place in a language she cannot speak yet speaks through her.",
     "editions": [
         "English"
     ],
@@ -20,39 +19,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "3143_1"
+            "stock_id": "3143_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "3143_2"
+            "stock_id": "3143_2"
         },
         {
             "status": "available",
-            "stock_number": "3143_3"
+            "stock_id": "3143_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "3143_4"
+            "stock_id": "3143_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "3143_5"
+            "stock_id": "3143_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "3143_6"
+            "stock_id": "3143_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "3143_7"
+            "stock_id": "3143_7"
         }
     ],
     "metrics": {
         "rating_votes": 27757,
         "score": 3.88
     },
-    "original_book_title": "Embassytown",
     "pages": 384,
+    "title": "Embassytown",
     "url": "https://www.goodreads.com/book/show/9265453-embassytown",
     "year_published": 2011
 }

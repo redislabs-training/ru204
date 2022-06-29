@@ -1,8 +1,7 @@
 {
-    "author_name": "Wesley Chu",
+    "author": "Wesley Chu",
     "base_id": 1018,
-    "book_description": "When out-of-shape IT technician Roen woke up and started hearing voices in his head, he naturally assumed he was losing it. He wasn\u2019t. He now has a passenger in his brain \u2013 an ancient alien life-form called Tao, whose race crash-landed on Earth before the first fish crawled out of the oceans. Now split into two opposing factions \u2013 the peace-loving, but under-represented Prophus, and the savage, powerful Genjix \u2013 the aliens have been in a state of civil war for centuries. Both sides are searching for a way off-planet, and the Genjix will sacrifice the entire human race, if that\u2019s what it takes. Meanwhile, Roen is having to train to be the ultimate secret agent. Like that\u2019s going to end up well\u2026",
-    "book_title": "The Lives of Tao",
+    "description": "When out-of-shape IT technician Roen woke up and started hearing voices in his head, he naturally assumed he was losing it. He wasn\u2019t. He now has a passenger in his brain \u2013 an ancient alien life-form called Tao, whose race crash-landed on Earth before the first fish crawled out of the oceans. Now split into two opposing factions \u2013 the peace-loving, but under-represented Prophus, and the savage, powerful Genjix \u2013 the aliens have been in a state of civil war for centuries. Both sides are searching for a way off-planet, and the Genjix will sacrifice the entire human race, if that\u2019s what it takes. Meanwhile, Roen is having to train to be the ultimate secret agent. Like that\u2019s going to end up well\u2026",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1018_1"
+            "stock_id": "1018_1"
         },
         {
             "status": "available",
-            "stock_number": "1018_2"
+            "stock_id": "1018_2"
         },
         {
             "status": "available",
-            "stock_number": "1018_3"
+            "stock_id": "1018_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1018_4"
+            "stock_id": "1018_4"
         },
         {
             "status": "available",
-            "stock_number": "1018_5"
+            "stock_id": "1018_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1018_6"
+            "stock_id": "1018_6"
         }
     ],
     "metrics": {
         "rating_votes": 8006,
         "score": 3.75
     },
-    "original_book_title": "The Lives of Tao",
     "pages": 499,
+    "title": "The Lives of Tao",
     "url": "https://www.goodreads.com/book/show/15981711-the-lives-of-tao",
     "year_published": 2013
 }

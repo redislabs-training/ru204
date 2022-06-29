@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 2350,
-    "book_description": "The sixth book in the thrilling, action-packed, New York Times bestselling I Am Number Four series! For years the Garde have fought the Mogadorians in secret. Now all of that has changed. The invasion has begun. If the Garde can't find a way to stop the Mogs, humanity will suffer the same fate as the Lorien: annihilation.There is still hope. When the Elders sent the Garde to Earth, they had a plan\u2014one which the Garde are finally starting to understand. In the climax of The Revenge of Seven, a group of the Garde traveled to an ancient pyramid in Mexico known to their people as the Sanctuary. There they awoke a power that had been hidden within our planet for generations. Now this power can save the world . . . or destroy it. It will all depend on who wields it.",
-    "book_title": "The Fate of Ten",
+    "description": "The sixth book in the thrilling, action-packed, New York Times bestselling I Am Number Four series! For years the Garde have fought the Mogadorians in secret. Now all of that has changed. The invasion has begun. If the Garde can't find a way to stop the Mogs, humanity will suffer the same fate as the Lorien: annihilation.There is still hope. When the Elders sent the Garde to Earth, they had a plan\u2014one which the Garde are finally starting to understand. In the climax of The Revenge of Seven, a group of the Garde traveled to an ancient pyramid in Mexico known to their people as the Sanctuary. There they awoke a power that had been hidden within our planet for generations. Now this power can save the world . . . or destroy it. It will all depend on who wields it.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "2350_1"
+            "stock_id": "2350_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2350_2"
+            "stock_id": "2350_2"
         },
         {
             "status": "available",
-            "stock_number": "2350_3"
+            "stock_id": "2350_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "2350_4"
+            "stock_id": "2350_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "2350_5"
+            "stock_id": "2350_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "2350_6"
+            "stock_id": "2350_6"
         }
     ],
     "metrics": {
         "rating_votes": 30174,
         "score": 4.31
     },
-    "original_book_title": "The Fate of Ten",
     "pages": 1167,
+    "title": "The Fate of Ten",
     "url": "https://www.goodreads.com/book/show/24488476-the-fate-of-ten",
     "year_published": 2015
 }

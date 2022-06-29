@@ -1,8 +1,7 @@
 {
-    "author_name": "Marissa Meyer",
+    "author": "Marissa Meyer",
     "base_id": 31239,
-    "book_description": "Cinder returns in the second thrilling installment of the New York Times-bestselling Lunar Chronicles.She\u2019s trying to break out of prison\u2014even though if she succeeds, she\u2019ll be the Commonwealth\u2019s most wanted fugitive. Halfway around the world, Scarlet Benoit\u2019s grandmother is missing. It turns out there are many things Scarlet doesn\u2019t know about her grandmother and the grave danger she has lived in her whole life. When Scarlet encounters Wolf, a street fighter who may have information as to her grandmother\u2019s whereabouts, she has no choice but to trust him, though he clearly has a few dark secrets of his own. As Scarlet and Wolf work to unravel one mystery, they find another when they cross paths with Cinder. Together, they must stay one step ahead of the vicious Lunar Queen who will do anything to make Prince Kai her husband, her king, her prisoner.",
-    "book_title": "Scarlet",
+    "description": "Cinder returns in the second thrilling installment of the New York Times-bestselling Lunar Chronicles.She\u2019s trying to break out of prison\u2014even though if she succeeds, she\u2019ll be the Commonwealth\u2019s most wanted fugitive. Halfway around the world, Scarlet Benoit\u2019s grandmother is missing. It turns out there are many things Scarlet doesn\u2019t know about her grandmother and the grave danger she has lived in her whole life. When Scarlet encounters Wolf, a street fighter who may have information as to her grandmother\u2019s whereabouts, she has no choice but to trust him, though he clearly has a few dark secrets of his own. As Scarlet and Wolf work to unravel one mystery, they find another when they cross paths with Cinder. Together, they must stay one step ahead of the vicious Lunar Queen who will do anything to make Prince Kai her husband, her king, her prisoner.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "31239_1"
+            "stock_id": "31239_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "31239_2"
+            "stock_id": "31239_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "31239_3"
+            "stock_id": "31239_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "31239_4"
+            "stock_id": "31239_4"
         }
     ],
     "metrics": {
         "rating_votes": 325646,
         "score": 4.27
     },
-    "original_book_title": "Scarlet",
     "pages": 1128,
+    "title": "Scarlet",
     "url": "https://www.goodreads.com/book/show/13206760-scarlet",
     "year_published": 2013
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "David Brin",
+    "author": "David Brin",
     "base_id": 418,
-    "book_description": "David Brin's Uplift novels are among the most thrilling and extraordinary science fiction ever written. Sundiver, Startide Rising,and The Uplift War--a New York Times bestseller--together make up one of the most beloved sagas of all time. Brin's tales are set in a future universe in which no species can reach sentience without being \"uplifted\" by a patron race. But the greatest mystery of all remains unsolved: who uplifted humankind?As galactic armadas clash in quest of the ancient fleet of the Progenitors, a brutal alien race seizes the dying planet of Garth. The various uplifted inhabitants of Garth must battle their overlords or face ultimate extinction. At stake is the existence of Terran society and Earth, and the fate of the entire Five Galaxies. Sweeping, brilliantly crafted, inventive and dramatic, The Uplift War is an unforgettable story of adventure and wonder from one of today's science fiction greats.",
-    "book_title": "The Uplift War",
+    "description": "David Brin's Uplift novels are among the most thrilling and extraordinary science fiction ever written. Sundiver, Startide Rising,and The Uplift War--a New York Times bestseller--together make up one of the most beloved sagas of all time. Brin's tales are set in a future universe in which no species can reach sentience without being \"uplifted\" by a patron race. But the greatest mystery of all remains unsolved: who uplifted humankind?As galactic armadas clash in quest of the ancient fleet of the Progenitors, a brutal alien race seizes the dying planet of Garth. The various uplifted inhabitants of Garth must battle their overlords or face ultimate extinction. At stake is the existence of Terran society and Earth, and the fate of the entire Five Galaxies. Sweeping, brilliantly crafted, inventive and dramatic, The Uplift War is an unforgettable story of adventure and wonder from one of today's science fiction greats.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "418_1"
+            "stock_id": "418_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "418_2"
+            "stock_id": "418_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "418_3"
+            "stock_id": "418_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "418_4"
+            "stock_id": "418_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "418_5"
+            "stock_id": "418_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "418_6"
+            "stock_id": "418_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "418_7"
+            "stock_id": "418_7"
         }
     ],
     "metrics": {
         "rating_votes": 25121,
         "score": 4.07
     },
-    "original_book_title": "The Uplift War",
     "pages": 1338,
+    "title": "The Uplift War",
     "url": "https://www.goodreads.com/book/show/234489.The_Uplift_War",
     "year_published": 1987
 }

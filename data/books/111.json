@@ -1,8 +1,7 @@
 {
-    "author_name": "Honey Phillips",
+    "author": "Honey Phillips",
     "base_id": 111,
-    "book_description": " Can an alien Outcast and a lonely human find happiness together?Hypersensitive to the emotions of others, Beth is resigned to spending her life alone - until she is attacked by savage aliens. Rescued by a massive scarred warrior, she feels a connection for the first time. With a chance to finally escape her loneliness, she doesn\u2019t hesitate when he informs her she must accompany him.Dragar never expected to find the perfect female while tracking one of the saboteurs targeting his people. A former Outcast, he is scarred inside and out, and knows that he is unworthy of a mate. His instincts insist he protect the innocent female from all danger - even his own rampant attraction - but he can't resist her innocent allure.Now Beth and Dragar are being pursued across the galaxy. The time on the run is only forcing them closer together. Can Dragar put aside his troubled past and give Beth the love she deserves? Or will they both end up alone again?Each book in the Alien Abduction series features a different couple and can be enjoyed as a standalone romance.",
-    "book_title": "Beth and the Barbarian",
+    "description": " Can an alien Outcast and a lonely human find happiness together?Hypersensitive to the emotions of others, Beth is resigned to spending her life alone - until she is attacked by savage aliens. Rescued by a massive scarred warrior, she feels a connection for the first time. With a chance to finally escape her loneliness, she doesn\u2019t hesitate when he informs her she must accompany him.Dragar never expected to find the perfect female while tracking one of the saboteurs targeting his people. A former Outcast, he is scarred inside and out, and knows that he is unworthy of a mate. His instincts insist he protect the innocent female from all danger - even his own rampant attraction - but he can't resist her innocent allure.Now Beth and Dragar are being pursued across the galaxy. The time on the run is only forcing them closer together. Can Dragar put aside his troubled past and give Beth the love she deserves? Or will they both end up alone again?Each book in the Alien Abduction series features a different couple and can be enjoyed as a standalone romance.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "111_1"
+            "stock_id": "111_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "111_2"
+            "stock_id": "111_2"
         },
         {
             "status": "available",
-            "stock_number": "111_3"
+            "stock_id": "111_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "111_4"
+            "stock_id": "111_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "111_5"
+            "stock_id": "111_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "111_6"
+            "stock_id": "111_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "111_7"
+            "stock_id": "111_7"
         }
     ],
     "metrics": {
         "rating_votes": 1147,
         "score": 4.11
     },
-    "original_book_title": "B07HNPCK6K",
     "pages": 1208,
+    "title": "Beth and the Barbarian",
     "url": "https://www.goodreads.com/book/show/42081703-beth-and-the-barbarian",
     "year_published": 2018
 }

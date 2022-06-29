@@ -1,8 +1,7 @@
 {
-    "author_name": "James S.A. Corey",
+    "author": "James S.A. Corey",
     "base_id": 3814,
-    "book_description": "The fourth novel in James S.A. Corey\u2019s New York Times bestselling Expanse seriesThe gates have opened the way to thousands of habitable planets, and the land rush has begun. Settlers stream out from humanity's home planets in a vast, poorly controlled flood, landing on a new world. Among them, the Rocinante, haunted by the vast, posthuman network of the protomolecule as they investigate what destroyed the great intergalactic society that built the gates and the protomolecule.But Holden and his crew must also contend with the growing tensions between the settlers and the company which owns the official claim to the planet. Both sides will stop at nothing to defend what's theirs, but soon a terrible disease strikes and only Holden - with help from the ghostly Detective Miller - can find the cure.",
-    "book_title": "Cibola Burn",
+    "description": "The fourth novel in James S.A. Corey\u2019s New York Times bestselling Expanse seriesThe gates have opened the way to thousands of habitable planets, and the land rush has begun. Settlers stream out from humanity's home planets in a vast, poorly controlled flood, landing on a new world. Among them, the Rocinante, haunted by the vast, posthuman network of the protomolecule as they investigate what destroyed the great intergalactic society that built the gates and the protomolecule.But Holden and his crew must also contend with the growing tensions between the settlers and the company which owns the official claim to the planet. Both sides will stop at nothing to defend what's theirs, but soon a terrible disease strikes and only Holden - with help from the ghostly Detective Miller - can find the cure.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "3814_1"
+            "stock_id": "3814_1"
         },
         {
             "status": "available",
-            "stock_number": "3814_2"
+            "stock_id": "3814_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "3814_3"
+            "stock_id": "3814_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "3814_4"
+            "stock_id": "3814_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "3814_5"
+            "stock_id": "3814_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "3814_6"
+            "stock_id": "3814_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "3814_7"
+            "stock_id": "3814_7"
         }
     ],
     "metrics": {
         "rating_votes": 68752,
         "score": 4.18
     },
-    "original_book_title": "Cibola Burn",
     "pages": 1027,
+    "title": "Cibola Burn",
     "url": "https://www.goodreads.com/book/show/18656030-cibola-burn",
     "year_published": 2014
 }

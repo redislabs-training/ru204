@@ -1,8 +1,7 @@
 {
-    "author_name": "H. Beam Piper",
+    "author": "H. Beam Piper",
     "base_id": 567,
-    "book_description": "The chartered Zarathustra Company had it all their way. Their charter was for a Class III uninhabited planet, which Zarathustra was, and it meant they owned the planet lock stock and barrel. They exploited it, developed it and reaped the huge profits from it without interference from the Colonial Government. Then Jack Holloway, a sunstone prospector, appeared on the scene with his family of Fuzzies and the passionate conviction that they were not cute animals but little people. An 1 disc MP3-CD Edition.",
-    "book_title": "Little Fuzzy",
+    "description": "The chartered Zarathustra Company had it all their way. Their charter was for a Class III uninhabited planet, which Zarathustra was, and it meant they owned the planet lock stock and barrel. They exploited it, developed it and reaped the huge profits from it without interference from the Colonial Government. Then Jack Holloway, a sunstone prospector, appeared on the scene with his family of Fuzzies and the passionate conviction that they were not cute animals but little people. An 1 disc MP3-CD Edition.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "567_1"
+            "stock_id": "567_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "567_2"
+            "stock_id": "567_2"
         },
         {
             "status": "available",
-            "stock_number": "567_3"
+            "stock_id": "567_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "567_4"
+            "stock_id": "567_4"
         }
     ],
     "metrics": {
         "rating_votes": 9015,
         "score": 4.01
     },
-    "original_book_title": "Little Fuzzy",
     "pages": 213,
+    "title": "Little Fuzzy",
     "url": "https://www.goodreads.com/book/show/1440148.Little_Fuzzy",
     "year_published": 1962
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 851,
-    "book_description": "One hundred years before Ender's Game the aliens arrived on Earth with fire and death. This is the story of the First Formic War. Victor beat the alien ship to Earth, but just barely. But it wasn't enough to convince skeptical governments that there was a threat.",
-    "book_title": "Earth Afire",
+    "description": "One hundred years before Ender's Game the aliens arrived on Earth with fire and death. This is the story of the First Formic War. Victor beat the alien ship to Earth, but just barely. But it wasn't enough to convince skeptical governments that there was a threat.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "851_1"
+            "stock_id": "851_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "851_2"
+            "stock_id": "851_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "851_3"
+            "stock_id": "851_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "851_4"
+            "stock_id": "851_4"
         },
         {
             "status": "available",
-            "stock_number": "851_5"
+            "stock_id": "851_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "851_6"
+            "stock_id": "851_6"
         },
         {
             "status": "available",
-            "stock_number": "851_7"
+            "stock_id": "851_7"
         },
         {
             "status": "available",
-            "stock_number": "851_8"
+            "stock_id": "851_8"
         }
     ],
     "metrics": {
         "rating_votes": 13202,
         "score": 4.05
     },
-    "original_book_title": "Earth Afire",
     "pages": 1095,
+    "title": "Earth Afire",
     "url": "https://www.goodreads.com/book/show/16059350-earth-afire",
     "year_published": 2013
 }

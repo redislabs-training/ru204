@@ -1,8 +1,7 @@
 {
-    "author_name": "Michael Flynn",
+    "author": "Michael Flynn",
     "base_id": 566,
-    "book_description": "In 1349, one small town in Germany disappeared and has never been resettled. Tom, a contemporary historian, and his theoretical physicist girlfriend Sharon, become interested. Tom indeed becomes obsessed. By all logic, the town should have survived, but it didn't and that violates everything Tom knows about history. What's was special about Eifelheim that it utterly disappeared more than 600 years ago? Father Dietrich is the village priest of Oberhochwald, the village that will soon gain the name of Teufelheim, in later years corrupted to Eifelheim, in the year 1348, when the Black Death is gathering strength across Europe but is still not nearby. Dietrich is an educated man, knows science and philosophy, and to his astonishment becomes the first contact between humanity and an alien race from a distant star when their interstellar ship crashes in the nearby forest. It is a time of wonders, in the shadow of the plague.Tom and Sharon, and Father Dietrich, have a strange and intertwined destiny of tragedy and triumph in this brilliant SF novel by the winner of the Robert A. Heinlein Award.",
-    "book_title": "Eifelheim",
+    "description": "In 1349, one small town in Germany disappeared and has never been resettled. Tom, a contemporary historian, and his theoretical physicist girlfriend Sharon, become interested. Tom indeed becomes obsessed. By all logic, the town should have survived, but it didn't and that violates everything Tom knows about history. What's was special about Eifelheim that it utterly disappeared more than 600 years ago? Father Dietrich is the village priest of Oberhochwald, the village that will soon gain the name of Teufelheim, in later years corrupted to Eifelheim, in the year 1348, when the Black Death is gathering strength across Europe but is still not nearby. Dietrich is an educated man, knows science and philosophy, and to his astonishment becomes the first contact between humanity and an alien race from a distant star when their interstellar ship crashes in the nearby forest. It is a time of wonders, in the shadow of the plague.Tom and Sharon, and Father Dietrich, have a strange and intertwined destiny of tragedy and triumph in this brilliant SF novel by the winner of the Robert A. Heinlein Award.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "566_1"
+            "stock_id": "566_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "566_2"
+            "stock_id": "566_2"
         },
         {
             "status": "available",
-            "stock_number": "566_3"
+            "stock_id": "566_3"
         },
         {
             "status": "available",
-            "stock_number": "566_4"
+            "stock_id": "566_4"
         },
         {
             "status": "available",
-            "stock_number": "566_5"
+            "stock_id": "566_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "566_6"
+            "stock_id": "566_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "566_7"
+            "stock_id": "566_7"
         }
     ],
     "metrics": {
         "rating_votes": 3518,
         "score": 3.72
     },
-    "original_book_title": "Eifelheim",
     "pages": 289,
+    "title": "Eifelheim",
     "url": "https://www.goodreads.com/book/show/416327.Eifelheim",
     "year_published": 2006
 }

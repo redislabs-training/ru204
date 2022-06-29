@@ -1,8 +1,7 @@
 {
-    "author_name": "Larry Niven",
+    "author": "Larry Niven",
     "base_id": 419,
-    "book_description": "They first appear as a series of dots on astronomical plates, heading from Saturn directly toward Earth. Since the ringed planet carries no life, scientists deduce the mysterious ship to be a visitor from another star.The world's frantic efforts to signal the aliens go unanswered. The first contact is hostile: the invaders blast a Soviet space station, seize the survivors, and then destroy every dam and installation on Earth with a hail of asteriods. Now the conquerors are descending on the American heartland, demanding servile surrender--or death for all humans.",
-    "book_title": "Footfall",
+    "description": "They first appear as a series of dots on astronomical plates, heading from Saturn directly toward Earth. Since the ringed planet carries no life, scientists deduce the mysterious ship to be a visitor from another star.The world's frantic efforts to signal the aliens go unanswered. The first contact is hostile: the invaders blast a Soviet space station, seize the survivors, and then destroy every dam and installation on Earth with a hail of asteriods. Now the conquerors are descending on the American heartland, demanding servile surrender--or death for all humans.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "419_1"
+            "stock_id": "419_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "419_2"
+            "stock_id": "419_2"
         }
     ],
     "metrics": {
         "rating_votes": 15523,
         "score": 3.92
     },
-    "original_book_title": "Footfall",
     "pages": 744,
+    "title": "Footfall",
     "url": "https://www.goodreads.com/book/show/116356.Footfall",
     "year_published": 1985
 }

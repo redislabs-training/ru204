@@ -1,8 +1,7 @@
 {
-    "author_name": "J. Barton Mitchell",
+    "author": "J. Barton Mitchell",
     "base_id": 76,
-    "book_description": "Holt, Mira, and Max have fled Midnight City with Zoey after watching her repel an entire Assembly army. Zoey's powers are unlocked, but who and what she is remains a mystery. All she knows is that she must reach the Severed Tower, an infamous location in the middle of the world's most dangerous landscape: The Strange Lands, a place where the laws of physics have completely broken down. But the closer they get to the Tower, the more precarious things become. The Assembly has pursued Zoey into the Strange Lands. Among them is a new group, their walkers and machines strangely bereft of any color, stripped to bare metal, and whose agenda seems to differ from the rest. To make matters worse, the group hunting Holt are here, too, led by a dangerous and beautiful pirate named Ravan. So is Mira's first love, Benjamin Aubertine, whose singular ambition to reach the Tower threatens to get them all killed.Then there's the Strange Lands themselves. They have inexplicably begun to grow, spreading outwards, becoming more powerful. Somehow, it all seems tied to Zoey herself, and the closer she gets to the Tower, the weaker she becomes.",
-    "book_title": "The Severed Tower",
+    "description": "Holt, Mira, and Max have fled Midnight City with Zoey after watching her repel an entire Assembly army. Zoey's powers are unlocked, but who and what she is remains a mystery. All she knows is that she must reach the Severed Tower, an infamous location in the middle of the world's most dangerous landscape: The Strange Lands, a place where the laws of physics have completely broken down. But the closer they get to the Tower, the more precarious things become. The Assembly has pursued Zoey into the Strange Lands. Among them is a new group, their walkers and machines strangely bereft of any color, stripped to bare metal, and whose agenda seems to differ from the rest. To make matters worse, the group hunting Holt are here, too, led by a dangerous and beautiful pirate named Ravan. So is Mira's first love, Benjamin Aubertine, whose singular ambition to reach the Tower threatens to get them all killed.Then there's the Strange Lands themselves. They have inexplicably begun to grow, spreading outwards, becoming more powerful. Somehow, it all seems tied to Zoey herself, and the closer she gets to the Tower, the weaker she becomes.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "76_1"
+            "stock_id": "76_1"
         },
         {
             "status": "available",
-            "stock_number": "76_2"
+            "stock_id": "76_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "76_3"
+            "stock_id": "76_3"
         }
     ],
     "metrics": {
         "rating_votes": 557,
         "score": 4.15
     },
-    "original_book_title": "The Severed Tower",
     "pages": 274,
+    "title": "The Severed Tower",
     "url": "https://www.goodreads.com/book/show/17286745-the-severed-tower",
     "year_published": 2013
 }

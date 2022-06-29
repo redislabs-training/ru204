@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Hackett",
+    "author": "Anna Hackett",
     "base_id": 150,
-    "book_description": "She\u2019ll do anything to free her sister and save the Earth from invasion, even if she\u2019s blackmailed into stealing sacred alien artifacts\u2026and becomes the prey of the dark, deadly warrior sent to hunt her down.Special Forces Space Marine Lara Traynor wants to save her sister and her planet from annihilation by the deadly insectoid Kantos. Earth\u2019s Space Corps give her one option: steal three gems sacred to the Eon Warriors. Lara has never failed a mission and she doesn\u2019t plan to start now. What she doesn\u2019t expect is the big, hard-bodied warrior the Eon sent to stop her. Security Commander Caze Vann-Jad was born and raised to be the best Eon warrior in the empire. Honed by the military academy, his years as a stealth agent, and by his hard warrior father, he has never failed. He knows one weak, inferior Terran is no match for him. But when he finds himself face to face with the tough, skilled Lara, he realizes he\u2019s underestimated the female warrior.When they are attacked by a Kantos kill squad, it soon becomes clear that the Kantos are planning something far darker and dangerous. Caze and Lara are forced to change their dangerous battle of wits and skill into a fierce battle for survival. Neither of these fighters believe in love, but on the trail of a stolen gem, they will ignite an unstoppable desire, and discover that not only are their lives at stake, but their hearts as well. Includes a preview of Galactic Gladiators #1, Gladiator.",
-    "book_title": "Touch of Eon",
+    "description": "She\u2019ll do anything to free her sister and save the Earth from invasion, even if she\u2019s blackmailed into stealing sacred alien artifacts\u2026and becomes the prey of the dark, deadly warrior sent to hunt her down.Special Forces Space Marine Lara Traynor wants to save her sister and her planet from annihilation by the deadly insectoid Kantos. Earth\u2019s Space Corps give her one option: steal three gems sacred to the Eon Warriors. Lara has never failed a mission and she doesn\u2019t plan to start now. What she doesn\u2019t expect is the big, hard-bodied warrior the Eon sent to stop her. Security Commander Caze Vann-Jad was born and raised to be the best Eon warrior in the empire. Honed by the military academy, his years as a stealth agent, and by his hard warrior father, he has never failed. He knows one weak, inferior Terran is no match for him. But when he finds himself face to face with the tough, skilled Lara, he realizes he\u2019s underestimated the female warrior.When they are attacked by a Kantos kill squad, it soon becomes clear that the Kantos are planning something far darker and dangerous. Caze and Lara are forced to change their dangerous battle of wits and skill into a fierce battle for survival. Neither of these fighters believe in love, but on the trail of a stolen gem, they will ignite an unstoppable desire, and discover that not only are their lives at stake, but their hearts as well. Includes a preview of Galactic Gladiators #1, Gladiator.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "150_1"
+            "stock_id": "150_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "150_2"
+            "stock_id": "150_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "150_3"
+            "stock_id": "150_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "150_4"
+            "stock_id": "150_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "150_5"
+            "stock_id": "150_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "150_6"
+            "stock_id": "150_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "150_7"
+            "stock_id": "150_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "150_8"
+            "stock_id": "150_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "150_9"
+            "stock_id": "150_9"
         }
     ],
     "metrics": {
         "rating_votes": 1563,
         "score": 4.34
     },
-    "original_book_title": "B07MFLPL8B",
     "pages": 1015,
+    "title": "Touch of Eon",
     "url": "https://www.goodreads.com/book/show/43495159-touch-of-eon",
     "year_published": 2019
 }

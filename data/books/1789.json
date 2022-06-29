@@ -1,8 +1,7 @@
 {
-    "author_name": "Hiroshi Sakurazaka",
+    "author": "Hiroshi Sakurazaka",
     "base_id": 1789,
-    "book_description": "There\u2019s one thing worse than dying. It\u2019s coming back to do it again and again\u2026 When the alien Gitai invade, Keiji Kiriya is just one of many raw recruits shoved into a suit of battle armor and sent out to kill. Keiji dies on the battlefield, only to find himself reborn each morning to fight and die again and again. On the 158th iteration though, he sees something different, something out of place: the female soldier known as the Bitch of War. Is the Bitch the key to Keiji\u2019s escape, or to his final death?",
-    "book_title": "All You Need Is Kill",
+    "description": "There\u2019s one thing worse than dying. It\u2019s coming back to do it again and again\u2026 When the alien Gitai invade, Keiji Kiriya is just one of many raw recruits shoved into a suit of battle armor and sent out to kill. Keiji dies on the battlefield, only to find himself reborn each morning to fight and die again and again. On the 158th iteration though, he sees something different, something out of place: the female soldier known as the Bitch of War. Is the Bitch the key to Keiji\u2019s escape, or to his final death?",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1789_1"
+            "stock_id": "1789_1"
         },
         {
             "status": "available",
-            "stock_number": "1789_2"
+            "stock_id": "1789_2"
         },
         {
             "status": "available",
-            "stock_number": "1789_3"
+            "stock_id": "1789_3"
         }
     ],
     "metrics": {
         "rating_votes": 18410,
         "score": 4.06
     },
-    "original_book_title": "\u30aa\u30fc\u30eb\u30fb\u30e6\u30fc\u30fb\u30cb\u30fc\u30c9\u30fb\u30a4\u30ba\u30fb\u30ad\u30eb",
     "pages": 429,
+    "title": "All You Need Is Kill",
     "url": "https://www.goodreads.com/book/show/6255949-all-you-need-is-kill",
     "year_published": 2004
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Hackett",
+    "author": "Anna Hackett",
     "base_id": 118,
-    "book_description": "Fighting for love, honor, and freedom on the galaxy\u2019s lawless outer rim\u2026Space marine Blaine Strong enjoyed being a composed, controlled member of space station security\u2026until he was abducted by alien slavers. Forced into underground fight rings and pumped full of drugs, he\u2019s now seething with anger and out for revenge.Rescued by gladiators and fellow humans on the desert world of Carthago, Blaine is fighting to be the man he once was. But when the House of Galen is attacked, he must focus on joining the gladiators to fight back. That means teaming up with a tough, competitive female gladiator who not only challenges him at every turn, awakens a fierce desire he\u2019s never felt before, but a woman who can sense the churning emotions inside him.Gladiator Saff Essikani is the best net fighter in the Kor Magna Arena. Raised from young to fight, she bows to no man and uses her empathic abilities to win at whatever cost. With her House targeted and people under their care threatened, she\u2019ll stop at nothing to find those responsible. But then she finds herself face to face with a big, tortured man from Earth who affects her like no man before. As Saff and Blaine head into the desert to uncover a conspiracy, their incendiary desire flares hotter than the desert suns. But as Blaine\u2019s angry emotions rage out of control, Saff knows that unless he learns to embrace the man he is now, he has no chance of survival.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen) and a steamy romance (between a tough female gladiator and a tortured space marine). So if you like it fast, and gritty, and sexy, this is for you!",
-    "book_title": "Champion",
+    "description": "Fighting for love, honor, and freedom on the galaxy\u2019s lawless outer rim\u2026Space marine Blaine Strong enjoyed being a composed, controlled member of space station security\u2026until he was abducted by alien slavers. Forced into underground fight rings and pumped full of drugs, he\u2019s now seething with anger and out for revenge.Rescued by gladiators and fellow humans on the desert world of Carthago, Blaine is fighting to be the man he once was. But when the House of Galen is attacked, he must focus on joining the gladiators to fight back. That means teaming up with a tough, competitive female gladiator who not only challenges him at every turn, awakens a fierce desire he\u2019s never felt before, but a woman who can sense the churning emotions inside him.Gladiator Saff Essikani is the best net fighter in the Kor Magna Arena. Raised from young to fight, she bows to no man and uses her empathic abilities to win at whatever cost. With her House targeted and people under their care threatened, she\u2019ll stop at nothing to find those responsible. But then she finds herself face to face with a big, tortured man from Earth who affects her like no man before. As Saff and Blaine head into the desert to uncover a conspiracy, their incendiary desire flares hotter than the desert suns. But as Blaine\u2019s angry emotions rage out of control, Saff knows that unless he learns to embrace the man he is now, he has no chance of survival.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen) and a steamy romance (between a tough female gladiator and a tortured space marine). So if you like it fast, and gritty, and sexy, this is for you!",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "118_1"
+            "stock_id": "118_1"
         },
         {
             "status": "available",
-            "stock_number": "118_2"
+            "stock_id": "118_2"
         }
     ],
     "metrics": {
         "rating_votes": 1451,
         "score": 4.24
     },
-    "original_book_title": "B06XW5CWQS",
     "pages": 782,
+    "title": "Champion",
     "url": "https://www.goodreads.com/book/show/33847479-champion",
     "year_published": 2017
 }

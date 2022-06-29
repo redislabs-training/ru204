@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Zaires",
+    "author": "Anna Zaires",
     "base_id": 830,
-    "book_description": "\nA dark and edgy romance that will appeal to fans of erotic and turbulent relationships...\nIn the near future, the Krinar rule the Earth. An advanced race from another galaxy, they are still a mystery to us \u2013 and we are completely at their mercy.Shy and innocent, Mia Stalis is a college student in New York City who has led a very normal life. Like most people, she\u2019s never had any interactions with the invaders \u2013 until one fateful day in the park changes everything. Having caught Korum\u2019s eye, she must now contend with a powerful, dangerously seductive Krinar who wants to possess her and will stop at nothing to make her his own.How far would you go to regain your freedom? How much would you sacrifice to help your people? What choice will you make when you begin to fall for your enemy?WARNING: This book contains strong sexual content and explicit language and is not suitable for readers under 18.Word Count: 88,000",
-    "book_title": "Close Liaisons",
+    "description": "\nA dark and edgy romance that will appeal to fans of erotic and turbulent relationships...\nIn the near future, the Krinar rule the Earth. An advanced race from another galaxy, they are still a mystery to us \u2013 and we are completely at their mercy.Shy and innocent, Mia Stalis is a college student in New York City who has led a very normal life. Like most people, she\u2019s never had any interactions with the invaders \u2013 until one fateful day in the park changes everything. Having caught Korum\u2019s eye, she must now contend with a powerful, dangerously seductive Krinar who wants to possess her and will stop at nothing to make her his own.How far would you go to regain your freedom? How much would you sacrifice to help your people? What choice will you make when you begin to fall for your enemy?WARNING: This book contains strong sexual content and explicit language and is not suitable for readers under 18.Word Count: 88,000",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "830_1"
+            "stock_id": "830_1"
         },
         {
             "status": "available",
-            "stock_number": "830_2"
+            "stock_id": "830_2"
         }
     ],
     "metrics": {
         "rating_votes": 9058,
         "score": 3.7
     },
-    "original_book_title": "Close Liaisons",
     "pages": 674,
+    "title": "Close Liaisons",
     "url": "https://www.goodreads.com/book/show/17608853-close-liaisons",
     "year_published": 2012
 }

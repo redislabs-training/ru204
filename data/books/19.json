@@ -1,8 +1,7 @@
 {
-    "author_name": "Louise Wise",
+    "author": "Louise Wise",
     "base_id": 19,
-    "book_description": "Returning to Eden\u2019s prehistoric sci-fi saga that touched the hearts of readers everywhere.Jenny\u2019s from Earth. Fly\u2019s from Itor.They met in extraordinary circumstances after being abandoned on stone-age Eden. With clans of wolf-like people, Neanderthals and a savage tribe of Owains roaming the planet, they retreat to a protected corner of the world and live intimately, relying only on themselves.But the wolf-people join forces with the Neanderthals. Are they forming an alliance or an army? It forces Fly and Jenny to re-evaluate their idyllic life.But it gets serious\u2026 they aren\u2019t the enemy and before they can act, Fly disappears leaving Jenny alone once more.And when Jenny thinks it can\u2019t get any worse\u2026She becomes HUNTED.",
-    "book_title": "Hunted",
+    "description": "Returning to Eden\u2019s prehistoric sci-fi saga that touched the hearts of readers everywhere.Jenny\u2019s from Earth. Fly\u2019s from Itor.They met in extraordinary circumstances after being abandoned on stone-age Eden. With clans of wolf-like people, Neanderthals and a savage tribe of Owains roaming the planet, they retreat to a protected corner of the world and live intimately, relying only on themselves.But the wolf-people join forces with the Neanderthals. Are they forming an alliance or an army? It forces Fly and Jenny to re-evaluate their idyllic life.But it gets serious\u2026 they aren\u2019t the enemy and before they can act, Fly disappears leaving Jenny alone once more.And when Jenny thinks it can\u2019t get any worse\u2026She becomes HUNTED.",
     "editions": [
         "English"
     ],
@@ -20,19 +19,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "19_1"
+            "stock_id": "19_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "19_2"
+            "stock_id": "19_2"
         }
     ],
     "metrics": {
         "rating_votes": 386,
         "score": 3.95
     },
-    "original_book_title": "English",
     "pages": 603,
+    "title": "Hunted",
     "url": "https://www.goodreads.com/book/show/20425176-hunted",
     "year_published": 2013
 }

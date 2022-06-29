@@ -1,8 +1,7 @@
 {
-    "author_name": "Jaymin Eve",
+    "author": "Jaymin Eve",
     "base_id": 447,
-    "book_description": "A paranormal romance series. An epic journey. If the Seventine are released, will anyone survive?Abigail Swish might not love her life, living in gang-ridden New York in 2035 and training to fight and survive with Compound 23. But she is grateful for a few things, especially her no-filter-between-brain-and-mouth best friend Lucy and her escape each night into a dream world far different from her own. In fact, sometimes she lives for the fleeting moments she spends at night with the man who fuels every romantic fantasy she\u2019s ever had. But each morning reality returns. She could just cry. But she won\u2019t of course; tears don\u2019t change a damn thing.Then without any warning, a month before her eighteenth birthday, everything does change. A guardian finds her. He explains, in a strangely familiar accent, that she was stashed on Earth for safekeeping and has been lost to her family ever since. And it is time to return home. To the First World; a land of unimagined beauty. Abigail and Lucy find themselves escaping New York, ending up on another planet and traversing through an unforgiving wilderness. Yeah, because that sort of thing just happens every day. Luckily an unexpected saviour arrives; the man from her dream-world. Brace is six-and-a-half feet of gorgeous perfectness, wrapped in an arrogance like no other. Unable to trust his assistance, and unsure which of her instincts to follow - kiss him or punch him in the mouth - Abigail eventually accepts his help to find her family. And what a family. Enter Josian, her father; larger than life and apparently not even human. He is Walker, a planet-less race revered as gods, causing mischief and mayhem through-out this star-system. Unfortunately, there is no time for a cosy reunion, since no one explained that by returning to First World her half-Walker genetics would act as a catalyst setting forth a chain of events which could spell disaster for not only her existence but that of all worlds.First World is book one in the Walker Saga, a seven-book paranormal fantasy series.Spurn - A Walker Saga Book Two release date set for September 2013.",
-    "book_title": "First World",
+    "description": "A paranormal romance series. An epic journey. If the Seventine are released, will anyone survive?Abigail Swish might not love her life, living in gang-ridden New York in 2035 and training to fight and survive with Compound 23. But she is grateful for a few things, especially her no-filter-between-brain-and-mouth best friend Lucy and her escape each night into a dream world far different from her own. In fact, sometimes she lives for the fleeting moments she spends at night with the man who fuels every romantic fantasy she\u2019s ever had. But each morning reality returns. She could just cry. But she won\u2019t of course; tears don\u2019t change a damn thing.Then without any warning, a month before her eighteenth birthday, everything does change. A guardian finds her. He explains, in a strangely familiar accent, that she was stashed on Earth for safekeeping and has been lost to her family ever since. And it is time to return home. To the First World; a land of unimagined beauty. Abigail and Lucy find themselves escaping New York, ending up on another planet and traversing through an unforgiving wilderness. Yeah, because that sort of thing just happens every day. Luckily an unexpected saviour arrives; the man from her dream-world. Brace is six-and-a-half feet of gorgeous perfectness, wrapped in an arrogance like no other. Unable to trust his assistance, and unsure which of her instincts to follow - kiss him or punch him in the mouth - Abigail eventually accepts his help to find her family. And what a family. Enter Josian, her father; larger than life and apparently not even human. He is Walker, a planet-less race revered as gods, causing mischief and mayhem through-out this star-system. Unfortunately, there is no time for a cosy reunion, since no one explained that by returning to First World her half-Walker genetics would act as a catalyst setting forth a chain of events which could spell disaster for not only her existence but that of all worlds.First World is book one in the Walker Saga, a seven-book paranormal fantasy series.Spurn - A Walker Saga Book Two release date set for September 2013.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "447_1"
+            "stock_id": "447_1"
         },
         {
             "status": "available",
-            "stock_number": "447_2"
+            "stock_id": "447_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "447_3"
+            "stock_id": "447_3"
         }
     ],
     "metrics": {
         "rating_votes": 7413,
         "score": 4.04
     },
-    "original_book_title": "First World",
     "pages": 1288,
+    "title": "First World",
     "url": "https://www.goodreads.com/book/show/18229437-first-world",
     "year_published": 2013
 }

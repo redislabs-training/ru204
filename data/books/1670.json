@@ -1,8 +1,7 @@
 {
-    "author_name": "John Scalzi",
+    "author": "John Scalzi",
     "base_id": 1670,
-    "book_description": "A human diplomat kills his alien counterpart. Earth is on the verge of war with a vastly superior alien race. A lone man races against time and a host of enemies to find the one object that can save our planet and our people from alien enslavement...A sheep.That's right, a sheep. And if you think that's the most surprising thing about this book, wait until you read Chapter One. Welcome to The Android's Dream.For Harry Creek, it's quickly becoming a nightmare. All he wants is to do his uncomplicated mid-level diplomatic job with Earth's State Department. But his past training and skills get him tapped to save the planet--and to protect pet store owner Robin Baker, whose own past holds the key to the whereabouts of that lost sheep. Doing both will take him from lava-strewn battlefields to alien halls of power. All in a day's work. Maybe it's time for a raise.Throw in two-timing freelance mercenaries, political lobbyists with megalomaniac tendencies, aliens on a religious quest, and an artificial intelligence with unusual backstory, and you've got more than just your usual science fiction adventure story. You've got The Android's Dream.",
-    "book_title": "The Android's Dream",
+    "description": "A human diplomat kills his alien counterpart. Earth is on the verge of war with a vastly superior alien race. A lone man races against time and a host of enemies to find the one object that can save our planet and our people from alien enslavement...A sheep.That's right, a sheep. And if you think that's the most surprising thing about this book, wait until you read Chapter One. Welcome to The Android's Dream.For Harry Creek, it's quickly becoming a nightmare. All he wants is to do his uncomplicated mid-level diplomatic job with Earth's State Department. But his past training and skills get him tapped to save the planet--and to protect pet store owner Robin Baker, whose own past holds the key to the whereabouts of that lost sheep. Doing both will take him from lava-strewn battlefields to alien halls of power. All in a day's work. Maybe it's time for a raise.Throw in two-timing freelance mercenaries, political lobbyists with megalomaniac tendencies, aliens on a religious quest, and an artificial intelligence with unusual backstory, and you've got more than just your usual science fiction adventure story. You've got The Android's Dream.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1670_1"
+            "stock_id": "1670_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1670_2"
+            "stock_id": "1670_2"
         }
     ],
     "metrics": {
         "rating_votes": 19282,
         "score": 3.98
     },
-    "original_book_title": "The Android's Dream",
     "pages": 776,
+    "title": "The Android's Dream",
     "url": "https://www.goodreads.com/book/show/7081.The_Android_s_Dream",
     "year_published": 2006
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 3903,
-    "book_description": "The war for survival of the planet Lusitania will be fought in the hearts of a child named Gloriously Bright.On Lusitania, Ender found a world where humans and pequininos and the Hive Queen could all live together; where three very different intelligent species could find common ground at last. Or so he thought.Lusitania also harbors the descolada, a virus that kills all humans it infects, but which the pequininos require in order to become adults. The Starways Congress so fears the effects of the descolada, should it escape from Lusitania, that they have ordered the destruction of the entire planet, and all who live there. The Fleet is on its way, and a second xenocide seems inevitable.",
-    "book_title": "Xenocide",
+    "description": "The war for survival of the planet Lusitania will be fought in the hearts of a child named Gloriously Bright.On Lusitania, Ender found a world where humans and pequininos and the Hive Queen could all live together; where three very different intelligent species could find common ground at last. Or so he thought.Lusitania also harbors the descolada, a virus that kills all humans it infects, but which the pequininos require in order to become adults. The Starways Congress so fears the effects of the descolada, should it escape from Lusitania, that they have ordered the destruction of the entire planet, and all who live there. The Fleet is on its way, and a second xenocide seems inevitable.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "3903_1"
+            "stock_id": "3903_1"
         },
         {
             "status": "available",
-            "stock_number": "3903_2"
+            "stock_id": "3903_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "3903_3"
+            "stock_id": "3903_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "3903_4"
+            "stock_id": "3903_4"
         },
         {
             "status": "available",
-            "stock_number": "3903_5"
+            "stock_id": "3903_5"
         },
         {
             "status": "available",
-            "stock_number": "3903_6"
+            "stock_id": "3903_6"
         },
         {
             "status": "available",
-            "stock_number": "3903_7"
+            "stock_id": "3903_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "3903_8"
+            "stock_id": "3903_8"
         },
         {
             "status": "available",
-            "stock_number": "3903_9"
+            "stock_id": "3903_9"
         }
     ],
     "metrics": {
         "rating_votes": 144422,
         "score": 3.8
     },
-    "original_book_title": "Xenocide",
     "pages": 1228,
+    "title": "Xenocide",
     "url": "https://www.goodreads.com/book/show/8648.Xenocide",
     "year_published": 1991
 }

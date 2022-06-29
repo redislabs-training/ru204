@@ -1,8 +1,7 @@
 {
-    "author_name": "Karen Traviss",
+    "author": "Karen Traviss",
     "base_id": 153,
-    "book_description": "Three separate alien societies have claims on Cavanagh's Star. But the new arrivals -- the gethes from Earth -- now threaten the tenuous balance of a coveted world.Environmental Hazard Enforcement officer Shan Frankland agreed to lead a mission to Cavanagh's Star, knowing that 150 years would elapse before she could finally return home. But her landing, with a small group of scientists and Marines, has not gone unnoticed by Aras, the planet's designated guardian. An eternally evolving world himself, this sad, powerful being has already obliterated millions of alien interlopers and their great cities to protect the fragile native population. Now Shan and her party -- plus the small colony of fundamentalist humans who preceded them -- could face a similar annihilation . . . or a fate far worse. Because Aras possesses a secret of the blood that would be disastrous if it fell into human hands -- if the gethes survive the impending war their coming has inadvertently hastened.",
-    "book_title": "City of Pearl",
+    "description": "Three separate alien societies have claims on Cavanagh's Star. But the new arrivals -- the gethes from Earth -- now threaten the tenuous balance of a coveted world.Environmental Hazard Enforcement officer Shan Frankland agreed to lead a mission to Cavanagh's Star, knowing that 150 years would elapse before she could finally return home. But her landing, with a small group of scientists and Marines, has not gone unnoticed by Aras, the planet's designated guardian. An eternally evolving world himself, this sad, powerful being has already obliterated millions of alien interlopers and their great cities to protect the fragile native population. Now Shan and her party -- plus the small colony of fundamentalist humans who preceded them -- could face a similar annihilation . . . or a fate far worse. Because Aras possesses a secret of the blood that would be disastrous if it fell into human hands -- if the gethes survive the impending war their coming has inadvertently hastened.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "153_1"
+            "stock_id": "153_1"
         },
         {
             "status": "available",
-            "stock_number": "153_2"
+            "stock_id": "153_2"
         },
         {
             "status": "available",
-            "stock_number": "153_3"
+            "stock_id": "153_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "153_4"
+            "stock_id": "153_4"
         }
     ],
     "metrics": {
         "rating_votes": 2102,
         "score": 3.88
     },
-    "original_book_title": "City of Pearl",
     "pages": 1150,
+    "title": "City of Pearl",
     "url": "https://www.goodreads.com/book/show/124841.City_of_Pearl",
     "year_published": 2004
 }

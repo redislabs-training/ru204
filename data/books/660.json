@@ -1,8 +1,7 @@
 {
-    "author_name": "Vera Nazarian",
+    "author": "Vera Nazarian",
     "base_id": 660,
-    "book_description": "The Atlantis Grail has been optioned for development as a feature film series and/or TV series.\nYou have two options. You die, or you Qualify.\nThe year is 2047. An extinction-level asteroid is hurtling toward Earth, and the descendents of ancient Atlantis have returned from the stars in their silver ships to offer humanity help.But there\u2019s a catch.They can only take a tiny percent of the Earth\u2019s population back to the colony planet Atlantis. And in order to be chosen, you must be a teen, you must be bright, talented, and athletic, and you must Qualify.Sixteen-year-old Gwenevere Lark is determined not only to Qualify but to rescue her entire family.Because there\u2019s a loophole.If you are good enough to Qualify, you are eligible to compete in the brutal games of the Atlantis Grail, which grants all winners the laurels, high tech luxuries, and full privileges of Atlantis Citizenship. And if you are in the Top Ten, then all your wildest wishes are granted\u2026 Such as curing your mother\u2019s cancer.There is only one problem.Gwen Lark is known as a klutz and a nerd. While she\u2019s a hotshot in classics, history, science, and languages, the closest she\u2019s come to sports is a backyard pool and a skateboard.This time she is in over her head, and in for a fight of her life, against impossible odds and world-class competition\u2014including Logan Sangre, the most amazing guy in her class, the one she\u2019s been crushing on, and who doesn\u2019t seem to know she exists.Because every other teen on Earth has the same idea.\nYou Qualify or you die.\n* * *EXCERPT!Now you can read \nChapter One\n in its entirety (click here)!* * *",
-    "book_title": "Qualify",
+    "description": "The Atlantis Grail has been optioned for development as a feature film series and/or TV series.\nYou have two options. You die, or you Qualify.\nThe year is 2047. An extinction-level asteroid is hurtling toward Earth, and the descendents of ancient Atlantis have returned from the stars in their silver ships to offer humanity help.But there\u2019s a catch.They can only take a tiny percent of the Earth\u2019s population back to the colony planet Atlantis. And in order to be chosen, you must be a teen, you must be bright, talented, and athletic, and you must Qualify.Sixteen-year-old Gwenevere Lark is determined not only to Qualify but to rescue her entire family.Because there\u2019s a loophole.If you are good enough to Qualify, you are eligible to compete in the brutal games of the Atlantis Grail, which grants all winners the laurels, high tech luxuries, and full privileges of Atlantis Citizenship. And if you are in the Top Ten, then all your wildest wishes are granted\u2026 Such as curing your mother\u2019s cancer.There is only one problem.Gwen Lark is known as a klutz and a nerd. While she\u2019s a hotshot in classics, history, science, and languages, the closest she\u2019s come to sports is a backyard pool and a skateboard.This time she is in over her head, and in for a fight of her life, against impossible odds and world-class competition\u2014including Logan Sangre, the most amazing guy in her class, the one she\u2019s been crushing on, and who doesn\u2019t seem to know she exists.Because every other teen on Earth has the same idea.\nYou Qualify or you die.\n* * *EXCERPT!Now you can read \nChapter One\n in its entirety (click here)!* * *",
     "editions": [
         "English"
     ],
@@ -20,19 +19,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "660_1"
+            "stock_id": "660_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "660_2"
+            "stock_id": "660_2"
         }
     ],
     "metrics": {
         "rating_votes": 8396,
         "score": 3.87
     },
-    "original_book_title": "Qualify",
     "pages": 830,
+    "title": "Qualify",
     "url": "https://www.goodreads.com/book/show/21845122-qualify",
     "year_published": 2014
 }

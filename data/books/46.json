@@ -1,8 +1,7 @@
 {
-    "author_name": "Michelle M. Pillow",
+    "author": "Michelle M. Pillow",
     "base_id": 46,
-    "book_description": "Shapeshifter RomanceCat-shifter Prince Jarek sails the high sky doing what he pleases\u2026that is until drug dealers kidnap one of his men. But the rescue mission goes wrong and instead of a crewman, he liberates a woman who he believes is desperately trying to escape her captors. He soon discovers he unwittingly kidnaped a princess. Mei has just learned her future from a seer, and it seems fate is giving her in marriage to a neighboring ruler. She will do her duty, but first she wants to experience an adventure. When the pirates come to steal, she knows exactly who she wants that adventure to be.",
-    "book_title": "The Pirate Prince",
+    "description": "Shapeshifter RomanceCat-shifter Prince Jarek sails the high sky doing what he pleases\u2026that is until drug dealers kidnap one of his men. But the rescue mission goes wrong and instead of a crewman, he liberates a woman who he believes is desperately trying to escape her captors. He soon discovers he unwittingly kidnaped a princess. Mei has just learned her future from a seer, and it seems fate is giving her in marriage to a neighboring ruler. She will do her duty, but first she wants to experience an adventure. When the pirates come to steal, she knows exactly who she wants that adventure to be.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "46_1"
+            "stock_id": "46_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "46_2"
+            "stock_id": "46_2"
         },
         {
             "status": "available",
-            "stock_number": "46_3"
+            "stock_id": "46_3"
         }
     ],
     "metrics": {
         "rating_votes": 1234,
         "score": 4.13
     },
-    "original_book_title": "The Pirate Prince",
     "pages": 381,
+    "title": "The Pirate Prince",
     "url": "https://www.goodreads.com/book/show/12701151-the-pirate-prince",
     "year_published": 2006
 }

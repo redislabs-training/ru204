@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 264,
-    "book_description": "What\u2019s a bigger disaster than being stranded on an ice planet with a bunch of aliens, never to return home? Resonating to the biggest jerk of all those aliens, of course. I hate M\u2019tok, and it seems to be mutual. He thinks I\u2019m ugly and unpleasant, and doesn\u2019t understand why I don\u2019t just fling myself at him. In his eyes, resonance has decided, and that\u2019s that.Problem is, resonance keeps pushing us together. And when that doesn\u2019t make me jump into his furs\u2026he steals me away from the camp. I can\u2019t avoid him if there\u2019s nowhere to go.I want to hate him even more for that. But I keep finding out that M\u2019tok isn\u2019t who I thought he was. And the man I hate? Doesn\u2019t hate me at all\u2026",
-    "book_title": "Callie's Catastrophe",
+    "description": "What\u2019s a bigger disaster than being stranded on an ice planet with a bunch of aliens, never to return home? Resonating to the biggest jerk of all those aliens, of course. I hate M\u2019tok, and it seems to be mutual. He thinks I\u2019m ugly and unpleasant, and doesn\u2019t understand why I don\u2019t just fling myself at him. In his eyes, resonance has decided, and that\u2019s that.Problem is, resonance keeps pushing us together. And when that doesn\u2019t make me jump into his furs\u2026he steals me away from the camp. I can\u2019t avoid him if there\u2019s nowhere to go.I want to hate him even more for that. But I keep finding out that M\u2019tok isn\u2019t who I thought he was. And the man I hate? Doesn\u2019t hate me at all\u2026",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "264_1"
+            "stock_id": "264_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "264_2"
+            "stock_id": "264_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "264_3"
+            "stock_id": "264_3"
         },
         {
             "status": "available",
-            "stock_number": "264_4"
+            "stock_id": "264_4"
         }
     ],
     "metrics": {
         "rating_votes": 2207,
         "score": 4.08
     },
-    "original_book_title": "Callie's Catastrophe",
     "pages": 554,
+    "title": "Callie's Catastrophe",
     "url": "https://www.goodreads.com/book/show/48659276-callie-s-catastrophe",
     "year_published": 2019
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Stephenie Meyer",
+    "author": "Stephenie Meyer",
     "base_id": 41673,
-    "book_description": "Melanie Stryder refuses to fade away. The earth has been invaded by a species that take over the minds of human hosts while leaving their bodies intact. Wanderer, the invading \"soul\" who has been given Melanie's body, didn't expect to find its former tenant refusing to relinquish possession of her mind.As Melanie fills Wanderer's thoughts with visions of Jared, a human who still lives in hiding, Wanderer begins to yearn for a man she's never met. Reluctant allies, Wanderer and Melanie set off to search for the man they both love.Also see: Alternate Cover Editions for this ISBN [ACE]\nACE #1\n - \nACE #2\n",
-    "book_title": "The Host",
+    "description": "Melanie Stryder refuses to fade away. The earth has been invaded by a species that take over the minds of human hosts while leaving their bodies intact. Wanderer, the invading \"soul\" who has been given Melanie's body, didn't expect to find its former tenant refusing to relinquish possession of her mind.As Melanie fills Wanderer's thoughts with visions of Jared, a human who still lives in hiding, Wanderer begins to yearn for a man she's never met. Reluctant allies, Wanderer and Melanie set off to search for the man they both love.Also see: Alternate Cover Editions for this ISBN [ACE]\nACE #1\n - \nACE #2\n",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "41673_1"
+            "stock_id": "41673_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "41673_2"
+            "stock_id": "41673_2"
         },
         {
             "status": "available",
-            "stock_number": "41673_3"
+            "stock_id": "41673_3"
         },
         {
             "status": "available",
-            "stock_number": "41673_4"
+            "stock_id": "41673_4"
         },
         {
             "status": "available",
-            "stock_number": "41673_5"
+            "stock_id": "41673_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "41673_6"
+            "stock_id": "41673_6"
         }
     ],
     "metrics": {
         "rating_votes": 915026,
         "score": 3.84
     },
-    "original_book_title": "The Host",
     "pages": 1242,
+    "title": "The Host",
     "url": "https://www.goodreads.com/book/show/1656001.The_Host",
     "year_published": 2008
 }

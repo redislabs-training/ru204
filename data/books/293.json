@@ -1,8 +1,7 @@
 {
-    "author_name": "G.S. Jennsen",
+    "author": "G.S. Jennsen",
     "base_id": 293,
-    "book_description": "SPACE IS VAST AND UNTAMED, AND IT HOLDS MANY SECRETS.Now two individuals from opposite ends of settled space are on a collision course with the darkest of those secrets, even as the world threatens to explode around them.The year is 2322. Humanity has expanded into the stars, inhabiting over 100 worlds across a third of the galaxy. Though thriving as never before, they have discovered neither alien life nor the key to utopia. Earth struggles to retain authority over far-flung planets and free-wheeling corporations while an uneasy armistice with a breakaway federation hangs by a thread as the former rebels rise in wealth and power.Alexis Solovy is Earth Alliance royalty, her father a fallen war hero and her mother an influential military leader. But she seeks only the freedom of space and has made a fortune by reading the patterns in the chaos to discover the hidden wonders of the stars.Nothing about her latest objective suggests the secret it conceals will turn her life-- not to mention the entire galaxy--upside down. But a chance encounter with a mysterious spy leads to a discovery which will thrust Alex into the middle of a galactic power struggle and a sinister conspiracy, whether she likes it or not.",
-    "book_title": "Starshine",
+    "description": "SPACE IS VAST AND UNTAMED, AND IT HOLDS MANY SECRETS.Now two individuals from opposite ends of settled space are on a collision course with the darkest of those secrets, even as the world threatens to explode around them.The year is 2322. Humanity has expanded into the stars, inhabiting over 100 worlds across a third of the galaxy. Though thriving as never before, they have discovered neither alien life nor the key to utopia. Earth struggles to retain authority over far-flung planets and free-wheeling corporations while an uneasy armistice with a breakaway federation hangs by a thread as the former rebels rise in wealth and power.Alexis Solovy is Earth Alliance royalty, her father a fallen war hero and her mother an influential military leader. But she seeks only the freedom of space and has made a fortune by reading the patterns in the chaos to discover the hidden wonders of the stars.Nothing about her latest objective suggests the secret it conceals will turn her life-- not to mention the entire galaxy--upside down. But a chance encounter with a mysterious spy leads to a discovery which will thrust Alex into the middle of a galactic power struggle and a sinister conspiracy, whether she likes it or not.",
     "editions": [
         "None"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "293_1"
+            "stock_id": "293_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "293_2"
+            "stock_id": "293_2"
         },
         {
             "status": "available",
-            "stock_number": "293_3"
+            "stock_id": "293_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "293_4"
+            "stock_id": "293_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "293_5"
+            "stock_id": "293_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "293_6"
+            "stock_id": "293_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "293_7"
+            "stock_id": "293_7"
         },
         {
             "status": "available",
-            "stock_number": "293_8"
+            "stock_id": "293_8"
         }
     ],
     "metrics": {
         "rating_votes": 2779,
         "score": 3.92
     },
-    "original_book_title": "Starshine",
     "pages": 589,
+    "title": "Starshine",
     "url": "https://www.goodreads.com/book/show/49981659-starshine",
     "year_published": 2014
 }

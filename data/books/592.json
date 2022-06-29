@@ -1,8 +1,7 @@
 {
-    "author_name": "Mark Haddon",
+    "author": "Mark Haddon",
     "base_id": 592,
-    "book_description": "Jim and his best friend Charlie bug the staff room, and overhear two teachers speak in a strange language. What does \"spudvetch\" mean? Why do Mr Kidd's eyes flicker with fluorescent blue light when Charlie says spudvetch to him? A high-powered adventure can end only with a Boom!",
-    "book_title": "Boom",
+    "description": "Jim and his best friend Charlie bug the staff room, and overhear two teachers speak in a strange language. What does \"spudvetch\" mean? Why do Mr Kidd's eyes flicker with fluorescent blue light when Charlie says spudvetch to him? A high-powered adventure can end only with a Boom!",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "592_1"
+            "stock_id": "592_1"
         },
         {
             "status": "available",
-            "stock_number": "592_2"
+            "stock_id": "592_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "592_3"
+            "stock_id": "592_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "592_4"
+            "stock_id": "592_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "592_5"
+            "stock_id": "592_5"
         },
         {
             "status": "available",
-            "stock_number": "592_6"
+            "stock_id": "592_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "592_7"
+            "stock_id": "592_7"
         },
         {
             "status": "available",
-            "stock_number": "592_8"
+            "stock_id": "592_8"
         }
     ],
     "metrics": {
         "rating_votes": 4919,
         "score": 3.41
     },
-    "original_book_title": "Gridzbi Spudvetch!",
     "pages": 487,
+    "title": "Boom",
     "url": "https://www.goodreads.com/book/show/6116753-boom",
     "year_published": 1992
 }

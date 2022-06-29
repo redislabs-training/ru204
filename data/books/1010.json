@@ -1,8 +1,7 @@
 {
-    "author_name": "R. Lee Smith",
+    "author": "R. Lee Smith",
     "base_id": 1010,
-    "book_description": "It was her last chance:Amber Bierce had nothing left except her sister and two tickets on Earth\u2019s first colony-ship. She entered her Sleeper with a five-year contract and the promise of a better life, but awakened in wreckage on an unknown world. For the survivors, there is no rescue, no way home and no hope until they are found by Meoraq\u2014a holy warrior more deadly than any hungering beast on this hostile new world\u2026but whose eyes show a different sort of hunger when he looks at her.It was his last year of freedom:Uyane Meoraq is a Sword of Sheul, God\u2019s own instrument of judgment, victor of hundreds of trials, with a conqueror\u2019s rights over all men. Or at least he was until his father\u2019s death. Now, without divine intervention, he will be forced to assume stewardship over House Uyane and lose the life he has always known. At the legendary temple of Xi\u2019Matezh, Meoraq hopes to find the deliverance he seeks, but the humans he encounters on his pilgrimage may prove too great a test even for him\u2026especially the one called Amber, behind whose monstrous appearance burns a woman\u2019s heart unlike any he has ever known.",
-    "book_title": "The Last Hour of Gann",
+    "description": "It was her last chance:Amber Bierce had nothing left except her sister and two tickets on Earth\u2019s first colony-ship. She entered her Sleeper with a five-year contract and the promise of a better life, but awakened in wreckage on an unknown world. For the survivors, there is no rescue, no way home and no hope until they are found by Meoraq\u2014a holy warrior more deadly than any hungering beast on this hostile new world\u2026but whose eyes show a different sort of hunger when he looks at her.It was his last year of freedom:Uyane Meoraq is a Sword of Sheul, God\u2019s own instrument of judgment, victor of hundreds of trials, with a conqueror\u2019s rights over all men. Or at least he was until his father\u2019s death. Now, without divine intervention, he will be forced to assume stewardship over House Uyane and lose the life he has always known. At the legendary temple of Xi\u2019Matezh, Meoraq hopes to find the deliverance he seeks, but the humans he encounters on his pilgrimage may prove too great a test even for him\u2026especially the one called Amber, behind whose monstrous appearance burns a woman\u2019s heart unlike any he has ever known.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1010_1"
+            "stock_id": "1010_1"
         },
         {
             "status": "available",
-            "stock_number": "1010_2"
+            "stock_id": "1010_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1010_3"
+            "stock_id": "1010_3"
         }
     ],
     "metrics": {
         "rating_votes": 5474,
         "score": 4.09
     },
-    "original_book_title": "The Last Hour of Gann",
     "pages": 1342,
+    "title": "The Last Hour of Gann",
     "url": "https://www.goodreads.com/book/show/18589656-the-last-hour-of-gann",
     "year_published": 2013
 }

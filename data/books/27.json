@@ -1,8 +1,7 @@
 {
-    "author_name": "Kaitlyn O'Connor",
+    "author": "Kaitlyn O'Connor",
     "base_id": 27,
-    "book_description": "Librarian Note: This book has also been published as Breeder ProjectSent to harvest breeders for their dying civilization, Camryn, Kael, and Ean chose Simone for her spirit, never realizing that the one thing they found so desirable in her as a mother for their sons would be the catalyst to turn their empire on its axis.",
-    "book_title": "Alien Penetration",
+    "description": "Librarian Note: This book has also been published as Breeder ProjectSent to harvest breeders for their dying civilization, Camryn, Kael, and Ean chose Simone for her spirit, never realizing that the one thing they found so desirable in her as a mother for their sons would be the catalyst to turn their empire on its axis.",
     "editions": [
         "English"
     ],
@@ -20,23 +19,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "27_1"
+            "stock_id": "27_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "27_2"
+            "stock_id": "27_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "27_3"
+            "stock_id": "27_3"
         }
     ],
     "metrics": {
         "rating_votes": 593,
         "score": 3.29
     },
-    "original_book_title": "Alien Penetration (Alien Breeders, #1)",
     "pages": 444,
+    "title": "Alien Penetration",
     "url": "https://www.goodreads.com/book/show/6543714-alien-penetration",
     "year_published": 2009
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 6969,
-    "book_description": "The smash-hit ongoing epic continues! Thanks to her star-crossed parents Marko and Alana, newborn baby Hazel has already survived lethal assassins, rampaging armies, and alien monstrosities, but in the cold vastness of outer space, the little girl encounters something truly frightening: her grandparents!",
-    "book_title": "Saga, Vol. 2",
+    "description": "The smash-hit ongoing epic continues! Thanks to her star-crossed parents Marko and Alana, newborn baby Hazel has already survived lethal assassins, rampaging armies, and alien monstrosities, but in the cold vastness of outer space, the little girl encounters something truly frightening: her grandparents!",
     "editions": [
         "English"
     ],
@@ -20,31 +19,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "6969_1"
+            "stock_id": "6969_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "6969_2"
+            "stock_id": "6969_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "6969_3"
+            "stock_id": "6969_3"
         },
         {
             "status": "available",
-            "stock_number": "6969_4"
+            "stock_id": "6969_4"
         },
         {
             "status": "available",
-            "stock_number": "6969_5"
+            "stock_id": "6969_5"
         }
     ],
     "metrics": {
         "rating_votes": 93038,
         "score": 4.52
     },
-    "original_book_title": "Saga, Volume Two",
     "pages": 878,
+    "title": "Saga, Vol. 2",
     "url": "https://www.goodreads.com/book/show/17131869-saga-vol-2",
     "year_published": 2013
 }

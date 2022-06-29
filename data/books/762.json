@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 762,
-    "book_description": "\nDeath Stalks Them All...\nKere is the second most infamous member of the shadow organization known as Sentella. An explosive engineer who strikes terror into the hearts of the League, the bounty on his head is truly staggering. No one knows his true identity.The daughter of a traitor, Zarya Starska grew up hard on the back streets of hell- her family hunted to the brink of extinction. But Zarya dreams of a different life and a different world. A world where the harsh hand of the Caronese emperor doesn\u2019t destroy his subjects. As a Resistance leader, her goal is to topple the government that needlessly ruined the lives of her family and comrades-in-arms. In this deadly quest, the only person she can trust is a mysterious man known only as Kere.\nBy The Light Of Day...\nKere has a dark secret and a brutal past. As he aids the Resistance, he\u2019s actually working to bring down his own family- the Cruels- so named for the viciousness in their blood that runs so deep, no other name would do. Born and bred from one of the oldest and noblest families in the United Systems, Kere\u2019s real name is Darling Cruel. And the one thing he wants most is to see his uncle, who stole the crown by murdering his father, pay for his crimes.\nIf You Tell A Lie Long Enough, It Becomes The Truth...\nIn order to protect his mother from execution, Darling\u2019s entire life has been built on a lie that he dare not breathe a contrary word about. His hands tied by his uncle\u2019s cruelty. No one has ever seen the real him. No one except Zarya. She\u2019s the only person he\u2019s ever fully trusted with the truth. But when she betrays him by allowing a weapon he designed solely for her to be used against him, all bets are off.\nThe Hero Is Now The Monster...\nBetrayed to the deepest level, Darling becomes an enemy even worse than his uncle. His goal is not only to reign, but to kill every Resistance member he can find. He won\u2019t rest until all of them are dead and that includes Zarya.\nThe Twisted Hand Of Fate...\nZarya is the only hope to reach the heart of the man her people once considered their ally. A man who hates her with a fury so great that she knows it\u2019s just a matter of time before he kills her. But if she can find the part of him that once trusted her, the part of him that once loved her, she might be able to save not only her own life, but those of her people.It\u2019s an impossible mission.Too bad she doesn\u2019t play the odds.",
-    "book_title": "Born of Silence",
+    "description": "\nDeath Stalks Them All...\nKere is the second most infamous member of the shadow organization known as Sentella. An explosive engineer who strikes terror into the hearts of the League, the bounty on his head is truly staggering. No one knows his true identity.The daughter of a traitor, Zarya Starska grew up hard on the back streets of hell- her family hunted to the brink of extinction. But Zarya dreams of a different life and a different world. A world where the harsh hand of the Caronese emperor doesn\u2019t destroy his subjects. As a Resistance leader, her goal is to topple the government that needlessly ruined the lives of her family and comrades-in-arms. In this deadly quest, the only person she can trust is a mysterious man known only as Kere.\nBy The Light Of Day...\nKere has a dark secret and a brutal past. As he aids the Resistance, he\u2019s actually working to bring down his own family- the Cruels- so named for the viciousness in their blood that runs so deep, no other name would do. Born and bred from one of the oldest and noblest families in the United Systems, Kere\u2019s real name is Darling Cruel. And the one thing he wants most is to see his uncle, who stole the crown by murdering his father, pay for his crimes.\nIf You Tell A Lie Long Enough, It Becomes The Truth...\nIn order to protect his mother from execution, Darling\u2019s entire life has been built on a lie that he dare not breathe a contrary word about. His hands tied by his uncle\u2019s cruelty. No one has ever seen the real him. No one except Zarya. She\u2019s the only person he\u2019s ever fully trusted with the truth. But when she betrays him by allowing a weapon he designed solely for her to be used against him, all bets are off.\nThe Hero Is Now The Monster...\nBetrayed to the deepest level, Darling becomes an enemy even worse than his uncle. His goal is not only to reign, but to kill every Resistance member he can find. He won\u2019t rest until all of them are dead and that includes Zarya.\nThe Twisted Hand Of Fate...\nZarya is the only hope to reach the heart of the man her people once considered their ally. A man who hates her with a fury so great that she knows it\u2019s just a matter of time before he kills her. But if she can find the part of him that once trusted her, the part of him that once loved her, she might be able to save not only her own life, but those of her people.It\u2019s an impossible mission.Too bad she doesn\u2019t play the odds.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "762_1"
+            "stock_id": "762_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "762_2"
+            "stock_id": "762_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "762_3"
+            "stock_id": "762_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "762_4"
+            "stock_id": "762_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "762_5"
+            "stock_id": "762_5"
         }
     ],
     "metrics": {
         "rating_votes": 11105,
         "score": 4.48
     },
-    "original_book_title": "\n0446573310\n(ISBN13: 9780446573313)\n",
     "pages": 962,
+    "title": "Born of Silence",
     "url": "https://www.goodreads.com/book/show/12886599-born-of-silence",
     "year_published": 2012
 }

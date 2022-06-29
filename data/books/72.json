@@ -1,8 +1,7 @@
 {
-    "author_name": "S.E. Smith",
+    "author": "S.E. Smith",
     "base_id": 72,
-    "book_description": "Tansy Bell, is the middle daughter of the three Bell sisters. She has always been a little different, even for a Bell. A chameleon, she can change her appearance and personality to blend in almost anywhere. She uses this talent to bring some of the worse criminals in the world to justice.Mak \u2018Tag Krell Manok is the wild one of his four brothers. He is known for his hot temper, fierce strength, and skills as a warrior. Few men in any galaxy dare to challenge him and live. Frustrated at his failure to find females compatible with a Prime male, he returns to his home world only to discover his oldest brother has found his bond mate \u2013 in an unusual species known as a human. What is even more astonishing is his reaction to an image of his brother\u2019s bond mate\u2019s sister.Mak has set a new course \u2013 for Earth and the female that stirs his blood to fire! But first, he has to find her. Next, he has to convince her she belongs to him. If all else fails, he will just take her, after all, she is delicate, fragile, and no match for a Prime warrior.What he doesn\u2019t expect is to find her in trouble and fighting for her life. Now, he must save her before it is too late. But, even then there is no guarantee that she will come with him. For this small, fragile female has the strength and determination of twenty Prime males and values her independence.Mak is about to learn that big trouble can come in very small packages and size is often a misconception because there is one female in the universe not afraid to stand up to him \u2013 even if she is afraid to love him.Can he keep her alive long enough to realize she is the perfect mate for an untamed warrior or will the men determined to kill her take not only her life but his as well?",
-    "book_title": "Tansy's Titan",
+    "description": "Tansy Bell, is the middle daughter of the three Bell sisters. She has always been a little different, even for a Bell. A chameleon, she can change her appearance and personality to blend in almost anywhere. She uses this talent to bring some of the worse criminals in the world to justice.Mak \u2018Tag Krell Manok is the wild one of his four brothers. He is known for his hot temper, fierce strength, and skills as a warrior. Few men in any galaxy dare to challenge him and live. Frustrated at his failure to find females compatible with a Prime male, he returns to his home world only to discover his oldest brother has found his bond mate \u2013 in an unusual species known as a human. What is even more astonishing is his reaction to an image of his brother\u2019s bond mate\u2019s sister.Mak has set a new course \u2013 for Earth and the female that stirs his blood to fire! But first, he has to find her. Next, he has to convince her she belongs to him. If all else fails, he will just take her, after all, she is delicate, fragile, and no match for a Prime warrior.What he doesn\u2019t expect is to find her in trouble and fighting for her life. Now, he must save her before it is too late. But, even then there is no guarantee that she will come with him. For this small, fragile female has the strength and determination of twenty Prime males and values her independence.Mak is about to learn that big trouble can come in very small packages and size is often a misconception because there is one female in the universe not afraid to stand up to him \u2013 even if she is afraid to love him.Can he keep her alive long enough to realize she is the perfect mate for an untamed warrior or will the men determined to kill her take not only her life but his as well?",
     "editions": [
         "None"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "72_1"
+            "stock_id": "72_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "72_2"
+            "stock_id": "72_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "72_3"
+            "stock_id": "72_3"
         },
         {
             "status": "available",
-            "stock_number": "72_4"
+            "stock_id": "72_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "72_5"
+            "stock_id": "72_5"
         }
     ],
     "metrics": {
         "rating_votes": 2533,
         "score": 4.17
     },
-    "original_book_title": "Tansy's Titan",
     "pages": 848,
+    "title": "Tansy's Titan",
     "url": "https://www.goodreads.com/book/show/16119716-tansy-s-titan",
     "year_published": 2012
 }

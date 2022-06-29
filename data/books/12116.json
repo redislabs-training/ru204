@@ -1,8 +1,7 @@
 {
-    "author_name": "Rick Yancey",
+    "author": "Rick Yancey",
     "base_id": 12116,
-    "book_description": "How do you rid the Earth of seven billion humans? Rid the humans of their humanity.Surviving the first four waves was nearly impossible. Now Cassie Sullivan finds herself in a new world, a world in which the fundamental trust that binds us together is gone. As the 5th Wave rolls across the landscape, Cassie, Ben, and Ringer are forced to confront the Others\u2019 ultimate goal: the extermination of the human race.Cassie and her friends haven\u2019t seen the depths to which the Others will sink, nor have the Others seen the heights to which humanity will rise, in the ultimate battle between life and death, hope and despair, love and hate.",
-    "book_title": "The Infinite Sea",
+    "description": "How do you rid the Earth of seven billion humans? Rid the humans of their humanity.Surviving the first four waves was nearly impossible. Now Cassie Sullivan finds herself in a new world, a world in which the fundamental trust that binds us together is gone. As the 5th Wave rolls across the landscape, Cassie, Ben, and Ringer are forced to confront the Others\u2019 ultimate goal: the extermination of the human race.Cassie and her friends haven\u2019t seen the depths to which the Others will sink, nor have the Others seen the heights to which humanity will rise, in the ultimate battle between life and death, hope and despair, love and hate.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "12116_1"
+            "stock_id": "12116_1"
         },
         {
             "status": "available",
-            "stock_number": "12116_2"
+            "stock_id": "12116_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "12116_3"
+            "stock_id": "12116_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "12116_4"
+            "stock_id": "12116_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "12116_5"
+            "stock_id": "12116_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "12116_6"
+            "stock_id": "12116_6"
         }
     ],
     "metrics": {
         "rating_votes": 123001,
         "score": 3.87
     },
-    "original_book_title": "The Infinite Sea",
     "pages": 924,
+    "title": "The Infinite Sea",
     "url": "https://www.goodreads.com/book/show/16131484-the-infinite-sea",
     "year_published": 2014
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Lara Adrian",
+    "author": "Lara Adrian",
     "base_id": 1098,
-    "book_description": "The climactic novel in Lara Adrian's New York Times bestselling Midnight Breed series\u2014and her hardcover debut\u2014Darker After Midnight invites readers to enter a thrillingly sensual world where danger meets desire.In the dark of night, a blood war escalates within the hidden world of the Breed. After existing in secret for many long centuries, maintaining a fragile peace with the humans who walk beside them unaware, a single act of retaliation has put the entire vampire nation at risk of discovery. It falls to the Order\u2014a cadre of Breed warriors pledged to protect their own and humankind alike\u2014to stop Dragos, the power-mad vampire at the center of the conflict, before his push for domination can explode into catastrophe.At the center of the Order's quest is Sterling Chase, once a morally rigid enforcer of Breed law, now a warrior fallen from grace, whose biggest battle is the one he wages against his own savage nature. With addiction beckoning him toward eternal darkness, Chase's path to redemption has never seemed more out of reach\u2014until he finds himself drawn to a beautiful young woman who may be something much more than she seems . . .",
-    "book_title": "Darker After Midnight",
+    "description": "The climactic novel in Lara Adrian's New York Times bestselling Midnight Breed series\u2014and her hardcover debut\u2014Darker After Midnight invites readers to enter a thrillingly sensual world where danger meets desire.In the dark of night, a blood war escalates within the hidden world of the Breed. After existing in secret for many long centuries, maintaining a fragile peace with the humans who walk beside them unaware, a single act of retaliation has put the entire vampire nation at risk of discovery. It falls to the Order\u2014a cadre of Breed warriors pledged to protect their own and humankind alike\u2014to stop Dragos, the power-mad vampire at the center of the conflict, before his push for domination can explode into catastrophe.At the center of the Order's quest is Sterling Chase, once a morally rigid enforcer of Breed law, now a warrior fallen from grace, whose biggest battle is the one he wages against his own savage nature. With addiction beckoning him toward eternal darkness, Chase's path to redemption has never seemed more out of reach\u2014until he finds himself drawn to a beautiful young woman who may be something much more than she seems . . .",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1098_1"
+            "stock_id": "1098_1"
         },
         {
             "status": "available",
-            "stock_number": "1098_2"
+            "stock_id": "1098_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1098_3"
+            "stock_id": "1098_3"
         },
         {
             "status": "available",
-            "stock_number": "1098_4"
+            "stock_id": "1098_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1098_5"
+            "stock_id": "1098_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1098_6"
+            "stock_id": "1098_6"
         }
     ],
     "metrics": {
         "rating_votes": 18649,
         "score": 4.37
     },
-    "original_book_title": "Darker After Midnight",
     "pages": 702,
+    "title": "Darker After Midnight",
     "url": "https://www.goodreads.com/book/show/12042279-darker-after-midnight",
     "year_published": 2012
 }

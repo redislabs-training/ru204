@@ -1,8 +1,7 @@
 {
-    "author_name": "LindsayEllis",
+    "author": "LindsayEllis",
     "base_id": 1832,
-    "book_description": "Truth is a human right.It\u2019s fall 2007. A well-timed leak has revealed that the US government might have engaged in first contact. Cora Sabino is doing everything she can to avoid the whole mess, since the force driving the controversy is her whistleblower father. Even though Cora hasn\u2019t spoken to him in years, his celebrity has caught the attention of the press, the Internet, the paparazzi, and the government\u2014and with him in hiding, that attention is on her. She neither knows nor cares whether her father\u2019s leaks are a hoax, and wants nothing to do with him\u2014until she learns just how deeply entrenched her family is in the cover-up, and that an extraterrestrial presence has been on Earth for decades.Realizing the extent to which both she and the public have been lied to, she sets out to gather as much information as she can, and finds that the best way for her to uncover the truth is not as a whistleblower, but as an intermediary. The alien presence has been completely uncommunicative until she convinces one of them that she can act as their interpreter, becoming the first and only human vessel of communication. Their otherworldly connection will change everything she thought she knew about being human\u2014and could unleash a force more sinister than she ever imagined.",
-    "book_title": "Axiom's End",
+    "description": "Truth is a human right.It\u2019s fall 2007. A well-timed leak has revealed that the US government might have engaged in first contact. Cora Sabino is doing everything she can to avoid the whole mess, since the force driving the controversy is her whistleblower father. Even though Cora hasn\u2019t spoken to him in years, his celebrity has caught the attention of the press, the Internet, the paparazzi, and the government\u2014and with him in hiding, that attention is on her. She neither knows nor cares whether her father\u2019s leaks are a hoax, and wants nothing to do with him\u2014until she learns just how deeply entrenched her family is in the cover-up, and that an extraterrestrial presence has been on Earth for decades.Realizing the extent to which both she and the public have been lied to, she sets out to gather as much information as she can, and finds that the best way for her to uncover the truth is not as a whistleblower, but as an intermediary. The alien presence has been completely uncommunicative until she convinces one of them that she can act as their interpreter, becoming the first and only human vessel of communication. Their otherworldly connection will change everything she thought she knew about being human\u2014and could unleash a force more sinister than she ever imagined.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1832_1"
+            "stock_id": "1832_1"
         },
         {
             "status": "available",
-            "stock_number": "1832_2"
+            "stock_id": "1832_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1832_3"
+            "stock_id": "1832_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1832_4"
+            "stock_id": "1832_4"
         },
         {
             "status": "available",
-            "stock_number": "1832_5"
+            "stock_id": "1832_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1832_6"
+            "stock_id": "1832_6"
         },
         {
             "status": "available",
-            "stock_number": "1832_7"
+            "stock_id": "1832_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "1832_8"
+            "stock_id": "1832_8"
         }
     ],
     "metrics": {
         "rating_votes": 9917,
         "score": 3.88
     },
-    "original_book_title": "Axiom's End",
     "pages": 294,
+    "title": "Axiom's End",
     "url": "https://www.goodreads.com/book/show/51171377-axiom-s-end",
     "year_published": 2020
 }

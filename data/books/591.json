@@ -1,8 +1,7 @@
 {
-    "author_name": "Larry Niven",
+    "author": "Larry Niven",
     "base_id": 591,
-    "book_description": "\"This rousing sequel to the classic Ringworld continues the adventures of Louis Wu and Speaker-to-Animals on that fantastic planet.\"--School Library Journal",
-    "book_title": "The Ringworld Engineers",
+    "description": "\"This rousing sequel to the classic Ringworld continues the adventures of Louis Wu and Speaker-to-Animals on that fantastic planet.\"--School Library Journal",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "591_1"
+            "stock_id": "591_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_2"
+            "stock_id": "591_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_3"
+            "stock_id": "591_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_4"
+            "stock_id": "591_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_5"
+            "stock_id": "591_5"
         },
         {
             "status": "available",
-            "stock_number": "591_6"
+            "stock_id": "591_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_7"
+            "stock_id": "591_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_8"
+            "stock_id": "591_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "591_9"
+            "stock_id": "591_9"
         }
     ],
     "metrics": {
         "rating_votes": 29628,
         "score": 3.88
     },
-    "original_book_title": "The Ringworld Engineers ",
     "pages": 1017,
+    "title": "The Ringworld Engineers",
     "url": "https://www.goodreads.com/book/show/61181.The_Ringworld_Engineers",
     "year_published": 1979
 }

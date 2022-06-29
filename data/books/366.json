@@ -1,8 +1,7 @@
 {
-    "author_name": "Gena Showalter",
+    "author": "Gena Showalter",
     "base_id": 366,
-    "book_description": "The sizzling second book in New York Times bestselling author Gena Showalter\u2019s Otherworld Assassin paranormal romance series.He is every woman\u2019s fantasy\u2026Corbin Blue is a man of many talents. One of the most powerful otherworlders ever born, he is wealthy, a professional football star, and a legend in the bedroom. But only a select few know he is also a black ops agent\u2026and there is no better killer. When he and his crew are attacked and separated, he\u2019s forced to turn to his boss\u2019s daughter for help\u2014a woman with even more secrets than Blue.She becomes his only obsession\u2026Evangaline Black has always been wary, guarded. No man has ever breeched her walls. Until Blue. He has never been denied something he wants, and now, he\u2019s decided he wants her. As he sweeps her into his double life of seduction, intrigue, and danger, he helps her see beyond the darkness of her own past. But as an enemy closes in, Blue will have to let Evie go to keep her safe\u2014even though he'd rather die than live without her\u2026",
-    "book_title": "Black and Blue",
+    "description": "The sizzling second book in New York Times bestselling author Gena Showalter\u2019s Otherworld Assassin paranormal romance series.He is every woman\u2019s fantasy\u2026Corbin Blue is a man of many talents. One of the most powerful otherworlders ever born, he is wealthy, a professional football star, and a legend in the bedroom. But only a select few know he is also a black ops agent\u2026and there is no better killer. When he and his crew are attacked and separated, he\u2019s forced to turn to his boss\u2019s daughter for help\u2014a woman with even more secrets than Blue.She becomes his only obsession\u2026Evangaline Black has always been wary, guarded. No man has ever breeched her walls. Until Blue. He has never been denied something he wants, and now, he\u2019s decided he wants her. As he sweeps her into his double life of seduction, intrigue, and danger, he helps her see beyond the darkness of her own past. But as an enemy closes in, Blue will have to let Evie go to keep her safe\u2014even though he'd rather die than live without her\u2026",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "366_1"
+            "stock_id": "366_1"
         },
         {
             "status": "available",
-            "stock_number": "366_2"
+            "stock_id": "366_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "366_3"
+            "stock_id": "366_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "366_4"
+            "stock_id": "366_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "366_5"
+            "stock_id": "366_5"
         }
     ],
     "metrics": {
         "rating_votes": 4515,
         "score": 4.18
     },
-    "original_book_title": "Black and Blue",
     "pages": 210,
+    "title": "Black and Blue",
     "url": "https://www.goodreads.com/book/show/17211009-black-and-blue",
     "year_published": 2013
 }

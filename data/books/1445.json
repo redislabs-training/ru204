@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 1445,
-    "book_description": "\nThe mining ship El Cavador is far out from Earth, in the deeps of the Kuiper Belt, beyond Pluto. Other mining ships, and the families that live on them, are few and far between this far out. So when El Cavador's telescopes pick up a fast-moving object coming in-system, it's hard to know what to make of it. It's massive and moving at a significant fraction of the speed of light.El Cavador has other problems. Their systems are old and failing. The family is getting too big for the ship. There are claim-jumping corporate ships bringing Asteroid Belt tactics to the Kuiper Belt. Worrying about a distant object that might or might not be an alien ship seems not important.They're wrong. It's the most important thing that has happened to the human race in a million years. The first Formic War is about to begin.\n",
-    "book_title": "Earth Unaware",
+    "description": "\nThe mining ship El Cavador is far out from Earth, in the deeps of the Kuiper Belt, beyond Pluto. Other mining ships, and the families that live on them, are few and far between this far out. So when El Cavador's telescopes pick up a fast-moving object coming in-system, it's hard to know what to make of it. It's massive and moving at a significant fraction of the speed of light.El Cavador has other problems. Their systems are old and failing. The family is getting too big for the ship. There are claim-jumping corporate ships bringing Asteroid Belt tactics to the Kuiper Belt. Worrying about a distant object that might or might not be an alien ship seems not important.They're wrong. It's the most important thing that has happened to the human race in a million years. The first Formic War is about to begin.\n",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1445_1"
+            "stock_id": "1445_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1445_2"
+            "stock_id": "1445_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1445_3"
+            "stock_id": "1445_3"
         },
         {
             "status": "available",
-            "stock_number": "1445_4"
+            "stock_id": "1445_4"
         },
         {
             "status": "available",
-            "stock_number": "1445_5"
+            "stock_id": "1445_5"
         },
         {
             "status": "available",
-            "stock_number": "1445_6"
+            "stock_id": "1445_6"
         },
         {
             "status": "available",
-            "stock_number": "1445_7"
+            "stock_id": "1445_7"
         }
     ],
     "metrics": {
         "rating_votes": 46778,
         "score": 3.98
     },
-    "original_book_title": "Earth Unaware (The First Formic War, #1) ",
     "pages": 636,
+    "title": "Earth Unaware",
     "url": "https://www.goodreads.com/book/show/13151129-earth-unaware",
     "year_published": 2012
 }

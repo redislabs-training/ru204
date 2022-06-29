@@ -1,8 +1,7 @@
 {
-    "author_name": "Erin Tate",
+    "author": "Erin Tate",
     "base_id": 154,
-    "book_description": "Taulan joi Lana Coburn, War Master of the Preor third fleet, is finally having his wishes granted. He has a mate and will soon have two dragonlets to protect and love. But only if he can live to see them born. Or, as his Lana says, hatched.This short story is set in the DRAGONS OF PREOR world and does not stand alone. It should be read after ZADRI and is a little bite of family life for those who fell in love with the Preor dragons.Part of the \"Dragons of Preor\" series: Jarek Taulan Kozav Rendan Zadri",
-    "book_title": "Hatched",
+    "description": "Taulan joi Lana Coburn, War Master of the Preor third fleet, is finally having his wishes granted. He has a mate and will soon have two dragonlets to protect and love. But only if he can live to see them born. Or, as his Lana says, hatched.This short story is set in the DRAGONS OF PREOR world and does not stand alone. It should be read after ZADRI and is a little bite of family life for those who fell in love with the Preor dragons.Part of the \"Dragons of Preor\" series: Jarek Taulan Kozav Rendan Zadri",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "154_1"
+            "stock_id": "154_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "154_2"
+            "stock_id": "154_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "154_3"
+            "stock_id": "154_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "154_4"
+            "stock_id": "154_4"
         }
     ],
     "metrics": {
         "rating_votes": 1625,
         "score": 4.29
     },
-    "original_book_title": "Hatched (Dragons of Preor, #6)",
     "pages": 1081,
+    "title": "Hatched",
     "url": "https://www.goodreads.com/book/show/32801393-hatched",
     "year_published": 2016
 }

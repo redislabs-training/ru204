@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Carven",
+    "author": "Anna Carven",
     "base_id": 139,
-    "book_description": "Electric Heart is Book 7 in the Dark Planet Warriors Series. It will make more sense if you've read the other books in the series beforehand. Chronologically, it picks up where Forged in Shadow (Book 5) left off.Riana's terrified of these fierce Kordolians. They fight like demons and possess strange alien technology which makes them damn hard to kill. After her nerve-wracking experience on the superfreighter Hendrix II, she wants nothing to do with them. All she wants to do is live a peaceful Kordolian-free life back on Earth. Too bad the Board of Corrections is on her case over past misdemeanors. Too bad someone's trying to kill her. She has no idea why. Too bad the only one who can keep her safe is a scary-hot, silent alien with coldfire eyes and a very sharp sword. But hey, at least she doesn't have to deal with flesh-eating insectoid monsters anymore. The only monster she has to deal with now is a silver-skinned one named Kail. And he's more than a match for her attackers. That's reassuring... right?Warning: This book is a science-fiction alien romance. It contains swearing, violence, sensual sex scenes, and silver aliens with fangs. It's definitely recommended for readers aged 18 and over.",
-    "book_title": "Electric Heart",
+    "description": "Electric Heart is Book 7 in the Dark Planet Warriors Series. It will make more sense if you've read the other books in the series beforehand. Chronologically, it picks up where Forged in Shadow (Book 5) left off.Riana's terrified of these fierce Kordolians. They fight like demons and possess strange alien technology which makes them damn hard to kill. After her nerve-wracking experience on the superfreighter Hendrix II, she wants nothing to do with them. All she wants to do is live a peaceful Kordolian-free life back on Earth. Too bad the Board of Corrections is on her case over past misdemeanors. Too bad someone's trying to kill her. She has no idea why. Too bad the only one who can keep her safe is a scary-hot, silent alien with coldfire eyes and a very sharp sword. But hey, at least she doesn't have to deal with flesh-eating insectoid monsters anymore. The only monster she has to deal with now is a silver-skinned one named Kail. And he's more than a match for her attackers. That's reassuring... right?Warning: This book is a science-fiction alien romance. It contains swearing, violence, sensual sex scenes, and silver aliens with fangs. It's definitely recommended for readers aged 18 and over.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "139_1"
+            "stock_id": "139_1"
         },
         {
             "status": "available",
-            "stock_number": "139_2"
+            "stock_id": "139_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "139_3"
+            "stock_id": "139_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "139_4"
+            "stock_id": "139_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "139_5"
+            "stock_id": "139_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "139_6"
+            "stock_id": "139_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "139_7"
+            "stock_id": "139_7"
         }
     ],
     "metrics": {
         "rating_votes": 1834,
         "score": 4.22
     },
-    "original_book_title": "Electric Heart (Dark Planet Warriors, #7)",
     "pages": 397,
+    "title": "Electric Heart",
     "url": "https://www.goodreads.com/book/show/34757040-electric-heart",
     "year_published": 2017
 }

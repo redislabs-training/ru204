@@ -1,8 +1,7 @@
 {
-    "author_name": "Claire Freedman",
+    "author": "Claire Freedman",
     "base_id": 298,
-    "book_description": "This humorous tale describes how aliens, rather than visiting Earth to take over the planet, really visit to steal your pants.",
-    "book_title": "Aliens Love Underpants",
+    "description": "This humorous tale describes how aliens, rather than visiting Earth to take over the planet, really visit to steal your pants.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "298_1"
+            "stock_id": "298_1"
         }
     ],
     "metrics": {
         "rating_votes": 4098,
         "score": 4.11
     },
-    "original_book_title": "Aliens Love Underpants!",
     "pages": 752,
+    "title": "Aliens Love Underpants",
     "url": "https://www.goodreads.com/book/show/871555.Aliens_Love_Underpants",
     "year_published": 1998
 }

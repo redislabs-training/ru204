@@ -1,8 +1,7 @@
 {
-    "author_name": "Aleksandr Voinov",
+    "author": "Aleksandr Voinov",
     "base_id": 215,
-    "book_description": "Fighting with your back to the wall is all well and good\u2014as long as you\u2019ve chosen the right wall.When the local authorities ask Kyle Juenger to hunt a shape-shifting Glyrinny spy, he can\u2019t refuse. After all, he can use the reward to replace his paralyzed legs with cyberware, and maybe even to return to his home planet. Besides, he hates the morphs\u2014those invasive, brain-eating monstrosities whose weapons cost him his legs.Kyle\u2019s best lead is the Scorpion, a mercenary ship armed to the teeth. Grimm, the Scorpion\u2019s pilot and captain, fascinates Kyle. He\u2019s everything Kyle lost with his legs, and he\u2019s from the same home world. He\u2019s also of the warrior caste\u2014half priest, half savior. But Grimm\u2019s been twisted by life as a merc, and Kyle\u2019s stuck undercover as a criminal on the run.That doesn\u2019t stop Grimm from coming on to Kyle, or from insisting he\u2019s more than the sum of his past and his useless legs. But Kyle has other concerns\u2014like tracking a dangerous morph who could be wearing anyone\u2019s face. And as if things weren\u2019t complicated enough, Kyle can\u2019t tell if Grimm is part of the solution . . . or part of the problem.",
-    "book_title": "Incursion",
+    "description": "Fighting with your back to the wall is all well and good\u2014as long as you\u2019ve chosen the right wall.When the local authorities ask Kyle Juenger to hunt a shape-shifting Glyrinny spy, he can\u2019t refuse. After all, he can use the reward to replace his paralyzed legs with cyberware, and maybe even to return to his home planet. Besides, he hates the morphs\u2014those invasive, brain-eating monstrosities whose weapons cost him his legs.Kyle\u2019s best lead is the Scorpion, a mercenary ship armed to the teeth. Grimm, the Scorpion\u2019s pilot and captain, fascinates Kyle. He\u2019s everything Kyle lost with his legs, and he\u2019s from the same home world. He\u2019s also of the warrior caste\u2014half priest, half savior. But Grimm\u2019s been twisted by life as a merc, and Kyle\u2019s stuck undercover as a criminal on the run.That doesn\u2019t stop Grimm from coming on to Kyle, or from insisting he\u2019s more than the sum of his past and his useless legs. But Kyle has other concerns\u2014like tracking a dangerous morph who could be wearing anyone\u2019s face. And as if things weren\u2019t complicated enough, Kyle can\u2019t tell if Grimm is part of the solution . . . or part of the problem.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "215_1"
+            "stock_id": "215_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "215_2"
+            "stock_id": "215_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "215_3"
+            "stock_id": "215_3"
         },
         {
             "status": "available",
-            "stock_number": "215_4"
+            "stock_id": "215_4"
         },
         {
             "status": "available",
-            "stock_number": "215_5"
+            "stock_id": "215_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "215_6"
+            "stock_id": "215_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "215_7"
+            "stock_id": "215_7"
         }
     ],
     "metrics": {
         "rating_votes": 886,
         "score": 3.89
     },
-    "original_book_title": "Incursion",
     "pages": 1121,
+    "title": "Incursion",
     "url": "https://www.goodreads.com/book/show/30979195-incursion",
     "year_published": 2012
 }

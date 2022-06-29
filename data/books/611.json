@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 611,
-    "book_description": "The war is on...Counted among the fiercest Andarion warriors ever born, Hauk is one of the five founding members of the Sentella- an organization that has declared war on the League that rules the Ichidian universe with an iron fist and terrifies it with an army of well-trained assassins. Hauk's enemies are legion, but he fears nothing and no one. He will do whatever it takes to survive and protect his Sentella brethren.Sumi Antaxas is one of the best assassins the League has ever trained. In her world, failure is not an option and she has never met a target she couldn't execute. So when she's assigned Hauk, she believes it'll be a quick and easy mission.But nothing is ever as simple as it seems, and Hauk is far better trained and skilled than his dossier shows. More than that, as she pursues him, she stumbles upon the key that will bring down not only Hauk, but the entire Sentella organization.In the race to report her information, she is overtaken by enemies out to end her as effectively as she intends to end Hauk. Now her only key to survival is the one man she's been sent to kill. And Hauk doesn't trust her at all.The only question is, will he help her to live... or send her to her grave.",
-    "book_title": "Born of Fury",
+    "description": "The war is on...Counted among the fiercest Andarion warriors ever born, Hauk is one of the five founding members of the Sentella- an organization that has declared war on the League that rules the Ichidian universe with an iron fist and terrifies it with an army of well-trained assassins. Hauk's enemies are legion, but he fears nothing and no one. He will do whatever it takes to survive and protect his Sentella brethren.Sumi Antaxas is one of the best assassins the League has ever trained. In her world, failure is not an option and she has never met a target she couldn't execute. So when she's assigned Hauk, she believes it'll be a quick and easy mission.But nothing is ever as simple as it seems, and Hauk is far better trained and skilled than his dossier shows. More than that, as she pursues him, she stumbles upon the key that will bring down not only Hauk, but the entire Sentella organization.In the race to report her information, she is overtaken by enemies out to end her as effectively as she intends to end Hauk. Now her only key to survival is the one man she's been sent to kill. And Hauk doesn't trust her at all.The only question is, will he help her to live... or send her to her grave.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "611_1"
+            "stock_id": "611_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "611_2"
+            "stock_id": "611_2"
         }
     ],
     "metrics": {
         "rating_votes": 8498,
         "score": 4.53
     },
-    "original_book_title": "Born of Fury",
     "pages": 425,
+    "title": "Born of Fury",
     "url": "https://www.goodreads.com/book/show/13079147-born-of-fury",
     "year_published": 2014
 }

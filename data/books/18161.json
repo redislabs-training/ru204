@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 18161,
-    "book_description": "Starting over sucks.When we moved to West Virginia right before my senior year, I\u2019d pretty much resigned myself to thick accents, dodgy internet access, and a whole lot of boring\u2026 until I spotted my hot neighbor, with his looming height and eerie green eyes. Things were looking up.And then he opened his mouth.Daemon is infuriating. Arrogant. Stab-worthy. We do not get along. At all. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, well, something\u2026 unexpected happens. The hot alien living next door marks me.You heard me. Alien. Turns out Daemon and his sister have a galaxy of enemies wanting to steal their abilities, and Daemon\u2019s touch has me lit up like the Vegas Strip. The only way I\u2019m getting out of this alive is by sticking close to Daemon until my alien mojo fades. If I don\u2019t kill him first, that is.",
-    "book_title": "Obsidian",
+    "description": "Starting over sucks.When we moved to West Virginia right before my senior year, I\u2019d pretty much resigned myself to thick accents, dodgy internet access, and a whole lot of boring\u2026 until I spotted my hot neighbor, with his looming height and eerie green eyes. Things were looking up.And then he opened his mouth.Daemon is infuriating. Arrogant. Stab-worthy. We do not get along. At all. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, well, something\u2026 unexpected happens. The hot alien living next door marks me.You heard me. Alien. Turns out Daemon and his sister have a galaxy of enemies wanting to steal their abilities, and Daemon\u2019s touch has me lit up like the Vegas Strip. The only way I\u2019m getting out of this alive is by sticking close to Daemon until my alien mojo fades. If I don\u2019t kill him first, that is.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "18161_1"
+            "stock_id": "18161_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "18161_2"
+            "stock_id": "18161_2"
         }
     ],
     "metrics": {
         "rating_votes": 236780,
         "score": 4.17
     },
-    "original_book_title": "Obsidian",
     "pages": 315,
+    "title": "Obsidian",
     "url": "https://www.goodreads.com/book/show/12578077-obsidian",
     "year_published": 2011
 }

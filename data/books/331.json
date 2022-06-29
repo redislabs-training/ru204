@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Aguirre",
+    "author": "Ann Aguirre",
     "base_id": 331,
-    "book_description": "Talk is cheap when lives are in jeopardySirantha Jax is a \u201cJumper,\u201d a woman who possesses the unique genetic makeup needed to navigate faster than light ships through grimspace. With no tolerance for political diplomacy, she quits her ambassador post so she can get back to saving the universe the way she does best\u2014by mouthing off and kicking butt.And her tactics are needed more than ever. Flesh-eating aliens are attacking stations on the outskirts of space, and for many people, the Conglomerate\u2019s forces are arriving too late to serve and protect them.Now, Jax must take matters into her own hands by recruiting a militia to defend the frontiers\u2014out of the worst criminals, mercenaries, and raiders that ever traveled through grimspace\u2026",
-    "book_title": "Killbox",
+    "description": "Talk is cheap when lives are in jeopardySirantha Jax is a \u201cJumper,\u201d a woman who possesses the unique genetic makeup needed to navigate faster than light ships through grimspace. With no tolerance for political diplomacy, she quits her ambassador post so she can get back to saving the universe the way she does best\u2014by mouthing off and kicking butt.And her tactics are needed more than ever. Flesh-eating aliens are attacking stations on the outskirts of space, and for many people, the Conglomerate\u2019s forces are arriving too late to serve and protect them.Now, Jax must take matters into her own hands by recruiting a militia to defend the frontiers\u2014out of the worst criminals, mercenaries, and raiders that ever traveled through grimspace\u2026",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "331_1"
+            "stock_id": "331_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "331_2"
+            "stock_id": "331_2"
         },
         {
             "status": "available",
-            "stock_number": "331_3"
+            "stock_id": "331_3"
         },
         {
             "status": "available",
-            "stock_number": "331_4"
+            "stock_id": "331_4"
         }
     ],
     "metrics": {
         "rating_votes": 4236,
         "score": 4.07
     },
-    "original_book_title": "Killbox (Sirantha Jax, #4)",
     "pages": 748,
+    "title": "Killbox",
     "url": "https://www.goodreads.com/book/show/7843135-killbox",
     "year_published": 2010
 }

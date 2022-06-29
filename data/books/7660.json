@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 7660,
-    "book_description": "Daemon will do anything to get Katy back.After the successful but disastrous raid on Mount Weather, he\u2019s facing the impossible. Katy is gone. Taken. Everything becomes about finding her. Taking out anyone who stands in his way? Done. Burning down the whole world to save her? Gladly. Exposing his alien race to the world? With pleasure.All Katy can do is survive.Surrounded by enemies, the only way she can come out of this is to adapt. After all, there are sides of Daedalus that don\u2019t seem entirely crazy, but the group\u2019s goals are frightening and the truths they speak even more disturbing. Who are the real bad guys? Daedalus? Mankind? Or the Luxen? Together, they can face anything.But the most dangerous foe has been there all along, and when the truths are exposed and the lies come crumbling down, which side will Daemon and Katy be standing on?And will they even be together?",
-    "book_title": "Origin",
+    "description": "Daemon will do anything to get Katy back.After the successful but disastrous raid on Mount Weather, he\u2019s facing the impossible. Katy is gone. Taken. Everything becomes about finding her. Taking out anyone who stands in his way? Done. Burning down the whole world to save her? Gladly. Exposing his alien race to the world? With pleasure.All Katy can do is survive.Surrounded by enemies, the only way she can come out of this is to adapt. After all, there are sides of Daedalus that don\u2019t seem entirely crazy, but the group\u2019s goals are frightening and the truths they speak even more disturbing. Who are the real bad guys? Daedalus? Mankind? Or the Luxen? Together, they can face anything.But the most dangerous foe has been there all along, and when the truths are exposed and the lies come crumbling down, which side will Daemon and Katy be standing on?And will they even be together?",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "7660_1"
+            "stock_id": "7660_1"
         }
     ],
     "metrics": {
         "rating_votes": 93979,
         "score": 4.35
     },
-    "original_book_title": "Origin",
     "pages": 672,
+    "title": "Origin",
     "url": "https://www.goodreads.com/book/show/13644052-origin",
     "year_published": 2013
 }

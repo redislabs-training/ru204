@@ -1,8 +1,7 @@
 {
-    "author_name": "Mini Grey",
+    "author": "Mini Grey",
     "base_id": 122,
-    "book_description": "A very silly (not-too-scary) story about losing a beloved toy.That summer night, the toys were left outside. . . . For the very first time, the Wonderdoll, the helpful wind-up robot, the thoughtful green dinosaur, and the rest of their plucky gang lie in the grass, gazing up at the stars. But one star seems brighter than the rest. As it grows bigger and bigger, the toys realize it may not be a star at all! Soon they're venturing into the unknown, traveling by spaceship, where they meet a lonely alien in need of help, and some friends.From ever-inventive, award-winning author-illustrator Mini Grey comes a hilarious and heartfelt new adventure: a motley group of toys left outside in the garden become true friends and brave heroes--in space!From the Hardcover edition.",
-    "book_title": "Toys in Space",
+    "description": "A very silly (not-too-scary) story about losing a beloved toy.That summer night, the toys were left outside. . . . For the very first time, the Wonderdoll, the helpful wind-up robot, the thoughtful green dinosaur, and the rest of their plucky gang lie in the grass, gazing up at the stars. But one star seems brighter than the rest. As it grows bigger and bigger, the toys realize it may not be a star at all! Soon they're venturing into the unknown, traveling by spaceship, where they meet a lonely alien in need of help, and some friends.From ever-inventive, award-winning author-illustrator Mini Grey comes a hilarious and heartfelt new adventure: a motley group of toys left outside in the garden become true friends and brave heroes--in space!From the Hardcover edition.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "122_1"
+            "stock_id": "122_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "122_2"
+            "stock_id": "122_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "122_3"
+            "stock_id": "122_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "122_4"
+            "stock_id": "122_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "122_5"
+            "stock_id": "122_5"
         },
         {
             "status": "available",
-            "stock_number": "122_6"
+            "stock_id": "122_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "122_7"
+            "stock_id": "122_7"
         }
     ],
     "metrics": {
         "rating_votes": 561,
         "score": 3.54
     },
-    "original_book_title": "\n030797815X\n(ISBN13: 9780307978158)\n",
     "pages": 1219,
+    "title": "Toys in Space",
     "url": "https://www.goodreads.com/book/show/14871777-toys-in-space",
     "year_published": 2012
 }

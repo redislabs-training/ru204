@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 127,
-    "book_description": "Dak Hamee, born into the Hork-Bajir tribe, is something special from the start. \"Strange,\" says his mother. \"A seer,\" says the Old One, Tila Fashat. \"A seer is one who is born to show a new way. Many, many seasons pass, then our father, the Deep, and our mother, the Sky, say, \"Send a seer to the people. The people have need.' And so one is born who is different.\" When strange and different Dak meets Aldrea, the clever Andalite daughter of Prince Seerow, they learn together of the dangerous plot of the Yeerks, and of Esplin 9466, who will stop at nothing to build his empire. Learn more about Prince Seerow's Kindness, find out how Andalites kiss, and plumb the mysteries of the Deep in this suspense-filled story of good, evil, and interspecies love. (Ages 9 to 12)",
-    "book_title": "The Hork-Bajir Chronicles",
+    "description": "Dak Hamee, born into the Hork-Bajir tribe, is something special from the start. \"Strange,\" says his mother. \"A seer,\" says the Old One, Tila Fashat. \"A seer is one who is born to show a new way. Many, many seasons pass, then our father, the Deep, and our mother, the Sky, say, \"Send a seer to the people. The people have need.' And so one is born who is different.\" When strange and different Dak meets Aldrea, the clever Andalite daughter of Prince Seerow, they learn together of the dangerous plot of the Yeerks, and of Esplin 9466, who will stop at nothing to build his empire. Learn more about Prince Seerow's Kindness, find out how Andalites kiss, and plumb the mysteries of the Deep in this suspense-filled story of good, evil, and interspecies love. (Ages 9 to 12)",
     "editions": [
         "English"
     ],
@@ -20,31 +19,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "127_1"
+            "stock_id": "127_1"
         },
         {
             "status": "available",
-            "stock_number": "127_2"
+            "stock_id": "127_2"
         },
         {
             "status": "available",
-            "stock_number": "127_3"
+            "stock_id": "127_3"
         },
         {
             "status": "available",
-            "stock_number": "127_4"
+            "stock_id": "127_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "127_5"
+            "stock_id": "127_5"
         }
     ],
     "metrics": {
         "rating_votes": 3178,
         "score": 4.14
     },
-    "original_book_title": "The Hork-Bajir Chronicles",
     "pages": 668,
+    "title": "The Hork-Bajir Chronicles",
     "url": "https://www.goodreads.com/book/show/363354.The_Hork_Bajir_Chronicles",
     "year_published": 1998
 }

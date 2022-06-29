@@ -1,8 +1,7 @@
 {
-    "author_name": "Sue Burke",
+    "author": "Sue Burke",
     "base_id": 1267,
-    "book_description": "In this character driven novel of first contact by debut author Sue Burke, human survival hinges on an bizarre alliance.Only mutual communication can forge an alliance with the planet's sentient species and prove that mammals are more than tools.Forced to land on a planet they aren't prepared for, human colonists rely on their limited resources to survive. The planet provides a lush but inexplicable landscape--trees offer edible, addictive fruit one day and poison the next, while the ruins of an alien race are found entwined in the roots of a strange plant. Conflicts between generations arise as they struggle to understand one another and grapple with an unknowable alien intellect.",
-    "book_title": "Semiosis",
+    "description": "In this character driven novel of first contact by debut author Sue Burke, human survival hinges on an bizarre alliance.Only mutual communication can forge an alliance with the planet's sentient species and prove that mammals are more than tools.Forced to land on a planet they aren't prepared for, human colonists rely on their limited resources to survive. The planet provides a lush but inexplicable landscape--trees offer edible, addictive fruit one day and poison the next, while the ruins of an alien race are found entwined in the roots of a strange plant. Conflicts between generations arise as they struggle to understand one another and grapple with an unknowable alien intellect.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1267_1"
+            "stock_id": "1267_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1267_2"
+            "stock_id": "1267_2"
         },
         {
             "status": "available",
-            "stock_number": "1267_3"
+            "stock_id": "1267_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1267_4"
+            "stock_id": "1267_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1267_5"
+            "stock_id": "1267_5"
         },
         {
             "status": "available",
-            "stock_number": "1267_6"
+            "stock_id": "1267_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "1267_7"
+            "stock_id": "1267_7"
         }
     ],
     "metrics": {
         "rating_votes": 8712,
         "score": 3.92
     },
-    "original_book_title": "Semiosis",
     "pages": 1138,
+    "title": "Semiosis",
     "url": "https://www.goodreads.com/book/show/35018907-semiosis",
     "year_published": 2018
 }

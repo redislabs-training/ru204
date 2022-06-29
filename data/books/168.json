@@ -1,8 +1,7 @@
 {
-    "author_name": "Alan Dean Foster",
+    "author": "Alan Dean Foster",
     "base_id": 168,
-    "book_description": "Ridley Scott returns to the universe he created, with Alien: Covenant, a new chapter in his groundbreaking Alien adventure. The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise. But it is actually a dark, dangerous world.When they uncover a threat beyond their imaginations, they must attempt a harrowing escape.Acclaimed author Alan Dean Foster also returns to the universe he first encountered with the official novelization of the original Alien film. Alien: Covenant is the pivotal adventure that preceded that seminal film, and leads to the events that will yield one of the most terrifying sagas of all time.",
-    "book_title": "Alien: Covenant",
+    "description": "Ridley Scott returns to the universe he created, with Alien: Covenant, a new chapter in his groundbreaking Alien adventure. The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise. But it is actually a dark, dangerous world.When they uncover a threat beyond their imaginations, they must attempt a harrowing escape.Acclaimed author Alan Dean Foster also returns to the universe he first encountered with the official novelization of the original Alien film. Alien: Covenant is the pivotal adventure that preceded that seminal film, and leads to the events that will yield one of the most terrifying sagas of all time.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "168_1"
+            "stock_id": "168_1"
         },
         {
             "status": "available",
-            "stock_number": "168_2"
+            "stock_id": "168_2"
         },
         {
             "status": "available",
-            "stock_number": "168_3"
+            "stock_id": "168_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "168_4"
+            "stock_id": "168_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "168_5"
+            "stock_id": "168_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "168_6"
+            "stock_id": "168_6"
         }
     ],
     "metrics": {
         "rating_votes": 1289,
         "score": 3.79
     },
-    "original_book_title": "\n1785654780\n(ISBN13: 9781785654787)\n",
     "pages": 864,
+    "title": "Alien: Covenant",
     "url": "https://www.goodreads.com/book/show/33541226-alien",
     "year_published": 2017
 }

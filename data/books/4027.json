@@ -1,8 +1,7 @@
 {
-    "author_name": "C.S. Lewis",
+    "author": "C.S. Lewis",
     "base_id": 4027,
-    "book_description": "In the first novel of C.S. Lewis's classic science fiction trilogy, Dr Ransom, a Cambridge academic, is abducted and taken on a spaceship to the red planet of Malacandra, which he knows as Mars. His captors are plotting to plunder the planet's treasures and plan to offer Ransom as a sacrifice to the creatures who live there. Ransom discovers he has come from the 'silent planet' \u2013 Earth \u2013 whose tragic story is known throughout the universe...",
-    "book_title": "Out of the Silent Planet",
+    "description": "In the first novel of C.S. Lewis's classic science fiction trilogy, Dr Ransom, a Cambridge academic, is abducted and taken on a spaceship to the red planet of Malacandra, which he knows as Mars. His captors are plotting to plunder the planet's treasures and plan to offer Ransom as a sacrifice to the creatures who live there. Ransom discovers he has come from the 'silent planet' \u2013 Earth \u2013 whose tragic story is known throughout the universe...",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "4027_1"
+            "stock_id": "4027_1"
         },
         {
             "status": "available",
-            "stock_number": "4027_2"
+            "stock_id": "4027_2"
         },
         {
             "status": "available",
-            "stock_number": "4027_3"
+            "stock_id": "4027_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "4027_4"
+            "stock_id": "4027_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "4027_5"
+            "stock_id": "4027_5"
         }
     ],
     "metrics": {
         "rating_votes": 78248,
         "score": 3.91
     },
-    "original_book_title": "Out of the Silent Planet",
     "pages": 320,
+    "title": "Out of the Silent Planet",
     "url": "https://www.goodreads.com/book/show/25350.Out_of_the_Silent_Planet",
     "year_published": 1938
 }

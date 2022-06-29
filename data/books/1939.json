@@ -1,8 +1,7 @@
 {
-    "author_name": "Nnedi Okorafor",
+    "author": "Nnedi Okorafor",
     "base_id": 1939,
-    "book_description": "The concluding part of the highly-acclaimed science fiction trilogy that began with Nnedi Okorafor's Hugo- and Nebula Award-winning BINTI.Binti has returned to her home planet, believing that the violence of the Meduse has been left behind. Unfortunately, although her people are peaceful on the whole, the same cannot be said for the Khoush, who fan the flames of their ancient rivalry with the Meduse.Far from her village when the conflicts start, Binti hurries home, but anger and resentment has already claimed the lives of many close to her.Once again it is up to Binti, and her intriguing new friend Mwinyi, to intervene--though the elders of her people do not entirely trust her motives--and try to prevent a war that could wipe out her people, once and for all.Don't miss this essential concluding volume in the Binti trilogy.",
-    "book_title": "The Night Masquerade",
+    "description": "The concluding part of the highly-acclaimed science fiction trilogy that began with Nnedi Okorafor's Hugo- and Nebula Award-winning BINTI.Binti has returned to her home planet, believing that the violence of the Meduse has been left behind. Unfortunately, although her people are peaceful on the whole, the same cannot be said for the Khoush, who fan the flames of their ancient rivalry with the Meduse.Far from her village when the conflicts start, Binti hurries home, but anger and resentment has already claimed the lives of many close to her.Once again it is up to Binti, and her intriguing new friend Mwinyi, to intervene--though the elders of her people do not entirely trust her motives--and try to prevent a war that could wipe out her people, once and for all.Don't miss this essential concluding volume in the Binti trilogy.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1939_1"
+            "stock_id": "1939_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1939_2"
+            "stock_id": "1939_2"
         },
         {
             "status": "available",
-            "stock_number": "1939_3"
+            "stock_id": "1939_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1939_4"
+            "stock_id": "1939_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1939_5"
+            "stock_id": "1939_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "1939_6"
+            "stock_id": "1939_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "1939_7"
+            "stock_id": "1939_7"
         }
     ],
     "metrics": {
         "rating_votes": 15443,
         "score": 4.05
     },
-    "original_book_title": "The Night Masquerade",
     "pages": 759,
+    "title": "The Night Masquerade",
     "url": "https://www.goodreads.com/book/show/34386617-the-night-masquerade",
     "year_published": 2018
 }

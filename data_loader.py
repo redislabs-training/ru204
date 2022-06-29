@@ -1,3 +1,6 @@
+# Redis University RU204: Storing, Querying and Indexing JSON at Speed.
+# Data loader script.
+
 import argparse
 import io
 import json
@@ -28,7 +31,7 @@ for filename in os.listdir(args.books_dir):
         book_file.close()
         redis_key = make_key(book['base_id'])
         r.json().set(redis_key, "$", book)
-        print(f"Stored book {book['book_title']} at key {redis_key}.")
+        print(f"Stored book {book['title']} at key {redis_key}.")
         books_loaded += 1
 
 print(f"Loaded {books_loaded} books into Redis.")
@@ -39,12 +42,12 @@ try:
     # books_loaded should be 670.
     assert books_loaded == 670, "Error loading the correct number of books."
 
-    # Book 23 book_title should be "Saving Sara".
-    title = r.json().get(make_key("23"), "$.book_title")
+    # Book 23 title should be "Saving Sara".
+    title = r.json().get(make_key("23"), "$.title")
     assert title[0] == "Saving Sara", "Error verifying book 23 title."
 
-    # Book 1484 author_name should be "Charlie Jane Anders".
-    author = r.json().get(make_key("1484"), "$.author_name")
+    # Book 1484 author should be "Charlie Jane Anders".
+    author = r.json().get(make_key("1484"), "$.author")
     assert author[0] == "Charlie Jane Anders", "Error verifying book 1484 author."
 
     # Book 13517 should have 1000 pages.

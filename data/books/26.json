@@ -1,8 +1,7 @@
 {
-    "author_name": "Angela Castle",
+    "author": "Angela Castle",
     "base_id": 26,
-    "book_description": "Tara Clarkson has been searching for her missing sister, Alice, until the night she turns up with two large sexy alien men in tow.Now Tara is pissed as hell after being abducted herself. Alice and her alien husband promise to return her to Earth on their next trip.Melron is fun, playful, sexy as hell and determined to persuade her to be his.After arriving on Planet Kelon, Melron formulates a plan to get her under his roof and into his arms. But can Tara, resist the hunky alien warrior determined to win her heart by any means, or will she be able to leave him and return to Earth?",
-    "book_title": "Tempting Tara",
+    "description": "Tara Clarkson has been searching for her missing sister, Alice, until the night she turns up with two large sexy alien men in tow.Now Tara is pissed as hell after being abducted herself. Alice and her alien husband promise to return her to Earth on their next trip.Melron is fun, playful, sexy as hell and determined to persuade her to be his.After arriving on Planet Kelon, Melron formulates a plan to get her under his roof and into his arms. But can Tara, resist the hunky alien warrior determined to win her heart by any means, or will she be able to leave him and return to Earth?",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "26_1"
+            "stock_id": "26_1"
         }
     ],
     "metrics": {
         "rating_votes": 949,
         "score": 3.73
     },
-    "original_book_title": "B0056UEUKK",
     "pages": 803,
+    "title": "Tempting Tara",
     "url": "https://www.goodreads.com/book/show/11789964-tempting-tara",
     "year_published": 2011
 }

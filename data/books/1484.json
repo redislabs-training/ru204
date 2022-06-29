@@ -1,8 +1,7 @@
 {
-    "author_name": "Charlie Jane Anders",
+    "author": "Charlie Jane Anders",
     "base_id": 1484,
-    "book_description": "Would you give up everything to change the world?Humanity clings to life on January--a colonized planet divided between permanently frozen darkness on one side, and blazing endless sunshine on the other.Two cities, built long ago in the meager temperate zone, serve as the last bastions of civilization--but life inside them is just as dangerous as the uninhabitable wastelands outside.Sophie, a young student from the wrong side of Xiosphant city, is exiled into the dark after being part of a failed revolution. But she survives--with the help of a mysterious savior from beneath the ice.Burdened with a dangerous, painful secret, Sophie and her ragtag group of exiles face the ultimate challenge--and they are running out of time.Welcome to the City in the Middle of the Night",
-    "book_title": "The City in the Middle of the Night",
+    "description": "Would you give up everything to change the world?Humanity clings to life on January--a colonized planet divided between permanently frozen darkness on one side, and blazing endless sunshine on the other.Two cities, built long ago in the meager temperate zone, serve as the last bastions of civilization--but life inside them is just as dangerous as the uninhabitable wastelands outside.Sophie, a young student from the wrong side of Xiosphant city, is exiled into the dark after being part of a failed revolution. But she survives--with the help of a mysterious savior from beneath the ice.Burdened with a dangerous, painful secret, Sophie and her ragtag group of exiles face the ultimate challenge--and they are running out of time.Welcome to the City in the Middle of the Night",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1484_1"
+            "stock_id": "1484_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1484_2"
+            "stock_id": "1484_2"
         },
         {
             "status": "available",
-            "stock_number": "1484_3"
+            "stock_id": "1484_3"
         },
         {
             "status": "available",
-            "stock_number": "1484_4"
+            "stock_id": "1484_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "1484_5"
+            "stock_id": "1484_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "1484_6"
+            "stock_id": "1484_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "1484_7"
+            "stock_id": "1484_7"
         },
         {
             "status": "available",
-            "stock_number": "1484_8"
+            "stock_id": "1484_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "1484_9"
+            "stock_id": "1484_9"
         }
     ],
     "metrics": {
         "rating_votes": 7633,
         "score": 3.53
     },
-    "original_book_title": "The City in the Middle of the Night",
     "pages": 549,
+    "title": "The City in the Middle of the Night",
     "url": "https://www.goodreads.com/book/show/37534907-the-city-in-the-middle-of-the-night",
     "year_published": 2019
 }

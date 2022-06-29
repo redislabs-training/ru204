@@ -1,8 +1,7 @@
 {
-    "author_name": "Jenn Burke",
+    "author": "Jenn Burke",
     "base_id": 213,
-    "book_description": "\"You're not real. Felix Ingesson is dead.\"The war with the alien stin is over, but Felix Ingesson has given up on seeing his lover, Zander Anatolius, ever again. Zander's military file is sealed tighter than an airlock. A former prisoner of war, Felix is attempting a much quieter life keeping his ship, the Chaos, aloft. He almost succeeds, until Zander walks on board and insists that Felix isn't real.A retired, broken super soldier, Zander is reeling from the aftereffects of his experimental training and wants nothing more than to disappear and wait for insanity to claim him. Then he sees footage of a friend and ally\u2014a super soldier like him\u2014murdering an entire security squad with her bare hands and a cold, dead look in her eyes. He never expected to find Felix, the man he'd thought dead for years, on the ship he hired to track her down.Working with Felix to rescue his teammate is a dream come true\u2026and a nightmare. Zander has no exit strategy that will leave Felix unscathed\u2014or his own heart unbroken.",
-    "book_title": "Chaos Station",
+    "description": "\"You're not real. Felix Ingesson is dead.\"The war with the alien stin is over, but Felix Ingesson has given up on seeing his lover, Zander Anatolius, ever again. Zander's military file is sealed tighter than an airlock. A former prisoner of war, Felix is attempting a much quieter life keeping his ship, the Chaos, aloft. He almost succeeds, until Zander walks on board and insists that Felix isn't real.A retired, broken super soldier, Zander is reeling from the aftereffects of his experimental training and wants nothing more than to disappear and wait for insanity to claim him. Then he sees footage of a friend and ally\u2014a super soldier like him\u2014murdering an entire security squad with her bare hands and a cold, dead look in her eyes. He never expected to find Felix, the man he'd thought dead for years, on the ship he hired to track her down.Working with Felix to rescue his teammate is a dream come true\u2026and a nightmare. Zander has no exit strategy that will leave Felix unscathed\u2014or his own heart unbroken.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "213_1"
+            "stock_id": "213_1"
         },
         {
             "status": "available",
-            "stock_number": "213_2"
+            "stock_id": "213_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "213_3"
+            "stock_id": "213_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "213_4"
+            "stock_id": "213_4"
         }
     ],
     "metrics": {
         "rating_votes": 1045,
         "score": 3.89
     },
-    "original_book_title": "Chaos Station",
     "pages": 743,
+    "title": "Chaos Station",
     "url": "https://www.goodreads.com/book/show/23595481-chaos-station",
     "year_published": 2015
 }

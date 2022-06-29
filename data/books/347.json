@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 347,
-    "book_description": "Just like Rapunzel from the fairy tales, dreamy, romantic Amy lives a hidden life. She's kept locked away in a tower for her own safety, with her sister as protector. Amy knows it's for her own good. If a dragon catches her scent, she'll be carried away and forced to become a drakoni's mate.But Amy has a secret - she desperately wants to be stolen. She would love to be rescued from her life of idleness and the thought of a devoted drakoni male charging in and saving her from her boredom sounds perfect to her. Of course, she wants a romantic, loving male who will adore her.What she gets is Rast.He's not kind. Not romantic. Definitely not gentle. But he is utterly and completely obsessed with Amy and he'll stop at nothing to make the delicate female his.",
-    "book_title": "Fire in His Fury",
+    "description": "Just like Rapunzel from the fairy tales, dreamy, romantic Amy lives a hidden life. She's kept locked away in a tower for her own safety, with her sister as protector. Amy knows it's for her own good. If a dragon catches her scent, she'll be carried away and forced to become a drakoni's mate.But Amy has a secret - she desperately wants to be stolen. She would love to be rescued from her life of idleness and the thought of a devoted drakoni male charging in and saving her from her boredom sounds perfect to her. Of course, she wants a romantic, loving male who will adore her.What she gets is Rast.He's not kind. Not romantic. Definitely not gentle. But he is utterly and completely obsessed with Amy and he'll stop at nothing to make the delicate female his.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "347_1"
+            "stock_id": "347_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "347_2"
+            "stock_id": "347_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "347_3"
+            "stock_id": "347_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "347_4"
+            "stock_id": "347_4"
         }
     ],
     "metrics": {
         "rating_votes": 4060,
         "score": 4.05
     },
-    "original_book_title": "Fire in His Fury",
     "pages": 682,
+    "title": "Fire in His Fury",
     "url": "https://www.goodreads.com/book/show/37917471-fire-in-his-fury",
     "year_published": 2018
 }

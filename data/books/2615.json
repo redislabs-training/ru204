@@ -1,8 +1,7 @@
 {
-    "author_name": "Iain M. Banks",
+    "author": "Iain M. Banks",
     "base_id": 2615,
-    "book_description": "The Culture - a humanoid/machine symbiotic society - has thrown up many great Game Players. One of the best is Jernau Morat Gurgeh, Player of Games, master of every board, computer and strategy. Bored with success, Gurgeh travels to the Empire of Azad, cruel & incredibly wealthy, to try their fabulous game, a game so complex, so like life itself, that the winner becomes emperor. Mocked, blackmailed, almost murdered, Gurgeh accepts the game and with it the challenge of his life, and very possibly his death.",
-    "book_title": "The Player of Games",
+    "description": "The Culture - a humanoid/machine symbiotic society - has thrown up many great Game Players. One of the best is Jernau Morat Gurgeh, Player of Games, master of every board, computer and strategy. Bored with success, Gurgeh travels to the Empire of Azad, cruel & incredibly wealthy, to try their fabulous game, a game so complex, so like life itself, that the winner becomes emperor. Mocked, blackmailed, almost murdered, Gurgeh accepts the game and with it the challenge of his life, and very possibly his death.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "2615_1"
+            "stock_id": "2615_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2615_2"
+            "stock_id": "2615_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "2615_3"
+            "stock_id": "2615_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "2615_4"
+            "stock_id": "2615_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "2615_5"
+            "stock_id": "2615_5"
         }
     ],
     "metrics": {
         "rating_votes": 60770,
         "score": 4.27
     },
-    "original_book_title": "The Player of Games",
     "pages": 1030,
+    "title": "The Player of Games",
     "url": "https://www.goodreads.com/book/show/18630.The_Player_of_Games",
     "year_published": 1988
 }

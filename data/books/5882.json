@@ -1,8 +1,7 @@
 {
-    "author_name": "Ursula K. Le Guin",
+    "author": "Ursula K. Le Guin",
     "base_id": 5882,
-    "book_description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe. To do this dangerous task will mean giving up his family and possibly his life\u2014Shevek must make the unprecedented journey to the utopian mother planet, Urras, to challenge the complex structures of life and living, and ignite the fires of change.",
-    "book_title": "The Dispossessed",
+    "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe. To do this dangerous task will mean giving up his family and possibly his life\u2014Shevek must make the unprecedented journey to the utopian mother planet, Urras, to challenge the complex structures of life and living, and ignite the fires of change.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "5882_1"
+            "stock_id": "5882_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "5882_2"
+            "stock_id": "5882_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "5882_3"
+            "stock_id": "5882_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "5882_4"
+            "stock_id": "5882_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "5882_5"
+            "stock_id": "5882_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "5882_6"
+            "stock_id": "5882_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "5882_7"
+            "stock_id": "5882_7"
         }
     ],
     "metrics": {
         "rating_votes": 92246,
         "score": 4.2
     },
-    "original_book_title": "The Dispossessed",
     "pages": 1291,
+    "title": "The Dispossessed",
     "url": "https://www.goodreads.com/book/show/13651.The_Dispossessed",
     "year_published": 1974
 }

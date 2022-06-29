@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 1026,
-    "book_description": "Twelve humans are left stranded on a wintry alien planet. I\u2019m one of them. Yay, me. In order to survive, we have to take on a symbiont that wants to rewire our bodies to live in this brutal place. I like to call it a cootie. And my cootie\u2019s a jerk, because it also thinks I\u2019m the mate to the biggest, surliest alien of the group. BARBARIAN ALIEN is a sequel to ICE PLANET BARBARIANS. You do not have to read both in order to understand the plot, but the story will be richer if you do!",
-    "book_title": "Barbarian Alien",
+    "description": "Twelve humans are left stranded on a wintry alien planet. I\u2019m one of them. Yay, me. In order to survive, we have to take on a symbiont that wants to rewire our bodies to live in this brutal place. I like to call it a cootie. And my cootie\u2019s a jerk, because it also thinks I\u2019m the mate to the biggest, surliest alien of the group. BARBARIAN ALIEN is a sequel to ICE PLANET BARBARIANS. You do not have to read both in order to understand the plot, but the story will be richer if you do!",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1026_1"
+            "stock_id": "1026_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1026_2"
+            "stock_id": "1026_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1026_3"
+            "stock_id": "1026_3"
         }
     ],
     "metrics": {
         "rating_votes": 10160,
         "score": 3.91
     },
-    "original_book_title": "Barbarian Alien",
     "pages": 937,
+    "title": "Barbarian Alien",
     "url": "https://www.goodreads.com/book/show/25802043-barbarian-alien",
     "year_published": 2015
 }

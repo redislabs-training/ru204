@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 601,
-    "book_description": "Alternate cover edition for 9781250082749It is in the darkest hours of a universe\u2019s past that their legends are born and their heroes rise\u2026No one knows exactly how much heart they have until their mettle is put to the hazard and they reach the lowest point of hell. There, they have only two choices. Lie down and die. Or find the strength to push themselves to their feet and fight back with everything they have.Dagger is the alias that is used by Ushara\u2019s husband, and the father of the twins, who is on the run for his life. This is his story and shows how he became a member of the Tavali and what happens to them after Born of Betrayal ends.",
-    "book_title": "Born of Legend",
+    "description": "Alternate cover edition for 9781250082749It is in the darkest hours of a universe\u2019s past that their legends are born and their heroes rise\u2026No one knows exactly how much heart they have until their mettle is put to the hazard and they reach the lowest point of hell. There, they have only two choices. Lie down and die. Or find the strength to push themselves to their feet and fight back with everything they have.Dagger is the alias that is used by Ushara\u2019s husband, and the father of the twins, who is on the run for his life. This is his story and shows how he became a member of the Tavali and what happens to them after Born of Betrayal ends.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "601_1"
+            "stock_id": "601_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "601_2"
+            "stock_id": "601_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "601_3"
+            "stock_id": "601_3"
         },
         {
             "status": "available",
-            "stock_number": "601_4"
+            "stock_id": "601_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "601_5"
+            "stock_id": "601_5"
         }
     ],
     "metrics": {
         "rating_votes": 5464,
         "score": 4.55
     },
-    "original_book_title": "Born of Legend",
     "pages": 629,
+    "title": "Born of Legend",
     "url": "https://www.goodreads.com/book/show/25868031-born-of-legend",
     "year_published": 2016
 }

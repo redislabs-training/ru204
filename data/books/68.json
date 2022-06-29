@@ -1,8 +1,7 @@
 {
-    "author_name": "Isabel Wroth",
+    "author": "Isabel Wroth",
     "base_id": 68,
-    "book_description": "Book 1.1 of the Sarazen Saga This book is part of a SERIES. It could be read alone and enjoyed as is. Suggested to be read following Book 1, Sarazen's Claim. There is a happy ending, but as this is part of a SERIES, the ever after part comes later. Not a cliffhanger so much as a continuation.Having gone from invisible engineering personnel, to one of the few remaining human survivors, Andi Starsong is struggling to acclimate to her new situation. She's been identified as a potential mate by one of the hulking Sarazen warriors, and if that wasn't terrifying enough, he's come to claim her.Ohlen's little mate is terrified of him. Despite having done everything he can think of to put her at ease, Andi shies from him each time he so much as glances his way. He can no longer deny the roaring of his beast, the instinct that tells him she is in danger. He has no choice. He must claim her.When the warship reaches Sarazen territory, Ohlen and Andi must navigate their blossoming bond and the danger of the treachery brewing within the pride. Treachery that could destroy more than just their bond.",
-    "book_title": "Sarazen's Vengeance",
+    "description": "Book 1.1 of the Sarazen Saga This book is part of a SERIES. It could be read alone and enjoyed as is. Suggested to be read following Book 1, Sarazen's Claim. There is a happy ending, but as this is part of a SERIES, the ever after part comes later. Not a cliffhanger so much as a continuation.Having gone from invisible engineering personnel, to one of the few remaining human survivors, Andi Starsong is struggling to acclimate to her new situation. She's been identified as a potential mate by one of the hulking Sarazen warriors, and if that wasn't terrifying enough, he's come to claim her.Ohlen's little mate is terrified of him. Despite having done everything he can think of to put her at ease, Andi shies from him each time he so much as glances his way. He can no longer deny the roaring of his beast, the instinct that tells him she is in danger. He has no choice. He must claim her.When the warship reaches Sarazen territory, Ohlen and Andi must navigate their blossoming bond and the danger of the treachery brewing within the pride. Treachery that could destroy more than just their bond.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "68_1"
+            "stock_id": "68_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "68_2"
+            "stock_id": "68_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "68_3"
+            "stock_id": "68_3"
         },
         {
             "status": "available",
-            "stock_number": "68_4"
+            "stock_id": "68_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "68_5"
+            "stock_id": "68_5"
         },
         {
             "status": "available",
-            "stock_number": "68_6"
+            "stock_id": "68_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "68_7"
+            "stock_id": "68_7"
         },
         {
             "status": "available",
-            "stock_number": "68_8"
+            "stock_id": "68_8"
         },
         {
             "status": "available",
-            "stock_number": "68_9"
+            "stock_id": "68_9"
         }
     ],
     "metrics": {
         "rating_votes": 791,
         "score": 4.08
     },
-    "original_book_title": "B01LVX9IJT",
     "pages": 846,
+    "title": "Sarazen's Vengeance",
     "url": "https://www.goodreads.com/book/show/31921274-sarazen-s-vengeance",
     "year_published": 2016
 }

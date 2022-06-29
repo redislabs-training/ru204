@@ -1,8 +1,7 @@
 {
-    "author_name": "M.K. Eidem",
+    "author": "M.K. Eidem",
     "base_id": 187,
-    "book_description": "Alternative cover edition ASIN B00CKXWOM2Cassandra Chamberlain has always stood out. It's hard not to at 6\u20191\u201d and 165 pounds with jet black hair and sapphire blue eyes. And if that wasn\u2019t enough she is also brilliant, graduating from Harvard at fifteen, teaching at MIT at nineteen and up for the prestigious Magellan Award at twenty five. But she\u2019s never really fit in. Not with her peers, not with her contemporaries, only with her family. But everything changes when the Earth is attacked and Cassandra and her niece Victoria are the only survivors. Suddenly the smartest woman on the planet has to relearn everything. Everything she\u2019s believed to be true is challenged and she has to learn to survive, not only for herself but for Victoria, because someone wants them dead.Admiral William Zafar is the youngest Admiral ever in the Coalition fleet, the hero of the Battle of Fayal. At 7\u20191\u201d he\u2019s 325 pounds of Carinian male in his prime who is feared and respected throughout the fleet. He is a royal from the House of Protection, carrying its birthmark and considers its King one of his oldest friends.But when the Regulians destroy a previously unknown planet leaving only two survivors he finds he's willing to risk it all to protect the woman he loves from the Regulians and the Carinian traitor that wants her dead.",
-    "book_title": "Cassandra's Challenge",
+    "description": "Alternative cover edition ASIN B00CKXWOM2Cassandra Chamberlain has always stood out. It's hard not to at 6\u20191\u201d and 165 pounds with jet black hair and sapphire blue eyes. And if that wasn\u2019t enough she is also brilliant, graduating from Harvard at fifteen, teaching at MIT at nineteen and up for the prestigious Magellan Award at twenty five. But she\u2019s never really fit in. Not with her peers, not with her contemporaries, only with her family. But everything changes when the Earth is attacked and Cassandra and her niece Victoria are the only survivors. Suddenly the smartest woman on the planet has to relearn everything. Everything she\u2019s believed to be true is challenged and she has to learn to survive, not only for herself but for Victoria, because someone wants them dead.Admiral William Zafar is the youngest Admiral ever in the Coalition fleet, the hero of the Battle of Fayal. At 7\u20191\u201d he\u2019s 325 pounds of Carinian male in his prime who is feared and respected throughout the fleet. He is a royal from the House of Protection, carrying its birthmark and considers its King one of his oldest friends.But when the Regulians destroy a previously unknown planet leaving only two survivors he finds he's willing to risk it all to protect the woman he loves from the Regulians and the Carinian traitor that wants her dead.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "187_1"
+            "stock_id": "187_1"
         },
         {
             "status": "available",
-            "stock_number": "187_2"
+            "stock_id": "187_2"
         },
         {
             "status": "available",
-            "stock_number": "187_3"
+            "stock_id": "187_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "187_4"
+            "stock_id": "187_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "187_5"
+            "stock_id": "187_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "187_6"
+            "stock_id": "187_6"
         }
     ],
     "metrics": {
         "rating_votes": 2730,
         "score": 4.22
     },
-    "original_book_title": "English",
     "pages": 806,
+    "title": "Cassandra's Challenge",
     "url": "https://www.goodreads.com/book/show/18478285-cassandra-s-challenge",
     "year_published": 2013
 }

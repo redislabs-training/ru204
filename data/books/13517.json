@@ -1,8 +1,7 @@
 {
-    "author_name": "Brian K. Vaughan",
+    "author": "Brian K. Vaughan",
     "base_id": 13517,
-    "book_description": "When two soldiers from opposite sides of a never-ending galactic war fall in love, they risk everything to bring a fragile new life into a dangerous old universe. From bestselling writer Brian K. Vaughan, Saga is the sweeping tale of one young family fighting to find their place in the worlds. fantasy and science fiction are wed like never before in this sexy, subversive drama for adults. Collecting: Saga 1-6",
-    "book_title": "Saga, Vol. 1",
+    "description": "When two soldiers from opposite sides of a never-ending galactic war fall in love, they risk everything to bring a fragile new life into a dangerous old universe. From bestselling writer Brian K. Vaughan, Saga is the sweeping tale of one young family fighting to find their place in the worlds. fantasy and science fiction are wed like never before in this sexy, subversive drama for adults. Collecting: Saga 1-6",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "13517_1"
+            "stock_id": "13517_1"
         },
         {
             "status": "available",
-            "stock_number": "13517_2"
+            "stock_id": "13517_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "13517_3"
+            "stock_id": "13517_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "13517_4"
+            "stock_id": "13517_4"
         }
     ],
     "metrics": {
         "rating_votes": 263153,
         "score": 4.18
     },
-    "original_book_title": "Saga, Volume One",
     "pages": 1000,
+    "title": "Saga, Vol. 1",
     "url": "https://www.goodreads.com/book/show/15704307-saga-vol-1",
     "year_published": 2012
 }

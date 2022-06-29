@@ -1,8 +1,7 @@
 {
-    "author_name": "Tiffany Roberts",
+    "author": "Tiffany Roberts",
     "base_id": 108,
-    "book_description": "HER INSPIRATION AND HER PASSION\u2026Three months ago, Aymee had no idea the kraken \u2014 half-human sea dwellers \u2014 even existed. Now, the violet eyes of the kraken Arkon haunt her imagination, and she longs to know his touch. But word of his people has spread beyond The Watch, and Aymee\u2019s attraction to Arkon may endanger the safety of human and kraken alike. To protect him, can she bring herself to forsake him? Is her desire for Arkon worth putting both their worlds at risk?HIS MUSE AND HIS JEWEL\u2026Arkon has spent his life in the pursuit of knowledge. Then he met Aymee and found a new quest: to make her his. She inspires him, draws him in, dominates his thoughts. When he finally builds the courage to approach her, she\u2019s everything he imagined and more. But a group of murderous humans are hunting the kraken, and continued contact with Aymee may destroy them both. Now that he\u2019s tasted her sweetness, he can\u2019t give her up\u2026but can he risk his world and his people to satisfy his need for her?",
-    "book_title": "Jewel of the Sea",
+    "description": "HER INSPIRATION AND HER PASSION\u2026Three months ago, Aymee had no idea the kraken \u2014 half-human sea dwellers \u2014 even existed. Now, the violet eyes of the kraken Arkon haunt her imagination, and she longs to know his touch. But word of his people has spread beyond The Watch, and Aymee\u2019s attraction to Arkon may endanger the safety of human and kraken alike. To protect him, can she bring herself to forsake him? Is her desire for Arkon worth putting both their worlds at risk?HIS MUSE AND HIS JEWEL\u2026Arkon has spent his life in the pursuit of knowledge. Then he met Aymee and found a new quest: to make her his. She inspires him, draws him in, dominates his thoughts. When he finally builds the courage to approach her, she\u2019s everything he imagined and more. But a group of murderous humans are hunting the kraken, and continued contact with Aymee may destroy them both. Now that he\u2019s tasted her sweetness, he can\u2019t give her up\u2026but can he risk his world and his people to satisfy his need for her?",
     "editions": [
         "None"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "108_1"
+            "stock_id": "108_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "108_2"
+            "stock_id": "108_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "108_3"
+            "stock_id": "108_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "108_4"
+            "stock_id": "108_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "108_5"
+            "stock_id": "108_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "108_6"
+            "stock_id": "108_6"
         }
     ],
     "metrics": {
         "rating_votes": 1067,
         "score": 4.08
     },
-    "original_book_title": "B07C9TWTYW",
     "pages": 1086,
+    "title": "Jewel of the Sea",
     "url": "https://www.goodreads.com/book/show/39696612-jewel-of-the-sea",
     "year_published": 2018
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Jaymin Eve",
+    "author": "Jaymin Eve",
     "base_id": 654,
-    "book_description": "When Emma moves to Astoria, Oregon, she is given two rules: #1 \u2013 Don\u2019t cross to \u201ctheir\u201d side of the street.\t#2 \u2013 Don\u2019t mess with the elites, especially Lexen Darken, top elite and resident bad boy. While she finds this both weird and insulting, Emma has no actual intention of breaking these rules - until her guardians go missing. Now all bets are off. Only a single line separates her side of the street from the elites', and she's crossing it. Captured and held by Lexen and his brothers, she learns the rules are in place for a very good reason. There's a secret world hidden in this small town which goes far beyond the one she knows and understands. A world not for humans.",
-    "book_title": "House of Darken",
+    "description": "When Emma moves to Astoria, Oregon, she is given two rules: #1 \u2013 Don\u2019t cross to \u201ctheir\u201d side of the street.\t#2 \u2013 Don\u2019t mess with the elites, especially Lexen Darken, top elite and resident bad boy. While she finds this both weird and insulting, Emma has no actual intention of breaking these rules - until her guardians go missing. Now all bets are off. Only a single line separates her side of the street from the elites', and she's crossing it. Captured and held by Lexen and his brothers, she learns the rules are in place for a very good reason. There's a secret world hidden in this small town which goes far beyond the one she knows and understands. A world not for humans.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "654_1"
+            "stock_id": "654_1"
         }
     ],
     "metrics": {
         "rating_votes": 11064,
         "score": 3.94
     },
-    "original_book_title": "House of Darken",
     "pages": 478,
+    "title": "House of Darken",
     "url": "https://www.goodreads.com/book/show/36161602-house-of-darken",
     "year_published": 2018
 }

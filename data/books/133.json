@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Hackett",
+    "author": "Anna Hackett",
     "base_id": 133,
-    "book_description": "Abducted by alien slavers, experimented on, and left blind, the last thing doctor Winter Ashworth needs is a big barbarian gladiator in her life, especially an annoying one who thinks she\u2019s small and weak.Rescued by gladiators on the desert world of Carthago, Winter is doggedly working to embrace her new life. But two of her friends are still missing and she\u2019ll do anything to help get them back\u2026even if she has to work alongside Nero Krahn: hunter, barbarian, gladiator. The scowly, brooding man is too big, has too many muscles, and pushes all her buttons.Nero is the House of Galen\u2019s best hunter and tracker. Raised on a barbarian world, where strength and might are prized, he was bred to hunt and fight. Now the arena is his home and his loyalty is to his imperator. He knows he can use his skills to find the two lost women, even if that means protecting a small blind woman who takes every chance to misjudge his words and lash him with her sharp tongue.But as they follow a dangerous trail to save their friends, a new enemy emerges\u2014one who wants Winter. The pair find themselves reluctantly attracted to each other, uncovering a scorching desire that shocks them both. As Nero fights to protect Winter, the barbarian gladiator will discover the true meaning of strength from the small Earth woman he wants to claim as his.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen) and a steamy romance (between a scowly barbarian gladiator and a determined doctor). So if you like it fast, and gritty, and sexy, this is for you!Includes a preview of Marcus, Book 1 of Hell Squad.",
-    "book_title": "Barbarian",
+    "description": "Abducted by alien slavers, experimented on, and left blind, the last thing doctor Winter Ashworth needs is a big barbarian gladiator in her life, especially an annoying one who thinks she\u2019s small and weak.Rescued by gladiators on the desert world of Carthago, Winter is doggedly working to embrace her new life. But two of her friends are still missing and she\u2019ll do anything to help get them back\u2026even if she has to work alongside Nero Krahn: hunter, barbarian, gladiator. The scowly, brooding man is too big, has too many muscles, and pushes all her buttons.Nero is the House of Galen\u2019s best hunter and tracker. Raised on a barbarian world, where strength and might are prized, he was bred to hunt and fight. Now the arena is his home and his loyalty is to his imperator. He knows he can use his skills to find the two lost women, even if that means protecting a small blind woman who takes every chance to misjudge his words and lash him with her sharp tongue.But as they follow a dangerous trail to save their friends, a new enemy emerges\u2014one who wants Winter. The pair find themselves reluctantly attracted to each other, uncovering a scorching desire that shocks them both. As Nero fights to protect Winter, the barbarian gladiator will discover the true meaning of strength from the small Earth woman he wants to claim as his.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen) and a steamy romance (between a scowly barbarian gladiator and a determined doctor). So if you like it fast, and gritty, and sexy, this is for you!Includes a preview of Marcus, Book 1 of Hell Squad.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "133_1"
+            "stock_id": "133_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "133_2"
+            "stock_id": "133_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "133_3"
+            "stock_id": "133_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "133_4"
+            "stock_id": "133_4"
         },
         {
             "status": "available",
-            "stock_number": "133_5"
+            "stock_id": "133_5"
         },
         {
             "status": "available",
-            "stock_number": "133_6"
+            "stock_id": "133_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "133_7"
+            "stock_id": "133_7"
         }
     ],
     "metrics": {
         "rating_votes": 1531,
         "score": 4.31
     },
-    "original_book_title": "B073CF7QF8",
     "pages": 494,
+    "title": "Barbarian",
     "url": "https://www.goodreads.com/book/show/35446063-barbarian",
     "year_published": 2017
 }

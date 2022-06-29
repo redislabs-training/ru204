@@ -1,8 +1,7 @@
 {
-    "author_name": "C.J. Cherryh",
+    "author": "C.J. Cherryh",
     "base_id": 288,
-    "book_description": "No one at Meetpoint Station had ever seen a creature like the Outsider. Naked-hided, blunt toothed and blunt-fingered, Tully was the sole surviving member of his company -- a communicative, spacefaring species hitherto unknown -- and he was a prisoner of his discoverer/ captors the sadistic, treacherous kif, until his escape onto the hani ship The Pride of Chanur. Little did he know when he threw himself upon the mercy of The Pride and her crew that he put the entire hani species in jeopardy and imperiled the peace of the Compact itself. For the information this fugitive held could be the ruin or glory of any of the species at Meetpoint Station. Cover art by Michael Whelan ",
-    "book_title": "The Pride of Chanur",
+    "description": "No one at Meetpoint Station had ever seen a creature like the Outsider. Naked-hided, blunt toothed and blunt-fingered, Tully was the sole surviving member of his company -- a communicative, spacefaring species hitherto unknown -- and he was a prisoner of his discoverer/ captors the sadistic, treacherous kif, until his escape onto the hani ship The Pride of Chanur. Little did he know when he threw himself upon the mercy of The Pride and her crew that he put the entire hani species in jeopardy and imperiled the peace of the Compact itself. For the information this fugitive held could be the ruin or glory of any of the species at Meetpoint Station. Cover art by Michael Whelan ",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "288_1"
+            "stock_id": "288_1"
         }
     ],
     "metrics": {
         "rating_votes": 6368,
         "score": 3.93
     },
-    "original_book_title": "The Pride of Chanur",
     "pages": 842,
+    "title": "The Pride of Chanur",
     "url": "https://www.goodreads.com/book/show/1197129.The_Pride_of_Chanur",
     "year_published": 1981
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "John Christopher",
+    "author": "John Christopher",
     "base_id": 335,
-    "book_description": "Will, Beanpole, and Henry have managed to escape the Tripods. But instead of living in safety, in the small community of free people, they have chosen to embark upon a mission that may cost them their lives.",
-    "book_title": "The City of Gold and Lead",
+    "description": "Will, Beanpole, and Henry have managed to escape the Tripods. But instead of living in safety, in the small community of free people, they have chosen to embark upon a mission that may cost them their lives.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "335_1"
+            "stock_id": "335_1"
         },
         {
             "status": "available",
-            "stock_number": "335_2"
+            "stock_id": "335_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "335_3"
+            "stock_id": "335_3"
         },
         {
             "status": "available",
-            "stock_number": "335_4"
+            "stock_id": "335_4"
         }
     ],
     "metrics": {
         "rating_votes": 7286,
         "score": 4.07
     },
-    "original_book_title": "The City of Gold and Lead",
     "pages": 539,
+    "title": "The City of Gold and Lead",
     "url": "https://www.goodreads.com/book/show/64338.The_City_of_Gold_and_Lead",
     "year_published": 1967
 }

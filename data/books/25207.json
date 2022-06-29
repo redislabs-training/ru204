@@ -1,8 +1,7 @@
 {
-    "author_name": "Marissa Meyer",
+    "author": "Marissa Meyer",
     "base_id": 25207,
-    "book_description": "Princess Winter is admired for her grace, kindness and beauty, despite the scars on her face. She's said to be even more breath-taking than her stepmother, Queen Levana...When Winter develops feelings for the handsome palace guard, Jacin, she fears the evil Queen will crush their romance before it has a chance to begin.But there are stirrings against the Queen across the land. Together with the cyborg mechanic, Cinder, and her allies, Winter might even find the power to launch a revolution and win a war that's been raging for far too long.Can Cinder, Scarlet, Cress, and Winter claim their happily ever afters by defeating Levana once and for all?",
-    "book_title": "Winter",
+    "description": "Princess Winter is admired for her grace, kindness and beauty, despite the scars on her face. She's said to be even more breath-taking than her stepmother, Queen Levana...When Winter develops feelings for the handsome palace guard, Jacin, she fears the evil Queen will crush their romance before it has a chance to begin.But there are stirrings against the Queen across the land. Together with the cyborg mechanic, Cinder, and her allies, Winter might even find the power to launch a revolution and win a war that's been raging for far too long.Can Cinder, Scarlet, Cress, and Winter claim their happily ever afters by defeating Levana once and for all?",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "25207_1"
+            "stock_id": "25207_1"
         },
         {
             "status": "available",
-            "stock_number": "25207_2"
+            "stock_id": "25207_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "25207_3"
+            "stock_id": "25207_3"
         }
     ],
     "metrics": {
         "rating_votes": 205873,
         "score": 4.43
     },
-    "original_book_title": "Winter",
     "pages": 1082,
+    "title": "Winter",
     "url": "https://www.goodreads.com/book/show/13206900-winter",
     "year_published": 2015
 }

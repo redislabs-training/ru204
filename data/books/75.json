@@ -1,8 +1,7 @@
 {
-    "author_name": "Amy Thomson",
+    "author": "Amy Thomson",
     "base_id": 75,
-    "book_description": "Juna is the sole survivor of a team of surveyors marooned in the dense and isolated Tendu rain forest, an uninhabitable world for humans. Her only hope for survival is total transformation--and terrifying assimilation--into the amphibian Tendu species. Juna will learn more about her own human nature than ever before.",
-    "book_title": "The Color of Distance",
+    "description": "Juna is the sole survivor of a team of surveyors marooned in the dense and isolated Tendu rain forest, an uninhabitable world for humans. Her only hope for survival is total transformation--and terrifying assimilation--into the amphibian Tendu species. Juna will learn more about her own human nature than ever before.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "75_1"
+            "stock_id": "75_1"
         }
     ],
     "metrics": {
         "rating_votes": 790,
         "score": 4.26
     },
-    "original_book_title": "The Color of Distance",
     "pages": 370,
+    "title": "The Color of Distance",
     "url": "https://www.goodreads.com/book/show/466371.The_Color_of_Distance",
     "year_published": 1995
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Laurann Dohner",
+    "author": "Laurann Dohner",
     "base_id": 201,
-    "book_description": "What can go wrong overseeing a bunch of android sex bots on an automated whorehouse in deep space? Great job, if Megan doesn't die of boredom. Then she catches sight of the sexiest male she's ever seen. On her grainy security monitor, she watches all his sexual exploits with the bots, and fantasizes. But that's all she can do because he's a cyborg. Then fate steps in.There's a crash and Megan must escape or die. The cyborgs are rescuing the sex bots-taking them onboard their ship. She knows cyborgs hate humans. They'll kill her if she asks for help so she devises an insane plan-pretend to be the most realistic sex bot ever made.His name is Ice, and Megan is now his personal sex bot. He will satisfy every sexual fantasy she's ever had-and as many more as she can dream up. She just has to figure out how to keep her big, sexy cyborg from discovering that she is all woman.",
-    "book_title": "Touching Ice",
+    "description": "What can go wrong overseeing a bunch of android sex bots on an automated whorehouse in deep space? Great job, if Megan doesn't die of boredom. Then she catches sight of the sexiest male she's ever seen. On her grainy security monitor, she watches all his sexual exploits with the bots, and fantasizes. But that's all she can do because he's a cyborg. Then fate steps in.There's a crash and Megan must escape or die. The cyborgs are rescuing the sex bots-taking them onboard their ship. She knows cyborgs hate humans. They'll kill her if she asks for help so she devises an insane plan-pretend to be the most realistic sex bot ever made.His name is Ice, and Megan is now his personal sex bot. He will satisfy every sexual fantasy she's ever had-and as many more as she can dream up. She just has to figure out how to keep her big, sexy cyborg from discovering that she is all woman.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "201_1"
+            "stock_id": "201_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "201_2"
+            "stock_id": "201_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "201_3"
+            "stock_id": "201_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "201_4"
+            "stock_id": "201_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "201_5"
+            "stock_id": "201_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "201_6"
+            "stock_id": "201_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "201_7"
+            "stock_id": "201_7"
         },
         {
             "status": "available",
-            "stock_number": "201_8"
+            "stock_id": "201_8"
         },
         {
             "status": "maintenance",
-            "stock_number": "201_9"
+            "stock_id": "201_9"
         }
     ],
     "metrics": {
         "rating_votes": 6647,
         "score": 4.12
     },
-    "original_book_title": "Touching Ice",
     "pages": 1038,
+    "title": "Touching Ice",
     "url": "https://www.goodreads.com/book/show/9495552-touching-ice",
     "year_published": 2010
 }

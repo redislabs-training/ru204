@@ -1,8 +1,7 @@
 {
-    "author_name": "Robert A. Heinlein",
+    "author": "Robert A. Heinlein",
     "base_id": 5768,
-    "book_description": "The historians can\u2019t seem to settle whether to call this one \"The Third Space War\" (or the fourth), or whether \"The First Interstellar War\" fits it better. We just call it \u201cThe Bug War.\" Everything up to then and still later were \"incidents,\" \"patrols,\" or \"police actions.\" However, you are just as dead if you buy the farm in an \"incident\" as you are if you buy it in a declared war...In one of Robert A. Heinlein\u2019s most controversial bestsellers, a recruit of the future goes through the toughest boot camp in the Universe\u2014and into battle with the Terran Mobile Infantry against mankind\u2019s most alarming enemy.",
-    "book_title": "Starship Troopers",
+    "description": "The historians can\u2019t seem to settle whether to call this one \"The Third Space War\" (or the fourth), or whether \"The First Interstellar War\" fits it better. We just call it \u201cThe Bug War.\" Everything up to then and still later were \"incidents,\" \"patrols,\" or \"police actions.\" However, you are just as dead if you buy the farm in an \"incident\" as you are if you buy it in a declared war...In one of Robert A. Heinlein\u2019s most controversial bestsellers, a recruit of the future goes through the toughest boot camp in the Universe\u2014and into battle with the Terran Mobile Infantry against mankind\u2019s most alarming enemy.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "5768_1"
+            "stock_id": "5768_1"
         },
         {
             "status": "available",
-            "stock_number": "5768_2"
+            "stock_id": "5768_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "5768_3"
+            "stock_id": "5768_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "5768_4"
+            "stock_id": "5768_4"
         }
     ],
     "metrics": {
         "rating_votes": 197504,
         "score": 4
     },
-    "original_book_title": "Starship Troopers",
     "pages": 705,
+    "title": "Starship Troopers",
     "url": "https://www.goodreads.com/book/show/17214.Starship_Troopers",
     "year_published": 1959
 }

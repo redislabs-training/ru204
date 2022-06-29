@@ -1,8 +1,7 @@
 {
-    "author_name": "K.A. Applegate",
+    "author": "K.A. Applegate",
     "base_id": 135,
-    "book_description": "Rachel's got some pretty strange stuff happening. She can't control her morphing. One minute, she's doing homework. The next, she's morphing a full-grown crocodile, and -- without returning to human form -- she becomes an elephant. That's when the floor gives way and Rachel finds herself looking up at what used to be the kitchen ceiling.What's going on? No one's sure, but Rachel and the other Animorphs have to figure it out -- quickly. Because if someone sees Rachel's out-of-control morphing, the other Animorphs and Ax are in some serious trouble...",
-    "book_title": "The Reaction",
+    "description": "Rachel's got some pretty strange stuff happening. She can't control her morphing. One minute, she's doing homework. The next, she's morphing a full-grown crocodile, and -- without returning to human form -- she becomes an elephant. That's when the floor gives way and Rachel finds herself looking up at what used to be the kitchen ceiling.What's going on? No one's sure, but Rachel and the other Animorphs have to figure it out -- quickly. Because if someone sees Rachel's out-of-control morphing, the other Animorphs and Ax are in some serious trouble...",
     "editions": [
         "English"
     ],
@@ -20,43 +19,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "135_1"
+            "stock_id": "135_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "135_2"
+            "stock_id": "135_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "135_3"
+            "stock_id": "135_3"
         },
         {
             "status": "available",
-            "stock_number": "135_4"
+            "stock_id": "135_4"
         },
         {
             "status": "available",
-            "stock_number": "135_5"
+            "stock_id": "135_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "135_6"
+            "stock_id": "135_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "135_7"
+            "stock_id": "135_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "135_8"
+            "stock_id": "135_8"
         }
     ],
     "metrics": {
         "rating_votes": 4075,
         "score": 3.74
     },
-    "original_book_title": "The Reaction",
     "pages": 321,
+    "title": "The Reaction",
     "url": "https://www.goodreads.com/book/show/815401.The_Reaction",
     "year_published": 1997
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Aguirre",
+    "author": "Ann Aguirre",
     "base_id": 481,
-    "book_description": "Sirantha Jax doesn\u2019t take chances\u2026 she jumps at them\u2026Sirantha Jax is a \u201cJumper,\u201d a woman who possesses the unique genetic makeup needed to navigate faster than light ships through grimspace. Jax has worked for the Farwan Corporation her entire career. But now the word\u2019s out that the Corp deliberately crashed a passenger ship, and their stranglehold on intergalactic commerce has crumbled\u2014which means that Jax is out of a job.She\u2019s also broke, due to being declared dead a little prematurely. So when the government asks her to head up a vital diplomatic mission, Jax takes it. Her mandate: journey to the planet Ithiss-Tor and convince them to join the Conglomerate.But Jax\u2019s payday is light years away. First, she\u2019ll have to contend with Syndicate criminals, a stormy relationship with her pilot, man-eating aliens, and her own grimspace-weakened body. She\u2019ll be lucky just to make it to Ithiss-Tor alive\u2026",
-    "book_title": "Wanderlust",
+    "description": "Sirantha Jax doesn\u2019t take chances\u2026 she jumps at them\u2026Sirantha Jax is a \u201cJumper,\u201d a woman who possesses the unique genetic makeup needed to navigate faster than light ships through grimspace. Jax has worked for the Farwan Corporation her entire career. But now the word\u2019s out that the Corp deliberately crashed a passenger ship, and their stranglehold on intergalactic commerce has crumbled\u2014which means that Jax is out of a job.She\u2019s also broke, due to being declared dead a little prematurely. So when the government asks her to head up a vital diplomatic mission, Jax takes it. Her mandate: journey to the planet Ithiss-Tor and convince them to join the Conglomerate.But Jax\u2019s payday is light years away. First, she\u2019ll have to contend with Syndicate criminals, a stormy relationship with her pilot, man-eating aliens, and her own grimspace-weakened body. She\u2019ll be lucky just to make it to Ithiss-Tor alive\u2026",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "481_1"
+            "stock_id": "481_1"
         }
     ],
     "metrics": {
         "rating_votes": 6104,
         "score": 3.88
     },
-    "original_book_title": "Wanderlust",
     "pages": 607,
+    "title": "Wanderlust",
     "url": "https://www.goodreads.com/book/show/3182799-wanderlust",
     "year_published": 2008
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Jeff VanderMeer",
+    "author": "Jeff VanderMeer",
     "base_id": 4782,
-    "book_description": "It is winter in Area X, the mysterious wilderness that has defied explanation for thirty years, rebuffing expedition after expedition, refusing to reveal its secrets. As Area X expands, the agency tasked with investigating and overseeing it\u2014the Southern Reach\u2014has collapsed on itself in confusion. Now one last, desperate team crosses the border, determined to reach a remote island that may hold the answers they've been seeking. If they fail, the outer world is in peril.Meanwhile, Acceptance tunnels ever deeper into the circumstances surrounding the creation of Area X\u2014what initiated this unnatural upheaval? Among the many who have tried, who has gotten close to understanding Area X\u2014and who may have been corrupted by it?In this last installment of Jeff VanderMeer's Southern Reach trilogy, the mysteries of Area X may be solved, but their consequences and implications are no less profound\u2014or terrifying.",
-    "book_title": "Acceptance",
+    "description": "It is winter in Area X, the mysterious wilderness that has defied explanation for thirty years, rebuffing expedition after expedition, refusing to reveal its secrets. As Area X expands, the agency tasked with investigating and overseeing it\u2014the Southern Reach\u2014has collapsed on itself in confusion. Now one last, desperate team crosses the border, determined to reach a remote island that may hold the answers they've been seeking. If they fail, the outer world is in peril.Meanwhile, Acceptance tunnels ever deeper into the circumstances surrounding the creation of Area X\u2014what initiated this unnatural upheaval? Among the many who have tried, who has gotten close to understanding Area X\u2014and who may have been corrupted by it?In this last installment of Jeff VanderMeer's Southern Reach trilogy, the mysteries of Area X may be solved, but their consequences and implications are no less profound\u2014or terrifying.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "4782_1"
+            "stock_id": "4782_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "4782_2"
+            "stock_id": "4782_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "4782_3"
+            "stock_id": "4782_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "4782_4"
+            "stock_id": "4782_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "4782_5"
+            "stock_id": "4782_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "4782_6"
+            "stock_id": "4782_6"
         }
     ],
     "metrics": {
         "rating_votes": 47330,
         "score": 3.6
     },
-    "original_book_title": "Acceptance",
     "pages": 330,
+    "title": "Acceptance",
     "url": "https://www.goodreads.com/book/show/18077752-acceptance",
     "year_published": 2014
 }

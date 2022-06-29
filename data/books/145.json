@@ -1,8 +1,7 @@
 {
-    "author_name": "John L. Hare",
+    "author": "John L. Hare",
     "base_id": 145,
-    "book_description": "It's field trip day, and students are excited to travel on their yellow spaceship bus from their space station to the moon.Climb aboard the spaceship bus for a fantastic field trip adventure to the moon. Once they land, students debark and set out with their teacher to explore. They jump over trenches and see craters and mountains on the moon's surface and even Earth in the faraway distance. One student takes a break to draw some pictures, falls asleep, and wakes up to discover that the rest of the class and the spaceship are gone. How the student passes the time waiting to be rescued makes for a funny and unexpected adventure that will enchant children all over the galaxy.",
-    "book_title": "Field Trip to the Moon",
+    "description": "It's field trip day, and students are excited to travel on their yellow spaceship bus from their space station to the moon.Climb aboard the spaceship bus for a fantastic field trip adventure to the moon. Once they land, students debark and set out with their teacher to explore. They jump over trenches and see craters and mountains on the moon's surface and even Earth in the faraway distance. One student takes a break to draw some pictures, falls asleep, and wakes up to discover that the rest of the class and the spaceship are gone. How the student passes the time waiting to be rescued makes for a funny and unexpected adventure that will enchant children all over the galaxy.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "145_1"
+            "stock_id": "145_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "145_2"
+            "stock_id": "145_2"
         },
         {
             "status": "available",
-            "stock_number": "145_3"
+            "stock_id": "145_3"
         }
     ],
     "metrics": {
         "rating_votes": 635,
         "score": 4.26
     },
-    "original_book_title": "\n0823442535\n(ISBN13: 9780823442539)\n",
     "pages": 1105,
+    "title": "Field Trip to the Moon",
     "url": "https://www.goodreads.com/book/show/41554345-field-trip-to-the-moon",
     "year_published": 2019
 }

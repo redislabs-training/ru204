@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 1106,
-    "book_description": "Ender's Shadow explores the stars in this all-new novel...At the end of Shadow of the Giant, Bean flees to the stars with three of his children--the three who share the engineered genes that gave him both hyper-intelligence and a short, cruel physical life. The time dilation granted by the speed of their travel gives Earth's scientists generations to seek a cure, to no avail. In time, they are forgotten--a fading ansible signal speaking of events lost to Earth's history. But the Delphikis are about to make a discovery that will let them save themselves, and perhaps all of humanity in days to come.For there in space before them lies a derelict Formic colony ship. Aboard it, they will find both death and wonders--the life support that is failing on their own ship, room to grow, and labs in which to explore their own genetic anomaly and the mysterious disease that killed the ship's colony. Shadows in Flight is the fifth novel in Orson Scott Card's Shadow Series.",
-    "book_title": "Shadows in Flight",
+    "description": "Ender's Shadow explores the stars in this all-new novel...At the end of Shadow of the Giant, Bean flees to the stars with three of his children--the three who share the engineered genes that gave him both hyper-intelligence and a short, cruel physical life. The time dilation granted by the speed of their travel gives Earth's scientists generations to seek a cure, to no avail. In time, they are forgotten--a fading ansible signal speaking of events lost to Earth's history. But the Delphikis are about to make a discovery that will let them save themselves, and perhaps all of humanity in days to come.For there in space before them lies a derelict Formic colony ship. Aboard it, they will find both death and wonders--the life support that is failing on their own ship, room to grow, and labs in which to explore their own genetic anomaly and the mysterious disease that killed the ship's colony. Shadows in Flight is the fifth novel in Orson Scott Card's Shadow Series.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1106_1"
+            "stock_id": "1106_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1106_2"
+            "stock_id": "1106_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1106_3"
+            "stock_id": "1106_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1106_4"
+            "stock_id": "1106_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1106_5"
+            "stock_id": "1106_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "1106_6"
+            "stock_id": "1106_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "1106_7"
+            "stock_id": "1106_7"
         },
         {
             "status": "available",
-            "stock_number": "1106_8"
+            "stock_id": "1106_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "1106_9"
+            "stock_id": "1106_9"
         }
     ],
     "metrics": {
         "rating_votes": 17066,
         "score": 3.8
     },
-    "original_book_title": "Shadows in Flight",
     "pages": 775,
+    "title": "Shadows in Flight",
     "url": "https://www.goodreads.com/book/show/12040447-shadows-in-flight",
     "year_published": 2011
 }

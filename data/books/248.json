@@ -1,8 +1,7 @@
 {
-    "author_name": "Rachel Caine",
+    "author": "Rachel Caine",
     "base_id": 248,
-    "book_description": "Zara Cole was a thief back on Earth, but she\u2019s been recently upgraded to intergalactic fugitive. On the run after a bloody battle in a covert war that she never expected to be fighting, Zara, her co-pilot Beatriz, and their Leviathan ship Nadim barely escaped the carnage with their lives. Now Zara and her crew of Honors need a safe haven, far from the creatures who want to annihilate them. But with two wounded Leviathan to treat, plus human and non-human refugees to help, they\u2019ll have to settle for the nearest outpost, called the Sliver: a wild, dangerous warren of alien criminals. Zara\u2019s skills from the Zone may be invaluable. However, Zara discovers that the secrets of the Sliver may have the power to turn the tide of the war they left behind\u2014but in the wrong direction. Soon Zara will have to make a choice: stand against the ultimate evil or run from it. But she\u2019s never walked away from a fight.Honor Bound is the second installment in Rachel Caine and Ann Aguirre\u2019s thrilling and fresh space saga.",
-    "book_title": "Honor Bound",
+    "description": "Zara Cole was a thief back on Earth, but she\u2019s been recently upgraded to intergalactic fugitive. On the run after a bloody battle in a covert war that she never expected to be fighting, Zara, her co-pilot Beatriz, and their Leviathan ship Nadim barely escaped the carnage with their lives. Now Zara and her crew of Honors need a safe haven, far from the creatures who want to annihilate them. But with two wounded Leviathan to treat, plus human and non-human refugees to help, they\u2019ll have to settle for the nearest outpost, called the Sliver: a wild, dangerous warren of alien criminals. Zara\u2019s skills from the Zone may be invaluable. However, Zara discovers that the secrets of the Sliver may have the power to turn the tide of the war they left behind\u2014but in the wrong direction. Soon Zara will have to make a choice: stand against the ultimate evil or run from it. But she\u2019s never walked away from a fight.Honor Bound is the second installment in Rachel Caine and Ann Aguirre\u2019s thrilling and fresh space saga.",
     "editions": [
         "None"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "248_1"
+            "stock_id": "248_1"
         },
         {
             "status": "available",
-            "stock_number": "248_2"
+            "stock_id": "248_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "248_3"
+            "stock_id": "248_3"
         }
     ],
     "metrics": {
         "rating_votes": 1383,
         "score": 4.06
     },
-    "original_book_title": "Honor Bound",
     "pages": 895,
+    "title": "Honor Bound",
     "url": "https://www.goodreads.com/book/show/38496253-honor-bound",
     "year_published": 2019
 }

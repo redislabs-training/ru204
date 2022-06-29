@@ -1,8 +1,7 @@
 {
-    "author_name": "Michelle M. Pillow",
+    "author": "Michelle M. Pillow",
     "base_id": 134,
-    "book_description": "Mining ash on a remote planet where temperatures reach hellish degrees doesn't leave Kal (aka Spark) much room for dating. Lucky for this hard-working man, a new corporation Galaxy Alien Mail Order Brides is ready to help him find the girl of his dreams. Does it really matter that he lied on his application and really isn't looking for long term, but rather some fast action? Earth women better watch out. Things are about to heat up.",
-    "book_title": "Spark",
+    "description": "Mining ash on a remote planet where temperatures reach hellish degrees doesn't leave Kal (aka Spark) much room for dating. Lucky for this hard-working man, a new corporation Galaxy Alien Mail Order Brides is ready to help him find the girl of his dreams. Does it really matter that he lied on his application and really isn't looking for long term, but rather some fast action? Earth women better watch out. Things are about to heat up.",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "134_1"
+            "stock_id": "134_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "134_2"
+            "stock_id": "134_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "134_3"
+            "stock_id": "134_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "134_4"
+            "stock_id": "134_4"
         },
         {
             "status": "available",
-            "stock_number": "134_5"
+            "stock_id": "134_5"
         },
         {
             "status": "available",
-            "stock_number": "134_6"
+            "stock_id": "134_6"
         }
     ],
     "metrics": {
         "rating_votes": 1013,
         "score": 3.47
     },
-    "original_book_title": "Spark",
     "pages": 296,
+    "title": "Spark",
     "url": "https://www.goodreads.com/book/show/31352933-spark",
     "year_published": 2016
 }

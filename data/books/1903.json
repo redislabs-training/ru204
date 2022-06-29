@@ -1,8 +1,7 @@
 {
-    "author_name": "Isaac Asimov",
+    "author": "Isaac Asimov",
     "base_id": 1903,
-    "book_description": "In the twenty-second century Earth obtains limitless, free energy from a source science little understands: an exchange between Earth and a parallel universe, using a process devised by the aliens. But even free energy has a price. The transference process itself will eventually lead to the destruction of the Earth's Sun--and of Earth itself.Only a few know the terrifying truth--an outcast Earth scientist, a rebellious alien inhabitant of a dying planet, a lunar-born human intuitionist who senses the imminent annihilation of the Sun.They know the truth--but who will listen?They have foreseen the cost of abundant energy--but who will believe?These few beings, human and alien, hold the key to the Earth's survival.",
-    "book_title": "The Gods Themselves",
+    "description": "In the twenty-second century Earth obtains limitless, free energy from a source science little understands: an exchange between Earth and a parallel universe, using a process devised by the aliens. But even free energy has a price. The transference process itself will eventually lead to the destruction of the Earth's Sun--and of Earth itself.Only a few know the terrifying truth--an outcast Earth scientist, a rebellious alien inhabitant of a dying planet, a lunar-born human intuitionist who senses the imminent annihilation of the Sun.They know the truth--but who will listen?They have foreseen the cost of abundant energy--but who will believe?These few beings, human and alien, hold the key to the Earth's survival.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1903_1"
+            "stock_id": "1903_1"
         },
         {
             "status": "available",
-            "stock_number": "1903_2"
+            "stock_id": "1903_2"
         },
         {
             "status": "available",
-            "stock_number": "1903_3"
+            "stock_id": "1903_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1903_4"
+            "stock_id": "1903_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "1903_5"
+            "stock_id": "1903_5"
         }
     ],
     "metrics": {
         "rating_votes": 54200,
         "score": 4.09
     },
-    "original_book_title": "The Gods Themselves",
     "pages": 1303,
+    "title": "The Gods Themselves",
     "url": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves",
     "year_published": 1972
 }

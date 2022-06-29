@@ -1,8 +1,7 @@
 {
-    "author_name": "Lizzy Ford",
+    "author": "Lizzy Ford",
     "base_id": 99,
-    "book_description": "When starving artist Kiera wakes up on board a spaceship, she panics. Her best friend has dragged her across the universe to help her find a man and a life, only the man she ends up unwittingly hooking up with is a battle-hardened warrior prince living in exile. Calculating, cautious A'Ran wants nothing more than to reclaim his planet. He needs Kiera as his lifemate to heal his planet and his war weary people. He's not prepared to be a lifemate himself, and discovers almost too late what he risks losing if he can't learn to be more than a warrior.",
-    "book_title": "Kiera's Moon",
+    "description": "When starving artist Kiera wakes up on board a spaceship, she panics. Her best friend has dragged her across the universe to help her find a man and a life, only the man she ends up unwittingly hooking up with is a battle-hardened warrior prince living in exile. Calculating, cautious A'Ran wants nothing more than to reclaim his planet. He needs Kiera as his lifemate to heal his planet and his war weary people. He's not prepared to be a lifemate himself, and discovers almost too late what he risks losing if he can't learn to be more than a warrior.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "99_1"
+            "stock_id": "99_1"
         }
     ],
     "metrics": {
         "rating_votes": 1268,
         "score": 3.96
     },
-    "original_book_title": "Kiera's Moon",
     "pages": 721,
+    "title": "Kiera's Moon",
     "url": "https://www.goodreads.com/book/show/18365852-kiera-s-moon",
     "year_published": 2011
 }

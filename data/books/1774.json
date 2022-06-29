@@ -1,8 +1,7 @@
 {
-    "author_name": "Dennis E. Taylor",
+    "author": "Dennis E. Taylor",
     "base_id": 1774,
-    "book_description": "Bob Johansson didn\u2019t believe in an afterlife, so waking up after being killed in a car accident was a shock. To add to the surprise, he is now a sentient computer and the controlling intelligence for a Von Neumann probe.Bob and his copies have been spreading out from Earth for forty years now, looking for habitable planets. But that\u2019s the only part of the plan that\u2019s still in one piece. A system-wide war has killed off 99.9% of the human race; nuclear winter is slowly making the Earth uninhabitable; a radical group wants to finish the job on the remnants of humanity; the Brazilian space probes are still out there, still trying to blow up the competition; And the Bobs have discovered a spacefaring species that considers all other life as food.Bob left Earth anticipating a life of exploration and blissful solitude. Instead he\u2019s a sky god to a primitive native species, the only hope for getting humanity to a new home, and possibly the only thing that can prevent every species in the local sphere ending up as dinner.",
-    "book_title": "For We Are Many",
+    "description": "Bob Johansson didn\u2019t believe in an afterlife, so waking up after being killed in a car accident was a shock. To add to the surprise, he is now a sentient computer and the controlling intelligence for a Von Neumann probe.Bob and his copies have been spreading out from Earth for forty years now, looking for habitable planets. But that\u2019s the only part of the plan that\u2019s still in one piece. A system-wide war has killed off 99.9% of the human race; nuclear winter is slowly making the Earth uninhabitable; a radical group wants to finish the job on the remnants of humanity; the Brazilian space probes are still out there, still trying to blow up the competition; And the Bobs have discovered a spacefaring species that considers all other life as food.Bob left Earth anticipating a life of exploration and blissful solitude. Instead he\u2019s a sky god to a primitive native species, the only hope for getting humanity to a new home, and possibly the only thing that can prevent every species in the local sphere ending up as dinner.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1774_1"
+            "stock_id": "1774_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1774_2"
+            "stock_id": "1774_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1774_3"
+            "stock_id": "1774_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1774_4"
+            "stock_id": "1774_4"
         }
     ],
     "metrics": {
         "rating_votes": 35978,
         "score": 4.37
     },
-    "original_book_title": "For We Are Many",
     "pages": 234,
+    "title": "For We Are Many",
     "url": "https://www.goodreads.com/book/show/33395557-for-we-are-many",
     "year_published": 2017
 }

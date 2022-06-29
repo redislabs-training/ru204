@@ -1,8 +1,7 @@
 {
-    "author_name": "Samantha Cayto",
+    "author": "Samantha Cayto",
     "base_id": 86,
-    "book_description": "When a distant planet\u2019s ownership is in dispute, conquering aliens turn defiant human males into pampered sex slaves.In a not-too-distant future, a lopsided war has led to aliens invading and occupying an Earth settlement. Wid is a young colonist who has been caught harassing the aliens. He and his friends are rounded up and sent to an alien warship patrolling the disputed space. His fate is to serve as a sex slave for the ship\u2019s imposing captain. Wid, at first, fights against his enslavement, but soon learns that not only does he stand no chance against the much larger and stronger captain, he isn\u2019t sure he even wants to.Like all Travian males, Kell is bound by duty to defend his people. Having risen to the rank of captain, he nevertheless chafes against the boring and endless patrol of the space invaded by the humans. His misses his family and constantly guards against his scheming first officer. He sees his reward of a human sex slave as more of a nuisance. Yet the pretty, fair-haired human\u2019s exotic allure is hard to resist. He finds far more pleasure in the use of his pet than he would like.Kept naked and leashed, Wid\u2019s days are filled with boredom, while his nights wrapped in Kell\u2019s arms turn from fear into pleasure. Even as the humans plot their escape, Wid and Kell form a bond and their growing affection cannot be ignored. When tensions boil over among the aliens, Wid and his friends may be Kell and his crew\u2019s only chance for survival.Reader Advisory: This book contains sex scenes of both non-consensual and dubious consent, as well as scenes of violence, abuse and torture.",
-    "book_title": "The Captain's Pet",
+    "description": "When a distant planet\u2019s ownership is in dispute, conquering aliens turn defiant human males into pampered sex slaves.In a not-too-distant future, a lopsided war has led to aliens invading and occupying an Earth settlement. Wid is a young colonist who has been caught harassing the aliens. He and his friends are rounded up and sent to an alien warship patrolling the disputed space. His fate is to serve as a sex slave for the ship\u2019s imposing captain. Wid, at first, fights against his enslavement, but soon learns that not only does he stand no chance against the much larger and stronger captain, he isn\u2019t sure he even wants to.Like all Travian males, Kell is bound by duty to defend his people. Having risen to the rank of captain, he nevertheless chafes against the boring and endless patrol of the space invaded by the humans. His misses his family and constantly guards against his scheming first officer. He sees his reward of a human sex slave as more of a nuisance. Yet the pretty, fair-haired human\u2019s exotic allure is hard to resist. He finds far more pleasure in the use of his pet than he would like.Kept naked and leashed, Wid\u2019s days are filled with boredom, while his nights wrapped in Kell\u2019s arms turn from fear into pleasure. Even as the humans plot their escape, Wid and Kell form a bond and their growing affection cannot be ignored. When tensions boil over among the aliens, Wid and his friends may be Kell and his crew\u2019s only chance for survival.Reader Advisory: This book contains sex scenes of both non-consensual and dubious consent, as well as scenes of violence, abuse and torture.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "86_1"
+            "stock_id": "86_1"
         },
         {
             "status": "available",
-            "stock_number": "86_2"
+            "stock_id": "86_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "86_3"
+            "stock_id": "86_3"
         },
         {
             "status": "available",
-            "stock_number": "86_4"
+            "stock_id": "86_4"
         },
         {
             "status": "available",
-            "stock_number": "86_5"
+            "stock_id": "86_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "86_6"
+            "stock_id": "86_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "86_7"
+            "stock_id": "86_7"
         }
     ],
     "metrics": {
         "rating_votes": 538,
         "score": 3.51
     },
-    "original_book_title": "The Captain's Pet",
     "pages": 321,
+    "title": "The Captain's Pet",
     "url": "https://www.goodreads.com/book/show/25376247-the-captain-s-pet",
     "year_published": 2015
 }

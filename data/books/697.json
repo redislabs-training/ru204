@@ -1,8 +1,7 @@
 {
-    "author_name": "Lisa Henry",
+    "author": "Lisa Henry",
     "base_id": 697,
-    "book_description": "Brady Garrett needs to go home. He\u2019s a conscripted recruit on Defender Three, one of a network of stations designed to protect the Earth from alien attack. He's also angry, homesick, and afraid. If he doesn\u2019t get home he\u2019ll lose his family, but there\u2019s no way back except in a body bag.Cameron Rushton needs a heartbeat. Four years ago Cam was taken by the Faceless \u2014 the alien race that almost destroyed Earth. Now he\u2019s back, and when the doctors make a mess of getting him out of stasis, Brady becomes his temporary human pacemaker. Except they\u2019re sharing more than a heartbeat: they\u2019re sharing thoughts, memories, and some very vivid dreams.Not that Brady\u2019s got time to worry about his growing attraction to another guy, especially the one guy in the universe who can read his mind. It doesn\u2019t mean anything. It\u2019s just biochemistry and electrical impulses. It doesn\u2019t change the truth: Brady\u2019s alone in the universe.Now the Faceless are coming and there\u2019s nothing anyone can do. You can\u2019t stop your nightmares. Cam says everyone will live, but Cam\u2019s probably a traitor and a liar like the military thinks. But that\u2019s okay. Guys like Brady don\u2019t expect happy endings.",
-    "book_title": "Dark Space",
+    "description": "Brady Garrett needs to go home. He\u2019s a conscripted recruit on Defender Three, one of a network of stations designed to protect the Earth from alien attack. He's also angry, homesick, and afraid. If he doesn\u2019t get home he\u2019ll lose his family, but there\u2019s no way back except in a body bag.Cameron Rushton needs a heartbeat. Four years ago Cam was taken by the Faceless \u2014 the alien race that almost destroyed Earth. Now he\u2019s back, and when the doctors make a mess of getting him out of stasis, Brady becomes his temporary human pacemaker. Except they\u2019re sharing more than a heartbeat: they\u2019re sharing thoughts, memories, and some very vivid dreams.Not that Brady\u2019s got time to worry about his growing attraction to another guy, especially the one guy in the universe who can read his mind. It doesn\u2019t mean anything. It\u2019s just biochemistry and electrical impulses. It doesn\u2019t change the truth: Brady\u2019s alone in the universe.Now the Faceless are coming and there\u2019s nothing anyone can do. You can\u2019t stop your nightmares. Cam says everyone will live, but Cam\u2019s probably a traitor and a liar like the military thinks. But that\u2019s okay. Guys like Brady don\u2019t expect happy endings.",
     "editions": [
         "English"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "697_1"
+            "stock_id": "697_1"
         },
         {
             "status": "available",
-            "stock_number": "697_2"
+            "stock_id": "697_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "697_3"
+            "stock_id": "697_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "697_4"
+            "stock_id": "697_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "697_5"
+            "stock_id": "697_5"
         },
         {
             "status": "available",
-            "stock_number": "697_6"
+            "stock_id": "697_6"
         }
     ],
     "metrics": {
         "rating_votes": 3886,
         "score": 4.06
     },
-    "original_book_title": "Dark Space",
     "pages": 417,
+    "title": "Dark Space",
     "url": "https://www.goodreads.com/book/show/16174363-dark-space",
     "year_published": 2012
 }

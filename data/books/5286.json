@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 5286,
-    "book_description": "Welcome to Battleschool.Growing up is never easy. But try living on the mean streets as a child begging for food and fighting like a dog with ruthless gangs of starving kids who wouldn't hesitate to pound your skull into pulp for a scrap of apple. If Bean has learned anything on the streets, it's how to survive. And not with fists. He is way too small for that. But with brains.Bean is a genius with a magician's ability to zero in on his enemy and exploit his weakness.What better quality for a future general to lead the Earth in a final climactic battle against a hostile alien race, known as Buggers. At Battleschool Bean meets and befriends another future commander - Ender Wiggins - perhaps his only true rival.Only one problem: for Bean and Ender, the future is now.Ender's Shadow is the book that launched The Shadow Series, and the parallel novel to Orson Scott Card's science fiction classic, Ender's Game.",
-    "book_title": "Ender's Shadow",
+    "description": "Welcome to Battleschool.Growing up is never easy. But try living on the mean streets as a child begging for food and fighting like a dog with ruthless gangs of starving kids who wouldn't hesitate to pound your skull into pulp for a scrap of apple. If Bean has learned anything on the streets, it's how to survive. And not with fists. He is way too small for that. But with brains.Bean is a genius with a magician's ability to zero in on his enemy and exploit his weakness.What better quality for a future general to lead the Earth in a final climactic battle against a hostile alien race, known as Buggers. At Battleschool Bean meets and befriends another future commander - Ender Wiggins - perhaps his only true rival.Only one problem: for Bean and Ender, the future is now.Ender's Shadow is the book that launched The Shadow Series, and the parallel novel to Orson Scott Card's science fiction classic, Ender's Game.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "5286_1"
+            "stock_id": "5286_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "5286_2"
+            "stock_id": "5286_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "5286_3"
+            "stock_id": "5286_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "5286_4"
+            "stock_id": "5286_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "5286_5"
+            "stock_id": "5286_5"
         },
         {
             "status": "available",
-            "stock_number": "5286_6"
+            "stock_id": "5286_6"
         }
     ],
     "metrics": {
         "rating_votes": 157382,
         "score": 4.3
     },
-    "original_book_title": "Ender's Shadow",
     "pages": 1360,
+    "title": "Ender's Shadow",
     "url": "https://www.goodreads.com/book/show/9532.Ender_s_Shadow",
     "year_published": 1999
 }

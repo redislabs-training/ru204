@@ -1,8 +1,7 @@
 {
-    "author_name": "Octavia E. Butler",
+    "author": "Octavia E. Butler",
     "base_id": 943,
-    "book_description": "In this sequel to Dawn, Lilith Iyapo has given birth to what looks like a normal human boy named Akin. But Akin actually has five parents: a male and female human, a male and female Oankali, and a sexless Ooloi. The Oankali and Ooloi are part of an alien race that rescued humanity from a devastating nuclear war, but the price they exact is a high one the aliens are compelled to genetically merge their species with other races, drastically altering both in the process. On a rehabilitated Earth, this \"new\" race is emerging through human/Oankali/Ooloi mating, but there are also \"pure\" humans who choose to resist the aliens and the salvation they offer.These resisters are sterilized by the Ooloi so that they cannot reproduce the genetic defect that drives humanity to destroy itself, but otherwise they are left alone (unless they become violent). When the resisters kidnap young Akin, the Oankali choose to leave the child with his captors, for he the most \"human\" of the Oankali children will decide whether the resisters should be given back their fertility and freedom, even though they will only destroy themselves again. This is the second volume in Octavia Butler's Xenogenesis series, a powerful tale of alien existence.",
-    "book_title": "Adulthood Rites",
+    "description": "In this sequel to Dawn, Lilith Iyapo has given birth to what looks like a normal human boy named Akin. But Akin actually has five parents: a male and female human, a male and female Oankali, and a sexless Ooloi. The Oankali and Ooloi are part of an alien race that rescued humanity from a devastating nuclear war, but the price they exact is a high one the aliens are compelled to genetically merge their species with other races, drastically altering both in the process. On a rehabilitated Earth, this \"new\" race is emerging through human/Oankali/Ooloi mating, but there are also \"pure\" humans who choose to resist the aliens and the salvation they offer.These resisters are sterilized by the Ooloi so that they cannot reproduce the genetic defect that drives humanity to destroy itself, but otherwise they are left alone (unless they become violent). When the resisters kidnap young Akin, the Oankali choose to leave the child with his captors, for he the most \"human\" of the Oankali children will decide whether the resisters should be given back their fertility and freedom, even though they will only destroy themselves again. This is the second volume in Octavia Butler's Xenogenesis series, a powerful tale of alien existence.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "943_1"
+            "stock_id": "943_1"
         },
         {
             "status": "available",
-            "stock_number": "943_2"
+            "stock_id": "943_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "943_3"
+            "stock_id": "943_3"
         },
         {
             "status": "available",
-            "stock_number": "943_4"
+            "stock_id": "943_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "943_5"
+            "stock_id": "943_5"
         },
         {
             "status": "available",
-            "stock_number": "943_6"
+            "stock_id": "943_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "943_7"
+            "stock_id": "943_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "943_8"
+            "stock_id": "943_8"
         }
     ],
     "metrics": {
         "rating_votes": 13830,
         "score": 4.17
     },
-    "original_book_title": "Adulthood Rites",
     "pages": 1272,
+    "title": "Adulthood Rites",
     "url": "https://www.goodreads.com/book/show/116249.Adulthood_Rites",
     "year_published": 1988
 }

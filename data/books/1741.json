@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Leckie",
+    "author": "Ann Leckie",
     "base_id": 1741,
-    "book_description": "An ambitious young woman has just one chance to secure her future and reclaim her family's priceless lost artifacts in this stand-alone novel set in the world of Ann Leckie's groundbreaking, NYT bestselling Imperial Radch trilogy, which won the Hugo and Nebula awards.NOMINATED FOR THE HUGO AWARD FOR BEST NOVEL 2018NOMINATED FOR THE LOCUS AWARD FOR BEST science fiction NOVEL 2018Though she knows her brother holds her mother's favor, Ingrid is determined to at least be considered as heir to the family name. She hatches an audacious plan--free a thief from a prison planet from which no one has ever returned, and use them to help steal back a priceless artifact.But Ingray and her charge return to her home to find their planet in political turmoil, at the heart of an escalating interstellar conflict. Together, they must make a new plan to salvage Ingray's future and her world, before they are lost to her for good.",
-    "book_title": "Provenance",
+    "description": "An ambitious young woman has just one chance to secure her future and reclaim her family's priceless lost artifacts in this stand-alone novel set in the world of Ann Leckie's groundbreaking, NYT bestselling Imperial Radch trilogy, which won the Hugo and Nebula awards.NOMINATED FOR THE HUGO AWARD FOR BEST NOVEL 2018NOMINATED FOR THE LOCUS AWARD FOR BEST science fiction NOVEL 2018Though she knows her brother holds her mother's favor, Ingrid is determined to at least be considered as heir to the family name. She hatches an audacious plan--free a thief from a prison planet from which no one has ever returned, and use them to help steal back a priceless artifact.But Ingray and her charge return to her home to find their planet in political turmoil, at the heart of an escalating interstellar conflict. Together, they must make a new plan to salvage Ingray's future and her world, before they are lost to her for good.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1741_1"
+            "stock_id": "1741_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1741_2"
+            "stock_id": "1741_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1741_3"
+            "stock_id": "1741_3"
         }
     ],
     "metrics": {
         "rating_votes": 14537,
         "score": 3.83
     },
-    "original_book_title": "Provenance",
     "pages": 837,
+    "title": "Provenance",
     "url": "https://www.goodreads.com/book/show/25353286-provenance",
     "year_published": 2017
 }

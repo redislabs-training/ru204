@@ -1,8 +1,7 @@
 {
-    "author_name": "Amanda Milo",
+    "author": "Amanda Milo",
     "base_id": 686,
-    "book_description": "AROKHI broke the rules and stole an auction item from her buyers.Because somehow, they\u2019d managed to abduct a Gryfala princess.Though\u2026 she doesn\u2019t look, or act, or sound quite like I thought one of her kind would.But I\u2019m merely a Rakhii gladiator; this is the closest I\u2019ve actually ever been to a princess.I\u2019d be considered lucky indeed if she chose me to guard her.Instead, I want more.I need her to claim me.Because she doesn\u2019t know it, but now I can\u2019t let her go.ANGIEWoke up in a freaking auction pen.With no coffee.But there were aliens. And they didn\u2019t bid on me out of the goodness of their hearts.FML.Then this nice alien showed up in the nick of time, but he keeps referring to me as \u201cPrincess\u201d and I\u2019m starting to worry what he\u2019ll do when he finds out that there\u2019s been a little case of mistaken identity, that I\u2019m not royalty - see, I\u2019m not even whatever alien he mistook me for\u2026I\u2019m just a human.***Note to readers: This was previously titled ABDUCTED, AUCTIONED, & STOLEN BY AN ALIEN.",
-    "book_title": "Stolen by an Alien",
+    "description": "AROKHI broke the rules and stole an auction item from her buyers.Because somehow, they\u2019d managed to abduct a Gryfala princess.Though\u2026 she doesn\u2019t look, or act, or sound quite like I thought one of her kind would.But I\u2019m merely a Rakhii gladiator; this is the closest I\u2019ve actually ever been to a princess.I\u2019d be considered lucky indeed if she chose me to guard her.Instead, I want more.I need her to claim me.Because she doesn\u2019t know it, but now I can\u2019t let her go.ANGIEWoke up in a freaking auction pen.With no coffee.But there were aliens. And they didn\u2019t bid on me out of the goodness of their hearts.FML.Then this nice alien showed up in the nick of time, but he keeps referring to me as \u201cPrincess\u201d and I\u2019m starting to worry what he\u2019ll do when he finds out that there\u2019s been a little case of mistaken identity, that I\u2019m not royalty - see, I\u2019m not even whatever alien he mistook me for\u2026I\u2019m just a human.***Note to readers: This was previously titled ABDUCTED, AUCTIONED, & STOLEN BY AN ALIEN.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "686_1"
+            "stock_id": "686_1"
         },
         {
             "status": "available",
-            "stock_number": "686_2"
+            "stock_id": "686_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "686_3"
+            "stock_id": "686_3"
         }
     ],
     "metrics": {
         "rating_votes": 5788,
         "score": 4.02
     },
-    "original_book_title": "Abducted, Auctioned, & Stolen by an Alien",
     "pages": 268,
+    "title": "Stolen by an Alien",
     "url": "https://www.goodreads.com/book/show/36050260-stolen-by-an-alien",
     "year_published": 2017
 }

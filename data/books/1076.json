@@ -1,8 +1,7 @@
 {
-    "author_name": "John Wyndham",
+    "author": "John Wyndham",
     "base_id": 1076,
-    "book_description": "In the sleepy English village of Midwich, a mysterious silver object appears and all the inhabitants fall unconscious. A day later the object is gone and everyone awakens unharmed\u2014except that all the women in the village are discovered to be pregnant.",
-    "book_title": "The Midwich Cuckoos",
+    "description": "In the sleepy English village of Midwich, a mysterious silver object appears and all the inhabitants fall unconscious. A day later the object is gone and everyone awakens unharmed\u2014except that all the women in the village are discovered to be pregnant.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1076_1"
+            "stock_id": "1076_1"
         }
     ],
     "metrics": {
         "rating_votes": 18566,
         "score": 3.93
     },
-    "original_book_title": "The Midwich Cuckoos",
     "pages": 303,
+    "title": "The Midwich Cuckoos",
     "url": "https://www.goodreads.com/book/show/161846.The_Midwich_Cuckoos",
     "year_published": 1957
 }

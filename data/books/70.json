@@ -1,8 +1,7 @@
 {
-    "author_name": "Ella Maven",
+    "author": "Ella Maven",
     "base_id": 70,
-    "book_description": " \"She will have my babies, but on our terms.\"Valerie: I thought waking up on a spaceship was traumatic. That's got nothing on returning to consciousness while shackled in a cell. The kicker? I'm supposed to be a breeder for the alien in the cell next to me. My mother always told me I had birthing hips, but I don't think she meant they were for pushing out blue extraterrestrials. I want to hate my cell-mate, but he's a prisoner too, and so far he's taken a few beatings to protect me...Sax: The food sucks but the view has gotten a hell of a lot better since the human female showed up. I know exactly what our captors want--for us to mate so they can take our baby. Over my dead body. I'm willing to suffer their abuse if they leave the pretty female alone, but when they hurt her, all bets are off. Now I'm not only finding a way to escape with her, I'm also taking out every last captor before I leave. And then? I'll fill her with as many babies as she wants.The Alien's Escape is a full-length Sci-Fi Romance novel featuring a curvy heroine with nursing skills and a snarky, devoted hero with a pierced tongue who isn't afraid of a little pain. ",
-    "book_title": "The Alien's Escape",
+    "description": " \"She will have my babies, but on our terms.\"Valerie: I thought waking up on a spaceship was traumatic. That's got nothing on returning to consciousness while shackled in a cell. The kicker? I'm supposed to be a breeder for the alien in the cell next to me. My mother always told me I had birthing hips, but I don't think she meant they were for pushing out blue extraterrestrials. I want to hate my cell-mate, but he's a prisoner too, and so far he's taken a few beatings to protect me...Sax: The food sucks but the view has gotten a hell of a lot better since the human female showed up. I know exactly what our captors want--for us to mate so they can take our baby. Over my dead body. I'm willing to suffer their abuse if they leave the pretty female alone, but when they hurt her, all bets are off. Now I'm not only finding a way to escape with her, I'm also taking out every last captor before I leave. And then? I'll fill her with as many babies as she wants.The Alien's Escape is a full-length Sci-Fi Romance novel featuring a curvy heroine with nursing skills and a snarky, devoted hero with a pierced tongue who isn't afraid of a little pain. ",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "70_1"
+            "stock_id": "70_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "70_2"
+            "stock_id": "70_2"
         },
         {
             "status": "available",
-            "stock_number": "70_3"
+            "stock_id": "70_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "70_4"
+            "stock_id": "70_4"
         },
         {
             "status": "available",
-            "stock_number": "70_5"
+            "stock_id": "70_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "70_6"
+            "stock_id": "70_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "70_7"
+            "stock_id": "70_7"
         },
         {
             "status": "available",
-            "stock_number": "70_8"
+            "stock_id": "70_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "70_9"
+            "stock_id": "70_9"
         }
     ],
     "metrics": {
         "rating_votes": 776,
         "score": 4.14
     },
-    "original_book_title": "B084D5SKW7",
     "pages": 699,
+    "title": "The Alien's Escape",
     "url": "https://www.goodreads.com/book/show/51459121-the-alien-s-escape",
     "year_published": 2020
 }

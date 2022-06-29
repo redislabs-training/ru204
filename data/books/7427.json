@@ -1,8 +1,7 @@
 {
-    "author_name": "Amie Kaufman",
+    "author": "Amie Kaufman",
     "base_id": 7427,
-    "book_description": "From the internationally bestselling authors of THE ILLUMINAE FILES comes an epic new science fiction adventure.The year is 2380, and the graduating cadets of Aurora Academy are being assigned their first missions. Star pupil Tyler Jones is ready to recruit the squad of his dreams, but his own boneheaded heroism sees him stuck with the dregs nobody else in the Academy would touch\u2026A cocky diplomat with a black belt in sarcasmA sociopath scientist with a fondness for shooting her bunkmatesA smart-ass techwiz with the galaxy\u2019s biggest chip on his shoulderAn alien warrior with anger management issuesA tomboy pilot who\u2019s totally not into him, in case you were wonderingAnd Ty\u2019s squad isn\u2019t even his biggest problem\u2014that\u2019d be Aurora Jie-Lin O\u2019Malley, the girl he\u2019s just rescued from interdimensional space. Trapped in cryo-sleep for two centuries, Auri is a girl out of time and out of her depth. But she could be the catalyst that starts a war millions of years in the making, and Tyler\u2019s squad of losers, discipline-cases and misfits might just be the last hope for the entire galaxy.\nThey're not the heroes we deserve. They're just the ones we could find. Nobody panic.\n",
-    "book_title": "Aurora Rising",
+    "description": "From the internationally bestselling authors of THE ILLUMINAE FILES comes an epic new science fiction adventure.The year is 2380, and the graduating cadets of Aurora Academy are being assigned their first missions. Star pupil Tyler Jones is ready to recruit the squad of his dreams, but his own boneheaded heroism sees him stuck with the dregs nobody else in the Academy would touch\u2026A cocky diplomat with a black belt in sarcasmA sociopath scientist with a fondness for shooting her bunkmatesA smart-ass techwiz with the galaxy\u2019s biggest chip on his shoulderAn alien warrior with anger management issuesA tomboy pilot who\u2019s totally not into him, in case you were wonderingAnd Ty\u2019s squad isn\u2019t even his biggest problem\u2014that\u2019d be Aurora Jie-Lin O\u2019Malley, the girl he\u2019s just rescued from interdimensional space. Trapped in cryo-sleep for two centuries, Auri is a girl out of time and out of her depth. But she could be the catalyst that starts a war millions of years in the making, and Tyler\u2019s squad of losers, discipline-cases and misfits might just be the last hope for the entire galaxy.\nThey're not the heroes we deserve. They're just the ones we could find. Nobody panic.\n",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "7427_1"
+            "stock_id": "7427_1"
         }
     ],
     "metrics": {
         "rating_votes": 35422,
         "score": 4.16
     },
-    "original_book_title": "Aurora Rising",
     "pages": 917,
+    "title": "Aurora Rising",
     "url": "https://www.goodreads.com/book/show/30075662-aurora-rising",
     "year_published": 2019
 }

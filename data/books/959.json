@@ -1,8 +1,7 @@
 {
-    "author_name": "Jack Finney",
+    "author": "Jack Finney",
     "base_id": 959,
-    "book_description": "On a quiet fall evening in the small, peaceful town of Mill Valley, California, Dr. Miles Bennell discovered an insidious, horrifying plot. Silently, subtly, almost imperceptibly, alien life-forms were taking over the bodies and minds of his neighbors, his friends, his family, the woman he loved\u2014the world as he knew it. First published in 1955, this classic thriller of the ultimate alien invasion and the triumph of the human spirit over an invisible enemy inspired three major motion pictures.",
-    "book_title": "Invasion of the Body Snatchers",
+    "description": "On a quiet fall evening in the small, peaceful town of Mill Valley, California, Dr. Miles Bennell discovered an insidious, horrifying plot. Silently, subtly, almost imperceptibly, alien life-forms were taking over the bodies and minds of his neighbors, his friends, his family, the woman he loved\u2014the world as he knew it. First published in 1955, this classic thriller of the ultimate alien invasion and the triumph of the human spirit over an invisible enemy inspired three major motion pictures.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "959_1"
+            "stock_id": "959_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "959_2"
+            "stock_id": "959_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "959_3"
+            "stock_id": "959_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "959_4"
+            "stock_id": "959_4"
         },
         {
             "status": "available",
-            "stock_number": "959_5"
+            "stock_id": "959_5"
         }
     ],
     "metrics": {
         "rating_votes": 19561,
         "score": 3.89
     },
-    "original_book_title": "The Body Snatchers",
     "pages": 453,
+    "title": "Invasion of the Body Snatchers",
     "url": "https://www.goodreads.com/book/show/127515.Invasion_of_the_Body_Snatchers",
     "year_published": 1955
 }

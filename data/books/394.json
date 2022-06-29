@@ -1,8 +1,7 @@
 {
-    "author_name": "Tymber Dalton",
+    "author": "Tymber Dalton",
     "base_id": 394,
-    "book_description": "I hated the military\u2026and now I\u2019m an alien\u2019s pet.I hated the Terran military. I didn\u2019t volunteer, either. Like so many others, I was drafted as cannon fodder in the senseless Terran war against the Algonquans. Not like I had much of a future ahead of me, though, without a rich family to pave my way or even pay for me to have a wife. Now, my entire ship\u2019s been captured. If what we\u2019ve been told about the alien race is true, I\u2019ll never be seen again. I hope they don\u2019t eat me. Turns out the truth is far different than we were led to believe. The Algonquans aren\u2019t vicious, insectoid monsters, either. We\u2019re now their pampered pets\u2026and they\u2019re using us to help replenish their population to win the war. You know, maybe this isn\u2019t the worst life after all. (MMMM, sci-fi romance, humans as aliens' pets, m-preg.) Note: This book was previously published under my Tymber Dalton pen name. It has been revised and expanded for re-release.",
-    "book_title": "Acquainted With the Night",
+    "description": "I hated the military\u2026and now I\u2019m an alien\u2019s pet.I hated the Terran military. I didn\u2019t volunteer, either. Like so many others, I was drafted as cannon fodder in the senseless Terran war against the Algonquans. Not like I had much of a future ahead of me, though, without a rich family to pave my way or even pay for me to have a wife. Now, my entire ship\u2019s been captured. If what we\u2019ve been told about the alien race is true, I\u2019ll never be seen again. I hope they don\u2019t eat me. Turns out the truth is far different than we were led to believe. The Algonquans aren\u2019t vicious, insectoid monsters, either. We\u2019re now their pampered pets\u2026and they\u2019re using us to help replenish their population to win the war. You know, maybe this isn\u2019t the worst life after all. (MMMM, sci-fi romance, humans as aliens' pets, m-preg.) Note: This book was previously published under my Tymber Dalton pen name. It has been revised and expanded for re-release.",
     "editions": [
         "English"
     ],
@@ -19,19 +18,19 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "394_1"
+            "stock_id": "394_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "394_2"
+            "stock_id": "394_2"
         }
     ],
     "metrics": {
         "rating_votes": 1910,
         "score": 3.94
     },
-    "original_book_title": "Acquainted with the Night",
     "pages": 1262,
+    "title": "Acquainted With the Night",
     "url": "https://www.goodreads.com/book/show/56228303-acquainted-with-the-night",
     "year_published": 2010
 }

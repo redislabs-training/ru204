@@ -1,8 +1,7 @@
 {
-    "author_name": "Cheryl Brooks",
+    "author": "Cheryl Brooks",
     "base_id": 74,
-    "book_description": "\nEven near death, his sensuality is amazing... She has only one chance to tame him.\nLeo arrives on Tisana's doorstep a beaten slave from a near-extinct race with feline genes. As soon as Leo recovers his strength, he'll use his extraordinary sexual talents to bewitch Tisana and make a bolt for freedom.Tisana, whose healing powers are legendary, already knows Leo's the one who can help her fulfill her destiny... she can't let him get away now. Forced together on a dangerous journey, Tisana must reveal all of her powers, and Leo must give all of himself to gain his freedom.The second book in wildly popular Cat Star Chronicles, a paranormal romance series featuring heroes with a feline gene that gives them remarkable sexual powers.The Cat Star Chronicles: Slave (Book 1)Warrior (Book 2)Rogue (Book 3)Outcast (Book 4)Fugitive (Book 5)Hero (Book 6)Virgin (Book 7)Stud (Book 8)Wildcat (Book 9)Rebel (Book 10)Praise for Slave, Book 1 in The Cat Star Chronicles: \"A sexy adventure with a hero you can't resist!\"--Candace Havens, author of Charmed & Deadly \"Fascinating world customs, a bit of a mystery, and the relationship between the hero and heroine make this a very sensual romance.\"-- Romantic Times\"You don't want to miss this one\"-- Star-Crossed Romance",
-    "book_title": "Warrior",
+    "description": "\nEven near death, his sensuality is amazing... She has only one chance to tame him.\nLeo arrives on Tisana's doorstep a beaten slave from a near-extinct race with feline genes. As soon as Leo recovers his strength, he'll use his extraordinary sexual talents to bewitch Tisana and make a bolt for freedom.Tisana, whose healing powers are legendary, already knows Leo's the one who can help her fulfill her destiny... she can't let him get away now. Forced together on a dangerous journey, Tisana must reveal all of her powers, and Leo must give all of himself to gain his freedom.The second book in wildly popular Cat Star Chronicles, a paranormal romance series featuring heroes with a feline gene that gives them remarkable sexual powers.The Cat Star Chronicles: Slave (Book 1)Warrior (Book 2)Rogue (Book 3)Outcast (Book 4)Fugitive (Book 5)Hero (Book 6)Virgin (Book 7)Stud (Book 8)Wildcat (Book 9)Rebel (Book 10)Praise for Slave, Book 1 in The Cat Star Chronicles: \"A sexy adventure with a hero you can't resist!\"--Candace Havens, author of Charmed & Deadly \"Fascinating world customs, a bit of a mystery, and the relationship between the hero and heroine make this a very sensual romance.\"-- Romantic Times\"You don't want to miss this one\"-- Star-Crossed Romance",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "74_1"
+            "stock_id": "74_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "74_2"
+            "stock_id": "74_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "74_3"
+            "stock_id": "74_3"
         },
         {
             "status": "available",
-            "stock_number": "74_4"
+            "stock_id": "74_4"
         },
         {
             "status": "available",
-            "stock_number": "74_5"
+            "stock_id": "74_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "74_6"
+            "stock_id": "74_6"
         },
         {
             "status": "available",
-            "stock_number": "74_7"
+            "stock_id": "74_7"
         }
     ],
     "metrics": {
         "rating_votes": 1271,
         "score": 3.91
     },
-    "original_book_title": "Warrior (Cat Star Chronicles, #2)",
     "pages": 1280,
+    "title": "Warrior",
     "url": "https://www.goodreads.com/book/show/2958524-warrior",
     "year_published": 2008
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Amie Kaufman",
+    "author": "Amie Kaufman",
     "base_id": 11594,
-    "book_description": "Moving to a space station at the edge of the galaxy was always going to be the death of Hanna\u2019s social life. Nobody said it might actually get her killed.The sci-fi saga that began with the breakout bestseller Illuminae continues on board the Jump Station Heimdall, where two new characters will confront the next wave of the BeiTech assault.Hanna is the station captain\u2019s pampered daughter; Nik the reluctant member of a notorious crime family. But while the pair are struggling with the realities of life aboard the galaxy\u2019s most boring space station, little do they know that Kady Grant and the Hypatia are headed right toward Heimdall, carrying news of the Kerenza invasion.When an elite BeiTech strike team invades the station, Hanna and Nik are thrown together to defend their home. But alien predators are picking off the station residents one by one, and a malfunction in the station\u2019s wormhole means the space-time continuum might be ripped in two before dinner. Soon Hanna and Nik aren\u2019t just fighting for their own survival; the fate of everyone on the Hypatia\u2014and possibly the known universe\u2014is in their hands.But relax. They\u2019ve totally got this. They hope.",
-    "book_title": "Gemina",
+    "description": "Moving to a space station at the edge of the galaxy was always going to be the death of Hanna\u2019s social life. Nobody said it might actually get her killed.The sci-fi saga that began with the breakout bestseller Illuminae continues on board the Jump Station Heimdall, where two new characters will confront the next wave of the BeiTech assault.Hanna is the station captain\u2019s pampered daughter; Nik the reluctant member of a notorious crime family. But while the pair are struggling with the realities of life aboard the galaxy\u2019s most boring space station, little do they know that Kady Grant and the Hypatia are headed right toward Heimdall, carrying news of the Kerenza invasion.When an elite BeiTech strike team invades the station, Hanna and Nik are thrown together to defend their home. But alien predators are picking off the station residents one by one, and a malfunction in the station\u2019s wormhole means the space-time continuum might be ripped in two before dinner. Soon Hanna and Nik aren\u2019t just fighting for their own survival; the fate of everyone on the Hypatia\u2014and possibly the known universe\u2014is in their hands.But relax. They\u2019ve totally got this. They hope.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "11594_1"
+            "stock_id": "11594_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "11594_2"
+            "stock_id": "11594_2"
         },
         {
             "status": "available",
-            "stock_number": "11594_3"
+            "stock_id": "11594_3"
         },
         {
             "status": "available",
-            "stock_number": "11594_4"
+            "stock_id": "11594_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "11594_5"
+            "stock_id": "11594_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "11594_6"
+            "stock_id": "11594_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "11594_7"
+            "stock_id": "11594_7"
         },
         {
             "status": "available",
-            "stock_number": "11594_8"
+            "stock_id": "11594_8"
         },
         {
             "status": "maintenance",
-            "stock_number": "11594_9"
+            "stock_id": "11594_9"
         }
     ],
     "metrics": {
         "rating_votes": 60123,
         "score": 4.46
     },
-    "original_book_title": "Gemina",
     "pages": 1051,
+    "title": "Gemina",
     "url": "https://www.goodreads.com/book/show/29236299-gemina",
     "year_published": 2016
 }

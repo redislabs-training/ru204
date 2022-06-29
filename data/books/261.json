@@ -1,8 +1,7 @@
 {
-    "author_name": "Alexandra Blogier",
+    "author": "Alexandra Blogier",
     "base_id": 261,
-    "book_description": "Li has a father and a sister who love her. A best friend, Mirabae, to share things with. She goes to school and hangs out at the beach and carefully follows the rules. She has to. Everyone she knows--her family, her teachers, her friends--is an alien. And she is the only human left on Earth.The Abdoloreans hijacked the planet sixteen years ago, destroying all human life. Li's human-sympathizer father took her in as a baby and has trained her to pass as one of them. The Abdoloreans appear human. But they don't think with human minds or feel with human hearts. And they have special abilities no human could ever have.When Li meets Ryn, she's swept up in a relationship that could have disastrous consequences. How far will Li go to stay alive? Will she save herself--and in turn, the human race--or will she be the final witness to humanity's destruction?",
-    "book_title": "The Last Girl on Earth",
+    "description": "Li has a father and a sister who love her. A best friend, Mirabae, to share things with. She goes to school and hangs out at the beach and carefully follows the rules. She has to. Everyone she knows--her family, her teachers, her friends--is an alien. And she is the only human left on Earth.The Abdoloreans hijacked the planet sixteen years ago, destroying all human life. Li's human-sympathizer father took her in as a baby and has trained her to pass as one of them. The Abdoloreans appear human. But they don't think with human minds or feel with human hearts. And they have special abilities no human could ever have.When Li meets Ryn, she's swept up in a relationship that could have disastrous consequences. How far will Li go to stay alive? Will she save herself--and in turn, the human race--or will she be the final witness to humanity's destruction?",
     "editions": [
         "None"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "261_1"
+            "stock_id": "261_1"
         },
         {
             "status": "available",
-            "stock_number": "261_2"
+            "stock_id": "261_2"
         },
         {
             "status": "available",
-            "stock_number": "261_3"
+            "stock_id": "261_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "261_4"
+            "stock_id": "261_4"
         }
     ],
     "metrics": {
         "rating_votes": 1095,
         "score": 3.11
     },
-    "original_book_title": "Virgo (working title only)",
     "pages": 726,
+    "title": "The Last Girl on Earth",
     "url": "https://www.goodreads.com/book/show/35553569-the-last-girl-on-earth",
     "year_published": 2018
 }

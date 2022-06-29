@@ -1,8 +1,7 @@
 {
-    "author_name": "Kurt Vonnegut Jr.",
+    "author": "Kurt Vonnegut Jr.",
     "base_id": 4880,
-    "book_description": "The Sirens of Titan is an outrageous romp through space, time, and morality. The richest, most depraved man on Earth, Malachi Constant, is offered a chance to take a space journey to distant worlds with a beautiful woman at his side. Of course there's a catch to the invitation\u2014and a prophetic vision about the purpose of human life that only Vonnegut has the courage to tell.",
-    "book_title": "The Sirens of Titan",
+    "description": "The Sirens of Titan is an outrageous romp through space, time, and morality. The richest, most depraved man on Earth, Malachi Constant, is offered a chance to take a space journey to distant worlds with a beautiful woman at his side. Of course there's a catch to the invitation\u2014and a prophetic vision about the purpose of human life that only Vonnegut has the courage to tell.",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "4880_1"
+            "stock_id": "4880_1"
         },
         {
             "status": "available",
-            "stock_number": "4880_2"
+            "stock_id": "4880_2"
         },
         {
             "status": "available",
-            "stock_number": "4880_3"
+            "stock_id": "4880_3"
         },
         {
             "status": "available",
-            "stock_number": "4880_4"
+            "stock_id": "4880_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "4880_5"
+            "stock_id": "4880_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "4880_6"
+            "stock_id": "4880_6"
         },
         {
             "status": "available",
-            "stock_number": "4880_7"
+            "stock_id": "4880_7"
         },
         {
             "status": "available",
-            "stock_number": "4880_8"
+            "stock_id": "4880_8"
         },
         {
             "status": "available",
-            "stock_number": "4880_9"
+            "stock_id": "4880_9"
         }
     ],
     "metrics": {
         "rating_votes": 118894,
         "score": 4.14
     },
-    "original_book_title": "The Sirens of Titan",
     "pages": 836,
+    "title": "The Sirens of Titan",
     "url": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan",
     "year_published": 1959
 }

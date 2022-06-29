@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 523,
-    "book_description": "'Resonance' is supposed to be a dream - that's when your soulmate is chosen for you. And everyone on the ice planet has hooked up with a big, hunky soulmate of their own... except me. So do I want a mate? Heck yeah. More than anything, all I've ever wanted is to be loved by someone.Except that the soulmate chosen for me? My least favorite person on the darn ice planet. Haeden's the most cranky, disapproving, unpleasant, overbearing male alien... so why is it that my body sings when he gets close? Why is he working so hard to prove to me that he's not as awful as I think he is?I hate him... don't I?",
-    "book_title": "Barbarian's Mate",
+    "description": "'Resonance' is supposed to be a dream - that's when your soulmate is chosen for you. And everyone on the ice planet has hooked up with a big, hunky soulmate of their own... except me. So do I want a mate? Heck yeah. More than anything, all I've ever wanted is to be loved by someone.Except that the soulmate chosen for me? My least favorite person on the darn ice planet. Haeden's the most cranky, disapproving, unpleasant, overbearing male alien... so why is it that my body sings when he gets close? Why is he working so hard to prove to me that he's not as awful as I think he is?I hate him... don't I?",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "523_1"
+            "stock_id": "523_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "523_2"
+            "stock_id": "523_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "523_3"
+            "stock_id": "523_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "523_4"
+            "stock_id": "523_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "523_5"
+            "stock_id": "523_5"
         },
         {
             "status": "available",
-            "stock_number": "523_6"
+            "stock_id": "523_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "523_7"
+            "stock_id": "523_7"
         }
     ],
     "metrics": {
         "rating_votes": 6468,
         "score": 4.04
     },
-    "original_book_title": "Barbarian\u2019s Mate",
     "pages": 322,
+    "title": "Barbarian's Mate",
     "url": "https://www.goodreads.com/book/show/29623967-barbarian-s-mate",
     "year_published": 2016
 }

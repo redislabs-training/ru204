@@ -1,8 +1,7 @@
 {
-    "author_name": "Melanie Nilles",
+    "author": "Melanie Nilles",
     "base_id": 239,
-    "book_description": "They've been coming here for thousands of years, using Earth as a sanctuary to escape threats from their own kind. Mankind knows them as angels, and one of them left a child upon her death to be raised as a human.Raea is now a high school senior, and her life as a human is about to end. The crystal shard she bears is not a pretty pendant; it's a collective of powerful entities who chose her as their Keeper, a protector of one of the four shards that power a machine capable of destroying whole worlds. Those who desire the Starfire's power have sent an agent to find her, but she's too busy evading a nosy reporter ready to exploit her secret and dating a hot new foreign student to notice. Nevermind learning what she really is.Only one person on Earth can help her, the last person she ever expected. But he's not from Earth. Life as a human would be so much easier.",
-    "book_title": "Starfire Angels",
+    "description": "They've been coming here for thousands of years, using Earth as a sanctuary to escape threats from their own kind. Mankind knows them as angels, and one of them left a child upon her death to be raised as a human.Raea is now a high school senior, and her life as a human is about to end. The crystal shard she bears is not a pretty pendant; it's a collective of powerful entities who chose her as their Keeper, a protector of one of the four shards that power a machine capable of destroying whole worlds. Those who desire the Starfire's power have sent an agent to find her, but she's too busy evading a nosy reporter ready to exploit her secret and dating a hot new foreign student to notice. Nevermind learning what she really is.Only one person on Earth can help her, the last person she ever expected. But he's not from Earth. Life as a human would be so much easier.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "239_1"
+            "stock_id": "239_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "239_2"
+            "stock_id": "239_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "239_3"
+            "stock_id": "239_3"
         }
     ],
     "metrics": {
         "rating_votes": 3848,
         "score": 3.75
     },
-    "original_book_title": "Starfire Angels",
     "pages": 1387,
+    "title": "Starfire Angels",
     "url": "https://www.goodreads.com/book/show/6687158-starfire-angels",
     "year_published": 2009
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Evangeline Anderson",
+    "author": "Evangeline Anderson",
     "base_id": 85,
-    "book_description": "*****THIS IS A M/F/M MENAGE ROMANCE***** One plus-sized Earth girl Two Twin Kindred who need help to reconnect Sometimes 1 +2 = Interstellar sexy timesLorelei Daniels is having a terrible day--her self-driving car repossesses itself, she loses her job, and she's about to get kicked out of her apartment. What else could happen? How about a visit from a huge Kindred warrior begging her to come help him rescue his twin brother who has been turned into a Cyborg?Bound Tight is a Light Twin of a Twin Kindred pair. Bound's brother, Torn Deep, is the Dark Twin and his other half--without him, Bound is incomplete. He desperately needs help to get Torn back--but will the beautiful little Earth female he needs to seal the deal help him rescue his twin?Because of her advanced degree in Artificial Intelligence Psychology, Lorelei is uniquely qualified to help with the Cyborg problem. But no matter how handsome Bound is, she's determined this is just a business transaction. However, when they rescue Torn, he has lost all memory of his past. It's up to Lorelei to try and bring the brothers back together in the only way she can--by using her body as a bridge between them.Can Lorelei keep things businesslike as she brings the two brother back together? Or will she end up losing her heart as she is Bridging the Distance between the estranged Bound and Torn?",
-    "book_title": "Bridging the Distance",
+    "description": "*****THIS IS A M/F/M MENAGE ROMANCE***** One plus-sized Earth girl Two Twin Kindred who need help to reconnect Sometimes 1 +2 = Interstellar sexy timesLorelei Daniels is having a terrible day--her self-driving car repossesses itself, she loses her job, and she's about to get kicked out of her apartment. What else could happen? How about a visit from a huge Kindred warrior begging her to come help him rescue his twin brother who has been turned into a Cyborg?Bound Tight is a Light Twin of a Twin Kindred pair. Bound's brother, Torn Deep, is the Dark Twin and his other half--without him, Bound is incomplete. He desperately needs help to get Torn back--but will the beautiful little Earth female he needs to seal the deal help him rescue his twin?Because of her advanced degree in Artificial Intelligence Psychology, Lorelei is uniquely qualified to help with the Cyborg problem. But no matter how handsome Bound is, she's determined this is just a business transaction. However, when they rescue Torn, he has lost all memory of his past. It's up to Lorelei to try and bring the brothers back together in the only way she can--by using her body as a bridge between them.Can Lorelei keep things businesslike as she brings the two brother back together? Or will she end up losing her heart as she is Bridging the Distance between the estranged Bound and Torn?",
     "editions": [
         "English"
     ],
@@ -20,15 +19,15 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "85_1"
+            "stock_id": "85_1"
         }
     ],
     "metrics": {
         "rating_votes": 703,
         "score": 4.21
     },
-    "original_book_title": "Bridging The Distance (Brides Of The Kindred, #21.2; Kindred Tales, #7)",
     "pages": 757,
+    "title": "Bridging the Distance",
     "url": "https://www.goodreads.com/book/show/39906400-bridging-the-distance",
     "year_published": 2018
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 1656,
-    "book_description": "Experience the epic love story of OBSIDIAN as told by its hero, Daemon Black\u2026I knew the moment Katy Swartz moved in next door, there was going to be trouble. Lots of it.And trouble's the last thing I need, since I'm not exactly from around here. My people arrived on Earth from Lux, a planet thirteen billion light years away. Plus, if there's one thing I know, it's that humans can't be trusted. We scare them. We can do things they only dream about, and honestly, we make them look weak as hell. 'Cuz they are.But Kat is getting to me in ways no one else has, and I can't stop myself from wanting her--or wanting to use my powers to protect her. She makes me weak, and I'm the strongest of our kind, tasked with protecting us all. So this one simple girl\u2026she can mean the end for us. Because the Luxen have an even bigger enemy--the Arum, and I need to stay on my game.Falling for Katy--a human--won't just place her in danger. It could get us all killed, and that's one thing I'll never let happen...Alternate cover edition of ISBN 9781633754799",
-    "book_title": "Oblivion",
+    "description": "Experience the epic love story of OBSIDIAN as told by its hero, Daemon Black\u2026I knew the moment Katy Swartz moved in next door, there was going to be trouble. Lots of it.And trouble's the last thing I need, since I'm not exactly from around here. My people arrived on Earth from Lux, a planet thirteen billion light years away. Plus, if there's one thing I know, it's that humans can't be trusted. We scare them. We can do things they only dream about, and honestly, we make them look weak as hell. 'Cuz they are.But Kat is getting to me in ways no one else has, and I can't stop myself from wanting her--or wanting to use my powers to protect her. She makes me weak, and I'm the strongest of our kind, tasked with protecting us all. So this one simple girl\u2026she can mean the end for us. Because the Luxen have an even bigger enemy--the Arum, and I need to stay on my game.Falling for Katy--a human--won't just place her in danger. It could get us all killed, and that's one thing I'll never let happen...Alternate cover edition of ISBN 9781633754799",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1656_1"
+            "stock_id": "1656_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1656_2"
+            "stock_id": "1656_2"
         },
         {
             "status": "available",
-            "stock_number": "1656_3"
+            "stock_id": "1656_3"
         }
     ],
     "metrics": {
         "rating_votes": 15247,
         "score": 4.37
     },
-    "original_book_title": "English",
     "pages": 1037,
+    "title": "Oblivion",
     "url": "https://www.goodreads.com/book/show/26529699-oblivion",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "SusanHayes",
+    "author": "SusanHayes",
     "base_id": 151,
-    "book_description": "When it comes to love, sometimes the best bet is to double down. Kit and Luke Armas are cyborgs created for one purpose, battle. Now that the war is over, they must fight to carve out a place for themselves in a universe they were intended to die for but never be a part of. Cargo pilot Zura Watson came to the edge of civilized space to start over. The Drift is a haven for the hunted, the lost, and those seeking second chances. It was also the last place in the cosmos Zura expected to find love. When the shadows of the past threaten to eclipse this trio\u2019s future, they\u2019ll have to fight for their chance at love and the life they\u2019ve always dreamed of.",
-    "book_title": "Double Down",
+    "description": "When it comes to love, sometimes the best bet is to double down. Kit and Luke Armas are cyborgs created for one purpose, battle. Now that the war is over, they must fight to carve out a place for themselves in a universe they were intended to die for but never be a part of. Cargo pilot Zura Watson came to the edge of civilized space to start over. The Drift is a haven for the hunted, the lost, and those seeking second chances. It was also the last place in the cosmos Zura expected to find love. When the shadows of the past threaten to eclipse this trio\u2019s future, they\u2019ll have to fight for their chance at love and the life they\u2019ve always dreamed of.",
     "editions": [
         "English"
     ],
@@ -19,47 +18,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "151_1"
+            "stock_id": "151_1"
         },
         {
             "status": "available",
-            "stock_number": "151_2"
+            "stock_id": "151_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "151_3"
+            "stock_id": "151_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "151_4"
+            "stock_id": "151_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "151_5"
+            "stock_id": "151_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "151_6"
+            "stock_id": "151_6"
         },
         {
             "status": "available",
-            "stock_number": "151_7"
+            "stock_id": "151_7"
         },
         {
             "status": "available",
-            "stock_number": "151_8"
+            "stock_id": "151_8"
         },
         {
             "status": "maintenance",
-            "stock_number": "151_9"
+            "stock_id": "151_9"
         }
     ],
     "metrics": {
         "rating_votes": 1290,
         "score": 3.75
     },
-    "original_book_title": "B01GPL2AGE",
     "pages": 356,
+    "title": "Double Down",
     "url": "https://www.goodreads.com/book/show/30399251-double-down",
     "year_published": 2016
 }

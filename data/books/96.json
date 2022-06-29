@@ -1,8 +1,7 @@
 {
-    "author_name": "Tiffany Roberts",
+    "author": "Tiffany Roberts",
     "base_id": 96,
-    "book_description": "Arthos, the Infinite City, is a place of alien wonders and indescribable beauty\u2014and, most importantly for Samantha, it\u2019s also halfway across the universe from her abusive ex-fianc\u00e9. She came to the city desperate for a fresh start, but she finds herself downtrodden on a world of aloof alien beings with little hope of finding her place\u2014and a good chance of being kidnapped or killed before she can even settle in.At least until she is saved by an irresistible alien with piercing eyes and a seductive smile.Alkorin is the living embodiment of temptation, and he makes no effort to disguise his desire for her. But when his past threatens to drag her into a dangerous underworld, she discovers he isn\u2019t who he claims to be. After enduring so much suffering, can she bear to take a leap of faith with this mysterious alien? Can she trust him with not only her life, but her heart?----**Warning: This book contains sexual content and sexual violence.**",
-    "book_title": "Shielded Heart",
+    "description": "Arthos, the Infinite City, is a place of alien wonders and indescribable beauty\u2014and, most importantly for Samantha, it\u2019s also halfway across the universe from her abusive ex-fianc\u00e9. She came to the city desperate for a fresh start, but she finds herself downtrodden on a world of aloof alien beings with little hope of finding her place\u2014and a good chance of being kidnapped or killed before she can even settle in.At least until she is saved by an irresistible alien with piercing eyes and a seductive smile.Alkorin is the living embodiment of temptation, and he makes no effort to disguise his desire for her. But when his past threatens to drag her into a dangerous underworld, she discovers he isn\u2019t who he claims to be. After enduring so much suffering, can she bear to take a leap of faith with this mysterious alien? Can she trust him with not only her life, but her heart?----**Warning: This book contains sexual content and sexual violence.**",
     "editions": [
         "None"
     ],
@@ -20,35 +19,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "96_1"
+            "stock_id": "96_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "96_2"
+            "stock_id": "96_2"
         },
         {
             "status": "available",
-            "stock_number": "96_3"
+            "stock_id": "96_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "96_4"
+            "stock_id": "96_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "96_5"
+            "stock_id": "96_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "96_6"
+            "stock_id": "96_6"
         }
     ],
     "metrics": {
         "rating_votes": 800,
         "score": 4.21
     },
-    "original_book_title": "\nThe Infinite City#2 ",
     "pages": 574,
+    "title": "Shielded Heart",
     "url": "https://www.goodreads.com/book/show/51538634-shielded-heart",
     "year_published": 2019
 }

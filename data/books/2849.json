@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 2849,
-    "book_description": "The Garde have suffered an unbearable loss. Number Five has betrayed them. Eight is gone forever. Ella has been kidnapped. The others are now scattered.In Chicago, John makes the unlikeliest of allies: Adam, a Mogadorian who turned his back on his people. He has invaluable information about Mog technology, battle strategies, and weaknesses. Most important, he knows where to hit them: their command base near Washington, DC. During the assault, however, John and Adam learn the unimaginable truth: it is too late. The Mogadorians have commenced their ultimate invasion plans.With a front-row seat to the impending invasion, Ella finds herself in the hands of the enemy. For some reason she's more valuable to them alive, and they'll stop at nothing to turn her.Meanwhile, Six, Nine, and Marina make their way through the Florida Everglades, hot on the trail of the traitorous Five. With the development of a new Legacy, Marina finally has the power to fight back\u2014if her thirst for revenge doesn't consume her first.",
-    "book_title": "The Revenge of Seven",
+    "description": "The Garde have suffered an unbearable loss. Number Five has betrayed them. Eight is gone forever. Ella has been kidnapped. The others are now scattered.In Chicago, John makes the unlikeliest of allies: Adam, a Mogadorian who turned his back on his people. He has invaluable information about Mog technology, battle strategies, and weaknesses. Most important, he knows where to hit them: their command base near Washington, DC. During the assault, however, John and Adam learn the unimaginable truth: it is too late. The Mogadorians have commenced their ultimate invasion plans.With a front-row seat to the impending invasion, Ella finds herself in the hands of the enemy. For some reason she's more valuable to them alive, and they'll stop at nothing to turn her.Meanwhile, Six, Nine, and Marina make their way through the Florida Everglades, hot on the trail of the traitorous Five. With the development of a new Legacy, Marina finally has the power to fight back\u2014if her thirst for revenge doesn't consume her first.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "2849_1"
+            "stock_id": "2849_1"
         },
         {
             "status": "available",
-            "stock_number": "2849_2"
+            "stock_id": "2849_2"
         },
         {
             "status": "available",
-            "stock_number": "2849_3"
+            "stock_id": "2849_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "2849_4"
+            "stock_id": "2849_4"
         },
         {
             "status": "available",
-            "stock_number": "2849_5"
+            "stock_id": "2849_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "2849_6"
+            "stock_id": "2849_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "2849_7"
+            "stock_id": "2849_7"
         }
     ],
     "metrics": {
         "rating_votes": 41848,
         "score": 4.27
     },
-    "original_book_title": "The Revenge of Seven",
     "pages": 1088,
+    "title": "The Revenge of Seven",
     "url": "https://www.goodreads.com/book/show/19346451-the-revenge-of-seven",
     "year_published": 2014
 }

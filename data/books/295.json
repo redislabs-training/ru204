@@ -1,8 +1,7 @@
 {
-    "author_name": "R. Lee Smith",
+    "author": "R. Lee Smith",
     "base_id": 295,
-    "book_description": "They never meant to come to Earth. They were never allowed to leave...Welcome to Cottonwood.",
-    "book_title": "Cottonwood",
+    "description": "They never meant to come to Earth. They were never allowed to leave...Welcome to Cottonwood.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "295_1"
+            "stock_id": "295_1"
         }
     ],
     "metrics": {
         "rating_votes": 2048,
         "score": 4.32
     },
-    "original_book_title": "B00BNH25ZM",
     "pages": 460,
+    "title": "Cottonwood",
     "url": "https://www.goodreads.com/book/show/17563213-cottonwood",
     "year_published": 2013
 }

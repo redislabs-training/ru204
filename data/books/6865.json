@@ -1,8 +1,7 @@
 {
-    "author_name": "Patrick Ness",
+    "author": "Patrick Ness",
     "base_id": 6865,
-    "book_description": "We were in the square, in the square where I'd run, holding her, carrying her, telling her to stay alive, stay alive till we got safe, till we got to Haven so I could save her - But there weren't no safety, no safety at all, there was just him and his men...Fleeing before a relentless army, Todd has carried a desperately wounded Viola right into the hands of their worst enemy, Mayor Prentiss. Immediately separated from Viola and imprisoned, Todd is forced to learn the ways of the Mayor's new order. But what secrets are hiding just outside of town? And where is Viola? Is she even still alive? And who are the mysterious Answer? And then, one day, the bombs begin to explode...\"The Ask and the Answer\" is a tense, shocking and deeply moving novel of resistance under the most extreme pressure. This is the second title in the \"Chaos Walking\" trilogy.",
-    "book_title": "The Ask and the Answer",
+    "description": "We were in the square, in the square where I'd run, holding her, carrying her, telling her to stay alive, stay alive till we got safe, till we got to Haven so I could save her - But there weren't no safety, no safety at all, there was just him and his men...Fleeing before a relentless army, Todd has carried a desperately wounded Viola right into the hands of their worst enemy, Mayor Prentiss. Immediately separated from Viola and imprisoned, Todd is forced to learn the ways of the Mayor's new order. But what secrets are hiding just outside of town? And where is Viola? Is she even still alive? And who are the mysterious Answer? And then, one day, the bombs begin to explode...\"The Ask and the Answer\" is a tense, shocking and deeply moving novel of resistance under the most extreme pressure. This is the second title in the \"Chaos Walking\" trilogy.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "6865_1"
+            "stock_id": "6865_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "6865_2"
+            "stock_id": "6865_2"
         },
         {
             "status": "available",
-            "stock_number": "6865_3"
+            "stock_id": "6865_3"
         },
         {
             "status": "available",
-            "stock_number": "6865_4"
+            "stock_id": "6865_4"
         }
     ],
     "metrics": {
         "rating_votes": 77899,
         "score": 4.19
     },
-    "original_book_title": "The Ask and the Answer",
     "pages": 856,
+    "title": "The Ask and the Answer",
     "url": "https://www.goodreads.com/book/show/20758103-the-ask-and-the-answer",
     "year_published": 2009
 }

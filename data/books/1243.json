@@ -1,8 +1,7 @@
 {
-    "author_name": "Peter F. Hamilton",
+    "author": "Peter F. Hamilton",
     "base_id": 1243,
-    "book_description": "Robust, peaceful, and confident, the Commonwealth dispatched a ship to investigate the mystery of a disappearing star, only to inadvertently unleash a predatory alien species that turned on its liberators, striking hard, fast, and utterly without mercy. The Prime are the Commonwealth's worst nightmare. Coexistence is impossible with the technologically advanced aliens, who are genetically hardwired to exterminate all other forms of life. Twenty-three planets have already fallen to the invaders, with casualties in the hundreds of millions. And no one knows when or where the genocidal Prime will strike next. Nor are the Prime the only threat. For more than a hundred years, a shadowy cult, the Guardians of Selfhood, has warned that an alien with mind-control abilities impossible to detect or resist -- the Starflyer -- has secretly infiltrated the Commonwealth. Branded as terrorists, the Guardians and their leader, Bradley Johansson, have been hunted by relentless investigator Paula Myo. But now evidence suggests that the Guardians were right all along, and that the Starflyer has placed agents in vital posts throughout the Commonwealth -- agents who are now sabotaging the war effort. Is the Starflyer an ally of the Prime, or has it orchestrated a fight to the death between the two species for its own advantage? Caught between two deadly enemies, one a brutal invader striking from without, the other a remorseless cancer killing from within, the fractious Commonwealth must unite as never before...",
-    "book_title": "Judas Unchained",
+    "description": "Robust, peaceful, and confident, the Commonwealth dispatched a ship to investigate the mystery of a disappearing star, only to inadvertently unleash a predatory alien species that turned on its liberators, striking hard, fast, and utterly without mercy. The Prime are the Commonwealth's worst nightmare. Coexistence is impossible with the technologically advanced aliens, who are genetically hardwired to exterminate all other forms of life. Twenty-three planets have already fallen to the invaders, with casualties in the hundreds of millions. And no one knows when or where the genocidal Prime will strike next. Nor are the Prime the only threat. For more than a hundred years, a shadowy cult, the Guardians of Selfhood, has warned that an alien with mind-control abilities impossible to detect or resist -- the Starflyer -- has secretly infiltrated the Commonwealth. Branded as terrorists, the Guardians and their leader, Bradley Johansson, have been hunted by relentless investigator Paula Myo. But now evidence suggests that the Guardians were right all along, and that the Starflyer has placed agents in vital posts throughout the Commonwealth -- agents who are now sabotaging the war effort. Is the Starflyer an ally of the Prime, or has it orchestrated a fight to the death between the two species for its own advantage? Caught between two deadly enemies, one a brutal invader striking from without, the other a remorseless cancer killing from within, the fractious Commonwealth must unite as never before...",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1243_1"
+            "stock_id": "1243_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1243_2"
+            "stock_id": "1243_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1243_3"
+            "stock_id": "1243_3"
         }
     ],
     "metrics": {
         "rating_votes": 32774,
         "score": 4.3
     },
-    "original_book_title": "Judas Unchained",
     "pages": 814,
+    "title": "Judas Unchained",
     "url": "https://www.goodreads.com/book/show/45244.Judas_Unchained",
     "year_published": 2005
 }

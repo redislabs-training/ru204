@@ -1,8 +1,7 @@
 {
-    "author_name": "Jason M. Hough",
+    "author": "Jason M. Hough",
     "base_id": 619,
-    "book_description": "In the mid-23rd century, Darwin, Australia, stands as the last human city on Earth. The world has succumbed to an alien plague, with most of the population transformed into mindless, savage creatures. The planet\u2019s refugees flock to Darwin, where a space elevator\u2014created by the architects of this apocalypse, the Builders\u2014emits a plague-suppressing aura.Skyler Luiken has a rare immunity to the plague. Backed by an international crew of fellow \u201cimmunes,\u201d he leads missions into the dangerous wasteland beyond the aura\u2019s edge to find the resources Darwin needs to stave off collapse. But when the Elevator starts to malfunction, Skyler is tapped\u2014along with the brilliant scientist, Dr. Tania Sharma\u2014to solve the mystery of the failing alien technology and save the ragged remnants of humanity.",
-    "book_title": "The Darwin Elevator",
+    "description": "In the mid-23rd century, Darwin, Australia, stands as the last human city on Earth. The world has succumbed to an alien plague, with most of the population transformed into mindless, savage creatures. The planet\u2019s refugees flock to Darwin, where a space elevator\u2014created by the architects of this apocalypse, the Builders\u2014emits a plague-suppressing aura.Skyler Luiken has a rare immunity to the plague. Backed by an international crew of fellow \u201cimmunes,\u201d he leads missions into the dangerous wasteland beyond the aura\u2019s edge to find the resources Darwin needs to stave off collapse. But when the Elevator starts to malfunction, Skyler is tapped\u2014along with the brilliant scientist, Dr. Tania Sharma\u2014to solve the mystery of the failing alien technology and save the ragged remnants of humanity.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "619_1"
+            "stock_id": "619_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "619_2"
+            "stock_id": "619_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "619_3"
+            "stock_id": "619_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "619_4"
+            "stock_id": "619_4"
         },
         {
             "status": "available",
-            "stock_number": "619_5"
+            "stock_id": "619_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "619_6"
+            "stock_id": "619_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "619_7"
+            "stock_id": "619_7"
         }
     ],
     "metrics": {
         "rating_votes": 4648,
         "score": 3.68
     },
-    "original_book_title": "The Darwin Elevator",
     "pages": 205,
+    "title": "The Darwin Elevator",
     "url": "https://www.goodreads.com/book/show/16127235-the-darwin-elevator",
     "year_published": 2013
 }

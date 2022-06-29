@@ -1,8 +1,7 @@
 {
-    "author_name": "Alison Aimes",
+    "author": "Alison Aimes",
     "base_id": 180,
-    "book_description": "\u201cConvicts don\u2019t ask. They take.\u201dMarooned on a primitive prison planet , Bella West has one chance for survival until rescue arrives: trade her body for protection.The ripped hulk who claims her is more beast than man. Convicted of a crime he didn\u2019t commit, ex-soldier Caine Anders has lost his humanity after eight grueling years on a hazardous planet of dirt, rock, and treacherous inhabitants.He looks out for himself and never grows attached. So, when the bold female offers him pleasure in return for protection, he takes the deal without hesitation. He never expects her touch to alter him. Or to feel something beyond lust.But caring for someone on Dragath25 may be the greatest hazard of all. And, as the dangers multiply, it\u2019s no longer certain whether she\u2019ll be the key to his salvation or his destruction....The first book in the Condemned Series, TRAPPED is a stand alone, action-packed, sexy sci-fi romance with a HEA, a strong heroine willing to do what it takes to survive, and a scorching hot, broken alpha hero you can\u2019t help but fall in love with.",
-    "book_title": "Trapped",
+    "description": "\u201cConvicts don\u2019t ask. They take.\u201dMarooned on a primitive prison planet , Bella West has one chance for survival until rescue arrives: trade her body for protection.The ripped hulk who claims her is more beast than man. Convicted of a crime he didn\u2019t commit, ex-soldier Caine Anders has lost his humanity after eight grueling years on a hazardous planet of dirt, rock, and treacherous inhabitants.He looks out for himself and never grows attached. So, when the bold female offers him pleasure in return for protection, he takes the deal without hesitation. He never expects her touch to alter him. Or to feel something beyond lust.But caring for someone on Dragath25 may be the greatest hazard of all. And, as the dangers multiply, it\u2019s no longer certain whether she\u2019ll be the key to his salvation or his destruction....The first book in the Condemned Series, TRAPPED is a stand alone, action-packed, sexy sci-fi romance with a HEA, a strong heroine willing to do what it takes to survive, and a scorching hot, broken alpha hero you can\u2019t help but fall in love with.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "180_1"
+            "stock_id": "180_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "180_2"
+            "stock_id": "180_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "180_3"
+            "stock_id": "180_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "180_4"
+            "stock_id": "180_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "180_5"
+            "stock_id": "180_5"
         },
         {
             "status": "available",
-            "stock_number": "180_6"
+            "stock_id": "180_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "180_7"
+            "stock_id": "180_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "180_8"
+            "stock_id": "180_8"
         }
     ],
     "metrics": {
         "rating_votes": 1018,
         "score": 3.77
     },
-    "original_book_title": "Trapped",
     "pages": 1199,
+    "title": "Trapped",
     "url": "https://www.goodreads.com/book/show/54662836-trapped",
     "year_published": 2016
 }

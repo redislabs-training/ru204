@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 2955,
-    "book_description": "The last thing Dawson Black expected was Bethany Williams. As a Luxen, an alien life form on Earth, human girls are\u2026well, fun. But since the Luxen have to keep their true identities a secret, falling for one would be insane.Dangerous. Tempting. Undeniable.Bethany can\u2019t deny the immediate connection between her and Dawson. And even though boys aren\u2019t a complication she wants, she can\u2019t stay away from him. Still, whenever they lock eyes, she\u2019s drawn in.Captivated. Lured. Loved.Dawson is keeping a secret that will change her existence...and put her life in jeopardy. But even he can\u2019t stop risking everything for one human girl. Or from a fate that is as unavoidable as love itself.",
-    "book_title": "Shadows",
+    "description": "The last thing Dawson Black expected was Bethany Williams. As a Luxen, an alien life form on Earth, human girls are\u2026well, fun. But since the Luxen have to keep their true identities a secret, falling for one would be insane.Dangerous. Tempting. Undeniable.Bethany can\u2019t deny the immediate connection between her and Dawson. And even though boys aren\u2019t a complication she wants, she can\u2019t stay away from him. Still, whenever they lock eyes, she\u2019s drawn in.Captivated. Lured. Loved.Dawson is keeping a secret that will change her existence...and put her life in jeopardy. But even he can\u2019t stop risking everything for one human girl. Or from a fate that is as unavoidable as love itself.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "2955_1"
+            "stock_id": "2955_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "2955_2"
+            "stock_id": "2955_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "2955_3"
+            "stock_id": "2955_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "2955_4"
+            "stock_id": "2955_4"
         }
     ],
     "metrics": {
         "rating_votes": 36224,
         "score": 4.12
     },
-    "original_book_title": "Shadows",
     "pages": 1286,
+    "title": "Shadows",
     "url": "https://www.goodreads.com/book/show/13183957-shadows",
     "year_published": 2012
 }

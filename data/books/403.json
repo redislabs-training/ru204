@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 403,
-    "book_description": "A book combined with Six's, Nine's and The Fallen's Legacies all in on paperback. (Legacies originally published as eBooks.)You know we're out there, living among you.You know we're waiting for our day to come.You have seen the power of our legacies.You know this is why they hunt us.You may think you know our stories.You are wrong.We each have our own story.We know the time has come to share them with you.Our legacies are your only hope.",
-    "book_title": "The Legacies",
+    "description": "A book combined with Six's, Nine's and The Fallen's Legacies all in on paperback. (Legacies originally published as eBooks.)You know we're out there, living among you.You know we're waiting for our day to come.You have seen the power of our legacies.You know this is why they hunt us.You may think you know our stories.You are wrong.We each have our own story.We know the time has come to share them with you.Our legacies are your only hope.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "403_1"
+            "stock_id": "403_1"
         },
         {
             "status": "available",
-            "stock_number": "403_2"
+            "stock_id": "403_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "403_3"
+            "stock_id": "403_3"
         },
         {
             "status": "available",
-            "stock_number": "403_4"
+            "stock_id": "403_4"
         },
         {
             "status": "available",
-            "stock_number": "403_5"
+            "stock_id": "403_5"
         }
     ],
     "metrics": {
         "rating_votes": 8151,
         "score": 4.26
     },
-    "original_book_title": "\n0062211102\n(ISBN13: 9780062211101)\n",
     "pages": 899,
+    "title": "The Legacies",
     "url": "https://www.goodreads.com/book/show/13583463-the-legacies",
     "year_published": 2012
 }

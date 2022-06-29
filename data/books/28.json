@@ -1,8 +1,7 @@
 {
-    "author_name": "Jaid Black",
+    "author": "Jaid Black",
     "base_id": 28,
-    "book_description": "Book 6.5 in the Trek Mi Q'an Series. Dorothy \"Dot\" Araiza is a sex-toy maker by trade. One would think she has an active social life, but on the contrary, her existence is a rather boring, staid one. Dot dreams of finding her happily-ever-after, of being swept off her feet by Prince Charming-not to mention getting laid after eight pathetic years! One lightning storm later, all Dot's fevered fantasies will come true. But Prince Charming isn't quite what she'd been expecting...",
-    "book_title": "Devilish Dot",
+    "description": "Book 6.5 in the Trek Mi Q'an Series. Dorothy \"Dot\" Araiza is a sex-toy maker by trade. One would think she has an active social life, but on the contrary, her existence is a rather boring, staid one. Dot dreams of finding her happily-ever-after, of being swept off her feet by Prince Charming-not to mention getting laid after eight pathetic years! One lightning storm later, all Dot's fevered fantasies will come true. But Prince Charming isn't quite what she'd been expecting...",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "28_1"
+            "stock_id": "28_1"
         }
     ],
     "metrics": {
         "rating_votes": 1004,
         "score": 3.64
     },
-    "original_book_title": "\n1419925490\n(ISBN13: 9781419925498)\n",
     "pages": 808,
+    "title": "Devilish Dot",
     "url": "https://www.goodreads.com/book/show/8151556-devilish-dot",
     "year_published": 2004
 }

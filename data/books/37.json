@@ -1,8 +1,7 @@
 {
-    "author_name": "Sadie Carter",
+    "author": "Sadie Carter",
     "base_id": 37,
-    "book_description": "Darac Kola has lived for close to a hundred years without finding his true mate. Having grown increasingly volatile, he knows his days are numbered. To protect his friends and family, he leaves Zerconia, knowing he will never return. Then he meets Willa. His mate. The one person who could pull him back from the edge of madness.With five brothers, Willa Sanchez has spent her life trying to be one of the boys. The last thing she needs is an overprotective, bossy alien claiming her as his mate.If he thinks she\u2019s going to give up her independence to play house for him, then he\u2019s got the wrong girl.No cliffhanger. You don't need to have read the rest of the series to enjoy Alien Savior.",
-    "book_title": "Alien Savior",
+    "description": "Darac Kola has lived for close to a hundred years without finding his true mate. Having grown increasingly volatile, he knows his days are numbered. To protect his friends and family, he leaves Zerconia, knowing he will never return. Then he meets Willa. His mate. The one person who could pull him back from the edge of madness.With five brothers, Willa Sanchez has spent her life trying to be one of the boys. The last thing she needs is an overprotective, bossy alien claiming her as his mate.If he thinks she\u2019s going to give up her independence to play house for him, then he\u2019s got the wrong girl.No cliffhanger. You don't need to have read the rest of the series to enjoy Alien Savior.",
     "editions": [
         "English"
     ],
@@ -19,27 +18,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "37_1"
+            "stock_id": "37_1"
         },
         {
             "status": "available",
-            "stock_number": "37_2"
+            "stock_id": "37_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "37_3"
+            "stock_id": "37_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "37_4"
+            "stock_id": "37_4"
         }
     ],
     "metrics": {
         "rating_votes": 679,
         "score": 4.1
     },
-    "original_book_title": "B01G5K8HLW",
     "pages": 468,
+    "title": "Alien Savior",
     "url": "https://www.goodreads.com/book/show/30289235-alien-savior",
     "year_published": 2016
 }

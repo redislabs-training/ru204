@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 710,
-    "book_description": "Now available together for the first time, don't miss Obsidian and Onyx, the first two books in Jennifer L. Armentrout's bestselling Lux series. Also includes bonus content exclusive to the print edition! \"A thrilling ride from start to finish,\" says RT Book Reviews.ObsidianThere\u2019s an alien next door. And with his looming height and eerie green eyes, he\u2019s hot\u2026 until he opens his mouth. He\u2019s infuriating. Arrogant. Stab-worthy. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, he marks me. Turns out he has a galaxy of enemies wanting to steal his abilities and the only way I\u2019m getting out of this alive is by sticking close to him until my alien mojo fades. If I don\u2019t kill him first, that is.OnyxDaemon\u2019s determined to prove what he feels for me is more than a product of our bizarro connection. So I\u2019ve sworn him off, even though he\u2019s running more hot than cold these days. But we\u2019ve got bigger problems. I\u2019ve seen someone who shouldn\u2019t be alive. And I have to tell Daemon, even though I know he\u2019s never going to stop searching until he gets the truth. What happened to his brother? Who betrayed him? And what does the DOD want from them\u2014from me?",
-    "book_title": "Beginnings: Obsidian & Onyx",
+    "description": "Now available together for the first time, don't miss Obsidian and Onyx, the first two books in Jennifer L. Armentrout's bestselling Lux series. Also includes bonus content exclusive to the print edition! \"A thrilling ride from start to finish,\" says RT Book Reviews.ObsidianThere\u2019s an alien next door. And with his looming height and eerie green eyes, he\u2019s hot\u2026 until he opens his mouth. He\u2019s infuriating. Arrogant. Stab-worthy. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, he marks me. Turns out he has a galaxy of enemies wanting to steal his abilities and the only way I\u2019m getting out of this alive is by sticking close to him until my alien mojo fades. If I don\u2019t kill him first, that is.OnyxDaemon\u2019s determined to prove what he feels for me is more than a product of our bizarro connection. So I\u2019ve sworn him off, even though he\u2019s running more hot than cold these days. But we\u2019ve got bigger problems. I\u2019ve seen someone who shouldn\u2019t be alive. And I have to tell Daemon, even though I know he\u2019s never going to stop searching until he gets the truth. What happened to his brother? Who betrayed him? And what does the DOD want from them\u2014from me?",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "710_1"
+            "stock_id": "710_1"
         },
         {
             "status": "available",
-            "stock_number": "710_2"
+            "stock_id": "710_2"
         },
         {
             "status": "available",
-            "stock_number": "710_3"
+            "stock_id": "710_3"
         },
         {
             "status": "available",
-            "stock_number": "710_4"
+            "stock_id": "710_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "710_5"
+            "stock_id": "710_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "710_6"
+            "stock_id": "710_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "710_7"
+            "stock_id": "710_7"
         }
     ],
     "metrics": {
         "rating_votes": 6249,
         "score": 4.57
     },
-    "original_book_title": "\n1622664485\n(ISBN13: 9781622664481)\n",
     "pages": 359,
+    "title": "Beginnings: Obsidian & Onyx",
     "url": "https://www.goodreads.com/book/show/19081403-beginnings",
     "year_published": 2014
 }

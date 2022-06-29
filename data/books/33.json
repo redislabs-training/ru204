@@ -1,8 +1,7 @@
 {
-    "author_name": "C.L. Scholey",
+    "author": "C.L. Scholey",
     "base_id": 33,
-    "book_description": "Citun, powerful leader of the northern Zargonniis, vows there is a female human for him out there somewhere. He and his warriors are drawn to a far corner of the universe, where rogue Tonans swear a small colony of women has been cultivated. The race is on; it appears every male in the galaxy is after a human, but some want them dead. Citun hungers for a mate.The last thing Storm wants in her life is a massive giant of a warrior, but since she saved his life, she\u2019s stuck with him. There are some forces that cannot be denied. Storm has the ability to become a storm, and she needs to decide if she will allow one warrior to tame her thunderous emotions.",
-    "book_title": "Citun\u2019s Storm",
+    "description": "Citun, powerful leader of the northern Zargonniis, vows there is a female human for him out there somewhere. He and his warriors are drawn to a far corner of the universe, where rogue Tonans swear a small colony of women has been cultivated. The race is on; it appears every male in the galaxy is after a human, but some want them dead. Citun hungers for a mate.The last thing Storm wants in her life is a massive giant of a warrior, but since she saved his life, she\u2019s stuck with him. There are some forces that cannot be denied. Storm has the ability to become a storm, and she needs to decide if she will allow one warrior to tame her thunderous emotions.",
     "editions": [
         "English"
     ],
@@ -20,19 +19,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "33_1"
+            "stock_id": "33_1"
         },
         {
             "status": "available",
-            "stock_number": "33_2"
+            "stock_id": "33_2"
         }
     ],
     "metrics": {
         "rating_votes": 532,
         "score": 4.11
     },
-    "original_book_title": "B019MB7TD8",
     "pages": 1189,
+    "title": "Citun\u2019s Storm",
     "url": "https://www.goodreads.com/book/show/28319994-citun-s-storm",
     "year_published": 2016
 }

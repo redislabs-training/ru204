@@ -1,8 +1,7 @@
 {
-    "author_name": "James Frey",
+    "author": "James Frey",
     "base_id": 2254,
-    "book_description": "Twelve thousand years ago, they came. They descended from the sky amid smoke and fire, and created humanity and gave us rules to live by. They needed gold and they built our earliest civilizations to mine it for them. When they had what they needed, they left. But before they left, they told us someday they would come back, and when they did, a game would be played. A game that would determine our future.This is Endgame.For ten thousand years the lines have existed in secret. The 12 original lines of humanity. Each had to have a Player prepared at all times. They have trained generation after generation after generation. In weapons, languages, history, tactics, disguise assassination. Together the players are everything: strong, kind, ruthless, loyal, smart, stupid, ugly, lustful, mean, fickle, beautiful, calculating, lazy, exuberant, weak. They are good and evil. Like you. Like all.This is Endgame.When the game starts, the players will have to find three keys. The keys are somewhere on earth. The only rule of their Endgame is that there are no rules. Whoever finds the keys first wins the game. Endgame: The Calling is about the hunt for the first key. And just as it tells the story of the hunt for a hidden key, written into the book is a puzzle. It invites readers to play their own Endgame and to try to solve the puzzle. Whoever does will open a case filled with gold. Alongside the puzzle will be a revolutionary mobile game built by Google\u2019s Niantic Labs that will allow you to play a real-world version of Endgame where you can join one of the lines and do battle with people around you.Will exuberance beat strength? Stupidity top kindness? Laziness thwart beauty? Will the winner be good or evil? There is only one way to find out.Play.Survive.Solve.People of Earth.Endgame has begun.",
-    "book_title": "The Calling",
+    "description": "Twelve thousand years ago, they came. They descended from the sky amid smoke and fire, and created humanity and gave us rules to live by. They needed gold and they built our earliest civilizations to mine it for them. When they had what they needed, they left. But before they left, they told us someday they would come back, and when they did, a game would be played. A game that would determine our future.This is Endgame.For ten thousand years the lines have existed in secret. The 12 original lines of humanity. Each had to have a Player prepared at all times. They have trained generation after generation after generation. In weapons, languages, history, tactics, disguise assassination. Together the players are everything: strong, kind, ruthless, loyal, smart, stupid, ugly, lustful, mean, fickle, beautiful, calculating, lazy, exuberant, weak. They are good and evil. Like you. Like all.This is Endgame.When the game starts, the players will have to find three keys. The keys are somewhere on earth. The only rule of their Endgame is that there are no rules. Whoever finds the keys first wins the game. Endgame: The Calling is about the hunt for the first key. And just as it tells the story of the hunt for a hidden key, written into the book is a puzzle. It invites readers to play their own Endgame and to try to solve the puzzle. Whoever does will open a case filled with gold. Alongside the puzzle will be a revolutionary mobile game built by Google\u2019s Niantic Labs that will allow you to play a real-world version of Endgame where you can join one of the lines and do battle with people around you.Will exuberance beat strength? Stupidity top kindness? Laziness thwart beauty? Will the winner be good or evil? There is only one way to find out.Play.Survive.Solve.People of Earth.Endgame has begun.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "2254_1"
+            "stock_id": "2254_1"
         },
         {
             "status": "available",
-            "stock_number": "2254_2"
+            "stock_id": "2254_2"
         },
         {
             "status": "available",
-            "stock_number": "2254_3"
+            "stock_id": "2254_3"
         },
         {
             "status": "available",
-            "stock_number": "2254_4"
+            "stock_id": "2254_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "2254_5"
+            "stock_id": "2254_5"
         },
         {
             "status": "available",
-            "stock_number": "2254_6"
+            "stock_id": "2254_6"
         },
         {
             "status": "available",
-            "stock_number": "2254_7"
+            "stock_id": "2254_7"
         },
         {
             "status": "available",
-            "stock_number": "2254_8"
+            "stock_id": "2254_8"
         }
     ],
     "metrics": {
         "rating_votes": 17772,
         "score": 3.74
     },
-    "original_book_title": "Endgame: The Calling",
     "pages": 348,
+    "title": "The Calling",
     "url": "https://www.goodreads.com/book/show/20510241-the-calling",
     "year_published": 2014
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "H.P. Lovecraft",
+    "author": "H.P. Lovecraft",
     "base_id": 2793,
-    "book_description": "Long acknowledged as a master of nightmarish vision, H.P. Lovecraft established the genuineness and dignity of his own pioneering fiction in 1931 with his quintessential work of supernatural horror, At the Mountains of Madness. The deliberately told and increasingly chilling recollection of an Antarctic expedition's uncanny discoveries --and their encounter with an untold menace in the ruins of a lost civilization--is a milestone of macabre literature.",
-    "book_title": "At the Mountains of Madness",
+    "description": "Long acknowledged as a master of nightmarish vision, H.P. Lovecraft established the genuineness and dignity of his own pioneering fiction in 1931 with his quintessential work of supernatural horror, At the Mountains of Madness. The deliberately told and increasingly chilling recollection of an Antarctic expedition's uncanny discoveries --and their encounter with an untold menace in the ruins of a lost civilization--is a milestone of macabre literature.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "2793_1"
+            "stock_id": "2793_1"
         }
     ],
     "metrics": {
         "rating_votes": 36486,
         "score": 3.86
     },
-    "original_book_title": "At the Mountains of Madness",
     "pages": 353,
+    "title": "At the Mountains of Madness",
     "url": "https://www.goodreads.com/book/show/32767.At_the_Mountains_of_Madness",
     "year_published": 1936
 }

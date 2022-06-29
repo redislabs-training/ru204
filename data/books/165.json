@@ -1,8 +1,7 @@
 {
-    "author_name": "JanetEdwards",
+    "author": "JanetEdwards",
     "base_id": 165,
-    "book_description": "It's time to risk it all!The thrilling conclusion to Janet Edward\u2019s sensational debut YA sci-fi trilogy.Jarra never wanted to be a celebrity. All she ever wanted was to gain some respect for the people left on Earth: the unlucky few whose immune system prevents them from portalling to other planets.Except now she\u2019s the most famous Earth girl in the universe \u2013 but not everyone in the universe is happy about it, nor the fact that she has found love with a norm. Jarra\u2019s actions have repercussions that spread further than she ever could have imagined, and political unrest threatens to tear apart the delicate balance of peace between humanity\u2019s worlds.On top of everything, the first alien artefact ever discovered appears to be waiting for Jarra to reveal its secrets. But to do so, she must somehow find a way to leave Earth \u2013 or else the alien artefact will be lost forever. Is there a way for Jarra to travel to another planet? Or is her destiny only to look to the stars \u2013 but never to reach them?",
-    "book_title": "Earth Flight",
+    "description": "It's time to risk it all!The thrilling conclusion to Janet Edward\u2019s sensational debut YA sci-fi trilogy.Jarra never wanted to be a celebrity. All she ever wanted was to gain some respect for the people left on Earth: the unlucky few whose immune system prevents them from portalling to other planets.Except now she\u2019s the most famous Earth girl in the universe \u2013 but not everyone in the universe is happy about it, nor the fact that she has found love with a norm. Jarra\u2019s actions have repercussions that spread further than she ever could have imagined, and political unrest threatens to tear apart the delicate balance of peace between humanity\u2019s worlds.On top of everything, the first alien artefact ever discovered appears to be waiting for Jarra to reveal its secrets. But to do so, she must somehow find a way to leave Earth \u2013 or else the alien artefact will be lost forever. Is there a way for Jarra to travel to another planet? Or is her destiny only to look to the stars \u2013 but never to reach them?",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "165_1"
+            "stock_id": "165_1"
         },
         {
             "status": "available",
-            "stock_number": "165_2"
+            "stock_id": "165_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "165_3"
+            "stock_id": "165_3"
         },
         {
             "status": "available",
-            "stock_number": "165_4"
+            "stock_id": "165_4"
         },
         {
             "status": "available",
-            "stock_number": "165_5"
+            "stock_id": "165_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "165_6"
+            "stock_id": "165_6"
         },
         {
             "status": "on_loan",
-            "stock_number": "165_7"
+            "stock_id": "165_7"
         },
         {
             "status": "available",
-            "stock_number": "165_8"
+            "stock_id": "165_8"
         }
     ],
     "metrics": {
         "rating_votes": 1456,
         "score": 4.28
     },
-    "original_book_title": "Earth Flight",
     "pages": 660,
+    "title": "Earth Flight",
     "url": "https://www.goodreads.com/book/show/16152916-earth-flight",
     "year_published": 2014
 }

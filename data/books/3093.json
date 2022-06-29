@@ -1,8 +1,7 @@
 {
-    "author_name": "Timothy Zahn",
+    "author": "Timothy Zahn",
     "base_id": 3093,
-    "book_description": "Alternate Cover Edition can be found here.It is a time of renewal, five years after the destruction of the Death Star and the defeat of Darth Vader and the Empire.But with the war seemingly won, strains are beginning to show in the Rebel Alliance. New challenges to galactic peace have arisen. And Luke Skywalker hears a voice from his past. A voice with a warning. Beware the dark side\u2026.The Rebel Alliance has destroyed the Death Star, defeated Darth Vader and the Emperor, and driven the remnants of the old Imperial Starfleet back into barely a quarter of the territory that they once controlled. Leia and Han are married, are expecting Jedi twins, and have shouldered heavy burdens in the government of the new Republic. And Luke Skywalker is the first in a hoped-for new line of Jedi Knights.But thousands of light years away, where a few skirmishes are still taking place, the last of the Emperor's warlords has taken command of the remains of the Imperial fleet. He has made two vital discoveries that could destroy the fragile new Republic\u2014built with such cost to the Rebel Alliance. The tale that emerges is a towering epic of action, invention, mystery, and spectacle on a galactic scale\u2014in short, a story that is worthy of the name Star Wars.",
-    "book_title": "Heir to the Empire",
+    "description": "Alternate Cover Edition can be found here.It is a time of renewal, five years after the destruction of the Death Star and the defeat of Darth Vader and the Empire.But with the war seemingly won, strains are beginning to show in the Rebel Alliance. New challenges to galactic peace have arisen. And Luke Skywalker hears a voice from his past. A voice with a warning. Beware the dark side\u2026.The Rebel Alliance has destroyed the Death Star, defeated Darth Vader and the Emperor, and driven the remnants of the old Imperial Starfleet back into barely a quarter of the territory that they once controlled. Leia and Han are married, are expecting Jedi twins, and have shouldered heavy burdens in the government of the new Republic. And Luke Skywalker is the first in a hoped-for new line of Jedi Knights.But thousands of light years away, where a few skirmishes are still taking place, the last of the Emperor's warlords has taken command of the remains of the Imperial fleet. He has made two vital discoveries that could destroy the fragile new Republic\u2014built with such cost to the Rebel Alliance. The tale that emerges is a towering epic of action, invention, mystery, and spectacle on a galactic scale\u2014in short, a story that is worthy of the name Star Wars.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "3093_1"
+            "stock_id": "3093_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "3093_2"
+            "stock_id": "3093_2"
         },
         {
             "status": "available",
-            "stock_number": "3093_3"
+            "stock_id": "3093_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "3093_4"
+            "stock_id": "3093_4"
         }
     ],
     "metrics": {
         "rating_votes": 72500,
         "score": 4.14
     },
-    "original_book_title": "Heir to the Empire",
     "pages": 254,
+    "title": "Heir to the Empire",
     "url": "https://www.goodreads.com/book/show/40604754-heir-to-the-empire",
     "year_published": 1991
 }

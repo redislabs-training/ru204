@@ -1,8 +1,7 @@
 {
-    "author_name": "Orson Scott Card",
+    "author": "Orson Scott Card",
     "base_id": 696,
-    "book_description": "The story of The First Formic War continues in Earth Awakens.Nearly 100 years before the events of Orson Scott Card's bestselling novel Ender's Game, humans were just beginning to step off Earth and out into the Solar System. A thin web of ships in both asteroid belts; a few stations; a corporate settlement on Luna. No one had seen any sign of other space-faring races; everyone expected that First Contact, if it came, would happen in the future, in the empty reaches between the stars. Then a young navigator on a distant mining ship saw something moving too fast, heading directly for our sun.When the alien ship screamed through the solar system, it disrupted communications between the far-flung human mining ships and supply stations, and between them and Earth. So Earth and Luna were unaware that they had been invaded until the ship pulled into Earth orbit, and began landing terra-forming crews in China. Politics and pride slowed the response on Earth, and on Luna, corporate power struggles seemed more urgent than distant deaths. But there are a few men and women who see that if Earth doesn't wake up and pull together, the planet could be lost.",
-    "book_title": "Earth Awakens",
+    "description": "The story of The First Formic War continues in Earth Awakens.Nearly 100 years before the events of Orson Scott Card's bestselling novel Ender's Game, humans were just beginning to step off Earth and out into the Solar System. A thin web of ships in both asteroid belts; a few stations; a corporate settlement on Luna. No one had seen any sign of other space-faring races; everyone expected that First Contact, if it came, would happen in the future, in the empty reaches between the stars. Then a young navigator on a distant mining ship saw something moving too fast, heading directly for our sun.When the alien ship screamed through the solar system, it disrupted communications between the far-flung human mining ships and supply stations, and between them and Earth. So Earth and Luna were unaware that they had been invaded until the ship pulled into Earth orbit, and began landing terra-forming crews in China. Politics and pride slowed the response on Earth, and on Luna, corporate power struggles seemed more urgent than distant deaths. But there are a few men and women who see that if Earth doesn't wake up and pull together, the planet could be lost.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "696_1"
+            "stock_id": "696_1"
         },
         {
             "status": "available",
-            "stock_number": "696_2"
+            "stock_id": "696_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "696_3"
+            "stock_id": "696_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "696_4"
+            "stock_id": "696_4"
         },
         {
             "status": "available",
-            "stock_number": "696_5"
+            "stock_id": "696_5"
         },
         {
             "status": "available",
-            "stock_number": "696_6"
+            "stock_id": "696_6"
         }
     ],
     "metrics": {
         "rating_votes": 10825,
         "score": 4.09
     },
-    "original_book_title": "Earth Awakens",
     "pages": 683,
+    "title": "Earth Awakens",
     "url": "https://www.goodreads.com/book/show/18490707-earth-awakens",
     "year_published": 2014
 }

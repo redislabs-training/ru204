@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 378,
-    "book_description": "Beast. Creature. Monster.Dangerous.All of these things have been said about Gren.Willa doesn\u2019t believe it, though. She knows that monsters can sometimes come in appealing packages. She knows that for all of his snarls and fearsome appearance, he\u2019d never hurt her.And she knows she has to get Gren away from the Icehome camp, because no one will ever see him as a person, not when he attacks all who come close. Not when he\u2019s tied and treated like an animal.She\u2019s going to save him\u2026 or fall in love. Maybe both. Willa doesn\u2019t mind that he\u2019s a beast, as long as he\u2019s *her* beast.",
-    "book_title": "Willa's Beast",
+    "description": "Beast. Creature. Monster.Dangerous.All of these things have been said about Gren.Willa doesn\u2019t believe it, though. She knows that monsters can sometimes come in appealing packages. She knows that for all of his snarls and fearsome appearance, he\u2019d never hurt her.And she knows she has to get Gren away from the Icehome camp, because no one will ever see him as a person, not when he attacks all who come close. Not when he\u2019s tied and treated like an animal.She\u2019s going to save him\u2026 or fall in love. Maybe both. Willa doesn\u2019t mind that he\u2019s a beast, as long as he\u2019s *her* beast.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "378_1"
+            "stock_id": "378_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "378_2"
+            "stock_id": "378_2"
         },
         {
             "status": "available",
-            "stock_number": "378_3"
+            "stock_id": "378_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "378_4"
+            "stock_id": "378_4"
         }
     ],
     "metrics": {
         "rating_votes": 3701,
         "score": 4.05
     },
-    "original_book_title": "Willa's Beast",
     "pages": 1165,
+    "title": "Willa's Beast",
     "url": "https://www.goodreads.com/book/show/42193506-willa-s-beast",
     "year_published": 2018
 }

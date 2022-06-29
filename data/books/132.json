@@ -1,8 +1,7 @@
 {
-    "author_name": "Lee Savino",
+    "author": "Lee Savino",
     "base_id": 132,
-    "book_description": "Captured in space. Imprisoned. Sold to the highest bidder. But my biggest problem is this bossy, aggravating, impossible, alien who\u2019s supposed to rescue me. The bossy alien I kissed. That might have been a mistake.Kadir is dangerous. I\u2019ve seen him fight, and his body is littered with scars. He\u2019s a soldier. A warrior. And when he loses control, he turns into a big scary dragon and breathes fire.Everyone\u2019s terrified of him. I\u2019m not. No, call me the biggest fool in the galaxy, because I\u2019m attracted to the big jerk.***Kadir:When I first met the small human I was sent to rescue, she punched me in the jaw. And broke her wrist in the process. Irrational woman.Then she insists that the two of us set out immediately to find her missing friend. No, what I have to do is get Alice Hernandez to safety. She\u2019s soft, yet she\u2019s strong. Fragile, yet so brave. She\u2019s everything I\u2019ve never known I wanted. Everything I can\u2019t let myself have. When the scientists tortured me, they broke me. And when Alice finds out the truth about the fearsome, raging dragon inside me, I will lose her.",
-    "book_title": "Draekon Warrior",
+    "description": "Captured in space. Imprisoned. Sold to the highest bidder. But my biggest problem is this bossy, aggravating, impossible, alien who\u2019s supposed to rescue me. The bossy alien I kissed. That might have been a mistake.Kadir is dangerous. I\u2019ve seen him fight, and his body is littered with scars. He\u2019s a soldier. A warrior. And when he loses control, he turns into a big scary dragon and breathes fire.Everyone\u2019s terrified of him. I\u2019m not. No, call me the biggest fool in the galaxy, because I\u2019m attracted to the big jerk.***Kadir:When I first met the small human I was sent to rescue, she punched me in the jaw. And broke her wrist in the process. Irrational woman.Then she insists that the two of us set out immediately to find her missing friend. No, what I have to do is get Alice Hernandez to safety. She\u2019s soft, yet she\u2019s strong. Fragile, yet so brave. She\u2019s everything I\u2019ve never known I wanted. Everything I can\u2019t let myself have. When the scientists tortured me, they broke me. And when Alice finds out the truth about the fearsome, raging dragon inside me, I will lose her.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "132_1"
+            "stock_id": "132_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "132_2"
+            "stock_id": "132_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "132_3"
+            "stock_id": "132_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "132_4"
+            "stock_id": "132_4"
         }
     ],
     "metrics": {
         "rating_votes": 1062,
         "score": 4.29
     },
-    "original_book_title": "Draekon Warrior (Rebel Force, #1)",
     "pages": 716,
+    "title": "Draekon Warrior",
     "url": "https://www.goodreads.com/book/show/53173307-draekon-warrior",
     "year_published": 2019
 }

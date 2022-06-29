@@ -1,8 +1,7 @@
 {
-    "author_name": "Neal Stephenson",
+    "author": "Neal Stephenson",
     "base_id": 4949,
-    "book_description": "Fraa Erasmas is a young avout living in the Concent of Saunt Edhar, a sanctuary for mathematicians, scientists, and philosophers, protected from the corrupting influences of the outside \"saecular\" world by ancient stone, honored traditions, and complex rituals. Over the centuries, cities and governments have risen and fallen beyond the concent's walls. Three times during history's darkest epochs violence born of superstition and ignorance has invaded and devastated the cloistered mathic community. Yet the avout have always managed to adapt in the wake of catastrophe, becoming out of necessity even more austere and less dependent on technology and material things. And Erasmas has no fear of the outside\u2014the Extramuros\u2014for the last of the terrible times was long, long ago.Now, in celebration of the week-long, once-in-a-decade rite of Apert, the fraas and suurs prepare to venture beyond the concent's gates\u2014at the same time opening them wide to welcome the curious \"extras\" in. During his first Apert as a fraa, Erasmas eagerly anticipates reconnecting with the landmarks and family he hasn't seen since he was \"collected.\" But before the week is out, both the existence he abandoned and the one he embraced will stand poised on the brink of cataclysmic change.Powerful unforeseen forces jeopardize the peaceful stability of mathic life and the established ennui of the Extramuros\u2014a threat that only an unsteady alliance of saecular and avout can oppose\u2014as, one by one, Erasmas and his colleagues, teachers, and friends are summoned forth from the safety of the concent in hopes of warding off global disaster. Suddenly burdened with a staggering responsibility, Erasmas finds himself a major player in a drama that will determine the future of his world\u2014as he sets out on an extraordinary odyssey that will carry him to the most dangerous, inhospitable corners of the planet . . . and beyond.",
-    "book_title": "Anathem",
+    "description": "Fraa Erasmas is a young avout living in the Concent of Saunt Edhar, a sanctuary for mathematicians, scientists, and philosophers, protected from the corrupting influences of the outside \"saecular\" world by ancient stone, honored traditions, and complex rituals. Over the centuries, cities and governments have risen and fallen beyond the concent's walls. Three times during history's darkest epochs violence born of superstition and ignorance has invaded and devastated the cloistered mathic community. Yet the avout have always managed to adapt in the wake of catastrophe, becoming out of necessity even more austere and less dependent on technology and material things. And Erasmas has no fear of the outside\u2014the Extramuros\u2014for the last of the terrible times was long, long ago.Now, in celebration of the week-long, once-in-a-decade rite of Apert, the fraas and suurs prepare to venture beyond the concent's gates\u2014at the same time opening them wide to welcome the curious \"extras\" in. During his first Apert as a fraa, Erasmas eagerly anticipates reconnecting with the landmarks and family he hasn't seen since he was \"collected.\" But before the week is out, both the existence he abandoned and the one he embraced will stand poised on the brink of cataclysmic change.Powerful unforeseen forces jeopardize the peaceful stability of mathic life and the established ennui of the Extramuros\u2014a threat that only an unsteady alliance of saecular and avout can oppose\u2014as, one by one, Erasmas and his colleagues, teachers, and friends are summoned forth from the safety of the concent in hopes of warding off global disaster. Suddenly burdened with a staggering responsibility, Erasmas finds himself a major player in a drama that will determine the future of his world\u2014as he sets out on an extraordinary odyssey that will carry him to the most dangerous, inhospitable corners of the planet . . . and beyond.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "4949_1"
+            "stock_id": "4949_1"
         },
         {
             "status": "available",
-            "stock_number": "4949_2"
+            "stock_id": "4949_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "4949_3"
+            "stock_id": "4949_3"
         }
     ],
     "metrics": {
         "rating_votes": 64442,
         "score": 4.16
     },
-    "original_book_title": "Anathem",
     "pages": 920,
+    "title": "Anathem",
     "url": "https://www.goodreads.com/book/show/2845024-anathem",
     "year_published": 2008
 }

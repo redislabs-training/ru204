@@ -1,8 +1,7 @@
 {
-    "author_name": "Steve Perry",
+    "author": "Steve Perry",
     "base_id": 121,
-    "book_description": "Wilks was a space marine with a near-fatal flaw: he had a heart. Billie was a child, the only survivor of a far-flung colony outpost. Thrown together in the last hellish night of an alien invasion, Billie and Wilks helped each other get out alive. Thirteen years later Wilks is in prison, and Billie lives in a mental institution, the nightmare memories of the massacre at Rim seared into her mind. Now the government has tapped Wilks to lead an expedition to the aliens' home planet to bring back a live alien. But the competition on Earth to develop the aliens as a new weapons system is brutal. When Wilks's team departs on their mission, a trained assassin trails them. And what follows is no less than guerrilla warfare on the aliens' planet - and alien conquest on Earth!",
-    "book_title": "Aliens: Earth Hive",
+    "description": "Wilks was a space marine with a near-fatal flaw: he had a heart. Billie was a child, the only survivor of a far-flung colony outpost. Thrown together in the last hellish night of an alien invasion, Billie and Wilks helped each other get out alive. Thirteen years later Wilks is in prison, and Billie lives in a mental institution, the nightmare memories of the massacre at Rim seared into her mind. Now the government has tapped Wilks to lead an expedition to the aliens' home planet to bring back a live alien. But the competition on Earth to develop the aliens as a new weapons system is brutal. When Wilks's team departs on their mission, a trained assassin trails them. And what follows is no less than guerrilla warfare on the aliens' planet - and alien conquest on Earth!",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "121_1"
+            "stock_id": "121_1"
         },
         {
             "status": "available",
-            "stock_number": "121_2"
+            "stock_id": "121_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "121_3"
+            "stock_id": "121_3"
         }
     ],
     "metrics": {
         "rating_votes": 2589,
         "score": 3.89
     },
-    "original_book_title": "Aliens: Earth Hive",
     "pages": 980,
+    "title": "Aliens: Earth Hive",
     "url": "https://www.goodreads.com/book/show/343281.Aliens",
     "year_published": 1992
 }

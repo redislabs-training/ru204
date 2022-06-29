@@ -1,8 +1,7 @@
 {
-    "author_name": "Ann Aguirre",
+    "author": "Ann Aguirre",
     "base_id": 1537,
-    "book_description": "As the carrier of a rare gene, Sirantha Jax has the ability to jump ships through grimspace-a talent which makes her a highly prized navigator for the Corp. Then a crash landing kills everyone on board, leaving Jax in a jail cell with no memory of the crash. But her fun's not over. A group of rogue fighters frees her...for a price: her help in overthrowing the established order.",
-    "book_title": "Grimspace",
+    "description": "As the carrier of a rare gene, Sirantha Jax has the ability to jump ships through grimspace-a talent which makes her a highly prized navigator for the Corp. Then a crash landing kills everyone on board, leaving Jax in a jail cell with no memory of the crash. But her fun's not over. A group of rogue fighters frees her...for a price: her help in overthrowing the established order.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "1537_1"
+            "stock_id": "1537_1"
         },
         {
             "status": "available",
-            "stock_number": "1537_2"
+            "stock_id": "1537_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1537_3"
+            "stock_id": "1537_3"
         }
     ],
     "metrics": {
         "rating_votes": 14531,
         "score": 3.75
     },
-    "original_book_title": "Grimspace",
     "pages": 1186,
+    "title": "Grimspace",
     "url": "https://www.goodreads.com/book/show/1828067.Grimspace",
     "year_published": 2008
 }

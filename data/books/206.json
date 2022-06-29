@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 206,
-    "book_description": "Megan\u2019s ready to give birth, but she\u2019s not ready to let her mate leave her side. When Cashol must go hunting to feed the tribe, they\u2019re separated for the first time since resonance. Not a problem, except the baby\u2019s ready to be born and there\u2019s a storm brewing\u2026This is one of the Slice of Life Short Stories set in the ICE PLANET BARBARIANS world. It does not stand alone, and is intended to be read after BARBARIAN\u2019S MATE.",
-    "book_title": "Having the Barbarian's Baby",
+    "description": "Megan\u2019s ready to give birth, but she\u2019s not ready to let her mate leave her side. When Cashol must go hunting to feed the tribe, they\u2019re separated for the first time since resonance. Not a problem, except the baby\u2019s ready to be born and there\u2019s a storm brewing\u2026This is one of the Slice of Life Short Stories set in the ICE PLANET BARBARIANS world. It does not stand alone, and is intended to be read after BARBARIAN\u2019S MATE.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "206_1"
+            "stock_id": "206_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "206_2"
+            "stock_id": "206_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "206_3"
+            "stock_id": "206_3"
         },
         {
             "status": "available",
-            "stock_number": "206_4"
+            "stock_id": "206_4"
         }
     ],
     "metrics": {
         "rating_votes": 2857,
         "score": 3.91
     },
-    "original_book_title": "B01EO8OL8K",
     "pages": 660,
+    "title": "Having the Barbarian's Baby",
     "url": "https://www.goodreads.com/book/show/29980848-having-the-barbarian-s-baby",
     "year_published": 2016
 }

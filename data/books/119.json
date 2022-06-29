@@ -1,8 +1,7 @@
 {
-    "author_name": "ElizabethStephens",
+    "author": "ElizabethStephens",
     "base_id": 119,
-    "book_description": "Miari Here's what I know: aliens invade our colony every three years, hunt and claim the most beautiful of our women, then leave. Here's what I don't know: why the king of them is here this time, and why his black, glittering eyes are trained on me.A hybrid with red alien skin and brown human eyes, I'm not pretty. I've got no family and no plans to ever have one \u2013 least of all with this monster of a male. I'm an inventor, a mechanic, a tinkerer. The alien king wants me for reasons I can only guess at, but I'm not about to be taken for a slave and his response to me is something I know I can engineer my way out of.He plans to come back for me when I'm of age, but he'll have to find me first. Our little colony is a scary, desperate place and I'm less afraid to face it, than to face him or the strange, alien sensations he stirs...RakuShe is my Xiveri mate, yet she runs from me \u2013 straight into the horrors of her small, savage moon colony. Slaughtering in her defense is easy, while gaining her trust will be the true challenge.She fears my kind and the horrors my treacherous general has inflicted on her humans. Does she not know that it is my blood rite to keep her safe against him and his even more dangerous off-world allies? No, she thinks herself my slave and in place of acceptance, offers me only pacts and bargains. Shamed by her pacts, I still take them all gluttonously, because though she knows only hate, I know only need.Eventually, we will need more than just these pacts between us if I am to convince her that she is my Xiveri mate and if she is to take her place at my side, not as my slave, but as Voraxia's queen.Taken to Voraxia is a full-length, standalone, interracial, SciFi romance complete with an alpha alien overlord, warrior heroine, fated mates who are also enemies-to-lovers, world building and extra steamy bits. All Xiveri Mates books can be read as standalones, each one with a guaranteed HEA. NO cheating, harem or love triangles. Some dark themes, illusions to abuse, and debatable consent due to intergalactic cultural misunderstandings may be trigger warnings.",
-    "book_title": "Taken to Voraxia",
+    "description": "Miari Here's what I know: aliens invade our colony every three years, hunt and claim the most beautiful of our women, then leave. Here's what I don't know: why the king of them is here this time, and why his black, glittering eyes are trained on me.A hybrid with red alien skin and brown human eyes, I'm not pretty. I've got no family and no plans to ever have one \u2013 least of all with this monster of a male. I'm an inventor, a mechanic, a tinkerer. The alien king wants me for reasons I can only guess at, but I'm not about to be taken for a slave and his response to me is something I know I can engineer my way out of.He plans to come back for me when I'm of age, but he'll have to find me first. Our little colony is a scary, desperate place and I'm less afraid to face it, than to face him or the strange, alien sensations he stirs...RakuShe is my Xiveri mate, yet she runs from me \u2013 straight into the horrors of her small, savage moon colony. Slaughtering in her defense is easy, while gaining her trust will be the true challenge.She fears my kind and the horrors my treacherous general has inflicted on her humans. Does she not know that it is my blood rite to keep her safe against him and his even more dangerous off-world allies? No, she thinks herself my slave and in place of acceptance, offers me only pacts and bargains. Shamed by her pacts, I still take them all gluttonously, because though she knows only hate, I know only need.Eventually, we will need more than just these pacts between us if I am to convince her that she is my Xiveri mate and if she is to take her place at my side, not as my slave, but as Voraxia's queen.Taken to Voraxia is a full-length, standalone, interracial, SciFi romance complete with an alpha alien overlord, warrior heroine, fated mates who are also enemies-to-lovers, world building and extra steamy bits. All Xiveri Mates books can be read as standalones, each one with a guaranteed HEA. NO cheating, harem or love triangles. Some dark themes, illusions to abuse, and debatable consent due to intergalactic cultural misunderstandings may be trigger warnings.",
     "editions": [
         "English"
     ],
@@ -20,19 +19,19 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "119_1"
+            "stock_id": "119_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "119_2"
+            "stock_id": "119_2"
         }
     ],
     "metrics": {
         "rating_votes": 511,
         "score": 4.08
     },
-    "original_book_title": "Taken to Voraxia (Xiveri Mates #1)",
     "pages": 822,
+    "title": "Taken to Voraxia",
     "url": "https://www.goodreads.com/book/show/52616522-taken-to-voraxia",
     "year_published": 2020
 }

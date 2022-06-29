@@ -1,8 +1,7 @@
 {
-    "author_name": "Zoey Draven",
+    "author": "Zoey Draven",
     "base_id": 250,
-    "book_description": "They call him the Mad Horde King for a reason. Now, she\u2019s his\u2026Over a year ago, I was ripped away from my human village to serve the Ghertun, a brutal enemy alien race. With the lives of my family at risk, I am tasked to deliver a message to the one place no human has ever gone before: the capital city of Dakkar.Before I succeed, however, I am captured by a Horde King. A Horde King of the Dakkari, a merciless barbaric race, bred for war and violence, that rule over the hostile and unforgiving planet of Dakkar.And this Horde King? He\u2019s the most ruthless and insane of them all\u2014with his scarred face, glowing red eyes, and his wicked, dark grin that hides an even darker past.I am no one. I am quiet, meek, and fearful\u2026and yet this fearsome king wants me in his furs. I tremble when he touches me but he awakens my desire, something I fear I\u2019ll crave\u2026all while I struggle to save my family.Now the Mad Horde King has me in his possession\u2026I fear he never intends to let me go.",
-    "book_title": "Madness of the Horde King",
+    "description": "They call him the Mad Horde King for a reason. Now, she\u2019s his\u2026Over a year ago, I was ripped away from my human village to serve the Ghertun, a brutal enemy alien race. With the lives of my family at risk, I am tasked to deliver a message to the one place no human has ever gone before: the capital city of Dakkar.Before I succeed, however, I am captured by a Horde King. A Horde King of the Dakkari, a merciless barbaric race, bred for war and violence, that rule over the hostile and unforgiving planet of Dakkar.And this Horde King? He\u2019s the most ruthless and insane of them all\u2014with his scarred face, glowing red eyes, and his wicked, dark grin that hides an even darker past.I am no one. I am quiet, meek, and fearful\u2026and yet this fearsome king wants me in his furs. I tremble when he touches me but he awakens my desire, something I fear I\u2019ll crave\u2026all while I struggle to save my family.Now the Mad Horde King has me in his possession\u2026I fear he never intends to let me go.",
     "editions": [
         "English"
     ],
@@ -21,35 +20,35 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "250_1"
+            "stock_id": "250_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "250_2"
+            "stock_id": "250_2"
         },
         {
             "status": "available",
-            "stock_number": "250_3"
+            "stock_id": "250_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "250_4"
+            "stock_id": "250_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "250_5"
+            "stock_id": "250_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "250_6"
+            "stock_id": "250_6"
         }
     ],
     "metrics": {
         "rating_votes": 1327,
         "score": 4.36
     },
-    "original_book_title": "B08PBWFQH2",
     "pages": 1096,
+    "title": "Madness of the Horde King",
     "url": "https://www.goodreads.com/book/show/56129508-madness-of-the-horde-king",
     "year_published": 2020
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 101,
-    "book_description": "In this spectacular one-hundred-page companion novella to the New York Times bestselling I Am Number Four series, learn how Loric hacker Lexa became the shadowy figure known as GUARD.A sequel to I Am Number Four: The Lost Files: The Navigator, this novella picks up with Lexa shortly after the Mogadorians raided her hideout and murdered her friend. Determined to get her revenge but knowing she can't take the Mogs head on, Lexa goes in search of a weapon that just might help her do some real damage: the spaceship the Garde flew to Earth. The only problem is it's under lock and key at a highly guarded base in Dulce, New Mexico.Lexa's quest to retrieve the ship and track down the Garde has her cross paths with an ally of Pittacus Lore, come under fire from both the FBI and the Mogs, and team up with a headstrong teenager from Paradise, Ohio, by the name of Mark James. To get her secret weapon, Lexa will do whatever it takes. But as the Mogadorians begin their invasion, will it be enough to help save the Garde\u2014and the world?",
-    "book_title": "The Guard",
+    "description": "In this spectacular one-hundred-page companion novella to the New York Times bestselling I Am Number Four series, learn how Loric hacker Lexa became the shadowy figure known as GUARD.A sequel to I Am Number Four: The Lost Files: The Navigator, this novella picks up with Lexa shortly after the Mogadorians raided her hideout and murdered her friend. Determined to get her revenge but knowing she can't take the Mogs head on, Lexa goes in search of a weapon that just might help her do some real damage: the spaceship the Garde flew to Earth. The only problem is it's under lock and key at a highly guarded base in Dulce, New Mexico.Lexa's quest to retrieve the ship and track down the Garde has her cross paths with an ally of Pittacus Lore, come under fire from both the FBI and the Mogs, and team up with a headstrong teenager from Paradise, Ohio, by the name of Mark James. To get her secret weapon, Lexa will do whatever it takes. But as the Mogadorians begin their invasion, will it be enough to help save the Garde\u2014and the world?",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "101_1"
+            "stock_id": "101_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "101_2"
+            "stock_id": "101_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "101_3"
+            "stock_id": "101_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "101_4"
+            "stock_id": "101_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "101_5"
+            "stock_id": "101_5"
         }
     ],
     "metrics": {
         "rating_votes": 2089,
         "score": 4.13
     },
-    "original_book_title": "\n0062364030\n(ISBN13: 9780062364036)\n",
     "pages": 459,
+    "title": "The Guard",
     "url": "https://www.goodreads.com/book/show/23507369-the-guard",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Larry Niven",
+    "author": "Larry Niven",
     "base_id": 3575,
-    "book_description": "The artefact is a circular ribbon of matter six hundred million miles long and ninety million miles in radius. Pierson's puppeteers, the aliens who discovered it, are understandably wary of encountering the builders of such an immense structure and have assembled a team of two humans, a mad puppeteer and a kzin, a huge cat-like alien, to explore it. But a crash landing on the vast edifice forces the crew on a desperate and dangerous trek across the Ringworld.",
-    "book_title": "Ringworld",
+    "description": "The artefact is a circular ribbon of matter six hundred million miles long and ninety million miles in radius. Pierson's puppeteers, the aliens who discovered it, are understandably wary of encountering the builders of such an immense structure and have assembled a team of two humans, a mad puppeteer and a kzin, a huge cat-like alien, to explore it. But a crash landing on the vast edifice forces the crew on a desperate and dangerous trek across the Ringworld.",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "3575_1"
+            "stock_id": "3575_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "3575_2"
+            "stock_id": "3575_2"
         },
         {
             "status": "available",
-            "stock_number": "3575_3"
+            "stock_id": "3575_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "3575_4"
+            "stock_id": "3575_4"
         }
     ],
     "metrics": {
         "rating_votes": 106495,
         "score": 3.96
     },
-    "original_book_title": "Ringworld",
     "pages": 1095,
+    "title": "Ringworld",
     "url": "https://www.goodreads.com/book/show/61179.Ringworld",
     "year_published": 1970
 }

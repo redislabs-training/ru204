@@ -1,8 +1,7 @@
 {
-    "author_name": "Michael Crichton",
+    "author": "Michael Crichton",
     "base_id": 4257,
-    "book_description": "The United States government is given a warning by the pre-eminent biophysicists in the country: current sterilization procedures applied to returning space probes may be inadequate to guarantee uncontaminated re-entry to the atmosphere. Two years later, seventeen satellites are sent into the outer fringes of space to collect organisms and dust for study. One of them falls to earth, landing in a desolate area of Arizona. Twelve miles from the landing site, in the town of Piedmont, a shocking discovery is made: the streets are littered with the dead bodies of the town's inhabitants, as if they dropped dead in their tracks.--back cover",
-    "book_title": "The Andromeda Strain",
+    "description": "The United States government is given a warning by the pre-eminent biophysicists in the country: current sterilization procedures applied to returning space probes may be inadequate to guarantee uncontaminated re-entry to the atmosphere. Two years later, seventeen satellites are sent into the outer fringes of space to collect organisms and dust for study. One of them falls to earth, landing in a desolate area of Arizona. Twelve miles from the landing site, in the town of Piedmont, a shocking discovery is made: the streets are littered with the dead bodies of the town's inhabitants, as if they dropped dead in their tracks.--back cover",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "4257_1"
+            "stock_id": "4257_1"
         },
         {
             "status": "available",
-            "stock_number": "4257_2"
+            "stock_id": "4257_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "4257_3"
+            "stock_id": "4257_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "4257_4"
+            "stock_id": "4257_4"
         },
         {
             "status": "available",
-            "stock_number": "4257_5"
+            "stock_id": "4257_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "4257_6"
+            "stock_id": "4257_6"
         },
         {
             "status": "available",
-            "stock_number": "4257_7"
+            "stock_id": "4257_7"
         }
     ],
     "metrics": {
         "rating_votes": 227899,
         "score": 3.9
     },
-    "original_book_title": "The Andromeda Strain",
     "pages": 551,
+    "title": "The Andromeda Strain",
     "url": "https://www.goodreads.com/book/show/7670.The_Andromeda_Strain",
     "year_published": 1969
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 370,
-    "book_description": "\"This is the never before seen \"real\" wedding between Daemon and Kat from the Lux Series. This should not be read unless you have read the Lux series.\"Found on Wattpad here.",
-    "book_title": "The Wedding",
+    "description": "\"This is the never before seen \"real\" wedding between Daemon and Kat from the Lux Series. This should not be read unless you have read the Lux series.\"Found on Wattpad here.",
     "editions": [
         "English"
     ],
@@ -21,39 +20,39 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "370_1"
+            "stock_id": "370_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "370_2"
+            "stock_id": "370_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "370_3"
+            "stock_id": "370_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "370_4"
+            "stock_id": "370_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "370_5"
+            "stock_id": "370_5"
         },
         {
             "status": "available",
-            "stock_number": "370_6"
+            "stock_id": "370_6"
         },
         {
             "status": "available",
-            "stock_number": "370_7"
+            "stock_id": "370_7"
         }
     ],
     "metrics": {
         "rating_votes": 4779,
         "score": 4.46
     },
-    "original_book_title": "English",
     "pages": 1081,
+    "title": "The Wedding",
     "url": "https://www.goodreads.com/book/show/25397349-the-wedding",
     "year_published": 2015
 }

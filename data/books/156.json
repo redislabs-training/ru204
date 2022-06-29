@@ -1,8 +1,7 @@
 {
-    "author_name": "Alex White",
+    "author": "Alex White",
     "base_id": 156,
-    "book_description": "A dramatic new Alien novel, as Weyland-Yutani seeks to recover from the failure of Hadley's Hope, and successfully weaponize the Xenomorphs.With the failure of the Hadley's Hope, Weyland-Yutani has suffered a devastating defeat--the loss of the Aliens. Yet there's a reason the company rose to the top, and they have a redundancy already in place. Remote station RB-323 abruptly becomes their greatest hope for weaponizing the Xenomorph, but there's a spy aboard--someone who doesn't necessarily act in the company's best interests. If discovered, this person may have no choice but to destroy RB-323... and everyone on board. That is, if the Xenomorphs don't do the job first.",
-    "book_title": "Alien: The Cold Forge",
+    "description": "A dramatic new Alien novel, as Weyland-Yutani seeks to recover from the failure of Hadley's Hope, and successfully weaponize the Xenomorphs.With the failure of the Hadley's Hope, Weyland-Yutani has suffered a devastating defeat--the loss of the Aliens. Yet there's a reason the company rose to the top, and they have a redundancy already in place. Remote station RB-323 abruptly becomes their greatest hope for weaponizing the Xenomorph, but there's a spy aboard--someone who doesn't necessarily act in the company's best interests. If discovered, this person may have no choice but to destroy RB-323... and everyone on board. That is, if the Xenomorphs don't do the job first.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "156_1"
+            "stock_id": "156_1"
         },
         {
             "status": "available",
-            "stock_number": "156_2"
+            "stock_id": "156_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "156_3"
+            "stock_id": "156_3"
         }
     ],
     "metrics": {
         "rating_votes": 1038,
         "score": 3.9
     },
-    "original_book_title": "\n1785651943\n(ISBN13: 9781785651946)\n",
     "pages": 1231,
+    "title": "Alien: The Cold Forge",
     "url": "https://www.goodreads.com/book/show/36475917-alien",
     "year_published": 2018
 }

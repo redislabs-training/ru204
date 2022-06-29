@@ -1,8 +1,7 @@
 {
-    "author_name": "Craig Alanson",
+    "author": "Craig Alanson",
     "base_id": 489,
-    "book_description": "The sequel to 'Columbus Day'. Colonel Joe Bishop made a promise and he's going to keep it; taking the captured alien starship Flying Dutchman back out. He doesn't agree when the UN decides to send almost 70 elite Special Operations troops, hotshot pilots and scientists with him; the mission is a fool's errand he doesn't expect to ever return. At least, this time, the Earth is safe, right? Not so much.",
-    "book_title": "SpecOps",
+    "description": "The sequel to 'Columbus Day'. Colonel Joe Bishop made a promise and he's going to keep it; taking the captured alien starship Flying Dutchman back out. He doesn't agree when the UN decides to send almost 70 elite Special Operations troops, hotshot pilots and scientists with him; the mission is a fool's errand he doesn't expect to ever return. At least, this time, the Earth is safe, right? Not so much.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "489_1"
+            "stock_id": "489_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "489_2"
+            "stock_id": "489_2"
         },
         {
             "status": "available",
-            "stock_number": "489_3"
+            "stock_id": "489_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "489_4"
+            "stock_id": "489_4"
         },
         {
             "status": "available",
-            "stock_number": "489_5"
+            "stock_id": "489_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "489_6"
+            "stock_id": "489_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "489_7"
+            "stock_id": "489_7"
         },
         {
             "status": "available",
-            "stock_number": "489_8"
+            "stock_id": "489_8"
         }
     ],
     "metrics": {
         "rating_votes": 11491,
         "score": 4.23
     },
-    "original_book_title": "SpecOps ",
     "pages": 1066,
+    "title": "SpecOps",
     "url": "https://www.goodreads.com/book/show/30342581-specops",
     "year_published": 2016
 }

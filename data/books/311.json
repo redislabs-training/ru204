@@ -1,8 +1,7 @@
 {
-    "author_name": "Jennifer L. Armentrout",
+    "author": "Jennifer L. Armentrout",
     "base_id": 311,
-    "book_description": "In this special eBook version, experience OBSIDIAN, ONYX, and OPAL as told by Daemon Black\u2026This book is enhanced with exclusive content\u2014two original songs inspired by the novel\u2014resulting in a large file that may take longer to download than expected.I knew the moment Katy Swartz moved in next door, there was going to be trouble. Lots of it.And trouble\u2019s the last thing I need, since I\u2019m not exactly from around here. My people arrived on Earth from Lux, a planet thirteen billion light years away. Plus, if there\u2019s one thing I know, it\u2019s that humans can\u2019t be trusted. We scare them. We can do things they only dream about, and honestly, we make them look weak as hell. \u2018Cuz they are.But Kat is getting to me in ways no one else has, and I can't stop myself from wanting her\u2014or wanting to use my powers to protect her. She makes me weak, and I\u2019m the strongest of our kind, tasked with protecting us all. So this one simple girl\u2026she can mean the end for us. Because the Luxen have an even bigger enemy\u2014the Arum, and I need to stay on my game.Falling for Katy\u2014a human\u2014won't just place her in danger. It could get us all killed, and that\u2019s one thing I\u2019ll never let happen...",
-    "book_title": "Oblivion",
+    "description": "In this special eBook version, experience OBSIDIAN, ONYX, and OPAL as told by Daemon Black\u2026This book is enhanced with exclusive content\u2014two original songs inspired by the novel\u2014resulting in a large file that may take longer to download than expected.I knew the moment Katy Swartz moved in next door, there was going to be trouble. Lots of it.And trouble\u2019s the last thing I need, since I\u2019m not exactly from around here. My people arrived on Earth from Lux, a planet thirteen billion light years away. Plus, if there\u2019s one thing I know, it\u2019s that humans can\u2019t be trusted. We scare them. We can do things they only dream about, and honestly, we make them look weak as hell. \u2018Cuz they are.But Kat is getting to me in ways no one else has, and I can't stop myself from wanting her\u2014or wanting to use my powers to protect her. She makes me weak, and I\u2019m the strongest of our kind, tasked with protecting us all. So this one simple girl\u2026she can mean the end for us. Because the Luxen have an even bigger enemy\u2014the Arum, and I need to stay on my game.Falling for Katy\u2014a human\u2014won't just place her in danger. It could get us all killed, and that\u2019s one thing I\u2019ll never let happen...",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "311_1"
+            "stock_id": "311_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "311_2"
+            "stock_id": "311_2"
         },
         {
             "status": "available",
-            "stock_number": "311_3"
+            "stock_id": "311_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "311_4"
+            "stock_id": "311_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "311_5"
+            "stock_id": "311_5"
         }
     ],
     "metrics": {
         "rating_votes": 2232,
         "score": 4.5
     },
-    "original_book_title": "B0122U5BRW",
     "pages": 857,
+    "title": "Oblivion",
     "url": "https://www.goodreads.com/book/show/25946985-oblivion",
     "year_published": 2015
 }

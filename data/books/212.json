@@ -1,8 +1,7 @@
 {
-    "author_name": "Lydia Hope",
+    "author": "Lydia Hope",
     "base_id": 212,
-    "book_description": "Earth is in decline, and the wealthy have fled it leaving only the destitute citizens behind. And aliens.Gemma McKinley works at a prison cleaning goop off the floors and serving food to inmates. When she is reassigned to the alien ward, Gemma is nervous. Aliens are dangerous and ruthless. They bite. But there is one that isn\u2019t like them. Simon is damaged, starved, and wasting away in complete isolation. Touched by his loneliness, Gemma starts nursing him back to health, dismissing rumors that he\u2019s high-risk, ignoring the advice to let him croak.Simon despises humans. His only goal is to get off this miserable planet fast, for he is hunted by a scientist obsessed with perfecting the human race. Simon\u2019s rare alien genes are just the ingredient that\u2019s missing for breakthrough research. Thanks to Gemma, for the first time in years he can escape.And he will. He will\u2026As the hunt for Simon heats up, Gemma becomes an unintended target. Is she a fool to help him get away? And will he risk another captivity to protect her?",
-    "book_title": "Homebound",
+    "description": "Earth is in decline, and the wealthy have fled it leaving only the destitute citizens behind. And aliens.Gemma McKinley works at a prison cleaning goop off the floors and serving food to inmates. When she is reassigned to the alien ward, Gemma is nervous. Aliens are dangerous and ruthless. They bite. But there is one that isn\u2019t like them. Simon is damaged, starved, and wasting away in complete isolation. Touched by his loneliness, Gemma starts nursing him back to health, dismissing rumors that he\u2019s high-risk, ignoring the advice to let him croak.Simon despises humans. His only goal is to get off this miserable planet fast, for he is hunted by a scientist obsessed with perfecting the human race. Simon\u2019s rare alien genes are just the ingredient that\u2019s missing for breakthrough research. Thanks to Gemma, for the first time in years he can escape.And he will. He will\u2026As the hunt for Simon heats up, Gemma becomes an unintended target. Is she a fool to help him get away? And will he risk another captivity to protect her?",
     "editions": [
         "None"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "212_1"
+            "stock_id": "212_1"
         }
     ],
     "metrics": {
         "rating_votes": 1096,
         "score": 4.3
     },
-    "original_book_title": "B083JLYGSQ",
     "pages": 609,
+    "title": "Homebound",
     "url": "https://www.goodreads.com/book/show/50337348-homebound",
     "year_published": 2020
 }

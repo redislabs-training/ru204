@@ -1,8 +1,7 @@
 {
-    "author_name": "Larry Niven",
+    "author": "Larry Niven",
     "base_id": 263,
-    "book_description": "For the safety of mankind, the aliens called Moties have been quarantined for 25 years (see THE MOTE IN GOD'S EYE) and are now poised to break out of their solar system and spread rapidly into humanity's space. Kevin Renner, Horace Bury, Rod Blaine and other characters introduced in THE MOTE IN GOD'S EYE must now find new ways to cope with the inevitable Motie expansion while trying to protect humanity. Sequel to the novel Robert A. Heinlein called \"Possibly the finest science fiction novel I have ever read.\"",
-    "book_title": "The Gripping Hand",
+    "description": "For the safety of mankind, the aliens called Moties have been quarantined for 25 years (see THE MOTE IN GOD'S EYE) and are now poised to break out of their solar system and spread rapidly into humanity's space. Kevin Renner, Horace Bury, Rod Blaine and other characters introduced in THE MOTE IN GOD'S EYE must now find new ways to cope with the inevitable Motie expansion while trying to protect humanity. Sequel to the novel Robert A. Heinlein called \"Possibly the finest science fiction novel I have ever read.\"",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "263_1"
+            "stock_id": "263_1"
         },
         {
             "status": "available",
-            "stock_number": "263_2"
+            "stock_id": "263_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "263_3"
+            "stock_id": "263_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "263_4"
+            "stock_id": "263_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "263_5"
+            "stock_id": "263_5"
         },
         {
             "status": "on_loan",
-            "stock_number": "263_6"
+            "stock_id": "263_6"
         },
         {
             "status": "available",
-            "stock_number": "263_7"
+            "stock_id": "263_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "263_8"
+            "stock_id": "263_8"
         },
         {
             "status": "available",
-            "stock_number": "263_9"
+            "stock_id": "263_9"
         }
     ],
     "metrics": {
         "rating_votes": 10824,
         "score": 3.82
     },
-    "original_book_title": "The Gripping Hand (Moties #2)",
     "pages": 646,
+    "title": "The Gripping Hand",
     "url": "https://www.goodreads.com/book/show/218453.The_Gripping_Hand",
     "year_published": 1976
 }

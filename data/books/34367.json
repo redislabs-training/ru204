@@ -1,8 +1,7 @@
 {
-    "author_name": "Madeleine L'Engle",
+    "author": "Madeleine L'Engle",
     "base_id": 34367,
-    "book_description": "It was a dark and stormy night.Out of this wild night, a strange visitor comes to the Murry house and beckons Meg, her brother Charles Wallace, and their friend Calvin O'Keefe on a most dangerous and extraordinary adventure\u2014one that will threaten their lives and our universe.Winner of the 1963 Newbery Medal, A Wrinkle in Time is the first book in Madeleine L'Engle's classic Time Quintet.",
-    "book_title": "A Wrinkle in Time",
+    "description": "It was a dark and stormy night.Out of this wild night, a strange visitor comes to the Murry house and beckons Meg, her brother Charles Wallace, and their friend Calvin O'Keefe on a most dangerous and extraordinary adventure\u2014one that will threaten their lives and our universe.Winner of the 1963 Newbery Medal, A Wrinkle in Time is the first book in Madeleine L'Engle's classic Time Quintet.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "34367_1"
+            "stock_id": "34367_1"
         },
         {
             "status": "available",
-            "stock_number": "34367_2"
+            "stock_id": "34367_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "34367_3"
+            "stock_id": "34367_3"
         }
     ],
     "metrics": {
         "rating_votes": 1071549,
         "score": 3.99
     },
-    "original_book_title": "A Wrinkle in Time",
     "pages": 923,
+    "title": "A Wrinkle in Time",
     "url": "https://www.goodreads.com/book/show/33574273-a-wrinkle-in-time",
     "year_published": 1962
 }

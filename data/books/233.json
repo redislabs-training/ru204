@@ -1,8 +1,7 @@
 {
-    "author_name": "Melinda Metz",
+    "author": "Melinda Metz",
     "base_id": 233,
-    "book_description": "He's not like other guys. Liz has seen him around. It's hard to miss Max -- the tall, blond, blue-eyed senior stands out in her high-school crowd. So why is he such a loner? Max is in love with Liz. He loves the way her eyes light up when she laughs. And the way her long, black hair moves when she turns her head. Most of all, he loves to imagine what it would be like to kiss her. But Max knows he can't get too close. He can't let her discover the truth about who he is. Or really, what he is.... Because the truth could kill her.",
-    "book_title": "The Outsider",
+    "description": "He's not like other guys. Liz has seen him around. It's hard to miss Max -- the tall, blond, blue-eyed senior stands out in her high-school crowd. So why is he such a loner? Max is in love with Liz. He loves the way her eyes light up when she laughs. And the way her long, black hair moves when she turns her head. Most of all, he loves to imagine what it would be like to kiss her. But Max knows he can't get too close. He can't let her discover the truth about who he is. Or really, what he is.... Because the truth could kill her.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "233_1"
+            "stock_id": "233_1"
         },
         {
             "status": "available",
-            "stock_number": "233_2"
+            "stock_id": "233_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "233_3"
+            "stock_id": "233_3"
         }
     ],
     "metrics": {
         "rating_votes": 2609,
         "score": 3.66
     },
-    "original_book_title": "The Outsider",
     "pages": 1279,
+    "title": "The Outsider",
     "url": "https://www.goodreads.com/book/show/176178.The_Outsider",
     "year_published": 1998
 }

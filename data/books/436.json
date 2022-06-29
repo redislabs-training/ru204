@@ -1,8 +1,7 @@
 {
-    "author_name": "Ruby Dixon",
+    "author": "Ruby Dixon",
     "base_id": 436,
-    "book_description": "A lush, tropical island on an icy planet makes no sense.Then again, not much makes sense anymore after waking up and finding myself not in bed but on a strange world populated by aliens. Since that moment, I\u2019ve learned that nothing is normal anymore and I\u2019ve got to roll with the punches. I can handle this, though. I\u2019m strong and capable.So\u2026 washed up on a tropical island? Got it handled.Separated from the others in my group? Handled.Stranded alone with a brutal but delicious alien man that can\u2019t speak English but has great\u2026 ahem\u2026 body language? Yup, handled.Add in the fact that my cootie \u2013 a symbiont I need to survive \u2013 has chosen my big, hulking alien friend as my fated mate? Let\u2019s just say that the situation isn\u2019t the only thing that\u2019s going to be handled. But it isn\u2019t long before I learn that the tropical island paradise is a death trap and we\u2019re all in grave danger, aliens and humans alike. To survive this, I'll need my tempting guy to give me a hand with the situation\u2026 good thing he's got four of them.This romance features all of the adventure, humor and community you\u2019ve come to expect in the Ice Planet Barbarians series, but it stands on its own. You do not need to read the other series (or be caught up) in order to read LAUREN'S BARBARIAN.",
-    "book_title": "Lauren's Barbarian",
+    "description": "A lush, tropical island on an icy planet makes no sense.Then again, not much makes sense anymore after waking up and finding myself not in bed but on a strange world populated by aliens. Since that moment, I\u2019ve learned that nothing is normal anymore and I\u2019ve got to roll with the punches. I can handle this, though. I\u2019m strong and capable.So\u2026 washed up on a tropical island? Got it handled.Separated from the others in my group? Handled.Stranded alone with a brutal but delicious alien man that can\u2019t speak English but has great\u2026 ahem\u2026 body language? Yup, handled.Add in the fact that my cootie \u2013 a symbiont I need to survive \u2013 has chosen my big, hulking alien friend as my fated mate? Let\u2019s just say that the situation isn\u2019t the only thing that\u2019s going to be handled. But it isn\u2019t long before I learn that the tropical island paradise is a death trap and we\u2019re all in grave danger, aliens and humans alike. To survive this, I'll need my tempting guy to give me a hand with the situation\u2026 good thing he's got four of them.This romance features all of the adventure, humor and community you\u2019ve come to expect in the Ice Planet Barbarians series, but it stands on its own. You do not need to read the other series (or be caught up) in order to read LAUREN'S BARBARIAN.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "436_1"
+            "stock_id": "436_1"
         },
         {
             "status": "available",
-            "stock_number": "436_2"
+            "stock_id": "436_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "436_3"
+            "stock_id": "436_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "436_4"
+            "stock_id": "436_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "436_5"
+            "stock_id": "436_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "436_6"
+            "stock_id": "436_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "436_7"
+            "stock_id": "436_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "436_8"
+            "stock_id": "436_8"
         }
     ],
     "metrics": {
         "rating_votes": 5836,
         "score": 4.05
     },
-    "original_book_title": "Lauren's Barbarian",
     "pages": 1272,
+    "title": "Lauren's Barbarian",
     "url": "https://www.goodreads.com/book/show/36383830-lauren-s-barbarian",
     "year_published": 2017
 }

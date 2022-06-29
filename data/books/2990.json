@@ -1,8 +1,7 @@
 {
-    "author_name": "Sylvain Neuvel",
+    "author": "Sylvain Neuvel",
     "base_id": 2990,
-    "book_description": "In her childhood, Rose Franklin accidentally discovered a giant metal hand buried beneath the ground outside Deadwood, South Dakota. As an adult, Dr. Rose Franklin led the team that uncovered the rest of the body parts which together form Themis: a powerful robot of mysterious alien origin. She, along with linguist Vincent, pilot Kara, and the unnamed Interviewer, protected the Earth from geopolitical conflict and alien invasion alike. Now, after nearly ten years on another world, Rose returns to find her old alliances forfeit and the planet in shambles. And she must pick up the pieces of the Earth Defense Corps as her own friends turn against each other.",
-    "book_title": "Only Human",
+    "description": "In her childhood, Rose Franklin accidentally discovered a giant metal hand buried beneath the ground outside Deadwood, South Dakota. As an adult, Dr. Rose Franklin led the team that uncovered the rest of the body parts which together form Themis: a powerful robot of mysterious alien origin. She, along with linguist Vincent, pilot Kara, and the unnamed Interviewer, protected the Earth from geopolitical conflict and alien invasion alike. Now, after nearly ten years on another world, Rose returns to find her old alliances forfeit and the planet in shambles. And she must pick up the pieces of the Earth Defense Corps as her own friends turn against each other.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "2990_1"
+            "stock_id": "2990_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "2990_2"
+            "stock_id": "2990_2"
         }
     ],
     "metrics": {
         "rating_votes": 23398,
         "score": 3.65
     },
-    "original_book_title": "Only Human",
     "pages": 1059,
+    "title": "Only Human",
     "url": "https://www.goodreads.com/book/show/35820656-only-human",
     "year_published": 2018
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Poppy Rhys",
+    "author": "Poppy Rhys",
     "base_id": 65,
-    "book_description": "An ordinary night at Revolution 5, right? Wrong. So wrong.Dania just wanted a normal life on Dor Nye after years of living a nomadic existence among the stars. But when a rude and dangerous alien playboy sits down at the bar where she works, everything changes.No questions. No strings. No names.Suddenly her future flies into a tailspin that lands her back in the lawless wild west of space. It's a fight for life, love, and a future she didn't think was possible any longer.Will she survive it?WARNING: This story contains M/F/M, non-human alien heroes, a chubby heroine, mature content, graphic language, and some violence against women. Possible triggers for sensitive readers. ",
-    "book_title": "The Melier: Prodigal Son",
+    "description": "An ordinary night at Revolution 5, right? Wrong. So wrong.Dania just wanted a normal life on Dor Nye after years of living a nomadic existence among the stars. But when a rude and dangerous alien playboy sits down at the bar where she works, everything changes.No questions. No strings. No names.Suddenly her future flies into a tailspin that lands her back in the lawless wild west of space. It's a fight for life, love, and a future she didn't think was possible any longer.Will she survive it?WARNING: This story contains M/F/M, non-human alien heroes, a chubby heroine, mature content, graphic language, and some violence against women. Possible triggers for sensitive readers. ",
     "editions": [
         "None"
     ],
@@ -17,27 +16,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "65_1"
+            "stock_id": "65_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "65_2"
+            "stock_id": "65_2"
         },
         {
             "status": "available",
-            "stock_number": "65_3"
+            "stock_id": "65_3"
         },
         {
             "status": "available",
-            "stock_number": "65_4"
+            "stock_id": "65_4"
         }
     ],
     "metrics": {
         "rating_votes": 515,
         "score": 4.32
     },
-    "original_book_title": "B07YQQYMYB",
     "pages": 205,
+    "title": "The Melier: Prodigal Son",
     "url": "https://www.goodreads.com/book/show/53163613-the-melier",
     "year_published": 2019
 }

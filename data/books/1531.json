@@ -1,8 +1,7 @@
 {
-    "author_name": "R.J. Anderson",
+    "author": "R.J. Anderson",
     "base_id": 1531,
-    "book_description": "Once upon a time there was a girl who was special.This is not her story.Unless you count the part where I killed her.Sixteen-year-old Alison has been sectioned in a mental institute for teens, having murdered the most perfect and popular girl at school. But the case is a mystery: no body has been found, and Alison's condition is proving difficult to diagnose. Alison herself can't explain what happened: one minute she was fighting with Tori -- the next she disintegrated. Into nothing. But that's impossible. Right?When Alison meets Dr Faraday, a visiting psychologist, she feels an instant connection. More, he believes her story. But there's more to Faraday than Alison can possibly imagine ... and the answers he will give her are ... extraordinary ...",
-    "book_title": "Ultraviolet",
+    "description": "Once upon a time there was a girl who was special.This is not her story.Unless you count the part where I killed her.Sixteen-year-old Alison has been sectioned in a mental institute for teens, having murdered the most perfect and popular girl at school. But the case is a mystery: no body has been found, and Alison's condition is proving difficult to diagnose. Alison herself can't explain what happened: one minute she was fighting with Tori -- the next she disintegrated. Into nothing. But that's impossible. Right?When Alison meets Dr Faraday, a visiting psychologist, she feels an instant connection. More, he believes her story. But there's more to Faraday than Alison can possibly imagine ... and the answers he will give her are ... extraordinary ...",
     "editions": [
         "English"
     ],
@@ -21,27 +20,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1531_1"
+            "stock_id": "1531_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1531_2"
+            "stock_id": "1531_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "1531_3"
+            "stock_id": "1531_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1531_4"
+            "stock_id": "1531_4"
         }
     ],
     "metrics": {
         "rating_votes": 9195,
         "score": 3.75
     },
-    "original_book_title": "Touching Indigo",
     "pages": 761,
+    "title": "Ultraviolet",
     "url": "https://www.goodreads.com/book/show/8843789-ultraviolet",
     "year_published": 2011
 }

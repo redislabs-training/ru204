@@ -1,8 +1,7 @@
 {
-    "author_name": "Sherrilyn Kenyon",
+    "author": "Sherrilyn Kenyon",
     "base_id": 618,
-    "book_description": "In a world where the League and its assassins rule, where betrayal and treachery are everywhere...the only survivors are those ones who are...BORN OF SHADOWSFor Caillen Dagan, a defiant soldier of fortune, survival isn't a right, it's a brutal daily battle. Moving through the Ichidaian universe like a wraith, his brushes with the law and death are legendary. But when an act of rare heroism reveals his hidden birthright, he's forced into a world much more dangerous and cold-hearted than the bloody streets where he was raised - one of obscene wealth and lethal politics.Ferocious and determined, Desideria serves as an official bodyguard for her queen. Born of questionable genetics, she will do anything to prove herself worthy of the weapons she carries and the position she's won by combat. But when she uncovers a ruthless plot to assassinate the queen and overthrow her country's government, Desideria is caught in the crosshairs.With assassination contracts out on both of them, Caillen and Desideria must learn to fight together or die alone. And if they fail, their governments will fall into the hands of an unimaginable evil.",
-    "book_title": "Born of Shadows",
+    "description": "In a world where the League and its assassins rule, where betrayal and treachery are everywhere...the only survivors are those ones who are...BORN OF SHADOWSFor Caillen Dagan, a defiant soldier of fortune, survival isn't a right, it's a brutal daily battle. Moving through the Ichidaian universe like a wraith, his brushes with the law and death are legendary. But when an act of rare heroism reveals his hidden birthright, he's forced into a world much more dangerous and cold-hearted than the bloody streets where he was raised - one of obscene wealth and lethal politics.Ferocious and determined, Desideria serves as an official bodyguard for her queen. Born of questionable genetics, she will do anything to prove herself worthy of the weapons she carries and the position she's won by combat. But when she uncovers a ruthless plot to assassinate the queen and overthrow her country's government, Desideria is caught in the crosshairs.With assassination contracts out on both of them, Caillen and Desideria must learn to fight together or die alone. And if they fail, their governments will fall into the hands of an unimaginable evil.",
     "editions": [
         "English"
     ],
@@ -21,43 +20,43 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "618_1"
+            "stock_id": "618_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "618_2"
+            "stock_id": "618_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "618_3"
+            "stock_id": "618_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "618_4"
+            "stock_id": "618_4"
         },
         {
             "status": "available",
-            "stock_number": "618_5"
+            "stock_id": "618_5"
         },
         {
             "status": "available",
-            "stock_number": "618_6"
+            "stock_id": "618_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "618_7"
+            "stock_id": "618_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "618_8"
+            "stock_id": "618_8"
         }
     ],
     "metrics": {
         "rating_votes": 13094,
         "score": 4.37
     },
-    "original_book_title": "Born of Shadows",
     "pages": 1293,
+    "title": "Born of Shadows",
     "url": "https://www.goodreads.com/book/show/9447878-born-of-shadows",
     "year_published": 2011
 }

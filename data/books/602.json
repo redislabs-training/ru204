@@ -1,8 +1,7 @@
 {
-    "author_name": "T.A. White",
+    "author": "T.A. White",
     "base_id": 602,
-    "book_description": "The war everyone thought was over is just beginning.Kira Forrest is a survivor. She\u2019s risen above the pain of her beginnings to become a war hero only to leave it all behind in the pursuit of a simple life. Now a salvager, she makes a living sifting through the wreckage of dead alien ships from a war that nearly brought humanity to its knees.After her ship takes damage, she\u2019s forced to re-route to a space station where her past and present collide with dangerous consequences.Kira\u2019s existence holds the key to a faltering peace treaty with the Tuann\u2014a technologically advanced alien race who dislikes and distrusts all humans. Winning her freedom should be easy, but a powerful and relentless Tuann warrior stands in her way. Deceiving him seems impossible, especially when he strays dangerously close to secrets she struggles to hide.Can Kira reconcile the pain of her past with the possibilities of her future? The fate of two races depends on her success.",
-    "book_title": "Rules of Redemption",
+    "description": "The war everyone thought was over is just beginning.Kira Forrest is a survivor. She\u2019s risen above the pain of her beginnings to become a war hero only to leave it all behind in the pursuit of a simple life. Now a salvager, she makes a living sifting through the wreckage of dead alien ships from a war that nearly brought humanity to its knees.After her ship takes damage, she\u2019s forced to re-route to a space station where her past and present collide with dangerous consequences.Kira\u2019s existence holds the key to a faltering peace treaty with the Tuann\u2014a technologically advanced alien race who dislikes and distrusts all humans. Winning her freedom should be easy, but a powerful and relentless Tuann warrior stands in her way. Deceiving him seems impossible, especially when he strays dangerously close to secrets she struggles to hide.Can Kira reconcile the pain of her past with the possibilities of her future? The fate of two races depends on her success.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "602_1"
+            "stock_id": "602_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "602_2"
+            "stock_id": "602_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "602_3"
+            "stock_id": "602_3"
         }
     ],
     "metrics": {
         "rating_votes": 6986,
         "score": 4.38
     },
-    "original_book_title": "Rules of Redemption",
     "pages": 486,
+    "title": "Rules of Redemption",
     "url": "https://www.goodreads.com/book/show/43954881-rules-of-redemption",
     "year_published": 2019
 }

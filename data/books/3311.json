@@ -1,8 +1,7 @@
 {
-    "author_name": "Becky Chambers",
+    "author": "Becky Chambers",
     "base_id": 3311,
-    "book_description": "Centuries after the last humans left Earth, the Exodus Fleet is a living relic, a place many are from but few outsiders have seen. Humanity has finally been accepted into the galactic community, but while this has opened doors for many, those who have not yet left for alien cities fear that their carefully cultivated way of life is under threat.Tessa chose to stay home when her brother Ashby left for the stars, but has to question that decision when her position in the Fleet is threatened.Kip, a reluctant young apprentice, itches for change but doesn't know where to find it.Sawyer, a lost and lonely newcomer, is just looking for a place to belong.When a disaster rocks this already fragile community, those Exodans who still call the Fleet their home can no longer avoid the inescapable question:What is the purpose of a ship that has reached its destination?",
-    "book_title": "Record of a Spaceborn Few",
+    "description": "Centuries after the last humans left Earth, the Exodus Fleet is a living relic, a place many are from but few outsiders have seen. Humanity has finally been accepted into the galactic community, but while this has opened doors for many, those who have not yet left for alien cities fear that their carefully cultivated way of life is under threat.Tessa chose to stay home when her brother Ashby left for the stars, but has to question that decision when her position in the Fleet is threatened.Kip, a reluctant young apprentice, itches for change but doesn't know where to find it.Sawyer, a lost and lonely newcomer, is just looking for a place to belong.When a disaster rocks this already fragile community, those Exodans who still call the Fleet their home can no longer avoid the inescapable question:What is the purpose of a ship that has reached its destination?",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "3311_1"
+            "stock_id": "3311_1"
         },
         {
             "status": "available",
-            "stock_number": "3311_2"
+            "stock_id": "3311_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "3311_3"
+            "stock_id": "3311_3"
         },
         {
             "status": "available",
-            "stock_number": "3311_4"
+            "stock_id": "3311_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "3311_5"
+            "stock_id": "3311_5"
         },
         {
             "status": "maintenance",
-            "stock_number": "3311_6"
+            "stock_id": "3311_6"
         },
         {
             "status": "maintenance",
-            "stock_number": "3311_7"
+            "stock_id": "3311_7"
         },
         {
             "status": "maintenance",
-            "stock_number": "3311_8"
+            "stock_id": "3311_8"
         },
         {
             "status": "available",
-            "stock_number": "3311_9"
+            "stock_id": "3311_9"
         }
     ],
     "metrics": {
         "rating_votes": 22956,
         "score": 4.11
     },
-    "original_book_title": "Record of a Spaceborn Few",
     "pages": 720,
+    "title": "Record of a Spaceborn Few",
     "url": "https://www.goodreads.com/book/show/32802595-record-of-a-spaceborn-few",
     "year_published": 2018
 }

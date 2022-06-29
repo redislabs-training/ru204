@@ -1,8 +1,7 @@
 {
-    "author_name": "Wendy Higgins",
+    "author": "Wendy Higgins",
     "base_id": 148,
-    "book_description": "USA Today and New York Times bestselling author, Wendy Higgins, brings you the gripping, sensual conclusion to her apocalyptic trilogy.Amber Tate never dreamed their heart-wrenching escape from the enemy\u2019s attack would lead them to the most beautiful place she\u2019s ever seen, marred by one ugly fact; it\u2019s under enemy control. Like everywhere else in the world, Elmendorf military base in Alaska has been captured, and it\u2019s time to take it back\u2014all of it\u2014one base, one city at a time. After losing so much, Amber clings to the only precious person she has left, and vows to sacrifice everything to help save the Earth.Remy Haines is a lover, not a fighter, so when she finds herself in enemy territory, expected to feign allegiance while gathering intel for the rebel cause, she\u2019s never been more out of her element. Tensions only increase when her feelings for Jacob \u201cTater\u201d Tate won\u2019t go away, and the enemy\u2019s leader takes an interest in her. She\u2019s torn between what her heart wants, and what she knows she should do. As for what her body needs\u2026well, it\u2019s always had a mind of its own.",
-    "book_title": "Undone",
+    "description": "USA Today and New York Times bestselling author, Wendy Higgins, brings you the gripping, sensual conclusion to her apocalyptic trilogy.Amber Tate never dreamed their heart-wrenching escape from the enemy\u2019s attack would lead them to the most beautiful place she\u2019s ever seen, marred by one ugly fact; it\u2019s under enemy control. Like everywhere else in the world, Elmendorf military base in Alaska has been captured, and it\u2019s time to take it back\u2014all of it\u2014one base, one city at a time. After losing so much, Amber clings to the only precious person she has left, and vows to sacrifice everything to help save the Earth.Remy Haines is a lover, not a fighter, so when she finds herself in enemy territory, expected to feign allegiance while gathering intel for the rebel cause, she\u2019s never been more out of her element. Tensions only increase when her feelings for Jacob \u201cTater\u201d Tate won\u2019t go away, and the enemy\u2019s leader takes an interest in her. She\u2019s torn between what her heart wants, and what she knows she should do. As for what her body needs\u2026well, it\u2019s always had a mind of its own.",
     "editions": [
         "None"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "148_1"
+            "stock_id": "148_1"
         },
         {
             "status": "available",
-            "stock_number": "148_2"
+            "stock_id": "148_2"
         },
         {
             "status": "available",
-            "stock_number": "148_3"
+            "stock_id": "148_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "148_4"
+            "stock_id": "148_4"
         },
         {
             "status": "on_loan",
-            "stock_number": "148_5"
+            "stock_id": "148_5"
         }
     ],
     "metrics": {
         "rating_votes": 955,
         "score": 4.28
     },
-    "original_book_title": "\nUnknown#3 ",
     "pages": 492,
+    "title": "Undone",
     "url": "https://www.goodreads.com/book/show/32867161-undone",
     "year_published": 2017
 }

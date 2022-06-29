@@ -1,8 +1,7 @@
 {
-    "author_name": "Patricia A. Knight",
+    "author": "Patricia A. Knight",
     "base_id": 169,
-    "book_description": "For some, existence without their mate might seem like the end of their world......for the members of Verdantia\u2019s Tetriarch, it would be.Conte Camliel Aristos deTano, Ari, has long spurned the marriage forced upon him. His contractual bride, Princess Fleur Constante, the beautiful future queen though young and inexperienced, is willing to risk everything, including her own sanity, to save her planet.The inhabitants of the sentient planet, Verdantia, are poised on the precipice of extinction following a brutal invasion by an off-world, nomadic horde. Verdantia\u2019s capital, Sylvan Mintoth, must have its failing energy shield restored, or the planet is doomed. The Elders know the shield can draw energy from only one thing ~ a very arduous and grueling coupling of two specific people who were pre-chosen by the planet Herself and promised by prearranged marriage contract.Verdantia draws strength from the duo, but the sentient planet whispers to Ari that a third is necessary ~ Ari\u2019s aide de camp, Visconte Doral deLorion, an angelically handsome, skilled assassin who silently surrendered his heart to Ari long ago.The trio struggles to make this surprising partnership harmonious, pushing through pride, scars of past abuse, fears of inexperience and distrust. To save Verdantia, they must overcome their individual weaknesses and realize their full potential. Only the Tetriarch and their combined synergy, can harness Verdantia\u2019s immense power to shield its citizens from invasion.Be part of the Tetriarch! Get your copy today!",
-    "book_title": "Hers to Command",
+    "description": "For some, existence without their mate might seem like the end of their world......for the members of Verdantia\u2019s Tetriarch, it would be.Conte Camliel Aristos deTano, Ari, has long spurned the marriage forced upon him. His contractual bride, Princess Fleur Constante, the beautiful future queen though young and inexperienced, is willing to risk everything, including her own sanity, to save her planet.The inhabitants of the sentient planet, Verdantia, are poised on the precipice of extinction following a brutal invasion by an off-world, nomadic horde. Verdantia\u2019s capital, Sylvan Mintoth, must have its failing energy shield restored, or the planet is doomed. The Elders know the shield can draw energy from only one thing ~ a very arduous and grueling coupling of two specific people who were pre-chosen by the planet Herself and promised by prearranged marriage contract.Verdantia draws strength from the duo, but the sentient planet whispers to Ari that a third is necessary ~ Ari\u2019s aide de camp, Visconte Doral deLorion, an angelically handsome, skilled assassin who silently surrendered his heart to Ari long ago.The trio struggles to make this surprising partnership harmonious, pushing through pride, scars of past abuse, fears of inexperience and distrust. To save Verdantia, they must overcome their individual weaknesses and realize their full potential. Only the Tetriarch and their combined synergy, can harness Verdantia\u2019s immense power to shield its citizens from invasion.Be part of the Tetriarch! Get your copy today!",
     "editions": [
         "English"
     ],
@@ -19,27 +18,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "169_1"
+            "stock_id": "169_1"
         },
         {
             "status": "available",
-            "stock_number": "169_2"
+            "stock_id": "169_2"
         },
         {
             "status": "maintenance",
-            "stock_number": "169_3"
+            "stock_id": "169_3"
         },
         {
             "status": "available",
-            "stock_number": "169_4"
+            "stock_id": "169_4"
         }
     ],
     "metrics": {
         "rating_votes": 1050,
         "score": 3.66
     },
-    "original_book_title": "Hers to Command",
     "pages": 870,
+    "title": "Hers to Command",
     "url": "https://www.goodreads.com/book/show/18046079-hers-to-command",
     "year_published": 2013
 }

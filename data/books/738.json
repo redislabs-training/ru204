@@ -1,8 +1,7 @@
 {
-    "author_name": "Farah Naz Rishi",
+    "author": "Farah Naz Rishi",
     "base_id": 738,
-    "book_description": "Seven days. Seven days. The Earth might end in seven days.When news stations start reporting that Earth has been contacted by a planet named Alma, the world is abuzz with rumors that the alien entity is giving mankind only few days to live before they hit the kill switch on civilization.For high school truant Jesse Hewitt, though, nothing has ever felt permanent. Not the guys he hooks up with. Not the jobs his underpaid mom works so hard to hold down. Life has dealt him one bad blow after another \u2014 so what does it matter if it all ends now? Cate Collins, on the other hand, is desperate to use this time to find the father she\u2019s never met, the man she grew up hearing wild stories about, most of which she didn\u2019t believe. And then there\u2019s Adeem Khan. While coding and computer programming have always come easily to him, forgiveness doesn\u2019t. He can\u2019t seem to forgive his sister for leaving, even though it\u2019s his last chance.With only seven days to face their truths and right their wrongs, Jesse, Cate, and Adeem\u2019s paths collide even as their worlds are pulled apart.",
-    "book_title": "I Hope You Get This Message",
+    "description": "Seven days. Seven days. The Earth might end in seven days.When news stations start reporting that Earth has been contacted by a planet named Alma, the world is abuzz with rumors that the alien entity is giving mankind only few days to live before they hit the kill switch on civilization.For high school truant Jesse Hewitt, though, nothing has ever felt permanent. Not the guys he hooks up with. Not the jobs his underpaid mom works so hard to hold down. Life has dealt him one bad blow after another \u2014 so what does it matter if it all ends now? Cate Collins, on the other hand, is desperate to use this time to find the father she\u2019s never met, the man she grew up hearing wild stories about, most of which she didn\u2019t believe. And then there\u2019s Adeem Khan. While coding and computer programming have always come easily to him, forgiveness doesn\u2019t. He can\u2019t seem to forgive his sister for leaving, even though it\u2019s his last chance.With only seven days to face their truths and right their wrongs, Jesse, Cate, and Adeem\u2019s paths collide even as their worlds are pulled apart.",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "738_1"
+            "stock_id": "738_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "738_2"
+            "stock_id": "738_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "738_3"
+            "stock_id": "738_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "738_4"
+            "stock_id": "738_4"
         },
         {
             "status": "available",
-            "stock_number": "738_5"
+            "stock_id": "738_5"
         }
     ],
     "metrics": {
         "rating_votes": 2966,
         "score": 3.56
     },
-    "original_book_title": "B07MZXJ857",
     "pages": 1124,
+    "title": "I Hope You Get This Message",
     "url": "https://www.goodreads.com/book/show/43699608-i-hope-you-get-this-message",
     "year_published": 2019
 }

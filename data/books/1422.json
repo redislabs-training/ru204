@@ -1,8 +1,7 @@
 {
-    "author_name": "Shannon Hale",
+    "author": "Shannon Hale",
     "base_id": 1422,
-    "book_description": "Maisie Danger Brown just wanted to get away from home for a bit, see something new. She never intended to fall in love. And she never imagined stumbling into a frightening plot that kills her friends and just might kill her, too. A plot that is already changing life on Earth as we know it. There's no going back. She is the only thing standing between danger and annihilation.From NY Times bestselling author Shannon Hale comes a novel that asks, How far would you go to save the ones you love? And how far would you go to save everyone else?",
-    "book_title": "Dangerous",
+    "description": "Maisie Danger Brown just wanted to get away from home for a bit, see something new. She never intended to fall in love. And she never imagined stumbling into a frightening plot that kills her friends and just might kill her, too. A plot that is already changing life on Earth as we know it. There's no going back. She is the only thing standing between danger and annihilation.From NY Times bestselling author Shannon Hale comes a novel that asks, How far would you go to save the ones you love? And how far would you go to save everyone else?",
     "editions": [
         "English"
     ],
@@ -21,47 +20,47 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "1422_1"
+            "stock_id": "1422_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "1422_2"
+            "stock_id": "1422_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "1422_3"
+            "stock_id": "1422_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "1422_4"
+            "stock_id": "1422_4"
         },
         {
             "status": "available",
-            "stock_number": "1422_5"
+            "stock_id": "1422_5"
         },
         {
             "status": "available",
-            "stock_number": "1422_6"
+            "stock_id": "1422_6"
         },
         {
             "status": "available",
-            "stock_number": "1422_7"
+            "stock_id": "1422_7"
         },
         {
             "status": "on_loan",
-            "stock_number": "1422_8"
+            "stock_id": "1422_8"
         },
         {
             "status": "on_loan",
-            "stock_number": "1422_9"
+            "stock_id": "1422_9"
         }
     ],
     "metrics": {
         "rating_votes": 5805,
         "score": 3.43
     },
-    "original_book_title": "\n1599901684\n(ISBN13: 9781599901688)\n",
     "pages": 1368,
+    "title": "Dangerous",
     "url": "https://www.goodreads.com/book/show/8585924-dangerous",
     "year_published": 2014
 }

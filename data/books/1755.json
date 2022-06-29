@@ -1,8 +1,7 @@
 {
-    "author_name": "Ilona Andrews",
+    "author": "Ilona Andrews",
     "base_id": 1755,
-    "book_description": "Dina DeMille may run the nicest Bed and Breakfast in Red Deer, Texas, but she caters to a very particular kind of guest\u2026 the kind that no one on Earth is supposed to know about. Guests like a former intergalactic tyrant with an impressive bounty on her head, the Lord Marshal of a powerful vampire clan, and a displaced-and-superhot werewolf; so don\u2019t stand too close, or you may be collateral damage.But what passes for Dina\u2019s normal life is about to be thrown into chaos. First, she must rescue her long-distant older sister, Maud, who\u2019s been exiled with her family to a planet that functions as the most lawless penal colony since Botany Bay. Then she agrees to help a guest whose last chance at saving his civilization could bring death and disaster to all Dina holds dear. Now Gertrude Hunt is under siege by a clan of assassins. To keep her guests safe and to find her missing parents, Dina will risk everything, even if she has to pay the ultimate price. Though Sean may have something to say about that!!",
-    "book_title": "One Fell Sweep",
+    "description": "Dina DeMille may run the nicest Bed and Breakfast in Red Deer, Texas, but she caters to a very particular kind of guest\u2026 the kind that no one on Earth is supposed to know about. Guests like a former intergalactic tyrant with an impressive bounty on her head, the Lord Marshal of a powerful vampire clan, and a displaced-and-superhot werewolf; so don\u2019t stand too close, or you may be collateral damage.But what passes for Dina\u2019s normal life is about to be thrown into chaos. First, she must rescue her long-distant older sister, Maud, who\u2019s been exiled with her family to a planet that functions as the most lawless penal colony since Botany Bay. Then she agrees to help a guest whose last chance at saving his civilization could bring death and disaster to all Dina holds dear. Now Gertrude Hunt is under siege by a clan of assassins. To keep her guests safe and to find her missing parents, Dina will risk everything, even if she has to pay the ultimate price. Though Sean may have something to say about that!!",
     "editions": [
         "English"
     ],
@@ -21,31 +20,31 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "1755_1"
+            "stock_id": "1755_1"
         },
         {
             "status": "maintenance",
-            "stock_number": "1755_2"
+            "stock_id": "1755_2"
         },
         {
             "status": "available",
-            "stock_number": "1755_3"
+            "stock_id": "1755_3"
         },
         {
             "status": "maintenance",
-            "stock_number": "1755_4"
+            "stock_id": "1755_4"
         },
         {
             "status": "maintenance",
-            "stock_number": "1755_5"
+            "stock_id": "1755_5"
         }
     ],
     "metrics": {
         "rating_votes": 22381,
         "score": 4.47
     },
-    "original_book_title": "English",
     "pages": 1188,
+    "title": "One Fell Sweep",
     "url": "https://www.goodreads.com/book/show/28756485-one-fell-sweep",
     "year_published": 2016
 }

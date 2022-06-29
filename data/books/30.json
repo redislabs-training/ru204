@@ -1,8 +1,7 @@
 {
-    "author_name": "Sadie Carter",
+    "author": "Sadie Carter",
     "base_id": 30,
-    "book_description": "With all the drama and trouble behind her, Zoey is looking forward to arriving on Zerconia and settling down into a normal life as Dex\u2019s mate. Normal? What was she thinking? There is nothing normal about being mated to a sinfully sexy, often times arrogant and overprotective Zerconian warrior. But then normal is overrated, right? Trouble follows Zoey to Zerconia, threatening her very life. But that pales in comparison to her biggest challenge yet\u2026 Her mother-in-law.This series would be enjoyed more if read in order. ",
-    "book_title": "Alien Mate",
+    "description": "With all the drama and trouble behind her, Zoey is looking forward to arriving on Zerconia and settling down into a normal life as Dex\u2019s mate. Normal? What was she thinking? There is nothing normal about being mated to a sinfully sexy, often times arrogant and overprotective Zerconian warrior. But then normal is overrated, right? Trouble follows Zoey to Zerconia, threatening her very life. But that pales in comparison to her biggest challenge yet\u2026 Her mother-in-law.This series would be enjoyed more if read in order. ",
     "editions": [
         "English"
     ],
@@ -18,15 +17,15 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "30_1"
+            "stock_id": "30_1"
         }
     ],
     "metrics": {
         "rating_votes": 642,
         "score": 4.2
     },
-    "original_book_title": "B018YKNROS",
     "pages": 1104,
+    "title": "Alien Mate",
     "url": "https://www.goodreads.com/book/show/28100959-alien-mate",
     "year_published": 2015
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Robert A. Heinlein",
+    "author": "Robert A. Heinlein",
     "base_id": 8205,
-    "book_description": "NAME: Valentine Michael SmithANCESTRY: HumanORIGIN: MarsValentine Michael Smith is a human being raised on Mars, newly returned to Earth. Among his people for the first time, he struggles to understand the social mores and prejudices of human nature that are so alien to him, while teaching them his own fundamental beliefs in grokking, watersharing, and love.",
-    "book_title": "Stranger in a Strange Land",
+    "description": "NAME: Valentine Michael SmithANCESTRY: HumanORIGIN: MarsValentine Michael Smith is a human being raised on Mars, newly returned to Earth. Among his people for the first time, he struggles to understand the social mores and prejudices of human nature that are so alien to him, while teaching them his own fundamental beliefs in grokking, watersharing, and love.",
     "editions": [
         "English"
     ],
@@ -21,23 +20,23 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "8205_1"
+            "stock_id": "8205_1"
         },
         {
             "status": "available",
-            "stock_number": "8205_2"
+            "stock_id": "8205_2"
         },
         {
             "status": "available",
-            "stock_number": "8205_3"
+            "stock_id": "8205_3"
         }
     ],
     "metrics": {
         "rating_votes": 279754,
         "score": 3.92
     },
-    "original_book_title": "Stranger in a Strange Land",
     "pages": 914,
+    "title": "Stranger in a Strange Land",
     "url": "https://www.goodreads.com/book/show/350.Stranger_in_a_Strange_Land",
     "year_published": 1961
 }

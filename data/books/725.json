@@ -1,8 +1,7 @@
 {
-    "author_name": "Gena Showalter",
+    "author": "Gena Showalter",
     "base_id": 725,
-    "book_description": "The breathtaking first novel in New York Times best selling author Gena Showalter\u2019s new paranormal romance series, Otherworld Assassins, featuring a black ops agent who is captured and enslaved\u2026and the beautiful deaf girl who holds the key to his salvation\u2026THE SWEETEST TEMPTATION\u2026Black ops agent Solomon Judah awakens caged and bound in a twisted zoo where otherworlders are the main attraction. Vika Lukas, the owner\u2019s daughter, is tasked with Solo\u2019s care and feeding. The monster inside him yearns to kill her on sight, even though she holds the key to his escape. But the human side of him realizes the beautiful deaf girl is more than she seems\u2014she\u2019s his.THE ULTIMATE PRICE\u2026Vika endures the captives\u2019 taunts and loathing, hoping to keep them alive even if she can\u2019t free them. Only, Solo is different\u2014he protects her. But as hostility turns to forbidden romance, his feelings for her will be used against him\u2026and he\u2019ll be put to a killer test.",
-    "book_title": "Last Kiss Goodnight",
+    "description": "The breathtaking first novel in New York Times best selling author Gena Showalter\u2019s new paranormal romance series, Otherworld Assassins, featuring a black ops agent who is captured and enslaved\u2026and the beautiful deaf girl who holds the key to his salvation\u2026THE SWEETEST TEMPTATION\u2026Black ops agent Solomon Judah awakens caged and bound in a twisted zoo where otherworlders are the main attraction. Vika Lukas, the owner\u2019s daughter, is tasked with Solo\u2019s care and feeding. The monster inside him yearns to kill her on sight, even though she holds the key to his escape. But the human side of him realizes the beautiful deaf girl is more than she seems\u2014she\u2019s his.THE ULTIMATE PRICE\u2026Vika endures the captives\u2019 taunts and loathing, hoping to keep them alive even if she can\u2019t free them. Only, Solo is different\u2014he protects her. But as hostility turns to forbidden romance, his feelings for her will be used against him\u2026and he\u2019ll be put to a killer test.",
     "editions": [
         "English"
     ],
@@ -21,19 +20,19 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "725_1"
+            "stock_id": "725_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "725_2"
+            "stock_id": "725_2"
         }
     ],
     "metrics": {
         "rating_votes": 7771,
         "score": 3.85
     },
-    "original_book_title": "Last Kiss Goodnight",
     "pages": 969,
+    "title": "Last Kiss Goodnight",
     "url": "https://www.goodreads.com/book/show/13310549-last-kiss-goodnight",
     "year_published": 2012
 }

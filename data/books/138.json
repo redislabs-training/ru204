@@ -1,8 +1,7 @@
 {
-    "author_name": "Cynthia Sax",
+    "author": "Cynthia Sax",
     "base_id": 138,
-    "book_description": "Can love redeem a monster?The Refuge is home to some of the most violent beings in the universe. Kralj, its leader, reigns over the remote outpost with terrifying ease, ruthlessly squashing any rumors of rebellion, killing anyone who breaks his rules. Primitive, deadly, powerful, he\u2019s a monster, scarred both on his face and his soul. He has never met a being he couldn\u2019t control.Until he meets her.Dita has one mission\u2014to kill the three targets claiming sanctuary within the Refuge. Or so she claims. For the first time in his long lifespan, Kralj isn\u2019t certain of another being\u2019s intentions. The tiny assassin is immune to his powers, her thoughts unreadable. He can\u2019t predict her movements, can\u2019t control her, can\u2019t stop wanting her.Dita is rare, as unique as he is, and, to keep the residents of the Refuge safe, Kralj will have to kill her. But first, he\u2019ll touch her, taste her, show her how passionate the beast inside him can be.Dark Thoughts is a STAND-ALONE SciFi Romance. The hero might be tall, dark, and scarred but don\u2019t be fooled by his appearance. He\u2019s truly a monster. This story is not for readers with delicate sensibilities.",
-    "book_title": "Dark Thoughts",
+    "description": "Can love redeem a monster?The Refuge is home to some of the most violent beings in the universe. Kralj, its leader, reigns over the remote outpost with terrifying ease, ruthlessly squashing any rumors of rebellion, killing anyone who breaks his rules. Primitive, deadly, powerful, he\u2019s a monster, scarred both on his face and his soul. He has never met a being he couldn\u2019t control.Until he meets her.Dita has one mission\u2014to kill the three targets claiming sanctuary within the Refuge. Or so she claims. For the first time in his long lifespan, Kralj isn\u2019t certain of another being\u2019s intentions. The tiny assassin is immune to his powers, her thoughts unreadable. He can\u2019t predict her movements, can\u2019t control her, can\u2019t stop wanting her.Dita is rare, as unique as he is, and, to keep the residents of the Refuge safe, Kralj will have to kill her. But first, he\u2019ll touch her, taste her, show her how passionate the beast inside him can be.Dark Thoughts is a STAND-ALONE SciFi Romance. The hero might be tall, dark, and scarred but don\u2019t be fooled by his appearance. He\u2019s truly a monster. This story is not for readers with delicate sensibilities.",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "maintenance",
-            "stock_number": "138_1"
+            "stock_id": "138_1"
         },
         {
             "status": "on_loan",
-            "stock_number": "138_2"
+            "stock_id": "138_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "138_3"
+            "stock_id": "138_3"
         },
         {
             "status": "available",
-            "stock_number": "138_4"
+            "stock_id": "138_4"
         }
     ],
     "metrics": {
         "rating_votes": 1148,
         "score": 3.95
     },
-    "original_book_title": "B01MRAABGC",
     "pages": 550,
+    "title": "Dark Thoughts",
     "url": "https://www.goodreads.com/book/show/34022035-dark-thoughts",
     "year_published": 2017
 }

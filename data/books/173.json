@@ -1,8 +1,7 @@
 {
-    "author_name": "Pittacus Lore",
+    "author": "Pittacus Lore",
     "base_id": 173,
-    "book_description": "In this thrilling one-hundred-page prequel companion novella, discover what happened in the aftermath of the Mogadorians\u2019 attack on Paradise, Ohio, from Mark James\u2014Number Four\u2019s bully-turned-ally.After Four leaves town to find the rest of the Garde, Mark is left behind to pick up the pieces. His school has been destroyed, his home burned down, and, worst yet, Mark now knows the horrifying truth: aliens live among us and some of them seek to destroy us. Even with the FBI tailing him and Sarah Hart, Mark tries to return to a normal life. But when Sarah goes missing, he knows he can no longer sit back and do nothing. His quest to find her will lead him to new allies and a startling revelation about the Mogadorians\u2019 plan for invasion.",
-    "book_title": "Return to Paradise",
+    "description": "In this thrilling one-hundred-page prequel companion novella, discover what happened in the aftermath of the Mogadorians\u2019 attack on Paradise, Ohio, from Mark James\u2014Number Four\u2019s bully-turned-ally.After Four leaves town to find the rest of the Garde, Mark is left behind to pick up the pieces. His school has been destroyed, his home burned down, and, worst yet, Mark now knows the horrifying truth: aliens live among us and some of them seek to destroy us. Even with the FBI tailing him and Sarah Hart, Mark tries to return to a normal life. But when Sarah goes missing, he knows he can no longer sit back and do nothing. His quest to find her will lead him to new allies and a startling revelation about the Mogadorians\u2019 plan for invasion.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "173_1"
+            "stock_id": "173_1"
         }
     ],
     "metrics": {
         "rating_votes": 3701,
         "score": 3.99
     },
-    "original_book_title": "\n0062287664\n(ISBN13: 9780062287663)\n",
     "pages": 699,
+    "title": "Return to Paradise",
     "url": "https://www.goodreads.com/book/show/18053087-return-to-paradise",
     "year_published": 2014
 }

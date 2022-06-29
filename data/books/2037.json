@@ -1,8 +1,7 @@
 {
-    "author_name": "Nathan W. Pyle",
+    "author": "Nathan W. Pyle",
     "base_id": 2037,
-    "book_description": "I feel more attractive.Honestly, you are.It\u2019s the star damage.I CRAVE STAR DAMAGE.Straight from the mind of New York Times bestselling author Nathan W. Pyle comes an adorable and profound universe in pink, blue, green, and purple. Based on the phenomenally popular Instagram of the same name, Strange Planet covers a full life cycle of the planet\u2019s inhabitants, including milestones such as:The Emergence DayBeing Gains a SiblingThe Being Family Attains a BeastThe Formal Education of a BeingCelebration of Special DaysBeing Begins a VocationThe Beings at HomeHealth Status of a BeingThe Hobbies of a BeingThe Extended Family of the BeingThe Being Reflects on Life While Watching the Planet RotateWith dozens of never-before-seen illustrations in addition to old favorites, this book offers a sweet and hilarious look at a distant world not all that unlike our own.",
-    "book_title": "Strange Planet",
+    "description": "I feel more attractive.Honestly, you are.It\u2019s the star damage.I CRAVE STAR DAMAGE.Straight from the mind of New York Times bestselling author Nathan W. Pyle comes an adorable and profound universe in pink, blue, green, and purple. Based on the phenomenally popular Instagram of the same name, Strange Planet covers a full life cycle of the planet\u2019s inhabitants, including milestones such as:The Emergence DayBeing Gains a SiblingThe Being Family Attains a BeastThe Formal Education of a BeingCelebration of Special DaysBeing Begins a VocationThe Beings at HomeHealth Status of a BeingThe Hobbies of a BeingThe Extended Family of the BeingThe Being Reflects on Life While Watching the Planet RotateWith dozens of never-before-seen illustrations in addition to old favorites, this book offers a sweet and hilarious look at a distant world not all that unlike our own.",
     "editions": [
         "English"
     ],
@@ -20,27 +19,27 @@
     "inventory": [
         {
             "status": "available",
-            "stock_number": "2037_1"
+            "stock_id": "2037_1"
         },
         {
             "status": "available",
-            "stock_number": "2037_2"
+            "stock_id": "2037_2"
         },
         {
             "status": "on_loan",
-            "stock_number": "2037_3"
+            "stock_id": "2037_3"
         },
         {
             "status": "on_loan",
-            "stock_number": "2037_4"
+            "stock_id": "2037_4"
         }
     ],
     "metrics": {
         "rating_votes": 27106,
         "score": 4.33
     },
-    "original_book_title": "Strange Planet",
     "pages": 332,
+    "title": "Strange Planet",
     "url": "https://www.goodreads.com/book/show/44890112-strange-planet",
     "year_published": 2019
 }

@@ -1,8 +1,7 @@
 {
-    "author_name": "Anna Hackett",
+    "author": "Anna Hackett",
     "base_id": 129,
-    "book_description": "Battle-hardened soldier Cruz Ramos is running on empty. As second-in-command of the deadliest commando squad fighting the invading aliens, he doesn't know why he's fighting anymore. He's seen too much destruction, devastation, and far too much death. Still, every day he goes out to protect those humans left, and every day the growing numbness threatens to take over.Until a mysterious woman emerges from the ruins of destroyed Sydney and saves him from a pack of rampaging aliens.Santha Kade has one goal: revenge. The raptors who have devastated the Earth have taken everything from her: her team, her home, her beloved sister. Santha--a former police officer--has spent a year alone in the ruined city, waging her own guerrilla war. Sure, she might get lonely sometimes, but she doesn't have room for anything but vengeance. Not even for a sexy soldier with liquid brown eyes, a bone-melting accent, and a face designed to drive a woman wild.But as Cruz and Santha join forces to rescue human hostages from the aliens, their explosive attraction is impossible to resist. Can these two warriors survive long enough to find something worth living for?Note to readers: This sci fi romance contains a lot of action (think invading aliens, explosions and gunfights), tough warriors (the sexy, battle-hardened soldiers of Hell Squad) and a steamy romance (lots of sexy times between a warrior woman and a sexy soldier). So if you like it fast, and gritty, and sexy, this is for you!Includes preview of Book 3 of the Hell Squad, Gabe.",
-    "book_title": "Cruz",
+    "description": "Battle-hardened soldier Cruz Ramos is running on empty. As second-in-command of the deadliest commando squad fighting the invading aliens, he doesn't know why he's fighting anymore. He's seen too much destruction, devastation, and far too much death. Still, every day he goes out to protect those humans left, and every day the growing numbness threatens to take over.Until a mysterious woman emerges from the ruins of destroyed Sydney and saves him from a pack of rampaging aliens.Santha Kade has one goal: revenge. The raptors who have devastated the Earth have taken everything from her: her team, her home, her beloved sister. Santha--a former police officer--has spent a year alone in the ruined city, waging her own guerrilla war. Sure, she might get lonely sometimes, but she doesn't have room for anything but vengeance. Not even for a sexy soldier with liquid brown eyes, a bone-melting accent, and a face designed to drive a woman wild.But as Cruz and Santha join forces to rescue human hostages from the aliens, their explosive attraction is impossible to resist. Can these two warriors survive long enough to find something worth living for?Note to readers: This sci fi romance contains a lot of action (think invading aliens, explosions and gunfights), tough warriors (the sexy, battle-hardened soldiers of Hell Squad) and a steamy romance (lots of sexy times between a warrior woman and a sexy soldier). So if you like it fast, and gritty, and sexy, this is for you!Includes preview of Book 3 of the Hell Squad, Gabe.",
     "editions": [
         "English"
     ],
@@ -21,15 +20,15 @@
     "inventory": [
         {
             "status": "on_loan",
-            "stock_number": "129_1"
+            "stock_id": "129_1"
         }
     ],
     "metrics": {
         "rating_votes": 1350,
         "score": 4.13
     },
-    "original_book_title": "B00WRMEINO",
     "pages": 899,
+    "title": "Cruz",
     "url": "https://www.goodreads.com/book/show/25440912-cruz",
     "year_published": 2015
 }
