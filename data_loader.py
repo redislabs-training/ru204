@@ -19,7 +19,7 @@ print(f"Connecting to Redis at {args.redis_url}")
 r = redis.from_url(args.redis_url)
 
 books_loaded = 0
-print(f"Loading json files from {args.books_dir}")
+print(f"Loading JSON files from {args.books_dir}")
 for filename in os.listdir(args.books_dir):
     f = os.path.join(args.books_dir, filename)
 
