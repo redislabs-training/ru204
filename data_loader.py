@@ -29,7 +29,7 @@ for filename in os.listdir(args.books_dir):
         book_file = io.open(f, encoding="utf-8")
         book = json.load(book_file)
         book_file.close()
-        redis_key = make_key(book['base_id'])
+        redis_key = make_key(book["base_id"])
         r.json().set(redis_key, "$", book)
         print(f"Stored book {book['title']} at key {redis_key}.")
         books_loaded += 1
