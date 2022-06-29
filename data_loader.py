@@ -7,10 +7,8 @@ import json
 import os
 import redis
 
-REDIS_KEY_BASE = "ru204"
-
 def make_key(book_id):
-    return f"{REDIS_KEY_BASE}:books:{book_id}"
+    return f"ru204:books:{book_id}"
 
 arg_parser = argparse.ArgumentParser(description = "Load JSON data into Redis for RU204.")
 arg_parser.add_argument("--dir", dest="books_dir", required=True, help="Directory containing JSON files to load.")
