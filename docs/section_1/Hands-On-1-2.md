@@ -1,3 +1,5 @@
+> I want to create graphics of a JSON object that will have highlighted sections through the exercise showing what section we will be addressing and the resuling data structures that result. Even if the reader only skims and doesn't run the commands, they'll be able to see the pain of these three methods. - JC 
+
 # Hands-On Exercise: Storing JSON with Redis native data types
 
 Throughout this exercise, we will use this simplified book JSON document as an example. This is an abbreviated form of the book JSON document found within this course's same data set.
@@ -26,7 +28,7 @@ Throughout this exercise, we will use this simplified book JSON document as an e
 }
 ```
 
-## Strings
+## JSON documents stored as Strings
 For this first exercise we will store Raw JSON in Redis as a String.
 
 In RedisInsight or `redis-cli`, use the `SET` command to store Raw JSON as a string.
@@ -36,7 +38,7 @@ In RedisInsight or `redis-cli`, use the `SET` command to store Raw JSON as a str
 OK
 ```
 
-> Note that while Raw JSON is stored as a String within Redis, specific data types cannot be directly accessed or manipulated, as the format is a String primitive and is not recognized as an organized document
+Note that while Raw JSON is stored as a String within Redis, specific data types cannot be directly accessed or manipulated, as the format is a String primitive and is not recognized as an organized document
 
 
 Retrieve the `JSON:serialized-string` with the `GET` command.
@@ -48,7 +50,7 @@ Retrieve the `JSON:serialized-string` with the `GET` command.
 
 This may be an adequate storage solution if an application uses predictably small JSON documents that do not need manipulation or sub-document access.
 
-## Hashes
+## JSON documents stored as Hashes
 The Redis Hash data type is a valid alternative to Strings if the JSON document is flat. Nested objects and lists cannot be stored within Hashes. This can be solved by serializing these sub-documents as strings and stored as fields within the Hash.
 
 ```bash
@@ -84,6 +86,7 @@ This is complex if not extreme example of storing individual fields of JSON as s
 
 Sub-documents (lists and objects) within a JSON document will have their own separate Redis keys, with said keys referenced in the parent JSON object.
 
+<hr/>
 First create the top-level JSON object as a hash. We will use the key name `book:18161`
 
 ```bash
@@ -93,13 +96,17 @@ First create the top-level JSON object as a hash. We will use the key name `book
 
 Notice that the `inventory` field now refers to the value `book:18161:inventory`, which will be the key name storing a list of key names referencing individual hash objects. 'genres' references the key name `book:18161:genres` which will be a separate hash.
 
+<hr/>
+
 Now create the `book:18161:inventory` list:
 ```bash
 > LPUSH book:18161:inventory book:18161:inventory:18161_1 book:18161:inventory:18161_3
 (integer) 2
 ```
 
-Each element within the list will be a hash. Create the two hashes with the key names `book:18161:inventory:18161_1` and `book:18161:inventory:18161_3`` respectively.
+<hr/>
+
+Each element within the list will be a hash. Create the two hashes with the key names `book:18161:inventory:18161_1` and `book:18161:inventory:18161_3` respectively.
 
 ```bash
 > HSET book:18161:inventory:18161_1 stock_number 18161_1 status on_loan
@@ -110,6 +117,7 @@ Each element within the list will be a hash. Create the two hashes with the key 
 > HSET book:18161:inventory:18161_3 stock_number 18161_3 status maintenance
 (integer) 2
 ```
+<hr/>
 
 Lastly, create the `book:18161:genres` hash.
 
