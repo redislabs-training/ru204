@@ -1,60 +1,32 @@
 > I want to create graphics of a JSON object that will have highlighted sections through the exercise showing what section we will be addressing and the resuling data structures that result. Even if the reader only skims and doesn't run the commands, they'll be able to see the pain of these three methods. - JC 
 
-# Hands-On Exercise: Storing JSON with RedisJSON
+# Hands-On Exercise: Storing JSON with Redis native data types
 
-Throughout this exercise, we will use this full-sized book JSON document as an example. This is a sample from the book JSON documents found within this course's same data set.
+Throughout this exercise, we will use this simplified book JSON document as an example. This is an abbreviated form of the book JSON document found within this course's same data set.
 
 ```json
-    {
-        "base_id": 18161,
-        "title": "Obsidian",
-        "pages": 999,
-        "authors": [
-            "Jennifer L. Armentrout"
-        ],
-        "editions": [
-            "English"
-        ],
-        "metrics": {
-            "rating": {
-                "score": 4.17,
-                "votes": 236780
-            },
-            "all_time_loans": 999
+{
+    "base_id": 18161,
+    "title": "Obsidian",
+    "pages": 999,
+    "inventory": [
+        {
+            "stock_number": "18161_1",
+            "status": "on_loan"
         },
-        "inventory": [
-            {
-                "stock_number": "18161_1",
-                "status": "on_loan"
-            },
-            {
-                "stock_number": "18161_2",
-                "status": "available"
-            },
-            {
-                "stock_number": "18161_3",
-                "status": "maintenance"
-            }
-        ],
-        "review_number": 18161,
-        "description": "Starting over sucks.When we moved to West Virginia right before my senior year, I’d pretty much resigned myself to thick accents, dodgy internet access, and a whole lot of boring… until I spotted my hot neighbor, with his looming height and eerie green eyes. Things were looking up.And then he opened his mouth.Daemon is infuriating. Arrogant. Stab-worthy. We do not get along. At all. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, well, something… unexpected happens. The hot alien living next door marks me.You heard me. Alien. Turns out Daemon and his sister have a galaxy of enemies wanting to steal their abilities, and Daemon’s touch has me lit up like the Vegas Strip. The only way I’m getting out of this alive is by sticking close to Daemon until my alien mojo fades. If I don’t kill him first, that is.",
-        "published": 2011,
-        "genres": {
-            "Young Adult": 3439, 
-            "Fantasy (Paranormal) ": 2652, 
-            "Fantasy": 2545, 
-            "Romance": 2507, 
-            "Science Fiction (Aliens) ": 1648, 
-            "Science Fiction": 1170, 
-            "Romance (Paranormal Romance) ": 849, 
-            "Fantasy (Supernatural) ": 494, 
-            "Fantasy (Urban Fantasy) ": 411, 
-            "Fiction": 347
-        },
-        "url": "https://www.goodreads.com/book/show/12578077-obsidian"
+        {
+            "stock_number": "18161_3",
+            "status": "maintenance"
+        }
+    ],
+    "genres": {
+        "Young Adult": 3439, 
+        "Fantasy": 2545, 
+        "Science Fiction (Aliens) ": 1648, 
+        "Science Fiction": 1170
     }
+}
 ```
-
 
 ## JSON documents stored as Strings
 For this first exercise we will store Raw JSON in Redis as a String.
@@ -115,10 +87,10 @@ This is complex if not extreme example of storing individual fields of JSON as s
 Sub-documents (lists and objects) within a JSON document will have their own separate Redis keys, with said keys referenced in the parent JSON object.
 
 <hr/>
-First create the top-level JSON object as a hash. We will use the key name `book:18161`
+First create the top-level JSON object as a hash. We will use the key name `book:18161:hash`
 
 ```bash
-> HSET book:18161 base_id 18161 title Obsidian pages 999 inventory book:18161:inventory genres book:18161:genres
+> HSET book:18161:hash base_id 18161 title Obsidian pages 999 inventory book:18161:inventory genres book:18161:genres
 (integer) 5
 ```
 
