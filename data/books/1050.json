@@ -1,0 +1,47 @@
+{
+    "author": "Ben Marcus",
+    "base_id": "1050",
+    "description": "In The Flame Alphabet, the most maniacally gifted writer of our generation delivers a work of heartbreak and horror, a novel about how far we will go, and the sorrows we will endure, in order to protect our families. \u00a0 A terrible epidemic has struck the country and the sound of children\u2019s speech has become lethal. Radio transmissions from strange sources indicate that people are going into hiding. All Sam and Claire need to do is look around the neighborhood: In the park, parents wither beneath the powerful screams of their children. At night, suburban side streets become routes of shameful escape for fathers trying to get outside the radius of affliction.  \u00a0 With Claire nearing collapse, it seems their only means of survival is to flee from their daughter, Esther, who laughs at her parents\u2019 sickness, unaware that in just a few years she, too, will be susceptible to the language toxicity. But Sam and Claire find it isn\u2019t so easy to leave the daughter they still love, even as they waste away from her malevolent speech. On the eve of their departure, Claire mysteriously disappears, and Sam, determined to find a cure for this new toxic language, presses on alone into a world beyond recognition. \u00a0The Flame Alphabet invites the question: What is left of civilization when we lose the ability to communicate with those we love? Both morally engaged and wickedly entertaining, a gripping page-turner as strange as it is moving, this intellectual horror story ensures Ben Marcus\u2019s position in the first rank of American novelists.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "fantasy": 26,
+        "fiction": 258,
+        "horror": 29,
+        "humanities (language)": 17,
+        "literary fiction": 17,
+        "literature": 14,
+        "novels": 29,
+        "science fiction": 77,
+        "science fiction (dystopia)": 61,
+        "speculative fiction": 14
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1050_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1050_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1050_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1050_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5069,
+        "score": 2.88
+    },
+    "pages": 1091,
+    "title": "The Flame Alphabet",
+    "url": "https://www.goodreads.com/book/show/11325011-the-flame-alphabet",
+    "year_published": 2012
+}

@@ -1,0 +1,39 @@
+{
+    "author": "Lauren Beukes",
+    "base_id": "1480",
+    "description": "Zinzi has a Sloth on her back, a dirty 419 scam habit and a talent for finding lost things. But when a little old lady turns up dead and the cops confiscate her last paycheck, she\u2019s forced to take on her least favourite kind of job \u2013 missing persons.Being hired by reclusive music producer Odi Huron to find a teenybop pop star should be her ticket out of Zoo City, the festering slum where the criminal underclass and their animal companions live in the shadow of hell\u2019s undertow.Instead, it catapults Zinzi deeper into the maw of a city twisted by crime and magic, where she\u2019ll be forced to confront the dark secrets of former lives \u2013 including her own.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "cultural (africa)": 101,
+        "fantasy": 671,
+        "fantasy (urban fantasy)": 364,
+        "fiction": 297,
+        "mystery": 154,
+        "mystery (crime)": 61,
+        "science fiction": 243,
+        "science fiction (dystopia)": 74,
+        "science fiction fantasy": 45,
+        "speculative fiction": 49
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1480_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1480_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 10233,
+        "score": 3.64
+    },
+    "pages": 234,
+    "title": "Zoo City",
+    "url": "https://www.goodreads.com/book/show/7163862-zoo-city",
+    "year_published": 2010
+}

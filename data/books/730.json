@@ -1,0 +1,38 @@
+{
+    "author": "D.J. MacHale",
+    "base_id": "730",
+    "description": "CLORALFOURTEEN-YEAR-OLD Bobby Pendragon is not like other boys his age. His uncle Press is a Traveler, and, as Bobby has learned, that means Uncle Press is responsible, through his journeys, for solving interdimensional conflict wherever he encounters it. His mission is nothing less than to save the universe from ultimate evil. And he's taking Bobby along for the ride.Fresh from his first adventure on Denduron, Bobby finds himself in the territory of Cloral, a vast world that is entirely covered by water. Cloral is nearing a disaster of huge proportions. Reading the journals Bobby sends home, his friends learn that the desperate citizens of the endangered floating cities are on the brink of war. Can Bobby - suburban basketball star and all-around nice guy - help rid the area of marauders, and locate the legendary lost land of Faar, which may hold the key to Cloral's survival?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 93,
+        "childrens": 49,
+        "childrens (middle grade)": 37,
+        "fantasy": 676,
+        "fiction": 121,
+        "science fiction": 128,
+        "science fiction fantasy": 19,
+        "young adult": 353,
+        "young adult (teen)": 27,
+        "young adult (young adult fantasy)": 26
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "730_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "730_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 29339,
+        "score": 4.17
+    },
+    "pages": 641,
+    "title": "The Lost City of Faar",
+    "url": "https://www.goodreads.com/book/show/215543.The_Lost_City_of_Faar",
+    "year_published": 2003
+}

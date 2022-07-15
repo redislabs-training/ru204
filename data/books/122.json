@@ -1,25 +1,26 @@
 {
-    "author": "Mini Grey",
-    "base_id": 122,
-    "description": "A very silly (not-too-scary) story about losing a beloved toy.That summer night, the toys were left outside. . . . For the very first time, the Wonderdoll, the helpful wind-up robot, the thoughtful green dinosaur, and the rest of their plucky gang lie in the grass, gazing up at the stars. But one star seems brighter than the rest. As it grows bigger and bigger, the toys realize it may not be a star at all! Soon they're venturing into the unknown, traveling by spaceship, where they meet a lonely alien in need of help, and some friends.From ever-inventive, award-winning author-illustrator Mini Grey comes a hilarious and heartfelt new adventure: a motley group of toys left outside in the garden become true friends and brave heroes--in space!From the Hardcover edition.",
+    "author": "Jack Finney",
+    "base_id": "122",
+    "description": "About Time offers a delightful return to the world of time travel and light comedy that distinguished Jack Finney's all-time classic Time and Again. The protagonists of these twelve stories are well-meaning but at odds with their surroundings and their lives. The time to which they escape\u2014through time travel\u2014doesn't always fulfill their expectations in the way they had hoped, but sometimes, they can still find their dreams.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Childrens (Storytime) ": 7,
-        "adventure": 7,
-        "aliens": 17,
-        "childrens": 23,
-        "fantasy": 8,
-        "fiction": 8,
+        "anthologies": 8,
+        "fantasy": 20,
+        "fiction": 51,
+        "historical (historical fiction)": 6,
         "humor": 6,
-        "picture books": 110,
-        "science fiction": 12,
-        "space": 25
+        "novels": 4,
+        "science fiction": 53,
+        "science fiction (time travel)": 117,
+        "science fiction fantasy": 7,
+        "short stories": 75
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "122_1"
         },
         {
@@ -27,7 +28,7 @@
             "stock_id": "122_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "122_3"
         },
         {
@@ -35,7 +36,7 @@
             "stock_id": "122_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "122_5"
         },
         {
@@ -45,14 +46,18 @@
         {
             "status": "maintenance",
             "stock_id": "122_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "122_8"
         }
     ],
     "metrics": {
-        "rating_votes": 561,
-        "score": 3.54
+        "rating_votes": 1369,
+        "score": 4.05
     },
-    "pages": 1219,
-    "title": "Toys in Space",
-    "url": "https://www.goodreads.com/book/show/14871777-toys-in-space",
-    "year_published": 2012
+    "pages": 1216,
+    "title": "About Time: 12 Short Stories",
+    "url": "https://www.goodreads.com/book/show/72695.About_Time",
+    "year_published": 1986
 }

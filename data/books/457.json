@@ -1,0 +1,52 @@
+{
+    "author": "Jodi Taylor",
+    "base_id": "457",
+    "description": "Join Max in the sixth instalment in the off-the-wall bestselling Chronicles of St Mary\u2019s series by Jodi Taylor.  Max is back! New husband, new job, and a training regime that cannot fail \u2013 to go wrong!  Take one interim Chief Training Officer, add five recruits, mix with Joan of Arc, a baby mammoth, a duplicitous Father of History, a bombed rat, Stone Age hunters, a couple of passing policemen who should have better things to do, and Dick the Turd.  Stir well, bring to the boil \u2013 and wait for the bang!",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 38,
+        "audiobook": 40,
+        "fantasy": 127,
+        "fiction": 82,
+        "historical": 47,
+        "historical (historical fiction)": 97,
+        "humor": 37,
+        "science fiction": 114,
+        "science fiction (time travel)": 201,
+        "science fiction fantasy": 16
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "457_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "457_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "457_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "457_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "457_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7288,
+        "score": 4.42
+    },
+    "pages": 236,
+    "title": "What Could Possibly Go Wrong",
+    "url": "https://www.goodreads.com/book/show/25634043-what-could-possibly-go-wrong",
+    "year_published": 2015
+}

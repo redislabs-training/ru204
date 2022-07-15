@@ -1,0 +1,56 @@
+{
+    "author": "Philip K. Dick",
+    "base_id": "487",
+    "description": "Dr. Bloodmoney is a post-nuclear-holocaust masterpiece filled with a host of Dick's most memorable characters: Hoppy Harrington, a deformed mutant with telekinetic powers; Walt Dangerfield, a selfless disc jockey stranded in a satellite circling the globe; Dr. Bluthgeld, the megalomaniac physicist largely responsible for the decimated state of the world; and Stuart McConchie and Bonny Keller, two unremarkable people bent on the survival of goodness in a world devastated by evil. Epic and alluring, this brilliant novel is a mesmerizing depiction of Dick's undying hope in humanity.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 51,
+        "fantasy": 18,
+        "fiction": 149,
+        "literature (american)": 13,
+        "novels": 27,
+        "science fiction": 451,
+        "science fiction (apocalyptic)": 22,
+        "science fiction (dystopia)": 21,
+        "science fiction fantasy": 22,
+        "speculative fiction": 25
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "487_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "487_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "487_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "487_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "487_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "487_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7499,
+        "score": 3.68
+    },
+    "pages": 524,
+    "title": "Dr. Bloodmoney",
+    "url": "https://www.goodreads.com/book/show/636108.Dr_Bloodmoney",
+    "year_published": 1965
+}

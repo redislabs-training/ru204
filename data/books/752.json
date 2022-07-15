@@ -1,0 +1,67 @@
+{
+    "author": "Vivian Vande Velde",
+    "base_id": "752",
+    "description": "In the virtual reality game Heir Apparent, there are way too many ways to get killed--and Giannine seems to be finding them all. Which is a darn shame, because unless she can get the magic ring, locate the stolen treasure, answer the dwarf's dumb riddles, impress the head-chopping statue, charm the army of ghosts, fend off the barbarians, and defeat the man-eating dragon, she'll never win. And she has to, because losing means she'll die--for real this time. ",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 77,
+        "childrens (middle grade)": 26,
+        "fantasy": 471,
+        "fiction": 75,
+        "humor": 25,
+        "science fiction": 206,
+        "science fiction (virtual reality)": 26,
+        "young adult": 279,
+        "young adult (teen)": 40,
+        "young adult (young adult fantasy)": 31
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "752_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "752_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "752_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "752_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "752_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "752_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "752_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "752_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "752_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9927,
+        "score": 4.1
+    },
+    "pages": 978,
+    "title": "Heir Apparent",
+    "url": "https://www.goodreads.com/book/show/213652.Heir_Apparent",
+    "year_published": 2002
+}

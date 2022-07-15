@@ -1,0 +1,64 @@
+{
+    "author": "Cherie Priest",
+    "base_id": "927",
+    "description": "Lizzie Borden took an axe and gave her mother forty whacks; and when she saw what she had done, she gave her father forty-one.... \u00a0 The people of Fall River, Massachusetts, fear me. Perhaps rightfully so. I remain a suspect in the brutal deaths of my father and his second wife despite the verdict of innocence at my trial. With our inheritance, my sister, Emma, and I have taken up residence in Maplecroft, a mansion near the sea and far from gossip and scrutiny. \u00a0 But it is not far enough from the affliction that possessed my parents. Their characters, their very souls, were consumed from within by something that left malevolent entities in their place. It originates from the ocean\u2019s depths, plaguing the populace with tides of nightmares and madness. \u00a0 This evil cannot hide from me. No matter what guise it assumes, I will be waiting for it. With an axe. \u00a0",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 332,
+        "fantasy (paranormal)": 99,
+        "fantasy (supernatural)": 46,
+        "fantasy (urban fantasy)": 57,
+        "fiction": 137,
+        "gothic": 39,
+        "historical": 92,
+        "historical (historical fiction)": 182,
+        "horror": 575,
+        "mystery": 57
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "927_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "927_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "927_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "927_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "927_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "927_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "927_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "927_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4307,
+        "score": 3.58
+    },
+    "pages": 225,
+    "title": "Maplecroft",
+    "url": "https://www.goodreads.com/book/show/20821288-maplecroft",
+    "year_published": 2014
+}

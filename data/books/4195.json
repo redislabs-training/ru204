@@ -1,0 +1,47 @@
+{
+    "author": "Robert Kirkman",
+    "base_id": "4195",
+    "description": "The world we knew is gone. The world of commerce and frivolous necessity has been replaced by a world of survival and responsibility. An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months society has crumbled: no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, the survivors are forced to finally start living.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 258,
+        "comics (comic book)": 264,
+        "fantasy": 135,
+        "fiction": 511,
+        "graphic novels comics": 332,
+        "horror": 1650,
+        "horror (zombies)": 997,
+        "science fiction (dystopia)": 169,
+        "sequential art (comics)": 2812,
+        "sequential art (graphic novels)": 2980
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4195_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4195_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "4195_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4195_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 207114,
+        "score": 4.27
+    },
+    "pages": 285,
+    "title": "The Walking Dead, Vol. 1: Days Gone Bye",
+    "url": "https://www.goodreads.com/book/show/138398.The_Walking_Dead_Vol_1",
+    "year_published": 2004
+}

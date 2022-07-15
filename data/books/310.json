@@ -1,21 +1,23 @@
 {
-    "author": "Anna Hackett",
-    "base_id": 310,
-    "description": "Fighting for love, honor, and freedom on the galaxy\u2019s lawless outer rim\u2026When Earth space marine Harper Adams finds herself abducted by alien slavers off a space station, her life turns into a battle for survival. Dumped into an arena on a desert planet on the outer rim, she finds herself face to face with a big, tattooed alien gladiator\u2026the champion of the Kor Magna Arena.A former prince abandoned to the arena as a teen, Raiden Tiago has long ago earned his freedom. Now he rules the arena, but he doesn\u2019t fight for the glory, but instead for his own dark purpose\u2014revenge against the Thraxian aliens who destroyed his planet. Then his existence is rocked by one small, fierce female fighter from an unknown planet called Earth.Harper is determined to find a way home, but when she spots her best friend in the arena\u2014a slave of the evil Thraxian aliens\u2014she\u2019ll do anything to save her friend\u2026even join forces with the tough, alpha male who sets her body on fire. But as Harper and Raiden step foot onto the blood-soaked sands of the arena, Harper worries that Raiden has his own dangerous agenda\u2026 ",
+    "author": "Andre Norton",
+    "base_id": "310",
+    "description": "If it is possible to conquer space, then perhaps it is also possible to conquer time. At least that was the theory American scientists were exploring in an effort to explain the new sources of knowledge the Russians possessed. Perhaps Russian scientists had discovered how to transport themselves back in time in order to learn long-forgotten secrets of the past. That was why young Ross Murdock, above average in intelligence but a belligerently independent nonconformist, found himself on a \"hush-hush\" government project at a secret base in the Arctic. The very qualities that made him a menace in civilized society were valuable traits in a man who must successfully act the part of a merchant trader of the Beaker people during the Bronze Age.For once they were transferred by time machine to the remote Baltic region where the Russian post was located, Ross and his partner Ashe were swept into a fantastic action-filled adventure involving Russians, superstitious prehistoric men, and the aliens of a lost galactic civilization that demanded every ounce of courage the Americans possessed.Approx. 7 hours",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 12,
-        "adult": 11,
-        "aliens": 73,
-        "fantasy": 25,
-        "futuristic": 12,
-        "paranormal": 10,
-        "paranormal romance": 17,
-        "romance": 108,
-        "science fiction": 91,
-        "science fiction romance": 37
+        "adventure": 10,
+        "audiobook": 9,
+        "classics": 10,
+        "fantasy": 27,
+        "fiction": 66,
+        "science fiction": 292,
+        "science fiction (time travel)": 88,
+        "science fiction fantasy": 16,
+        "speculative fiction": 6,
+        "young adult": 10
     },
     "inventory": [
         {
@@ -31,24 +33,24 @@
             "stock_id": "310_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "310_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "310_5"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "310_6"
         }
     ],
     "metrics": {
-        "rating_votes": 3315,
-        "score": 4.02
+        "rating_votes": 4478,
+        "score": 3.75
     },
-    "pages": 1168,
-    "title": "Gladiator",
-    "url": "https://www.goodreads.com/book/show/32738657-gladiator",
-    "year_published": 2016
+    "pages": 1198,
+    "title": "The Time Traders",
+    "url": "https://www.goodreads.com/book/show/462373.The_Time_Traders",
+    "year_published": 1958
 }

@@ -1,42 +1,62 @@
 {
-    "author": "Megan Crewe",
-    "base_id": 245,
-    "description": "Seventeen-year-old Skylar has been haunted for as long as she can remember by fleeting yet powerful sensations that something is horribly wrong. But despite the panic attacks tormenting her, nothing ever happens, and Sky\u2019s beginning to think she\u2019s crazy. Then she meets a mysterious, otherworldly boy named Win and discovers the shocking truth her premonitions have tapped into: our world no longer belongs to us. For thousands of years, Earth has been at the mercy of alien scientists who care nothing for its inhabitants and are using us as the unwitting subjects of their time-manipulating experiments. Win belongs to a rebel faction seeking to put a stop to it, and he needs Skylar\u2019s help--but with each shift in the past, the very fabric of reality is unraveling, and soon there may be no Earth left to save.",
+    "author": "Isobelle Carmody",
+    "base_id": "245",
+    "description": "A Children's Book Council of Australia Honor Book In this powerful sequel to Obernewtyn, young Elspeth Gordie-possessed of extraordinary mental powers-has united with others Misfits for refuge on the remote mountain keep of Obernewtyn. Yet the threat from the totalitarian Council to their safety is ever present. Their only defense is to work hard to develop their mental powers before an inevitable confrontation. But when Elspeth is lured off the mountain in a dangerous quest to rescue a powerful Misfit, the fate of the Obernewtyn colony will hang in the balance.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 9,
-        "aliens": 40,
-        "dystopia": 15,
-        "fantasy": 33,
-        "fiction": 14,
-        "romance": 18,
-        "science fiction": 76,
-        "space": 7,
-        "time travel": 32,
-        "young adult": 101
+        "adventure": 24,
+        "apocalyptic (post apocalyptic)": 50,
+        "fantasy": 506,
+        "fantasy (magic)": 19,
+        "fantasy (paranormal)": 18,
+        "fiction": 41,
+        "science fiction": 69,
+        "science fiction (dystopia)": 70,
+        "science fiction fantasy": 18,
+        "young adult": 210
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "245_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "245_2"
         },
         {
             "status": "maintenance",
             "stock_id": "245_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "245_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "245_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "245_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "245_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "245_8"
         }
     ],
     "metrics": {
-        "rating_votes": 880,
-        "score": 3.48
+        "rating_votes": 7253,
+        "score": 4.13
     },
-    "pages": 565,
-    "title": "Earth & Sky",
-    "url": "https://www.goodreads.com/book/show/17875055-earth-sky",
-    "year_published": 2014
+    "pages": 751,
+    "title": "The Farseekers",
+    "url": "https://www.goodreads.com/book/show/47906.The_Farseekers",
+    "year_published": 1990
 }

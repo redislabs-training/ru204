@@ -1,17 +1,20 @@
 {
-    "author": "Poppy Rhys",
-    "base_id": 65,
-    "description": "An ordinary night at Revolution 5, right? Wrong. So wrong.Dania just wanted a normal life on Dor Nye after years of living a nomadic existence among the stars. But when a rude and dangerous alien playboy sits down at the bar where she works, everything changes.No questions. No strings. No names.Suddenly her future flies into a tailspin that lands her back in the lawless wild west of space. It's a fight for life, love, and a future she didn't think was possible any longer.Will she survive it?WARNING: This story contains M/F/M, non-human alien heroes, a chubby heroine, mature content, graphic language, and some violence against women. Possible triggers for sensitive readers. ",
+    "author": "Poul Anderson",
+    "base_id": "65",
+    "description": "A power struggle for time itself.The corridors of time connect the ages to each other. Through them, one can travel backwards and forwards over the history of man. But rival factions have waged war for centuries.... Malcolm is an ordinary man of today, caught up in a time war beyond his comprehension....Cover Illustration by Anthony Roberts.",
     "editions": [
-        "None"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 22,
-        "erotica": 6,
-        "polyamorous": 4,
-        "romance": 12,
-        "science fiction": 13,
-        "science fiction romance": 4
+        "fantasy": 3,
+        "fiction": 17,
+        "literature (american)": 2,
+        "science fiction": 96,
+        "science fiction (time travel)": 34,
+        "science fiction fantasy": 7,
+        "speculative fiction": 4
     },
     "inventory": [
         {
@@ -19,24 +22,40 @@
             "stock_id": "65_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "65_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "65_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "65_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "65_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "65_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "65_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "65_8"
         }
     ],
     "metrics": {
-        "rating_votes": 515,
-        "score": 4.32
+        "rating_votes": 790,
+        "score": 3.62
     },
-    "pages": 205,
-    "title": "The Melier: Prodigal Son",
-    "url": "https://www.goodreads.com/book/show/53163613-the-melier",
-    "year_published": 2019
+    "pages": 450,
+    "title": "The Corridors of Time",
+    "url": "https://www.goodreads.com/book/show/890300.The_Corridors_of_Time",
+    "year_published": 1965
 }

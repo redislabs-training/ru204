@@ -1,21 +1,22 @@
 {
-    "author": "R. Lee Smith",
-    "base_id": 1010,
-    "description": "It was her last chance:Amber Bierce had nothing left except her sister and two tickets on Earth\u2019s first colony-ship. She entered her Sleeper with a five-year contract and the promise of a better life, but awakened in wreckage on an unknown world. For the survivors, there is no rescue, no way home and no hope until they are found by Meoraq\u2014a holy warrior more deadly than any hungering beast on this hostile new world\u2026but whose eyes show a different sort of hunger when he looks at her.It was his last year of freedom:Uyane Meoraq is a Sword of Sheul, God\u2019s own instrument of judgment, victor of hundreds of trials, with a conqueror\u2019s rights over all men. Or at least he was until his father\u2019s death. Now, without divine intervention, he will be forced to assume stewardship over House Uyane and lose the life he has always known. At the legendary temple of Xi\u2019Matezh, Meoraq hopes to find the deliverance he seeks, but the humans he encounters on his pilgrimage may prove too great a test even for him\u2026especially the one called Amber, behind whose monstrous appearance burns a woman\u2019s heart unlike any he has ever known.",
+    "author": "Selden Edwards",
+    "base_id": "1010",
+    "description": "An irresistible triumph of the imagination more than thirty years in the making, The Little Book is a breathtaking love story that spans generations, ranging from fin de si\u00e8cle Vienna through the pivotal moments of the twentieth century.The Little Book is the extraordinary tale of Wheeler Burden, California-exiled heir of the famous Boston banking Burdens, philosopher, student of history, legend's son, rock idol, writer, lover of women, recluse, half-Jew, and Harvard baseball hero. In 1988 he is forty-seven, living in San Francisco. Suddenly he is - still his modern self - wandering in a city and time he knows mysteriously well: fin de si\u00e8cle Vienna. It is 1897, precisely ninety-one years before his last memory and a half-century before his birth. It's not long before Wheeler has acquired appropriate clothes, money, lodging, a group of young Viennese intellectuals as friends, a mentor in Sigmund Freud, a bitter rival, a powerful crush on a luminous young American woman, a passing acquaintance with local celebrity Mark Twain, and an incredible and surprising insight into the dashing young war-hero father he never knew. But the truth at the center of Wheeler's dislocation in time remains a stubborn mystery that will take months of exploration and a lifetime of memories to unravel and that will, in the end, reveal nothing short of the eccentric Burden family's unrivaled impact on the very course of the coming century. The Little Book is a masterpiece of unequaled storytelling that announces Selden Edwards as one of the most dazzling, original, entertaining, and inventive novelists of our time.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 43,
-        "aliens": 203,
-        "dark": 104,
-        "erotica": 45,
-        "fantasy": 127,
-        "horror": 36,
-        "paranormal": 40,
-        "romance": 232,
-        "science fiction": 308,
-        "science fiction romance": 48
+        "adult fiction": 13,
+        "adventure": 14,
+        "audiobook": 10,
+        "fantasy": 60,
+        "fiction": 179,
+        "historical": 36,
+        "historical (historical fiction)": 174,
+        "mystery": 19,
+        "science fiction": 23,
+        "science fiction (time travel)": 116
     },
     "inventory": [
         {
@@ -23,20 +24,28 @@
             "stock_id": "1010_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1010_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1010_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1010_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1010_5"
         }
     ],
     "metrics": {
-        "rating_votes": 5474,
-        "score": 4.09
+        "rating_votes": 4596,
+        "score": 3.73
     },
-    "pages": 1342,
-    "title": "The Last Hour of Gann",
-    "url": "https://www.goodreads.com/book/show/18589656-the-last-hour-of-gann",
-    "year_published": 2013
+    "pages": 446,
+    "title": "The Little Book",
+    "url": "https://www.goodreads.com/book/show/3004139-the-little-book",
+    "year_published": 2008
 }

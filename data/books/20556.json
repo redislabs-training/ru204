@@ -1,0 +1,67 @@
+{
+    "author": "Charles Dickens",
+    "base_id": "20556",
+    "description": "'If I had my way, every idiot who goes around with Merry Christmas on his lips, would be boiled with his own pudding, and buried with a stake of holly through his heart. Merry Christmas? Bah humbug!'Introduction and Afterword by Joe WheelerTo bitter, miserly Ebenezer Scrooge, Christmas is just another day. But all that changes when the ghost of his long-dead business partner appears, warning Scrooge to change his ways before it's too late. Part of the Focus on the Family Great Stories collection, this edition features an in-depth introduction and discussion questions by Joe Wheeler to provide greater understanding for today's reader. \"A Christmas Carol\" captures the heart of the holidays like no other novel.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 751,
+        "classics": 17951,
+        "classics (classic literature)": 520,
+        "fantasy": 1771,
+        "fiction": 6069,
+        "historical (historical fiction)": 732,
+        "holiday": 597,
+        "holiday (christmas)": 2673,
+        "literature": 944,
+        "literature (19th century)": 533
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "20556_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20556_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "20556_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "20556_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20556_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20556_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "20556_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "20556_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20556_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 633645,
+        "score": 4.07
+    },
+    "pages": 316,
+    "title": "A Christmas Carol",
+    "url": "https://www.goodreads.com/book/show/5326.A_Christmas_Carol",
+    "year_published": 1843
+}

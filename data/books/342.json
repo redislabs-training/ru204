@@ -1,21 +1,22 @@
 {
-    "author": "Joe Haldeman",
-    "base_id": 342,
-    "description": "Two aliens have wandered Earth for centuries. The Changeling has survived by adapting the forms of many different organisms. The Chameleon destroys anything or anyone that threatens it.Now, a sunken relic that holds the key to their origins calls to them to take them home\u2014but the Chameleon has decided there's only room for one.",
+    "author": "Garth Nix",
+    "base_id": "342",
+    "description": "The fifth book in Garth Nix's New York Times bestselling series!Four of the seven Trustees have been defeated and their Keys taken, but for Arthur, the week is still getting worse. Suzy Blue and Fred Gold Numbers have been captured by the Piper, and his New Nithling army still controls most of the Great Maze. Superior Saturday is causing trouble wherever she can, including turning off all the elevators in the House and blocking the Front Door.  Amidst all this trouble, Arthur must weigh an offer from Lady Friday that is either a cunning trap for the Rightful Heir or a golden opportunity he must seize - before he's beaten to it!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 10,
-        "aliens": 24,
-        "audiobook": 9,
-        "fantasy": 5,
-        "fiction": 95,
-        "military fiction": 5,
-        "science fiction": 319,
-        "science fiction fantasy": 16,
-        "speculative fiction": 6,
-        "war": 5
+        "adventure": 73,
+        "childrens": 78,
+        "childrens (middle grade)": 55,
+        "fantasy": 892,
+        "fantasy (magic)": 44,
+        "fiction": 127,
+        "science fiction fantasy": 23,
+        "young adult": 278,
+        "young adult (teen)": 21,
+        "young adult (young adult fantasy)": 37
     },
     "inventory": [
         {
@@ -23,16 +24,36 @@
             "stock_id": "342_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "342_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "342_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "342_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "342_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "342_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "342_7"
         }
     ],
     "metrics": {
-        "rating_votes": 5759,
-        "score": 3.64
+        "rating_votes": 21156,
+        "score": 3.92
     },
-    "pages": 344,
-    "title": "Camouflage",
-    "url": "https://www.goodreads.com/book/show/21607.Camouflage",
-    "year_published": 2004
+    "pages": 1169,
+    "title": "Lady Friday",
+    "url": "https://www.goodreads.com/book/show/17206.Lady_Friday",
+    "year_published": 2007
 }

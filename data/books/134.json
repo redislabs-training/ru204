@@ -1,53 +1,43 @@
 {
-    "author": "Michelle M. Pillow",
-    "base_id": 134,
-    "description": "Mining ash on a remote planet where temperatures reach hellish degrees doesn't leave Kal (aka Spark) much room for dating. Lucky for this hard-working man, a new corporation Galaxy Alien Mail Order Brides is ready to help him find the girl of his dreams. Does it really matter that he lied on his application and really isn't looking for long term, but rather some fast action? Earth women better watch out. Things are about to heat up.",
+    "author": "Philip Reeve",
+    "base_id": "134",
+    "description": "Zen and Nova have ridden a train from one world to another before. They come from the Network Empire, whose stations are scattered across half the galaxy. But this time it's different. They've passed through a gate which shouldn't exist at all. They did terrible things to open it, they don't know where it leads, and now they can never go back.Chandni Hansa has just been defrosted from the prison freezers by the new Empress of the Great Network. When railwar erupts around them, the two find themselves running for their lives. But where can they run, when nowhere is safe?And all the while, the mysterious Black Light Zone is calling them. But as their lines separate and intersect, among trainsong and engine-roar, battle cries and gunfire, will they find a way home? If home even exists any more...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 4,
-        "aliens": 18,
-        "fantasy": 12,
-        "humor": 3,
-        "paranormal": 18,
-        "paranormal romance": 7,
-        "romance": 28,
-        "science fiction": 22,
-        "science fiction romance": 7
+        "adventure": 10,
+        "fantasy": 27,
+        "fiction": 7,
+        "science fiction": 47,
+        "science fiction (cyberpunk)": 3,
+        "science fiction (dystopia)": 3,
+        "science fiction (steampunk)": 11,
+        "science fiction fantasy": 4,
+        "young adult": 43,
+        "young adult (teen)": 5
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "134_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "134_2"
         },
         {
             "status": "on_loan",
             "stock_id": "134_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "134_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "134_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "134_6"
         }
     ],
     "metrics": {
-        "rating_votes": 1013,
-        "score": 3.47
+        "rating_votes": 824,
+        "score": 4.2
     },
-    "pages": 296,
-    "title": "Spark",
-    "url": "https://www.goodreads.com/book/show/31352933-spark",
+    "pages": 1093,
+    "title": "Black Light Express",
+    "url": "https://www.goodreads.com/book/show/31076885-black-light-express",
     "year_published": 2016
 }

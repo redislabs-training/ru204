@@ -1,34 +1,47 @@
 {
-    "author": "Kimberly Derting",
-    "base_id": 292,
-    "description": "Romantic and action-packed, The Replaced is the gripping second installment in the Taking trilogy.Kyra hasn't been the same since she returned from her mysterious five-year disappearance. Now, on the run from the NSA, Kyra is forced to hide out with others who, like her, have been Returned. Yet she is determined to find Tyler, the boy she loves who was also abducted\u2014all because of her. When her group intercepts a message that Tyler might still be alive but is in the hands of a shadowy government organization that experiments on the Returned, Kyra knows it's a risk to go after him. What if it's a trap? And worse, what if the returned Tyler isn't the same boy she lost? Perfect for fans of The Fifth Wave and the Body Finder series, The Replaced is both chilling and explosive, with creepy, otherworldly elements and twisty, psychological thrills that will have you questioning what exactly it means to be human.",
+    "author": "Tatyana Tolstaya",
+    "base_id": "292",
+    "description": "Two hundred years after civilization ended in an event known as the Blast, Benedikt isn't one to complain. He's got a job \u2014 transcribing old books and presenting them as the words of the great new leader, Fyodor Kuzmich, Glorybe \u2014 and though he doesn't enjoy the privileged status of a Murza, at least he's not a serf or a half-human four-legged Degenerator harnessed to a troika. He has a house, too, with enough mice to cook up a tasty meal, and he's happily free of mutations: no extra fingers, no gills, no cockscombs sprouting from his eyelids. And he's managed \u2014 at least so far \u2014 to steer clear of the ever-vigilant Saniturions, who track down anyone who manifests the slightest sign of Freethinking, and the legendary screeching Slynx that waits in the wilderness beyond.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 48,
-        "dystopia": 11,
-        "fantasy": 21,
-        "fiction": 17,
-        "paranormal": 23,
-        "romance": 21,
-        "science fiction": 62,
-        "teen": 13,
-        "young adult": 72,
-        "young adult science fiction": 8
+        "apocalyptic (post apocalyptic)": 63,
+        "cultural (russia)": 178,
+        "fantasy": 28,
+        "fiction": 206,
+        "literature": 19,
+        "literature (russian literature)": 70,
+        "novels": 21,
+        "science fiction": 133,
+        "science fiction (apocalyptic)": 18,
+        "science fiction (dystopia)": 113
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "292_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "292_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "292_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "292_4"
         }
     ],
     "metrics": {
-        "rating_votes": 2009,
-        "score": 3.77
+        "rating_votes": 3814,
+        "score": 3.81
     },
-    "pages": 918,
-    "title": "The Replaced",
-    "url": "https://www.goodreads.com/book/show/21522102-the-replaced",
-    "year_published": 2015
+    "pages": 346,
+    "title": "The Slynx",
+    "url": "https://www.goodreads.com/book/show/310722.The_Slynx",
+    "year_published": 2000
 }

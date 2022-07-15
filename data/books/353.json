@@ -1,0 +1,48 @@
+{
+    "author": "Alastair Reynolds",
+    "base_id": "353",
+    "description": "It is a thousand years in the future. Mankind is making its way out into the universe on massive generation ships.On the Steel Breeze is the follow-up to Blue Remembered Earth. It is both a sequel and a standalone novel, which just happens to be set in the same universe and revolves around members of the Akinya family.The central character, Chiku, is totally new, although she is closely related to characters in the first book. The action involves a 220-year expedition to an extrasolar planet aboard a caravan of huge iceteroid 'holoships', the tension between human and artificial intelligence... and, of course, elephants.Lots of elephants.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 8,
+        "audiobook": 13,
+        "fiction": 62,
+        "science fiction": 269,
+        "science fiction (aliens)": 4,
+        "science fiction (hard science fiction)": 12,
+        "science fiction fantasy": 9,
+        "space": 5,
+        "space (space opera)": 51,
+        "speculative fiction": 5
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "353_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "353_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "353_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "353_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5910,
+        "score": 4.03
+    },
+    "pages": 375,
+    "title": "On the Steel Breeze",
+    "url": "https://www.goodreads.com/book/show/15999018-on-the-steel-breeze",
+    "year_published": 2013
+}

@@ -1,25 +1,27 @@
 {
     "author": "Patrick Ness",
-    "base_id": 503,
+    "base_id": "503",
     "description": "Snowscape is set after the end of Monsters of Men, so that\u2019s when you should read it.That\u2019s all I\u2019ll say, I don\u2019t want to give anything away. ;-)- Patrick Ness",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
         "action": 7,
         "adventure": 13,
-        "aliens": 20,
-        "dystopia": 88,
-        "fantasy": 64,
-        "fiction": 48,
-        "novella": 34,
-        "science fiction": 104,
+        "fantasy": 63,
+        "fiction": 49,
+        "novella": 33,
+        "science fiction": 103,
+        "science fiction (aliens)": 20,
+        "science fiction (dystopia)": 88,
         "short stories": 121,
-        "young adult": 144
+        "young adult": 143
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "503_1"
         },
         {
@@ -31,15 +33,27 @@
             "stock_id": "503_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "503_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "503_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "503_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "503_7"
         }
     ],
     "metrics": {
-        "rating_votes": 3426,
+        "rating_votes": 3425,
         "score": 4.12
     },
-    "pages": 542,
+    "pages": 501,
     "title": "Snowscape",
     "url": "https://www.goodreads.com/book/show/17926802-snowscape",
     "year_published": 2013

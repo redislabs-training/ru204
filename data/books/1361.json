@@ -1,0 +1,52 @@
+{
+    "author": "David Brin",
+    "base_id": "1361",
+    "description": "This is the story of a lie that became the most powerful kind of truth.\u00a0A timeless novel as urgently compelling as War Day or Alas, Babylon, David Brin's The Postman is the dramatically moving saga of a man who rekindled the spirit of America through the power of a dream, from a modern master of science fiction.He was a survivor--a wanderer who traded tales for food and shelter in the dark and savage aftermath of a devastating war.\u00a0Fate touches him one chill winter's day when he borrows the jacket of a long-dead postal worker to protect himself from the cold.\u00a0The old, worn uniform still has power as a symbol of hope, and with it he begins to weave his greatest tale, of a nation on the road to recovery.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 37,
+        "apocalyptic (post apocalyptic)": 417,
+        "fantasy": 79,
+        "fiction": 489,
+        "science fiction": 1065,
+        "science fiction (apocalyptic)": 117,
+        "science fiction (dystopia)": 161,
+        "science fiction fantasy": 66,
+        "speculative fiction": 50,
+        "war": 30
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1361_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1361_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1361_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1361_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1361_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32070,
+        "score": 3.89
+    },
+    "pages": 1271,
+    "title": "The Postman",
+    "url": "https://www.goodreads.com/book/show/889284.The_Postman",
+    "year_published": 1985
+}

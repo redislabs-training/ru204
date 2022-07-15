@@ -1,0 +1,63 @@
+{
+    "author": "Tamora Pierce",
+    "base_id": "858",
+    "description": "As the only female page in history to last beyond the first year of formal training to become a knight, 11-year-old Keladry of Mindelan has an uphill battle to fight. In addition to proving herself worthy of being a page, Kel spends her time defending first-year pages from bullies, staying on top of homework, conquering her paralyzing fear of heights, and keeping up with Lord Wyldon's grueling physical training schedule. Kel's detractors do everything in their power to thwart her progress, from tormenting her friends to sabotaging the Midwinter Festivities to kidnapping her maid and dog on the day of final examinations. The tide of resistance begins to turn slightly during the summer between Kel's second and third years, when she leads a team of pages in defensive maneuvers against renegade bandits--coincidentally on the same day that she gets her first period.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 207,
+        "childrens": 146,
+        "childrens (middle grade)": 137,
+        "fantasy": 2966,
+        "fantasy (high fantasy)": 108,
+        "fantasy (magic)": 171,
+        "fiction": 297,
+        "young adult": 1313,
+        "young adult (teen)": 100,
+        "young adult (young adult fantasy)": 201
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "858_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "858_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "858_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "858_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "858_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "858_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "858_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "858_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 48753,
+        "score": 4.19
+    },
+    "pages": 1209,
+    "title": "Page",
+    "url": "https://www.goodreads.com/book/show/153785.Page",
+    "year_published": 2000
+}

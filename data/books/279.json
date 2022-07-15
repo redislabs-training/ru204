@@ -1,21 +1,22 @@
 {
-    "author": "Ann Aguirre",
-    "base_id": 279,
-    "description": "Regret nothing. Sirantha Jax has the J-gene, which permits her to \u201cjump\u201d faster-than-light ships through grimspace. She loves nothing more than that rush, but the star roads have to wait\u2026 Her final mission takes her to La\u2019heng, a planet subjugated during first contact. Since then, the La\u2019hengrin homeworld has been occupied by foreign conquerors. All that\u2019s about to change. Now, as part of a grassroots resistance, Jax means to liberate the La\u2019hengrin. But political intrigue and guerrilla warfare are new to her, and this will be the most dangerous game she\u2019s ever played\u2014spies and conspiracies, a war of weapons and hearts, and not everyone is guaranteed to make it out alive...",
+    "author": "Jerry Dubs",
+    "base_id": "279",
+    "description": "\"Imhotep\" is the first book in a four-novel series about the ancient Egyptian architect.  Stumbling in the dark of an unfinished tomb beneath the sands of Saqqara, American tourist Tim Hope unknowingly passes through a time portal that leads to ancient Egypt \u2014 a time before the Sphinx, before the great pyramids of Giza, and long before the loss of his beloved Addy.  When he discovers that two other Americans preceded him through the time portal, Tim immerses himself in the ancient world to search for them. As he becomes more comfortable with the simpler, more immediate land, he finds himself irresistibly attracted to the delicate Meryt, a wbt-priestess for the god Re.  Learning that a seven-year famine has led to a plot to overthrow King Djoser, Tim discovers that his fate, the lives of the two Americans and the future of Egypt rest in the hands of the legendary Imhotep, master architect of the Step Pyramid, renowned physician and intimate adviser to King Djoser. Downloaded by more than 100,000 readers, \u201cImhotep\" is the first book in an acclaimed four-book series about the ancient Egyptian architect Imhotep. The second book in the series is \"The Buried Pyramid.\" The third book is \"The Forest of Myrrh.\" The fourth book is \"The Field of Reeds.\"",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 13,
-        "aliens": 28,
-        "fantasy": 31,
-        "fiction": 21,
-        "romance": 70,
-        "science fiction": 221,
-        "science fiction romance": 13,
-        "space": 23,
-        "space opera": 31,
-        "urban fantasy": 18
+        "adventure": 8,
+        "business (amazon)": 4,
+        "fantasy": 36,
+        "fiction": 48,
+        "historical": 34,
+        "historical (historical fiction)": 59,
+        "mystery": 7,
+        "northern africa (egypt)": 17,
+        "science fiction": 23,
+        "science fiction (time travel)": 37
     },
     "inventory": [
         {
@@ -29,22 +30,14 @@
         {
             "status": "maintenance",
             "stock_id": "279_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "279_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "279_5"
         }
     ],
     "metrics": {
-        "rating_votes": 2794,
-        "score": 4.02
+        "rating_votes": 3170,
+        "score": 3.88
     },
-    "pages": 899,
-    "title": "Endgame",
-    "url": "https://www.goodreads.com/book/show/13543136-endgame",
-    "year_published": 2012
+    "pages": 306,
+    "title": "Imhotep",
+    "url": "https://www.goodreads.com/book/show/8946858-imhotep",
+    "year_published": 2010
 }

@@ -1,24 +1,25 @@
 {
-    "author": "Tiffany Roberts",
-    "base_id": 96,
-    "description": "Arthos, the Infinite City, is a place of alien wonders and indescribable beauty\u2014and, most importantly for Samantha, it\u2019s also halfway across the universe from her abusive ex-fianc\u00e9. She came to the city desperate for a fresh start, but she finds herself downtrodden on a world of aloof alien beings with little hope of finding her place\u2014and a good chance of being kidnapped or killed before she can even settle in.At least until she is saved by an irresistible alien with piercing eyes and a seductive smile.Alkorin is the living embodiment of temptation, and he makes no effort to disguise his desire for her. But when his past threatens to drag her into a dangerous underworld, she discovers he isn\u2019t who he claims to be. After enduring so much suffering, can she bear to take a leap of faith with this mysterious alien? Can she trust him with not only her life, but her heart?----**Warning: This book contains sexual content and sexual violence.**",
+    "author": "Zetta Elliott",
+    "base_id": "96",
+    "description": "Genna Colon desperately wants to escape from a drug-infested world of poverty, and every day she wishes for a different life. One day Genna's wish is granted and she is instantly transported back to Civil War-era Brooklyn.",
     "editions": [
-        "None"
+        "english"
     ],
     "genres": {
-        "aliens": 21,
-        "fantasy": 2,
-        "futuristic": 2,
-        "humor": 2,
-        "paranormal": 2,
-        "paranormal romance": 3,
-        "romance": 13,
-        "science fiction": 20,
-        "science fiction romance": 6
+        "cultural (african american)": 6,
+        "fantasy": 32,
+        "fiction": 17,
+        "historical": 13,
+        "historical (historical fiction)": 36,
+        "science fiction": 6,
+        "science fiction (time travel)": 28,
+        "speculative fiction": 8,
+        "young adult": 46,
+        "young adult (teen)": 5
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "96_1"
         },
         {
@@ -30,7 +31,7 @@
             "stock_id": "96_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "96_4"
         },
         {
@@ -40,14 +41,26 @@
         {
             "status": "maintenance",
             "stock_id": "96_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "96_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "96_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "96_9"
         }
     ],
     "metrics": {
-        "rating_votes": 800,
-        "score": 4.21
+        "rating_votes": 461,
+        "score": 3.63
     },
-    "pages": 574,
-    "title": "Shielded Heart",
-    "url": "https://www.goodreads.com/book/show/51538634-shielded-heart",
-    "year_published": 2019
+    "pages": 1147,
+    "title": "A Wish After Midnight",
+    "url": "https://www.goodreads.com/book/show/6475623-a-wish-after-midnight",
+    "year_published": 2009
 }

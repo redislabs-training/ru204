@@ -1,46 +1,54 @@
 {
-    "author": "J. Patrick Black",
-    "base_id": 266,
-    "description": "Centuries of war with aliens threaten the future of human civilization on earth in this gripping, epic science fiction debut...We never saw them coming.Entire cities disappeared in the blink of an eye, leaving nothing but dust and rubble. When an alien race came to make Earth theirs, they brought with them a weapon we had no way to fight, a universe-altering force known as thelemity. It seemed nothing could stop it\u2014until we discovered we could wield the power too.Five hundred years later, the Earth is locked in a grinding war of attrition. The talented few capable of bending thelemity to their will are trained in elite military academies, destined for the front lines. Those who refused to support the war have been exiled to the wilds of a ruined Earth.But the enemy's tactics are changing, and Earth's defenders are about to discover this centuries-old war has only just begun. As a terrible new onslaught looms, heroes will rise from unlikely quarters, and fight back.",
+    "author": "Mary Pope Osborne",
+    "base_id": "266",
+    "description": "It is a dark and snowy night when the Magic Tree House whisks Jack and Annie back to colonial times. General George Washington is about to lead his army in a sneak attack against their enemy. But now a terrible weather is making the great general question his plans. Can Jack and Annie keep history on track? The fate of the country rests in their hands!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 17,
-        "dystopia": 16,
-        "fantasy": 36,
-        "fiction": 29,
-        "post apocalyptic": 19,
-        "science fiction": 117,
-        "science fiction fantasy": 11,
-        "speculative fiction": 4,
-        "war": 10,
-        "young adult": 10
+        "adventure": 32,
+        "childrens": 86,
+        "childrens (chapter books)": 38,
+        "fantasy": 96,
+        "fantasy (magic)": 17,
+        "fiction": 76,
+        "historical": 21,
+        "historical (historical fiction)": 100,
+        "science fiction (time travel)": 25,
+        "young adult": 15
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "266_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "266_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "266_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "266_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "266_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "266_6"
         }
     ],
     "metrics": {
-        "rating_votes": 1362,
-        "score": 3.59
+        "rating_votes": 7474,
+        "score": 3.91
     },
-    "pages": 940,
-    "title": "Ninth City Burning",
-    "url": "https://www.goodreads.com/book/show/27417551-ninth-city-burning",
-    "year_published": 2016
+    "pages": 1000,
+    "title": "Revolutionary War on Wednesday",
+    "url": "https://www.goodreads.com/book/show/93734.Revolutionary_War_on_Wednesday",
+    "year_published": 2000
 }

@@ -1,0 +1,35 @@
+{
+    "author": "William R. Forstchen",
+    "base_id": "6623",
+    "description": "New York Times best-selling author William R. Forstchen now brings us a story which can be all too terrifyingly real ... a story in which one man struggles to save his family and his small North Carolina town after America loses a war, in one second, a war that will send America back to the Dark Ages ... A war based upon a weapon, an Electro Magnetic Pulse (EMP). A weapon that may already be in the hands of our enemies.Months before publication, One Second After has already been cited on the floor of Congress as a book all Americans should read, a book already being discussed in the corridors of the Pentagon as a truly realistic look at a weapon and its awesome power to destroy the entire United States, literally within one second. It is a weapon that the Wall Street Journal warns could shatter America. In the tradition of On the Beach, Fail Safe, and Testament, this book, set in a typical American town, is a dire warning of what might be our future ... and our end.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 44,
+        "adventure (survival)": 105,
+        "apocalyptic (post apocalyptic)": 427,
+        "audiobook": 99,
+        "fiction": 817,
+        "science fiction": 393,
+        "science fiction (apocalyptic)": 226,
+        "science fiction (dystopia)": 195,
+        "thriller": 139,
+        "war": 46
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "6623_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 50176,
+        "score": 3.93
+    },
+    "pages": 1350,
+    "title": "One Second After",
+    "url": "https://www.goodreads.com/book/show/4922079-one-second-after",
+    "year_published": 2009
+}

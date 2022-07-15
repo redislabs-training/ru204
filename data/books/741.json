@@ -1,0 +1,52 @@
+{
+    "author": "Alastair Reynolds",
+    "base_id": "741",
+    "description": "BLUE REMEMBERED EARTH is the first volume in a monumental trilogy tracing the Akinya family across more than ten thousand years of future history...out beyond the solar system, into interstellar space and the dawn of galactic society.One hundred and fifty years from now, in a world where Africa is the dominant technological and economic power, and where crime, war, disease and poverty have been banished to history, Geoffrey Akinya wants only one thing: to be left in peace, so that he can continue his studies into the elephants of the Amboseli basin. But Geoffrey's family, the vast Akinya business empire, has other plans. After the death of Eunice, Geoffrey's grandmother, erstwhile space explorer and entrepreneur, something awkward has come to light on the Moon, and Geoffrey is tasked - well, blackmailed, really - to go up there and make sure the family's name stays suitably unblemished. But little does Geoffrey realise - or anyone else in the family, for that matter - what he's about to unravel.Eunice's ashes have already have been scattered in sight of Kilimanjaro. But the secrets she died with are about to come back out into the open, and they could change everything.Or shatter this near-utopia into shards...",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 11,
+        "audiobook": 22,
+        "cultural (africa)": 15,
+        "fantasy": 13,
+        "fiction": 124,
+        "science fiction": 602,
+        "science fiction (hard science fiction)": 18,
+        "science fiction fantasy": 15,
+        "space": 15,
+        "space (space opera)": 84
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "741_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "741_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "741_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "741_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "741_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 10138,
+        "score": 3.88
+    },
+    "pages": 736,
+    "title": "Blue Remembered Earth",
+    "url": "https://www.goodreads.com/book/show/9424053-blue-remembered-earth",
+    "year_published": 2012
+}

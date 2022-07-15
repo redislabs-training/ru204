@@ -1,21 +1,22 @@
 {
-    "author": "Peter F. Hamilton",
-    "base_id": 1243,
-    "description": "Robust, peaceful, and confident, the Commonwealth dispatched a ship to investigate the mystery of a disappearing star, only to inadvertently unleash a predatory alien species that turned on its liberators, striking hard, fast, and utterly without mercy. The Prime are the Commonwealth's worst nightmare. Coexistence is impossible with the technologically advanced aliens, who are genetically hardwired to exterminate all other forms of life. Twenty-three planets have already fallen to the invaders, with casualties in the hundreds of millions. And no one knows when or where the genocidal Prime will strike next. Nor are the Prime the only threat. For more than a hundred years, a shadowy cult, the Guardians of Selfhood, has warned that an alien with mind-control abilities impossible to detect or resist -- the Starflyer -- has secretly infiltrated the Commonwealth. Branded as terrorists, the Guardians and their leader, Bradley Johansson, have been hunted by relentless investigator Paula Myo. But now evidence suggests that the Guardians were right all along, and that the Starflyer has placed agents in vital posts throughout the Commonwealth -- agents who are now sabotaging the war effort. Is the Starflyer an ally of the Prime, or has it orchestrated a fight to the death between the two species for its own advantage? Caught between two deadly enemies, one a brutal invader striking from without, the other a remorseless cancer killing from within, the fractious Commonwealth must unite as never before...",
+    "author": "Philip Reeve",
+    "base_id": "1243",
+    "description": "In this breathtaking sequel to his award-winning Mortal Engines, Reeve plunges readers into a ruthless and terrifyingly believable world where cities eat each other, betrayal is as common as ice, and loyalty offers the only chance for survival.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 18,
-        "aliens": 25,
-        "audiobook": 38,
-        "epic": 21,
-        "fantasy": 31,
-        "fiction": 232,
-        "science fiction": 1092,
-        "science fiction fantasy": 31,
-        "space": 25,
-        "space opera": 244
+        "adventure": 83,
+        "apocalyptic (post apocalyptic)": 57,
+        "audiobook": 61,
+        "fantasy": 379,
+        "fiction": 173,
+        "science fiction": 356,
+        "science fiction (dystopia)": 126,
+        "science fiction (steampunk)": 335,
+        "young adult": 384,
+        "young adult (teen)": 35
     },
     "inventory": [
         {
@@ -23,20 +24,16 @@
             "stock_id": "1243_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1243_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1243_3"
         }
     ],
     "metrics": {
-        "rating_votes": 32774,
-        "score": 4.3
+        "rating_votes": 19035,
+        "score": 3.96
     },
-    "pages": 814,
-    "title": "Judas Unchained",
-    "url": "https://www.goodreads.com/book/show/45244.Judas_Unchained",
-    "year_published": 2005
+    "pages": 616,
+    "title": "Predator's Gold",
+    "url": "https://www.goodreads.com/book/show/48722.Predator_s_Gold",
+    "year_published": 2003
 }

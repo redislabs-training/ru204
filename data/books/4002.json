@@ -1,0 +1,68 @@
+{
+    "author": "Y\u014dko Ogawa",
+    "base_id": "4002",
+    "description": "A haunting, Orwellian novel about the terrors of state surveillance, from the acclaimed author of The Housekeeper and the ProfessorOn an unnamed island off an unnamed coast, objects are disappearing: first hats, then ribbons, birds, roses\u2014until things become much more serious. Most of the island's inhabitants are oblivious to these changes, while those few imbued with the power to recall the lost objects live in fear of the draconian Memory Police, who are committed to ensuring that what has disappeared remains forgotten.When a young woman who is struggling to maintain her career as a novelist discovers that her editor is in danger from the Memory Police, she concocts a plan to hide him beneath her floorboards. As fear and loss close in around them, they cling to her writing as the last way of preserving the past.A surreal, provocative fable about the power of memory and the trauma of loss, The Memory Police is a stunning new work from one of the most exciting contemporary authors writing in any language.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 112,
+        "asian literature (japanese literature)": 143,
+        "audiobook": 66,
+        "cultural (japan)": 329,
+        "fantasy": 135,
+        "fiction": 1009,
+        "literary fiction": 108,
+        "magical realism": 83,
+        "science fiction": 418,
+        "science fiction (dystopia)": 331
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4002_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4002_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4002_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4002_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "4002_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4002_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4002_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4002_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "4002_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 27489,
+        "score": 3.79
+    },
+    "pages": 1237,
+    "title": "The Memory Police",
+    "url": "https://www.goodreads.com/book/show/37004370-the-memory-police",
+    "year_published": 1994
+}

@@ -1,0 +1,42 @@
+{
+    "author": "Alastair Reynolds",
+    "base_id": "1141",
+    "description": "Six million years ago, at the dawn of the star-faring era, Abigail Gentian fractured herself into a thousand male and female clones, which she called shatterlings. But now, someone is eliminating the Gentian line. Campion and Purslane\u2014two shatterlings who have fallen in love and shared forbidden experiences\u2014must determine exactly who, or what, their enemy is, before they are wiped out of existence.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 50,
+        "fantasy": 27,
+        "fiction": 232,
+        "mystery": 18,
+        "science fiction": 993,
+        "science fiction (hard science fiction)": 25,
+        "science fiction fantasy": 32,
+        "space": 29,
+        "space (space opera)": 213,
+        "speculative fiction": 21
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1141_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1141_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1141_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21755,
+        "score": 4.21
+    },
+    "pages": 800,
+    "title": "House of Suns",
+    "url": "https://www.goodreads.com/book/show/1126719.House_of_Suns",
+    "year_published": 2008
+}

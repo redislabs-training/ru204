@@ -1,38 +1,62 @@
 {
-    "author": "Richard Paul Russo",
-    "base_id": 302,
-    "description": "Home to generations of humans, the starship Argonos has wandered aimlessly throughout the galaxy for hundreds of years, desperately searching for other signs of life. Now an unidentified transmission lures them toward a nearby planet-and into the dark heart of an alien mystery.",
+    "author": "Hajime Isayama",
+    "base_id": "302",
+    "description": "\"DO YOU THINK THIS WORLD HAS A FUTURE?\" Thanks to Eren's timely arrival, the 104th has managed to turn the tide at Wall Rose. But this momentary victory forces two more traitors into a corner \u2013 and the identity of the Titans who have been destroying the walls is revealed! What can Eren do against the two most dangerous monsters humanity has ever faced? And who else might be an enemy in disguise? \u00a0Chapters list :43. The Armored Titan44. Strike, Throw, Submit45. The Hunters46. Opening",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 20,
-        "fiction": 67,
-        "horror": 115,
-        "mystery": 12,
-        "novels": 6,
-        "science fiction": 239,
-        "space": 16,
-        "space opera": 23,
-        "speculative fiction": 6,
-        "thriller": 6
+        "comics manga": 31,
+        "fantasy": 123,
+        "fiction": 49,
+        "horror": 121,
+        "science fiction": 31,
+        "science fiction (dystopia)": 51,
+        "sequential art (comics)": 97,
+        "sequential art (graphic novels)": 97,
+        "sequential art (manga)": 1582,
+        "young adult": 30
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "302_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "302_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "302_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "302_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "302_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "302_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "302_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "302_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3133,
-        "score": 3.75
+        "rating_votes": 10453,
+        "score": 4.52
     },
-    "pages": 581,
-    "title": "Ship of Fools",
-    "url": "https://www.goodreads.com/book/show/24827.Ship_of_Fools",
-    "year_published": 2001
+    "pages": 1126,
+    "title": "Attack on Titan, Vol. 11",
+    "url": "https://www.goodreads.com/book/show/18077957-attack-on-titan-vol-11",
+    "year_published": 2013
 }

@@ -1,0 +1,63 @@
+{
+    "author": "Alejandro Jodorowsky",
+    "base_id": "657",
+    "description": "John Difool, a low-class detective in a degenerate dystopian world, finds his life turned upside down when he discovers an ancient, mystical artifact called \"The Incal.\" Difool's adventures will bring him into conflict with the galaxy's greatest warrior, the Metabaron, and will pit him against the awesome powers of the Technopope. These encounters and many more make up a tale of comic and cosmic proportions that has Difool fighting for not only his very survival, but also the survival of the entire universe.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "art": 14,
+        "comics (comic book)": 32,
+        "fantasy": 48,
+        "fiction": 64,
+        "graphic novels comics": 40,
+        "science fiction": 133,
+        "sequential art (bande dessin\u00e9e)": 23,
+        "sequential art (comics)": 532,
+        "sequential art (comix)": 18,
+        "sequential art (graphic novels)": 326
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "657_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "657_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "657_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "657_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "657_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "657_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "657_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "657_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7018,
+        "score": 4.19
+    },
+    "pages": 536,
+    "title": "The Incal",
+    "url": "https://www.goodreads.com/book/show/10842223-the-incal",
+    "year_published": 1981
+}

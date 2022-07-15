@@ -1,0 +1,68 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "4470",
+    "description": "This is where the dragons went. They lie ... not dead, not asleep, but ... dormant. And although the space they occupy isn't like normal space, nevertheless they are packed in tightly. They could put you in mind of a can of sardines, if you thought sardines were huge and scaly. And presumably, somewhere, there's a key...GUARDS! GUARDS! is the eighth Discworld novel - and after this, dragons will never be the same again!",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 134,
+        "audiobook": 154,
+        "fantasy": 8059,
+        "fantasy (dragons)": 267,
+        "fantasy (magic)": 139,
+        "fiction": 1528,
+        "humor": 1360,
+        "humor (comedy)": 433,
+        "novels": 119,
+        "science fiction fantasy": 256
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4470_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4470_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4470_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4470_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "4470_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4470_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4470_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "4470_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4470_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 172404,
+        "score": 4.3
+    },
+    "pages": 1203,
+    "title": "Guards! Guards",
+    "url": "https://www.goodreads.com/book/show/64216.Guards_Guards_",
+    "year_published": 1989
+}

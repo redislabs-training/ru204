@@ -1,24 +1,26 @@
 {
-    "author": "Vi Voxley",
-    "base_id": 98,
-    "description": "Nothing could have prepared her for the general...This is a 100 k full scifi romance novel featuring a BBW human heroine and a growly alpha male Brion warrior general. It can and should be read as a standalone and has a guaranteed HEA ending!Isolde Fenner had big dreams, but surprisingly enough, the universe was even bigger. Curvy and confident, she set out on her first intergalactic mission as a scientist from Earth, studying alien species. But she didn't even get to step foot on her shuttle when everything was turned upside down. The most powerful man in the universe wanted her. Her. And despite knowing better, she wanted him too. No one says no to the general. But she can't let him know that.Diego Grothan is undefeated. Body, mind, soul - there is no one stronger than the Brion general, one of the most feared men in the universe. But even he finds himself on the brink of destruction when a human woman calls to him like nothing else. She is his. She simply doesn't know it yet. Not only is it unthinkable to want a human, but it might just be the push his enemies need to come for him. But Diego Grothan is prepared. Always.Thrust into intrigue, war and hunted by enemies hiding behind veils, Diego must prove himself not only to his new bride, but the galaxy at large. It is no easy feat, but he is, after all, undefeated...Will Isolde give into the mouthwateringly hot and equally as ferocious alien general or will fate make the decision for her?",
+    "author": "Christopher L. Bennett",
+    "base_id": "98",
+    "description": "There\u2019s likely no more of a thankless job in the Federation than temporal investigation. While starship explorers get to live the human adventure of traveling to other times and realities, it\u2019s up to the dedicated agents of the Federation Department of Temporal Investigations to deal with the consequences to the timestream that the rest of the Galaxy has to live with day by day. But when history as we know it could be wiped out at any moment by time warriors from the future, misused relics of ancient races, or accident-prone starships, only the most disciplined, obsessive, and unimaginative government employees have what it takes to face the existential uncertainty of it all on a daily basis . . . and still stay sane enough to complete their assignments. That\u2019s where Agents Lucsly and Dulmur come in\u2014stalwart and unflappable, these men are the Federation\u2019s unsung anchors in a chaotic universe. Together with their colleagues in the DTI\u2014and with the help and sometimes hindrance of Starfleet\u2019s finest\u2014they do what they can to keep the timestream, or at least the paperwork, as neat and orderly as they are. But when a series of escalating temporal incursions threatens to open a new front of the history-spanning Temporal Cold War in the twenty-fourth century, Agents Lucsly and Dulmur will need all their investigative skill and unbending determination to stop those who wish to rewrite the past for their own advantage, and to keep the present and the future from devolving into the kind of chaos they really, really hate.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 18,
-        "erotica": 3,
-        "futuristic": 3,
-        "military fiction": 4,
-        "romance": 17,
-        "science fiction": 22,
-        "science fiction romance": 13,
-        "space": 2,
-        "suspense": 2
+        "action": 5,
+        "adventure": 9,
+        "fiction": 14,
+        "media tie in": 5,
+        "media tie in (star trek)": 191,
+        "science fiction": 43,
+        "science fiction (time travel)": 23,
+        "space": 4,
+        "suspense": 5,
+        "travel": 4
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "98_1"
         },
         {
@@ -26,28 +28,16 @@
             "stock_id": "98_2"
         },
         {
-            "status": "available",
-            "stock_id": "98_3"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "98_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "98_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "98_6"
+            "stock_id": "98_3"
         }
     ],
     "metrics": {
-        "rating_votes": 892,
-        "score": 3.98
+        "rating_votes": 930,
+        "score": 3.97
     },
-    "pages": 262,
-    "title": "Alien General's Bride",
-    "url": "https://www.goodreads.com/book/show/28012494-alien-general-s-bride",
-    "year_published": 2015
+    "pages": 721,
+    "title": "Watching the Clock",
+    "url": "https://www.goodreads.com/book/show/9037520-watching-the-clock",
+    "year_published": 2011
 }

@@ -1,32 +1,63 @@
 {
-    "author": "Robin L. Rotham",
-    "base_id": 41,
-    "description": "The last time Jasmine King was aboard the Heptoral, she escaped by the skin of her teeth. This time she won\u2019t be so lucky. Trapped on a ship full of sex-starved aliens and out of the pheromone blocker that holds off her physical transition, Jasmine makes a desperate escape attempt\u2026and fails. The consequences are disastrous\u2014she\u2019s mated to three horny warriors, and one has a huge bone to pick with her. What\u2019s a girl to do but fall in love?The last time Shauss saw Jasmine, the deceitful little Terran stole his bondmate from under his nose. This time he won\u2019t be so trusting. Finally master of his own bond, Shauss names secondary mates Jasmine feels safe with\u2026and lives to regret it. One can\u2019t stop puking long enough to claim her. The other challenges Shauss\u2019 supremacy by digging into his psyche at every turn. What\u2019s a Dom to do but bed them all into submission?He sets out to do just that, but his domination takes a brutal turn when he discovers Jasmine\u2019s deadly secret\u2026Reader Advisory: Contains a sultry female/female sex scene.",
+    "author": "Christopher G. Nuttall",
+    "base_id": "41",
+    "description": "An all-new story arc begins here!The new Grandmaster of Whitehall doesn't want Emily in his school. She's dangerous, he thinks. The only way he'll allow her to return to Whitehall is if she chooses to be a probationary student, a student who can be expelled at the slightest excuse, a student who has to work for one of the professors. Reluctantly, unwilling to leave her first true home, Emily accepts. But she rapidly discovers that she's about to be pushed right to the limit. She's expected to do her studies, continue her private research... and mentor a group of young students who are new to the school. She has to supervise them, all the while trying to balance her schoolwork with her growing relationship with Caleb. It isn't an easy task.And when Professor Locke starts opening the tunnels under the school, hunting for the lost secrets of Old Whitehall, he triggers a series of disasters that threaten to tear the school apart. As the staff and students struggle to survive, with the very walls collapsing in around them, Emily is forced to solve a disturbing mystery......And figure out what it has to do with her private research, before the entire school comes to a final catastrophic end.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 17,
-        "bdsm": 21,
-        "erotica": 15,
-        "male male romance": 6,
-        "paranormal": 7,
-        "polyamorous": 7,
-        "romance": 16,
-        "science fiction": 21
+        "academic (school)": 3,
+        "adventure": 3,
+        "audiobook": 2,
+        "fantasy": 69,
+        "fantasy (magic)": 31,
+        "fiction": 4,
+        "paranormal (witches)": 2,
+        "science fiction (alternate universe)": 3,
+        "young adult": 10,
+        "young adult (young adult fantasy)": 3
     },
     "inventory": [
         {
             "status": "available",
             "stock_id": "41_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "41_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "41_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "41_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "41_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "41_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "41_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "41_8"
         }
     ],
     "metrics": {
-        "rating_votes": 778,
-        "score": 3.86
+        "rating_votes": 2279,
+        "score": 4.34
     },
-    "pages": 1364,
-    "title": "Enemy Overnight",
-    "url": "https://www.goodreads.com/book/show/7049022-enemy-overnight",
-    "year_published": 2009
+    "pages": 602,
+    "title": "Infinite Regress",
+    "url": "https://www.goodreads.com/book/show/30269132-infinite-regress",
+    "year_published": 2016
 }

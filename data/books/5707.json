@@ -1,0 +1,52 @@
+{
+    "author": "Jonathan Swift",
+    "base_id": "5707",
+    "description": "For the last 250 years people everywhere have enjoyed reading about Lemuel Gulliver's travels in the strange countries of Lilliput and Brobdingnag. The people of these countries, with all their curiously human failings, come to life in Martin Aitchison's vivid illustrations. Here is a story to make you laugh - but to make you think, too.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "academic (school)": 251,
+        "adventure": 776,
+        "classics": 8608,
+        "classics (classic literature)": 309,
+        "european literature (british literature)": 191,
+        "fantasy": 2160,
+        "fiction": 3626,
+        "literature": 708,
+        "literature (18th century)": 285,
+        "novels": 313
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5707_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5707_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5707_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "5707_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "5707_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 236733,
+        "score": 3.58
+    },
+    "pages": 1279,
+    "title": "Gulliver's Travels",
+    "url": "https://www.goodreads.com/book/show/7733.Gulliver_s_Travels",
+    "year_published": 1726
+}

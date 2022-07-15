@@ -1,45 +1,67 @@
 {
     "author": "Nnedi Okorafor",
-    "base_id": 2517,
+    "base_id": "2517",
     "description": "It\u2019s been a year since Binti and Okwu enrolled at Oomza University. A year since Binti was declared a hero for uniting two warring planets. A year since she abandoned her family in the dawn of a new day.And now she must return home to her people, with her friend Okwu by her side, to face her family and face her elders.But Okwu will be the first of his race to set foot on Earth in over a hundred years, and the first ever to come in peace.After generations of conflict can human and Meduse ever learn to truly live in harmony?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "Africa": 84,
-        "aliens": 68,
         "audiobook": 111,
+        "cultural (africa)": 84,
         "fantasy": 329,
         "fiction": 421,
         "novella": 275,
         "science fiction": 1030,
+        "science fiction (aliens)": 68,
         "science fiction fantasy": 95,
         "speculative fiction": 64,
         "young adult": 136
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2517_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "2517_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2517_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2517_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2517_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2517_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2517_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2517_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "2517_9"
         }
     ],
     "metrics": {
-        "rating_votes": 20457,
+        "rating_votes": 20458,
         "score": 4.09
     },
-    "pages": 563,
+    "pages": 624,
     "title": "Home",
     "url": "https://www.goodreads.com/book/show/30038654-home",
     "year_published": 2017

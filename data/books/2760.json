@@ -1,0 +1,38 @@
+{
+    "author": "Isaac Asimov",
+    "base_id": "2760",
+    "description": "So far the Foundation was safe. But there was a hidden Second Foundation to protect the first. The Mule has yet to find it, but he was getting closer all the time. The men of the Foundation sought it, too, to escape from Mule's mind control. Only Arkady, a 14 year-old girl seemed to have the answer, or did she...?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 66,
+        "classics": 385,
+        "fantasy": 127,
+        "fiction": 1476,
+        "novels": 117,
+        "science fiction": 4445,
+        "science fiction fantasy": 255,
+        "space": 83,
+        "space (space opera)": 166,
+        "speculative fiction": 70
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2760_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2760_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 149658,
+        "score": 4.25
+    },
+    "pages": 1186,
+    "title": "Second Foundation",
+    "url": "https://www.goodreads.com/book/show/29580.Second_Foundation",
+    "year_published": 1953
+}

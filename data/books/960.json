@@ -1,0 +1,67 @@
+{
+    "author": "Peter  Newman",
+    "base_id": "960",
+    "description": "The Vagrant is his name. He has no other. Friendless and alone he walks across a desolate, war-torn landscape, carrying nothing but a kit-bag, a legendary sword and a baby. His purpose is to reach the Shining City, last bastion of the human race, and deliver the sword, the only weapon that may make a difference in the ongoing war. But the Shining City is far away and the world is a very dangerous place.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 22,
+        "adventure": 22,
+        "apocalyptic (post apocalyptic)": 41,
+        "fantasy": 779,
+        "fantasy (dark fantasy)": 22,
+        "fantasy (epic fantasy)": 20,
+        "fiction": 58,
+        "science fiction": 104,
+        "science fiction (apocalyptic)": 15,
+        "science fiction (dystopia)": 62
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "960_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "960_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "960_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "960_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "960_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "960_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "960_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "960_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "960_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6704,
+        "score": 3.66
+    },
+    "pages": 1007,
+    "title": "The Vagrant",
+    "url": "https://www.goodreads.com/book/show/23559647-the-vagrant",
+    "year_published": 2015
+}

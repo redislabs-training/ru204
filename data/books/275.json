@@ -1,29 +1,30 @@
 {
-    "author": "J. Barton Mitchell",
-    "base_id": 275,
-    "description": "Earth has been conquered by an alien race known as the Assembly. The human adult population is gone, having succumbed to the Tone---a powerful, telepathic super-signal broadcast across the planet that reduces them to a state of complete subservience. But the Tone has one critical flaw. It only affects the population once they reach their early twenties, which means that there is one group left to resist: Children.Holt Hawkins is a bounty hunter, and his current target is Mira Toombs, an infamous treasure seeker with a price on her head. It\u2019s not long before Holt bags his prey, but their instant connection isn\u2019t something he bargained for. Neither is the Assembly ship that crash-lands near them shortly after. Venturing inside, Holt finds a young girl who remembers nothing except her name: Zoey.As the three make their way to the cavernous metropolis of Midnight City, they encounter young freedom fighters, mutants, otherworldly artifacts, pirates, feuding alien armies, and the amazing powers that Zoey is beginning to exhibit. Powers that suggest she, as impossible as it seems, may just be the key to stopping the Assembly once and for all.",
+    "author": "Mary Downing Hahn",
+    "base_id": "275",
+    "description": "Aunt Blythe's house gives Andrew the creeps -- full of dark rooms, creaky noises, and the sound of a woman sobbing somewhere in the shadows. Then, in the middle of the night, Andrew awakens to find a boy standing in his room...a boy who is Andrew's double, except he looks as if he's come from the grave. He wants to follow him -- to a place where he will meet the spirits of long-dead ancestors...a place from which Andrew may never return.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 21,
-        "aliens": 71,
-        "apocalyptic": 12,
-        "dystopia": 76,
-        "fantasy": 45,
-        "fiction": 13,
-        "paranormal": 22,
-        "post apocalyptic": 42,
-        "science fiction": 94,
-        "young adult": 103
+        "childrens": 37,
+        "childrens (middle grade)": 28,
+        "fantasy": 31,
+        "fantasy (paranormal)": 22,
+        "fiction": 20,
+        "horror": 38,
+        "mystery": 24,
+        "paranormal (ghosts)": 31,
+        "science fiction (time travel)": 25,
+        "young adult": 36
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "275_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "275_2"
         },
         {
@@ -31,20 +32,36 @@
             "stock_id": "275_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "275_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "275_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "275_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "275_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "275_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "275_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1724,
-        "score": 3.91
+        "rating_votes": 3680,
+        "score": 4.09
     },
-    "pages": 1278,
-    "title": "Midnight City",
-    "url": "https://www.goodreads.com/book/show/13494718-midnight-city",
-    "year_published": 2012
+    "pages": 842,
+    "title": "Time for Andrew: A Ghost Story",
+    "url": "https://www.goodreads.com/book/show/541527.Time_for_Andrew",
+    "year_published": 1994
 }

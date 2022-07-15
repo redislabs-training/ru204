@@ -1,0 +1,39 @@
+{
+    "author": "Simon Furman",
+    "base_id": "3",
+    "description": "As in fighting tears apart the ranks of the heroic Autobots, so the evil Decepticons wage a bitter civil war. The atmosphere is ripe for the coming of planet eating super robot Unicron, and for the Transformersthat's doomsday The hit animated TV shows Beast Wars and Beast Machines introduced a whole new generation to the robots in disguise and now, at last, the stories that came before those shows can be seen again in their world shaking glory.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 3,
+        "science fiction": 5,
+        "sequential art (comics)": 9,
+        "sequential art (graphic novels)": 11,
+        "space (space opera)": 2
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 74,
+        "score": 4.04
+    },
+    "pages": 616,
+    "title": "Transformers: All Fall Down",
+    "url": "https://www.goodreads.com/book/show/1462483.Transformers",
+    "year_published": 2002
+}

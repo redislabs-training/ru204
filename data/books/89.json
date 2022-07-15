@@ -1,61 +1,52 @@
 {
-    "author": "K.A. Applegate",
-    "base_id": 89,
-    "description": "In an hour or so, once I was out of sight of land, I would lower my sails and wait for a Bug fighter to come lift me off the deck. The engine backwash of the Bug fighter would capsize the boat. Or I might put the Taxxon pilot to the test and see if he could ram the low-slung boat. That would puzzle the humans.Either way, my body would never be found...My time of lying low was over...I would spearhead the invasion of Earth. I would take charge of our greatest conquest. I would stand alone atop the Yeerk military hierarchy.I was to become Visser One.From the Hardcover edition",
+    "author": "Michael  Green",
+    "base_id": "89",
+    "description": "Return to the original world of Blade Runner 2019.Welcome to the rain soaked world of Los Angeles 2019 - a dystopic world of Replicants, Spinners and hardboiled future noir. There's a new Blade Runner in town, and she's out for blood. Replicant blood.This officially sanctioned sequel comic to the original Blade Runner film is written by Michael Green, the screenwriter of Blade Runner 2049.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 9,
-        "aliens": 18,
-        "animals": 6,
-        "childrens": 23,
-        "fantasy": 26,
-        "fiction": 42,
-        "science fiction": 96,
-        "war": 6,
-        "young adult": 63
+        "comics (comic book)": 4,
+        "fiction": 8,
+        "graphic novels comics": 4,
+        "mystery": 3,
+        "science fiction": 22,
+        "science fiction (cyberpunk)": 17,
+        "science fiction (dystopia)": 7,
+        "science fiction fantasy": 2,
+        "sequential art (comics)": 42,
+        "sequential art (graphic novels)": 44
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "89_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "89_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "89_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "89_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "89_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "89_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "89_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "89_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2523,
-        "score": 4.09
+        "rating_votes": 592,
+        "score": 4.06
     },
-    "pages": 1208,
-    "title": "Visser",
-    "url": "https://www.goodreads.com/book/show/343187.Visser",
-    "year_published": 1999
+    "pages": 531,
+    "title": "Blade Runner 2019, Vol. 1: Los Angeles",
+    "url": "https://www.goodreads.com/book/show/45033606-blade-runner-2019-vol-1",
+    "year_published": 2019
 }

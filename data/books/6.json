@@ -1,0 +1,46 @@
+{
+    "author": "Philip Charles Stephens",
+    "base_id": "6",
+    "description": "Ex-soldier, Sergeant Skedic Vom of the infamous Northern Wolf Brigade, is trying to move on. It\u2019s been two years since his unit was wiped out during a weapons test gone wrong in Cameroon. His memory is sketchy at best, but he does know the episode ended with him killing his unit\u2019s betrayer, their superior and his lover, Bilkissou Dimka. And then he\u2019s told she\u2019s alive.Skedic must follow a path stretching back through his past and into the recesses of his mind in order to discover the real truth about what happened in Africa. The only certainty he can rely on is that nothing is real anymore.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "science fiction (alternate universe)": 9
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "6_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "6_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 25,
+        "score": 4.08
+    },
+    "pages": 1056,
+    "title": "Glyphein",
+    "url": "https://www.goodreads.com/book/show/22617557-glyphein",
+    "year_published": 2014
+}

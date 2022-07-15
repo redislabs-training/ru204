@@ -1,62 +1,38 @@
 {
-    "author": "Naomi Lucas",
-    "base_id": 249,
-    "description": "Dommik was a monster, a Monster Hunter, and an alpha. Part of an elite group that dealt with the horrors of the universe. At least that was what everyone at the spaceport was whispering as he walked by. A Cyborg, a hunter, a beast with eyes as dark as the pits of Hell and the stride of a predator.Katalina was a nobody who was intimate with death. It clung to her like a shroud, It followed her like the plague, and infected her like a parasite. When she overheard that the Monster Hunter needed an assistant, she took the job. And when the Cyborg\u2019s eyes caught hers, she knew getting closer to death might just bring her back to life.The Cyborg didn\u2019t scare her. So she followed him and left fate up to chance.Warning: mature readers only, explicit sex scenes.Book one of Cyborg Shifters, same universe as Stranded in the Stars, every book is a standalone that only subtly builds off of the others.",
+    "author": "Terry Pratchett",
+    "base_id": "249",
+    "description": "Twelve-year-old Johnny Maxwell has a knack for being in the wrong place at the wrong time. This has never been more true than when he finds himself in his hometown on May 21, 1941, over forty years before his birth!An accidental time traveler, Johnny knows his history. He knows England is at war, and he knows that on this day German bombs will fall on the town. It happened. It's history. And as Johnny and his friends quickly discover, tampering with history can have unpredictable--and drastic--effects on the future.But letting history take its course means letting people die. What if Johnny warns someone and changes history? What will happen to the future? If Johnny uses his knowledge to save innocent lives by being in the right place at the right time, is he doing the right thing?Mixing nail-biting suspense with outrageous humor, Terry Pratchett explores a classic time-travel paradox in Johnny Maxwell's third adventure.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 37,
-        "erotica": 13,
-        "fantasy": 13,
-        "futuristic": 9,
-        "paranormal": 11,
-        "paranormal romance": 9,
-        "romance": 45,
-        "science fiction": 65,
-        "science fiction romance": 21,
-        "shapeshifters": 31
+        "adventure": 14,
+        "childrens": 39,
+        "fantasy": 295,
+        "fiction": 136,
+        "humor": 52,
+        "humor (comedy)": 27,
+        "science fiction": 85,
+        "science fiction (time travel)": 34,
+        "science fiction fantasy": 20,
+        "young adult": 98
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "249_1"
         },
         {
-            "status": "on_loan",
-            "stock_id": "249_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "249_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "249_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "249_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "249_6"
-        },
-        {
             "status": "available",
-            "stock_id": "249_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "249_8"
+            "stock_id": "249_2"
         }
     ],
     "metrics": {
-        "rating_votes": 2310,
-        "score": 3.81
+        "rating_votes": 7537,
+        "score": 3.83
     },
-    "pages": 868,
-    "title": "Wild Blood",
-    "url": "https://www.goodreads.com/book/show/35095979-wild-blood",
-    "year_published": 2017
+    "pages": 1111,
+    "title": "Johnny and the Bomb",
+    "url": "https://www.goodreads.com/book/show/64385.Johnny_and_the_Bomb",
+    "year_published": 1996
 }

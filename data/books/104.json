@@ -1,62 +1,36 @@
 {
-    "author": "Anna Hackett",
-    "base_id": 104,
-    "description": "Hell Squad soldier Gabe Jackson has lost everything that mattered, including his twin brother. Now he just wants to kill the invading aliens anyway he knows how\u2026and he knows a lot of ways. Previously part of a secret Army super-soldier project, he\u2019s faster, stronger, deadlier\u2026but on the inside, he\u2019s a mass of rage, and pain, and grief\u2014all waiting for a chance to drag him under. Until he finds her.Dr. Emerson Green had her life planned: thrive in the high-stress environment of the ER, build her career, have a great life. Then the raptor alien invasion happened. Now she\u2019s the head of the medical team for the secret base sheltering human survivors outside of Sydney. She\u2019s also in charge of patching up the soldiers who get too close to raptor claws. She\u2019d never planned for this\u2026and she\u2019d never planned for sexy, brooding Gabe Jackson.As Emerson uncovers clues to the aliens\u2019 secret plans for the human race, she and Gabe collide in a storm of volatile passion. But the brooding soldier is as stubborn as he is silent, and Emerson knows she must convince him to reach out to her\u2026because Gabe is a ticking time bomb about to go off.Note to readers: This sci fi romance contains a lot of action (think invading aliens, explosions and gunfights), tough warriors (the sexy, battle-hardened soldiers of Hell Squad) and a steamy romance (lots of sexy times between a warrior woman and a sexy soldier). So if you like it fast, and gritty, and sexy, this is for you!Includes preview of Book 3 of the Hell Squad, Gabe.",
+    "author": "Duane Swierczynski",
+    "base_id": "104",
+    "description": "In this neighborhood, make a wrong turn and you're history. Mickey Wade is a recently-unemployed journalist who lucked into a rent-free apartment \u2013 his sick grandfather's place. The only problem: it's in a lousy neighborhood. The one where Mickey grew up, in fact. The one he was so desperate to escape.But now he's back. Dead broke. And just when he thinks he's reached rock bottom, Mickey wakes up in the past. Literally.At first he thinks it's a dream. All of the stores he remembered from his childhood, the cars, the rumble of the elevated train. But as he digs deeper into the past, searching for answers about the grandfather he hardly knows, Mickey meets the twelve-year-old kid who lives in the apartment below. The kid who will grow up to someday murder Mickey's father.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 7,
-        "aliens": 18,
-        "dystopia": 10,
-        "fantasy": 7,
-        "futuristic": 11,
-        "military fiction": 11,
-        "post apocalyptic": 11,
-        "romance": 28,
-        "science fiction": 34,
-        "science fiction romance": 12
+        "fantasy": 9,
+        "fiction": 15,
+        "mystery": 18,
+        "mystery (crime)": 8,
+        "mystery (noir)": 4,
+        "science fiction": 17,
+        "science fiction (time travel)": 24,
+        "science fiction fantasy": 2,
+        "thriller": 5,
+        "thriller (mystery thriller)": 4
     },
     "inventory": [
         {
-            "status": "maintenance",
-            "stock_id": "104_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "104_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "104_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "104_4"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "104_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "104_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "104_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "104_8"
+            "stock_id": "104_1"
         }
     ],
     "metrics": {
-        "rating_votes": 1206,
-        "score": 4.21
+        "rating_votes": 755,
+        "score": 3.79
     },
-    "pages": 1374,
-    "title": "Gabe",
-    "url": "https://www.goodreads.com/book/show/25606085-gabe",
-    "year_published": 2015
+    "pages": 889,
+    "title": "Expiration Date",
+    "url": "https://www.goodreads.com/book/show/7193226-expiration-date",
+    "year_published": 2010
 }

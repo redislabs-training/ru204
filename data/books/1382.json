@@ -1,0 +1,60 @@
+{
+    "author": "Isaac Asimov",
+    "base_id": "1382",
+    "description": "A millennium into the future two advances have altered the course of human history: the colonization of the Galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together.Detective Elijah Baley is called to the Spacer world Aurora to solve a bizarre case of roboticide. The prime suspect is a gifted roboticist who had the means, the motive, and the opportunity to commit the crime. There's only one catch: Baley and his positronic partner, R. Daneel Olivaw, must prove the man innocent. For in a case of political intrigue and love between woman and robot gone tragically wrong, there's more at stake than simple justice. This time Baley's career, his life, and Earth's right to pioneer the Galaxy lie in the delicate balance.\u00a0",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 36,
+        "classics": 64,
+        "fantasy": 43,
+        "fiction": 531,
+        "mystery": 201,
+        "mystery (detective)": 37,
+        "novels": 42,
+        "science fiction": 1926,
+        "science fiction (robots)": 96,
+        "science fiction fantasy": 100
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1382_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1382_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1382_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1382_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1382_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1382_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1382_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 40248,
+        "score": 4.17
+    },
+    "pages": 1028,
+    "title": "The Robots of Dawn",
+    "url": "https://www.goodreads.com/book/show/41810.The_Robots_of_Dawn",
+    "year_published": 1983
+}

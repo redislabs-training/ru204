@@ -1,33 +1,39 @@
 {
-    "author": "K.A. Applegate",
-    "base_id": 67,
-    "description": "Jake wakes up one morning to find he is suddenly twenty-five years old, the Yeerks rule the world, all the other Animorphs are either dead or Yeerk-infested, and he alone is left to fight.",
+    "author": "Samuel Peralta",
+    "base_id": "67",
+    "description": "The Future Chronicles has grown, from a single collection of robot stories, into a series whose unique take on major science fiction and fantasy themes \u2013 A.I., aliens, time travel, dragons, telepaths, zombies, immortality, galactic battles, cyborgs, doomsday \u2013 has made it one of the most acclaimed short story anthology series of the digital era.  Its companion series \u2013 Alt.Chronicles, The Illustrated Chronicles and Chronicle Worlds \u2013 are similarly ground-breaking in their coverage of less mainstream tropes such as alternative history and shared universes.  Created by award-winning author Samuel Peralta, and edited by some of the most-respected editors in the genre, each volume brings together work from visionary new voices and from the grandmasters of modern science fiction and fantasy.  This Future Chronicles Special Edition volume is a compendium of stories selected from the Chronicles\u2019 standalone titles, and includes five new stories, never before published, from some of today\u2019s best writers in speculative fiction.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 9,
-        "aliens": 17,
-        "animals": 9,
-        "childrens": 18,
-        "fantasy": 26,
-        "fiction": 33,
-        "science fiction": 70,
-        "war": 8,
-        "young adult": 55
+        "anthologies": 8,
+        "apocalyptic (post apocalyptic)": 2,
+        "fantasy": 3,
+        "fiction": 8,
+        "own": 2,
+        "science fiction": 31,
+        "science fiction (time travel)": 2,
+        "science fiction fantasy": 2,
+        "short stories": 9,
+        "speculative fiction": 3
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "67_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "67_2"
         }
     ],
     "metrics": {
-        "rating_votes": 1939,
-        "score": 3.67
+        "rating_votes": 506,
+        "score": 3.99
     },
-    "pages": 829,
-    "title": "The Familiar",
-    "url": "https://www.goodreads.com/book/show/363352.The_Familiar",
-    "year_published": 2000
+    "pages": 485,
+    "title": "The Future Chronicles: Special Edition",
+    "url": "https://www.goodreads.com/book/show/26082797-the-future-chronicles",
+    "year_published": 2015
 }

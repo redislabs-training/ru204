@@ -1,21 +1,22 @@
 {
-    "author": "John Scalzi",
-    "base_id": 1670,
-    "description": "A human diplomat kills his alien counterpart. Earth is on the verge of war with a vastly superior alien race. A lone man races against time and a host of enemies to find the one object that can save our planet and our people from alien enslavement...A sheep.That's right, a sheep. And if you think that's the most surprising thing about this book, wait until you read Chapter One. Welcome to The Android's Dream.For Harry Creek, it's quickly becoming a nightmare. All he wants is to do his uncomplicated mid-level diplomatic job with Earth's State Department. But his past training and skills get him tapped to save the planet--and to protect pet store owner Robin Baker, whose own past holds the key to the whereabouts of that lost sheep. Doing both will take him from lava-strewn battlefields to alien halls of power. All in a day's work. Maybe it's time for a raise.Throw in two-timing freelance mercenaries, political lobbyists with megalomaniac tendencies, aliens on a religious quest, and an artificial intelligence with unusual backstory, and you've got more than just your usual science fiction adventure story. You've got The Android's Dream.",
+    "author": "Piers Anthony",
+    "base_id": "1670",
+    "description": "Xanth was the enchanted land where magic ruled - where every citizen had a special spell only he could cast. It was a land of centaurs and dragons and basilisks.For Bink of North Village, however, Xanth was no fairy tale. He alone had no magic. And unless he got some - and got some fast! - he would be exiled. Forever!But the Good Magician Humfrey was convinced that Bink did indeed have magic. In fact, both Beauregard the genie and the magic wall chart insisted that Bink had magic. Magic as powerful as any possessed by the King or by Good Magician Humfrey - or even by the Evil Magician TrentBe that as it may, no one could fathom the nature of Bink's very special magic. Bink was in despair. This was even worse than having no magic at all..and he would still be exiled!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 47,
-        "audiobook": 129,
-        "comedy": 35,
-        "fantasy": 49,
-        "fiction": 254,
-        "humor": 181,
-        "science fiction": 888,
-        "science fiction fantasy": 51,
-        "space opera": 32,
-        "speculative fiction": 27
+        "adventure": 114,
+        "childrens": 87,
+        "childrens (middle grade)": 76,
+        "fantasy": 2991,
+        "fantasy (magic)": 76,
+        "fiction": 362,
+        "humor": 219,
+        "science fiction": 70,
+        "science fiction fantasy": 154,
+        "young adult": 168
     },
     "inventory": [
         {
@@ -23,16 +24,16 @@
             "stock_id": "1670_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "1670_2"
         }
     ],
     "metrics": {
-        "rating_votes": 19282,
-        "score": 3.98
+        "rating_votes": 45174,
+        "score": 3.9
     },
-    "pages": 776,
-    "title": "The Android's Dream",
-    "url": "https://www.goodreads.com/book/show/7081.The_Android_s_Dream",
-    "year_published": 2006
+    "pages": 887,
+    "title": "A Spell for Chameleon",
+    "url": "https://www.goodreads.com/book/show/76664.A_Spell_for_Chameleon",
+    "year_published": 1977
 }

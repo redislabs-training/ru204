@@ -1,0 +1,40 @@
+{
+    "author": "Arkady Strugatsky",
+    "base_id": "2950",
+    "description": "Red Schuhart is a stalker, one of those young rebels who are compelled, in spite of extreme danger, to venture illegally into the Zone to collect the mysterious artifacts that the alien visitors left scattered around. His life is dominated by the place and the thriving black market in the alien products. But when he and his friend Kirill go into the Zone together to pick up a \u201cfull empty,\u201d something goes wrong. And the news he gets from his girlfriend upon his return makes it inevitable that he\u2019ll keep going back to the Zone, again and again, until he finds the answer to all his problems.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 69,
+        "classics": 253,
+        "cultural (russia)": 357,
+        "fantasy": 88,
+        "fiction": 849,
+        "literature (russian literature)": 135,
+        "novels": 97,
+        "science fiction": 1704,
+        "science fiction (dystopia)": 122,
+        "science fiction fantasy": 81
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2950_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2950_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 44548,
+        "score": 4.17
+    },
+    "pages": 665,
+    "title": "Roadside Picnic",
+    "url": "https://www.goodreads.com/book/show/331256.Roadside_Picnic",
+    "year_published": 1972
+}

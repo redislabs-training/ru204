@@ -1,0 +1,67 @@
+{
+    "author": "Peter Watts",
+    "base_id": "666",
+    "description": "Prepare for a different kind of singularity in this follow-up to the Hugo-nominated novel Blindsight It's the eve of the twenty-second century: a world where the dearly departed send postcards back from Heaven and evangelicals make scientific breakthroughs by speaking in tongues; where genetically engineered vampires solve problems intractable to baseline humans and soldiers come with zombie switches that shut off self-awareness during combat. And it\u2019s all under surveillance by an alien presence that refuses to show itself.Daniel Bruks is a living fossil: a field biologist in a world where biology has turned computational, a cat's-paw used by terrorists to kill thousands. Taking refuge in the Oregon desert, he\u2019s turned his back on a humanity that shatters into strange new subspecies with every heartbeat. But he awakens one night to find himself at the center of a storm that will turn all of history inside-out. Now he\u2019s trapped on a ship bound for the center of the solar system. To his left is a grief-stricken soldier, obsessed by whispered messages from a dead son. To his right is a pilot who hasn\u2019t yet found the man she's sworn to kill on sight. A vampire and its entourage of zombie bodyguards lurk in the shadows behind. And dead ahead, a handful of rapture-stricken monks takes them all to a meeting with something they will only call \u201cThe Angels of the Asteroids.\u201dTheir pilgrimage brings Dan Bruks, the fossil man, face-to-face with the biggest evolutionary breakpoint since the origin of thought itself.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 10,
+        "fiction": 117,
+        "horror": 43,
+        "paranormal (vampires)": 15,
+        "science fiction": 330,
+        "science fiction (aliens)": 12,
+        "science fiction (hard science fiction)": 19,
+        "science fiction fantasy": 16,
+        "space": 14,
+        "space (space opera)": 12
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "666_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "666_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "666_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "666_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "666_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "666_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "666_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "666_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "666_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7214,
+        "score": 3.86
+    },
+    "pages": 878,
+    "title": "Echopraxia",
+    "url": "https://www.goodreads.com/book/show/18490708-echopraxia",
+    "year_published": 2014
+}

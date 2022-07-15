@@ -1,0 +1,59 @@
+{
+    "author": "D.J. MacHale",
+    "base_id": "2025",
+    "description": "Librarian Note: Alternate cover for this ISBN can be found hereDENDURONBOBBY PENDRAGON is a seemingly normal fourteen-year-old boy. He has a family, a home, and even Marley, his beloved dog. But there is something very special about Bobby.He is going to save the world.And not just Earth as we know it. Bobby is slowly starting to realize that life in the cosmos isn't quite what he thought it was. And before he can object, he is swept off to an alternate dimension known as Denduron, a territory inhabited by strange beings, ruled by a magical tyrant, and plagued by dangerous revolution.If Bobby wants to see his family again, he's going to have to accept his role as savior, and accept it wholeheartedly. Because, as he is about to discover, Denduron is only the beginning....Cover illustration by Victor Lee",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 158,
+        "childrens": 70,
+        "childrens (middle grade)": 92,
+        "fantasy": 1254,
+        "fantasy (magic)": 41,
+        "fiction": 218,
+        "science fiction": 201,
+        "young adult": 588,
+        "young adult (teen)": 52,
+        "young adult (young adult fantasy)": 64
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2025_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2025_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2025_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2025_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2025_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2025_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2025_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 47412,
+        "score": 3.95
+    },
+    "pages": 331,
+    "title": "The Merchant of Death",
+    "url": "https://www.goodreads.com/book/show/833710.The_Merchant_of_Death",
+    "year_published": 2002
+}

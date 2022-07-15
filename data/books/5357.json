@@ -1,0 +1,52 @@
+{
+    "author": "Catherine Fisher",
+    "base_id": "5357",
+    "description": "Incarceron -- a futuristic prison, sealed from view, where the descendants of the original prisoners live in a dark world torn by rivalry and savagery. It is a terrifying mix of high technology -- a living building which pervades the novel as an ever-watchful, ever-vengeful character, and a typical medieval torture chamber -- chains, great halls, dungeons. A young prisoner, Finn, has haunting visions of an earlier life, and cannot believe he was born here and has always been here. In the outer world, Claudia, daughter of the Warden of Incarceron, is trapped in her own form of prison -- a futuristic world constructed beautifully to look like a past era, an imminent marriage she dreads. She knows nothing of Incarceron, except that it exists. But there comes a moment when Finn, inside Incarceron, and Claudia, outside, simultaneously find a device -- a crystal key, through which they can talk to each other. And so the plan for Finn's escape is born ...",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 248,
+        "fantasy": 1992,
+        "fiction": 358,
+        "mystery": 102,
+        "science fiction": 636,
+        "science fiction (dystopia)": 827,
+        "science fiction (steampunk)": 488,
+        "young adult": 1800,
+        "young adult (teen)": 203,
+        "young adult (young adult fantasy)": 120
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5357_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5357_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5357_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5357_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "5357_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 59167,
+        "score": 3.64
+    },
+    "pages": 289,
+    "title": "Incarceron",
+    "url": "https://www.goodreads.com/book/show/332775.Incarceron",
+    "year_published": 2007
+}

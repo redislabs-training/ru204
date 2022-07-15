@@ -1,0 +1,56 @@
+{
+    "author": "Kim Harrison",
+    "base_id": "1207",
+    "description": "New York Times bestselling author Kim Harrison returns to the sinister and seductive Hollows for the newest blockcuster adventure featuring Rachel Morgan, witch and bounty hunter.White Witch, Black CurseSome wounds take time to heal...and some scars never fade.Rachel Morgan, kick-ass witch and bounty hunter, has taken her fair share of hits, and has broken lines she swore she would never cross. But when her lover was murdered, it left a deeper wound than Rachel ever imagined, and now she won't rest until his death is solved...and avenged. Whatever the cost.Yet the road to hell is paved with good intentions, and when a new predator moves to the apex of the Inderland food chain, Rachel's past comes back to haunt her.Literally.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 765,
+        "fantasy (magic)": 230,
+        "fantasy (paranormal)": 616,
+        "fantasy (supernatural)": 157,
+        "fantasy (urban fantasy)": 1527,
+        "fiction": 205,
+        "paranormal (demons)": 206,
+        "paranormal (vampires)": 417,
+        "paranormal (witches)": 253,
+        "romance (paranormal romance)": 134
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1207_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1207_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1207_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1207_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1207_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1207_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 48199,
+        "score": 4.33
+    },
+    "pages": 870,
+    "title": "White Witch, Black Curse",
+    "url": "https://www.goodreads.com/book/show/3475268-white-witch-black-curse",
+    "year_published": 2009
+}

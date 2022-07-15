@@ -1,41 +1,51 @@
 {
     "author": "Christopher Paolini",
-    "base_id": 2765,
+    "base_id": "2765",
     "description": "Kira Nav\u00e1rez dreamed of life on new worlds. Now she's awakened a nightmare. During a routine survey mission on an uncolonized planet, Kira finds an alien relic. At first she's delighted, but elation turns to terror when the ancient dust around her begins to move.As war erupts among the stars, Kira is launched into a galaxy-spanning odyssey of discovery and transformation. First contact isn't at all what she imagined, and events push her to the very limits of what it means to be human. While Kira faces her own horrors, Earth and its colonies stand upon the brink of annihilation. Now, Kira might be humanity's greatest and final hope...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
         "adult": 115,
-        "aliens": 54,
         "audiobook": 69,
         "fantasy": 296,
         "fiction": 276,
         "science fiction": 926,
+        "science fiction (aliens)": 54,
         "science fiction fantasy": 53,
         "space": 65,
-        "space opera": 89,
+        "space (space opera)": 89,
         "young adult": 51
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "2765_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2765_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "2765_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2765_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2765_5"
         }
     ],
     "metrics": {
         "rating_votes": 12493,
         "score": 3.89
     },
-    "pages": 569,
+    "pages": 675,
     "title": "To Sleep in a Sea of Stars",
     "url": "https://www.goodreads.com/book/show/48829708-to-sleep-in-a-sea-of-stars",
     "year_published": 2020

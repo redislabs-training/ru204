@@ -1,0 +1,59 @@
+{
+    "author": "Michael Chabon",
+    "base_id": "11084",
+    "description": "Joe Kavalier, a young Jewish artist who has also been trained in the art of Houdini-esque escape, has just smuggled himself out of Nazi-invaded Prague and landed in New York City. His Brooklyn cousin Sammy Clay is looking for a partner to create heroes, stories, and art for the latest novelty to hit America - the comic book. Drawing on their own fears and dreams, Kavalier and Clay create the Escapist, the Monitor, and Luna Moth, inspired by the beautiful Rosa Saks, who will become linked by powerful ties to both men. With exhilarating style and grace, Michael Chabon tells an unforgettable story about American romance and possibility.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "contemporary": 260,
+        "fiction": 4623,
+        "historical": 327,
+        "historical (historical fiction)": 1526,
+        "literary fiction": 305,
+        "literature": 358,
+        "literature (jewish)": 207,
+        "new york": 184,
+        "novels": 375,
+        "sequential art (comics)": 215
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "11084_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "11084_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "11084_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "11084_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "11084_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "11084_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "11084_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 186236,
+        "score": 4.18
+    },
+    "pages": 1014,
+    "title": "The Amazing Adventures of Kavalier & Clay",
+    "url": "https://www.goodreads.com/book/show/3985.The_Amazing_Adventures_of_Kavalier_Clay",
+    "year_published": 2000
+}

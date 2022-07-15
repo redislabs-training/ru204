@@ -1,34 +1,64 @@
 {
-    "author": "Cherise Sinclair",
-    "base_id": 175,
-    "description": "Her voice is famous throughout the galaxy; her face is completely unknown.Fleeing her monstrous husband back on puritanical Earth and the police assassins he's hired, singer Mella Archer becomes stranded on the frontier planet of Nexus. Desperate to survive, she picks the wrong target--Dain, the head of planetary security.Dain is amused by the attempted theft, and when Mella is sentenced to serve time indentured as a bedroom slave, he buys her contract. As he introduces the repressed Earther to the pleasures of sex with a dominating warrior, he slowly comes to realize that the little thief has stolen his heart.When the monster arrives on Nexus and has lunch with Dain, Mella is panic-stricken. Her owner must be part of the conspiracy to kill her, and it will only be a matter of time before the monster discovers that she\u2019s still alive. She attempts to escape. She fails. Embittered by her lies and mistrust, Dain returns her to Indenture Hall to be sold again.Now the monster has found her. And she has nowhere left to run...",
+    "author": "Stephen R. Donaldson",
+    "base_id": "175",
+    "description": "Thomas Covenant and Linden Avery begin their search for the One Tree that is to be the salvation of the Land. Only he could find the answer and forge a new Staff of Law\ufffdbut fate decreed that the journey was to be long, the quest arduous, and quite possibly a failure....",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 46,
-        "bdsm": 167,
-        "erotic romance": 27,
-        "erotica": 109,
-        "fantasy": 24,
-        "paranormal": 30,
-        "paranormal romance": 21,
-        "romance": 85,
-        "science fiction": 115,
-        "science fiction romance": 29
+        "adventure": 18,
+        "epic": 18,
+        "fantasy": 1359,
+        "fantasy (epic fantasy)": 41,
+        "fantasy (high fantasy)": 18,
+        "fiction": 183,
+        "novels": 6,
+        "science fiction": 31,
+        "science fiction fantasy": 70,
+        "speculative fiction": 13
     },
     "inventory": [
         {
             "status": "available",
             "stock_id": "175_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "175_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "175_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "175_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "175_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "175_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "175_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "175_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3261,
-        "score": 3.87
+        "rating_votes": 17681,
+        "score": 3.98
     },
-    "pages": 825,
-    "title": "The Starlight Rite",
-    "url": "https://www.goodreads.com/book/show/22896269-the-starlight-rite",
-    "year_published": 2010
+    "pages": 345,
+    "title": "The One Tree",
+    "url": "https://www.goodreads.com/book/show/22875.The_One_Tree",
+    "year_published": 1982
 }

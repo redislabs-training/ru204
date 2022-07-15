@@ -1,58 +1,34 @@
 {
-    "author": "Gini Koch",
-    "base_id": 92,
-    "description": "When rumors of a new super-drug surface, the FBI comes to Jeff and Kitty Katt-Martini for help. It becomes quickly apparent that the drug is merely the tip of a deadly iceberg and a much more insidious plan is underway involving Titan Security, Gaultier Enterprises, and YatesCorp.As newly discovered A-Cs and hybrids begin to surface, each with expanded and deadly talents, more and more signs point to a new evil genius who\u2019s using the A-Cs and their enemies both as guinea pigs. Then Area 51 and the Dulce Science Center go silent while Alpha Team, Airborne, and most of the worldwide A-C Security team are there for training. And if that\u2019s not bad enough, Centaurion Division is hit with more bad, and deadly, news: Chernobog the Ultimate, isn\u2019t a hacker myth, he\u2019s a real person -- and he\u2019s on the bad guys\u2019 side.Now Kitty and company must find the real Dr. Feelgood and stop him or her before the latest version of Surcenthumain hits the streets and more people they love are harmed, or worse. But when the inconceivable happens, Kitty\u2019s focused on two things only: reviving the ACE entity before their enemies realize Earth\u2019s best protection isn\u2019t actually active\u2026and revenge.",
+    "author": "John Markoff",
+    "base_id": "92",
+    "description": "Robots are poised to transform today's society as completely as the Internet did twenty years ago. Pulitzer prize-winning New York Times science writer John Markoff argues that we must decide to design ourselves into our future, or risk being excluded from it altogether.In the past decade, Google introduced us to driverless cars; Apple debuted Siri, a personal assistant that we keep in our pockets; and an Internet of Things connected the smaller tasks of everyday life to the farthest reaches of the Web. Robots have become an integral part of society on the battlefield and the road; in business, education, and health care. Cheap sensors and powerful computers will ensure that in the coming years, these robots will act on their own. This new era offers the promise of immensely powerful machines, but it also reframes a question first raised more than half a century ago, when the intelligent machine was born. Will we control these systems, or will they control us?In Machines of Loving Grace, John Markoff offers a sweeping history of the complicated and evolving relationship between humans and computers. In recent years, the pace of technological change has accelerated dramatically, posing an ethical quandary. If humans delegate decisions to machines, who will be responsible for the consequences? As Markoff chronicles the history of automation, from the birth of the artificial intelligence and intelligence augmentation communities in the 1950s and 1960s, to the modern-day brain trusts at Google and Apple in Silicon Valley, and on to the expanding robotics economy around Boston, he traces the different ways developers have addressed this fundamental problem and urges them to carefully consider the consequences of their work. We are on the brink of the next stage of the computer revolution, Markoff argues, and robots will profoundly transform modern life. Yet it remains for us to determine whether this new world will be a utopia. Moreover, it is now incumbent upon the designers of these robots to draw a bright line between what is human and what is machine.After nearly forty years covering the tech industry, Markoff offers an unmatched perspective on the most drastic technology-driven societal shifts since the introduction of the Internet. Machines of Loving Grace draws on an extensive array of research and interviews to present an eye-opening history of one of the most pressing questions of our time, and urges us to remember that we still have the opportunity to design ourselves into the future\u2014before it's too late.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "contemporary": 4,
-        "fantasy": 9,
-        "fiction": 6,
-        "humor": 8,
-        "paranormal romance": 8,
-        "romance": 13,
-        "science fiction": 42,
-        "science fiction romance": 5,
-        "urban fantasy": 19
+        "artificial intelligence": 16,
+        "business": 8,
+        "history": 7,
+        "nonfiction": 37,
+        "philosophy": 7,
+        "psychology": 3,
+        "science": 27,
+        "science (computer science)": 3,
+        "science (technology)": 24,
+        "science fiction (robots)": 3
     },
     "inventory": [
         {
             "status": "maintenance",
             "stock_id": "92_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "92_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "92_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "92_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "92_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "92_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "92_7"
         }
     ],
     "metrics": {
-        "rating_votes": 950,
-        "score": 4.23
+        "rating_votes": 536,
+        "score": 3.68
     },
-    "pages": 901,
-    "title": "Alien Research",
-    "url": "https://www.goodreads.com/book/show/17148003-alien-research",
-    "year_published": 2013
+    "pages": 643,
+    "title": "Machines of Loving Grace: The Quest for Common Ground Between Humans and Robots",
+    "url": "https://www.goodreads.com/book/show/23460922-machines-of-loving-grace",
+    "year_published": 2015
 }

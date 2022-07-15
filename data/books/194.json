@@ -1,38 +1,35 @@
 {
-    "author": "Linnea Sinclair",
-    "base_id": 194,
-    "description": "The universe isn\u2019t what it used to be. With the new Alliance between the Triad and the United Coalition, Captain Tasha \u201cSass\u201d Sebastian finds herself serving under her former nemesis, biocybe Admiral Branden Kel-Paten\u2013and doing her best to hide a deadly past. But when an injured mercenary winds up in their ship\u2019s sick bay\u2013and in the hands of her best friend, Dr. Eden Fynn\u2013Sass\u2019s efforts may be wasted.Wanted rebel Jace Serafino has information that could expose all of Sass\u2019s secrets, tear the fragile Alliance apart\u2013and end Sass\u2019s career if Kel-Paten discovers them. But the biocybe has something to hide as well, something once thought impossible for his kind to possess: feelings . . . for Sass. Soon it\u2019s clear that their prisoner could bring down everything they once believed was worth dying for\u2013and everything they now have to live for.",
+    "author": "Matthew Loux",
+    "base_id": "194",
+    "description": "The internship program at the Time Museum is a little unusual. For one thing, kids as young as twelve get to apply for these prestigious summer jobs. And as for the applicant pool . . . well, these kids come from all over history.When Delia finds herself working at the Time Museum, the last thing she expects is to be sent on time-traveling adventures with an unlikely gang of kids from across the eons. From a cave-boy to a girl from the distant future, Delia's team represents nearly all of human history! They're going to need all their skills for the challenge they've got in store . . . defending the Time Museum itself!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 13,
-        "aliens": 24,
-        "fiction": 25,
-        "futuristic": 29,
-        "romance": 193,
-        "science fiction": 156,
-        "science fiction fantasy": 15,
-        "science fiction romance": 63,
-        "space": 13,
-        "space opera": 39
+        "adventure": 27,
+        "childrens": 20,
+        "childrens (middle grade)": 51,
+        "fantasy": 27,
+        "fiction": 17,
+        "science fiction": 35,
+        "science fiction (time travel)": 44,
+        "sequential art (comics)": 25,
+        "sequential art (graphic novels)": 140,
+        "young adult": 12
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "194_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "194_2"
         }
     ],
     "metrics": {
-        "rating_votes": 2641,
-        "score": 3.98
+        "rating_votes": 1107,
+        "score": 4.03
     },
-    "pages": 1224,
-    "title": "Games of Command",
-    "url": "https://www.goodreads.com/book/show/352724.Games_of_Command",
-    "year_published": 2002
+    "pages": 918,
+    "title": "The Time Museum",
+    "url": "https://www.goodreads.com/book/show/29102874-the-time-museum",
+    "year_published": 2017
 }

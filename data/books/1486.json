@@ -1,0 +1,59 @@
+{
+    "author": "Aldous Huxley",
+    "base_id": "1486",
+    "description": "The astonishing novel Brave New World, originally published in 1932, presents Aldous Huxley's vision of the future--of a world utterly transformed. Through the most efficient scientific and psychological engineering, people are genetically designed to be passive and therefore consistently useful to the ruling class. This powerful work of speculative fiction sheds a blazing critical light on the present and is considered to be Aldous Huxley's most enduring masterpiece.The non-fiction work Brave New World Revisited, published in 1958, is a fascinating work in which Huxley uses his tremendous knowledge of human relations to compare the modern-day world with his prophetic fantasy envisioned in Brave New World, including the threats to humanity, such as over-population, propaganda, and chemical persuasion.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "academic (school)": 48,
+        "classics": 1274,
+        "fantasy": 84,
+        "fiction": 1133,
+        "literature": 166,
+        "novels": 100,
+        "philosophy": 75,
+        "science fiction": 654,
+        "science fiction (dystopia)": 335,
+        "science fiction fantasy": 55
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1486_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1486_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1486_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1486_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1486_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1486_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1486_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 143800,
+        "score": 4.17
+    },
+    "pages": 1292,
+    "title": "Brave New World / Brave New World Revisited",
+    "url": "https://www.goodreads.com/book/show/5479.Brave_New_World_Brave_New_World_Revisited",
+    "year_published": 1958
+}

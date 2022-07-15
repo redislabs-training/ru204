@@ -1,0 +1,56 @@
+{
+    "author": "Nnedi Okorafor",
+    "base_id": "2699",
+    "description": "An award-winning literary author presents her first foray into supernatural fantasy with a novel of post-apocalyptic Africa.  In a far future, post-nuclear-holocaust Africa, genocide plagues one region. The aggressors, the Nuru, have decided to follow the Great Book and exterminate the Okeke. But when the only surviving member of a slain Okeke village is brutally raped, she manages to escape, wandering farther into the desert. She gives birth to a baby girl with hair and skin the color of sand and instinctively knows that her daughter is different. She names her daughter Onyesonwu, which means \"Who Fears Death?\" in an ancient African tongue. Reared under the tutelage of a mysterious and traditional shaman, Onyesonwu discovers her magical destiny \u2013 to end the genocide of her people. The journey to fulfill her destiny will force her to grapple with nature, tradition, history, true love, the spiritual mysteries of her culture \u2013 and eventually death itself.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 85,
+        "apocalyptic (post apocalyptic)": 150,
+        "cultural (africa)": 254,
+        "fantasy": 1711,
+        "fiction": 673,
+        "magical realism": 93,
+        "science fiction": 440,
+        "science fiction (dystopia)": 215,
+        "science fiction fantasy": 129,
+        "speculative fiction": 100
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2699_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2699_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2699_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2699_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2699_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2699_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18828,
+        "score": 3.96
+    },
+    "pages": 652,
+    "title": "Who Fears Death",
+    "url": "https://www.goodreads.com/book/show/7767021-who-fears-death",
+    "year_published": 2010
+}

@@ -1,0 +1,42 @@
+{
+    "author": "Yevgeny Zamyatin",
+    "base_id": "4795",
+    "description": "The exhilarating dystopian novel that inspired George Orwell's 1984 and foreshadowed the worst excesses of Soviet RussiaYevgeny Zamyatin's We is a powerfully inventive vision that has influenced writers from George Orwell to Ayn Rand. In a glass-enclosed city of absolute straight lines, ruled over by the all-powerful 'Benefactor', the citizens of the totalitarian society of OneState live out lives devoid of passion and creativity - until D-503, a mathematician who dreams in numbers, makes a discovery: he has an individual soul. Set in the twenty-sixth century AD, We is the classic dystopian novel and was the forerunner of works such as George Orwell's 1984 and Aldous Huxley's Brave New World. It was suppressed for many years in Russia and remains a resounding cry for individual freedom, yet is also a powerful, exciting and vivid work of science fiction. Clarence Brown's brilliant translation is based on the corrected text of the novel, first published in Russia in 1988 after more than sixty years' suppression.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 1416,
+        "cultural (russia)": 711,
+        "fiction": 1993,
+        "literature": 251,
+        "literature (20th century)": 125,
+        "literature (russian literature)": 428,
+        "novels": 180,
+        "science fiction": 1790,
+        "science fiction (dystopia)": 1474,
+        "science fiction fantasy": 114
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4795_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4795_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "4795_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 74652,
+        "score": 3.91
+    },
+    "pages": 1051,
+    "title": "We",
+    "url": "https://www.goodreads.com/book/show/76171.We",
+    "year_published": 1920
+}

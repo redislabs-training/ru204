@@ -1,0 +1,62 @@
+{
+    "author": "Warren Ellis",
+    "base_id": "375",
+    "description": "Outlaw journalist Spider Jerusalem has become a household name in the future City he calls home. This latest collection of twisted tales showcases Spider's horrific yet funny screeds on subjects as diverse as religion, politics, and his ex-wife's cryogenically frozen head (which has been stolen). \"Transmetropolitan\" has been called \"brilliant future-shock commentary\" (Spin), and this new volume shows why.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "comics (comic book)": 75,
+        "fiction": 133,
+        "graphic novels comics": 77,
+        "humor": 39,
+        "science fiction": 197,
+        "science fiction (cyberpunk)": 114,
+        "science fiction (dystopia)": 62,
+        "sequential art (comics)": 1000,
+        "sequential art (comix)": 26,
+        "sequential art (graphic novels)": 754
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "375_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "375_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "375_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "375_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "375_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "375_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "375_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "375_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17221,
+        "score": 4.34
+    },
+    "pages": 450,
+    "title": "Transmetropolitan, Vol. 2: Lust for Life",
+    "url": "https://www.goodreads.com/book/show/22417.Transmetropolitan_Vol_2",
+    "year_published": 1999
+}

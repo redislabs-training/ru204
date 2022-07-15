@@ -1,0 +1,40 @@
+{
+    "author": "David  Wong",
+    "base_id": "1510",
+    "description": "Nightmarish villains with superhuman enhancements.An all-seeing social network that tracks your every move.Mysterious, smooth-talking power players who lurk behind the scenes.A young woman from the trailer park.And her very smelly cat.Together, they will decide the future of mankind.Get ready for a world in which anyone can have the powers of a god or the fame of a pop star, in which human achievement soars to new heights while its depravity plunges to the blackest depths. A world in which at least one cat smells like a seafood shop's dumpster on a hot summer day.This is the world in which Zoey Ashe finds herself, navigating a futuristic city in which one can find elements of the fantastic, nightmarish and ridiculous on any street corner. Her only trusted advisor is the aforementioned cat, but even in the future, cats cannot give advice. At least not any that you'd want to follow.Will Zoey figure it all out in time? Or maybe the better question is, will you? After all, the future is coming sooner than you think.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 33,
+        "fantasy": 98,
+        "fiction": 213,
+        "humor": 135,
+        "humor (comedy)": 42,
+        "science fiction": 328,
+        "science fiction (cyberpunk)": 34,
+        "science fiction (dystopia)": 29,
+        "science fiction fantasy": 39,
+        "thriller": 34
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1510_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1510_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17345,
+        "score": 3.82
+    },
+    "pages": 708,
+    "title": "Futuristic Violence and Fancy Suits",
+    "url": "https://www.goodreads.com/book/show/20501606-futuristic-violence-and-fancy-suits",
+    "year_published": 2015
+}

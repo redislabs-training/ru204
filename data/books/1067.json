@@ -1,0 +1,60 @@
+{
+    "author": "Jo Walton",
+    "base_id": "1067",
+    "description": "\"Here in the Just City you will become your best selves. You will learn and grow and strive to be excellent.\" Created as an experiment by the time-traveling goddess Pallas Athene, the Just City is a planned community, populated by over ten thousand children and a few hundred adult teachers from all eras of history, along with some handy robots from the far human future--all set down together on a Mediterranean island in the distant past.The student Simmea, born an Egyptian farmer's daughter sometime between 500 and 1000 A.D, is a brilliant child, eager for knowledge, ready to strive to be her best self. The teacher Maia was once Ethel, a young Victorian lady of much learning and few prospects, who prayed to Pallas Athene in an unguarded moment during a trip to Rome--and, in an instant, found herself in the Just City with grey-eyed Athene standing unmistakably before her.Meanwhile, Apollo--stunned by the realization that there are things mortals understand better than he does--has arranged to live a human life, and has come to the City as one of the children. He knows his true identity, and conceals it from his peers. For this lifetime, he is prone to all the troubles of being human.Then, a few years in, Sokrates arrives--the same Sokrates recorded by Plato himself--to ask all the troublesome questions you would expect. What happens next is a tale only the brilliant Jo Walton could tell.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 451,
+        "fantasy (mythology)": 109,
+        "fiction": 184,
+        "historical": 48,
+        "historical (historical fiction)": 79,
+        "philosophy": 134,
+        "science fiction": 232,
+        "science fiction (time travel)": 101,
+        "science fiction fantasy": 45,
+        "speculative fiction": 39
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1067_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1067_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1067_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1067_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1067_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1067_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1067_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5844,
+        "score": 3.78
+    },
+    "pages": 1243,
+    "title": "The Just City",
+    "url": "https://www.goodreads.com/book/show/22055276-the-just-city",
+    "year_published": 2015
+}

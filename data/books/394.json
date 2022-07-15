@@ -1,36 +1,39 @@
 {
-    "author": "Tymber Dalton",
-    "base_id": 394,
-    "description": "I hated the military\u2026and now I\u2019m an alien\u2019s pet.I hated the Terran military. I didn\u2019t volunteer, either. Like so many others, I was drafted as cannon fodder in the senseless Terran war against the Algonquans. Not like I had much of a future ahead of me, though, without a rich family to pave my way or even pay for me to have a wife. Now, my entire ship\u2019s been captured. If what we\u2019ve been told about the alien race is true, I\u2019ll never be seen again. I hope they don\u2019t eat me. Turns out the truth is far different than we were led to believe. The Algonquans aren\u2019t vicious, insectoid monsters, either. We\u2019re now their pampered pets\u2026and they\u2019re using us to help replenish their population to win the war. You know, maybe this isn\u2019t the worst life after all. (MMMM, sci-fi romance, humans as aliens' pets, m-preg.) Note: This book was previously published under my Tymber Dalton pen name. It has been revised and expanded for re-release.",
+    "author": "Brian Augustyn",
+    "base_id": "394",
+    "description": "Presenting for the first time the adventures of the Victorian Era Batman in one 112-page edition! This volume includes the breakthrough Elseworlds specials Gotham by Gaslight and Master of the Future that pit the Dark Knight against Jack the Ripper and a death-dealer from the skies over Gotham!This edition collects the two one-shots: Gotham by Gaslight and Master of the Future.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 50,
-        "bdsm": 32,
-        "erotica": 107,
-        "fantasy": 31,
-        "male male romance": 176,
-        "paranormal": 26,
-        "romance": 45,
-        "science fiction": 110
+        "comics (comic book)": 40,
+        "comics (superheroes)": 43,
+        "dc comics (batman)": 189,
+        "fiction": 42,
+        "graphic novels comics": 38,
+        "historical (historical fiction)": 32,
+        "science fiction (steampunk)": 40,
+        "sequential art (comics)": 477,
+        "sequential art (graphic novels)": 349,
+        "superheroes (dc comics)": 78
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "394_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "394_2"
         }
     ],
     "metrics": {
-        "rating_votes": 1910,
-        "score": 3.94
+        "rating_votes": 11198,
+        "score": 3.89
     },
-    "pages": 1262,
-    "title": "Acquainted With the Night",
-    "url": "https://www.goodreads.com/book/show/56228303-acquainted-with-the-night",
-    "year_published": 2010
+    "pages": 502,
+    "title": "Batman: Gotham by Gaslight",
+    "url": "https://www.goodreads.com/book/show/107159.Batman",
+    "year_published": 1989
 }

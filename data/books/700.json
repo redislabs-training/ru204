@@ -1,0 +1,35 @@
+{
+    "author": "Jasper Fforde",
+    "base_id": "700",
+    "description": "The Mighty Shandar, the most powerful wizard the world has ever seen, returns to the Ununited Kingdoms. Clearly, he didn't solve the Dragon Problem, and must hand over his fee: eighteen dray-weights of gold.But the Mighty Shandar doesn't do refunds, and vows to eliminate the dragons once and for all - unless sixteen-year-old Jennifer Strange and her sidekicks from the Kazam house of enchantment can bring him the legendary jewel, The Eye of Zoltar.The only thing that stands in their way is a perilous journey with a 50% Fatality Index - through the Cambrian Empire to the Leviathan Graveyard, at the top of the deadly Cadir Idris mountain. It's a quest like never before, and Jennifer soon finds herself fighting not just for her life, but for everything she knows and loves . . .",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 54,
+        "fantasy": 533,
+        "fantasy (dragons)": 46,
+        "fantasy (magic)": 55,
+        "fiction": 122,
+        "humor": 76,
+        "science fiction fantasy": 28,
+        "young adult": 237,
+        "young adult (teen)": 30,
+        "young adult (young adult fantasy)": 20
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "700_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5715,
+        "score": 4.16
+    },
+    "pages": 971,
+    "title": "The Eye of Zoltar",
+    "url": "https://www.goodreads.com/book/show/16043857-the-eye-of-zoltar",
+    "year_published": 2014
+}

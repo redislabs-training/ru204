@@ -1,25 +1,25 @@
 {
-    "author": "Larry Niven",
-    "base_id": 591,
-    "description": "\"This rousing sequel to the classic Ringworld continues the adventures of Louis Wu and Speaker-to-Animals on that fantastic planet.\"--School Library Journal",
+    "author": "Sandra Newman",
+    "base_id": "591",
+    "description": "A work of rare literary brilliance and emotional power, The Heavens is a mesmerizing novel of love and time, of dreams and politics, that asks how we come to inhabit our world New York, late summer, 2000. A party in a spacious Manhattan apartment, hosted by a wealthy young activist. Dozens of idealistic twenty-somethings have impassioned conversations over takeout dumplings and champagne. The evening shines with the heady optimism of a progressive new millennium. A young man, Ben, meets a young woman, Kate\u2014and they begin to fall in love.From their first meeting, Ben knows Kate is unworldly and fanciful, so at first he isn\u2019t that concerned when she tells him about the recurring dream she\u2019s had since childhood. In the dream, she\u2019s transported to the past, where she lives a second life as Emilia, the mistress of a nobleman in Elizabethan England.But for Kate, the dream becomes increasingly real and compelling until it threatens to overwhelm her life. And soon she\u2019s waking from it to find the world changed\u2014pictures on her wall she doesn\u2019t recognize, new buildings in the neighborhood that have sprung up overnight. As she tries to make sense of what\u2019s happening, Ben worries the woman he\u2019s fallen in love with is losing her grip on reality.Transporting the reader between a richly detailed past and a frighteningly possible future, The Heavens is a powerful reminder of the consequences of our actions, a poignant testament to how the people we love are destined to change, and a masterful exploration of the power of dreams.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 25,
-        "aliens": 17,
-        "audiobook": 22,
-        "fantasy": 36,
-        "fiction": 259,
-        "novels": 19,
-        "science fiction": 985,
-        "science fiction fantasy": 60,
-        "space": 17,
-        "space opera": 44
+        "adult fiction": 13,
+        "contemporary": 18,
+        "fantasy": 45,
+        "fiction": 181,
+        "historical": 25,
+        "historical (historical fiction)": 89,
+        "literary fiction": 16,
+        "magical realism": 15,
+        "science fiction": 35,
+        "science fiction (time travel)": 58
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "591_1"
         },
         {
@@ -27,7 +27,7 @@
             "stock_id": "591_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "591_3"
         },
         {
@@ -35,32 +35,20 @@
             "stock_id": "591_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "591_5"
         },
         {
             "status": "available",
             "stock_id": "591_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "591_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "591_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "591_9"
         }
     ],
     "metrics": {
-        "rating_votes": 29628,
-        "score": 3.88
+        "rating_votes": 3495,
+        "score": 3.35
     },
-    "pages": 1017,
-    "title": "The Ringworld Engineers",
-    "url": "https://www.goodreads.com/book/show/61181.The_Ringworld_Engineers",
-    "year_published": 1979
+    "pages": 1295,
+    "title": "The Heavens",
+    "url": "https://www.goodreads.com/book/show/36642622-the-heavens",
+    "year_published": 2019
 }

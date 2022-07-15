@@ -1,34 +1,56 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 443,
-    "description": "Bloodlust and insanity rule my existence. As a fierce drakoni warrior, this strange new world I find myself in eats at my mind until there is nothing left. There is no light or clarity...until she arrives. I save her life, plucking her from the sky.From that point on, she is mine.But the human I have chosen for my mate - Sasha - is fragile and wounded. She does not trust me and fears my presence. I will not give up, though. I will do anything to give her my fires and bond us both in body and spirit. How can I convince her that I want nothing more than her happiness if she will not let me touch her?How does a dragon woo a human?",
+    "author": "Margaret Peterson Haddix",
+    "base_id": "443",
+    "description": "Still reeling from their experiences in Roanoke in 1600, Jonah and Katherine arrive in 1611 only moments before a mutiny on Henry Hudson\u2019s ship in the icy waters of James Bay. But things are messed up: they\u2019ve lost the real John Hudson, and they find what seems to be the fabled Northwest Passage\u2014even though they are pretty sure that that route doesn\u2019t actually exist. Will this new version of history replace the real past? Is this the end of time as we know it? With more at stake than ever before, Jonah and Katherine struggle to unravel the mysteries of 1611 and the Hudson Passage...before everything they know is lost.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 30,
-        "dragons": 136,
-        "dystopia": 44,
-        "fantasy": 105,
-        "paranormal": 85,
-        "paranormal romance": 104,
-        "post apocalyptic": 31,
-        "romance": 139,
-        "science fiction": 33,
-        "shapeshifters": 66
+        "adventure": 49,
+        "childrens (middle grade)": 54,
+        "fantasy": 64,
+        "fiction": 53,
+        "historical": 25,
+        "historical (historical fiction)": 78,
+        "mystery": 30,
+        "science fiction": 125,
+        "science fiction (time travel)": 97,
+        "young adult": 76
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "443_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "443_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "443_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "443_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "443_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "443_6"
         }
     ],
     "metrics": {
-        "rating_votes": 5205,
-        "score": 4.01
+        "rating_votes": 8110,
+        "score": 4.0
     },
-    "pages": 447,
-    "title": "Fire in His Kiss",
-    "url": "https://www.goodreads.com/book/show/34535434-fire-in-his-kiss",
-    "year_published": 2017
+    "pages": 1167,
+    "title": "Torn",
+    "url": "https://www.goodreads.com/book/show/9758788-torn",
+    "year_published": 2011
 }

@@ -1,0 +1,63 @@
+{
+    "author": "J.G. Ballard",
+    "base_id": "2401",
+    "description": "When a class war erupts inside a luxurious apartment block, modern elevators become violent battlegrounds and cocktail parties degenerate into marauding attacks on \"enemy\" floors. In this visionary tale, human society slips into violent reverse as once-peaceful residents, driven by primal urges, re-create a world ruled by the laws of the jungle.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 73,
+        "classics": 85,
+        "european literature (british literature)": 53,
+        "fiction": 707,
+        "horror": 66,
+        "literature": 55,
+        "novels": 59,
+        "science fiction": 431,
+        "science fiction (dystopia)": 263,
+        "thriller": 94
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2401_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2401_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2401_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2401_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2401_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2401_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2401_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2401_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 25931,
+        "score": 3.61
+    },
+    "pages": 1030,
+    "title": "High-Rise",
+    "url": "https://www.goodreads.com/book/show/12331767-high-rise",
+    "year_published": 1975
+}

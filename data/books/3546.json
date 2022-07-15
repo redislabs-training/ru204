@@ -1,0 +1,58 @@
+{
+    "author": "Frank Miller",
+    "base_id": "3546",
+    "description": "This masterpiece of modern comics storytelling brings to vivid life a dark world and an even darker man. Together with inker Klaus Janson and colorist Lynn Varley, writer/artist Frank Miller completely reinvents the legend of Batman in his saga of a near-future Gotham City gone to rot, ten years after the Dark Knight's retirement. Crime runs rampant in the streets, and the man who was Batman is still tortured by the memories of his parents' murders. As civil society crumbles around him, Bruce Wayne's long-suppressed vigilante side finally breaks free of its self-imposed shackles. The Dark Knight returns in a blaze of fury, taking on a whole new generation of criminals and matching their level of violence. He is soon joined by this generation's Robin\u2014a girl named Carrie Kelley, who proves to be just as invaluable as her predecessors.But can Batman and Robin deal with the threat posed by their deadliest enemies, after years of incarceration have made them into perfect psychopaths? And more important, can anyone survive the coming fallout of an undeclared war between the superpowers\u2014or a clash of what were once the world's greatest superheroes?Over fifteen years after its debut, Batman: The Dark Knight Returns remains an undisputed classic and one of the most influential stories ever told in the comics medium.Collecting Batman: The Dark Knight Returns #1-4",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "comics (comic book)": 375,
+        "comics (superheroes)": 256,
+        "dc comics (batman)": 669,
+        "fantasy": 142,
+        "fiction": 637,
+        "graphic novels comics": 382,
+        "mystery (crime)": 82,
+        "sequential art (comics)": 3974,
+        "sequential art (graphic novels)": 3513,
+        "superheroes (dc comics)": 307
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3546_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3546_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3546_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3546_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3546_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3546_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3546_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 163749,
+        "score": 4.26
+    },
+    "pages": 644,
+    "title": "Batman: The Dark Knight Returns",
+    "url": "https://www.goodreads.com/book/show/59960.Batman",
+    "year_published": 1986
+}

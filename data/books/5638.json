@@ -1,0 +1,64 @@
+{
+    "author": "Cory Doctorow",
+    "base_id": "5638",
+    "description": "Marcus aka \u201cw1n5t0n,\u201d is only seventeen years old, but he figures he already knows how the system works\u2013and how to work the system. Smart, fast, and wise to the ways of the networked world, he has no trouble outwitting his high school\u2019s intrusive but clumsy surveillance systems.But his whole world changes when he and his friends find themselves caught in the aftermath of a major terrorist attack on San Francisco. In the wrong place at the wrong time, Marcus and his crew are apprehended by the Department of Homeland Security and whisked away to a secret prison where they\u2019re mercilessly interrogated for days.When the DHS finally releases them, his injured best friend Darryl does not come out. The city has become a police state where every citizen is treated like a potential terrorist. He knows that no one will believe his story, which leaves him only one option: \"M1k3y\" will take down the DHS himself.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fiction": 1017,
+        "politics": 96,
+        "science (technology)": 152,
+        "science fiction": 1106,
+        "science fiction (cyberpunk)": 198,
+        "science fiction (dystopia)": 479,
+        "speculative fiction": 97,
+        "thriller": 146,
+        "young adult": 1316,
+        "young adult (teen)": 204
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "5638_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5638_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5638_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5638_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "5638_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5638_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "5638_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5638_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 47834,
+        "score": 3.93
+    },
+    "pages": 468,
+    "title": "Little Brother",
+    "url": "https://www.goodreads.com/book/show/954674.Little_Brother",
+    "year_published": 2008
+}

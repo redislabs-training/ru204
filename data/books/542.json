@@ -1,0 +1,62 @@
+{
+    "author": "Mike Maihack",
+    "base_id": "542",
+    "description": "A funny, action-packed graphic novel featuring a young Cleopatra -- yes, THAT Cleopatra -- who's transported to the future and learns it's up to her to save the galaxy! When a young Cleopatra (yes, THAT Cleopatra) finds a mysterious tablet that zaps her to the far, REALLY far future, she learns of an ancient prophecy that says she is destined to save the galaxy from the tyrannical rule of the evil Xaius Octavian. She enrolls in Yasiro Academy, a high-tech school with classes like algebra, biology, and alien languages (which Cleo could do without), and combat training (which is more Cleo's style). With help from her teacher Khensu, Cleo learns what it takes to be a great leader, all while trying to figure out how she's going to get her homework done, make friends, and avoid detention! \u00a0",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 60,
+        "childrens": 65,
+        "childrens (juvenile)": 25,
+        "childrens (middle grade)": 113,
+        "fantasy": 69,
+        "fiction": 35,
+        "science fiction": 117,
+        "science fiction (time travel)": 32,
+        "sequential art (comics)": 91,
+        "sequential art (graphic novels)": 394
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "542_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "542_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "542_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "542_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "542_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "542_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "542_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "542_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7230,
+        "score": 4.09
+    },
+    "pages": 289,
+    "title": "Target Practice",
+    "url": "https://www.goodreads.com/book/show/18527488-target-practice",
+    "year_published": 2014
+}

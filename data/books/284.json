@@ -1,0 +1,63 @@
+{
+    "author": "Mary Pope Osborne",
+    "base_id": "284",
+    "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!No girls allowed at the Olympic Games! That's the rule when the Magic Tree House whisks Jack and Annie back to ancient Greece. But when Annie tells jack to go to the games without her, he knows she's up to something. Will Annie find a way to see the games? Or will she get herself--and Jack--into Olympic-size trouble? Find out in Hour of the Olympics.Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 33,
+        "childrens": 114,
+        "childrens (chapter books)": 47,
+        "fantasy": 115,
+        "fantasy (magic)": 17,
+        "fiction": 87,
+        "historical": 18,
+        "historical (historical fiction)": 67,
+        "science fiction (time travel)": 23,
+        "young adult": 16
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "284_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "284_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "284_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "284_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "284_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "284_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "284_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "284_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8710,
+        "score": 3.94
+    },
+    "pages": 765,
+    "title": "Hour of the Olympics",
+    "url": "https://www.goodreads.com/book/show/181401.Hour_of_the_Olympics",
+    "year_published": 1998
+}

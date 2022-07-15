@@ -1,29 +1,31 @@
 {
-    "author": "Mindee Arnett",
-    "base_id": 627,
-    "description": "Of the various star systems that make up the Confederation, most lie thousands of light-years from First Earth-and out here, no one is free. The agencies that govern the Confederation are as corrupt as the crime bosses who patrol it, and power is held by anyone with enough greed and ruthlessness to claim it. That power is derived from one thing: metatech, the devices that allow people to travel great distances faster than the speed of light.Jeth Seagrave and his crew of teenage mercenaries have survived in this world by stealing unsecured metatech, and they're damn good at it. Jeth doesn't care about the politics or the law; all he cares about is earning enough money to buy back his parents' ship, Avalon, from his crime-boss employer and getting himself and his sister, Lizzie, the heck out of Dodge. But when Jeth finds himself in possession of information that both the crime bosses and the government are willing to kill for, he is going to have to ask himself how far he'll go to get the freedom he's wanted for so long.",
+    "author": "Jeff Lemire",
+    "base_id": "627",
+    "description": "Once they were heroes, but the age of heroes has long since passed. Banished from existence by a multiversal crisis, the old champions of Spiral City--Abraham Slam, Golden Gail, Colonel Weird, Madame Dragonfly, and Barbalien--now lead simple lives in an idyllic, timeless farming village from which there is no escape! But as they employ all of their super abilities to free themselves from this strange purgatory, a mysterious stranger works to bring them back into action for one last adventure!COLLECTS: Black Hammer 1-6",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 38,
-        "aliens": 23,
-        "dystopia": 39,
-        "fantasy": 39,
-        "fiction": 22,
-        "romance": 37,
-        "science fiction": 280,
-        "space": 63,
-        "space opera": 23,
-        "young adult": 230
+        "adult": 12,
+        "comics (comic book)": 42,
+        "comics (superheroes)": 72,
+        "fantasy": 66,
+        "fiction": 48,
+        "graphic novels comics": 61,
+        "horror": 19,
+        "science fiction": 42,
+        "sequential art (comics)": 462,
+        "sequential art (graphic novels)": 381
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "627_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "627_2"
         },
         {
@@ -39,20 +41,24 @@
             "stock_id": "627_5"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "627_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "627_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "627_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3908,
-        "score": 3.79
+        "rating_votes": 5335,
+        "score": 4.2
     },
-    "pages": 703,
-    "title": "Avalon",
-    "url": "https://www.goodreads.com/book/show/17149396-avalon",
-    "year_published": 2014
+    "pages": 237,
+    "title": "Black Hammer, Vol. 1: Secret Origins",
+    "url": "https://www.goodreads.com/book/show/25893783-black-hammer-vol-1",
+    "year_published": 2017
 }

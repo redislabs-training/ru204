@@ -1,0 +1,63 @@
+{
+    "author": "Matthew Mather",
+    "base_id": "2041",
+    "description": "Sometimes the worst storms aren't caused by Mother Nature, and sometimes the worst nightmares aren't in the ones in our heads...Mike Mitchell, an average New Yorker already struggling to keep his family together, suddenly finds himself fighting just to keep them alive when an increasingly bizarre string of disasters start appearing on the world\u2019s news networks. As the world and cyberworlds come crashing down, bending perception and reality, a monster snowstorm cuts New York off from the world, becoming a wintry tomb where no one can be trusted, and nothing is what it seems...CyberStorm is a techno-thriller set in present-day New York City that will appeal to fans of Michael Chichton and Tom Clancy as well as devotees of William Gibson and Neal Stephenson. It is an exploration of the human condition as the cyberworld collides with our own, a compelling portrait of a possible future that is all too terrifyingly real.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure (survival)": 16,
+        "apocalyptic (post apocalyptic)": 54,
+        "audiobook": 21,
+        "business (amazon)": 18,
+        "fiction": 207,
+        "science fiction": 204,
+        "science fiction (apocalyptic)": 44,
+        "science fiction (dystopia)": 47,
+        "suspense": 17,
+        "thriller": 118
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2041_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2041_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2041_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2041_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2041_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2041_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2041_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2041_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22780,
+        "score": 3.79
+    },
+    "pages": 899,
+    "title": "CyberStorm",
+    "url": "https://www.goodreads.com/book/show/17985262-cyberstorm",
+    "year_published": 2013
+}

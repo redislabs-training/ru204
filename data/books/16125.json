@@ -1,0 +1,68 @@
+{
+    "author": "Rick Riordan",
+    "base_id": "16125",
+    "description": "PERCY IS CONFUSED. When he awoke from his long sleep, he didn't know much more than his name. His brain fuzz is lingering, even after the wolf Lupa told him he is a demigod and trained him to fight with the pen/sword in his pocket. Somehow Percy manages to make it to a camp for half-bloods, despite the fact that he has to keep killing monsters along the way. But the camp doesn't ring any bells with him. The only thing he can recall from his past is another name: Annabeth. HAZEL IS SUPPOSED TO BE DEAD. When she lived before, she didn't do a very good job of it. Sure, she was an obedient daughter, even when her mother was possessed by greed. But that was the problem\u2014when the Voice took over her mother and commanded Hazel to use her \"gift\" for an evil purpose, Hazel couldn't say no. Now because of her mistake, the future of the world is at risk. Hazel wishes she could ride away from it all on the stallion that appears in her dreams.FRANK IS A KLUTZ. His grandmother says he is descended from heroes and can be anything he wants to be, but he doesn't see it. He doesn't even know who his father is. He keeps hoping Apollo will claim him, because the only thing he is good at is archery\u2014although not good enough to win camp war games. His bulky physique makes him feel like an ox, especially in front of Hazel, his closest friend at camp. He trusts her completely\u2014enough to share the secret he holds close to his heart.Beginning at the \"other\" camp for half-bloods and extending as far as the land beyond the gods, this breathtaking second installment of the Heroes of Olympus series introduces new demigods, revives fearsome monsters, and features other remarkable creatures, all destined to play a part in the Prophesy of Seven.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 991,
+        "childrens": 442,
+        "childrens (middle grade)": 1147,
+        "fantasy": 7852,
+        "fantasy (mythology)": 3175,
+        "fantasy (urban fantasy)": 407,
+        "fiction": 1249,
+        "mythology (greek mythology)": 427,
+        "young adult": 3380,
+        "young adult (young adult fantasy)": 320
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "16125_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "16125_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16125_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16125_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16125_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "16125_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16125_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16125_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16125_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 431241,
+        "score": 4.42
+    },
+    "pages": 292,
+    "title": "The Son of Neptune",
+    "url": "https://www.goodreads.com/book/show/9520360-the-son-of-neptune",
+    "year_published": 2011
+}

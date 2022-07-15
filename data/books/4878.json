@@ -1,0 +1,47 @@
+{
+    "author": "Kurt Vonnegut Jr.",
+    "base_id": "4878",
+    "description": "The Sirens of Titan is an outrageous romp through space, time, and morality. The richest, most depraved man on Earth, Malachi Constant, is offered a chance to take a space journey to distant worlds with a beautiful woman at his side. Of course there's a catch to the invitation\u2014and a prophetic vision about the purpose of human life that only Vonnegut has the courage to tell.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "classics": 645,
+        "fantasy": 164,
+        "fiction": 1867,
+        "humor": 228,
+        "literature": 207,
+        "literature (20th century)": 77,
+        "literature (american)": 129,
+        "novels": 204,
+        "science fiction": 2186,
+        "science fiction fantasy": 145
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4878_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "4878_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4878_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4878_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 118865,
+        "score": 4.14
+    },
+    "pages": 499,
+    "title": "The Sirens of Titan",
+    "url": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan",
+    "year_published": 1959
+}

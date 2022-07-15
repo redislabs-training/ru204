@@ -1,25 +1,25 @@
 {
-    "author": "Nia Mars",
-    "base_id": 114,
-    "description": "I'm a scavenger. So what? With society's collapse on Earth, I do what I have to for survival. Especially after I'm kidnapped by space pirates. I have no idea why the five most powerful rulers in the universe decide that I'm the Oath Forger, the one foretold to fuse their royal houses together and bring peace. But I'm going to play along. Because, hey, it's better than probes in uncomfortable places. Now let's just hope they don't find out I'm lying.Excerpt: My attention is glued to the man who sits straight ahead, on a platform of his own, above all others.He's larger than the largest man I had ever seen on Earth. His shoulders are twice as wide as mine. He is wearing a body-hugging suit, a dark blue space material that absorbs light. His muscle definition is...Clearly visible, even from as far away as where I'm standing.Hair the color of indigo spills down to the middle of his back, the kind of hair they used to call a lion's mane on Earth. Straight nose, a jaw that looks like it had been cut from granite. But it's the eyes that render me unable to breathe. His eye color matches his hair, and his gaze is locked on mine. And-here is the weird part-I can feel him in the room. I could almost swear I can hear his heartbeat. My awareness of him is...unearthly.Oh God, I'm cracking. The stress of the abduction has done me in. Next, I will be crying in a heap on the floor like Dee.Krek Koah stands, a fierce expression on his face.The buzz in the room immediately dies. Every single person falls silent. All attention is on him.Without moving his gaze from mine, he says, \"I need this room cleared.\"Here is where I'm seriously glad for the translator in my neck-even with the killer headache I feel coming-because if I didn't understand what he said, I would think it was 'Off with their heads.'And I'm pretty sure I would pee my pants.People file for the exits, no questions, no protest.I'm ready to go. I'm backing away already.\"Not you,\" Krek Koah pronounces, looking straight at me. ",
+    "author": "Jeff Noon",
+    "base_id": "114",
+    "description": "Thrown by Zenith O'Clock, the writer of wrongs, from the Victorian age into 1998 Manchester, Alice encounters mutant hybrids, sinister gameplay, chaos theory, a robo-Alice, quantum physics, computermites, jigsaw killers, tickling vurt feathers, puzzle poems and an invisible cat called Quark. This edition is newly revised for ebook publication.",
     "editions": [
-        "None"
+        "english"
     ],
     "genres": {
-        "adult": 4,
-        "aliens": 26,
-        "dystopia": 6,
-        "fantasy": 10,
-        "paranormal": 5,
-        "polyamorous": 79,
-        "post apocalyptic": 6,
-        "romance": 21,
-        "science fiction": 40,
-        "science fiction romance": 7
+        "adult": 3,
+        "fantasy": 71,
+        "fiction": 54,
+        "literature": 4,
+        "novels": 7,
+        "science fiction": 54,
+        "science fiction (cyberpunk)": 29,
+        "science fiction (steampunk)": 9,
+        "science fiction fantasy": 12,
+        "speculative fiction": 6
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "114_1"
         },
         {
@@ -35,24 +35,16 @@
             "stock_id": "114_4"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "114_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "114_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "114_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1078,
-        "score": 3.83
+        "rating_votes": 2359,
+        "score": 3.62
     },
-    "pages": 438,
-    "title": "Oath Forger 1",
-    "url": "https://www.goodreads.com/book/show/38393522-oath-forger-1",
-    "year_published": 2018
+    "pages": 746,
+    "title": "Automated Alice",
+    "url": "https://www.goodreads.com/book/show/17369279-automated-alice",
+    "year_published": 1996
 }

@@ -1,0 +1,51 @@
+{
+    "author": "Sherman Alexie",
+    "base_id": "2193",
+    "description": "Sherman Alexie is one of our most gifted and accomplished storytellers and a treasured writer of huge national stature. His first novel in ten years is the hilarious and tragic portrait of an orphaned Indian boy who travels back and forth through time in a charged search for his true identity. With powerful and swift, prose, Flight follows this troubled foster teenager--a boy who is not a \"legal\" Indian because he was never claimed by his father--as he learns that violence is not the answer.The journey for Flight's young hero begins as he's about to commit a massive act o violence. At the moment of decision, he finds himself shot back through time to resurface in the body of an FBI agent during the civil rights era, where he sees why \"Hell is Re driver, Idaho, in the 1970s.\" Red River is only the first stop in an eye-opening trip through moments in American history. He will continue traveling back to inhabit the body of an Indian child during the battle at Little Bighorn and then ride with an Indian tracker in the nineteenth century before materializing as an airline pilot jetting through the skies today. During these furious travels through time, his refrain grows: \"Who's to judge?\" and \"I don't understand humans.\" When finally, blessedly, our young warrior comes to rest again in his own life, he is mightily transformed by all he has seen.This is Sherman Alexie at his most brilliant--making us laugh while he's breaking our hearts. Time Out has said that \"Alexie, like his characters, is on a modern-day vision quest,\" and in Flight he seeks nothing less than an understanding of why human beings hate. Flight is irrepressible, fearless, and groundbreaking Alexie.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 67,
+        "contemporary": 34,
+        "fantasy": 90,
+        "fiction": 506,
+        "historical (historical fiction)": 84,
+        "magical realism": 38,
+        "novels": 37,
+        "science fiction": 42,
+        "science fiction (time travel)": 79,
+        "young adult": 247
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2193_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2193_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2193_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2193_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2193_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15463,
+        "score": 3.89
+    },
+    "pages": 1171,
+    "title": "Flight",
+    "url": "https://www.goodreads.com/book/show/52872.Flight",
+    "year_published": 2007
+}

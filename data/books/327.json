@@ -1,38 +1,64 @@
 {
-    "author": "Gena Showalter",
-    "base_id": 327,
-    "description": "New York Times bestselling author Gena Showalter captivates with a dark, tantalizing world of humans, otherworlders, and a powerful AIR agent consumed by his desire for a woman he can never have. . . .With one caress, he can give unforgettable pleasure . . . or unending pain. . . .Hector Dean is shaved, tattooed, and totally ripped\u2014and he has a deadly secret. He is a walking weapon, capable of killing with a single brush of his fingertips. Little wonder he\u2019s determined to remain on his own. But Noelle Tremain is a temptation like no other. She is beautiful and rich, with a party girl smile that hides a shocking vulnerability, and from the beginning his sizzling attraction to her is undeniable. For the first time, his stone-cold resistance is tested. But to be with her, he risks destroying her.When a wealthy businessman is murdered in New Chicago\u2019s seediest district, the two are partnered, and there\u2019s no escaping what they both want: each other. Yet neither Hector nor Noelle knows what to fear more\u2014the killer case, or their own lethal desires. . . .",
+    "author": "Pirateaba",
+    "base_id": "327",
+    "description": "\u201cNo killing Goblins.\u201d  So reads the sign outside of The Wandering Inn, a small building run by a young woman named Erin Solstice. She serves pasta with sausage, blue fruit juice, and dead acid flies on request. And she comes from another world. Ours.  It\u2019s a bad day when Erin finds herself transported to a fantastical world and nearly gets eaten by a Dragon. She doesn\u2019t belong in a place where monster attacks are a fact of life, and where Humans are one species among many. But she must adapt to her new life. Or die.  In a dangerous world where magic is real and people can level up and gain classes, Erin Solstice must battle somewhat evil Goblins, deadly Rock Crabs, and hungry [Necromancers]. She is no warrior, no mage. Erin Solstice runs an inn.  She\u2019s an [Innkeeper].",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 11,
-        "aliens": 36,
-        "fantasy": 33,
-        "paranormal": 62,
-        "paranormal romance": 79,
-        "romance": 58,
-        "science fiction": 16,
-        "supernatural": 15,
-        "urban fantasy": 16,
-        "vampires": 21
+        "adventure": 9,
+        "audiobook": 13,
+        "fantasy": 164,
+        "fantasy (epic fantasy)": 4,
+        "fantasy (high fantasy)": 7,
+        "fantasy (magic)": 16,
+        "fantasy (urban fantasy)": 3,
+        "fiction": 12,
+        "science fiction fantasy": 3,
+        "young adult": 4
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "327_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "327_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "327_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "327_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "327_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "327_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "327_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "327_8"
         }
     ],
     "metrics": {
-        "rating_votes": 5882,
-        "score": 4.35
+        "rating_votes": 2768,
+        "score": 4.37
     },
-    "pages": 790,
-    "title": "Dark Taste of Rapture",
-    "url": "https://www.goodreads.com/book/show/9757229-dark-taste-of-rapture",
-    "year_published": 2011
+    "pages": 411,
+    "title": "The Wandering Inn: Volume 1",
+    "url": "https://www.goodreads.com/book/show/41033158-the-wandering-inn",
+    "year_published": 2018
 }

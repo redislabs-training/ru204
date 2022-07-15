@@ -1,0 +1,48 @@
+{
+    "author": "Vladimir Nabokov",
+    "base_id": "854",
+    "description": "An alternative cover edition for this ISBN can be found hereLike Kafka's The Castle, Invitation to a Beheading embodies a vision of a bizarre and irrational world. In an unnamed dream country, the young man Cincinnatus C. is condemned to death by beheading for \"gnostical turpitude\", an imaginary crime that defies definition. Cincinnatus spends his final days in an absurd jail, where he is visited by chimerical jailers, an executioner who masquerades as a fellow prisoner, and by his in-laws, who lug their furniture with them into his prison cell.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "classics": 240,
+        "cultural (russia)": 219,
+        "fantasy": 15,
+        "fiction": 527,
+        "literary fiction": 42,
+        "literature": 80,
+        "literature (20th century)": 40,
+        "literature (russian literature)": 124,
+        "novels": 68,
+        "science fiction (dystopia)": 48
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "854_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "854_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "854_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "854_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13885,
+        "score": 3.91
+    },
+    "pages": 262,
+    "title": "Invitation to a Beheading",
+    "url": "https://www.goodreads.com/book/show/376561.Invitation_to_a_Beheading",
+    "year_published": 1938
+}

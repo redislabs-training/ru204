@@ -1,0 +1,48 @@
+{
+    "author": "Rick Riordan",
+    "base_id": "21988",
+    "description": "It's not everyday you find yourself in combat with a half-lion, half-human.But when you're the son of a Greek god, it happens. And now my friend Annabeth is missing, a goddess is in chains and only five half-blood heroes can join the quest to defeat the doomsday monster.Oh, and guess what? The Oracle has predicted that not all of us will survive...",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 1651,
+        "childrens": 870,
+        "childrens (middle grade)": 2294,
+        "fantasy": 13739,
+        "fantasy (magic)": 487,
+        "fantasy (mythology)": 4347,
+        "fantasy (urban fantasy)": 729,
+        "fiction": 2445,
+        "mythology (greek mythology)": 751,
+        "young adult": 5625
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "21988_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "21988_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "21988_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "21988_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 717984,
+        "score": 4.34
+    },
+    "pages": 222,
+    "title": "The Titan's Curse",
+    "url": "https://www.goodreads.com/book/show/561456.The_Titan_s_Curse",
+    "year_published": 2007
+}

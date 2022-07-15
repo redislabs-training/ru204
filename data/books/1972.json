@@ -1,0 +1,58 @@
+{
+    "author": "Kenneth Oppel",
+    "base_id": "1972",
+    "description": "Matt Cruse is a cabin boy on the Aurora, a huge airship that sails hundreds of feet above the ocean, ferrying wealthy passengers from city to city. It is the life Matt's always wanted; convinced he's lighter than air, he imagines himself as buoyant as the hydrium gas that powers his ship. One night he meets a dying balloonist who speaks of beautiful creatures drifting through the skies. It is only after Matt meets the balloonist's granddaughter that he realizes that the man's ravings may, in fact, have been true, and that the creatures are completely real and utterly mysterious.In a swashbuckling adventure reminiscent of Jules Verne and Robert Louis Stevenson, Kenneth Oppel, author of the best-selling Silverwing trilogy, creates an imagined world in which the air is populated by transcontinental voyagers, pirates, and beings never before dreamed of by the humans who sail the skies.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 315,
+        "adventure (pirates)": 80,
+        "audiobook": 67,
+        "childrens (middle grade)": 63,
+        "fantasy": 693,
+        "fiction": 231,
+        "science fiction": 339,
+        "science fiction (steampunk)": 706,
+        "young adult": 665,
+        "young adult (teen)": 89
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1972_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1972_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1972_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1972_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1972_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1972_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1972_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 23581,
+        "score": 4.17
+    },
+    "pages": 920,
+    "title": "Airborn",
+    "url": "https://www.goodreads.com/book/show/428042.Airborn",
+    "year_published": 2004
+}

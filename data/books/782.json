@@ -1,0 +1,55 @@
+{
+    "author": "Geoff Johns",
+    "base_id": "782",
+    "description": "Not a dream, not an imaginary story, not an elseworld. This is Flash Fact: When Barry Allen wakes at his desk, he discovers the world has changed. Family is alive, loved ones are strangers, and close friends are different, gone or worse. It's a world on the brink of a cataclysmic war - but where are Earth's Greatest Heroes to stop it? It's a place where America's last hope is Cyborg, who hopes to gather the forces of The Outsider, The Secret 7, SHAZAM!, Citizen Cold and other new and familiar, yet altered, faces! It's a world that could be running out of time, if The Flash can't find the villain who altered the time line!Collecting: Flashpoint 1-5",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "comics (comic book)": 95,
+        "comics (superheroes)": 60,
+        "dc comics (batman)": 30,
+        "fantasy": 20,
+        "fiction": 33,
+        "graphic novels comics": 56,
+        "science fiction": 21,
+        "sequential art (comics)": 678,
+        "sequential art (graphic novels)": 352,
+        "superheroes (dc comics)": 149
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "782_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "782_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "782_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "782_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "782_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "782_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11283,
+        "score": 4.21
+    },
+    "pages": 306,
+    "title": "Flashpoint",
+    "url": "https://www.goodreads.com/book/show/11501608-flashpoint",
+    "year_published": 2011
+}

@@ -1,0 +1,59 @@
+{
+    "author": "George Mann",
+    "base_id": "0",
+    "description": "",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "none": 1000
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "0_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "0_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "0_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "0_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "0_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "0_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "0_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "0_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "0_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3,
+        "score": 3.67
+    },
+    "pages": 1188,
+    "title": "Engineward #2",
+    "url": "https://www.goodreads.com/book/show/55127142-engineward-2",
+    "year_published": 2020
+}

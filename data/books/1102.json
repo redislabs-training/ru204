@@ -1,0 +1,62 @@
+{
+    "author": "Jeyn Roberts",
+    "base_id": "1102",
+    "description": "Moments after several huge earthquakes shake every continent on Earth, something strange starts happening to some people. An inner rage has been released and some people cannot fight it. For those who can, life becomes an ongoing battle to survive - at any cost!",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 36,
+        "apocalyptic (post apocalyptic)": 119,
+        "fantasy (paranormal)": 33,
+        "fiction": 63,
+        "horror": 154,
+        "horror (zombies)": 131,
+        "science fiction": 88,
+        "science fiction (apocalyptic)": 69,
+        "science fiction (dystopia)": 240,
+        "young adult": 334
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1102_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1102_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1102_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1102_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1102_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1102_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1102_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1102_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8731,
+        "score": 3.92
+    },
+    "pages": 1208,
+    "title": "Dark Inside",
+    "url": "https://www.goodreads.com/book/show/10841167-dark-inside",
+    "year_published": 2011
+}

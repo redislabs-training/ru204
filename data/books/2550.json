@@ -1,9 +1,9 @@
 {
     "author": "Catherynne M. Valente",
-    "base_id": 2550,
+    "base_id": "2550",
     "description": "IN SPACE EVERYONE CAN HEAR YOU SINGA century ago, the Sentience Wars tore the galaxy apart and nearly ended the entire concept of intelligent space-faring life. In the aftermath, a curious tradition was invented-something to cheer up everyone who was left and bring the shattered worlds together in the spirit of peace, unity, and understanding.Once every cycle, the civilizations gather for the Metagalactic Grand Prix - part gladiatorial contest, part beauty pageant, part concert extravaganza, and part continuation of the wars of the past. Instead of competing in orbital combat, the powerful species that survived face off in a competition of song, dance, or whatever can be physically performed in an intergalactic talent show. The stakes are high for this new game, and everyone is forced to compete.This year, though, humankind has discovered the enormous universe. And while they expected to discover a grand drama of diplomacy, gunships, wormholes, and stoic councils of aliens, they have instead found glitter, lipstick and electric guitars. Mankind will not get to fight for its destiny - they must sing.A one-hit-wonder band of human musicians, dancers and roadies from London - Decibel Jones and the Absolute Zeroes - have been chosen to represent Earth on the greatest stage in the galaxy. And the fate of their species lies in their ability to rock.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
         "adult": 84,
@@ -15,19 +15,43 @@
         "science fiction": 769,
         "science fiction fantasy": 69,
         "space": 67,
-        "space opera": 106
+        "space (space opera)": 106
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2550_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2550_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2550_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2550_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2550_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2550_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2550_7"
         }
     ],
     "metrics": {
         "rating_votes": 11504,
         "score": 3.53
     },
-    "pages": 623,
+    "pages": 911,
     "title": "Space Opera",
     "url": "https://www.goodreads.com/book/show/24100285-space-opera",
     "year_published": 2018

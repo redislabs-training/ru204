@@ -1,42 +1,38 @@
 {
-    "author": "Alex White",
-    "base_id": 156,
-    "description": "A dramatic new Alien novel, as Weyland-Yutani seeks to recover from the failure of Hadley's Hope, and successfully weaponize the Xenomorphs.With the failure of the Hadley's Hope, Weyland-Yutani has suffered a devastating defeat--the loss of the Aliens. Yet there's a reason the company rose to the top, and they have a redundancy already in place. Remote station RB-323 abruptly becomes their greatest hope for weaponizing the Xenomorph, but there's a spy aboard--someone who doesn't necessarily act in the company's best interests. If discovered, this person may have no choice but to destroy RB-323... and everyone on board. That is, if the Xenomorphs don't do the job first.",
+    "author": "Michael       Lawrence",
+    "base_id": "156",
+    "description": "What if someone else was living your life?You are sixteen. You live with your father in a big Victorian house on the outskirts of London. Your mother is dead, killed in a train crash two years ago. It is snowing. The snow is falling on the house and the wide yard and the gnarled old tree that everyone calls the Family Tree. It makes you restless. You reach out your hands toward an object you've known all your life, and suddenly the walls melt away. When you open your eyes, you are still in your living room. \"Who are you?\" asks a girl who looks just like you but is not you. \"And what are you doing in my house?\"You have stumbled into another version of your life. This girl is sixteen. She lives with your father (her father) in a big Victorian house on the outskirts of London. Your mother (her mother) is not dead. She had a close call in a train crash two years ago. Listen: your mother is calling you (her) now.Michael Lawrence's gripping thriller about a boy and a girl who are the same person but not quite will have you turning the pages late into the night...and talking and thinking and wondering about the shifting nature of identity, time, space, and the cracks that can appear in a train rail, a lifeline, and a family tree.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "action": 2,
-        "adult": 3,
-        "aliens": 17,
-        "audiobook": 7,
-        "dystopia": 2,
-        "fiction": 12,
-        "horror": 54,
-        "media tie-in": 4,
-        "science fiction": 44,
-        "science fiction fantasy": 4
+        "adventure": 5,
+        "fantasy": 44,
+        "fantasy (paranormal)": 13,
+        "fiction": 21,
+        "mystery": 6,
+        "novels": 5,
+        "science fiction": 37,
+        "science fiction fantasy": 4,
+        "young adult": 59,
+        "young adult (teen)": 9
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "156_1"
         },
         {
-            "status": "available",
-            "stock_id": "156_2"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "156_3"
+            "stock_id": "156_2"
         }
     ],
     "metrics": {
-        "rating_votes": 1038,
-        "score": 3.9
+        "rating_votes": 1524,
+        "score": 3.81
     },
-    "pages": 1231,
-    "title": "Alien: The Cold Forge",
-    "url": "https://www.goodreads.com/book/show/36475917-alien",
-    "year_published": 2018
+    "pages": 795,
+    "title": "A Crack in the Line",
+    "url": "https://www.goodreads.com/book/show/391993.A_Crack_in_the_Line",
+    "year_published": 1995
 }

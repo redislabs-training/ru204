@@ -1,0 +1,50 @@
+{
+    "author": "Kim Zetter",
+    "base_id": "539",
+    "description": "In January 2010, inspectors with the International Atomic Energy Agency noticed that centrifuges at a uranium enrichment plant in Iran were failing and being replaced at an unprecedented rate. The cause of their failure was a complete mystery.Five months later, a seemingly unrelated event occurred. A computer security firm in Belarus was called in to troubleshoot some computers in Iran that were caught in a reboot loop\u2014crashing and rebooting repeatedly. At first, technicians with the firm believed the malicious code they found on the machines was a simple, routine piece of malware. But as they and other experts around the world investigated, they discovered a virus of unparalleled complexity and mysterious provenance and intent. They had, they soon learned, stumbled upon the world\u2019s first digital weapon.Stuxnet, as it came to be known, was unlike any other virus or worm built before: It was the first attack that reached beyond the computers it targeted to physically destroy the equipment those computers controlled. It was an ingenious attack, jointly engineered by the United States and Israel, that worked exactly as planned, until the rebooting machines gave it all away. And the discovery of Stuxnet was just the beginning: Once the digital weapon was uncovered and deciphered, it provided clues to other tools lurking in the wild. Soon, security experts found and exposed not one but three highly sophisticated digital spy tools that came from the same labs that created Stuxnet. The discoveries gave the world its first look at the scope and sophistication of nation-state surveillance and warfare in the digital age.Kim Zetter, a senior reporter at Wired, has covered hackers and computer security since 1999 and is one of the top journalists in the world on this beat. She was among the first reporters to cover Stuxnet after its discovery and has authored many of the most comprehensive articles about it. In COUNTDOWN TO ZERO DAY: Stuxnet and the Launch of the World\u2019s First Digital Weapon, Zetter expands on this work to show how the code was designed and unleashed and how its use opened a Pandora\u2019s Box, ushering in an age of digital warfare in which any country\u2019s infrastructure\u2014power grids, nuclear plants, oil pipelines, dams\u2014is vulnerable to the same kind of attack with potentially devastating results. A sophisticated digital strike on portions of the power grid, for example, could plunge half the U.S. into darkness for weeks or longer, having a domino effect on all other critical infrastructures dependent on electricity.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 23,
+        "computer science (computers)": 29,
+        "history": 105,
+        "nonfiction": 208,
+        "politics": 51,
+        "science": 57,
+        "science (computer science)": 18,
+        "science (technology)": 111,
+        "spy thriller (espionage)": 18,
+        "war": 27
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "539_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "539_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "539_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "539_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "539_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5115,
+        "score": 4.15
+    },
+    "pages": 976,
+    "title": "Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon",
+    "url": "https://www.goodreads.com/book/show/18465875-countdown-to-zero-day",
+    "year_published": 2014
+}

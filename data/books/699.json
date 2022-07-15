@@ -1,62 +1,39 @@
 {
-    "author": "Zoey Draven",
-    "base_id": 699,
-    "description": "\n\n\nShe made a deal with the Dakkari devil!\n\n\n\nNow, he owns her!\n\n\nOn the unforgiving planet of Dakkar, I did what all the humans in our village did: kept my head down, worked to provide for my family, and I certainly didn\u2019t break any Dakkari laws to risk inciting the alien race\u2019s merciless wrath!\nUnfortunately, the same couldn\u2019t be said for my brother and one careless mistake brings a horde of the nomadic, barbarian Dakkari straight to our doorstep, led by their powerful horde king - a cold, ruthless, battle-scarred warrior demanding retribution!\n\n\nIn order to save my brother\u2019s life, I do the unthinkable...\n\n\nI sell myself to the horde king as his war prize. I agree to warm his furs, to travel with his horde across the wild lands of Dakkar, and to never see my family again!\n\n\nBut, as I struggle with my new reality, I discover that the surly, mysterious, dominant horde king never intended for me to be his concubine\u2026 \n\n\n\n\nHe wants me as his queen!\n\n\n",
+    "author": "S.G. Redling",
+    "base_id": "699",
+    "description": "When Feno Chemical spilled an experimental pesticide in rural Iowa, scores of people died. Those who survived contamination were herded into a US Army medically maintained quarantine and cut off from the world. Dosed with powerful drugs to combat the poison, their bodies give off a sickly sweet smell and the containment zone becomes known simply as Flowertown. Seven years later, the infrastructure is crumbling, supplies are dwindling, and nobody is getting clean. Ellie Cauley doesn\u2019t care anymore. Despite her paranoid best friend's insistence that conspiracies abound, she focuses on three things: staying high, hooking up with the Army sergeant she's not supposed to be fraternizing with and, most importantly, trying to ignore her ever-simmering rage. But when a series of deadly events rocks the compound, Ellie suspects her friend is right\u2014something dangerous is going down in Flowertown and all signs point to a twisted plan of greed and abuse. She and the other residents of Flowertown have been betrayed by someone with a deadly agenda and their plan is just getting started. Time is running out. With nobody to trust and nowhere to go, Ellie decides to fight with the last weapon she has\u2014her rage.Flowertown is a high-intensity conspiracy thriller that brings the worst-case scenario vividly to life and will keep readers riveted until the final haunting page.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 23,
-        "aliens": 128,
-        "erotica": 21,
-        "fantasy": 119,
-        "fantasy romance": 15,
-        "paranormal": 68,
-        "paranormal romance": 29,
-        "romance": 135,
-        "science fiction": 112,
-        "science fiction romance": 29
+        "apocalyptic (post apocalyptic)": 28,
+        "fiction": 67,
+        "horror": 9,
+        "mystery": 11,
+        "science fiction": 70,
+        "science fiction (apocalyptic)": 11,
+        "science fiction (dystopia)": 73,
+        "suspense": 9,
+        "thriller": 46,
+        "young adult": 13
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "699_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "699_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "699_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "699_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "699_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "699_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "699_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "699_8"
         }
     ],
     "metrics": {
-        "rating_votes": 6428,
-        "score": 4.07
+        "rating_votes": 7482,
+        "score": 3.79
     },
-    "pages": 1089,
-    "title": "Captive of the Horde King",
-    "url": "https://www.goodreads.com/book/show/44571879-captive-of-the-horde-king",
-    "year_published": 2019
+    "pages": 467,
+    "title": "Flowertown",
+    "url": "https://www.goodreads.com/book/show/13031388-flowertown",
+    "year_published": 2012
 }

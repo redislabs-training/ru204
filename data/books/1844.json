@@ -1,0 +1,63 @@
+{
+    "author": "Hugh Howey",
+    "base_id": "1844",
+    "description": "The new novel from the international bestselling author of the Wool trilogy.The old world is buried. A new one has been forged atop the shifting dunes. Here in this land of howling wind and infernal sand, four siblings find themselves scattered and lost.Palmer has never been the same since his father walked out twelve years ago. His elder sister, Vic, is trying to run away from the past; his younger brothers, Connor and Rob, are risking their lives to embrace it. His mother, left with nothing but anger, is just trying to forget.Palmer wants to prove his worth, not only to his family, but to himself. And in the barren, dune-covered landscape of his home, there is only one way to earn respect: sand-diving. Plunging deep below the desert floor in search of relics and scraps of the old world. He is about to embark on the most dangerous dive of his young life, aiming to become the first to discover the rumoured city below.Deep within the sand lies the key to bringing his family together \u2013 and tearing their world apart.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 21,
+        "apocalyptic (post apocalyptic)": 138,
+        "audiobook": 24,
+        "fantasy": 115,
+        "fiction": 255,
+        "science fiction": 501,
+        "science fiction (apocalyptic)": 34,
+        "science fiction (dystopia)": 226,
+        "science fiction fantasy": 28,
+        "speculative fiction": 18
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1844_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1844_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1844_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1844_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1844_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1844_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1844_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1844_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24199,
+        "score": 3.97
+    },
+    "pages": 270,
+    "title": "Sand",
+    "url": "https://www.goodreads.com/book/show/20662430-sand",
+    "year_published": 2014
+}

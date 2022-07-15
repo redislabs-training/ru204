@@ -1,34 +1,54 @@
 {
-    "author": "MelissaWest",
-    "base_id": 807,
-    "description": "In the future, only one rule will matter:Don\u2019t. Ever. Peek.Seventeen-year-old Ari Alexander just broke that rule and saw the last person she expected hovering above her bed \u2014 arrogant Jackson Locke, the most popular boy in her school. She expects instant execution or some kind of freak alien punishment, but instead, Jackson issues a challenge: help him, or everyone on Earth will die.Ari knows she should report him, but everything about Jackson makes her question what she\u2019s been taught about his kind. And against her instincts, she\u2019s falling for him. But Ari isn\u2019t just any girl, and Jackson wants more than her attention. She\u2019s a military legacy who\u2019s been trained by her father and exposed to war strategies and societal information no one can know \u2014 especially an alien spy, like Jackson. Giving Jackson the information he needs will betray her father and her country, but keeping silent will start a war.",
+    "author": "Alexander Gordon Smith",
+    "base_id": "807",
+    "description": "Furnace Prison ...Where death is the least of your worries.Escape is just the beginning ...We thought we\u2019d made it, we thought we were free. But we should have known there was no way out of Furnace.All we did was slip deeper into the guts of the prison: into solitary confinement, where the real nightmares live - the warden, the Wheezers, and something much, much worse.The clock\u2019s ticking. Because if we don\u2019t escape soon they will turn us into freaks - like them. For ever.In the darkness of the hole your worst nightmares come to life.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 210,
-        "dystopia": 211,
-        "fantasy": 93,
-        "futuristic": 28,
-        "paranormal": 59,
-        "paranormal romance": 27,
-        "romance": 141,
-        "science fiction": 247,
-        "space": 25,
-        "young adult": 318
+        "adventure": 26,
+        "adventure (survival)": 17,
+        "fantasy": 34,
+        "fiction": 41,
+        "horror": 163,
+        "science fiction": 87,
+        "science fiction (dystopia)": 81,
+        "thriller": 37,
+        "young adult": 180,
+        "young adult (teen)": 21
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "807_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "807_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "807_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "807_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "807_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "807_6"
         }
     ],
     "metrics": {
-        "rating_votes": 8301,
-        "score": 3.79
+        "rating_votes": 7777,
+        "score": 4.18
     },
-    "pages": 1059,
-    "title": "Gravity",
-    "url": "https://www.goodreads.com/book/show/12844575-gravity",
-    "year_published": 2012
+    "pages": 670,
+    "title": "Solitary",
+    "url": "https://www.goodreads.com/book/show/6633007-solitary",
+    "year_published": 2009
 }

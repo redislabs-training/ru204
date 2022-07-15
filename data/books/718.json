@@ -1,0 +1,50 @@
+{
+    "author": "Ira Levin",
+    "base_id": "718",
+    "description": "The story is set in a seemingly perfect global society. Uniformity is the defining feature; there is only one language and all ethnic groups have been eugenically merged into one race called \u201cThe Family.\u201d The world is ruled by a central computer called UniComp that has been programmed to keep every single human on the surface of the earth in check. People are continually drugged by means of regular injections so that they will remain satisfied and cooperative. They are told where to live, when to eat, whom to marry, when to reproduce. Even the basic facts of nature are subject to the UniComp\u2019s will\u2014men do not grow facial hair, women do not develop breasts, and it only rains at night.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 12,
+        "apocalyptic (post apocalyptic)": 15,
+        "classics": 39,
+        "fiction": 186,
+        "horror": 43,
+        "novels": 20,
+        "science fiction": 341,
+        "science fiction (dystopia)": 225,
+        "science fiction fantasy": 21,
+        "speculative fiction": 16
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "718_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "718_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "718_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "718_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "718_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7849,
+        "score": 4.02
+    },
+    "pages": 706,
+    "title": "This Perfect Day",
+    "url": "https://www.goodreads.com/book/show/139390.This_Perfect_Day",
+    "year_published": 1970
+}

@@ -1,18 +1,20 @@
 {
-    "author": "S.D. Perry",
-    "base_id": 21,
-    "description": "The space station Innominata has one problem: men die there. Only no one really knows it - or at least, no one who counts. Certainly Colonel Doctor Tony Crespi has no idea; he is simply eager to work with the infamous Doctor Paul Church, who believes that a mutated strain of alien can be made to obey human will.Church's captive creatures live in a warren of tunnels. Inside that labyrinth, Crespi and Lieutenant Sharon McGuinness are about to find the true meaning of Church's experiments. With a chamber of all-too-human horrors at its dark heart, the labyrinth is a death trap - designed by a man who is attempting what no other person in the universe would dare: to bring human and alien together as one!",
+    "author": "Kurt Busiek",
+    "base_id": "21",
+    "description": "Ultron has always been one of the Avengers' deadliest foes, and his evil deeds the more heinous because this sentient robot was created by founding Avenger Dr. Hank Pym, a scientist who has been a hero under the various guises of Ant-Man, Giant-Man and Yellowjacket. Constantly evolving, with each defeat, every new incarnation of this seemingly indestructible enemy is worse than the last. But never before has Ultron been this dangerous. Seizing the attention of the world's media, Ultron destroys an entire Eastern European nation. And that was just to get the Avengers' attention. The Earth's Mightiest Heroes are in for the fight of their lives, and this time, their adversary just may have evolved out their league altogether. Collects Avengers vol. 3, #19-22, 0",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 2,
-        "aliens": 18,
-        "fiction": 7,
-        "graphic novels": 2,
-        "horror": 15,
-        "novels": 3,
-        "science fiction": 20
+        "comics (comic book)": 7,
+        "comics (superheroes)": 6,
+        "fiction": 4,
+        "graphic novels comics": 3,
+        "sequential art (comics)": 46,
+        "sequential art (graphic novels)": 23,
+        "superheroes (marvel)": 24
     },
     "inventory": [
         {
@@ -24,16 +26,28 @@
             "stock_id": "21_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "21_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "21_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "21_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "21_6"
         }
     ],
     "metrics": {
-        "rating_votes": 371,
-        "score": 3.7
+        "rating_votes": 407,
+        "score": 3.8
     },
-    "pages": 795,
-    "title": "Aliens: Labyrinth",
-    "url": "https://www.goodreads.com/book/show/783247.Aliens",
-    "year_published": 1996
+    "pages": 1174,
+    "title": "Avengers: Ultron Unlimited",
+    "url": "https://www.goodreads.com/book/show/154375.Avengers",
+    "year_published": 2000
 }

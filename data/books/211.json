@@ -1,34 +1,55 @@
 {
-    "author": "Evangeline Anderson",
-    "base_id": 211,
-    "description": "Book 5 in the Brides of the Kindred seriesThis book is a plus length novel--around 130,000 words longNadiah has the Sight\u2014the ability to see into the future. But the one thing she can\u2019t see is how she\u2019s ever going to be free of the blood bond her parents forced her into when she was only six. Her fianc\u00e9e is an evil bastard who delights in torturing her and her only way out of a loveless marriage is for a Kindred warrior to challenge the hated bond. But Nadiah has no warrior to challenge for her\u2014she just has Rast.Adam Rast doesn\u2019t know why he feels so protective and possessive of Nadiah, only that he\u2019s willing to kill or die to protect her. When the chance to set her free arises, he takes it without hesitation, even though his lack of Kindred blood could mean his defeat or even his death. But Rast has a secret, one even he doesn\u2019t know he possesses. When he undertakes Nadiah\u2019s quest, the truth comes out in a strange and provocative way. Can Nadiah and Rast live through their ordeal? Will the truth about Rast set them free\u2026or kill them? You\u2019ll have to read Revealed to find out.",
+    "author": "Geoff   Jones",
+    "base_id": "211",
+    "description": "They came for the coffee and wound up in the Cretaceous.A ticking sound fills the air as Tim MacGregor enters The Daily Edition Caf\u00e9, hoping to meet his new girlfriend for coffee. Moments later, a chunk of building is transported 67 million years back in time, along with everyone inside.Ten unlikely companions find themselves in a world of dinosaurs and prehistoric reptiles. Several survivors compete for leadership as they search for a way home, and one member of the group plots to keep them all trapped in the past...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 28,
-        "aliens": 91,
-        "erotic romance": 16,
-        "erotica": 87,
-        "fantasy": 25,
-        "paranormal": 57,
-        "paranormal romance": 45,
-        "romance": 117,
-        "science fiction": 94,
-        "science fiction romance": 47
+        "action": 3,
+        "adventure": 7,
+        "animals": 3,
+        "animals (dinosaurs)": 26,
+        "audiobook": 5,
+        "fiction": 8,
+        "horror": 6,
+        "science fiction": 31,
+        "science fiction (time travel)": 29,
+        "thriller": 7
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "211_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "211_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "211_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "211_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "211_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "211_6"
         }
     ],
     "metrics": {
-        "rating_votes": 5340,
-        "score": 4.13
+        "rating_votes": 1406,
+        "score": 3.67
     },
-    "pages": 207,
-    "title": "Revealed",
-    "url": "https://www.goodreads.com/book/show/13505863-revealed",
-    "year_published": 2012
+    "pages": 1130,
+    "title": "The Dinosaur Four",
+    "url": "https://www.goodreads.com/book/show/22368837-the-dinosaur-four",
+    "year_published": 2014
 }

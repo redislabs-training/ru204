@@ -1,0 +1,40 @@
+{
+    "author": "Robert Jordan",
+    "base_id": "13153",
+    "description": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow.Let the Dragon ride again on the winds of time.The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow.When The Two Rivers is attacked by Trollocs-a savage tribe of half-men, half-beasts- five villagers flee that night into a world they barely imagined, with new dangers waiting in the shadows and in the light.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 326,
+        "adventure": 408,
+        "audiobook": 314,
+        "epic": 271,
+        "fantasy": 18114,
+        "fantasy (epic fantasy)": 1152,
+        "fantasy (high fantasy)": 718,
+        "fantasy (magic)": 320,
+        "fiction": 2389,
+        "science fiction fantasy": 599
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "13153_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "13153_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 404975,
+        "score": 4.17
+    },
+    "pages": 484,
+    "title": "The Eye of the World",
+    "url": "https://www.goodreads.com/book/show/228665.The_Eye_of_the_World",
+    "year_published": 1990
+}

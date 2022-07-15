@@ -1,46 +1,44 @@
 {
-    "author": "Dennis E. Taylor",
-    "base_id": 1774,
-    "description": "Bob Johansson didn\u2019t believe in an afterlife, so waking up after being killed in a car accident was a shock. To add to the surprise, he is now a sentient computer and the controlling intelligence for a Von Neumann probe.Bob and his copies have been spreading out from Earth for forty years now, looking for habitable planets. But that\u2019s the only part of the plan that\u2019s still in one piece. A system-wide war has killed off 99.9% of the human race; nuclear winter is slowly making the Earth uninhabitable; a radical group wants to finish the job on the remnants of humanity; the Brazilian space probes are still out there, still trying to blow up the competition; And the Bobs have discovered a spacefaring species that considers all other life as food.Bob left Earth anticipating a life of exploration and blissful solitude. Instead he\u2019s a sky god to a primitive native species, the only hope for getting humanity to a new home, and possibly the only thing that can prevent every species in the local sphere ending up as dinner.",
+    "author": "Genevieve Cogman",
+    "base_id": "1774",
+    "description": "Librarian-spy Irene is working undercover in an alternative London when her assistant Kai goes missing. She discovers he's been kidnapped by the fae faction and the repercussions could be fatal. Not just for Kai, but for whole worlds.Kai's dragon heritage means he has powerful allies, but also powerful enemies in the form of the fae. With this act of aggression, the fae are determined to trigger a war between their people - and the forces of order and chaos themselves.Irene's mission to save Kai and avert Armageddon will take her to a dark, alternate Venice where it's always Carnival. Here Irene will be forced to blackmail, fast talk, and fight. Or face death.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "Artificial Intelligence": 18,
-        "adventure": 24,
-        "aliens": 39,
-        "audiobook": 226,
-        "fiction": 252,
-        "humor": 51,
-        "science fiction": 816,
-        "science fiction fantasy": 30,
-        "space": 59,
-        "space opera": 95
+        "adventure": 104,
+        "fantasy": 1495,
+        "fantasy (dragons)": 106,
+        "fantasy (magic)": 106,
+        "fantasy (urban fantasy)": 120,
+        "fiction": 286,
+        "mystery": 146,
+        "science fiction": 73,
+        "science fiction (steampunk)": 188,
+        "writing (books about books)": 85
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "1774_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "1774_2"
         },
         {
-            "status": "maintenance",
-            "stock_id": "1774_3"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "1774_4"
+            "stock_id": "1774_3"
         }
     ],
     "metrics": {
-        "rating_votes": 35978,
-        "score": 4.37
+        "rating_votes": 17529,
+        "score": 3.95
     },
-    "pages": 234,
-    "title": "For We Are Many",
-    "url": "https://www.goodreads.com/book/show/33395557-for-we-are-many",
-    "year_published": 2017
+    "pages": 1240,
+    "title": "The Masked City",
+    "url": "https://www.goodreads.com/book/show/25761086-the-masked-city",
+    "year_published": 2015
 }

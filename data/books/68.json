@@ -1,21 +1,20 @@
 {
-    "author": "Isabel Wroth",
-    "base_id": 68,
-    "description": "Book 1.1 of the Sarazen Saga This book is part of a SERIES. It could be read alone and enjoyed as is. Suggested to be read following Book 1, Sarazen's Claim. There is a happy ending, but as this is part of a SERIES, the ever after part comes later. Not a cliffhanger so much as a continuation.Having gone from invisible engineering personnel, to one of the few remaining human survivors, Andi Starsong is struggling to acclimate to her new situation. She's been identified as a potential mate by one of the hulking Sarazen warriors, and if that wasn't terrifying enough, he's come to claim her.Ohlen's little mate is terrified of him. Despite having done everything he can think of to put her at ease, Andi shies from him each time he so much as glances his way. He can no longer deny the roaring of his beast, the instinct that tells him she is in danger. He has no choice. He must claim her.When the warship reaches Sarazen territory, Ohlen and Andi must navigate their blossoming bond and the danger of the treachery brewing within the pride. Treachery that could destroy more than just their bond.",
+    "author": "Phil Hornshaw",
+    "base_id": "68",
+    "description": "Welcome, intrepid temporal explorers, to the world's first and only field manual/survival guide to time travel!DON'T LEAVE THIS TIME PERIOD WITHOUT IT! Humans from H. G. Wells to Albert Einstein to Bill & Ted have been fascinated by time travel-some say drawn to it like moths to a flame. But in order to travel safely and effectively, newbie travelers need to know the dos and don'ts. Think of this handy little book as the only thing standing between you and an unimaginably horrible death-or being trapped forever in another time or alternate reality. You get: Essential time travel knowledge: Choosing the right time machine, from DeLoreans to hot tubs to phone booths-and beyond What to say-and what NOT to say-to your doppelganger Understanding black holes and Stephen Hawking's term spaghettification (no, it's not a method of food preperation; yes, it is a horrifically painful way to meet your end) The connection between Einstein's General Theory of Relativity, traversing wormholes and the 88 mph speed requirement The possible consequences of creating a time paradox-including, but not limited to, the implosion of the universe Survival tips for nearly any sticky time travel situation: How to befriend a dinosaur and subsequently fight other dinosaurs with that dinosaur Instructions to build your very own Rube Goldberg Time Machine Crusading-for fun and profit Tips on battling cowboys, pirates, ninjas, samurai, Nazis, Vikings, robots and space marines How to operate a microwave oven Enjoying the servitude of robots and tips for living underground when they inevitably rise up against us",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "abuse": 3,
-        "aliens": 21,
-        "male female romance": 3,
-        "paranormal": 4,
-        "paranormal romance": 3,
-        "romance": 13,
-        "science fiction": 16,
-        "science fiction R... (Futuristic Romance) ": 4,
-        "science fiction romance": 4,
-        "shapeshifters": 12
+        "fiction": 10,
+        "humor": 17,
+        "humor (comedy)": 4,
+        "reference": 2,
+        "science fiction": 15,
+        "science fiction (time travel)": 24,
+        "science fiction fantasy": 2
     },
     "inventory": [
         {
@@ -23,44 +22,20 @@
             "stock_id": "68_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "68_2"
         },
         {
             "status": "on_loan",
             "stock_id": "68_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "68_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "68_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "68_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "68_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "68_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "68_9"
         }
     ],
     "metrics": {
-        "rating_votes": 791,
-        "score": 4.08
+        "rating_votes": 395,
+        "score": 3.7
     },
-    "pages": 846,
-    "title": "Sarazen's Vengeance",
-    "url": "https://www.goodreads.com/book/show/31921274-sarazen-s-vengeance",
-    "year_published": 2016
+    "pages": 1237,
+    "title": "So You Created a Wormhole: The Time Traveler's Guide to Time Travel",
+    "url": "https://www.goodreads.com/book/show/11834392-so-you-created-a-wormhole",
+    "year_published": 2012
 }

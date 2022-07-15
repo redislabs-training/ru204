@@ -1,0 +1,64 @@
+{
+    "author": "Robert Kirkman",
+    "base_id": "1845",
+    "description": "Based on \"The Walking Dead\" graphic novels/comic books and the series starring Andrew Lincoln (\"Teachers\", \"This Life and Love\", and \"Love Actually\") and written/produced by Frank Darabont whose previous credits include \"The Shawshank Redemption\" and \"The Green Mile\", this is a new trilogy of books written by Robert Kirkman and Jay Bonansinga, author of \"Perfect Victim\" and \"Shattered\". Set in the world created by Robert Kirkman, this standalone trilogy is fast-paced, action-packed storytelling about the lengths some men will go to survive. With new characters, new storylines and with the same in-depth character-based plotting that has made the television series such an immediate hit, this trilogy of novels is sure to be a hit with those who love zombies and those who have loved the TV series and comic books.In the Walking Dead universe, there is no greater villain than The Governor. The despot who runs the walled-off town of Woodbury, he has his own sick sense of justice: whether it\u2019s forcing prisoners to battle zombies in an arena for the townspeople\u2019s amusement, or chopping off the appendages of those who cross him. The Governor was voted \u201cVillain of the Year\u201d by Wizard magazine the year he debuted, and his story arc was the most controversial in the history of the Walking Dead comic book series. Now, for the first time, fans of The Walking Dead will discover how The Governor became the man he is, and what drove him to such extremes.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 89,
+        "fantasy": 61,
+        "fiction": 217,
+        "horror": 512,
+        "horror (zombies)": 455,
+        "science fiction": 46,
+        "science fiction (apocalyptic)": 57,
+        "science fiction (dystopia)": 54,
+        "sequential art (graphic novels)": 29,
+        "thriller": 37
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1845_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1845_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1845_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1845_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1845_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1845_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1845_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1845_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18503,
+        "score": 3.89
+    },
+    "pages": 827,
+    "title": "Rise of the Governor",
+    "url": "https://www.goodreads.com/book/show/10869746-rise-of-the-governor",
+    "year_published": 2011
+}

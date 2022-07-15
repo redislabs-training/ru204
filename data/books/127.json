@@ -1,49 +1,34 @@
 {
     "author": "K.A. Applegate",
-    "base_id": 127,
-    "description": "Dak Hamee, born into the Hork-Bajir tribe, is something special from the start. \"Strange,\" says his mother. \"A seer,\" says the Old One, Tila Fashat. \"A seer is one who is born to show a new way. Many, many seasons pass, then our father, the Deep, and our mother, the Sky, say, \"Send a seer to the people. The people have need.' And so one is born who is different.\" When strange and different Dak meets Aldrea, the clever Andalite daughter of Prince Seerow, they learn together of the dangerous plot of the Yeerks, and of Esplin 9466, who will stop at nothing to build his empire. Learn more about Prince Seerow's Kindness, find out how Andalites kiss, and plumb the mysteries of the Deep in this suspense-filled story of good, evil, and interspecies love. (Ages 9 to 12)",
+    "base_id": "127",
+    "description": "There's a new rumor in town. Someone has discovered an item that proves life on other planets exists. And they've been hiding it on a base called Zone 91. The Most Secret Place On Earth.Cassie, the other Animorphs, and Ax already know about life on other planets. Too well. They also realize the Yeerks will try to access Zone 91 to find out if what's there will threaten their mission. So the Animorphs decide to pay Zone 91 and the Yeerks a little visit. But what they discover is not at all what they expect.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 12,
-        "aliens": 26,
-        "animals": 11,
-        "childrens": 33,
-        "fantasy": 38,
-        "fiction": 64,
-        "romance": 8,
+        "adventure": 13,
+        "animals": 19,
+        "childrens": 34,
+        "childrens (middle grade)": 25,
+        "fantasy": 49,
+        "fiction": 69,
+        "paranormal (shapeshifters)": 7,
         "science fiction": 122,
-        "young adult": 86
+        "science fiction (aliens)": 31,
+        "young adult": 88
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "127_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "127_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "127_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "127_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "127_5"
         }
     ],
     "metrics": {
-        "rating_votes": 3178,
-        "score": 4.14
+        "rating_votes": 3666,
+        "score": 3.64
     },
-    "pages": 668,
-    "title": "The Hork-Bajir Chronicles",
-    "url": "https://www.goodreads.com/book/show/363354.The_Hork_Bajir_Chronicles",
+    "pages": 506,
+    "title": "The Unknown",
+    "url": "https://www.goodreads.com/book/show/363391.The_Unknown",
     "year_published": 1998
 }

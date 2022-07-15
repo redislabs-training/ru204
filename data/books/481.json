@@ -1,34 +1,50 @@
 {
-    "author": "Ann Aguirre",
-    "base_id": 481,
-    "description": "Sirantha Jax doesn\u2019t take chances\u2026 she jumps at them\u2026Sirantha Jax is a \u201cJumper,\u201d a woman who possesses the unique genetic makeup needed to navigate faster than light ships through grimspace. Jax has worked for the Farwan Corporation her entire career. But now the word\u2019s out that the Corp deliberately crashed a passenger ship, and their stranglehold on intergalactic commerce has crumbled\u2014which means that Jax is out of a job.She\u2019s also broke, due to being declared dead a little prematurely. So when the government asks her to head up a vital diplomatic mission, Jax takes it. Her mandate: journey to the planet Ithiss-Tor and convince them to join the Conglomerate.But Jax\u2019s payday is light years away. First, she\u2019ll have to contend with Syndicate criminals, a stormy relationship with her pilot, man-eating aliens, and her own grimspace-weakened body. She\u2019ll be lucky just to make it to Ithiss-Tor alive\u2026",
+    "author": "Brian K. Vaughan",
+    "base_id": "481",
+    "description": "More than two years after the unexplained plague killed every other male mammal on the planet, the two exceptions - aspiring escape artist Yorick Brown and his pet monkey Ampersand - have traveled across the remains of the U.S. with biochemist Dr. Allison Mann and goverment operative Agent 355 to Dr. Mann's lab in San Francisco, where she managed to finally isolate the source of their immunity.Unfortunately, that source is within Ampersand's body, which was last seen disappearing under the arm of a mysterious Japanese mercenary. Now, accompanied by 355 and Dr. Mann, the last man on Earth has embarked on a new and even more hazardous journey - following Ampersand's trail across the Pacific, where danger threatens from below as well as above the waves. Collects issues 32-36",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 35,
-        "adventure": 36,
-        "aliens": 54,
-        "fantasy": 77,
-        "fiction": 65,
-        "romance": 149,
-        "science fiction": 483,
-        "space": 53,
-        "space opera": 75,
-        "urban fantasy": 35
+        "adult": 34,
+        "apocalyptic (post apocalyptic)": 110,
+        "comics (comic book)": 98,
+        "fantasy": 34,
+        "fiction": 205,
+        "graphic novels comics": 152,
+        "science fiction": 236,
+        "science fiction (dystopia)": 92,
+        "sequential art (comics)": 1255,
+        "sequential art (graphic novels)": 1426
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "481_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "481_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "481_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "481_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "481_5"
         }
     ],
     "metrics": {
-        "rating_votes": 6104,
-        "score": 3.88
+        "rating_votes": 26082,
+        "score": 4.2
     },
-    "pages": 607,
-    "title": "Wanderlust",
-    "url": "https://www.goodreads.com/book/show/3182799-wanderlust",
-    "year_published": 2008
+    "pages": 1028,
+    "title": "Y: The Last Man, Vol. 6: Girl on Girl",
+    "url": "https://www.goodreads.com/book/show/156529.Y",
+    "year_published": 2005
 }

@@ -1,34 +1,44 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 582,
-    "description": "Number Six\u2014when John meets her in I Am Number Four she\u2019s strong, powerful, and ready to fight. But who is she? Where has she been living? How has she been training? When did she develop her legacies? And how does she know so much about the Mogadorians?In I Am Number Four: The Lost Files: Six\u2019s Legacy, discover the story behind Six. Before Paradise, Ohio, before John Smith, Six was traveling through West Texas with her c\u00eapan, Katarina. What happened there would change Six forever\u0085.",
+    "author": "Harry Harrison",
+    "base_id": "582",
+    "description": "First published in 1966, Harrison's novel of an overpopulated urban jungle, a divided class system\u2014operating within an atmosphere of riots, food shortages, and senseless acts of violence\u2014and a desperate hunt for the truth by a cynical NYC detective tells a classic tale of a dark future.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 36,
-        "aliens": 87,
-        "fantasy": 172,
-        "fiction": 72,
-        "novella": 23,
-        "paranormal": 38,
-        "science fiction": 162,
-        "short stories": 42,
-        "supernatural": 19,
-        "young adult": 246
+        "apocalyptic (post apocalyptic)": 15,
+        "classics": 64,
+        "fiction": 160,
+        "mystery": 16,
+        "novels": 14,
+        "science fiction": 407,
+        "science fiction (dystopia)": 120,
+        "science fiction fantasy": 23,
+        "speculative fiction": 20,
+        "thriller": 13
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "582_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "582_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "582_3"
         }
     ],
     "metrics": {
-        "rating_votes": 16255,
-        "score": 4.08
+        "rating_votes": 6754,
+        "score": 3.72
     },
-    "pages": 1169,
-    "title": "Six's Legacy",
-    "url": "https://www.goodreads.com/book/show/11237412-six-s-legacy",
-    "year_published": 2011
+    "pages": 1334,
+    "title": "Make Room! Make Room",
+    "url": "https://www.goodreads.com/book/show/473850.Make_Room_Make_Room_",
+    "year_published": 1966
 }

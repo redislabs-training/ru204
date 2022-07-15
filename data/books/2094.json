@@ -1,0 +1,55 @@
+{
+    "author": "Neil Gaiman",
+    "base_id": "2094",
+    "description": "When Newbery Medal winner Neil Gaiman and Emmy Award winner Michael Reaves teamed up, they created the bestselling YA novel InterWorld.\u00a0InterWorld tells the story of Joey Harker, a very average kid who discovers that his world is only one of a trillion alternate earths. Some of these earths are ruled by magic. Some are ruled by science. All are at war.\u00a0Joey teams up with alternate versions of himself from an array of these worlds. Together, the army of Joeys must battle evil magicians Lord Dogknife and Lady Indigo to keep the balance of power between all the earths stable. Teens\u2014and tweens and adults\u2014who obsessively read the His Dark Materials and Harry Potter series will be riveted by InterWorld and its sequel, The Silver Dream.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 105,
+        "audiobook": 98,
+        "fantasy": 906,
+        "fantasy (magic)": 38,
+        "fantasy (urban fantasy)": 42,
+        "fiction": 317,
+        "science fiction": 498,
+        "science fiction fantasy": 49,
+        "young adult": 493,
+        "young adult (teen)": 41
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2094_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2094_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2094_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2094_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2094_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2094_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 19496,
+        "score": 3.53
+    },
+    "pages": 371,
+    "title": "InterWorld",
+    "url": "https://www.goodreads.com/book/show/47701.InterWorld",
+    "year_published": 2007
+}

@@ -1,38 +1,34 @@
 {
-    "author": "Anna Hackett",
-    "base_id": 118,
-    "description": "Fighting for love, honor, and freedom on the galaxy\u2019s lawless outer rim\u2026Space marine Blaine Strong enjoyed being a composed, controlled member of space station security\u2026until he was abducted by alien slavers. Forced into underground fight rings and pumped full of drugs, he\u2019s now seething with anger and out for revenge.Rescued by gladiators and fellow humans on the desert world of Carthago, Blaine is fighting to be the man he once was. But when the House of Galen is attacked, he must focus on joining the gladiators to fight back. That means teaming up with a tough, competitive female gladiator who not only challenges him at every turn, awakens a fierce desire he\u2019s never felt before, but a woman who can sense the churning emotions inside him.Gladiator Saff Essikani is the best net fighter in the Kor Magna Arena. Raised from young to fight, she bows to no man and uses her empathic abilities to win at whatever cost. With her House targeted and people under their care threatened, she\u2019ll stop at nothing to find those responsible. But then she finds herself face to face with a big, tortured man from Earth who affects her like no man before. As Saff and Blaine head into the desert to uncover a conspiracy, their incendiary desire flares hotter than the desert suns. But as Blaine\u2019s angry emotions rage out of control, Saff knows that unless he learns to embrace the man he is now, he has no chance of survival.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen) and a steamy romance (between a tough female gladiator and a tortured space marine). So if you like it fast, and gritty, and sexy, this is for you!",
+    "author": "Joe Haldeman",
+    "base_id": "118",
+    "description": "Otto McGavin is peacefully idealistic by nature, an Anglo-Buddhist, who seeks employment with the Confederacion because he believes in its mission to protect human & nonhuman rights. The only problem is that the Confederacion needs him as one of its twelve Prime Operators for its secret service, the TBII. The TBII wants him as a spy, thief & assassin. It's not, of course, a problem for the Confederacion, which simply uses immersion therapy & hypnotic personality overlay for Otto's training, then sends him out in deep cover, encased in plastiflesh, on a variety of dangerous missions on a number of bizarre worlds. But for him, it's a different matter: what he has to witness & what he's forced to do take a terrible toll. Always he returns to his original self--his conscience stabbed by the memory of all those he'd killed in the service of interstellar harmony.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "action": 6,
-        "adult": 3,
-        "aliens": 23,
-        "erotica": 6,
-        "fantasy": 8,
-        "paranormal": 5,
-        "paranormal romance": 13,
-        "romance": 50,
-        "science fiction": 29,
-        "science fiction romance": 12
+        "business (amazon)": 3,
+        "fantasy": 4,
+        "fiction": 48,
+        "science fiction": 175,
+        "science fiction (cyberpunk)": 5,
+        "science fiction fantasy": 6,
+        "short stories": 7,
+        "space": 3,
+        "speculative fiction": 9,
+        "thriller": 5
     },
     "inventory": [
         {
-            "status": "maintenance",
-            "stock_id": "118_1"
-        },
-        {
             "status": "available",
-            "stock_id": "118_2"
+            "stock_id": "118_1"
         }
     ],
     "metrics": {
-        "rating_votes": 1451,
-        "score": 4.24
+        "rating_votes": 1922,
+        "score": 3.81
     },
-    "pages": 782,
-    "title": "Champion",
-    "url": "https://www.goodreads.com/book/show/33847479-champion",
-    "year_published": 2017
+    "pages": 1032,
+    "title": "All My Sins Remembered",
+    "url": "https://www.goodreads.com/book/show/362801.All_My_Sins_Remembered",
+    "year_published": 1977
 }

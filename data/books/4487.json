@@ -1,0 +1,39 @@
+{
+    "author": "Hugh Howey",
+    "base_id": "4487",
+    "description": "In 2007, the Center for Automation in Nanobiotech (CAN) outlined the hardware and software platform that would one day allow robots smaller than human cells to make medical diagnoses, conduct repairs, and even self-propagate. In the same year, the CBS network re-aired a program about the effects of propranolol on sufferers of extreme trauma. A simple pill, it had been discovered, could wipe out the memory of any traumatic event. At almost the same moment in humanity\u2019s broad history, mankind had discovered the means for bringing about its utter downfall. And the ability to forget it ever happened. This is the sequel to the New York Times bestselling WOOL series.Contains First Shift, Second Shift, and Third Shift.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 350,
+        "audiobook": 71,
+        "fantasy": 142,
+        "fiction": 677,
+        "science fiction": 1281,
+        "science fiction (apocalyptic)": 88,
+        "science fiction (dystopia)": 578,
+        "science fiction fantasy": 101,
+        "speculative fiction": 43,
+        "young adult": 33
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4487_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "4487_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 73256,
+        "score": 4.12
+    },
+    "pages": 1089,
+    "title": "Shift",
+    "url": "https://www.goodreads.com/book/show/17306293-shift",
+    "year_published": 2013
+}

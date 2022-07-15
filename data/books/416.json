@@ -1,21 +1,23 @@
 {
-    "author": "J. Fally",
-    "base_id": 416,
-    "description": "Riley Cooper is on the run. Misha Tokarev, the love of his life, turned out to be an assassin for the Russian mob, and when it comes to character flaws, Riley draws the line at premeditated murder. Alien armor system McClane is also on the run, for reasons that include accidentally crashing a space ship into Earth and evading U.S. military custody. A failed prototype, McClane was scheduled for destruction. Sabotaging the ship put an end to that, but McClane is dubbed a bone rider for good reason\u2014he can\u2019t live without a host body. That\u2019s why he first stows away in Riley's truck and then in Riley himself. Their reluctant partnership soon evolves into something much more powerful\u2014and personal\u2014than either of them could have imagined.Together, they embark on a road trip from hell, made all the more exciting by the government troops and mob enforcers hot on their trail. Misha is determined to win Riley back and willing to do whatever it takes to keep him safe. When hitman and alien join forces, they discover their impressive combined potential for death and destruction. It will take everything Riley has to steer them through the mess they create.",
+    "author": "Colleen Gleason",
+    "base_id": "416",
+    "description": "After the Affair of the Clockwork Scarab, Evaline Stoker and Mina Holmes are eager to help Princess Alix with a new case. Seventeen-year-old Willa Aston is obsessed with spiritual mediums, convinced she is speaking with her mother from beyond the grave. What seems like a case of spiritualist fraud quickly devolves into something far more menacing: someone is trying to make Willa \"appear lunatic,\" using an innocent-looking spiritglass to control her. The list of clues piles up: an unexpected murder, a gang of pickpockets, and the return of vampires to London. But are these events connected? As Uncle Sherlock would say, \"there are no coincidences.\" It will take all of Mina's wit and Evaline's muscle to keep London's sinister underground at bay.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 30,
-        "aliens": 66,
-        "contemporary": 49,
-        "fantasy": 33,
-        "lgbt": 39,
-        "male male romance": 247,
-        "military fiction": 71,
-        "romance": 88,
-        "science fiction": 179,
-        "westerns": 29
+        "fantasy": 106,
+        "fantasy (paranormal)": 57,
+        "historical": 57,
+        "historical (historical fiction)": 81,
+        "mystery": 143,
+        "paranormal (vampires)": 48,
+        "science fiction": 30,
+        "science fiction (steampunk)": 183,
+        "science fiction (time travel)": 32,
+        "young adult": 161
     },
     "inventory": [
         {
@@ -31,28 +33,36 @@
             "stock_id": "416_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "416_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "416_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "416_6"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "416_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "416_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "416_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1757,
-        "score": 4.26
+        "rating_votes": 2859,
+        "score": 3.99
     },
-    "pages": 554,
-    "title": "Bone Rider",
-    "url": "https://www.goodreads.com/book/show/18619542-bone-rider",
-    "year_published": 2013
+    "pages": 801,
+    "title": "The Spiritglass Charade",
+    "url": "https://www.goodreads.com/book/show/20385060-the-spiritglass-charade",
+    "year_published": 2014
 }

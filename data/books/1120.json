@@ -1,33 +1,33 @@
 {
-    "author": "Lara Adrian",
-    "base_id": 1120,
-    "description": "In this pulse-pounding and thrillingly sensual novel, New York Times bestselling author Lara Adrian returns to the mesmerizing world of the Midnight Breed, following new characters into a dark future where an uneasy peace can unravel into war\u2014and a great betrayal can mask an all-consuming love.Twenty years after the terror of First Dawn\u2014when mankind learned that vampires lived secretly among them\u2014the threat of violence reigns as the two species struggle to coexist. The only group preserving the fragile harmony is the Order, an elite cadre of Breed warriors dedicated to protecting humans and vampires alike. And in this precarious world of torn loyalties and shattered trust, Mira, a fiery squad captain, finds that every fight bears an intensely personal cost.Raised among the Order, Mira has always believed in the warrior\u2019s code of swift\u2014and even lethal\u2014justice. But the one thing she desires more than the Order\u2019s hard-won acceptance is Kellan Archer, a sexy but troubled Breed fighter. In love with him since childhood, Mira once broke through his tough exterior during an unexpected night of rapture, but the next day he mysteriously disappeared, never to return.Kellan didn\u2019t think he would ever see Mira again\u2014or have to confront the truth of why he left. After abandoning the Order years ago, he now leads a band of human rebels intent on carrying out their own vigilante rule of law. Yet a high-profile kidnapping assignment brings him face-to-face with the past he sought to avoid, and the striking woman he has tried desperately to forget. And as tensions mount and the risk of bloodshed grows, Kellan and Mira must take sides\u2014between the competing missions that dominate their lives, and the electrifying passion that claims their hearts.",
+    "author": "Ilsa J. Bick",
+    "base_id": "1120",
+    "description": "The Apocalypse does not end. The Changed will grow in numbers. The Spared may not survive.Even before the EMPs brought down the world, Alex was on the run from the demons of her past and the monster living in her head. After the world was gone, she believed Rule could be a sanctuary for her and those she\u2019d come to love.But she was wrong.Now Alex is in the fight of her life against the adults, who would use her, the survivors, who don\u2019t trust her, and the Changed, who would eat her alive. Welcome to Shadows, the second book in the haunting apocalyptic Ashes Trilogy: where no one is safe and humans may be the worst of the monsters.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 42,
-        "aliens": 20,
-        "fantasy": 86,
-        "fiction": 23,
-        "paranormal": 326,
-        "paranormal romance": 338,
-        "romance": 192,
-        "supernatural": 20,
-        "urban fantasy": 55,
-        "vampires": 259
+        "adventure (survival)": 37,
+        "apocalyptic (post apocalyptic)": 97,
+        "fantasy": 41,
+        "fiction": 33,
+        "horror": 127,
+        "horror (zombies)": 219,
+        "science fiction": 78,
+        "science fiction (apocalyptic)": 39,
+        "science fiction (dystopia)": 177,
+        "young adult": 251
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "1120_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1120_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1120_3"
         },
         {
@@ -35,24 +35,28 @@
             "stock_id": "1120_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1120_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "1120_6"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1120_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1120_8"
         }
     ],
     "metrics": {
-        "rating_votes": 12020,
-        "score": 4.24
+        "rating_votes": 10179,
+        "score": 3.78
     },
-    "pages": 1163,
-    "title": "Edge of Dawn",
-    "url": "https://www.goodreads.com/book/show/13170607-edge-of-dawn",
-    "year_published": 2013
+    "pages": 370,
+    "title": "Shadows",
+    "url": "https://www.goodreads.com/book/show/11320138-shadows",
+    "year_published": 2012
 }

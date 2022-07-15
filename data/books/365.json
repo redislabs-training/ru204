@@ -1,0 +1,62 @@
+{
+    "author": "Hajime Isayama",
+    "base_id": "365",
+    "description": "THE CHASE IS ON! Erwin and the Survey Corps desperately mount a rescue operation to take Eren back from the Colossus Titan and Armored Titan. But without the numbers to form up properly outside the walls, how can the humans catch up before they're all slaughtered? Just whose side is Ymir on? And will Eren ever see his friends again? PRAISE FOR THE HIT ANIME \"A visceral and fantastically intense action/horror story.\" - Anime News Network \"Japan's equivalent of The Walking Dead.\" - io9Chapter List:47. Children48. Someone49. Charge50. Scream",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "action": 28,
+        "comics manga": 29,
+        "fantasy": 118,
+        "fiction": 48,
+        "horror": 114,
+        "science fiction": 28,
+        "science fiction (dystopia)": 47,
+        "sequential art (comics)": 93,
+        "sequential art (graphic novels)": 95,
+        "sequential art (manga)": 1355
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "365_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "365_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "365_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "365_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "365_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "365_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "365_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "365_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11450,
+        "score": 4.55
+    },
+    "pages": 320,
+    "title": "Attack on Titan, Vol. 12",
+    "url": "https://www.goodreads.com/book/show/21895563-attack-on-titan-vol-12",
+    "year_published": 2013
+}

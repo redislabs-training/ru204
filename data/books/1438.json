@@ -1,0 +1,46 @@
+{
+    "author": "Margaret Peterson Haddix",
+    "base_id": "1438",
+    "description": "Luke Garner is terrified.Out of hiding for the first time in his life, he knows that any minute one of his new classmates at Hendricks School for Boys could discover his secret: that he's a third child passing as the recently deceased Lee Grant. And in a society where it's illegal for families to have more than two children, being a third child means certain death at the hands of the dreaded Population Police.His first experience outside the safety of his home is bewildering. There's not a single window anywhere in the school; Luke can't tell his classmates apart (even as they subject him to brutal hazing); and the teachers seem oblivious to it all.Desperate to fit in, Luke endures the confusion and teasing until he discovers an unlocked door to the outside, and a chance to understand what is really going on. But to take this chance -- to find out the secrets of Hendricks -- Luke will need to put aside his fears and discover a courage that a lifetime in hiding couldn't thwart.Once again, best-selling author Margaret Peterson Haddix delights her fans with this spine-tingling account of an all-too-possible future.Among the Impostors is a worthy companion to Among the Hidden and a heart-stopping thriller in its own right.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 60,
+        "childrens": 102,
+        "childrens (juvenile)": 43,
+        "childrens (middle grade)": 144,
+        "fantasy": 70,
+        "fiction": 202,
+        "science fiction": 237,
+        "science fiction (dystopia)": 345,
+        "young adult": 409,
+        "young adult (teen)": 33
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1438_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1438_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1438_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1438_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 27873,
+        "score": 4.06
+    },
+    "pages": 919,
+    "title": "Among the Impostors",
+    "url": "https://www.goodreads.com/book/show/303472.Among_the_Impostors",
+    "year_published": 2001
+}

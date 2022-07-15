@@ -1,29 +1,30 @@
 {
-    "author": "Karen Traviss",
-    "base_id": 153,
-    "description": "Three separate alien societies have claims on Cavanagh's Star. But the new arrivals -- the gethes from Earth -- now threaten the tenuous balance of a coveted world.Environmental Hazard Enforcement officer Shan Frankland agreed to lead a mission to Cavanagh's Star, knowing that 150 years would elapse before she could finally return home. But her landing, with a small group of scientists and Marines, has not gone unnoticed by Aras, the planet's designated guardian. An eternally evolving world himself, this sad, powerful being has already obliterated millions of alien interlopers and their great cities to protect the fragile native population. Now Shan and her party -- plus the small colony of fundamentalist humans who preceded them -- could face a similar annihilation . . . or a fate far worse. Because Aras possesses a secret of the blood that would be disastrous if it fell into human hands -- if the gethes survive the impending war their coming has inadvertently hastened.",
+    "author": "Ryan North",
+    "base_id": "153",
+    "description": "The all-ages smash hit of the year is back with more mathematical adventures in the Land of Ooo!What Time Is It? Adventure Time! Join Finn the Human, Jake the Dog, and Princess Bubblegum for all-new adventures in The Land of Ooo. The top-rated Cartoon Network show now has its own comic book! Experience the algebraic adventures with your favorite characters like Marceline the Vampire Queen, Lumpy Space Princess, Ice King, Peppermint Butler, and so many more. Not only does this graphic novel collect the out-of-control, adventure-packed third story arc, it also includes the unforgettable \u201cChoose Your Own Adventure\u201d story. The biggest hit in the comic book industry in 2012, ADVENTURE TIME has received unmatched critical acclaim and commercial success in all-ages comics!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 4,
-        "aliens": 21,
-        "fantasy": 19,
-        "fiction": 36,
-        "novels": 3,
-        "science fiction": 221,
-        "science fiction fantasy": 9,
-        "space": 10,
-        "space opera": 32,
-        "speculative fiction": 6
+        "adventure": 11,
+        "comics (comic book)": 13,
+        "fantasy": 49,
+        "fiction": 19,
+        "graphic novels comics": 12,
+        "humor": 21,
+        "humor (comedy)": 8,
+        "sequential art (comics)": 172,
+        "sequential art (graphic novels)": 141,
+        "young adult": 25
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "153_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "153_2"
         },
         {
@@ -31,16 +32,20 @@
             "stock_id": "153_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "153_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "153_5"
         }
     ],
     "metrics": {
-        "rating_votes": 2102,
-        "score": 3.88
+        "rating_votes": 2737,
+        "score": 4.27
     },
-    "pages": 1150,
-    "title": "City of Pearl",
-    "url": "https://www.goodreads.com/book/show/124841.City_of_Pearl",
-    "year_published": 2004
+    "pages": 1085,
+    "title": "Adventure Time Vol. 3",
+    "url": "https://www.goodreads.com/book/show/16074606-adventure-time-vol-3",
+    "year_published": 2013
 }

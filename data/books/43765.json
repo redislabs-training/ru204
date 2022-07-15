@@ -1,18 +1,18 @@
 {
     "author": "Orson Scott Card",
-    "base_id": 43765,
+    "base_id": "43765",
     "description": "Andrew \"Ender\" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.But Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails.Source: hatrack.com",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Adventure": 611,
-        "Audiobook": 633,
+        "adventure": 611,
+        "audiobook": 633,
         "classics": 1947,
-        "dystopia": 1195,
         "fantasy": 2976,
         "fiction": 7798,
         "science fiction": 15715,
+        "science fiction (dystopia)": 1195,
         "science fiction fantasy": 1574,
         "war": 708,
         "young adult": 4781
@@ -23,39 +23,15 @@
             "stock_id": "43765_1"
         },
         {
-            "status": "on_loan",
-            "stock_id": "43765_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43765_3"
-        },
-        {
             "status": "available",
-            "stock_id": "43765_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "43765_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43765_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43765_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43765_8"
+            "stock_id": "43765_2"
         }
     ],
     "metrics": {
         "rating_votes": 1162542,
         "score": 4.3
     },
-    "pages": 1341,
+    "pages": 315,
     "title": "Ender's Game",
     "url": "https://www.goodreads.com/book/show/375802.Ender_s_Game",
     "year_published": 1985

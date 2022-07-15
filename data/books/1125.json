@@ -1,0 +1,52 @@
+{
+    "author": "Warren Ellis",
+    "base_id": "1125",
+    "description": "After years of self-imposed exile from a civilization rife with degradation and indecency, cynical journalist Spider Jerusalem is forced to return to a job that he hates and a city that he loathes. Working as an investigative reporter for the newspaper The Word, Spider attacks the injustices of his surreal 23rd Century surroundings. Combining black humor, life-threatening situations, and moral ambiguity, this book is the first look into the mind of an outlaw journalist and the world he seeks to destroy.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 147,
+        "fiction": 258,
+        "graphic novels comics": 163,
+        "humor": 52,
+        "science fiction": 342,
+        "science fiction (cyberpunk)": 208,
+        "science fiction (dystopia)": 104,
+        "sequential art (comics)": 1796,
+        "sequential art (comix)": 57,
+        "sequential art (graphic novels)": 1453
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1125_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1125_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1125_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1125_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1125_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 41609,
+        "score": 4.21
+    },
+    "pages": 433,
+    "title": "Transmetropolitan, Vol. 1: Back on the Street",
+    "url": "https://www.goodreads.com/book/show/22416.Transmetropolitan_Vol_1",
+    "year_published": 1998
+}

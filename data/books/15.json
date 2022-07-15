@@ -1,19 +1,17 @@
 {
-    "author": "Angela Castle",
-    "base_id": 15,
-    "description": "The Fire Bond Brothers, Bir, Zay, Tev and Niz have been hired to guard an alien Ambassador, but they get more than they bargained for with the appearance of a shapely, red-headed human female. She\u2019s owned by the ambassador...but not for long if they have their way.Kidnapped from Earth and sold as a pet, Ruby MacTavish, causes her new owner nothing but trouble, until four large, red sexy aliens walk in. Their touch awakens burning passions and she falls under their seductive spell.Before their plans can be set in motion, Ruby finds herself in grave danger as she stops the Ambassador from cheating another alien race. Now her men must hurry to her rescue and keep her safe or risk losing her forever.",
+    "author": "Mike Costa",
+    "base_id": "15",
+    "description": "It's been three years since the devastating events of All Hail Megatron. The Earth has been rebuilt, the Autobots are in hiding, and the next great era in the Transformers saga is about to begin! Critically acclaimed writer Mike Costa is joined by superstar artist Don Figueroa for IDW's biggest book of the year -- the launch of the first ongoing Transformers title in five years!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 27,
-        "erotic romance": 4,
-        "erotica": 36,
-        "polyamorous": 3,
-        "romance": 14,
-        "science fiction": 31,
-        "science fiction romance": 7,
-        "supernatural": 3
+        "comics (comic book)": 3,
+        "science fiction": 4,
+        "science fiction (robots)": 2,
+        "sequential art (comics)": 22,
+        "sequential art (graphic novels)": 13
     },
     "inventory": [
         {
@@ -21,7 +19,7 @@
             "stock_id": "15_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "15_2"
         },
         {
@@ -29,7 +27,7 @@
             "stock_id": "15_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "15_4"
         },
         {
@@ -37,28 +35,20 @@
             "stock_id": "15_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "15_6"
         },
         {
             "status": "on_loan",
             "stock_id": "15_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "15_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15_9"
         }
     ],
     "metrics": {
-        "rating_votes": 699,
-        "score": 3.85
+        "rating_votes": 156,
+        "score": 3.62
     },
-    "pages": 778,
-    "title": "Galactic Treasure",
-    "url": "https://www.goodreads.com/book/show/17700906-galactic-treasure",
-    "year_published": 2013
+    "pages": 215,
+    "title": "Transformers Volume 1: For All Mankind",
+    "url": "https://www.goodreads.com/book/show/7955760-transformers-volume-1",
+    "year_published": 2010
 }

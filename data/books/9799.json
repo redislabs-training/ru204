@@ -1,0 +1,56 @@
+{
+    "author": "Kazuo Ishiguro",
+    "base_id": "9799",
+    "description": "\"You've long set your heart against it, Axl, I know. But it's time now to think on it anew. There's a journey we must go on, and no more delay...\"The Buried Giant begins as a couple set off across a troubled land of mist and rain in the hope of finding a son they have not seen in years.Sometimes savage, often intensely moving, Kazuo Ishiguro's first novel in nearly a decade is about lost memories, love, revenge, and war.Included on TIME Magazine's \"THE 100 BEST FANTASY BOOKS OF ALL TIME\"",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 154,
+        "european literature (british literature)": 129,
+        "fantasy": 2421,
+        "fiction": 1910,
+        "historical": 156,
+        "historical (historical fiction)": 586,
+        "literary fiction": 240,
+        "literature": 136,
+        "magical realism": 131,
+        "novels": 163
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "9799_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9799_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9799_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "9799_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9799_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "9799_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 76320,
+        "score": 3.53
+    },
+    "pages": 954,
+    "title": "The Buried Giant",
+    "url": "https://www.goodreads.com/book/show/22522805-the-buried-giant",
+    "year_published": 2015
+}

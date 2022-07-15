@@ -1,0 +1,60 @@
+{
+    "author": "George R.R. Martin",
+    "base_id": "55117",
+    "description": "Here is the first volume in George R. R. Martin\u2019s magnificent cycle of novels that includes A Clash of Kings and A Storm of Swords. As a whole, this series comprises a genuine masterpiece of modern fantasy, bringing together the best the genre has to offer. Magic, mystery, intrigue, romance, and adventure fill these pages and transport us to a world unlike any we have ever experienced. Already hailed as a classic, George R. R. Martin\u2019s stunning series is destined to stand as one of the great achievements of imaginative fiction.A GAME OF THRONESLong ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister and supernatural forces are massing beyond the kingdom\u2019s protective Wall. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the land they were born to. Sweeping from a land of brutal cold to a distant summertime kingdom of epicurean plenty, here is a tale of lords and ladies, soldiers and sorcerers, assassins and bastards, who come together in a time of grim omens.Here an enigmatic band of warriors bear swords of no human metal; a tribe of fierce wildlings carry men off into madness; a cruel young dragon prince barters his sister to win back his throne; and a determined woman undertakes the most treacherous of journeys. Amid plots and counterplots, tragedy and betrayal, victory and terror, the fate of the Starks, their allies, and their enemies hangs perilously in the balance, as each endeavors to win that deadliest of conflicts: the game of thrones.source: georgerrmartin.com",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 1530,
+        "adventure": 1257,
+        "audiobook": 988,
+        "epic": 811,
+        "fantasy": 45624,
+        "fantasy (dragons)": 998,
+        "fantasy (epic fantasy)": 1876,
+        "fantasy (high fantasy)": 1421,
+        "fiction": 10281,
+        "science fiction fantasy": 1481
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "55117_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "55117_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "55117_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "55117_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "55117_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "55117_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "55117_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2056641,
+        "score": 4.44
+    },
+    "pages": 636,
+    "title": "A Game of Thrones",
+    "url": "https://www.goodreads.com/book/show/13496.A_Game_of_Thrones",
+    "year_published": 1996
+}

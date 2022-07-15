@@ -1,0 +1,34 @@
+{
+    "author": "Genevieve Cogman",
+    "base_id": "1236",
+    "description": "The third title in Genevieve Cogman's clever and exciting The Invisible Library series, The Burning Page is an action-packed literary adventure! Librarian spy Irene has professional standards to maintain. Standards that absolutely do not include making hasty, unplanned escapes through a burning besieged building. But when the gateway back to your headquarters dramatically malfunctions, one must improvise. And after fleeing a version of Revolutionary France astride a dragon (also known as her assistant, Kai), Irene soon discovers she's not the only one affected. Gates back to the Library are malfunctioning across a multitude of worlds, creating general havoc. She and Kai are tasked with a mission to St Petersburg's Winter Palace, to retrieve a book which will help restore order. However, such plans rarely survive first contact with the enemy - particularly when the enemy is the traitor Alberich. A nightmare figure bent on the Library's destruction, Alberich gives Irene a tainted 'join me or die' job offer. Meanwhile, Irene's old friend Vale has been damaged by exposure to Chaotic forces and she has no idea how to save him. When another figure from her past appears, begging for help, Irene has to take a good hard look at her priorities. And of course try to save the Library from absolute annihilation. Saving herself would be a bonus.Irene's adventures feature stolen books, secret agents and forbidden societies - think Doctor Who but with librarian spies!",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 69,
+        "fantasy": 1125,
+        "fantasy (dragons)": 82,
+        "fantasy (magic)": 70,
+        "fantasy (urban fantasy)": 88,
+        "fiction": 213,
+        "mystery": 101,
+        "science fiction": 51,
+        "science fiction (steampunk)": 133,
+        "writing (books about books)": 72
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1236_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13285,
+        "score": 4.05
+    },
+    "pages": 946,
+    "title": "The Burning Page",
+    "url": "https://www.goodreads.com/book/show/29345916-the-burning-page",
+    "year_published": 2016
+}

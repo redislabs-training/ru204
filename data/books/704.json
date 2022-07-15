@@ -1,0 +1,64 @@
+{
+    "author": "John  Stephens",
+    "base_id": "704",
+    "description": "After the tumultuous events of last winter, Kate, Michael, and Emma long to continue the hunt for their missing parents. But they themselves are now in great danger, and so the wizard Stanislaus Pym hides the children at the Edgar Allan Poe Home for Hopeless and Incorrigible Orphans. There, he says, they will be safe.\u00a0How wrong he is.\u00a0 The children are soon discovered by their enemies, and a frantic chase sends Kate a hundred years into the past, to a perilous, enchanted New York City. Searching for a way back to her brother and sister, she meets a mysterious boy whose fate is intricately\u2014and dangerously\u2014tied to her own. Meanwhile, Michael and Emma have set off to find the second of the Books of Beginning. A series of clues leads them into a hidden world where they must brave harsh polar storms, track down an ancient order of warriors, and confront terrible monsters. Will Michael and Emma find the legendary book of fire\u2014and master its powers\u2014before Kate is lost to them forever?\u00a0 Exciting, suspenseful, and brimming with humor and heart, the next installment of the bestselling Books of Beginning trilogy will lead Kate, Michael, and Emma closer to their family\u2014and to the magic that could save, or destroy, them all.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 78,
+        "audiobook": 23,
+        "childrens": 24,
+        "childrens (juvenile)": 22,
+        "childrens (middle grade)": 94,
+        "fantasy": 443,
+        "fantasy (magic)": 39,
+        "fiction": 55,
+        "science fiction (time travel)": 25,
+        "young adult": 70
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "704_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "704_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "704_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "704_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "704_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "704_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "704_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "704_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8110,
+        "score": 4.23
+    },
+    "pages": 1139,
+    "title": "The Fire Chronicle",
+    "url": "https://www.goodreads.com/book/show/13262797-the-fire-chronicle",
+    "year_published": 2012
+}

@@ -1,0 +1,64 @@
+{
+    "author": "Philip Reeve",
+    "base_id": "5287",
+    "description": "\"It was a dark, blustery afternoon in spring, and the city of London was chasing a small mining town across the dried-out bed of the old North Sea.\"The great traction city London has been skulking in the hills to avoid the bigger, faster, hungrier cities loose in the Great Hunting Ground. But now, the sinister plans of Lord Mayor Mangus Crome can finally unfold.Thaddeus Valentine, London's Head Historian and adored famous archaeologist, and his lovely daughter, Katherine, are down in The Gut when the young assassin with the black scarf strikes toward his heart, saved by the quick intervention of Tom, a lowly third-class apprentice. Racing after the fleeing girl, Tom suddenly glimpses her hideous face: scarred from forehead to jaw, nose a smashed stump, a single eye glaring back at him. \"Look at what your Valentine did to me!\" she screams. \"Ask him! Ask him what he did to Hester Shaw!\" And with that she jumps down the waste chute to her death. Minutes later Tom finds himself tumbling down the same chute and stranded in the Out-Country, a sea of mud scored by the huge caterpillar tracks of cities like the one now steaming off over the horizon.In a stunning literary debut, Philip Reeve has created a painful dangerous unforgettable adventure story of surprises, set in a dark and utterly original world fueled by Municipal Darwinism -- and betrayal.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 220,
+        "apocalyptic (post apocalyptic)": 151,
+        "audiobook": 198,
+        "fantasy": 1173,
+        "fiction": 535,
+        "science fiction": 1056,
+        "science fiction (dystopia)": 458,
+        "science fiction (steampunk)": 1087,
+        "young adult": 1162,
+        "young adult (teen)": 79
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5287_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5287_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5287_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5287_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5287_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5287_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5287_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5287_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 51932,
+        "score": 3.78
+    },
+    "pages": 788,
+    "title": "Mortal Engines",
+    "url": "https://www.goodreads.com/book/show/287861.Mortal_Engines",
+    "year_published": 2001
+}

@@ -1,0 +1,54 @@
+{
+    "author": "Jack Finney",
+    "base_id": "369",
+    "description": "Jack Finney's beloved sequel to his classic, New York Times bestselling illustrated novel Time and Again.Simon Morley, whose logic-defying trip to the New York City of the 1880s in Time and Again has enchanted readers for twenty-five years, embarks on another trip across the borders of time. This time Reuben Prien at the secret, government-sponsored Project wants Si to leave his home in the 1880s and visit New York in 1912. Si's mission: to protect a man who is traveling across the Atlantic with vital documents that could avert World War I. So one fateful day in 1912, Si finds himself aboard the world's most famous ship...the Titanic.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 6,
+        "fantasy": 61,
+        "fiction": 150,
+        "historical": 20,
+        "historical (historical fiction)": 74,
+        "mystery": 8,
+        "new york": 14,
+        "science fiction": 77,
+        "science fiction (time travel)": 232,
+        "science fiction fantasy": 21
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "369_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "369_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "369_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "369_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "369_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "369_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3978,
+        "score": 3.69
+    },
+    "pages": 590,
+    "title": "From Time to Time",
+    "url": "https://www.goodreads.com/book/show/72694.From_Time_to_Time",
+    "year_published": 1995
+}

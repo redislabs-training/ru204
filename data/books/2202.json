@@ -1,0 +1,43 @@
+{
+    "author": "Jonathan Stroud",
+    "base_id": "2202",
+    "description": "Nathaniel 17 treats Bartimaeus worse than ever. The long-suffering djinni is weak from too much time in this world, near the end of his patience. Rebel Kitty 18 hides, stealthily finishing her research on magic, demons, and Bartimaeus. She has a daring plan that she hopes will break the endless cycle of conflict between djinn and humans. But will anyone listen to what she has to say? Together the trio face treacherous magicians, a complex conspiracy, and a rebellious faction of demons. To survive, they must test the limits of this world and question the deepest parts of themselves.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 117,
+        "audiobook": 80,
+        "childrens": 87,
+        "childrens (middle grade)": 93,
+        "fantasy": 3194,
+        "fantasy (magic)": 212,
+        "fantasy (urban fantasy)": 119,
+        "fiction": 415,
+        "young adult": 875,
+        "young adult (young adult fantasy)": 97
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2202_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2202_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2202_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 80216,
+        "score": 4.26
+    },
+    "pages": 1028,
+    "title": "Ptolemy's Gate",
+    "url": "https://www.goodreads.com/book/show/59264.Ptolemy_s_Gate",
+    "year_published": 2005
+}

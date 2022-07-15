@@ -1,38 +1,35 @@
 {
-    "author": "S.L. Viehl",
-    "base_id": 214,
-    "description": "Dr. Cherijo Grey Veil leaves Earth and accepts a position as a physician at Kevarzanga-2's FreeClinic. Her surgical skills are desperately needed on a hostile frontier world with over 200 sentient species--and her understanding of alien physiology is nothing short of miraculous. But the truth behind her expertise is a secret which, if discovered, could have disastrous consequences between human and alien relations...",
+    "author": "Jodi Taylor",
+    "base_id": "214",
+    "description": "Another rollicking short story from the Chronicles of St Mary's. Question: What sort of idiot installs his mistress in his wife's house? Especially when that mistress is Cleopatra VII Thea Philopator, Queen of Egypt and the most notorious woman of her time? Answer: Julius Caesar - poised to become King of Rome. Or as good as. Question: At this potentially sensitive point in your political manoeuvrings, who are the last people you'd want crashing through the door, observing, recording, documenting ...? I think we all know the answer to that one. Roman Holiday - an epic, stand alone tale set in Ancient Rome, 44 BC, featuring, in no particular order: an attempted murder, stampeding bullocks, Cleopatra, Queen of the Nile, a bowl of poisonous snakes, a smallish riot, Julius Caesar, and Mr Markham's wayward bosoms.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Medical": 7,
-        "aliens": 21,
-        "fantasy": 15,
-        "fiction": 21,
-        "novels": 5,
-        "romance": 32,
-        "science fiction": 213,
-        "science fiction fantasy": 18,
-        "space": 11,
-        "space opera": 40
+        "adventure": 22,
+        "audiobook": 50,
+        "fantasy": 89,
+        "fiction": 47,
+        "historical": 30,
+        "historical (historical fiction)": 58,
+        "humor": 21,
+        "science fiction": 72,
+        "science fiction (time travel)": 132,
+        "short stories": 47
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "214_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "214_2"
         }
     ],
     "metrics": {
-        "rating_votes": 3746,
-        "score": 3.8
+        "rating_votes": 3870,
+        "score": 4.22
     },
-    "pages": 225,
-    "title": "Stardoc",
-    "url": "https://www.goodreads.com/book/show/664642.Stardoc",
-    "year_published": 2000
+    "pages": 560,
+    "title": "Roman Holiday",
+    "url": "https://www.goodreads.com/book/show/27857650-roman-holiday",
+    "year_published": 2014
 }

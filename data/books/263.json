@@ -1,66 +1,43 @@
 {
-    "author": "Larry Niven",
-    "base_id": 263,
-    "description": "For the safety of mankind, the aliens called Moties have been quarantined for 25 years (see THE MOTE IN GOD'S EYE) and are now poised to break out of their solar system and spread rapidly into humanity's space. Kevin Renner, Horace Bury, Rod Blaine and other characters introduced in THE MOTE IN GOD'S EYE must now find new ways to cope with the inevitable Motie expansion while trying to protect humanity. Sequel to the novel Robert A. Heinlein called \"Possibly the finest science fiction novel I have ever read.\"",
+    "author": "Ruth Park",
+    "base_id": "263",
+    "description": "Distraught over her parents' separation, Abigail follows a strange child called Beatie Bow and time slips back a hundred years where she becomes involved with an Australian shopkeeper's family.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 17,
-        "audiobook": 10,
-        "fantasy": 10,
-        "fiction": 118,
-        "military fiction": 6,
-        "novels": 7,
-        "science fiction": 453,
-        "science fiction fantasy": 24,
-        "space": 9,
-        "space opera": 21
+        "childrens": 32,
+        "childrens (middle grade)": 11,
+        "classics": 56,
+        "cultural (australia)": 51,
+        "fantasy": 47,
+        "fiction": 50,
+        "historical": 33,
+        "historical (historical fiction)": 59,
+        "science fiction (time travel)": 62,
+        "young adult": 82
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "263_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "263_2"
         },
         {
-            "status": "on_loan",
-            "stock_id": "263_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "263_4"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "263_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "263_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "263_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "263_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "263_9"
+            "stock_id": "263_3"
         }
     ],
     "metrics": {
-        "rating_votes": 10824,
-        "score": 3.82
+        "rating_votes": 4524,
+        "score": 3.96
     },
-    "pages": 646,
-    "title": "The Gripping Hand",
-    "url": "https://www.goodreads.com/book/show/218453.The_Gripping_Hand",
-    "year_published": 1976
+    "pages": 638,
+    "title": "Playing Beatie Bow",
+    "url": "https://www.goodreads.com/book/show/395868.Playing_Beatie_Bow",
+    "year_published": 1980
 }

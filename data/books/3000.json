@@ -1,0 +1,64 @@
+{
+    "author": "Chuck Palahniuk",
+    "base_id": "3000",
+    "description": "Buster \u201cRant\u201d Casey just may be the most efficient serial killer of our time. A high school rebel, Rant Casey escapes from his small town home for the big city where he becomes the leader of an urban demolition derby called Party Crashing. Rant Casey will die a spectacular highway death, after which his friends gather the testimony needed to build an oral history of his short, violent life.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult fiction": 48,
+        "contemporary": 122,
+        "fiction": 1131,
+        "horror": 152,
+        "humor": 55,
+        "literature (american)": 44,
+        "novels": 82,
+        "science fiction": 169,
+        "science fiction (time travel)": 58,
+        "thriller": 41
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3000_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3000_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3000_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3000_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "3000_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3000_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "3000_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3000_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 62127,
+        "score": 3.82
+    },
+    "pages": 1057,
+    "title": "Rant",
+    "url": "https://www.goodreads.com/book/show/22285.Rant",
+    "year_published": 2007
+}

@@ -1,42 +1,34 @@
 {
-    "author": "Amanda Milo",
-    "base_id": 686,
-    "description": "AROKHI broke the rules and stole an auction item from her buyers.Because somehow, they\u2019d managed to abduct a Gryfala princess.Though\u2026 she doesn\u2019t look, or act, or sound quite like I thought one of her kind would.But I\u2019m merely a Rakhii gladiator; this is the closest I\u2019ve actually ever been to a princess.I\u2019d be considered lucky indeed if she chose me to guard her.Instead, I want more.I need her to claim me.Because she doesn\u2019t know it, but now I can\u2019t let her go.ANGIEWoke up in a freaking auction pen.With no coffee.But there were aliens. And they didn\u2019t bid on me out of the goodness of their hearts.FML.Then this nice alien showed up in the nick of time, but he keeps referring to me as \u201cPrincess\u201d and I\u2019m starting to worry what he\u2019ll do when he finds out that there\u2019s been a little case of mistaken identity, that I\u2019m not royalty - see, I\u2019m not even whatever alien he mistook me for\u2026I\u2019m just a human.***Note to readers: This was previously titled ABDUCTED, AUCTIONED, & STOLEN BY AN ALIEN.",
+    "author": "Jarrett J. Krosoczka",
+    "base_id": "686",
+    "description": "Serving justice . . . and lunch!Hector, Terrence, and Dee have always wondered about their school lunch lady. What does she do when she isn\u2019t dishing out the daily special? Where does she live? Does she have a lot of cats at home? Little do they know, Lunch Lady doesn\u2019t just serve sloppy joes\u2014she serves justice! Whatever danger lies ahead, it\u2019s no match for LUNCH LADY!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 28,
-        "aliens": 194,
-        "erotica": 25,
-        "fantasy": 45,
-        "new adult": 21,
-        "paranormal": 39,
-        "paranormal romance": 28,
-        "romance": 171,
-        "science fiction": 161,
-        "science fiction romance": 39
+        "academic (school)": 28,
+        "adventure": 20,
+        "childrens": 66,
+        "childrens (juvenile)": 33,
+        "childrens (middle grade)": 54,
+        "fantasy": 19,
+        "fiction": 28,
+        "humor": 89,
+        "sequential art (comics)": 46,
+        "sequential art (graphic novels)": 356
     },
     "inventory": [
         {
             "status": "on_loan",
             "stock_id": "686_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "686_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "686_3"
         }
     ],
     "metrics": {
-        "rating_votes": 5788,
+        "rating_votes": 12205,
         "score": 4.02
     },
-    "pages": 268,
-    "title": "Stolen by an Alien",
-    "url": "https://www.goodreads.com/book/show/36050260-stolen-by-an-alien",
-    "year_published": 2017
+    "pages": 225,
+    "title": "Lunch Lady and the Cyborg Substitute",
+    "url": "https://www.goodreads.com/book/show/6277757-lunch-lady-and-the-cyborg-substitute",
+    "year_published": 2009
 }

@@ -1,25 +1,26 @@
 {
-    "author": "Laurann Dohner",
-    "base_id": 231,
-    "description": "After barely surviving a horrific accident, then being held captive for years by Earth Government, Venice must escape the planet. She thinks she\u2019s found the answer to her prayers when she contracts to be a deep-space bride\u2014only to find herself facing an even bigger nightmare. Hiding from her con man \u201chusband\u201d aboard his space station, she comes across an intimidating cyborg\u2026one who could just be her last hope.Deviant is humiliated when his father suggests he visit a pleasure center to make use of a sex bot. True, the defects he was born with have assured female cyborgs will never consider adding him to a family unit. But he still has his pride. The woman who enters the room, however, is incredibly lifelike, and she quickly has Deviant feeling things he\u2019d never dreamed\u2014right until the moment he finds out she\u2019s human. Sort of\u2026Venice needs Deviant\u2019s help to get off the space station. Deviant is lonely, and in need of someone to teach him how to pleasure a female. They strike a bargain, one that has Venice giving up her freedom. But soon it\u2019s her heart that\u2019s at greater risk. It\u2019s easy loving Deviant\u2026even when others are determined to make it difficult.",
+    "author": "Emma Berquist",
+    "base_id": "231",
+    "description": "Life out here is hard. So you have to be harder.Willie has always survived. No matter what life in Glory, Texas, has thrown at her. The sickness that swept through the state and turned most living creatures into terrifying shakes. Her own mother succumbing to the disease. Her father disappearing into saloons and gambling and liquor. Willie survives. And she'll make sure her younger brothers and sister do, too.Then her good-for-nothing father steals a fortune from one of the most merciless shake hunters in town, and Willie is on the hook for his debt. With two young hunters as guide, Willie sets out across the desert to find him, and make him pay up.But the desert holds many dangers\u2014and the shakes are only a few of them. This is no place for the weak.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 10,
-        "aliens": 32,
-        "erotica": 20,
+        "adventure": 10,
         "fantasy": 14,
-        "futuristic": 11,
-        "paranormal": 25,
-        "paranormal romance": 25,
-        "romance": 64,
-        "science fiction": 68,
-        "science fiction romance": 23
+        "fiction": 13,
+        "historical": 14,
+        "historical (historical fiction)": 26,
+        "horror": 100,
+        "horror (zombies)": 48,
+        "science fiction (dystopia)": 21,
+        "westerns": 52,
+        "young adult": 89
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "231_1"
         },
         {
@@ -27,7 +28,7 @@
             "stock_id": "231_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "231_3"
         },
         {
@@ -35,24 +36,24 @@
             "stock_id": "231_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "231_5"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "231_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "231_7"
         }
     ],
     "metrics": {
-        "rating_votes": 2928,
-        "score": 4.03
+        "rating_votes": 1047,
+        "score": 4.02
     },
-    "pages": 815,
-    "title": "Loving Deviant",
-    "url": "https://www.goodreads.com/book/show/31430649-loving-deviant",
-    "year_published": 2016
+    "pages": 1277,
+    "title": "Devils Unto Dust",
+    "url": "https://www.goodreads.com/book/show/34697399-devils-unto-dust",
+    "year_published": 2018
 }

@@ -1,42 +1,67 @@
 {
-    "author": "T.A. White",
-    "base_id": 602,
-    "description": "The war everyone thought was over is just beginning.Kira Forrest is a survivor. She\u2019s risen above the pain of her beginnings to become a war hero only to leave it all behind in the pursuit of a simple life. Now a salvager, she makes a living sifting through the wreckage of dead alien ships from a war that nearly brought humanity to its knees.After her ship takes damage, she\u2019s forced to re-route to a space station where her past and present collide with dangerous consequences.Kira\u2019s existence holds the key to a faltering peace treaty with the Tuann\u2014a technologically advanced alien race who dislikes and distrusts all humans. Winning her freedom should be easy, but a powerful and relentless Tuann warrior stands in her way. Deceiving him seems impossible, especially when he strays dangerously close to secrets she struggles to hide.Can Kira reconcile the pain of her past with the possibilities of her future? The fate of two races depends on her success.",
+    "author": "Margaret Peterson Haddix",
+    "base_id": "602",
+    "description": "HIDE OR FIGHT?Matthias, an illegal third child, is caught in the cross fire between rebels and the Population Police. When he unwittingly saves a Population Police officer, Matthias is brought to Population Police headquarters to train as an officer himself. There he meets Nina, another third-born who enlists his help in a plot to undermine the Population Police. But Matthias is under constant scrutiny, and he has no idea whom he can trust. What can one boy do against a wicked bureaucracy?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 29,
-        "adventure": 26,
-        "aliens": 67,
-        "fantasy": 122,
-        "magic": 28,
-        "romance": 109,
-        "science fiction": 233,
-        "science fiction romance": 20,
-        "space": 38,
-        "space opera": 41
+        "adventure": 41,
+        "childrens": 54,
+        "childrens (middle grade)": 72,
+        "fantasy": 41,
+        "fiction": 127,
+        "futuristic": 22,
+        "science fiction": 141,
+        "science fiction (dystopia)": 240,
+        "young adult": 226,
+        "young adult (teen)": 22
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "602_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "602_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "602_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "602_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "602_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "602_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "602_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "602_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "602_9"
         }
     ],
     "metrics": {
-        "rating_votes": 6986,
-        "score": 4.38
+        "rating_votes": 17531,
+        "score": 4.16
     },
-    "pages": 486,
-    "title": "Rules of Redemption",
-    "url": "https://www.goodreads.com/book/show/43954881-rules-of-redemption",
-    "year_published": 2019
+    "pages": 898,
+    "title": "Among the Enemy",
+    "url": "https://www.goodreads.com/book/show/103815.Among_the_Enemy",
+    "year_published": 2005
 }

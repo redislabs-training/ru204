@@ -1,0 +1,58 @@
+{
+    "author": "Greg Bear",
+    "base_id": "720",
+    "description": "The 21st century was on the brink of nuclear confrontation when the 300 kilometer-long stone flashed out of nothingness and into Earth's orbit. NASA, NATO, and the UN sent explorers to the asteroid's surface...and discovered marvels and mysteries to drive researchers mad.For the Stone was from space--but perhaps not our space; it came from the future--but perhaps not our future; and within the hollowed asteroid was Thistledown. The remains of a vanished civilization. A human--English, Russian, and Chinese-speaking--civilization. Seven vast chambers containing forests, lakes, rivers, hanging cities...And museums describing the Death; the catastrophic war that was about to occur; the horror and the long winter that would follow. But while scientists and politicians bickered about how to use the information to stop the Death, the Stone yielded a secret that made even Earth's survival pale into insignificance.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 22,
+        "fantasy": 17,
+        "fiction": 251,
+        "science fiction": 998,
+        "science fiction (hard science fiction)": 21,
+        "science fiction (time travel)": 32,
+        "science fiction fantasy": 34,
+        "space": 26,
+        "space (space opera)": 33,
+        "speculative fiction": 25
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "720_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "720_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "720_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "720_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "720_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "720_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "720_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 26194,
+        "score": 3.88
+    },
+    "pages": 910,
+    "title": "Eon",
+    "url": "https://www.goodreads.com/book/show/840278.Eon",
+    "year_published": 1985
+}

@@ -1,21 +1,22 @@
 {
-    "author": "J.K. Accinni",
-    "base_id": 192,
-    "description": "Two hundred years of tender love between man and alien, political downfalls, wanton violence of unspeakable order tempered with laughter, family loyalty and hope is the thrilling vehicle by which Ms. Accinni conveys her cautionary tale of the merciless disrespect man gives his planet and the vulnerable creatures entrusted to him. This charming, yet brutal saga will chill and surprise you as it foretells the selfishly destructive path man has followed since his species evolved. It pulls no punches while allowing Netty and Baby's influence to transcend mortal life as the world dances toward depraved indifference, introducing other characters along the ride that readers will laugh and shed tears with, and learn to despise. \"Baby\" introduces Netty, a naive teenage farm girl given in marriage to an older brutal opportunist disguised as a successful citizen during the years of Prohibition in Sussex County, New Jersey. After years of enslavement, Netty flees into the night from her rapist and bootlegger husband, traveling back to the farm worked by her parents, where she rescues an unfamiliar damaged creature she finds in a cave in the woods of her childhood, falling in love with the enigmatic alien she names Baby. Together they find happiness and fulfillment despite the changes to Netty's body wrought by the proximity of the unusual creature. Damaged by entry into our atmosphere while pregnant, the confused creature forgets the purpose of his mission, appearing unconcerned with the disappearance of his offspring and savoring the unexpected joy of the love he shares with young Netty. When a handsome Italian stranger comes into Netty's life, complications ensue as she falls in love while trying to hide the bizarre and wondrous changes to her farm and her body. Netty, Baby and Wil strive to conquer obstacles thrown in their path by life, succeeding wildly until the heart-rending and astonishingly brutal climax to their story. What lengths will Baby and his offspring go to complete their mission? Will it spell Armageddon for the beleaguered planet with its vulnerable and exploited creatures or will man tip the scales himself, leaving those that love the creatures to salvage the pitiful ruins? In \"Echo\", Netty's influence transcends a full century as the United States evolves to a point of politically driven economic collapse. The year is 2033 as a young mother, abused by her shiftless husband, heroically decides to remove her two sickly children, Scotty and Abby, from the mean streets of their government subsidized tenement town of Short Hills, New Jersey to the hills and old farmland of Sussex County. There they unite with a Latino family that adopted Jose, a young boy from Costa Rica, traumatized at the age of seven by the brutal murder of his parents and the kidnapping of his infant sister. The two families unite to pool finances, creating the love and bonds that will enable them to survive the psychotic attention of Armoni, a soul damaged beyond redemption, discovery of Baby's miraculous offspring, Echo; and their subsequent body changes. Through the efforts of Echo who develops an unexplained passion for the curly haired dog, Barney, they flee the clutches of Armoni after the murder of Armoni's sidekicks by Echo, to Sarasota, Florida, one of the last remaining enclaves of wealth in the U.S. Scotty learns to utilize Echo as a co-conspirator in his intrigue to thwart the efforts of heinous people that prey on the lives of creatures in their environmentally rich new home, where the insidious miscreant, Armoni, tracks them; bringing brutality and violence to all.Having fallen in love, the young Abby and Jose draw close, only to be separated by the transcendental Netty, who tries to use Abby as a conduit in her plan to rescue as much wildlife as they can before despicable political events bring on the specter of Armageddon...",
+    "author": "Philip Pullman",
+    "base_id": "192",
+    "description": "Trapped in the mists of time by a terrible research experiment gone wrong, John Blake and his mysterious ship are doomed to sail between the centuries, searching for a way home. In the ocean of the modern day, John rescues a shipwrecked young girl his own age, Serena, and promises to help.But returning Serena to her own time means traveling to the one place where the ship is in most danger of destruction. The all-powerful Dahlberg Corporation has an ambitious leader with plans far greater and more terrible than anyone has realized, and he is hot on their trail. For only John, Serena, and the crew know Dahlberg's true intentions, and only they have the power to stop him from bending the world to his will.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Wildlife": 12,
-        "aliens": 30,
-        "dark": 21,
-        "dystopia": 28,
-        "fantasy": 22,
-        "horror": 46,
-        "paranormal": 31,
-        "science fiction": 48,
-        "thriller": 18,
-        "young adult": 15
+        "adventure": 27,
+        "childrens (middle grade)": 19,
+        "fantasy": 19,
+        "fiction": 21,
+        "mystery": 9,
+        "science fiction": 22,
+        "science fiction (time travel)": 26,
+        "sequential art (comics)": 29,
+        "sequential art (graphic novels)": 105,
+        "young adult": 23
     },
     "inventory": [
         {
@@ -27,20 +28,32 @@
             "stock_id": "192_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "192_3"
         },
         {
             "status": "on_loan",
             "stock_id": "192_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "192_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "192_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "192_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1001,
-        "score": 3.83
+        "rating_votes": 885,
+        "score": 3.6
     },
-    "pages": 1090,
-    "title": "Alien Species Intervention",
-    "url": "https://www.goodreads.com/book/show/18874565-alien-species-intervention",
-    "year_published": 2013
+    "pages": 937,
+    "title": "The Adventures of John Blake: Mystery of the Ghost Ship",
+    "url": "https://www.goodreads.com/book/show/31177599-the-adventures-of-john-blake",
+    "year_published": 2017
 }

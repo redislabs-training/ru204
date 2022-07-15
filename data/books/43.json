@@ -1,58 +1,33 @@
 {
-    "author": "Jaid Black",
-    "base_id": 43,
-    "description": "There is only one person on earth who ever mattered to Geris Jackson and that one person is her best friend Kyra Summers (The Empress' New Clothes). When Kyra is kidnapped, Geris fears nobody will believe her tale about the giants with the glowing blue eyes who snatched her best friend away, so she sets out to find Kyra herself. Suffering disappointment after disappointment, Geris begins to give up hope. She gets the surprise of a lifetime when one of the giants who stole her best friend hunts her down and claims her for his own. \"SEIZED definitely lives up to expectations. Well- written and full of spicy hot sex, the book easily returns to the cultures and events that captured our attention in the first book, while expanding on Dak and Geris' romance enough to make the story both new and intriguing.\" - Ann Leveille, Sensual Romance Reviews",
+    "author": "Martha Wells",
+    "base_id": "43",
+    "description": "\u201cMy risk-assessment module predicts a 53 percent chance of a human-on-human massacre before the end of the contract.\u201dA short story published in Wired.com magazine on December 17, 2018.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 7,
-        "aliens": 19,
-        "erotic romance": 14,
-        "erotica": 57,
-        "fantasy": 13,
-        "paranormal": 10,
-        "paranormal romance": 8,
-        "romance": 22,
-        "science fiction": 26,
-        "science fiction romance": 10
+        "adult": 3,
+        "artificial intelligence": 2,
+        "fantasy": 2,
+        "fiction": 10,
+        "humor": 2,
+        "science fiction": 36,
+        "science fiction (dystopia)": 2,
+        "short stories": 24,
+        "space": 3
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "43_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "43_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "43_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1485,
-        "score": 3.82
+        "rating_votes": 274,
+        "score": 4.05
     },
-    "pages": 627,
-    "title": "Seized",
-    "url": "https://www.goodreads.com/book/show/960764.Seized",
-    "year_published": 2002
+    "pages": 369,
+    "title": "Compulsory",
+    "url": "https://www.goodreads.com/book/show/56033969-compulsory",
+    "year_published": 2018
 }

@@ -1,46 +1,40 @@
 {
-    "author": "James Patterson",
-    "base_id": 255,
-    "description": "Daniel X's hunt to eliminate each and every intergalactic criminal on Earth is always relentless, but this time, it's getting personal. Number Three on the List of Alien Outlaws takes the form of raging, soul-possessing fire. And fire transports Daniel back to the most traumatic event of his life-the death of his parents. In the face of his \"kryptonite\", Daniel struggles with his extraordinary powers like never before, and more than ever is at stake: his best friends are in grave peril. The only way to save them is to travel back-through a hole in time-to the demon's arrival during the Dark Ages. Rip-roaring action and humor sets the pages afire in this gripping time-travel adventure with an Arthurian cast-and countless other surprises!",
+    "author": "Alex Alice",
+    "base_id": "255",
+    "description": "\u201cThis one is Jules Verne meets Miyazaki. It\u2019s the space race in 1869 in a kind of alternate past. \u2026 When you see the book itself, it\u2019s this big, oversized object with this incredible watercolor comics style, and it\u2019s this really big, epic, sweeping story of a boy following in his mother\u2019s discovery and then opening up the solar system, but in the age of the 1800s. It\u2019s got a kind of steampunk but also a kind of young, classic children\u2019s story feel to it.\u201d",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 8,
-        "adventure": 20,
-        "aliens": 25,
-        "fantasy": 63,
-        "fiction": 42,
-        "paranormal": 10,
-        "science fiction": 61,
-        "teen": 9,
-        "time travel": 7,
-        "young adult": 76
+        "adventure": 25,
+        "childrens (middle grade)": 28,
+        "fantasy": 48,
+        "fiction": 16,
+        "historical (historical fiction)": 18,
+        "science fiction": 37,
+        "science fiction (steampunk)": 62,
+        "sequential art (bande dessin\u00e9e)": 43,
+        "sequential art (comics)": 77,
+        "sequential art (graphic novels)": 119
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "255_1"
         },
         {
-            "status": "maintenance",
-            "stock_id": "255_2"
-        },
-        {
             "status": "available",
-            "stock_id": "255_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "255_4"
+            "stock_id": "255_2"
         }
     ],
     "metrics": {
-        "rating_votes": 4988,
-        "score": 3.9
+        "rating_votes": 1398,
+        "score": 4.14
     },
-    "pages": 598,
-    "title": "Demons and Druids",
-    "url": "https://www.goodreads.com/book/show/7125335-demons-and-druids",
-    "year_published": 2010
+    "pages": 814,
+    "title": "Castle in the Stars: The Space Race of 1869",
+    "url": "https://www.goodreads.com/book/show/33290524-castle-in-the-stars",
+    "year_published": 2014
 }

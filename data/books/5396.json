@@ -1,0 +1,50 @@
+{
+    "author": "Robert Jordan",
+    "base_id": "5396",
+    "description": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow.Let the Dragon ride again on the winds of time.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 139,
+        "adventure": 235,
+        "audiobook": 190,
+        "epic": 210,
+        "fantasy": 11621,
+        "fantasy (epic fantasy)": 819,
+        "fantasy (high fantasy)": 414,
+        "fantasy (magic)": 184,
+        "fiction": 1337,
+        "science fiction fantasy": 392
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5396_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5396_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5396_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "5396_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "5396_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 236028,
+        "score": 4.22
+    },
+    "pages": 780,
+    "title": "The Great Hunt",
+    "url": "https://www.goodreads.com/book/show/233649.The_Great_Hunt",
+    "year_published": 1990
+}

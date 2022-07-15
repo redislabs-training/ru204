@@ -1,28 +1,30 @@
 {
-    "author": "AngelMartinez",
-    "base_id": 244,
-    "description": "A mysterious distress call draws the crew of courier ship Hermes to what appears to be an empty, drifting troop vessel--empty except for the blood and gore spattered corridors and a lone survivor locked in a holding cell. Drawn to the handsome, traumatized man, the crew\u2019s comm officer, Isaac Ozawa, makes Turk his personal responsibility, offering him the kindness and warmth he needs after the horror he experienced. Isaac knows firsthand what it\u2019s like to be different and an outcast, and this cements their bond. Once a promising pilot, Isaac was left with a damaged body when his brain didn't meld with the high-tech implant needed to fly fighter ships. Turk\u2019s brain is no better. The result of a military experiment gone wrong, his natural abilities have been augmented to a dangerous degree. When an amoral, power-hungry admiral kidnaps Isaac and uses him to convince Turk to become the cataclysmic weapon he\u2019s hungered for, it will take Turk\u2019s strength, the ingenuity of the Hermes crew, the help of the enigmatic Drak\u2019tar, and Isaac\u2019s own stubborn will to save them. 1st Edition published by Silver Publishing, February 2012",
+    "author": "Jeffrey Brown",
+    "base_id": "244",
+    "description": "It's hard to believe that this is my last year at Jedi Academy. I've been busier than ever learning to fly (and wash) starships, sight-seeing in the Lake Country on Naboo, studying for the Jedi obstacle course exam, and tracking down dozens of voorpaks...don't ask. But now someone is setting me up to get in trouble with everyone at school. If I don't find out who it is--and fast--I may flunk out! Why can't middle school just be easy...?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 32,
-        "fantasy": 15,
-        "futuristic": 11,
-        "gay": 17,
-        "lgbt": 17,
-        "male male romance": 167,
-        "military fiction": 30,
-        "romance": 60,
-        "science fiction": 141
+        "childrens": 23,
+        "childrens (juvenile)": 10,
+        "childrens (middle grade)": 25,
+        "fantasy": 19,
+        "fiction": 22,
+        "humor": 19,
+        "media tie in (star wars)": 94,
+        "science fiction": 34,
+        "sequential art (comics)": 29,
+        "sequential art (graphic novels)": 66
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "244_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "244_2"
         },
         {
@@ -30,7 +32,7 @@
             "stock_id": "244_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "244_4"
         },
         {
@@ -38,11 +40,11 @@
             "stock_id": "244_5"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "244_6"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "244_7"
         },
         {
@@ -55,11 +57,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 1528,
-        "score": 4.02
+        "rating_votes": 2991,
+        "score": 4.39
     },
-    "pages": 201,
-    "title": "Gravitational Attraction",
-    "url": "https://www.goodreads.com/book/show/22575681-gravitational-attraction",
-    "year_published": 2012
+    "pages": 711,
+    "title": "Star Wars: Jedi Academy 3: The Phantom Bully",
+    "url": "https://www.goodreads.com/book/show/24000723-star-wars",
+    "year_published": 2015
 }

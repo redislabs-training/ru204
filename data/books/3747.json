@@ -1,0 +1,34 @@
+{
+    "author": "Jonathan Maberry",
+    "base_id": "3747",
+    "description": "In the zombie-infested, post-apocalyptic America where Benny Imura lives, every teenager must find a job by the time they turn fifteen or get their rations cut in half. Benny doesn't want to apprentice as a zombie hunter with his boring older brother Tom, but he has no choice. He expects a tedious job whacking zoms for cash, but what he gets is a vocation that will teach him what it means to be human.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 247,
+        "fantasy": 208,
+        "fantasy (paranormal)": 140,
+        "fiction": 229,
+        "horror": 805,
+        "horror (zombies)": 1293,
+        "science fiction": 203,
+        "science fiction (dystopia)": 340,
+        "young adult": 955,
+        "young adult (teen)": 90
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3747_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32705,
+        "score": 4.1
+    },
+    "pages": 859,
+    "title": "Rot & Ruin",
+    "url": "https://www.goodreads.com/book/show/7157310-rot-ruin",
+    "year_published": 2010
+}

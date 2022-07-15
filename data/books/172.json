@@ -1,25 +1,25 @@
 {
-    "author": "Andrea K. H\u00f6st",
-    "base_id": 172,
-    "description": "Part 2 of the Touchstone trilogy:In the months since Cassandra Devlin walked off Earth onto another planet, she has grappled with everything from making blankets to helping psychics battle the memories of monsters. Not able to find a way home, she has instead gained friends and a purpose. Unfortunately, that purpose brings with it the pressure of being more than a little valuable, and those she has befriended are also her guards, ordered to explore and control her abilities to find out just what it is a touchstone can do.Test subject was not the career path Cass had been planning.With no privacy, too-frequent injuries, and the painful knowledge that she must always be an assignment to her Setari companions, Cass can only wish for some semblance of normality and control.And as her abilities become more and more dangerous, tests and training may be the only thing capable of protecting Cass from herself.",
+    "author": "Philip Reeve",
+    "base_id": "172",
+    "description": "Art, Myrtle, and their mother accept the kind invitation of a holiday to an up-and-coming asteroid resort. But they set out with visions of rest and relaxation only to be sucked into a dastardly plot involving spies, time travel, and mind-altering clothing! Before their adventures are over, they'll sail an aether-ship amid asteroid-strewn seas, dodge demonic puppets, and learn wisdom from an unlikely ally: the Moobs! With faster-than-light plot twists and enough tongue-in-cheek vim and vigor to keep a galaxy in laughter, this dynamic sequel to Larklight is a tour de force of the most intergalactic kind.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 7,
-        "aliens": 20,
-        "fantasy": 58,
-        "fiction": 9,
-        "romance": 27,
-        "science fiction": 76,
-        "science fiction fantasy": 4,
-        "young adult": 51,
-        "young adult fantasy": 5,
-        "young adult science fiction": 5
+        "adventure": 30,
+        "childrens": 15,
+        "childrens (middle grade)": 17,
+        "fantasy": 102,
+        "fiction": 25,
+        "humor": 13,
+        "science fiction": 59,
+        "science fiction (steampunk)": 13,
+        "science fiction (time travel)": 15,
+        "young adult": 45
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "172_1"
         },
         {
@@ -28,11 +28,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 2175,
-        "score": 4.29
+        "rating_votes": 2045,
+        "score": 4.01
     },
-    "pages": 1087,
-    "title": "Lab Rat One",
-    "url": "https://www.goodreads.com/book/show/11921067-lab-rat-one",
-    "year_published": 2011
+    "pages": 897,
+    "title": "Starcross",
+    "url": "https://www.goodreads.com/book/show/1369202.Starcross",
+    "year_published": 2007
 }

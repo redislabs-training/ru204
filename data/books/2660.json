@@ -1,0 +1,51 @@
+{
+    "author": "Ben Aaronovitch",
+    "base_id": "2660",
+    "description": "In Tufnell Park, North London, a pair of railway tracks diver under a school, taking train to and from Kings Cross. Wet, filthy, dangerous. Lovely place. And one Sunday before Christmas a sweet (sort of) kid called Abigail took me and my long suffering colleague Lesley May down there to look for a ghost.We found one.And that was that, I thought, because come Monday I get to do some proper policing. Person Unknown has been stabbed to death on the tracks at Baker Street tube. Magic may have been involved. And sure enough, in the blood; vestigia, the tell-tale trail magic leaves.Person Unknown turns out to be the son of a US senator and before you can say 'International incident'. FBI agent Kimberley Reynolds and her firmly held religious beliefs are on my case.And down in the dark, in the tunnels of London's Underground, the buried rivers, the Victorian sewers, I'm hearing whispers of ancient arts and tortured, vengeful spirits...",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 126,
+        "fantasy": 1992,
+        "fantasy (magic)": 224,
+        "fantasy (paranormal)": 204,
+        "fantasy (supernatural)": 116,
+        "fantasy (urban fantasy)": 1284,
+        "fiction": 512,
+        "mystery": 658,
+        "mystery (crime)": 457,
+        "mystery (detective)": 102
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2660_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2660_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2660_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2660_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2660_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 44136,
+        "score": 4.16
+    },
+    "pages": 1348,
+    "title": "Whispers Under Ground",
+    "url": "https://www.goodreads.com/book/show/10814687-whispers-under-ground",
+    "year_published": 2012
+}

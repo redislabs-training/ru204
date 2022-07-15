@@ -1,29 +1,30 @@
 {
-    "author": "Siobhan Davis",
-    "base_id": 304,
-    "description": "\nThey came from another world to protect her. Now it\u2019s her destiny to save them\u2026 \nTori King is a normal senior in high school. Head over heels in love with her childhood sweetheart, she is busy making plans for college when a chance encounter with an alien bounty hunter turns her world upside down. Now, she\u2019s experiencing terrifying changes and developing supernatural abilities that leave her questioning her entire existence.Then the arrival of four hot new guys at school has everyone talking\u2014especially when they become fixated on Tori, following her wherever she goes. She can\u2019t shake them off, and as they grow closer, she finds herself drawn to all four of them in ways she cannot explain.When they finally reveal their true identity, and why they\u2019re here for her, she discovers everything she thought she knew about herself is a lie.Because there is nothing normal about Tori King.And she\u2019s about to discover exactly how underrated normal is.From a USA Today bestselling author comes a captivating new alien reverse harem series that is intended for readers aged seventeen and older. This is upper YA/NA crossover which gets steamier as the series develops. This book ends on a cliffhanger and cannot be read as a standalone.",
+    "author": "Chris Wooding",
+    "base_id": "304",
+    "description": "The Alienist meets Dracula in this gripping, gothic-horror thriller from young UK phenom Chris Wooding.Thaniel, just seventeen, is a wych-hunter. Together, he and Cathaline--his friend and mentor--track down the fearful creatures that lurk in the Old Quarter of London. It is on one of these hunts that he first encounters Alaizabel Cray. Alaizabel is half-crazed, lovely, and possessed.Whatever dreadful entity has entered her soul has turned her into a strange and unearthly magnet--attracting evil and drawing horrors from every dark corner. Cathaline and Thaniel must discover its cause--and defend humanity at all costs.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 26,
-        "fantasy": 20,
-        "new adult": 13,
-        "paranormal": 15,
-        "paranormal romance": 13,
-        "polyamorous": 95,
-        "romance": 18,
-        "science fiction": 19,
-        "science fiction romance": 6,
-        "young adult": 12
+        "fantasy": 251,
+        "fantasy (paranormal)": 41,
+        "fantasy (supernatural)": 36,
+        "fantasy (urban fantasy)": 25,
+        "fiction": 49,
+        "historical (historical fiction)": 28,
+        "horror": 165,
+        "mystery": 27,
+        "science fiction (steampunk)": 84,
+        "young adult": 181
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "304_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "304_2"
         },
         {
@@ -31,11 +32,11 @@
             "stock_id": "304_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "304_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "304_5"
         },
         {
@@ -43,16 +44,24 @@
             "stock_id": "304_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "304_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "304_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "304_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2217,
-        "score": 4.05
+        "rating_votes": 3944,
+        "score": 3.97
     },
-    "pages": 502,
-    "title": "The Lost Savior",
-    "url": "https://www.goodreads.com/book/show/38106289-the-lost-savior",
-    "year_published": 2018
+    "pages": 1043,
+    "title": "The Haunting of Alaizabel Cray",
+    "url": "https://www.goodreads.com/book/show/140260.The_Haunting_of_Alaizabel_Cray",
+    "year_published": 2001
 }

@@ -1,34 +1,59 @@
 {
-    "author": "Anna Hackett",
-    "base_id": 129,
-    "description": "Battle-hardened soldier Cruz Ramos is running on empty. As second-in-command of the deadliest commando squad fighting the invading aliens, he doesn't know why he's fighting anymore. He's seen too much destruction, devastation, and far too much death. Still, every day he goes out to protect those humans left, and every day the growing numbness threatens to take over.Until a mysterious woman emerges from the ruins of destroyed Sydney and saves him from a pack of rampaging aliens.Santha Kade has one goal: revenge. The raptors who have devastated the Earth have taken everything from her: her team, her home, her beloved sister. Santha--a former police officer--has spent a year alone in the ruined city, waging her own guerrilla war. Sure, she might get lonely sometimes, but she doesn't have room for anything but vengeance. Not even for a sexy soldier with liquid brown eyes, a bone-melting accent, and a face designed to drive a woman wild.But as Cruz and Santha join forces to rescue human hostages from the aliens, their explosive attraction is impossible to resist. Can these two warriors survive long enough to find something worth living for?Note to readers: This sci fi romance contains a lot of action (think invading aliens, explosions and gunfights), tough warriors (the sexy, battle-hardened soldiers of Hell Squad) and a steamy romance (lots of sexy times between a warrior woman and a sexy soldier). So if you like it fast, and gritty, and sexy, this is for you!Includes preview of Book 3 of the Hell Squad, Gabe.",
+    "author": "Eoin Colfer",
+    "base_id": "129",
+    "description": "Riley, an orphan boy living in Victorian London, has achieved his dream of becoming a renowned magician, the Great Savano. He owes much of his success to Chevie, a seventeen-year-old FBI agent who traveled from the future in a time pod and helped him defeat his murderous master, Albert Garrick. But it is difficult for Riley to enjoy his new life, for he has always believed in his heart of hearts that Garrick will someday, somehow, return.Chevie has assured Riley that Garrick was sucked into a temporal wormhole, never to emerge. The full nature of the wormhole has never been understood, however, and just as a human body will reject an unsuitable transplant, the wormhole eventually spits Garrick out. By the time Garrick makes it back to Victorian London, he has been planning his revenge on Riley for centuries. But even the best-laid plans can go awry, as the three discover when they are tossed once more into the wormhole and spill out in a Puritan village.Featuring remarkable heroes, an epic villain, and monstrous mutations, The Forever Man is another high-octane adventure from the impressive imagination behind the internationally best-selling Artemis Fowl series.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "action": 8,
-        "aliens": 20,
-        "dystopia": 10,
-        "futuristic": 10,
-        "military fiction": 15,
-        "paranormal romance": 7,
-        "post apocalyptic": 12,
-        "romance": 29,
-        "science fiction": 35,
-        "science fiction romance": 17
+        "adventure": 14,
+        "audiobook": 5,
+        "childrens": 3,
+        "childrens (middle grade)": 4,
+        "fantasy": 30,
+        "fiction": 9,
+        "historical (historical fiction)": 4,
+        "science fiction": 26,
+        "science fiction (time travel)": 24,
+        "young adult": 28
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "129_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "129_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "129_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "129_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "129_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "129_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "129_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1350,
-        "score": 4.13
+        "rating_votes": 1049,
+        "score": 3.93
     },
-    "pages": 899,
-    "title": "Cruz",
-    "url": "https://www.goodreads.com/book/show/25440912-cruz",
+    "pages": 465,
+    "title": "The Forever Man",
+    "url": "https://www.goodreads.com/book/show/22518400-the-forever-man",
     "year_published": 2015
 }

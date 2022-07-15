@@ -1,46 +1,38 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 404,
-    "description": "Number Nine\u2014when John frees him from his cell in the power of six, he's ferocious, reckless, and ready to fight back. But being held captive changes a person\u2014even a Lorien. See what Nine was like before his capture, and read about his dramatic escape from his point of view.",
+    "author": "James Gurney",
+    "base_id": "404",
+    "description": "In the year 1860, biologist and explorer Arthur Denison and his son, Will, set out on a sea voyage of discovery and adventure. When a powerful typhoon wrecks the ship in uncharted waters, Arthur and Will are the sole survivors. Washed ashore on a strange island called Dinotopia, they are amazed to find a breathtaking world where cities are built on waterfalls, people have found new ways to fly, and humans and dinosaurs live together in harmony. With new discoveries at every turn, Arthur and Will embark upon their own separate journeys to unearth the mysteries of Dinotopia.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 24,
-        "aliens": 62,
-        "fantasy": 112,
-        "fiction": 47,
-        "novella": 20,
-        "paranormal": 24,
-        "science fiction": 129,
-        "short stories": 29,
-        "teen": 16,
-        "young adult": 168
+        "adventure": 55,
+        "animals": 31,
+        "animals (dinosaurs)": 81,
+        "art": 97,
+        "childrens": 120,
+        "childrens (picture books)": 60,
+        "fantasy": 440,
+        "fiction": 156,
+        "science fiction": 42,
+        "young adult": 56
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "404_1"
         },
         {
-            "status": "available",
-            "stock_id": "404_2"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "404_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "404_4"
+            "stock_id": "404_2"
         }
     ],
     "metrics": {
-        "rating_votes": 11766,
-        "score": 4.18
+        "rating_votes": 11431,
+        "score": 4.25
     },
-    "pages": 452,
-    "title": "Nine's Legacy",
-    "url": "https://www.goodreads.com/book/show/13425352-nine-s-legacy",
-    "year_published": 2012
+    "pages": 867,
+    "title": "Dinotopia: A Land Apart from Time",
+    "url": "https://www.goodreads.com/book/show/144006.Dinotopia",
+    "year_published": 1992
 }

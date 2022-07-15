@@ -1,0 +1,63 @@
+{
+    "author": "Dan Brown",
+    "base_id": "47817",
+    "description": "ISBN 9780307277671 moved to this edition.While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci\u2014clues visible for all to see and yet ingeniously disguised by the painter.Even more startling, the late curator was involved in the Priory of Sion\u2014a secret society whose members included Sir Isaac Newton, Victor Hugo, and Da Vinci\u2014and he guarded a breathtaking historical secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle\u2014while avoiding the faceless adversary who shadows their every move\u2014the explosive, ancient truth will be lost forever.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 1059,
+        "adventure": 1418,
+        "fiction": 17207,
+        "historical (historical fiction)": 1664,
+        "mystery": 9331,
+        "mystery (crime)": 1212,
+        "novels": 1278,
+        "suspense": 1811,
+        "thriller": 7085,
+        "thriller (mystery thriller)": 1673
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "47817_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "47817_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1982780,
+        "score": 3.86
+    },
+    "pages": 904,
+    "title": "The Da Vinci Code",
+    "url": "https://www.goodreads.com/book/show/968.The_Da_Vinci_Code",
+    "year_published": 2003
+}

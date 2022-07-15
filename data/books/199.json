@@ -1,0 +1,40 @@
+{
+    "author": "Frank Miller",
+    "base_id": "199",
+    "description": "\"Intricate, kinetic, and thoroughly outrageous!\" - Rolling StoneWinner of comics' prestigious Eisner Award! Carl Seltz is a suburban insurance investigator, a loving husband, and devoted father. Nixon is a berserk, homicidal tax collector racking up mind-boggling body counts in a diseased urban slaughterhouse. Unit Four is the ultimate robot killing machine - and the last hope of the future's enslaved mechanical servants. And - somehow - they're all the same psychotic entity. Frank Miller and Geof Darrow have created a visual masterpiece!",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 22,
+        "fantasy": 4,
+        "fiction": 15,
+        "graphic novels comics": 14,
+        "science fiction": 29,
+        "science fiction (cyberpunk)": 11,
+        "science fiction (dystopia)": 6,
+        "sequential art (comics)": 228,
+        "sequential art (comix)": 11,
+        "sequential art (graphic novels)": 134
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "199_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "199_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2687,
+        "score": 3.71
+    },
+    "pages": 1269,
+    "title": "Hard Boiled",
+    "url": "https://www.goodreads.com/book/show/59982.Hard_Boiled",
+    "year_published": 1990
+}

@@ -1,0 +1,50 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "6050",
+    "description": "Babylon Restored, formerly Manhattan, may give David answers. Ruled by the mysterious High Epic, Regalia, David is sure Babylon Restored will lead him to what he needs to find. And while entering another city oppressed by a High Epic despot is a gamble, David's willing to risk it. Because killing Steelheart left a hole in David's heart. A hole where his thirst for vengeance once lived. Somehow, he filled that hole with another Epic\u2014Firefight. And he's willing to go on a quest darker, and more dangerous even, than the fight against Steelheart to find her, and to get his answers.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 111,
+        "apocalyptic (post apocalyptic)": 108,
+        "audiobook": 179,
+        "comics (superheroes)": 201,
+        "fantasy": 2400,
+        "fantasy (urban fantasy)": 269,
+        "fiction": 459,
+        "science fiction": 861,
+        "science fiction (dystopia)": 446,
+        "young adult": 1143
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "6050_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6050_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6050_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6050_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6050_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 83245,
+        "score": 4.27
+    },
+    "pages": 512,
+    "title": "Firefight",
+    "url": "https://www.goodreads.com/book/show/15704459-firefight",
+    "year_published": 2015
+}

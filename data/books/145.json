@@ -1,29 +1,29 @@
 {
-    "author": "John L. Hare",
-    "base_id": 145,
-    "description": "It's field trip day, and students are excited to travel on their yellow spaceship bus from their space station to the moon.Climb aboard the spaceship bus for a fantastic field trip adventure to the moon. Once they land, students debark and set out with their teacher to explore. They jump over trenches and see craters and mountains on the moon's surface and even Earth in the faraway distance. One student takes a break to draw some pictures, falls asleep, and wakes up to discover that the rest of the class and the spaceship are gone. How the student passes the time waiting to be rescued makes for a funny and unexpected adventure that will enchant children all over the galaxy.",
+    "author": "Jodi Taylor",
+    "base_id": "145",
+    "description": "Everyone deserves to get away for a bit. Even the miscreants at St Mary's. Astonishingly, Dr Bairstow has declared a holiday. Even more astonishingly - he's paying for it. Needless to say, there are strings attached. They have to record the 1601 performance of Hamlet, with Shakespeare himself in the role of the Ghost. It doesn't go well, of course.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Art": 12,
-        "adventure": 10,
-        "aliens": 17,
-        "childrens": 13,
-        "fantasy": 6,
-        "fiction": 6,
-        "humor": 9,
-        "picture books": 120,
-        "science fiction": 14,
-        "space": 35
+        "adventure": 11,
+        "audiobook": 19,
+        "fantasy": 50,
+        "fiction": 35,
+        "historical": 12,
+        "historical (historical fiction)": 38,
+        "humor": 13,
+        "science fiction": 39,
+        "science fiction (time travel)": 86,
+        "short stories": 26
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "145_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "145_2"
         },
         {
@@ -32,11 +32,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 635,
-        "score": 4.26
+        "rating_votes": 2604,
+        "score": 4.44
     },
-    "pages": 1105,
-    "title": "Field Trip to the Moon",
-    "url": "https://www.goodreads.com/book/show/41554345-field-trip-to-the-moon",
-    "year_published": 2019
+    "pages": 542,
+    "title": "The Great St Mary's Day Out",
+    "url": "https://www.goodreads.com/book/show/29982939-the-great-st-mary-s-day-out",
+    "year_published": 2016
 }

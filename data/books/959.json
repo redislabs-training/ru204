@@ -1,25 +1,26 @@
 {
-    "author": "Jack Finney",
-    "base_id": 959,
-    "description": "On a quiet fall evening in the small, peaceful town of Mill Valley, California, Dr. Miles Bennell discovered an insidious, horrifying plot. Silently, subtly, almost imperceptibly, alien life-forms were taking over the bodies and minds of his neighbors, his friends, his family, the woman he loved\u2014the world as he knew it. First published in 1955, this classic thriller of the ultimate alien invasion and the triumph of the human spirit over an invisible enemy inspired three major motion pictures.",
+    "author": "Kazu Kibuishi",
+    "base_id": "959",
+    "description": "A worthy mission...or a trap?Navin and his classmates journey to Lucien, a city ravaged by war and plagued by mysterious creatures, where they search for a beacon essential to their fight against the Elf King. Meanwhile, Emily heads back into the Void with Max, one of the Elf King's loyal followers, where she learns his darkest secrets. The stakes, for both Emily and Navin, are higher than ever.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 35,
-        "audiobook": 43,
-        "classics": 179,
-        "fantasy": 32,
-        "fiction": 206,
-        "horror": 448,
-        "novels": 24,
-        "science fiction": 549,
-        "science fiction fantasy": 27,
-        "thriller": 40
+        "adventure": 83,
+        "childrens": 67,
+        "childrens (middle grade)": 164,
+        "fantasy": 409,
+        "fiction": 62,
+        "graphic novels comics": 47,
+        "science fiction": 32,
+        "sequential art (comics)": 195,
+        "sequential art (graphic novels)": 646,
+        "young adult": 57
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "959_1"
         },
         {
@@ -27,24 +28,20 @@
             "stock_id": "959_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "959_3"
         },
         {
-            "status": "on_loan",
-            "stock_id": "959_4"
-        },
-        {
             "status": "available",
-            "stock_id": "959_5"
+            "stock_id": "959_4"
         }
     ],
     "metrics": {
-        "rating_votes": 19561,
-        "score": 3.89
+        "rating_votes": 13193,
+        "score": 4.37
     },
-    "pages": 453,
-    "title": "Invasion of the Body Snatchers",
-    "url": "https://www.goodreads.com/book/show/127515.Invasion_of_the_Body_Snatchers",
-    "year_published": 1955
+    "pages": 892,
+    "title": "Escape from Lucien",
+    "url": "https://www.goodreads.com/book/show/20578979-escape-from-lucien",
+    "year_published": 2014
 }

@@ -1,0 +1,47 @@
+{
+    "author": "Robin Sloan",
+    "base_id": "7160",
+    "description": "Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions. She codes all day and collapses at night, her human contact limited to the two brothers who run the neighborhood hole-in-the-wall from which she orders dinner every evening. Then, disaster! Visa issues. The brothers close up shop, and fast. But they have one last delivery for Lois: their culture, the sourdough starter used to bake their bread. She must keep it alive, they tell her\u2014feed it daily, play it music, and learn to bake with it.Lois is no baker, but she could use a roommate, even if it is a needy colony of microorganisms. Soon, not only is she eating her own homemade bread, she\u2019s providing loaves daily to the General Dexterity cafeteria. The company chef urges her to take her product to the farmer\u2019s market, and a whole new world opens up.When Lois comes before the jury that decides who sells what at Bay Area markets, she encounters a close-knit club with no appetite for new members. But then, an alternative emerges: a secret market that aims to fuse food and technology. But who are these people, exactly?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 141,
+        "adult fiction": 113,
+        "audiobook": 244,
+        "contemporary": 327,
+        "fantasy": 312,
+        "fiction": 1395,
+        "food and drink (food)": 253,
+        "literary fiction": 67,
+        "magical realism": 410,
+        "science fiction": 85
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "7160_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7160_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "7160_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7160_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 43455,
+        "score": 3.76
+    },
+    "pages": 722,
+    "title": "Sourdough",
+    "url": "https://www.goodreads.com/book/show/33916024-sourdough",
+    "year_published": 2017
+}

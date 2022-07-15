@@ -1,0 +1,66 @@
+{
+    "author": "Jeff Noon",
+    "base_id": "560",
+    "description": "A brilliantly innovative and highly entertaining novel from a literary pioneer.Take a trip in a stranger\u2019s head. Travel rain-shot streets with a gang of hip malcontents, hooked on the most powerful drug you can imagine. Yet Vurt feathers are not for the weak. As the mysterious Game Cat says, \u2018Be careful, be very careful\u2019. But Scribble isn\u2019t listening. He has to find his lost love. His journey is a mission to find Curious Yellow, the ultimate, perhaps even mythical Vurt feather. As the most powerful narcotic of all, Scribble must be prepared to leave his current reality behind. This edition also includes three additional short stories by Noon.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "european literature (british literature)": 8,
+        "fantasy": 72,
+        "fiction": 187,
+        "novels": 22,
+        "science fiction": 314,
+        "science fiction (cyberpunk)": 153,
+        "science fiction (dystopia)": 32,
+        "science fiction fantasy": 15,
+        "speculative fiction": 21,
+        "surreal": 11
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "560_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "560_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "560_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "560_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "560_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "560_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "560_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "560_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "560_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8699,
+        "score": 4.06
+    },
+    "pages": 935,
+    "title": "Vurt",
+    "url": "https://www.goodreads.com/book/show/17401136-vurt",
+    "year_published": 1993
+}

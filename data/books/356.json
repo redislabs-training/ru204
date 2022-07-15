@@ -1,58 +1,36 @@
 {
-    "author": "R.J. Anderson",
-    "base_id": 356,
-    "description": "Back in her hometown, Tori Beaugrand had everything a teenaged girl could want\u2014popularity, money, beauty. But she also had a secret. A secret that could change her life in an instant, or destroy it.Now she\u2019s left everything from her old life behind, including her real name and Alison, the one friend who truly understood her. She can\u2019t escape who and what she is. But if she wants to have anything like a normal life, she has to blend in and hide her unusual... talents.Plans change when the enigmatic Sebastian Faraday reappears and gives Tori some bad news: she hasn\u2019t escaped her past. In fact, she\u2019s attracted new interest in the form of an obsessed ex-cop turned investigator for a genetics lab.She has one last shot at getting her enemies off her trail and winning the security and independence she\u2019s always longed for. But saving herself will take every ounce of Tori\u2019s incredible electronics and engineering skills\u2014and even then, she may need to sacrifice more than she could possibly imagine if she wants to be free.",
+    "author": "Stephen R. Donaldson",
+    "base_id": "356",
+    "description": "\"A trilogy of remarkable scope and sophistication.\"--Los Angeles TimesTwice before Thomas Covenant had been summoned to the strange otherworld where magic worked. Twice before he had been forced to join with the Lords of Revelstone in their war against Lord Foul, the ancient enemy of the Land.Now he was back--to a Land ravaged by the armies of Lord Foul. The Lords were besieged and helpless. No place was safe, and Foul's victory seemed certain. Only Covenant could avert it. Desperately and without hope, he set out to confront the might of the Enemy. Along with him traveled a Giant, a Bloodguard, and the madwoman he had wronged. And in Foul's Creche, Lord Foul grew in power with each new defeat for the Land. . . .",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "LGBT (Asexual) ": 18,
-        "aliens": 50,
-        "fantasy": 59,
-        "fiction": 22,
-        "lgbt": 31,
-        "mystery": 16,
-        "paranormal": 61,
-        "romance": 22,
-        "science fiction": 145,
-        "young adult": 166
+        "adventure": 28,
+        "epic": 30,
+        "fantasy": 1764,
+        "fantasy (epic fantasy)": 53,
+        "fantasy (high fantasy)": 22,
+        "fiction": 247,
+        "novels": 10,
+        "science fiction": 50,
+        "science fiction fantasy": 90,
+        "speculative fiction": 14
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "356_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "356_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "356_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "356_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "356_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "356_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "356_7"
         }
     ],
     "metrics": {
-        "rating_votes": 2211,
-        "score": 3.91
+        "rating_votes": 23110,
+        "score": 4.02
     },
-    "pages": 207,
-    "title": "Quicksilver",
-    "url": "https://www.goodreads.com/book/show/13149420-quicksilver",
-    "year_published": 2013
+    "pages": 1008,
+    "title": "The Power That Preserves",
+    "url": "https://www.goodreads.com/book/show/687215.The_Power_That_Preserves",
+    "year_published": 1978
 }

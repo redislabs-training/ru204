@@ -1,0 +1,52 @@
+{
+    "author": "Ally Condie",
+    "base_id": "629",
+    "description": "Who do you become when you have nothing left to lose? There is something Poe Blythe, the seventeen-year-old captain of the Outpost's last mining ship, wants far more than the gold they tear from the Serpentine River. Revenge.Poe has vowed to annihilate the river raiders who robbed her of everything two years ago. But as she navigates the treacherous waters of the Serpentine and realizes there might be a traitor among her crew, she must also reckon with who she has become, who she wants to be, and the ways love can change and shape you. Even - and especially - when you think all is lost.The fierce new YA novel from Ally Condie, the international bestselling author of the Matched trilogy, an intricately crafted and emotionally gripping story of one young woman's journey to move beyond the grief and anger that control her and find the inner strength to chart her own course.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 41,
+        "adventure (pirates)": 15,
+        "audiobook": 14,
+        "fantasy": 126,
+        "fiction": 38,
+        "science fiction": 60,
+        "science fiction (dystopia)": 92,
+        "young adult": 175,
+        "young adult (teen)": 20,
+        "young adult (young adult fantasy)": 14
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "629_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "629_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "629_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "629_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "629_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2629,
+        "score": 3.51
+    },
+    "pages": 696,
+    "title": "The Last Voyage of Poe Blythe",
+    "url": "https://www.goodreads.com/book/show/40944082-the-last-voyage-of-poe-blythe",
+    "year_published": 2019
+}

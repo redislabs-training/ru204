@@ -1,0 +1,36 @@
+{
+    "author": "Stephen King",
+    "base_id": "21663",
+    "description": "This is the way the world ends: with a nanosecond of computer error in a Defense Department laboratory and a million casual contacts that form the links in a chain letter of death. And here is the bleak new world of the day after: a world stripped of its institutions and emptied of 99 percent of its people. A world in which a handful of panicky survivors choose sides -- or are chosen.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 1198,
+        "audiobook": 438,
+        "classics": 411,
+        "fantasy": 2628,
+        "fiction": 5605,
+        "horror": 8940,
+        "science fiction": 1627,
+        "science fiction (apocalyptic)": 501,
+        "science fiction (dystopia)": 889,
+        "thriller": 1042
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "21663_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 633764,
+        "score": 4.34
+    },
+    "pages": 594,
+    "title": "The Stand",
+    "url": "https://www.goodreads.com/book/show/149267.The_Stand",
+    "year_published": 1978
+}

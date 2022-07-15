@@ -1,0 +1,36 @@
+{
+    "author": "Andrzej Sapkowski",
+    "base_id": "14011",
+    "description": "Geralt the Witcher\u2014revered and hated\u2014is a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent. But not everything monstrous-looking is evil and not everything fair is good... and in every fairy tale there is a grain of truth.Librarian's Note: Alternate cover edition of ASIN B0010SIPT4",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 344,
+        "adventure": 341,
+        "audiobook": 399,
+        "european literature (polish literature)": 259,
+        "fantasy": 11844,
+        "fantasy (epic fantasy)": 246,
+        "fantasy (high fantasy)": 402,
+        "fantasy (magic)": 357,
+        "fiction": 1786,
+        "short stories": 920
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "14011_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 208672,
+        "score": 4.12
+    },
+    "pages": 240,
+    "title": "The Last Wish",
+    "url": "https://www.goodreads.com/book/show/40603587-the-last-wish",
+    "year_published": 1993
+}

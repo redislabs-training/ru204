@@ -1,29 +1,30 @@
 {
-    "author": "C.J. Cherryh",
-    "base_id": 630,
-    "description": "The first book in C.J. Cherryh's eponymous series, Foreigner begins an epic tale of the survivors of a lost spacecraft who crash-land on a planet inhabited by a hostile, sentient alien race.From its beginnings as a human-alien story of first contact, the Foreigner series has become a true science fiction odyssey, following a civilization from the age of steam through early space flight to confrontations with other alien species in distant sectors of space. It is the masterwork of a truly remarkable author.",
+    "author": "Alan Moore",
+    "base_id": "630",
+    "description": "It's one month after the events in League of Extraordinary Gentlemen Vol. 1, and the skies over England are filled with flaming rockets as Mars launches the first salvo of an invasion. Only our stalwart adventurers Allan Quatermain, Mina Harker, Captain Nemo, Hawley Griffin, and Mr. Edward Hyde can save mother England and the very Earth itself. But there are many startling revelations along the way, including the blossoming of love and the uncovering of a traitor in their midst!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 11,
-        "aliens": 43,
-        "audiobook": 13,
-        "fantasy": 62,
-        "fiction": 174,
-        "science fiction": 668,
-        "science fiction fantasy": 35,
-        "space": 11,
-        "space opera": 56,
-        "speculative fiction": 14
+        "comics (comic book)": 84,
+        "fantasy": 106,
+        "fiction": 166,
+        "graphic novels comics": 82,
+        "historical (historical fiction)": 70,
+        "horror": 39,
+        "science fiction": 68,
+        "science fiction (steampunk)": 47,
+        "sequential art (comics)": 1095,
+        "sequential art (graphic novels)": 1109
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "630_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "630_2"
         },
         {
@@ -33,14 +34,30 @@
         {
             "status": "on_loan",
             "stock_id": "630_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "630_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "630_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "630_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "630_8"
         }
     ],
     "metrics": {
-        "rating_votes": 9023,
-        "score": 3.94
+        "rating_votes": 20251,
+        "score": 3.93
     },
-    "pages": 753,
-    "title": "Foreigner",
-    "url": "https://www.goodreads.com/book/show/57043.Foreigner",
-    "year_published": 1994
+    "pages": 1195,
+    "title": "The League of Extraordinary Gentlemen, Vol. 2",
+    "url": "https://www.goodreads.com/book/show/107007.The_League_of_Extraordinary_Gentlemen_Vol_2",
+    "year_published": 2003
 }

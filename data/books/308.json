@@ -1,0 +1,51 @@
+{
+    "author": "Jeff Somers",
+    "base_id": "308",
+    "description": "In the near future, the only thing growing faster than the criminal population is the Electric Church, a new religion founded by a mysterious man named Dennis Squalor. The Church preaches that life is too brief to contemplate the mysteries of the universe: eternity is required. In order to achieve this, the converted become Monks -- cyborgs with human brains, enhanced robotic bodies, and virtually unlimited life spans. Enter Avery Cates, a dangerous criminal known as the best killer-for-hire around. The authorities have a special mission in mind for Cates: assassinate Dennis Squalor. But for Cates, the assignment will be the most dangerous job he's ever undertaken -- and it may well be his last.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "fantasy": 10,
+        "fiction": 63,
+        "mystery": 8,
+        "mystery (crime)": 8,
+        "mystery (noir)": 12,
+        "science fiction": 146,
+        "science fiction (cyberpunk)": 89,
+        "science fiction (dystopia)": 30,
+        "science fiction fantasy": 12,
+        "thriller": 17
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "308_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "308_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "308_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "308_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "308_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2951,
+        "score": 3.75
+    },
+    "pages": 408,
+    "title": "The Electric Church",
+    "url": "https://www.goodreads.com/book/show/1765771.The_Electric_Church",
+    "year_published": 2007
+}

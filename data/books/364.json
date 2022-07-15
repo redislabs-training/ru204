@@ -1,0 +1,62 @@
+{
+    "author": "Maureen F. McHugh",
+    "base_id": "364",
+    "description": "The apocalypse was yesterday. These stories are today.Following up on her first collection, Story Prize finalist Maureen F. McHugh explores the catastrophes, small and large, of twenty-first century life\u2014and what follows after. What happens after the bird flu pandemic? Are our computers smarter than we are? What does the global economy mean for two young girls in China? Are we really who we say we are? And how will we survive the coming zombie apocalypse?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 58,
+        "fantasy": 17,
+        "fiction": 131,
+        "horror": 15,
+        "horror (zombies)": 17,
+        "science fiction": 108,
+        "science fiction (apocalyptic)": 26,
+        "science fiction (dystopia)": 47,
+        "short stories": 250,
+        "speculative fiction": 19
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "364_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "364_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "364_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "364_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "364_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "364_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "364_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "364_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2262,
+        "score": 3.59
+    },
+    "pages": 1135,
+    "title": "After the Apocalypse",
+    "url": "https://www.goodreads.com/book/show/11249375-after-the-apocalypse",
+    "year_published": 2011
+}

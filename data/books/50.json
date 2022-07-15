@@ -1,21 +1,22 @@
 {
-    "author": "Eve Langlais",
-    "base_id": 50,
-    "description": "Kidnapped or rescued, it\u2019s a matter of alien perspective. Either way, it results in pleasurable probing. Abducted by a hunky blue alien, researcher and admitted geek Penny is eager to study his mating habits\u2014in the flesh. She\u2019d like to blame her illogical affection for him on hormones, but the erotic remedy just heightens her chemical imbalance. Reg never thought a simple rescue mission would make him question his decision to remain single for while Penny drives him crazy with her never-ending questions, her simple presence inflames his lust\u2014and causes havoc with his emotions. But is he ready to give up the galactic travel he loves so much to settle down with an earthling female?",
+    "author": "Akira Toriyama",
+    "base_id": "50",
+    "description": "Goku needs just one more Dragon Ball to wish Upa's father back to life...but the Ball is in the hands of an old enemy! Then, Goku and his friends part ways, promising to meet again in three years at the Tenka'ichi Bud\u00f4kai, the \"Strongest-Under-the-Heavens\" Martial Arts Tournament. But this time the competition is stronger than ever: Tenshinhan and Chaozu, the deadly disciples of Tsuru-Sen'nin, the Crane Hermit! Will Kame-Sen'nin's turtle-style kung fu beat crane style? Or will their strange new opponents be triumphant?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 6,
-        "aliens": 40,
-        "erotica": 36,
-        "fantasy": 9,
-        "futuristic": 7,
-        "paranormal": 11,
-        "paranormal romance": 18,
-        "romance": 33,
-        "science fiction": 43,
-        "science fiction romance": 10
+        "adventure": 18,
+        "comics manga": 9,
+        "fantasy": 29,
+        "fiction": 18,
+        "humor": 13,
+        "manga (shonen)": 13,
+        "science fiction": 10,
+        "sequential art (comics)": 39,
+        "sequential art (graphic novels)": 21,
+        "sequential art (manga)": 429
     },
     "inventory": [
         {
@@ -27,11 +28,11 @@
             "stock_id": "50_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "50_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "50_4"
         },
         {
@@ -40,11 +41,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 1488,
-        "score": 3.85
+        "rating_votes": 2014,
+        "score": 4.34
     },
-    "pages": 593,
-    "title": "Alien Mate 3",
-    "url": "https://www.goodreads.com/book/show/10219948-alien-mate-3",
-    "year_published": 2011
+    "pages": 432,
+    "title": "Dragon Ball, Vol. 10: Return to the Tournament",
+    "url": "https://www.goodreads.com/book/show/1267083.Dragon_Ball_Vol_10",
+    "year_published": 1987
 }

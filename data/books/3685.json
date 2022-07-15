@@ -1,0 +1,54 @@
+{
+    "author": "Robert R. McCammon",
+    "base_id": "3685",
+    "description": "An ancient evil roams the desolate landscape of an America ravaged by nuclear war. He is the Man with the Scarlet Eye, a malevolent force that feeds on the dark desires of the countless followers he has gathered into his service. His only desire is to find a special child named Swan\u2014and destroy her. But those who would protect the girl are determined to fight for what is left of the world, and their souls. In a wasteland born of rage, populated by monstrous creatures and marauding armies, the last survivors on earth have been drawn into the final battle between good and evil that will decide the fate of humanity....",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 494,
+        "audiobook": 76,
+        "fantasy": 427,
+        "fiction": 584,
+        "horror": 1769,
+        "science fiction": 307,
+        "science fiction (apocalyptic)": 196,
+        "science fiction (dystopia)": 222,
+        "science fiction fantasy": 40,
+        "thriller": 91
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3685_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3685_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3685_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "3685_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3685_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3685_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 56579,
+        "score": 4.28
+    },
+    "pages": 1109,
+    "title": "Swan Song",
+    "url": "https://www.goodreads.com/book/show/11557.Swan_Song",
+    "year_published": 1987
+}

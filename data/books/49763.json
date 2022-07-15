@@ -1,0 +1,44 @@
+{
+    "author": "Ray Bradbury",
+    "base_id": "49763",
+    "description": "Guy Montag is a fireman. In his world, where television rules and literature is on the brink of extinction, firemen start fires rather than put them out. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden.Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television 'family'. But then he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people did not live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television.When Mildred attempts suicide and Clarisse suddenly disappears, Montag begins to question everything he has ever known.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "academic (school)": 1604,
+        "adult": 813,
+        "classics": 23377,
+        "fantasy": 1036,
+        "fiction": 14361,
+        "literature": 1554,
+        "novels": 1201,
+        "science fiction": 10878,
+        "science fiction (dystopia)": 6037,
+        "science fiction fantasy": 805
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "49763_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "49763_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "49763_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1745002,
+        "score": 3.99
+    },
+    "pages": 505,
+    "title": "Fahrenheit 451",
+    "url": "https://www.goodreads.com/book/show/13079982-fahrenheit-451",
+    "year_published": 1953
+}

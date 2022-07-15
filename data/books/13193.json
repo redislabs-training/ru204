@@ -1,0 +1,56 @@
+{
+    "author": "David Lagercrantz",
+    "base_id": "13193",
+    "description": "She is the girl with the dragon tattoo\u2014a genius hacker and uncompromising misfit. He is a crusading journalist whose championing of the truth often brings him to the brink of prosecution.Late one night, Blomkvist receives a phone call from a source claiming to have information vital to the United States. The source has been in contact with a young female superhacker\u2014a hacker resembling someone Blomkvist knows all too well. The implications are staggering. Blomkvist, in desperate need of a scoop for Millennium, turns to Salander for help. She, as usual, has her own agenda. The secret they are both chasing is at the center of a tangled web of spies, cybercriminals, and governments around the world, and someone is prepared to kill to protect it . . . The duo who captivated millions of readers in The Girl with the Dragon Tattoo, The Girl Who Played with Fire, and The Girl Who Kicked the Hornet\u2019s Nest join forces again in this adrenaline-charged, uniquely of-the-moment thriller.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 107,
+        "audiobook": 271,
+        "contemporary": 117,
+        "cultural (sweden)": 133,
+        "fiction": 1475,
+        "mystery": 1142,
+        "mystery (crime)": 605,
+        "suspense": 209,
+        "thriller": 965,
+        "thriller (mystery thriller)": 281
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "13193_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "13193_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "13193_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "13193_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "13193_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "13193_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 145445,
+        "score": 3.77
+    },
+    "pages": 883,
+    "title": "The Girl in the Spider's Web",
+    "url": "https://www.goodreads.com/book/show/25074850-the-girl-in-the-spider-s-web",
+    "year_published": 2015
+}

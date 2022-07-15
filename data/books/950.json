@@ -1,21 +1,22 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 950,
-    "description": "Years ago, the skies ripped open and the world was destroyed in fire and ash. Dragons - once creatures of legend - are the enemy. Vicious and unpredictable, they rule the skies of the ruined cities, forcing humanity to huddle behind barricades for safety.Claudia's a survivor. She scrapes by as best as she can in a hard, dangerous world. When she runs afoul of the law, she's left as bait in dragon territory. She only has one chance to survive - to somehow 'tame' a dragon and get it to obey her.Except the dragon that finds her is as wild and brutal as any other...and he's not interested in obeying.What he is interested in is a mate.",
+    "author": "Pip Ballantine",
+    "base_id": "950",
+    "description": "In Victorian England, Londoners wash up dead on Thames, drained of blood and bone. Clandestine Ministry of Peculiar Occurrences is forbidden to investigate. But Eliza Braun, with bulletproof corset, fondness for dynamite, remarkable devices, drags along timorous new partner Wellington Books, of encyclopedic brain, against Phoenix intent on enslaving Britons.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 50,
-        "dragons": 255,
-        "dystopia": 78,
-        "fantasy": 225,
-        "paranormal": 175,
-        "paranormal romance": 170,
-        "post apocalyptic": 56,
-        "romance": 234,
-        "science fiction": 50,
-        "shapeshifters": 107
+        "adventure": 42,
+        "fantasy": 320,
+        "fantasy (paranormal)": 44,
+        "fantasy (urban fantasy)": 81,
+        "fiction": 90,
+        "historical": 48,
+        "historical (historical fiction)": 54,
+        "mystery": 121,
+        "science fiction": 115,
+        "science fiction (steampunk)": 1239
     },
     "inventory": [
         {
@@ -23,20 +24,36 @@
             "stock_id": "950_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "950_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "950_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "950_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "950_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "950_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "950_7"
         }
     ],
     "metrics": {
-        "rating_votes": 9039,
-        "score": 3.78
+        "rating_votes": 7456,
+        "score": 3.7
     },
-    "pages": 1139,
-    "title": "Fire in His Blood",
-    "url": "https://www.goodreads.com/book/show/33858773-fire-in-his-blood",
-    "year_published": 2017
+    "pages": 581,
+    "title": "Phoenix Rising",
+    "url": "https://www.goodreads.com/book/show/9795166-phoenix-rising",
+    "year_published": 2011
 }

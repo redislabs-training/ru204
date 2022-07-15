@@ -1,0 +1,64 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "2965",
+    "description": "\"Stephen Leeds, AKA 'Legion,' is a man whose unique mental condition allows him to generate a multitude of personae: hallucinatory entities with a wide variety of personal characteristics and a vast array of highly specialized skills. As the story begins, Leeds and his 'aspects' are drawn into the search for the missing Balubal Razon, inventor of a camera whose astonishing properties could alter our understanding of human history and change the very structure of society\"--From publisher's description",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 64,
+        "audiobook": 152,
+        "fantasy": 1128,
+        "fantasy (urban fantasy)": 197,
+        "fiction": 441,
+        "mystery": 237,
+        "novella": 142,
+        "science fiction": 470,
+        "short stories": 134,
+        "thriller": 58
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2965_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2965_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2965_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2965_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2965_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2965_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2965_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2965_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 35069,
+        "score": 4.14
+    },
+    "pages": 649,
+    "title": "Legion",
+    "url": "https://www.goodreads.com/book/show/13452375-legion",
+    "year_published": 2012
+}

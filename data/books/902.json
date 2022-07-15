@@ -1,0 +1,60 @@
+{
+    "author": "Sydney Padua",
+    "base_id": "902",
+    "description": "\nTHE THRILLING ADVENTURES OF LOVELACE AND BABBAGE\n . . . in which Sydney Padua transforms one of the most compelling scientific collaborations into a hilarious series of adventures. Meet Victorian London\u2019s most dynamic duo: Charles Babbage, the unrealized inventor of the computer, and his accomplice, Ada, Countess of Lovelace, the peculiar protoprogrammer and daughter of Lord Byron. When Lovelace translated a description of Babbage\u2019s plans for an enormous mechanical calculating machine in 1842, she added annotations three times longer than the original work. Her footnotes contained the first appearance of the general computing theory, a hundred years before an actual computer was built. Sadly, Lovelace died of cancer a decade after publishing the paper, and Babbage never built any of his machines. But do not despair! The Thrilling Adventures of Lovelace and Babbage presents a rollicking alternate reality in which Lovelace and Babbage do build the Difference Engine and then use it to build runaway economic models, battle the scourge of spelling errors, explore the wilder realms of mathematics, and, of course, fight crime\u2014for the sake of both London and science. Complete with extensive footnotes that rival those penned by Lovelace herself, historical curiosities, and never-before-seen diagrams of Babbage\u2019s mechanical, steam-powered computer, The Thrilling Adventures of Lovelace and Babbage is wonderfully whimsical, utterly unusual, and, above all, entirely irresistible.(With black-and-white illustrations throughout.)\u00a0",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "biography": 84,
+        "graphic novels comics": 50,
+        "historical": 65,
+        "history": 208,
+        "humor": 62,
+        "nonfiction": 171,
+        "science": 178,
+        "science fiction (steampunk)": 76,
+        "sequential art (comics)": 237,
+        "sequential art (graphic novels)": 477
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "902_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "902_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "902_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "902_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "902_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "902_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "902_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4191,
+        "score": 4.03
+    },
+    "pages": 1100,
+    "title": "The Thrilling Adventures of Lovelace and Babbage",
+    "url": "https://www.goodreads.com/book/show/22822839-the-thrilling-adventures-of-lovelace-and-babbage",
+    "year_published": 2015
+}

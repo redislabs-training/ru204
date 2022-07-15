@@ -1,0 +1,55 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "21334",
+    "description": "From #1 New York Times bestselling author Brandon Sanderson, The Way of Kings, book one of The Stormlight Archive begins an incredible new saga of epic proportion.Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter.It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them.One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable.Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity.Across the ocean, an untried young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war.The result of over ten years of planning, writing, and world-building, The Way of Kings is but the opening movement of the Stormlight Archive, a bold masterpiece in the making.Speak again the ancient oaths:Life before death.Strength before weakness.Journey before Destination.and return to men the Shards they once bore.The Knights Radiant must stand again.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 389,
+        "adventure": 300,
+        "audiobook": 456,
+        "epic": 319,
+        "fantasy": 15911,
+        "fantasy (epic fantasy)": 1186,
+        "fantasy (high fantasy)": 761,
+        "fantasy (magic)": 307,
+        "fiction": 1996,
+        "science fiction fantasy": 392
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "21334_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "21334_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "21334_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "21334_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "21334_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "21334_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 323258,
+        "score": 4.62
+    },
+    "pages": 421,
+    "title": "The Way of Kings",
+    "url": "https://www.goodreads.com/book/show/7235533-the-way-of-kings",
+    "year_published": 2010
+}

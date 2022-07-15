@@ -1,0 +1,63 @@
+{
+    "author": "Kazu Kibuishi",
+    "base_id": "1519",
+    "description": "An impossible journey with danger at every turn...Emily, Navin, and their crew of resistance fighters charter an airship and set off in search of the lost city of Cielis. There they hope to find help from the Guardian Council's powerful Stonekeepers. It's a mission that Alledia's survival depends on, and time is running out--Emily's got to find Cielis before the Elf King finds her.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 136,
+        "childrens": 106,
+        "childrens (middle grade)": 223,
+        "fantasy": 650,
+        "fantasy (magic)": 71,
+        "fiction": 93,
+        "graphic novels comics": 65,
+        "sequential art (comics)": 292,
+        "sequential art (graphic novels)": 1053,
+        "young adult": 95
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1519_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1519_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1519_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1519_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1519_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1519_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1519_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1519_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 26438,
+        "score": 4.36
+    },
+    "pages": 1168,
+    "title": "The Cloud Searchers",
+    "url": "https://www.goodreads.com/book/show/7955881-the-cloud-searchers",
+    "year_published": 2010
+}

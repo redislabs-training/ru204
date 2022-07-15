@@ -1,21 +1,22 @@
 {
-    "author": "Larry Niven",
-    "base_id": 419,
-    "description": "They first appear as a series of dots on astronomical plates, heading from Saturn directly toward Earth. Since the ringed planet carries no life, scientists deduce the mysterious ship to be a visitor from another star.The world's frantic efforts to signal the aliens go unanswered. The first contact is hostile: the invaders blast a Soviet space station, seize the survivors, and then destroy every dam and installation on Earth with a hail of asteriods. Now the conquerors are descending on the American heartland, demanding servile surrender--or death for all humans.",
+    "author": "Nancy Kress",
+    "base_id": "419",
+    "description": "The year is 2035. After ecological disasters nearly destroyed the Earth, 26 survivors\u2014the last of humanity\u2014are trapped by an alien race in a sterile enclosure known as the Shell. Fifteen-year-old Pete is one of the Six\u2014children who were born deformed or sterile and raised in the Shell. As, one by one, the survivors grow sick and die, Pete and the Six struggle to put aside their anger at the alien Tesslies in order to find the means to rebuild the earth together. Their only hope lies within brief time-portals into the recent past, where they bring back children to replenish their disappearing gene pool. Meanwhile, in 2013, brilliant mathematician Julie Kahn works with the FBI to solve a series of\u00a0inexplicable kidnappings. Suddenly her predictive algorithms begin to reveal more than just criminal activity. As she begins to realize her role in the impending catastrophe,\u00a0simultaneously affecting\u00a0the Earth and the Shell, Julie closes in on the truth. She and Pete are converging in time upon the future of humanity\u2014a future which might never unfold. Weaving three consecutive time lines to unravel both the mystery of the Earth's destruction and the key to its salvation, this taut post-apocalyptic thriller offers a topical plot with a satisfying twist.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 27,
-        "apocalyptic": 9,
-        "audiobook": 11,
-        "fantasy": 11,
-        "fiction": 165,
-        "novels": 9,
-        "post apocalyptic": 15,
-        "science fiction": 662,
-        "science fiction fantasy": 33,
-        "war": 13
+        "apocalyptic (post apocalyptic)": 45,
+        "fiction": 77,
+        "novella": 21,
+        "science fiction": 252,
+        "science fiction (aliens)": 10,
+        "science fiction (apocalyptic)": 26,
+        "science fiction (dystopia)": 32,
+        "science fiction (time travel)": 51,
+        "science fiction fantasy": 14,
+        "speculative fiction": 16
     },
     "inventory": [
         {
@@ -25,14 +26,30 @@
         {
             "status": "maintenance",
             "stock_id": "419_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "419_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "419_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "419_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "419_6"
         }
     ],
     "metrics": {
-        "rating_votes": 15523,
-        "score": 3.92
+        "rating_votes": 2634,
+        "score": 3.48
     },
-    "pages": 744,
-    "title": "Footfall",
-    "url": "https://www.goodreads.com/book/show/116356.Footfall",
-    "year_published": 1985
+    "pages": 1065,
+    "title": "After the Fall, Before the Fall, During the Fall",
+    "url": "https://www.goodreads.com/book/show/13163688-after-the-fall-before-the-fall-during-the-fall",
+    "year_published": 2012
 }

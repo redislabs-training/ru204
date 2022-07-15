@@ -1,0 +1,54 @@
+{
+    "author": "Charles Stross",
+    "base_id": "847",
+    "description": "In the year 2018, Sergeant Sue Smith of the Edinburgh constabulary is called in on a special case. A daring bank robbery has taken place at Hayek Associates -- a dot-com start-up company that's just floated onto the London stock exchange. But this crime may be a bit beyond Smith's expertise.The prime suspects are a band of marauding orcs with a dragon in tow for fire support. The bank is located within the virtual land of Avalon Four, and the robbery was supposed to be impossible. When word gets out, Hayek Associates and all its virtual \"economies\" are going to crash hard.For Smith, the investigation seems pointless. But the deeper she digs, the bigger the case gets. There are powerful players -- both real and pixilated -- who are watching her every move. Because there is far more at stake than just some game-head's fantasy financial security . . .",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "cultural (scotland)": 17,
+        "fantasy": 33,
+        "fiction": 199,
+        "mystery": 60,
+        "mystery (crime)": 44,
+        "science fiction": 546,
+        "science fiction (cyberpunk)": 119,
+        "science fiction (near future)": 32,
+        "science fiction fantasy": 18,
+        "speculative fiction": 25
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "847_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "847_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "847_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "847_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "847_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "847_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11604,
+        "score": 3.79
+    },
+    "pages": 235,
+    "title": "Halting State",
+    "url": "https://www.goodreads.com/book/show/222472.Halting_State",
+    "year_published": 2007
+}

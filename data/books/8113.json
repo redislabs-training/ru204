@@ -1,0 +1,62 @@
+{
+    "author": "Lois Lowry",
+    "base_id": "8113",
+    "description": "Messenger is the masterful third novel in the Giver Quartet, which began with the dystopian bestseller The Giver, now a major motion picture.\u00a0Matty has lived in Village and flourished under the guidance of Seer, a blind man known for his special sight. Village once welcomed newcomers, but something sinister has seeped into Village and the people have voted to close it to outsiders. Matty has been invaluable as a messenger. Now he must risk everything to make one last journey through the treacherous forest with his only weapon, a power he unexpectedly discovers within himself.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 129,
+        "audiobook": 148,
+        "childrens": 212,
+        "childrens (middle grade)": 276,
+        "classics": 215,
+        "fantasy": 1047,
+        "fiction": 1239,
+        "science fiction": 664,
+        "science fiction (dystopia)": 1301,
+        "young adult": 2054
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "8113_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8113_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8113_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8113_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8113_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8113_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8113_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8113_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 116304,
+        "score": 3.91
+    },
+    "pages": 1104,
+    "title": "Messenger",
+    "url": "https://www.goodreads.com/book/show/12930.Messenger",
+    "year_published": 2004
+}

@@ -1,21 +1,22 @@
 {
-    "author": "Johanna Lindsey",
-    "base_id": 409,
-    "description": "\nIn the year 2139, fearless Tedra De Arr sets out to rescue her beleaguered planet Kystran from the savage rule of the evil Crad Ce Moerr.\nExperienced in combat but not in love, the beautiful, untouched Amazon flies with Martha, her wise-cracking, free-thinking computer, to a world where warriors reign supreme - and into the arms of the one man she can never hope to vanquish: the bronzed barbarian Challen Ly-San-Ter.A magnificent creature of raw yet disciplined desires, the muscle-bound primitive succeeds where no puny Kystran male had before - igniting a raging fire within Tedra that must be extinguished before she can even think of saving her enslaved world...",
+    "author": "Karin Boye",
+    "base_id": "409",
+    "description": "This is a novel of the future, profoundly sinister in its vision of a drab terror. Ironic and detached, the author shows us the totalitarian World-state through the eyes of a product of that state, scientist Leo Kall. Kall has invented a drug, kallocain, which denies the privacy of thought and is the final step towards the transmutation of the individual human being into a \"happy, healthy cell in the state organism.\" For, says Leo, \"from thoughts and feelings, words and actions are born. How then could these thoughts and feelings belong to the individual? Doesn't the whole fellow-soldier belong to the state? To whom should his thoughts and feelings belong then, if not to the state?\"As the first-person record of Leo Kall, scientist, fellow-soldier too late disillusioned to undo his previous actions, Kallocain achieves a chilling power and veracity that place it among the finest novels to emerge from the strife-torn Europe of the twentieth century.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Romance (Historical Romance) ": 120,
-        "aliens": 37,
-        "fantasy": 89,
-        "fiction": 39,
-        "futuristic": 46,
-        "historical": 52,
-        "paranormal romance": 36,
-        "romance": 471,
-        "science fiction": 124,
-        "science fiction romance": 36
+        "academic (school)": 12,
+        "classics": 162,
+        "cultural (sweden)": 21,
+        "european literature (scandinavian literature)": 16,
+        "european literature (swedish literature)": 92,
+        "fiction": 116,
+        "novels": 21,
+        "science fiction": 127,
+        "science fiction (dystopia)": 142,
+        "speculative fiction": 8
     },
     "inventory": [
         {
@@ -27,16 +28,16 @@
             "stock_id": "409_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "409_3"
         }
     ],
     "metrics": {
-        "rating_votes": 8889,
-        "score": 4.01
+        "rating_votes": 6756,
+        "score": 3.78
     },
-    "pages": 775,
-    "title": "Warrior's Woman",
-    "url": "https://www.goodreads.com/book/show/763774.Warrior_s_Woman",
-    "year_published": 1990
+    "pages": 390,
+    "title": "Kallocain",
+    "url": "https://www.goodreads.com/book/show/65714.Kallocain",
+    "year_published": 1940
 }

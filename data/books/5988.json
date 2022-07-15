@@ -1,0 +1,66 @@
+{
+    "author": "Richard K. Morgan",
+    "base_id": "5988",
+    "description": "Four hundred years from now mankind is strung out across a region of interstellar space inherited from an ancient civilization discovered on Mars. The colonies are linked together by the occasional sublight colony ship voyages and hyperspatial data-casting. Human consciousness is digitally freighted between the stars and downloaded into bodies as a matter of course.But some things never change. So when ex-envoy, now-convict Takeshi Kovacs has his consciousness and skills downloaded into the body of a nicotine-addicted ex-thug and presented with a catch-22 offer, he really shouldn't be surprised. Contracted by a billionaire to discover who murdered his last body, Kovacs is drawn into a terrifying conspiracy that stretches across known space and to the very top of society.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 164,
+        "fantasy": 146,
+        "fiction": 1087,
+        "mystery": 531,
+        "mystery (crime)": 171,
+        "mystery (noir)": 178,
+        "science fiction": 3185,
+        "science fiction (cyberpunk)": 974,
+        "science fiction fantasy": 171,
+        "thriller": 168
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "5988_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5988_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5988_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "5988_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 90044,
+        "score": 4.05
+    },
+    "pages": 1200,
+    "title": "Altered Carbon",
+    "url": "https://www.goodreads.com/book/show/40792913-altered-carbon",
+    "year_published": 2002
+}

@@ -1,0 +1,50 @@
+{
+    "author": "Isaac Asimov",
+    "base_id": "998",
+    "description": "Librarian's Note: Alternate cover for this ISBN can be found hereHere, from a grand master of science fiction, is the long awaited final novel of the greatest series ever told. Completed just before his death, Forward The Foundation is the crowning achievement of a great writer's life, a stirring testament to the creative genius of Isaac Asimov. As Hari Seldon struggles to perfect his revolutionary theory of psychohistory and ensure a place for humanity among the stars, the great Galactic Empire totters on the brink of apocalyptic collapse. Caught in the maelstrom are Seldon and all he holds dear, pawns in the struggle for dominance. Whoever can control Seldon will control psychohistory\u2014and with it the future of the Galaxy. Among those seeking to turn psychohistory into the greatest weapon known to man are a populist political demagogue, the weak-willed Emperor Cleon I, and a ruthless militaristic general. In his last act of service to humankind, Hari Seldon must somehow save his life's work from their grasp as he searches for is true heirs\u2014a search the begins with his own granddaughter and the dream of a new Foundation.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 27,
+        "classics": 54,
+        "fantasy": 65,
+        "fiction": 572,
+        "novels": 36,
+        "science fiction": 1618,
+        "science fiction fantasy": 72,
+        "space": 27,
+        "space (space opera)": 41,
+        "speculative fiction": 24
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "998_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "998_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "998_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "998_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "998_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 46107,
+        "score": 4.16
+    },
+    "pages": 963,
+    "title": "Forward the Foundation",
+    "url": "https://www.goodreads.com/book/show/76679.Forward_the_Foundation",
+    "year_published": 1993
+}

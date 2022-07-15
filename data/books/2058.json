@@ -1,0 +1,59 @@
+{
+    "author": "Eoin Colfer",
+    "base_id": "2058",
+    "description": "Alternate Cover Edition for ISBN: 9780786849567Ten thousand years ago, humans and fairies fought a great battle for the magical island of Ireland. When it became clear to the fairy families that they could never win, they decided to move their civilisation underground and keep themselves hidden from the humans. All the fairy families agreed on this, except the eighth family, the demons.The demons planned to lift their small island out of time until they had regrouped and were ready to wage war on the humans once more. However, the time spell went wrong, and the island of Hybras was catapulted into Limbo, where it has remained for ten thousand years.Now, the tainted time spell is deteriorating and demons are being sucked back into the present space and time. The fairy Council are naturally concerned about this and are monitoring any materialisations. When the spell\u2019s deterioration accelerates, the materialisations become unpredictable. Even the fairy scientists cannot figure out where the next demon will pop up.But someone can. Artemis Fowl, the teenage criminal mastermind, has solved temporal equations that no normal human should be intelligent enough to understand. But Artemis Fowl is no normal human.So when a confused and frightened demon pops up in a Sicilian theatre, Artemis Fowl is there to meet him. Unfortunately, he is not the only one. A second, mysterious party has also solved the temporal equations, and manages to abduct the demon before Artemis can secure him.This is a disaster for the fairy People, because this demon was no ordinary fairy. He was the last demon warlock, and as such held the key to the survival of the entire demon race.It is up to Artemis and his old comrade Captain Holly Short to track down the missing demon and rescue him before the time spell dissolves completely and the lost demon colony returns violently to Earth.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 337,
+        "audiobook": 121,
+        "childrens": 284,
+        "childrens (middle grade)": 312,
+        "fantasy": 3176,
+        "fantasy (magic)": 220,
+        "fantasy (urban fantasy)": 178,
+        "fiction": 601,
+        "science fiction": 387,
+        "young adult": 1294
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2058_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2058_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2058_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2058_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2058_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2058_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2058_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 151941,
+        "score": 4.0
+    },
+    "pages": 210,
+    "title": "The Lost Colony",
+    "url": "https://www.goodreads.com/book/show/37586.The_Lost_Colony",
+    "year_published": 2006
+}

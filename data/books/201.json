@@ -1,66 +1,36 @@
 {
-    "author": "Laurann Dohner",
-    "base_id": 201,
-    "description": "What can go wrong overseeing a bunch of android sex bots on an automated whorehouse in deep space? Great job, if Megan doesn't die of boredom. Then she catches sight of the sexiest male she's ever seen. On her grainy security monitor, she watches all his sexual exploits with the bots, and fantasizes. But that's all she can do because he's a cyborg. Then fate steps in.There's a crash and Megan must escape or die. The cyborgs are rescuing the sex bots-taking them onboard their ship. She knows cyborgs hate humans. They'll kill her if she asks for help so she devises an insane plan-pretend to be the most realistic sex bot ever made.His name is Ice, and Megan is now his personal sex bot. He will satisfy every sexual fantasy she's ever had-and as many more as she can dream up. She just has to figure out how to keep her big, sexy cyborg from discovering that she is all woman.",
+    "author": "Kenneth   Thomas",
+    "base_id": "201",
+    "description": "The Past is the first book in the VanWest series, about an Enforcer who lives in a dystopian Earth of the year 3000 and works for an authoritarian ruler called the Universal Council. Tasked with travelling through time to stop a renegade sect, that seeks to change Earth\u2019s past, he comes to learn about his dark origins and his unique ability.Falling in love with the daughter of its leader, he returns to the present to face a difficult choice, whether or not to save her. And be part of the New Beginning.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 29,
-        "aliens": 47,
-        "erotica": 53,
-        "fantasy": 40,
-        "futuristic": 30,
-        "paranormal": 50,
-        "paranormal romance": 52,
-        "romance": 128,
-        "science fiction": 154,
-        "science fiction romance": 44
+        "action": 77,
+        "european literature (british literature)": 75,
+        "fantasy": 44,
+        "fiction": 121,
+        "historical (historical fiction)": 114,
+        "science fiction": 230,
+        "science fiction (cyberpunk)": 108,
+        "science fiction (dystopia)": 214,
+        "science fiction (time travel)": 254,
+        "young adult": 49
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "201_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "201_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "201_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "201_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "201_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "201_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "201_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "201_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "201_9"
         }
     ],
     "metrics": {
-        "rating_votes": 6647,
-        "score": 4.12
+        "rating_votes": 4446,
+        "score": 4.29
     },
-    "pages": 1038,
-    "title": "Touching Ice",
-    "url": "https://www.goodreads.com/book/show/9495552-touching-ice",
-    "year_published": 2010
+    "pages": 1091,
+    "title": "The Past",
+    "url": "https://www.goodreads.com/book/show/53450218-the-past",
+    "year_published": 2020
 }

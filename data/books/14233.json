@@ -1,0 +1,47 @@
+{
+    "author": "Anthony Burgess",
+    "base_id": "14233",
+    "description": "In Anthony Burgess's influential nightmare vision of the future, criminals take over after dark. Teen gang leader Alex narrates in fantastically inventive slang that echoes the violent intensity of youth rebelling against society. Dazzling and transgressive, A Clockwork Orange is a frightening fable about good and evil and the meaning of human freedom. This edition includes the controversial last chapter not published in the first edition, and Burgess\u2019s introduction, \u201cA Clockwork Orange Resucked.\u201d",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "classics": 8249,
+        "classics (modern classics)": 352,
+        "fiction": 6866,
+        "horror": 562,
+        "literature": 812,
+        "mystery (crime)": 395,
+        "novels": 681,
+        "science fiction": 2761,
+        "science fiction (dystopia)": 2206,
+        "thriller": 467
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "14233_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "14233_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "14233_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "14233_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 615464,
+        "score": 3.99
+    },
+    "pages": 1129,
+    "title": "A Clockwork Orange",
+    "url": "https://www.goodreads.com/book/show/41817486-a-clockwork-orange",
+    "year_published": 1962
+}

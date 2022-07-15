@@ -1,62 +1,47 @@
 {
-    "author": "JudeGray",
-    "base_id": 73,
-    "description": "This is the first book in the Savage Warriors series.She's abducted from Earth and sold into slavery. Can love break the chains that bind her? Grabbed from the street in broad daylight, Briony is soon sold to a cruel alien leader who needs human women for a very specific purpose. They must \"recharge\" the vicious warriors he forces to fight in his arena. Given to the best fighter in the section, she finds she has arrived in the middle of a secret escape plan. She is surprised to find herself attaching to the handsome alien fighter, and puts everything she can into their risky run for freedom. Will she make it out alive? Maybe. Will she make it out unchanged? Absolutely not.*-*The Savage Warriors series is filled with steamy, fantasy, alien abduction romance tales. If you like strong women, fierce alien men, and fated romance stories, with nonstop action, then this series is for you! There's steamy sex, some violence, and edge of your seat suspense, no cliff-hangers, and the books are aimed at 18+ readers... Enjoy!",
+    "author": "Edward Ormondroyd",
+    "base_id": "73",
+    "description": "It's strange enough when Susan Shaw disappears without a trace on a wintry March afternoon. It's stranger still when her uninformative note is found in the hallway of her apartment building, along with a black cat that no one has seen before. And it's strangest of all when she suddenly appears again, wearing clothes that are eighty years out of date, and tells a wild story about an old woman with a fly-away hat, an elevator that travels into the past, and a distressed family that only she can save. Who is going to believe such a tale? Certainly not her father. But Susan is determined to prove to him that it's all true. And she has other plans for him as well...Who, in fact, could believe such a tale? Even the author, who takes part in the story, has his doubts. But just as those doubts are all laid to rest, the mystery thickens once more. This time it's a double disappearance...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 2,
-        "aliens": 17,
-        "dark": 2,
-        "fantasy": 2,
-        "fantasy romance": 2,
-        "male female romance": 2,
-        "paranormal": 2,
-        "romance": 13,
-        "science fiction": 9,
-        "science fiction romance": 5
+        "childrens": 19,
+        "childrens (chapter books)": 4,
+        "childrens (middle grade)": 9,
+        "fantasy": 32,
+        "fiction": 18,
+        "historical": 10,
+        "historical (historical fiction)": 9,
+        "science fiction": 4,
+        "science fiction (time travel)": 47,
+        "young adult": 13
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "73_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "73_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "73_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "73_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "73_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "73_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "73_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "73_8"
         }
     ],
     "metrics": {
-        "rating_votes": 774,
-        "score": 3.77
+        "rating_votes": 572,
+        "score": 4.08
     },
-    "pages": 347,
-    "title": "Captured and Claimed",
-    "url": "https://www.goodreads.com/book/show/51035784-captured-and-claimed",
-    "year_published": 2019
+    "pages": 1093,
+    "title": "Time at the Top",
+    "url": "https://www.goodreads.com/book/show/602014.Time_at_the_Top",
+    "year_published": 1963
 }

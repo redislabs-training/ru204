@@ -1,29 +1,31 @@
 {
-    "author": "Jennifer Foehner Wells",
-    "base_id": 981,
-    "description": "NASA discovered the alien ship lurking in the asteroid belt in the 1960s. They kept the Target under intense surveillance for decades, letting the public believe they were exploring the solar system, while they worked feverishly to refine the technology needed to reach it.The ship itself remained silent, drifting.Dr. Jane Holloway is content documenting nearly-extinct languages and had never contemplated becoming an astronaut. But when NASA recruits her to join a team of military scientists for an expedition to the Target, it\u2019s an adventure she can\u2019t refuse.The ship isn\u2019t vacant, as they presumed.A disembodied voice rumbles inside Jane\u2019s head, \"You are home.\"Jane fights the growing doubts of her colleagues as she attempts to decipher what the alien wants from her. As the derelict ship devolves into chaos and the crew gets cut off from their escape route, Jane must decide if she can trust the alien\u2019s help to survive.",
+    "author": "Scott  Meyer",
+    "base_id": "981",
+    "description": "The adventures of an American hacker in Medieval England continue as Martin Banks takes his next step on the journey toward mastering his reality-altering powers and fulfilling his destiny.A month has passed since Martin helped to defeat the evil programmer Jimmy, and things couldn\u2019t be going better. Except for his love life, that is. Feeling distant and lost, Gwen has journeyed to Atlantis, a tolerant and benevolent kingdom governed by the Sorceresses, and a place known to be a safe haven to all female time-travelers.Thankfully, Martin and Philip are invited to a summit in Atlantis for all of the leaders of the time-traveler colonies, and now Martin thinks this will be a chance to try again with Gwen. Of course, this is Martin Banks we\u2019re talking about, so murder, mystery, and high intrigue all get in the way of a guy who just wants one more shot to get the girl.The follow-up to the hilarious Off to Be the Wizard, Scott Meyer\u2019s Spell or High Water proves that no matter what powers you have over time and space, you can\u2019t control rotten luck.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 46,
-        "audiobook": 16,
-        "fantasy": 15,
-        "fiction": 69,
-        "romance": 33,
-        "science fiction": 354,
-        "science fiction fantasy": 17,
-        "science fiction romance": 9,
-        "space": 24,
-        "space opera": 53
+        "audiobook": 133,
+        "fantasy": 546,
+        "fantasy (magic)": 29,
+        "fantasy (urban fantasy)": 29,
+        "fiction": 181,
+        "humor": 124,
+        "humor (comedy)": 36,
+        "science fiction": 159,
+        "science fiction (time travel)": 64,
+        "science fiction fantasy": 24
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "981_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "981_2"
         },
         {
@@ -39,16 +41,28 @@
             "stock_id": "981_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "981_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "981_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "981_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "981_9"
         }
     ],
     "metrics": {
-        "rating_votes": 10084,
-        "score": 3.82
+        "rating_votes": 20159,
+        "score": 4.03
     },
-    "pages": 312,
-    "title": "Fluency",
-    "url": "https://www.goodreads.com/book/show/22566044-fluency",
+    "pages": 953,
+    "title": "Spell or High Water",
+    "url": "https://www.goodreads.com/book/show/21483760-spell-or-high-water",
     "year_published": 2014
 }

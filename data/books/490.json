@@ -1,0 +1,51 @@
+{
+    "author": "Jodi Taylor",
+    "base_id": "490",
+    "description": "No one knows quite how, but Max and her baby are safe at last.No one knows quite how, but Peterson has persuaded Dr Foster to marry him.No one knows quite how, but Markham\u2019s marital status remains unknown.Certainly no one knows quite how a twelve-foot-high teapot could mysteriously materialise on the South Lawn, but it does.But they do know that Clive Ronan is back.They do know that he hates them and that this time he has good cause. And they do know that he will bring death and destruction in his wake.Follow the disaster magnets of St Mary\u2019s from the Egyptian desert to the Battle of Stamford Bridge, from Hastings to the Sack of Constantinople, and from tragedy to triumph and back again, in this, the eighth book in The Chronicles of St Mary\u2019s.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 28,
+        "audiobook": 32,
+        "fantasy": 99,
+        "fiction": 75,
+        "historical": 31,
+        "historical (historical fiction)": 70,
+        "humor": 23,
+        "science fiction": 90,
+        "science fiction (time travel)": 167,
+        "science fiction fantasy": 17
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "490_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "490_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "490_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "490_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "490_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5849,
+        "score": 4.44
+    },
+    "pages": 1259,
+    "title": "And the Rest is History",
+    "url": "https://www.goodreads.com/book/show/31213373-and-the-rest-is-history",
+    "year_published": 2017
+}

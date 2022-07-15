@@ -1,0 +1,63 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "6463",
+    "description": "The Rithmatist, Brandon Sanderson's New York Times bestselling epic teen adventure is now available in paperback.More than anything, Joel wants to be a Rithmatist. Rithmatists have the power to infuse life into two-dimensional figures known as Chalklings.\u00a0Rithmatists are humanity\u2019s only defense against the Wild Chalklings. Having nearly overrun the territory of Nebrask, the Wild Chalklings now threaten all of the American Isles.As the son of a lowly chalkmaker at Armedius Academy, Joel can only watch as Rithmatist students learn the magical art that he would do anything to practice. Then students start disappearing\u2014kidnapped from their rooms at night, leaving trails of blood. Assigned to help the professor who is investigating the crimes, Joel and his friend Melody find themselves on the trail of an unexpected discovery\u2014one that will change Rithmatics\u2014and their world\u2014forever.A New York Times Book Review Notable Children's Book of 2013",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 160,
+        "childrens (middle grade)": 179,
+        "fantasy": 3961,
+        "fantasy (magic)": 207,
+        "fiction": 387,
+        "mystery": 301,
+        "science fiction": 192,
+        "science fiction (steampunk)": 531,
+        "young adult": 1432,
+        "young adult (young adult fantasy)": 157
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "6463_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6463_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6463_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 57686,
+        "score": 4.21
+    },
+    "pages": 900,
+    "title": "The Rithmatist",
+    "url": "https://www.goodreads.com/book/show/22443261-the-rithmatist",
+    "year_published": 2013
+}

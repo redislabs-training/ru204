@@ -1,0 +1,55 @@
+{
+    "author": "Douglas Adams",
+    "base_id": "6011",
+    "description": "alternate edition for ISBN 0345418921/9780345418920Facing annihilation at the hands of the warlike Vogons is a curious time to have a cosmically displaced Arthur Dent and his curious comrades in arms as they hurtle through space powered by pure improbability - and desperately in search of a place to eat. Among Arthur's motley shipmates are Ford Prefect, a long-time friend and contributor to the The Hitch Hiker's Guide to the Galaxy; Zaphod Beeblebrox, the three-armed, two-headed ex-president of the galaxy; Tricia McMilan, a fellow Earth refuge who's gone native (her name is Trillian now); and Marvin, who suffers nothing and no one gladly.Source: douglasadams.com",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 303,
+        "audiobook": 353,
+        "classics": 512,
+        "fantasy": 1215,
+        "fiction": 3202,
+        "humor": 2436,
+        "humor (comedy)": 828,
+        "novels": 241,
+        "science fiction": 5675,
+        "science fiction fantasy": 510
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "6011_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "6011_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6011_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "6011_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6011_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6011_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 238510,
+        "score": 4.21
+    },
+    "pages": 626,
+    "title": "The Restaurant at the End of the Universe",
+    "url": "https://www.goodreads.com/book/show/8695.The_Restaurant_at_the_End_of_the_Universe",
+    "year_published": 1980
+}

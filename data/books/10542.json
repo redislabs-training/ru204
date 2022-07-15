@@ -1,65 +1,45 @@
 {
     "author": "Brandon Sanderson",
-    "base_id": 10542,
+    "base_id": "10542",
     "description": "Defeated, crushed, and driven almost to extinction, the remnants of the human race are trapped on a planet that is constantly attacked by mysterious alien starfighters. Spensa, a teenage girl living among them, longs to be a pilot. When she discovers the wreckage of an ancient ship, she realizes this dream might be possible\u2014assuming she can repair the ship, navigate flight school, and (perhaps most importantly) persuade the strange machine to help her. Because this ship, uniquely, appears to have a soul.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
         "adventure": 111,
-        "aliens": 122,
         "audiobook": 229,
-        "dystopia": 125,
         "fantasy": 1380,
         "fiction": 530,
         "science fiction": 2460,
+        "science fiction (aliens)": 122,
+        "science fiction (dystopia)": 125,
         "science fiction fantasy": 91,
         "space": 134,
         "young adult": 1501
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "10542_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "10542_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "10542_3"
         },
         {
             "status": "available",
             "stock_id": "10542_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10542_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10542_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "10542_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10542_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10542_9"
         }
     ],
     "metrics": {
         "rating_votes": 73702,
         "score": 4.51
     },
-    "pages": 1190,
+    "pages": 910,
     "title": "Skyward",
     "url": "https://www.goodreads.com/book/show/36642458-skyward",
     "year_published": 2018

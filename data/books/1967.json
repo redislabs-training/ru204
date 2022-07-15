@@ -1,0 +1,50 @@
+{
+    "author": "Kim Harrison",
+    "base_id": "1967",
+    "description": "New York Times bestselling author Kim Harrison returns to the Hollows with the electrifying follow-up to her acclaimed Pale Demon!A Perfect BloodRitually murdered corpses are appearing across Cincinnati, terrifying amalgams of human and other. Pulled in to help investigate by the I.S. and FIB, former witch turned day-walking demon Rachel Morgan soon realizes a horrifying truth: a human hate group is trying to create its own demons to destroy all Inderlanders, and to do so, it needs her blood.She's faced vampires, witches, werewolves, demons, and more, but humanity itself might be her toughest challenge yet.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "fantasy": 263,
+        "fantasy (magic)": 87,
+        "fantasy (paranormal)": 177,
+        "fantasy (supernatural)": 134,
+        "fantasy (urban fantasy)": 562,
+        "fiction": 76,
+        "paranormal (demons)": 94,
+        "paranormal (vampires)": 135,
+        "paranormal (witches)": 99,
+        "romance (paranormal romance)": 98
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1967_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1967_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1967_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1967_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1967_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 34602,
+        "score": 4.38
+    },
+    "pages": 264,
+    "title": "A Perfect Blood",
+    "url": "https://www.goodreads.com/book/show/10599805-a-perfect-blood",
+    "year_published": 2012
+}

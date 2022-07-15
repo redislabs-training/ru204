@@ -1,0 +1,55 @@
+{
+    "author": "Thomas More",
+    "base_id": "2954",
+    "description": "Utopia (Libellus vere aureus, nec minus salutaris quam festivus, de optimo rei publicae statu deque nova insula Utopia) is a satirical work of fiction and political philosophy by Thomas More (1478\u20131535) published in 1516 in Latin. The book is a frame narrative primarily depicting a fictional island society as described by the character Raphael Hythloday who lived there some years, who describes and its religious, social and political customs.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "academic (school)": 151,
+        "classics": 2807,
+        "fantasy": 106,
+        "fiction": 1103,
+        "literature": 312,
+        "philosophy": 2003,
+        "politics": 521,
+        "science fiction": 133,
+        "science fiction (dystopia)": 160,
+        "science fiction (utopia)": 113
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2954_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2954_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2954_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2954_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2954_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2954_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 60820,
+        "score": 3.55
+    },
+    "pages": 970,
+    "title": "Utopia",
+    "url": "https://www.goodreads.com/book/show/18414.Utopia",
+    "year_published": 1516
+}

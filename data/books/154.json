@@ -1,21 +1,21 @@
 {
-    "author": "Erin Tate",
-    "base_id": 154,
-    "description": "Taulan joi Lana Coburn, War Master of the Preor third fleet, is finally having his wishes granted. He has a mate and will soon have two dragonlets to protect and love. But only if he can live to see them born. Or, as his Lana says, hatched.This short story is set in the DRAGONS OF PREOR world and does not stand alone. It should be read after ZADRI and is a little bite of family life for those who fell in love with the Preor dragons.Part of the \"Dragons of Preor\" series: Jarek Taulan Kozav Rendan Zadri",
+    "author": "Jodi Taylor",
+    "base_id": "154",
+    "description": "Like a smaller and much scruffier Greta Garbo \u2013 finally \u2013 Markham speaks!It\u2019s Christmas and time for the first (and almost certainly last) St Mary\u2019s Annual Children\u2019s Christmas Party \u2013 attendance compulsory, by order of Dr Bairstow. Discovered practising his illegal reindeer dance and poo-dropping routine, our hero, along with fellow disaster-magnets Peterson and Maxwell, is despatched to Anglo-Saxon England to discover the truth about Alfred and the cakes.In his own words, our hero reveals Major Guthrie\u2019s six-point guide to a successful assignment and the Security Section\u2019s true opinion of the History Department. And of historians in general. And of one historian in particular.And, just to be clear, it is time travel, for God\u2019s sake. Forget all that pretentious \u2018investigating major historical events in contemporary time\u2019 rubbish.This is history without the capital \u2018H\u2019. Because this is the way the Security Section rolls!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "dragons": 20,
-        "fantasy": 4,
-        "novella": 3,
-        "paranormal": 13,
-        "paranormal romance": 9,
-        "romance": 18,
-        "science fiction": 14,
-        "science fiction romance": 10,
-        "shapeshifters": 9
+        "adventure": 9,
+        "audiobook": 22,
+        "fantasy": 52,
+        "fiction": 31,
+        "historical": 14,
+        "historical (historical fiction)": 25,
+        "humor": 10,
+        "science fiction": 43,
+        "science fiction (time travel)": 77,
+        "short stories": 25
     },
     "inventory": [
         {
@@ -27,20 +27,20 @@
             "stock_id": "154_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "154_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "154_4"
         }
     ],
     "metrics": {
-        "rating_votes": 1625,
-        "score": 4.29
+        "rating_votes": 2451,
+        "score": 4.3
     },
-    "pages": 1081,
-    "title": "Hatched",
-    "url": "https://www.goodreads.com/book/show/32801393-hatched",
+    "pages": 963,
+    "title": "My Name is Markham",
+    "url": "https://www.goodreads.com/book/show/30197317-my-name-is-markham",
     "year_published": 2016
 }

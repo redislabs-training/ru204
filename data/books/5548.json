@@ -1,0 +1,66 @@
+{
+    "author": "Marjorie M. Liu",
+    "base_id": "5548",
+    "description": "Set in an alternate matriarchal 1900's Asia, in a richly imagined world of art deco-inflected steam punk, MONSTRESS tells the story of a teenage girl who is struggling to survive the trauma of war, and who shares a mysterious psychic link with a monster of tremendous power, a connection that will transform them both and make them the target of both human and otherworldly powers. Collects MONSTRESS #1-6",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 200,
+        "comics (comic book)": 140,
+        "fantasy": 2671,
+        "fiction": 428,
+        "graphic novels comics": 371,
+        "horror": 636,
+        "science fiction": 132,
+        "science fiction (steampunk)": 412,
+        "sequential art (comics)": 1898,
+        "sequential art (graphic novels)": 3227
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5548_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5548_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5548_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5548_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5548_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5548_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5548_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "5548_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5548_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 47862,
+        "score": 3.95
+    },
+    "pages": 320,
+    "title": "Monstress, Vol. 1: Awakening",
+    "url": "https://www.goodreads.com/book/show/29396738-monstress-vol-1",
+    "year_published": 2016
+}

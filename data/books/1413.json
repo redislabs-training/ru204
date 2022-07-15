@@ -1,0 +1,54 @@
+{
+    "author": "Claudia Gray",
+    "base_id": "1413",
+    "description": " A long time ago in a galaxy far, far away....there was a princess who became a legend.Sixteen-year-old Princess Leia Organa faces the most challenging task of her life so far: proving herself in the areas of body, mind, and heart to be formally named heir to the throne of Alderaan. She's taking rigorous survival courses, practicing politics, and spearheading relief missions to worlds under Imperial control. But Leia has worries beyond her claim to the crown. Her parents, Breha and Bail, aren't acting like themselves lately; they are distant and preoccupied, seemingly more concerned with throwing dinner parties for their allies in the Senate than they are with their own daughter. Determined to uncover her parents' secrets, Leia starts down an increasingly dangerous path that puts her right under the watchful eye of the Empire. And when Leia discovers what her parents and their allies are planning behind closed doors, she finds herself facing what seems like an impossible choice; dedicate herself to the people of Alderaan\u2014including the man she loves\u2014or the galaxy at large, which is in desperate need of a rebel hero....",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 28,
+        "audiobook": 52,
+        "fantasy": 112,
+        "fiction": 177,
+        "media tie in": 22,
+        "media tie in (star wars)": 1243,
+        "science fiction": 317,
+        "science fiction fantasy": 29,
+        "space (space opera)": 27,
+        "young adult": 225
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1413_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1413_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1413_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1413_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1413_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1413_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9288,
+        "score": 4.14
+    },
+    "pages": 1300,
+    "title": "Leia: Princess of Alderaan",
+    "url": "https://www.goodreads.com/book/show/34860402-leia",
+    "year_published": 2017
+}

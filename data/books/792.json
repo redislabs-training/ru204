@@ -1,0 +1,60 @@
+{
+    "author": "Sherry Turkle",
+    "base_id": "792",
+    "description": "Consider Facebook\u2014it\u2019s human contact, only easier to engage with and easier to avoid. Developing technology promises closeness. Sometimes it delivers, but much of our modern life leaves us less connected with people and more connected to simulations of them.In Alone Together, MIT technology and society professor Sherry Turkle explores the power of our new tools and toys to dramatically alter our social lives. It\u2019s a nuanced exploration of what we are looking for\u2014and sacrificing\u2014in a world of electronic companions and social networking tools, and an argument that, despite the hand-waving of today\u2019s self-described prophets of the future, it will be the next generation who will chart the path between isolation and connectivity.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "anthropology": 19,
+        "cultural": 33,
+        "culture (society)": 19,
+        "nonfiction": 379,
+        "philosophy": 20,
+        "psychology": 179,
+        "relationships": 23,
+        "science": 65,
+        "science (technology)": 183,
+        "sociology": 104
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "792_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "792_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "792_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "792_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "792_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "792_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "792_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5660,
+        "score": 3.63
+    },
+    "pages": 743,
+    "title": "Alone Together: Why We Expect More from Technology and Less from Each Other",
+    "url": "https://www.goodreads.com/book/show/8694125-alone-together",
+    "year_published": 2011
+}

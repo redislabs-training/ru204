@@ -1,58 +1,39 @@
 {
-    "author": "Honey Phillips",
-    "base_id": 178,
-    "description": "Anna Elliott wanted to get away. But an alien spaceship was not on the itinerary.All Anna needed was a calm, relaxing vacation. Instead, she finds herself enslaved aboard an alien spacecraft and forced to help an injured prisoner \u2014 a huge, golden-skinned warrior. Even wounded, he arouses her in ways she\u2019s never known. But if he dies, so does she.When the spaceship crashes on a strange planet, she must put her trust in him to survive. But the passion he stirs in her may cause her to lose her heart as well.Jakkar is a Sardoran mercenary searching desperately for a new planet to replace his dying home world. He never expected to be injured, captured, and then shipwrecked. Forbidden to mate outside his species, he can\u2019t help but be tempted by Anna\u2019s curvy body and her caring heart.Now he\u2019s responsible for the small group of survivors \u2014 and the luscious little human he\u2019s determined to claim as his own.Can a girl and her alien find happiness on a deserted planet at the far end of the galaxy?Each book in the Alien Abduction series features a different couple and can be enjoyed as a standalone romance.",
+    "author": "Philip K. Dick",
+    "base_id": "178",
+    "description": "Jim Parsons is a talented doctor, skilled at the most advanced medical techniques and dedicated to saving lives. But after a bizarre road accident leaves him hundreds of years in the future, Parsons is horrified to discover an incredibly advanced civilization that zealously embraces death. Now, he is caught between his own instincts and training as a healer and a society where it is illegal to save lives. But Parsons is not the only one left who believes in prolonging life, and those who share his beliefs have desperate plans for Dr. Parsons' skills, and for the future of their society. Dr. Futurity is not only a thrilling rendition of a terrifying future but it is also a fantastic examination of the paradoxes of time-travel that could only have come from the mind of Philip K. Dick.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 2,
-        "aliens": 41,
-        "erotica": 9,
-        "fantasy": 6,
-        "fiction": 2,
-        "male female romance": 2,
-        "paranormal": 6,
-        "romance": 21,
-        "science fiction": 35,
-        "science fiction romance": 12
+        "audiobook": 4,
+        "classics": 4,
+        "fiction": 59,
+        "literature (american)": 7,
+        "novels": 6,
+        "science fiction": 158,
+        "science fiction (time travel)": 24,
+        "science fiction fantasy": 7,
+        "speculative fiction": 5,
+        "travel": 5
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "178_1"
         },
         {
             "status": "available",
             "stock_id": "178_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "178_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "178_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "178_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "178_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "178_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1613,
-        "score": 3.96
+        "rating_votes": 2006,
+        "score": 3.47
     },
-    "pages": 647,
-    "title": "Anna and the Alien",
-    "url": "https://www.goodreads.com/book/show/42076632-anna-and-the-alien",
-    "year_published": 2018
+    "pages": 1344,
+    "title": "Dr. Futurity",
+    "url": "https://www.goodreads.com/book/show/216384.Dr_Futurity",
+    "year_published": 1960
 }

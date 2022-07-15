@@ -1,0 +1,68 @@
+{
+    "author": "Isobelle Carmody",
+    "base_id": "763",
+    "description": "The Obernewtyn Chronicles - Book OneFor Elspeth Gordie freedom is-like so much else after the Great White-a memory. It was a time known as the Age of Chaos. In a final explosive flash everything was destroyed. The few who survived banded together and formed a Council for protection. But people like Elspeth-mysteriously born with powerful mental abilities-are feared by the Council and hunted down like animals...to be destroyed.Her only hope for survival to is keep her power hidden. But is secrecy enough against the terrible power of the Council?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 30,
+        "apocalyptic (post apocalyptic)": 87,
+        "fantasy": 858,
+        "fantasy (magic)": 32,
+        "fantasy (paranormal)": 31,
+        "fiction": 97,
+        "science fiction": 116,
+        "science fiction (dystopia)": 140,
+        "young adult": 391,
+        "young adult (young adult fantasy)": 33
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "763_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "763_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "763_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "763_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "763_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "763_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "763_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "763_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "763_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11265,
+        "score": 3.96
+    },
+    "pages": 1243,
+    "title": "Obernewtyn",
+    "url": "https://www.goodreads.com/book/show/47916.Obernewtyn",
+    "year_published": 1987
+}

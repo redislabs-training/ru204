@@ -1,0 +1,51 @@
+{
+    "author": "N.K. Jemisin",
+    "base_id": "2093",
+    "description": "In these stories, Jemisin sharply examines modern society, infusing magic into the mundane, and drawing deft parallels in the fantasy realms of her imagination. Dragons and hateful spirits haunt the flooded city of New Orleans in the aftermath of Hurricane Katrina. In a parallel universe, a utopian society watches our world, trying to learn from our mistakes. A black mother in the Jim Crow south must figure out how to save her daughter from a fey offering impossible promises. And in the Hugo award-nominated short story \u201cThe City Born Great,\u201d a young street kid fights to give birth to an old metropolis\u2019s soul.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 60,
+        "anthologies": 77,
+        "audiobook": 79,
+        "fantasy": 995,
+        "fantasy (urban fantasy)": 47,
+        "fiction": 433,
+        "science fiction": 489,
+        "science fiction fantasy": 68,
+        "short stories": 1029,
+        "speculative fiction": 89
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2093_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2093_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2093_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2093_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2093_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 10702,
+        "score": 4.3
+    },
+    "pages": 720,
+    "title": "How Long 'til Black Future Month",
+    "url": "https://www.goodreads.com/book/show/40855636-how-long-til-black-future-month",
+    "year_published": 2018
+}

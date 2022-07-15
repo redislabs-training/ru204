@@ -1,61 +1,39 @@
 {
-    "author": "Ben Hatke",
-    "base_id": 1289,
-    "description": "A NEW YORK TIMES BESTSELLERZita's life took a cosmic left turn in the blink of an eye.When her best friend is abducted by an alien doomsday cult, Zita leaps to the rescue and finds herself a stranger on a strange planet. Humanoid chickens and neurotic robots are shocking enough as new experiences go, but Zita is even more surprised to find herself taking on the role of intergalactic hero. Before long, aliens in all shapes and sizes don't even phase her. Neither do ancient prophecies, doomed planets, or even a friendly con man who takes a mysterious interest in Zita's quest.Zita the Spacegirl is a fun, captivating tale of friendship and redemption from Flight veteran Ben Hatke. It also has more whimsical, eye-catching, Miyazaki-esque monsters than you can shake a stick at.",
+    "author": "Lionel Shriver",
+    "base_id": "1289",
+    "description": "The year is 2029, and nothing is as it should be. The very essence of American life, the dollar, is under attack. In a coordinated move by the rest of the world\u2019s governments, the dollar loses all its value. The American President declares that the States will default on all its loans\u2013prices skyrocket, currency becomes essentially worthless, and we watch one family struggle to survive through it all.The Mandibles can count on their inheritance no longer, and each member must come to terms with this in their own way\u2013from the elegant expat author Nollie, in her middle age, returning to the U.S. from Paris after many years abroad, to her precocious teenage nephew Willing, who is the only one to actually understand the crisis, to the brilliant Georgetown economics professor Lowell, who watches his whole vision of the world disintegrate before his eyes.As ever, in her new novel, Shriver draws larger than life characters who illuminate this complicated, ever-changing world. One of our sharpest observers of human nature, Shriver challenges us to think long and hard about the society we live in and what, ultimately, we hold most dear.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 152,
-        "childrens": 153,
-        "comics": 201,
-        "fantasy": 134,
-        "fiction": 114,
-        "graphic novels": 886,
-        "juvenile": 63,
-        "middle grade": 193,
-        "science fiction": 252
+        "contemporary": 9,
+        "economics": 26,
+        "fiction": 295,
+        "literary fiction": 16,
+        "novels": 21,
+        "politics": 10,
+        "science fiction": 53,
+        "science fiction (dystopia)": 59,
+        "speculative fiction": 12,
+        "unfinished": 15
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1289_1"
         },
         {
-            "status": "on_loan",
-            "stock_id": "1289_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1289_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1289_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1289_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1289_6"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "1289_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1289_8"
+            "stock_id": "1289_2"
         }
     ],
     "metrics": {
-        "rating_votes": 16249,
-        "score": 4.09
+        "rating_votes": 8494,
+        "score": 3.67
     },
-    "pages": 636,
-    "title": "Zita the Spacegirl",
-    "url": "https://www.goodreads.com/book/show/8879121-zita-the-spacegirl",
-    "year_published": 2011
+    "pages": 813,
+    "title": "The Mandibles: A Family, 2029\u20132047",
+    "url": "https://www.goodreads.com/book/show/27064345-the-mandibles",
+    "year_published": 2016
 }

@@ -1,25 +1,26 @@
 {
-    "author": "Alexandra Blogier",
-    "base_id": 261,
-    "description": "Li has a father and a sister who love her. A best friend, Mirabae, to share things with. She goes to school and hangs out at the beach and carefully follows the rules. She has to. Everyone she knows--her family, her teachers, her friends--is an alien. And she is the only human left on Earth.The Abdoloreans hijacked the planet sixteen years ago, destroying all human life. Li's human-sympathizer father took her in as a baby and has trained her to pass as one of them. The Abdoloreans appear human. But they don't think with human minds or feel with human hearts. And they have special abilities no human could ever have.When Li meets Ryn, she's swept up in a relationship that could have disastrous consequences. How far will Li go to stay alive? Will she save herself--and in turn, the human race--or will she be the final witness to humanity's destruction?",
+    "author": "Kari Maaren",
+    "base_id": "261",
+    "description": "The unexpected can move in next doorFreddy wants desperately to not be noticed. She doesn't want to be seen as different or unusual, but her step-brother Roland gets attention because he's deaf, and her little sister Mel thinks she's a private detective. All Freddy wants to do is navigate high school with as little trouble as possible.Then someone moves into the house on Grosvenor Street. Two extremely odd someones.Cuerva Lachance and Josiah aren't . . . normal. When they move in next door, the house begins to exhibit some decidedly strange tendencies, like not obeying the laws of physics or reality. Just as Freddy thinks she's had enough of Josiah following her around, she's plunged into an adventure millennia in the making and discovers the truth about the new neighbors.",
     "editions": [
-        "None"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 26,
-        "audiobook": 3,
-        "dystopia": 19,
-        "fiction": 11,
-        "romance": 37,
-        "science fiction": 61,
-        "science fiction fantasy": 3,
-        "space": 3,
-        "teen": 6,
-        "young adult": 50
+        "audiobook": 6,
+        "childrens (middle grade)": 10,
+        "fantasy": 159,
+        "fantasy (mythology)": 7,
+        "fantasy (urban fantasy)": 7,
+        "fiction": 27,
+        "science fiction": 32,
+        "science fiction (time travel)": 32,
+        "young adult": 84,
+        "young adult (young adult fantasy)": 9
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "261_1"
         },
         {
@@ -27,20 +28,24 @@
             "stock_id": "261_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "261_3"
         },
         {
             "status": "maintenance",
             "stock_id": "261_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "261_5"
         }
     ],
     "metrics": {
-        "rating_votes": 1095,
-        "score": 3.11
+        "rating_votes": 977,
+        "score": 3.64
     },
-    "pages": 726,
-    "title": "The Last Girl on Earth",
-    "url": "https://www.goodreads.com/book/show/35553569-the-last-girl-on-earth",
-    "year_published": 2018
+    "pages": 1260,
+    "title": "Weave a Circle Round",
+    "url": "https://www.goodreads.com/book/show/33517568-weave-a-circle-round",
+    "year_published": 2017
 }

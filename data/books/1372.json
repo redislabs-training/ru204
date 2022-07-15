@@ -1,0 +1,63 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "1372",
+    "description": "In a fit of enlightenment democracy and ebullient goodwill, King Verence invites Uberwald's undead, the Magpyrs, into Lancre to celebrate the birth of his daughter. But once ensconced within the castle, these wine-drinking, garlic-eating, sun-loving modern vampires have no intention of leaving. Ever.Only an uneasy alliance between a nervous young priest and the argumentative local witches can save the country from being taken over by people with a cultivated bloodlust and bad taste in silk waistcoats. For them, there's only one way to fight.Go for the throat, or as the vampyres themselves say...Carpe Jugulum",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 63,
+        "fantasy": 3901,
+        "fantasy (magic)": 68,
+        "fiction": 729,
+        "humor": 630,
+        "humor (comedy)": 215,
+        "paranormal (vampires)": 213,
+        "paranormal (witches)": 108,
+        "science fiction fantasy": 141,
+        "young adult": 76
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1372_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1372_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1372_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1372_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1372_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1372_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1372_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1372_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 57398,
+        "score": 4.12
+    },
+    "pages": 1372,
+    "title": "Carpe Jugulum",
+    "url": "https://www.goodreads.com/book/show/34541.Carpe_Jugulum",
+    "year_published": 1998
+}

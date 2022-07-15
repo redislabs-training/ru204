@@ -1,0 +1,36 @@
+{
+    "author": "Jonathan Stroud",
+    "base_id": "5149",
+    "description": "Nathaniel is a boy magician-in-training, sold to the government by his birth parents at the age of five and sent to live as an apprentice to a master. Powerful magicians rule Britain, and its empire, and Nathaniel is told his is the \"ultimate sacrifice\" for a \"noble destiny.\" If leaving his parents and erasing his past life isn't tough enough, Nathaniel's master, Arthur Underwood, is a cold, condescending, and cruel middle-ranking magician in the Ministry of Internal Affairs. The boy's only saving grace is the master's wife, Martha Underwood, who shows him genuine affection that he rewards with fierce devotion. Nathaniel gets along tolerably well over the years in the Underwood household until the summer before his eleventh birthday. Everything changes when he is publicly humiliated by the ruthless magician Simon Lovelace and betrayed by his cowardly master who does not defend him.Nathaniel vows revenge. In a Faustian fever, he devours magical texts and hones his magic skills, all the while trying to appear subservient to his master. When he musters the strength to summon the 5,000-year-old djinni Bartimaeus to avenge Lovelace by stealing the powerful Amulet of Samarkand, the boy magician plunges into a situation more dangerous and deadly than anything he could ever imagine.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 305,
+        "audiobook": 163,
+        "childrens": 295,
+        "childrens (middle grade)": 362,
+        "fantasy": 6278,
+        "fantasy (magic)": 469,
+        "fantasy (urban fantasy)": 218,
+        "fiction": 874,
+        "young adult": 1820,
+        "young adult (young adult fantasy)": 187
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "5149_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 120026,
+        "score": 4.0
+    },
+    "pages": 470,
+    "title": "The Amulet of Samarkand",
+    "url": "https://www.goodreads.com/book/show/334123.The_Amulet_of_Samarkand",
+    "year_published": 2003
+}

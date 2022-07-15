@@ -1,33 +1,52 @@
 {
-    "author": "Tracy St. John",
-    "base_id": 16,
-    "description": "The Earth/Kalquor War seems far away to Sister Katherine and the nuns of the convent on Europa. That changes in an instant when an enemy spyship arrives and invades the tiny moon colony. Katherine\u2019s world is torn apart when she learns she is to become the mate to a clan of three fierce Kalquorian men. How can she save herself or the convent\u2019s children from their conquerors when her body, heart, and soul cries out for the blasphemous touch of her captors? How can it be that her peoples\u2019 sworn enemy is her only chance for true salvation?**Sister Katherine is the companion story to the bestselling 'Alien Conquest', Clans of Kalquor Book 3.Warning: Suitable for 18+ only.",
+    "author": "Eiichi Shimizu",
+    "base_id": "16",
+    "description": "The enigmatic Moroboshi takes Shinjiro, who is still having doubts about fighting as Ultraman, through a strange gate to a secret alien city. There he meets a new informant and cannot avoid getting mixed up in a feud beyond his control. Meanwhile on Earth, the police and the Science Patrol go deeper into a sinister investigation when a new victim of a mysterious serial killer turns up.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 17,
-        "bdsm": 15,
-        "erotica": 23,
-        "fantasy": 3,
-        "futuristic": 6,
-        "paranormal": 4,
-        "romance": 13,
-        "science fiction": 13,
-        "science fiction romance": 6
+        "action": 3,
+        "comics (superheroes)": 4,
+        "manga (seinen)": 2,
+        "science fiction": 8,
+        "science fiction (aliens)": 2,
+        "sequential art (comics)": 5,
+        "sequential art (graphic novels)": 2,
+        "sequential art (manga)": 37
     },
     "inventory": [
         {
             "status": "on_loan",
             "stock_id": "16_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "16_6"
         }
     ],
     "metrics": {
-        "rating_votes": 682,
-        "score": 3.95
+        "rating_votes": 167,
+        "score": 3.81
     },
-    "pages": 502,
-    "title": "Sister Katherine",
-    "url": "https://www.goodreads.com/book/show/18072424-sister-katherine",
+    "pages": 646,
+    "title": "Ultraman, Vol. 3",
+    "url": "https://www.goodreads.com/book/show/28820555-ultraman-vol-3",
     "year_published": 2013
 }

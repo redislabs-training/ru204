@@ -1,38 +1,34 @@
 {
-    "author": "Edward W. Robertson",
-    "base_id": 480,
-    "description": "In New York, Walt Lawson is about to lose his girlfriend Vanessa. In Los Angeles, Raymond and Mia James are about to lose their house. Within days, none of it will matter.When Vanessa dies of the flu, Walt is devastated. But she isn't the last. The virus quickly kills billions, reducing New York to an open grave and LA to a chaotic wilderness of violence and fires. As Raymond and Mia hole up in an abandoned mansion, where they learn to function without electricity, running water, or neighbors, Walt begins an existential walk to LA, where Vanessa had planned to move when she left him. He expects to die along the way.Months later, a massive vessel appears above Santa Monica Bay. Walt is attacked by a crablike monstrosity in a mountain stream. The virus that ended humanity wasn't created by humans. It was inflicted from outside. The colonists who sent it are ready to finish the job--and Earth's survivors may be too few and too weak to resist.",
+    "author": "Piers Anthony",
+    "base_id": "480",
+    "description": "THE MAN WHO LIVED BACKWARDWhen life seemed pointless to Norton, he accepted the position as the Incarnation of Time, even though it meant living backward from present to past. The other seemingly all-powerful incantations of Immortality\u2014Death, Fate, War, and Nature\u2014made him welcome. Even Satan greeted him with gifts. But he soon discovered that the gifts were cunning traps and he had become enmeshed in a complex scheme of the Evil One to destroy all that was good.In the end, armed only with the Hourglass, Norton was forced to confront the immense power of Satan directly. And though Satan banished him to Hell, he was resolved to fight on.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 26,
-        "apocalyptic": 37,
-        "audiobook": 12,
-        "dystopia": 47,
-        "fantasy": 17,
-        "fiction": 55,
-        "horror": 28,
-        "post apocalyptic": 67,
-        "science fiction": 110,
-        "thriller": 23
+        "adventure": 20,
+        "fantasy": 1421,
+        "fantasy (magic)": 21,
+        "fantasy (mythology)": 20,
+        "fantasy (paranormal)": 19,
+        "fantasy (urban fantasy)": 53,
+        "fiction": 252,
+        "science fiction": 119,
+        "science fiction (time travel)": 38,
+        "science fiction fantasy": 96
     },
     "inventory": [
         {
             "status": "available",
             "stock_id": "480_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "480_2"
         }
     ],
     "metrics": {
-        "rating_votes": 5108,
-        "score": 3.66
+        "rating_votes": 21759,
+        "score": 3.95
     },
-    "pages": 554,
-    "title": "Breakers",
-    "url": "https://www.goodreads.com/book/show/13485992-breakers",
-    "year_published": 2012
+    "pages": 287,
+    "title": "Bearing an Hourglass",
+    "url": "https://www.goodreads.com/book/show/76659.Bearing_an_Hourglass",
+    "year_published": 1984
 }

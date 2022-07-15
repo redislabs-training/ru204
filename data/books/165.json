@@ -1,62 +1,39 @@
 {
-    "author": "JanetEdwards",
-    "base_id": 165,
-    "description": "It's time to risk it all!The thrilling conclusion to Janet Edward\u2019s sensational debut YA sci-fi trilogy.Jarra never wanted to be a celebrity. All she ever wanted was to gain some respect for the people left on Earth: the unlucky few whose immune system prevents them from portalling to other planets.Except now she\u2019s the most famous Earth girl in the universe \u2013 but not everyone in the universe is happy about it, nor the fact that she has found love with a norm. Jarra\u2019s actions have repercussions that spread further than she ever could have imagined, and political unrest threatens to tear apart the delicate balance of peace between humanity\u2019s worlds.On top of everything, the first alien artefact ever discovered appears to be waiting for Jarra to reveal its secrets. But to do so, she must somehow find a way to leave Earth \u2013 or else the alien artefact will be lost forever. Is there a way for Jarra to travel to another planet? Or is her destiny only to look to the stars \u2013 but never to reach them?",
+    "author": "Jeff Lemire",
+    "base_id": "165",
+    "description": "One young robot's struggle to stay alive in a universe where all androids have been outlawed and bounty hunters lurk on every planet.A rip-roaring and heart-felt cosmic odyssey that pits humanity against machine, and world against world, to create a sprawling space opera from the creators of Trillium, Sweet Tooth, and Little Gotham.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 7,
-        "aliens": 17,
-        "dystopia": 26,
-        "fantasy": 11,
-        "fiction": 12,
-        "futuristic": 8,
-        "romance": 24,
-        "science fiction": 79,
-        "space": 15,
-        "young adult": 69
+        "comics (comic book)": 8,
+        "fiction": 25,
+        "graphic novels comics": 14,
+        "science fiction": 51,
+        "science fiction fantasy": 4,
+        "sequential art": 4,
+        "sequential art (comics)": 127,
+        "sequential art (graphic novels)": 120,
+        "space": 3,
+        "speculative fiction": 3
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "165_1"
         },
         {
-            "status": "available",
-            "stock_id": "165_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "165_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "165_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "165_5"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "165_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "165_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "165_8"
+            "stock_id": "165_2"
         }
     ],
     "metrics": {
-        "rating_votes": 1456,
-        "score": 4.28
+        "rating_votes": 1570,
+        "score": 4.18
     },
-    "pages": 660,
-    "title": "Earth Flight",
-    "url": "https://www.goodreads.com/book/show/16152916-earth-flight",
-    "year_published": 2014
+    "pages": 544,
+    "title": "Descender #1",
+    "url": "https://www.goodreads.com/book/show/24970339-descender-1",
+    "year_published": 2015
 }

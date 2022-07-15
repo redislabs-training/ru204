@@ -1,25 +1,26 @@
 {
-    "author": "Karen Lord",
-    "base_id": 798,
-    "description": "A proud and reserved alien society finds its homeland destroyed in an unprovoked act of aggression, and the survivors have no choice but to reach out to the indigenous humanoids of their adopted world, to whom they are distantly related. They wish to preserve their cherished way of life but come to discover that in order to preserve their culture, they may have to change it forever. Now a man and a woman from these two clashing societies must work together to save this vanishing race\u2014and end up uncovering ancient mysteries with far-reaching ramifications. As their mission hangs in the balance, this unlikely team\u2014one cool and cerebral, the other fiery and impulsive\u2014just may find in each other their own destinies . . . and a force that transcends all.",
+    "author": "Mary Pope Osborne",
+    "base_id": "798",
+    "description": "Jack and Annie don't need another mummy. But that's what they get when the Magic Tree House whisks them back to ancient Egypt. There they meet a long-dead queen who needs their help. Will Jack and Annie be able to solve the puzzle, or will they end up as mummies themselves?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 20,
-        "aliens": 54,
-        "dystopia": 12,
-        "fantasy": 55,
-        "fiction": 141,
-        "romance": 131,
-        "science fiction": 464,
-        "science fiction fantasy": 49,
-        "space opera": 18,
-        "speculative fiction": 30
+        "adventure": 76,
+        "childrens": 245,
+        "childrens (chapter books)": 95,
+        "childrens (middle grade)": 32,
+        "fantasy": 226,
+        "fiction": 148,
+        "historical": 36,
+        "historical (historical fiction)": 104,
+        "mystery": 28,
+        "science fiction (time travel)": 44
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "798_1"
         },
         {
@@ -35,28 +36,24 @@
             "stock_id": "798_4"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "798_5"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "798_6"
         },
         {
             "status": "available",
             "stock_id": "798_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "798_8"
         }
     ],
     "metrics": {
-        "rating_votes": 4305,
-        "score": 3.59
+        "rating_votes": 19059,
+        "score": 3.87
     },
-    "pages": 1006,
-    "title": "The Best of All Possible Worlds",
-    "url": "https://www.goodreads.com/book/show/15743440-the-best-of-all-possible-worlds",
-    "year_published": 2013
+    "pages": 621,
+    "title": "Mummies in the Morning",
+    "url": "https://www.goodreads.com/book/show/268955.Mummies_in_the_Morning",
+    "year_published": 1993
 }

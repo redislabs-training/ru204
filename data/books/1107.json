@@ -1,0 +1,50 @@
+{
+    "author": "James Patterson",
+    "base_id": "1107",
+    "description": "No one gets out alive.Seventeen-year-old Becca Greenfield was snatched from her home and thrown without reazon into a hellish prison known as the Crazy House. To avoid execution, she\u2019s told to shut her mouth and keep her head down.Becca was never really good at either.Her only hope for survival is for her sister, Cassie, to find her\u2014that the \u201cgood twin\u201d will stop following the rules and start breaking them, before it\u2019s too late. Because the jailers at Crazy House soon discover they made a mistake that could get both sisters killed\u2026",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 26,
+        "fantasy": 19,
+        "fiction": 37,
+        "mystery": 61,
+        "science fiction": 43,
+        "science fiction (dystopia)": 81,
+        "suspense": 15,
+        "thriller": 21,
+        "young adult": 129,
+        "young adult (teen)": 15
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1107_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1107_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1107_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1107_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1107_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8691,
+        "score": 3.77
+    },
+    "pages": 439,
+    "title": "Crazy House",
+    "url": "https://www.goodreads.com/book/show/34102633-crazy-house",
+    "year_published": 2017
+}

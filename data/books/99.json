@@ -1,34 +1,64 @@
 {
-    "author": "Lizzy Ford",
-    "base_id": 99,
-    "description": "When starving artist Kiera wakes up on board a spaceship, she panics. Her best friend has dragged her across the universe to help her find a man and a life, only the man she ends up unwittingly hooking up with is a battle-hardened warrior prince living in exile. Calculating, cautious A'Ran wants nothing more than to reclaim his planet. He needs Kiera as his lifemate to heal his planet and his war weary people. He's not prepared to be a lifemate himself, and discovers almost too late what he risks losing if he can't learn to be more than a warrior.",
+    "author": "Sam Esmail",
+    "base_id": "99",
+    "description": "Step inside the frontlines of the hit TV show\u00a0MR. ROBOT\u00a0with this new in-world fiction book by series creator and showrunner Sam Esmail and series writer Courtney Looney\u2014the first and only book to tie in to USA\u2019s Golden Globe\u00ae Award-winning series. The book will tell a brand-new story, reveal secrets from the show\u2019s second season, and tease developments to come. With removable items from the world of the show, the book will give readers a chance to hold a piece of the series in their own hands. \u00a0MR. ROBOT is a psychological thriller that follows Elliot (Rami Malek, The Pacific), a young programmer, who works as a cyber-security engineer by day and as a vigilante hacker by night. Elliot finds himself at a crossroads when the mysterious leader (Christian Slater, Adderall Diaries) of an underground hacker group recruits him to destroy the firm he is paid to protect.\u00a0The\u00a0New York Times\u00a0called it \u201crelentless, sensational, and unabashedly suspenseful,\u201d the\u00a0New Yorker\u00a0called it \u201cterrific\u201d and listed it among the year\u2019s best TV, and\u00a0Rolling Stone\u00a0said it\u2019s \u201ceasily the year\u2019s most audacious drama\u201d and the \u201cbest TV show of 2015.\u201d Stars Rami Malek and Christian Slater took home a Critics\u2019 Choice\u00ae Award and a Golden Globe Award, respectively, and the show itself received a Golden Globe Award and a Critics\u2019 Choice Award for best television drama, along with\u00a0the prestigious\u00a0Peabody\u00a0award.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 6,
-        "adventure": 6,
-        "aliens": 17,
-        "erotica": 4,
-        "fantasy": 30,
-        "paranormal": 21,
-        "paranormal romance": 9,
-        "romance": 39,
-        "science fiction": 47,
-        "science fiction romance": 7
+        "audiobook": 3,
+        "computers (hackers)": 5,
+        "fiction": 30,
+        "mystery": 5,
+        "novels": 2,
+        "science fiction": 8,
+        "science fiction (cyberpunk)": 3,
+        "sequential art (graphic novels)": 2,
+        "the united states of america": 2,
+        "thriller": 2
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "99_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "99_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "99_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1268,
-        "score": 3.96
+        "rating_votes": 769,
+        "score": 4.32
     },
-    "pages": 721,
-    "title": "Kiera's Moon",
-    "url": "https://www.goodreads.com/book/show/18365852-kiera-s-moon",
-    "year_published": 2011
+    "pages": 233,
+    "title": "Mr. Robot: Red Wheelbarrow: (eps1.91_redwheelbarr0w.txt",
+    "url": "https://www.goodreads.com/book/show/29873086-mr-robot",
+    "year_published": 2016
 }

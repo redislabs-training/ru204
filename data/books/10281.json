@@ -1,0 +1,47 @@
+{
+    "author": "David Mitchell",
+    "base_id": "10281",
+    "description": "Following a scalding row with her mother, fifteen-year-old Holly Sykes slams the door on her old life. But Holly is no typical teenage runaway: a sensitive child once contacted by voices she knew only as \u201cthe radio people,\u201d Holly is a lightning rod for psychic phenomena. Now, as she wanders deeper into the English countryside, visions and coincidences reorder her reality until they assume the aura of a nightmare brought to life.For Holly has caught the attention of a cabal of dangerous mystics\u2014and their enemies. But her lost weekend is merely the prelude to a shocking disappearance that leaves her family irrevocably scarred. This unsolved mystery will echo through every decade of Holly\u2019s life, affecting all the people Holly loves\u2014even the ones who are not yet born.A Cambridge scholarship boy grooming himself for wealth and influence, a conflicted father who feels alive only while reporting from occupied Iraq, a middle-aged writer mourning his exile from the bestseller list\u2014all have a part to play in this surreal, invisible war on the margins of our world. From the medieval Swiss Alps to the nineteenth-century Australian bush, from a hotel in Shanghai to a Manhattan townhouse in the near future, their stories come together in moments of everyday grace and extraordinary wonder.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 124,
+        "audiobook": 130,
+        "contemporary": 203,
+        "fantasy": 1815,
+        "fiction": 2122,
+        "literary fiction": 229,
+        "magical realism": 191,
+        "mystery": 127,
+        "science fiction": 598,
+        "science fiction (dystopia)": 131
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "10281_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "10281_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10281_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10281_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 87914,
+        "score": 3.83
+    },
+    "pages": 976,
+    "title": "The Bone Clocks",
+    "url": "https://www.goodreads.com/book/show/20819685-the-bone-clocks",
+    "year_published": 2014
+}

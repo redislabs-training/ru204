@@ -1,58 +1,46 @@
 {
-    "author": "Alastair Reynolds",
-    "base_id": 840,
-    "description": "2057. Bella Lind and the crew of her nuclearpowered ship, the Rockhopper, push ice. They mine comets. But when Janus, one of Saturn's ice moons, inexplicably leaves its natural orbit and heads out of the solar system at high speed, Bella is ordered to shadow it for the few vital days before it falls forever out of reach.In accepting this mission she sets her ship and her crew on a collision course with destiny-for Janus has many surprises in store, and not all of them are welcome...",
+    "author": "James Dashner",
+    "base_id": "840",
+    "description": "The Maze Runner Files is a 50+ page collection of classified records and concealed information from the world of the New York Times bestselling Maze Runner series. Lost emails between WICKED employees, memos meant to be destroyed after reading, and a selection of the Gladers suppressed memories make up this e-original short. These documents offer a unique glimpse of the world of The Maze Runner and are a must for any fan of The Maze Runner.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 23,
-        "audiobook": 38,
-        "fantasy": 12,
-        "fiction": 172,
-        "hard science fiction": 23,
-        "science fiction": 751,
-        "science fiction fantasy": 22,
-        "space": 41,
-        "space opera": 114,
-        "speculative fiction": 16
+        "adventure": 5,
+        "apocalyptic (post apocalyptic)": 11,
+        "fantasy": 23,
+        "fiction": 48,
+        "mystery": 8,
+        "novella": 15,
+        "science fiction": 81,
+        "science fiction (dystopia)": 98,
+        "short stories": 54,
+        "young adult": 136
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "840_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "840_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "840_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "840_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "840_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "840_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "840_7"
         }
     ],
     "metrics": {
-        "rating_votes": 14956,
-        "score": 4.05
+        "rating_votes": 11273,
+        "score": 3.72
     },
-    "pages": 537,
-    "title": "Pushing Ice",
-    "url": "https://www.goodreads.com/book/show/89186.Pushing_Ice",
-    "year_published": 2005
+    "pages": 506,
+    "title": "The Maze Runner Files",
+    "url": "https://www.goodreads.com/book/show/18111770-the-maze-runner-files",
+    "year_published": 2013
 }

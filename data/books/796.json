@@ -1,0 +1,63 @@
+{
+    "author": "Margaret Peterson Haddix",
+    "base_id": "796",
+    "description": "Told in alternating points of view from Chess, Emma, and Finn Greystone, Greystone Secrets #1: The Strangers is the beginning of a new page-turning adventure that examines assumptions about identity, family, and home, from the master of middle grade suspense.What makes you you?The Greystone kids thought they knew. Chess has always been the protector over his younger siblings, Emma loves math, and Finn does what Finn does best\u2014acting silly and being adored. They\u2019ve been a happy family, just the three of them and their mom.But everything changes when reports of three kidnapped children\u2014who share the same first and middle names, ages, and exact birth dates as the Greystone kids\u2014reach the Greystone family. This bizarre coincidence makes them wonder: Who exactly are these strangers? Before Chess, Emma, and Finn can question their mom about it, she takes off on a mysterious work trip. But puzzling clues left behind lead to complex codes, hidden rooms, and a dangerous secret that will turn their world upside down.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 40,
+        "audiobook": 35,
+        "childrens": 51,
+        "childrens (juvenile)": 26,
+        "childrens (middle grade)": 326,
+        "fantasy": 140,
+        "fiction": 81,
+        "mystery": 207,
+        "science fiction": 97,
+        "young adult": 37
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "796_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "796_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "796_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "796_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "796_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "796_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "796_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "796_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4859,
+        "score": 3.86
+    },
+    "pages": 882,
+    "title": "The Strangers",
+    "url": "https://www.goodreads.com/book/show/40390757-the-strangers",
+    "year_published": 2019
+}

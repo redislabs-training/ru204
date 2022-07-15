@@ -1,54 +1,40 @@
 {
-    "author": "Ann Aguirre",
-    "base_id": 343,
-    "description": "It\u2019s not easy to tread lightly wearing steel-toed boots.Sirantha Jax isn\u2019t known for diplomatic finesse. As a \u201cJumper\u201d who navigates ships through grimspace, she\u2019s used to kicking ass first and taking names later\u2014much later. Not exactly the obvious choice to sell the Conglomerate to the Ithtorians, a people whose opinions of humans are as hard as their exoskeletons.And Ithiss-Tor council meetings aren\u2019t the only place where Ambassador Jax needs to maneuver carefully. Her lover, March, is frozen in permanent \u201ckill\u201d mode, and his hair-trigger threatens to sabotage the talks\u2014not to mention their relationship.But Jax won\u2019t give up on the man or the mission. With the Outskirts beleaguered by raiders, pirates, and the flesh-eating Morgut, an alliance with Ithiss-Tor may be humanity\u2019s only hope.Which has Jax wondering why a notorious troublemaker like her was given the job.",
+    "author": "George Mann",
+    "base_id": "343",
+    "description": "\"The death of billions is as nothing to us Doctor, if it helps defeat the Daleks.\"The Great Time War has raged for centuries, ravaging the universe. Scores of human colony planets are now overrun by Dalek occupation forces. A weary, angry Doctor leads a flotilla of Battle TARDISes against the Dalek stronghold but in the midst of the carnage, the Doctor's TARDIS crashes to a planet below: Moldox.As the Doctor is trapped in an apocalyptic landscape, Dalek patrols roam amongst the wreckage, rounding up the remaining civilians. But why haven't the Daleks simply killed the humans?Searching for answers the Doctor meets 'Cinder', a young Dalek hunter. Their struggles to discover the Dalek plan take them from the ruins of Moldox to the halls of Gallifrey, and set in motion a chain of events that will change everything. And everyone.An epic novel of the Great Time War featuring the War Doctor as played by John Hurt.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 22,
-        "adventure": 21,
-        "aliens": 48,
-        "fantasy": 55,
-        "fiction": 49,
-        "romance": 128,
-        "science fiction": 373,
-        "space": 43,
-        "space opera": 52,
-        "urban fantasy": 30
+        "audiobook": 8,
+        "european literature (british literature)": 3,
+        "fantasy": 19,
+        "fiction": 29,
+        "media tie in": 10,
+        "media tie in (doctor who)": 299,
+        "science fiction": 107,
+        "science fiction (aliens)": 4,
+        "science fiction (time travel)": 23,
+        "war": 5
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "343_1"
         },
         {
             "status": "maintenance",
             "stock_id": "343_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "343_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "343_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "343_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "343_6"
         }
     ],
     "metrics": {
-        "rating_votes": 4979,
-        "score": 3.99
+        "rating_votes": 2208,
+        "score": 4.04
     },
-    "pages": 445,
-    "title": "Doubleblind",
-    "url": "https://www.goodreads.com/book/show/6453280-doubleblind",
-    "year_published": 2009
+    "pages": 1362,
+    "title": "Doctor Who: Engines of War",
+    "url": "https://www.goodreads.com/book/show/22401661-doctor-who",
+    "year_published": 2014
 }

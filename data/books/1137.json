@@ -1,0 +1,56 @@
+{
+    "author": "Scott Westerfeld",
+    "base_id": "1137",
+    "description": "Nobody's ever really explained the Spill. Was it an angelic visitation? A nanotech accident? A porthole opening from another world? Whatever it was, no one's allowed in the Spill Zone these days except government scientists and hazmat teams. But a few intrepid explorers know how to sneak through the patrols and steer clear of the dangers inside the Zone. Addison Merrick is one such explorer, dedicated to finding out what happened that night and to unraveling the events that took her parents and left her little sister mute and disconnected from the world.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 53,
+        "fiction": 75,
+        "graphic novels comics": 51,
+        "horror": 109,
+        "science fiction": 224,
+        "science fiction (dystopia)": 57,
+        "sequential art (comics)": 196,
+        "sequential art (graphic novels)": 741,
+        "young adult": 301,
+        "young adult (teen)": 48
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1137_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1137_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1137_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1137_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1137_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1137_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5015,
+        "score": 4.03
+    },
+    "pages": 714,
+    "title": "Spill Zone",
+    "url": "https://www.goodreads.com/book/show/23532871-spill-zone",
+    "year_published": 2017
+}

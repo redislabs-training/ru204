@@ -1,53 +1,34 @@
 {
-    "author": "Lisa Henry",
-    "base_id": 697,
-    "description": "Brady Garrett needs to go home. He\u2019s a conscripted recruit on Defender Three, one of a network of stations designed to protect the Earth from alien attack. He's also angry, homesick, and afraid. If he doesn\u2019t get home he\u2019ll lose his family, but there\u2019s no way back except in a body bag.Cameron Rushton needs a heartbeat. Four years ago Cam was taken by the Faceless \u2014 the alien race that almost destroyed Earth. Now he\u2019s back, and when the doctors make a mess of getting him out of stasis, Brady becomes his temporary human pacemaker. Except they\u2019re sharing more than a heartbeat: they\u2019re sharing thoughts, memories, and some very vivid dreams.Not that Brady\u2019s got time to worry about his growing attraction to another guy, especially the one guy in the universe who can read his mind. It doesn\u2019t mean anything. It\u2019s just biochemistry and electrical impulses. It doesn\u2019t change the truth: Brady\u2019s alone in the universe.Now the Faceless are coming and there\u2019s nothing anyone can do. You can\u2019t stop your nightmares. Cam says everyone will live, but Cam\u2019s probably a traitor and a liar like the military thinks. But that\u2019s okay. Guys like Brady don\u2019t expect happy endings.",
+    "author": "Robert A. Heinlein",
+    "base_id": "697",
+    "description": "When a stranger attempting to deliver a cryptic message is shot dead at his table, Dr. Richard Ames is thrown headfirst into danger, intrigue, and other dimensions, where a plot to rescue a sentient computer could alter human history...",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 106,
-        "dark": 38,
-        "erotica": 38,
-        "fantasy": 53,
-        "lgbt": 73,
-        "male male romance": 394,
-        "military fiction": 101,
-        "romance": 189,
-        "science fiction": 369
+        "adventure": 25,
+        "audiobook": 24,
+        "classics": 17,
+        "fantasy": 60,
+        "fiction": 240,
+        "mystery": 25,
+        "science fiction": 807,
+        "science fiction (time travel)": 39,
+        "science fiction fantasy": 75,
+        "speculative fiction": 28
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "697_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "697_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "697_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "697_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "697_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "697_6"
         }
     ],
     "metrics": {
-        "rating_votes": 3886,
-        "score": 4.06
+        "rating_votes": 21718,
+        "score": 3.71
     },
-    "pages": 417,
-    "title": "Dark Space",
-    "url": "https://www.goodreads.com/book/show/16174363-dark-space",
-    "year_published": 2012
+    "pages": 962,
+    "title": "The Cat Who Walks Through Walls",
+    "url": "https://www.goodreads.com/book/show/16685.The_Cat_Who_Walks_Through_Walls",
+    "year_published": 1985
 }

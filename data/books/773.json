@@ -1,0 +1,44 @@
+{
+    "author": "James Dashner",
+    "base_id": "773",
+    "description": "Michael used to live to game.Now the games he was playing have become all too real. Only weeks ago, Sinking into the Sleep was fun. The VirtNet combined the most cutting-edge technology and the most sophisticated gaming for a full mind-body experience. And it was Michael\u2019s passion. But now every time Michael Sinks, he risks his life.The games are over. The VirtNet has become a world of deadly consequences, and Kaine grows stronger by the day. The Mortality Doctrine\u2014Kaine\u2019s master plan\u2014has nearly been realized, and little by little the line separating the virtual from the real is blurring. If Kaine succeeds, it will mean worldwide cyber domination. And it looks like Michael and his friends are the only ones who can put the monster back in the box\u2014if Michael can figure out who his friends really are.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 17,
+        "audiobook": 9,
+        "fantasy": 37,
+        "fiction": 34,
+        "mystery": 7,
+        "science fiction": 135,
+        "science fiction (dystopia)": 75,
+        "thriller": 9,
+        "young adult": 158,
+        "young adult (teen)": 10
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "773_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "773_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "773_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8549,
+        "score": 3.9
+    },
+    "pages": 989,
+    "title": "The Game of Lives",
+    "url": "https://www.goodreads.com/book/show/23257464-the-game-of-lives",
+    "year_published": 2015
+}

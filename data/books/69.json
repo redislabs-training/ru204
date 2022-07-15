@@ -1,61 +1,36 @@
 {
-    "author": "Shae Mills",
-    "base_id": 69,
-    "description": "Chelan is a brilliant young woman, an aeronautics engineer who dreams of one day soaring towards the stars in a craft of her own design. But, while on vacation, she is badly injured during a bizarre encounter with menacing strangers. Awakening, she finds herself held captive aboard the alien battleship RIBUS 7. Convinced at first that she is the victim of an elaborate hoax, the nightmare soon becomes all too real.Before her stands the Iceanean Overlord, Korba, an ebony-clad god of war, a cunning predator, and a finely honed killer. As Commander of RIBUS 7, his mission is to eradicate all aliens, Chelan included. Yet one look at the exotic beauty smuggled aboard his ship stays his hand.Struggling against her growing attraction to her captor, Chelan clings to her Earthly values like a shield. But in a culture where the men and women pursue the pleasures of the flesh with a passion and a skill equal to that of the kill, Chelan finds herself awash in a sea of temptation at every turn. Korba himself yearns for her, but their love is forbidden by all that governs his culture. To claim her as his own is to risk all\u2026but it\u2019s a risk he hungers to take. ",
+    "author": "Osamu Tezuka",
+    "base_id": "69",
+    "description": "Presents the adventures of the robotic Astro Boy, including how he was created and his battles with the Hot Dog Corps.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 18,
-        "erotica": 3,
-        "fantasy": 2,
-        "futuristic": 2,
-        "polyamorous": 2,
-        "romance": 7,
-        "science fiction": 9,
-        "science fiction romance": 4,
-        "space": 2
+        "adventure": 6,
+        "childrens": 6,
+        "classics": 9,
+        "fantasy": 7,
+        "fiction": 14,
+        "graphic novels comics": 5,
+        "science fiction": 18,
+        "sequential art (comics)": 54,
+        "sequential art (graphic novels)": 29,
+        "sequential art (manga)": 165
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "69_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "69_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "69_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "69_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "69_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "69_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "69_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "69_8"
         }
     ],
     "metrics": {
-        "rating_votes": 590,
-        "score": 3.8
+        "rating_votes": 941,
+        "score": 3.78
     },
-    "pages": 487,
-    "title": "Ribus 7",
-    "url": "https://www.goodreads.com/book/show/23017851-ribus-7",
-    "year_published": 2014
+    "pages": 1019,
+    "title": "Astro Boy, Vol. 1",
+    "url": "https://www.goodreads.com/book/show/135074.Astro_Boy_Vol_1",
+    "year_published": 1952
 }

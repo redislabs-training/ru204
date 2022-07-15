@@ -1,0 +1,60 @@
+{
+    "author": "Hugh Howey",
+    "base_id": "4446",
+    "description": "Thousands of them have lived underground. They've lived there so long, there are only legends about people living anywhere else. Such a life requires rules. Strict rules. There are things that must not be discussed. Like going outside. Never mention you might like going outside.Or you'll get what you wish for.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 47,
+        "apocalyptic (post apocalyptic)": 297,
+        "fantasy": 164,
+        "fiction": 623,
+        "science fiction": 1000,
+        "science fiction (apocalyptic)": 78,
+        "science fiction (dystopia)": 566,
+        "science fiction fantasy": 106,
+        "short stories": 154,
+        "young adult": 76
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "4446_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "4446_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4446_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4446_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4446_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4446_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4446_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 77616,
+        "score": 4.12
+    },
+    "pages": 1342,
+    "title": "Wool",
+    "url": "https://www.goodreads.com/book/show/12287209-wool",
+    "year_published": 2011
+}

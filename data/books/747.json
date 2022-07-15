@@ -1,0 +1,43 @@
+{
+    "author": "M.R. Carey",
+    "base_id": "747",
+    "description": "Beyond the walls of the small village of Mythen Rood lies an unrecognizable world. A world where overgrown forests are filled with choker trees and deadly vines and seeds that will kill you where you stand. And if they don't get you, one of the dangerous shunned men will.Koli has lived in Mythen Rood his entire life. He knows the first rule of survival is that you don't venture beyond the walls.What he doesn't know is - what happens when you aren't given a choice?The first in a gripping new trilogy, The Book of Koli charts the journey of one unforgettable young boy struggling to find his place in a chilling post-apocalyptic world. Perfect for readers of Station Eleven and Annihilation.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 55,
+        "audiobook": 23,
+        "fantasy": 116,
+        "fiction": 104,
+        "horror": 55,
+        "science fiction": 203,
+        "science fiction (apocalyptic)": 27,
+        "science fiction (dystopia)": 90,
+        "speculative fiction": 24,
+        "young adult": 28
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "747_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "747_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "747_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3869,
+        "score": 4.11
+    },
+    "pages": 295,
+    "title": "The Book of Koli",
+    "url": "https://www.goodreads.com/book/show/51285749-the-book-of-koli",
+    "year_published": 2020
+}

@@ -1,0 +1,50 @@
+{
+    "author": "Margaret Peterson Haddix",
+    "base_id": "6216",
+    "description": "SHADOW CHILDRENLuke has never been to school. He's never had a birthday party, or gone to a friend's house for an overnight. In fact, Luke has never had a friend.Luke is one of the shadow children, a third child forbidden by the Population Police. He's lived his entire life in hiding, and now, with a new housing development replacing the woods next to his family's farm, he is no longer even allowed to go outside.Then, one day Luke sees a girl's face in the window of a house where he knows two other children already live. Finally, he's met a shadow child like himself. Jen is willing to risk everything to come out of the shadows - does Luke dare to become involved in her dangerous plan? Can he afford not to?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "academic (school)": 113,
+        "adventure": 177,
+        "childrens": 264,
+        "childrens (middle grade)": 381,
+        "fantasy": 205,
+        "fiction": 561,
+        "science fiction": 648,
+        "science fiction (dystopia)": 881,
+        "young adult": 1060,
+        "young adult (teen)": 107
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "6216_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "6216_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6216_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6216_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6216_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 113545,
+        "score": 3.98
+    },
+    "pages": 239,
+    "title": "Among the Hidden",
+    "url": "https://www.goodreads.com/book/show/227651.Among_the_Hidden",
+    "year_published": 1998
+}

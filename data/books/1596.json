@@ -1,0 +1,58 @@
+{
+    "author": "Elizabeth Schaefer",
+    "base_id": "1596",
+    "description": "Forty years. Forty stories. On May 25, 1977, the world was introduced to Han, Luke, Leia, a pair of droids, a Wookiee, an old wizard, a villain in black, and a galaxy full of possibilities. Forty years on, Star Wars remains an unparalleled cultural phenomenon, having inspired and influenced generations of fans and creators. Decades of rich storytelling were sparked by one film, in part because the Star Wars galaxy feels alive. Strange and wonderful characters fill the edges of the screen and make us wonder:What are their stories?This unique anthology celebrates that legacy, as more than forty contributors lend their vision to this retelling of the original Star Wars film. Each of the forty stories reimagines a moment from the film through the eyes of a supporting character. From A Certain Point of View features contributions by bestselling authors, trendsetting artists, and treasured voices from the literary history of Star Wars:- Gary Whitta bridges the gap from Rogue One to A New Hope through the eyes of Captain Antilles.- Aunt Beru finds her voice in an intimate character study by Meg Cabot.- Nnedi Okorafor brings dignity and depth to a most unlikely character: the monster in the trash compactor.- Pablo Hidalgo provides a chilling glimpse inside the mind of Grand Moff Tarkin.- Wil Wheaton spins a poignant tale of the rebels left behind on Yavin.- Plus thirty-five more hilarious, heartbreaking, and astonishing tales.Experience the story of Star Wars from a whole new point of view.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 28,
+        "anthologies": 96,
+        "audiobook": 85,
+        "fantasy": 107,
+        "fiction": 229,
+        "media tie in (star wars)": 1030,
+        "science fiction": 356,
+        "science fiction fantasy": 25,
+        "short stories": 293,
+        "space (space opera)": 37
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1596_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1596_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1596_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1596_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1596_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1596_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1596_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8711,
+        "score": 3.93
+    },
+    "pages": 911,
+    "title": "Star Wars: From a Certain Point of View",
+    "url": "https://www.goodreads.com/book/show/34817927-star-wars",
+    "year_published": 2017
+}

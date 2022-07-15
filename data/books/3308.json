@@ -1,0 +1,54 @@
+{
+    "author": "Ben H. Winters",
+    "base_id": "3308",
+    "description": "What\u2019s the point in solving murders if we\u2019re all going to die soon, anyway?  Detective Hank Palace has faced this question ever since asteroid 2011GV1 hovered into view. There\u2019s no chance left. No hope. Just six precious months until impact. The Last Policeman presents a fascinating portrait of a pre-apocalyptic United States. The economy spirals downward while crops rot in the fields. Churches and synagogues are packed. People all over the world are walking off the job\u2014but not Hank Palace. He\u2019s investigating a death by hanging in a city that sees a dozen suicides every week\u2014except this one feels suspicious, and Palace is the only cop who cares.   The first in a trilogy, The Last Policeman offers a mystery set on the brink of an apocalypse. As Palace\u2019s investigation plays out under the shadow of 2011GV1, we\u2019re confronted by hard questions way beyond \u201cwhodunit.\u201d What basis does civilization rest upon? What is life worth? What would any of us do, what would we really do, if our days were numbered?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 126,
+        "fiction": 641,
+        "mystery": 1034,
+        "mystery (crime)": 251,
+        "mystery (detective)": 62,
+        "science fiction": 588,
+        "science fiction (apocalyptic)": 130,
+        "science fiction (dystopia)": 170,
+        "thriller": 101,
+        "thriller (mystery thriller)": 121
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3308_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3308_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3308_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3308_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3308_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3308_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 27613,
+        "score": 3.78
+    },
+    "pages": 656,
+    "title": "The Last Policeman",
+    "url": "https://www.goodreads.com/book/show/13330370-the-last-policeman",
+    "year_published": 2012
+}

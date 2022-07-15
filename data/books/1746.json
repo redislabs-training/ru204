@@ -1,0 +1,59 @@
+{
+    "author": "Scott Sigler",
+    "base_id": "1746",
+    "description": "I open my eyes to darkness. Total darkness. I hear my own breathing, but nothing else. I lift my head\u2026it thumps against something solid and unmoving. There is a board right in front of my face. No, not a board\u2026a lid.A teenage girl awakens to find herself trapped in a coffin. She has no idea who she is, where she is, or how she got there. Fighting her way free brings little relief\u2014she discovers only a room lined with caskets and a handful of equally mystified survivors. Beyond their room lies a corridor filled with bones and dust, but no people\u2026and no answers.She knows only one thing about herself\u2014her name, M. Savage, which was engraved on the foot of her coffin\u2014yet she finds herself in charge. She is not the biggest among them, or the boldest, but for some reason the others trust her. Now, if they\u2019re to have any chance, she must get them to trust one another.Whatever the truth is, she is determined to find it and confront it. If she has to lead, she will make sure they survive. Maybe there's a way out, a rational explanation, and a fighting chance against the dangers to come. Or maybe a reality they cannot comprehend lies just beyond the next turn.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure (survival)": 23,
+        "fantasy": 43,
+        "fiction": 94,
+        "horror": 40,
+        "mystery": 60,
+        "science fiction": 269,
+        "science fiction (dystopia)": 151,
+        "thriller": 48,
+        "young adult": 296,
+        "young adult (teen)": 21
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1746_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1746_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1746_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1746_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1746_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1746_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1746_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9247,
+        "score": 3.72
+    },
+    "pages": 797,
+    "title": "Alive",
+    "url": "https://www.goodreads.com/book/show/23278532-alive",
+    "year_published": 2015
+}

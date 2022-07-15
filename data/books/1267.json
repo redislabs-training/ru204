@@ -1,58 +1,40 @@
 {
-    "author": "Sue Burke",
-    "base_id": 1267,
-    "description": "In this character driven novel of first contact by debut author Sue Burke, human survival hinges on an bizarre alliance.Only mutual communication can forge an alliance with the planet's sentient species and prove that mammals are more than tools.Forced to land on a planet they aren't prepared for, human colonists rely on their limited resources to survive. The planet provides a lush but inexplicable landscape--trees offer edible, addictive fruit one day and poison the next, while the ruins of an alien race are found entwined in the roots of a strange plant. Conflicts between generations arise as they struggle to understand one another and grapple with an unknowable alien intellect.",
+    "author": "Diana Wynne Jones",
+    "base_id": "1267",
+    "description": "Cat doesn't mind living in the shadow of his sister, Gwendolen, the most promising young witch ever seen on Coven Street. But trouble starts brewing the moment the two orphans are summoned to live in Chrestomanci Castle. Frustrated that the witches of the castle refuse to acknowledge her talents, Gwendolen conjures up a scheme that could throw whole worlds out of whack.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 35,
-        "adult fiction": 12,
-        "aliens": 49,
-        "audiobook": 37,
-        "fantasy": 28,
-        "fiction": 213,
-        "science fiction": 585,
-        "science fiction fantasy": 28,
-        "space": 16,
-        "speculative fiction": 24
+        "adventure": 60,
+        "childrens": 269,
+        "childrens (middle grade)": 204,
+        "fantasy": 2196,
+        "fantasy (magic)": 201,
+        "fiction": 293,
+        "paranormal (witches)": 46,
+        "science fiction fantasy": 53,
+        "young adult": 477,
+        "young adult (young adult fantasy)": 61
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1267_1"
         },
         {
             "status": "on_loan",
             "stock_id": "1267_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1267_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1267_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1267_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1267_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1267_7"
         }
     ],
     "metrics": {
-        "rating_votes": 8712,
-        "score": 3.92
+        "rating_votes": 31055,
+        "score": 3.95
     },
-    "pages": 1138,
-    "title": "Semiosis",
-    "url": "https://www.goodreads.com/book/show/35018907-semiosis",
-    "year_published": 2018
+    "pages": 1019,
+    "title": "Charmed Life",
+    "url": "https://www.goodreads.com/book/show/244572.Charmed_Life",
+    "year_published": 1977
 }

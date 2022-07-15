@@ -1,50 +1,44 @@
 {
-    "author": "Eileen Glass",
-    "base_id": 71,
-    "description": "When the alien alphas arrived on Earth, omega-compatible men weren\u2019t given a choice in mating with them. After a long and troubled war, Earth brought down the harem towers and exiled the alien lords to the moon where they rule from afar.Things have calmed down in recent history; the powerful alphas seek mates who will submit themselves voluntarily. But who would sell themselves into slavery? Who would want to become a breeder?Rourke\u2019s terminally ill mother needs a cure that\u2019s only accessible to the very rich. An omega auction can pay for it.",
+    "author": "Dav Pilkey",
+    "base_id": "71",
+    "description": "A small mouse named Ricky Ricotta and his best friend, a giant flying robot, save the world from Victor Von Vulture and his vicious voodoo vultures from Venus.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 18,
-        "fantasy": 11,
-        "fiction": 5,
-        "gay": 4,
-        "lgbt": 4,
-        "male male romance": 28,
-        "omegaverse": 10,
-        "romance": 20,
-        "science fiction": 22,
-        "science fiction romance": 4
+        "adventure": 10,
+        "childrens": 20,
+        "childrens (chapter books)": 12,
+        "childrens (juvenile)": 5,
+        "fantasy": 9,
+        "fiction": 16,
+        "humor": 8,
+        "science fiction": 9,
+        "sequential art (comics)": 5,
+        "sequential art (graphic novels)": 9
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "71_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "71_2"
         },
         {
-            "status": "available",
-            "stock_id": "71_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "71_4"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "71_5"
+            "stock_id": "71_3"
         }
     ],
     "metrics": {
-        "rating_votes": 662,
-        "score": 3.64
+        "rating_votes": 1585,
+        "score": 4.12
     },
-    "pages": 1162,
-    "title": "Omega Society Auction: Episode One",
-    "url": "https://www.goodreads.com/book/show/36621758-omega-society-auction",
-    "year_published": 2017
+    "pages": 817,
+    "title": "Ricky Ricotta's Mighty Robot vs. the Voodoo Vultures from Venus",
+    "url": "https://www.goodreads.com/book/show/2287658.Ricky_Ricotta_s_Mighty_Robot_vs_the_Voodoo_Vultures_from_Venus",
+    "year_published": 1994
 }

@@ -1,0 +1,34 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "3340",
+    "description": "Alcatraz Versus the Evil Librarians is the first adventure in a fantasy series for young readers by the #1 New York Times bestselling author Brandon Sanderson. The fast-paced and funny series is now available in deluxe hardcover editions illustrated by Hayley Lazo.On his thirteenth birthday, foster child Alcatraz Smedry gets a bag of sand in the mail-his only inheritance from his father and mother. He soon learns that this is no ordinary bag of sand. It is quickly stolen by the cult of evil Librarians who are taking over the world by spreading misinformation and suppressing truth. Alcatraz must stop them, using the only weapon he has: an incredible talent for breaking things.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 121,
+        "audiobook": 86,
+        "childrens": 124,
+        "childrens (juvenile)": 55,
+        "childrens (middle grade)": 245,
+        "fantasy": 1367,
+        "fantasy (urban fantasy)": 72,
+        "fiction": 268,
+        "humor": 163,
+        "young adult": 421
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3340_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22279,
+        "score": 3.9
+    },
+    "pages": 281,
+    "title": "Alcatraz Versus the Evil Librarians",
+    "url": "https://www.goodreads.com/book/show/623976.Alcatraz_Versus_the_Evil_Librarians",
+    "year_published": 2007
+}

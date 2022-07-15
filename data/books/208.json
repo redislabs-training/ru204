@@ -1,21 +1,23 @@
 {
-    "author": "S.E. Smith",
-    "base_id": 208,
-    "description": "Cara Truman is a pint-size pistol whose inquisitive nature has gotten her into trouble on more than one occasion. Her next adventure takes her further than she even expected when she ends up on a journey out of this world.Trelon Reykill thought he had his hands full. A militant group of Curizans had captured his brother Zoran, he was busy trying to fortify the Valdire defenses against the Sarafin Warriors, and his dragon was roaring for him to find a mate. He was furious about the first, excited about the second, and pissed about the last. The last thing he expects to find on the primitive planet his brother has taken refuge on is his true mate. Now, he has a whole new set of problems\u2026capturing Cara long enough to make her his. His symbiosis loves her, his dragon wants her, and he can\u2019t catch her. On top of all that, someone is trying to kill her. His solution: Capture Cara and love her so well she will never want to escape him -if he can.",
+    "author": "Warren Ellis",
+    "base_id": "208",
+    "description": "SC, TPB, in cello, New, Written by Warren Ellis. Art by Darick Robertson. Published in June of 2001. Softcover, 144 pages, full color. Mature Readers. Cover price $14.99.",
     "editions": [
-        "None"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 92,
-        "dragons": 81,
-        "erotica": 18,
-        "fantasy": 40,
-        "paranormal": 47,
-        "paranormal romance": 32,
-        "romance": 76,
-        "science fiction": 74,
-        "science fiction romance": 33,
-        "shapeshifters": 36
+        "comics (comic book)": 51,
+        "fiction": 96,
+        "graphic novels comics": 52,
+        "humor": 22,
+        "science fiction": 143,
+        "science fiction (cyberpunk)": 83,
+        "science fiction (dystopia)": 50,
+        "sequential art (comics)": 692,
+        "sequential art (comix)": 20,
+        "sequential art (graphic novels)": 575
     },
     "inventory": [
         {
@@ -31,28 +33,20 @@
             "stock_id": "208_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "208_4"
         },
         {
-            "status": "maintenance",
-            "stock_id": "208_5"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "208_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "208_7"
+            "stock_id": "208_5"
         }
     ],
     "metrics": {
-        "rating_votes": 4591,
-        "score": 4.12
+        "rating_votes": 12460,
+        "score": 4.41
     },
-    "pages": 483,
-    "title": "Capturing Cara",
-    "url": "https://www.goodreads.com/book/show/13702218-capturing-cara",
-    "year_published": 2012
+    "pages": 936,
+    "title": "Transmetropolitan, Vol. 5: Lonely City",
+    "url": "https://www.goodreads.com/book/show/22420.Transmetropolitan_Vol_5",
+    "year_published": 2001
 }

@@ -1,0 +1,48 @@
+{
+    "author": "A.S. King",
+    "base_id": "1545",
+    "description": "In this masterpiece about freedom, feminism, and destiny, Printz Honor author A.S. King tells the epic story of a girl coping with devastating loss at long last--a girl who has no idea that the future needs her, and that the present needs her even more.Graduating from high school is a time of limitless possibilities--but not for Glory, who has no plan for what's next. Her mother committed suicide when Glory was only four years old, and she's never stopped wondering if she will eventually go the same way...until a transformative night when she begins to experience an astonishing new power to see a person's infinite past and future. From ancient ancestors to many generations forward, Glory is bombarded with visions--and what she sees ahead of her is terrifying: A tyrannical new leader raises an army. Women's rights disappear. A violent second civil war breaks out. And young girls vanish daily, sold off or interned in camps. Glory makes it her mission to record everything she sees, hoping her notes will somehow make a difference. She may not see a future for herself, but she'll do anything to make sure this one doesn't come to pass.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 53,
+        "contemporary": 169,
+        "fantasy": 159,
+        "feminism": 48,
+        "fiction": 124,
+        "magical realism": 173,
+        "science fiction": 81,
+        "science fiction (dystopia)": 52,
+        "young adult": 544,
+        "young adult (teen)": 68
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1545_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1545_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1545_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1545_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9148,
+        "score": 3.8
+    },
+    "pages": 639,
+    "title": "Glory O'Brien's History of the Future",
+    "url": "https://www.goodreads.com/book/show/17453303-glory-o-brien-s-history-of-the-future",
+    "year_published": 2014
+}

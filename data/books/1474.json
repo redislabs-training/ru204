@@ -1,0 +1,38 @@
+{
+    "author": "Max  Tegmark",
+    "base_id": "1474",
+    "description": "How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology--and there's nobody better qualified or situated to explore that future than Max Tegmark, an MIT professor who's helped mainstream research on how to keep AI beneficial.How can we grow our prosperity through automation without leaving people lacking income or purpose? What career advice should we give today's kids? How can we make future AI systems more robust, so that they do what we want without crashing, malfunctioning or getting hacked? Should we fear an arms race in lethal autonomous weapons? Will machines eventually outsmart us at all tasks, replacing humans on the job market and perhaps altogether? Will AI help life flourish like never before or give us more power than we can handle?What sort of future do you want? This book empowers you to join what may be the most important conversation of our time. It doesn't shy away from the full range of viewpoints or from the most controversial issues--from superintelligence to meaning, consciousness and the ultimate physical limits on life in the cosmos.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "artificial intelligence": 239,
+        "audiobook": 36,
+        "business": 57,
+        "futurism": 48,
+        "nonfiction": 487,
+        "philosophy": 197,
+        "science": 736,
+        "science (physics)": 41,
+        "science (popular science)": 33,
+        "science (technology)": 267
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1474_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1474_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15311,
+        "score": 4.04
+    },
+    "pages": 742,
+    "title": "Life 3.0: Being Human in the Age of Artificial Intelligence",
+    "url": "https://www.goodreads.com/book/show/34272565-life-3-0",
+    "year_published": 2017
+}

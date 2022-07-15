@@ -1,0 +1,42 @@
+{
+    "author": "George R.R. Martin",
+    "base_id": "22416",
+    "description": "Alternate cover edition of ASIN B004XISI4AIn the aftermath of a colossal battle, the future of the Seven Kingdoms hangs in the balance\u2014beset by newly emerging threats from every direction. In the east, Daenerys Targaryen, the last scion of House Targaryen, rules with her three dragons as queen of a city built on dust and death. But Daenerys has thousands of enemies, and many have set out to find her. As they gather, one young man embarks upon his own quest for the queen, with an entirely different goal in mind.Fleeing from Westeros with a price on his head, Tyrion Lannister, too, is making his way to Daenerys. But his newest allies in this quest are not the rag-tag band they seem, and at their heart lies one who could undo Daenerys\u2019s claim to Westeros forever.Meanwhile, to the north lies the mammoth Wall of ice and stone\u2014a structure only as strong as those guarding it. There, Jon Snow, 998th Lord Commander of the Night\u2019s Watch, will face his greatest challenge. For he has powerful foes not only within the Watch but also beyond, in the land of the creatures of ice.From all corners, bitter conflicts reignite, intimate betrayals are perpetrated, and a grand cast of outlaws and priests, soldiers and skinchangers, nobles and slaves, will face seemingly insurmountable obstacles. Some will fail, others will grow in the strength of darkness. But in a time of rising restlessness, the tides of destiny and politics will lead inevitably to the greatest dance of all.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 541,
+        "adventure": 541,
+        "audiobook": 444,
+        "epic": 408,
+        "fantasy": 22838,
+        "fantasy (dragons)": 570,
+        "fantasy (epic fantasy)": 1023,
+        "fantasy (high fantasy)": 686,
+        "fiction": 4689,
+        "science fiction fantasy": 765
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "22416_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "22416_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "22416_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 569021,
+        "score": 4.32
+    },
+    "pages": 1126,
+    "title": "A Dance with Dragons",
+    "url": "https://www.goodreads.com/book/show/10664113-a-dance-with-dragons",
+    "year_published": 2011
+}

@@ -1,41 +1,43 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 320,
-    "description": "For months, I've been chased by a red dragon. They're the females of the dragon shifter invaders, fierce and vicious and as ruthless as they are wild. She hunts me wherever I go, and I'm not safe even behind the walls of a fort. There's only one thing I can do to stop her\u2026\u2026And that's to take her as my mate.But to win the heart of a female dragon, I have to conquer her first. Not so easy for a human man...but Teva's worth the challenge.",
+    "author": "Philip K. Dick",
+    "base_id": "320",
+    "description": "The Inspiration for the Upcoming TV Show \u00a0 Though perhaps most famous as a novelist, over the course of his career Philip K. Dick wrote more than one hundred short stories, each as mind-bending and genre-defining as his longer works. Philip K. Dick\u2019s Electric Dreams collects ten of the best from across his career. In \u201cAutofac,\u201d Dick shows us one of the earliest examples (and warnings) in science fiction of self-replicating machines. \u201cExhibit Piece\u201d and \u201cThe Commuter\u201d feature Dick exploring one of his favorite themes: the shifting nature of reality, and whether it is even possible to really perceive the world as it is. And \u201cThe Hanging Stranger\u201d provides a thrilling, dark political allegory as relevant today as it was when it was written at the height of the Cold War. \u00a0 Strange, funny, and powerful, the stories in this collection highlight a master at work, drawing on his boundless imagination and deep understanding of the human condition.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "dragons": 48,
-        "dystopia": 17,
-        "fantasy": 38,
-        "paranormal": 23,
-        "paranormal romance": 25,
-        "post apocalyptic": 13,
-        "romance": 50,
-        "science fiction": 16,
-        "shapeshifters": 25
+        "anthologies": 7,
+        "audiobook": 7,
+        "classics": 6,
+        "fantasy": 6,
+        "fiction": 54,
+        "literature (american)": 6,
+        "science fiction": 130,
+        "science fiction (cyberpunk)": 6,
+        "science fiction fantasy": 7,
+        "short stories": 89
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "320_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "320_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "320_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "320_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "320_5"
         },
         {
@@ -43,16 +45,20 @@
             "stock_id": "320_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "320_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "320_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2077,
-        "score": 4.26
+        "rating_votes": 3081,
+        "score": 4.12
     },
-    "pages": 305,
-    "title": "Fire In Her Eyes",
-    "url": "https://www.goodreads.com/book/show/50906486-fire-in-her-eyes",
-    "year_published": 2019
+    "pages": 1254,
+    "title": "Philip K. Dick's Electric Dreams",
+    "url": "https://www.goodreads.com/book/show/38650847-philip-k-dick-s-electric-dreams",
+    "year_published": 2017
 }

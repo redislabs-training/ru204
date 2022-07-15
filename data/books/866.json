@@ -1,0 +1,50 @@
+{
+    "author": "Philip K. Dick",
+    "base_id": "866",
+    "description": "In the world of The Minority Report, Commissioner John Anderton is the one to thank for the lack of crime. He is the originator of the Precrime System, which uses precogs\u2014people with the power to see into the future\u2014to identify criminals before they can do any harm. Unfortunately for Anderton, his precogs perceive him as the next criminal.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 75,
+        "fiction": 352,
+        "mystery": 50,
+        "mystery (crime)": 35,
+        "science fiction": 810,
+        "science fiction (cyberpunk)": 35,
+        "science fiction (dystopia)": 100,
+        "science fiction fantasy": 53,
+        "short stories": 180,
+        "thriller": 33
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "866_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "866_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "866_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "866_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "866_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18995,
+        "score": 3.84
+    },
+    "pages": 824,
+    "title": "The Minority Report",
+    "url": "https://www.goodreads.com/book/show/581125.The_Minority_Report",
+    "year_published": 1956
+}

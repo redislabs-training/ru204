@@ -1,0 +1,60 @@
+{
+    "author": "Peter F. Hamilton",
+    "base_id": "909",
+    "description": "The year is 3589, fifteen hundred years after Commonwealth forces barely staved off human extinction in a war against the alien Prime. Now an even greater danger has surfaced: a threat to the existence of the universe itself.At the very heart of the galaxy is the Void, a self-contained microuniverse that cannot be breached, cannot be destroyed, and cannot be stopped as it steadily expands in all directions, consuming everything in its path: planets, stars, civilizations. The Void has existed for untold millions of years. Even the oldest and most technologically advanced of the galaxy\u2019s sentient races, the Raiel, do not know its origin, its makers, or its purpose.But then Inigo, an astrophysicist studying the Void, begins dreaming of human beings who live within it. Inigo\u2019s dreams reveal a world in which thoughts become actions and dreams become reality. Inside the Void, Inigo sees paradise. Thanks to the gaiafield, a neural entanglement wired into most humans, Inigo\u2019s dreams are shared by hundreds of millions\u2013and a religion, the Living Dream, is born, with Inigo as its prophet. But then he vanishes.Suddenly there is a new wave of dreams. Dreams broadcast by an unknown Second Dreamer serve as the inspiration for a massive Pilgrimage into the Void. But there is a chance that by attempting to enter the Void, the pilgrims will trigger a catastrophic expansion, an accelerated devourment phase that will swallow up thousands of worlds. And thus begins a desperate race to find Inigo and the mysterious Second Dreamer. Some seek to prevent the Pilgrimage; others to speed its progress\u2013while within the Void, a supreme entity has turned its gaze, for the first time, outward. . . .From the Hardcover edition.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 25,
+        "audiobook": 45,
+        "epic": 9,
+        "fantasy": 69,
+        "fiction": 200,
+        "science fiction": 931,
+        "science fiction fantasy": 34,
+        "space": 29,
+        "space (space opera)": 195,
+        "speculative fiction": 12
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "909_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "909_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "909_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "909_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "909_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "909_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "909_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24946,
+        "score": 4.18
+    },
+    "pages": 1364,
+    "title": "The Dreaming Void",
+    "url": "https://www.goodreads.com/book/show/866136.The_Dreaming_Void",
+    "year_published": 2007
+}

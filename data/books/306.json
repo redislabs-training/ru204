@@ -1,42 +1,64 @@
 {
-    "author": "Ruby Lionsdrake",
-    "base_id": 306,
-    "description": "Skulking around in the ruins on a planet swarming with treasure hunters, slavers, and bounty hunters isn\u2019t good for one\u2019s health. But Ankari Markovich needs a few archaeological samples for her latest business venture, a venture that might prove lucrative enough to move her family off the impoverished planet where she grew up. Unfortunately, she has no sooner collected her samples than she\u2019s captured by a band of brawny mercenaries. The captain might be handsome, but he\u2019s intent on turning her over to some finance lord who has, for reasons unknown, put a bounty on her head, a ridiculously large one at that. If she can\u2019t figure out a way to escape before she\u2019s delivered to the lord\u2019s home world, she could be forced into a life of indentured servitude\u2014or worse.Captain Viktor Mandrake doesn\u2019t usually take on piddling bounty hunting gigs, but when his intelligence officer informs him of a criminal on a nearby planet, he decides it wouldn\u2019t hurt to take a shuttle down to collect the woman. But Ankari Markovich is trouble from the start, nearly eluding his elite forces, then fighting and tricking his people left and right. He finds himself admiring her spirit, but according to her warrant, she\u2019s a criminal. The safest thing is to keep her in the brig and ignore her until she can be handed off to the man who wants her.But the situation grows more complicated when other bounty hunters show up, wanting to claim Ankari for themselves. Thanks to this woman, Viktor\u2019s ship is in danger, his crew members are going missing, and he\u2019s fighting enemies he never asked for in a jungle in the middle of a hurricane. He\u2019s either going to strangle Ankari\u2026 or fall in love. Either scenario could get him killed.Mercenary Instinct is a full-length, stand-alone novel of 90,000 words. It is part of the \u201cMandrake Company\u201d series of science fiction romance stories and is recommended for readers who enjoy space-based adventure (such as Firefly) and steamy love stories (in the style of Linnea Sinclair).",
+    "author": "John Marsden",
+    "base_id": "306",
+    "description": "In the penultimate installment of the internationally bestselling Tomorrow series, Ellie and her friends look after a gang of orphans whose wild behavior reveals the true impact of war.Amidst a brutal war with no end in sight, Ellie and her four remaining friends discover that their hidden refuge becomes a crowded place when they decide to care for an uncooperative crew of orphans. Things only get worse when Ellie and Homer learn that mysterious visitors have discovered their sanctuary. Has the enemy found them out?Five ordinary teens brave the worst in this electrifying continuation of their battle to stay safe and sane in a war zone that was once their home.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 14,
-        "aliens": 25,
-        "fantasy": 20,
-        "fiction": 16,
-        "futuristic": 12,
-        "paranormal": 14,
-        "romance": 167,
-        "science fiction": 131,
-        "science fiction romance": 35,
-        "space opera": 16
+        "action": 41,
+        "adventure": 44,
+        "adventure (survival)": 22,
+        "cultural (australia)": 57,
+        "fiction": 158,
+        "science fiction": 31,
+        "science fiction (dystopia)": 67,
+        "war": 113,
+        "young adult": 412,
+        "young adult (teen)": 30
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "306_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "306_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "306_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "306_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "306_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "306_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "306_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "306_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2766,
-        "score": 3.75
+        "rating_votes": 14200,
+        "score": 4.16
     },
-    "pages": 1165,
-    "title": "Mercenary Instinct",
-    "url": "https://www.goodreads.com/book/show/23353578-mercenary-instinct",
-    "year_published": 2014
+    "pages": 241,
+    "title": "The Night Is for Hunting",
+    "url": "https://www.goodreads.com/book/show/82553.The_Night_Is_for_Hunting",
+    "year_published": 1998
 }

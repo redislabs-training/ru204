@@ -1,0 +1,44 @@
+{
+    "author": "Ayn Rand",
+    "base_id": "17638",
+    "description": "This is the story of a man who said that he would stop the motor of the world and did. Was he a destroyer or the greatest of liberators?Why did he have to fight his battle, not against his enemies, but against those who needed him most, and his hardest battle against the woman he loved? What is the world\u2019s motor \u2014 and the motive power of every man? You will know the answer to these questions when you discover the reason behind the baffling events that play havoc with the lives of the characters in this story. Tremendous in its scope, this novel presents an astounding panorama of human life \u2014 from the productive genius who becomes a worthless playboy \u2014 to the great steel industrialist who does not know that he is working for his own destruction \u2014 to the philosopher who becomes a pirate \u2014 to the composer who gives up his career on the night of his triumph \u2014 to the woman who runs a transcontinental railroad \u2014 to the lowest track worker in her Terminal tunnels. You must be prepared, when you read this novel, to check every premise at the root of your convictions.This is a mystery story, not about the murder \u2014 and rebirth \u2014 of man\u2019s spirit. It is a philosophical revolution, told in the form of an action thriller of violent events, a ruthlessly brilliant plot structure and an irresistible suspense. Do you say this is impossible? Well, that is the first of your premises to check.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "business": 156,
+        "classics": 4045,
+        "economics": 250,
+        "fiction": 5757,
+        "literature": 619,
+        "novels": 374,
+        "philosophy": 2222,
+        "politics": 607,
+        "science fiction": 396,
+        "science fiction (dystopia)": 349
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "17638_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "17638_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "17638_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 358808,
+        "score": 3.69
+    },
+    "pages": 373,
+    "title": "Atlas Shrugged",
+    "url": "https://www.goodreads.com/book/show/662.Atlas_Shrugged",
+    "year_published": 1957
+}

@@ -1,0 +1,59 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "2022",
+    "description": "Discworld lives on in Unseen Academicals, the latest novel from Terry Pratchett. Delivering the trademark insight and humor readers the world over have come to expect from \u201cthe purely funniest English writer since Wodehouse\u201d (Washington Post Book World), Unseen Academicals focuses on the wizards at Ankh-Morpork\u2019s Unseen University, who are reknowned for many things\u2014sagacity, magic, and their love of teatime\u2014as they attempt to conquer athletics.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 63,
+        "audiobook": 92,
+        "childrens": 66,
+        "childrens (middle grade)": 68,
+        "fantasy": 3462,
+        "fiction": 697,
+        "humor": 554,
+        "humor (comedy)": 192,
+        "science fiction fantasy": 119,
+        "young adult": 80
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2022_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2022_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2022_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2022_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2022_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2022_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "2022_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 50894,
+        "score": 3.97
+    },
+    "pages": 427,
+    "title": "Unseen Academicals",
+    "url": "https://www.goodreads.com/book/show/6250169-unseen-academicals",
+    "year_published": 2009
+}

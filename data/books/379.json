@@ -1,0 +1,47 @@
+{
+    "author": "D.J. MacHale",
+    "base_id": "379",
+    "description": "The moment of truth...This is where it begins. The showdown for Halla. At stake is nothing less than all that ever was and all that will be.There's only one thing missing - Bobby Pendragon.While Bobby remains trapped on Ibara, the battle moves to his home territory: Second Earth. Mark Dimond and Courtney Chetwynde are left on their own to defend Second Earth against the forces of Saint Dane. They must face off against a charismatic cult leader who has risen to power by revealing a shattering truth to the people of Earth: They are not alone.The Convergence has broken down the walls. The territories are on a collision course. The final phase of Saint Dane's quest to rule Halla is under way.And Bobby Pendragon is nowhere to be found.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "action": 13,
+        "adventure": 50,
+        "childrens": 29,
+        "childrens (middle grade)": 20,
+        "fantasy": 410,
+        "fiction": 86,
+        "science fiction": 70,
+        "young adult": 204,
+        "young adult (teen)": 20,
+        "young adult (young adult fantasy)": 18
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "379_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "379_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "379_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "379_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21628,
+        "score": 4.19
+    },
+    "pages": 1342,
+    "title": "Raven Rise",
+    "url": "https://www.goodreads.com/book/show/1729146.Raven_Rise",
+    "year_published": 2008
+}

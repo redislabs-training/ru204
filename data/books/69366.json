@@ -1,0 +1,59 @@
+{
+    "author": "Stieg Larsson",
+    "base_id": "69366",
+    "description": "Harriet Vanger, a scion of one of Sweden\u2019s wealthiest families disappeared over forty years ago. All these years later, her aged uncle continues to seek the truth. He hires Mikael Blomkvist, a crusading journalist recently trapped by a libel conviction, to investigate. He is aided by the pierced and tattooed punk prodigy Lisbeth Salander. Together they tap into a vein of unfathomable iniquity and astonishing corruption.An international publishing sensation, Stieg Larsson\u2019s The Girl with the Dragon Tattoo combines murder mystery, family saga, love story, and financial intrigue into one satisfyingly complex and entertainingly atmospheric novel.Alternate Cover Edition ISBN 0307269752 (ISBN13: 9780307269751)",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 1078,
+        "adult fiction": 912,
+        "contemporary": 1195,
+        "fiction": 13403,
+        "mystery": 10871,
+        "mystery (crime)": 4070,
+        "novels": 890,
+        "suspense": 1658,
+        "thriller": 6464,
+        "thriller (mystery thriller)": 1869
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "69366_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "69366_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "69366_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "69366_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "69366_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "69366_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "69366_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2680222,
+        "score": 4.14
+    },
+    "pages": 912,
+    "title": "The Girl with the Dragon Tattoo",
+    "url": "https://www.goodreads.com/book/show/2429135.The_Girl_with_the_Dragon_Tattoo",
+    "year_published": 2005
+}

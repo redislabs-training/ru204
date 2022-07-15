@@ -1,45 +1,39 @@
 {
     "author": "Scott Reintgen",
-    "base_id": 1880,
+    "base_id": "1880",
     "description": "What would you be willing to risk for a lifetime of fortune? Emmett Atwater isn\u2019t just leaving Detroit; he\u2019s leaving Earth. Why the Babel Corporation recruited him is a mystery, but the number of zeroes on their contract has him boarding their lightship and hoping to return to Earth with enough money to take care of his family. Forever. Before long, Emmett discovers that he is one of ten recruits, all of whom have troubled pasts and are a long way from home. Now each recruit must earn the right to travel down to the planet of Eden\u2014a planet that Babel has kept hidden\u2014where they will mine a substance called Nyxia that has quietly become the most valuable material in the universe. But Babel\u2019s ship is full of secrets. And Emmett will face the ultimate choice: win the fortune at any cost, or find a way to fight that won\u2019t forever compromise what it means to be human.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
         "adventure": 37,
-        "aliens": 31,
         "audiobook": 37,
-        "dystopia": 49,
         "fantasy": 63,
         "fiction": 86,
         "science fiction": 473,
+        "science fiction (aliens)": 31,
+        "science fiction (dystopia)": 49,
         "space": 66,
         "young adult": 405,
-        "young adult science fiction": 26
+        "young adult (young adult science fiction)": 26
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1880_1"
         },
         {
-            "status": "available",
-            "stock_id": "1880_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1880_3"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "1880_4"
+            "stock_id": "1880_2"
         }
     ],
     "metrics": {
         "rating_votes": 7739,
         "score": 4.12
     },
-    "pages": 1203,
+    "pages": 1342,
     "title": "Nyxia",
     "url": "https://www.goodreads.com/book/show/27426044-nyxia",
     "year_published": 2017

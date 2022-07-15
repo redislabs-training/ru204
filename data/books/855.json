@@ -1,0 +1,44 @@
+{
+    "author": "Carlos  Hernandez",
+    "base_id": "855",
+    "description": "How did a raw chicken get inside Yasmany's locker?When Sal Vidon meets Gabi Real for the first time, it isn't under the best of circumstances. Sal is in the principal's office for the third time in three days, and it's still the first week of school. Gabi, student council president and editor of the school paper, is there to support her friend Yasmany, who just picked a fight with Sal. She is determined to prove that somehow, Sal planted a raw chicken in Yasmany's locker, even though nobody saw him do it and the bloody poultry has since mysteriously disappeared. Sal prides himself on being an excellent magician, but for this sleight of hand, he relied on a talent no one would guess . . . except maybe Gabi, whose sharp eyes never miss a trick. When Gabi learns that he's capable of conjuring things much bigger than a chicken--including his dead mother--and she takes it all in stride, Sal knows that she is someone he can work with. There's only one slight problem: their manipulation of time and space could put the entire universe at risk. A sassy entropy sweeper, a documentary about wedgies, a principal who wears a Venetian bauta mask, and heaping platefuls of Cuban food are just some of the delights that await in this mind-blowing novel gift-wrapped in love and laughter.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 49,
+        "childrens": 49,
+        "childrens (middle grade)": 378,
+        "fantasy": 267,
+        "fantasy (magic)": 30,
+        "fantasy (mythology)": 61,
+        "fiction": 51,
+        "humor": 63,
+        "science fiction": 133,
+        "young adult": 46
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "855_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "855_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "855_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3522,
+        "score": 4.2
+    },
+    "pages": 1078,
+    "title": "Sal and Gabi Break the Universe",
+    "url": "https://www.goodreads.com/book/show/36595887-sal-and-gabi-break-the-universe",
+    "year_published": 2019
+}

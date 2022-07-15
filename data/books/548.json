@@ -1,0 +1,63 @@
+{
+    "author": "Robison Wells",
+    "base_id": "548",
+    "description": "Laura and Alec are trained terrorists.Jack and Aubrey are high school students.There was no reason for them to ever meet.But now, a mysterious virus is spreading throughout America, infecting teenagers with impossible powers. And these four are about to find their lives intertwined in a complex web of deception, loyalty, and catastrophic danger\u2014where one wrong choice could trigger an explosion that ends it all.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "action": 15,
+        "adventure": 15,
+        "fantasy": 40,
+        "fantasy (paranormal)": 21,
+        "fantasy (supernatural)": 14,
+        "fiction": 31,
+        "science fiction": 14,
+        "science fiction (dystopia)": 99,
+        "young adult": 74,
+        "young adult (teen)": 17
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "548_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "548_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "548_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "548_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "548_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "548_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "548_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "548_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3758,
+        "score": 3.67
+    },
+    "pages": 452,
+    "title": "Blackout",
+    "url": "https://www.goodreads.com/book/show/17332588-blackout",
+    "year_published": 2013
+}

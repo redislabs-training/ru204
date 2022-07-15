@@ -1,21 +1,23 @@
 {
-    "author": "M.A. Church",
-    "base_id": 66,
-    "description": "Two very different civilizations\u2014one bathed in bright sunlight, and the other veiled in shadow.Bad decisions, declining resources, and a king on the brink of madness force Prince Varo Kutchif, third son of the royal family and a starship captain, to attempt the impossible: barter for Black Phospolrock, an energy source the mysterious Helkan kingdom has in abundance. Varo opens a line of communication with Adlar, an intriguing Helkan who seems to reciprocate Varo\u2019s interest. He hopes so, because if negotiations collapse, Varo has orders to attack.The Helkans preside over a planet shrouded in perpetual darkness. Several species have tried to exploit its natural resources through trade with them, but all have failed. Adlar Mondur is the older brother to the Helkan ruler. An assassin of the highest order, he\u2019ll do anything to protect his king and his people\u2014including tracking down the Yesri prince who crash-lands on their planet, leaving an ugly scar across its untouched beauty.Thus begins a journey where two men from disparate civilizations grow from enemies to lovers.",
+    "author": "Connie Willis",
+    "base_id": "66",
+    "description": "\"Fire Watch\" is a science fiction novelette by American writer Connie Willis. The story, first published in Isaac Asimov's Science Fiction Magazine in February 1982,[1] involves a time-traveling historian who goes back to the Blitz in London, to participate in the fire lookout at St. Paul's Cathedral.The protagonist has a deep emotional attachment to the Cathedral and is highly devoted to his role in defending it - especially due to his bitter knowledge that St. Paul's would survive the World War II bombings but would be obliterated in a terrorist attack in the protagonist's own time.Although Willis' writing of \"Fire Watch\" predates the production of Doomsday Book by about a decade, Kivrin Engle, the main character of Doomsday Book, also appears as a minor character in \"Fire Watch\". The novelette references Engle's experience with the Black Plague while time-traveling in the 14th century.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 20,
-        "fantasy": 8,
-        "fiction": 3,
-        "gay": 7,
-        "male male romance": 26,
-        "paranormal": 3,
-        "romance": 13,
-        "science fiction": 20,
-        "science fiction romance": 4,
-        "vampires": 4
+        "adult fiction": 5,
+        "fantasy": 12,
+        "fiction": 25,
+        "historical": 6,
+        "historical (historical fiction)": 29,
+        "science fiction": 67,
+        "science fiction (time travel)": 65,
+        "science fiction fantasy": 5,
+        "short stories": 21,
+        "war (world war ii)": 4
     },
     "inventory": [
         {
@@ -29,34 +31,14 @@
         {
             "status": "maintenance",
             "stock_id": "66_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "66_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "66_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "66_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "66_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "66_8"
         }
     ],
     "metrics": {
-        "rating_votes": 424,
-        "score": 3.84
+        "rating_votes": 757,
+        "score": 3.88
     },
-    "pages": 935,
-    "title": "In Enemy Hands",
-    "url": "https://www.goodreads.com/book/show/33221754-in-enemy-hands",
-    "year_published": 2016
+    "pages": 645,
+    "title": "Fire Watch",
+    "url": "https://www.goodreads.com/book/show/10301442-fire-watch",
+    "year_published": 1982
 }

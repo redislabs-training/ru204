@@ -1,34 +1,54 @@
 {
-    "author": "Beth Revis",
-    "base_id": 3750,
-    "description": "Amy and Elder have finally left the oppressive walls of the spaceship Godspeed behind. They're ready to start life afresh--to build a home--on Centauri-Earth, the planet that Amy has traveled 25 trillion miles across the universe to experience. But this new Earth isn't the paradise Amy had been hoping for. There are giant pterodactyl-like birds, purple flowers with mind-numbing toxins, and mysterious, unexplained ruins that hold more secrets than their stone walls first let on. The biggest secret of all? Godspeed's former passengers aren't alone on this planet. And if they're going to stay, they'll have to fight. Amy and Elder must race to discover who--or what--else is out there if they are to have any hope of saving their struggling colony and building a future together. They will have to look inward to the very core of what makes them human on this, their most harrowing journey yet. Because if the colony collapses? Then everything they have sacrificed--friends, family, life on Earth--will have been for nothing. FUELED BY LIES. RULED BY CHAOS. ALMOST HOME.",
+    "author": "Robert Jordan",
+    "base_id": "3750",
+    "description": "The seals of Shayol Ghul are weak now, and the Dark One reaches out. The Shadow is rising to cover humankind.In Tar Valon, Min sees portents of hideous doom. Will the White Tower itself be broken?In the Two Rivers, the Whitecloaks ride in pursuit of a man with golden eyes, and in pursuit of the Dragon Reborn.In Cantorin, among the Sea Folk, High Lady Suroth plans the return of the Seanchan armies to the mainland.In the Stone of Tear, the Lord Dragon considers his next move. It will be something no one expects, not the Black Ajah, not Tairen nobles, not Aes Sedai, not Egwene or Elayne or Nynaeve.Against the Shadow rising stands the Dragon Reborn.....",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 65,
-        "aliens": 81,
-        "dystopia": 467,
-        "fantasy": 217,
-        "fiction": 147,
-        "mystery": 101,
-        "romance": 359,
-        "science fiction": 837,
-        "space": 116,
-        "young adult": 948
+        "adventure": 213,
+        "audiobook": 145,
+        "epic": 177,
+        "fantasy": 9448,
+        "fantasy (epic fantasy)": 695,
+        "fantasy (high fantasy)": 324,
+        "fantasy (magic)": 131,
+        "fiction": 1066,
+        "science fiction fantasy": 336,
+        "young adult": 106
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "3750_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3750_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3750_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3750_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3750_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3750_6"
         }
     ],
     "metrics": {
-        "rating_votes": 32049,
-        "score": 4.08
+        "rating_votes": 178155,
+        "score": 4.23
     },
-    "pages": 963,
-    "title": "Shades of Earth",
-    "url": "https://www.goodreads.com/book/show/10345937-shades-of-earth",
-    "year_published": 2013
+    "pages": 1018,
+    "title": "The Shadow Rising",
+    "url": "https://www.goodreads.com/book/show/9539.The_Shadow_Rising",
+    "year_published": 1992
 }

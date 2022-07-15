@@ -1,38 +1,36 @@
 {
-    "author": "Evangeline Anderson",
-    "base_id": 517,
-    "description": "A desperate girl on the run with nowhere to hide... A warrior who has made a vow never to claim a bride... Sophia Waterhouse is being Hunted and the only man who can save her is the one she fears the most...Sophia Waterhouse has always been afraid of needles and vampires so there\u2019s no way she wants anything to do with a modern day Count Dracula\u2014even if he does come wrapped in the package of a huge Kindred warrior with blond hair and ice blue eyes. She\u2019s only on the Kindred Mothership to participate in her sister Liv\u2019s wedding and that\u2019s all.Sylvan is a Tranq Kindred who has made a sacred vow never to call a bride. After a devastating rejection on his home planet, his heart is a block of ice no one can melt\u2014or so he thinks until he meets Sophia.When their ship is forced down in the middle of a rugged mountain range Sophia and Sylvan are stranded. Running for their lives they have only each other to depend on. Will they give in to the intense attraction between them or will the evil hunting Sophia take its toll? You\u2019ll have to read Brides of the Kindred Book 2\u2014Hunted to find out.",
+    "author": "Chris Claremont",
+    "base_id": "517",
+    "description": "Relive the legendary first journey into the dystopian future of 2013 where Sentinels stalk the Earth and the X-Men are humanity's only hope... until they die! Also featuring the first apperance of Alpha Flight, the return of the Wendigo, the history of Cyclops... and a demon for Christmas!?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 42,
-        "aliens": 168,
-        "erotica": 81,
-        "fantasy": 69,
-        "paranormal": 123,
-        "paranormal romance": 99,
-        "romance": 229,
-        "science fiction": 197,
-        "science fiction romance": 71,
-        "vampires": 36
+        "comics (comic book)": 80,
+        "comics (superheroes)": 64,
+        "fantasy": 26,
+        "fiction": 73,
+        "graphic novels comics": 69,
+        "marvel (x men)": 112,
+        "science fiction": 32,
+        "sequential art (comics)": 714,
+        "sequential art (graphic novels)": 430,
+        "superheroes (marvel)": 188
     },
     "inventory": [
         {
-            "status": "on_loan",
-            "stock_id": "517_1"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "517_2"
+            "stock_id": "517_1"
         }
     ],
     "metrics": {
-        "rating_votes": 9599,
-        "score": 3.98
+        "rating_votes": 11983,
+        "score": 4.14
     },
-    "pages": 1044,
-    "title": "Hunted",
-    "url": "https://www.goodreads.com/book/show/11273356-hunted",
-    "year_published": 2011
+    "pages": 529,
+    "title": "X-Men: Days of Future Past",
+    "url": "https://www.goodreads.com/book/show/306608.X_Men",
+    "year_published": 1981
 }

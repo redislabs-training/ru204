@@ -1,0 +1,38 @@
+{
+    "author": "Elizabeth Kostova",
+    "base_id": "16385",
+    "description": "To you, perceptive reader, I bequeath my history....Late one night, exploring her father's library, a young woman finds an ancient book and a cache of yellowing letters. The letters are all addressed to \"My dear and unfortunate successor,\" and they plunge her into a world she never dreamed of, a labyrinth where the secrets of her father's past and her mother's mysterious fate connect to an inconceivable evil hidden in the depths of history.The letters provide links to one of the darkest powers that humanity has ever known and to a centuries-long quest to find the source of that darkness and wipe it out. It is a quest for the truth about Vlad the Impaler, the medieval ruler whose barbarous reign formed the basis of the legend of Dracula. Generations of historians have risked their reputations, their sanity, and even their lives to learn the truth about Vlad the Impaler and Dracula. Now one young woman must decide whether to take up this quest herself--to follow her father in a hunt that nearly brought him to ruin years ago, when he was a vibrant young scholar and her mother was still alive. What does the legend of Vlad the Impaler have to do with the modern world? Is it possible that the Dracula of myth truly existed and that he has lived on, century after century, pursuing his own unknowable ends? The answers to these questions cross time and borders, as first the father and then the daughter search for clues, from dusty Ivy League libraries to Istanbul, Budapest, and the depths of Eastern Europe. In city after city, in monasteries and archives, in letters and in secret conversations, the horrible truth emerges about Vlad the Impaler's dark reign and about a time-defying pact that may have kept his awful work alive down through the ages.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "fantasy": 2012,
+        "fantasy (paranormal)": 549,
+        "fiction": 3768,
+        "gothic": 531,
+        "historical": 802,
+        "historical (historical fiction)": 3602,
+        "horror": 1729,
+        "mystery": 1322,
+        "paranormal (vampires)": 1274,
+        "thriller": 395
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "16385_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16385_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 247940,
+        "score": 3.78
+    },
+    "pages": 903,
+    "title": "The Historian",
+    "url": "https://www.goodreads.com/book/show/30236962-the-historian",
+    "year_published": 2005
+}

@@ -1,0 +1,36 @@
+{
+    "author": "Kurt Vonnegut Jr.",
+    "base_id": "2906",
+    "description": "Gal\u00e1pagos takes the reader back one million years, to A.D. 1986. A simple vacation cruise suddenly becomes an evolutionary journey. Thanks to an apocalypse, a small group of survivors stranded on the Gal\u00e1pagos Islands are about to become the progenitors of a brave, new, and totally different human race. In this inimitable novel, America\u2019s master satirist looks at our world and shows us all that is sadly, madly awry\u2014and all that is worth saving.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 65,
+        "classics": 339,
+        "fantasy": 95,
+        "fiction": 1721,
+        "humor": 218,
+        "literature": 173,
+        "literature (american)": 117,
+        "novels": 156,
+        "science fiction": 637,
+        "science fiction (dystopia)": 71
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2906_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 71039,
+        "score": 3.86
+    },
+    "pages": 1214,
+    "title": "Gal\u00e1pagos",
+    "url": "https://www.goodreads.com/book/show/9593.Gal_pagos",
+    "year_published": 1985
+}

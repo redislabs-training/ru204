@@ -1,0 +1,52 @@
+{
+    "author": "Sylvain Neuvel",
+    "base_id": "2528",
+    "description": "Britain, the not-too-distant future.Idir is sitting the British Citizenship Test.He wants his family to belong.Twenty-five questions to determine their fate. Twenty-five chances to impress.When the test takes an unexpected and tragic turn, Idir is handed the power of life and death.How do you value a life when all you have is multiple choice?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 164,
+        "adult fiction": 45,
+        "audiobook": 107,
+        "fiction": 355,
+        "novella": 175,
+        "science fiction": 611,
+        "science fiction (dystopia)": 269,
+        "short stories": 96,
+        "speculative fiction": 41,
+        "thriller": 64
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2528_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2528_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2528_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2528_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2528_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13311,
+        "score": 3.86
+    },
+    "pages": 439,
+    "title": "The Test",
+    "url": "https://www.goodreads.com/book/show/41940388-the-test",
+    "year_published": 2019
+}

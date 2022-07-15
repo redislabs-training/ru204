@@ -1,0 +1,60 @@
+{
+    "author": "Grant Morrison",
+    "base_id": "287",
+    "description": "This new edition of the first collection of Grant Morrison's DOOM PATROL run includes issues #19 - 25 of the series, including the restoration of three story pages omitted from the original printing. Plus, a new cover by Bolland.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 36,
+        "comics (superheroes)": 38,
+        "fantasy": 22,
+        "fiction": 43,
+        "graphic novels comics": 35,
+        "horror": 13,
+        "science fiction": 16,
+        "sequential art (comics)": 457,
+        "sequential art (graphic novels)": 234,
+        "superheroes (dc comics)": 41
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "287_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "287_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "287_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "287_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "287_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "287_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "287_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6002,
+        "score": 4.08
+    },
+    "pages": 1349,
+    "title": "Doom Patrol, Vol. 1: Crawling from the Wreckage",
+    "url": "https://www.goodreads.com/book/show/22355.Doom_Patrol_Vol_1",
+    "year_published": 1989
+}

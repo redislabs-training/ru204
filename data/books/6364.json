@@ -1,0 +1,60 @@
+{
+    "author": "Kate Atkinson",
+    "base_id": "6364",
+    "description": "In Life After Life Ursula Todd lived through the turbulent events of the last century again and again. In A God in Ruins, Atkinson turns her focus on Ursula\u2019s beloved younger brother Teddy \u2013 would-be poet, RAF bomber pilot, husband and father \u2013 as he navigates the perils and progress of the 20th century. For all Teddy endures in battle, his greatest challenge will be to face living in a future he never expected to have.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult fiction": 65,
+        "audiobook": 161,
+        "contemporary": 67,
+        "european literature (british literature)": 99,
+        "fiction": 1109,
+        "historical": 181,
+        "historical (historical fiction)": 1042,
+        "literary fiction": 151,
+        "war": 161,
+        "war (world war ii)": 133
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "6364_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "6364_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6364_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "6364_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6364_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6364_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6364_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 49429,
+        "score": 3.94
+    },
+    "pages": 284,
+    "title": "A God in Ruins",
+    "url": "https://www.goodreads.com/book/show/3722183-a-god-in-ruins",
+    "year_published": 2015
+}

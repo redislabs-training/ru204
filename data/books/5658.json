@@ -1,0 +1,63 @@
+{
+    "author": "Alan Moore",
+    "base_id": "5658",
+    "description": "\"Remember, remember the fifth of November...\"A frightening and powerful tale of the loss of freedom and identity in a chillingly believable totalitarian world, V for Vendetta stands as one of the highest achievements of the comics medium and a defining work for creators Alan Moore and David Lloyd.Set in an imagined future England that has given itself over to fascism, this groundbreaking story captures both the suffocating nature of life in an authoritarian police state and the redemptive power of the human spirit which rebels against it. Crafted with sterling clarity and intelligence, V for Vendetta brings an unequaled depth of characterization and verisimilitude to its unflinching account of oppression and resistance.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "classics": 354,
+        "comics (comic book)": 364,
+        "fantasy": 247,
+        "fiction": 1670,
+        "graphic novels comics": 555,
+        "politics": 261,
+        "science fiction": 697,
+        "science fiction (dystopia)": 1031,
+        "sequential art (comics)": 4683,
+        "sequential art (graphic novels)": 5876
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5658_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5658_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5658_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5658_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5658_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5658_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5658_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5658_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 271488,
+        "score": 4.25
+    },
+    "pages": 802,
+    "title": "V for Vendetta",
+    "url": "https://www.goodreads.com/book/show/5805.V_for_Vendetta",
+    "year_published": 1990
+}

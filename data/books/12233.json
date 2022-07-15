@@ -1,0 +1,68 @@
+{
+    "author": "Cornelia Funke",
+    "base_id": "12233",
+    "description": "Alternate cover edition: 9780439709101From internationally acclaimed storyteller Cornelia Funke, this bestselling, magical epic is now out in paperback!One cruel night, Meggie's father reads aloud from a book called INKHEART-- and an evil ruler escapes the boundaries of fiction and lands in their living room. Suddenly, Meggie is smack in the middle of the kind of adventure she has only read about in books. Meggie must learn to harness the magic that has conjured this nightmare. For only she can change the course of the story that has changed her life forever.This is INKHEART--a timeless tale about books, about imagination, about life. Dare to read it aloud.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 728,
+        "audiobook": 247,
+        "childrens": 929,
+        "childrens (middle grade)": 872,
+        "fantasy": 10045,
+        "fantasy (magic)": 551,
+        "fiction": 1642,
+        "writing (books about books)": 433,
+        "young adult": 3298,
+        "young adult (young adult fantasy)": 290
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "12233_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "12233_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "12233_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "12233_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "12233_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "12233_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "12233_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "12233_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "12233_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 383254,
+        "score": 3.88
+    },
+    "pages": 1391,
+    "title": "Inkheart",
+    "url": "https://www.goodreads.com/book/show/28194.Inkheart",
+    "year_published": 2003
+}

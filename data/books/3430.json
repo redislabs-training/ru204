@@ -1,41 +1,42 @@
 {
-    "author": "James S.A. Corey",
-    "base_id": 3430,
-    "description": "The fifth novel in Corey's New York Times bestselling Expanse series--now being produced for television by the SyFy Channel!A thousand worlds have opened, and the greatest land rush in human history has begun. As wave after wave of colonists leave, the power structures of the old solar system begin to buckle.Ships are disappearing without a trace. Private armies are being secretly formed. The sole remaining protomolecule sample is stolen. Terrorist attacks previously considered impossible bring the inner planets to their knees. The sins of the past are returning to exact a terrible price.And as a new human order is struggling to be born in blood and fire, James Holden and the crew of the Rocinante must struggle to survive and get back to the only home they have left.",
+    "author": "Alan Lightman",
+    "base_id": "3430",
+    "description": "A modern classic, Einstein\u2019s Dreams is a fictional collage of stories dreamed by Albert Einstein in 1905, when he worked in a patent office in Switzerland. As the defiant but sensitive young genius is creating his theory of relativity, a new conception of time, he imagines many possible worlds. In one, time is circular, so that people are fated to repeat triumphs and failures over and over. In another, there is a place where time stands still, visited by lovers and parents clinging to their children. In another, time is a nightingale, sometimes trapped by a bell jar.Now translated into thirty languages, Einstein\u2019s Dreams has inspired playwrights, dancers, musicians, and painters all over the world. In poetic vignettes, it explores the connections between science and art, the process of creativity, and ultimately the fragility of human existence.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 28,
-        "adventure": 43,
-        "audiobook": 129,
-        "fantasy": 49,
-        "fiction": 574,
-        "novels": 36,
-        "science fiction": 1797,
-        "science fiction fantasy": 83,
-        "space": 102,
-        "space opera": 381
+        "fantasy": 104,
+        "fiction": 1282,
+        "historical (historical fiction)": 107,
+        "literature": 81,
+        "novels": 63,
+        "philosophy": 311,
+        "science (physics)": 95,
+        "science fiction": 276,
+        "science fiction (time travel)": 56,
+        "short stories": 396
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "3430_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "3430_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "3430_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "3430_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "3430_5"
         },
         {
@@ -45,14 +46,22 @@
         {
             "status": "on_loan",
             "stock_id": "3430_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3430_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "3430_9"
         }
     ],
     "metrics": {
-        "rating_votes": 61148,
-        "score": 4.41
+        "rating_votes": 32090,
+        "score": 4.07
     },
-    "pages": 230,
-    "title": "Nemesis Games",
-    "url": "https://www.goodreads.com/book/show/22886612-nemesis-games",
-    "year_published": 2015
+    "pages": 564,
+    "title": "Einstein's Dreams",
+    "url": "https://www.goodreads.com/book/show/14376.Einstein_s_Dreams",
+    "year_published": 1992
 }

@@ -1,21 +1,23 @@
 {
-    "author": "Mira Grant",
-    "base_id": 241,
-    "description": "An original young adult novel of the Alien universeOlivia and her twin sister Viola have been dragged around the universe for as long as they can remember. Their parents, both xenobiologists, are always in high demand for their research into obscure alien biology.Just settled on a new colony world, they discover an alien threat unlike anything they\u2019ve ever seen. And suddenly the sisters\u2019 world is ripped apart.On the run from terrifying aliens, Olivia\u2019s knowledge of xenobiology and determination to protect her sister are her only weapons as the colony collapses into chaos. But then a shocking family secret bursts open\u2014one that\u2019s as horrifying to Olivia as the aliens surrounding them.The creatures infiltrate the rich wildlife on this virgin colony world\u2014and quickly start adapting. Olivia\u2019s going to have to adapt, too, if she\u2019s going to survive...An Imprint Book",
+    "author": "Emily Devenport",
+    "base_id": "241",
+    "description": "The Executives control Oichi\u2019s senses, her voice, her life. Until the day they kill her.An executive clan gives the order to shoot Oichi out of an airlock on suspicion of being an insurgent. A sentient AI, a Medusa unit, rescues Oichi and begins to teach her the truth\u2014the Executives are not who they think they are. Oichi, officially dead and now bonded to the Medusa unit, sees a chance to make a better life for everyone on board.As she sets things right one assassination at a time, Oichi becomes the very insurgent the Executives feared, and in the process uncovers the shocking truth behind the generation starship that is their home.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 30,
+        "adult": 15,
+        "audiobook": 5,
         "fantasy": 7,
-        "fiction": 12,
-        "horror": 78,
-        "lgbt": 24,
-        "queer": 7,
-        "science fiction": 85,
-        "space": 8,
-        "thriller": 6,
-        "young adult": 76
+        "fiction": 33,
+        "science fiction": 151,
+        "science fiction (aliens)": 6,
+        "science fiction fantasy": 7,
+        "space": 6,
+        "space (space opera)": 10,
+        "thriller (mystery thriller)": 5
     },
     "inventory": [
         {
@@ -25,14 +27,22 @@
         {
             "status": "maintenance",
             "stock_id": "241_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "241_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "241_4"
         }
     ],
     "metrics": {
-        "rating_votes": 966,
-        "score": 3.81
+        "rating_votes": 1339,
+        "score": 3.84
     },
-    "pages": 1357,
-    "title": "Alien: Echo",
-    "url": "https://www.goodreads.com/book/show/40776737-alien",
-    "year_published": 2019
+    "pages": 632,
+    "title": "Medusa Uploaded",
+    "url": "https://www.goodreads.com/book/show/36245705-medusa-uploaded",
+    "year_published": 2018
 }

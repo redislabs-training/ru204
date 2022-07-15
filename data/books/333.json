@@ -1,37 +1,39 @@
 {
-    "author": "Erin Raegan",
-    "base_id": 333,
-    "description": "PeytonI was having a cold coffee with my best friend Vivian when the whole world went upside down.Now there are gazelle-glowing-like-a-light-bulb aliens running around eating everybody, and enormous dark purply colored aliens that have a strong resemblance to bats, dive bombing from the sky. One of the bats says I'm his and I need to ease his mating rage. Yeah, not happening. Except, they tell me the fate of my world comes down to me sacrificing myself to him. Maybe this won't go like I planned. But I figure, if I have to bend to the big guy's will, I'm damn well getting something out of it. TahkMy Pythe is a human. Weak as they are, I cannot fathom how she was chosen for me\u2014the Commander of all Dahk.But then she rises up for her species and I cannot help but notice her fierce heart. I will slaughter all who dare harm her and her species, and she will be mine.***Warninig. For readers 18 years and older. Contains explicit sexual situations, possible triggers, dark themes, and violence. Start of a series featuring these characters and multiple others.",
+    "author": "Taran Matharu",
+    "base_id": "333",
+    "description": "Introducing an epic new trilogy from Taran Matharu, author of the New York Times\u2013bestselling Summoner series. Throughout history, people have vanished with no explanation. A group of teenagers are about to discover why.Cade is settling into a new boarding school, contemplating his future, when he finds himself transported to another realm. He soon discovers their new world is populated with lost remnants from the past: prehistoric creatures, ancient relics, and stranger still \u2014 people. Overwhelmed by his new surroundings, Cade has little time to adjust, for soon he and his fellow classmates are forced to become contenders in a brutal game, controlled by mysterious overlords.But who are these beings and why did they choose these teens? Cade must prepare for battle . . . because hiding is not an option.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 56,
-        "contemporary": 5,
-        "erotica": 5,
-        "fantasy": 9,
-        "humor": 6,
-        "paranormal": 14,
-        "paranormal romance": 6,
-        "romance": 37,
-        "science fiction": 50,
-        "science fiction romance": 18
+        "action": 4,
+        "adventure": 10,
+        "fantasy": 149,
+        "fiction": 12,
+        "mystery": 8,
+        "science fiction": 44,
+        "science fiction (aliens)": 4,
+        "science fiction (dystopia)": 6,
+        "young adult": 75,
+        "young adult (young adult fantasy)": 15
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "333_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "333_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "333_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "333_4"
         },
         {
@@ -43,24 +45,16 @@
             "stock_id": "333_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "333_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "333_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "333_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2366,
-        "score": 4.07
+        "rating_votes": 1561,
+        "score": 3.83
     },
-    "pages": 766,
-    "title": "Pythen",
-    "url": "https://www.goodreads.com/book/show/42052148-pythen",
-    "year_published": 2018
+    "pages": 280,
+    "title": "The Chosen",
+    "url": "https://www.goodreads.com/book/show/40864763-the-chosen",
+    "year_published": 2019
 }

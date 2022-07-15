@@ -1,24 +1,19 @@
 {
-    "author": "Kaitlyn O'Connor",
-    "base_id": 24,
-    "description": "When Captain Danielle Dubois crash lands on the world terra-formed by the Danu she isn\u2019t the only one shocked. The cyborgs that people the world of Danu have never seen a female ... but they definitely like what they see!",
+    "author": "Stephen Krensky",
+    "base_id": "24",
+    "description": "Santa has the best job he can think of -- brining presents each Christmas to children all around the world. Every year he prepares for his trip: He trims his beard, takes a bath, gets dressed, and packs up his sleigh fort he long night ahead. But there are always a few unexpected delays that make things a little hectic. Muckle, one of the elves who helps Santa, thinks he can come up with a more efficient way of delivering the toys -- a method that won't involve Santa at all.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 22,
-        "erotic romance": 7,
-        "erotica": 30,
-        "futuristic": 8,
-        "paranormal": 4,
-        "romance": 14,
-        "science fiction": 23,
-        "science fiction romance": 7,
-        "shapeshifters": 5
+        "childrens": 8,
+        "childrens (picture books)": 20,
+        "holiday": 6,
+        "holiday (christmas)": 32
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "24_1"
         },
         {
@@ -26,16 +21,36 @@
             "stock_id": "24_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "24_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "24_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "24_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "24_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "24_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "24_8"
         }
     ],
     "metrics": {
-        "rating_votes": 582,
-        "score": 3.62
+        "rating_votes": 204,
+        "score": 3.86
     },
-    "pages": 811,
-    "title": "Discovery (The Forgotten",
-    "url": "https://www.goodreads.com/book/show/8111624-discovery",
-    "year_published": 2010
+    "pages": 891,
+    "title": "How Santa Lost His Job",
+    "url": "https://www.goodreads.com/book/show/5604616-how-santa-lost-his-job",
+    "year_published": 2001
 }

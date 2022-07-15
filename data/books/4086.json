@@ -1,0 +1,62 @@
+{
+    "author": "Nnedi Okorafor",
+    "base_id": "4086",
+    "description": "Akata Witch transports the reader to a magical place where nothing is quite as it seems. Born in New York, but living in Aba, Nigeria, twelve-year old Sunny is understandably a little lost. She is albino and thus, incredibly sensitive to the sun. All Sunny wants to do is be able to play football and get through another day of school without being bullied. But once she befriends Orlu and Chichi, Sunny is plunged in to the world of the Leopard People, where your worst defect becomes your greatest asset. Together, Sunny, Orlu, Chichi and Sasha form the youngest ever Oha Coven. Their mission is to track down Black Hat Otokoto, the man responsible for kidnapping and maiming children. Will Sunny be able to overcome the killer with powers stronger than her own, or will the future she saw in the flames become reality?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 160,
+        "childrens (middle grade)": 282,
+        "cultural (africa)": 256,
+        "fantasy": 2606,
+        "fantasy (magic)": 239,
+        "fiction": 601,
+        "paranormal (witches)": 131,
+        "science fiction fantasy": 109,
+        "young adult": 1168,
+        "young adult (young adult fantasy)": 127
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4086_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4086_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "4086_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4086_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4086_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4086_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4086_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4086_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 23648,
+        "score": 4.06
+    },
+    "pages": 867,
+    "title": "Akata Witch",
+    "url": "https://www.goodreads.com/book/show/7507944-akata-witch",
+    "year_published": 2011
+}

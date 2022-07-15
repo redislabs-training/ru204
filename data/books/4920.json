@@ -1,0 +1,55 @@
+{
+    "author": "Erika Johansen",
+    "base_id": "4920",
+    "description": "Kelsea Glynn is the Queen of the Tearling. Despite her youth, she has quickly asserted herself as a fair, just and powerful ruler.However, power is a double-edged sword, and small actions can have grave consequences. In trying to do what is right - stopping a vile trade in humankind - Kelsea has crossed the Red Queen, a ruthless monarch whose rule is bound with dark magic and the spilling of blood. The Red Queen's armies are poised to invade the Tearling, and it seems nothing can stop them.Yet there was a time before the Crossing, and there Kelsea finds a strange and possibly dangerous ally, someone who might hold the key to the fate of the Tearling, and indeed to Kelsea's own soul. But time is running out...Erika Johansen's fierce and unforgettable young heroine returns in this dazzling new novel of magic and adventure, set in the beguiling world of the Tearling.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 162,
+        "audiobook": 130,
+        "fantasy": 2843,
+        "fantasy (high fantasy)": 106,
+        "fantasy (magic)": 199,
+        "fiction": 377,
+        "science fiction": 118,
+        "science fiction (dystopia)": 344,
+        "science fiction fantasy": 92,
+        "young adult": 463
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4920_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4920_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4920_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4920_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4920_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4920_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 46805,
+        "score": 4.11
+    },
+    "pages": 302,
+    "title": "The Invasion of the Tearling",
+    "url": "https://www.goodreads.com/book/show/22698568-the-invasion-of-the-tearling",
+    "year_published": 2015
+}

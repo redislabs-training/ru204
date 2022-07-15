@@ -1,0 +1,42 @@
+{
+    "author": "Chuck Palahniuk",
+    "base_id": "14891",
+    "description": "Chuck Palahniuk showed himself to be his generation\u2019s most visionary satirist in this, his first book. Fight Club\u2019s estranged narrator leaves his lackluster job when he comes under the thrall of Tyler Durden, an enigmatic young man who holds secret after-hours boxing matches in the basement of bars. There, two men fight \"as long as they have to.\" This is a gloriously original work that exposes the darkness at the core of our modern world.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 353,
+        "adult fiction": 279,
+        "classics": 1217,
+        "contemporary": 1219,
+        "fiction": 7096,
+        "literature": 347,
+        "literature (american)": 292,
+        "mystery": 467,
+        "novels": 620,
+        "thriller": 1107
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "14891_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "14891_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "14891_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 509670,
+        "score": 4.18
+    },
+    "pages": 839,
+    "title": "Fight Club",
+    "url": "https://www.goodreads.com/book/show/36236124-fight-club",
+    "year_published": 1996
+}

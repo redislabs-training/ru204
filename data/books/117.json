@@ -1,58 +1,64 @@
 {
-    "author": "Lia Black",
-    "base_id": 117,
-    "description": "Librarian's Note: This is an alternate/new cover for ASIN B00LR78V6UUndercover agent Alex Kley is a long way from home. Six months of investigation have brought him to Willow House, a high class brothel on Omanai Station, as beautiful on the outside as it is corrupt on the inside. Sold into sexual slavery to infiltrate an illegal prostitution ring, Alex must find the evidence he needs to bring down the leader of a powerful criminal cartel\u2014a man who may not even be human. Illythe, the manager of Willow House, is a long way from freedom. The jet-skinned beauty with the face of an angel walks the halls of Willow House with serenity and authority, but underneath his cold and beautiful facade, Illythe is as much a slave as any of the young men working in the brothel. In an undercover operation, falling in love is the worst thing an agent can do, but Illythe is a mystery that Alex can\u2019t resist. It doesn\u2019t take long for Alex to realize that Illythe is not in his role by choice. Yet Illythe holds the holds the information Alex needs. The more Alex learns, the clearer it becomes, that when the cartel falls, Illythe will be buried in the rubble. In the end, Alex must make a choice: save Illythe and forfeit the mission, or leave him behind in a place where willows won\u2019t grow. Important Note to Readers: This work of fiction is for adults only. Please see content warnings in \"story info\" front matter before download. This story was written as part of the M/M Romance Group\u2019s 2014 \u201cLove's Landscapes\u201d event.",
+    "author": "Ben Clanton",
+    "base_id": "117",
+    "description": "Look out! Here comes Rex! Children who love to construct \u2014 and those who love to destroy \u2014 will relate to this kid-pleasing tale that builds to a smashing finale.Gizmo, Sprinkles, and Wild are fed up. Every time they build something with their blocks, Rex wrecks it! Whether it\u2019s an out-of-this-world rocket, a magical heart, or the biggest, strongest, most awesomerific castle ever, Rex sends it crashing down with a \"Rawr!\" (and sometimes a sheepish\"Rawry!\"?). Isn\u2019t there any way to make playtime fun for everyone? With Rex-size humor, Ben Clanton explores the challenges of friendship, the benefits of working together, and the joys of destruction.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "abuse": 19,
-        "aliens": 17,
-        "bdsm": 41,
-        "dark": 18,
-        "erotica": 11,
-        "fantasy": 18,
-        "futuristic": 9,
-        "male male romance": 72,
-        "romance": 25,
-        "science fiction": 49
+        "animals": 4,
+        "animals (dinosaurs)": 38,
+        "childrens": 20,
+        "childrens (juvenile)": 5,
+        "childrens (picture books)": 140,
+        "childrens (storytime)": 35,
+        "fantasy": 8,
+        "fiction": 9,
+        "folklore (monsters)": 5,
+        "humor": 7
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "117_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "117_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "117_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "117_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "117_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "117_6"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "117_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "117_8"
         }
     ],
     "metrics": {
-        "rating_votes": 562,
-        "score": 3.72
+        "rating_votes": 655,
+        "score": 3.89
     },
-    "pages": 1000,
-    "title": "Where Willows Won't Grow",
-    "url": "https://www.goodreads.com/book/show/23484561-where-willows-won-t-grow",
+    "pages": 1246,
+    "title": "Rex Wrecks It",
+    "url": "https://www.goodreads.com/book/show/20708770-rex-wrecks-it",
     "year_published": 2014
 }

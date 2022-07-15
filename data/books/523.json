@@ -1,21 +1,23 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 523,
-    "description": "'Resonance' is supposed to be a dream - that's when your soulmate is chosen for you. And everyone on the ice planet has hooked up with a big, hunky soulmate of their own... except me. So do I want a mate? Heck yeah. More than anything, all I've ever wanted is to be loved by someone.Except that the soulmate chosen for me? My least favorite person on the darn ice planet. Haeden's the most cranky, disapproving, unpleasant, overbearing male alien... so why is it that my body sings when he gets close? Why is he working so hard to prove to me that he's not as awful as I think he is?I hate him... don't I?",
+    "author": "Alison Croggon",
+    "base_id": "523",
+    "description": "As this enthralling epic nears its climax, the young heroine\u2019s brother discovers his own hidden gift\u2014and the role he must play in battling the Dark.Hem is a weary orphan whose struggle for survival ends when he is reunited with his lost sister, Maerad. But Maerad has a destiny to fulfill, and Hem is sent to the golden city of Turbansk, where he learns the ways of the Bards and befriends a mysterious white crow. When the forces of the Dark threaten, Hem flees with his protector, Saliman, and an orphan girl named Zelika to join the Light\u2019s resistance forces. It is there that Hem has a vision and learns that he, too, has a part to play in Maerad\u2019s quest to solve the Riddle of the Treesong.As The Crow continues the epic tale begun with The Naming and The Riddle, Alison Croggon creates a world of astounding beauty overshadowed by a terrifying darkness, a world where Maerad and Hem must prepare to wage their final battle for the Light.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 40,
-        "aliens": 164,
-        "audiobook": 21,
-        "erotica": 50,
-        "fantasy": 52,
-        "paranormal": 53,
-        "paranormal romance": 40,
-        "romance": 206,
-        "science fiction": 164,
-        "science fiction romance": 52
+        "adventure": 39,
+        "fantasy": 847,
+        "fantasy (epic fantasy)": 28,
+        "fantasy (high fantasy)": 45,
+        "fantasy (magic)": 54,
+        "fiction": 85,
+        "science fiction fantasy": 23,
+        "young adult": 278,
+        "young adult (teen)": 13,
+        "young adult (young adult fantasy)": 45
     },
     "inventory": [
         {
@@ -27,7 +29,7 @@
             "stock_id": "523_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "523_3"
         },
         {
@@ -35,7 +37,7 @@
             "stock_id": "523_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "523_5"
         },
         {
@@ -43,16 +45,16 @@
             "stock_id": "523_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "523_7"
         }
     ],
     "metrics": {
-        "rating_votes": 6468,
-        "score": 4.04
+        "rating_votes": 12887,
+        "score": 4.02
     },
-    "pages": 322,
-    "title": "Barbarian's Mate",
-    "url": "https://www.goodreads.com/book/show/29623967-barbarian-s-mate",
-    "year_published": 2016
+    "pages": 564,
+    "title": "The Crow",
+    "url": "https://www.goodreads.com/book/show/393147.The_Crow",
+    "year_published": 2006
 }

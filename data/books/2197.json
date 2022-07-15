@@ -1,25 +1,27 @@
 {
     "author": "Alastair Reynolds",
-    "base_id": 2197,
+    "base_id": "2197",
     "description": "Nine hundred thousand years ago, something annihilated the Amarantin civilization just as it was on the verge of discovering space flight. Now one scientist, Dan Sylveste, will stop at nothing to solve the Amarantin riddle before ancient history repeats itself. With no other resources at his disposal, Sylveste forges a dangerous alliance with the cyborg crew of the starship Nostalgia for Infinity. But as he closes in on the secret, a killer closes in on him. Because the Amarantin were destroyed for a reason \u2014 and if that reason is uncovered, the universe\u2014and reality itself \u2014 could be irrecoverably altered\u2026.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 33,
         "audiobook": 63,
         "fiction": 499,
-        "hard science fiction": 54,
         "horror": 35,
         "science fiction": 2073,
+        "science fiction (aliens)": 33,
+        "science fiction (hard science fiction)": 54,
         "science fiction fantasy": 74,
         "space": 93,
-        "space opera": 421,
+        "space (space opera)": 421,
         "speculative fiction": 39
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2197_1"
         },
         {
@@ -27,15 +29,23 @@
             "stock_id": "2197_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "2197_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2197_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2197_5"
         }
     ],
     "metrics": {
-        "rating_votes": 45731,
+        "rating_votes": 45732,
         "score": 3.98
     },
-    "pages": 383,
+    "pages": 942,
     "title": "Revelation Space",
     "url": "https://www.goodreads.com/book/show/89187.Revelation_Space",
     "year_published": 2000

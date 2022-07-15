@@ -1,54 +1,44 @@
 {
-    "author": "M.K. Eidem",
-    "base_id": 187,
-    "description": "Alternative cover edition ASIN B00CKXWOM2Cassandra Chamberlain has always stood out. It's hard not to at 6\u20191\u201d and 165 pounds with jet black hair and sapphire blue eyes. And if that wasn\u2019t enough she is also brilliant, graduating from Harvard at fifteen, teaching at MIT at nineteen and up for the prestigious Magellan Award at twenty five. But she\u2019s never really fit in. Not with her peers, not with her contemporaries, only with her family. But everything changes when the Earth is attacked and Cassandra and her niece Victoria are the only survivors. Suddenly the smartest woman on the planet has to relearn everything. Everything she\u2019s believed to be true is challenged and she has to learn to survive, not only for herself but for Victoria, because someone wants them dead.Admiral William Zafar is the youngest Admiral ever in the Coalition fleet, the hero of the Battle of Fayal. At 7\u20191\u201d he\u2019s 325 pounds of Carinian male in his prime who is feared and respected throughout the fleet. He is a royal from the House of Protection, carrying its birthmark and considers its King one of his oldest friends.But when the Regulians destroy a previously unknown planet leaving only two survivors he finds he's willing to risk it all to protect the woman he loves from the Regulians and the Carinian traitor that wants her dead.",
+    "author": "Michael Swanwick",
+    "base_id": "187",
+    "description": "World-renowned paleontologist Richard Leyster's universe changedforever the day a stranger named Griffin walked into his office with a remarkable job offer . . . and an ice cooler containing the head of a freshly killed Stegosaurus. For Leyster and a select group of scientific colleagues an impossible fantasy has come true: the ability to study dinosaurs up close, in their own era and milieu. But tampering with time and paradox can have disastrous effects on the future and the past alike, breeding a violent new strain of fundamentalist terror -- and, worse still, encouraging brilliant rebels like Dr. Gertrude Salley to toy with the working mechanisms of natural law, no matter what the consequences. And when they concern the largest, most savage creatures that ever walked the Earth, the consequences may be too horrifying to imagine . . .",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 46,
-        "fantasy": 14,
-        "futuristic": 8,
-        "military fiction": 7,
-        "paranormal": 10,
-        "paranormal romance": 9,
-        "romance": 55,
-        "science fiction": 73,
-        "science fiction romance": 16,
-        "space": 7
+        "adventure": 9,
+        "animals (dinosaurs)": 27,
+        "fantasy": 7,
+        "fiction": 54,
+        "historical (historical fiction)": 3,
+        "science fiction": 131,
+        "science fiction (time travel)": 63,
+        "science fiction fantasy": 5,
+        "speculative fiction": 5,
+        "thriller": 10
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "187_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "187_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "187_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "187_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "187_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "187_6"
         }
     ],
     "metrics": {
-        "rating_votes": 2730,
-        "score": 4.22
+        "rating_votes": 1756,
+        "score": 3.49
     },
-    "pages": 806,
-    "title": "Cassandra's Challenge",
-    "url": "https://www.goodreads.com/book/show/18478285-cassandra-s-challenge",
-    "year_published": 2013
+    "pages": 752,
+    "title": "Bones of the Earth",
+    "url": "https://www.goodreads.com/book/show/243862.Bones_of_the_Earth",
+    "year_published": 2002
 }

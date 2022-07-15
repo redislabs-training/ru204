@@ -1,58 +1,59 @@
 {
-    "author": "Ilona Andrews",
-    "base_id": 401,
-    "description": "From Ilona Andrews\u2014#1 New York Times bestselling author of Magic Shifts and the Kate Daniels novels\u2014comes a stark, seductive tale of a world torn asunder by supernatural gifts and irresistible passions...Karina Tucker is driving a van of children home from a field trip when an unplanned detour to a seemingly ordinary rest stop changes her life. There, she witnesses a world beyond humanity\u2019s sight, of frightful powers and chaos, where she is in death\u2019s grip... before an irresistibly dangerous male saves her\u2014only to take her captive.For she is a rare commodity in the shadowy realm she\u2019s entered.Karina soon finds herself caught in a violent civil war where those with inhuman powers strive to destroy each other without mercy. And it becomes all too clear that she must make a choice: submit and become a pawn, or take hold of her own destiny and fight for survival against impossible odds.Alphas: Origins originally appeared in Angels of Darkness.",
+    "author": "Olaf Stapledon",
+    "base_id": "401",
+    "description": "\"No book before or since has ever had such an impact upon my imagination,\" declared Arthur C. Clarke of Last and First Men. This masterpiece of science fiction by British philosopher and writer Olaf Stapledon (1886\u20131950) is an imaginative, ambitious history of humanity's future that spans billions of years. Together with its follow-up, Star Maker, it is regarded as the standard by which all earlier and later future histories are measured.The protagonist of this compelling novel is humanity itself, stripped down to sheer intelligence. It evolves through the ages: rising to pinnacles of civilization, teetering on the brink of extinction, surviving onslaughts from other planets and a decline in solar energy, and constantly developing new forms, new senses, and new intellectual abilities. From the present to five billion years into the future, this romance of humanity abounds in profound and imaginative thought.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "fantasy": 139,
-        "magic": 29,
-        "novella": 35,
-        "paranormal": 103,
-        "paranormal romance": 38,
-        "romance": 48,
-        "science fiction": 50,
-        "shapeshifters": 18,
-        "short stories": 25,
-        "urban fantasy": 198
+        "classics": 48,
+        "european literature (british literature)": 9,
+        "fantasy": 14,
+        "fiction": 166,
+        "literature (20th century)": 10,
+        "novels": 16,
+        "philosophy": 26,
+        "science fiction": 462,
+        "science fiction fantasy": 16,
+        "speculative fiction": 19
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "401_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "401_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "401_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "401_4"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "401_5"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "401_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "401_7"
         }
     ],
     "metrics": {
-        "rating_votes": 5093,
-        "score": 3.83
+        "rating_votes": 5106,
+        "score": 3.8
     },
-    "pages": 379,
-    "title": "Origins",
-    "url": "https://www.goodreads.com/book/show/27257359-origins",
-    "year_published": 2016
+    "pages": 1352,
+    "title": "Last and First Men",
+    "url": "https://www.goodreads.com/book/show/2749148-last-and-first-men",
+    "year_published": 1930
 }

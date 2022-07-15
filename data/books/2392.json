@@ -1,0 +1,63 @@
+{
+    "author": "Marcus Sakey",
+    "base_id": "2392",
+    "description": "In Wyoming, a little girl reads people\u2019s darkest secrets by the way they fold their arms. In New York, a man sensing patterns in the stock market racks up $300 billion. In Chicago, a woman can go invisible by being where no one is looking. They\u2019re called \"brilliants,\" and since 1980, one percent of people have been born this way. Nick Cooper is among them; a federal agent, Cooper has gifts rendering him exceptional at hunting terrorists. His latest target may be the most dangerous man alive, a brilliant drenched in blood and intent on provoking civil war. But to catch him, Cooper will have to violate everything he believes in - and betray his own kind.From Marcus Sakey, \"a modern master of suspense\" (Chicago Sun-Times) and \"one of our best storytellers\" (Michael Connelly), comes an adventure that\u2019s at once breakneck thriller and shrewd social commentary; a gripping tale of a world fundamentally different and yet horrifyingly similar to our own, where being born gifted can be a terrible curse.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 58,
+        "fantasy": 139,
+        "fiction": 348,
+        "mystery": 69,
+        "science fiction": 474,
+        "science fiction (dystopia)": 58,
+        "science fiction fantasy": 47,
+        "suspense": 41,
+        "thriller": 277,
+        "thriller (mystery thriller)": 40
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2392_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2392_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2392_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2392_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2392_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2392_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2392_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2392_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32372,
+        "score": 3.96
+    },
+    "pages": 420,
+    "title": "Brilliance",
+    "url": "https://www.goodreads.com/book/show/17171909-brilliance",
+    "year_published": 2013
+}

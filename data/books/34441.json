@@ -1,0 +1,39 @@
+{
+    "author": "Stieg Larsson",
+    "base_id": "34441",
+    "description": "Part blistering espionage thriller, part riveting police procedural, and part piercing expos\u00e9 on social injustice, The Girl Who Played with Fire is a masterful, endlessly satisfying novel. \u00a0Mikael Blomkvist, crusading publisher of the magazine Millennium, has decided to run a story that will expose an extensive sex trafficking operation. On the eve of its publication, the two reporters responsible for the article are murdered, and the fingerprints found on the murder weapon belong to his friend, the troubled genius hacker Lisbeth Salander. Blomkvist, convinced of Salander\u2019s innocence, plunges into an investigation. Meanwhile, Salander herself is drawn into a murderous game of cat and mouse, which forces her to face her dark past.From the Trade Paperback edition.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 569,
+        "audiobook": 488,
+        "contemporary": 648,
+        "cultural (sweden)": 585,
+        "fiction": 7964,
+        "mystery": 6178,
+        "mystery (crime)": 2825,
+        "suspense": 1004,
+        "thriller": 4385,
+        "thriller (mystery thriller)": 1213
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "34441_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "34441_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 825340,
+        "score": 4.24
+    },
+    "pages": 981,
+    "title": "The Girl Who Played with Fire",
+    "url": "https://www.goodreads.com/book/show/5060378-the-girl-who-played-with-fire",
+    "year_published": 2006
+}

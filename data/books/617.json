@@ -1,29 +1,29 @@
 {
-    "author": "C.J. Cherryh",
-    "base_id": 617,
-    "description": "A legend among sci-fi readers, C. J. Cherryh's Union-Alliance novels, while separate and complete in themselves, are part of a much larger tapestry\u2014a future history spanning 5,000 years of human civilization. A blockbuster space opera of the rebellion between Earth and its far-flung colonies, it is a classic science fiction masterwork.",
+    "author": "Brian K. Vaughan",
+    "base_id": "617",
+    "description": "The fourth collection of the acclaimed Vertigo series, Y: THE LAST MAN: SAFEWORD reprints issues #18-23 of writer Brian K. Vaughan's and artist Pia Guerra's dynamic series. As the Last Man on Earth and his companions continue to head West, the story takes a detour into the psychological.In the care of a fellow Culper Ring member, Yorick Brown is forced to confront his tremendous feelings of survivor guilt that lead him to constantly put his life in danger. Once on the road again, the group runs up against a literal roadblock in Arizona, where the female remains of the Sons of Arizona militia have cut the interstate to keep out any vestiges of the U.S. government.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 20,
-        "audiobook": 17,
-        "fantasy": 15,
-        "fiction": 173,
-        "hugo awards": 69,
-        "science fiction": 812,
-        "science fiction fantasy": 41,
-        "space": 26,
-        "space opera": 116,
-        "speculative fiction": 18
+        "adult": 38,
+        "apocalyptic (post apocalyptic)": 119,
+        "comics (comic book)": 109,
+        "fantasy": 41,
+        "fiction": 225,
+        "graphic novels comics": 168,
+        "science fiction": 258,
+        "science fiction (dystopia)": 109,
+        "sequential art (comics)": 1380,
+        "sequential art (graphic novels)": 1571
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "617_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "617_2"
         },
         {
@@ -31,28 +31,24 @@
             "stock_id": "617_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "617_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "617_5"
         },
         {
             "status": "available",
             "stock_id": "617_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "617_7"
         }
     ],
     "metrics": {
-        "rating_votes": 14153,
-        "score": 3.92
+        "rating_votes": 26315,
+        "score": 4.25
     },
-    "pages": 999,
-    "title": "Downbelow Station",
-    "url": "https://www.goodreads.com/book/show/57045.Downbelow_Station",
-    "year_published": 1981
+    "pages": 307,
+    "title": "Y: The Last Man, Vol. 4: Safeword",
+    "url": "https://www.goodreads.com/book/show/184040.Y",
+    "year_published": 2004
 }

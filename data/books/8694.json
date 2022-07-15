@@ -1,9 +1,10 @@
 {
     "author": "Ann Leckie",
-    "base_id": 8694,
+    "base_id": "8694",
     "description": "On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest.Once, she was the Justice of Toren - a colossal starship with an artificial intelligence linking thousands of soldiers in the service of the Radch, the empire that conquered the galaxy.Now, an act of treachery has ripped it all away, leaving her with one fragile human body, unanswered questions, and a burning desire for vengeance.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
         "adult": 130,
@@ -14,7 +15,7 @@
         "science fiction": 4088,
         "science fiction fantasy": 303,
         "space": 195,
-        "space opera": 630,
+        "space (space opera)": 630,
         "speculative fiction": 126
     },
     "inventory": [
@@ -23,23 +24,39 @@
             "stock_id": "8694_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "8694_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "8694_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "8694_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "8694_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8694_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "8694_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8694_8"
         }
     ],
     "metrics": {
-        "rating_votes": 85505,
+        "rating_votes": 85518,
         "score": 3.97
     },
-    "pages": 421,
+    "pages": 1062,
     "title": "Ancillary Justice",
     "url": "https://www.goodreads.com/book/show/17333324-ancillary-justice",
     "year_published": 2013

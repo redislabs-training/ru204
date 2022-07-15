@@ -1,0 +1,55 @@
+{
+    "author": "John Joseph Adams",
+    "base_id": "800",
+    "description": "Famine, Death, War, and Pestilence - the Four Horsemen of the Apocalypse, the harbingers of Armageddon - these are our guides through the Wastelands. From the Book of Revelation to The Road Warrior, from A Canticle for Leibowitz to The Road, storytellers have long imagined the end of the world, weaving eschatological tales of catastrophe, chaos, and calamity. In doing so, these visionary authors have addressed one of the most challenging and enduring themes of imaginative fiction: The nature of life in the aftermath of total societal collapse. Gathering together the best post-apocalyptic literature of the last two decades from many of today's most renowned authors of speculative fiction - including George R. R. Martin, Gene Wolfe, Orson Scott Card, Carol Emshwiller, Jonathan Lethem, Octavia E. Butler, and Stephen King - Wastelands explores the scientific, psychological, and philosophical questions of what it means to remain human in the wake of Armageddon. Whether the end of the world comes through nuclear war, ecological disaster, or cosmological cataclysm, these are tales of survivors, in some cases struggling to rebuild the society that was, in others, merely surviving, scrounging for food in depopulated ruins and defending themselves against monsters, mutants, and marauders. Wastelands delves into this bleak landscape, uncovering the raw human emotion and heart-pounding thrills at the genre's core. --back coverContains the following stories:Introduction by John Joseph AdamsThe End of the Whole Mess by Stephen KingSalvage by Orson Scott CardThe People of Sand and Slag by Paolo BacigalupiBread and Bombs by M. RickertHow We Got In Town and Out Again by Jonathan LethemDark, Dark Were the Tunnels by George R. R. MartinWaiting for the Zephyr by Tobias S. BuckellNever Despair by Jack McDevittWhen Sysadmins Ruled the Earth by Cory DoctorowThe Last of the O-Forms by James Van PeltStill Life With Apocalypse by Richard KadreyArtie\u2019s Angels by Catherine WellsJudgment Passed by Jerry OltionMute by Gene WolfeInertia by Nancy KressAnd the Deep Blue Sea by Elizabeth BearSpeech Sounds by Octavia E. ButlerKillers by Carol EmshwillerGinny Sweethips\u2019 Flying Circus by Neal Barrett, Jr.The End of the World as We Know It by Dale BaileyA Song Before Sunset by David GriggEpisode Seven... by John LanganAppendix: For Further Reading",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "anthologies": 140,
+        "apocalyptic (post apocalyptic)": 250,
+        "fantasy": 77,
+        "fiction": 234,
+        "horror": 188,
+        "science fiction": 311,
+        "science fiction (apocalyptic)": 90,
+        "science fiction (dystopia)": 95,
+        "short stories": 326,
+        "speculative fiction": 26
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "800_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "800_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "800_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "800_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "800_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "800_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9259,
+        "score": 3.77
+    },
+    "pages": 1344,
+    "title": "Wastelands: Stories of the Apocalypse",
+    "url": "https://www.goodreads.com/book/show/1705697.Wastelands",
+    "year_published": 2007
+}

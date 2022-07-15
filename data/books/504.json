@@ -1,0 +1,58 @@
+{
+    "author": "Hajime Isayama",
+    "base_id": "504",
+    "description": "HUMANITY PUSHES BACK! \u00a0 The Survey Corps develop a risky gambit \u2013 have Eren in Titan form attempt to repair Wall Rose, reclaiming human territory from the monsters for the first time in a century. But Titan-Eren\u2019s self-control is far from perfect, and when he goes on a rampage, not even Armin can stop him! With the survival of humanity on his massive shoulders, will Eren be able to return to his senses, or will he lose himself forever?Chapters list :14. Primitive Desire15. One by One16. Necessity17. Delusions of Strength18. What Should I Do Now?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "action": 44,
+        "fantasy": 171,
+        "fiction": 57,
+        "horror": 152,
+        "science fiction": 50,
+        "science fiction (dystopia)": 59,
+        "sequential art (comics)": 130,
+        "sequential art (graphic novels)": 149,
+        "sequential art (manga)": 2036,
+        "young adult": 41
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "504_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "504_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "504_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "504_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "504_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "504_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "504_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14814,
+        "score": 4.42
+    },
+    "pages": 774,
+    "title": "Attack on Titan, Vol. 4",
+    "url": "https://www.goodreads.com/book/show/15798166-attack-on-titan-vol-4",
+    "year_published": 2011
+}

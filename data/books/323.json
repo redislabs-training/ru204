@@ -1,21 +1,23 @@
 {
-    "author": "Melissa Landers",
-    "base_id": 323,
-    "description": "After thwarting a deadly coup and saving the alliance between their worlds, Cara and Aelyx have finally earned a break. Their tiny island colony is everything they dreamed it would be\u2015days spent gathering shells on the beach and nights in each other\u2019s arms.But the vacation is short-lived.The treaty between Earth and L\u2019eihr has awakened an ancient force that threatens to destroy them all. The Aribol, mysterious guardians charged with maintaining interstellar peace, deem the alliance a threat to the galaxy. They order a separation of the races, decreeing humans and L\u2019eihrs must return to their own planets within the month or face extinction. In fact, they already have agents in place on Earth, ready to begin.With the clock ticking, Aelyx and Cara assemble a team of colonists and race back to Earth, where they unite with old friends to solve the mystery of who the Aribol are, what they want, and the real reason the alliance has provoked them. As tensions build to a full-scale war, Aelyx and Cara must fight harder than ever\u2015not just for their future, but for the survival of both their worlds.",
+    "author": "Hajime Isayama",
+    "base_id": "323",
+    "description": "TITAN ON THE HUNTOn the way to Eren\u2019s home, deep in Titan territory, the Survey Corps ranks are broken by a charge led by a female Titan! But this Abnormal is different \u2013 she kills not to eat but to protect herself, and she seems to be looking for someone. Armin comes to a shocking conclusion: She\u2019s a human in a Titan\u2019s body, just like Eren!Chapters List:-23.The Female Titan24.The Titan Forest25.Bite26.The Easy Path",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 64,
-        "audiobook": 11,
-        "fantasy": 31,
-        "fiction": 10,
-        "paranormal": 9,
-        "romance": 80,
-        "science fiction": 90,
-        "space": 10,
-        "teen": 10,
-        "young adult": 100
+        "action": 36,
+        "fantasy": 150,
+        "fiction": 52,
+        "horror": 135,
+        "science fiction": 42,
+        "science fiction (dystopia)": 57,
+        "sequential art (comics)": 112,
+        "sequential art (graphic novels)": 120,
+        "sequential art (manga)": 1810,
+        "young adult": 37
     },
     "inventory": [
         {
@@ -23,44 +25,16 @@
             "stock_id": "323_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "323_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "323_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "323_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "323_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "323_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "323_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "323_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "323_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2110,
-        "score": 3.8
+        "rating_votes": 12541,
+        "score": 4.48
     },
-    "pages": 1092,
-    "title": "United",
-    "url": "https://www.goodreads.com/book/show/26180279-united",
-    "year_published": 2016
+    "pages": 293,
+    "title": "Attack on Titan, Vol. 6",
+    "url": "https://www.goodreads.com/book/show/17262714-attack-on-titan-vol-6",
+    "year_published": 2011
 }

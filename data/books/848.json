@@ -1,0 +1,43 @@
+{
+    "author": "Eric Walters",
+    "base_id": "848",
+    "description": "One shocking afternoon, computers around the globe shut down in a viral catastrophe. At sixteen-year-old Adam Daley's high school, the problem first seems to be a typical electrical outage, until students discover that cell phones are down, municipal utilities are failing, and a few computer-free cars like Adam's are the only vehicles that function. Driving home, Adam encounters a storm tide of anger and fear as the region becomes paralyzed. Soon\u2014as resources dwindle, crises mount, and chaos descends\u2014he will see his suburban neighborhood band together for protection. And Adam will understand that having a police captain for a mother and a retired government spy living next door are not just the facts of his life but the keys to his survival, in The Rule of Three by Eric Walters.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 28,
+        "adventure (survival)": 32,
+        "apocalyptic (post apocalyptic)": 43,
+        "fantasy": 19,
+        "fiction": 48,
+        "science fiction": 53,
+        "science fiction (apocalyptic)": 19,
+        "science fiction (dystopia)": 91,
+        "young adult": 145,
+        "young adult (teen)": 21
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "848_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "848_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "848_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5781,
+        "score": 4.01
+    },
+    "pages": 423,
+    "title": "The Rule of Three",
+    "url": "https://www.goodreads.com/book/show/17934467-the-rule-of-three",
+    "year_published": 2014
+}

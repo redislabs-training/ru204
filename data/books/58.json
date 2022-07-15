@@ -1,21 +1,17 @@
 {
-    "author": "Jaid Black",
-    "base_id": 58,
-    "description": "Commander Alexandria Frazier headed up NASA's first deep-space mission to search for other habitable planets in distant galaxies. Where only two years have passed by for the crew of the Methuselah, fifteen hundred years have ticked by on Earth. Alex and her crew were prepared for that eventuality. What they weren't prepared for was a nuclear war and the resulting catastrophic meteor shower that sent them hurling into Earth's very distant, eerie future. Welcome to earth in the year 100,000,007 A.D. Prepare to scream.",
+    "author": "Christopher Keene",
+    "base_id": "58",
+    "description": "After a terrible car crash puts seventeen-year-old Noah Newbolt into a coma, he is hooked up to the innovative Dream Engine\u2014a virtual reality helmet that immerses the player in an online fantasy game. The Dream Engine keeps Noah\u2019s mind alive while doctors frantically work to heal his body, but his death in the game could result in irreversible brain damage. While Noah learns to navigate the Dream Game, his girlfriend, Sue, suffers injuries from the same crash. Then the doctors\u2019 attempts to connect her to the game result in her apparent death. When a mysterious avatar drops notes suggesting the last remnants of Sue\u2019s consciousness are being held prisoner in the most dangerous part of the game, Noah takes it upon himself to rescue her.He allies himself with a group of high-level players to help him in his quest, but his rise through the ranks earns him a bounty. With top players across the world gunning for Noah, can he stay alive--and awake--long enough to save Sue and escape the game?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 19,
-        "bdsm": 10,
-        "erotic romance": 9,
-        "erotica": 39,
-        "futuristic": 9,
-        "paranormal": 17,
-        "romance": 31,
-        "science fiction": 38,
-        "science fiction romance": 9,
-        "time travel": 19
+        "adventure": 2,
+        "fantasy": 9,
+        "science fiction": 8,
+        "science fiction (cyberpunk)": 6,
+        "young adult": 8
     },
     "inventory": [
         {
@@ -23,7 +19,7 @@
             "stock_id": "58_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "58_2"
         },
         {
@@ -33,26 +29,14 @@
         {
             "status": "maintenance",
             "stock_id": "58_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "58_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "58_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "58_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1457,
-        "score": 3.65
+        "rating_votes": 273,
+        "score": 3.83
     },
-    "pages": 1157,
-    "title": "Breeding Ground",
-    "url": "https://www.goodreads.com/book/show/1814114.Breeding_Ground",
-    "year_published": 2004
+    "pages": 737,
+    "title": "Stuck in the Game",
+    "url": "https://www.goodreads.com/book/show/31315146-stuck-in-the-game",
+    "year_published": 2016
 }

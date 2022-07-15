@@ -1,0 +1,62 @@
+{
+    "author": "Tom King",
+    "base_id": "1080",
+    "description": "The Vision wants to be human, and what's more human than family? So he heads back to the beginning, to the laboratory where Ultron created him and molded him into a weapon. The place where he first rebelled against his given destiny and imagined that he could be more -that he could be a man. There, he builds them. A wife, Virginia. Two teenage twins, Viv and Vin. They look like him. They have his powers. They share his grandest ambition (or is that obsession?) the unrelenting need to be ordinary.Behold the Visions! They\u2019re the family next door, and they have the power to kill us all. What could possibly go wrong? Artificial hearts will be broken, bodies will not stay buried, the truth will not remain hidden, and the Vision will never be the same.Collecting: The Vision 1-6",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "comics (comic book)": 82,
+        "comics (superheroes)": 105,
+        "fantasy": 50,
+        "fiction": 100,
+        "graphic novels comics": 111,
+        "horror": 32,
+        "science fiction": 87,
+        "sequential art (comics)": 727,
+        "sequential art (graphic novels)": 577,
+        "superheroes (marvel)": 218
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1080_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1080_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1080_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1080_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1080_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1080_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1080_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1080_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9618,
+        "score": 4.26
+    },
+    "pages": 1278,
+    "title": "The Vision, Volume 1: Little Worse Than A Man",
+    "url": "https://www.goodreads.com/book/show/27163019-the-vision-volume-1",
+    "year_published": 2016
+}

@@ -1,0 +1,39 @@
+{
+    "author": "Daniel H. Wilson",
+    "base_id": "750",
+    "description": "Follow a race of human-like machines that have been hiding among us for untold centuries.Present day: When a young anthropologist specializing in ancient technology uncovers a terrible secret concealed in the workings of a three-hundred-year-old mechanical doll, she is thrown into a hidden world that lurks just under the surface of our own. With her career and her life at stake, June Stefanov will ally with a remarkable traveler who exposes her to a reality she never imagined, as they embark on an around-the-world adventure and discover breathtaking secrets of the past...Russia, 1725: In the depths of the Kremlin, the tsar's loyal mechanician brings to life two astonishingly humanlike mechanical beings. Peter and Elena are a brother and sister fallen out of time, possessed with uncanny power, and destined to serve great empires. Struggling to blend into pre-Victorian society, they are pulled into a legendary war that has raged for centuries.The Clockwork Dynasty interweaves past and present, exploring a race of beings designed to live by ironclad principles, yet constantly searching for meaning. As June plunges deeper into their world, her choices will ultimately determine their survival or extermination.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 32,
+        "adventure": 16,
+        "audiobook": 24,
+        "fantasy": 182,
+        "fiction": 118,
+        "historical": 30,
+        "historical (historical fiction)": 78,
+        "science fiction": 215,
+        "science fiction (steampunk)": 190,
+        "science fiction fantasy": 26
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "750_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "750_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4296,
+        "score": 3.65
+    },
+    "pages": 631,
+    "title": "The Clockwork Dynasty",
+    "url": "https://www.goodreads.com/book/show/32670125-the-clockwork-dynasty",
+    "year_published": 2017
+}

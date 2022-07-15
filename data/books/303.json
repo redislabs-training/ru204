@@ -1,20 +1,22 @@
 {
-    "author": "Addison Cain",
-    "base_id": 303,
-    "description": "An alternative cover edition for this ASIN can be found here.Thumb brushing her lips like a kiss, he promised, \u201cIn time, you will learn you need not fear me.\u201d Setting her free, Sovereign\u2019s enigmatic expression grew dark. \u201cYou will love me. It is inevitable.\u201dThe farthest corners of the universe can hide her. Not from him.Sovereign, ruler of every conquered and converted human world is coming to claim his consort.Yet Sigil refuses. Loathes the empire, hates Sovereign, his Brotherhood, and the needs they inspire which she cannot control.The need to destroy.A craving that can only be crushed in unspeakable, sensual, and terrifying ways.Sigil: Irdesi Empire Book 1 is a Space Opera Dark Romance laced with complete power exchange.",
+    "author": "Bruce Coville",
+    "base_id": "303",
+    "description": "Sixth grade is just out of this world!Susan Simmons can tell that her new substitute teacher is really weird. But she doesn't know how weird until she catches him peeling off his face -- and realizes that \"Mr. Smith\" is really an alien!  At first no one will believe her except Peter Thompson, the class brain. When Peter and Susan discover Mr. Smith's horrible plans for their classmates, they know they have to act fast. Only they can get rid of their extraterrestrial visitor -- and save the rest of the sixth-grade class from a fate worse than math tests!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 24,
-        "dark": 62,
-        "erotica": 10,
-        "fantasy": 30,
-        "paranormal": 20,
-        "polyamorous": 39,
-        "romance": 27,
-        "science fiction": 60,
-        "science fiction romance": 14
+        "childrens": 107,
+        "childrens (juvenile)": 14,
+        "childrens (middle grade)": 46,
+        "fantasy": 35,
+        "fiction": 96,
+        "humor": 15,
+        "science fiction": 157,
+        "science fiction (aliens)": 31,
+        "science fiction fantasy": 17,
+        "young adult": 60
     },
     "inventory": [
         {
@@ -22,40 +24,20 @@
             "stock_id": "303_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "303_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "303_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "303_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "303_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "303_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "303_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "303_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2381,
-        "score": 3.82
+        "rating_votes": 8383,
+        "score": 3.79
     },
-    "pages": 727,
-    "title": "Sigil",
-    "url": "https://www.goodreads.com/book/show/53652667-sigil",
-    "year_published": 2016
+    "pages": 479,
+    "title": "My Teacher Is an Alien",
+    "url": "https://www.goodreads.com/book/show/84060.My_Teacher_Is_an_Alien",
+    "year_published": 1989
 }

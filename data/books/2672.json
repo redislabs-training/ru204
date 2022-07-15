@@ -1,41 +1,67 @@
 {
     "author": "Douglas Adams",
-    "base_id": 2672,
+    "base_id": "2672",
     "description": "It\u2019s easy to get disheartened when your planet has been blown up, the woman you love has vanished due to a misunderstanding about space/time, the spaceship you are on crashes on a remote and Bob-fearing planet, and all you have to fall back on are a few simple sandwich-making skills. However, instead of being disheartened, Arthur Dent makes the terrible mistake of starting to enjoy life a bit\u2013and immediately all hell breaks loose.Hell takes a number of forms: there\u2019s the standard Ford Prefect version, in the shape of an all-new edition of The Hitchhiker\u2019s Guide to the Galaxy, and a totally unexpected manifestation in the form of a teenage girl who startles Arthur Dent by being his daughter when he didn\u2019t even know he had one.Can Arthur save the Earth from total multidimensional obliteration? Can he save the Guide from a hostile alien takeover? Can he save his daughter, Random, from herself? Of course not. He never works out exactly what is going on. Will you?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
         "adventure": 135,
         "audiobook": 151,
         "classics": 178,
-        "comedy": 477,
         "fantasy": 627,
         "fiction": 1771,
         "humor": 1403,
+        "humor (comedy)": 477,
         "novels": 127,
         "science fiction": 3059,
         "science fiction fantasy": 278
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "2672_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "2672_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "2672_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2672_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2672_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2672_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2672_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2672_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "2672_9"
         }
     ],
     "metrics": {
-        "rating_votes": 113755,
+        "rating_votes": 113729,
         "score": 3.96
     },
-    "pages": 287,
+    "pages": 348,
     "title": "Mostly Harmless",
     "url": "https://www.goodreads.com/book/show/569429.Mostly_Harmless",
     "year_published": 1992

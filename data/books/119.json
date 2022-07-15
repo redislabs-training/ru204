@@ -1,37 +1,48 @@
 {
-    "author": "ElizabethStephens",
-    "base_id": 119,
-    "description": "Miari Here's what I know: aliens invade our colony every three years, hunt and claim the most beautiful of our women, then leave. Here's what I don't know: why the king of them is here this time, and why his black, glittering eyes are trained on me.A hybrid with red alien skin and brown human eyes, I'm not pretty. I've got no family and no plans to ever have one \u2013 least of all with this monster of a male. I'm an inventor, a mechanic, a tinkerer. The alien king wants me for reasons I can only guess at, but I'm not about to be taken for a slave and his response to me is something I know I can engineer my way out of.He plans to come back for me when I'm of age, but he'll have to find me first. Our little colony is a scary, desperate place and I'm less afraid to face it, than to face him or the strange, alien sensations he stirs...RakuShe is my Xiveri mate, yet she runs from me \u2013 straight into the horrors of her small, savage moon colony. Slaughtering in her defense is easy, while gaining her trust will be the true challenge.She fears my kind and the horrors my treacherous general has inflicted on her humans. Does she not know that it is my blood rite to keep her safe against him and his even more dangerous off-world allies? No, she thinks herself my slave and in place of acceptance, offers me only pacts and bargains. Shamed by her pacts, I still take them all gluttonously, because though she knows only hate, I know only need.Eventually, we will need more than just these pacts between us if I am to convince her that she is my Xiveri mate and if she is to take her place at my side, not as my slave, but as Voraxia's queen.Taken to Voraxia is a full-length, standalone, interracial, SciFi romance complete with an alpha alien overlord, warrior heroine, fated mates who are also enemies-to-lovers, world building and extra steamy bits. All Xiveri Mates books can be read as standalones, each one with a guaranteed HEA. NO cheating, harem or love triangles. Some dark themes, illusions to abuse, and debatable consent due to intergalactic cultural misunderstandings may be trigger warnings.",
+    "author": "Bob Gale",
+    "base_id": "119",
+    "description": "Back to the Future creator/screenwriter Bob Gale returns with all-new tales from the twisting and turning timeline that made Back to the Future a, well... TIMELESS pop-culture phenomenon! Take a trip back to 1985 and be there when Doc Brown and Marty McFly first meet, and then jump even farther back, to 1945, to witness Doc's involvement in the super-secret Manhattan Project. Collects issues #1-5.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "abuse": 4,
-        "adult": 3,
-        "aliens": 18,
-        "fantasy": 2,
-        "futuristic": 2,
-        "paranormal": 5,
-        "romance": 12,
-        "science fiction": 12,
-        "science fiction romance": 4
+        "adventure": 4,
+        "comics (comic book)": 4,
+        "comics manga": 2,
+        "fiction": 4,
+        "graphic novels comics": 4,
+        "media tie in": 2,
+        "science fiction": 18,
+        "science fiction (time travel)": 25,
+        "sequential art (comics)": 54,
+        "sequential art (graphic novels)": 45
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "119_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "119_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "119_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "119_4"
         }
     ],
     "metrics": {
-        "rating_votes": 511,
-        "score": 4.08
+        "rating_votes": 584,
+        "score": 3.84
     },
-    "pages": 822,
-    "title": "Taken to Voraxia",
-    "url": "https://www.goodreads.com/book/show/52616522-taken-to-voraxia",
-    "year_published": 2020
+    "pages": 427,
+    "title": "Back to the Future: Untold Tales and Alternate Timelines",
+    "url": "https://www.goodreads.com/book/show/27251142-back-to-the-future",
+    "year_published": 2015
 }

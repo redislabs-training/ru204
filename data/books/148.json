@@ -1,50 +1,60 @@
 {
-    "author": "Wendy Higgins",
-    "base_id": 148,
-    "description": "USA Today and New York Times bestselling author, Wendy Higgins, brings you the gripping, sensual conclusion to her apocalyptic trilogy.Amber Tate never dreamed their heart-wrenching escape from the enemy\u2019s attack would lead them to the most beautiful place she\u2019s ever seen, marred by one ugly fact; it\u2019s under enemy control. Like everywhere else in the world, Elmendorf military base in Alaska has been captured, and it\u2019s time to take it back\u2014all of it\u2014one base, one city at a time. After losing so much, Amber clings to the only precious person she has left, and vows to sacrifice everything to help save the Earth.Remy Haines is a lover, not a fighter, so when she finds herself in enemy territory, expected to feign allegiance while gathering intel for the rebel cause, she\u2019s never been more out of her element. Tensions only increase when her feelings for Jacob \u201cTater\u201d Tate won\u2019t go away, and the enemy\u2019s leader takes an interest in her. She\u2019s torn between what her heart wants, and what she knows she should do. As for what her body needs\u2026well, it\u2019s always had a mind of its own.",
+    "author": "Daniel H. Wilson",
+    "base_id": "148",
+    "description": "Humans beware. As the robotic revolution continues to creep into our lives, it brings with it an impending sense of doom. What horrifying scenarios might unfold if our technology were to go awry? From self-aware robotic toys to intelligent machines violently malfunctioning, this anthology brings to life the half-formed questions and fears we all have about the increasing presence of robots in our lives. With contributions from a mix of bestselling, award-winning, and up-and-coming writers, and including a rare story by \u201cthe father of artificial intelligence,\u201d Dr. John McCarthy, Robot Uprisings meticulously describes the exhilarating and terrifying near-future in which humans can only survive by being cleverer than the rebellious machines they have created.",
     "editions": [
-        "None"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 18,
-        "apocalyptic": 6,
-        "dystopia": 24,
-        "fiction": 4,
-        "military fiction": 6,
-        "new adult": 38,
-        "paranormal": 6,
-        "post apocalyptic": 6,
-        "romance": 30,
-        "science fiction": 13
+        "anthologies": 26,
+        "apocalyptic (post apocalyptic)": 3,
+        "fiction": 29,
+        "horror": 4,
+        "science fiction": 81,
+        "science fiction (dystopia)": 7,
+        "science fiction (robots)": 22,
+        "short stories": 67,
+        "short stories (short story collection)": 3,
+        "speculative fiction": 4
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "148_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "148_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "148_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "148_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "148_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "148_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "148_7"
         }
     ],
     "metrics": {
-        "rating_votes": 955,
-        "score": 4.28
+        "rating_votes": 988,
+        "score": 3.88
     },
-    "pages": 492,
-    "title": "Undone",
-    "url": "https://www.goodreads.com/book/show/32867161-undone",
-    "year_published": 2017
+    "pages": 819,
+    "title": "Robot Uprisings",
+    "url": "https://www.goodreads.com/book/show/18209312-robot-uprisings",
+    "year_published": 2014
 }

@@ -1,25 +1,26 @@
 {
-    "author": "Laurann Dohner",
-    "base_id": 207,
-    "description": "Jill has learned the hard way that men can\u2019t be trusted and sex only causes pain. In the lawlessness of space, women are a sexual commodity\u2014to be used and abused. She\u2019s doing a man\u2019s job, with only her father\u2019s brutal reputation and three androids to help keep her alive when she sees a massive, handsome cyborg chained to a freight table. The abusive crew plans to sell him to fight in gruesome death matches. It\u2019s stupid, it\u2019s insane, but Jill can\u2019t leave him to such a horrible fate. Coal has survived being a captive breeding slave and irreversible damage to his cyborg implants, but his honor is still intact. He\u2019s grateful Jill saved him and he\u2019ll repay her the only way he can. He\u2019ll fix her\u2014with his mouth, his hands and his body. He can teach the little human just how much pleasure she\u2019s capable of feeling.",
+    "author": "Faye Kellerman",
+    "base_id": "207",
+    "description": "Prism takes us to a slightly alternate universe in which medicine and health care do not exist, and in which sick people are allowed to die without any care. Set in New Mexico and California, the novel features three teens who fall through a cave at Carlsbad Caverns in New Mexico while on a field trip. They are plunged into a frightening parallel universe\u2014seven weeks in the past, in which their \"normal\" worlds of family and high school remain the same\u2026except for the fact that no medicine exists and when people die in the street they are picked up and disposed of.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 26,
-        "aliens": 48,
-        "erotica": 80,
-        "fantasy": 34,
-        "futuristic": 34,
-        "paranormal": 48,
-        "paranormal romance": 48,
-        "romance": 116,
-        "science fiction": 139,
-        "science fiction romance": 47
+        "audiobook": 6,
+        "fantasy": 21,
+        "fantasy (paranormal)": 8,
+        "fiction": 11,
+        "mystery": 9,
+        "science fiction": 28,
+        "science fiction (alternate universe)": 7,
+        "science fiction (dystopia)": 12,
+        "young adult": 43,
+        "young adult (teen)": 9
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "207_1"
         },
         {
@@ -27,24 +28,24 @@
             "stock_id": "207_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "207_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "207_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "207_5"
         }
     ],
     "metrics": {
-        "rating_votes": 6580,
-        "score": 4.19
+        "rating_votes": 1293,
+        "score": 3.36
     },
-    "pages": 1117,
-    "title": "Stealing Coal",
-    "url": "https://www.goodreads.com/book/show/10799498-stealing-coal",
-    "year_published": 2011
+    "pages": 532,
+    "title": "Prism",
+    "url": "https://www.goodreads.com/book/show/5134555-prism",
+    "year_published": 2009
 }

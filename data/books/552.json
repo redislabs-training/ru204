@@ -1,0 +1,56 @@
+{
+    "author": "Diana Wynne Jones",
+    "base_id": "552",
+    "description": "There are good witches and bad witches, but the law says that all witches must be burned at the stake. So when an anonymous note warns, \"Someone in this class is a witch,\" the students in 6B are nervous -- especially the boy who's just discovered that he can cast spells and the girl who was named after the most famous witch of all.Witch Week features the debonair enchanter Chrestomanci, who also appears in Charmed Life, The Magicians of Caprona, and The Lives of Christopher Chant. Someone in the class is a witch. At least so the anonymous note says. Everyone is only too eager to prove it is someone else -- because in this society, witches are burned at the stake.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 25,
+        "childrens": 149,
+        "childrens (middle grade)": 86,
+        "fantasy": 808,
+        "fantasy (magic)": 116,
+        "fiction": 173,
+        "paranormal (witches)": 48,
+        "science fiction fantasy": 24,
+        "young adult": 228,
+        "young adult (young adult fantasy)": 27
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "552_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "552_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "552_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "552_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "552_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "552_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 12917,
+        "score": 3.92
+    },
+    "pages": 1285,
+    "title": "Witch Week",
+    "url": "https://www.goodreads.com/book/show/47572.Witch_Week",
+    "year_published": 1982
+}

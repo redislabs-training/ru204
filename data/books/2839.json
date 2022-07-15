@@ -1,0 +1,55 @@
+{
+    "author": "Kevin Hearne",
+    "base_id": "2839",
+    "description": "Atticus O\u2019Sullivan, last of the Druids, doesn\u2019t care much for witches. Still, he\u2019s about to make nice with the local coven by signing a mutually beneficial nonaggression treaty\u2014when suddenly the witch population in modern-day Tempe, Arizona, quadruples overnight. And the new girls are not just bad, they\u2019re badasses with a dark history on the German side of World War II.With a fallen angel feasting on local high school students, a horde of Bacchants blowing in from Vegas with their special brand of deadly decadence, and a dangerously sexy Celtic goddess of fire vying for his attention, Atticus is having trouble scheduling the witch hunt. But aided by his magical sword, his neighbor\u2019s rocket-propelled grenade launcher, and his vampire attorney, Atticus is ready to sweep the town and show the witchy women they picked the wrong Druid to hex.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 213,
+        "fantasy": 2026,
+        "fantasy (magic)": 315,
+        "fantasy (mythology)": 244,
+        "fantasy (paranormal)": 335,
+        "fantasy (supernatural)": 123,
+        "fantasy (urban fantasy)": 2010,
+        "fiction": 295,
+        "paranormal (vampires)": 232,
+        "paranormal (witches)": 118
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2839_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2839_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2839_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2839_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2839_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2839_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 56258,
+        "score": 4.22
+    },
+    "pages": 405,
+    "title": "Hexed",
+    "url": "https://www.goodreads.com/book/show/9595650-hexed",
+    "year_published": 2011
+}

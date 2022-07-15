@@ -1,0 +1,67 @@
+{
+    "author": "Shiho Sugiura",
+    "base_id": "13",
+    "description": "After capturing Tohji, the assassin sent after them, Rakan and his two guests return to squabbling over what to eat for dinner. As they discuss things with Tohji, they come to realize that he may not be so different from themselves. Meanwhile, Chigusa begins to realize that his growing affection for Rakan is starting to overcome his desire to drag Rakan back to the other world. But what does Rakan want? And what will happen when the dark prince who shares Rakan's face suddenly shows up in this world?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 3,
+        "fantasy": 26,
+        "fantasy (magic)": 4,
+        "fiction": 5,
+        "manga (shojo)": 4,
+        "manga (yaoi)": 11,
+        "sequential art (comics)": 3,
+        "sequential art (graphic novels)": 7,
+        "sequential art (manga)": 162,
+        "yaoi (shounen ai)": 6
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "13_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "13_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "13_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "13_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "13_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "13_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "13_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "13_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "13_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 511,
+        "score": 4.26
+    },
+    "pages": 824,
+    "title": "Silver Diamond 3",
+    "url": "https://www.goodreads.com/book/show/3171816-silver-diamond-3",
+    "year_published": 2004
+}

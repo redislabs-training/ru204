@@ -1,46 +1,34 @@
 {
-    "author": "Christine d'Abo",
-    "base_id": 51,
-    "description": "Haylie knows her life is about to change the moment she sets foot on the Eurus colony. What she didn't count on was her instant, overwhelming sexual desire for the seven-foot-tall, sexy as hell alien ambassador. He's in her every thought and dream, teasing and taunting her body into a sexual frenzy.Kamran has waited his whole life to find his bonded mate. When she arrives in the form of a slender human with brilliant eyes, he can't stop his all-consuming need to possess her. If their bond is discovered, they will be forced by Briel law to leave the colony, giving up the lives they've worked so hard to build.While Haylie and Kamran fight their growing desire, their colony is threatened by an unseen enemy. When the colony comes under attack by a brutal alien force, can Haylie and Kamran keep their bond a secret and stop the invasion in time to save everyone?",
+    "author": "Grant Morrison",
+    "base_id": "51",
+    "description": "Legendary writer Grant Morrison (ALL-STAR SUPERMAN, BATMAN) finishes his fractured remake of this 1960s misfit super-team in this volume collecting DOOM PATROL #58-63 and DOOM FORCE SPECIAL #1. Along the way, the Doom Patrol must face new challenges: Danny the Street meets his cosmic destiny, the bizarre hero known as Rebis battles the Candlemaker, and Crazy Jane attempts to find her place in the world.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 14,
-        "aliens": 25,
-        "erotic romance": 10,
-        "erotica": 36,
-        "fantasy": 9,
-        "futuristic": 11,
-        "paranormal": 19,
-        "paranormal romance": 9,
-        "romance": 38,
-        "science fiction": 37
+        "comics (comic book)": 7,
+        "comics (superheroes)": 11,
+        "fantasy": 6,
+        "fiction": 4,
+        "graphic novels comics": 10,
+        "science fiction": 3,
+        "sequential art (comics)": 138,
+        "sequential art (comix)": 5,
+        "sequential art (graphic novels)": 58,
+        "superheroes (dc comics)": 13
     },
     "inventory": [
         {
             "status": "on_loan",
             "stock_id": "51_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "51_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "51_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "51_4"
         }
     ],
     "metrics": {
-        "rating_votes": 975,
-        "score": 3.54
+        "rating_votes": 1580,
+        "score": 4.16
     },
-    "pages": 721,
-    "title": "The Bond That Ties Us",
-    "url": "https://www.goodreads.com/book/show/5973979-the-bond-that-ties-us",
-    "year_published": 2007
+    "pages": 1084,
+    "title": "Doom Patrol, Vol. 6: Planet Love",
+    "url": "https://www.goodreads.com/book/show/2183912.Doom_Patrol_Vol_6",
+    "year_published": 1992
 }

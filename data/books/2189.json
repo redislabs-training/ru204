@@ -1,0 +1,50 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "2189",
+    "description": "When last seen, the singularly inept wizard Rincewind had fallen off the edge of the world. Now magically, he's turned up again, and this time he's brought the Luggage.But that's not all....Once upon a time, there was an eighth son of an eighth son who was, of course, a wizard. As if that wasn't complicated enough, said wizard then had seven sons. And then he had an eighth son -- a wizard squared (that's all the math, really). Who of course, was a source of magic -- a sourcerer.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 119,
+        "audiobook": 94,
+        "fantasy": 5682,
+        "fantasy (high fantasy)": 83,
+        "fantasy (magic)": 149,
+        "fiction": 1080,
+        "humor": 938,
+        "humor (comedy)": 324,
+        "science fiction fantasy": 185,
+        "young adult": 85
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2189_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2189_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2189_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2189_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2189_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 84824,
+        "score": 3.89
+    },
+    "pages": 490,
+    "title": "Sourcery",
+    "url": "https://www.goodreads.com/book/show/34499.Sourcery",
+    "year_published": 1988
+}

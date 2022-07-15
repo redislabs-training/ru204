@@ -1,0 +1,36 @@
+{
+    "author": "Ken Liu",
+    "base_id": "2899",
+    "description": "A publishing event: Bestselling author Ken Liu selects his award-winning science fiction and fantasy tales for a groundbreaking collection\u2014including a brand-new piece exclusive to this volume.With his debut novel, The Grace of Kings, taking the literary world by storm, Ken Liu now shares his finest short fiction in The Paper Menagerie. This mesmerizing collection features all of Ken\u2019s award-winning and award-finalist stories, including: \u201cThe Man Who Ended History: A Documentary\u201d (Finalist for the Hugo, Nebula, and Theodore Sturgeon Awards), \u201cMono No Aware\u201d (Hugo Award winner), \u201cThe Waves\u201d (Nebula Award finalist), \u201cThe Bookmaking Habits of Select Species\u201d (Nebula and Sturgeon award finalists), \u201cAll the Flavors\u201d (Nebula award finalist), \u201cThe Litigation Master and the Monkey King\u201d (Nebula Award finalist), and the most awarded story in the genre\u2019s history, \u201cThe Paper Menagerie\u201d (The only story to win the Hugo, Nebula, and World Fantasy awards).A must-have for every science fiction and fantasy fan, this beautiful book is an anthology to savor.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "anthologies": 90,
+        "audiobook": 56,
+        "fantasy": 1065,
+        "fiction": 764,
+        "historical (historical fiction)": 88,
+        "magical realism": 99,
+        "science fiction": 669,
+        "science fiction fantasy": 68,
+        "short stories": 1561,
+        "speculative fiction": 62
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2899_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18361,
+        "score": 4.38
+    },
+    "pages": 352,
+    "title": "The Paper Menagerie and Other Stories",
+    "url": "https://www.goodreads.com/book/show/24885533-the-paper-menagerie-and-other-stories",
+    "year_published": 2016
+}

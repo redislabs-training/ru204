@@ -1,0 +1,46 @@
+{
+    "author": "Ian Doescher",
+    "base_id": "2317",
+    "description": "MAY THE VERSE BE WITH YOU!Return once more to a galaxy far, far away with this sublime retelling of George Lucas's epic Star Wars in the style of the immortal Bard of Avon. The saga of a wise (Jedi) knight and an evil (Sith) lord, of a beautiful princess held captive and a young hero coming of age, Star Wars abounds with all the valor and villainy of Shakespeare's greatest plays. 'Tis a tale told by fretful Droids, full of faithful Wookiees and fearsome Stormtroopers, signifying... pretty much everything.Reimagined in glorious iambic pentameter, William Shakespeare's Star Wars will astound and edify Rebels and Imperials alike. Zounds! This is the book you're looking for.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 60,
+        "drama": 85,
+        "fantasy": 171,
+        "fiction": 206,
+        "humor": 226,
+        "media tie in (star wars)": 449,
+        "plays": 180,
+        "poetry": 82,
+        "retellings": 56,
+        "science fiction": 364
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2317_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2317_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2317_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2317_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17841,
+        "score": 3.96
+    },
+    "pages": 542,
+    "title": "William Shakespeare's Star Wars: Verily, A New Hope",
+    "url": "https://www.goodreads.com/book/show/17262540-william-shakespeare-s-star-wars",
+    "year_published": 2013
+}

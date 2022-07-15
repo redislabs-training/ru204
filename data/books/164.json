@@ -1,33 +1,34 @@
 {
-    "author": "Julie E. Czerneda",
-    "base_id": 164,
-    "description": "Sira is on the run. The mysterious Captain Morgan has a starship. But if she goes with him, who will be at risk? Meet the Clan, shadowy figures of unfathomable power. Meet Huido, the lobster-like restauranteur. Meet the Trade Pact Enforcers, who have their own intentions. For events are beginning to unfold that will affect them all.Originally the first of the Trade Pact Universe Trilogy, THOUSAND is now book 4 of The Clan Chronicles. The three books of the Stratification Cycle, REAP THE WILD WIND, RIDERS OF THE STORM, and RIFT IN THE SKY tell the story of the Clan through the eyes of Sira's direct ancestor. The series will conclude with the Reunification Cycle, currently pestering the author.",
+    "author": "Alan Dean Foster",
+    "base_id": "164",
+    "description": "Having survived one encounter with an alien, Ripley is persuaded to return to the planet where her crew found the alien ship. A colony has been established there, but suddenly all contact with the settlers has been lost. Accompanied by marines, Ripley is going to find out why.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Canada": 6,
-        "aliens": 20,
-        "fantasy": 23,
-        "fiction": 33,
-        "romance": 29,
-        "science fiction": 243,
-        "science fiction fantasy": 18,
-        "space": 7,
-        "space opera": 37,
-        "speculative fiction": 5
+        "action": 7,
+        "audiobook": 8,
+        "fiction": 56,
+        "horror": 112,
+        "media tie in": 6,
+        "novels": 7,
+        "science fiction": 161,
+        "science fiction (aliens)": 28,
+        "thriller": 7,
+        "war (military fiction)": 6
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "164_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "164_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "164_3"
         },
         {
@@ -35,16 +36,28 @@
             "stock_id": "164_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "164_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "164_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "164_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "164_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2713,
-        "score": 3.89
+        "rating_votes": 5106,
+        "score": 4.13
     },
-    "pages": 1026,
-    "title": "A Thousand Words for Stranger",
-    "url": "https://www.goodreads.com/book/show/129019.A_Thousand_Words_for_Stranger",
-    "year_published": 1997
+    "pages": 1036,
+    "title": "Aliens",
+    "url": "https://www.goodreads.com/book/show/939559.Aliens",
+    "year_published": 1986
 }

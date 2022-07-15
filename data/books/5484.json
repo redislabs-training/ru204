@@ -1,0 +1,42 @@
+{
+    "author": "Naomi Novik",
+    "base_id": "5484",
+    "description": "Lesson One of the Scholomance: Learning has never been this deadly.A Deadly Education is set at Scholomance, a school for the magically gifted where failure means certain death (for real) \u2014 until one girl, El, begins to unlock its many secrets. There are no teachers, no holidays, and no friendships, save strategic ones. Survival is more important than any letter grade, for the school won\u2019t allow its students to leave until they graduate\u2026 or die! The rules are deceptively simple: Don\u2019t walk the halls alone. And beware of the monsters who lurk everywhere. El is uniquely prepared for the school\u2019s dangers. She may be without allies, but she possesses a dark power strong enough to level mountains and wipe out millions. It would be easy enough for El to defeat the monsters that prowl the school. The problem? Her powerful dark magic might also kill all the other students.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 112,
+        "fantasy": 3258,
+        "fantasy (magic)": 304,
+        "fantasy (paranormal)": 102,
+        "fantasy (urban fantasy)": 124,
+        "fiction": 456,
+        "horror": 160,
+        "science fiction fantasy": 90,
+        "young adult": 717,
+        "young adult (young adult fantasy)": 171
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "5484_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5484_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5484_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 27155,
+        "score": 4.07
+    },
+    "pages": 465,
+    "title": "A Deadly Education",
+    "url": "https://www.goodreads.com/book/show/50548197-a-deadly-education",
+    "year_published": 2020
+}

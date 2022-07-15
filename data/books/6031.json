@@ -1,25 +1,25 @@
 {
-    "author": "Arthur C. Clarke",
-    "base_id": 6031,
-    "description": "On the Moon, an enigma is uncovered.So great are the implications of this discovery that for the first time men are sent out deep into our solar system.But long before their destination is reached, things begin to go horribly, inexplicably wrong...One of the greatest-selling science fiction novels of our time, this classic book will grip you to the very end.",
+    "author": "Scott Lynch",
+    "base_id": "6031",
+    "description": "Librarian note: An older cover for this edition can be found here: 31-Jul-2007.After a brutal battle with the underworld that nearly destroyed him, Locke Lamora and his trusted sidekick, Jean, fled the island city of their birth and landed on the exotic shores of Tal Verrar to nurse their wounds. But even at this westernmost edge of civilization, they can't rest for long---and they are soon back doing what they do best: stealing from the undeserving rich and pocketing the proceeds for themselves.This time, however, they have targeted the grandest prize of all: the Sinspire, the most exclusive and heavily guarded gambling house in the world. Its nine floors attract the wealthiest clientele - and to rise to the top, one must impress with good credit, amusing behavior...and excruciatingly impeccable play. For there is one cardinal rule, enforced by Requin, the house's cold-blooded master: it is death to cheat at any game at the Sinspire.Brazenly undeterred, Locke and Jean have orchestrated an elaborate plan to lie, trick, and swindle their way up the nine floors...straight to Requin's teeming vault. Under the cloak of false identities, they meticulously make their climb - until they are closer to the spoils than ever.But someone in Tal Verrar has uncovered the duo's secret. Someone from their past who has every intention of making the impudent criminals pay for their sins. Now it will take every ounce of cunning to save their mercenary souls. And even that may not be enough.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "audiobook": 166,
-        "classics": 1507,
-        "fantasy": 206,
-        "fiction": 2360,
-        "literature": 111,
-        "novels": 209,
-        "science fiction": 5720,
-        "science fiction fantasy": 346,
-        "space": 251,
-        "speculative fiction": 102
+        "adult": 157,
+        "adventure": 332,
+        "adventure (pirates)": 150,
+        "audiobook": 182,
+        "fantasy": 6985,
+        "fantasy (epic fantasy)": 262,
+        "fantasy (high fantasy)": 222,
+        "fiction": 760,
+        "mystery (crime)": 102,
+        "science fiction fantasy": 135
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "6031_1"
         },
         {
@@ -27,11 +27,11 @@
             "stock_id": "6031_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "6031_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "6031_4"
         },
         {
@@ -43,16 +43,16 @@
             "stock_id": "6031_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "6031_7"
         }
     ],
     "metrics": {
-        "rating_votes": 266542,
-        "score": 4.15
+        "rating_votes": 117371,
+        "score": 4.22
     },
-    "pages": 749,
-    "title": "2001: A Space Odyssey",
-    "url": "https://www.goodreads.com/book/show/70535.2001",
-    "year_published": 1968
+    "pages": 632,
+    "title": "Red Seas Under Red Skies",
+    "url": "https://www.goodreads.com/book/show/40604556-red-seas-under-red-skies",
+    "year_published": 2007
 }

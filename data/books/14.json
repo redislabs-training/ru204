@@ -1,57 +1,45 @@
 {
-    "author": "Angela Castle",
-    "base_id": 14,
-    "description": "Can things get any worse for Daisy Putter? Abducted and transported across the galaxy, all she can do is wait to be sold by greedy aliens. Her luck changes when she's rescued by a team of red-skinned Demos soldiers from Galafrax. Daisy is thrust into a world of quadruple sexiness she finds hard to resist, especially the Commander and his brothers.Commanding officers Loz and his brothers Tos, Cir, and Bex, are captivated by the white-haired beauty now on their ship, and quickly fall under her alluring spell. A fiery passion flairs between them, and they know she belongs to them.When powerful ruling quads set their sights on Daisy, and try to steal her from her chosen men, the Stormstrong brothers must use every trick they know to save not only their Daisy, but the whole city from a corrupt power.",
+    "author": "Erik Burnham",
+    "base_id": "14",
+    "description": "Prime gets slimed! Crossing the streams after 35 years, this action-packed graphic novel combines two of the most popular franchises in pop-culture history.After years of civil war, the Autobots fled Cyberton, leaving their home planet in the evil clutches of Megatron and his Decepticons. Years later and millions of miles away, the Autobots pick up a Cybertronian distress signal from a mysterious planet called Earth. The ghostly signal shouldn't exist, and it'll bring Optimus Prime and his team--including brand-new Autobot ECTOTRON--face-to-face with... the GHOSTBUSTERS!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "erotica": 25,
-        "fantasy": 5,
-        "polyamorous": 4,
-        "romance": 10,
-        "science fiction": 23,
-        "science fiction romance": 6,
-        "space": 3,
-        "supernatural": 2
+        "comics (comic book)": 2,
+        "humor": 2,
+        "science fiction": 2,
+        "sequential art (comics)": 5,
+        "sequential art (graphic novels)": 2
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "14_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "14_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "14_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "14_4"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "14_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14_7"
         }
     ],
     "metrics": {
-        "rating_votes": 474,
-        "score": 3.83
+        "rating_votes": 67,
+        "score": 3.84
     },
-    "pages": 397,
-    "title": "Precious Starlight",
-    "url": "https://www.goodreads.com/book/show/23342158-precious-starlight",
-    "year_published": 2014
+    "pages": 705,
+    "title": "Transformers/Ghostbusters: Ghosts of Cybertron",
+    "url": "https://www.goodreads.com/book/show/46166810-transformers-ghostbusters",
+    "year_published": 2020
 }

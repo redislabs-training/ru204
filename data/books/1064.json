@@ -1,0 +1,54 @@
+{
+    "author": "Ransom Riggs",
+    "base_id": "1064",
+    "description": "When Jacob Portman was a boy, his grandfather regaled him with stories of his fantastic life at Miss Peregrine's home during the Second World War, even sharing photos of the remarkable children with whom he resided. As Jacob grew up, though, he decided that these photos were obvious fakes, simple forgeries designed to stir his youthful imagination. Or were they...?Following his grandfather's death - a scene Jacob literally couldn't believe with his own eyes - the sixteen-year-old boy embarks on a mission to disentangle fact from fiction in his grandfather's tall tales. But even his grandfather's elaborate yarns couldn't prepare Jacob for the eccentricities he will discover at Miss Peregrine's Home for Peculiar Children!",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "fantasy": 236,
+        "fantasy (paranormal)": 62,
+        "fiction": 80,
+        "graphic novels comics": 42,
+        "horror": 36,
+        "science fiction (time travel)": 30,
+        "sequential art (comics)": 102,
+        "sequential art (graphic novels)": 532,
+        "sequential art (manga)": 25,
+        "young adult": 198
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1064_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1064_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1064_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1064_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1064_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1064_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8837,
+        "score": 4.11
+    },
+    "pages": 326,
+    "title": "Miss Peregrine's Home for Peculiar Children: The Graphic Novel",
+    "url": "https://www.goodreads.com/book/show/17333322-miss-peregrine-s-home-for-peculiar-children",
+    "year_published": 2011
+}

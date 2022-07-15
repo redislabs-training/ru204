@@ -1,57 +1,50 @@
 {
     "author": "Joe Haldeman",
-    "base_id": 6003,
+    "base_id": "6003",
     "description": "The Earth's leaders have drawn a line in the interstellar sand\u2014despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But \"home\" may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
         "classics": 202,
-        "fiction": 1448,
-        "military fiction": 245,
+        "fiction": 1449,
         "science fiction": 4396,
+        "science fiction (time travel)": 168,
         "science fiction fantasy": 228,
         "space": 144,
-        "space opera": 219,
+        "space (space opera)": 219,
         "speculative fiction": 103,
-        "time travel": 168,
-        "war": 456
+        "war": 456,
+        "war (military fiction)": 245
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "6003_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "6003_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "6003_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "6003_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "6003_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "6003_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "6003_7"
         }
     ],
     "metrics": {
-        "rating_votes": 143514,
+        "rating_votes": 143487,
         "score": 4.14
     },
-    "pages": 703,
+    "pages": 643,
     "title": "The Forever War",
     "url": "https://www.goodreads.com/book/show/21611.The_Forever_War",
     "year_published": 1974

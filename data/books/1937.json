@@ -1,0 +1,36 @@
+{
+    "author": "Gail Carriger",
+    "base_id": "1937",
+    "description": "From New York Times bestselling author Gail Carriger comes a new novel in the world of the Parasol Protectorate starring Prudence, the daughter of Alexia Tarabotti.When Prudence Alessandra Maccon Akeldama (Rue to her friends) is given an unexpected dirigible, she does what any sensible female would under similar circumstances - names it the Spotted Custard and floats to India in pursuit of the perfect cup of tea. But India has more than just tea on offer. Rue stumbles upon a plot involving local dissidents, a kidnapped brigadier's wife, and some awfully familiar Scottish werewolves. Faced with a dire crisis and an embarrassing lack of bloomers, what else is a young lady of good breeding to do but turn metanatural and find out everyone's secrets, even thousand-year-old fuzzy ones?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 808,
+        "fantasy (paranormal)": 337,
+        "fantasy (urban fantasy)": 127,
+        "fiction": 206,
+        "historical": 129,
+        "historical (historical fiction)": 199,
+        "paranormal (vampires)": 242,
+        "science fiction (steampunk)": 1268,
+        "shapeshifters (werewolves)": 132,
+        "young adult": 232
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1937_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14490,
+        "score": 3.8
+    },
+    "pages": 446,
+    "title": "Prudence",
+    "url": "https://www.goodreads.com/book/show/12799420-prudence",
+    "year_published": 2015
+}

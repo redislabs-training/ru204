@@ -1,21 +1,22 @@
 {
-    "author": "Sheri S. Tepper",
-    "base_id": 670,
-    "description": "ISBN 9781857987980 moved to this edition.Generations ago, humans fled to the cosmic anomaly known as Grass. But before humanity arrived, another species had already claimed Grass for its own. It too had developed a culture...... Now a deadly plague is spreading across the stars, leaving no planet untouched, save for Grass. But the secret of the planet's immunity hides a truth so shattering it could mean the end of life itself.",
+    "author": "Joss Whedon",
+    "base_id": "670",
+    "description": "Hundreds of years in the future, Manhattan has become a deadly slum, run by mutant crime-lords and disinterested cops. Stuck in the middle is a young girl who thought she had no future, but learns she has a great destiny. In a world so poisoned that it doesn't notice the monsters on its streets, how can a street kid like Fray unite a fallen city against a demonic plot to consume mankind? Joss Whedon, the celebrated creator of Buffy the Vampire Slayer, brings his vision to the future in this unique tale. As inventive in the comics medium as in that of television or film, Whedon spins a complex tale of a skilled thief coming of age without the help of friends or family, guided only by a demonic Watcher.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 18,
-        "dystopia": 20,
-        "fantasy": 190,
-        "feminism": 18,
-        "fiction": 203,
-        "religion": 14,
-        "science fiction": 660,
-        "science fiction fantasy": 48,
-        "space": 12,
-        "speculative fiction": 35
+        "fantasy": 263,
+        "fantasy (paranormal)": 51,
+        "fantasy (urban fantasy)": 67,
+        "fiction": 128,
+        "graphic novels comics": 102,
+        "horror": 82,
+        "paranormal (vampires)": 148,
+        "science fiction": 83,
+        "sequential art (comics)": 635,
+        "sequential art (graphic novels)": 888
     },
     "inventory": [
         {
@@ -23,7 +24,7 @@
             "stock_id": "670_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "670_2"
         },
         {
@@ -33,14 +34,34 @@
         {
             "status": "maintenance",
             "stock_id": "670_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "670_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "670_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "670_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "670_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "670_9"
         }
     ],
     "metrics": {
-        "rating_votes": 11216,
-        "score": 4.05
+        "rating_votes": 11715,
+        "score": 4.07
     },
-    "pages": 1036,
-    "title": "Grass",
-    "url": "https://www.goodreads.com/book/show/104342.Grass",
-    "year_published": 1989
+    "pages": 305,
+    "title": "Fray",
+    "url": "https://www.goodreads.com/book/show/195806.Fray",
+    "year_published": 2003
 }

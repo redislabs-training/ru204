@@ -1,25 +1,27 @@
 {
-    "author": "Jennifer L. Armentrout",
-    "base_id": 311,
-    "description": "In this special eBook version, experience OBSIDIAN, ONYX, and OPAL as told by Daemon Black\u2026This book is enhanced with exclusive content\u2014two original songs inspired by the novel\u2014resulting in a large file that may take longer to download than expected.I knew the moment Katy Swartz moved in next door, there was going to be trouble. Lots of it.And trouble\u2019s the last thing I need, since I\u2019m not exactly from around here. My people arrived on Earth from Lux, a planet thirteen billion light years away. Plus, if there\u2019s one thing I know, it\u2019s that humans can\u2019t be trusted. We scare them. We can do things they only dream about, and honestly, we make them look weak as hell. \u2018Cuz they are.But Kat is getting to me in ways no one else has, and I can't stop myself from wanting her\u2014or wanting to use my powers to protect her. She makes me weak, and I\u2019m the strongest of our kind, tasked with protecting us all. So this one simple girl\u2026she can mean the end for us. Because the Luxen have an even bigger enemy\u2014the Arum, and I need to stay on my game.Falling for Katy\u2014a human\u2014won't just place her in danger. It could get us all killed, and that\u2019s one thing I\u2019ll never let happen...",
+    "author": "Mary Pope Osborne",
+    "base_id": "311",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Cannon fire!That's what Jack and Annie hear when the Magic Tree House whisks them back to the time of the American Civil War. There they meet a famous nurse named Clara Barton and do their best to help wounded soldiers. It is their hardest journey in time yet\u2014and the one that will make the most difference to their own lives!Book Details: \n   Format: Paperback \n   Publication Date: 5/23/2000 \n   Pages: 96 \n   Reading Level: Age 6 and Up \n ",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 49,
-        "fantasy": 48,
-        "fiction": 6,
-        "paranormal": 46,
-        "paranormal romance": 12,
-        "romance": 56,
-        "science fiction": 27,
-        "supernatural": 7,
-        "young adult": 67,
-        "young adult fantasy": 5
+        "adventure": 34,
+        "childrens": 104,
+        "childrens (chapter books)": 34,
+        "fantasy": 108,
+        "fantasy (magic)": 18,
+        "fiction": 76,
+        "historical": 23,
+        "historical (historical fiction)": 111,
+        "military history (civil war)": 27,
+        "science fiction (time travel)": 26
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "311_1"
         },
         {
@@ -27,11 +29,11 @@
             "stock_id": "311_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "311_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "311_4"
         },
         {
@@ -40,11 +42,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 2232,
-        "score": 4.5
+        "rating_votes": 8035,
+        "score": 3.96
     },
-    "pages": 857,
-    "title": "Oblivion",
-    "url": "https://www.goodreads.com/book/show/25946985-oblivion",
-    "year_published": 2015
+    "pages": 335,
+    "title": "Civil War on Sunday",
+    "url": "https://www.goodreads.com/book/show/409163.Civil_War_on_Sunday",
+    "year_published": 2000
 }

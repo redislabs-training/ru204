@@ -1,25 +1,26 @@
 {
-    "author": "Ann Aguirre",
-    "base_id": 420,
-    "description": "WELCOME TO HELLThe prison ship Perdition, a floating city where the Conglomerate\u2019s most dangerous criminals are confined for life, orbits endlessly around a barren asteroid.Life inside is even more bleak. Hailed as the Dread Queen, inmate Dresdemona \u201cDred\u201d Devos controls one of Perdition\u2019s six territories, bordered on both sides by would-be kings eager to challenge her claim. Keeping them at bay requires constant vigilance, as well as a steady influx of new recruits to replace the fallen. Survival is a constant battle, and death is the only escape.Of the newest convicts, only one is worth Dred\u2019s attention. The mercenary Jael, with his deadly gaze and attitude, may be the most dangerous criminal onboard. His combat skill could give her the edge she needs, if he doesn\u2019t betray her first. Unfortunately, that\u2019s what he does best. Winning Jael\u2019s allegiance will be a challenge, but failure could be worse than death\u2026",
+    "author": "Austin Aslan",
+    "base_id": "420",
+    "description": "Right before my eyes, my beautiful islands are changing forever. And so am I ...Sixteen-year-old Leilani loves surfing and her home in Hilo, on the Big Island of Hawaii. But she's an outsider - half white, half Hawaiian, and an epileptic.While Lei and her father are on a visit to Oahu, a global disaster strikes. Technology and power fail, Hawaii is cut off from the world, and the islands revert to traditional ways of survival. As Lei and her dad embark on a nightmarish journey across islands to reach home and family, she learns that her epilepsy and her deep connection to Hawaii could be keys to ending the crisis before it becomes worse than anyone can imagine.A powerful story enriched by fascinating elements of Hawaiian ecology, culture, and warfare, this captivating and dramatic debut from Austin Aslan is the first of two novels. The author has a master\u2019s degree in tropical conservation biology from the University of Hawaii at Hilo.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 52,
-        "aliens": 47,
-        "dystopia": 21,
-        "fantasy": 75,
-        "fiction": 29,
-        "romance": 91,
-        "science fiction": 304,
-        "space": 31,
-        "space opera": 35,
-        "urban fantasy": 22
+        "adventure": 36,
+        "adventure (survival)": 39,
+        "apocalyptic (post apocalyptic)": 41,
+        "fantasy": 22,
+        "fiction": 38,
+        "science fiction": 88,
+        "science fiction (apocalyptic)": 27,
+        "science fiction (dystopia)": 56,
+        "young adult": 157,
+        "young adult (teen)": 16
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "420_1"
         },
         {
@@ -27,24 +28,16 @@
             "stock_id": "420_2"
         },
         {
-            "status": "available",
-            "stock_id": "420_3"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "420_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "420_5"
+            "stock_id": "420_3"
         }
     ],
     "metrics": {
-        "rating_votes": 3888,
-        "score": 3.89
+        "rating_votes": 2077,
+        "score": 3.66
     },
-    "pages": 754,
-    "title": "Perdition",
-    "url": "https://www.goodreads.com/book/show/13421230-perdition",
-    "year_published": 2013
+    "pages": 282,
+    "title": "The Islands at the End of the World",
+    "url": "https://www.goodreads.com/book/show/18811324-the-islands-at-the-end-of-the-world",
+    "year_published": 2014
 }

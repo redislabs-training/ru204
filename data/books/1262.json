@@ -1,0 +1,47 @@
+{
+    "author": "Colleen Gleason",
+    "base_id": "1262",
+    "description": "Evaline Stoker and Mina Holmes never meant to get into the family business. But when you\u2019re the sister of Bram and the niece of Sherlock, vampire hunting and mystery solving are in your blood. And when two society girls go missing, there\u2019s no one more qualified to investigate.Now fierce Evaline and logical Mina must resolve their rivalry, navigate the advances of not just one but three mysterious gentlemen, and solve murder with only one clue: a strange Egyptian scarab. The stakes are high. If Stoker and Holmes don\u2019t unravel why the belles of London society are in such danger, they\u2019ll become the next victims.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "fantasy": 276,
+        "fantasy (paranormal)": 78,
+        "fiction": 103,
+        "historical": 124,
+        "historical (historical fiction)": 257,
+        "mystery": 440,
+        "science fiction": 109,
+        "science fiction (steampunk)": 608,
+        "science fiction (time travel)": 101,
+        "young adult": 426
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1262_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1262_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1262_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1262_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6603,
+        "score": 3.67
+    },
+    "pages": 1397,
+    "title": "The Clockwork Scarab",
+    "url": "https://www.goodreads.com/book/show/17084242-the-clockwork-scarab",
+    "year_published": 2013
+}

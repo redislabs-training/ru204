@@ -1,21 +1,23 @@
 {
-    "author": "Orson Scott Card",
-    "base_id": 1445,
-    "description": "\nThe mining ship El Cavador is far out from Earth, in the deeps of the Kuiper Belt, beyond Pluto. Other mining ships, and the families that live on them, are few and far between this far out. So when El Cavador's telescopes pick up a fast-moving object coming in-system, it's hard to know what to make of it. It's massive and moving at a significant fraction of the speed of light.El Cavador has other problems. Their systems are old and failing. The family is getting too big for the ship. There are claim-jumping corporate ships bringing Asteroid Belt tactics to the Kuiper Belt. Worrying about a distant object that might or might not be an alien ship seems not important.They're wrong. It's the most important thing that has happened to the human race in a million years. The first Formic War is about to begin.\n",
+    "author": "Dan Simmons",
+    "base_id": "1445",
+    "description": "The multiple-award-winning SF master returns to the universe that is his greatest success--the world of Hyperion and The Fall of Hyperion--to tell a story of love and memory, triumph and terror in a novel even more magnificent than its predecessors.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 28,
+        "adventure": 35,
         "audiobook": 45,
-        "dystopia": 27,
-        "fantasy": 37,
-        "fiction": 223,
-        "science fiction": 372,
-        "science fiction fantasy": 42,
-        "space": 26,
-        "space opera": 28,
-        "young adult": 29
+        "fantasy": 193,
+        "fiction": 483,
+        "science fiction": 1594,
+        "science fiction (time travel)": 43,
+        "science fiction fantasy": 98,
+        "space": 41,
+        "space (space opera)": 176,
+        "speculative fiction": 30
     },
     "inventory": [
         {
@@ -23,7 +25,7 @@
             "stock_id": "1445_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1445_2"
         },
         {
@@ -31,11 +33,11 @@
             "stock_id": "1445_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1445_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1445_5"
         },
         {
@@ -43,16 +45,20 @@
             "stock_id": "1445_6"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1445_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1445_8"
         }
     ],
     "metrics": {
-        "rating_votes": 46778,
-        "score": 3.98
+        "rating_votes": 48216,
+        "score": 4.17
     },
-    "pages": 636,
-    "title": "Earth Unaware",
-    "url": "https://www.goodreads.com/book/show/13151129-earth-unaware",
-    "year_published": 2012
+    "pages": 1183,
+    "title": "Endymion",
+    "url": "https://www.goodreads.com/book/show/3977.Endymion",
+    "year_published": 1996
 }

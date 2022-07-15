@@ -1,0 +1,64 @@
+{
+    "author": "Mike Tucker",
+    "base_id": "147",
+    "description": "On a lonely stretch of Welsh coastline, a fisherman is killed by a hideous creature from beneath the waves. When the Doctor and Rose arrive, they discover a village where the children are plagued by nightmares, and the nights are ruled by monsters. The villagers suspect that ancient industrialist Nathanial Morton is to blame, but the Doctor has suspicions of his own. Who are the ancient figures that sleep in the old priory? What are the monsters that prowl the woods after sunset? What is the light that glows in the disused lighthouse on Black Island? As the children's nightmares get worse, the Doctor and Rose discover an alien plot to resurrect an ancient evil...",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 18,
+        "fantasy": 27,
+        "fiction": 50,
+        "media tie in": 10,
+        "media tie in (doctor who)": 349,
+        "media tie in (tv)": 8,
+        "mystery": 7,
+        "science fiction": 132,
+        "science fiction (time travel)": 24,
+        "science fiction fantasy": 8
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "147_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "147_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "147_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "147_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "147_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "147_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "147_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "147_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2213,
+        "score": 3.77
+    },
+    "pages": 608,
+    "title": "Doctor Who: The Nightmare of Black Island",
+    "url": "https://www.goodreads.com/book/show/286437.Doctor_Who",
+    "year_published": 2006
+}

@@ -1,0 +1,68 @@
+{
+    "author": "Isaac Asimov",
+    "base_id": "3270",
+    "description": "Foundation and Empire tells the incredible story of a new breed of man who create a new force for galactic government. Thus, the Foundation hurtles into conflict with the decadent, decrepit First Empire. In this struggle for power amid the chaos of the stars, man stands at the threshold of a new, enlightened life which could easily be put aside for the old forces of barbarism. The Foundation novels of Isaac Asimov constitute what is very likely the most famed epic in all of science-fiction",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 72,
+        "classics": 464,
+        "fantasy": 150,
+        "fiction": 1653,
+        "novels": 130,
+        "science fiction": 4811,
+        "science fiction fantasy": 281,
+        "space": 99,
+        "space (space opera)": 187,
+        "speculative fiction": 80
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3270_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3270_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3270_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3270_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "3270_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3270_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "3270_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "3270_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "3270_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 161773,
+        "score": 4.21
+    },
+    "pages": 687,
+    "title": "Foundation and Empire",
+    "url": "https://www.goodreads.com/book/show/29581.Foundation_and_Empire",
+    "year_published": 1952
+}

@@ -1,58 +1,40 @@
 {
-    "author": "Will McIntosh",
-    "base_id": 371,
-    "description": "Seventeen-year-old David Sullivan\u2019s life is about to change\u2014all because of one tiny, priceless item found in the murky bottom of a Brooklyn water tower.Sully is a sphere dealer at a flea market. It doesn\u2019t pay much\u2014Alex Holliday\u2019s stores have muscled out most of the independent sellers\u2014but it helps him and his mom make rent.No one knows where the brilliant-colored spheres came from. One day they were just there, hidden all over the earth like huge gemstones. Burn a pair and they make you a little better: an inch taller, skilled at math, better-looking. The rarer the sphere, the more expensive\u2014and the greater the improvement.When Sully meets Hunter, a girl with a natural talent for finding spheres, the two start searching together. One day they find a Gold\u2014a color no one has ever seen. And when Alex Holliday learns what they have, he will go to any lengths, will use all of his wealth and power, to take it from them.There\u2019s no question the Gold is worth millions, but what does it actually do? None of them is aware of it yet, but the fate of the world rests on this little golden orb. Because all the world fights over the spheres, but no one knows where they come from, what their powers are, or why they\u2019re here.",
+    "author": "Jeyn Roberts",
+    "base_id": "371",
+    "description": "In this apocalyptic sequel to Dark Inside four teens continue the struggle for survival as they face a world gone mad.Aries, Clementine, Mason and Michael have survived the first wave of the apocalypse that wiped out most of the world\u2019s population, and turned many of the rest into murderous Baggers. Now, they\u2019re hiding out in an abandoned house in Vancouver with a ragtag group of surviving teens, and trying to figure out their next move. Aries is trying to lead, but it\u2019s hard to be a leader when there are no easy answers, and every move feels wrong. Clementine is desperate to find her brother Heath, but it\u2019s impossible to know where he\u2019d be, even if he is still alive. Michael is still haunted by the memories of his actions during his harrowing struggle to survive. And Mason is struggling with something far worse: the fear that he may be a danger to his friends. As the Baggers begin to create a new world order, Aries, Clementine, Mason and Michael will have to trust and rely on each other in order to survive.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 14,
-        "aliens": 17,
-        "contemporary": 10,
-        "dystopia": 18,
-        "fantasy": 90,
-        "fiction": 32,
-        "romance": 15,
-        "science fiction": 96,
-        "teen": 9,
-        "young adult": 134
+        "adventure (survival)": 21,
+        "apocalyptic (post apocalyptic)": 53,
+        "fantasy (paranormal)": 13,
+        "horror": 52,
+        "horror (zombies)": 36,
+        "science fiction": 25,
+        "science fiction (apocalyptic)": 21,
+        "science fiction (dystopia)": 65,
+        "thriller": 12,
+        "young adult": 98
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "371_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "371_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1685,
-        "score": 3.61
+        "rating_votes": 3952,
+        "score": 4.1
     },
-    "pages": 316,
-    "title": "Burning Midnight",
-    "url": "https://www.goodreads.com/book/show/25489041-burning-midnight",
-    "year_published": 2016
+    "pages": 510,
+    "title": "Rage Within",
+    "url": "https://www.goodreads.com/book/show/13185168-rage-within",
+    "year_published": 2012
 }

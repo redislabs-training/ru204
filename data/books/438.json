@@ -1,0 +1,50 @@
+{
+    "author": "S.D. Crockett",
+    "base_id": "438",
+    "description": "Fifteen-year-old Willo was out hunting when the trucks came and took his family away. Left alone in the snow, Willo becomes determined to find and rescue his family, and he knows just who to talk with to learn where they are. He plans to head across the mountains and make Farmer Geraint tell him where his family has gone. But on the way across the mountain, he finds Mary, a refugee from the city, whose father is lost and who is starving to death. The smart thing to do would be to leave her alone -- he doesn't have enough supplies for two or the time to take care of a girl -- but Willo just can't do it. However, with the world trapped in an ice age, the odds of them surviving on their own are not good. And even if he does manage to keep Mary safe, what about finding his family?.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 21,
+        "adventure (survival)": 30,
+        "apocalyptic (post apocalyptic)": 30,
+        "fantasy": 12,
+        "fiction": 25,
+        "science fiction": 42,
+        "science fiction (apocalyptic)": 14,
+        "science fiction (dystopia)": 76,
+        "young adult": 109,
+        "young adult (teen)": 13
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "438_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "438_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "438_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "438_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "438_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1767,
+        "score": 3.16
+    },
+    "pages": 759,
+    "title": "After the Snow",
+    "url": "https://www.goodreads.com/book/show/11801954-after-the-snow",
+    "year_published": 2012
+}

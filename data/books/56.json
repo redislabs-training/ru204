@@ -1,25 +1,25 @@
 {
-    "author": "Susan Grant",
-    "base_id": 56,
-    "description": "When co-pilot Jordan Cady\u2019s 747 is snatched from the sky by an immense UFO, she must put aside her own fears and take charge, exactly what the single mother of a six-year old daughter knows how to do. With no power or communications to the plane, Jordan and her crew are far from understanding who\u2014or what\u2014has hijacked them, until an envoy is sent to deliver unthinkable news. Space Force Lieutenant K\u00e0o Vantaar-Moray expected gratitude and not defiance from the Earth-woman pilot. No matter how hard he tries to convince her that his people saved her and hundreds of her passengers from certain death, he can't erase her suspicion that in the eyes of those on Earth her aircraft has vanished without a trace. The more involved he becomes with Jordan, the more his loyalties are torn. He owes his ship commander respect, and his very life, but a new life beckons with Jordan\u2014if he can save her and her people before a heartless enemy reveals its true intentions.. \u201cAs a 747 pilot for United Airlines, there is little doubt that Susan Grant has been forced to confront more directly than most of us the enormous changes September 11, 2001 brought to our world. Drawing on her unique credentials and front-line perspective, Susan Grant has delivered a story of unusual depth and power that, while a terrific romance and a great adventure, resonates with a distinctly post 9-11 sensibility.\u201d\u2014All About Romance",
+    "author": "Christopher G. Nuttall",
+    "base_id": "56",
+    "description": "Their past is not what they think it is...  Thrown back in time after the spells binding Whitehall School together nearly collapsed, Emily finds herself in the days of Lord Whitehall. But everything she knows about the past is a lie. The Whitehall Commune is in hiding from a great and terrible foe, while some of the legendary founders bicker like children and others call on deadly and untrustworthy entities with agendas of their own.  Desperately seeking a way back to her own time, her mere presence a boon and a curse to established history, Emily is drawn into a conflict against both rogue wizards and a mysterious force intent on exterminating all magicians before the future school can take shape. But as deadly powers converge on the castle, her time is running out...  ...And, deep beneath Old Whitehall, something dark and dangerous is about to be born.  Note: Discounted for a limited time as consideration for those readers who have been patiently awaiting publication of this book.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "fantasy": 7,
+        "academic (school)": 5,
+        "adventure": 7,
+        "fantasy": 71,
+        "fantasy (magic)": 26,
         "fiction": 4,
-        "futuristic": 12,
-        "paranormal": 4,
-        "romance": 64,
-        "science fiction": 38,
-        "science fiction R... (Futuristic Romance) ": 4,
-        "science fiction romance": 14,
-        "space": 3
+        "paranormal (demons)": 4,
+        "science fiction": 4,
+        "science fiction (time travel)": 8,
+        "young adult": 8,
+        "young adult (young adult fantasy)": 4
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "56_1"
         },
         {
@@ -29,34 +29,14 @@
         {
             "status": "maintenance",
             "stock_id": "56_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "56_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "56_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "56_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "56_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "56_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1103,
-        "score": 3.73
+        "rating_votes": 2248,
+        "score": 4.4
     },
-    "pages": 690,
-    "title": "Contact",
-    "url": "https://www.goodreads.com/book/show/18949861-contact",
-    "year_published": 2002
+    "pages": 541,
+    "title": "Past Tense",
+    "url": "https://www.goodreads.com/book/show/31186178-past-tense",
+    "year_published": 2016
 }

@@ -1,0 +1,58 @@
+{
+    "author": "Jonathan Hickman",
+    "base_id": "1133",
+    "description": "This is the world. It is not the one we wanted, but it is the one we deserved. The Four Horsemen of the Apocalypse roam the Earth, signaling the End Times for humanity, and our best hope for life, lies in Death.Collecting: East Of West 1-5",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "comics (comic book)": 90,
+        "fantasy": 215,
+        "fiction": 106,
+        "graphic novels comics": 118,
+        "horror": 32,
+        "science fiction": 168,
+        "science fiction (dystopia)": 50,
+        "sequential art (comics)": 855,
+        "sequential art (graphic novels)": 899,
+        "westerns": 108
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1133_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1133_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1133_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1133_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1133_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1133_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1133_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13667,
+        "score": 3.91
+    },
+    "pages": 1164,
+    "title": "East of West, Vol. 1: The Promise",
+    "url": "https://www.goodreads.com/book/show/17929637-east-of-west-vol-1",
+    "year_published": 2013
+}

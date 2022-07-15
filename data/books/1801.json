@@ -1,65 +1,39 @@
 {
     "author": "Dean Koontz",
-    "base_id": 1801,
+    "base_id": "1801",
     "description": "In one of the most dazzling books of his celebrated career, Dean Koontz delivers a masterwork of page-turning suspense that surpasses even his own inimitable reputation as a chronicler of our worst fears-and best dreams. In The Taking he tells the story of a community cut off from a world under siege, and the terrifying battle for survival waged by a young couple and their neighbors as familiar streets become fog-shrouded death traps. Gripping, heartbreaking, and triumphant in the face of mankind's darkest hour, here is a small-town slice-of-doomsday thriller that strikes to the core of each of us to ask: What would you do in the midst of The Taking.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 35,
         "fantasy": 57,
+        "fantasy (paranormal)": 47,
+        "fantasy (supernatural)": 40,
         "fiction": 320,
         "horror": 751,
         "mystery": 86,
-        "paranormal": 47,
         "science fiction": 107,
-        "supernatural": 40,
+        "science fiction (aliens)": 35,
         "suspense": 104,
         "thriller": 213
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1801_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1801_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1801_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1801_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1801_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1801_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1801_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1801_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1801_9"
         }
     ],
     "metrics": {
         "rating_votes": 36107,
         "score": 3.78
     },
-    "pages": 1049,
+    "pages": 969,
     "title": "The Taking",
     "url": "https://www.goodreads.com/book/show/16434.The_Taking",
     "year_published": 2004

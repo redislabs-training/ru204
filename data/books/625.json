@@ -1,0 +1,39 @@
+{
+    "author": "Neil Gaiman",
+    "base_id": "625",
+    "description": "This supernatural mystery set in the world of Sherlock Holmes and Lovecraft's Cthulhu Mythos features a brilliant detective and his partner as they try to solve a horrific murder.The complex investigation takes the Baker Street investigators from the slums of Whitechapel all the way to the Queen's Palace as they attempt to find the answers to this bizarre murder of cosmic horror!From the Hugo, Bram Stoker, Locus, World Fantasy, Nebula award-winning, and New York Times bestselling writer Neil Gaiman comes this graphic novel adaptation with art by Eisner award winning artist Rafael Albuquerque!",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "fantasy": 158,
+        "fiction": 89,
+        "graphic novels comics": 27,
+        "historical (historical fiction)": 29,
+        "horror": 182,
+        "mystery": 130,
+        "mystery (crime)": 23,
+        "sequential art (comics)": 222,
+        "sequential art (graphic novels)": 323,
+        "short stories": 21
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "625_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "625_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4103,
+        "score": 3.92
+    },
+    "pages": 1296,
+    "title": "A Study in Emerald",
+    "url": "https://www.goodreads.com/book/show/36709515-a-study-in-emerald",
+    "year_published": 2018
+}

@@ -1,25 +1,27 @@
 {
-    "author": "Melanie Nilles",
-    "base_id": 239,
-    "description": "They've been coming here for thousands of years, using Earth as a sanctuary to escape threats from their own kind. Mankind knows them as angels, and one of them left a child upon her death to be raised as a human.Raea is now a high school senior, and her life as a human is about to end. The crystal shard she bears is not a pretty pendant; it's a collective of powerful entities who chose her as their Keeper, a protector of one of the four shards that power a machine capable of destroying whole worlds. Those who desire the Starfire's power have sent an agent to find her, but she's too busy evading a nosy reporter ready to exploit her secret and dating a hot new foreign student to notice. Nevermind learning what she really is.Only one person on Earth can help her, the last person she ever expected. But he's not from Earth. Life as a human would be so much easier.",
+    "author": "Wade Albert White",
+    "base_id": "239",
+    "description": "Anne has spent most of her thirteen years dreaming of the day she and her best friend Penelope will finally leave Saint Lupin's Institute for Perpetually Wicked and Hideously Unattractive Children. When the big day arrives, a series of very curious happenings lead to Anne being charged with an epic quest. Anne, Penelope, and new questing partner Hiro have only days to travel to strange new locales, solve myriad riddles, and triumph over monstrous foes--or face the horrible consequences.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 19,
-        "angels": 101,
-        "fantasy": 74,
-        "fiction": 17,
-        "paranormal": 78,
-        "paranormal romance": 27,
-        "romance": 51,
-        "supernatural": 13,
-        "urban fantasy": 20,
-        "young adult": 87
+        "adventure": 38,
+        "childrens": 19,
+        "childrens (juvenile)": 7,
+        "childrens (middle grade)": 63,
+        "fantasy": 86,
+        "fantasy (dragons)": 14,
+        "fantasy (magic)": 18,
+        "fiction": 12,
+        "humor": 13,
+        "young adult": 10
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "239_1"
         },
         {
@@ -29,14 +31,38 @@
         {
             "status": "maintenance",
             "stock_id": "239_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "239_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "239_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "239_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "239_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "239_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "239_9"
         }
     ],
     "metrics": {
-        "rating_votes": 3848,
-        "score": 3.75
+        "rating_votes": 827,
+        "score": 4.12
     },
-    "pages": 1387,
-    "title": "Starfire Angels",
-    "url": "https://www.goodreads.com/book/show/6687158-starfire-angels",
-    "year_published": 2009
+    "pages": 437,
+    "title": "The Adventurer's Guide to Successful Escapes",
+    "url": "https://www.goodreads.com/book/show/26848831-the-adventurer-s-guide-to-successful-escapes",
+    "year_published": 0
 }

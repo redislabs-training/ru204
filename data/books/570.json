@@ -1,42 +1,55 @@
 {
-    "author": "Laurann Dohner",
-    "base_id": 570,
-    "description": "Ariel never knew aliens existed until she finds herself kidnapped and taken from Earth. When the Anzon declare humans useless, she learns her fate \u2014 prize for the winner of a brutal fight between large, muscled alien men.Ral is a Zorn warrior. He has also been kidnapped by the Anzon, along with his crew. Forced into slavery, he's got one thing on his mind \u2014 freeing his people. That is, until he sees the small human woman he's willing to fight to win. He doesn't just want her body, he wants her heart forever.In the hands of a hot alien, Ariel is about to discover how pleasurable captivity can be.",
+    "author": "O.T. Nelson",
+    "base_id": "570",
+    "description": "A killing virus has swept the earth, sparing only children through the age of twelve. There is chaos everywhere, even in formely prosperous mid-America. Gangs and fierce armies of children begin to form almost immediately. It would be the same for the children on Grand Avenue but for Lisa, a yen-year-old girl who becomes their leader. Because of Lisa, they have food, even toys, in abundance. And now they can protect themselves from the fierce gangs that roam the neighborhoods. But for how long? Then Lisa conceives the idea of a fortress, a city in which the children could live safely and happily always, and she intends to lead them there.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 50,
-        "aliens": 252,
-        "erotic romance": 49,
-        "erotica": 207,
-        "fantasy": 82,
-        "paranormal": 137,
-        "paranormal romance": 128,
-        "romance": 256,
-        "science fiction": 277,
-        "science fiction romance": 80
+        "academic (school)": 16,
+        "adventure": 18,
+        "adventure (survival)": 16,
+        "apocalyptic (post apocalyptic)": 34,
+        "childrens": 28,
+        "childrens (middle grade)": 22,
+        "fiction": 68,
+        "science fiction": 57,
+        "science fiction (dystopia)": 60,
+        "young adult": 100
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "570_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "570_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "570_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "570_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "570_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "570_6"
         }
     ],
     "metrics": {
-        "rating_votes": 12457,
-        "score": 3.82
+        "rating_votes": 4676,
+        "score": 3.8
     },
-    "pages": 723,
-    "title": "Ral's Woman",
-    "url": "https://www.goodreads.com/book/show/7203997-ral-s-woman",
-    "year_published": 2009
+    "pages": 278,
+    "title": "The Girl Who Owned a City",
+    "url": "https://www.goodreads.com/book/show/357933.The_Girl_Who_Owned_a_City",
+    "year_published": 1975
 }

@@ -1,0 +1,46 @@
+{
+    "author": "Peadar \u00d3 Guil\u00edn",
+    "base_id": "2135",
+    "description": "Imagine a world where you might disappear any minute, only to find yourself alone in a grey sickly land, with more horrors in it than you would ever wish to know about. And then you hear a horn and you know that whoever lives in this hell has got your scent and the hunt has already begun.Could you survive the Call?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 46,
+        "fairies (fae)": 54,
+        "fantasy": 631,
+        "fantasy (paranormal)": 66,
+        "fiction": 109,
+        "horror": 465,
+        "science fiction": 49,
+        "science fiction (dystopia)": 162,
+        "young adult": 428,
+        "young adult (young adult fantasy)": 43
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2135_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2135_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2135_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2135_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 10821,
+        "score": 3.86
+    },
+    "pages": 292,
+    "title": "The Call",
+    "url": "https://www.goodreads.com/book/show/28600081-the-call",
+    "year_published": 2016
+}

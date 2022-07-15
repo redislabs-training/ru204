@@ -1,0 +1,40 @@
+{
+    "author": "Clifford D. Simak",
+    "base_id": "889",
+    "description": "Simak's \"City\" is a series of connected stories, a series of legends, myths, and campfire stories told by Dogs about the end of human civilization, centering on the Webster family, who, among their other accomplishments, designed the ships that took Men to the stars and gave Dogs the gift of speech and robots to be their hands.Contents:\u00b7 City \u00b7 nv Astounding May 1944 \u00b7 Huddling Place \u00b7 ss Astounding Jul 1944 \u00b7 Census \u00b7 nv Astounding Sep 1944 \u00b7 Desertion \u00b7 ss Astounding Nov 1944 \u00b7 Paradise \u00b7 ss Astounding Jun 1946 \u00b7 Hobbies \u00b7 nv Astounding Nov 1946 \u00b7 Aesop \u00b7 nv Astounding Dec 1947 \u00b7 The Simple Way [The Trouble with Ants] \u00b7 nv Fantastic Adventures Jan 1951 \u00b7 Author\u2019s Note \u00b7 is \u00b7 Epilog \u00b7 ss Astounding, ed. Harry Harrison, Random, 1973",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "animals": 27,
+        "animals (dogs)": 22,
+        "classics": 63,
+        "fantasy": 78,
+        "fiction": 229,
+        "science fiction": 800,
+        "science fiction (dystopia)": 23,
+        "science fiction fantasy": 37,
+        "short stories": 124,
+        "speculative fiction": 32
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "889_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "889_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14738,
+        "score": 4.1
+    },
+    "pages": 280,
+    "title": "City",
+    "url": "https://www.goodreads.com/book/show/222093.City",
+    "year_published": 1952
+}

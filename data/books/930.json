@@ -1,0 +1,64 @@
+{
+    "author": "Eoin Colfer",
+    "base_id": "930",
+    "description": "\u200bThe reluctant assassin is Riley, a Victorian boy who is suddenly plucked from his own time and whisked into the twenty-first century, accused of murder and on the run.Riley has been pulled into the FBI's covert W.A.R.P. operation (Witness Anonymous Relocation Program). He and young FBI Agent Chevie Savano are forced to flee terrifying assassin-for-hire Albert Garrick, who pursues Riley through time and will not stop until he has hunted him down. Barely staying one step ahead, Riley and Chevie must stay alive and stop Garrick returning to his own time with knowledge and power that could change the world forever.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 100,
+        "audiobook": 35,
+        "childrens (middle grade)": 42,
+        "fantasy": 174,
+        "fiction": 64,
+        "historical": 33,
+        "historical (historical fiction)": 43,
+        "science fiction": 201,
+        "science fiction (time travel)": 143,
+        "young adult": 242
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "930_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "930_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "930_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "930_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "930_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "930_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "930_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "930_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7239,
+        "score": 3.67
+    },
+    "pages": 564,
+    "title": "The Reluctant Assassin",
+    "url": "https://www.goodreads.com/book/show/10915176-the-reluctant-assassin",
+    "year_published": 2013
+}

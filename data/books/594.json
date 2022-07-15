@@ -1,0 +1,34 @@
+{
+    "author": "William Sleator",
+    "base_id": "594",
+    "description": "One by one, five sixteen-year-old orphans are brought to a strange building. It is not a prison, not a hospital; it has no walls, no ceiling, no floor. Nothing but endless flights of stairs leading nowhere, except back to a strange red machine. The five must learn to love the machine and let it rule their lives. But will they let it kill their souls?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "childrens": 13,
+        "fantasy": 29,
+        "fiction": 96,
+        "horror": 68,
+        "science fiction": 170,
+        "science fiction (dystopia)": 72,
+        "speculative fiction": 14,
+        "thriller": 17,
+        "young adult": 210,
+        "young adult (teen)": 28
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "594_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4272,
+        "score": 3.85
+    },
+    "pages": 311,
+    "title": "House of Stairs",
+    "url": "https://www.goodreads.com/book/show/24875.House_of_Stairs",
+    "year_published": 1974
+}

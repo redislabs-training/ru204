@@ -1,0 +1,54 @@
+{
+    "author": "Charlotte Wood",
+    "base_id": "1517",
+    "description": "Two women awaken from a drugged sleep to find themselves imprisoned in an abandoned property in the middle of a desert in a story of two friends, sisterly love and courage - a gripping, starkly imaginative exploration of contemporary misogyny and corporate control, and of what it means to hunt and be hunted.Strangers to each other, they have no idea where they are or how they came to be there with eight other girls, forced to wear strange uniforms, their heads shaved, guarded by two inept yet vicious armed jailers and a 'nurse'. The girls all have something in common, but what is it? What crime has brought them here from the city? Who is the mysterious security company responsible for this desolate place with its brutal rules, its total isolation from the contemporary world? Doing hard labour under a sweltering sun, the prisoners soon learn what links them: in each girl's past is a sexual scandal with a powerful man. They pray for rescue - but when the food starts running out it becomes clear that the jailers have also become the jailed. The girls can only rescue themselves.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "book club": 35,
+        "contemporary": 35,
+        "cultural (australia)": 74,
+        "feminism": 70,
+        "fiction": 256,
+        "horror": 22,
+        "literary fiction": 31,
+        "literature": 25,
+        "science fiction": 34,
+        "science fiction (dystopia)": 86
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1517_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1517_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1517_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1517_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1517_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1517_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11148,
+        "score": 3.53
+    },
+    "pages": 1233,
+    "title": "The Natural Way of Things",
+    "url": "https://www.goodreads.com/book/show/25876358-the-natural-way-of-things",
+    "year_published": 2015
+}

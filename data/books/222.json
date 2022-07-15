@@ -1,38 +1,59 @@
 {
-    "author": "Jamie Grey",
-    "base_id": 222,
-    "description": "Stealing another galactic secret will get her arrested, but playing by the rules might just get her killed.At twenty-three, Renna Carrizal is the most notorious thief in the galaxy. There's just one problem - all she wants is to get out of the business.But after Renna rescues an injured boy on her final job, she finds herself on the run from the mob instead of enjoying retirement. She unwittingly becomes ensnared by MYTH, a top-secret galactic protection agency who offer her a choice - either help them on their latest mission, or spend the rest of her life on a prison ship.Forced to work under the watchful eye of handsome but arrogant Captain Finn, Renna learns the former mercenary-turned-hero has a few dirty secrets himself. As Renna works to discover the truth about Finn's past and keep the tantalizing man at arm's length, she unearths a plot to create an unstoppable army. The target? The human star fleet.Now Renna must pull off the biggest job of her career - saving the galaxy. And maybe even herself.",
+    "author": "P.W. Singer",
+    "base_id": "222",
+    "description": "We are just beginning to see a massive shift in military technology that threatens to make the stuff of I, Robot and the Terminator all too real. More then seven thousand robotic systems are now in Iraq. Pilots in Nevada are remotely killing terrorists in Afghanistan. Scientists are debating just how smart - and how lethal - to make their current robotic prototypes. And many of the most renowned science fiction authors are secretly consulting for the Pentagon on the next generation.Blending historic evidence with interviews from the field, Singer vividly shows that as these technologies multiply, they will have profound effects on the front lines as well as on the politics back home. Moving humans off the battlefield makes wars easier to start, but more complex to fight. Replacing men with machines may save some lives, but will lower the morale and psychological barriers to killing. The \"warrior ethos\", which has long defined soldiers' identity, will erode, as will the laws of war that have governed military conflict for generations.While his analysis is unnerving, there's an irresistible gee-whiz quality to the innovations Singer uncovers. Wired for War travels from Iraq to see these robots in combat to the latter-day \"skunk works\" in America's suburbia, where tomorrow's technologies of war are quietly being designed. In Singer's hands, the future of war is as fascinating as it is frightening.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 19,
-        "adventure": 19,
-        "aliens": 27,
-        "dystopia": 18,
-        "fantasy": 74,
-        "new adult": 183,
-        "romance": 124,
-        "science fiction": 218,
-        "space": 22,
-        "young adult": 20
+        "artificial intelligence": 10,
+        "history": 30,
+        "military (military history)": 9,
+        "nonfiction": 113,
+        "politics": 32,
+        "science": 54,
+        "science (technology)": 54,
+        "science fiction (robots)": 6,
+        "war": 43,
+        "war (military fiction)": 77
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "222_1"
         },
         {
             "status": "maintenance",
             "stock_id": "222_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "222_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "222_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "222_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "222_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "222_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1831,
-        "score": 3.49
+        "rating_votes": 2180,
+        "score": 3.98
     },
-    "pages": 880,
-    "title": "The Star Thief",
-    "url": "https://www.goodreads.com/book/show/19146092-the-star-thief",
-    "year_published": 2014
+    "pages": 1244,
+    "title": "Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century",
+    "url": "https://www.goodreads.com/book/show/6098718-wired-for-war",
+    "year_published": 2009
 }

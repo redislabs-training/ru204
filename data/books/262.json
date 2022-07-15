@@ -1,29 +1,29 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 262,
-    "description": "Escaped convict Vordigar has been hiding out on Risda III. When he\u2019s scooped up by law enforcement, he has two choices - he can be shipped back to the Haven prison system, or he can marry one of the locals. Piper is from an alien race called \u2018humans\u2019 and she needs a mate to help her protect her farm from aggressive neighbors.Vordigar\u2019s not interested in forever. Or marrying. Or settling down. He\u2019ll go along with Piper\u2019s plans just until he can get off planet\u2026or so he thinks.Because one night in Piper\u2019s bed changes everything.",
+    "author": "R.R. Haywood",
+    "base_id": "262",
+    "description": "The end of the world has been avoided\u2014for now. With Miri and her team of extracted heroes still on the run, Mother, the disgraced former head of the British Secret Service, has other ideas\u2026While Mother retreats to her bunker to plot her next move, Miri, Ben, Safa and Harry travel far into the future to ensure that they have prevented the apocalypse. But what they find just doesn\u2019t make sense.London in 2111 is on the brink of annihilation. What\u2019s more, the timelines have been twisted. Folded in on each other. It\u2019s hard to keep track of who is where. Or, more accurately, who is when.The clock is ticking for them all. With nothing left to lose but life itself, our heroes must stop Mother\u2014or die trying.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 50,
-        "erotica": 8,
-        "fantasy": 14,
-        "fiction": 7,
-        "futuristic": 5,
-        "novella": 25,
-        "paranormal romance": 11,
-        "romance": 61,
-        "science fiction": 56,
-        "science fiction romance": 15
+        "action": 2,
+        "audiobook": 9,
+        "fantasy": 7,
+        "fiction": 19,
+        "science fiction": 40,
+        "science fiction (dystopia)": 2,
+        "science fiction (time travel)": 29,
+        "science fiction fantasy": 3,
+        "thriller": 6
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "262_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "262_2"
         },
         {
@@ -35,11 +35,11 @@
             "stock_id": "262_4"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "262_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "262_6"
         },
         {
@@ -48,11 +48,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 2799,
-        "score": 4.1
+        "rating_votes": 4539,
+        "score": 4.29
     },
-    "pages": 547,
-    "title": "When She's Married",
-    "url": "https://www.goodreads.com/book/show/50357332-when-she-s-married",
-    "year_published": 2020
+    "pages": 440,
+    "title": "Extinct",
+    "url": "https://www.goodreads.com/book/show/36991055-extinct",
+    "year_published": 2018
 }

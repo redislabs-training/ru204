@@ -1,0 +1,60 @@
+{
+    "author": "Margaret Atwood",
+    "base_id": "22969",
+    "description": "An alternate cover edition of ISBN 978-0385543781 can be found here.When the van door slammed on Offred's future at the end of The Handmaid's Tale, readers had no way of telling what lay ahead for her--freedom, prison or death.With The Testaments, the wait is over.Margaret Atwood's sequel picks up the story more than fifteen years after Offred stepped into the unknown, with the explosive testaments of three female narrators from Gilead.In this brilliant sequel to The Handmaid's Tale, acclaimed author Margaret Atwood answers the questions that have tantalized readers for decades.\"Dear Readers: Everything you've ever asked me about Gilead and its inner workings is the inspiration for this book. Well, almost everything! The other inspiration is the world we've been living in.\" --Margaret Atwood",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 256,
+        "adult fiction": 202,
+        "audiobook": 551,
+        "cultural (canada)": 252,
+        "feminism": 715,
+        "fiction": 3661,
+        "literary fiction": 218,
+        "science fiction": 826,
+        "science fiction (dystopia)": 1457,
+        "speculative fiction": 222
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "22969_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "22969_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "22969_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "22969_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "22969_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "22969_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "22969_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 231581,
+        "score": 4.2
+    },
+    "pages": 905,
+    "title": "The Testaments",
+    "url": "https://www.goodreads.com/book/show/42975172-the-testaments",
+    "year_published": 2019
+}

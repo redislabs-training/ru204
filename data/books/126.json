@@ -1,21 +1,22 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 126,
-    "description": "On Risda III, it\u2019s custom for women to marry for convenience. It provides safety and security in a universe that offers none for humans.Me, I don\u2019t really *need* a husband. I just want one. And I want one man in particular. There\u2019s a new guy in town, a by-the-books military man named Rektar. Every day I show up to his office and flirt with him. I bring pies. I twirl my hair. I make it very, very obvious what I want.Rektar is patient, and gentle for all his hulking form. He\u2019d be a great husband. He\u2019s also completely clueless that I\u2019m flirting with him.So it\u2019s time for me to be a little bit bolder\u2026",
+    "author": "Linda   Davies",
+    "base_id": "126",
+    "description": "A stunningly exciting and dramatic story set in the wilds of the Welsh mountains, where the brave and beautiful Merry Owen, the Longbow Girl, travels back in time to the autocratic kingdom of King Henry VIII to save her ancestors.Steeped in history, ancient lore and crackling with tension between the central characters Merry and James, Longbow Girl explores the themes of who we are and who we can become when fighting for those we love and for our very lives. Are we prisoners of our history or can we break free? Can we become all that we need to be to meet the ultimate challenge of life and death in the King\u2019s Tournament and in the dungeons of the Black Castle?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 2,
-        "aliens": 17,
-        "erotica": 2,
-        "futuristic": 2,
-        "humor": 2,
-        "novella": 5,
-        "paranormal": 3,
-        "romance": 18,
-        "science fiction": 22,
-        "science fiction romance": 4
+        "adventure": 10,
+        "childrens": 4,
+        "fantasy": 43,
+        "fiction": 11,
+        "historical": 19,
+        "historical (historical fiction)": 38,
+        "mystery": 5,
+        "science fiction": 8,
+        "science fiction (time travel)": 43,
+        "young adult": 31
     },
     "inventory": [
         {
@@ -27,24 +28,28 @@
             "stock_id": "126_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "126_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "126_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "126_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "126_6"
         }
     ],
     "metrics": {
-        "rating_votes": 931,
-        "score": 4.36
+        "rating_votes": 685,
+        "score": 3.86
     },
-    "pages": 1295,
-    "title": "When She's Bold",
-    "url": "https://www.goodreads.com/book/show/56535559-when-she-s-bold",
-    "year_published": 2021
+    "pages": 740,
+    "title": "Longbow Girl",
+    "url": "https://www.goodreads.com/book/show/25711025-longbow-girl",
+    "year_published": 2015
 }

@@ -1,0 +1,62 @@
+{
+    "author": "Patricia C. Wrede",
+    "base_id": "3609",
+    "description": "Cimorene is everything a princess is not supposed to be: headstrong, tomboyish, smart - and bored. So bored that she runs away to live with a dragon - and finds the family and excitement she's been looking for.Cover illustrator: Peter de S\u00e8ve",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 282,
+        "childrens": 488,
+        "childrens (middle grade)": 474,
+        "fantasy": 5061,
+        "fantasy (dragons)": 995,
+        "fantasy (fairy tales)": 188,
+        "fantasy (magic)": 268,
+        "fiction": 609,
+        "humor": 216,
+        "young adult": 1295
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3609_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3609_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "3609_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 88034,
+        "score": 4.12
+    },
+    "pages": 972,
+    "title": "Dealing with Dragons",
+    "url": "https://www.goodreads.com/book/show/150739.Dealing_with_Dragons",
+    "year_published": 1990
+}

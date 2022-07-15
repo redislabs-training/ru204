@@ -1,25 +1,25 @@
 {
     "author": "James L. Cambias",
-    "base_id": 399,
-    "description": "On the planet Ilmatar, under a roof of ice a kilometer thick, a team of deep-sea diving scientists investigates the blind alien race thatlives below. The Terran explorers have made an uneasy truce with the Sholen, their first extraterrestrial contact: so long as they don\u2019t disturb the Ilmataran habitat, they\u2019re free to conduct their missions in peace.But when Henri Kerlerec, media personality and reckless adventurer, ends up sliced open by curious Ilmatarans, tensions between Terran and Sholen erupt, leading to a diplomatic disaster that threatens to escalate to war.Against the backdrop of deep-sea guerrilla conflict, a new age of human exploration begins as alien cultures collide. Both sides seek the aid of the newly enlightened Ilmatarans. But what this struggle means for the natives\u2014and the future of human exploration\u2014is anything but certain, in A Darkling Sea by James Cambias.",
+    "base_id": "399",
+    "description": "On the planet Ilmatar, under a roof of ice a kilometer thick, a team of deep-sea diving scientists investigates the blind alien race that \u00a0lives below. The Terran explorers have made an uneasy truce with the Sholen, their first extraterrestrial contact: so long as they don\u2019t disturb the Ilmataran habitat, they\u2019re free to conduct their missions in peace.But when Henri Kerlerec, media personality and reckless adventurer, ends up sliced open by curious Ilmatarans, tensions between Terran and Sholen\u00a0erupt, leading to a diplomatic\u00a0disaster that threatens to escalate to war.Against the backdrop of deep-sea guerrilla conflict, a new age of human\u00a0exploration begins as alien cultures collide. Both sides seek the aid of the newly\u00a0enlightened Ilmatarans. But what this struggle means for the natives\u2014and the future of human exploration\u2014is anything but certain, in A Darkling Sea by James Cambias.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
         "adventure": 9,
-        "aliens": 26,
         "audiobook": 5,
         "fiction": 47,
         "novels": 4,
         "science fiction": 263,
+        "science fiction (aliens)": 26,
         "science fiction fantasy": 9,
         "space": 12,
-        "space opera": 7,
+        "space (space opera)": 7,
         "speculative fiction": 6
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "399_1"
         },
         {
@@ -29,37 +29,13 @@
         {
             "status": "on_loan",
             "stock_id": "399_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "399_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "399_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "399_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "399_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "399_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "399_9"
         }
     ],
     "metrics": {
         "rating_votes": 2320,
         "score": 3.75
     },
-    "pages": 363,
+    "pages": 1140,
     "title": "A Darkling Sea",
     "url": "https://www.goodreads.com/book/show/17934480-a-darkling-sea",
     "year_published": 2014

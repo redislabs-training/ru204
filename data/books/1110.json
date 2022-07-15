@@ -1,0 +1,58 @@
+{
+    "author": "Mercedes Lackey",
+    "base_id": "1110",
+    "description": "They came after the Diseray. Some were terrors ripped from our collective imaginations, remnants of every mythology across the world. And some were like nothing anyone had ever dreamed up, even in their worst nightmares.Monsters.Long ago, the barriers between our world and the Otherworld were ripped open, and it\u2019s taken centuries to bring back civilization in the wake of the catastrophe. Now, the luckiest Cits live in enclosed communities, behind walls that keep them safe from the hideous creatures fighting to break through. Others are not so lucky.To Joyeaux Charmand, who has been a Hunter in her tight-knit mountain community since she was a child, every Cit without magic deserves her protection from dangerous Othersiders. Then she is called to Apex City, where the best Hunters are kept to protect the most important people.Joy soon realizes that the city\u2019s powerful leaders care more about luring Cits into a false sense of security than protecting them. More and more monsters are getting through the barriers, and the close calls are becoming too frequent to ignore. Yet the Cits have no sense of how much danger they\u2019re in\u2014to them, Joy and her corps of fellow Hunters are just action stars they watch on TV.When an act of sabotage against Joy takes an unbearable toll, she uncovers a terrifying conspiracy in the city. There is something much worse than the usual monsters infiltrating Apex. And it may be too late to stop them\u2026",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 37,
+        "audiobook": 36,
+        "fantasy": 518,
+        "fantasy (magic)": 55,
+        "fiction": 58,
+        "science fiction": 47,
+        "science fiction (dystopia)": 98,
+        "young adult": 223,
+        "young adult (teen)": 32,
+        "young adult (young adult fantasy)": 31
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1110_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1110_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1110_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1110_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1110_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1110_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1110_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6897,
+        "score": 3.99
+    },
+    "pages": 227,
+    "title": "Hunter",
+    "url": "https://www.goodreads.com/book/show/24397041-hunter",
+    "year_published": 2015
+}

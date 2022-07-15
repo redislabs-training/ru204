@@ -1,0 +1,34 @@
+{
+    "author": "Ransom Riggs",
+    "base_id": "17382",
+    "description": "This second novel begins in 1940, immediately after the first book ended. Having escaped Miss Peregrine\u2019s island by the skin of their teeth, Jacob and his new friends must journey to London, the peculiar capital of the world. Along the way, they encounter new allies, a menagerie of peculiar animals, and other unexpected surprises.Complete with dozens of newly discovered (and thoroughly mesmerising) vintage photographs, this new adventure will delight readers of all ages.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 388,
+        "fantasy": 4753,
+        "fantasy (paranormal)": 802,
+        "fantasy (supernatural)": 322,
+        "fiction": 1507,
+        "historical (historical fiction)": 501,
+        "horror": 420,
+        "mystery": 376,
+        "science fiction (time travel)": 417,
+        "young adult": 3168
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "17382_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 208270,
+        "score": 4.04
+    },
+    "pages": 230,
+    "title": "Hollow City",
+    "url": "https://www.goodreads.com/book/show/23164983-hollow-city",
+    "year_published": 2014
+}

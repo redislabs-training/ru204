@@ -1,25 +1,27 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 328,
-    "description": "When a rogue Mogadorian meets up with a mysterious amnesiac in Santa Monica, he knows that there's more to this guy than meets the eye. In fact, he might just hold the key to everything.In I Am Number Four: The Lost Files #4, discover what has happened to one of the people with information crucial to the Garde coming together to fight to save Lorien\u2014and Earth.",
+    "author": "John Marsden",
+    "base_id": "328",
+    "description": "The action doesn't let up in the most explosive Tomorrow book yet -- another international bestseller from John Marsden. The journey to Stratton isn't an easy trip, especially when the enemy's headquarters lie somewhere along the way. And that's exactly where Ellie and her friends unwittingly find themselves. With only five of them against hundreds of armed soldiers, escape seems like a suicide mission. But Stratton is where Ellie's grandmother lives, so the journey must be made -- even though the odds aren't good.Ellie must summon all of her courage and guerrilla instincts to survive the latest high-stakes installment of the action-packed Tomorrow series.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 10,
-        "aliens": 54,
-        "fantasy": 33,
-        "fiction": 15,
-        "novella": 22,
-        "paranormal": 7,
-        "science fiction": 90,
-        "short stories": 10,
-        "teen": 12,
-        "young adult": 61
+        "action": 39,
+        "adventure": 45,
+        "adventure (survival)": 22,
+        "cultural (australia)": 59,
+        "fiction": 160,
+        "science fiction": 33,
+        "science fiction (dystopia)": 74,
+        "war": 119,
+        "young adult": 434,
+        "young adult (teen)": 35
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "328_1"
         },
         {
@@ -27,7 +29,7 @@
             "stock_id": "328_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "328_3"
         },
         {
@@ -43,20 +45,24 @@
             "stock_id": "328_6"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "328_7"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "328_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "328_9"
         }
     ],
     "metrics": {
-        "rating_votes": 8163,
-        "score": 4.24
+        "rating_votes": 15134,
+        "score": 4.19
     },
-    "pages": 747,
-    "title": "The Search for Sam",
-    "url": "https://www.goodreads.com/book/show/15752308-the-search-for-sam",
-    "year_published": 2012
+    "pages": 1318,
+    "title": "Burning For Revenge",
+    "url": "https://www.goodreads.com/book/show/71869.Burning_For_Revenge",
+    "year_published": 1997
 }

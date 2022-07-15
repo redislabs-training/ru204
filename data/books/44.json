@@ -1,50 +1,35 @@
 {
-    "author": "Scarlett Dawn",
-    "base_id": 44,
-    "description": "*The individual installments are no longer in publication. Please see Cold Mark (Mark, #1) https://www.goodreads.com/book/show/2... .New York Times bestselling author, Scarlett Dawn, captures the perfect last installment of The Cold Mark Saga, where trust is earned and love soars\u2026Braita Valorn is a disaster walking. One mistake after another on the planet Triaz has landed her in trouble time and again. Only Braita\u2019s quick wit has kept her from complete ruin\u2014and her cunning to blackmail the Plumas of the east.The Plumas of the west own Braita. She is their Soul. But when her ultimate freedom is so close she can taste it, Braita might just \u2018own\u2019 them\u2026if her heart doesn\u2019t get in the way.Or, perhaps, Braita should have followed her heart from the start\u2014to one set of Plumas who are her perfect match.Will Braita obtain her freedom? Or will she finally accept a life she never asked for?",
+    "author": "Kage Baker",
+    "base_id": "44",
+    "description": "\n\nIn the Company, you're either a God or a Pawn, but sometimes you have to be both. The eight stories, reprinted for the first time in this collection delve further into the history and exploits of the Company and its operatives, including Mendoza, Lewis, and Alec.  The book opens with the novella, \"To the Land Beyond the Sunset,\" starring Lewis and Mendoza, and involving a strange tribe in Bolivia whose members claim to be gods. Their ability to grow a small tropical paradise in the middle of the desert certainly seems godlike, and it's Mendoza's job to figure what their secret is.\"Standing in His Light\" features Van Drouten, and her role in the career of the artist Jan Vermeer. The story illustrates how, with a little help from the Company, lost masterpieces can be found (or created) easily. Other stories include \"Welcome to Olympus, Mr. Hearst,\" which opens up intriguing questions about The Company, and the original novelette, \"Hellfire at Twilight,\" which concludes the volume and tells of Lewis infiltrating the famous Hellfire Club in the England of the 18th century.  This book is a compelling read for every Baker fan, and essential for Company addicts\n\n",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 7,
-        "aliens": 20,
-        "dystopia": 7,
-        "erotica": 6,
-        "fantasy": 15,
-        "new adult": 8,
-        "paranormal": 7,
-        "polyamorous": 4,
-        "romance": 11,
-        "science fiction": 15
+        "anthologies (collections)": 7,
+        "fantasy": 10,
+        "fiction": 19,
+        "historical (historical fiction)": 2,
+        "own": 2,
+        "science fiction": 62,
+        "science fiction (time travel)": 25,
+        "science fiction fantasy": 5,
+        "short stories": 25,
+        "speculative fiction": 3
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "44_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "44_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "44_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "44_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "44_5"
         }
     ],
     "metrics": {
-        "rating_votes": 781,
-        "score": 3.75
+        "rating_votes": 708,
+        "score": 4.02
     },
-    "pages": 638,
-    "title": "Soar",
-    "url": "https://www.goodreads.com/book/show/25322920-soar",
-    "year_published": 2015
+    "pages": 397,
+    "title": "Gods and Pawns",
+    "url": "https://www.goodreads.com/book/show/270485.Gods_and_Pawns",
+    "year_published": 2007
 }

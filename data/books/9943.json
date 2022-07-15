@@ -1,0 +1,62 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "9943",
+    "description": "Terry Pratchett's profoundly irreverent, bestselling novels have garnered him a revered position in the halls of parody next to the likes of Mark Twain, Kurt Vonnegut, Douglas Adams, and Carl Hiaasen.The Color of Magic is Terry Pratchett's maiden voyage through the now-legendary land of Discworld. This is where it all begins -- with the tourist Twoflower and his wizard guide, Rincewind.On a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 366,
+        "fantasy": 15032,
+        "fantasy (high fantasy)": 227,
+        "fantasy (magic)": 411,
+        "fiction": 3072,
+        "humor": 2254,
+        "humor (comedy)": 732,
+        "novels": 224,
+        "science fiction": 441,
+        "science fiction fantasy": 512
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "9943_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "9943_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9943_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9943_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "9943_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "9943_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "9943_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "9943_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 325786,
+        "score": 3.98
+    },
+    "pages": 1042,
+    "title": "The Color of Magic",
+    "url": "https://www.goodreads.com/book/show/34497.The_Color_of_Magic",
+    "year_published": 1983
+}

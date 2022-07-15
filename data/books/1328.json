@@ -1,0 +1,52 @@
+{
+    "author": "Angie Sage",
+    "base_id": "1328",
+    "description": "The third book in the internationally bestselling Septimus Heap series by Angie Sage, featuring the funny and fantastic adventures of a wizard apprentice and his quest to become an ExtraOrdinary Wizard.New York Times Bestselling Series\"Few fans of the best-selling Septimus Heap series will be disappointed.\" --ALA Booklist\"Readers will be indubitably hooked--worrying, laughing, and gasping over the nonstop adventures of this engaging troupe.\" --VOYA (Starred Review)When Silas Heap unSeals a forgotten room in the Palace, he releases the ghost of a Queen who lived five hundred years earlier. Queen Etheldredda is as awful in death as she was in life, and she's still up to no good. Her diabolical plan to give herself everlasting life requires Jenna's compliance, Septimus's disappearance, and the talents of her son, Marcellus Pye, a famous Alchemist and Physician. And if Queen Etheldredda's plot involves Jenna and Septimus, then it will surely involve Nicko, Alther Mella, Marcia Overstrand, Beetle, Stanley, Sarah, Silas, Spit Fyre, Aunt Zelda, and all of the other wacky, wonderful characters that made Magyk and Flyte so memorable.With heart-stopping action and a dash of humor, Angie Sage continues the fantastical journey of Septimus Heap.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 118,
+        "childrens": 149,
+        "childrens (middle grade)": 153,
+        "fantasy": 1678,
+        "fantasy (dragons)": 65,
+        "fantasy (high fantasy)": 50,
+        "fantasy (magic)": 269,
+        "fiction": 227,
+        "young adult": 371,
+        "young adult (young adult fantasy)": 47
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1328_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1328_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1328_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1328_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1328_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 50434,
+        "score": 4.01
+    },
+    "pages": 922,
+    "title": "Physik",
+    "url": "https://www.goodreads.com/book/show/355916.Physik",
+    "year_published": 2007
+}

@@ -1,0 +1,44 @@
+{
+    "author": "Iain Pears",
+    "base_id": "925",
+    "description": "In Cold War England, Professor Henry Lytten, having renounced a career in espionage, is writing a fantasy novel that dares to imagine a world less fraught than his own. He finds an unlikely confidante in Rosie, an inquisitive young neighbor who, while chasing after Lytten's cat one day, stumbles through a doorway in his cellar and into a stunning and unfamiliar bucolic landscape\u2014remarkably like the fantasy world Lytten is writing about. There she meets a young boy named Jay who is about to embark on a journey that will change both their lives. Elsewhere, in a distopian society where progress is controlled by a corrupt ruling elite, the brilliant scientist Angela Meerson has discovered the potential of a powerful new machine. When the authorities come knocking, she will make an important decision\u2014one that will reverberate through all these different lives and worlds.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "european literature (british literature)": 18,
+        "fantasy": 404,
+        "fiction": 183,
+        "historical": 21,
+        "historical (historical fiction)": 67,
+        "mystery": 20,
+        "science fiction": 196,
+        "science fiction (dystopia)": 23,
+        "science fiction (time travel)": 85,
+        "science fiction fantasy": 23
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "925_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "925_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "925_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5176,
+        "score": 3.94
+    },
+    "pages": 276,
+    "title": "Arcadia",
+    "url": "https://www.goodreads.com/book/show/25829156-arcadia",
+    "year_published": 2015
+}

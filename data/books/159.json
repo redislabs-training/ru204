@@ -1,25 +1,25 @@
 {
-    "author": "Hope Hart",
-    "base_id": 159,
-    "description": "The aliens who abducted me made a mistake. The Grivath have sold us on Gule- a planet known for dealing in human flesh. The women who are being held captive with me are in high demand and they all look like models. Me? I\u2019m 5'2 shy, curvy, and a kindergarten teacher. Maybe they really meant to take my pageant queen sister?If that's not bad enough, our ship has crashed and half of the women are missing. Did I mention the locals want to eat us? Insert the tall, sexy warrior aliens, who saved us. Things are looking up, except that one of them is eyeing me like a snack, and not in a cannibalistic way-- if you catch my drift.Terex is rough, fierce, and bossy, and doesn't seem to understand that I can't stay and be his snuggle bunny. I'm not quite sure why he isn't chasing after one of the other women when every man I've ever known has overlooked me.But not Terex. When he looks at me, he doesn\u2019t seem to see chubby, awkward Ellie. And his gaze burns brighter instead of shifting away.Now, I've just got to convince him to help me find the other women and get back to Earth.Should be a piece of cake\u2026 Right? Taken by the Alien Warrior is a full-length romance with no cliffhanger and a guaranteed HEA. While this is a spin-off series from the hugely popular Arcav Alien Invasion series, this is a standalone series. If you like hot, dominant aliens, kick-ass heroines, and steamy romance, you'll love Warriors of Agron- Hope Hart's new sci-fi romance series. Read it Now.",
+    "author": "Stuart Gibbs",
+    "base_id": "159",
+    "description": "\nThe first book in the thrilling time travel adventure trilogy from New York Times bestselling Spy School author Stuart Gibbs!\nBefore they were legends, they were friends. All for one and one for all!On a family trip to Paris, Greg Rich's parents disappear. They're not just missing from the city\u2014they're missing from the century. So, Greg does what any other fourteen-year-old would do: He travels through time to rescue them.Greg soon finds out that his family history is tied to the legendary Three Musketeers. But when he meets them, they're his age, and they'll only live long enough to become true heroes if he can save them.To rescue his parents, Greg must assume the identity of a young Musketeer in training and unite Athos, Porthos, and Aramis\u2014but a powerful enemy is doing everything possible to stop him.",
     "editions": [
-        "None"
+        "english"
     ],
     "genres": {
-        "aliens": 24,
-        "erotica": 2,
-        "fantasy": 3,
-        "fiction": 3,
-        "paranormal": 3,
-        "paranormal romance": 6,
-        "romance": 15,
-        "science fiction": 17,
-        "science fiction romance": 8,
-        "space": 3
+        "adventure": 22,
+        "childrens": 7,
+        "childrens (juvenile)": 7,
+        "childrens (middle grade)": 22,
+        "fantasy": 25,
+        "fiction": 13,
+        "historical (historical fiction)": 35,
+        "mystery": 6,
+        "science fiction": 7,
+        "science fiction (time travel)": 23
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "159_1"
         },
         {
@@ -35,28 +35,16 @@
             "stock_id": "159_4"
         },
         {
-            "status": "available",
-            "stock_id": "159_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "159_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "159_7"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "159_8"
+            "stock_id": "159_5"
         }
     ],
     "metrics": {
-        "rating_votes": 1677,
-        "score": 4.08
+        "rating_votes": 1559,
+        "score": 4.29
     },
-    "pages": 277,
-    "title": "Taken by the Alien Warrior",
-    "url": "https://www.goodreads.com/book/show/50618401-taken-by-the-alien-warrior",
-    "year_published": 2020
+    "pages": 1140,
+    "title": "The Last Musketeer",
+    "url": "https://www.goodreads.com/book/show/25945581-the-last-musketeer",
+    "year_published": 2011
 }

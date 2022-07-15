@@ -1,0 +1,63 @@
+{
+    "author": "Josh Malerman",
+    "base_id": "1840",
+    "description": "Now from the mind of a true master of suspense comes the next chapter in Bird Box. This time, Malorie is front and center, and she will confront the dangers of her world head-on.Twelve years after Malorie and her children rowed up the river to safety, a blindfold is still the only thing that stands between sanity and madness. One glimpse of the creatures that stalk the world will drive a person to unspeakable violence. There remains no explanation. No solution.All Malorie can do is survive.But then comes what feels like impossible news. And with it, the first time Malorie has allowed herself to hope. Someone very dear to her, someone she believed dead, may be alive.Malorie has a harrowing choice to make: to live by the rules of survival that have served her so well, or to venture into the darkness and reach for hope once more.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 41,
+        "apocalyptic (post apocalyptic)": 58,
+        "audiobook": 56,
+        "fiction": 157,
+        "horror": 569,
+        "mystery": 31,
+        "science fiction": 66,
+        "science fiction (dystopia)": 75,
+        "suspense": 27,
+        "thriller": 125
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1840_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1840_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1840_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1840_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1840_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1840_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1840_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1840_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9927,
+        "score": 3.86
+    },
+    "pages": 392,
+    "title": "Malorie",
+    "url": "https://www.goodreads.com/book/show/44510181-malorie",
+    "year_published": 2020
+}

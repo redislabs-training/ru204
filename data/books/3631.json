@@ -1,0 +1,39 @@
+{
+    "author": "Christopher Moore",
+    "base_id": "3631",
+    "description": "\u201cChristopher Moore is a very sick man, in the very best sense of that word.\u201d\u2014Carl Hiassen\u201c[Moore\u2019s novels] deftly blend surreal, occult, and even science-fiction doings with laugh-out-loud satire of contemporary culture.\u201d\u2014Washington Post\u201cIf there\u2019s a funnier writer out there, step forward.\u201d\u2014PlayboyAbsolutely nothing is sacred to Christopher Moore. The phenomenally popular, New York Times bestselling satirist whom the Atlanta Journal-Constitution calls, \u201cStephen King with a whoopee cushion and a double-espresso imagination\u201d has already lampooned Shakespeare, San Francisco vampires, marine biologists, Death\u2026even Jesus Christ and Santa Claus! Now, in his latest masterpiece, Sacr\u00e9 Bleu, the immortal Moore takes on the Great French Masters. A magnificent \u201cComedy d\u2019Art\u201d from the author of Lamb, Fool, and Bite Me, Moore\u2019s Sacr\u00e9 Bleu is part mystery, part history (sort of), part love story, and wholly hilarious as it follows a young baker-painter as he joins the dapper Henri Toulouse-Lautrec on a quest to unravel the mystery behind the supposed \u201csuicide\u201d of Vincent van Gogh.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "art": 165,
+        "audiobook": 62,
+        "cultural (france)": 66,
+        "fantasy": 358,
+        "fiction": 645,
+        "historical": 89,
+        "historical (historical fiction)": 398,
+        "humor": 500,
+        "humor (comedy)": 132,
+        "mystery": 112
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3631_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3631_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 30621,
+        "score": 3.79
+    },
+    "pages": 1179,
+    "title": "Sacr\u00e9 Bleu",
+    "url": "https://www.goodreads.com/book/show/40409748-sacr-bleu",
+    "year_published": 2012
+}

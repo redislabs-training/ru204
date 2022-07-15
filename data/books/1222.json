@@ -1,33 +1,34 @@
 {
     "author": "David Wiesner",
-    "base_id": 1222,
+    "base_id": "1222",
     "description": "In a near wordless masterpiece that could only have been devised by David Wiesner, a cat named Mr. Wuffles doesn't care about toy mice or toy goldfish. He\u2019s much more interested in playing with a little spaceship full of actual aliens\u2014but the ship wasn't designed for this kind of rough treatment. Between motion sickness and damaged equipment, the aliens are in deep trouble.When the space visitors dodge the cat and take shelter behind the radiator to repair the damage, they make a host of insect friends. The result? A humorous exploration of cooperation between aliens and insects, and of the universal nature of communication involving symbols, \u201ccave\u201d paintings, and gestures of friendship.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
         "adventure": 23,
-        "aliens": 60,
         "animals": 110,
-        "cats": 125,
+        "animals (cats)": 125,
         "childrens": 173,
+        "childrens (picture books)": 749,
         "fantasy": 64,
         "fiction": 72,
         "humor": 46,
-        "picture books": 749,
-        "science fiction": 103
+        "science fiction": 103,
+        "science fiction (aliens)": 60
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1222_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1222_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1222_3"
         },
         {
@@ -37,13 +38,25 @@
         {
             "status": "available",
             "stock_id": "1222_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1222_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1222_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1222_8"
         }
     ],
     "metrics": {
         "rating_votes": 6311,
         "score": 3.98
     },
-    "pages": 286,
+    "pages": 223,
     "title": "Mr. Wuffles",
     "url": "https://www.goodreads.com/book/show/17165875-mr-wuffles",
     "year_published": 2013

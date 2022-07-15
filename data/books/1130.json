@@ -1,21 +1,22 @@
 {
-    "author": "John Scalzi",
-    "base_id": 1130,
-    "description": "Hugo-award winning author, John Scalzi returns to his best-selling Old Man's War universe with the direct sequel to 2013\u2019s The Human DivisionHumans expanded into space\u2026only to find a universe populated with multiple alien species bent on their destruction. Thus was the Colonial Union formed, to help protect us from a hostile universe. The Colonial Union used the Earth and its excess population for colonists and soldiers. It was a good arrangement...for the Colonial Union. Then the Earth said: no more.\u3000Now the Colonial Union is living on borrowed time\u2014a couple of decades at most, before the ranks of the Colonial Defense Forces are depleted and the struggling human colonies are vulnerable to the alien species who have been waiting for the first sign of weakness, to drive humanity to ruin. And there\u2019s another problem: A group, lurking in the darkness of space, playing human and alien against each other\u2014and against their own kind \u2014for their own unknown reasons.\u3000In this collapsing universe, CDF Lieutenant Harry Wilson and the Colonial Union diplomats he works with race against the clock to discover who is behind attacks on the Union and on alien races, to seek peace with a suspicious, angry Earth, and keep humanity\u2019s union intact...or else risk oblivion, and extinction\u2014and the end of all things.",
+    "author": "Lex Thomas",
+    "base_id": "1130",
+    "description": "It was just another ordinary day at McKinley High\u2014until a massive explosion devastated the school. When loner David Thorpe tried to help his English teacher to safety, the teacher convulsed and died right in front of him. And that was just the beginning.A year later, McKinley has descended into chaos. All the students are infected with a virus that makes them deadly to adults. The school is under military quarantine. The teachers are gone. Violent gangs have formed based on high school social cliques. Without a gang, you\u2019re as good as dead. And David has no gang. It\u2019s just him and his little brother, Will, against the whole school.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 25,
-        "audiobook": 43,
-        "fantasy": 12,
-        "fiction": 169,
-        "military fiction": 24,
-        "military science fiction": 18,
-        "science fiction": 748,
-        "science fiction fantasy": 42,
-        "space": 28,
-        "space opera": 116
+        "adventure (survival)": 32,
+        "apocalyptic (post apocalyptic)": 34,
+        "fiction": 47,
+        "horror": 86,
+        "science fiction": 98,
+        "science fiction (apocalyptic)": 21,
+        "science fiction (dystopia)": 144,
+        "thriller": 25,
+        "young adult": 216,
+        "young adult (high school)": 22
     },
     "inventory": [
         {
@@ -25,42 +26,14 @@
         {
             "status": "on_loan",
             "stock_id": "1130_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1130_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1130_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1130_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1130_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1130_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1130_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "1130_9"
         }
     ],
     "metrics": {
-        "rating_votes": 18711,
-        "score": 3.98
+        "rating_votes": 7534,
+        "score": 3.89
     },
-    "pages": 961,
-    "title": "The End of All Things",
-    "url": "https://www.goodreads.com/book/show/23168809-the-end-of-all-things",
-    "year_published": 2015
+    "pages": 920,
+    "title": "The Loners",
+    "url": "https://www.goodreads.com/book/show/12620969-the-loners",
+    "year_published": 2012
 }

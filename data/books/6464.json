@@ -1,0 +1,63 @@
+{
+    "author": "Nancy Farmer",
+    "base_id": "6464",
+    "description": "With undertones of vampires, Frankenstein, dragons' hoards, and killing fields, Matt's story turns out to be an inspiring tale of friendship, survival, hope, and transcendence. A must-read for teenage fantasy fans.At his coming-of-age party, Matteo Alacr\u00e1n asks El Patr\u00f3n's bodyguard, \"How old am I?...I know I don't have a birthday like humans, but I was born.\" \"You were harvested,\" Tam Lin reminds him. \"You were grown in that poor cow for nine months and then you were cut out of her.\" To most people around him, Matt is not a boy, but a beast. A room full of chicken litter with roaches for friends and old chicken bones for toys is considered good enough for him. But for El Patr\u00f3n, lord of a country called Opium\u2014a strip of poppy fields lying between the U.S. and what was once called Mexico\u2014Matt is a guarantee of eternal life. El Patr\u00f3n loves Matt as he loves himself for Matt is himself. They share identical DNA.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "academic (school)": 113,
+        "adventure": 140,
+        "childrens": 85,
+        "childrens (middle grade)": 99,
+        "fantasy": 336,
+        "fiction": 638,
+        "science fiction": 1198,
+        "science fiction (dystopia)": 699,
+        "young adult": 1879,
+        "young adult (teen)": 187
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "6464_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6464_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6464_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6464_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6464_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "6464_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6464_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6464_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 83309,
+        "score": 4.07
+    },
+    "pages": 291,
+    "title": "The House of the Scorpion",
+    "url": "https://www.goodreads.com/book/show/13376.The_House_of_the_Scorpion",
+    "year_published": 2002
+}

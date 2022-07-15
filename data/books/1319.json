@@ -1,0 +1,58 @@
+{
+    "author": "Michio Kaku",
+    "base_id": "1319",
+    "description": "A fascinating exploration of the science of the impossible\u2014from death rays and force fields to invisibility cloaks\u2014revealing to what extent such technologies might be achievable decades or millennia into the future.One hundred years ago, scientists would have said that lasers, televisions, and the atomic bomb were beyond the realm of physical possibility. In Physics of the Impossible, the renowned physicist Michio Kaku explores to what extent the technologies and devices of science fiction that are deemed equally impossible today might well become commonplace in the future.From teleportation to telekinesis, Kaku uses the world of science fiction to explore the fundamentals\u2014and the limits\u2014of the laws of physics as we know them today. He ranks the impossible technologies by categories\u2014Class I, II, and III, depending on when they might be achieved, within the next century, millennia, or perhaps never. In a compelling and thought-provoking narrative, he explains:\u00b7 How the science of optics and electromagnetism may one day enable us to bend light around an object, like a stream flowing around a boulder, making the object invisible to observers \u201cdownstream\u201d\u00b7 How ramjet rockets, laser sails, antimatter engines, and nanorockets may one day take us to the nearby stars\u00b7 How telepathy and psychokinesis, once considered pseudoscience, may one day be possible using advances in MRI, computers, superconductivity, and nanotechnology\u00b7 Why a time machine is apparently consistent with the known laws of quantum physics, although it would take an unbelievably advanced civilization to actually build oneKaku uses his discussion of each technology as a jumping-off point to explain the science behind it. An extraordinary scientific adventure, Physics of the Impossible takes readers on an unforgettable, mesmerizing journey into the world of science that both enlightens and entertains.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 24,
+        "nonfiction": 944,
+        "reference": 19,
+        "science": 1907,
+        "science (astronomy)": 32,
+        "science (physics)": 537,
+        "science (popular science)": 83,
+        "science (technology)": 43,
+        "science fiction (time travel)": 28,
+        "space": 28
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1319_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1319_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1319_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1319_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1319_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1319_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1319_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 34112,
+        "score": 4.07
+    },
+    "pages": 705,
+    "title": "Physics of the Impossible",
+    "url": "https://www.goodreads.com/book/show/1168341.Physics_of_the_Impossible",
+    "year_published": 2008
+}

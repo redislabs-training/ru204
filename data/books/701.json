@@ -1,0 +1,64 @@
+{
+    "author": "Jason Latour",
+    "base_id": "701",
+    "description": "The breakout hit of the biggest Spider-Event of the century is taking the comics world by storm with her own series! Gwen Stacy is Spider-Woman, but you knew that already. What you DON'T know is what friends and foes are waiting for her in the aftermath of Spider-Verse! From the fan-favorite creative team that brought you Spider-Gwen's origin story in EDGE OF SPIDER-VERSE, Jason Latour and Robbie Rodriguez!COLLECTING: EDGE OF SPIDER-VERSE #2, SPIDER-GWEN 1-5",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 69,
+        "comics (superheroes)": 103,
+        "fantasy": 23,
+        "fiction": 52,
+        "graphic novels comics": 66,
+        "marvel (spider man)": 26,
+        "sequential art (comics)": 595,
+        "sequential art (graphic novels)": 408,
+        "superheroes (marvel)": 157,
+        "young adult": 27
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "701_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "701_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "701_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "701_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "701_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "701_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "701_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "701_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5969,
+        "score": 3.81
+    },
+    "pages": 1158,
+    "title": "Spider-Gwen, Vol. 0: Most Wanted",
+    "url": "https://www.goodreads.com/book/show/25066786-spider-gwen-vol-0",
+    "year_published": 2015
+}

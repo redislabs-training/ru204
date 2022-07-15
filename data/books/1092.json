@@ -1,0 +1,64 @@
+{
+    "author": "Arthur C. Clarke",
+    "base_id": "1092",
+    "description": "Clarke's masterful evocation of the far future of humanity, considered his finest novel.Men had built cities before, but never such a city as Diaspar. For millennia its protective dome shut out the creeping decay and danger of the world outside. Once, it held powers that rule the stars.But then, as legend has it, the invaders came, driving humanity into this last refuge. It takes one man, a Unique, to break through Diaspar's stifling inertia, to smash the legend and discover the true nature of the Invaders.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 18,
+        "classics": 109,
+        "fantasy": 28,
+        "fiction": 343,
+        "literature": 19,
+        "novels": 32,
+        "science fiction": 1325,
+        "science fiction (dystopia)": 54,
+        "science fiction fantasy": 49,
+        "speculative fiction": 25
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1092_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1092_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1092_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1092_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1092_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1092_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1092_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1092_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 29015,
+        "score": 4.08
+    },
+    "pages": 1128,
+    "title": "The City and the Stars",
+    "url": "https://www.goodreads.com/book/show/250024.The_City_and_the_Stars",
+    "year_published": 1956
+}

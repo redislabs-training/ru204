@@ -1,38 +1,55 @@
 {
-    "author": "Linnea Sinclair",
-    "base_id": 197,
-    "description": "Raheiran Special Forces captain Gillaine Davr\u00e9 has just woken up in some unknown space way station, wondering where the last three hundred years have gone. The last thing she remembers is her ship being attacked. Now it seems that while she was time-traveling, she was ordained a goddess\u2026. Gillaine\u2019s only hope of survival rests with dangerously seductive Admiral Mack Makarian, who suspects her of being a smuggler\u2014or worse. But he can\u2019t begin to imagine the full extent of it. For Gillaine is now Lady Kiasidira, holy icon to countless believers, including Mack\u2014a man who inspires feelings in her that are far from saintly\u2026feelings she knows are mutual. But when their flirtation is interrupted by a treacherous enemy from the past, Gillaine\u2019s secret\u2014and secret desires\u2014could destroy them both\u2026.",
+    "author": "Victoria Scott",
+    "base_id": "197",
+    "description": "Ever since the Titans first appeared in her Detroit neighborhood, Astrid Sullivan\u2019s world has revolved around the mechanical horses. She and her best friend have spent countless hours watching them and their jockeys practice on the track. It\u2019s not just the thrill of the race. It\u2019s the engineering of the horses and the way they\u2019re programmed to seem so lifelike. The Titans are everything that fascinates Astrid, and nothing she\u2019ll ever touch.She hates them a little, too. Her dad lost everything betting on the Titans. And the races are a reminder of the gap between the rich jockeys who can afford the expensive machines to ride, and the working class friends and neighbors of Astrid\u2019s who wager on them.But when Astrid\u2019s offered a chance to enter an early model Titan in this year\u2019s derby, well, she decides to risk it all. Because for a girl from the wrong side of the tracks, it\u2019s more than a chance at fame or money. Betting on herself is the only way she can see to hang on to everyone in the world she cares about.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 19,
-        "fantasy": 49,
-        "fiction": 19,
-        "futuristic": 24,
-        "magic": 16,
-        "romance": 189,
-        "science fiction": 164,
-        "science fiction romance": 54,
-        "space opera": 34,
-        "time travel": 40
+        "action": 3,
+        "animals": 4,
+        "animals (horses)": 5,
+        "fantasy": 48,
+        "science fiction": 23,
+        "science fiction (dystopia)": 7,
+        "science fiction fantasy": 5,
+        "young adult": 54,
+        "young adult (teen)": 5,
+        "young adult (young adult science fiction)": 3
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "197_1"
         },
         {
             "status": "on_loan",
             "stock_id": "197_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "197_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "197_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "197_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "197_6"
         }
     ],
     "metrics": {
-        "rating_votes": 2933,
-        "score": 3.95
+        "rating_votes": 704,
+        "score": 3.91
     },
-    "pages": 1139,
-    "title": "An Accidental Goddess",
-    "url": "https://www.goodreads.com/book/show/352727.An_Accidental_Goddess",
-    "year_published": 2002
+    "pages": 1332,
+    "title": "Titans",
+    "url": "https://www.goodreads.com/book/show/25582556-titans",
+    "year_published": 2016
 }

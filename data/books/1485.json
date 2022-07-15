@@ -1,0 +1,62 @@
+{
+    "author": "Charlotte Perkins Gilman",
+    "base_id": "1485",
+    "description": "An all-female society is discovered somewhere in the distant reaches of the earth by three male explorers who are now forced to re-examine their assumptions about women's roles in society.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 344,
+        "fantasy": 163,
+        "feminism": 401,
+        "fiction": 537,
+        "literature": 52,
+        "science fiction": 235,
+        "science fiction (dystopia)": 64,
+        "science fiction (utopia)": 55,
+        "speculative fiction": 43,
+        "womens": 53
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1485_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1485_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1485_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1485_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1485_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1485_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1485_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1485_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15302,
+        "score": 3.49
+    },
+    "pages": 1393,
+    "title": "Herland",
+    "url": "https://www.goodreads.com/book/show/531509.Herland",
+    "year_published": 1915
+}

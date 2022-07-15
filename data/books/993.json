@@ -1,0 +1,62 @@
+{
+    "author": "James Howard Kunstler",
+    "base_id": "993",
+    "description": "For the townspeople of Union Grove, New York, the future is not what they thought it would be. \u00a0Transportation is slow and dangerous, so food is grown locally at great expense of time and energy. And the outside world is largely unknown. There may be a president and he may be in Minneapolis now, but people aren\u2019t sure. As the heat of summer intensifies, the residents struggle with the new way of life in a world of abandoned highways and empty houses, horses working the fields and rivers replenished with fish.  A captivating, utterly realistic novel, World Made by Hand takes speculative fiction beyond the apocalypse and shows what happens when life gets extremely local.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 12,
+        "adult fiction": 20,
+        "adventure (survival)": 21,
+        "apocalyptic (post apocalyptic)": 117,
+        "fiction": 257,
+        "novels": 18,
+        "science fiction": 59,
+        "science fiction (apocalyptic)": 27,
+        "science fiction (dystopia)": 56,
+        "speculative fiction": 14
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "993_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "993_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "993_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "993_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "993_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "993_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "993_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "993_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6526,
+        "score": 3.67
+    },
+    "pages": 780,
+    "title": "World Made by Hand",
+    "url": "https://www.goodreads.com/book/show/1689657.World_Made_by_Hand",
+    "year_published": 2007
+}

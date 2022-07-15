@@ -1,0 +1,56 @@
+{
+    "author": "J.R.R. Tolkien",
+    "base_id": "10640",
+    "description": "In the third volume of The Lord of the Rings trilogy the good and evil forces join battle, and we see that the triumph of good is not absolute. The Third Age of Middle-earth ends, and the age of the dominion of Men begins.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 1400,
+        "classics": 6498,
+        "fantasy": 28262,
+        "fantasy (epic fantasy)": 917,
+        "fantasy (high fantasy)": 931,
+        "fantasy (magic)": 440,
+        "fiction": 6906,
+        "literature": 498,
+        "novels": 503,
+        "science fiction fantasy": 981
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "10640_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10640_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10640_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "10640_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10640_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "10640_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 699488,
+        "score": 4.53
+    },
+    "pages": 1227,
+    "title": "The Return of the King",
+    "url": "https://www.goodreads.com/book/show/838729.The_Return_of_the_King",
+    "year_published": 1955
+}

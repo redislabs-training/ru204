@@ -1,0 +1,34 @@
+{
+    "author": "Mur Lafferty",
+    "base_id": "1995",
+    "description": "A space adventure set on a lone ship where the clones of a murdered crew must find their murderer -- before they kill again.It was not common to awaken in a cloning vat streaked with drying blood.At least, Maria Arena had never experienced it. She had no memory of how she died. That was also new; before, when she had awakened as a new clone, her first memory was of how she died.Maria's vat was in the front of six vats, each one holding the clone of a crew member of the starship Dormire, each clone waiting for its previous incarnation to die so it could awaken. And Maria wasn't the only one to die recently...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 68,
+        "audiobook": 44,
+        "fiction": 275,
+        "mystery": 539,
+        "mystery (crime)": 45,
+        "science fiction": 916,
+        "science fiction fantasy": 49,
+        "space": 88,
+        "thriller": 72,
+        "thriller (mystery thriller)": 54
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1995_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13174,
+        "score": 3.84
+    },
+    "pages": 1346,
+    "title": "Six Wakes",
+    "url": "https://www.goodreads.com/book/show/28962996-six-wakes",
+    "year_published": 2017
+}

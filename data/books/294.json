@@ -1,38 +1,39 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 294,
-    "description": "Discover what really happened in the final days of the doomed planet from the eyes of Sandor\u2014who would go on to become the reluctant C\u00eapan to Number Nine.Before Number Four and the others arrived on Earth, they lived on the planet Lorien. A planet filled with others who also had extraordinary abilities. A peaceful planet\u2013\u2013until the day the Mogadorians attacked, and nearly annihilated, the Loric people.Only a handful of Loric survived the battle. This is Sandor\u2019s story. Sandor was tired of being a teenager, tired of going to school and obeying his teachers and playing by his parents' rules. He enjoyed breaking the rules rather than following them. But when he makes one mistake too many, Sandor's life takes an unexpected turn, and he is forced join the Lorien Defense Academy.Sandor had never believed in the crazy idea that Lorien needed to defend itself\u2014Lorien was a peaceful planet, with no apparent enemies. But when Mogadorians suddenly attack, Sandor learns how real that threat was. Now Sandor is one of only a handful of Loric left alive, and the fate of Lorien is in their hands.",
+    "author": "Tom Sweterlitsch",
+    "base_id": "294",
+    "description": "A decade has passed since the city of Pittsburgh was reduced to ash. While the rest of the world has moved on, losing itself in the noise of a media-glutted future, survivor John Dominic Blaxton remains obsessed with the past. Grieving for his wife and unborn child who perished in the blast, Dominic relives his lost life by immersing in the Archive\u2014a fully interactive digital reconstruction of Pittsburgh, accessible to anyone who wants to visit the places they remember and the people they loved. Dominic investigates deaths recorded in the Archive to help close cases long since grown cold, but when he discovers glitches in the code surrounding a crime scene\u2014the body of a beautiful woman abandoned in a muddy park that he\u2019s convinced someone tried to delete from the Archive\u2014his cycle of grief is shattered. With nothing left to lose, Dominic tracks the murder through a web of deceit that takes him from the darkest corners of the Archive to the ruins of the city itself, leading him into the heart of a nightmare more horrific than anything he could have imagined.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 15,
-        "aliens": 45,
-        "fantasy": 67,
-        "fiction": 32,
-        "novella": 24,
-        "paranormal": 9,
-        "science fiction": 83,
-        "short stories": 22,
-        "teen": 12,
-        "young adult": 121
+        "adult": 6,
+        "fantasy": 8,
+        "fiction": 43,
+        "mystery": 37,
+        "mystery (crime)": 10,
+        "science fiction": 84,
+        "science fiction (cyberpunk)": 22,
+        "science fiction (dystopia)": 16,
+        "science fiction fantasy": 6,
+        "thriller": 21
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "294_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "294_2"
         }
     ],
     "metrics": {
-        "rating_votes": 6717,
-        "score": 4.18
+        "rating_votes": 1633,
+        "score": 3.58
     },
-    "pages": 816,
-    "title": "The Last Days of Lorien",
-    "url": "https://www.goodreads.com/book/show/15762770-the-last-days-of-lorien",
-    "year_published": 2013
+    "pages": 815,
+    "title": "Tomorrow and Tomorrow",
+    "url": "https://www.goodreads.com/book/show/18693738-tomorrow-and-tomorrow",
+    "year_published": 2014
 }

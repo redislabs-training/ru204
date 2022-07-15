@@ -1,0 +1,40 @@
+{
+    "author": "Kester Grant",
+    "base_id": "1465",
+    "description": "In the violent urban jungle of an alternate 1828 Paris, the French Revolution has failed and the city is divided between merciless royalty and nine underworld criminal guilds, known as the Court of Miracles. Eponine (Nina) Th\u00e9nardier is a talented cat burglar and member of the Thieves Guild. Nina's life is midnight robberies, avoiding her father's fists, and watching over her na\u00efve adopted sister, Cosette (Ettie). When Ettie attracts the eye of the Tiger--the ruthless lord of the Guild of Flesh--Nina is caught in a desperate race to keep the younger girl safe. Her vow takes her from the city's dark underbelly to the glittering court of Louis XVII. And it also forces Nina to make a terrible choice--protect Ettie and set off a brutal war between the guilds, or forever lose her sister to the Tiger.Les Mis\u00e9rables meets Six of Crows in this page-turning adventure as a young thief finds herself going head to head with leaders of Paris's criminal underground in the wake of the French Revolution.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 19,
+        "cultural (france)": 15,
+        "fantasy": 524,
+        "fiction": 51,
+        "historical": 123,
+        "historical (historical fiction)": 278,
+        "historical fiction (historical fantasy)": 28,
+        "retellings": 189,
+        "young adult": 248,
+        "young adult (young adult fantasy)": 88
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1465_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1465_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3867,
+        "score": 3.72
+    },
+    "pages": 229,
+    "title": "The Court of Miracles",
+    "url": "https://www.goodreads.com/book/show/33973264-the-court-of-miracles",
+    "year_published": 2020
+}

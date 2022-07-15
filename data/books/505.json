@@ -1,0 +1,56 @@
+{
+    "author": "Brian K. Vaughan",
+    "base_id": "505",
+    "description": "An alternate cover for this ISBN can be found here.SAGA writer BRIAN K. VAUGHAN teams with artistic legend and Hollywood storyboard artist STEVE SKROCE for a subversive, action-packed military thriller. Set 100 years in our future, WE STAND ON GUARD follows a heroic band of Canadian civilians turned freedom fighters who must defend their homeland from invasion by a technologically superior opponent...the United States of America. Collecting all six issues of the controversial hit miniseries.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 16,
+        "comics (comic book)": 21,
+        "cultural (canada)": 27,
+        "fiction": 59,
+        "graphic novels comics": 29,
+        "science fiction": 93,
+        "science fiction (dystopia)": 32,
+        "sequential art (comics)": 320,
+        "sequential art (graphic novels)": 375,
+        "war": 39
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "505_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "505_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "505_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "505_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "505_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "505_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3776,
+        "score": 3.64
+    },
+    "pages": 917,
+    "title": "We Stand On Guard",
+    "url": "https://www.goodreads.com/book/show/26872190-we-stand-on-guard",
+    "year_published": 2016
+}

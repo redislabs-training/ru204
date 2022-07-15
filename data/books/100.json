@@ -1,46 +1,36 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 100,
-    "description": "Journal: ( 1 | 2 | 3 | 4 | 5 | 6 | 7 )",
+    "author": "Jonathan Strahan",
+    "base_id": "100",
+    "description": "An eclipse is a rare and unusual event, when the world is transformed and the sky becomes a dark eldritch thing. It's a time when anything could happen, when any kind of story just might be true. That sense of the strange and wonderful guides Eclipse: New Science Fiction and Fantasy, the second volume in an exciting new annual anthology series edited by acclaimed anthologist Jonathan Strahan. Set to become a major event on the science fiction and fantasy calendar, Eclipse: New Science Fiction and Fantasy gathers together new science fiction and fantasy stories by the best writers working today. You can see that in Eclipse Two, which features more extraordinary tales of the fantastic and astounding.ContentsDown and Out in the Magic Kingdom \u2022 (2008) \u2022 by David MolesElevator \u2022 (2008) \u2022 by Nancy KressEx Cathedra \u2022 (2008) \u2022 by Tony DanielExhalation \u2022 (2008) \u2022 by Ted ChiangFury \u2022 (2008) \u2022 by Alastair ReynoldsInvisible Empire of Ascending Light \u2022 (2008) \u2022 by Ken ScholesMichael Laurits Is: DROWNING \u2022 (2008) \u2022 by Paul CornellNight of the Firstlings \u2022 (2008) \u2022 by Margo LanaganSkin Deep \u2022 (2008) \u2022 by Richard ParksThe Hero \u2022 [Virga] \u2022 (2008) \u2022 by Karl SchroederThe Illustrated Biography of Lord Grimm \u2022 (2008) \u2022 by Daryl GregoryThe Rabbi's Hobby \u2022 (2008) \u2022 by Peter S. BeagleThe Seventh Expression of the Robot General \u2022 (2008) \u2022 by Jeffrey FordTruth Window: A Tale of the Bedlam Rose \u2022 (Wormwood / Nobodoi) \u2022 (2008) \u2022 by Terry DowlingTuring's Apples \u2022 (2008) \u2022 by Stephen Baxter",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 19,
-        "dystopia": 3,
-        "fantasy": 17,
-        "fiction": 9,
-        "novella": 7,
-        "science fiction": 36,
-        "science fiction fantasy": 3,
-        "short stories": 16,
-        "supernatural": 3,
-        "young adult": 42
+        "anthologies": 10,
+        "anthologies (collections)": 2,
+        "fantasy": 26,
+        "fiction": 37,
+        "philosophy": 4,
+        "science fiction": 111,
+        "science fiction (steampunk)": 3,
+        "science fiction fantasy": 6,
+        "short stories": 92,
+        "speculative fiction": 7
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "100_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "100_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "100_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "100_4"
         }
     ],
     "metrics": {
-        "rating_votes": 2002,
-        "score": 3.6
+        "rating_votes": 1163,
+        "score": 4.23
     },
-    "pages": 1299,
-    "title": "Sam's Journal",
-    "url": "https://www.goodreads.com/book/show/15845821-sam-s-journal",
-    "year_published": 2012
+    "pages": 1374,
+    "title": "Eclipse 2: New Science Fiction and Fantasy",
+    "url": "https://www.goodreads.com/book/show/20939865-eclipse-2",
+    "year_published": 2008
 }

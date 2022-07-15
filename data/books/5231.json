@@ -1,0 +1,50 @@
+{
+    "author": "Kazu Kibuishi",
+    "base_id": "5231",
+    "description": "Graphic novel star Kazu Kibuishi creates a world of terrible, man-eating demons, a mechanical rabbit, a giant robot---and two ordinary children on a life-or-death mission.After the tragic death of their father, Emily and Navin move with their mother to the home of her deceased great-grandfather, but the strange house proves to be dangerous. Before long, a sinister creature lures the kids' mom through a door in the basement. Em and Navin, desperate not to lose her, follow her into an underground world inhabited by demons, robots, and talking animals.Eventually, they enlist the help of a small mechanical rabbit named Miskit. Together with Miskit, they face the most terrifying monster of all, and Em finally has the chance to save someone she loves.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 335,
+        "childrens": 291,
+        "childrens (middle grade)": 556,
+        "fantasy": 1466,
+        "fantasy (magic)": 120,
+        "fiction": 225,
+        "graphic novels comics": 157,
+        "sequential art (comics)": 706,
+        "sequential art (graphic novels)": 2486,
+        "young adult": 229
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "5231_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5231_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5231_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "5231_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "5231_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 69463,
+        "score": 4.16
+    },
+    "pages": 895,
+    "title": "The Stonekeeper",
+    "url": "https://www.goodreads.com/book/show/1238684.The_Stonekeeper",
+    "year_published": 2008
+}

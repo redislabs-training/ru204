@@ -1,0 +1,68 @@
+{
+    "author": "Madeleine L'Engle",
+    "base_id": "34361",
+    "description": "It was a dark and stormy night.Out of this wild night, a strange visitor comes to the Murry house and beckons Meg, her brother Charles Wallace, and their friend Calvin O'Keefe on a most dangerous and extraordinary adventure\u2014one that will threaten their lives and our universe.Winner of the 1963 Newbery Medal, A Wrinkle in Time is the first book in Madeleine L'Engle's classic Time Quintet.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 921,
+        "childrens": 2861,
+        "childrens (middle grade)": 1733,
+        "classics": 6112,
+        "fantasy": 12783,
+        "fiction": 6512,
+        "science fiction": 4964,
+        "science fiction (time travel)": 957,
+        "science fiction fantasy": 833,
+        "young adult": 6085
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "34361_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "34361_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "34361_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "34361_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "34361_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "34361_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "34361_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "34361_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "34361_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1071375,
+        "score": 3.99
+    },
+    "pages": 1199,
+    "title": "A Wrinkle in Time",
+    "url": "https://www.goodreads.com/book/show/33574273-a-wrinkle-in-time",
+    "year_published": 1962
+}

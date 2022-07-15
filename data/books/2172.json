@@ -1,0 +1,42 @@
+{
+    "author": "Tamora Pierce",
+    "base_id": "2172",
+    "description": "Young Daine's knack with horses gets her a job helping the royal horsemistress drive a herd of ponies to Tortall. Soon it becomes clear that Daine's talent, as much as she struggles to hide it, is downright magical. Horses and other animals not only obey, but listen to her words. Daine, though, will have to learn to trust humans before she can come to terms with her powers, her past, and herself.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 259,
+        "childrens (middle grade)": 156,
+        "fantasy": 4500,
+        "fantasy (dragons)": 148,
+        "fantasy (high fantasy)": 179,
+        "fantasy (magic)": 426,
+        "fiction": 456,
+        "science fiction fantasy": 144,
+        "young adult": 1865,
+        "young adult (young adult fantasy)": 290
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2172_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2172_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2172_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 77074,
+        "score": 4.26
+    },
+    "pages": 1083,
+    "title": "Wild Magic",
+    "url": "https://www.goodreads.com/book/show/13836.Wild_Magic",
+    "year_published": 1992
+}

@@ -1,21 +1,23 @@
 {
-    "author": "Anna Hackett",
-    "base_id": 140,
-    "description": "Scientist Ever Haynes was shocked when she was abducted by alien slavers...but the last thing she expected was to find herself pregnant with a cyborg's baby.Ever has been fighting for her life since her abduction, and the only good thing to happen to her was one heated night with a mysterious prisoner--a connection, a flash of light in the darkness. But then he was rescued and she was left behind. Now, weeks later, she's been saved by the House of Galen gladiators...and by the man she shared the hottest night of her life with. But cool, emotionless cyborg Magnus Rone has no memory of their night together and finding out that she's expecting his baby is a shock to everyone.Created in a military program, Magnus is genetically and cybernetically enhanced--emotionless, ruthless, focused. He vows to protect Ever and the baby she carries, and despite his lack of memory, everything about tough, levelheaded Ever draws him in. All his life, his emotional dampeners and training have limited his ability to feel emotions...but one small Earth woman cuts through all that and leaves him feeling.As they work together to hunt down the deadly desert arena of Zaabha and the final human woman trapped there, Ever and Magnus find a stunning passion neither can resist or ignore. But in the dangerous desert sands of Carthago, with the House of Galen gladiators by their sides, deadly enemies are closing in. Ever and Magnus will be dragged back into the darkness, and Magnus will do anything and sacrifice everything to keep her safe.Note to readers: This sci fi romance contains a lot of action (think wild gladiatorial fights and daring rescues), tough gladiators (the warriors of the House of Galen and the House of Rone) and a steamy romance (between a sexy, emotionless cyborg and a resilient survivor from Earth). So if you like it fast, and gritty, and sexy, this is for you!Includes a preview of Marcus, Book 1 of Hell Squad.",
+    "author": "Alan Averill",
+    "base_id": "140",
+    "description": "Takahiro O\u2019Leary has a very special job\u2026 \u00a0 \u2026working for the Axon Corporation as an explorer of parallel timelines\u2014as many and as varied as anyone could imagine. A great gig\u2014until information he brought back gave Axon the means to maximize profits by changing the past, present, and future of this world. \u00a0 If Axon succeeds, Tak will lose Samira Moheb, the woman he has loved since high school\u2014because her future will cease to exist. A veteran of the Iraq War suffering from post-traumatic stress disorder, Samira can barely function in her everyday life, much less deal with Tak\u2019s ravings of multiple realities. The only way to save her is for Tak to use the time travel device he \u201cborrowed\u201d to transport them both to an alternate timeline. \u00a0 But what neither Tak nor Axon knows is that the actual inventor of the device is searching for a timeline called the Beautiful Land\u2014and he intends to destroy every other possible present and future to find it. \u00a0 The switch is thrown, and reality begins to warp\u2014horribly. And Tak realizes that to save Sam, he must save the entire world\u2026",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 5,
-        "aliens": 18,
-        "erotic romance": 3,
-        "erotica": 4,
-        "fantasy": 8,
-        "paranormal": 7,
-        "paranormal romance": 7,
-        "romance": 49,
-        "science fiction": 29,
-        "science fiction romance": 9
+        "adult": 10,
+        "adult fiction": 5,
+        "contemporary": 5,
+        "fantasy": 23,
+        "fiction": 29,
+        "horror": 10,
+        "science fiction": 66,
+        "science fiction (time travel)": 34,
+        "speculative fiction": 5,
+        "thriller": 4
     },
     "inventory": [
         {
@@ -31,11 +33,11 @@
             "stock_id": "140_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "140_4"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "140_5"
         },
         {
@@ -45,18 +47,14 @@
         {
             "status": "on_loan",
             "stock_id": "140_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "140_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1400,
-        "score": 4.38
+        "rating_votes": 784,
+        "score": 3.68
     },
-    "pages": 1377,
-    "title": "Cyborg",
-    "url": "https://www.goodreads.com/book/show/39338693-cyborg",
-    "year_published": 2018
+    "pages": 799,
+    "title": "The Beautiful Land",
+    "url": "https://www.goodreads.com/book/show/15812169-the-beautiful-land",
+    "year_published": 2011
 }

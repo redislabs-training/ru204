@@ -1,0 +1,60 @@
+{
+    "author": "Cory Doctorow",
+    "base_id": "753",
+    "description": "Here are four urgent stories from author and activist Cory Doctorow, four social, technological and economic visions of the world today and its near\u2014all too near\u2014future.'Unauthorized Bread' is a tale of immigration, toxic economic stratification and a young woman's perilously illegal quest to fix a broken toaster.In 'Model Minority' a superhero finds himself way out his depth when he confronts the corruption of the police and justice system. 'Radicalized' is the story of a desperate husband, a darknet forum and the birth of a violent uprising against the US health care system.The final story, 'The Masque of the Red Death', tracks an uber-wealthy survivalist and his followers as they hole up and attempt to ride out the collapse of society.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "anthologies": 11,
+        "audiobook": 23,
+        "cultural (canada)": 31,
+        "fantasy": 9,
+        "fiction": 147,
+        "politics": 18,
+        "science fiction": 165,
+        "science fiction (dystopia)": 45,
+        "short stories": 149,
+        "speculative fiction": 14
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "753_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "753_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "753_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "753_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "753_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "753_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "753_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4350,
+        "score": 4.05
+    },
+    "pages": 1204,
+    "title": "Radicalized",
+    "url": "https://www.goodreads.com/book/show/41447687-radicalized",
+    "year_published": 2019
+}

@@ -1,0 +1,34 @@
+{
+    "author": "Robert Kirkman",
+    "base_id": "596",
+    "description": "Collects issues #55-60. Out on their own, danger lurking around every corner, our ragged band of survivors tries to live long enough to reach Washington D.C... but at what cost?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 104,
+        "comics (comic book)": 88,
+        "fantasy": 44,
+        "fiction": 173,
+        "graphic novels comics": 107,
+        "horror": 550,
+        "horror (zombies)": 387,
+        "science fiction (dystopia)": 55,
+        "sequential art (comics)": 826,
+        "sequential art (graphic novels)": 1013
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "596_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17226,
+        "score": 4.27
+    },
+    "pages": 1071,
+    "title": "The Walking Dead, Vol. 10: What We Become",
+    "url": "https://www.goodreads.com/book/show/6145711-the-walking-dead-vol-10",
+    "year_published": 2009
+}

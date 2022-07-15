@@ -1,0 +1,42 @@
+{
+    "author": "John Scalzi",
+    "base_id": "2783",
+    "description": "Listening Length: 2 hours and 18 minutesOne day, not long from now, it becomes almost impossible to murder anyone - 999 times out of a thousand, anyone who is intentionally killed comes back. How? We don't know. But it changes everything: war, crime, daily life.Tony Valdez is a Dispatcher - a licensed, bonded professional whose job is to humanely dispatch those whose circumstances put them in death's crosshairs, so they can have a second chance to avoid the reaper. But when a fellow Dispatcher and former friend is apparently kidnapped, Tony learns that there are some things that are worse than death and that some people are ready to do almost anything to avenge a supposed wrong.It's a race against time for Valdez to find his friend before it's too late...before not even a Dispatcher can save him.___Zachary Quinto - best known for his role as the Nimoy-approved Spock in the recent Star Trek reboot and the menacing, power-stealing serial killer, Sylar, in Heroes - brings his well-earned sci-fi credentials and simmering intensity to this audio-exclusive novella from master storyteller John Scalzi.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 459,
+        "fantasy": 185,
+        "fantasy (urban fantasy)": 87,
+        "fiction": 375,
+        "mystery": 386,
+        "mystery (crime)": 91,
+        "novella": 120,
+        "science fiction": 654,
+        "short stories": 97,
+        "thriller": 54
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2783_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2783_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2783_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22367,
+        "score": 3.99
+    },
+    "pages": 1272,
+    "title": "The Dispatcher",
+    "url": "https://www.goodreads.com/book/show/26082188-the-dispatcher",
+    "year_published": 2016
+}

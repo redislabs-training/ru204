@@ -1,0 +1,50 @@
+{
+    "author": "George R. Stewart",
+    "base_id": "2006",
+    "description": "A disease of unparalleled destructive force has sprung up almost simultaneously in every corner of the globe, all but destroying the human race. One survivor, strangely immune to the effects of the epidemic, ventures forward to experience a world without man. What he ultimately discovers will prove far more astonishing than anything he'd either dreaded or hoped for.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 36,
+        "apocalyptic (post apocalyptic)": 468,
+        "classics": 85,
+        "fantasy": 35,
+        "fiction": 497,
+        "science fiction": 786,
+        "science fiction (apocalyptic)": 182,
+        "science fiction (dystopia)": 165,
+        "science fiction fantasy": 60,
+        "speculative fiction": 40
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2006_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2006_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2006_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2006_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2006_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 25388,
+        "score": 3.96
+    },
+    "pages": 226,
+    "title": "Earth Abides",
+    "url": "https://www.goodreads.com/book/show/93269.Earth_Abides",
+    "year_published": 1949
+}

@@ -1,0 +1,55 @@
+{
+    "author": "Hugh Howey",
+    "base_id": "844",
+    "description": "In 2007, the Center for Automation in Nanobiotech (CAN) outlined the hardware and software platform that would one day allow robots smaller than human cells to make medical diagnoses, conduct repairs, and even self-propagate.In the same year, the CBS network re-aired a program about the effects of propranolol on sufferers of extreme trauma. A simple pill, it had been discovered, could wipe out the memory of any traumatic event.At almost the same moment in humanity\u2019s broad history, mankind had discovered the means for bringing about its utter downfall. And the ability to forget it ever happened.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 73,
+        "drama": 5,
+        "fantasy": 16,
+        "fiction": 128,
+        "novels": 6,
+        "science fiction": 288,
+        "science fiction (apocalyptic)": 18,
+        "science fiction (dystopia)": 116,
+        "science fiction fantasy": 15,
+        "speculative fiction": 8
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "844_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "844_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "844_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "844_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "844_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "844_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17285,
+        "score": 4.22
+    },
+    "pages": 461,
+    "title": "First Shift: Legacy",
+    "url": "https://www.goodreads.com/book/show/13603717-first-shift",
+    "year_published": 2012
+}

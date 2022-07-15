@@ -1,54 +1,40 @@
 {
-    "author": "Jennifer L. Armentrout",
-    "base_id": 374,
-    "description": "Now available together for the first time, don't miss Opal and Origin, the third and fourth books in Jennifer L. Armentrout's bestselling Lux series. Also includes bonus content exclusive to the print edition! \"A thrilling ride from start to finish,\" says RT Book Reviews.OpalAfter everything, I\u2019m no longer the same Katy. I\u2019m different\u2026and I\u2019m not sure what that will mean in the end. When each step we take in discovering the truth puts us in the path of the secret organization responsible for torturing and testing hybrids, the more I realize there is no end to what I\u2019m capable of. The death of someone close still lingers, help comes from the most unlikely source, and friends will become the deadliest of enemies, but we won\u2019t turn back. Even if the outcome will shatter our worlds forever.OriginDaemon will do anything to get Katy back. After the successful but disastrous raid on Mount Weather, he\u2019s facing the impossible. Katy is gone. Taken. Everything becomes about finding her. But the most dangerous foe has been there all along, and when the truths are exposed and the lies come crumbling down, which side will Daemon and Katy be standing on? And will they even be together?",
+    "author": "Mary Pope Osborne",
+    "base_id": "374",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Who wants to vacation next to a volcano?Jack and Annie are about to find out when the Magic Tree House whisks them back to the days of the Roman Empire. They arrive in Pompeii and soon discover that it is the very day the city will be destroyed. Now Jack and Annie must race against time to find an ancient library before it is buried in ash! Visit the Magic Tree House website! MagicTreeHouse.com",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 55,
-        "fantasy": 55,
-        "fiction": 9,
-        "paranormal": 60,
-        "paranormal romance": 14,
-        "romance": 48,
-        "science fiction": 41,
-        "supernatural": 11,
-        "urban fantasy": 9,
-        "young adult": 88
+        "adventure": 43,
+        "childrens": 146,
+        "childrens (chapter books)": 53,
+        "childrens (juvenile)": 17,
+        "fantasy": 125,
+        "fantasy (magic)": 18,
+        "fiction": 96,
+        "historical": 21,
+        "historical (historical fiction)": 80,
+        "science fiction (time travel)": 23
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "374_1"
         },
         {
-            "status": "on_loan",
-            "stock_id": "374_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "374_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "374_4"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "374_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "374_6"
+            "stock_id": "374_2"
         }
     ],
     "metrics": {
-        "rating_votes": 4332,
-        "score": 4.64
+        "rating_votes": 11205,
+        "score": 3.99
     },
-    "pages": 716,
-    "title": "Consequences: Opal & Origin",
-    "url": "https://www.goodreads.com/book/show/19081402-consequences",
-    "year_published": 2014
+    "pages": 1398,
+    "title": "Vacation Under the Volcano",
+    "url": "https://www.goodreads.com/book/show/126574.Vacation_Under_the_Volcano",
+    "year_published": 1998
 }

@@ -1,0 +1,47 @@
+{
+    "author": "Ben Aaronovitch",
+    "base_id": "8851",
+    "description": "Probationary Constable Peter Grant dreams of being a detective in London\u2019s Metropolitan Police. Too bad his superior plans to assign him to the Case Progression Unit, where the biggest threat he\u2019ll face is a paper cut. But Peter\u2019s prospects change in the aftermath of a puzzling murder, when he gains exclusive information from an eyewitness who happens to be a ghost. Peter\u2019s ability to speak with the lingering dead brings him to the attention of Detective Chief Inspector Thomas Nightingale, who investigates crimes involving magic and other manifestations of the uncanny. Now, as a wave of brutal and bizarre murders engulfs the city, Peter is plunged into a world where gods and goddesses mingle with mortals and a long-dead evil is making a comeback on a rising tide of magic.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 259,
+        "fantasy": 4776,
+        "fantasy (magic)": 405,
+        "fantasy (paranormal)": 575,
+        "fantasy (supernatural)": 251,
+        "fantasy (urban fantasy)": 2445,
+        "fiction": 1211,
+        "mystery": 1656,
+        "mystery (crime)": 821,
+        "mystery (detective)": 178
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "8851_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8851_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8851_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8851_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 102028,
+        "score": 3.86
+    },
+    "pages": 321,
+    "title": "Rivers of London",
+    "url": "https://www.goodreads.com/book/show/9317452-rivers-of-london",
+    "year_published": 2011
+}

@@ -1,18 +1,20 @@
 {
     "author": "Craig A. Falconer",
-    "base_id": 623,
-    "description": "Aliens exist, the government knows, and Dan McCarthy just found the proof.When Dan McCarthy stumbles upon a folder containing evidence of the conspiracy to end all conspiracies -- a top-level alien cover-up -- he leaks the files without a second thought.The incredible truth revealed by Dan\u2019s leak immediately captures the public\u2019s imagination, but Dan\u2019s relentless commitment to exposing the cover-up and forcing disclosure quickly earns him some enemies in high places.For his whole life, Dan McCarthy has searched for a reason to believe. Now that he finally has one, he might soon wish he didn\u2019t...Not Alone is a standalone tale of contact and disclosure for the 21st century. [approx. 850 pages]",
+    "base_id": "623",
+    "description": "Aliens exist, the government knows, and Dan McCarthy just found the proof.  When Dan McCarthy stumbles upon a folder containing evidence of the conspiracy to end all conspiracies -- a top-level alien cover-up -- he leaks the files without a second thought.  The incredible truth revealed by Dan\u2019s leak immediately captures the public\u2019s imagination, but Dan\u2019s relentless commitment to exposing the cover-up and forcing disclosure quickly earns him some enemies in high places.  For his whole life, Dan McCarthy has searched for a reason to believe. Now that he finally has one, he might soon wish he didn\u2019t...   Not Alone is a standalone tale of contact and disclosure for the 21st century. [approx. 850 pages]",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 17,
         "audiobook": 19,
+        "business (amazon)": 8,
         "fantasy": 3,
         "fiction": 40,
         "mystery": 4,
         "novels": 2,
         "science fiction": 102,
+        "science fiction (aliens)": 17,
         "science fiction fantasy": 4,
         "thriller": 7
     },
@@ -22,11 +24,11 @@
             "stock_id": "623_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "623_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "623_3"
         },
         {
@@ -34,7 +36,7 @@
             "stock_id": "623_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "623_5"
         },
         {
@@ -46,15 +48,19 @@
             "stock_id": "623_7"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "623_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "623_9"
         }
     ],
     "metrics": {
         "rating_votes": 6754,
         "score": 3.94
     },
-    "pages": 1188,
+    "pages": 900,
     "title": "Not Alone",
     "url": "https://www.goodreads.com/book/show/28261356-not-alone",
     "year_published": 2015

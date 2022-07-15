@@ -1,34 +1,35 @@
 {
-    "author": "Lydia Hope",
-    "base_id": 212,
-    "description": "Earth is in decline, and the wealthy have fled it leaving only the destitute citizens behind. And aliens.Gemma McKinley works at a prison cleaning goop off the floors and serving food to inmates. When she is reassigned to the alien ward, Gemma is nervous. Aliens are dangerous and ruthless. They bite. But there is one that isn\u2019t like them. Simon is damaged, starved, and wasting away in complete isolation. Touched by his loneliness, Gemma starts nursing him back to health, dismissing rumors that he\u2019s high-risk, ignoring the advice to let him croak.Simon despises humans. His only goal is to get off this miserable planet fast, for he is hunted by a scientist obsessed with perfecting the human race. Simon\u2019s rare alien genes are just the ingredient that\u2019s missing for breakthrough research. Thanks to Gemma, for the first time in years he can escape.And he will. He will\u2026As the hunt for Simon heats up, Gemma becomes an unintended target. Is she a fool to help him get away? And will he risk another captivity to protect her?",
+    "author": "Warren Ellis",
+    "base_id": "212",
+    "description": "Investigative reporter Spider Jerusalem attacks the injustices of the 23rd Century surroundings while working for the newspaper The Word in this critically-acclaimed graphic novel series written by comics superstar Warren Ellis, the co-creator of PLANETARY and THE AUTHORITY.",
     "editions": [
-        "None"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 5,
-        "aliens": 46,
-        "dystopia": 10,
-        "fantasy": 10,
-        "fiction": 4,
-        "male female romance": 6,
-        "paranormal": 6,
-        "romance": 31,
-        "science fiction": 43,
-        "science fiction romance": 12
+        "comics (comic book)": 62,
+        "fiction": 99,
+        "graphic novels comics": 53,
+        "humor": 29,
+        "science fiction": 148,
+        "science fiction (cyberpunk)": 86,
+        "science fiction (dystopia)": 47,
+        "sequential art (comics)": 790,
+        "sequential art (comix)": 24,
+        "sequential art (graphic novels)": 596
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "212_1"
         }
     ],
     "metrics": {
-        "rating_votes": 1096,
-        "score": 4.3
+        "rating_votes": 14561,
+        "score": 4.39
     },
-    "pages": 609,
-    "title": "Homebound",
-    "url": "https://www.goodreads.com/book/show/50337348-homebound",
-    "year_published": 2020
+    "pages": 1109,
+    "title": "Transmetropolitan, Vol. 4: The New Scum",
+    "url": "https://www.goodreads.com/book/show/22421.Transmetropolitan_Vol_4",
+    "year_published": 2000
 }

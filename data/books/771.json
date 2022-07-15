@@ -1,0 +1,48 @@
+{
+    "author": "Theodora Goss",
+    "base_id": "771",
+    "description": "In the sequel to the critically acclaimed The Strange Case of the Alchemist\u2019s Daughter, Mary Jekyll and the rest of the daughters of literature\u2019s mad scientists embark on a madcap adventure across Europe to rescue another monstrous girl and stop the Alchemical Society\u2019s nefarious plans once and for all.Mary Jekyll\u2019s life has been peaceful since she helped Sherlock Holmes and Dr. Watson solve the Whitechapel Murders. Beatrice Rappaccini, Catherine Moreau, Justine Frankenstein, and Mary\u2019s sister Diana Hyde have settled into the Jekyll household in London, and although they sometimes quarrel, the members of the Athena Club get along as well as any five young women with very different personalities. At least they can always rely on Mrs. Poole. But when Mary receives a telegram that Lucinda Van Helsing has been kidnapped, the Athena Club must travel to the Austro-Hungarian Empire to rescue yet another young woman who has been subjected to horrific experimentation. Where is Lucinda, and what has Professor Van Helsing been doing to his daughter? Can Mary, Diana, Beatrice, and Justine reach her in time? Racing against the clock to save Lucinda from certain doom, the Athena Club embarks on a madcap journey across Europe. From Paris to Vienna to Budapest, Mary and her friends must make new allies, face old enemies, and finally confront the fearsome, secretive Alchemical Society. It\u2019s time for these monstrous gentlewomen to overcome the past and create their own destinies.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 47,
+        "fantasy": 406,
+        "fiction": 104,
+        "historical": 67,
+        "historical (historical fiction)": 147,
+        "historical (victorian)": 30,
+        "mystery": 113,
+        "paranormal (vampires)": 30,
+        "science fiction": 53,
+        "young adult": 43
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "771_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "771_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "771_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "771_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5416,
+        "score": 4.01
+    },
+    "pages": 1125,
+    "title": "European Travel for the Monstrous Gentlewoman",
+    "url": "https://www.goodreads.com/book/show/36373571-european-travel-for-the-monstrous-gentlewoman",
+    "year_published": 2018
+}

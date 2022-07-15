@@ -1,25 +1,27 @@
 {
-    "author": "Evangeline Anderson",
-    "base_id": 90,
-    "description": "A girl dressed as a boy In a Triple Max prison full of savage predators A Kindred warrior undercover, trying to protect What he thinks is an innocent boy. Lathe can't understand why he is so drawn to Ari But when her secret comes out, will it kill them both? You'll have to read Imprisoned to find out...Lady Arianna Blackthorn is a woman on a mission--she intends to rescue her brother, Jak, from the infamous BleakHall prison. BleakHall is a Triple Max Penitentiary where only the worst of the worst are sent--a males-only facility where not even female prison guards are allowed. So how can Ari infiltrate this fortress? With the use of a holo-projector that makes her look male (the important parts anyway) she's determined to get in and she has a foolproof plan for getting both herself and Jak out...or so she thinks.Commander Lathe is a Blood Kindred who lost his younger brother to the horrors of BleakHall. He is on a mission to go undercover and collect evidence against the cruel and ruthless prison guards who run it and the Yonnite Mistresses who own it. He also has a plan to get out but it's going to take some time and while he's waiting, a strange new inmate comes to BleakHall--a boy called Ari.Ari is in over her head from the minute she steps through the prison gates. She is immediately singled out by Tapper, BleakHall's most ruthless sexual predator, as his next conquest. Only Lathe's timely intervention saves her from a fate worse than death...and death itself. Lathe moves Ari into his cell to keep her safe but he has no idea she is really a female and Ari doesn't dare to tell him.Can Ari keep her secret from the big Kindred? Can Lathe sort through his confusing feelings for the \"boy\" he has taken under his wing? (Why does he smell like a female? Why can't Lathe stop thinking about him...stop wanting to touch him?) Can the two of them rescue Ari's brother and escape from the maze of sadistic guards, psychopathic prisoners, and ravenous lashers--the huge carnivorous snake-cats that roam the corridors of BleakHall at night waiting to devour any inmates attempting to get away?You'll have to read Imprisoned, Brides of the Kindred 22, to find out... ",
+    "author": "Robert Kerr",
+    "base_id": "90",
+    "description": "When Joe Murphy\u2019s wife, Linda, spies an ad for a \u201cbeautiful 3-story Victorian house in need of some TLC,\u201d the couple jumps at the chance for their dream home. Renovating it will allow them to indulge their passion for antiques and to get closer to an era they believe was a better time. Privately, Joe hopes that the project will also fill the void that has opened within their family life. They embark upon a grueling three-year renovation to restore the house to its former splendor, and everything seems perfect\u2026until the morning Joe awakes to find a horse-drawn milk cart in his driveway and his family inexplicably transported back to the year 1909. Suddenly the Murphys\u2019 dream for a simpler time becomes a shocking reality, one in which they will struggle to adapt to turn-of-the-century Iowa while seeking a way to return home. Completely Restored is a unique page-turner of a novel, filled with historical figures and events that help to teach a modern family about the simple joys of life.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "erotic romance": 2,
-        "erotica": 7,
-        "fantasy": 6,
-        "fantasy romance": 3,
-        "paranormal": 4,
-        "paranormal romance": 5,
-        "romance": 16,
-        "science fiction": 10,
-        "science fiction romance": 5
+        "contemporary": 3,
+        "fantasy": 21,
+        "fantasy (paranormal)": 2,
+        "fiction": 13,
+        "historical": 8,
+        "historical (historical fiction)": 28,
+        "mystery": 15,
+        "science fiction": 2,
+        "science fiction (time travel)": 23,
+        "science fiction fantasy": 2
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "90_1"
         },
         {
@@ -27,7 +29,7 @@
             "stock_id": "90_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "90_3"
         },
         {
@@ -35,7 +37,7 @@
             "stock_id": "90_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "90_5"
         },
         {
@@ -47,20 +49,16 @@
             "stock_id": "90_7"
         },
         {
-            "status": "on_loan",
-            "stock_id": "90_8"
-        },
-        {
             "status": "available",
-            "stock_id": "90_9"
+            "stock_id": "90_8"
         }
     ],
     "metrics": {
-        "rating_votes": 639,
-        "score": 4.23
+        "rating_votes": 868,
+        "score": 3.46
     },
-    "pages": 453,
-    "title": "Imprisoned",
-    "url": "https://www.goodreads.com/book/show/41085328-imprisoned",
-    "year_published": 2018
+    "pages": 892,
+    "title": "Completely Restored",
+    "url": "https://www.goodreads.com/book/show/7825343-completely-restored",
+    "year_published": 2009
 }

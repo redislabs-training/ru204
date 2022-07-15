@@ -1,0 +1,63 @@
+{
+    "author": "Mary Wollstonecraft Shelley",
+    "base_id": "35224",
+    "description": "Mary Shelley's seminal novel of the scientist whose creation becomes a monsterThis edition is the original 1818 text, which preserves the hard-hitting and politically charged aspects of Shelley's original writing, as well as her unflinching wit and strong female voice. This edition also includes a new introduction and suggestions for further reading by author and Shelley expert Charlotte Gordon, literary excerpts and reviews selected by Gordon and a chronology and essay by preeminent Shelley scholar Charles E. Robinson.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "academic (school)": 1752,
+        "classics": 28581,
+        "fantasy": 2175,
+        "fiction": 10049,
+        "gothic": 2438,
+        "horror": 9568,
+        "literature": 1706,
+        "literature (19th century)": 844,
+        "novels": 978,
+        "science fiction": 4888
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "35224_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "35224_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "35224_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "35224_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "35224_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "35224_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "35224_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "35224_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1198973,
+        "score": 3.82
+    },
+    "pages": 1094,
+    "title": "Frankenstein: The 1818 Text",
+    "url": "https://www.goodreads.com/book/show/35031085-frankenstein",
+    "year_published": 1818
+}

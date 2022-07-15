@@ -1,44 +1,46 @@
 {
-    "author": "Rob Colton",
-    "base_id": 83,
-    "description": "The adventure continues in this action-packed follow up to The Degan Incident and The Cassini Mission!Peri McSmith is aboard the U.S.C. Cassini, en route to the Degan Homeworld. A routine medical examination reveals a startling yet impossible link between Peri and the Cassini\u2019s last mission.Beshel Drago, Chief Investigator for the Degan Federation, searches for leads on the rogue scientists conducting illegal genetic experiments using Degan citizens. He hits yet another a dead end\u2014until the rescued embryo\u2019s human parent is identified.When the Degan Science Institute is attacked, and the embryo stolen, it\u2019s up to Beshel and Peri to not only recover the child, but to prevent all-out war between the Degans and the Galactic Planetary Union.",
+    "author": "Robert J. Sawyer",
+    "base_id": "83",
+    "description": "Archaeologist Brandon Thackery and his rival Miles 'Klicks' Jordan fulfill a dinosaur lover's dream with history's first time-travel jaunt to the late Mesozoic. Hoping to solve the extinction mystery, they find Earth's gravity is only half its 21st century value and dinosaurs that behave very strangely. Could the slimey blue creatures from Mars have something to do with both?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 17,
-        "fantasy": 7,
-        "futuristic": 6,
-        "gay": 6,
-        "male male romance": 44,
-        "military fiction": 6,
-        "paranormal": 9,
-        "romance": 16,
-        "science fiction": 35
+        "adventure": 3,
+        "animals (dinosaurs)": 12,
+        "audiobook": 2,
+        "cultural (canada)": 5,
+        "fantasy": 5,
+        "fiction": 18,
+        "novels": 3,
+        "science fiction": 71,
+        "science fiction (aliens)": 3,
+        "science fiction (time travel)": 27
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "83_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "83_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "83_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "83_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "83_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "83_6"
         },
         {
@@ -46,7 +48,7 @@
             "stock_id": "83_7"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "83_8"
         },
         {
@@ -55,11 +57,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 696,
-        "score": 4.09
+        "rating_votes": 944,
+        "score": 3.78
     },
-    "pages": 481,
-    "title": "The Degan Paradox",
-    "url": "https://www.goodreads.com/book/show/24581363-the-degan-paradox",
-    "year_published": 2015
+    "pages": 559,
+    "title": "End of an Era",
+    "url": "https://www.goodreads.com/book/show/264943.End_of_an_Era",
+    "year_published": 1994
 }

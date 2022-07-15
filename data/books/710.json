@@ -1,21 +1,23 @@
 {
-    "author": "Jennifer L. Armentrout",
-    "base_id": 710,
-    "description": "Now available together for the first time, don't miss Obsidian and Onyx, the first two books in Jennifer L. Armentrout's bestselling Lux series. Also includes bonus content exclusive to the print edition! \"A thrilling ride from start to finish,\" says RT Book Reviews.ObsidianThere\u2019s an alien next door. And with his looming height and eerie green eyes, he\u2019s hot\u2026 until he opens his mouth. He\u2019s infuriating. Arrogant. Stab-worthy. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, he marks me. Turns out he has a galaxy of enemies wanting to steal his abilities and the only way I\u2019m getting out of this alive is by sticking close to him until my alien mojo fades. If I don\u2019t kill him first, that is.OnyxDaemon\u2019s determined to prove what he feels for me is more than a product of our bizarro connection. So I\u2019ve sworn him off, even though he\u2019s running more hot than cold these days. But we\u2019ve got bigger problems. I\u2019ve seen someone who shouldn\u2019t be alive. And I have to tell Daemon, even though I know he\u2019s never going to stop searching until he gets the truth. What happened to his brother? Who betrayed him? And what does the DOD want from them\u2014from me?",
+    "author": "Alex Adams",
+    "base_id": "710",
+    "description": "The world has ended, but her journey has just begun.Thirty-year-old Zoe leads an ordinary life until the end of the world arrives. She is cleaning cages and floors at Pope Pharmaceuticals when the President of the United States announces that human beings are no longer a viable species. When Zoe realizes that everyone she loves is disappearing, she starts running. Scared and alone in a shockingly changed world, she embarks on a remarkable journey of survival and redemption. Along the way, Zoe comes to see that humans are not defined by their genetic code, but rather by their actions and choices.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 70,
-        "fantasy": 91,
-        "fiction": 17,
-        "paranormal": 92,
-        "paranormal romance": 21,
-        "romance": 91,
-        "science fiction": 61,
-        "supernatural": 15,
-        "young adult": 140,
-        "young adult fantasy": 10
+        "adult": 22,
+        "apocalyptic (post apocalyptic)": 68,
+        "fantasy": 23,
+        "fiction": 70,
+        "horror": 55,
+        "horror (zombies)": 14,
+        "science fiction": 44,
+        "science fiction (apocalyptic)": 19,
+        "science fiction (dystopia)": 74,
+        "thriller": 19
     },
     "inventory": [
         {
@@ -27,7 +29,7 @@
             "stock_id": "710_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "710_3"
         },
         {
@@ -43,16 +45,24 @@
             "stock_id": "710_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "710_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "710_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "710_9"
         }
     ],
     "metrics": {
-        "rating_votes": 6249,
-        "score": 4.57
+        "rating_votes": 3172,
+        "score": 3.48
     },
-    "pages": 359,
-    "title": "Beginnings: Obsidian & Onyx",
-    "url": "https://www.goodreads.com/book/show/19081403-beginnings",
-    "year_published": 2014
+    "pages": 1106,
+    "title": "White Horse",
+    "url": "https://www.goodreads.com/book/show/12173462-white-horse",
+    "year_published": 2012
 }

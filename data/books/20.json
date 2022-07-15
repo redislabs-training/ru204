@@ -1,20 +1,23 @@
 {
-    "author": "Kaitlyn O'Connor",
-    "base_id": 20,
-    "description": "Dr. Kate Drexel had just begun to suspect that the \u2018beasts of Sirius\u2019 were far more intelligent than they\u2019d believed when the Sirians escaped containment. What no one hadn\u2019t suspected was the reason behind their amazingly complex genome or that their rapid cell regeneration pointed to more than an extraordinary adaptability. The right thing to do, Kate was sure, was to find them and somehow return them to their home world. She didn\u2019t expect them to find her first. Genre: Futuristic Romance.Rating: Carnal/Erotic. Multiple sexual partners, m\u00e9nage, adult language and situations.",
+    "author": "Nancy Bond",
+    "base_id": "20",
+    "description": "Seventeen-year-old Lyn, working in a reconstructed colonial settlement in Nova Scotia, suddenly finds herself transported back to 1744, when the French inhabitants are at war with England.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "erotic romance": 3,
-        "erotica": 16,
-        "futuristic": 8,
-        "paranormal": 3,
-        "polyamorous": 3,
-        "romance": 12,
-        "science fiction": 15,
-        "science fiction romance": 5
+        "childrens": 2,
+        "cultural (canada)": 7,
+        "fantasy": 7,
+        "fiction": 5,
+        "historical": 7,
+        "historical (historical fiction)": 16,
+        "historical fiction (historical fantasy)": 2,
+        "science fiction (time travel)": 24,
+        "young adult": 16,
+        "young adult (teen)": 3
     },
     "inventory": [
         {
@@ -28,18 +31,14 @@
         {
             "status": "maintenance",
             "stock_id": "20_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "20_4"
         }
     ],
     "metrics": {
-        "rating_votes": 392,
-        "score": 3.49
+        "rating_votes": 142,
+        "score": 3.94
     },
-    "pages": 509,
-    "title": "Adaptation (Genus: Unknown, #1",
-    "url": "https://www.goodreads.com/book/show/11189120-adaptation",
-    "year_published": 2011
+    "pages": 369,
+    "title": "Another Shore",
+    "url": "https://www.goodreads.com/book/show/724935.Another_Shore",
+    "year_published": 1988
 }

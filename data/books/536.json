@@ -1,34 +1,46 @@
 {
-    "author": "Dianne Duvall",
-    "base_id": 536,
-    "description": "Ami isn't much for trusting strangers. She has a hard time trusting anyone. But she's no coward, and she's no pushover in the protection department either. So when she comes across a mysterious warrior taking on eight deranged vampires on his own, she doesn't hesitate to save his bacon. Of course, that was before she realized what one little rescue would get her into . . .Marcus Grayden has been an immortal protector of humanity for eight hundred years, and at the moment he's not interested in backup. From the moment Ami arrives in his life, he can't deny that she's strong, smart, and extremely skilled at watching his back. But she's also destroying his protective solitude and stirring desires he can't bear to awaken. After all, whatever her secrets \u2014 how can she defeat death itself?",
+    "author": "Garth Nix",
+    "base_id": "536",
+    "description": "The second incredible book in The Keys to the Kingdom, now in hardcover Arthur doesn't think he will ever have to return to the strange house that nearly killed him on Monday -- the house that contains an entire world. But Tuesday brings new challenges -- in the form of an enemy named Grim Tuesday, who threatens the well-being of both Arthur's family and his world. Arthur must retrieve the Second Key from Grim Tuesday in order to save everything -- an adventure that will include stealing a Sunship, surviving a very weird work camp, befriending a bearlike spirit, fighting the voidlike Nithlings, and traveling to the scary Far Reaches for the ultimate showdown.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 23,
-        "aliens": 31,
-        "audiobook": 27,
-        "fantasy": 75,
-        "fiction": 19,
-        "paranormal": 240,
-        "paranormal romance": 220,
-        "romance": 160,
-        "urban fantasy": 54,
-        "vampires": 172
+        "adventure": 83,
+        "childrens": 89,
+        "childrens (middle grade)": 68,
+        "fantasy": 1152,
+        "fantasy (magic)": 60,
+        "fiction": 173,
+        "science fiction": 27,
+        "science fiction fantasy": 28,
+        "young adult": 375,
+        "young adult (young adult fantasy)": 41
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "536_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "536_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "536_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "536_4"
         }
     ],
     "metrics": {
-        "rating_votes": 8480,
-        "score": 4.19
+        "rating_votes": 24748,
+        "score": 3.88
     },
-    "pages": 1239,
-    "title": "Night Reigns",
-    "url": "https://www.goodreads.com/book/show/10430194-night-reigns",
-    "year_published": 2011
+    "pages": 727,
+    "title": "Grim Tuesday",
+    "url": "https://www.goodreads.com/book/show/47620.Grim_Tuesday",
+    "year_published": 2004
 }

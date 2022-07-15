@@ -1,0 +1,62 @@
+{
+    "author": "Jeff VanderMeer",
+    "base_id": "6269",
+    "description": "The bone-chilling, hair-raising second installment of the Southern Reach TrilogyAfter thirty years, the only human engagement with Area X\u2014a seemingly malevolent landscape surrounded by an invisible border and mysteriously wiped clean of all signs of civilization\u2014has been a series of expeditions overseen by a government agency so secret it has almost been forgotten: the Southern Reach. Following the tumultuous twelfth expedition chronicled in Annihilation, the agency is in complete disarray.John Rodr\u00edguez (aka \"Control\") is the Southern Reach's newly appointed head. Working with a distrustful but desperate team, a series of frustrating interrogations, a cache of hidden notes, and hours of profoundly troubling video footage, Control begins to penetrate the secrets of Area X. But with each discovery he must confront disturbing truths about himself and the agency he's pledged to serve.In Authority, the second volume of Jeff VanderMeer's Southern Reach trilogy, Area X's most disturbing questions are answered . . . but the answers are far from reassuring.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 173,
+        "fantasy": 388,
+        "fantasy (weird fiction)": 107,
+        "fiction": 1137,
+        "horror": 794,
+        "mystery": 215,
+        "novels": 97,
+        "science fiction": 1622,
+        "science fiction (dystopia)": 126,
+        "science fiction fantasy": 166
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "6269_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6269_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "6269_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6269_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "6269_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "6269_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6269_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "6269_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 61579,
+        "score": 3.52
+    },
+    "pages": 413,
+    "title": "Authority",
+    "url": "https://www.goodreads.com/book/show/18077769-authority",
+    "year_published": 2014
+}

@@ -1,0 +1,61 @@
+{
+    "author": "Kia Asamiya",
+    "base_id": "5",
+    "description": "When Steam City comes under attack by wily Dr. Guilty, Narutaki and Goriki must join forces to defeat the enemy.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "science fiction": 2,
+        "science fiction (steampunk)": 3,
+        "sequential art (graphic novels)": 5,
+        "sequential art (manga)": 20
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "5_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "5_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 44,
+        "score": 3.3
+    },
+    "pages": 585,
+    "title": "Steam Detectives, Vol. 1",
+    "url": "https://www.goodreads.com/book/show/3033292-steam-detectives-vol-1",
+    "year_published": 1999
+}

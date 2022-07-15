@@ -1,0 +1,59 @@
+{
+    "author": "Larry Niven",
+    "base_id": "258",
+    "description": "Jaybee Corbell awoke after more than 200 years as a corpsicle -- in someone else's body, and under sentence of instant annihilation if he made a wrong move while they were training him for a one-way mission to the stars.But Corbell picked his time and made his own move. Once he was outbound, where the Society that ruled Earth could not reach him, he headed his starship toward the galactic core, where the unimaginable energies of the Universe wrenched the fabric of time and space and promised final escape from his captors.Then he returned to an Earth eons older than the one he'd left...a planet that had had 3,000,000 years to develop perils he had never dreamed of -- perils that became nightmares that he had to escape...somehow!",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 7,
+        "audiobook": 12,
+        "fantasy": 16,
+        "fiction": 93,
+        "science fiction": 358,
+        "science fiction (dystopia)": 12,
+        "science fiction (time travel)": 29,
+        "science fiction fantasy": 13,
+        "space": 7,
+        "space (space opera)": 12
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "258_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "258_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "258_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "258_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "258_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "258_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "258_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5412,
+        "score": 3.81
+    },
+    "pages": 1191,
+    "title": "A World Out of Time",
+    "url": "https://www.goodreads.com/book/show/64725.A_World_Out_of_Time",
+    "year_published": 1976
+}

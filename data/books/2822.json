@@ -1,0 +1,63 @@
+{
+    "author": "Alfred Bester",
+    "base_id": "2822",
+    "description": "In this pulse-quickening novel, Alfred Bester imagines a future in which people \"jaunte\" a thousand miles with a single thought, where the rich barricade themselves in labyrinths and protect themselves with radioactive hitmen\u2014and where an inarticulate outcast is the most valuable and dangerous man alive. The Stars My Destination is a classic of technological prophecy and timeless narrative enchantment by an acknowledged master of science fiction.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "classics": 238,
+        "fantasy": 72,
+        "fiction": 717,
+        "novels": 68,
+        "science fiction": 2233,
+        "science fiction (cyberpunk)": 131,
+        "science fiction fantasy": 125,
+        "space": 49,
+        "space (space opera)": 72,
+        "speculative fiction": 59
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2822_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2822_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2822_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2822_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2822_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2822_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2822_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2822_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 43749,
+        "score": 4.1
+    },
+    "pages": 460,
+    "title": "The Stars My Destination",
+    "url": "https://www.goodreads.com/book/show/333867.The_Stars_My_Destination",
+    "year_published": 1955
+}

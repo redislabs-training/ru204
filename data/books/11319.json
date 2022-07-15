@@ -1,0 +1,34 @@
+{
+    "author": "Jeanne DuPrau",
+    "base_id": "11319",
+    "description": "An alternate cover edition can be found here.Many hundreds of years ago, the city of Ember was created by the Builders to contain everything needed for human survival. It worked\u2026but now the storerooms are almost out of food, crops are blighted, corruption is spreading through the city and worst of all\u2014the lights are failing. Soon Ember could be engulfed by darkness\u2026But when two children, Lina and Doon, discover fragments of an ancient parchment, they begin to wonder if there could be a way out of Ember. Can they decipher the words from long ago and find a new future for everyone? Will the people of Ember listen to them?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 438,
+        "apocalyptic (post apocalyptic)": 357,
+        "childrens": 525,
+        "childrens (juvenile)": 169,
+        "childrens (middle grade)": 766,
+        "fantasy": 1812,
+        "fiction": 1239,
+        "science fiction": 1395,
+        "science fiction (dystopia)": 1807,
+        "young adult": 2531
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "11319_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 252566,
+        "score": 3.86
+    },
+    "pages": 1161,
+    "title": "The City of Ember",
+    "url": "https://www.goodreads.com/book/show/307791.The_City_of_Ember",
+    "year_published": 2003
+}

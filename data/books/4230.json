@@ -1,0 +1,38 @@
+{
+    "author": "Omar El Akkad",
+    "base_id": "4230",
+    "description": "An audacious and powerful debut novel: a second American Civil War, a devastating plague, and one family caught deep in the middle a story that asks what might happen if America were to turn its most devastating policies and deadly weapons upon itselfSarat Chestnut, born in Louisiana, is only six when the Second American Civil War breaks out in 2074. But even she knows that oil is outlawed, that Louisiana is half underwater, and that unmanned drones fill the sky. When her father is killed and her family is forced into Camp Patience for displaced persons, she begins to grow up shaped by her particular time and place. But not everyone at Camp Patience is who they claim to be. Eventually Sarat is befriended by a mysterious functionary, under whose influence she is turned into a deadly instrument of war. The decisions that she makes will have tremendous consequences not just for Sarat but for her family and her country, rippling through generations of strangers and kin alike.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 56,
+        "adult fiction": 57,
+        "apocalyptic (post apocalyptic)": 65,
+        "audiobook": 115,
+        "fiction": 1173,
+        "science fiction": 532,
+        "science fiction (dystopia)": 408,
+        "science fiction fantasy": 55,
+        "speculative fiction": 88,
+        "war": 180
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4230_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4230_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 30057,
+        "score": 3.79
+    },
+    "pages": 984,
+    "title": "American War",
+    "url": "https://www.goodreads.com/book/show/33311863-american-war",
+    "year_published": 2017
+}

@@ -1,0 +1,55 @@
+{
+    "author": "Dan Brown",
+    "base_id": "9541",
+    "description": "When the National Security Agency's invincible code-breaking machine encounters a mysterious code it cannot break, the agency calls its head cryptographer, Susan Fletcher, a brilliant and beautiful mathematician. What she uncovers sends shock waves through the corridors of power. The NSA is being held hostage... not by guns or bombs, but by a code so ingeniously complex that if released it would cripple U.S. intelligence.Caught in an accelerating tempest of secrecy and lies, Susan Fletcher battles to save the agency she believes in. Betrayed on all sides, she finds herself fighting not only for her country but for her life, and in the end, for the life of the man she loves.(back cover)",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 358,
+        "drama": 219,
+        "fiction": 4311,
+        "mystery": 1914,
+        "mystery (crime)": 492,
+        "novels": 404,
+        "science fiction": 361,
+        "suspense": 655,
+        "thriller": 2969,
+        "thriller (mystery thriller)": 481
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "9541_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "9541_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "9541_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "9541_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "9541_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9541_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 572014,
+        "score": 3.67
+    },
+    "pages": 1170,
+    "title": "Digital Fortress",
+    "url": "https://www.goodreads.com/book/show/11125.Digital_Fortress",
+    "year_published": 1998
+}

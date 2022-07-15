@@ -1,25 +1,25 @@
 {
-    "author": "Gena Showalter",
-    "base_id": 366,
-    "description": "The sizzling second book in New York Times bestselling author Gena Showalter\u2019s Otherworld Assassin paranormal romance series.He is every woman\u2019s fantasy\u2026Corbin Blue is a man of many talents. One of the most powerful otherworlders ever born, he is wealthy, a professional football star, and a legend in the bedroom. But only a select few know he is also a black ops agent\u2026and there is no better killer. When he and his crew are attacked and separated, he\u2019s forced to turn to his boss\u2019s daughter for help\u2014a woman with even more secrets than Blue.She becomes his only obsession\u2026Evangaline Black has always been wary, guarded. No man has ever breeched her walls. Until Blue. He has never been denied something he wants, and now, he\u2019s decided he wants her. As he sweeps her into his double life of seduction, intrigue, and danger, he helps her see beyond the darkness of her own past. But as an enemy closes in, Blue will have to let Evie go to keep her safe\u2014even though he'd rather die than live without her\u2026",
+    "author": "Thea Beckman",
+    "base_id": "366",
+    "description": "De zestienjarige Dolf uit Amstelveen geeft zich op als proefkonijn: hij zal door een materie-transmitter teruggeflitst worden naar de Middeleeuwen om daar \u00e9\u00e9n middag een kijkje te nemen. Maar door een foute berekening komt hij in het jaar 1212 terecht in een Kinderkruistocht die net uit Keulen is vertrokken en niet op het riddertoernooi in Montgivray in Midden-Frankrijk dat hij zo graag wilde bijwonen.Verbijsterd ziet hij duizenden gelovige \u2013 en vooral goedgelovige \u2013 kinderen, aan wie wonderen zijn beloofd, zingend aan hem voorbijtrekken. Zij zijn van plan met hun blote handen het Heilige Land van de Saracenen te bevrijden.Om vijf uur diezelfde middag moet Dolf weer op de afgesproken plek staan om teruggeflitst te worden naar de twintigste eeuw \u2013 tenminste, als er niets fout gaat\u2026Lengte: 11 uur 26 minuten",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 28,
-        "aliens": 55,
-        "fantasy": 47,
-        "fiction": 8,
-        "paranormal": 127,
-        "paranormal romance": 135,
-        "romance": 121,
-        "science fiction": 29,
-        "supernatural": 21,
-        "urban fantasy": 29
+        "childrens": 65,
+        "classics": 20,
+        "european literature (dutch literature)": 26,
+        "fantasy": 33,
+        "fiction": 76,
+        "historical": 38,
+        "historical (historical fiction)": 130,
+        "science fiction": 18,
+        "science fiction (time travel)": 29,
+        "young adult": 65
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "366_1"
         },
         {
@@ -27,24 +27,40 @@
             "stock_id": "366_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "366_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "366_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "366_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "366_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "366_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "366_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "366_9"
         }
     ],
     "metrics": {
-        "rating_votes": 4515,
-        "score": 4.18
+        "rating_votes": 10182,
+        "score": 4.04
     },
-    "pages": 210,
-    "title": "Black and Blue",
-    "url": "https://www.goodreads.com/book/show/17211009-black-and-blue",
-    "year_published": 2013
+    "pages": 406,
+    "title": "Kruistocht in spijkerbroek",
+    "url": "https://www.goodreads.com/book/show/3114666-kruistocht-in-spijkerbroek",
+    "year_published": 1973
 }

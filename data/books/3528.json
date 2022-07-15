@@ -1,0 +1,46 @@
+{
+    "author": "Jeanne DuPrau",
+    "base_id": "3528",
+    "description": "An alternate cover can be found here.The sequel to the critically acclaimed The City of Ember continues the story of Lina and Doon, who have emerged from the underground city to the exciting new world above. When anonymous acts of vandalism push them toward violence, it's up to Lina and Doon to discover who's behind the vandalism and why.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 150,
+        "apocalyptic (post apocalyptic)": 210,
+        "childrens": 181,
+        "childrens (middle grade)": 230,
+        "fantasy": 595,
+        "fiction": 495,
+        "science fiction": 487,
+        "science fiction (dystopia)": 638,
+        "young adult": 917,
+        "young adult (teen)": 66
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "3528_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3528_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3528_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3528_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 51867,
+        "score": 3.67
+    },
+    "pages": 702,
+    "title": "The People of Sparks",
+    "url": "https://www.goodreads.com/book/show/3467.The_People_of_Sparks",
+    "year_published": 2004
+}

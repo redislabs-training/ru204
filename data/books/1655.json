@@ -1,0 +1,50 @@
+{
+    "author": "Kurt Vonnegut Jr.",
+    "base_id": "1655",
+    "description": "According to science-fiction writer Kilgore Trout, a global timequake will occur in New York City on 13th February 2001. It is the moment when the universe suffers a crisis of conscience. Should it expand or make a great big bang? It decides to wind the clock back a decade to 1991, making everyone in the world endure ten years of deja-vu and a total loss of free will - not to mention the torture of reliving every nanosecond of one of the tawdiest and most hollow decades. With his trademark wicked wit, Vonnegut addresses memory, suicide, the Great Depression, the loss of American eloquence, and the obsolescent thrill of reading books.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 128,
+        "fantasy": 35,
+        "fiction": 893,
+        "humor": 137,
+        "literary fiction": 31,
+        "literature": 90,
+        "literature (american)": 64,
+        "novels": 88,
+        "science fiction": 402,
+        "science fiction (time travel)": 77
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1655_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1655_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1655_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1655_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1655_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 33606,
+        "score": 3.72
+    },
+    "pages": 1300,
+    "title": "Timequake",
+    "url": "https://www.goodreads.com/book/show/33586715-timequake",
+    "year_published": 1997
+}

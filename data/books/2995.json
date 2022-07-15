@@ -1,21 +1,22 @@
 {
-    "author": "Octavia E. Butler",
-    "base_id": 2995,
-    "description": "Lilith Iyapo has just lost her husband and son when atomic fire consumes Earth\u2014the last stage of the planet\u2019s final war. Hundreds of years later Lilith awakes, deep in the hold of a massive alien spacecraft piloted by the Oankali\u2014who arrived just in time to save humanity from extinction. They have kept Lilith and other survivors asleep for centuries, as they learned whatever they could about Earth. Now it is time for Lilith to lead them back to her home world, but life among the Oankali on the newly resettled planet will be nothing like it was before.The Oankali survive by genetically merging with primitive civilizations\u2014whether their new hosts like it or not. For the first time since the nuclear holocaust, Earth will be inhabited. Grass will grow, animals will run, and people will learn to survive the planet\u2019s untamed wilderness. But their children will not be human. Not exactly.",
+    "author": "Brandon Mull",
+    "base_id": "2995",
+    "description": "Jason Walker has often wished his life could be a bit less predictable--until a routine day at the zoo ends with Jason suddenly transporting from the hippo tank to a place unlike anything he's ever seen. In the past, the people of Lyrian welcomed visitors from the Beyond, but attitudes have changed since the wizard emperor Maldor rose to power. The brave resistors who opposed the emperor have been bought off or broken, leaving a realm where fear and suspicion prevail.In his search for a way home, Jason meets Rachel, who was also mysteriously drawn to Lyrian from our world. With the help of a few scattered rebels, Jason and Rachel become entangled in a quest to piece together the word of power that can destroy the emperor, and learn that their best hope to find a way home will be to save this world without heroes.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 63,
-        "aliens": 138,
-        "dystopia": 100,
-        "fantasy": 262,
-        "fiction": 742,
-        "horror": 86,
-        "post apocalyptic": 116,
-        "science fiction": 1624,
-        "science fiction fantasy": 169,
-        "speculative fiction": 102
+        "adventure": 176,
+        "childrens": 68,
+        "childrens (juvenile)": 29,
+        "childrens (middle grade)": 184,
+        "fantasy": 850,
+        "fantasy (magic)": 73,
+        "fiction": 109,
+        "young adult": 191,
+        "young adult (teen)": 28,
+        "young adult (young adult fantasy)": 48
     },
     "inventory": [
         {
@@ -23,15 +24,15 @@
             "stock_id": "2995_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2995_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "2995_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2995_4"
         },
         {
@@ -47,20 +48,20 @@
             "stock_id": "2995_7"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "2995_8"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2995_9"
         }
     ],
     "metrics": {
-        "rating_votes": 30955,
-        "score": 4.13
+        "rating_votes": 36002,
+        "score": 4.11
     },
-    "pages": 519,
-    "title": "Dawn",
-    "url": "https://www.goodreads.com/book/show/60929.Dawn",
-    "year_published": 1987
+    "pages": 209,
+    "title": "A World Without Heroes",
+    "url": "https://www.goodreads.com/book/show/8306745-a-world-without-heroes",
+    "year_published": 2011
 }

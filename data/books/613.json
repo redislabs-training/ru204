@@ -1,0 +1,44 @@
+{
+    "author": "Ilsa J. Bick",
+    "base_id": "613",
+    "description": "The Changed are on the move. The Spared are out of time. The End...is now.When her parents died, Alex thought things couldn't get much worse-until the doctors found the monster in her head.She headed into the wilderness as a good-bye, to leave everything behind. But then the end of the world happened, and Alex took the first step down a treacherous road of betrayal and terror and death.Now, with no hope of rescue-on the brink of starvation in a winter that just won't quit-she discovers a new and horrifying truth.The Change isn't over.The Changed are still evolving.And...they've had help.With this final volume of The Ashes Trilogy, Ilsa J. Bick delivers a riveting, blockbuster finish, returning readers to a brutal, post-apocalyptic world where no one is safe and hope is in short supply.A world where, from these ashes, the monsters may rise.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure (survival)": 27,
+        "apocalyptic (post apocalyptic)": 58,
+        "fantasy": 22,
+        "fiction": 28,
+        "horror": 78,
+        "horror (zombies)": 101,
+        "science fiction": 36,
+        "science fiction (apocalyptic)": 23,
+        "science fiction (dystopia)": 92,
+        "young adult": 132
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "613_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "613_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "613_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4985,
+        "score": 3.74
+    },
+    "pages": 618,
+    "title": "Monsters",
+    "url": "https://www.goodreads.com/book/show/15947841-monsters",
+    "year_published": 2013
+}

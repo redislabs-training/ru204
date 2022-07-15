@@ -1,0 +1,44 @@
+{
+    "author": "Stephen King",
+    "base_id": "3508",
+    "description": "On a brisk autumn day, a twelve-year-old boy stands on the shores of the gray Atlantic, near a silent amusement park and a fading ocean resort called the Alhambra. The past has driven Jack Sawyer here: his father is gone, his mother is dying, and the world no longer makes sense. But for Jack everything is about to change. For he has been chosen to make a journey back across America--and into another realm.One of the most influential and heralded works of fantasy ever written, The Talisman is an extraordinary novel of loyalty, awakening, terror, and mystery. Jack Sawyer, on a desperate quest to save his mother's life, must search for a prize across an epic landscape of innocents and monsters, of incredible dangers and even more incredible truths. The prize is essential, but the journey means even more. Let the quest begin. . . .",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 109,
+        "audiobook": 77,
+        "fantasy": 1833,
+        "fantasy (paranormal)": 63,
+        "fantasy (supernatural)": 83,
+        "fiction": 1017,
+        "horror": 2326,
+        "mystery": 94,
+        "science fiction": 63,
+        "thriller": 175
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3508_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3508_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3508_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 109351,
+        "score": 4.13
+    },
+    "pages": 748,
+    "title": "The Talisman",
+    "url": "https://www.goodreads.com/book/show/59219.The_Talisman",
+    "year_published": 1984
+}

@@ -1,0 +1,58 @@
+{
+    "author": "Holly Goddard Jones",
+    "base_id": "562",
+    "description": "In the spirit of Station Eleven and California, award-winning novelist Holly Goddard Jones offers a literary spin on the dystopian genre with this gripping story of survival and humanity about a group of adrenaline junkies who jump -the Salt Line.-How far will they go for their freedom--once they decide what freedom really means? In an unspecified future, the United States' borders have receded behind a salt line--a ring of scorched earth that protects its citizens from deadly disease-carrying ticks. Those within the zone live safe, if limited, lives in a society controlled by a common fear. Few have any reason to venture out of zone, except for the adrenaline junkies who pay a fortune to tour what's left of nature. Those among the latest expedition include a popstar and his girlfriend, Edie; the tech giant Wes; and Marta; a seemingly simple housewife. Once out of zone, the group find themselves at the mercy of deadly ticks--and at the center of a murderous plot. They become captives in Ruby City, a community made up of outer-zone survivors determined to protect their hardscrabble existence. As alliances and friendships shift amongst the hostages, Edie, Wes, and Marta must decide how far they are willing to go to get to the right side of the salt line.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 13,
+        "apocalyptic (post apocalyptic)": 28,
+        "audiobook": 10,
+        "fantasy": 11,
+        "fiction": 98,
+        "horror": 11,
+        "science fiction": 94,
+        "science fiction (apocalyptic)": 16,
+        "science fiction (dystopia)": 88,
+        "thriller": 15
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "562_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "562_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "562_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "562_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "562_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "562_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "562_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2726,
+        "score": 3.59
+    },
+    "pages": 1338,
+    "title": "The Salt Line",
+    "url": "https://www.goodreads.com/book/show/34020019-the-salt-line",
+    "year_published": 2017
+}

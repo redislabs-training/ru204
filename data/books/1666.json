@@ -1,0 +1,39 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "1666",
+    "description": "Time is a resource. Everyone knows it has to be managed.And on Discworld that is the job of the Monks of History, who store it and pump it from the places where it's wasted (like underwater -- how much time does a codfish need?) to places like cities, where there's never enough time.But the construction of the world's first truly accurate clock starts a race against, well, time, for Lu Tze and his apprentice Lobsang Ludd. Because it will stop time. And that will only be the start of everyone's problems.Thief of Time comes complete with a full supporting cast of heroes and villains, yetis, martial artists and Ronnie, the fifth Horseman of the Apocalypse (who left before they became famous).",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 78,
+        "audiobook": 81,
+        "fantasy": 4236,
+        "fiction": 800,
+        "humor": 679,
+        "humor (comedy)": 213,
+        "science fiction": 69,
+        "science fiction (time travel)": 72,
+        "science fiction fantasy": 152,
+        "young adult": 80
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1666_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1666_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 64995,
+        "score": 4.22
+    },
+    "pages": 916,
+    "title": "Thief of Time",
+    "url": "https://www.goodreads.com/book/show/48002.Thief_of_Time",
+    "year_published": 2001
+}

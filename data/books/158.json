@@ -1,38 +1,64 @@
 {
-    "author": "Tammi Sauer",
-    "base_id": 158,
-    "description": "One day, you'll be looking out your window when something wonderful comes your way\u2026 and you will want to keep him.When a little boy meets a stranded alien child, the two instantly strike up a fabulous friendship. They go to school, explore the neighborhood, and have lots of fun. But at bedtime, the alien suddenly grows very, very sad. Can the boy figure out what his new buddy needs most of all? This funny, heartwarming story proves that friends and family are the most important things in the universe . . . no matter who or where you are.An NPR Best Book of 2015",
+    "author": "Mark  Siegel",
+    "base_id": "158",
+    "description": "5 Worlds. 3 Unlikely Heroes. 1 Epic Battle for the Galaxy!Oona Lee surprised everyone\u2013including herself\u2013when she lit the first beacon to save the Five Worlds from extinction. Can she light the other four beacons in time? Next stop, Toki! On the blue planet, Oona must face the sister who left her, and bring to light the Cobalt Prince\u2019s dark secrets. Meanwhile, An Tzu is fading away as his mysterious illness gets worse. Will it stop him from joining the fight? Or will his unique magic be just what the team needs?And Jax Amboy is a hero on the starball field, but in a moment of real danger, will he risk everything to save his friends?Oona must rely on some surprising new allies in order to stop a terrible plot from unfolding and continue her quest across the 5 WORLDS!",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "Childrens (Storytime) ": 10,
-        "Family": 18,
-        "aliens": 20,
-        "childrens": 29,
-        "fantasy": 8,
-        "humor": 5,
-        "juvenile": 7,
-        "picture books": 148,
-        "science fiction": 12,
-        "space": 10
+        "adventure": 19,
+        "childrens": 19,
+        "childrens (juvenile)": 12,
+        "childrens (middle grade)": 43,
+        "fantasy": 107,
+        "fiction": 12,
+        "graphic novels comics": 14,
+        "science fiction": 22,
+        "sequential art (comics)": 33,
+        "sequential art (graphic novels)": 140
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "158_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "158_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "158_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "158_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "158_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "158_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "158_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "158_8"
         }
     ],
     "metrics": {
-        "rating_votes": 743,
-        "score": 3.91
+        "rating_votes": 1542,
+        "score": 4.29
     },
-    "pages": 915,
-    "title": "Your Alien",
-    "url": "https://www.goodreads.com/book/show/24612805-your-alien",
-    "year_published": 2015
+    "pages": 605,
+    "title": "The Cobalt Prince",
+    "url": "https://www.goodreads.com/book/show/35175969-the-cobalt-prince",
+    "year_published": 2018
 }

@@ -1,0 +1,52 @@
+{
+    "author": "James Dashner",
+    "base_id": "56306",
+    "description": "There are alternate cover editions for this ASIN here and here.If you ain\u2019t scared, you ain\u2019t human. When Thomas wakes up in the lift, the only thing he can remember is his name. He\u2019s surrounded by strangers\u2014boys whose memories are also gone. Nice to meet ya, shank. Welcome to the Glade. Outside the towering stone walls that surround the Glade is a limitless, ever-changing maze. It\u2019s the only way out\u2014and no one\u2019s ever made it through alive. Everything is going to change. Then a girl arrives. The first girl ever. And the message she delivers is terrifying. Remember. Survive. Run.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 1255,
+        "apocalyptic (post apocalyptic)": 780,
+        "audiobook": 519,
+        "fantasy": 2695,
+        "fiction": 3304,
+        "mystery": 716,
+        "science fiction": 4332,
+        "science fiction (dystopia)": 6989,
+        "young adult": 10469,
+        "young adult (teen)": 645
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "56306_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "56306_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "56306_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "56306_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "56306_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1105238,
+        "score": 4.03
+    },
+    "pages": 243,
+    "title": "The Maze Runner",
+    "url": "https://www.goodreads.com/book/show/6186357-the-maze-runner",
+    "year_published": 2009
+}

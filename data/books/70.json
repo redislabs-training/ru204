@@ -1,25 +1,27 @@
 {
-    "author": "Ella Maven",
-    "base_id": 70,
-    "description": " \"She will have my babies, but on our terms.\"Valerie: I thought waking up on a spaceship was traumatic. That's got nothing on returning to consciousness while shackled in a cell. The kicker? I'm supposed to be a breeder for the alien in the cell next to me. My mother always told me I had birthing hips, but I don't think she meant they were for pushing out blue extraterrestrials. I want to hate my cell-mate, but he's a prisoner too, and so far he's taken a few beatings to protect me...Sax: The food sucks but the view has gotten a hell of a lot better since the human female showed up. I know exactly what our captors want--for us to mate so they can take our baby. Over my dead body. I'm willing to suffer their abuse if they leave the pretty female alone, but when they hurt her, all bets are off. Now I'm not only finding a way to escape with her, I'm also taking out every last captor before I leave. And then? I'll fill her with as many babies as she wants.The Alien's Escape is a full-length Sci-Fi Romance novel featuring a curvy heroine with nursing skills and a snarky, devoted hero with a pierced tongue who isn't afraid of a little pain. ",
+    "author": "G.L. Breedon",
+    "base_id": "70",
+    "description": "An Epic Time Travel Fantasy AdventureGabriel Salvador has dreams about the future, and his dreams always come true. When he dreams one night that he will drown, he knows upon waking it is only a matter of time before his dream becomes reality.Plucked from the timeline of history at the moment of his death and considered dead by his parents and friends, Gabriel mourns the loss of his family as he trains to become an apprentice time mage -- part of an elite team of wizards who travel throughout history to fight the War of Time and Magic.When a mission to stop the creation of an alternate reality fails, Gabriel is revealed as the Seventh True Mage, able to use all six forms of magic. He soon finds himself hunted by three dark mages who hope to use him to rule the whole of the Primary Continuum.From an alternate Windsor Castle to Victorian London, from the Aztec temples of 1487 to the Greek island of Samos in 320 BCE, from Scotland in the Middle Ages to the battle fields of Alexander the Great -- Gabriel struggles to master the different magics and fulfill the responsibility of being the Seventh True Mage as he joins the battle to protect the timeline of history in The Wizard of Time.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 23,
-        "erotica": 2,
-        "fantasy": 4,
-        "futuristic": 2,
-        "male female romance": 2,
-        "paranormal": 2,
-        "romance": 15,
-        "science fiction": 12,
-        "science fiction romance": 5,
-        "supernatural": 2
+        "adventure": 4,
+        "fantasy": 56,
+        "fantasy (magic)": 4,
+        "fantasy (paranormal)": 3,
+        "fantasy (urban fantasy)": 5,
+        "fiction": 11,
+        "historical (historical fiction)": 3,
+        "science fiction": 8,
+        "science fiction (time travel)": 32,
+        "young adult": 35
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "70_1"
         },
         {
@@ -27,7 +29,7 @@
             "stock_id": "70_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "70_3"
         },
         {
@@ -37,30 +39,14 @@
         {
             "status": "available",
             "stock_id": "70_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "70_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "70_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "70_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "70_9"
         }
     ],
     "metrics": {
-        "rating_votes": 776,
-        "score": 4.14
+        "rating_votes": 674,
+        "score": 3.81
     },
-    "pages": 699,
-    "title": "The Alien's Escape",
-    "url": "https://www.goodreads.com/book/show/51459121-the-alien-s-escape",
-    "year_published": 2020
+    "pages": 1073,
+    "title": "The Wizard of Time",
+    "url": "https://www.goodreads.com/book/show/12111260-the-wizard-of-time",
+    "year_published": 2011
 }

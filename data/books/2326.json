@@ -1,0 +1,35 @@
+{
+    "author": "Jasper Fforde",
+    "base_id": "2326",
+    "description": "It's Easter in Reading\u2014a bad time for eggs\u2014and no one can remember the last sunny day. Ovoid D-class nursery celebrity Humpty Stuyvesant Van Dumpty III, minor baronet, ex-convict, and former millionaire philanthropist, is found shattered to death beneath a wall in a shabby area of town. All the evidence points to his ex-wife, who has conveniently shot herself. But Detective Inspector Jack Spratt and his assistant Mary Mary remain unconvinced, a sentiment not shared with their superiors at the Reading Police Department, who are still smarting over their failure to convict the Three Pigs of murdering Mr. Wolff. Before long Jack and Mary find themselves grappling with a sinister plot involving cross-border money laundering, bullion smuggling, problems with beanstalks, titans seeking asylum, and the cut and thrust world of international chiropody. And on top of all that, the JellyMan is coming to town . . .",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 61,
+        "european literature (british literature)": 61,
+        "fantasy": 220,
+        "fiction": 123,
+        "humor": 395,
+        "humor (comedy)": 88,
+        "mystery": 132,
+        "mystery (detective)": 43,
+        "science fiction fantasy": 70,
+        "thriller (mystery thriller)": 46
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2326_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 31161,
+        "score": 3.94
+    },
+    "pages": 286,
+    "title": "The Big Over Easy",
+    "url": "https://www.goodreads.com/book/show/6628.The_Big_Over_Easy",
+    "year_published": 2005
+}

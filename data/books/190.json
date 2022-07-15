@@ -1,0 +1,63 @@
+{
+    "author": "Warren Ellis",
+    "base_id": "190",
+    "description": "New York Times best-selling writer Warren Ellis (TRANSMETROPOLITAN, RED, THE AUTHORITY) returns to DC to curate Jim Lee's WildStorm world, resetting the WildStorm universe with new iterations of Grifter, Voodoo, the Engineer, Jenny Sparks and more! Everyone is looking up. A man has been thrown from the upper floor of a skyscraper. Angela Spica, sick from the transhuman implants she's buried in her own body--is the only person who can save him. What she doesn't know is that the act of saving that one man will tip over a vast and secret house of cards that encloses the entire world, if not the inner solar system. This is how the Wild Storm begins, and it may destroy covert power structures, secret space programs and even all of human history. Collects THE WILD STORM #1-6.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "action": 3,
+        "comics (comic book)": 10,
+        "comics (superheroes)": 13,
+        "fiction": 16,
+        "graphic novels comics": 12,
+        "science fiction": 39,
+        "science fiction (cyberpunk)": 3,
+        "sequential art (comics)": 145,
+        "sequential art (graphic novels)": 89,
+        "superheroes (dc comics)": 16
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "190_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "190_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "190_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "190_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "190_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "190_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "190_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "190_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1317,
+        "score": 3.95
+    },
+    "pages": 1206,
+    "title": "The Wild Storm, Vol. 1",
+    "url": "https://www.goodreads.com/book/show/34690732-the-wild-storm-vol-1",
+    "year_published": 2017
+}

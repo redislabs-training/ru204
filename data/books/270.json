@@ -1,25 +1,27 @@
 {
-    "author": "Lyn Gala",
-    "base_id": 270,
-    "description": "Ondry and Liam have settled into a good life, but their trading is still tied up with humans, and humans are always messy. When political changes at the human base lead Ondry to attempt a difficult trade, the pair find themselves entangled in human affairs. Liam wants to help the people he left and the worlds being torn apart. He also wants to serve Ondry with not only the pleasures of the nest but also by bringing human profits.Ondry has no hope of understanding human psychology in general, he only knows that he will hold onto his palteia with the last breath in his body, and he'd like to keep his status and his wealth too. Unfortunately, new humans bring new conflicts and he is not sure how to protect Liam. He does know one thing that humans seem to constantly forget\u2014that the peaceful Rownt are predators and when their families are threatened, Rownt become deadly killers. Liam is his family, and Ondry will protect him with his last breath\u2026 assuming that he can recognize the dangers in time to do so.",
+    "author": "Kate Messner",
+    "base_id": "270",
+    "description": "Meet Ranger! He's a time-traveling golden retriever who has a nose for trouble . . . and always saves the day!Ranger has been trained as a search-and-rescue dog, but can't officially pass the test because he's always getting distracted by squirrels during exercises. One day, he finds a mysterious first aid kit in the garden and is transported to the year 1850, where he meets a young boy named Sam Abbott. Sam's family is migrating west on the Oregon Trail, and soon after Ranger arrives he helps the boy save his little sister. Ranger thinks his job is done, but the Oregon Trail can be dangerous, and the Abbotts need Ranger's help more than they realize!",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 80,
-        "bdsm": 81,
-        "erotica": 16,
-        "fantasy": 31,
-        "fiction": 14,
-        "gay": 12,
-        "lgbt": 18,
-        "male male romance": 165,
-        "romance": 75,
-        "science fiction": 154
+        "adventure": 22,
+        "animals": 17,
+        "animals (dogs)": 20,
+        "childrens": 18,
+        "childrens (chapter books)": 22,
+        "childrens (middle grade)": 32,
+        "fantasy": 15,
+        "fiction": 13,
+        "historical (historical fiction)": 97,
+        "science fiction (time travel)": 28
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "270_1"
         },
         {
@@ -27,15 +29,15 @@
             "stock_id": "270_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "270_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "270_4"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "270_5"
         },
         {
@@ -43,24 +45,16 @@
             "stock_id": "270_6"
         },
         {
-            "status": "available",
-            "stock_id": "270_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "270_8"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "270_9"
+            "stock_id": "270_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1751,
-        "score": 4.28
+        "rating_votes": 1601,
+        "score": 4.09
     },
-    "pages": 574,
-    "title": "Assimilation, Love, and Other Human Oddities",
-    "url": "https://www.goodreads.com/book/show/23110213-assimilation-love-and-other-human-oddities",
-    "year_published": 2014
+    "pages": 1109,
+    "title": "Rescue on the Oregon Trail",
+    "url": "https://www.goodreads.com/book/show/22323698-rescue-on-the-oregon-trail",
+    "year_published": 2015
 }

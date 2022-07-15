@@ -1,0 +1,40 @@
+{
+    "author": "Vladimir Sorokin",
+    "base_id": "391",
+    "description": "One of The Telegraph\u2019s Best Fiction Books 2011Moscow, 2028. A cold, snowy morning.Andrei Danilovich Komiaga is fast asleep. A scream, a moan, and a death rattle slowly pull him out of his drunken stupor\u2014but wait, that\u2019s just his ring tone. And so begins another day in the life of an oprichnik, one of the czar\u2019s most trusted courtiers\u2014and one of the country\u2019s most feared men.Welcome to the new New Russia, where futuristic technology and the draconian codes of Ivan the Terrible are in perfect synergy. Corporal punishment is back, as is a divine monarch, but these days everyone gets information from high-tech news bubbles, and the elite get high on hallucinogenic, genetically modified fish.Over the course of one day, Andrei Komiaga will bear witness to\u2014and participate in\u2014brutal executions; extravagant parties; meetings with ballerinas, soothsayers, and even the czarina. He will rape and pillage, and he will be moved to tears by the sweetly sung songs of his homeland. He will consume an arsenal of drugs and denounce threats to his great nation\u2019s morals. And he will fall in love\u2014perhaps even with a number of his colleagues.Vladimir Sorokin, the man described by Keith Gessen (in The New York Review of Books) as \u201c[the] only real prose writer, and resident genius\u201d of late-Soviet fiction, has imagined a near future both too disturbing to contemplate and too realistic to dismiss. But like all of his best work, Sorokin\u2019s new novel explodes with invention and dark humor. A startling, relentless portrait of a troubled and troubling empire, Day of the Oprichnik is at once a richly imagined vision of the future and a razor-sharp diagnosis of a country in crisis.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "contemporary": 19,
+        "cultural (russia)": 151,
+        "fantasy": 8,
+        "fiction": 190,
+        "literary fiction": 9,
+        "literature": 18,
+        "literature (russian literature)": 47,
+        "novels": 13,
+        "science fiction": 64,
+        "science fiction (dystopia)": 79
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "391_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "391_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4736,
+        "score": 3.72
+    },
+    "pages": 1227,
+    "title": "Day of the Oprichnik",
+    "url": "https://www.goodreads.com/book/show/9479238-day-of-the-oprichnik",
+    "year_published": 2006
+}

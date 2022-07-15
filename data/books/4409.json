@@ -1,0 +1,38 @@
+{
+    "author": "Jim Butcher",
+    "base_id": "4409",
+    "description": "For the 1st printing edition of this ISBN, see here.HARRY DRESDEN -- WIZARDLost items found. Paranormal Investigations. Consulting. Advice. Reasonable Rates.No Love Potions, Endless Purses, or Other EntertainmentEver since his girlfriend left town to deal with her newly acquired taste for blood, Harry Dresden has been down and out in Chicago. He can't pay his rent. He's alienating his friends. He can't even recall the last time he took a shower.The only professional wizard in the phone book has become a desperate man.And just when it seems things can't get any worse, in saunters the Winter Queen of Faerie. She has an offer Harry can't refuse if he wants to free himself of the supernatural hold his faerie godmother has over him--and hopefully end his run of bad luck. All he has to do is find out who murdered the Summer Queen's right-hand man, the Summer Knight, and clear the Winter Queen's name.It seems simple enough, but Harry knows better than to get caught in the middle of faerie politics. Until he finds out that the fate of the entire world rests on his solving this case. No pressure or anything...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 366,
+        "fantasy": 4940,
+        "fantasy (magic)": 500,
+        "fantasy (paranormal)": 612,
+        "fantasy (supernatural)": 273,
+        "fantasy (urban fantasy)": 3496,
+        "fiction": 949,
+        "mystery": 922,
+        "paranormal (vampires)": 232,
+        "science fiction fantasy": 240
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4409_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4409_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 132657,
+        "score": 4.26
+    },
+    "pages": 1214,
+    "title": "Summer Knight",
+    "url": "https://www.goodreads.com/book/show/91478.Summer_Knight",
+    "year_published": 2002
+}

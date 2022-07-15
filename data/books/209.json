@@ -1,25 +1,25 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 209,
-    "description": "I Am Number Four: The Lost Files: Secret Histories is a collection of three action-packed novellas that share stories the Mogadorians don't want you to know about the inner workings of their regime as well as how they engineered the attack on Lorien. Originally published as e-novellas, now, for the first time ever, they are together in one print volume.You already know the truth about the Garde and the Mogadorian invasion, yet there is still so much to learn. The stories in Secret Histories will help you get the answers you seek, but they will not help you stop the coming war. Only the Garde can save our planet.",
+    "author": "Tad Williams",
+    "base_id": "209",
+    "description": "\"The Grail Brotherhood has built the most powerful, sophisticated simulation network imaginable. At the same time, they have manipulated ad injured the minds of thousands of children.\"This proclamation from the mysterious Mr. Sellars confirmed what Renie Sulaweyo had feared to be true when she first broke into the Otherland network in a desperate search for the cause of her brother Stephen's deathlike coma. Now Renie, the Bushman !Xabbu, and their companions find themselves navigating a treacherous and ever-changing course\u2015from a strangely unfinished land, ro a seemingly endless labyrinthine House\u2015pursuing a sociopathic killer who has stolen one of their group. To Renie's despair she is no closer to uncovering the secrets which could help save Stephen's life, and now it appears that something may be very wrong with the Otherland network itself.As Paul Jonas, Orlando, Renie and the rest strive to reach Priam's Walls, in the heart of Troy, they know that their quest is running perilously short of time. For the Grail Brotherhood has finally set the date for the Ceremony when they will make their bid for the immortality, and thereby seal the fate of Earth's children forever.But before Renie and her allies can hope to stop the Brotherhood, they must first solve the mysteries of Otherland itself, and confront its darkest secret\u2015an enitity known only at the Other.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 9,
-        "aliens": 26,
-        "fantasy": 43,
-        "fiction": 15,
-        "novella": 10,
-        "paranormal": 7,
-        "science fiction": 55,
-        "short stories": 17,
-        "teen": 8,
-        "young adult": 65
+        "adventure": 16,
+        "epic": 13,
+        "fantasy": 516,
+        "fantasy (epic fantasy)": 18,
+        "fantasy (urban fantasy)": 13,
+        "fiction": 149,
+        "science fiction": 497,
+        "science fiction (cyberpunk)": 71,
+        "science fiction fantasy": 63,
+        "speculative fiction": 19
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "209_1"
         },
         {
@@ -27,24 +27,36 @@
             "stock_id": "209_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "209_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "209_4"
         },
         {
             "status": "maintenance",
             "stock_id": "209_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "209_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "209_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "209_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3356,
-        "score": 4.27
+        "rating_votes": 14660,
+        "score": 4.06
     },
-    "pages": 263,
-    "title": "Secret Histories",
-    "url": "https://www.goodreads.com/book/show/16065725-secret-histories",
-    "year_published": 2013
+    "pages": 1349,
+    "title": "Mountain of Black Glass",
+    "url": "https://www.goodreads.com/book/show/10090.Mountain_of_Black_Glass",
+    "year_published": 1999
 }

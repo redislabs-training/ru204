@@ -1,0 +1,58 @@
+{
+    "author": "Neal Shusterman",
+    "base_id": "18987",
+    "description": "Connor, Risa, and Lev are running for their lives.The Second Civil War was fought over reproductive rights. The chilling resolution: Life is inviolable from the moment of conception until age thirteen. Between the ages of thirteen and eighteen, however, parents can have their child \"unwound,\" whereby all of the child's organs are transplanted into different donors, so life doesn't technically end. Connor is too difficult for his parents to control. Risa, a ward of the state, is not enough to be kept alive. And Lev is a tithe, a child conceived and raised to be unwound. Together, they may have a chance to escape and to survive.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 280,
+        "adventure (survival)": 194,
+        "fantasy": 606,
+        "fiction": 1114,
+        "horror": 419,
+        "science fiction": 2010,
+        "science fiction (dystopia)": 3123,
+        "thriller": 294,
+        "young adult": 4349,
+        "young adult (teen)": 340
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "18987_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "18987_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "18987_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "18987_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "18987_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "18987_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "18987_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 198757,
+        "score": 4.16
+    },
+    "pages": 1194,
+    "title": "Unwind",
+    "url": "https://www.goodreads.com/book/show/764347.Unwind",
+    "year_published": 2007
+}

@@ -1,34 +1,39 @@
 {
-    "author": "S.J. Sanders",
-    "base_id": 188,
-    "description": "There were certain truths everyone knew. Never wear red or any other bright color. Make as little sound as possible if one had to be outside the protection of the sanctuary settlements. And never, ever, go out in the wild places alone. The Ragoru, an alien species set down to live among them, dwell within the forests and everyone knows that they crave all things red. Arie\u2019s life has always been one of playing by the rules. She doesn\u2019t draw attention to herself. She doesn\u2019t leave her home without her hood that conceals her bright red hair. It is a secret from everyone, and her hood protects her secret so that she may continue to live safely within the village until one day that secret comes to light. Absconding into the woods soon becomes her only safety, and she will risk her very life into the care of the very dreaded beings that all people fear, the Ragoru, in hope of making it to her grandmother\u2019s house in the citadel at the other side of the great forest.When circumstances reveal them to not be the monsters of human imagination, but that they stir the ravenous beast within her, Arie finds that she is willing to risk far more to find a way to be with them forever. Even if that means severing ties with her grandmother, rejecting the human comforts of the citadel, and facing the horror of the Order of the Huntsmen.A new spin on the Little Red Riding Hood Story, bringing a well known fairy tell to a dystopian future with a wolfish alien species.",
+    "author": "Jodi Taylor",
+    "base_id": "188",
+    "description": "It's Christmas Eve at St Mary's, And all through the house, Nothing is stirring ... Except for Max, Peterson, and Markham, sneaking out at midnight for an assignment that is very definitely off the books. It's ten years ago tonight that Senior Historians Bashford and Grey went missing in twelfth-century Jerusalem. So how did they end up in AD60 Roman Colchester? Max has a theory. Peterson has a plan. Markham has bacon sandwiches. Colchester has Boudicca and her bloodthirsty Iceni hordes. And then there's the giant pig ... the enraged giant pig ...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 28,
-        "dystopia": 9,
-        "erotica": 5,
-        "fantasy": 21,
-        "paranormal romance": 7,
-        "polyamorous": 38,
-        "retellings": 6,
-        "romance": 26,
-        "science fiction": 15,
-        "science fiction romance": 7
+        "adventure": 20,
+        "audiobook": 44,
+        "fantasy": 75,
+        "fiction": 53,
+        "historical": 22,
+        "historical (historical fiction)": 45,
+        "holiday (christmas)": 28,
+        "science fiction": 59,
+        "science fiction (time travel)": 117,
+        "short stories": 33
     },
     "inventory": [
         {
             "status": "on_loan",
             "stock_id": "188_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "188_2"
         }
     ],
     "metrics": {
-        "rating_votes": 1449,
-        "score": 3.98
+        "rating_votes": 3663,
+        "score": 4.35
     },
-    "pages": 1165,
-    "title": "Red",
-    "url": "https://www.goodreads.com/book/show/52178332-red",
-    "year_published": 2019
+    "pages": 1393,
+    "title": "Christmas Present",
+    "url": "https://www.goodreads.com/book/show/27844508-christmas-present",
+    "year_published": 2014
 }

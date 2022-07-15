@@ -1,0 +1,46 @@
+{
+    "author": "Mark  Lawrence",
+    "base_id": "4722",
+    "description": "I was born for killing \u2013 the gods made me to ruin.At the Convent of Sweet Mercy young girls are raised to be killers. In a few the old bloods show, gifting talents rarely seen since the tribes beached their ships on Abeth. Sweet Mercy hones its novices\u2019 skills to deadly effect: it takes ten years to educate a Red Sister in the ways of blade and fist.But even the mistresses of sword and shadow don\u2019t truly understand what they have purchased when Nona Grey is brought to their halls as a bloodstained child of eight, falsely accused of murder: guilty of worse.Stolen from the shadow of the noose, Nona is sought by powerful enemies, and for good reason. Despite the security and isolation of the convent her secret and violent past will find her out. Beneath a dying sun that shines upon a crumbling empire, Nona Grey must come to terms with her demons and learn to become a deadly assassin if she is to survive\u2026",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 285,
+        "adventure": 100,
+        "audiobook": 125,
+        "fantasy": 4635,
+        "fantasy (epic fantasy)": 113,
+        "fantasy (high fantasy)": 190,
+        "fantasy (magic)": 206,
+        "fiction": 435,
+        "science fiction fantasy": 83,
+        "young adult": 163
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "4722_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4722_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4722_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4722_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 47663,
+        "score": 4.15
+    },
+    "pages": 802,
+    "title": "Red Sister",
+    "url": "https://www.goodreads.com/book/show/25895524-red-sister",
+    "year_published": 2017
+}

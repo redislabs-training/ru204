@@ -1,0 +1,67 @@
+{
+    "author": "Frank Herbert",
+    "base_id": "1104",
+    "description": "Book five in Frank Herbert's magnificent Dune Chronicles--one of the most significant sagas in the history of literary science fiction.Leto Atreides, the God Emperor of Dune, is dead. In the fifteen hundred years since his passing, the Empire has fallen into ruin. The great Scattering saw millions abandon the crumbling civilization and spread out beyond the reaches of known space. The planet Arrakis-now called Rakis-has reverted to its desert climate, and its great sandworms are dying.Now, the Lost Ones are returning home in pursuit of power. And as factions vie for control over the remnants of the Empire, a girl named Sheeana rises to prominence in the wastelands of Rakis, sending religious fervor throughout the galaxy. For she possesses the abilities of the Fremen sandriders-fulfilling a prophecy foretold by the late God Emperor...Includes an introduction by Brian Herbert",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 34,
+        "classics": 92,
+        "fantasy": 332,
+        "fiction": 670,
+        "novels": 39,
+        "science fiction": 1992,
+        "science fiction fantasy": 170,
+        "space": 34,
+        "space (space opera)": 92,
+        "speculative fiction": 34
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1104_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1104_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1104_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1104_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1104_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1104_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1104_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1104_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "1104_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 56567,
+        "score": 3.87
+    },
+    "pages": 229,
+    "title": "Heretics of Dune",
+    "url": "https://www.goodreads.com/book/show/44492287-heretics-of-dune",
+    "year_published": 1984
+}

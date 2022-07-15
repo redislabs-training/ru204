@@ -1,0 +1,44 @@
+{
+    "author": "Claire Vaye Watkins",
+    "base_id": "1342",
+    "description": "In a parched southern California of the near future, Luz, once the poster child for the country\u2019s conservation movement, and Ray, an army deserter turned surfer, are squatting in a starlet\u2019s abandoned mansion. Most \u201cMojavs,\u201d prevented by armed vigilantes from freely crossing borders to lusher regions, have allowed themselves to be evacuated to encampments in the east. Holdouts like Ray and Luz subsist on rationed cola and water, and whatever they can loot, scavenge, and improvise.For the moment, the couple\u2019s fragile love, which somehow blooms in this arid place, seems enough. But when they cross paths with a mysterious child, the thirst for a better future begins. Immensely moving, profoundly disquieting, and mind-blowingly original, Watkins\u2019s novel explores the myths we believe about others and tell about ourselves, the double-edged power of our most cherished relationships, and the shape of hope in a precarious future that may be our own.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult fiction": 23,
+        "apocalyptic (post apocalyptic)": 28,
+        "audiobook": 26,
+        "fiction": 400,
+        "literary fiction": 46,
+        "novels": 28,
+        "science fiction": 104,
+        "science fiction (climate change fiction)": 24,
+        "science fiction (dystopia)": 127,
+        "speculative fiction": 21
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1342_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1342_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1342_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 7943,
+        "score": 3.3
+    },
+    "pages": 451,
+    "title": "Gold Fame Citrus",
+    "url": "https://www.goodreads.com/book/show/24612148-gold-fame-citrus",
+    "year_published": 2015
+}

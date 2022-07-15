@@ -1,0 +1,46 @@
+{
+    "author": "Neal Shusterman",
+    "base_id": "612",
+    "description": "How did Lev Calder move from an unwillingly escaped Tithe to a clapper?In this new ebook original short story, author Neal Shusterman opens a window on Lev's adventures between the time he left CyFi and when he showed up at the Graveyard.Lev's experiences on a Hi-Rez, an extraordinarily wealthy Native American Reservation introduce him to a teen with remarkable musical talent... and whose gifts are destined to end up in the hands of another. And it is this teen's heart-breaking story that inspired Lev to choose the clapper's path.Pulling elements from Neal Shusterman's critically acclaimed Unwind and giving hints about what is to come in the long-awaited sequel, UnWholly, this short story is a must for fans of the series.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 11,
+        "fantasy": 35,
+        "fiction": 56,
+        "horror": 20,
+        "novella": 41,
+        "science fiction": 120,
+        "science fiction (dystopia)": 219,
+        "short stories": 89,
+        "young adult": 259,
+        "young adult (teen)": 21
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "612_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "612_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "612_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "612_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6989,
+        "score": 3.92
+    },
+    "pages": 1081,
+    "title": "UnStrung",
+    "url": "https://www.goodreads.com/book/show/15722490-unstrung",
+    "year_published": 2012
+}

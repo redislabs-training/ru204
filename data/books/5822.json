@@ -1,0 +1,43 @@
+{
+    "author": "Stephen King",
+    "base_id": "5822",
+    "description": "Several months have passed, and Roland\u2019s two new tet-mates have become proficient gunslingers. Eddie Dean has given up heroin, and Odetta\u2019s two selves have joined, becoming the stronger and more balanced personality of Susannah Dean. But while battling The Pusher in 1977 New York, Roland altered ka by saving the life of Jake Chambers, a boy who\u2014in Roland\u2019s where and when\u2014has already died. Now Roland and Jake exist in different worlds, but they are joined by the same madness: the paradox of double memories. Roland, Susannah, and Eddie must draw Jake into Mid-World then follow the Path of the Beam all the way to the Dark Tower. But nothing is easy in Mid-World. Along the way our tet stumbles into the ruined city of Lud, and are caught between the warring gangs of the Pubes and the Grays. The only way out of Lud is to wake Blaine the Mono, an insane train that has a passion for riddling, and for suicidal journeys.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 311,
+        "apocalyptic (post apocalyptic)": 139,
+        "audiobook": 221,
+        "fantasy": 5566,
+        "fiction": 1895,
+        "horror": 1722,
+        "science fiction": 586,
+        "science fiction fantasy": 211,
+        "thriller": 138,
+        "westerns": 255
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "5822_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5822_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5822_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 192314,
+        "score": 4.22
+    },
+    "pages": 775,
+    "title": "The Waste Lands",
+    "url": "https://www.goodreads.com/book/show/34084.The_Waste_Lands",
+    "year_published": 1991
+}

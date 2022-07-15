@@ -1,38 +1,62 @@
 {
-    "author": "Cecil Castellucci",
-    "base_id": 348,
-    "description": "On their way to start a new life, Tula and her family travel on the Prairie Rose, a colony ship headed to a planet in the outer reaches of the galaxy. All is going well until the ship makes a stop at a remote space station, the Yertina Feray, and the colonist's leader, Brother Blue, beats Tula within an inch of her life. An alien, Heckleck, saves her and teaches her the ways of life on the space station. When three humans crash land onto the station, Tula's desire for escape becomes irresistible, and her desire for companionship becomes unavoidable. But just as Tula begins to concoct a plan to get off the space station and kill Brother Blue, everything goes awry, and suddenly romance is the farthest thing from her mind.",
+    "author": "Mary Pope Osborne",
+    "base_id": "348",
+    "description": "Is this town HAUNTED? Jack and Annie wonder when the Magic Tree House whisks them to the Wild West. But before they can say \"Boo!\" they rush headlong into an adventure filled with horse thieves, a lost colt, rattlesnakes, and a cowboy named Slim. Will Jack and Annie have time to solve the next Tree House Riddle? The answer may depend on a ghost!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 9,
-        "aliens": 32,
-        "dystopia": 15,
-        "fantasy": 9,
-        "fiction": 16,
-        "romance": 16,
-        "science fiction": 125,
-        "space": 28,
-        "teen": 11,
-        "young adult": 110
+        "adventure": 46,
+        "childrens": 146,
+        "childrens (chapter books)": 57,
+        "childrens (middle grade)": 17,
+        "fantasy": 129,
+        "fantasy (magic)": 19,
+        "fiction": 83,
+        "historical": 25,
+        "historical (historical fiction)": 63,
+        "science fiction (time travel)": 26
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "348_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "348_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "348_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "348_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "348_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "348_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "348_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "348_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1175,
-        "score": 3.68
+        "rating_votes": 10683,
+        "score": 3.91
     },
-    "pages": 584,
-    "title": "Tin Star",
-    "url": "https://www.goodreads.com/book/show/17255996-tin-star",
-    "year_published": 2014
+    "pages": 802,
+    "title": "Ghost Town at Sundown",
+    "url": "https://www.goodreads.com/book/show/861358.Ghost_Town_at_Sundown",
+    "year_published": 1997
 }

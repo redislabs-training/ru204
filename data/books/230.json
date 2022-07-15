@@ -1,21 +1,23 @@
 {
-    "author": "Gena Showalter",
-    "base_id": 230,
-    "description": "When Santa Fe antique dealer Julie Anderson was curiously drawn to purchase a battered jewelry box, she never expected it to contain her own personal love slave. Especially not tall, dark and sinfully handsome Tristan-a man hard to resist, and determined to fulfill her every desire.Though Tristan was a rogue of the battlefield and the boudoir, making love with Julia was like nothing he'd ever known. Yet revealing his true heart would break the centuries-old spell and separate them forever. And Tristan would do anything to go on loving Julia. . .even remain a slave through all eternity. . .",
+    "author": "Michael Marshall Smith",
+    "base_id": "230",
+    "description": "Spares - human clones, the ultimate health insurance. An eye for an eye, but some people are doing all the taking.Spares - the story of Jack Randall: burnt-out, dropped out, and with a zero credit rating at the luck bank. After five years lying low on a Spares farm, looking after inmates that can't even spell luck, he is finally faced with a chance at redemption....if he, and the spares, can run fast enough.Spares - a breathless race through strange, disturbing territories in a world all too close to our own.Spares - it's fiction. But only just...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "Romance (Contemporary Romance) ": 27,
-        "adult": 18,
-        "aliens": 21,
-        "contemporary": 26,
-        "fantasy": 67,
-        "fiction": 19,
-        "magic": 23,
-        "paranormal": 89,
-        "paranormal romance": 137,
-        "romance": 172
+        "fantasy": 15,
+        "fiction": 72,
+        "horror": 22,
+        "mystery": 6,
+        "science fiction": 141,
+        "science fiction (cyberpunk)": 22,
+        "science fiction (dystopia)": 19,
+        "science fiction fantasy": 9,
+        "speculative fiction": 7,
+        "thriller": 14
     },
     "inventory": [
         {
@@ -27,7 +29,7 @@
             "stock_id": "230_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "230_3"
         },
         {
@@ -35,16 +37,32 @@
             "stock_id": "230_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "230_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "230_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "230_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "230_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "230_9"
         }
     ],
     "metrics": {
-        "rating_votes": 4361,
-        "score": 3.9
+        "rating_votes": 3229,
+        "score": 4.13
     },
-    "pages": 837,
-    "title": "The Pleasure Slave",
-    "url": "https://www.goodreads.com/book/show/432522.The_Pleasure_Slave",
-    "year_published": 2005
+    "pages": 1222,
+    "title": "Spares",
+    "url": "https://www.goodreads.com/book/show/21010.Spares",
+    "year_published": 1996
 }

@@ -1,21 +1,22 @@
 {
-    "author": "Alessandra Hazard",
-    "base_id": 344,
-    "description": "A planet at war. Two alphas forced into a political marriage. Attraction that defies all reason and logic\u2026 Or does it? The Kingdom of Pelugia and the Republic of Kadar have been at war for decades. Peace isn\u2019t popular, but the planet can\u2019t survive without it.Forced to marry an enemy prince for the sake of peace, Senator Royce Cleghorn doesn\u2019t like his husband, his alpha scent, or his damned pretty blue eyes. More than anything, Royce hates what Haydn makes him become: a primitive alpha clich\u00e9 who\u2019ll do anything to mark his territory, even if that territory is his alpha husband. Royce likes omegas; he isn\u2019t into alphas, no matter how pretty their eyes are. It\u2019s just a weird territorial instinct. It has to be.Prince Haydn has always tried to be the perfect alpha his father wants him to be. He's the heir to the throne. He's a war general. He isn't supposed to bare his throat to an enemy alpha\u2014and it isn't supposed to feel so good. Everyone knows a marriage between two alphas is a recipe for disaster. He isn't supposed to crave his husband\u2014their marriage is just a political arrangement, nothing more.But when disaster strikes and loyalties are tested, which bond will be the strongest: their marriage, or their allegiances?This book is set in an omegaverse world similar to contemporary Earth, and it contains explicit content, mating cycles, scenting, knotting, and two men obsessed with each other. While mpreg exists in this world, it\u2019s only mentioned and doesn\u2019t appear on-page.",
+    "author": "Patricia C. Wrede",
+    "base_id": "344",
+    "description": "Kim doesn't hesitate when a stranger offers her a small fortune to break into the travelling magician's wagon in search of a silver bowl. Kim isn't above a bit of breaking-and-entering. Having grown up a waif in the dirty streets of London-disguised as a boy!-has schooled her in one hard lesson: steal from them before they steal from you. But there is something odd about this magician. He isn't like the other hucksters and swindlers that Kim is used to. When he catches her in the act, Kim thinks she's done for.Until he suggests she become his apprentice. Kim wonders how tough it could be faking a bit of hocus pocus.But Mairelon isn't an act. His magic is real.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 21,
-        "fantasy": 50,
-        "lgbt": 18,
-        "male male romance": 87,
-        "omegaverse": 44,
-        "paranormal": 51,
-        "paranormal romance": 14,
-        "romance": 50,
-        "science fiction": 37,
-        "shapeshifters": 21
+        "adventure": 42,
+        "fantasy": 814,
+        "fantasy (magic)": 87,
+        "fiction": 89,
+        "historical": 90,
+        "historical (historical fiction)": 81,
+        "historical (regency)": 40,
+        "historical fiction (historical fantasy)": 37,
+        "mystery": 59,
+        "young adult": 247
     },
     "inventory": [
         {
@@ -23,20 +24,40 @@
             "stock_id": "344_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "344_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "344_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "344_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "344_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "344_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "344_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "344_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2349,
-        "score": 4.12
+        "rating_votes": 8546,
+        "score": 3.99
     },
-    "pages": 820,
-    "title": "Unnatural",
-    "url": "https://www.goodreads.com/book/show/56443216-unnatural",
-    "year_published": 2020
+    "pages": 929,
+    "title": "Mairelon the Magician",
+    "url": "https://www.goodreads.com/book/show/245727.Mairelon_the_Magician",
+    "year_published": 1991
 }

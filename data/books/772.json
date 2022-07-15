@@ -1,0 +1,43 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "772",
+    "description": "A fascinating new novella in Brandon Sanderson's Cosmere, the universe shared by his Mistborn series and the #1 New York Times bestselling Stormlight Archive.  Sixth of the Dusk, set in a never-before-seen world, showcases a society on the brink of technological change. On the deadly island of Patji, where birds grant people magical talents and predators can sense the thoughts of their prey, a solitary trapper discovers that the island is not the only thing out to kill him. When he begins to see his own corpse at every turn, does this spell danger for his entire culture?  --------------------  A note from the publisher: For a detailed behind-the-scenes look at the creation of this novella, including brainstorming and workshopping session transcripts, the first draft, line-by-line edits, and an essay by Brandon, please see Shadows Beneath: The Writing Excuses Anthology.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 15,
+        "fantasy": 951,
+        "fantasy (epic fantasy)": 40,
+        "fantasy (high fantasy)": 35,
+        "fantasy (magic)": 12,
+        "fiction": 92,
+        "novella": 67,
+        "science fiction": 44,
+        "science fiction fantasy": 14,
+        "short stories": 102
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "772_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "772_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "772_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13538,
+        "score": 4.24
+    },
+    "pages": 647,
+    "title": "Sixth of the Dusk",
+    "url": "https://www.goodreads.com/book/show/23397921-sixth-of-the-dusk",
+    "year_published": 2014
+}

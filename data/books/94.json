@@ -1,38 +1,33 @@
 {
-    "author": "Sherrilyn Kenyon",
-    "base_id": 94,
-    "description": "Livia is a Vistan princess who is to be married to an ambassador from a neighboring galaxy--a brutal man, many years her senior. She knows that the one thing he values in her is her virginity, and in a last-ditch effort to escape the fate her father has decreed for her, she sets out to seduce the first man she can find. Adron Quiakides was once a fierce League assassin. Now he lives in constant pain from wounds suffered years earlier at the hands of a madman. When Livia approaches him in a darkened bar, he willingly falls for her seduction. But when he feels the warmth of her healing touch he knows that he can't let her go. With her in his arms, he is free of pain, both body and soul.FIRE & ICE - Originally published in a stand alone ebook in 1998. Currently available in the OUT OF THIS WORLD anthology that features all the short stories Sherri wrote for Penguin.",
+    "author": "Robert Charles Wilson",
+    "base_id": "94",
+    "description": "Tom Winter thought the secluded cottage in the Pacific Northwest would be the perfect refuge\u2014a place to nurse the wounds of lost love and happiness. But Tom soon discovers that his safe haven is the portal of a tunnel through time. At one end lies the familiar present. At the other end\u2014New York City, 1963.Tom\u2019s journey back through time offers renewed hope in the form of a new life, a new love, and the chance to start life over in a simpler, safer world. But he finds that the time tunnel holds a danger far greater than anything he left behind: a human killing machine escaped from the bleak and brutal future, who will do anything to protect the secret passage he thought was his alone. And Tom Winter is forced to face the terrors of an unknown future to preserve his worlds, both past and present.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 14,
-        "aliens": 18,
-        "fantasy": 35,
-        "futuristic": 17,
-        "paranormal": 43,
-        "paranormal romance": 54,
-        "romance": 71,
-        "science fiction": 47,
-        "short stories": 8,
-        "urban fantasy": 9
+        "audiobook": 4,
+        "cultural (canada)": 2,
+        "fantasy": 4,
+        "fiction": 25,
+        "science fiction": 90,
+        "science fiction (time travel)": 59,
+        "science fiction fantasy": 7,
+        "speculative fiction": 3,
+        "thriller": 5
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "94_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "94_2"
         }
     ],
     "metrics": {
-        "rating_votes": 3243,
-        "score": 4.38
+        "rating_votes": 1082,
+        "score": 3.83
     },
-    "pages": 1340,
-    "title": "Fire and Ice",
-    "url": "https://www.goodreads.com/book/show/2789282-fire-and-ice",
-    "year_published": 2001
+    "pages": 635,
+    "title": "A Bridge of Years",
+    "url": "https://www.goodreads.com/book/show/779053.A_Bridge_of_Years",
+    "year_published": 1991
 }

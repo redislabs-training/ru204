@@ -1,0 +1,34 @@
+{
+    "author": "Virginia Bergin",
+    "base_id": "1629",
+    "description": "It's in the rain...and just one drop will kill you.They don't believe it at first. Crowded in Zach's kitchen, Ruby and the rest of the partygoers laugh at Zach's parents' frenzied push to get them all inside as it starts to drizzle. But then the radio comes on with the warning, \"It's in the rain! It's fatal, it's contagious, and there's no cure.\"Two weeks later, Ruby is alone. Anyone who's been touched by rain or washed their hands with tap water is dead. The only drinkable water is quickly running out. Ruby's only chance for survival is a treacherous hike across the country to find her father-if he's even still alive.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 28,
+        "apocalyptic (post apocalyptic)": 40,
+        "fantasy": 18,
+        "fiction": 61,
+        "horror": 25,
+        "science fiction": 94,
+        "science fiction (apocalyptic)": 33,
+        "science fiction (dystopia)": 120,
+        "young adult": 192,
+        "young adult (teen)": 13
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1629_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9386,
+        "score": 3.48
+    },
+    "pages": 378,
+    "title": "The Rain",
+    "url": "https://www.goodreads.com/book/show/21116887-the-rain",
+    "year_published": 2014
+}

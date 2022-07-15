@@ -1,0 +1,46 @@
+{
+    "author": "Ray Bradbury",
+    "base_id": "4046",
+    "description": "That The Illustrated Man has remained in print since being published in 1951 is fair testimony to the universal appeal of Ray Bradbury's work. Only his second collection (the first was Dark Carnival, later reworked into The October Country), it is a marvelous, if mostly dark, quilt of science fiction, fantasy, and horror. In an ingenious framework to open and close the book, Bradbury presents himself as a nameless narrator who meets the Illustrated Man--a wanderer whose entire body is a living canvas of exotic tattoos. What's even more remarkable, and increasingly disturbing, is that the illustrations are themselves magically alive, and each proceeds to unfold its own story, such as \"The Veldt,\" wherein rowdy children take a game of virtual reality way over the edge. Or \"Kaleidoscope,\" a heartbreaking portrait of stranded astronauts about to reenter our atmosphere--without the benefit of a spaceship. Or \"Zero Hour,\" in which invading aliens have discovered a most logical ally--our own children. Even though most were written in the 1940s and 1950s, these 18 classic stories will be just as chillingly effective 50 years from now. --Stanley WiaterContents:\u00b7 Prologue: The Illustrated Man \u00b7 ss * \u00b7 The Veldt [\u201cThe World the Children Made\u201d] \u00b7 ss The Saturday Evening Post Sep 23 \u201950 \u00b7 Kaleidoscope \u00b7 ss Thrilling Wonder Stories Oct \u201949 \u00b7 The Other Foot \u00b7 ss New Story Magazine Mar \u201951 \u00b7 The Highway [as by Leonard Spalding] \u00b7 ss Copy Spr \u201950 \u00b7 The Man \u00b7 ss Thrilling Wonder Stories Feb \u201949 \u00b7 The Long Rain [\u201cDeath-by-Rain\u201d] \u00b7 ss Planet Stories Sum \u201950 \u00b7 The Rocket Man \u00b7 ss Maclean\u2019s Mar 1 \u201951 \u00b7 The Fire Balloons [\u201c\u2018In This Sign...\u2019\u201d] \u00b7 ss Imagination Apr \u201951 \u00b7 The Last Night of the World \u00b7 ss Esquire Feb \u201951 \u00b7 The Exiles [\u201cThe Mad Wizards of Mars\u201d] \u00b7 ss Maclean\u2019s Sep 15 \u201949; F&SF Win \u201950 \u00b7 No Particular Night or Morning \u00b7 ss * \u00b7 The Fox and the Forest [\u201cTo the Future\u201d] \u00b7 ss Colliers May 13 \u201950 \u00b7 The Visitor \u00b7 ss Startling Stories Nov \u201948 \u00b7 The Concrete Mixer \u00b7 ss Thrilling Wonder Stories Apr \u201949 \u00b7 Marionettes, Inc. [Marionettes, Inc.] \u00b7 ss Startling Stories Mar \u201949 \u00b7 The City [\u201cPurpose\u201d] \u00b7 ss Startling Stories Jul \u201950 \u00b7 Zero Hour \u00b7 ss Planet Stories Fll \u201947 \u00b7 The Rocket [\u201cOutcast of the Stars\u201d] \u00b7 ss Super Science Stories Mar \u201950 \u00b7 Epilogue \u00b7 aw *",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "anthologies": 80,
+        "classics": 862,
+        "fantasy": 787,
+        "fiction": 1371,
+        "horror": 250,
+        "literature": 85,
+        "literature (american)": 77,
+        "science fiction": 2180,
+        "science fiction fantasy": 213,
+        "short stories": 1446
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4046_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4046_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4046_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4046_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 82883,
+        "score": 4.12
+    },
+    "pages": 1185,
+    "title": "The Illustrated Man",
+    "url": "https://www.goodreads.com/book/show/24830.The_Illustrated_Man",
+    "year_published": 1951
+}

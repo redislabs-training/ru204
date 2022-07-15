@@ -1,21 +1,22 @@
 {
-    "author": "Craig Alanson",
-    "base_id": 1114,
-    "description": "We were fighting on the wrong side, of a war we couldn't win. And that was the good news. The Ruhar hit us on Columbus Day. There we were, innocently drifting along the cosmos on our little blue marble, like the native Americans in 1492. Over the horizon come ships of a technologically advanced, aggressive culture, and BAM! There go the good old days, when humans only got killed by each other. So, Columbus Day. It fits. When the morning sky twinkled again, this time with Kristang starships jumping in to hammer the Ruhar, we thought we were saved. The UN Expeditionary Force hitched a ride on Kristang ships to fight the Ruhar, wherever our new allies thought we could be useful. So, I went from fighting with the US Army in Nigeria, to fighting in space. It was lies, all of it. We shouldn't even be fighting the Ruhar, they aren't our enemy, our allies are. I'd better start at the beginning....Alternate Cover Edition can be found here. ",
+    "author": "Frances Hardinge",
+    "base_id": "1114",
+    "description": "In Caverna, lies are an art \u2014 and everyone's an artist...In the underground city of Caverna the world's most skilled craftsmen toil in the darkness to create delicacies beyond compare. They create wines that can remove memories, cheeses that can make you hallucinate and perfumes that convince you to trust the wearer even as they slit your throat. The people of Caverna are more ordinary, but for one thing: their faces are as blank as untouched snow. Expressions must be learned. Only the famous Facesmiths can teach a person to show (or fake) joy, despair or fear \u2014 at a price.Into this dark and distrustful world comes Neverfell, a little girl with no memory of her past and a face so terrifying to those around her that she must wear a mask at all times. For Neverfell's emotions are as obvious on her face as those of the most skilled Facesmiths, though entirely genuine. And that makes her very dangerous indeed...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 21,
-        "audiobook": 67,
-        "fiction": 90,
-        "humor": 14,
-        "military fiction": 36,
-        "military science fiction": 18,
-        "science fiction": 349,
-        "science fiction fantasy": 16,
-        "space": 20,
-        "space opera": 44
+        "adventure": 50,
+        "childrens": 37,
+        "childrens (middle grade)": 127,
+        "fantasy": 842,
+        "fiction": 99,
+        "mystery": 45,
+        "science fiction": 35,
+        "science fiction (dystopia)": 57,
+        "young adult": 250,
+        "young adult (young adult fantasy)": 27
     },
     "inventory": [
         {
@@ -23,40 +24,28 @@
             "stock_id": "1114_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1114_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1114_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1114_4"
         },
         {
             "status": "on_loan",
             "stock_id": "1114_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1114_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1114_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1114_8"
         }
     ],
     "metrics": {
-        "rating_votes": 15210,
-        "score": 4.26
+        "rating_votes": 6200,
+        "score": 4.18
     },
-    "pages": 298,
-    "title": "Columbus Day",
-    "url": "https://www.goodreads.com/book/show/28525188-columbus-day",
-    "year_published": 2016
+    "pages": 658,
+    "title": "A Face Like Glass",
+    "url": "https://www.goodreads.com/book/show/12666103-a-face-like-glass",
+    "year_published": 2012
 }

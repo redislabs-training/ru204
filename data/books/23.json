@@ -1,50 +1,35 @@
 {
-    "author": "Angela Castle",
-    "base_id": 23,
-    "description": "Sara, abducted from Earth by cruel aliens, is used as a torture slave and left to die.Solron, a healer of Kelon, is annoyed at being ordered to go on a cleanup mission to check abandoned enemy war bases. When he and the crew discover a small human woman on the brink of death, Solron manages to save her. But the beautiful little human stirs more within him than his need to heal. Under Solron\u2019s care, Sara falls deeply in love with the alien doctor and he claims her for himself. But when confronted by the Xerson who tortured her, Solron demands a fight with him.Sara knows she has no choice but to let them fight, but will she now lose the man she loves to the curled Xerson, or will justice at last be served?",
+    "author": "Brian Daley",
+    "base_id": "23",
+    "description": "A long time ago in a galaxy far far away, there came a time of revolution when Rebels united to challenge a tyrannical Empire. Experience the epic scope and power of the classic movie, Return of the Jedi, in this six-episode radio production. (3 hours)",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 21,
-        "erotica": 6,
-        "fantasy": 3,
-        "futuristic": 3,
-        "male female romance": 3,
-        "paranormal": 4,
-        "paranormal romance": 4,
-        "romance": 13,
-        "science fiction": 18,
-        "science fiction romance": 9
+        "audiobook": 12,
+        "fantasy": 4,
+        "fiction": 3,
+        "media tie in": 2,
+        "media tie in (star wars)": 49,
+        "novels": 2,
+        "science fiction": 16,
+        "science fiction (robots)": 2,
+        "science fiction fantasy": 2,
+        "space": 2
     },
     "inventory": [
         {
-            "status": "maintenance",
-            "stock_id": "23_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "23_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23_4"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "23_5"
+            "stock_id": "23_1"
         }
     ],
     "metrics": {
-        "rating_votes": 668,
-        "score": 3.87
+        "rating_votes": 228,
+        "score": 3.89
     },
-    "pages": 824,
-    "title": "Saving Sara",
-    "url": "https://www.goodreads.com/book/show/16029845-saving-sara",
-    "year_published": 2012
+    "pages": 680,
+    "title": "Return of the Jedi: The Original Radio Drama",
+    "url": "https://www.goodreads.com/book/show/3359269-return-of-the-jedi",
+    "year_published": 1996
 }

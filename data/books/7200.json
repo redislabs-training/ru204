@@ -1,0 +1,54 @@
+{
+    "author": "Peter Heller",
+    "base_id": "7200",
+    "description": "Hig somehow survived the flu pandemic that killed everyone he knows. Now his wife is gone, his friends are dead, and he lives in the hangar of a small abandoned airport with his dog, Jasper, and a mercurial, gun-toting misanthrope named Bangley.\u00a0But when a random transmission beams through the radio of his 1956 Cessna, the voice ignites a hope deep inside him that a better life exists outside their tightly controlled perimeter. Risking everything, he flies past his point of no return and follows its static-broken trail, only to find something that is both better and worse than anything he could ever hope for.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 73,
+        "adult fiction": 84,
+        "adventure (survival)": 86,
+        "apocalyptic (post apocalyptic)": 412,
+        "audiobook": 104,
+        "fiction": 1243,
+        "literary fiction": 73,
+        "science fiction": 412,
+        "science fiction (apocalyptic)": 151,
+        "science fiction (dystopia)": 317
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "7200_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "7200_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7200_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "7200_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "7200_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7200_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 53593,
+        "score": 3.93
+    },
+    "pages": 892,
+    "title": "The Dog Stars",
+    "url": "https://www.goodreads.com/book/show/13330761-the-dog-stars",
+    "year_published": 2012
+}

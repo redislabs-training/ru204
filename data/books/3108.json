@@ -1,0 +1,64 @@
+{
+    "author": "Garth Nix",
+    "base_id": "3108",
+    "description": "Lirael has never felt like a true daughter of the Clayr. Now, two years past the time when she should have received the Sight that is the Clayr's birthright, she feels alone, abandoned, unsure of who she is. Nevertheless, the fate of the Old Kingdom lies in her hands. With only her faithful companion, the Disreputable Dog, Lirael must undertake a desperate mission under the growing shadow of an ancient evil.In this sequel to Sabriel, winner of the Aurealis Award for Excellence in Australian Science Fiction, New York Times best-selling author Garth Nix weaves a spellbinding tale of discovery, destiny, and danger.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 262,
+        "audiobook": 140,
+        "fantasy": 5772,
+        "fantasy (high fantasy)": 221,
+        "fantasy (magic)": 306,
+        "fiction": 748,
+        "science fiction fantasy": 177,
+        "young adult": 2000,
+        "young adult (teen)": 132,
+        "young adult (young adult fantasy)": 222
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3108_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3108_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3108_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3108_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "3108_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3108_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "3108_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "3108_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 112166,
+        "score": 4.25
+    },
+    "pages": 454,
+    "title": "Lirael",
+    "url": "https://www.goodreads.com/book/show/47624.Lirael",
+    "year_published": 2001
+}

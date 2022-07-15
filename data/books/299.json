@@ -1,0 +1,52 @@
+{
+    "author": "Philip K. Dick",
+    "base_id": "299",
+    "description": "Set in the middle of the twenty-first century, The Simulacra is the story of an America where the whole government is a fraud and the President is an android. Against this backdrop Dr. Superb, the sole remaining psychotherapist, is struggling to practice in a world full of the maladjusted. Ian Duncan is desperately in love with the first lady, Nicole Thibideaux, who he has never met. Richard Kongrosian refuses to see anyone because he is convinced his body odor is lethal. And the fascistic Bertold Goltz is trying to overthrow the government. With wonderful aplomb, Philip K. Dick brings this story to a crashing conclusion and in classic fashion shows there is always another layer of conspiracy beneath the one we see.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 8,
+        "fiction": 127,
+        "literature": 8,
+        "literature (american)": 8,
+        "novels": 15,
+        "science fiction": 299,
+        "science fiction (dystopia)": 20,
+        "science fiction (time travel)": 9,
+        "science fiction fantasy": 12,
+        "speculative fiction": 11
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "299_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "299_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "299_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "299_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "299_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4697,
+        "score": 3.62
+    },
+    "pages": 824,
+    "title": "The Simulacra",
+    "url": "https://www.goodreads.com/book/show/226460.The_Simulacra",
+    "year_published": 1964
+}

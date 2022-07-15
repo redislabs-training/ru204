@@ -1,0 +1,39 @@
+{
+    "author": "J.R.R. Tolkien",
+    "base_id": "11321",
+    "description": "Alternate Cover Edition ISBN 0345296060 (ISBN13: 9780345296061)One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind themFrodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin\u2014alone, that is, save for the mysterious creeping figure that follows wherever they go.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 1480,
+        "classics": 7091,
+        "fantasy": 29631,
+        "fantasy (epic fantasy)": 945,
+        "fantasy (high fantasy)": 965,
+        "fantasy (magic)": 484,
+        "fiction": 7181,
+        "literature": 509,
+        "novels": 535,
+        "science fiction fantasy": 1015
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "11321_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "11321_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 743594,
+        "score": 4.44
+    },
+    "pages": 1112,
+    "title": "The Two Towers",
+    "url": "https://www.goodreads.com/book/show/222910.The_Two_Towers",
+    "year_published": 1954
+}

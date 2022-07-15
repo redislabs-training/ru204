@@ -1,45 +1,33 @@
 {
     "author": "John Scalzi",
-    "base_id": 1712,
+    "base_id": "1712",
     "description": "The space-faring Yherajk have come to Earth to meet us and to begin humanity's first interstellar friendship. There's just one problem: They're hideously ugly and they smell like rotting fish. So getting humanity's trust is a challenge. The Yherajk need someone who can help them close the deal. Enter Thomas Stein, who knows something about closing deals. He's one of Hollywood's hottest young agents. But although Stein may have just concluded the biggest deal of his career, it's quite another thing to negotiate for an entire alien race. To earn his percentage this time, he's going to need all the smarts, skills, and wits he can muster.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 51,
         "audiobook": 169,
-        "comedy": 47,
         "fantasy": 64,
         "fiction": 257,
         "humor": 258,
+        "humor (comedy)": 47,
         "science fiction": 534,
+        "science fiction (aliens)": 51,
         "science fiction fantasy": 60,
         "space": 17,
         "speculative fiction": 15
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1712_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1712_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1712_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1712_4"
         }
     ],
     "metrics": {
         "rating_votes": 17835,
         "score": 3.91
     },
-    "pages": 1270,
+    "pages": 976,
     "title": "Agent to the Stars",
     "url": "https://www.goodreads.com/book/show/88072.Agent_to_the_Stars",
     "year_published": 2004

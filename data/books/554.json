@@ -1,0 +1,63 @@
+{
+    "author": "Conor Kostick",
+    "base_id": "554",
+    "description": "Generations ago, violence was banned on New Earth. Society is governed and conflicts are resolved in the arena of a fantasy computer game, Epic. Everyone plays. If you win, you have the chance to go to university, get more supplies for your community, and fulfill your dreams; if you lose, your life both in and out of the game is worth nothing. When Erik, seeking revenge for the unjust treatment of his parents, dares to subvert the rules of Epic, he and his friends find themselves up against with the ultimate masters of the game: the Committee. If Erik and his friends win, they may have the key to destroying Epic's tyranny over New Earth. But if they lose . . .\n\n With its setting of a fantasy MMORPG, Epic is an early example of LitRPG",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "action": 14,
+        "adventure": 40,
+        "epic": 15,
+        "fantasy": 161,
+        "fiction": 63,
+        "science fiction": 173,
+        "science fiction (dystopia)": 77,
+        "science fiction (virtual reality)": 14,
+        "young adult": 146,
+        "young adult (teen)": 31
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "554_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "554_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "554_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "554_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "554_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "554_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "554_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "554_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6233,
+        "score": 3.95
+    },
+    "pages": 488,
+    "title": "Epic",
+    "url": "https://www.goodreads.com/book/show/1003985.Epic",
+    "year_published": 2004
+}

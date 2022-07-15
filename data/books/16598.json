@@ -1,0 +1,59 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "16598",
+    "description": "Tricked into releasing the evil spirit Ruin while attempting to close the Well of Ascension, new emperor Elend Venture and his wife, the assassin Vin, are now hard-pressed to save the world.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 357,
+        "adventure": 254,
+        "audiobook": 302,
+        "fantasy": 13585,
+        "fantasy (epic fantasy)": 830,
+        "fantasy (high fantasy)": 663,
+        "fantasy (magic)": 372,
+        "fiction": 1417,
+        "science fiction fantasy": 322,
+        "young adult": 236
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "16598_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16598_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "16598_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16598_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16598_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16598_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "16598_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 278755,
+        "score": 4.48
+    },
+    "pages": 1086,
+    "title": "The Hero of Ages",
+    "url": "https://www.goodreads.com/book/show/2767793-the-hero-of-ages",
+    "year_published": 2008
+}

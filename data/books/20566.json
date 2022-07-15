@@ -1,0 +1,60 @@
+{
+    "author": "Andy Weir",
+    "base_id": "20566",
+    "description": "Jazz Bashara is a criminal. Well, sort of. Life on Artemis, the first and only city on the moon, is tough if you're not a rich tourist or an eccentric billionaire. So smuggling in the occasional harmless bit of contraband barely counts, right? Not when you've got debts to pay and your job as a porter barely covers the rent. Everything changes when Jazz sees the chance to commit the perfect crime, with a reward too lucrative to turn down. But pulling off the impossible is just the start of her problems, as she learns that she's stepped square into a conspiracy for control of Artemis itself\u2014and that now, her only chance at survival lies in a gambit even riskier than the first.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 280,
+        "adventure": 199,
+        "audiobook": 564,
+        "fantasy": 252,
+        "fiction": 2364,
+        "mystery (crime)": 144,
+        "science fiction": 4002,
+        "science fiction fantasy": 305,
+        "space": 324,
+        "thriller": 220
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "20566_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "20566_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "20566_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20566_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "20566_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20566_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "20566_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 181509,
+        "score": 3.66
+    },
+    "pages": 1035,
+    "title": "Artemis",
+    "url": "https://www.goodreads.com/book/show/34928122-artemis",
+    "year_published": 2017
+}

@@ -1,0 +1,35 @@
+{
+    "author": "A.J. Low",
+    "base_id": "57",
+    "description": "Winner of the Red Dot Book Awards 2013-2014, Younger Readers\u2019 CategoryMeet Sherlock Sam, Singapore's greatest kid detective. With his trusty robot Watson, Sherlock Sam will stop at nothing to solve the case, no matter how big or small! In Sherlock Sam and the Missing Heirloom in Katong, Auntie Kim Lian's precious Peranakan cookbook disappears, and Sherlock Sam cannot eat her delicious ayam buah keluak anymore! Will Sherlock Sam be able to use his super detective powers to find this lost treasure?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "childrens": 7,
+        "childrens (chapter books)": 3,
+        "childrens (middle grade)": 15,
+        "fiction": 4,
+        "food and drink (food)": 3,
+        "literature (asian literature)": 3,
+        "mystery": 29,
+        "realistic fiction": 3,
+        "science fiction (robots)": 2,
+        "sequential art (graphic novels)": 6
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "57_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 239,
+        "score": 3.86
+    },
+    "pages": 477,
+    "title": "Sherlock Sam and the Missing Heirloom in Katong",
+    "url": "https://www.goodreads.com/book/show/16592647-sherlock-sam-and-the-missing-heirloom-in-katong",
+    "year_published": 2013
+}

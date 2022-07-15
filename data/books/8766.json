@@ -1,0 +1,42 @@
+{
+    "author": "Albert Camus",
+    "base_id": "8766",
+    "description": "A gripping tale of human unrelieved horror, of survival and resilience, and of the ways in which humankind confronts death, The Plague is at once a masterfully crafted novel, eloquently understated and epic in scope, and a parable of ageless moral resonance, profoundly relevant to our times. In Oran, a coastal town in North Africa, the plague begins as a series of portents, unheeded by the people. It gradually becomes an omnipresent reality, obliterating all traces of the past and driving its victims to almost unearthly extremes of suffering, madness, and compassion.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 3211,
+        "cultural (africa)": 155,
+        "cultural (france)": 974,
+        "european literature (french literature)": 442,
+        "fiction": 3873,
+        "literary fiction": 160,
+        "literature": 754,
+        "literature (20th century)": 194,
+        "novels": 423,
+        "philosophy": 1535
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "8766_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8766_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8766_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 181295,
+        "score": 4.01
+    },
+    "pages": 1260,
+    "title": "The Plague",
+    "url": "https://www.goodreads.com/book/show/11989.The_Plague",
+    "year_published": 1947
+}

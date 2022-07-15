@@ -1,19 +1,19 @@
 {
     "author": "H. Beam Piper",
-    "base_id": 567,
+    "base_id": "567",
     "description": "The chartered Zarathustra Company had it all their way. Their charter was for a Class III uninhabited planet, which Zarathustra was, and it meant they owned the planet lock stock and barrel. They exploited it, developed it and reaped the huge profits from it without interference from the Colonial Government. Then Jack Holloway, a sunstone prospector, appeared on the scene with his family of Fuzzies and the passionate conviction that they were not cute animals but little people. An 1 disc MP3-CD Edition.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 33,
         "audiobook": 27,
         "classics": 35,
         "fantasy": 56,
         "fiction": 102,
         "science fiction": 459,
+        "science fiction (aliens)": 33,
         "science fiction fantasy": 24,
-        "space opera": 14,
+        "space (space opera)": 14,
         "speculative fiction": 12,
         "young adult": 22
     },
@@ -31,15 +31,23 @@
             "stock_id": "567_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "567_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "567_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "567_6"
         }
     ],
     "metrics": {
         "rating_votes": 9015,
         "score": 4.01
     },
-    "pages": 213,
+    "pages": 758,
     "title": "Little Fuzzy",
     "url": "https://www.goodreads.com/book/show/1440148.Little_Fuzzy",
     "year_published": 1962

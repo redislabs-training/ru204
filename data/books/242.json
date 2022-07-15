@@ -1,62 +1,35 @@
 {
-    "author": "Stephen Wallenfels",
-    "base_id": 242,
-    "description": "Surviving a massive alien siege is one thing-surviving humanity is another. I'm all cried out. I'm still alone. The sky is full of giant spinning black balls that kill anyone stupid enough to go outside. I've only been out of the car twice-once to pee and once to look at the sky. That one look was enough for me. Now I sit alone in the car, staring out the window like a rat in a cage. But I don't have anyone to look at. The parking garage is empty, except for twisted-up cars, broken glass, and the smell of leaking gasoline. POD is the story of a global cataclysmic event, told from the viewpoints of Megs, a twelve-year-old streetwise girl trapped in a hotel parking garage in Los Angeles; and sixteen-year-old Josh, who is stuck in a house in Prosser, Washington, with his increasingly obsessive-compulsive father. Food and water and time are running out. Will Megs survive long enough to find her mother? Will Josh and his father survive each other?",
+    "author": "Daniel H. Wilson",
+    "base_id": "242",
+    "description": "Video games are a multi-billion dollar a year industry that has outpaced movies and books combined. The humble, pixelated games of the \u201870s and \u201880s have evolved into the vivid, realistic, and immersive form of entertainment that now rivals all other forms of media for dominance in the consumer marketplace. For many, video games have become the cultural icons around which pop culture revolves.PRESS START TO PLAY is an anthology of stories inspired by video games: stories that attempt to recreate the feel of a video game in prose form; stories that play with the concepts common (or exclusive) to video games; and stories about the creation of video games and/or about the video games\u2014or the gamers\u2014themselves.These stories will appeal to anyone who has interacted with games, from hardcore teenaged fanatics, to men and women who game after their children have gone to bed, to your well-meaning aunt who won\u2019t stop inviting you to join her farm-based Facebook games.At the helm of this project are Daniel H. Wilson\u2014bestselling novelist and expert in artificial intelligence\u2014and John Joseph Adams\u2014bestselling, Hugo Award-nominated editor of more than a dozen science fiction/fantasy anthologies and series editor of Best American Science Fiction & Fantasy (volume one forthcoming from Houghton Mifflin in 2015). Together, they have drawn on their wide-ranging contacts to assemble an incredibly talented group of authors who are eager to attack the topic of video games from startling and fascinating angles.Under the direction of an A.I. specialist and a veteran editor, the anthology will expose readers to a strategically chosen mix of stories that explore novel video game concepts in prose narratives, such as save points, kill screens, gold-farming, respawning, first-person shooters, unlocking achievements, and getting \u201cpwned.\u201d Likewise, each of our authors is an accomplished specialist in areas such as science fiction, fantasy, and techno-thrillers, and many have experience writing for video games professionally.Combining unique viewpoints and exacting realism, this anthology promises to thrill generations of readers, from those who grew up with Atari 2600s to the console and PC gamers of today.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 23,
-        "apocalyptic": 5,
-        "dystopia": 23,
-        "fiction": 25,
-        "horror": 6,
-        "post apocalyptic": 10,
-        "science fiction": 47,
-        "survival": 10,
-        "teen": 5,
-        "young adult": 57
+        "anthologies": 50,
+        "fantasy": 48,
+        "fantasy (urban fantasy)": 26,
+        "fiction": 62,
+        "games (gaming)": 13,
+        "games (video games)": 19,
+        "science fiction": 77,
+        "science fiction fantasy": 9,
+        "short stories": 90,
+        "speculative fiction": 7
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "242_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "242_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "242_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "242_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "242_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "242_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "242_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "242_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1340,
-        "score": 3.52
+        "rating_votes": 1446,
+        "score": 3.63
     },
-    "pages": 749,
-    "title": "Pod",
-    "url": "https://www.goodreads.com/book/show/7670154-pod",
-    "year_published": 2009
+    "pages": 573,
+    "title": "Press Start to Play",
+    "url": "https://www.goodreads.com/book/show/24044140-press-start-to-play",
+    "year_published": 2015
 }

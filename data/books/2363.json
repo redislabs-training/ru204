@@ -1,0 +1,68 @@
+{
+    "author": "Ira Levin",
+    "base_id": "2363",
+    "description": "For Joanna, her husband, Walter, and their children, the move to beautiful Stepford seems almost too good to be true. It is. For behind the town's idyllic facade lies a terrible secret\u2014a secret so shattering that no one who encounters it will ever be the same.At once a masterpiece of psychological suspense and a savage commentary on a media-driven society that values the pursuit of youth and beauty at all costs, The Stepford Wives is a novel so frightening in its final implications that the title itself has earned a place in the American lexicon.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "classics": 367,
+        "feminism": 113,
+        "fiction": 698,
+        "horror": 915,
+        "mystery": 143,
+        "science fiction": 380,
+        "science fiction (dystopia)": 97,
+        "suspense": 66,
+        "thriller": 217,
+        "thriller (mystery thriller)": 59
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2363_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2363_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2363_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2363_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2363_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2363_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2363_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2363_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2363_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 29846,
+        "score": 3.78
+    },
+    "pages": 811,
+    "title": "The Stepford Wives",
+    "url": "https://www.goodreads.com/book/show/52350.The_Stepford_Wives",
+    "year_published": 1972
+}

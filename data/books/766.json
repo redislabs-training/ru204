@@ -1,21 +1,23 @@
 {
-    "author": "Walter Tevis",
-    "base_id": 766,
-    "description": "T.J. Newton is an extraterrestrial who goes to Earth on a desperate mission of mercy. But instead of aid, Newton discovers loneliness and despair that ultimately ends in tragedy.",
+    "author": "Myke Cole",
+    "base_id": "766",
+    "description": "Army Officer. Fugitive. Sorcerer.Across the country and in every nation, people are waking up with magical talents. Untrained and panicked, they summon storms, raise the dead, and set everything they touch ablaze. Army officer Oscar Britton sees the worst of it. A lieutenant attached to the military's Supernatural Operations Corps, his mission is to bring order to a world gone mad. Then he abruptly manifests a rare and prohibited magical power, transforming him overnight from government agent to public enemy number one. The SOC knows how to handle this kind of situation: hunt him down--and take him out. Driven into an underground shadow world, Britton is about to learn that magic has changed all the rules he's ever known, and that his life isn't the only thing he's fighting for.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 26,
-        "americana": 9,
-        "classics": 66,
-        "fantasy": 17,
-        "fiction": 173,
-        "literature": 10,
-        "novels": 18,
-        "science fiction": 443,
-        "science fiction fantasy": 25,
-        "speculative fiction": 16
+        "action": 22,
+        "adult": 13,
+        "fantasy": 435,
+        "fantasy (magic)": 47,
+        "fantasy (paranormal)": 24,
+        "fantasy (urban fantasy)": 273,
+        "fiction": 55,
+        "science fiction": 109,
+        "war": 22,
+        "war (military fiction)": 94
     },
     "inventory": [
         {
@@ -23,11 +25,11 @@
             "stock_id": "766_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "766_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "766_3"
         },
         {
@@ -35,24 +37,28 @@
             "stock_id": "766_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "766_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "766_6"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "766_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "766_8"
         }
     ],
     "metrics": {
-        "rating_votes": 7351,
-        "score": 4.05
+        "rating_votes": 6350,
+        "score": 3.51
     },
-    "pages": 211,
-    "title": "The Man Who Fell to Earth",
-    "url": "https://www.goodreads.com/book/show/396329.The_Man_Who_Fell_to_Earth",
-    "year_published": 1963
+    "pages": 516,
+    "title": "Control Point",
+    "url": "https://www.goodreads.com/book/show/11783484-control-point",
+    "year_published": 2012
 }

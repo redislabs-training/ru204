@@ -1,0 +1,59 @@
+{
+    "author": "Jim Butcher",
+    "base_id": "16729",
+    "description": "HARRY DRESDEN \u2014 WIZARDLost Items Found. Paranormal Investigations. Consulting. Advice. Reasonable Rates. No Love Potions, Endless Purses, or Other Entertainment.Harry Dresden is the best at what he does. Well, technically, he's the only at what he does. So when the Chicago P.D. has a case that transcends mortal creativity or capability, they come to him for answers. For the \"everyday\" world is actually full of strange and magical things\u2014and most don't play well with humans. That's where Harry comes in. Takes a wizard to catch a\u2014well, whatever. There's just one problem. Business, to put it mildly, stinks.So when the police bring him in to consult on a grisly double murder committed with black magic, Harry's seeing dollar signs. But where there's black magic, there's a black mage behind it. And now that mage knows Harry's name. And that's when things start to get interesting.Magic - it can get a guy killed.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 723,
+        "fantasy": 10816,
+        "fantasy (magic)": 983,
+        "fantasy (paranormal)": 1502,
+        "fantasy (supernatural)": 567,
+        "fantasy (urban fantasy)": 5619,
+        "fiction": 2245,
+        "mystery": 2577,
+        "mystery (crime)": 459,
+        "science fiction fantasy": 499
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "16729_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16729_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16729_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16729_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16729_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "16729_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "16729_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 304547,
+        "score": 3.99
+    },
+    "pages": 836,
+    "title": "Storm Front",
+    "url": "https://www.goodreads.com/book/show/47212.Storm_Front",
+    "year_published": 2000
+}

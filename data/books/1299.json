@@ -1,0 +1,62 @@
+{
+    "author": "Ben H. Winters",
+    "base_id": "1299",
+    "description": "There are just 14 days until a deadly asteroid hits the planet, and America has fallen into chaos. Citizens have barricaded themselves inside basements, emergency shelters, and big-box retail stores. Cash is worthless; bottled water is valuable beyond measure. All over the world, everyone is bracing for the end.But Detective Hank Palace still has one last case to solve. His beloved sister Nico was last seen in the company of suspicious radicals, armed with heavy artillery and a plan to save humanity. Hank's search for Nico takes him from Massachusetts to Ohio, from abandoned zoos and fast food restaurants to a deserted police station where he uncovers evidence of a brutal crime. With time running out, Hank follows the clues to a series of earth-shattering revelations.The third novel in the Last Policeman trilogy, World of Trouble presents one final pre-apocalyptic mystery\u2014and Hank Palace confronts questions way beyond whodunit: How far would you go to protect a loved one? And how would you choose to spend your last days on Earth?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 59,
+        "fiction": 218,
+        "mystery": 317,
+        "mystery (crime)": 68,
+        "mystery (detective)": 22,
+        "science fiction": 222,
+        "science fiction (apocalyptic)": 59,
+        "science fiction (dystopia)": 65,
+        "thriller": 37,
+        "thriller (mystery thriller)": 45
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1299_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1299_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1299_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1299_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1299_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1299_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1299_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1299_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9955,
+        "score": 4.04
+    },
+    "pages": 441,
+    "title": "World of Trouble",
+    "url": "https://www.goodreads.com/book/show/18691070-world-of-trouble",
+    "year_published": 2014
+}

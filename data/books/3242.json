@@ -1,0 +1,38 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "3242",
+    "description": "Kingdoms wobble, crowns topple and knives flash on the magical Discworld as the statutory three witches meddle in royal politics. The wyrd sisters battle against frightful odds to put the rightful king on the throne. At least, that's what they think...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 117,
+        "audiobook": 111,
+        "fantasy": 6595,
+        "fantasy (magic)": 176,
+        "fiction": 1216,
+        "humor": 1100,
+        "humor (comedy)": 358,
+        "paranormal (witches)": 200,
+        "science fiction fantasy": 226,
+        "young adult": 116
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3242_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3242_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 97931,
+        "score": 4.12
+    },
+    "pages": 1208,
+    "title": "Wyrd Sisters",
+    "url": "https://www.goodreads.com/book/show/34504.Wyrd_Sisters",
+    "year_published": 1988
+}

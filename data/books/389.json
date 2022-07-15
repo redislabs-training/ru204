@@ -1,0 +1,50 @@
+{
+    "author": "Ryan North",
+    "base_id": "389",
+    "description": "New series, New Avenger! With her unique combination of wit, empathy and squirrel powers, computer science student Doreen Green - aka the unbeatable Squirrel Girl - is all that stands between the Earth and total destruction. Well, Doreen plus her friends Tippy-Toe (a squirrel) and Nancy (a regular human with no powers). So, mainly Squirrel Girl. Then what hope does the Earth have if she gets hurled back in time to the 1960s and erased from history? At least Nancy will never forget her friend, but what invincible armored Avenger can she call on to help, through the magic of social media? Decades apart, can they avert doom, or will everything go wrong forever? Howard the Duck hopes not...he has an appointment for a crossover!Collecting: The Unbeatable Squirrel Girl 1-6, Howard the Duck 6",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "comics (comic book)": 29,
+        "comics (superheroes)": 85,
+        "fiction": 63,
+        "graphic novels comics": 45,
+        "humor": 51,
+        "science fiction (time travel)": 24,
+        "sequential art (comics)": 346,
+        "sequential art (graphic novels)": 282,
+        "superheroes (marvel)": 79,
+        "young adult": 58
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "389_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "389_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "389_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "389_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "389_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3291,
+        "score": 4.19
+    },
+    "pages": 452,
+    "title": "The Unbeatable Squirrel Girl, Vol. 3: Squirrel, You Really Got Me Now",
+    "url": "https://www.goodreads.com/book/show/27163016-the-unbeatable-squirrel-girl-vol-3",
+    "year_published": 2016
+}

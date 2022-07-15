@@ -1,0 +1,64 @@
+{
+    "author": "Lois Lowry",
+    "base_id": "8647",
+    "description": "They called her Water Claire. When she washed up on their shore, no one knew that she came from a society where emotions and colors didn\u2019t exist. That she had become a Vessel at age thirteen. That she had carried a Product at age fourteen. That it had been stolen from her body. Claire had a son. But what became of him she never knew. What was his name? Was he even alive? She was supposed to forget him, but that was impossible. Now Claire will stop at nothing to find her child, even if it means making an unimaginable sacrifice. Son thrusts readers once again into the chilling world of the Newbery Medal winning book, The Giver, as well as Gathering Blue and Messenger where a new hero emerges. In this thrilling series finale, the startling and long-awaited conclusion to Lois Lowry\u2019s epic tale culminates in a final clash between good and evil.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 142,
+        "childrens": 122,
+        "childrens (middle grade)": 215,
+        "classics": 162,
+        "fantasy": 774,
+        "fiction": 969,
+        "science fiction": 530,
+        "science fiction (dystopia)": 1077,
+        "young adult": 1582,
+        "young adult (teen)": 115
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "8647_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8647_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8647_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8647_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "8647_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "8647_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "8647_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "8647_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 84704,
+        "score": 3.98
+    },
+    "pages": 966,
+    "title": "Son",
+    "url": "https://www.goodreads.com/book/show/13324841-son",
+    "year_published": 2012
+}

@@ -1,34 +1,58 @@
 {
-    "author": "Milana Jacks",
-    "base_id": 191,
-    "description": "Omegas belong to the king. But this one belongs to me. Kingsley At the frat party, someone must have spiked my beer, because I see a bright light and find myself sitting on a bed with a huge, green monster looming over me. I screech and throw every sharp object within reach. But you know what\u2019s really weird? I\u2019m terrified and, at the same time, there\u2019s something about those black eyes, that scent, that purrrr that makes my body come alive.Loven I fight for the honor of someday owning an Omega\u2014a rare breeding female reserved for Alphas hand-selected by the king. For years, fighting alone has been enough. Until I scent this alien female, and my body emits a mating call.Omegas are the king\u2019s property. If I don\u2019t deliver her to the Omega Compound, I\u2019ll lose my life, the lives of my Horde Alphas, and risk starting a full-scale rebellion. And yet, I can\u2019t part from her. This one belongs to me.***science fiction alien captive romance with Mf Omegaverse flavor. Inside the pages: No cliffhanger. No cheating. Barbaric unapologetic alpha male who loves HARD. Dystopian (dark totalitarian) world.",
+    "author": "Carrie Ryan",
+    "base_id": "191",
+    "description": "Scholastic's next multi-platform mega-event begins here!Dak, Sera, and Riq might be in over their heads when they attempt to stop a Viking invasion!Hundreds of ships carrying thousands of warriors are laying siege to medieval Paris. The Parisians are holding their own, but the stalemate can only last so long. And that's bad news -- especially since Dak has been captured, forced to work alongside the Vikings while Sera and Riq defend Paris from within. No matter which side wins, the kids lose!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 44,
-        "dystopia": 5,
-        "erotica": 16,
-        "fantasy": 10,
-        "omegaverse": 56,
-        "paranormal": 16,
-        "paranormal romance": 10,
-        "romance": 31,
-        "science fiction": 42,
-        "science fiction romance": 8
+        "adventure": 37,
+        "audiobook": 14,
+        "childrens (middle grade)": 28,
+        "fantasy": 28,
+        "fiction": 22,
+        "historical": 16,
+        "historical (historical fiction)": 32,
+        "science fiction": 46,
+        "science fiction (time travel)": 33,
+        "young adult": 25
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "191_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "191_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "191_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "191_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "191_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "191_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "191_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1928,
-        "score": 3.86
+        "rating_votes": 3159,
+        "score": 3.94
     },
-    "pages": 596,
-    "title": "Alpha Breeds",
-    "url": "https://www.goodreads.com/book/show/42468139-alpha-breeds",
-    "year_published": 2018
+    "pages": 1034,
+    "title": "Divide and Conquer",
+    "url": "https://www.goodreads.com/book/show/13356177-divide-and-conquer",
+    "year_published": 2012
 }

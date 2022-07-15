@@ -1,58 +1,39 @@
 {
-    "author": "Jack McDevitt",
-    "base_id": 528,
-    "description": "Two hundred years ago, humans made a stunning discovery in the far reaches of the solar system: a huge statue of an alien creature, with an inscription that defied all efforts at translation. Now, as faster-than-light drive opens the stars to exploration, humans are finding other relics of the race they call the Monument-Makers - each different, and each heartbreakingly beautiful. But except for a set of footprints on Jupiter's moon Iapetus, there is no trace of the enigmatic race that has left them behind. Then a team of scientists working on a dead world discover an ominous new image of the Monument-Makers. Somehow it all fits with other lost civilizations, and possibly with Earth's own future. And distant past. But Earth itself is on the brink of ecological disaster - there is no time to search for answers. Even to a question that may hold the key to survival for the entire human race...",
+    "author": "James Frey",
+    "base_id": "528",
+    "description": "The sequel to the New York Times bestseller and international multimedia phenomenon, Endgame: The Calling.Endgame is here. Earth Key has been found. Two keys\u2014and nine Players\u2014remain. The keys must be found, and only one Player can win.Queens, New York. Aisling Kopp believes the unthinkable: that Endgame can be stopped. But before she can get home to regroup, she is approached by the CIA. They know about Endgame. And they have their own ideas about how it should be Played. Ideas that could change everything.Kingdom of Aksum, Ethiopia. Hilal ibn Isa al-Salt narrowly survived an attack that leaves him horribly disfigured. He now knows something the other Players do not. But the Aksumites have a secret that is unique to their line. A secret that can help redeem humanity\u2014and maybe even be used to help defeat the beings behind Endgame.London, England. Sarah Alopay has found the first key. She is with Jago\u2014and they are winning.But getting Earth Key has come at a great cost to Sarah. The only thing that keeps the demons at bay is Playing. Playing to win.Sky Key\u2014wherever it is, whatever it is\u2014is next. And the nine remaining Players will stop at nothing to get it.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 21,
-        "audiobook": 9,
-        "fantasy": 14,
-        "fiction": 112,
-        "mystery": 12,
-        "science fiction": 590,
-        "science fiction fantasy": 26,
-        "space": 19,
-        "space opera": 67,
-        "speculative fiction": 9
+        "action": 7,
+        "adventure": 15,
+        "fantasy": 81,
+        "fiction": 17,
+        "mystery": 7,
+        "science fiction": 48,
+        "science fiction (aliens)": 15,
+        "science fiction (dystopia)": 47,
+        "thriller": 8,
+        "young adult": 82
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "528_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "528_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "528_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "528_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "528_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "528_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "528_7"
         }
     ],
     "metrics": {
-        "rating_votes": 8521,
-        "score": 3.84
+        "rating_votes": 5929,
+        "score": 3.98
     },
-    "pages": 737,
-    "title": "The Engines of God",
-    "url": "https://www.goodreads.com/book/show/337048.The_Engines_of_God",
-    "year_published": 1994
+    "pages": 947,
+    "title": "Sky Key",
+    "url": "https://www.goodreads.com/book/show/24465662-sky-key",
+    "year_published": 2015
 }

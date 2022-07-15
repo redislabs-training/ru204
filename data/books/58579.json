@@ -1,0 +1,58 @@
+{
+    "author": "George Orwell",
+    "base_id": "58579",
+    "description": "Librarian's note: There is an Alternate Cover Edition for this edition of this book here.A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned \u2013a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible. When Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell\u2019s masterpiece have a meaning and message still ferociously fresh.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "academic (read for school)": 1025,
+        "academic (school)": 2376,
+        "classics": 32975,
+        "fantasy": 3099,
+        "fiction": 18928,
+        "literature": 2748,
+        "novels": 1714,
+        "politics": 2571,
+        "science fiction": 1966,
+        "science fiction (dystopia)": 3811
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "58579_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "58579_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "58579_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "58579_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "58579_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "58579_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "58579_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2843739,
+        "score": 3.95
+    },
+    "pages": 1280,
+    "title": "Animal Farm",
+    "url": "https://www.goodreads.com/book/show/170448.Animal_Farm",
+    "year_published": 1945
+}

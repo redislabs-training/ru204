@@ -1,44 +1,54 @@
 {
-    "author": "Sadie Carter",
-    "base_id": 37,
-    "description": "Darac Kola has lived for close to a hundred years without finding his true mate. Having grown increasingly volatile, he knows his days are numbered. To protect his friends and family, he leaves Zerconia, knowing he will never return. Then he meets Willa. His mate. The one person who could pull him back from the edge of madness.With five brothers, Willa Sanchez has spent her life trying to be one of the boys. The last thing she needs is an overprotective, bossy alien claiming her as his mate.If he thinks she\u2019s going to give up her independence to play house for him, then he\u2019s got the wrong girl.No cliffhanger. You don't need to have read the rest of the series to enjoy Alien Savior.",
+    "author": "Daniel H. Wilson",
+    "base_id": "37",
+    "description": "It goes without saying that robots kill. They hunt, swarm, and fire lasers from their eyes. They even beat humans at chess. So who better to stand with us when the real villains arrive?  Movies instruct us that, whether we like it or not, we will one day be under siege by pirates, ninjas, zombies, aliens, and Godzilla. Also great white sharks. And-let's face it-we're not prepared. But with the advice contained in this brilliantly illustrated, ingenious book, you can build your own robot army to fend off hordes of bloodthirsty foes. From common-sense injunctions (\"never approach an unfamiliar robot in a militarized zone\") to tactical pointers (\"low-power radar beats cameras for detecting mummies in a fog-shrouded crypt\") to engineering advice (\"passive-dynamic exoskeleton suits will increase sprint speeds but not leg strength\"), this book contains all the wisdom you'll need to fend off the coming apocalypse. Witty, informative, and utterly original, How to Build a Robot Army is the ideal book for readers of any age.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "erotic romance": 2,
-        "erotica": 3,
-        "fantasy": 3,
-        "paranormal romance": 2,
-        "romance": 5,
-        "science fiction": 13,
-        "science fiction romance": 3
+        "adventure (survival)": 2,
+        "fiction": 8,
+        "horror (zombies)": 4,
+        "humor": 11,
+        "humor (comedy)": 2,
+        "science fiction": 9,
+        "science fiction (robots)": 2,
+        "self help": 2
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "37_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "37_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "37_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "37_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "37_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "37_6"
         }
     ],
     "metrics": {
-        "rating_votes": 679,
-        "score": 4.1
+        "rating_votes": 276,
+        "score": 3.65
     },
-    "pages": 468,
-    "title": "Alien Savior",
-    "url": "https://www.goodreads.com/book/show/30289235-alien-savior",
-    "year_published": 2016
+    "pages": 1103,
+    "title": "How to Build a Robot Army: Tips on Defending Planet Earth Against Alien Invaders, Ninjas, and Zombies",
+    "url": "https://www.goodreads.com/book/show/1748095.How_to_Build_a_Robot_Army",
+    "year_published": 2007
 }

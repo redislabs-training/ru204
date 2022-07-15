@@ -1,29 +1,31 @@
 {
-    "author": "Sara Page",
-    "base_id": 161,
-    "description": "I went into space looking for my sister... what I found is an alien claiming I'm his.Five years ago, Earth made contact with the Twenty-Three Tribunal, a government of twenty-three superior alien races that rule over the known universe. Deemed too primitive to protect ourselves, the Tribunal slapped a 'Protected' status on Earth, declaring us off-limits to the more advanced races that would exploit or enslave us.Someone has been violating the status.Last year, like so many others before her, my sister Isla disappeared without a trace. And with the Tribunal unwilling or simply unable to help us, I'll do anything, even something really crazy, to get her back.With the help of my best friend and an alien smuggler I've captured, I've got a crazy plan. A plan that involves a neurotransmitter, a one-way ticket off of Earth, and a very powerful drug that will help me infiltrate an illegal alien slave market.I expect to be used, abused, and violated in my quest to gather evidence.What I don't expect is to be captured and claimed by a huge silver alien ... \nThis is a standalone book with a HEA.\n",
+    "author": "Ann VanderMeer",
+    "base_id": "161",
+    "description": "The Time Traveler's Almanac is the largest and most \u00a0definitive\u00a0 collection of time travel stories ever assembled. Gathered into one volume by intrepid chrononauts and world-renowned anthologists Ann and Jeff VanderMeer,\u00a0this book compiles\u00a0more than\u00a0a century's worth of literary travels into the past and the future that will serve to reacquaint readers with beloved classics of the time travel genre\u00a0and introduce them to thrilling contemporary innovations.This marvelous volume includes\u00a0nearly seventy\u00a0journeys\u00a0through time from authors\u00a0such as Douglas Adams, Isaac Asimov, Ray Bradbury, William Gibson, Ursula K. Le Guin, George R. R. Martin, Michael Moorcock, H. G. Wells, and\u00a0Connie Willis, as well as\u00a0helpful non-fiction articles original to this volume\u00a0(such as\u00a0Charles Yu's \"Top\u00a0Ten\u00a0Tips For Time Travelers\").In fact,\u00a0this book is like\u00a0a\u00a0time machine of its very own, covering\u00a0millions of years of Earth's history\u00a0from the age of the dinosaurs\u00a0through to strange and fascinating futures,\u00a0spanning the\u00a0ages from the beginning of time to its very end. The Time Traveler's Almanac\u00a0is the ultimate\u00a0anthology for the\u00a0time traveler\u00a0in your life.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 3,
-        "aliens": 30,
-        "erotica": 6,
-        "fantasy": 7,
-        "paranormal": 4,
-        "paranormal romance": 6,
-        "romance": 29,
-        "science fiction": 28,
-        "science fiction romance": 9,
-        "space": 2
+        "adult": 6,
+        "adventure": 9,
+        "anthologies": 32,
+        "fantasy": 41,
+        "fiction": 70,
+        "science fiction": 139,
+        "science fiction (time travel)": 131,
+        "science fiction fantasy": 8,
+        "short stories": 114,
+        "speculative fiction": 9
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "161_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "161_2"
         },
         {
@@ -39,28 +41,20 @@
             "stock_id": "161_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "161_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "161_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "161_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "161_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1224,
-        "score": 4.11
+        "rating_votes": 992,
+        "score": 3.86
     },
-    "pages": 830,
-    "title": "Craving Maul",
-    "url": "https://www.goodreads.com/book/show/36255951-craving-maul",
-    "year_published": 2017
+    "pages": 1370,
+    "title": "The Time Traveler's Almanac",
+    "url": "https://www.goodreads.com/book/show/17910155-the-time-traveler-s-almanac",
+    "year_published": 2013
 }

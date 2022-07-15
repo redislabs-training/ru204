@@ -1,21 +1,21 @@
 {
-    "author": "Cadwell Turnbull",
-    "base_id": 336,
-    "description": "THE LESSON explores the nature of belief, the impact of colonialism, and asks how far are we willing to go for progress? Breaking ground as one of the first science fiction novels set in the Virgin Islands, THE LESSON is not only a thought-provoking literary work, delving deeply into allegorical themes of colonialism, but also vividly draws the community of Charlotte Amalie, wherefrom the author hails.An alien ship rests over Water Island. For five years the people of the U.S. Virgin Islands have lived with the Ynaa, a race of super-advanced aliens on a research mission they will not fully disclose. They are benevolent in many ways but meet any act of aggression with disproportional wrath. This has led to a strained relationship between the Ynaa and the local Virgin Islanders and a peace that cannot last. A year after the death of a young boy at the hands of an Ynaa, three families find themselves at the center of the inevitable conflict, witness and victim to events that will touch everyone and teach a terrible lesson.",
+    "author": "H.G. Wells",
+    "base_id": "336",
+    "description": "Graham, an 1890s radical pamphleteer who is eagerly awaiting the twentieth century and all the advances it will bring, is stricken with insomnia. Finally resorting to medication, he instantly falls into a deep sleep that lasts two hundred years. Upon waking in the twenty-second century to a strange and nightmarish place, he slowly discovers he is master of the world, revered by an adoring populace who consider him their leader. Terrified, he escapes from his chamber seeking solace\u2014only to realize that not everyone adores him, some even wish to harm him.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Literary Fiction": 8,
-        "adult": 15,
-        "adult fiction": 7,
-        "aliens": 21,
-        "audiobook": 11,
-        "fantasy": 6,
-        "fiction": 58,
-        "science fiction": 150,
-        "science fiction fantasy": 9,
-        "speculative fiction": 13
+        "audiobook": 7,
+        "classics": 116,
+        "fantasy": 15,
+        "fiction": 131,
+        "literature (19th century)": 18,
+        "novels": 11,
+        "science fiction": 232,
+        "science fiction (dystopia)": 73,
+        "science fiction (time travel)": 19,
+        "science fiction fantasy": 8
     },
     "inventory": [
         {
@@ -31,28 +31,36 @@
             "stock_id": "336_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "336_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "336_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "336_6"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "336_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "336_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "336_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1687,
-        "score": 3.6
+        "rating_votes": 3938,
+        "score": 3.41
     },
-    "pages": 645,
-    "title": "The Lesson",
-    "url": "https://www.goodreads.com/book/show/41459037-the-lesson",
-    "year_published": 2019
+    "pages": 1120,
+    "title": "When the Sleeper Wakes",
+    "url": "https://www.goodreads.com/book/show/80939.When_the_Sleeper_Wakes",
+    "year_published": 1899
 }

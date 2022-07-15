@@ -1,0 +1,66 @@
+{
+    "author": "Cormac McCarthy",
+    "base_id": "46494",
+    "description": "A searing, postapocalyptic novel destined to become Cormac McCarthy\u2019s masterpiece.A father and his son walk alone through burned America. Nothing moves in the ravaged landscape save the ash on the wind. It is cold enough to crack stones, and when the snow falls it is gray. The sky is dark. Their destination is the coast, although they don\u2019t know what, if anything, awaits them there. They have nothing; just a pistol to defend themselves against the lawless bands that stalk the road, the clothes they are wearing, a cart of scavenged food\u2014and each other.The Road is the profoundly moving story of a journey. It boldly imagines a future in which no hope remains, but in which the father and his son, \u201ceach the other\u2019s world entire,\u201d are sustained by love. Awesome in the totality of its vision, it is an unflinching meditation on the worst and the best that we are capable of: ultimate destructiveness, desperate tenacity, and the tenderness that keeps two people alive in the face of total devastation.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 1996,
+        "classics": 1297,
+        "contemporary": 562,
+        "fiction": 10320,
+        "horror": 1320,
+        "literature": 851,
+        "novels": 778,
+        "science fiction": 2804,
+        "science fiction (apocalyptic)": 593,
+        "science fiction (dystopia)": 2324
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "46494_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "46494_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "46494_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "46494_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 735166,
+        "score": 3.97
+    },
+    "pages": 1369,
+    "title": "The Road",
+    "url": "https://www.goodreads.com/book/show/6288.The_Road",
+    "year_published": 2006
+}

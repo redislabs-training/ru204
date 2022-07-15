@@ -1,66 +1,38 @@
 {
-    "author": "Jaymin Eve",
-    "base_id": 225,
-    "description": "Maya has never had much to complain about. Sure, her parents are absent a lot, having important jobs in the government, but at the end of the day she has all the material possessions a girl could want. Not to mention a great best friend, and secure spot in the popular group at her school. Yet she can never shake the feeling of displacement. Constantly searching for something that\u2019s missing from her life. Turns out Maya is part of something much bigger than her human existence, and after a mysterious stranger saves her from an ambush at a party, he brings her into his world. And turns her world completely upside down.",
+    "author": "Catherine Austen",
+    "base_id": "225",
+    "description": "It's the middle of the twenty-first century and the elite children of New Middletown are lined up to receive a treatment that turns them into obedient, well-mannered citizens. Maxwell Connors, a fifteen-year-old prankster, misfit and graffiti artist, observes the changes with growing concern, especially when his younger sister, Ally, is targeted. Max and his best friend, Dallas, escape the treatment, but must pretend to be \"zombies\" while they watch their freedoms and hopes decay. When Max's family decides to take Dallas with them into the unknown world beyond New Middletown's borders, Max's creativity becomes an unexpected bonus rather than a liability. ",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "fantasy": 31,
-        "high school": 6,
-        "magic": 8,
-        "paranormal": 28,
-        "paranormal romance": 6,
-        "romance": 19,
-        "supernatural": 5,
-        "urban fantasy": 7,
-        "young adult": 20
+        "cultural": 3,
+        "cultural (canada)": 6,
+        "family": 5,
+        "fiction": 18,
+        "health (medicine)": 4,
+        "science fiction": 36,
+        "science fiction (dystopia)": 63,
+        "young adult": 75,
+        "young adult (coming of age)": 4,
+        "young adult (teen)": 13
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "225_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "225_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "225_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "225_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "225_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "225_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "225_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "225_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "225_9"
         }
     ],
     "metrics": {
-        "rating_votes": 3307,
-        "score": 4.31
+        "rating_votes": 1446,
+        "score": 3.7
     },
-    "pages": 1350,
-    "title": "House of Leights",
-    "url": "https://www.goodreads.com/book/show/40241655-house-of-leights",
-    "year_published": 2018
+    "pages": 1288,
+    "title": "All Good Children",
+    "url": "https://www.goodreads.com/book/show/11872039-all-good-children",
+    "year_published": 2011
 }

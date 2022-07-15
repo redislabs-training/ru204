@@ -1,54 +1,63 @@
 {
-    "author": "Alan Dean Foster",
-    "base_id": 168,
-    "description": "Ridley Scott returns to the universe he created, with Alien: Covenant, a new chapter in his groundbreaking Alien adventure. The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise. But it is actually a dark, dangerous world.When they uncover a threat beyond their imaginations, they must attempt a harrowing escape.Acclaimed author Alan Dean Foster also returns to the universe he first encountered with the official novelization of the original Alien film. Alien: Covenant is the pivotal adventure that preceded that seminal film, and leads to the events that will yield one of the most terrifying sagas of all time.",
+    "author": "Ian McDonald",
+    "base_id": "168",
+    "description": "It all began thirty years ago on Mars, with a greenperson. But by the time it all finished, the town of Desolation Road had experienced every conceivable abnormality from Adam Black's Wonderful Travelling Chautauqua and Educational 'Stravaganza (complete with its very own captive angel) to the Astounding Tatterdemalion Air Bazaar. Its inhabitants ranged from Dr. Alimantando, the town's founder and resident genius, to the Babooshka, a barren grandmother who just wants her own child-grown in a fruit jar; from Rajendra Das, mechanical hobo who has a mystical way with machines to the Gallacelli brothers, identical triplets who fell in love with-and married-the same woman.Ian McDonald is the author of many science fiction novels, including King of the Morning, Queen of the Day, Out on Deep Six, Changa, Kirinya, River of Gods, Brasyl, and Cyberabad Days. He has won the Philip K. Dick Award and the BSFA Award, been nominated for a Hugo Award, and has several nominations for the Arthur C. Clarke Award. He lives in Belfast, Northern Ireland. Visit Ian McDonald online at ianmcdonald.livejournal.com.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Culture (Film) ": 3,
-        "aliens": 17,
-        "audiobook": 11,
-        "fantasy": 3,
-        "fiction": 15,
-        "horror": 58,
-        "media tie-in": 3,
-        "science fiction": 44,
-        "science fiction fantasy": 3,
-        "space": 4
+        "audiobook": 2,
+        "fantasy": 19,
+        "fiction": 20,
+        "magical realism": 3,
+        "novels": 4,
+        "science fiction": 145,
+        "science fiction (steampunk)": 4,
+        "science fiction (time travel)": 3,
+        "science fiction fantasy": 13,
+        "speculative fiction": 8
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "168_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "168_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "168_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "168_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "168_5"
         },
         {
             "status": "on_loan",
             "stock_id": "168_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "168_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "168_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1289,
-        "score": 3.79
+        "rating_votes": 1319,
+        "score": 3.82
     },
-    "pages": 864,
-    "title": "Alien: Covenant",
-    "url": "https://www.goodreads.com/book/show/33541226-alien",
-    "year_published": 2017
+    "pages": 518,
+    "title": "Desolation Road",
+    "url": "https://www.goodreads.com/book/show/278284.Desolation_Road",
+    "year_published": 1988
 }

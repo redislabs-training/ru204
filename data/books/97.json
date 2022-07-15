@@ -1,58 +1,44 @@
 {
-    "author": "Michele Mills",
-    "base_id": 97,
-    "description": "Hannah\u2019s having a bad day. Her friends have ditched her, and she\u2019s stuck going on a tour of Hearst Castle. And she ends up seated next to a muscle-bound, dangerous-looking man dressed all in black, with pearly-white skin and silver eyes.Heriot is an assassin known for his one hundred percent kill rate\u2026and his grim disposition. He\u2019s all work and no fun, according to his brother and partner, Jadzion. And he\u2019s all business as he tracks down his latest target on some filthy backwater planet called Earth. He\u2019s got two diurnal cycles to take out his target, so there\u2019s not a lot of time for shenanigans.He didn\u2019t expect to find his true mate during the middle of this hit. He didn\u2019t expect her to be a stunning human female who could gentle his stern demands. And he didn\u2019t expect to be reduced to a raging, rutting beast on this mission. Can he convince his innocent mate to return with him to his home planet before his time is up, or will he be forced to steal her? ",
+    "author": "Tom    Taylor",
+    "base_id": "97",
+    "description": "Two of the most popular crime-fighting teams of all time collide for the first time when the Justice League faces the Power Rangers!Something terrible has happened in Angel Grove! When the Command Center is breached and the teleporters are damaged, Zack is flung into another universe, where he's mistaken for a villain by a mysterious masked vigilante. Can the other Power Rangers get to their friend in time to save him from Batman? Co-published with BOOM! Studios and written by INJUSTICE: GODS AMONG US best-selling author Tom Taylor, this book is the crossover event of the year!",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
+        "comics (comic book)": 7,
+        "comics (superheroes)": 9,
+        "dc comics (batman)": 3,
         "fantasy": 3,
-        "futuristic": 2,
-        "humor": 2,
-        "novella": 6,
-        "paranormal": 6,
-        "paranormal romance": 2,
-        "romance": 18,
-        "science fiction": 22,
-        "science fiction romance": 6
+        "fiction": 4,
+        "graphic novels comics": 3,
+        "science fiction": 4,
+        "sequential art (comics)": 48,
+        "sequential art (graphic novels)": 35,
+        "superheroes (dc comics)": 16
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "97_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "97_2"
         },
         {
-            "status": "available",
-            "stock_id": "97_3"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "97_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "97_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "97_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "97_7"
+            "stock_id": "97_3"
         }
     ],
     "metrics": {
-        "rating_votes": 937,
-        "score": 3.71
+        "rating_votes": 487,
+        "score": 3.83
     },
-    "pages": 468,
-    "title": "The Alien Assassin's Stolen Bride",
-    "url": "https://www.goodreads.com/book/show/40954221-the-alien-assassin-s-stolen-bride",
-    "year_published": 2018
+    "pages": 1262,
+    "title": "Justice League/Power Rangers",
+    "url": "https://www.goodreads.com/book/show/33252336-justice-league-power-rangers",
+    "year_published": 2017
 }

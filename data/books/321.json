@@ -1,25 +1,26 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 321,
-    "description": "Though still carrying the scars of his past as an intergalactic soldier, Emvor doesn\u2019t mind the quiet of his chosen life as a farmer. He doesn\u2019t even mind that most nights are lonely on remote Cassa, but he does need help around his farm. A mail-order bride from his homeworld seems like the perfect solution. She\u2019ll be a tall, sturdy female to help with the chores and bear his children.Unfortunately, the person that arrives is Nicola. She\u2019s small, delicate\u2026 and human. She also knows nothing about farming, and she's lied and deceived her way across the galaxy to get to Cassa so she can hide from those that would capture her. She's a problem, and also the most enticing thing he's ever seen.Now Emvor has to decide\u2026 can he keep the woman who\u2019s nothing like what he asked for but is everything he needs?",
+    "author": "Amber Kizer",
+    "base_id": "321",
+    "description": "\u201cGripping and poignant, A Matter of Days takes readers on a heart-stopping journey of love and survival.\u201c \u2014 New York Times bestselling author Carrie Jones \u00a0 Their new reality begins in just a matter of days.  \u00a0 On Day 56 of the Blustar Pandemic, sixteen-year-old Nadia\u2019s mother dies, leaving Nadia to fend for herself and her younger brother, Rabbit. Both have been immunized against the virus, but they can\u2019t be protected from what comes next. Their father taught them to \u201cbe the cockroach\u201d\u2014to adapt to and survive whatever comes their way. And that\u2019s their mission. \u00a0 Facing a lawless world of destruction and deprivation, Nadia and Rabbit drive from Seattle to their grandfather\u2019s compound in West Virginia. The illness, fatigue, and hunger they endure along the way will all be worth it once they reach the compound.  \u00a0 Unless no one is waiting for them . . . \u00a0 \u201cFans of Rick Yancey\u2019s The 5th Wave, S. D. Crockett\u2019s After the Snow, or Cormac McCarthy\u2019s adult novel The Road will find this a satisfying read.\u201d \u2014SLJ \u00a0 \u201cAn exciting apocalyptic road trip.\u201d \u2014Publishers WeeklyFrom the Trade Paperback edition.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 75,
-        "erotica": 10,
-        "fantasy": 20,
-        "novella": 41,
-        "paranormal": 17,
-        "paranormal romance": 23,
-        "romance": 88,
-        "science fiction": 75,
-        "science fiction romance": 26,
-        "short stories": 10
+        "adventure": 13,
+        "adventure (survival)": 29,
+        "apocalyptic (post apocalyptic)": 47,
+        "audiobook": 14,
+        "fiction": 27,
+        "science fiction": 35,
+        "science fiction (apocalyptic)": 16,
+        "science fiction (dystopia)": 75,
+        "young adult": 107,
+        "young adult (teen)": 15
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "321_1"
         },
         {
@@ -28,11 +29,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 3422,
-        "score": 3.9
+        "rating_votes": 2194,
+        "score": 3.85
     },
-    "pages": 866,
-    "title": "The Alien's Mail-Order Bride",
-    "url": "https://www.goodreads.com/book/show/36512375-the-alien-s-mail-order-bride",
-    "year_published": 2017
+    "pages": 939,
+    "title": "A Matter of Days",
+    "url": "https://www.goodreads.com/book/show/15927598-a-matter-of-days",
+    "year_published": 2013
 }

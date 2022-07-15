@@ -1,46 +1,66 @@
 {
-    "author": "Theresa Kay",
-    "base_id": 319,
-    "description": "A reclusive human girl. A disillusioned alien boy. They were never meant to meet\u2026When Jax Mitchell\u2019s twin is kidnapped by Earth's alien settlers, the E'rikon, she'll do anything to get him back\u2014even form an alliance with a teenage E'rikon left behind by the same ship that took her brother.Jax agrees to act as a guide, and in return, the alien agrees to sneak her past the human-proof barrier surrounding the E'rikon city. Too bad it's not that simple. Jax soon finds that she's drawn to the alien boy with bright green hair and jewel-like scales on his back\u2014and he's equally affected by her, the courageous redhead with haunted eyes. But she doesn't know the alien's true motives, and he has no idea that she is much more than she seems.With the aliens and the humans at odds, the connection forming between the two teens has consequences. What started off as a rescue mission sets in motion a chain of events that threatens not only the remaining humans and the growing alien society, but Earth itself.",
+    "author": "Dan Wells",
+    "base_id": "319",
+    "description": "Two decades before the events of Partials, the world was locked in a different battle for survival: a global war for the last remaining oil reserves on the planet. It was for the Isolation War that the American government contracted the ParaGen Corporation to manufacture the Partials\u2014our last hope in reclaiming energy independence from China. And it was on these fields of battle that the seeds of humanity's eventual destruction were sown.Isolation takes us back to the front lines of this war, a time when mankind's ambition far outstripped its foresight. Heron, a newly trained Partial soldier who specializes in infiltration, is sent on a mission deep behind enemy lines. What she discovers there has far-reaching implications\u2014not only for the Isolation War, but for Partials and humans alike long after this war is over.A powerful take of our world on the brink, Isolation gives readers a glimpse into the history from which Partials was born\u2014as well as clues to where the Partials Sequence is heading next.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 5,
-        "aliens": 74,
-        "dystopia": 51,
-        "fantasy": 35,
-        "fiction": 6,
-        "paranormal": 24,
-        "paranormal romance": 5,
-        "romance": 45,
-        "science fiction": 78,
-        "young adult": 88
+        "apocalyptic (post apocalyptic)": 42,
+        "fantasy": 21,
+        "fiction": 27,
+        "novella": 42,
+        "science fiction": 92,
+        "science fiction (apocalyptic)": 13,
+        "science fiction (dystopia)": 107,
+        "short stories": 56,
+        "young adult": 143,
+        "young adult (teen)": 9
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "319_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "319_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "319_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "319_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "319_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "319_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "319_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "319_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "319_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1542,
-        "score": 4.04
+        "rating_votes": 3757,
+        "score": 3.93
     },
-    "pages": 744,
-    "title": "Broken Skies",
-    "url": "https://www.goodreads.com/book/show/43479909-broken-skies",
-    "year_published": 2014
+    "pages": 638,
+    "title": "Isolation",
+    "url": "https://www.goodreads.com/book/show/13645264-isolation",
+    "year_published": 2012
 }

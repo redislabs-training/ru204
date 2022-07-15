@@ -1,0 +1,54 @@
+{
+    "author": "D.J. MacHale",
+    "base_id": "377",
+    "description": "When Bobby Pendragon first arrives on the tropical world of Ibara, he finds paradise. There is beauty all around and the people of Ibara are blissfully happy. It's not long before Bobby discovers, however, that they are also blissfully...oblivious.The leaders of Ibara are keeping a devastating secret from their people, one that gives Saint Dane all the opportunity he needs to launch his final assault on Halla.While Bobby struggles to learn the truth in time to thwart Saint Dane, Courtney Chetwynde desperately searches for Mark Diamond. On the heels of a shocking tragedy, Mark has disappeared. Worse, he seems to be under Saint Dane's influence. It's up to Courtney to find Mark and stop him from making a grave mistake that could change the future of all existence.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 54,
+        "childrens": 32,
+        "childrens (middle grade)": 19,
+        "fantasy": 437,
+        "fiction": 86,
+        "science fiction": 84,
+        "science fiction (time travel)": 16,
+        "young adult": 224,
+        "young adult (teen)": 23,
+        "young adult (young adult fantasy)": 18
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "377_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "377_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "377_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "377_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "377_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "377_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24144,
+        "score": 4.15
+    },
+    "pages": 1157,
+    "title": "The Pilgrims of Rayne",
+    "url": "https://www.goodreads.com/book/show/215539.The_Pilgrims_of_Rayne",
+    "year_published": 2007
+}

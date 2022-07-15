@@ -1,19 +1,23 @@
 {
-    "author": "SusanHayes",
-    "base_id": 151,
-    "description": "When it comes to love, sometimes the best bet is to double down. Kit and Luke Armas are cyborgs created for one purpose, battle. Now that the war is over, they must fight to carve out a place for themselves in a universe they were intended to die for but never be a part of. Cargo pilot Zura Watson came to the edge of civilized space to start over. The Drift is a haven for the hunted, the lost, and those seeking second chances. It was also the last place in the cosmos Zura expected to find love. When the shadows of the past threaten to eclipse this trio\u2019s future, they\u2019ll have to fight for their chance at love and the life they\u2019ve always dreamed of.",
+    "author": "Wesley Chu",
+    "base_id": "151",
+    "description": "Having been haunted by the past and enslaved by the present, James Griffin-Mars is taking control of the future.Earth is a toxic, sparsely inhabited wasteland\u00ad\u00adthe perfect hiding place for a fugitive ex\u00adchronman to hide from the authorities.James has allies, scientists he rescued from previous centuries: Elise Kim, who believes she can renew Earth, given time; Grace Priestly, the venerated inventor of time travel herself; Levin, James's mentor and former pursuer, now disgraced; and the Elfreth, a population of downtrodden humans who want desperately to believe that James and his friends will heal their ailing home world.James also has enemies. They include the full military might of benighted solar system ruled by corporate greed and a desperate fear of what James will do next. At the forefront of their efforts to stop him is Kuo, the ruthless security head, who wants James's head on a pike and will stop at nothing to obtain it.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 23,
-        "erotica": 23,
-        "fantasy": 14,
-        "paranormal": 9,
-        "polyamorous": 5,
-        "romance": 47,
-        "science fiction": 42,
-        "science fiction romance": 10
+        "adventure": 4,
+        "audiobook": 5,
+        "fantasy": 6,
+        "fiction": 27,
+        "science fiction": 79,
+        "science fiction (dystopia)": 14,
+        "science fiction (time travel)": 42,
+        "space": 4,
+        "space (space opera)": 3,
+        "speculative fiction": 4
     },
     "inventory": [
         {
@@ -21,7 +25,7 @@
             "stock_id": "151_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "151_2"
         },
         {
@@ -29,7 +33,7 @@
             "stock_id": "151_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "151_4"
         },
         {
@@ -37,28 +41,28 @@
             "stock_id": "151_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "151_6"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "151_7"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "151_8"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "151_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1290,
-        "score": 3.75
+        "rating_votes": 1374,
+        "score": 3.89
     },
-    "pages": 356,
-    "title": "Double Down",
-    "url": "https://www.goodreads.com/book/show/30399251-double-down",
+    "pages": 694,
+    "title": "Time Siege",
+    "url": "https://www.goodreads.com/book/show/26028483-time-siege",
     "year_published": 2016
 }

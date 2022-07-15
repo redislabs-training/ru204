@@ -1,0 +1,59 @@
+{
+    "author": "Arthur C. Clarke",
+    "base_id": "338",
+    "description": "When a brilliant, driven industrialist harnesses the cutting edge of quantum physics to enable people everywhere, at trivial cost, to see one another at all times: around every corner, through every wall, into everyone's most private, hidden, and even intimate moments. It amounts to the sudden and complete abolition of human privacy--forever. Then, as society reels, the same technology proves able to look backwards in time as well. What happens next is a story only Arthur C. Clarke and Stephen Baxter could tell. The Light of Other Days is a novel that will change your view of what it is to be human.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 8,
+        "fantasy": 4,
+        "fiction": 112,
+        "novels": 6,
+        "science fiction": 361,
+        "science fiction (dystopia)": 4,
+        "science fiction (hard science fiction)": 6,
+        "science fiction (time travel)": 33,
+        "science fiction fantasy": 11,
+        "speculative fiction": 11
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "338_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "338_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "338_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "338_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "338_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "338_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "338_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 6522,
+        "score": 3.99
+    },
+    "pages": 1280,
+    "title": "The Light of Other Days",
+    "url": "https://www.goodreads.com/book/show/823062.The_Light_of_Other_Days",
+    "year_published": 2000
+}

@@ -1,0 +1,46 @@
+{
+    "author": "P.D. James",
+    "base_id": "3138",
+    "description": "Told with P. D. James's trademark suspense, insightful characterization, and riveting storytelling, The Children of Men is a story of a world with no children and no future. The human race has become infertile, and the last generation to be born is now adult. Civilization itself is crumbling as suicide and despair become commonplace. Oxford historian Theodore Faron, apathetic toward a future without a future, spends most of his time reminiscing. Then he is approached by Julian, a bright, attractive woman who wants him to help get her an audience with his cousin, the powerful Warden of England. She and her band of unlikely revolutionaries may just awaken his desire to live . . . and they may also hold the key to survival for the human race.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 196,
+        "fantasy": 89,
+        "fiction": 1078,
+        "mystery": 109,
+        "novels": 73,
+        "science fiction": 898,
+        "science fiction (dystopia)": 625,
+        "science fiction fantasy": 78,
+        "speculative fiction": 81,
+        "thriller": 102
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3138_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3138_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3138_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3138_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 40754,
+        "score": 3.68
+    },
+    "pages": 493,
+    "title": "The Children of Men",
+    "url": "https://www.goodreads.com/book/show/41913.The_Children_of_Men",
+    "year_published": 1992
+}

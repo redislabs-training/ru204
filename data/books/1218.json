@@ -1,0 +1,68 @@
+{
+    "author": "Peter F. Hamilton",
+    "base_id": "1218",
+    "description": "A century from now, thanks to a technology allowing instantaneous travel across light-years, humanity has solved its energy shortages, cleaned up the environment, and created far-flung colony worlds. The keys to this empire belong to the powerful North family - composed of successive generations of clones. Yet these clones are not identical. For one thing, genetic errors have crept in with each generation. For another, the original three clone \"brothers\" have gone their separate ways, and the branches of the family are now friendly rivals more than allies. Or maybe not so friendly. At least that's what the murder of a North clone in the English city of Newcastle suggests to Detective Sidney Hurst. Sid is a solid investigator who'd like nothing better than to hand off this hot potato of a case. The way he figures it, whether he solves the crime or not, he'll make enough enemies to ruin his career. Yet Sid's case is about to take an unexpected turn: Because the circumstances of the murder bear an uncanny resemblance to a killing that took place years ago on the planet St. Libra, where a North clone and his entire household were slaughtered in cold blood.The convicted slayer, Angela Tramelo, has always claimed her innocence. And now it seems she may have been right. Because only the St. Libra killer could have committed the Newcastle crime. Problem is, Angela also claims that the murderer was an alien monster. Now Sid must navigate through a Byzantine minefield of competing interests within the police department and the world's political and economic elite...all the while hunting down a brutal killer poised to strike again. And on St. Libra, Angela, newly released from prison, joins a mission to hunt down the elusive alien, only to learn that the line between hunter and hunted is a thin one.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 14,
+        "audiobook": 28,
+        "fantasy": 19,
+        "fiction": 114,
+        "mystery": 92,
+        "mystery (crime)": 32,
+        "science fiction": 684,
+        "science fiction fantasy": 24,
+        "space (space opera)": 74,
+        "thriller": 21
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1218_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1218_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1218_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1218_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1218_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1218_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1218_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1218_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1218_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15464,
+        "score": 4.06
+    },
+    "pages": 1298,
+    "title": "Great North Road",
+    "url": "https://www.goodreads.com/book/show/13573419-great-north-road",
+    "year_published": 2012
+}

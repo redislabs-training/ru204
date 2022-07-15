@@ -1,21 +1,22 @@
 {
-    "author": "David Weber",
-    "base_id": 337,
-    "description": "Stephanie Harrington always expected to be a forest ranger on her homeworld of Meyerdahl . . . until her parents relocated to the frontier planet of Sphinx in the far distant Star Kingdom of Manticore. It should have been the perfect new home --- a virgin wilderness full of new species of every sort, just waiting to be discovered. But Sphinx is a far more dangerous place than ultra-civilized Meyerdahl, and Stephanie\u2019s explorations come to a sudden halt when her parents lay down the law: no trips into the bush without adult supervision!Yet Stephanie is a young woman determined to make discoveries, and the biggest one of all awaits her: an intelligent alien species.The forest-dwelling treecats are small, cute, smart, and have a pronounced taste for celery. And they are also very, very deadly when they or their friends are threatened . . . as Stephanie discovers when she comes face-to-face with Sphinx's most lethal predator after a hang-gliding accident.But her discoveries are only beginning, for the treecats are also telepathic and able to bond with certain humans, and Stephanie\u2019s find --- and her first-of-its kind bond with the treecat Climbs Quickly --- land both of them in a fresh torrent of danger. Galactic-sized wealth is at stake, and Stephanie and the treecats are squarely in the path of highly-placed enemies determined to make sure the planet Sphinx remains entirely in human hands, even if that means the extermination of another thinking species.Unfortunately for those enemies, the treecats have saved Stephanie Harrington\u2019s life. She owes them . . . and Stephanie is a young woman who stands by her friends.Which means things are about to get very interesting on Sphinx.",
+    "author": "Paul Cornell",
+    "base_id": "337",
+    "description": "Summer in London: a city in turmoil. The vicious murder of a well-known MP is like a match to tinder but Detective Inspector James Quill and his team know that it's not a run-of-the-mill homicide. Still coming to terms with their new-found second sight, they soon discover that what is invisible to others - the killer - is visible to them. Even if they have no idea who it is.Then there are more deaths. The bodies of rich, white men are found in circumstances similar to those that set the streets of London awash with fear during the late 1800s: the Whitechapel murders. Even with their abilities to see the supernatural, accepting that Jack the Ripper is back from the dead is a tough ask for Quill's team. As they try to get to grips with their abilities and a case that's spiralling out of control, Quill realizes that they have to understand more about this shadowy London, a world of underground meetings, bizarre and fantastical auctions, and objects that are 'get out of hell free' cards.But the team's unlikely guide, a bestselling author, can't offer them much insight - and their other option, the Rat King, speaks only in riddles.Relying on old-fashioned police work and improvising with their new skills only lands them in deeper water, and they soon realize that the investigation is going to hell - literally. And if they're not careful, they may be going with it . . .The Severed Streets is the second urban fantasy by bestselling Doctor Who writer, Paul Cornell.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 18,
-        "aliens": 19,
-        "animals": 8,
-        "audiobook": 17,
-        "fantasy": 23,
-        "fiction": 30,
-        "science fiction": 271,
-        "science fiction fantasy": 17,
-        "space opera": 38,
-        "young adult": 123
+        "fantasy": 180,
+        "fantasy (magic)": 11,
+        "fantasy (paranormal)": 18,
+        "fantasy (supernatural)": 15,
+        "fantasy (urban fantasy)": 172,
+        "fiction": 46,
+        "horror": 35,
+        "mystery": 60,
+        "mystery (crime)": 47,
+        "science fiction fantasy": 11
     },
     "inventory": [
         {
@@ -23,32 +24,20 @@
             "stock_id": "337_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "337_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "337_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "337_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "337_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "337_6"
         }
     ],
     "metrics": {
-        "rating_votes": 4413,
+        "rating_votes": 3177,
         "score": 4.01
     },
-    "pages": 200,
-    "title": "A Beautiful Friendship",
-    "url": "https://www.goodreads.com/book/show/10894503-a-beautiful-friendship",
-    "year_published": 2011
+    "pages": 1004,
+    "title": "The Severed Streets",
+    "url": "https://www.goodreads.com/book/show/17910066-the-severed-streets",
+    "year_published": 2014
 }

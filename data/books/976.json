@@ -1,21 +1,21 @@
 {
-    "author": "K.A. Applegate",
-    "base_id": 976,
-    "description": "Sometimes weird things happen to people. Ask Jake. He may tell you about the night he and his friends saw the strange light in the sky. He may even tell you about what happened when they realized the \"light\" was only a plane -- from another planet. Here's where Jake's story gets a little weird. It's where they're told that the human race is under attack -- and given the chance to fight back.Now Jake, Rachel, Cassie, Tobias, and Marco have the power to morph into any animal they choose. And they must use that power to outsmart an evil that is greater than anything the world has ever seen...",
+    "author": "Jennifer Lynn Barnes",
+    "base_id": "976",
+    "description": "Every other day, Kali D\u2019Angelo is a normal sixteen-year-old girl. She goes to public high school. She argues with her father. She\u2019s human.And then every day in between . . . she\u2019s something else entirely.Though she still looks like herself, every twenty-four hours predatory instincts take over and Kali becomes a feared demon-hunter with the undeniable urge to hunt, trap, and kill zombies, hellhounds, and other supernatural creatures. Kali has no idea why she is the way she is, but she gives in to instinct anyway. Even though the government considers it environmental terrorism.When Kali notices a mark on the lower back of a popular girl at school, she knows instantly that the girl is marked for death by one of these creatures. Kali has twenty-four hours to save her, and unfortunately she\u2019ll have to do it as a human. With the help of a few new friends, Kali takes a risk that her human body might not survive . . . and learns the secrets of her mysterious condition in the process.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 46,
-        "aliens": 79,
-        "animals": 51,
-        "childrens": 109,
-        "fantasy": 164,
-        "fiction": 191,
-        "middle grade": 113,
-        "science fiction": 344,
-        "science fiction fantasy": 24,
-        "young adult": 278
+        "fantasy": 186,
+        "fantasy (paranormal)": 237,
+        "fantasy (supernatural)": 67,
+        "fantasy (urban fantasy)": 78,
+        "horror": 27,
+        "horror (zombies)": 63,
+        "paranormal (demons)": 42,
+        "paranormal (vampires)": 114,
+        "young adult": 267,
+        "young adult (teen)": 37
     },
     "inventory": [
         {
@@ -27,24 +27,20 @@
             "stock_id": "976_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "976_3"
         },
         {
             "status": "available",
             "stock_id": "976_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "976_5"
         }
     ],
     "metrics": {
-        "rating_votes": 14090,
-        "score": 3.82
+        "rating_votes": 6261,
+        "score": 3.9
     },
-    "pages": 1365,
-    "title": "The Invasion",
-    "url": "https://www.goodreads.com/book/show/776877.The_Invasion",
-    "year_published": 1996
+    "pages": 424,
+    "title": "Every Other Day",
+    "url": "https://www.goodreads.com/book/show/11750412-every-other-day",
+    "year_published": 2011
 }

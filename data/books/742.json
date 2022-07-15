@@ -1,0 +1,58 @@
+{
+    "author": "Ted Hughes",
+    "base_id": "742",
+    "description": "Mankind must put a stop to the dreadful destruction caused by the Iron Man. A trap is set for him, but he cannot be kept down. Then, when a terrible monster from outer space threatens to lay waste to the planet, it is the Iron Man who finds a way to save the world.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 12,
+        "childrens": 131,
+        "childrens (middle grade)": 25,
+        "childrens (picture books)": 13,
+        "classics": 44,
+        "fantasy": 89,
+        "fiction": 118,
+        "novels": 27,
+        "science fiction": 105,
+        "short stories": 17
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "742_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "742_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "742_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "742_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "742_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "742_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "742_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 9173,
+        "score": 3.92
+    },
+    "pages": 748,
+    "title": "The Iron Man",
+    "url": "https://www.goodreads.com/book/show/119502.The_Iron_Man",
+    "year_published": 1968
+}

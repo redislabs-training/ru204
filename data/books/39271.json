@@ -1,0 +1,42 @@
+{
+    "author": "Neil Gaiman",
+    "base_id": "39271",
+    "description": "Days before his release from prison, Shadow's wife, Laura, dies in a mysterious car crash. Numbly, he makes his way back home. On the plane, he encounters the enigmatic Mr Wednesday, who claims to be a refugee from a distant war, a former god and the king of America. Together they embark on a profoundly strange journey across the heart of the USA, whilst all around them a storm of preternatural and epic proportions threatens to break.Scary, gripping and deeply unsettling, American Gods takes a long, hard look into the soul of America. You'll be surprised by what - and who - it finds there...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 774,
+        "audiobook": 1156,
+        "contemporary": 759,
+        "fantasy": 22009,
+        "fantasy (mythology)": 2365,
+        "fantasy (urban fantasy)": 2566,
+        "fiction": 9342,
+        "novels": 652,
+        "science fiction": 1109,
+        "science fiction fantasy": 1017
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "39271_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "39271_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "39271_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 780936,
+        "score": 4.1
+    },
+    "pages": 724,
+    "title": "American Gods",
+    "url": "https://www.goodreads.com/book/show/30165203-american-gods",
+    "year_published": 2001
+}

@@ -1,0 +1,59 @@
+{
+    "author": "Maja Lunde",
+    "base_id": "2422",
+    "description": "In the spirit of Station Eleven and Never Let Me Go, this dazzling and ambitious literary debut follows three generations of beekeepers from the past, present, and future, weaving a spellbinding story of their relationship to the bees, to their children, and to one another against the backdrop of an urgent, global crisis.England, 1852. William is a biologist and seed merchant who sets out to build a new type of beehive, one that will give both him and his children honor and fame.United States, 2007. George is a beekeeper fighting an uphill battle against modern farming, but he hopes that his son can be their salvation.China, 2098. Tao hand paints pollen onto the fruit trees now that the bees have long since disappeared. When Tao's young son is taken away by the authorities after a tragic accident, she sets out on a grueling journey to find out what happened to him.Haunting, illuminating, and deftly written, The History of Bees joins these three very different narratives into one gripping and thought-provoking story that is just as much about the powerful bond between children and parents as it is about our very relationship to nature and humanity.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult fiction": 32,
+        "audiobook": 35,
+        "contemporary": 51,
+        "environment (nature)": 37,
+        "fiction": 479,
+        "historical": 58,
+        "historical (historical fiction)": 216,
+        "novels": 38,
+        "science fiction": 143,
+        "science fiction (dystopia)": 114
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2422_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2422_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2422_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2422_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2422_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2422_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2422_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24234,
+        "score": 3.81
+    },
+    "pages": 405,
+    "title": "The History of Bees",
+    "url": "https://www.goodreads.com/book/show/40604684-the-history-of-bees",
+    "year_published": 2015
+}

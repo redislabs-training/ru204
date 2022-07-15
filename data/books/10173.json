@@ -1,0 +1,58 @@
+{
+    "author": "Isaac Asimov",
+    "base_id": "10173",
+    "description": "For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future -- to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save mankind, Seldon gathers the best minds in the Empire -- both scientists and scholars -- and brings them to a bleak planet at the edge of the Galaxy to serve as a beacon of hope for a future generations. He calls his sanctuary the Foundation.But soon the fledgling Foundation finds itself at the mercy of corrupt warlords rising in the wake of the receding Empire. Mankind's last best hope is faced with an agonizing choice: submit to the barbarians and be overrun -- or fight them and be destroyed.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 170,
+        "classics": 1550,
+        "fantasy": 415,
+        "fiction": 3704,
+        "novels": 282,
+        "science fiction": 8900,
+        "science fiction fantasy": 580,
+        "space": 209,
+        "space (space opera)": 299,
+        "speculative fiction": 164
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "10173_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10173_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10173_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10173_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "10173_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10173_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10173_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 422213,
+        "score": 4.17
+    },
+    "pages": 1249,
+    "title": "Foundation",
+    "url": "https://www.goodreads.com/book/show/29579.Foundation",
+    "year_published": 1951
+}

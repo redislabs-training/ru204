@@ -1,0 +1,47 @@
+{
+    "author": "David Baldacci",
+    "base_id": "1652",
+    "description": "Welcome to Wormwood: a place where curiosity is discouraged and no one has ever left.Until one girl, Vega Jane, discovers a map that suggests a mysterious world beyond the walls. A world with possibilities and creatures beyond her imagining.But she will be forced to fight for her freedom. And unravelling the truth may cost Vega her life.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 42,
+        "audiobook": 30,
+        "childrens (middle grade)": 34,
+        "fantasy": 443,
+        "fiction": 86,
+        "mystery": 46,
+        "science fiction": 47,
+        "science fiction (dystopia)": 81,
+        "young adult": 211,
+        "young adult (young adult fantasy)": 24
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1652_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1652_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1652_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1652_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13899,
+        "score": 3.81
+    },
+    "pages": 674,
+    "title": "The Finisher",
+    "url": "https://www.goodreads.com/book/show/18282060-the-finisher",
+    "year_published": 2014
+}

@@ -1,34 +1,40 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 173,
-    "description": "In this thrilling one-hundred-page prequel companion novella, discover what happened in the aftermath of the Mogadorians\u2019 attack on Paradise, Ohio, from Mark James\u2014Number Four\u2019s bully-turned-ally.After Four leaves town to find the rest of the Garde, Mark is left behind to pick up the pieces. His school has been destroyed, his home burned down, and, worst yet, Mark now knows the horrifying truth: aliens live among us and some of them seek to destroy us. Even with the FBI tailing him and Sarah Hart, Mark tries to return to a normal life. But when Sarah goes missing, he knows he can no longer sit back and do nothing. His quest to find her will lead him to new allies and a startling revelation about the Mogadorians\u2019 plan for invasion.",
+    "author": "Margaret Peterson Haddix",
+    "base_id": "173",
+    "description": "Jonah\u2019s new twin must time travel and face off against his siblings\u2019 worst enemy in order to save the future\u2014and his family\u2014in the eighth and final book of the New York Times bestselling The Missing series, which Kirkus Reviews calls \u201cplenty of fun and great for history teachers as well.\u201dAfter traveling through history multiple times and finding out his original identity, Jonah thought he\u2019d fixed everything. But some of his actions left unexpected consequences. His parents\u2014and many other adults\u2014are still stuck as teenagers. And now Jonah has a new sibling, an identical twin brother named Jordan.As odd as all this is for Jonah, it\u2019s beyond confusing for Jordan. How does everyone in his family have memories of Jonah when he doesn\u2019t? How can his annoying kid sister Katherine speak so expertly about time travel\u2014and have people from the future treating her with respect? A few rash moves by Jordan send them all into the future\u2014and into danger. What if he\u2019s also the only one who can get them back to safety, once and for all?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 8,
-        "aliens": 26,
-        "fantasy": 41,
-        "fiction": 23,
-        "novella": 16,
-        "paranormal": 9,
-        "science fiction": 51,
-        "short stories": 18,
-        "teen": 9,
-        "young adult": 72
+        "adventure": 14,
+        "childrens": 7,
+        "childrens (middle grade)": 29,
+        "fantasy": 18,
+        "fiction": 27,
+        "historical": 7,
+        "historical (historical fiction)": 15,
+        "science fiction": 52,
+        "science fiction (time travel)": 38,
+        "young adult": 29
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "173_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "173_2"
         }
     ],
     "metrics": {
-        "rating_votes": 3701,
-        "score": 3.99
+        "rating_votes": 1754,
+        "score": 4.12
     },
-    "pages": 699,
-    "title": "Return to Paradise",
-    "url": "https://www.goodreads.com/book/show/18053087-return-to-paradise",
-    "year_published": 2014
+    "pages": 265,
+    "title": "Redeemed",
+    "url": "https://www.goodreads.com/book/show/17571245-redeemed",
+    "year_published": 2015
 }

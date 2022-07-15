@@ -1,0 +1,55 @@
+{
+    "author": "Brian Selznick",
+    "base_id": "15018",
+    "description": "Orphan, clock keeper, and thief, Hugo lives in the walls of a busy Paris train station, where his survival depends on secrets and anonymity. But when his world suddenly interlocks with an eccentric, bookish girl and a bitter old man who runs a toy booth in the station, Hugo's undercover life, and his most precious secret, are put in jeopardy. A cryptic drawing, a treasured notebook, a stolen key, a mechanical man, and a hidden message from Hugo's dead father form the backbone of this intricate, tender, and spellbinding mystery.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "childrens": 991,
+        "childrens (middle grade)": 881,
+        "childrens (picture books)": 303,
+        "fantasy": 718,
+        "fiction": 1433,
+        "historical": 400,
+        "historical (historical fiction)": 1742,
+        "mystery": 479,
+        "sequential art (graphic novels)": 908,
+        "young adult": 1310
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "15018_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "15018_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "15018_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "15018_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "15018_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "15018_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 168486,
+        "score": 4.2
+    },
+    "pages": 703,
+    "title": "The Invention of Hugo Cabret",
+    "url": "https://www.goodreads.com/book/show/9673436-the-invention-of-hugo-cabret",
+    "year_published": 2007
+}

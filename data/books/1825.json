@@ -1,0 +1,34 @@
+{
+    "author": "Charles Stross",
+    "base_id": "1825",
+    "description": "NEVER VOLUNTEER FOR ACTIVE DUTY ...Bob Howard is a low-level techie working for a super-secret government agency. While his colleagues are out saving the world, Bob's under a desk restoring lost data. His world was dull and safe - but then he went and got Noticed. Now, Bob is up to his neck in spycraft, parallel universes, dimension-hopping terrorists, monstrous elder gods and the end of the world. Only one thing is certain: it will take more than a full system reboot to sort this mess out ...This is the first novel in the Laundry Files.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "fantasy": 589,
+        "fantasy (paranormal)": 51,
+        "fantasy (urban fantasy)": 373,
+        "fiction": 386,
+        "horror": 511,
+        "horror (lovecraftian)": 65,
+        "humor": 104,
+        "science fiction": 693,
+        "science fiction fantasy": 55,
+        "thriller": 57
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1825_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22485,
+        "score": 3.91
+    },
+    "pages": 509,
+    "title": "The Atrocity Archives",
+    "url": "https://www.goodreads.com/book/show/101869.The_Atrocity_Archives",
+    "year_published": 2004
+}

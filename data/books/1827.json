@@ -1,0 +1,36 @@
+{
+    "author": "Jeanne DuPrau",
+    "base_id": "1827",
+    "description": "It\u2019s been several months since Lina and Doon escaped the dying city of Ember and, along with the rest of their people, joined the town of Sparks. Now, struggling through the harsh winter aboveground, they find an unusual book. Torn up and missing most of its pages, it alludes to a mysterious device from before the Disaster, which they believe is still in Ember. Together, Lina and Doon must go back underground to retrieve what was lost and bring light to a dark world.In the fourth Book of Ember, bestselling author Jeanne DuPrau juxtaposes yet another action-packed adventure with powerful themes about hope, learning, and the search for truth.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 88,
+        "apocalyptic (post apocalyptic)": 115,
+        "childrens": 111,
+        "childrens (juvenile)": 39,
+        "childrens (middle grade)": 145,
+        "fantasy": 303,
+        "fiction": 238,
+        "science fiction": 268,
+        "science fiction (dystopia)": 373,
+        "young adult": 457
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1827_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24814,
+        "score": 3.81
+    },
+    "pages": 1077,
+    "title": "The Diamond of Darkhold",
+    "url": "https://www.goodreads.com/book/show/2493973.The_Diamond_of_Darkhold",
+    "year_published": 2008
+}

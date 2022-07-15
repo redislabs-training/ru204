@@ -1,0 +1,59 @@
+{
+    "author": "Alix E. Harrow",
+    "base_id": "2366",
+    "description": "In 1893, there's no such thing as witches. There used to be, in the wild, dark days before the burnings began, but now witching is nothing but tidy charms and nursery rhymes. If the modern woman wants any measure of power, she must find it at the ballot box.But when the Eastwood sisters--James Juniper, Agnes Amaranth, and Beatrice Belladonna--join the suffragists of New Salem, they begin to pursue the forgotten words and ways that might turn the women's movement into the witch's movement. Stalked by shadows and sickness, hunted by forces who will not suffer a witch to vote-and perhaps not even to live-the sisters will need to delve into the oldest magics, draw new alliances, and heal the bond between them if they want to survive.There's no such thing as witches. But there will be.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 152,
+        "fantasy": 1572,
+        "fantasy (magic)": 134,
+        "fantasy (paranormal)": 148,
+        "feminism": 100,
+        "fiction": 432,
+        "historical": 218,
+        "historical (historical fiction)": 623,
+        "paranormal (witches)": 257,
+        "young adult": 77
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2366_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2366_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2366_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2366_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2366_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2366_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "2366_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11539,
+        "score": 4.14
+    },
+    "pages": 1218,
+    "title": "The Once and Future Witches",
+    "url": "https://www.goodreads.com/book/show/49504061-the-once-and-future-witches",
+    "year_published": 2020
+}

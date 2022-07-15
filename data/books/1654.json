@@ -1,0 +1,52 @@
+{
+    "author": "Ramez Naam",
+    "base_id": "1654",
+    "description": "Mankind gets an upgradeIn the near future, the experimental nano-drug Nexus can link humans together, mind to mind. There are some who want to improve it. There are some who want to eradicate it. And there are others who just want to exploit it.When a young scientist is caught improving Nexus, he\u2019s thrust over his head into a world of danger and international espionage \u2013 for there is far more at stake than anyone realizes.From the halls of academe to the halls of power, from the headquarters of an elite US agency in Washington DC to a secret lab beneath a top university in Shanghai, from the underground parties of San Francisco to the illegal biotech markets of Bangkok, from an international neuroscience conference to a remote monastery in the mountains of Thailand \u2013 Nexus is a thrill ride through a future on the brink of explosion.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 37,
+        "fantasy": 35,
+        "fiction": 358,
+        "science (technology)": 21,
+        "science fiction": 821,
+        "science fiction (cyberpunk)": 170,
+        "science fiction (dystopia)": 50,
+        "science fiction fantasy": 48,
+        "speculative fiction": 28,
+        "thriller": 126
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1654_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1654_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1654_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1654_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1654_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18324,
+        "score": 4.05
+    },
+    "pages": 527,
+    "title": "Nexus",
+    "url": "https://www.goodreads.com/book/show/13642710-nexus",
+    "year_published": 2012
+}

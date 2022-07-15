@@ -1,0 +1,38 @@
+{
+    "author": "Ray Bradbury",
+    "base_id": "8129",
+    "description": "The strange and wonderful tale of man\u2019s experiences on Mars, filled with intense images and astonishing visions. Now part of the Voyager Classics collection.The Martian Chronicles tells the story of humanity\u2019s repeated attempts to colonize the red planet. The first men were few. Most succumbed to a disease they called the Great Loneliness when they saw their home planet dwindle to the size of a fist. They felt they had never been born. Those few that survived found no welcome on Mars. The shape-changing Martians thought they were native lunatics and duly locked them up.But more rockets arrived from Earth, and more, piercing the hallucinations projected by the Martians. People brought their old prejudices with them \u2013 and their desires and fantasies, tainted dreams. These were soon inhabited by the strange native beings, with their caged flowers and birds of flame.Contents:Rocket SummerYllaThe Summer NightThe Earth MenThe TaxpayerThe Third Expedition-And the Moon Be Still As BrightThe SettlersThe Green MorningThe LocustsNight MeetingThe ShoreInterimThe MusiciansWay in the Middle of the AirThe Naming of NamesUsher IIThe Old OnesThe MartianThe Luggage StoreThe Off SeasonThe WatchersThe Silent TownsThe Long YearsThere Will Come Soft RainsThe Million Year Picnic",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 175,
+        "classics": 1965,
+        "fantasy": 554,
+        "fiction": 2499,
+        "literature": 165,
+        "literature (american)": 188,
+        "science fiction": 5478,
+        "science fiction fantasy": 473,
+        "short stories": 1430,
+        "space": 160
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "8129_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "8129_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 215911,
+        "score": 4.15
+    },
+    "pages": 1128,
+    "title": "The Martian Chronicles",
+    "url": "https://www.goodreads.com/book/show/76778.The_Martian_Chronicles",
+    "year_published": 1950
+}

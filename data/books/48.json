@@ -1,0 +1,54 @@
+{
+    "author": "D.B. Jackson",
+    "base_id": "48",
+    "description": "A time traveler trapped in a violent past must protect the orphaned child of a murdered sovereign and find a way home, in this astonishing epic fantasy novel.Fifteen year-old Tobias Doljan, a Walker trained to travel through time, is called to serve at the court of Daerjen. The sovereign, Mearlan IV, wants him to Walk back fourteen years, to prevent a devastating war which will destroy all of Islevale. Even though the journey will double Tobias' age, he agrees. But he arrives to discover Mearlan has already been assassinated, and his court destroyed. The only survivor is the infant princess, Sofya. Still a boy inside his newly adult body, Tobias must find a way to protect the princess from assassins, and build himself a future... in the past.File Under:  Fantasy [ Time Demons They See Me Walkin' Young Inside Disturbing Allies ]",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 2,
+        "fantasy": 54,
+        "fiction": 4,
+        "science fiction": 8,
+        "science fiction (time travel)": 24,
+        "science fiction fantasy": 2,
+        "speculative fiction": 2,
+        "young adult": 2
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "48_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "48_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "48_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "48_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "48_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "48_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 186,
+        "score": 3.94
+    },
+    "pages": 1293,
+    "title": "Time's Children",
+    "url": "https://www.goodreads.com/book/show/38502658-time-s-children",
+    "year_published": 2018
+}

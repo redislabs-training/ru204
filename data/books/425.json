@@ -1,0 +1,68 @@
+{
+    "author": "Sophie Littlefield",
+    "base_id": "425",
+    "description": "Awakening in a bleak landscape as scarred as her body, Cass Dollar vaguely recalls surviving something terrible. Having no idea how many weeks have passed, she slowly realizes the horrifying truth: Ruthie has vanished.And with her, nearly all of civilization.Where once-lush hills carried cars and commerce, the roads today see only cannibalistic Beaters -- people turned hungry for human flesh by a government experiment gone wrong.In a broken, barren California, Cass will undergo a harrowing quest to get Ruthie back. Few people trust an outsider, let alone a woman who became a zombie and somehow turned back, but she finds help from an enigmatic outlaw, Smoke. Smoke is her savior, and her safety.For the Beaters are out there.And the humans grip at survival with their trigger fingers. Especially when they learn that she and Ruthie have become the most feared, and desired, of weapons in a brave new world\u2026.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 81,
+        "fantasy (paranormal)": 30,
+        "fantasy (urban fantasy)": 24,
+        "fiction": 43,
+        "horror": 130,
+        "horror (zombies)": 265,
+        "science fiction": 45,
+        "science fiction (apocalyptic)": 31,
+        "science fiction (dystopia)": 101,
+        "young adult": 48
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "425_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "425_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "425_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "425_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "425_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "425_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "425_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "425_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "425_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3413,
+        "score": 3.54
+    },
+    "pages": 738,
+    "title": "Aftertime",
+    "url": "https://www.goodreads.com/book/show/9065272-aftertime",
+    "year_published": 2011
+}

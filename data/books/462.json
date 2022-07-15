@@ -1,0 +1,50 @@
+{
+    "author": "Mary Pope Osborne",
+    "base_id": "462",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Three . . . two . . . one . . . BLAST OFF!The Magic Tree House whisks Jack and Annie off to the moon\u2014and the future. Their mission? To find the last \"M\" thing that will free Morgan from the spell. Can they do it before the air in their oxygen tank runs out? Will the mysterious moon man help them? And why is Peanut the mouse acting so strange?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 48,
+        "childrens": 159,
+        "childrens (chapter books)": 74,
+        "childrens (middle grade)": 20,
+        "fantasy": 145,
+        "fantasy (magic)": 25,
+        "fiction": 103,
+        "historical (historical fiction)": 35,
+        "science fiction": 22,
+        "science fiction (time travel)": 29
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "462_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "462_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "462_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "462_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "462_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13073,
+        "score": 3.94
+    },
+    "pages": 909,
+    "title": "Midnight on the Moon",
+    "url": "https://www.goodreads.com/book/show/122914.Midnight_on_the_Moon",
+    "year_published": 1996
+}

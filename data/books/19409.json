@@ -1,0 +1,38 @@
+{
+    "author": "Stephen King",
+    "base_id": "19409",
+    "description": "In the first book of this brilliant series, Stephen King introduces readers to one of his most enigmatic heroes, Roland of Gilead, The Last Gunslinger. He is a haunting figure, a loner on a spellbinding journey into good and evil. In his desolate world, which frighteningly mirrors our own, Roland pursues The Man in Black, encounters an alluring woman named Alice, and begins a friendship with the Kid from Earth called Jake. Both grippingly realistic and eerily dreamlike, The Gunslinger leaves readers eagerly awaiting the next chapter.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 512,
+        "apocalyptic (post apocalyptic)": 322,
+        "audiobook": 463,
+        "fantasy": 11921,
+        "fiction": 4142,
+        "horror": 3274,
+        "science fiction": 1233,
+        "science fiction fantasy": 468,
+        "thriller": 367,
+        "westerns": 708
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "19409_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "19409_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 527586,
+        "score": 3.94
+    },
+    "pages": 871,
+    "title": "The Gunslinger",
+    "url": "https://www.goodreads.com/book/show/43615.The_Gunslinger",
+    "year_published": 1982
+}

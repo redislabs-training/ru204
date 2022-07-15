@@ -1,21 +1,21 @@
 {
-    "author": "Michelle Diener",
-    "base_id": 526,
-    "description": "Some secrets carry the weight of the world.Rose McKenzie may be far from Earth with no way back, but she's made a powerful ally--a fellow prisoner with whom she's formed a strong bond. Sazo's an artificial intelligence. He's saved her from captivity and torture, but he's also put her in the middle of a conflict, leaving Rose with her loyalties divided.Captain Dav Jallan doesn't know why he and his crew have stumbled across an almost legendary Class 5 battleship, but he's not going to complain. The only problem is, all its crew are dead, all except for one strange, new alien being.She calls herself Rose. She seems small and harmless, but less and less about her story is adding up, and Dav has a bad feeling his crew, and maybe even the four planets, are in jeopardy. The Class 5's owners, the Tecran, look set to start a war to get it back and Dav suspects Rose isn't the only alien being who survived what happened on the Class 5. And whatever else is out there is playing its own games.In this race for the truth, he's going to have to go against his leaders and trust the dark horse.Winner of a SFR Galaxy Award 2016 and the Prism Award 2016 for Best Futuristic.",
+    "author": "Dan Santat",
+    "base_id": "526",
+    "description": "Caldecott Medalist Dan Santat takes readers on the road trip of a lifetime!\"Are we there yet?\" Every parent has heard this classic kid question on a long car ride--and after reading this astonishingly inventive new book (that even turns upside down for several pages!), you'll never look at being bored the same way again.Let's face it: everyone knows that car rides can be boring. And when things get boring, time slows down. In this book, a boy feels time slowing down so much that it starts going backward--into the time of pirates! Of princesses! Of dinosaurs! The boy was just trying to get to his grandmother's birthday party, but instead he's traveling through Ancient Egypt and rubbing shoulders with Ben Franklin. When time flies, who knows where--or when--he'll end up.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 22,
-        "aliens": 115,
-        "fantasy": 35,
-        "fiction": 13,
-        "futuristic": 15,
-        "romance": 219,
-        "science fiction": 262,
-        "science fiction romance": 61,
-        "space": 41,
-        "space opera": 37
+        "adventure": 23,
+        "animals (dinosaurs)": 19,
+        "childrens": 88,
+        "childrens (picture books)": 527,
+        "family": 32,
+        "fantasy": 59,
+        "fiction": 24,
+        "humor": 37,
+        "science fiction (time travel)": 25,
+        "travel": 34
     },
     "inventory": [
         {
@@ -31,7 +31,7 @@
             "stock_id": "526_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "526_4"
         },
         {
@@ -43,24 +43,20 @@
             "stock_id": "526_6"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "526_7"
         },
         {
             "status": "maintenance",
             "stock_id": "526_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "526_9"
         }
     ],
     "metrics": {
-        "rating_votes": 4826,
-        "score": 4.12
+        "rating_votes": 2796,
+        "score": 3.96
     },
-    "pages": 797,
-    "title": "Dark Horse",
-    "url": "https://www.goodreads.com/book/show/25615831-dark-horse",
-    "year_published": 2015
+    "pages": 475,
+    "title": "Are We There Yet",
+    "url": "https://www.goodreads.com/book/show/26030671-are-we-there-yet",
+    "year_published": 2016
 }

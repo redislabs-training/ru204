@@ -1,21 +1,21 @@
 {
     "author": "Paul Antony Jones",
-    "base_id": 685,
+    "base_id": "685",
     "description": "Reporter Emily Baxter has a great job, an apartment in Manhattan, and a boyfriend she loves. All that changes the day the red rain falls from a cloudless sky. Just hours after the first reports from Europe, humanity is on the brink of extinction, wiped from the face of the earth in a few bloody moments, leaving Emily alone in an empty city. As she struggles to grasp the magnitude of her situation, Emily becomes the final witness to the end of our world\u2026 and the birth of a terrifying new one. The world she knew and loved is dead and gone. Now Emily must try to find a way out of New York as the truth behind the red rain is revealed: the earth no longer belongs to humanity.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 28,
-        "apocalyptic": 35,
-        "dystopia": 44,
+        "apocalyptic (post apocalyptic)": 89,
         "fantasy": 13,
         "fiction": 53,
         "horror": 71,
-        "post apocalyptic": 89,
+        "horror (zombies)": 13,
         "science fiction": 112,
-        "thriller": 13,
-        "zombies": 13
+        "science fiction (aliens)": 28,
+        "science fiction (apocalyptic)": 35,
+        "science fiction (dystopia)": 44,
+        "thriller": 13
     },
     "inventory": [
         {
@@ -31,19 +31,35 @@
             "stock_id": "685_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "685_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "685_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "685_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "685_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "685_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "685_9"
         }
     ],
     "metrics": {
         "rating_votes": 7582,
         "score": 3.61
     },
-    "pages": 287,
+    "pages": 1059,
     "title": "Extinction Point",
     "url": "https://www.goodreads.com/book/show/13509631-extinction-point",
     "year_published": 2012

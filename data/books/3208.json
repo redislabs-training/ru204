@@ -1,0 +1,40 @@
+{
+    "author": "Martha Wells",
+    "base_id": "3208",
+    "description": "Murderbot wasn\u2019t programmed to care. So, its decision to help the only human who ever showed it respect must be a system glitch, right?Having traveled the width of the galaxy to unearth details of its own murderous transgressions, as well as those of the GrayCris Corporation, Murderbot is heading home to help Dr. Mensah\u2014its former owner (protector? friend?)\u2014submit evidence that could prevent GrayCris from destroying more colonists in its never-ending quest for profit.But who\u2019s going to believe a SecUnit gone rogue?And what will become of it when it\u2019s caught?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 108,
+        "adventure": 72,
+        "audiobook": 144,
+        "fiction": 488,
+        "novella": 422,
+        "science fiction": 1585,
+        "science fiction (robots)": 65,
+        "science fiction fantasy": 96,
+        "space": 98,
+        "space (space opera)": 97
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3208_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3208_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32112,
+        "score": 4.39
+    },
+    "pages": 237,
+    "title": "Exit Strategy",
+    "url": "https://www.goodreads.com/book/show/35519109-exit-strategy",
+    "year_published": 2018
+}

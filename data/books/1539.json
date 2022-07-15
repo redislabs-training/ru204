@@ -1,21 +1,23 @@
 {
-    "author": "Adrian Tchaikovsky",
-    "base_id": 1539,
-    "description": "The astonishing sequel to Children of Time, the award-winning novel of humanity's battle for survival on a terraformed planet.Long ago, Earth's terraforming program sent ships out to build new homes for humanity among the stars and made an unexpected discovery: a planet with life. But the scientists were unaware that the alien ecosystem was more developed than the primitive life forms originally discovered.Now, thousands of years later, the Portiids and their humans have sent an exploration vessel following fragmentary radio signals. They discover a system in crisis, warring factions trying to recover from an apocalyptic catastrophe arising from what the early terraformers awoke all those years before.",
+    "author": "Arthur Koestler",
+    "base_id": "1539",
+    "description": "Darkness at Noon (from the German: Sonnenfinsternis) is a novel by the Hungarian-born British novelist Arthur Koestler, first published in 1940. His best-known work tells the tale of Rubashov, a Bolshevik 1917 revolutionary who is cast out, imprisoned and tried for treason by the Soviet government he'd helped create.Darkness at Noon stands as an unequaled fictional portrayal of the nightmare politics of our time. Its hero is an aging revolutionary, imprisoned and psychologically tortured by the Party to which he has dedicated his life. As the pressure to confess preposterous crimes increases, he relives a career that embodies the terrible ironies and human betrayals of a totalitarian movement masking itself as an instrument of deliverance. Almost unbearably vivid in its depiction of one man's solitary agony, it asks questions about ends and means that have relevance not only for the past but for the perilous present. It is \u2014- as the Times Literary Supplement has declared \u2014- \"A remarkable book, a grimly fascinating interpretation of the logic of the Russian Revolution, indeed of all revolutionary dictatorships, and at the same time a tense and subtly intellectualized drama.\"",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 12,
-        "adventure": 12,
-        "aliens": 23,
-        "audiobook": 70,
-        "fantasy": 19,
-        "fiction": 181,
-        "science fiction": 602,
-        "science fiction fantasy": 20,
-        "space": 23,
-        "space opera": 65
+        "classics": 452,
+        "cultural (russia)": 162,
+        "fiction": 1019,
+        "historical (historical fiction)": 279,
+        "literature": 161,
+        "literature (20th century)": 62,
+        "novels": 130,
+        "politics": 188,
+        "science fiction (dystopia)": 80,
+        "thriller": 56
     },
     "inventory": [
         {
@@ -23,16 +25,20 @@
             "stock_id": "1539_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "1539_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1539_3"
         }
     ],
     "metrics": {
-        "rating_votes": 15310,
-        "score": 4.06
+        "rating_votes": 26724,
+        "score": 4.05
     },
-    "pages": 211,
-    "title": "Children of Ruin",
-    "url": "https://www.goodreads.com/book/show/40376072-children-of-ruin",
-    "year_published": 2019
+    "pages": 205,
+    "title": "Darkness at Noon",
+    "url": "https://www.goodreads.com/book/show/30672.Darkness_at_Noon",
+    "year_published": 1940
 }

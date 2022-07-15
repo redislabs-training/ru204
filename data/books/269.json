@@ -1,54 +1,55 @@
 {
-    "author": "Laura Pohl",
-    "base_id": 269,
-    "description": "A high-stakes survival story about eight teenagers who outlive an alien attack\u2014perfect for fans of The 5th Wave Clover Martinez has always been a survivor, which is the only reason she isn't among the dead when aliens invade and destroy Earth as she knows it. When Clover hears an inexplicable radio message, she's shocked to learn there are other survivors\u2014and that they're all at the former Area 51. When she arrives, she's greeted by a band of misfits who call themselves The Last Teenagers on Earth.Only they aren't the ragtag group of heroes Clover was expecting. The group seems more interested in hiding than fighting back, and Clover starts to wonder if she was better off alone. But then she finds a hidden spaceship, and she doesn't know what to believe\u2026or who to trust.",
+    "author": "K.A. Applegate",
+    "base_id": "269",
+    "description": "When Tobias, Jake, Rachel, Marco, and Cassie were given the ability to morph, they were also given one very important warning: Never stay in a morph for more than two hours. It seemed a small price to pay, since the kids know that humans everywhere are being forced to let slimy, spineless creatures creep into their brains. And the only way the kids can fight back is not to be human.But Tobias stayed in his morph too long. And now he's a hawk -- with a boy's mind -- forever. Tobias knows they can't give up. That they all made a promise. So now it's four kids and a hawk against a force that's determined to destroy them. Or die trying...",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 39,
-        "apocalyptic": 13,
-        "audiobook": 8,
-        "dystopia": 22,
-        "fantasy": 11,
-        "fiction": 28,
-        "lgbt": 74,
-        "queer": 24,
-        "science fiction": 107,
-        "young adult": 98
+        "adventure": 25,
+        "animals": 33,
+        "childrens": 63,
+        "childrens (middle grade)": 51,
+        "fantasy": 85,
+        "fiction": 112,
+        "paranormal (shapeshifters)": 11,
+        "science fiction": 211,
+        "science fiction (aliens)": 48,
+        "young adult": 168
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "269_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "269_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "269_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "269_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "269_5"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "269_6"
         }
     ],
     "metrics": {
-        "rating_votes": 1146,
-        "score": 3.68
+        "rating_votes": 7043,
+        "score": 3.85
     },
-    "pages": 574,
-    "title": "The Last 8",
-    "url": "https://www.goodreads.com/book/show/36349389-the-last-8",
-    "year_published": 2019
+    "pages": 295,
+    "title": "The Encounter",
+    "url": "https://www.goodreads.com/book/show/125333.The_Encounter",
+    "year_published": 1996
 }

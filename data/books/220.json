@@ -1,29 +1,31 @@
 {
-    "author": "Stacey Kade",
-    "base_id": 220,
-    "description": "Ariane Tucker has finally escaped GTX, the research facility that created her. While on the run, Zane Bradshaw is the only person she can trust. He knows who-and what-she is and still wants to be part of her life. But accepting Zane's help means putting him in danger. Dr. Jacobs, head of GTX, is not the only one hunting for Ariane. Two rival corporations have their sights set on taking down their competition. Permanently. To protect Zane and herself, Ariane needs allies. She needs the other hybrids. The hybrids who are way more alien and a lot less human. Can Ariane win them over before they turn on her? Or will she be forced to choose sides, to decide who lives and who dies?",
+    "author": "Alex Scarrow",
+    "base_id": "220",
+    "description": "Liam O\u2019Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.But all three have been given a second chance\u2014to work for an agency that no one knows exists. Its purpose: to prevent time travel destroying history...In 1993 British computer hacker Adam Lewis finds his name in a coded manuscript that is almost one thousand years old. How did Adam\u2019s name get in there... and why?Confronted by Adam in 2001, the TimeRiders travel back to Sherwood Forest in 1193 to discover the origins of the ancient message. But when a strange hooded man appears interested in the same thing, they begin to wonder what terrible threat this cryptic link from the past holds for the future...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 30,
-        "dystopia": 8,
-        "fantasy": 20,
-        "paranormal": 14,
-        "paranormal romance": 6,
-        "romance": 29,
-        "science fiction": 45,
-        "suspense": 4,
-        "young adult": 71,
-        "young adult science fiction": 6
+        "action": 8,
+        "adventure": 34,
+        "fantasy": 38,
+        "fiction": 28,
+        "historical (historical fiction)": 17,
+        "mystery": 9,
+        "science fiction": 82,
+        "science fiction (time travel)": 83,
+        "thriller": 7,
+        "young adult": 70
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "220_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "220_2"
         },
         {
@@ -35,7 +37,7 @@
             "stock_id": "220_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "220_5"
         },
         {
@@ -43,20 +45,16 @@
             "stock_id": "220_6"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "220_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "220_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1974,
-        "score": 4.04
+        "rating_votes": 3802,
+        "score": 4.11
     },
-    "pages": 1309,
-    "title": "The Hunt",
-    "url": "https://www.goodreads.com/book/show/18296013-the-hunt",
-    "year_published": 2014
+    "pages": 600,
+    "title": "The Doomsday Code",
+    "url": "https://www.goodreads.com/book/show/8827905-the-doomsday-code",
+    "year_published": 2011
 }

@@ -1,46 +1,55 @@
 {
-    "author": "Jennifer L. Armentrout",
-    "base_id": 2955,
-    "description": "The last thing Dawson Black expected was Bethany Williams. As a Luxen, an alien life form on Earth, human girls are\u2026well, fun. But since the Luxen have to keep their true identities a secret, falling for one would be insane.Dangerous. Tempting. Undeniable.Bethany can\u2019t deny the immediate connection between her and Dawson. And even though boys aren\u2019t a complication she wants, she can\u2019t stay away from him. Still, whenever they lock eyes, she\u2019s drawn in.Captivated. Lured. Loved.Dawson is keeping a secret that will change her existence...and put her life in jeopardy. But even he can\u2019t stop risking everything for one human girl. Or from a fate that is as unavoidable as love itself.",
+    "author": "Seanan McGuire",
+    "base_id": "2955",
+    "description": "October \"Toby\" Daye, a changeling who is half human and half fae, has been an outsider from birth. After getting burned by both sides of her heritage, Toby has denied the Faerie world, retreating to a \"normal\" life. Unfortunately for her, the Faerie world has other ideas...  The murder of Countess Evening Winterrose pulls Toby back into the fae world. Unable to resist Evening's dying curse, which binds her to investigate, Toby must resume her former position as knight errant and renew old alliances. As she steps back into fae society, dealing with a cast of characters not entirely good or evil, she realizes that more than her own life will be forfeited if she cannot find Evening's killer.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 495,
-        "fantasy": 384,
-        "novella": 172,
-        "paranormal": 576,
-        "paranormal romance": 207,
-        "romance": 446,
-        "science fiction": 272,
-        "short stories": 76,
-        "supernatural": 106,
-        "young adult": 766
+        "adult": 144,
+        "fairies (fae)": 407,
+        "fantasy": 1780,
+        "fantasy (magic)": 241,
+        "fantasy (paranormal)": 492,
+        "fantasy (supernatural)": 107,
+        "fantasy (urban fantasy)": 2402,
+        "fiction": 363,
+        "mystery": 402,
+        "paranormal (fairies)": 125
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2955_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2955_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "2955_3"
         },
         {
             "status": "maintenance",
             "stock_id": "2955_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2955_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2955_6"
         }
     ],
     "metrics": {
-        "rating_votes": 36224,
-        "score": 4.12
+        "rating_votes": 33326,
+        "score": 3.75
     },
-    "pages": 1286,
-    "title": "Shadows",
-    "url": "https://www.goodreads.com/book/show/13183957-shadows",
-    "year_published": 2012
+    "pages": 983,
+    "title": "Rosemary and Rue",
+    "url": "https://www.goodreads.com/book/show/6294549-rosemary-and-rue",
+    "year_published": 2009
 }

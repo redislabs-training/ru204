@@ -1,21 +1,21 @@
 {
-    "author": "Amie Kaufman",
-    "base_id": 440,
-    "description": "Trapped aboard the Undying's ancient spaceship and reeling from what they've learned there, scavenger Mia and academic Jules are plunged into a desperate race to warn their home planet of the danger humanity's greed has unleashed. From the mountains of Spain to the streets of Prague, the sequel to Unearthed is a white-knuckle ride that will send readers hurtling back to earth, and leave them breathless until the last page.\nThe earth's fate rests in Mia and Jules's hands in the epic conclusion to New York Times best-selling authors Amie Kaufman and Meagan Spooner's tomb-raiding sci-fi duology.\n",
+    "author": "Samuel R. Delany",
+    "base_id": "440",
+    "description": "These are [at least some of] the ways you can read NOVA: as a fast-action farflung interstellar adventure; as archetypal mystical/mythical allegory (in which the Tarot and the Grail both figure prominently); as modern myth told in the S-F idiom... the reader observes, recollects, or participates in a range of personal experience including violent pain and disfigurement, sensory deprivation and overload, man-machine communion, the drug experience, the creative experience - and inter-personal relationships which include incest and assassination, father-son, leader-follower, human-pet, and lots more!The balance of galactic power in the 31st century revolves around Illyrion, the most precious energy source in the universe. The varied and exotic crew who sign up with Captain Lorq van Ray know their mission is dangerous, and they soon learn that they are involved in a deadly race with the charismatic but vicious leader of an opposing space federation. But they have no idea of Lorq's secret obsession: to gather Illyrion at the source by flying through the very heart of an imploding star.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adventure": 20,
-        "aliens": 24,
-        "audiobook": 23,
-        "dystopia": 21,
-        "fantasy": 31,
-        "romance": 35,
-        "science fiction": 173,
-        "space": 20,
-        "teen": 16,
-        "young adult": 151
+        "classics": 11,
+        "fantasy": 13,
+        "fiction": 171,
+        "literature (20th century)": 9,
+        "literature (american)": 10,
+        "novels": 16,
+        "science fiction": 483,
+        "science fiction fantasy": 31,
+        "space (space opera)": 63,
+        "speculative fiction": 37
     },
     "inventory": [
         {
@@ -23,44 +23,20 @@
             "stock_id": "440_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "440_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "440_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "440_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "440_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "440_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "440_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "440_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "440_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2205,
+        "rating_votes": 6700,
         "score": 3.82
     },
-    "pages": 444,
-    "title": "Undying",
-    "url": "https://www.goodreads.com/book/show/26839798-undying",
-    "year_published": 2018
+    "pages": 820,
+    "title": "Nova",
+    "url": "https://www.goodreads.com/book/show/85863.Nova",
+    "year_published": 1968
 }

@@ -1,0 +1,56 @@
+{
+    "author": "Lisa McMann",
+    "base_id": "3099",
+    "description": "When Alex finds out he is Unwanted, he expects to die. That is the way of the people of Quill. Each year, all the thirteen-year-olds are labeled as Wanted, Necessary, or Unwanted. Wanteds get more schooling and train to join the Quillitary. Necessaries keep the farms running. Unwanteds are set for elimination. It\u2019s hard for Alex to leave behind his twin, Aaron, a Wanted, but he makes peace with his fate\u2014until he discovers that instead of a \u201cdeath farm,\u201d what awaits him is a magical place called Artim\u00e9. There, Alex and his fellow Unwanteds are encouraged to cultivate their creative abilities and use them magically. Everything Alex has ever known changes before his eyes, and it\u2019s a wondrous transformation. But it\u2019s a rare, unique occurrence for twins to be divided between Wanted and Unwanted, and as Alex and Aaron's bond stretches across their separation, a threat arises for the survival of Artim that will pit brother against brother in an ultimate magical battle.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 128,
+        "audiobook": 48,
+        "childrens": 88,
+        "childrens (juvenile)": 51,
+        "childrens (middle grade)": 321,
+        "fantasy": 1035,
+        "fantasy (magic)": 129,
+        "fiction": 140,
+        "science fiction (dystopia)": 212,
+        "young adult": 228
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3099_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3099_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3099_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3099_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "3099_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3099_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 30351,
+        "score": 4.11
+    },
+    "pages": 685,
+    "title": "The Unwanteds",
+    "url": "https://www.goodreads.com/book/show/9917879-the-unwanteds",
+    "year_published": 2011
+}

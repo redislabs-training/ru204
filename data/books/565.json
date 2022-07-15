@@ -1,0 +1,66 @@
+{
+    "author": "Arwen Elys Dayton",
+    "base_id": "565",
+    "description": "For fans of television shows Black Mirror and Westworld,  this compelling, mind-bending novel is a twisted look into the future, exploring how far we will go to remake ourselves into the perfect human specimen and what it means to be human at all.Set in our world, spanning the near to distant futures, Stronger, Faster, and More Beautiful is a novel made up of six interconnected stories that ask how far we will go to remake ourselves into the perfect human specimens, and how hard that will push the definition of \"human.\"This extraordinary work explores the amazing possibilities of genetic manipulation and life extension, as well as the ethical quandaries that will arise with these advances. The results range from the heavenly to the monstrous. Deeply thoughtful, poignant, horrifying, and action-packed, Arwen Elys Dayton's Stronger, Faster, and More Beautiful is groundbreaking in both form and substance.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 12,
+        "fantasy": 16,
+        "fiction": 52,
+        "futuristic": 7,
+        "science fiction": 156,
+        "science fiction (dystopia)": 30,
+        "short stories": 91,
+        "speculative fiction": 14,
+        "young adult": 142,
+        "young adult (teen)": 9
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "565_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "565_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "565_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "565_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "565_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "565_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "565_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "565_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "565_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2317,
+        "score": 3.73
+    },
+    "pages": 206,
+    "title": "Stronger, Faster, and More Beautiful",
+    "url": "https://www.goodreads.com/book/show/39402961-stronger-faster-and-more-beautiful",
+    "year_published": 2018
+}

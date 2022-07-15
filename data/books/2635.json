@@ -1,0 +1,40 @@
+{
+    "author": "Ray Bradbury",
+    "base_id": "2635",
+    "description": "\"A fast-moving, eerie...tale set on Halloween night. Eight costumed boys running to meet their friend Pipkin at the haunted house outside town encounter instead the huge and cadaverous Mr. Moundshroud. As Pipkin scrambles to join them, he is swept away by a dark Something, and Moundshroud leads the boys on the tail of a kite through time and space to search the past for their friend and the meaning of Halloween.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 117,
+        "childrens": 121,
+        "childrens (middle grade)": 93,
+        "classics": 317,
+        "fantasy": 851,
+        "fiction": 452,
+        "holiday (halloween)": 355,
+        "horror": 687,
+        "science fiction": 124,
+        "young adult": 241
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2635_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2635_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21779,
+        "score": 3.82
+    },
+    "pages": 290,
+    "title": "The Halloween Tree",
+    "url": "https://www.goodreads.com/book/show/761381.The_Halloween_Tree",
+    "year_published": 1972
+}

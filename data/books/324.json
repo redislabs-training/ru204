@@ -1,50 +1,60 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 324,
-    "description": "It's hard to make friends with the other women at the Icehome camp when you'd rather be dissecting the local fauna. Which is why I'm surprised when one of the big, brawny islanders asks me to help him make a prosthetic leg. I don't know N'dek, but since I'm a scientist, he wants my help. And while I'm more into dinosaurs than anatomy, I love a challenge!As we work together, I come to see that N'dek's not just clever and determined, he's also protective and sweet. And he kisses like a fiend!He's a distraction I don't need... but he might be everything I've ever wanted. Too bad he says he's going to resonate to someone else...",
+    "author": "Jack Womack",
+    "base_id": "324",
+    "description": "With his vivid, stylized prose, cyberpunk intensity, and seemingly limitless imagination, Jack Womack has been compared to both William Gibson and Kurt Vonnegut - though Gibson admits, \"If you dropped the characters from Neuromancer into Womack's Manhattan, they'd fall down screaming and have nervous breakdowns\". Random Acts of Senseless Violence, Womack's fifth novel, is a thrilling, hysterical, and eerily disturbing piece ot work. Lola Hart is an ordinary twelve-year-old girl. She comes from a comfortable family, attends an exclusive private school, loves her friends Lori and Katherine, teases her sister Boob. But in the increasingly troubled city where she lives (a near-future Manhattan) she is a dying breed. Riots, fire, TB outbreaks, roaming gangs, increasing inflation, political and civil unrest all threaten her way of life, as well as the very fabric of New York City. In her diary, Lola chronicles the changes she and her family make as they attempt to adjust to a city, and a country, that is spinning out of control. Her mother is a teacher, but no one is hiring. Her father is a writer, but no one is buying his scripts. Hounded by creditors and forced to vacate their apartment and move to Harlem, her family, and her life, begins to dissolve. Increasingly estranged from her privileged school friends, Lola soon makes new ones: Iz, Jude, and Weezie - wise veterans of the street who know what must be done in order to survive and are more than willing to do it. And the metamorphosis of Lola Hart, who is surrounded by the new language and violence of the streets, begins. Simultaneously chilling and darkly hilarious, Random Acts of Senseless Violence takes the jittery urban fears we suppress, both in fiction and in daily life, and makes them explicit - and explicitly terrifying.--Publisher/Powells.com",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 10,
-        "aliens": 59,
-        "erotica": 10,
-        "fantasy": 13,
-        "paranormal": 15,
-        "paranormal romance": 15,
-        "romance": 51,
-        "science fiction": 51,
+        "apocalyptic (post apocalyptic)": 11,
+        "fiction": 105,
+        "new york": 7,
+        "novels": 8,
+        "science fiction": 120,
+        "science fiction (apocalyptic)": 7,
+        "science fiction (cyberpunk)": 30,
+        "science fiction (dystopia)": 44,
         "science fiction fantasy": 5,
-        "science fiction romance": 17
+        "speculative fiction": 13
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "324_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "324_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "324_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "324_4"
         },
         {
             "status": "available",
             "stock_id": "324_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "324_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "324_7"
         }
     ],
     "metrics": {
-        "rating_votes": 2777,
-        "score": 4.38
+        "rating_votes": 2317,
+        "score": 3.95
     },
-    "pages": 706,
-    "title": "Devi's Distraction",
-    "url": "https://www.goodreads.com/book/show/45418848-devi-s-distraction",
-    "year_published": 2019
+    "pages": 1104,
+    "title": "Random Acts of Senseless Violence",
+    "url": "https://www.goodreads.com/book/show/1129928.Random_Acts_of_Senseless_Violence",
+    "year_published": 1993
 }

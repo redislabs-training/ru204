@@ -1,0 +1,35 @@
+{
+    "author": "Genevieve Cogman",
+    "base_id": "5438",
+    "description": "Irene must be at the top of her game or she'll be off the case - permanently...Irene is a professional spy for the mysterious Library, which harvests fiction from different realities. And along with her enigmatic assistant Kai, she's posted to an alternative London. Their mission - to retrieve a dangerous book. But when they arrive, it's already been stolen. London's underground factions seem prepared to fight to the very death to find her book.Adding to the jeopardy, this world is chaos-infested - the laws of nature bent to allow supernatural creatures and unpredictable magic. Irene's new assistant is also hiding secrets of his own.Soon, she's up to her eyebrows in a heady mix of danger, clues and secret societies. Yet failure is not an option - the nature of reality itself is at stake.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 233,
+        "fantasy": 3985,
+        "fantasy (magic)": 229,
+        "fantasy (urban fantasy)": 235,
+        "fiction": 827,
+        "mystery": 551,
+        "science fiction": 244,
+        "science fiction (steampunk)": 663,
+        "writing (books about books)": 363,
+        "young adult": 472
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "5438_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 44257,
+        "score": 3.73
+    },
+    "pages": 831,
+    "title": "The Invisible Library",
+    "url": "https://www.goodreads.com/book/show/21416690-the-invisible-library",
+    "year_published": 2015
+}

@@ -1,29 +1,30 @@
 {
-    "author": "Gini Koch",
-    "base_id": 315,
-    "description": "For Alien Super-Being Exterminator Katherine \"Kitty\" Katt, anti-alien conspiracies, threats from outer space, and a couple of killer alligators are all in a day's work. It's been five months since Kitty joined Centaurion Division, working with the aliens from Alpha Centauri. She and Jeff Martini have grown closer and life looks rosy. But when an experimental spacecraft is unexpectedly returned to the Kennedy Space Center, Kitty and the rest of Alpha Team are called on to investigate and are immediately embroiled in life-or-death situations that scream \"political conspiracy.\"The team must survive murderous attacks, deal with a mysterious space entity that has seized control of a group of astronauts, and evade a woman who'll do anything to eliminate the competition when she develops an obsessive crush on Kitty's old high school boyfriend. And that's all before the evil masterminds decide Kitty's extermination is vital...Alien Tango is the thrilling second installment of the Alien series.",
+    "author": "Liz Kessler",
+    "base_id": "315",
+    "description": "On her way to visit her best friend, Autumn, Jenni Green suddenly finds she's been transported exactly one year forward in time. Now she discovers that in the year that's gone by, tragedy has struck and her friendship with Autumn will never be the same again. But what caused the tragedy?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 73,
-        "fantasy": 31,
-        "fiction": 27,
-        "humor": 17,
-        "paranormal": 32,
-        "paranormal romance": 40,
-        "romance": 103,
-        "science fiction": 134,
-        "science fiction romance": 16,
-        "urban fantasy": 75
+        "childrens": 14,
+        "childrens (juvenile)": 6,
+        "childrens (middle grade)": 50,
+        "contemporary": 9,
+        "fantasy": 33,
+        "fiction": 17,
+        "mystery": 5,
+        "science fiction": 19,
+        "science fiction (time travel)": 35,
+        "young adult": 20
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "315_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "315_2"
         },
         {
@@ -31,32 +32,20 @@
             "stock_id": "315_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "315_4"
         },
         {
-            "status": "maintenance",
-            "stock_id": "315_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "315_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "315_7"
-        },
-        {
             "status": "available",
-            "stock_id": "315_8"
+            "stock_id": "315_5"
         }
     ],
     "metrics": {
-        "rating_votes": 2780,
-        "score": 4.1
+        "rating_votes": 2457,
+        "score": 4.05
     },
-    "pages": 371,
-    "title": "Alien Tango",
-    "url": "https://www.goodreads.com/book/show/7948544-alien-tango",
-    "year_published": 2010
+    "pages": 595,
+    "title": "A Year Without Autumn",
+    "url": "https://www.goodreads.com/book/show/9731300-a-year-without-autumn",
+    "year_published": 2011
 }

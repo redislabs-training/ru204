@@ -1,33 +1,35 @@
 {
-    "author": "Sherrilyn Kenyon",
-    "base_id": 478,
-    "description": "Born an Outcast, Talyn Batur has spent the whole of his life fighting against the prejudice of his people. An Andarion without a father is not something anyone wants to be.But when his companion's brother draws him into a plot against the Andarion crown, he finds himself torn between the loyalty to their planetary government that his mother has beaten into him and his own beliefs of justice and right.Now, he must decide for himself to remain a pawn of their government or to defy everything and everyone he's ever known to stand up to tyranny. It's a gamble that will either save his life or end it. And when old enemies align with new ones, it's more than just his own life at risk. And more than just his homeworld that will end should he fail, in Born of Defiance, the next League novel from #1 New York Times bestselling author Sherrilyn Kenyon.",
+    "author": "Melissa Marr",
+    "base_id": "478",
+    "description": "Gripping original stories of dystopian worlds from nine New York Times bestselling authors, edited by Melissa Marr and Kelley Armstrong.The world is gone, destroyed by human, ecological, or supernatural causes. Survivors dodge chemical warfare and cruel gods; they travel the reaches of space and inhabit underground caverns. Their enemies are disease, corrupt corporations, and one another; their resources are few, and their courage is tested.Powerful original dystopian tales from nine bestselling authors offer bleak insight, prophetic visions, and precious glimmers of light among the shards and ashes of a ruined world.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 23,
-        "aliens": 24,
-        "fantasy": 69,
-        "fiction": 20,
-        "futuristic": 21,
-        "paranormal": 58,
-        "paranormal romance": 82,
-        "romance": 126,
-        "science fiction": 78,
-        "science fiction romance": 17
+        "anthologies": 86,
+        "apocalyptic (post apocalyptic)": 33,
+        "fantasy": 84,
+        "fantasy (urban fantasy)": 14,
+        "fiction": 31,
+        "science fiction": 55,
+        "science fiction (dystopia)": 153,
+        "short stories": 133,
+        "young adult": 165,
+        "young adult (teen)": 14
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "478_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "478_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "478_3"
         },
         {
@@ -40,11 +42,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 6164,
-        "score": 4.45
+        "rating_votes": 2743,
+        "score": 3.59
     },
-    "pages": 794,
-    "title": "Born of Defiance",
-    "url": "https://www.goodreads.com/book/show/22046891-born-of-defiance",
-    "year_published": 2015
+    "pages": 462,
+    "title": "Shards and Ashes",
+    "url": "https://www.goodreads.com/book/show/14811468-shards-and-ashes",
+    "year_published": 2013
 }

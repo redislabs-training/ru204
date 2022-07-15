@@ -1,25 +1,25 @@
 {
-    "author": "Peter F. Hamilton",
-    "base_id": 813,
-    "description": "Humanity's complex relationship with technology spirals out of control in this first book of an all-new trilogy from \"the owner of the most powerful imagination in science fiction\" (Ken Follett).In 2204, humanity is expanding into the wider galaxy in leaps and bounds. A new technology of linked jump gates has rendered most forms of transporation--including starships--virtually obsolete. Every place on earth, every distant planet mankind has settled, is now merely a step away from any other. And all seems wonderful...until a crashed alien spaceship is found on a newly-located world 89 light years from Earth, harboring seventeen human victims. And of the high-powered team dispatched to investigate the mystery, one is an alien spy...Bursting with tension and big ideas, this standalone series highlights the inventiveness of an author at the top of his game, as the interweaving story lines tell us not only how humanity arrived at this moment, but also the far-future consequences that spin off from it.",
+    "author": "Robin McKinley",
+    "base_id": "813",
+    "description": "In this fascinating look at a modern-day world where dragons truly exist, the Newbery Medal-winning author of The Hero and the Crown takes readers into a controversial nature preserve, which about 200 of the worlds few remaining dragons call home.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 9,
-        "aliens": 18,
-        "audiobook": 25,
-        "fiction": 105,
-        "mystery": 9,
-        "science fiction": 408,
-        "science fiction fantasy": 11,
-        "space": 10,
-        "space opera": 84,
-        "speculative fiction": 13
+        "adult": 18,
+        "fantasy": 658,
+        "fantasy (dragons)": 177,
+        "fantasy (urban fantasy)": 38,
+        "fiction": 83,
+        "science fiction": 23,
+        "science fiction fantasy": 22,
+        "young adult": 199,
+        "young adult (teen)": 25,
+        "young adult (young adult fantasy)": 26
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "813_1"
         },
         {
@@ -27,7 +27,7 @@
             "stock_id": "813_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "813_3"
         },
         {
@@ -41,26 +41,14 @@
         {
             "status": "on_loan",
             "stock_id": "813_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "813_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "813_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "813_9"
         }
     ],
     "metrics": {
-        "rating_votes": 8916,
-        "score": 4.17
+        "rating_votes": 5813,
+        "score": 3.39
     },
-    "pages": 1090,
-    "title": "Salvation",
-    "url": "https://www.goodreads.com/book/show/34068552-salvation",
-    "year_published": 2018
+    "pages": 746,
+    "title": "Dragonhaven",
+    "url": "https://www.goodreads.com/book/show/149338.Dragonhaven",
+    "year_published": 2007
 }

@@ -1,65 +1,35 @@
 {
-    "author": "K.A. Applegate",
-    "base_id": 91,
-    "description": "Rachel is falling apart. Literally. Her newest morph the ability to regenerate its limbs, but when Rachel demorphs there's a lot more Rachel than when she started out. One more Rachel, to be exact. Rachel is an okay person to have around. But two could be considered overkill. Especially two Rachels with completely opposite personalities: one is pathetically weak; one is super strong and super nasty.Now the Animorphs have to figure out a way to put Rachel back together again. Because if it's up to the \"twins, \" Rachel the weak will surrender to Visser Three. Rachel the super bold will try to single-handedly take him down. And twice the trouble may be twice as much as the other Animorphs and Ax can handle....",
+    "author": "Dav Pilkey",
+    "base_id": "91",
+    "description": "Mr. Mosquito lives on Mercury, and he hates it there! The daytime temperature is more than eight hundred degrees, and his flip-flops always melt on the sidewalk. At night it gets so cold that his toothpaste is frozen solid. Imagine his delight when he looks through his telescope and sees Planet Earth, where mice play happily in comfortable weather. So he decides to invade the Earth and take it over!Mr. Mosquito clips his dirty fingernails and zaps them with a powerful ray. Suddenly, his fingernails mutate into massive mosquitoes.\"Mutant Mosquitoes!\" he cries. \"It is time to conquer Earth. Follow me!\"In this wildly imaginative and highly appealing story, Dav Pilkey and Martin Ontiveros once again create a witty tale of danger and heroism, and at the same time they celebrate the joys of friendship. Here is an action-packed story that will engage even the most reluctant reader.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 11,
-        "aliens": 23,
-        "animals": 11,
-        "childrens": 27,
-        "fantasy": 30,
-        "fiction": 53,
-        "juvenile": 7,
-        "science fiction": 86,
-        "young adult": 59
+        "action": 5,
+        "adventure": 13,
+        "childrens": 19,
+        "childrens (chapter books)": 18,
+        "fantasy": 6,
+        "fiction": 17,
+        "humor": 13,
+        "science fiction": 11,
+        "science fiction (robots)": 6,
+        "sequential art (graphic novels)": 13
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "91_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "91_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "91_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "91_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2402,
-        "score": 3.59
+        "rating_votes": 1894,
+        "score": 4.1
     },
-    "pages": 1260,
-    "title": "The Separation",
-    "url": "https://www.goodreads.com/book/show/125340.The_Separation",
-    "year_published": 1999
+    "pages": 1224,
+    "title": "Ricky Ricotta's Mighty Robot vs. the Mutant Mosquitoes from Mercury",
+    "url": "https://www.goodreads.com/book/show/532634.Ricky_Ricotta_s_Mighty_Robot_vs_the_Mutant_Mosquitoes_from_Mercury",
+    "year_published": 2000
 }

@@ -1,0 +1,59 @@
+{
+    "author": "Dan Simmons",
+    "base_id": "728",
+    "description": "A provocative dystopian thriller set in a future that seems scarily possible, Flashback proves why Dan Simmons is one of our most exciting and versatile writers. The United States is near total collapse. But 87% of the population doesn't care: they're addicted to flashback, a drug that allows its users to re-experience the best moments of their lives. After ex-detective Nick Bottom's wife died in a car accident, he went under the flash to be with her; he's lost his job, his teenage son, and his livelihood as a result.  Nick may be a lost soul but he's still a good cop, so he is hired to investigate the murder of a top governmental advisor's son. This flashback-addict becomes the one man who may be able to change the course of an entire nation turning away from the future to live in the past.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 15,
+        "audiobook": 10,
+        "fantasy": 12,
+        "fiction": 87,
+        "horror": 16,
+        "mystery": 52,
+        "science fiction": 180,
+        "science fiction (dystopia)": 46,
+        "suspense": 10,
+        "thriller": 45
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "728_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "728_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "728_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "728_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "728_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "728_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "728_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4109,
+        "score": 3.27
+    },
+    "pages": 430,
+    "title": "Flashback",
+    "url": "https://www.goodreads.com/book/show/9432902-flashback",
+    "year_published": 2011
+}

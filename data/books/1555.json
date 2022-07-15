@@ -1,0 +1,44 @@
+{
+    "author": "Guy Gavriel Kay",
+    "base_id": "1555",
+    "description": "In Under Heaven, Kay tells a story of honor and power, this time in a setting that evokes the dazzling Tang Dynasty of eighth-century China. In recognition of his service to the Emperor of Kitai, Shen Tai has been sent a mysterious and dangerous gift: 250 Sardian horses. Wisely the gift comes with the stipulation that the horses must be claimed in person. Otherwise, he would probably be dead already.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 32,
+        "cultural (asia)": 39,
+        "cultural (canada)": 32,
+        "cultural (china)": 87,
+        "fantasy": 1641,
+        "fiction": 253,
+        "historical": 152,
+        "historical (historical fiction)": 418,
+        "historical fiction (historical fantasy)": 94,
+        "science fiction fantasy": 42
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1555_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1555_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1555_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13252,
+        "score": 4.15
+    },
+    "pages": 466,
+    "title": "Under Heaven",
+    "url": "https://www.goodreads.com/book/show/7139892-under-heaven",
+    "year_published": 2010
+}

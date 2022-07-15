@@ -1,34 +1,59 @@
 {
-    "author": "Chana Porter",
-    "base_id": 439,
-    "description": "A blend of searing social commentary and speculative fiction, Chana Porter\u2019s fresh, pointed debut is perfect for fans of Jeff VanderMeer and Carmen Maria Machado. Trina Goldberg-Oneka is a fifty-year-old trans woman whose life is irreversibly altered in the wake of a gentle\u2014but nonetheless world-changing\u2014invasion by an alien entity called The Seep. Through The Seep, everything is connected. Capitalism falls, hierarchies and barriers are broken down; if something can be imagined, it is possible.Trina and her wife, Deeba, live blissfully under The Seep\u2019s utopian influence\u2014until Deeba begins to imagine what it might be like to be reborn as a baby, which will give her the chance at an even better life. Using Seeptech to make this dream a reality, Deeba moves on to a new existence, leaving Trina devastated.Heartbroken and deep into an alcoholic binge, Trina follows a lost boy she encounters, embarking on an unexpected quest. In her attempt to save him from The Seep, she will confront not only one of its most avid devotees, but the terrifying void that Deeba has left behind. A strange new elegy of love and loss, The Seep explores grief, alienation, and the ache of moving on.",
+    "author": "Mary Pope Osborne",
+    "base_id": "439",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Vampire bats and killer ants?That's what Jack and Annie are about to run into when the Magic Tree House whisks them away to the Amazon River. It's not long before they get hopelessly lost. Will they be able to find their way back to the tree house? Or are Jack and Annie stuck forever in the rain forest? Visit the Magic Tree House website! MagicTreeHouse.com",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "LGBT (Transgender) ": 25,
-        "adult": 40,
-        "aliens": 20,
-        "fantasy": 37,
-        "fiction": 105,
-        "lgbt": 106,
-        "queer": 79,
-        "science fiction": 184,
-        "science fiction fantasy": 22,
-        "speculative fiction": 20
+        "adventure": 66,
+        "childrens": 189,
+        "childrens (chapter books)": 79,
+        "childrens (middle grade)": 23,
+        "fantasy": 175,
+        "fantasy (magic)": 26,
+        "fiction": 118,
+        "historical (historical fiction)": 45,
+        "kids": 19,
+        "science fiction (time travel)": 28
     },
     "inventory": [
         {
             "status": "available",
             "stock_id": "439_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "439_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "439_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "439_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "439_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "439_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "439_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1715,
-        "score": 3.68
+        "rating_votes": 14140,
+        "score": 3.95
     },
-    "pages": 398,
-    "title": "The Seep",
-    "url": "https://www.goodreads.com/book/show/45448133-the-seep",
-    "year_published": 2020
+    "pages": 719,
+    "title": "Afternoon on the Amazon",
+    "url": "https://www.goodreads.com/book/show/180645.Afternoon_on_the_Amazon",
+    "year_published": 1995
 }

@@ -1,38 +1,56 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 155,
-    "description": "In this explosive one-hundred-page prequel companion novella, uncover the truth behind Number Five\u2019s unknown history with the Mogadorians.This sequel to I Am Number Four: The Lost Files: Five\u2019s Legacy finds Number Five entering the ranks of the Mogadorian army. The Mogs have convinced him that they will be the victor in their war for Earth, and Five decides he would rather be on the winning side. Realizing that the only thing that matters is his survival, Five allies himself with the sworn enemies of the Lorien and pledges to help the Mogs take down the very people he was meant to protect. Is he too far gone to be saved? Discover how Five became one of Earth\u2019s and Lorien\u2019s most dangerous adversaries and decide for yourself.",
+    "author": "Neal Asher",
+    "base_id": "155",
+    "description": "Ian Cormac, a legendary Earth Central Security agent, the James Bond of a wealthy future, is hunting an interstellar dragon, little knowing that, far away, his competition has resurrected an horrific killing machine named \"Mr. Crane\" to assist in a similar hunt, ecompassing whole star systems. Mr. Crane, the insane indestructible artificial man now in a new metal body, seeks to escape a bloody past he can neither forget nor truly remember. And he is on a collision course with Ian Cormac.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 5,
-        "aliens": 22,
-        "fantasy": 40,
-        "fiction": 16,
-        "novella": 15,
-        "paranormal": 7,
-        "science fiction": 43,
-        "short stories": 14,
-        "teen": 8,
-        "young adult": 65
+        "artificial intelligence": 4,
+        "fantasy": 5,
+        "fiction": 38,
+        "science fiction": 237,
+        "science fiction (cyberpunk)": 9,
+        "science fiction fantasy": 5,
+        "space": 4,
+        "space (space opera)": 39,
+        "speculative fiction": 4,
+        "thriller": 4
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "155_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "155_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "155_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "155_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "155_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "155_6"
         }
     ],
     "metrics": {
-        "rating_votes": 3303,
-        "score": 4.04
+        "rating_votes": 6446,
+        "score": 4.14
     },
-    "pages": 1211,
-    "title": "Five's Betrayal",
-    "url": "https://www.goodreads.com/book/show/18738863-five-s-betrayal",
-    "year_published": 2014
+    "pages": 681,
+    "title": "Brass Man",
+    "url": "https://www.goodreads.com/book/show/414091.Brass_Man",
+    "year_published": 2005
 }

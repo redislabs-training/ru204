@@ -1,58 +1,38 @@
 {
-    "author": "Lara Adrian",
-    "base_id": 650,
-    "description": "In Crave the Night, Adrian brings the Breed and its world to the brink of war, where even the deepest passion can shatter into violence.Born and raised to be an emotionless killing machine, Nathan is one of the most lethal Breed vampires in existence. A key member of the Order\u2014an elite group of warriors charged with protecting both mortals and vampires\u2014Nathan executes each mission with flawless precision and a total lack of mercy. Now he must pursue a powerful, hidden enemy. But Nathan\u2019s hard discipline and training are no match for the fierce pull he feels toward a young woman he has no right to desire\u2014a woman of wealth and high social standing who has long been promised to another Breed male, and who may also prove to be the key to rooting out Nathan\u2019s elusive quarry.Jordana lives a life of glittering privilege as a member of a prominent Breed family in Boston. Surrounded by fine things and fawning admirers, Jordana wants for nothing\u2014until she crosses paths with a dark, intense warrior from the Order and finds herself swept into an impulsive, sizzling kiss that neither of them will forget. As much as she tries to deny her deep feelings for Nathan, Jordana cannot resist the craving to be near him, to break through his forbidding walls and see the man he truly is. But getting close to Nathan will thrust Jordana into a treacherous new world, forcing her to risk all she has and all she knows about herself and her past. And loving this seductive man could be the most dangerous temptation of all.",
+    "author": "Mary Pope Osborne",
+    "base_id": "650",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! It's a treasure trove of trouble!Jack and Annie are in for a high-seas adventure when the Magic Tree House whisks them back to the days of deserted islands, secret maps\u2014and ruthless pirates! Will they discover a buried treasure? Or will they be forced to walk the plank? Visit the Magic Tree House website! MagicTreeHouse.com",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 30,
-        "aliens": 20,
-        "audiobook": 17,
-        "fantasy": 63,
-        "fiction": 15,
-        "paranormal": 202,
-        "paranormal romance": 234,
-        "romance": 139,
-        "urban fantasy": 28,
-        "vampires": 191
+        "adventure": 75,
+        "adventure (pirates)": 50,
+        "childrens": 213,
+        "childrens (chapter books)": 93,
+        "childrens (middle grade)": 28,
+        "fantasy": 207,
+        "fantasy (magic)": 29,
+        "fiction": 138,
+        "historical (historical fiction)": 77,
+        "science fiction (time travel)": 42
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "650_1"
         },
         {
             "status": "available",
             "stock_id": "650_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "650_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "650_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "650_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "650_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "650_7"
         }
     ],
     "metrics": {
-        "rating_votes": 7653,
-        "score": 4.27
+        "rating_votes": 16664,
+        "score": 3.92
     },
-    "pages": 1159,
-    "title": "Crave The Night",
-    "url": "https://www.goodreads.com/book/show/17184930-crave-the-night",
-    "year_published": 2014
+    "pages": 851,
+    "title": "Pirates Past Noon",
+    "url": "https://www.goodreads.com/book/show/143717.Pirates_Past_Noon",
+    "year_published": 1992
 }

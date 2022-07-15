@@ -1,41 +1,43 @@
 {
     "author": "Arthur C. Clarke",
-    "base_id": 5545,
+    "base_id": "5545",
     "description": "The Overlords appeared suddenly over every city--intellectually, technologically, and militarily superior to humankind. Benevolent, they made few demands: unify earth, eliminate poverty, and end war. With little rebellion, humankind agreed, and a golden age began.But at what cost? With the advent of peace, man ceases to strive for creative greatness, and a malaise settles over the human race. To those who resist, it becomes evident that the Overlords have an agenda of their own. As civilization approaches the crossroads, will the Overlords spell the end for humankind . . . or the beginning?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 152,
         "audiobook": 112,
         "classics": 550,
-        "dystopia": 153,
         "fantasy": 141,
         "fiction": 1509,
         "novels": 114,
         "science fiction": 4184,
+        "science fiction (aliens)": 152,
+        "science fiction (dystopia)": 153,
         "science fiction fantasy": 249,
         "speculative fiction": 106
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "5545_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "5545_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "5545_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "5545_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "5545_5"
         },
         {
@@ -43,19 +45,19 @@
             "stock_id": "5545_6"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "5545_7"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "5545_8"
         }
     ],
     "metrics": {
-        "rating_votes": 134882,
+        "rating_votes": 134843,
         "score": 4.1
     },
-    "pages": 520,
+    "pages": 1273,
     "title": "Childhood's End",
     "url": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
     "year_published": 1953

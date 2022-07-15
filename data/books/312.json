@@ -1,0 +1,40 @@
+{
+    "author": "Jon Scieszka",
+    "base_id": "312",
+    "description": "Magician Uncle Joe's birthday present entitled \"The Book\" swirls green mist and grants pal Fred's wish to \"see knights and all that stuff for real\", sending Sir Joe the Magnificent, Sir Fred the Awesome, and Sir Sam the Unusual to King Arthur's castle opposing the Black Knight, grossly smelly giant Bleob, and fire-breathing leather-winged iron-clawed green dragon Smaug. Fred plays tag and wields a baseball bat. Sam cleverly politicks. Joseph Arthur tricks with cards. But Merlin has \"The Book\" to get home.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 45,
+        "childrens": 73,
+        "childrens (chapter books)": 26,
+        "childrens (middle grade)": 27,
+        "fantasy": 103,
+        "fiction": 35,
+        "historical (historical fiction)": 37,
+        "humor": 49,
+        "science fiction": 21,
+        "science fiction (time travel)": 47
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "312_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "312_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3348,
+        "score": 3.69
+    },
+    "pages": 538,
+    "title": "Knights of the Kitchen Table",
+    "url": "https://www.goodreads.com/book/show/793012.Knights_of_the_Kitchen_Table",
+    "year_published": 1991
+}

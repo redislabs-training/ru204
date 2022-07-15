@@ -1,25 +1,27 @@
 {
     "author": "Clifford D. Simak",
-    "base_id": 1295,
+    "base_id": "1295",
     "description": "Enoch Wallace is an ageless hermit, striding across his untended farm as he has done for over a century, still carrying the gun with which he had served in the Civil War. But what his neighbors must never know is that, inside his unchanging house, he meets with a host of unimaginable friends from the farthest stars.More than a hundred years before, an alien named Ulysses had recruited Enoch as the keeper of Earth's only galactic transfer station. Now, as Enoch studies the progress of Earth and tends the tanks where the aliens appear, the charts he made indicate his world is doomed to destruction. His alien friends can only offer help that seems worse than the dreaded disaster. Then he discovers the horror that lies across the galaxy...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 41,
         "audiobook": 26,
         "classics": 54,
         "fantasy": 43,
         "fiction": 255,
         "hugo awards": 71,
         "science fiction": 1008,
+        "science fiction (aliens)": 41,
         "science fiction fantasy": 45,
         "space": 16,
         "speculative fiction": 35
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "1295_1"
         },
         {
@@ -27,19 +29,35 @@
             "stock_id": "1295_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1295_3"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "1295_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1295_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1295_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1295_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1295_8"
         }
     ],
     "metrics": {
         "rating_votes": 23402,
         "score": 4.04
     },
-    "pages": 1015,
+    "pages": 782,
     "title": "Way Station",
     "url": "https://www.goodreads.com/book/show/190999.Way_Station",
     "year_published": 1963

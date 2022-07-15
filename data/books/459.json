@@ -1,0 +1,62 @@
+{
+    "author": "Simon R. Green",
+    "base_id": "459",
+    "description": "The New York Times bestselling author takes readers back to the Nightside.A quest for the Unholy Grail-the goblet from which Judas drank at the Last Supper-takes private eye John Taylor deep into the secret, magical heart of London...called the Nightside.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "fantasy": 486,
+        "fantasy (magic)": 32,
+        "fantasy (paranormal)": 97,
+        "fantasy (supernatural)": 40,
+        "fantasy (urban fantasy)": 616,
+        "fiction": 88,
+        "horror": 92,
+        "mystery": 114,
+        "mystery (detective)": 34,
+        "science fiction": 30
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "459_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "459_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "459_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "459_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "459_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "459_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "459_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "459_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14859,
+        "score": 4.0
+    },
+    "pages": 1104,
+    "title": "Agents of Light and Darkness",
+    "url": "https://www.goodreads.com/book/show/155291.Agents_of_Light_and_Darkness",
+    "year_published": 2003
+}

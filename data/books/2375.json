@@ -1,37 +1,59 @@
 {
     "author": "John Scalzi",
-    "base_id": 2375,
+    "base_id": "2375",
     "description": "Retired from his fighting days, John Perry is now village ombudsman for a human colony on distant Huckleberry. With his wife, former Special Forces warrior Jane Sagan, he farms several acres, adjudicates local disputes, and enjoys watching his adopted daughter grow up.That is, until his and Jane's past reaches out to bring them back into the game--as leaders of a new human colony, to be peopled by settlers from all the major human worlds, for a deep political purpose that will put Perry and Sagan back in the thick of interstellar politics, betrayal, and war.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 47,
         "audiobook": 78,
         "fantasy": 49,
         "fiction": 445,
-        "military fiction": 101,
         "science fiction": 1816,
+        "science fiction (aliens)": 47,
         "science fiction fantasy": 101,
         "space": 75,
-        "space opera": 189,
-        "war": 68
+        "space (space opera)": 189,
+        "war": 68,
+        "war (military fiction)": 101
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "2375_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "2375_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2375_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2375_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2375_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2375_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "2375_7"
         }
     ],
     "metrics": {
         "rating_votes": 52759,
         "score": 4.07
     },
-    "pages": 916,
+    "pages": 892,
     "title": "The Last Colony",
     "url": "https://www.goodreads.com/book/show/88071.The_Last_Colony",
     "year_published": 2007

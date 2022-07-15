@@ -1,46 +1,39 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 378,
-    "description": "Beast. Creature. Monster.Dangerous.All of these things have been said about Gren.Willa doesn\u2019t believe it, though. She knows that monsters can sometimes come in appealing packages. She knows that for all of his snarls and fearsome appearance, he\u2019d never hurt her.And she knows she has to get Gren away from the Icehome camp, because no one will ever see him as a person, not when he attacks all who come close. Not when he\u2019s tied and treated like an animal.She\u2019s going to save him\u2026 or fall in love. Maybe both. Willa doesn\u2019t mind that he\u2019s a beast, as long as he\u2019s *her* beast.",
+    "author": "Garth Nix",
+    "base_id": "378",
+    "description": "The stellar fourth book in Garth Nix's masterpiece series... now in paperback! On the fourth day there was war... Following their adventures in the Border Sea, Arthur and Leaf head for home. But only Leaf gets through the Front Door. Arthur is blocked because someone . . . or something . . . has assumed his identity and is taking over his life. Before Arthur can take action, he is drafted by Sir Thursday and forced to join the Glorious Army of the Architect. While Leaf tries to banish Arthur's doppleganger on earth, Arthur must survive his basic training, avoid getting posted to the Front and work out how he can free Part Four of the Will....",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 13,
-        "aliens": 93,
-        "erotica": 27,
-        "fantasy": 25,
-        "fiction": 9,
-        "paranormal": 18,
-        "paranormal romance": 21,
-        "romance": 87,
-        "science fiction": 76,
-        "science fiction romance": 26
+        "adventure": 75,
+        "childrens": 83,
+        "childrens (middle grade)": 60,
+        "fantasy": 953,
+        "fantasy (magic)": 51,
+        "fiction": 141,
+        "science fiction fantasy": 25,
+        "young adult": 292,
+        "young adult (teen)": 26,
+        "young adult (young adult fantasy)": 37
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "378_1"
         },
         {
             "status": "on_loan",
             "stock_id": "378_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "378_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "378_4"
         }
     ],
     "metrics": {
-        "rating_votes": 3701,
-        "score": 4.05
+        "rating_votes": 21476,
+        "score": 3.95
     },
-    "pages": 1165,
-    "title": "Willa's Beast",
-    "url": "https://www.goodreads.com/book/show/42193506-willa-s-beast",
-    "year_published": 2018
+    "pages": 1065,
+    "title": "Sir Thursday",
+    "url": "https://www.goodreads.com/book/show/47618.Sir_Thursday",
+    "year_published": 2006
 }

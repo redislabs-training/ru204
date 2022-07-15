@@ -1,0 +1,64 @@
+{
+    "author": "Frank Beddor",
+    "base_id": "3873",
+    "description": "Alyss of Wonderland?When Alyss Heart, newly orphaned heir to the Wonderland throne, flees through the Pool of Tears to escape her murderous Aunt Redd, she finds herself lost and alone in Victorian London. Befriended by an aspiring author named Lewis Carrol, Alyss tells the violent, heartbreaking story of her young life. Alyss trusts this author to tell the truth so that someone, somewhere will find her and bring her home. But he gets the story all wrong. He even spells her name incorrectly!Fortunately, Royal Bodyguard Hatter Madigan knows all too well the awful truth of Alyss' story - and he's searching every corner of our world to find the lost princess and return her to Wonderland, to battle Redd for her rightful place as the Queen of Hearts.The Looking Glass Wars unabashedly challenges our Wonderland assumptions of mad tea parties, grinning Cheshire cats, and a curious little blond girl to reveal an epic battle in the endless war for Imagination.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 189,
+        "fantasy": 2494,
+        "fantasy (fairy tales)": 137,
+        "fantasy (magic)": 145,
+        "fiction": 399,
+        "retellings": 280,
+        "science fiction (steampunk)": 159,
+        "young adult": 1222,
+        "young adult (teen)": 109,
+        "young adult (young adult fantasy)": 110
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "3873_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3873_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3873_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3873_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3873_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3873_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3873_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3873_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 42075,
+        "score": 3.93
+    },
+    "pages": 336,
+    "title": "The Looking Glass Wars",
+    "url": "https://www.goodreads.com/book/show/44170.The_Looking_Glass_Wars",
+    "year_published": 2004
+}

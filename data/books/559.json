@@ -1,0 +1,58 @@
+{
+    "author": "Ysabeau S. Wilce",
+    "base_id": "559",
+    "description": "Flora knows better than to take shortcuts in her family home, Crackpot Hall--the house has eleven thousand rooms, and ever since her mother banished the magickal butler, those rooms move around at random. But Flora is late for school, so she takes the\u00a0unpredictable elevator anyway.\u00a0Huge mistake. Lost in her own house, she stumbles upon the long-banished butler--and\u00a0into a mind-blowing\u00a0muddle of intrigue and betrayal that changes her world forever.\u00a0\u00a0\u00a0\u00a0 Full of\u00a0wildly clever plot twists, this extraordinary first novel establishes Ysabeau Wilce as a\u00a0compelling new voice in teen fantasy.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 39,
+        "childrens": 18,
+        "childrens (middle grade)": 36,
+        "fantasy": 588,
+        "fantasy (magic)": 52,
+        "fiction": 70,
+        "science fiction (steampunk)": 16,
+        "young adult": 269,
+        "young adult (teen)": 29,
+        "young adult (young adult fantasy)": 27
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "559_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "559_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "559_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "559_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "559_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "559_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "559_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4222,
+        "score": 3.69
+    },
+    "pages": 1292,
+    "title": "Flora Segunda",
+    "url": "https://www.goodreads.com/book/show/229033.Flora_Segunda",
+    "year_published": 2007
+}

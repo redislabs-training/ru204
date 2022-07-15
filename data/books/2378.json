@@ -1,0 +1,55 @@
+{
+    "author": "Lynne Reid Banks",
+    "base_id": "2378",
+    "description": "At first, Omri is unimpressed with the plastic Indian toy he is given for his birthday. But when he puts it in his old cupboard and turns the key, something extraordinary happens that will change Omri's life for ever. For Little Bear, the Iroquois Indian brave, comes to life...",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "academic (school)": 70,
+        "adventure": 121,
+        "childrens": 818,
+        "childrens (chapter books)": 76,
+        "childrens (juvenile)": 128,
+        "childrens (middle grade)": 252,
+        "classics": 330,
+        "fantasy": 1021,
+        "fiction": 746,
+        "young adult": 503
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2378_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2378_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2378_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2378_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2378_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2378_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 99244,
+        "score": 3.91
+    },
+    "pages": 1340,
+    "title": "The Indian in the Cupboard",
+    "url": "https://www.goodreads.com/book/show/125404.The_Indian_in_the_Cupboard",
+    "year_published": 1980
+}

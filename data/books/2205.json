@@ -1,0 +1,56 @@
+{
+    "author": "Connie Willis",
+    "base_id": "2205",
+    "description": "In Blackout, award-winning author Connie Willis returned to the time-traveling future of 2060\u2014the setting for several of her most celebrated works\u2014and sent three Oxford historians to World War II England: Michael Davies, intent on observing heroism during the Miracle of Dunkirk; Merope Ward, studying children evacuated from London; and Polly Churchill, posing as a shopgirl in the middle of the Blitz. But when the three become unexpectedly trapped in 1940, they struggle not only to find their way home but to survive as Hitler\u2019s bombers attempt to pummel London into submission. Now the situation has grown even more dire. Small discrepancies in the historical record seem to indicate that one or all of them have somehow affected the past, changing the outcome of the war. The belief that the past can be observed but never altered has always been a core belief of time-travel theory\u2014but suddenly it seems that the theory is horribly, tragically wrong. Meanwhile, in 2060 Oxford, the historians\u2019 supervisor, Mr. Dunworthy, and seventeen-year-old Colin Templer, who nurses a powerful crush on Polly, are engaged in a frantic and seemingly impossible struggle of their own\u2014to find three missing needles in the haystack of history. Told with compassion, humor, and an artistry both uplifting and devastating, All Clear is more than just the triumphant culmination of the adventure that began with Blackout. It\u2019s Connie Willis\u2019s most humane, heartfelt novel yet\u2014a clear-eyed celebration of faith, love, and the quiet, ordinary acts of heroism and sacrifice too often overlooked by history.\u00a0\u00a0\u00a0",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 60,
+        "fantasy": 142,
+        "fiction": 367,
+        "historical": 154,
+        "historical (historical fiction)": 512,
+        "science fiction": 804,
+        "science fiction (time travel)": 527,
+        "science fiction fantasy": 71,
+        "speculative fiction": 59,
+        "war (world war ii)": 86
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2205_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2205_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2205_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2205_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2205_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2205_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 18076,
+        "score": 4.06
+    },
+    "pages": 1030,
+    "title": "All Clear",
+    "url": "https://www.goodreads.com/book/show/7519231-all-clear",
+    "year_published": 2010
+}

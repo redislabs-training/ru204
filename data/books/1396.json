@@ -1,0 +1,50 @@
+{
+    "author": "Ian Mortimer",
+    "base_id": "1396",
+    "description": "Imagine you could get into a time machine and travel back to the 14th century. This text sets out to explain what life was like in the most immediate way, through taking the reader to the Middle Ages, and showing everything from the horrors of leprosy and war to the ridiculous excesses of roasted larks and haute couture.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "european literature (british literature)": 122,
+        "historical": 159,
+        "historical (medieval)": 222,
+        "history": 2004,
+        "history (european history)": 42,
+        "history (medieval history)": 61,
+        "literature (14th century)": 43,
+        "nonfiction": 1220,
+        "science fiction (time travel)": 48,
+        "travel": 54
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1396_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1396_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1396_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1396_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1396_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 19890,
+        "score": 3.99
+    },
+    "pages": 1312,
+    "title": "The Time Traveller's Guide to Medieval England: A Handbook for Visitors to the Fourteenth Century",
+    "url": "https://www.goodreads.com/book/show/4936457-the-time-traveller-s-guide-to-medieval-england",
+    "year_published": 2008
+}

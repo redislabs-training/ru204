@@ -1,0 +1,67 @@
+{
+    "author": "Robert Kirkman",
+    "base_id": "1425",
+    "description": "This hardcover features the first 12 issues of the hit series along with the covers for the issues in one oversized hardcover volume. Perfect for long time fans, new readers and anyone needing a slightly heavy object with which to fend off the walking dead.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 75,
+        "comics (comic book)": 61,
+        "fiction": 192,
+        "graphic novels comics": 101,
+        "horror": 511,
+        "horror (zombies)": 393,
+        "science fiction": 52,
+        "science fiction (dystopia)": 58,
+        "sequential art (comics)": 712,
+        "sequential art (graphic novels)": 982
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1425_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1425_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1425_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1425_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1425_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1425_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1425_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1425_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1425_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 35833,
+        "score": 4.35
+    },
+    "pages": 809,
+    "title": "The Walking Dead, Book One",
+    "url": "https://www.goodreads.com/book/show/30071.The_Walking_Dead_Book_One",
+    "year_published": 2004
+}

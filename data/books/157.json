@@ -1,21 +1,23 @@
 {
-    "author": "M.K. Eidem",
-    "base_id": 157,
-    "description": "Ull Rigel is a fit and worthy Tornian warrior, the first male of a powerful and respected Lord. Because of this, he'd always believed he'd be able to attract a female, securing his bloodline.But he hadn't.He hadn't even been able to attract one of the Earth females they'd discovered. But his younger brother, a third male, did. Now, the Emperor was sending Ull to Earth to protect it from the Ganglians who were abducting the females his brother warriors so need.Trisha Burke had plans for her life. Career. Family. Friends. But one moment changed all that. Her friend Lisa and Lisa's two children suddenly disappeared without any explanation. When local law enforcement couldn't find them, she reached out to the most powerful person she knew. The President of the United States, her Uncle.Two people who have had their lives turned upside down are on a collision course. How these two handled the impact and deal with the aftermath will affect not just them but all the Known Universes. ",
+    "author": "Rysa Walker",
+    "base_id": "157",
+    "description": "The only things on Prudence Pierce's mind are seducing her violin instructor and, with the help of her sister Deborah, avoiding the wrath of their mother for stepping out of the house dressed like Madonna. Her mother might also be a teensy bit angry about the medallion Pru swiped from the attic--a medallion that glows lime green and has an oddly hypnotic, holographic effect when Pru holds it in her hand.A simple blink is all it takes to yank Pru from the car with her dad into a world of hurt. She awakens in 2305 to find herself pinned under what's left of CHRONOS headquarters, thanks to a recent terrorist attack. Their prime suspect? Her mother, Katherine Shaw. And everyone wants to know how Pru got her hands on a CHRONOS key.Pru is convinced that the key is the answer to all her problems. She'll use it to stop her mother, fix her relationship with Deb, and even restore CHRONOS, so that her new friend Tate can return to the job he loves.She can't do it alone, however. Fortunately, she finds Saul Rand, and he's more than willing to help.This digital novella follows Prudence's story from her fateful first journey with the CHRONOS key to the point where her story intersects with Kiernan Dunne in the first novella, Time's Echo. It also helps sets the stage for Time's Divide, the third and final book in The CHRONOS Files, coming from Skyscape in October.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 2,
-        "aliens": 22,
-        "erotica": 2,
-        "fantasy": 5,
-        "futuristic": 3,
-        "paranormal": 4,
-        "romance": 21,
-        "science fiction": 16,
-        "science fiction romance": 6,
-        "warriors": 3
+        "audiobook": 8,
+        "fantasy": 16,
+        "fiction": 22,
+        "historical (historical fiction)": 5,
+        "novella": 5,
+        "science fiction": 31,
+        "science fiction (dystopia)": 5,
+        "science fiction (time travel)": 74,
+        "short stories": 5,
+        "young adult": 42
     },
     "inventory": [
         {
@@ -23,44 +25,16 @@
             "stock_id": "157_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "157_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "157_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "157_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "157_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "157_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "157_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "157_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "157_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1261,
-        "score": 4.28
+        "rating_votes": 2456,
+        "score": 4.03
     },
-    "pages": 1271,
-    "title": "Ull",
-    "url": "https://www.goodreads.com/book/show/51691787-ull",
-    "year_published": 2020
+    "pages": 454,
+    "title": "Time's Mirror",
+    "url": "https://www.goodreads.com/book/show/25810884-time-s-mirror",
+    "year_published": 2015
 }

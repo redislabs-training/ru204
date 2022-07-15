@@ -1,29 +1,31 @@
 {
-    "author": "Nancy Kress",
-    "base_id": 219,
-    "description": "Aliens appeared one day, built a base on the moon, and put an ad on the internet. The Atoners claim to have wronged humanity ten thousand years before, and request 21 volunteers to visit seven planets and Witness for us. At first, everyone thought it was a joke. Three of those volunteers tell what they found on Kular A and Kular B.",
+    "author": "Christopher G. Nuttall",
+    "base_id": "219",
+    "description": "Emily is a teenage girl pulled from our world into a world of magic and mystery by a necromancer who intends to sacrifice her to the dark gods. Rescued in the nick of time by an enigmatic sorcerer, she discovers that she possesses magical powers and must go to Whitehall School to learn how to master them. There, she learns the locals believe that she is a \"Child of Destiny,\" someone whose choices might save or damn their world ... a title that earns her both friends and enemies. A stranger in a very strange land, she may never fit into her new world ... ...and the necromancer is still hunting her. If Emily can't stop him, he might bring about the end of days. Book I in the Schooled in Magic series.",
     "editions": [
-        "None"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 3,
-        "aliens": 18,
-        "fantasy": 3,
-        "fiction": 43,
-        "mystery": 4,
-        "religion": 3,
-        "science fiction": 163,
-        "science fiction fantasy": 9,
-        "space": 5,
-        "speculative fiction": 6
+        "academic (school)": 10,
+        "audiobook": 7,
+        "fantasy": 207,
+        "fantasy (magic)": 24,
+        "fantasy (paranormal)": 13,
+        "fantasy (urban fantasy)": 10,
+        "fiction": 11,
+        "paranormal (witches)": 5,
+        "young adult": 43,
+        "young adult (young adult fantasy)": 7
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "219_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "219_2"
         },
         {
@@ -31,36 +33,32 @@
             "stock_id": "219_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "219_4"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "219_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "219_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "219_7"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "219_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "219_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1217,
-        "score": 3.45
+        "rating_votes": 5093,
+        "score": 4.0
     },
-    "pages": 1352,
-    "title": "Steal Across the Sky",
-    "url": "https://www.goodreads.com/book/show/5226164-steal-across-the-sky",
-    "year_published": 2009
+    "pages": 779,
+    "title": "Schooled in Magic",
+    "url": "https://www.goodreads.com/book/show/20927280-schooled-in-magic",
+    "year_published": 2014
 }

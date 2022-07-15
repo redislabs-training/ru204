@@ -1,34 +1,60 @@
 {
-    "author": "Presley Hall",
-    "base_id": 112,
-    "description": "Recently jobless and homeless, now I've been kidnapped by aliens.I thought my day couldn't get any worse\u2026 until the disgusting Orkun warlords who abducted me tell me I'm meant to be a \"bride\" for their commander.No! No freaking way.But before I can figure out a way off this spaceship, I find myself caught in the middle of an uprising by their other captives: a breathtakingly masculine gladiator race called Kalixians.With their bronze skin, horns, and rippling muscles, the Kalixians look like gods.Their leader, Tordax, is the most stunning of all. His touch sets off fireworks in my body, and I'm drawn to him in a way I can't understand-especially considering we don't even speak the same language.But am I really safer now, or have I just traded one captor for another?What does this powerful alien want with me?And why does he keep looking at me like I'm his?Claimed is a full-length standalone sci-fi romance featuring hot alien gladiators with huge\u2026 horns, a sassy heroine who finds her courage in space, and a possessive alpha hero who would do anything to protect his fated mate.If you like sexy aliens, sweeping adventure, and steamy romance, you\u2019ll love this series. No cheating, no cliffhanger, and a happily ever after guaranteed!Fated Mates of the Kalixian Warriors series:Book 1: Claimed (Rose & Tordax)Book 2: Seized (Harper & Malav)Book 3: Rescued (Autumn & Sorsir)Book 4: BoundBook 5: Broken",
+    "author": "Jason",
+    "base_id": "112",
+    "description": "After his existential thriller (Why Are You Doing This?), his Parisian famous-writers crime caper (The Left Bank Gang), and his time-travel story (I Killed Adolf Hitler), Jason's fourth full-color album may feature his loopiest premise yet.Set in the present, The Last Musketeer stars the by-now centuries old (for no explained reason...and it doesn't matter) musketeer Athos, who has been reduced to a suavely dressed but useless near-panhandler trading on his now almost extinct fame. (Aramis has forsaken his musketeering ways, and Porthos...well, Porthos isn't around any more. Don't ask.) All this changes when one day the Martians attack Earth. Suddenly there is a need for swashes to be buckled, and Athos leaps back into the fray with a vengeance. Robots, evil alien emperors, beautiful alien princesses, rayguns vs. swords, treachery, secret corridors, insanely cool-looking robots...The Last Musketeer is vintage sci-fi adventure with a unique twist from an internationally acclaimed cartoonist.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 3,
-        "aliens": 20,
-        "erotica": 5,
-        "fantasy": 5,
-        "paranormal": 4,
-        "paranormal romance": 2,
-        "romance": 15,
-        "science fiction": 14,
-        "science fiction romance": 12,
-        "space": 2
+        "adventure": 5,
+        "comics (comic book)": 5,
+        "fantasy": 3,
+        "fiction": 19,
+        "graphic novels comics": 10,
+        "humor": 3,
+        "science fiction": 15,
+        "sequential art (comics)": 107,
+        "sequential art (comix)": 8,
+        "sequential art (graphic novels)": 97
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "112_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "112_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "112_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "112_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "112_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "112_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "112_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1352,
-        "score": 3.9
+        "rating_votes": 1386,
+        "score": 3.89
     },
-    "pages": 676,
-    "title": "Claimed",
-    "url": "https://www.goodreads.com/book/show/51607596-claimed",
-    "year_published": 2020
+    "pages": 1220,
+    "title": "The Last Musketeer",
+    "url": "https://www.goodreads.com/book/show/2199856.The_Last_Musketeer",
+    "year_published": 2007
 }

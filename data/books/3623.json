@@ -1,0 +1,38 @@
+{
+    "author": "Douglas Adams",
+    "base_id": "3623",
+    "description": "The unhappy inhabitants of planet Krikkit are sick of looking at the night sky above their heads\u2013so they plan to destroy it. The universe, that is. Now only five individuals stand between the killer robots of Krikkit and their goal of total annihilation.They are Arthur Dent, a mild-mannered space and time traveler who tries to learn how to fly by throwing himself at the ground and missing; Ford Prefect, his best friend, who decides to go insane to see if he likes it; Slartibartfast, the indomitable vice president of the Campaign for Real Time, who travels in a ship powered by irrational behavior; Zaphod Beeblebrox, the two-headed, three-armed ex-president of the galazy; and Trillian, the sexy space cadet who is torn between a persistent Thunder God and a very depressed Beeblebrox.How will it all end? Will it end? Only this stalwart crew knows as they try to avert \u201cuniversal\u201d Armageddon and save life as we know it\u2013and don\u2019t know it!",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 204,
+        "audiobook": 239,
+        "classics": 336,
+        "fantasy": 968,
+        "fiction": 2618,
+        "humor": 2003,
+        "humor (comedy)": 686,
+        "novels": 190,
+        "science fiction": 4614,
+        "science fiction fantasy": 438
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3623_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3623_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 200075,
+        "score": 4.2
+    },
+    "pages": 1185,
+    "title": "Life, the Universe and Everything",
+    "url": "https://www.goodreads.com/book/show/8694.Life_the_Universe_and_Everything",
+    "year_published": 1982
+}

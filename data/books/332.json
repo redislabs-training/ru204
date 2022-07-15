@@ -1,34 +1,67 @@
 {
-    "author": "Martin Leicht",
-    "base_id": 332,
-    "description": "Teen pregnancy is never easy\u2014especially not when extraterrestrials are involved. The first in a new trilogy.Elvie Nara was doing just fine in the year 2074. She had a great best friend, a dad she adored, and bright future working on the Ares Project on Mars. But then she had to get involved with sweet, gorgeous, dumb-as-a-brick Cole--and now she\u2019s pregnant.Getting shipped off to the Hanover School for Expecting Teen Mothers was not how Elvie imagined spending her junior year, but she can go with the flow. That is, until a team of hot commandos hijacks the ship--and one of them turns out to be Cole. She hasn\u2019t seen him since she told him she\u2019s pregnant, and now he\u2019s bursting into her new home to tell her that her teachers are aliens and want to use her unborn baby to repopulate their species? Nice try, buddy. You could have just called.So fine, finding a way off this ship is priority number one, but first Elvie has to figure out how Cole ended up as a commando, work together with her arch-nemesis, and figure out if she even wants to be a mother--assuming they get back to Earth in one piece.",
+    "author": "Charles Soule",
+    "base_id": "332",
+    "description": "Poe Dameron, former Republic flyer turned Resistance fighter, is the best pilot in the galaxy. Hand-picked for the resistance by General Leia Organa to lead a squadron on a top-secret and vital mission, Poe sets off to investigate sites of historical importance to the Force \u2014 revealing backstory leading directly into The Force Awakens! Follow Poe and his X-Wing squadron on covert missions against the First Order, brought to you by writer Charles Soule (STAR WARS: LANDO, DAREDEVIL) and artist Phil Noto (STAR WARS: CHEWBACCA, BLACK WIDOW)!Collecting issues 1\u20136 from the ongoing series.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "action": 7,
-        "aliens": 24,
-        "fantasy": 14,
-        "fiction": 9,
-        "futuristic": 10,
-        "humor": 27,
-        "romance": 28,
-        "science fiction": 83,
-        "teen": 12,
-        "young adult": 85
+        "comics (comic book)": 29,
+        "fantasy": 16,
+        "fiction": 40,
+        "graphic novels comics": 35,
+        "media tie in (star wars)": 418,
+        "science fiction": 90,
+        "sequential art (comics)": 282,
+        "sequential art (graphic novels)": 201,
+        "space": 9,
+        "superheroes (marvel)": 42
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "332_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "332_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "332_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "332_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "332_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "332_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "332_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "332_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "332_9"
         }
     ],
     "metrics": {
-        "rating_votes": 1279,
-        "score": 3.83
+        "rating_votes": 2890,
+        "score": 3.67
     },
-    "pages": 1002,
-    "title": "Mothership",
-    "url": "https://www.goodreads.com/book/show/12993856-mothership",
-    "year_published": 2012
+    "pages": 1195,
+    "title": "Star Wars: Poe Dameron, Vol. 1: Black Squadron",
+    "url": "https://www.goodreads.com/book/show/29775742-star-wars",
+    "year_published": 2016
 }

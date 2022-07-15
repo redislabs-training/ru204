@@ -1,16 +1,23 @@
 {
-    "author": "Tiffany Roberts",
-    "base_id": 87,
-    "description": "An undercover alien. A curvy human female he\u2019s desperate to claim. One month to make her his.Tabitha Mathews has never had much luck with men. Her past relationships only left her heart aching and her self-esteem beaten down. But who needs them? She\u2019s doing just fine on her own. She has a booming home business, an adorable, mischievous dog, and she just became a first-time homeowner\u2026right next door to the hottest man she\u2019s ever seen.Oh, did she mention that he happens to be an alien? An alien with dreamy, glowing eyes, wicked fangs and claws, and a tail.But she\u2019s not supposed to know that, and only finds out after her wonderfully considerate dog leaves a big, odorous gift in her neighbor\u2019s back yard\u2014which promptly results in her being kidnapped.Now she\u2019s tied to the alien\u2019s bed, because of course he\u2019s come to Earth in search of a mate\u2014and he wants Tabitha to fill that role. More specifically, he wants her to carry his baby.Saying he\u2019s moving fast seems like a bit of an understatement. Is Tabitha willing to accept her alien abductor as a mate? Is she ready to be a mother?And he\u2019s generous enough to give her four whole weeks to decide.It\u2019s not like it\u2019s the biggest decision of her life or anything\u2026right?",
+    "author": "James K. Decker",
+    "base_id": "87",
+    "description": "Plagued by overpopulation, disease, and starvation, humanity was headed for extinction\u2014until an alien race called the haan arrived. And then the real trouble began. It\u2019s been a rough day for Sam Shao. As part of a program that requires humans to act as surrogates to haan infants, Sam has been genetically enhanced to bond with them. So when three soldiers invade her apartment and arrest her guardian for smuggling a dangerous weapon into the country, Sam can sense that something isn\u2019t right. One of his abductors is a haan masquerading as a human, and the supposedly fragile haan seems to be anything but. Racing through the city slums, trying to stay one step ahead of the mysterious haan soldier, Sam tries to find the man who, in her twenty years, has been the only father she\u2019s ever known. Could he truly have done what he is accused of? Or did he witness something both human and haan would kill to keep hidden? The only thing certain is that the weapon is real\u2014and lost now somewhere in a city of millions. Fighting the clock, Sam finds an ally in Nix, a haan envoy devoted to coexisting with humans, or so it seems. But what she really needs are answers. Fast. Or else everything she knows\u2014and everyone she loves\u2014will burn.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 18,
-        "paranormal romance": 2,
-        "romance": 5,
-        "science fiction": 7,
-        "science fiction romance": 3
+        "adult": 2,
+        "fantasy": 5,
+        "fiction": 9,
+        "futuristic": 4,
+        "science fiction": 39,
+        "science fiction (aliens)": 11,
+        "science fiction (cyberpunk)": 4,
+        "science fiction (dystopia)": 8,
+        "science fiction fantasy": 2,
+        "thriller": 3
     },
     "inventory": [
         {
@@ -18,28 +25,16 @@
             "stock_id": "87_1"
         },
         {
-            "status": "available",
-            "stock_id": "87_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "87_3"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "87_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "87_5"
+            "stock_id": "87_2"
         }
     ],
     "metrics": {
-        "rating_votes": 546,
-        "score": 4.15
+        "rating_votes": 330,
+        "score": 3.55
     },
-    "pages": 951,
-    "title": "Taken by the Alien Next Door",
-    "url": "https://www.goodreads.com/book/show/55681599-taken-by-the-alien-next-door",
-    "year_published": 2020
+    "pages": 992,
+    "title": "The Burn Zone",
+    "url": "https://www.goodreads.com/book/show/15788704-the-burn-zone",
+    "year_published": 2013
 }

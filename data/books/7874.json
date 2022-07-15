@@ -1,0 +1,35 @@
+{
+    "author": "Neil Gaiman",
+    "base_id": "7874",
+    "description": "\"I bought the milk,\" said my father. \"I walked out of the corner shop, and heard a noise like this: t h u m m t h u m m. I looked up and saw a huge silver disc hovering in the air above Marshall Road.\"\"Hullo,\" I said to myself. \"That's not something you see every day. And then something odd happened.\"Find out just how odd things get in this hilarious New York Times bestselling story of time travel and breakfast cereal, expertly told by Newbery Medalist and bestselling author Neil Gaiman and illustrated by Skottie Young.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 300,
+        "audiobook": 245,
+        "childrens": 819,
+        "childrens (middle grade)": 527,
+        "fantasy": 1643,
+        "fiction": 705,
+        "humor": 550,
+        "science fiction": 192,
+        "science fiction (time travel)": 183,
+        "young adult": 215
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "7874_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 52690,
+        "score": 4.05
+    },
+    "pages": 403,
+    "title": "Fortunately, the Milk",
+    "url": "https://www.goodreads.com/book/show/17349203-fortunately-the-milk",
+    "year_published": 2013
+}

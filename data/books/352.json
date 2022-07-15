@@ -1,38 +1,39 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 352,
-    "description": "For seasons, I have waited for her - my perfect mate.In a tribe full of happy couples, I am alone. But I am not content to remain this way. There are no eligible unmated females left, so I will do whatever it takes to bring females back to our tribe... even if it means doing something wrong. Even if it means I must purchase my mate on the intergalactic black market. I will do anything to possess her, to claim her as my own. But will my ruthless move turn my female against me before we ever meet? Can she ever forgive a male that bought her freedom?",
+    "author": "Brian K. Vaughan",
+    "base_id": "352",
+    "description": "At long last, it\u2019s finally time for the second hardcover collection of Saga, the New York Times best-selling series praised by everyone from Alan Moore to Lin-Manuel Miranda!Created by the multiple Eisner Award-winning team of artist Fiona Staples (Mystery Society, North 40, Archie Comics) and writer Brian K. Vaughan (The Private Eye, Paper Girls, We Stand On Guard), Saga Book Two continues the action-packed education of Hazel, a child born to star-crossed parents from opposite sides of a never-ending galactic war.Saga is the sweeping tale of one young family fighting to find their place in the universe. As they visit a strange new world and encounter even more adversaries, baby Hazel finally becomes a toddler, while her star-crossed parents Marko and Alana struggle to stay on their feet. Multiple storylines collide in this cosmos-spanning new volume. While Gwendolyn and Lying Cat risk everything to find a cure for The Will, Marko makes an uneasy alliance with Prince Robot IV to find their missing children, who are trapped on a strange world with terrifying new enemies. Collects SAGA #19-36.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 17,
-        "aliens": 108,
-        "erotica": 24,
-        "fantasy": 27,
-        "fiction": 10,
-        "paranormal": 30,
-        "paranormal romance": 24,
-        "romance": 111,
-        "science fiction": 85,
-        "science fiction romance": 42
+        "adult": 21,
+        "adventure": 12,
+        "comics (comic book)": 19,
+        "fantasy": 136,
+        "fiction": 54,
+        "graphic novels comics": 29,
+        "science fiction": 99,
+        "sequential art (comics)": 219,
+        "sequential art (graphic novels)": 293,
+        "space (space opera)": 12
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "352_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "352_2"
         }
     ],
     "metrics": {
-        "rating_votes": 3982,
-        "score": 4.25
+        "rating_votes": 4917,
+        "score": 4.66
     },
-    "pages": 294,
-    "title": "Barbarian's Redemption",
-    "url": "https://www.goodreads.com/book/show/34184104-barbarian-s-redemption",
+    "pages": 537,
+    "title": "Saga: Book Two",
+    "url": "https://www.goodreads.com/book/show/32926680-saga",
     "year_published": 2017
 }

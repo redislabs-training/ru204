@@ -1,0 +1,55 @@
+{
+    "author": "Kate Wilhelm",
+    "base_id": "674",
+    "description": "The spellbinding story of an isolated post-holocaust community determined to preserve itself, through a perilous experiment in cloning. Sweeping, dramatic, rich with humanity, and rigorous in its science, Where Late the Sweet Birds Sang is widely regarded as a high point of both humanistic and hard SF, winning SF's Hugo Award and Locus Award on its first publication.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 110,
+        "classics": 33,
+        "fantasy": 24,
+        "fiction": 222,
+        "hugo awards": 68,
+        "science fiction": 568,
+        "science fiction (apocalyptic)": 37,
+        "science fiction (dystopia)": 92,
+        "science fiction fantasy": 37,
+        "speculative fiction": 49
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "674_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "674_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "674_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "674_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "674_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "674_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8988,
+        "score": 3.86
+    },
+    "pages": 1360,
+    "title": "Where Late the Sweet Birds Sang",
+    "url": "https://www.goodreads.com/book/show/968827.Where_Late_the_Sweet_Birds_Sang",
+    "year_published": 1976
+}

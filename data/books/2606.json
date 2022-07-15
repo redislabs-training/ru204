@@ -1,0 +1,36 @@
+{
+    "author": "Veronica Roth",
+    "base_id": "2606",
+    "description": "The first novel written for an adult audience by the mega-selling author of the Divergent franchise: five twenty-something heroes famous for saving the world when they were teenagers must face even greater demons\u2014and reconsider what it means to be a hero . . . by destiny or by choice.A decade ago near Chicago, five teenagers defeated the otherworldly enemy known as the Dark One, whose reign of terror brought widespread destruction and death. The seemingly un-extraordinary teens\u2014Sloane, Matt, Ines, Albie, and Esther\u2014had been brought together by a clandestine government agency because one of them was fated to be the \u201cChosen One,\u201d prophesized to save the world. With the goal achieved, humankind celebrated the victors and began to mourn their lost loved ones. Ten years later, though the champions remain celebrities, the world has moved forward and a whole, younger generation doesn\u2019t seem to recall the days of endless fear. But Sloane remembers. It\u2019s impossible for her to forget when the paparazzi haunt her every step just as the Dark One still haunts her dreams. Unlike everyone else, she hasn\u2019t moved on; she\u2019s adrift\u2014no direction, no goals, no purpose. On the eve of the Ten Year Celebration of Peace, a new trauma hits the Chosen: the death of one of their own. And when they gather for the funeral at the enshrined site of their triumph, they discover to their horror that the Dark One\u2019s reign never really ended.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 159,
+        "adult fiction": 43,
+        "fantasy": 852,
+        "fantasy (magic)": 70,
+        "fantasy (urban fantasy)": 81,
+        "fiction": 229,
+        "science fiction": 167,
+        "science fiction (dystopia)": 91,
+        "science fiction fantasy": 32,
+        "young adult": 77
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2606_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 14190,
+        "score": 3.63
+    },
+    "pages": 426,
+    "title": "Chosen Ones",
+    "url": "https://www.goodreads.com/book/show/52486678-chosen-ones",
+    "year_published": 2020
+}

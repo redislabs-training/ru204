@@ -1,34 +1,51 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 411,
-    "description": "Before Number Four, there were One, Two, and Three. Until now we've only known that the Mogadorians caught Number One in Malaysia. Number Two in England. And Number Three in Kenya. But all of that is about to change. . . .In I Am Number Four: The Lost Files: The Fallen Legacies, you'll learn the true story behind these ill-fated members of the Garde. Before they were murdered by the Mogadorians, before Number Four was next, they were all just kids on an alien planet called Earth\u2014discovering their powers, trying to stay hidden, and running for their lives.",
+    "author": "John Marsden",
+    "base_id": "411",
+    "description": "Since their home was invaded by enemy soldiers and transformed into a war zone, Ellie and her friends have been fighting for their lives. Now a resolution may finally be in sight. But as enemy forces close in on her hideout, Ellie discovers that the final conflict just may be the most dangerous yet. And not everyone will survive. Nobody is safe in this exhilarating conclusion to Ellie's courageous struggle for freedom.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 20,
-        "aliens": 54,
-        "fantasy": 88,
-        "fiction": 43,
-        "novella": 19,
-        "paranormal": 15,
-        "science fiction": 103,
-        "short stories": 30,
-        "teen": 13,
-        "young adult": 158
+        "action": 39,
+        "adventure": 48,
+        "adventure (survival)": 22,
+        "cultural (australia)": 56,
+        "fiction": 153,
+        "science fiction": 29,
+        "science fiction (dystopia)": 70,
+        "war": 108,
+        "young adult": 400,
+        "young adult (teen)": 29
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "411_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "411_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "411_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "411_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "411_5"
         }
     ],
     "metrics": {
-        "rating_votes": 11519,
-        "score": 4.24
+        "rating_votes": 13671,
+        "score": 4.22
     },
-    "pages": 736,
-    "title": "The Fallen Legacies",
-    "url": "https://www.goodreads.com/book/show/13622863-the-fallen-legacies",
-    "year_published": 2012
+    "pages": 1099,
+    "title": "The Other Side of Dawn",
+    "url": "https://www.goodreads.com/book/show/71867.The_Other_Side_of_Dawn",
+    "year_published": 1999
 }

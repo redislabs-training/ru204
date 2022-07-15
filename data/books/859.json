@@ -1,0 +1,47 @@
+{
+    "author": "Madeline Ashby",
+    "base_id": "859",
+    "description": "Meet Hwa. One of the few in her community to forego bio-engineered enhancements, she\u2019s the last truly organic person left on the rig. But she\u2019s an expert in the arts of self-defence, and she\u2019s been charged with training the Family\u2019s youngest, who has been receiving death threats \u2013 seemingly from another timeline. Meanwhile, a series of interconnected murders threatens the city\u2019s stability \u2013 serial killer? Or something much, much worse...?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "cultural (canada)": 75,
+        "fantasy": 23,
+        "fiction": 154,
+        "mystery": 67,
+        "science fiction": 329,
+        "science fiction (cyberpunk)": 33,
+        "science fiction (dystopia)": 51,
+        "science fiction fantasy": 25,
+        "speculative fiction": 18,
+        "young adult": 21
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "859_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "859_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "859_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "859_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4719,
+        "score": 3.53
+    },
+    "pages": 919,
+    "title": "Company Town",
+    "url": "https://www.goodreads.com/book/show/20447745-company-town",
+    "year_published": 2016
+}

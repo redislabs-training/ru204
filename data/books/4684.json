@@ -1,0 +1,67 @@
+{
+    "author": "Dan Simmons",
+    "base_id": "4684",
+    "description": "The men on board HMS Terror have every expectation of triumph. As part of the 1845 Franklin Expedition, the first steam-powered vessels ever to search for the legendary Northwest Passage, they are as scientifically supported an enterprise as has ever set forth. As they enter a second summer in the Arctic Circle without a thaw, though, they are stranded in a nightmarish landscape of encroaching ice and darkness. Endlessly cold, with diminishing rations, 126 men fight to survive with poisonous food, a dwindling supply of coal, and ships buckling in the grip of crushing ice. But their real enemy is far more terrifying. There is something out there in the frigid darkness: an unseen predator stalking their ship, a monstrous terror constantly clawing to get in.When the expedition's leader, Sir John Franklin, meets a terrible death, Captain Francis Crozier takes command and leads his surviving crewmen on a last, desperate attempt to flee south across the ice. With them travels an Inuit woman who cannot speak and who may be the key to survival, or the harbinger of their deaths. But as another winter approaches, as scurvy and starvation grow more terrible, and as the terror on the ice stalks them southward, Crozier and his men begin to fear that there is no escape.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 157,
+        "adventure (survival)": 72,
+        "audiobook": 75,
+        "fantasy": 334,
+        "fiction": 951,
+        "historical": 277,
+        "historical (historical fiction)": 1157,
+        "horror": 2380,
+        "mystery": 139,
+        "thriller": 280
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4684_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4684_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4684_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4684_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "4684_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4684_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4684_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "4684_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "4684_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 45763,
+        "score": 4.04
+    },
+    "pages": 545,
+    "title": "The Terror",
+    "url": "https://www.goodreads.com/book/show/3974.The_Terror",
+    "year_published": 2007
+}

@@ -1,0 +1,54 @@
+{
+    "author": "Neal Stephenson",
+    "base_id": "9390",
+    "description": "In reality, Hiro Protagonist delivers pizza for Uncle Enzo's CosoNostra Pizza Inc., but in the Metaverse he's a warrior prince. Plunging headlong into the enigma of a new computer virus that's striking down hackers everywhere, he races along the neon-lit streets on a search-and-destroy mission for the shadowy virtual villain threatening to bring about infocalypse. Snow Crash is a mind-altering romp through a future America so bizarre, so outrageous\u2026 you'll recognize it immediately.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 189,
+        "classics": 134,
+        "fantasy": 374,
+        "fiction": 3067,
+        "novels": 204,
+        "science fiction": 5069,
+        "science fiction (cyberpunk)": 1857,
+        "science fiction (dystopia)": 376,
+        "science fiction fantasy": 431,
+        "speculative fiction": 214
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "9390_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "9390_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "9390_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9390_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9390_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "9390_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 241051,
+        "score": 4.02
+    },
+    "pages": 599,
+    "title": "Snow Crash",
+    "url": "https://www.goodreads.com/book/show/40651883-snow-crash",
+    "year_published": 1992
+}

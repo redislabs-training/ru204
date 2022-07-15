@@ -1,0 +1,39 @@
+{
+    "author": "Joseph Heller",
+    "base_id": "18745",
+    "description": "Catch-22 is set during World War II, from 1942 to 1944. It mainly follows the life of Captain John Yossarian, a U.S. Army Air Forces B-25 bombardier. Most of the events in the book occur while the fictional 256th Squadron is based on the island of Pianosa, in the Mediterranean Sea, west of Italy. The novel looks into the experiences of Yossarian and the other airmen in the camp, who attempt to maintain their sanity while fulfilling their service requirements so that they may return home.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "classics": 11764,
+        "fiction": 10123,
+        "historical": 424,
+        "historical (historical fiction)": 1759,
+        "humor": 1396,
+        "literature": 1247,
+        "literature (american)": 493,
+        "novels": 777,
+        "unfinished": 504,
+        "war": 1747
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "18745_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "18745_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 737295,
+        "score": 3.98
+    },
+    "pages": 893,
+    "title": "Catch-22",
+    "url": "https://www.goodreads.com/book/show/168668.Catch_22",
+    "year_published": 1961
+}

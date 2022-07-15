@@ -1,0 +1,42 @@
+{
+    "author": "Pierre Boulle",
+    "base_id": "1595",
+    "description": "\"I am confiding this manuscript to space, not with the intention of saving myself, but to help, perhaps, to avert the appalling scourge that is menacing the human race. Lord have pity on us!\"With these words, Pierre Boulle hurtles the reader onto the Planet of the Apes. In this simian world, civilization is turned upside down: apes are men and men are apes; apes rule and men run wild; apes think, speak, produce, wear clothes, and men are speechless, naked, exhibited at fairs, used for biological research. On the planet of the apes, man, having reached to apotheosis of his genius, has become inert.To this planet come a journalist and a scientist. The scientist is put into a zoo, the journalist into a laboratory. Only the journalist retains the spiritual strength and creative intelligence to try to save himself, to fight the appalling scourge, to remain a man.Out of this situation, Pierre Boulle has woven a tale as harrowing, bizarre, and meaningful as any in the brilliant roster of this master storyteller. With his customary wit, irony, and disciplined intellect and style, the author of The Bridge Over the River Kwai tells a swiftly moving story dealing with man's conflicts, and takes the reader into a suspenseful and strangely fascinating orbit.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 42,
+        "classics": 196,
+        "cultural (france)": 101,
+        "fantasy": 97,
+        "fiction": 382,
+        "media tie in": 40,
+        "novels": 40,
+        "science fiction": 948,
+        "science fiction (dystopia)": 74,
+        "science fiction fantasy": 49
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1595_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1595_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1595_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 34260,
+        "score": 3.96
+    },
+    "pages": 1177,
+    "title": "Planet of the Apes",
+    "url": "https://www.goodreads.com/book/show/414895.Planet_of_the_Apes",
+    "year_published": 1963
+}

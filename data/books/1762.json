@@ -1,0 +1,46 @@
+{
+    "author": "Mark  Lawrence",
+    "base_id": "1762",
+    "description": "In January 1986, fifteen-year-old boy-genius Nick Hayes discovers he\u2019s dying. And it isn\u2019t even the strangest thing to happen to him that week.Nick and his Dungeons & Dragons-playing friends are used to living in their imaginations. But when a new girl, Mia, joins the group and reality becomes weirder than the fantasy world they visit in their weekly games, none of them are prepared for what comes next. A strange\u2014yet curiously familiar\u2014man is following Nick, with abilities that just shouldn\u2019t exist. And this man bears a cryptic message: Mia\u2019s in grave danger, though she doesn\u2019t know it yet. She needs Nick\u2019s help\u2014now.He finds himself in a race against time to unravel an impossible mystery and save the girl. And all that stands in his way is a probably terminal disease, a knife-wielding maniac and the laws of physics.Challenge accepted.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 24,
+        "audiobook": 32,
+        "fantasy": 385,
+        "fantasy (urban fantasy)": 24,
+        "fiction": 205,
+        "mystery": 31,
+        "science fiction": 458,
+        "science fiction (time travel)": 159,
+        "science fiction fantasy": 24,
+        "young adult": 197
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1762_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1762_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1762_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1762_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15831,
+        "score": 3.75
+    },
+    "pages": 259,
+    "title": "One Word Kill",
+    "url": "https://www.goodreads.com/book/show/39792427-one-word-kill",
+    "year_published": 2019
+}

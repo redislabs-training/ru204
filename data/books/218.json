@@ -1,42 +1,56 @@
 {
-    "author": "Tanya Huff",
-    "base_id": 218,
-    "description": "Gunnery Sergeant Torin Kerr's goal is to keep both her superior officers and her troops alive as they face missions throughout the galaxy. But she's been sidelined with endless briefings and debriefings for a while, so she jumps at the chance to go to Crucible - the Marine Corps training planet - as temporary aide to Major Svensson. The major was reduced to little more than a brain and spinal cord in his last combat, and now he and his doctor are eager to field test his new body. It's supposed to be an easy assignment - after all, Crucible was set up to simulate battle situations so recruits could be trained safely. But Torin's barely on-planet when someone starts blasting the training scenarios to smithereens...",
+    "author": "Joseph Bruchac",
+    "base_id": "218",
+    "description": "A post-Apocalyptic YA novel with a steampunk twist, based on an Apache legend. Years ago, seventeen-year-old Apache hunter Lozen and her family lived in a world of haves and have-nots. There were the Ones -- people so augmented with technology and genetic enhancements that they were barely human -- and there was everyone else who served them. Then the Cloud came, and everything changed. Tech stopped working. The world plunged back into a new steam age. The Ones' pets -- genetically engineered monsters -- turned on them and are now loose on the world.Lozen was not one of the lucky ones pre-C, but fate has given her a unique set of survival skills and magical abilities. She hunts monsters for the Ones who survived the apocalyptic events of the Cloud, which ensures the safety of her kidnapped family. But with every monster she takes down, Lozen's powers grow, and she connects those powers to an ancient legend of her people. It soon becomes clear to Lozen that she is not just a hired gun. As the legendary Killer of Enemies was in the ancient days of the Apache people, Lozen is meant to be a more than a hunter. Lozen is meant to be a hero.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 19,
-        "fantasy": 25,
-        "fiction": 42,
-        "military fiction": 76,
-        "military science fiction": 24,
-        "science fiction": 227,
-        "science fiction fantasy": 15,
-        "space": 19,
-        "space opera": 53,
-        "war": 15
+        "adventure": 10,
+        "adventure (survival)": 9,
+        "apocalyptic (post apocalyptic)": 24,
+        "fantasy": 40,
+        "fiction": 18,
+        "science fiction": 45,
+        "science fiction (dystopia)": 49,
+        "science fiction (steampunk)": 15,
+        "young adult": 81,
+        "young adult (teen)": 11
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "218_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "218_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "218_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "218_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "218_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "218_6"
         }
     ],
     "metrics": {
-        "rating_votes": 5087,
-        "score": 4.07
+        "rating_votes": 724,
+        "score": 3.68
     },
-    "pages": 561,
-    "title": "The Heart of Valor",
-    "url": "https://www.goodreads.com/book/show/176410.The_Heart_of_Valor",
-    "year_published": 2007
+    "pages": 981,
+    "title": "Killer of Enemies",
+    "url": "https://www.goodreads.com/book/show/17946249-killer-of-enemies",
+    "year_published": 2013
 }

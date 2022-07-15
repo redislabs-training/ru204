@@ -1,58 +1,51 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 149,
-    "description": "No one ever comes back for me.I\u2019ve always been on my own, and why should it be any different on an ice planet? So when I\u2019m kidnapped by a feral outcast, I suspect I\u2019d better learn to love raw fish and rough living.Then\u2026U\u2019dron comes to my rescue.He\u2019s always understood me more than anyone else. He\u2019s been my friend and my confidante. We\u2019ve made music together. And now that he\u2019s my hero? The crush I\u2019ve had on him is turning into something more, something deeper. He won\u2019t want me when he hears my terrible secrets, though.But it turns out that U\u2019dron has a secret of his own\u2026",
+    "author": "Philip K. Dick",
+    "base_id": "149",
+    "description": "He knew what she was thinking. Once in the very first weeks of the war, before everyone had been evacuated from the surface, they had seen a hospital train discharging the wounded, people who had been showered with sleet. He remembered the way they had looked, the expression on their faces, or as much of their faces as was left. It had not been a pleasant sight.There had been a lot of that at first, in the early days before the transfer to undersurface was complete. There had been a lot, and it hadn't been very difficult to come across it.Taylor looked up at his wife. She was thinking too much about it, the last few months. They all were.\"Forget it,\" he said. \"It's all in the past. There isn't anybody up there now but the leadys, and they don't mind.\"\"But just the same, I hope they're careful when they let one of them down here. If one were still hot--\"",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 4,
-        "aliens": 28,
-        "erotica": 3,
-        "fantasy": 8,
-        "male female romance": 3,
-        "paranormal": 5,
-        "paranormal romance": 4,
-        "romance": 26,
-        "science fiction": 24,
-        "science fiction romance": 6
+        "audiobook": 13,
+        "business (amazon)": 3,
+        "classics": 8,
+        "fiction": 34,
+        "science fiction": 124,
+        "science fiction (dystopia)": 11,
+        "science fiction fantasy": 5,
+        "short stories": 64,
+        "the united states of america": 4,
+        "war": 3
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "149_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "149_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "149_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "149_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "149_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "149_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "149_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1423,
-        "score": 4.26
+        "rating_votes": 1707,
+        "score": 3.69
     },
-    "pages": 443,
-    "title": "Raven's Return",
-    "url": "https://www.goodreads.com/book/show/55107996-raven-s-return",
-    "year_published": 2020
+    "pages": 319,
+    "title": "The Defenders",
+    "url": "https://www.goodreads.com/book/show/6472311-the-defenders",
+    "year_published": 1953
 }

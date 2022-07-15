@@ -1,0 +1,46 @@
+{
+    "author": "Blake Crouch",
+    "base_id": "33338",
+    "description": "Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie\u2014when his reality shatters.- - -'Are you happy in your life?'Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. Before he awakes to find himself strapped to a gurney, surrounded by strangers in hazmat suits. Before the man he's never met smiles down at him and says, 'Welcome back.'In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.Is it this world or the other that's the dream?And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined\u2014one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 527,
+        "audiobook": 749,
+        "fantasy": 411,
+        "fiction": 3425,
+        "mystery": 1176,
+        "science fiction": 4848,
+        "science fiction fantasy": 381,
+        "suspense": 334,
+        "thriller": 2404,
+        "thriller (mystery thriller)": 586
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "33338_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "33338_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "33338_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "33338_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 275822,
+        "score": 4.1
+    },
+    "pages": 333,
+    "title": "Dark Matter",
+    "url": "https://www.goodreads.com/book/show/27833670-dark-matter",
+    "year_published": 2016
+}

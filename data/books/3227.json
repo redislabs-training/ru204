@@ -1,0 +1,44 @@
+{
+    "author": "Connie Willis",
+    "base_id": "3227",
+    "description": "Oxford in 2060 is a chaotic place, with scores of time-traveling historians being sent into the past. Michael Davies is prepping to go to Pearl Harbor. Merope Ward is coping with a bunch of bratty 1940 evacuees and trying to talk her thesis adviser into letting her go to VE-Day. Polly Churchill\u2019s next assignment will be as a shopgirl in the middle of London\u2019s Blitz. But now the time-travel lab is suddenly canceling assignments and switching around everyone\u2019s schedules. And when Michael, Merope, and Polly finally get to World War II, things just get worse. For there they face air raids, blackouts, and dive-bombing Stukas--to say nothing of a growing feeling that not only their assignments but the war and history itself are spiraling out of control. Because suddenly the once-reliable mechanisms of time travel are showing significant glitches, and our heroes are beginning to question their most firmly held belief: that no historian can possibly change the past.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 209,
+        "fiction": 544,
+        "historical": 208,
+        "historical (historical fiction)": 664,
+        "hugo awards": 83,
+        "science fiction": 1103,
+        "science fiction (time travel)": 710,
+        "science fiction fantasy": 94,
+        "speculative fiction": 81,
+        "war (world war ii)": 112
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3227_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3227_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3227_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 22525,
+        "score": 3.85
+    },
+    "pages": 920,
+    "title": "Blackout",
+    "url": "https://www.goodreads.com/book/show/6506307-blackout",
+    "year_published": 2010
+}

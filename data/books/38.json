@@ -1,20 +1,21 @@
 {
-    "author": "Sue Mercury",
-    "base_id": 38,
-    "description": "Kira is shocked when Alex shows up on her doorstep after he\u2019s been missing for six years. She\u2019s thankful her stepbrother is alive, but with his arrival her entire life changes in a matter of hours. Alex confesses he isn\u2019t exactly human, he\u2019s part of a royal alien family, and he\u2019s spent his missing years on his home world completing his final growth cycles and learning about his people.At over seven feet tall and with muscles like a gladiator, Prince Alex looks like a deadly weapon. But she soon realizes he\u2019s still the same Alex she\u2019s always secretly loved, and when he confesses his feelings for her it seems too good to be true. Then his royal highness drops the ultimate bombshell: his Reestrian mating urge is almost upon him and it\u2019s her he aches to claim, but they must leave for Reestria soon.Problems arise when the American president announces the existence of Alex\u2019s species months before schedule, and in the mass panic all Reestrians must evacuate Earth until humans calm the freak down. Alex arrives on his home world with Kira, and it\u2019s all he can do to keep from ripping her clothes off before they reach the privacy of his chambers. But then she goes missing. With the full force of his mating urge upon him, all will be lost if he doesn\u2019t find Kira soon and claim the feisty little human as his. ",
+    "author": "Todd A. Fonseca",
+    "base_id": "38",
+    "description": "THE MYSTERY BEGAN A HUNDRED YEARS AGO. IT WAS NEVER SOLVED. NOW IT'S HAPPENING AGAIN.Ten-year-old Aaron moved from the big city to the country where he met a know-it-all farm girl who said his house is haunted. The Amish boy who had lived there before disappeared after claiming to hear the wind call his name. Aaron knew she was just trying to scare him--she was doing a good job too because the night before Aaron heard the wind call his name.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 17,
-        "erotica": 4,
-        "futuristic": 2,
-        "male female romance": 2,
-        "paranormal": 3,
-        "romance": 13,
-        "science fiction": 15,
-        "science fiction romance": 4,
-        "short stories": 3
+        "adventure": 4,
+        "childrens": 10,
+        "childrens (juvenile)": 13,
+        "fantasy": 6,
+        "fiction": 5,
+        "science fiction": 14,
+        "science fiction (time travel)": 37,
+        "science fiction fantasy": 2,
+        "young adult": 28,
+        "young adult (young adult fantasy)": 2
     },
     "inventory": [
         {
@@ -22,11 +23,11 @@
             "stock_id": "38_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "38_2"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "38_3"
         },
         {
@@ -34,24 +35,20 @@
             "stock_id": "38_4"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "38_5"
         },
         {
             "status": "available",
             "stock_id": "38_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "38_7"
         }
     ],
     "metrics": {
-        "rating_votes": 470,
-        "score": 3.47
+        "rating_votes": 207,
+        "score": 3.86
     },
-    "pages": 245,
-    "title": "Step Alien",
-    "url": "https://www.goodreads.com/book/show/25356246-step-alien",
-    "year_published": 2015
+    "pages": 1125,
+    "title": "The Time Cavern",
+    "url": "https://www.goodreads.com/book/show/4541172-the-time-cavern",
+    "year_published": 2008
 }

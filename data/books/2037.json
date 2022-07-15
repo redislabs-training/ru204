@@ -1,44 +1,41 @@
 {
     "author": "Nathan W. Pyle",
-    "base_id": 2037,
+    "base_id": "2037",
     "description": "I feel more attractive.Honestly, you are.It\u2019s the star damage.I CRAVE STAR DAMAGE.Straight from the mind of New York Times bestselling author Nathan W. Pyle comes an adorable and profound universe in pink, blue, green, and purple. Based on the phenomenally popular Instagram of the same name, Strange Planet covers a full life cycle of the planet\u2019s inhabitants, including milestones such as:The Emergence DayBeing Gains a SiblingThe Being Family Attains a BeastThe Formal Education of a BeingCelebration of Special DaysBeing Begins a VocationThe Beings at HomeHealth Status of a BeingThe Hobbies of a BeingThe Extended Family of the BeingThe Being Reflects on Life While Watching the Planet RotateWith dozens of never-before-seen illustrations in addition to old favorites, this book offers a sweet and hilarious look at a distant world not all that unlike our own.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Art": 28,
         "adult": 55,
-        "aliens": 29,
-        "comedy": 67,
-        "comics": 388,
+        "art": 28,
         "fiction": 184,
-        "graphic novels": 473,
+        "graphic novels comics": 61,
         "humor": 495,
-        "science fiction": 55
+        "humor (comedy)": 67,
+        "science fiction": 55,
+        "science fiction (aliens)": 29,
+        "sequential art (comics)": 388,
+        "sequential art (graphic novels)": 473
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2037_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "2037_2"
         },
         {
             "status": "on_loan",
             "stock_id": "2037_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2037_4"
         }
     ],
     "metrics": {
         "rating_votes": 27106,
         "score": 4.33
     },
-    "pages": 332,
+    "pages": 963,
     "title": "Strange Planet",
     "url": "https://www.goodreads.com/book/show/44890112-strange-planet",
     "year_published": 2019

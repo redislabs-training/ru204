@@ -1,0 +1,52 @@
+{
+    "author": "William Gibson",
+    "base_id": "957",
+    "description": "William Gibson, author of the extraordinary multiaward-winning novel Neuromancer, has written his most brilliant and thrilling work to date... The Mona Lisa Overdrive.\u00a0Enter Gibson's unique world - lyric and mechanical, erotic and violent, sobering and exciting - where multinational corporations and high tech outlaws vie for power, traveling into the computer-generated universe known as cyberspace.\u00a0Into this world comes Mona, a young girl with a murky past and an uncertain future whose life is on a collision course with internationally famous Sense/Net star Angie Mitchell.\u00a0Since childhood, Angie has been able to tap into cyberspace without a computer.\u00a0Now, from inside cyberspace, a kidnapping plot is masterminded by a phantom entity who has plans for Mona, Angie, and all humanity, plans that cannot be controlled... or even known.\u00a0And behind the intrigue lurks the shadowy Yakuza, the powerful Japanese underworld, whose leaders ruthlessly manipulate people and events to suit their own purposes... or so they think.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "cultural (canada)": 32,
+        "fantasy": 42,
+        "fiction": 610,
+        "medical": 20,
+        "novels": 51,
+        "science fiction": 1336,
+        "science fiction (cyberpunk)": 953,
+        "science fiction (dystopia)": 57,
+        "science fiction fantasy": 100,
+        "speculative fiction": 39
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "957_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "957_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "957_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "957_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "957_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 37381,
+        "score": 3.99
+    },
+    "pages": 647,
+    "title": "Mona Lisa Overdrive",
+    "url": "https://www.goodreads.com/book/show/154091.Mona_Lisa_Overdrive",
+    "year_published": 1988
+}

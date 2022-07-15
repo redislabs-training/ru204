@@ -1,19 +1,19 @@
 {
     "author": "Nnedi Okorafor",
-    "base_id": 1939,
+    "base_id": "1939",
     "description": "The concluding part of the highly-acclaimed science fiction trilogy that began with Nnedi Okorafor's Hugo- and Nebula Award-winning BINTI.Binti has returned to her home planet, believing that the violence of the Meduse has been left behind. Unfortunately, although her people are peaceful on the whole, the same cannot be said for the Khoush, who fan the flames of their ancient rivalry with the Meduse.Far from her village when the conflicts start, Binti hurries home, but anger and resentment has already claimed the lives of many close to her.Once again it is up to Binti, and her intriguing new friend Mwinyi, to intervene--though the elders of her people do not entirely trust her motives--and try to prevent a war that could wipe out her people, once and for all.Don't miss this essential concluding volume in the Binti trilogy.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Africa": 75,
         "adult": 53,
-        "aliens": 55,
         "audiobook": 61,
+        "cultural (africa)": 75,
         "fantasy": 281,
         "fiction": 306,
         "novella": 179,
         "science fiction": 761,
+        "science fiction (aliens)": 55,
         "science fiction fantasy": 78,
         "young adult": 98
     },
@@ -27,11 +27,11 @@
             "stock_id": "1939_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1939_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1939_4"
         },
         {
@@ -39,19 +39,27 @@
             "stock_id": "1939_5"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1939_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "1939_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1939_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1939_9"
         }
     ],
     "metrics": {
         "rating_votes": 15443,
         "score": 4.05
     },
-    "pages": 759,
+    "pages": 950,
     "title": "The Night Masquerade",
     "url": "https://www.goodreads.com/book/show/34386617-the-night-masquerade",
     "year_published": 2018

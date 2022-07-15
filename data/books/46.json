@@ -1,42 +1,59 @@
 {
-    "author": "Michelle M. Pillow",
-    "base_id": 46,
-    "description": "Shapeshifter RomanceCat-shifter Prince Jarek sails the high sky doing what he pleases\u2026that is until drug dealers kidnap one of his men. But the rescue mission goes wrong and instead of a crewman, he liberates a woman who he believes is desperately trying to escape her captors. He soon discovers he unwittingly kidnaped a princess. Mei has just learned her future from a seer, and it seems fate is giving her in marriage to a neighboring ruler. She will do her duty, but first she wants to experience an adventure. When the pirates come to steal, she knows exactly who she wants that adventure to be.",
+    "author": "Joel Shepherd",
+    "base_id": "46",
+    "description": "Two years after the unhatching of Callayan President Neiland's plot to make the capital city of Tanusha the center of the Federation, Callay is under siege. So begins the third installment of this gripping trilogy from an exciting new sci-fi author. A powerful faction of conservative Fleet captains has surrounded Callay, at Earth's behest, and is threatening a blockade \u2013 or worse. A fearful Earth does not wish to lose direct control of its precious war machine, and there are fears of civil war. All that Callay has to oppose the warships of the Fleet is the Callayan Defense Force (CDF) \u2013 a newly formed group of raw recruits led by a politically hamstrung general. However, the CDF is largely trained and organized by Major Vanessa Rice and her best friend, Callay's combat-android, Commander Cassandra Kresnov. But when Cassandra's lover, Special Agent Ari Ruben, discovers a plot to kill her using a killswitch, which her old masters in the League built into her brainstem, Sandy is forced to go underground to stay alive.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 18,
-        "erotica": 9,
-        "fantasy": 12,
-        "futuristic": 8,
-        "paranormal": 13,
-        "paranormal romance": 13,
-        "romance": 21,
-        "science fiction": 21,
-        "science fiction romance": 10,
-        "shapeshifters": 20
+        "artificial intelligence": 3,
+        "audiobook": 3,
+        "fiction": 9,
+        "science fiction": 93,
+        "science fiction (cyberpunk)": 14,
+        "science fiction (military science fiction)": 4,
+        "science fiction fantasy": 3,
+        "space (space opera)": 8,
+        "thriller": 4,
+        "war (military fiction)": 11
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "46_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "46_2"
         },
         {
             "status": "available",
             "stock_id": "46_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "46_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "46_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "46_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "46_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1234,
-        "score": 4.13
+        "rating_votes": 1155,
+        "score": 4.03
     },
-    "pages": 381,
-    "title": "The Pirate Prince",
-    "url": "https://www.goodreads.com/book/show/12701151-the-pirate-prince",
-    "year_published": 2006
+    "pages": 1267,
+    "title": "Killswitch",
+    "url": "https://www.goodreads.com/book/show/1273899.Killswitch",
+    "year_published": 2004
 }

@@ -1,20 +1,22 @@
 {
-    "author": "Honey Phillips",
-    "base_id": 170,
-    "description": "Can she create a new family with an alien warrior?On the anniversary of the disappearance of Mariah\u2019s sister and nephew, Mariah returns to their last known location, expecting to find only painful memories. Instead, she encounters an alien spaceship and recklessly sneaks aboard, taking one last chance to be reunited with her family.The desperate move sends her across the galaxy and straight into the arms of a massive alien warrior who is determined to protect her. But no matter how much she is drawn to him, she will not be distracted from her goal\u2014to find her missing family at all costs.Years ago, when Captain Cestov and his brother argued over the fate of their dying race, his brother stormed out of his life. He has been searching for him ever since. He never expected his search to lead him to a distant planet, a troubled ranch, and a little boy who calls him Daddy. And he certainly never expected an enticing human female who makes him consider putting down roots for the first time.Neither Mariah nor Cestov ever thought they would find a permanent home. But can their shared love for a child help them to move on to a new future as a family? Or will the ghosts from their pasts tear them apart?Each book in the Treasured by the Alien series can be read as a standalone romance. This sweet and steamy HEA is intended for adults only.",
+    "author": "Julia L. Sauer",
+    "base_id": "170",
+    "description": "Originally published in 1943, this edition features a rare cover by the ground-breaking illustrator Lynd Ward.Greta had always loved the fog\u2014the soft gray mist that rolled in from the sea and drifted over the village. The fog seemed to have a secret to tell her. Then one day when Greta was walking in the woods and the mist was closing in, she saw the dark outline of a stone house against the spruce trees\u2014a house where only an old cellar hole should have been. Then she saw a surrey come by, carrying a lady dressed in plum-colored silk. The woman beckoned for Greta to join her, and soon Greta found herself launched on an adventure that would take her back to a past that existed only through the magic of the fog",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 26,
-        "erotica": 2,
-        "fantasy": 3,
-        "male female romance": 2,
-        "paranormal": 4,
-        "paranormal romance": 4,
-        "romance": 16,
-        "science fiction": 19,
-        "science fiction romance": 7
+        "childrens": 31,
+        "childrens (juvenile)": 9,
+        "childrens (middle grade)": 23,
+        "classics": 6,
+        "cultural (canada)": 7,
+        "fantasy": 73,
+        "fiction": 31,
+        "historical (historical fiction)": 12,
+        "science fiction (time travel)": 23,
+        "young adult": 19
     },
     "inventory": [
         {
@@ -22,7 +24,7 @@
             "stock_id": "170_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "170_2"
         },
         {
@@ -30,7 +32,7 @@
             "stock_id": "170_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "170_4"
         },
         {
@@ -38,28 +40,24 @@
             "stock_id": "170_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "170_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "170_7"
         },
         {
-            "status": "on_loan",
-            "stock_id": "170_8"
-        },
-        {
             "status": "available",
-            "stock_id": "170_9"
+            "stock_id": "170_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2934,
-        "score": 4.19
+        "rating_votes": 1204,
+        "score": 3.88
     },
-    "pages": 463,
-    "title": "A Son for the Alien Warrior",
-    "url": "https://www.goodreads.com/book/show/48756980-a-son-for-the-alien-warrior",
-    "year_published": 2019
+    "pages": 596,
+    "title": "Fog Magic",
+    "url": "https://www.goodreads.com/book/show/297891.Fog_Magic",
+    "year_published": 1943
 }

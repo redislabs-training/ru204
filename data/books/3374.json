@@ -1,21 +1,22 @@
 {
     "author": "John Scalzi",
-    "base_id": 3374,
+    "base_id": "3374",
     "description": "The Ghost Brigades are the Special Forces of the Colonial Defense Forces, elite troops created from the DNA of the dead and turned into the perfect soldiers for the CDF's toughest operations. They\u2019re young, they\u2019re fast and strong, and they\u2019re totally without normal human qualms.The universe is a dangerous place for humanity\u2014and it's about to become far more dangerous. Three races that humans have clashed with before have allied to halt our expansion into space. Their linchpin: the turncoat military scientist Charles Boutin, who knows the CDF\u2019s biggest military secrets. To prevail, the CDF must find out why Boutin did what he did.Jared Dirac is the only human who can provide answers -- a superhuman hybrid, created from Boutin's DNA, Jared\u2019s brain should be able to access Boutin's electronic memories. But when the memory transplant appears to fail, Jared is given to the Ghost Brigades.At first, Jared is a perfect soldier, but as Boutin\u2019s memories slowly surface, Jared begins to intuit the reason\u2019s for Boutin\u2019s betrayal. As Jared desperately hunts for his \"father,\" he must also come to grips with his own choices. Time is running out: The alliance is preparing its offensive, and some of them plan worse things than humanity\u2019s mere military defeat\u2026",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 63,
         "audiobook": 86,
         "fiction": 559,
-        "military fiction": 175,
-        "military science fiction": 62,
         "science fiction": 2304,
+        "science fiction (aliens)": 63,
+        "science fiction (military science fiction)": 62,
         "science fiction fantasy": 118,
         "space": 86,
-        "space opera": 236,
-        "war": 107
+        "space (space opera)": 236,
+        "war": 107,
+        "war (military fiction)": 175
     },
     "inventory": [
         {
@@ -25,13 +26,33 @@
         {
             "status": "on_loan",
             "stock_id": "3374_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "3374_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "3374_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3374_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "3374_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "3374_7"
         }
     ],
     "metrics": {
         "rating_votes": 69103,
         "score": 4.1
     },
-    "pages": 763,
+    "pages": 1188,
     "title": "The Ghost Brigades",
     "url": "https://www.goodreads.com/book/show/239399.The_Ghost_Brigades",
     "year_published": 2006

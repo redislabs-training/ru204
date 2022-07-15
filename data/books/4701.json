@@ -1,0 +1,64 @@
+{
+    "author": "Erika Johansen",
+    "base_id": "4701",
+    "description": "In less than a year, Kelsea Glynn has grown from an awkward teenager into a powerful monarch and a visionary leader.And as she has come into her own as the Queen of the Tearling, she has transformed her realm. But in her quest to end corruption and restore justice, she has made many enemies - chief among them the evil and feared Red Queen, who ordered the armies of Mortmesne to march against the Tear and crush them.To protect her people from such a devastating invasion, Kelsea did the unthinkable - naming the Mace, the trusted head of her personal guards, Regent in her place, she surrendered herself and her magical sapphires to her enemy. But the Mace will not rest until he and his men rescue their sovereign from her prison in Mortmesne.So, the endgame has begun and the fate of Queen Kelsea - and the Tearling itself - will be revealed...With The Fate of the Tearling, Erika Johansen draws her unforgettable story full of magic and adventure to a thrilling close.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 94,
+        "audiobook": 93,
+        "fantasy": 1945,
+        "fantasy (high fantasy)": 76,
+        "fantasy (magic)": 123,
+        "fiction": 280,
+        "science fiction": 78,
+        "science fiction (dystopia)": 211,
+        "young adult": 312,
+        "young adult (young adult fantasy)": 71
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "4701_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "4701_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "4701_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4701_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4701_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4701_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4701_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "4701_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32809,
+        "score": 3.75
+    },
+    "pages": 283,
+    "title": "The Fate of the Tearling",
+    "url": "https://www.goodreads.com/book/show/22698569-the-fate-of-the-tearling",
+    "year_published": 2016
+}

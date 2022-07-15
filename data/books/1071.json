@@ -1,0 +1,40 @@
+{
+    "author": "Ashley Saunders",
+    "base_id": "1071",
+    "description": "In their world, telling the truth has become the most dangerous crime of all.In the near-future United States, a one-child policy is ruthlessly enforced. Everyone follows the Rule of One. But Ava Goodwin, daughter of the head of the Texas Family Planning Division, has a secret\u2014one her mother died to keep and her father has helped to hide for her entire life.She has an identical twin sister, Mira.For eighteen years Ava and Mira have lived as one, trading places day after day, maintaining an interchangeable existence down to the most telling detail. But when their charade is exposed, their worst nightmare begins. Now they must leave behind the father they love and fight for their lives.Branded as traitors, hunted as fugitives, and pushed to discover just how far they\u2019ll go in order to stay alive, Ava and Mira rush headlong into a terrifying unknown.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 9,
+        "audiobook": 17,
+        "family": 8,
+        "fantasy": 20,
+        "fiction": 96,
+        "science fiction": 116,
+        "science fiction (dystopia)": 186,
+        "science fiction fantasy": 10,
+        "thriller": 14,
+        "young adult": 197
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1071_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1071_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 10225,
+        "score": 3.77
+    },
+    "pages": 653,
+    "title": "The Rule of One",
+    "url": "https://www.goodreads.com/book/show/36584870-the-rule-of-one",
+    "year_published": 2018
+}

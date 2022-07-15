@@ -1,0 +1,48 @@
+{
+    "author": "Lewis Carroll",
+    "base_id": "10945",
+    "description": "\"I can't explain myself, I'm afraid, sir,\" said Alice, \"Because I'm not myself, you see.\"When Alice sees a white rabbit take a watch out of its waistcoat pocket she decides to follow it, and a sequence of most unusual events is set in motion. This mini book contains the entire topsy-turvy stories of Alice's Adventures in Wonderland and Through the Looking-Glass, accompanied by practical notes and Martina Pelouso's memorable full-colour illustrations.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 605,
+        "childrens": 2085,
+        "childrens (middle grade)": 380,
+        "classics": 12224,
+        "fantasy": 6493,
+        "fiction": 4508,
+        "literature": 639,
+        "literature (19th century)": 355,
+        "novels": 380,
+        "young adult": 983
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "10945_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10945_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10945_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "10945_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 472113,
+        "score": 4.06
+    },
+    "pages": 543,
+    "title": "Alice's Adventures in Wonderland / Through the Looking-Glass",
+    "url": "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass",
+    "year_published": 1871
+}

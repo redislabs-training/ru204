@@ -1,0 +1,48 @@
+{
+    "author": "Blake Crouch",
+    "base_id": "3384",
+    "description": "Welcome to Wayward Pines, the last town.Secret Service agent Ethan Burke arrived in Wayward Pines, Idaho, three weeks ago. In this town, people are told who to marry, where to live, where to work. Their children are taught that David Pilcher, the town\u2019s creator, is god. No one is allowed to leave; even asking questions can get you killed.But Ethan has discovered the astonishing secret of what lies beyond the electrified fence that surrounds Wayward Pines and protects it from the terrifying world beyond. It is a secret that has the entire population completely under the control of a madman and his army of followers, a secret that is about to come storming through the fence to wipe out this last, fragile remnant of humanity.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 96,
+        "audiobook": 75,
+        "fiction": 370,
+        "horror": 346,
+        "mystery": 195,
+        "science fiction": 408,
+        "science fiction (dystopia)": 147,
+        "suspense": 83,
+        "thriller": 382,
+        "thriller (mystery thriller)": 72
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3384_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3384_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3384_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "3384_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 49112,
+        "score": 4.09
+    },
+    "pages": 607,
+    "title": "The Last Town",
+    "url": "https://www.goodreads.com/book/show/20423680-the-last-town",
+    "year_published": 2014
+}

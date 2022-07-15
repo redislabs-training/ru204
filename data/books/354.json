@@ -1,34 +1,43 @@
 {
-    "author": "Eve Langlais",
-    "base_id": 354,
-    "description": "Machines aren\u2019t supposed to feel, but this cyborg can\u2019t help falling in love.Assigned as a specimen collector for a captured cyborg, Chloe is intrigued by the machine disguised as a man. Kidnapped during his daring escape, he shows her that despite the chip in his brain, his humanity is not completely lost.Formerly known as unit X109GI, Joe is on a quest to discover his origin. While he doesn\u2019t find the answers he\u2019s looking for, he does discover that affection isn't just for humans. But when it comes to a battle between logic and love, which side will the cybernetic organism\u2014once a man\u2014choose?Evaluating his feelings will have to wait though because the military isn\u2019t done with Joe. But their threats against him pale in comparison before the shocking discovery of project C791, the revelation of which stuns the rebel cyborgs\u2014and ignites a fury for vengeance.",
+    "author": "Stephen Baxter",
+    "base_id": "354",
+    "description": "The year is 2010. More than a century of ecological damage, industrial and technological expansion, and unchecked population growth has left the Earth on the brink of devastation. As the world\u2019s governments turn inward, one man dares to envision a bolder, brighter future. That man, Reid Malenfant, has a very different solution to the problems plaguing the planet: the exploration and colonization of space. Now Malenfant gambles the very existence of time on a single desperate throw of the dice. Battling national sabotage and international outcry, as apocalyptic riots sweep the globe, he builds a spacecraft and launches it into deep space. The odds are a trillion to one against him. Or are they?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 21,
-        "erotic romance": 24,
-        "erotica": 61,
-        "fantasy": 27,
-        "futuristic": 27,
-        "paranormal": 45,
-        "paranormal romance": 36,
-        "romance": 136,
-        "science fiction": 175,
-        "science fiction romance": 51
+        "fantasy": 11,
+        "fiction": 146,
+        "novels": 6,
+        "science fiction": 403,
+        "science fiction (hard science fiction)": 12,
+        "science fiction (time travel)": 23,
+        "science fiction fantasy": 11,
+        "space": 8,
+        "space (space opera)": 14,
+        "speculative fiction": 11
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "354_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "354_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "354_3"
         }
     ],
     "metrics": {
-        "rating_votes": 4056,
-        "score": 3.74
+        "rating_votes": 6733,
+        "score": 3.77
     },
-    "pages": 1175,
-    "title": "C791",
-    "url": "https://www.goodreads.com/book/show/13458280-c791",
-    "year_published": 2012
+    "pages": 598,
+    "title": "Time",
+    "url": "https://www.goodreads.com/book/show/63742.Time",
+    "year_published": 1999
 }

@@ -1,34 +1,64 @@
 {
-    "author": "Gini Koch",
-    "base_id": 128,
-    "description": "Jeff and Kitty Katt-Martini and the rest of the American Centaurion Diplomatic Corps are still recovering from their introduction to Washington D.C. politics, parties, and conspiracies. So when compromising pictures arrive, no one\u2019s too surprised. They\u2019re also the least of anyone\u2019s worries. Evil androids running amok, birds of all kinds and from all places creating havoc, a Senator trapped in an ever-tightening web of intrigue, and escalating international tensions all seem tough but manageable. But the disappearance of Jeff Martini and Charles Reynolds during the International One World Festival signals more than the usual nastiness \u2014 and it looks like even ACE can\u2019t help them. Then new trouble arrives in old packages and even with the best hackers in the world, beings from near and far, the full might of Earth\u2019s military, and the Wonder Twins on their side, Centaurion Division\u2019s outmanned and outgunned. Now Kitty\u2019s racing against the clock to find not only Jeff and Chuckie, but to keep the peace between Middle Eastern countries, all while searching for the bases of super-soldier operations \u2014 to stop them or die trying.",
+    "author": "Sarah Graley",
+    "base_id": "128",
+    "description": "From comics rising star Sarah Graley, a fresh and funny middle-grade graphic novel featuring a girl who must save a virtual world... and her own!Izzy has an incredible secret -- she can enter the world of her new video game! She meets Rae, a robot who says Izzy is destined to save Dungeon City from the Big Boss. How is this possible?! And how can she fight for this virtual world when she's got a whole real life to keep up with: her family (though she could do without her mom's annoying cat), and her best friend, Eric. Things get even weirder when Izzy loses a life while inside the game, and she starts to worry about what might happen if she gets a Game Over for good. Meanwhile, Eric has been super upset with Izzy since she's been keeping secrets and bailing on their plans. Can Izzy survive Dungeon City and save their friendship?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 26,
-        "contemporary": 6,
-        "fantasy": 20,
-        "humor": 9,
-        "mystery": 5,
-        "paranormal romance": 12,
-        "romance": 30,
-        "science fiction": 65,
-        "science fiction romance": 8,
-        "urban fantasy": 30
+        "adventure": 11,
+        "childrens": 10,
+        "childrens (middle grade)": 49,
+        "fantasy": 22,
+        "fiction": 10,
+        "graphic novels comics": 7,
+        "science fiction": 19,
+        "sequential art (comics)": 21,
+        "sequential art (graphic novels)": 106,
+        "young adult": 7
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "128_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "128_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "128_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "128_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "128_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "128_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "128_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "128_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1369,
-        "score": 4.2
+        "rating_votes": 943,
+        "score": 3.89
     },
-    "pages": 448,
-    "title": "Alien vs. Alien",
-    "url": "https://www.goodreads.com/book/show/13096596-alien-vs-alien",
-    "year_published": 2012
+    "pages": 1216,
+    "title": "Glitch",
+    "url": "https://www.goodreads.com/book/show/41473811-glitch",
+    "year_published": 2019
 }

@@ -1,0 +1,52 @@
+{
+    "author": "Craig Thompson",
+    "base_id": "451",
+    "description": "Highly acclaimed graphic novelist Craig Thompson's debut book for young readers about a plucky heroine on a mission to save her dad.For Violet Marlocke, family is the most important thing in the whole galaxy. So when her father goes missing while on a hazardous job, she can't just sit around and do nothing. To get him back, Violet throws caution to the stars and sets out with a group of misfit friends on a quest to find him. But space is vast and dangerous, and she soon discovers that her dad is in big, BIG trouble. With her father's life on the line, nothing is going to stop Violet from trying to rescue him and keep her family together.Visionary graphic novel creator Craig Thompson brings all of his wit, warmth, and humor to create a brilliantly drawn story for all ages. Set in a distant yet familiar future, Space Dumplins weaves themes of family, friendship, and loyalty into a grand space adventure filled with quirky aliens, awesome spaceships, and sharp commentary on our environmentally challenged world.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 28,
+        "childrens": 40,
+        "childrens (middle grade)": 52,
+        "fantasy": 18,
+        "fiction": 31,
+        "graphic novels comics": 19,
+        "science fiction": 89,
+        "sequential art (comics)": 85,
+        "sequential art (graphic novels)": 289,
+        "young adult": 20
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "451_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "451_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "451_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "451_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "451_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2700,
+        "score": 3.82
+    },
+    "pages": 1221,
+    "title": "Space Dumplins",
+    "url": "https://www.goodreads.com/book/show/24612531-space-dumplins",
+    "year_published": 2015
+}

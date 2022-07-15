@@ -1,0 +1,63 @@
+{
+    "author": "Kelly Sue DeConnick",
+    "base_id": "653",
+    "description": "The \"Mightiest\" of Earth's Mightiest Heroes is back! Ace pilot. Legendary Avenger. One hundred percent pure bad-@$$. Carol Danvers has a new name, a new mission - and all the power she needs to make her own life a living hell. As the new Captain Marvel, Carol is forging from a challenge from her past! It's a firefight in the sky as the Banshee Squadron debut - but who are the Prowlers, and where has Carol seen them before? And how does secret NASA training program Mercury 13 fit in? Witness Captain Marvel in blazing battlefield action that just may change the course of history! Avengers Time Travel Protocols: engage! Collecting: Captain Marvel 1-6",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "comics (comic book)": 82,
+        "comics (superheroes)": 154,
+        "fantasy": 26,
+        "fiction": 88,
+        "graphic novels comics": 102,
+        "science fiction": 45,
+        "science fiction (time travel)": 54,
+        "sequential art (comics)": 901,
+        "sequential art (graphic novels)": 512,
+        "superheroes (marvel)": 214
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "653_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "653_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "653_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "653_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "653_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "653_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "653_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "653_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8610,
+        "score": 3.86
+    },
+    "pages": 636,
+    "title": "Captain Marvel, Volume 1: In Pursuit of Flight",
+    "url": "https://www.goodreads.com/book/show/15984353-captain-marvel-volume-1",
+    "year_published": 2013
+}

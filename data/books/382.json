@@ -1,0 +1,64 @@
+{
+    "author": "Garth Nix",
+    "base_id": "382",
+    "description": "On the sixth day, there was sorcery.Arthur Penhaligan has wrested five of the Keys from their immortal guardians, the Trustees of the Will. But gaining the Sixth Key poses a greater challenge than any he has faced before. Superior Saturday is not just one of the Trustees \u2013 she is also the oldest Denizen and the most powerful and knowledgeable sorcerer within the House. She has tens of thousands of sorcerers at her command, and she has been preparing her forces all along for the Will\u2019s escape and the activities of the Rightful Heir. As Saturday\u2019s schemes become evident, Arthur is beset on all sides. The House is being destroyed, and only the power of the Keys can hold back the tide of destruction. Arthur\u2019s home city is under attack. His allies are unreliable. He can\u2019t even get into the apparently impregnable Upper House . . . \u00a0and even if he does, finding the Sixth Part of the Will and gaining the Sixth Key might not be enough to counter Saturday\u2019s bid for ultimate power. The Stakes are getting higher and higher. Can Arthur survive?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 58,
+        "childrens": 74,
+        "childrens (middle grade)": 60,
+        "fantasy": 760,
+        "fantasy (magic)": 43,
+        "fiction": 107,
+        "science fiction fantasy": 19,
+        "young adult": 224,
+        "young adult (teen)": 18,
+        "young adult (young adult fantasy)": 31
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "382_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "382_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "382_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "382_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "382_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "382_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "382_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "382_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13683,
+        "score": 3.93
+    },
+    "pages": 719,
+    "title": "Superior Saturday",
+    "url": "https://www.goodreads.com/book/show/2049823.Superior_Saturday",
+    "year_published": 2008
+}

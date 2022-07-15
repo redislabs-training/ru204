@@ -1,66 +1,35 @@
 {
-    "author": "Robert A. Heinlein",
-    "base_id": 987,
-    "description": "Kip from midwest Centerville USA works the summer before college as a pharmacy soda jerk, and wins an authentic stripped-down spacesuit in a soap contest. He answers a distress radio call from Peewee, scrawny rag doll-clutching genius aged 11. With the comforting cop Mother Thing, three-eyed tripod Wormfaces kidnap them to the Moon and Pluto.",
+    "author": "Tamora Pierce",
+    "base_id": "987",
+    "description": "Sent to Carthak as part of the Tortallan peace delegation, Daine finds herself in the middle of a sticky political situation. She doesn't like the Carthaki practice of keeping slaves, but it's not her place to say anything -- she's just there to heal the emperor's birds. It's extremely frustrating! What's more, her power has grown in a mysterious way.  As the peace talks stall, Daine puzzles over Carthak's two-faced Emperor Ozorne. How can he be so caring with his birds and so cruel to his people? Daine is sure he's planning something. Daine must fight the powerful Emperor Mage, knowing that the safety and peace of the realm depend on stopping Ozorne's power-hungry schemes.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 34,
-        "audiobook": 43,
-        "classics": 52,
-        "fantasy": 21,
-        "fiction": 263,
-        "science fiction": 1066,
-        "science fiction fantasy": 63,
-        "space": 31,
-        "space opera": 24,
-        "young adult": 161
+        "adventure": 196,
+        "childrens": 116,
+        "childrens (middle grade)": 119,
+        "fantasy": 3332,
+        "fantasy (dragons)": 109,
+        "fantasy (high fantasy)": 124,
+        "fantasy (magic)": 300,
+        "fiction": 333,
+        "young adult": 1470,
+        "young adult (young adult fantasy)": 224
     },
     "inventory": [
         {
-            "status": "available",
-            "stock_id": "987_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "987_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "987_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "987_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "987_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "987_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "987_7"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "987_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "987_9"
+            "stock_id": "987_1"
         }
     ],
     "metrics": {
-        "rating_votes": 27792,
-        "score": 3.92
+        "rating_votes": 62992,
+        "score": 4.23
     },
-    "pages": 914,
-    "title": "Have Space Suit\u2014Will Travel",
-    "url": "https://www.goodreads.com/book/show/20417.Have_Space_Suit_Will_Travel",
-    "year_published": 1958
+    "pages": 875,
+    "title": "Emperor Mage",
+    "url": "https://www.goodreads.com/book/show/13833.Emperor_Mage",
+    "year_published": 1995
 }

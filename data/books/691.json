@@ -1,33 +1,35 @@
 {
     "author": "Arthur C. Clarke",
-    "base_id": 691,
+    "base_id": "691",
     "description": "70 years after the events of Rendezvous with Rama, a second Raman vessel enters our solar system. Its arrival is expected and an expedition is sent to unlock more of Rama's mysteries, but the crew are unprepared both for what they find and for the conflicts that arise between them.",
     "editions": [
-        "French"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 21,
         "classics": 13,
         "fantasy": 20,
         "fiction": 293,
         "novels": 19,
         "science fiction": 999,
+        "science fiction (aliens)": 21,
         "science fiction fantasy": 41,
         "space": 21,
-        "space opera": 18,
+        "space (space opera)": 18,
         "speculative fiction": 14
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "691_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "691_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "691_3"
         },
         {
@@ -37,17 +39,13 @@
         {
             "status": "available",
             "stock_id": "691_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "691_6"
         }
     ],
     "metrics": {
         "rating_votes": 23369,
         "score": 3.69
     },
-    "pages": 436,
+    "pages": 365,
     "title": "Rama II",
     "url": "https://www.goodreads.com/book/show/112520.Rama_II",
     "year_published": 1989

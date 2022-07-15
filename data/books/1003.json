@@ -1,25 +1,27 @@
 {
-    "author": "Margaret Stohl",
-    "base_id": 1003,
-    "description": "Your heart beats only with their permission.Everything changed on The Day. The day the windows shattered. The day the power stopped. The day Dol's family dropped dead. The day Earth lost a war it didn't know it was fighting.Since then, Dol has lived a simple life in the countryside -- safe from the shadow of the Icon and its terrifying power. Hiding from the one truth she can't avoid.She's different. She survived. Why?When Dol and her best friend, Ro, are captured and taken to the Embassy, off the coast of the sprawling metropolis once known as the City of Angels, they find only more questions. While Ro and fellow hostage Tima rage against their captors, Dol finds herself drawn to Lucas, the Ambassador's privileged son. But the four teens are more alike than they might think, and the timing of their meeting isn't a coincidence. It's a conspiracy.Within the Icon's reach, Dol, Ro, Tima, and Lucas discover that their uncontrollable emotions -- which they've always thought to be their greatest weaknesses -- may actually be their greatest strengths.Bestselling author Margaret Stohl delivers the first book in a heart-pounding series set in a haunting new world where four teens must piece together the mysteries of their pasts -- in order to save the future.",
+    "author": "Marge Piercy",
+    "base_id": "1003",
+    "description": "After being unjustly committed to a mental institution, Connie Ramos is contacted by an envoy from the year 2137, who shows her a utopian future of sexual and racial equality and environmental harmony.But Connie also bears witness to another potential outcome: a dystopian society of grotesque exploitation. One will become our world. And Connie herself may strike the decisive blow...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 75,
-        "audiobook": 21,
-        "dystopia": 201,
-        "fantasy": 72,
-        "fiction": 38,
-        "paranormal": 33,
-        "post apocalyptic": 45,
-        "romance": 39,
-        "science fiction": 160,
-        "young adult": 293
+        "fantasy": 75,
+        "feminism": 251,
+        "fiction": 557,
+        "novels": 49,
+        "science fiction": 487,
+        "science fiction (dystopia)": 105,
+        "science fiction (time travel)": 129,
+        "science fiction fantasy": 59,
+        "speculative fiction": 61,
+        "womens": 46
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1003_1"
         },
         {
@@ -27,11 +29,11 @@
             "stock_id": "1003_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1003_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "1003_4"
         },
         {
@@ -41,14 +43,18 @@
         {
             "status": "on_loan",
             "stock_id": "1003_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1003_7"
         }
     ],
     "metrics": {
-        "rating_votes": 7856,
-        "score": 3.41
+        "rating_votes": 14210,
+        "score": 3.95
     },
-    "pages": 219,
-    "title": "Icons",
-    "url": "https://www.goodreads.com/book/show/11861715-icons",
-    "year_published": 2013
+    "pages": 1113,
+    "title": "Woman on the Edge of Time",
+    "url": "https://www.goodreads.com/book/show/772888.Woman_on_the_Edge_of_Time",
+    "year_published": 1976
 }

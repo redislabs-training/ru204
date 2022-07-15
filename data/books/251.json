@@ -1,45 +1,47 @@
 {
-    "author": "Zoey Draven",
-    "base_id": 251,
-    "description": "Welcome to Luxiria, where the twin suns are hot and the alien warriors are hotter\u2026Kate Harper finally had everything going on back on Earth: her dream job, a kickass best friend, and an apartment completely void of her cheating ex. That is, until she wakes up, cuffed and naked, on an alien planet/fight club known as the Pit. Worse? Aliens fight to the death to be able to claim their prize: human pleasure mates. Even worse? She realizes she\u2019s one of them.Vaxa\u2019an, the Prime Leader of Luxiria, has a duty to his warrior species: continue their race. Infamously ruthless and deadly, the Luxirian knows he\u2019ll have no trouble claiming a Breeder at the Pit. What he doesn\u2019t expect to find is his fated mate, with her lush curves and tempting body. And he will stop at nothing to claim her.When Kate becomes the warrior alpha\u2019s prize, her only goal is getting back to the life she was taken from. Certainly not to fall for the sexy, overbearing barbarian with a wicked tongue, who is determined to make her his own\u2026Features a curvy, stubborn human female and a seven-foot tall hot alien with a dirty mouth and an impossibly large (-ahem-) package that does deliciously interesting things. Full-length 55,000+ word novel!",
+    "author": "Brian Herbert",
+    "base_id": "251",
+    "description": "Alternate cover edition located here.Following their internationally bestselling novels Dune: The Butlerian Jihad and Dune: The Machine Crusade, Brian Herbert and Kevin J. Anderson forge a final tumultuous finish to their prequels to Frank Herbert's Dune.It has been fifty-six hard years since the events of The Machine Crusade. Following the death of Serena Butler, the bloodiest decades of the Jihad take place. Synchronized Worlds and Unallied Planets are liberated one by one, and at long last, after years of victory, the human worlds begin to hope that the end of the centuries-long conflict with the thinking machines is finally in sight.Unfortunately, Omnius has one last, deadly card to play. In a last-ditch effort to destroy humankind, virulent plagues are let loose throughout the galaxy, decimating the populations of whole planets . . . and once again, the tide of the titanic struggle shifts against the warriors of the human race. At last, the war that has lasted many lifetimes will be decided in the apocalyptic Battle of Corrin.In the greatest battle in science fiction history, human and machine face off one last time. . . . And on the desert planet of Arrakis, the legendary Fremen of Dune become the feared fighting force to be discovered by Paul Muad'Dib in Frank Herbert's classic, Dune.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 7,
-        "aliens": 58,
-        "erotica": 21,
-        "fantasy": 15,
-        "paranormal": 25,
-        "paranormal romance": 12,
-        "romance": 48,
-        "science fiction": 61,
-        "science fiction romance": 22,
-        "space": 4
+        "adventure": 6,
+        "audiobook": 12,
+        "fantasy": 72,
+        "fiction": 124,
+        "novels": 8,
+        "science fiction": 467,
+        "science fiction fantasy": 38,
+        "space": 11,
+        "space (space opera)": 20,
+        "speculative fiction": 7
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "251_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "251_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "251_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "251_4"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "251_5"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "251_6"
         },
         {
@@ -47,16 +49,16 @@
             "stock_id": "251_7"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "251_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3297,
-        "score": 3.83
+        "rating_votes": 11560,
+        "score": 3.75
     },
-    "pages": 413,
-    "title": "The Alien's Prize",
-    "url": "https://www.goodreads.com/book/show/34357797-the-alien-s-prize",
-    "year_published": 2017
+    "pages": 482,
+    "title": "The Battle of Corrin",
+    "url": "https://www.goodreads.com/book/show/99220.The_Battle_of_Corrin",
+    "year_published": 2004
 }

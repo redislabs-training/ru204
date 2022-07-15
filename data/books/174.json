@@ -1,46 +1,47 @@
 {
-    "author": "Margaret Stohl",
-    "base_id": 174,
-    "description": "The Icons came from the sky. They belong to an inhuman enemy. They ended our civilization, and they can kill us. Most of us. Dol, Ro, Tima, and Lucas are the four Icon Children, the only humans immune to the Icon's power to stop a human heart. Now that Los Angeles has been saved, things are more complicated - and not just because Dol has to choose between Lucas and Ro, the two great loves of her life. As she flees to a resistance outpost hidden beneath a mountain, Dol makes contact with a fifth Icon Child, if only through her visions. When Dol and the others escape to Southeast Asia in search of this missing child, Dol's dreams, feelings and fears collide in an epic showdown that will change more than just four lives - and stop one heart forever.",
+    "author": "Jodi Taylor",
+    "base_id": "174",
+    "description": "Here's a question for you. What's the most exciting thing ever found in a fire bucket? And don't say 'fire' because you'll be wrong.  Suppose - just suppose - it was the technology to take a pod to Mars? Yeah, now we're talking!  Every Christmas, for reasons which seem good at the time - especially after an eggnog or two - Max and the others leap into the nearest pod and indulge in their illegal Christmas jump. It's a tradition. This year, however, just to be different, they find themselves part of someone else's illegal Christmas jump. It's time to don a spacesuit and bring your own urine!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 24,
-        "audiobook": 6,
-        "dystopia": 53,
-        "fantasy": 13,
-        "fiction": 6,
-        "post apocalyptic": 8,
-        "romance": 16,
-        "science fiction": 40,
-        "teen": 5,
-        "young adult": 68
+        "adventure": 9,
+        "audiobook": 12,
+        "fantasy": 36,
+        "fiction": 30,
+        "historical (historical fiction)": 15,
+        "humor": 8,
+        "science fiction": 33,
+        "science fiction (time travel)": 53,
+        "science fiction fantasy": 7,
+        "short stories": 17
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "174_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "174_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "174_3"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "174_4"
         }
     ],
     "metrics": {
-        "rating_votes": 1468,
-        "score": 3.5
+        "rating_votes": 2070,
+        "score": 4.38
     },
-    "pages": 424,
-    "title": "Idols",
-    "url": "https://www.goodreads.com/book/show/11861743-idols",
-    "year_published": 2014
+    "pages": 494,
+    "title": "And Now For Something Completely Different",
+    "url": "https://www.goodreads.com/book/show/42077017-and-now-for-something-completely-different",
+    "year_published": 2018
 }

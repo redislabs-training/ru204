@@ -1,0 +1,64 @@
+{
+    "author": "Christopher Paolini",
+    "base_id": "22586",
+    "description": "An alternate cover edition for ISBN 9780375826696 can be found here.One boy...One dragon...A world of adventure. When Eragon finds a polished blue stone in the forest, he thinks it is the lucky discovery of a poor farm boy; perhaps it will buy his family meat for the winter. But when the stone brings a dragon hatchling, Eragon soon realizes he has stumbled upon a legacy nearly as old as the Empire itself. Overnight his simple life is shattered, and he is thrust into a perilous new world of destiny, magic, and power. With only an ancient sword and the advice of an old storyteller for guidance, Eragon and the fledgling dragon must navigate the dangerous terrain and dark enemies of an Empire ruled by a king whose evil knows no bounds. Can Eragon take up the mantle of the legendary Dragon Riders? The fate of the Empire may rest in his hands.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 1263,
+        "childrens": 526,
+        "fantasy": 23995,
+        "fantasy (dragons)": 2500,
+        "fantasy (high fantasy)": 861,
+        "fantasy (magic)": 1072,
+        "fiction": 3447,
+        "science fiction fantasy": 644,
+        "young adult": 6791,
+        "young adult (young adult fantasy)": 610
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "22586_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "22586_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "22586_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "22586_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "22586_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "22586_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "22586_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "22586_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 1477182,
+        "score": 3.91
+    },
+    "pages": 1390,
+    "title": "Eragon",
+    "url": "https://www.goodreads.com/book/show/113436.Eragon",
+    "year_published": 2002
+}

@@ -1,0 +1,68 @@
+{
+    "author": "Philip Pullman",
+    "base_id": "10382",
+    "description": "She had asked: What is he? A friend or an enemy?The alethiometer answered: He is a murderer.When she saw the answer, she relaxed at once.Lyra finds herself in a shimmering, haunted otherworld \u2013 Citt\u00e0gazze, where soul-eating Spectres stalk the streets and wingbeats of distant angels sound against the sky.But she is not without allies: twelve-year-old Will Parry, fleeing for his life after taking another's, has also stumbled into this strange new realm.On a perilous journey from world to world, Lyra and Will uncover a deadly secret: an object of extraordinary and devastating power.And with every step, they move closer to an even greater threat \u2013 and the shattering truth of their own destiny.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 733,
+        "audiobook": 568,
+        "childrens": 790,
+        "childrens (middle grade)": 435,
+        "fantasy": 14994,
+        "fiction": 3568,
+        "science fiction": 667,
+        "science fiction (steampunk)": 502,
+        "science fiction fantasy": 578,
+        "young adult": 4849
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "10382_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10382_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10382_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "10382_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 380576,
+        "score": 4.13
+    },
+    "pages": 1092,
+    "title": "The Subtle Knife",
+    "url": "https://www.goodreads.com/book/show/41637836-the-subtle-knife",
+    "year_published": 1997
+}

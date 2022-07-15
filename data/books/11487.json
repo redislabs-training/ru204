@@ -1,0 +1,68 @@
+{
+    "author": "Lois Lowry",
+    "base_id": "11487",
+    "description": "In her strongest work to date, Lois Lowry once again creates a mysterious but plausible future world. It is a society ruled by savagery and deceit that shuns and discards the weak. Left orphaned and physically flawed, young Kira faces a frightening, uncertain future. Blessed with an almost magical talent that keeps her alive, she struggles with ever broadening responsibilities in her quest for truth, discovering things that will change her life forever.As she did in The Giver, Lowry challenges readers to imagine what our world could become, and what will be considered valuable. Every reader will be taken by Kira's plight and will long ponder her haunting world and the hope for the future.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "audiobook": 195,
+        "childrens": 287,
+        "childrens (middle grade)": 380,
+        "classics": 318,
+        "fantasy": 1175,
+        "fiction": 1691,
+        "science fiction": 897,
+        "science fiction (dystopia)": 1736,
+        "young adult": 2806,
+        "young adult (teen)": 165
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "11487_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "11487_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "11487_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "11487_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "11487_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "11487_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "11487_7"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "11487_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "11487_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 165553,
+        "score": 3.81
+    },
+    "pages": 1194,
+    "title": "Gathering Blue",
+    "url": "https://www.goodreads.com/book/show/12936.Gathering_Blue",
+    "year_published": 2000
+}

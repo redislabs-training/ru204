@@ -1,0 +1,36 @@
+{
+    "author": "Kazu Kibuishi",
+    "base_id": "2232",
+    "description": "In this thrilling sequel to AMULET #1: THE STONEKEEPER, Emily and her brother Navin head for Kanalis, a beautiful and mysterious city of waterfalls, where they hope to find the antidote for the poison that felled their mother. That cure lies in the eggs of a giant serpent atop Demon's Head Mountain, but the kids' archenemy, Trellis, is headed for the peak, too. A battle that will engulf all of Kanalis is looming. It's up to Em to triumph over evil while controlling the amulet's power . . . without losing herself!",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 160,
+        "childrens": 121,
+        "childrens (middle grade)": 272,
+        "fantasy": 818,
+        "fantasy (magic)": 76,
+        "fiction": 120,
+        "graphic novels comics": 80,
+        "sequential art (comics)": 94,
+        "sequential art (graphic novels)": 1329,
+        "young adult": 111
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2232_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 34392,
+        "score": 4.33
+    },
+    "pages": 1292,
+    "title": "The Stonekeeper's Curse",
+    "url": "https://www.goodreads.com/book/show/6277410-the-stonekeeper-s-curse",
+    "year_published": 2009
+}

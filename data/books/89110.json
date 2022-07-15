@@ -1,0 +1,46 @@
+{
+    "author": "Ernest Cline",
+    "base_id": "89110",
+    "description": "Librarian's note: An alternate cover edition can be found hereIN THE YEAR 2044, reality is an ugly place. The only time teenage Wade Watts really feels alive is when he's jacked into the virtual utopia known as the OASIS. Wade's devoted his life to studying the puzzles hidden within this world's digital confines, puzzles that are based on their creator's obsession with the pop culture of decades past and that promise massive power and fortune to whoever can unlock them. But when Wade stumbles upon the first clue, he finds himself beset by players willing to kill to take this ultimate prize. The race is on, and if Wade's going to survive, he'll have to win\u2014and confront the real world he's always been so desperate to escape.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 644,
+        "adventure": 1201,
+        "audiobook": 2212,
+        "fantasy": 3492,
+        "fiction": 8242,
+        "science fiction": 11085,
+        "science fiction (cyberpunk)": 634,
+        "science fiction (dystopia)": 3375,
+        "science fiction fantasy": 998,
+        "young adult": 4113
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "89110_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "89110_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "89110_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "89110_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 904282,
+        "score": 4.25
+    },
+    "pages": 859,
+    "title": "Ready Player One",
+    "url": "https://www.goodreads.com/book/show/9969571-ready-player-one",
+    "year_published": 2011
+}

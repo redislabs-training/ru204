@@ -1,25 +1,26 @@
 {
-    "author": "Rachel Caine",
-    "base_id": 922,
-    "description": "Petty criminal Zara Cole has a painful past that\u2019s made her stronger than most, which is why she chose life in New Detroit instead of moving with her family to Mars. In her eyes, living inside a dome isn\u2019t much better than a prison cell.Still, when Zara commits a crime that has her running scared, jail might be exactly where she\u2019s headed. Instead Zara is recruited into the Honors, an elite team of humans selected by the Leviathan\u2014a race of sentient alien ships\u2014to explore the outer reaches of the universe as their passengers.Zara seizes the chance to flee Earth\u2019s dangers, but when she meets Nadim, the alien ship she\u2019s assigned, Zara starts to feel at home for the first time. But nothing could have prepared her for the dark, ominous truths that lurk behind the alluring glitter of starlight.",
+    "author": "Jasper Fforde",
+    "base_id": "922",
+    "description": "Long ago, magic began to fade, and the underemployed magicians of Kazam Mystical Arts Management have been forced to take any work their sixteen-year-old acting manager, Jennifer Strange, can scare up. But things are about to change. Magical power is finally on the rise, and King Snodd IV, of the Ununited Kingdoms knows that he who controls magic controls everything. Only one person stands between Snodd and his plans for a magic-grab--and that's Jennifer. Yet even smart and sensible Jennifer would have trouble against these powers-that-be. The king and his cronies will do anything to succeed--including ordering a just-might-be-rigged contest between Kazam and iMagic, Kazam's only competitor in the magic business. With underhanded shenanigans afoot, how can Kazam possibly win? Whatever happens, one this is certain: Jennifer Strange will not relinquish the noble powers of magic without a fight.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 33,
-        "aliens": 59,
-        "audiobook": 23,
-        "dystopia": 38,
-        "fantasy": 113,
-        "fiction": 53,
-        "science fiction": 396,
-        "space": 62,
-        "space opera": 26,
-        "young adult": 332
+        "adventure": 38,
+        "fantasy": 760,
+        "fantasy (dragons)": 39,
+        "fantasy (magic)": 82,
+        "fantasy (urban fantasy)": 33,
+        "fiction": 165,
+        "humor": 100,
+        "science fiction fantasy": 47,
+        "young adult": 327,
+        "young adult (teen)": 33
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "922_1"
         },
         {
@@ -27,36 +28,20 @@
             "stock_id": "922_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "922_3"
         },
         {
-            "status": "on_loan",
-            "stock_id": "922_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "922_5"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "922_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "922_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "922_8"
+            "stock_id": "922_4"
         }
     ],
     "metrics": {
-        "rating_votes": 4254,
-        "score": 3.9
+        "rating_votes": 8656,
+        "score": 4.05
     },
-    "pages": 315,
-    "title": "Honor Among Thieves",
-    "url": "https://www.goodreads.com/book/show/30129657-honor-among-thieves",
-    "year_published": 2018
+    "pages": 1053,
+    "title": "The Song of the Quarkbeast",
+    "url": "https://www.goodreads.com/book/show/17165902-the-song-of-the-quarkbeast",
+    "year_published": 2011
 }

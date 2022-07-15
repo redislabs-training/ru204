@@ -1,33 +1,34 @@
 {
-    "author": "David Brin",
-    "base_id": 418,
-    "description": "David Brin's Uplift novels are among the most thrilling and extraordinary science fiction ever written. Sundiver, Startide Rising,and The Uplift War--a New York Times bestseller--together make up one of the most beloved sagas of all time. Brin's tales are set in a future universe in which no species can reach sentience without being \"uplifted\" by a patron race. But the greatest mystery of all remains unsolved: who uplifted humankind?As galactic armadas clash in quest of the ancient fleet of the Progenitors, a brutal alien race seizes the dying planet of Garth. The various uplifted inhabitants of Garth must battle their overlords or face ultimate extinction. At stake is the existence of Terran society and Earth, and the fate of the entire Five Galaxies. Sweeping, brilliantly crafted, inventive and dramatic, The Uplift War is an unforgettable story of adventure and wonder from one of today's science fiction greats.",
+    "author": "Mark  Lawrence",
+    "base_id": "418",
+    "description": "Sometimes being wrong is the right answer.Nick Hayes\u2019s genius is in wringing out the universe\u2019s secrets. It\u2019s a talent that\u2019s allowed him to carve paths through time. But the worst part is that he knows how his story will end. He\u2019s seen it with his own eyes. And every year that passes, every breakthrough he makes, brings him a step closer. Mia\u2019s accident is waiting for them both in 2011. If it happens then he\u2019s out of choices.Then a chance 1992 discovery reveals that this seeker of truth has been lying to himself. But why? It\u2019s a question that haunts him for years. A straw he clings to as his long-awaited fate draws near.Time travel turns out not to be the biggest problem Nick has to work on. He needs to find out how he can stay on his path but change the destination. Failure has never been an option, and neither has survival. But Nick\u2019s hoping to roll the dice one more time. And this new truth begins with a lie.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 23,
-        "audiobook": 13,
-        "fantasy": 34,
-        "fiction": 166,
-        "hugo awards": 60,
-        "science fiction": 809,
-        "science fiction fantasy": 49,
-        "space": 16,
-        "space opera": 83,
-        "speculative fiction": 21
+        "audiobook": 7,
+        "fantasy": 39,
+        "fantasy (urban fantasy)": 13,
+        "fiction": 29,
+        "mystery": 4,
+        "science fiction": 118,
+        "science fiction (time travel)": 50,
+        "science fiction fantasy": 5,
+        "thriller": 4,
+        "young adult": 18
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "418_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "418_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "418_3"
         },
         {
@@ -35,24 +36,32 @@
             "stock_id": "418_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "418_5"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "418_6"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "418_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "418_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "418_9"
         }
     ],
     "metrics": {
-        "rating_votes": 25121,
-        "score": 4.07
+        "rating_votes": 3983,
+        "score": 4.24
     },
-    "pages": 1338,
-    "title": "The Uplift War",
-    "url": "https://www.goodreads.com/book/show/234489.The_Uplift_War",
-    "year_published": 1987
+    "pages": 482,
+    "title": "Dispel Illusion",
+    "url": "https://www.goodreads.com/book/show/44806008-dispel-illusion",
+    "year_published": 2019
 }

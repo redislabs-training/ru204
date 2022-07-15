@@ -1,0 +1,54 @@
+{
+    "author": "Franz Kafka",
+    "base_id": "2177",
+    "description": "Translated and with a preface by Mark HarmanLeft unfinished by Kafka in 1922 and not published until 1926, two years after his death, The Castle is the haunting tale of K.\u2019s relentless, unavailing struggle with an inscrutable authority in order to gain access to the Castle. Scrupulously following the fluidity and breathlessness of the sparsely punctuated original manuscript, Mark Harman\u2019s new translation reveals levels of comedy, energy, and visual power, previously unknown to English language readers.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 1053,
+        "european literature (czech literature)": 117,
+        "european literature (german literature)": 241,
+        "fiction": 1346,
+        "literature": 308,
+        "literature (20th century)": 111,
+        "novels": 203,
+        "philosophy": 156,
+        "science fiction (dystopia)": 62,
+        "unfinished": 50
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2177_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2177_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2177_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2177_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2177_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2177_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 46040,
+        "score": 3.96
+    },
+    "pages": 775,
+    "title": "The Castle",
+    "url": "https://www.goodreads.com/book/show/333538.The_Castle",
+    "year_published": 1926
+}

@@ -1,0 +1,54 @@
+{
+    "author": "Alexandra Oliva",
+    "base_id": "2468",
+    "description": "Survival is the name of the game as the line blurs between reality TV and reality itself in Alexandra Oliva\u2019s fast-paced novel of suspense.She wanted an adventure. She never imagined it would go this far. It begins with a reality TV show. Twelve contestants are sent into the woods to face challenges that will test the limits of their endurance. While they are out there, something terrible happens\u2014but how widespread is the destruction, and has it occurred naturally or is it human-made? Cut off from society, the contestants know nothing of it. When one of them\u2014a young woman the show\u2019s producers call Zoo\u2014stumbles across the devastation, she can imagine only that it is part of the game. Alone and disoriented, Zoo is heavy with doubt regarding the life\u2014and husband\u2014she left behind, but she refuses to quit. Staggering countless miles across unfamiliar territory, Zoo must summon all her survival skills\u2014and learn new ones as she goes. But as her emotional and physical reserves dwindle, she grasps that the real world might have been altered in terrifying ways\u2014and her ability to parse the charade will be either her triumph or her undoing. Sophisticated and provocative, The Last One is a novel that forces us to confront the role that media plays in our perception of what is real: how readily we cast our judgments, how easily we are manipulated.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 48,
+        "apocalyptic (post apocalyptic)": 105,
+        "audiobook": 46,
+        "fiction": 364,
+        "horror": 63,
+        "science fiction": 256,
+        "science fiction (apocalyptic)": 67,
+        "science fiction (dystopia)": 198,
+        "suspense": 56,
+        "thriller": 179
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2468_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2468_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "2468_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2468_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2468_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2468_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13099,
+        "score": 3.63
+    },
+    "pages": 1285,
+    "title": "The Last One",
+    "url": "https://www.goodreads.com/book/show/27245997-the-last-one",
+    "year_published": 2016
+}

@@ -1,0 +1,42 @@
+{
+    "author": "Stephen Baxter",
+    "base_id": "314",
+    "description": "There is a secret passage through time...and it leads all the way to the end of Eternity. But the journey has a terrible cost. It alters not only the future but the \"present\" in which we live.A century after the publication of H. G. Wells' immortal The Time Machine, Stephen Baxter, today's most acclaimed new \"hard SF\" author, and the acknowledged Clarke, returns to the distant conflict between the Eloi and the Morlocks in a story that is at once an exciting expansion, and a radical departure based on the astonishing new understandings of quantum physics.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 9,
+        "fantasy": 9,
+        "fiction": 94,
+        "science fiction": 355,
+        "science fiction (hard science fiction)": 8,
+        "science fiction (steampunk)": 16,
+        "science fiction (time travel)": 88,
+        "science fiction fantasy": 9,
+        "space (space opera)": 6,
+        "speculative fiction": 6
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "314_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "314_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "314_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5301,
+        "score": 3.95
+    },
+    "pages": 599,
+    "title": "The Time Ships",
+    "url": "https://www.goodreads.com/book/show/62992.The_Time_Ships",
+    "year_published": 1995
+}

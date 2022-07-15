@@ -1,0 +1,62 @@
+{
+    "author": "Shannon Hale",
+    "base_id": "824",
+    "description": "WHO RUNS THE WORLD? SQUIRRELS! Fourteen-year-old Doreen Green moved from sunny California to the suburbs of New Jersey. She must start at a new school, make new friends, and continue to hide her tail. Yep, Doreen has the powers of . . . a squirrel! After failing at several attempts to find her new BFF, Doreen feels lonely and trapped, liked a caged animal. Then one day Doreen uses her extraordinary powers to stop a group of troublemakers from causing mischief in the neighborhood, and her whole life changes. Everyone at school is talking about it! Doreen contemplates becoming a full-fledged Super Hero. And thus, Squirrel Girl is born! She saves cats from trees, keeps the sidewalks clean, and dissuades vandalism. All is well until a real-life Super Villain steps out of the shadows and declares Squirrel Girl his archenemy. Can Doreen balance being a teenager and a Super Hero? Or will she go . . . NUTS?",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 25,
+        "childrens": 30,
+        "childrens (middle grade)": 142,
+        "comics (superheroes)": 76,
+        "fantasy": 96,
+        "fiction": 63,
+        "humor": 52,
+        "sequential art (comics)": 26,
+        "superheroes (marvel)": 22,
+        "young adult": 87
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "824_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "824_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "824_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "824_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "824_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "824_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "824_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "824_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3301,
+        "score": 4.13
+    },
+    "pages": 645,
+    "title": "Squirrel Meets World",
+    "url": "https://www.goodreads.com/book/show/30206050-squirrel-meets-world",
+    "year_published": 2017
+}

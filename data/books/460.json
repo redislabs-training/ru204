@@ -1,0 +1,36 @@
+{
+    "author": "Alastair Reynolds",
+    "base_id": "460",
+    "description": "Fix the past. Save the present. Stop the future. Alastair Reynolds unfolds a time-traveling climate fiction adventure in Permafrost.2080: at a remote site on the edge of the Arctic Circle, a group of scientists, engineers and physicians gather to gamble humanity\u2019s future on one last-ditch experiment. Their goal: to make a tiny alteration to the past, averting a global catastrophe while at the same time leaving recorded history intact. To make the experiment work, they just need one last recruit: an ageing schoolteacher whose late mother was the foremost expert on the mathematics of paradox.2028: a young woman goes into surgery for routine brain surgery. In the days following her operation, she begins to hear another voice in her head... an unwanted presence which seems to have a will, and a purpose, all of its own \u2013 one that will disrupt her life entirely. The only choice left to her is a simple one.Does she resist... or become a collaborator?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 19,
+        "audiobook": 11,
+        "fiction": 66,
+        "novella": 44,
+        "science fiction": 256,
+        "science fiction (apocalyptic)": 10,
+        "science fiction (dystopia)": 17,
+        "science fiction (time travel)": 115,
+        "science fiction fantasy": 10,
+        "speculative fiction": 12
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "460_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3817,
+        "score": 3.91
+    },
+    "pages": 914,
+    "title": "Permafrost",
+    "url": "https://www.goodreads.com/book/show/40048442-permafrost",
+    "year_published": 2019
+}

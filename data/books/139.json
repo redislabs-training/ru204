@@ -1,58 +1,40 @@
 {
-    "author": "Anna Carven",
-    "base_id": 139,
-    "description": "Electric Heart is Book 7 in the Dark Planet Warriors Series. It will make more sense if you've read the other books in the series beforehand. Chronologically, it picks up where Forged in Shadow (Book 5) left off.Riana's terrified of these fierce Kordolians. They fight like demons and possess strange alien technology which makes them damn hard to kill. After her nerve-wracking experience on the superfreighter Hendrix II, she wants nothing to do with them. All she wants to do is live a peaceful Kordolian-free life back on Earth. Too bad the Board of Corrections is on her case over past misdemeanors. Too bad someone's trying to kill her. She has no idea why. Too bad the only one who can keep her safe is a scary-hot, silent alien with coldfire eyes and a very sharp sword. But hey, at least she doesn't have to deal with flesh-eating insectoid monsters anymore. The only monster she has to deal with now is a silver-skinned one named Kail. And he's more than a match for her attackers. That's reassuring... right?Warning: This book is a science-fiction alien romance. It contains swearing, violence, sensual sex scenes, and silver aliens with fangs. It's definitely recommended for readers aged 18 and over.",
+    "author": "Paul Antony Jones",
+    "base_id": "139",
+    "description": "Word count: 77,000What would you do if you suddenly found yourself twenty-five years in the past? For the nine-billion people of the year 2042 it's no longer a question ... it is a realityWhen a seemingly simple experiment goes disastrously wrong, James Baston finds himself stranded alongside the rest of mankind, twenty-five years in the past. A past where the old are once more young, the dead live and the world has been thrust into chaos.Contacted by the scientist responsible for the disaster, James is recruited to help avert an even greater catastrophe. Along with a team of scientists, a reincarnated murder victim and a frustrated genius trapped in her six-year old body, James must stop the certain extinction of humanity. But if the deluded leader of the Church of Second Redemption has his way, humanity will disappear into potentiality, and he is willing to do anything to ensure that happens. A serial killer, a murder victim, a dead priest, and James' lives are all inextricably bound together as they plummet towards an explosive final confrontation, the winner of which will decide the fate of humanity. ***\u00a0Thanks for considering downloading Towards Yesterday. If you have a second, could I ask you to scroll to the tag section at the bottom of this page and, if you agree with them, confirm the tags you find there. This will make Towards Yesterday easier for others to find. Thank you ***",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "action": 5,
-        "aliens": 36,
-        "fantasy": 9,
-        "futuristic": 4,
-        "paranormal": 6,
-        "paranormal romance": 7,
-        "romance": 43,
-        "science fiction": 39,
-        "science fiction romance": 18,
-        "space": 4
+        "apocalyptic (post apocalyptic)": 12,
+        "audiobook": 2,
+        "business (amazon)": 3,
+        "fantasy": 6,
+        "fiction": 14,
+        "science fiction": 45,
+        "science fiction (apocalyptic)": 5,
+        "science fiction (dystopia)": 3,
+        "science fiction (time travel)": 54,
+        "young adult": 4
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "139_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "139_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "139_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "139_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "139_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "139_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "139_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1834,
-        "score": 4.22
+        "rating_votes": 1347,
+        "score": 3.73
     },
-    "pages": 397,
-    "title": "Electric Heart",
-    "url": "https://www.goodreads.com/book/show/34757040-electric-heart",
-    "year_published": 2017
+    "pages": 346,
+    "title": "Towards Yesterday",
+    "url": "https://www.goodreads.com/book/show/11294761-towards-yesterday",
+    "year_published": 2011
 }

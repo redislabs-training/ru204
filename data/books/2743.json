@@ -1,0 +1,63 @@
+{
+    "author": "S.A. Bodeen",
+    "base_id": "2743",
+    "description": "Eli and his family have lived in the underground Compound for six years. The world they knew is gone, and they've become accustomed to their new life. Accustomed, but not happy.For Eli, no amount of luxury can stifle the dull routine of living in the same place, with only his two sisters, his father and mother, doing the same thing day after day after day. As problems with their carefully planned existence threaten to destroy their sanctuary\u2014and their sanity\u2014Eli can't help but wonder if he'd rather take his chances outside. Eli's father built the Compound to keep them safe. But are they safe\u2014or sorry?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure (survival)": 79,
+        "apocalyptic (post apocalyptic)": 83,
+        "fiction": 149,
+        "mystery": 75,
+        "science fiction": 223,
+        "science fiction (dystopia)": 201,
+        "suspense": 52,
+        "thriller": 66,
+        "young adult": 562,
+        "young adult (teen)": 104
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2743_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2743_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2743_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2743_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2743_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2743_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2743_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2743_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21507,
+        "score": 3.88
+    },
+    "pages": 918,
+    "title": "The Compound",
+    "url": "https://www.goodreads.com/book/show/2696181-the-compound",
+    "year_published": 2008
+}

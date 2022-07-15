@@ -1,21 +1,23 @@
 {
-    "author": "Gabrielle S. Prendergast",
-    "base_id": 541,
-    "description": "He has no voice, or name, only a rank, Eighth. He doesn\u2019t know the details of the mission, only the directives that hum in his mind. Dart the humans. Leave them where they fall. His job is to protect his Offside. Let her do the shooting. Until a human kills her\u2026 Sixteen year-old Raven is at summer camp when the terrifying armored Nahx invade, annihilating entire cities, taking control of the Earth. Isolated in the wilderness, Raven and her friends have only a fragment of instruction from the human resistance. Shelter in place. Which seems like good advice at first. Stay put. Await rescue. Raven doesn\u2019t like feeling helpless but what choice does she have? Then a Nahx kills her boyfriend. Thrown together in a violent, unfamiliar world, Eighth and Raven should feel only hate and fear. But when Raven is injured, and Eighth deserts his unit, their survival depends on trusting each other\u2026",
+    "author": "Mary Pope Osborne",
+    "base_id": "541",
+    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series?the Magic Tree House! Have you ever met a real live ninja? Jack and Annie do when the Magic Tree House whisks them back to ancient Japan, where they find themselves in the cave of a ninja master. Will they learn the secrets of the ninja? Or will the evil samurai warriors get them first?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 22,
-        "dystopia": 32,
-        "fantasy": 35,
-        "fiction": 14,
-        "romance": 25,
-        "science fiction": 123,
-        "science fiction fantasy": 10,
-        "survival": 8,
-        "young adult": 106,
-        "young adult science fiction": 11
+        "adventure": 65,
+        "childrens": 206,
+        "childrens (chapter books)": 82,
+        "childrens (juvenile)": 20,
+        "childrens (middle grade)": 22,
+        "fantasy": 176,
+        "fantasy (magic)": 26,
+        "fiction": 111,
+        "historical (historical fiction)": 83,
+        "science fiction (time travel)": 42
     },
     "inventory": [
         {
@@ -23,7 +25,7 @@
             "stock_id": "541_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "541_2"
         },
         {
@@ -31,36 +33,20 @@
             "stock_id": "541_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "541_4"
         },
         {
             "status": "maintenance",
             "stock_id": "541_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "541_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2009,
-        "score": 3.99
+        "rating_votes": 15958,
+        "score": 3.96
     },
-    "pages": 926,
-    "title": "Zero Repeat Forever",
-    "url": "https://www.goodreads.com/book/show/28945665-zero-repeat-forever",
-    "year_published": 2017
+    "pages": 888,
+    "title": "Night of the Ninjas",
+    "url": "https://www.goodreads.com/book/show/460087.Night_of_the_Ninjas",
+    "year_published": 1995
 }

@@ -1,34 +1,64 @@
 {
-    "author": "Trisha Leigh",
-    "base_id": 107,
-    "description": "Althea and Lucas barely escaped the Others\u2019 clutches in the autumn, and were separated in the process. Alone and on the run from the cruel alien race determined to exterminate her, Althea struggles to adapt and survive in a world she never imagined. When a boy named Pax appears out of nowhere, he quickly recognizes Althea for what she is \u2013 a human/Other hybrid just like him. Althea begs him to help her find Lucas, but Pax refuses, intent on following his own mysterious agenda. The Others\u2019 presence continues to devour the planet\u2019s resources, and if history is an indication, they won\u2019t leave until Earth is destroyed beyond repair. Althea and Pax sense the only way to save themselves \u2013 and maybe their home \u2013 is to understand the powers simmering inside them. Together they push the limits of their capabilities in the quiet Wilds, but are soon confronted with a terrifying fact: no place is safe from the relentless pursuit of the Others.Least of all their own minds.",
+    "author": "Dan Abnett",
+    "base_id": "107",
+    "description": "In post-Victorian England, nearly everyone of the upper classes has voluntarily become a vampire in order to escape the lower\u00a0classes who are all zombies. Into this simmering cauldron is thrust Chief Inspector George Suttle, a lonely detective who's got\u00a0the slowest beat in London: investigating murders in a world where everyone is already dead! When the body of a young aristocrat\u00a0washes up on the banks of the Thames, Suttle's quest for the truth will take him from the darkest sewers to the gleaming\u00a0halls of power, and reveal the rotten heart at the center of this strange world.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "dystopia": 19,
-        "fantasy": 15,
-        "fiction": 8,
-        "magic": 3,
-        "paranormal": 10,
-        "paranormal romance": 2,
-        "romance": 9,
-        "science fiction": 12,
-        "young adult": 21
+        "fantasy": 11,
+        "fiction": 10,
+        "graphic novels comics": 9,
+        "historical (historical fiction)": 12,
+        "horror": 37,
+        "horror (zombies)": 32,
+        "mystery": 23,
+        "paranormal (vampires)": 26,
+        "sequential art (comics)": 76,
+        "sequential art (graphic novels)": 98
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "107_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "107_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "107_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "107_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "107_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "107_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "107_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "107_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1085,
-        "score": 4.07
+        "rating_votes": 786,
+        "score": 3.68
     },
-    "pages": 626,
-    "title": "Winter Omens",
-    "url": "https://www.goodreads.com/book/show/15781952-winter-omens",
-    "year_published": 2012
+    "pages": 1051,
+    "title": "The New Deadwardians",
+    "url": "https://www.goodreads.com/book/show/15797754-the-new-deadwardians",
+    "year_published": 2013
 }

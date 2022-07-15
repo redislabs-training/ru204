@@ -1,61 +1,59 @@
 {
-    "author": "K.A. Applegate",
-    "base_id": 102,
-    "description": "The Ellimist has helped the Animorphs many times. He is all-powerful and has only one enemy, the Crayak. In a cosmic showdown, the two enemies choose champions to represent them in a battle to end all battles. The Crayak chooses the dreaded Howlers. The Ellimist chooses the Animorphs.",
+    "author": "Robert Silverberg",
+    "base_id": "102",
+    "description": "In the mid-21st century, time travel is used to send political prisoners to Hawksbill Station, a prison camp in the late Cambrian Era. When the latest arrival suspiciously deflects questions about his crimes and knowledge of 'Up Front', the inmates decide to find out his secret. NOTE: a novella length version of this story is also available.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 13,
-        "aliens": 28,
-        "animals": 11,
-        "childrens": 28,
-        "fantasy": 37,
-        "fiction": 48,
-        "science fiction": 96,
-        "war": 7,
-        "young adult": 68
+        "fantasy": 2,
+        "fiction": 22,
+        "politics": 2,
+        "science fiction": 116,
+        "science fiction (dystopia)": 3,
+        "science fiction (time travel)": 27,
+        "science fiction fantasy": 6,
+        "short stories": 4,
+        "speculative fiction": 4
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "102_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "102_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "102_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "102_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "102_5"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "102_6"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "102_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "102_8"
         }
     ],
     "metrics": {
-        "rating_votes": 2781,
-        "score": 3.94
+        "rating_votes": 1338,
+        "score": 3.72
     },
-    "pages": 1340,
-    "title": "The Attack",
-    "url": "https://www.goodreads.com/book/show/125335.The_Attack",
-    "year_published": 1999
+    "pages": 625,
+    "title": "Hawksbill Station",
+    "url": "https://www.goodreads.com/book/show/872778.Hawksbill_Station",
+    "year_published": 1967
 }

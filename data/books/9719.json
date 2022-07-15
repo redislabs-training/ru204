@@ -1,29 +1,30 @@
 {
     "author": "John Scalzi",
-    "base_id": 9719,
+    "base_id": "9719",
     "description": "John Perry did two things on his 75th birthday. First he visited his wife's grave. Then he joined the army.The good news is that humanity finally made it into interstellar space. The bad news is that planets fit to live on are scarce-- and alien races willing to fight us for them are common. So: we fight. To defend Earth, and to stake our own claim to planetary real estate. Far from Earth, the war has been going on for decades: brutal, bloody, unyielding.Earth itself is a backwater. The bulk of humanity's resources are in the hands of the Colonial Defense Force. Everybody knows that when you reach retirement age, you can join the CDF. They don't want young people; they want people who carry the knowledge and skills of decades of living. You'll be taken off Earth and never allowed to return. You'll serve two years at the front. And if you survive, you'll be given a generous homestead stake of your own, on one of our hard-won colony planets.John Perry is taking that deal. He has only the vaguest idea what to expect. Because the actual fight, light-years from home, is far, far harder than he can imagine--and what he will become is far stranger.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
         "adventure": 131,
         "audiobook": 177,
         "fantasy": 144,
         "fiction": 1428,
-        "military fiction": 308,
         "science fiction": 5012,
         "science fiction fantasy": 296,
         "space": 215,
-        "space opera": 413,
-        "war": 276
+        "space (space opera)": 413,
+        "war": 276,
+        "war (military fiction)": 308
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "9719_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "9719_2"
         },
         {
@@ -31,7 +32,7 @@
             "stock_id": "9719_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "9719_4"
         },
         {
@@ -41,21 +42,13 @@
         {
             "status": "maintenance",
             "stock_id": "9719_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "9719_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9719_8"
         }
     ],
     "metrics": {
         "rating_votes": 168390,
         "score": 4.21
     },
-    "pages": 532,
+    "pages": 316,
     "title": "Old Man's War",
     "url": "https://www.goodreads.com/book/show/36510196-old-man-s-war",
     "year_published": 2005

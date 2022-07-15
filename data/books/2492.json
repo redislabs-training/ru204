@@ -1,0 +1,35 @@
+{
+    "author": "Susan Cooper",
+    "base_id": "2492",
+    "description": "\"When the Dark comes rising, six shall turn it back, three from the circle, three from the track; wood, bronze, iron; water, fire, stone; five will return, and one go alone.\u201dWith these mysterious words, Will Stanton discovers on his 11th birthday that he is no mere boy. He is the Sign-Seeker, last of the immortal Old Ones, destined to battle the powers of evil that trouble the land. His task is monumental: he must find and guard the six great Signs of the Light, which, when joined, will create a force strong enough to match and perhaps overcome that of the Dark. Embarking on this endeavor is dangerous as well as deeply rewarding; Will must work within a continuum of time and space much broader than he ever imagined.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 144,
+        "childrens": 358,
+        "childrens (middle grade)": 201,
+        "classics": 114,
+        "fantasy": 3068,
+        "fantasy (magic)": 123,
+        "fiction": 581,
+        "mythology (arthurian)": 96,
+        "science fiction fantasy": 92,
+        "young adult": 833
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2492_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 51885,
+        "score": 4.05
+    },
+    "pages": 512,
+    "title": "The Dark Is Rising",
+    "url": "https://www.goodreads.com/book/show/210329.The_Dark_Is_Rising",
+    "year_published": 1973
+}

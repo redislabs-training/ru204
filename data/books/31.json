@@ -1,21 +1,22 @@
 {
-    "author": "Melinda Metz",
-    "base_id": 31,
-    "description": "Love...too late? Michael: He's being held in a secret compound. But he's concerned less for himself than his friends. Max. Maria. Liz. Alex. And Isabel. He's got to get out before he's forced to betray the Roswell residents whom Sheriff Valenti is dying to capture. And once Sheriff Valenti has the information he wants, he won't be needing Michael anymore. Isabel: She used to think of Michael as a brother. But now that he's been captured, she seems to be the only one able to hear his every thought, feel his every emotion, share his dreams. Could this special bond between them mean they're meant to be together? Time is running out for Isabel to know for sure...",
+    "author": "Sonny Liew",
+    "base_id": "31",
+    "description": "Street urchins Atari and Oliver are out to steal bicycles, watch Giant Robot movies, and spend some Large Denominational Bills! Malinky Robot collects five tales by Eisner-nominated artist Sonny Liew (My Faith in Frankie, Wonderland,  Sense & Senisibility) featuring stinky fish, philosopher-labourers, and summer rain. A recipient of the Xeric Award grant, the Utopiales SF Festival's Best SF Album award, and featured in the acclaimed FLIGHT anthologies, Malinky Robot blends dystopian sci-fi and indie sensibilities into a uniquely charming, off-kilter world.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 18,
-        "fantasy": 11,
-        "fiction": 9,
-        "paranormal": 9,
-        "romance": 8,
-        "science fiction": 30,
-        "science fiction fantasy": 5,
-        "supernatural": 9,
-        "teen": 9,
-        "young adult": 63
+        "anthologies": 2,
+        "anthologies (collections)": 3,
+        "comics (comic book)": 3,
+        "fantasy (urban fantasy)": 3,
+        "fiction": 4,
+        "graphic novels comics": 3,
+        "science fiction": 4,
+        "sequential art (comics)": 23,
+        "sequential art (graphic novels)": 25,
+        "short stories": 8
     },
     "inventory": [
         {
@@ -23,11 +24,11 @@
             "stock_id": "31_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "31_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "31_3"
         },
         {
@@ -37,14 +38,18 @@
         {
             "status": "on_loan",
             "stock_id": "31_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "31_6"
         }
     ],
     "metrics": {
-        "rating_votes": 1183,
-        "score": 3.64
+        "rating_votes": 227,
+        "score": 3.69
     },
-    "pages": 1138,
-    "title": "The Intruder",
-    "url": "https://www.goodreads.com/book/show/437904.The_Intruder",
-    "year_published": 1999
+    "pages": 1185,
+    "title": "Malinky Robot: Collected Stories and Other Bits",
+    "url": "https://www.goodreads.com/book/show/11983440-malinky-robot",
+    "year_published": 2009
 }

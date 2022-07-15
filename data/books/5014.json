@@ -1,0 +1,42 @@
+{
+    "author": "Neal Stephenson",
+    "base_id": "5014",
+    "description": "Four decades ago, Richard Forthrast, the black sheep of an Iowa family, fled to a wild and lonely mountainous corner of British Columbia to avoid the draft. Smuggling backpack loads of high-grade marijuana across the border into Northern Idaho, he quickly amassed an enormous and illegal fortune. With plenty of time and money to burn, he became addicted to an online fantasy game in which opposing factions battle for power and treasure in a vast cyber realm. Like many serious gamers, he began routinely purchasing virtual gold pieces and other desirables from Chinese gold farmers\u2014young professional players in Asia who accumulated virtual weapons and armor to sell to busy American and European buyers.For Richard, the game was the perfect opportunity to launder his aging hundred dollar bills and begin his own high-tech start up\u2014a venture that has morphed into a Fortune 500 computer gaming group, Corporation 9592, with its own super successful online role-playing game, T\u2019Rain. But the line between fantasy and reality becomes dangerously blurred when a young gold farmer accidently triggers a virtual war for dominance\u2014and Richard is caught at the center.In this edgy, 21st century tale, Neal Stephenson, one of the most ambitious and prophetic writers of our time, returns to the terrain of his cyberpunk masterpieces Snow Crash and Cryptonomicon, leading readers through the looking glass and into the dark heart of imagination.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 66,
+        "audiobook": 118,
+        "fiction": 1172,
+        "mystery": 85,
+        "novels": 55,
+        "science fiction": 758,
+        "science fiction (cyberpunk)": 137,
+        "science fiction fantasy": 73,
+        "speculative fiction": 67,
+        "thriller": 463
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5014_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "5014_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5014_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 52831,
+        "score": 3.98
+    },
+    "pages": 1176,
+    "title": "Reamde",
+    "url": "https://www.goodreads.com/book/show/10552338-reamde",
+    "year_published": 2011
+}

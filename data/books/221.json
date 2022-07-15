@@ -1,0 +1,55 @@
+{
+    "author": "Greg Van Eekhout",
+    "base_id": "221",
+    "description": "Fisher is the last boy on earth-and things are not looking good for the human race. Only Fisher made it out alive after the carefully crafted survival bunker where Fisher and dozens of other humans had been sleeping was destroyed.Luckily, Fisher is not totally alone. He meets a broken robot he names Click, whose programmed purpose-to help Fisher \"continue existing\"-makes it act an awful lot like an overprotective parent. Together, Fisher and Click uncover evidence that there may be a second survival bunker far to the west. In prose that skips from hilarious to touching and back in a heartbeat, Greg van Eekhout brings us a thrilling story of survival that becomes a journey to a new hope-if Fisher can continue existing long enough to get there.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 17,
+        "adventure (survival)": 9,
+        "apocalyptic (post apocalyptic)": 9,
+        "childrens (middle grade)": 40,
+        "fantasy": 11,
+        "fiction": 18,
+        "science fiction": 61,
+        "science fiction (dystopia)": 13,
+        "science fiction (robots)": 8,
+        "young adult": 27
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "221_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "221_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "221_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "221_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "221_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "221_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 979,
+        "score": 3.83
+    },
+    "pages": 641,
+    "title": "The Boy at the End of the World",
+    "url": "https://www.goodreads.com/book/show/9580832-the-boy-at-the-end-of-the-world",
+    "year_published": 2011
+}

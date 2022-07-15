@@ -1,0 +1,62 @@
+{
+    "author": "Philip Pullman",
+    "base_id": "10736",
+    "description": "Will is the bearer of the knife. Now, accompanied by angels, his task is to deliver that powerful, dangerous weapon to Lord Asriel - by the command of his dying father.But how can he go looking for Lord Asriel when Lyra is gone? Only with her help can he fathom the myriad plots and intrigues that beset him. The two great powers of the many worlds are lining up for war, and Will must find Lyra, for together they are on their way to battle, an inevitable journey that will even take them to the world of the dead...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 671,
+        "audiobook": 489,
+        "childrens": 696,
+        "childrens (middle grade)": 365,
+        "fantasy": 13544,
+        "fiction": 3266,
+        "science fiction": 645,
+        "science fiction (steampunk)": 471,
+        "science fiction fantasy": 528,
+        "young adult": 4410
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "10736_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10736_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10736_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "10736_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10736_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10736_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10736_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "10736_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 310669,
+        "score": 4.08
+    },
+    "pages": 827,
+    "title": "The Amber Spyglass",
+    "url": "https://www.goodreads.com/book/show/18122.The_Amber_Spyglass",
+    "year_published": 2000
+}

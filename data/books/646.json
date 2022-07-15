@@ -1,0 +1,44 @@
+{
+    "author": "Suzanne Weyn",
+    "base_id": "646",
+    "description": "A dystopic look at what happens to one American town when all the fossil fuels run out...It's the near future - the very near future - and the fossil fuels are running out. No gas. No oil. Which means no driving. No heat. Supermarkets are empty. Malls have shut down. Life has just become more local than we ever knew it could be.Nobody expected the end to come this fast. And in the small town of Spring Valley, decisions that once seemed easy are quickly becoming matters of life and death. There is hope - there has to be hope - just there are also sacrifices that need to be made, and a whole society that needs to be rethought.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 9,
+        "adventure (survival)": 16,
+        "apocalyptic (post apocalyptic)": 24,
+        "fiction": 37,
+        "realistic fiction": 9,
+        "science fiction": 61,
+        "science fiction (apocalyptic)": 19,
+        "science fiction (dystopia)": 122,
+        "young adult": 147,
+        "young adult (teen)": 23
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "646_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "646_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "646_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 4165,
+        "score": 3.29
+    },
+    "pages": 754,
+    "title": "Empty",
+    "url": "https://www.goodreads.com/book/show/7883678-empty",
+    "year_published": 2010
+}

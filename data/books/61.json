@@ -1,62 +1,32 @@
 {
-    "author": "S.E. Smith",
-    "base_id": 61,
-    "description": "Mattie Abrams has always had a knack for training animals. Touring with the Cirque de Magik, she knows that she has finally found the \u2018home\u2019 she so desperately craves. She would do anything to keep her small family of circus friends and her pets, including going where they went. When the owner of the circus announces he is taking the circus to the stars, she never expects it to be quite so far \u2013 or so dangerous.Jai t\u2019Dubar never expected to find his mate among the menagerie of humans returning to his world. When a delicate beauty jogs by him, his world changes. His first thought is to chase her down and capture her. His second thought is to keep her forever. When she is taken as a hostage by a group of space pirates who invade the Kassisan Warship, Seeker, he will do everything he can to save her.Can he rescue Mattie from the pirates and traitors who threaten her before she is taken from him? And if he can, will he be able to convince her to open her heart to him and let him show her when he says \u2018forever\u2019, he means forever?",
+    "author": "Charles Dickinson",
+    "base_id": "61",
+    "description": "Euclid Heights, Illinois, is a town of many shortcuts, between houses, through orchards, and across fields. Josh Winkler, a local artist and longtime resident, knows these irregular pathways well, but he is flabbergasted when a hasty dash down a familiar walk deposits him fifteen minutes in the past. At first, Josh is more intrigued than alarmed by this accidental time travel. Then a disoriented young woman appears, claiming to be from 1908....As his life, his family, his town, and even history itself begin to unravel, Josh gradually realizes that his only salvation may lie in a shortcut in time.Charles Dickinson has written a moving and unforgettable book about the way the past can affect the present, as well as, sometimes, the other way around.",
     "editions": [
-        "None"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 17,
-        "contemporary": 4,
-        "erotica": 4,
-        "futuristic": 3,
-        "novella": 4,
-        "paranormal": 10,
-        "paranormal romance": 7,
-        "romance": 23,
-        "science fiction": 17,
-        "science fiction romance": 10
+        "adult fiction": 2,
+        "fantasy": 10,
+        "fiction": 16,
+        "science fiction": 12,
+        "science fiction (time travel)": 56,
+        "science fiction fantasy": 2
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "61_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "61_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1493,
-        "score": 4.08
+        "rating_votes": 427,
+        "score": 3.44
     },
-    "pages": 1001,
-    "title": "Rescuing Mattie",
-    "url": "https://www.goodreads.com/book/show/18480505-rescuing-mattie",
-    "year_published": 2013
+    "pages": 446,
+    "title": "A Shortcut in Time",
+    "url": "https://www.goodreads.com/book/show/281825.A_Shortcut_in_Time",
+    "year_published": 2003
 }

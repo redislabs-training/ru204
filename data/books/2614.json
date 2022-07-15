@@ -1,0 +1,66 @@
+{
+    "author": "Terry Pratchett",
+    "base_id": "2614",
+    "description": "Susan had never hung up a stocking . She'd never put a tooth under her pillow in the serious expectation that a dentally inclined fairy would turn up. It wasn't that her parents didn't believe in such things. They didn't need to believe in them. They know they existed. They just wished they didn't.There are those who believe and those who don't. Through the ages, superstition has had its uses. Nowhere more so than in the Discworld where it's helped to maintain the status quo. Anything that undermines superstition has to be viewed with some caution. There may be consequences, particularly on the last night of the year when the time is turning. When those consequences turn out to be the end of the world, you need to be prepared. You might even want more standing between you and oblivion than a mere slip of a girl - even if she has looked Death in the face on numerous occasions...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 101,
+        "audiobook": 105,
+        "childrens": 84,
+        "fantasy": 5447,
+        "fiction": 1024,
+        "holiday (christmas)": 217,
+        "humor": 883,
+        "humor (comedy)": 268,
+        "science fiction fantasy": 202,
+        "young adult": 100
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2614_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "2614_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2614_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2614_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2614_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2614_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2614_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2614_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2614_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 81283,
+        "score": 4.21
+    },
+    "pages": 1158,
+    "title": "Hogfather",
+    "url": "https://www.goodreads.com/book/show/34532.Hogfather",
+    "year_published": 1996
+}

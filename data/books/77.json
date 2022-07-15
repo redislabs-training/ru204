@@ -1,29 +1,30 @@
 {
-    "author": "Michelle M. Pillow",
-    "base_id": 77,
-    "description": "Paranormal Dragonshifter Romance The would-be heroine\u2026 Aeron wants nothing more than to continue to live out her very long, solitary life in a small metal room listening to communications for the Federation Military. It\u2019s not glamorous. It\u2019s not even charming. But it\u2019s safe. There\u2019s no chance of getting hurt. When she intercepts a communication about the impeding genocide of the Qurilixian people, she has no choice but to act. No one at the Federation seems inclined to do anything about the threat and suddenly it\u2019s up to her to save a whole planet. Enlisting the help of her degenerate sister, Aeron finds herself signed up as a prospective bride to the very barbarians she\u2019s trying to save. The man who did not need saved\u2026 High Duke of Draig, Lord Bron, is not looking forward to his seventh failed attempt at a marriage ceremony, but when he sees the lovely Aeron he knows instantly his years of waiting have finally paid off. The gods have blessed him with a life mate\u2026 or have they? His new bride is insistent she\u2019s not there for marriage, but for a mission. It\u2019s up to Bron to convince her to stay, or risk spending the rest of his life alone.",
+    "author": "Janet McNaughton",
+    "base_id": "77",
+    "description": "In the year 2368, humankind must struggle to survive under dire environmental conditions and strict government control. In this startling world, one brave young woman begins to unravel a web of lies about life on Earth that will empower her to discover, at last, who she really is. McNaughton vividly imagines an all-too-believable future and celebrates the impact that one person can make on the world.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 18,
-        "dragons": 20,
-        "erotica": 11,
-        "fantasy": 13,
-        "futuristic": 8,
-        "paranormal": 16,
-        "paranormal romance": 15,
-        "romance": 24,
-        "science fiction": 24,
-        "shapeshifters": 13
+        "apocalyptic (post apocalyptic)": 17,
+        "cultural (canada)": 6,
+        "fantasy": 9,
+        "fiction": 23,
+        "futuristic": 6,
+        "science fiction": 47,
+        "science fiction (dystopia)": 46,
+        "science fiction fantasy": 5,
+        "young adult": 57,
+        "young adult (teen)": 11
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "77_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "77_2"
         },
         {
@@ -33,14 +34,18 @@
         {
             "status": "available",
             "stock_id": "77_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "77_5"
         }
     ],
     "metrics": {
-        "rating_votes": 1044,
-        "score": 3.9
+        "rating_votes": 1165,
+        "score": 3.69
     },
-    "pages": 540,
-    "title": "His Highness the Duke",
-    "url": "https://www.goodreads.com/book/show/13412430-his-highness-the-duke",
-    "year_published": 2012
+    "pages": 290,
+    "title": "The Secret Under My Skin",
+    "url": "https://www.goodreads.com/book/show/296188.The_Secret_Under_My_Skin",
+    "year_published": 2001
 }

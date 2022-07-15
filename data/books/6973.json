@@ -1,0 +1,51 @@
+{
+    "author": "Joe Hill",
+    "base_id": "6973",
+    "description": "From the award-winning, New York Times bestselling author of NOS4A2 and Heart-Shaped Box comes a chilling novel about a worldwide pandemic of spontaneous combustion that threatens to reduce civilization to ashes and a band of improbable heroes who battle to save it, led by one powerful and enigmatic man known as the Fireman.The fireman is coming. Stay cool.No one knows exactly when it began or where it originated. A terrifying new plague is spreading like wildfire across the country, striking cities one by one: Boston, Detroit, Seattle. The doctors call it Draco Incendia Trychophyton. To everyone else it\u2019s Dragonscale, a highly contagious, deadly spore that marks its hosts with beautiful black and gold marks across their bodies\u2014before causing them to burst into flames. Millions are infected; blazes erupt everywhere. There is no antidote. No one is safe.Harper Grayson, a compassionate, dedicated nurse as pragmatic as Mary Poppins, treated hundreds of infected patients before her hospital burned to the ground. Now she\u2019s discovered the telltale gold-flecked marks on her skin. When the outbreak first began, she and her husband, Jakob, had made a pact: they would take matters into their own hands if they became infected. To Jakob\u2019s dismay, Harper wants to live\u2014at least until the fetus she is carrying comes to term. At the hospital, she witnessed infected mothers give birth to healthy babies and believes hers will be fine too. . . if she can live long enough to deliver the child.Convinced that his do-gooding wife has made him sick, Jakob becomes unhinged, and eventually abandons her as their placid New England community collapses in terror. The chaos gives rise to ruthless Cremation Squads\u2014armed, self-appointed posses roaming the streets and woods to exterminate those who they believe carry the spore. But Harper isn\u2019t as alone as she fears: a mysterious and compelling stranger she briefly met at the hospital, a man in a dirty yellow fire fighter\u2019s jacket, carrying a hooked iron bar, straddles the abyss between insanity and death. Known as The Fireman, he strolls the ruins of New Hampshire, a madman afflicted with Dragonscale who has learned to control the fire within himself, using it as a shield to protect the hunted . . . and as a weapon to avenge the wronged.In the desperate season to come, as the world burns out of control, Harper must learn the Fireman\u2019s secrets before her life\u2014and that of her unborn child\u2014goes up in smoke.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 93,
+        "apocalyptic (post apocalyptic)": 237,
+        "audiobook": 184,
+        "fantasy": 340,
+        "fiction": 797,
+        "horror": 1835,
+        "science fiction": 459,
+        "science fiction (apocalyptic)": 120,
+        "science fiction (dystopia)": 262,
+        "thriller": 308
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "6973_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "6973_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "6973_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6973_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "6973_5"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 52712,
+        "score": 3.9
+    },
+    "pages": 862,
+    "title": "The Fireman",
+    "url": "https://www.goodreads.com/book/show/29875363-the-fireman",
+    "year_published": 2016
+}

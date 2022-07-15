@@ -1,0 +1,62 @@
+{
+    "author": "Melissa Albert",
+    "base_id": "10922",
+    "description": "Seventeen-year-old Alice and her mother have spent most of Alice\u2019s life on the road, always a step ahead of the uncanny bad luck biting at their heels. But when Alice\u2019s grandmother, the reclusive author of a cult-classic book of pitch-dark fairy tales, dies alone on her estate, the Hazel Wood, Alice learns how bad her luck can really get: her mother is stolen away-by a figure who claims to come from the Hinterland, the cruel supernatural world where her grandmother's stories are set. Alice's only lead is the message her mother left behind: \u201cStay away from the Hazel Wood.\u201dAlice has long steered clear of her grandmother\u2019s cultish fans. But now she has no choice but to ally with classmate Ellery Finch, a Hinterland superfan who may have his own reasons for wanting to help her. To retrieve her mother, Alice must venture first to the Hazel Wood, then into the world where her grandmother's tales began\u2015and where she might find out how her own story went so wrong.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 244,
+        "fantasy": 3965,
+        "fantasy (fairy tales)": 320,
+        "fantasy (magic)": 209,
+        "fantasy (urban fantasy)": 199,
+        "fiction": 706,
+        "magical realism": 172,
+        "mystery": 219,
+        "young adult": 2048,
+        "young adult (young adult fantasy)": 337
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "10922_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "10922_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10922_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10922_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10922_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "10922_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "10922_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "10922_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 68670,
+        "score": 3.59
+    },
+    "pages": 529,
+    "title": "The Hazel Wood",
+    "url": "https://www.goodreads.com/book/show/34275232-the-hazel-wood",
+    "year_published": 2018
+}

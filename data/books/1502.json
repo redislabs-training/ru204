@@ -1,33 +1,51 @@
 {
     "author": "Marko Kloos",
-    "base_id": 1502,
+    "base_id": "1502",
     "description": "The year is 2108, and the North American Commonwealth is bursting at the seams. For welfare rats like Andrew Grayson, there are only two ways out of the crime-ridden and filthy welfare tenements, where you're restricted to two thousand calories of badly flavored soy every day:You can hope to win the lottery and draw a ticket on a colony ship settling off-world, or you can join the service.With the colony lottery a pipe dream, Andrew chooses to enlist in the armed forces for a shot at real food, a retirement bonus, and maybe a ticket off Earth. But as he starts a career of supposed privilege, he soon learns that the good food and decent health care come at a steep price\u2026and that the settled galaxy holds far greater dangers than military bureaucrats or the gangs that rule the slums.The debut novel from Marko Kloos, Terms of Enlistment is a new addition to the great military sci-fi tradition of Robert Heinlein, Joe Haldeman, and John Scalzi.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
         "audiobook": 43,
-        "dystopia": 24,
         "fiction": 128,
-        "military fiction": 127,
-        "military science fiction": 54,
         "science fiction": 618,
+        "science fiction (dystopia)": 24,
+        "science fiction (military science fiction)": 54,
         "science fiction fantasy": 22,
         "space": 33,
-        "space opera": 77,
-        "war": 36
+        "space (space opera)": 77,
+        "war": 36,
+        "war (military fiction)": 127
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "1502_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1502_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1502_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1502_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1502_5"
         }
     ],
     "metrics": {
         "rating_votes": 24746,
         "score": 4.01
     },
-    "pages": 1177,
+    "pages": 668,
     "title": "Terms of Enlistment",
     "url": "https://www.goodreads.com/book/show/18800655-terms-of-enlistment",
     "year_published": 2013

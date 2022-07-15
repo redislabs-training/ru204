@@ -1,0 +1,36 @@
+{
+    "author": "James Dashner",
+    "base_id": "23202",
+    "description": "It\u2019s the end of the line. WICKED has taken everything from Thomas: his life, his memories, and now his only friends\u2014the Gladers. But it\u2019s finally over. The trials are complete, after one final test. Will anyone survive? What WICKED doesn\u2019t know is that Thomas remembers far more than they think. And it\u2019s enough to prove that he can\u2019t believe a word of what they say. The truth will be terrifying. Thomas beat the Maze. He survived the Scorch. He\u2019ll risk anything to save his friends. But the truth might be what ends it all.  The time for lies is over.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "action": 206,
+        "adventure": 496,
+        "apocalyptic (post apocalyptic)": 490,
+        "audiobook": 285,
+        "fantasy": 1078,
+        "fiction": 1394,
+        "science fiction": 1950,
+        "science fiction (dystopia)": 3613,
+        "young adult": 4582,
+        "young adult (teen)": 287
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "23202_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 349074,
+        "score": 3.77
+    },
+    "pages": 657,
+    "title": "The Death Cure",
+    "url": "https://www.goodreads.com/book/show/7864437-the-death-cure",
+    "year_published": 2011
+}

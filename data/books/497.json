@@ -1,0 +1,66 @@
+{
+    "author": "Ryan North",
+    "base_id": "497",
+    "description": "What would you do if a time machine hurled you thousands of years into the past. . . and then broke? How would you survive? Could you improve on humanity's original timeline? And how hard would it be to domesticate a giant wombat? With this book as your guide, you'll survive--and thrive--in any period in Earth's history. Bestselling author and time-travel enthusiast Ryan North shows you how to invent all the modern conveniences we take for granted--from first principles. This illustrated manual contains all the science, engineering, art, philosophy, facts, and figures required for even the most clueless time traveler to build a civilization from the ground up. Deeply researched, irreverent, and significantly more fun than being eaten by a saber-toothed tiger, How to Invent Everything will make you smarter, more competent, and completely prepared to become the most important and influential person ever.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 16,
+        "audiobook": 9,
+        "history": 107,
+        "humor": 84,
+        "nonfiction": 306,
+        "reference": 10,
+        "science": 285,
+        "science (engineering)": 11,
+        "science (technology)": 28,
+        "science fiction (time travel)": 45
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "497_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "497_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "497_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "497_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "497_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "497_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "497_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "497_8"
+        },
+        {
+            "status": "available",
+            "stock_id": "497_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3081,
+        "score": 4.14
+    },
+    "pages": 1000,
+    "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler",
+    "url": "https://www.goodreads.com/book/show/39026990-how-to-invent-everything",
+    "year_published": 2018
+}

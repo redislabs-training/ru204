@@ -1,0 +1,39 @@
+{
+    "author": "Octavia E. Butler",
+    "base_id": "7208",
+    "description": "In 2025, with the world descending into madness and anarchy, one woman begins a fateful journey toward a better future.Lauren Olamina and her family live in one of the only safe neighborhoods remaining on the outskirts of Los Angeles. Behind the walls of their defended enclave, Lauren\u2019s father, a preacher, and a handful of other citizens try to salvage what remains of a culture that has been destroyed by drugs, disease, war, and chronic water shortages. While her father tries to lead people on the righteous path, Lauren struggles with hyperempathy, a condition that makes her extraordinarily sensitive to the pain of others.When fire destroys their compound, Lauren\u2019s family is killed and she is forced out into a world that is fraught with danger. With a handful of other refugees, Lauren must make her way north to safety, along the way conceiving a revolutionary idea that may mean salvation for all mankind.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 372,
+        "classics": 177,
+        "cultural (african american)": 143,
+        "fantasy": 508,
+        "fiction": 2169,
+        "novels": 164,
+        "science fiction": 2057,
+        "science fiction (dystopia)": 889,
+        "science fiction fantasy": 244,
+        "speculative fiction": 258
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "7208_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "7208_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 73697,
+        "score": 4.16
+    },
+    "pages": 1363,
+    "title": "Parable of the Sower",
+    "url": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
+    "year_published": 1993
+}

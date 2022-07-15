@@ -1,0 +1,63 @@
+{
+    "author": "M.R. Carey",
+    "base_id": "2691",
+    "description": "Once upon a time, in a land blighted by terror, there was a very clever boy.The people thought the boy could save them, so they opened their gates and sent him out into the world.To where the monsters lived.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 164,
+        "audiobook": 126,
+        "fantasy": 109,
+        "fiction": 424,
+        "horror": 688,
+        "horror (zombies)": 292,
+        "science fiction": 350,
+        "science fiction (apocalyptic)": 64,
+        "science fiction (dystopia)": 230,
+        "thriller": 59
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2691_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2691_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2691_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2691_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2691_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2691_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2691_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2691_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 20100,
+        "score": 3.96
+    },
+    "pages": 1019,
+    "title": "The Boy on the Bridge",
+    "url": "https://www.goodreads.com/book/show/31554413-the-boy-on-the-bridge",
+    "year_published": 2017
+}

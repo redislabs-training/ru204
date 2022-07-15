@@ -1,0 +1,48 @@
+{
+    "author": "Philip Reeve",
+    "base_id": "765",
+    "description": "The third thrilling book in the stunning Predator Cities series!The mighty engines of Anchorage have been rusted and dead for years. The derelict city no longer roams the Ice Wastes, but has settled on the edge of the land that was once America. Tom Natsworthy and Hester Shaw are happy in the safety of a static settlement, but their daughter, Wren, is desperate for adventure. When a dangerously charming submarine pirate offers her a chance to escape, Wren doesn't think twice about leaving her home and her parents behind. But the pirate wants something in return - Wren must steal the mysterious Tin Book. To do so will ignite a conflict that could tear the whole world apart.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 57,
+        "apocalyptic (post apocalyptic)": 42,
+        "audiobook": 40,
+        "fantasy": 252,
+        "fiction": 118,
+        "science fiction": 251,
+        "science fiction (dystopia)": 103,
+        "science fiction (steampunk)": 251,
+        "young adult": 278,
+        "young adult (teen)": 20
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "765_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "765_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "765_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "765_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13042,
+        "score": 3.91
+    },
+    "pages": 788,
+    "title": "Infernal Devices",
+    "url": "https://www.goodreads.com/book/show/585261.Infernal_Devices",
+    "year_published": 2005
+}

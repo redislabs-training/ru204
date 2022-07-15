@@ -1,66 +1,36 @@
 {
-    "author": "M.T. Anderson",
-    "base_id": 572,
-    "description": "When the vuvv first landed, it came as a surprise to aspiring artist Adam and the rest of planet Earth - but not necessarily an unwelcome one. Can it really be called an invasion when the vuvv generously offered free advanced technology and cures for every illness imaginable? As it turns out, yes. With his parents' jobs replaced by alien tech and no money for food, clean water, or the vuvv's miraculous medicine, Adam and his girlfriend, Chloe, have to get creative to survive. And since the vuvv crave anything they deem \"classic\" Earth culture (doo-wop music, still-life paintings of fruit, true love), recording 1950s-style dates for the vuvv to watch in a pay-per-minute format seems like a brilliant idea. But it's hard for Adam and Chloe to sell true love when they hate each other more with every passing episode. Soon enough, Adam must decide how far he's willing to go - and what he's willing to sacrifice - to give the vuvv what they want.",
+    "author": "Robert Kirkman",
+    "base_id": "572",
+    "description": "At long last, the survivors of Robert Kirkman and Charlie Adlard's acclaimed post-apocalyptic survival adventure find the hope they've longed look for. Can a town not yet ravaged by the horrors unleashed on Earth possibly be all it's hoped for? Is there a far more sinister secret behind their newfound safe haven?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "Art": 20,
-        "aliens": 31,
-        "dystopia": 53,
-        "fantasy": 16,
-        "fiction": 74,
-        "humor": 25,
-        "science fiction": 164,
-        "science fiction fantasy": 15,
-        "teen": 36,
-        "young adult": 194
+        "apocalyptic (post apocalyptic)": 93,
+        "comics (comic book)": 83,
+        "fiction": 168,
+        "graphic novels comics": 104,
+        "horror": 507,
+        "horror (zombies)": 355,
+        "science fiction": 42,
+        "science fiction (dystopia)": 54,
+        "sequential art (comics)": 801,
+        "sequential art (graphic novels)": 916
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "572_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "572_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "572_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "572_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "572_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "572_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "572_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "572_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "572_9"
         }
     ],
     "metrics": {
-        "rating_votes": 2999,
-        "score": 3.57
+        "rating_votes": 19097,
+        "score": 4.31
     },
-    "pages": 693,
-    "title": "Landscape with Invisible Hand",
-    "url": "https://www.goodreads.com/book/show/33281801-landscape-with-invisible-hand",
-    "year_published": 2017
+    "pages": 1171,
+    "title": "The Walking Dead, Vol. 12: Life Among Them",
+    "url": "https://www.goodreads.com/book/show/7469664-the-walking-dead-vol-12",
+    "year_published": 2010
 }

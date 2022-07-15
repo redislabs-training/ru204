@@ -1,0 +1,55 @@
+{
+    "author": "Alma Katsu",
+    "base_id": "2499",
+    "description": "Evil is invisible, and it is everywhere. Tamsen Donner must be a witch. That is the only way to explain the series of misfortunes that have plagued the wagon train known as the Donner Party. Depleted rations, bitter quarrels, and the mysterious death of a little boy have driven the pioneers to the brink of madness. They cannot escape the feeling that someone--or something--is stalking them. Whether it was a curse from the beautiful Tamsen, the choice to follow a disastrous experimental route West, or just plain bad luck--the 90 men, women, and children of the Donner Party are at the brink of one of the deadliest and most disastrous western adventures in American history. While the ill-fated group struggles to survive in the treacherous mountain conditions--searing heat that turns the sand into bubbling stew; snows that freeze the oxen where they stand--evil begins to grow around them, and within them. As members of the party begin to disappear, they must ask themselves \"What if there is something waiting in the mountains? Something disturbing and diseased...and very hungry?\"",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 76,
+        "audiobook": 48,
+        "fantasy": 51,
+        "fantasy (paranormal)": 52,
+        "fiction": 334,
+        "historical": 168,
+        "historical (historical fiction)": 662,
+        "horror": 1382,
+        "mystery": 116,
+        "thriller": 55
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2499_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2499_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2499_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2499_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2499_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2499_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 15484,
+        "score": 3.65
+    },
+    "pages": 1097,
+    "title": "The Hunger",
+    "url": "https://www.goodreads.com/book/show/30285766-the-hunger",
+    "year_published": 2018
+}

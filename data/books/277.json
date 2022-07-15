@@ -1,46 +1,35 @@
 {
-    "author": "John Christopher",
-    "base_id": 277,
-    "description": "Alternate cover edition can be found here. Will Parker has managed to escape from the City of Gold and Lead, where he served as a slave to one of the Masters who rule the modern world. And He has not only discovered what lies behind the Tripods' power, but also how the Masters heartlessly plan to destroy the earth.",
+    "author": "Linda Buckley-Archer",
+    "base_id": "277",
+    "description": " What happens when a seventeenth-century bad guy has twenty-first-century technology?  An accident with an antigravity machine catapulted Peter Schock and Kate Dyer back to 1763. A bungled rescue attempt leaves Peter stranded in the eighteenth century while a terrifying villain, the Tar Man, takes his place and explodes onto twenty-first-century London. Concerned about the potentially catastrophic effects of time travel, the NASA scientists responsible for the situation question whether it is right to rescue Peter. Kate decides to take matters into her own hands, but things don't go as planned. Soon the physical effects of time travel begin to have a disturbing effect on her. Meanwhile, in our century, the Tar Man wreaks havoc in a city whose police force is powerless to stop him.Set against a backdrop of contemporary London and revolutionary France, The Time Thief is the sequel to the acclaimed The Time Travelers.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 18,
-        "aliens": 17,
-        "childrens": 35,
-        "dystopia": 42,
-        "fantasy": 55,
-        "fiction": 129,
-        "post apocalyptic": 21,
-        "science fiction": 346,
-        "science fiction fantasy": 21,
-        "young adult": 154
+        "adventure": 24,
+        "childrens": 16,
+        "childrens (middle grade)": 23,
+        "fantasy": 110,
+        "fiction": 42,
+        "historical": 26,
+        "historical (historical fiction)": 57,
+        "science fiction": 49,
+        "science fiction (time travel)": 81,
+        "young adult": 77
     },
     "inventory": [
         {
-            "status": "on_loan",
-            "stock_id": "277_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "277_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "277_3"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "277_4"
+            "stock_id": "277_1"
         }
     ],
     "metrics": {
-        "rating_votes": 6452,
-        "score": 4
+        "rating_votes": 3916,
+        "score": 3.92
     },
-    "pages": 1272,
-    "title": "The Pool of Fire",
-    "url": "https://www.goodreads.com/book/show/80491.The_Pool_of_Fire",
-    "year_published": 1968
+    "pages": 1185,
+    "title": "The Time Thief",
+    "url": "https://www.goodreads.com/book/show/833332.The_Time_Thief",
+    "year_published": 2007
 }

@@ -1,0 +1,35 @@
+{
+    "author": "Adrienne Kress",
+    "base_id": "644",
+    "description": "An action-packed tale of gowns, guys, guns\u2013and the heroines who use them allSet in turn of the century London, The Friday Society follows the stories of three very intelligent and talented young women, all of whom are assistants to powerful men: Cora, lab assistant; Michiko, Japanese fight assistant; and Nellie, magician's assistant. The three young women's lives become inexorably intertwined after a chance meeting at a ball that ends with the discovery of a murdered mystery man.It's up to these three, in their own charming but bold way, to solve the murder\u2013and the crimes they believe may be connected to it\u2013without calling too much attention to themselves.Set in the past but with a modern irreverent flare,\u00a0this Steampunk whodunit introduces three unforgettable and very ladylike\u2013well, relatively ladylike\u2013heroines poised for more dangerous adventures.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 38,
+        "fantasy": 82,
+        "fiction": 30,
+        "historical": 56,
+        "historical (historical fiction)": 86,
+        "mystery": 124,
+        "science fiction": 62,
+        "science fiction (steampunk)": 527,
+        "young adult": 247,
+        "young adult (teen)": 28
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "644_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3013,
+        "score": 3.49
+    },
+    "pages": 644,
+    "title": "The Friday Society",
+    "url": "https://www.goodreads.com/book/show/5623269-the-friday-society",
+    "year_published": 2012
+}

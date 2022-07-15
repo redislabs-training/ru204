@@ -1,0 +1,66 @@
+{
+    "author": "Philip K. Dick",
+    "base_id": "291",
+    "description": "Dr. Eric Sweetscent has problems. His planet is enmeshed in an unwinnable war. His wife is lethally addicted to a drug that whips its users helplessly back and forth across time -- and is hell-bent on making Eric suffer along with her. And Sweetscent's newest patient is not only the most important man on the embattled planet Earth but quite possibly the sickest. For Secretary Gino Molinari has turned his mortal illness into an instrument of political policy -- and Eric cannot tell if his job is to make the man better or to keep him poised just this side of death.Now Wait for Last Year bursts through the envelope between the impossible and the inevitable. Even as it ushers us into a future that looks uncannily like the present, it makes the normal seem terrifyingly provisional -- and compels anyone who reads it to wonder if he really knows what time it is.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "classics": 7,
+        "fiction": 113,
+        "literature (20th century)": 9,
+        "literature (american)": 8,
+        "novels": 24,
+        "science fiction": 346,
+        "science fiction (dystopia)": 8,
+        "science fiction (time travel)": 40,
+        "science fiction fantasy": 13,
+        "speculative fiction": 19
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "291_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "291_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "291_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "291_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "291_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "291_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "291_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "291_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "291_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 5962,
+        "score": 3.89
+    },
+    "pages": 1302,
+    "title": "Now Wait for Last Year",
+    "url": "https://www.goodreads.com/book/show/216378.Now_Wait_for_Last_Year",
+    "year_published": 1966
+}

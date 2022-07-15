@@ -1,0 +1,66 @@
+{
+    "author": "Joseph Fink",
+    "base_id": "5031",
+    "description": "From the creators of the wildly popular Welcome to Night Vale podcast comes an imaginative mystery of appearances and disappearances that is also a poignant look at the ways in which we all struggle to find ourselves...no matter where we live.Located in a nameless desert somewhere in the great American Southwest, Night Vale is a small town where ghosts, angels, aliens, and government conspiracies are all commonplace parts of everyday life. It is here that the lives of two women, with two mysteries, will converge.Nineteen-year-old Night Vale pawn shop owner Jackie Fierro is given a paper marked \"King City\" by a mysterious man in a tan jacket holding a deer skin suitcase. Everything about him and his paper unsettles her, especially the fact that she can't seem to get the paper to leave her hand, and that no one who meets this man can remember anything about him. Jackie is determined to uncover the mystery of King City and the man in the tan jacket before she herself unravels.Night Vale PTA treasurer Diane Crayton's son, Josh, is moody and also a shape shifter. And lately Diane's started to see her son's father everywhere she goes, looking the same as the day he left years earlier, when they were both teenagers. Josh, looking different every time Diane sees him, shows a stronger and stronger interest in his estranged father, leading to a disaster Diane can see coming, even as she is helpless to prevent it.Diane's search to reconnect with her son and Jackie's search for her former routine life collide as they find themselves coming back to two words: \"King City\". It is King City that holds the key to both of their mysteries, and their futures...if they can ever find it.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult": 118,
+        "audiobook": 225,
+        "fantasy": 1298,
+        "fantasy (paranormal)": 164,
+        "fantasy (urban fantasy)": 139,
+        "fiction": 913,
+        "horror": 684,
+        "humor": 381,
+        "mystery": 249,
+        "science fiction": 514
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "5031_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5031_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "5031_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "5031_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5031_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5031_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "5031_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "5031_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "5031_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 33731,
+        "score": 3.83
+    },
+    "pages": 588,
+    "title": "Welcome to Night Vale",
+    "url": "https://www.goodreads.com/book/show/23129410-welcome-to-night-vale",
+    "year_published": 2015
+}

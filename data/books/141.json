@@ -1,25 +1,27 @@
 {
-    "author": "Alison Goodman",
-    "base_id": 141,
-    "description": "Seventeen-year-old Joss is a rebel, and a student of time travel at the prestigious Centre for Neo-Historical Studies. This year, for the first time, the Centre has an alien student? Mavkel, from the planet Choria. And Mavkel has chosen Joss, of all people, as his roommate and study partner. Then Mavkel gets sick. Joss quickly realizes that his will to live is draining away. The only way she can help Mavkel is by breaking the Centre's strictest rules . . . and that means going back in time to change history.",
+    "author": "Julian  May",
+    "base_id": "141",
+    "description": "By A.D. 2110 nearly 100,000 humans had fled the civilized strictures of the Galactic Milieu for the freedom they thought existed at the end of the one-way time tunnel to Earth, six million B.C.But all of them had fallen into the hands of the Tanu, a humanoid race who'd fled their own galaxy to avoid punishment for their barbarous ways.And now the humans had made the Tanu stronger than the Firvulag, their degenerate brethren and ritual antagonists. Soon the Tanu would reign supreme. Or so they thought . . . .",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 18,
-        "dystopia": 5,
-        "fantasy": 13,
-        "fiction": 12,
-        "science fiction": 94,
-        "science fiction fantasy": 4,
-        "teen": 18,
-        "time travel": 51,
-        "young adult": 95,
-        "young adult science fiction": 5
+        "fantasy": 225,
+        "fiction": 78,
+        "historical (historical fiction)": 4,
+        "literature": 4,
+        "novels": 4,
+        "science fiction": 264,
+        "science fiction (aliens)": 4,
+        "science fiction (time travel)": 27,
+        "science fiction fantasy": 23,
+        "speculative fiction": 8
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "141_1"
         },
         {
@@ -31,16 +33,16 @@
             "stock_id": "141_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "141_4"
         }
     ],
     "metrics": {
-        "rating_votes": 1030,
-        "score": 3.67
+        "rating_votes": 6602,
+        "score": 4.13
     },
-    "pages": 919,
-    "title": "Singing the Dogstar Blues",
-    "url": "https://www.goodreads.com/book/show/462225.Singing_the_Dogstar_Blues",
-    "year_published": 1998
+    "pages": 252,
+    "title": "The Golden Torc",
+    "url": "https://www.goodreads.com/book/show/1018538.The_Golden_Torc",
+    "year_published": 1982
 }

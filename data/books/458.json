@@ -1,38 +1,56 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 458,
-    "description": "When I wake up on the ice planet, I\u2019m scared of everything: this place is cold, silent, and the locals look more like blue devils than aliens. To make matters worse, one of the strangers decides I\u2019m going to be his girlfriend and kidnaps me away from my sister. I\u2019m completely and utterly alone. What\u2019s a girl to do?Well, this girl escapes. Of course, that means I go from frying pan into the fire, and my situation gets even more dangerous. Just when I have no hope left, a new hero appears. Sure, he\u2019s blue, horned, and has a tail. He\u2019s also fierce, protective, makes me purr... and thinks I'm perfect.But is what we have real or just a mating instinct?",
+    "author": "Jodi Taylor",
+    "base_id": "458",
+    "description": "Behind the seemingly innocuous facade of St. Mary\u2019s Institute of Historical Research, a different kind of academic work is taking place. Just don\u2019t call it \u201ctime travel\u201d\u2015these historians \u201cinvestigate major historical events in contemporary time.\u201d And they aren\u2019t your harmless eccentrics either; a more accurate description, as they ricochet around history, might be unintentional disaster-magnets.From Tudor England to the burning city of Persepolis, from a medieval St. Mary\u2019s under siege to Victorian Rushford and a very nasty case of gaol fever, Max is struggling to keep her private life intact. There\u2019s an ambitious programme hindered by giant teapots, plus Mrs. Midgely\u2019s objection to dead hamsters in her airing cupboard, and Mr. Markham\u2019s stubborn refusal to reveal his exact marital status.And as if that\u2019s not enough\u2015the unfortunately not leprosy-laden Malcolm Halcombe is back. Admittedly, none of this is the most secure platform from which to launch an initiative to bring down the renegade Clive Ronan, but hey\u2015what\u2019s the worst that could happen?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adult": 34,
-        "aliens": 146,
-        "audiobook": 12,
-        "erotica": 43,
-        "fantasy": 39,
-        "paranormal": 33,
-        "paranormal romance": 37,
-        "romance": 161,
-        "science fiction": 122,
-        "science fiction romance": 46
+        "adventure": 21,
+        "audiobook": 33,
+        "fantasy": 89,
+        "fiction": 56,
+        "historical": 27,
+        "historical (historical fiction)": 70,
+        "humor": 17,
+        "science fiction": 69,
+        "science fiction (time travel)": 143,
+        "science fiction fantasy": 15
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "458_1"
         },
         {
             "status": "maintenance",
             "stock_id": "458_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "458_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "458_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "458_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "458_6"
         }
     ],
     "metrics": {
-        "rating_votes": 5439,
-        "score": 4.11
+        "rating_votes": 5027,
+        "score": 4.53
     },
-    "pages": 1399,
-    "title": "Barbarian's Touch",
-    "url": "https://www.goodreads.com/book/show/30524238-barbarian-s-touch",
-    "year_published": 2016
+    "pages": 662,
+    "title": "An Argumentation of Historians",
+    "url": "https://www.goodreads.com/book/show/35659214-an-argumentation-of-historians",
+    "year_published": 2018
 }

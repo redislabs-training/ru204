@@ -1,25 +1,27 @@
 {
-    "author": "Cara Bristol",
-    "base_id": 103,
-    "description": "After fleeing loneliness and heartache on Terra, Tara Diehl has adjusted to male-dominated Parseon better than most vendors--until she is kidnapped by Alpha Marlix, one of the five rulers of the planet. At first she\u2019s terrified of her tall, muscled abductor, especially when he doesn\u2019t hesitate to quell her struggle for freedom with a little corporal discipline. After all her methods and ploys to escape fail, she decides to seduce her way to freedom.But out of seduction and subterfuge grow a true intimacy that cause Marlix and Tara to take action that drives Parseon to the brink of civil war, and threatens not only their relationship, but also their lives.Terran, the second book in the Breeder sci-fi series, is a \u201ccapture\u201d romance involving a domineering but hunky alien, a female with a bad dye job and an even worse attitude, explicit sex, anal sex, and spanking.",
+    "author": "Clifford D. Simak",
+    "base_id": "103",
+    "description": "'One of those complex and enormously inventive stories... based on some real, honest, practical ethical thinking. It is an idea book.' - Groff Conklin in Galaxy Science FictionAsher Sutton has been lost in deepest space for twenty years. Suddenly arrives a warning from the future, that he will return- and that he must be killed. He is destined to write a book whose message may lead to the death of millions in centuries to come. For this reason Sutton is hounded by the sinister warring factions of the future who wish to influence or prevent the writing of this book he has not yet begun to write.Yet already a copy has been found in the burnt-out wreckage of a space-craft on Aldebaran XII.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 19,
-        "bdsm": 17,
-        "dark": 5,
-        "dystopia": 4,
-        "erotic romance": 4,
-        "erotica": 16,
-        "paranormal": 5,
-        "romance": 21,
-        "science fiction": 28,
-        "science fiction romance": 12
+        "anthologies (collections)": 3,
+        "business (amazon)": 2,
+        "classics": 6,
+        "fantasy": 11,
+        "fiction": 40,
+        "novels": 4,
+        "science fiction": 189,
+        "science fiction (time travel)": 43,
+        "science fiction fantasy": 8,
+        "space": 3
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "103_1"
         },
         {
@@ -27,28 +29,28 @@
             "stock_id": "103_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "103_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "103_4"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "103_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "103_6"
         }
     ],
     "metrics": {
-        "rating_votes": 790,
-        "score": 3.8
+        "rating_votes": 2566,
+        "score": 3.91
     },
-    "pages": 1316,
-    "title": "Terran",
-    "url": "https://www.goodreads.com/book/show/22030243-terran",
-    "year_published": 2014
+    "pages": 1154,
+    "title": "Time and Again",
+    "url": "https://www.goodreads.com/book/show/876499.Time_and_Again",
+    "year_published": 1950
 }

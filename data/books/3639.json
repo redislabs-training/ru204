@@ -1,0 +1,54 @@
+{
+    "author": "Madeleine L'Engle",
+    "base_id": "3639",
+    "description": "Every time a star goes out, another Echthros has won a battle.Just before Meg Murry's little brother, Charles Wallace, falls deathly ill, he sees dragons in the vegetable garden. The dragons turn out to be Proginoskes, a cherubim composed out wings and eyes, wind and flame. It is up to Meg and Proginoskes, along with Meg's friend Calvin, to save Charles Wallace's life. To do so, they must travel deep within Charles Wallace to attempt to defeat the Echthroi\u2014those who hate\u2014and restore brilliant harmony and joy to the rhythm of creation, the song of the universe.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 220,
+        "audiobook": 124,
+        "childrens": 684,
+        "childrens (middle grade)": 403,
+        "classics": 506,
+        "fantasy": 3162,
+        "fiction": 1406,
+        "science fiction": 1081,
+        "science fiction fantasy": 278,
+        "young adult": 1600
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "3639_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "3639_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3639_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "3639_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "3639_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "3639_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 125653,
+        "score": 3.99
+    },
+    "pages": 840,
+    "title": "A Wind in the Door",
+    "url": "https://www.goodreads.com/book/show/18130.A_Wind_in_the_Door",
+    "year_published": 1973
+}

@@ -1,0 +1,56 @@
+{
+    "author": "Pete Hautman",
+    "base_id": "537",
+    "description": "\"Of course, without people like us Marstens, there wouldn't be anybody to do the manual labor that makes this country run. Without penal workers, who would work the production lines, or pick the melons and peaches, or maintain the streets and parks and public lavatories? Our economy depends on prison labor. Without it everybody would have to work -- whether they wanted to or not.\"  In the late twenty-first century Bo Marsten is unjustly accused of a causing a rash that plagues his entire high school. He loses it, and as a result, he's sentenced to work in the Canadian tundra, at a pizza factory that's surrounded by hungry polar bears. Bo finds prison life to be both boring and dangerous, but it's nothing compared to what happens when he starts playing on the factory's highly illegal football team. In the meantime, Bork, an artificial intelligence that Bo created for a science project, tracks Bo down in prison. Bork has spun out of control and seems to be operating on his own. He offers to get Bo's sentence shortened, but can Bo trust him? And now that Bo has been crushing skulls on the field, will he be able to go back to his old, highly regulated life?  Pete Hautman takes a satirical look at an antiseptic future in this darkly comic mystery/adventure.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 14,
+        "adventure (survival)": 10,
+        "fantasy": 7,
+        "fiction": 42,
+        "futuristic": 8,
+        "science fiction": 64,
+        "science fiction (dystopia)": 59,
+        "sports (sports)": 26,
+        "young adult": 110,
+        "young adult (teen)": 41
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "537_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "537_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "537_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "537_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "537_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "537_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3352,
+        "score": 3.75
+    },
+    "pages": 1333,
+    "title": "Rash",
+    "url": "https://www.goodreads.com/book/show/44175.Rash",
+    "year_published": 2006
+}

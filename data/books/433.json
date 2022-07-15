@@ -1,37 +1,39 @@
 {
-    "author": "G.L. Carriger",
-    "base_id": 433,
-    "description": "A species that has no word for murder, has a murderer aboard their spaceship.ALIEN Tristol lives in exile. But he\u2019s built a life for himself aboard a human space station. He\u2019s even begun to understand the complex nuances of human courting rituals. Detective Hastion is finally flirting back! MURDER Except that Tristol\u2019s beloved space station is unexpectedly contacted by the galoi \u2013 a xenophobic species with five genders, purple skin, and serious attitude. They need the help of a human detective because there\u2019s a murderer aboard their spaceship. Murder is so rare, the galoi don\u2019t even have a word for it. Tristol knows this because he is galoi. ROMANCE Which means that he and Detective Hastion are on the case\u2026 together. Delicate Sensibilities? Contains men who love other men in graphic detail, regardless of gender, biology, or skin color... and lots of emotively sexy tentacle hair. New York Times best selling author Gail Carriger (writing as G.L. Carriger) brings you a light-hearted romantic cozy mystery featuring an adorable lavender alien and his human crush.",
+    "author": "Ray Bradbury",
+    "base_id": "433",
+    "description": "Free online fiction.The short story, A Sound of Thunder, involves a Time Travel Safari where rich businessmen pay to travel back to prehistoric times and hunt real live dinosaurs.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 64,
-        "fantasy": 27,
-        "fiction": 20,
-        "lgbt": 38,
-        "male male romance": 75,
-        "mystery": 79,
-        "queer": 21,
-        "romance": 131,
-        "science fiction": 121,
-        "science fiction romance": 9
+        "academic (read for school)": 10,
+        "academic (school)": 19,
+        "adventure": 15,
+        "classics": 91,
+        "fantasy": 25,
+        "fiction": 87,
+        "science fiction": 170,
+        "science fiction (time travel)": 84,
+        "science fiction fantasy": 10,
+        "short stories": 255
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "433_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "433_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "433_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "433_4"
         },
         {
@@ -43,16 +45,20 @@
             "stock_id": "433_6"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "433_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "433_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1889,
-        "score": 4.24
+        "rating_votes": 4677,
+        "score": 4.11
     },
-    "pages": 1239,
-    "title": "The 5th Gender",
-    "url": "https://www.goodreads.com/book/show/44554614-the-5th-gender",
-    "year_published": 2019
+    "pages": 772,
+    "title": "A Sound of Thunder",
+    "url": "https://www.goodreads.com/book/show/17568373-a-sound-of-thunder",
+    "year_published": 1951
 }

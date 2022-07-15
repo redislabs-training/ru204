@@ -1,0 +1,47 @@
+{
+    "author": "Stephen King",
+    "base_id": "7986",
+    "description": "While pursuing his quest for the Dark Tower through a world that is a nightmarishly distorted mirror image of our own, Roland, the last gunslinger, encounters three mysterious doorways on the beach. Each one enters into the life of a different person living in contemporary New York. Here he links forces with the defiant young Eddie Dean and the beautiful, brilliant, and brave Odetta Holmes, in a savage struggle against underworld evil and otherworldly enemies.Once again, Stephen King has masterfully interwoven dark, evocative fantasy and icy realism.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 344,
+        "audiobook": 252,
+        "fantasy": 6570,
+        "fiction": 2237,
+        "horror": 1924,
+        "novels": 154,
+        "science fiction": 639,
+        "science fiction fantasy": 248,
+        "thriller": 165,
+        "westerns": 305
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "7986_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7986_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7986_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7986_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 223971,
+        "score": 4.21
+    },
+    "pages": 1211,
+    "title": "The Drawing of the Three",
+    "url": "https://www.goodreads.com/book/show/5094.The_Drawing_of_the_Three",
+    "year_published": 1987
+}

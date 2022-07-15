@@ -1,45 +1,39 @@
 {
     "author": "Octavia E. Butler",
-    "base_id": 1143,
+    "base_id": "1143",
     "description": "Lilith Iyapo is in the Andes, mourning the death of her family, when war destroys Earth. Centuries later, she is resurrected -- by miraculously powerful unearthly beings, the Oankali. Driven by an irresistible need to heal others, the Oankali are rescuing our dying planet by merging genetically with mankind. But Lilith and all humanity must now share the world with uncanny, unimaginably alien creatures: their own children. This is their story...",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 55,
-        "dystopia": 48,
+        "apocalyptic (post apocalyptic)": 59,
         "fantasy": 123,
         "feminism": 46,
         "fiction": 390,
         "novels": 28,
-        "post apocalyptic": 59,
         "science fiction": 657,
-        "science fiction fantasy": 70,
+        "science fiction (aliens)": 55,
+        "science fiction (dystopia)": 48,
+        "science fiction fantasy": 71,
         "speculative fiction": 58
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "1143_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "1143_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1143_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1143_4"
         }
     ],
     "metrics": {
-        "rating_votes": 15107,
+        "rating_votes": 15106,
         "score": 4.35
     },
-    "pages": 915,
+    "pages": 644,
     "title": "Lilith's Brood",
     "url": "https://www.goodreads.com/book/show/60926.Lilith_s_Brood",
     "year_published": 1987

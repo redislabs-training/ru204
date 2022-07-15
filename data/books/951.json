@@ -1,0 +1,35 @@
+{
+    "author": "Nicholas Sansbury Smith",
+    "base_id": "951",
+    "description": "More than two centuries after World War III poisoned the planet, the final bastion of humanity lives on massive airships circling the globe in search of a habitable area to call home. Aging and outdated, most of the ships plummeted back to earth long ago. The only thing keeping the two surviving lifeboats in the sky are Hell Divers\u2014men and women who risk their lives by skydiving to the surface to scavenge for parts the ships desperately need.When one of the remaining airships is damaged in an electrical storm, a Hell Diver team is deployed to a hostile zone called Hades. But there\u2019s something down there far worse than the mutated creatures discovered on dives in the past\u2014something that threatens the fragile future of humanity.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adventure": 17,
+        "apocalyptic (post apocalyptic)": 96,
+        "audiobook": 59,
+        "fantasy": 24,
+        "fiction": 87,
+        "horror": 66,
+        "science fiction": 214,
+        "science fiction (apocalyptic)": 24,
+        "science fiction (dystopia)": 54,
+        "thriller": 27
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "951_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8839,
+        "score": 3.85
+    },
+    "pages": 314,
+    "title": "Hell Divers",
+    "url": "https://www.goodreads.com/book/show/28464896-hell-divers",
+    "year_published": 2016
+}

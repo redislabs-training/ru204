@@ -1,50 +1,39 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 403,
-    "description": "A book combined with Six's, Nine's and The Fallen's Legacies all in on paperback. (Legacies originally published as eBooks.)You know we're out there, living among you.You know we're waiting for our day to come.You have seen the power of our legacies.You know this is why they hunt us.You may think you know our stories.You are wrong.We each have our own story.We know the time has come to share them with you.Our legacies are your only hope.",
+    "author": "Matt Myklusch",
+    "base_id": "403",
+    "description": "All Jack Blank knows is his bleak, dreary life at St. Barnaby\u2019s Home for the Hopeless, Abandoned, Forgotten, and Lost, an orphanage that sinks further into the swampland of New Jersey with each passing year. His aptitude tests predict that he will spend a long, unhappy career as a toilet brush cleaner. His only chance at escape comes through the comic books donated years ago to the orphanage that he secretly reads in the dark corners of the library. Everything changes one icy gray morning when Jack receives two visitors that alter his life forever. The first is a deadly robot straight out of one of his comic books that tries its best to blow him up. The second is an emissary from a secret country called the Imagine Nation, an astonishing place where all the fantastic and unbelievable things in our world originate \u2014 including Jack. Jack soon discovers that he has an amazing ability \u2014 one that could make him the savior of the Imagine Nation and the world beyond, or the biggest threat they've ever faced.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 19,
-        "aliens": 38,
-        "fantasy": 82,
-        "fiction": 36,
-        "novella": 15,
-        "paranormal": 19,
-        "science fiction": 86,
-        "short stories": 18,
-        "teen": 14,
-        "young adult": 121
+        "adventure": 30,
+        "childrens": 12,
+        "childrens (middle grade)": 45,
+        "comics (superheroes)": 17,
+        "fantasy": 151,
+        "fantasy (magic)": 10,
+        "fiction": 28,
+        "science fiction": 35,
+        "science fiction (time travel)": 9,
+        "young adult": 35
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "403_1"
         },
         {
-            "status": "available",
-            "stock_id": "403_2"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "403_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "403_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "403_5"
+            "stock_id": "403_2"
         }
     ],
     "metrics": {
-        "rating_votes": 8151,
-        "score": 4.26
+        "rating_votes": 6196,
+        "score": 4.19
     },
-    "pages": 899,
-    "title": "The Legacies",
-    "url": "https://www.goodreads.com/book/show/13583463-the-legacies",
-    "year_published": 2012
+    "pages": 851,
+    "title": "The Accidental Hero",
+    "url": "https://www.goodreads.com/book/show/11242368-the-accidental-hero",
+    "year_published": 2010
 }

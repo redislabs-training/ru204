@@ -1,62 +1,51 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 210,
-    "description": "In this exciting seventy-five-page prequel companion novella to the New York Times bestselling I Am Number Four series, discover the true origins of the traitorous Number Five. Before allying himself with the Mogadorians, before infiltrating the Garde, before committing the ultimate betrayal, Five was in hiding just like the others. But when his C\u00eapan dies, Five is forced to survive on his own. Eager to finally experience the world he was always kept apart from, Five soon gets involved with the wrong kind of people\u2014the Mogadorians. In Five's Legacy see how one of Lorien's last hopes for survival became one of its most dangerous adversaries.",
+    "author": "Steve Antony",
+    "base_id": "210",
+    "description": " From the creator of the bestselling Mr. Panda series comes an amusing picture book about the fun you can have when you unplug.Meet Blip. Blip loves being plugged into her computer. When a blackout occurs, Blip trips over her wire and tumbles outside. Suddenly, Blip's gray world is filled with color and excitement. She plays with her new friends and has adventures all day long. When Blip finally returns home, she realizes that the world can be even brighter once you unplug.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 8,
-        "aliens": 28,
-        "fantasy": 47,
-        "fiction": 23,
-        "novella": 17,
-        "paranormal": 10,
-        "science fiction": 54,
-        "short stories": 19,
-        "teen": 8,
-        "young adult": 88
+        "adventure": 12,
+        "animals": 5,
+        "childrens": 30,
+        "childrens (picture books)": 163,
+        "childrens (storytime)": 19,
+        "environment (nature)": 11,
+        "fiction": 9,
+        "science (technology)": 21,
+        "science fiction": 4,
+        "science fiction (robots)": 17
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "210_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "210_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "210_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "210_4"
         },
         {
-            "status": "on_loan",
-            "stock_id": "210_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "210_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "210_7"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "210_8"
+            "stock_id": "210_5"
         }
     ],
     "metrics": {
-        "rating_votes": 4095,
-        "score": 3.97
+        "rating_votes": 956,
+        "score": 3.93
     },
-    "pages": 223,
-    "title": "Five's Legacy",
-    "url": "https://www.goodreads.com/book/show/18053086-five-s-legacy",
-    "year_published": 2014
+    "pages": 1382,
+    "title": "Unplugged",
+    "url": "https://www.goodreads.com/book/show/35195584-unplugged",
+    "year_published": 2017
 }

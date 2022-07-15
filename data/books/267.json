@@ -1,58 +1,34 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 267,
-    "description": "Bad day? Try mine on for size. Rogue slavers have landed on the ice planet and captured the tribe. The only ones not snatched? Me, a walking human motormouth with no skill except that of incoherent babbling, and Warrek, who's as silent as he is attractive. Two more unlikely people have never been paired together.And now we're supposed to form a rescue team.Saving the others is either going to bring us closer together - or drive us completely apart. I'm pretty sure the feelings I'm having for my alien companion are as unrequited as they are inappropriate, but since we aren't going to make it out alive, what harm is one teeny, tiny kiss?Who knew that one kiss could change everything?",
+    "author": "Brandon Montclare",
+    "base_id": "267",
+    "description": "The NYTPD sent her to 1986 New York City to investigate the Quintum Mechanics megacorporation for Crimes Against Time. Piecing together the clues, Dayoung Johansson discovers the \"Future\" she calls home--a high-tech alternate reality version of 2013--shouldn't exist at all!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 12,
-        "aliens": 94,
-        "erotica": 18,
-        "fantasy": 18,
-        "male female romance": 9,
-        "paranormal": 19,
-        "paranormal romance": 16,
-        "romance": 87,
-        "science fiction": 68,
-        "science fiction romance": 32
+        "comics (superheroes)": 6,
+        "fiction": 12,
+        "graphic novels comics": 16,
+        "science fiction": 62,
+        "science fiction (time travel)": 33,
+        "sequential art": 6,
+        "sequential art (comics)": 149,
+        "sequential art (graphic novels)": 161,
+        "young adult": 25,
+        "young adult (teen)": 9
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "267_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "267_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "267_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "267_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "267_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "267_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "267_7"
         }
     ],
     "metrics": {
-        "rating_votes": 3409,
-        "score": 4.15
+        "rating_votes": 1409,
+        "score": 3.36
     },
-    "pages": 611,
-    "title": "Barbarian's Rescue",
-    "url": "https://www.goodreads.com/book/show/35423630-barbarian-s-rescue",
-    "year_published": 2017
+    "pages": 631,
+    "title": "Rocket Girl Volume 1: Times Squared",
+    "url": "https://www.goodreads.com/book/show/22073314-rocket-girl-volume-1",
+    "year_published": 2014
 }

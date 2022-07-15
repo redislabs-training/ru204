@@ -1,25 +1,25 @@
 {
-    "author": "Alison Aimes",
-    "base_id": 180,
-    "description": "\u201cConvicts don\u2019t ask. They take.\u201dMarooned on a primitive prison planet , Bella West has one chance for survival until rescue arrives: trade her body for protection.The ripped hulk who claims her is more beast than man. Convicted of a crime he didn\u2019t commit, ex-soldier Caine Anders has lost his humanity after eight grueling years on a hazardous planet of dirt, rock, and treacherous inhabitants.He looks out for himself and never grows attached. So, when the bold female offers him pleasure in return for protection, he takes the deal without hesitation. He never expects her touch to alter him. Or to feel something beyond lust.But caring for someone on Dragath25 may be the greatest hazard of all. And, as the dangers multiply, it\u2019s no longer certain whether she\u2019ll be the key to his salvation or his destruction....The first book in the Condemned Series, TRAPPED is a stand alone, action-packed, sexy sci-fi romance with a HEA, a strong heroine willing to do what it takes to survive, and a scorching hot, broken alpha hero you can\u2019t help but fall in love with.",
+    "author": "Rosemary Wells",
+    "base_id": "180",
+    "description": "Trains and time travel spur one boy's thrilling adventure as he seeks to rejoin his father in a new classic from Rosemary Wells and Bagram Ibatoulline. (Age 10 and up)One day in a house at the end of Lucifer Street, on the Mississippi River side of Cairo, Illinois, eleven-year-old Oscar Ogilvie's life is changed forever. The Crash of 1929 has rippled across the country, and Oscar's dad must sell their home--with all their cherished model trains--and head west in search of work. Forced to move in with his humorless aunt, Carmen and his teasing cousin, Willa Sue, Oscar is lonely and miserable--until he meets a mysterious drifter and witnesses a crime so stunning it catapults Oscar on an incredible train journey from coast to coast, from one decade to another. Filled with suspense and peppered with witty encounters with Hollywood stars and other bigwigs of history, this captivating novel by Rosemary Wells, gorgeously illustrated by Bagram Ibatoulline, resonates with warmth, humor, and the true magic of a timeless adventure.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "adult": 5,
-        "aliens": 21,
-        "dystopia": 7,
-        "erotica": 13,
-        "fantasy": 10,
-        "futuristic": 7,
-        "paranormal": 8,
-        "romance": 28,
-        "science fiction": 46,
-        "science fiction romance": 10
+        "adventure": 21,
+        "childrens": 21,
+        "childrens (juvenile)": 13,
+        "childrens (middle grade)": 16,
+        "fantasy": 41,
+        "fiction": 16,
+        "historical (historical fiction)": 49,
+        "science fiction": 9,
+        "science fiction (time travel)": 24,
+        "young adult": 9
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "180_1"
         },
         {
@@ -27,36 +27,20 @@
             "stock_id": "180_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "180_3"
         },
         {
             "status": "on_loan",
             "stock_id": "180_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "180_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "180_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "180_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "180_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1018,
-        "score": 3.77
+        "rating_votes": 834,
+        "score": 3.89
     },
-    "pages": 1199,
-    "title": "Trapped",
-    "url": "https://www.goodreads.com/book/show/54662836-trapped",
-    "year_published": 2016
+    "pages": 1319,
+    "title": "On the Blue Comet",
+    "url": "https://www.goodreads.com/book/show/8036437-on-the-blue-comet",
+    "year_published": 2010
 }

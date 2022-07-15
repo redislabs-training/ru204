@@ -1,45 +1,43 @@
 {
-    "author": "Zoey Draven",
-    "base_id": 88,
-    "description": "Welcome to Luxiria, where the twin suns are hot and the alien warriors are hotter\u2026Ever since Taylor Glass was rescued by strong, hulking Luxirians, nothing has been the same. Even worse, she can\u2019t stop having sexy, vivid dreams starring one of her rescuers, a panty-melting alien male with mesmerizing gray eyes and the fiercest scowl she\u2019s ever seen. Outside of her dream world, he clearly wants nothing to do with her and that fits perfectly with Taylor\u2019s well-laid plan of getting back to Earth as soon as possible, no distractions needed. Too bad fate has other plans.Ambassador Vikan has been loyal to his past lover since the day a tragedy ripped her away. But when his Instinct awakens for a human female under his protection, the Luxirian warrior fights against the undeniably pull with everything in him, torn between loyalty and lust, cursing her generous curves and soft lips that make him crazed. When his will fails him however, Vikan does what any sane warrior would do: steal the female away before she can leave for Earth.Determined to get back home, Taylor fights against the intense attraction she has towards her alien captor. But when it becomes difficult to distinguish her too real dreams from reality, Taylor begins to fear that she might not leave Luxiria in one piece after all and that she might be forced to leave her heart behind.Full-length, 55,000+ word, SFR novel! This is the fifth book of the Warriors of Luxiria series and should be read in order for the best experience.Warriors of Luxiria series:The Alien's Prize: Vaxa'an and Kate The Alien's Mate: Vaxa'an and Kate The Alien's Lover: Lihvan and Beks The Alien\u2019s Touch: Rixavox and Cecelia The Alien's Dream: Vikan and Taylor",
+    "author": "Lewis Shiner",
+    "base_id": "88",
+    "description": "Ray Shackleford lives in the ruins of the idealistic 1960s. Veteran of failed garage bands, he works as a repairman of stereo equipment, tending the dying embers of his marriage, and dreaming of bygone days and the music that almost was. When he finds the music he dreams of has been mysteriously recorded by his tape deck, Ray is drawn into the past, to revisit the histories of Hendrix, Morrison, and the Beatles...along with the history of Ray Shackleford. Vividly recreating a lost era that might have been, Glimpses fuses the hopes and dreams in the music with a powerful vision of reality.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 2,
-        "aliens": 17,
-        "erotica": 4,
-        "fantasy": 4,
-        "paranormal": 6,
-        "paranormal romance": 4,
-        "romance": 16,
-        "science fiction": 13,
-        "science fiction romance": 5
+        "fantasy": 30,
+        "fantasy (supernatural)": 2,
+        "fiction": 32,
+        "historical (historical fiction)": 3,
+        "literary fiction": 3,
+        "magical realism": 2,
+        "music": 36,
+        "novels": 2,
+        "science fiction": 23,
+        "science fiction (time travel)": 32
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "88_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "88_2"
         },
         {
             "status": "maintenance",
             "stock_id": "88_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "88_4"
         }
     ],
     "metrics": {
-        "rating_votes": 1220,
-        "score": 4.11
+        "rating_votes": 716,
+        "score": 3.93
     },
-    "pages": 1193,
-    "title": "The Alien's Dream",
-    "url": "https://www.goodreads.com/book/show/40133129-the-alien-s-dream",
-    "year_published": 2018
+    "pages": 774,
+    "title": "Glimpses",
+    "url": "https://www.goodreads.com/book/show/379197.Glimpses",
+    "year_published": 1993
 }

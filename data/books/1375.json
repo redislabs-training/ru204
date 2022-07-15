@@ -1,0 +1,68 @@
+{
+    "author": "Ben H. Winters",
+    "base_id": "1375",
+    "description": "There are just 77 days to go before a deadly asteroid collides with Earth, and Detective Hank Palace is out of a job. With the Concord police force operating under the auspices of the U.S. Justice Department, Hank's days of solving crimes are over...until a woman from his past begs for help finding her missing husband. \u00a0 Brett Cavatone disappeared without a trace \u2013 an easy feat in a world with no phones, no cars, and no way to tell whether someone\u2019s gone \u201cbucket list\u201d or just gone. With society falling to shambles, Hank pieces together what few clues he can, on a search that leads him from a college-campus-turned-anarchist-encampment to a crumbling coastal landscape where anti-immigrant militia fend off \u201cimpact zone\u201d refugees. \u00a0 The second novel in the critically acclaimed Last Policeman trilogy, Countdown City presents a fascinating mystery set on brink of an apocalypse \u2013 and once again, Hank Palace confronts questions way beyond \"whodunit.\" What do we as human beings owe to one another? And what does it mean to be civilized when civilization is collapsing all around you?",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 61,
+        "fiction": 281,
+        "mystery": 411,
+        "mystery (crime)": 86,
+        "science fiction": 260,
+        "science fiction (apocalyptic)": 65,
+        "science fiction (dystopia)": 73,
+        "speculative fiction": 29,
+        "thriller": 37,
+        "thriller (mystery thriller)": 50
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "1375_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1375_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1375_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1375_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1375_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1375_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1375_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1375_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1375_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 12104,
+        "score": 3.88
+    },
+    "pages": 682,
+    "title": "Countdown City",
+    "url": "https://www.goodreads.com/book/show/16046748-countdown-city",
+    "year_published": 2013
+}

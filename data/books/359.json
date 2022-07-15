@@ -1,0 +1,64 @@
+{
+    "author": "Ru Xu",
+    "base_id": "359",
+    "description": "Blue is an orphan who disguises herself as a newsboy. There's a war going on, and girls are expected to help the struggling economy by selling cookies. But Blue loves living and working at the Bugle, the only paper in town that tells the truth. And what's printed in the newspapers now matters more than ever.But Blue struggles with her secret, and worries that if her friends and adopted family at the Bugle find out that she's a girl, she'll lose everything and everyone she cares about. And when she meets and befriends Crow, a boy who is also not what he seems, together they seek the freedom to be their true selves... and to save each other.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 20,
+        "childrens (juvenile)": 17,
+        "childrens (middle grade)": 88,
+        "fantasy": 62,
+        "science fiction": 49,
+        "science fiction (steampunk)": 56,
+        "sequential art (comics)": 64,
+        "sequential art (graphic novels)": 276,
+        "war": 19,
+        "young adult": 29
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "359_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "359_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "359_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "359_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "359_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "359_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "359_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "359_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2240,
+        "score": 3.79
+    },
+    "pages": 513,
+    "title": "NewsPrints",
+    "url": "https://www.goodreads.com/book/show/22707177-newsprints",
+    "year_published": 0
+}

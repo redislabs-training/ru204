@@ -1,0 +1,36 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "15850",
+    "description": "Vin, the street urchin who has grown into the most powerful Mistborn in the land, and Elend Venture, the idealistic young nobleman who loves her, must build a healthy new society in the ashes of an empire. Three separate armies attack. As the siege tightens, an ancient legend seems to offer a glimmer of hope. But even if it really exists, no one knows where to find the Well of Ascension or what manner of power it bestows.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 445,
+        "adventure": 296,
+        "audiobook": 351,
+        "fantasy": 15055,
+        "fantasy (epic fantasy)": 871,
+        "fantasy (high fantasy)": 755,
+        "fantasy (magic)": 447,
+        "fiction": 1497,
+        "science fiction fantasy": 341,
+        "young adult": 279
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "15850_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 299907,
+        "score": 4.35
+    },
+    "pages": 568,
+    "title": "The Well of Ascension",
+    "url": "https://www.goodreads.com/book/show/68429.The_Well_of_Ascension",
+    "year_published": 2007
+}

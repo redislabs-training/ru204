@@ -1,54 +1,38 @@
 {
-    "author": "Susan Grant",
-    "base_id": 80,
-    "description": "NOTE: Previously published as Your Planet or Mine?!To save Earth, she needed a GUARDIAN ALIENJana has one goal: steer clear of scandal while outrageously false accusations pile up against her famous political family. But when her childhood \u201cimaginary friend\u201d Cavin shows up\u2014all grown up\u2014dressed in armor and warning of an imminent alien invasion, she has no choice but to take him to her leader.Cavin has never forgotten the girl he met during his visit to Earth, the girl who didn't believe he was real. And now, as a decorated space marine, he'll risk his future to save her. That means staying one step ahead of government agents, Jana\u2019s suspicious grandpa, and the galaxy's most feared assassin\u2014all while keeping her political reputation squeaky clean. If everything goes as planned, they\u2019ll save the world\u2014and he\u2019ll also capture his favorite Earthling\u2019s heart.The Borderlands Series:Book #1 WARLEADERBook #2 HUNTING THE WARLORD'S DAUGHTERBook #3 RAIDER BORNThree Borderlands prequels: (The Otherworldly Men Series):Book #1 GUARDIAN ALIENBook #2 ROYALLY MATEDBook #3 CYBORG AND THE SINGLE MOM",
+    "author": "Grant Morrison",
+    "base_id": "80",
+    "description": "A new chapter begins for the World's Strangest Heroes with MUSCLEBOUND, collecting issues #42-50 of the surreal series written by Grant Morrison. Revealing the secret origin of Flex Mentallo and the terrifying secret beneath the Pentagon, MUSCLEBOUND also features the subtle menace of the Beard Hunter and more!",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 18,
-        "fantasy": 7,
-        "fiction": 7,
-        "futuristic": 5,
-        "humor": 5,
-        "paranormal": 9,
-        "paranormal romance": 6,
-        "romance": 52,
-        "science fiction": 21,
-        "science fiction romance": 12
+        "comics (comic book)": 11,
+        "comics (superheroes)": 14,
+        "fantasy": 10,
+        "fiction": 8,
+        "graphic novels comics": 9,
+        "horror": 5,
+        "science fiction": 5,
+        "sequential art (comics)": 178,
+        "sequential art (graphic novels)": 69,
+        "superheroes (dc comics)": 14
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "80_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "80_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "80_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "80_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "80_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "80_6"
         }
     ],
     "metrics": {
-        "rating_votes": 727,
-        "score": 3.68
+        "rating_votes": 2423,
+        "score": 4.16
     },
-    "pages": 333,
-    "title": "Guardian Alien",
-    "url": "https://www.goodreads.com/book/show/53241067-guardian-alien",
+    "pages": 1162,
+    "title": "Doom Patrol, Vol. 4: Musclebound",
+    "url": "https://www.goodreads.com/book/show/22390.Doom_Patrol_Vol_4",
     "year_published": 2006
 }

@@ -1,49 +1,46 @@
 {
     "author": "Greg Bear",
-    "base_id": 546,
+    "base_id": "546",
     "description": "On July 26, Arthur Gordon learns that Europa, the sixth moon of Jupiter, has disappeared. Not hiding, not turned black, but gone. On September 28th, Edward Shaw, a geologist working in Death valley, finds a mysterious new cinder cone in very well-mapped area As more unexplained phenomena spring up around the globeL: a granite mountain appearing in Australia, sounds emanating from the Earth's core, flashes of light among the asteroids, it becomes clear to some that the end is approaching, and there is nothing that can be done. In The Forge of God, award-winning author Greg Bear describes the final days of the world on both a massive, scientific scale and in the everyday, emotional context of individual human lives. Facing the destruction of all they know, some people turn to God, others to their families, and a few turn to saviors promising escape from a planet tearing itself apart. Will they make it in time? And who gets left behind to experience the last moments of beauty and chaos on Earth?",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 20,
-        "apocalyptic": 23,
+        "apocalyptic (post apocalyptic)": 24,
         "fantasy": 15,
         "fiction": 168,
-        "hard science fiction": 14,
-        "post apocalyptic": 24,
         "science fiction": 638,
+        "science fiction (aliens)": 20,
+        "science fiction (apocalyptic)": 23,
+        "science fiction (hard science fiction)": 14,
         "science fiction fantasy": 24,
-        "space opera": 14,
+        "space (space opera)": 14,
         "speculative fiction": 16
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "546_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "546_2"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "546_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "546_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "546_5"
         }
     ],
     "metrics": {
         "rating_votes": 14043,
         "score": 3.87
     },
-    "pages": 1173,
+    "pages": 829,
     "title": "The Forge of God",
     "url": "https://www.goodreads.com/book/show/64732.The_Forge_of_God",
     "year_published": 1987

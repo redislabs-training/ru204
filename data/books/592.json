@@ -1,20 +1,22 @@
 {
-    "author": "Mark Haddon",
-    "base_id": 592,
-    "description": "Jim and his best friend Charlie bug the staff room, and overhear two teachers speak in a strange language. What does \"spudvetch\" mean? Why do Mr Kidd's eyes flicker with fluorescent blue light when Charlie says spudvetch to him? A high-powered adventure can end only with a Boom!",
+    "author": "R.S. Belcher",
+    "base_id": "592",
+    "description": "Buffy meets Deadwood in a dark, wildly imaginative historical fantasyNevada, 1869: Beyond the pitiless 40-Mile Desert lies Golgotha, a cattle town that hides more than its share of unnatural secrets. The sheriff bears the mark of the noose around his neck; some say he is a dead man whose time has not yet come. His half-human deputy is kin to coyotes. The mayor guards a hoard of mythical treasures. A banker\u2019s wife belongs to a secret order of assassins. And a shady saloon owner, whose fingers are in everyone\u2019s business, may know more about the town\u2019s true origins than he\u2019s letting on.A haven for the blessed and the damned, Golgotha has known many strange events, but nothing like the primordial darkness stirring in the abandoned silver mine overlooking the town. Bleeding midnight, an ancient evil is spilling into the world, and unless the sheriff and his posse can saddle up in time, Golgotha will have seen its last dawn\u2026and so will all of Creation.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 37,
-        "aliens": 19,
-        "childrens": 23,
-        "fantasy": 24,
-        "fiction": 77,
-        "humor": 34,
-        "juvenile": 23,
-        "science fiction": 86,
-        "young adult": 59
+        "fantasy": 386,
+        "fantasy (paranormal)": 38,
+        "fantasy (supernatural)": 30,
+        "fantasy (urban fantasy)": 38,
+        "fiction": 59,
+        "historical (historical fiction)": 56,
+        "horror": 114,
+        "science fiction (steampunk)": 141,
+        "westerns": 128,
+        "westerns (weird west)": 49
     },
     "inventory": [
         {
@@ -22,11 +24,11 @@
             "stock_id": "592_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "592_2"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "592_3"
         },
         {
@@ -34,15 +36,15 @@
             "stock_id": "592_4"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "592_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "592_6"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "592_7"
         },
         {
@@ -51,11 +53,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 4919,
-        "score": 3.41
+        "rating_votes": 3227,
+        "score": 3.78
     },
-    "pages": 487,
-    "title": "Boom",
-    "url": "https://www.goodreads.com/book/show/6116753-boom",
-    "year_published": 1992
+    "pages": 421,
+    "title": "The Six-Gun Tarot",
+    "url": "https://www.goodreads.com/book/show/15793094-the-six-gun-tarot",
+    "year_published": 2013
 }

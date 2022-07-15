@@ -1,0 +1,62 @@
+{
+    "author": "Lincoln Child",
+    "base_id": "454",
+    "description": "Fasten your seat belts\u2013the white-knuckle thrills at Utopia, the world\u2019s most fantastic theme park, escalate to nightmare proportions in this intricately imagined techno-thriller by New York Times bestselling author Lincoln Child.\n\nRising out of the stony canyons of Nevada, Utopia is a world on the cutting edge of technology. A theme park attracting 65,000 visitors each day, its dazzling array of robots and futuristic holograms make it a worldwide sensation. But ominous mishaps are beginning to disrupt the once flawless technology. A friendly robot goes haywire, causing panic, and a popular roller coaster malfunctions, nearly killing a teenaged rider. Dr. Andrew Warne, the brilliant computer engineer who designed much of the park\u2019s robotics, is summoned from the East Coast to get things back on track.On the day Warne arrives, however, Utopia is caught in the grip of something far more sinister. A group of ruthless criminals has infiltrated the park\u2019s computerized infrastructure, giving them complete access to all of Utopia\u2019s attractions and systems. Their communication begins with a simple and dire warning: If their demands are met, none of the 65,000 people in the park that day will ever know they were there; if not, chaos will descend, and every man, woman, and child will become a target. As one of the brains behind Utopia, Warne finds himself thrust into a role he never imagined\u2013trying to save the lives of thousands of innocent people. And as the minutes tick away, Warne\u2019s struggle to outsmart his opponents grows ever more urgent, for his only daughter is among the unsuspecting crowds in the park.Lincoln Child evokes the technological wonders of Utopia with such skill and precision it is hard to believe the park exists only in the pages of this extraordinary book. Like Jurassic Park, Utopia sweeps readers into a make-believe world of riveting suspense, technology, and adventure.UTOPIA -- Where technology dazzles\u2013and then turns deadly!From the Hardcover edition.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "action": 17,
+        "adventure": 18,
+        "audiobook": 12,
+        "fantasy": 13,
+        "fiction": 119,
+        "mystery": 55,
+        "science fiction": 60,
+        "suspense": 27,
+        "thriller": 177,
+        "thriller (mystery thriller)": 31
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "454_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "454_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "454_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "454_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "454_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "454_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "454_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "454_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11335,
+        "score": 3.9
+    },
+    "pages": 668,
+    "title": "Utopia",
+    "url": "https://www.goodreads.com/book/show/18416.Utopia",
+    "year_published": 2002
+}

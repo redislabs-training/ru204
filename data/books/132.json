@@ -1,46 +1,36 @@
 {
-    "author": "Lee Savino",
-    "base_id": 132,
-    "description": "Captured in space. Imprisoned. Sold to the highest bidder. But my biggest problem is this bossy, aggravating, impossible, alien who\u2019s supposed to rescue me. The bossy alien I kissed. That might have been a mistake.Kadir is dangerous. I\u2019ve seen him fight, and his body is littered with scars. He\u2019s a soldier. A warrior. And when he loses control, he turns into a big scary dragon and breathes fire.Everyone\u2019s terrified of him. I\u2019m not. No, call me the biggest fool in the galaxy, because I\u2019m attracted to the big jerk.***Kadir:When I first met the small human I was sent to rescue, she punched me in the jaw. And broke her wrist in the process. Irrational woman.Then she insists that the two of us set out immediately to find her missing friend. No, what I have to do is get Alice Hernandez to safety. She\u2019s soft, yet she\u2019s strong. Fragile, yet so brave. She\u2019s everything I\u2019ve never known I wanted. Everything I can\u2019t let myself have. When the scientists tortured me, they broke me. And when Alice finds out the truth about the fearsome, raging dragon inside me, I will lose her.",
+    "author": "Connie Willis",
+    "base_id": "132",
+    "description": "Theater legend Claire Havilland fears she might be entering the Sunset Boulevard phase of her career. That is, until her manager arranges a media appearance with her biggest fan--a famous artificial intelligence pioneer's teenage niece. After precocious Emily's backstage visit, Claire decides she's in a different classic film altogether. While unnaturally charming Emily swears she harbors no desire for the spotlight, Claire wonders if she hasn't met her very own Eve Harrington from All About Eve. But the story becomes more complex as dreams of fame give way to concerns about choice, free will, and identity.With this long, 17,000 word novelette, acclaimed author Connie Willis combines the glamour of old Hollywood and the eternal allure of Broadway to explore the cutting edge robotics of a richly-imagined near future. All About Emily is sure to join 'The Last of the Winnebagos,' 'Inside Job' and 'All Seated on the Ground' as one of multiple-award-winner Willis' seminal works.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "abuse": 4,
-        "aliens": 17,
-        "dragons": 15,
-        "erotica": 4,
-        "fantasy": 3,
-        "paranormal": 4,
-        "romance": 15,
-        "science fiction": 14,
-        "science fiction romance": 9,
-        "shapeshifters": 10
+        "adult": 2,
+        "adult fiction": 3,
+        "artificial intelligence": 3,
+        "fantasy": 5,
+        "fiction": 23,
+        "novella": 11,
+        "science fiction": 75,
+        "science fiction fantasy": 9,
+        "short stories": 8,
+        "speculative fiction": 3
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "132_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "132_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "132_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "132_4"
         }
     ],
     "metrics": {
-        "rating_votes": 1062,
-        "score": 4.29
+        "rating_votes": 789,
+        "score": 3.7
     },
-    "pages": 716,
-    "title": "Draekon Warrior",
-    "url": "https://www.goodreads.com/book/show/53173307-draekon-warrior",
-    "year_published": 2019
+    "pages": 1196,
+    "title": "All about Emily",
+    "url": "https://www.goodreads.com/book/show/12756995-all-about-emily",
+    "year_published": 2011
 }

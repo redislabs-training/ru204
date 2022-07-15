@@ -1,0 +1,68 @@
+{
+    "author": "G. Willow Wilson",
+    "base_id": "2262",
+    "description": "Who is the Inventor, and what does he want with the all-new Ms. Marvel and all her friends? Maybe Wolverine can help! If Kamala can stop fan-girling out about meeting her favorite super hero, that is. Then, Kamala crosses paths with Inhumanity -- by meeting the royal dog, Lockjaw! But why is Lockjaw really with Kamala? As Ms. Marvel discovers more about her past, the Inventor continues to threaten her future. Kamala bands together with some unlikely heroes to stop the maniacal villain before he does real damage, but has she taken on more than she can handle? And how much longer can Ms. Marvel's life take over Kamala Khan's? Kamala Khan continues to prove why she's the best (and most adorable) new super hero there is!Collecting Ms. Marvel(2014) #6-11.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "comics (comic book)": 169,
+        "comics (superheroes)": 348,
+        "fantasy": 215,
+        "fiction": 258,
+        "graphic novels comics": 261,
+        "science fiction": 107,
+        "sequential art (comics)": 1776,
+        "sequential art (graphic novels)": 1609,
+        "superheroes (marvel)": 360,
+        "young adult": 440
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2262_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2262_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2262_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2262_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2262_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "2262_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2262_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "2262_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2262_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24405,
+        "score": 4.14
+    },
+    "pages": 1278,
+    "title": "Ms. Marvel, Vol. 2: Generation Why",
+    "url": "https://www.goodreads.com/book/show/23017947-ms-marvel-vol-2",
+    "year_published": 2015
+}

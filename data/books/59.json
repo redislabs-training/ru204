@@ -1,37 +1,39 @@
 {
-    "author": "Marie Harte",
-    "base_id": 59,
-    "description": "Book one in the Talson Temptations series.Domineering, dangerous and downright huge, Roarke Talson owns Jamie for the next three years. It's 2109, and the government has found a way to deal with the national debt. Indentured service. She might have been duped into debt, but she's not stupid. Jamie made sure to put a no-sex clause in her contract. There's just one problem. She can't stop thinking about her boss. Sexy and commanding, he's the face of her ultimate fantasy, and a nightmare employer. She's met every challenge he's thrown at her and refuses to drop, no matter how hard he works her.When Jamie does the wrong thing for the right reason, she assumes Talson will throw her in jail and not think twice. In an effort to escape, she ambushes him and flees, but not before taking a kiss and a bit more from the man.She hadn't counted on him getting free so quickly, that he might be half alien, or that he'd hunt her down with more than vengeance on his mind.Publisher's Note: This title was previously published elsewhere and has been revised for Ellora's Cave.",
+    "author": "Harry Harrison",
+    "base_id": "59",
+    "description": "Why pay for costumes, scenery, props or actors when the most brilliant drama of all time is unfolding before your very eyes, in vivid color - in 1050 A.D.? Just the film crew of that stupendous motion picture saga Viking Columbus as they journey back in time to capture history in the making.The story first appeared in Analog Science Fiction and Fact Magazine, where it was serialized in three parts in the March\u2013May 1967 issues, under the title \"The Time Machined Saga\".",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 23,
-        "bdsm": 11,
-        "erotica": 30,
+        "classics": 2,
         "fantasy": 7,
-        "futuristic": 9,
-        "male female romance": 5,
-        "paranormal": 13,
-        "paranormal romance": 6,
-        "romance": 31,
-        "science fiction": 34
+        "fiction": 19,
+        "humor": 7,
+        "humor (comedy)": 3,
+        "literature (american)": 2,
+        "science fiction": 61,
+        "science fiction (time travel)": 34,
+        "science fiction fantasy": 6,
+        "speculative fiction": 4
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "59_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "59_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "59_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "59_4"
         },
         {
@@ -39,28 +41,24 @@
             "stock_id": "59_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "59_6"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "59_7"
         },
         {
-            "status": "on_loan",
-            "stock_id": "59_8"
-        },
-        {
             "status": "maintenance",
-            "stock_id": "59_9"
+            "stock_id": "59_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1052,
-        "score": 3.56
+        "rating_votes": 1080,
+        "score": 3.84
     },
-    "pages": 1175,
-    "title": "Talson's Wait",
-    "url": "https://www.goodreads.com/book/show/6904657-talson-s-wait",
-    "year_published": 2006
+    "pages": 282,
+    "title": "The Technicolor Time Machine",
+    "url": "https://www.goodreads.com/book/show/28803.The_Technicolor_Time_Machine",
+    "year_published": 1967
 }

@@ -1,0 +1,48 @@
+{
+    "author": "Garth Nix",
+    "base_id": "2491",
+    "description": "The Ninth was strong and fought with might But lone Orannis was put out of the light Broken in two and buried under hillForever to lie there, wishing us ill.So says the song. But Orannis, the Destroyer, is no longer buried under hill. It has been freed from its subterranean prison and now seeks to escape the silver hemispheres, the final barrier to the unleashing of its terrible powers.Only Lirael, newly come into her inheritance as the Abhorsen-in-Waiting, has any chance of stopping the Destroyer. She and her companions -- Sam, the Disreputable Dog, and Mogget -- have to take that chance. For the Destroyer is the enemy of all Life, and it must be stopped, though Lirael does not know how.To make matters worse, Sam's best friend, Nick, is helping the Destroyer, as are the necromancer Hedge and the Greater Dead Chlorr, and there has been no word from the Abhorsen Sabriel or King Touchstone.Everything depends upon Lirael. A heavy, perhaps even impossible burden for a young woman who just days ago was merely a Second Assistant Librarian. With only a vision from the Clayr to guide her, and the rather mixed help of her companions, Lirael must search in both Life and Death for some means to defeat the Destroyer.Before it is too late. . . .",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adventure": 233,
+        "audiobook": 124,
+        "fantasy": 5268,
+        "fantasy (high fantasy)": 196,
+        "fantasy (magic)": 271,
+        "fiction": 702,
+        "science fiction fantasy": 165,
+        "young adult": 1832,
+        "young adult (teen)": 131,
+        "young adult (young adult fantasy)": 204
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "2491_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2491_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2491_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2491_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 118675,
+        "score": 4.2
+    },
+    "pages": 454,
+    "title": "Abhorsen",
+    "url": "https://www.goodreads.com/book/show/334643.Abhorsen",
+    "year_published": 2003
+}

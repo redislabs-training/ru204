@@ -1,37 +1,59 @@
 {
-    "author": "C.L. Scholey",
-    "base_id": 33,
-    "description": "Citun, powerful leader of the northern Zargonniis, vows there is a female human for him out there somewhere. He and his warriors are drawn to a far corner of the universe, where rogue Tonans swear a small colony of women has been cultivated. The race is on; it appears every male in the galaxy is after a human, but some want them dead. Citun hungers for a mate.The last thing Storm wants in her life is a massive giant of a warrior, but since she saved his life, she\u2019s stuck with him. There are some forces that cannot be denied. Storm has the ability to become a storm, and she needs to decide if she will allow one warrior to tame her thunderous emotions.",
+    "author": "Zack Whedon",
+    "base_id": "33",
+    "description": "Rising stars Zack Whedon and Andy MacDonald deliver explosive action and poignant humanity in both the future and the past in this inspired reimagining of The Terminator! Before John Connor sent him back in time to save Sarah Connor from the infamous T-800, Kyle Reese was just another man fighting to survive in a world overrun by Skynet and its terrifying army of killer cyborgs. Follow Kyle on his journey through the ravaged landscape of 2029, to a world previously unimaginable to him - the glittering streets of Los Angeles in 1984! Along the way, a shocking discovery at a hidden Cyberdyne facility sheds new light on Kyle's fate in the past. The future of humanity seems more uncertain than ever as Kyle battles an entirely new Terminator threat alongside Sarah Connor.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 20,
-        "erotica": 2,
-        "fantasy": 3,
-        "paranormal": 3,
-        "paranormal romance": 2,
-        "romance": 12,
-        "science fiction": 13,
-        "science fiction romance": 4,
-        "shapeshifters": 2
+        "apocalyptic (post apocalyptic)": 2,
+        "graphic novels comics": 3,
+        "science fiction": 9,
+        "science fiction (dystopia)": 2,
+        "science fiction (robots)": 2,
+        "sequential art (comics)": 9,
+        "sequential art (graphic novels)": 16
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "33_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "33_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "33_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "33_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "33_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "33_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "33_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "33_8"
         }
     ],
     "metrics": {
-        "rating_votes": 532,
-        "score": 4.11
+        "rating_votes": 188,
+        "score": 3.78
     },
-    "pages": 1189,
-    "title": "Citun\u2019s Storm",
-    "url": "https://www.goodreads.com/book/show/28319994-citun-s-storm",
-    "year_published": 2016
+    "pages": 1214,
+    "title": "The Terminator: 2029-1984",
+    "url": "https://www.goodreads.com/book/show/9848717-the-terminator",
+    "year_published": 2011
 }

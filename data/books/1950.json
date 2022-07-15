@@ -1,0 +1,54 @@
+{
+    "author": "Brandon Sanderson",
+    "base_id": "1950",
+    "description": "Steelheart may be dead, but Epics still plague Newcago and David and the Reckoners have vowed to fight back.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 90,
+        "comics (superheroes)": 97,
+        "fantasy": 1123,
+        "fantasy (urban fantasy)": 149,
+        "fiction": 245,
+        "novella": 103,
+        "science fiction": 393,
+        "science fiction (dystopia)": 189,
+        "short stories": 220,
+        "young adult": 476
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1950_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1950_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1950_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1950_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1950_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "1950_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 32624,
+        "score": 3.86
+    },
+    "pages": 1184,
+    "title": "Mitosis",
+    "url": "https://www.goodreads.com/book/show/18966322-mitosis",
+    "year_published": 2013
+}

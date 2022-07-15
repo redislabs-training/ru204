@@ -1,0 +1,56 @@
+{
+    "author": "Mira Grant",
+    "base_id": "2296",
+    "description": "Shaun Mason is a man without a mission. Not even running the news organization he built with his sister has the same urgency as it used to. Playing with dead things just doesn't seem as fun when you've lost as much as he has.But when a CDC researcher fakes her own death and appears on his doorstep with a ravenous pack of zombies in tow, Shaun has a newfound interest in life. Because she brings news-he may have put down the monster who attacked them, but the conspiracy is far from dead.Now, Shaun hits the road to find what truth can be found at the end of a shotgun. Newsflesh FeedDeadlineBlackout",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 223,
+        "fantasy": 93,
+        "fiction": 305,
+        "horror": 836,
+        "horror (zombies)": 937,
+        "science fiction": 493,
+        "science fiction (apocalyptic)": 76,
+        "science fiction (dystopia)": 216,
+        "thriller": 111,
+        "young adult": 107
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "2296_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2296_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2296_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "2296_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2296_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2296_6"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 24126,
+        "score": 4.1
+    },
+    "pages": 1155,
+    "title": "Deadline",
+    "url": "https://www.goodreads.com/book/show/8429687-deadline",
+    "year_published": 2011
+}

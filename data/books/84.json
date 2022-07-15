@@ -1,21 +1,20 @@
 {
-    "author": "Gena Showalter",
-    "base_id": 84,
-    "description": " Alien hunting can get a girl killed. It can also get her a date.High school senior Camille Robins and her best friend are determined to snag the attention of their crushes before graduation next month. Armed with red-hot outfits and killer hair, they sneak into the hottest nightclub in town -- which caters to the rich and famous, both human and alien. They end up following Erik (who is human) and Silver (who isn't) through a guarded door and are soon separated and under attack...and not the good kind.Bad boy Erik spares Camille's life, but the two are soon being chased by gun-toting Alien Investigation and Removal agents. Camille's more confused than ever because Erik's finally showing real interest in her, but the agents are accusing him of dealing Onadyn -- a drug that ruins human lives. Suddenly, with the heat of his kiss lingering on her lips, Camille has to decide whose side she's on...and whether she's willing to put her life on the line to save Erik's.",
+    "author": "Wendy Nikel",
+    "base_id": "84",
+    "description": "Elise Morley is an expert on the past who's about to get a crash course in the future. For years, Elise has been donning corsets, sneaking into castles, and lying through her teeth to enforce the Place in Time Travel Agency's ten essential rules of time travel. Someone has to ensure that travel to the past isn't abused, and most days she welcomes the challenge of tracking down and retrieving clients who have run into trouble on their historical vacations.But when a dangerous secret organization kidnaps her and coerces her into jumping to the future on a high-stakes assignment, she's got more to worry about than just the time-space continuum. For the first time ever, she's the one out-of-date, out of place, and quickly running out of time.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adventure": 5,
-        "aliens": 33,
-        "fantasy": 21,
-        "futuristic": 6,
-        "paranormal": 31,
-        "paranormal romance": 32,
-        "romance": 28,
-        "science fiction": 19,
-        "urban fantasy": 7,
-        "young adult": 76
+        "adventure": 2,
+        "fantasy": 4,
+        "fiction": 6,
+        "historical (historical fiction)": 3,
+        "novella": 5,
+        "science fiction": 26,
+        "science fiction (time travel)": 30,
+        "science fiction fantasy": 2
     },
     "inventory": [
         {
@@ -23,40 +22,20 @@
             "stock_id": "84_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "84_2"
         },
         {
-            "status": "maintenance",
-            "stock_id": "84_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "84_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "84_5"
-        },
-        {
             "status": "available",
-            "stock_id": "84_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "84_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "84_8"
+            "stock_id": "84_3"
         }
     ],
     "metrics": {
-        "rating_votes": 1713,
-        "score": 4
+        "rating_votes": 340,
+        "score": 3.78
     },
-    "pages": 1107,
-    "title": "Blacklisted",
-    "url": "https://www.goodreads.com/book/show/476542.Blacklisted",
-    "year_published": 2007
+    "pages": 1186,
+    "title": "The Continuum",
+    "url": "https://www.goodreads.com/book/show/35224471-the-continuum",
+    "year_published": 2018
 }

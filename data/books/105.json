@@ -1,41 +1,34 @@
 {
-    "author": "Mark Verheiden",
-    "base_id": 105,
-    "description": "Dark Horse Comics took the industry by storm with its release of Aliens, a comics series that for the first time captured the power of film source material and expanded its universe in a way that fans applauded worldwide. Now, the first three Dark Horse Aliens series \u2014 Outbreak, Nightmare Asylum and Female War \u2014 are collected in a value-priced, quality-format omnibus, featuring nearly 400 story pages in full color. Written by screen and television scribe Mark Verheiden (The Mask, Battlestar Gallactica) and illustrated with consummate skill by Mark A. Nelson, Den Beauvais and Sam Kieth, Aliens Omnibus Volume 1 is an essential piece of the Aliens mythos and a great entry point into the storied Dark Horse Aliens library.",
+    "author": "Brett Battles",
+    "base_id": "105",
+    "description": "With the whole of human history altered, Denny Younger may be the last rewinder in existence\u2013and the last person on earth with a chaser unit capable of time travel. While caring for his ailing sister, Denny must discover a way to recharge his device before he\u2019s left with no defense against a past that wants him dead.Before long, Denny notices a mysterious stranger following him\u2013keeping tabs on Denny, his family, and his friends. Is Denny just paranoid? Or maybe he isn\u2019t alone in this new reality after all.\u2026When his chaser is stolen and his girlfriend is kidnapped, Denny risks everything to get both of them back. Launched into a high-stakes chase that spans continents and millennia, Denny\u2019s responsibility to save our future isn\u2019t over yet. It will take all of his cunning to stop a threat capable of steering the fate of the human race into disaster.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 17,
-        "comic book": 4,
-        "comics": 45,
-        "fiction": 11,
-        "graphic novels": 53,
-        "horror": 34,
-        "media tie-in": 3,
-        "science fiction": 33,
-        "science fiction fantasy": 3
+        "action": 2,
+        "audiobook": 2,
+        "business (amazon)": 2,
+        "fantasy": 5,
+        "fiction": 7,
+        "science fiction": 19,
+        "science fiction (dystopia)": 3,
+        "science fiction (time travel)": 25,
+        "science fiction fantasy": 3,
+        "young adult": 5
     },
     "inventory": [
         {
-            "status": "available",
-            "stock_id": "105_1"
-        },
-        {
             "status": "on_loan",
-            "stock_id": "105_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "105_3"
+            "stock_id": "105_1"
         }
     ],
     "metrics": {
-        "rating_votes": 1079,
-        "score": 3.73
+        "rating_votes": 1402,
+        "score": 3.79
     },
-    "pages": 1235,
-    "title": "Aliens Omnibus, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/343288.Aliens_Omnibus_Vol_1",
-    "year_published": 2007
+    "pages": 305,
+    "title": "Destroyer",
+    "url": "https://www.goodreads.com/book/show/25959672-destroyer",
+    "year_published": 2016
 }

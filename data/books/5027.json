@@ -1,45 +1,45 @@
 {
     "author": "Liu Cixin",
-    "base_id": 5027,
+    "base_id": "5027",
     "description": "Half a century after the Doomsday Battle, the uneasy balance of Dark Forest Deterrence keeps the Trisolaran invaders at bay. Earth enjoys unprecedented prosperity due to the infusion of Trisolaran knowledge. With human science advancing daily and the Trisolarans adopting Earth culture, it seems that the two civilizations will soon be able to co-exist peacefully as equals without the terrible threat of mutually assured annihilation. But the peace has also made humanity complacent.Cheng Xin, an aerospace engineer from the early twenty-first century, awakens from hibernation in this new age. She brings with her knowledge of a long-forgotten program dating from the beginning of the Trisolar Crisis, and her very presence may upset the delicate balance between two worlds. Will humanity reach for the stars or die in its cradle?",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "China": 103,
-        "aliens": 47,
         "audiobook": 64,
+        "cultural (china)": 103,
         "fantasy": 55,
         "fiction": 776,
         "science fiction": 1410,
+        "science fiction (aliens)": 47,
         "science fiction fantasy": 82,
         "space": 54,
-        "space opera": 47,
+        "space (space opera)": 47,
         "speculative fiction": 41
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "5027_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "5027_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "5027_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "5027_4"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "5027_5"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "5027_6"
         },
         {
@@ -47,19 +47,19 @@
             "stock_id": "5027_7"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "5027_8"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "5027_9"
         }
     ],
     "metrics": {
-        "rating_votes": 53271,
+        "rating_votes": 53276,
         "score": 4.43
     },
-    "pages": 903,
+    "pages": 629,
     "title": "Death's End",
     "url": "https://www.goodreads.com/book/show/25451264-death-s-end",
     "year_published": 2010

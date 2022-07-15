@@ -1,62 +1,48 @@
 {
-    "author": "Pittacus Lore",
-    "base_id": 163,
-    "description": "\n[image]\n",
+    "author": "Kim Curran",
+    "base_id": "163",
+    "description": "When your average, 16-year old loser, Scott Tyler, meets the beautiful and mysterious Aubrey Jones, he learns he's not so average after all. He's a 'Shifter'. And that means he has the power to undo any decision he's ever made. At first, he thinks the power to shift is pretty cool. But as his world starts to unravel around him he realises that each time he uses his power, it has consequences; terrible unforeseen consequences. Shifting is going to get him killed. In a world where everything can change with a thought, Scott has to decide where he stands.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "adventure": 8,
-        "aliens": 22,
-        "dystopia": 6,
-        "fantasy": 39,
-        "fiction": 11,
-        "novella": 10,
-        "paranormal": 10,
-        "science fiction": 49,
-        "short stories": 18,
-        "young adult": 64
+        "action": 7,
+        "adventure": 10,
+        "contemporary": 7,
+        "fantasy": 34,
+        "fantasy (paranormal)": 34,
+        "science fiction": 43,
+        "science fiction (time travel)": 26,
+        "thriller": 10,
+        "young adult": 64,
+        "young adult (teen)": 5
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "163_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "163_2"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "163_3"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "163_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "163_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "163_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "163_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "163_8"
         }
     ],
     "metrics": {
-        "rating_votes": 3258,
-        "score": 3.89
+        "rating_votes": 968,
+        "score": 3.74
     },
-    "pages": 996,
-    "title": "Eight's Origin",
-    "url": "https://www.goodreads.com/book/show/15843845-eight-s-origin",
+    "pages": 918,
+    "title": "Shift",
+    "url": "https://www.goodreads.com/book/show/13420494-shift",
     "year_published": 2012
 }

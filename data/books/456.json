@@ -1,21 +1,21 @@
 {
-    "author": "Kiersten Fay",
-    "base_id": 456,
-    "description": "From USA Today bestselling author Kiersten Fay comes this devilishly passionate tale of a fierce demon captain and the vulnerable young princess he vows to protect. Their passion will ignite the stars.As captain of the merchant ship Marada, Sebastian has only one goal: keep his family and his crew safe while they deliver a curious parcel to a ruthless pirate. But when a bewitching young woman mysteriously appears on his ship, he finds it impossible to focus on the job...and to keep his hands off her.Analia has known only one life: enslavement. In a bid for freedom, she escapes onto a craft led by a fearsome demon captain. If she is to maintain her freedom, she must gain Sebastian's trust while concealing her true nature.Together they contend with the hazards of open space, but what no one knows is her secrets are more dangerous than anything they have encountered before.",
+    "author": "William Hertling",
+    "base_id": "456",
+    "description": "David Ryan is the designer of ELOPe, an email language optimization program, that if successful, will make his career. But when the project is suddenly in danger of being canceled, David embeds a hidden directive in the software accidentally creating a runaway artificial intelligence.David and his team are initially thrilled when the project is allocated extra servers and programmers. But excitement turns to fear as the team realizes that they are being manipulated by an A.I. who is redirecting corporate funds, reassigning personnel and arming itself in pursuit of its own agenda.",
     "editions": [
-        "None"
+        "english"
     ],
     "genres": {
-        "adult": 34,
-        "aliens": 107,
-        "demons": 104,
-        "erotica": 44,
-        "fantasy": 80,
-        "paranormal": 114,
-        "paranormal romance": 102,
-        "romance": 162,
-        "science fiction": 171,
-        "science fiction romance": 61
+        "artificial intelligence": 13,
+        "audiobook": 6,
+        "fiction": 84,
+        "novels": 6,
+        "science fiction": 172,
+        "science fiction (cyberpunk)": 13,
+        "science fiction (near future)": 5,
+        "science fiction fantasy": 6,
+        "singularity": 8,
+        "thriller": 18
     },
     "inventory": [
         {
@@ -25,14 +25,18 @@
         {
             "status": "maintenance",
             "stock_id": "456_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "456_3"
         }
     ],
     "metrics": {
-        "rating_votes": 4437,
-        "score": 3.93
+        "rating_votes": 5611,
+        "score": 3.82
     },
-    "pages": 558,
-    "title": "The Demon's Possession: Scifi Paranormal Romance",
-    "url": "https://www.goodreads.com/book/show/53510771-the-demon-s-possession",
+    "pages": 395,
+    "title": "Avogadro Corp",
+    "url": "https://www.goodreads.com/book/show/13184491-avogadro-corp",
     "year_published": 2011
 }

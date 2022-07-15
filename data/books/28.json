@@ -1,34 +1,57 @@
 {
-    "author": "Jaid Black",
-    "base_id": 28,
-    "description": "Book 6.5 in the Trek Mi Q'an Series. Dorothy \"Dot\" Araiza is a sex-toy maker by trade. One would think she has an active social life, but on the contrary, her existence is a rather boring, staid one. Dot dreams of finding her happily-ever-after, of being swept off her feet by Prince Charming-not to mention getting laid after eight pathetic years! One lightning storm later, all Dot's fevered fantasies will come true. But Prince Charming isn't quite what she'd been expecting...",
+    "author": "Ben Joel Price",
+    "base_id": "28",
+    "description": "In this sequel to Earth Space Moon Base, Monkey, Robot, and Deep-Sea Diver embark on a dangerous underwater quest! The jellyfish and spider crabs they encounter are the least of their worries as they search the depths for missing starfish in their bathysphere, the Guppy. \u00a0 Ben Joel Price\u2019s cheeky rhymes and limited yet striking palette evoke an enchanting world that will give young readers the explorer\u2019s bug!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 17,
-        "erotic romance": 9,
-        "erotica": 34,
-        "fantasy": 12,
-        "paranormal": 11,
-        "paranormal romance": 6,
-        "romance": 17,
-        "science fiction": 15,
-        "science fiction romance": 8,
-        "shapeshifters": 6
+        "adventure": 4,
+        "animals": 3,
+        "childrens": 4,
+        "childrens (picture books)": 21,
+        "environment (nature)": 2,
+        "fantasy": 2,
+        "fiction": 2,
+        "science fiction (robots)": 2
     },
     "inventory": [
         {
             "status": "available",
             "stock_id": "28_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "28_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "28_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "28_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "28_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "28_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "28_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1004,
-        "score": 3.64
+        "rating_votes": 118,
+        "score": 2.92
     },
-    "pages": 808,
-    "title": "Devilish Dot",
-    "url": "https://www.goodreads.com/book/show/8151556-devilish-dot",
-    "year_published": 2004
+    "pages": 871,
+    "title": "In the Deep Dark Deep",
+    "url": "https://www.goodreads.com/book/show/23742840-in-the-deep-dark-deep",
+    "year_published": 2015
 }

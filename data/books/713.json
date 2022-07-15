@@ -1,29 +1,29 @@
 {
-    "author": "Eve Silver",
-    "base_id": 713,
-    "description": "So what's the game now? This, or the life I used to know? Miki Jones's carefully controlled life spins into chaos after she's run down in the street, left broken and bloody. She wakes up fully healed in a place called the lobby - pulled from her life, through time and space into some kind of game in which she and a team of other teens are sent on missions to eliminate the Drau, terrifying and beautiful alien creatures. There are no practice runs, no training, and no way out. Every moment of the game is kill or be killed, and Miki has only the questionable guidance of Jackson Tate, the team's alluring and secretive leader. He evades her questions, holds himself aloof from the others, and claims it's every player for himself. But when he puts himself at risk to watch Miki's back, he leaves her both frustrated and fascinated. Jackson says the game isn't really a game, that what Miki and her new teammates do now determines their survival. And the survival of every other person on the planet. She laughs. He doesn't. And then the game takes a deadly and terrifying turn.",
+    "author": "Greg Rucka",
+    "base_id": "713",
+    "description": "Eisner-winning team of Rucka and Lark's critically acclaimed new series about Forever Carlyle, the Lazarus of the Carlyle Family. In a dystopian near-future, government is a quaint concept, resources are coveted, and possession is 100% of the law. A handful of Families rule, jealously guarding what they have and exploiting the Waste who struggle to survive in their domains. Forever Carlyle defends her family's holdings through deception and force as their protector, their Lazarus. Shot dead defending the family home, Forever's day goes downhill from there...Collects LAZARUS #1-4 and previously only-available-online, four-page short, \"Family: Prelude.\"",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "action": 26,
-        "adventure": 24,
-        "aliens": 106,
-        "dystopia": 57,
-        "fantasy": 108,
-        "fiction": 24,
-        "paranormal": 36,
-        "romance": 72,
-        "science fiction": 180,
-        "young adult": 251
+        "action": 17,
+        "adult": 20,
+        "apocalyptic (post apocalyptic)": 22,
+        "comics (comic book)": 52,
+        "fiction": 74,
+        "graphic novels comics": 87,
+        "science fiction": 188,
+        "science fiction (dystopia)": 115,
+        "sequential art (comics)": 772,
+        "sequential art (graphic novels)": 701
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "713_1"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "713_2"
         },
         {
@@ -31,7 +31,7 @@
             "stock_id": "713_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "713_4"
         },
         {
@@ -44,11 +44,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 5237,
-        "score": 3.89
+        "rating_votes": 10559,
+        "score": 3.94
     },
-    "pages": 388,
-    "title": "Rush",
-    "url": "https://www.goodreads.com/book/show/13571953-rush",
+    "pages": 839,
+    "title": "Lazarus, Vol. 1: Family",
+    "url": "https://www.goodreads.com/book/show/18259637-lazarus-vol-1",
     "year_published": 2013
 }

@@ -1,0 +1,43 @@
+{
+    "author": "Blake Crouch",
+    "base_id": "7716",
+    "description": "Wayward Pines, Idaho, is quintessential small-town America--or so it seems. Secret Service agent Ethan Burke arrives in search of two missing federal agents, yet soon is facing much more than he bargained for. After a violent accident lands him in the hospital, Ethan comes to with no ID and no cell phone. The medical staff seems friendly enough, but sometimes feels...off. As days pass, Ethan's investigation into his colleagues' disappearance turns up more questions than answersWHY CAN'T HE MAKE CONTACT WITH HIS FAMILY IN THE OUTSIDE WORLD? WHY DOESN'T ANYONE BELIEVE HE IS WHO HE SAYS HE IS? AND WHAT'S THE PURPOSE OF THE ELECTRIFIED FENCES ENCIRCLING THE TOWN? ARE THEY KEEPING THE RESIDENTS IN? OR SOMETHING ELSE OUT?Each step toward the truth takes Ethan further from the world he knows, until he must face a horrifying fact\u2014he may never get out of Wayward Pines alive.....",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "audiobook": 182,
+        "fantasy": 165,
+        "fiction": 857,
+        "horror": 814,
+        "mystery": 979,
+        "science fiction": 827,
+        "science fiction (dystopia)": 220,
+        "suspense": 197,
+        "thriller": 1023,
+        "thriller (mystery thriller)": 288
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "7716_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "7716_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "7716_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 96183,
+        "score": 3.93
+    },
+    "pages": 995,
+    "title": "Pines",
+    "url": "https://www.goodreads.com/book/show/15096164-pines",
+    "year_published": 2012
+}

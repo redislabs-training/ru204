@@ -1,0 +1,58 @@
+{
+    "author": "Alena Graedon",
+    "base_id": "965",
+    "description": "In the not-so-distant future, the forecasted \u201cdeath of print\u201d has become a reality.\u00a0Bookstores, libraries, newspapers, and magazines are\u00a0things of the past, and we spend our time glued to\u00a0handheld devices called Memes that not only keep\u00a0us in constant communication but also have become\u00a0so intuitive that they hail us cabs before we leave our\u00a0offices, order takeout at the first growl of a hungry\u00a0stomach, and even create and sell language itself in a marketplace called the Word Exchange.Anana Johnson works with her father, Doug, at the North American Dictionary of the English Language (NADEL), where Doug is hard at work on the last edition that will ever be printed. Doug is a staunchly anti-Meme, anti-tech intellectual who fondly remembers the days when people used email (everything now is text or videoconference) to communicate\u2014or even actually spoke to one another, for that matter. One evening, Doug disappears from the NADEL offices, leaving a single written clue: ALICE. It\u2019s a code word he devised to signal if he ever fell into harm\u2019s way. And thus begins Anana\u2019s journey down the proverbial rabbit hole . . .Joined by Bart, her bookish NADEL colleague,\u00a0Anana\u2019s search for Doug will take her into dark \u00a0basements and subterranean passageways; the stacks\u00a0and reading rooms of the Mercantile Library; and\u00a0secret meetings of the underground resistance, the\u00a0Diachronic Society. As Anana penetrates the mystery of her father\u2019s disappearance and a pandemic of decaying language called \u201cword flu\u201d spreads, The\u00a0Word Exchange becomes a cautionary tale that is at once a technological thriller and a meditation on\u00a0the high cultural costs of digital technology.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 17,
+        "fantasy": 24,
+        "fiction": 236,
+        "mystery": 51,
+        "science fiction": 133,
+        "science fiction (dystopia)": 99,
+        "science fiction fantasy": 17,
+        "thriller": 20,
+        "unfinished": 18,
+        "writing (books about books)": 47
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "965_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "965_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "965_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "965_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "965_5"
+        },
+        {
+            "status": "available",
+            "stock_id": "965_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "965_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3856,
+        "score": 3.34
+    },
+    "pages": 900,
+    "title": "The Word Exchange",
+    "url": "https://www.goodreads.com/book/show/18209339-the-word-exchange",
+    "year_published": 2014
+}

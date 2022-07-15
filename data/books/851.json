@@ -1,37 +1,38 @@
 {
-    "author": "Orson Scott Card",
-    "base_id": 851,
-    "description": "One hundred years before Ender's Game the aliens arrived on Earth with fire and death. This is the story of the First Formic War. Victor beat the alien ship to Earth, but just barely. But it wasn't enough to convince skeptical governments that there was a threat.",
+    "author": "Patricia Forde",
+    "base_id": "851",
+    "description": "In the city of Ark, speech is constrained to five hundred sanctioned words. Speak outside the approved lexicon and face banishment. The exceptions are the Wordsmith and his apprentice Letta, the keepers and archivists of all language in their post-apocalyptic, neo-medieval world. On the death of her master, Letta is suddenly promoted to Wordsmith, charged with collecting and saving words. But when she uncovers a sinister plan to suppress language and rob Ark\u2019s citizens of their power of speech, she realizes that it\u2019s up to her to save not only words, but culture itself.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 24,
-        "audiobook": 39,
-        "fantasy": 29,
-        "fiction": 145,
-        "science fiction": 453,
-        "science fiction fantasy": 29,
-        "space": 19,
-        "space opera": 12,
-        "war": 16,
-        "young adult": 21
+        "apocalyptic (post apocalyptic)": 16,
+        "audiobook": 13,
+        "childrens": 22,
+        "childrens (middle grade)": 138,
+        "fantasy": 88,
+        "fiction": 45,
+        "science fiction": 57,
+        "science fiction (dystopia)": 108,
+        "young adult": 84,
+        "young adult (teen)": 11
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "851_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "851_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "851_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "851_4"
         },
         {
@@ -39,24 +40,24 @@
             "stock_id": "851_5"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "851_6"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "851_7"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "851_8"
         }
     ],
     "metrics": {
-        "rating_votes": 13202,
-        "score": 4.05
+        "rating_votes": 3710,
+        "score": 3.65
     },
-    "pages": 1095,
-    "title": "Earth Afire",
-    "url": "https://www.goodreads.com/book/show/16059350-earth-afire",
-    "year_published": 2013
+    "pages": 412,
+    "title": "The List",
+    "url": "https://www.goodreads.com/book/show/33846933-the-list",
+    "year_published": 2015
 }

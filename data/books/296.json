@@ -1,42 +1,63 @@
 {
-    "author": "Alexis Deacon",
-    "base_id": 296,
-    "description": "The story of an alienated alienBeegu's spacecraft is stranded on Earth. Now she is lost and wandering. Waiting for a rescue signal from her mother, she fails to make friends with the strange creatures she encounters. Rabbits don't seem to understand her; windblown leaves won't stay still to listen. But at last, on a school playground, Beegu discovers a group of fantastic companions who are happy to let her join their games . . . until a grownup creature spoils the fun.Beegu's spirits are sinking lower than ever just as the mother ship arrives, in this simple, bittersweet picture book that shows us our world through the three eyes of an innocent outsider with the help of stylish art and a wry, understated text. ",
+    "author": "Jonathan Hickman",
+    "base_id": "296",
+    "description": "It's the third volume of the Eisner-nominated East Of West. There Is No Us sees the breaking apart of the future-scape of America as the world races forward towards the apocalypse.Collecting: East Of West 11-15",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Family": 17,
-        "adventure": 13,
-        "aliens": 26,
-        "animals": 8,
-        "childrens": 23,
-        "fantasy": 12,
-        "fiction": 11,
-        "picture books": 333,
-        "science fiction": 12,
-        "space": 12
+        "comics (comic book)": 36,
+        "fantasy": 87,
+        "fiction": 35,
+        "graphic novels comics": 35,
+        "horror": 17,
+        "science fiction": 74,
+        "science fiction (dystopia)": 20,
+        "sequential art (comics)": 298,
+        "sequential art (graphic novels)": 336,
+        "westerns": 51
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "296_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "296_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "296_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "296_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "296_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "296_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "296_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "296_8"
         }
     ],
     "metrics": {
-        "rating_votes": 1552,
-        "score": 4.22
+        "rating_votes": 5227,
+        "score": 4.17
     },
-    "pages": 372,
-    "title": "Beegu",
-    "url": "https://www.goodreads.com/book/show/1362489.Beegu",
-    "year_published": 2003
+    "pages": 442,
+    "title": "East of West, Vol. 3: There Is No Us",
+    "url": "https://www.goodreads.com/book/show/22358464-east-of-west-vol-3",
+    "year_published": 2014
 }

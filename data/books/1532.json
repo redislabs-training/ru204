@@ -1,0 +1,47 @@
+{
+    "author": "George Saunders",
+    "base_id": "1532",
+    "description": "In six stories and the novella, Bounty, Saunders introduces readers to people struggling to survive in an increasingly haywire world.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "contemporary": 33,
+        "fiction": 548,
+        "humor": 58,
+        "literary fiction": 30,
+        "literature": 39,
+        "literature (20th century)": 18,
+        "literature (american)": 43,
+        "science fiction": 52,
+        "science fiction (dystopia)": 53,
+        "short stories": 755
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1532_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "1532_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1532_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1532_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 17427,
+        "score": 4.22
+    },
+    "pages": 389,
+    "title": "CivilWarLand in Bad Decline",
+    "url": "https://www.goodreads.com/book/show/28747.CivilWarLand_in_Bad_Decline",
+    "year_published": 1996
+}

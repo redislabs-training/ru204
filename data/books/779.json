@@ -1,29 +1,31 @@
 {
     "author": "Ursula K. Le Guin",
-    "base_id": 779,
+    "base_id": "779",
     "description": "A world shared by three native humanoid races - the cavern-dwelling Gdemiar, elvish Fiia, and warrior clan, Liuar - is suddenly invaded and conquered by a fleet of ships from the stars. Earth scientist Rocannon is on that world, and he sees his friends murdered and his spaceship destroyed. Marooned among alien peoples, he leads the battle to free this new world - and finds that legends grow around him even as he fights.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 21,
-        "americana": 17,
         "classics": 27,
         "fantasy": 395,
         "fiction": 281,
+        "literature (american)": 17,
         "novels": 25,
         "science fiction": 659,
+        "science fiction (aliens)": 21,
         "science fiction fantasy": 50,
-        "space opera": 21,
+        "space (space opera)": 21,
         "speculative fiction": 42
     },
     "inventory": [
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "779_1"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "779_2"
         },
         {
@@ -39,19 +41,15 @@
             "stock_id": "779_5"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "779_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "779_7"
         }
     ],
     "metrics": {
         "rating_votes": 13118,
         "score": 3.75
     },
-    "pages": 266,
+    "pages": 486,
     "title": "Rocannon's World",
     "url": "https://www.goodreads.com/book/show/92610.Rocannon_s_World",
     "year_published": 1966

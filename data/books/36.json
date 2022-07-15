@@ -1,57 +1,39 @@
 {
-    "author": "Ruby Dixon",
-    "base_id": 36,
-    "description": "You'd think being abducted by aliens would be the worst thing that could happen to me. And you'd be wrong. Because now, the aliens are having ship trouble, and they've left their cargo of human women - including me - on an ice planet.And the only native inhabitant I've met? He's big, horned, blue, and really, really has a thing for me...",
+    "author": "Alan Dean Foster",
+    "base_id": "36",
+    "description": "The official novel of the blockbuster film!OUR WORLD. THEIR WAR.They once lived on a distant planet, which was destroyed by the ravages of war-a war waged between the legions who worship chaos and those who follow freedom. In search of a powerful energy source that is essential to the survival of their race, they have now come to Earth. They are among us, silent, undetected, waiting to reveal themselves, for good or evil.The Decepticons will stop at nothing to seize the coveted prize, even if it means the destruction of countless human lives. The only things standing in their way: the Autobots and a handful of determined men and women who realize that when it comes to this advanced race of machines, there is much more than meets the eye. With forces mounting for the ultimate showdown, the future of humankind hangs in the balance.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "adult": 3,
-        "aliens": 19,
-        "erotica": 5,
-        "fantasy": 4,
-        "paranormal": 5,
-        "romance": 9,
-        "science fiction": 21,
-        "science fiction romance": 7,
-        "space": 2
+        "action": 2,
+        "comics (superheroes)": 2,
+        "fiction": 9,
+        "media tie in": 4,
+        "novels": 3,
+        "science fiction": 19,
+        "science fiction (robots)": 2,
+        "science fiction fantasy": 3,
+        "sequential art (comics)": 2,
+        "war (military fiction)": 2
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "36_1"
         },
         {
             "status": "maintenance",
             "stock_id": "36_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "36_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "36_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "36_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "36_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "36_7"
         }
     ],
     "metrics": {
-        "rating_votes": 990,
-        "score": 4.14
+        "rating_votes": 1197,
+        "score": 4.06
     },
-    "pages": 780,
-    "title": "Ice Planet Barbarians Part 1: Stolen",
-    "url": "https://www.goodreads.com/book/show/25080613-ice-planet-barbarians-part-1",
-    "year_published": 2015
+    "pages": 256,
+    "title": "Transformers",
+    "url": "https://www.goodreads.com/book/show/35117.Transformers",
+    "year_published": 2007
 }

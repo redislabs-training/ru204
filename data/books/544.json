@@ -1,0 +1,34 @@
+{
+    "author": "Mindy McGinnis",
+    "base_id": "544",
+    "description": "A dangerous disease strikes the community where teenage Lucy lives. When her adoptive mother, Lynn, takes Lucy away from their home and friends in order to protect her, Lucy struggles to figure out what home means. During their journey west to find a new life, the two face nature's challenges, including hunger, mountains, and deserts.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 17,
+        "adventure (survival)": 26,
+        "apocalyptic (post apocalyptic)": 70,
+        "audiobook": 17,
+        "fantasy": 12,
+        "fiction": 31,
+        "science fiction": 44,
+        "science fiction (apocalyptic)": 12,
+        "science fiction (dystopia)": 134,
+        "young adult": 187
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "544_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 3100,
+        "score": 3.93
+    },
+    "pages": 1137,
+    "title": "In a Handful of Dust",
+    "url": "https://www.goodreads.com/book/show/20359647-in-a-handful-of-dust",
+    "year_published": 2014
+}

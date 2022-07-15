@@ -1,0 +1,42 @@
+{
+    "author": "Ryan Boudinot",
+    "base_id": "381",
+    "description": "From the \u201cwickedly talented\u201d (Boston Globe) and \u201cdarkly funny\u201d (New York Times Book Review) Ryan Boudinot, Blueprints of the Afterlife is a tour de force.It is the Afterlife. The end of the world is a distant, distorted memory called \u201cthe Age of F***ed Up Shit.\u201d A sentient glacier has wiped out most of North America. Medical care is supplied by open-source nanotechnology, and human nervous systems can be hacked.Abby Fogg is a film archivist with a niggling feeling that her life is not really her own. She may be right. Al Skinner is a former mercenary for the Boeing Army, who\u2019s been dragging his war baggage behind him for nearly a century. Woo-jin Kan is a virtuoso dishwasher with the Hotel and Restaurant Management Olympics medals to prove it. Over them all hovers a mysterious man named Dirk Bickle, who sends all these characters to a full-scale replica of Manhattan under construction in Puget Sound. An ambitious novel that writes large the hopes and anxieties of our time\u2014climate change, social strife, the depersonalization of the digital age \u2014 Blueprints of the Afterlife will establish Ryan Boudinot as an exceptional novelist of great daring.Blueprints of the Afterlife alternates between a richly imagined future in which the apocalypse is a distant, hazy memory, and a present in which a man recounts his search for a secret organization bent on harnessing the brightest minds to control human destiny and life on earth. There are giant heads that appear in the sky. The world's greatest dishwasher. Over 600 clones of an ancient pop singer's backup dancer. Red carpet events. A mystical refrigerator.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "apocalyptic (post apocalyptic)": 20,
+        "fantasy": 22,
+        "fiction": 100,
+        "humor": 10,
+        "novels": 9,
+        "science fiction": 102,
+        "science fiction (apocalyptic)": 7,
+        "science fiction (dystopia)": 60,
+        "science fiction fantasy": 15,
+        "speculative fiction": 16
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "381_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "381_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "381_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 2195,
+        "score": 3.7
+    },
+    "pages": 515,
+    "title": "Blueprints of the Afterlife",
+    "url": "https://www.goodreads.com/book/show/8856041-blueprints-of-the-afterlife",
+    "year_published": 2012
+}

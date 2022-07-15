@@ -1,21 +1,21 @@
 {
-    "author": "Carrie Jones",
-    "base_id": 113,
-    "description": "New York Times bestselling author Carrie Jones introduces sassy alien-hunting cheerleader Mana in Flying, the launch of a sparkling new YA SF series.People have always treated seventeen-year-old Mana as someone in need of protection. She's used to being coddled, being an only child, but it's hard to imagine anything could ever happen in her small-town, normal life. As her mother's babying gets more stifling than ever, she's looking forward to cheering at the big game and getting out of the house for a while.But that night, Mana's life goes haywire.First, the hot guy she's been crushing on at school randomly flips out and starts spitting acid during the game. Then they get into a knockdown, drag-out fight in the locker room, during which Mana finds herself leaping around like a kangaroo on steroids. As a flyer on the cheerleading squad, she's always been a good jumper, but this is a bit much. By the time she gets home and finds her house trashed and an alien in the garage, Mana starts to wonder if her mother had her reasons for being overprotective.It turns out, Mana's frumpy, timid mom is actually an alien hunter, and now she's missing--taking a piece of technology with her that everyone wants their hands on, both human and alien. Now her supposed partner, a guy that Mana has never met or heard of (and who seems way too young and way too arrogant to be hunting aliens), has shown up, ordering Mana to come with him. Now, on her own for the first time, Mana will have to find a way to save her mother--and maybe the world--and hope she's up to the challenge.",
+    "author": "\u00c9dith",
+    "base_id": "113",
+    "description": "This exquisite graphic novel adaptation of Philippa Pearce's Carnegie Medal-winning Tom's Midnight Garden reimagines a beloved classic in a new, full-color format. With stunning art from award-winning graphic artist Edith, readers will be swept up in this transcendent story of friendship.When Tom's brother gets sick, Tom's shipped off to spend what he's sure will be a boring summer with his aunt and uncle in the country. But then Tom hears the old grandfather clock in the hall chime thirteen times, and he's transported back to an old garden where he meets a mysterious girl named Hatty. Tom returns to the garden every night to have adventures with Hatty, who grows a little older with each visit. As the summer comes to an end, Tom realizes he wants to stay in the midnight garden with Hatty forever.Winner of the Carnegie Medal, Tom's Midnight Garden is a classic of children's literature and a deeply satisfying time-travel mystery. This stunning graphic novel adaptation from award-winning French artist Edith transforms Philippa Pearce's story into an engaging visual adventure.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "Sports (Sports) ": 4,
-        "aliens": 26,
-        "contemporary": 5,
-        "fantasy": 5,
-        "fiction": 7,
-        "humor": 6,
-        "romance": 4,
-        "science fiction": 34,
-        "teen": 9,
-        "young adult": 33
+        "childrens": 20,
+        "childrens (juvenile)": 7,
+        "childrens (middle grade)": 23,
+        "classics": 11,
+        "fantasy": 28,
+        "fiction": 9,
+        "historical (historical fiction)": 10,
+        "science fiction (time travel)": 24,
+        "sequential art (comics)": 14,
+        "sequential art (graphic novels)": 84
     },
     "inventory": [
         {
@@ -23,36 +23,20 @@
             "stock_id": "113_1"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "113_2"
         },
         {
             "status": "available",
             "stock_id": "113_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "113_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "113_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "113_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "113_7"
         }
     ],
     "metrics": {
-        "rating_votes": 399,
-        "score": 3.29
+        "rating_votes": 633,
+        "score": 3.97
     },
-    "pages": 952,
-    "title": "Flying",
-    "url": "https://www.goodreads.com/book/show/26114232-flying",
-    "year_published": 2016
+    "pages": 1185,
+    "title": "Tom's Midnight Garden Graphic Novel",
+    "url": "https://www.goodreads.com/book/show/40402010-tom-s-midnight-garden-graphic-novel",
+    "year_published": 2015
 }

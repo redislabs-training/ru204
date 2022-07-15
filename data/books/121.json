@@ -1,21 +1,21 @@
 {
-    "author": "Steve Perry",
-    "base_id": 121,
-    "description": "Wilks was a space marine with a near-fatal flaw: he had a heart. Billie was a child, the only survivor of a far-flung colony outpost. Thrown together in the last hellish night of an alien invasion, Billie and Wilks helped each other get out alive. Thirteen years later Wilks is in prison, and Billie lives in a mental institution, the nightmare memories of the massacre at Rim seared into her mind. Now the government has tapped Wilks to lead an expedition to the aliens' home planet to bring back a live alien. But the competition on Earth to develop the aliens as a new weapons system is brutal. When Wilks's team departs on their mission, a trained assassin trails them. And what follows is no less than guerrilla warfare on the aliens' planet - and alien conquest on Earth!",
+    "author": "Jodi Taylor",
+    "base_id": "121",
+    "description": "A special Chronicles of St Mary's Christmas short story that is sure to entertain. If you love Jasper Fforde or Ben Aaronovitch, you won't be able to resist Jodi Taylor.Bannockburn. Major Guthrie. The traditional St Mary's illegal Christmas jump.All terribly straightforward, surely...",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 27,
-        "fantasy": 2,
-        "fiction": 24,
-        "horror": 53,
-        "media tie-in": 4,
-        "military science fiction": 2,
-        "novels": 3,
-        "science fiction": 92,
-        "science fiction fantasy": 3,
-        "thriller": 3
+        "adventure": 5,
+        "audiobook": 10,
+        "fantasy": 18,
+        "fiction": 21,
+        "historical": 8,
+        "historical (historical fiction)": 16,
+        "humor": 7,
+        "science fiction": 18,
+        "science fiction (time travel)": 38,
+        "short stories": 14
     },
     "inventory": [
         {
@@ -23,20 +23,28 @@
             "stock_id": "121_1"
         },
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "121_2"
         },
         {
             "status": "on_loan",
             "stock_id": "121_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "121_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "121_5"
         }
     ],
     "metrics": {
-        "rating_votes": 2589,
-        "score": 3.89
+        "rating_votes": 1469,
+        "score": 4.48
     },
-    "pages": 980,
-    "title": "Aliens: Earth Hive",
-    "url": "https://www.goodreads.com/book/show/343281.Aliens",
-    "year_published": 1992
+    "pages": 522,
+    "title": "Why Is Nothing Ever Simple",
+    "url": "https://www.goodreads.com/book/show/52731061-why-is-nothing-ever-simple",
+    "year_published": 2019
 }

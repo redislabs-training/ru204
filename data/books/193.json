@@ -1,49 +1,36 @@
 {
-    "author": "Erica Stevens",
-    "base_id": 193,
-    "description": "The world didn\u2019t end with a bang, it didn\u2019t go out in a ball of fire and fury, nor did it end in ice. But in some strange way, ice was the end; or maybe it was the beginning of something more.Bethany is stunned and horrified when she finds herself suddenly alone in a world that was alive only moments before. Terrified, she flees into the streets of her town, looking for answers, and desperate to reach her family. Panicked, she is nearly captured by the monsters hunting her until Cade steps in to rescue her. Dark and distant, most people in school are wary of Cade, yet oddly fascinated by him. They had once been close as children, but it has been years since Bethany has had any real contact with Cade. As their situation becomes even more perilous, Bethany struggles to come to terms with her past, her terrifying new reality, and her growing love for a boy that is powerful, mysterious, and perhaps even more frightening than the aliens hunting them. Aliens that want more than their lives, they also want their blood.",
+    "author": "Lamar Giles",
+    "base_id": "193",
+    "description": "When two adventurous cousins accidentally extend the last day of summer by freezing time, they find the secrets hidden between the unmoving seconds, minutes, and hours are not the endless fun they expected. Otto and Sheed are the local sleuths in their zany Virginia town, masters of unraveling mischief using their unmatched powers of deduction. And as the summer winds down and the first day of school looms, the boys are craving just a little bit more time for fun, even as they bicker over what kind of fun they want to have. That is, until a mysterious man appears with a camera that literally freezes time. Now, with the help of some very strange people and even stranger creatures, Otto and Sheed will have to put aside their differences to save their town\u2014and each other\u2014before time stops for good.",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 41,
-        "apocalyptic": 7,
-        "dystopia": 16,
-        "fantasy": 18,
-        "paranormal": 34,
-        "paranormal romance": 15,
-        "romance": 35,
-        "science fiction": 30,
-        "young adult": 50
+        "adventure": 29,
+        "childrens": 17,
+        "childrens (juvenile)": 15,
+        "childrens (middle grade)": 105,
+        "cultural (african american)": 13,
+        "family": 12,
+        "fantasy": 75,
+        "mystery": 13,
+        "science fiction": 40,
+        "science fiction (time travel)": 24
     },
     "inventory": [
         {
-            "status": "on_loan",
-            "stock_id": "193_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "193_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "193_3"
-        },
-        {
             "status": "available",
-            "stock_id": "193_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "193_5"
+            "stock_id": "193_1"
         }
     ],
     "metrics": {
-        "rating_votes": 2815,
-        "score": 3.88
+        "rating_votes": 752,
+        "score": 3.84
     },
-    "pages": 1200,
-    "title": "Ravenous",
-    "url": "https://www.goodreads.com/book/show/23232459-ravenous",
-    "year_published": 2012
+    "pages": 1046,
+    "title": "The Last Last-Day-of-Summer",
+    "url": "https://www.goodreads.com/book/show/39727174-the-last-last-day-of-summer",
+    "year_published": 2019
 }

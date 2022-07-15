@@ -1,46 +1,36 @@
 {
-    "author": "Lyn Gala",
-    "base_id": 530,
-    "description": "Liam loves his life as a linguist and trader on the Rownt homeworld, but he has ignored his heart and sexual needs for years. After escaping the horrors of war, he wants a boring life. He won\u2019t risk letting anyone come too close because he won\u2019t risk letting anyone see his deeply submissive nature. For him, submission comes with pain. Life burned that lesson into his soul from a young age.This fear keeps him from noticing that the Rownt trader Ondry cares for him. Ondry may not understand humans, but he recognizes a wounded soul, and his need to protect Liam is quickly outpacing his common sense. They may have laws, culture, and incompatible genitalia in their way, but Ondry knows that he can find a way to overcome all that if he can just overcome the ghosts of Liam\u2019s past. Only then can he take possession of a man he has grown to respect.",
+    "author": "Alexander Gordon Smith",
+    "base_id": "530",
+    "description": "Alex's second attempt to break out of Furnace Penetentiary has failed. This time his punishment will be much worse than before. Because in the hidden, bloodstained laboratories beneath the prison, he will be made into a monster. As the warden pumps something evil into his veins--a sinisterly dark nectar--Alex becomes what he most fears . . . a superhuman minion of Furnace. How can he escape when the darkness is inside him? How can he lead the way to freedom if he is lost to himself?",
     "editions": [
-        "English"
+        "english",
+        "spanish",
+        "french"
     ],
     "genres": {
-        "aliens": 143,
-        "bdsm": 195,
-        "erotica": 45,
-        "fantasy": 71,
-        "lgbt": 39,
-        "male male romance": 312,
-        "military fiction": 47,
-        "paranormal": 32,
-        "romance": 142,
-        "science fiction": 259
+        "action": 13,
+        "adventure": 14,
+        "fantasy": 26,
+        "fiction": 36,
+        "horror": 134,
+        "science fiction": 59,
+        "science fiction (dystopia)": 66,
+        "thriller": 25,
+        "young adult": 133,
+        "young adult (teen)": 14
     },
     "inventory": [
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "530_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "530_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "530_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "530_4"
         }
     ],
     "metrics": {
-        "rating_votes": 3283,
-        "score": 4.03
+        "rating_votes": 6340,
+        "score": 4.29
     },
-    "pages": 999,
-    "title": "Claimings, Tails, and Other Alien Artifacts",
-    "url": "https://www.goodreads.com/book/show/38617807-claimings-tails-and-other-alien-artifacts",
-    "year_published": 2013
+    "pages": 307,
+    "title": "Death Sentence",
+    "url": "https://www.goodreads.com/book/show/9757310-death-sentence",
+    "year_published": 2009
 }

@@ -1,0 +1,67 @@
+{
+    "author": "F\u00e9lix J. Palma",
+    "base_id": "2309",
+    "description": "This rollicking page-turner with a cast of real and imagined literary characters and cunning intertwined plots stars a skeptical H.G. Wells as a time-traveling investigator.Characters real and imaginary come vividly to life in this whimsical triple play of intertwined plots, in which a skeptical H. G. Wells is called upon to investigate purported incidents of time travel and to save lives and literary classics, including Dracula and The Time Machine, from being wiped from existence.What happens if we change history?",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 53,
+        "fantasy": 559,
+        "fiction": 334,
+        "historical": 102,
+        "historical (historical fiction)": 387,
+        "mystery": 106,
+        "science fiction": 330,
+        "science fiction (steampunk)": 370,
+        "science fiction (time travel)": 304,
+        "science fiction fantasy": 44
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "2309_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2309_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2309_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2309_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "2309_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2309_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2309_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "2309_8"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "2309_9"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11849,
+        "score": 3.38
+    },
+    "pages": 539,
+    "title": "The Map of Time",
+    "url": "https://www.goodreads.com/book/show/9766078-the-map-of-time",
+    "year_published": 2008
+}

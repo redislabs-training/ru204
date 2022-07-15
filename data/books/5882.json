@@ -1,19 +1,20 @@
 {
     "author": "Ursula K. Le Guin",
-    "base_id": 5882,
+    "base_id": "5882",
     "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe. To do this dangerous task will mean giving up his family and possibly his life\u2014Shevek must make the unprecedented journey to the utopian mother planet, Urras, to challenge the complex structures of life and living, and ignite the fires of change.",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "Politics": 197,
         "classics": 290,
-        "dystopia": 418,
         "fantasy": 536,
         "fiction": 2108,
         "novels": 167,
         "philosophy": 174,
+        "politics": 197,
         "science fiction": 3536,
+        "science fiction (dystopia)": 418,
         "science fiction fantasy": 310,
         "speculative fiction": 197
     },
@@ -23,35 +24,15 @@
             "stock_id": "5882_1"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "5882_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5882_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5882_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5882_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5882_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5882_7"
         }
     ],
     "metrics": {
-        "rating_votes": 92246,
+        "rating_votes": 92212,
         "score": 4.2
     },
-    "pages": 1291,
+    "pages": 781,
     "title": "The Dispossessed",
     "url": "https://www.goodreads.com/book/show/13651.The_Dispossessed",
     "year_published": 1974

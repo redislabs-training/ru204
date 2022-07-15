@@ -1,24 +1,24 @@
 {
-    "author": "David Bischoff",
-    "base_id": 32,
-    "description": "Their queen is dead and the hive mind has been left to flounder on its own. On a world bereft of its only guiding force a schism is taking place: two strains of alien, formerly united by one all-powerful mother, now divide their forces for a world-shattering, acid-drenched war. On Earth, after a generation of rebuilding in the wake of alien infestation, athletes from every corner of the world are flocking to humanity's Goodwill Games. But some come with a dangerous new tool: a drug called Fire, distilled from the very essence of the aliens' body chemistry. The military wants it, Pharmaceutical kingpin Daniel Grant wants it. And the only place the essential ingredient can be found is on a world convulsed by alien holocaust...",
+    "author": "Shinsuke Yoshitake",
+    "base_id": "32",
+    "description": "Can I Build Another Me",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 17,
-        "comics": 2,
-        "fiction": 9,
-        "graphic novels": 2,
-        "horror": 14,
-        "media tie-in": 2,
-        "novels": 2,
-        "science fiction": 31,
-        "science fiction fantasy": 3
+        "childrens": 4,
+        "childrens (picture books)": 24,
+        "family": 3,
+        "fiction": 3,
+        "humor": 6,
+        "love": 2,
+        "science fiction": 2,
+        "science fiction (robots)": 2,
+        "sequential art (graphic novels)": 4
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "maintenance",
             "stock_id": "32_1"
         },
         {
@@ -26,24 +26,40 @@
             "stock_id": "32_2"
         },
         {
-            "status": "on_loan",
+            "status": "available",
             "stock_id": "32_3"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "32_4"
         },
         {
-            "status": "maintenance",
+            "status": "on_loan",
             "stock_id": "32_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "32_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "32_7"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "32_8"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "32_9"
         }
     ],
     "metrics": {
-        "rating_votes": 632,
-        "score": 3.63
+        "rating_votes": 155,
+        "score": 4.47
     },
-    "pages": 701,
-    "title": "Aliens: Genocide",
-    "url": "https://www.goodreads.com/book/show/2186184.Aliens",
-    "year_published": 1993
+    "pages": 256,
+    "title": "Can I Build Another Me",
+    "url": "https://www.goodreads.com/book/show/31440461-can-i-build-another-me",
+    "year_published": 2014
 }

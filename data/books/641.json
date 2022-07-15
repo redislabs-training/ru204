@@ -1,0 +1,38 @@
+{
+    "author": "Alastair Reynolds",
+    "base_id": "641",
+    "description": "Tom Dreyfus is a Prefect, a policeman of sorts, and one of the best. His force is Panoply, and his beat is the multi-faceted utopian society of the Glitter Band, that vast swirl of space habitats orbiting the planet Yellowstone. These days, his job is his life.A murderous attack against a Glitter Band habitat is nasty, but it looks to be an open-and-shut case - until Dreyfus starts looking under some stones that some very powerful people would really rather stayed unturned. What he uncovers is far more serious than mere gruesome murder...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 31,
+        "fantasy": 18,
+        "fiction": 136,
+        "mystery": 43,
+        "mystery (detective)": 16,
+        "science fiction": 667,
+        "science fiction (hard science fiction)": 14,
+        "science fiction fantasy": 22,
+        "space": 25,
+        "space (space opera)": 127
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "641_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "641_2"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 16420,
+        "score": 4.16
+    },
+    "pages": 1243,
+    "title": "The Prefect",
+    "url": "https://www.goodreads.com/book/show/89195.The_Prefect",
+    "year_published": 2007
+}

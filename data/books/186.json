@@ -1,33 +1,59 @@
 {
-    "author": "Lyn Gala",
-    "base_id": 186,
-    "description": "Corporal Jacqs Glebov is a simple soldier who wants a bunk, decent food and the company of other battle-hardened men and women who understand the realities of fighting. Instead he's stuck patrolling a remote corner of the border with cadets straight out of boot camp. They don't understand him, and he sure doesn't have an ounce of respect for them.After a field promotion, Earth sends Commander Zeke Waters to the Candiru for some practical experience in a leadership role. Instead, Zeke falls in lust with the adamantly heterosexual Jacqs. The way Jacqs fights and the way he sees the world draws Zeke closer, even if common sense tells him to walk away.Even if they can find a way to reconcile their sexual differences, they are both still soldiers. The war will eventually take them away from each other unless they can find a way to escape the rules that have defined their lives.",
+    "author": "Jacqueline Rayner",
+    "base_id": "186",
+    "description": "Rose and the Doctor return to present-day Earth, and become intrigued by the latest craze \u2013 the video game, Death to Mantodeans. Is it as harmless as it seems? And why are so many local people going on holiday and never returning? Meanwhile, on another world, an alien war is raging. The Quevvils need to find a new means of attacking the ruthless Mantodeans.Searching the galaxy for cunning, warlike but gullible allies, they find the ideal soldiers on Earth. Will Rose be able to save her family and friends from the alien threat? And can the Doctor play the game to the end and win?Featuring the Ninth Doctor and Rose as played by Christopher Eccleston and Billie Piper in the hit science fiction series from BBC Television",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 19,
-        "dystopia": 11,
-        "fantasy": 11,
-        "gay": 15,
-        "lgbt": 10,
-        "male male romance": 146,
-        "military fiction": 57,
-        "romance": 41,
-        "science fiction": 115
+        "adventure": 10,
+        "audiobook": 11,
+        "fantasy": 33,
+        "fiction": 51,
+        "media tie in": 13,
+        "media tie in (doctor who)": 394,
+        "science fiction": 137,
+        "science fiction (aliens)": 7,
+        "science fiction (time travel)": 27,
+        "science fiction fantasy": 8
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "186_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "186_2"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "186_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "186_4"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "186_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "186_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "186_7"
         }
     ],
     "metrics": {
-        "rating_votes": 1169,
-        "score": 3.98
+        "rating_votes": 2200,
+        "score": 3.78
     },
-    "pages": 1218,
-    "title": "Turbulence",
-    "url": "https://www.goodreads.com/book/show/18694013-turbulence",
-    "year_published": 2013
+    "pages": 280,
+    "title": "Doctor Who: Winner Takes All",
+    "url": "https://www.goodreads.com/book/show/678080.Doctor_Who",
+    "year_published": 2005
 }

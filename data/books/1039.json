@@ -1,0 +1,44 @@
+{
+    "author": "Adrian Barnes",
+    "base_id": "1039",
+    "description": "Dawn breaks and no one in the world has slept the night before. Or almost no one. A few people, perhaps one in ten thousand, can still sleep, and they\u2019ve all shared the same mysterious dream. A handful of silent children can still sleep as well, but what they\u2019re dreaming remains a mystery. Global panic ensues. A medical fact: after six days of absolute sleep deprivation, psychosis sets in. After four weeks, the body dies. In the interim, a bizarre new world arises and swallows the old one whole. A world called Nod.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "adult": 18,
+        "apocalyptic (post apocalyptic)": 41,
+        "contemporary": 12,
+        "fantasy": 41,
+        "fiction": 124,
+        "horror": 158,
+        "science fiction": 150,
+        "science fiction (apocalyptic)": 17,
+        "science fiction (dystopia)": 74,
+        "thriller": 15
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1039_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1039_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1039_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 8614,
+        "score": 3.38
+    },
+    "pages": 231,
+    "title": "Nod",
+    "url": "https://www.goodreads.com/book/show/16044493-nod",
+    "year_published": 2012
+}

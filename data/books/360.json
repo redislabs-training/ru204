@@ -1,21 +1,21 @@
 {
-    "author": "Jamie McGuire",
-    "base_id": 360,
-    "description": "\u201cThey\u2019d killed me, but I survived.\u201dThree years after Rory Riordan foiled her own murder, she still trusts no one\u2014not Dr. Z, the eccentric college professor who has taken her under his wing; not Benji, the endearing, attractive classmate who insists on following her around; and certainly not Cy, the beautifully dark and mysterious boy who sits in the first row in Dr. Z\u2019s Astrobiology class and asks far too many questions.When Rory witnesses Cy being abducted by soldiers in the middle of the night, she finds herself immersed in a world that holds more secrets than she could imagine, even darker secrets than her own.From #1 New York Times Bestseller Jamie McGuire, experience the perfect combination of her bestselling books Providence and Beautiful Disaster. This New Adult Sci-Fi Romance is an action-packed, whiplash-inducing roller-coaster ride. Page after page, this unpredictable, dark, and sexy nail-biter will keep readers guessing until the very end! ",
+    "author": "Dave Hutchinson",
+    "base_id": "360",
+    "description": "Europe in Autumn is a thriller of espionage and the future which reads like the love child of John le Carr\u00e9 and Franz Kafka.Rudi is a cook in a Krak\u00f3w restaurant, but when his boss asks Rudi to help a cousin escape from the country country he\u2019s trapped in, a new career \u2013 part spy, part people-smuggler \u2013 begins. Following multiple economic crises and a devastating flu pandemic, Europe has fractured into countless tiny nations, duchies, polities and republics. Recruited by the shadowy organisation Les Coureurs des Bois, Rudi is schooled in espionage, but when a training mission to The Line, a sovereign nation consisting of a trans-Europe railway line, goes wrong, he is arrested, beaten and Coureur Central must attempt a rescue.  With so many nations to work in, and identities to assume, Rudi is kept busy travelling across Europe. But when he is sent to smuggle someone out of Berlin and finds a severed head inside a locker instead, a conspiracy begins to wind itself around him.  With kidnapping, double-crosses and a map that constantly re-draws, Rudi begins to realise that underneath his daily round of plot and counter plot, behind the conflicting territories, another entirely different reality might be pulling the strings...",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 24,
-        "contemporary": 12,
-        "fantasy": 27,
-        "new adult": 66,
-        "paranormal": 43,
-        "paranormal romance": 13,
-        "romance": 41,
-        "science fiction": 56,
-        "supernatural": 9,
-        "young adult": 7
+        "fantasy": 24,
+        "fiction": 67,
+        "mystery": 12,
+        "science fiction": 173,
+        "science fiction (dystopia)": 11,
+        "science fiction (near future)": 9,
+        "science fiction fantasy": 11,
+        "speculative fiction": 9,
+        "spy thriller (espionage)": 16,
+        "thriller": 51
     },
     "inventory": [
         {
@@ -27,24 +27,20 @@
             "stock_id": "360_2"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "360_3"
         },
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "360_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "360_5"
         }
     ],
     "metrics": {
-        "rating_votes": 2733,
-        "score": 3.34
+        "rating_votes": 2574,
+        "score": 3.72
     },
-    "pages": 1353,
-    "title": "Apolonia",
-    "url": "https://www.goodreads.com/book/show/23214943-apolonia",
+    "pages": 1310,
+    "title": "Europe in Autumn",
+    "url": "https://www.goodreads.com/book/show/18143945-europe-in-autumn",
     "year_published": 2014
 }

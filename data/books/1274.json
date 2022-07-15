@@ -1,0 +1,35 @@
+{
+    "author": "Jasper Fforde",
+    "base_id": "1274",
+    "description": "Jack Spratt and Mary Mary return in their second adventure from the inimitable Jasper Fforde  Five years ago, Viking introduced Jasper Fforde and his upsidedown, inside-out literary crime masterpieces. And as they move from Thursday Next to Jack Spratt\u2019s Nursery Crimes, his audience is insatiable and growing. Now, with The Fourth Bear, Jack Spratt and Mary Mary take on their most dangerous case so far as a murderous cookie stalks the streets of Reading.  The Gingerbreadman\u2014psychopath, sadist, genius, and killer\u2014is on the loose. But it isn\u2019t Jack Spratt\u2019s case. He and Mary Mary have been demoted to Missing Persons following Jack\u2019s poor judgment involving the poisoning of Mr. Bun the baker. Missing Persons looks like a boring assignment until a chance encounter leads them into the hunt for missing journalist Henrietta \u201cGoldy\u201d Hatchett, star reporter for The Daily Mole. Last to see her alive? The Three Bears, comfortably living out a life of rural solitude in Andersen\u2019s wood.  But all is not what it seems. How could the bears\u2019 porridge be at such disparate temperatures when they were poured at the same time? Why did Mr. and Mrs. Bear sleep in separate beds? Was there a fourth bear? And if there was, who was he, and why did he try to disguise Goldy\u2019s death as a freak accident?  Jack answers all these questions and a few others besides, rescues Mary Mary from almost certain death, and finally meets the Fourth Bear and the Gingerbreadman face-to-face.",
+    "editions": [
+        "english",
+        "spanish"
+    ],
+    "genres": {
+        "adult": 35,
+        "fantasy": 829,
+        "fantasy (fairy tales)": 53,
+        "fiction": 513,
+        "humor": 236,
+        "humor (comedy)": 58,
+        "mystery": 549,
+        "mystery (crime)": 95,
+        "science fiction fantasy": 51,
+        "writing (books about books)": 39
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "1274_1"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 21519,
+        "score": 4.08
+    },
+    "pages": 581,
+    "title": "The Fourth Bear",
+    "url": "https://www.goodreads.com/book/show/148809.The_Fourth_Bear",
+    "year_published": 2006
+}

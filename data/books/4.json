@@ -1,0 +1,53 @@
+{
+    "author": "Evan Dahm",
+    "base_id": "4",
+    "description": "The third of three books comprising the story of Order of Tales. 295 pages, including the final 6 chapters, a detailed appendix, and other extras.",
+    "editions": [
+        "english",
+        "spanish",
+        "french"
+    ],
+    "genres": {
+        "fantasy": 7,
+        "sequential art (comics)": 7,
+        "sequential art (webcomic)": 3
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "4_1"
+        },
+        {
+            "status": "available",
+            "stock_id": "4_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "4_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4_5"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "4_6"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 37,
+        "score": 4.46
+    },
+    "pages": 1254,
+    "title": "The Tower of Smoke",
+    "url": "https://www.goodreads.com/book/show/11333088-the-tower-of-smoke",
+    "year_published": 2010
+}

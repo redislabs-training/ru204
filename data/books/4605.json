@@ -1,0 +1,42 @@
+{
+    "author": "William Ritter",
+    "base_id": "4605",
+    "description": "\u201cMiss Rook, I am not an occultist,\u201d Jackaby said. \u201cI have a gift that allows me to see truth where others see the illusion--and there are many illusions. All the world\u2019s a stage, as they say, and I seem to have the only seat in the house with a view behind the curtain.\u201dNewly arrived in New Fiddleham, New England, 1892, and in need of a job, Abigail Rook meets R. F. Jackaby, an investigator of the unexplained with a keen eye for the extraordinary--including the ability to see supernatural beings. Abigail has a gift for noticing ordinary but important details, which makes her perfect for the position of Jackaby\u2019s assistant. On her first day, Abigail finds herself in the midst of a thrilling case: A serial killer is on the loose. The police are convinced it\u2019s an ordinary villain, but Jackaby is certain it\u2019s a nonhuman creature, whose existence the police--with the exception of a handsome young detective named Charlie Cane--deny.Doctor Who meets Sherlock in William Ritter\u2019s debut novel, which features a detective of the paranormal as seen through the eyes of his adventurous and intelligent assistant in a tale brimming with cheeky humor and a dose of the macabre.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "audiobook": 115,
+        "fantasy": 1494,
+        "fantasy (paranormal)": 657,
+        "fantasy (supernatural)": 209,
+        "fiction": 329,
+        "historical": 417,
+        "historical (historical fiction)": 987,
+        "mystery": 1401,
+        "thriller (mystery thriller)": 131,
+        "young adult": 1178
+    },
+    "inventory": [
+        {
+            "status": "on_loan",
+            "stock_id": "4605_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "4605_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "4605_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 25856,
+        "score": 3.82
+    },
+    "pages": 955,
+    "title": "Jackaby",
+    "url": "https://www.goodreads.com/book/show/20312462-jackaby",
+    "year_published": 2014
+}

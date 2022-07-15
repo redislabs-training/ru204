@@ -1,21 +1,21 @@
 {
-    "author": "Ilona Andrews",
-    "base_id": 867,
-    "description": "A charming, short novella in the Innkeeper Chronicles, from #1 New York Times bestselling author, Ilona Andrews. Thank you for joining us at Gertrude Hunt, the nicest Bed and Breakfast in Red Deer, Texas, during the Treaty Stay. As you know, we are honor-bound to accept all guests during this oldest of innkeeper holidays and we are expecting a dangerous guest. Or several. But have no fear. Your safety and comfort is our first priority. The inn and your hosts, Dina Demille and Sean Evans, will defend you at all costs. [But we hope we don\u2019t have to.] Every winter, Innkeepers look forward to celebrating their own special holiday, which commemorates the ancient treaty that united the very first Inns and established the rules that protect them, their intergalactic guests, and the very unaware/oblivious people of [planet] Earth. By tradition, the Innkeepers welcomed three guests: a warrior, a sage, and a pilgrim, but during the holiday, Innkeepers must open their doors to anyone who seeks lodging. Anyone. All Dina hopes is that the guests and conduct themselves in a polite manner. But what\u2019s a holiday without at least one disaster? ",
+    "author": "Brian K. Vaughan",
+    "base_id": "867",
+    "description": "Alternate Cover Edition for ISBN: 9781401219215Y: THE LAST MAN, winner of three Eisner Awards and one of the most critically acclaimed, best-selling comic books series of the last decade, is that rare example of a page-turner that is at once humorous, socially relevant and endlessly surprising.Written by Brian K. Vaughan (LOST, PRIDE OF BAGHDAD, EX MACHINA) and with art by Pia Guerra, this is the saga of Yorick Brown\u2014the only human survivor of a planet-wide plague that instantly kills every mammal possessing a Y chromosome. Accompanied by a mysterious government agent, a brilliant young geneticist and his pet monkey, Ampersand, Yorick travels the world in search of his lost love and the answer to why he's the last man on earth.Collects Y THE LAST MAN #1-10.",
     "editions": [
-        "English"
+        "english"
     ],
     "genres": {
-        "aliens": 50,
-        "fantasy": 376,
-        "fiction": 42,
-        "magic": 105,
-        "novella": 81,
-        "paranormal": 132,
-        "paranormal romance": 41,
-        "romance": 118,
-        "science fiction": 115,
-        "urban fantasy": 361
+        "adult": 28,
+        "apocalyptic (post apocalyptic)": 53,
+        "comics (comic book)": 58,
+        "fantasy": 23,
+        "fiction": 111,
+        "graphic novels comics": 82,
+        "science fiction": 164,
+        "science fiction (dystopia)": 86,
+        "sequential art (comics)": 642,
+        "sequential art (graphic novels)": 818
     },
     "inventory": [
         {
@@ -24,11 +24,11 @@
         }
     ],
     "metrics": {
-        "rating_votes": 9826,
-        "score": 4.4
+        "rating_votes": 14799,
+        "score": 4.33
     },
-    "pages": 1392,
-    "title": "Sweep with Me",
-    "url": "https://www.goodreads.com/book/show/49353950-sweep-with-me",
-    "year_published": 2020
+    "pages": 1069,
+    "title": "Y: The Last Man - The Deluxe Edition Book One",
+    "url": "https://www.goodreads.com/book/show/3710603-y",
+    "year_published": 2008
 }

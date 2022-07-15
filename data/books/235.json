@@ -1,29 +1,30 @@
 {
-    "author": "Chani Lynn Feener",
-    "base_id": 235,
-    "description": "Delaney\u2019s entire world is thrown into chaos after she is mistaken for Lissa Olena, an alien princess hiding out on Earth in order to escape an arranged marriage.Kidnapped by the princess\u2019s head bodyguard, Ruckus, and imprisoned in an alien palace, Delaney is forced to impersonate the princess until Olena can be found. If she fails, it will lead to an alien war and the eventual enslavement of the entire human race.No pressure or anything.Factor in Trystan, the princess\u2019s terrifying betrothed who is intent on unraveling all her secrets, and her own growing feelings for Ruckus, and Delaney is in way over her head.Get lost Amid Stars and Darkness, in this YA sci-fi romance from debut author Chani Lynn Feener.",
+    "author": "Mary Pope Osborne",
+    "base_id": "235",
+    "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!Beware of Vikings! warns Morgan. Then Jack and Annie are whisked back to ancient Ireland. They land on a cliff on a misty island. How will they find the story they are looking for? It will take a Viking invasion, the help of a jolly monk, and a lot of courage for Jack and Annie to succeed in Viking Ships at Sunrise.Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
     "editions": [
-        "English"
+        "english",
+        "spanish"
     ],
     "genres": {
-        "aliens": 45,
-        "fantasy": 33,
-        "fiction": 8,
-        "romance": 63,
-        "science fiction": 73,
-        "space": 12,
-        "teen": 6,
-        "young adult": 77,
-        "young adult romance": 7,
-        "young adult science fiction": 7
+        "adventure": 36,
+        "childrens": 110,
+        "childrens (chapter books)": 44,
+        "fantasy": 119,
+        "fantasy (magic)": 22,
+        "fiction": 75,
+        "historical": 31,
+        "historical (historical fiction)": 59,
+        "science fiction (time travel)": 24,
+        "young adult": 22
     },
     "inventory": [
         {
-            "status": "available",
+            "status": "on_loan",
             "stock_id": "235_1"
         },
         {
-            "status": "on_loan",
+            "status": "maintenance",
             "stock_id": "235_2"
         },
         {
@@ -31,16 +32,20 @@
             "stock_id": "235_3"
         },
         {
-            "status": "maintenance",
+            "status": "available",
             "stock_id": "235_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "235_5"
         }
     ],
     "metrics": {
-        "rating_votes": 1010,
-        "score": 3.93
+        "rating_votes": 7718,
+        "score": 3.87
     },
-    "pages": 1169,
-    "title": "Amid Stars and Darkness",
-    "url": "https://www.goodreads.com/book/show/30063453-amid-stars-and-darkness",
-    "year_published": 2017
+    "pages": 241,
+    "title": "Viking Ships At Sunrise",
+    "url": "https://www.goodreads.com/book/show/181399.Viking_Ships_At_Sunrise",
+    "year_published": 1998
 }

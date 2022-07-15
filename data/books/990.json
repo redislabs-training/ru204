@@ -1,0 +1,42 @@
+{
+    "author": "Alex Scarrow",
+    "base_id": "990",
+    "description": "Liam O\u2019Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.Yet moments before death, someone mysteriously appeared and said, \u2018Take my hand ...\u2019But Liam, Maddy and Sal aren\u2019t rescued. They are recruited by an agency that no one knows exists, with only one purpose\u2014to fix broken history. Because time travel is here, and there are those who would go back in time and change the past. That\u2019s why the TimeRiders exist: to protect us. To stop time travel from destroying the world...",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "action": 26,
+        "adventure": 93,
+        "fantasy": 139,
+        "fiction": 91,
+        "historical (historical fiction)": 33,
+        "mystery": 34,
+        "science fiction": 253,
+        "science fiction (dystopia)": 27,
+        "science fiction (time travel)": 252,
+        "young adult": 260
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "990_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "990_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "990_3"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 11445,
+        "score": 3.82
+    },
+    "pages": 1272,
+    "title": "TimeRiders",
+    "url": "https://www.goodreads.com/book/show/6773432-timeriders",
+    "year_published": 2010
+}

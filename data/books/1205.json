@@ -1,0 +1,58 @@
+{
+    "author": "Arthur C. Clarke",
+    "base_id": "1205",
+    "description": "When 2001: A Space Odyssey first shocked, amazed, and delighted millions in the late 1960s, the novel was quickly recognized as a classic. Since then, its fame has grown steadily among the multitudes who have read the novel or seen the film based on it. Yet, along with almost universal acclaim, a host of questions has grown more insistent through the years:Who or what transformed Dave Bowman into the Star-Child? What purpose lay behind the transformation? What would become of the Star-Child?What alien purpose lay behind the monoliths on the Moon and out in space?What could drive HAL, a stable, intelligent computer, to kill the crew? Was HAL really insane? What happened to HAL and the spaceship Discovery after Dave Bowman disappeared?Would there be a sequel?Now all those questions and many more have been answered. In this stunning sequel to his international bestseller, Clarke has written what will truly be one of the great books of the '80s. Cosmic in sweep, eloquent in its depiction of Man's place in the Universe, and filled with the romance of space, this novel is a monumental achievement.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure": 30,
+        "classics": 90,
+        "fantasy": 42,
+        "fiction": 686,
+        "novels": 53,
+        "science fiction": 1881,
+        "science fiction fantasy": 105,
+        "space": 69,
+        "space (space opera)": 35,
+        "speculative fiction": 28
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1205_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1205_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1205_3"
+        },
+        {
+            "status": "available",
+            "stock_id": "1205_4"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1205_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1205_6"
+        },
+        {
+            "status": "available",
+            "stock_id": "1205_7"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 50934,
+        "score": 3.92
+    },
+    "pages": 287,
+    "title": "2010: Odyssey Two",
+    "url": "https://www.goodreads.com/book/show/70539.2010",
+    "year_published": 1982
+}

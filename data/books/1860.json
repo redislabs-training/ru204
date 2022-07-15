@@ -1,0 +1,62 @@
+{
+    "author": "Jeff Hirsch",
+    "base_id": "1860",
+    "description": "In an America devastated by war and plague, the only way to survive is to keep moving.In the aftermath of a war, America\u2019s landscape has been ravaged and two-thirds of the population left dead from a vicious strain of influenza. Fifteen-year-old Stephen Quinn and his family were among the few that survived and became salvagers, roaming the country in search of material to trade. But when Stephen\u2019s grandfather dies and his father falls into a coma after an accident, Stephen finds his way to Settler\u2019s Landing, a community that seems too good to be true. Then Stephen meets strong, defiant, mischievous Jenny, who refuses to accept things as they are. And when they play a prank that goes horribly wrong, chaos erupts, and they find themselves in the midst of a battle that will change Settler\u2019s Landing--and their lives--forever.",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adventure (survival)": 45,
+        "apocalyptic (post apocalyptic)": 127,
+        "audiobook": 40,
+        "fantasy": 26,
+        "fiction": 96,
+        "science fiction": 122,
+        "science fiction (apocalyptic)": 40,
+        "science fiction (dystopia)": 268,
+        "young adult": 333,
+        "young adult (teen)": 39
+    },
+    "inventory": [
+        {
+            "status": "maintenance",
+            "stock_id": "1860_1"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1860_2"
+        },
+        {
+            "status": "available",
+            "stock_id": "1860_3"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1860_4"
+        },
+        {
+            "status": "available",
+            "stock_id": "1860_5"
+        },
+        {
+            "status": "maintenance",
+            "stock_id": "1860_6"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "1860_7"
+        },
+        {
+            "status": "available",
+            "stock_id": "1860_8"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 13226,
+        "score": 3.51
+    },
+    "pages": 1304,
+    "title": "The Eleventh Plague",
+    "url": "https://www.goodreads.com/book/show/10369932-the-eleventh-plague",
+    "year_published": 2011
+}

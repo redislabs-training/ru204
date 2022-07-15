@@ -1,0 +1,46 @@
+{
+    "author": "Piers Anthony",
+    "base_id": "388",
+    "description": "On the technological, decadent world of Proton, someone was trying to destroy Stile, serf and master Gamesman. His only escape lay in Phaze, a world totally ruled by magic. Soon he learned that his alternate self had already been murdered, and that he was next. On Proton, his fate depended on winning the great Games. On Phaze, he must master magic to survive. And if he used any magic at all, his friends were determined to kill him at once!",
+    "editions": [
+        "english"
+    ],
+    "genres": {
+        "adult fiction": 8,
+        "adventure": 15,
+        "fantasy": 1079,
+        "fantasy (magic)": 18,
+        "fantasy (unicorns)": 10,
+        "fiction": 168,
+        "humor": 10,
+        "science fiction": 257,
+        "science fiction fantasy": 89,
+        "young adult": 12
+    },
+    "inventory": [
+        {
+            "status": "available",
+            "stock_id": "388_1"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "388_2"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "388_3"
+        },
+        {
+            "status": "on_loan",
+            "stock_id": "388_4"
+        }
+    ],
+    "metrics": {
+        "rating_votes": 16659,
+        "score": 3.97
+    },
+    "pages": 521,
+    "title": "Split Infinity",
+    "url": "https://www.goodreads.com/book/show/99461.Split_Infinity",
+    "year_published": 1980
+}
