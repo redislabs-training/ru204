@@ -7,7 +7,7 @@ import json
 import os
 import redis
 
-DATASET_SIZE = 1494 # Number of books we expect to load.
+DATASET_SIZE = 1487 # Number of books we expect to load.
 
 def make_key(book_id):
     return f"ru204:book:{book_id}"
@@ -26,9 +26,6 @@ for k in r.scan_iter(match=make_key("*")):
 
 ## TODO DELETE index(es)
 ## TODO CREATE index(es)
-
-
-
 
 books_loaded = 0
 print(f"Loading JSON files from {args.books_dir}.")
