@@ -115,13 +115,15 @@ Then click the "Add Redis Database" button to connect to your Redis instance.  Y
 
 If you see an error while trying to connect to Redis, ensure that your Redis Server is running (make sure the Docker container is up or your locally installed Redis Stack is running) and try again.
 
-## Load the Sample Data into Redis
+## Load the Sample Data into Redis and Create the Search Index
 
-TODO
+TODO what this does...
 
-## Build the RediSearch Indexes
+```bash
+python data_loader.py --dir data/books
+```
 
-TODO
+TODO expected output...
 
 ## You're Ready!
 
