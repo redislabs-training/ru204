@@ -119,6 +119,16 @@ If you see an error while trying to connect to Redis, ensure that your Redis Ser
 
 TODO what this does...
 
+First, create a Python virtual environment, activate it and install the dependencies:
+
+```bash
+python3 -m venv venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+```
+
+Now, run the data loader script, passing it the name of the folder containing the JSON data files to load into Redis:
+
 ```bash
 python data_loader.py --dir data/books
 ```
@@ -129,4 +139,6 @@ TODO expected output...
 
 You're now ready to take the course!  If you haven't already, [sign up here](https://university.redis.com/courses/ru204/) to access the course materials.
 
-If you need help or want to chat about all things Redis, [join us on our Discord server](https://discord.gg/46upnugY5B) where you'll find a dedicated channel for this course.
+## You're Not Alone!
+
+If you need help or want to chat about all things Redis, [join us on our Discord server](https://discord.gg/46upnugY5B) where you'll find a dedicated channel `#ru204-storing-querying-and-indexing-json-at-speed` for this course.
