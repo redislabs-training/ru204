@@ -14,7 +14,7 @@ REDIS_KEY_BASE = "ru204:book"
 INDEX_NAME = "idx:books"
 
 def make_key(book_id):
-    return f"${REDIS_KEY_BASE}:{book_id}"
+    return f"{REDIS_KEY_BASE}:{book_id}"
 
 arg_parser = argparse.ArgumentParser(description = "Load JSON data into Redis for RU204.")
 arg_parser.add_argument("--dir", dest="books_dir", required=True, help="Directory containing JSON files to load.")
@@ -54,7 +54,7 @@ r.ft(INDEX_NAME).create_index(
     ], 
     definition=IndexDefinition(
         index_type=IndexType.JSON, 
-        prefix=[f"${REDIS_KEY_BASE}:"]
+        prefix=[f"{REDIS_KEY_BASE}:"]
     )
 )
 
