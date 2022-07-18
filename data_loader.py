@@ -6,11 +6,15 @@ import io
 import json
 import os
 import redis
+from redis.commands.search.indexDefinition import IndexDefinition, IndexType
+from redis.commands.search.field import TextField, TagField, NumericField
 
 DATASET_SIZE = 1487 # Number of books we expect to load.
+REDIS_KEY_BASE = "ru204:book"
+INDEX_NAME = "idx:books"
 
 def make_key(book_id):
-    return f"ru204:book:{book_id}"
+    return f"${REDIS_KEY_BASE}:{book_id}"
 
 arg_parser = argparse.ArgumentParser(description = "Load JSON data into Redis for RU204.")
 arg_parser.add_argument("--dir", dest="books_dir", required=True, help="Directory containing JSON files to load.")
@@ -24,8 +28,35 @@ print("Deleting any existing JSON documents for RU204.")
 for k in r.scan_iter(match=make_key("*")):
     r.delete(k)
 
-## TODO DELETE index(es)
-## TODO CREATE index(es)
+print("Dropping any existing search index.")
+try:
+    r.ft(INDEX_NAME).dropindex(delete_documents=False)
+except:
+    # Dropping an index that doesn't exist throws an exception so
+    # let's assume that happened and that this is OK!
+    pass
+
+print("Creating search index.")
+r.ft(INDEX_NAME).create_index(
+    [
+        TextField("$.author", as_name="author", sortable=True),
+        TagField("$.id", as_name="id"),
+        TextField("$.description", as_name="description"),
+        TagField("$.editions[*]", as_name="editions"),
+        TagField("$.genres[*]", as_name="genres"),
+        NumericField("$.pages", as_name="pages", sortable=True),
+        TextField("$.title", as_name="title", sortable=True),
+        NumericField("$.year_published", as_name="year_published"),
+        NumericField("$.metrics.rating_votes", as_name="rating_votes", sortable=True),
+        NumericField("$.metrics.score", as_name="score", sortable=True),
+        TagField("$.inventory[*].status", as_name="status"),
+        TagField("$.inventory[*].stock_id", as_name="stock_id")
+    ], 
+    definition=IndexDefinition(
+        index_type=IndexType.JSON, 
+        prefix=[f"${REDIS_KEY_BASE}:"]
+    )
+)
 
 books_loaded = 0
 print(f"Loading JSON files from {args.books_dir}.")
