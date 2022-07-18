@@ -1,48 +1,48 @@
 {
-    "author": "Jeanette Winterson",
-    "id": "272",
-    "description": "Something frightening is happening to time. Time tornadoes are ripping people from the present, never to return them, while a woolly mammoth inexplicably appears on banks of the River Thames. Eleven-year-old Silver and her guardian live in a house called Tanglewreck, which is somehow at the center of these mysterious time warps. A strange heirloom called the Timekeeper is hidden somewhere in the house, and Silver must find it and protect it . . . because whoever gets hold of the Timekeeper will have the power to control time-and life as we know it-forever. Reviews  \"The sheer exhilaration of the adventure and the many fascinating historical and scientific allusions will keep readers engrossed through to the satisfying conclusion.\" -Publishers Weekly \"An appealing read for fantasy and science- fiction fans alike...Well-developed main characters add liveliness and suspense to the story, while secondary characters (a pair of inept thugs, the original Schr\u00f6dinger's cat) add touches of humor to a basically sober story. The climax is chaotic and exciting; the resolution is realistic, bittersweet.\" -Kirkus Reviews \"Winterson masterfully weaves together an imaginative array of settings and characters to bring the story to its exhilarating fulfillment. Silver's varied relationships add even more depth, encapsulating family, friendship, deceit, and abuse... \"[T]his time-bending sci-fi adventure will be a fine addition to young adult collections.\" -School Library Journal \"Winterson seamlessly combines rousing adventure with time warps, quantum physics, and a few wonderfully hapless flunkies. Her clever science will draw fans of Madeline L'Engle's A Wrinkle in Time, and her dastardly villains and resourceful youngsters will remind readers of the Lemony Snicket's books about the hapless Baudelaires.\" --Booklist  \"Silver is a plucky hero in the mold of Neil Gaiman's Coraline and Philip Pullman's Lyra, a creature of action not introspection.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 18,
-        "childrens": 22,
-        "childrens (juvenile)": 10,
-        "childrens (middle grade)": 21,
-        "fantasy": 140,
-        "fiction": 60,
-        "science fiction": 40,
-        "science fiction (steampunk)": 8,
-        "science fiction (time travel)": 47,
-        "young adult": 74
+  "author": "Jeanette Winterson",
+  "id": "272",
+  "description": "Something frightening is happening to time. Time tornadoes are ripping people from the present, never to return them, while a woolly mammoth inexplicably appears on banks of the River Thames. Eleven-year-old Silver and her guardian live in a house called Tanglewreck, which is somehow at the center of these mysterious time warps. A strange heirloom called the Timekeeper is hidden somewhere in the house, and Silver must find it and protect it . . . because whoever gets hold of the Timekeeper will have the power to control time-and life as we know it-forever. Reviews  \"The sheer exhilaration of the adventure and the many fascinating historical and scientific allusions will keep readers engrossed through to the satisfying conclusion.\" -Publishers Weekly \"An appealing read for fantasy and science- fiction fans alike...Well-developed main characters add liveliness and suspense to the story, while secondary characters (a pair of inept thugs, the original Schrödinger's cat) add touches of humor to a basically sober story. The climax is chaotic and exciting; the resolution is realistic, bittersweet.\" -Kirkus Reviews \"Winterson masterfully weaves together an imaginative array of settings and characters to bring the story to its exhilarating fulfillment. Silver's varied relationships add even more depth, encapsulating family, friendship, deceit, and abuse... \"[T]his time-bending sci-fi adventure will be a fine addition to young adult collections.\" -School Library Journal \"Winterson seamlessly combines rousing adventure with time warps, quantum physics, and a few wonderfully hapless flunkies. Her clever science will draw fans of Madeline L'Engle's A Wrinkle in Time, and her dastardly villains and resourceful youngsters will remind readers of the Lemony Snicket's books about the hapless Baudelaires.\" --Booklist  \"Silver is a plucky hero in the mold of Neil Gaiman's Coraline and Philip Pullman's Lyra, a creature of action not introspection.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "272_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "272_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "272_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "272_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "272_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2218,
-        "score": 3.46
+    {
+      "status": "on_loan",
+      "stock_id": "272_2"
     },
-    "pages": 1280,
-    "title": "Tanglewreck",
-    "url": "https://www.goodreads.com/book/show/15045.Tanglewreck",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "272_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "272_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2218,
+    "score": 3.46
+  },
+  "pages": 1280,
+  "title": "Tanglewreck",
+  "url": "https://www.goodreads.com/book/show/15045.Tanglewreck",
+  "year_published": 2006
 }

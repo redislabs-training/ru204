@@ -1,56 +1,56 @@
 {
-    "author": "D.J. MacHale",
-    "id": "474",
-    "description": "Alternate cover for this ISBN can be found hereVIRTUAL REALITY?The territory of Veelox has achieved perfect harmony. Fifteen-year-old Bobby Pendragon arrives on this territory in pursuit of the evil Saint Dane, but all is peaceful on Veelox - because it's deserted. The inhabitants have discovered a way to enter their own personal dream worlds, where they can be whomever they want, wherever they want. Their bodies lie in stasis while their minds escape to this dream realm.Fresh from his battle with Saint Dane in 1937 Earth, Bobby is confident that they can defeat whatever Saint Dane has planned for this world. But once Bobby enters the virtual world, will he be able to resist the lure of the ultimate in escapism?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 80,
-        "childrens": 44,
-        "childrens (middle grade)": 31,
-        "fantasy": 541,
-        "fiction": 113,
-        "science fiction": 127,
-        "science fiction (time travel)": 20,
-        "young adult": 288,
-        "young adult (teen)": 24,
-        "young adult (young adult fantasy)": 24
+  "author": "D.J. MacHale",
+  "id": "474",
+  "description": "Alternate cover for this ISBN can be found hereVIRTUAL REALITY?The territory of Veelox has achieved perfect harmony. Fifteen-year-old Bobby Pendragon arrives on this territory in pursuit of the evil Saint Dane, but all is peaceful on Veelox - because it's deserted. The inhabitants have discovered a way to enter their own personal dream worlds, where they can be whomever they want, wherever they want. Their bodies lie in stasis while their minds escape to this dream realm.Fresh from his battle with Saint Dane in 1937 Earth, Bobby is confident that they can defeat whatever Saint Dane has planned for this world. But once Bobby enters the virtual world, will he be able to resist the lure of the ultimate in escapism?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "474_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "474_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "474_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "474_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "474_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "474_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "474_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22381,
-        "score": 4.16
+    {
+      "status": "available",
+      "stock_id": "474_2"
     },
-    "pages": 850,
-    "title": "The Reality Bug",
-    "url": "https://www.goodreads.com/book/show/215541.The_Reality_Bug",
-    "year_published": 2003
+    {
+      "status": "on_loan",
+      "stock_id": "474_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "474_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "474_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "474_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22381,
+    "score": 4.16
+  },
+  "pages": 850,
+  "title": "The Reality Bug",
+  "url": "https://www.goodreads.com/book/show/215541.The_Reality_Bug",
+  "year_published": 2003
 }

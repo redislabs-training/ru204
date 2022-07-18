@@ -1,51 +1,51 @@
 {
-    "author": "Ryan North",
-    "id": "153",
-    "description": "The all-ages smash hit of the year is back with more mathematical adventures in the Land of Ooo!What Time Is It? Adventure Time! Join Finn the Human, Jake the Dog, and Princess Bubblegum for all-new adventures in The Land of Ooo. The top-rated Cartoon Network show now has its own comic book! Experience the algebraic adventures with your favorite characters like Marceline the Vampire Queen, Lumpy Space Princess, Ice King, Peppermint Butler, and so many more. Not only does this graphic novel collect the out-of-control, adventure-packed third story arc, it also includes the unforgettable \u201cChoose Your Own Adventure\u201d story. The biggest hit in the comic book industry in 2012, ADVENTURE TIME has received unmatched critical acclaim and commercial success in all-ages comics!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 11,
-        "comics (comic book)": 13,
-        "fantasy": 49,
-        "fiction": 19,
-        "graphic novels comics": 12,
-        "humor": 21,
-        "humor (comedy)": 8,
-        "sequential art (comics)": 172,
-        "sequential art (graphic novels)": 141,
-        "young adult": 25
+  "author": "Ryan North",
+  "id": "153",
+  "description": "The all-ages smash hit of the year is back with more mathematical adventures in the Land of Ooo!What Time Is It? Adventure Time! Join Finn the Human, Jake the Dog, and Princess Bubblegum for all-new adventures in The Land of Ooo. The top-rated Cartoon Network show now has its own comic book! Experience the algebraic adventures with your favorite characters like Marceline the Vampire Queen, Lumpy Space Princess, Ice King, Peppermint Butler, and so many more. Not only does this graphic novel collect the out-of-control, adventure-packed third story arc, it also includes the unforgettable “Choose Your Own Adventure” story. The biggest hit in the comic book industry in 2012, ADVENTURE TIME has received unmatched critical acclaim and commercial success in all-ages comics!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "humor (comedy)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "153_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "153_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "153_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "153_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "153_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "153_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2737,
-        "score": 4.27
+    {
+      "status": "on_loan",
+      "stock_id": "153_2"
     },
-    "pages": 1085,
-    "title": "Adventure Time Vol. 3",
-    "url": "https://www.goodreads.com/book/show/16074606-adventure-time-vol-3",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "153_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "153_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "153_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2737,
+    "score": 4.27
+  },
+  "pages": 1085,
+  "title": "Adventure Time Vol. 3",
+  "url": "https://www.goodreads.com/book/show/16074606-adventure-time-vol-3",
+  "year_published": 2013
 }

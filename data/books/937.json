@@ -1,43 +1,43 @@
 {
-    "author": "Robert Kirkman",
-    "id": "937",
-    "description": "The world we knew is gone. The world of commerce and frivolous necessity has been replaced by a world of survival and responsibility. An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months society has crumbled: no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, the survivors are forced to finally start living. The series that created the zombie movement reaches its most pivotal, series-altering arc yet! They thought they were safe in the prison. They were wrong. A force far more deadly than the walking dead is at their door and when the dust settles, their rank will be reduced by more than half. No one is safe! Reprint Edition",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 110,
-        "comics (comic book)": 100,
-        "fiction": 175,
-        "graphic novels comics": 108,
-        "horror": 579,
-        "horror (zombies)": 428,
-        "science fiction": 42,
-        "science fiction (dystopia)": 65,
-        "sequential art (comics)": 935,
-        "sequential art (graphic novels)": 1070
+  "author": "Robert Kirkman",
+  "id": "937",
+  "description": "The world we knew is gone. The world of commerce and frivolous necessity has been replaced by a world of survival and responsibility. An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months society has crumbled: no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, the survivors are forced to finally start living. The series that created the zombie movement reaches its most pivotal, series-altering arc yet! They thought they were safe in the prison. They were wrong. A force far more deadly than the walking dead is at their door and when the dust settles, their rank will be reduced by more than half. No one is safe! Reprint Edition",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "937_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "937_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "937_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "937_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 25377,
-        "score": 4.46
+    {
+      "status": "available",
+      "stock_id": "937_2"
     },
-    "pages": 503,
-    "title": "The Walking Dead, Vol. 8: Made to Suffer",
-    "url": "https://www.goodreads.com/book/show/1894269.The_Walking_Dead_Vol_8",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "937_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 25377,
+    "score": 4.46
+  },
+  "pages": 503,
+  "title": "The Walking Dead, Vol. 8: Made to Suffer",
+  "url": "https://www.goodreads.com/book/show/1894269.The_Walking_Dead_Vol_8",
+  "year_published": 2008
 }

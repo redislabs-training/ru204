@@ -1,43 +1,43 @@
 {
-    "author": "J.R.R. Tolkien",
-    "id": "23825",
-    "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkeness bind themIn ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit.In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 2006,
-        "classics": 10786,
-        "fantasy": 40965,
-        "fantasy (epic fantasy)": 1242,
-        "fantasy (high fantasy)": 1327,
-        "fantasy (magic)": 744,
-        "fiction": 10057,
-        "novels": 786,
-        "science fiction fantasy": 1434,
-        "young adult": 825
+  "author": "J.R.R. Tolkien",
+  "id": "23825",
+  "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkeness bind themIn ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit.In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "classics",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "novels",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "23825_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "23825_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23825_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "23825_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2410290,
-        "score": 4.37
+    {
+      "status": "maintenance",
+      "stock_id": "23825_2"
     },
-    "pages": 1315,
-    "title": "The Fellowship of the Ring",
-    "url": "https://www.goodreads.com/book/show/3263607-the-fellowship-of-the-ring",
-    "year_published": 1954
+    {
+      "status": "available",
+      "stock_id": "23825_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2410290,
+    "score": 4.37
+  },
+  "pages": 1315,
+  "title": "The Fellowship of the Ring",
+  "url": "https://www.goodreads.com/book/show/3263607-the-fellowship-of-the-ring",
+  "year_published": 1954
 }

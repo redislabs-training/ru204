@@ -1,64 +1,64 @@
 {
-    "author": "Genevieve Cogman",
-    "id": "984",
-    "description": "After being commissioned to find a rare book, Librarian Irene and her assistant, Kai, head to Prohibition-era New York and are thrust into the middle of a political fight with dragons, mobsters, and Fae. In a 1920s-esque New York, Prohibition is in force; fedoras, flapper dresses, and tommy guns are in fashion: and intrigue is afoot. Intrepid Librarians Irene and Kai find themselves caught in the middle of a dragon political contest. It seems a young Librarian has become tangled in this conflict, and if they can't extricate him, there could be serious repercussions for the mysterious Library. And, as the balance of power across mighty factions hangs in the balance, this could even trigger war. Irene and Kai are locked in a race against time (and dragons) to procure a rare book. They'll face gangsters, blackmail, and the Library's own Internal Affairs department. And if it doesn't end well, it could have dire consequences on Irene's job. And, incidentally, on her life...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 39,
-        "adventure": 52,
-        "fantasy": 889,
-        "fantasy (dragons)": 78,
-        "fantasy (magic)": 48,
-        "fantasy (urban fantasy)": 67,
-        "fiction": 181,
-        "mystery": 82,
-        "science fiction (steampunk)": 78,
-        "writing (books about books)": 54
+  "author": "Genevieve Cogman",
+  "id": "984",
+  "description": "After being commissioned to find a rare book, Librarian Irene and her assistant, Kai, head to Prohibition-era New York and are thrust into the middle of a political fight with dragons, mobsters, and Fae. In a 1920s-esque New York, Prohibition is in force; fedoras, flapper dresses, and tommy guns are in fashion: and intrigue is afoot. Intrepid Librarians Irene and Kai find themselves caught in the middle of a dragon political contest. It seems a young Librarian has become tangled in this conflict, and if they can't extricate him, there could be serious repercussions for the mysterious Library. And, as the balance of power across mighty factions hangs in the balance, this could even trigger war. Irene and Kai are locked in a race against time (and dragons) to procure a rare book. They'll face gangsters, blackmail, and the Library's own Internal Affairs department. And if it doesn't end well, it could have dire consequences on Irene's job. And, incidentally, on her life...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "science fiction (steampunk)",
+    "writing (books about books)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "984_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "984_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "984_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "984_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "984_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "984_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "984_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "984_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "984_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10342,
-        "score": 4.17
+    {
+      "status": "maintenance",
+      "stock_id": "984_2"
     },
-    "pages": 341,
-    "title": "The Lost Plot",
-    "url": "https://www.goodreads.com/book/show/31690144-the-lost-plot",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "984_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "984_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "984_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "984_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "984_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "984_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10342,
+    "score": 4.17
+  },
+  "pages": 341,
+  "title": "The Lost Plot",
+  "url": "https://www.goodreads.com/book/show/31690144-the-lost-plot",
+  "year_published": 2017
 }

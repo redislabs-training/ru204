@@ -1,40 +1,40 @@
 {
-    "author": "Alan Moore",
-    "id": "14457",
-    "description": "This Hugo Award-winning graphic novel chronicles the fall from grace of a group of super-heroes plagued by all-too-human failings. Along the way, the concept of the super-hero is dissected as the heroes are stalked by an unknown assassin.One of the most influential graphic novels of all time and a perennial best-seller, Watchmen has been studied on college campuses across the nation and is considered a gateway title, leading readers to other graphic novels such as V for Vendetta, Batman: The Dark Knight Returns and The Sandman series.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 586,
-        "comics (comic book)": 642,
-        "comics (superheroes)": 526,
-        "fantasy": 1231,
-        "fiction": 3081,
-        "graphic novels comics": 898,
-        "science fiction": 1466,
-        "science fiction (dystopia)": 411,
-        "sequential art (comics)": 7947,
-        "sequential art (graphic novels)": 9748
+  "author": "Alan Moore",
+  "id": "14457",
+  "description": "This Hugo Award-winning graphic novel chronicles the fall from grace of a group of super-heroes plagued by all-too-human failings. Along the way, the concept of the super-hero is dissected as the heroes are stalked by an unknown assassin.One of the most influential graphic novels of all time and a perennial best-seller, Watchmen has been studied on college campuses across the nation and is considered a gateway title, leading readers to other graphic novels such as V for Vendetta, Batman: The Dark Knight Returns and The Sandman series.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "14457_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "14457_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14457_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 494615,
-        "score": 4.36
-    },
-    "pages": 473,
-    "title": "Watchmen",
-    "url": "https://www.goodreads.com/book/show/472331.Watchmen",
-    "year_published": 1987
+    {
+      "status": "maintenance",
+      "stock_id": "14457_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 494615,
+    "score": 4.36
+  },
+  "pages": 473,
+  "title": "Watchmen",
+  "url": "https://www.goodreads.com/book/show/472331.Watchmen",
+  "year_published": 1987
 }

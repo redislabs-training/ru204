@@ -1,63 +1,63 @@
 {
-    "author": "Cory Doctorow",
-    "id": "370",
-    "description": "Alan is a middle-aged entrepreneur in contemporary Toronto, who has devoted himself to fixing up a house in a bohemian neighborhood. This naturally brings him in contact with the house full of students and layabouts next door, including a young woman who, in a moment of stress, reveals to him that she has wings--wings, moreover, which grow back after each attempt to cut them off. Alan understands. He himself has a secret or two. His father is a mountain; his mother is a washing machine; and among his brothers are a set of Russian nesting dolls. Now two of the three nesting dolls, Edward and Frederick, are on his doorstep--well on their way to starvation, because their innermost member, George, has vanished. It appears that yet another brother, Davey, who Alan and his other siblings killed years ago, may have returned...bent on revenge.Under such circumstances it seems only reasonable for Alan to involve himself with a visionary scheme to blanket Toronto with free wireless Internet connectivity, a conspiracy spearheaded by a brilliant technopunk who builds miracles of hardware from parts scavenged from the city's dumpsters. But Alan's past won't leave him alone--and Davey is only one of the powers gunning for him and all his friends.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 5,
-        "cultural (canada)": 11,
-        "fantasy": 153,
-        "fantasy (urban fantasy)": 26,
-        "fiction": 112,
-        "novels": 8,
-        "science fiction": 80,
-        "science fiction (cyberpunk)": 14,
-        "science fiction fantasy": 11,
-        "speculative fiction": 12
+  "author": "Cory Doctorow",
+  "id": "370",
+  "description": "Alan is a middle-aged entrepreneur in contemporary Toronto, who has devoted himself to fixing up a house in a bohemian neighborhood. This naturally brings him in contact with the house full of students and layabouts next door, including a young woman who, in a moment of stress, reveals to him that she has wings--wings, moreover, which grow back after each attempt to cut them off. Alan understands. He himself has a secret or two. His father is a mountain; his mother is a washing machine; and among his brothers are a set of Russian nesting dolls. Now two of the three nesting dolls, Edward and Frederick, are on his doorstep--well on their way to starvation, because their innermost member, George, has vanished. It appears that yet another brother, Davey, who Alan and his other siblings killed years ago, may have returned...bent on revenge.Under such circumstances it seems only reasonable for Alan to involve himself with a visionary scheme to blanket Toronto with free wireless Internet connectivity, a conspiracy spearheaded by a brilliant technopunk who builds miracles of hardware from parts scavenged from the city's dumpsters. But Alan's past won't leave him alone--and Davey is only one of the powers gunning for him and all his friends.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "cultural (canada)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "370_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "370_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "370_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "370_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "370_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "370_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "370_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "370_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "370_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3271,
-        "score": 3.51
+    {
+      "status": "available",
+      "stock_id": "370_2"
     },
-    "pages": 1038,
-    "title": "Someone Comes to Town, Someone Leaves Town",
-    "url": "https://www.goodreads.com/book/show/29588.Someone_Comes_to_Town_Someone_Leaves_Town",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "370_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "370_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "370_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "370_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "370_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "370_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3271,
+    "score": 3.51
+  },
+  "pages": 1038,
+  "title": "Someone Comes to Town, Someone Leaves Town",
+  "url": "https://www.goodreads.com/book/show/29588.Someone_Comes_to_Town_Someone_Leaves_Town",
+  "year_published": 2005
 }

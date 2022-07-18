@@ -1,63 +1,63 @@
 {
-    "author": "Peter V. Brett",
-    "id": "5447",
-    "description": "As darkness falls after sunset, the corelings rise\u2014demons who possess supernatural powers and burn with a consuming hatred of humanity. For hundreds of years the demons have terrorized the night, slowly culling the human herd that shelters behind magical wards\u2014symbols of power whose origins are lost in myth and whose protection is terrifyingly fragile. It was not always this way. Once, men and women battled the corelings on equal terms, but those days are gone. Night by night the demons grow stronger, while human numbers dwindle under their relentless assault. Now, with hope for the future fading, three young survivors of vicious demon attacks will dare the impossible, stepping beyond the crumbling safety of the wards to risk everything in a desperate quest to regain the secrets of the past. Together, they will stand against the night.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 113,
-        "adventure": 196,
-        "fantasy": 6475,
-        "fantasy (dark fantasy)": 138,
-        "fantasy (epic fantasy)": 438,
-        "fantasy (high fantasy)": 275,
-        "fantasy (magic)": 258,
-        "fiction": 530,
-        "paranormal (demons)": 190,
-        "science fiction fantasy": 124
+  "author": "Peter V. Brett",
+  "id": "5447",
+  "description": "As darkness falls after sunset, the corelings rise—demons who possess supernatural powers and burn with a consuming hatred of humanity. For hundreds of years the demons have terrorized the night, slowly culling the human herd that shelters behind magical wards—symbols of power whose origins are lost in myth and whose protection is terrifyingly fragile. It was not always this way. Once, men and women battled the corelings on equal terms, but those days are gone. Night by night the demons grow stronger, while human numbers dwindle under their relentless assault. Now, with hope for the future fading, three young survivors of vicious demon attacks will dare the impossible, stepping beyond the crumbling safety of the wards to risk everything in a desperate quest to regain the secrets of the past. Together, they will stand against the night.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "paranormal (demons)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "5447_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "5447_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5447_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5447_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5447_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5447_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5447_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "5447_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "5447_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 112562,
-        "score": 4.23
+    {
+      "status": "on_loan",
+      "stock_id": "5447_2"
     },
-    "pages": 930,
-    "title": "The Warded Man",
-    "url": "https://www.goodreads.com/book/show/3428935-the-warded-man",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "5447_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5447_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5447_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5447_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "5447_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "5447_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 112562,
+    "score": 4.23
+  },
+  "pages": 930,
+  "title": "The Warded Man",
+  "url": "https://www.goodreads.com/book/show/3428935-the-warded-man",
+  "year_published": 2008
 }

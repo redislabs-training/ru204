@@ -1,34 +1,34 @@
 {
-    "author": "Isaac Asimov",
-    "id": "2799",
-    "description": "A millennium into the future two advancements have altered the course of human history: the colonization of the galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together. Like most people left behind on an over-populated Earth, New York City police detective Elijah Baley had little love for either the arrogant Spacers or their robotic companions. But when a prominent Spacer is murdered under mysterious circumstances, Baley is ordered to the Outer Worlds to help track down the killer. The relationship between Life and his Spacer superiors, who distrusted all Earthmen, was strained from the start. Then he learned that they had assigned him a partner: R. Daneel Olivaw. Worst of all was that the \"R\" stood for robot--and his positronic partner was made in the image and likeness of the murder victim!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 73,
-        "classics": 217,
-        "fiction": 879,
-        "mystery": 450,
-        "mystery (crime)": 89,
-        "mystery (detective)": 72,
-        "novels": 64,
-        "science fiction": 3128,
-        "science fiction (robots)": 152,
-        "science fiction fantasy": 151
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2799_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 80834,
-        "score": 4.17
-    },
-    "pages": 892,
-    "title": "The Caves of Steel",
-    "url": "https://www.goodreads.com/book/show/41811.The_Caves_of_Steel",
-    "year_published": 1954
+  "author": "Isaac Asimov",
+  "id": "2799",
+  "description": "A millennium into the future two advancements have altered the course of human history: the colonization of the galaxy and the creation of the positronic brain. Isaac Asimov's Robot novels chronicle the unlikely partnership between a New York City detective and a humanoid robot who must learn to work together. Like most people left behind on an over-populated Earth, New York City police detective Elijah Baley had little love for either the arrogant Spacers or their robotic companions. But when a prominent Spacer is murdered under mysterious circumstances, Baley is ordered to the Outer Worlds to help track down the killer. The relationship between Life and his Spacer superiors, who distrusted all Earthmen, was strained from the start. Then he learned that they had assigned him a partner: R. Daneel Olivaw. Worst of all was that the \"R\" stood for robot--and his positronic partner was made in the image and likeness of the murder victim!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "mystery (detective)",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2799_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 80834,
+    "score": 4.17
+  },
+  "pages": 892,
+  "title": "The Caves of Steel",
+  "url": "https://www.goodreads.com/book/show/41811.The_Caves_of_Steel",
+  "year_published": 1954
 }

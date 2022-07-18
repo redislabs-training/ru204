@@ -1,35 +1,35 @@
 {
-    "author": "Dexter Palmer",
-    "id": "1144",
-    "description": "Rebecca Wright has reclaimed her life, finding her way out of her grief and depression following a personal tragedy years ago. She spends her days working in customer support for the internet dating site where she first met her husband. But she has a strange, persistent sense that everything around her is somewhat off-kilter: she constantly feels as if she has walked into a room and forgotten what she intended to do there; on TV, the President seems to be the wrong person in the wrong place; her\u00a0dreams are full of disquiet. Meanwhile, her husband's decade-long dedication to his invention, the causality violation device (which he would greatly prefer you not call a \u201ctime machine\u201d) has effectively stalled his career and made him a laughingstock in the physics community. But he may be closer to success than either of them knows or can possibly imagine.Version Control is about a possible near future, but it\u2019s also about the way we live now. It\u2019s about smart phones and self-driving cars and what we believe about the people we meet on the Internet. It\u2019s about a couple, Rebecca and Philip, who have experienced a tragedy, and about how they help \u2014 and fail to help \u2014 each other through it.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 18,
-        "audiobook": 39,
-        "fantasy": 41,
-        "fiction": 297,
-        "novels": 19,
-        "science fiction": 334,
-        "science fiction (dystopia)": 18,
-        "science fiction (time travel)": 175,
-        "science fiction fantasy": 57,
-        "speculative fiction": 26
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1144_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6126,
-        "score": 3.75
-    },
-    "pages": 670,
-    "title": "Version Control",
-    "url": "https://www.goodreads.com/book/show/25733442-version-control",
-    "year_published": 2016
+  "author": "Dexter Palmer",
+  "id": "1144",
+  "description": "Rebecca Wright has reclaimed her life, finding her way out of her grief and depression following a personal tragedy years ago. She spends her days working in customer support for the internet dating site where she first met her husband. But she has a strange, persistent sense that everything around her is somewhat off-kilter: she constantly feels as if she has walked into a room and forgotten what she intended to do there; on TV, the President seems to be the wrong person in the wrong place; her dreams are full of disquiet. Meanwhile, her husband's decade-long dedication to his invention, the causality violation device (which he would greatly prefer you not call a “time machine”) has effectively stalled his career and made him a laughingstock in the physics community. But he may be closer to success than either of them knows or can possibly imagine.Version Control is about a possible near future, but it’s also about the way we live now. It’s about smart phones and self-driving cars and what we believe about the people we meet on the Internet. It’s about a couple, Rebecca and Philip, who have experienced a tragedy, and about how they help — and fail to help — each other through it.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1144_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6126,
+    "score": 3.75
+  },
+  "pages": 670,
+  "title": "Version Control",
+  "url": "https://www.goodreads.com/book/show/25733442-version-control",
+  "year_published": 2016
 }

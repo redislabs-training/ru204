@@ -1,58 +1,58 @@
 {
-    "author": "Danielle  Paige",
-    "id": "3033",
-    "description": "To make Oz a free land again, Amy Gumm was given a mission: remove the Tin Woodman\u2019s heart, steal the Scarecrow\u2019s brain, take the Lion\u2019s courage, and then Dorothy must die...But Dorothy still lives. Now the Revolutionary Order of the Wicked has vanished, and mysterious Princess Ozma might be Amy\u2019s only ally. As Amy learns the truth about her mission, she realizes that she\u2019s only just scratched the surface of Oz\u2019s past\u2014and that Kansas, the home she couldn't wait to leave behind, may also be in danger. In a place where the line between good and evil shifts with just a strong gust of wind, who can Amy trust\u2014and who is really Wicked?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 80,
-        "audiobook": 72,
-        "fantasy": 942,
-        "fantasy (fairy tales)": 88,
-        "fantasy (magic)": 127,
-        "fiction": 145,
-        "paranormal (witches)": 65,
-        "retellings": 268,
-        "young adult": 620,
-        "young adult (young adult fantasy)": 59
+  "author": "Danielle  Paige",
+  "id": "3033",
+  "description": "To make Oz a free land again, Amy Gumm was given a mission: remove the Tin Woodman’s heart, steal the Scarecrow’s brain, take the Lion’s courage, and then Dorothy must die...But Dorothy still lives. Now the Revolutionary Order of the Wicked has vanished, and mysterious Princess Ozma might be Amy’s only ally. As Amy learns the truth about her mission, she realizes that she’s only just scratched the surface of Oz’s past—and that Kansas, the home she couldn't wait to leave behind, may also be in danger. In a place where the line between good and evil shifts with just a strong gust of wind, who can Amy trust—and who is really Wicked?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (magic)",
+    "fiction",
+    "paranormal (witches)",
+    "retellings",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3033_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3033_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3033_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3033_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3033_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3033_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3033_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3033_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 28264,
-        "score": 3.8
+    {
+      "status": "available",
+      "stock_id": "3033_2"
     },
-    "pages": 1273,
-    "title": "The Wicked Will Rise",
-    "url": "https://www.goodreads.com/book/show/18602341-the-wicked-will-rise",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "3033_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3033_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3033_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3033_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3033_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 28264,
+    "score": 3.8
+  },
+  "pages": 1273,
+  "title": "The Wicked Will Rise",
+  "url": "https://www.goodreads.com/book/show/18602341-the-wicked-will-rise",
+  "year_published": 2015
 }

@@ -1,51 +1,51 @@
 {
-    "author": "P. Dj\u00e8l\u00ed Clark",
-    "id": "955",
-    "description": "Egypt, 1912. In an alternate Cairo infused with the otherworldly, the Ministry of Alchemy, Enchantments and Supernatural Entities investigate disturbances between the mortal and the (possibly) divine. What starts off as an odd suicide case for Special Investigator Fatma el-Sha\u2019arawi leads her through the city\u2019s underbelly as she encounters rampaging ghouls, saucy assassins, clockwork angels, and plot that could unravel time itself.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 698,
-        "fantasy (urban fantasy)": 78,
-        "fiction": 104,
-        "historical": 75,
-        "historical (historical fiction)": 79,
-        "mystery": 132,
-        "novella": 95,
-        "science fiction": 72,
-        "science fiction (steampunk)": 181,
-        "short stories": 233
+  "author": "P. Djèlí Clark",
+  "id": "955",
+  "description": "Egypt, 1912. In an alternate Cairo infused with the otherworldly, the Ministry of Alchemy, Enchantments and Supernatural Entities investigate disturbances between the mortal and the (possibly) divine. What starts off as an odd suicide case for Special Investigator Fatma el-Sha’arawi leads her through the city’s underbelly as she encounters rampaging ghouls, saucy assassins, clockwork angels, and plot that could unravel time itself.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "novella",
+    "science fiction",
+    "science fiction (steampunk)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "955_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "955_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "955_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "955_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "955_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "955_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4568,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "955_2"
     },
-    "pages": 288,
-    "title": "A Dead Djinn in Cairo",
-    "url": "https://www.goodreads.com/book/show/29635542-a-dead-djinn-in-cairo",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "955_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "955_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "955_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4568,
+    "score": 4.08
+  },
+  "pages": 288,
+  "title": "A Dead Djinn in Cairo",
+  "url": "https://www.goodreads.com/book/show/29635542-a-dead-djinn-in-cairo",
+  "year_published": 2016
 }

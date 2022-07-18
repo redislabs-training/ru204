@@ -1,60 +1,60 @@
 {
-    "author": "Libba Bray",
-    "id": "4233",
-    "description": "The longing of dreams draws the dead, and this city holds many dreams.After a supernatural showdown with a serial killer, Evie O\u2019Neill has outed herself as a Diviner. With her uncanny ability to read people\u2019s secrets, she\u2019s become a media darling, earning the title \u201cAmerica\u2019s Sweetheart Seer.\u201d Everyone\u2019s in love with the city\u2019s newest It Girl\u2026everyone except the other Diviners.Piano-playing Henry DuBois and Chinatown resident Ling Chan are two Diviners struggling to keep their powers a secret\u2014for they can walk in dreams. And while Evie is living the high life, victims of a mysterious sleeping sickness are turning up across New York City.As Henry searches for a lost love and Ling strives to succeed in a world that shuns her, a malevolent force infects their dreams. And at the edges of it all lurks a man in a stovepipe hat who has plans that extend farther than anyone can guess\u2026As the sickness spreads, can the Diviners descend into the dreamworld to save the city?In this heart-stopping sequel to The Diviners, Printz Award-winning and New York Times bestselling author Libba Bray takes readers deeper into the mystical underbelly of New York City.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 246,
-        "fantasy": 1305,
-        "fantasy (paranormal)": 687,
-        "fantasy (supernatural)": 193,
-        "fiction": 222,
-        "historical": 383,
-        "historical (historical fiction)": 1081,
-        "horror": 309,
-        "mystery": 399,
-        "young adult": 1187
+  "author": "Libba Bray",
+  "id": "4233",
+  "description": "The longing of dreams draws the dead, and this city holds many dreams.After a supernatural showdown with a serial killer, Evie O’Neill has outed herself as a Diviner. With her uncanny ability to read people’s secrets, she’s become a media darling, earning the title “America’s Sweetheart Seer.” Everyone’s in love with the city’s newest It Girl…everyone except the other Diviners.Piano-playing Henry DuBois and Chinatown resident Ling Chan are two Diviners struggling to keep their powers a secret—for they can walk in dreams. And while Evie is living the high life, victims of a mysterious sleeping sickness are turning up across New York City.As Henry searches for a lost love and Ling strives to succeed in a world that shuns her, a malevolent force infects their dreams. And at the edges of it all lurks a man in a stovepipe hat who has plans that extend farther than anyone can guess…As the sickness spreads, can the Diviners descend into the dreamworld to save the city?In this heart-stopping sequel to The Diviners, Printz Award-winning and New York Times bestselling author Libba Bray takes readers deeper into the mystical underbelly of New York City.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4233_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4233_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4233_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "4233_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "4233_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4233_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4233_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4233_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26244,
-        "score": 4.11
+    {
+      "status": "maintenance",
+      "stock_id": "4233_2"
     },
-    "pages": 1249,
-    "title": "Lair of Dreams",
-    "url": "https://www.goodreads.com/book/show/16060716-lair-of-dreams",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "4233_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "4233_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4233_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4233_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4233_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26244,
+    "score": 4.11
+  },
+  "pages": 1249,
+  "title": "Lair of Dreams",
+  "url": "https://www.goodreads.com/book/show/16060716-lair-of-dreams",
+  "year_published": 2015
 }

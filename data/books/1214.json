@@ -1,34 +1,34 @@
 {
-    "author": "Eoin Colfer",
-    "id": "1214",
-    "description": "In the future, in a place called Satelite City, fourteen-year-old Cosmo Hill enters the world, unwanted by his parents. He's sent to the Clarissa Frayne Institute for Parentally Challenged Boys, Freight class. At Clarissa Frayne, the boys are put to work by the state, testing highly dangerous products. At the end of most days, they are covered with burns, bruises, and sores. Cosmo realizes that if he doesn't escape, he will die at this so-called orphanage. When the moment finally comes, Cosmo seizes his chance and breaks out with the help of the Supernaturalists, a motley crew of kids who all have the same special ability as Cosmo-they can see supernatural Parasites, creatures that feed on the life force of humans. The Supernaturalists patrol the city at night, hunting the Parasites in hopes of saving what's left of humanity in Satellite City. Or so they think. The Supernaturalist soon find themselves caught in a web far more complicated than they'd imagined, when they discover a horrifying secret that will force them to question everything they believe in. Eoin Colfer has created an eerie and captivating world-part Blade Runner, part futuristic Dickens-replete with non-stop action",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 74,
-        "childrens": 72,
-        "childrens (middle grade)": 73,
-        "fantasy": 556,
-        "fantasy (paranormal)": 51,
-        "fantasy (supernatural)": 45,
-        "fiction": 217,
-        "science fiction": 419,
-        "science fiction (dystopia)": 121,
-        "young adult": 472
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1214_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 27196,
-        "score": 3.86
-    },
-    "pages": 853,
-    "title": "The Supernaturalist",
-    "url": "https://www.goodreads.com/book/show/45432.The_Supernaturalist",
-    "year_published": 2004
+  "author": "Eoin Colfer",
+  "id": "1214",
+  "description": "In the future, in a place called Satelite City, fourteen-year-old Cosmo Hill enters the world, unwanted by his parents. He's sent to the Clarissa Frayne Institute for Parentally Challenged Boys, Freight class. At Clarissa Frayne, the boys are put to work by the state, testing highly dangerous products. At the end of most days, they are covered with burns, bruises, and sores. Cosmo realizes that if he doesn't escape, he will die at this so-called orphanage. When the moment finally comes, Cosmo seizes his chance and breaks out with the help of the Supernaturalists, a motley crew of kids who all have the same special ability as Cosmo-they can see supernatural Parasites, creatures that feed on the life force of humans. The Supernaturalists patrol the city at night, hunting the Parasites in hopes of saving what's left of humanity in Satellite City. Or so they think. The Supernaturalist soon find themselves caught in a web far more complicated than they'd imagined, when they discover a horrifying secret that will force them to question everything they believe in. Eoin Colfer has created an eerie and captivating world-part Blade Runner, part futuristic Dickens-replete with non-stop action",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1214_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 27196,
+    "score": 3.86
+  },
+  "pages": 853,
+  "title": "The Supernaturalist",
+  "url": "https://www.goodreads.com/book/show/45432.The_Supernaturalist",
+  "year_published": 2004
 }

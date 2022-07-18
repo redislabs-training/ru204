@@ -1,54 +1,54 @@
 {
-    "author": "Kat Falls",
-    "id": "1672",
-    "description": "A thrilling futuristic adventure set deep undersea, Dark Life follows the settlers of the world's first subsea settlement as they defend their homesteads against a brazen band of outlaws.Set in an apocalyptic future where rising oceans have swallowed up entire regions and people live packed like sardines on the dry land left, DARK LIFE is the harrowing tale of underwater pioneers who have carved out a life for themselves in the harsh deep-sea environment, farming the seafloor in exchange for the land deed. The story follows Ty, who has lived his whole life on his family's homestead and has dreams of claiming his own stake when he turns eighteen. But when outlaws' attacks on government supply ships and settlements...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 84,
-        "apocalyptic (post apocalyptic)": 41,
-        "childrens (middle grade)": 43,
-        "fantasy": 141,
-        "fiction": 76,
-        "mystery": 31,
-        "science fiction": 304,
-        "science fiction (dystopia)": 201,
-        "young adult": 358,
-        "young adult (teen)": 35
+  "author": "Kat Falls",
+  "id": "1672",
+  "description": "A thrilling futuristic adventure set deep undersea, Dark Life follows the settlers of the world's first subsea settlement as they defend their homesteads against a brazen band of outlaws.Set in an apocalyptic future where rising oceans have swallowed up entire regions and people live packed like sardines on the dry land left, DARK LIFE is the harrowing tale of underwater pioneers who have carved out a life for themselves in the harsh deep-sea environment, farming the seafloor in exchange for the land deed. The story follows Ty, who has lived his whole life on his family's homestead and has dreams of claiming his own stake when he turns eighteen. But when outlaws' attacks on government supply ships and settlements...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1672_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1672_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1672_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1672_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1672_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1672_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1672_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13918,
-        "score": 3.9
+    {
+      "status": "available",
+      "stock_id": "1672_2"
     },
-    "pages": 1148,
-    "title": "Dark Life",
-    "url": "https://www.goodreads.com/book/show/7027735-dark-life",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "1672_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1672_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1672_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1672_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13918,
+    "score": 3.9
+  },
+  "pages": 1148,
+  "title": "Dark Life",
+  "url": "https://www.goodreads.com/book/show/7027735-dark-life",
+  "year_published": 2010
 }

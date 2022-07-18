@@ -1,51 +1,51 @@
 {
-    "author": "Kim Stanley Robinson",
-    "id": "2331",
-    "description": "The year is 2312. Scientific and technological advances have opened gateways to an extraordinary future. Earth is no longer humanity's only home; new habitats have been created throughout the solar system on moons, planets, and in between. But in this year, 2312, a sequence of events will force humanity to confront its past, its present, and its future.The first event takes place on Mercury, on the city of Terminator, itself a miracle of engineering on an unprecedented scale. It is an unexpected death, but one that might have been foreseen. For Swan Er Hong, it is an event that will change her life. Swan was once a woman who designed worlds. Now she will be led into a plot to destroy them.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 20,
-        "audiobook": 22,
-        "fantasy": 36,
-        "fiction": 379,
-        "science fiction": 1071,
-        "science fiction fantasy": 56,
-        "space": 34,
-        "space (space opera)": 50,
-        "speculative fiction": 42,
-        "unfinished": 24
+  "author": "Kim Stanley Robinson",
+  "id": "2331",
+  "description": "The year is 2312. Scientific and technological advances have opened gateways to an extraordinary future. Earth is no longer humanity's only home; new habitats have been created throughout the solar system on moons, planets, and in between. But in this year, 2312, a sequence of events will force humanity to confront its past, its present, and its future.The first event takes place on Mercury, on the city of Terminator, itself a miracle of engineering on an unprecedented scale. It is an unexpected death, but one that might have been foreseen. For Swan Er Hong, it is an event that will change her life. Swan was once a woman who designed worlds. Now she will be led into a plot to destroy them.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction",
+    "unfinished"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2331_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2331_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2331_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2331_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2331_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2331_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17420,
-        "score": 3.49
+    {
+      "status": "on_loan",
+      "stock_id": "2331_2"
     },
-    "pages": 510,
-    "title": "2312",
-    "url": "https://www.goodreads.com/book/show/11830394-2312",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "2331_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2331_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2331_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17420,
+    "score": 3.49
+  },
+  "pages": 510,
+  "title": "2312",
+  "url": "https://www.goodreads.com/book/show/11830394-2312",
+  "year_published": 2012
 }

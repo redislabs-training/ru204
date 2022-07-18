@@ -1,60 +1,60 @@
 {
-    "author": "Brandon Sanderson",
-    "id": "5070",
-    "description": "When Calamity lit up the sky, the Epics were born. David\u2019s fate has been tied to their villainy ever since that historic night. Steelheart killed his father. Firefight stole his heart. And now Regalia has turned his closest ally into a dangerous enemy.David knew Prof\u2019s secret, and kept it even when the Reckoners\u2019 leader struggled to control the effects of his Epic powers. But facing Obliteration in Babilar was too much. Prof has now embraced his Epic destiny. He\u2019s disappeared into those murky shadows of menace Epics are infamous for the world over, and everyone knows there\u2019s no turning back. . . . But everyone is wrong. Redemption is possible for Epics\u2014Megan proved it. They\u2019re not lost. Not completely. And David is just about crazy enough to face down the most powerful High Epic of all to get his friend back. Or die trying.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 76,
-        "apocalyptic (post apocalyptic)": 81,
-        "audiobook": 149,
-        "comics (superheroes)": 145,
-        "fantasy": 1870,
-        "fantasy (urban fantasy)": 196,
-        "fiction": 308,
-        "science fiction": 672,
-        "science fiction (dystopia)": 316,
-        "young adult": 857
+  "author": "Brandon Sanderson",
+  "id": "5070",
+  "description": "When Calamity lit up the sky, the Epics were born. David’s fate has been tied to their villainy ever since that historic night. Steelheart killed his father. Firefight stole his heart. And now Regalia has turned his closest ally into a dangerous enemy.David knew Prof’s secret, and kept it even when the Reckoners’ leader struggled to control the effects of his Epic powers. But facing Obliteration in Babilar was too much. Prof has now embraced his Epic destiny. He’s disappeared into those murky shadows of menace Epics are infamous for the world over, and everyone knows there’s no turning back. . . . But everyone is wrong. Redemption is possible for Epics—Megan proved it. They’re not lost. Not completely. And David is just about crazy enough to face down the most powerful High Epic of all to get his friend back. Or die trying.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "comics (superheroes)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "5070_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "5070_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5070_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5070_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5070_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5070_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5070_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5070_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 63489,
-        "score": 4.19
+    {
+      "status": "on_loan",
+      "stock_id": "5070_2"
     },
-    "pages": 1379,
-    "title": "Calamity",
-    "url": "https://www.goodreads.com/book/show/15704486-calamity",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "5070_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5070_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5070_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5070_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5070_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 63489,
+    "score": 4.19
+  },
+  "pages": 1379,
+  "title": "Calamity",
+  "url": "https://www.goodreads.com/book/show/15704486-calamity",
+  "year_published": 2016
 }

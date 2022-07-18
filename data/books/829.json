@@ -1,35 +1,35 @@
 {
-    "author": "Hajime Isayama",
-    "id": "829",
-    "description": "BIRTH OF A MONSTER \u00a0 The Colossal Titan has breached humanity\u2019s first line of defense, Wall Maria. Mikasa, the 104th Training Corps\u2019 ace and Eren\u2019s best friend, may be the only one capable of defeating them, but beneath her calm exterior lurks a dark past. When all looks lost, a new Titan appears and begins to slaughter its fellow Titans. Could this new monster be a blessing in disguise, or is the truth something much more sinister?This volume of Attack on Titan includes special extras after the story!Chapters list :5. A Dull Glow in the Midst of Despair6. The World that the Girl Saw7. Small Blade8. Roar9. The Beating of a Heart Can Be Heard",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 53,
-        "fantasy": 221,
-        "fiction": 79,
-        "horror": 198,
-        "science fiction": 69,
-        "science fiction (dystopia)": 80,
-        "sequential art (comics)": 203,
-        "sequential art (graphic novels)": 207,
-        "sequential art (manga)": 2646,
-        "young adult": 60
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "829_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 28837,
-        "score": 4.5
-    },
-    "pages": 922,
-    "title": "Attack on Titan, Vol. 2",
-    "url": "https://www.goodreads.com/book/show/13531561-attack-on-titan-vol-2",
-    "year_published": 2010
+  "author": "Hajime Isayama",
+  "id": "829",
+  "description": "BIRTH OF A MONSTER   The Colossal Titan has breached humanity’s first line of defense, Wall Maria. Mikasa, the 104th Training Corps’ ace and Eren’s best friend, may be the only one capable of defeating them, but beneath her calm exterior lurks a dark past. When all looks lost, a new Titan appears and begins to slaughter its fellow Titans. Could this new monster be a blessing in disguise, or is the truth something much more sinister?This volume of Attack on Titan includes special extras after the story!Chapters list :5. A Dull Glow in the Midst of Despair6. The World that the Girl Saw7. Small Blade8. Roar9. The Beating of a Heart Can Be Heard",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "829_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 28837,
+    "score": 4.5
+  },
+  "pages": 922,
+  "title": "Attack on Titan, Vol. 2",
+  "url": "https://www.goodreads.com/book/show/13531561-attack-on-titan-vol-2",
+  "year_published": 2010
 }

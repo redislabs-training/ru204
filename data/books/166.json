@@ -1,44 +1,44 @@
 {
-    "author": "Lissa Price",
-    "id": "166",
-    "description": "See how it starts for Callie and Michael in\u00a0this digital-only short story\u00a0set in the STARTERS world, told from Michael's pov.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "european literature (german literature)": 3,
-        "fantasy": 6,
-        "fiction": 6,
-        "novella": 15,
-        "science fiction": 20,
-        "science fiction (dystopia)": 45,
-        "science fiction fantasy": 2,
-        "short stories": 27,
-        "young adult": 42,
-        "young adult (teen)": 3
+  "author": "Lissa Price",
+  "id": "166",
+  "description": "See how it starts for Callie and Michael in this digital-only short story set in the STARTERS world, told from Michael's pov.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "european literature (german literature)",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "166_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "166_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "166_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "166_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1390,
-        "score": 3.56
+    {
+      "status": "on_loan",
+      "stock_id": "166_2"
     },
-    "pages": 902,
-    "title": "Portrait of a Starter: An Unhidden Story",
-    "url": "https://www.goodreads.com/book/show/13412372-portrait-of-a-starter",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "166_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1390,
+    "score": 3.56
+  },
+  "pages": 902,
+  "title": "Portrait of a Starter: An Unhidden Story",
+  "url": "https://www.goodreads.com/book/show/13412372-portrait-of-a-starter",
+  "year_published": 2012
 }

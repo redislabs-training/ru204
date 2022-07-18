@@ -1,42 +1,42 @@
 {
-    "author": "John Brunner",
-    "id": "611",
-    "description": "Norman Niblock House is a rising executive at General Technics, one of a few all-powerful corporations. His work is leading General Technics to the forefront of global domination, both in the marketplace and politically\u2014it's about to take over a country in Africa. Donald Hogan is his roommate, a seemingly sheepish bookworm. But Hogan is a spy, and he's about to discover a breakthrough in genetic engineering that will change the world ... and kill him. These two men's lives weave through one of science fiction's most praised novels. Written in a way that echoes John Dos Passos' U.S.A. Trilogy, Stand on Zanzibar is a cross-section of a world overpopulated by the billions. Where society is squeezed into hive-living madness by god-like mega computers, mass-marketed psychedelic drugs, and mundane uses of genetic engineering. Though written in 1968, it speaks of 2010, and is frighteningly prescient and intensely powerful.This edition comes with a tipped in collectors' note and an introduction by David Brin.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 38,
-        "fantasy": 19,
-        "fiction": 276,
-        "hugo awards": 66,
-        "novels": 25,
-        "science fiction": 842,
-        "science fiction (cyberpunk)": 28,
-        "science fiction (dystopia)": 156,
-        "science fiction fantasy": 40,
-        "speculative fiction": 28
+  "author": "John Brunner",
+  "id": "611",
+  "description": "Norman Niblock House is a rising executive at General Technics, one of a few all-powerful corporations. His work is leading General Technics to the forefront of global domination, both in the marketplace and politically—it's about to take over a country in Africa. Donald Hogan is his roommate, a seemingly sheepish bookworm. But Hogan is a spy, and he's about to discover a breakthrough in genetic engineering that will change the world ... and kill him. These two men's lives weave through one of science fiction's most praised novels. Written in a way that echoes John Dos Passos' U.S.A. Trilogy, Stand on Zanzibar is a cross-section of a world overpopulated by the billions. Where society is squeezed into hive-living madness by god-like mega computers, mass-marketed psychedelic drugs, and mundane uses of genetic engineering. Though written in 1968, it speaks of 2010, and is frighteningly prescient and intensely powerful.This edition comes with a tipped in collectors' note and an introduction by David Brin.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "611_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "611_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "611_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "611_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15327,
-        "score": 3.96
+    {
+      "status": "maintenance",
+      "stock_id": "611_2"
     },
-    "pages": 1218,
-    "title": "Stand on Zanzibar",
-    "url": "https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar",
-    "year_published": 1968
+    {
+      "status": "on_loan",
+      "stock_id": "611_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15327,
+    "score": 3.96
+  },
+  "pages": 1218,
+  "title": "Stand on Zanzibar",
+  "url": "https://www.goodreads.com/book/show/41069.Stand_on_Zanzibar",
+  "year_published": 1968
 }

@@ -1,59 +1,59 @@
 {
-    "author": "Rhiannon Frater",
-    "id": "1124",
-    "description": "Katie is driving to work one beautiful day when a dead man jumps into her car and tries to eat her.\u00a0 That same morning, Jenni opens a bedroom door to find her husband devouring their toddler son.\u00a0Fate puts Jenni and Katie\u2014total strangers\u2014together in a pickup, fleeing the suddenly zombie-filled streets of the Texas city in which they live. Before the sun has set, they have become more than just friends and allies\u2014they are bonded as tightly as any two people who have been to war together.\u00a0During their cross-Texas odyssey to find and rescue Jenni\u2019s oldest son, Jenni discovers the joy of watching a zombie\u2019s head explode when she shoots its brains out. Katie learns that she\u2019s a terrific tactician\u2014and a pretty good shot.\u00a0A chance encounter puts them on the road to an isolated, fortified town, besieged by zombies, where fewer than one hundred people cling to the shreds of civilization.\u00a0It looks like the end of the world. But Katie and Jenni and many others will do whatever they have to to stay alive. Run, fight, pick each other up when they stumble, fall in love\u2026anything is possible at the end of the world. ",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 32,
-        "apocalyptic (post apocalyptic)": 108,
-        "fantasy": 40,
-        "fantasy (paranormal)": 45,
-        "fiction": 89,
-        "horror": 401,
-        "horror (zombies)": 723,
-        "science fiction": 56,
-        "science fiction (apocalyptic)": 70,
-        "science fiction (dystopia)": 73
+  "author": "Rhiannon Frater",
+  "id": "1124",
+  "description": "Katie is driving to work one beautiful day when a dead man jumps into her car and tries to eat her.  That same morning, Jenni opens a bedroom door to find her husband devouring their toddler son. Fate puts Jenni and Katie—total strangers—together in a pickup, fleeing the suddenly zombie-filled streets of the Texas city in which they live. Before the sun has set, they have become more than just friends and allies—they are bonded as tightly as any two people who have been to war together. During their cross-Texas odyssey to find and rescue Jenni’s oldest son, Jenni discovers the joy of watching a zombie’s head explode when she shoots its brains out. Katie learns that she’s a terrific tactician—and a pretty good shot. A chance encounter puts them on the road to an isolated, fortified town, besieged by zombies, where fewer than one hundred people cling to the shreds of civilization. It looks like the end of the world. But Katie and Jenni and many others will do whatever they have to to stay alive. Run, fight, pick each other up when they stumble, fall in love…anything is possible at the end of the world. ",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1124_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1124_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1124_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1124_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1124_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1124_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1124_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1124_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9344,
-        "score": 3.77
+    {
+      "status": "maintenance",
+      "stock_id": "1124_2"
     },
-    "pages": 1036,
-    "title": "The First Days",
-    "url": "https://www.goodreads.com/book/show/9648068-the-first-days",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "1124_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1124_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1124_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1124_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1124_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9344,
+    "score": 3.77
+  },
+  "pages": 1036,
+  "title": "The First Days",
+  "url": "https://www.goodreads.com/book/show/9648068-the-first-days",
+  "year_published": 2008
 }

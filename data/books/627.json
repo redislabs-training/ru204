@@ -1,64 +1,64 @@
 {
-    "author": "Jeff Lemire",
-    "id": "627",
-    "description": "Once they were heroes, but the age of heroes has long since passed. Banished from existence by a multiversal crisis, the old champions of Spiral City--Abraham Slam, Golden Gail, Colonel Weird, Madame Dragonfly, and Barbalien--now lead simple lives in an idyllic, timeless farming village from which there is no escape! But as they employ all of their super abilities to free themselves from this strange purgatory, a mysterious stranger works to bring them back into action for one last adventure!COLLECTS: Black Hammer 1-6",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 12,
-        "comics (comic book)": 42,
-        "comics (superheroes)": 72,
-        "fantasy": 66,
-        "fiction": 48,
-        "graphic novels comics": 61,
-        "horror": 19,
-        "science fiction": 42,
-        "sequential art (comics)": 462,
-        "sequential art (graphic novels)": 381
+  "author": "Jeff Lemire",
+  "id": "627",
+  "description": "Once they were heroes, but the age of heroes has long since passed. Banished from existence by a multiversal crisis, the old champions of Spiral City--Abraham Slam, Golden Gail, Colonel Weird, Madame Dragonfly, and Barbalien--now lead simple lives in an idyllic, timeless farming village from which there is no escape! But as they employ all of their super abilities to free themselves from this strange purgatory, a mysterious stranger works to bring them back into action for one last adventure!COLLECTS: Black Hammer 1-6",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "627_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "627_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "627_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "627_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "627_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "627_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "627_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "627_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "627_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5335,
-        "score": 4.2
+    {
+      "status": "available",
+      "stock_id": "627_2"
     },
-    "pages": 237,
-    "title": "Black Hammer, Vol. 1: Secret Origins",
-    "url": "https://www.goodreads.com/book/show/25893783-black-hammer-vol-1",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "627_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "627_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "627_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "627_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "627_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "627_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5335,
+    "score": 4.2
+  },
+  "pages": 237,
+  "title": "Black Hammer, Vol. 1: Secret Origins",
+  "url": "https://www.goodreads.com/book/show/25893783-black-hammer-vol-1",
+  "year_published": 2017
 }

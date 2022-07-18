@@ -1,34 +1,34 @@
 {
-    "author": "Courtney Summers",
-    "id": "2386",
-    "description": "It's the end of the world. Six students have taken cover in Cortege High but shelter is little comfort when the dead outside won't stop pounding on the doors. One bite is all it takes to kill a person and bring them back as a monstrous version of their former self. To Sloane Price, that doesn't sound so bad. Six months ago, her world collapsed and since then, she's failed to find a reason to keep going. Now seems like the perfect time to give up. As Sloane eagerly waits for the barricades to fall, she's forced to witness the apocalypse through the eyes of five people who actually want to live. But as the days crawl by, the motivations for survival change in startling ways and soon the group's fate is determined less and less by what's happening outside and more and more by the unpredictable and violent bids for life\u2014and death\u2014inside. When everything is gone, what do you hold on to?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 155,
-        "fantasy": 131,
-        "fantasy (paranormal)": 183,
-        "fiction": 122,
-        "horror": 548,
-        "horror (zombies)": 743,
-        "science fiction": 148,
-        "science fiction (apocalyptic)": 87,
-        "science fiction (dystopia)": 293,
-        "young adult": 877
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2386_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13517,
-        "score": 3.85
-    },
-    "pages": 367,
-    "title": "This is Not a Test",
-    "url": "https://www.goodreads.com/book/show/12043771-this-is-not-a-test",
-    "year_published": 2012
+  "author": "Courtney Summers",
+  "id": "2386",
+  "description": "It's the end of the world. Six students have taken cover in Cortege High but shelter is little comfort when the dead outside won't stop pounding on the doors. One bite is all it takes to kill a person and bring them back as a monstrous version of their former self. To Sloane Price, that doesn't sound so bad. Six months ago, her world collapsed and since then, she's failed to find a reason to keep going. Now seems like the perfect time to give up. As Sloane eagerly waits for the barricades to fall, she's forced to witness the apocalypse through the eyes of five people who actually want to live. But as the days crawl by, the motivations for survival change in startling ways and soon the group's fate is determined less and less by what's happening outside and more and more by the unpredictable and violent bids for life—and death—inside. When everything is gone, what do you hold on to?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2386_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13517,
+    "score": 3.85
+  },
+  "pages": 367,
+  "title": "This is Not a Test",
+  "url": "https://www.goodreads.com/book/show/12043771-this-is-not-a-test",
+  "year_published": 2012
 }

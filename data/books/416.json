@@ -1,68 +1,68 @@
 {
-    "author": "Colleen Gleason",
-    "id": "416",
-    "description": "After the Affair of the Clockwork Scarab, Evaline Stoker and Mina Holmes are eager to help Princess Alix with a new case. Seventeen-year-old Willa Aston is obsessed with spiritual mediums, convinced she is speaking with her mother from beyond the grave. What seems like a case of spiritualist fraud quickly devolves into something far more menacing: someone is trying to make Willa \"appear lunatic,\" using an innocent-looking spiritglass to control her. The list of clues piles up: an unexpected murder, a gang of pickpockets, and the return of vampires to London. But are these events connected? As Uncle Sherlock would say, \"there are no coincidences.\" It will take all of Mina's wit and Evaline's muscle to keep London's sinister underground at bay.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 106,
-        "fantasy (paranormal)": 57,
-        "historical": 57,
-        "historical (historical fiction)": 81,
-        "mystery": 143,
-        "paranormal (vampires)": 48,
-        "science fiction": 30,
-        "science fiction (steampunk)": 183,
-        "science fiction (time travel)": 32,
-        "young adult": 161
+  "author": "Colleen Gleason",
+  "id": "416",
+  "description": "After the Affair of the Clockwork Scarab, Evaline Stoker and Mina Holmes are eager to help Princess Alix with a new case. Seventeen-year-old Willa Aston is obsessed with spiritual mediums, convinced she is speaking with her mother from beyond the grave. What seems like a case of spiritualist fraud quickly devolves into something far more menacing: someone is trying to make Willa \"appear lunatic,\" using an innocent-looking spiritglass to control her. The list of clues piles up: an unexpected murder, a gang of pickpockets, and the return of vampires to London. But are these events connected? As Uncle Sherlock would say, \"there are no coincidences.\" It will take all of Mina's wit and Evaline's muscle to keep London's sinister underground at bay.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (paranormal)",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "paranormal (vampires)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "416_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "416_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "416_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "416_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "416_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2859,
-        "score": 3.99
+    {
+      "status": "on_loan",
+      "stock_id": "416_2"
     },
-    "pages": 801,
-    "title": "The Spiritglass Charade",
-    "url": "https://www.goodreads.com/book/show/20385060-the-spiritglass-charade",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "416_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "416_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "416_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "416_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "416_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "416_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "416_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2859,
+    "score": 3.99
+  },
+  "pages": 801,
+  "title": "The Spiritglass Charade",
+  "url": "https://www.goodreads.com/book/show/20385060-the-spiritglass-charade",
+  "year_published": 2014
 }

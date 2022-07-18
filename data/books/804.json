@@ -1,58 +1,58 @@
 {
-    "author": "Isaac Asimov",
-    "id": "804",
-    "description": "One moment Joseph Schwartz is a happily retired tailor in 1949 Chicago. The next he's a helpless stranger on Earth during the heyday of the first Galactic Empire. Earth, he soon learns, is a backwater, just a pebble in the sky, despised by all the other 200 million planets of the Empire because its people dare to claim it's the original home of man. And Earth is poor, with great areas of radioactivity ruining much of its soil--so poor that everyone is sentenced to death at the age of sixty.Joseph Schwartz is sixty-two.This is young Isaac Asimov's first novel, full of wonders and ideas, the book that launched the novels of the Galactic Empire, culminating in the Foundation books and novels. It is also one of that select group of SF adventures that since the early 1950s has hooked generations of teenagers on reading science fiction. This is Golden Age SF at its finest.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 13,
-        "audiobook": 30,
-        "classics": 38,
-        "fantasy": 27,
-        "fiction": 294,
-        "novels": 23,
-        "science fiction": 1097,
-        "science fiction (time travel)": 22,
-        "science fiction fantasy": 52,
-        "space (space opera)": 34
+  "author": "Isaac Asimov",
+  "id": "804",
+  "description": "One moment Joseph Schwartz is a happily retired tailor in 1949 Chicago. The next he's a helpless stranger on Earth during the heyday of the first Galactic Empire. Earth, he soon learns, is a backwater, just a pebble in the sky, despised by all the other 200 million planets of the Empire because its people dare to claim it's the original home of man. And Earth is poor, with great areas of radioactivity ruining much of its soil--so poor that everyone is sentenced to death at the age of sixty.Joseph Schwartz is sixty-two.This is young Isaac Asimov's first novel, full of wonders and ideas, the book that launched the novels of the Galactic Empire, culminating in the Foundation books and novels. It is also one of that select group of SF adventures that since the early 1950s has hooked generations of teenagers on reading science fiction. This is Golden Age SF at its finest.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "804_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "804_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "804_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "804_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "804_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "804_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "804_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "804_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20017,
-        "score": 3.89
+    {
+      "status": "on_loan",
+      "stock_id": "804_2"
     },
-    "pages": 950,
-    "title": "Pebble in the Sky",
-    "url": "https://www.goodreads.com/book/show/41820.Pebble_in_the_Sky",
-    "year_published": 1950
+    {
+      "status": "maintenance",
+      "stock_id": "804_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "804_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "804_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "804_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "804_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20017,
+    "score": 3.89
+  },
+  "pages": 950,
+  "title": "Pebble in the Sky",
+  "url": "https://www.goodreads.com/book/show/41820.Pebble_in_the_Sky",
+  "year_published": 1950
 }

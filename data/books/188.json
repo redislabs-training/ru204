@@ -1,39 +1,39 @@
 {
-    "author": "Jodi Taylor",
-    "id": "188",
-    "description": "It's Christmas Eve at St Mary's, And all through the house, Nothing is stirring ... Except for Max, Peterson, and Markham, sneaking out at midnight for an assignment that is very definitely off the books. It's ten years ago tonight that Senior Historians Bashford and Grey went missing in twelfth-century Jerusalem. So how did they end up in AD60 Roman Colchester? Max has a theory. Peterson has a plan. Markham has bacon sandwiches. Colchester has Boudicca and her bloodthirsty Iceni hordes. And then there's the giant pig ... the enraged giant pig ...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 20,
-        "audiobook": 44,
-        "fantasy": 75,
-        "fiction": 53,
-        "historical": 22,
-        "historical (historical fiction)": 45,
-        "holiday (christmas)": 28,
-        "science fiction": 59,
-        "science fiction (time travel)": 117,
-        "short stories": 33
+  "author": "Jodi Taylor",
+  "id": "188",
+  "description": "It's Christmas Eve at St Mary's, And all through the house, Nothing is stirring ... Except for Max, Peterson, and Markham, sneaking out at midnight for an assignment that is very definitely off the books. It's ten years ago tonight that Senior Historians Bashford and Grey went missing in twelfth-century Jerusalem. So how did they end up in AD60 Roman Colchester? Max has a theory. Peterson has a plan. Markham has bacon sandwiches. Colchester has Boudicca and her bloodthirsty Iceni hordes. And then there's the giant pig ... the enraged giant pig ...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "holiday (christmas)",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "188_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "188_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "188_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3663,
-        "score": 4.35
-    },
-    "pages": 1393,
-    "title": "Christmas Present",
-    "url": "https://www.goodreads.com/book/show/27844508-christmas-present",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "188_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3663,
+    "score": 4.35
+  },
+  "pages": 1393,
+  "title": "Christmas Present",
+  "url": "https://www.goodreads.com/book/show/27844508-christmas-present",
+  "year_published": 2014
 }

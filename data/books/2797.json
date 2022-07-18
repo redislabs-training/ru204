@@ -1,48 +1,48 @@
 {
-    "author": "Marisha Pessl",
-    "id": "2797",
-    "description": "Once upon a time, back at Darrow-Harker School, Beatrice Hartley and her five best friends were the cool kids, the beautiful ones. Then the shocking death of Jim - their creative genius and Beatrice's boyfriend - changed everything.One year after graduation, Beatrice is returning to Wincroft - the seaside estate where they spent so many nights sharing secrets, crushes, plans to change the world - hoping she'll get to the bottom of the dark questions gnawing at her about Jim's death.But as the night plays out in a haze of stilted jokes and unfathomable silence, Beatrice senses she's never going to know what really happened. Then a mysterious man knocks on the door. Blithely, he announces the impossible: time for them has become stuck, snagged on a splinter that can only be removed if the former friends make the harshest of decisions. Now Beatrice has one last shot at answers... and at life.And so begins the Neverworld Wake.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 100,
-        "contemporary": 84,
-        "fantasy": 374,
-        "fiction": 230,
-        "mystery": 475,
-        "science fiction": 187,
-        "science fiction (time travel)": 77,
-        "thriller": 126,
-        "thriller (mystery thriller)": 146,
-        "young adult": 642
+  "author": "Marisha Pessl",
+  "id": "2797",
+  "description": "Once upon a time, back at Darrow-Harker School, Beatrice Hartley and her five best friends were the cool kids, the beautiful ones. Then the shocking death of Jim - their creative genius and Beatrice's boyfriend - changed everything.One year after graduation, Beatrice is returning to Wincroft - the seaside estate where they spent so many nights sharing secrets, crushes, plans to change the world - hoping she'll get to the bottom of the dark questions gnawing at her about Jim's death.But as the night plays out in a haze of stilted jokes and unfathomable silence, Beatrice senses she's never going to know what really happened. Then a mysterious man knocks on the door. Blithely, he announces the impossible: time for them has become stuck, snagged on a splinter that can only be removed if the former friends make the harshest of decisions. Now Beatrice has one last shot at answers... and at life.And so begins the Neverworld Wake.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "thriller (mystery thriller)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2797_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2797_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2797_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2797_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2797_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14642,
-        "score": 3.77
+    {
+      "status": "on_loan",
+      "stock_id": "2797_2"
     },
-    "pages": 1143,
-    "title": "Neverworld Wake",
-    "url": "https://www.goodreads.com/book/show/36545927-neverworld-wake",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "2797_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2797_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14642,
+    "score": 3.77
+  },
+  "pages": 1143,
+  "title": "Neverworld Wake",
+  "url": "https://www.goodreads.com/book/show/36545927-neverworld-wake",
+  "year_published": 2018
 }

@@ -1,52 +1,52 @@
 {
-    "author": "Dan Simmons",
-    "id": "1156",
-    "description": "The Trojan War rages at the foot of Olympos Mons on Mars\u2014observed and influenced from on high by Zeus and his immortal family\u2014and twenty-first-century professor Thomas Hockenberry is there to play a role in the insidious private wars of vengeful gods and goddesses. On Earth, a small band of the few remaining humans pursues a lost past and devastating truth\u2014as four sentient machines depart from Jovian space to investigate, perhaps terminate, the potentially catastrophic emissions emanating from a mountaintop miles above the terraformed surface of the Red Planet.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 345,
-        "fantasy (mythology)": 83,
-        "fiction": 296,
-        "historical": 25,
-        "historical (historical fiction)": 31,
-        "science fiction": 1123,
-        "science fiction fantasy": 68,
-        "space": 22,
-        "space (space opera)": 50,
-        "speculative fiction": 24
+  "author": "Dan Simmons",
+  "id": "1156",
+  "description": "The Trojan War rages at the foot of Olympos Mons on Mars—observed and influenced from on high by Zeus and his immortal family—and twenty-first-century professor Thomas Hockenberry is there to play a role in the insidious private wars of vengeful gods and goddesses. On Earth, a small band of the few remaining humans pursues a lost past and devastating truth—as four sentient machines depart from Jovian space to investigate, perhaps terminate, the potentially catastrophic emissions emanating from a mountaintop miles above the terraformed surface of the Red Planet.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (mythology)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1156_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1156_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1156_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1156_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1156_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1156_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26864,
-        "score": 4.03
+    {
+      "status": "on_loan",
+      "stock_id": "1156_2"
     },
-    "pages": 972,
-    "title": "Ilium",
-    "url": "https://www.goodreads.com/book/show/3973.Ilium",
-    "year_published": 2003
+    {
+      "status": "on_loan",
+      "stock_id": "1156_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1156_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1156_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26864,
+    "score": 4.03
+  },
+  "pages": 972,
+  "title": "Ilium",
+  "url": "https://www.goodreads.com/book/show/3973.Ilium",
+  "year_published": 2003
 }

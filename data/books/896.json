@@ -1,64 +1,64 @@
 {
-    "author": "Philippa Pearce",
-    "id": "896",
-    "description": "Lying awake at night, Tom hears the old grandfather clock downstairs strike . . . eleven . . . twelve . . . thirteen . . . Thirteen! When Tom gets up to investigate, he discovers a magical garden. A garden that everyone told him doesn't exist. A garden that only he can enter . . .A Carnegie-Medal-winning modern classic that's magically timeless.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 36,
-        "childrens": 277,
-        "childrens (middle grade)": 101,
-        "classics": 218,
-        "fantasy": 410,
-        "fiction": 205,
-        "historical": 28,
-        "historical (historical fiction)": 41,
-        "science fiction (time travel)": 154,
-        "young adult": 60
+  "author": "Philippa Pearce",
+  "id": "896",
+  "description": "Lying awake at night, Tom hears the old grandfather clock downstairs strike . . . eleven . . . twelve . . . thirteen . . . Thirteen! When Tom gets up to investigate, he discovers a magical garden. A garden that everyone told him doesn't exist. A garden that only he can enter . . .A Carnegie-Medal-winning modern classic that's magically timeless.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "896_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "896_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "896_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "896_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "896_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "896_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "896_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "896_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "896_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 24018,
-        "score": 4.04
+    {
+      "status": "on_loan",
+      "stock_id": "896_2"
     },
-    "pages": 561,
-    "title": "Tom's Midnight Garden",
-    "url": "https://www.goodreads.com/book/show/543086.Tom_s_Midnight_Garden",
-    "year_published": 1958
+    {
+      "status": "on_loan",
+      "stock_id": "896_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "896_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "896_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "896_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "896_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "896_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 24018,
+    "score": 4.04
+  },
+  "pages": 561,
+  "title": "Tom's Midnight Garden",
+  "url": "https://www.goodreads.com/book/show/543086.Tom_s_Midnight_Garden",
+  "year_published": 1958
 }

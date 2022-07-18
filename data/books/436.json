@@ -1,63 +1,63 @@
 {
-    "author": "S.M.  Wilson",
-    "id": "436",
-    "description": "Betrayal. Sacrifice. Survival.Welcome to the Extinction Trials.In Stormchaser and Lincoln's ruined world, the only way to survive is to risk everything. To face a contest more dangerous than anyone can imagine. And they will do anything to win.But in a land full of monsters - human and reptilian - they can't afford to trust anyone. Perhaps not even each other...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 4,
-        "adventure": 10,
-        "adventure (survival)": 4,
-        "animals (dinosaurs)": 13,
-        "fantasy": 96,
-        "fiction": 14,
-        "science fiction": 41,
-        "science fiction (dystopia)": 62,
-        "young adult": 89,
-        "young adult (young adult fantasy)": 6
+  "author": "S.M.  Wilson",
+  "id": "436",
+  "description": "Betrayal. Sacrifice. Survival.Welcome to the Extinction Trials.In Stormchaser and Lincoln's ruined world, the only way to survive is to risk everything. To face a contest more dangerous than anyone can imagine. And they will do anything to win.But in a land full of monsters - human and reptilian - they can't afford to trust anyone. Perhaps not even each other...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "animals (dinosaurs)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "436_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "436_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "436_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "436_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "436_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "436_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "436_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "436_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "436_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2071,
-        "score": 3.91
+    {
+      "status": "available",
+      "stock_id": "436_2"
     },
-    "pages": 748,
-    "title": "The Extinction Trials",
-    "url": "https://www.goodreads.com/book/show/34865995-the-extinction-trials",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "436_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "436_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "436_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "436_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "436_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "436_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2071,
+    "score": 3.91
+  },
+  "pages": 748,
+  "title": "The Extinction Trials",
+  "url": "https://www.goodreads.com/book/show/34865995-the-extinction-trials",
+  "year_published": 2018
 }

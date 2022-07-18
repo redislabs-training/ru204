@@ -1,43 +1,43 @@
 {
-    "author": "John Scalzi",
-    "id": "1757",
-    "description": "John Scalzi returns with Head On, the standalone follow-up to the New York Times bestselling and critically acclaimed Lock In. Chilling near-future SF with the thrills of a gritty cop procedural, Head On brings Scalzi's trademark snappy dialogue and technological speculation to the future world of sports.Hilketa is a frenetic and violent pastime where players attack each other with swords and hammers. The main goal of the game: obtain your opponent\u2019s head and carry it through the goalposts. With flesh and bone bodies, a sport like this would be impossible. But all the players are \u201cthreeps,\u201d robot-like bodies controlled by people with Haden\u2019s Syndrome, so anything goes. No one gets hurt, but the brutality is real and the crowds love it.Until a star athlete drops dead on the playing field.Is it an accident or murder? FBI Agents and Haden-related crime investigators, Chris Shane and Leslie Vann, are called in to uncover the truth\u2015and in doing so travel to the darker side of the fast-growing sport of Hilketa, where fortunes are made or lost, and where players and owners do whatever it takes to win, on and off the field.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 150,
-        "fiction": 279,
-        "mystery": 329,
-        "mystery (crime)": 78,
-        "mystery (detective)": 30,
-        "science fiction": 747,
-        "science fiction fantasy": 58,
-        "speculative fiction": 30,
-        "thriller": 44,
-        "thriller (mystery thriller)": 32
+  "author": "John Scalzi",
+  "id": "1757",
+  "description": "John Scalzi returns with Head On, the standalone follow-up to the New York Times bestselling and critically acclaimed Lock In. Chilling near-future SF with the thrills of a gritty cop procedural, Head On brings Scalzi's trademark snappy dialogue and technological speculation to the future world of sports.Hilketa is a frenetic and violent pastime where players attack each other with swords and hammers. The main goal of the game: obtain your opponent’s head and carry it through the goalposts. With flesh and bone bodies, a sport like this would be impossible. But all the players are “threeps,” robot-like bodies controlled by people with Haden’s Syndrome, so anything goes. No one gets hurt, but the brutality is real and the crowds love it.Until a star athlete drops dead on the playing field.Is it an accident or murder? FBI Agents and Haden-related crime investigators, Chris Shane and Leslie Vann, are called in to uncover the truth―and in doing so travel to the darker side of the fast-growing sport of Hilketa, where fortunes are made or lost, and where players and owners do whatever it takes to win, on and off the field.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "mystery (detective)",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1757_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1757_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1757_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1757_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17470,
-        "score": 4.0
+    {
+      "status": "maintenance",
+      "stock_id": "1757_2"
     },
-    "pages": 1195,
-    "title": "Head On",
-    "url": "https://www.goodreads.com/book/show/35018901-head-on",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "1757_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17470,
+    "score": 4
+  },
+  "pages": 1195,
+  "title": "Head On",
+  "url": "https://www.goodreads.com/book/show/35018901-head-on",
+  "year_published": 2018
 }

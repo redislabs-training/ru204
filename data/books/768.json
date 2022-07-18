@@ -1,38 +1,38 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "768",
-    "description": "ENOUGH GAMES.Luke Garner is a third-born in a restrictive society that allows only two children per family. Risking his life, he came out of hiding to fight against the Population Police laws. Now, in the final volume of Margaret Peterson Haddix's suspenseful Shadow Children series, Luke inadvertently sets off a rebellion that results in the overthrow of the government. The people are finally free. But who is in charge now? And will this new freedom be everything they had hoped",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 39,
-        "childrens": 51,
-        "childrens (middle grade)": 66,
-        "fantasy": 45,
-        "fiction": 130,
-        "futuristic": 22,
-        "science fiction": 140,
-        "science fiction (dystopia)": 222,
-        "young adult": 188,
-        "young adult (teen)": 24
+  "author": "Margaret Peterson Haddix",
+  "id": "768",
+  "description": "ENOUGH GAMES.Luke Garner is a third-born in a restrictive society that allows only two children per family. Risking his life, he came out of hiding to fight against the Population Police laws. Now, in the final volume of Margaret Peterson Haddix's suspenseful Shadow Children series, Luke inadvertently sets off a rebellion that results in the overthrow of the government. The people are finally free. But who is in charge now? And will this new freedom be everything they had hoped",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "futuristic",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "768_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "768_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "768_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15594,
-        "score": 4.14
-    },
-    "pages": 1177,
-    "title": "Among the Free",
-    "url": "https://www.goodreads.com/book/show/303455.Among_the_Free",
-    "year_published": 2006
+    {
+      "status": "available",
+      "stock_id": "768_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15594,
+    "score": 4.14
+  },
+  "pages": 1177,
+  "title": "Among the Free",
+  "url": "https://www.goodreads.com/book/show/303455.Among_the_Free",
+  "year_published": 2006
 }

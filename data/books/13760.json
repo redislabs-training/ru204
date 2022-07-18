@@ -1,56 +1,56 @@
 {
-    "author": "Margaret Atwood",
-    "id": "13760",
-    "description": "Oryx and Crake is at once an unforgettable love story and a compelling vision of the future. Snowman, known as Jimmy before mankind was overwhelmed by a plague, is struggling to survive in a world where he may be the last human, and mourning the loss of his best friend, Crake, and the beautiful and elusive Oryx whom they both loved. In search of answers, Snowman embarks on a journey\u2013with the help of the green-eyed Children of Crake\u2013through the lush wilderness that was so recently a great city, until powerful corporations took mankind on an uncontrolled genetic engineering ride. Margaret Atwood projects us into a near future that is both all too familiar and beyond our imagining.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 885,
-        "audiobook": 321,
-        "cultural (canada)": 521,
-        "fantasy": 772,
-        "fiction": 4169,
-        "novels": 307,
-        "science fiction": 3368,
-        "science fiction (dystopia)": 2100,
-        "science fiction fantasy": 374,
-        "speculative fiction": 452
+  "author": "Margaret Atwood",
+  "id": "13760",
+  "description": "Oryx and Crake is at once an unforgettable love story and a compelling vision of the future. Snowman, known as Jimmy before mankind was overwhelmed by a plague, is struggling to survive in a world where he may be the last human, and mourning the loss of his best friend, Crake, and the beautiful and elusive Oryx whom they both loved. In search of answers, Snowman embarks on a journey–with the help of the green-eyed Children of Crake–through the lush wilderness that was so recently a great city, until powerful corporations took mankind on an uncontrolled genetic engineering ride. Margaret Atwood projects us into a near future that is both all too familiar and beyond our imagining.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "13760_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "13760_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13760_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13760_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "13760_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13760_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13760_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 227423,
-        "score": 4.01
+    {
+      "status": "maintenance",
+      "stock_id": "13760_2"
     },
-    "pages": 670,
-    "title": "Oryx and Crake",
-    "url": "https://www.goodreads.com/book/show/46756.Oryx_and_Crake",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "13760_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "13760_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13760_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13760_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 227423,
+    "score": 4.01
+  },
+  "pages": 670,
+  "title": "Oryx and Crake",
+  "url": "https://www.goodreads.com/book/show/46756.Oryx_and_Crake",
+  "year_published": 2003
 }

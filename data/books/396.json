@@ -1,35 +1,35 @@
 {
-    "author": "Richard Kadrey",
-    "id": "396",
-    "description": "James Stark, aka Sandman Slim, has managed to get out of Hell, renounce his title as the new Lucifer, and settle back into life in LA. But he's not out of trouble yet. Somewhere along the way he misplaced the Qomrama Om Ya, a weapon from the banished older gods who are also searching for their lost power.The hunt leads Stark to an abandoned shopping mall-a multi-story copy of LA-infested with Lurkers and wretched bottomfeeding Sub Rosa families, squatters who have formed tight tribes to guard their tiny patches of this fake LA. Somewhere in the kill zone of the former mall is a dead man with the answers Stark needs. All Stark has to do is find the dead man, get back out alive, and outrun some angry old gods-and a few killers-on his tail.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 21,
-        "fantasy": 242,
-        "fantasy (magic)": 19,
-        "fantasy (paranormal)": 40,
-        "fantasy (supernatural)": 21,
-        "fantasy (urban fantasy)": 346,
-        "fiction": 59,
-        "horror": 83,
-        "paranormal (demons)": 17,
-        "urban": 15
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "396_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9282,
-        "score": 4.12
-    },
-    "pages": 590,
-    "title": "Kill City Blues",
-    "url": "https://www.goodreads.com/book/show/15783828-kill-city-blues",
-    "year_published": 2013
+  "author": "Richard Kadrey",
+  "id": "396",
+  "description": "James Stark, aka Sandman Slim, has managed to get out of Hell, renounce his title as the new Lucifer, and settle back into life in LA. But he's not out of trouble yet. Somewhere along the way he misplaced the Qomrama Om Ya, a weapon from the banished older gods who are also searching for their lost power.The hunt leads Stark to an abandoned shopping mall-a multi-story copy of LA-infested with Lurkers and wretched bottomfeeding Sub Rosa families, squatters who have formed tight tribes to guard their tiny patches of this fake LA. Somewhere in the kill zone of the former mall is a dead man with the answers Stark needs. All Stark has to do is find the dead man, get back out alive, and outrun some angry old gods-and a few killers-on his tail.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "paranormal (demons)",
+    "urban"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "396_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9282,
+    "score": 4.12
+  },
+  "pages": 590,
+  "title": "Kill City Blues",
+  "url": "https://www.goodreads.com/book/show/15783828-kill-city-blues",
+  "year_published": 2013
 }

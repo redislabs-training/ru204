@@ -1,47 +1,47 @@
 {
-    "author": "Jasper Fforde",
-    "id": "673",
-    "description": "Peter Knox lives quietly in one of those small country villages that's up for the Village Garden of the Year award. Until Doc and Constance Rabbit move in next door, upsetting the locals (many of them members of governing political party United Kingdom Against Rabbit Population), complicating Peter's job as a Rabbit Spotter, and forcing him to take a stand, moving from unconscious leporiphobe to active supporter of the UK's amiable and peaceful population of anthropomorphised rabbits.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 16,
-        "animals": 18,
-        "audiobook": 15,
-        "fantasy": 171,
-        "fiction": 123,
-        "humor": 31,
-        "magical realism": 14,
-        "science fiction": 23,
-        "science fiction (dystopia)": 18,
-        "science fiction fantasy": 11
+  "author": "Jasper Fforde",
+  "id": "673",
+  "description": "Peter Knox lives quietly in one of those small country villages that's up for the Village Garden of the Year award. Until Doc and Constance Rabbit move in next door, upsetting the locals (many of them members of governing political party United Kingdom Against Rabbit Population), complicating Peter's job as a Rabbit Spotter, and forcing him to take a stand, moving from unconscious leporiphobe to active supporter of the UK's amiable and peaceful population of anthropomorphised rabbits.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "animals",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "magical realism",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "673_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "673_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "673_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "673_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "673_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3230,
-        "score": 4.13
+    {
+      "status": "available",
+      "stock_id": "673_2"
     },
-    "pages": 497,
-    "title": "The Constant Rabbit",
-    "url": "https://www.goodreads.com/book/show/51801337-the-constant-rabbit",
-    "year_published": 2020
+    {
+      "status": "maintenance",
+      "stock_id": "673_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "673_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3230,
+    "score": 4.13
+  },
+  "pages": 497,
+  "title": "The Constant Rabbit",
+  "url": "https://www.goodreads.com/book/show/51801337-the-constant-rabbit",
+  "year_published": 2020
 }

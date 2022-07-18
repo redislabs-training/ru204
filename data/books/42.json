@@ -1,55 +1,55 @@
 {
-    "author": "Henry Kuttner",
-    "id": "42",
-    "description": "Hounded by creditors and heckled by an uncooperative robot, binge-drinking inventor Galloway Gallegher must solve the mystery of his own machines before his dodgy financing and reckless lifestyle catch up with him! This complete collection of Kuttner's five classic \"Gallegher\" stories presents the author at the height of his imaginative genius.Time Locker - When the spoils of a huge confidence scam disappear into a mysterious locker that opens a window into the future, a drunk inventor and a crooked lawyer must track down the loot before time runs out.The World is Mine - Three soft-spoken, fuzzy Martians declare their intentions to conquer Earth while Gallegher attempts to solve his own murder.The Proud Robot - Vox-View Pictures and Sonatone are at war over new technology, and only Galloway Gallegher and his harebrained new robot Joe hold the key to unlocking the secret of Audience Appeal.Gallegher Plus - Three mysterious jobs, one crazy invention, an alphabetical drinking contest, and two versions of the inventor who played by ear - Galloway Gallegher and his remarkable drunken genius alter-ego, Gallegher Plus!Ex Machina - When a client goes missing with 50,000 credits, the law comes calling for Galloway Gallegher. A binge drinking session is just the thing to allow Gallegher's brilliant subconscious to emerge and save the day, but what weird critter keeps stealing all the liquor?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 4,
-        "anthologies (collections)": 2,
-        "fiction": 6,
-        "humor": 11,
-        "science fiction": 34,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 4,
-        "short stories": 12,
-        "speculative fiction": 2
+  "author": "Henry Kuttner",
+  "id": "42",
+  "description": "Hounded by creditors and heckled by an uncooperative robot, binge-drinking inventor Galloway Gallegher must solve the mystery of his own machines before his dodgy financing and reckless lifestyle catch up with him! This complete collection of Kuttner's five classic \"Gallegher\" stories presents the author at the height of his imaginative genius.Time Locker - When the spoils of a huge confidence scam disappear into a mysterious locker that opens a window into the future, a drunk inventor and a crooked lawyer must track down the loot before time runs out.The World is Mine - Three soft-spoken, fuzzy Martians declare their intentions to conquer Earth while Gallegher attempts to solve his own murder.The Proud Robot - Vox-View Pictures and Sonatone are at war over new technology, and only Galloway Gallegher and his harebrained new robot Joe hold the key to unlocking the secret of Audience Appeal.Gallegher Plus - Three mysterious jobs, one crazy invention, an alphabetical drinking contest, and two versions of the inventor who played by ear - Galloway Gallegher and his remarkable drunken genius alter-ego, Gallegher Plus!Ex Machina - When a client goes missing with 50,000 credits, the law comes calling for Galloway Gallegher. A binge drinking session is just the thing to allow Gallegher's brilliant subconscious to emerge and save the day, but what weird critter keeps stealing all the liquor?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "anthologies (collections)",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "42_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "42_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "42_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "42_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "42_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "42_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "42_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 383,
-        "score": 3.98
+    {
+      "status": "maintenance",
+      "stock_id": "42_2"
     },
-    "pages": 1237,
-    "title": "Robots Have No Tails",
-    "url": "https://www.goodreads.com/book/show/4592632-robots-have-no-tails",
-    "year_published": 1952
+    {
+      "status": "available",
+      "stock_id": "42_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "42_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "42_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "42_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 383,
+    "score": 3.98
+  },
+  "pages": 1237,
+  "title": "Robots Have No Tails",
+  "url": "https://www.goodreads.com/book/show/4592632-robots-have-no-tails",
+  "year_published": 1952
 }

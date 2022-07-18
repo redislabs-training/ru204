@@ -1,51 +1,51 @@
 {
-    "author": "Selden Edwards",
-    "id": "1010",
-    "description": "An irresistible triumph of the imagination more than thirty years in the making, The Little Book is a breathtaking love story that spans generations, ranging from fin de si\u00e8cle Vienna through the pivotal moments of the twentieth century.The Little Book is the extraordinary tale of Wheeler Burden, California-exiled heir of the famous Boston banking Burdens, philosopher, student of history, legend's son, rock idol, writer, lover of women, recluse, half-Jew, and Harvard baseball hero. In 1988 he is forty-seven, living in San Francisco. Suddenly he is - still his modern self - wandering in a city and time he knows mysteriously well: fin de si\u00e8cle Vienna. It is 1897, precisely ninety-one years before his last memory and a half-century before his birth. It's not long before Wheeler has acquired appropriate clothes, money, lodging, a group of young Viennese intellectuals as friends, a mentor in Sigmund Freud, a bitter rival, a powerful crush on a luminous young American woman, a passing acquaintance with local celebrity Mark Twain, and an incredible and surprising insight into the dashing young war-hero father he never knew. But the truth at the center of Wheeler's dislocation in time remains a stubborn mystery that will take months of exploration and a lifetime of memories to unravel and that will, in the end, reveal nothing short of the eccentric Burden family's unrivaled impact on the very course of the coming century. The Little Book is a masterpiece of unequaled storytelling that announces Selden Edwards as one of the most dazzling, original, entertaining, and inventive novelists of our time.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult fiction": 13,
-        "adventure": 14,
-        "audiobook": 10,
-        "fantasy": 60,
-        "fiction": 179,
-        "historical": 36,
-        "historical (historical fiction)": 174,
-        "mystery": 19,
-        "science fiction": 23,
-        "science fiction (time travel)": 116
+  "author": "Selden Edwards",
+  "id": "1010",
+  "description": "An irresistible triumph of the imagination more than thirty years in the making, The Little Book is a breathtaking love story that spans generations, ranging from fin de siècle Vienna through the pivotal moments of the twentieth century.The Little Book is the extraordinary tale of Wheeler Burden, California-exiled heir of the famous Boston banking Burdens, philosopher, student of history, legend's son, rock idol, writer, lover of women, recluse, half-Jew, and Harvard baseball hero. In 1988 he is forty-seven, living in San Francisco. Suddenly he is - still his modern self - wandering in a city and time he knows mysteriously well: fin de siècle Vienna. It is 1897, precisely ninety-one years before his last memory and a half-century before his birth. It's not long before Wheeler has acquired appropriate clothes, money, lodging, a group of young Viennese intellectuals as friends, a mentor in Sigmund Freud, a bitter rival, a powerful crush on a luminous young American woman, a passing acquaintance with local celebrity Mark Twain, and an incredible and surprising insight into the dashing young war-hero father he never knew. But the truth at the center of Wheeler's dislocation in time remains a stubborn mystery that will take months of exploration and a lifetime of memories to unravel and that will, in the end, reveal nothing short of the eccentric Burden family's unrivaled impact on the very course of the coming century. The Little Book is a masterpiece of unequaled storytelling that announces Selden Edwards as one of the most dazzling, original, entertaining, and inventive novelists of our time.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult fiction",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1010_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1010_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1010_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1010_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1010_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1010_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4596,
-        "score": 3.73
+    {
+      "status": "maintenance",
+      "stock_id": "1010_2"
     },
-    "pages": 446,
-    "title": "The Little Book",
-    "url": "https://www.goodreads.com/book/show/3004139-the-little-book",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "1010_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1010_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1010_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4596,
+    "score": 3.73
+  },
+  "pages": 446,
+  "title": "The Little Book",
+  "url": "https://www.goodreads.com/book/show/3004139-the-little-book",
+  "year_published": 2008
 }

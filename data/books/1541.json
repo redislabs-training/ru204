@@ -1,48 +1,48 @@
 {
-    "author": "Jean Hegland",
-    "id": "1541",
-    "description": "Set in the near-future, Into the Forest is a powerfully imagined novel that focuses on the relationship between two teenage sisters living alone in their Northern California forest home.Over 30 miles from the nearest town, and several miles away from their nearest neighbor, Nell and Eva struggle to survive as society begins to decay and collapse around them. No single event precedes society's fall. There is talk of a war overseas and upheaval in Congress, but it still comes as a shock when the electricity runs out and gas is nowhere to be found. The sisters consume the resources left in the house, waiting for the power to return. Their arrival into adulthood, however, forces them to reexamine their place in the world and their relationship to the land and each other.Reminiscent of Margaret Atwood's A Handmaid's Tale, Into the Forest is a mesmerizing and thought-provoking novel of hope and despair set in a frighteningly plausible near-future America.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult fiction": 21,
-        "adventure (survival)": 43,
-        "apocalyptic (post apocalyptic)": 175,
-        "fiction": 393,
-        "science fiction": 122,
-        "science fiction (apocalyptic)": 68,
-        "science fiction (dystopia)": 159,
-        "speculative fiction": 25,
-        "young adult": 101,
-        "young adult (coming of age)": 21
+  "author": "Jean Hegland",
+  "id": "1541",
+  "description": "Set in the near-future, Into the Forest is a powerfully imagined novel that focuses on the relationship between two teenage sisters living alone in their Northern California forest home.Over 30 miles from the nearest town, and several miles away from their nearest neighbor, Nell and Eva struggle to survive as society begins to decay and collapse around them. No single event precedes society's fall. There is talk of a war overseas and upheaval in Congress, but it still comes as a shock when the electricity runs out and gas is nowhere to be found. The sisters consume the resources left in the house, waiting for the power to return. Their arrival into adulthood, however, forces them to reexamine their place in the world and their relationship to the land and each other.Reminiscent of Margaret Atwood's A Handmaid's Tale, Into the Forest is a mesmerizing and thought-provoking novel of hope and despair set in a frighteningly plausible near-future America.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult fiction",
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "speculative fiction",
+    "young adult",
+    "young adult (coming of age)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1541_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1541_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1541_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1541_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1541_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11920,
-        "score": 3.81
+    {
+      "status": "available",
+      "stock_id": "1541_2"
     },
-    "pages": 892,
-    "title": "Into the Forest",
-    "url": "https://www.goodreads.com/book/show/86236.Into_the_Forest",
-    "year_published": 1996
+    {
+      "status": "maintenance",
+      "stock_id": "1541_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1541_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11920,
+    "score": 3.81
+  },
+  "pages": 892,
+  "title": "Into the Forest",
+  "url": "https://www.goodreads.com/book/show/86236.Into_the_Forest",
+  "year_published": 1996
 }

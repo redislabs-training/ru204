@@ -1,56 +1,56 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "1103",
-    "description": "\"Everything that had happened to Nina was real. She had real handcuffs on her wrists, real scars on her back, real fear flooding her mind.  \"'They're going to kill me,' Nina whispered, and it was almost a relief to finally, finally give up hope.\"  In a society that allows no more than two children per family under penalty of death, third children are forced into hiding, or to live with false identity papers. In Among the Impostors, Nina Idi was arrested for treason for supposedly trying to trick the Population Police into arresting other students she said were illegal third children. Now she faces torture or death -- unless she agrees to betray three other imprisoned third children. Her dilemma intensifies when she meets the prisoners -- who are only ten, nine, and six.  As she did so brilliantly in the Publishers Weekly best-selling Among the Hidden and in Among the Impostors, Margaret Peterson Haddix once again brings readers to a world in which nothing is as it seems -- a world in which an imprisonment leads to an adventure of mind, body, and spirit.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 51,
-        "childrens": 80,
-        "childrens (juvenile)": 38,
-        "childrens (middle grade)": 115,
-        "fantasy": 53,
-        "fiction": 171,
-        "science fiction": 193,
-        "science fiction (dystopia)": 287,
-        "young adult": 362,
-        "young adult (teen)": 28
+  "author": "Margaret Peterson Haddix",
+  "id": "1103",
+  "description": "\"Everything that had happened to Nina was real. She had real handcuffs on her wrists, real scars on her back, real fear flooding her mind.  \"'They're going to kill me,' Nina whispered, and it was almost a relief to finally, finally give up hope.\"  In a society that allows no more than two children per family under penalty of death, third children are forced into hiding, or to live with false identity papers. In Among the Impostors, Nina Idi was arrested for treason for supposedly trying to trick the Population Police into arresting other students she said were illegal third children. Now she faces torture or death -- unless she agrees to betray three other imprisoned third children. Her dilemma intensifies when she meets the prisoners -- who are only ten, nine, and six.  As she did so brilliantly in the Publishers Weekly best-selling Among the Hidden and in Among the Impostors, Margaret Peterson Haddix once again brings readers to a world in which nothing is as it seems -- a world in which an imprisonment leads to an adventure of mind, body, and spirit.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1103_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1103_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1103_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1103_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1103_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1103_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1103_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 24086,
-        "score": 4.07
+    {
+      "status": "on_loan",
+      "stock_id": "1103_2"
     },
-    "pages": 1239,
-    "title": "Among the Betrayed",
-    "url": "https://www.goodreads.com/book/show/303460.Among_the_Betrayed",
-    "year_published": 2002
+    {
+      "status": "available",
+      "stock_id": "1103_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1103_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1103_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1103_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 24086,
+    "score": 4.07
+  },
+  "pages": 1239,
+  "title": "Among the Betrayed",
+  "url": "https://www.goodreads.com/book/show/303460.Among_the_Betrayed",
+  "year_published": 2002
 }

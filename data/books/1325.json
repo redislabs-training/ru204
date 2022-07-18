@@ -1,60 +1,60 @@
 {
-    "author": "Melissa Albert",
-    "id": "1325",
-    "description": "The New York Times bestselling sequel to Melissa Albert\u2019s beloved The Hazel Wood! In The Night Country, Alice Proserpine dives back into a menacing, mesmerizing world of dark fairy tales and hidden doors of The Hazel Wood. Follow her and Ellery Finch as they learn The Hazel Wood was just the beginning, and that worlds die not with a whimper, but a bang.With Finch\u2019s help, Alice escaped the Hinterland and her reclusive grandmother\u2019s dark legacy. Now she and the rest of the dregs of the fairy tale world have washed up in New York City, where Alice is trying to make a new, unmagical life. But something is stalking the Hinterland\u2019s survivors\u2014and she suspects their deaths may have a darker purpose. Meanwhile, in the winking out world of the Hinterland, Finch seeks his own adventure, and\u2014if he can find it\u2014a way back home...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 40,
-        "fantasy": 622,
-        "fantasy (fairy tales)": 56,
-        "fantasy (magic)": 37,
-        "fantasy (urban fantasy)": 36,
-        "fiction": 116,
-        "horror": 30,
-        "mystery": 38,
-        "young adult": 302,
-        "young adult (young adult fantasy)": 62
+  "author": "Melissa Albert",
+  "id": "1325",
+  "description": "The New York Times bestselling sequel to Melissa Albert’s beloved The Hazel Wood! In The Night Country, Alice Proserpine dives back into a menacing, mesmerizing world of dark fairy tales and hidden doors of The Hazel Wood. Follow her and Ellery Finch as they learn The Hazel Wood was just the beginning, and that worlds die not with a whimper, but a bang.With Finch’s help, Alice escaped the Hinterland and her reclusive grandmother’s dark legacy. Now she and the rest of the dregs of the fairy tale world have washed up in New York City, where Alice is trying to make a new, unmagical life. But something is stalking the Hinterland’s survivors—and she suspects their deaths may have a darker purpose. Meanwhile, in the winking out world of the Hinterland, Finch seeks his own adventure, and—if he can find it—a way back home...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "mystery",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1325_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1325_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1325_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1325_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1325_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1325_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1325_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1325_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8275,
-        "score": 3.74
+    {
+      "status": "maintenance",
+      "stock_id": "1325_2"
     },
-    "pages": 344,
-    "title": "The Night Country",
-    "url": "https://www.goodreads.com/book/show/43565384-the-night-country",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "1325_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1325_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1325_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1325_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1325_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8275,
+    "score": 3.74
+  },
+  "pages": 344,
+  "title": "The Night Country",
+  "url": "https://www.goodreads.com/book/show/43565384-the-night-country",
+  "year_published": 2020
 }

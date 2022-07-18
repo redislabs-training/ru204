@@ -1,64 +1,64 @@
 {
-    "author": "Yana Toboso",
-    "id": "1511",
-    "description": "In the Victorian ages of London The Earl of the Phantomhive house, Ciel Phantomhive, needs to get his revenge on those who had humiliated him and destroyed what he loved. Not being able to do it alone he sells his soul to a demon he names Sebastian Michaelis. Now working as his butler, Sebastian must help the Earl Phantomhive in this suspenseful, exciting, thriller manga.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 336,
-        "fantasy (paranormal)": 85,
-        "fiction": 88,
-        "historical (historical fiction)": 87,
-        "horror": 87,
-        "media tie in (anime)": 89,
-        "sequential art (comics)": 150,
-        "sequential art (graphic novels)": 263,
-        "sequential art (manga)": 4399,
-        "young adult": 106
+  "author": "Yana Toboso",
+  "id": "1511",
+  "description": "In the Victorian ages of London The Earl of the Phantomhive house, Ciel Phantomhive, needs to get his revenge on those who had humiliated him and destroyed what he loved. Not being able to do it alone he sells his soul to a demon he names Sebastian Michaelis. Now working as his butler, Sebastian must help the Earl Phantomhive in this suspenseful, exciting, thriller manga.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "historical (historical fiction)",
+    "horror",
+    "media tie in (anime)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1511_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1511_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1511_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1511_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1511_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1511_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1511_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1511_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1511_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 102412,
-        "score": 4.37
+    {
+      "status": "available",
+      "stock_id": "1511_2"
     },
-    "pages": 335,
-    "title": "Black Butler, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/6690979-black-butler-vol-1",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "1511_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1511_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1511_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1511_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1511_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1511_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 102412,
+    "score": 4.37
+  },
+  "pages": 335,
+  "title": "Black Butler, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/6690979-black-butler-vol-1",
+  "year_published": 2007
 }

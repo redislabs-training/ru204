@@ -1,52 +1,52 @@
 {
-    "author": "Richard Bachman",
-    "id": "7505",
-    "description": "On the first day of May, 100 teenage boys meet for a race known as \"The Long Walk.\" If you break the rules, you get three warnings. If you exceed your limit, what happens is absolutely terrifying.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 124,
-        "audiobook": 139,
-        "fantasy": 174,
-        "fiction": 1275,
-        "horror": 2492,
-        "novels": 79,
-        "science fiction": 408,
-        "science fiction (dystopia)": 614,
-        "suspense": 139,
-        "thriller": 478
+  "author": "Richard Bachman",
+  "id": "7505",
+  "description": "On the first day of May, 100 teenage boys meet for a race known as \"The Long Walk.\" If you break the rules, you get three warnings. If you exceed your limit, what happens is absolutely terrifying.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "7505_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "7505_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "7505_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7505_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7505_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "7505_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 132145,
-        "score": 4.08
+    {
+      "status": "available",
+      "stock_id": "7505_2"
     },
-    "pages": 659,
-    "title": "The Long Walk",
-    "url": "https://www.goodreads.com/book/show/9014.The_Long_Walk",
-    "year_published": 1979
+    {
+      "status": "on_loan",
+      "stock_id": "7505_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7505_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "7505_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 132145,
+    "score": 4.08
+  },
+  "pages": 659,
+  "title": "The Long Walk",
+  "url": "https://www.goodreads.com/book/show/9014.The_Long_Walk",
+  "year_published": 1979
 }

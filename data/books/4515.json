@@ -1,54 +1,54 @@
 {
-    "author": "Paolo Bacigalupi",
-    "id": "4515",
-    "description": "In America's Gulf Coast region, where grounded oil tankers are being broken down for parts, Nailer, a teenage boy, works the light crew, scavenging for copper wiring just to make quota--and hopefully live to see another day. But when, by luck or chance, he discovers an exquisite clipper ship beached during a recent hurricane, Nailer faces the most important decision of his life: Strip the ship for all it's worth or rescue its lone survivor, a beautiful and wealthy girl who could lead him to a better life...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 291,
-        "apocalyptic (post apocalyptic)": 243,
-        "audiobook": 74,
-        "fantasy": 226,
-        "fiction": 482,
-        "science fiction": 951,
-        "science fiction (dystopia)": 869,
-        "science fiction (steampunk)": 102,
-        "young adult": 1680,
-        "young adult (teen)": 214
+  "author": "Paolo Bacigalupi",
+  "id": "4515",
+  "description": "In America's Gulf Coast region, where grounded oil tankers are being broken down for parts, Nailer, a teenage boy, works the light crew, scavenging for copper wiring just to make quota--and hopefully live to see another day. But when, by luck or chance, he discovers an exquisite clipper ship beached during a recent hurricane, Nailer faces the most important decision of his life: Strip the ship for all it's worth or rescue its lone survivor, a beautiful and wealthy girl who could lead him to a better life...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "4515_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "4515_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4515_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4515_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4515_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4515_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4515_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 42928,
-        "score": 3.74
+    {
+      "status": "on_loan",
+      "stock_id": "4515_2"
     },
-    "pages": 1381,
-    "title": "Ship Breaker",
-    "url": "https://www.goodreads.com/book/show/7095831-ship-breaker",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "4515_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4515_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4515_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4515_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 42928,
+    "score": 3.74
+  },
+  "pages": 1381,
+  "title": "Ship Breaker",
+  "url": "https://www.goodreads.com/book/show/7095831-ship-breaker",
+  "year_published": 2010
 }

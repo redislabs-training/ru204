@@ -1,59 +1,59 @@
 {
-    "author": "Paul  Hoffman",
-    "id": "1255",
-    "description": "\u201cListen. The Sanctuary of the Redeemers on Shotover Scarp is named after a damned lie for there is no redemption that goes on there and less sanctuary.\u201dThe Sanctuary of the Redeemers is a vast and desolate place\u2014a place without joy or hope. Most of its occupants were taken there as boys and for years have endured the brutal regime of the Lord Redeemers whose cruelty and violence have one singular purpose\u2014to serve in the name of the One True Faith.In one of the Sanctuary\u2019s vast and twisting maze of corridors stands a boy. He is perhaps fourteen or fifteen years old\u2014he is not sure and neither is anyone else. He has long-forgotten his real name, but now they call him Thomas Cale. He is strange and secretive, witty and charming, violent and profoundly bloody-minded. He is so used to the cruelty that he seems immune, but soon he will open the wrong door at the wrong time and witness an act so terrible that he will have to leave this place, or die.His only hope of survival is to escape across the arid Scablands to Memphis, a city the opposite of the Sanctuary in every way: breathtakingly beautiful, infinitely Godless, and deeply corrupt. But the Redeemers want Cale back at any price... not because of the secret he now knows but because of a much more terrifying secret he does not.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 41,
-        "fantasy": 1202,
-        "fantasy (dark fantasy)": 47,
-        "fantasy (epic fantasy)": 23,
-        "fantasy (high fantasy)": 29,
-        "fiction": 74,
-        "science fiction": 29,
-        "science fiction (dystopia)": 52,
-        "science fiction fantasy": 20,
-        "young adult": 91
+  "author": "Paul  Hoffman",
+  "id": "1255",
+  "description": "“Listen. The Sanctuary of the Redeemers on Shotover Scarp is named after a damned lie for there is no redemption that goes on there and less sanctuary.”The Sanctuary of the Redeemers is a vast and desolate place—a place without joy or hope. Most of its occupants were taken there as boys and for years have endured the brutal regime of the Lord Redeemers whose cruelty and violence have one singular purpose—to serve in the name of the One True Faith.In one of the Sanctuary’s vast and twisting maze of corridors stands a boy. He is perhaps fourteen or fifteen years old—he is not sure and neither is anyone else. He has long-forgotten his real name, but now they call him Thomas Cale. He is strange and secretive, witty and charming, violent and profoundly bloody-minded. He is so used to the cruelty that he seems immune, but soon he will open the wrong door at the wrong time and witness an act so terrible that he will have to leave this place, or die.His only hope of survival is to escape across the arid Scablands to Memphis, a city the opposite of the Sanctuary in every way: breathtakingly beautiful, infinitely Godless, and deeply corrupt. But the Redeemers want Cale back at any price... not because of the secret he now knows but because of a much more terrifying secret he does not.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1255_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1255_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1255_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1255_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1255_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1255_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1255_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1255_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16649,
-        "score": 3.65
+    {
+      "status": "on_loan",
+      "stock_id": "1255_2"
     },
-    "pages": 1298,
-    "title": "The Left Hand of God",
-    "url": "https://www.goodreads.com/book/show/7116709-the-left-hand-of-god",
-    "year_published": 2010
+    {
+      "status": "available",
+      "stock_id": "1255_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1255_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1255_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1255_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1255_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16649,
+    "score": 3.65
+  },
+  "pages": 1298,
+  "title": "The Left Hand of God",
+  "url": "https://www.goodreads.com/book/show/7116709-the-left-hand-of-god",
+  "year_published": 2010
 }

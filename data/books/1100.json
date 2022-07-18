@@ -1,48 +1,48 @@
 {
-    "author": "James A. Owen",
-    "id": "1100",
-    "description": "The Imaginarium Geographica\"What is it?\" John asked.The little man blinked and arched an eyebrow.\"It is the world, my boy,\" he said. \"All the world, in ink and blood, vellum and parchment, leather and hide. It is the world, and it is yours to save or lose.\" An unusual murder brings together three strangers, John, Jack, and Charles, on a rainy night in London during the first World War. An eccentric little man called Bert tells them that they are now the caretakers of the Imaginarium Geographica -- an atlas of all the lands that have ever existed in myth and legend, fable and fairy tale. These lands, Bert claims, can be traveled to in his ship the Indigo Dragon, one of only seven vessels that is able to cross the Frontier between worlds into the Archipelago of Dreams.Pursued by strange and terrifying creatures, the companions flee London aboard the Dragonship. Traveling to the very realm of the imagination itself, they must learn to overcome their fears and trust in one another if they are to defeat the dark forces that threaten the destiny of two worlds.An extraordinary journey of myth, magic, and mystery, Here, There Be Dragons introduces James A. Owen as a formidable new talent.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 97,
-        "childrens (middle grade)": 46,
-        "fantasy": 949,
-        "fantasy (dragons)": 198,
-        "fantasy (magic)": 36,
-        "fantasy (mythology)": 39,
-        "fiction": 135,
-        "historical (historical fiction)": 66,
-        "young adult": 276,
-        "young adult (young adult fantasy)": 34
+  "author": "James A. Owen",
+  "id": "1100",
+  "description": "The Imaginarium Geographica\"What is it?\" John asked.The little man blinked and arched an eyebrow.\"It is the world, my boy,\" he said. \"All the world, in ink and blood, vellum and parchment, leather and hide. It is the world, and it is yours to save or lose.\" An unusual murder brings together three strangers, John, Jack, and Charles, on a rainy night in London during the first World War. An eccentric little man called Bert tells them that they are now the caretakers of the Imaginarium Geographica -- an atlas of all the lands that have ever existed in myth and legend, fable and fairy tale. These lands, Bert claims, can be traveled to in his ship the Indigo Dragon, one of only seven vessels that is able to cross the Frontier between worlds into the Archipelago of Dreams.Pursued by strange and terrifying creatures, the companions flee London aboard the Dragonship. Traveling to the very realm of the imagination itself, they must learn to overcome their fears and trust in one another if they are to defeat the dark forces that threaten the destiny of two worlds.An extraordinary journey of myth, magic, and mystery, Here, There Be Dragons introduces James A. Owen as a formidable new talent.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fiction",
+    "historical (historical fiction)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1100_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1100_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1100_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1100_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1100_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11119,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "1100_2"
     },
-    "pages": 909,
-    "title": "Here, There Be Dragons",
-    "url": "https://www.goodreads.com/book/show/34908.Here_There_Be_Dragons",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "1100_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1100_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11119,
+    "score": 3.86
+  },
+  "pages": 909,
+  "title": "Here, There Be Dragons",
+  "url": "https://www.goodreads.com/book/show/34908.Here_There_Be_Dragons",
+  "year_published": 2006
 }

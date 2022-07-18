@@ -1,36 +1,36 @@
 {
-    "author": "Duane Swierczynski",
-    "id": "104",
-    "description": "In this neighborhood, make a wrong turn and you're history. Mickey Wade is a recently-unemployed journalist who lucked into a rent-free apartment \u2013 his sick grandfather's place. The only problem: it's in a lousy neighborhood. The one where Mickey grew up, in fact. The one he was so desperate to escape.But now he's back. Dead broke. And just when he thinks he's reached rock bottom, Mickey wakes up in the past. Literally.At first he thinks it's a dream. All of the stores he remembered from his childhood, the cars, the rumble of the elevated train. But as he digs deeper into the past, searching for answers about the grandfather he hardly knows, Mickey meets the twelve-year-old kid who lives in the apartment below. The kid who will grow up to someday murder Mickey's father.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 9,
-        "fiction": 15,
-        "mystery": 18,
-        "mystery (crime)": 8,
-        "mystery (noir)": 4,
-        "science fiction": 17,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 2,
-        "thriller": 5,
-        "thriller (mystery thriller)": 4
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "104_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 755,
-        "score": 3.79
-    },
-    "pages": 889,
-    "title": "Expiration Date",
-    "url": "https://www.goodreads.com/book/show/7193226-expiration-date",
-    "year_published": 2010
+  "author": "Duane Swierczynski",
+  "id": "104",
+  "description": "In this neighborhood, make a wrong turn and you're history. Mickey Wade is a recently-unemployed journalist who lucked into a rent-free apartment – his sick grandfather's place. The only problem: it's in a lousy neighborhood. The one where Mickey grew up, in fact. The one he was so desperate to escape.But now he's back. Dead broke. And just when he thinks he's reached rock bottom, Mickey wakes up in the past. Literally.At first he thinks it's a dream. All of the stores he remembered from his childhood, the cars, the rumble of the elevated train. But as he digs deeper into the past, searching for answers about the grandfather he hardly knows, Mickey meets the twelve-year-old kid who lives in the apartment below. The kid who will grow up to someday murder Mickey's father.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "mystery (noir)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "104_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 755,
+    "score": 3.79
+  },
+  "pages": 889,
+  "title": "Expiration Date",
+  "url": "https://www.goodreads.com/book/show/7193226-expiration-date",
+  "year_published": 2010
 }

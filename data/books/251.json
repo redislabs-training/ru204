@@ -1,64 +1,64 @@
 {
-    "author": "Brian Herbert",
-    "id": "251",
-    "description": "Alternate cover edition located here.Following their internationally bestselling novels Dune: The Butlerian Jihad and Dune: The Machine Crusade, Brian Herbert and Kevin J. Anderson forge a final tumultuous finish to their prequels to Frank Herbert's Dune.It has been fifty-six hard years since the events of The Machine Crusade. Following the death of Serena Butler, the bloodiest decades of the Jihad take place. Synchronized Worlds and Unallied Planets are liberated one by one, and at long last, after years of victory, the human worlds begin to hope that the end of the centuries-long conflict with the thinking machines is finally in sight.Unfortunately, Omnius has one last, deadly card to play. In a last-ditch effort to destroy humankind, virulent plagues are let loose throughout the galaxy, decimating the populations of whole planets . . . and once again, the tide of the titanic struggle shifts against the warriors of the human race. At last, the war that has lasted many lifetimes will be decided in the apocalyptic Battle of Corrin.In the greatest battle in science fiction history, human and machine face off one last time. . . . And on the desert planet of Arrakis, the legendary Fremen of Dune become the feared fighting force to be discovered by Paul Muad'Dib in Frank Herbert's classic, Dune.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 6,
-        "audiobook": 12,
-        "fantasy": 72,
-        "fiction": 124,
-        "novels": 8,
-        "science fiction": 467,
-        "science fiction fantasy": 38,
-        "space": 11,
-        "space (space opera)": 20,
-        "speculative fiction": 7
+  "author": "Brian Herbert",
+  "id": "251",
+  "description": "Alternate cover edition located here.Following their internationally bestselling novels Dune: The Butlerian Jihad and Dune: The Machine Crusade, Brian Herbert and Kevin J. Anderson forge a final tumultuous finish to their prequels to Frank Herbert's Dune.It has been fifty-six hard years since the events of The Machine Crusade. Following the death of Serena Butler, the bloodiest decades of the Jihad take place. Synchronized Worlds and Unallied Planets are liberated one by one, and at long last, after years of victory, the human worlds begin to hope that the end of the centuries-long conflict with the thinking machines is finally in sight.Unfortunately, Omnius has one last, deadly card to play. In a last-ditch effort to destroy humankind, virulent plagues are let loose throughout the galaxy, decimating the populations of whole planets . . . and once again, the tide of the titanic struggle shifts against the warriors of the human race. At last, the war that has lasted many lifetimes will be decided in the apocalyptic Battle of Corrin.In the greatest battle in science fiction history, human and machine face off one last time. . . . And on the desert planet of Arrakis, the legendary Fremen of Dune become the feared fighting force to be discovered by Paul Muad'Dib in Frank Herbert's classic, Dune.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "251_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "251_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "251_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "251_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "251_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "251_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "251_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "251_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "251_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11560,
-        "score": 3.75
+    {
+      "status": "maintenance",
+      "stock_id": "251_2"
     },
-    "pages": 482,
-    "title": "The Battle of Corrin",
-    "url": "https://www.goodreads.com/book/show/99220.The_Battle_of_Corrin",
-    "year_published": 2004
+    {
+      "status": "on_loan",
+      "stock_id": "251_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "251_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "251_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "251_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "251_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "251_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11560,
+    "score": 3.75
+  },
+  "pages": 482,
+  "title": "The Battle of Corrin",
+  "url": "https://www.goodreads.com/book/show/99220.The_Battle_of_Corrin",
+  "year_published": 2004
 }

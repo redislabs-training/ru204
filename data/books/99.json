@@ -1,64 +1,64 @@
 {
-    "author": "Sam Esmail",
-    "id": "99",
-    "description": "Step inside the frontlines of the hit TV show\u00a0MR. ROBOT\u00a0with this new in-world fiction book by series creator and showrunner Sam Esmail and series writer Courtney Looney\u2014the first and only book to tie in to USA\u2019s Golden Globe\u00ae Award-winning series. The book will tell a brand-new story, reveal secrets from the show\u2019s second season, and tease developments to come. With removable items from the world of the show, the book will give readers a chance to hold a piece of the series in their own hands. \u00a0MR. ROBOT is a psychological thriller that follows Elliot (Rami Malek, The Pacific), a young programmer, who works as a cyber-security engineer by day and as a vigilante hacker by night. Elliot finds himself at a crossroads when the mysterious leader (Christian Slater, Adderall Diaries) of an underground hacker group recruits him to destroy the firm he is paid to protect.\u00a0The\u00a0New York Times\u00a0called it \u201crelentless, sensational, and unabashedly suspenseful,\u201d the\u00a0New Yorker\u00a0called it \u201cterrific\u201d and listed it among the year\u2019s best TV, and\u00a0Rolling Stone\u00a0said it\u2019s \u201ceasily the year\u2019s most audacious drama\u201d and the \u201cbest TV show of 2015.\u201d Stars Rami Malek and Christian Slater took home a Critics\u2019 Choice\u00ae Award and a Golden Globe Award, respectively, and the show itself received a Golden Globe Award and a Critics\u2019 Choice Award for best television drama, along with\u00a0the prestigious\u00a0Peabody\u00a0award.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 3,
-        "computers (hackers)": 5,
-        "fiction": 30,
-        "mystery": 5,
-        "novels": 2,
-        "science fiction": 8,
-        "science fiction (cyberpunk)": 3,
-        "sequential art (graphic novels)": 2,
-        "the united states of america": 2,
-        "thriller": 2
+  "author": "Sam Esmail",
+  "id": "99",
+  "description": "Step inside the frontlines of the hit TV show MR. ROBOT with this new in-world fiction book by series creator and showrunner Sam Esmail and series writer Courtney Looney—the first and only book to tie in to USA’s Golden Globe® Award-winning series. The book will tell a brand-new story, reveal secrets from the show’s second season, and tease developments to come. With removable items from the world of the show, the book will give readers a chance to hold a piece of the series in their own hands.  MR. ROBOT is a psychological thriller that follows Elliot (Rami Malek, The Pacific), a young programmer, who works as a cyber-security engineer by day and as a vigilante hacker by night. Elliot finds himself at a crossroads when the mysterious leader (Christian Slater, Adderall Diaries) of an underground hacker group recruits him to destroy the firm he is paid to protect. The New York Times called it “relentless, sensational, and unabashedly suspenseful,” the New Yorker called it “terrific” and listed it among the year’s best TV, and Rolling Stone said it’s “easily the year’s most audacious drama” and the “best TV show of 2015.” Stars Rami Malek and Christian Slater took home a Critics’ Choice® Award and a Golden Globe Award, respectively, and the show itself received a Golden Globe Award and a Critics’ Choice Award for best television drama, along with the prestigious Peabody award.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "computers (hackers)",
+    "fiction",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "sequential art (graphic novels)",
+    "the united states of america",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "99_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "99_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "99_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "99_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 769,
-        "score": 4.32
+    {
+      "status": "on_loan",
+      "stock_id": "99_2"
     },
-    "pages": 233,
-    "title": "Mr. Robot: Red Wheelbarrow: (eps1.91_redwheelbarr0w.txt",
-    "url": "https://www.goodreads.com/book/show/29873086-mr-robot",
-    "year_published": 2016
+    {
+      "status": "available",
+      "stock_id": "99_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 769,
+    "score": 4.32
+  },
+  "pages": 233,
+  "title": "Mr. Robot: Red Wheelbarrow: (eps1.91_redwheelbarr0w.txt",
+  "url": "https://www.goodreads.com/book/show/29873086-mr-robot",
+  "year_published": 2016
 }

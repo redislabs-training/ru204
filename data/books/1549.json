@@ -1,42 +1,42 @@
 {
-    "author": "Pete Hamill",
-    "id": "1549",
-    "description": "This widely acclaimed bestseller is the magical, epic tale of an extraordinary man who arrives in New York in 1740 and remains . . . forever. Through the eyes of Cormac O'Connor -- granted immortality as long as he never leaves the island of Manhattan -- we watch New York grow from a tiny settlement on the tip of an untamed wilderness to the thriving metropolis of today. And through Cormac's remarkable adventures in both love and war, we come to know the city's buried secrets -- the way it has been shaped by greed, race, and waves of immigration, by the unleashing of enormous human energies, and, above all, by hope.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "book club": 13,
-        "cultural (ireland)": 21,
-        "fantasy": 118,
-        "fiction": 290,
-        "historical": 44,
-        "historical (historical fiction)": 266,
-        "magical realism": 30,
-        "new york": 59,
-        "novels": 14,
-        "science fiction (time travel)": 24
+  "author": "Pete Hamill",
+  "id": "1549",
+  "description": "This widely acclaimed bestseller is the magical, epic tale of an extraordinary man who arrives in New York in 1740 and remains . . . forever. Through the eyes of Cormac O'Connor -- granted immortality as long as he never leaves the island of Manhattan -- we watch New York grow from a tiny settlement on the tip of an untamed wilderness to the thriving metropolis of today. And through Cormac's remarkable adventures in both love and war, we come to know the city's buried secrets -- the way it has been shaped by greed, race, and waves of immigration, by the unleashing of enormous human energies, and, above all, by hope.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "book club",
+    "cultural (ireland)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "magical realism",
+    "new york",
+    "novels",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1549_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1549_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1549_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1549_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11378,
-        "score": 3.94
+    {
+      "status": "available",
+      "stock_id": "1549_2"
     },
-    "pages": 895,
-    "title": "Forever",
-    "url": "https://www.goodreads.com/book/show/148465.Forever",
-    "year_published": 2002
+    {
+      "status": "on_loan",
+      "stock_id": "1549_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11378,
+    "score": 3.94
+  },
+  "pages": 895,
+  "title": "Forever",
+  "url": "https://www.goodreads.com/book/show/148465.Forever",
+  "year_published": 2002
 }

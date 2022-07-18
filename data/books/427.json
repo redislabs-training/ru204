@@ -1,39 +1,39 @@
 {
-    "author": "Brian Michael Bendis",
-    "id": "427",
-    "description": "It's a blast from the past as the original five students of Professor X - Cyclops, Marvel Girl, Iceman, Angel and Beast - are plucked from the past and brought to the present. But what they find, the state that their future selves are in and the state of Xavier's dream, is far from the future they dreamed of. And how will the X-Men of the present deal with their past coming crashing forward?Collecting: All-New X-Men 1-5",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 68,
-        "comics (superheroes)": 59,
-        "fiction": 30,
-        "graphic novels comics": 62,
-        "marvel (x men)": 112,
-        "science fiction": 24,
-        "science fiction (time travel)": 26,
-        "sequential art (comics)": 612,
-        "sequential art (graphic novels)": 309,
-        "superheroes (marvel)": 162
+  "author": "Brian Michael Bendis",
+  "id": "427",
+  "description": "It's a blast from the past as the original five students of Professor X - Cyclops, Marvel Girl, Iceman, Angel and Beast - are plucked from the past and brought to the present. But what they find, the state that their future selves are in and the state of Xavier's dream, is far from the future they dreamed of. And how will the X-Men of the present deal with their past coming crashing forward?Collecting: All-New X-Men 1-5",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fiction",
+    "graphic novels comics",
+    "marvel (x men)",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "427_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "427_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "427_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6607,
-        "score": 4.04
-    },
-    "pages": 304,
-    "title": "All-New X-Men, Volume 1: Yesterday's X-Men",
-    "url": "https://www.goodreads.com/book/show/16002164-all-new-x-men-volume-1",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "427_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6607,
+    "score": 4.04
+  },
+  "pages": 304,
+  "title": "All-New X-Men, Volume 1: Yesterday's X-Men",
+  "url": "https://www.goodreads.com/book/show/16002164-all-new-x-men-volume-1",
+  "year_published": 2013
 }

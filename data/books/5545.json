@@ -1,64 +1,64 @@
 {
-    "author": "Arthur C. Clarke",
-    "id": "5545",
-    "description": "The Overlords appeared suddenly over every city--intellectually, technologically, and militarily superior to humankind. Benevolent, they made few demands: unify earth, eliminate poverty, and end war. With little rebellion, humankind agreed, and a golden age began.But at what cost? With the advent of peace, man ceases to strive for creative greatness, and a malaise settles over the human race. To those who resist, it becomes evident that the Overlords have an agenda of their own. As civilization approaches the crossroads, will the Overlords spell the end for humankind . . . or the beginning?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 112,
-        "classics": 550,
-        "fantasy": 141,
-        "fiction": 1509,
-        "novels": 114,
-        "science fiction": 4184,
-        "science fiction (aliens)": 152,
-        "science fiction (dystopia)": 153,
-        "science fiction fantasy": 249,
-        "speculative fiction": 106
+  "author": "Arthur C. Clarke",
+  "id": "5545",
+  "description": "The Overlords appeared suddenly over every city--intellectually, technologically, and militarily superior to humankind. Benevolent, they made few demands: unify earth, eliminate poverty, and end war. With little rebellion, humankind agreed, and a golden age began.But at what cost? With the advent of peace, man ceases to strive for creative greatness, and a malaise settles over the human race. To those who resist, it becomes evident that the Overlords have an agenda of their own. As civilization approaches the crossroads, will the Overlords spell the end for humankind . . . or the beginning?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "5545_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "5545_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "5545_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5545_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5545_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5545_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "5545_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "5545_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5545_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 134843,
-        "score": 4.1
+    {
+      "status": "available",
+      "stock_id": "5545_2"
     },
-    "pages": 1273,
-    "title": "Childhood's End",
-    "url": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
-    "year_published": 1953
+    {
+      "status": "on_loan",
+      "stock_id": "5545_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5545_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5545_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "5545_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "5545_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5545_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 134843,
+    "score": 4.1
+  },
+  "pages": 1273,
+  "title": "Childhood's End",
+  "url": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
+  "year_published": 1953
 }

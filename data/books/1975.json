@@ -1,68 +1,68 @@
 {
-    "author": "Lily Brooks-Dalton",
-    "id": "1975",
-    "description": "Augustine, a brilliant, aging astronomer, is consumed by the stars. For years he has lived in remote outposts, studying the sky for evidence of how the universe began. At his latest posting, in a research center in the Arctic, news of a catastrophic event arrives. The scientists are forced to evacuate, but Augustine stubbornly refuses to abandon his work. Shortly after the others have gone, Augustine discovers a mysterious child, Iris, and realizes the airwaves have gone silent. They are alone. At the same time, Mission Specialist Sullivan is aboard the Aether on its return flight from Jupiter. The astronauts are the first human beings to delve this deep into space, and Sully has made peace with the sacrifices required of her: a daughter left behind, a marriage ended. So far the journey has been a success, but when Mission Control falls inexplicably silent, Sully and her crew mates are forced to wonder if they will ever get home. As Augustine and Sully each face an uncertain future against forbidding yet beautiful landscapes, their stories gradually intertwine in a profound and unexpected conclusion. In crystalline prose, Good Morning, Midnight poses the most important questions: What endures at the end of the world? How do we make sense of our lives?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 35,
-        "adult fiction": 33,
-        "apocalyptic (post apocalyptic)": 112,
-        "audiobook": 39,
-        "fiction": 411,
-        "science fiction": 380,
-        "science fiction (apocalyptic)": 49,
-        "science fiction (dystopia)": 114,
-        "science fiction fantasy": 25,
-        "space": 39
+  "author": "Lily Brooks-Dalton",
+  "id": "1975",
+  "description": "Augustine, a brilliant, aging astronomer, is consumed by the stars. For years he has lived in remote outposts, studying the sky for evidence of how the universe began. At his latest posting, in a research center in the Arctic, news of a catastrophic event arrives. The scientists are forced to evacuate, but Augustine stubbornly refuses to abandon his work. Shortly after the others have gone, Augustine discovers a mysterious child, Iris, and realizes the airwaves have gone silent. They are alone. At the same time, Mission Specialist Sullivan is aboard the Aether on its return flight from Jupiter. The astronauts are the first human beings to delve this deep into space, and Sully has made peace with the sacrifices required of her: a daughter left behind, a marriage ended. So far the journey has been a success, but when Mission Control falls inexplicably silent, Sully and her crew mates are forced to wonder if they will ever get home. As Augustine and Sully each face an uncertain future against forbidding yet beautiful landscapes, their stories gradually intertwine in a profound and unexpected conclusion. In crystalline prose, Good Morning, Midnight poses the most important questions: What endures at the end of the world? How do we make sense of our lives?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1975_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1975_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1975_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1975_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1975_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1975_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1975_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1975_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1975_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1975_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11902,
-        "score": 3.93
+    {
+      "status": "on_loan",
+      "stock_id": "1975_2"
     },
-    "pages": 738,
-    "title": "Good Morning, Midnight",
-    "url": "https://www.goodreads.com/book/show/27405160-good-morning-midnight",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "1975_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1975_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1975_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1975_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1975_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1975_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1975_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11902,
+    "score": 3.93
+  },
+  "pages": 738,
+  "title": "Good Morning, Midnight",
+  "url": "https://www.goodreads.com/book/show/27405160-good-morning-midnight",
+  "year_published": 2016
 }

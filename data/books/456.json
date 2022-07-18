@@ -1,42 +1,42 @@
 {
-    "author": "William Hertling",
-    "id": "456",
-    "description": "David Ryan is the designer of ELOPe, an email language optimization program, that if successful, will make his career. But when the project is suddenly in danger of being canceled, David embeds a hidden directive in the software accidentally creating a runaway artificial intelligence.David and his team are initially thrilled when the project is allocated extra servers and programmers. But excitement turns to fear as the team realizes that they are being manipulated by an A.I. who is redirecting corporate funds, reassigning personnel and arming itself in pursuit of its own agenda.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "artificial intelligence": 13,
-        "audiobook": 6,
-        "fiction": 84,
-        "novels": 6,
-        "science fiction": 172,
-        "science fiction (cyberpunk)": 13,
-        "science fiction (near future)": 5,
-        "science fiction fantasy": 6,
-        "singularity": 8,
-        "thriller": 18
+  "author": "William Hertling",
+  "id": "456",
+  "description": "David Ryan is the designer of ELOPe, an email language optimization program, that if successful, will make his career. But when the project is suddenly in danger of being canceled, David embeds a hidden directive in the software accidentally creating a runaway artificial intelligence.David and his team are initially thrilled when the project is allocated extra servers and programmers. But excitement turns to fear as the team realizes that they are being manipulated by an A.I. who is redirecting corporate funds, reassigning personnel and arming itself in pursuit of its own agenda.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "artificial intelligence",
+    "audiobook",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (near future)",
+    "science fiction fantasy",
+    "singularity",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "456_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "456_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "456_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "456_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5611,
-        "score": 3.82
+    {
+      "status": "maintenance",
+      "stock_id": "456_2"
     },
-    "pages": 395,
-    "title": "Avogadro Corp",
-    "url": "https://www.goodreads.com/book/show/13184491-avogadro-corp",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "456_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5611,
+    "score": 3.82
+  },
+  "pages": 395,
+  "title": "Avogadro Corp",
+  "url": "https://www.goodreads.com/book/show/13184491-avogadro-corp",
+  "year_published": 2011
 }

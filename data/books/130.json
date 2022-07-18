@@ -1,42 +1,42 @@
 {
-    "author": "D.D. Barant",
-    "id": "130",
-    "description": "FBI profiler Jace Valchek\u2019s ticket home from the twisted parallel universe where she\u2019s been called to duty hinges on the capture of serial killer Aristotle Stoker\u2014and an alliance with a sorcerer known as Asher. The problem: Asher has joined forces with some of the most dangerous creatures Jace has ever encountered. The solution: There is none, without Asher\u2019s help\u2026Jace\u2019s goal seems simple enough\u2014to get her man, like always. But just hours after she arrives in Vegas, she\u2019s abducted\u2026and she isn\u2019t even sure who the real enemy is. Now Jace has to wonder if she\u2019s the predator or the prey in a very dangerous game that could change not only her fate, but the world\u2019s\u2026Meanwhile, a serial killer is still on the loose. And time has already run out\u2026",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 58,
-        "fantasy (magic)": 29,
-        "fantasy (paranormal)": 66,
-        "fantasy (urban fantasy)": 180,
-        "fiction": 16,
-        "mystery": 19,
-        "paranormal (shapeshifters)": 21,
-        "paranormal (vampires)": 68,
-        "romance (paranormal romance)": 10,
-        "shapeshifters (werewolves)": 22
+  "author": "D.D. Barant",
+  "id": "130",
+  "description": "FBI profiler Jace Valchek’s ticket home from the twisted parallel universe where she’s been called to duty hinges on the capture of serial killer Aristotle Stoker—and an alliance with a sorcerer known as Asher. The problem: Asher has joined forces with some of the most dangerous creatures Jace has ever encountered. The solution: There is none, without Asher’s help…Jace’s goal seems simple enough—to get her man, like always. But just hours after she arrives in Vegas, she’s abducted…and she isn’t even sure who the real enemy is. Now Jace has to wonder if she’s the predator or the prey in a very dangerous game that could change not only her fate, but the world’s…Meanwhile, a serial killer is still on the loose. And time has already run out…",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "paranormal (shapeshifters)",
+    "paranormal (vampires)",
+    "romance (paranormal romance)",
+    "shapeshifters (werewolves)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "130_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "130_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "130_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "130_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2763,
-        "score": 3.9
+    {
+      "status": "maintenance",
+      "stock_id": "130_2"
     },
-    "pages": 765,
-    "title": "Killing Rocks",
-    "url": "https://www.goodreads.com/book/show/7964129-killing-rocks",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "130_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2763,
+    "score": 3.9
+  },
+  "pages": 765,
+  "title": "Killing Rocks",
+  "url": "https://www.goodreads.com/book/show/7964129-killing-rocks",
+  "year_published": 2010
 }

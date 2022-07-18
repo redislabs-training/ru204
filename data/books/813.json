@@ -1,54 +1,54 @@
 {
-    "author": "Robin McKinley",
-    "id": "813",
-    "description": "In this fascinating look at a modern-day world where dragons truly exist, the Newbery Medal-winning author of The Hero and the Crown takes readers into a controversial nature preserve, which about 200 of the worlds few remaining dragons call home.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 18,
-        "fantasy": 658,
-        "fantasy (dragons)": 177,
-        "fantasy (urban fantasy)": 38,
-        "fiction": 83,
-        "science fiction": 23,
-        "science fiction fantasy": 22,
-        "young adult": 199,
-        "young adult (teen)": 25,
-        "young adult (young adult fantasy)": 26
+  "author": "Robin McKinley",
+  "id": "813",
+  "description": "In this fascinating look at a modern-day world where dragons truly exist, the Newbery Medal-winning author of The Hero and the Crown takes readers into a controversial nature preserve, which about 200 of the worlds few remaining dragons call home.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "813_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "813_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "813_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "813_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "813_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "813_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "813_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5813,
-        "score": 3.39
+    {
+      "status": "on_loan",
+      "stock_id": "813_2"
     },
-    "pages": 746,
-    "title": "Dragonhaven",
-    "url": "https://www.goodreads.com/book/show/149338.Dragonhaven",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "813_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "813_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "813_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "813_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5813,
+    "score": 3.39
+  },
+  "pages": 746,
+  "title": "Dragonhaven",
+  "url": "https://www.goodreads.com/book/show/149338.Dragonhaven",
+  "year_published": 2007
 }

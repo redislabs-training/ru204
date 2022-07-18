@@ -1,50 +1,50 @@
 {
-    "author": "Michael Crichton",
-    "id": "4731",
-    "description": "In an Arizona desert, a man wanders in a daze, speaking words that make no sense. Within twenty-four hours he is dead, his body swiftly cremated by his only known associates. Halfway around the world, archaeologists make a shocking discovery at a medieval site. Suddenly they are swept off to the headquarters of a secretive multinational corporation that has developed an astounding technology. Now this group is about to get a chance not to study the past but to enter it. And with history opened up to the present, the dead awakened to the living, these men and women will soon find themselves fighting for their very survival -- six hundred years ago.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 353,
-        "fantasy": 440,
-        "fiction": 2190,
-        "historical": 215,
-        "historical (historical fiction)": 654,
-        "science fiction": 2228,
-        "science fiction (time travel)": 899,
-        "science fiction fantasy": 204,
-        "suspense": 177,
-        "thriller": 938
+  "author": "Michael Crichton",
+  "id": "4731",
+  "description": "In an Arizona desert, a man wanders in a daze, speaking words that make no sense. Within twenty-four hours he is dead, his body swiftly cremated by his only known associates. Halfway around the world, archaeologists make a shocking discovery at a medieval site. Suddenly they are swept off to the headquarters of a secretive multinational corporation that has developed an astounding technology. Now this group is about to get a chance not to study the past but to enter it. And with history opened up to the present, the dead awakened to the living, these men and women will soon find themselves fighting for their very survival -- six hundred years ago.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4731_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4731_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4731_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "4731_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4731_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "4731_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 193804,
-        "score": 3.85
+    {
+      "status": "maintenance",
+      "stock_id": "4731_2"
     },
-    "pages": 452,
-    "title": "Timeline",
-    "url": "https://www.goodreads.com/book/show/7669.Timeline",
-    "year_published": 1999
+    {
+      "status": "available",
+      "stock_id": "4731_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4731_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "4731_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 193804,
+    "score": 3.85
+  },
+  "pages": 452,
+  "title": "Timeline",
+  "url": "https://www.goodreads.com/book/show/7669.Timeline",
+  "year_published": 1999
 }

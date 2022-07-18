@@ -1,50 +1,50 @@
 {
-    "author": "Mike Ashley",
-    "id": "64",
-    "description": "This thought-provoking collection not only takes us into the past and the future, but also explores what might happen if we attempt to manipulate time to our own advantage.These stories show what happen once you start to meddle with time and the paradoxes that might arise. It also raises questions about whether we understand time, and how we perceive it. Once we move outside the present day, can we ever return or do we move into an alternate world? What happens if our meddling with Nature leads to time flowing backwards, or slowing down or stopping all together? Or if we get trapped in a constant loop from which we can never escape. Is the past and future immutable or will we ever be able to escape the inevitable?These are just some of the questions that are raised in these challenging, exciting and sometimes amusing stories by Kage Baker, Simon Clark, Fritz Leiber, Christopher Priest, Kristine Kathryn Rusch, Robert Silverberg, Michael Swanwick, John Varley and many others.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 6,
-        "anthologies (collections)": 2,
-        "fantasy": 5,
-        "fiction": 11,
-        "science fiction": 45,
-        "science fiction (time travel)": 45,
-        "science fiction fantasy": 3,
-        "short stories": 30,
-        "speculative fiction": 2
+  "author": "Mike Ashley",
+  "id": "64",
+  "description": "This thought-provoking collection not only takes us into the past and the future, but also explores what might happen if we attempt to manipulate time to our own advantage.These stories show what happen once you start to meddle with time and the paradoxes that might arise. It also raises questions about whether we understand time, and how we perceive it. Once we move outside the present day, can we ever return or do we move into an alternate world? What happens if our meddling with Nature leads to time flowing backwards, or slowing down or stopping all together? Or if we get trapped in a constant loop from which we can never escape. Is the past and future immutable or will we ever be able to escape the inevitable?These are just some of the questions that are raised in these challenging, exciting and sometimes amusing stories by Kage Baker, Simon Clark, Fritz Leiber, Christopher Priest, Kristine Kathryn Rusch, Robert Silverberg, Michael Swanwick, John Varley and many others.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "64_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "64_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "64_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "64_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "64_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "64_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 420,
-        "score": 3.8
+    {
+      "status": "available",
+      "stock_id": "64_2"
     },
-    "pages": 544,
-    "title": "The Mammoth Book of Time Travel SF",
-    "url": "https://www.goodreads.com/book/show/17290691-the-mammoth-book-of-time-travel-sf",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "64_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "64_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "64_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 420,
+    "score": 3.8
+  },
+  "pages": 544,
+  "title": "The Mammoth Book of Time Travel SF",
+  "url": "https://www.goodreads.com/book/show/17290691-the-mammoth-book-of-time-travel-sf",
+  "year_published": 2013
 }

@@ -1,67 +1,67 @@
 {
-    "author": "Emmy Laybourne",
-    "id": "3009",
-    "description": "Your mother hollers that you're going to miss the bus. She can see it coming down the street. You don't stop and hug her and tell her you love her. You don't thank her for being a good, kind, patient mother. Of course not-you launch yourself down the stairs and make a run for the corner.Only, if it's the last time you'll ever see your mother, you sort of start to wish you'd stopped and did those things. Maybe even missed the bus.But the bus was barreling down our street, so I ran.Fourteen kids. One superstore. A million things that go wrong.When Dean raced out the door to catch the school bus, he didn\u2019t realize it would be the last time he\u2019d ever see his mom. After a freak hailstorm sends the bus crashing into a superstore, Dean and a group of students of all ages are left to fend for themselves. They soon realize the hailstorm and the crash are the least of their worries. After seeing a series of environmental and chemical disasters ravage the outside world, they realize they\u2019re trapped inside the store. Unable to communicate with the ones they love, the group attempts to cobble together a new existence. As they struggle to survive, Dean and the others must decide which risk is greater: leaving\u2026 or staying. Monument 14 is a post-apocalyptic YA novel that transcends age barriers.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 63,
-        "adventure (survival)": 130,
-        "apocalyptic (post apocalyptic)": 190,
-        "fantasy": 55,
-        "fiction": 113,
-        "science fiction": 243,
-        "science fiction (apocalyptic)": 102,
-        "science fiction (dystopia)": 415,
-        "young adult": 706,
-        "young adult (teen)": 73
+  "author": "Emmy Laybourne",
+  "id": "3009",
+  "description": "Your mother hollers that you're going to miss the bus. She can see it coming down the street. You don't stop and hug her and tell her you love her. You don't thank her for being a good, kind, patient mother. Of course not-you launch yourself down the stairs and make a run for the corner.Only, if it's the last time you'll ever see your mother, you sort of start to wish you'd stopped and did those things. Maybe even missed the bus.But the bus was barreling down our street, so I ran.Fourteen kids. One superstore. A million things that go wrong.When Dean raced out the door to catch the school bus, he didn’t realize it would be the last time he’d ever see his mom. After a freak hailstorm sends the bus crashing into a superstore, Dean and a group of students of all ages are left to fend for themselves. They soon realize the hailstorm and the crash are the least of their worries. After seeing a series of environmental and chemical disasters ravage the outside world, they realize they’re trapped inside the store. Unable to communicate with the ones they love, the group attempts to cobble together a new existence. As they struggle to survive, Dean and the others must decide which risk is greater: leaving… or staying. Monument 14 is a post-apocalyptic YA novel that transcends age barriers.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3009_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3009_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3009_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3009_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3009_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3009_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "3009_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "3009_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "3009_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3009_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22019,
-        "score": 3.9
+    {
+      "status": "on_loan",
+      "stock_id": "3009_2"
     },
-    "pages": 1065,
-    "title": "Monument 14",
-    "url": "https://www.goodreads.com/book/show/12753231-monument-14",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "3009_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3009_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3009_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "3009_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "3009_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "3009_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3009_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22019,
+    "score": 3.9
+  },
+  "pages": 1065,
+  "title": "Monument 14",
+  "url": "https://www.goodreads.com/book/show/12753231-monument-14",
+  "year_published": 2012
 }

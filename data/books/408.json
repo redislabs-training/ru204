@@ -1,48 +1,48 @@
 {
-    "author": "Saci Lloyd",
-    "id": "408",
-    "description": "It's January 1st, 2015, and the UK is the first nation to introduce carbon dioxide rationing in a drastic bid to combat climate change. As her family spirals out of control, Laura Brown chronicles the first year of rationing with scathing abandon.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 13,
-        "environment": 20,
-        "environment (climate change)": 9,
-        "european literature (british literature)": 9,
-        "fiction": 52,
-        "realistic fiction": 13,
-        "science fiction": 65,
-        "science fiction (dystopia)": 63,
-        "young adult": 141,
-        "young adult (teen)": 40
+  "author": "Saci Lloyd",
+  "id": "408",
+  "description": "It's January 1st, 2015, and the UK is the first nation to introduce carbon dioxide rationing in a drastic bid to combat climate change. As her family spirals out of control, Laura Brown chronicles the first year of rationing with scathing abandon.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "environment",
+    "environment (climate change)",
+    "european literature (british literature)",
+    "fiction",
+    "realistic fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "408_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "408_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "408_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "408_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "408_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2485,
-        "score": 3.36
+    {
+      "status": "on_loan",
+      "stock_id": "408_2"
     },
-    "pages": 485,
-    "title": "The Carbon Diaries 2015",
-    "url": "https://www.goodreads.com/book/show/4935015-the-carbon-diaries-2015",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "408_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "408_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2485,
+    "score": 3.36
+  },
+  "pages": 485,
+  "title": "The Carbon Diaries 2015",
+  "url": "https://www.goodreads.com/book/show/4935015-the-carbon-diaries-2015",
+  "year_published": 2008
 }

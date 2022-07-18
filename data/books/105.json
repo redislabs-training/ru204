@@ -1,34 +1,34 @@
 {
-    "author": "Brett Battles",
-    "id": "105",
-    "description": "With the whole of human history altered, Denny Younger may be the last rewinder in existence\u2013and the last person on earth with a chaser unit capable of time travel. While caring for his ailing sister, Denny must discover a way to recharge his device before he\u2019s left with no defense against a past that wants him dead.Before long, Denny notices a mysterious stranger following him\u2013keeping tabs on Denny, his family, and his friends. Is Denny just paranoid? Or maybe he isn\u2019t alone in this new reality after all.\u2026When his chaser is stolen and his girlfriend is kidnapped, Denny risks everything to get both of them back. Launched into a high-stakes chase that spans continents and millennia, Denny\u2019s responsibility to save our future isn\u2019t over yet. It will take all of his cunning to stop a threat capable of steering the fate of the human race into disaster.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 2,
-        "audiobook": 2,
-        "business (amazon)": 2,
-        "fantasy": 5,
-        "fiction": 7,
-        "science fiction": 19,
-        "science fiction (dystopia)": 3,
-        "science fiction (time travel)": 25,
-        "science fiction fantasy": 3,
-        "young adult": 5
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "105_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1402,
-        "score": 3.79
-    },
-    "pages": 305,
-    "title": "Destroyer",
-    "url": "https://www.goodreads.com/book/show/25959672-destroyer",
-    "year_published": 2016
+  "author": "Brett Battles",
+  "id": "105",
+  "description": "With the whole of human history altered, Denny Younger may be the last rewinder in existence–and the last person on earth with a chaser unit capable of time travel. While caring for his ailing sister, Denny must discover a way to recharge his device before he’s left with no defense against a past that wants him dead.Before long, Denny notices a mysterious stranger following him–keeping tabs on Denny, his family, and his friends. Is Denny just paranoid? Or maybe he isn’t alone in this new reality after all.…When his chaser is stolen and his girlfriend is kidnapped, Denny risks everything to get both of them back. Launched into a high-stakes chase that spans continents and millennia, Denny’s responsibility to save our future isn’t over yet. It will take all of his cunning to stop a threat capable of steering the fate of the human race into disaster.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "audiobook",
+    "business (amazon)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "105_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1402,
+    "score": 3.79
+  },
+  "pages": 305,
+  "title": "Destroyer",
+  "url": "https://www.goodreads.com/book/show/25959672-destroyer",
+  "year_published": 2016
 }

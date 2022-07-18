@@ -1,47 +1,47 @@
 {
-    "author": "Edward Eager",
-    "id": "1616",
-    "description": "Four children wish on a Half Magic coin that gets their mother Alison half-way home, rescued by Mr Smith. Mark's wish zaps them to a desert without island, where half-talking cat Carrie gabbles to a camel. Romantic Katherine battles Launcelot. Eldest Jane rejects siblings for another family. Stubborn youngest, Martha, causes a riot downtown.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 75,
-        "childrens": 376,
-        "childrens (juvenile)": 71,
-        "childrens (middle grade)": 217,
-        "classics": 130,
-        "fantasy": 1120,
-        "fantasy (magic)": 111,
-        "fiction": 316,
-        "humor": 40,
-        "young adult": 133
+  "author": "Edward Eager",
+  "id": "1616",
+  "description": "Four children wish on a Half Magic coin that gets their mother Alison half-way home, rescued by Mr Smith. Mark's wish zaps them to a desert without island, where half-talking cat Carrie gabbles to a camel. Romantic Katherine battles Launcelot. Eldest Jane rejects siblings for another family. Stubborn youngest, Martha, causes a riot downtown.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1616_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1616_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1616_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1616_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1616_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 36045,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "1616_2"
     },
-    "pages": 380,
-    "title": "Half Magic",
-    "url": "https://www.goodreads.com/book/show/225038.Half_Magic",
-    "year_published": 1954
+    {
+      "status": "available",
+      "stock_id": "1616_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1616_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 36045,
+    "score": 3.93
+  },
+  "pages": 380,
+  "title": "Half Magic",
+  "url": "https://www.goodreads.com/book/show/225038.Half_Magic",
+  "year_published": 1954
 }

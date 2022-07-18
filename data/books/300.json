@@ -1,48 +1,48 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "300",
-    "description": "From New York Times bestselling author Margaret Peterson Haddix comes the first book in a brand-new thrilling series about twins who are on a quest to discover the secrets being kept by their new family.Nick and Eryn's mom is getting remarried, and the twelve-year-old twins are skeptical when she tells them their lives won't change much. Well, yes, they will have to move. And they will have a new stepfather, stepbrother, and stepsister. But Mom tells them not to worry. They won't ever have to meet their stepsiblings.This news puzzles Nick and Eryn, so the twins set out on a mission to find out who these kids are - and why they're being kept hidden.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 10,
-        "childrens": 10,
-        "childrens (juvenile)": 8,
-        "childrens (middle grade)": 69,
-        "fantasy": 10,
-        "fiction": 12,
-        "mystery": 24,
-        "science fiction": 77,
-        "science fiction (dystopia)": 13,
-        "young adult": 22
+  "author": "Margaret Peterson Haddix",
+  "id": "300",
+  "description": "From New York Times bestselling author Margaret Peterson Haddix comes the first book in a brand-new thrilling series about twins who are on a quest to discover the secrets being kept by their new family.Nick and Eryn's mom is getting remarried, and the twelve-year-old twins are skeptical when she tells them their lives won't change much. Well, yes, they will have to move. And they will have a new stepfather, stepbrother, and stepsister. But Mom tells them not to worry. They won't ever have to meet their stepsiblings.This news puzzles Nick and Eryn, so the twins set out on a mission to find out who these kids are - and why they're being kept hidden.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "300_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "300_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "300_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "300_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "300_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1658,
-        "score": 3.85
+    {
+      "status": "available",
+      "stock_id": "300_2"
     },
-    "pages": 1170,
-    "title": "Under Their Skin",
-    "url": "https://www.goodreads.com/book/show/25785792-under-their-skin",
-    "year_published": 2016
+    {
+      "status": "available",
+      "stock_id": "300_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "300_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1658,
+    "score": 3.85
+  },
+  "pages": 1170,
+  "title": "Under Their Skin",
+  "url": "https://www.goodreads.com/book/show/25785792-under-their-skin",
+  "year_published": 2016
 }

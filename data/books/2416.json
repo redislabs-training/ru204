@@ -1,52 +1,52 @@
 {
-    "author": "Peng Shepherd",
-    "id": "2416",
-    "description": "Set in a dangerous near future world, The Book of M tells the captivating story of a group of ordinary people caught in an extraordinary catastrophe who risk everything to save the ones they love. It is a sweeping debut that illuminates the power that memories have not only on the heart, but on the world itself.One afternoon at an outdoor market in India, a man\u2019s shadow disappears\u2014an occurrence science cannot explain. He is only the first. The phenomenon spreads like a plague, and while those afflicted gain a strange new power, it comes at a horrible price: the loss of all their memories.Ory and his wife Max have escaped the Forgetting so far by hiding in an abandoned hotel deep in the woods. Their new life feels almost normal, until one day Max\u2019s shadow disappears too.Knowing that the more she forgets, the more dangerous she will become to Ory, Max runs away. But Ory refuses to give up the time they have left together. Desperate to find Max before her memory disappears completely, he follows her trail across a perilous, unrecognizable world, braving the threat of roaming bandits, the call to a new war being waged on the ruins of the capital, and the rise of a sinister cult that worships the shadowless.As they journey, each searches for answers: for Ory, about love, about survival, about hope; and for Max, about a new force growing in the south that may hold the cure.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 65,
-        "apocalyptic (post apocalyptic)": 105,
-        "audiobook": 67,
-        "fantasy": 557,
-        "fiction": 385,
-        "magical realism": 46,
-        "science fiction": 308,
-        "science fiction (apocalyptic)": 46,
-        "science fiction (dystopia)": 265,
-        "science fiction fantasy": 46
+  "author": "Peng Shepherd",
+  "id": "2416",
+  "description": "Set in a dangerous near future world, The Book of M tells the captivating story of a group of ordinary people caught in an extraordinary catastrophe who risk everything to save the ones they love. It is a sweeping debut that illuminates the power that memories have not only on the heart, but on the world itself.One afternoon at an outdoor market in India, a man’s shadow disappears—an occurrence science cannot explain. He is only the first. The phenomenon spreads like a plague, and while those afflicted gain a strange new power, it comes at a horrible price: the loss of all their memories.Ory and his wife Max have escaped the Forgetting so far by hiding in an abandoned hotel deep in the woods. Their new life feels almost normal, until one day Max’s shadow disappears too.Knowing that the more she forgets, the more dangerous she will become to Ory, Max runs away. But Ory refuses to give up the time they have left together. Desperate to find Max before her memory disappears completely, he follows her trail across a perilous, unrecognizable world, braving the threat of roaming bandits, the call to a new war being waged on the ruins of the capital, and the rise of a sinister cult that worships the shadowless.As they journey, each searches for answers: for Ory, about love, about survival, about hope; and for Max, about a new force growing in the south that may hold the cure.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "magical realism",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2416_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2416_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2416_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2416_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2416_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2416_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13066,
-        "score": 3.69
+    {
+      "status": "maintenance",
+      "stock_id": "2416_2"
     },
-    "pages": 1114,
-    "title": "The Book of M",
-    "url": "https://www.goodreads.com/book/show/36204070-the-book-of-m",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "2416_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2416_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2416_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13066,
+    "score": 3.69
+  },
+  "pages": 1114,
+  "title": "The Book of M",
+  "url": "https://www.goodreads.com/book/show/36204070-the-book-of-m",
+  "year_published": 2018
 }

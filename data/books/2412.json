@@ -1,36 +1,36 @@
 {
-    "author": "Isaac Asimov",
-    "id": "2412",
-    "description": "Andrew Harlan is an Eternal, a man whose job it is to range through past and present Centuries, monitoring and, where necessary, altering Time's myriad cause-and-effect relationships. But when Harlan meets and falls for a non-Eternal woman, he seeks to use the awesome powers and techniques of the Eternals to twist time for his own purposes, so that he and his love can survive together.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 58,
-        "classics": 126,
-        "fantasy": 51,
-        "fiction": 527,
-        "novels": 55,
-        "science fiction": 1668,
-        "science fiction (dystopia)": 43,
-        "science fiction (time travel)": 347,
-        "science fiction fantasy": 65,
-        "speculative fiction": 32
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2412_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 45739,
-        "score": 4.24
-    },
-    "pages": 1318,
-    "title": "The End of Eternity",
-    "url": "https://www.goodreads.com/book/show/509784.The_End_of_Eternity",
-    "year_published": 1955
+  "author": "Isaac Asimov",
+  "id": "2412",
+  "description": "Andrew Harlan is an Eternal, a man whose job it is to range through past and present Centuries, monitoring and, where necessary, altering Time's myriad cause-and-effect relationships. But when Harlan meets and falls for a non-Eternal woman, he seeks to use the awesome powers and techniques of the Eternals to twist time for his own purposes, so that he and his love can survive together.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2412_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 45739,
+    "score": 4.24
+  },
+  "pages": 1318,
+  "title": "The End of Eternity",
+  "url": "https://www.goodreads.com/book/show/509784.The_End_of_Eternity",
+  "year_published": 1955
 }

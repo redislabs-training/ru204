@@ -1,54 +1,54 @@
 {
-    "author": "Kate Atkinson",
-    "id": "770",
-    "description": "New York Times Book Review Notable Book of the YearPart fairy tale, part mystery, part coming-of-age novel, this novel tells the story of Isobel Fairfax, a girl growing up in Lythe, a typical 1960s British suburb. But Lythe was once the heart of an Elizabethan feudal estate and home to a young English tutor named William Shakespeare, and as Isobel investigates the strange history of her family, her neighbors, and her village, she occasionally gets caught in Shakespearean time warps. Meanwhile, she gets closer to the shocking truths about her missing mother, her war-hero father, and the hidden lives of her close friends and classmates. A stunning feat of imagination and storytelling, Kate Atkinson's Human Croquet is rich with the disappointments and possibilities every family shares.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "contemporary": 32,
-        "european literature (british literature)": 31,
-        "fantasy": 65,
-        "fiction": 277,
-        "historical (historical fiction)": 52,
-        "literary fiction": 37,
-        "magical realism": 23,
-        "mystery": 24,
-        "novels": 19,
-        "science fiction (time travel)": 39
+  "author": "Kate Atkinson",
+  "id": "770",
+  "description": "New York Times Book Review Notable Book of the YearPart fairy tale, part mystery, part coming-of-age novel, this novel tells the story of Isobel Fairfax, a girl growing up in Lythe, a typical 1960s British suburb. But Lythe was once the heart of an Elizabethan feudal estate and home to a young English tutor named William Shakespeare, and as Isobel investigates the strange history of her family, her neighbors, and her village, she occasionally gets caught in Shakespearean time warps. Meanwhile, she gets closer to the shocking truths about her missing mother, her war-hero father, and the hidden lives of her close friends and classmates. A stunning feat of imagination and storytelling, Kate Atkinson's Human Croquet is rich with the disappointments and possibilities every family shares.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "contemporary",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literary fiction",
+    "magical realism",
+    "mystery",
+    "novels",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "770_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "770_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "770_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "770_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "770_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "770_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "770_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9258,
-        "score": 3.72
+    {
+      "status": "maintenance",
+      "stock_id": "770_2"
     },
-    "pages": 1198,
-    "title": "Human Croquet",
-    "url": "https://www.goodreads.com/book/show/41688.Human_Croquet",
-    "year_published": 1997
+    {
+      "status": "available",
+      "stock_id": "770_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "770_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "770_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "770_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9258,
+    "score": 3.72
+  },
+  "pages": 1198,
+  "title": "Human Croquet",
+  "url": "https://www.goodreads.com/book/show/41688.Human_Croquet",
+  "year_published": 1997
 }

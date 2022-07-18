@@ -1,35 +1,35 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "2312",
-    "description": "Brian K. Vaughan, #1 New York Times bestselling writer of SAGA, and Cliff Chiang, legendary artist of WONDER WOMAN, return with acclaimed colorist Matt Wilson and innovative letterer JAred K. Fletcher for the second volume of PAPER GIRLS, as the hit series continues with a bold new direction.After surviving the strangest night of their lives in the Cleveland suburb of Stony Stream, intrepid young newspaper deliverers Erin, Mac, and Tiffany find themselves launched from 1988 to a distant and terrifying future... the year 2016.What would you do if you were suddenly confronted by your 12-year-old self? 40-year-old newspaper reporter Erin Tieng is about to find out in this action-packed story about identity, mortality, and growing older in the 21st century.Collects PAPER GIRLS #6-#10",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 75,
-        "comics (comic book)": 99,
-        "fantasy": 148,
-        "fiction": 275,
-        "graphic novels comics": 240,
-        "science fiction": 556,
-        "science fiction (time travel)": 232,
-        "sequential art (comics)": 1222,
-        "sequential art (graphic novels)": 1936,
-        "young adult": 211
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2312_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22705,
-        "score": 4.14
-    },
-    "pages": 1216,
-    "title": "Paper Girls, Vol. 2",
-    "url": "https://www.goodreads.com/book/show/31338724-paper-girls-vol-2",
-    "year_published": 2016
+  "author": "Brian K. Vaughan",
+  "id": "2312",
+  "description": "Brian K. Vaughan, #1 New York Times bestselling writer of SAGA, and Cliff Chiang, legendary artist of WONDER WOMAN, return with acclaimed colorist Matt Wilson and innovative letterer JAred K. Fletcher for the second volume of PAPER GIRLS, as the hit series continues with a bold new direction.After surviving the strangest night of their lives in the Cleveland suburb of Stony Stream, intrepid young newspaper deliverers Erin, Mac, and Tiffany find themselves launched from 1988 to a distant and terrifying future... the year 2016.What would you do if you were suddenly confronted by your 12-year-old self? 40-year-old newspaper reporter Erin Tieng is about to find out in this action-packed story about identity, mortality, and growing older in the 21st century.Collects PAPER GIRLS #6-#10",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2312_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22705,
+    "score": 4.14
+  },
+  "pages": 1216,
+  "title": "Paper Girls, Vol. 2",
+  "url": "https://www.goodreads.com/book/show/31338724-paper-girls-vol-2",
+  "year_published": 2016
 }

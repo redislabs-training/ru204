@@ -1,43 +1,43 @@
 {
-    "author": "Liu Cixin",
-    "id": "16085",
-    "description": "The Three-Body Problem is the first chance for English-speaking readers to experience the Hugo Award-winning phenomenon from China's most beloved science fiction author, Liu Cixin.Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space to establish contact with aliens. An alien civilization on the brink of destruction captures the signal and plans to invade Earth. Meanwhile, on Earth, different camps start forming, planning to either welcome the superior beings and help them take over a world seen as corrupt, or to fight against the invasion. The result is a science fiction masterpiece of enormous scope and vision.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 282,
-        "cultural (asia)": 149,
-        "cultural (china)": 533,
-        "fantasy": 263,
-        "fiction": 2956,
-        "novels": 169,
-        "science fiction": 5065,
-        "science fiction (aliens)": 192,
-        "science fiction fantasy": 367,
-        "speculative fiction": 155
+  "author": "Liu Cixin",
+  "id": "16085",
+  "description": "The Three-Body Problem is the first chance for English-speaking readers to experience the Hugo Award-winning phenomenon from China's most beloved science fiction author, Liu Cixin.Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space to establish contact with aliens. An alien civilization on the brink of destruction captures the signal and plans to invade Earth. Meanwhile, on Earth, different camps start forming, planning to either welcome the superior beings and help them take over a world seen as corrupt, or to fight against the invasion. The result is a science fiction masterpiece of enormous scope and vision.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "cultural (asia)",
+    "cultural (china)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "16085_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "16085_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16085_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16085_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 161867,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "16085_2"
     },
-    "pages": 1216,
-    "title": "The Three-Body Problem",
-    "url": "https://www.goodreads.com/book/show/20518872-the-three-body-problem",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "16085_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 161867,
+    "score": 4.06
+  },
+  "pages": 1216,
+  "title": "The Three-Body Problem",
+  "url": "https://www.goodreads.com/book/show/20518872-the-three-body-problem",
+  "year_published": 2006
 }

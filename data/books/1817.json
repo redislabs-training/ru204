@@ -1,58 +1,58 @@
 {
-    "author": "Kim Stanley Robinson",
-    "id": "1817",
-    "description": "It is 2140. The waters rose, submerging New York City. But the residents adapted and it remained the bustling, vibrant metropolis it had always been. Though changed forever.Every street became a canal. Every skyscraper an island.Through the eyes of the varied inhabitants of one building, Kim Stanley Robinson shows us how one of our great cities will change with the rising tides.And how we too will change.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 51,
-        "audiobook": 62,
-        "environment (climate change)": 39,
-        "fiction": 365,
-        "new york": 33,
-        "science fiction": 628,
-        "science fiction (climate change fiction)": 34,
-        "science fiction (dystopia)": 80,
-        "science fiction fantasy": 43,
-        "speculative fiction": 40
+  "author": "Kim Stanley Robinson",
+  "id": "1817",
+  "description": "It is 2140. The waters rose, submerging New York City. But the residents adapted and it remained the bustling, vibrant metropolis it had always been. Though changed forever.Every street became a canal. Every skyscraper an island.Through the eyes of the varied inhabitants of one building, Kim Stanley Robinson shows us how one of our great cities will change with the rising tides.And how we too will change.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "environment (climate change)",
+    "fiction",
+    "new york",
+    "science fiction",
+    "science fiction (climate change fiction)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1817_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1817_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1817_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1817_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1817_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1817_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1817_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1817_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10475,
-        "score": 3.56
+    {
+      "status": "available",
+      "stock_id": "1817_2"
     },
-    "pages": 683,
-    "title": "New York 2140",
-    "url": "https://www.goodreads.com/book/show/29570143-new-york-2140",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "1817_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1817_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1817_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1817_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1817_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10475,
+    "score": 3.56
+  },
+  "pages": 683,
+  "title": "New York 2140",
+  "url": "https://www.goodreads.com/book/show/29570143-new-york-2140",
+  "year_published": 2017
 }

@@ -1,43 +1,43 @@
 {
-    "author": "Austin Aslan",
-    "id": "420",
-    "description": "Right before my eyes, my beautiful islands are changing forever. And so am I ...Sixteen-year-old Leilani loves surfing and her home in Hilo, on the Big Island of Hawaii. But she's an outsider - half white, half Hawaiian, and an epileptic.While Lei and her father are on a visit to Oahu, a global disaster strikes. Technology and power fail, Hawaii is cut off from the world, and the islands revert to traditional ways of survival. As Lei and her dad embark on a nightmarish journey across islands to reach home and family, she learns that her epilepsy and her deep connection to Hawaii could be keys to ending the crisis before it becomes worse than anyone can imagine.A powerful story enriched by fascinating elements of Hawaiian ecology, culture, and warfare, this captivating and dramatic debut from Austin Aslan is the first of two novels. The author has a master\u2019s degree in tropical conservation biology from the University of Hawaii at Hilo.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 36,
-        "adventure (survival)": 39,
-        "apocalyptic (post apocalyptic)": 41,
-        "fantasy": 22,
-        "fiction": 38,
-        "science fiction": 88,
-        "science fiction (apocalyptic)": 27,
-        "science fiction (dystopia)": 56,
-        "young adult": 157,
-        "young adult (teen)": 16
+  "author": "Austin Aslan",
+  "id": "420",
+  "description": "Right before my eyes, my beautiful islands are changing forever. And so am I ...Sixteen-year-old Leilani loves surfing and her home in Hilo, on the Big Island of Hawaii. But she's an outsider - half white, half Hawaiian, and an epileptic.While Lei and her father are on a visit to Oahu, a global disaster strikes. Technology and power fail, Hawaii is cut off from the world, and the islands revert to traditional ways of survival. As Lei and her dad embark on a nightmarish journey across islands to reach home and family, she learns that her epilepsy and her deep connection to Hawaii could be keys to ending the crisis before it becomes worse than anyone can imagine.A powerful story enriched by fascinating elements of Hawaiian ecology, culture, and warfare, this captivating and dramatic debut from Austin Aslan is the first of two novels. The author has a master’s degree in tropical conservation biology from the University of Hawaii at Hilo.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "420_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "420_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "420_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "420_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2077,
-        "score": 3.66
+    {
+      "status": "available",
+      "stock_id": "420_2"
     },
-    "pages": 282,
-    "title": "The Islands at the End of the World",
-    "url": "https://www.goodreads.com/book/show/18811324-the-islands-at-the-end-of-the-world",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "420_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2077,
+    "score": 3.66
+  },
+  "pages": 282,
+  "title": "The Islands at the End of the World",
+  "url": "https://www.goodreads.com/book/show/18811324-the-islands-at-the-end-of-the-world",
+  "year_published": 2014
 }

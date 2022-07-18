@@ -1,64 +1,64 @@
 {
-    "author": "Mackenzi Lee",
-    "id": "586",
-    "description": "In 1818 Geneva, men built with clockwork parts live hidden away from society, cared for only by illegal mechanics called Shadow Boys. Two years ago, Shadow Boy Alasdair Finch\u2019s life shattered to bits.His brother, Oliver\u2014dead.His sweetheart, Mary\u2014gone.His chance to break free of Geneva\u2014lost.Heart-broken and desperate, Alasdair does the unthinkable: He brings Oliver back from the dead.But putting back together a broken life is more difficult than mending bones and adding clockwork pieces. Oliver returns more monster than man, and Alasdair\u2019s horror further damages the already troubled relationship.Then comes the publication of Frankenstein and the city intensifies its search for Shadow Boys, aiming to discover the real life doctor and his monster. Alasdair finds refuge with his idol, the brilliant Dr. Geisler, who may offer him a way to escape the dangerous present and his guilt-ridden past, but at a horrible price only Oliver can pay\u2026",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 157,
-        "fiction": 48,
-        "gothic": 31,
-        "historical": 88,
-        "historical (historical fiction)": 182,
-        "horror": 57,
-        "retellings": 152,
-        "science fiction": 91,
-        "science fiction (steampunk)": 188,
-        "young adult": 266
+  "author": "Mackenzi Lee",
+  "id": "586",
+  "description": "In 1818 Geneva, men built with clockwork parts live hidden away from society, cared for only by illegal mechanics called Shadow Boys. Two years ago, Shadow Boy Alasdair Finch’s life shattered to bits.His brother, Oliver—dead.His sweetheart, Mary—gone.His chance to break free of Geneva—lost.Heart-broken and desperate, Alasdair does the unthinkable: He brings Oliver back from the dead.But putting back together a broken life is more difficult than mending bones and adding clockwork pieces. Oliver returns more monster than man, and Alasdair’s horror further damages the already troubled relationship.Then comes the publication of Frankenstein and the city intensifies its search for Shadow Boys, aiming to discover the real life doctor and his monster. Alasdair finds refuge with his idol, the brilliant Dr. Geisler, who may offer him a way to escape the dangerous present and his guilt-ridden past, but at a horrible price only Oliver can pay…",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "gothic",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "retellings",
+    "science fiction",
+    "science fiction (steampunk)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "586_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "586_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "586_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "586_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2244,
-        "score": 3.76
+    {
+      "status": "on_loan",
+      "stock_id": "586_2"
     },
-    "pages": 562,
-    "title": "This Monstrous Thing",
-    "url": "https://www.goodreads.com/book/show/22811807-this-monstrous-thing",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "586_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "586_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "586_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "586_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "586_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "586_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2244,
+    "score": 3.76
+  },
+  "pages": 562,
+  "title": "This Monstrous Thing",
+  "url": "https://www.goodreads.com/book/show/22811807-this-monstrous-thing",
+  "year_published": 2015
 }

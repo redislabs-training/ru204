@@ -1,35 +1,35 @@
 {
-    "author": "Jeff Lemire",
-    "id": "290",
-    "description": "When a visitor from the outside world arrives on the Farm, looking for the Black Hammer and bringing news of Spiral City to its Golden Age heroes, everything changes. Her arrival stirs up old memories and awakens new hope in the marooned heroes and they make a new attempt to escape their strange prison.COLLECTS: Black Hammer 7-11, 13",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 27,
-        "comics (superheroes)": 44,
-        "fantasy": 35,
-        "fiction": 28,
-        "graphic novels comics": 28,
-        "mystery": 10,
-        "science fiction": 26,
-        "sequential art (comics)": 213,
-        "sequential art (comix)": 9,
-        "sequential art (graphic novels)": 186
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "290_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3145,
-        "score": 4.34
-    },
-    "pages": 865,
-    "title": "Black Hammer, Vol. 2: The Event",
-    "url": "https://www.goodreads.com/book/show/34954925-black-hammer-vol-2",
-    "year_published": 2018
+  "author": "Jeff Lemire",
+  "id": "290",
+  "description": "When a visitor from the outside world arrives on the Farm, looking for the Black Hammer and bringing news of Spiral City to its Golden Age heroes, everything changes. Her arrival stirs up old memories and awakens new hope in the marooned heroes and they make a new attempt to escape their strange prison.COLLECTS: Black Hammer 7-11, 13",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "mystery",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "290_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3145,
+    "score": 4.34
+  },
+  "pages": 865,
+  "title": "Black Hammer, Vol. 2: The Event",
+  "url": "https://www.goodreads.com/book/show/34954925-black-hammer-vol-2",
+  "year_published": 2018
 }

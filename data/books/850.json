@@ -1,66 +1,66 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "850",
-    "description": "The capstone and crowning achievement of Heinlein's famous Future History, Time Enough for Love follows Lazarus Long through a vast and magnificent timescape of centuries and worlds. Heinlein's longest and most ambitious work, it is the story of a man so in love with Life that he refused to stop living it.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 18,
-        "classics": 35,
-        "fantasy": 67,
-        "fiction": 321,
-        "novels": 20,
-        "science fiction": 1069,
-        "science fiction (time travel)": 70,
-        "science fiction fantasy": 89,
-        "space": 12,
-        "speculative fiction": 33
+  "author": "Robert A. Heinlein",
+  "id": "850",
+  "description": "The capstone and crowning achievement of Heinlein's famous Future History, Time Enough for Love follows Lazarus Long through a vast and magnificent timescape of centuries and worlds. Heinlein's longest and most ambitious work, it is the story of a man so in love with Life that he refused to stop living it.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "850_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "850_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "850_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "850_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "850_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 32883,
-        "score": 3.97
+    {
+      "status": "maintenance",
+      "stock_id": "850_2"
     },
-    "pages": 1205,
-    "title": "Time Enough for Love",
-    "url": "https://www.goodreads.com/book/show/353.Time_Enough_for_Love",
-    "year_published": 1973
+    {
+      "status": "maintenance",
+      "stock_id": "850_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "850_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "850_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "850_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "850_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "850_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "850_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 32883,
+    "score": 3.97
+  },
+  "pages": 1205,
+  "title": "Time Enough for Love",
+  "url": "https://www.goodreads.com/book/show/353.Time_Enough_for_Love",
+  "year_published": 1973
 }

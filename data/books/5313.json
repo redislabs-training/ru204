@@ -1,60 +1,60 @@
 {
-    "author": "Karen Thompson Walker",
-    "id": "5313",
-    "description": "In an isolated college town in the hills of Southern California, a freshman girl stumbles into her dorm room, falls asleep\u2014and doesn\u2019t wake up. She sleeps through the morning, into the evening. Her roommate, Mei, cannot rouse her. Neither can the paramedics who carry her away, nor the perplexed doctors at the hospital. Then a second girl falls asleep, and then another, and panic takes hold of the college and spreads to the town. As the number of cases multiplies, classes are canceled, and stores begin to run out of supplies. A quarantine is established. The National Guard is summoned. Mei, an outsider in the cliquish hierarchy of dorm life, finds herself thrust together with an eccentric, idealistic classmate. Two visiting professors try to protect their newborn baby as the once-quiet streets descend into chaos. A father succumbs to the illness, leaving his daughters to fend for themselves. And at the hospital, a new life grows within a college girl, unbeknownst to her\u2014even as she sleeps. A psychiatrist, summoned from Los Angeles, attempts to make sense of the illness as it spreads through the town. Those infected are displaying unusual levels of brain activity, more than has ever been recorded. They are dreaming heightened dreams\u2014but of what?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 127,
-        "adult fiction": 107,
-        "audiobook": 122,
-        "contemporary": 138,
-        "fantasy": 102,
-        "fiction": 798,
-        "literary fiction": 70,
-        "mystery": 87,
-        "science fiction": 460,
-        "science fiction (dystopia)": 84
+  "author": "Karen Thompson Walker",
+  "id": "5313",
+  "description": "In an isolated college town in the hills of Southern California, a freshman girl stumbles into her dorm room, falls asleep—and doesn’t wake up. She sleeps through the morning, into the evening. Her roommate, Mei, cannot rouse her. Neither can the paramedics who carry her away, nor the perplexed doctors at the hospital. Then a second girl falls asleep, and then another, and panic takes hold of the college and spreads to the town. As the number of cases multiplies, classes are canceled, and stores begin to run out of supplies. A quarantine is established. The National Guard is summoned. Mei, an outsider in the cliquish hierarchy of dorm life, finds herself thrust together with an eccentric, idealistic classmate. Two visiting professors try to protect their newborn baby as the once-quiet streets descend into chaos. A father succumbs to the illness, leaving his daughters to fend for themselves. And at the hospital, a new life grows within a college girl, unbeknownst to her—even as she sleeps. A psychiatrist, summoned from Los Angeles, attempts to make sense of the illness as it spreads through the town. Those infected are displaying unusual levels of brain activity, more than has ever been recorded. They are dreaming heightened dreams—but of what?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "literary fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5313_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5313_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5313_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5313_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5313_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5313_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5313_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5313_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 30579,
-        "score": 3.66
+    {
+      "status": "on_loan",
+      "stock_id": "5313_2"
     },
-    "pages": 531,
-    "title": "The Dreamers",
-    "url": "https://www.goodreads.com/book/show/34409176-the-dreamers",
-    "year_published": 2019
+    {
+      "status": "available",
+      "stock_id": "5313_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5313_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5313_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5313_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5313_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 30579,
+    "score": 3.66
+  },
+  "pages": 531,
+  "title": "The Dreamers",
+  "url": "https://www.goodreads.com/book/show/34409176-the-dreamers",
+  "year_published": 2019
 }

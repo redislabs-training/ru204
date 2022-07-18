@@ -1,43 +1,43 @@
 {
-    "author": "S.M. Peters",
-    "id": "195",
-    "description": "A thrilling new Steampunk fantasy from a talented debut authorTWO GODS-ONE CHANCE FOR MANKINDIn Victorian London, the Whitechapel section is a mechanized, steam-driven hell, cut off and ruled by two mysterious, mechanical gods-Mama Engine and Grandfather Clock. Some years have passed since the Great Uprising, when humans rose up to fight against the machines, but a few brave veterans of the Uprising have formed their own Resistance-and are gathering for another attack. For now they have a secret weapon that may finally free them-or kill them all...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 127,
-        "fantasy (dark fantasy)": 11,
-        "fantasy (urban fantasy)": 29,
-        "fiction": 48,
-        "historical (historical fiction)": 12,
-        "historical (victorian)": 14,
-        "horror": 11,
-        "science fiction": 36,
-        "science fiction (dystopia)": 11,
-        "science fiction (steampunk)": 102
+  "author": "S.M. Peters",
+  "id": "195",
+  "description": "A thrilling new Steampunk fantasy from a talented debut authorTWO GODS-ONE CHANCE FOR MANKINDIn Victorian London, the Whitechapel section is a mechanized, steam-driven hell, cut off and ruled by two mysterious, mechanical gods-Mama Engine and Grandfather Clock. Some years have passed since the Great Uprising, when humans rose up to fight against the machines, but a few brave veterans of the Uprising have formed their own Resistance-and are gathering for another attack. For now they have a secret weapon that may finally free them-or kill them all...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical (historical fiction)",
+    "historical (victorian)",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "195_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "195_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "195_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "195_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1812,
-        "score": 3.29
+    {
+      "status": "maintenance",
+      "stock_id": "195_2"
     },
-    "pages": 1361,
-    "title": "Whitechapel Gods",
-    "url": "https://www.goodreads.com/book/show/2302159.Whitechapel_Gods",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "195_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1812,
+    "score": 3.29
+  },
+  "pages": 1361,
+  "title": "Whitechapel Gods",
+  "url": "https://www.goodreads.com/book/show/2302159.Whitechapel_Gods",
+  "year_published": 2008
 }

@@ -1,60 +1,60 @@
 {
-    "author": "V.E. Schwab",
-    "id": "6546",
-    "description": "The sequel to VICIOUS, V.E. Schwab's first adult novel.Sydney once had Serena\u2014beloved sister, betrayed enemy, powerful ally. But now she is alone, except for her thrice-dead dog, Dol, and then there's Victor, who thinks Sydney doesn't know about his most recent act of vengeance.Victor himself is under the radar these days\u2014being buried and re-animated can strike concern even if one has superhuman powers. But despite his own worries, his anger remains. And Eli Ever still has yet to pay for the evil he has done.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 496,
-        "adult fiction": 109,
-        "audiobook": 109,
-        "comics (superheroes)": 120,
-        "fantasy": 1868,
-        "fantasy (paranormal)": 169,
-        "fantasy (urban fantasy)": 167,
-        "fiction": 474,
-        "science fiction": 818,
-        "young adult": 91
+  "author": "V.E. Schwab",
+  "id": "6546",
+  "description": "The sequel to VICIOUS, V.E. Schwab's first adult novel.Sydney once had Serena—beloved sister, betrayed enemy, powerful ally. But now she is alone, except for her thrice-dead dog, Dol, and then there's Victor, who thinks Sydney doesn't know about his most recent act of vengeance.Victor himself is under the radar these days—being buried and re-animated can strike concern even if one has superhuman powers. But despite his own worries, his anger remains. And Eli Ever still has yet to pay for the evil he has done.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "comics (superheroes)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6546_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6546_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6546_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6546_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6546_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6546_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6546_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6546_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 39686,
-        "score": 4.22
+    {
+      "status": "maintenance",
+      "stock_id": "6546_2"
     },
-    "pages": 231,
-    "title": "Vengeful",
-    "url": "https://www.goodreads.com/book/show/26856502-vengeful",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "6546_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6546_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6546_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6546_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6546_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 39686,
+    "score": 4.22
+  },
+  "pages": 231,
+  "title": "Vengeful",
+  "url": "https://www.goodreads.com/book/show/26856502-vengeful",
+  "year_published": 2018
 }

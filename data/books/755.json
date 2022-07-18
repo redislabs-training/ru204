@@ -1,63 +1,63 @@
 {
-    "author": "Neal Stephenson",
-    "id": "755",
-    "description": "Sangamon Taylor's a New Age Sam Spade who sports a wet suit instead of a trench coat and prefers Jolt from the can to Scotch on the rocks. He knows about chemical sludge the way he knows about evil -- all too intimately. And the toxic trail he follows leads to some high and foul places. Before long Taylor's house is bombed, his every move followed, he's adopted by reservation Indians, moves onto the FBI's most wanted list, makes up with his girlfriend, and plays a starring role in the near-assassination of a presidential candidate. Closing the case with the aid of his burnout roomate, his tofu-eating comrades, three major networks, and a range of unconventional weaponry, Sangamon Taylor pulls off the most startling caper in Boston Harbor since the Tea Party. As he navigates this ecological thriller with hardboiled wit and the biggest outboard motor he can get his hands on, Taylor reveals himself as one of the last of the white-hatted good guys in a very toxic world.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "environment": 27,
-        "fantasy": 25,
-        "fiction": 445,
-        "mystery": 56,
-        "novels": 23,
-        "science fiction": 348,
-        "science fiction (cyberpunk)": 56,
-        "science fiction fantasy": 33,
-        "speculative fiction": 20,
-        "thriller": 113
+  "author": "Neal Stephenson",
+  "id": "755",
+  "description": "Sangamon Taylor's a New Age Sam Spade who sports a wet suit instead of a trench coat and prefers Jolt from the can to Scotch on the rocks. He knows about chemical sludge the way he knows about evil -- all too intimately. And the toxic trail he follows leads to some high and foul places. Before long Taylor's house is bombed, his every move followed, he's adopted by reservation Indians, moves onto the FBI's most wanted list, makes up with his girlfriend, and plays a starring role in the near-assassination of a presidential candidate. Closing the case with the aid of his burnout roomate, his tofu-eating comrades, three major networks, and a range of unconventional weaponry, Sangamon Taylor pulls off the most startling caper in Boston Harbor since the Tea Party. As he navigates this ecological thriller with hardboiled wit and the biggest outboard motor he can get his hands on, Taylor reveals himself as one of the last of the white-hatted good guys in a very toxic world.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "environment",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "755_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "755_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "755_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "755_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "755_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "755_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "755_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "755_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "755_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17873,
-        "score": 3.72
+    {
+      "status": "maintenance",
+      "stock_id": "755_2"
     },
-    "pages": 647,
-    "title": "Zodiac",
-    "url": "https://www.goodreads.com/book/show/825.Zodiac",
-    "year_published": 1988
+    {
+      "status": "maintenance",
+      "stock_id": "755_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "755_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "755_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "755_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "755_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "755_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17873,
+    "score": 3.72
+  },
+  "pages": 647,
+  "title": "Zodiac",
+  "url": "https://www.goodreads.com/book/show/825.Zodiac",
+  "year_published": 1988
 }

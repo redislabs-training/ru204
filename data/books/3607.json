@@ -1,46 +1,46 @@
 {
-    "author": "Bryan Lee O'Malley",
-    "id": "3607",
-    "description": "Katie\u2019s got it pretty good. She\u2019s a talented young chef, she runs a successful restaurant, and she has big plans to open an even better one. Then, all at once, progress on the new location bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour, and her best waitress gets badly hurt. And just like that, Katie\u2019s life goes from pretty good to not so much. What she needs is a second chance. Everybody deserves one, after all\u2014but they don\u2019t come easy. Luckily for Katie, a mysterious girl appears in the middle of the night with simple instructions for a do-it-yourself do-over: \u00a0 1. Write your mistake 2. Ingest one mushroom 3. Go to sleep 4. Wake anew \u00a0 And just like that, all the bad stuff never happened, and Katie is given another chance to get things right. She\u2019s also got a dresser drawer full of magical mushrooms\u2014and an irresistible urge to make her life not just good, but perfect. Too bad it\u2019s against the rules. But Katie doesn\u2019t care about the rules\u2014and she\u2019s about to discover the unintended consequences of the best intentions. \u00a0 From the mind and pen behind the acclaimed Scott Pilgrim series comes a madcap new tale of existential angst, everyday obstacles, young love, and ancient spirits that\u2019s sharp-witted and tenderhearted, whimsical and wise.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 88,
-        "comics (comic book)": 67,
-        "fantasy": 506,
-        "fiction": 274,
-        "graphic novels comics": 187,
-        "humor": 62,
-        "magical realism": 74,
-        "sequential art (comics)": 1131,
-        "sequential art (graphic novels)": 2370,
-        "young adult": 134
+  "author": "Bryan Lee O'Malley",
+  "id": "3607",
+  "description": "Katie’s got it pretty good. She’s a talented young chef, she runs a successful restaurant, and she has big plans to open an even better one. Then, all at once, progress on the new location bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour, and her best waitress gets badly hurt. And just like that, Katie’s life goes from pretty good to not so much. What she needs is a second chance. Everybody deserves one, after all—but they don’t come easy. Luckily for Katie, a mysterious girl appears in the middle of the night with simple instructions for a do-it-yourself do-over:   1. Write your mistake 2. Ingest one mushroom 3. Go to sleep 4. Wake anew   And just like that, all the bad stuff never happened, and Katie is given another chance to get things right. She’s also got a dresser drawer full of magical mushrooms—and an irresistible urge to make her life not just good, but perfect. Too bad it’s against the rules. But Katie doesn’t care about the rules—and she’s about to discover the unintended consequences of the best intentions.   From the mind and pen behind the acclaimed Scott Pilgrim series comes a madcap new tale of existential angst, everyday obstacles, young love, and ancient spirits that’s sharp-witted and tenderhearted, whimsical and wise.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "magical realism",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3607_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3607_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3607_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3607_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3607_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 40756,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "3607_2"
     },
-    "pages": 565,
-    "title": "Seconds",
-    "url": "https://www.goodreads.com/book/show/18630542-seconds",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "3607_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3607_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 40756,
+    "score": 4.06
+  },
+  "pages": 565,
+  "title": "Seconds",
+  "url": "https://www.goodreads.com/book/show/18630542-seconds",
+  "year_published": 2014
 }

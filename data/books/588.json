@@ -1,55 +1,55 @@
 {
-    "author": "William Nicholson",
-    "id": "588",
-    "description": "The first in a trilogy, The Wind Singer is a mesmerizing and remarkably realized fantasy novel full of adventure, suspense, humor and warmth.In the city of Aramanth, the mantra is, \"Better today than yesterday. Better tomorrow than today.\" Harder work means the citizens of Aramanth can keep moving forward to improved life stations--from Gray tenements and Orange apartments, upwards to glorious mansions of White. Only some families, like the Haths, believe more in ideas and dreams than in endless toil and ratings. When Kestrel Hath decides she is through with the Aramanth work ethic, she is joined in her small rebellion by her twin brother Bowman and their friend Mumpo. Together, they set the orderly city on its ear by escaping Aramanth's walls for an adventure that takes them from city sewers to desert sandstorms. Guided by an archaic map, they know that if they can find the voice of the Wind Singer, an ancient and mysterious instrument that stands in the center of Aramanth, they can save their people from their dreamless existence. But the voice is guarded by the dreaded Morah and its legion of perfect killing machines, the Zars. Are three ragtag kids any match for an army of darkness?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 45,
-        "childrens": 62,
-        "childrens (middle grade)": 23,
-        "fantasy": 955,
-        "fantasy (high fantasy)": 33,
-        "fiction": 164,
-        "science fiction": 22,
-        "science fiction (dystopia)": 84,
-        "young adult": 340,
-        "young adult (young adult fantasy)": 38
+  "author": "William Nicholson",
+  "id": "588",
+  "description": "The first in a trilogy, The Wind Singer is a mesmerizing and remarkably realized fantasy novel full of adventure, suspense, humor and warmth.In the city of Aramanth, the mantra is, \"Better today than yesterday. Better tomorrow than today.\" Harder work means the citizens of Aramanth can keep moving forward to improved life stations--from Gray tenements and Orange apartments, upwards to glorious mansions of White. Only some families, like the Haths, believe more in ideas and dreams than in endless toil and ratings. When Kestrel Hath decides she is through with the Aramanth work ethic, she is joined in her small rebellion by her twin brother Bowman and their friend Mumpo. Together, they set the orderly city on its ear by escaping Aramanth's walls for an adventure that takes them from city sewers to desert sandstorms. Guided by an archaic map, they know that if they can find the voice of the Wind Singer, an ancient and mysterious instrument that stands in the center of Aramanth, they can save their people from their dreamless existence. But the voice is guarded by the dreaded Morah and its legion of perfect killing machines, the Zars. Are three ragtag kids any match for an army of darkness?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "588_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "588_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "588_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "588_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "588_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "588_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "588_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16904,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "588_2"
     },
-    "pages": 238,
-    "title": "The Wind Singer",
-    "url": "https://www.goodreads.com/book/show/295169.The_Wind_Singer",
-    "year_published": 2000
+    {
+      "status": "available",
+      "stock_id": "588_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "588_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "588_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "588_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16904,
+    "score": 3.86
+  },
+  "pages": 238,
+  "title": "The Wind Singer",
+  "url": "https://www.goodreads.com/book/show/295169.The_Wind_Singer",
+  "year_published": 2000
 }

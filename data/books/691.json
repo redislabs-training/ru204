@@ -1,52 +1,52 @@
 {
-    "author": "Arthur C. Clarke",
-    "id": "691",
-    "description": "70 years after the events of Rendezvous with Rama, a second Raman vessel enters our solar system. Its arrival is expected and an expedition is sent to unlock more of Rama's mysteries, but the crew are unprepared both for what they find and for the conflicts that arise between them.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 13,
-        "fantasy": 20,
-        "fiction": 293,
-        "novels": 19,
-        "science fiction": 999,
-        "science fiction (aliens)": 21,
-        "science fiction fantasy": 41,
-        "space": 21,
-        "space (space opera)": 18,
-        "speculative fiction": 14
+  "author": "Arthur C. Clarke",
+  "id": "691",
+  "description": "70 years after the events of Rendezvous with Rama, a second Raman vessel enters our solar system. Its arrival is expected and an expedition is sent to unlock more of Rama's mysteries, but the crew are unprepared both for what they find and for the conflicts that arise between them.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "691_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "691_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "691_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "691_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "691_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "691_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23369,
-        "score": 3.69
+    {
+      "status": "on_loan",
+      "stock_id": "691_2"
     },
-    "pages": 365,
-    "title": "Rama II",
-    "url": "https://www.goodreads.com/book/show/112520.Rama_II",
-    "year_published": 1989
+    {
+      "status": "on_loan",
+      "stock_id": "691_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "691_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "691_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23369,
+    "score": 3.69
+  },
+  "pages": 365,
+  "title": "Rama II",
+  "url": "https://www.goodreads.com/book/show/112520.Rama_II",
+  "year_published": 1989
 }

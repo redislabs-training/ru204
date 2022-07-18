@@ -1,48 +1,48 @@
 {
-    "author": "Cory Doctorow",
-    "id": "961",
-    "description": "In Cory Doctorow's wildly successful Little Brother, young Marcus Yallow was arbitrarily detained and brutalized by the government in the wake of a terrorist attack on San Francisco\u2015an experience that led him to become a leader of the whole movement of technologically clued-in teenagers, fighting back against the tyrannical security state.A few years later, California's economy collapses, but Marcus's hacktivist past lands him a job as webmaster for a crusading politician who promises reform. Soon his former nemesis Masha emerges from the political underground to gift him with a thumbdrive containing a Wikileaks-style cable-dump of hard evidence of corporate and governmental perfidy. It's incendiary stuff\u2015and if Masha goes missing, Marcus is supposed to release it to the world. Then Marcus sees Masha being kidnapped by the same government agents who detained and tortured Marcus years earlier.Marcus can leak the archive Masha gave him\u2015but he can't admit to being the leaker, because that will cost his employer the election. He's surrounded by friends who remember what he did a few years ago and regard him as a hacker hero. He can't even attend a demonstration without being dragged onstage and handed a mike. He's not at all sure that just dumping the archive onto the Internet, before he's gone through its millions of words, is the right thing to do.Meanwhile, people are beginning to shadow him, people who look like they're used to inflicting pain until they get the answers they want.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 32,
-        "fiction": 207,
-        "politics": 24,
-        "science (technology)": 37,
-        "science fiction": 194,
-        "science fiction (cyberpunk)": 47,
-        "science fiction (dystopia)": 64,
-        "thriller": 33,
-        "young adult": 199,
-        "young adult (teen)": 20
+  "author": "Cory Doctorow",
+  "id": "961",
+  "description": "In Cory Doctorow's wildly successful Little Brother, young Marcus Yallow was arbitrarily detained and brutalized by the government in the wake of a terrorist attack on San Francisco―an experience that led him to become a leader of the whole movement of technologically clued-in teenagers, fighting back against the tyrannical security state.A few years later, California's economy collapses, but Marcus's hacktivist past lands him a job as webmaster for a crusading politician who promises reform. Soon his former nemesis Masha emerges from the political underground to gift him with a thumbdrive containing a Wikileaks-style cable-dump of hard evidence of corporate and governmental perfidy. It's incendiary stuff―and if Masha goes missing, Marcus is supposed to release it to the world. Then Marcus sees Masha being kidnapped by the same government agents who detained and tortured Marcus years earlier.Marcus can leak the archive Masha gave him―but he can't admit to being the leaker, because that will cost his employer the election. He's surrounded by friends who remember what he did a few years ago and regard him as a hacker hero. He can't even attend a demonstration without being dragged onstage and handed a mike. He's not at all sure that just dumping the archive onto the Internet, before he's gone through its millions of words, is the right thing to do.Meanwhile, people are beginning to shadow him, people who look like they're used to inflicting pain until they get the answers they want.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "politics",
+    "science (technology)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "961_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "961_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "961_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "961_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "961_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8074,
-        "score": 3.96
+    {
+      "status": "maintenance",
+      "stock_id": "961_2"
     },
-    "pages": 681,
-    "title": "Homeland",
-    "url": "https://www.goodreads.com/book/show/12917338-homeland",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "961_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "961_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8074,
+    "score": 3.96
+  },
+  "pages": 681,
+  "title": "Homeland",
+  "url": "https://www.goodreads.com/book/show/12917338-homeland",
+  "year_published": 2013
 }

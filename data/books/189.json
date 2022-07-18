@@ -1,59 +1,59 @@
 {
-    "author": "Neal Asher",
-    "id": "189",
-    "description": "Outlink station Miranda has been destroyed by a nanomycelium and the very nature of this sabotage suggests that the alien bioconstruct Dragon - a creature as untrustworthy as it is gigantic - is somehow involved.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 5,
-        "fantasy": 7,
-        "fiction": 37,
-        "science fiction": 261,
-        "science fiction (aliens)": 6,
-        "science fiction (cyberpunk)": 6,
-        "science fiction (hard science fiction)": 4,
-        "science fiction fantasy": 5,
-        "space": 6,
-        "space (space opera)": 43
+  "author": "Neal Asher",
+  "id": "189",
+  "description": "Outlink station Miranda has been destroyed by a nanomycelium and the very nature of this sabotage suggests that the alien bioconstruct Dragon - a creature as untrustworthy as it is gigantic - is somehow involved.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (cyberpunk)",
+    "science fiction (hard science fiction)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "189_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "189_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "189_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "189_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "189_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "189_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "189_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "189_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6463,
-        "score": 4.13
+    {
+      "status": "on_loan",
+      "stock_id": "189_2"
     },
-    "pages": 570,
-    "title": "The Line Of Polity",
-    "url": "https://www.goodreads.com/book/show/511227.The_Line_Of_Polity",
-    "year_published": 2003
+    {
+      "status": "available",
+      "stock_id": "189_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "189_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "189_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "189_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "189_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6463,
+    "score": 4.13
+  },
+  "pages": 570,
+  "title": "The Line Of Polity",
+  "url": "https://www.goodreads.com/book/show/511227.The_Line_Of_Polity",
+  "year_published": 2003
 }

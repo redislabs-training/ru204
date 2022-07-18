@@ -1,48 +1,48 @@
 {
-    "author": "Damian Duffy",
-    "id": "1041",
-    "description": "I lost an arm on my last trip home. Home is a new house with a loving husband in 1970s California that suddenly transformed in to the frightening world of the antebellum South. Dana, a young black writer, can't explain how she is transported across time and space to a plantation in Maryland. But she does quickly understand why: to deal with the troubles of Rufus, a conflicted white slaveholder--and her progenitor. Her survival, her very existence, depends on it. This searing graphic-novel adaptation of Octavia E. Butler's science fiction classic is a powerfully moving, unflinching look at the violent disturbing effects of slavery on the people it chained together, both black and white--and made kindred in the deepest sense of the word.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 43,
-        "cultural (african american)": 44,
-        "fantasy": 69,
-        "fiction": 160,
-        "historical": 58,
-        "historical (historical fiction)": 237,
-        "science fiction": 158,
-        "science fiction (time travel)": 96,
-        "sequential art (comics)": 152,
-        "sequential art (graphic novels)": 604
+  "author": "Damian Duffy",
+  "id": "1041",
+  "description": "I lost an arm on my last trip home. Home is a new house with a loving husband in 1970s California that suddenly transformed in to the frightening world of the antebellum South. Dana, a young black writer, can't explain how she is transported across time and space to a plantation in Maryland. But she does quickly understand why: to deal with the troubles of Rufus, a conflicted white slaveholder--and her progenitor. Her survival, her very existence, depends on it. This searing graphic-novel adaptation of Octavia E. Butler's science fiction classic is a powerfully moving, unflinching look at the violent disturbing effects of slavery on the people it chained together, both black and white--and made kindred in the deepest sense of the word.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "cultural (african american)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1041_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1041_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1041_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1041_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1041_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5783,
-        "score": 4.19
+    {
+      "status": "on_loan",
+      "stock_id": "1041_2"
     },
-    "pages": 967,
-    "title": "Kindred: A Graphic Novel Adaptation",
-    "url": "https://www.goodreads.com/book/show/28818221-kindred",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "1041_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1041_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5783,
+    "score": 4.19
+  },
+  "pages": 967,
+  "title": "Kindred: A Graphic Novel Adaptation",
+  "url": "https://www.goodreads.com/book/show/28818221-kindred",
+  "year_published": 2017
 }

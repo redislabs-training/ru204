@@ -1,44 +1,44 @@
 {
-    "author": "Daniel H. Wilson",
-    "id": "1147",
-    "description": "In a near-future where the Neural-Autofocus and other neural implants made formerly mentally challenged individuals into equals or superiors to those with normal brain functionality, Owen is a high school teacher whose surgeon father helped develop the implants to control his epilepsy. When the United States Supreme Court rules that implanted individuals are no longer a protected class, Owen's life is changed forever, as he discovers that his implant has a very dangerous secret.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 21,
-        "audiobook": 21,
-        "fantasy": 17,
-        "fiction": 142,
-        "science fiction": 307,
-        "science fiction (cyberpunk)": 24,
-        "science fiction (dystopia)": 64,
-        "science fiction fantasy": 22,
-        "thriller": 31,
-        "young adult": 10
+  "author": "Daniel H. Wilson",
+  "id": "1147",
+  "description": "In a near-future where the Neural-Autofocus and other neural implants made formerly mentally challenged individuals into equals or superiors to those with normal brain functionality, Owen is a high school teacher whose surgeon father helped develop the implants to control his epilepsy. When the United States Supreme Court rules that implanted individuals are no longer a protected class, Owen's life is changed forever, as he discovers that his implant has a very dangerous secret.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1147_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1147_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1147_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1147_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8216,
-        "score": 3.48
+    {
+      "status": "maintenance",
+      "stock_id": "1147_2"
     },
-    "pages": 894,
-    "title": "Amped",
-    "url": "https://www.goodreads.com/book/show/12678461-amped",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "1147_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8216,
+    "score": 3.48
+  },
+  "pages": 894,
+  "title": "Amped",
+  "url": "https://www.goodreads.com/book/show/12678461-amped",
+  "year_published": 2012
 }

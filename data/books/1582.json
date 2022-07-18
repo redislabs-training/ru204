@@ -1,56 +1,56 @@
 {
-    "author": "Robert   Harris",
-    "id": "1582",
-    "description": "All civilisations think they are invulnerable. History warns us none is.1468. A young priest, Christopher Fairfax, arrives in a remote Exmoor village to conduct the funeral of his predecessor. The land around is strewn with ancient artefacts \u2013 coins, fragments of glass, human bones \u2013 which the old parson used to collect. Did his obsession with the past lead to his death?As Fairfax is drawn more deeply into the isolated community, everything he believes \u2013 about himself, his faith and the history of his world \u2013 is tested to destruction.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 21,
-        "european literature (british literature)": 20,
-        "fantasy": 36,
-        "fiction": 188,
-        "historical": 23,
-        "historical (historical fiction)": 115,
-        "mystery": 54,
-        "science fiction": 67,
-        "science fiction (dystopia)": 29,
-        "thriller": 45
+  "author": "Robert   Harris",
+  "id": "1582",
+  "description": "All civilisations think they are invulnerable. History warns us none is.1468. A young priest, Christopher Fairfax, arrives in a remote Exmoor village to conduct the funeral of his predecessor. The land around is strewn with ancient artefacts – coins, fragments of glass, human bones – which the old parson used to collect. Did his obsession with the past lead to his death?As Fairfax is drawn more deeply into the isolated community, everything he believes – about himself, his faith and the history of his world – is tested to destruction.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1582_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1582_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1582_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1582_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1582_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1582_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1582_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11231,
-        "score": 3.49
+    {
+      "status": "available",
+      "stock_id": "1582_2"
     },
-    "pages": 1125,
-    "title": "The Second Sleep",
-    "url": "https://www.goodreads.com/book/show/43561172-the-second-sleep",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "1582_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1582_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1582_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1582_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11231,
+    "score": 3.49
+  },
+  "pages": 1125,
+  "title": "The Second Sleep",
+  "url": "https://www.goodreads.com/book/show/43561172-the-second-sleep",
+  "year_published": 2019
 }

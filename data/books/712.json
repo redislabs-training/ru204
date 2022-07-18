@@ -1,67 +1,67 @@
 {
-    "author": "John W. Campbell Jr.",
-    "id": "712",
-    "description": "\"Who Goes There?\" The novella that formed the basis of \"The Thing\" is the John W. Campbell classic about an antarctic research camp that discovers and thaws the ancient, frozen body of a crash-landed alien. The creature revives with terrifying results, shape-shifting to assume the exact form of animal and man, alike. Paranoia ensues as a band of frightened men work to discern friend from foe, and destroy the menace before it challenges all of humanity! The story, hailed as \"one of the finest science fiction novellas ever written\" by the SF Writers of America, is best known to fans as THE THING, as it was the basis of Howard Hawks' The Thing From Another World in 1951, and John Carpenter's The Thing in 1982. With a new Introduction by William F. Nolan, author of Logan's Run, and his never-before-published, suspenseful Screen Treatment written for Universal Studios in 1978, this is a must-have edition for scifi and horror fans!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 15,
-        "classics": 67,
-        "fantasy": 11,
-        "fiction": 119,
-        "horror": 383,
-        "novella": 23,
-        "science fiction": 299,
-        "science fiction (aliens)": 26,
-        "short stories": 41,
-        "thriller": 19
+  "author": "John W. Campbell Jr.",
+  "id": "712",
+  "description": "\"Who Goes There?\" The novella that formed the basis of \"The Thing\" is the John W. Campbell classic about an antarctic research camp that discovers and thaws the ancient, frozen body of a crash-landed alien. The creature revives with terrifying results, shape-shifting to assume the exact form of animal and man, alike. Paranoia ensues as a band of frightened men work to discern friend from foe, and destroy the menace before it challenges all of humanity! The story, hailed as \"one of the finest science fiction novellas ever written\" by the SF Writers of America, is best known to fans as THE THING, as it was the basis of Howard Hawks' The Thing From Another World in 1951, and John Carpenter's The Thing in 1982. With a new Introduction by William F. Nolan, author of Logan's Run, and his never-before-published, suspenseful Screen Treatment written for Universal Studios in 1978, this is a must-have edition for scifi and horror fans!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "horror",
+    "novella",
+    "science fiction",
+    "science fiction (aliens)",
+    "short stories",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "712_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "712_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "712_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "712_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "712_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "712_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "712_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "712_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "712_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "712_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6947,
-        "score": 3.86
+    {
+      "status": "available",
+      "stock_id": "712_2"
     },
-    "pages": 601,
-    "title": "Who Goes There",
-    "url": "https://www.goodreads.com/book/show/6468870-who-goes-there",
-    "year_published": 1938
+    {
+      "status": "on_loan",
+      "stock_id": "712_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "712_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "712_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "712_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "712_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "712_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "712_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6947,
+    "score": 3.86
+  },
+  "pages": 601,
+  "title": "Who Goes There",
+  "url": "https://www.goodreads.com/book/show/6468870-who-goes-there",
+  "year_published": 1938
 }

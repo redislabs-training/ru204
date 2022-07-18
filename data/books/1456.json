@@ -1,44 +1,44 @@
 {
-    "author": "A.G. Riddle",
-    "id": "1456",
-    "description": "A wild propulsive adventure full of hairpin twists, Departure weaves together power, ambition, fate, memory, and love. The world's past and future rests in the hands of five unwitting strangers. En route to London from New York, Flight 305 suddenly loses power and crash-lands in the English countryside, plunging a group of strangers into a mysterious adventure that will have repercussions for all of humankind. Struggling to stay alive, the survivors soon realize that the world they've crashed in is very different from the one they left. But where are they? Why are they here? And how will they get back home? Five passengers seem to hold clues about what's really going on: writer Harper Lane, venture capitalist Nick Stone, German genetic researcher Sabrina Schr\u00f6der, computer scientist Yul Tan, and Grayson Shaw, the son of a billionaire philanthropist.As more facts about the crash emerge, it becomes clear that some in this group know more than they're letting on, answers that will lead Harper and Nick to uncover a far-reaching conspiracy involving their own lives. As they begin to piece together the truth, they discover they have the power to change the future and the past-to save our world... or end it.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 15,
-        "apocalyptic (post apocalyptic)": 23,
-        "audiobook": 24,
-        "fantasy": 41,
-        "fiction": 132,
-        "mystery": 55,
-        "science fiction": 226,
-        "science fiction (dystopia)": 18,
-        "science fiction (time travel)": 118,
-        "thriller": 63
+  "author": "A.G. Riddle",
+  "id": "1456",
+  "description": "A wild propulsive adventure full of hairpin twists, Departure weaves together power, ambition, fate, memory, and love. The world's past and future rests in the hands of five unwitting strangers. En route to London from New York, Flight 305 suddenly loses power and crash-lands in the English countryside, plunging a group of strangers into a mysterious adventure that will have repercussions for all of humankind. Struggling to stay alive, the survivors soon realize that the world they've crashed in is very different from the one they left. But where are they? Why are they here? And how will they get back home? Five passengers seem to hold clues about what's really going on: writer Harper Lane, venture capitalist Nick Stone, German genetic researcher Sabrina Schröder, computer scientist Yul Tan, and Grayson Shaw, the son of a billionaire philanthropist.As more facts about the crash emerge, it becomes clear that some in this group know more than they're letting on, answers that will lead Harper and Nick to uncover a far-reaching conspiracy involving their own lives. As they begin to piece together the truth, they discover they have the power to change the future and the past-to save our world... or end it.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1456_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1456_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1456_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1456_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17387,
-        "score": 3.84
+    {
+      "status": "available",
+      "stock_id": "1456_2"
     },
-    "pages": 253,
-    "title": "Departure",
-    "url": "https://www.goodreads.com/book/show/41014635-departure",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "1456_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17387,
+    "score": 3.84
+  },
+  "pages": 253,
+  "title": "Departure",
+  "url": "https://www.goodreads.com/book/show/41014635-departure",
+  "year_published": 2014
 }

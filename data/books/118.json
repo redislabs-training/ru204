@@ -1,34 +1,34 @@
 {
-    "author": "Joe Haldeman",
-    "id": "118",
-    "description": "Otto McGavin is peacefully idealistic by nature, an Anglo-Buddhist, who seeks employment with the Confederacion because he believes in its mission to protect human & nonhuman rights. The only problem is that the Confederacion needs him as one of its twelve Prime Operators for its secret service, the TBII. The TBII wants him as a spy, thief & assassin. It's not, of course, a problem for the Confederacion, which simply uses immersion therapy & hypnotic personality overlay for Otto's training, then sends him out in deep cover, encased in plastiflesh, on a variety of dangerous missions on a number of bizarre worlds. But for him, it's a different matter: what he has to witness & what he's forced to do take a terrible toll. Always he returns to his original self--his conscience stabbed by the memory of all those he'd killed in the service of interstellar harmony.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "business (amazon)": 3,
-        "fantasy": 4,
-        "fiction": 48,
-        "science fiction": 175,
-        "science fiction (cyberpunk)": 5,
-        "science fiction fantasy": 6,
-        "short stories": 7,
-        "space": 3,
-        "speculative fiction": 9,
-        "thriller": 5
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "118_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1922,
-        "score": 3.81
-    },
-    "pages": 1032,
-    "title": "All My Sins Remembered",
-    "url": "https://www.goodreads.com/book/show/362801.All_My_Sins_Remembered",
-    "year_published": 1977
+  "author": "Joe Haldeman",
+  "id": "118",
+  "description": "Otto McGavin is peacefully idealistic by nature, an Anglo-Buddhist, who seeks employment with the Confederacion because he believes in its mission to protect human & nonhuman rights. The only problem is that the Confederacion needs him as one of its twelve Prime Operators for its secret service, the TBII. The TBII wants him as a spy, thief & assassin. It's not, of course, a problem for the Confederacion, which simply uses immersion therapy & hypnotic personality overlay for Otto's training, then sends him out in deep cover, encased in plastiflesh, on a variety of dangerous missions on a number of bizarre worlds. But for him, it's a different matter: what he has to witness & what he's forced to do take a terrible toll. Always he returns to his original self--his conscience stabbed by the memory of all those he'd killed in the service of interstellar harmony.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "business (amazon)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "short stories",
+    "space",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "118_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1922,
+    "score": 3.81
+  },
+  "pages": 1032,
+  "title": "All My Sins Remembered",
+  "url": "https://www.goodreads.com/book/show/362801.All_My_Sins_Remembered",
+  "year_published": 1977
 }

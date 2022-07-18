@@ -1,39 +1,39 @@
 {
-    "author": "C.D. Wight",
-    "id": "34",
-    "description": "In 2048, AI specialist Tomo is about to lose his job in Silicon Valley, as U.S. unemployment soars past thirty percent. He\u2019s a terrible team player, and his ass-kissing skills are sub-par. While Tomo\u2019s got talents for making robots act more human, the job makes him feel more like a machine. When his hometown in Japan is destroyed by a tsunami, Tomo has the reason he needs to take a break. But in Tokyo, Tomo overhears something impossible to ignore: a care-giving bot is pressuring his grandmother to sell her condo and move into an old folks\u2019 home. Elderly neighbors complain their bots sing the same tune. Tomo breaches the veil of customer service at the care-giving company, revealing a yakuza scheme that amounts to genocide. Tomo now has an opportunity to put his talents to better use\u2014with help from an upbeat slacker and a rogue AI. TOKYO GREEN (91,000 words) is a stand-alone SF novel that explores not only the dangers of technology, but also the ability of technology to thrust humanity deeper into nature, making the future a worthwhile destination for all.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "cultural (asia)": 2,
-        "science fiction": 5
+  "author": "C.D. Wight",
+  "id": "34",
+  "description": "In 2048, AI specialist Tomo is about to lose his job in Silicon Valley, as U.S. unemployment soars past thirty percent. He’s a terrible team player, and his ass-kissing skills are sub-par. While Tomo’s got talents for making robots act more human, the job makes him feel more like a machine. When his hometown in Japan is destroyed by a tsunami, Tomo has the reason he needs to take a break. But in Tokyo, Tomo overhears something impossible to ignore: a care-giving bot is pressuring his grandmother to sell her condo and move into an old folks’ home. Elderly neighbors complain their bots sing the same tune. Tomo breaches the veil of customer service at the care-giving company, revealing a yakuza scheme that amounts to genocide. Tomo now has an opportunity to put his talents to better use—with help from an upbeat slacker and a rogue AI. TOKYO GREEN (91,000 words) is a stand-alone SF novel that explores not only the dangers of technology, but also the ability of technology to thrust humanity deeper into nature, making the future a worthwhile destination for all.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "cultural (asia)",
+    "science fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "34_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "34_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "34_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "34_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "34_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 47,
-        "score": 4.0
+    {
+      "status": "available",
+      "stock_id": "34_2"
     },
-    "pages": 490,
-    "title": "Tokyo Green",
-    "url": "https://www.goodreads.com/book/show/53137800-tokyo-green",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "34_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "34_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 47,
+    "score": 4
+  },
+  "pages": 490,
+  "title": "Tokyo Green",
+  "url": "https://www.goodreads.com/book/show/53137800-tokyo-green",
+  "year_published": 2019
 }

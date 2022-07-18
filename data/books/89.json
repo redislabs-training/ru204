@@ -1,52 +1,52 @@
 {
-    "author": "Michael  Green",
-    "id": "89",
-    "description": "Return to the original world of Blade Runner 2019.Welcome to the rain soaked world of Los Angeles 2019 - a dystopic world of Replicants, Spinners and hardboiled future noir. There's a new Blade Runner in town, and she's out for blood. Replicant blood.This officially sanctioned sequel comic to the original Blade Runner film is written by Michael Green, the screenwriter of Blade Runner 2049.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 4,
-        "fiction": 8,
-        "graphic novels comics": 4,
-        "mystery": 3,
-        "science fiction": 22,
-        "science fiction (cyberpunk)": 17,
-        "science fiction (dystopia)": 7,
-        "science fiction fantasy": 2,
-        "sequential art (comics)": 42,
-        "sequential art (graphic novels)": 44
+  "author": "Michael  Green",
+  "id": "89",
+  "description": "Return to the original world of Blade Runner 2019.Welcome to the rain soaked world of Los Angeles 2019 - a dystopic world of Replicants, Spinners and hardboiled future noir. There's a new Blade Runner in town, and she's out for blood. Replicant blood.This officially sanctioned sequel comic to the original Blade Runner film is written by Michael Green, the screenwriter of Blade Runner 2049.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "mystery",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "89_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "89_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "89_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "89_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "89_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "89_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 592,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "89_2"
     },
-    "pages": 531,
-    "title": "Blade Runner 2019, Vol. 1: Los Angeles",
-    "url": "https://www.goodreads.com/book/show/45033606-blade-runner-2019-vol-1",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "89_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "89_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "89_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 592,
+    "score": 4.06
+  },
+  "pages": 531,
+  "title": "Blade Runner 2019, Vol. 1: Los Angeles",
+  "url": "https://www.goodreads.com/book/show/45033606-blade-runner-2019-vol-1",
+  "year_published": 2019
 }

@@ -1,48 +1,48 @@
 {
-    "author": "Kim Curran",
-    "id": "163",
-    "description": "When your average, 16-year old loser, Scott Tyler, meets the beautiful and mysterious Aubrey Jones, he learns he's not so average after all. He's a 'Shifter'. And that means he has the power to undo any decision he's ever made. At first, he thinks the power to shift is pretty cool. But as his world starts to unravel around him he realises that each time he uses his power, it has consequences; terrible unforeseen consequences. Shifting is going to get him killed. In a world where everything can change with a thought, Scott has to decide where he stands.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 7,
-        "adventure": 10,
-        "contemporary": 7,
-        "fantasy": 34,
-        "fantasy (paranormal)": 34,
-        "science fiction": 43,
-        "science fiction (time travel)": 26,
-        "thriller": 10,
-        "young adult": 64,
-        "young adult (teen)": 5
+  "author": "Kim Curran",
+  "id": "163",
+  "description": "When your average, 16-year old loser, Scott Tyler, meets the beautiful and mysterious Aubrey Jones, he learns he's not so average after all. He's a 'Shifter'. And that means he has the power to undo any decision he's ever made. At first, he thinks the power to shift is pretty cool. But as his world starts to unravel around him he realises that each time he uses his power, it has consequences; terrible unforeseen consequences. Shifting is going to get him killed. In a world where everything can change with a thought, Scott has to decide where he stands.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "contemporary",
+    "fantasy",
+    "fantasy (paranormal)",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "163_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "163_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "163_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "163_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "163_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 968,
-        "score": 3.74
+    {
+      "status": "on_loan",
+      "stock_id": "163_2"
     },
-    "pages": 918,
-    "title": "Shift",
-    "url": "https://www.goodreads.com/book/show/13420494-shift",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "163_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "163_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 968,
+    "score": 3.74
+  },
+  "pages": 918,
+  "title": "Shift",
+  "url": "https://www.goodreads.com/book/show/13420494-shift",
+  "year_published": 2012
 }

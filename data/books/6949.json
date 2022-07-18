@@ -1,50 +1,50 @@
 {
-    "author": "Ernest Cline",
-    "id": "6949",
-    "description": "An unexpected quest. Two worlds at stake. Are you ready?Days after Oasis founder James Halliday's contest, Wade Watts makes a discovery that changes everything. Hidden within Halliday's vault, waiting for his heir to find, lies a technological advancement that will once again change the world and make the Oasis a thousand times more wondrous, and addictive, than even Wade dreamed possible. With it comes a new riddle and a new quest. A last Easter egg from Halliday, hinting at a mysterious prize. And an unexpected, impossibly powerful, and dangerous new rival awaits, one who will kill millions to get what he wants. Wade's life and the future of the Oasis are again at stake, but this time the fate of humanity also hangs in the balance.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 73,
-        "adult fiction": 29,
-        "adventure": 76,
-        "audiobook": 259,
-        "fantasy": 251,
-        "fiction": 624,
-        "science fiction": 792,
-        "science fiction (dystopia)": 177,
-        "science fiction fantasy": 80,
-        "young adult": 167
+  "author": "Ernest Cline",
+  "id": "6949",
+  "description": "An unexpected quest. Two worlds at stake. Are you ready?Days after Oasis founder James Halliday's contest, Wade Watts makes a discovery that changes everything. Hidden within Halliday's vault, waiting for his heir to find, lies a technological advancement that will once again change the world and make the Oasis a thousand times more wondrous, and addictive, than even Wade dreamed possible. With it comes a new riddle and a new quest. A last Easter egg from Halliday, hinting at a mysterious prize. And an unexpected, impossibly powerful, and dangerous new rival awaits, one who will kill millions to get what he wants. Wade's life and the future of the Oasis are again at stake, but this time the fate of humanity also hangs in the balance.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "6949_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "6949_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6949_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6949_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "6949_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6949_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 41747,
-        "score": 3.51
+    {
+      "status": "maintenance",
+      "stock_id": "6949_2"
     },
-    "pages": 681,
-    "title": "Ready Player Two",
-    "url": "https://www.goodreads.com/book/show/26082916-ready-player-two",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "6949_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "6949_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6949_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 41747,
+    "score": 3.51
+  },
+  "pages": 681,
+  "title": "Ready Player Two",
+  "url": "https://www.goodreads.com/book/show/26082916-ready-player-two",
+  "year_published": 2020
 }

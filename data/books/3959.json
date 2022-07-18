@@ -1,68 +1,68 @@
 {
-    "author": "Philip Pullman",
-    "id": "3959",
-    "description": "It is twenty years since the events of La Belle Sauvage: The Book of Dust Volume One unfolded and saw the baby Lyra Belacqua begin her life-changing journey.It is seven years since readers left Lyra and the love of her young life, Will Parry, on a park bench in Oxford's Botanic Gardens at the end of the ground-breaking, bestselling His Dark Materials sequence.Now, in The Secret Commonwealth, we meet Lyra Silvertongue. And she is no longer a child . . .The second volume of Sir Philip Pullman's The Book of Dust sees Lyra, now twenty years old, and her daemon Pantalaimon, forced to navigate their relationship in a way they could never have imagined, and drawn into the complex and dangerous factions of a world that they had no idea existed.Pulled along on his own journey too is Malcolm; once a boy with a boat and a mission to save a baby from the flood, now a man with a strong sense of duty and a desire to do what is right.Theirs is a world at once familiar and extraordinary, and they must travel far beyond the edges of Oxford, across Europe and into Asia, in search for what is lost - a city haunted by daemons, a secret at the heart of a desert, and the mystery of the elusive Dust.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 62,
-        "audiobook": 152,
-        "european literature (british literature)": 32,
-        "fantasy": 1611,
-        "fiction": 511,
-        "novels": 31,
-        "science fiction": 32,
-        "science fiction fantasy": 52,
-        "young adult": 346,
-        "young adult (young adult fantasy)": 43
+  "author": "Philip Pullman",
+  "id": "3959",
+  "description": "It is twenty years since the events of La Belle Sauvage: The Book of Dust Volume One unfolded and saw the baby Lyra Belacqua begin her life-changing journey.It is seven years since readers left Lyra and the love of her young life, Will Parry, on a park bench in Oxford's Botanic Gardens at the end of the ground-breaking, bestselling His Dark Materials sequence.Now, in The Secret Commonwealth, we meet Lyra Silvertongue. And she is no longer a child . . .The second volume of Sir Philip Pullman's The Book of Dust sees Lyra, now twenty years old, and her daemon Pantalaimon, forced to navigate their relationship in a way they could never have imagined, and drawn into the complex and dangerous factions of a world that they had no idea existed.Pulled along on his own journey too is Malcolm; once a boy with a boat and a mission to save a baby from the flood, now a man with a strong sense of duty and a desire to do what is right.Theirs is a world at once familiar and extraordinary, and they must travel far beyond the edges of Oxford, across Europe and into Asia, in search for what is lost - a city haunted by daemons, a secret at the heart of a desert, and the mystery of the elusive Dust.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3959_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3959_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3959_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3959_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3959_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3959_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "3959_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3959_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "3959_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "3959_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35970,
-        "score": 4.06
+    {
+      "status": "available",
+      "stock_id": "3959_2"
     },
-    "pages": 918,
-    "title": "The Secret Commonwealth",
-    "url": "https://www.goodreads.com/book/show/19034943-the-secret-commonwealth",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "3959_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3959_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3959_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "3959_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3959_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "3959_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "3959_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35970,
+    "score": 4.06
+  },
+  "pages": 918,
+  "title": "The Secret Commonwealth",
+  "url": "https://www.goodreads.com/book/show/19034943-the-secret-commonwealth",
+  "year_published": 2019
 }

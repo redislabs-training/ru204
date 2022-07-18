@@ -1,34 +1,34 @@
 {
-    "author": "Jos\u00e9 Saramago",
-    "id": "1713",
-    "description": "On election day in the capital, it is raining so hard that no one has bothered to go out to vote. The politicians are growing jittery. Should they reschedule the elections for another day? Around three o' clock, the rain finally stops. Promptly at four, voters rush to the polling stations, as if they had been ordered to appear.But when the ballots are counted, more than 70 percent are blank. The citizens are rebellious. A state of emergency is declared. But are the authorities acting too precipitously? Or even blindly? The word evokes terrible memories of the plague of blindness that hit the city four years before, and of the one woman who kept her sight. Could she be behind the blank ballots? A police superintendent is put on the case.What begins as a satire on governments and the sometimes dubious efficacy of the democratic system turns into something far more sinister. A singular novel from the author of Blindness.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "contemporary": 38,
-        "cultural (portugal)": 81,
-        "european literature (portuguese literature)": 62,
-        "fiction": 474,
-        "literature": 88,
-        "nobel prize": 38,
-        "novels": 70,
-        "politics": 31,
-        "science fiction": 51,
-        "science fiction (dystopia)": 79
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1713_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19600,
-        "score": 3.82
-    },
-    "pages": 771,
-    "title": "Seeing",
-    "url": "https://www.goodreads.com/book/show/47667.Seeing",
-    "year_published": 2004
+  "author": "José Saramago",
+  "id": "1713",
+  "description": "On election day in the capital, it is raining so hard that no one has bothered to go out to vote. The politicians are growing jittery. Should they reschedule the elections for another day? Around three o' clock, the rain finally stops. Promptly at four, voters rush to the polling stations, as if they had been ordered to appear.But when the ballots are counted, more than 70 percent are blank. The citizens are rebellious. A state of emergency is declared. But are the authorities acting too precipitously? Or even blindly? The word evokes terrible memories of the plague of blindness that hit the city four years before, and of the one woman who kept her sight. Could she be behind the blank ballots? A police superintendent is put on the case.What begins as a satire on governments and the sometimes dubious efficacy of the democratic system turns into something far more sinister. A singular novel from the author of Blindness.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "contemporary",
+    "cultural (portugal)",
+    "european literature (portuguese literature)",
+    "fiction",
+    "literature",
+    "nobel prize",
+    "novels",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1713_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19600,
+    "score": 3.82
+  },
+  "pages": 771,
+  "title": "Seeing",
+  "url": "https://www.goodreads.com/book/show/47667.Seeing",
+  "year_published": 2004
 }

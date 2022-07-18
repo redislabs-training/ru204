@@ -1,50 +1,50 @@
 {
-    "author": "Jodi Taylor",
-    "id": "121",
-    "description": "A special Chronicles of St Mary's Christmas short story that is sure to entertain. If you love Jasper Fforde or Ben Aaronovitch, you won't be able to resist Jodi Taylor.Bannockburn. Major Guthrie. The traditional St Mary's illegal Christmas jump.All terribly straightforward, surely...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 5,
-        "audiobook": 10,
-        "fantasy": 18,
-        "fiction": 21,
-        "historical": 8,
-        "historical (historical fiction)": 16,
-        "humor": 7,
-        "science fiction": 18,
-        "science fiction (time travel)": 38,
-        "short stories": 14
+  "author": "Jodi Taylor",
+  "id": "121",
+  "description": "A special Chronicles of St Mary's Christmas short story that is sure to entertain. If you love Jasper Fforde or Ben Aaronovitch, you won't be able to resist Jodi Taylor.Bannockburn. Major Guthrie. The traditional St Mary's illegal Christmas jump.All terribly straightforward, surely...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "humor",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "121_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "121_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "121_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "121_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "121_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "121_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1469,
-        "score": 4.48
+    {
+      "status": "maintenance",
+      "stock_id": "121_2"
     },
-    "pages": 522,
-    "title": "Why Is Nothing Ever Simple",
-    "url": "https://www.goodreads.com/book/show/52731061-why-is-nothing-ever-simple",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "121_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "121_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "121_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1469,
+    "score": 4.48
+  },
+  "pages": 522,
+  "title": "Why Is Nothing Ever Simple",
+  "url": "https://www.goodreads.com/book/show/52731061-why-is-nothing-ever-simple",
+  "year_published": 2019
 }

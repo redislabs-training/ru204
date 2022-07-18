@@ -1,60 +1,60 @@
 {
-    "author": "Philip Pullman",
-    "id": "8027",
-    "description": "Malcolm Polstead is the kind of boy who notices everything but is not much noticed himself. And so perhaps it was inevitable that he would become a spy...Malcolm's father runs an inn called the Trout, on the banks of the river Thames, and all of Oxford passes through its doors. Malcolm and his d\u00e6mon, Asta, routinely overhear news and gossip, and the occasional scandal, but during a winter of unceasing rain, Malcolm catches wind of something new: intrigue.He finds a secret message inquiring about a dangerous substance called Dust--and the spy it was intended for finds him.When she asks Malcolm to keep his eyes open, Malcolm sees suspicious characters everywhere; Lord Asriel, clearly on the run; enforcement agents from the Magisterium; an Egyptian named Coram with warnings just for Malcolm; and a beautiful woman with an evil monkey for a d\u00e6mon. All are asking about the same thing: a girl--just a baby--named Lyra.Lyra is the kind of person who draws people in like magnets. And Malcolm will brave any danger, and make shocking sacrifices, to bring her safely through the storm.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 297,
-        "audiobook": 300,
-        "childrens": 178,
-        "childrens (middle grade)": 145,
-        "fantasy": 4115,
-        "fiction": 1167,
-        "science fiction": 91,
-        "science fiction fantasy": 143,
-        "young adult": 1289,
-        "young adult (young adult fantasy)": 106
+  "author": "Philip Pullman",
+  "id": "8027",
+  "description": "Malcolm Polstead is the kind of boy who notices everything but is not much noticed himself. And so perhaps it was inevitable that he would become a spy...Malcolm's father runs an inn called the Trout, on the banks of the river Thames, and all of Oxford passes through its doors. Malcolm and his dæmon, Asta, routinely overhear news and gossip, and the occasional scandal, but during a winter of unceasing rain, Malcolm catches wind of something new: intrigue.He finds a secret message inquiring about a dangerous substance called Dust--and the spy it was intended for finds him.When she asks Malcolm to keep his eyes open, Malcolm sees suspicious characters everywhere; Lord Asriel, clearly on the run; enforcement agents from the Magisterium; an Egyptian named Coram with warnings just for Malcolm; and a beautiful woman with an evil monkey for a dæmon. All are asking about the same thing: a girl--just a baby--named Lyra.Lyra is the kind of person who draws people in like magnets. And Malcolm will brave any danger, and make shocking sacrifices, to bring her safely through the storm.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "8027_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "8027_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "8027_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8027_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "8027_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "8027_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "8027_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8027_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 83846,
-        "score": 4.14
+    {
+      "status": "maintenance",
+      "stock_id": "8027_2"
     },
-    "pages": 332,
-    "title": "La Belle Sauvage",
-    "url": "https://www.goodreads.com/book/show/34128219-la-belle-sauvage",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "8027_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "8027_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "8027_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "8027_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8027_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 83846,
+    "score": 4.14
+  },
+  "pages": 332,
+  "title": "La Belle Sauvage",
+  "url": "https://www.goodreads.com/book/show/34128219-la-belle-sauvage",
+  "year_published": 2017
 }

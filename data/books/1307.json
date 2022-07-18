@@ -1,60 +1,60 @@
 {
-    "author": "Philip Pullman",
-    "id": "1307",
-    "description": "Lyra's Oxford begins with Lyra and Pantalaimon spotting a witch's d\u00e6mon. Lyra shelters the daemon from the pursuit of a frenzied pack of birds, and then attempts to help by guiding the daemon to the home of an alchemist living in a part of Oxford known as Jericho. The journey through Oxford reveals more dangers than Lyra had anticipated.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 69,
-        "audiobook": 73,
-        "childrens": 89,
-        "fantasy": 617,
-        "fiction": 446,
-        "novella": 46,
-        "science fiction": 52,
-        "science fiction (steampunk)": 63,
-        "short stories": 184,
-        "young adult": 483
+  "author": "Philip Pullman",
+  "id": "1307",
+  "description": "Lyra's Oxford begins with Lyra and Pantalaimon spotting a witch's dæmon. Lyra shelters the daemon from the pursuit of a frenzied pack of birds, and then attempts to help by guiding the daemon to the home of an alchemist living in a part of Oxford known as Jericho. The journey through Oxford reveals more dangers than Lyra had anticipated.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (steampunk)",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1307_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1307_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1307_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1307_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1307_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1307_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1307_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1307_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22665,
-        "score": 3.59
+    {
+      "status": "on_loan",
+      "stock_id": "1307_2"
     },
-    "pages": 1008,
-    "title": "Lyra's Oxford",
-    "url": "https://www.goodreads.com/book/show/531197.Lyra_s_Oxford",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "1307_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1307_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1307_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1307_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1307_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22665,
+    "score": 3.59
+  },
+  "pages": 1008,
+  "title": "Lyra's Oxford",
+  "url": "https://www.goodreads.com/book/show/531197.Lyra_s_Oxford",
+  "year_published": 2003
 }

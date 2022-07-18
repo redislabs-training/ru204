@@ -1,62 +1,62 @@
 {
-    "author": "Max Barry",
-    "id": "1184",
-    "description": "In Max Barry's twisted, hilarious and terrifying vision of the near future, the world is run by giant corporations and employees take the last names of the companies they work for. It's a globalised, ultra-capitalist free market paradise! Hack Nike is a lowly merchandising officer who's not very good at negotiating his salary. So when John Nike and John Nike, executives from the promised land of Marketing, offer him a contract, he signs without reading it. Unfortunately, Hack's new contract involves shooting teenagers to build up street cred for Nike's new line of $2,500 trainers. Hack goes to the police\u2014but they assume that he's asking for a subcontracting deal and lease the assassination to the more experienced NRA. Enter Jennifer Government, a tough-talking agent with a barcode tattoo under her eye and a personal problem with John Nike (the boss of the other John Nike). And a gun. Hack is about to find out what it really means to mess with market forces.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fiction": 441,
-        "humor": 71,
-        "politics": 46,
-        "science fiction": 361,
-        "science fiction (cyberpunk)": 48,
-        "science fiction (dystopia)": 213,
-        "science fiction fantasy": 32,
-        "speculative fiction": 29,
-        "thriller": 41,
-        "young adult": 24
+  "author": "Max Barry",
+  "id": "1184",
+  "description": "In Max Barry's twisted, hilarious and terrifying vision of the near future, the world is run by giant corporations and employees take the last names of the companies they work for. It's a globalised, ultra-capitalist free market paradise! Hack Nike is a lowly merchandising officer who's not very good at negotiating his salary. So when John Nike and John Nike, executives from the promised land of Marketing, offer him a contract, he signs without reading it. Unfortunately, Hack's new contract involves shooting teenagers to build up street cred for Nike's new line of $2,500 trainers. Hack goes to the police—but they assume that he's asking for a subcontracting deal and lease the assassination to the more experienced NRA. Enter Jennifer Government, a tough-talking agent with a barcode tattoo under her eye and a personal problem with John Nike (the boss of the other John Nike). And a gun. Hack is about to find out what it really means to mess with market forces.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fiction",
+    "humor",
+    "politics",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1184_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1184_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1184_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1184_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1184_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1184_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1184_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1184_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1184_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13452,
-        "score": 3.66
+    {
+      "status": "on_loan",
+      "stock_id": "1184_2"
     },
-    "pages": 1211,
-    "title": "Jennifer Government",
-    "url": "https://www.goodreads.com/book/show/33356.Jennifer_Government",
-    "year_published": 2002
+    {
+      "status": "available",
+      "stock_id": "1184_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1184_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1184_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1184_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1184_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1184_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13452,
+    "score": 3.66
+  },
+  "pages": 1211,
+  "title": "Jennifer Government",
+  "url": "https://www.goodreads.com/book/show/33356.Jennifer_Government",
+  "year_published": 2002
 }

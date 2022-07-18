@@ -1,52 +1,52 @@
 {
-    "author": "Tom Gauld",
-    "id": "793",
-    "description": "\"Living on the moon... Whatever were we thinking...? It seems so silly now.\"The lunar colony is slowly winding down, like a small town circumvented by a new super highway. As our hero, the Mooncop, makes his daily rounds, his beat grows ever smaller, the population dwindles. A young girl runs away, a dog breaks off his leash, an automaton wanders off from the Museum of the Moon.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 19,
-        "comics (comic book)": 22,
-        "fiction": 76,
-        "graphic novels comics": 44,
-        "humor": 18,
-        "science fiction": 134,
-        "sequential art (bande dessin\u00e9e)": 18,
-        "sequential art (comics)": 271,
-        "sequential art (graphic novels)": 552,
-        "space": 27
+  "author": "Tom Gauld",
+  "id": "793",
+  "description": "\"Living on the moon... Whatever were we thinking...? It seems so silly now.\"The lunar colony is slowly winding down, like a small town circumvented by a new super highway. As our hero, the Mooncop, makes his daily rounds, his beat grows ever smaller, the population dwindles. A young girl runs away, a dog breaks off his leash, an automaton wanders off from the Museum of the Moon.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "science fiction",
+    "sequential art (bande dessinée)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "793_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "793_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "793_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "793_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "793_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "793_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4853,
-        "score": 3.91
+    {
+      "status": "available",
+      "stock_id": "793_2"
     },
-    "pages": 1080,
-    "title": "Mooncop",
-    "url": "https://www.goodreads.com/book/show/28116830-mooncop",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "793_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "793_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "793_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4853,
+    "score": 3.91
+  },
+  "pages": 1080,
+  "title": "Mooncop",
+  "url": "https://www.goodreads.com/book/show/28116830-mooncop",
+  "year_published": 2016
 }

@@ -1,58 +1,58 @@
 {
-    "author": "Philip K. Dick",
-    "id": "610",
-    "description": "On the arid colony of Mars the only thing more precious than water may be a ten-year-old schizophrenic boy named Manfred Steiner. For although the UN has slated \"anomalous\" children for deportation and destruction, other people--especially Supreme Goodmember Arnie Kott of the Water Worker's union--suspect that Manfred's disorder\u00a0\u00a0may be a window into the future. In Martian Time-Slip Philip K. Dick uses power politics and extraterrestrial real estate scams, adultery, and murder to penetrate the mysteries of being and time.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 17,
-        "fantasy": 17,
-        "fiction": 230,
-        "literature (american)": 20,
-        "novels": 34,
-        "science fiction": 599,
-        "science fiction (dystopia)": 16,
-        "science fiction (time travel)": 27,
-        "science fiction fantasy": 27,
-        "speculative fiction": 32
+  "author": "Philip K. Dick",
+  "id": "610",
+  "description": "On the arid colony of Mars the only thing more precious than water may be a ten-year-old schizophrenic boy named Manfred Steiner. For although the UN has slated \"anomalous\" children for deportation and destruction, other people--especially Supreme Goodmember Arnie Kott of the Water Worker's union--suspect that Manfred's disorder  may be a window into the future. In Martian Time-Slip Philip K. Dick uses power politics and extraterrestrial real estate scams, adultery, and murder to penetrate the mysteries of being and time.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "610_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "610_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "610_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "610_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "610_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "610_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "610_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "610_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10899,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "610_2"
     },
-    "pages": 1183,
-    "title": "Martian Time-Slip",
-    "url": "https://www.goodreads.com/book/show/697251.Martian_Time_Slip",
-    "year_published": 1964
+    {
+      "status": "on_loan",
+      "stock_id": "610_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "610_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "610_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "610_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "610_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10899,
+    "score": 3.77
+  },
+  "pages": 1183,
+  "title": "Martian Time-Slip",
+  "url": "https://www.goodreads.com/book/show/697251.Martian_Time_Slip",
+  "year_published": 1964
 }

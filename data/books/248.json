@@ -1,44 +1,44 @@
 {
-    "author": "Peter F. Hamilton",
-    "id": "248",
-    "description": "Greg Mandel, late of the Mindstar Battalion, has been many things in his life. Commando. Freedom fighter. Assassin. Now he's a freelance operative with a very special edge: telepathy. In the high-tech, hard-edged world of computer crime, zero-gravity smuggling, and artificial intelligence, Greg Mandel is the man to call when things get rough. But when an elusive saboteur plagues a powerful organization known as Event Horizon, Mandel must cut his way through a maze of corporate intrigue and startling new scientific discoveries. And nothing less than the future is at stake.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 20,
-        "fantasy": 6,
-        "fiction": 51,
-        "mystery": 24,
-        "mystery (crime)": 8,
-        "science fiction": 324,
-        "science fiction (cyberpunk)": 40,
-        "science fiction fantasy": 9,
-        "space (space opera)": 12,
-        "thriller": 13
+  "author": "Peter F. Hamilton",
+  "id": "248",
+  "description": "Greg Mandel, late of the Mindstar Battalion, has been many things in his life. Commando. Freedom fighter. Assassin. Now he's a freelance operative with a very special edge: telepathy. In the high-tech, hard-edged world of computer crime, zero-gravity smuggling, and artificial intelligence, Greg Mandel is the man to call when things get rough. But when an elusive saboteur plagues a powerful organization known as Event Horizon, Mandel must cut his way through a maze of corporate intrigue and startling new scientific discoveries. And nothing less than the future is at stake.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "space (space opera)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "248_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "248_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "248_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "248_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7454,
-        "score": 3.92
+    {
+      "status": "available",
+      "stock_id": "248_2"
     },
-    "pages": 659,
-    "title": "Mindstar Rising",
-    "url": "https://www.goodreads.com/book/show/45253.Mindstar_Rising",
-    "year_published": 1993
+    {
+      "status": "available",
+      "stock_id": "248_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7454,
+    "score": 3.92
+  },
+  "pages": 659,
+  "title": "Mindstar Rising",
+  "url": "https://www.goodreads.com/book/show/45253.Mindstar_Rising",
+  "year_published": 1993
 }

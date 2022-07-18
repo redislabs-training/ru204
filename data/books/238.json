@@ -1,38 +1,38 @@
 {
-    "author": "William Hertling",
-    "id": "238",
-    "description": "In the year 2035, robots, artificial intelligences, and neural implants have become commonplace. The Institute for Ethics keeps the peace, using social reputation to ensure that robots and humans don't harm society or each other. But a powerful AI named Adam has found a way around the restrictions.  Catherine Matthews, nineteen years old, has a unique gift: the ability to manipulate the net with her neural implant. Yanked out of her perfectly ordinary life, Catherine becomes the last firewall standing between Adam and his quest for world domination.  PRAISE FOR THE LAST FIREWALL  \u201cAwesome near-term science fiction.\u201d \u2013 Brad Feld, Foundry Group managing director  \u201cAn insightful and adrenaline-inducing tale of what humanity could become and the machines we could spawn.\u201d \u2013 Ben Huh, CEO of Cheezburger  \u201cA fun read and tantalizing study of the future of technology: both inviting and alarming.\u201d \u2013 Harper Reed, former CTO of Obama for America, Threadless  \"A fascinating and prescient take on what the world will look like once computers become smarter than people. Highly recommended.\" \u2013 Mat Ellis, Founder & CEO Cloudability  \u201cA phenomenal ride through a post-scarcity world where humans are caught between rogue AIs. If you like having your mind blown, read this book!\u201d \u2013 Gene Kim, author of The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "artificial intelligence": 7,
-        "audiobook": 7,
-        "business (amazon)": 6,
-        "fiction": 41,
-        "science fiction": 97,
-        "science fiction (cyberpunk)": 14,
-        "science fiction (dystopia)": 5,
-        "science fiction (robots)": 4,
-        "science fiction fantasy": 6,
-        "singularity": 9
+  "author": "William Hertling",
+  "id": "238",
+  "description": "In the year 2035, robots, artificial intelligences, and neural implants have become commonplace. The Institute for Ethics keeps the peace, using social reputation to ensure that robots and humans don't harm society or each other. But a powerful AI named Adam has found a way around the restrictions.  Catherine Matthews, nineteen years old, has a unique gift: the ability to manipulate the net with her neural implant. Yanked out of her perfectly ordinary life, Catherine becomes the last firewall standing between Adam and his quest for world domination.  PRAISE FOR THE LAST FIREWALL  “Awesome near-term science fiction.” – Brad Feld, Foundry Group managing director  “An insightful and adrenaline-inducing tale of what humanity could become and the machines we could spawn.” – Ben Huh, CEO of Cheezburger  “A fun read and tantalizing study of the future of technology: both inviting and alarming.” – Harper Reed, former CTO of Obama for America, Threadless  \"A fascinating and prescient take on what the world will look like once computers become smarter than people. Highly recommended.\" – Mat Ellis, Founder & CEO Cloudability  “A phenomenal ride through a post-scarcity world where humans are caught between rogue AIs. If you like having your mind blown, read this book!” – Gene Kim, author of The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "artificial intelligence",
+    "audiobook",
+    "business (amazon)",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "singularity"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "238_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "238_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "238_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3219,
-        "score": 3.99
-    },
-    "pages": 994,
-    "title": "The Last Firewall",
-    "url": "https://www.goodreads.com/book/show/18620484-the-last-firewall",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "238_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3219,
+    "score": 3.99
+  },
+  "pages": 994,
+  "title": "The Last Firewall",
+  "url": "https://www.goodreads.com/book/show/18620484-the-last-firewall",
+  "year_published": 2013
 }

@@ -1,35 +1,35 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1960",
-    "description": "It's bad enough being new on the job, but Teppic hasn't a clue as to what a pharaoh is supposed to do. After all, he's been trained at Ankh-Morpork's famed assassins' school, across the sea from the Kingdom of the Sun. First, there's the monumental task of building a suitable resting place for Dad -- a pyramid to end all pyramids. Then there are the myriad administrative duties, such as dealing with mad priests, sacred crocodiles, and marching mummies. And to top it all off, the adolescent pharaoh discovers deceit, betrayal - not to mention a headstrong handmaiden - at the heart of his realm.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 110,
-        "audiobook": 89,
-        "childrens": 76,
-        "childrens (middle grade)": 70,
-        "fantasy": 5080,
-        "fiction": 986,
-        "humor": 833,
-        "humor (comedy)": 285,
-        "science fiction fantasy": 159,
-        "young adult": 89
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1960_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 74640,
-        "score": 3.9
-    },
-    "pages": 1032,
-    "title": "Pyramids",
-    "url": "https://www.goodreads.com/book/show/64217.Pyramids",
-    "year_published": 1989
+  "author": "Terry Pratchett",
+  "id": "1960",
+  "description": "It's bad enough being new on the job, but Teppic hasn't a clue as to what a pharaoh is supposed to do. After all, he's been trained at Ankh-Morpork's famed assassins' school, across the sea from the Kingdom of the Sun. First, there's the monumental task of building a suitable resting place for Dad -- a pyramid to end all pyramids. Then there are the myriad administrative duties, such as dealing with mad priests, sacred crocodiles, and marching mummies. And to top it all off, the adolescent pharaoh discovers deceit, betrayal - not to mention a headstrong handmaiden - at the heart of his realm.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1960_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 74640,
+    "score": 3.9
+  },
+  "pages": 1032,
+  "title": "Pyramids",
+  "url": "https://www.goodreads.com/book/show/64217.Pyramids",
+  "year_published": 1989
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Terry Pratchett",
-    "id": "28376",
-    "description": "\u2018Armageddon only happens once, you know. They don\u2019t let you go around again until you get it right.\u2019People have been predicting the end of the world almost from its very beginning, so it\u2019s only natural to be sceptical when a new date is set for Judgement Day. But what if, for once, the predictions are right, and the apocalypse really is due to arrive next Saturday, just after tea?You could spend the time left drowning your sorrows, giving away all your possessions in preparation for the rapture, or laughing it off as (hopefully) just another hoax. Or you could just try to do something about it.It\u2019s a predicament that Aziraphale, a somewhat fussy angel, and Crowley, a fast-living demon now finds themselves in. They\u2019ve been living amongst Earth\u2019s mortals since The Beginning and, truth be told, have grown rather fond of the lifestyle and, in all honesty, are not actually looking forward to the coming Apocalypse.And then there\u2019s the small matter that someone appears to have misplaced the Antichrist\u2026",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 663,
-        "audiobook": 978,
-        "fantasy": 18014,
-        "fantasy (supernatural)": 494,
-        "fantasy (urban fantasy)": 1245,
-        "fiction": 6390,
-        "humor": 3947,
-        "humor (comedy)": 1158,
-        "science fiction": 549,
-        "science fiction fantasy": 781
+  "author": "Terry Pratchett",
+  "id": "28376",
+  "description": "‘Armageddon only happens once, you know. They don’t let you go around again until you get it right.’People have been predicting the end of the world almost from its very beginning, so it’s only natural to be sceptical when a new date is set for Judgement Day. But what if, for once, the predictions are right, and the apocalypse really is due to arrive next Saturday, just after tea?You could spend the time left drowning your sorrows, giving away all your possessions in preparation for the rapture, or laughing it off as (hopefully) just another hoax. Or you could just try to do something about it.It’s a predicament that Aziraphale, a somewhat fussy angel, and Crowley, a fast-living demon now finds themselves in. They’ve been living amongst Earth’s mortals since The Beginning and, truth be told, have grown rather fond of the lifestyle and, in all honesty, are not actually looking forward to the coming Apocalypse.And then there’s the small matter that someone appears to have misplaced the Antichrist…",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "28376_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "28376_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "28376_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28376_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "28376_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28376_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28376_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28376_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "28376_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 565414,
-        "score": 4.24
+    {
+      "status": "available",
+      "stock_id": "28376_2"
     },
-    "pages": 327,
-    "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
-    "url": "https://www.goodreads.com/book/show/12067.Good_Omens",
-    "year_published": 1990
+    {
+      "status": "maintenance",
+      "stock_id": "28376_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "28376_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28376_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28376_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28376_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "28376_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 565414,
+    "score": 4.24
+  },
+  "pages": 327,
+  "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+  "url": "https://www.goodreads.com/book/show/12067.Good_Omens",
+  "year_published": 1990
 }

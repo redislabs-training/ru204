@@ -1,59 +1,59 @@
 {
-    "author": "Daniel Suarez",
-    "id": "1341",
-    "description": "Physicist Jon Grady and his team have discovered a device that can reflect gravity\u2014a triumph that will revolutionize the field of physics and change the future. But instead of acclaim, Grady\u2019s lab is locked down by a covert organization known as the Bureau of Technology Control.The bureau\u2019s mission: suppress the truth of sudden technological progress and prevent the social upheaval it would trigger. Because the future is already here. And it\u2019s rewards are only for a select few.When Grady refuses to join the BTC, he\u2019s thrown into a nightmarish high-tech prison housing other doomed rebel intellects. Now, as the only hope to usher humanity out of its artificial dark age, Grady and his fellow prisoners must try to expose the secrets of an unimaginable enemy\u2014one that wields a technological advantage half a century in the making.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 48,
-        "fantasy": 17,
-        "fiction": 237,
-        "mystery": 17,
-        "science (technology)": 21,
-        "science fiction": 456,
-        "science fiction (near future)": 15,
-        "science fiction fantasy": 16,
-        "speculative fiction": 14,
-        "thriller": 136
+  "author": "Daniel Suarez",
+  "id": "1341",
+  "description": "Physicist Jon Grady and his team have discovered a device that can reflect gravity—a triumph that will revolutionize the field of physics and change the future. But instead of acclaim, Grady’s lab is locked down by a covert organization known as the Bureau of Technology Control.The bureau’s mission: suppress the truth of sudden technological progress and prevent the social upheaval it would trigger. Because the future is already here. And it’s rewards are only for a select few.When Grady refuses to join the BTC, he’s thrown into a nightmarish high-tech prison housing other doomed rebel intellects. Now, as the only hope to usher humanity out of its artificial dark age, Grady and his fellow prisoners must try to expose the secrets of an unimaginable enemy—one that wields a technological advantage half a century in the making.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science (technology)",
+    "science fiction",
+    "science fiction (near future)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1341_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1341_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1341_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1341_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1341_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1341_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1341_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1341_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15542,
-        "score": 3.92
+    {
+      "status": "on_loan",
+      "stock_id": "1341_2"
     },
-    "pages": 833,
-    "title": "Influx",
-    "url": "https://www.goodreads.com/book/show/22668803-influx",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "1341_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1341_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1341_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1341_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1341_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15542,
+    "score": 3.92
+  },
+  "pages": 833,
+  "title": "Influx",
+  "url": "https://www.goodreads.com/book/show/22668803-influx",
+  "year_published": 2014
 }

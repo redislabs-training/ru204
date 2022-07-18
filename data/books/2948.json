@@ -1,55 +1,55 @@
 {
-    "author": "Ransom Riggs",
-    "id": "2948",
-    "description": "The #1 bestselling series returns with a thrilling new story arc set in America!Vintage photographs reveal the never-before-seen world of peculiar America with a stunning addition\u2014full-color images.Having defeated the monstrous threat that nearly destroyed the peculiar world, Jacob Portman is back where his story began, in Florida. Except now Miss Peregrine, Emma, and their peculiar friends are with him, and doing their best to blend in. But carefree days of beach visits and normalling lessons are soon interrupted by a discovery\u2014a subterranean bunker that belonged to Jacob\u2019s grandfather, Abe.Clues to Abe\u2019s double-life as a peculiar operative start to emerge, secrets long hidden in plain sight. And Jacob begins to learn about the dangerous legacy he has inherited\u2014truths that were part of him long before he walked into Miss Peregrine\u2019s time loop.Now, the stakes are higher than ever as Jacob and his friends are thrust into the untamed landscape of American peculiardom\u2014a world with few ymbrynes, or rules\u2014that none of them understand. New wonders, and dangers, await in this brilliant next chapter for Miss Peregrine\u2019s peculiar children. Their story is again illustrated throughout by haunting vintage photographs, but with a striking addition for this all-new, multi-era American adventure\u2014full color.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 49,
-        "audiobook": 61,
-        "fantasy": 865,
-        "fantasy (paranormal)": 77,
-        "fiction": 253,
-        "historical (historical fiction)": 50,
-        "mystery": 50,
-        "science fiction (time travel)": 41,
-        "young adult": 485,
-        "young adult (young adult fantasy)": 43
+  "author": "Ransom Riggs",
+  "id": "2948",
+  "description": "The #1 bestselling series returns with a thrilling new story arc set in America!Vintage photographs reveal the never-before-seen world of peculiar America with a stunning addition—full-color images.Having defeated the monstrous threat that nearly destroyed the peculiar world, Jacob Portman is back where his story began, in Florida. Except now Miss Peregrine, Emma, and their peculiar friends are with him, and doing their best to blend in. But carefree days of beach visits and normalling lessons are soon interrupted by a discovery—a subterranean bunker that belonged to Jacob’s grandfather, Abe.Clues to Abe’s double-life as a peculiar operative start to emerge, secrets long hidden in plain sight. And Jacob begins to learn about the dangerous legacy he has inherited—truths that were part of him long before he walked into Miss Peregrine’s time loop.Now, the stakes are higher than ever as Jacob and his friends are thrust into the untamed landscape of American peculiardom—a world with few ymbrynes, or rules—that none of them understand. New wonders, and dangers, await in this brilliant next chapter for Miss Peregrine’s peculiar children. Their story is again illustrated throughout by haunting vintage photographs, but with a striking addition for this all-new, multi-era American adventure—full color.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2948_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2948_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2948_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2948_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2948_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2948_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2948_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 27567,
-        "score": 4.14
+    {
+      "status": "available",
+      "stock_id": "2948_2"
     },
-    "pages": 530,
-    "title": "A Map of Days",
-    "url": "https://www.goodreads.com/book/show/32943032-a-map-of-days",
-    "year_published": 2018
+    {
+      "status": "maintenance",
+      "stock_id": "2948_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2948_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2948_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2948_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 27567,
+    "score": 4.14
+  },
+  "pages": 530,
+  "title": "A Map of Days",
+  "url": "https://www.goodreads.com/book/show/32943032-a-map-of-days",
+  "year_published": 2018
 }

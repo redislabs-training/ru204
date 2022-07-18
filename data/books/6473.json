@@ -1,44 +1,44 @@
 {
-    "author": "Margaret Atwood",
-    "id": "6473",
-    "description": "Margaret Atwood puts the human heart to the ultimate test in an utterly brilliant new novel that is as visionary as The Handmaid's Tale and as richly imagined as The Blind Assassin.Stan and Charmaine are a married couple trying to stay afloat in the midst of an economic and social collapse. Job loss has forced them to live in their car, leaving them vulnerable to roving gangs. They desperately need to turn their situation around - and fast. The Positron Project in the town of Consilience seems to be the answer to their prayers. No one is unemployed and everyone gets a comfortable, clean house to live in... for six months out of the year. On alternating months, residents of Consilience must leave their homes and function as inmates in the Positron prison system. Once their month of service in the prison is completed, they can return to their \"civilian\" homes. At first, this doesn't seem like too much of a sacrifice to make in order to have a roof over one's head and food to eat. But when Charmaine becomes romantically involved with the man who lives in their house during the months when she and Stan are in the prison, a series of troubling events unfolds, putting Stan's life in danger. With each passing day, Positron looks less like a prayer answered and more like a chilling prophecy fulfilled.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 100,
-        "adult fiction": 92,
-        "audiobook": 189,
-        "contemporary": 69,
-        "cultural (canada)": 149,
-        "fiction": 1150,
-        "literary fiction": 82,
-        "science fiction": 524,
-        "science fiction (dystopia)": 556,
-        "speculative fiction": 118
+  "author": "Margaret Atwood",
+  "id": "6473",
+  "description": "Margaret Atwood puts the human heart to the ultimate test in an utterly brilliant new novel that is as visionary as The Handmaid's Tale and as richly imagined as The Blind Assassin.Stan and Charmaine are a married couple trying to stay afloat in the midst of an economic and social collapse. Job loss has forced them to live in their car, leaving them vulnerable to roving gangs. They desperately need to turn their situation around - and fast. The Positron Project in the town of Consilience seems to be the answer to their prayers. No one is unemployed and everyone gets a comfortable, clean house to live in... for six months out of the year. On alternating months, residents of Consilience must leave their homes and function as inmates in the Positron prison system. Once their month of service in the prison is completed, they can return to their \"civilian\" homes. At first, this doesn't seem like too much of a sacrifice to make in order to have a roof over one's head and food to eat. But when Charmaine becomes romantically involved with the man who lives in their house during the months when she and Stan are in the prison, a series of troubling events unfolds, putting Stan's life in danger. With each passing day, Positron looks less like a prayer answered and more like a chilling prophecy fulfilled.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "cultural (canada)",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6473_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6473_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6473_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6473_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 55618,
-        "score": 3.38
+    {
+      "status": "maintenance",
+      "stock_id": "6473_2"
     },
-    "pages": 884,
-    "title": "The Heart Goes Last",
-    "url": "https://www.goodreads.com/book/show/24388326-the-heart-goes-last",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "6473_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 55618,
+    "score": 3.38
+  },
+  "pages": 884,
+  "title": "The Heart Goes Last",
+  "url": "https://www.goodreads.com/book/show/24388326-the-heart-goes-last",
+  "year_published": 2015
 }

@@ -1,67 +1,67 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "602",
-    "description": "HIDE OR FIGHT?Matthias, an illegal third child, is caught in the cross fire between rebels and the Population Police. When he unwittingly saves a Population Police officer, Matthias is brought to Population Police headquarters to train as an officer himself. There he meets Nina, another third-born who enlists his help in a plot to undermine the Population Police. But Matthias is under constant scrutiny, and he has no idea whom he can trust. What can one boy do against a wicked bureaucracy?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 41,
-        "childrens": 54,
-        "childrens (middle grade)": 72,
-        "fantasy": 41,
-        "fiction": 127,
-        "futuristic": 22,
-        "science fiction": 141,
-        "science fiction (dystopia)": 240,
-        "young adult": 226,
-        "young adult (teen)": 22
+  "author": "Margaret Peterson Haddix",
+  "id": "602",
+  "description": "HIDE OR FIGHT?Matthias, an illegal third child, is caught in the cross fire between rebels and the Population Police. When he unwittingly saves a Population Police officer, Matthias is brought to Population Police headquarters to train as an officer himself. There he meets Nina, another third-born who enlists his help in a plot to undermine the Population Police. But Matthias is under constant scrutiny, and he has no idea whom he can trust. What can one boy do against a wicked bureaucracy?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "futuristic",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "602_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "602_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "602_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "602_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "602_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "602_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "602_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "602_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "602_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "602_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17531,
-        "score": 4.16
+    {
+      "status": "available",
+      "stock_id": "602_2"
     },
-    "pages": 898,
-    "title": "Among the Enemy",
-    "url": "https://www.goodreads.com/book/show/103815.Among_the_Enemy",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "602_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "602_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "602_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "602_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "602_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "602_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "602_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17531,
+    "score": 4.16
+  },
+  "pages": 898,
+  "title": "Among the Enemy",
+  "url": "https://www.goodreads.com/book/show/103815.Among_the_Enemy",
+  "year_published": 2005
 }

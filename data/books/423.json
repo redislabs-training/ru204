@@ -1,43 +1,43 @@
 {
-    "author": "Jodi Taylor",
-    "id": "423",
-    "description": "\nIntroducing The Time Police, the brand-new series by\n \ninternational bestselling author,\n Jodi Taylor - an \nirresistible\n spinoff from\n the much-loved Chronicles of St Mary's series. Perfect reading for fans of Doctor Who, Ben Aaronovitch and Jasper Fforde. \nAt some time in the future, the secret of time-travel became available to all. Chaos ensued as people sought to take advantage. Because there will always be nutters who want to change history...And so the Time Police were formed. Internationally sanctioned thugs whose task it was to keep the timeline straight by any and all means possible. And they succeeded. The Time Wars are over. The Time Police won. But who will win the peace?Doing Time follows three hapless new Time Police recruits - Jane, Luke and Matthew - as they try to navigate their first year on the beat. It's all going to be fine. Obviously.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 11,
-        "audiobook": 26,
-        "fantasy": 65,
-        "fiction": 46,
-        "historical": 14,
-        "historical (historical fiction)": 34,
-        "humor": 14,
-        "science fiction": 80,
-        "science fiction (time travel)": 96,
-        "science fiction fantasy": 9
+  "author": "Jodi Taylor",
+  "id": "423",
+  "description": "\nIntroducing The Time Police, the brand-new series by\n \ninternational bestselling author,\n Jodi Taylor - an \nirresistible\n spinoff from\n the much-loved Chronicles of St Mary's series. Perfect reading for fans of Doctor Who, Ben Aaronovitch and Jasper Fforde. \nAt some time in the future, the secret of time-travel became available to all. Chaos ensued as people sought to take advantage. Because there will always be nutters who want to change history...And so the Time Police were formed. Internationally sanctioned thugs whose task it was to keep the timeline straight by any and all means possible. And they succeeded. The Time Wars are over. The Time Police won. But who will win the peace?Doing Time follows three hapless new Time Police recruits - Jane, Luke and Matthew - as they try to navigate their first year on the beat. It's all going to be fine. Obviously.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "humor",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "423_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "423_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "423_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "423_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3317,
-        "score": 4.41
+    {
+      "status": "available",
+      "stock_id": "423_2"
     },
-    "pages": 386,
-    "title": "Doing Time",
-    "url": "https://www.goodreads.com/book/show/44597196-doing-time",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "423_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3317,
+    "score": 4.41
+  },
+  "pages": 386,
+  "title": "Doing Time",
+  "url": "https://www.goodreads.com/book/show/44597196-doing-time",
+  "year_published": 2019
 }

@@ -1,67 +1,67 @@
 {
-    "author": "Jay Kristoff",
-    "id": "727",
-    "description": "A SHATTERED EMPIREThe mad Sh\u014dgun Yoritomo has been assassinated by the Stormdancer Yukiko, and the threat of civil war looms over the Shima Imperium. The Lotus Guild conspires to renew the nation\u2019s broken dynasty and crush the growing rebellion simultaneously \u2013 by endorsing a new Sh\u014dgun who desires nothing more than to see Yukiko dead.A DARK LEGACYYukiko and the mighty thunder tiger Buruu have been cast in the role of heroes by the Kag\u00e9 rebellion. But Yukiko herself is blinded by rage over her father\u2019s death, and her ability to hear the thoughts of beasts is swelling beyond her power to control. Along with Buruu, Yukiko\u2019s anchor is Kin, the rebel Guildsman who helped her escape from Yoritomo\u2019s clutches. But Kin has his own secrets, and is haunted by visions of a future he\u2019d rather die than see realized.A GATHERING STORMKag\u00e9 assassins lurk within the Sh\u014dgun\u2019s palace, plotting to end the new dynasty before it begins. A waif from Kigen\u2019s gutters begins a friendship that could undo the entire empire. A new enemy gathers its strength, readying to push the fracturing Shima imperium into a war it cannot hope to survive. And across raging oceans, amongst islands of black glass, Yukiko and Buruu will face foes no katana or talon can defeat.The ghosts of a blood-stained past.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 22,
-        "fantasy": 511,
-        "fantasy (high fantasy)": 20,
-        "fantasy (mythology)": 27,
-        "fiction": 37,
-        "science fiction": 39,
-        "science fiction (dystopia)": 65,
-        "science fiction (steampunk)": 272,
-        "young adult": 119,
-        "young adult (young adult fantasy)": 23
+  "author": "Jay Kristoff",
+  "id": "727",
+  "description": "A SHATTERED EMPIREThe mad Shōgun Yoritomo has been assassinated by the Stormdancer Yukiko, and the threat of civil war looms over the Shima Imperium. The Lotus Guild conspires to renew the nation’s broken dynasty and crush the growing rebellion simultaneously – by endorsing a new Shōgun who desires nothing more than to see Yukiko dead.A DARK LEGACYYukiko and the mighty thunder tiger Buruu have been cast in the role of heroes by the Kagé rebellion. But Yukiko herself is blinded by rage over her father’s death, and her ability to hear the thoughts of beasts is swelling beyond her power to control. Along with Buruu, Yukiko’s anchor is Kin, the rebel Guildsman who helped her escape from Yoritomo’s clutches. But Kin has his own secrets, and is haunted by visions of a future he’d rather die than see realized.A GATHERING STORMKagé assassins lurk within the Shōgun’s palace, plotting to end the new dynasty before it begins. A waif from Kigen’s gutters begins a friendship that could undo the entire empire. A new enemy gathers its strength, readying to push the fracturing Shima imperium into a war it cannot hope to survive. And across raging oceans, amongst islands of black glass, Yukiko and Buruu will face foes no katana or talon can defeat.The ghosts of a blood-stained past.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (mythology)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "727_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "727_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "727_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "727_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "727_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "727_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "727_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "727_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "727_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "727_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5409,
-        "score": 3.98
+    {
+      "status": "maintenance",
+      "stock_id": "727_2"
     },
-    "pages": 687,
-    "title": "Kinslayer",
-    "url": "https://www.goodreads.com/book/show/15773979-kinslayer",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "727_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "727_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "727_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "727_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "727_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "727_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "727_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5409,
+    "score": 3.98
+  },
+  "pages": 687,
+  "title": "Kinslayer",
+  "url": "https://www.goodreads.com/book/show/15773979-kinslayer",
+  "year_published": 2013
 }

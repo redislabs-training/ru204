@@ -1,38 +1,38 @@
 {
-    "author": "Grant Morrison",
-    "id": "80",
-    "description": "A new chapter begins for the World's Strangest Heroes with MUSCLEBOUND, collecting issues #42-50 of the surreal series written by Grant Morrison. Revealing the secret origin of Flex Mentallo and the terrifying secret beneath the Pentagon, MUSCLEBOUND also features the subtle menace of the Beard Hunter and more!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 11,
-        "comics (superheroes)": 14,
-        "fantasy": 10,
-        "fiction": 8,
-        "graphic novels comics": 9,
-        "horror": 5,
-        "science fiction": 5,
-        "sequential art (comics)": 178,
-        "sequential art (graphic novels)": 69,
-        "superheroes (dc comics)": 14
+  "author": "Grant Morrison",
+  "id": "80",
+  "description": "A new chapter begins for the World's Strangest Heroes with MUSCLEBOUND, collecting issues #42-50 of the surreal series written by Grant Morrison. Revealing the secret origin of Flex Mentallo and the terrifying secret beneath the Pentagon, MUSCLEBOUND also features the subtle menace of the Beard Hunter and more!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "80_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "80_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "80_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2423,
-        "score": 4.16
-    },
-    "pages": 1162,
-    "title": "Doom Patrol, Vol. 4: Musclebound",
-    "url": "https://www.goodreads.com/book/show/22390.Doom_Patrol_Vol_4",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "80_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2423,
+    "score": 4.16
+  },
+  "pages": 1162,
+  "title": "Doom Patrol, Vol. 4: Musclebound",
+  "url": "https://www.goodreads.com/book/show/22390.Doom_Patrol_Vol_4",
+  "year_published": 2006
 }

@@ -1,40 +1,40 @@
 {
-    "author": "S.E. Grove",
-    "id": "1210",
-    "description": "She has only seen the world through maps. She had no idea they were so dangerous. \u00a0 Boston, 1891. Sophia Tims comes from a family of explorers and cartologers who, for generations, have been traveling and mapping the New World\u2014a world changed by the Great Disruption of 1799, when all the continents were flung into different time periods. \u00a0Eight years ago, her parents left her with her uncle Shadrack, the foremost cartologer in Boston, and went on an urgent mission. They never returned. Life with her brilliant, absent-minded, adored uncle has taught Sophia to take care of herself. Then Shadrack is kidnapped. And Sophia, who has rarely been outside of Boston, is the only one who can search for him. Together with Theo, a refugee from the West, she travels over rough terrain and uncharted ocean, encounters pirates and traders, and relies on a combination of Shadrack\u2019s maps, common sense, and her own slantwise powers of observation. But even as Sophia and Theo try to save Shadrack\u2019s life, they are in danger of losing their own.The Glass Sentence plunges readers into a time and place they will not want to leave, and introduces them to a heroine and hero they will take to their hearts. It is a remarkable debut.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 122,
-        "childrens": 52,
-        "childrens (middle grade)": 233,
-        "fantasy": 746,
-        "fiction": 115,
-        "historical": 51,
-        "historical (historical fiction)": 143,
-        "science fiction": 42,
-        "science fiction (time travel)": 82,
-        "young adult": 309
+  "author": "S.E. Grove",
+  "id": "1210",
+  "description": "She has only seen the world through maps. She had no idea they were so dangerous.   Boston, 1891. Sophia Tims comes from a family of explorers and cartologers who, for generations, have been traveling and mapping the New World—a world changed by the Great Disruption of 1799, when all the continents were flung into different time periods.  Eight years ago, her parents left her with her uncle Shadrack, the foremost cartologer in Boston, and went on an urgent mission. They never returned. Life with her brilliant, absent-minded, adored uncle has taught Sophia to take care of herself. Then Shadrack is kidnapped. And Sophia, who has rarely been outside of Boston, is the only one who can search for him. Together with Theo, a refugee from the West, she travels over rough terrain and uncharted ocean, encounters pirates and traders, and relies on a combination of Shadrack’s maps, common sense, and her own slantwise powers of observation. But even as Sophia and Theo try to save Shadrack’s life, they are in danger of losing their own.The Glass Sentence plunges readers into a time and place they will not want to leave, and introduces them to a heroine and hero they will take to their hearts. It is a remarkable debut.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1210_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1210_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1210_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6243,
-        "score": 3.81
-    },
-    "pages": 288,
-    "title": "The Glass Sentence",
-    "url": "https://www.goodreads.com/book/show/18668056-the-glass-sentence",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "1210_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6243,
+    "score": 3.81
+  },
+  "pages": 288,
+  "title": "The Glass Sentence",
+  "url": "https://www.goodreads.com/book/show/18668056-the-glass-sentence",
+  "year_published": 2014
 }

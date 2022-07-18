@@ -1,50 +1,50 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "481",
-    "description": "More than two years after the unexplained plague killed every other male mammal on the planet, the two exceptions - aspiring escape artist Yorick Brown and his pet monkey Ampersand - have traveled across the remains of the U.S. with biochemist Dr. Allison Mann and goverment operative Agent 355 to Dr. Mann's lab in San Francisco, where she managed to finally isolate the source of their immunity.Unfortunately, that source is within Ampersand's body, which was last seen disappearing under the arm of a mysterious Japanese mercenary. Now, accompanied by 355 and Dr. Mann, the last man on Earth has embarked on a new and even more hazardous journey - following Ampersand's trail across the Pacific, where danger threatens from below as well as above the waves. Collects issues 32-36",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 34,
-        "apocalyptic (post apocalyptic)": 110,
-        "comics (comic book)": 98,
-        "fantasy": 34,
-        "fiction": 205,
-        "graphic novels comics": 152,
-        "science fiction": 236,
-        "science fiction (dystopia)": 92,
-        "sequential art (comics)": 1255,
-        "sequential art (graphic novels)": 1426
+  "author": "Brian K. Vaughan",
+  "id": "481",
+  "description": "More than two years after the unexplained plague killed every other male mammal on the planet, the two exceptions - aspiring escape artist Yorick Brown and his pet monkey Ampersand - have traveled across the remains of the U.S. with biochemist Dr. Allison Mann and goverment operative Agent 355 to Dr. Mann's lab in San Francisco, where she managed to finally isolate the source of their immunity.Unfortunately, that source is within Ampersand's body, which was last seen disappearing under the arm of a mysterious Japanese mercenary. Now, accompanied by 355 and Dr. Mann, the last man on Earth has embarked on a new and even more hazardous journey - following Ampersand's trail across the Pacific, where danger threatens from below as well as above the waves. Collects issues 32-36",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "481_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "481_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "481_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "481_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "481_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "481_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26082,
-        "score": 4.2
+    {
+      "status": "maintenance",
+      "stock_id": "481_2"
     },
-    "pages": 1028,
-    "title": "Y: The Last Man, Vol. 6: Girl on Girl",
-    "url": "https://www.goodreads.com/book/show/156529.Y",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "481_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "481_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "481_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26082,
+    "score": 4.2
+  },
+  "pages": 1028,
+  "title": "Y: The Last Man, Vol. 6: Girl on Girl",
+  "url": "https://www.goodreads.com/book/show/156529.Y",
+  "year_published": 2005
 }

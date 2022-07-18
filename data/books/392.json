@@ -1,52 +1,52 @@
 {
-    "author": "Adam Rubin",
-    "id": "392",
-    "description": "The hilarious sequel to the smokin' hot New York Times best seller, perfect for story time News alert! It has just been discovered that there are NO MORE TACOS left anywhere in the world. This is a huge problem because, as you know, dragons love tacos. If only there was a way for the dragons to travel back in time, to before tacos went extinct. Then they could grab lots of tacos and bring them back! It's the perfect plan, as long as there's no spicy salsa. You remember what happened last time . . .The award-winning creators of Robo-Sauce and Secret Pizza Party return with a gut-bustingly hilarious companion to the bestselling phenomenon Dragons Love Tacos.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "childrens": 105,
-        "childrens (juvenile)": 7,
-        "childrens (picture books)": 311,
-        "childrens (storytime)": 19,
-        "fantasy": 29,
-        "fantasy (dragons)": 59,
-        "fiction": 26,
-        "food and drink (food)": 29,
-        "humor": 44,
-        "science fiction (time travel)": 28
+  "author": "Adam Rubin",
+  "id": "392",
+  "description": "The hilarious sequel to the smokin' hot New York Times best seller, perfect for story time News alert! It has just been discovered that there are NO MORE TACOS left anywhere in the world. This is a huge problem because, as you know, dragons love tacos. If only there was a way for the dragons to travel back in time, to before tacos went extinct. Then they could grab lots of tacos and bring them back! It's the perfect plan, as long as there's no spicy salsa. You remember what happened last time . . .The award-winning creators of Robo-Sauce and Secret Pizza Party return with a gut-bustingly hilarious companion to the bestselling phenomenon Dragons Love Tacos.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (picture books)",
+    "childrens (storytime)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fiction",
+    "food and drink (food)",
+    "humor",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "392_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "392_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "392_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "392_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "392_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "392_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2699,
-        "score": 3.82
+    {
+      "status": "on_loan",
+      "stock_id": "392_2"
     },
-    "pages": 818,
-    "title": "Dragons Love Tacos 2: The Sequel",
-    "url": "https://www.goodreads.com/book/show/31522122-dragons-love-tacos-2",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "392_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "392_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "392_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2699,
+    "score": 3.82
+  },
+  "pages": 818,
+  "title": "Dragons Love Tacos 2: The Sequel",
+  "url": "https://www.goodreads.com/book/show/31522122-dragons-love-tacos-2",
+  "year_published": 2017
 }

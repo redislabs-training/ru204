@@ -1,39 +1,39 @@
 {
-    "author": "Eoin Colfer",
-    "id": "264",
-    "description": "The Doctor Who 50th Anniversary Anthology is the perfect collection of adventures for Doctor Who fans.This print edition is the culmination of a year-long series of ebooks to celebrate fifty years of Doctor Who. Eleven Doctors, eleven stories, eleven unique interpretations of the Doctor, his terrifying alien enemies and his time-travelling adventures.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 15,
-        "anthologies": 15,
-        "fantasy": 36,
-        "fiction": 39,
-        "media tie in": 7,
-        "media tie in (doctor who)": 133,
-        "science fiction": 86,
-        "science fiction (time travel)": 25,
-        "science fiction fantasy": 7,
-        "short stories": 66
+  "author": "Eoin Colfer",
+  "id": "264",
+  "description": "The Doctor Who 50th Anniversary Anthology is the perfect collection of adventures for Doctor Who fans.This print edition is the culmination of a year-long series of ebooks to celebrate fifty years of Doctor Who. Eleven Doctors, eleven stories, eleven unique interpretations of the Doctor, his terrifying alien enemies and his time-travelling adventures.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "anthologies",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "264_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "264_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "264_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1800,
-        "score": 4.11
-    },
-    "pages": 517,
-    "title": "Doctor Who: Eleven Doctors, Eleven Stories",
-    "url": "https://www.goodreads.com/book/show/17973716-doctor-who",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "264_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1800,
+    "score": 4.11
+  },
+  "pages": 517,
+  "title": "Doctor Who: Eleven Doctors, Eleven Stories",
+  "url": "https://www.goodreads.com/book/show/17973716-doctor-who",
+  "year_published": 2013
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Phil Foglio",
-    "id": "283",
-    "description": "In a time when the Industrial Revolution has become an all-out war, Mad Science rules the World...with mixed success. At Transylvania Polygnostic University, Agatha Clay is a student with trouble concentrating and rotten luck. Dedicated to her studies but unable to build anything that actually works, she seems destined for a lackluster career as a minor lab assistant. But when the University is overthrown, a strange clank stalks the streets and it begins to look like Agatha might carry a spark of Mad Science after all.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 24,
-        "fantasy": 186,
-        "fiction": 68,
-        "humor": 31,
-        "science fiction": 75,
-        "science fiction (steampunk)": 307,
-        "sequential art (comics)": 228,
-        "sequential art (graphic novels)": 255,
-        "sequential art (webcomic)": 32,
-        "young adult": 29
+  "author": "Phil Foglio",
+  "id": "283",
+  "description": "In a time when the Industrial Revolution has become an all-out war, Mad Science rules the World...with mixed success. At Transylvania Polygnostic University, Agatha Clay is a student with trouble concentrating and rotten luck. Dedicated to her studies but unable to build anything that actually works, she seems destined for a lackluster career as a minor lab assistant. But when the University is overthrown, a strange clank stalks the streets and it begins to look like Agatha might carry a spark of Mad Science after all.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (steampunk)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (webcomic)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "283_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "283_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "283_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "283_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "283_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "283_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "283_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "283_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "283_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4288,
-        "score": 4.14
+    {
+      "status": "maintenance",
+      "stock_id": "283_2"
     },
-    "pages": 762,
-    "title": "Agatha Heterodyne and the Beetleburg Clank",
-    "url": "https://www.goodreads.com/book/show/545765.Agatha_Heterodyne_and_the_Beetleburg_Clank",
-    "year_published": 2002
+    {
+      "status": "available",
+      "stock_id": "283_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "283_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "283_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "283_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "283_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "283_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4288,
+    "score": 4.14
+  },
+  "pages": 762,
+  "title": "Agatha Heterodyne and the Beetleburg Clank",
+  "url": "https://www.goodreads.com/book/show/545765.Agatha_Heterodyne_and_the_Beetleburg_Clank",
+  "year_published": 2002
 }

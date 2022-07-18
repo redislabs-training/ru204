@@ -1,51 +1,51 @@
 {
-    "author": "Douglas Adams",
-    "id": "3006",
-    "description": "Back on Earth with nothing more to show for his long, strange trip through time and space than a ratty towel and a plastic shopping bag, Arthur Dent is ready to believe that the past eight years were all just a figment of his stressed-out imagination. But a gift-wrapped fishbowl with a cryptic inscription, the mysterious disappearance of Earth's dolphins, and the discovery of his battered copy of The Hitchhiker's Guide to the Galaxy all conspire to give Arthur the sneaking suspicion that something otherworldly is indeed going on. . . .God only knows what it all means. And fortunately, He left behind a Final Message of explanation. But since it's light-years away from Earth, on a star surrounded by souvenir booths, finding out what it is will mean hitching a ride to the far reaches of space aboard a UFO with a giant robot. But what else is new?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 153,
-        "audiobook": 184,
-        "classics": 239,
-        "fantasy": 815,
-        "fiction": 2204,
-        "humor": 1738,
-        "humor (comedy)": 586,
-        "novels": 163,
-        "science fiction": 3874,
-        "science fiction fantasy": 391
+  "author": "Douglas Adams",
+  "id": "3006",
+  "description": "Back on Earth with nothing more to show for his long, strange trip through time and space than a ratty towel and a plastic shopping bag, Arthur Dent is ready to believe that the past eight years were all just a figment of his stressed-out imagination. But a gift-wrapped fishbowl with a cryptic inscription, the mysterious disappearance of Earth's dolphins, and the discovery of his battered copy of The Hitchhiker's Guide to the Galaxy all conspire to give Arthur the sneaking suspicion that something otherworldly is indeed going on. . . .God only knows what it all means. And fortunately, He left behind a Final Message of explanation. But since it's light-years away from Earth, on a star surrounded by souvenir booths, finding out what it is will mean hitching a ride to the far reaches of space aboard a UFO with a giant robot. But what else is new?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3006_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3006_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3006_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3006_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3006_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3006_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 146618,
-        "score": 4.1
+    {
+      "status": "available",
+      "stock_id": "3006_2"
     },
-    "pages": 383,
-    "title": "So Long, and Thanks for All the Fish",
-    "url": "https://www.goodreads.com/book/show/6091075-so-long-and-thanks-for-all-the-fish",
-    "year_published": 1984
+    {
+      "status": "available",
+      "stock_id": "3006_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3006_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3006_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 146618,
+    "score": 4.1
+  },
+  "pages": 383,
+  "title": "So Long, and Thanks for All the Fish",
+  "url": "https://www.goodreads.com/book/show/6091075-so-long-and-thanks-for-all-the-fish",
+  "year_published": 1984
 }

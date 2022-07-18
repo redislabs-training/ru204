@@ -1,52 +1,52 @@
 {
-    "author": "Ted Chiang",
-    "id": "5831",
-    "description": "An alternate cover edition for this book can be found here.This much-anticipated second collection of stories is signature Ted Chiang, full of revelatory ideas and deeply sympathetic characters. In The Merchant and the Alchemist's Gate, a portal through time forces a fabric seller in ancient Baghdad to grapple with past mistakes and the temptation of second chances. In the epistolary Exhalation, an alien scientist makes a shocking discovery with ramifications not just for his own people, but for all of reality. And in The Lifecycle of Software Objects, a woman cares for an artificial intelligence over twenty years, elevating a faddish digital pet into what might be a true living being. Also included are two brand-new stories: Omphalos and Anxiety Is the Dizziness of Freedom.In this fantastical and elegant collection, Ted Chiang wrestles with the oldest questions on earth\u2014What is the nature of the universe? What does it mean to be human?\u2014and ones that no one else has even imagined. And, each in its own way, the stories prove that complex and thoughtful science fiction can rise to new heights of beauty, meaning, and compassion.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 85,
-        "audiobook": 97,
-        "fantasy": 264,
-        "fiction": 1285,
-        "philosophy": 61,
-        "science fiction": 1439,
-        "science fiction (time travel)": 72,
-        "science fiction fantasy": 127,
-        "short stories": 1701,
-        "speculative fiction": 115
+  "author": "Ted Chiang",
+  "id": "5831",
+  "description": "An alternate cover edition for this book can be found here.This much-anticipated second collection of stories is signature Ted Chiang, full of revelatory ideas and deeply sympathetic characters. In The Merchant and the Alchemist's Gate, a portal through time forces a fabric seller in ancient Baghdad to grapple with past mistakes and the temptation of second chances. In the epistolary Exhalation, an alien scientist makes a shocking discovery with ramifications not just for his own people, but for all of reality. And in The Lifecycle of Software Objects, a woman cares for an artificial intelligence over twenty years, elevating a faddish digital pet into what might be a true living being. Also included are two brand-new stories: Omphalos and Anxiety Is the Dizziness of Freedom.In this fantastical and elegant collection, Ted Chiang wrestles with the oldest questions on earth—What is the nature of the universe? What does it mean to be human?—and ones that no one else has even imagined. And, each in its own way, the stories prove that complex and thoughtful science fiction can rise to new heights of beauty, meaning, and compassion.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "philosophy",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5831_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5831_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5831_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5831_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5831_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5831_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 43614,
-        "score": 4.27
+    {
+      "status": "maintenance",
+      "stock_id": "5831_2"
     },
-    "pages": 1264,
-    "title": "Exhalation: Stories",
-    "url": "https://www.goodreads.com/book/show/41160292-exhalation",
-    "year_published": 2019
+    {
+      "status": "available",
+      "stock_id": "5831_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5831_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5831_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 43614,
+    "score": 4.27
+  },
+  "pages": 1264,
+  "title": "Exhalation: Stories",
+  "url": "https://www.goodreads.com/book/show/41160292-exhalation",
+  "year_published": 2019
 }

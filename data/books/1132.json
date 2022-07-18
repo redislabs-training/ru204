@@ -1,38 +1,38 @@
 {
-    "author": "Tamora Pierce",
-    "id": "1132",
-    "description": "With her gift of weaving silk thread and creating light, Sandry is brought to the Winding Circle community. There she meets Briar, a former thief who has a way with plants; Daja, an outcast gifted at metalcraft; and Tris, whose connection with the weather unsettles everyone, including herself. At Winding Circle, the four misfits are taught how to use their magic - and to trust one another. But then disaster strikes their new home. Can Sandry weave together four kinds of magical power and save herself, her friends, and the one place where they've ever been accepted?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 117,
-        "childrens": 172,
-        "childrens (middle grade)": 187,
-        "fantasy": 2875,
-        "fantasy (high fantasy)": 96,
-        "fantasy (magic)": 275,
-        "fiction": 309,
-        "science fiction fantasy": 87,
-        "young adult": 1106,
-        "young adult (young adult fantasy)": 175
+  "author": "Tamora Pierce",
+  "id": "1132",
+  "description": "With her gift of weaving silk thread and creating light, Sandry is brought to the Winding Circle community. There she meets Briar, a former thief who has a way with plants; Daja, an outcast gifted at metalcraft; and Tris, whose connection with the weather unsettles everyone, including herself. At Winding Circle, the four misfits are taught how to use their magic - and to trust one another. But then disaster strikes their new home. Can Sandry weave together four kinds of magical power and save herself, her friends, and the one place where they've ever been accepted?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1132_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1132_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1132_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 43295,
-        "score": 3.97
-    },
-    "pages": 661,
-    "title": "Sandry's Book",
-    "url": "https://www.goodreads.com/book/show/58889.Sandry_s_Book",
-    "year_published": 1997
+    {
+      "status": "maintenance",
+      "stock_id": "1132_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 43295,
+    "score": 3.97
+  },
+  "pages": 661,
+  "title": "Sandry's Book",
+  "url": "https://www.goodreads.com/book/show/58889.Sandry_s_Book",
+  "year_published": 1997
 }

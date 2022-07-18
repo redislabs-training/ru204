@@ -1,63 +1,63 @@
 {
-    "author": "Charlie Higson",
-    "id": "555",
-    "description": "The sickness struck everyone sixteen and over. Mothers and fathers, older brothers, sisters, and best friends. No one escaped its touch. And now children across London are being hunted by ferocious grown-ups who are hungry, bloodthirsty, and not giving up. DogNut and the rest of his crew, in search of the friends they lost during the fire, set off on a deadly mission from the Tower of London to Buckingham Palace and beyond, as the sickos lie in wait. But who are their friends and who is the enemy in this changed world?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure (survival)": 17,
-        "apocalyptic (post apocalyptic)": 36,
-        "fiction": 32,
-        "horror": 163,
-        "horror (zombies)": 162,
-        "science fiction": 39,
-        "science fiction (dystopia)": 54,
-        "thriller": 21,
-        "young adult": 115,
-        "young adult (teen)": 15
+  "author": "Charlie Higson",
+  "id": "555",
+  "description": "The sickness struck everyone sixteen and over. Mothers and fathers, older brothers, sisters, and best friends. No one escaped its touch. And now children across London are being hunted by ferocious grown-ups who are hungry, bloodthirsty, and not giving up. DogNut and the rest of his crew, in search of the friends they lost during the fire, set off on a deadly mission from the Tower of London to Buckingham Palace and beyond, as the sickos lie in wait. But who are their friends and who is the enemy in this changed world?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "555_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "555_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "555_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "555_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "555_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "555_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "555_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "555_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "555_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7914,
-        "score": 4.36
+    {
+      "status": "available",
+      "stock_id": "555_2"
     },
-    "pages": 722,
-    "title": "The Fear",
-    "url": "https://www.goodreads.com/book/show/21888731-the-fear",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "555_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "555_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "555_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "555_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "555_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "555_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7914,
+    "score": 4.36
+  },
+  "pages": 722,
+  "title": "The Fear",
+  "url": "https://www.goodreads.com/book/show/21888731-the-fear",
+  "year_published": 2011
 }

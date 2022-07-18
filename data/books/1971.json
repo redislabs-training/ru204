@@ -1,56 +1,56 @@
 {
-    "author": "Tamora Pierce",
-    "id": "1971",
-    "description": "Hundreds of years before Alanna first drew her sword in Tamora Pierce's memorable debut, Alanna: The First Adventure, Tortall had a heroine named Beka Cooper - a fierce young woman who fights crime in a world of magic. This is the beginning of her story, her legend, and her legacy....Beka Cooper is a rookie with the law-enforcing Provost's Guard, commonly known as \"the Provost's Dogs,\" in Corus, the capital city of Tortall. To the surprise of both the veteran \"Dogs\" and her fellow \"puppies,\" Beka requests duty in the Lower City. The Lower City is a tough beat. But it's also where Beka was born, and she's comfortable there.Beka gets her wish. She's assigned to work with Mattes and Clary, famed veterans among the Provost's Dogs. They're tough, they're capable, and they're none too happy about the indignity of being saddled with a puppy for the first time in years. What they don't know is that Beka has something unique to offer. Never much of a talker, Beka is a good listener. So good, in fact, that she hears things that Mattes and Clary never could - information that is passed in murmurs when flocks of pigeons gather ... murmurs that are the words of the dead.In this way, Beka learns of someone in the Lower City who has overturned the power structure of the underworld and is terrorizing its citizens into submission and silence. Beka's magical listening talent is the only way for the Provost's Dogs to find out the identity of this brutal new underlord, for the dead are beyond fear. And the ranks of the dead will be growing if the Dogs can't stop a crime wave the likes of which has never been seen. Luckily for the people of the Lower City, the new puppy is a true terrier!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 186,
-        "fantasy": 3246,
-        "fantasy (high fantasy)": 128,
-        "fantasy (magic)": 215,
-        "fiction": 356,
-        "mystery": 184,
-        "science fiction fantasy": 95,
-        "young adult": 1412,
-        "young adult (teen)": 119,
-        "young adult (young adult fantasy)": 197
+  "author": "Tamora Pierce",
+  "id": "1971",
+  "description": "Hundreds of years before Alanna first drew her sword in Tamora Pierce's memorable debut, Alanna: The First Adventure, Tortall had a heroine named Beka Cooper - a fierce young woman who fights crime in a world of magic. This is the beginning of her story, her legend, and her legacy....Beka Cooper is a rookie with the law-enforcing Provost's Guard, commonly known as \"the Provost's Dogs,\" in Corus, the capital city of Tortall. To the surprise of both the veteran \"Dogs\" and her fellow \"puppies,\" Beka requests duty in the Lower City. The Lower City is a tough beat. But it's also where Beka was born, and she's comfortable there.Beka gets her wish. She's assigned to work with Mattes and Clary, famed veterans among the Provost's Dogs. They're tough, they're capable, and they're none too happy about the indignity of being saddled with a puppy for the first time in years. What they don't know is that Beka has something unique to offer. Never much of a talker, Beka is a good listener. So good, in fact, that she hears things that Mattes and Clary never could - information that is passed in murmurs when flocks of pigeons gather ... murmurs that are the words of the dead.In this way, Beka learns of someone in the Lower City who has overturned the power structure of the underworld and is terrorizing its citizens into submission and silence. Beka's magical listening talent is the only way for the Provost's Dogs to find out the identity of this brutal new underlord, for the dead are beyond fear. And the ranks of the dead will be growing if the Dogs can't stop a crime wave the likes of which has never been seen. Luckily for the people of the Lower City, the new puppy is a true terrier!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "mystery",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1971_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1971_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1971_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1971_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1971_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1971_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1971_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 68295,
-        "score": 4.1
+    {
+      "status": "on_loan",
+      "stock_id": "1971_2"
     },
-    "pages": 1097,
-    "title": "Terrier",
-    "url": "https://www.goodreads.com/book/show/13829.Terrier",
-    "year_published": 2006
+    {
+      "status": "available",
+      "stock_id": "1971_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1971_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1971_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1971_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 68295,
+    "score": 4.1
+  },
+  "pages": 1097,
+  "title": "Terrier",
+  "url": "https://www.goodreads.com/book/show/13829.Terrier",
+  "year_published": 2006
 }

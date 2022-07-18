@@ -1,34 +1,34 @@
 {
-    "author": "Demitria Lunetta",
-    "id": "1588",
-    "description": "In debut author Demitria Lunetta's thriller, one girl must fight for her survival in a world overrun by violent, deadly creatures.Amy Harris's life changed forever when They took over. Her parents\u2014vanished. The government\u2014obsolete. Societal structure\u2014nonexistent. No one knows where They came from, but these vicious creatures have been rapidly devouring mankind since They appeared. With fierce survivor instincts, Amy manages to stay alive\u2014and even rescues \"Baby,\" a toddler who was left behind. After years of hiding, they are miraculously rescued and taken to New Hope. On the surface, it appears to be a safe haven for survivors. But there are dark and twisted secrets lurking beneath that could have Amy and Baby paying with not only their freedom... but also their lives.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 182,
-        "fantasy": 55,
-        "fiction": 68,
-        "horror": 96,
-        "horror (zombies)": 121,
-        "science fiction": 210,
-        "science fiction (aliens)": 93,
-        "science fiction (apocalyptic)": 58,
-        "science fiction (dystopia)": 310,
-        "young adult": 442
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1588_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12009,
-        "score": 4.05
-    },
-    "pages": 1342,
-    "title": "In the After",
-    "url": "https://www.goodreads.com/book/show/12157407-in-the-after",
-    "year_published": 2013
+  "author": "Demitria Lunetta",
+  "id": "1588",
+  "description": "In debut author Demitria Lunetta's thriller, one girl must fight for her survival in a world overrun by violent, deadly creatures.Amy Harris's life changed forever when They took over. Her parents—vanished. The government—obsolete. Societal structure—nonexistent. No one knows where They came from, but these vicious creatures have been rapidly devouring mankind since They appeared. With fierce survivor instincts, Amy manages to stay alive—and even rescues \"Baby,\" a toddler who was left behind. After years of hiding, they are miraculously rescued and taken to New Hope. On the surface, it appears to be a safe haven for survivors. But there are dark and twisted secrets lurking beneath that could have Amy and Baby paying with not only their freedom... but also their lives.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1588_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12009,
+    "score": 4.05
+  },
+  "pages": 1342,
+  "title": "In the After",
+  "url": "https://www.goodreads.com/book/show/12157407-in-the-after",
+  "year_published": 2013
 }

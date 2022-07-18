@@ -1,68 +1,68 @@
 {
-    "author": "Jonathan Stroud",
-    "id": "4763",
-    "description": "When the dead come back to haunt the living, Lockwood & Co. step in . . .For more than fifty years, the country has been affected by a horrifying epidemic of ghosts. A number of Psychic Investigations Agencies have sprung up to destroy the dangerous apparitions.Lucy Carlyle, a talented young agent, arrives in London hoping for a notable career. Instead she finds herself joining the smallest, most ramshackle agency in the city, run by the charismatic Anthony Lockwood. When one of their cases goes horribly wrong, Lockwood & Co. have one last chance of redemption. Unfortunately this involves spending the night in one of the most haunted houses in England, and trying to escape alive.Set in a city stalked by spectres, The Screaming Staircase is the first in a chilling new series full of suspense, humour and truly terrifying ghosts. Your nights will never be the same again . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 194,
-        "childrens (middle grade)": 467,
-        "fantasy": 1639,
-        "fantasy (paranormal)": 532,
-        "fantasy (supernatural)": 191,
-        "fiction": 299,
-        "horror": 604,
-        "mystery": 742,
-        "paranormal (ghosts)": 308,
-        "young adult": 854
+  "author": "Jonathan Stroud",
+  "id": "4763",
+  "description": "When the dead come back to haunt the living, Lockwood & Co. step in . . .For more than fifty years, the country has been affected by a horrifying epidemic of ghosts. A number of Psychic Investigations Agencies have sprung up to destroy the dangerous apparitions.Lucy Carlyle, a talented young agent, arrives in London hoping for a notable career. Instead she finds herself joining the smallest, most ramshackle agency in the city, run by the charismatic Anthony Lockwood. When one of their cases goes horribly wrong, Lockwood & Co. have one last chance of redemption. Unfortunately this involves spending the night in one of the most haunted houses in England, and trying to escape alive.Set in a city stalked by spectres, The Screaming Staircase is the first in a chilling new series full of suspense, humour and truly terrifying ghosts. Your nights will never be the same again . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "horror",
+    "mystery",
+    "paranormal (ghosts)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4763_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4763_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4763_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4763_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4763_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4763_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "4763_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4763_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4763_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4763_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 34505,
-        "score": 4.2
+    {
+      "status": "available",
+      "stock_id": "4763_2"
     },
-    "pages": 1222,
-    "title": "The Screaming Staircase",
-    "url": "https://www.goodreads.com/book/show/13555073-the-screaming-staircase",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "4763_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4763_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4763_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "4763_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4763_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4763_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4763_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 34505,
+    "score": 4.2
+  },
+  "pages": 1222,
+  "title": "The Screaming Staircase",
+  "url": "https://www.goodreads.com/book/show/13555073-the-screaming-staircase",
+  "year_published": 2013
 }

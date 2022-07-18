@@ -1,47 +1,47 @@
 {
-    "author": "William Gibson",
-    "id": "551",
-    "description": "Now in trade paperback from the author of Neuromancer comes a story that takes readers to 21st century Tokyo after the millennial quake, where something violently new is about to erupt.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "cultural (canada)": 14,
-        "cultural (japan)": 13,
-        "fiction": 383,
-        "novels": 30,
-        "science fiction": 746,
-        "science fiction (cyberpunk)": 487,
-        "science fiction (dystopia)": 19,
-        "science fiction (near future)": 13,
-        "science fiction fantasy": 52,
-        "speculative fiction": 30
+  "author": "William Gibson",
+  "id": "551",
+  "description": "Now in trade paperback from the author of Neuromancer comes a story that takes readers to 21st century Tokyo after the millennial quake, where something violently new is about to erupt.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "cultural (canada)",
+    "cultural (japan)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (near future)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "551_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "551_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "551_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "551_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "551_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21813,
-        "score": 3.82
+    {
+      "status": "maintenance",
+      "stock_id": "551_2"
     },
-    "pages": 471,
-    "title": "Idoru",
-    "url": "https://www.goodreads.com/book/show/22325.Idoru",
-    "year_published": 1996
+    {
+      "status": "on_loan",
+      "stock_id": "551_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "551_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21813,
+    "score": 3.82
+  },
+  "pages": 471,
+  "title": "Idoru",
+  "url": "https://www.goodreads.com/book/show/22325.Idoru",
+  "year_published": 1996
 }

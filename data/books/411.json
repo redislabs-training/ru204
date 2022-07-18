@@ -1,51 +1,51 @@
 {
-    "author": "John Marsden",
-    "id": "411",
-    "description": "Since their home was invaded by enemy soldiers and transformed into a war zone, Ellie and her friends have been fighting for their lives. Now a resolution may finally be in sight. But as enemy forces close in on her hideout, Ellie discovers that the final conflict just may be the most dangerous yet. And not everyone will survive. Nobody is safe in this exhilarating conclusion to Ellie's courageous struggle for freedom.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 39,
-        "adventure": 48,
-        "adventure (survival)": 22,
-        "cultural (australia)": 56,
-        "fiction": 153,
-        "science fiction": 29,
-        "science fiction (dystopia)": 70,
-        "war": 108,
-        "young adult": 400,
-        "young adult (teen)": 29
+  "author": "John Marsden",
+  "id": "411",
+  "description": "Since their home was invaded by enemy soldiers and transformed into a war zone, Ellie and her friends have been fighting for their lives. Now a resolution may finally be in sight. But as enemy forces close in on her hideout, Ellie discovers that the final conflict just may be the most dangerous yet. And not everyone will survive. Nobody is safe in this exhilarating conclusion to Ellie's courageous struggle for freedom.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "cultural (australia)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "war",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "411_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "411_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "411_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "411_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "411_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "411_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13671,
-        "score": 4.22
+    {
+      "status": "maintenance",
+      "stock_id": "411_2"
     },
-    "pages": 1099,
-    "title": "The Other Side of Dawn",
-    "url": "https://www.goodreads.com/book/show/71867.The_Other_Side_of_Dawn",
-    "year_published": 1999
+    {
+      "status": "on_loan",
+      "stock_id": "411_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "411_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "411_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13671,
+    "score": 4.22
+  },
+  "pages": 1099,
+  "title": "The Other Side of Dawn",
+  "url": "https://www.goodreads.com/book/show/71867.The_Other_Side_of_Dawn",
+  "year_published": 1999
 }

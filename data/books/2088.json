@@ -1,42 +1,42 @@
 {
-    "author": "Cornelia Funke",
-    "id": "2088",
-    "description": "Ever since Jacob Reckless was a child, he has been escaping to a hidden world through a portal in his father's abandoned study. Over the years, he has made a name for himself as a finder of enchanted items and buried secrets. He's also made many enemies and allies--most important, Fox, a beautiful shape-shifting vixen whom Jacob cares for more than he lets on.But life in this other world is about to change. Tragedy strikes when Jacob's younger brother, Will, follows him through the portal. Brutally attacked, Will is infected with a curse that is quickly transforming him into a Goyl--a ruthless killing machine, with skin made of stone.Jacob is prepared to fight to save his brother, but in a land built on trickery and lies, Jacob will need all the wit, courage, and reckless spirit he can summon to reverse the dark spell--before it's too late.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 143,
-        "audiobook": 69,
-        "childrens": 40,
-        "european literature (german literature)": 50,
-        "fantasy": 1339,
-        "fantasy (fairy tales)": 76,
-        "fantasy (magic)": 81,
-        "fiction": 136,
-        "young adult": 484,
-        "young adult (young adult fantasy)": 49
+  "author": "Cornelia Funke",
+  "id": "2088",
+  "description": "Ever since Jacob Reckless was a child, he has been escaping to a hidden world through a portal in his father's abandoned study. Over the years, he has made a name for himself as a finder of enchanted items and buried secrets. He's also made many enemies and allies--most important, Fox, a beautiful shape-shifting vixen whom Jacob cares for more than he lets on.But life in this other world is about to change. Tragedy strikes when Jacob's younger brother, Will, follows him through the portal. Brutally attacked, Will is infected with a curse that is quickly transforming him into a Goyl--a ruthless killing machine, with skin made of stone.Jacob is prepared to fight to save his brother, but in a land built on trickery and lies, Jacob will need all the wit, courage, and reckless spirit he can summon to reverse the dark spell--before it's too late.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "european literature (german literature)",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2088_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2088_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2088_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2088_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17523,
-        "score": 3.74
+    {
+      "status": "maintenance",
+      "stock_id": "2088_2"
     },
-    "pages": 379,
-    "title": "Reckless",
-    "url": "https://www.goodreads.com/book/show/7823592-reckless",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "2088_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17523,
+    "score": 3.74
+  },
+  "pages": 379,
+  "title": "Reckless",
+  "url": "https://www.goodreads.com/book/show/7823592-reckless",
+  "year_published": 2010
 }

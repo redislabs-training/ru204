@@ -1,39 +1,39 @@
 {
-    "author": "Nathan Van Coops",
-    "id": "106",
-    "description": "Ben Travers has gone missing, and Ben Travers needs to find him. Returning home from his harrowing adventures through time, Ben just wants a normal life with the girl he loves, but tying up the loose threads of his fragmented existence is proving more difficult than he ever suspected. Someone is attacking time travel labs \u2014 threatening the safety of the Quickly family \u2014 and Ben is getting messages from a version of himself that he thought was dead.When a strange cult of consciousness-shifting time travelers called The Eternals begins to worm its way into the past \u2014 endangering the very nature of time and space \u2014 Ben will have to solve the mystery of his own disappearance to stop them. He\u2019ll journey farther into time than he\u2019s ever been before, to protect the family and friends he has come to love, and to discover his own inevitable destiny.Join Ben and Mym in this third novel in the In Times Like These time travel adventure series.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fiction": 7,
-        "science fiction": 19,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 4,
-        "young adult": 2
+  "author": "Nathan Van Coops",
+  "id": "106",
+  "description": "Ben Travers has gone missing, and Ben Travers needs to find him. Returning home from his harrowing adventures through time, Ben just wants a normal life with the girl he loves, but tying up the loose threads of his fragmented existence is proving more difficult than he ever suspected. Someone is attacking time travel labs — threatening the safety of the Quickly family — and Ben is getting messages from a version of himself that he thought was dead.When a strange cult of consciousness-shifting time travelers called The Eternals begins to worm its way into the past — endangering the very nature of time and space — Ben will have to solve the mystery of his own disappearance to stop them. He’ll journey farther into time than he’s ever been before, to protect the family and friends he has come to love, and to discover his own inevitable destiny.Join Ben and Mym in this third novel in the In Times Like These time travel adventure series.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "106_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "106_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "106_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "106_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1035,
-        "score": 4.27
+    {
+      "status": "available",
+      "stock_id": "106_2"
     },
-    "pages": 306,
-    "title": "The Day After Never",
-    "url": "https://www.goodreads.com/book/show/28268445-the-day-after-never",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "106_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1035,
+    "score": 4.27
+  },
+  "pages": 306,
+  "title": "The Day After Never",
+  "url": "https://www.goodreads.com/book/show/28268445-the-day-after-never",
+  "year_published": 2016
 }

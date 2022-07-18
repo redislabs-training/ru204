@@ -1,60 +1,60 @@
 {
-    "author": "Garth Nix",
-    "id": "587",
-    "description": "The Key to Survival Rests in the Hands of Shade's ChildrenIf you\u2019re lucky, you live to fight another day.In a futuristic urban wasteland, evil Overlords have decreed that no child shall live a day past his fourteenth birthday. On that Sad Birthday, the child is the object of an obscene harvest resulting in the construction of a machine like creature whose sole purpose is to kill.The mysterious Shade \u2014 once a man, but now more like the machines he fights \u2014 recruits the few children fortunate enough to escape. With luck, cunning, and skill, four of Shade's children come closer than any to discovering the source of the Overlords' power \u2014 and the key to their downfall. But the closer the children get, the more ruthless Shade seems to become ...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 40,
-        "childrens": 25,
-        "fantasy": 236,
-        "fiction": 162,
-        "horror": 32,
-        "science fiction": 352,
-        "science fiction (dystopia)": 146,
-        "science fiction fantasy": 26,
-        "young adult": 381,
-        "young adult (teen)": 29
+  "author": "Garth Nix",
+  "id": "587",
+  "description": "The Key to Survival Rests in the Hands of Shade's ChildrenIf you’re lucky, you live to fight another day.In a futuristic urban wasteland, evil Overlords have decreed that no child shall live a day past his fourteenth birthday. On that Sad Birthday, the child is the object of an obscene harvest resulting in the construction of a machine like creature whose sole purpose is to kill.The mysterious Shade — once a man, but now more like the machines he fights — recruits the few children fortunate enough to escape. With luck, cunning, and skill, four of Shade's children come closer than any to discovering the source of the Overlords' power — and the key to their downfall. But the closer the children get, the more ruthless Shade seems to become ...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "587_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "587_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "587_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "587_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "587_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "587_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "587_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "587_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12002,
-        "score": 3.9
+    {
+      "status": "on_loan",
+      "stock_id": "587_2"
     },
-    "pages": 380,
-    "title": "Shade's Children",
-    "url": "https://www.goodreads.com/book/show/47626.Shade_s_Children",
-    "year_published": 1997
+    {
+      "status": "maintenance",
+      "stock_id": "587_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "587_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "587_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "587_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "587_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12002,
+    "score": 3.9
+  },
+  "pages": 380,
+  "title": "Shade's Children",
+  "url": "https://www.goodreads.com/book/show/47626.Shade_s_Children",
+  "year_published": 1997
 }

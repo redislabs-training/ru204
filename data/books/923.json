@@ -1,62 +1,62 @@
 {
-    "author": "Jeff Lemire",
-    "id": "923",
-    "description": "Jeff Lemire's acclaimed new series introduce Gus, a rare new breed of human/animal hybrid who was raised in isolation following a pandemic that struck a decade earlier. Now, with the death of his father, he's left to fend for himself . . . until he meets a hulking drifter named Jepperd, who promises to help him. Jepperd and Gus set out on a post-apocalyptic journey into the devastated American landscape to find 'The Preserve,' a refuge for hybrids.Collecting: Sweet Tooth 1-5",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 79,
-        "comics (comic book)": 61,
-        "fantasy": 121,
-        "fiction": 105,
-        "graphic novels comics": 112,
-        "horror": 47,
-        "science fiction": 84,
-        "science fiction (dystopia)": 102,
-        "sequential art (comics)": 872,
-        "sequential art (graphic novels)": 1016
+  "author": "Jeff Lemire",
+  "id": "923",
+  "description": "Jeff Lemire's acclaimed new series introduce Gus, a rare new breed of human/animal hybrid who was raised in isolation following a pandemic that struck a decade earlier. Now, with the death of his father, he's left to fend for himself . . . until he meets a hulking drifter named Jepperd, who promises to help him. Jepperd and Gus set out on a post-apocalyptic journey into the devastated American landscape to find 'The Preserve,' a refuge for hybrids.Collecting: Sweet Tooth 1-5",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "923_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "923_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "923_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "923_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "923_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "923_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "923_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "923_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "923_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14400,
-        "score": 3.92
+    {
+      "status": "available",
+      "stock_id": "923_2"
     },
-    "pages": 949,
-    "title": "Sweet Tooth, Volume 1: Out of the Deep Woods",
-    "url": "https://www.goodreads.com/book/show/6954438-sweet-tooth-volume-1",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "923_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "923_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "923_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "923_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "923_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "923_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14400,
+    "score": 3.92
+  },
+  "pages": 949,
+  "title": "Sweet Tooth, Volume 1: Out of the Deep Woods",
+  "url": "https://www.goodreads.com/book/show/6954438-sweet-tooth-volume-1",
+  "year_published": 2010
 }

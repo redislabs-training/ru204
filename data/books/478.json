@@ -1,52 +1,52 @@
 {
-    "author": "Melissa Marr",
-    "id": "478",
-    "description": "Gripping original stories of dystopian worlds from nine New York Times bestselling authors, edited by Melissa Marr and Kelley Armstrong.The world is gone, destroyed by human, ecological, or supernatural causes. Survivors dodge chemical warfare and cruel gods; they travel the reaches of space and inhabit underground caverns. Their enemies are disease, corrupt corporations, and one another; their resources are few, and their courage is tested.Powerful original dystopian tales from nine bestselling authors offer bleak insight, prophetic visions, and precious glimmers of light among the shards and ashes of a ruined world.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 86,
-        "apocalyptic (post apocalyptic)": 33,
-        "fantasy": 84,
-        "fantasy (urban fantasy)": 14,
-        "fiction": 31,
-        "science fiction": 55,
-        "science fiction (dystopia)": 153,
-        "short stories": 133,
-        "young adult": 165,
-        "young adult (teen)": 14
+  "author": "Melissa Marr",
+  "id": "478",
+  "description": "Gripping original stories of dystopian worlds from nine New York Times bestselling authors, edited by Melissa Marr and Kelley Armstrong.The world is gone, destroyed by human, ecological, or supernatural causes. Survivors dodge chemical warfare and cruel gods; they travel the reaches of space and inhabit underground caverns. Their enemies are disease, corrupt corporations, and one another; their resources are few, and their courage is tested.Powerful original dystopian tales from nine bestselling authors offer bleak insight, prophetic visions, and precious glimmers of light among the shards and ashes of a ruined world.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "478_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "478_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "478_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "478_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "478_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "478_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2743,
-        "score": 3.59
+    {
+      "status": "available",
+      "stock_id": "478_2"
     },
-    "pages": 462,
-    "title": "Shards and Ashes",
-    "url": "https://www.goodreads.com/book/show/14811468-shards-and-ashes",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "478_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "478_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "478_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2743,
+    "score": 3.59
+  },
+  "pages": 462,
+  "title": "Shards and Ashes",
+  "url": "https://www.goodreads.com/book/show/14811468-shards-and-ashes",
+  "year_published": 2013
 }

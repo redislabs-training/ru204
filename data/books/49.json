@@ -1,44 +1,44 @@
 {
-    "author": "Kage Baker",
-    "id": "49",
-    "description": "This collection brings together the early Company stories in one volume for the first time with three previously unpublished works, including 'The Queen in Yellow', written exclusively for this compilation. In these tales sci-fi fans follow the secret activities of the Company's field agents - once human, now centuries-old time-travelling immortal cyborgs - as they attempt to retrieve history's lost treasures. Botanist Mendoza's search for the rare hallucinogenic Black Elysium grape in 1844 Spanish-held Santa Barbara, facilitator Joseph's dreamlike solicitation of the ailing Robert Louis Stevenson in 1879, and marine salvage specialist Kalugin's recovering of an invaluable Eugene Delacroix painting from a sunken yacht off the coast of Los Angeles in 1894 are included.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 6,
-        "anthologies": 6,
-        "anthologies (collections)": 4,
-        "fantasy": 12,
-        "fiction": 25,
-        "historical": 7,
-        "science fiction": 76,
-        "science fiction (time travel)": 33,
-        "science fiction fantasy": 5,
-        "short stories": 27
+  "author": "Kage Baker",
+  "id": "49",
+  "description": "This collection brings together the early Company stories in one volume for the first time with three previously unpublished works, including 'The Queen in Yellow', written exclusively for this compilation. In these tales sci-fi fans follow the secret activities of the Company's field agents - once human, now centuries-old time-travelling immortal cyborgs - as they attempt to retrieve history's lost treasures. Botanist Mendoza's search for the rare hallucinogenic Black Elysium grape in 1844 Spanish-held Santa Barbara, facilitator Joseph's dreamlike solicitation of the ailing Robert Louis Stevenson in 1879, and marine salvage specialist Kalugin's recovering of an invaluable Eugene Delacroix painting from a sunken yacht off the coast of Los Angeles in 1894 are included.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "anthologies",
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "49_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "49_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "49_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "49_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 903,
-        "score": 4.02
+    {
+      "status": "available",
+      "stock_id": "49_2"
     },
-    "pages": 911,
-    "title": "Black Projects, White Knights: The Company Dossiers",
-    "url": "https://www.goodreads.com/book/show/455901.Black_Projects_White_Knights",
-    "year_published": 2002
+    {
+      "status": "available",
+      "stock_id": "49_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 903,
+    "score": 4.02
+  },
+  "pages": 911,
+  "title": "Black Projects, White Knights: The Company Dossiers",
+  "url": "https://www.goodreads.com/book/show/455901.Black_Projects_White_Knights",
+  "year_published": 2002
 }

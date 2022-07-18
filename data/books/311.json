@@ -1,52 +1,52 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "311",
-    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Cannon fire!That's what Jack and Annie hear when the Magic Tree House whisks them back to the time of the American Civil War. There they meet a famous nurse named Clara Barton and do their best to help wounded soldiers. It is their hardest journey in time yet\u2014and the one that will make the most difference to their own lives!Book Details: \n   Format: Paperback \n   Publication Date: 5/23/2000 \n   Pages: 96 \n   Reading Level: Age 6 and Up \n ",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 34,
-        "childrens": 104,
-        "childrens (chapter books)": 34,
-        "fantasy": 108,
-        "fantasy (magic)": 18,
-        "fiction": 76,
-        "historical": 23,
-        "historical (historical fiction)": 111,
-        "military history (civil war)": 27,
-        "science fiction (time travel)": 26
+  "author": "Mary Pope Osborne",
+  "id": "311",
+  "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series—the Magic Tree House! Cannon fire!That's what Jack and Annie hear when the Magic Tree House whisks them back to the time of the American Civil War. There they meet a famous nurse named Clara Barton and do their best to help wounded soldiers. It is their hardest journey in time yet—and the one that will make the most difference to their own lives!Book Details: \n   Format: Paperback \n   Publication Date: 5/23/2000 \n   Pages: 96 \n   Reading Level: Age 6 and Up \n ",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "military history (civil war)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "311_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "311_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "311_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "311_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "311_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "311_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8035,
-        "score": 3.96
+    {
+      "status": "on_loan",
+      "stock_id": "311_2"
     },
-    "pages": 335,
-    "title": "Civil War on Sunday",
-    "url": "https://www.goodreads.com/book/show/409163.Civil_War_on_Sunday",
-    "year_published": 2000
+    {
+      "status": "on_loan",
+      "stock_id": "311_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "311_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "311_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8035,
+    "score": 3.96
+  },
+  "pages": 335,
+  "title": "Civil War on Sunday",
+  "url": "https://www.goodreads.com/book/show/409163.Civil_War_on_Sunday",
+  "year_published": 2000
 }

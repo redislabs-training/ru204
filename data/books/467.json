@@ -1,54 +1,54 @@
 {
-    "author": "Laura Anne Gilman",
-    "id": "467",
-    "description": "A heroic fantasy by an award-winning author about a young woman who is trained in the art of the sinister hand of magic, but at what price?On her sixteenth birthday, Isobel makes the choice to work for the devil in his territory west of the Mississippi. But this is not the devil you know. This is a being who deals fairly with immense\u2014but not unlimited\u2014power, who offers opportunities to people who want to make a deal, and makes sure they always get what they deserve. But his land is a wild west that needs a human touch, and that\u2019s where Izzy comes in. Inadvertently trained by him to see the clues in and manipulations of human desire, Izzy is raised to be his left hand and travel the circuitous road through the territory. As we all know, where there is magic there is power and chaos\u2026and death.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 419,
-        "fantasy (magic)": 26,
-        "fantasy (paranormal)": 26,
-        "fiction": 48,
-        "historical": 52,
-        "historical (historical fiction)": 74,
-        "historical fiction (historical fantasy)": 30,
-        "westerns": 119,
-        "westerns (weird west)": 31,
-        "young adult": 43
+  "author": "Laura Anne Gilman",
+  "id": "467",
+  "description": "A heroic fantasy by an award-winning author about a young woman who is trained in the art of the sinister hand of magic, but at what price?On her sixteenth birthday, Isobel makes the choice to work for the devil in his territory west of the Mississippi. But this is not the devil you know. This is a being who deals fairly with immense—but not unlimited—power, who offers opportunities to people who want to make a deal, and makes sure they always get what they deserve. But his land is a wild west that needs a human touch, and that’s where Izzy comes in. Inadvertently trained by him to see the clues in and manipulations of human desire, Izzy is raised to be his left hand and travel the circuitous road through the territory. As we all know, where there is magic there is power and chaos…and death.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "westerns",
+    "westerns (weird west)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "467_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "467_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "467_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "467_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "467_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "467_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "467_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2367,
-        "score": 3.82
+    {
+      "status": "available",
+      "stock_id": "467_2"
     },
-    "pages": 1269,
-    "title": "Silver on the Road",
-    "url": "https://www.goodreads.com/book/show/20748097-silver-on-the-road",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "467_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "467_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "467_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "467_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2367,
+    "score": 3.82
+  },
+  "pages": 1269,
+  "title": "Silver on the Road",
+  "url": "https://www.goodreads.com/book/show/20748097-silver-on-the-road",
+  "year_published": 2015
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Philip K. Dick",
-    "id": "227",
-    "description": "Conger agreed to kill a stranger he had never seen. He wasn't concerned about getting the wrong man. He knew what the man looked like. There was no way he could make a mistake about his target's identity -- he had the man's skull under his shoulder.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 8,
-        "business (amazon)": 5,
-        "classics": 7,
-        "fantasy": 4,
-        "fiction": 54,
-        "horror": 3,
-        "science fiction": 124,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 11,
-        "short stories": 71
+  "author": "Philip K. Dick",
+  "id": "227",
+  "description": "Conger agreed to kill a stranger he had never seen. He wasn't concerned about getting the wrong man. He knew what the man looked like. There was no way he could make a mistake about his target's identity -- he had the man's skull under his shoulder.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "business (amazon)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "227_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "227_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "227_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "227_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "227_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "227_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "227_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "227_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "227_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2759,
-        "score": 3.7
+    {
+      "status": "on_loan",
+      "stock_id": "227_2"
     },
-    "pages": 616,
-    "title": "The Skull",
-    "url": "https://www.goodreads.com/book/show/10133923-the-skull",
-    "year_published": 1952
+    {
+      "status": "available",
+      "stock_id": "227_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "227_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "227_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "227_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "227_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "227_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2759,
+    "score": 3.7
+  },
+  "pages": 616,
+  "title": "The Skull",
+  "url": "https://www.goodreads.com/book/show/10133923-the-skull",
+  "year_published": 1952
 }

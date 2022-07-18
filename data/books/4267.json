@@ -1,59 +1,59 @@
 {
-    "author": "Jasper Fforde",
-    "id": "4267",
-    "description": "Shades of Grey tells of a battle against overwhelming odds. In a society where the ability to see the higher end of the color spectrum denotes a better social standing, Eddie Russet belongs to the low-level House of Red and can see his own color\u2014but no other. The sky, the grass, and everything in between are all just shades of grey, and must be colorized by artificial means. Eddie's world wasn't always like this. There's evidence of a never-discussed disaster and now, many years later, technology is poor, news sporadic, the notion of change abhorrent, and nighttime is terrifying: no one can see in the dark. Everyone abides by a bizarre regime of rules and regulations, a system of merits and demerits, where punishment can result in permanent expulsion. Eddie, who works for the Color Control Agency, might well have lived out his rose-tinted life without a hitch. But that changes when he becomes smitten with Jane, a Grey, which is low-caste in this color-centric world. She shows Eddie that all is not well with the world he thinks is just and good. Together, they engage in dangerous revolutionary talk.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 99,
-        "adult fiction": 71,
-        "audiobook": 88,
-        "fantasy": 1231,
-        "fiction": 925,
-        "humor": 193,
-        "mystery": 144,
-        "science fiction": 511,
-        "science fiction (dystopia)": 570,
-        "science fiction fantasy": 108
+  "author": "Jasper Fforde",
+  "id": "4267",
+  "description": "Shades of Grey tells of a battle against overwhelming odds. In a society where the ability to see the higher end of the color spectrum denotes a better social standing, Eddie Russet belongs to the low-level House of Red and can see his own color—but no other. The sky, the grass, and everything in between are all just shades of grey, and must be colorized by artificial means. Eddie's world wasn't always like this. There's evidence of a never-discussed disaster and now, many years later, technology is poor, news sporadic, the notion of change abhorrent, and nighttime is terrifying: no one can see in the dark. Everyone abides by a bizarre regime of rules and regulations, a system of merits and demerits, where punishment can result in permanent expulsion. Eddie, who works for the Color Control Agency, might well have lived out his rose-tinted life without a hitch. But that changes when he becomes smitten with Jane, a Grey, which is low-caste in this color-centric world. She shows Eddie that all is not well with the world he thinks is just and good. Together, they engage in dangerous revolutionary talk.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4267_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4267_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4267_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4267_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "4267_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4267_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4267_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "4267_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 32752,
-        "score": 4.15
+    {
+      "status": "available",
+      "stock_id": "4267_2"
     },
-    "pages": 391,
-    "title": "Shades of Grey",
-    "url": "https://www.goodreads.com/book/show/2113260.Shades_of_Grey",
-    "year_published": 2009
+    {
+      "status": "on_loan",
+      "stock_id": "4267_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "4267_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4267_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4267_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "4267_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 32752,
+    "score": 4.15
+  },
+  "pages": 391,
+  "title": "Shades of Grey",
+  "url": "https://www.goodreads.com/book/show/2113260.Shades_of_Grey",
+  "year_published": 2009
 }

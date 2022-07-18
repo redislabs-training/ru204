@@ -1,58 +1,58 @@
 {
-    "author": "Nick Harkaway",
-    "id": "862",
-    "description": "From the widely acclaimed author of The Gone-Away World and Tigerman, comes a virtuosic new novel set in a near-future, high-tech surveillance state, that is equal parts dark comedy, gripping detective story, and mind-bending philosophical puzzle.In the world of Gnomon, citizens are constantly observed and democracy has reached a pinnacle of \u2018transparency.\u2019 Every action is seen, every word is recorded, and the System has access to its citizens\u2019 thoughts and memories\u2013all in the name of providing the safest society in history.When suspected dissident Diana Hunter dies in government custody, it marks the first time a citizen has been killed during an interrogation. The System doesn\u2019t make mistakes, but something isn\u2019t right about the circumstances surrounding Hunter\u2019s death. Mielikki Neith, a trusted state inspector and a true believer in the System, is assigned to find out what went wrong. Immersing herself in neural recordings of the interrogation, what she finds isn\u2019t Hunter but rather a panorama of characters within Hunter\u2019s psyche: a lovelorn financier in Athens who has a mystical experience with a shark; a brilliant alchemist in ancient Carthage confronting the unexpected outcome of her invention; an expat Ethiopian painter in London designing a controversial new video game, and a sociopathic disembodied intelligence from the distant future. Embedded in the memories of these impossible lives lies a code which Neith must decipher to find out what Hunter is hiding. In the static between these stories, Neith begins to catch glimpses of the real Diana Hunter\u2013and, alarmingly, of herself. The staggering consequences of what she finds will reverberate throughout the world.A dazzling, panoramic achievement, and Nick Harkaway\u2019s most brilliant work to date, Gnomon is peerless and profound, captivating and irreverent, as it pierces through strata of reality and consciousness, and illuminates how to set a mind free. It is a truly accomplished novel from a mind possessing a matchless wit infused with a deep humanity.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 51,
-        "fiction": 192,
-        "mystery": 57,
-        "novels": 11,
-        "science fiction": 188,
-        "science fiction (dystopia)": 64,
-        "science fiction fantasy": 20,
-        "speculative fiction": 21,
-        "thriller": 10,
-        "unfinished": 10
+  "author": "Nick Harkaway",
+  "id": "862",
+  "description": "From the widely acclaimed author of The Gone-Away World and Tigerman, comes a virtuosic new novel set in a near-future, high-tech surveillance state, that is equal parts dark comedy, gripping detective story, and mind-bending philosophical puzzle.In the world of Gnomon, citizens are constantly observed and democracy has reached a pinnacle of ‘transparency.’ Every action is seen, every word is recorded, and the System has access to its citizens’ thoughts and memories–all in the name of providing the safest society in history.When suspected dissident Diana Hunter dies in government custody, it marks the first time a citizen has been killed during an interrogation. The System doesn’t make mistakes, but something isn’t right about the circumstances surrounding Hunter’s death. Mielikki Neith, a trusted state inspector and a true believer in the System, is assigned to find out what went wrong. Immersing herself in neural recordings of the interrogation, what she finds isn’t Hunter but rather a panorama of characters within Hunter’s psyche: a lovelorn financier in Athens who has a mystical experience with a shark; a brilliant alchemist in ancient Carthage confronting the unexpected outcome of her invention; an expat Ethiopian painter in London designing a controversial new video game, and a sociopathic disembodied intelligence from the distant future. Embedded in the memories of these impossible lives lies a code which Neith must decipher to find out what Hunter is hiding. In the static between these stories, Neith begins to catch glimpses of the real Diana Hunter–and, alarmingly, of herself. The staggering consequences of what she finds will reverberate throughout the world.A dazzling, panoramic achievement, and Nick Harkaway’s most brilliant work to date, Gnomon is peerless and profound, captivating and irreverent, as it pierces through strata of reality and consciousness, and illuminates how to set a mind free. It is a truly accomplished novel from a mind possessing a matchless wit infused with a deep humanity.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller",
+    "unfinished"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "862_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "862_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "862_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "862_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "862_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "862_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "862_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "862_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4533,
-        "score": 3.87
+    {
+      "status": "available",
+      "stock_id": "862_2"
     },
-    "pages": 773,
-    "title": "Gnomon",
-    "url": "https://www.goodreads.com/book/show/33852053-gnomon",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "862_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "862_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "862_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "862_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "862_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4533,
+    "score": 3.87
+  },
+  "pages": 773,
+  "title": "Gnomon",
+  "url": "https://www.goodreads.com/book/show/33852053-gnomon",
+  "year_published": 2017
 }

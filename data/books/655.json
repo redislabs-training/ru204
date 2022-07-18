@@ -1,55 +1,55 @@
 {
-    "author": "Elizabeth C. Bunce",
-    "id": "655",
-    "description": "Digger thrives as a spy and sneak-thief among the feuding religious factions of Gerse, dodging the Greenmen who have banned all magic. But when a routine job goes horribly wrong and her partner and lover Tegen is killed, she has to get out of the city, fast, and hides herself in a merry group of nobles to do so. Accepted as a lady's maid to shy young Merista Nemair, Digger finds new peace and friendship at the Nemair stronghold--as well as plenty of jewels for the taking.But after the devious Lord Daul catches her in the act of thievery, he blackmails her into becoming his personal spy in the castle, and Digger soon realizes that her noble hosts aren't as apolitical as she thought... that indeed, she may be at the heart of a magical rebellion.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 65,
-        "fantasy": 769,
-        "fantasy (high fantasy)": 46,
-        "fantasy (magic)": 94,
-        "fiction": 41,
-        "historical (historical fiction)": 35,
-        "mystery": 30,
-        "young adult": 347,
-        "young adult (teen)": 32,
-        "young adult (young adult fantasy)": 55
+  "author": "Elizabeth C. Bunce",
+  "id": "655",
+  "description": "Digger thrives as a spy and sneak-thief among the feuding religious factions of Gerse, dodging the Greenmen who have banned all magic. But when a routine job goes horribly wrong and her partner and lover Tegen is killed, she has to get out of the city, fast, and hides herself in a merry group of nobles to do so. Accepted as a lady's maid to shy young Merista Nemair, Digger finds new peace and friendship at the Nemair stronghold--as well as plenty of jewels for the taking.But after the devious Lord Daul catches her in the act of thievery, he blackmails her into becoming his personal spy in the castle, and Digger soon realizes that her noble hosts aren't as apolitical as she thought... that indeed, she may be at the heart of a magical rebellion.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "655_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "655_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "655_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "655_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "655_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "655_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "655_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6682,
-        "score": 3.78
+    {
+      "status": "available",
+      "stock_id": "655_2"
     },
-    "pages": 467,
-    "title": "StarCrossed",
-    "url": "https://www.goodreads.com/book/show/7877549-starcrossed",
-    "year_published": 2010
+    {
+      "status": "available",
+      "stock_id": "655_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "655_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "655_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "655_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6682,
+    "score": 3.78
+  },
+  "pages": 467,
+  "title": "StarCrossed",
+  "url": "https://www.goodreads.com/book/show/7877549-starcrossed",
+  "year_published": 2010
 }

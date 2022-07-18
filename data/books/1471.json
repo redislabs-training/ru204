@@ -1,50 +1,50 @@
 {
-    "author": "Tade Thompson",
-    "id": "1471",
-    "description": "Tade Thompson's Rosewater is the start of an award-winning, cutting edge trilogy set in Nigeria, by one of science fiction's most engaging new voices.Rosewater is a town on the edge. A community formed around the edges of a mysterious alien biodome, its residents comprise the hopeful, the hungry and the helpless\u2014people eager for a glimpse inside the dome or a taste of its rumored healing powers.Kaaro is a government agent with a criminal past. He has seen inside the biodome, and doesn't care to again\u2014but when something begins killing off others like himself, Kaaro must defy his masters to search for an answer, facing his dark history and coming to a realization about a horrifying future.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 37,
-        "audiobook": 49,
-        "cultural (africa)": 108,
-        "fantasy": 165,
-        "fiction": 281,
-        "science fiction": 739,
-        "science fiction (aliens)": 50,
-        "science fiction fantasy": 61,
-        "speculative fiction": 53,
-        "western africa (nigeria)": 37
+  "author": "Tade Thompson",
+  "id": "1471",
+  "description": "Tade Thompson's Rosewater is the start of an award-winning, cutting edge trilogy set in Nigeria, by one of science fiction's most engaging new voices.Rosewater is a town on the edge. A community formed around the edges of a mysterious alien biodome, its residents comprise the hopeful, the hungry and the helpless—people eager for a glimpse inside the dome or a taste of its rumored healing powers.Kaaro is a government agent with a criminal past. He has seen inside the biodome, and doesn't care to again—but when something begins killing off others like himself, Kaaro must defy his masters to search for an answer, facing his dark history and coming to a realization about a horrifying future.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "cultural (africa)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "western africa (nigeria)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1471_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1471_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1471_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1471_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1471_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1471_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9084,
-        "score": 3.8
+    {
+      "status": "maintenance",
+      "stock_id": "1471_2"
     },
-    "pages": 286,
-    "title": "Rosewater",
-    "url": "https://www.goodreads.com/book/show/38362809-rosewater",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "1471_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1471_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1471_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9084,
+    "score": 3.8
+  },
+  "pages": 286,
+  "title": "Rosewater",
+  "url": "https://www.goodreads.com/book/show/38362809-rosewater",
+  "year_published": 2017
 }

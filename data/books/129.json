@@ -1,59 +1,59 @@
 {
-    "author": "Eoin Colfer",
-    "id": "129",
-    "description": "Riley, an orphan boy living in Victorian London, has achieved his dream of becoming a renowned magician, the Great Savano. He owes much of his success to Chevie, a seventeen-year-old FBI agent who traveled from the future in a time pod and helped him defeat his murderous master, Albert Garrick. But it is difficult for Riley to enjoy his new life, for he has always believed in his heart of hearts that Garrick will someday, somehow, return.Chevie has assured Riley that Garrick was sucked into a temporal wormhole, never to emerge. The full nature of the wormhole has never been understood, however, and just as a human body will reject an unsuitable transplant, the wormhole eventually spits Garrick out. By the time Garrick makes it back to Victorian London, he has been planning his revenge on Riley for centuries. But even the best-laid plans can go awry, as the three discover when they are tossed once more into the wormhole and spill out in a Puritan village.Featuring remarkable heroes, an epic villain, and monstrous mutations, The Forever Man is another high-octane adventure from the impressive imagination behind the internationally best-selling Artemis Fowl series.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 14,
-        "audiobook": 5,
-        "childrens": 3,
-        "childrens (middle grade)": 4,
-        "fantasy": 30,
-        "fiction": 9,
-        "historical (historical fiction)": 4,
-        "science fiction": 26,
-        "science fiction (time travel)": 24,
-        "young adult": 28
+  "author": "Eoin Colfer",
+  "id": "129",
+  "description": "Riley, an orphan boy living in Victorian London, has achieved his dream of becoming a renowned magician, the Great Savano. He owes much of his success to Chevie, a seventeen-year-old FBI agent who traveled from the future in a time pod and helped him defeat his murderous master, Albert Garrick. But it is difficult for Riley to enjoy his new life, for he has always believed in his heart of hearts that Garrick will someday, somehow, return.Chevie has assured Riley that Garrick was sucked into a temporal wormhole, never to emerge. The full nature of the wormhole has never been understood, however, and just as a human body will reject an unsuitable transplant, the wormhole eventually spits Garrick out. By the time Garrick makes it back to Victorian London, he has been planning his revenge on Riley for centuries. But even the best-laid plans can go awry, as the three discover when they are tossed once more into the wormhole and spill out in a Puritan village.Featuring remarkable heroes, an epic villain, and monstrous mutations, The Forever Man is another high-octane adventure from the impressive imagination behind the internationally best-selling Artemis Fowl series.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "129_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "129_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "129_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "129_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "129_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "129_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "129_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "129_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1049,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "129_2"
     },
-    "pages": 465,
-    "title": "The Forever Man",
-    "url": "https://www.goodreads.com/book/show/22518400-the-forever-man",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "129_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "129_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "129_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "129_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "129_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1049,
+    "score": 3.93
+  },
+  "pages": 465,
+  "title": "The Forever Man",
+  "url": "https://www.goodreads.com/book/show/22518400-the-forever-man",
+  "year_published": 2015
 }

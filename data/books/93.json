@@ -1,60 +1,60 @@
 {
-    "author": "Daniel H. Wilson",
-    "id": "93",
-    "description": "It's the twenty-first century and let's be honest-things are a little disappointing. Despite every World's Fair prediction, every futuristic ride at Disneyland, and the advertisements on the last page of every comic book, we are not living the future we were promised. By now, life was supposed to be a fully automated, atomic-powered, germ-free Utopia, a place where a grown man could wear a velvet spandex unitard and not be laughed at. Where are the ray guns, the flying cars, and the hoverboards that we expected? What happened to our promised moon colonies? Our servant robots? In Where's My Jetpack?, roboticist Daniel H. Wilson takes a hilarious look at the future we always imagined for ourselves. He exposes technology, spotlights existing prototypes, and reveals drawing-board plans. You will learn which technologies are already available, who made them, and where to find them. If the technology is not public, you will learn how to build, buy, or steal it. And if doesn't yet exist, you will learn what stands in the way of making it real. With thirty entries spanning everything from teleportation to self-contained skyscraper cities, and superbly illustrated by Richard Horne (101 Things to Do Before You Die), Where's My Jetpack? is an endlessly entertaining, one-of-a-kind look at the world that we always wanted. Daniel H. Wilson, Ph.D, has a degree in Robotics from Carnegie-Mellon. He is the author of How to Survive a Robot Uprising. He lives in Portland, Oregon.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 5,
-        "futurism": 3,
-        "history": 4,
-        "humor": 23,
-        "humor (comedy)": 4,
-        "nonfiction": 49,
-        "reference": 3,
-        "science": 44,
-        "science (technology)": 4,
-        "science fiction fantasy": 3
+  "author": "Daniel H. Wilson",
+  "id": "93",
+  "description": "It's the twenty-first century and let's be honest-things are a little disappointing. Despite every World's Fair prediction, every futuristic ride at Disneyland, and the advertisements on the last page of every comic book, we are not living the future we were promised. By now, life was supposed to be a fully automated, atomic-powered, germ-free Utopia, a place where a grown man could wear a velvet spandex unitard and not be laughed at. Where are the ray guns, the flying cars, and the hoverboards that we expected? What happened to our promised moon colonies? Our servant robots? In Where's My Jetpack?, roboticist Daniel H. Wilson takes a hilarious look at the future we always imagined for ourselves. He exposes technology, spotlights existing prototypes, and reveals drawing-board plans. You will learn which technologies are already available, who made them, and where to find them. If the technology is not public, you will learn how to build, buy, or steal it. And if doesn't yet exist, you will learn what stands in the way of making it real. With thirty entries spanning everything from teleportation to self-contained skyscraper cities, and superbly illustrated by Richard Horne (101 Things to Do Before You Die), Where's My Jetpack? is an endlessly entertaining, one-of-a-kind look at the world that we always wanted. Daniel H. Wilson, Ph.D, has a degree in Robotics from Carnegie-Mellon. He is the author of How to Survive a Robot Uprising. He lives in Portland, Oregon.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "futurism",
+    "history",
+    "humor",
+    "humor (comedy)",
+    "nonfiction",
+    "reference",
+    "science",
+    "science (technology)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "93_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "93_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "93_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "93_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "93_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "93_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "93_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "93_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 628,
-        "score": 3.42
+    {
+      "status": "maintenance",
+      "stock_id": "93_2"
     },
-    "pages": 1316,
-    "title": "Where's My Jetpack?: A Guide to the Amazing Science Fiction Future That Never Arrived",
-    "url": "https://www.goodreads.com/book/show/758854.Where_s_My_Jetpack_",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "93_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "93_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "93_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "93_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "93_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 628,
+    "score": 3.42
+  },
+  "pages": 1316,
+  "title": "Where's My Jetpack?: A Guide to the Amazing Science Fiction Future That Never Arrived",
+  "url": "https://www.goodreads.com/book/show/758854.Where_s_My_Jetpack_",
+  "year_published": 2007
 }

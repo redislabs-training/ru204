@@ -1,52 +1,52 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "541",
-    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series?the Magic Tree House! Have you ever met a real live ninja? Jack and Annie do when the Magic Tree House whisks them back to ancient Japan, where they find themselves in the cave of a ninja master. Will they learn the secrets of the ninja? Or will the evil samurai warriors get them first?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 65,
-        "childrens": 206,
-        "childrens (chapter books)": 82,
-        "childrens (juvenile)": 20,
-        "childrens (middle grade)": 22,
-        "fantasy": 176,
-        "fantasy (magic)": 26,
-        "fiction": 111,
-        "historical (historical fiction)": 83,
-        "science fiction (time travel)": 42
+  "author": "Mary Pope Osborne",
+  "id": "541",
+  "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series?the Magic Tree House! Have you ever met a real live ninja? Jack and Annie do when the Magic Tree House whisks them back to ancient Japan, where they find themselves in the cave of a ninja master. Will they learn the secrets of the ninja? Or will the evil samurai warriors get them first?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "541_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "541_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "541_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "541_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15958,
-        "score": 3.96
+    {
+      "status": "available",
+      "stock_id": "541_2"
     },
-    "pages": 888,
-    "title": "Night of the Ninjas",
-    "url": "https://www.goodreads.com/book/show/460087.Night_of_the_Ninjas",
-    "year_published": 1995
+    {
+      "status": "available",
+      "stock_id": "541_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "541_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "541_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15958,
+    "score": 3.96
+  },
+  "pages": 888,
+  "title": "Night of the Ninjas",
+  "url": "https://www.goodreads.com/book/show/460087.Night_of_the_Ninjas",
+  "year_published": 1995
 }

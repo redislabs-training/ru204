@@ -1,35 +1,35 @@
 {
-    "author": "Linda Buckley-Archer",
-    "id": "277",
-    "description": " What happens when a seventeenth-century bad guy has twenty-first-century technology?  An accident with an antigravity machine catapulted Peter Schock and Kate Dyer back to 1763. A bungled rescue attempt leaves Peter stranded in the eighteenth century while a terrifying villain, the Tar Man, takes his place and explodes onto twenty-first-century London. Concerned about the potentially catastrophic effects of time travel, the NASA scientists responsible for the situation question whether it is right to rescue Peter. Kate decides to take matters into her own hands, but things don't go as planned. Soon the physical effects of time travel begin to have a disturbing effect on her. Meanwhile, in our century, the Tar Man wreaks havoc in a city whose police force is powerless to stop him.Set against a backdrop of contemporary London and revolutionary France, The Time Thief is the sequel to the acclaimed The Time Travelers.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 24,
-        "childrens": 16,
-        "childrens (middle grade)": 23,
-        "fantasy": 110,
-        "fiction": 42,
-        "historical": 26,
-        "historical (historical fiction)": 57,
-        "science fiction": 49,
-        "science fiction (time travel)": 81,
-        "young adult": 77
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "277_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3916,
-        "score": 3.92
-    },
-    "pages": 1185,
-    "title": "The Time Thief",
-    "url": "https://www.goodreads.com/book/show/833332.The_Time_Thief",
-    "year_published": 2007
+  "author": "Linda Buckley-Archer",
+  "id": "277",
+  "description": " What happens when a seventeenth-century bad guy has twenty-first-century technology?  An accident with an antigravity machine catapulted Peter Schock and Kate Dyer back to 1763. A bungled rescue attempt leaves Peter stranded in the eighteenth century while a terrifying villain, the Tar Man, takes his place and explodes onto twenty-first-century London. Concerned about the potentially catastrophic effects of time travel, the NASA scientists responsible for the situation question whether it is right to rescue Peter. Kate decides to take matters into her own hands, but things don't go as planned. Soon the physical effects of time travel begin to have a disturbing effect on her. Meanwhile, in our century, the Tar Man wreaks havoc in a city whose police force is powerless to stop him.Set against a backdrop of contemporary London and revolutionary France, The Time Thief is the sequel to the acclaimed The Time Travelers.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "277_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3916,
+    "score": 3.92
+  },
+  "pages": 1185,
+  "title": "The Time Thief",
+  "url": "https://www.goodreads.com/book/show/833332.The_Time_Thief",
+  "year_published": 2007
 }

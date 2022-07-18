@@ -1,62 +1,62 @@
 {
-    "author": "Delia Sherman",
-    "id": "224",
-    "description": "Thirteen-year-old Sophie isn't happy about spending summer at her grandmother's old house in the Bayou. But the house has a maze Sophie can't resist exploring once she finds it has a secretive and playful inhabitant. When she makes an impulsive wish, she slips one hundred years into the past, to the year 1860. Once she makes her way, bedraggled and tanned, to what will one day be her grandmother's house, she is taken for a slave.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 15,
-        "childrens (middle grade)": 36,
-        "fantasy": 86,
-        "fiction": 35,
-        "historical": 30,
-        "historical (historical fiction)": 116,
-        "literature (19th century)": 6,
-        "science fiction": 12,
-        "science fiction (time travel)": 46,
-        "young adult": 77
+  "author": "Delia Sherman",
+  "id": "224",
+  "description": "Thirteen-year-old Sophie isn't happy about spending summer at her grandmother's old house in the Bayou. But the house has a maze Sophie can't resist exploring once she finds it has a secretive and playful inhabitant. When she makes an impulsive wish, she slips one hundred years into the past, to the year 1860. Once she makes her way, bedraggled and tanned, to what will one day be her grandmother's house, she is taken for a slave.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "literature (19th century)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "224_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "224_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "224_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "224_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "224_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "224_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "224_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "224_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "224_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 841,
-        "score": 3.85
+    {
+      "status": "on_loan",
+      "stock_id": "224_2"
     },
-    "pages": 1179,
-    "title": "The Freedom Maze",
-    "url": "https://www.goodreads.com/book/show/11013228-the-freedom-maze",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "224_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "224_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "224_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "224_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "224_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "224_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 841,
+    "score": 3.85
+  },
+  "pages": 1179,
+  "title": "The Freedom Maze",
+  "url": "https://www.goodreads.com/book/show/11013228-the-freedom-maze",
+  "year_published": 2011
 }

@@ -1,42 +1,42 @@
 {
-    "author": "Jacques Lob",
-    "id": "466",
-    "description": "Snowpiercer\u00a0is the enthralling and thought-provoking post-apocalyptic graphic novel that inspired the critically acclaimed movie starring Chris Evans (Captain America, Fantastic Four). Originally published in French, this marks the first time that Snowpiercer\u00a0will be available in English. In a harsh, uncompromisingly cold future where Earth has succumbed to treacherously low temperatures, the last remaining members of humanity travel on a train while the outside world remains encased in ice.\u00a0The surviving community are not without a social hierarchy; those that travel at the front of the train live in relative luxury whilst those unfortunate enough to be at the rear remain clustered like cattle in claustrophobic darkness. Yet, things are about to change aboard the train as passengers become disgruntled... The movie Snowpiercer, due for release in 2014, is directed by Joon-ho Bong (The Host) and is already causing a stir with parallels to\u00a01984\u00a0and\u00a0Animal Farm.\u00a0",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 18,
-        "apocalyptic (post apocalyptic)": 44,
-        "comics (comic book)": 13,
-        "fiction": 66,
-        "graphic novels comics": 27,
-        "science fiction": 114,
-        "science fiction (dystopia)": 64,
-        "sequential art (bande dessin\u00e9e)": 12,
-        "sequential art (comics)": 171,
-        "sequential art (graphic novels)": 307
+  "author": "Jacques Lob",
+  "id": "466",
+  "description": "Snowpiercer is the enthralling and thought-provoking post-apocalyptic graphic novel that inspired the critically acclaimed movie starring Chris Evans (Captain America, Fantastic Four). Originally published in French, this marks the first time that Snowpiercer will be available in English. In a harsh, uncompromisingly cold future where Earth has succumbed to treacherously low temperatures, the last remaining members of humanity travel on a train while the outside world remains encased in ice. The surviving community are not without a social hierarchy; those that travel at the front of the train live in relative luxury whilst those unfortunate enough to be at the rear remain clustered like cattle in claustrophobic darkness. Yet, things are about to change aboard the train as passengers become disgruntled... The movie Snowpiercer, due for release in 2014, is directed by Joon-ho Bong (The Host) and is already causing a stir with parallels to 1984 and Animal Farm. ",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (bande dessinée)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "466_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "466_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "466_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "466_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3111,
-        "score": 3.29
+    {
+      "status": "available",
+      "stock_id": "466_2"
     },
-    "pages": 1261,
-    "title": "Snowpiercer: The Escape",
-    "url": "https://www.goodreads.com/book/show/18594683-snowpiercer",
-    "year_published": 1982
+    {
+      "status": "on_loan",
+      "stock_id": "466_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3111,
+    "score": 3.29
+  },
+  "pages": 1261,
+  "title": "Snowpiercer: The Escape",
+  "url": "https://www.goodreads.com/book/show/18594683-snowpiercer",
+  "year_published": 1982
 }

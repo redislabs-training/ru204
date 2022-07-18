@@ -1,40 +1,40 @@
 {
-    "author": "Martin Amis",
-    "id": "1106",
-    "description": "In Time's Arrow the doctor Tod T. Friendly dies and then feels markedly better, breaks up with his lovers as a prelude to seducing them, and mangles his patients before he sends them home. And all the while Tod's life races backward in time toward the one appalling moment in modern history when such reversals make sense.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "contemporary": 51,
-        "european literature (british literature)": 41,
-        "fantasy": 44,
-        "fiction": 586,
-        "historical (historical fiction)": 101,
-        "literary fiction": 54,
-        "literature": 56,
-        "novels": 75,
-        "thriller": 46,
-        "world war ii (holocaust)": 43
+  "author": "Martin Amis",
+  "id": "1106",
+  "description": "In Time's Arrow the doctor Tod T. Friendly dies and then feels markedly better, breaks up with his lovers as a prelude to seducing them, and mangles his patients before he sends them home. And all the while Tod's life races backward in time toward the one appalling moment in modern history when such reversals make sense.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "contemporary",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literary fiction",
+    "literature",
+    "novels",
+    "thriller",
+    "world war ii (holocaust)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1106_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1106_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1106_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14934,
-        "score": 3.71
-    },
-    "pages": 253,
-    "title": "Time's Arrow",
-    "url": "https://www.goodreads.com/book/show/23031.Time_s_Arrow",
-    "year_published": 1991
+    {
+      "status": "on_loan",
+      "stock_id": "1106_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14934,
+    "score": 3.71
+  },
+  "pages": 253,
+  "title": "Time's Arrow",
+  "url": "https://www.goodreads.com/book/show/23031.Time_s_Arrow",
+  "year_published": 1991
 }

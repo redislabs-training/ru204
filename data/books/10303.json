@@ -1,60 +1,60 @@
 {
-    "author": "Lewis Carroll",
-    "id": "10303",
-    "description": "After a tumble down the rabbit hole, Alice finds herself far away from home in the absurd world of Wonderland. As mind-bending as it is delightful, Lewis Carroll\u2019s 1865 novel is pure magic for young and old alike.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 426,
-        "audiobook": 372,
-        "childrens": 1254,
-        "childrens (middle grade)": 364,
-        "classics": 6471,
-        "fantasy": 3659,
-        "fiction": 2159,
-        "literature": 241,
-        "literature (19th century)": 211,
-        "young adult": 411
+  "author": "Lewis Carroll",
+  "id": "10303",
+  "description": "After a tumble down the rabbit hole, Alice finds herself far away from home in the absurd world of Wonderland. As mind-bending as it is delightful, Lewis Carroll’s 1865 novel is pure magic for young and old alike.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "literature (19th century)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "10303_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "10303_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10303_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "10303_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10303_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "10303_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10303_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10303_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 263244,
-        "score": 4.0
+    {
+      "status": "available",
+      "stock_id": "10303_2"
     },
-    "pages": 1045,
-    "title": "Alice's Adventures in Wonderland",
-    "url": "https://www.goodreads.com/book/show/6324090-alice-s-adventures-in-wonderland",
-    "year_published": 1865
+    {
+      "status": "available",
+      "stock_id": "10303_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10303_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "10303_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10303_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10303_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 263244,
+    "score": 4
+  },
+  "pages": 1045,
+  "title": "Alice's Adventures in Wonderland",
+  "url": "https://www.goodreads.com/book/show/6324090-alice-s-adventures-in-wonderland",
+  "year_published": 1865
 }

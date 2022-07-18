@@ -1,41 +1,41 @@
 {
-    "author": "Phil Hornshaw",
-    "id": "68",
-    "description": "Welcome, intrepid temporal explorers, to the world's first and only field manual/survival guide to time travel!DON'T LEAVE THIS TIME PERIOD WITHOUT IT! Humans from H. G. Wells to Albert Einstein to Bill & Ted have been fascinated by time travel-some say drawn to it like moths to a flame. But in order to travel safely and effectively, newbie travelers need to know the dos and don'ts. Think of this handy little book as the only thing standing between you and an unimaginably horrible death-or being trapped forever in another time or alternate reality. You get: Essential time travel knowledge: Choosing the right time machine, from DeLoreans to hot tubs to phone booths-and beyond What to say-and what NOT to say-to your doppelganger Understanding black holes and Stephen Hawking's term spaghettification (no, it's not a method of food preperation; yes, it is a horrifically painful way to meet your end) The connection between Einstein's General Theory of Relativity, traversing wormholes and the 88 mph speed requirement The possible consequences of creating a time paradox-including, but not limited to, the implosion of the universe Survival tips for nearly any sticky time travel situation: How to befriend a dinosaur and subsequently fight other dinosaurs with that dinosaur Instructions to build your very own Rube Goldberg Time Machine Crusading-for fun and profit Tips on battling cowboys, pirates, ninjas, samurai, Nazis, Vikings, robots and space marines How to operate a microwave oven Enjoying the servitude of robots and tips for living underground when they inevitably rise up against us",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fiction": 10,
-        "humor": 17,
-        "humor (comedy)": 4,
-        "reference": 2,
-        "science fiction": 15,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 2
+  "author": "Phil Hornshaw",
+  "id": "68",
+  "description": "Welcome, intrepid temporal explorers, to the world's first and only field manual/survival guide to time travel!DON'T LEAVE THIS TIME PERIOD WITHOUT IT! Humans from H. G. Wells to Albert Einstein to Bill & Ted have been fascinated by time travel-some say drawn to it like moths to a flame. But in order to travel safely and effectively, newbie travelers need to know the dos and don'ts. Think of this handy little book as the only thing standing between you and an unimaginably horrible death-or being trapped forever in another time or alternate reality. You get: Essential time travel knowledge: Choosing the right time machine, from DeLoreans to hot tubs to phone booths-and beyond What to say-and what NOT to say-to your doppelganger Understanding black holes and Stephen Hawking's term spaghettification (no, it's not a method of food preperation; yes, it is a horrifically painful way to meet your end) The connection between Einstein's General Theory of Relativity, traversing wormholes and the 88 mph speed requirement The possible consequences of creating a time paradox-including, but not limited to, the implosion of the universe Survival tips for nearly any sticky time travel situation: How to befriend a dinosaur and subsequently fight other dinosaurs with that dinosaur Instructions to build your very own Rube Goldberg Time Machine Crusading-for fun and profit Tips on battling cowboys, pirates, ninjas, samurai, Nazis, Vikings, robots and space marines How to operate a microwave oven Enjoying the servitude of robots and tips for living underground when they inevitably rise up against us",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "reference",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "68_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "68_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "68_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "68_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 395,
-        "score": 3.7
+    {
+      "status": "available",
+      "stock_id": "68_2"
     },
-    "pages": 1237,
-    "title": "So You Created a Wormhole: The Time Traveler's Guide to Time Travel",
-    "url": "https://www.goodreads.com/book/show/11834392-so-you-created-a-wormhole",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "68_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 395,
+    "score": 3.7
+  },
+  "pages": 1237,
+  "title": "So You Created a Wormhole: The Time Traveler's Guide to Time Travel",
+  "url": "https://www.goodreads.com/book/show/11834392-so-you-created-a-wormhole",
+  "year_published": 2012
 }

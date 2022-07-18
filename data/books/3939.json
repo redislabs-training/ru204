@@ -1,47 +1,47 @@
 {
-    "author": "Seanan McGuire",
-    "id": "3939",
-    "description": "This fourth entry and prequel tells the story of Lundy, a very serious young girl who would rather study and dream than become a respectable housewife and live up to the expectations of the world around her. As well she should.When she finds a doorway to a world founded on logic and reason, riddles and lies, she thinks she's found her paradise. Alas, everything costs at the goblin market, and when her time there is drawing to a close, she makes the kind of bargain that never plays out well.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 96,
-        "audiobook": 285,
-        "fantasy": 2129,
-        "fantasy (magic)": 75,
-        "fantasy (urban fantasy)": 87,
-        "fiction": 277,
-        "magical realism": 76,
-        "novella": 214,
-        "young adult": 480,
-        "young adult (young adult fantasy)": 66
+  "author": "Seanan McGuire",
+  "id": "3939",
+  "description": "This fourth entry and prequel tells the story of Lundy, a very serious young girl who would rather study and dream than become a respectable housewife and live up to the expectations of the world around her. As well she should.When she finds a doorway to a world founded on logic and reason, riddles and lies, she thinks she's found her paradise. Alas, everything costs at the goblin market, and when her time there is drawing to a close, she makes the kind of bargain that never plays out well.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "magical realism",
+    "novella",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3939_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3939_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3939_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3939_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3939_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19099,
-        "score": 4.18
+    {
+      "status": "maintenance",
+      "stock_id": "3939_2"
     },
-    "pages": 1293,
-    "title": "In an Absent Dream",
-    "url": "https://www.goodreads.com/book/show/38244358-in-an-absent-dream",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "3939_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3939_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19099,
+    "score": 4.18
+  },
+  "pages": 1293,
+  "title": "In an Absent Dream",
+  "url": "https://www.goodreads.com/book/show/38244358-in-an-absent-dream",
+  "year_published": 2019
 }

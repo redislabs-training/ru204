@@ -1,34 +1,34 @@
 {
-    "author": "Edward Eager",
-    "id": "131",
-    "description": "\"Anything can happen when you have all the time in the world\" says the frog-like Natterjack in old relative Mrs Whiton's thyme garden. Cousins Roger, Ann, Eliza and girl-crazy Jack ride for American rebels, bow to Queen Elizabeth I, and even rescue their own parents when they were children.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 13,
-        "childrens": 48,
-        "childrens (juvenile)": 14,
-        "childrens (middle grade)": 21,
-        "classics": 13,
-        "fantasy": 201,
-        "fantasy (magic)": 19,
-        "fiction": 49,
-        "science fiction (time travel)": 28,
-        "young adult": 18
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "131_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3942,
-        "score": 4.15
-    },
-    "pages": 1241,
-    "title": "The Time Garden",
-    "url": "https://www.goodreads.com/book/show/312077.The_Time_Garden",
-    "year_published": 1958
+  "author": "Edward Eager",
+  "id": "131",
+  "description": "\"Anything can happen when you have all the time in the world\" says the frog-like Natterjack in old relative Mrs Whiton's thyme garden. Cousins Roger, Ann, Eliza and girl-crazy Jack ride for American rebels, bow to Queen Elizabeth I, and even rescue their own parents when they were children.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "131_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3942,
+    "score": 4.15
+  },
+  "pages": 1241,
+  "title": "The Time Garden",
+  "url": "https://www.goodreads.com/book/show/312077.The_Time_Garden",
+  "year_published": 1958
 }

@@ -1,60 +1,60 @@
 {
-    "author": "Connie Willis",
-    "id": "895",
-    "description": "A tunnel, a light, a door. And beyond it ... the unimaginable.Dr. Joanna Lander is a psychologist specializing in near-death experiences. She is about to get help from a new doctor with the power to give her the chance to get as close to death as anyone can.A brilliant young neurologist, Dr. Richard Wright, has come up with a way to manufacture the near-death experience using a psychoactive drug. Joanna\u2019s first NDE is as fascinating as she imagined \u2014 so astounding that she knows she must go back, if only to find out why that place is so hauntingly familiar.But each time Joanna goes under, her sense of dread begins to grow, because part of her already knows why the experience is so familiar, and why she has every reason to be afraid.Yet just when Joanna thinks she understands, she\u2019s in for the biggest surprise of all \u2014 a shattering scenario that will keep you feverishly reading until the final climactic page.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 17,
-        "contemporary": 21,
-        "fantasy": 128,
-        "fiction": 267,
-        "historical (historical fiction)": 25,
-        "mystery": 35,
-        "science fiction": 457,
-        "science fiction (time travel)": 43,
-        "science fiction fantasy": 56,
-        "speculative fiction": 38
+  "author": "Connie Willis",
+  "id": "895",
+  "description": "A tunnel, a light, a door. And beyond it ... the unimaginable.Dr. Joanna Lander is a psychologist specializing in near-death experiences. She is about to get help from a new doctor with the power to give her the chance to get as close to death as anyone can.A brilliant young neurologist, Dr. Richard Wright, has come up with a way to manufacture the near-death experience using a psychoactive drug. Joanna’s first NDE is as fascinating as she imagined — so astounding that she knows she must go back, if only to find out why that place is so hauntingly familiar.But each time Joanna goes under, her sense of dread begins to grow, because part of her already knows why the experience is so familiar, and why she has every reason to be afraid.Yet just when Joanna thinks she understands, she’s in for the biggest surprise of all — a shattering scenario that will keep you feverishly reading until the final climactic page.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "895_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "895_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "895_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "895_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "895_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "895_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "895_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "895_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8382,
-        "score": 3.69
+    {
+      "status": "maintenance",
+      "stock_id": "895_2"
     },
-    "pages": 1311,
-    "title": "Passage",
-    "url": "https://www.goodreads.com/book/show/24984.Passage",
-    "year_published": 2001
+    {
+      "status": "on_loan",
+      "stock_id": "895_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "895_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "895_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "895_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "895_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8382,
+    "score": 3.69
+  },
+  "pages": 1311,
+  "title": "Passage",
+  "url": "https://www.goodreads.com/book/show/24984.Passage",
+  "year_published": 2001
 }

@@ -1,63 +1,63 @@
 {
-    "author": "Ransom Riggs",
-    "id": "10923",
-    "description": "A boy with extraordinary powers. An army of deadly monsters. An epic battle for the future of peculiardom.The adventure that began with Miss Peregrine\u2019s Home for Peculiar Children and continued in Hollow City comes to a thrilling conclusion with Library of Souls. As the story opens, sixteen-year-old Jacob discovers a powerful new ability, and soon he\u2019s diving through history to rescue his peculiar companions from a heavily guarded fortress. Accompanying Jacob on his journey are Emma Bloom, a girl with fire at her fingertips, and Addison MacHenry, a dog with a nose for sniffing out lost children.They\u2019ll travel from modern-day London to the labyrinthine alleys of Devil\u2019s Acre, the most wretched slum in all of Victorian England. It\u2019s a place where the fate of peculiar children everywhere will be decided once and for all. Like its predecessors, Library of Souls blends thrilling fantasy with never-before-published vintage photography to create a one-of-a-kind reading experience.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 269,
-        "audiobook": 223,
-        "fantasy": 3175,
-        "fantasy (paranormal)": 441,
-        "fantasy (supernatural)": 177,
-        "fiction": 931,
-        "historical (historical fiction)": 243,
-        "horror": 219,
-        "science fiction (time travel)": 188,
-        "young adult": 1988
+  "author": "Ransom Riggs",
+  "id": "10923",
+  "description": "A boy with extraordinary powers. An army of deadly monsters. An epic battle for the future of peculiardom.The adventure that began with Miss Peregrine’s Home for Peculiar Children and continued in Hollow City comes to a thrilling conclusion with Library of Souls. As the story opens, sixteen-year-old Jacob discovers a powerful new ability, and soon he’s diving through history to rescue his peculiar companions from a heavily guarded fortress. Accompanying Jacob on his journey are Emma Bloom, a girl with fire at her fingertips, and Addison MacHenry, a dog with a nose for sniffing out lost children.They’ll travel from modern-day London to the labyrinthine alleys of Devil’s Acre, the most wretched slum in all of Victorian England. It’s a place where the fate of peculiar children everywhere will be decided once and for all. Like its predecessors, Library of Souls blends thrilling fantasy with never-before-published vintage photography to create a one-of-a-kind reading experience.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical (historical fiction)",
+    "horror",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "10923_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "10923_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10923_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10923_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10923_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10923_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "10923_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10923_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10923_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 125756,
-        "score": 4.12
+    {
+      "status": "available",
+      "stock_id": "10923_2"
     },
-    "pages": 1162,
-    "title": "Library of Souls",
-    "url": "https://www.goodreads.com/book/show/41044147-library-of-souls",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "10923_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10923_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10923_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "10923_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10923_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10923_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 125756,
+    "score": 4.12
+  },
+  "pages": 1162,
+  "title": "Library of Souls",
+  "url": "https://www.goodreads.com/book/show/41044147-library-of-souls",
+  "year_published": 2015
 }

@@ -1,54 +1,54 @@
 {
-    "author": "Greg Rucka",
-    "id": "713",
-    "description": "Eisner-winning team of Rucka and Lark's critically acclaimed new series about Forever Carlyle, the Lazarus of the Carlyle Family. In a dystopian near-future, government is a quaint concept, resources are coveted, and possession is 100% of the law. A handful of Families rule, jealously guarding what they have and exploiting the Waste who struggle to survive in their domains. Forever Carlyle defends her family's holdings through deception and force as their protector, their Lazarus. Shot dead defending the family home, Forever's day goes downhill from there...Collects LAZARUS #1-4 and previously only-available-online, four-page short, \"Family: Prelude.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 17,
-        "adult": 20,
-        "apocalyptic (post apocalyptic)": 22,
-        "comics (comic book)": 52,
-        "fiction": 74,
-        "graphic novels comics": 87,
-        "science fiction": 188,
-        "science fiction (dystopia)": 115,
-        "sequential art (comics)": 772,
-        "sequential art (graphic novels)": 701
+  "author": "Greg Rucka",
+  "id": "713",
+  "description": "Eisner-winning team of Rucka and Lark's critically acclaimed new series about Forever Carlyle, the Lazarus of the Carlyle Family. In a dystopian near-future, government is a quaint concept, resources are coveted, and possession is 100% of the law. A handful of Families rule, jealously guarding what they have and exploiting the Waste who struggle to survive in their domains. Forever Carlyle defends her family's holdings through deception and force as their protector, their Lazarus. Shot dead defending the family home, Forever's day goes downhill from there...Collects LAZARUS #1-4 and previously only-available-online, four-page short, \"Family: Prelude.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "713_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "713_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "713_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "713_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "713_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "713_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "713_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10559,
-        "score": 3.94
+    {
+      "status": "available",
+      "stock_id": "713_2"
     },
-    "pages": 839,
-    "title": "Lazarus, Vol. 1: Family",
-    "url": "https://www.goodreads.com/book/show/18259637-lazarus-vol-1",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "713_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "713_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "713_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "713_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10559,
+    "score": 3.94
+  },
+  "pages": 839,
+  "title": "Lazarus, Vol. 1: Family",
+  "url": "https://www.goodreads.com/book/show/18259637-lazarus-vol-1",
+  "year_published": 2013
 }

@@ -1,35 +1,35 @@
 {
-    "author": "James Dashner",
-    "id": "4256",
-    "description": "Michael is a gamer. And like most gamers, he almost spends more time on the VirtNet than in the actual world. The VirtNet offers total mind and body immersion, and it\u2019s addictive. Thanks to technology, anyone with enough money can experience fantasy worlds, risk their life without the chance of death, or just hang around with Virt-friends. And the more hacking skills you have, the more fun. Why bother following the rules when most of them are dumb, anyway?But some rules were made for a reason. Some technology is too dangerous to fool with. And recent reports claim that one gamer is going beyond what any gamer has done before: he\u2019s holding players hostage inside the VirtNet. The effects are horrific\u2014the hostages have all been declared brain-dead. Yet the gamer\u2019s motives are a mystery.The government knows that to catch a hacker, you need a hacker.And they\u2019ve been watching Michael. They want him on their team.But the risk is enormous. If he accepts their challenge, Michael will need to go off the VirtNet grid. There are back alleys and corners in the system human eyes have never seen and predators he can\u2019t even fathom\u2014and there\u2019s the possibility that the line between game and reality will be blurred forever.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 48,
-        "adventure": 92,
-        "fantasy": 166,
-        "fiction": 165,
-        "mystery": 52,
-        "science fiction": 549,
-        "science fiction (dystopia)": 257,
-        "thriller": 40,
-        "young adult": 645,
-        "young adult (teen)": 58
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4256_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35890,
-        "score": 3.85
-    },
-    "pages": 332,
-    "title": "The Eye of Minds",
-    "url": "https://www.goodreads.com/book/show/16279856-the-eye-of-minds",
-    "year_published": 2013
+  "author": "James Dashner",
+  "id": "4256",
+  "description": "Michael is a gamer. And like most gamers, he almost spends more time on the VirtNet than in the actual world. The VirtNet offers total mind and body immersion, and it’s addictive. Thanks to technology, anyone with enough money can experience fantasy worlds, risk their life without the chance of death, or just hang around with Virt-friends. And the more hacking skills you have, the more fun. Why bother following the rules when most of them are dumb, anyway?But some rules were made for a reason. Some technology is too dangerous to fool with. And recent reports claim that one gamer is going beyond what any gamer has done before: he’s holding players hostage inside the VirtNet. The effects are horrific—the hostages have all been declared brain-dead. Yet the gamer’s motives are a mystery.The government knows that to catch a hacker, you need a hacker.And they’ve been watching Michael. They want him on their team.But the risk is enormous. If he accepts their challenge, Michael will need to go off the VirtNet grid. There are back alleys and corners in the system human eyes have never seen and predators he can’t even fathom—and there’s the possibility that the line between game and reality will be blurred forever.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4256_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35890,
+    "score": 3.85
+  },
+  "pages": 332,
+  "title": "The Eye of Minds",
+  "url": "https://www.goodreads.com/book/show/16279856-the-eye-of-minds",
+  "year_published": 2013
 }

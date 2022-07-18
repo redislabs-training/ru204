@@ -1,39 +1,39 @@
 {
-    "author": "Emma Newman",
-    "id": "496",
-    "description": "Acclaimed author Emma Newman returns to the captivating universe she created in Planetfall with a stunning science fiction mystery where one man\u2019s murder is much more than it seems... Govcorp detective Carlos Moreno was only a baby when Atlas left Earth to seek truth among the stars. But in that moment, the course of Carlos\u2019s entire life changed. Atlas is what took his mother away; what made his father lose hope; what led Alejandro Casales, leader of the religious cult known as the Circle, to his door. And now, on the eve of the fortieth anniversary of Atlas\u2019s departure, it\u2019s got something to do why Casales was found dead in his hotel room\u2014and why Carlos is the man in charge of the investigation. To figure out who killed one of the most powerful men on Earth, Carlos is supposed to put aside his personal history. But the deeper he delves into the case, the more he realizes that escaping the past is not so easy. There\u2019s more to Casales\u2019s death than meets the eye, and something much more sinister to the legacy of Atlas than anyone realizes...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 22,
-        "fiction": 48,
-        "mystery": 73,
-        "mystery (crime)": 19,
-        "science fiction": 221,
-        "science fiction (cyberpunk)": 16,
-        "science fiction (dystopia)": 17,
-        "science fiction fantasy": 17,
-        "speculative fiction": 14,
-        "thriller": 10
+  "author": "Emma Newman",
+  "id": "496",
+  "description": "Acclaimed author Emma Newman returns to the captivating universe she created in Planetfall with a stunning science fiction mystery where one man’s murder is much more than it seems... Govcorp detective Carlos Moreno was only a baby when Atlas left Earth to seek truth among the stars. But in that moment, the course of Carlos’s entire life changed. Atlas is what took his mother away; what made his father lose hope; what led Alejandro Casales, leader of the religious cult known as the Circle, to his door. And now, on the eve of the fortieth anniversary of Atlas’s departure, it’s got something to do why Casales was found dead in his hotel room—and why Carlos is the man in charge of the investigation. To figure out who killed one of the most powerful men on Earth, Carlos is supposed to put aside his personal history. But the deeper he delves into the case, the more he realizes that escaping the past is not so easy. There’s more to Casales’s death than meets the eye, and something much more sinister to the legacy of Atlas than anyone realizes...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "496_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "496_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "496_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2887,
-        "score": 4.19
-    },
-    "pages": 703,
-    "title": "After Atlas",
-    "url": "https://www.goodreads.com/book/show/28361265-after-atlas",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "496_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2887,
+    "score": 4.19
+  },
+  "pages": 703,
+  "title": "After Atlas",
+  "url": "https://www.goodreads.com/book/show/28361265-after-atlas",
+  "year_published": 2016
 }

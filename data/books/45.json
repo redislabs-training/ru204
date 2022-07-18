@@ -1,51 +1,51 @@
 {
-    "author": "Jana Oliver",
-    "id": "45",
-    "description": "London, September 1888. An aged Queen Victoria rules. The threat of anarchy hovers in the air. A new kind of evil lurks in the back alleys of Whitechapel. Enter Jacynda Lassiter, a Time Rover on a mission find an overdue tourist' and return him to 2057 before he changes history. Victorian London is a dangerous place for the unwary. Mysterious shape-shifters haunt the streets, making friend and foe indistinguishable. When a fellow Time Rover is murdered, Jacynda's mission becomes personal. Can she trust the two gentlemen who come to her aid, or do they harbor their own dark secrets? In a few days, Jack the Ripper will add to his bloody legacy. But old Jack isn't the only threat in Whitechapel. Unless Jacynda can outwit a madman, her Victorian sojourn will rewrite history and end at the point of a blade.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 24,
-        "fantasy (paranormal)": 4,
-        "fiction": 5,
-        "historical (historical fiction)": 5,
-        "historical (victorian)": 3,
-        "mystery": 3,
-        "science fiction": 16,
-        "science fiction (steampunk)": 14,
-        "science fiction (time travel)": 31,
-        "young adult": 4
+  "author": "Jana Oliver",
+  "id": "45",
+  "description": "London, September 1888. An aged Queen Victoria rules. The threat of anarchy hovers in the air. A new kind of evil lurks in the back alleys of Whitechapel. Enter Jacynda Lassiter, a Time Rover on a mission find an overdue tourist' and return him to 2057 before he changes history. Victorian London is a dangerous place for the unwary. Mysterious shape-shifters haunt the streets, making friend and foe indistinguishable. When a fellow Time Rover is murdered, Jacynda's mission becomes personal. Can she trust the two gentlemen who come to her aid, or do they harbor their own dark secrets? In a few days, Jack the Ripper will add to his bloody legacy. But old Jack isn't the only threat in Whitechapel. Unless Jacynda can outwit a madman, her Victorian sojourn will rewrite history and end at the point of a blade.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "historical (historical fiction)",
+    "historical (victorian)",
+    "mystery",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "45_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "45_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "45_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "45_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "45_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "45_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 295,
-        "score": 4.02
+    {
+      "status": "maintenance",
+      "stock_id": "45_2"
     },
-    "pages": 846,
-    "title": "Sojourn",
-    "url": "https://www.goodreads.com/book/show/68423.Sojourn",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "45_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "45_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "45_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 295,
+    "score": 4.02
+  },
+  "pages": 846,
+  "title": "Sojourn",
+  "url": "https://www.goodreads.com/book/show/68423.Sojourn",
+  "year_published": 2006
 }

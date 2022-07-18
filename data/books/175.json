@@ -1,64 +1,64 @@
 {
-    "author": "Stephen R. Donaldson",
-    "id": "175",
-    "description": "Thomas Covenant and Linden Avery begin their search for the One Tree that is to be the salvation of the Land. Only he could find the answer and forge a new Staff of Law\ufffdbut fate decreed that the journey was to be long, the quest arduous, and quite possibly a failure....",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 18,
-        "epic": 18,
-        "fantasy": 1359,
-        "fantasy (epic fantasy)": 41,
-        "fantasy (high fantasy)": 18,
-        "fiction": 183,
-        "novels": 6,
-        "science fiction": 31,
-        "science fiction fantasy": 70,
-        "speculative fiction": 13
+  "author": "Stephen R. Donaldson",
+  "id": "175",
+  "description": "Thomas Covenant and Linden Avery begin their search for the One Tree that is to be the salvation of the Land. Only he could find the answer and forge a new Staff of Law�but fate decreed that the journey was to be long, the quest arduous, and quite possibly a failure....",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "epic",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "175_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "175_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "175_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "175_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "175_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "175_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "175_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "175_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "175_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17681,
-        "score": 3.98
+    {
+      "status": "maintenance",
+      "stock_id": "175_2"
     },
-    "pages": 345,
-    "title": "The One Tree",
-    "url": "https://www.goodreads.com/book/show/22875.The_One_Tree",
-    "year_published": 1982
+    {
+      "status": "maintenance",
+      "stock_id": "175_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "175_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "175_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "175_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "175_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "175_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17681,
+    "score": 3.98
+  },
+  "pages": 345,
+  "title": "The One Tree",
+  "url": "https://www.goodreads.com/book/show/22875.The_One_Tree",
+  "year_published": 1982
 }

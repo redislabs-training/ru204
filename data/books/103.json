@@ -1,56 +1,56 @@
 {
-    "author": "Clifford D. Simak",
-    "id": "103",
-    "description": "'One of those complex and enormously inventive stories... based on some real, honest, practical ethical thinking. It is an idea book.' - Groff Conklin in Galaxy Science FictionAsher Sutton has been lost in deepest space for twenty years. Suddenly arrives a warning from the future, that he will return- and that he must be killed. He is destined to write a book whose message may lead to the death of millions in centuries to come. For this reason Sutton is hounded by the sinister warring factions of the future who wish to influence or prevent the writing of this book he has not yet begun to write.Yet already a copy has been found in the burnt-out wreckage of a space-craft on Aldebaran XII.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies (collections)": 3,
-        "business (amazon)": 2,
-        "classics": 6,
-        "fantasy": 11,
-        "fiction": 40,
-        "novels": 4,
-        "science fiction": 189,
-        "science fiction (time travel)": 43,
-        "science fiction fantasy": 8,
-        "space": 3
+  "author": "Clifford D. Simak",
+  "id": "103",
+  "description": "'One of those complex and enormously inventive stories... based on some real, honest, practical ethical thinking. It is an idea book.' - Groff Conklin in Galaxy Science FictionAsher Sutton has been lost in deepest space for twenty years. Suddenly arrives a warning from the future, that he will return- and that he must be killed. He is destined to write a book whose message may lead to the death of millions in centuries to come. For this reason Sutton is hounded by the sinister warring factions of the future who wish to influence or prevent the writing of this book he has not yet begun to write.Yet already a copy has been found in the burnt-out wreckage of a space-craft on Aldebaran XII.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "business (amazon)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "103_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "103_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "103_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "103_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "103_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "103_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "103_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2566,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "103_2"
     },
-    "pages": 1154,
-    "title": "Time and Again",
-    "url": "https://www.goodreads.com/book/show/876499.Time_and_Again",
-    "year_published": 1950
+    {
+      "status": "on_loan",
+      "stock_id": "103_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "103_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "103_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "103_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2566,
+    "score": 3.91
+  },
+  "pages": 1154,
+  "title": "Time and Again",
+  "url": "https://www.goodreads.com/book/show/876499.Time_and_Again",
+  "year_published": 1950
 }

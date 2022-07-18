@@ -1,56 +1,56 @@
 {
-    "author": "Patrick Rothfuss",
-    "id": "43147",
-    "description": "Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen. The intimate narrative of his childhood in a troupe of traveling players, his years spent as a near-feral orphan in a crime-ridden city, his daringly brazen yet successful bid to enter a legendary school of magic, and his life as a fugitive after the murder of a king form a gripping coming-of-age story unrivaled in recent literature. A high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 808,
-        "adventure": 764,
-        "audiobook": 708,
-        "epic": 358,
-        "fantasy": 29849,
-        "fantasy (epic fantasy)": 1320,
-        "fantasy (high fantasy)": 1112,
-        "fantasy (magic)": 992,
-        "fiction": 4569,
-        "science fiction fantasy": 905
+  "author": "Patrick Rothfuss",
+  "id": "43147",
+  "description": "Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen. The intimate narrative of his childhood in a troupe of traveling players, his years spent as a near-feral orphan in a crime-ridden city, his daringly brazen yet successful bid to enter a legendary school of magic, and his life as a fugitive after the murder of a king form a gripping coming-of-age story unrivaled in recent literature. A high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "epic",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "43147_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "43147_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43147_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "43147_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "43147_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "43147_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "43147_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 744227,
-        "score": 4.52
+    {
+      "status": "maintenance",
+      "stock_id": "43147_2"
     },
-    "pages": 373,
-    "title": "The Name of the Wind",
-    "url": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "43147_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "43147_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "43147_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "43147_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 744227,
+    "score": 4.52
+  },
+  "pages": 373,
+  "title": "The Name of the Wind",
+  "url": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
+  "year_published": 2007
 }

@@ -1,50 +1,50 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "358",
-    "description": "An alternate cover for this ISBN can be found here.Y: THE LAST MAN is the gripping saga of Yorick Brown, an unemployed and unmotivated slacker who discovers that he is the only male left in the world after a plague of unknown origin instantly kills every mammal with a Y chromosome. Accompanied by his mischievous monkey and the mysterious Agent 355, York embarks on a transcontinental journey to find his girlfriend and discover why he is the last man on Earth.Now, the entire critically acclaimed Y: THE LAST MAN saga written by Brian K. Vaughan, one of the writers of LOST, is collected into a new edition. In this second volume, a Russian space from the International Space Station is returning to earth carrying three passengers: one woman and two men. Could this be the end of Yorick's tenure as last living male? Plus, the group runs up against a roadblock in Arizona where the female remains of the Sons of Arizona militia have cut the interstate to keep out any vestiges of the U.S. government.Collects Y: The Last Man #11-23",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 16,
-        "adventure": 14,
-        "apocalyptic (post apocalyptic)": 41,
-        "comics (comic book)": 30,
-        "fiction": 62,
-        "graphic novels comics": 54,
-        "science fiction": 110,
-        "science fiction (dystopia)": 59,
-        "sequential art (comics)": 405,
-        "sequential art (graphic novels)": 568
+  "author": "Brian K. Vaughan",
+  "id": "358",
+  "description": "An alternate cover for this ISBN can be found here.Y: THE LAST MAN is the gripping saga of Yorick Brown, an unemployed and unmotivated slacker who discovers that he is the only male left in the world after a plague of unknown origin instantly kills every mammal with a Y chromosome. Accompanied by his mischievous monkey and the mysterious Agent 355, York embarks on a transcontinental journey to find his girlfriend and discover why he is the last man on Earth.Now, the entire critically acclaimed Y: THE LAST MAN saga written by Brian K. Vaughan, one of the writers of LOST, is collected into a new edition. In this second volume, a Russian space from the International Space Station is returning to earth carrying three passengers: one woman and two men. Could this be the end of Yorick's tenure as last living male? Plus, the group runs up against a roadblock in Arizona where the female remains of the Sons of Arizona militia have cut the interstate to keep out any vestiges of the U.S. government.Collects Y: The Last Man #11-23",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "358_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "358_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "358_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "358_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "358_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "358_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8649,
-        "score": 4.37
+    {
+      "status": "available",
+      "stock_id": "358_2"
     },
-    "pages": 407,
-    "title": "Y: The Last Man - The Deluxe Edition Book Two",
-    "url": "https://www.goodreads.com/book/show/5663327-y",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "358_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "358_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "358_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8649,
+    "score": 4.37
+  },
+  "pages": 407,
+  "title": "Y: The Last Man - The Deluxe Edition Book Two",
+  "url": "https://www.goodreads.com/book/show/5663327-y",
+  "year_published": 2009
 }

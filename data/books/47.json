@@ -1,41 +1,41 @@
 {
-    "author": "Jennifer Wolfthal",
-    "id": "47",
-    "description": "Benny and Max are best friends. They often play together, until Max annoys Benny and the two friends get into a fight. Then, Benny decides to build a new best friend\u2026A recognizable picture book about playing together, quarreling and patching up a quarrel. For playful children ages 4 years and up.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 2,
-        "childrens (picture books)": 8,
-        "plays": 2,
-        "science fiction (robots)": 2
+  "author": "Jennifer Wolfthal",
+  "id": "47",
+  "description": "Benny and Max are best friends. They often play together, until Max annoys Benny and the two friends get into a fight. Then, Benny decides to build a new best friend…A recognizable picture book about playing together, quarreling and patching up a quarrel. For playful children ages 4 years and up.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (picture books)",
+    "plays",
+    "science fiction (robots)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "47_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "47_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "47_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "47_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "47_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 69,
-        "score": 2.75
+    {
+      "status": "on_loan",
+      "stock_id": "47_2"
     },
-    "pages": 541,
-    "title": "A Real Friend",
-    "url": "https://www.goodreads.com/book/show/48850681-a-real-friend",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "47_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "47_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 69,
+    "score": 2.75
+  },
+  "pages": 541,
+  "title": "A Real Friend",
+  "url": "https://www.goodreads.com/book/show/48850681-a-real-friend",
+  "year_published": 2020
 }

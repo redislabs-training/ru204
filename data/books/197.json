@@ -1,55 +1,55 @@
 {
-    "author": "Victoria Scott",
-    "id": "197",
-    "description": "Ever since the Titans first appeared in her Detroit neighborhood, Astrid Sullivan\u2019s world has revolved around the mechanical horses. She and her best friend have spent countless hours watching them and their jockeys practice on the track. It\u2019s not just the thrill of the race. It\u2019s the engineering of the horses and the way they\u2019re programmed to seem so lifelike. The Titans are everything that fascinates Astrid, and nothing she\u2019ll ever touch.She hates them a little, too. Her dad lost everything betting on the Titans. And the races are a reminder of the gap between the rich jockeys who can afford the expensive machines to ride, and the working class friends and neighbors of Astrid\u2019s who wager on them.But when Astrid\u2019s offered a chance to enter an early model Titan in this year\u2019s derby, well, she decides to risk it all. Because for a girl from the wrong side of the tracks, it\u2019s more than a chance at fame or money. Betting on herself is the only way she can see to hang on to everyone in the world she cares about.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 3,
-        "animals": 4,
-        "animals (horses)": 5,
-        "fantasy": 48,
-        "science fiction": 23,
-        "science fiction (dystopia)": 7,
-        "science fiction fantasy": 5,
-        "young adult": 54,
-        "young adult (teen)": 5,
-        "young adult (young adult science fiction)": 3
+  "author": "Victoria Scott",
+  "id": "197",
+  "description": "Ever since the Titans first appeared in her Detroit neighborhood, Astrid Sullivan’s world has revolved around the mechanical horses. She and her best friend have spent countless hours watching them and their jockeys practice on the track. It’s not just the thrill of the race. It’s the engineering of the horses and the way they’re programmed to seem so lifelike. The Titans are everything that fascinates Astrid, and nothing she’ll ever touch.She hates them a little, too. Her dad lost everything betting on the Titans. And the races are a reminder of the gap between the rich jockeys who can afford the expensive machines to ride, and the working class friends and neighbors of Astrid’s who wager on them.But when Astrid’s offered a chance to enter an early model Titan in this year’s derby, well, she decides to risk it all. Because for a girl from the wrong side of the tracks, it’s more than a chance at fame or money. Betting on herself is the only way she can see to hang on to everyone in the world she cares about.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "animals",
+    "animals (horses)",
+    "fantasy",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult science fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "197_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "197_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "197_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "197_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "197_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "197_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "197_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 704,
-        "score": 3.91
+    {
+      "status": "on_loan",
+      "stock_id": "197_2"
     },
-    "pages": 1332,
-    "title": "Titans",
-    "url": "https://www.goodreads.com/book/show/25582556-titans",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "197_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "197_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "197_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "197_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 704,
+    "score": 3.91
+  },
+  "pages": 1332,
+  "title": "Titans",
+  "url": "https://www.goodreads.com/book/show/25582556-titans",
+  "year_published": 2016
 }

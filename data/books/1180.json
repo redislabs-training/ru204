@@ -1,46 +1,46 @@
 {
-    "author": "Philip Pullman",
-    "id": "1180",
-    "description": "In this prequel episode from Philip Pullman's His Dark Materials universe, Lee Scoresby -- Texan aeronaut and future friend to Lyra Belacqua -- is 24 years old. The story reveals the origins of Scoresby's friendship with Iorek Byrnison as well as Scoresby's aeronautical career.After winning his hot-air balloon in a poker game, Scoresby finds himself floating north. On the Arctic island of Novy Odense, Scoresby and his d\u00e6mon Hester become involved in a deadly plot involving an oil magnate, a corrupt mayoral candidate, and a hired killer who is Lee's longtime nemesis from the Dakota Country. Forming an alliance with one of the island's reviled armored bears, Scoresby fights to break up the conspiracy.This clothbound volume features the illustrations of John Lawrence, a removable board game on the inside back cover, and the story that offers a glimpse into the origins of the friendship of two beloved characters in the His Dark Materials trilogy.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 61,
-        "audiobook": 84,
-        "childrens": 52,
-        "fantasy": 1113,
-        "fiction": 326,
-        "novella": 39,
-        "science fiction (steampunk)": 86,
-        "science fiction fantasy": 32,
-        "short stories": 120,
-        "young adult": 347
+  "author": "Philip Pullman",
+  "id": "1180",
+  "description": "In this prequel episode from Philip Pullman's His Dark Materials universe, Lee Scoresby -- Texan aeronaut and future friend to Lyra Belacqua -- is 24 years old. The story reveals the origins of Scoresby's friendship with Iorek Byrnison as well as Scoresby's aeronautical career.After winning his hot-air balloon in a poker game, Scoresby finds himself floating north. On the Arctic island of Novy Odense, Scoresby and his dæmon Hester become involved in a deadly plot involving an oil magnate, a corrupt mayoral candidate, and a hired killer who is Lee's longtime nemesis from the Dakota Country. Forming an alliance with one of the island's reviled armored bears, Scoresby fights to break up the conspiracy.This clothbound volume features the illustrations of John Lawrence, a removable board game on the inside back cover, and the story that offers a glimpse into the origins of the friendship of two beloved characters in the His Dark Materials trilogy.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1180_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1180_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1180_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1180_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1180_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13026,
-        "score": 3.85
+    {
+      "status": "maintenance",
+      "stock_id": "1180_2"
     },
-    "pages": 257,
-    "title": "Once Upon a Time in the North",
-    "url": "https://www.goodreads.com/book/show/2225238.Once_Upon_a_Time_in_the_North",
-    "year_published": 2008
+    {
+      "status": "on_loan",
+      "stock_id": "1180_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1180_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13026,
+    "score": 3.85
+  },
+  "pages": 257,
+  "title": "Once Upon a Time in the North",
+  "url": "https://www.goodreads.com/book/show/2225238.Once_Upon_a_Time_in_the_North",
+  "year_published": 2008
 }

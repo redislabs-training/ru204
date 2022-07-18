@@ -1,45 +1,45 @@
 {
-    "author": "Erik Burnham",
-    "id": "14",
-    "description": "Prime gets slimed! Crossing the streams after 35 years, this action-packed graphic novel combines two of the most popular franchises in pop-culture history.After years of civil war, the Autobots fled Cyberton, leaving their home planet in the evil clutches of Megatron and his Decepticons. Years later and millions of miles away, the Autobots pick up a Cybertronian distress signal from a mysterious planet called Earth. The ghostly signal shouldn't exist, and it'll bring Optimus Prime and his team--including brand-new Autobot ECTOTRON--face-to-face with... the GHOSTBUSTERS!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 2,
-        "humor": 2,
-        "science fiction": 2,
-        "sequential art (comics)": 5,
-        "sequential art (graphic novels)": 2
+  "author": "Erik Burnham",
+  "id": "14",
+  "description": "Prime gets slimed! Crossing the streams after 35 years, this action-packed graphic novel combines two of the most popular franchises in pop-culture history.After years of civil war, the Autobots fled Cyberton, leaving their home planet in the evil clutches of Megatron and his Decepticons. Years later and millions of miles away, the Autobots pick up a Cybertronian distress signal from a mysterious planet called Earth. The ghostly signal shouldn't exist, and it'll bring Optimus Prime and his team--including brand-new Autobot ECTOTRON--face-to-face with... the GHOSTBUSTERS!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "humor",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "14_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "14_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "14_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "14_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 67,
-        "score": 3.84
+    {
+      "status": "maintenance",
+      "stock_id": "14_2"
     },
-    "pages": 705,
-    "title": "Transformers/Ghostbusters: Ghosts of Cybertron",
-    "url": "https://www.goodreads.com/book/show/46166810-transformers-ghostbusters",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "14_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "14_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "14_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 67,
+    "score": 3.84
+  },
+  "pages": 705,
+  "title": "Transformers/Ghostbusters: Ghosts of Cybertron",
+  "url": "https://www.goodreads.com/book/show/46166810-transformers-ghostbusters",
+  "year_published": 2020
 }

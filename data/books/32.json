@@ -1,65 +1,65 @@
 {
-    "author": "Shinsuke Yoshitake",
-    "id": "32",
-    "description": "Can I Build Another Me",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 4,
-        "childrens (picture books)": 24,
-        "family": 3,
-        "fiction": 3,
-        "humor": 6,
-        "love": 2,
-        "science fiction": 2,
-        "science fiction (robots)": 2,
-        "sequential art (graphic novels)": 4
+  "author": "Shinsuke Yoshitake",
+  "id": "32",
+  "description": "Can I Build Another Me",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (picture books)",
+    "family",
+    "fiction",
+    "humor",
+    "love",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "32_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "32_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "32_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "32_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "32_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "32_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "32_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "32_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "32_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "32_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 155,
-        "score": 4.47
+    {
+      "status": "on_loan",
+      "stock_id": "32_2"
     },
-    "pages": 256,
-    "title": "Can I Build Another Me",
-    "url": "https://www.goodreads.com/book/show/31440461-can-i-build-another-me",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "32_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "32_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "32_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "32_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "32_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "32_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "32_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 155,
+    "score": 4.47
+  },
+  "pages": 256,
+  "title": "Can I Build Another Me",
+  "url": "https://www.goodreads.com/book/show/31440461-can-i-build-another-me",
+  "year_published": 2014
 }

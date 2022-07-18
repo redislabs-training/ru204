@@ -1,39 +1,39 @@
 {
-    "author": "Hugh Howey",
-    "id": "4239",
-    "description": "In a time when secrets and lies were the foundations of life, someone has discovered the truth. And they are going to tell.Jules knows what her predecessors created. She knows they are the reason life has to be lived in this way.And she won't stand for it.But Jules no longer has supporters. And there is far more to fear than the toxic world beyond her walls.A poison is growing from within Silo 18.One that cannot be stopped.Unless Silo 1 step in.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 332,
-        "audiobook": 64,
-        "fantasy": 124,
-        "fiction": 620,
-        "novels": 29,
-        "science fiction": 1120,
-        "science fiction (apocalyptic)": 78,
-        "science fiction (dystopia)": 509,
-        "science fiction fantasy": 80,
-        "speculative fiction": 33
+  "author": "Hugh Howey",
+  "id": "4239",
+  "description": "In a time when secrets and lies were the foundations of life, someone has discovered the truth. And they are going to tell.Jules knows what her predecessors created. She knows they are the reason life has to be lived in this way.And she won't stand for it.But Jules no longer has supporters. And there is far more to fear than the toxic world beyond her walls.A poison is growing from within Silo 18.One that cannot be stopped.Unless Silo 1 step in.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4239_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4239_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4239_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 69595,
-        "score": 4.25
-    },
-    "pages": 648,
-    "title": "Dust",
-    "url": "https://www.goodreads.com/book/show/17855756-dust",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "4239_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 69595,
+    "score": 4.25
+  },
+  "pages": 648,
+  "title": "Dust",
+  "url": "https://www.goodreads.com/book/show/17855756-dust",
+  "year_published": 2013
 }

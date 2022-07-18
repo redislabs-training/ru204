@@ -1,38 +1,38 @@
 {
-    "author": "Terry Pratchett",
-    "id": "249",
-    "description": "Twelve-year-old Johnny Maxwell has a knack for being in the wrong place at the wrong time. This has never been more true than when he finds himself in his hometown on May 21, 1941, over forty years before his birth!An accidental time traveler, Johnny knows his history. He knows England is at war, and he knows that on this day German bombs will fall on the town. It happened. It's history. And as Johnny and his friends quickly discover, tampering with history can have unpredictable--and drastic--effects on the future.But letting history take its course means letting people die. What if Johnny warns someone and changes history? What will happen to the future? If Johnny uses his knowledge to save innocent lives by being in the right place at the right time, is he doing the right thing?Mixing nail-biting suspense with outrageous humor, Terry Pratchett explores a classic time-travel paradox in Johnny Maxwell's third adventure.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 14,
-        "childrens": 39,
-        "fantasy": 295,
-        "fiction": 136,
-        "humor": 52,
-        "humor (comedy)": 27,
-        "science fiction": 85,
-        "science fiction (time travel)": 34,
-        "science fiction fantasy": 20,
-        "young adult": 98
+  "author": "Terry Pratchett",
+  "id": "249",
+  "description": "Twelve-year-old Johnny Maxwell has a knack for being in the wrong place at the wrong time. This has never been more true than when he finds himself in his hometown on May 21, 1941, over forty years before his birth!An accidental time traveler, Johnny knows his history. He knows England is at war, and he knows that on this day German bombs will fall on the town. It happened. It's history. And as Johnny and his friends quickly discover, tampering with history can have unpredictable--and drastic--effects on the future.But letting history take its course means letting people die. What if Johnny warns someone and changes history? What will happen to the future? If Johnny uses his knowledge to save innocent lives by being in the right place at the right time, is he doing the right thing?Mixing nail-biting suspense with outrageous humor, Terry Pratchett explores a classic time-travel paradox in Johnny Maxwell's third adventure.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "249_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "249_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "249_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7537,
-        "score": 3.83
-    },
-    "pages": 1111,
-    "title": "Johnny and the Bomb",
-    "url": "https://www.goodreads.com/book/show/64385.Johnny_and_the_Bomb",
-    "year_published": 1996
+    {
+      "status": "available",
+      "stock_id": "249_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7537,
+    "score": 3.83
+  },
+  "pages": 1111,
+  "title": "Johnny and the Bomb",
+  "url": "https://www.goodreads.com/book/show/64385.Johnny_and_the_Bomb",
+  "year_published": 1996
 }

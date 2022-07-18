@@ -1,51 +1,51 @@
 {
-    "author": "Martin Ford",
-    "id": "744",
-    "description": "What are the jobs of the future? How many will there be? And who will have them? We might imagine\u2014and hope\u2014that today's industrial revolution will unfold like the last: even as some jobs are eliminated, more will be created to deal with the new innovations of a new era. In Rise of the Robots, Silicon Valley entrepreneur Martin Ford argues that this is absolutely not the case. As technology continues to accelerate and machines begin taking care of themselves, fewer people will be necessary. Artificial intelligence is already well on its way to making \u201cgood jobs\u201d obsolete: many paralegals, journalists, office workers, and even computer programmers are poised to be replaced by robots and smart software. As progress continues, blue and white collar jobs alike will evaporate, squeezing working- and middle-class families ever further. At the same time, households are under assault from exploding costs, especially from the two major industries\u2014education and health care\u2014that, so far, have not been transformed by information technology. The result could well be massive unemployment and inequality as well as the implosion of the consumer economy itself.In Rise of the Robots, Ford details what machine intelligence and robotics can accomplish, and implores employers, scholars, and policy makers alike to face the implications. The past solutions to technological disruption, especially more training and education, aren't going to work, and we must decide, now, whether the future will see broad-based prosperity or catastrophic levels of inequality and economic insecurity. Rise of the Robots is essential reading for anyone who wants to understand what accelerating technology means for their own economic prospects\u2014not to mention those of their children\u2014as well as for society as a whole.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "artificial intelligence": 62,
-        "business": 172,
-        "culture (society)": 18,
-        "economics": 196,
-        "futurism": 29,
-        "nonfiction": 307,
-        "politics": 56,
-        "science": 175,
-        "science (technology)": 204,
-        "sociology": 20
+  "author": "Martin Ford",
+  "id": "744",
+  "description": "What are the jobs of the future? How many will there be? And who will have them? We might imagine—and hope—that today's industrial revolution will unfold like the last: even as some jobs are eliminated, more will be created to deal with the new innovations of a new era. In Rise of the Robots, Silicon Valley entrepreneur Martin Ford argues that this is absolutely not the case. As technology continues to accelerate and machines begin taking care of themselves, fewer people will be necessary. Artificial intelligence is already well on its way to making “good jobs” obsolete: many paralegals, journalists, office workers, and even computer programmers are poised to be replaced by robots and smart software. As progress continues, blue and white collar jobs alike will evaporate, squeezing working- and middle-class families ever further. At the same time, households are under assault from exploding costs, especially from the two major industries—education and health care—that, so far, have not been transformed by information technology. The result could well be massive unemployment and inequality as well as the implosion of the consumer economy itself.In Rise of the Robots, Ford details what machine intelligence and robotics can accomplish, and implores employers, scholars, and policy makers alike to face the implications. The past solutions to technological disruption, especially more training and education, aren't going to work, and we must decide, now, whether the future will see broad-based prosperity or catastrophic levels of inequality and economic insecurity. Rise of the Robots is essential reading for anyone who wants to understand what accelerating technology means for their own economic prospects—not to mention those of their children—as well as for society as a whole.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "artificial intelligence",
+    "business",
+    "culture (society)",
+    "economics",
+    "futurism",
+    "nonfiction",
+    "politics",
+    "science",
+    "science (technology)",
+    "sociology"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "744_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "744_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "744_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "744_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "744_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "744_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7791,
-        "score": 4.02
+    {
+      "status": "on_loan",
+      "stock_id": "744_2"
     },
-    "pages": 369,
-    "title": "Rise of the Robots: Technology and the Threat of a Jobless Future",
-    "url": "https://www.goodreads.com/book/show/22928874-rise-of-the-robots",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "744_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "744_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "744_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7791,
+    "score": 4.02
+  },
+  "pages": 369,
+  "title": "Rise of the Robots: Technology and the Threat of a Jobless Future",
+  "url": "https://www.goodreads.com/book/show/22928874-rise-of-the-robots",
+  "year_published": 2015
 }

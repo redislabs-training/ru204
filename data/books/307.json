@@ -1,55 +1,55 @@
 {
-    "author": "Helen  Douglas",
-    "id": "307",
-    "description": "Eden Anfield loves puzzles, so when mysterious new boy Ryan Westland shows up at her school she's hooked. On the face of it, he's a typical American teenager. So why doesn't he recognise pizza? And how come he hasn't heard of Hitler? What puzzles Eden the most, however, is the interest he's taking in her. As Eden starts to fall in love with Ryan, she begins to unravel his secret. Her breakthrough comes one rainy afternoon when she stumbles across a book in Ryan's bedroom - a biography of her best friend - written over fifty years in the future. Confronting Ryan, she discovers that he is there with one unbelievably important purpose ... and she might just have destroyed his only chance of success.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "contemporary": 7,
-        "fantasy": 54,
-        "fiction": 15,
-        "mystery": 12,
-        "science fiction": 81,
-        "science fiction (dystopia)": 23,
-        "science fiction (time travel)": 89,
-        "young adult": 112,
-        "young adult (high school)": 6,
-        "young adult (teen)": 8
+  "author": "Helen  Douglas",
+  "id": "307",
+  "description": "Eden Anfield loves puzzles, so when mysterious new boy Ryan Westland shows up at her school she's hooked. On the face of it, he's a typical American teenager. So why doesn't he recognise pizza? And how come he hasn't heard of Hitler? What puzzles Eden the most, however, is the interest he's taking in her. As Eden starts to fall in love with Ryan, she begins to unravel his secret. Her breakthrough comes one rainy afternoon when she stumbles across a book in Ryan's bedroom - a biography of her best friend - written over fifty years in the future. Confronting Ryan, she discovers that he is there with one unbelievably important purpose ... and she might just have destroyed his only chance of success.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (high school)",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "307_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "307_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "307_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "307_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "307_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "307_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "307_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2153,
-        "score": 3.67
+    {
+      "status": "available",
+      "stock_id": "307_2"
     },
-    "pages": 937,
-    "title": "After Eden",
-    "url": "https://www.goodreads.com/book/show/12275873-after-eden",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "307_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "307_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "307_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "307_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2153,
+    "score": 3.67
+  },
+  "pages": 937,
+  "title": "After Eden",
+  "url": "https://www.goodreads.com/book/show/12275873-after-eden",
+  "year_published": 2013
 }

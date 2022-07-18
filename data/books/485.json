@@ -1,62 +1,62 @@
 {
-    "author": "Hugh Howey",
-    "id": "485",
-    "description": "The third and final chapter of the Shift saga. This is part 8 of the Silo Series, which began with Wool.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult fiction": 4,
-        "apocalyptic (post apocalyptic)": 58,
-        "fantasy": 5,
-        "fiction": 77,
-        "novels": 5,
-        "science fiction": 174,
-        "science fiction (apocalyptic)": 7,
-        "science fiction (dystopia)": 87,
-        "science fiction fantasy": 10,
-        "speculative fiction": 6
+  "author": "Hugh Howey",
+  "id": "485",
+  "description": "The third and final chapter of the Shift saga. This is part 8 of the Silo Series, which began with Wool.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult fiction",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "485_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "485_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "485_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "485_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "485_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "485_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "485_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "485_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "485_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9840,
-        "score": 4.3
+    {
+      "status": "available",
+      "stock_id": "485_2"
     },
-    "pages": 778,
-    "title": "Third Shift: Pact",
-    "url": "https://www.goodreads.com/book/show/16183060-third-shift",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "485_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "485_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "485_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "485_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "485_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "485_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9840,
+    "score": 4.3
+  },
+  "pages": 778,
+  "title": "Third Shift: Pact",
+  "url": "https://www.goodreads.com/book/show/16183060-third-shift",
+  "year_published": 2013
 }

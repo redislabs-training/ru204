@@ -1,52 +1,52 @@
 {
-    "author": "James Dashner",
-    "id": "716",
-    "description": "Scholastic's next multi-platform mega-event begins here! History is broken, and three kids must travel back in time to set it right! When best friends Dak Smyth and Sera Froste stumble upon the secret of time travel -- a hand-held device known as the Infinity Ring -- they're swept up in a centuries-long secret war for the fate of mankind. Recruited by the Hystorians, a secret society that dates back to Aristotle, the kids learn that history has gone disastrously off course.Now it's up to Dak, Sera, and teenage Hystorian-in-training Riq to travel back in time to fix the Great Breaks . . . and to save Dak's missing parents while they're at it. First stop: Spain, 1492, where a sailor named Christopher Columbus is about to be thrown overboard in a deadly mutiny!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 93,
-        "childrens": 31,
-        "childrens (middle grade)": 83,
-        "fantasy": 106,
-        "fiction": 72,
-        "historical": 34,
-        "historical (historical fiction)": 62,
-        "science fiction": 129,
-        "science fiction (time travel)": 100,
-        "young adult": 68
+  "author": "James Dashner",
+  "id": "716",
+  "description": "Scholastic's next multi-platform mega-event begins here! History is broken, and three kids must travel back in time to set it right! When best friends Dak Smyth and Sera Froste stumble upon the secret of time travel -- a hand-held device known as the Infinity Ring -- they're swept up in a centuries-long secret war for the fate of mankind. Recruited by the Hystorians, a secret society that dates back to Aristotle, the kids learn that history has gone disastrously off course.Now it's up to Dak, Sera, and teenage Hystorian-in-training Riq to travel back in time to fix the Great Breaks . . . and to save Dak's missing parents while they're at it. First stop: Spain, 1492, where a sailor named Christopher Columbus is about to be thrown overboard in a deadly mutiny!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "716_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "716_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "716_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "716_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "716_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "716_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6409,
-        "score": 3.75
+    {
+      "status": "maintenance",
+      "stock_id": "716_2"
     },
-    "pages": 810,
-    "title": "A Mutiny in Time",
-    "url": "https://www.goodreads.com/book/show/13316287-a-mutiny-in-time",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "716_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "716_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "716_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6409,
+    "score": 3.75
+  },
+  "pages": 810,
+  "title": "A Mutiny in Time",
+  "url": "https://www.goodreads.com/book/show/13316287-a-mutiny-in-time",
+  "year_published": 2012
 }

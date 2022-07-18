@@ -1,46 +1,46 @@
 {
-    "author": "Terry Pratchett",
-    "id": "2315",
-    "description": "It starts with whispers.Then someone picks up a stone.Finally, the fires begin.When people turn on witches, the innocents suffer. . . Tiffany Aching has spent years studying with senior witches, and now she is on her own. As the witch of the Chalk, she performs the bits of witchcraft that aren't sparkly, aren't fun, don't involve any kind of wand, and that people seldom ever hear about: She does the unglamorous work of caring for the needy.But someone or something is igniting fear, inculcating dark thoughts and angry murmurs against witches. Aided by her tiny blue allies, the Wee Free Men, Tiffany must find the source of this unrest and defeat the evil at its root before it takes her life. Because if Tiffany falls, the whole Chalk falls with her.Chilling drama combines with laugh-out-loud humor and searing insight as beloved and bestselling author Terry Pratchett tells the high-stakes story of a young witch who stands in the gap between good and evil.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 132,
-        "audiobook": 105,
-        "childrens": 141,
-        "fantasy": 3276,
-        "fantasy (magic)": 131,
-        "fiction": 602,
-        "humor": 384,
-        "humor (comedy)": 123,
-        "paranormal (witches)": 102,
-        "young adult": 682
+  "author": "Terry Pratchett",
+  "id": "2315",
+  "description": "It starts with whispers.Then someone picks up a stone.Finally, the fires begin.When people turn on witches, the innocents suffer. . . Tiffany Aching has spent years studying with senior witches, and now she is on her own. As the witch of the Chalk, she performs the bits of witchcraft that aren't sparkly, aren't fun, don't involve any kind of wand, and that people seldom ever hear about: She does the unglamorous work of caring for the needy.But someone or something is igniting fear, inculcating dark thoughts and angry murmurs against witches. Aided by her tiny blue allies, the Wee Free Men, Tiffany must find the source of this unrest and defeat the evil at its root before it takes her life. Because if Tiffany falls, the whole Chalk falls with her.Chilling drama combines with laugh-out-loud humor and searing insight as beloved and bestselling author Terry Pratchett tells the high-stakes story of a young witch who stands in the gap between good and evil.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "paranormal (witches)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2315_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2315_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2315_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2315_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2315_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 51307,
-        "score": 4.3
+    {
+      "status": "available",
+      "stock_id": "2315_2"
     },
-    "pages": 220,
-    "title": "I Shall Wear Midnight",
-    "url": "https://www.goodreads.com/book/show/7576115-i-shall-wear-midnight",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "2315_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2315_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 51307,
+    "score": 4.3
+  },
+  "pages": 220,
+  "title": "I Shall Wear Midnight",
+  "url": "https://www.goodreads.com/book/show/7576115-i-shall-wear-midnight",
+  "year_published": 2010
 }

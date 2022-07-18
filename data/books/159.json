@@ -1,50 +1,50 @@
 {
-    "author": "Stuart Gibbs",
-    "id": "159",
-    "description": "\nThe first book in the thrilling time travel adventure trilogy from New York Times bestselling Spy School author Stuart Gibbs!\nBefore they were legends, they were friends. All for one and one for all!On a family trip to Paris, Greg Rich's parents disappear. They're not just missing from the city\u2014they're missing from the century. So, Greg does what any other fourteen-year-old would do: He travels through time to rescue them.Greg soon finds out that his family history is tied to the legendary Three Musketeers. But when he meets them, they're his age, and they'll only live long enough to become true heroes if he can save them.To rescue his parents, Greg must assume the identity of a young Musketeer in training and unite Athos, Porthos, and Aramis\u2014but a powerful enemy is doing everything possible to stop him.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 22,
-        "childrens": 7,
-        "childrens (juvenile)": 7,
-        "childrens (middle grade)": 22,
-        "fantasy": 25,
-        "fiction": 13,
-        "historical (historical fiction)": 35,
-        "mystery": 6,
-        "science fiction": 7,
-        "science fiction (time travel)": 23
+  "author": "Stuart Gibbs",
+  "id": "159",
+  "description": "\nThe first book in the thrilling time travel adventure trilogy from New York Times bestselling Spy School author Stuart Gibbs!\nBefore they were legends, they were friends. All for one and one for all!On a family trip to Paris, Greg Rich's parents disappear. They're not just missing from the city—they're missing from the century. So, Greg does what any other fourteen-year-old would do: He travels through time to rescue them.Greg soon finds out that his family history is tied to the legendary Three Musketeers. But when he meets them, they're his age, and they'll only live long enough to become true heroes if he can save them.To rescue his parents, Greg must assume the identity of a young Musketeer in training and unite Athos, Porthos, and Aramis—but a powerful enemy is doing everything possible to stop him.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "159_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "159_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "159_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "159_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "159_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "159_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1559,
-        "score": 4.29
+    {
+      "status": "maintenance",
+      "stock_id": "159_2"
     },
-    "pages": 1140,
-    "title": "The Last Musketeer",
-    "url": "https://www.goodreads.com/book/show/25945581-the-last-musketeer",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "159_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "159_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "159_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1559,
+    "score": 4.29
+  },
+  "pages": 1140,
+  "title": "The Last Musketeer",
+  "url": "https://www.goodreads.com/book/show/25945581-the-last-musketeer",
+  "year_published": 2011
 }

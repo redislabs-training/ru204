@@ -1,44 +1,44 @@
 {
-    "author": "Mike A. Lancaster",
-    "id": "835",
-    "description": "Kyle Straker volunteered to be hypnotized at the annual community talent show, expecting the same old lame amateur acts. But when he wakes up, his world will never be the same. Televisions and computers no longer work, but a strange language streams across their screens. Everyone\u2019s behaving oddly. It\u2019s as if Kyle doesn\u2019t exist.\u00a0Is this nightmare a result of the hypnosis? Will Kyle wake up with a snap of fingers to roars of laughter? Or is this something much more sinister?Narrated on a set of found cassette tapes at an unspecified point in the future, Human.4 is an absolutely chilling look at technology gone too far.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 23,
-        "fantasy": 43,
-        "fiction": 59,
-        "horror": 29,
-        "mystery": 28,
-        "science fiction": 206,
-        "science fiction (aliens)": 12,
-        "science fiction (dystopia)": 140,
-        "young adult": 240,
-        "young adult (teen)": 26
+  "author": "Mike A. Lancaster",
+  "id": "835",
+  "description": "Kyle Straker volunteered to be hypnotized at the annual community talent show, expecting the same old lame amateur acts. But when he wakes up, his world will never be the same. Televisions and computers no longer work, but a strange language streams across their screens. Everyone’s behaving oddly. It’s as if Kyle doesn’t exist. Is this nightmare a result of the hypnosis? Will Kyle wake up with a snap of fingers to roars of laughter? Or is this something much more sinister?Narrated on a set of found cassette tapes at an unspecified point in the future, Human.4 is an absolutely chilling look at technology gone too far.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "835_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "835_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "835_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "835_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5796,
-        "score": 3.59
+    {
+      "status": "on_loan",
+      "stock_id": "835_2"
     },
-    "pages": 212,
-    "title": "Human.4",
-    "url": "https://www.goodreads.com/book/show/8514163-human-4",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "835_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5796,
+    "score": 3.59
+  },
+  "pages": 212,
+  "title": "Human.4",
+  "url": "https://www.goodreads.com/book/show/8514163-human-4",
+  "year_published": 2011
 }

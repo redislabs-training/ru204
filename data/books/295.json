@@ -1,42 +1,42 @@
 {
-    "author": "A.M. Dellamonica",
-    "id": "295",
-    "description": "One minute, twenty-four-year-old Sophie Hansa is in a San Francisco alley trying to save the life of the aunt she has never known. The next, she finds herself flung into the warm and salty waters of an unfamiliar world. Glowing moths fall to the waves around her, and the sleek bodies of unseen fish glide against her submerged ankles.The world is Stormwrack, a series of island nations with a variety of cultures and economies\u2014and a language different from any Sophie has heard.Sophie doesn't know it yet, but she has just stepped into the middle of a political firestorm, and a conspiracy that could destroy a world she has just discovered\u2026 her world, where everyone seems to know who she is, and where she is forbidden to stay.But Sophie is stubborn, and smart, and refuses to be cast adrift by people who don't know her and yet wish her gone. With the help of a sister she has never known, and a ship captain who would rather she had never arrived, she must navigate the shoals of the highly charged politics of Stormwrack, and win the right to decide for herself whether she stays in this wondrous world . . . or is doomed to exile",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 32,
-        "adventure": 37,
-        "adventure (pirates)": 72,
-        "fantasy": 428,
-        "fantasy (magic)": 25,
-        "fantasy (urban fantasy)": 13,
-        "fiction": 40,
-        "science fiction": 24,
-        "science fiction (time travel)": 36,
-        "young adult": 15
+  "author": "A.M. Dellamonica",
+  "id": "295",
+  "description": "One minute, twenty-four-year-old Sophie Hansa is in a San Francisco alley trying to save the life of the aunt she has never known. The next, she finds herself flung into the warm and salty waters of an unfamiliar world. Glowing moths fall to the waves around her, and the sleek bodies of unseen fish glide against her submerged ankles.The world is Stormwrack, a series of island nations with a variety of cultures and economies—and a language different from any Sophie has heard.Sophie doesn't know it yet, but she has just stepped into the middle of a political firestorm, and a conspiracy that could destroy a world she has just discovered… her world, where everyone seems to know who she is, and where she is forbidden to stay.But Sophie is stubborn, and smart, and refuses to be cast adrift by people who don't know her and yet wish her gone. With the help of a sister she has never known, and a ship captain who would rather she had never arrived, she must navigate the shoals of the highly charged politics of Stormwrack, and win the right to decide for herself whether she stays in this wondrous world . . . or is doomed to exile",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "adventure (pirates)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "295_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "295_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "295_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "295_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1367,
-        "score": 3.55
+    {
+      "status": "maintenance",
+      "stock_id": "295_2"
     },
-    "pages": 1292,
-    "title": "Child of a Hidden Sea",
-    "url": "https://www.goodreads.com/book/show/18490629-child-of-a-hidden-sea",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "295_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1367,
+    "score": 3.55
+  },
+  "pages": 1292,
+  "title": "Child of a Hidden Sea",
+  "url": "https://www.goodreads.com/book/show/18490629-child-of-a-hidden-sea",
+  "year_published": 2014
 }

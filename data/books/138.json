@@ -1,46 +1,46 @@
 {
-    "author": "Gene Luen Yang",
-    "id": "138",
-    "description": "Gene Luen Yang is the National Ambassador for Young People's Literature.There's something lurking beneath the surface of Stately Academy\u2014literally. In a secret underground classroom Hopper, Eni, and Josh discover that the campus was once home to the Bee School, an institute where teachers, students, and robots worked together to unravel the mysteries of coding. Hopper and her friends are eager to follow in this tradition and become top-rate coders. But why are Principal Dean and the rugby team suddenly so interested in their extracurricular activities?From graphic novel superstar (and high school computer programming teacher) Gene Luen Yang comes the second volume of Secret Coders, Paths & Portals, a wildly entertaining new series that combines logic puzzles and basic programming instruction with a page-turning mystery plot!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 6,
-        "childrens": 12,
-        "childrens (juvenile)": 15,
-        "childrens (middle grade)": 26,
-        "computer science (coding)": 12,
-        "mystery": 9,
-        "science": 15,
-        "science (technology)": 6,
-        "sequential art (comics)": 20,
-        "sequential art (graphic novels)": 90
+  "author": "Gene Luen Yang",
+  "id": "138",
+  "description": "Gene Luen Yang is the National Ambassador for Young People's Literature.There's something lurking beneath the surface of Stately Academy—literally. In a secret underground classroom Hopper, Eni, and Josh discover that the campus was once home to the Bee School, an institute where teachers, students, and robots worked together to unravel the mysteries of coding. Hopper and her friends are eager to follow in this tradition and become top-rate coders. But why are Principal Dean and the rugby team suddenly so interested in their extracurricular activities?From graphic novel superstar (and high school computer programming teacher) Gene Luen Yang comes the second volume of Secret Coders, Paths & Portals, a wildly entertaining new series that combines logic puzzles and basic programming instruction with a page-turning mystery plot!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "computer science (coding)",
+    "mystery",
+    "science",
+    "science (technology)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "138_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "138_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "138_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "138_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "138_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 872,
-        "score": 4.03
+    {
+      "status": "on_loan",
+      "stock_id": "138_2"
     },
-    "pages": 1094,
-    "title": "Paths & Portals",
-    "url": "https://www.goodreads.com/book/show/25688979-paths-portals",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "138_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "138_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 872,
+    "score": 4.03
+  },
+  "pages": 1094,
+  "title": "Paths & Portals",
+  "url": "https://www.goodreads.com/book/show/25688979-paths-portals",
+  "year_published": 2016
 }

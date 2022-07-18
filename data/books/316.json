@@ -1,38 +1,38 @@
 {
-    "author": "Katsuhiro Otomo",
-    "id": "316",
-    "description": "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "asian literature (japanese literature)": 29,
-        "cultural (japan)": 39,
-        "fiction": 71,
-        "graphic novels comics": 29,
-        "science fiction": 191,
-        "science fiction (cyberpunk)": 51,
-        "science fiction (dystopia)": 33,
-        "sequential art (comics)": 383,
-        "sequential art (graphic novels)": 292,
-        "sequential art (manga)": 727
+  "author": "Katsuhiro Otomo",
+  "id": "316",
+  "description": "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "asian literature (japanese literature)",
+    "cultural (japan)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "316_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "316_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "316_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10241,
-        "score": 4.46
-    },
-    "pages": 703,
-    "title": "Akira, Vol. 2",
-    "url": "https://www.goodreads.com/book/show/93370.Akira_Vol_2",
-    "year_published": 1984
+    {
+      "status": "on_loan",
+      "stock_id": "316_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10241,
+    "score": 4.46
+  },
+  "pages": 703,
+  "title": "Akira, Vol. 2",
+  "url": "https://www.goodreads.com/book/show/93370.Akira_Vol_2",
+  "year_published": 1984
 }

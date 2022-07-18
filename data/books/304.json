@@ -1,67 +1,67 @@
 {
-    "author": "Chris Wooding",
-    "id": "304",
-    "description": "The Alienist meets Dracula in this gripping, gothic-horror thriller from young UK phenom Chris Wooding.Thaniel, just seventeen, is a wych-hunter. Together, he and Cathaline--his friend and mentor--track down the fearful creatures that lurk in the Old Quarter of London. It is on one of these hunts that he first encounters Alaizabel Cray. Alaizabel is half-crazed, lovely, and possessed.Whatever dreadful entity has entered her soul has turned her into a strange and unearthly magnet--attracting evil and drawing horrors from every dark corner. Cathaline and Thaniel must discover its cause--and defend humanity at all costs.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 251,
-        "fantasy (paranormal)": 41,
-        "fantasy (supernatural)": 36,
-        "fantasy (urban fantasy)": 25,
-        "fiction": 49,
-        "historical (historical fiction)": 28,
-        "horror": 165,
-        "mystery": 27,
-        "science fiction (steampunk)": 84,
-        "young adult": 181
+  "author": "Chris Wooding",
+  "id": "304",
+  "description": "The Alienist meets Dracula in this gripping, gothic-horror thriller from young UK phenom Chris Wooding.Thaniel, just seventeen, is a wych-hunter. Together, he and Cathaline--his friend and mentor--track down the fearful creatures that lurk in the Old Quarter of London. It is on one of these hunts that he first encounters Alaizabel Cray. Alaizabel is half-crazed, lovely, and possessed.Whatever dreadful entity has entered her soul has turned her into a strange and unearthly magnet--attracting evil and drawing horrors from every dark corner. Cathaline and Thaniel must discover its cause--and defend humanity at all costs.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "science fiction (steampunk)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "304_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "304_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "304_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "304_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "304_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "304_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "304_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "304_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "304_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "304_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3944,
-        "score": 3.97
+    {
+      "status": "maintenance",
+      "stock_id": "304_2"
     },
-    "pages": 1043,
-    "title": "The Haunting of Alaizabel Cray",
-    "url": "https://www.goodreads.com/book/show/140260.The_Haunting_of_Alaizabel_Cray",
-    "year_published": 2001
+    {
+      "status": "available",
+      "stock_id": "304_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "304_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "304_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "304_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "304_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "304_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "304_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3944,
+    "score": 3.97
+  },
+  "pages": 1043,
+  "title": "The Haunting of Alaizabel Cray",
+  "url": "https://www.goodreads.com/book/show/140260.The_Haunting_of_Alaizabel_Cray",
+  "year_published": 2001
 }

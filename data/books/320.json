@@ -1,64 +1,64 @@
 {
-    "author": "Philip K. Dick",
-    "id": "320",
-    "description": "The Inspiration for the Upcoming TV Show \u00a0 Though perhaps most famous as a novelist, over the course of his career Philip K. Dick wrote more than one hundred short stories, each as mind-bending and genre-defining as his longer works. Philip K. Dick\u2019s Electric Dreams collects ten of the best from across his career. In \u201cAutofac,\u201d Dick shows us one of the earliest examples (and warnings) in science fiction of self-replicating machines. \u201cExhibit Piece\u201d and \u201cThe Commuter\u201d feature Dick exploring one of his favorite themes: the shifting nature of reality, and whether it is even possible to really perceive the world as it is. And \u201cThe Hanging Stranger\u201d provides a thrilling, dark political allegory as relevant today as it was when it was written at the height of the Cold War. \u00a0 Strange, funny, and powerful, the stories in this collection highlight a master at work, drawing on his boundless imagination and deep understanding of the human condition.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 7,
-        "audiobook": 7,
-        "classics": 6,
-        "fantasy": 6,
-        "fiction": 54,
-        "literature (american)": 6,
-        "science fiction": 130,
-        "science fiction (cyberpunk)": 6,
-        "science fiction fantasy": 7,
-        "short stories": 89
+  "author": "Philip K. Dick",
+  "id": "320",
+  "description": "The Inspiration for the Upcoming TV Show   Though perhaps most famous as a novelist, over the course of his career Philip K. Dick wrote more than one hundred short stories, each as mind-bending and genre-defining as his longer works. Philip K. Dick’s Electric Dreams collects ten of the best from across his career. In “Autofac,” Dick shows us one of the earliest examples (and warnings) in science fiction of self-replicating machines. “Exhibit Piece” and “The Commuter” feature Dick exploring one of his favorite themes: the shifting nature of reality, and whether it is even possible to really perceive the world as it is. And “The Hanging Stranger” provides a thrilling, dark political allegory as relevant today as it was when it was written at the height of the Cold War.   Strange, funny, and powerful, the stories in this collection highlight a master at work, drawing on his boundless imagination and deep understanding of the human condition.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "320_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "320_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "320_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "320_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3081,
-        "score": 4.12
+    {
+      "status": "maintenance",
+      "stock_id": "320_2"
     },
-    "pages": 1254,
-    "title": "Philip K. Dick's Electric Dreams",
-    "url": "https://www.goodreads.com/book/show/38650847-philip-k-dick-s-electric-dreams",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "320_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "320_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "320_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "320_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "320_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "320_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3081,
+    "score": 4.12
+  },
+  "pages": 1254,
+  "title": "Philip K. Dick's Electric Dreams",
+  "url": "https://www.goodreads.com/book/show/38650847-philip-k-dick-s-electric-dreams",
+  "year_published": 2017
 }

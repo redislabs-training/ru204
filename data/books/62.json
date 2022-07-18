@@ -1,56 +1,56 @@
 {
-    "author": "Akira Toriyama",
-    "id": "62",
-    "description": "Robot girl hijinks from the creator of Dragon Ball!When goofy inventor Senbei Norimaki creates a precocious robot named Arale, his masterpiece turns out to be more than he bargained for!Basking in the glow of his scientific achievement, Senbei scrambles to get Arale in working order so the rest of Penguin Village won't have reason to suspect she's not really a girl. But first Senbei needs to find her a pair of glasses and some clothes...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics manga": 5,
-        "fantasy": 8,
-        "fiction": 4,
-        "humor": 17,
-        "humor (comedy)": 3,
-        "manga (shonen)": 3,
-        "science fiction": 8,
-        "sequential art (comics)": 23,
-        "sequential art (graphic novels)": 17,
-        "sequential art (manga)": 129
+  "author": "Akira Toriyama",
+  "id": "62",
+  "description": "Robot girl hijinks from the creator of Dragon Ball!When goofy inventor Senbei Norimaki creates a precocious robot named Arale, his masterpiece turns out to be more than he bargained for!Basking in the glow of his scientific achievement, Senbei scrambles to get Arale in working order so the rest of Penguin Village won't have reason to suspect she's not really a girl. But first Senbei needs to find her a pair of glasses and some clothes...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics manga",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "manga (shonen)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "62_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "62_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1502,
-        "score": 4.12
+    {
+      "status": "on_loan",
+      "stock_id": "62_2"
     },
-    "pages": 869,
-    "title": "Dr. Slump, Vol. 01",
-    "url": "https://www.goodreads.com/book/show/1114323.Dr_Slump_Vol_01",
-    "year_published": 1980
+    {
+      "status": "on_loan",
+      "stock_id": "62_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "62_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "62_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "62_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1502,
+    "score": 4.12
+  },
+  "pages": 869,
+  "title": "Dr. Slump, Vol. 01",
+  "url": "https://www.goodreads.com/book/show/1114323.Dr_Slump_Vol_01",
+  "year_published": 1980
 }

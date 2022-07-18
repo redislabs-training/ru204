@@ -1,43 +1,43 @@
 {
-    "author": "Alastair Reynolds",
-    "id": "823",
-    "description": "The once-utopian Chasm City -a doomed human settlement on an otherwise inhospitable planet- has been overrun by a virus known as the Melding Plague, capable of infecting any body, organic or computerized. Now, with the entire city corrupted -from the people to the very buildings they inhabit- only the most wretched sort of existence remains. For security operative Tanner Mirabel, it is the landscape of nightmares through which he searches for a low-life postmortal killer. But the stakes are raised when his search brings him face to face with a centuries-old atrocity that history would rather forget.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 33,
-        "fiction": 222,
-        "mystery": 26,
-        "science fiction": 939,
-        "science fiction (cyberpunk)": 16,
-        "science fiction (hard science fiction)": 18,
-        "science fiction fantasy": 26,
-        "space": 38,
-        "space (space opera)": 167,
-        "speculative fiction": 21
+  "author": "Alastair Reynolds",
+  "id": "823",
+  "description": "The once-utopian Chasm City -a doomed human settlement on an otherwise inhospitable planet- has been overrun by a virus known as the Melding Plague, capable of infecting any body, organic or computerized. Now, with the entire city corrupted -from the people to the very buildings they inhabit- only the most wretched sort of existence remains. For security operative Tanner Mirabel, it is the landscape of nightmares through which he searches for a low-life postmortal killer. But the stakes are raised when his search brings him face to face with a centuries-old atrocity that history would rather forget.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (hard science fiction)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "823_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "823_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "823_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "823_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21393,
-        "score": 4.13
+    {
+      "status": "maintenance",
+      "stock_id": "823_2"
     },
-    "pages": 287,
-    "title": "Chasm City",
-    "url": "https://www.goodreads.com/book/show/89185.Chasm_City",
-    "year_published": 2001
+    {
+      "status": "maintenance",
+      "stock_id": "823_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21393,
+    "score": 4.13
+  },
+  "pages": 287,
+  "title": "Chasm City",
+  "url": "https://www.goodreads.com/book/show/89185.Chasm_City",
+  "year_published": 2001
 }

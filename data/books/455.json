@@ -1,36 +1,36 @@
 {
-    "author": "Diana Wynne Jones",
-    "id": "455",
-    "description": "Cat Chant and Marianne Pinhoe have discovered something exciting--something truly precious, very strange, and valuable. An egg.An egg that has been hidden away in an attic for who-knows-how-many years. An egg protected by some strong \"Don't Notice\" spells. An egg that Marianne gives to Cat, even though he lives at nearby Chrestomanci Castle. Chrestomanci himself, the strongest enchanter in the world, is sure to be interested in the egg--and interference from the Big Man is the last thing Marianne's family of secret rogue witches wants.But how much longer can the Pinhoes keep their secrets? Gammer, the leader of the clan, has gone mad, a powerful bad luck spell is wreaking havoc, and there's an unexplained plague of frogs. Not to mention the mysterious barrier Cat finds in the forest.Marianne and Cat may be the only two who can set things right. But first Marianne must accept her own powerful magic, and Cat must uncover the secrets behind the mystical Pinhoe Egg.In this new Chrestomanci book, Diana Wynne Jones is at her most magical.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 18,
-        "audiobook": 17,
-        "childrens": 89,
-        "childrens (middle grade)": 61,
-        "fantasy": 767,
-        "fantasy (magic)": 66,
-        "fiction": 111,
-        "science fiction fantasy": 23,
-        "young adult": 165,
-        "young adult (young adult fantasy)": 28
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "455_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8137,
-        "score": 4.07
-    },
-    "pages": 1383,
-    "title": "The Pinhoe Egg",
-    "url": "https://www.goodreads.com/book/show/34281.The_Pinhoe_Egg",
-    "year_published": 2006
+  "author": "Diana Wynne Jones",
+  "id": "455",
+  "description": "Cat Chant and Marianne Pinhoe have discovered something exciting--something truly precious, very strange, and valuable. An egg.An egg that has been hidden away in an attic for who-knows-how-many years. An egg protected by some strong \"Don't Notice\" spells. An egg that Marianne gives to Cat, even though he lives at nearby Chrestomanci Castle. Chrestomanci himself, the strongest enchanter in the world, is sure to be interested in the egg--and interference from the Big Man is the last thing Marianne's family of secret rogue witches wants.But how much longer can the Pinhoes keep their secrets? Gammer, the leader of the clan, has gone mad, a powerful bad luck spell is wreaking havoc, and there's an unexplained plague of frogs. Not to mention the mysterious barrier Cat finds in the forest.Marianne and Cat may be the only two who can set things right. But first Marianne must accept her own powerful magic, and Cat must uncover the secrets behind the mystical Pinhoe Egg.In this new Chrestomanci book, Diana Wynne Jones is at her most magical.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "455_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8137,
+    "score": 4.07
+  },
+  "pages": 1383,
+  "title": "The Pinhoe Egg",
+  "url": "https://www.goodreads.com/book/show/34281.The_Pinhoe_Egg",
+  "year_published": 2006
 }

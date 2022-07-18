@@ -1,52 +1,52 @@
 {
-    "author": "Eiichi Shimizu",
-    "id": "16",
-    "description": "The enigmatic Moroboshi takes Shinjiro, who is still having doubts about fighting as Ultraman, through a strange gate to a secret alien city. There he meets a new informant and cannot avoid getting mixed up in a feud beyond his control. Meanwhile on Earth, the police and the Science Patrol go deeper into a sinister investigation when a new victim of a mysterious serial killer turns up.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 3,
-        "comics (superheroes)": 4,
-        "manga (seinen)": 2,
-        "science fiction": 8,
-        "science fiction (aliens)": 2,
-        "sequential art (comics)": 5,
-        "sequential art (graphic novels)": 2,
-        "sequential art (manga)": 37
+  "author": "Eiichi Shimizu",
+  "id": "16",
+  "description": "The enigmatic Moroboshi takes Shinjiro, who is still having doubts about fighting as Ultraman, through a strange gate to a secret alien city. There he meets a new informant and cannot avoid getting mixed up in a feud beyond his control. Meanwhile on Earth, the police and the Science Patrol go deeper into a sinister investigation when a new victim of a mysterious serial killer turns up.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "comics (superheroes)",
+    "manga (seinen)",
+    "science fiction",
+    "science fiction (aliens)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "16_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "16_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "16_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 167,
-        "score": 3.81
+    {
+      "status": "on_loan",
+      "stock_id": "16_2"
     },
-    "pages": 646,
-    "title": "Ultraman, Vol. 3",
-    "url": "https://www.goodreads.com/book/show/28820555-ultraman-vol-3",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "16_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "16_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "16_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "16_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 167,
+    "score": 3.81
+  },
+  "pages": 646,
+  "title": "Ultraman, Vol. 3",
+  "url": "https://www.goodreads.com/book/show/28820555-ultraman-vol-3",
+  "year_published": 2013
 }

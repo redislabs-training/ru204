@@ -1,68 +1,68 @@
 {
-    "author": "John Marsden",
-    "id": "328",
-    "description": "The action doesn't let up in the most explosive Tomorrow book yet -- another international bestseller from John Marsden. The journey to Stratton isn't an easy trip, especially when the enemy's headquarters lie somewhere along the way. And that's exactly where Ellie and her friends unwittingly find themselves. With only five of them against hundreds of armed soldiers, escape seems like a suicide mission. But Stratton is where Ellie's grandmother lives, so the journey must be made -- even though the odds aren't good.Ellie must summon all of her courage and guerrilla instincts to survive the latest high-stakes installment of the action-packed Tomorrow series.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 39,
-        "adventure": 45,
-        "adventure (survival)": 22,
-        "cultural (australia)": 59,
-        "fiction": 160,
-        "science fiction": 33,
-        "science fiction (dystopia)": 74,
-        "war": 119,
-        "young adult": 434,
-        "young adult (teen)": 35
+  "author": "John Marsden",
+  "id": "328",
+  "description": "The action doesn't let up in the most explosive Tomorrow book yet -- another international bestseller from John Marsden. The journey to Stratton isn't an easy trip, especially when the enemy's headquarters lie somewhere along the way. And that's exactly where Ellie and her friends unwittingly find themselves. With only five of them against hundreds of armed soldiers, escape seems like a suicide mission. But Stratton is where Ellie's grandmother lives, so the journey must be made -- even though the odds aren't good.Ellie must summon all of her courage and guerrilla instincts to survive the latest high-stakes installment of the action-packed Tomorrow series.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "cultural (australia)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "war",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "328_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "328_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "328_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "328_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "328_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "328_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "328_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "328_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "328_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "328_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15134,
-        "score": 4.19
+    {
+      "status": "on_loan",
+      "stock_id": "328_2"
     },
-    "pages": 1318,
-    "title": "Burning For Revenge",
-    "url": "https://www.goodreads.com/book/show/71869.Burning_For_Revenge",
-    "year_published": 1997
+    {
+      "status": "available",
+      "stock_id": "328_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "328_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "328_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "328_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "328_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "328_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "328_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15134,
+    "score": 4.19
+  },
+  "pages": 1318,
+  "title": "Burning For Revenge",
+  "url": "https://www.goodreads.com/book/show/71869.Burning_For_Revenge",
+  "year_published": 1997
 }

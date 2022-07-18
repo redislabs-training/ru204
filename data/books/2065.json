@@ -1,50 +1,50 @@
 {
-    "author": "Hanna Jameson",
-    "id": "2065",
-    "description": "For fans of high-concept thrillers such as Annihilation and The Girl with All the Gifts, this breathtaking dystopian psychological thriller follows an American academic stranded at a Swiss hotel as the world descends into nuclear war\u2014along with twenty other survivors\u2014who becomes obsessed with identifying a murderer in their midst after the body of a young girl is discovered in one of the hotel\u2019s water tanks.Jon thought he had all the time in the world to respond to his wife\u2019s text message: I miss you so much. I feel bad about how we left it. Love you. But as he\u2019s waiting in the lobby of the L\u2019Hotel Sixieme in Switzerland after an academic conference, still mulling over how to respond to his wife, he receives a string of horrifying push notifications. Washington, DC has been hit with a nuclear bomb, then New York, then London, and finally Berlin. That\u2019s all he knows before news outlets and social media goes black\u2014and before the clouds on the horizon turn orange.Now, two months later, there are twenty survivors holed up at the hotel, a place already tainted by its strange history of suicides and murders. Those who can\u2019t bear to stay commit suicide or wander off into the woods. Jon and the others try to maintain some semblance of civilization. But when the water pressure disappears, and Jon and a crew of survivors investigate the hotel\u2019s water tanks, they are shocked to discover the body of a young girl.As supplies dwindle and tensions rise, Jon becomes obsessed with investigating the death of the little girl as a way to cling to his own humanity. Yet the real question remains: can he afford to lose his mind in this hotel, or should he take his chances in the outside world?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 37,
-        "apocalyptic (post apocalyptic)": 77,
-        "fiction": 214,
-        "mystery": 263,
-        "mystery (crime)": 49,
-        "science fiction": 77,
-        "science fiction (apocalyptic)": 38,
-        "science fiction (dystopia)": 117,
-        "thriller": 196,
-        "thriller (mystery thriller)": 76
+  "author": "Hanna Jameson",
+  "id": "2065",
+  "description": "For fans of high-concept thrillers such as Annihilation and The Girl with All the Gifts, this breathtaking dystopian psychological thriller follows an American academic stranded at a Swiss hotel as the world descends into nuclear war—along with twenty other survivors—who becomes obsessed with identifying a murderer in their midst after the body of a young girl is discovered in one of the hotel’s water tanks.Jon thought he had all the time in the world to respond to his wife’s text message: I miss you so much. I feel bad about how we left it. Love you. But as he’s waiting in the lobby of the L’Hotel Sixieme in Switzerland after an academic conference, still mulling over how to respond to his wife, he receives a string of horrifying push notifications. Washington, DC has been hit with a nuclear bomb, then New York, then London, and finally Berlin. That’s all he knows before news outlets and social media goes black—and before the clouds on the horizon turn orange.Now, two months later, there are twenty survivors holed up at the hotel, a place already tainted by its strange history of suicides and murders. Those who can’t bear to stay commit suicide or wander off into the woods. Jon and the others try to maintain some semblance of civilization. But when the water pressure disappears, and Jon and a crew of survivors investigate the hotel’s water tanks, they are shocked to discover the body of a young girl.As supplies dwindle and tensions rise, Jon becomes obsessed with investigating the death of the little girl as a way to cling to his own humanity. Yet the real question remains: can he afford to lose his mind in this hotel, or should he take his chances in the outside world?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2065_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2065_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2065_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2065_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2065_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2065_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13049,
-        "score": 3.55
+    {
+      "status": "on_loan",
+      "stock_id": "2065_2"
     },
-    "pages": 1277,
-    "title": "The Last",
-    "url": "https://www.goodreads.com/book/show/40381927-the-last",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "2065_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2065_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2065_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13049,
+    "score": 3.55
+  },
+  "pages": 1277,
+  "title": "The Last",
+  "url": "https://www.goodreads.com/book/show/40381927-the-last",
+  "year_published": 2019
 }

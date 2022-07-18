@@ -1,35 +1,35 @@
 {
-    "author": "William Gibson",
-    "id": "2219",
-    "description": "Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.Still, Cayce is her father's daughter, and the danger makes her stubborn. Win Pollard, ex-security expert, probably ex-CIA, took a taxi in the direction of the World Trade Center on September 11 one year ago, and is presumed dead. Win taught Cayce a bit about the way agents work. She is still numb at his loss, and, as much for him as for any other reason, she refuses to give up this newly weird job, which will take her to Tokyo and on to Russia. With help and betrayal from equally unlikely quarters, Cayce will follow the trail of the mysterious film to its source, and in the process will learn something about her father's life and death.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fiction": 1064,
-        "literature": 34,
-        "mystery": 169,
-        "novels": 62,
-        "science fiction": 1095,
-        "science fiction (cyberpunk)": 389,
-        "science fiction fantasy": 87,
-        "speculative fiction": 60,
-        "spy thriller (espionage)": 37,
-        "thriller": 140
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2219_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 46589,
-        "score": 3.85
-    },
-    "pages": 437,
-    "title": "Pattern Recognition",
-    "url": "https://www.goodreads.com/book/show/22320.Pattern_Recognition",
-    "year_published": 2003
+  "author": "William Gibson",
+  "id": "2219",
+  "description": "Cayce Pollard is an expensive, spookily intuitive market-research consultant. In London on a job, she is offered a secret assignment: to investigate some intriguing snippets of video that have been appearing on the Internet. An entire subculture of people is obsessed with these bits of footage, and anybody who can create that kind of brand loyalty would be a gold mine for Cayce's client. But when her borrowed apartment is burgled and her computer hacked, she realizes there's more to this project than she had expected.Still, Cayce is her father's daughter, and the danger makes her stubborn. Win Pollard, ex-security expert, probably ex-CIA, took a taxi in the direction of the World Trade Center on September 11 one year ago, and is presumed dead. Win taught Cayce a bit about the way agents work. She is still numb at his loss, and, as much for him as for any other reason, she refuses to give up this newly weird job, which will take her to Tokyo and on to Russia. With help and betrayal from equally unlikely quarters, Cayce will follow the trail of the mysterious film to its source, and in the process will learn something about her father's life and death.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fiction",
+    "literature",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "spy thriller (espionage)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2219_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 46589,
+    "score": 3.85
+  },
+  "pages": 437,
+  "title": "Pattern Recognition",
+  "url": "https://www.goodreads.com/book/show/22320.Pattern_Recognition",
+  "year_published": 2003
 }

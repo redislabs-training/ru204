@@ -1,48 +1,48 @@
 {
-    "author": "Orson Scott Card",
-    "id": "2446",
-    "description": "Children of the Mind (1996) is the fourth novel of Orson Scott Card's popular Ender's Game series of science fiction novels that focus on the character Ender Wiggin. This book was originally the second half of Xenocide, before it was split into two novels.At the start of Children of the Mind, Jane, the evolved computer intelligence, is using her newly discovered abilities to take the races of buggers, humans and pequeninos outside the universe and back instantaneously. She uses these powers to move them to distant habitable planets for colonization. She is losing her memory and concentration as the vast computer network connected to the ansible is being shut down. If she is to survive, she must find a way to transfer her ai\u00faa (or soul) to a human body.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 84,
-        "fantasy": 310,
-        "fiction": 999,
-        "novels": 68,
-        "science fiction": 2637,
-        "science fiction (aliens)": 61,
-        "science fiction fantasy": 257,
-        "space": 90,
-        "speculative fiction": 48,
-        "young adult": 152
+  "author": "Orson Scott Card",
+  "id": "2446",
+  "description": "Children of the Mind (1996) is the fourth novel of Orson Scott Card's popular Ender's Game series of science fiction novels that focus on the character Ender Wiggin. This book was originally the second half of Xenocide, before it was split into two novels.At the start of Children of the Mind, Jane, the evolved computer intelligence, is using her newly discovered abilities to take the races of buggers, humans and pequeninos outside the universe and back instantaneously. She uses these powers to move them to distant habitable planets for colonization. She is losing her memory and concentration as the vast computer network connected to the ansible is being shut down. If she is to survive, she must find a way to transfer her aiúa (or soul) to a human body.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2446_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2446_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2446_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2446_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2446_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 98381,
-        "score": 3.77
+    {
+      "status": "on_loan",
+      "stock_id": "2446_2"
     },
-    "pages": 1400,
-    "title": "Children of the Mind",
-    "url": "https://www.goodreads.com/book/show/31360.Children_of_the_Mind",
-    "year_published": 1996
+    {
+      "status": "maintenance",
+      "stock_id": "2446_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2446_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 98381,
+    "score": 3.77
+  },
+  "pages": 1400,
+  "title": "Children of the Mind",
+  "url": "https://www.goodreads.com/book/show/31360.Children_of_the_Mind",
+  "year_published": 1996
 }

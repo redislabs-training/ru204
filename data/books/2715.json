@@ -1,68 +1,68 @@
 {
-    "author": "Johan Harstad",
-    "id": "2715",
-    "description": "Three teenagers are going on the trip of a lifetime. Only one is coming back. It's been more than forty years since NASA sent the first men to the moon, and to grab some much-needed funding and attention, they decide to launch an historic international lottery in which three lucky teenagers can win a week-long trip to moon base DARLAH 2.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 31,
-        "fantasy": 58,
-        "fantasy (paranormal)": 55,
-        "fiction": 124,
-        "horror": 470,
-        "mystery": 81,
-        "science fiction": 430,
-        "space": 72,
-        "thriller": 88,
-        "young adult": 474
+  "author": "Johan Harstad",
+  "id": "2715",
+  "description": "Three teenagers are going on the trip of a lifetime. Only one is coming back. It's been more than forty years since NASA sent the first men to the moon, and to grab some much-needed funding and attention, they decide to launch an historic international lottery in which three lucky teenagers can win a week-long trip to moon base DARLAH 2.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "space",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2715_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2715_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2715_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "2715_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2715_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2715_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2715_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2715_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2715_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "2715_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11481,
-        "score": 3.56
+    {
+      "status": "available",
+      "stock_id": "2715_2"
     },
-    "pages": 1145,
-    "title": "172 Hours on the Moon",
-    "url": "https://www.goodreads.com/book/show/12810834-172-hours-on-the-moon",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "2715_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2715_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2715_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2715_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2715_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2715_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "2715_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11481,
+    "score": 3.56
+  },
+  "pages": 1145,
+  "title": "172 Hours on the Moon",
+  "url": "https://www.goodreads.com/book/show/12810834-172-hours-on-the-moon",
+  "year_published": 2008
 }

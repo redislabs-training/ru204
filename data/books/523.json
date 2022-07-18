@@ -1,60 +1,60 @@
 {
-    "author": "Alison Croggon",
-    "id": "523",
-    "description": "As this enthralling epic nears its climax, the young heroine\u2019s brother discovers his own hidden gift\u2014and the role he must play in battling the Dark.Hem is a weary orphan whose struggle for survival ends when he is reunited with his lost sister, Maerad. But Maerad has a destiny to fulfill, and Hem is sent to the golden city of Turbansk, where he learns the ways of the Bards and befriends a mysterious white crow. When the forces of the Dark threaten, Hem flees with his protector, Saliman, and an orphan girl named Zelika to join the Light\u2019s resistance forces. It is there that Hem has a vision and learns that he, too, has a part to play in Maerad\u2019s quest to solve the Riddle of the Treesong.As The Crow continues the epic tale begun with The Naming and The Riddle, Alison Croggon creates a world of astounding beauty overshadowed by a terrifying darkness, a world where Maerad and Hem must prepare to wage their final battle for the Light.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 39,
-        "fantasy": 847,
-        "fantasy (epic fantasy)": 28,
-        "fantasy (high fantasy)": 45,
-        "fantasy (magic)": 54,
-        "fiction": 85,
-        "science fiction fantasy": 23,
-        "young adult": 278,
-        "young adult (teen)": 13,
-        "young adult (young adult fantasy)": 45
+  "author": "Alison Croggon",
+  "id": "523",
+  "description": "As this enthralling epic nears its climax, the young heroine’s brother discovers his own hidden gift—and the role he must play in battling the Dark.Hem is a weary orphan whose struggle for survival ends when he is reunited with his lost sister, Maerad. But Maerad has a destiny to fulfill, and Hem is sent to the golden city of Turbansk, where he learns the ways of the Bards and befriends a mysterious white crow. When the forces of the Dark threaten, Hem flees with his protector, Saliman, and an orphan girl named Zelika to join the Light’s resistance forces. It is there that Hem has a vision and learns that he, too, has a part to play in Maerad’s quest to solve the Riddle of the Treesong.As The Crow continues the epic tale begun with The Naming and The Riddle, Alison Croggon creates a world of astounding beauty overshadowed by a terrifying darkness, a world where Maerad and Hem must prepare to wage their final battle for the Light.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "523_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "523_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "523_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "523_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "523_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "523_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "523_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "523_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12887,
-        "score": 4.02
+    {
+      "status": "maintenance",
+      "stock_id": "523_2"
     },
-    "pages": 564,
-    "title": "The Crow",
-    "url": "https://www.goodreads.com/book/show/393147.The_Crow",
-    "year_published": 2006
+    {
+      "status": "available",
+      "stock_id": "523_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "523_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "523_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "523_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "523_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12887,
+    "score": 4.02
+  },
+  "pages": 564,
+  "title": "The Crow",
+  "url": "https://www.goodreads.com/book/show/393147.The_Crow",
+  "year_published": 2006
 }

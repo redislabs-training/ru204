@@ -1,51 +1,51 @@
 {
-    "author": "Jim C. Hines",
-    "id": "1797",
-    "description": "Isaac Vainio is a Libriomancer, a member of the secret organization founded five centuries ago by Johannes Gutenberg. Libriomancers are gifted with the ability to magically reach into books and draw forth objects. When Isaac is attacked by vampires that leaked from the pages of books into our world, he barely manages to escape. To his horror he discovers that vampires have been attacking other magic-users as well, and Gutenberg has been kidnapped.With the help of a motorcycle-riding dryad who packs a pair of oak cudgels, Isaac finds himself hunting the unknown dark power that has been manipulating humans and vampires alike. And his search will uncover dangerous secrets about Libriomancy, Gutenberg, and the history of magic. . . .",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 43,
-        "fantasy": 1334,
-        "fantasy (magic)": 136,
-        "fantasy (paranormal)": 115,
-        "fantasy (urban fantasy)": 740,
-        "fiction": 178,
-        "paranormal (vampires)": 146,
-        "science fiction": 61,
-        "science fiction fantasy": 59,
-        "writing (books about books)": 81
+  "author": "Jim C. Hines",
+  "id": "1797",
+  "description": "Isaac Vainio is a Libriomancer, a member of the secret organization founded five centuries ago by Johannes Gutenberg. Libriomancers are gifted with the ability to magically reach into books and draw forth objects. When Isaac is attacked by vampires that leaked from the pages of books into our world, he barely manages to escape. To his horror he discovers that vampires have been attacking other magic-users as well, and Gutenberg has been kidnapped.With the help of a motorcycle-riding dryad who packs a pair of oak cudgels, Isaac finds himself hunting the unknown dark power that has been manipulating humans and vampires alike. And his search will uncover dangerous secrets about Libriomancy, Gutenberg, and the history of magic. . . .",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "paranormal (vampires)",
+    "science fiction",
+    "science fiction fantasy",
+    "writing (books about books)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1797_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1797_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1797_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1797_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1797_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1797_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12053,
-        "score": 3.8
+    {
+      "status": "maintenance",
+      "stock_id": "1797_2"
     },
-    "pages": 469,
-    "title": "Libriomancer",
-    "url": "https://www.goodreads.com/book/show/12844699-libriomancer",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "1797_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1797_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1797_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12053,
+    "score": 3.8
+  },
+  "pages": 469,
+  "title": "Libriomancer",
+  "url": "https://www.goodreads.com/book/show/12844699-libriomancer",
+  "year_published": 2012
 }

@@ -1,60 +1,60 @@
 {
-    "author": "Daniel H. Wilson",
-    "id": "148",
-    "description": "Humans beware. As the robotic revolution continues to creep into our lives, it brings with it an impending sense of doom. What horrifying scenarios might unfold if our technology were to go awry? From self-aware robotic toys to intelligent machines violently malfunctioning, this anthology brings to life the half-formed questions and fears we all have about the increasing presence of robots in our lives. With contributions from a mix of bestselling, award-winning, and up-and-coming writers, and including a rare story by \u201cthe father of artificial intelligence,\u201d Dr. John McCarthy, Robot Uprisings meticulously describes the exhilarating and terrifying near-future in which humans can only survive by being cleverer than the rebellious machines they have created.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 26,
-        "apocalyptic (post apocalyptic)": 3,
-        "fiction": 29,
-        "horror": 4,
-        "science fiction": 81,
-        "science fiction (dystopia)": 7,
-        "science fiction (robots)": 22,
-        "short stories": 67,
-        "short stories (short story collection)": 3,
-        "speculative fiction": 4
+  "author": "Daniel H. Wilson",
+  "id": "148",
+  "description": "Humans beware. As the robotic revolution continues to creep into our lives, it brings with it an impending sense of doom. What horrifying scenarios might unfold if our technology were to go awry? From self-aware robotic toys to intelligent machines violently malfunctioning, this anthology brings to life the half-formed questions and fears we all have about the increasing presence of robots in our lives. With contributions from a mix of bestselling, award-winning, and up-and-coming writers, and including a rare story by “the father of artificial intelligence,” Dr. John McCarthy, Robot Uprisings meticulously describes the exhilarating and terrifying near-future in which humans can only survive by being cleverer than the rebellious machines they have created.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (robots)",
+    "short stories",
+    "short stories (short story collection)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "148_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "148_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "148_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "148_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "148_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "148_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "148_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "148_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 988,
-        "score": 3.88
+    {
+      "status": "maintenance",
+      "stock_id": "148_2"
     },
-    "pages": 819,
-    "title": "Robot Uprisings",
-    "url": "https://www.goodreads.com/book/show/18209312-robot-uprisings",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "148_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "148_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "148_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "148_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "148_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 988,
+    "score": 3.88
+  },
+  "pages": 819,
+  "title": "Robot Uprisings",
+  "url": "https://www.goodreads.com/book/show/18209312-robot-uprisings",
+  "year_published": 2014
 }

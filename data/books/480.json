@@ -1,34 +1,34 @@
 {
-    "author": "Piers Anthony",
-    "id": "480",
-    "description": "THE MAN WHO LIVED BACKWARDWhen life seemed pointless to Norton, he accepted the position as the Incarnation of Time, even though it meant living backward from present to past. The other seemingly all-powerful incantations of Immortality\u2014Death, Fate, War, and Nature\u2014made him welcome. Even Satan greeted him with gifts. But he soon discovered that the gifts were cunning traps and he had become enmeshed in a complex scheme of the Evil One to destroy all that was good.In the end, armed only with the Hourglass, Norton was forced to confront the immense power of Satan directly. And though Satan banished him to Hell, he was resolved to fight on.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 20,
-        "fantasy": 1421,
-        "fantasy (magic)": 21,
-        "fantasy (mythology)": 20,
-        "fantasy (paranormal)": 19,
-        "fantasy (urban fantasy)": 53,
-        "fiction": 252,
-        "science fiction": 119,
-        "science fiction (time travel)": 38,
-        "science fiction fantasy": 96
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "480_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21759,
-        "score": 3.95
-    },
-    "pages": 287,
-    "title": "Bearing an Hourglass",
-    "url": "https://www.goodreads.com/book/show/76659.Bearing_an_Hourglass",
-    "year_published": 1984
+  "author": "Piers Anthony",
+  "id": "480",
+  "description": "THE MAN WHO LIVED BACKWARDWhen life seemed pointless to Norton, he accepted the position as the Incarnation of Time, even though it meant living backward from present to past. The other seemingly all-powerful incantations of Immortality—Death, Fate, War, and Nature—made him welcome. Even Satan greeted him with gifts. But he soon discovered that the gifts were cunning traps and he had become enmeshed in a complex scheme of the Evil One to destroy all that was good.In the end, armed only with the Hourglass, Norton was forced to confront the immense power of Satan directly. And though Satan banished him to Hell, he was resolved to fight on.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "480_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21759,
+    "score": 3.95
+  },
+  "pages": 287,
+  "title": "Bearing an Hourglass",
+  "url": "https://www.goodreads.com/book/show/76659.Bearing_an_Hourglass",
+  "year_published": 1984
 }

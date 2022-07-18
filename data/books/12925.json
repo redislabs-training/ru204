@@ -1,48 +1,48 @@
 {
-    "author": "Helene Wecker",
-    "id": "12925",
-    "description": "Chava is a golem, a creature made of clay, brought to life by a disgraced rabbi who dabbles in dark Kabbalistic magic, created to be the wife of a man who dies at sea on the voyage from Poland. Chava is unmoored and adrift as the ship arrives in New York harbor in 1899. Ahmad is a jinni, a being of fire born in the ancient Syrian desert, trapped in an old copper flask, and released in New York City, though still not entirely free. Ahmad and Chava become unlikely friends and soul mates with a mystical connection. Marvelous and compulsively readable, Helene Wecker's debut novel The Golem and the Jinni weaves strands of Yiddish and Middle Eastern literature, historical fiction and magical fable, into a wondrously inventive and unforgettable tale.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 282,
-        "audiobook": 369,
-        "fantasy": 6206,
-        "fantasy (magic)": 245,
-        "fantasy (mythology)": 318,
-        "fantasy (urban fantasy)": 361,
-        "fiction": 2067,
-        "historical": 631,
-        "historical (historical fiction)": 2290,
-        "magical realism": 655
+  "author": "Helene Wecker",
+  "id": "12925",
+  "description": "Chava is a golem, a creature made of clay, brought to life by a disgraced rabbi who dabbles in dark Kabbalistic magic, created to be the wife of a man who dies at sea on the voyage from Poland. Chava is unmoored and adrift as the ship arrives in New York harbor in 1899. Ahmad is a jinni, a being of fire born in the ancient Syrian desert, trapped in an old copper flask, and released in New York City, though still not entirely free. Ahmad and Chava become unlikely friends and soul mates with a mystical connection. Marvelous and compulsively readable, Helene Wecker's debut novel The Golem and the Jinni weaves strands of Yiddish and Middle Eastern literature, historical fiction and magical fable, into a wondrously inventive and unforgettable tale.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "magical realism"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "12925_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "12925_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "12925_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "12925_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "12925_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 107418,
-        "score": 4.08
+    {
+      "status": "on_loan",
+      "stock_id": "12925_2"
     },
-    "pages": 868,
-    "title": "The Golem and the Jinni",
-    "url": "https://www.goodreads.com/book/show/15819028-the-golem-and-the-jinni",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "12925_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "12925_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 107418,
+    "score": 4.08
+  },
+  "pages": 868,
+  "title": "The Golem and the Jinni",
+  "url": "https://www.goodreads.com/book/show/15819028-the-golem-and-the-jinni",
+  "year_published": 2013
 }

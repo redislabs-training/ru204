@@ -1,50 +1,50 @@
 {
-    "author": "Victoria Schwab",
-    "id": "7076",
-    "description": "THE WORLD IS BREAKING. AND SO ARE THEY.KATE HARKER isn't afraid of monsters. She hunts them. And she's good at it.AUGUST FLYNN once yearned to be human. He has a part to play. And he will play it, no matter the cost.THE WAR HAS BEGUN.THE MONSTERS ARE WINNING.Kate will have to return to Verity. August will have to let her back in. And a new monster is waiting\u2014one that feeds on chaos and brings out its victims' inner demons.Which will be harder to conquer: the monsters they face, or the monsters within?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 148,
-        "fantasy": 2045,
-        "fantasy (paranormal)": 340,
-        "fantasy (supernatural)": 92,
-        "fantasy (urban fantasy)": 242,
-        "fiction": 190,
-        "horror": 117,
-        "science fiction (dystopia)": 348,
-        "young adult": 1143,
-        "young adult (young adult fantasy)": 169
+  "author": "Victoria Schwab",
+  "id": "7076",
+  "description": "THE WORLD IS BREAKING. AND SO ARE THEY.KATE HARKER isn't afraid of monsters. She hunts them. And she's good at it.AUGUST FLYNN once yearned to be human. He has a part to play. And he will play it, no matter the cost.THE WAR HAS BEGUN.THE MONSTERS ARE WINNING.Kate will have to return to Verity. August will have to let her back in. And a new monster is waiting—one that feeds on chaos and brings out its victims' inner demons.Which will be harder to conquer: the monsters they face, or the monsters within?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "7076_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "7076_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7076_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7076_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7076_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "7076_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35918,
-        "score": 4.19
+    {
+      "status": "maintenance",
+      "stock_id": "7076_2"
     },
-    "pages": 1278,
-    "title": "Our Dark Duet",
-    "url": "https://www.goodreads.com/book/show/32075662-our-dark-duet",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "7076_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7076_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "7076_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35918,
+    "score": 4.19
+  },
+  "pages": 1278,
+  "title": "Our Dark Duet",
+  "url": "https://www.goodreads.com/book/show/32075662-our-dark-duet",
+  "year_published": 2017
 }

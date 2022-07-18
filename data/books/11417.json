@@ -1,39 +1,39 @@
 {
-    "author": "H.G. Wells",
-    "id": "11417",
-    "description": "\u201cI\u2019ve had a most amazing time....\u201dSo begins the Time Traveller\u2019s astonishing firsthand account of his journey 800,000 years beyond his own era\u2014and the story that launched H.G. Wells\u2019s successful career and earned him his reputation as the father of science fiction. With a speculative leap that still fires the imagination, Wells sends his brave explorer to face a future burdened with our greatest hopes...and our darkest fears. A pull of the Time Machine\u2019s lever propels him to the age of a slowly dying Earth.\u00a0 There he discovers two bizarre races\u2014the ethereal Eloi and the subterranean Morlocks\u2014who not only symbolize the duality of human nature, but offer a terrifying portrait of the men of tomorrow as well.\u00a0 Published in 1895, this masterpiece of invention captivated readers on the threshold of a new century. Thanks to Wells\u2019s expert storytelling and provocative insight, The Time Machine will continue to enthrall readers for generations to come.\u00a0",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 428,
-        "classics": 8851,
-        "fantasy": 1091,
-        "fiction": 4041,
-        "literature": 456,
-        "novels": 380,
-        "science fiction": 6987,
-        "science fiction (dystopia)": 574,
-        "science fiction (time travel)": 1400,
-        "science fiction fantasy": 476
+  "author": "H.G. Wells",
+  "id": "11417",
+  "description": "“I’ve had a most amazing time....”So begins the Time Traveller’s astonishing firsthand account of his journey 800,000 years beyond his own era—and the story that launched H.G. Wells’s successful career and earned him his reputation as the father of science fiction. With a speculative leap that still fires the imagination, Wells sends his brave explorer to face a future burdened with our greatest hopes...and our darkest fears. A pull of the Time Machine’s lever propels him to the age of a slowly dying Earth.  There he discovers two bizarre races—the ethereal Eloi and the subterranean Morlocks—who not only symbolize the duality of human nature, but offer a terrifying portrait of the men of tomorrow as well.  Published in 1895, this masterpiece of invention captivated readers on the threshold of a new century. Thanks to Wells’s expert storytelling and provocative insight, The Time Machine will continue to enthrall readers for generations to come. ",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "11417_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "11417_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "11417_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 424914,
-        "score": 3.89
-    },
-    "pages": 280,
-    "title": "The Time Machine",
-    "url": "https://www.goodreads.com/book/show/2493.The_Time_Machine",
-    "year_published": 1895
+    {
+      "status": "available",
+      "stock_id": "11417_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 424914,
+    "score": 3.89
+  },
+  "pages": 280,
+  "title": "The Time Machine",
+  "url": "https://www.goodreads.com/book/show/2493.The_Time_Machine",
+  "year_published": 1895
 }

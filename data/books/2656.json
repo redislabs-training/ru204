@@ -1,39 +1,39 @@
 {
-    "author": "Guy Gavriel Kay",
-    "id": "2656",
-    "description": "A masterful epic of magic, politics, war, and the power of love and hate \u2014 from the renowned author of The Fionavar Tapestry and Children of Earth and Sky.Tigana is the magical story of a beleaguered land struggling to be free. It is the tale of a people so cursed by the black sorcery of a cruel despotic king that even the name of their once-beautiful homeland cannot be spoken or remembered... But years after the devastation, a handful of courageous men and women embark upon a dangerous crusade to overthrow their conquerors and bring back to the dark world the brilliance of a long-lost name...Tigana. Against the magnificently rendered background of a world both sensuous and barbaric, this sweeping epic of a passionate people pursuing their dream is breathtaking in its vision, changing forever the boundaries of fantasy fiction.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 91,
-        "childrens": 72,
-        "childrens (middle grade)": 70,
-        "fantasy": 4746,
-        "fantasy (epic fantasy)": 161,
-        "fantasy (high fantasy)": 188,
-        "fiction": 497,
-        "historical (historical fiction)": 77,
-        "science fiction fantasy": 119,
-        "young adult": 75
+  "author": "Guy Gavriel Kay",
+  "id": "2656",
+  "description": "A masterful epic of magic, politics, war, and the power of love and hate — from the renowned author of The Fionavar Tapestry and Children of Earth and Sky.Tigana is the magical story of a beleaguered land struggling to be free. It is the tale of a people so cursed by the black sorcery of a cruel despotic king that even the name of their once-beautiful homeland cannot be spoken or remembered... But years after the devastation, a handful of courageous men and women embark upon a dangerous crusade to overthrow their conquerors and bring back to the dark world the brilliance of a long-lost name...Tigana. Against the magnificently rendered background of a world both sensuous and barbaric, this sweeping epic of a passionate people pursuing their dream is breathtaking in its vision, changing forever the boundaries of fantasy fiction.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2656_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2656_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2656_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 45733,
-        "score": 4.06
-    },
-    "pages": 216,
-    "title": "Tigana",
-    "url": "https://www.goodreads.com/book/show/104089.Tigana",
-    "year_published": 1990
+    {
+      "status": "available",
+      "stock_id": "2656_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 45733,
+    "score": 4.06
+  },
+  "pages": 216,
+  "title": "Tigana",
+  "url": "https://www.goodreads.com/book/show/104089.Tigana",
+  "year_published": 1990
 }

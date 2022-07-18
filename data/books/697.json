@@ -1,34 +1,34 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "697",
-    "description": "When a stranger attempting to deliver a cryptic message is shot dead at his table, Dr. Richard Ames is thrown headfirst into danger, intrigue, and other dimensions, where a plot to rescue a sentient computer could alter human history...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 25,
-        "audiobook": 24,
-        "classics": 17,
-        "fantasy": 60,
-        "fiction": 240,
-        "mystery": 25,
-        "science fiction": 807,
-        "science fiction (time travel)": 39,
-        "science fiction fantasy": 75,
-        "speculative fiction": 28
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "697_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21718,
-        "score": 3.71
-    },
-    "pages": 962,
-    "title": "The Cat Who Walks Through Walls",
-    "url": "https://www.goodreads.com/book/show/16685.The_Cat_Who_Walks_Through_Walls",
-    "year_published": 1985
+  "author": "Robert A. Heinlein",
+  "id": "697",
+  "description": "When a stranger attempting to deliver a cryptic message is shot dead at his table, Dr. Richard Ames is thrown headfirst into danger, intrigue, and other dimensions, where a plot to rescue a sentient computer could alter human history...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "697_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21718,
+    "score": 3.71
+  },
+  "pages": 962,
+  "title": "The Cat Who Walks Through Walls",
+  "url": "https://www.goodreads.com/book/show/16685.The_Cat_Who_Walks_Through_Walls",
+  "year_published": 1985
 }

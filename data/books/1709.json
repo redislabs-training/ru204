@@ -1,54 +1,54 @@
 {
-    "author": "Stephen R. Donaldson",
-    "id": "1709",
-    "description": "He called himself Thomas Covenant the Unbeliever because he dared not believe in the strange alternate world in which he suddenly found himself.Yet the Land tempted him. He had been sick; now he seemed better than ever before. Through no fault of his own, he had been outcast, unclean, a pariah. Now he was regarded as a reincarnation of the Land's greatest hero--Berek Halfhand--armed with the mystic power of White Gold. That power alone could protect the Lords of the Land from the ancient evil of Despiser, Lord Foul. Only...Covenant had no idea of how the power could be used!Thus begins one of the most remarkable epic fantasies ever written...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 112,
-        "childrens": 76,
-        "childrens (middle grade)": 73,
-        "fantasy": 3279,
-        "fantasy (epic fantasy)": 105,
-        "fantasy (high fantasy)": 54,
-        "fiction": 424,
-        "science fiction": 79,
-        "science fiction fantasy": 149,
-        "young adult": 82
+  "author": "Stephen R. Donaldson",
+  "id": "1709",
+  "description": "He called himself Thomas Covenant the Unbeliever because he dared not believe in the strange alternate world in which he suddenly found himself.Yet the Land tempted him. He had been sick; now he seemed better than ever before. Through no fault of his own, he had been outcast, unclean, a pariah. Now he was regarded as a reincarnation of the Land's greatest hero--Berek Halfhand--armed with the mystic power of White Gold. That power alone could protect the Lords of the Land from the ancient evil of Despiser, Lord Foul. Only...Covenant had no idea of how the power could be used!Thus begins one of the most remarkable epic fantasies ever written...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1709_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1709_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1709_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1709_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1709_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1709_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1709_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 47373,
-        "score": 3.72
+    {
+      "status": "on_loan",
+      "stock_id": "1709_2"
     },
-    "pages": 236,
-    "title": "Lord Foul's Bane",
-    "url": "https://www.goodreads.com/book/show/219205.Lord_Foul_s_Bane",
-    "year_published": 1977
+    {
+      "status": "available",
+      "stock_id": "1709_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1709_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1709_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1709_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 47373,
+    "score": 3.72
+  },
+  "pages": 236,
+  "title": "Lord Foul's Bane",
+  "url": "https://www.goodreads.com/book/show/219205.Lord_Foul_s_Bane",
+  "year_published": 1977
 }

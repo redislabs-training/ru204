@@ -1,67 +1,67 @@
 {
-    "author": "Poul Anderson",
-    "id": "690",
-    "description": "The epic voyage of the spacecraft Leonora Christine will take her and her fifty-strong crew to a planet some thirty light-years distant. But, because the ship will accelerate to close to the speed of light, for those on board subjective time will slow and the journey will be of only a few years' duration.Then a buffeting by an interstellar dustcloud changes everything. The ship's deceleration system is damaged irreperably and soon she is gaining velocity. When she attains light-speed, tau zero itself, the disparity between ship-time and external time becomes almost impossibly great. Eons and galaxies hurtle by, and the crew of the Leonora Christine speeds into the unknown.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 16,
-        "fiction": 158,
-        "novels": 12,
-        "science fiction": 689,
-        "science fiction (hard science fiction)": 22,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 22,
-        "space": 23,
-        "space (space opera)": 38,
-        "speculative fiction": 12
+  "author": "Poul Anderson",
+  "id": "690",
+  "description": "The epic voyage of the spacecraft Leonora Christine will take her and her fifty-strong crew to a planet some thirty light-years distant. But, because the ship will accelerate to close to the speed of light, for those on board subjective time will slow and the journey will be of only a few years' duration.Then a buffeting by an interstellar dustcloud changes everything. The ship's deceleration system is damaged irreperably and soon she is gaining velocity. When she attains light-speed, tau zero itself, the disparity between ship-time and external time becomes almost impossibly great. Eons and galaxies hurtle by, and the crew of the Leonora Christine speeds into the unknown.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (hard science fiction)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "690_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "690_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "690_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "690_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "690_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "690_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "690_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "690_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "690_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "690_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12093,
-        "score": 3.86
+    {
+      "status": "available",
+      "stock_id": "690_2"
     },
-    "pages": 675,
-    "title": "Tau Zero",
-    "url": "https://www.goodreads.com/book/show/240617.Tau_Zero",
-    "year_published": 1970
+    {
+      "status": "on_loan",
+      "stock_id": "690_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "690_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "690_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "690_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "690_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "690_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "690_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12093,
+    "score": 3.86
+  },
+  "pages": 675,
+  "title": "Tau Zero",
+  "url": "https://www.goodreads.com/book/show/240617.Tau_Zero",
+  "year_published": 1970
 }

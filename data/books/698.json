@@ -1,64 +1,64 @@
 {
-    "author": "Robert Kirkman",
-    "id": "698",
-    "description": "The world we knew is gone. The world of commerce and frivolous necessity has been replaced by a world of survival and responsibility. An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months society has crumbled: no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, the survivors are forced to finally start living. Lori's pregnancy has come to term, and the birth is near. After everything they've been through, nothing can prepare Rick and the other survivors for what they are about to experience. A major turning point in the series is reached. Reprint Edition",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 111,
-        "comics (comic book)": 102,
-        "fiction": 179,
-        "graphic novels comics": 114,
-        "horror": 581,
-        "horror (zombies)": 436,
-        "science fiction (dystopia)": 64,
-        "sequential art (bande dessin\u00e9e)": 42,
-        "sequential art (comics)": 963,
-        "sequential art (graphic novels)": 1106
+  "author": "Robert Kirkman",
+  "id": "698",
+  "description": "The world we knew is gone. The world of commerce and frivolous necessity has been replaced by a world of survival and responsibility. An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months society has crumbled: no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, the survivors are forced to finally start living. Lori's pregnancy has come to term, and the birth is near. After everything they've been through, nothing can prepare Rick and the other survivors for what they are about to experience. A major turning point in the series is reached. Reprint Edition",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction (dystopia)",
+    "sequential art (bande dessinée)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "698_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "698_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "698_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "698_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "698_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "698_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "698_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "698_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "698_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20905,
-        "score": 4.26
+    {
+      "status": "maintenance",
+      "stock_id": "698_2"
     },
-    "pages": 609,
-    "title": "The Walking Dead, Vol. 7: The Calm Before",
-    "url": "https://www.goodreads.com/book/show/1085771.The_Walking_Dead_Vol_7",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "698_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "698_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "698_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "698_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "698_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "698_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20905,
+    "score": 4.26
+  },
+  "pages": 609,
+  "title": "The Walking Dead, Vol. 7: The Calm Before",
+  "url": "https://www.goodreads.com/book/show/1085771.The_Walking_Dead_Vol_7",
+  "year_published": 2007
 }

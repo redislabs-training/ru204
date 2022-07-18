@@ -1,34 +1,34 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "867",
-    "description": "Alternate Cover Edition for ISBN: 9781401219215Y: THE LAST MAN, winner of three Eisner Awards and one of the most critically acclaimed, best-selling comic books series of the last decade, is that rare example of a page-turner that is at once humorous, socially relevant and endlessly surprising.Written by Brian K. Vaughan (LOST, PRIDE OF BAGHDAD, EX MACHINA) and with art by Pia Guerra, this is the saga of Yorick Brown\u2014the only human survivor of a planet-wide plague that instantly kills every mammal possessing a Y chromosome. Accompanied by a mysterious government agent, a brilliant young geneticist and his pet monkey, Ampersand, Yorick travels the world in search of his lost love and the answer to why he's the last man on earth.Collects Y THE LAST MAN #1-10.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 28,
-        "apocalyptic (post apocalyptic)": 53,
-        "comics (comic book)": 58,
-        "fantasy": 23,
-        "fiction": 111,
-        "graphic novels comics": 82,
-        "science fiction": 164,
-        "science fiction (dystopia)": 86,
-        "sequential art (comics)": 642,
-        "sequential art (graphic novels)": 818
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "867_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14799,
-        "score": 4.33
-    },
-    "pages": 1069,
-    "title": "Y: The Last Man - The Deluxe Edition Book One",
-    "url": "https://www.goodreads.com/book/show/3710603-y",
-    "year_published": 2008
+  "author": "Brian K. Vaughan",
+  "id": "867",
+  "description": "Alternate Cover Edition for ISBN: 9781401219215Y: THE LAST MAN, winner of three Eisner Awards and one of the most critically acclaimed, best-selling comic books series of the last decade, is that rare example of a page-turner that is at once humorous, socially relevant and endlessly surprising.Written by Brian K. Vaughan (LOST, PRIDE OF BAGHDAD, EX MACHINA) and with art by Pia Guerra, this is the saga of Yorick Brown—the only human survivor of a planet-wide plague that instantly kills every mammal possessing a Y chromosome. Accompanied by a mysterious government agent, a brilliant young geneticist and his pet monkey, Ampersand, Yorick travels the world in search of his lost love and the answer to why he's the last man on earth.Collects Y THE LAST MAN #1-10.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "867_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14799,
+    "score": 4.33
+  },
+  "pages": 1069,
+  "title": "Y: The Last Man - The Deluxe Edition Book One",
+  "url": "https://www.goodreads.com/book/show/3710603-y",
+  "year_published": 2008
 }

@@ -1,34 +1,34 @@
 {
-    "author": "James Dashner",
-    "id": "9840",
-    "description": "Before WICKED was formed, before the Glade was built, before Thomas entered the Maze, sun flares hit the earth and mankind fell to disease.Mark and Trina were there when it happened, and they survived. But surviving the sun flares was easy compared to what came next. Now a disease of rage and lunacy races across the eastern United States, and there\u2019s something suspicious about its origin. Worse yet, it\u2019s mutating, and all evidence suggests that it will bring humanity to its knees.Mark and Trina are convinced there\u2019s a way to save those left living from descending into madness. And they\u2019re determined to find it\u2014if they can stay alive. Because in this new, devastated world, every life has a price. And to some, you\u2019re worth more dead than alive.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 88,
-        "adventure": 168,
-        "apocalyptic (post apocalyptic)": 232,
-        "audiobook": 112,
-        "fantasy": 394,
-        "fiction": 644,
-        "science fiction": 848,
-        "science fiction (dystopia)": 1537,
-        "young adult": 1798,
-        "young adult (teen)": 117
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "9840_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 168779,
-        "score": 3.71
-    },
-    "pages": 369,
-    "title": "The Kill Order",
-    "url": "https://www.goodreads.com/book/show/13089710-the-kill-order",
-    "year_published": 2012
+  "author": "James Dashner",
+  "id": "9840",
+  "description": "Before WICKED was formed, before the Glade was built, before Thomas entered the Maze, sun flares hit the earth and mankind fell to disease.Mark and Trina were there when it happened, and they survived. But surviving the sun flares was easy compared to what came next. Now a disease of rage and lunacy races across the eastern United States, and there’s something suspicious about its origin. Worse yet, it’s mutating, and all evidence suggests that it will bring humanity to its knees.Mark and Trina are convinced there’s a way to save those left living from descending into madness. And they’re determined to find it—if they can stay alive. Because in this new, devastated world, every life has a price. And to some, you’re worth more dead than alive.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "9840_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 168779,
+    "score": 3.71
+  },
+  "pages": 369,
+  "title": "The Kill Order",
+  "url": "https://www.goodreads.com/book/show/13089710-the-kill-order",
+  "year_published": 2012
 }

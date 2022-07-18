@@ -1,68 +1,68 @@
 {
-    "author": "Derek Landy",
-    "id": "1352",
-    "description": "Skulduggery and Valkyrie are facing a new enemy: Baron Vengeous, who is determined to bring back the terrifying Faceless Ones and is crafting an army of evil to help him. Added to that, Vengeous is about to enlist a new ally (if he can raise it from the dead): the horrible Grotesquery, a very unlikable monster of legend.Once Vengeous is on the loose, dead bodies and vampires start showing up all over Ireland. Now pretty much everybody is out to kill Valkyrie, and the daring detective duo faces its biggest challenge yet.But what if the greatest threat to Valkyrie is just a little closer to home?Look for Scepter of the Ancients",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 100,
-        "childrens (middle grade)": 89,
-        "fantasy": 915,
-        "fantasy (magic)": 133,
-        "fantasy (paranormal)": 75,
-        "fantasy (urban fantasy)": 150,
-        "fiction": 137,
-        "humor": 67,
-        "mystery": 130,
-        "young adult": 343
+  "author": "Derek Landy",
+  "id": "1352",
+  "description": "Skulduggery and Valkyrie are facing a new enemy: Baron Vengeous, who is determined to bring back the terrifying Faceless Ones and is crafting an army of evil to help him. Added to that, Vengeous is about to enlist a new ally (if he can raise it from the dead): the horrible Grotesquery, a very unlikable monster of legend.Once Vengeous is on the loose, dead bodies and vampires start showing up all over Ireland. Now pretty much everybody is out to kill Valkyrie, and the daring detective duo faces its biggest challenge yet.But what if the greatest threat to Valkyrie is just a little closer to home?Look for Scepter of the Ancients",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "mystery",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1352_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1352_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1352_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1352_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1352_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1352_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1352_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1352_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1352_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1352_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 25293,
-        "score": 4.31
+    {
+      "status": "available",
+      "stock_id": "1352_2"
     },
-    "pages": 948,
-    "title": "Playing with Fire",
-    "url": "https://www.goodreads.com/book/show/2157243.Playing_with_Fire",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "1352_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1352_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1352_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1352_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1352_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1352_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1352_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 25293,
+    "score": 4.31
+  },
+  "pages": 948,
+  "title": "Playing with Fire",
+  "url": "https://www.goodreads.com/book/show/2157243.Playing_with_Fire",
+  "year_published": 2008
 }

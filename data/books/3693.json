@@ -1,42 +1,42 @@
 {
-    "author": "Terry Pratchett",
-    "id": "3693",
-    "description": "In The Light Fantastic only one individual can save the world from a disastrous collision. Unfortunately, the hero happens to be the singularly inept wizard Rincewind, who was last seen falling off the edge of the world...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 214,
-        "audiobook": 134,
-        "fantasy": 8213,
-        "fantasy (magic)": 188,
-        "fiction": 1522,
-        "humor": 1367,
-        "humor (comedy)": 458,
-        "novels": 116,
-        "science fiction": 152,
-        "science fiction fantasy": 269
+  "author": "Terry Pratchett",
+  "id": "3693",
+  "description": "In The Light Fantastic only one individual can save the world from a disastrous collision. Unfortunately, the hero happens to be the singularly inept wizard Rincewind, who was last seen falling off the edge of the world...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3693_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3693_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3693_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3693_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 129227,
-        "score": 3.96
+    {
+      "status": "on_loan",
+      "stock_id": "3693_2"
     },
-    "pages": 519,
-    "title": "The Light Fantastic",
-    "url": "https://www.goodreads.com/book/show/34506.The_Light_Fantastic",
-    "year_published": 1986
+    {
+      "status": "available",
+      "stock_id": "3693_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 129227,
+    "score": 3.96
+  },
+  "pages": 519,
+  "title": "The Light Fantastic",
+  "url": "https://www.goodreads.com/book/show/34506.The_Light_Fantastic",
+  "year_published": 1986
 }

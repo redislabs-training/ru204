@@ -1,42 +1,42 @@
 {
-    "author": "Marissa Meyer",
-    "id": "2163",
-    "description": "Cinder, a gifted mechanic, is a cyborg. She\u2019s a second-class citizen with a mysterious past, reviled by her stepmother and blamed for her stepsister\u2019s illness. In Glitches, a short prequel story to Cinder, we see the results of that illness play out, and the emotional toll that takes on Cinder. Something that may, or may not, be a glitch\u2026",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 743,
-        "fantasy (fairy tales)": 156,
-        "fiction": 146,
-        "novella": 240,
-        "retellings": 191,
-        "science fiction": 570,
-        "science fiction (dystopia)": 267,
-        "science fiction (steampunk)": 61,
-        "short stories": 560,
-        "young adult": 911
+  "author": "Marissa Meyer",
+  "id": "2163",
+  "description": "Cinder, a gifted mechanic, is a cyborg. She’s a second-class citizen with a mysterious past, reviled by her stepmother and blamed for her stepsister’s illness. In Glitches, a short prequel story to Cinder, we see the results of that illness play out, and the emotional toll that takes on Cinder. Something that may, or may not, be a glitch…",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fiction",
+    "novella",
+    "retellings",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2163_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2163_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2163_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2163_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21107,
-        "score": 3.98
+    {
+      "status": "maintenance",
+      "stock_id": "2163_2"
     },
-    "pages": 1281,
-    "title": "Glitches",
-    "url": "https://www.goodreads.com/book/show/13254289-glitches",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "2163_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21107,
+    "score": 3.98
+  },
+  "pages": 1281,
+  "title": "Glitches",
+  "url": "https://www.goodreads.com/book/show/13254289-glitches",
+  "year_published": 2011
 }

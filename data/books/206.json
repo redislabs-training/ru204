@@ -1,59 +1,59 @@
 {
-    "author": "Armand Baltazar",
-    "id": "206",
-    "description": "The world did not end. At least not permanently.The Time Collision came from beyond the stars, a cosmic event that fractured time and space, tearing apart the earth and reshaping it into something entirely new.This is the world Diego Ribera was born into. The past, present, and future coexisting together.Timeless.In New Chicago, Diego\u2019s middle school hallways buzz with kids from all eras of history and from cultures all over the world. The pieces do not always fit together neatly, but this is the world he loves. There are those, however, who do not share his affection.On his thirteenth birthday, Diego learns of a special gift he has within, a secret that is part of something much bigger\u2014something he cannot understand. When his father, New Chicago\u2019s top engineer, is taken by the Aeternum, Diego must rescue him and prevent this evil group from disrupting the fragile peace humanity has forged.With more than 150 full-color illustrations.\"Diego sped over New Chicago, its canals and train tracks clogged with the morning traffic of steamships and trolleys, its sidewalks crowded with topcoats, leather tunics, and fine capes, a world bursting in color and sound, in the smell of horse droppings and engine grease, corn roasting on food carts, and the sea. Off in the distance, the exhaust clouds from the great steamships and harbor robots colored the sunrise gold.He spotted the girl up ahead, knifing through the sky. He had to catch her before it was too late. Diego didn\u2019t know why, just knew he had to. Something to do with time, he thought. It was always time, running forward and backward through this world, but in this dream . . .Running out.\"",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 16,
-        "childrens": 9,
-        "childrens (middle grade)": 41,
-        "fantasy": 39,
-        "fiction": 17,
-        "science fiction": 29,
-        "science fiction (steampunk)": 24,
-        "science fiction (time travel)": 14,
-        "sequential art (graphic novels)": 7,
-        "young adult": 5
+  "author": "Armand Baltazar",
+  "id": "206",
+  "description": "The world did not end. At least not permanently.The Time Collision came from beyond the stars, a cosmic event that fractured time and space, tearing apart the earth and reshaping it into something entirely new.This is the world Diego Ribera was born into. The past, present, and future coexisting together.Timeless.In New Chicago, Diego’s middle school hallways buzz with kids from all eras of history and from cultures all over the world. The pieces do not always fit together neatly, but this is the world he loves. There are those, however, who do not share his affection.On his thirteenth birthday, Diego learns of a special gift he has within, a secret that is part of something much bigger—something he cannot understand. When his father, New Chicago’s top engineer, is taken by the Aeternum, Diego must rescue him and prevent this evil group from disrupting the fragile peace humanity has forged.With more than 150 full-color illustrations.\"Diego sped over New Chicago, its canals and train tracks clogged with the morning traffic of steamships and trolleys, its sidewalks crowded with topcoats, leather tunics, and fine capes, a world bursting in color and sound, in the smell of horse droppings and engine grease, corn roasting on food carts, and the sea. Off in the distance, the exhaust clouds from the great steamships and harbor robots colored the sunrise gold.He spotted the girl up ahead, knifing through the sky. He had to catch her before it was too late. Diego didn’t know why, just knew he had to. Something to do with time, he thought. It was always time, running forward and backward through this world, but in this dream . . .Running out.\"",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "206_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "206_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "206_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "206_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "206_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "206_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "206_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "206_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 694,
-        "score": 3.84
+    {
+      "status": "maintenance",
+      "stock_id": "206_2"
     },
-    "pages": 494,
-    "title": "Timeless: Diego and the Rangers of the Vastlantic",
-    "url": "https://www.goodreads.com/book/show/23354816-timeless",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "206_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "206_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "206_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "206_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "206_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 694,
+    "score": 3.84
+  },
+  "pages": 494,
+  "title": "Timeless: Diego and the Rangers of the Vastlantic",
+  "url": "https://www.goodreads.com/book/show/23354816-timeless",
+  "year_published": 2017
 }

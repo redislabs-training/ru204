@@ -1,47 +1,47 @@
 {
-    "author": "Jasper Fforde",
-    "id": "922",
-    "description": "Long ago, magic began to fade, and the underemployed magicians of Kazam Mystical Arts Management have been forced to take any work their sixteen-year-old acting manager, Jennifer Strange, can scare up. But things are about to change. Magical power is finally on the rise, and King Snodd IV, of the Ununited Kingdoms knows that he who controls magic controls everything. Only one person stands between Snodd and his plans for a magic-grab--and that's Jennifer. Yet even smart and sensible Jennifer would have trouble against these powers-that-be. The king and his cronies will do anything to succeed--including ordering a just-might-be-rigged contest between Kazam and iMagic, Kazam's only competitor in the magic business. With underhanded shenanigans afoot, how can Kazam possibly win? Whatever happens, one this is certain: Jennifer Strange will not relinquish the noble powers of magic without a fight.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 38,
-        "fantasy": 760,
-        "fantasy (dragons)": 39,
-        "fantasy (magic)": 82,
-        "fantasy (urban fantasy)": 33,
-        "fiction": 165,
-        "humor": 100,
-        "science fiction fantasy": 47,
-        "young adult": 327,
-        "young adult (teen)": 33
+  "author": "Jasper Fforde",
+  "id": "922",
+  "description": "Long ago, magic began to fade, and the underemployed magicians of Kazam Mystical Arts Management have been forced to take any work their sixteen-year-old acting manager, Jennifer Strange, can scare up. But things are about to change. Magical power is finally on the rise, and King Snodd IV, of the Ununited Kingdoms knows that he who controls magic controls everything. Only one person stands between Snodd and his plans for a magic-grab--and that's Jennifer. Yet even smart and sensible Jennifer would have trouble against these powers-that-be. The king and his cronies will do anything to succeed--including ordering a just-might-be-rigged contest between Kazam and iMagic, Kazam's only competitor in the magic business. With underhanded shenanigans afoot, how can Kazam possibly win? Whatever happens, one this is certain: Jennifer Strange will not relinquish the noble powers of magic without a fight.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "922_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "922_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "922_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "922_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "922_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8656,
-        "score": 4.05
+    {
+      "status": "available",
+      "stock_id": "922_2"
     },
-    "pages": 1053,
-    "title": "The Song of the Quarkbeast",
-    "url": "https://www.goodreads.com/book/show/17165902-the-song-of-the-quarkbeast",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "922_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "922_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8656,
+    "score": 4.05
+  },
+  "pages": 1053,
+  "title": "The Song of the Quarkbeast",
+  "url": "https://www.goodreads.com/book/show/17165902-the-song-of-the-quarkbeast",
+  "year_published": 2011
 }

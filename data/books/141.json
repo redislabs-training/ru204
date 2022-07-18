@@ -1,48 +1,48 @@
 {
-    "author": "Julian  May",
-    "id": "141",
-    "description": "By A.D. 2110 nearly 100,000 humans had fled the civilized strictures of the Galactic Milieu for the freedom they thought existed at the end of the one-way time tunnel to Earth, six million B.C.But all of them had fallen into the hands of the Tanu, a humanoid race who'd fled their own galaxy to avoid punishment for their barbarous ways.And now the humans had made the Tanu stronger than the Firvulag, their degenerate brethren and ritual antagonists. Soon the Tanu would reign supreme. Or so they thought . . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 225,
-        "fiction": 78,
-        "historical (historical fiction)": 4,
-        "literature": 4,
-        "novels": 4,
-        "science fiction": 264,
-        "science fiction (aliens)": 4,
-        "science fiction (time travel)": 27,
-        "science fiction fantasy": 23,
-        "speculative fiction": 8
+  "author": "Julian  May",
+  "id": "141",
+  "description": "By A.D. 2110 nearly 100,000 humans had fled the civilized strictures of the Galactic Milieu for the freedom they thought existed at the end of the one-way time tunnel to Earth, six million B.C.But all of them had fallen into the hands of the Tanu, a humanoid race who'd fled their own galaxy to avoid punishment for their barbarous ways.And now the humans had made the Tanu stronger than the Firvulag, their degenerate brethren and ritual antagonists. Soon the Tanu would reign supreme. Or so they thought . . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "141_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "141_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "141_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "141_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "141_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6602,
-        "score": 4.13
+    {
+      "status": "on_loan",
+      "stock_id": "141_2"
     },
-    "pages": 252,
-    "title": "The Golden Torc",
-    "url": "https://www.goodreads.com/book/show/1018538.The_Golden_Torc",
-    "year_published": 1982
+    {
+      "status": "maintenance",
+      "stock_id": "141_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "141_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6602,
+    "score": 4.13
+  },
+  "pages": 252,
+  "title": "The Golden Torc",
+  "url": "https://www.goodreads.com/book/show/1018538.The_Golden_Torc",
+  "year_published": 1982
 }

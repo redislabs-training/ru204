@@ -1,58 +1,58 @@
 {
-    "author": "R.R. Haywood",
-    "id": "262",
-    "description": "The end of the world has been avoided\u2014for now. With Miri and her team of extracted heroes still on the run, Mother, the disgraced former head of the British Secret Service, has other ideas\u2026While Mother retreats to her bunker to plot her next move, Miri, Ben, Safa and Harry travel far into the future to ensure that they have prevented the apocalypse. But what they find just doesn\u2019t make sense.London in 2111 is on the brink of annihilation. What\u2019s more, the timelines have been twisted. Folded in on each other. It\u2019s hard to keep track of who is where. Or, more accurately, who is when.The clock is ticking for them all. With nothing left to lose but life itself, our heroes must stop Mother\u2014or die trying.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 2,
-        "audiobook": 9,
-        "fantasy": 7,
-        "fiction": 19,
-        "science fiction": 40,
-        "science fiction (dystopia)": 2,
-        "science fiction (time travel)": 29,
-        "science fiction fantasy": 3,
-        "thriller": 6
+  "author": "R.R. Haywood",
+  "id": "262",
+  "description": "The end of the world has been avoided—for now. With Miri and her team of extracted heroes still on the run, Mother, the disgraced former head of the British Secret Service, has other ideas…While Mother retreats to her bunker to plot her next move, Miri, Ben, Safa and Harry travel far into the future to ensure that they have prevented the apocalypse. But what they find just doesn’t make sense.London in 2111 is on the brink of annihilation. What’s more, the timelines have been twisted. Folded in on each other. It’s hard to keep track of who is where. Or, more accurately, who is when.The clock is ticking for them all. With nothing left to lose but life itself, our heroes must stop Mother—or die trying.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "262_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "262_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "262_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "262_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "262_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "262_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "262_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "262_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4539,
-        "score": 4.29
+    {
+      "status": "maintenance",
+      "stock_id": "262_2"
     },
-    "pages": 440,
-    "title": "Extinct",
-    "url": "https://www.goodreads.com/book/show/36991055-extinct",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "262_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "262_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "262_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "262_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "262_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4539,
+    "score": 4.29
+  },
+  "pages": 440,
+  "title": "Extinct",
+  "url": "https://www.goodreads.com/book/show/36991055-extinct",
+  "year_published": 2018
 }

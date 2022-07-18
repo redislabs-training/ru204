@@ -1,44 +1,44 @@
 {
-    "author": "Guillaume Pr\u00e9vost",
-    "id": "237",
-    "description": "Scholastic introduces the next name in YA adventure: Guillaume Prevost, whose Book of Time trilogy is one part DA VINCI CODE, one part DRACULA, one part THE TIME-TRAVELER'S WIFE, and all thrilling.A statue; a coin; an old book. They look as dusty as everything else in the Faulkner Antiquarian Bookstore, where 14-year-old Sam Faulkner seeks his father, who's been missing for days. But when Sam slips the coin into the statue, he's swept back in time -- to Scotland in 800 A.D. -- where he must find both the statue and another coin in order to return to the present. It's the first step in an adventure that will take him to ancient Egypt, World War I, even Dracula's castle -- and a mystery that will end only when Sam saves his father, or loses him in time . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 25,
-        "childrens": 18,
-        "childrens (middle grade)": 8,
-        "fantasy": 85,
-        "fiction": 28,
-        "historical (historical fiction)": 17,
-        "mystery": 13,
-        "science fiction": 24,
-        "science fiction (time travel)": 61,
-        "young adult": 38
+  "author": "Guillaume Prévost",
+  "id": "237",
+  "description": "Scholastic introduces the next name in YA adventure: Guillaume Prevost, whose Book of Time trilogy is one part DA VINCI CODE, one part DRACULA, one part THE TIME-TRAVELER'S WIFE, and all thrilling.A statue; a coin; an old book. They look as dusty as everything else in the Faulkner Antiquarian Bookstore, where 14-year-old Sam Faulkner seeks his father, who's been missing for days. But when Sam slips the coin into the statue, he's swept back in time -- to Scotland in 800 A.D. -- where he must find both the statue and another coin in order to return to the present. It's the first step in an adventure that will take him to ancient Egypt, World War I, even Dracula's castle -- and a mystery that will end only when Sam saves his father, or loses him in time . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "237_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "237_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "237_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "237_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2127,
-        "score": 3.75
+    {
+      "status": "available",
+      "stock_id": "237_2"
     },
-    "pages": 974,
-    "title": "The Book of Time",
-    "url": "https://www.goodreads.com/book/show/1383797.The_Book_of_Time",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "237_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2127,
+    "score": 3.75
+  },
+  "pages": 974,
+  "title": "The Book of Time",
+  "url": "https://www.goodreads.com/book/show/1383797.The_Book_of_Time",
+  "year_published": 2006
 }

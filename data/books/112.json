@@ -1,60 +1,60 @@
 {
-    "author": "Jason",
-    "id": "112",
-    "description": "After his existential thriller (Why Are You Doing This?), his Parisian famous-writers crime caper (The Left Bank Gang), and his time-travel story (I Killed Adolf Hitler), Jason's fourth full-color album may feature his loopiest premise yet.Set in the present, The Last Musketeer stars the by-now centuries old (for no explained reason...and it doesn't matter) musketeer Athos, who has been reduced to a suavely dressed but useless near-panhandler trading on his now almost extinct fame. (Aramis has forsaken his musketeering ways, and Porthos...well, Porthos isn't around any more. Don't ask.) All this changes when one day the Martians attack Earth. Suddenly there is a need for swashes to be buckled, and Athos leaps back into the fray with a vengeance. Robots, evil alien emperors, beautiful alien princesses, rayguns vs. swords, treachery, secret corridors, insanely cool-looking robots...The Last Musketeer is vintage sci-fi adventure with a unique twist from an internationally acclaimed cartoonist.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 5,
-        "comics (comic book)": 5,
-        "fantasy": 3,
-        "fiction": 19,
-        "graphic novels comics": 10,
-        "humor": 3,
-        "science fiction": 15,
-        "sequential art (comics)": 107,
-        "sequential art (comix)": 8,
-        "sequential art (graphic novels)": 97
+  "author": "Jason",
+  "id": "112",
+  "description": "After his existential thriller (Why Are You Doing This?), his Parisian famous-writers crime caper (The Left Bank Gang), and his time-travel story (I Killed Adolf Hitler), Jason's fourth full-color album may feature his loopiest premise yet.Set in the present, The Last Musketeer stars the by-now centuries old (for no explained reason...and it doesn't matter) musketeer Athos, who has been reduced to a suavely dressed but useless near-panhandler trading on his now almost extinct fame. (Aramis has forsaken his musketeering ways, and Porthos...well, Porthos isn't around any more. Don't ask.) All this changes when one day the Martians attack Earth. Suddenly there is a need for swashes to be buckled, and Athos leaps back into the fray with a vengeance. Robots, evil alien emperors, beautiful alien princesses, rayguns vs. swords, treachery, secret corridors, insanely cool-looking robots...The Last Musketeer is vintage sci-fi adventure with a unique twist from an internationally acclaimed cartoonist.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "112_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "112_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "112_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "112_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "112_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "112_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "112_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "112_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1386,
-        "score": 3.89
+    {
+      "status": "maintenance",
+      "stock_id": "112_2"
     },
-    "pages": 1220,
-    "title": "The Last Musketeer",
-    "url": "https://www.goodreads.com/book/show/2199856.The_Last_Musketeer",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "112_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "112_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "112_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "112_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "112_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1386,
+    "score": 3.89
+  },
+  "pages": 1220,
+  "title": "The Last Musketeer",
+  "url": "https://www.goodreads.com/book/show/2199856.The_Last_Musketeer",
+  "year_published": 2007
 }

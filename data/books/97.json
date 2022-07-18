@@ -1,44 +1,44 @@
 {
-    "author": "Tom    Taylor",
-    "id": "97",
-    "description": "Two of the most popular crime-fighting teams of all time collide for the first time when the Justice League faces the Power Rangers!Something terrible has happened in Angel Grove! When the Command Center is breached and the teleporters are damaged, Zack is flung into another universe, where he's mistaken for a villain by a mysterious masked vigilante. Can the other Power Rangers get to their friend in time to save him from Batman? Co-published with BOOM! Studios and written by INJUSTICE: GODS AMONG US best-selling author Tom Taylor, this book is the crossover event of the year!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 7,
-        "comics (superheroes)": 9,
-        "dc comics (batman)": 3,
-        "fantasy": 3,
-        "fiction": 4,
-        "graphic novels comics": 3,
-        "science fiction": 4,
-        "sequential art (comics)": 48,
-        "sequential art (graphic novels)": 35,
-        "superheroes (dc comics)": 16
+  "author": "Tom    Taylor",
+  "id": "97",
+  "description": "Two of the most popular crime-fighting teams of all time collide for the first time when the Justice League faces the Power Rangers!Something terrible has happened in Angel Grove! When the Command Center is breached and the teleporters are damaged, Zack is flung into another universe, where he's mistaken for a villain by a mysterious masked vigilante. Can the other Power Rangers get to their friend in time to save him from Batman? Co-published with BOOM! Studios and written by INJUSTICE: GODS AMONG US best-selling author Tom Taylor, this book is the crossover event of the year!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "dc comics (batman)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "97_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "97_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "97_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "97_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 487,
-        "score": 3.83
+    {
+      "status": "on_loan",
+      "stock_id": "97_2"
     },
-    "pages": 1262,
-    "title": "Justice League/Power Rangers",
-    "url": "https://www.goodreads.com/book/show/33252336-justice-league-power-rangers",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "97_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 487,
+    "score": 3.83
+  },
+  "pages": 1262,
+  "title": "Justice League/Power Rangers",
+  "url": "https://www.goodreads.com/book/show/33252336-justice-league-power-rangers",
+  "year_published": 2017
 }

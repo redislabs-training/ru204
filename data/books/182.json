@@ -1,64 +1,64 @@
 {
-    "author": "Neil Gaiman",
-    "id": "182",
-    "description": "The conclusion to the bestselling InterWorld series, from Neil Gaiman, Michael Reaves, and Mallory Reaves!Joey Harker never wanted to be a leader. But he\u2019s the one everyone is looking to now that FrostNight looms, and he\u2019ll have to step up if he has any hope of saving InterWorld, the Multiverse, and everything in between.Eternity\u2019s Wheel is the heart-pounding conclusion to the InterWorld series, full of time and space travel, magic, science, and the bravery of a young boy who must now face his destiny as a young man.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 6,
-        "audiobook": 18,
-        "childrens": 4,
-        "childrens (middle grade)": 8,
-        "fantasy": 90,
-        "fiction": 33,
-        "science fiction": 65,
-        "science fiction (time travel)": 9,
-        "science fiction fantasy": 6,
-        "young adult": 44
+  "author": "Neil Gaiman",
+  "id": "182",
+  "description": "The conclusion to the bestselling InterWorld series, from Neil Gaiman, Michael Reaves, and Mallory Reaves!Joey Harker never wanted to be a leader. But he’s the one everyone is looking to now that FrostNight looms, and he’ll have to step up if he has any hope of saving InterWorld, the Multiverse, and everything in between.Eternity’s Wheel is the heart-pounding conclusion to the InterWorld series, full of time and space travel, magic, science, and the bravery of a young boy who must now face his destiny as a young man.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "182_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "182_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "182_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "182_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "182_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "182_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "182_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "182_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "182_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2583,
-        "score": 3.71
+    {
+      "status": "available",
+      "stock_id": "182_2"
     },
-    "pages": 1024,
-    "title": "Eternity's Wheel",
-    "url": "https://www.goodreads.com/book/show/23131075-eternity-s-wheel",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "182_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "182_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "182_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "182_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "182_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "182_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2583,
+    "score": 3.71
+  },
+  "pages": 1024,
+  "title": "Eternity's Wheel",
+  "url": "https://www.goodreads.com/book/show/23131075-eternity-s-wheel",
+  "year_published": 2015
 }

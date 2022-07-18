@@ -1,38 +1,38 @@
 {
-    "author": "Joe Hart",
-    "id": "1567",
-    "description": "A mysterious worldwide epidemic reduces the birthrate of female infants from 50 percent to less than 1 percent. Medical science and governments around the world scramble in an effort to solve the problem, but twenty-five years later there is no cure, and an entire generation grows up with a population of fewer than a thousand women.Zoey and some of the surviving young women are housed in a scientific research compound dedicated to determining the cause. For two decades, she\u2019s been isolated from her family, treated as a test subject, and locked away\u2014told only that the virus has wiped out the rest of the world\u2019s population.Captivity is the only life Zoey has ever known, and escaping her heavily armed captors is no easy task, but she\u2019s determined to leave before she is subjected to the next round of tests\u2026a program that no other woman has ever returned from. Even if she\u2019s successful, Zoey has no idea what she\u2019ll encounter in the strange new world beyond the facility\u2019s walls. Winning her freedom will take brutality she never imagined she possessed, as well as all her strength and cunning\u2014but Zoey is ready for war.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 49,
-        "audiobook": 13,
-        "fantasy": 37,
-        "fiction": 104,
-        "science fiction": 129,
-        "science fiction (apocalyptic)": 18,
-        "science fiction (dystopia)": 171,
-        "science fiction fantasy": 14,
-        "thriller": 39,
-        "young adult": 97
+  "author": "Joe Hart",
+  "id": "1567",
+  "description": "A mysterious worldwide epidemic reduces the birthrate of female infants from 50 percent to less than 1 percent. Medical science and governments around the world scramble in an effort to solve the problem, but twenty-five years later there is no cure, and an entire generation grows up with a population of fewer than a thousand women.Zoey and some of the surviving young women are housed in a scientific research compound dedicated to determining the cause. For two decades, she’s been isolated from her family, treated as a test subject, and locked away—told only that the virus has wiped out the rest of the world’s population.Captivity is the only life Zoey has ever known, and escaping her heavily armed captors is no easy task, but she’s determined to leave before she is subjected to the next round of tests…a program that no other woman has ever returned from. Even if she’s successful, Zoey has no idea what she’ll encounter in the strange new world beyond the facility’s walls. Winning her freedom will take brutality she never imagined she possessed, as well as all her strength and cunning—but Zoey is ready for war.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1567_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1567_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1567_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20017,
-        "score": 3.79
-    },
-    "pages": 981,
-    "title": "The Last Girl",
-    "url": "https://www.goodreads.com/book/show/27419654-the-last-girl",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "1567_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20017,
+    "score": 3.79
+  },
+  "pages": 981,
+  "title": "The Last Girl",
+  "url": "https://www.goodreads.com/book/show/27419654-the-last-girl",
+  "year_published": 2016
 }

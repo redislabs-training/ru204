@@ -1,40 +1,40 @@
 {
-    "author": "Clifford D. Simak",
-    "id": "55",
-    "description": "Carter Horton and three other crew members are sent on a mission to find a planet which would be suitable for human life. They are put in a deep sleep until they arrive. However, due to a systems malfunction, Carter is the last one left alive. When he makes it to the planet he finds that he has been in deep sleep for about two thousand years and that the ship he made it there with refuses to return to earth. The only living thing he discovers is Carnivore, who claims that there is an inter-space tunnel which is the only way to leave the planet.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies (collections)": 2,
-        "fantasy": 5,
-        "fiction": 21,
-        "literature (20th century)": 2,
-        "novels": 2,
-        "science fiction": 91,
-        "science fiction (aliens)": 2,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 7,
-        "the united states of america": 2
+  "author": "Clifford D. Simak",
+  "id": "55",
+  "description": "Carter Horton and three other crew members are sent on a mission to find a planet which would be suitable for human life. They are put in a deep sleep until they arrive. However, due to a systems malfunction, Carter is the last one left alive. When he makes it to the planet he finds that he has been in deep sleep for about two thousand years and that the ship he made it there with refuses to return to earth. The only living thing he discovers is Carnivore, who claims that there is an inter-space tunnel which is the only way to leave the planet.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "literature (20th century)",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "the united states of america"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "55_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "55_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "55_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 965,
-        "score": 3.58
-    },
-    "pages": 320,
-    "title": "Shakespeare's Planet",
-    "url": "https://www.goodreads.com/book/show/196023.Shakespeare_s_Planet",
-    "year_published": 1976
+    {
+      "status": "maintenance",
+      "stock_id": "55_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 965,
+    "score": 3.58
+  },
+  "pages": 320,
+  "title": "Shakespeare's Planet",
+  "url": "https://www.goodreads.com/book/show/196023.Shakespeare_s_Planet",
+  "year_published": 1976
 }

@@ -1,68 +1,68 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "442",
-    "description": "WINNER OF THREE EISNER AWARDSKIMONO DRAGONS brings the hunt for Ampersand\u2014the monkey who could unlock the mystery of the male-killing plague\u2014 to its explosive climax, as the last man on Earth and his companions finally reach Japan and discover the truth behind Ampersand's abduction. Collects issues #43-48 of Brian K. Vaughan and Pia Guerra's award-winning Vertigo series.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 30,
-        "apocalyptic (post apocalyptic)": 103,
-        "comics (comic book)": 92,
-        "fantasy": 30,
-        "fiction": 199,
-        "graphic novels comics": 150,
-        "science fiction": 221,
-        "science fiction (dystopia)": 96,
-        "sequential art (comics)": 1221,
-        "sequential art (graphic novels)": 1397
+  "author": "Brian K. Vaughan",
+  "id": "442",
+  "description": "WINNER OF THREE EISNER AWARDSKIMONO DRAGONS brings the hunt for Ampersand—the monkey who could unlock the mystery of the male-killing plague— to its explosive climax, as the last man on Earth and his companions finally reach Japan and discover the truth behind Ampersand's abduction. Collects issues #43-48 of Brian K. Vaughan and Pia Guerra's award-winning Vertigo series.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "442_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "442_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "442_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "442_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "442_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "442_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "442_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "442_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "442_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "442_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 27946,
-        "score": 4.21
+    {
+      "status": "available",
+      "stock_id": "442_2"
     },
-    "pages": 709,
-    "title": "Y: The Last Man, Vol. 8: Kimono Dragons",
-    "url": "https://www.goodreads.com/book/show/79422.Y",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "442_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "442_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "442_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "442_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "442_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "442_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "442_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 27946,
+    "score": 4.21
+  },
+  "pages": 709,
+  "title": "Y: The Last Man, Vol. 8: Kimono Dragons",
+  "url": "https://www.goodreads.com/book/show/79422.Y",
+  "year_published": 2006
 }

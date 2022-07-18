@@ -1,39 +1,39 @@
 {
-    "author": "Garth Nix",
-    "id": "378",
-    "description": "The stellar fourth book in Garth Nix's masterpiece series... now in paperback! On the fourth day there was war... Following their adventures in the Border Sea, Arthur and Leaf head for home. But only Leaf gets through the Front Door. Arthur is blocked because someone . . . or something . . . has assumed his identity and is taking over his life. Before Arthur can take action, he is drafted by Sir Thursday and forced to join the Glorious Army of the Architect. While Leaf tries to banish Arthur's doppleganger on earth, Arthur must survive his basic training, avoid getting posted to the Front and work out how he can free Part Four of the Will....",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 75,
-        "childrens": 83,
-        "childrens (middle grade)": 60,
-        "fantasy": 953,
-        "fantasy (magic)": 51,
-        "fiction": 141,
-        "science fiction fantasy": 25,
-        "young adult": 292,
-        "young adult (teen)": 26,
-        "young adult (young adult fantasy)": 37
+  "author": "Garth Nix",
+  "id": "378",
+  "description": "The stellar fourth book in Garth Nix's masterpiece series... now in paperback! On the fourth day there was war... Following their adventures in the Border Sea, Arthur and Leaf head for home. But only Leaf gets through the Front Door. Arthur is blocked because someone . . . or something . . . has assumed his identity and is taking over his life. Before Arthur can take action, he is drafted by Sir Thursday and forced to join the Glorious Army of the Architect. While Leaf tries to banish Arthur's doppleganger on earth, Arthur must survive his basic training, avoid getting posted to the Front and work out how he can free Part Four of the Will....",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "378_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "378_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "378_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21476,
-        "score": 3.95
-    },
-    "pages": 1065,
-    "title": "Sir Thursday",
-    "url": "https://www.goodreads.com/book/show/47618.Sir_Thursday",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "378_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21476,
+    "score": 3.95
+  },
+  "pages": 1065,
+  "title": "Sir Thursday",
+  "url": "https://www.goodreads.com/book/show/47618.Sir_Thursday",
+  "year_published": 2006
 }

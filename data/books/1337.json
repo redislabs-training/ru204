@@ -1,60 +1,60 @@
 {
-    "author": "James Patterson",
-    "id": "1337",
-    "description": "Hays Baker and his wife Lizbeth possess super-human strength, extraordinary intelligence, stunning looks, a sex life to die for, and two beautiful children. Of course, they do--they're Elites, endowed at birth with the very best that the world can offer. The only problem in their perfect world: humans and their toys!The one with the most toys--diesThe top operative for the Agency of Change, Hays has just won the fiercest battle of his career. He has been praised by the President, and is a national hero. But before he can savor his triumph, he receives an unbelievable shock that overturns everything he thought was true. Suddenly Hays is on the other side of the gun, forced to leave his perfect family and fight for his life.Now a hunted fugitive, Hays is thrown into a life he never dreamed possible--fighting to save humans everywhere from extinction. He enlists all of his training to uncover the truth that will save millions of lives--maybe even his own.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 17,
-        "fantasy": 22,
-        "fiction": 123,
-        "mystery": 76,
-        "mystery (crime)": 15,
-        "science fiction": 70,
-        "science fiction (dystopia)": 17,
-        "suspense": 33,
-        "thriller": 88,
-        "thriller (mystery thriller)": 19
+  "author": "James Patterson",
+  "id": "1337",
+  "description": "Hays Baker and his wife Lizbeth possess super-human strength, extraordinary intelligence, stunning looks, a sex life to die for, and two beautiful children. Of course, they do--they're Elites, endowed at birth with the very best that the world can offer. The only problem in their perfect world: humans and their toys!The one with the most toys--diesThe top operative for the Agency of Change, Hays has just won the fiercest battle of his career. He has been praised by the President, and is a national hero. But before he can savor his triumph, he receives an unbelievable shock that overturns everything he thought was true. Suddenly Hays is on the other side of the gun, forced to leave his perfect family and fight for his life.Now a hunted fugitive, Hays is thrown into a life he never dreamed possible--fighting to save humans everywhere from extinction. He enlists all of his training to uncover the truth that will save millions of lives--maybe even his own.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1337_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1337_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1337_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1337_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1337_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1337_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1337_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1337_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12122,
-        "score": 3.37
+    {
+      "status": "maintenance",
+      "stock_id": "1337_2"
     },
-    "pages": 1039,
-    "title": "Toys",
-    "url": "https://www.goodreads.com/book/show/8273044-toys",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "1337_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1337_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1337_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1337_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1337_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12122,
+    "score": 3.37
+  },
+  "pages": 1039,
+  "title": "Toys",
+  "url": "https://www.goodreads.com/book/show/8273044-toys",
+  "year_published": 2011
 }

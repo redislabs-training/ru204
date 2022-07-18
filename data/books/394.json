@@ -1,39 +1,39 @@
 {
-    "author": "Brian Augustyn",
-    "id": "394",
-    "description": "Presenting for the first time the adventures of the Victorian Era Batman in one 112-page edition! This volume includes the breakthrough Elseworlds specials Gotham by Gaslight and Master of the Future that pit the Dark Knight against Jack the Ripper and a death-dealer from the skies over Gotham!This edition collects the two one-shots: Gotham by Gaslight and Master of the Future.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 40,
-        "comics (superheroes)": 43,
-        "dc comics (batman)": 189,
-        "fiction": 42,
-        "graphic novels comics": 38,
-        "historical (historical fiction)": 32,
-        "science fiction (steampunk)": 40,
-        "sequential art (comics)": 477,
-        "sequential art (graphic novels)": 349,
-        "superheroes (dc comics)": 78
+  "author": "Brian Augustyn",
+  "id": "394",
+  "description": "Presenting for the first time the adventures of the Victorian Era Batman in one 112-page edition! This volume includes the breakthrough Elseworlds specials Gotham by Gaslight and Master of the Future that pit the Dark Knight against Jack the Ripper and a death-dealer from the skies over Gotham!This edition collects the two one-shots: Gotham by Gaslight and Master of the Future.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "dc comics (batman)",
+    "fiction",
+    "graphic novels comics",
+    "historical (historical fiction)",
+    "science fiction (steampunk)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "394_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "394_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "394_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11198,
-        "score": 3.89
-    },
-    "pages": 502,
-    "title": "Batman: Gotham by Gaslight",
-    "url": "https://www.goodreads.com/book/show/107159.Batman",
-    "year_published": 1989
+    {
+      "status": "maintenance",
+      "stock_id": "394_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11198,
+    "score": 3.89
+  },
+  "pages": 502,
+  "title": "Batman: Gotham by Gaslight",
+  "url": "https://www.goodreads.com/book/show/107159.Batman",
+  "year_published": 1989
 }

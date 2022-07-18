@@ -1,48 +1,48 @@
 {
-    "author": "John Marsden",
-    "id": "708",
-    "description": "A few months after the first fighter jets landed in their own backyard, Ellie and her five terrified but defiant friends struggle to survive amid a baffling conflict. Their families are unreachable; the mountains are now their home. When two of them fall behind enemy lines, Ellie knows what must happen next: a rescue mission. Homer, the strongest and most unpredictable among them, is the one to take charge. While others have their doubts about his abilities, Homer has no choice but to prove them wrong - or risk losing everything to the enemy.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 53,
-        "adventure": 77,
-        "adventure (survival)": 36,
-        "cultural (australia)": 76,
-        "fiction": 221,
-        "science fiction": 42,
-        "science fiction (dystopia)": 121,
-        "war": 158,
-        "young adult": 583,
-        "young adult (teen)": 39
+  "author": "John Marsden",
+  "id": "708",
+  "description": "A few months after the first fighter jets landed in their own backyard, Ellie and her five terrified but defiant friends struggle to survive amid a baffling conflict. Their families are unreachable; the mountains are now their home. When two of them fall behind enemy lines, Ellie knows what must happen next: a rescue mission. Homer, the strongest and most unpredictable among them, is the one to take charge. While others have their doubts about his abilities, Homer has no choice but to prove them wrong - or risk losing everything to the enemy.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "cultural (australia)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "war",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "708_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "708_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "708_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "708_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "708_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20508,
-        "score": 4.13
+    {
+      "status": "available",
+      "stock_id": "708_2"
     },
-    "pages": 751,
-    "title": "The Dead of Night",
-    "url": "https://www.goodreads.com/book/show/71864.The_Dead_of_Night",
-    "year_published": 1994
+    {
+      "status": "maintenance",
+      "stock_id": "708_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "708_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20508,
+    "score": 4.13
+  },
+  "pages": 751,
+  "title": "The Dead of Night",
+  "url": "https://www.goodreads.com/book/show/71864.The_Dead_of_Night",
+  "year_published": 1994
 }

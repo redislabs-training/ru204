@@ -1,36 +1,36 @@
 {
-    "author": "Justin Richards",
-    "id": "226",
-    "description": "Starfall - a world on the edge, where crooks and smugglers hide in the gloomy shadows and modern technology refuses to work. And that includes the TARDIS. The pioneers who used to be drawn by the hope of making a fortune from the mines can find easier picking elsewhere. But they still come for the romance of it, or old-fashioned organic mining. Or in the hope of finding the lost treasure of Hamlek Glint - scourge of the spaceways, privateer, adventurer, bandit.Will the TARDIS ever work again? Is Glint's lost treasure waiting to be found? And does the fabled Resurrection Casket, the key to eternal life, really exist? With the help of new friends, and to the horror of new enemies, the Doctor and Rose aim to find out.Featuring the Tenth Doctor and Rose as played by David Tennant and Billie Piper in the acclaimed Doctor Who series from BBC Television.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 16,
-        "audiobook": 55,
-        "fantasy": 31,
-        "fiction": 64,
-        "media tie in": 11,
-        "media tie in (doctor who)": 416,
-        "science fiction": 168,
-        "science fiction (steampunk)": 10,
-        "science fiction (time travel)": 38,
-        "young adult": 10
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "226_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2907,
-        "score": 3.81
-    },
-    "pages": 1245,
-    "title": "Doctor Who: The Resurrection Casket",
-    "url": "https://www.goodreads.com/book/show/153192.Doctor_Who",
-    "year_published": 2006
+  "author": "Justin Richards",
+  "id": "226",
+  "description": "Starfall - a world on the edge, where crooks and smugglers hide in the gloomy shadows and modern technology refuses to work. And that includes the TARDIS. The pioneers who used to be drawn by the hope of making a fortune from the mines can find easier picking elsewhere. But they still come for the romance of it, or old-fashioned organic mining. Or in the hope of finding the lost treasure of Hamlek Glint - scourge of the spaceways, privateer, adventurer, bandit.Will the TARDIS ever work again? Is Glint's lost treasure waiting to be found? And does the fabled Resurrection Casket, the key to eternal life, really exist? With the help of new friends, and to the horror of new enemies, the Doctor and Rose aim to find out.Featuring the Tenth Doctor and Rose as played by David Tennant and Billie Piper in the acclaimed Doctor Who series from BBC Television.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "226_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2907,
+    "score": 3.81
+  },
+  "pages": 1245,
+  "title": "Doctor Who: The Resurrection Casket",
+  "url": "https://www.goodreads.com/book/show/153192.Doctor_Who",
+  "year_published": 2006
 }

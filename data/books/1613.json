@@ -1,35 +1,35 @@
 {
-    "author": "Alden Bell",
-    "id": "1613",
-    "description": "Zombies have infested a fallen America. A young girl named Temple is on the run. Haunted by her past and pursued by a killer, Temple is surrounded by death and danger, hoping to be set free.For twenty-five years, civilization has survived in meager enclaves, guarded against a plague of the dead. Temple wanders this blighted landscape, keeping to herself - and keeping her demons inside. She can't remember a time before the zombies, but she does remember an old man who took her in and the younger brother she cared for until the tragedy that set her on a personal journey toward redemption. Moving back and forth between the insulated remnants of society and the brutal frontier beyond, Temple must decide where ultimately to make a home and find the salvation she seeks.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 228,
-        "fantasy": 98,
-        "fantasy (paranormal)": 43,
-        "fiction": 198,
-        "horror": 631,
-        "horror (zombies)": 710,
-        "science fiction": 84,
-        "science fiction (apocalyptic)": 64,
-        "science fiction (dystopia)": 186,
-        "young adult": 181
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1613_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11152,
-        "score": 3.89
-    },
-    "pages": 659,
-    "title": "The Reapers are the Angels",
-    "url": "https://www.goodreads.com/book/show/8051458-the-reapers-are-the-angels",
-    "year_published": 2010
+  "author": "Alden Bell",
+  "id": "1613",
+  "description": "Zombies have infested a fallen America. A young girl named Temple is on the run. Haunted by her past and pursued by a killer, Temple is surrounded by death and danger, hoping to be set free.For twenty-five years, civilization has survived in meager enclaves, guarded against a plague of the dead. Temple wanders this blighted landscape, keeping to herself - and keeping her demons inside. She can't remember a time before the zombies, but she does remember an old man who took her in and the younger brother she cared for until the tragedy that set her on a personal journey toward redemption. Moving back and forth between the insulated remnants of society and the brutal frontier beyond, Temple must decide where ultimately to make a home and find the salvation she seeks.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1613_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11152,
+    "score": 3.89
+  },
+  "pages": 659,
+  "title": "The Reapers are the Angels",
+  "url": "https://www.goodreads.com/book/show/8051458-the-reapers-are-the-angels",
+  "year_published": 2010
 }

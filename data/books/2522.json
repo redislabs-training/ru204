@@ -1,35 +1,35 @@
 {
-    "author": "Pierce Brown",
-    "id": "2522",
-    "description": "The #1 New York Times bestselling author of Morning Star returns to the Red Rising universe with the thrilling sequel to Iron Gold.For a decade Darrow led a revolution against the corrupt color-coded Society. Now, outlawed by the very Republic he founded, he wages a rogue war on Mercury in hopes that he can still salvage the dream of Eo. But as he leaves death and destruction in his wake, is he still the hero who broke the chains? Or will another legend rise to take his place?Lysander au Lune, the heir in exile, has returned to the Core. Determined to bring peace back to mankind at the edge of his sword, he must overcome or unite the treacherous Gold families of the Core and face down Darrow over the skies of war-torn Mercury. But theirs are not the only fates hanging in the balance.On Luna, Mustang, Sovereign of the Republic, campaigns to unite the Republic behind her husband. Beset by political and criminal enemies, can she outwit her opponents in time to save him? Once a Red refugee, young Lyria now stands accused of treason, and her only hope is a desperate escape with unlikely new allies.Abducted by a new threat to the Republic, Pax and Electra, the children of Darrow and Sevro, must trust in Ephraim, a thief, for their salvation\u2014and Ephraim must look to them for his chance at redemption.As alliances shift, break, and re-form\u2014and power is seized, lost, and reclaimed\u2014every player is at risk in a game of conquest that could turn the Rising into a new Dark Age.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 46,
-        "audiobook": 66,
-        "fantasy": 280,
-        "fiction": 253,
-        "science fiction": 582,
-        "science fiction (dystopia)": 88,
-        "science fiction fantasy": 42,
-        "space (space opera)": 43,
-        "war": 25,
-        "young adult": 54
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2522_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 24945,
-        "score": 4.44
-    },
-    "pages": 1120,
-    "title": "Dark Age",
-    "url": "https://www.goodreads.com/book/show/29226553-dark-age",
-    "year_published": 2019
+  "author": "Pierce Brown",
+  "id": "2522",
+  "description": "The #1 New York Times bestselling author of Morning Star returns to the Red Rising universe with the thrilling sequel to Iron Gold.For a decade Darrow led a revolution against the corrupt color-coded Society. Now, outlawed by the very Republic he founded, he wages a rogue war on Mercury in hopes that he can still salvage the dream of Eo. But as he leaves death and destruction in his wake, is he still the hero who broke the chains? Or will another legend rise to take his place?Lysander au Lune, the heir in exile, has returned to the Core. Determined to bring peace back to mankind at the edge of his sword, he must overcome or unite the treacherous Gold families of the Core and face down Darrow over the skies of war-torn Mercury. But theirs are not the only fates hanging in the balance.On Luna, Mustang, Sovereign of the Republic, campaigns to unite the Republic behind her husband. Beset by political and criminal enemies, can she outwit her opponents in time to save him? Once a Red refugee, young Lyria now stands accused of treason, and her only hope is a desperate escape with unlikely new allies.Abducted by a new threat to the Republic, Pax and Electra, the children of Darrow and Sevro, must trust in Ephraim, a thief, for their salvation—and Ephraim must look to them for his chance at redemption.As alliances shift, break, and re-form—and power is seized, lost, and reclaimed—every player is at risk in a game of conquest that could turn the Rising into a new Dark Age.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "space (space opera)",
+    "war",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2522_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 24945,
+    "score": 4.44
+  },
+  "pages": 1120,
+  "title": "Dark Age",
+  "url": "https://www.goodreads.com/book/show/29226553-dark-age",
+  "year_published": 2019
 }

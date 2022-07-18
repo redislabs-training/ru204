@@ -1,36 +1,36 @@
 {
-    "author": "Alexander Gordon Smith",
-    "id": "530",
-    "description": "Alex's second attempt to break out of Furnace Penetentiary has failed. This time his punishment will be much worse than before. Because in the hidden, bloodstained laboratories beneath the prison, he will be made into a monster. As the warden pumps something evil into his veins--a sinisterly dark nectar--Alex becomes what he most fears . . . a superhuman minion of Furnace. How can he escape when the darkness is inside him? How can he lead the way to freedom if he is lost to himself?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 13,
-        "adventure": 14,
-        "fantasy": 26,
-        "fiction": 36,
-        "horror": 134,
-        "science fiction": 59,
-        "science fiction (dystopia)": 66,
-        "thriller": 25,
-        "young adult": 133,
-        "young adult (teen)": 14
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "530_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6340,
-        "score": 4.29
-    },
-    "pages": 307,
-    "title": "Death Sentence",
-    "url": "https://www.goodreads.com/book/show/9757310-death-sentence",
-    "year_published": 2009
+  "author": "Alexander Gordon Smith",
+  "id": "530",
+  "description": "Alex's second attempt to break out of Furnace Penetentiary has failed. This time his punishment will be much worse than before. Because in the hidden, bloodstained laboratories beneath the prison, he will be made into a monster. As the warden pumps something evil into his veins--a sinisterly dark nectar--Alex becomes what he most fears . . . a superhuman minion of Furnace. How can he escape when the darkness is inside him? How can he lead the way to freedom if he is lost to himself?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "530_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6340,
+    "score": 4.29
+  },
+  "pages": 307,
+  "title": "Death Sentence",
+  "url": "https://www.goodreads.com/book/show/9757310-death-sentence",
+  "year_published": 2009
 }

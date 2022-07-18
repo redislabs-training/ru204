@@ -1,54 +1,54 @@
 {
-    "author": "John Brunner",
-    "id": "424",
-    "description": "An enduring classic, this book offers a dramatic and prophetic look at the potential consequences of the escalating destruction of Earth. In this nightmare society, air pollution is so bad that gas masks are commonplace. Infant mortality is up, and everyone seems to suffer from some form of ailment.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 57,
-        "classics": 23,
-        "fiction": 167,
-        "horror": 25,
-        "novels": 12,
-        "science fiction": 397,
-        "science fiction (apocalyptic)": 32,
-        "science fiction (dystopia)": 131,
-        "science fiction fantasy": 27,
-        "speculative fiction": 28
+  "author": "John Brunner",
+  "id": "424",
+  "description": "An enduring classic, this book offers a dramatic and prophetic look at the potential consequences of the escalating destruction of Earth. In this nightmare society, air pollution is so bad that gas masks are commonplace. Infant mortality is up, and everyone seems to suffer from some form of ailment.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "classics",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "424_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "424_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "424_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "424_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "424_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "424_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "424_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4454,
-        "score": 3.94
+    {
+      "status": "on_loan",
+      "stock_id": "424_2"
     },
-    "pages": 667,
-    "title": "The Sheep Look Up",
-    "url": "https://www.goodreads.com/book/show/41074.The_Sheep_Look_Up",
-    "year_published": 1972
+    {
+      "status": "on_loan",
+      "stock_id": "424_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "424_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "424_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "424_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4454,
+    "score": 3.94
+  },
+  "pages": 667,
+  "title": "The Sheep Look Up",
+  "url": "https://www.goodreads.com/book/show/41074.The_Sheep_Look_Up",
+  "year_published": 1972
 }

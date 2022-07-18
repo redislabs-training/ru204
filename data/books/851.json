@@ -1,63 +1,63 @@
 {
-    "author": "Patricia Forde",
-    "id": "851",
-    "description": "In the city of Ark, speech is constrained to five hundred sanctioned words. Speak outside the approved lexicon and face banishment. The exceptions are the Wordsmith and his apprentice Letta, the keepers and archivists of all language in their post-apocalyptic, neo-medieval world. On the death of her master, Letta is suddenly promoted to Wordsmith, charged with collecting and saving words. But when she uncovers a sinister plan to suppress language and rob Ark\u2019s citizens of their power of speech, she realizes that it\u2019s up to her to save not only words, but culture itself.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 16,
-        "audiobook": 13,
-        "childrens": 22,
-        "childrens (middle grade)": 138,
-        "fantasy": 88,
-        "fiction": 45,
-        "science fiction": 57,
-        "science fiction (dystopia)": 108,
-        "young adult": 84,
-        "young adult (teen)": 11
+  "author": "Patricia Forde",
+  "id": "851",
+  "description": "In the city of Ark, speech is constrained to five hundred sanctioned words. Speak outside the approved lexicon and face banishment. The exceptions are the Wordsmith and his apprentice Letta, the keepers and archivists of all language in their post-apocalyptic, neo-medieval world. On the death of her master, Letta is suddenly promoted to Wordsmith, charged with collecting and saving words. But when she uncovers a sinister plan to suppress language and rob Ark’s citizens of their power of speech, she realizes that it’s up to her to save not only words, but culture itself.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "851_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "851_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "851_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "851_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "851_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "851_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "851_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "851_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "851_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3710,
-        "score": 3.65
+    {
+      "status": "maintenance",
+      "stock_id": "851_2"
     },
-    "pages": 412,
-    "title": "The List",
-    "url": "https://www.goodreads.com/book/show/33846933-the-list",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "851_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "851_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "851_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "851_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "851_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "851_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3710,
+    "score": 3.65
+  },
+  "pages": 412,
+  "title": "The List",
+  "url": "https://www.goodreads.com/book/show/33846933-the-list",
+  "year_published": 2015
 }

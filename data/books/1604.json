@@ -1,63 +1,63 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1604",
-    "description": "A Discworld Novel. It's a hot Midsummer Night. The crop circles are turning up everywhere-even on the mustard-and-cress of Pewseyy Ogg, aged four. And Magrat Garlick, witch, is going to be married in the morning...Everything ought to be going like a dream. But the Lancre All-Comers Morris Team have got drunk on a fairy mound and the elves have come back, bringing all those things traditionally associated with the magical, glittering realm of Faerie: cruelty, kidnapping, malice and evil, evil murder.* Granny Weatherwax and her tiny argumentative coven have really got their work cut out this time...With full supporting cast of dwarfs, wizards, trolls, Morris Dancers and one orang-utan. And lots. of hey-nonny-nonny and blood all over the place.*But with tons of style.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 92,
-        "audiobook": 78,
-        "fantasy": 4378,
-        "fantasy (magic)": 77,
-        "fiction": 779,
-        "humor": 730,
-        "humor (comedy)": 221,
-        "paranormal (witches)": 113,
-        "science fiction fantasy": 163,
-        "young adult": 86
+  "author": "Terry Pratchett",
+  "id": "1604",
+  "description": "A Discworld Novel. It's a hot Midsummer Night. The crop circles are turning up everywhere-even on the mustard-and-cress of Pewseyy Ogg, aged four. And Magrat Garlick, witch, is going to be married in the morning...Everything ought to be going like a dream. But the Lancre All-Comers Morris Team have got drunk on a fairy mound and the elves have come back, bringing all those things traditionally associated with the magical, glittering realm of Faerie: cruelty, kidnapping, malice and evil, evil murder.* Granny Weatherwax and her tiny argumentative coven have really got their work cut out this time...With full supporting cast of dwarfs, wizards, trolls, Morris Dancers and one orang-utan. And lots. of hey-nonny-nonny and blood all over the place.*But with tons of style.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "paranormal (witches)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1604_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1604_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1604_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1604_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1604_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1604_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1604_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1604_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1604_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 71257,
-        "score": 4.15
+    {
+      "status": "maintenance",
+      "stock_id": "1604_2"
     },
-    "pages": 1176,
-    "title": "Lords and Ladies",
-    "url": "https://www.goodreads.com/book/show/34529.Lords_and_Ladies",
-    "year_published": 1992
+    {
+      "status": "on_loan",
+      "stock_id": "1604_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1604_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1604_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1604_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1604_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1604_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 71257,
+    "score": 4.15
+  },
+  "pages": 1176,
+  "title": "Lords and Ladies",
+  "url": "https://www.goodreads.com/book/show/34529.Lords_and_Ladies",
+  "year_published": 1992
 }

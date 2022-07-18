@@ -1,35 +1,35 @@
 {
-    "author": "Ruthanna Emrys",
-    "id": "621",
-    "description": "After attacking Devil\u2019s Reef in 1928, the U.S. government rounded up the people of Innsmouth and took them to the desert, far from their ocean, their Deep One ancestors, and their sleeping god Cthulhu. Only Aphra and Caleb Marsh survived the camps, and they emerged without a past or a future.The government that stole Aphra's life now needs her help. FBI agent Ron Spector believes that Communist spies have stolen dangerous magical secrets from Miskatonic University, secrets that could turn the Cold War hot in an instant, and hasten the end of the human race.Aphra must return to the ruins of her home, gather scraps of her stolen history, and assemble a new family to face the darkness of human nature.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 398,
-        "fantasy (urban fantasy)": 33,
-        "fiction": 113,
-        "historical": 34,
-        "historical (historical fiction)": 64,
-        "horror": 257,
-        "horror (lovecraftian)": 58,
-        "science fiction": 42,
-        "science fiction fantasy": 21,
-        "speculative fiction": 17
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "621_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2719,
-        "score": 3.77
-    },
-    "pages": 402,
-    "title": "Winter Tide",
-    "url": "https://www.goodreads.com/book/show/29939089-winter-tide",
-    "year_published": 2017
+  "author": "Ruthanna Emrys",
+  "id": "621",
+  "description": "After attacking Devil’s Reef in 1928, the U.S. government rounded up the people of Innsmouth and took them to the desert, far from their ocean, their Deep One ancestors, and their sleeping god Cthulhu. Only Aphra and Caleb Marsh survived the camps, and they emerged without a past or a future.The government that stole Aphra's life now needs her help. FBI agent Ron Spector believes that Communist spies have stolen dangerous magical secrets from Miskatonic University, secrets that could turn the Cold War hot in an instant, and hasten the end of the human race.Aphra must return to the ruins of her home, gather scraps of her stolen history, and assemble a new family to face the darkness of human nature.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "horror (lovecraftian)",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "621_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2719,
+    "score": 3.77
+  },
+  "pages": 402,
+  "title": "Winter Tide",
+  "url": "https://www.goodreads.com/book/show/29939089-winter-tide",
+  "year_published": 2017
 }

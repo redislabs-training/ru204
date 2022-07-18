@@ -1,35 +1,35 @@
 {
-    "author": "Vernor Vinge",
-    "id": "1015",
-    "description": "Alternative Cover Edition can be found here. After thousands of years searching, humans stand on the verge of first contact with an alien race. Two human groups: the Qeng Ho, a culture of free traders, and the Emergents, a ruthless society based on the technological enslavement of minds.The group that opens trade with the aliens will reap unimaginable riches. But first, both groups must wait at the aliens' very doorstep for their strange star to relight and for their planet to reawaken, as it does every two hundred and fifty years....Then, following terrible treachery, the Qeng Ho must fight for their freedom and for the lives of the unsuspecting innocents on the planet below, while the aliens themselves play a role unsuspected by the Qeng Ho and Emergents alike.More than just a great science fiction adventure, A Deepness in the Sky is a universal drama of courage, self-discovery, and the redemptive power of love.\u00a0A Deepness in the Sky is a 1999 Nebula Award Nominee for Best Novel and the winner of the 2000 Hugo Award for Best Novel.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 26,
-        "fiction": 341,
-        "hugo awards": 75,
-        "science fiction": 1044,
-        "science fiction (aliens)": 31,
-        "science fiction (hard science fiction)": 23,
-        "science fiction fantasy": 57,
-        "space": 23,
-        "space (space opera)": 138,
-        "speculative fiction": 25
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1015_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 29911,
-        "score": 4.31
-    },
-    "pages": 749,
-    "title": "A Deepness in the Sky",
-    "url": "https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky",
-    "year_published": 1999
+  "author": "Vernor Vinge",
+  "id": "1015",
+  "description": "Alternative Cover Edition can be found here. After thousands of years searching, humans stand on the verge of first contact with an alien race. Two human groups: the Qeng Ho, a culture of free traders, and the Emergents, a ruthless society based on the technological enslavement of minds.The group that opens trade with the aliens will reap unimaginable riches. But first, both groups must wait at the aliens' very doorstep for their strange star to relight and for their planet to reawaken, as it does every two hundred and fifty years....Then, following terrible treachery, the Qeng Ho must fight for their freedom and for the lives of the unsuspecting innocents on the planet below, while the aliens themselves play a role unsuspected by the Qeng Ho and Emergents alike.More than just a great science fiction adventure, A Deepness in the Sky is a universal drama of courage, self-discovery, and the redemptive power of love. A Deepness in the Sky is a 1999 Nebula Award Nominee for Best Novel and the winner of the 2000 Hugo Award for Best Novel.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (hard science fiction)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1015_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 29911,
+    "score": 4.31
+  },
+  "pages": 749,
+  "title": "A Deepness in the Sky",
+  "url": "https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky",
+  "year_published": 1999
 }

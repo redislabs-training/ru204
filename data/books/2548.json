@@ -1,44 +1,44 @@
 {
-    "author": "Brent Weeks",
-    "id": "2548",
-    "description": "Gavin Guile is dying.He\u2019d thought he had five years left\u2014now he has less than one. With fifty thousand refugees, a bastard son, and an ex-fianc\u00e9e who may have learned his darkest secret, Gavin has problems on every side. All magic in the world is running wild and threatens to destroy the Seven Satrapies.Worst of all, the old gods are being reborn, and their army of color wights is unstoppable. The only salvation may be the brother whose freedom and life Gavin stole sixteen years ago.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 108,
-        "audiobook": 72,
-        "childrens": 71,
-        "childrens (middle grade)": 68,
-        "fantasy": 3152,
-        "fantasy (epic fantasy)": 252,
-        "fantasy (high fantasy)": 140,
-        "fantasy (magic)": 120,
-        "fiction": 228,
-        "young adult": 80
+  "author": "Brent Weeks",
+  "id": "2548",
+  "description": "Gavin Guile is dying.He’d thought he had five years left—now he has less than one. With fifty thousand refugees, a bastard son, and an ex-fiancée who may have learned his darkest secret, Gavin has problems on every side. All magic in the world is running wild and threatens to destroy the Seven Satrapies.Worst of all, the old gods are being reborn, and their army of color wights is unstoppable. The only salvation may be the brother whose freedom and life Gavin stole sixteen years ago.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2548_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2548_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2548_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2548_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 77337,
-        "score": 4.39
+    {
+      "status": "available",
+      "stock_id": "2548_2"
     },
-    "pages": 353,
-    "title": "The Blinding Knife",
-    "url": "https://www.goodreads.com/book/show/12499290-the-blinding-knife",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "2548_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 77337,
+    "score": 4.39
+  },
+  "pages": 353,
+  "title": "The Blinding Knife",
+  "url": "https://www.goodreads.com/book/show/12499290-the-blinding-knife",
+  "year_published": 2012
 }

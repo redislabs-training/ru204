@@ -1,35 +1,35 @@
 {
-    "author": "Nick Harkaway",
-    "id": "1362",
-    "description": "From the acclaimed author of The Gone-Away World, blistering gangster noir meets howling absurdist comedy as the forces of good square off against the forces of evil, and only an unassuming clockwork repairman and an octogenarian former superspy can save the world from total destruction.Joe Spork spends his days fixing antique clocks. The son of infamous London criminal Mathew \u201cTommy Gun\u201d Spork, he has turned his back on his family\u2019s mobster history and aims to live a quiet life. That orderly existence is suddenly upended when Joe activates a particularly unusual clockwork mechanism. His client, Edie Banister, is more than the kindly old lady she appears to be\u2014she\u2019s a retired international secret agent. And the device? It\u2019s a 1950s doomsday machine. Having triggered it, Joe now faces the wrath of both the British government and a diabolical South Asian dictator who is also Edie\u2019s old arch-nemesis. On the upside, Joe\u2019s got a girl: a bold receptionist named Polly whose smarts, savvy and sex appeal may be just what he needs. With Joe\u2019s once-quiet world suddenly overrun by mad monks, psychopathic serial killers, scientific geniuses and threats to the future of conscious life in the universe, he realizes that the only way to survive is to muster the courage to fight, help Edie complete a mission she abandoned years ago and pick up his father\u2019s old gun...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 33,
-        "fantasy": 231,
-        "fiction": 342,
-        "humor": 35,
-        "mystery": 126,
-        "mystery (crime)": 34,
-        "science fiction": 244,
-        "science fiction (steampunk)": 153,
-        "science fiction fantasy": 32,
-        "thriller": 62
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1362_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9468,
-        "score": 3.94
-    },
-    "pages": 852,
-    "title": "Angelmaker",
-    "url": "https://www.goodreads.com/book/show/12266560-angelmaker",
-    "year_published": 2012
+  "author": "Nick Harkaway",
+  "id": "1362",
+  "description": "From the acclaimed author of The Gone-Away World, blistering gangster noir meets howling absurdist comedy as the forces of good square off against the forces of evil, and only an unassuming clockwork repairman and an octogenarian former superspy can save the world from total destruction.Joe Spork spends his days fixing antique clocks. The son of infamous London criminal Mathew “Tommy Gun” Spork, he has turned his back on his family’s mobster history and aims to live a quiet life. That orderly existence is suddenly upended when Joe activates a particularly unusual clockwork mechanism. His client, Edie Banister, is more than the kindly old lady she appears to be—she’s a retired international secret agent. And the device? It’s a 1950s doomsday machine. Having triggered it, Joe now faces the wrath of both the British government and a diabolical South Asian dictator who is also Edie’s old arch-nemesis. On the upside, Joe’s got a girl: a bold receptionist named Polly whose smarts, savvy and sex appeal may be just what he needs. With Joe’s once-quiet world suddenly overrun by mad monks, psychopathic serial killers, scientific geniuses and threats to the future of conscious life in the universe, he realizes that the only way to survive is to muster the courage to fight, help Edie complete a mission she abandoned years ago and pick up his father’s old gun...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1362_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9468,
+    "score": 3.94
+  },
+  "pages": 852,
+  "title": "Angelmaker",
+  "url": "https://www.goodreads.com/book/show/12266560-angelmaker",
+  "year_published": 2012
 }

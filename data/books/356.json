@@ -1,36 +1,36 @@
 {
-    "author": "Stephen R. Donaldson",
-    "id": "356",
-    "description": "\"A trilogy of remarkable scope and sophistication.\"--Los Angeles TimesTwice before Thomas Covenant had been summoned to the strange otherworld where magic worked. Twice before he had been forced to join with the Lords of Revelstone in their war against Lord Foul, the ancient enemy of the Land.Now he was back--to a Land ravaged by the armies of Lord Foul. The Lords were besieged and helpless. No place was safe, and Foul's victory seemed certain. Only Covenant could avert it. Desperately and without hope, he set out to confront the might of the Enemy. Along with him traveled a Giant, a Bloodguard, and the madwoman he had wronged. And in Foul's Creche, Lord Foul grew in power with each new defeat for the Land. . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 28,
-        "epic": 30,
-        "fantasy": 1764,
-        "fantasy (epic fantasy)": 53,
-        "fantasy (high fantasy)": 22,
-        "fiction": 247,
-        "novels": 10,
-        "science fiction": 50,
-        "science fiction fantasy": 90,
-        "speculative fiction": 14
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "356_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23110,
-        "score": 4.02
-    },
-    "pages": 1008,
-    "title": "The Power That Preserves",
-    "url": "https://www.goodreads.com/book/show/687215.The_Power_That_Preserves",
-    "year_published": 1978
+  "author": "Stephen R. Donaldson",
+  "id": "356",
+  "description": "\"A trilogy of remarkable scope and sophistication.\"--Los Angeles TimesTwice before Thomas Covenant had been summoned to the strange otherworld where magic worked. Twice before he had been forced to join with the Lords of Revelstone in their war against Lord Foul, the ancient enemy of the Land.Now he was back--to a Land ravaged by the armies of Lord Foul. The Lords were besieged and helpless. No place was safe, and Foul's victory seemed certain. Only Covenant could avert it. Desperately and without hope, he set out to confront the might of the Enemy. Along with him traveled a Giant, a Bloodguard, and the madwoman he had wronged. And in Foul's Creche, Lord Foul grew in power with each new defeat for the Land. . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "epic",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "356_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23110,
+    "score": 4.02
+  },
+  "pages": 1008,
+  "title": "The Power That Preserves",
+  "url": "https://www.goodreads.com/book/show/687215.The_Power_That_Preserves",
+  "year_published": 1978
 }

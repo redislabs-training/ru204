@@ -1,52 +1,52 @@
 {
-    "author": "Warren Ellis",
-    "id": "208",
-    "description": "SC, TPB, in cello, New, Written by Warren Ellis. Art by Darick Robertson. Published in June of 2001. Softcover, 144 pages, full color. Mature Readers. Cover price $14.99.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 51,
-        "fiction": 96,
-        "graphic novels comics": 52,
-        "humor": 22,
-        "science fiction": 143,
-        "science fiction (cyberpunk)": 83,
-        "science fiction (dystopia)": 50,
-        "sequential art (comics)": 692,
-        "sequential art (comix)": 20,
-        "sequential art (graphic novels)": 575
+  "author": "Warren Ellis",
+  "id": "208",
+  "description": "SC, TPB, in cello, New, Written by Warren Ellis. Art by Darick Robertson. Published in June of 2001. Softcover, 144 pages, full color. Mature Readers. Cover price $14.99.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "208_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "208_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "208_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "208_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "208_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "208_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12460,
-        "score": 4.41
+    {
+      "status": "available",
+      "stock_id": "208_2"
     },
-    "pages": 936,
-    "title": "Transmetropolitan, Vol. 5: Lonely City",
-    "url": "https://www.goodreads.com/book/show/22420.Transmetropolitan_Vol_5",
-    "year_published": 2001
+    {
+      "status": "on_loan",
+      "stock_id": "208_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "208_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "208_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12460,
+    "score": 4.41
+  },
+  "pages": 936,
+  "title": "Transmetropolitan, Vol. 5: Lonely City",
+  "url": "https://www.goodreads.com/book/show/22420.Transmetropolitan_Vol_5",
+  "year_published": 2001
 }

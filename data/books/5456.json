@@ -1,38 +1,38 @@
 {
-    "author": "Connie Willis",
-    "id": "5456",
-    "description": "For Kivrin, preparing an on-site study of one of the deadliest eras in humanity's history was as simple as receiving inoculations against the diseases of the fourteenth century and inventing an alibi for a woman traveling alone. For her instructors in the twenty-first century, it meant painstaking calculations and careful monitoring of the rendezvous location where Kivrin would be received.But a crisis strangely linking past and future strands Kivrin in a bygone age as her fellows try desperately to rescue her. In a time of superstition and fear, Kivrin--barely of age herself--finds she has become an unlikely angel of hope during one of history's darkest hours.Connie Willis draws upon her understanding of the universalities of human nature to explore the ageless issues of evil, suffering, and the indomitable will of the human spirit.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 110,
-        "fantasy": 651,
-        "fiction": 1126,
-        "historical": 359,
-        "historical (historical fiction)": 1284,
-        "historical (medieval)": 134,
-        "science fiction": 2343,
-        "science fiction (time travel)": 1356,
-        "science fiction fantasy": 237,
-        "speculative fiction": 127
+  "author": "Connie Willis",
+  "id": "5456",
+  "description": "For Kivrin, preparing an on-site study of one of the deadliest eras in humanity's history was as simple as receiving inoculations against the diseases of the fourteenth century and inventing an alibi for a woman traveling alone. For her instructors in the twenty-first century, it meant painstaking calculations and careful monitoring of the rendezvous location where Kivrin would be received.But a crisis strangely linking past and future strands Kivrin in a bygone age as her fellows try desperately to rescue her. In a time of superstition and fear, Kivrin--barely of age herself--finds she has become an unlikely angel of hope during one of history's darkest hours.Connie Willis draws upon her understanding of the universalities of human nature to explore the ageless issues of evil, suffering, and the indomitable will of the human spirit.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical (medieval)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5456_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5456_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5456_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 50977,
-        "score": 4.02
-    },
-    "pages": 1179,
-    "title": "Doomsday Book",
-    "url": "https://www.goodreads.com/book/show/24983.Doomsday_Book",
-    "year_published": 1992
+    {
+      "status": "maintenance",
+      "stock_id": "5456_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 50977,
+    "score": 4.02
+  },
+  "pages": 1179,
+  "title": "Doomsday Book",
+  "url": "https://www.goodreads.com/book/show/24983.Doomsday_Book",
+  "year_published": 1992
 }

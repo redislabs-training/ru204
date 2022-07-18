@@ -1,68 +1,68 @@
 {
-    "author": "Wesley Chu",
-    "id": "151",
-    "description": "Having been haunted by the past and enslaved by the present, James Griffin-Mars is taking control of the future.Earth is a toxic, sparsely inhabited wasteland\u00ad\u00adthe perfect hiding place for a fugitive ex\u00adchronman to hide from the authorities.James has allies, scientists he rescued from previous centuries: Elise Kim, who believes she can renew Earth, given time; Grace Priestly, the venerated inventor of time travel herself; Levin, James's mentor and former pursuer, now disgraced; and the Elfreth, a population of downtrodden humans who want desperately to believe that James and his friends will heal their ailing home world.James also has enemies. They include the full military might of benighted solar system ruled by corporate greed and a desperate fear of what James will do next. At the forefront of their efforts to stop him is Kuo, the ruthless security head, who wants James's head on a pike and will stop at nothing to obtain it.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 4,
-        "audiobook": 5,
-        "fantasy": 6,
-        "fiction": 27,
-        "science fiction": 79,
-        "science fiction (dystopia)": 14,
-        "science fiction (time travel)": 42,
-        "space": 4,
-        "space (space opera)": 3,
-        "speculative fiction": 4
+  "author": "Wesley Chu",
+  "id": "151",
+  "description": "Having been haunted by the past and enslaved by the present, James Griffin-Mars is taking control of the future.Earth is a toxic, sparsely inhabited wasteland­­the perfect hiding place for a fugitive ex­chronman to hide from the authorities.James has allies, scientists he rescued from previous centuries: Elise Kim, who believes she can renew Earth, given time; Grace Priestly, the venerated inventor of time travel herself; Levin, James's mentor and former pursuer, now disgraced; and the Elfreth, a population of downtrodden humans who want desperately to believe that James and his friends will heal their ailing home world.James also has enemies. They include the full military might of benighted solar system ruled by corporate greed and a desperate fear of what James will do next. At the forefront of their efforts to stop him is Kuo, the ruthless security head, who wants James's head on a pike and will stop at nothing to obtain it.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "151_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "151_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "151_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "151_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "151_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "151_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "151_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "151_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "151_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "151_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1374,
-        "score": 3.89
+    {
+      "status": "maintenance",
+      "stock_id": "151_2"
     },
-    "pages": 694,
-    "title": "Time Siege",
-    "url": "https://www.goodreads.com/book/show/26028483-time-siege",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "151_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "151_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "151_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "151_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "151_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "151_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "151_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1374,
+    "score": 3.89
+  },
+  "pages": 694,
+  "title": "Time Siege",
+  "url": "https://www.goodreads.com/book/show/26028483-time-siege",
+  "year_published": 2016
 }

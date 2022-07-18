@@ -1,64 +1,64 @@
 {
-    "author": "John Marsden",
-    "id": "306",
-    "description": "In the penultimate installment of the internationally bestselling Tomorrow series, Ellie and her friends look after a gang of orphans whose wild behavior reveals the true impact of war.Amidst a brutal war with no end in sight, Ellie and her four remaining friends discover that their hidden refuge becomes a crowded place when they decide to care for an uncooperative crew of orphans. Things only get worse when Ellie and Homer learn that mysterious visitors have discovered their sanctuary. Has the enemy found them out?Five ordinary teens brave the worst in this electrifying continuation of their battle to stay safe and sane in a war zone that was once their home.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 41,
-        "adventure": 44,
-        "adventure (survival)": 22,
-        "cultural (australia)": 57,
-        "fiction": 158,
-        "science fiction": 31,
-        "science fiction (dystopia)": 67,
-        "war": 113,
-        "young adult": 412,
-        "young adult (teen)": 30
+  "author": "John Marsden",
+  "id": "306",
+  "description": "In the penultimate installment of the internationally bestselling Tomorrow series, Ellie and her friends look after a gang of orphans whose wild behavior reveals the true impact of war.Amidst a brutal war with no end in sight, Ellie and her four remaining friends discover that their hidden refuge becomes a crowded place when they decide to care for an uncooperative crew of orphans. Things only get worse when Ellie and Homer learn that mysterious visitors have discovered their sanctuary. Has the enemy found them out?Five ordinary teens brave the worst in this electrifying continuation of their battle to stay safe and sane in a war zone that was once their home.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "cultural (australia)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "war",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "306_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "306_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "306_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "306_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "306_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "306_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "306_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "306_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "306_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14200,
-        "score": 4.16
+    {
+      "status": "maintenance",
+      "stock_id": "306_2"
     },
-    "pages": 241,
-    "title": "The Night Is for Hunting",
-    "url": "https://www.goodreads.com/book/show/82553.The_Night_Is_for_Hunting",
-    "year_published": 1998
+    {
+      "status": "available",
+      "stock_id": "306_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "306_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "306_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "306_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "306_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "306_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14200,
+    "score": 4.16
+  },
+  "pages": 241,
+  "title": "The Night Is for Hunting",
+  "url": "https://www.goodreads.com/book/show/82553.The_Night_Is_for_Hunting",
+  "year_published": 1998
 }

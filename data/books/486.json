@@ -1,48 +1,48 @@
 {
-    "author": "Mark  Siegel",
-    "id": "486",
-    "description": "Think Star Wars meets Avatar: The Last Airbender! The Five Worlds are on the brink of extinction unless five ancient and mysterious beacons are lit. When war erupts, three unlikely heroes will discover there\u2019s more to themselves\u2014and more to their worlds\u2014than meets the eye. . . . Oona Lee, the clumsiest student at the Sand Dancer Academy, is a fighter with a destiny bigger than she could ever imagine. An Tzu, a boy from the poorest slums, has a surprising gift and a knack for getting out of sticky situations. Jax Amboy is the star athlete who is beloved by an entire galaxy, but what good is that when he has no real friends? When these three kids are forced to team up on an epic quest, it will take not one, not two, but 5 WORLDS to contain all the magic and adventure!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 52,
-        "childrens": 47,
-        "childrens (juvenile)": 20,
-        "childrens (middle grade)": 107,
-        "fantasy": 252,
-        "fiction": 30,
-        "graphic novels comics": 23,
-        "science fiction": 55,
-        "sequential art (comics)": 79,
-        "sequential art (graphic novels)": 337
+  "author": "Mark  Siegel",
+  "id": "486",
+  "description": "Think Star Wars meets Avatar: The Last Airbender! The Five Worlds are on the brink of extinction unless five ancient and mysterious beacons are lit. When war erupts, three unlikely heroes will discover there’s more to themselves—and more to their worlds—than meets the eye. . . . Oona Lee, the clumsiest student at the Sand Dancer Academy, is a fighter with a destiny bigger than she could ever imagine. An Tzu, a boy from the poorest slums, has a surprising gift and a knack for getting out of sticky situations. Jax Amboy is the star athlete who is beloved by an entire galaxy, but what good is that when he has no real friends? When these three kids are forced to team up on an epic quest, it will take not one, not two, but 5 WORLDS to contain all the magic and adventure!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "486_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "486_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "486_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "486_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "486_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3984,
-        "score": 4.09
+    {
+      "status": "maintenance",
+      "stock_id": "486_2"
     },
-    "pages": 607,
-    "title": "The Sand Warrior",
-    "url": "https://www.goodreads.com/book/show/32573182-the-sand-warrior",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "486_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "486_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3984,
+    "score": 4.09
+  },
+  "pages": 607,
+  "title": "The Sand Warrior",
+  "url": "https://www.goodreads.com/book/show/32573182-the-sand-warrior",
+  "year_published": 2017
 }

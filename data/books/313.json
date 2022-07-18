@@ -1,60 +1,60 @@
 {
-    "author": "Thomas Mullen",
-    "id": "313",
-    "description": "A fast-paced literary thriller that recalls dystopian classics such as 1984 and Fahrenheit 451, from the award-winning author of The Last Town on Earth.Zed is an agent from the future. A time when the world's problems have been solved. No hunger. No war. No despair.His mission is to keep it that way. Even if it means ensuring every cataclysm throughout history runs its course-especially The Great Conflagration, an imminent disaster in our own time that Zed has been ordered to protect at all costs.Zed's mission will disrupt the lives of a disgraced former CIA agent; a young Washington lawyer grieving over the loss of her brother, a soldier in Iraq; the oppressed employee of a foreign diplomat; and countless others. But will he finish his final mission before the present takes precedence over a perfect future? One that may have more cracks than he realizes?The Revisionists puts a fresh spin on today's global crises, playing with the nature of history and our own role in shaping it. It firmly establishes Mullen as one of the most exciting and imaginative writers of his generation.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult fiction": 8,
-        "fantasy": 7,
-        "fiction": 87,
-        "science fiction": 85,
-        "science fiction (dystopia)": 16,
-        "science fiction (time travel)": 67,
-        "science fiction fantasy": 9,
-        "speculative fiction": 7,
-        "suspense": 8,
-        "thriller": 30
+  "author": "Thomas Mullen",
+  "id": "313",
+  "description": "A fast-paced literary thriller that recalls dystopian classics such as 1984 and Fahrenheit 451, from the award-winning author of The Last Town on Earth.Zed is an agent from the future. A time when the world's problems have been solved. No hunger. No war. No despair.His mission is to keep it that way. Even if it means ensuring every cataclysm throughout history runs its course-especially The Great Conflagration, an imminent disaster in our own time that Zed has been ordered to protect at all costs.Zed's mission will disrupt the lives of a disgraced former CIA agent; a young Washington lawyer grieving over the loss of her brother, a soldier in Iraq; the oppressed employee of a foreign diplomat; and countless others. But will he finish his final mission before the present takes precedence over a perfect future? One that may have more cracks than he realizes?The Revisionists puts a fresh spin on today's global crises, playing with the nature of history and our own role in shaping it. It firmly establishes Mullen as one of the most exciting and imaginative writers of his generation.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult fiction",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "313_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "313_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "313_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "313_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "313_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "313_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "313_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "313_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1633,
-        "score": 3.35
+    {
+      "status": "available",
+      "stock_id": "313_2"
     },
-    "pages": 822,
-    "title": "The Revisionists",
-    "url": "https://www.goodreads.com/book/show/10789142-the-revisionists",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "313_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "313_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "313_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "313_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "313_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1633,
+    "score": 3.35
+  },
+  "pages": 822,
+  "title": "The Revisionists",
+  "url": "https://www.goodreads.com/book/show/10789142-the-revisionists",
+  "year_published": 2011
 }

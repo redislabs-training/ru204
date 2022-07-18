@@ -1,44 +1,44 @@
 {
-    "author": "Diana Wynne Jones",
-    "id": "652",
-    "description": "His father and uncles are enchanters, his mother a powerful sorceress, yet nothing seems magical about Christopher Chant except his dreams. Night after night, he climbs through the formless Place Between and visits marvelous lands he calls the Almost Anywheres. Then Christopher discovers that he can bring real, solid things back from his dreams. Others begin to recognize the extent of his powers, and they issue an order that turns Christopher's life upside down: Go to Chrestomanci Castle to train to be the controller of all the world's magic.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 41,
-        "audiobook": 21,
-        "childrens": 141,
-        "childrens (middle grade)": 107,
-        "fantasy": 1398,
-        "fantasy (magic)": 116,
-        "fiction": 181,
-        "science fiction fantasy": 32,
-        "young adult": 297,
-        "young adult (young adult fantasy)": 45
+  "author": "Diana Wynne Jones",
+  "id": "652",
+  "description": "His father and uncles are enchanters, his mother a powerful sorceress, yet nothing seems magical about Christopher Chant except his dreams. Night after night, he climbs through the formless Place Between and visits marvelous lands he calls the Almost Anywheres. Then Christopher discovers that he can bring real, solid things back from his dreams. Others begin to recognize the extent of his powers, and they issue an order that turns Christopher's life upside down: Go to Chrestomanci Castle to train to be the controller of all the world's magic.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "652_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "652_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "652_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "652_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21075,
-        "score": 4.24
+    {
+      "status": "on_loan",
+      "stock_id": "652_2"
     },
-    "pages": 750,
-    "title": "The Lives of Christopher Chant",
-    "url": "https://www.goodreads.com/book/show/519933.The_Lives_of_Christopher_Chant",
-    "year_published": 1988
+    {
+      "status": "on_loan",
+      "stock_id": "652_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21075,
+    "score": 4.24
+  },
+  "pages": 750,
+  "title": "The Lives of Christopher Chant",
+  "url": "https://www.goodreads.com/book/show/519933.The_Lives_of_Christopher_Chant",
+  "year_published": 1988
 }

@@ -1,36 +1,36 @@
 {
-    "author": "Chris Claremont",
-    "id": "517",
-    "description": "Relive the legendary first journey into the dystopian future of 2013 where Sentinels stalk the Earth and the X-Men are humanity's only hope... until they die! Also featuring the first apperance of Alpha Flight, the return of the Wendigo, the history of Cyclops... and a demon for Christmas!?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 80,
-        "comics (superheroes)": 64,
-        "fantasy": 26,
-        "fiction": 73,
-        "graphic novels comics": 69,
-        "marvel (x men)": 112,
-        "science fiction": 32,
-        "sequential art (comics)": 714,
-        "sequential art (graphic novels)": 430,
-        "superheroes (marvel)": 188
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "517_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11983,
-        "score": 4.14
-    },
-    "pages": 529,
-    "title": "X-Men: Days of Future Past",
-    "url": "https://www.goodreads.com/book/show/306608.X_Men",
-    "year_published": 1981
+  "author": "Chris Claremont",
+  "id": "517",
+  "description": "Relive the legendary first journey into the dystopian future of 2013 where Sentinels stalk the Earth and the X-Men are humanity's only hope... until they die! Also featuring the first apperance of Alpha Flight, the return of the Wendigo, the history of Cyclops... and a demon for Christmas!?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "marvel (x men)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "517_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11983,
+    "score": 4.14
+  },
+  "pages": 529,
+  "title": "X-Men: Days of Future Past",
+  "url": "https://www.goodreads.com/book/show/306608.X_Men",
+  "year_published": 1981
 }

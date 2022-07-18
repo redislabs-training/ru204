@@ -1,35 +1,35 @@
 {
-    "author": "V.E. Schwab",
-    "id": "27695",
-    "description": "Kell is one of the last Antari\u2014magicians with a rare, coveted ability to travel between parallel Londons; Red, Grey, White, and, once upon a time, Black.Kell was raised in Arnes\u2014Red London\u2014and officially serves the Maresh Empire as an ambassador, traveling between the frequent bloody regime changes in White London and the court of George III in the dullest of Londons, the one without any magic left to see.Unofficially, Kell is a smuggler, servicing people willing to pay for even the smallest glimpses of a world they'll never see. It's a defiant hobby with dangerous consequences, which Kell is now seeing firsthand.After an exchange goes awry, Kell escapes to Grey London and runs into Delilah Bard, a cut-purse with lofty aspirations. She first robs him, then saves him from a deadly enemy, and finally forces Kell to spirit her to another world for a proper adventure.Now perilous magic is afoot, and treachery lurks at every turn. To save all of the worlds, they'll first need to stay alive.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 970,
-        "adventure": 548,
-        "audiobook": 637,
-        "fantasy": 16210,
-        "fantasy (magic)": 1523,
-        "fantasy (urban fantasy)": 405,
-        "fiction": 2217,
-        "historical (historical fiction)": 440,
-        "science fiction fantasy": 389,
-        "young adult": 2306
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "27695_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 216898,
-        "score": 4.06
-    },
-    "pages": 601,
-    "title": "A Darker Shade of Magic",
-    "url": "https://www.goodreads.com/book/show/22055262-a-darker-shade-of-magic",
-    "year_published": 2015
+  "author": "V.E. Schwab",
+  "id": "27695",
+  "description": "Kell is one of the last Antari—magicians with a rare, coveted ability to travel between parallel Londons; Red, Grey, White, and, once upon a time, Black.Kell was raised in Arnes—Red London—and officially serves the Maresh Empire as an ambassador, traveling between the frequent bloody regime changes in White London and the court of George III in the dullest of Londons, the one without any magic left to see.Unofficially, Kell is a smuggler, servicing people willing to pay for even the smallest glimpses of a world they'll never see. It's a defiant hobby with dangerous consequences, which Kell is now seeing firsthand.After an exchange goes awry, Kell escapes to Grey London and runs into Delilah Bard, a cut-purse with lofty aspirations. She first robs him, then saves him from a deadly enemy, and finally forces Kell to spirit her to another world for a proper adventure.Now perilous magic is afoot, and treachery lurks at every turn. To save all of the worlds, they'll first need to stay alive.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "27695_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 216898,
+    "score": 4.06
+  },
+  "pages": 601,
+  "title": "A Darker Shade of Magic",
+  "url": "https://www.goodreads.com/book/show/22055262-a-darker-shade-of-magic",
+  "year_published": 2015
 }

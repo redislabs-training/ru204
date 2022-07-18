@@ -1,36 +1,36 @@
 {
-    "author": "Lisa Goldstein",
-    "id": "63",
-    "description": "A new time-traveling fantasy from National Book Award-winner Lisa Goldstein.Ann Decker fixes computers for a living, and in the evenings she passes the time sharpening her hacking skills. It's not a very interesting life, but she gets by\u2014until one day she's contacted with a job offer for a company called Transformations Incorporated. None of her coworkers have ever heard of it before, and when Ann is finally told what the company does, she can hardly believe it: TI has invented technology to travel in time.Soon Ann is visiting a matriarchy in ancient Crete, and then a woman mathematician at the Library of Alexandria. But Transformations Incorporated remains shrouded in mystery, and when Ann finally catches her breath, there are too many troubling questions still unanswered. Who are Transformations Incorporated, and what will they use this technology to gain? What ill effects might going back in time have on the present day? Is it really as harmless as TI says?When a coworker turns up dead, Ann\u2019s superiors warn her about a covert group called Core out to sabotage the company. Something just isn\u2019t right, but before she has time to investigate, Ann is sent to a castle in the south of France, nearly a thousand years in the past. As the armies of the Crusade arrive to lay siege, and intrigue grows among the viscount\u2019s family, Ann will discover the startling truth\u2014not just about the company that sent her there, but also about her own past.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 11,
-        "fiction": 13,
-        "historical (historical fiction)": 8,
-        "science fiction": 27,
-        "science fiction (dystopia)": 2,
-        "science fiction (time travel)": 22,
-        "science fiction fantasy": 2,
-        "speculative fiction": 3
+  "author": "Lisa Goldstein",
+  "id": "63",
+  "description": "A new time-traveling fantasy from National Book Award-winner Lisa Goldstein.Ann Decker fixes computers for a living, and in the evenings she passes the time sharpening her hacking skills. It's not a very interesting life, but she gets by—until one day she's contacted with a job offer for a company called Transformations Incorporated. None of her coworkers have ever heard of it before, and when Ann is finally told what the company does, she can hardly believe it: TI has invented technology to travel in time.Soon Ann is visiting a matriarchy in ancient Crete, and then a woman mathematician at the Library of Alexandria. But Transformations Incorporated remains shrouded in mystery, and when Ann finally catches her breath, there are too many troubling questions still unanswered. Who are Transformations Incorporated, and what will they use this technology to gain? What ill effects might going back in time have on the present day? Is it really as harmless as TI says?When a coworker turns up dead, Ann’s superiors warn her about a covert group called Core out to sabotage the company. Something just isn’t right, but before she has time to investigate, Ann is sent to a castle in the south of France, nearly a thousand years in the past. As the armies of the Crusade arrive to lay siege, and intrigue grows among the viscount’s family, Ann will discover the startling truth—not just about the company that sent her there, but also about her own past.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "63_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "63_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "63_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 249,
-        "score": 2.93
-    },
-    "pages": 1174,
-    "title": "Weighing Shadows",
-    "url": "https://www.goodreads.com/book/show/24693781-weighing-shadows",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "63_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 249,
+    "score": 2.93
+  },
+  "pages": 1174,
+  "title": "Weighing Shadows",
+  "url": "https://www.goodreads.com/book/show/24693781-weighing-shadows",
+  "year_published": 2015
 }

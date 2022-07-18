@@ -1,62 +1,62 @@
 {
-    "author": "Seanan McGuire",
-    "id": "1101",
-    "description": "Changeling knight in the court of the Duke of Shadowed Hills, October \"Toby\" Daye has survived numerous challenges that would destroy fae and mortal alike. Now Toby must take on a nightmarish new assignment. Someone is stealing both fae and mortal children\u2014and all signs point to Blind Michael. When the young son of Toby's closest friends is snatched from their Northern California home, Toby has no choice but to track the villains down, even when there are only three magical roads by which to reach Blind Michael's realm\u2014home of the legendary Wild Hunt\u2014and no road may be taken more than once. If she cannot escape with all the children before the candle that guides and protects her burns away, Toby herself will fall prey to Blind Michael's inescapable power.And it doesn't bode well for the success of her mission that her own personal Fetch, May Daye\u2014the harbinger of Toby's own death\u2014has suddenly turned up on her doorstep...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 42,
-        "fairies (fae)": 223,
-        "fantasy": 793,
-        "fantasy (magic)": 127,
-        "fantasy (paranormal)": 215,
-        "fantasy (supernatural)": 46,
-        "fantasy (urban fantasy)": 1304,
-        "fiction": 159,
-        "mystery": 106,
-        "paranormal (fairies)": 62
+  "author": "Seanan McGuire",
+  "id": "1101",
+  "description": "Changeling knight in the court of the Duke of Shadowed Hills, October \"Toby\" Daye has survived numerous challenges that would destroy fae and mortal alike. Now Toby must take on a nightmarish new assignment. Someone is stealing both fae and mortal children—and all signs point to Blind Michael. When the young son of Toby's closest friends is snatched from their Northern California home, Toby has no choice but to track the villains down, even when there are only three magical roads by which to reach Blind Michael's realm—home of the legendary Wild Hunt—and no road may be taken more than once. If she cannot escape with all the children before the candle that guides and protects her burns away, Toby herself will fall prey to Blind Michael's inescapable power.And it doesn't bode well for the success of her mission that her own personal Fetch, May Daye—the harbinger of Toby's own death—has suddenly turned up on her doorstep...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "fairies (fae)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "paranormal (fairies)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1101_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1101_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1101_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1101_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1101_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1101_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1101_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1101_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1101_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17760,
-        "score": 4.18
+    {
+      "status": "maintenance",
+      "stock_id": "1101_2"
     },
-    "pages": 1050,
-    "title": "An Artificial Night",
-    "url": "https://www.goodreads.com/book/show/6782468-an-artificial-night",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "1101_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1101_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1101_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1101_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1101_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1101_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17760,
+    "score": 4.18
+  },
+  "pages": 1050,
+  "title": "An Artificial Night",
+  "url": "https://www.goodreads.com/book/show/6782468-an-artificial-night",
+  "year_published": 2010
 }

@@ -1,42 +1,42 @@
 {
-    "author": "Pierce Brown",
-    "id": "10712",
-    "description": "#1 NEW YORK TIMES BESTSELLER \u2022 Red Rising thrilled readers and announced the presence of a talented new author. Golden Son changed the game and took the story of Darrow to the next level. Now comes the exhilarating conclusion to the Red Rising Trilogy: Morning Star.Darrow would have lived in peace, but his enemies brought him war. The Gold overlords demanded his obedience, hanged his wife, and enslaved his people. But Darrow is determined to fight back. Risking everything to transform himself and breach Gold society, Darrow has battled to survive the cutthroat rivalries that breed Society\u2019s mightiest warriors, climbed the ranks, and waited patiently to unleash the revolution that will tear the hierarchy apart from within. Finally, the time has come. But devotion to honor and hunger for vengeance run deep on both sides. Darrow and his comrades-in-arms face powerful enemies without scruple or mercy. Among them are some Darrow once considered friends. To win, Darrow will need to inspire those shackled in darkness to break their chains, unmake the world their cruel masters have built, and claim a destiny too long denied\u2014and too glorious to surrender.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 172,
-        "audiobook": 263,
-        "fantasy": 1133,
-        "fiction": 880,
-        "science fiction": 2419,
-        "science fiction (dystopia)": 750,
-        "science fiction fantasy": 163,
-        "space": 120,
-        "space (space opera)": 130,
-        "young adult": 641
+  "author": "Pierce Brown",
+  "id": "10712",
+  "description": "#1 NEW YORK TIMES BESTSELLER • Red Rising thrilled readers and announced the presence of a talented new author. Golden Son changed the game and took the story of Darrow to the next level. Now comes the exhilarating conclusion to the Red Rising Trilogy: Morning Star.Darrow would have lived in peace, but his enemies brought him war. The Gold overlords demanded his obedience, hanged his wife, and enslaved his people. But Darrow is determined to fight back. Risking everything to transform himself and breach Gold society, Darrow has battled to survive the cutthroat rivalries that breed Society’s mightiest warriors, climbed the ranks, and waited patiently to unleash the revolution that will tear the hierarchy apart from within. Finally, the time has come. But devotion to honor and hunger for vengeance run deep on both sides. Darrow and his comrades-in-arms face powerful enemies without scruple or mercy. Among them are some Darrow once considered friends. To win, Darrow will need to inspire those shackled in darkness to break their chains, unmake the world their cruel masters have built, and claim a destiny too long denied—and too glorious to surrender.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10712_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10712_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10712_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10712_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 126874,
-        "score": 4.48
+    {
+      "status": "on_loan",
+      "stock_id": "10712_2"
     },
-    "pages": 1073,
-    "title": "Morning Star",
-    "url": "https://www.goodreads.com/book/show/18966806-morning-star",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "10712_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 126874,
+    "score": 4.48
+  },
+  "pages": 1073,
+  "title": "Morning Star",
+  "url": "https://www.goodreads.com/book/show/18966806-morning-star",
+  "year_published": 2016
 }

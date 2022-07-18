@@ -1,67 +1,67 @@
 {
-    "author": "Jeffrey Brown",
-    "id": "244",
-    "description": "It's hard to believe that this is my last year at Jedi Academy. I've been busier than ever learning to fly (and wash) starships, sight-seeing in the Lake Country on Naboo, studying for the Jedi obstacle course exam, and tracking down dozens of voorpaks...don't ask. But now someone is setting me up to get in trouble with everyone at school. If I don't find out who it is--and fast--I may flunk out! Why can't middle school just be easy...?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 23,
-        "childrens (juvenile)": 10,
-        "childrens (middle grade)": 25,
-        "fantasy": 19,
-        "fiction": 22,
-        "humor": 19,
-        "media tie in (star wars)": 94,
-        "science fiction": 34,
-        "sequential art (comics)": 29,
-        "sequential art (graphic novels)": 66
+  "author": "Jeffrey Brown",
+  "id": "244",
+  "description": "It's hard to believe that this is my last year at Jedi Academy. I've been busier than ever learning to fly (and wash) starships, sight-seeing in the Lake Country on Naboo, studying for the Jedi obstacle course exam, and tracking down dozens of voorpaks...don't ask. But now someone is setting me up to get in trouble with everyone at school. If I don't find out who it is--and fast--I may flunk out! Why can't middle school just be easy...?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "media tie in (star wars)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "244_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "244_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "244_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "244_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "244_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "244_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "244_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "244_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "244_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "244_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2991,
-        "score": 4.39
+    {
+      "status": "maintenance",
+      "stock_id": "244_2"
     },
-    "pages": 711,
-    "title": "Star Wars: Jedi Academy 3: The Phantom Bully",
-    "url": "https://www.goodreads.com/book/show/24000723-star-wars",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "244_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "244_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "244_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "244_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "244_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "244_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "244_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2991,
+    "score": 4.39
+  },
+  "pages": 711,
+  "title": "Star Wars: Jedi Academy 3: The Phantom Bully",
+  "url": "https://www.goodreads.com/book/show/24000723-star-wars",
+  "year_published": 2015
 }

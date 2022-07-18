@@ -1,42 +1,42 @@
 {
-    "author": "Zachary Mason",
-    "id": "331",
-    "description": "A riveting, beautifully written, fugue-like novel of AIs, memory, violence, and mortalityNot far in the future the seas have risen and the central latitudes are emptying, but it\u2019s still a good time to be rich in San Francisco, where weapons drones patrol the skies to keep out the multitudinous poor. Irina isn\u2019t rich, not quite, but she does have an artificial memory that gives her perfect recall and lets her act as a medium between her various employers and their AIs, which are complex to the point of opacity. It\u2019s a good gig, paying enough for the annual visits to the Mayo Clinic that keep her from aging.Kern has no such access; he\u2019s one of the many refugees in the sprawling drone-built favelas on the city\u2019s periphery, where he lives like a monk, training relentlessly in martial arts, scraping by as a thief and an enforcer. Thales is from a different world entirely\u2014the mathematically inclined scion of a Brazilian political clan, he\u2019s fled to L.A. after the attack that left him crippled and his father dead.A ragged stranger accosts Thales and demands to know how much he can remember. Kern flees for his life after robbing the wrong mark. Irina finds a secret in the reflection of a laptop\u2019s screen in her employer\u2019s eyeglasses. None are safe as they\u2019re pushed together by subtle forces that stay just out of sight.Vivid, tumultuous, and propulsive, Void Star is Zachary Mason\u2019s mind-bending follow-up to his bestselling debut, The Lost Books of the Odyssey.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 4,
-        "adult fiction": 4,
-        "audiobook": 5,
-        "fiction": 73,
-        "novels": 9,
-        "science fiction": 124,
-        "science fiction (cyberpunk)": 43,
-        "science fiction (dystopia)": 31,
-        "science fiction fantasy": 7,
-        "speculative fiction": 10
+  "author": "Zachary Mason",
+  "id": "331",
+  "description": "A riveting, beautifully written, fugue-like novel of AIs, memory, violence, and mortalityNot far in the future the seas have risen and the central latitudes are emptying, but it’s still a good time to be rich in San Francisco, where weapons drones patrol the skies to keep out the multitudinous poor. Irina isn’t rich, not quite, but she does have an artificial memory that gives her perfect recall and lets her act as a medium between her various employers and their AIs, which are complex to the point of opacity. It’s a good gig, paying enough for the annual visits to the Mayo Clinic that keep her from aging.Kern has no such access; he’s one of the many refugees in the sprawling drone-built favelas on the city’s periphery, where he lives like a monk, training relentlessly in martial arts, scraping by as a thief and an enforcer. Thales is from a different world entirely—the mathematically inclined scion of a Brazilian political clan, he’s fled to L.A. after the attack that left him crippled and his father dead.A ragged stranger accosts Thales and demands to know how much he can remember. Kern flees for his life after robbing the wrong mark. Irina finds a secret in the reflection of a laptop’s screen in her employer’s eyeglasses. None are safe as they’re pushed together by subtle forces that stay just out of sight.Vivid, tumultuous, and propulsive, Void Star is Zachary Mason’s mind-bending follow-up to his bestselling debut, The Lost Books of the Odyssey.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "331_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "331_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "331_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "331_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1925,
-        "score": 3.69
+    {
+      "status": "maintenance",
+      "stock_id": "331_2"
     },
-    "pages": 1187,
-    "title": "Void Star",
-    "url": "https://www.goodreads.com/book/show/29939057-void-star",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "331_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1925,
+    "score": 3.69
+  },
+  "pages": 1187,
+  "title": "Void Star",
+  "url": "https://www.goodreads.com/book/show/29939057-void-star",
+  "year_published": 2017
 }

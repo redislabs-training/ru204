@@ -1,48 +1,48 @@
 {
-    "author": "Michael Crichton",
-    "id": "3468",
-    "description": "In the Nevada desert, an experiment has gone horribly wrong. A cloud of nanoparticles -- micro-robots -- has escaped from the laboratory. This cloud is self-sustaining and self-reproducing. It is intelligent and learns from experience. For all practical purposes, it is alive.It has been programmed as a predator. It is evolving swiftly, becoming more deadly with each passing hour.Every attempt to destroy it has failed.And we are the prey.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 91,
-        "fiction": 1623,
-        "horror": 208,
-        "mystery": 164,
-        "novels": 92,
-        "science fiction": 1525,
-        "science fiction fantasy": 96,
-        "suspense": 180,
-        "thriller": 911,
-        "thriller (mystery thriller)": 70
+  "author": "Michael Crichton",
+  "id": "3468",
+  "description": "In the Nevada desert, an experiment has gone horribly wrong. A cloud of nanoparticles -- micro-robots -- has escaped from the laboratory. This cloud is self-sustaining and self-reproducing. It is intelligent and learns from experience. For all practical purposes, it is alive.It has been programmed as a predator. It is evolving swiftly, becoming more deadly with each passing hour.Every attempt to destroy it has failed.And we are the prey.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fiction",
+    "horror",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3468_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3468_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3468_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3468_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3468_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 168138,
-        "score": 3.76
+    {
+      "status": "on_loan",
+      "stock_id": "3468_2"
     },
-    "pages": 518,
-    "title": "Prey",
-    "url": "https://www.goodreads.com/book/show/83763.Prey",
-    "year_published": 2002
+    {
+      "status": "maintenance",
+      "stock_id": "3468_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3468_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 168138,
+    "score": 3.76
+  },
+  "pages": 518,
+  "title": "Prey",
+  "url": "https://www.goodreads.com/book/show/83763.Prey",
+  "year_published": 2002
 }

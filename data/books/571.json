@@ -1,67 +1,67 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "571",
-    "description": "WINNER OF THREE EISNER AWARDSYorick Brown, the last man on Earth, finally makes it to San Francisco where his unbalanced sister, Hero, finds him seemingly succumbing to the male-killing plague after losing his still-unused engagement ring to the burqa-clad agents of the Setauket Ring. But is the ring really the key to his survival? And what does it have to do with the mysterious Amulet of Helene, which the Setauket leader is determined to take from Agent 355 by any means necessary. Collects issues #24-31 of the runaway hit Vertigo series by Brian K. Vaughan (EX-MACHINA, ASTONISHING X-MEN, RUNAWAYS) and Pia Guerra.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 36,
-        "apocalyptic (post apocalyptic)": 121,
-        "comics (comic book)": 108,
-        "fantasy": 35,
-        "fiction": 220,
-        "graphic novels comics": 163,
-        "science fiction": 244,
-        "science fiction (dystopia)": 99,
-        "sequential art (comics)": 1353,
-        "sequential art (graphic novels)": 1512
+  "author": "Brian K. Vaughan",
+  "id": "571",
+  "description": "WINNER OF THREE EISNER AWARDSYorick Brown, the last man on Earth, finally makes it to San Francisco where his unbalanced sister, Hero, finds him seemingly succumbing to the male-killing plague after losing his still-unused engagement ring to the burqa-clad agents of the Setauket Ring. But is the ring really the key to his survival? And what does it have to do with the mysterious Amulet of Helene, which the Setauket leader is determined to take from Agent 355 by any means necessary. Collects issues #24-31 of the runaway hit Vertigo series by Brian K. Vaughan (EX-MACHINA, ASTONISHING X-MEN, RUNAWAYS) and Pia Guerra.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "571_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "571_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "571_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "571_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "571_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "571_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "571_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "571_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "571_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "571_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 28055,
-        "score": 4.27
+    {
+      "status": "on_loan",
+      "stock_id": "571_2"
     },
-    "pages": 1138,
-    "title": "Y: The Last Man, Vol. 5: Ring of Truth",
-    "url": "https://www.goodreads.com/book/show/156533.Y",
-    "year_published": 2005
+    {
+      "status": "available",
+      "stock_id": "571_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "571_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "571_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "571_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "571_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "571_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "571_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 28055,
+    "score": 4.27
+  },
+  "pages": 1138,
+  "title": "Y: The Last Man, Vol. 5: Ring of Truth",
+  "url": "https://www.goodreads.com/book/show/156533.Y",
+  "year_published": 2005
 }

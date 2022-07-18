@@ -1,66 +1,66 @@
 {
-    "author": "Paul Antony Jones",
-    "id": "685",
-    "description": "Reporter Emily Baxter has a great job, an apartment in Manhattan, and a boyfriend she loves. All that changes the day the red rain falls from a cloudless sky. Just hours after the first reports from Europe, humanity is on the brink of extinction, wiped from the face of the earth in a few bloody moments, leaving Emily alone in an empty city. As she struggles to grasp the magnitude of her situation, Emily becomes the final witness to the end of our world\u2026 and the birth of a terrifying new one. The world she knew and loved is dead and gone. Now Emily must try to find a way out of New York as the truth behind the red rain is revealed: the earth no longer belongs to humanity.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 89,
-        "fantasy": 13,
-        "fiction": 53,
-        "horror": 71,
-        "horror (zombies)": 13,
-        "science fiction": 112,
-        "science fiction (aliens)": 28,
-        "science fiction (apocalyptic)": 35,
-        "science fiction (dystopia)": 44,
-        "thriller": 13
+  "author": "Paul Antony Jones",
+  "id": "685",
+  "description": "Reporter Emily Baxter has a great job, an apartment in Manhattan, and a boyfriend she loves. All that changes the day the red rain falls from a cloudless sky. Just hours after the first reports from Europe, humanity is on the brink of extinction, wiped from the face of the earth in a few bloody moments, leaving Emily alone in an empty city. As she struggles to grasp the magnitude of her situation, Emily becomes the final witness to the end of our world… and the birth of a terrifying new one. The world she knew and loved is dead and gone. Now Emily must try to find a way out of New York as the truth behind the red rain is revealed: the earth no longer belongs to humanity.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "685_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "685_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "685_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "685_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "685_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "685_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "685_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "685_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "685_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "685_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7582,
-        "score": 3.61
+    {
+      "status": "available",
+      "stock_id": "685_2"
     },
-    "pages": 1059,
-    "title": "Extinction Point",
-    "url": "https://www.goodreads.com/book/show/13509631-extinction-point",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "685_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "685_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "685_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "685_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "685_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "685_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "685_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7582,
+    "score": 3.61
+  },
+  "pages": 1059,
+  "title": "Extinction Point",
+  "url": "https://www.goodreads.com/book/show/13509631-extinction-point",
+  "year_published": 2012
 }

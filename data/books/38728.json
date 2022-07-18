@@ -1,56 +1,56 @@
 {
-    "author": "William Golding",
-    "id": "38728",
-    "description": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about \u201cthe end of innocence, the darkness of man\u2019s heart.\u201d",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (read for school)": 1268,
-        "academic (school)": 2680,
-        "adventure": 986,
-        "classics": 27207,
-        "fiction": 15475,
-        "literature": 2149,
-        "novels": 1276,
-        "science fiction (dystopia)": 1932,
-        "young adult": 3614,
-        "young adult (high school)": 1023
+  "author": "William Golding",
+  "id": "38728",
+  "description": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about “the end of innocence, the darkness of man’s heart.”",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (read for school)",
+    "academic (school)",
+    "adventure",
+    "classics",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (high school)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "38728_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "38728_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "38728_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "38728_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "38728_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "38728_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "38728_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2325590,
-        "score": 3.69
+    {
+      "status": "on_loan",
+      "stock_id": "38728_2"
     },
-    "pages": 707,
-    "title": "Lord of the Flies",
-    "url": "https://www.goodreads.com/book/show/7624.Lord_of_the_Flies",
-    "year_published": 1954
+    {
+      "status": "available",
+      "stock_id": "38728_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "38728_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "38728_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "38728_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2325590,
+    "score": 3.69
+  },
+  "pages": 707,
+  "title": "Lord of the Flies",
+  "url": "https://www.goodreads.com/book/show/7624.Lord_of_the_Flies",
+  "year_published": 1954
 }

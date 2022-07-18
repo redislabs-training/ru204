@@ -1,44 +1,44 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "1538",
-    "description": "Jessie lives with her family in the frontier village of Clifton, Indiana. When diphtheria strikes the village and the children of Clifton start dying, Jessie's mother sends her on a dangerous mission to bring back help. But beyond the walls of Clifton, Jessie discovers a world even more alien and threatening than she could have imagined, and soon she finds her own life in jeopardy. Can she get help before the children of Clifton, and Jessie herself, run out of time?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 106,
-        "childrens": 128,
-        "childrens (middle grade)": 121,
-        "fiction": 250,
-        "historical (historical fiction)": 132,
-        "mystery": 98,
-        "realistic fiction": 59,
-        "science fiction": 152,
-        "science fiction (dystopia)": 92,
-        "young adult": 437
+  "author": "Margaret Peterson Haddix",
+  "id": "1538",
+  "description": "Jessie lives with her family in the frontier village of Clifton, Indiana. When diphtheria strikes the village and the children of Clifton start dying, Jessie's mother sends her on a dangerous mission to bring back help. But beyond the walls of Clifton, Jessie discovers a world even more alien and threatening than she could have imagined, and soon she finds her own life in jeopardy. Can she get help before the children of Clifton, and Jessie herself, run out of time?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "realistic fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1538_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1538_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1538_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1538_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23387,
-        "score": 3.99
+    {
+      "status": "available",
+      "stock_id": "1538_2"
     },
-    "pages": 544,
-    "title": "Running Out of Time",
-    "url": "https://www.goodreads.com/book/show/227658.Running_Out_of_Time",
-    "year_published": 1995
+    {
+      "status": "maintenance",
+      "stock_id": "1538_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23387,
+    "score": 3.99
+  },
+  "pages": 544,
+  "title": "Running Out of Time",
+  "url": "https://www.goodreads.com/book/show/227658.Running_Out_of_Time",
+  "year_published": 1995
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Christopher G. Nuttall",
-    "id": "219",
-    "description": "Emily is a teenage girl pulled from our world into a world of magic and mystery by a necromancer who intends to sacrifice her to the dark gods. Rescued in the nick of time by an enigmatic sorcerer, she discovers that she possesses magical powers and must go to Whitehall School to learn how to master them. There, she learns the locals believe that she is a \"Child of Destiny,\" someone whose choices might save or damn their world ... a title that earns her both friends and enemies. A stranger in a very strange land, she may never fit into her new world ... ...and the necromancer is still hunting her. If Emily can't stop him, he might bring about the end of days. Book I in the Schooled in Magic series.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (school)": 10,
-        "audiobook": 7,
-        "fantasy": 207,
-        "fantasy (magic)": 24,
-        "fantasy (paranormal)": 13,
-        "fantasy (urban fantasy)": 10,
-        "fiction": 11,
-        "paranormal (witches)": 5,
-        "young adult": 43,
-        "young adult (young adult fantasy)": 7
+  "author": "Christopher G. Nuttall",
+  "id": "219",
+  "description": "Emily is a teenage girl pulled from our world into a world of magic and mystery by a necromancer who intends to sacrifice her to the dark gods. Rescued in the nick of time by an enigmatic sorcerer, she discovers that she possesses magical powers and must go to Whitehall School to learn how to master them. There, she learns the locals believe that she is a \"Child of Destiny,\" someone whose choices might save or damn their world ... a title that earns her both friends and enemies. A stranger in a very strange land, she may never fit into her new world ... ...and the necromancer is still hunting her. If Emily can't stop him, he might bring about the end of days. Book I in the Schooled in Magic series.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (school)",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "paranormal (witches)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "219_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "219_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "219_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "219_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "219_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "219_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "219_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "219_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "219_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5093,
-        "score": 4.0
+    {
+      "status": "maintenance",
+      "stock_id": "219_2"
     },
-    "pages": 779,
-    "title": "Schooled in Magic",
-    "url": "https://www.goodreads.com/book/show/20927280-schooled-in-magic",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "219_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "219_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "219_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "219_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "219_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "219_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5093,
+    "score": 4
+  },
+  "pages": 779,
+  "title": "Schooled in Magic",
+  "url": "https://www.goodreads.com/book/show/20927280-schooled-in-magic",
+  "year_published": 2014
 }

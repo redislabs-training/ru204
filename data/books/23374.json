@@ -1,68 +1,68 @@
 {
-    "author": "Dave Eggers",
-    "id": "23374",
-    "description": "When Mae Holland is hired to work for the Circle, the world's most powerful internet company, she feels she's been given the opportunity of a lifetime. The Circle, run out of a sprawling California campus, links users' personal emails, social media, banking, and purchasing with their universal operating system, resulting in one online identity and a new age of civility and transparency. As Mae tours the open-plan office spaces, the towering glass dining facilities, the cozy dorms for those who spend nights at work, she is thrilled with the company's modernity and activity. There are parties that last through the night, there are famous musicians playing on the lawn, there are athletic activities and clubs and brunches, and even an aquarium of rare fish retrieved from the Marianas Trench by the CEO. Mae can't believe her luck, her great fortune to work for the most influential company in the world--even as life beyond the campus grows distant, even as a strange encounter with a colleague leaves her shaken, even as her role at the Circle becomes increasingly public. What begins as the captivating story of one woman's ambition and idealism soon becomes a heart-racing novel of suspense, raising questions about memory, history, privacy, democracy, and the limits of human knowledge.(front flap)",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 243,
-        "adult fiction": 163,
-        "audiobook": 290,
-        "contemporary": 311,
-        "fiction": 3343,
-        "novels": 237,
-        "science (technology)": 176,
-        "science fiction": 1108,
-        "science fiction (dystopia)": 938,
-        "thriller": 191
+  "author": "Dave Eggers",
+  "id": "23374",
+  "description": "When Mae Holland is hired to work for the Circle, the world's most powerful internet company, she feels she's been given the opportunity of a lifetime. The Circle, run out of a sprawling California campus, links users' personal emails, social media, banking, and purchasing with their universal operating system, resulting in one online identity and a new age of civility and transparency. As Mae tours the open-plan office spaces, the towering glass dining facilities, the cozy dorms for those who spend nights at work, she is thrilled with the company's modernity and activity. There are parties that last through the night, there are famous musicians playing on the lawn, there are athletic activities and clubs and brunches, and even an aquarium of rare fish retrieved from the Marianas Trench by the CEO. Mae can't believe her luck, her great fortune to work for the most influential company in the world--even as life beyond the campus grows distant, even as a strange encounter with a colleague leaves her shaken, even as her role at the Circle becomes increasingly public. What begins as the captivating story of one woman's ambition and idealism soon becomes a heart-racing novel of suspense, raising questions about memory, history, privacy, democracy, and the limits of human knowledge.(front flap)",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "fiction",
+    "novels",
+    "science (technology)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "23374_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "23374_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23374_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "23374_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "23374_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "23374_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23374_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "23374_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "23374_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "23374_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 186735,
-        "score": 3.44
+    {
+      "status": "maintenance",
+      "stock_id": "23374_2"
     },
-    "pages": 269,
-    "title": "The Circle",
-    "url": "https://www.goodreads.com/book/show/18302455-the-circle",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "23374_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "23374_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "23374_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "23374_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "23374_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "23374_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "23374_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 186735,
+    "score": 3.44
+  },
+  "pages": 269,
+  "title": "The Circle",
+  "url": "https://www.goodreads.com/book/show/18302455-the-circle",
+  "year_published": 2013
 }

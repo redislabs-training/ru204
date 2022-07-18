@@ -1,62 +1,62 @@
 {
-    "author": "Dan Santat",
-    "id": "526",
-    "description": "Caldecott Medalist Dan Santat takes readers on the road trip of a lifetime!\"Are we there yet?\" Every parent has heard this classic kid question on a long car ride--and after reading this astonishingly inventive new book (that even turns upside down for several pages!), you'll never look at being bored the same way again.Let's face it: everyone knows that car rides can be boring. And when things get boring, time slows down. In this book, a boy feels time slowing down so much that it starts going backward--into the time of pirates! Of princesses! Of dinosaurs! The boy was just trying to get to his grandmother's birthday party, but instead he's traveling through Ancient Egypt and rubbing shoulders with Ben Franklin. When time flies, who knows where--or when--he'll end up.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 23,
-        "animals (dinosaurs)": 19,
-        "childrens": 88,
-        "childrens (picture books)": 527,
-        "family": 32,
-        "fantasy": 59,
-        "fiction": 24,
-        "humor": 37,
-        "science fiction (time travel)": 25,
-        "travel": 34
+  "author": "Dan Santat",
+  "id": "526",
+  "description": "Caldecott Medalist Dan Santat takes readers on the road trip of a lifetime!\"Are we there yet?\" Every parent has heard this classic kid question on a long car ride--and after reading this astonishingly inventive new book (that even turns upside down for several pages!), you'll never look at being bored the same way again.Let's face it: everyone knows that car rides can be boring. And when things get boring, time slows down. In this book, a boy feels time slowing down so much that it starts going backward--into the time of pirates! Of princesses! Of dinosaurs! The boy was just trying to get to his grandmother's birthday party, but instead he's traveling through Ancient Egypt and rubbing shoulders with Ben Franklin. When time flies, who knows where--or when--he'll end up.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "animals (dinosaurs)",
+    "childrens",
+    "childrens (picture books)",
+    "family",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction (time travel)",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "526_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "526_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "526_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "526_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "526_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "526_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "526_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "526_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "526_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2796,
-        "score": 3.96
+    {
+      "status": "on_loan",
+      "stock_id": "526_2"
     },
-    "pages": 475,
-    "title": "Are We There Yet",
-    "url": "https://www.goodreads.com/book/show/26030671-are-we-there-yet",
-    "year_published": 2016
+    {
+      "status": "available",
+      "stock_id": "526_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "526_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "526_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "526_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "526_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "526_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2796,
+    "score": 3.96
+  },
+  "pages": 475,
+  "title": "Are We There Yet",
+  "url": "https://www.goodreads.com/book/show/26030671-are-we-there-yet",
+  "year_published": 2016
 }

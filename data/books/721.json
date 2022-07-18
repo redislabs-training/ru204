@@ -1,62 +1,62 @@
 {
-    "author": "Terry Brooks",
-    "id": "721",
-    "description": "A long time ago in a galaxy far, far away, an evil legacy long believed dead is stirring. Now the dark side of the Force threatens to overwhelm the light, and only an ancient Jedi prophecy stands between hope and doom for the entire galaxy.On the green, unspoiled world of Naboo, Jedi Master Qui-Gon Jinn and his apprentice, Obi-Wan Kenobi, arrive to protect the realm\u2019s young queen as she seeks a diplomatic solution to end the siege of her planet by Trade Federation warships. At the same time, on desert-swept Tatooine, a slave boy named Anakin Skywalker, who possesses a strange ability for understanding the \u201crightness\u201d of things, toils by day and dreams by night\u2014of becoming a Jedi Knight and finding a way to win freedom for himself and his beloved mother. It will be the unexpected meeting of Jedi, Queen, and a gifted boy that will mark the start of a drama that will become legend.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 37,
-        "audiobook": 22,
-        "fantasy": 174,
-        "fiction": 214,
-        "media tie in": 21,
-        "media tie in (star wars)": 1552,
-        "novels": 22,
-        "science fiction": 496,
-        "science fiction fantasy": 41,
-        "space (space opera)": 25
+  "author": "Terry Brooks",
+  "id": "721",
+  "description": "A long time ago in a galaxy far, far away, an evil legacy long believed dead is stirring. Now the dark side of the Force threatens to overwhelm the light, and only an ancient Jedi prophecy stands between hope and doom for the entire galaxy.On the green, unspoiled world of Naboo, Jedi Master Qui-Gon Jinn and his apprentice, Obi-Wan Kenobi, arrive to protect the realm’s young queen as she seeks a diplomatic solution to end the siege of her planet by Trade Federation warships. At the same time, on desert-swept Tatooine, a slave boy named Anakin Skywalker, who possesses a strange ability for understanding the “rightness” of things, toils by day and dreams by night—of becoming a Jedi Knight and finding a way to win freedom for himself and his beloved mother. It will be the unexpected meeting of Jedi, Queen, and a gifted boy that will mark the start of a drama that will become legend.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (star wars)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "721_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "721_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "721_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "721_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "721_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "721_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "721_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "721_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "721_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16182,
-        "score": 3.59
+    {
+      "status": "available",
+      "stock_id": "721_2"
     },
-    "pages": 610,
-    "title": "The Phantom Menace",
-    "url": "https://www.goodreads.com/book/show/34941.The_Phantom_Menace",
-    "year_published": 1999
+    {
+      "status": "available",
+      "stock_id": "721_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "721_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "721_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "721_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "721_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "721_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16182,
+    "score": 3.59
+  },
+  "pages": 610,
+  "title": "The Phantom Menace",
+  "url": "https://www.goodreads.com/book/show/34941.The_Phantom_Menace",
+  "year_published": 1999
 }

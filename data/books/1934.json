@@ -1,47 +1,47 @@
 {
-    "author": "Kiersten White",
-    "id": "1934",
-    "description": "Into every generation a Slayer is born\u2026Nina and her twin sister, Artemis, are far from normal. It\u2019s hard to be when you grow up at the Watcher\u2019s Academy, which is a bit different from your average boarding school. Here teens are trained as guides for Slayers\u2014girls gifted with supernatural strength to fight the forces of darkness. But while Nina\u2019s mother is a prominent member of the Watcher\u2019s Council, Nina has never embraced the violent Watcher lifestyle. Instead she follows her instincts to heal, carving out a place for herself as the school medic.Until the day Nina\u2019s life changes forever.Thanks to Buffy, the famous (and infamous) Slayer that Nina\u2019s father died protecting, Nina is not only the newest Chosen One\u2014she\u2019s the last Slayer, ever. Period.As Nina hones her skills with her Watcher-in-training, Leo, there\u2019s plenty to keep her occupied: a monster fighting ring, a demon who eats happiness, a shadowy figure that keeps popping up in Nina\u2019s dreams\u2026But it\u2019s not until bodies start turning up that Nina\u2019s new powers will truly be tested\u2014because someone she loves might be next.One thing is clear: Being Chosen is easy. Making choices is hard.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 47,
-        "fantasy": 603,
-        "fantasy (magic)": 38,
-        "fantasy (paranormal)": 244,
-        "fantasy (supernatural)": 79,
-        "fantasy (urban fantasy)": 145,
-        "fiction": 101,
-        "paranormal (vampires)": 175,
-        "young adult": 462,
-        "young adult (young adult fantasy)": 57
+  "author": "Kiersten White",
+  "id": "1934",
+  "description": "Into every generation a Slayer is born…Nina and her twin sister, Artemis, are far from normal. It’s hard to be when you grow up at the Watcher’s Academy, which is a bit different from your average boarding school. Here teens are trained as guides for Slayers—girls gifted with supernatural strength to fight the forces of darkness. But while Nina’s mother is a prominent member of the Watcher’s Council, Nina has never embraced the violent Watcher lifestyle. Instead she follows her instincts to heal, carving out a place for herself as the school medic.Until the day Nina’s life changes forever.Thanks to Buffy, the famous (and infamous) Slayer that Nina’s father died protecting, Nina is not only the newest Chosen One—she’s the last Slayer, ever. Period.As Nina hones her skills with her Watcher-in-training, Leo, there’s plenty to keep her occupied: a monster fighting ring, a demon who eats happiness, a shadowy figure that keeps popping up in Nina’s dreams…But it’s not until bodies start turning up that Nina’s new powers will truly be tested—because someone she loves might be next.One thing is clear: Being Chosen is easy. Making choices is hard.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "paranormal (vampires)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1934_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1934_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1934_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1934_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1934_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7463,
-        "score": 3.74
+    {
+      "status": "maintenance",
+      "stock_id": "1934_2"
     },
-    "pages": 373,
-    "title": "Slayer",
-    "url": "https://www.goodreads.com/book/show/34723130-slayer",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "1934_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1934_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7463,
+    "score": 3.74
+  },
+  "pages": 373,
+  "title": "Slayer",
+  "url": "https://www.goodreads.com/book/show/34723130-slayer",
+  "year_published": 2019
 }

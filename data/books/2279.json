@@ -1,62 +1,62 @@
 {
-    "author": "John Wyndham",
-    "id": "2279",
-    "description": "A world paralysed by genetic mutationJohn Wyndham takes the reader into the anguished heart of a community where the chances of breeding true are less than fifty per cent and where deviations are rooted out and destroyed as offences and abominations.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (school)": 84,
-        "apocalyptic (post apocalyptic)": 166,
-        "classics": 666,
-        "fantasy": 183,
-        "fiction": 784,
-        "novels": 67,
-        "science fiction": 1260,
-        "science fiction (dystopia)": 419,
-        "science fiction fantasy": 109,
-        "young adult": 119
+  "author": "John Wyndham",
+  "id": "2279",
+  "description": "A world paralysed by genetic mutationJohn Wyndham takes the reader into the anguished heart of a community where the chances of breeding true are less than fifty per cent and where deviations are rooted out and destroyed as offences and abominations.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (school)",
+    "apocalyptic (post apocalyptic)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2279_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2279_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2279_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2279_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2279_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2279_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2279_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2279_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "2279_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 44162,
-        "score": 3.93
+    {
+      "status": "maintenance",
+      "stock_id": "2279_2"
     },
-    "pages": 788,
-    "title": "The Chrysalids",
-    "url": "https://www.goodreads.com/book/show/826845.The_Chrysalids",
-    "year_published": 1955
+    {
+      "status": "maintenance",
+      "stock_id": "2279_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2279_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2279_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2279_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2279_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "2279_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 44162,
+    "score": 3.93
+  },
+  "pages": 788,
+  "title": "The Chrysalids",
+  "url": "https://www.goodreads.com/book/show/826845.The_Chrysalids",
+  "year_published": 1955
 }

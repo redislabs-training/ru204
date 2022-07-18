@@ -1,67 +1,67 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "3014",
-    "description": "\"Y\" is none other than unemployed escape artist Yorick Brown (his father was a Shakespeare buff), and he's seemingly the only male human left alive after a mysterious plague kills all Y-chromosome carriers on earth. But why are he and his faithful companion, the often testy male monkey Ampersand, still alive? He sets out to find the answer (and his girlfriend), while running from angry female Republicans (now running the government), Amazon wannabes that include his own sister (seemingly brainwashed), and other threats. The Vertigo team of Brian K. Vaughan, Pia Guerra, and Jos\u00e9 Marz\u00e1n Jr. have given us a great read!Collects Y: The Last Man issues #01-#05",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 98,
-        "apocalyptic (post apocalyptic)": 243,
-        "comics (comic book)": 251,
-        "fantasy": 120,
-        "fiction": 525,
-        "graphic novels comics": 368,
-        "science fiction": 621,
-        "science fiction (dystopia)": 247,
-        "sequential art (comics)": 3136,
-        "sequential art (graphic novels)": 3661
+  "author": "Brian K. Vaughan",
+  "id": "3014",
+  "description": "\"Y\" is none other than unemployed escape artist Yorick Brown (his father was a Shakespeare buff), and he's seemingly the only male human left alive after a mysterious plague kills all Y-chromosome carriers on earth. But why are he and his faithful companion, the often testy male monkey Ampersand, still alive? He sets out to find the answer (and his girlfriend), while running from angry female Republicans (now running the government), Amazon wannabes that include his own sister (seemingly brainwashed), and other threats. The Vertigo team of Brian K. Vaughan, Pia Guerra, and José Marzán Jr. have given us a great read!Collects Y: The Last Man issues #01-#05",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3014_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3014_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3014_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3014_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3014_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3014_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3014_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3014_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "3014_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3014_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 105484,
-        "score": 4.08
+    {
+      "status": "available",
+      "stock_id": "3014_2"
     },
-    "pages": 936,
-    "title": "Y: The Last Man, Vol. 1: Unmanned",
-    "url": "https://www.goodreads.com/book/show/156534.Y",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "3014_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3014_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3014_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3014_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3014_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "3014_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3014_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 105484,
+    "score": 4.08
+  },
+  "pages": 936,
+  "title": "Y: The Last Man, Vol. 1: Unmanned",
+  "url": "https://www.goodreads.com/book/show/156534.Y",
+  "year_published": 2003
 }

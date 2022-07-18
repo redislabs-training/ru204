@@ -1,44 +1,44 @@
 {
-    "author": "Madeline Miller",
-    "id": "42746",
-    "description": "In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child - not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power - the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.Threatened, Zeus banishes her to a deserted island, where she hones her occult craft, tames wild beasts and crosses paths with many of the most famous figures in all of mythology, including the Minotaur, Daedalus and his doomed son Icarus, the murderous Medea, and, of course, wily Odysseus.But there is danger, too, for a woman who stands alone, and Circe unwittingly draws the wrath of both men and gods, ultimately finding herself pitted against one of the most terrifying and vengeful of the Olympians. To protect what she loves most, Circe must summon all her strength and choose, once and for all, whether she belongs with the gods she is born from, or the mortals she has come to love.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 865,
-        "audiobook": 1263,
-        "fantasy": 9508,
-        "fantasy (magic)": 472,
-        "fantasy (mythology)": 4440,
-        "fiction": 5752,
-        "historical": 975,
-        "historical (historical fiction)": 3332,
-        "mythology (greek mythology)": 510,
-        "retellings": 1124
+  "author": "Madeline Miller",
+  "id": "42746",
+  "description": "In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child - not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power - the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.Threatened, Zeus banishes her to a deserted island, where she hones her occult craft, tames wild beasts and crosses paths with many of the most famous figures in all of mythology, including the Minotaur, Daedalus and his doomed son Icarus, the murderous Medea, and, of course, wily Odysseus.But there is danger, too, for a woman who stands alone, and Circe unwittingly draws the wrath of both men and gods, ultimately finding herself pitted against one of the most terrifying and vengeful of the Olympians. To protect what she loves most, Circe must summon all her strength and choose, once and for all, whether she belongs with the gods she is born from, or the mortals she has come to love.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mythology (greek mythology)",
+    "retellings"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "42746_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "42746_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "42746_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "42746_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 392155,
-        "score": 4.26
+    {
+      "status": "on_loan",
+      "stock_id": "42746_2"
     },
-    "pages": 629,
-    "title": "Circe",
-    "url": "https://www.goodreads.com/book/show/35959740-circe",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "42746_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 392155,
+    "score": 4.26
+  },
+  "pages": 629,
+  "title": "Circe",
+  "url": "https://www.goodreads.com/book/show/35959740-circe",
+  "year_published": 2018
 }

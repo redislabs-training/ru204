@@ -1,42 +1,42 @@
 {
-    "author": "George Gipe",
-    "id": "72",
-    "description": "HE WAS NEVER IN TIMEFOR HIS CLASSES...HE WASN'T IN TIME FOR HIS DINNER...THEN ONE DAY...HE WASN'T IN HIS TIME AT ALL.Both an exciting novel and high-spirited adventure film, BACK TO THE FUTURE is the unforgettable story of a modern time-traveling teenager whose journey to the past risks his very own future when he discovers surprises he never could have imagined.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 3,
-        "adventure": 10,
-        "culture (film)": 4,
-        "fantasy": 12,
-        "fiction": 26,
-        "media tie in": 7,
-        "novels": 3,
-        "science fiction": 38,
-        "science fiction (time travel)": 23,
-        "speculative fiction": 2
+  "author": "George Gipe",
+  "id": "72",
+  "description": "HE WAS NEVER IN TIMEFOR HIS CLASSES...HE WASN'T IN TIME FOR HIS DINNER...THEN ONE DAY...HE WASN'T IN HIS TIME AT ALL.Both an exciting novel and high-spirited adventure film, BACK TO THE FUTURE is the unforgettable story of a modern time-traveling teenager whose journey to the past risks his very own future when he discovers surprises he never could have imagined.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "culture (film)",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "72_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "72_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "72_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "72_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2591,
-        "score": 4.21
+    {
+      "status": "available",
+      "stock_id": "72_2"
     },
-    "pages": 834,
-    "title": "Back to the Future",
-    "url": "https://www.goodreads.com/book/show/387251.Back_to_the_Future",
-    "year_published": 1985
+    {
+      "status": "on_loan",
+      "stock_id": "72_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2591,
+    "score": 4.21
+  },
+  "pages": 834,
+  "title": "Back to the Future",
+  "url": "https://www.goodreads.com/book/show/387251.Back_to_the_Future",
+  "year_published": 1985
 }

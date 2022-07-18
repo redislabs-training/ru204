@@ -1,34 +1,34 @@
 {
-    "author": "Poul Anderson",
-    "id": "53",
-    "description": "HARD TIMES That's what leads Manson Everard to answer an ad offering \"high pay and foreign travel for men and women with military experience.\" But compared to where - and when - he's going, \"hard times\" in the 20th-century U.S.A. are easy!Contents1 \u2022 Time Patrol \u2022 [Time Patrol \u2022 1] \u2022 (1955) \u2022 novelette by Poul Anderson36 \u2022 Brave to Be a King \u2022 [Time Patrol \u2022 2] \u2022 (1959) \u2022 novelette by Poul Anderson75 \u2022 The Only Game in Town \u2022 [Time Patrol \u2022 4] \u2022 (1960) \u2022 novelette by Poul Anderson104 \u2022 Delenda Est \u2022 [Time Patrol \u2022 5] \u2022 (1955) \u2022 novelette by Poul Anderson",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 3,
-        "anthologies (collections)": 3,
-        "classics": 3,
-        "fantasy": 7,
-        "fiction": 24,
-        "science fiction": 132,
-        "science fiction (time travel)": 34,
-        "science fiction fantasy": 4,
-        "short stories": 7,
-        "travel": 3
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "53_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1584,
-        "score": 3.78
-    },
-    "pages": 547,
-    "title": "Guardians of Time",
-    "url": "https://www.goodreads.com/book/show/866153.Guardians_of_Time",
-    "year_published": 1955
+  "author": "Poul Anderson",
+  "id": "53",
+  "description": "HARD TIMES That's what leads Manson Everard to answer an ad offering \"high pay and foreign travel for men and women with military experience.\" But compared to where - and when - he's going, \"hard times\" in the 20th-century U.S.A. are easy!Contents1 • Time Patrol • [Time Patrol • 1] • (1955) • novelette by Poul Anderson36 • Brave to Be a King • [Time Patrol • 2] • (1959) • novelette by Poul Anderson75 • The Only Game in Town • [Time Patrol • 4] • (1960) • novelette by Poul Anderson104 • Delenda Est • [Time Patrol • 5] • (1955) • novelette by Poul Anderson",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "anthologies (collections)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "53_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1584,
+    "score": 3.78
+  },
+  "pages": 547,
+  "title": "Guardians of Time",
+  "url": "https://www.goodreads.com/book/show/866153.Guardians_of_Time",
+  "year_published": 1955
 }

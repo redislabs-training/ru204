@@ -1,59 +1,59 @@
 {
-    "author": "William Gibson",
-    "id": "899",
-    "description": "Ten tales, from the computer-enhanced hustlers of Johnny Mnemonic to the technofetishist blues of Burning Chrome. Johnny Mnemonic (1981)The Gernsback Continuum (1981)Fragments of a Hologram Rose (1977)The Belonging Kind (1981) with John ShirleyHinterlands (1981)Red Star, Winter Orbit (1983) with Bruce SterlingNew Rose Hotel (1984)The Winter Market (1985)Dogfight (1985) with Michael SwanwickBurning Chrome (1982)",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 30,
-        "fantasy": 48,
-        "fiction": 471,
-        "literature (american)": 36,
-        "science fiction": 1114,
-        "science fiction (cyberpunk)": 695,
-        "science fiction (dystopia)": 39,
-        "science fiction fantasy": 61,
-        "short stories": 347,
-        "speculative fiction": 39
+  "author": "William Gibson",
+  "id": "899",
+  "description": "Ten tales, from the computer-enhanced hustlers of Johnny Mnemonic to the technofetishist blues of Burning Chrome. Johnny Mnemonic (1981)The Gernsback Continuum (1981)Fragments of a Hologram Rose (1977)The Belonging Kind (1981) with John ShirleyHinterlands (1981)Red Star, Winter Orbit (1983) with Bruce SterlingNew Rose Hotel (1984)The Winter Market (1985)Dogfight (1985) with Michael SwanwickBurning Chrome (1982)",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "899_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "899_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "899_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "899_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "899_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "899_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "899_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "899_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35611,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "899_2"
     },
-    "pages": 1336,
-    "title": "Burning Chrome",
-    "url": "https://www.goodreads.com/book/show/22323.Burning_Chrome",
-    "year_published": 1986
+    {
+      "status": "available",
+      "stock_id": "899_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "899_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "899_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "899_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "899_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35611,
+    "score": 4.06
+  },
+  "pages": 1336,
+  "title": "Burning Chrome",
+  "url": "https://www.goodreads.com/book/show/22323.Burning_Chrome",
+  "year_published": 1986
 }

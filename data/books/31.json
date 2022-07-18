@@ -1,55 +1,55 @@
 {
-    "author": "Sonny Liew",
-    "id": "31",
-    "description": "Street urchins Atari and Oliver are out to steal bicycles, watch Giant Robot movies, and spend some Large Denominational Bills! Malinky Robot collects five tales by Eisner-nominated artist Sonny Liew (My Faith in Frankie, Wonderland,  Sense & Senisibility) featuring stinky fish, philosopher-labourers, and summer rain. A recipient of the Xeric Award grant, the Utopiales SF Festival's Best SF Album award, and featured in the acclaimed FLIGHT anthologies, Malinky Robot blends dystopian sci-fi and indie sensibilities into a uniquely charming, off-kilter world.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 2,
-        "anthologies (collections)": 3,
-        "comics (comic book)": 3,
-        "fantasy (urban fantasy)": 3,
-        "fiction": 4,
-        "graphic novels comics": 3,
-        "science fiction": 4,
-        "sequential art (comics)": 23,
-        "sequential art (graphic novels)": 25,
-        "short stories": 8
+  "author": "Sonny Liew",
+  "id": "31",
+  "description": "Street urchins Atari and Oliver are out to steal bicycles, watch Giant Robot movies, and spend some Large Denominational Bills! Malinky Robot collects five tales by Eisner-nominated artist Sonny Liew (My Faith in Frankie, Wonderland,  Sense & Senisibility) featuring stinky fish, philosopher-labourers, and summer rain. A recipient of the Xeric Award grant, the Utopiales SF Festival's Best SF Album award, and featured in the acclaimed FLIGHT anthologies, Malinky Robot blends dystopian sci-fi and indie sensibilities into a uniquely charming, off-kilter world.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "anthologies (collections)",
+    "comics (comic book)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "31_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "31_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "31_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "31_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "31_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "31_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "31_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 227,
-        "score": 3.69
+    {
+      "status": "available",
+      "stock_id": "31_2"
     },
-    "pages": 1185,
-    "title": "Malinky Robot: Collected Stories and Other Bits",
-    "url": "https://www.goodreads.com/book/show/11983440-malinky-robot",
-    "year_published": 2009
+    {
+      "status": "available",
+      "stock_id": "31_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "31_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "31_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "31_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 227,
+    "score": 3.69
+  },
+  "pages": 1185,
+  "title": "Malinky Robot: Collected Stories and Other Bits",
+  "url": "https://www.goodreads.com/book/show/11983440-malinky-robot",
+  "year_published": 2009
 }

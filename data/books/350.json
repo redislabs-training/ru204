@@ -1,66 +1,66 @@
 {
-    "author": "Neil Gaiman",
-    "id": "350",
-    "description": "Thousands of years ago, Time Lords built a Prison for the Kin. They made it utterly impregnable and unreachable. As long as Time Lords existed, the Kin would be trapped forever and the universe would be safe. They had planned for everything\u2026 everything, that is, other than the Time War and the fall of Gallifrey. Now the Kin are free again and there\u2019s only one Time Lord left in the universe who can stop them!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 10,
-        "audiobook": 10,
-        "fantasy": 57,
-        "fiction": 66,
-        "media tie in": 11,
-        "media tie in (doctor who)": 208,
-        "science fiction": 112,
-        "science fiction (time travel)": 44,
-        "short stories": 78,
-        "young adult": 7
+  "author": "Neil Gaiman",
+  "id": "350",
+  "description": "Thousands of years ago, Time Lords built a Prison for the Kin. They made it utterly impregnable and unreachable. As long as Time Lords existed, the Kin would be trapped forever and the universe would be safe. They had planned for everything… everything, that is, other than the Time War and the fall of Gallifrey. Now the Kin are free again and there’s only one Time Lord left in the universe who can stop them!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "350_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "350_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "350_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "350_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "350_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "350_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "350_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "350_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "350_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "350_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3410,
-        "score": 4.2
+    {
+      "status": "available",
+      "stock_id": "350_2"
     },
-    "pages": 1080,
-    "title": "Doctor Who: Nothing O'Clock",
-    "url": "https://www.goodreads.com/book/show/18754367-doctor-who",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "350_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "350_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "350_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "350_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "350_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "350_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "350_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3410,
+    "score": 4.2
+  },
+  "pages": 1080,
+  "title": "Doctor Who: Nothing O'Clock",
+  "url": "https://www.goodreads.com/book/show/18754367-doctor-who",
+  "year_published": 2013
 }

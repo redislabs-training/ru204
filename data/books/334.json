@@ -1,58 +1,58 @@
 {
-    "author": "Jane Rogers",
-    "id": "334",
-    "description": "Millions of pregnant women in the not-too-distant future are dying from a rogue virus released in an act of biological terrorism. Nothing less than the survival of the human race is at stake. Jessie Lamb is just an ordinary sixteen-year-old girl living in extraordinary times, who begins to question her parents' attitudes and behavior in her struggle to become independent. As the world collapses and the certainties of childhood are ripped away, her idealism and courage drive her toward the ultimate act of heroism. But is she being heroic, or innocent and impressionable as her father fears, incapable of understanding where her actions will lead?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 9,
-        "fantasy": 5,
-        "feminism": 6,
-        "fiction": 70,
-        "literature": 7,
-        "science fiction": 64,
-        "science fiction (dystopia)": 45,
-        "science fiction fantasy": 5,
-        "speculative fiction": 10,
-        "young adult": 35
+  "author": "Jane Rogers",
+  "id": "334",
+  "description": "Millions of pregnant women in the not-too-distant future are dying from a rogue virus released in an act of biological terrorism. Nothing less than the survival of the human race is at stake. Jessie Lamb is just an ordinary sixteen-year-old girl living in extraordinary times, who begins to question her parents' attitudes and behavior in her struggle to become independent. As the world collapses and the certainties of childhood are ripped away, her idealism and courage drive her toward the ultimate act of heroism. But is she being heroic, or innocent and impressionable as her father fears, incapable of understanding where her actions will lead?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "feminism",
+    "fiction",
+    "literature",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "334_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "334_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "334_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "334_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "334_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "334_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "334_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "334_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1804,
-        "score": 3.1
+    {
+      "status": "maintenance",
+      "stock_id": "334_2"
     },
-    "pages": 1289,
-    "title": "The Testament of Jessie Lamb",
-    "url": "https://www.goodreads.com/book/show/10287791-the-testament-of-jessie-lamb",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "334_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "334_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "334_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "334_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "334_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1804,
+    "score": 3.1
+  },
+  "pages": 1289,
+  "title": "The Testament of Jessie Lamb",
+  "url": "https://www.goodreads.com/book/show/10287791-the-testament-of-jessie-lamb",
+  "year_published": 2011
 }

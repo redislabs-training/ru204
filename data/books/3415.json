@@ -1,55 +1,55 @@
 {
-    "author": "Ann Leckie",
-    "id": "3415",
-    "description": "Seeking atonement for past crimes, Breq takes on a mission as captain of a troublesome new crew of Radchai soldiers, in the sequel to Ann Leckie's NYT bestselling, award-winning Ancillary Justice. A must read for fans of Ursula K. Le Guin and James S. A. Corey.Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she has only a single body and serves the emperor.With a new ship and a troublesome crew, Breq is ordered to go to the only place in the galaxy she would agree to go: to Athoek Station to protect the family of a lieutenant she once knew - a lieutenant she murdered in cold blood.Ann Leckie's Imperial Radch trilogy has become one of the new classics of science fiction. Beautifully written and forward thinking, it does what good science fiction does best, taking readers to bold new worlds with plenty explosions along the way.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 48,
-        "artificial intelligence": 39,
-        "audiobook": 63,
-        "fantasy": 69,
-        "fiction": 545,
-        "science fiction": 1855,
-        "science fiction fantasy": 138,
-        "space": 86,
-        "space (space opera)": 321,
-        "speculative fiction": 63
+  "author": "Ann Leckie",
+  "id": "3415",
+  "description": "Seeking atonement for past crimes, Breq takes on a mission as captain of a troublesome new crew of Radchai soldiers, in the sequel to Ann Leckie's NYT bestselling, award-winning Ancillary Justice. A must read for fans of Ursula K. Le Guin and James S. A. Corey.Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she has only a single body and serves the emperor.With a new ship and a troublesome crew, Breq is ordered to go to the only place in the galaxy she would agree to go: to Athoek Station to protect the family of a lieutenant she once knew - a lieutenant she murdered in cold blood.Ann Leckie's Imperial Radch trilogy has become one of the new classics of science fiction. Beautifully written and forward thinking, it does what good science fiction does best, taking readers to bold new worlds with plenty explosions along the way.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "artificial intelligence",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3415_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3415_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3415_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3415_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3415_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3415_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "3415_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 42805,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "3415_2"
     },
-    "pages": 413,
-    "title": "Ancillary Sword",
-    "url": "https://www.goodreads.com/book/show/20706284-ancillary-sword",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "3415_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3415_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3415_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "3415_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 42805,
+    "score": 4.06
+  },
+  "pages": 413,
+  "title": "Ancillary Sword",
+  "url": "https://www.goodreads.com/book/show/20706284-ancillary-sword",
+  "year_published": 2014
 }

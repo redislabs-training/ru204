@@ -1,62 +1,62 @@
 {
-    "author": "Hugh Howey",
-    "id": "405",
-    "description": "There is a legend in their past of an uprising, a war they have learned about, but have learned nothing fromNobody knows what went wrong. Nobody talks about what happened. Such are the silo taboos.Now, nearly two hundred years later, the people of the Silo will get a chance to learn more about that distant uprising.They'll get to start one of their own...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 78,
-        "fantasy": 13,
-        "fiction": 98,
-        "novella": 12,
-        "science fiction": 201,
-        "science fiction (apocalyptic)": 16,
-        "science fiction (dystopia)": 136,
-        "science fiction fantasy": 15,
-        "short stories": 20,
-        "speculative fiction": 10
+  "author": "Hugh Howey",
+  "id": "405",
+  "description": "There is a legend in their past of an uprising, a war they have learned about, but have learned nothing fromNobody knows what went wrong. Nobody talks about what happened. Such are the silo taboos.Now, nearly two hundred years later, the people of the Silo will get a chance to learn more about that distant uprising.They'll get to start one of their own...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "405_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "405_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "405_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "405_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "405_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "405_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "405_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "405_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "405_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10058,
-        "score": 4.35
+    {
+      "status": "maintenance",
+      "stock_id": "405_2"
     },
-    "pages": 1351,
-    "title": "The Unraveling",
-    "url": "https://www.goodreads.com/book/show/13314945-the-unraveling",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "405_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "405_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "405_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "405_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "405_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "405_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10058,
+    "score": 4.35
+  },
+  "pages": 1351,
+  "title": "The Unraveling",
+  "url": "https://www.goodreads.com/book/show/13314945-the-unraveling",
+  "year_published": 2011
 }

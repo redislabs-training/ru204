@@ -1,50 +1,50 @@
 {
-    "author": "Terry Pratchett",
-    "id": "4406",
-    "description": "Librarian's Note: For an alternate cover edition of the same ISBN, click here.\"Another world is colliding with this one,\" said the toad. \"All the monsters are coming back.\"\"Why?\" said Tiffany.\"There's no one to stop them.\"There was silence for a moment.Then Tiffany said, \"There's me.\"Armed only with a frying pan and her common sense, Tiffany Aching, a young witch-to-be, is all that stands between the monsters of Fairyland and the warm, green Chalk country that is her home. Forced into Fairyland to seek her kidnapped brother, Tiffany allies herself with the Chalk's local Nac Mac Feegle - aka the Wee Free Men - a clan of sheep-stealing, sword-wielding, six-inch-high blue men who are as fierce as they are funny. Together they battle through an eerie and ever-shifting landscape, fighting brutal flying fairies, dream-spinning dromes, and grimhounds - black dogs with eyes of fire and teeth of razors - before ultimately confronting the Queen of the Elves, absolute ruler of a world in which reality intertwines with nightmare. And in the final showdown, Tiffany must face her cruel power alone...In a riveting narrative that is equal parts suspense and humor, Carnegie Medalist Terry Pratchett returns to his internationally popular Discworld with a breathtaking tale certain to leave fans, new and old, enthralled.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 226,
-        "audiobook": 193,
-        "childrens": 263,
-        "fantasy": 5613,
-        "fantasy (magic)": 195,
-        "fiction": 1027,
-        "humor": 812,
-        "humor (comedy)": 201,
-        "science fiction fantasy": 202,
-        "young adult": 1092
+  "author": "Terry Pratchett",
+  "id": "4406",
+  "description": "Librarian's Note: For an alternate cover edition of the same ISBN, click here.\"Another world is colliding with this one,\" said the toad. \"All the monsters are coming back.\"\"Why?\" said Tiffany.\"There's no one to stop them.\"There was silence for a moment.Then Tiffany said, \"There's me.\"Armed only with a frying pan and her common sense, Tiffany Aching, a young witch-to-be, is all that stands between the monsters of Fairyland and the warm, green Chalk country that is her home. Forced into Fairyland to seek her kidnapped brother, Tiffany allies herself with the Chalk's local Nac Mac Feegle - aka the Wee Free Men - a clan of sheep-stealing, sword-wielding, six-inch-high blue men who are as fierce as they are funny. Together they battle through an eerie and ever-shifting landscape, fighting brutal flying fairies, dream-spinning dromes, and grimhounds - black dogs with eyes of fire and teeth of razors - before ultimately confronting the Queen of the Elves, absolute ruler of a world in which reality intertwines with nightmare. And in the final showdown, Tiffany must face her cruel power alone...In a riveting narrative that is equal parts suspense and humor, Carnegie Medalist Terry Pratchett returns to his internationally popular Discworld with a breathtaking tale certain to leave fans, new and old, enthralled.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4406_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4406_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4406_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4406_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "4406_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4406_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 98329,
-        "score": 4.25
+    {
+      "status": "available",
+      "stock_id": "4406_2"
     },
-    "pages": 961,
-    "title": "The Wee Free Men",
-    "url": "https://www.goodreads.com/book/show/34494.The_Wee_Free_Men",
-    "year_published": 2003
+    {
+      "status": "on_loan",
+      "stock_id": "4406_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "4406_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4406_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 98329,
+    "score": 4.25
+  },
+  "pages": 961,
+  "title": "The Wee Free Men",
+  "url": "https://www.goodreads.com/book/show/34494.The_Wee_Free_Men",
+  "year_published": 2003
 }

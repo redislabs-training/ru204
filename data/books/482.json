@@ -1,54 +1,54 @@
 {
-    "author": "Julian  May",
-    "id": "482",
-    "description": "When a one-way time tunnel to Earth's distant past, specifically six million B.C., was discovered by folks on the Galactic Milieu, every misfit for light-years around hurried to pass through it. Each sought his own brand of happiness. But none could have guessed what awaited them. Not even in a million years....",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 12,
-        "anthologies (collections)": 7,
-        "audiobook": 10,
-        "fantasy": 379,
-        "fiction": 132,
-        "historical (historical fiction)": 6,
-        "science fiction": 507,
-        "science fiction (time travel)": 94,
-        "science fiction fantasy": 42,
-        "speculative fiction": 19
+  "author": "Julian  May",
+  "id": "482",
+  "description": "When a one-way time tunnel to Earth's distant past, specifically six million B.C., was discovered by folks on the Galactic Milieu, every misfit for light-years around hurried to pass through it. Each sought his own brand of happiness. But none could have guessed what awaited them. Not even in a million years....",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "anthologies (collections)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "482_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "482_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "482_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "482_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "482_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "482_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "482_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11543,
-        "score": 4.07
+    {
+      "status": "on_loan",
+      "stock_id": "482_2"
     },
-    "pages": 1207,
-    "title": "The Many-Coloured Land",
-    "url": "https://www.goodreads.com/book/show/378639.The_Many_Coloured_Land",
-    "year_published": 1981
+    {
+      "status": "on_loan",
+      "stock_id": "482_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "482_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "482_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "482_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11543,
+    "score": 4.07
+  },
+  "pages": 1207,
+  "title": "The Many-Coloured Land",
+  "url": "https://www.goodreads.com/book/show/378639.The_Many_Coloured_Land",
+  "year_published": 1981
 }

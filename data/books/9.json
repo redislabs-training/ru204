@@ -1,57 +1,57 @@
 {
-    "author": "Simon Furman",
-    "id": "9",
-    "description": "\"Transformers: The Ultimate Guide\" is a detailed look at the fantastic world of these mechanical marvels. Follow each character's history and witness the amazing evolution of the Transformers, from physical structure and weaponry to personalities, alliances, and important battles. Detailed illustrations show exactly how each character \"transforms\" from warrior robot to high-powered vehicle. Special feature spreads cover all aspects of the Transformers' world and include specially commissioned maps and detailed city plans of their home planet of Cybertron, descriptions of the giant space ark in which the Transformers traveled to Earth, major wars in Transformers history, and much more.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "culture (film)": 2,
-        "culture (pop culture)": 2,
-        "reference": 6,
-        "science fiction": 8,
-        "sequential art (comics)": 4
+  "author": "Simon Furman",
+  "id": "9",
+  "description": "\"Transformers: The Ultimate Guide\" is a detailed look at the fantastic world of these mechanical marvels. Follow each character's history and witness the amazing evolution of the Transformers, from physical structure and weaponry to personalities, alliances, and important battles. Detailed illustrations show exactly how each character \"transforms\" from warrior robot to high-powered vehicle. Special feature spreads cover all aspects of the Transformers' world and include specially commissioned maps and detailed city plans of their home planet of Cybertron, descriptions of the giant space ark in which the Transformers traveled to Earth, major wars in Transformers history, and much more.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "culture (film)",
+    "culture (pop culture)",
+    "reference",
+    "science fiction",
+    "sequential art (comics)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "9_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "9_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "9_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "9_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "9_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 233,
-        "score": 4.23
+    {
+      "status": "on_loan",
+      "stock_id": "9_2"
     },
-    "pages": 1071,
-    "title": "Transformers: The Ultimate Guide",
-    "url": "https://www.goodreads.com/book/show/390032.Transformers",
-    "year_published": 2004
+    {
+      "status": "available",
+      "stock_id": "9_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "9_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "9_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 233,
+    "score": 4.23
+  },
+  "pages": 1071,
+  "title": "Transformers: The Ultimate Guide",
+  "url": "https://www.goodreads.com/book/show/390032.Transformers",
+  "year_published": 2004
 }

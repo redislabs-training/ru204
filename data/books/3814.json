@@ -1,34 +1,34 @@
 {
-    "author": "James S.A. Corey",
-    "id": "3814",
-    "description": "The fourth novel in James S.A. Corey\u2019s New York Times bestselling Expanse seriesThe gates have opened the way to thousands of habitable planets, and the land rush has begun. Settlers stream out from humanity's home planets in a vast, poorly controlled flood, landing on a new world. Among them, the Rocinante, haunted by the vast, posthuman network of the protomolecule as they investigate what destroyed the great intergalactic society that built the gates and the protomolecule.But Holden and his crew must also contend with the growing tensions between the settlers and the company which owns the official claim to the planet. Both sides will stop at nothing to defend what's theirs, but soon a terrible disease strikes and only Holden - with help from the ghostly Detective Miller - can find the cure.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 52,
-        "audiobook": 153,
-        "fantasy": 55,
-        "fiction": 668,
-        "novels": 43,
-        "science fiction": 2117,
-        "science fiction (aliens)": 49,
-        "science fiction fantasy": 98,
-        "space": 119,
-        "space (space opera)": 433
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3814_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 68755,
-        "score": 4.18
-    },
-    "pages": 1283,
-    "title": "Cibola Burn",
-    "url": "https://www.goodreads.com/book/show/18656030-cibola-burn",
-    "year_published": 2014
+  "author": "James S.A. Corey",
+  "id": "3814",
+  "description": "The fourth novel in James S.A. Corey’s New York Times bestselling Expanse seriesThe gates have opened the way to thousands of habitable planets, and the land rush has begun. Settlers stream out from humanity's home planets in a vast, poorly controlled flood, landing on a new world. Among them, the Rocinante, haunted by the vast, posthuman network of the protomolecule as they investigate what destroyed the great intergalactic society that built the gates and the protomolecule.But Holden and his crew must also contend with the growing tensions between the settlers and the company which owns the official claim to the planet. Both sides will stop at nothing to defend what's theirs, but soon a terrible disease strikes and only Holden - with help from the ghostly Detective Miller - can find the cure.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3814_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 68755,
+    "score": 4.18
+  },
+  "pages": 1283,
+  "title": "Cibola Burn",
+  "url": "https://www.goodreads.com/book/show/18656030-cibola-burn",
+  "year_published": 2014
 }

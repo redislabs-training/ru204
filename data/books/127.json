@@ -1,34 +1,34 @@
 {
-    "author": "K.A. Applegate",
-    "id": "127",
-    "description": "There's a new rumor in town. Someone has discovered an item that proves life on other planets exists. And they've been hiding it on a base called Zone 91. The Most Secret Place On Earth.Cassie, the other Animorphs, and Ax already know about life on other planets. Too well. They also realize the Yeerks will try to access Zone 91 to find out if what's there will threaten their mission. So the Animorphs decide to pay Zone 91 and the Yeerks a little visit. But what they discover is not at all what they expect.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 13,
-        "animals": 19,
-        "childrens": 34,
-        "childrens (middle grade)": 25,
-        "fantasy": 49,
-        "fiction": 69,
-        "paranormal (shapeshifters)": 7,
-        "science fiction": 122,
-        "science fiction (aliens)": 31,
-        "young adult": 88
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "127_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3666,
-        "score": 3.64
-    },
-    "pages": 506,
-    "title": "The Unknown",
-    "url": "https://www.goodreads.com/book/show/363391.The_Unknown",
-    "year_published": 1998
+  "author": "K.A. Applegate",
+  "id": "127",
+  "description": "There's a new rumor in town. Someone has discovered an item that proves life on other planets exists. And they've been hiding it on a base called Zone 91. The Most Secret Place On Earth.Cassie, the other Animorphs, and Ax already know about life on other planets. Too well. They also realize the Yeerks will try to access Zone 91 to find out if what's there will threaten their mission. So the Animorphs decide to pay Zone 91 and the Yeerks a little visit. But what they discover is not at all what they expect.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "paranormal (shapeshifters)",
+    "science fiction",
+    "science fiction (aliens)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "127_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3666,
+    "score": 3.64
+  },
+  "pages": 506,
+  "title": "The Unknown",
+  "url": "https://www.goodreads.com/book/show/363391.The_Unknown",
+  "year_published": 1998
 }

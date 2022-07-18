@@ -1,33 +1,33 @@
 {
-    "author": "Philip Charles Stephens",
-    "id": "7",
-    "description": "It is the year 2613. A scientific vessel at the edge of the solar-system has discovered a derelict ship \u2014 ancient, alien, and containing a secret so dangerous the entire sector has been quarantined. Interlocutor Lexi Sonota has arrived to investigate after fifteen months in stasis, but with her wife dying from a rogue nano-virus back on Terra, and her superior withholding something from her, all her strength and experience may not be enough to keep her alive. Alone and billions of miles from home, Lexi will discover the universe is far bigger than she ever imagined and infinitely more terrifying.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "horror": 2,
-        "science fiction": 2,
-        "science fiction (alternate universe)": 6
+  "author": "Philip Charles Stephens",
+  "id": "7",
+  "description": "It is the year 2613. A scientific vessel at the edge of the solar-system has discovered a derelict ship — ancient, alien, and containing a secret so dangerous the entire sector has been quarantined. Interlocutor Lexi Sonota has arrived to investigate after fifteen months in stasis, but with her wife dying from a rogue nano-virus back on Terra, and her superior withholding something from her, all her strength and experience may not be enough to keep her alive. Alone and billions of miles from home, Lexi will discover the universe is far bigger than she ever imagined and infinitely more terrifying.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "horror",
+    "science fiction",
+    "science fiction (alternate universe)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "7_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "7_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16,
-        "score": 4.56
-    },
-    "pages": 1335,
-    "title": "The Closed Gate",
-    "url": "https://www.goodreads.com/book/show/22584155-the-closed-gate",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "7_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16,
+    "score": 4.56
+  },
+  "pages": 1335,
+  "title": "The Closed Gate",
+  "url": "https://www.goodreads.com/book/show/22584155-the-closed-gate",
+  "year_published": 2014
 }

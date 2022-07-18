@@ -1,66 +1,66 @@
 {
-    "author": "Robert Louis Stevenson",
-    "id": "13703",
-    "description": "Strange Case of Dr Jekyll and Mr Hyde is the original title of a novella written by the famous Scottish author Robert Louis Stevenson that was first published in 1886. The work is commonly known today as The Strange Case of Dr Jekyll and Mr Hyde, Dr Jekyll and Mr Hyde, or simply Jekyll & Hyde. It is about a London lawyer named John Gabriel Utterson who investigates strange occurrences between his old friend, Dr Henry Jekyll, and the evil Edward Hyde.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (school)": 454,
-        "classics": 13292,
-        "fantasy": 855,
-        "fiction": 4362,
-        "gothic": 1104,
-        "horror": 4254,
-        "literature": 663,
-        "literature (19th century)": 487,
-        "mystery": 1340,
-        "science fiction": 1448
+  "author": "Robert Louis Stevenson",
+  "id": "13703",
+  "description": "Strange Case of Dr Jekyll and Mr Hyde is the original title of a novella written by the famous Scottish author Robert Louis Stevenson that was first published in 1886. The work is commonly known today as The Strange Case of Dr Jekyll and Mr Hyde, Dr Jekyll and Mr Hyde, or simply Jekyll & Hyde. It is about a London lawyer named John Gabriel Utterson who investigates strange occurrences between his old friend, Dr Henry Jekyll, and the evil Edward Hyde.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (school)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "gothic",
+    "horror",
+    "literature",
+    "literature (19th century)",
+    "mystery",
+    "science fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "13703_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "13703_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13703_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13703_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "13703_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "13703_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13703_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13703_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13703_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13703_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 401654,
-        "score": 3.82
+    {
+      "status": "on_loan",
+      "stock_id": "13703_2"
     },
-    "pages": 958,
-    "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
-    "url": "https://www.goodreads.com/book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
-    "year_published": 1886
+    {
+      "status": "on_loan",
+      "stock_id": "13703_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "13703_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "13703_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13703_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13703_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13703_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13703_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 401654,
+    "score": 3.82
+  },
+  "pages": 958,
+  "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+  "url": "https://www.goodreads.com/book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
+  "year_published": 1886
 }

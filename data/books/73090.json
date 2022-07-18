@@ -1,40 +1,40 @@
 {
-    "author": "George Orwell",
-    "id": "73090",
-    "description": "Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern life\u2014the ubiquity of television, the distortion of the language\u2014and his ability to construct such a thorough version of hell. Required reading for students since it was published, it ranks among the most terrifying novels ever written.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (school)": 1801,
-        "adult": 1062,
-        "classics": 35921,
-        "fantasy": 1086,
-        "fiction": 22429,
-        "literature": 2977,
-        "novels": 2201,
-        "politics": 2047,
-        "science fiction": 10486,
-        "science fiction (dystopia)": 8724
+  "author": "George Orwell",
+  "id": "73090",
+  "description": "Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern life—the ubiquity of television, the distortion of the language—and his ability to construct such a thorough version of hell. Required reading for students since it was published, it ranks among the most terrifying novels ever written.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (school)",
+    "adult",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "73090_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "73090_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "73090_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3275862,
-        "score": 4.19
-    },
-    "pages": 696,
-    "title": "1984",
-    "url": "https://www.goodreads.com/book/show/40961427-1984",
-    "year_published": 1949
+    {
+      "status": "available",
+      "stock_id": "73090_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3275862,
+    "score": 4.19
+  },
+  "pages": 696,
+  "title": "1984",
+  "url": "https://www.goodreads.com/book/show/40961427-1984",
+  "year_published": 1949
 }

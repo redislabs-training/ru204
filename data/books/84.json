@@ -1,41 +1,41 @@
 {
-    "author": "Wendy Nikel",
-    "id": "84",
-    "description": "Elise Morley is an expert on the past who's about to get a crash course in the future. For years, Elise has been donning corsets, sneaking into castles, and lying through her teeth to enforce the Place in Time Travel Agency's ten essential rules of time travel. Someone has to ensure that travel to the past isn't abused, and most days she welcomes the challenge of tracking down and retrieving clients who have run into trouble on their historical vacations.But when a dangerous secret organization kidnaps her and coerces her into jumping to the future on a high-stakes assignment, she's got more to worry about than just the time-space continuum. For the first time ever, she's the one out-of-date, out of place, and quickly running out of time.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 2,
-        "fantasy": 4,
-        "fiction": 6,
-        "historical (historical fiction)": 3,
-        "novella": 5,
-        "science fiction": 26,
-        "science fiction (time travel)": 30,
-        "science fiction fantasy": 2
+  "author": "Wendy Nikel",
+  "id": "84",
+  "description": "Elise Morley is an expert on the past who's about to get a crash course in the future. For years, Elise has been donning corsets, sneaking into castles, and lying through her teeth to enforce the Place in Time Travel Agency's ten essential rules of time travel. Someone has to ensure that travel to the past isn't abused, and most days she welcomes the challenge of tracking down and retrieving clients who have run into trouble on their historical vacations.But when a dangerous secret organization kidnaps her and coerces her into jumping to the future on a high-stakes assignment, she's got more to worry about than just the time-space continuum. For the first time ever, she's the one out-of-date, out of place, and quickly running out of time.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "novella",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "84_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "84_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "84_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "84_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 340,
-        "score": 3.78
+    {
+      "status": "on_loan",
+      "stock_id": "84_2"
     },
-    "pages": 1186,
-    "title": "The Continuum",
-    "url": "https://www.goodreads.com/book/show/35224471-the-continuum",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "84_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 340,
+    "score": 3.78
+  },
+  "pages": 1186,
+  "title": "The Continuum",
+  "url": "https://www.goodreads.com/book/show/35224471-the-continuum",
+  "year_published": 2018
 }

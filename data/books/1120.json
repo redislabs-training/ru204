@@ -1,62 +1,62 @@
 {
-    "author": "Ilsa J. Bick",
-    "id": "1120",
-    "description": "The Apocalypse does not end. The Changed will grow in numbers. The Spared may not survive.Even before the EMPs brought down the world, Alex was on the run from the demons of her past and the monster living in her head. After the world was gone, she believed Rule could be a sanctuary for her and those she\u2019d come to love.But she was wrong.Now Alex is in the fight of her life against the adults, who would use her, the survivors, who don\u2019t trust her, and the Changed, who would eat her alive. Welcome to Shadows, the second book in the haunting apocalyptic Ashes Trilogy: where no one is safe and humans may be the worst of the monsters.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure (survival)": 37,
-        "apocalyptic (post apocalyptic)": 97,
-        "fantasy": 41,
-        "fiction": 33,
-        "horror": 127,
-        "horror (zombies)": 219,
-        "science fiction": 78,
-        "science fiction (apocalyptic)": 39,
-        "science fiction (dystopia)": 177,
-        "young adult": 251
+  "author": "Ilsa J. Bick",
+  "id": "1120",
+  "description": "The Apocalypse does not end. The Changed will grow in numbers. The Spared may not survive.Even before the EMPs brought down the world, Alex was on the run from the demons of her past and the monster living in her head. After the world was gone, she believed Rule could be a sanctuary for her and those she’d come to love.But she was wrong.Now Alex is in the fight of her life against the adults, who would use her, the survivors, who don’t trust her, and the Changed, who would eat her alive. Welcome to Shadows, the second book in the haunting apocalyptic Ashes Trilogy: where no one is safe and humans may be the worst of the monsters.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1120_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1120_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1120_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1120_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1120_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1120_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1120_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1120_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1120_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10179,
-        "score": 3.78
+    {
+      "status": "on_loan",
+      "stock_id": "1120_2"
     },
-    "pages": 370,
-    "title": "Shadows",
-    "url": "https://www.goodreads.com/book/show/11320138-shadows",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "1120_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1120_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1120_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1120_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1120_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1120_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10179,
+    "score": 3.78
+  },
+  "pages": 370,
+  "title": "Shadows",
+  "url": "https://www.goodreads.com/book/show/11320138-shadows",
+  "year_published": 2012
 }

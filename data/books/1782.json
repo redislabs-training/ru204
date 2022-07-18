@@ -1,48 +1,48 @@
 {
-    "author": "Dennis E. Taylor",
-    "id": "1782",
-    "description": "Being a sentient spaceship really should be more fun. But after spreading out through space for almost a century, Bob and his clones just can't stay out of trouble.  They've created enough colonies so humanity shouldn't go extinct. But political squabbles have a bad habit of dying hard, and the Brazilian probes are still trying to take out the competition. And the Bobs have picked a fight with an older, more powerful species with a large appetite and a short temper.  Still stinging from getting their collective butts kicked in their first encounter with the Others, the Bobs now face the prospect of a decisive final battle to defend Earth and its colonies. But the Bobs are less disciplined than a herd of cats, and some of the younger copies are more concerned with their own local problems than defeating the Others.  Yet salvation may come from an unlikely source. A couple of eighth-generation Bobs have found something out in deep space. All it will take to save the Earth and perhaps all of humanity is for them to get it to Sol \u2014 unless the Others arrive first.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 22,
-        "audiobook": 197,
-        "fantasy": 18,
-        "fiction": 218,
-        "humor": 40,
-        "science fiction": 683,
-        "science fiction (aliens)": 35,
-        "science fiction fantasy": 20,
-        "space": 49,
-        "space (space opera)": 79
+  "author": "Dennis E. Taylor",
+  "id": "1782",
+  "description": "Being a sentient spaceship really should be more fun. But after spreading out through space for almost a century, Bob and his clones just can't stay out of trouble.  They've created enough colonies so humanity shouldn't go extinct. But political squabbles have a bad habit of dying hard, and the Brazilian probes are still trying to take out the competition. And the Bobs have picked a fight with an older, more powerful species with a large appetite and a short temper.  Still stinging from getting their collective butts kicked in their first encounter with the Others, the Bobs now face the prospect of a decisive final battle to defend Earth and its colonies. But the Bobs are less disciplined than a herd of cats, and some of the younger copies are more concerned with their own local problems than defeating the Others.  Yet salvation may come from an unlikely source. A couple of eighth-generation Bobs have found something out in deep space. All it will take to save the Earth and perhaps all of humanity is for them to get it to Sol — unless the Others arrive first.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1782_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1782_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1782_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1782_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1782_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 31346,
-        "score": 4.4
+    {
+      "status": "on_loan",
+      "stock_id": "1782_2"
     },
-    "pages": 375,
-    "title": "All These Worlds",
-    "url": "https://www.goodreads.com/book/show/35506021-all-these-worlds",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "1782_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1782_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 31346,
+    "score": 4.4
+  },
+  "pages": 375,
+  "title": "All These Worlds",
+  "url": "https://www.goodreads.com/book/show/35506021-all-these-worlds",
+  "year_published": 2017
 }

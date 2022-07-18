@@ -1,64 +1,64 @@
 {
-    "author": "Mira Grant",
-    "id": "6346",
-    "description": "The year was 2014. We had cured cancer. We had beaten the common cold. But in doing so we created something new, something terrible that no one could stop. The infection spread, virus blocks taking over bodies and minds with one, unstoppable command: FEED. Now, twenty years after the Rising, bloggers Georgia and Shaun Mason are on the trail of the biggest story of their lives\u2014the dark conspiracy behind the infected. The truth will get out, even if it kills them.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 456,
-        "audiobook": 163,
-        "fantasy": 257,
-        "fiction": 798,
-        "horror": 2073,
-        "horror (zombies)": 1901,
-        "science fiction": 974,
-        "science fiction (dystopia)": 552,
-        "thriller": 229,
-        "young adult": 352
+  "author": "Mira Grant",
+  "id": "6346",
+  "description": "The year was 2014. We had cured cancer. We had beaten the common cold. But in doing so we created something new, something terrible that no one could stop. The infection spread, virus blocks taking over bodies and minds with one, unstoppable command: FEED. Now, twenty years after the Rising, bloggers Georgia and Shaun Mason are on the trail of the biggest story of their lives—the dark conspiracy behind the infected. The truth will get out, even if it kills them.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "6346_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "6346_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6346_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6346_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6346_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6346_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6346_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6346_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6346_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 53366,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "6346_2"
     },
-    "pages": 1319,
-    "title": "Feed",
-    "url": "https://www.goodreads.com/book/show/7094569-feed",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "6346_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6346_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6346_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6346_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6346_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6346_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 53366,
+    "score": 3.86
+  },
+  "pages": 1319,
+  "title": "Feed",
+  "url": "https://www.goodreads.com/book/show/7094569-feed",
+  "year_published": 2010
 }

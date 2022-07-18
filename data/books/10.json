@@ -1,47 +1,47 @@
 {
-    "author": "Leiji Matsumoto",
-    "id": "10",
-    "description": "The classic manga behind the anime Star Blazers, from space adventure master Leiji Matsumoto--in English at last!The human race has one year left to live. Aliens known as the Gamilas have attacked Earth, poisoning it with radioactivity and driving humans underground. As humankind grows sicker by the day, their final hope is the space battleship Yamato\u2013constructed from secret plans and equipped with advanced technology. Its mission: to reach a distant planet and bring back a cure to save humanity. Will the ship and its crew rescue the Earth in time?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 3,
-        "science fiction": 9,
-        "sequential art (graphic novels)": 3,
-        "sequential art (manga)": 30,
-        "space (space opera)": 2
+  "author": "Leiji Matsumoto",
+  "id": "10",
+  "description": "The classic manga behind the anime Star Blazers, from space adventure master Leiji Matsumoto--in English at last!The human race has one year left to live. Aliens known as the Gamilas have attacked Earth, poisoning it with radioactivity and driving humans underground. As humankind grows sicker by the day, their final hope is the space battleship Yamato–constructed from secret plans and equipped with advanced technology. Its mission: to reach a distant planet and bring back a cure to save humanity. Will the ship and its crew rescue the Earth in time?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "science fiction",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "10_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "10_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "10_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 57,
-        "score": 3.63
+    {
+      "status": "on_loan",
+      "stock_id": "10_2"
     },
-    "pages": 349,
-    "title": "Space Battleship Yamato: The Classic Collection",
-    "url": "https://www.goodreads.com/book/show/37638261-space-battleship-yamato",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "10_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "10_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 57,
+    "score": 3.63
+  },
+  "pages": 349,
+  "title": "Space Battleship Yamato: The Classic Collection",
+  "url": "https://www.goodreads.com/book/show/37638261-space-battleship-yamato",
+  "year_published": 2019
 }

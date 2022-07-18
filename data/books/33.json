@@ -1,59 +1,59 @@
 {
-    "author": "Zack Whedon",
-    "id": "33",
-    "description": "Rising stars Zack Whedon and Andy MacDonald deliver explosive action and poignant humanity in both the future and the past in this inspired reimagining of The Terminator! Before John Connor sent him back in time to save Sarah Connor from the infamous T-800, Kyle Reese was just another man fighting to survive in a world overrun by Skynet and its terrifying army of killer cyborgs. Follow Kyle on his journey through the ravaged landscape of 2029, to a world previously unimaginable to him - the glittering streets of Los Angeles in 1984! Along the way, a shocking discovery at a hidden Cyberdyne facility sheds new light on Kyle's fate in the past. The future of humanity seems more uncertain than ever as Kyle battles an entirely new Terminator threat alongside Sarah Connor.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 2,
-        "graphic novels comics": 3,
-        "science fiction": 9,
-        "science fiction (dystopia)": 2,
-        "science fiction (robots)": 2,
-        "sequential art (comics)": 9,
-        "sequential art (graphic novels)": 16
+  "author": "Zack Whedon",
+  "id": "33",
+  "description": "Rising stars Zack Whedon and Andy MacDonald deliver explosive action and poignant humanity in both the future and the past in this inspired reimagining of The Terminator! Before John Connor sent him back in time to save Sarah Connor from the infamous T-800, Kyle Reese was just another man fighting to survive in a world overrun by Skynet and its terrifying army of killer cyborgs. Follow Kyle on his journey through the ravaged landscape of 2029, to a world previously unimaginable to him - the glittering streets of Los Angeles in 1984! Along the way, a shocking discovery at a hidden Cyberdyne facility sheds new light on Kyle's fate in the past. The future of humanity seems more uncertain than ever as Kyle battles an entirely new Terminator threat alongside Sarah Connor.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (robots)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "33_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "33_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "33_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "33_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "33_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "33_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "33_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "33_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "33_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 188,
-        "score": 3.78
+    {
+      "status": "on_loan",
+      "stock_id": "33_2"
     },
-    "pages": 1214,
-    "title": "The Terminator: 2029-1984",
-    "url": "https://www.goodreads.com/book/show/9848717-the-terminator",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "33_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "33_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "33_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "33_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "33_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "33_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 188,
+    "score": 3.78
+  },
+  "pages": 1214,
+  "title": "The Terminator: 2029-1984",
+  "url": "https://www.goodreads.com/book/show/9848717-the-terminator",
+  "year_published": 2011
 }

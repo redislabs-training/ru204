@@ -1,51 +1,51 @@
 {
-    "author": "Akira Toriyama",
-    "id": "50",
-    "description": "Goku needs just one more Dragon Ball to wish Upa's father back to life...but the Ball is in the hands of an old enemy! Then, Goku and his friends part ways, promising to meet again in three years at the Tenka'ichi Bud\u00f4kai, the \"Strongest-Under-the-Heavens\" Martial Arts Tournament. But this time the competition is stronger than ever: Tenshinhan and Chaozu, the deadly disciples of Tsuru-Sen'nin, the Crane Hermit! Will Kame-Sen'nin's turtle-style kung fu beat crane style? Or will their strange new opponents be triumphant?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 18,
-        "comics manga": 9,
-        "fantasy": 29,
-        "fiction": 18,
-        "humor": 13,
-        "manga (shonen)": 13,
-        "science fiction": 10,
-        "sequential art (comics)": 39,
-        "sequential art (graphic novels)": 21,
-        "sequential art (manga)": 429
+  "author": "Akira Toriyama",
+  "id": "50",
+  "description": "Goku needs just one more Dragon Ball to wish Upa's father back to life...but the Ball is in the hands of an old enemy! Then, Goku and his friends part ways, promising to meet again in three years at the Tenka'ichi Budôkai, the \"Strongest-Under-the-Heavens\" Martial Arts Tournament. But this time the competition is stronger than ever: Tenshinhan and Chaozu, the deadly disciples of Tsuru-Sen'nin, the Crane Hermit! Will Kame-Sen'nin's turtle-style kung fu beat crane style? Or will their strange new opponents be triumphant?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "comics manga",
+    "fantasy",
+    "fiction",
+    "humor",
+    "manga (shonen)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "50_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "50_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "50_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "50_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "50_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "50_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2014,
-        "score": 4.34
+    {
+      "status": "maintenance",
+      "stock_id": "50_2"
     },
-    "pages": 432,
-    "title": "Dragon Ball, Vol. 10: Return to the Tournament",
-    "url": "https://www.goodreads.com/book/show/1267083.Dragon_Ball_Vol_10",
-    "year_published": 1987
+    {
+      "status": "on_loan",
+      "stock_id": "50_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "50_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "50_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2014,
+    "score": 4.34
+  },
+  "pages": 432,
+  "title": "Dragon Ball, Vol. 10: Return to the Tournament",
+  "url": "https://www.goodreads.com/book/show/1267083.Dragon_Ball_Vol_10",
+  "year_published": 1987
 }

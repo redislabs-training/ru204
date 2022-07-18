@@ -1,60 +1,60 @@
 {
-    "author": "H.G. Wells",
-    "id": "8237",
-    "description": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.Inspiring films, radio dramas, comic-book adaptations, television series and sequels,The War of the Worlds is a prototypical work of science fiction which has influenced every alien story that has come since, and is unsurpassed in its ability to thrill, well over a century since it was first published.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 243,
-        "classics": 6155,
-        "fantasy": 512,
-        "fiction": 3008,
-        "horror": 347,
-        "literature": 326,
-        "novels": 265,
-        "science fiction": 5638,
-        "science fiction (aliens)": 249,
-        "science fiction fantasy": 389
+  "author": "H.G. Wells",
+  "id": "8237",
+  "description": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.Inspiring films, radio dramas, comic-book adaptations, television series and sequels,The War of the Worlds is a prototypical work of science fiction which has influenced every alien story that has come since, and is unsurpassed in its ability to thrill, well over a century since it was first published.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "horror",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "8237_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "8237_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8237_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "8237_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "8237_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8237_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "8237_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8237_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 251753,
-        "score": 3.83
+    {
+      "status": "on_loan",
+      "stock_id": "8237_2"
     },
-    "pages": 1278,
-    "title": "The War of the Worlds",
-    "url": "https://www.goodreads.com/book/show/8909.The_War_of_the_Worlds",
-    "year_published": 1898
+    {
+      "status": "available",
+      "stock_id": "8237_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "8237_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8237_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "8237_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8237_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 251753,
+    "score": 3.83
+  },
+  "pages": 1278,
+  "title": "The War of the Worlds",
+  "url": "https://www.goodreads.com/book/show/8909.The_War_of_the_Worlds",
+  "year_published": 1898
 }

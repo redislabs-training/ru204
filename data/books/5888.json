@@ -1,67 +1,67 @@
 {
-    "author": "Stephen King",
-    "id": "5888",
-    "description": "The seventh and final installment of Stephen King's The Dark Tower saga is perhaps the most anticipated book in the author's long career. King began this epic tale about the last gunslinger in the world more than 20 years ago; now he draws its suspenseful story to a close, snapping together the last pieces of his action puzzle and drawing Roland Deschain ever closer to his ultimate goal.Alternate cover edition for ISBN-10: 1416524525; ISBN-13: 9781416524526",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 218,
-        "audiobook": 145,
-        "epic": 107,
-        "fantasy": 4088,
-        "fiction": 1389,
-        "horror": 1246,
-        "novels": 101,
-        "science fiction": 389,
-        "science fiction fantasy": 174,
-        "westerns": 185
+  "author": "Stephen King",
+  "id": "5888",
+  "description": "The seventh and final installment of Stephen King's The Dark Tower saga is perhaps the most anticipated book in the author's long career. King began this epic tale about the last gunslinger in the world more than 20 years ago; now he draws its suspenseful story to a close, snapping together the last pieces of his action puzzle and drawing Roland Deschain ever closer to his ultimate goal.Alternate cover edition for ISBN-10: 1416524525; ISBN-13: 9781416524526",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "epic",
+    "fantasy",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "westerns"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5888_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5888_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5888_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5888_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5888_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5888_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5888_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5888_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5888_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5888_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 152155,
-        "score": 4.24
+    {
+      "status": "maintenance",
+      "stock_id": "5888_2"
     },
-    "pages": 885,
-    "title": "The Dark Tower",
-    "url": "https://www.goodreads.com/book/show/5091.The_Dark_Tower",
-    "year_published": 2004
+    {
+      "status": "on_loan",
+      "stock_id": "5888_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5888_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5888_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5888_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5888_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5888_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5888_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 152155,
+    "score": 4.24
+  },
+  "pages": 885,
+  "title": "The Dark Tower",
+  "url": "https://www.goodreads.com/book/show/5091.The_Dark_Tower",
+  "year_published": 2004
 }

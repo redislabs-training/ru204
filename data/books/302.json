@@ -1,62 +1,62 @@
 {
-    "author": "Hajime Isayama",
-    "id": "302",
-    "description": "\"DO YOU THINK THIS WORLD HAS A FUTURE?\" Thanks to Eren's timely arrival, the 104th has managed to turn the tide at Wall Rose. But this momentary victory forces two more traitors into a corner \u2013 and the identity of the Titans who have been destroying the walls is revealed! What can Eren do against the two most dangerous monsters humanity has ever faced? And who else might be an enemy in disguise? \u00a0Chapters list :43. The Armored Titan44. Strike, Throw, Submit45. The Hunters46. Opening",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics manga": 31,
-        "fantasy": 123,
-        "fiction": 49,
-        "horror": 121,
-        "science fiction": 31,
-        "science fiction (dystopia)": 51,
-        "sequential art (comics)": 97,
-        "sequential art (graphic novels)": 97,
-        "sequential art (manga)": 1582,
-        "young adult": 30
+  "author": "Hajime Isayama",
+  "id": "302",
+  "description": "\"DO YOU THINK THIS WORLD HAS A FUTURE?\" Thanks to Eren's timely arrival, the 104th has managed to turn the tide at Wall Rose. But this momentary victory forces two more traitors into a corner – and the identity of the Titans who have been destroying the walls is revealed! What can Eren do against the two most dangerous monsters humanity has ever faced? And who else might be an enemy in disguise?  Chapters list :43. The Armored Titan44. Strike, Throw, Submit45. The Hunters46. Opening",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics manga",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "302_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "302_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "302_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "302_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "302_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "302_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "302_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "302_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "302_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10453,
-        "score": 4.52
+    {
+      "status": "maintenance",
+      "stock_id": "302_2"
     },
-    "pages": 1126,
-    "title": "Attack on Titan, Vol. 11",
-    "url": "https://www.goodreads.com/book/show/18077957-attack-on-titan-vol-11",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "302_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "302_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "302_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "302_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "302_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "302_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10453,
+    "score": 4.52
+  },
+  "pages": 1126,
+  "title": "Attack on Titan, Vol. 11",
+  "url": "https://www.goodreads.com/book/show/18077957-attack-on-titan-vol-11",
+  "year_published": 2013
 }

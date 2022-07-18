@@ -1,58 +1,58 @@
 {
-    "author": "Samira Ahmed",
-    "id": "2889",
-    "description": "Rebellions are built on hope.Set in a horrifying near-future United States, seventeen-year-old Layla Amin and her parents are forced into an internment camp for Muslim American citizens.With the help of newly made friends also trapped within the internment camp, her boyfriend on the outside, and an unexpected alliance, Layla begins a journey to fight for freedom, leading a revolution against the internment camp's Director and his guards.Heart-racing and emotional, Internment challenges readers to fight complicit silence that exists in our society today.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 64,
-        "contemporary": 263,
-        "fiction": 280,
-        "realistic fiction": 101,
-        "science fiction": 72,
-        "science fiction (dystopia)": 263,
-        "social movements (social justice)": 46,
-        "young adult": 731,
-        "young adult (teen)": 64,
-        "young adult (young adult contemporary)": 44
+  "author": "Samira Ahmed",
+  "id": "2889",
+  "description": "Rebellions are built on hope.Set in a horrifying near-future United States, seventeen-year-old Layla Amin and her parents are forced into an internment camp for Muslim American citizens.With the help of newly made friends also trapped within the internment camp, her boyfriend on the outside, and an unexpected alliance, Layla begins a journey to fight for freedom, leading a revolution against the internment camp's Director and his guards.Heart-racing and emotional, Internment challenges readers to fight complicit silence that exists in our society today.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "contemporary",
+    "fiction",
+    "realistic fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "social movements (social justice)",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult contemporary)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2889_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2889_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2889_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2889_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2889_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2889_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2889_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2889_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12579,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "2889_2"
     },
-    "pages": 1302,
-    "title": "Internment",
-    "url": "https://www.goodreads.com/book/show/38167114-internment",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "2889_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2889_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2889_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2889_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2889_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12579,
+    "score": 3.91
+  },
+  "pages": 1302,
+  "title": "Internment",
+  "url": "https://www.goodreads.com/book/show/38167114-internment",
+  "year_published": 2019
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "6055",
-    "description": "SAGA writer BRIAN K. VAUGHAN launches a brand-new ONGOING SERIES with superstar Wonder Woman artist CLIFF CHIANG! In the early hours after Halloween of 1988, four 12-year-old newspaper delivery girls uncover the most important story of all time.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 181,
-        "fantasy": 285,
-        "fiction": 498,
-        "graphic novels comics": 435,
-        "mystery": 113,
-        "science fiction": 926,
-        "science fiction (time travel)": 285,
-        "sequential art (comics)": 2474,
-        "sequential art (graphic novels)": 3986,
-        "young adult": 438
+  "author": "Brian K. Vaughan",
+  "id": "6055",
+  "description": "SAGA writer BRIAN K. VAUGHAN launches a brand-new ONGOING SERIES with superstar Wonder Woman artist CLIFF CHIANG! In the early hours after Halloween of 1988, four 12-year-old newspaper delivery girls uncover the most important story of all time.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6055_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6055_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "6055_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6055_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6055_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6055_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "6055_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6055_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6055_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 70614,
-        "score": 3.88
+    {
+      "status": "available",
+      "stock_id": "6055_2"
     },
-    "pages": 829,
-    "title": "Paper Girls, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/28204534-paper-girls-vol-1",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "6055_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6055_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6055_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "6055_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6055_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6055_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 70614,
+    "score": 3.88
+  },
+  "pages": 829,
+  "title": "Paper Girls, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/28204534-paper-girls-vol-1",
+  "year_published": 2016
 }

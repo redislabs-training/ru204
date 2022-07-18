@@ -1,34 +1,34 @@
 {
-    "author": "Emily St. John Mandel",
-    "id": "40282",
-    "description": "Set in the days of civilization's collapse, Station Eleven tells the story of a Hollywood star, his would-be savior, and a nomadic group of actors roaming the scattered outposts of the Great Lakes region, risking everything for art and humanity.One snowy night a famous Hollywood actor slumps over and dies onstage during a production of King Lear. Hours later, the world as we know it begins to dissolve. Moving back and forth in time\u2014from the actor's early days as a film star to fifteen years in the future, when a theater troupe known as the Traveling Symphony roams the wasteland of what remains\u2014this suspenseful, elegiac, spellbinding novel charts the strange twists of fate that connect five people: the actor, the man who tried to save him, the actor's first wife, his oldest friend, and a young actress with the Traveling Symphony, caught in the crosshairs of a dangerous self-proclaimed prophet.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 818,
-        "adult fiction": 560,
-        "apocalyptic (post apocalyptic)": 1533,
-        "audiobook": 761,
-        "fantasy": 672,
-        "fiction": 6481,
-        "literary fiction": 527,
-        "science fiction": 3572,
-        "science fiction (apocalyptic)": 531,
-        "science fiction (dystopia)": 2459
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "40282_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 339864,
-        "score": 4.05
-    },
-    "pages": 1308,
-    "title": "Station Eleven",
-    "url": "https://www.goodreads.com/book/show/20170404-station-eleven",
-    "year_published": 2014
+  "author": "Emily St. John Mandel",
+  "id": "40282",
+  "description": "Set in the days of civilization's collapse, Station Eleven tells the story of a Hollywood star, his would-be savior, and a nomadic group of actors roaming the scattered outposts of the Great Lakes region, risking everything for art and humanity.One snowy night a famous Hollywood actor slumps over and dies onstage during a production of King Lear. Hours later, the world as we know it begins to dissolve. Moving back and forth in time—from the actor's early days as a film star to fifteen years in the future, when a theater troupe known as the Traveling Symphony roams the wasteland of what remains—this suspenseful, elegiac, spellbinding novel charts the strange twists of fate that connect five people: the actor, the man who tried to save him, the actor's first wife, his oldest friend, and a young actress with the Traveling Symphony, caught in the crosshairs of a dangerous self-proclaimed prophet.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "40282_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 339864,
+    "score": 4.05
+  },
+  "pages": 1308,
+  "title": "Station Eleven",
+  "url": "https://www.goodreads.com/book/show/20170404-station-eleven",
+  "year_published": 2014
 }

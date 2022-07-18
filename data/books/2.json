@@ -1,55 +1,55 @@
 {
-    "author": "Chris Sarrachini",
-    "id": "2",
-    "description": "It's the triumphant return of Transformers. Long thought dead by the inhabitants of Earth, we discover that the classic metal warriors of Generation 1 are far from gone. But where have they been for so long and why only now have they chosen to return? And who is the mysterious man called Lazarus and what is his plan? ",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "media tie in": 2,
-        "science fiction": 3,
-        "sequential art (comics)": 5,
-        "sequential art (graphic novels)": 3,
-        "space (space opera)": 2
+  "author": "Chris Sarrachini",
+  "id": "2",
+  "description": "It's the triumphant return of Transformers. Long thought dead by the inhabitants of Earth, we discover that the classic metal warriors of Generation 1 are far from gone. But where have they been for so long and why only now have they chosen to return? And who is the mysterious man called Lazarus and what is his plan? ",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "media tie in",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "2_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 42,
-        "score": 3.81
+    {
+      "status": "available",
+      "stock_id": "2_2"
     },
-    "pages": 475,
-    "title": "Transformers Generation One, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/888297.Transformers_Generation_One_Vol_1",
-    "year_published": 2002
+    {
+      "status": "on_loan",
+      "stock_id": "2_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "2_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 42,
+    "score": 3.81
+  },
+  "pages": 475,
+  "title": "Transformers Generation One, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/888297.Transformers_Generation_One_Vol_1",
+  "year_published": 2002
 }

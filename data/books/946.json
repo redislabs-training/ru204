@@ -1,48 +1,48 @@
 {
-    "author": "Peter Clines",
-    "id": "946",
-    "description": "Eli\u2019s willing to admit it: he\u2019s a little obsessed with the mysterious woman he met years ago. Okay, maybe a lot obsessed. But come on, how often do you meet someone who\u2019s driving a hundred-year-old car, clad in Revolutionary-War era clothes, wielding an oddly modified flintlock rifle\u2014someone who pauses just long enough to reveal strange things about you and your world before disappearing in a cloud of gunfire and a squeal of tires?So when the traveler finally reappears in his life, Eli is determined that this time he\u2019s not going to let her go without getting some answers. But his determination soon leads him into a strange, dangerous world and a chase not just across the country but through a hundred years of history\u2014with nothing less than America\u2019s past, present, and future at stake.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 21,
-        "audiobook": 74,
-        "fantasy": 78,
-        "fiction": 137,
-        "historical (historical fiction)": 14,
-        "mystery": 14,
-        "science fiction": 225,
-        "science fiction (time travel)": 174,
-        "science fiction fantasy": 18,
-        "thriller": 19
+  "author": "Peter Clines",
+  "id": "946",
+  "description": "Eli’s willing to admit it: he’s a little obsessed with the mysterious woman he met years ago. Okay, maybe a lot obsessed. But come on, how often do you meet someone who’s driving a hundred-year-old car, clad in Revolutionary-War era clothes, wielding an oddly modified flintlock rifle—someone who pauses just long enough to reveal strange things about you and your world before disappearing in a cloud of gunfire and a squeal of tires?So when the traveler finally reappears in his life, Eli is determined that this time he’s not going to let her go without getting some answers. But his determination soon leads him into a strange, dangerous world and a chase not just across the country but through a hundred years of history—with nothing less than America’s past, present, and future at stake.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "946_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "946_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "946_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "946_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "946_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7312,
-        "score": 3.9
+    {
+      "status": "available",
+      "stock_id": "946_2"
     },
-    "pages": 787,
-    "title": "Paradox Bound",
-    "url": "https://www.goodreads.com/book/show/33825757-paradox-bound",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "946_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "946_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7312,
+    "score": 3.9
+  },
+  "pages": 787,
+  "title": "Paradox Bound",
+  "url": "https://www.goodreads.com/book/show/33825757-paradox-bound",
+  "year_published": 2017
 }

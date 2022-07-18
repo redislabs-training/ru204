@@ -1,48 +1,48 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1436",
-    "description": "The Ghost in the bone-white mask who haunts theAnkh-Morpork Opera House was always considered a benign presence -- some would even say lucky -- until he started killing people. The sudden rash of bizarre backstage deaths now threatens to mar the operatic debut of country girl Perdita X. (nee Agnes) Nitt, she of the ample body and ampler voice.Perdita's expected to hide in the chorus and sing arias out loud while a more petitely presentable soprano mouths the notes. But at least it's an escape from scheming Nanny Ogg and old Granny Weatherwax back home, who want her to join their witchy ranks.Once Granny sets her mind on something, however, it's difficult -- and often hazardous -- to dissuade her. And no opera-prowling phantom fiend is going to keep a pair of determined hags down on the farm after they've seen Ankh-Morpork.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 89,
-        "audiobook": 75,
-        "childrens": 76,
-        "fantasy": 3972,
-        "fiction": 723,
-        "humor": 647,
-        "humor (comedy)": 201,
-        "paranormal (witches)": 107,
-        "science fiction fantasy": 131,
-        "young adult": 94
+  "author": "Terry Pratchett",
+  "id": "1436",
+  "description": "The Ghost in the bone-white mask who haunts theAnkh-Morpork Opera House was always considered a benign presence -- some would even say lucky -- until he started killing people. The sudden rash of bizarre backstage deaths now threatens to mar the operatic debut of country girl Perdita X. (nee Agnes) Nitt, she of the ample body and ampler voice.Perdita's expected to hide in the chorus and sing arias out loud while a more petitely presentable soprano mouths the notes. But at least it's an escape from scheming Nanny Ogg and old Granny Weatherwax back home, who want her to join their witchy ranks.Once Granny sets her mind on something, however, it's difficult -- and often hazardous -- to dissuade her. And no opera-prowling phantom fiend is going to keep a pair of determined hags down on the farm after they've seen Ankh-Morpork.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "paranormal (witches)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1436_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1436_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1436_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1436_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1436_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 56431,
-        "score": 4.06
+    {
+      "status": "available",
+      "stock_id": "1436_2"
     },
-    "pages": 574,
-    "title": "Maskerade",
-    "url": "https://www.goodreads.com/book/show/78876.Maskerade",
-    "year_published": 1995
+    {
+      "status": "on_loan",
+      "stock_id": "1436_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1436_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 56431,
+    "score": 4.06
+  },
+  "pages": 574,
+  "title": "Maskerade",
+  "url": "https://www.goodreads.com/book/show/78876.Maskerade",
+  "year_published": 1995
 }

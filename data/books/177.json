@@ -1,55 +1,55 @@
 {
-    "author": "Stephen Cole",
-    "id": "177",
-    "description": "The TARDIS takes the Doctor and Rose to a destination in deep space - Justicia, a prison camp stretched over seven planets, where Earth colonies deal with their criminals. While Rose finds herself locked up in a teenage borstal, the Doctor is trapped in a scientific labour camp. Each is determined to find the other, and soon both Rose and the Doctor are risking life and limb to escape in their distinctive styles. But their dangerous plans are complicated by some old enemies. Are these creatures fellow prisoners as they claim, or staging a takeover for their own sinister purposes?Featuring the Ninth Doctor and Rose as played by Christopher Eccleston and Billie Piper in the hit Doctor Who series from BBC Television",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 13,
-        "audiobook": 11,
-        "fantasy": 31,
-        "fiction": 56,
-        "media tie in": 14,
-        "media tie in (doctor who)": 376,
-        "media tie in (tv)": 8,
-        "science fiction": 129,
-        "science fiction (aliens)": 7,
-        "science fiction (time travel)": 25
+  "author": "Stephen Cole",
+  "id": "177",
+  "description": "The TARDIS takes the Doctor and Rose to a destination in deep space - Justicia, a prison camp stretched over seven planets, where Earth colonies deal with their criminals. While Rose finds herself locked up in a teenage borstal, the Doctor is trapped in a scientific labour camp. Each is determined to find the other, and soon both Rose and the Doctor are risking life and limb to escape in their distinctive styles. But their dangerous plans are complicated by some old enemies. Are these creatures fellow prisoners as they claim, or staging a takeover for their own sinister purposes?Featuring the Ninth Doctor and Rose as played by Christopher Eccleston and Billie Piper in the hit Doctor Who series from BBC Television",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "media tie in (tv)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "177_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "177_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "177_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "177_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "177_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "177_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "177_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2111,
-        "score": 3.63
+    {
+      "status": "maintenance",
+      "stock_id": "177_2"
     },
-    "pages": 241,
-    "title": "Doctor Who: The Monsters Inside",
-    "url": "https://www.goodreads.com/book/show/152917.Doctor_Who",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "177_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "177_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "177_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "177_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2111,
+    "score": 3.63
+  },
+  "pages": 241,
+  "title": "Doctor Who: The Monsters Inside",
+  "url": "https://www.goodreads.com/book/show/152917.Doctor_Who",
+  "year_published": 2005
 }

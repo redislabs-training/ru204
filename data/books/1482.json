@@ -1,59 +1,59 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1482",
-    "description": "'Neighbours... hah. People'd live for ages side by side, nodding at one another amicably on their way to work, and then some trivial thing would happen and someone would be having a garden fork removed from their ear.'Throughout history, there's always been a perfectly good reason to start a war. Never more so if it is over a 'strategic' piece of old rock in the middle of nowhere. It is after all every citizen's right to bear arms to defend what they consider to be their own. Even if it isn't. And in such pressing circumstances, you really shouldn't let small details like the absence of an army or indeed the money to finance one get in the way of a righteous fight with all the attendant benefits of out-and-out nationalism...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 78,
-        "fantasy": 4057,
-        "fantasy (comic fantasy)": 55,
-        "fantasy (high fantasy)": 51,
-        "fiction": 766,
-        "humor": 664,
-        "humor (comedy)": 208,
-        "novels": 49,
-        "science fiction fantasy": 130,
-        "war": 53
+  "author": "Terry Pratchett",
+  "id": "1482",
+  "description": "'Neighbours... hah. People'd live for ages side by side, nodding at one another amicably on their way to work, and then some trivial thing would happen and someone would be having a garden fork removed from their ear.'Throughout history, there's always been a perfectly good reason to start a war. Never more so if it is over a 'strategic' piece of old rock in the middle of nowhere. It is after all every citizen's right to bear arms to defend what they consider to be their own. Even if it isn't. And in such pressing circumstances, you really shouldn't let small details like the absence of an army or indeed the money to finance one get in the way of a righteous fight with all the attendant benefits of out-and-out nationalism...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (comic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "novels",
+    "science fiction fantasy",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1482_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1482_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1482_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1482_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1482_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1482_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1482_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1482_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 55223,
-        "score": 4.16
+    {
+      "status": "on_loan",
+      "stock_id": "1482_2"
     },
-    "pages": 1389,
-    "title": "Jingo",
-    "url": "https://www.goodreads.com/book/show/47990.Jingo",
-    "year_published": 1997
+    {
+      "status": "available",
+      "stock_id": "1482_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1482_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1482_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1482_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1482_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 55223,
+    "score": 4.16
+  },
+  "pages": 1389,
+  "title": "Jingo",
+  "url": "https://www.goodreads.com/book/show/47990.Jingo",
+  "year_published": 1997
 }

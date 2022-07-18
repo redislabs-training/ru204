@@ -1,56 +1,56 @@
 {
-    "author": "Isaac Asimov",
-    "id": "1903",
-    "description": "In the twenty-second century Earth obtains limitless, free energy from a source science little understands: an exchange between Earth and a parallel universe, using a process devised by the aliens. But even free energy has a price. The transference process itself will eventually lead to the destruction of the Earth's Sun--and of Earth itself.Only a few know the terrifying truth--an outcast Earth scientist, a rebellious alien inhabitant of a dying planet, a lunar-born human intuitionist who senses the imminent annihilation of the Sun.\u00a0\u00a0They know the truth--but who will listen?\u00a0\u00a0They have foreseen the cost of abundant energy--but who will believe?\u00a0\u00a0These few beings, human and alien, hold the key to the Earth's survival.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 33,
-        "classics": 101,
-        "fantasy": 70,
-        "fiction": 636,
-        "hugo awards": 80,
-        "novels": 52,
-        "science fiction": 2027,
-        "science fiction (aliens)": 46,
-        "science fiction fantasy": 106,
-        "space": 39
+  "author": "Isaac Asimov",
+  "id": "1903",
+  "description": "In the twenty-second century Earth obtains limitless, free energy from a source science little understands: an exchange between Earth and a parallel universe, using a process devised by the aliens. But even free energy has a price. The transference process itself will eventually lead to the destruction of the Earth's Sun--and of Earth itself.Only a few know the terrifying truth--an outcast Earth scientist, a rebellious alien inhabitant of a dying planet, a lunar-born human intuitionist who senses the imminent annihilation of the Sun.  They know the truth--but who will listen?  They have foreseen the cost of abundant energy--but who will believe?  These few beings, human and alien, hold the key to the Earth's survival.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1903_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1903_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1903_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1903_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1903_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1903_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1903_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 54200,
-        "score": 4.09
+    {
+      "status": "available",
+      "stock_id": "1903_2"
     },
-    "pages": 417,
-    "title": "The Gods Themselves",
-    "url": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves",
-    "year_published": 1972
+    {
+      "status": "maintenance",
+      "stock_id": "1903_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1903_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1903_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1903_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 54200,
+    "score": 4.09
+  },
+  "pages": 417,
+  "title": "The Gods Themselves",
+  "url": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves",
+  "year_published": 1972
 }

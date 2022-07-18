@@ -1,62 +1,62 @@
 {
-    "author": "Orson Scott Card",
-    "id": "5285",
-    "description": "Welcome to Battleschool.Growing up is never easy. But try living on the mean streets as a child begging for food and fighting like a dog with ruthless gangs of starving kids who wouldn't hesitate to pound your skull into pulp for a scrap of apple. If Bean has learned anything on the streets, it's how to survive. And not with fists. He is way too small for that. But with brains.Bean is a genius with a magician's ability to zero in on his enemy and exploit his weakness.What better quality for a future general to lead the Earth in a final climactic battle against a hostile alien race, known as Buggers. At Battleschool Bean meets and befriends another future commander - Ender Wiggins - perhaps his only true rival.Only one problem: for Bean and Ender, the future is now.Ender's Shadow is the book that launched The Shadow Series, and the parallel novel to Orson Scott Card's science fiction classic, Ender's Game.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 109,
-        "audiobook": 117,
-        "fantasy": 400,
-        "fiction": 1373,
-        "novels": 94,
-        "science fiction": 3363,
-        "science fiction fantasy": 372,
-        "space": 111,
-        "war": 95,
-        "young adult": 571
+  "author": "Orson Scott Card",
+  "id": "5285",
+  "description": "Welcome to Battleschool.Growing up is never easy. But try living on the mean streets as a child begging for food and fighting like a dog with ruthless gangs of starving kids who wouldn't hesitate to pound your skull into pulp for a scrap of apple. If Bean has learned anything on the streets, it's how to survive. And not with fists. He is way too small for that. But with brains.Bean is a genius with a magician's ability to zero in on his enemy and exploit his weakness.What better quality for a future general to lead the Earth in a final climactic battle against a hostile alien race, known as Buggers. At Battleschool Bean meets and befriends another future commander - Ender Wiggins - perhaps his only true rival.Only one problem: for Bean and Ender, the future is now.Ender's Shadow is the book that launched The Shadow Series, and the parallel novel to Orson Scott Card's science fiction classic, Ender's Game.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "war",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "5285_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "5285_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "5285_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5285_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5285_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5285_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5285_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5285_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5285_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 157349,
-        "score": 4.3
+    {
+      "status": "available",
+      "stock_id": "5285_2"
     },
-    "pages": 1293,
-    "title": "Ender's Shadow",
-    "url": "https://www.goodreads.com/book/show/9532.Ender_s_Shadow",
-    "year_published": 1999
+    {
+      "status": "available",
+      "stock_id": "5285_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5285_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5285_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5285_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5285_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5285_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 157349,
+    "score": 4.3
+  },
+  "pages": 1293,
+  "title": "Ender's Shadow",
+  "url": "https://www.goodreads.com/book/show/9532.Ender_s_Shadow",
+  "year_published": 1999
 }

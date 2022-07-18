@@ -1,44 +1,44 @@
 {
-    "author": "Mark Millar",
-    "id": "2117",
-    "description": "Strange visitor from another world who can change the course of mighty rivers, bend steel in his bare hands ... and who, as the champion of the common worker, fights a never-ending battle for Stalin, Socialism, and the international expansion of the Warsaw Pact.In this Elseworlds tale, a familiar rocketship crash-lands on Earth carrying an infant who will one day become the most powerful being on the planet. But his ship doesn't land in America. He is not raised in Smallville, Kansas. Instead, he makes his new home on a collective in the Soviet Union!Collecting SUPERMAN: RED SON #1-3.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 193,
-        "comics (superheroes)": 157,
-        "dc comics (superman)": 164,
-        "fantasy": 67,
-        "fiction": 226,
-        "graphic novels comics": 168,
-        "science fiction": 76,
-        "sequential art (comics)": 1997,
-        "sequential art (graphic novels)": 1272,
-        "superheroes (dc comics)": 239
+  "author": "Mark Millar",
+  "id": "2117",
+  "description": "Strange visitor from another world who can change the course of mighty rivers, bend steel in his bare hands ... and who, as the champion of the common worker, fights a never-ending battle for Stalin, Socialism, and the international expansion of the Warsaw Pact.In this Elseworlds tale, a familiar rocketship crash-lands on Earth carrying an infant who will one day become the most powerful being on the planet. But his ship doesn't land in America. He is not raised in Smallville, Kansas. Instead, he makes his new home on a collective in the Soviet Union!Collecting SUPERMAN: RED SON #1-3.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "dc comics (superman)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2117_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2117_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2117_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2117_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 49489,
-        "score": 4.17
+    {
+      "status": "available",
+      "stock_id": "2117_2"
     },
-    "pages": 1278,
-    "title": "Superman: Red Son",
-    "url": "https://www.goodreads.com/book/show/154798.Superman",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "2117_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 49489,
+    "score": 4.17
+  },
+  "pages": 1278,
+  "title": "Superman: Red Son",
+  "url": "https://www.goodreads.com/book/show/154798.Superman",
+  "year_published": 2003
 }

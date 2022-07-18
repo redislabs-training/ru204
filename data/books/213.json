@@ -1,55 +1,55 @@
 {
-    "author": "Edward Ross",
-    "id": "213",
-    "description": "Edinburgh-based cartoonist Edward Ross uses comics to illuminate the ideas behind our favourite films. In Filmish, Ross's cartoon alter-ego guides readers through the annals of cinematic history, introducing us to some of the strange and fascinating concepts at work in the movies. Each chapter focuses on a particular theme - the body, architecture, language - and explores an eclectic mix of cinematic triumphs, from A Trip to the Moon to Aliens. Sitting within the tradition of bestselling non-fiction graphic novels like Scott McClouds Understanding Comics and the Introducing...series, Filmish tackles serious issues - sexuality, race, censorship, propaganda - with authority and wit, throwing new light on some of the greatest films ever made.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 6,
-        "art": 12,
-        "comics (comic book)": 6,
-        "culture (film)": 51,
-        "graphic novels comics": 10,
-        "history": 27,
-        "nonfiction": 91,
-        "sequential art (bande dessin\u00e9e)": 4,
-        "sequential art (comics)": 41,
-        "sequential art (graphic novels)": 100
+  "author": "Edward Ross",
+  "id": "213",
+  "description": "Edinburgh-based cartoonist Edward Ross uses comics to illuminate the ideas behind our favourite films. In Filmish, Ross's cartoon alter-ego guides readers through the annals of cinematic history, introducing us to some of the strange and fascinating concepts at work in the movies. Each chapter focuses on a particular theme - the body, architecture, language - and explores an eclectic mix of cinematic triumphs, from A Trip to the Moon to Aliens. Sitting within the tradition of bestselling non-fiction graphic novels like Scott McClouds Understanding Comics and the Introducing...series, Filmish tackles serious issues - sexuality, race, censorship, propaganda - with authority and wit, throwing new light on some of the greatest films ever made.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "art",
+    "comics (comic book)",
+    "culture (film)",
+    "graphic novels comics",
+    "history",
+    "nonfiction",
+    "sequential art (bande dessinée)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "213_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "213_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "213_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "213_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "213_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "213_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "213_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1287,
-        "score": 4.02
+    {
+      "status": "available",
+      "stock_id": "213_2"
     },
-    "pages": 712,
-    "title": "Filmish: A Graphic Journey Through Film",
-    "url": "https://www.goodreads.com/book/show/24886299-filmish",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "213_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "213_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "213_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "213_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1287,
+    "score": 4.02
+  },
+  "pages": 712,
+  "title": "Filmish: A Graphic Journey Through Film",
+  "url": "https://www.goodreads.com/book/show/24886299-filmish",
+  "year_published": 2015
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Harry Harrison",
-    "id": "59",
-    "description": "Why pay for costumes, scenery, props or actors when the most brilliant drama of all time is unfolding before your very eyes, in vivid color - in 1050 A.D.? Just the film crew of that stupendous motion picture saga Viking Columbus as they journey back in time to capture history in the making.The story first appeared in Analog Science Fiction and Fact Magazine, where it was serialized in three parts in the March\u2013May 1967 issues, under the title \"The Time Machined Saga\".",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 2,
-        "fantasy": 7,
-        "fiction": 19,
-        "humor": 7,
-        "humor (comedy)": 3,
-        "literature (american)": 2,
-        "science fiction": 61,
-        "science fiction (time travel)": 34,
-        "science fiction fantasy": 6,
-        "speculative fiction": 4
+  "author": "Harry Harrison",
+  "id": "59",
+  "description": "Why pay for costumes, scenery, props or actors when the most brilliant drama of all time is unfolding before your very eyes, in vivid color - in 1050 A.D.? Just the film crew of that stupendous motion picture saga Viking Columbus as they journey back in time to capture history in the making.The story first appeared in Analog Science Fiction and Fact Magazine, where it was serialized in three parts in the March–May 1967 issues, under the title \"The Time Machined Saga\".",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "literature (american)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "59_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "59_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "59_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "59_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "59_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "59_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "59_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "59_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "59_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1080,
-        "score": 3.84
+    {
+      "status": "maintenance",
+      "stock_id": "59_2"
     },
-    "pages": 282,
-    "title": "The Technicolor Time Machine",
-    "url": "https://www.goodreads.com/book/show/28803.The_Technicolor_Time_Machine",
-    "year_published": 1967
+    {
+      "status": "available",
+      "stock_id": "59_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "59_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "59_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "59_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "59_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "59_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1080,
+    "score": 3.84
+  },
+  "pages": 282,
+  "title": "The Technicolor Time Machine",
+  "url": "https://www.goodreads.com/book/show/28803.The_Technicolor_Time_Machine",
+  "year_published": 1967
 }

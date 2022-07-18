@@ -1,68 +1,68 @@
 {
-    "author": "Scott  Meyer",
-    "id": "981",
-    "description": "The adventures of an American hacker in Medieval England continue as Martin Banks takes his next step on the journey toward mastering his reality-altering powers and fulfilling his destiny.A month has passed since Martin helped to defeat the evil programmer Jimmy, and things couldn\u2019t be going better. Except for his love life, that is. Feeling distant and lost, Gwen has journeyed to Atlantis, a tolerant and benevolent kingdom governed by the Sorceresses, and a place known to be a safe haven to all female time-travelers.Thankfully, Martin and Philip are invited to a summit in Atlantis for all of the leaders of the time-traveler colonies, and now Martin thinks this will be a chance to try again with Gwen. Of course, this is Martin Banks we\u2019re talking about, so murder, mystery, and high intrigue all get in the way of a guy who just wants one more shot to get the girl.The follow-up to the hilarious Off to Be the Wizard, Scott Meyer\u2019s Spell or High Water proves that no matter what powers you have over time and space, you can\u2019t control rotten luck.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 133,
-        "fantasy": 546,
-        "fantasy (magic)": 29,
-        "fantasy (urban fantasy)": 29,
-        "fiction": 181,
-        "humor": 124,
-        "humor (comedy)": 36,
-        "science fiction": 159,
-        "science fiction (time travel)": 64,
-        "science fiction fantasy": 24
+  "author": "Scott  Meyer",
+  "id": "981",
+  "description": "The adventures of an American hacker in Medieval England continue as Martin Banks takes his next step on the journey toward mastering his reality-altering powers and fulfilling his destiny.A month has passed since Martin helped to defeat the evil programmer Jimmy, and things couldn’t be going better. Except for his love life, that is. Feeling distant and lost, Gwen has journeyed to Atlantis, a tolerant and benevolent kingdom governed by the Sorceresses, and a place known to be a safe haven to all female time-travelers.Thankfully, Martin and Philip are invited to a summit in Atlantis for all of the leaders of the time-traveler colonies, and now Martin thinks this will be a chance to try again with Gwen. Of course, this is Martin Banks we’re talking about, so murder, mystery, and high intrigue all get in the way of a guy who just wants one more shot to get the girl.The follow-up to the hilarious Off to Be the Wizard, Scott Meyer’s Spell or High Water proves that no matter what powers you have over time and space, you can’t control rotten luck.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "981_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "981_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "981_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "981_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "981_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "981_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "981_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "981_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "981_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "981_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20159,
-        "score": 4.03
+    {
+      "status": "maintenance",
+      "stock_id": "981_2"
     },
-    "pages": 953,
-    "title": "Spell or High Water",
-    "url": "https://www.goodreads.com/book/show/21483760-spell-or-high-water",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "981_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "981_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "981_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "981_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "981_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "981_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "981_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20159,
+    "score": 4.03
+  },
+  "pages": 953,
+  "title": "Spell or High Water",
+  "url": "https://www.goodreads.com/book/show/21483760-spell-or-high-water",
+  "year_published": 2014
 }

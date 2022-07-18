@@ -1,59 +1,59 @@
 {
-    "author": "Robert Silverberg",
-    "id": "102",
-    "description": "In the mid-21st century, time travel is used to send political prisoners to Hawksbill Station, a prison camp in the late Cambrian Era. When the latest arrival suspiciously deflects questions about his crimes and knowledge of 'Up Front', the inmates decide to find out his secret. NOTE: a novella length version of this story is also available.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 2,
-        "fiction": 22,
-        "politics": 2,
-        "science fiction": 116,
-        "science fiction (dystopia)": 3,
-        "science fiction (time travel)": 27,
-        "science fiction fantasy": 6,
-        "short stories": 4,
-        "speculative fiction": 4
+  "author": "Robert Silverberg",
+  "id": "102",
+  "description": "In the mid-21st century, time travel is used to send political prisoners to Hawksbill Station, a prison camp in the late Cambrian Era. When the latest arrival suspiciously deflects questions about his crimes and knowledge of 'Up Front', the inmates decide to find out his secret. NOTE: a novella length version of this story is also available.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "102_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "102_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "102_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "102_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "102_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "102_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "102_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "102_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1338,
-        "score": 3.72
+    {
+      "status": "available",
+      "stock_id": "102_2"
     },
-    "pages": 625,
-    "title": "Hawksbill Station",
-    "url": "https://www.goodreads.com/book/show/872778.Hawksbill_Station",
-    "year_published": 1967
+    {
+      "status": "available",
+      "stock_id": "102_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "102_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "102_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "102_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "102_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1338,
+    "score": 3.72
+  },
+  "pages": 625,
+  "title": "Hawksbill Station",
+  "url": "https://www.goodreads.com/book/show/872778.Hawksbill_Station",
+  "year_published": 1967
 }

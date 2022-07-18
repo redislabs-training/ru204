@@ -1,34 +1,34 @@
 {
-    "author": "Dean Koontz",
-    "id": "2161",
-    "description": "A storm struck on the night Laura Shane was born, and there was a strangeness about the weather that people would remember for years. But even more mysterious was the blond-haired stranger who appeared out of nowhere \u2013 the man who saved Laura from a fatal delivery. Years later \u2013 another bolt of lightning \u2013 and the stranger returned, again to save Laura from tragedy. Was he the guardian angel he seemed? The devil in disguise? Or the master of a haunting destiny beyond time and space?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 56,
-        "fantasy": 90,
-        "fantasy (paranormal)": 52,
-        "fiction": 446,
-        "horror": 829,
-        "mystery": 145,
-        "science fiction": 275,
-        "science fiction (time travel)": 243,
-        "suspense": 168,
-        "thriller": 354
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2161_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 58116,
-        "score": 4.06
-    },
-    "pages": 959,
-    "title": "Lightning",
-    "url": "https://www.goodreads.com/book/show/32424.Lightning",
-    "year_published": 1988
+  "author": "Dean Koontz",
+  "id": "2161",
+  "description": "A storm struck on the night Laura Shane was born, and there was a strangeness about the weather that people would remember for years. But even more mysterious was the blond-haired stranger who appeared out of nowhere – the man who saved Laura from a fatal delivery. Years later – another bolt of lightning – and the stranger returned, again to save Laura from tragedy. Was he the guardian angel he seemed? The devil in disguise? Or the master of a haunting destiny beyond time and space?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2161_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 58116,
+    "score": 4.06
+  },
+  "pages": 959,
+  "title": "Lightning",
+  "url": "https://www.goodreads.com/book/show/32424.Lightning",
+  "year_published": 1988
 }

@@ -1,46 +1,46 @@
 {
-    "author": "Adrian Tchaikovsky",
-    "id": "573",
-    "description": "My name is Rex. I am a good dog. Rex is also seven foot tall at the shoulder, bulletproof, bristling with heavy calibre weaponry and his voice resonates with subsonics especially designed to instil fear. With Dragon, Honey and Bees, he's part of a Multiform Assault Pack operating in the lawless anarchy of Campeche, south-eastern Mexico. Rex is a genetically engineered Bioform, a deadly weapon in a dirty war. He has the intelligence to carry out his orders and feedback implants to reward him when he does. All he wants to be is a Good Dog. And to do that he must do exactly what Master says and Master says he's got to kill a lot of enemies. But who, exactly, are the enemies? What happens when Master is tried as a war criminal? What rights does the Geneva Convention grant weapons? Do Rex and his fellow Bioforms even have a right to exist? And what happens when Rex slips his leash? ",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "animals": 11,
-        "audiobook": 15,
-        "fantasy": 18,
-        "fiction": 60,
-        "science fiction": 218,
-        "science fiction (cyberpunk)": 6,
-        "science fiction (dystopia)": 6,
-        "science fiction fantasy": 10,
-        "speculative fiction": 8,
-        "war": 11
+  "author": "Adrian Tchaikovsky",
+  "id": "573",
+  "description": "My name is Rex. I am a good dog. Rex is also seven foot tall at the shoulder, bulletproof, bristling with heavy calibre weaponry and his voice resonates with subsonics especially designed to instil fear. With Dragon, Honey and Bees, he's part of a Multiform Assault Pack operating in the lawless anarchy of Campeche, south-eastern Mexico. Rex is a genetically engineered Bioform, a deadly weapon in a dirty war. He has the intelligence to carry out his orders and feedback implants to reward him when he does. All he wants to be is a Good Dog. And to do that he must do exactly what Master says and Master says he's got to kill a lot of enemies. But who, exactly, are the enemies? What happens when Master is tried as a war criminal? What rights does the Geneva Convention grant weapons? Do Rex and his fellow Bioforms even have a right to exist? And what happens when Rex slips his leash? ",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "animals",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "573_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "573_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "573_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "573_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "573_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4766,
-        "score": 4.25
+    {
+      "status": "on_loan",
+      "stock_id": "573_2"
     },
-    "pages": 598,
-    "title": "Dogs of War",
-    "url": "https://www.goodreads.com/book/show/35827220-dogs-of-war",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "573_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "573_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4766,
+    "score": 4.25
+  },
+  "pages": 598,
+  "title": "Dogs of War",
+  "url": "https://www.goodreads.com/book/show/35827220-dogs-of-war",
+  "year_published": 2017
 }

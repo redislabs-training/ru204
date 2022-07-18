@@ -1,62 +1,62 @@
 {
-    "author": "Robert Kirkman",
-    "id": "795",
-    "description": "Trapped in a town surrounded by madmen, Rick must find a way out or die trying. Meanwhile, back at the prison, the rest of the survivors come to grips with the fact Rick may be dead, and a major turning point in the series is reached. Collects issues #31-#36.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 116,
-        "comics (comic book)": 106,
-        "fiction": 203,
-        "graphic novels comics": 123,
-        "horror": 626,
-        "horror (zombies)": 469,
-        "science fiction": 47,
-        "science fiction (dystopia)": 75,
-        "sequential art (comics)": 1029,
-        "sequential art (graphic novels)": 1196
+  "author": "Robert Kirkman",
+  "id": "795",
+  "description": "Trapped in a town surrounded by madmen, Rick must find a way out or die trying. Meanwhile, back at the prison, the rest of the survivors come to grips with the fact Rick may be dead, and a major turning point in the series is reached. Collects issues #31-#36.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "795_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "795_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "795_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "795_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "795_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "795_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "795_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "795_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "795_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22625,
-        "score": 4.31
+    {
+      "status": "maintenance",
+      "stock_id": "795_2"
     },
-    "pages": 1201,
-    "title": "The Walking Dead, Vol. 6: This Sorrowful Life",
-    "url": "https://www.goodreads.com/book/show/138395.The_Walking_Dead_Vol_6",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "795_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "795_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "795_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "795_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "795_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "795_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22625,
+    "score": 4.31
+  },
+  "pages": 1201,
+  "title": "The Walking Dead, Vol. 6: This Sorrowful Life",
+  "url": "https://www.goodreads.com/book/show/138395.The_Walking_Dead_Vol_6",
+  "year_published": 2007
 }

@@ -1,59 +1,59 @@
 {
-    "author": "Theodora Goss",
-    "id": "2658",
-    "description": "Mary Jekyll, alone and penniless following her parents\u2019 death, is curious about the secrets of her father\u2019s mysterious past. One clue in particular hints that Edward Hyde, her father\u2019s former friend and a murderer, may be nearby, and there is a reward for information leading to his capture\u2026a reward that would solve all of her immediate financial woes.But her hunt leads her to Hyde\u2019s daughter, Diana, a feral child left to be raised by nuns. With the assistance of Sherlock Holmes and Dr. Watson, Mary continues her search for the elusive Hyde, and soon befriends more women, all of whom have been created through terrifying experimentation: Beatrice Rappaccini, Catherin Moreau, and Justine Frankenstein.When their investigations lead them to the discovery of a secret society of immoral and power-crazed scientists, the horrors of their past return. Now it is up to the monsters to finally triumph over the monstrous.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 135,
-        "fantasy": 1228,
-        "fiction": 407,
-        "historical": 246,
-        "historical (historical fiction)": 533,
-        "horror": 116,
-        "mystery": 578,
-        "retellings": 111,
-        "science fiction": 154,
-        "young adult": 209
+  "author": "Theodora Goss",
+  "id": "2658",
+  "description": "Mary Jekyll, alone and penniless following her parents’ death, is curious about the secrets of her father’s mysterious past. One clue in particular hints that Edward Hyde, her father’s former friend and a murderer, may be nearby, and there is a reward for information leading to his capture…a reward that would solve all of her immediate financial woes.But her hunt leads her to Hyde’s daughter, Diana, a feral child left to be raised by nuns. With the assistance of Sherlock Holmes and Dr. Watson, Mary continues her search for the elusive Hyde, and soon befriends more women, all of whom have been created through terrifying experimentation: Beatrice Rappaccini, Catherin Moreau, and Justine Frankenstein.When their investigations lead them to the discovery of a secret society of immoral and power-crazed scientists, the horrors of their past return. Now it is up to the monsters to finally triumph over the monstrous.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "retellings",
+    "science fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2658_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2658_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2658_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2658_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2658_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2658_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2658_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "2658_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15447,
-        "score": 3.81
+    {
+      "status": "available",
+      "stock_id": "2658_2"
     },
-    "pages": 445,
-    "title": "The Strange Case of the Alchemist's Daughter",
-    "url": "https://www.goodreads.com/book/show/34728925-the-strange-case-of-the-alchemist-s-daughter",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "2658_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2658_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2658_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2658_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "2658_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15447,
+    "score": 3.81
+  },
+  "pages": 445,
+  "title": "The Strange Case of the Alchemist's Daughter",
+  "url": "https://www.goodreads.com/book/show/34728925-the-strange-case-of-the-alchemist-s-daughter",
+  "year_published": 2017
 }

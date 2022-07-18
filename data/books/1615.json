@@ -1,66 +1,66 @@
 {
-    "author": "Frederik Pohl",
-    "id": "1615",
-    "description": "Gateway opened on all the wealth of the Universe... and on reaches of unimaginable horror. When prospector Robinette Broadhead went out to Gateway on the Heechee spacecraft, he decided he would know which was the right mission to make him his fortune. Three missions later, now famous and permanently rich, Rob Broadhead has to face what happened to him and what he has become... in a journey into himself as perilous and even more horrifying than the nightmare trip through the interstellar void that he drove himself to take!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 40,
-        "classics": 54,
-        "fantasy": 34,
-        "fiction": 384,
-        "hugo awards": 82,
-        "science fiction": 1534,
-        "science fiction fantasy": 67,
-        "space": 43,
-        "space (space opera)": 112,
-        "speculative fiction": 32
+  "author": "Frederik Pohl",
+  "id": "1615",
+  "description": "Gateway opened on all the wealth of the Universe... and on reaches of unimaginable horror. When prospector Robinette Broadhead went out to Gateway on the Heechee spacecraft, he decided he would know which was the right mission to make him his fortune. Three missions later, now famous and permanently rich, Rob Broadhead has to face what happened to him and what he has become... in a journey into himself as perilous and even more horrifying than the nightmare trip through the interstellar void that he drove himself to take!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1615_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1615_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1615_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1615_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1615_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1615_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1615_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1615_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1615_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1615_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 40470,
-        "score": 4.07
+    {
+      "status": "on_loan",
+      "stock_id": "1615_2"
     },
-    "pages": 1030,
-    "title": "Gateway",
-    "url": "https://www.goodreads.com/book/show/218427.Gateway",
-    "year_published": 1977
+    {
+      "status": "available",
+      "stock_id": "1615_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1615_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1615_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1615_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1615_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1615_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1615_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 40470,
+    "score": 4.07
+  },
+  "pages": 1030,
+  "title": "Gateway",
+  "url": "https://www.goodreads.com/book/show/218427.Gateway",
+  "year_published": 1977
 }

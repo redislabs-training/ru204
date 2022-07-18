@@ -1,34 +1,34 @@
 {
-    "author": "Dav Pilkey",
-    "id": "25",
-    "description": "An out-of-this-world friendship adventure by Captain Underpants creator Dav Pilkey, with full-color art and mini comics by Caldecott Medalist Dan Santat.Ricky Ricotta and his Mighty Robot are in for a sticky, slimy surprise! Ricky and his Mighty Robot have built the coolest fort Squeakyville has ever seen, and they can't wait for the fun to begin! But then Cousin Lucy arrives with her pets and plans to turn it into a princess castle -- what a party pooper!Things completely fall apart when Nimrod Nightcrawler, a wicked worm from the planet Neptune, digs a tunnel under Ricky's fort, trapping the Mighty Robot. Now it's up to Ricky and Lucy to put a stop to this nightmare -- and save their friend!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 2,
-        "adventure": 4,
-        "childrens": 5,
-        "childrens (chapter books)": 5,
-        "fiction": 4,
-        "humor": 3,
-        "science fiction": 3,
-        "science fiction (robots)": 2,
-        "sequential art (graphic novels)": 8,
-        "space": 2
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "25_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 480,
-        "score": 4.29
-    },
-    "pages": 759,
-    "title": "Ricky Ricotta's Mighty Robot vs. The Naughty Nightcrawlers From Neptune",
-    "url": "https://www.goodreads.com/book/show/25205299-ricky-ricotta-s-mighty-robot-vs-the-naughty-nightcrawlers-from-neptune",
-    "year_published": 2015
+  "author": "Dav Pilkey",
+  "id": "25",
+  "description": "An out-of-this-world friendship adventure by Captain Underpants creator Dav Pilkey, with full-color art and mini comics by Caldecott Medalist Dan Santat.Ricky Ricotta and his Mighty Robot are in for a sticky, slimy surprise! Ricky and his Mighty Robot have built the coolest fort Squeakyville has ever seen, and they can't wait for the fun to begin! But then Cousin Lucy arrives with her pets and plans to turn it into a princess castle -- what a party pooper!Things completely fall apart when Nimrod Nightcrawler, a wicked worm from the planet Neptune, digs a tunnel under Ricky's fort, trapping the Mighty Robot. Now it's up to Ricky and Lucy to put a stop to this nightmare -- and save their friend!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (graphic novels)",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "25_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 480,
+    "score": 4.29
+  },
+  "pages": 759,
+  "title": "Ricky Ricotta's Mighty Robot vs. The Naughty Nightcrawlers From Neptune",
+  "url": "https://www.goodreads.com/book/show/25205299-ricky-ricotta-s-mighty-robot-vs-the-naughty-nightcrawlers-from-neptune",
+  "year_published": 2015
 }

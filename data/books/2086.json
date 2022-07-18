@@ -1,62 +1,62 @@
 {
-    "author": "Jonathan Stroud",
-    "id": "2086",
-    "description": "At only fourteen, Nathaniel is a rising star: a young magician who is quickly climbing the ranks of the government. There is seemingly nothing he cannot handle, until he is asked to deal with the growing Resistance movement, which is disrupting London life with its thefts and raids. It\u2019s no easy task: the ringleader Kitty and her friends remain elusive, and Nathaniel\u2019s job-and perhaps his life-are soon at risk. As the pressure mounts, he is distracted by a new series of terrifying attacks in the capital. But is it the Resistance again, or something more dangerous still? To uncover the perpetrators, Nathanial must take desperate measures: a journey to the enemy city of Prague and-worse-summoning once again the troublesome, enigmatic, and quick \u2013 witted djinni Bartimaeus. A thrilling sequel to the best-selling Amulet of Samarkand, The Golem\u2019s Eye is a roller-coaster ride of magic, adventure, and political skullduggery, in which the fates of Nathaniel, Bartimaeus, and Kitty explosively collide.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 194,
-        "audiobook": 91,
-        "childrens": 180,
-        "childrens (middle grade)": 187,
-        "fantasy": 3596,
-        "fantasy (magic)": 238,
-        "fantasy (urban fantasy)": 137,
-        "fiction": 470,
-        "young adult": 1038,
-        "young adult (young adult fantasy)": 92
+  "author": "Jonathan Stroud",
+  "id": "2086",
+  "description": "At only fourteen, Nathaniel is a rising star: a young magician who is quickly climbing the ranks of the government. There is seemingly nothing he cannot handle, until he is asked to deal with the growing Resistance movement, which is disrupting London life with its thefts and raids. It’s no easy task: the ringleader Kitty and her friends remain elusive, and Nathaniel’s job-and perhaps his life-are soon at risk. As the pressure mounts, he is distracted by a new series of terrifying attacks in the capital. But is it the Resistance again, or something more dangerous still? To uncover the perpetrators, Nathanial must take desperate measures: a journey to the enemy city of Prague and-worse-summoning once again the troublesome, enigmatic, and quick – witted djinni Bartimaeus. A thrilling sequel to the best-selling Amulet of Samarkand, The Golem’s Eye is a roller-coaster ride of magic, adventure, and political skullduggery, in which the fates of Nathaniel, Bartimaeus, and Kitty explosively collide.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2086_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2086_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2086_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "2086_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2086_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2086_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2086_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2086_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2086_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 89312,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "2086_2"
     },
-    "pages": 720,
-    "title": "The Golem's Eye",
-    "url": "https://www.goodreads.com/book/show/59263.The_Golem_s_Eye",
-    "year_published": 2004
+    {
+      "status": "available",
+      "stock_id": "2086_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2086_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2086_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2086_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2086_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2086_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 89312,
+    "score": 4.08
+  },
+  "pages": 720,
+  "title": "The Golem's Eye",
+  "url": "https://www.goodreads.com/book/show/59263.The_Golem_s_Eye",
+  "year_published": 2004
 }

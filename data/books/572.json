@@ -1,36 +1,36 @@
 {
-    "author": "Robert Kirkman",
-    "id": "572",
-    "description": "At long last, the survivors of Robert Kirkman and Charlie Adlard's acclaimed post-apocalyptic survival adventure find the hope they've longed look for. Can a town not yet ravaged by the horrors unleashed on Earth possibly be all it's hoped for? Is there a far more sinister secret behind their newfound safe haven?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 93,
-        "comics (comic book)": 83,
-        "fiction": 168,
-        "graphic novels comics": 104,
-        "horror": 507,
-        "horror (zombies)": 355,
-        "science fiction": 42,
-        "science fiction (dystopia)": 54,
-        "sequential art (comics)": 801,
-        "sequential art (graphic novels)": 916
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "572_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19097,
-        "score": 4.31
-    },
-    "pages": 1171,
-    "title": "The Walking Dead, Vol. 12: Life Among Them",
-    "url": "https://www.goodreads.com/book/show/7469664-the-walking-dead-vol-12",
-    "year_published": 2010
+  "author": "Robert Kirkman",
+  "id": "572",
+  "description": "At long last, the survivors of Robert Kirkman and Charlie Adlard's acclaimed post-apocalyptic survival adventure find the hope they've longed look for. Can a town not yet ravaged by the horrors unleashed on Earth possibly be all it's hoped for? Is there a far more sinister secret behind their newfound safe haven?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "572_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19097,
+    "score": 4.31
+  },
+  "pages": 1171,
+  "title": "The Walking Dead, Vol. 12: Life Among Them",
+  "url": "https://www.goodreads.com/book/show/7469664-the-walking-dead-vol-12",
+  "year_published": 2010
 }

@@ -1,51 +1,51 @@
 {
-    "author": "James S.A. Corey",
-    "id": "12298",
-    "description": "Humanity has colonized the solar system\u2014Mars, the Moon, the Asteroid Belt and beyond\u2014but the stars are still out of our reach.Jim Holden is XO of an ice miner making runs from the rings of Saturn to the mining stations of the Belt. When he and his crew stumble upon a derelict ship, the Scopuli, they find themselves in possession of a secret they never wanted. A secret that someone is willing to kill for\u2014and kill on a scale unfathomable to Jim and his crew. War is brewing in the system unless he can find out who left the ship and why.Detective Miller is looking for a girl. One girl in a system of billions, but her parents have money and money talks. When the trail leads him to the Scopuli and rebel sympathizer Holden, he realizes that this girl may be the key to everything.Holden and Miller must thread the needle between the Earth government, the Outer Planet revolutionaries, and secretive corporations\u2014and the odds are against them. But out in the Belt, the rules are different, and one small ship can change the fate of the universe.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 184,
-        "audiobook": 307,
-        "fantasy": 270,
-        "fiction": 1950,
-        "horror": 227,
-        "mystery": 284,
-        "science fiction": 5792,
-        "science fiction fantasy": 346,
-        "space": 370,
-        "space (space opera)": 910
+  "author": "James S.A. Corey",
+  "id": "12298",
+  "description": "Humanity has colonized the solar system—Mars, the Moon, the Asteroid Belt and beyond—but the stars are still out of our reach.Jim Holden is XO of an ice miner making runs from the rings of Saturn to the mining stations of the Belt. When he and his crew stumble upon a derelict ship, the Scopuli, they find themselves in possession of a secret they never wanted. A secret that someone is willing to kill for—and kill on a scale unfathomable to Jim and his crew. War is brewing in the system unless he can find out who left the ship and why.Detective Miller is looking for a girl. One girl in a system of billions, but her parents have money and money talks. When the trail leads him to the Scopuli and rebel sympathizer Holden, he realizes that this girl may be the key to everything.Holden and Miller must thread the needle between the Earth government, the Outer Planet revolutionaries, and secretive corporations—and the odds are against them. But out in the Belt, the rules are different, and one small ship can change the fate of the universe.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "12298_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "12298_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "12298_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "12298_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "12298_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "12298_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 181488,
-        "score": 4.25
+    {
+      "status": "on_loan",
+      "stock_id": "12298_2"
     },
-    "pages": 605,
-    "title": "Leviathan Wakes",
-    "url": "https://www.goodreads.com/book/show/8855321-leviathan-wakes",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "12298_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "12298_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "12298_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 181488,
+    "score": 4.25
+  },
+  "pages": 605,
+  "title": "Leviathan Wakes",
+  "url": "https://www.goodreads.com/book/show/8855321-leviathan-wakes",
+  "year_published": 2011
 }

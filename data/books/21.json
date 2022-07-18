@@ -1,53 +1,53 @@
 {
-    "author": "Kurt Busiek",
-    "id": "21",
-    "description": "Ultron has always been one of the Avengers' deadliest foes, and his evil deeds the more heinous because this sentient robot was created by founding Avenger Dr. Hank Pym, a scientist who has been a hero under the various guises of Ant-Man, Giant-Man and Yellowjacket. Constantly evolving, with each defeat, every new incarnation of this seemingly indestructible enemy is worse than the last. But never before has Ultron been this dangerous. Seizing the attention of the world's media, Ultron destroys an entire Eastern European nation. And that was just to get the Avengers' attention. The Earth's Mightiest Heroes are in for the fight of their lives, and this time, their adversary just may have evolved out their league altogether. Collects Avengers vol. 3, #19-22, 0",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 7,
-        "comics (superheroes)": 6,
-        "fiction": 4,
-        "graphic novels comics": 3,
-        "sequential art (comics)": 46,
-        "sequential art (graphic novels)": 23,
-        "superheroes (marvel)": 24
+  "author": "Kurt Busiek",
+  "id": "21",
+  "description": "Ultron has always been one of the Avengers' deadliest foes, and his evil deeds the more heinous because this sentient robot was created by founding Avenger Dr. Hank Pym, a scientist who has been a hero under the various guises of Ant-Man, Giant-Man and Yellowjacket. Constantly evolving, with each defeat, every new incarnation of this seemingly indestructible enemy is worse than the last. But never before has Ultron been this dangerous. Seizing the attention of the world's media, Ultron destroys an entire Eastern European nation. And that was just to get the Avengers' attention. The Earth's Mightiest Heroes are in for the fight of their lives, and this time, their adversary just may have evolved out their league altogether. Collects Avengers vol. 3, #19-22, 0",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fiction",
+    "graphic novels comics",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "21_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "21_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "21_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "21_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "21_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "21_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "21_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 407,
-        "score": 3.8
+    {
+      "status": "on_loan",
+      "stock_id": "21_2"
     },
-    "pages": 1174,
-    "title": "Avengers: Ultron Unlimited",
-    "url": "https://www.goodreads.com/book/show/154375.Avengers",
-    "year_published": 2000
+    {
+      "status": "available",
+      "stock_id": "21_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "21_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "21_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "21_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 407,
+    "score": 3.8
+  },
+  "pages": 1174,
+  "title": "Avengers: Ultron Unlimited",
+  "url": "https://www.goodreads.com/book/show/154375.Avengers",
+  "year_published": 2000
 }

@@ -1,39 +1,39 @@
 {
-    "author": "Madeleine L'Engle",
-    "id": "2447",
-    "description": "In this companion volume to A Wrinkle In Time (Newbery Award winner) and A Wind In The Door fifteen-year-old Charles Wallace and the unicorn Gaudior undertake a perilous journey through time in a desperate attempt to stop the destruction of the world by the mad dictator Madog Branzillo. They are not alone in their quest. Charles Wallace's sister, Meg - grown and expecting her first child, but still able to enter her brother's thoughts and emotions by \"kything\" - goes with him in spirit.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 119,
-        "childrens": 454,
-        "childrens (middle grade)": 212,
-        "classics": 408,
-        "fantasy": 2601,
-        "fiction": 1155,
-        "science fiction": 885,
-        "science fiction (time travel)": 214,
-        "science fiction fantasy": 238,
-        "young adult": 1340
+  "author": "Madeleine L'Engle",
+  "id": "2447",
+  "description": "In this companion volume to A Wrinkle In Time (Newbery Award winner) and A Wind In The Door fifteen-year-old Charles Wallace and the unicorn Gaudior undertake a perilous journey through time in a desperate attempt to stop the destruction of the world by the mad dictator Madog Branzillo. They are not alone in their quest. Charles Wallace's sister, Meg - grown and expecting her first child, but still able to enter her brother's thoughts and emotions by \"kything\" - goes with him in spirit.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2447_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2447_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2447_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 103957,
-        "score": 4.08
-    },
-    "pages": 284,
-    "title": "A Swiftly Tilting Planet",
-    "url": "https://www.goodreads.com/book/show/77276.A_Swiftly_Tilting_Planet",
-    "year_published": 1978
+    {
+      "status": "maintenance",
+      "stock_id": "2447_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 103957,
+    "score": 4.08
+  },
+  "pages": 284,
+  "title": "A Swiftly Tilting Planet",
+  "url": "https://www.goodreads.com/book/show/77276.A_Swiftly_Tilting_Planet",
+  "year_published": 1978
 }

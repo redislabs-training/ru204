@@ -1,59 +1,59 @@
 {
-    "author": "Mark Dunn",
-    "id": "5634",
-    "description": "Ella Minnow Pea is a girl living happily on the fictional island of Nollop off the coast of South Carolina. Nollop was named after Nevin Nollop, author of the immortal pangram,* \"The quick brown fox jumps over the lazy dog.\" Now Ella finds herself acting to save her friends, family, and fellow citizens from the encroaching totalitarianism of the island's Council, which has banned the use of certain letters of the alphabet as they fall from a memorial statue of Nevin Nollop. As the letters progressively drop from the statue they also disappear from the novel. The result is both a hilarious and moving story of one girl's fight for freedom of expression, as well as a linguistic tour de force sure to delight word lovers everywhere.*pangram: a sentence or phrase that includes all the letters of the alphabet",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 77,
-        "adult fiction": 91,
-        "book club": 74,
-        "contemporary": 95,
-        "fantasy": 208,
-        "fiction": 1291,
-        "humanities (language)": 90,
-        "humor": 265,
-        "science fiction (dystopia)": 120,
-        "young adult": 197
+  "author": "Mark Dunn",
+  "id": "5634",
+  "description": "Ella Minnow Pea is a girl living happily on the fictional island of Nollop off the coast of South Carolina. Nollop was named after Nevin Nollop, author of the immortal pangram,* \"The quick brown fox jumps over the lazy dog.\" Now Ella finds herself acting to save her friends, family, and fellow citizens from the encroaching totalitarianism of the island's Council, which has banned the use of certain letters of the alphabet as they fall from a memorial statue of Nevin Nollop. As the letters progressively drop from the statue they also disappear from the novel. The result is both a hilarious and moving story of one girl's fight for freedom of expression, as well as a linguistic tour de force sure to delight word lovers everywhere.*pangram: a sentence or phrase that includes all the letters of the alphabet",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "book club",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "humanities (language)",
+    "humor",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5634_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5634_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "5634_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5634_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5634_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5634_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5634_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5634_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 31245,
-        "score": 3.88
+    {
+      "status": "available",
+      "stock_id": "5634_2"
     },
-    "pages": 972,
-    "title": "Ella Minnow Pea: A Novel in Letters",
-    "url": "https://www.goodreads.com/book/show/16200.Ella_Minnow_Pea",
-    "year_published": 2001
+    {
+      "status": "maintenance",
+      "stock_id": "5634_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5634_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5634_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5634_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5634_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 31245,
+    "score": 3.88
+  },
+  "pages": 972,
+  "title": "Ella Minnow Pea: A Novel in Letters",
+  "url": "https://www.goodreads.com/book/show/16200.Ella_Minnow_Pea",
+  "year_published": 2001
 }

@@ -1,62 +1,62 @@
 {
-    "author": "David Lucas",
-    "id": "75",
-    "description": "\"Let me carry you,\" said the Robot. \"I'll carry you in my heart, and shelter you from the cold and storms.\" High atop a pile of rubbish sits a lonely Robot with a broken heart. Then one winter's day, a Bluebird appears, fighting against the freezing wind. When the Robot offers her a home in the empty space where his heart used to be, neither of them can predict what astonishing things will happen. Together the newfound friends set off on a memorable journey that will change them both.This fable-like tale, bursting with bright, winsome illustrations, is a fresh take on the timeless themes of friendship and second chances.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 2,
-        "animals": 5,
-        "animals (birds)": 6,
-        "childrens": 12,
-        "childrens (picture books)": 51,
-        "fiction": 3,
-        "love": 2,
-        "science fiction": 2,
-        "science fiction (robots)": 16,
-        "travel": 2
+  "author": "David Lucas",
+  "id": "75",
+  "description": "\"Let me carry you,\" said the Robot. \"I'll carry you in my heart, and shelter you from the cold and storms.\" High atop a pile of rubbish sits a lonely Robot with a broken heart. Then one winter's day, a Bluebird appears, fighting against the freezing wind. When the Robot offers her a home in the empty space where his heart used to be, neither of them can predict what astonishing things will happen. Together the newfound friends set off on a memorable journey that will change them both.This fable-like tale, bursting with bright, winsome illustrations, is a fresh take on the timeless themes of friendship and second chances.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "animals (birds)",
+    "childrens",
+    "childrens (picture books)",
+    "fiction",
+    "love",
+    "science fiction",
+    "science fiction (robots)",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "75_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "75_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "75_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "75_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "75_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "75_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "75_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "75_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "75_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 328,
-        "score": 4.26
+    {
+      "status": "available",
+      "stock_id": "75_2"
     },
-    "pages": 1124,
-    "title": "The Robot and the Bluebird",
-    "url": "https://www.goodreads.com/book/show/4271492-the-robot-and-the-bluebird",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "75_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "75_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "75_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "75_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "75_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "75_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 328,
+    "score": 4.26
+  },
+  "pages": 1124,
+  "title": "The Robot and the Bluebird",
+  "url": "https://www.goodreads.com/book/show/4271492-the-robot-and-the-bluebird",
+  "year_published": 2007
 }

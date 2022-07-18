@@ -1,54 +1,54 @@
 {
-    "author": "Ilona Andrews",
-    "id": "95",
-    "description": "Free online fiction from author website",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 42,
-        "fantasy (magic)": 14,
-        "fantasy (paranormal)": 22,
-        "fantasy (urban fantasy)": 64,
-        "fiction": 7,
-        "humor": 7,
-        "novella": 7,
-        "paranormal (shapeshifters)": 14,
-        "shapeshifters (werewolves)": 6,
-        "short stories": 23
+  "author": "Ilona Andrews",
+  "id": "95",
+  "description": "Free online fiction from author website",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "novella",
+    "paranormal (shapeshifters)",
+    "shapeshifters (werewolves)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "95_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "95_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "95_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "95_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "95_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "95_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "95_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1104,
-        "score": 4.22
+    {
+      "status": "maintenance",
+      "stock_id": "95_2"
     },
-    "pages": 656,
-    "title": "Curran Twitter, The Wilson Building",
-    "url": "https://www.goodreads.com/book/show/39776894-curran-twitter-the-wilson-building",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "95_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "95_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "95_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "95_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1104,
+    "score": 4.22
+  },
+  "pages": 656,
+  "title": "Curran Twitter, The Wilson Building",
+  "url": "https://www.goodreads.com/book/show/39776894-curran-twitter-the-wilson-building",
+  "year_published": 2013
 }

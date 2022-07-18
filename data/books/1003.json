@@ -1,60 +1,60 @@
 {
-    "author": "Marge Piercy",
-    "id": "1003",
-    "description": "After being unjustly committed to a mental institution, Connie Ramos is contacted by an envoy from the year 2137, who shows her a utopian future of sexual and racial equality and environmental harmony.But Connie also bears witness to another potential outcome: a dystopian society of grotesque exploitation. One will become our world. And Connie herself may strike the decisive blow...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 75,
-        "feminism": 251,
-        "fiction": 557,
-        "novels": 49,
-        "science fiction": 487,
-        "science fiction (dystopia)": 105,
-        "science fiction (time travel)": 129,
-        "science fiction fantasy": 59,
-        "speculative fiction": 61,
-        "womens": 46
+  "author": "Marge Piercy",
+  "id": "1003",
+  "description": "After being unjustly committed to a mental institution, Connie Ramos is contacted by an envoy from the year 2137, who shows her a utopian future of sexual and racial equality and environmental harmony.But Connie also bears witness to another potential outcome: a dystopian society of grotesque exploitation. One will become our world. And Connie herself may strike the decisive blow...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "feminism",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "womens"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1003_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1003_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1003_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1003_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1003_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1003_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1003_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1003_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14210,
-        "score": 3.95
+    {
+      "status": "maintenance",
+      "stock_id": "1003_2"
     },
-    "pages": 1113,
-    "title": "Woman on the Edge of Time",
-    "url": "https://www.goodreads.com/book/show/772888.Woman_on_the_Edge_of_Time",
-    "year_published": 1976
+    {
+      "status": "on_loan",
+      "stock_id": "1003_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1003_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1003_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1003_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1003_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14210,
+    "score": 3.95
+  },
+  "pages": 1113,
+  "title": "Woman on the Edge of Time",
+  "url": "https://www.goodreads.com/book/show/772888.Woman_on_the_Edge_of_Time",
+  "year_published": 1976
 }

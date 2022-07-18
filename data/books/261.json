@@ -1,51 +1,51 @@
 {
-    "author": "Kari Maaren",
-    "id": "261",
-    "description": "The unexpected can move in next doorFreddy wants desperately to not be noticed. She doesn't want to be seen as different or unusual, but her step-brother Roland gets attention because he's deaf, and her little sister Mel thinks she's a private detective. All Freddy wants to do is navigate high school with as little trouble as possible.Then someone moves into the house on Grosvenor Street. Two extremely odd someones.Cuerva Lachance and Josiah aren't . . . normal. When they move in next door, the house begins to exhibit some decidedly strange tendencies, like not obeying the laws of physics or reality. Just as Freddy thinks she's had enough of Josiah following her around, she's plunged into an adventure millennia in the making and discovers the truth about the new neighbors.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 6,
-        "childrens (middle grade)": 10,
-        "fantasy": 159,
-        "fantasy (mythology)": 7,
-        "fantasy (urban fantasy)": 7,
-        "fiction": 27,
-        "science fiction": 32,
-        "science fiction (time travel)": 32,
-        "young adult": 84,
-        "young adult (young adult fantasy)": 9
+  "author": "Kari Maaren",
+  "id": "261",
+  "description": "The unexpected can move in next doorFreddy wants desperately to not be noticed. She doesn't want to be seen as different or unusual, but her step-brother Roland gets attention because he's deaf, and her little sister Mel thinks she's a private detective. All Freddy wants to do is navigate high school with as little trouble as possible.Then someone moves into the house on Grosvenor Street. Two extremely odd someones.Cuerva Lachance and Josiah aren't . . . normal. When they move in next door, the house begins to exhibit some decidedly strange tendencies, like not obeying the laws of physics or reality. Just as Freddy thinks she's had enough of Josiah following her around, she's plunged into an adventure millennia in the making and discovers the truth about the new neighbors.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (mythology)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "261_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "261_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "261_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "261_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "261_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "261_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 977,
-        "score": 3.64
+    {
+      "status": "available",
+      "stock_id": "261_2"
     },
-    "pages": 1260,
-    "title": "Weave a Circle Round",
-    "url": "https://www.goodreads.com/book/show/33517568-weave-a-circle-round",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "261_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "261_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "261_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 977,
+    "score": 3.64
+  },
+  "pages": 1260,
+  "title": "Weave a Circle Round",
+  "url": "https://www.goodreads.com/book/show/33517568-weave-a-circle-round",
+  "year_published": 2017
 }

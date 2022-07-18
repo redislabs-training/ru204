@@ -1,44 +1,44 @@
 {
-    "author": "Cory Doctorow",
-    "id": "785",
-    "description": "Trent McCauley is sixteen, brilliant, and obsessed with one thing: making movies on his computer by reassembling footage from popular films he downloads from the net. In near-future Britain, this is more illegal than ever. The punishment for being caught three times is to cut off your entire household from the internet for a year - no work, school, health or money benefits.Trent thinks he is too clever for that to happen, but it does, and nearly destroys his family. Shamed and shattered, Trent runs away to London, where slowly he learns the ways of staying alive on the streets. He joins artists and activists fighting a new bill that will jail too many, especially minors, at one stroke. Jem introduces him to the Jammie Dodgers, beautiful brilliant \"26\" to love and cemetery parties.Things look bad. Parliament is in power of a few wealthy media conglomerates. But the powers-that-be haven\u2019t entirely reckoned with the power of a gripping movie to change people\u2019s minds ...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fiction": 170,
-        "politics": 24,
-        "science (technology)": 18,
-        "science fiction": 182,
-        "science fiction (cyberpunk)": 17,
-        "science fiction (dystopia)": 60,
-        "science fiction (near future)": 14,
-        "speculative fiction": 17,
-        "young adult": 158,
-        "young adult (teen)": 22
+  "author": "Cory Doctorow",
+  "id": "785",
+  "description": "Trent McCauley is sixteen, brilliant, and obsessed with one thing: making movies on his computer by reassembling footage from popular films he downloads from the net. In near-future Britain, this is more illegal than ever. The punishment for being caught three times is to cut off your entire household from the internet for a year - no work, school, health or money benefits.Trent thinks he is too clever for that to happen, but it does, and nearly destroys his family. Shamed and shattered, Trent runs away to London, where slowly he learns the ways of staying alive on the streets. He joins artists and activists fighting a new bill that will jail too many, especially minors, at one stroke. Jem introduces him to the Jammie Dodgers, beautiful brilliant \"26\" to love and cemetery parties.Things look bad. Parliament is in power of a few wealthy media conglomerates. But the powers-that-be haven’t entirely reckoned with the power of a gripping movie to change people’s minds ...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fiction",
+    "politics",
+    "science (technology)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (near future)",
+    "speculative fiction",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "785_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "785_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "785_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "785_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5515,
-        "score": 3.72
+    {
+      "status": "on_loan",
+      "stock_id": "785_2"
     },
-    "pages": 585,
-    "title": "Pirate Cinema",
-    "url": "https://www.goodreads.com/book/show/13539171-pirate-cinema",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "785_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5515,
+    "score": 3.72
+  },
+  "pages": 585,
+  "title": "Pirate Cinema",
+  "url": "https://www.goodreads.com/book/show/13539171-pirate-cinema",
+  "year_published": 2012
 }

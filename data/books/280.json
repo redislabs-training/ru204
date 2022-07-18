@@ -1,51 +1,51 @@
 {
-    "author": "Rysa Walker",
-    "id": "280",
-    "description": "From the bestselling author of the Chronos series comes a page-turning novel of time travel, fast-paced action, and history-changing events.When two time-traveling historians cross paths during one of the most tumultuous decades of the twentieth century, history goes helter-skelter. But which one broke the timeline?In 2136 Madison Grace uncovers a key to the origins of CHRONOS, a time-travel agency with ties to her family\u2019s mysterious past. Just as she is starting to jump through history, she returns to her timeline to find millions of lives erased\u2014and only the people inside her house realize anything has changed.In 2304 CHRONOS historian Tyson Reyes is assigned to observe the crucial events that played out in America\u2019s civil rights movement. But a massive time shift occurs while he\u2019s in 1965, and suddenly the history he sees isn\u2019t the history he knows.As Madi\u2019s and Tyson\u2019s journeys collide, they must prevent the past from being erased forever. But strange forces are at work. Are Madi and Tyson in control or merely pawns in someone else\u2019s game?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 7,
-        "fantasy": 19,
-        "fiction": 41,
-        "historical": 5,
-        "historical (historical fiction)": 13,
-        "science fiction": 78,
-        "science fiction (time travel)": 68,
-        "science fiction fantasy": 6,
-        "speculative fiction": 6,
-        "young adult": 6
+  "author": "Rysa Walker",
+  "id": "280",
+  "description": "From the bestselling author of the Chronos series comes a page-turning novel of time travel, fast-paced action, and history-changing events.When two time-traveling historians cross paths during one of the most tumultuous decades of the twentieth century, history goes helter-skelter. But which one broke the timeline?In 2136 Madison Grace uncovers a key to the origins of CHRONOS, a time-travel agency with ties to her family’s mysterious past. Just as she is starting to jump through history, she returns to her timeline to find millions of lives erased—and only the people inside her house realize anything has changed.In 2304 CHRONOS historian Tyson Reyes is assigned to observe the crucial events that played out in America’s civil rights movement. But a massive time shift occurs while he’s in 1965, and suddenly the history he sees isn’t the history he knows.As Madi’s and Tyson’s journeys collide, they must prevent the past from being erased forever. But strange forces are at work. Are Madi and Tyson in control or merely pawns in someone else’s game?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "280_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "280_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "280_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "280_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "280_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "280_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2702,
-        "score": 3.71
+    {
+      "status": "maintenance",
+      "stock_id": "280_2"
     },
-    "pages": 1106,
-    "title": "Now, Then, and Everywhen",
-    "url": "https://www.goodreads.com/book/show/51907779-now-then-and-everywhen",
-    "year_published": 2020
+    {
+      "status": "available",
+      "stock_id": "280_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "280_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "280_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2702,
+    "score": 3.71
+  },
+  "pages": 1106,
+  "title": "Now, Then, and Everywhen",
+  "url": "https://www.goodreads.com/book/show/51907779-now-then-and-everywhen",
+  "year_published": 2020
 }

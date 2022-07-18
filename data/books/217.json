@@ -1,48 +1,48 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "217",
-    "description": "After a mysterious cameo from Charles Lindbergh, it\u2019s up to Jonah to save his town in the seventh book of the New York Times bestselling The Missing series, which Kirkus Reviews calls \u201cplenty of fun and great for history teachers as well.It\u2019s morning as usual at the Skidmore household\u2014until Charles Lindbergh, the famous historical pilot, appears in their living room. Jonah can hardly believe his eyes\u2014and then Lindbergh grabs Katherine and vanishes again. And that\u2019s not all. Chip, Andrea, and all the other children from the plane have disappeared too. And worst of all, Jonah\u2019s parents and all the other adults in his town have de-aged into children.Jonah is the only one left, and the only one who can save everyone. With the help of de-aged JB and Angela, he has to collect the clues. And they lead directly back to Gary and Hodge, and a terrible plot that could mean the end of everything Jonah has ever loved. Can Jonah put the pieces together before time runs out?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 20,
-        "childrens (middle grade)": 33,
-        "fantasy": 24,
-        "fiction": 24,
-        "historical": 14,
-        "historical (historical fiction)": 34,
-        "mystery": 16,
-        "science fiction": 68,
-        "science fiction (time travel)": 54,
-        "young adult": 38
+  "author": "Margaret Peterson Haddix",
+  "id": "217",
+  "description": "After a mysterious cameo from Charles Lindbergh, it’s up to Jonah to save his town in the seventh book of the New York Times bestselling The Missing series, which Kirkus Reviews calls “plenty of fun and great for history teachers as well.It’s morning as usual at the Skidmore household—until Charles Lindbergh, the famous historical pilot, appears in their living room. Jonah can hardly believe his eyes—and then Lindbergh grabs Katherine and vanishes again. And that’s not all. Chip, Andrea, and all the other children from the plane have disappeared too. And worst of all, Jonah’s parents and all the other adults in his town have de-aged into children.Jonah is the only one left, and the only one who can save everyone. With the help of de-aged JB and Angela, he has to collect the clues. And they lead directly back to Gary and Hodge, and a terrible plot that could mean the end of everything Jonah has ever loved. Can Jonah put the pieces together before time runs out?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "217_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "217_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "217_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "217_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "217_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2598,
-        "score": 4.13
+    {
+      "status": "available",
+      "stock_id": "217_2"
     },
-    "pages": 850,
-    "title": "Revealed",
-    "url": "https://www.goodreads.com/book/show/18198687-revealed",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "217_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "217_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2598,
+    "score": 4.13
+  },
+  "pages": 850,
+  "title": "Revealed",
+  "url": "https://www.goodreads.com/book/show/18198687-revealed",
+  "year_published": 2014
 }

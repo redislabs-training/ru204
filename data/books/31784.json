@@ -1,35 +1,35 @@
 {
-    "author": "Aldous Huxley",
-    "id": "31784",
-    "description": "Brave New World is a dystopian novel by English author Aldous Huxley, written in 1931 and published in 1932. Largely set in a futuristic World State, inhabited by genetically modified citizens and an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning that are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "academic (school)": 1051,
-        "classics": 19455,
-        "fantasy": 872,
-        "fiction": 13835,
-        "literature": 1896,
-        "novels": 1228,
-        "philosophy": 815,
-        "science fiction": 9437,
-        "science fiction (dystopia)": 6082,
-        "science fiction fantasy": 709
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "31784_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1483606,
-        "score": 3.99
-    },
-    "pages": 1371,
-    "title": "Brave New World",
-    "url": "https://www.goodreads.com/book/show/5129.Brave_New_World",
-    "year_published": 1932
+  "author": "Aldous Huxley",
+  "id": "31784",
+  "description": "Brave New World is a dystopian novel by English author Aldous Huxley, written in 1931 and published in 1932. Largely set in a futuristic World State, inhabited by genetically modified citizens and an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning that are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "academic (school)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "philosophy",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "31784_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1483606,
+    "score": 3.99
+  },
+  "pages": 1371,
+  "title": "Brave New World",
+  "url": "https://www.goodreads.com/book/show/5129.Brave_New_World",
+  "year_published": 1932
 }

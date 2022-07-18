@@ -1,44 +1,44 @@
 {
-    "author": "William Gibson",
-    "id": "9798",
-    "description": "Hotwired to the leading edges of art and technology, Neuromancer is a cyberpunk, science fiction masterpiece\u2014a classic that ranks with 1984 and Brave New World as one of the twentieth century\u2019s most potent visions of the future.The Matrix is a world within the world, a global consensus-hallucination, the representation of every byte of data in cyberspace...Henry Dorsett Case was the sharpest data-thief in the business, until vengeful former employees crippled his nervous system. But now a new and very mysterious employer recruits him for a last-chance run. The target: an unthinkably powerful artificial intelligence orbiting Earth in service of the sinister Tessier-Ashpool business clan. With a dead man riding shotgun and Molly, mirror-eyed street-samurai, to watch his back, Case embarks on an adventure that ups the ante on an entire genre of fiction.The winner of the Hugo, Nebula, and Philip K. Dick Awards, Neuromancer was the first fully-realized glimpse of humankind\u2019s digital future\u2014a shocking vision that has challenged our assumptions about our technology and ourselves, reinvented the way we speak and think, and forever altered the landscape of our imaginations.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 161,
-        "classics": 542,
-        "fantasy": 337,
-        "fiction": 3549,
-        "novels": 306,
-        "science fiction": 6796,
-        "science fiction (cyberpunk)": 2458,
-        "science fiction (dystopia)": 476,
-        "science fiction fantasy": 510,
-        "speculative fiction": 233
+  "author": "William Gibson",
+  "id": "9798",
+  "description": "Hotwired to the leading edges of art and technology, Neuromancer is a cyberpunk, science fiction masterpiece—a classic that ranks with 1984 and Brave New World as one of the twentieth century’s most potent visions of the future.The Matrix is a world within the world, a global consensus-hallucination, the representation of every byte of data in cyberspace...Henry Dorsett Case was the sharpest data-thief in the business, until vengeful former employees crippled his nervous system. But now a new and very mysterious employer recruits him for a last-chance run. The target: an unthinkably powerful artificial intelligence orbiting Earth in service of the sinister Tessier-Ashpool business clan. With a dead man riding shotgun and Molly, mirror-eyed street-samurai, to watch his back, Case embarks on an adventure that ups the ante on an entire genre of fiction.The winner of the Hugo, Nebula, and Philip K. Dick Awards, Neuromancer was the first fully-realized glimpse of humankind’s digital future—a shocking vision that has challenged our assumptions about our technology and ourselves, reinvented the way we speak and think, and forever altered the landscape of our imaginations.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "9798_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "9798_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "9798_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9798_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 268489,
-        "score": 3.9
+    {
+      "status": "available",
+      "stock_id": "9798_2"
     },
-    "pages": 855,
-    "title": "Neuromancer",
-    "url": "https://www.goodreads.com/book/show/6088007-neuromancer",
-    "year_published": 1984
+    {
+      "status": "on_loan",
+      "stock_id": "9798_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 268489,
+    "score": 3.9
+  },
+  "pages": 855,
+  "title": "Neuromancer",
+  "url": "https://www.goodreads.com/book/show/6088007-neuromancer",
+  "year_published": 1984
 }

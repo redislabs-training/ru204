@@ -1,48 +1,48 @@
 {
-    "author": "Thomas Siddell",
-    "id": "318",
-    "description": "Antimony Carver is a precocious and preternaturally self-possessed young girl starting her first year of school at gloomy Gunnerkrigg Court, a very British boarding school that has robots running around along side body-snatching demons, forest gods, and the odd mythical creature. The opening volume in the series follows Antimony through her orientation year: the people she meets, the strange things that happen, and the things she causes to happen as she and her new friend, Kat, unravel the mysteries of the Court and deal with the everyday adventures of growing up. Tom Siddell's popular and award-winning web comic (www.gunnerkrigg.com) is here collected in print for the first time.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 20,
-        "childrens (middle grade)": 17,
-        "fantasy": 314,
-        "fiction": 54,
-        "graphic novels comics": 37,
-        "science fiction": 52,
-        "sequential art (comics)": 273,
-        "sequential art (graphic novels)": 277,
-        "sequential art (webcomic)": 58,
-        "young adult": 92
+  "author": "Thomas Siddell",
+  "id": "318",
+  "description": "Antimony Carver is a precocious and preternaturally self-possessed young girl starting her first year of school at gloomy Gunnerkrigg Court, a very British boarding school that has robots running around along side body-snatching demons, forest gods, and the odd mythical creature. The opening volume in the series follows Antimony through her orientation year: the people she meets, the strange things that happen, and the things she causes to happen as she and her new friend, Kat, unravel the mysteries of the Court and deal with the everyday adventures of growing up. Tom Siddell's popular and award-winning web comic (www.gunnerkrigg.com) is here collected in print for the first time.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (webcomic)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "318_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "318_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "318_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "318_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "318_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5614,
-        "score": 4.23
+    {
+      "status": "available",
+      "stock_id": "318_2"
     },
-    "pages": 817,
-    "title": "Gunnerkrigg Court, Volume 1: Orientation",
-    "url": "https://www.goodreads.com/book/show/2915026-gunnerkrigg-court-volume-1",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "318_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "318_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5614,
+    "score": 4.23
+  },
+  "pages": 817,
+  "title": "Gunnerkrigg Court, Volume 1: Orientation",
+  "url": "https://www.goodreads.com/book/show/2915026-gunnerkrigg-court-volume-1",
+  "year_published": 2007
 }

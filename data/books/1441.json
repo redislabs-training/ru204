@@ -1,42 +1,42 @@
 {
-    "author": "Peter Clines",
-    "id": "1441",
-    "description": "The first in a spectacularly genre-mashing adventure series that pits a small group of courageous, flawed, terrified superheroes against hordes of undead.Stealth. Gorgon. Regenerator. Cerberus. Zzzap. The Mighty Dragon. They were heroes, using their superhuman abilities to make Los Angeles a better place.Then the plague of living death spread around the globe. Now, a year later, the heroes struggle to overcome their differences and recover from their own scars as they protect the thousands of survivors huddled in their film-studio-turned-fortress, the Mount.But the hungry ex-humans are not the only threat the survivors face. Across the city, another group has grown and gained power.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 117,
-        "audiobook": 55,
-        "comics (superheroes)": 165,
-        "fantasy": 212,
-        "fantasy (urban fantasy)": 80,
-        "fiction": 154,
-        "horror": 262,
-        "horror (zombies)": 348,
-        "science fiction": 227,
-        "science fiction (dystopia)": 47
+  "author": "Peter Clines",
+  "id": "1441",
+  "description": "The first in a spectacularly genre-mashing adventure series that pits a small group of courageous, flawed, terrified superheroes against hordes of undead.Stealth. Gorgon. Regenerator. Cerberus. Zzzap. The Mighty Dragon. They were heroes, using their superhuman abilities to make Los Angeles a better place.Then the plague of living death spread around the globe. Now, a year later, the heroes struggle to overcome their differences and recover from their own scars as they protect the thousands of survivors huddled in their film-studio-turned-fortress, the Mount.But the hungry ex-humans are not the only threat the survivors face. Across the city, another group has grown and gained power.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "comics (superheroes)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1441_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1441_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1441_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1441_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15020,
-        "score": 3.86
+    {
+      "status": "maintenance",
+      "stock_id": "1441_2"
     },
-    "pages": 1205,
-    "title": "Ex-Heroes",
-    "url": "https://www.goodreads.com/book/show/16479439-ex-heroes",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "1441_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15020,
+    "score": 3.86
+  },
+  "pages": 1205,
+  "title": "Ex-Heroes",
+  "url": "https://www.goodreads.com/book/show/16479439-ex-heroes",
+  "year_published": 2010
 }

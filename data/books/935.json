@@ -1,59 +1,59 @@
 {
-    "author": "James S.A. Corey",
-    "id": "935",
-    "description": "From New York Times bestselling author James S.A. Corey...Before his trip to the stars, before the Rocinante, Amos Burton was confined to a Baltimore where crime paid you or killed you. Unless the authorities got to you first. Set in the hard-scrabble solar system of the Expanse, The Churn deepens James S. A. Corey's acclaimed series.The Expanse (a major SyFy Channel television series)Leviathan WakesCaliban's WarAbaddon's GateCibola BurnNemesis GamesThe Expanse Short Fiction The Butcher of Anderson StationGods of RiskThe Churn",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 65,
-        "fiction": 207,
-        "mystery (crime)": 25,
-        "novella": 97,
-        "science fiction": 660,
-        "science fiction (dystopia)": 16,
-        "science fiction fantasy": 27,
-        "short stories": 105,
-        "space": 38,
-        "space (space opera)": 110
+  "author": "James S.A. Corey",
+  "id": "935",
+  "description": "From New York Times bestselling author James S.A. Corey...Before his trip to the stars, before the Rocinante, Amos Burton was confined to a Baltimore where crime paid you or killed you. Unless the authorities got to you first. Set in the hard-scrabble solar system of the Expanse, The Churn deepens James S. A. Corey's acclaimed series.The Expanse (a major SyFy Channel television series)Leviathan WakesCaliban's WarAbaddon's GateCibola BurnNemesis GamesThe Expanse Short Fiction The Butcher of Anderson StationGods of RiskThe Churn",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "mystery (crime)",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "935_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "935_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "935_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "935_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "935_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "935_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "935_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "935_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15707,
-        "score": 4.06
+    {
+      "status": "available",
+      "stock_id": "935_2"
     },
-    "pages": 710,
-    "title": "The Churn",
-    "url": "https://www.goodreads.com/book/show/20981355-the-churn",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "935_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "935_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "935_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "935_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "935_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15707,
+    "score": 4.06
+  },
+  "pages": 710,
+  "title": "The Churn",
+  "url": "https://www.goodreads.com/book/show/20981355-the-churn",
+  "year_published": 2014
 }

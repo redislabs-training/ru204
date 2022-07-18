@@ -1,45 +1,45 @@
 {
-    "author": "John Sladek",
-    "id": "19",
-    "description": "He isn't human; but he isn't all robot either. He started life in a lab, went to Parochial School, was kidnapped by gypsies, chased by roboticidal, and incompetent, hit-men, told fortunes on the Midway, and finally fostered by an elderly couple who gave up writing science fiction when their stories came true. He's Roderick, the first robot programmed to learn and think, and sent out into the world to re-invent it...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 2,
-        "fiction": 11,
-        "humor": 7,
-        "literature (american)": 2,
-        "novels": 3,
-        "science fiction": 45,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 2
+  "author": "John Sladek",
+  "id": "19",
+  "description": "He isn't human; but he isn't all robot either. He started life in a lab, went to Parochial School, was kidnapped by gypsies, chased by roboticidal, and incompetent, hit-men, told fortunes on the Midway, and finally fostered by an elderly couple who gave up writing science fiction when their stories came true. He's Roderick, the first robot programmed to learn and think, and sent out into the world to re-invent it...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "humor",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "19_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "19_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "19_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "19_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "19_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 360,
-        "score": 3.51
+    {
+      "status": "on_loan",
+      "stock_id": "19_2"
     },
-    "pages": 1314,
-    "title": "Roderick",
-    "url": "https://www.goodreads.com/book/show/845587.Roderick",
-    "year_published": 1980
+    {
+      "status": "on_loan",
+      "stock_id": "19_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "19_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 360,
+    "score": 3.51
+  },
+  "pages": 1314,
+  "title": "Roderick",
+  "url": "https://www.goodreads.com/book/show/845587.Roderick",
+  "year_published": 1980
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Mark  Siegel",
-    "id": "158",
-    "description": "5 Worlds. 3 Unlikely Heroes. 1 Epic Battle for the Galaxy!Oona Lee surprised everyone\u2013including herself\u2013when she lit the first beacon to save the Five Worlds from extinction. Can she light the other four beacons in time? Next stop, Toki! On the blue planet, Oona must face the sister who left her, and bring to light the Cobalt Prince\u2019s dark secrets. Meanwhile, An Tzu is fading away as his mysterious illness gets worse. Will it stop him from joining the fight? Or will his unique magic be just what the team needs?And Jax Amboy is a hero on the starball field, but in a moment of real danger, will he risk everything to save his friends?Oona must rely on some surprising new allies in order to stop a terrible plot from unfolding and continue her quest across the 5 WORLDS!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 19,
-        "childrens": 19,
-        "childrens (juvenile)": 12,
-        "childrens (middle grade)": 43,
-        "fantasy": 107,
-        "fiction": 12,
-        "graphic novels comics": 14,
-        "science fiction": 22,
-        "sequential art (comics)": 33,
-        "sequential art (graphic novels)": 140
+  "author": "Mark  Siegel",
+  "id": "158",
+  "description": "5 Worlds. 3 Unlikely Heroes. 1 Epic Battle for the Galaxy!Oona Lee surprised everyone–including herself–when she lit the first beacon to save the Five Worlds from extinction. Can she light the other four beacons in time? Next stop, Toki! On the blue planet, Oona must face the sister who left her, and bring to light the Cobalt Prince’s dark secrets. Meanwhile, An Tzu is fading away as his mysterious illness gets worse. Will it stop him from joining the fight? Or will his unique magic be just what the team needs?And Jax Amboy is a hero on the starball field, but in a moment of real danger, will he risk everything to save his friends?Oona must rely on some surprising new allies in order to stop a terrible plot from unfolding and continue her quest across the 5 WORLDS!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "158_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "158_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "158_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "158_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "158_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "158_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "158_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "158_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "158_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1542,
-        "score": 4.29
+    {
+      "status": "available",
+      "stock_id": "158_2"
     },
-    "pages": 605,
-    "title": "The Cobalt Prince",
-    "url": "https://www.goodreads.com/book/show/35175969-the-cobalt-prince",
-    "year_published": 2018
+    {
+      "status": "maintenance",
+      "stock_id": "158_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "158_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "158_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "158_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "158_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "158_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1542,
+    "score": 4.29
+  },
+  "pages": 605,
+  "title": "The Cobalt Prince",
+  "url": "https://www.goodreads.com/book/show/35175969-the-cobalt-prince",
+  "year_published": 2018
 }

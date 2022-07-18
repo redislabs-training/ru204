@@ -1,35 +1,35 @@
 {
-    "author": "Kage Baker",
-    "id": "44",
-    "description": "\n\nIn the Company, you're either a God or a Pawn, but sometimes you have to be both. The eight stories, reprinted for the first time in this collection delve further into the history and exploits of the Company and its operatives, including Mendoza, Lewis, and Alec.  The book opens with the novella, \"To the Land Beyond the Sunset,\" starring Lewis and Mendoza, and involving a strange tribe in Bolivia whose members claim to be gods. Their ability to grow a small tropical paradise in the middle of the desert certainly seems godlike, and it's Mendoza's job to figure what their secret is.\"Standing in His Light\" features Van Drouten, and her role in the career of the artist Jan Vermeer. The story illustrates how, with a little help from the Company, lost masterpieces can be found (or created) easily. Other stories include \"Welcome to Olympus, Mr. Hearst,\" which opens up intriguing questions about The Company, and the original novelette, \"Hellfire at Twilight,\" which concludes the volume and tells of Lewis infiltrating the famous Hellfire Club in the England of the 18th century.  This book is a compelling read for every Baker fan, and essential for Company addicts\n\n",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies (collections)": 7,
-        "fantasy": 10,
-        "fiction": 19,
-        "historical (historical fiction)": 2,
-        "own": 2,
-        "science fiction": 62,
-        "science fiction (time travel)": 25,
-        "science fiction fantasy": 5,
-        "short stories": 25,
-        "speculative fiction": 3
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "44_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 708,
-        "score": 4.02
-    },
-    "pages": 397,
-    "title": "Gods and Pawns",
-    "url": "https://www.goodreads.com/book/show/270485.Gods_and_Pawns",
-    "year_published": 2007
+  "author": "Kage Baker",
+  "id": "44",
+  "description": "\n\nIn the Company, you're either a God or a Pawn, but sometimes you have to be both. The eight stories, reprinted for the first time in this collection delve further into the history and exploits of the Company and its operatives, including Mendoza, Lewis, and Alec.  The book opens with the novella, \"To the Land Beyond the Sunset,\" starring Lewis and Mendoza, and involving a strange tribe in Bolivia whose members claim to be gods. Their ability to grow a small tropical paradise in the middle of the desert certainly seems godlike, and it's Mendoza's job to figure what their secret is.\"Standing in His Light\" features Van Drouten, and her role in the career of the artist Jan Vermeer. The story illustrates how, with a little help from the Company, lost masterpieces can be found (or created) easily. Other stories include \"Welcome to Olympus, Mr. Hearst,\" which opens up intriguing questions about The Company, and the original novelette, \"Hellfire at Twilight,\" which concludes the volume and tells of Lewis infiltrating the famous Hellfire Club in the England of the 18th century.  This book is a compelling read for every Baker fan, and essential for Company addicts\n\n",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "own",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "44_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 708,
+    "score": 4.02
+  },
+  "pages": 397,
+  "title": "Gods and Pawns",
+  "url": "https://www.goodreads.com/book/show/270485.Gods_and_Pawns",
+  "year_published": 2007
 }

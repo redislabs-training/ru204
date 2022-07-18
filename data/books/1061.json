@@ -1,38 +1,38 @@
 {
-    "author": "Grant Morrison",
-    "id": "1061",
-    "description": "Writer Grant Morrison and artist Frank Quitely tell the unforgettable story of three innocent pets-a dog, a cat and a rabbit-who have been converted into deadly cyborgs by a sinister military weapons program.With nervous systems amplified to match their terrifying mechanical exoskeletons, the members of Animal Weapon 3 have the firepower of a battalion between them. But they are just the program's prototypes, and now that their testing is complete, they're slated to be permanently \"de-commissioned\"-until they seize their one chance to make a desperate run for freedom. Relentlessly pursued by their makers, the WE3 team must navigate a frightening and confusing world where their instincts and heightened abilities make them as much a threat as those hunting them-but a world, nonetheless, in which somewhere there is something called \"home.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "animals": 68,
-        "comics (comic book)": 91,
-        "fantasy": 24,
-        "fiction": 122,
-        "graphic novels comics": 90,
-        "science fiction": 202,
-        "sequential art (comics)": 1142,
-        "sequential art (comix)": 26,
-        "sequential art (graphic novels)": 841,
-        "war": 20
+  "author": "Grant Morrison",
+  "id": "1061",
+  "description": "Writer Grant Morrison and artist Frank Quitely tell the unforgettable story of three innocent pets-a dog, a cat and a rabbit-who have been converted into deadly cyborgs by a sinister military weapons program.With nervous systems amplified to match their terrifying mechanical exoskeletons, the members of Animal Weapon 3 have the firepower of a battalion between them. But they are just the program's prototypes, and now that their testing is complete, they're slated to be permanently \"de-commissioned\"-until they seize their one chance to make a desperate run for freedom. Relentlessly pursued by their makers, the WE3 team must navigate a frightening and confusing world where their instincts and heightened abilities make them as much a threat as those hunting them-but a world, nonetheless, in which somewhere there is something called \"home.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "animals",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1061_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1061_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1061_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23469,
-        "score": 3.91
-    },
-    "pages": 1230,
-    "title": "We3",
-    "url": "https://www.goodreads.com/book/show/22358.We3",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "1061_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23469,
+    "score": 3.91
+  },
+  "pages": 1230,
+  "title": "We3",
+  "url": "https://www.goodreads.com/book/show/22358.We3",
+  "year_published": 2005
 }

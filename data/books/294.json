@@ -1,39 +1,39 @@
 {
-    "author": "Tom Sweterlitsch",
-    "id": "294",
-    "description": "A decade has passed since the city of Pittsburgh was reduced to ash. While the rest of the world has moved on, losing itself in the noise of a media-glutted future, survivor John Dominic Blaxton remains obsessed with the past. Grieving for his wife and unborn child who perished in the blast, Dominic relives his lost life by immersing in the Archive\u2014a fully interactive digital reconstruction of Pittsburgh, accessible to anyone who wants to visit the places they remember and the people they loved. Dominic investigates deaths recorded in the Archive to help close cases long since grown cold, but when he discovers glitches in the code surrounding a crime scene\u2014the body of a beautiful woman abandoned in a muddy park that he\u2019s convinced someone tried to delete from the Archive\u2014his cycle of grief is shattered. With nothing left to lose, Dominic tracks the murder through a web of deceit that takes him from the darkest corners of the Archive to the ruins of the city itself, leading him into the heart of a nightmare more horrific than anything he could have imagined.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 6,
-        "fantasy": 8,
-        "fiction": 43,
-        "mystery": 37,
-        "mystery (crime)": 10,
-        "science fiction": 84,
-        "science fiction (cyberpunk)": 22,
-        "science fiction (dystopia)": 16,
-        "science fiction fantasy": 6,
-        "thriller": 21
+  "author": "Tom Sweterlitsch",
+  "id": "294",
+  "description": "A decade has passed since the city of Pittsburgh was reduced to ash. While the rest of the world has moved on, losing itself in the noise of a media-glutted future, survivor John Dominic Blaxton remains obsessed with the past. Grieving for his wife and unborn child who perished in the blast, Dominic relives his lost life by immersing in the Archive—a fully interactive digital reconstruction of Pittsburgh, accessible to anyone who wants to visit the places they remember and the people they loved. Dominic investigates deaths recorded in the Archive to help close cases long since grown cold, but when he discovers glitches in the code surrounding a crime scene—the body of a beautiful woman abandoned in a muddy park that he’s convinced someone tried to delete from the Archive—his cycle of grief is shattered. With nothing left to lose, Dominic tracks the murder through a web of deceit that takes him from the darkest corners of the Archive to the ruins of the city itself, leading him into the heart of a nightmare more horrific than anything he could have imagined.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "294_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "294_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "294_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1633,
-        "score": 3.58
-    },
-    "pages": 815,
-    "title": "Tomorrow and Tomorrow",
-    "url": "https://www.goodreads.com/book/show/18693738-tomorrow-and-tomorrow",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "294_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1633,
+    "score": 3.58
+  },
+  "pages": 815,
+  "title": "Tomorrow and Tomorrow",
+  "url": "https://www.goodreads.com/book/show/18693738-tomorrow-and-tomorrow",
+  "year_published": 2014
 }

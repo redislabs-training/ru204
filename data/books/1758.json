@@ -1,54 +1,54 @@
 {
-    "author": "Christina Henry",
-    "id": "1758",
-    "description": "From the national bestselling author of Alice comes a postapocalyptic take on the perennial classic \"Little Red Riding Hood\"...about a woman who isn't as defenseless as she seems.It's not safe for anyone alone in the woods. There are predators that come out at night: critters and coyotes, snakes and wolves. But the woman in the red jacket has no choice. Not since the Crisis came, decimated the population, and sent those who survived fleeing into quarantine camps that serve as breeding grounds for death, destruction, and disease. She is just a woman trying not to get killed in a world that doesn't look anything like the one she grew up in, the one that was perfectly sane and normal and boring until three months ago.There are worse threats in the woods than the things that stalk their prey at night. Sometimes, there are men. Men with dark desires, weak wills, and evil intents. Men in uniform with classified information, deadly secrets, and unforgiving orders. And sometimes, just sometimes, there's something worse than all of the horrible people and vicious beasts combined. Red doesn't like to think of herself as a killer, but she isn't about to let herself get eaten up just because she is a woman alone in the woods....",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 41,
-        "apocalyptic (post apocalyptic)": 77,
-        "fantasy": 398,
-        "fantasy (fairy tales)": 62,
-        "fiction": 210,
-        "horror": 590,
-        "retellings": 211,
-        "science fiction": 123,
-        "science fiction (dystopia)": 146,
-        "young adult": 72
+  "author": "Christina Henry",
+  "id": "1758",
+  "description": "From the national bestselling author of Alice comes a postapocalyptic take on the perennial classic \"Little Red Riding Hood\"...about a woman who isn't as defenseless as she seems.It's not safe for anyone alone in the woods. There are predators that come out at night: critters and coyotes, snakes and wolves. But the woman in the red jacket has no choice. Not since the Crisis came, decimated the population, and sent those who survived fleeing into quarantine camps that serve as breeding grounds for death, destruction, and disease. She is just a woman trying not to get killed in a world that doesn't look anything like the one she grew up in, the one that was perfectly sane and normal and boring until three months ago.There are worse threats in the woods than the things that stalk their prey at night. Sometimes, there are men. Men with dark desires, weak wills, and evil intents. Men in uniform with classified information, deadly secrets, and unforgiving orders. And sometimes, just sometimes, there's something worse than all of the horrible people and vicious beasts combined. Red doesn't like to think of herself as a killer, but she isn't about to let herself get eaten up just because she is a woman alone in the woods....",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fiction",
+    "horror",
+    "retellings",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1758_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1758_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1758_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1758_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1758_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1758_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1758_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8301,
-        "score": 3.71
+    {
+      "status": "available",
+      "stock_id": "1758_2"
     },
-    "pages": 444,
-    "title": "The Girl in Red",
-    "url": "https://www.goodreads.com/book/show/42881101-the-girl-in-red",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "1758_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1758_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1758_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1758_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8301,
+    "score": 3.71
+  },
+  "pages": 444,
+  "title": "The Girl in Red",
+  "url": "https://www.goodreads.com/book/show/42881101-the-girl-in-red",
+  "year_published": 2019
 }

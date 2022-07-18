@@ -1,54 +1,54 @@
 {
-    "author": "Larry Niven",
-    "id": "3575",
-    "description": "The artefact is a circular ribbon of matter six hundred million miles long and ninety million miles in radius. Pierson's puppeteers, the aliens who discovered it, are understandably wary of encountering the builders of such an immense structure and have assembled a team of two humans, a mad puppeteer and a kzin, a huge cat-like alien, to explore it. But a crash landing on the vast edifice forces the crew on a desperate and dangerous trek across the Ringworld.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 88,
-        "audiobook": 112,
-        "classics": 180,
-        "fantasy": 181,
-        "fiction": 1050,
-        "hugo awards": 92,
-        "science fiction": 3444,
-        "science fiction fantasy": 203,
-        "space": 100,
-        "space (space opera)": 153
+  "author": "Larry Niven",
+  "id": "3575",
+  "description": "The artefact is a circular ribbon of matter six hundred million miles long and ninety million miles in radius. Pierson's puppeteers, the aliens who discovered it, are understandably wary of encountering the builders of such an immense structure and have assembled a team of two humans, a mad puppeteer and a kzin, a huge cat-like alien, to explore it. But a crash landing on the vast edifice forces the crew on a desperate and dangerous trek across the Ringworld.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3575_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3575_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3575_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3575_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3575_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3575_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3575_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 106495,
-        "score": 3.96
+    {
+      "status": "on_loan",
+      "stock_id": "3575_2"
     },
-    "pages": 396,
-    "title": "Ringworld",
-    "url": "https://www.goodreads.com/book/show/61179.Ringworld",
-    "year_published": 1970
+    {
+      "status": "maintenance",
+      "stock_id": "3575_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3575_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3575_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3575_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 106495,
+    "score": 3.96
+  },
+  "pages": 396,
+  "title": "Ringworld",
+  "url": "https://www.goodreads.com/book/show/61179.Ringworld",
+  "year_published": 1970
 }

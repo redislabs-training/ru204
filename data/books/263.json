@@ -1,43 +1,43 @@
 {
-    "author": "Ruth Park",
-    "id": "263",
-    "description": "Distraught over her parents' separation, Abigail follows a strange child called Beatie Bow and time slips back a hundred years where she becomes involved with an Australian shopkeeper's family.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 32,
-        "childrens (middle grade)": 11,
-        "classics": 56,
-        "cultural (australia)": 51,
-        "fantasy": 47,
-        "fiction": 50,
-        "historical": 33,
-        "historical (historical fiction)": 59,
-        "science fiction (time travel)": 62,
-        "young adult": 82
+  "author": "Ruth Park",
+  "id": "263",
+  "description": "Distraught over her parents' separation, Abigail follows a strange child called Beatie Bow and time slips back a hundred years where she becomes involved with an Australian shopkeeper's family.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "cultural (australia)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "263_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "263_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "263_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "263_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4524,
-        "score": 3.96
+    {
+      "status": "on_loan",
+      "stock_id": "263_2"
     },
-    "pages": 638,
-    "title": "Playing Beatie Bow",
-    "url": "https://www.goodreads.com/book/show/395868.Playing_Beatie_Bow",
-    "year_published": 1980
+    {
+      "status": "maintenance",
+      "stock_id": "263_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4524,
+    "score": 3.96
+  },
+  "pages": 638,
+  "title": "Playing Beatie Bow",
+  "url": "https://www.goodreads.com/book/show/395868.Playing_Beatie_Bow",
+  "year_published": 1980
 }

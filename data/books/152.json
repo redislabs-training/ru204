@@ -1,56 +1,56 @@
 {
-    "author": "R.A. MacAvoy",
-    "id": "152",
-    "description": "An unusual and original work of fantasy from the acclaimed author of Tea with the Black Dragon. A contemporary man, John Thornburn (a meek, non-violent and unpredictable artist) and woman, Derval (his tough, confrontational, strong and warrior-like lover) time travel to ancient Ireland to avenge a Viking attack. Packed with fascinating details of historical time and place in Irish history and delicately balanced on the border between realism and fantasy, the story centers around one of the most famous and beautiful illuminated manuscripts in history, the legendary but entirely real Book of Kells. Celtic history blends with magical fantasy for a strange and immersive tale of adventure.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "cultural (ireland)": 27,
-        "european literature (irish literature)": 7,
-        "fantasy": 175,
-        "fiction": 23,
-        "historical": 21,
-        "historical (historical fiction)": 61,
-        "historical fiction (historical fantasy)": 9,
-        "science fiction": 17,
-        "science fiction (time travel)": 47,
-        "science fiction fantasy": 11
+  "author": "R.A. MacAvoy",
+  "id": "152",
+  "description": "An unusual and original work of fantasy from the acclaimed author of Tea with the Black Dragon. A contemporary man, John Thornburn (a meek, non-violent and unpredictable artist) and woman, Derval (his tough, confrontational, strong and warrior-like lover) time travel to ancient Ireland to avenge a Viking attack. Packed with fascinating details of historical time and place in Irish history and delicately balanced on the border between realism and fantasy, the story centers around one of the most famous and beautiful illuminated manuscripts in history, the legendary but entirely real Book of Kells. Celtic history blends with magical fantasy for a strange and immersive tale of adventure.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "cultural (ireland)",
+    "european literature (irish literature)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "152_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "152_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "152_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "152_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "152_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "152_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "152_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1694,
-        "score": 3.58
+    {
+      "status": "on_loan",
+      "stock_id": "152_2"
     },
-    "pages": 316,
-    "title": "The Book of Kells",
-    "url": "https://www.goodreads.com/book/show/941468.The_Book_of_Kells",
-    "year_published": 1985
+    {
+      "status": "on_loan",
+      "stock_id": "152_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "152_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "152_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "152_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1694,
+    "score": 3.58
+  },
+  "pages": 316,
+  "title": "The Book of Kells",
+  "url": "https://www.goodreads.com/book/show/941468.The_Book_of_Kells",
+  "year_published": 1985
 }

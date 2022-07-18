@@ -1,46 +1,46 @@
 {
-    "author": "Shawn Inmon",
-    "id": "150",
-    "description": "All Thomas Weaver wanted was death. What he got was time travel.  Thomas Weaver, haunted by a teenage tragedy, lived a wasted life. He closed his eyes for what he believed was the last time in 2016, but opened them again in his teenage bedroom and body in 1976. Now a middle-aged man in his teenage body, he sets out to fix everything he did wrong in his first life. A budding serial killer in home room, a possible new romance, and high school algebra complicate his plans.  What would you do, if you could do it all again?  The second Middle Falls Time Travel Novel - The Redemption of Michael Hollister - is now available. The third book in the series - The Death and Life of Dominick Davidner - is available on presale and will be published in December 2017.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 5,
-        "business (amazon)": 4,
-        "fantasy": 11,
-        "fantasy (paranormal)": 2,
-        "fiction": 16,
-        "science fiction": 10,
-        "science fiction (time travel)": 46,
-        "science fiction fantasy": 3,
-        "young adult": 3
+  "author": "Shawn Inmon",
+  "id": "150",
+  "description": "All Thomas Weaver wanted was death. What he got was time travel.  Thomas Weaver, haunted by a teenage tragedy, lived a wasted life. He closed his eyes for what he believed was the last time in 2016, but opened them again in his teenage bedroom and body in 1976. Now a middle-aged man in his teenage body, he sets out to fix everything he did wrong in his first life. A budding serial killer in home room, a possible new romance, and high school algebra complicate his plans.  What would you do, if you could do it all again?  The second Middle Falls Time Travel Novel - The Redemption of Michael Hollister - is now available. The third book in the series - The Death and Life of Dominick Davidner - is available on presale and will be published in December 2017.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "business (amazon)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "150_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "150_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "150_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "150_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "150_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1167,
-        "score": 4.17
+    {
+      "status": "on_loan",
+      "stock_id": "150_2"
     },
-    "pages": 812,
-    "title": "The Unusual Second Life of Thomas Weaver",
-    "url": "https://www.goodreads.com/book/show/31286995-the-unusual-second-life-of-thomas-weaver",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "150_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "150_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1167,
+    "score": 4.17
+  },
+  "pages": 812,
+  "title": "The Unusual Second Life of Thomas Weaver",
+  "url": "https://www.goodreads.com/book/show/31286995-the-unusual-second-life-of-thomas-weaver",
+  "year_published": 2015
 }

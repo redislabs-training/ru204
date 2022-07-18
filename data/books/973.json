@@ -1,38 +1,38 @@
 {
-    "author": "Robert Kirkman",
-    "id": "973",
-    "description": "As the survivors settle into their prison home something has drawn them out into the open... out of the prison... out of their sanctuary. This is a major turning point for the overall story of The Walking Dead, setting the stage for years to come.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 124,
-        "comics (comic book)": 116,
-        "fiction": 209,
-        "graphic novels comics": 133,
-        "horror": 667,
-        "horror (zombies)": 486,
-        "science fiction (apocalyptic)": 50,
-        "science fiction (dystopia)": 77,
-        "sequential art (comics)": 1108,
-        "sequential art (graphic novels)": 1304
+  "author": "Robert Kirkman",
+  "id": "973",
+  "description": "As the survivors settle into their prison home something has drawn them out into the open... out of the prison... out of their sanctuary. This is a major turning point for the overall story of The Walking Dead, setting the stage for years to come.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "973_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "973_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "973_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23735,
-        "score": 4.28
-    },
-    "pages": 417,
-    "title": "The Walking Dead, Vol. 5: The Best Defense",
-    "url": "https://www.goodreads.com/book/show/30065.The_Walking_Dead_Vol_5",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "973_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23735,
+    "score": 4.28
+  },
+  "pages": 417,
+  "title": "The Walking Dead, Vol. 5: The Best Defense",
+  "url": "https://www.goodreads.com/book/show/30065.The_Walking_Dead_Vol_5",
+  "year_published": 2006
 }

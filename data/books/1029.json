@@ -1,66 +1,66 @@
 {
-    "author": "Beth Lewis",
-    "id": "1029",
-    "description": "Elka barely remembers a time before she knew Trapper. She was just seven years old, wandering lost and hungry in the wilderness, when the solitary hunter took her in. In the years since then, he's taught her how to survive in this desolate land where civilization has been destroyed and men are at the mercy of the elements and each other.But the man Elka thought she knew has been harboring a terrible secret. He's a killer. A monster. And now that Elka knows the truth, she may be his next victim.Armed with nothing but her knife and the hard lessons Trapper's drilled into her, Elka flees into the frozen north in search of her real parents. But judging by the trail of blood dogging her footsteps, she hasn't left Trapper behind--and he won't be letting his little girl go without a fight. If she's going to survive, Elka will have to turn and confront not just him, but the truth about the dark road she's been set on.The Wolf Road is an intimate cat-and-mouse tale of revenge and redemption, played out against a vast, unforgiving landscape--told by an indomitable young heroine fighting to escape her past and rejoin humanity.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 27,
-        "apocalyptic (post apocalyptic)": 76,
-        "fiction": 203,
-        "horror": 57,
-        "mystery": 85,
-        "science fiction": 33,
-        "science fiction (apocalyptic)": 21,
-        "science fiction (dystopia)": 52,
-        "thriller": 140,
-        "thriller (mystery thriller)": 45
+  "author": "Beth Lewis",
+  "id": "1029",
+  "description": "Elka barely remembers a time before she knew Trapper. She was just seven years old, wandering lost and hungry in the wilderness, when the solitary hunter took her in. In the years since then, he's taught her how to survive in this desolate land where civilization has been destroyed and men are at the mercy of the elements and each other.But the man Elka thought she knew has been harboring a terrible secret. He's a killer. A monster. And now that Elka knows the truth, she may be his next victim.Armed with nothing but her knife and the hard lessons Trapper's drilled into her, Elka flees into the frozen north in search of her real parents. But judging by the trail of blood dogging her footsteps, she hasn't left Trapper behind--and he won't be letting his little girl go without a fight. If she's going to survive, Elka will have to turn and confront not just him, but the truth about the dark road she's been set on.The Wolf Road is an intimate cat-and-mouse tale of revenge and redemption, played out against a vast, unforgiving landscape--told by an indomitable young heroine fighting to escape her past and rejoin humanity.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1029_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1029_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1029_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1029_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1029_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1029_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1029_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1029_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1029_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1029_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6299,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "1029_2"
     },
-    "pages": 935,
-    "title": "The Wolf Road",
-    "url": "https://www.goodreads.com/book/show/32912923-the-wolf-road",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "1029_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1029_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1029_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1029_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1029_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1029_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1029_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6299,
+    "score": 3.94
+  },
+  "pages": 935,
+  "title": "The Wolf Road",
+  "url": "https://www.goodreads.com/book/show/32912923-the-wolf-road",
+  "year_published": 2016
 }

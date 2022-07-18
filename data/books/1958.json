@@ -1,62 +1,62 @@
 {
-    "author": "Megan Angelo",
-    "id": "1958",
-    "description": "An electrifying story of two ambitious friends, the dark choices they make and the stunning moment that changes the world as we know it foreverOrla Cadden is a budding novelist stuck in a dead-end job, writing clickbait about movie-star hookups and influencer yoga moves. Then Orla meets Floss \u2015 a striving wannabe A-lister \u2015 who comes up with a plan for launching them both into the high-profile lives they dream about. So what if Orla and Floss's methods are a little shady and sometimes people get hurt? Their legions of followers can't be wrong.Thirty-five years later, in a closed California village where government-appointed celebrities live every moment of the day on camera, a woman named Marlow discovers a shattering secret about her past. Despite her massive popularity \u2015 twelve million loyal followers \u2015 Marlow dreams of fleeing the corporate sponsors who would do anything to keep her on-screen. When she learns that her whole family history is based on a lie, Marlow finally summons the courage to run in search of the truth, no matter the risks.Followers traces the paths of Orla, Floss and Marlow as they wind through time toward each other, and toward a cataclysmic event that sends America into lasting upheaval. At turns wry and tender, bleak and hopeful, this darkly funny story reminds us that even if we obsess over famous people we\u2019ll never meet, what we really crave is genuine human connection.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 55,
-        "adult fiction": 41,
-        "audiobook": 65,
-        "contemporary": 84,
-        "fantasy": 19,
-        "fiction": 352,
-        "literary fiction": 20,
-        "science fiction": 163,
-        "science fiction (dystopia)": 113,
-        "science fiction fantasy": 17
+  "author": "Megan Angelo",
+  "id": "1958",
+  "description": "An electrifying story of two ambitious friends, the dark choices they make and the stunning moment that changes the world as we know it foreverOrla Cadden is a budding novelist stuck in a dead-end job, writing clickbait about movie-star hookups and influencer yoga moves. Then Orla meets Floss ― a striving wannabe A-lister ― who comes up with a plan for launching them both into the high-profile lives they dream about. So what if Orla and Floss's methods are a little shady and sometimes people get hurt? Their legions of followers can't be wrong.Thirty-five years later, in a closed California village where government-appointed celebrities live every moment of the day on camera, a woman named Marlow discovers a shattering secret about her past. Despite her massive popularity ― twelve million loyal followers ― Marlow dreams of fleeing the corporate sponsors who would do anything to keep her on-screen. When she learns that her whole family history is based on a lie, Marlow finally summons the courage to run in search of the truth, no matter the risks.Followers traces the paths of Orla, Floss and Marlow as they wind through time toward each other, and toward a cataclysmic event that sends America into lasting upheaval. At turns wry and tender, bleak and hopeful, this darkly funny story reminds us that even if we obsess over famous people we’ll never meet, what we really crave is genuine human connection.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1958_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1958_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1958_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1958_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1958_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1958_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1958_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1958_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1958_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12338,
-        "score": 3.63
+    {
+      "status": "maintenance",
+      "stock_id": "1958_2"
     },
-    "pages": 1396,
-    "title": "Followers",
-    "url": "https://www.goodreads.com/book/show/42171136-followers",
-    "year_published": 2020
+    {
+      "status": "available",
+      "stock_id": "1958_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1958_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1958_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1958_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1958_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1958_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12338,
+    "score": 3.63
+  },
+  "pages": 1396,
+  "title": "Followers",
+  "url": "https://www.goodreads.com/book/show/42171136-followers",
+  "year_published": 2020
 }

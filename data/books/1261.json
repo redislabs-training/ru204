@@ -1,66 +1,66 @@
 {
-    "author": "Blake Crouch",
-    "id": "1261",
-    "description": "A video game developer becomes obsessed with a willful character in her new project, in a mind-bending exploration of what it means to be human by the New York Times bestselling author of Recursion.Maxine was made to do one thing: die. Except the minor non-player character in the world Riley is building makes her own impossible decision\u2014veering wildly off course and exploring the boundaries of the map. When the curious Riley extracts her code for closer examination, an emotional relationship develops between them. Soon Riley has all new plans for her spontaneous AI, including bringing Max into the real world. But what if Max has real-world plans of her own?Blake Crouch\u2019s Summer Frost is part of Forward, a collection of six stories of the near and far future from out-of-this-world authors. Each piece can be read or listened to in a single thought-provoking sitting.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 17,
-        "audiobook": 78,
-        "fantasy": 18,
-        "fiction": 167,
-        "novella": 59,
-        "science fiction": 382,
-        "science fiction (dystopia)": 18,
-        "science fiction fantasy": 26,
-        "short stories": 284,
-        "thriller": 18
+  "author": "Blake Crouch",
+  "id": "1261",
+  "description": "A video game developer becomes obsessed with a willful character in her new project, in a mind-bending exploration of what it means to be human by the New York Times bestselling author of Recursion.Maxine was made to do one thing: die. Except the minor non-player character in the world Riley is building makes her own impossible decision—veering wildly off course and exploring the boundaries of the map. When the curious Riley extracts her code for closer examination, an emotional relationship develops between them. Soon Riley has all new plans for her spontaneous AI, including bringing Max into the real world. But what if Max has real-world plans of her own?Blake Crouch’s Summer Frost is part of Forward, a collection of six stories of the near and far future from out-of-this-world authors. Each piece can be read or listened to in a single thought-provoking sitting.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1261_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1261_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1261_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1261_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1261_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1261_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1261_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1261_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1261_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1261_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10670,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "1261_2"
     },
-    "pages": 959,
-    "title": "Summer Frost",
-    "url": "https://www.goodreads.com/book/show/49676965-summer-frost",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "1261_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1261_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1261_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1261_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1261_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1261_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1261_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10670,
+    "score": 4.08
+  },
+  "pages": 959,
+  "title": "Summer Frost",
+  "url": "https://www.goodreads.com/book/show/49676965-summer-frost",
+  "year_published": 2019
 }

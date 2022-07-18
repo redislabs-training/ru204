@@ -1,66 +1,66 @@
 {
-    "author": "Robert C. O'Brien",
-    "id": "1647",
-    "description": "Is anyone out there?  Ann Burden is sixteen years old and completely alone. The world as she once knew it is gone, ravaged by a nuclear war that has taken everyone from her. For the past year, she has lived in a remote valley with no evidence of any other survivors.  But the smoke from a distant campfire shatters Ann's solitude. Someone else is still alive and making his way toward the valley. Who is this man? What does he want? Can he be trusted? Both excited and terrified, Ann soon realizes there may be worse things than being the last person on Earth.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (school)": 29,
-        "adventure (survival)": 39,
-        "apocalyptic (post apocalyptic)": 188,
-        "fiction": 242,
-        "science fiction": 263,
-        "science fiction (apocalyptic)": 57,
-        "science fiction (dystopia)": 179,
-        "science fiction fantasy": 26,
-        "young adult": 406,
-        "young adult (teen)": 33
+  "author": "Robert C. O'Brien",
+  "id": "1647",
+  "description": "Is anyone out there?  Ann Burden is sixteen years old and completely alone. The world as she once knew it is gone, ravaged by a nuclear war that has taken everyone from her. For the past year, she has lived in a remote valley with no evidence of any other survivors.  But the smoke from a distant campfire shatters Ann's solitude. Someone else is still alive and making his way toward the valley. Who is this man? What does he want? Can he be trusted? Both excited and terrified, Ann soon realizes there may be worse things than being the last person on Earth.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (school)",
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1647_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1647_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1647_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1647_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1647_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14101,
-        "score": 3.67
+    {
+      "status": "maintenance",
+      "stock_id": "1647_2"
     },
-    "pages": 1174,
-    "title": "Z for Zachariah",
-    "url": "https://www.goodreads.com/book/show/69477.Z_for_Zachariah",
-    "year_published": 1974
+    {
+      "status": "maintenance",
+      "stock_id": "1647_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1647_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1647_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1647_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1647_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1647_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1647_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14101,
+    "score": 3.67
+  },
+  "pages": 1174,
+  "title": "Z for Zachariah",
+  "url": "https://www.goodreads.com/book/show/69477.Z_for_Zachariah",
+  "year_published": 1974
 }

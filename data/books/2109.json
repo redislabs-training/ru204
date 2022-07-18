@@ -1,36 +1,36 @@
 {
-    "author": "George Orwell",
-    "id": "2109",
-    "description": "This edition features George Orwell's best known novels \u2013 1984 and Animal Farm \u2013 with an introduction by Christopher Hitchens. In 1984, London is a grim city where Big Brother is always watching you and the Thought Police can practically read your mind.\u00a0 Winston Smith joins a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be.Animal Farm is Orwell's classic satire of the Russian Revolution -- an account of the bold struggle, initiated by the animals, that transforms Mr. Jones's Manor Farm into Animal Farm--a wholly democratic society built on the credo that All Animals Are Created Equal. But are they?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (school)": 52,
-        "classics": 1238,
-        "fantasy": 89,
-        "fiction": 887,
-        "literature": 153,
-        "novels": 64,
-        "philosophy": 54,
-        "politics": 115,
-        "science fiction": 150,
-        "science fiction (dystopia)": 181
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2109_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 168423,
-        "score": 4.29
-    },
-    "pages": 1091,
-    "title": "Animal Farm / 1984",
-    "url": "https://www.goodreads.com/book/show/5472.Animal_Farm_1984",
-    "year_published": 1948
+  "author": "George Orwell",
+  "id": "2109",
+  "description": "This edition features George Orwell's best known novels – 1984 and Animal Farm – with an introduction by Christopher Hitchens. In 1984, London is a grim city where Big Brother is always watching you and the Thought Police can practically read your mind.  Winston Smith joins a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be.Animal Farm is Orwell's classic satire of the Russian Revolution -- an account of the bold struggle, initiated by the animals, that transforms Mr. Jones's Manor Farm into Animal Farm--a wholly democratic society built on the credo that All Animals Are Created Equal. But are they?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (school)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "philosophy",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2109_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 168423,
+    "score": 4.29
+  },
+  "pages": 1091,
+  "title": "Animal Farm / 1984",
+  "url": "https://www.goodreads.com/book/show/5472.Animal_Farm_1984",
+  "year_published": 1948
 }

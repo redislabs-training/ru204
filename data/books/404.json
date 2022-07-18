@@ -1,38 +1,38 @@
 {
-    "author": "James Gurney",
-    "id": "404",
-    "description": "In the year 1860, biologist and explorer Arthur Denison and his son, Will, set out on a sea voyage of discovery and adventure. When a powerful typhoon wrecks the ship in uncharted waters, Arthur and Will are the sole survivors. Washed ashore on a strange island called Dinotopia, they are amazed to find a breathtaking world where cities are built on waterfalls, people have found new ways to fly, and humans and dinosaurs live together in harmony. With new discoveries at every turn, Arthur and Will embark upon their own separate journeys to unearth the mysteries of Dinotopia.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 55,
-        "animals": 31,
-        "animals (dinosaurs)": 81,
-        "art": 97,
-        "childrens": 120,
-        "childrens (picture books)": 60,
-        "fantasy": 440,
-        "fiction": 156,
-        "science fiction": 42,
-        "young adult": 56
+  "author": "James Gurney",
+  "id": "404",
+  "description": "In the year 1860, biologist and explorer Arthur Denison and his son, Will, set out on a sea voyage of discovery and adventure. When a powerful typhoon wrecks the ship in uncharted waters, Arthur and Will are the sole survivors. Washed ashore on a strange island called Dinotopia, they are amazed to find a breathtaking world where cities are built on waterfalls, people have found new ways to fly, and humans and dinosaurs live together in harmony. With new discoveries at every turn, Arthur and Will embark upon their own separate journeys to unearth the mysteries of Dinotopia.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "animals (dinosaurs)",
+    "art",
+    "childrens",
+    "childrens (picture books)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "404_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "404_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "404_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11431,
-        "score": 4.25
-    },
-    "pages": 867,
-    "title": "Dinotopia: A Land Apart from Time",
-    "url": "https://www.goodreads.com/book/show/144006.Dinotopia",
-    "year_published": 1992
+    {
+      "status": "on_loan",
+      "stock_id": "404_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11431,
+    "score": 4.25
+  },
+  "pages": 867,
+  "title": "Dinotopia: A Land Apart from Time",
+  "url": "https://www.goodreads.com/book/show/144006.Dinotopia",
+  "year_published": 1992
 }

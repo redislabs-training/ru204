@@ -1,46 +1,46 @@
 {
-    "author": "John W. Campbell Jr.",
-    "id": "81",
-    "description": "Contents:Documents for Tomorrow / essay by John W. Campbell Jr.By His Bootstraps / by Robert A. Heinlein (writing as Anson MacDonald); interior artwork by Hubert RogersIn Times to Come / essay by The EditorThe Analytical Laboratory: August 1941 / essay by The EditorNot Final! (Jovians #1) / by Isaac Asimov; interior artwork by KollikerThe Sea King's Armored Division (Part 2 of 2) / essay by L. Sprague de CampManic Perverse / by Winston K. Marks; interior artwork by Frank KramerTwo Percent Inspiration / by Theodore Sturgeon; interior artwork by Hubert RogersCommon Sense / by Robert A. Heinlein; interior artwork by Paul OrbanBrass Tacks / essay by The EditorLetters / P. Schuyler Miller; Paul A. Carter; and E. Everett Evans",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 3,
-        "classics": 8,
-        "fantasy": 2,
-        "fiction": 14,
-        "science fiction": 67,
-        "science fiction (time travel)": 35,
-        "science fiction fantasy": 3,
-        "short stories": 33
+  "author": "John W. Campbell Jr.",
+  "id": "81",
+  "description": "Contents:Documents for Tomorrow / essay by John W. Campbell Jr.By His Bootstraps / by Robert A. Heinlein (writing as Anson MacDonald); interior artwork by Hubert RogersIn Times to Come / essay by The EditorThe Analytical Laboratory: August 1941 / essay by The EditorNot Final! (Jovians #1) / by Isaac Asimov; interior artwork by KollikerThe Sea King's Armored Division (Part 2 of 2) / essay by L. Sprague de CampManic Perverse / by Winston K. Marks; interior artwork by Frank KramerTwo Percent Inspiration / by Theodore Sturgeon; interior artwork by Hubert RogersCommon Sense / by Robert A. Heinlein; interior artwork by Paul OrbanBrass Tacks / essay by The EditorLetters / P. Schuyler Miller; Paul A. Carter; and E. Everett Evans",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "81_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "81_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "81_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "81_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "81_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 965,
-        "score": 4.0
+    {
+      "status": "on_loan",
+      "stock_id": "81_2"
     },
-    "pages": 424,
-    "title": "Astounding Science-Fiction, October 1941",
-    "url": "https://www.goodreads.com/book/show/13101981-astounding-science-fiction-october-1941",
-    "year_published": 1941
+    {
+      "status": "on_loan",
+      "stock_id": "81_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "81_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 965,
+    "score": 4
+  },
+  "pages": 424,
+  "title": "Astounding Science-Fiction, October 1941",
+  "url": "https://www.goodreads.com/book/show/13101981-astounding-science-fiction-october-1941",
+  "year_published": 1941
 }

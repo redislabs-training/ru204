@@ -1,66 +1,66 @@
 {
-    "author": "Hajime Isayama",
-    "id": "2507",
-    "description": "The Desperate Battle Begins! For the past century, what's left of mankind has hidden in a giant, three-walled city, trapped in fear of the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming humankind, but the sudden appearance of an enormous Titan is about to change everything...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 90,
-        "fantasy": 390,
-        "fiction": 140,
-        "horror": 371,
-        "science fiction": 147,
-        "science fiction (dystopia)": 134,
-        "sequential art (comics)": 381,
-        "sequential art (graphic novels)": 473,
-        "sequential art (manga)": 4671,
-        "young adult": 92
+  "author": "Hajime Isayama",
+  "id": "2507",
+  "description": "The Desperate Battle Begins! For the past century, what's left of mankind has hidden in a giant, three-walled city, trapped in fear of the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming humankind, but the sudden appearance of an enormous Titan is about to change everything...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2507_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2507_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2507_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2507_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2507_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2507_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2507_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2507_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2507_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2507_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 129684,
-        "score": 4.43
+    {
+      "status": "on_loan",
+      "stock_id": "2507_2"
     },
-    "pages": 1351,
-    "title": "Attack on Titan, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/13154150-attack-on-titan-vol-1",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "2507_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2507_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2507_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2507_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2507_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2507_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2507_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 129684,
+    "score": 4.43
+  },
+  "pages": 1351,
+  "title": "Attack on Titan, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/13154150-attack-on-titan-vol-1",
+  "year_published": 2010
 }

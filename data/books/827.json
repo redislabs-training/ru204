@@ -1,47 +1,47 @@
 {
-    "author": "Diane  Cook",
-    "id": "827",
-    "description": "A debut novel that explores a mother-daughter relationship in a world ravaged by climate change and overpopulation, a suspenseful second book from the author of the story collection, Man V. Nature.Bea\u2019s five-year-old daughter, Agnes, is slowly wasting away. The smog and pollution of the City\u2014an over-populated, over-built metropolis where most of the population lives\u2014is destroying her lungs. But what can Bea do? No one leaves the City anymore, because there is nowhere else to go. But across the country lies the Wilderness State, the last swath of open, protected land left. Here forests and desert plains are inhabited solely by wildlife. People are forbidden. Until now.\u00a0Bea, Agnes, and eighteen others volunteer to live in the Wilderness State as part of a study to see if humans can co-exist with nature. Can they be part of the wilderness and not destroy it? Living as nomadic hunter-gatherers, this new community wanders through the grand country, trying to adhere to the strict rules laid down by the Rangers, whose job it is to remind them they must Leave No Trace. As the group slowly learns to live and survive on the unpredictable and often dangerous land, its members battle for power and control and betray and save each other. The farther they roam, the closer they come to their animal soul.To her dismay, Bea discovers that, in fleeing to the Wilderness State to save Agnes, she is losing her in a different way. Agnes is growing wilder and closer to the land, while Bea cannot shake her urban past. As she and Agnes grow further apart, the bonds between mother and daughter are tested in surprising and heartbreaking ways.Yet just as these modern nomads come to think of the Wilderness State as home, its future is threatened when the Government discovers a new use for the land. Now the migrants must choose to stay and fight for their place in the wilderness, their home, or trust the Rangers and their promises of a better tomorrow elsewhere.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 20,
-        "contemporary": 17,
-        "environment": 22,
-        "environment (nature)": 20,
-        "fiction": 337,
-        "literary fiction": 32,
-        "novels": 22,
-        "science fiction": 145,
-        "science fiction (dystopia)": 96,
-        "speculative fiction": 24
+  "author": "Diane  Cook",
+  "id": "827",
+  "description": "A debut novel that explores a mother-daughter relationship in a world ravaged by climate change and overpopulation, a suspenseful second book from the author of the story collection, Man V. Nature.Bea’s five-year-old daughter, Agnes, is slowly wasting away. The smog and pollution of the City—an over-populated, over-built metropolis where most of the population lives—is destroying her lungs. But what can Bea do? No one leaves the City anymore, because there is nowhere else to go. But across the country lies the Wilderness State, the last swath of open, protected land left. Here forests and desert plains are inhabited solely by wildlife. People are forbidden. Until now. Bea, Agnes, and eighteen others volunteer to live in the Wilderness State as part of a study to see if humans can co-exist with nature. Can they be part of the wilderness and not destroy it? Living as nomadic hunter-gatherers, this new community wanders through the grand country, trying to adhere to the strict rules laid down by the Rangers, whose job it is to remind them they must Leave No Trace. As the group slowly learns to live and survive on the unpredictable and often dangerous land, its members battle for power and control and betray and save each other. The farther they roam, the closer they come to their animal soul.To her dismay, Bea discovers that, in fleeing to the Wilderness State to save Agnes, she is losing her in a different way. Agnes is growing wilder and closer to the land, while Bea cannot shake her urban past. As she and Agnes grow further apart, the bonds between mother and daughter are tested in surprising and heartbreaking ways.Yet just as these modern nomads come to think of the Wilderness State as home, its future is threatened when the Government discovers a new use for the land. Now the migrants must choose to stay and fight for their place in the wilderness, their home, or trust the Rangers and their promises of a better tomorrow elsewhere.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "contemporary",
+    "environment",
+    "environment (nature)",
+    "fiction",
+    "literary fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "827_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "827_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "827_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "827_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "827_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5655,
-        "score": 3.79
+    {
+      "status": "on_loan",
+      "stock_id": "827_2"
     },
-    "pages": 1359,
-    "title": "The New Wilderness",
-    "url": "https://www.goodreads.com/book/show/48836769-the-new-wilderness",
-    "year_published": 2020
+    {
+      "status": "available",
+      "stock_id": "827_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "827_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5655,
+    "score": 3.79
+  },
+  "pages": 1359,
+  "title": "The New Wilderness",
+  "url": "https://www.goodreads.com/book/show/48836769-the-new-wilderness",
+  "year_published": 2020
 }

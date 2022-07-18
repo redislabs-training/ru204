@@ -1,36 +1,36 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "734",
-    "description": "WINNER OF THREE EISNER AWARDSThe adventures of Yorick Brown continue in Y: THE LAST MAN: ONE SMALL STEP, collecting issues #11-17 of the critically acclaimed series. A Russian Soyuz capsule is coming down from the International Space Station carrying three passengers: one woman and two men. Could this be the end of Yorick's tenure as last living male?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 43,
-        "apocalyptic (post apocalyptic)": 130,
-        "comics (comic book)": 121,
-        "fiction": 239,
-        "graphic novels comics": 180,
-        "science fiction": 281,
-        "science fiction (dystopia)": 123,
-        "sequential art (comics)": 1500,
-        "sequential art (comix)": 41,
-        "sequential art (graphic novels)": 1761
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "734_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 29716,
-        "score": 4.21
-    },
-    "pages": 389,
-    "title": "Y: The Last Man Vol. 3: One Small Step",
-    "url": "https://www.goodreads.com/book/show/156530.Y",
-    "year_published": 2004
+  "author": "Brian K. Vaughan",
+  "id": "734",
+  "description": "WINNER OF THREE EISNER AWARDSThe adventures of Yorick Brown continue in Y: THE LAST MAN: ONE SMALL STEP, collecting issues #11-17 of the critically acclaimed series. A Russian Soyuz capsule is coming down from the International Space Station carrying three passengers: one woman and two men. Could this be the end of Yorick's tenure as last living male?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "734_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 29716,
+    "score": 4.21
+  },
+  "pages": 389,
+  "title": "Y: The Last Man Vol. 3: One Small Step",
+  "url": "https://www.goodreads.com/book/show/156530.Y",
+  "year_published": 2004
 }

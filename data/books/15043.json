@@ -1,55 +1,55 @@
 {
-    "author": "Stephen King",
-    "id": "15043",
-    "description": "On an entirely normal, beautiful fall day in Chester\u2019s Mill, Maine, the town is inexplicably and suddenly sealed off from the rest of the world by an invisible force field. Planes crash into it and fall from the sky in flaming wreckage, a gardener\u2019s hand is severed as \u201cthe dome\u201d comes down on it, people running errands in the neighboring town are divided from their families, and cars explode on impact. No one can fathom what this barrier is, where it came from, and when\u2014or if\u2014it will go away.Dale Barbara, Iraq vet and now a short-order cook, finds himself teamed with a few intrepid citizens\u2014town newspaper owner Julia Shumway, a physician\u2019s assistant at the hospital, a selectwoman, and three brave kids. Against them stands Big Jim Rennie, a politician who will stop at nothing\u2014even murder\u2014to hold the reins of power, and his son, who is keeping a horrible secret in a dark pantry. But their main adversary is the Dome itself. Because time isn\u2019t just short. It\u2019s running out.source: stephenking.com",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 215,
-        "audiobook": 240,
-        "drama": 202,
-        "fantasy": 486,
-        "fiction": 2344,
-        "horror": 3350,
-        "mystery": 451,
-        "science fiction": 1467,
-        "suspense": 322,
-        "thriller": 865
+  "author": "Stephen King",
+  "id": "15043",
+  "description": "On an entirely normal, beautiful fall day in Chester’s Mill, Maine, the town is inexplicably and suddenly sealed off from the rest of the world by an invisible force field. Planes crash into it and fall from the sky in flaming wreckage, a gardener’s hand is severed as “the dome” comes down on it, people running errands in the neighboring town are divided from their families, and cars explode on impact. No one can fathom what this barrier is, where it came from, and when—or if—it will go away.Dale Barbara, Iraq vet and now a short-order cook, finds himself teamed with a few intrepid citizens—town newspaper owner Julia Shumway, a physician’s assistant at the hospital, a selectwoman, and three brave kids. Against them stands Big Jim Rennie, a politician who will stop at nothing—even murder—to hold the reins of power, and his son, who is keeping a horrible secret in a dark pantry. But their main adversary is the Dome itself. Because time isn’t just short. It’s running out.source: stephenking.com",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "drama",
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "15043_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "15043_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "15043_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "15043_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "15043_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15043_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15043_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 264098,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "15043_2"
     },
-    "pages": 854,
-    "title": "Under the Dome",
-    "url": "https://www.goodreads.com/book/show/6320534-under-the-dome",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "15043_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "15043_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "15043_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "15043_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 264098,
+    "score": 3.91
+  },
+  "pages": 854,
+  "title": "Under the Dome",
+  "url": "https://www.goodreads.com/book/show/6320534-under-the-dome",
+  "year_published": 2009
 }

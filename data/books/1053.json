@@ -1,47 +1,47 @@
 {
-    "author": "Patrick Ness",
-    "id": "1053",
-    "description": "The New World is the story of how Viola came to where we found her in \nThe Knife of Never Letting Go\n.It is best read immediately after that book because there are hints of things to come.(I'm always hinting at things to come; it's fun). - Patrick Ness",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 12,
-        "fantasy": 74,
-        "fiction": 68,
-        "novella": 44,
-        "science fiction": 148,
-        "science fiction (aliens)": 15,
-        "science fiction (dystopia)": 89,
-        "science fiction fantasy": 19,
-        "short stories": 148,
-        "young adult": 174
+  "author": "Patrick Ness",
+  "id": "1053",
+  "description": "The New World is the story of how Viola came to where we found her in \nThe Knife of Never Letting Go\n.It is best read immediately after that book because there are hints of things to come.(I'm always hinting at things to come; it's fun). - Patrick Ness",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1053_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1053_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1053_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1053_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1053_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9884,
-        "score": 3.88
+    {
+      "status": "available",
+      "stock_id": "1053_2"
     },
-    "pages": 593,
-    "title": "The New World",
-    "url": "https://www.goodreads.com/book/show/17928853-the-new-world",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "1053_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1053_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9884,
+    "score": 3.88
+  },
+  "pages": 593,
+  "title": "The New World",
+  "url": "https://www.goodreads.com/book/show/17928853-the-new-world",
+  "year_published": 2010
 }

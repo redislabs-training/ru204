@@ -1,59 +1,59 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "439",
-    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Vampire bats and killer ants?That's what Jack and Annie are about to run into when the Magic Tree House whisks them away to the Amazon River. It's not long before they get hopelessly lost. Will they be able to find their way back to the tree house? Or are Jack and Annie stuck forever in the rain forest? Visit the Magic Tree House website! MagicTreeHouse.com",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 66,
-        "childrens": 189,
-        "childrens (chapter books)": 79,
-        "childrens (middle grade)": 23,
-        "fantasy": 175,
-        "fantasy (magic)": 26,
-        "fiction": 118,
-        "historical (historical fiction)": 45,
-        "kids": 19,
-        "science fiction (time travel)": 28
+  "author": "Mary Pope Osborne",
+  "id": "439",
+  "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series—the Magic Tree House! Vampire bats and killer ants?That's what Jack and Annie are about to run into when the Magic Tree House whisks them away to the Amazon River. It's not long before they get hopelessly lost. Will they be able to find their way back to the tree house? Or are Jack and Annie stuck forever in the rain forest? Visit the Magic Tree House website! MagicTreeHouse.com",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical (historical fiction)",
+    "kids",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "439_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "439_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "439_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "439_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "439_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "439_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "439_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "439_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14140,
-        "score": 3.95
+    {
+      "status": "maintenance",
+      "stock_id": "439_2"
     },
-    "pages": 719,
-    "title": "Afternoon on the Amazon",
-    "url": "https://www.goodreads.com/book/show/180645.Afternoon_on_the_Amazon",
-    "year_published": 1995
+    {
+      "status": "available",
+      "stock_id": "439_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "439_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "439_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "439_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "439_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14140,
+    "score": 3.95
+  },
+  "pages": 719,
+  "title": "Afternoon on the Amazon",
+  "url": "https://www.goodreads.com/book/show/180645.Afternoon_on_the_Amazon",
+  "year_published": 1995
 }

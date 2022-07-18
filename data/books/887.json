@@ -1,47 +1,47 @@
 {
-    "author": "Janni Lee Simner",
-    "id": "887",
-    "description": "The war between humanity and Faerie devastated both sides. Or so 15-year-old Liza has been told. Nothing has been seen or heard from Faerie since, and Liza's world bears the scars of its encounter with magic. Trees move with sinister intention, and the town Liza calls home is surrounded by a forest that threatens to harm all those who wander into it. Then Liza discovers she has the Faerie ability to see into the past, into the future and she has no choice but to flee her town. Liza's quest will take her into Faerie and back again, and what she finds along the way may be the key to healing both worlds.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 50,
-        "fairies (fae)": 74,
-        "fantasy": 453,
-        "fantasy (magic)": 57,
-        "fantasy (paranormal)": 80,
-        "fiction": 74,
-        "paranormal (fairies)": 103,
-        "science fiction (dystopia)": 62,
-        "young adult": 321,
-        "young adult (teen)": 44
+  "author": "Janni Lee Simner",
+  "id": "887",
+  "description": "The war between humanity and Faerie devastated both sides. Or so 15-year-old Liza has been told. Nothing has been seen or heard from Faerie since, and Liza's world bears the scars of its encounter with magic. Trees move with sinister intention, and the town Liza calls home is surrounded by a forest that threatens to harm all those who wander into it. Then Liza discovers she has the Faerie ability to see into the past, into the future and she has no choice but to flee her town. Liza's quest will take her into Faerie and back again, and what she finds along the way may be the key to healing both worlds.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fairies (fae)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fiction",
+    "paranormal (fairies)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "887_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "887_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "887_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "887_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "887_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7935,
-        "score": 3.63
+    {
+      "status": "available",
+      "stock_id": "887_2"
     },
-    "pages": 1345,
-    "title": "Bones of Faerie",
-    "url": "https://www.goodreads.com/book/show/3379051-bones-of-faerie",
-    "year_published": 2008
+    {
+      "status": "on_loan",
+      "stock_id": "887_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "887_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7935,
+    "score": 3.63
+  },
+  "pages": 1345,
+  "title": "Bones of Faerie",
+  "url": "https://www.goodreads.com/book/show/3379051-bones-of-faerie",
+  "year_published": 2008
 }

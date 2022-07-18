@@ -1,46 +1,46 @@
 {
-    "author": "Dave Hutchinson",
-    "id": "360",
-    "description": "Europe in Autumn is a thriller of espionage and the future which reads like the love child of John le Carr\u00e9 and Franz Kafka.Rudi is a cook in a Krak\u00f3w restaurant, but when his boss asks Rudi to help a cousin escape from the country country he\u2019s trapped in, a new career \u2013 part spy, part people-smuggler \u2013 begins. Following multiple economic crises and a devastating flu pandemic, Europe has fractured into countless tiny nations, duchies, polities and republics. Recruited by the shadowy organisation Les Coureurs des Bois, Rudi is schooled in espionage, but when a training mission to The Line, a sovereign nation consisting of a trans-Europe railway line, goes wrong, he is arrested, beaten and Coureur Central must attempt a rescue.  With so many nations to work in, and identities to assume, Rudi is kept busy travelling across Europe. But when he is sent to smuggle someone out of Berlin and finds a severed head inside a locker instead, a conspiracy begins to wind itself around him.  With kidnapping, double-crosses and a map that constantly re-draws, Rudi begins to realise that underneath his daily round of plot and counter plot, behind the conflicting territories, another entirely different reality might be pulling the strings...",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 24,
-        "fiction": 67,
-        "mystery": 12,
-        "science fiction": 173,
-        "science fiction (dystopia)": 11,
-        "science fiction (near future)": 9,
-        "science fiction fantasy": 11,
-        "speculative fiction": 9,
-        "spy thriller (espionage)": 16,
-        "thriller": 51
+  "author": "Dave Hutchinson",
+  "id": "360",
+  "description": "Europe in Autumn is a thriller of espionage and the future which reads like the love child of John le Carré and Franz Kafka.Rudi is a cook in a Kraków restaurant, but when his boss asks Rudi to help a cousin escape from the country country he’s trapped in, a new career – part spy, part people-smuggler – begins. Following multiple economic crises and a devastating flu pandemic, Europe has fractured into countless tiny nations, duchies, polities and republics. Recruited by the shadowy organisation Les Coureurs des Bois, Rudi is schooled in espionage, but when a training mission to The Line, a sovereign nation consisting of a trans-Europe railway line, goes wrong, he is arrested, beaten and Coureur Central must attempt a rescue.  With so many nations to work in, and identities to assume, Rudi is kept busy travelling across Europe. But when he is sent to smuggle someone out of Berlin and finds a severed head inside a locker instead, a conspiracy begins to wind itself around him.  With kidnapping, double-crosses and a map that constantly re-draws, Rudi begins to realise that underneath his daily round of plot and counter plot, behind the conflicting territories, another entirely different reality might be pulling the strings...",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (near future)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "spy thriller (espionage)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "360_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "360_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "360_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "360_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "360_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2574,
-        "score": 3.72
+    {
+      "status": "available",
+      "stock_id": "360_2"
     },
-    "pages": 1310,
-    "title": "Europe in Autumn",
-    "url": "https://www.goodreads.com/book/show/18143945-europe-in-autumn",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "360_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "360_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2574,
+    "score": 3.72
+  },
+  "pages": 1310,
+  "title": "Europe in Autumn",
+  "url": "https://www.goodreads.com/book/show/18143945-europe-in-autumn",
+  "year_published": 2014
 }

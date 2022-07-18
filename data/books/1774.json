@@ -1,44 +1,44 @@
 {
-    "author": "Genevieve Cogman",
-    "id": "1774",
-    "description": "Librarian-spy Irene is working undercover in an alternative London when her assistant Kai goes missing. She discovers he's been kidnapped by the fae faction and the repercussions could be fatal. Not just for Kai, but for whole worlds.Kai's dragon heritage means he has powerful allies, but also powerful enemies in the form of the fae. With this act of aggression, the fae are determined to trigger a war between their people - and the forces of order and chaos themselves.Irene's mission to save Kai and avert Armageddon will take her to a dark, alternate Venice where it's always Carnival. Here Irene will be forced to blackmail, fast talk, and fight. Or face death.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 104,
-        "fantasy": 1495,
-        "fantasy (dragons)": 106,
-        "fantasy (magic)": 106,
-        "fantasy (urban fantasy)": 120,
-        "fiction": 286,
-        "mystery": 146,
-        "science fiction": 73,
-        "science fiction (steampunk)": 188,
-        "writing (books about books)": 85
+  "author": "Genevieve Cogman",
+  "id": "1774",
+  "description": "Librarian-spy Irene is working undercover in an alternative London when her assistant Kai goes missing. She discovers he's been kidnapped by the fae faction and the repercussions could be fatal. Not just for Kai, but for whole worlds.Kai's dragon heritage means he has powerful allies, but also powerful enemies in the form of the fae. With this act of aggression, the fae are determined to trigger a war between their people - and the forces of order and chaos themselves.Irene's mission to save Kai and avert Armageddon will take her to a dark, alternate Venice where it's always Carnival. Here Irene will be forced to blackmail, fast talk, and fight. Or face death.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (steampunk)",
+    "writing (books about books)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1774_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1774_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1774_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1774_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17529,
-        "score": 3.95
+    {
+      "status": "available",
+      "stock_id": "1774_2"
     },
-    "pages": 1240,
-    "title": "The Masked City",
-    "url": "https://www.goodreads.com/book/show/25761086-the-masked-city",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "1774_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17529,
+    "score": 3.95
+  },
+  "pages": 1240,
+  "title": "The Masked City",
+  "url": "https://www.goodreads.com/book/show/25761086-the-masked-city",
+  "year_published": 2015
 }

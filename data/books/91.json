@@ -1,35 +1,35 @@
 {
-    "author": "Dav Pilkey",
-    "id": "91",
-    "description": "Mr. Mosquito lives on Mercury, and he hates it there! The daytime temperature is more than eight hundred degrees, and his flip-flops always melt on the sidewalk. At night it gets so cold that his toothpaste is frozen solid. Imagine his delight when he looks through his telescope and sees Planet Earth, where mice play happily in comfortable weather. So he decides to invade the Earth and take it over!Mr. Mosquito clips his dirty fingernails and zaps them with a powerful ray. Suddenly, his fingernails mutate into massive mosquitoes.\"Mutant Mosquitoes!\" he cries. \"It is time to conquer Earth. Follow me!\"In this wildly imaginative and highly appealing story, Dav Pilkey and Martin Ontiveros once again create a witty tale of danger and heroism, and at the same time they celebrate the joys of friendship. Here is an action-packed story that will engage even the most reluctant reader.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 5,
-        "adventure": 13,
-        "childrens": 19,
-        "childrens (chapter books)": 18,
-        "fantasy": 6,
-        "fiction": 17,
-        "humor": 13,
-        "science fiction": 11,
-        "science fiction (robots)": 6,
-        "sequential art (graphic novels)": 13
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "91_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1894,
-        "score": 4.1
-    },
-    "pages": 1224,
-    "title": "Ricky Ricotta's Mighty Robot vs. the Mutant Mosquitoes from Mercury",
-    "url": "https://www.goodreads.com/book/show/532634.Ricky_Ricotta_s_Mighty_Robot_vs_the_Mutant_Mosquitoes_from_Mercury",
-    "year_published": 2000
+  "author": "Dav Pilkey",
+  "id": "91",
+  "description": "Mr. Mosquito lives on Mercury, and he hates it there! The daytime temperature is more than eight hundred degrees, and his flip-flops always melt on the sidewalk. At night it gets so cold that his toothpaste is frozen solid. Imagine his delight when he looks through his telescope and sees Planet Earth, where mice play happily in comfortable weather. So he decides to invade the Earth and take it over!Mr. Mosquito clips his dirty fingernails and zaps them with a powerful ray. Suddenly, his fingernails mutate into massive mosquitoes.\"Mutant Mosquitoes!\" he cries. \"It is time to conquer Earth. Follow me!\"In this wildly imaginative and highly appealing story, Dav Pilkey and Martin Ontiveros once again create a witty tale of danger and heroism, and at the same time they celebrate the joys of friendship. Here is an action-packed story that will engage even the most reluctant reader.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "91_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1894,
+    "score": 4.1
+  },
+  "pages": 1224,
+  "title": "Ricky Ricotta's Mighty Robot vs. the Mutant Mosquitoes from Mercury",
+  "url": "https://www.goodreads.com/book/show/532634.Ricky_Ricotta_s_Mighty_Robot_vs_the_Mutant_Mosquitoes_from_Mercury",
+  "year_published": 2000
 }

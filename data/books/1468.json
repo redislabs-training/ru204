@@ -1,56 +1,56 @@
 {
-    "author": "Suzanne Young",
-    "id": "1468",
-    "description": "The Girls of Innovations Academy are beautiful and well-behaved\u2014it says so on their report cards. Under the watchful gaze of their Guardians, the all-girl boarding school offers an array of studies and activities, from \u201cGrowing a Beautiful and Prosperous Garden\u201d to \u201cArt Appreciation\u201d and \u201cInterior Design.\u201d The girls learn to be the best society has to offer. Absent is the difficult math coursework, or the unnecessary sciences or current events. They are obedient young ladies, free from arrogance or defiance. Until Mena starts to realize that their carefully controlled existence may not be quite as it appears.As Mena and her friends begin to uncover the dark secrets of what\u2019s actually happening there\u2014and who they really are\u2014the girls of Innovations will find out what they are truly capable of. Because some of the prettiest flowers have the sharpest thorns.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 41,
-        "contemporary": 129,
-        "fantasy": 39,
-        "feminism": 47,
-        "fiction": 92,
-        "mystery": 74,
-        "science fiction": 211,
-        "science fiction (dystopia)": 155,
-        "thriller": 41,
-        "young adult": 395
+  "author": "Suzanne Young",
+  "id": "1468",
+  "description": "The Girls of Innovations Academy are beautiful and well-behaved—it says so on their report cards. Under the watchful gaze of their Guardians, the all-girl boarding school offers an array of studies and activities, from “Growing a Beautiful and Prosperous Garden” to “Art Appreciation” and “Interior Design.” The girls learn to be the best society has to offer. Absent is the difficult math coursework, or the unnecessary sciences or current events. They are obedient young ladies, free from arrogance or defiance. Until Mena starts to realize that their carefully controlled existence may not be quite as it appears.As Mena and her friends begin to uncover the dark secrets of what’s actually happening there—and who they really are—the girls of Innovations will find out what they are truly capable of. Because some of the prettiest flowers have the sharpest thorns.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "feminism",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1468_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1468_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1468_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1468_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1468_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1468_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1468_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6937,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "1468_2"
     },
-    "pages": 1010,
-    "title": "Girls with Sharp Sticks",
-    "url": "https://www.goodreads.com/book/show/36442895-girls-with-sharp-sticks",
-    "year_published": 2019
+    {
+      "status": "available",
+      "stock_id": "1468_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1468_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1468_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1468_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6937,
+    "score": 3.94
+  },
+  "pages": 1010,
+  "title": "Girls with Sharp Sticks",
+  "url": "https://www.goodreads.com/book/show/36442895-girls-with-sharp-sticks",
+  "year_published": 2019
 }

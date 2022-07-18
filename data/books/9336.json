@@ -1,66 +1,66 @@
 {
-    "author": "Ayn Rand",
-    "id": "9336",
-    "description": "Anthem has long been hailed as one of Ayn Rand's classic novels, and a clear predecessor to her later masterpieces, The Fountainhead and Atlas Shrugged. In Anthem, Rand examines a frightening future in which individuals have no name, no independence, and no values. Equality 7-2521 lives in the dark ages of the future where all decisions are made by committee, all people live in collectives, and all traces of individualism have been wiped out. Despite such a restrictive environment, the spark of individual thought and freedom still burns in him--a passion which he has been taught to call sinful. In a purely egalitarian world, Equality 7-2521 dares to stand apart from the herd--to think and choose for himself, to discover electricity, and to love the woman of his choice. Now he has been marked for death for committing the ultimate sin. In a world where the great \"we\" reign supreme, he has rediscovered the lost and holy word--\"I.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (read for school)": 175,
-        "academic (school)": 304,
-        "classics": 2151,
-        "fiction": 2463,
-        "literature": 259,
-        "novels": 152,
-        "philosophy": 881,
-        "politics": 180,
-        "science fiction": 683,
-        "science fiction (dystopia)": 877
+  "author": "Ayn Rand",
+  "id": "9336",
+  "description": "Anthem has long been hailed as one of Ayn Rand's classic novels, and a clear predecessor to her later masterpieces, The Fountainhead and Atlas Shrugged. In Anthem, Rand examines a frightening future in which individuals have no name, no independence, and no values. Equality 7-2521 lives in the dark ages of the future where all decisions are made by committee, all people live in collectives, and all traces of individualism have been wiped out. Despite such a restrictive environment, the spark of individual thought and freedom still burns in him--a passion which he has been taught to call sinful. In a purely egalitarian world, Equality 7-2521 dares to stand apart from the herd--to think and choose for himself, to discover electricity, and to love the woman of his choice. Now he has been marked for death for committing the ultimate sin. In a world where the great \"we\" reign supreme, he has rediscovered the lost and holy word--\"I.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (read for school)",
+    "academic (school)",
+    "classics",
+    "fiction",
+    "literature",
+    "novels",
+    "philosophy",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "9336_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "9336_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "9336_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9336_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "9336_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9336_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9336_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "9336_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "9336_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9336_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 133866,
-        "score": 3.63
+    {
+      "status": "available",
+      "stock_id": "9336_2"
     },
-    "pages": 770,
-    "title": "Anthem",
-    "url": "https://www.goodreads.com/book/show/667.Anthem",
-    "year_published": 1938
+    {
+      "status": "on_loan",
+      "stock_id": "9336_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "9336_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9336_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9336_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "9336_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "9336_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9336_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 133866,
+    "score": 3.63
+  },
+  "pages": 770,
+  "title": "Anthem",
+  "url": "https://www.goodreads.com/book/show/667.Anthem",
+  "year_published": 1938
 }

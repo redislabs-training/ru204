@@ -1,38 +1,38 @@
 {
-    "author": "Jonathan Stroud",
-    "id": "1559",
-    "description": "After leaving Lockwood & Co. at the end of The Hollow Boy, Lucy is a freelance operative, hiring herself out to agencies that value her ever-improving skills. One day she is pleasantly surprised by a visit from Lockwood, who tells her he needs a good Listener for a tough assignment. Penelope Fittes, the leader of the giant Fittes Agency wants them--and only them--to locate and remove the Source for the legendary Brixton Cannibal. They succeed in their very dangerous task, but tensions remain high between Lucy and the other agents. Even the skull in the jar talks to her like a jilted lover. What will it take to reunite the team? Black marketeers, an informant ghost, a Spirit Cape that transports the wearer, and mysteries involving Steve Rotwell and Penelope Fittes just may do the trick. But, in a shocking cliffhanger ending, the team learns that someone has been manipulating them all along. . . .",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 82,
-        "childrens (middle grade)": 167,
-        "fantasy": 552,
-        "fantasy (paranormal)": 203,
-        "fantasy (supernatural)": 77,
-        "fiction": 105,
-        "horror": 239,
-        "mystery": 218,
-        "paranormal (ghosts)": 124,
-        "young adult": 311
+  "author": "Jonathan Stroud",
+  "id": "1559",
+  "description": "After leaving Lockwood & Co. at the end of The Hollow Boy, Lucy is a freelance operative, hiring herself out to agencies that value her ever-improving skills. One day she is pleasantly surprised by a visit from Lockwood, who tells her he needs a good Listener for a tough assignment. Penelope Fittes, the leader of the giant Fittes Agency wants them--and only them--to locate and remove the Source for the legendary Brixton Cannibal. They succeed in their very dangerous task, but tensions remain high between Lucy and the other agents. Even the skull in the jar talks to her like a jilted lover. What will it take to reunite the team? Black marketeers, an informant ghost, a Spirit Cape that transports the wearer, and mysteries involving Steve Rotwell and Penelope Fittes just may do the trick. But, in a shocking cliffhanger ending, the team learns that someone has been manipulating them all along. . . .",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "horror",
+    "mystery",
+    "paranormal (ghosts)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1559_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1559_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1559_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11547,
-        "score": 4.51
-    },
-    "pages": 684,
-    "title": "The Creeping Shadow",
-    "url": "https://www.goodreads.com/book/show/23922381-the-creeping-shadow",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "1559_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11547,
+    "score": 4.51
+  },
+  "pages": 684,
+  "title": "The Creeping Shadow",
+  "url": "https://www.goodreads.com/book/show/23922381-the-creeping-shadow",
+  "year_published": 2016
 }

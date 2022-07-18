@@ -1,39 +1,39 @@
 {
-    "author": "Sandra Newman",
-    "id": "642",
-    "description": "In the aftermath of a devastating plague, a fearless young heroine embarks on a dangerous and surprising journey to save her world in this brilliantly inventive thrillerIn the ruins of a future America, fifteen-year-old Ice Cream Star and her nomadic tribe live off the detritus of a crumbled civilization. Theirs is a world of children; before reaching the age of twenty, they all die of a strange disease they call Posies--a plague that has killed for generations. There is no medicine, no treatment; only the mysterious rumor of a cure.When her brother begins showing signs of the disease, Ice Cream Star sets off on a bold journey to find this cure. Led by a stranger, a captured prisoner named Pasha who becomes her devoted protector and friend, Ice Cream Star plunges into the unknown, risking her freedom and ultimately her life. Traveling hundreds of miles across treacherous, unfamiliar territory, she will experience love, heartbreak, cruelty, terror, and betrayal, fighting to protect the only world she has ever known.A postapocalyptic literary epic as imaginative as The Passage and as linguistically ambitious as Cloud Atlas, The Country of Ice Cream Star is a breathtaking work from a writer of rare and unconventional talent.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 68,
-        "fantasy": 12,
-        "fiction": 159,
-        "literary fiction": 15,
-        "science fiction": 101,
-        "science fiction (apocalyptic)": 15,
-        "science fiction (dystopia)": 83,
-        "science fiction fantasy": 16,
-        "unfinished": 13,
-        "young adult": 56
+  "author": "Sandra Newman",
+  "id": "642",
+  "description": "In the aftermath of a devastating plague, a fearless young heroine embarks on a dangerous and surprising journey to save her world in this brilliantly inventive thrillerIn the ruins of a future America, fifteen-year-old Ice Cream Star and her nomadic tribe live off the detritus of a crumbled civilization. Theirs is a world of children; before reaching the age of twenty, they all die of a strange disease they call Posies--a plague that has killed for generations. There is no medicine, no treatment; only the mysterious rumor of a cure.When her brother begins showing signs of the disease, Ice Cream Star sets off on a bold journey to find this cure. Led by a stranger, a captured prisoner named Pasha who becomes her devoted protector and friend, Ice Cream Star plunges into the unknown, risking her freedom and ultimately her life. Traveling hundreds of miles across treacherous, unfamiliar territory, she will experience love, heartbreak, cruelty, terror, and betrayal, fighting to protect the only world she has ever known.A postapocalyptic literary epic as imaginative as The Passage and as linguistically ambitious as Cloud Atlas, The Country of Ice Cream Star is a breathtaking work from a writer of rare and unconventional talent.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "unfinished",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "642_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "642_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "642_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2521,
-        "score": 3.61
-    },
-    "pages": 1330,
-    "title": "The Country of Ice Cream Star",
-    "url": "https://www.goodreads.com/book/show/22350219-the-country-of-ice-cream-star",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "642_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2521,
+    "score": 3.61
+  },
+  "pages": 1330,
+  "title": "The Country of Ice Cream Star",
+  "url": "https://www.goodreads.com/book/show/22350219-the-country-of-ice-cream-star",
+  "year_published": 2014
 }

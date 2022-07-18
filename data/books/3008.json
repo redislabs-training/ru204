@@ -1,66 +1,66 @@
 {
-    "author": "Blake Crouch",
-    "id": "3008",
-    "description": "Welcome to Wayward Pines, population 461. Nestled amidst picture-perfect mountains, the idyllic town is a modern-day Eden...except for the electrified fence and razor wire, snipers scoping everything 24/7, and the relentless surveillance tracking each word and gesture.None of the residents know how they got here. They are told where to work, how to live, and who to marry. Some believe they are dead. Others think they\u2019re trapped in an unfathomable experiment. Everyone secretly dreams of leaving, but those who dare face a terrifying surprise.Ethan Burke has seen the world beyond. He\u2019s sheriff, and one of the few who knows the truth\u2014Wayward Pines isn\u2019t just a town. And what lies on the other side of the fence is a nightmare beyond anyone\u2019s imagining.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 105,
-        "audiobook": 84,
-        "fiction": 410,
-        "horror": 344,
-        "mystery": 272,
-        "science fiction": 474,
-        "science fiction (dystopia)": 163,
-        "suspense": 93,
-        "thriller": 438,
-        "thriller (mystery thriller)": 86
+  "author": "Blake Crouch",
+  "id": "3008",
+  "description": "Welcome to Wayward Pines, population 461. Nestled amidst picture-perfect mountains, the idyllic town is a modern-day Eden...except for the electrified fence and razor wire, snipers scoping everything 24/7, and the relentless surveillance tracking each word and gesture.None of the residents know how they got here. They are told where to work, how to live, and who to marry. Some believe they are dead. Others think they’re trapped in an unfathomable experiment. Everyone secretly dreams of leaving, but those who dare face a terrifying surprise.Ethan Burke has seen the world beyond. He’s sheriff, and one of the few who knows the truth—Wayward Pines isn’t just a town. And what lies on the other side of the fence is a nightmare beyond anyone’s imagining.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3008_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3008_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3008_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3008_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3008_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3008_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3008_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3008_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3008_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3008_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 53989,
-        "score": 4.13
+    {
+      "status": "maintenance",
+      "stock_id": "3008_2"
     },
-    "pages": 923,
-    "title": "Wayward",
-    "url": "https://www.goodreads.com/book/show/17920175-wayward",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "3008_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3008_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3008_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3008_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3008_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3008_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3008_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 53989,
+    "score": 4.13
+  },
+  "pages": 923,
+  "title": "Wayward",
+  "url": "https://www.goodreads.com/book/show/17920175-wayward",
+  "year_published": 2013
 }

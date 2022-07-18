@@ -1,46 +1,46 @@
 {
-    "author": "Greg Rucka",
-    "id": "948",
-    "description": "A companion piece to the \"Journey to Star Wars: The Force Awakens\" character novels, Star Wars: Before the Awakening is an anthology book that focuses on the lives of Rey, Finn, and Poe before the events of the Star Wars: The Force Awakens.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 21,
-        "childrens (middle grade)": 28,
-        "fantasy": 47,
-        "fiction": 127,
-        "media tie in": 20,
-        "media tie in (star wars)": 776,
-        "science fiction": 226,
-        "short stories": 34,
-        "space (space opera)": 27,
-        "young adult": 86
+  "author": "Greg Rucka",
+  "id": "948",
+  "description": "A companion piece to the \"Journey to Star Wars: The Force Awakens\" character novels, Star Wars: Before the Awakening is an anthology book that focuses on the lives of Rey, Finn, and Poe before the events of the Star Wars: The Force Awakens.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (star wars)",
+    "science fiction",
+    "short stories",
+    "space (space opera)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "948_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "948_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "948_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "948_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "948_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6865,
-        "score": 3.8
+    {
+      "status": "on_loan",
+      "stock_id": "948_2"
     },
-    "pages": 1357,
-    "title": "Before the Awakening",
-    "url": "https://www.goodreads.com/book/show/25319258-before-the-awakening",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "948_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "948_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6865,
+    "score": 3.8
+  },
+  "pages": 1357,
+  "title": "Before the Awakening",
+  "url": "https://www.goodreads.com/book/show/25319258-before-the-awakening",
+  "year_published": 2015
 }

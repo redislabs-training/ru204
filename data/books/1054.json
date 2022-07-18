@@ -1,60 +1,60 @@
 {
-    "author": "Emma Clayton",
-    "id": "1054",
-    "description": "Mika and Ellie live in a future behind a wall: Solid concrete topped with high-voltage razor wire and guarded by a battalion of Ghengis Borgs, it was built to keep out the animals, because animals carry the plague. At least that's what Ellie, who was kidnapped as a child, has always been taught. But when she comes to suspect the truth behind her captivity, she's ready to risk exposure to the elements and answer the call of the wild. Listen. Can you hear it? She's strapping on her headset, jumpstarting her Pod Fighter, and--with her capuchin monkey at her back--she's breaking out!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 44,
-        "apocalyptic (post apocalyptic)": 17,
-        "childrens (juvenile)": 17,
-        "childrens (middle grade)": 27,
-        "fantasy": 24,
-        "fiction": 50,
-        "science fiction": 163,
-        "science fiction (dystopia)": 141,
-        "young adult": 143,
-        "young adult (teen)": 25
+  "author": "Emma Clayton",
+  "id": "1054",
+  "description": "Mika and Ellie live in a future behind a wall: Solid concrete topped with high-voltage razor wire and guarded by a battalion of Ghengis Borgs, it was built to keep out the animals, because animals carry the plague. At least that's what Ellie, who was kidnapped as a child, has always been taught. But when she comes to suspect the truth behind her captivity, she's ready to risk exposure to the elements and answer the call of the wild. Listen. Can you hear it? She's strapping on her headset, jumpstarting her Pod Fighter, and--with her capuchin monkey at her back--she's breaking out!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1054_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1054_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1054_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1054_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1054_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1054_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1054_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1054_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9176,
-        "score": 4.05
+    {
+      "status": "maintenance",
+      "stock_id": "1054_2"
     },
-    "pages": 1223,
-    "title": "The Roar",
-    "url": "https://www.goodreads.com/book/show/4837032-the-roar",
-    "year_published": 2008
+    {
+      "status": "on_loan",
+      "stock_id": "1054_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1054_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1054_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1054_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1054_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9176,
+    "score": 4.05
+  },
+  "pages": 1223,
+  "title": "The Roar",
+  "url": "https://www.goodreads.com/book/show/4837032-the-roar",
+  "year_published": 2008
 }

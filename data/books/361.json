@@ -1,55 +1,55 @@
 {
-    "author": "Diana Wynne Jones",
-    "id": "361",
-    "description": "Rupert Venables is a Magid.It's a Magid's job to oversee what goes on in the vast Multiverse. Actually, Rupert is really only a junior Magid. But he's got a king-sized problem. Rupert's territory includes Earth and the Empire of Korfyros. When his mentor dies Rupert must find a replacement. But there are hundreds of candidates. How is he supposed to choose? And interviewing each one could take forever.Unless...What if he could round them all up in one place? Simple!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 22,
-        "childrens": 17,
-        "european literature (british literature)": 16,
-        "fantasy": 717,
-        "fantasy (magic)": 39,
-        "fantasy (urban fantasy)": 35,
-        "fiction": 109,
-        "science fiction": 27,
-        "young adult": 125,
-        "young adult (young adult fantasy)": 23
+  "author": "Diana Wynne Jones",
+  "id": "361",
+  "description": "Rupert Venables is a Magid.It's a Magid's job to oversee what goes on in the vast Multiverse. Actually, Rupert is really only a junior Magid. But he's got a king-sized problem. Rupert's territory includes Earth and the Empire of Korfyros. When his mentor dies Rupert must find a replacement. But there are hundreds of candidates. How is he supposed to choose? And interviewing each one could take forever.Unless...What if he could round them all up in one place? Simple!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "european literature (british literature)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "361_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "361_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "361_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "361_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "361_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "361_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "361_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6061,
-        "score": 4.1
+    {
+      "status": "maintenance",
+      "stock_id": "361_2"
     },
-    "pages": 661,
-    "title": "Deep Secret",
-    "url": "https://www.goodreads.com/book/show/34282.Deep_Secret",
-    "year_published": 1997
+    {
+      "status": "maintenance",
+      "stock_id": "361_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "361_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "361_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "361_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6061,
+    "score": 4.1
+  },
+  "pages": 661,
+  "title": "Deep Secret",
+  "url": "https://www.goodreads.com/book/show/34282.Deep_Secret",
+  "year_published": 1997
 }

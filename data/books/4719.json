@@ -1,51 +1,51 @@
 {
-    "author": "James Patterson",
-    "id": "4719",
-    "description": "The world is changing\u2014the government has seized control of every aspect of society, and now kids are disappearing. For fifteen-year-old Wisty and her older brother Whit, life turns upside-down when they are hauled out of bed one night, separated from their parents, and thrown into a secret compound for no reason they can comprehend. The new government is clearly trying to suppress Life, Liberty, and the Pursuit of Being a Normal Teenager.Imprisoned together and condemned to death, Wisty and Whit begin exhibiting strange abilities and powers they never dreamed of. Maybe there is a reason they were singled out. Can this newly discovered witch and wizard master their skills in time to save themselves, their parents\u2014and maybe the world?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 136,
-        "fantasy": 1286,
-        "fantasy (magic)": 280,
-        "fantasy (paranormal)": 205,
-        "fantasy (supernatural)": 125,
-        "fiction": 273,
-        "paranormal (witches)": 155,
-        "science fiction (dystopia)": 238,
-        "young adult": 934,
-        "young adult (teen)": 90
+  "author": "James Patterson",
+  "id": "4719",
+  "description": "The world is changing—the government has seized control of every aspect of society, and now kids are disappearing. For fifteen-year-old Wisty and her older brother Whit, life turns upside-down when they are hauled out of bed one night, separated from their parents, and thrown into a secret compound for no reason they can comprehend. The new government is clearly trying to suppress Life, Liberty, and the Pursuit of Being a Normal Teenager.Imprisoned together and condemned to death, Wisty and Whit begin exhibiting strange abilities and powers they never dreamed of. Maybe there is a reason they were singled out. Can this newly discovered witch and wizard master their skills in time to save themselves, their parents—and maybe the world?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "paranormal (witches)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4719_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4719_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4719_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4719_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4719_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4719_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 53409,
-        "score": 3.56
+    {
+      "status": "maintenance",
+      "stock_id": "4719_2"
     },
-    "pages": 356,
-    "title": "Witch & Wizard",
-    "url": "https://www.goodreads.com/book/show/6387565-witch-wizard",
-    "year_published": 2009
+    {
+      "status": "on_loan",
+      "stock_id": "4719_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4719_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4719_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 53409,
+    "score": 3.56
+  },
+  "pages": 356,
+  "title": "Witch & Wizard",
+  "url": "https://www.goodreads.com/book/show/6387565-witch-wizard",
+  "year_published": 2009
 }

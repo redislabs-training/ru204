@@ -1,44 +1,44 @@
 {
-    "author": "Philip K. Dick",
-    "id": "1749",
-    "description": "Jason Tavener woke up one morning to find himself completely unknown. The night before he had been the top-rated television star with millions of devoted watchers. The next day he was just an unidentified walking object, whose face nobody recognised, of whom no one had heard, and without the I.D. papers required in that near future.When he finally found a man who would agree to counterfeiting such cards for him, that man turned out to be a police informer. And then Taverner found out not only what it was like to be a nobody but also to be hunted by the whole apparatus of society.It was obvious that in some way Taverner had become the pea in in some sort of cosmic shell game - but how? And why?Philip K. Dick takes the reader on a walking tour of solipsism's scariest margin in his latest novel about the age we are already half into.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 32,
-        "classics": 39,
-        "fantasy": 57,
-        "fiction": 643,
-        "literature (american)": 57,
-        "novels": 74,
-        "science fiction": 1295,
-        "science fiction (dystopia)": 113,
-        "science fiction fantasy": 75,
-        "speculative fiction": 55
+  "author": "Philip K. Dick",
+  "id": "1749",
+  "description": "Jason Tavener woke up one morning to find himself completely unknown. The night before he had been the top-rated television star with millions of devoted watchers. The next day he was just an unidentified walking object, whose face nobody recognised, of whom no one had heard, and without the I.D. papers required in that near future.When he finally found a man who would agree to counterfeiting such cards for him, that man turned out to be a police informer. And then Taverner found out not only what it was like to be a nobody but also to be hunted by the whole apparatus of society.It was obvious that in some way Taverner had become the pea in in some sort of cosmic shell game - but how? And why?Philip K. Dick takes the reader on a walking tour of solipsism's scariest margin in his latest novel about the age we are already half into.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1749_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1749_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1749_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1749_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35119,
-        "score": 3.91
+    {
+      "status": "available",
+      "stock_id": "1749_2"
     },
-    "pages": 882,
-    "title": "Flow My Tears, the Policeman Said",
-    "url": "https://www.goodreads.com/book/show/22584.Flow_My_Tears_the_Policeman_Said",
-    "year_published": 1974
+    {
+      "status": "on_loan",
+      "stock_id": "1749_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35119,
+    "score": 3.91
+  },
+  "pages": 882,
+  "title": "Flow My Tears, the Policeman Said",
+  "url": "https://www.goodreads.com/book/show/22584.Flow_My_Tears_the_Policeman_Said",
+  "year_published": 1974
 }

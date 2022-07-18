@@ -1,55 +1,55 @@
 {
-    "author": "Geoff   Jones",
-    "id": "211",
-    "description": "They came for the coffee and wound up in the Cretaceous.A ticking sound fills the air as Tim MacGregor enters The Daily Edition Caf\u00e9, hoping to meet his new girlfriend for coffee. Moments later, a chunk of building is transported 67 million years back in time, along with everyone inside.Ten unlikely companions find themselves in a world of dinosaurs and prehistoric reptiles. Several survivors compete for leadership as they search for a way home, and one member of the group plots to keep them all trapped in the past...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 3,
-        "adventure": 7,
-        "animals": 3,
-        "animals (dinosaurs)": 26,
-        "audiobook": 5,
-        "fiction": 8,
-        "horror": 6,
-        "science fiction": 31,
-        "science fiction (time travel)": 29,
-        "thriller": 7
+  "author": "Geoff   Jones",
+  "id": "211",
+  "description": "They came for the coffee and wound up in the Cretaceous.A ticking sound fills the air as Tim MacGregor enters The Daily Edition Café, hoping to meet his new girlfriend for coffee. Moments later, a chunk of building is transported 67 million years back in time, along with everyone inside.Ten unlikely companions find themselves in a world of dinosaurs and prehistoric reptiles. Several survivors compete for leadership as they search for a way home, and one member of the group plots to keep them all trapped in the past...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "animals",
+    "animals (dinosaurs)",
+    "audiobook",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "211_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "211_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "211_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "211_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "211_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "211_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "211_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1406,
-        "score": 3.67
+    {
+      "status": "on_loan",
+      "stock_id": "211_2"
     },
-    "pages": 1130,
-    "title": "The Dinosaur Four",
-    "url": "https://www.goodreads.com/book/show/22368837-the-dinosaur-four",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "211_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "211_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "211_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "211_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1406,
+    "score": 3.67
+  },
+  "pages": 1130,
+  "title": "The Dinosaur Four",
+  "url": "https://www.goodreads.com/book/show/22368837-the-dinosaur-four",
+  "year_published": 2014
 }

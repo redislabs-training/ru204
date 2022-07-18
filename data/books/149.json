@@ -1,51 +1,51 @@
 {
-    "author": "Philip K. Dick",
-    "id": "149",
-    "description": "He knew what she was thinking. Once in the very first weeks of the war, before everyone had been evacuated from the surface, they had seen a hospital train discharging the wounded, people who had been showered with sleet. He remembered the way they had looked, the expression on their faces, or as much of their faces as was left. It had not been a pleasant sight.There had been a lot of that at first, in the early days before the transfer to undersurface was complete. There had been a lot, and it hadn't been very difficult to come across it.Taylor looked up at his wife. She was thinking too much about it, the last few months. They all were.\"Forget it,\" he said. \"It's all in the past. There isn't anybody up there now but the leadys, and they don't mind.\"\"But just the same, I hope they're careful when they let one of them down here. If one were still hot--\"",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 13,
-        "business (amazon)": 3,
-        "classics": 8,
-        "fiction": 34,
-        "science fiction": 124,
-        "science fiction (dystopia)": 11,
-        "science fiction fantasy": 5,
-        "short stories": 64,
-        "the united states of america": 4,
-        "war": 3
+  "author": "Philip K. Dick",
+  "id": "149",
+  "description": "He knew what she was thinking. Once in the very first weeks of the war, before everyone had been evacuated from the surface, they had seen a hospital train discharging the wounded, people who had been showered with sleet. He remembered the way they had looked, the expression on their faces, or as much of their faces as was left. It had not been a pleasant sight.There had been a lot of that at first, in the early days before the transfer to undersurface was complete. There had been a lot, and it hadn't been very difficult to come across it.Taylor looked up at his wife. She was thinking too much about it, the last few months. They all were.\"Forget it,\" he said. \"It's all in the past. There isn't anybody up there now but the leadys, and they don't mind.\"\"But just the same, I hope they're careful when they let one of them down here. If one were still hot--\"",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "business (amazon)",
+    "classics",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "the united states of america",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "149_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "149_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "149_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "149_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "149_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "149_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1707,
-        "score": 3.69
+    {
+      "status": "on_loan",
+      "stock_id": "149_2"
     },
-    "pages": 319,
-    "title": "The Defenders",
-    "url": "https://www.goodreads.com/book/show/6472311-the-defenders",
-    "year_published": 1953
+    {
+      "status": "available",
+      "stock_id": "149_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "149_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "149_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1707,
+    "score": 3.69
+  },
+  "pages": 319,
+  "title": "The Defenders",
+  "url": "https://www.goodreads.com/book/show/6472311-the-defenders",
+  "year_published": 1953
 }

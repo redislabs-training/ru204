@@ -1,42 +1,42 @@
 {
-    "author": "Frederik Pohl",
-    "id": "558",
-    "description": "An alternate cover edition can be found here.It is the 22nd Century, an advertisement-drenched world in which the big ad agencies dominate governments and everything else. Now Schoken Associates, one of the big players, has a new challenge for star copywriter Mitch Courtenay. Volunteers are needed to colonise Venus. It's a hellhole, and nobody who knew anything about it would dream of signing up. But by the time Mitch has finished, they will be queuing to get on board the spaceships.Biographical NotesPohl and Kornbluth started writing together as early as 1940, although both authors produced a wide variety of stories separately, under their own names and pseudonyms.Each wrote sections, starting where the other left off, and through long experience they developed an almost telepathic awareness of each other's intentions.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 25,
-        "fiction": 134,
-        "humor": 16,
-        "novels": 16,
-        "science fiction": 598,
-        "science fiction (dystopia)": 57,
-        "science fiction fantasy": 25,
-        "space": 13,
-        "space (space opera)": 18,
-        "speculative fiction": 19
+  "author": "Frederik Pohl",
+  "id": "558",
+  "description": "An alternate cover edition can be found here.It is the 22nd Century, an advertisement-drenched world in which the big ad agencies dominate governments and everything else. Now Schoken Associates, one of the big players, has a new challenge for star copywriter Mitch Courtenay. Volunteers are needed to colonise Venus. It's a hellhole, and nobody who knew anything about it would dream of signing up. But by the time Mitch has finished, they will be queuing to get on board the spaceships.Biographical NotesPohl and Kornbluth started writing together as early as 1940, although both authors produced a wide variety of stories separately, under their own names and pseudonyms.Each wrote sections, starting where the other left off, and through long experience they developed an almost telepathic awareness of each other's intentions.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fiction",
+    "humor",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "558_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "558_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "558_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "558_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9319,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "558_2"
     },
-    "pages": 408,
-    "title": "The Space Merchants",
-    "url": "https://www.goodreads.com/book/show/392566.The_Space_Merchants",
-    "year_published": 1952
+    {
+      "status": "available",
+      "stock_id": "558_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9319,
+    "score": 3.86
+  },
+  "pages": 408,
+  "title": "The Space Merchants",
+  "url": "https://www.goodreads.com/book/show/392566.The_Space_Merchants",
+  "year_published": 1952
 }

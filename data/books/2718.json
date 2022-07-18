@@ -1,44 +1,44 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "2718",
-    "description": "Jack and Annie's very first fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House!Where did the tree house come from?Before Jack and Annie can find out, the mysterious tree house whisks them to the prehistoric past. Now they have to figure out how to get home. Can they do it before dark . . . or will they become a dinosaur's dinner?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 166,
-        "animals (dinosaurs)": 96,
-        "childrens": 456,
-        "childrens (chapter books)": 201,
-        "childrens (middle grade)": 84,
-        "fantasy": 502,
-        "fiction": 260,
-        "historical (historical fiction)": 138,
-        "kids": 52,
-        "science fiction (time travel)": 81
+  "author": "Mary Pope Osborne",
+  "id": "2718",
+  "description": "Jack and Annie's very first fantasy adventure in the bestselling middle-grade series—the Magic Tree House!Where did the tree house come from?Before Jack and Annie can find out, the mysterious tree house whisks them to the prehistoric past. Now they have to figure out how to get home. Can they do it before dark . . . or will they become a dinosaur's dinner?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "animals (dinosaurs)",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "kids",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2718_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2718_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2718_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2718_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 34114,
-        "score": 3.92
+    {
+      "status": "on_loan",
+      "stock_id": "2718_2"
     },
-    "pages": 306,
-    "title": "Dinosaurs Before Dark",
-    "url": "https://www.goodreads.com/book/show/824734.Dinosaurs_Before_Dark",
-    "year_published": 1992
+    {
+      "status": "on_loan",
+      "stock_id": "2718_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 34114,
+    "score": 3.92
+  },
+  "pages": 306,
+  "title": "Dinosaurs Before Dark",
+  "url": "https://www.goodreads.com/book/show/824734.Dinosaurs_Before_Dark",
+  "year_published": 1992
 }

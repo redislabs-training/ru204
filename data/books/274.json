@@ -1,47 +1,47 @@
 {
-    "author": "S.E. Grove",
-    "id": "274",
-    "description": "The eagerly-awaited sequel to the best-selling The Glass Sentence -- a historical, fantastical adventure perfect for fans of Philip Pullman!It is the summer of 1892, one year since Sophia Tims and her friend Theo embarked upon the dangerous adventure that rewrote the map of the world. Since their return home to Boston, she has continued searching for clues to her parents\u2019 disappearance, combing archives and libraries, grasping at even the most slender leads. Theo has apprenticed himself to an explorer in order to follow those leads across the country\u2014but one after another proves to be a dead end.Then Sophia discovers that a crucial piece of the puzzle exists in a foreign Age. At the same time, Theo discovers that his old life outside the law threatens to destroy the new one he has built with Sophia and her uncle Shadrack. What he and Sophia do not know is that their separate discoveries are intertwined, and that one remarkable person is part of both.There is a city that holds all of the answers\u2014but it cannot be found on any map. Surrounded by plague, it can only be reached by a journey through darkness and chaos, which is at the same time the plague\u2019s cure: The Golden Specific.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 22,
-        "childrens": 16,
-        "childrens (middle grade)": 65,
-        "fantasy": 182,
-        "fiction": 29,
-        "historical": 13,
-        "historical (historical fiction)": 30,
-        "historical fiction (historical fantasy)": 15,
-        "science fiction (time travel)": 23,
-        "young adult": 74
+  "author": "S.E. Grove",
+  "id": "274",
+  "description": "The eagerly-awaited sequel to the best-selling The Glass Sentence -- a historical, fantastical adventure perfect for fans of Philip Pullman!It is the summer of 1892, one year since Sophia Tims and her friend Theo embarked upon the dangerous adventure that rewrote the map of the world. Since their return home to Boston, she has continued searching for clues to her parents’ disappearance, combing archives and libraries, grasping at even the most slender leads. Theo has apprenticed himself to an explorer in order to follow those leads across the country—but one after another proves to be a dead end.Then Sophia discovers that a crucial piece of the puzzle exists in a foreign Age. At the same time, Theo discovers that his old life outside the law threatens to destroy the new one he has built with Sophia and her uncle Shadrack. What he and Sophia do not know is that their separate discoveries are intertwined, and that one remarkable person is part of both.There is a city that holds all of the answers—but it cannot be found on any map. Surrounded by plague, it can only be reached by a journey through darkness and chaos, which is at the same time the plague’s cure: The Golden Specific.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "274_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "274_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "274_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "274_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "274_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1938,
-        "score": 4.12
+    {
+      "status": "maintenance",
+      "stock_id": "274_2"
     },
-    "pages": 311,
-    "title": "The Golden Specific",
-    "url": "https://www.goodreads.com/book/show/22671541-the-golden-specific",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "274_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "274_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1938,
+    "score": 4.12
+  },
+  "pages": 311,
+  "title": "The Golden Specific",
+  "url": "https://www.goodreads.com/book/show/22671541-the-golden-specific",
+  "year_published": 2015
 }

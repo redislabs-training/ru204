@@ -1,36 +1,36 @@
 {
-    "author": "Ryan Parrott",
-    "id": "18",
-    "description": "The Mighty Morphin Power Rangers and Teenage Mutant Ninja Turtles meet for the first time ever in the comic book fight - and team up - of the year!THE TEENAGERS WITH ATTITUDE MEET THE HEROES IN A HALF SHELL FOR THE FIRST TIME! The Power Rangers arrive in New York City to find their missing teammate Tommy Oliver \u2013 AKA The Mighty Morphin Green Ranger \u2013 but soon discover he\u2019s joined forces with the villainous Shredder and the Foot Clan! But the Rangers must also deal with another unexpected (fr)enemy \u2013 the Teenage Mutant Ninja Turtles! Can these heroes find a way to work together to defeat the bad guys and save the world from total destruction?! Written by Ryan Parrott (Power Rangers: Necessary Evil) and illustrated by Simone di Meo (Power Rangers: Beyond The Grid), the Mighty Morphin Power Rangers fight \u2013 and maybe team up with \u2013 the Teenage Mutant Ninja Turtles for the first time ever. Collects Mighty Morphin Power Rangers/Teenage Mutant Ninja Turtles #1-5.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 6,
-        "fiction": 2,
-        "media tie in": 2,
-        "science fiction": 2,
-        "sequential art (comics)": 6,
-        "sequential art (graphic novels)": 4
+  "author": "Ryan Parrott",
+  "id": "18",
+  "description": "The Mighty Morphin Power Rangers and Teenage Mutant Ninja Turtles meet for the first time ever in the comic book fight - and team up - of the year!THE TEENAGERS WITH ATTITUDE MEET THE HEROES IN A HALF SHELL FOR THE FIRST TIME! The Power Rangers arrive in New York City to find their missing teammate Tommy Oliver – AKA The Mighty Morphin Green Ranger – but soon discover he’s joined forces with the villainous Shredder and the Foot Clan! But the Rangers must also deal with another unexpected (fr)enemy – the Teenage Mutant Ninja Turtles! Can these heroes find a way to work together to defeat the bad guys and save the world from total destruction?! Written by Ryan Parrott (Power Rangers: Necessary Evil) and illustrated by Simone di Meo (Power Rangers: Beyond The Grid), the Mighty Morphin Power Rangers fight – and maybe team up with – the Teenage Mutant Ninja Turtles for the first time ever. Collects Mighty Morphin Power Rangers/Teenage Mutant Ninja Turtles #1-5.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fiction",
+    "media tie in",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "18_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "18_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "18_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 108,
-        "score": 4.09
-    },
-    "pages": 832,
-    "title": "Mighty Morphin Power Rangers/Teenage Mutant Ninja Turtles",
-    "url": "https://www.goodreads.com/book/show/52758492-mighty-morphin-power-rangers-teenage-mutant-ninja-turtles",
-    "year_published": 2020
+    {
+      "status": "maintenance",
+      "stock_id": "18_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 108,
+    "score": 4.09
+  },
+  "pages": 832,
+  "title": "Mighty Morphin Power Rangers/Teenage Mutant Ninja Turtles",
+  "url": "https://www.goodreads.com/book/show/52758492-mighty-morphin-power-rangers-teenage-mutant-ninja-turtles",
+  "year_published": 2020
 }

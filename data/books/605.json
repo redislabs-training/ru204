@@ -1,36 +1,36 @@
 {
-    "author": "Karel \u010capek",
-    "id": "605",
-    "description": "R.U.R.--written in 1920--garnered worldwide acclaim for its author and popularized the word \"Robot.\" Mass-produced, efficient and servile labor, \u010capek's Robots remember everything, but lack creative thought, and the Utopian life they provide ultimately lacks meaning. When the Robots revolt, killing all but one of their masters, they must attempt to learn the secret of self-duplication. But their attempts at replication leave them with nothing but bloody chunks of meat. It's not until two robots fall in love and are christened \"Adam\" and \"Eve\" by the last surviving human that Nature emerges triumphant.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (school)": 39,
-        "classics": 196,
-        "drama": 127,
-        "european literature (czech literature)": 116,
-        "fiction": 149,
-        "plays": 271,
-        "plays (theatre)": 39,
-        "science fiction": 305,
-        "science fiction (dystopia)": 49,
-        "science fiction (robots)": 30
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "605_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8437,
-        "score": 3.88
-    },
-    "pages": 382,
-    "title": "R.U.R",
-    "url": "https://www.goodreads.com/book/show/436562.R_U_R_",
-    "year_published": 1920
+  "author": "Karel Čapek",
+  "id": "605",
+  "description": "R.U.R.--written in 1920--garnered worldwide acclaim for its author and popularized the word \"Robot.\" Mass-produced, efficient and servile labor, Čapek's Robots remember everything, but lack creative thought, and the Utopian life they provide ultimately lacks meaning. When the Robots revolt, killing all but one of their masters, they must attempt to learn the secret of self-duplication. But their attempts at replication leave them with nothing but bloody chunks of meat. It's not until two robots fall in love and are christened \"Adam\" and \"Eve\" by the last surviving human that Nature emerges triumphant.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (school)",
+    "classics",
+    "drama",
+    "european literature (czech literature)",
+    "fiction",
+    "plays",
+    "plays (theatre)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (robots)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "605_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8437,
+    "score": 3.88
+  },
+  "pages": 382,
+  "title": "R.U.R",
+  "url": "https://www.goodreads.com/book/show/436562.R_U_R_",
+  "year_published": 1920
 }

@@ -1,68 +1,68 @@
 {
-    "author": "Brent Weeks",
-    "id": "2255",
-    "description": "A new queen has usurped the throne and is leading Cenaria into disaster. The country has become a broken realm with a threadbare army, little food and no hope. So Kylar Stern plans to reinstate his closest friend Logan as King, but can he really get away with murder?In the north, the Godking's death has thrown Khalidor into civil war. To gain the upper hand, one faction attempts to raise the goddess Khali herself. But they are playing with volatile powers, and trigger conflict on a vast scale. Seven armies will converge to save - or destroy - an entire continent.Kylar has finally learnt the bitter cost of immortality, and is faced with a task only he can complete. To save his friends, and perhaps his enemies, he must assassinate a goddess. Failure will doom the south. Success will cost him everything he's ever loved.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 162,
-        "childrens (middle grade)": 82,
-        "fantasy": 4044,
-        "fantasy (dark fantasy)": 82,
-        "fantasy (epic fantasy)": 206,
-        "fantasy (high fantasy)": 136,
-        "fantasy (magic)": 148,
-        "fiction": 316,
-        "science fiction fantasy": 104,
-        "young adult": 101
+  "author": "Brent Weeks",
+  "id": "2255",
+  "description": "A new queen has usurped the throne and is leading Cenaria into disaster. The country has become a broken realm with a threadbare army, little food and no hope. So Kylar Stern plans to reinstate his closest friend Logan as King, but can he really get away with murder?In the north, the Godking's death has thrown Khalidor into civil war. To gain the upper hand, one faction attempts to raise the goddess Khali herself. But they are playing with volatile powers, and trigger conflict on a vast scale. Seven armies will converge to save - or destroy - an entire continent.Kylar has finally learnt the bitter cost of immortality, and is faced with a task only he can complete. To save his friends, and perhaps his enemies, he must assassinate a goddess. Failure will doom the south. Success will cost him everything he's ever loved.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2255_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2255_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2255_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2255_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2255_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2255_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2255_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2255_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2255_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2255_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 91667,
-        "score": 4.25
+    {
+      "status": "available",
+      "stock_id": "2255_2"
     },
-    "pages": 803,
-    "title": "Beyond the Shadows",
-    "url": "https://www.goodreads.com/book/show/3754026-beyond-the-shadows",
-    "year_published": 2008
+    {
+      "status": "on_loan",
+      "stock_id": "2255_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2255_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2255_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2255_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2255_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2255_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2255_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 91667,
+    "score": 4.25
+  },
+  "pages": 803,
+  "title": "Beyond the Shadows",
+  "url": "https://www.goodreads.com/book/show/3754026-beyond-the-shadows",
+  "year_published": 2008
 }

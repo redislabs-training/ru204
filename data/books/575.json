@@ -1,48 +1,48 @@
 {
-    "author": "Ramez Naam",
-    "id": "575",
-    "description": "Finalist for the 2014 Prometheus Award.Six months have passed since the release of Nexus 5. \u00a0The world is a different, more dangerous place.\u00a0\u00a0 In the United States, the terrorists \u2013 or freedom fighters \u2013 of the Post-Human Liberation Front use Nexus to turn men and women into human time bombs aimed at the President and his allies. In Washington DC, a government scientist, secretly addicted to Nexus, uncovers more than he wants to know about the forces behind the assassinations, and finds himself in a maze with no way out. In Thailand, Samantha Cataranes has found peace and contentment with a group of children born with Nexus in their brains. But when forces threaten to tear her new family apart, Sam will stop at absolutely nothing to protect the ones she holds dear. \u00a0 In Vietnam, Kade and Feng are on the run from bounty hunters seeking the price on Kade\u2019s head, from the CIA, and from forces that want to use the back door Kade has built into Nexus 5. \u00a0Kade knows he must stop the terrorists misusing Nexus before they ignite a global war between human and posthuman. But to do so, he\u2019ll need to stay alive and ahead of his pursuers. \u00a0 And in Shanghai, a posthuman child named Ling Shu will go to dangerous and explosive lengths to free her uploaded mother from the grip of Chinese authorities. \u00a0 The first blows in the war between human and posthuman have been struck. \u00a0The world will never be the same. \nFile Under\n:\u00a0Science Fiction\u00a0[ Stage 2 | Terrorist or Freedom Fighter? | Mind Games | Upgrading\u2026 ]",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 3,
-        "artificial intelligence": 4,
-        "audiobook": 5,
-        "fantasy": 3,
-        "fiction": 30,
-        "science fiction": 55,
-        "science fiction (cyberpunk)": 13,
-        "science fiction fantasy": 5,
-        "speculative fiction": 3,
-        "suspense": 5
+  "author": "Ramez Naam",
+  "id": "575",
+  "description": "Finalist for the 2014 Prometheus Award.Six months have passed since the release of Nexus 5.  The world is a different, more dangerous place.   In the United States, the terrorists – or freedom fighters – of the Post-Human Liberation Front use Nexus to turn men and women into human time bombs aimed at the President and his allies. In Washington DC, a government scientist, secretly addicted to Nexus, uncovers more than he wants to know about the forces behind the assassinations, and finds himself in a maze with no way out. In Thailand, Samantha Cataranes has found peace and contentment with a group of children born with Nexus in their brains. But when forces threaten to tear her new family apart, Sam will stop at absolutely nothing to protect the ones she holds dear.   In Vietnam, Kade and Feng are on the run from bounty hunters seeking the price on Kade’s head, from the CIA, and from forces that want to use the back door Kade has built into Nexus 5.  Kade knows he must stop the terrorists misusing Nexus before they ignite a global war between human and posthuman. But to do so, he’ll need to stay alive and ahead of his pursuers.   And in Shanghai, a posthuman child named Ling Shu will go to dangerous and explosive lengths to free her uploaded mother from the grip of Chinese authorities.   The first blows in the war between human and posthuman have been struck.  The world will never be the same. \nFile Under\n: Science Fiction [ Stage 2 | Terrorist or Freedom Fighter? | Mind Games | Upgrading… ]",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "artificial intelligence",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "suspense"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "575_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "575_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "575_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "575_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "575_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9255,
-        "score": 4.13
+    {
+      "status": "on_loan",
+      "stock_id": "575_2"
     },
-    "pages": 463,
-    "title": "Crux",
-    "url": "https://www.goodreads.com/book/show/17162149-crux",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "575_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "575_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9255,
+    "score": 4.13
+  },
+  "pages": 463,
+  "title": "Crux",
+  "url": "https://www.goodreads.com/book/show/17162149-crux",
+  "year_published": 2013
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "348",
-    "description": "Is this town HAUNTED? Jack and Annie wonder when the Magic Tree House whisks them to the Wild West. But before they can say \"Boo!\" they rush headlong into an adventure filled with horse thieves, a lost colt, rattlesnakes, and a cowboy named Slim. Will Jack and Annie have time to solve the next Tree House Riddle? The answer may depend on a ghost!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 46,
-        "childrens": 146,
-        "childrens (chapter books)": 57,
-        "childrens (middle grade)": 17,
-        "fantasy": 129,
-        "fantasy (magic)": 19,
-        "fiction": 83,
-        "historical": 25,
-        "historical (historical fiction)": 63,
-        "science fiction (time travel)": 26
+  "author": "Mary Pope Osborne",
+  "id": "348",
+  "description": "Is this town HAUNTED? Jack and Annie wonder when the Magic Tree House whisks them to the Wild West. But before they can say \"Boo!\" they rush headlong into an adventure filled with horse thieves, a lost colt, rattlesnakes, and a cowboy named Slim. Will Jack and Annie have time to solve the next Tree House Riddle? The answer may depend on a ghost!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "348_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "348_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "348_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "348_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "348_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "348_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "348_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "348_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "348_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10683,
-        "score": 3.91
+    {
+      "status": "available",
+      "stock_id": "348_2"
     },
-    "pages": 802,
-    "title": "Ghost Town at Sundown",
-    "url": "https://www.goodreads.com/book/show/861358.Ghost_Town_at_Sundown",
-    "year_published": 1997
+    {
+      "status": "maintenance",
+      "stock_id": "348_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "348_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "348_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "348_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "348_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "348_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10683,
+    "score": 3.91
+  },
+  "pages": 802,
+  "title": "Ghost Town at Sundown",
+  "url": "https://www.goodreads.com/book/show/861358.Ghost_Town_at_Sundown",
+  "year_published": 1997
 }

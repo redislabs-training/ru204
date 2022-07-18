@@ -1,33 +1,33 @@
 {
-    "author": "Robert Charles Wilson",
-    "id": "94",
-    "description": "Tom Winter thought the secluded cottage in the Pacific Northwest would be the perfect refuge\u2014a place to nurse the wounds of lost love and happiness. But Tom soon discovers that his safe haven is the portal of a tunnel through time. At one end lies the familiar present. At the other end\u2014New York City, 1963.Tom\u2019s journey back through time offers renewed hope in the form of a new life, a new love, and the chance to start life over in a simpler, safer world. But he finds that the time tunnel holds a danger far greater than anything he left behind: a human killing machine escaped from the bleak and brutal future, who will do anything to protect the secret passage he thought was his alone. And Tom Winter is forced to face the terrors of an unknown future to preserve his worlds, both past and present.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 4,
-        "cultural (canada)": 2,
-        "fantasy": 4,
-        "fiction": 25,
-        "science fiction": 90,
-        "science fiction (time travel)": 59,
-        "science fiction fantasy": 7,
-        "speculative fiction": 3,
-        "thriller": 5
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "94_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1082,
-        "score": 3.83
-    },
-    "pages": 635,
-    "title": "A Bridge of Years",
-    "url": "https://www.goodreads.com/book/show/779053.A_Bridge_of_Years",
-    "year_published": 1991
+  "author": "Robert Charles Wilson",
+  "id": "94",
+  "description": "Tom Winter thought the secluded cottage in the Pacific Northwest would be the perfect refuge—a place to nurse the wounds of lost love and happiness. But Tom soon discovers that his safe haven is the portal of a tunnel through time. At one end lies the familiar present. At the other end—New York City, 1963.Tom’s journey back through time offers renewed hope in the form of a new life, a new love, and the chance to start life over in a simpler, safer world. But he finds that the time tunnel holds a danger far greater than anything he left behind: a human killing machine escaped from the bleak and brutal future, who will do anything to protect the secret passage he thought was his alone. And Tom Winter is forced to face the terrors of an unknown future to preserve his worlds, both past and present.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "94_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1082,
+    "score": 3.83
+  },
+  "pages": 635,
+  "title": "A Bridge of Years",
+  "url": "https://www.goodreads.com/book/show/779053.A_Bridge_of_Years",
+  "year_published": 1991
 }

@@ -1,52 +1,52 @@
 {
-    "author": "Christina Dalcher",
-    "id": "762",
-    "description": "Every child's potential is regularly determined by a standardized measurement: their quotient (Q). Score high enough, and attend a top tier school with a golden future. Score too low, and it's off to a federal boarding school with limited prospects afterwards. The purpose? An improved society where education costs drop, teachers focus on the more promising students, and parents are happy.Elena Fairchild is a teacher at one of the state's elite schools. When her nine-year-old daughter bombs a monthly test and her Q score drops to a disastrously low level, she is immediately forced to leave her top school for a federal institution hundreds of miles away. As a teacher, Elena thought she understood the tiered educational system, but as a mother whose child is now gone, Elena's perspective is changed forever. She just wants her daughter back.And she will do the unthinkable to make it happen.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 17,
-        "adult fiction": 13,
-        "audiobook": 12,
-        "contemporary": 8,
-        "family": 8,
-        "fantasy": 12,
-        "fiction": 53,
-        "science fiction": 57,
-        "science fiction (dystopia)": 72,
-        "thriller": 21
+  "author": "Christina Dalcher",
+  "id": "762",
+  "description": "Every child's potential is regularly determined by a standardized measurement: their quotient (Q). Score high enough, and attend a top tier school with a golden future. Score too low, and it's off to a federal boarding school with limited prospects afterwards. The purpose? An improved society where education costs drop, teachers focus on the more promising students, and parents are happy.Elena Fairchild is a teacher at one of the state's elite schools. When her nine-year-old daughter bombs a monthly test and her Q score drops to a disastrously low level, she is immediately forced to leave her top school for a federal institution hundreds of miles away. As a teacher, Elena thought she understood the tiered educational system, but as a mother whose child is now gone, Elena's perspective is changed forever. She just wants her daughter back.And she will do the unthinkable to make it happen.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "family",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "762_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "762_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "762_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "762_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "762_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "762_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3243,
-        "score": 3.83
+    {
+      "status": "maintenance",
+      "stock_id": "762_2"
     },
-    "pages": 417,
-    "title": "Master Class",
-    "url": "https://www.goodreads.com/book/show/49878332-master-class",
-    "year_published": 2020
+    {
+      "status": "maintenance",
+      "stock_id": "762_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "762_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "762_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3243,
+    "score": 3.83
+  },
+  "pages": 417,
+  "title": "Master Class",
+  "url": "https://www.goodreads.com/book/show/49878332-master-class",
+  "year_published": 2020
 }

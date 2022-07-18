@@ -1,63 +1,63 @@
 {
-    "author": "Christopher G. Nuttall",
-    "id": "41",
-    "description": "An all-new story arc begins here!The new Grandmaster of Whitehall doesn't want Emily in his school. She's dangerous, he thinks. The only way he'll allow her to return to Whitehall is if she chooses to be a probationary student, a student who can be expelled at the slightest excuse, a student who has to work for one of the professors. Reluctantly, unwilling to leave her first true home, Emily accepts. But she rapidly discovers that she's about to be pushed right to the limit. She's expected to do her studies, continue her private research... and mentor a group of young students who are new to the school. She has to supervise them, all the while trying to balance her schoolwork with her growing relationship with Caleb. It isn't an easy task.And when Professor Locke starts opening the tunnels under the school, hunting for the lost secrets of Old Whitehall, he triggers a series of disasters that threaten to tear the school apart. As the staff and students struggle to survive, with the very walls collapsing in around them, Emily is forced to solve a disturbing mystery......And figure out what it has to do with her private research, before the entire school comes to a final catastrophic end.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "academic (school)": 3,
-        "adventure": 3,
-        "audiobook": 2,
-        "fantasy": 69,
-        "fantasy (magic)": 31,
-        "fiction": 4,
-        "paranormal (witches)": 2,
-        "science fiction (alternate universe)": 3,
-        "young adult": 10,
-        "young adult (young adult fantasy)": 3
+  "author": "Christopher G. Nuttall",
+  "id": "41",
+  "description": "An all-new story arc begins here!The new Grandmaster of Whitehall doesn't want Emily in his school. She's dangerous, he thinks. The only way he'll allow her to return to Whitehall is if she chooses to be a probationary student, a student who can be expelled at the slightest excuse, a student who has to work for one of the professors. Reluctantly, unwilling to leave her first true home, Emily accepts. But she rapidly discovers that she's about to be pushed right to the limit. She's expected to do her studies, continue her private research... and mentor a group of young students who are new to the school. She has to supervise them, all the while trying to balance her schoolwork with her growing relationship with Caleb. It isn't an easy task.And when Professor Locke starts opening the tunnels under the school, hunting for the lost secrets of Old Whitehall, he triggers a series of disasters that threaten to tear the school apart. As the staff and students struggle to survive, with the very walls collapsing in around them, Emily is forced to solve a disturbing mystery......And figure out what it has to do with her private research, before the entire school comes to a final catastrophic end.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "academic (school)",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "paranormal (witches)",
+    "science fiction (alternate universe)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "41_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "41_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "41_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "41_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "41_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "41_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "41_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "41_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "41_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2279,
-        "score": 4.34
+    {
+      "status": "maintenance",
+      "stock_id": "41_2"
     },
-    "pages": 602,
-    "title": "Infinite Regress",
-    "url": "https://www.goodreads.com/book/show/30269132-infinite-regress",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "41_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "41_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "41_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "41_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "41_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "41_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2279,
+    "score": 4.34
+  },
+  "pages": 602,
+  "title": "Infinite Regress",
+  "url": "https://www.goodreads.com/book/show/30269132-infinite-regress",
+  "year_published": 2016
 }

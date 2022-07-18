@@ -1,40 +1,40 @@
 {
-    "author": "Rebecca Stead",
-    "id": "11963",
-    "description": "Miranda is an ordinary sixth grader, until she starts receiving mysterious messages from somebody who knows all about her, including things that have not even happened yet. Each message brings her closer to believing that only she can prevent a tragic death. Until the final note makes her think she\u2019s too late.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "childrens": 658,
-        "childrens (middle grade)": 1282,
-        "fantasy": 671,
-        "fiction": 980,
-        "historical (historical fiction)": 230,
-        "mystery": 829,
-        "science fiction": 888,
-        "science fiction (time travel)": 651,
-        "science fiction fantasy": 234,
-        "young adult": 1587
+  "author": "Rebecca Stead",
+  "id": "11963",
+  "description": "Miranda is an ordinary sixth grader, until she starts receiving mysterious messages from somebody who knows all about her, including things that have not even happened yet. Each message brings her closer to believing that only she can prevent a tragic death. Until the final note makes her think she’s too late.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "11963_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "11963_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "11963_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 98376,
-        "score": 4.06
-    },
-    "pages": 382,
-    "title": "When You Reach Me",
-    "url": "https://www.goodreads.com/book/show/5310515-when-you-reach-me",
-    "year_published": 2009
+    {
+      "status": "available",
+      "stock_id": "11963_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 98376,
+    "score": 4.06
+  },
+  "pages": 382,
+  "title": "When You Reach Me",
+  "url": "https://www.goodreads.com/book/show/5310515-when-you-reach-me",
+  "year_published": 2009
 }

@@ -1,51 +1,51 @@
 {
-    "author": "Liz Kessler",
-    "id": "315",
-    "description": "On her way to visit her best friend, Autumn, Jenni Green suddenly finds she's been transported exactly one year forward in time. Now she discovers that in the year that's gone by, tragedy has struck and her friendship with Autumn will never be the same again. But what caused the tragedy?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 14,
-        "childrens (juvenile)": 6,
-        "childrens (middle grade)": 50,
-        "contemporary": 9,
-        "fantasy": 33,
-        "fiction": 17,
-        "mystery": 5,
-        "science fiction": 19,
-        "science fiction (time travel)": 35,
-        "young adult": 20
+  "author": "Liz Kessler",
+  "id": "315",
+  "description": "On her way to visit her best friend, Autumn, Jenni Green suddenly finds she's been transported exactly one year forward in time. Now she discovers that in the year that's gone by, tragedy has struck and her friendship with Autumn will never be the same again. But what caused the tragedy?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "315_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "315_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "315_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "315_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "315_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "315_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2457,
-        "score": 4.05
+    {
+      "status": "maintenance",
+      "stock_id": "315_2"
     },
-    "pages": 595,
-    "title": "A Year Without Autumn",
-    "url": "https://www.goodreads.com/book/show/9731300-a-year-without-autumn",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "315_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "315_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "315_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2457,
+    "score": 4.05
+  },
+  "pages": 595,
+  "title": "A Year Without Autumn",
+  "url": "https://www.goodreads.com/book/show/9731300-a-year-without-autumn",
+  "year_published": 2011
 }

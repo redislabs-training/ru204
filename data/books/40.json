@@ -1,50 +1,50 @@
 {
-    "author": "K.M. Shea",
-    "id": "40",
-    "description": "Peace rules in Camelot, and Britt is satisfied with her life as the stand in for King Arthur. Or she was, until Lancelot shows up. Britt is forced by Merlin to welcome the young knight into her courts, and life goes downhill from there. King Leodegrance ,a close ally who also happens to have the Round Table, which Britt dearly wants, is attacked by the foul Duke Maleagent. Unwilling to abandon her ally and let the Round Table slip through her fingers, Britt rides with a party of knights to Leodegrance's lands in hopes of providing help. Unfortunately the Round Table proves to be less than impressive, King Leodegrance is not the man Britt thought him to be, and, worst of all, Guinevere has set her romantic ambitions on Britt's King Arthur persona. Leodegrance needs a champion to fight Maleagant or he will be ruined, but does Britt really need to do battle on behalf of a greedy man and his daughter whom Britt knows will bring ruin to Arthur and Camelot?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 6,
-        "fantasy": 62,
-        "fantasy (fairy tales)": 7,
-        "fantasy (magic)": 13,
-        "historical": 12,
-        "historical (historical fiction)": 5,
-        "historical (medieval)": 5,
-        "retellings": 10,
-        "science fiction (time travel)": 29,
-        "young adult": 12
+  "author": "K.M. Shea",
+  "id": "40",
+  "description": "Peace rules in Camelot, and Britt is satisfied with her life as the stand in for King Arthur. Or she was, until Lancelot shows up. Britt is forced by Merlin to welcome the young knight into her courts, and life goes downhill from there. King Leodegrance ,a close ally who also happens to have the Round Table, which Britt dearly wants, is attacked by the foul Duke Maleagent. Unwilling to abandon her ally and let the Round Table slip through her fingers, Britt rides with a party of knights to Leodegrance's lands in hopes of providing help. Unfortunately the Round Table proves to be less than impressive, King Leodegrance is not the man Britt thought him to be, and, worst of all, Guinevere has set her romantic ambitions on Britt's King Arthur persona. Leodegrance needs a champion to fight Maleagant or he will be ruined, but does Britt really need to do battle on behalf of a greedy man and his daughter whom Britt knows will bring ruin to Arthur and Camelot?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (magic)",
+    "historical",
+    "historical (historical fiction)",
+    "historical (medieval)",
+    "retellings",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "40_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "40_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "40_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "40_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "40_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "40_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1231,
-        "score": 4.27
+    {
+      "status": "available",
+      "stock_id": "40_2"
     },
-    "pages": 1062,
-    "title": "Embittered",
-    "url": "https://www.goodreads.com/book/show/20739331-embittered",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "40_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "40_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "40_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1231,
+    "score": 4.27
+  },
+  "pages": 1062,
+  "title": "Embittered",
+  "url": "https://www.goodreads.com/book/show/20739331-embittered",
+  "year_published": 2014
 }

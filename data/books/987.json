@@ -1,35 +1,35 @@
 {
-    "author": "Tamora Pierce",
-    "id": "987",
-    "description": "Sent to Carthak as part of the Tortallan peace delegation, Daine finds herself in the middle of a sticky political situation. She doesn't like the Carthaki practice of keeping slaves, but it's not her place to say anything -- she's just there to heal the emperor's birds. It's extremely frustrating! What's more, her power has grown in a mysterious way.  As the peace talks stall, Daine puzzles over Carthak's two-faced Emperor Ozorne. How can he be so caring with his birds and so cruel to his people? Daine is sure he's planning something. Daine must fight the powerful Emperor Mage, knowing that the safety and peace of the realm depend on stopping Ozorne's power-hungry schemes.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 196,
-        "childrens": 116,
-        "childrens (middle grade)": 119,
-        "fantasy": 3332,
-        "fantasy (dragons)": 109,
-        "fantasy (high fantasy)": 124,
-        "fantasy (magic)": 300,
-        "fiction": 333,
-        "young adult": 1470,
-        "young adult (young adult fantasy)": 224
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "987_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 62992,
-        "score": 4.23
-    },
-    "pages": 875,
-    "title": "Emperor Mage",
-    "url": "https://www.goodreads.com/book/show/13833.Emperor_Mage",
-    "year_published": 1995
+  "author": "Tamora Pierce",
+  "id": "987",
+  "description": "Sent to Carthak as part of the Tortallan peace delegation, Daine finds herself in the middle of a sticky political situation. She doesn't like the Carthaki practice of keeping slaves, but it's not her place to say anything -- she's just there to heal the emperor's birds. It's extremely frustrating! What's more, her power has grown in a mysterious way.  As the peace talks stall, Daine puzzles over Carthak's two-faced Emperor Ozorne. How can he be so caring with his birds and so cruel to his people? Daine is sure he's planning something. Daine must fight the powerful Emperor Mage, knowing that the safety and peace of the realm depend on stopping Ozorne's power-hungry schemes.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "987_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 62992,
+    "score": 4.23
+  },
+  "pages": 875,
+  "title": "Emperor Mage",
+  "url": "https://www.goodreads.com/book/show/13833.Emperor_Mage",
+  "year_published": 1995
 }

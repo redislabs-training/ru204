@@ -1,60 +1,60 @@
 {
-    "author": "Larry Niven",
-    "id": "1745",
-    "description": "In 3016, the 2nd Empire of Man spans hundreds of star systems, thanks to faster-than-light Alderson Drive. Intelligent beings are finally found from the Mote, an isolated star in a thick dust cloud. The bottled-up ancient civilization, at least one million years old, are welcoming, kind, yet evasive, with a dark problem they have not solved in over a million years.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 53,
-        "classics": 39,
-        "fantasy": 67,
-        "fiction": 560,
-        "science fiction": 2020,
-        "science fiction (aliens)": 70,
-        "science fiction fantasy": 126,
-        "space": 38,
-        "space (space opera)": 106,
-        "speculative fiction": 32
+  "author": "Larry Niven",
+  "id": "1745",
+  "description": "In 3016, the 2nd Empire of Man spans hundreds of star systems, thanks to faster-than-light Alderson Drive. Intelligent beings are finally found from the Mote, an isolated star in a thick dust cloud. The bottled-up ancient civilization, at least one million years old, are welcoming, kind, yet evasive, with a dark problem they have not solved in over a million years.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1745_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1745_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1745_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1745_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1745_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1745_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1745_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1745_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 64061,
-        "score": 4.07
+    {
+      "status": "on_loan",
+      "stock_id": "1745_2"
     },
-    "pages": 1178,
-    "title": "The Mote in God's Eye",
-    "url": "https://www.goodreads.com/book/show/100365.The_Mote_in_God_s_Eye",
-    "year_published": 1974
+    {
+      "status": "on_loan",
+      "stock_id": "1745_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1745_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1745_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1745_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1745_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 64061,
+    "score": 4.07
+  },
+  "pages": 1178,
+  "title": "The Mote in God's Eye",
+  "url": "https://www.goodreads.com/book/show/100365.The_Mote_in_God_s_Eye",
+  "year_published": 1974
 }

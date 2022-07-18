@@ -1,54 +1,54 @@
 {
-    "author": "Mike Costa",
-    "id": "15",
-    "description": "It's been three years since the devastating events of All Hail Megatron. The Earth has been rebuilt, the Autobots are in hiding, and the next great era in the Transformers saga is about to begin! Critically acclaimed writer Mike Costa is joined by superstar artist Don Figueroa for IDW's biggest book of the year -- the launch of the first ongoing Transformers title in five years!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 3,
-        "science fiction": 4,
-        "science fiction (robots)": 2,
-        "sequential art (comics)": 22,
-        "sequential art (graphic novels)": 13
+  "author": "Mike Costa",
+  "id": "15",
+  "description": "It's been three years since the devastating events of All Hail Megatron. The Earth has been rebuilt, the Autobots are in hiding, and the next great era in the Transformers saga is about to begin! Critically acclaimed writer Mike Costa is joined by superstar artist Don Figueroa for IDW's biggest book of the year -- the launch of the first ongoing Transformers title in five years!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "15_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "15_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "15_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "15_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "15_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 156,
-        "score": 3.62
+    {
+      "status": "maintenance",
+      "stock_id": "15_2"
     },
-    "pages": 215,
-    "title": "Transformers Volume 1: For All Mankind",
-    "url": "https://www.goodreads.com/book/show/7955760-transformers-volume-1",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "15_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "15_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "15_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "15_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "15_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 156,
+    "score": 3.62
+  },
+  "pages": 215,
+  "title": "Transformers Volume 1: For All Mankind",
+  "url": "https://www.goodreads.com/book/show/7955760-transformers-volume-1",
+  "year_published": 2010
 }

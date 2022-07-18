@@ -1,43 +1,43 @@
 {
-    "author": "Jonathan L. Howard",
-    "id": "35",
-    "description": "Johannes Cabal is a necromancer\u2014and he's slightly infamous.Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer features seven of Cabal's most frightening adventures:\"Exeunt Demon King,\"\"The Ereshkigal Working,\"\"Johannes Cabal and the Blustery Day,\"\"The House of Gears,\"\"The Death of Me,\"\"Ouroboros Ouzo,\" and\"A Long Spoon.\"Also included is an original introduction written and read by the author.7 hrs 19 minutes",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 10,
-        "fantasy": 19,
-        "fantasy (dark fantasy)": 4,
-        "fantasy (paranormal)": 4,
-        "fantasy (urban fantasy)": 5,
-        "fiction": 6,
-        "horror": 11,
-        "humor": 8,
-        "science fiction": 3,
-        "short stories": 8
+  "author": "Jonathan L. Howard",
+  "id": "35",
+  "description": "Johannes Cabal is a necromancer—and he's slightly infamous.Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer features seven of Cabal's most frightening adventures:\"Exeunt Demon King,\"\"The Ereshkigal Working,\"\"Johannes Cabal and the Blustery Day,\"\"The House of Gears,\"\"The Death of Me,\"\"Ouroboros Ouzo,\" and\"A Long Spoon.\"Also included is an original introduction written and read by the author.7 hrs 19 minutes",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "humor",
+    "science fiction",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "35_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "35_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "35_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "35_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 301,
-        "score": 4.37
+    {
+      "status": "on_loan",
+      "stock_id": "35_2"
     },
-    "pages": 497,
-    "title": "Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer",
-    "url": "https://www.goodreads.com/book/show/25842692-johannes-cabal-and-the-blustery-day",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "35_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 301,
+    "score": 4.37
+  },
+  "pages": 497,
+  "title": "Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer",
+  "url": "https://www.goodreads.com/book/show/25842692-johannes-cabal-and-the-blustery-day",
+  "year_published": 2015
 }

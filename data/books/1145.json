@@ -1,63 +1,63 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "1145",
-    "description": "It is 1970, and electronics engineer Dan Davis has finally made the invention of a lifetime: a household robot with extraordinary abilities, destined to dramatically change the landscape of everyday routine. Then, with wild success just within reach, Dan's greedy partner and even greedier fianc\u00e9e steal his work and leave him penniless, and trick him into taking the long sleep\u2014suspended animation for thirty years.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 25,
-        "audiobook": 27,
-        "classics": 37,
-        "fantasy": 48,
-        "fiction": 284,
-        "novels": 14,
-        "science fiction": 997,
-        "science fiction (time travel)": 225,
-        "science fiction fantasy": 68,
-        "speculative fiction": 31
+  "author": "Robert A. Heinlein",
+  "id": "1145",
+  "description": "It is 1970, and electronics engineer Dan Davis has finally made the invention of a lifetime: a household robot with extraordinary abilities, destined to dramatically change the landscape of everyday routine. Then, with wild success just within reach, Dan's greedy partner and even greedier fiancée steal his work and leave him penniless, and trick him into taking the long sleep—suspended animation for thirty years.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1145_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1145_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1145_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1145_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1145_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1145_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1145_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1145_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1145_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23188,
-        "score": 4.02
+    {
+      "status": "available",
+      "stock_id": "1145_2"
     },
-    "pages": 671,
-    "title": "The Door Into Summer",
-    "url": "https://www.goodreads.com/book/show/348.The_Door_Into_Summer",
-    "year_published": 1957
+    {
+      "status": "available",
+      "stock_id": "1145_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1145_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1145_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1145_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1145_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1145_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23188,
+    "score": 4.02
+  },
+  "pages": 671,
+  "title": "The Door Into Summer",
+  "url": "https://www.goodreads.com/book/show/348.The_Door_Into_Summer",
+  "year_published": 1957
 }

@@ -1,58 +1,58 @@
 {
-    "author": "Richard K. Morgan",
-    "id": "994",
-    "description": "This is high action, ideas driven noir SF of the highest order. Morgan has already established himself as an SF author of global significance.Takeshi Kovacs has come home. Home to Harlan's World. An ocean planet with only 5 percent of its landmass poking above the dangerous and unpredictable seas. Try and get above the weather in anything more sophisticated than a helicopter and the Martian orbital platforms will burn you out of the sky.And death doesn't just wait for you in the seas and the skies. On land, from the tropical beaches and swamps of Kossuth to the icy, machine-infested wastes of New Hokkaido the hard won gains of the Quellist revolution have been lost. The First Families, the corporations and the Yakuza have a stranglehold on everything.Embarked on a journey of implacable retribution for a lost love, Kovacs is blown off course and into a maelstrom of political intrigue and technological mystery as the ghosts of Harlan's World and his own violent past rise to claim their due. Quellcrist Falconer is back from the dead, they say and hunting her down for the First Families is a savage young Envoy called Kovacs who's been in storage.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 40,
-        "fantasy": 39,
-        "fiction": 246,
-        "mystery": 31,
-        "mystery (noir)": 28,
-        "science fiction": 831,
-        "science fiction (cyberpunk)": 256,
-        "science fiction fantasy": 42,
-        "speculative fiction": 16,
-        "thriller": 45
+  "author": "Richard K. Morgan",
+  "id": "994",
+  "description": "This is high action, ideas driven noir SF of the highest order. Morgan has already established himself as an SF author of global significance.Takeshi Kovacs has come home. Home to Harlan's World. An ocean planet with only 5 percent of its landmass poking above the dangerous and unpredictable seas. Try and get above the weather in anything more sophisticated than a helicopter and the Martian orbital platforms will burn you out of the sky.And death doesn't just wait for you in the seas and the skies. On land, from the tropical beaches and swamps of Kossuth to the icy, machine-infested wastes of New Hokkaido the hard won gains of the Quellist revolution have been lost. The First Families, the corporations and the Yakuza have a stranglehold on everything.Embarked on a journey of implacable retribution for a lost love, Kovacs is blown off course and into a maelstrom of political intrigue and technological mystery as the ghosts of Harlan's World and his own violent past rise to claim their due. Quellcrist Falconer is back from the dead, they say and hunting her down for the First Families is a savage young Envoy called Kovacs who's been in storage.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (noir)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "994_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "994_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "994_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "994_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "994_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "994_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "994_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "994_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26729,
-        "score": 4.03
+    {
+      "status": "on_loan",
+      "stock_id": "994_2"
     },
-    "pages": 443,
-    "title": "Woken Furies",
-    "url": "https://www.goodreads.com/book/show/29397.Woken_Furies",
-    "year_published": 2005
+    {
+      "status": "available",
+      "stock_id": "994_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "994_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "994_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "994_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "994_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26729,
+    "score": 4.03
+  },
+  "pages": 443,
+  "title": "Woken Furies",
+  "url": "https://www.goodreads.com/book/show/29397.Woken_Furies",
+  "year_published": 2005
 }

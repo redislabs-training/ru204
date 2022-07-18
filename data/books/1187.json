@@ -1,50 +1,50 @@
 {
-    "author": "E.M. Forster",
-    "id": "1187",
-    "description": "The Machine Stops is a science fiction short story (12,300 words) by E. M. Forster. After initial publication in The Oxford and Cambridge Review (November 1909), the story was republished in Forster's The Eternal Moment and Other Stories in 1928. After being voted one of the best novellas up to 1965, it was included that same year in the populist anthology Modern Short Stories. In 1973 it was also included in The Science Fiction Hall of Fame, Volume Two. The book is particularly notable for predicting new technologies such as instant messaging and the internet.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 273,
-        "european literature (british literature)": 29,
-        "fantasy": 20,
-        "fiction": 373,
-        "literature": 26,
-        "literature (20th century)": 25,
-        "science fiction": 506,
-        "science fiction (dystopia)": 182,
-        "science fiction fantasy": 26,
-        "short stories": 347
+  "author": "E.M. Forster",
+  "id": "1187",
+  "description": "The Machine Stops is a science fiction short story (12,300 words) by E. M. Forster. After initial publication in The Oxford and Cambridge Review (November 1909), the story was republished in Forster's The Eternal Moment and Other Stories in 1928. After being voted one of the best novellas up to 1965, it was included that same year in the populist anthology Modern Short Stories. In 1973 it was also included in The Science Fiction Hall of Fame, Volume Two. The book is particularly notable for predicting new technologies such as instant messaging and the internet.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "literature (20th century)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1187_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1187_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1187_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1187_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1187_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1187_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10479,
-        "score": 4.07
+    {
+      "status": "maintenance",
+      "stock_id": "1187_2"
     },
-    "pages": 353,
-    "title": "The Machine Stops",
-    "url": "https://www.goodreads.com/book/show/4711854-the-machine-stops",
-    "year_published": 1909
+    {
+      "status": "on_loan",
+      "stock_id": "1187_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1187_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1187_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10479,
+    "score": 4.07
+  },
+  "pages": 353,
+  "title": "The Machine Stops",
+  "url": "https://www.goodreads.com/book/show/4711854-the-machine-stops",
+  "year_published": 1909
 }

@@ -1,54 +1,54 @@
 {
-    "author": "Robert Jordan",
-    "id": "3750",
-    "description": "The seals of Shayol Ghul are weak now, and the Dark One reaches out. The Shadow is rising to cover humankind.In Tar Valon, Min sees portents of hideous doom. Will the White Tower itself be broken?In the Two Rivers, the Whitecloaks ride in pursuit of a man with golden eyes, and in pursuit of the Dragon Reborn.In Cantorin, among the Sea Folk, High Lady Suroth plans the return of the Seanchan armies to the mainland.In the Stone of Tear, the Lord Dragon considers his next move. It will be something no one expects, not the Black Ajah, not Tairen nobles, not Aes Sedai, not Egwene or Elayne or Nynaeve.Against the Shadow rising stands the Dragon Reborn.....",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 213,
-        "audiobook": 145,
-        "epic": 177,
-        "fantasy": 9448,
-        "fantasy (epic fantasy)": 695,
-        "fantasy (high fantasy)": 324,
-        "fantasy (magic)": 131,
-        "fiction": 1066,
-        "science fiction fantasy": 336,
-        "young adult": 106
+  "author": "Robert Jordan",
+  "id": "3750",
+  "description": "The seals of Shayol Ghul are weak now, and the Dark One reaches out. The Shadow is rising to cover humankind.In Tar Valon, Min sees portents of hideous doom. Will the White Tower itself be broken?In the Two Rivers, the Whitecloaks ride in pursuit of a man with golden eyes, and in pursuit of the Dragon Reborn.In Cantorin, among the Sea Folk, High Lady Suroth plans the return of the Seanchan armies to the mainland.In the Stone of Tear, the Lord Dragon considers his next move. It will be something no one expects, not the Black Ajah, not Tairen nobles, not Aes Sedai, not Egwene or Elayne or Nynaeve.Against the Shadow rising stands the Dragon Reborn.....",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "epic",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3750_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3750_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3750_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3750_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3750_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3750_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3750_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 178155,
-        "score": 4.23
+    {
+      "status": "on_loan",
+      "stock_id": "3750_2"
     },
-    "pages": 1018,
-    "title": "The Shadow Rising",
-    "url": "https://www.goodreads.com/book/show/9539.The_Shadow_Rising",
-    "year_published": 1992
+    {
+      "status": "on_loan",
+      "stock_id": "3750_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3750_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3750_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3750_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 178155,
+    "score": 4.23
+  },
+  "pages": 1018,
+  "title": "The Shadow Rising",
+  "url": "https://www.goodreads.com/book/show/9539.The_Shadow_Rising",
+  "year_published": 1992
 }

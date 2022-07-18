@@ -1,60 +1,60 @@
 {
-    "author": "John Christopher",
-    "id": "665",
-    "description": "The Chung-Li virus has devastated Asia, wiping out the rice crop and leaving riots and mass starvation in its wake. The rest of the world looks on with concern, though safe in the expectation that a counter-virus will be developed any day. Then Chung-Li mutates and spreads. Wheat, barley, oats, rye: no grass crop is safe, and global famine threatens.In Britain, where green fields are fast turning brown, the Government lies to its citizens, devising secret plans to preserve the lives of a few at the expense of the many.Getting wind of what's in store, John Custance and his family decide they must abandon their London home to head for the sanctuary of his brother's farm in a remote northern valley.And so they begin the long trek across a country fast descending into barbarism, where the law of the gun prevails, and the civilized values they once took for granted become the price they must pay if they are to survive.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 154,
-        "classics": 35,
-        "fiction": 161,
-        "horror": 20,
-        "novels": 16,
-        "science fiction": 331,
-        "science fiction (apocalyptic)": 58,
-        "science fiction (dystopia)": 83,
-        "science fiction fantasy": 19,
-        "speculative fiction": 25
+  "author": "John Christopher",
+  "id": "665",
+  "description": "The Chung-Li virus has devastated Asia, wiping out the rice crop and leaving riots and mass starvation in its wake. The rest of the world looks on with concern, though safe in the expectation that a counter-virus will be developed any day. Then Chung-Li mutates and spreads. Wheat, barley, oats, rye: no grass crop is safe, and global famine threatens.In Britain, where green fields are fast turning brown, the Government lies to its citizens, devising secret plans to preserve the lives of a few at the expense of the many.Getting wind of what's in store, John Custance and his family decide they must abandon their London home to head for the sanctuary of his brother's farm in a remote northern valley.And so they begin the long trek across a country fast descending into barbarism, where the law of the gun prevails, and the civilized values they once took for granted become the price they must pay if they are to survive.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "classics",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "665_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "665_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "665_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "665_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "665_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "665_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "665_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "665_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7678,
-        "score": 3.88
+    {
+      "status": "available",
+      "stock_id": "665_2"
     },
-    "pages": 1131,
-    "title": "The Death of Grass",
-    "url": "https://www.goodreads.com/book/show/941731.The_Death_of_Grass",
-    "year_published": 1956
+    {
+      "status": "on_loan",
+      "stock_id": "665_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "665_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "665_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "665_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "665_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7678,
+    "score": 3.88
+  },
+  "pages": 1131,
+  "title": "The Death of Grass",
+  "url": "https://www.goodreads.com/book/show/941731.The_Death_of_Grass",
+  "year_published": 1956
 }

@@ -1,52 +1,52 @@
 {
-    "author": "Gerard Way",
-    "id": "3581",
-    "description": "In an inexplicable worldwide event, forty-seven extraordinary children were spontaneously born to women who'd previously shown no signs of pregnancy. Millionaire inventor Reginald Hargreeves adopted seven of the children; when asked why, his only explanation was, \"To save the world.\"These seven children form the Umbrella Academy, a dysfunctional family of superheroes with bizarre powers. Their first adventure at the age of ten pits them against an erratic and deadly Eiffel Tower, piloted by the fearsome zombie-robot Gustave Eiffel. Nearly a decade later, the team disbands, but when Hargreeves unexpectedly dies, these disgruntled siblings reunite just in time to save the world once again.Collecting: The Umbrella Academy: Apocalypse Suite 1-6, as well as out-of-print short stories and an expanded sketchbook section featuring work by Gabriel B\u00e1, James Jean, and Gerard Way",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 80,
-        "comics (comic book)": 157,
-        "comics (superheroes)": 174,
-        "fantasy": 459,
-        "fiction": 305,
-        "graphic novels comics": 265,
-        "science fiction": 243,
-        "science fiction (time travel)": 68,
-        "sequential art (comics)": 1637,
-        "sequential art (graphic novels)": 2015
+  "author": "Gerard Way",
+  "id": "3581",
+  "description": "In an inexplicable worldwide event, forty-seven extraordinary children were spontaneously born to women who'd previously shown no signs of pregnancy. Millionaire inventor Reginald Hargreeves adopted seven of the children; when asked why, his only explanation was, \"To save the world.\"These seven children form the Umbrella Academy, a dysfunctional family of superheroes with bizarre powers. Their first adventure at the age of ten pits them against an erratic and deadly Eiffel Tower, piloted by the fearsome zombie-robot Gustave Eiffel. Nearly a decade later, the team disbands, but when Hargreeves unexpectedly dies, these disgruntled siblings reunite just in time to save the world once again.Collecting: The Umbrella Academy: Apocalypse Suite 1-6, as well as out-of-print short stories and an expanded sketchbook section featuring work by Gabriel Bá, James Jean, and Gerard Way",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3581_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3581_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3581_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3581_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3581_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3581_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 44537,
-        "score": 3.85
+    {
+      "status": "maintenance",
+      "stock_id": "3581_2"
     },
-    "pages": 1077,
-    "title": "The Umbrella Academy, Vol. 1: The Apocalypse Suite",
-    "url": "https://www.goodreads.com/book/show/2795053-the-umbrella-academy-vol-1",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "3581_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3581_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3581_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 44537,
+    "score": 3.85
+  },
+  "pages": 1077,
+  "title": "The Umbrella Academy, Vol. 1: The Apocalypse Suite",
+  "url": "https://www.goodreads.com/book/show/2795053-the-umbrella-academy-vol-1",
+  "year_published": 2007
 }

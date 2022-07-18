@@ -1,40 +1,40 @@
 {
-    "author": "Jeyn Roberts",
-    "id": "371",
-    "description": "In this apocalyptic sequel to Dark Inside four teens continue the struggle for survival as they face a world gone mad.Aries, Clementine, Mason and Michael have survived the first wave of the apocalypse that wiped out most of the world\u2019s population, and turned many of the rest into murderous Baggers. Now, they\u2019re hiding out in an abandoned house in Vancouver with a ragtag group of surviving teens, and trying to figure out their next move. Aries is trying to lead, but it\u2019s hard to be a leader when there are no easy answers, and every move feels wrong. Clementine is desperate to find her brother Heath, but it\u2019s impossible to know where he\u2019d be, even if he is still alive. Michael is still haunted by the memories of his actions during his harrowing struggle to survive. And Mason is struggling with something far worse: the fear that he may be a danger to his friends. As the Baggers begin to create a new world order, Aries, Clementine, Mason and Michael will have to trust and rely on each other in order to survive.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 21,
-        "apocalyptic (post apocalyptic)": 53,
-        "fantasy (paranormal)": 13,
-        "horror": 52,
-        "horror (zombies)": 36,
-        "science fiction": 25,
-        "science fiction (apocalyptic)": 21,
-        "science fiction (dystopia)": 65,
-        "thriller": 12,
-        "young adult": 98
+  "author": "Jeyn Roberts",
+  "id": "371",
+  "description": "In this apocalyptic sequel to Dark Inside four teens continue the struggle for survival as they face a world gone mad.Aries, Clementine, Mason and Michael have survived the first wave of the apocalypse that wiped out most of the world’s population, and turned many of the rest into murderous Baggers. Now, they’re hiding out in an abandoned house in Vancouver with a ragtag group of surviving teens, and trying to figure out their next move. Aries is trying to lead, but it’s hard to be a leader when there are no easy answers, and every move feels wrong. Clementine is desperate to find her brother Heath, but it’s impossible to know where he’d be, even if he is still alive. Michael is still haunted by the memories of his actions during his harrowing struggle to survive. And Mason is struggling with something far worse: the fear that he may be a danger to his friends. As the Baggers begin to create a new world order, Aries, Clementine, Mason and Michael will have to trust and rely on each other in order to survive.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy (paranormal)",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "371_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "371_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "371_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3952,
-        "score": 4.1
-    },
-    "pages": 510,
-    "title": "Rage Within",
-    "url": "https://www.goodreads.com/book/show/13185168-rage-within",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "371_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3952,
+    "score": 4.1
+  },
+  "pages": 510,
+  "title": "Rage Within",
+  "url": "https://www.goodreads.com/book/show/13185168-rage-within",
+  "year_published": 2012
 }

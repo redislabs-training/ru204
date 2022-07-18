@@ -1,52 +1,52 @@
 {
-    "author": "Scott Wilbanks",
-    "id": "543",
-    "description": "Annabelle Aster doesn\u2019t bow to convention\u2014not even that of space and time\u2014which makes the 1890s Kansas wheat field that has appeared in her modern-day San Francisco garden easy to accept. Even more peculiar is Elsbeth, the truculent schoolmarm who sends Annie letters through the mysterious brass mailbox perched on the picket fence that now divides their two worlds.Annie and Elsbeth\u2019s search for an explanation to the hiccup in the universe linking their homes leads to an unsettling discovery\u2014and potential disaster for both of them. Together they must solve the mystery of what connects them before one of them is convicted of a murder that has yet to happen\u2026and yet somehow already did.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 9,
-        "adult fiction": 9,
-        "fantasy": 64,
-        "fiction": 68,
-        "historical": 12,
-        "historical (historical fiction)": 42,
-        "magical realism": 16,
-        "mystery": 18,
-        "science fiction": 26,
-        "science fiction (time travel)": 68
+  "author": "Scott Wilbanks",
+  "id": "543",
+  "description": "Annabelle Aster doesn’t bow to convention—not even that of space and time—which makes the 1890s Kansas wheat field that has appeared in her modern-day San Francisco garden easy to accept. Even more peculiar is Elsbeth, the truculent schoolmarm who sends Annie letters through the mysterious brass mailbox perched on the picket fence that now divides their two worlds.Annie and Elsbeth’s search for an explanation to the hiccup in the universe linking their homes leads to an unsettling discovery—and potential disaster for both of them. Together they must solve the mystery of what connects them before one of them is convicted of a murder that has yet to happen…and yet somehow already did.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "magical realism",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "543_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "543_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "543_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "543_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "543_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "543_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2406,
-        "score": 3.71
+    {
+      "status": "on_loan",
+      "stock_id": "543_2"
     },
-    "pages": 221,
-    "title": "The Lemoncholy Life of Annie Aster",
-    "url": "https://www.goodreads.com/book/show/25029015-the-lemoncholy-life-of-annie-aster",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "543_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "543_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "543_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2406,
+    "score": 3.71
+  },
+  "pages": 221,
+  "title": "The Lemoncholy Life of Annie Aster",
+  "url": "https://www.goodreads.com/book/show/25029015-the-lemoncholy-life-of-annie-aster",
+  "year_published": 2015
 }

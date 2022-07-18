@@ -1,48 +1,48 @@
 {
-    "author": "Jay Kristoff",
-    "id": "2355",
-    "description": "Arashitoras are supposed to be extinct. So when Yukiko and her warrior father Masaru are sent to capture one for the Sh\u00f5gun, they fear that their lives are over \u2013 everyone knows what happens to those who fail the Lord of the Shima Isles. But the mission proves less impossible and more deadly than anyone expects. Soon Yukiko finds herself stranded: a young woman alone in her country's last wilderness, with only a furious, crippled arashitora for company. Although she can hear his thoughts, and saved his life, all she knows for certain is he'd rather see her dead than help her. Yet trapped together in the forest, Yukiko and the beast soon discover a bond that neither of them expected.Meanwhile, the country around them verges on collapse. A toxic fuel is choking the land, the machine-powered Lotus Guild is publicly burning those they deem Impure, and the Sh\u00f5gun cares for nothing but his own dominion. Authority has always made Yukiko, but her world changes when she meets Kin, a young man with secrets, and the rebel Kag\u00e9 cabal. She learns the horrifying extent of the Sh\u00f5gun's crimes, both against her country and her family.Returning to the city, Yukiko is determined to make the Sh\u00f5gun pay \u2013 but what can one girl and a flightless arashitora do against the might of an empire?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 92,
-        "cultural (japan)": 67,
-        "fantasy": 1692,
-        "fantasy (mythology)": 136,
-        "fiction": 133,
-        "science fiction": 152,
-        "science fiction (dystopia)": 209,
-        "science fiction (steampunk)": 884,
-        "young adult": 524,
-        "young adult (young adult fantasy)": 68
+  "author": "Jay Kristoff",
+  "id": "2355",
+  "description": "Arashitoras are supposed to be extinct. So when Yukiko and her warrior father Masaru are sent to capture one for the Shõgun, they fear that their lives are over – everyone knows what happens to those who fail the Lord of the Shima Isles. But the mission proves less impossible and more deadly than anyone expects. Soon Yukiko finds herself stranded: a young woman alone in her country's last wilderness, with only a furious, crippled arashitora for company. Although she can hear his thoughts, and saved his life, all she knows for certain is he'd rather see her dead than help her. Yet trapped together in the forest, Yukiko and the beast soon discover a bond that neither of them expected.Meanwhile, the country around them verges on collapse. A toxic fuel is choking the land, the machine-powered Lotus Guild is publicly burning those they deem Impure, and the Shõgun cares for nothing but his own dominion. Authority has always made Yukiko, but her world changes when she meets Kin, a young man with secrets, and the rebel Kagé cabal. She learns the horrifying extent of the Shõgun's crimes, both against her country and her family.Returning to the city, Yukiko is determined to make the Shõgun pay – but what can one girl and a flightless arashitora do against the might of an empire?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "cultural (japan)",
+    "fantasy",
+    "fantasy (mythology)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2355_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2355_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2355_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2355_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2355_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13846,
-        "score": 3.8
+    {
+      "status": "on_loan",
+      "stock_id": "2355_2"
     },
-    "pages": 1010,
-    "title": "Stormdancer",
-    "url": "https://www.goodreads.com/book/show/10852343-stormdancer",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "2355_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2355_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13846,
+    "score": 3.8
+  },
+  "pages": 1010,
+  "title": "Stormdancer",
+  "url": "https://www.goodreads.com/book/show/10852343-stormdancer",
+  "year_published": 2012
 }

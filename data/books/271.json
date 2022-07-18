@@ -1,62 +1,62 @@
 {
-    "author": "Justin Richards",
-    "id": "271",
-    "description": "In 1920s London the Doctor and Rose find themselves caught up in the hunt for a mysterious murderer. But not everything is what it seems. Secrets lie behind locked doors and inhuman killers roam the streets.Who is the Painted Lady and why is she so interested in the Doctor? How can a cat return from the dead? Can anyone be trusted to tell - or even to know - the truth?With the faceless killers closings in, the Doctor and Rose must solve the mystery of the Clockwise Man before London itself is destroyed...This is the first of a new series of hardcovers featuring the new Doctor Who from the new TV series.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 16,
-        "audiobook": 16,
-        "fantasy": 46,
-        "fiction": 81,
-        "media tie in": 19,
-        "media tie in (doctor who)": 446,
-        "mystery": 11,
-        "science fiction": 153,
-        "science fiction (aliens)": 11,
-        "science fiction (time travel)": 34
+  "author": "Justin Richards",
+  "id": "271",
+  "description": "In 1920s London the Doctor and Rose find themselves caught up in the hunt for a mysterious murderer. But not everything is what it seems. Secrets lie behind locked doors and inhuman killers roam the streets.Who is the Painted Lady and why is she so interested in the Doctor? How can a cat return from the dead? Can anyone be trusted to tell - or even to know - the truth?With the faceless killers closings in, the Doctor and Rose must solve the mystery of the Clockwise Man before London itself is destroyed...This is the first of a new series of hardcovers featuring the new Doctor Who from the new TV series.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "mystery",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "271_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "271_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "271_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "271_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "271_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "271_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "271_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "271_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "271_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3037,
-        "score": 3.62
+    {
+      "status": "maintenance",
+      "stock_id": "271_2"
     },
-    "pages": 1104,
-    "title": "Doctor Who: The Clockwise Man",
-    "url": "https://www.goodreads.com/book/show/678074.Doctor_Who",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "271_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "271_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "271_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "271_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "271_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "271_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3037,
+    "score": 3.62
+  },
+  "pages": 1104,
+  "title": "Doctor Who: The Clockwise Man",
+  "url": "https://www.goodreads.com/book/show/678074.Doctor_Who",
+  "year_published": 2005
 }

@@ -1,50 +1,50 @@
 {
-    "author": "Kelly Sue DeConnick",
-    "id": "1331",
-    "description": "Kelly Sue DeConnick (Avengers Assemble, Captain Marvel) and Emma Rios (Dr. Strange, Osborn) present the collected opening arc of their surprise-hit series that marries the magical realism of Sandman with the western brutality of Preacher. Death's daughter rides the wind on a horse made of smoke and her face bears the skull marks of her father. Her origin story is a tale of retribution as beautifully lush as it is unflinchingly savage. \"It's a perfect match for the gorgeous, dizzying artwork in a sumptuous palette-overlaid panels add intricate choreography to fight scenes, and detailed, whirling splash pages beg for long-lingering looks. Couple that, along with a handful of Eisner nominations, with a multicultural cast of tough-as-nails women who all fight for their own honor, and this is a series to watch out for.\" - Booklist\"It's ambitious and challenging (two qualities that are not often valued, but that probably should be), under a fa\u00e7ade of violence and sacrifice. Rio's art is lush and detailed, and is more than capable of keeping up with the far-reaching story.\" - PW",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 36,
-        "comics (comic book)": 67,
-        "fantasy": 488,
-        "fantasy (supernatural)": 36,
-        "fiction": 132,
-        "graphic novels comics": 161,
-        "horror": 84,
-        "sequential art (comics)": 935,
-        "sequential art (graphic novels)": 1129,
-        "westerns": 174
+  "author": "Kelly Sue DeConnick",
+  "id": "1331",
+  "description": "Kelly Sue DeConnick (Avengers Assemble, Captain Marvel) and Emma Rios (Dr. Strange, Osborn) present the collected opening arc of their surprise-hit series that marries the magical realism of Sandman with the western brutality of Preacher. Death's daughter rides the wind on a horse made of smoke and her face bears the skull marks of her father. Her origin story is a tale of retribution as beautifully lush as it is unflinchingly savage. \"It's a perfect match for the gorgeous, dizzying artwork in a sumptuous palette-overlaid panels add intricate choreography to fight scenes, and detailed, whirling splash pages beg for long-lingering looks. Couple that, along with a handful of Eisner nominations, with a multicultural cast of tough-as-nails women who all fight for their own honor, and this is a series to watch out for.\" - Booklist\"It's ambitious and challenging (two qualities that are not often valued, but that probably should be), under a façade of violence and sacrifice. Rio's art is lush and detailed, and is more than capable of keeping up with the far-reaching story.\" - PW",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "fantasy",
+    "fantasy (supernatural)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "westerns"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1331_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1331_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1331_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1331_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1331_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1331_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12260,
-        "score": 3.8
+    {
+      "status": "maintenance",
+      "stock_id": "1331_2"
     },
-    "pages": 277,
-    "title": "Pretty Deadly, Vol. 1: The Shrike",
-    "url": "https://www.goodreads.com/book/show/20638291-pretty-deadly-vol-1",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "1331_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1331_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1331_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12260,
+    "score": 3.8
+  },
+  "pages": 277,
+  "title": "Pretty Deadly, Vol. 1: The Shrike",
+  "url": "https://www.goodreads.com/book/show/20638291-pretty-deadly-vol-1",
+  "year_published": 2014
 }

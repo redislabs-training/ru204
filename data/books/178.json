@@ -1,39 +1,39 @@
 {
-    "author": "Philip K. Dick",
-    "id": "178",
-    "description": "Jim Parsons is a talented doctor, skilled at the most advanced medical techniques and dedicated to saving lives. But after a bizarre road accident leaves him hundreds of years in the future, Parsons is horrified to discover an incredibly advanced civilization that zealously embraces death. Now, he is caught between his own instincts and training as a healer and a society where it is illegal to save lives. But Parsons is not the only one left who believes in prolonging life, and those who share his beliefs have desperate plans for Dr. Parsons' skills, and for the future of their society. Dr. Futurity is not only a thrilling rendition of a terrifying future but it is also a fantastic examination of the paradoxes of time-travel that could only have come from the mind of Philip K. Dick.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 4,
-        "classics": 4,
-        "fiction": 59,
-        "literature (american)": 7,
-        "novels": 6,
-        "science fiction": 158,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 7,
-        "speculative fiction": 5,
-        "travel": 5
+  "author": "Philip K. Dick",
+  "id": "178",
+  "description": "Jim Parsons is a talented doctor, skilled at the most advanced medical techniques and dedicated to saving lives. But after a bizarre road accident leaves him hundreds of years in the future, Parsons is horrified to discover an incredibly advanced civilization that zealously embraces death. Now, he is caught between his own instincts and training as a healer and a society where it is illegal to save lives. But Parsons is not the only one left who believes in prolonging life, and those who share his beliefs have desperate plans for Dr. Parsons' skills, and for the future of their society. Dr. Futurity is not only a thrilling rendition of a terrifying future but it is also a fantastic examination of the paradoxes of time-travel that could only have come from the mind of Philip K. Dick.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fiction",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "178_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "178_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "178_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2006,
-        "score": 3.47
-    },
-    "pages": 1344,
-    "title": "Dr. Futurity",
-    "url": "https://www.goodreads.com/book/show/216384.Dr_Futurity",
-    "year_published": 1960
+    {
+      "status": "available",
+      "stock_id": "178_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2006,
+    "score": 3.47
+  },
+  "pages": 1344,
+  "title": "Dr. Futurity",
+  "url": "https://www.goodreads.com/book/show/216384.Dr_Futurity",
+  "year_published": 1960
 }

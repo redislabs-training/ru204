@@ -1,52 +1,52 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1546",
-    "description": "A generation after the events of The Long Earth, mankind has spread across the new worlds opened up by Stepping. Where Joshua and Lobsang once pioneered, now fleets of airships link the stepwise Americas with trade and culture. Mankind is shaping the Long Earth - but in turn the Long Earth is shaping mankind... A new 'America', called Valhalla, is emerging more than a million steps from Datum Earth, with core American values restated in the plentiful environment of the Long Earth - and Valhalla is growing restless under the control of the Datum government...Meanwhile the Long Earth is suffused by the song of the trolls, graceful hive-mind humanoids. But the trolls are beginning to react to humanity's thoughtless exploitation... Joshua, now a married man, is summoned by Lobsang to deal with a gathering multiple crisis that threatens to plunge the Long Earth into a war unlike any mankind has waged before.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 13,
-        "adventure": 37,
-        "audiobook": 47,
-        "european literature (british literature)": 12,
-        "fantasy": 257,
-        "fiction": 278,
-        "humor": 11,
-        "science fiction": 673,
-        "science fiction fantasy": 43,
-        "speculative fiction": 23
+  "author": "Terry Pratchett",
+  "id": "1546",
+  "description": "A generation after the events of The Long Earth, mankind has spread across the new worlds opened up by Stepping. Where Joshua and Lobsang once pioneered, now fleets of airships link the stepwise Americas with trade and culture. Mankind is shaping the Long Earth - but in turn the Long Earth is shaping mankind... A new 'America', called Valhalla, is emerging more than a million steps from Datum Earth, with core American values restated in the plentiful environment of the Long Earth - and Valhalla is growing restless under the control of the Datum government...Meanwhile the Long Earth is suffused by the song of the trolls, graceful hive-mind humanoids. But the trolls are beginning to react to humanity's thoughtless exploitation... Joshua, now a married man, is summoned by Lobsang to deal with a gathering multiple crisis that threatens to plunge the Long Earth into a war unlike any mankind has waged before.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1546_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1546_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1546_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1546_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1546_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1546_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21761,
-        "score": 3.63
+    {
+      "status": "available",
+      "stock_id": "1546_2"
     },
-    "pages": 1166,
-    "title": "The Long War",
-    "url": "https://www.goodreads.com/book/show/17167572-the-long-war",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "1546_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1546_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1546_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21761,
+    "score": 3.63
+  },
+  "pages": 1166,
+  "title": "The Long War",
+  "url": "https://www.goodreads.com/book/show/17167572-the-long-war",
+  "year_published": 2013
 }

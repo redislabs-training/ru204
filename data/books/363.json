@@ -1,50 +1,50 @@
 {
-    "author": "Alex Scarrow",
-    "id": "363",
-    "description": "ISBN 9780141326931 moved to the most recent edition hereLiam O\u2019Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.But all three have been given a second chance\u2014to work for an agency that no-one knows exists. Its purpose\u2014to prevent time travel destroying history . . .When Maddy mistakenly opens a time window where and when she shouldn\u2019t have, Liam is marooned sixty-five million years ago in the hunting ground of a deadly\u2014and until now\u2014undiscovered species of predator.Can Liam make contact with Maddy and Sal before he\u2019s torn to pieces by dinosaurs\u2014and without endangering history so much that the world is overtaken by a terrifying new reality?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 15,
-        "adventure": 44,
-        "fantasy": 49,
-        "fiction": 39,
-        "historical (historical fiction)": 11,
-        "mystery": 11,
-        "science fiction": 107,
-        "science fiction (time travel)": 95,
-        "thriller": 11,
-        "young adult": 94
+  "author": "Alex Scarrow",
+  "id": "363",
+  "description": "ISBN 9780141326931 moved to the most recent edition hereLiam O’Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.But all three have been given a second chance—to work for an agency that no-one knows exists. Its purpose—to prevent time travel destroying history . . .When Maddy mistakenly opens a time window where and when she shouldn’t have, Liam is marooned sixty-five million years ago in the hunting ground of a deadly—and until now—undiscovered species of predator.Can Liam make contact with Maddy and Sal before he’s torn to pieces by dinosaurs—and without endangering history so much that the world is overtaken by a terrifying new reality?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "363_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "363_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "363_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "363_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "363_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "363_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4643,
-        "score": 4.08
+    {
+      "status": "available",
+      "stock_id": "363_2"
     },
-    "pages": 476,
-    "title": "Day of the Predator",
-    "url": "https://www.goodreads.com/book/show/8129464-day-of-the-predator",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "363_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "363_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "363_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4643,
+    "score": 4.08
+  },
+  "pages": 476,
+  "title": "Day of the Predator",
+  "url": "https://www.goodreads.com/book/show/8129464-day-of-the-predator",
+  "year_published": 2010
 }

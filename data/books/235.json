@@ -1,51 +1,51 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "235",
-    "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!Beware of Vikings! warns Morgan. Then Jack and Annie are whisked back to ancient Ireland. They land on a cliff on a misty island. How will they find the story they are looking for? It will take a Viking invasion, the help of a jolly monk, and a lot of courage for Jack and Annie to succeed in Viking Ships at Sunrise.Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 36,
-        "childrens": 110,
-        "childrens (chapter books)": 44,
-        "fantasy": 119,
-        "fantasy (magic)": 22,
-        "fiction": 75,
-        "historical": 31,
-        "historical (historical fiction)": 59,
-        "science fiction (time travel)": 24,
-        "young adult": 22
+  "author": "Mary Pope Osborne",
+  "id": "235",
+  "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!Beware of Vikings! warns Morgan. Then Jack and Annie are whisked back to ancient Ireland. They land on a cliff on a misty island. How will they find the story they are looking for? It will take a Viking invasion, the help of a jolly monk, and a lot of courage for Jack and Annie to succeed in Viking Ships at Sunrise.Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "235_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "235_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "235_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "235_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "235_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "235_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7718,
-        "score": 3.87
+    {
+      "status": "maintenance",
+      "stock_id": "235_2"
     },
-    "pages": 241,
-    "title": "Viking Ships At Sunrise",
-    "url": "https://www.goodreads.com/book/show/181399.Viking_Ships_At_Sunrise",
-    "year_published": 1998
+    {
+      "status": "maintenance",
+      "stock_id": "235_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "235_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "235_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7718,
+    "score": 3.87
+  },
+  "pages": 241,
+  "title": "Viking Ships At Sunrise",
+  "url": "https://www.goodreads.com/book/show/181399.Viking_Ships_At_Sunrise",
+  "year_published": 1998
 }

@@ -1,39 +1,39 @@
 {
-    "author": "Philip Reeve",
-    "id": "1243",
-    "description": "In this breathtaking sequel to his award-winning Mortal Engines, Reeve plunges readers into a ruthless and terrifyingly believable world where cities eat each other, betrayal is as common as ice, and loyalty offers the only chance for survival.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 83,
-        "apocalyptic (post apocalyptic)": 57,
-        "audiobook": 61,
-        "fantasy": 379,
-        "fiction": 173,
-        "science fiction": 356,
-        "science fiction (dystopia)": 126,
-        "science fiction (steampunk)": 335,
-        "young adult": 384,
-        "young adult (teen)": 35
+  "author": "Philip Reeve",
+  "id": "1243",
+  "description": "In this breathtaking sequel to his award-winning Mortal Engines, Reeve plunges readers into a ruthless and terrifyingly believable world where cities eat each other, betrayal is as common as ice, and loyalty offers the only chance for survival.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1243_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1243_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1243_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19035,
-        "score": 3.96
-    },
-    "pages": 616,
-    "title": "Predator's Gold",
-    "url": "https://www.goodreads.com/book/show/48722.Predator_s_Gold",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "1243_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19035,
+    "score": 3.96
+  },
+  "pages": 616,
+  "title": "Predator's Gold",
+  "url": "https://www.goodreads.com/book/show/48722.Predator_s_Gold",
+  "year_published": 2003
 }

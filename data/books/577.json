@@ -1,34 +1,34 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "577",
-    "description": "Jack and Annie are in for an exciting, scary, and sad adventure when the Magic Tree House whisks them back to the decks of the \"Titanic.\" Is there anything they can do to help the ill-fated ship? Will they be able to save anyone? Will they be able to save themselves?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 54,
-        "childrens": 139,
-        "childrens (chapter books)": 59,
-        "childrens (juvenile)": 22,
-        "fantasy": 133,
-        "fantasy (magic)": 32,
-        "fiction": 100,
-        "historical": 34,
-        "historical (historical fiction)": 113,
-        "science fiction (time travel)": 28
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "577_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12859,
-        "score": 4.05
-    },
-    "pages": 744,
-    "title": "Tonight on the Titanic",
-    "url": "https://www.goodreads.com/book/show/127335.Tonight_on_the_Titanic",
-    "year_published": 1999
+  "author": "Mary Pope Osborne",
+  "id": "577",
+  "description": "Jack and Annie are in for an exciting, scary, and sad adventure when the Magic Tree House whisks them back to the decks of the \"Titanic.\" Is there anything they can do to help the ill-fated ship? Will they be able to save anyone? Will they be able to save themselves?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "577_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12859,
+    "score": 4.05
+  },
+  "pages": 744,
+  "title": "Tonight on the Titanic",
+  "url": "https://www.goodreads.com/book/show/127335.Tonight_on_the_Titanic",
+  "year_published": 1999
 }

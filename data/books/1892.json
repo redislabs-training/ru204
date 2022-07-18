@@ -1,42 +1,42 @@
 {
-    "author": "China Mi\u00e9ville",
-    "id": "1892",
-    "description": "What is Un Lun Dun?  It is London through the looking glass, an urban Wonderland of strange delights where all the lost and broken things of London end up . . . and some of its lost and broken people, too\u2013including Brokkenbroll, boss of the broken umbrellas; Obaday Fing, a tailor whose head is an enormous pin-cushion, and an empty milk carton called Curdle. Un Lun Dun is a place where words are alive, a jungle lurks behind the door of an ordinary house, carnivorous giraffes stalk the streets, and a dark cloud dreams of burning the world. It is a city awaiting its hero, whose coming was prophesied long ago, set down for all time in the pages of a talking book.  When twelve-year-old Zanna and her friend Deeba find a secret entrance leading out of London and into this strange city, it seems that the ancient prophecy is coming true at last. But then things begin to go shockingly wrong.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 75,
-        "childrens": 85,
-        "childrens (middle grade)": 55,
-        "fantasy": 1450,
-        "fantasy (urban fantasy)": 234,
-        "fiction": 351,
-        "science fiction": 83,
-        "science fiction (steampunk)": 127,
-        "science fiction fantasy": 70,
-        "young adult": 595
+  "author": "China Miéville",
+  "id": "1892",
+  "description": "What is Un Lun Dun?  It is London through the looking glass, an urban Wonderland of strange delights where all the lost and broken things of London end up . . . and some of its lost and broken people, too–including Brokkenbroll, boss of the broken umbrellas; Obaday Fing, a tailor whose head is an enormous pin-cushion, and an empty milk carton called Curdle. Un Lun Dun is a place where words are alive, a jungle lurks behind the door of an ordinary house, carnivorous giraffes stalk the streets, and a dark cloud dreams of burning the world. It is a city awaiting its hero, whose coming was prophesied long ago, set down for all time in the pages of a talking book.  When twelve-year-old Zanna and her friend Deeba find a secret entrance leading out of London and into this strange city, it seems that the ancient prophecy is coming true at last. But then things begin to go shockingly wrong.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1892_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1892_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1892_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1892_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17794,
-        "score": 3.82
+    {
+      "status": "maintenance",
+      "stock_id": "1892_2"
     },
-    "pages": 1350,
-    "title": "Un Lun Dun",
-    "url": "https://www.goodreads.com/book/show/68496.Un_Lun_Dun",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "1892_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17794,
+    "score": 3.82
+  },
+  "pages": 1350,
+  "title": "Un Lun Dun",
+  "url": "https://www.goodreads.com/book/show/68496.Un_Lun_Dun",
+  "year_published": 2007
 }

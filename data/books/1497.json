@@ -1,64 +1,64 @@
 {
-    "author": "Richard K. Morgan",
-    "id": "1497",
-    "description": "Welcome back to the brash, brutal new world of the twenty-fifth century: where global politics isn\u2019t just for planet Earth anymore; and where death is just a break in the action, thanks to the techno-miracle that can preserve human consciousness and download it into one new body after another.Cynical, quick-on-the-trigger Takeshi Kovacs, the ex-U.N. envoy turned private eye, has changed careers - and bodies - once more... trading sleuthing for soldiering as a warrior-for-hire, and helping a far-flung planet\u2019s government put down a bloody revolution.But when it comes to taking sides, the only one Kovacs is ever really on is his own. So when a rogue pilot and a sleazy corporate fat cat offer him a lucrative role in a treacherous treasure hunt, he\u2019s only too happy to go AWOL with a band of resurrected soldiers of fortune. All that stands between them and the ancient alien spacecraft they mean to salvage are a massacred city bathed in deadly radiation, unleashed nanotechnolgy with a million ways to kill, and whatever surprises the highly advanced Martian race may have in store. But armed with his genetically engineered instincts, and his trusty twin Kalashnikovs, Takeshi is ready to take on anything \u2014 and let the devil take whoever\u2019s left behind.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 52,
-        "fantasy": 40,
-        "fiction": 333,
-        "mystery": 44,
-        "mystery (noir)": 31,
-        "science fiction": 1079,
-        "science fiction (cyberpunk)": 302,
-        "science fiction fantasy": 52,
-        "space (space opera)": 30,
-        "thriller": 55
+  "author": "Richard K. Morgan",
+  "id": "1497",
+  "description": "Welcome back to the brash, brutal new world of the twenty-fifth century: where global politics isn’t just for planet Earth anymore; and where death is just a break in the action, thanks to the techno-miracle that can preserve human consciousness and download it into one new body after another.Cynical, quick-on-the-trigger Takeshi Kovacs, the ex-U.N. envoy turned private eye, has changed careers - and bodies - once more... trading sleuthing for soldiering as a warrior-for-hire, and helping a far-flung planet’s government put down a bloody revolution.But when it comes to taking sides, the only one Kovacs is ever really on is his own. So when a rogue pilot and a sleazy corporate fat cat offer him a lucrative role in a treacherous treasure hunt, he’s only too happy to go AWOL with a band of resurrected soldiers of fortune. All that stands between them and the ancient alien spacecraft they mean to salvage are a massacred city bathed in deadly radiation, unleashed nanotechnolgy with a million ways to kill, and whatever surprises the highly advanced Martian race may have in store. But armed with his genetically engineered instincts, and his trusty twin Kalashnikovs, Takeshi is ready to take on anything — and let the devil take whoever’s left behind.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "mystery (noir)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "space (space opera)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1497_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1497_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1497_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1497_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1497_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1497_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1497_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1497_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1497_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 31893,
-        "score": 3.94
+    {
+      "status": "available",
+      "stock_id": "1497_2"
     },
-    "pages": 820,
-    "title": "Broken Angels",
-    "url": "https://www.goodreads.com/book/show/279561.Broken_Angels",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "1497_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1497_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1497_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1497_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1497_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1497_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 31893,
+    "score": 3.94
+  },
+  "pages": 820,
+  "title": "Broken Angels",
+  "url": "https://www.goodreads.com/book/show/279561.Broken_Angels",
+  "year_published": 2003
 }

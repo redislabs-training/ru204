@@ -1,38 +1,38 @@
 {
-    "author": "Alison Goodman",
-    "id": "4301",
-    "description": "Also Known As: Two Pearls of Wisdom, Eon: Rise of the Dragoneye, and Eon (All the same book just published with different publishers)Swordplay, dragon magic--and a hero with a desperate secretTwelve-year-old Eon has been in training for years. His intensive study of Dragon Magic, based on East Asian astrology, involves two kinds of skills: sword-work and magical aptitude. He and his master hope that he will be chosen as a Dragoneye--an apprentice to one of the twelve energy dragons of good fortune. But Eon has a dangerous secret. He is actually Eona, a sixteen-year-old girl who has been masquerading as a boy for the chance to become a Dragoneye. Females are forbidden to use Dragon Magic; if anyone discovers she has been hiding in plain sight, her death is assured.When Eon's secret threatens to come to light, she and her allies are plunged into grave danger and a deadly struggle for the Imperial throne. Eon must find the strength and inner power to battle those who want to take her magic...and her life.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 275,
-        "fantasy": 3882,
-        "fantasy (dragons)": 874,
-        "fantasy (high fantasy)": 244,
-        "fantasy (magic)": 362,
-        "fantasy (mythology)": 157,
-        "fiction": 265,
-        "young adult": 1625,
-        "young adult (teen)": 106,
-        "young adult (young adult fantasy)": 240
+  "author": "Alison Goodman",
+  "id": "4301",
+  "description": "Also Known As: Two Pearls of Wisdom, Eon: Rise of the Dragoneye, and Eon (All the same book just published with different publishers)Swordplay, dragon magic--and a hero with a desperate secretTwelve-year-old Eon has been in training for years. His intensive study of Dragon Magic, based on East Asian astrology, involves two kinds of skills: sword-work and magical aptitude. He and his master hope that he will be chosen as a Dragoneye--an apprentice to one of the twelve energy dragons of good fortune. But Eon has a dangerous secret. He is actually Eona, a sixteen-year-old girl who has been masquerading as a boy for the chance to become a Dragoneye. Females are forbidden to use Dragon Magic; if anyone discovers she has been hiding in plain sight, her death is assured.When Eon's secret threatens to come to light, she and her allies are plunged into grave danger and a deadly struggle for the Imperial throne. Eon must find the strength and inner power to battle those who want to take her magic...and her life.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fiction",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "4301_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "4301_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4301_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 61881,
-        "score": 3.93
-    },
-    "pages": 513,
-    "title": "Eon: Dragoneye Reborn",
-    "url": "https://www.goodreads.com/book/show/2986865-eon",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "4301_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 61881,
+    "score": 3.93
+  },
+  "pages": 513,
+  "title": "Eon: Dragoneye Reborn",
+  "url": "https://www.goodreads.com/book/show/2986865-eon",
+  "year_published": 2008
 }

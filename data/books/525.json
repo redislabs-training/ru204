@@ -1,56 +1,56 @@
 {
-    "author": "Kristen Landon",
-    "id": "525",
-    "description": "An eighth grade girl was taken today . . . With this first sentence, readers are immediately thrust into a fast-paced thriller that doesn't let up for a moment. In a world not too far removed from our own, kids are being taken away to special workhouses if their families exceed the monthly debt limit imposed by the government. Thirteen-year-old Matt briefly wonders if he might be next, but quickly dismisses the thought. After all, his parents are financially responsible, unlike the parents of those other kids. As long as his parents remain within their limit, the government will be satisfied and leave them alone. But all it takes is one fatal visit to the store to push Matt\u2019s family over their limit\u2014and to change his reality forever. Kristen Landon's The Limit brings the popular dystopian thriller genre to\u00a0a middle grade audience.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 10,
-        "adventure": 19,
-        "childrens (juvenile)": 12,
-        "childrens (middle grade)": 19,
-        "fiction": 27,
-        "science fiction": 44,
-        "science fiction (dystopia)": 55,
-        "thriller": 8,
-        "young adult": 73,
-        "young adult (teen)": 14
+  "author": "Kristen Landon",
+  "id": "525",
+  "description": "An eighth grade girl was taken today . . . With this first sentence, readers are immediately thrust into a fast-paced thriller that doesn't let up for a moment. In a world not too far removed from our own, kids are being taken away to special workhouses if their families exceed the monthly debt limit imposed by the government. Thirteen-year-old Matt briefly wonders if he might be next, but quickly dismisses the thought. After all, his parents are financially responsible, unlike the parents of those other kids. As long as his parents remain within their limit, the government will be satisfied and leave them alone. But all it takes is one fatal visit to the store to push Matt’s family over their limit—and to change his reality forever. Kristen Landon's The Limit brings the popular dystopian thriller genre to a middle grade audience.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "525_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "525_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "525_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "525_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "525_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "525_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "525_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2987,
-        "score": 3.77
+    {
+      "status": "on_loan",
+      "stock_id": "525_2"
     },
-    "pages": 1365,
-    "title": "The Limit",
-    "url": "https://www.goodreads.com/book/show/7327325-the-limit",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "525_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "525_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "525_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "525_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2987,
+    "score": 3.77
+  },
+  "pages": 1365,
+  "title": "The Limit",
+  "url": "https://www.goodreads.com/book/show/7327325-the-limit",
+  "year_published": 2010
 }

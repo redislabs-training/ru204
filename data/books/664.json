@@ -1,43 +1,43 @@
 {
-    "author": "Stanis\u0142aw Lem",
-    "id": "664",
-    "description": "A brilliantly funny collection of stories for the next age, from the celebrated author of Solaris. Ranging from the prophetic to the surreal, these stories demonstrate Stanislaw Lem's vast talent and remarkable ability to blend meaning and magic into a wholly entertaining and captivating work.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 26,
-        "cultural (poland)": 24,
-        "european literature (polish literature)": 64,
-        "fantasy": 54,
-        "fiction": 301,
-        "humor": 87,
-        "science fiction": 604,
-        "science fiction fantasy": 34,
-        "short stories": 231,
-        "speculative fiction": 23
+  "author": "Stanisław Lem",
+  "id": "664",
+  "description": "A brilliantly funny collection of stories for the next age, from the celebrated author of Solaris. Ranging from the prophetic to the surreal, these stories demonstrate Stanislaw Lem's vast talent and remarkable ability to blend meaning and magic into a wholly entertaining and captivating work.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "cultural (poland)",
+    "european literature (polish literature)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "664_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "664_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "664_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "664_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10410,
-        "score": 4.17
+    {
+      "status": "available",
+      "stock_id": "664_2"
     },
-    "pages": 246,
-    "title": "The Cyberiad",
-    "url": "https://www.goodreads.com/book/show/18194.The_Cyberiad",
-    "year_published": 1965
+    {
+      "status": "available",
+      "stock_id": "664_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10410,
+    "score": 4.17
+  },
+  "pages": 246,
+  "title": "The Cyberiad",
+  "url": "https://www.goodreads.com/book/show/18194.The_Cyberiad",
+  "year_published": 1965
 }

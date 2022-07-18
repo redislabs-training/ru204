@@ -1,39 +1,39 @@
 {
-    "author": "C.A. Fletcher",
-    "id": "1598",
-    "description": "My name's Griz. My childhood wasn't like yours. I've never had friends, and in my whole life I've not met enough people to play a game of football. My parents told me how crowded the world used to be, but we were never lonely on our remote island. We had each other, and our dogs. Then the thief came. There may be no law left except what you make of it. But if you steal my dog, you can at least expect me to come after you. Because if we aren't loyal to the things we love, what's the point?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 33,
-        "animals (dogs)": 29,
-        "apocalyptic (post apocalyptic)": 101,
-        "audiobook": 33,
-        "fantasy": 67,
-        "fiction": 186,
-        "science fiction": 181,
-        "science fiction (apocalyptic)": 35,
-        "science fiction (dystopia)": 120,
-        "young adult": 50
+  "author": "C.A. Fletcher",
+  "id": "1598",
+  "description": "My name's Griz. My childhood wasn't like yours. I've never had friends, and in my whole life I've not met enough people to play a game of football. My parents told me how crowded the world used to be, but we were never lonely on our remote island. We had each other, and our dogs. Then the thief came. There may be no law left except what you make of it. But if you steal my dog, you can at least expect me to come after you. Because if we aren't loyal to the things we love, what's the point?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals (dogs)",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1598_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1598_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1598_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8723,
-        "score": 4.16
-    },
-    "pages": 822,
-    "title": "A Boy and His Dog at the End of the World",
-    "url": "https://www.goodreads.com/book/show/40698027-a-boy-and-his-dog-at-the-end-of-the-world",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "1598_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8723,
+    "score": 4.16
+  },
+  "pages": 822,
+  "title": "A Boy and His Dog at the End of the World",
+  "url": "https://www.goodreads.com/book/show/40698027-a-boy-and-his-dog-at-the-end-of-the-world",
+  "year_published": 2019
 }

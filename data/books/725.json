@@ -1,66 +1,66 @@
 {
-    "author": "Isaac Marion",
-    "id": "725",
-    "description": "The end of the world didn\u2019t happen overnight.After years of societal breakdowns, wars and quakes and rising tides, humanity was already near the edge. Then came a final blow no one could have expected: all the world\u2019s corpses rising up to make more.Born into this bleak and bloody landscape, twelve-year-old Julie struggles to hold on to hope as she and her parents drive across the wastelands of America, a nightmarish road trip in search of a new home.Hungry, lost, and scared, sixteen-year-old Nora finds herself her brother\u2019s sole guardian after her parents abandon them in the not-quite-empty ruins of Seattle.And in the darkness of a forest, a dead man opens his eyes. Who is he? What is he? With no clues beyond a red tie and the letter \u201cR,\u201d he must unravel the grim mystery of his existence\u2014right after he learns how to think, how to walk, and how to satisfy the monster howling in his belly. The New Hunger is a glimpse of the past and a path to an astonishing future\u2026",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 44,
-        "fantasy": 44,
-        "fantasy (paranormal)": 42,
-        "fiction": 85,
-        "horror": 129,
-        "horror (zombies)": 211,
-        "novella": 31,
-        "science fiction": 47,
-        "science fiction (dystopia)": 57,
-        "young adult": 94
+  "author": "Isaac Marion",
+  "id": "725",
+  "description": "The end of the world didn’t happen overnight.After years of societal breakdowns, wars and quakes and rising tides, humanity was already near the edge. Then came a final blow no one could have expected: all the world’s corpses rising up to make more.Born into this bleak and bloody landscape, twelve-year-old Julie struggles to hold on to hope as she and her parents drive across the wastelands of America, a nightmarish road trip in search of a new home.Hungry, lost, and scared, sixteen-year-old Nora finds herself her brother’s sole guardian after her parents abandon them in the not-quite-empty ruins of Seattle.And in the darkness of a forest, a dead man opens his eyes. Who is he? What is he? With no clues beyond a red tie and the letter “R,” he must unravel the grim mystery of his existence—right after he learns how to think, how to walk, and how to satisfy the monster howling in his belly. The New Hunger is a glimpse of the past and a path to an astonishing future…",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "725_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "725_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "725_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "725_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "725_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "725_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "725_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "725_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "725_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "725_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5004,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "725_2"
     },
-    "pages": 617,
-    "title": "The New Hunger",
-    "url": "https://www.goodreads.com/book/show/25778505-the-new-hunger",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "725_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "725_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "725_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "725_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "725_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "725_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "725_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5004,
+    "score": 3.91
+  },
+  "pages": 617,
+  "title": "The New Hunger",
+  "url": "https://www.goodreads.com/book/show/25778505-the-new-hunger",
+  "year_published": 2013
 }

@@ -1,67 +1,67 @@
 {
-    "author": "Philip Pullman",
-    "id": "5283",
-    "description": "The Golden Compass, The Subtle Knife, and The Amber Spyglass are available together in one volume perfect for any fan or newcomer to this modern fantasy classic series.These thrilling adventures tell the story of Lyra and Will\u2014two ordinary children on a perilous journey through shimmering haunted otherworlds. They will meet witches and armored bears, fallen angels and soul-eating specters. And in the end, the fate of both the living\u2014and the dead\u2014will rely on them.Phillip Pullman\u2019s spellbinding His Dark Materials trilogy has captivated readers for over twenty years and won acclaim at every turn. It will have you questioning everything you know about your world and wondering what really lies just out of reach.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 205,
-        "childrens": 270,
-        "childrens (middle grade)": 127,
-        "classics": 143,
-        "fantasy": 4370,
-        "fiction": 1124,
-        "science fiction": 194,
-        "science fiction (steampunk)": 121,
-        "science fiction fantasy": 218,
-        "young adult": 1201
+  "author": "Philip Pullman",
+  "id": "5283",
+  "description": "The Golden Compass, The Subtle Knife, and The Amber Spyglass are available together in one volume perfect for any fan or newcomer to this modern fantasy classic series.These thrilling adventures tell the story of Lyra and Will—two ordinary children on a perilous journey through shimmering haunted otherworlds. They will meet witches and armored bears, fallen angels and soul-eating specters. And in the end, the fate of both the living—and the dead—will rely on them.Phillip Pullman’s spellbinding His Dark Materials trilogy has captivated readers for over twenty years and won acclaim at every turn. It will have you questioning everything you know about your world and wondering what really lies just out of reach.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "5283_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "5283_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5283_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5283_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5283_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5283_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "5283_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "5283_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "5283_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5283_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 148234,
-        "score": 4.25
+    {
+      "status": "on_loan",
+      "stock_id": "5283_2"
     },
-    "pages": 1323,
-    "title": "His Dark Materials",
-    "url": "https://www.goodreads.com/book/show/18116.His_Dark_Materials",
-    "year_published": 2000
+    {
+      "status": "maintenance",
+      "stock_id": "5283_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5283_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5283_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "5283_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "5283_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "5283_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5283_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 148234,
+    "score": 4.25
+  },
+  "pages": 1323,
+  "title": "His Dark Materials",
+  "url": "https://www.goodreads.com/book/show/18116.His_Dark_Materials",
+  "year_published": 2000
 }

@@ -1,55 +1,55 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "1543",
-    "description": "The multiple Eisner and Harvey Award-winning series from BRIAN K. VAUGHAN and CLIFF CHIANG continues, as newspaper deliverers Erin, Mac and Tiffany finally reunite with their long-lost friend KJ in an unexpected new era, where the girls must uncover the secret origins of time travel... or risk never returning home to 1988. Collects issues 11 through 15!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 64,
-        "comics (comic book)": 74,
-        "fantasy": 111,
-        "fiction": 203,
-        "graphic novels comics": 175,
-        "science fiction": 429,
-        "science fiction (time travel)": 189,
-        "sequential art (comics)": 695,
-        "sequential art (graphic novels)": 1399,
-        "young adult": 147
+  "author": "Brian K. Vaughan",
+  "id": "1543",
+  "description": "The multiple Eisner and Harvey Award-winning series from BRIAN K. VAUGHAN and CLIFF CHIANG continues, as newspaper deliverers Erin, Mac and Tiffany finally reunite with their long-lost friend KJ in an unexpected new era, where the girls must uncover the secret origins of time travel... or risk never returning home to 1988. Collects issues 11 through 15!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1543_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1543_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1543_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1543_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1543_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1543_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1543_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15893,
-        "score": 4.08
+    {
+      "status": "available",
+      "stock_id": "1543_2"
     },
-    "pages": 1325,
-    "title": "Paper Girls, Vol. 3",
-    "url": "https://www.goodreads.com/book/show/34504722-paper-girls-vol-3",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "1543_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1543_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1543_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1543_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15893,
+    "score": 4.08
+  },
+  "pages": 1325,
+  "title": "Paper Girls, Vol. 3",
+  "url": "https://www.goodreads.com/book/show/34504722-paper-girls-vol-3",
+  "year_published": 2017
 }

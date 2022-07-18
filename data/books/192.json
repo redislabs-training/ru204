@@ -1,59 +1,59 @@
 {
-    "author": "Philip Pullman",
-    "id": "192",
-    "description": "Trapped in the mists of time by a terrible research experiment gone wrong, John Blake and his mysterious ship are doomed to sail between the centuries, searching for a way home. In the ocean of the modern day, John rescues a shipwrecked young girl his own age, Serena, and promises to help.But returning Serena to her own time means traveling to the one place where the ship is in most danger of destruction. The all-powerful Dahlberg Corporation has an ambitious leader with plans far greater and more terrible than anyone has realized, and he is hot on their trail. For only John, Serena, and the crew know Dahlberg's true intentions, and only they have the power to stop him from bending the world to his will.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 27,
-        "childrens (middle grade)": 19,
-        "fantasy": 19,
-        "fiction": 21,
-        "mystery": 9,
-        "science fiction": 22,
-        "science fiction (time travel)": 26,
-        "sequential art (comics)": 29,
-        "sequential art (graphic novels)": 105,
-        "young adult": 23
+  "author": "Philip Pullman",
+  "id": "192",
+  "description": "Trapped in the mists of time by a terrible research experiment gone wrong, John Blake and his mysterious ship are doomed to sail between the centuries, searching for a way home. In the ocean of the modern day, John rescues a shipwrecked young girl his own age, Serena, and promises to help.But returning Serena to her own time means traveling to the one place where the ship is in most danger of destruction. The all-powerful Dahlberg Corporation has an ambitious leader with plans far greater and more terrible than anyone has realized, and he is hot on their trail. For only John, Serena, and the crew know Dahlberg's true intentions, and only they have the power to stop him from bending the world to his will.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "192_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "192_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "192_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "192_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "192_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "192_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "192_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "192_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 885,
-        "score": 3.6
+    {
+      "status": "on_loan",
+      "stock_id": "192_2"
     },
-    "pages": 937,
-    "title": "The Adventures of John Blake: Mystery of the Ghost Ship",
-    "url": "https://www.goodreads.com/book/show/31177599-the-adventures-of-john-blake",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "192_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "192_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "192_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "192_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "192_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 885,
+    "score": 3.6
+  },
+  "pages": 937,
+  "title": "The Adventures of John Blake: Mystery of the Ghost Ship",
+  "url": "https://www.goodreads.com/book/show/31177599-the-adventures-of-john-blake",
+  "year_published": 2017
 }

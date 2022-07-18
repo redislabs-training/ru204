@@ -1,59 +1,59 @@
 {
-    "author": "Ted Chiang",
-    "id": "398",
-    "description": "In medieval Baghdad, a penniless man is brought before the most powerful man in the world, the caliph himself, to tell his story. It begins with a walk in the bazaar, but soon grows into a tale unlike any other told in the caliph's empire. It's a story that includes not just buried treasure and a band of thieves, but also men haunted by their past and others trapped by their future; it includes not just a beloved wife and a veiled seductress, but also long journeys taken by caravan and even longer ones taken with a single step. Above all, it's a story about recognizing the will of Allah and accepting it, no matter what form it takes.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 242,
-        "fiction": 139,
-        "historical (historical fiction)": 23,
-        "novella": 19,
-        "science fiction": 147,
-        "science fiction (steampunk)": 7,
-        "science fiction (time travel)": 54,
-        "science fiction fantasy": 22,
-        "short stories": 168,
-        "speculative fiction": 15
+  "author": "Ted Chiang",
+  "id": "398",
+  "description": "In medieval Baghdad, a penniless man is brought before the most powerful man in the world, the caliph himself, to tell his story. It begins with a walk in the bazaar, but soon grows into a tale unlike any other told in the caliph's empire. It's a story that includes not just buried treasure and a band of thieves, but also men haunted by their past and others trapped by their future; it includes not just a beloved wife and a veiled seductress, but also long journeys taken by caravan and even longer ones taken with a single step. Above all, it's a story about recognizing the will of Allah and accepting it, no matter what form it takes.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "novella",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "398_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "398_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "398_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "398_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "398_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "398_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "398_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "398_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3668,
-        "score": 4.34
+    {
+      "status": "on_loan",
+      "stock_id": "398_2"
     },
-    "pages": 1192,
-    "title": "The Merchant and the Alchemist's Gate",
-    "url": "https://www.goodreads.com/book/show/223379.The_Merchant_and_the_Alchemist_s_Gate",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "398_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "398_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "398_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "398_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "398_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3668,
+    "score": 4.34
+  },
+  "pages": 1192,
+  "title": "The Merchant and the Alchemist's Gate",
+  "url": "https://www.goodreads.com/book/show/223379.The_Merchant_and_the_Alchemist_s_Gate",
+  "year_published": 2007
 }

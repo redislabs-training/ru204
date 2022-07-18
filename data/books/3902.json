@@ -1,36 +1,36 @@
 {
-    "author": "Orson Scott Card",
-    "id": "3902",
-    "description": "The war for survival of the planet Lusitania will be fought in the hearts of a child named Gloriously Bright.On Lusitania, Ender found a world where humans and pequininos and the Hive Queen could all live together; where three very different intelligent species could find common ground at last. Or so he thought.Lusitania also harbors the descolada, a virus that kills all humans it infects, but which the pequininos require in order to become adults. The Starways Congress so fears the effects of the descolada, should it escape from Lusitania, that they have ordered the destruction of the entire planet, and all who live there. The Fleet is on its way, and a second xenocide seems inevitable.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 113,
-        "fantasy": 426,
-        "fiction": 1334,
-        "novels": 89,
-        "science fiction": 3625,
-        "science fiction (aliens)": 106,
-        "science fiction fantasy": 353,
-        "space": 106,
-        "space (space opera)": 74,
-        "young adult": 207
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3902_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 144396,
-        "score": 3.8
-    },
-    "pages": 881,
-    "title": "Xenocide",
-    "url": "https://www.goodreads.com/book/show/8648.Xenocide",
-    "year_published": 1991
+  "author": "Orson Scott Card",
+  "id": "3902",
+  "description": "The war for survival of the planet Lusitania will be fought in the hearts of a child named Gloriously Bright.On Lusitania, Ender found a world where humans and pequininos and the Hive Queen could all live together; where three very different intelligent species could find common ground at last. Or so he thought.Lusitania also harbors the descolada, a virus that kills all humans it infects, but which the pequininos require in order to become adults. The Starways Congress so fears the effects of the descolada, should it escape from Lusitania, that they have ordered the destruction of the entire planet, and all who live there. The Fleet is on its way, and a second xenocide seems inevitable.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3902_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 144396,
+    "score": 3.8
+  },
+  "pages": 881,
+  "title": "Xenocide",
+  "url": "https://www.goodreads.com/book/show/8648.Xenocide",
+  "year_published": 1991
 }

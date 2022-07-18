@@ -1,34 +1,34 @@
 {
-    "author": "Poul Anderson",
-    "id": "79",
-    "description": " Time travel is impossible! There is no machine that can take you into time, past or future. But what if you are born a time traveler? Jack Havig did not know how he could cross the centuries merely by willing himself to. But the fact remained, he could. And, thought Jack, if I can travel through time, there must be others!So Jack Havig, human being extraordinaire, set out to see the world--the world of ancient Rome, of the Byzantine empire, of the American Indian tribes & ultimately the world of the future.Seeing the future, Jack found meaning in his life and a reason for his gift. He must seek out others like himself throughout the centuries and together they must try to affect the future of humankind. For that future threatened the extinction of humanity's entire civilization...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies (collections)": 2,
-        "fantasy": 4,
-        "fiction": 30,
-        "literature (american)": 2,
-        "science fiction": 110,
-        "science fiction (time travel)": 68,
-        "science fiction fantasy": 4,
-        "speculative fiction": 2
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "79_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1058,
-        "score": 3.67
-    },
-    "pages": 808,
-    "title": "There Will Be Time",
-    "url": "https://www.goodreads.com/book/show/602758.There_Will_Be_Time",
-    "year_published": 1972
+  "author": "Poul Anderson",
+  "id": "79",
+  "description": " Time travel is impossible! There is no machine that can take you into time, past or future. But what if you are born a time traveler? Jack Havig did not know how he could cross the centuries merely by willing himself to. But the fact remained, he could. And, thought Jack, if I can travel through time, there must be others!So Jack Havig, human being extraordinaire, set out to see the world--the world of ancient Rome, of the Byzantine empire, of the American Indian tribes & ultimately the world of the future.Seeing the future, Jack found meaning in his life and a reason for his gift. He must seek out others like himself throughout the centuries and together they must try to affect the future of humankind. For that future threatened the extinction of humanity's entire civilization...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "79_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1058,
+    "score": 3.67
+  },
+  "pages": 808,
+  "title": "There Will Be Time",
+  "url": "https://www.goodreads.com/book/show/602758.There_Will_Be_Time",
+  "year_published": 1972
 }

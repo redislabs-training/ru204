@@ -1,56 +1,56 @@
 {
-    "author": "Stephen Krensky",
-    "id": "24",
-    "description": "Santa has the best job he can think of -- brining presents each Christmas to children all around the world. Every year he prepares for his trip: He trims his beard, takes a bath, gets dressed, and packs up his sleigh fort he long night ahead. But there are always a few unexpected delays that make things a little hectic. Muckle, one of the elves who helps Santa, thinks he can come up with a more efficient way of delivering the toys -- a method that won't involve Santa at all.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 8,
-        "childrens (picture books)": 20,
-        "holiday": 6,
-        "holiday (christmas)": 32
+  "author": "Stephen Krensky",
+  "id": "24",
+  "description": "Santa has the best job he can think of -- brining presents each Christmas to children all around the world. Every year he prepares for his trip: He trims his beard, takes a bath, gets dressed, and packs up his sleigh fort he long night ahead. But there are always a few unexpected delays that make things a little hectic. Muckle, one of the elves who helps Santa, thinks he can come up with a more efficient way of delivering the toys -- a method that won't involve Santa at all.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (picture books)",
+    "holiday",
+    "holiday (christmas)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "24_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "24_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "24_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "24_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "24_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "24_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "24_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "24_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "24_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 204,
-        "score": 3.86
+    {
+      "status": "maintenance",
+      "stock_id": "24_2"
     },
-    "pages": 891,
-    "title": "How Santa Lost His Job",
-    "url": "https://www.goodreads.com/book/show/5604616-how-santa-lost-his-job",
-    "year_published": 2001
+    {
+      "status": "on_loan",
+      "stock_id": "24_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "24_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "24_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "24_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "24_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "24_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 204,
+    "score": 3.86
+  },
+  "pages": 891,
+  "title": "How Santa Lost His Job",
+  "url": "https://www.goodreads.com/book/show/5604616-how-santa-lost-his-job",
+  "year_published": 2001
 }

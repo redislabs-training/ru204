@@ -1,38 +1,38 @@
 {
-    "author": "Charles Stross",
-    "id": "738",
-    "description": "Bob Howard, from The Laundry, secret UK agency against evil forces, narrates boarding yacht of Ellis Billington for Gravedust device that talks with dead. Ellis plans to raise Jennifer Morgue, monster from deep sea, rule world. U.S. Black Chamber sends lethal Ramona Random, in conflict with her bosses. Includes: Pimpf tale - Bob in virtual game; Afterword; Glossary.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 317,
-        "fantasy (paranormal)": 24,
-        "fantasy (urban fantasy)": 191,
-        "fiction": 190,
-        "horror": 250,
-        "horror (lovecraftian)": 37,
-        "humor": 53,
-        "science fiction": 325,
-        "spy thriller (espionage)": 37,
-        "thriller": 34
+  "author": "Charles Stross",
+  "id": "738",
+  "description": "Bob Howard, from The Laundry, secret UK agency against evil forces, narrates boarding yacht of Ellis Billington for Gravedust device that talks with dead. Ellis plans to raise Jennifer Morgue, monster from deep sea, rule world. U.S. Black Chamber sends lethal Ramona Random, in conflict with her bosses. Includes: Pimpf tale - Bob in virtual game; Afterword; Glossary.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "horror (lovecraftian)",
+    "humor",
+    "science fiction",
+    "spy thriller (espionage)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "738_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "738_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "738_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12891,
-        "score": 4.03
-    },
-    "pages": 1110,
-    "title": "The Jennifer Morgue",
-    "url": "https://www.goodreads.com/book/show/14150.The_Jennifer_Morgue",
-    "year_published": 2006
+    {
+      "status": "available",
+      "stock_id": "738_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12891,
+    "score": 4.03
+  },
+  "pages": 1110,
+  "title": "The Jennifer Morgue",
+  "url": "https://www.goodreads.com/book/show/14150.The_Jennifer_Morgue",
+  "year_published": 2006
 }

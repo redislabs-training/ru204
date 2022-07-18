@@ -1,43 +1,43 @@
 {
-    "author": "Lewis Shiner",
-    "id": "88",
-    "description": "Ray Shackleford lives in the ruins of the idealistic 1960s. Veteran of failed garage bands, he works as a repairman of stereo equipment, tending the dying embers of his marriage, and dreaming of bygone days and the music that almost was. When he finds the music he dreams of has been mysteriously recorded by his tape deck, Ray is drawn into the past, to revisit the histories of Hendrix, Morrison, and the Beatles...along with the history of Ray Shackleford. Vividly recreating a lost era that might have been, Glimpses fuses the hopes and dreams in the music with a powerful vision of reality.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 30,
-        "fantasy (supernatural)": 2,
-        "fiction": 32,
-        "historical (historical fiction)": 3,
-        "literary fiction": 3,
-        "magical realism": 2,
-        "music": 36,
-        "novels": 2,
-        "science fiction": 23,
-        "science fiction (time travel)": 32
+  "author": "Lewis Shiner",
+  "id": "88",
+  "description": "Ray Shackleford lives in the ruins of the idealistic 1960s. Veteran of failed garage bands, he works as a repairman of stereo equipment, tending the dying embers of his marriage, and dreaming of bygone days and the music that almost was. When he finds the music he dreams of has been mysteriously recorded by his tape deck, Ray is drawn into the past, to revisit the histories of Hendrix, Morrison, and the Beatles...along with the history of Ray Shackleford. Vividly recreating a lost era that might have been, Glimpses fuses the hopes and dreams in the music with a powerful vision of reality.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical (historical fiction)",
+    "literary fiction",
+    "magical realism",
+    "music",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "88_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "88_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "88_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "88_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 716,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "88_2"
     },
-    "pages": 774,
-    "title": "Glimpses",
-    "url": "https://www.goodreads.com/book/show/379197.Glimpses",
-    "year_published": 1993
+    {
+      "status": "maintenance",
+      "stock_id": "88_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 716,
+    "score": 3.93
+  },
+  "pages": 774,
+  "title": "Glimpses",
+  "url": "https://www.goodreads.com/book/show/379197.Glimpses",
+  "year_published": 1993
 }

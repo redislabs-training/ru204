@@ -1,34 +1,34 @@
 {
-    "author": "Jarrett J. Krosoczka",
-    "id": "686",
-    "description": "Serving justice . . . and lunch!Hector, Terrence, and Dee have always wondered about their school lunch lady. What does she do when she isn\u2019t dishing out the daily special? Where does she live? Does she have a lot of cats at home? Little do they know, Lunch Lady doesn\u2019t just serve sloppy joes\u2014she serves justice! Whatever danger lies ahead, it\u2019s no match for LUNCH LADY!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (school)": 28,
-        "adventure": 20,
-        "childrens": 66,
-        "childrens (juvenile)": 33,
-        "childrens (middle grade)": 54,
-        "fantasy": 19,
-        "fiction": 28,
-        "humor": 89,
-        "sequential art (comics)": 46,
-        "sequential art (graphic novels)": 356
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "686_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12205,
-        "score": 4.02
-    },
-    "pages": 225,
-    "title": "Lunch Lady and the Cyborg Substitute",
-    "url": "https://www.goodreads.com/book/show/6277757-lunch-lady-and-the-cyborg-substitute",
-    "year_published": 2009
+  "author": "Jarrett J. Krosoczka",
+  "id": "686",
+  "description": "Serving justice . . . and lunch!Hector, Terrence, and Dee have always wondered about their school lunch lady. What does she do when she isn’t dishing out the daily special? Where does she live? Does she have a lot of cats at home? Little do they know, Lunch Lady doesn’t just serve sloppy joes—she serves justice! Whatever danger lies ahead, it’s no match for LUNCH LADY!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (school)",
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "686_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12205,
+    "score": 4.02
+  },
+  "pages": 225,
+  "title": "Lunch Lady and the Cyborg Substitute",
+  "url": "https://www.goodreads.com/book/show/6277757-lunch-lady-and-the-cyborg-substitute",
+  "year_published": 2009
 }

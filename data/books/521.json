@@ -1,40 +1,40 @@
 {
-    "author": "Hajime Isayama",
-    "id": "521",
-    "description": "TRAITOR \u00a0 The last thing Eren remembers before blacking out, a Titan had bitten off his arm and leg and was getting ready to eat him alive. Much to his surprise he wakes up without a scratch on him, with a crowd of angry soldiers screaming for his blood. What strange new power has he awakened, and what will happen when the boy devoted to destroying the Titans becomes one himself?Includes special extras after the story!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 49,
-        "fantasy": 188,
-        "fiction": 66,
-        "horror": 173,
-        "science fiction": 61,
-        "science fiction (dystopia)": 66,
-        "sequential art (comics)": 157,
-        "sequential art (graphic novels)": 175,
-        "sequential art (manga)": 2213,
-        "young adult": 46
+  "author": "Hajime Isayama",
+  "id": "521",
+  "description": "TRAITOR   The last thing Eren remembers before blacking out, a Titan had bitten off his arm and leg and was getting ready to eat him alive. Much to his surprise he wakes up without a scratch on him, with a crowd of angry soldiers screaming for his blood. What strange new power has he awakened, and what will happen when the boy devoted to destroying the Titans becomes one himself?Includes special extras after the story!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "521_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "521_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "521_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17167,
-        "score": 4.43
-    },
-    "pages": 217,
-    "title": "Attack on Titan, Vol. 3",
-    "url": "https://www.goodreads.com/book/show/13536803-attack-on-titan-vol-3",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "521_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17167,
+    "score": 4.43
+  },
+  "pages": 217,
+  "title": "Attack on Titan, Vol. 3",
+  "url": "https://www.goodreads.com/book/show/13536803-attack-on-titan-vol-3",
+  "year_published": 2010
 }

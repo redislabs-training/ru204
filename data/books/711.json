@@ -1,40 +1,40 @@
 {
-    "author": "Lisa   Maxwell",
-    "id": "711",
-    "description": "In this spellbinding sequel to the New York Times bestselling The Last Magician, Esta and Harte set off on a cross-country chase through time to steal back the elemental stones they need to save the future of magic.Hunt the Stones.Beware the Thief.Avenge the Past.Esta\u2019s parents were murdered. Her life was stolen. And everything she knew about magic was a lie. She thought the Book of Mysteries held the key to freeing the Mageus from the Order\u2019s grasp, but the danger within its pages was greater than she ever imagined.Now the Book\u2019s furious power lives inside Harte. If he can\u2019t control it, it will rip apart the world to get its revenge, and it will use Esta to do it.To bind the power, Esta and Harte must track down four elemental stones scattered across the continent. But the world outside the city is like nothing they expected. There are Mageus beyond the Brink not willing to live in the shadows\u2014and the Order isn\u2019t alone in its mission to crush them.In St. Louis, the extravagant World\u2019s Fair hides the first stone, but an old enemy is out for revenge and a new enemy is emerging. And back in New York, Viola and Jianyu must defeat a traitor in a city on the verge of chaos.As past and future collide, time is running out to rewrite history\u2014even for a time-traveling thief.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 18,
-        "fantasy": 330,
-        "fantasy (magic)": 35,
-        "fantasy (urban fantasy)": 18,
-        "fiction": 24,
-        "historical": 34,
-        "historical (historical fiction)": 87,
-        "science fiction (time travel)": 35,
-        "young adult": 134,
-        "young adult (young adult fantasy)": 35
+  "author": "Lisa   Maxwell",
+  "id": "711",
+  "description": "In this spellbinding sequel to the New York Times bestselling The Last Magician, Esta and Harte set off on a cross-country chase through time to steal back the elemental stones they need to save the future of magic.Hunt the Stones.Beware the Thief.Avenge the Past.Esta’s parents were murdered. Her life was stolen. And everything she knew about magic was a lie. She thought the Book of Mysteries held the key to freeing the Mageus from the Order’s grasp, but the danger within its pages was greater than she ever imagined.Now the Book’s furious power lives inside Harte. If he can’t control it, it will rip apart the world to get its revenge, and it will use Esta to do it.To bind the power, Esta and Harte must track down four elemental stones scattered across the continent. But the world outside the city is like nothing they expected. There are Mageus beyond the Brink not willing to live in the shadows—and the Order isn’t alone in its mission to crush them.In St. Louis, the extravagant World’s Fair hides the first stone, but an old enemy is out for revenge and a new enemy is emerging. And back in New York, Viola and Jianyu must defeat a traitor in a city on the verge of chaos.As past and future collide, time is running out to rewrite history—even for a time-traveling thief.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "711_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "711_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "711_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3514,
-        "score": 3.77
-    },
-    "pages": 358,
-    "title": "The Devil's Thief",
-    "url": "https://www.goodreads.com/book/show/38336563-the-devil-s-thief",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "711_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3514,
+    "score": 3.77
+  },
+  "pages": 358,
+  "title": "The Devil's Thief",
+  "url": "https://www.goodreads.com/book/show/38336563-the-devil-s-thief",
+  "year_published": 2018
 }

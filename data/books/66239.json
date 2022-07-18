@@ -1,60 +1,60 @@
 {
-    "author": "Lois Lowry",
-    "id": "66239",
-    "description": "The Giver, the 1994 Newbery Medal winner, has become one of the most influential novels of our time. The haunting story centers on twelve-year-old Jonas, who lives in a seemingly ideal, if colorless, world of conformity and contentment. Not until he is given his life assignment as the Receiver of Memory does he begin to understand the dark, complex secrets behind his fragile community. This movie tie-in edition features cover art from the movie and exclusive Q&A with members of the cast, including Taylor Swift, Brenton Thwaites and Cameron Monaghan.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (read for school)": 876,
-        "academic (school)": 1877,
-        "childrens": 1628,
-        "childrens (middle grade)": 1439,
-        "classics": 8033,
-        "fantasy": 3996,
-        "fiction": 9571,
-        "science fiction": 5062,
-        "science fiction (dystopia)": 6935,
-        "young adult": 11332
+  "author": "Lois Lowry",
+  "id": "66239",
+  "description": "The Giver, the 1994 Newbery Medal winner, has become one of the most influential novels of our time. The haunting story centers on twelve-year-old Jonas, who lives in a seemingly ideal, if colorless, world of conformity and contentment. Not until he is given his life assignment as the Receiver of Memory does he begin to understand the dark, complex secrets behind his fragile community. This movie tie-in edition features cover art from the movie and exclusive Q&A with members of the cast, including Taylor Swift, Brenton Thwaites and Cameron Monaghan.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (read for school)",
+    "academic (school)",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "66239_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "66239_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "66239_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "66239_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "66239_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "66239_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "66239_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "66239_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1848514,
-        "score": 4.13
+    {
+      "status": "on_loan",
+      "stock_id": "66239_2"
     },
-    "pages": 204,
-    "title": "The Giver",
-    "url": "https://www.goodreads.com/book/show/3636.The_Giver",
-    "year_published": 1993
+    {
+      "status": "on_loan",
+      "stock_id": "66239_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "66239_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "66239_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "66239_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "66239_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1848514,
+    "score": 4.13
+  },
+  "pages": 204,
+  "title": "The Giver",
+  "url": "https://www.goodreads.com/book/show/3636.The_Giver",
+  "year_published": 1993
 }

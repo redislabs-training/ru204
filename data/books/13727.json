@@ -1,68 +1,68 @@
 {
-    "author": "Hugh Howey",
-    "id": "13727",
-    "description": "This Omnibus Edition collects the five Wool books into a single volume. The first Wool story was released as a standalone short in July of 2011. Due to reviewer demand, the rest of the story was released over the next six months. This is the story of mankind clawing for survival, of mankind on the edge. The world outside has grown unkind, the view of it limited, talk of it forbidden. But there are always those who hope, who dream. These are the dangerous people, the residents who infect others with their optimism. Their punishment is simple. They are given the very thing they profess to want: They are allowed outside.Alternate cover for B0071XO8RA",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 914,
-        "audiobook": 138,
-        "fantasy": 413,
-        "fiction": 1681,
-        "science fiction": 3197,
-        "science fiction (apocalyptic)": 198,
-        "science fiction (dystopia)": 1365,
-        "science fiction fantasy": 256,
-        "speculative fiction": 119,
-        "young adult": 120
+  "author": "Hugh Howey",
+  "id": "13727",
+  "description": "This Omnibus Edition collects the five Wool books into a single volume. The first Wool story was released as a standalone short in July of 2011. Due to reviewer demand, the rest of the story was released over the next six months. This is the story of mankind clawing for survival, of mankind on the edge. The world outside has grown unkind, the view of it limited, talk of it forbidden. But there are always those who hope, who dream. These are the dangerous people, the residents who infect others with their optimism. Their punishment is simple. They are given the very thing they profess to want: They are allowed outside.Alternate cover for B0071XO8RA",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "13727_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "13727_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13727_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "13727_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "13727_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13727_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13727_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13727_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13727_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13727_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 164611,
-        "score": 4.21
+    {
+      "status": "on_loan",
+      "stock_id": "13727_2"
     },
-    "pages": 759,
-    "title": "Wool Omnibus",
-    "url": "https://www.goodreads.com/book/show/13453029-wool-omnibus",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "13727_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "13727_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13727_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13727_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13727_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13727_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13727_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 164611,
+    "score": 4.21
+  },
+  "pages": 759,
+  "title": "Wool Omnibus",
+  "url": "https://www.goodreads.com/book/show/13453029-wool-omnibus",
+  "year_published": 2012
 }

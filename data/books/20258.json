@@ -1,34 +1,34 @@
 {
-    "author": "M.R. Carey",
-    "id": "20258",
-    "description": "Melanie is a very special girl. Dr. Caldwell calls her \"our little genius.\"Every morning, Melanie waits in her cell to be collected for class. When they come for her, Sergeant Parks keeps his gun pointing at her while two of his people strap her into the wheelchair. She thinks they don't like her. She jokes that she won't bite, but they don't laugh.Melanie loves school. She loves learning about spelling and sums and the world outside the classroom and the children's cells. She tells her favorite teacher all the things she'll do when she grows up. Melanie doesn't know why this makes Miss Justineau look sad.The Girl with All the Gifts is a sensational thriller, perfect for fans of Stephen King, Justin Cronin, and Neil Gaiman.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 340,
-        "apocalyptic (post apocalyptic)": 780,
-        "audiobook": 648,
-        "fantasy": 687,
-        "fiction": 2360,
-        "horror": 3709,
-        "horror (zombies)": 1416,
-        "science fiction": 2132,
-        "science fiction (dystopia)": 1240,
-        "thriller": 588
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "20258_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 194745,
-        "score": 3.94
-    },
-    "pages": 1226,
-    "title": "The Girl With All the Gifts",
-    "url": "https://www.goodreads.com/book/show/17235026-the-girl-with-all-the-gifts",
-    "year_published": 2014
+  "author": "M.R. Carey",
+  "id": "20258",
+  "description": "Melanie is a very special girl. Dr. Caldwell calls her \"our little genius.\"Every morning, Melanie waits in her cell to be collected for class. When they come for her, Sergeant Parks keeps his gun pointing at her while two of his people strap her into the wheelchair. She thinks they don't like her. She jokes that she won't bite, but they don't laugh.Melanie loves school. She loves learning about spelling and sums and the world outside the classroom and the children's cells. She tells her favorite teacher all the things she'll do when she grows up. Melanie doesn't know why this makes Miss Justineau look sad.The Girl with All the Gifts is a sensational thriller, perfect for fans of Stephen King, Justin Cronin, and Neil Gaiman.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "20258_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 194745,
+    "score": 3.94
+  },
+  "pages": 1226,
+  "title": "The Girl With All the Gifts",
+  "url": "https://www.goodreads.com/book/show/17235026-the-girl-with-all-the-gifts",
+  "year_published": 2014
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Dan Simmons",
-    "id": "1445",
-    "description": "The multiple-award-winning SF master returns to the universe that is his greatest success--the world of Hyperion and The Fall of Hyperion--to tell a story of love and memory, triumph and terror in a novel even more magnificent than its predecessors.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 35,
-        "audiobook": 45,
-        "fantasy": 193,
-        "fiction": 483,
-        "science fiction": 1594,
-        "science fiction (time travel)": 43,
-        "science fiction fantasy": 98,
-        "space": 41,
-        "space (space opera)": 176,
-        "speculative fiction": 30
+  "author": "Dan Simmons",
+  "id": "1445",
+  "description": "The multiple-award-winning SF master returns to the universe that is his greatest success--the world of Hyperion and The Fall of Hyperion--to tell a story of love and memory, triumph and terror in a novel even more magnificent than its predecessors.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1445_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1445_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1445_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1445_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1445_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1445_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1445_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1445_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1445_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 48216,
-        "score": 4.17
+    {
+      "status": "on_loan",
+      "stock_id": "1445_2"
     },
-    "pages": 1183,
-    "title": "Endymion",
-    "url": "https://www.goodreads.com/book/show/3977.Endymion",
-    "year_published": 1996
+    {
+      "status": "maintenance",
+      "stock_id": "1445_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1445_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1445_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1445_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1445_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1445_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 48216,
+    "score": 4.17
+  },
+  "pages": 1183,
+  "title": "Endymion",
+  "url": "https://www.goodreads.com/book/show/3977.Endymion",
+  "year_published": 1996
 }

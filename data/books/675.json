@@ -1,66 +1,66 @@
 {
-    "author": "Chuck Wendig",
-    "id": "675",
-    "description": "Five hackers\u2014an Anonymous-style rabble-rouser, an Arab Spring hacktivist, a black-hat hacker, an old-school cipherpunk, and an online troll\u2014are detained by the U.S. government, forced to work as white-hat hackers for Uncle Sam in order to avoid federal prison. At a secret complex known only as \"the Lodge,\" where they will spend the next year working as an elite cyber-espionage team, these misfits dub themselves \"the Zeroes.\"But once the Zeroes begin to work, they uncover secrets that would make even the most dedicated conspiracy theorist's head spin. And soon they're not just trying to serve their time, they're also trying to perform the ultimate hack: burrowing deep into the U.S. government from the inside, and hoping they'll get out alive. Packed with electric wit and breakneck plot twists, Zer0es is an unforgettable thrill ride through the seedy underbelly of \"progress.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 11,
-        "contemporary": 12,
-        "fiction": 99,
-        "horror": 13,
-        "mystery": 20,
-        "science (technology)": 12,
-        "science fiction": 234,
-        "science fiction (cyberpunk)": 31,
-        "science fiction fantasy": 18,
-        "thriller": 126
+  "author": "Chuck Wendig",
+  "id": "675",
+  "description": "Five hackers—an Anonymous-style rabble-rouser, an Arab Spring hacktivist, a black-hat hacker, an old-school cipherpunk, and an online troll—are detained by the U.S. government, forced to work as white-hat hackers for Uncle Sam in order to avoid federal prison. At a secret complex known only as \"the Lodge,\" where they will spend the next year working as an elite cyber-espionage team, these misfits dub themselves \"the Zeroes.\"But once the Zeroes begin to work, they uncover secrets that would make even the most dedicated conspiracy theorist's head spin. And soon they're not just trying to serve their time, they're also trying to perform the ultimate hack: burrowing deep into the U.S. government from the inside, and hoping they'll get out alive. Packed with electric wit and breakneck plot twists, Zer0es is an unforgettable thrill ride through the seedy underbelly of \"progress.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "contemporary",
+    "fiction",
+    "horror",
+    "mystery",
+    "science (technology)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "675_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "675_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "675_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "675_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "675_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "675_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "675_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "675_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "675_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "675_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4693,
-        "score": 3.62
+    {
+      "status": "available",
+      "stock_id": "675_2"
     },
-    "pages": 1161,
-    "title": "Zeroes",
-    "url": "https://www.goodreads.com/book/show/23460958-zeroes",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "675_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "675_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "675_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "675_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "675_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "675_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "675_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4693,
+    "score": 3.62
+  },
+  "pages": 1161,
+  "title": "Zeroes",
+  "url": "https://www.goodreads.com/book/show/23460958-zeroes",
+  "year_published": 2015
 }

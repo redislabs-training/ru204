@@ -1,42 +1,42 @@
 {
-    "author": "James Dashner",
-    "id": "585",
-    "description": "Short flashback that occurs between \"The Scorch Trials\" and \"The Death Cure.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 8,
-        "apocalyptic (post apocalyptic)": 19,
-        "fantasy": 52,
-        "fiction": 67,
-        "mystery": 11,
-        "novella": 30,
-        "science fiction": 102,
-        "science fiction (dystopia)": 185,
-        "short stories": 114,
-        "young adult": 230
+  "author": "James Dashner",
+  "id": "585",
+  "description": "Short flashback that occurs between \"The Scorch Trials\" and \"The Death Cure.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "585_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "585_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "585_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "585_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7580,
-        "score": 3.98
+    {
+      "status": "on_loan",
+      "stock_id": "585_2"
     },
-    "pages": 1139,
-    "title": "Thomas\u2019s First Memory of the Flare",
-    "url": "https://www.goodreads.com/book/show/12878132-thomas-s-first-memory-of-the-flare",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "585_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7580,
+    "score": 3.98
+  },
+  "pages": 1139,
+  "title": "Thomas’s First Memory of the Flare",
+  "url": "https://www.goodreads.com/book/show/12878132-thomas-s-first-memory-of-the-flare",
+  "year_published": 2011
 }

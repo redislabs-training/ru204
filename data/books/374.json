@@ -1,40 +1,40 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "374",
-    "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series\u2014the Magic Tree House! Who wants to vacation next to a volcano?Jack and Annie are about to find out when the Magic Tree House whisks them back to the days of the Roman Empire. They arrive in Pompeii and soon discover that it is the very day the city will be destroyed. Now Jack and Annie must race against time to find an ancient library before it is buried in ash! Visit the Magic Tree House website! MagicTreeHouse.com",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 43,
-        "childrens": 146,
-        "childrens (chapter books)": 53,
-        "childrens (juvenile)": 17,
-        "fantasy": 125,
-        "fantasy (magic)": 18,
-        "fiction": 96,
-        "historical": 21,
-        "historical (historical fiction)": 80,
-        "science fiction (time travel)": 23
+  "author": "Mary Pope Osborne",
+  "id": "374",
+  "description": "Jack and Annie are ready for their next fantasy adventure in the bestselling middle-grade series—the Magic Tree House! Who wants to vacation next to a volcano?Jack and Annie are about to find out when the Magic Tree House whisks them back to the days of the Roman Empire. They arrive in Pompeii and soon discover that it is the very day the city will be destroyed. Now Jack and Annie must race against time to find an ancient library before it is buried in ash! Visit the Magic Tree House website! MagicTreeHouse.com",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "374_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "374_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "374_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11205,
-        "score": 3.99
-    },
-    "pages": 1398,
-    "title": "Vacation Under the Volcano",
-    "url": "https://www.goodreads.com/book/show/126574.Vacation_Under_the_Volcano",
-    "year_published": 1998
+    {
+      "status": "maintenance",
+      "stock_id": "374_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11205,
+    "score": 3.99
+  },
+  "pages": 1398,
+  "title": "Vacation Under the Volcano",
+  "url": "https://www.goodreads.com/book/show/126574.Vacation_Under_the_Volcano",
+  "year_published": 1998
 }

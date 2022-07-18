@@ -1,44 +1,44 @@
 {
-    "author": "Franz Kafka",
-    "id": "7962",
-    "description": "Written in 1914 but not published until 1925, a year after Kafka\u2019s death, The Trial is the terrifying tale of Josef K., a respectable bank officer who is suddenly and inexplicably arrested and must defend himself against a charge about which he can get no information. Whether read as an existential tale, a parable, or a prophecy of the excesses of modern bureaucracy wedded to the madness of totalitarianism, The Trial has resonated with chilling truth for generations of readers.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 5016,
-        "european literature (czech literature)": 208,
-        "european literature (german literature)": 596,
-        "fiction": 4513,
-        "literary fiction": 170,
-        "literature": 905,
-        "literature (20th century)": 230,
-        "novels": 541,
-        "philosophy": 850,
-        "science fiction (dystopia)": 357
+  "author": "Franz Kafka",
+  "id": "7962",
+  "description": "Written in 1914 but not published until 1925, a year after Kafka’s death, The Trial is the terrifying tale of Josef K., a respectable bank officer who is suddenly and inexplicably arrested and must defend himself against a charge about which he can get no information. Whether read as an existential tale, a parable, or a prophecy of the excesses of modern bureaucracy wedded to the madness of totalitarianism, The Trial has resonated with chilling truth for generations of readers.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "european literature (czech literature)",
+    "european literature (german literature)",
+    "fiction",
+    "literary fiction",
+    "literature",
+    "literature (20th century)",
+    "novels",
+    "philosophy",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "7962_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "7962_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7962_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7962_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 242652,
-        "score": 3.96
+    {
+      "status": "maintenance",
+      "stock_id": "7962_2"
     },
-    "pages": 1100,
-    "title": "The Trial",
-    "url": "https://www.goodreads.com/book/show/17690.The_Trial",
-    "year_published": 1925
+    {
+      "status": "on_loan",
+      "stock_id": "7962_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 242652,
+    "score": 3.96
+  },
+  "pages": 1100,
+  "title": "The Trial",
+  "url": "https://www.goodreads.com/book/show/17690.The_Trial",
+  "year_published": 1925
 }

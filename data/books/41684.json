@@ -1,59 +1,59 @@
 {
-    "author": "Antoine de Saint-Exup\u00e9ry",
-    "id": "41684",
-    "description": "A PBS Great American Read Top 100 PickFew stories are as widely read and as universally cherished by children and adults alike as The Little Prince. Richard Howard's translation of the beloved classic beautifully reflects Saint-Exup\u00e9ry's unique and gifted style. Howard, an acclaimed poet and one of the preeminent translators of our time, has excelled in bringing the English text as close as possible to the French, in language, style, and most important, spirit. The artwork in this edition has been restored to match in detail and in color Saint-Exup\u00e9ry's original artwork. Combining Richard Howard's translation with restored original art, this definitive English-language edition of The Little Prince will capture the hearts of readers of all ages.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 3589,
-        "childrens (middle grade)": 762,
-        "classics": 14977,
-        "cultural (france)": 2123,
-        "european literature (french literature)": 731,
-        "fantasy": 5608,
-        "fiction": 8306,
-        "literature": 962,
-        "philosophy": 1426,
-        "young adult": 1483
+  "author": "Antoine de Saint-Exupéry",
+  "id": "41684",
+  "description": "A PBS Great American Read Top 100 PickFew stories are as widely read and as universally cherished by children and adults alike as The Little Prince. Richard Howard's translation of the beloved classic beautifully reflects Saint-Exupéry's unique and gifted style. Howard, an acclaimed poet and one of the preeminent translators of our time, has excelled in bringing the English text as close as possible to the French, in language, style, and most important, spirit. The artwork in this edition has been restored to match in detail and in color Saint-Exupéry's original artwork. Combining Richard Howard's translation with restored original art, this definitive English-language edition of The Little Prince will capture the hearts of readers of all ages.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "cultural (france)",
+    "european literature (french literature)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "philosophy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "41684_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "41684_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "41684_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "41684_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "41684_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "41684_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "41684_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "41684_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1437278,
-        "score": 4.31
+    {
+      "status": "on_loan",
+      "stock_id": "41684_2"
     },
-    "pages": 219,
-    "title": "The Little Prince",
-    "url": "https://www.goodreads.com/book/show/157993.The_Little_Prince",
-    "year_published": 1943
+    {
+      "status": "available",
+      "stock_id": "41684_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "41684_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "41684_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "41684_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "41684_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1437278,
+    "score": 4.31
+  },
+  "pages": 219,
+  "title": "The Little Prince",
+  "url": "https://www.goodreads.com/book/show/157993.The_Little_Prince",
+  "year_published": 1943
 }

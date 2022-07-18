@@ -1,39 +1,39 @@
 {
-    "author": "Ben Aaronovitch",
-    "id": "2531",
-    "description": "A mutilated body in Crawley. Another killer on the loose. The prime suspect is one Robert Weil; an associate of the twisted magician known as the Faceless Man? Or just a common or garden serial killer?Before PC Peter Grant can get his head round the case a town planner going under a tube train and a stolen grimoire are adding to his case-load.So far so London.But then Peter gets word of something very odd happening in Elephant and Castle, on a housing estate designed by a nutter, built by charlatans and inhabited by the truly desperate.Is there a connection?And if there is, why oh why did it have to be South of the River?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 124,
-        "fantasy": 1723,
-        "fantasy (magic)": 182,
-        "fantasy (paranormal)": 150,
-        "fantasy (supernatural)": 86,
-        "fantasy (urban fantasy)": 1088,
-        "fiction": 440,
-        "mystery": 557,
-        "mystery (crime)": 391,
-        "mystery (detective)": 80
+  "author": "Ben Aaronovitch",
+  "id": "2531",
+  "description": "A mutilated body in Crawley. Another killer on the loose. The prime suspect is one Robert Weil; an associate of the twisted magician known as the Faceless Man? Or just a common or garden serial killer?Before PC Peter Grant can get his head round the case a town planner going under a tube train and a stolen grimoire are adding to his case-load.So far so London.But then Peter gets word of something very odd happening in Elephant and Castle, on a housing estate designed by a nutter, built by charlatans and inhabited by the truly desperate.Is there a connection?And if there is, why oh why did it have to be South of the River?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "mystery (detective)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2531_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2531_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2531_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 37102,
-        "score": 4.17
-    },
-    "pages": 1149,
-    "title": "Broken Homes",
-    "url": "https://www.goodreads.com/book/show/16078584-broken-homes",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "2531_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 37102,
+    "score": 4.17
+  },
+  "pages": 1149,
+  "title": "Broken Homes",
+  "url": "https://www.goodreads.com/book/show/16078584-broken-homes",
+  "year_published": 2013
 }

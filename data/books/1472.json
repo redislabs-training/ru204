@@ -1,60 +1,60 @@
 {
-    "author": "Daniel Suarez",
-    "id": "1472",
-    "description": "The propulsive, shockingly plausible sequel to New York Times bestseller Daemon, the \"Greatest. Techno-thriller. Period.\"**William O'Brien, former director of cybersecurity and communications systems policy at the White House2009 saw one of the most inventive techno-thriller debuts in decades as Daniel Suarez introduced his terrifying and tantalizing vision of a new world order. Daemon captured the attention of the tech community, became a national bestseller, garnered attention from futurists, literary critics, and the halls of government-leaving readers clamoring for the conclusion to Suarez's epic story.In the opening chapters of Freedom\u2122, the Daemon is well on its way toward firm control of the modern world, using an expanded network of real-world, dispossessed darknet operatives to tear apart civilization and rebuild it anew. Civil war breaks out in the American Midwest, with the mainstream media stoking public fear in the face of this \"Corn Rebellion.\" Former detective Pete Sebeck, now the Daemon's most famous and most reluctant operative, must lead a small band of enlightened humans in a populist movement designed to protect the new world order.But the private armies of global business are preparing to crush the Daemon once and for all. In a world of conflicted loyalties, rapidly diminishing government control, and a new choice between free will and the continuing comforts of ignorance, the stakes could not be higher: hanging in the balance is nothing less than democracy's last hope to survive the technology revolution.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 57,
-        "fiction": 350,
-        "mystery": 22,
-        "science (technology)": 42,
-        "science fiction": 483,
-        "science fiction (cyberpunk)": 80,
-        "science fiction (dystopia)": 20,
-        "science fiction fantasy": 16,
-        "speculative fiction": 17,
-        "thriller": 33
+  "author": "Daniel Suarez",
+  "id": "1472",
+  "description": "The propulsive, shockingly plausible sequel to New York Times bestseller Daemon, the \"Greatest. Techno-thriller. Period.\"**William O'Brien, former director of cybersecurity and communications systems policy at the White House2009 saw one of the most inventive techno-thriller debuts in decades as Daniel Suarez introduced his terrifying and tantalizing vision of a new world order. Daemon captured the attention of the tech community, became a national bestseller, garnered attention from futurists, literary critics, and the halls of government-leaving readers clamoring for the conclusion to Suarez's epic story.In the opening chapters of Freedom™, the Daemon is well on its way toward firm control of the modern world, using an expanded network of real-world, dispossessed darknet operatives to tear apart civilization and rebuild it anew. Civil war breaks out in the American Midwest, with the mainstream media stoking public fear in the face of this \"Corn Rebellion.\" Former detective Pete Sebeck, now the Daemon's most famous and most reluctant operative, must lead a small band of enlightened humans in a populist movement designed to protect the new world order.But the private armies of global business are preparing to crush the Daemon once and for all. In a world of conflicted loyalties, rapidly diminishing government control, and a new choice between free will and the continuing comforts of ignorance, the stakes could not be higher: hanging in the balance is nothing less than democracy's last hope to survive the technology revolution.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "mystery",
+    "science (technology)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1472_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1472_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1472_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1472_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1472_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1472_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1472_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1472_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 25427,
-        "score": 4.27
+    {
+      "status": "on_loan",
+      "stock_id": "1472_2"
     },
-    "pages": 1294,
-    "title": "Freedom",
-    "url": "https://www.goodreads.com/book/show/8488830-freedom",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "1472_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1472_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1472_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1472_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1472_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 25427,
+    "score": 4.27
+  },
+  "pages": 1294,
+  "title": "Freedom",
+  "url": "https://www.goodreads.com/book/show/8488830-freedom",
+  "year_published": 2010
 }

@@ -1,52 +1,52 @@
 {
-    "author": "N.K. Jemisin",
-    "id": "7349",
-    "description": "This is the way the world ends... for the last time. The Moon will soon return. Whether this heralds the destruction of humankind or something worse will depend on two women.Essun has inherited the power of Alabaster Tenring. With it, she hopes to find her daughter Nassun and forge a world in which every orogene child can grow up safe.For Nassun, her mother's mastery of the Obelisk Gate comes too late. She has seen the evil of the world, and accepted what her mother will not admit: that sometimes what is corrupt cannot be cleansed, only destroyed.The remarkable conclusion to the post-apocalyptic and highly acclaimed trilogy that began with the multi-award-nominated The Fifth Season.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 184,
-        "apocalyptic (post apocalyptic)": 172,
-        "audiobook": 218,
-        "fantasy": 4521,
-        "fantasy (magic)": 120,
-        "fiction": 1088,
-        "science fiction": 897,
-        "science fiction (dystopia)": 304,
-        "science fiction fantasy": 253,
-        "speculative fiction": 121
+  "author": "N.K. Jemisin",
+  "id": "7349",
+  "description": "This is the way the world ends... for the last time. The Moon will soon return. Whether this heralds the destruction of humankind or something worse will depend on two women.Essun has inherited the power of Alabaster Tenring. With it, she hopes to find her daughter Nassun and forge a world in which every orogene child can grow up safe.For Nassun, her mother's mastery of the Obelisk Gate comes too late. She has seen the evil of the world, and accepted what her mother will not admit: that sometimes what is corrupt cannot be cleansed, only destroyed.The remarkable conclusion to the post-apocalyptic and highly acclaimed trilogy that began with the multi-award-nominated The Fifth Season.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "7349_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "7349_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "7349_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "7349_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7349_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7349_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 81239,
-        "score": 4.31
+    {
+      "status": "available",
+      "stock_id": "7349_2"
     },
-    "pages": 293,
-    "title": "The Stone Sky",
-    "url": "https://www.goodreads.com/book/show/31817749-the-stone-sky",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "7349_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7349_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7349_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 81239,
+    "score": 4.31
+  },
+  "pages": 293,
+  "title": "The Stone Sky",
+  "url": "https://www.goodreads.com/book/show/31817749-the-stone-sky",
+  "year_published": 2017
 }

@@ -1,34 +1,34 @@
 {
-    "author": "Paolo Bacigalupi",
-    "id": "6510",
-    "description": "Anderson Lake is a company man, AgriGen's Calorie Man in Thailand. Under cover as a factory manager, Anderson combs Bangkok's street markets in search of foodstuffs thought to be extinct, hoping to reap the bounty of history's lost calories. There, he encounters Emiko... Emiko is the Windup Girl, a strange and beautiful creature. One of the New People, Emiko is not human; instead, she is an engineered being, creche-grown and programmed to satisfy the decadent whims of a Kyoto businessman, but now abandoned to the streets of Bangkok. Regarded as soulless beings by some, devils by others, New People are slaves, soldiers, and toys of the rich in a chilling near future in which calorie companies rule the world, the oil age has passed, and the side effects of bio-engineered plagues run rampant across the globe. What Happens when calories become currency? What happens when bio-terrorism becomes a tool for corporate profits, when said bio-terrorism's genetic drift forces mankind to the cusp of post-human evolution? Award-winning author Paolo Bacigalupi delivers one of the most highly acclaimed science fiction novels of the twenty-first century.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 231,
-        "audiobook": 91,
-        "fantasy": 397,
-        "fiction": 1242,
-        "science fiction": 2717,
-        "science fiction (cyberpunk)": 208,
-        "science fiction (dystopia)": 736,
-        "science fiction (steampunk)": 461,
-        "science fiction fantasy": 222,
-        "speculative fiction": 197
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6510_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 67612,
-        "score": 3.74
-    },
-    "pages": 336,
-    "title": "The Windup Girl",
-    "url": "https://www.goodreads.com/book/show/6597651-the-windup-girl",
-    "year_published": 2009
+  "author": "Paolo Bacigalupi",
+  "id": "6510",
+  "description": "Anderson Lake is a company man, AgriGen's Calorie Man in Thailand. Under cover as a factory manager, Anderson combs Bangkok's street markets in search of foodstuffs thought to be extinct, hoping to reap the bounty of history's lost calories. There, he encounters Emiko... Emiko is the Windup Girl, a strange and beautiful creature. One of the New People, Emiko is not human; instead, she is an engineered being, creche-grown and programmed to satisfy the decadent whims of a Kyoto businessman, but now abandoned to the streets of Bangkok. Regarded as soulless beings by some, devils by others, New People are slaves, soldiers, and toys of the rich in a chilling near future in which calorie companies rule the world, the oil age has passed, and the side effects of bio-engineered plagues run rampant across the globe. What Happens when calories become currency? What happens when bio-terrorism becomes a tool for corporate profits, when said bio-terrorism's genetic drift forces mankind to the cusp of post-human evolution? Award-winning author Paolo Bacigalupi delivers one of the most highly acclaimed science fiction novels of the twenty-first century.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6510_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 67612,
+    "score": 3.74
+  },
+  "pages": 336,
+  "title": "The Windup Girl",
+  "url": "https://www.goodreads.com/book/show/6597651-the-windup-girl",
+  "year_published": 2009
 }

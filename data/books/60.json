@@ -1,39 +1,39 @@
 {
-    "author": "CLAMP",
-    "id": "60",
-    "description": "Angelic Layer is sweeping the nation! In the newest electronic sport, players enter their Angels in tournaments and battle for fortune and glory. Twelve-year-old Misaki just discovered Angelic Layer, and she's already captivated by the game. But building a winning Angel takes money and experience, and Misaki's short on both counts. With the help of a crazy scientist and a very special Angel of her own, she'll give it her all to win the Angelic Layer crown.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 7,
-        "comics manga": 7,
-        "fantasy": 21,
-        "manga (shojo)": 10,
-        "manga (shonen)": 10,
-        "science fiction": 21,
-        "sequential art (comics)": 25,
-        "sequential art (graphic novels)": 38,
-        "sequential art (manga)": 524,
-        "young adult": 10
+  "author": "CLAMP",
+  "id": "60",
+  "description": "Angelic Layer is sweeping the nation! In the newest electronic sport, players enter their Angels in tournaments and battle for fortune and glory. Twelve-year-old Misaki just discovered Angelic Layer, and she's already captivated by the game. But building a winning Angel takes money and experience, and Misaki's short on both counts. With the help of a crazy scientist and a very special Angel of her own, she'll give it her all to win the Angelic Layer crown.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "comics manga",
+    "fantasy",
+    "manga (shojo)",
+    "manga (shonen)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "60_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "60_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "60_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2143,
-        "score": 3.81
-    },
-    "pages": 1394,
-    "title": "Angelic Layer, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/485098.Angelic_Layer_Vol_1",
-    "year_published": 1999
+    {
+      "status": "on_loan",
+      "stock_id": "60_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2143,
+    "score": 3.81
+  },
+  "pages": 1394,
+  "title": "Angelic Layer, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/485098.Angelic_Layer_Vol_1",
+  "year_published": 1999
 }

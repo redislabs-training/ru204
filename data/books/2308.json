@@ -1,48 +1,48 @@
 {
-    "author": "Orson Scott Card",
-    "id": "2308",
-    "description": "A powerful secret. A dangerous path. Rigg is well trained at keeping secrets. Only his father knows the truth about Rigg's strange talent for seeing the paths of people's pasts. But when his father dies, Rigg is stunned to learn just how many secrets Father had kept from him--secrets about Rigg's own past, his identity, and his destiny. And when Rigg discovers that he has the power not only to see the past, but also to change it, his future suddenly becomes anything but certain. Rigg\u2019s birthright sets him on a path that leaves him caught between two factions, one that wants him crowned and one that wants him dead. He will be forced to question everything he thinks he knows, choose who to trust, and push the limits of his talent\u2026or forfeit control of his destiny.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 71,
-        "audiobook": 39,
-        "fantasy": 842,
-        "fiction": 197,
-        "science fiction": 468,
-        "science fiction (dystopia)": 43,
-        "science fiction (time travel)": 98,
-        "science fiction fantasy": 60,
-        "young adult": 348,
-        "young adult (teen)": 31
+  "author": "Orson Scott Card",
+  "id": "2308",
+  "description": "A powerful secret. A dangerous path. Rigg is well trained at keeping secrets. Only his father knows the truth about Rigg's strange talent for seeing the paths of people's pasts. But when his father dies, Rigg is stunned to learn just how many secrets Father had kept from him--secrets about Rigg's own past, his identity, and his destiny. And when Rigg discovers that he has the power not only to see the past, but also to change it, his future suddenly becomes anything but certain. Rigg’s birthright sets him on a path that leaves him caught between two factions, one that wants him crowned and one that wants him dead. He will be forced to question everything he thinks he knows, choose who to trust, and push the limits of his talent…or forfeit control of his destiny.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2308_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2308_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2308_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2308_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2308_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21891,
-        "score": 3.99
+    {
+      "status": "on_loan",
+      "stock_id": "2308_2"
     },
-    "pages": 576,
-    "title": "Pathfinder",
-    "url": "https://www.goodreads.com/book/show/8100267-pathfinder",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "2308_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2308_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21891,
+    "score": 3.99
+  },
+  "pages": 576,
+  "title": "Pathfinder",
+  "url": "https://www.goodreads.com/book/show/8100267-pathfinder",
+  "year_published": 2010
 }

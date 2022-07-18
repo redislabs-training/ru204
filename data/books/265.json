@@ -1,38 +1,38 @@
 {
-    "author": "Charles Soule",
-    "id": "265",
-    "description": "On Inauguration Day, newly elected President Stephen Blades hoped to tackle the most critical issues facing the nation: war, the economy, and a failing health care system. But in a letter penned by the outgoing President, Blades learns the truth that redefines \"critical\": seven years ago, NASA discovered alien presence in the asteroid belt, and kept it a secret from the world. A stealth mission crewed by nine astronauts was sent to make contact, and they\u2019re getting close - assuming they survive the long journey to reach their destination. Today, President-elect Blades has become the most powerful man on the planet. This planet.Collects Issues #1-6.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 9,
-        "comics (comic book)": 16,
-        "fiction": 27,
-        "graphic novels comics": 27,
-        "politics": 8,
-        "science fiction": 80,
-        "science fiction (aliens)": 9,
-        "sequential art (comics)": 172,
-        "sequential art (graphic novels)": 176,
-        "space": 8
+  "author": "Charles Soule",
+  "id": "265",
+  "description": "On Inauguration Day, newly elected President Stephen Blades hoped to tackle the most critical issues facing the nation: war, the economy, and a failing health care system. But in a letter penned by the outgoing President, Blades learns the truth that redefines \"critical\": seven years ago, NASA discovered alien presence in the asteroid belt, and kept it a secret from the world. A stealth mission crewed by nine astronauts was sent to make contact, and they’re getting close - assuming they survive the long journey to reach their destination. Today, President-elect Blades has become the most powerful man on the planet. This planet.Collects Issues #1-6.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "politics",
+    "science fiction",
+    "science fiction (aliens)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "265_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "265_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "265_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2097,
-        "score": 3.91
-    },
-    "pages": 380,
-    "title": "Letter 44, Volume 1: Escape Velocity",
-    "url": "https://www.goodreads.com/book/show/20906789-letter-44-volume-1",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "265_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2097,
+    "score": 3.91
+  },
+  "pages": 380,
+  "title": "Letter 44, Volume 1: Escape Velocity",
+  "url": "https://www.goodreads.com/book/show/20906789-letter-44-volume-1",
+  "year_published": 2014
 }

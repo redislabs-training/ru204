@@ -1,48 +1,48 @@
 {
-    "author": "Bob Gale",
-    "id": "119",
-    "description": "Back to the Future creator/screenwriter Bob Gale returns with all-new tales from the twisting and turning timeline that made Back to the Future a, well... TIMELESS pop-culture phenomenon! Take a trip back to 1985 and be there when Doc Brown and Marty McFly first meet, and then jump even farther back, to 1945, to witness Doc's involvement in the super-secret Manhattan Project. Collects issues #1-5.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 4,
-        "comics (comic book)": 4,
-        "comics manga": 2,
-        "fiction": 4,
-        "graphic novels comics": 4,
-        "media tie in": 2,
-        "science fiction": 18,
-        "science fiction (time travel)": 25,
-        "sequential art (comics)": 54,
-        "sequential art (graphic novels)": 45
+  "author": "Bob Gale",
+  "id": "119",
+  "description": "Back to the Future creator/screenwriter Bob Gale returns with all-new tales from the twisting and turning timeline that made Back to the Future a, well... TIMELESS pop-culture phenomenon! Take a trip back to 1985 and be there when Doc Brown and Marty McFly first meet, and then jump even farther back, to 1945, to witness Doc's involvement in the super-secret Manhattan Project. Collects issues #1-5.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "comics (comic book)",
+    "comics manga",
+    "fiction",
+    "graphic novels comics",
+    "media tie in",
+    "science fiction",
+    "science fiction (time travel)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "119_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "119_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "119_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "119_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "119_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 584,
-        "score": 3.84
+    {
+      "status": "on_loan",
+      "stock_id": "119_2"
     },
-    "pages": 427,
-    "title": "Back to the Future: Untold Tales and Alternate Timelines",
-    "url": "https://www.goodreads.com/book/show/27251142-back-to-the-future",
-    "year_published": 2015
+    {
+      "status": "available",
+      "stock_id": "119_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "119_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 584,
+    "score": 3.84
+  },
+  "pages": 427,
+  "title": "Back to the Future: Untold Tales and Alternate Timelines",
+  "url": "https://www.goodreads.com/book/show/27251142-back-to-the-future",
+  "year_published": 2015
 }

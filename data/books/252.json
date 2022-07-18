@@ -1,55 +1,55 @@
 {
-    "author": "Leila Sales",
-    "id": "252",
-    "description": "In the war-ravaged England of 1940, Charlotte Bromley is sure of only one thing: Kitty McLaughlin is her best friend in the whole world. But when Charlotte's scientist father makes an astonishing discovery that the Germans will covet for themselves, Charlotte is faced with an impossible choice between danger and safety. Should she remain with her friend or journey to another time and place? Her split-second decision has huge consequences, and when she finds herself alone in the world, unsure of Kitty's fate, she knows that somehow, some way, she must find her way back to her friend. Written in the spirit of classic time-travel tales, this book is an imaginative and heartfelt tribute to the unbreakable ties of friendship.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 19,
-        "childrens (juvenile)": 10,
-        "childrens (middle grade)": 94,
-        "fantasy": 27,
-        "fiction": 17,
-        "historical": 15,
-        "historical (historical fiction)": 60,
-        "science fiction": 40,
-        "science fiction (time travel)": 72,
-        "young adult": 20
+  "author": "Leila Sales",
+  "id": "252",
+  "description": "In the war-ravaged England of 1940, Charlotte Bromley is sure of only one thing: Kitty McLaughlin is her best friend in the whole world. But when Charlotte's scientist father makes an astonishing discovery that the Germans will covet for themselves, Charlotte is faced with an impossible choice between danger and safety. Should she remain with her friend or journey to another time and place? Her split-second decision has huge consequences, and when she finds herself alone in the world, unsure of Kitty's fate, she knows that somehow, some way, she must find her way back to her friend. Written in the spirit of classic time-travel tales, this book is an imaginative and heartfelt tribute to the unbreakable ties of friendship.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "252_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "252_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "252_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "252_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "252_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "252_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "252_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1028,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "252_2"
     },
-    "pages": 265,
-    "title": "Once Was a Time",
-    "url": "https://www.goodreads.com/book/show/25777460-once-was-a-time",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "252_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "252_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "252_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "252_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1028,
+    "score": 4.06
+  },
+  "pages": 265,
+  "title": "Once Was a Time",
+  "url": "https://www.goodreads.com/book/show/25777460-once-was-a-time",
+  "year_published": 2016
 }

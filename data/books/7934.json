@@ -1,50 +1,50 @@
 {
-    "author": "Megan Whalen Turner",
-    "id": "7934",
-    "description": "The king's scholar, the magus, believes he knows the site of an ancient treasure. To attain it for his king, he needs a skillful thief, and he selects Gen from the king's prison. The magus is interested only in the thief's abilities. What Gen is interested in is anyone's guess. Their journey toward the treasure is both dangerous and difficult, lightened only imperceptibly by the tales they tell of the old gods and goddesses.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 664,
-        "childrens (middle grade)": 210,
-        "fantasy": 6349,
-        "fantasy (high fantasy)": 260,
-        "fantasy (mythology)": 224,
-        "fiction": 844,
-        "historical": 177,
-        "historical (historical fiction)": 383,
-        "young adult": 2552,
-        "young adult (young adult fantasy)": 323
+  "author": "Megan Whalen Turner",
+  "id": "7934",
+  "description": "The king's scholar, the magus, believes he knows the site of an ancient treasure. To attain it for his king, he needs a skillful thief, and he selects Gen from the king's prison. The magus is interested only in the thief's abilities. What Gen is interested in is anyone's guess. Their journey toward the treasure is both dangerous and difficult, lightened only imperceptibly by the tales they tell of the old gods and goddesses.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (mythology)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "7934_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "7934_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7934_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7934_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7934_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7934_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 72975,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "7934_2"
     },
-    "pages": 332,
-    "title": "The Thief",
-    "url": "https://www.goodreads.com/book/show/448873.The_Thief",
-    "year_published": 1996
+    {
+      "status": "on_loan",
+      "stock_id": "7934_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7934_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7934_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 72975,
+    "score": 3.86
+  },
+  "pages": 332,
+  "title": "The Thief",
+  "url": "https://www.goodreads.com/book/show/448873.The_Thief",
+  "year_published": 1996
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Michael Crichton",
-    "id": "1701",
-    "description": "It is 922 A.D. The refined Arab courtier Ibn Fadlan is accompanying a party of Viking warriors back to their home. He is appalled by their customs\u2014the gratuitous sexuality of their women, their disregard for cleanliness, and their cold-blooded sacrifices. As they enter the frozen, forbidden landscape of the North\u2014where the day\u2019s length does not equal the night\u2019s, where after sunset the sky burns in streaks of color\u2014Fadlan soon discovers that he has been unwillingly enlisted to combat the terrors in the night that come to slaughter the Vikings, the monsters of the mist that devour human flesh. But just how he will do it, Fadlan has no idea.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 206,
-        "fantasy": 583,
-        "fiction": 988,
-        "historical": 186,
-        "historical (historical fiction)": 722,
-        "horror": 169,
-        "novels": 61,
-        "science fiction": 104,
-        "suspense": 47,
-        "thriller": 235
+  "author": "Michael Crichton",
+  "id": "1701",
+  "description": "It is 922 A.D. The refined Arab courtier Ibn Fadlan is accompanying a party of Viking warriors back to their home. He is appalled by their customs—the gratuitous sexuality of their women, their disregard for cleanliness, and their cold-blooded sacrifices. As they enter the frozen, forbidden landscape of the North—where the day’s length does not equal the night’s, where after sunset the sky burns in streaks of color—Fadlan soon discovers that he has been unwillingly enlisted to combat the terrors in the night that come to slaughter the Vikings, the monsters of the mist that devour human flesh. But just how he will do it, Fadlan has no idea.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "novels",
+    "science fiction",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1701_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1701_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1701_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1701_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1701_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1701_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1701_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1701_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1701_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35371,
-        "score": 3.67
+    {
+      "status": "maintenance",
+      "stock_id": "1701_2"
     },
-    "pages": 573,
-    "title": "Eaters of the Dead",
-    "url": "https://www.goodreads.com/book/show/7673.Eaters_of_the_Dead",
-    "year_published": 1976
+    {
+      "status": "maintenance",
+      "stock_id": "1701_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1701_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1701_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1701_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1701_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1701_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35371,
+    "score": 3.67
+  },
+  "pages": 573,
+  "title": "Eaters of the Dead",
+  "url": "https://www.goodreads.com/book/show/7673.Eaters_of_the_Dead",
+  "year_published": 1976
 }

@@ -1,46 +1,46 @@
 {
-    "author": "Russell Hoban",
-    "id": "822",
-    "description": "In the far distant future, the country laid waste by nuclear holocaust, twelve-year-old Riddley Walker tells his story in a language as fractured as the world in which he lives. As Riddley steps outside the confines of his small world, he finds himself caught up in intrigue and a frantic quest for power, desperately trying to make sense of things.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 132,
-        "fantasy": 37,
-        "fiction": 358,
-        "literature": 23,
-        "novels": 33,
-        "science fiction": 313,
-        "science fiction (apocalyptic)": 34,
-        "science fiction (dystopia)": 91,
-        "science fiction fantasy": 27,
-        "speculative fiction": 39
+  "author": "Russell Hoban",
+  "id": "822",
+  "description": "In the far distant future, the country laid waste by nuclear holocaust, twelve-year-old Riddley Walker tells his story in a language as fractured as the world in which he lives. As Riddley steps outside the confines of his small world, he finds himself caught up in intrigue and a frantic quest for power, desperately trying to make sense of things.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "822_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "822_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "822_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "822_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "822_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7093,
-        "score": 4.02
+    {
+      "status": "maintenance",
+      "stock_id": "822_2"
     },
-    "pages": 1272,
-    "title": "Riddley Walker",
-    "url": "https://www.goodreads.com/book/show/776573.Riddley_Walker",
-    "year_published": 1980
+    {
+      "status": "on_loan",
+      "stock_id": "822_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "822_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7093,
+    "score": 4.02
+  },
+  "pages": 1272,
+  "title": "Riddley Walker",
+  "url": "https://www.goodreads.com/book/show/776573.Riddley_Walker",
+  "year_published": 1980
 }

@@ -1,60 +1,60 @@
 {
-    "author": "Stephen Hunt",
-    "id": "616",
-    "description": "When Molly Templar witnesses a brutal murder at the brothel she has just been apprenticed to, her first instinct is to return to the poorhouse where she grew up. But there she finds her fellow orphans butchered, and it slowly dawns on her that she was in fact the real target of the attack. For Molly carries a secret deep in her blood, a secret that marks her out for destruction by enemies of the state. Soon Molly will find herself battling a grave threat to civilization which draws on an ancient power thought to have been quelled millennia ago.Oliver Brooks has led a sheltered life in the home of his merchant uncle. But when he is framed for his only relative's murder he is forced to flee for his life. He is accompanied by Harry Stave, an agent of the Court of the Air -- a shadowy organization independent of the government that acts as the final judiciary of the land, ensuring that order prevails.Chased across the country, Oliver finds himself in the company of thieves, outlaws and spies, and gradually learns more about the secret that has blighted his life, but which may also offer him the power to avert the coming catastrophe. Their enemies are ruthless and myriad, but Molly and Oliver are joined by indomitable friends in this endlessly inventive tale full of drama, intrigue and adventure.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 23,
-        "fantasy": 380,
-        "fiction": 110,
-        "historical (historical fiction)": 10,
-        "novels": 12,
-        "science fiction": 51,
-        "science fiction (steampunk)": 460,
-        "science fiction fantasy": 25,
-        "unfinished": 14,
-        "young adult": 12
+  "author": "Stephen Hunt",
+  "id": "616",
+  "description": "When Molly Templar witnesses a brutal murder at the brothel she has just been apprenticed to, her first instinct is to return to the poorhouse where she grew up. But there she finds her fellow orphans butchered, and it slowly dawns on her that she was in fact the real target of the attack. For Molly carries a secret deep in her blood, a secret that marks her out for destruction by enemies of the state. Soon Molly will find herself battling a grave threat to civilization which draws on an ancient power thought to have been quelled millennia ago.Oliver Brooks has led a sheltered life in the home of his merchant uncle. But when he is framed for his only relative's murder he is forced to flee for his life. He is accompanied by Harry Stave, an agent of the Court of the Air -- a shadowy organization independent of the government that acts as the final judiciary of the land, ensuring that order prevails.Chased across the country, Oliver finds himself in the company of thieves, outlaws and spies, and gradually learns more about the secret that has blighted his life, but which may also offer him the power to avert the coming catastrophe. Their enemies are ruthless and myriad, but Molly and Oliver are joined by indomitable friends in this endlessly inventive tale full of drama, intrigue and adventure.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "novels",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "unfinished",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "616_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "616_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "616_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "616_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "616_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "616_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "616_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "616_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4016,
-        "score": 3.3
+    {
+      "status": "available",
+      "stock_id": "616_2"
     },
-    "pages": 341,
-    "title": "The Court of the Air",
-    "url": "https://www.goodreads.com/book/show/837197.The_Court_of_the_Air",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "616_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "616_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "616_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "616_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "616_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4016,
+    "score": 3.3
+  },
+  "pages": 341,
+  "title": "The Court of the Air",
+  "url": "https://www.goodreads.com/book/show/837197.The_Court_of_the_Air",
+  "year_published": 2007
 }

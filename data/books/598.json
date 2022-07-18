@@ -1,34 +1,34 @@
 {
-    "author": "Garth Nix",
-    "id": "598",
-    "description": "On the seventh day, there was a choice.The House is falling apart, and when it is destroyed, all existence will be destroyed with it, Arthur Penhaligon and his friends Leaf and Suzy are caught in the chaos, separated by events but drawn together in their fight to survive. They must use every power at their disposal - magical or practical - to defeat the enemies attacking them from all sides.For Arthur, the biggest challenge comes from Lord Sunday, the most illusive of the trustees of the will. Lord Sunday's magic is unlike any Arthur has encountered before - and his secrets have the potential to destroy not only Arthur but also the people he holds most dear.On Monday, Arthur Penhaligon was just an ordinary boy thrust into an extraordinary situation. From Tuesday to Saturday, he emerged as the Rightful Heir to the Architect who created everything within the House. Now, on Sunday, he will face a choice of astonishing proportions - the remarkable conclusion to a completely unforeseen adventure.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 47,
-        "audiobook": 18,
-        "childrens": 56,
-        "childrens (middle grade)": 54,
-        "fantasy": 714,
-        "fantasy (magic)": 35,
-        "fiction": 97,
-        "young adult": 212,
-        "young adult (teen)": 19,
-        "young adult (young adult fantasy)": 28
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "598_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14313,
-        "score": 4.0
-    },
-    "pages": 800,
-    "title": "Lord Sunday",
-    "url": "https://www.goodreads.com/book/show/6657648-lord-sunday",
-    "year_published": 2010
+  "author": "Garth Nix",
+  "id": "598",
+  "description": "On the seventh day, there was a choice.The House is falling apart, and when it is destroyed, all existence will be destroyed with it, Arthur Penhaligon and his friends Leaf and Suzy are caught in the chaos, separated by events but drawn together in their fight to survive. They must use every power at their disposal - magical or practical - to defeat the enemies attacking them from all sides.For Arthur, the biggest challenge comes from Lord Sunday, the most illusive of the trustees of the will. Lord Sunday's magic is unlike any Arthur has encountered before - and his secrets have the potential to destroy not only Arthur but also the people he holds most dear.On Monday, Arthur Penhaligon was just an ordinary boy thrust into an extraordinary situation. From Tuesday to Saturday, he emerged as the Rightful Heir to the Architect who created everything within the House. Now, on Sunday, he will face a choice of astonishing proportions - the remarkable conclusion to a completely unforeseen adventure.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "598_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14313,
+    "score": 4
+  },
+  "pages": 800,
+  "title": "Lord Sunday",
+  "url": "https://www.goodreads.com/book/show/6657648-lord-sunday",
+  "year_published": 2010
 }

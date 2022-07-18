@@ -1,67 +1,67 @@
 {
-    "author": "Stephen Hawking",
-    "id": "9259",
-    "description": "In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide. That edition was on the cutting edge of what was then known about the origins and nature of the universe. But the intervening years have seen extraordinary advances in the technology of observing both the micro- and the macrocosmic worlds. These observations have confirmed many of Professor Hawking's theoretical predictions in the first edition of his book, including the recent discoveries of the Cosmic Background Explorer satellite (COBE), which probed back in time to within 300,000 years of the universe's beginning and revealed wrinkles in the fabric of space-time that he had projected. Eager to bring to his original text the new knowledge revealed by these observations, as well as his own recent research, Professor Hawking has prepared a new introduction to the book, written an entirely new chapter on wormholes and time travel, and updated the chapters throughout.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 158,
-        "classics": 358,
-        "history": 801,
-        "nonfiction": 6622,
-        "philosophy": 373,
-        "science": 9129,
-        "science (astronomy)": 381,
-        "science (physics)": 1541,
-        "science (popular science)": 326,
-        "space": 196
+  "author": "Stephen Hawking",
+  "id": "9259",
+  "description": "In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide. That edition was on the cutting edge of what was then known about the origins and nature of the universe. But the intervening years have seen extraordinary advances in the technology of observing both the micro- and the macrocosmic worlds. These observations have confirmed many of Professor Hawking's theoretical predictions in the first edition of his book, including the recent discoveries of the Cosmic Background Explorer satellite (COBE), which probed back in time to within 300,000 years of the universe's beginning and revealed wrinkles in the fabric of space-time that he had projected. Eager to bring to his original text the new knowledge revealed by these observations, as well as his own recent research, Professor Hawking has prepared a new introduction to the book, written an entirely new chapter on wormholes and time travel, and updated the chapters throughout.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "history",
+    "nonfiction",
+    "philosophy",
+    "science",
+    "science (astronomy)",
+    "science (physics)",
+    "science (popular science)",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "9259_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "9259_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9259_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9259_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9259_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9259_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9259_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9259_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "9259_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "9259_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 317070,
-        "score": 4.18
+    {
+      "status": "maintenance",
+      "stock_id": "9259_2"
     },
-    "pages": 328,
-    "title": "A Brief History of Time",
-    "url": "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time",
-    "year_published": 1988
+    {
+      "status": "maintenance",
+      "stock_id": "9259_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9259_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9259_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9259_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9259_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "9259_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "9259_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 317070,
+    "score": 4.18
+  },
+  "pages": 328,
+  "title": "A Brief History of Time",
+  "url": "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time",
+  "year_published": 1988
 }

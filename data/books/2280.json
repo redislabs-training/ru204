@@ -1,46 +1,46 @@
 {
-    "author": "Cherie Priest",
-    "id": "2280",
-    "description": "Best friends, big fans, a mysterious webcomic, and a long-lost girl collide in this riveting novel, perfect for fans of both Cory Doctorow and Sarah Dessen; illustrated throughout with comics.Once upon a time, two best friends created a princess together. Libby drew the pictures, May wrote the tales, and their heroine, Princess X, slayed all the dragons and scaled all the mountains their imaginations could conjure. Once upon a few years later, Libby was in the car with her mom, driving across the Ballard Bridge on a rainy night. When the car went over the side, Libby passed away, and Princess X died with her. Once upon a now: May is sixteen and lonely, wandering the streets of Seattle, when she sees a sticker slapped in a corner window. Princess X? When May looks around, she sees the Princess everywhere: Stickers. Patches. Graffiti. There's an entire underground culture, focused around a webcomic at IAmPrincessX.com. The more May explores the webcomic, the more she sees disturbing similarities between Libby's story and Princess X online. And that means that only one person could have started this phenomenon---her best friend, Libby, who lives.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 75,
-        "contemporary": 130,
-        "fantasy": 65,
-        "fiction": 140,
-        "mystery": 527,
-        "realistic fiction": 61,
-        "sequential art (graphic novels)": 179,
-        "thriller": 75,
-        "young adult": 640,
-        "young adult (teen)": 95
+  "author": "Cherie Priest",
+  "id": "2280",
+  "description": "Best friends, big fans, a mysterious webcomic, and a long-lost girl collide in this riveting novel, perfect for fans of both Cory Doctorow and Sarah Dessen; illustrated throughout with comics.Once upon a time, two best friends created a princess together. Libby drew the pictures, May wrote the tales, and their heroine, Princess X, slayed all the dragons and scaled all the mountains their imaginations could conjure. Once upon a few years later, Libby was in the car with her mom, driving across the Ballard Bridge on a rainy night. When the car went over the side, Libby passed away, and Princess X died with her. Once upon a now: May is sixteen and lonely, wandering the streets of Seattle, when she sees a sticker slapped in a corner window. Princess X? When May looks around, she sees the Princess everywhere: Stickers. Patches. Graffiti. There's an entire underground culture, focused around a webcomic at IAmPrincessX.com. The more May explores the webcomic, the more she sees disturbing similarities between Libby's story and Princess X online. And that means that only one person could have started this phenomenon---her best friend, Libby, who lives.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "realistic fiction",
+    "sequential art (graphic novels)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2280_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2280_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2280_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2280_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2280_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11835,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "2280_2"
     },
-    "pages": 1178,
-    "title": "I Am Princess X",
-    "url": "https://www.goodreads.com/book/show/17408897-i-am-princess-x",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "2280_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2280_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11835,
+    "score": 4.06
+  },
+  "pages": 1178,
+  "title": "I Am Princess X",
+  "url": "https://www.goodreads.com/book/show/17408897-i-am-princess-x",
+  "year_published": 2015
 }

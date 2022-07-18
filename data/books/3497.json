@@ -1,62 +1,62 @@
 {
-    "author": "Neal Stephenson",
-    "id": "3497",
-    "description": "The Diamond Age: Or, a Young Lady's Illustrated Primer is a postcyberpunk novel by Neal Stephenson. It is to some extent a science fiction coming-of-age story, focused on a young girl named Nell, and set in a future world in which nanotechnology affects all aspects of life. The novel deals with themes of education, social class, ethnicity, and the nature of artificial intelligence.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 283,
-        "fiction": 1344,
-        "hugo awards": 80,
-        "novels": 96,
-        "science fiction": 2432,
-        "science fiction (cyberpunk)": 705,
-        "science fiction (dystopia)": 110,
-        "science fiction (steampunk)": 333,
-        "science fiction fantasy": 204,
-        "speculative fiction": 112
+  "author": "Neal Stephenson",
+  "id": "3497",
+  "description": "The Diamond Age: Or, a Young Lady's Illustrated Primer is a postcyberpunk novel by Neal Stephenson. It is to some extent a science fiction coming-of-age story, focused on a young girl named Nell, and set in a future world in which nanotechnology affects all aspects of life. The novel deals with themes of education, social class, ethnicity, and the nature of artificial intelligence.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3497_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3497_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3497_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3497_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3497_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3497_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3497_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "3497_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3497_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 85634,
-        "score": 4.16
+    {
+      "status": "on_loan",
+      "stock_id": "3497_2"
     },
-    "pages": 276,
-    "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
-    "url": "https://www.goodreads.com/book/show/827.The_Diamond_Age",
-    "year_published": 1995
+    {
+      "status": "maintenance",
+      "stock_id": "3497_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3497_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3497_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3497_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "3497_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3497_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 85634,
+    "score": 4.16
+  },
+  "pages": 276,
+  "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
+  "url": "https://www.goodreads.com/book/show/827.The_Diamond_Age",
+  "year_published": 1995
 }

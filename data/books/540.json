@@ -1,60 +1,60 @@
 {
-    "author": "Emily Lloyd-Jones",
-    "id": "540",
-    "description": "THEY ARE YOUNG.THEY ARE CRIMINALS.THEY ARE IMMUNE.When the MK virus swept across the planet, a vaccine was created to stop the epidemic, but it came with some unexpected side effects. A small percentage of the population developed superhero-like powers, and Americans suffering from these so-called adverse effects were given an ultimatum: Serve the country or be declared a traitor.Some people chose a third option: live a life of crime.Seventeen-year-old Ciere Giba has the handy ability to change her appearance at will. She's what's known as an illusionist. She's also a thief. After crossing a gang of mobsters, Ciere must team up with a group of fellow superpowered criminals on a job that most would have considered impossible: a hunt for the formula that gave them their abilities. It was supposedly destroyed years ago - but what if it wasn't?Government agents are hot on their trail, and the lines between good and bad, us and them, and freedom and entrapment are blurred as Ciere and the rest of her crew become embroiled in a deadly race that could cost them their lives.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 28,
-        "comics (superheroes)": 53,
-        "fantasy": 102,
-        "fantasy (paranormal)": 49,
-        "fantasy (urban fantasy)": 26,
-        "fiction": 39,
-        "science fiction": 171,
-        "science fiction (dystopia)": 103,
-        "thriller": 20,
-        "young adult": 261
+  "author": "Emily Lloyd-Jones",
+  "id": "540",
+  "description": "THEY ARE YOUNG.THEY ARE CRIMINALS.THEY ARE IMMUNE.When the MK virus swept across the planet, a vaccine was created to stop the epidemic, but it came with some unexpected side effects. A small percentage of the population developed superhero-like powers, and Americans suffering from these so-called adverse effects were given an ultimatum: Serve the country or be declared a traitor.Some people chose a third option: live a life of crime.Seventeen-year-old Ciere Giba has the handy ability to change her appearance at will. She's what's known as an illusionist. She's also a thief. After crossing a gang of mobsters, Ciere must team up with a group of fellow superpowered criminals on a job that most would have considered impossible: a hunt for the formula that gave them their abilities. It was supposedly destroyed years ago - but what if it wasn't?Government agents are hot on their trail, and the lines between good and bad, us and them, and freedom and entrapment are blurred as Ciere and the rest of her crew become embroiled in a deadly race that could cost them their lives.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "comics (superheroes)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "540_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "540_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "540_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "540_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "540_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "540_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "540_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "540_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3345,
-        "score": 3.71
+    {
+      "status": "on_loan",
+      "stock_id": "540_2"
     },
-    "pages": 976,
-    "title": "Illusive",
-    "url": "https://www.goodreads.com/book/show/17182499-illusive",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "540_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "540_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "540_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "540_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "540_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3345,
+    "score": 3.71
+  },
+  "pages": 976,
+  "title": "Illusive",
+  "url": "https://www.goodreads.com/book/show/17182499-illusive",
+  "year_published": 2014
 }

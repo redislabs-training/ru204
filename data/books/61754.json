@@ -1,48 +1,48 @@
 {
-    "author": "Ransom Riggs",
-    "id": "61754",
-    "description": "Alternate Cover edition for ISBN 9781594744761A mysterious island. An abandoned orphanage. A strange collection of very curious photographs. It all waits to be discovered in Miss Peregrine's Home for Peculiar Children, an unforgettable novel that mixes fiction and photography in a thrilling reading experience. As our story opens, a horrific family tragedy sets sixteen-year-old Jacob journeying to a remote island off the coast of Wales, where he discovers the crumbling ruins of Miss Peregrine's Home for Peculiar Children. As Jacob explores its abandoned bedrooms and hallways, it becomes clear that the children were more than just peculiar. They may have been dangerous. They may have been quarantined on a deserted island for good reason. And somehow-impossible though it seems-they may still be alive. A spine-tingling fantasy illustrated with haunting vintage photography, Miss Peregrine's Home for Peculiar Children will delight adults, teens, and anyone who relishes an adventure in the shadows.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 759,
-        "fantasy": 13139,
-        "fantasy (paranormal)": 2552,
-        "fantasy (supernatural)": 947,
-        "fiction": 4834,
-        "historical (historical fiction)": 1151,
-        "horror": 1442,
-        "mystery": 1931,
-        "science fiction (time travel)": 1179,
-        "young adult": 9590
+  "author": "Ransom Riggs",
+  "id": "61754",
+  "description": "Alternate Cover edition for ISBN 9781594744761A mysterious island. An abandoned orphanage. A strange collection of very curious photographs. It all waits to be discovered in Miss Peregrine's Home for Peculiar Children, an unforgettable novel that mixes fiction and photography in a thrilling reading experience. As our story opens, a horrific family tragedy sets sixteen-year-old Jacob journeying to a remote island off the coast of Wales, where he discovers the crumbling ruins of Miss Peregrine's Home for Peculiar Children. As Jacob explores its abandoned bedrooms and hallways, it becomes clear that the children were more than just peculiar. They may have been dangerous. They may have been quarantined on a deserted island for good reason. And somehow-impossible though it seems-they may still be alive. A spine-tingling fantasy illustrated with haunting vintage photography, Miss Peregrine's Home for Peculiar Children will delight adults, teens, and anyone who relishes an adventure in the shadows.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "61754_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "61754_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "61754_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "61754_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "61754_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1012150,
-        "score": 3.91
+    {
+      "status": "on_loan",
+      "stock_id": "61754_2"
     },
-    "pages": 202,
-    "title": "Miss Peregrine's Home for Peculiar Children",
-    "url": "https://www.goodreads.com/book/show/9460487-miss-peregrine-s-home-for-peculiar-children",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "61754_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "61754_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1012150,
+    "score": 3.91
+  },
+  "pages": 202,
+  "title": "Miss Peregrine's Home for Peculiar Children",
+  "url": "https://www.goodreads.com/book/show/9460487-miss-peregrine-s-home-for-peculiar-children",
+  "year_published": 2011
 }

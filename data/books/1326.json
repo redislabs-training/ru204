@@ -1,44 +1,44 @@
 {
-    "author": "Tim Powers",
-    "id": "1326",
-    "description": "Brendan Doyle, a specialist in the work of the early-nineteenth century poet William Ashbless, reluctantly accepts an invitation from a millionaire to act as a guide to time-travelling tourists. But while attending a lecture given by Samuel Taylor Coleridge in 1810, he becomes marooned in Regency London, where dark and dangerous forces know about the gates in time.Caught up in the intrigue between rival bands of beggars, pursued by Egyptian sorcerers, and befriended by Coleridge, Doyle somehow survives and learns more about the mysterious Ashbless than he could ever have imagined possible...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 56,
-        "fantasy": 1080,
-        "fantasy (urban fantasy)": 45,
-        "fiction": 338,
-        "historical": 69,
-        "historical (historical fiction)": 147,
-        "science fiction": 435,
-        "science fiction (steampunk)": 373,
-        "science fiction (time travel)": 337,
-        "science fiction fantasy": 55
+  "author": "Tim Powers",
+  "id": "1326",
+  "description": "Brendan Doyle, a specialist in the work of the early-nineteenth century poet William Ashbless, reluctantly accepts an invitation from a millionaire to act as a guide to time-travelling tourists. But while attending a lecture given by Samuel Taylor Coleridge in 1810, he becomes marooned in Regency London, where dark and dangerous forces know about the gates in time.Caught up in the intrigue between rival bands of beggars, pursued by Egyptian sorcerers, and befriended by Coleridge, Doyle somehow survives and learns more about the mysterious Ashbless than he could ever have imagined possible...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1326_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1326_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1326_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1326_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 14487,
-        "score": 3.92
+    {
+      "status": "maintenance",
+      "stock_id": "1326_2"
     },
-    "pages": 940,
-    "title": "The Anubis Gates",
-    "url": "https://www.goodreads.com/book/show/142296.The_Anubis_Gates",
-    "year_published": 1983
+    {
+      "status": "on_loan",
+      "stock_id": "1326_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 14487,
+    "score": 3.92
+  },
+  "pages": 940,
+  "title": "The Anubis Gates",
+  "url": "https://www.goodreads.com/book/show/142296.The_Anubis_Gates",
+  "year_published": 1983
 }

@@ -1,68 +1,68 @@
 {
-    "author": "Pirateaba",
-    "id": "116",
-    "description": "\u201cNo killing Goblins.\u201dSo reads the sign outside of The Wandering Inn, a small building run by a young woman named Erin Solstice. She serves pasta with sausage, blue fruit juice, and dead acid flies on request. And she comes from another world. Ours.It\u2019s a bad day when Erin finds herself transported to a fantastical world and nearly gets eaten by a Dragon. She doesn\u2019t belong in a place where monster attacks are a fact of life, and where Humans are one species among many. But she must adapt to her new life. Or die.In a dangerous world where magic is real and people can level up and gain classes, Erin Solstice must battle somewhat evil Goblins, deadly Rock Crabs, and hungry [Necromancers]. She is no warrior, no mage. Erin Solstice runs an inn. She\u2019s an [Innkeeper].",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 7,
-        "audiobook": 5,
-        "fairies (fae)": 3,
-        "fantasy": 82,
-        "fantasy (dragons)": 6,
-        "fantasy (high fantasy)": 6,
-        "fantasy (magic)": 11,
-        "fiction": 6,
-        "humor": 4,
-        "science fiction fantasy": 3
+  "author": "Pirateaba",
+  "id": "116",
+  "description": "“No killing Goblins.”So reads the sign outside of The Wandering Inn, a small building run by a young woman named Erin Solstice. She serves pasta with sausage, blue fruit juice, and dead acid flies on request. And she comes from another world. Ours.It’s a bad day when Erin finds herself transported to a fantastical world and nearly gets eaten by a Dragon. She doesn’t belong in a place where monster attacks are a fact of life, and where Humans are one species among many. But she must adapt to her new life. Or die.In a dangerous world where magic is real and people can level up and gain classes, Erin Solstice must battle somewhat evil Goblins, deadly Rock Crabs, and hungry [Necromancers]. She is no warrior, no mage. Erin Solstice runs an inn. She’s an [Innkeeper].",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fairies (fae)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "116_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "116_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "116_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "116_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "116_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "116_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "116_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "116_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "116_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "116_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1495,
-        "score": 4.59
+    {
+      "status": "available",
+      "stock_id": "116_2"
     },
-    "pages": 539,
-    "title": "The Wandering Inn: Volume 2",
-    "url": "https://www.goodreads.com/book/show/41180829-the-wandering-inn",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "116_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "116_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "116_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "116_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "116_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "116_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "116_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1495,
+    "score": 4.59
+  },
+  "pages": 539,
+  "title": "The Wandering Inn: Volume 2",
+  "url": "https://www.goodreads.com/book/show/41180829-the-wandering-inn",
+  "year_published": 2019
 }

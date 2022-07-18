@@ -1,50 +1,50 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "538",
-    "description": "First published in The Magazine of Fantasy and Science Fiction - March, 1959 - the story involves a number of paradoxes caused by time travel. It further develops themes explored by the author in a previous work, \"By His Bootstraps\", published some 18 years earlier.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 22,
-        "fantasy": 10,
-        "fiction": 75,
-        "literature (american)": 6,
-        "mystery": 6,
-        "science fiction": 236,
-        "science fiction (time travel)": 77,
-        "science fiction fantasy": 9,
-        "short stories": 180,
-        "speculative fiction": 8
+  "author": "Robert A. Heinlein",
+  "id": "538",
+  "description": "First published in The Magazine of Fantasy and Science Fiction - March, 1959 - the story involves a number of paradoxes caused by time travel. It further develops themes explored by the author in a previous work, \"By His Bootstraps\", published some 18 years earlier.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "538_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "538_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "538_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "538_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "538_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "538_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5319,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "538_2"
     },
-    "pages": 706,
-    "title": "All You Zombies",
-    "url": "https://www.goodreads.com/book/show/13030110-all-you-zombies",
-    "year_published": 1959
+    {
+      "status": "on_loan",
+      "stock_id": "538_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "538_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "538_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5319,
+    "score": 4.08
+  },
+  "pages": 706,
+  "title": "All You Zombies",
+  "url": "https://www.goodreads.com/book/show/13030110-all-you-zombies",
+  "year_published": 1959
 }

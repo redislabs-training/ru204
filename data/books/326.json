@@ -1,55 +1,55 @@
 {
-    "author": "Catherynne M. Valente",
-    "id": "326",
-    "description": "Fantastist Catherynne M. Valente takes on the folklore of artificial intelligence in this brand new, original novella of technology, identity, and an uncertain mechanized future.Neva is dreaming. But she is not alone. A mysterious machine entity called Elefsis haunts her and the members of her family, back through the generations to her great-great-grandmother\u2014a gifted computer programmer who changed the world. Together Neva and Elefsis navigate their history and their future, an uneasy, unwilling symbiote.But what they discover in their dreamworld might change them forever . . .",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "artificial intelligence": 12,
-        "fantasy": 103,
-        "fantasy (fairy tales)": 10,
-        "fiction": 59,
-        "novella": 39,
-        "science fiction": 239,
-        "science fiction (robots)": 13,
-        "science fiction (steampunk)": 11,
-        "short stories": 69,
-        "speculative fiction": 13
+  "author": "Catherynne M. Valente",
+  "id": "326",
+  "description": "Fantastist Catherynne M. Valente takes on the folklore of artificial intelligence in this brand new, original novella of technology, identity, and an uncertain mechanized future.Neva is dreaming. But she is not alone. A mysterious machine entity called Elefsis haunts her and the members of her family, back through the generations to her great-great-grandmother—a gifted computer programmer who changed the world. Together Neva and Elefsis navigate their history and their future, an uneasy, unwilling symbiote.But what they discover in their dreamworld might change them forever . . .",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "artificial intelligence",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction (steampunk)",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "326_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "326_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "326_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "326_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "326_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "326_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "326_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1701,
-        "score": 4.09
+    {
+      "status": "available",
+      "stock_id": "326_2"
     },
-    "pages": 769,
-    "title": "Silently and Very Fast",
-    "url": "https://www.goodreads.com/book/show/12887497-silently-and-very-fast",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "326_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "326_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "326_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "326_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1701,
+    "score": 4.09
+  },
+  "pages": 769,
+  "title": "Silently and Very Fast",
+  "url": "https://www.goodreads.com/book/show/12887497-silently-and-very-fast",
+  "year_published": 2011
 }

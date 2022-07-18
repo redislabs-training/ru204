@@ -1,44 +1,44 @@
 {
-    "author": "Guy Gavriel Kay",
-    "id": "733",
-    "description": "In his critically acclaimed novel Under Heaven, Guy Gavriel Kay told a vivid and powerful story inspired by China\u2019s Tang Dynasty. Now, the international bestselling and multiple award-winning author revisits that invented setting four centuries later with an epic of prideful emperors, battling courtiers, bandits and soldiers, nomadic invasions, and a woman battling in her own way, to find a new place for women in the world \u2013 a world inspired this time by the glittering, decadent Song Dynasty.Ren Daiyan was still just a boy when he took the lives of seven men while guarding an imperial magistrate of Kitai. That moment on a lonely road changed his life\u2014in entirely unexpected ways, sending him into the forests of Kitai among the outlaws. From there he emerges years later\u2014and his life changes again, dramatically, as he circles towards the court and emperor, while war approaches Kitai from the north.Lin Shan is the daughter of a scholar, his beloved only child. Educated by him in ways young women never are, gifted as a songwriter and calligrapher, she finds herself living a life suspended between two worlds. Her intelligence captivates an emperor\u2014and alienates women at the court. But when her father\u2019s life is endangered by the savage politics of the day, Shan must act in ways no woman ever has.In an empire divided by bitter factions circling an exquisitely cultured emperor who loves his gardens and his art far more than the burdens of governing, dramatic events on the northern steppe alter the balance of power in the world, leading to events no one could have foretold, under the river of stars.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "cultural (asia)": 16,
-        "cultural (canada)": 17,
-        "cultural (china)": 38,
-        "fantasy": 674,
-        "fantasy (epic fantasy)": 15,
-        "fiction": 120,
-        "historical": 54,
-        "historical (historical fiction)": 170,
-        "historical fiction (historical fantasy)": 50,
-        "science fiction fantasy": 18
+  "author": "Guy Gavriel Kay",
+  "id": "733",
+  "description": "In his critically acclaimed novel Under Heaven, Guy Gavriel Kay told a vivid and powerful story inspired by China’s Tang Dynasty. Now, the international bestselling and multiple award-winning author revisits that invented setting four centuries later with an epic of prideful emperors, battling courtiers, bandits and soldiers, nomadic invasions, and a woman battling in her own way, to find a new place for women in the world – a world inspired this time by the glittering, decadent Song Dynasty.Ren Daiyan was still just a boy when he took the lives of seven men while guarding an imperial magistrate of Kitai. That moment on a lonely road changed his life—in entirely unexpected ways, sending him into the forests of Kitai among the outlaws. From there he emerges years later—and his life changes again, dramatically, as he circles towards the court and emperor, while war approaches Kitai from the north.Lin Shan is the daughter of a scholar, his beloved only child. Educated by him in ways young women never are, gifted as a songwriter and calligrapher, she finds herself living a life suspended between two worlds. Her intelligence captivates an emperor—and alienates women at the court. But when her father’s life is endangered by the savage politics of the day, Shan must act in ways no woman ever has.In an empire divided by bitter factions circling an exquisitely cultured emperor who loves his gardens and his art far more than the burdens of governing, dramatic events on the northern steppe alter the balance of power in the world, leading to events no one could have foretold, under the river of stars.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "cultural (asia)",
+    "cultural (canada)",
+    "cultural (china)",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "733_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "733_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "733_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "733_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6365,
-        "score": 4.13
+    {
+      "status": "maintenance",
+      "stock_id": "733_2"
     },
-    "pages": 975,
-    "title": "River of Stars",
-    "url": "https://www.goodreads.com/book/show/15808474-river-of-stars",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "733_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6365,
+    "score": 4.13
+  },
+  "pages": 975,
+  "title": "River of Stars",
+  "url": "https://www.goodreads.com/book/show/15808474-river-of-stars",
+  "year_published": 2013
 }

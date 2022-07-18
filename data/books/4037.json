@@ -1,39 +1,39 @@
 {
-    "author": "Stanis\u0142aw Lem",
-    "id": "4037",
-    "description": "A classic work of science fiction by renowned Polish novelist and satirist Stanislaw Lem.When Kris Kelvin arrives at the planet Solaris to study the ocean that covers its surface, he finds a painful, hitherto unconscious memory embodied in the living physical likeness of a long-dead lover. Others examining the planet, Kelvin learns, are plagued with their own repressed and newly corporeal memories. The Solaris ocean may be a massive brain that creates these incarnate memories, though its purpose in doing so is unknown, forcing the scientists to shift the focus of their quest and wonder if they can truly understand the universe without first understanding what lies within their hearts.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 105,
-        "classics": 421,
-        "cultural (poland)": 100,
-        "european literature (polish literature)": 233,
-        "fantasy": 110,
-        "fiction": 1217,
-        "novels": 129,
-        "philosophy": 127,
-        "science fiction": 2638,
-        "science fiction fantasy": 160
+  "author": "Stanisław Lem",
+  "id": "4037",
+  "description": "A classic work of science fiction by renowned Polish novelist and satirist Stanislaw Lem.When Kris Kelvin arrives at the planet Solaris to study the ocean that covers its surface, he finds a painful, hitherto unconscious memory embodied in the living physical likeness of a long-dead lover. Others examining the planet, Kelvin learns, are plagued with their own repressed and newly corporeal memories. The Solaris ocean may be a massive brain that creates these incarnate memories, though its purpose in doing so is unknown, forcing the scientists to shift the focus of their quest and wonder if they can truly understand the universe without first understanding what lies within their hearts.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "cultural (poland)",
+    "european literature (polish literature)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "philosophy",
+    "science fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4037_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4037_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4037_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 75672,
-        "score": 3.99
-    },
-    "pages": 1102,
-    "title": "Solaris",
-    "url": "https://www.goodreads.com/book/show/95558.Solaris",
-    "year_published": 1961
+    {
+      "status": "maintenance",
+      "stock_id": "4037_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 75672,
+    "score": 3.99
+  },
+  "pages": 1102,
+  "title": "Solaris",
+  "url": "https://www.goodreads.com/book/show/95558.Solaris",
+  "year_published": 1961
 }

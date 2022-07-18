@@ -1,48 +1,48 @@
 {
-    "author": "Stephen King",
-    "id": "6132",
-    "description": "Roland, Eddie, Susannah, Jake, and Jake\u2019s pet bumbler survive Blaine the Mono\u2019s final crash, only to find themselves stranded in an alternate version of Topeka, Kansas, one that has been ravaged by the superflu virus. While following the deserted I-70 toward a distant glass palace, they hear the atonal squalling of a thinny, a place where the fabric of existence has almost entirely worn away. While camping near the edge of the thinny, Roland tells his ka-tet a story about another thinny, one that he encountered when he was little more than a boy. Over the course of one long magical night, Roland transports us to the Mid-World of long-ago and a seaside town called Hambry, where Roland fell in love with a girl named Susan Delgado, and where he and his old tet-mates Alain and Cuthbert battled the forces of John Farson, the harrier who\u2014with a little help from a seeing sphere called Maerlyn\u2019s Grapefruit\u2014ignited Mid-World\u2019s final war.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 270,
-        "apocalyptic (post apocalyptic)": 126,
-        "audiobook": 198,
-        "fantasy": 5063,
-        "fiction": 1697,
-        "horror": 1440,
-        "novels": 120,
-        "science fiction": 483,
-        "science fiction fantasy": 197,
-        "westerns": 272
+  "author": "Stephen King",
+  "id": "6132",
+  "description": "Roland, Eddie, Susannah, Jake, and Jake’s pet bumbler survive Blaine the Mono’s final crash, only to find themselves stranded in an alternate version of Topeka, Kansas, one that has been ravaged by the superflu virus. While following the deserted I-70 toward a distant glass palace, they hear the atonal squalling of a thinny, a place where the fabric of existence has almost entirely worn away. While camping near the edge of the thinny, Roland tells his ka-tet a story about another thinny, one that he encountered when he was little more than a boy. Over the course of one long magical night, Roland transports us to the Mid-World of long-ago and a seaside town called Hambry, where Roland fell in love with a girl named Susan Delgado, and where he and his old tet-mates Alain and Cuthbert battled the forces of John Farson, the harrier who—with a little help from a seeing sphere called Maerlyn’s Grapefruit—ignited Mid-World’s final war.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "westerns"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "6132_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "6132_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6132_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "6132_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6132_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 172467,
-        "score": 4.23
+    {
+      "status": "maintenance",
+      "stock_id": "6132_2"
     },
-    "pages": 1315,
-    "title": "Wizard and Glass",
-    "url": "https://www.goodreads.com/book/show/5096.Wizard_and_Glass",
-    "year_published": 1997
+    {
+      "status": "available",
+      "stock_id": "6132_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6132_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 172467,
+    "score": 4.23
+  },
+  "pages": 1315,
+  "title": "Wizard and Glass",
+  "url": "https://www.goodreads.com/book/show/5096.Wizard_and_Glass",
+  "year_published": 1997
 }

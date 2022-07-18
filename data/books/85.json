@@ -1,48 +1,48 @@
 {
-    "author": "David Gatewood",
-    "id": "85",
-    "description": "Synchronic: 13 Tales of Time Travel introduces 13 varied and original takes on the pitfalls and paradoxes of time travel-from some of today's most talented voices. From Michael Bunker's story of a father, a son, and the legendary Santa Anna Gold, to Jason Gurley's heart-wrenching tale of an astronaut forever torn from his young wife and daughter, these stories will keep you on the edge of your seat, and often have you guessing right up until the final word. You'll meet a prison therapist who treats his patients by going back and preventing their crimes; a woman who can't stop reliving her life, no matter how much it hurts; a space marine suffering from a time-altering brain injury; a woman who will betray the man she loves to correct a horrible mistake; a vengeful soul from ages past; and a time cop charged with preserving the timelines of multiple universes. You'll experience a world where time travel is so common, reality itself hangs by a thread; a love story that overcomes the unforgiving barriers of time; a thrilling encounter with a pack of T-rex; a historian's efforts to alter Roman history; and the first manned mission to the Red Planet-or is it? So sit back and enjoy. Just be sure you've got plenty of time.Contents; Foreword (Synchronic: 13 Tales of Time Travel) \u2022 essay by Nick Cole The Santa Anna Gold / short fiction by Michael Bunker Corrections / short fiction by Susan Kaye Quinn Hereafter / short story by Samuel Peralta Reentry / short fiction by Eric Tozzi The Swimming Pool of the Universe / short fiction by Nick Cole The River / short fiction by Jennifer Ellis A Word in Pompey's Ear / short fiction by Christopher G. Nuttall Rock or Shell / novella by Ann Christy The Mirror / short fiction by Irving Belateche Reset / short fiction by MeiLin Miranda The Laurasians / short fiction by Isaac Hooke The First Cut / short fiction by Edward W. Robinson The Dark Age / (2014) / short story by Jason Gurley Afterword (Synchronic: 13 Tales of Time Travel) \u2022 essay by David Gatewood.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 9,
-        "fantasy": 11,
-        "fiction": 10,
-        "science fiction": 17,
-        "science fiction (time travel)": 35,
-        "science fiction fantasy": 3,
-        "short stories": 13
+  "author": "David Gatewood",
+  "id": "85",
+  "description": "Synchronic: 13 Tales of Time Travel introduces 13 varied and original takes on the pitfalls and paradoxes of time travel-from some of today's most talented voices. From Michael Bunker's story of a father, a son, and the legendary Santa Anna Gold, to Jason Gurley's heart-wrenching tale of an astronaut forever torn from his young wife and daughter, these stories will keep you on the edge of your seat, and often have you guessing right up until the final word. You'll meet a prison therapist who treats his patients by going back and preventing their crimes; a woman who can't stop reliving her life, no matter how much it hurts; a space marine suffering from a time-altering brain injury; a woman who will betray the man she loves to correct a horrible mistake; a vengeful soul from ages past; and a time cop charged with preserving the timelines of multiple universes. You'll experience a world where time travel is so common, reality itself hangs by a thread; a love story that overcomes the unforgiving barriers of time; a thrilling encounter with a pack of T-rex; a historian's efforts to alter Roman history; and the first manned mission to the Red Planet-or is it? So sit back and enjoy. Just be sure you've got plenty of time.Contents; Foreword (Synchronic: 13 Tales of Time Travel) • essay by Nick Cole The Santa Anna Gold / short fiction by Michael Bunker Corrections / short fiction by Susan Kaye Quinn Hereafter / short story by Samuel Peralta Reentry / short fiction by Eric Tozzi The Swimming Pool of the Universe / short fiction by Nick Cole The River / short fiction by Jennifer Ellis A Word in Pompey's Ear / short fiction by Christopher G. Nuttall Rock or Shell / novella by Ann Christy The Mirror / short fiction by Irving Belateche Reset / short fiction by MeiLin Miranda The Laurasians / short fiction by Isaac Hooke The First Cut / short fiction by Edward W. Robinson The Dark Age / (2014) / short story by Jason Gurley Afterword (Synchronic: 13 Tales of Time Travel) • essay by David Gatewood.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "85_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "85_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "85_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "85_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "85_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "85_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 400,
-        "score": 4.01
+    {
+      "status": "on_loan",
+      "stock_id": "85_2"
     },
-    "pages": 987,
-    "title": "Synchronic: 13 Tales of Time Travel",
-    "url": "https://www.goodreads.com/book/show/22041835-synchronic",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "85_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "85_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "85_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 400,
+    "score": 4.01
+  },
+  "pages": 987,
+  "title": "Synchronic: 13 Tales of Time Travel",
+  "url": "https://www.goodreads.com/book/show/22041835-synchronic",
+  "year_published": 2014
 }

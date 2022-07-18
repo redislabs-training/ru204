@@ -1,63 +1,63 @@
 {
-    "author": "Alan Moore",
-    "id": "630",
-    "description": "It's one month after the events in League of Extraordinary Gentlemen Vol. 1, and the skies over England are filled with flaming rockets as Mars launches the first salvo of an invasion. Only our stalwart adventurers Allan Quatermain, Mina Harker, Captain Nemo, Hawley Griffin, and Mr. Edward Hyde can save mother England and the very Earth itself. But there are many startling revelations along the way, including the blossoming of love and the uncovering of a traitor in their midst!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 84,
-        "fantasy": 106,
-        "fiction": 166,
-        "graphic novels comics": 82,
-        "historical (historical fiction)": 70,
-        "horror": 39,
-        "science fiction": 68,
-        "science fiction (steampunk)": 47,
-        "sequential art (comics)": 1095,
-        "sequential art (graphic novels)": 1109
+  "author": "Alan Moore",
+  "id": "630",
+  "description": "It's one month after the events in League of Extraordinary Gentlemen Vol. 1, and the skies over England are filled with flaming rockets as Mars launches the first salvo of an invasion. Only our stalwart adventurers Allan Quatermain, Mina Harker, Captain Nemo, Hawley Griffin, and Mr. Edward Hyde can save mother England and the very Earth itself. But there are many startling revelations along the way, including the blossoming of love and the uncovering of a traitor in their midst!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "historical (historical fiction)",
+    "horror",
+    "science fiction",
+    "science fiction (steampunk)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "630_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "630_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "630_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "630_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "630_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "630_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "630_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "630_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "630_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20251,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "630_2"
     },
-    "pages": 1195,
-    "title": "The League of Extraordinary Gentlemen, Vol. 2",
-    "url": "https://www.goodreads.com/book/show/107007.The_League_of_Extraordinary_Gentlemen_Vol_2",
-    "year_published": 2003
+    {
+      "status": "on_loan",
+      "stock_id": "630_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "630_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "630_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "630_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "630_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "630_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20251,
+    "score": 3.93
+  },
+  "pages": 1195,
+  "title": "The League of Extraordinary Gentlemen, Vol. 2",
+  "url": "https://www.goodreads.com/book/show/107007.The_League_of_Extraordinary_Gentlemen_Vol_2",
+  "year_published": 2003
 }

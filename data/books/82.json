@@ -1,50 +1,50 @@
 {
-    "author": "Bob Pflugfelder",
-    "id": "82",
-    "description": "Nick and Tesla return in an all-new, robot-filled adventure! When a rash of robberies hits the town of Half Moon Bay, 11-year-old sleuths Nick and Tesla are determined to catch the criminals\u2014but to do so, they'll have to build a host of new gadgets and gizmos! In this robot-themed follow-up to Nick and Tesla's High-Voltage Danger Lab, the brother-and-sister duo build four different droids out of ordinary household objects\u2014and illustrated instructions are included throughout the story, so you can build them, too! Make bristlebots that buzz, hoverbots that float above the ground, battlebots that duke it out, and more! Can Nick and Tesla catch the criminal mastermind\u2014and foil his army of rampaging robots\u2014before it's too late?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 2,
-        "childrens": 8,
-        "childrens (juvenile)": 4,
-        "childrens (middle grade)": 18,
-        "kids": 2,
-        "mystery": 15,
-        "science": 14,
-        "science (engineering)": 2,
-        "science fiction (robots)": 4
+  "author": "Bob Pflugfelder",
+  "id": "82",
+  "description": "Nick and Tesla return in an all-new, robot-filled adventure! When a rash of robberies hits the town of Half Moon Bay, 11-year-old sleuths Nick and Tesla are determined to catch the criminals—but to do so, they'll have to build a host of new gadgets and gizmos! In this robot-themed follow-up to Nick and Tesla's High-Voltage Danger Lab, the brother-and-sister duo build four different droids out of ordinary household objects—and illustrated instructions are included throughout the story, so you can build them, too! Make bristlebots that buzz, hoverbots that float above the ground, battlebots that duke it out, and more! Can Nick and Tesla catch the criminal mastermind—and foil his army of rampaging robots—before it's too late?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "kids",
+    "mystery",
+    "science",
+    "science (engineering)",
+    "science fiction (robots)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "82_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "82_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "82_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "82_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "82_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "82_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 381,
-        "score": 4.16
+    {
+      "status": "available",
+      "stock_id": "82_2"
     },
-    "pages": 518,
-    "title": "Nick and Tesla's Robot Army Rampage: A Mystery with Hoverbots, Bristle Bots, and Other Robots You Can Build Yourself",
-    "url": "https://www.goodreads.com/book/show/17884063-nick-and-tesla-s-robot-army-rampage",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "82_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "82_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "82_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 381,
+    "score": 4.16
+  },
+  "pages": 518,
+  "title": "Nick and Tesla's Robot Army Rampage: A Mystery with Hoverbots, Bristle Bots, and Other Robots You Can Build Yourself",
+  "url": "https://www.goodreads.com/book/show/17884063-nick-and-tesla-s-robot-army-rampage",
+  "year_published": 2014
 }

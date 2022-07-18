@@ -1,59 +1,59 @@
 {
-    "author": "Robert Kirkman",
-    "id": "2475",
-    "description": "Introducing the first eight volumes of the fan-favorite, New York Times Best Seller series collected into one massive paperback collection.In a world ruled by the dead, we are forced to finally start living. With The Walking Dead #1-48, this compendium features more than one thousand pages chronicling the start of Robert Kirkman's Eisner Award-winning story of zombie horror, from Rick Grimes waking up alone in a hospital, his band of survivors seeking refuge on an isolated farm and the controversial introduction of Woodbury despot, The Governor.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 112,
-        "comics (comic book)": 80,
-        "fantasy": 79,
-        "fiction": 281,
-        "graphic novels comics": 133,
-        "horror": 599,
-        "horror (zombies)": 392,
-        "science fiction (dystopia)": 85,
-        "sequential art (comics)": 877,
-        "sequential art (graphic novels)": 1080
+  "author": "Robert Kirkman",
+  "id": "2475",
+  "description": "Introducing the first eight volumes of the fan-favorite, New York Times Best Seller series collected into one massive paperback collection.In a world ruled by the dead, we are forced to finally start living. With The Walking Dead #1-48, this compendium features more than one thousand pages chronicling the start of Robert Kirkman's Eisner Award-winning story of zombie horror, from Rick Grimes waking up alone in a hospital, his band of survivors seeking refuge on an isolated farm and the controversial introduction of Woodbury despot, The Governor.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2475_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2475_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2475_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2475_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2475_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2475_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2475_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2475_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 65055,
-        "score": 4.44
+    {
+      "status": "available",
+      "stock_id": "2475_2"
     },
-    "pages": 462,
-    "title": "The Walking Dead Compendium 1",
-    "url": "https://www.goodreads.com/book/show/6465707-the-walking-dead-compendium-1",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "2475_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2475_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2475_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2475_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2475_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 65055,
+    "score": 4.44
+  },
+  "pages": 462,
+  "title": "The Walking Dead Compendium 1",
+  "url": "https://www.goodreads.com/book/show/6465707-the-walking-dead-compendium-1",
+  "year_published": 2009
 }

@@ -1,67 +1,67 @@
 {
-    "author": "John Varley",
-    "id": "136",
-    "description": "Never afraid of risks, award-winning author John Varley took readers and critics by storm with his previous novel, Red Thunder. Now, Varley takes another leap into the great unknown with Mammoth...In a barren province of Canada, a mammoth hunter has made the discovery of a lifetime: an intact frozen woolly mammoth. But what he finds during the painstaking process of excavating the huge creature boggles the mind. Huddled next to the mammoth is the mummified body of a Stone Age man around 12,000 years old. And he is wearing a wristwatch.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 4,
-        "animals": 6,
-        "fantasy": 8,
-        "fiction": 28,
-        "mystery": 2,
-        "science fiction": 84,
-        "science fiction (time travel)": 36,
-        "science fiction fantasy": 6,
-        "speculative fiction": 3,
-        "thriller": 4
+  "author": "John Varley",
+  "id": "136",
+  "description": "Never afraid of risks, award-winning author John Varley took readers and critics by storm with his previous novel, Red Thunder. Now, Varley takes another leap into the great unknown with Mammoth...In a barren province of Canada, a mammoth hunter has made the discovery of a lifetime: an intact frozen woolly mammoth. But what he finds during the painstaking process of excavating the huge creature boggles the mind. Huddled next to the mammoth is the mummified body of a Stone Age man around 12,000 years old. And he is wearing a wristwatch.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "136_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "136_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "136_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "136_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "136_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "136_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "136_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "136_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "136_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "136_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1328,
-        "score": 3.54
+    {
+      "status": "maintenance",
+      "stock_id": "136_2"
     },
-    "pages": 225,
-    "title": "Mammoth",
-    "url": "https://www.goodreads.com/book/show/49846.Mammoth",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "136_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "136_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "136_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "136_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "136_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "136_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "136_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1328,
+    "score": 3.54
+  },
+  "pages": 225,
+  "title": "Mammoth",
+  "url": "https://www.goodreads.com/book/show/49846.Mammoth",
+  "year_published": 2005
 }

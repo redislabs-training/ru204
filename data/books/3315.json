@@ -1,40 +1,40 @@
 {
-    "author": "Pat Frank",
-    "id": "3315",
-    "description": "\u201cAn extraordinary real picture of human beings numbed by catastrophe but still driven by the unconquerable determination of living creatures to keep on being alive.\u201d \u2014The New Yorker\u201cAlas, Babylon.\u201d Those fateful words heralded the end. When the unthinkable nightmare of nuclear holocaust ravaged the United States, it was instant death for tens of millions of people; for survivors, it was a nightmare of hunger, sickness, and brutality. Overnight, a thousand years of civilization were stripped away.But for one small Florida town, spared against all the odds, the struggle was just beginning, as men and women of all ages and races found the courage to join together and push against the darkness.This classic apocalyptic novel by Pat Frank, first published in 1959 at the height of the Cold War, includes an introduction by award-winning science fiction writer and scientist David Brin.\u00a0",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 77,
-        "apocalyptic (post apocalyptic)": 498,
-        "audiobook": 61,
-        "classics": 439,
-        "fiction": 887,
-        "science fiction": 753,
-        "science fiction (apocalyptic)": 222,
-        "science fiction (dystopia)": 213,
-        "science fiction fantasy": 67,
-        "war": 48
+  "author": "Pat Frank",
+  "id": "3315",
+  "description": "“An extraordinary real picture of human beings numbed by catastrophe but still driven by the unconquerable determination of living creatures to keep on being alive.” —The New Yorker“Alas, Babylon.” Those fateful words heralded the end. When the unthinkable nightmare of nuclear holocaust ravaged the United States, it was instant death for tens of millions of people; for survivors, it was a nightmare of hunger, sickness, and brutality. Overnight, a thousand years of civilization were stripped away.But for one small Florida town, spared against all the odds, the struggle was just beginning, as men and women of all ages and races found the courage to join together and push against the darkness.This classic apocalyptic novel by Pat Frank, first published in 1959 at the height of the Cold War, includes an introduction by award-winning science fiction writer and scientist David Brin. ",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "classics",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3315_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3315_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3315_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 40237,
-        "score": 4.07
-    },
-    "pages": 734,
-    "title": "Alas, Babylon",
-    "url": "https://www.goodreads.com/book/show/38169.Alas_Babylon",
-    "year_published": 1959
+    {
+      "status": "available",
+      "stock_id": "3315_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 40237,
+    "score": 4.07
+  },
+  "pages": 734,
+  "title": "Alas, Babylon",
+  "url": "https://www.goodreads.com/book/show/38169.Alas_Babylon",
+  "year_published": 1959
 }

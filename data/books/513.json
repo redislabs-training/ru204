@@ -1,48 +1,48 @@
 {
-    "author": "Ben Hatke",
-    "id": "513",
-    "description": "Life outside the robot factory is confusing.Little Robot has a lot to learn...And that's what friends are for.But with danger in the way, will friendship be enough to save them?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 35,
-        "childrens": 68,
-        "childrens (juvenile)": 25,
-        "childrens (middle grade)": 56,
-        "childrens (picture books)": 29,
-        "fiction": 41,
-        "science fiction": 70,
-        "science fiction (robots)": 42,
-        "sequential art (comics)": 51,
-        "sequential art (graphic novels)": 368
+  "author": "Ben Hatke",
+  "id": "513",
+  "description": "Life outside the robot factory is confusing.Little Robot has a lot to learn...And that's what friends are for.But with danger in the way, will friendship be enough to save them?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "childrens (picture books)",
+    "fiction",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "513_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "513_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "513_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "513_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "513_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4589,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "513_2"
     },
-    "pages": 1075,
-    "title": "Little Robot",
-    "url": "https://www.goodreads.com/book/show/23310721-little-robot",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "513_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "513_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4589,
+    "score": 4.06
+  },
+  "pages": 1075,
+  "title": "Little Robot",
+  "url": "https://www.goodreads.com/book/show/23310721-little-robot",
+  "year_published": 2015
 }

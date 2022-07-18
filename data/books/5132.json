@@ -1,34 +1,34 @@
 {
-    "author": "Koushun Takami",
-    "id": "5132",
-    "description": "Koushun Takami's notorious high-octane thriller is based on an irresistible premise: a class of junior high school students is taken to a deserted island where, as part of a ruthless authoritarian program, they are provided arms and forced to kill one another until only one survivor is left standing. Criticized as violent exploitation when first published in Japan - where it then proceeded to become a runaway bestseller - Battle Royale is a Lord of the Flies for the 21st century, a potent allegory of what it means to be young and (barely) alive in a dog-eat-dog world. Made into a controversial hit movie of the same name, Battle Royale is already a contemporary Japanese pulp classic, now available for the first time in the English language.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "asian literature (japanese literature)": 324,
-        "cultural (japan)": 368,
-        "fantasy": 138,
-        "fiction": 1180,
-        "horror": 979,
-        "novels": 103,
-        "science fiction": 602,
-        "science fiction (dystopia)": 1015,
-        "thriller": 498,
-        "young adult": 489
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "5132_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 64030,
-        "score": 4.16
-    },
-    "pages": 1206,
-    "title": "Battle Royale",
-    "url": "https://www.goodreads.com/book/show/57891.Battle_Royale",
-    "year_published": 1999
+  "author": "Koushun Takami",
+  "id": "5132",
+  "description": "Koushun Takami's notorious high-octane thriller is based on an irresistible premise: a class of junior high school students is taken to a deserted island where, as part of a ruthless authoritarian program, they are provided arms and forced to kill one another until only one survivor is left standing. Criticized as violent exploitation when first published in Japan - where it then proceeded to become a runaway bestseller - Battle Royale is a Lord of the Flies for the 21st century, a potent allegory of what it means to be young and (barely) alive in a dog-eat-dog world. Made into a controversial hit movie of the same name, Battle Royale is already a contemporary Japanese pulp classic, now available for the first time in the English language.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "asian literature (japanese literature)",
+    "cultural (japan)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "5132_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 64030,
+    "score": 4.16
+  },
+  "pages": 1206,
+  "title": "Battle Royale",
+  "url": "https://www.goodreads.com/book/show/57891.Battle_Royale",
+  "year_published": 1999
 }

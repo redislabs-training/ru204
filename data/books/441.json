@@ -1,34 +1,34 @@
 {
-    "author": "Annie Barrows",
-    "id": "441",
-    "description": "Miri is the only single child in the middle of a family with two sets of twins--older brothers and younger sisters. When the family moves to an old farmhouse Miri accidentally travels back in time to 1935 only to discover Molly, a girl in need of a real family to call her own. A very satisfying classic-in-the-making, with spine-tingling moments, this is a delightful family-friendly middle grade time-slip novel.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 21,
-        "childrens": 36,
-        "childrens (juvenile)": 23,
-        "childrens (middle grade)": 52,
-        "fantasy": 131,
-        "fantasy (magic)": 31,
-        "fiction": 46,
-        "historical (historical fiction)": 17,
-        "science fiction": 13,
-        "science fiction (time travel)": 54
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "441_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3892,
-        "score": 3.95
-    },
-    "pages": 1345,
-    "title": "The Magic Half",
-    "url": "https://www.goodreads.com/book/show/1851166.The_Magic_Half",
-    "year_published": 2007
+  "author": "Annie Barrows",
+  "id": "441",
+  "description": "Miri is the only single child in the middle of a family with two sets of twins--older brothers and younger sisters. When the family moves to an old farmhouse Miri accidentally travels back in time to 1935 only to discover Molly, a girl in need of a real family to call her own. A very satisfying classic-in-the-making, with spine-tingling moments, this is a delightful family-friendly middle grade time-slip novel.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "441_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3892,
+    "score": 3.95
+  },
+  "pages": 1345,
+  "title": "The Magic Half",
+  "url": "https://www.goodreads.com/book/show/1851166.The_Magic_Half",
+  "year_published": 2007
 }

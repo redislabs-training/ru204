@@ -1,36 +1,36 @@
 {
-    "author": "Tsutomu Nihei",
-    "id": "167",
-    "description": "In a future world rife with decay and destruction, Killy is a man of few words who packs one very powerful gun. He wanders an endless labyrinth of cyberdungeons filled with concrete and steel, fighting off cyborgs and other bizarre silicate creatures. Everyone is searching for the Net Terminal Genes, but no one is quite certain what kind of power they contain. The answer may lie hidden among the scattered human settlements of this vast and desolate future world.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 13,
-        "fiction": 23,
-        "horror": 19,
-        "manga (seinen)": 12,
-        "science fiction": 67,
-        "science fiction (cyberpunk)": 48,
-        "science fiction (dystopia)": 26,
-        "sequential art (comics)": 99,
-        "sequential art (graphic novels)": 51,
-        "sequential art (manga)": 452
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "167_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3544,
-        "score": 4.12
-    },
-    "pages": 687,
-    "title": "Blame!, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/32321.Blame_Vol_1",
-    "year_published": 1998
+  "author": "Tsutomu Nihei",
+  "id": "167",
+  "description": "In a future world rife with decay and destruction, Killy is a man of few words who packs one very powerful gun. He wanders an endless labyrinth of cyberdungeons filled with concrete and steel, fighting off cyborgs and other bizarre silicate creatures. Everyone is searching for the Net Terminal Genes, but no one is quite certain what kind of power they contain. The answer may lie hidden among the scattered human settlements of this vast and desolate future world.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "fiction",
+    "horror",
+    "manga (seinen)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "167_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3544,
+    "score": 4.12
+  },
+  "pages": 687,
+  "title": "Blame!, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/32321.Blame_Vol_1",
+  "year_published": 1998
 }

@@ -1,40 +1,40 @@
 {
-    "author": "George Mann",
-    "id": "343",
-    "description": "\"The death of billions is as nothing to us Doctor, if it helps defeat the Daleks.\"The Great Time War has raged for centuries, ravaging the universe. Scores of human colony planets are now overrun by Dalek occupation forces. A weary, angry Doctor leads a flotilla of Battle TARDISes against the Dalek stronghold but in the midst of the carnage, the Doctor's TARDIS crashes to a planet below: Moldox.As the Doctor is trapped in an apocalyptic landscape, Dalek patrols roam amongst the wreckage, rounding up the remaining civilians. But why haven't the Daleks simply killed the humans?Searching for answers the Doctor meets 'Cinder', a young Dalek hunter. Their struggles to discover the Dalek plan take them from the ruins of Moldox to the halls of Gallifrey, and set in motion a chain of events that will change everything. And everyone.An epic novel of the Great Time War featuring the War Doctor as played by John Hurt.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 8,
-        "european literature (british literature)": 3,
-        "fantasy": 19,
-        "fiction": 29,
-        "media tie in": 10,
-        "media tie in (doctor who)": 299,
-        "science fiction": 107,
-        "science fiction (aliens)": 4,
-        "science fiction (time travel)": 23,
-        "war": 5
+  "author": "George Mann",
+  "id": "343",
+  "description": "\"The death of billions is as nothing to us Doctor, if it helps defeat the Daleks.\"The Great Time War has raged for centuries, ravaging the universe. Scores of human colony planets are now overrun by Dalek occupation forces. A weary, angry Doctor leads a flotilla of Battle TARDISes against the Dalek stronghold but in the midst of the carnage, the Doctor's TARDIS crashes to a planet below: Moldox.As the Doctor is trapped in an apocalyptic landscape, Dalek patrols roam amongst the wreckage, rounding up the remaining civilians. But why haven't the Daleks simply killed the humans?Searching for answers the Doctor meets 'Cinder', a young Dalek hunter. Their struggles to discover the Dalek plan take them from the ruins of Moldox to the halls of Gallifrey, and set in motion a chain of events that will change everything. And everyone.An epic novel of the Great Time War featuring the War Doctor as played by John Hurt.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "343_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "343_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "343_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2208,
-        "score": 4.04
-    },
-    "pages": 1362,
-    "title": "Doctor Who: Engines of War",
-    "url": "https://www.goodreads.com/book/show/22401661-doctor-who",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "343_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2208,
+    "score": 4.04
+  },
+  "pages": 1362,
+  "title": "Doctor Who: Engines of War",
+  "url": "https://www.goodreads.com/book/show/22401661-doctor-who",
+  "year_published": 2014
 }

@@ -1,63 +1,63 @@
 {
-    "author": "Dan Abnett",
-    "id": "1",
-    "description": "A bold new era begins on Earth-2! The heroes have decided to take leadership roles in this still-rebuilding world. But power soon becomes absolute power, and the people of Earth-2 quickly discover they\u2019ve trusted in the wrong heroes!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (superheroes)": 4,
-        "dc comics (batman)": 3,
-        "dc comics (superman)": 3,
-        "science fiction (alternate universe)": 4,
-        "sequential art (comics)": 2,
-        "superheroes (dc comics)": 5
+  "author": "Dan Abnett",
+  "id": "1",
+  "description": "A bold new era begins on Earth-2! The heroes have decided to take leadership roles in this still-rebuilding world. But power soon becomes absolute power, and the people of Earth-2 quickly discover they’ve trusted in the wrong heroes!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (superheroes)",
+    "dc comics (batman)",
+    "dc comics (superman)",
+    "science fiction (alternate universe)",
+    "sequential art (comics)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "1_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12,
-        "score": 3.67
+    {
+      "status": "maintenance",
+      "stock_id": "1_2"
     },
-    "pages": 654,
-    "title": "Earth 2: Society #8",
-    "url": "https://www.goodreads.com/book/show/28529966-earth-2",
-    "year_published": 0
+    {
+      "status": "available",
+      "stock_id": "1_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "1_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12,
+    "score": 3.67
+  },
+  "pages": 654,
+  "title": "Earth 2: Society #8",
+  "url": "https://www.goodreads.com/book/show/28529966-earth-2",
+  "year_published": 0
 }

@@ -1,48 +1,48 @@
 {
-    "author": "Philip K. Dick",
-    "id": "253",
-    "description": "Louis Rosen and his partners sell people--ingeniously designed, historically authentic simulacra of personages such as Edwin M. Stanton and Abraham Lincoln. The problem is that the only prospective buyer is a rapacious billionaire whose plans for the simulacra could land Louis in jail. Then there's the added complication that someone--or something--like Abraham Lincoln may not want to be sold.Is an electronic Lincoln any less alive than his creators? Is a machine that cares and suffers inferior to the woman Louis loves--a borderline psychopath who does neither? With irresistible momentum, intelligence, and wit, Philip K. Dick creates an arresting techno-thriller that suggests a marriage of Bladerunner and Barbarians at the Gate.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 5,
-        "fiction": 95,
-        "literature (20th century)": 5,
-        "literature (american)": 6,
-        "novels": 14,
-        "psychology": 5,
-        "science fiction": 235,
-        "science fiction (cyberpunk)": 5,
-        "science fiction fantasy": 11,
-        "the united states of america": 5
+  "author": "Philip K. Dick",
+  "id": "253",
+  "description": "Louis Rosen and his partners sell people--ingeniously designed, historically authentic simulacra of personages such as Edwin M. Stanton and Abraham Lincoln. The problem is that the only prospective buyer is a rapacious billionaire whose plans for the simulacra could land Louis in jail. Then there's the added complication that someone--or something--like Abraham Lincoln may not want to be sold.Is an electronic Lincoln any less alive than his creators? Is a machine that cares and suffers inferior to the woman Louis loves--a borderline psychopath who does neither? With irresistible momentum, intelligence, and wit, Philip K. Dick creates an arresting techno-thriller that suggests a marriage of Bladerunner and Barbarians at the Gate.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "literature (20th century)",
+    "literature (american)",
+    "novels",
+    "psychology",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction fantasy",
+    "the united states of america"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "253_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "253_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "253_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "253_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "253_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3608,
-        "score": 3.57
+    {
+      "status": "maintenance",
+      "stock_id": "253_2"
     },
-    "pages": 615,
-    "title": "We Can Build You",
-    "url": "https://www.goodreads.com/book/show/400270.We_Can_Build_You",
-    "year_published": 1972
+    {
+      "status": "maintenance",
+      "stock_id": "253_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "253_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3608,
+    "score": 3.57
+  },
+  "pages": 615,
+  "title": "We Can Build You",
+  "url": "https://www.goodreads.com/book/show/400270.We_Can_Build_You",
+  "year_published": 1972
 }

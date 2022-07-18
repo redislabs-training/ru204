@@ -1,51 +1,51 @@
 {
-    "author": "Steve Antony",
-    "id": "210",
-    "description": " From the creator of the bestselling Mr. Panda series comes an amusing picture book about the fun you can have when you unplug.Meet Blip. Blip loves being plugged into her computer. When a blackout occurs, Blip trips over her wire and tumbles outside. Suddenly, Blip's gray world is filled with color and excitement. She plays with her new friends and has adventures all day long. When Blip finally returns home, she realizes that the world can be even brighter once you unplug.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 12,
-        "animals": 5,
-        "childrens": 30,
-        "childrens (picture books)": 163,
-        "childrens (storytime)": 19,
-        "environment (nature)": 11,
-        "fiction": 9,
-        "science (technology)": 21,
-        "science fiction": 4,
-        "science fiction (robots)": 17
+  "author": "Steve Antony",
+  "id": "210",
+  "description": " From the creator of the bestselling Mr. Panda series comes an amusing picture book about the fun you can have when you unplug.Meet Blip. Blip loves being plugged into her computer. When a blackout occurs, Blip trips over her wire and tumbles outside. Suddenly, Blip's gray world is filled with color and excitement. She plays with her new friends and has adventures all day long. When Blip finally returns home, she realizes that the world can be even brighter once you unplug.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "childrens",
+    "childrens (picture books)",
+    "childrens (storytime)",
+    "environment (nature)",
+    "fiction",
+    "science (technology)",
+    "science fiction",
+    "science fiction (robots)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "210_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "210_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "210_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "210_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "210_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "210_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 956,
-        "score": 3.93
+    {
+      "status": "on_loan",
+      "stock_id": "210_2"
     },
-    "pages": 1382,
-    "title": "Unplugged",
-    "url": "https://www.goodreads.com/book/show/35195584-unplugged",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "210_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "210_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "210_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 956,
+    "score": 3.93
+  },
+  "pages": 1382,
+  "title": "Unplugged",
+  "url": "https://www.goodreads.com/book/show/35195584-unplugged",
+  "year_published": 2017
 }

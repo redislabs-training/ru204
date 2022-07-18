@@ -1,62 +1,62 @@
 {
-    "author": "H.G. Wells",
-    "id": "345",
-    "description": "The Time Machine and The Invisible Man, by H. G. Wells, is part of the Barnes & Noble Classics\u00a0series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Here are some of the remarkable features of Barnes & Noble Classics:New introductions commissioned from today's top writers and scholarsBiographies of the authorsChronologies of contemporary historical, biographical, and cultural eventsFootnotes and endnotesSelective discussions of imitations, parodies, poems, books, plays, paintings, operas, statuary, and films inspired by the workComments by other famous authorsStudy questions to challenge the reader's viewpoints and expectationsBibliographies for further readingIndices & Glossaries, when appropriateAll editions are beautifully designed and are printed to superior specifications; some include illustrations of historical interest. Barnes & Noble Classics pulls together a constellation of influences\u2014biographical, historical, and literary\u2014to enrich each reader's understanding of these enduring works.\u00a0The Time Machine, H. G. Wells\u2019s first novel, is a tale of Darwinian evolution taken to its extreme. Its hero, a young scientist, travels 800,000 years into the future and discovers a dying earth populated by two strange humanoid species: the brutal Morlocks and the gentle but nearly helpless Eloi.The Invisible Man mixes chilling terror, suspense, and acute psychological understanding into a tale of an equally adventurous scientist who discovers the formula for invisibility\u2014a secret that drives him mad.Immensely popular during his lifetime, H. G. Wells, along with Jules Verne, is credited with inventing science fiction. This new volume offers two of Wells\u2019s best-loved and most critically acclaimed \u201cscientific romances.\u201d In each, the author grounds his fantastical imagination in scientific fact and conjecture while lacing his narrative with vibrant action, not merely to tell a \u201cripping yarn,\u201d but to offer a biting critique on the world around him. \u201cThe strength of Mr. Wells,\u201d wrote Arnold Bennett, \u201clies in the fact that he is not only a scientist, but a most talented student of character, especially quaint character. He will not only ingeniously describe for you a scientific miracle, but he will set down that miracle in the midst of a country village, sketching with excellent humour the inn-landlady, the blacksmith, the chemist\u2019s apprentice, the doctor, and all the other persons whom the miracle affects.\u201d\u00a0Alfred Mac Adam teaches literature at Barnard College-Columbia University. He is a translator and art critic.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 11,
-        "classics": 505,
-        "classics (classic literature)": 17,
-        "fantasy": 67,
-        "fiction": 233,
-        "literature": 52,
-        "novels": 24,
-        "science fiction": 319,
-        "science fiction (time travel)": 36,
-        "science fiction fantasy": 18
+  "author": "H.G. Wells",
+  "id": "345",
+  "description": "The Time Machine and The Invisible Man, by H. G. Wells, is part of the Barnes & Noble Classics series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Here are some of the remarkable features of Barnes & Noble Classics:New introductions commissioned from today's top writers and scholarsBiographies of the authorsChronologies of contemporary historical, biographical, and cultural eventsFootnotes and endnotesSelective discussions of imitations, parodies, poems, books, plays, paintings, operas, statuary, and films inspired by the workComments by other famous authorsStudy questions to challenge the reader's viewpoints and expectationsBibliographies for further readingIndices & Glossaries, when appropriateAll editions are beautifully designed and are printed to superior specifications; some include illustrations of historical interest. Barnes & Noble Classics pulls together a constellation of influences—biographical, historical, and literary—to enrich each reader's understanding of these enduring works. The Time Machine, H. G. Wells’s first novel, is a tale of Darwinian evolution taken to its extreme. Its hero, a young scientist, travels 800,000 years into the future and discovers a dying earth populated by two strange humanoid species: the brutal Morlocks and the gentle but nearly helpless Eloi.The Invisible Man mixes chilling terror, suspense, and acute psychological understanding into a tale of an equally adventurous scientist who discovers the formula for invisibility—a secret that drives him mad.Immensely popular during his lifetime, H. G. Wells, along with Jules Verne, is credited with inventing science fiction. This new volume offers two of Wells’s best-loved and most critically acclaimed “scientific romances.” In each, the author grounds his fantastical imagination in scientific fact and conjecture while lacing his narrative with vibrant action, not merely to tell a “ripping yarn,” but to offer a biting critique on the world around him. “The strength of Mr. Wells,” wrote Arnold Bennett, “lies in the fact that he is not only a scientist, but a most talented student of character, especially quaint character. He will not only ingeniously describe for you a scientific miracle, but he will set down that miracle in the midst of a country village, sketching with excellent humour the inn-landlady, the blacksmith, the chemist’s apprentice, the doctor, and all the other persons whom the miracle affects.” Alfred Mac Adam teaches literature at Barnard College-Columbia University. He is a translator and art critic.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "classics",
+    "classics (classic literature)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "345_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "345_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "345_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "345_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "345_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "345_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "345_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "345_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "345_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 55137,
-        "score": 4.1
+    {
+      "status": "maintenance",
+      "stock_id": "345_2"
     },
-    "pages": 817,
-    "title": "The Time Machine/The Invisible Man",
-    "url": "https://www.goodreads.com/book/show/17136.The_Time_Machine_The_Invisible_Man",
-    "year_published": 1968
+    {
+      "status": "available",
+      "stock_id": "345_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "345_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "345_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "345_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "345_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "345_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 55137,
+    "score": 4.1
+  },
+  "pages": 817,
+  "title": "The Time Machine/The Invisible Man",
+  "url": "https://www.goodreads.com/book/show/17136.The_Time_Machine_The_Invisible_Man",
+  "year_published": 1968
 }

@@ -1,44 +1,44 @@
 {
-    "author": "J.P. Delaney",
-    "id": "3139",
-    "description": "The perfect life. The perfect love.Abbie awakens in a daze with no memory of who she is or how she landed in this unsettling condition. The man by her side claims to be her husband. He's a titan of the tech world, the founder of one of Silicon Valley's most innovative start-ups. He tells Abbie that she is a gifted artist, an avid surfer, a loving mother to their young son, and the perfect wife. He says she had a terrible accident five years ago and that, through a huge technological breakthrough, she has been brought back from the abyss.She is a miracle of science.But as Abbie pieces together memories of her marriage, she begins questioning her husband's motives--and his version of events. Can she trust him when he says he wants them to be together forever? And what really happened to Abbie half a decade ago?Beware the man who calls you . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 35,
-        "adult fiction": 27,
-        "audiobook": 48,
-        "fiction": 163,
-        "mystery": 173,
-        "science fiction": 82,
-        "suspense": 66,
-        "thriller": 241,
-        "thriller (mystery thriller)": 69,
-        "thriller (psychological thriller)": 44
+  "author": "J.P. Delaney",
+  "id": "3139",
+  "description": "The perfect life. The perfect love.Abbie awakens in a daze with no memory of who she is or how she landed in this unsettling condition. The man by her side claims to be her husband. He's a titan of the tech world, the founder of one of Silicon Valley's most innovative start-ups. He tells Abbie that she is a gifted artist, an avid surfer, a loving mother to their young son, and the perfect wife. He says she had a terrible accident five years ago and that, through a huge technological breakthrough, she has been brought back from the abyss.She is a miracle of science.But as Abbie pieces together memories of her marriage, she begins questioning her husband's motives--and his version of events. Can she trust him when he says he wants them to be together forever? And what really happened to Abbie half a decade ago?Beware the man who calls you . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)",
+    "thriller (psychological thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3139_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3139_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3139_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3139_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22045,
-        "score": 3.72
+    {
+      "status": "available",
+      "stock_id": "3139_2"
     },
-    "pages": 1084,
-    "title": "The Perfect Wife",
-    "url": "https://www.goodreads.com/book/show/42927050-the-perfect-wife",
-    "year_published": 2019
+    {
+      "status": "available",
+      "stock_id": "3139_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22045,
+    "score": 3.72
+  },
+  "pages": 1084,
+  "title": "The Perfect Wife",
+  "url": "https://www.goodreads.com/book/show/42927050-the-perfect-wife",
+  "year_published": 2019
 }

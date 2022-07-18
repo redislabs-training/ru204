@@ -1,46 +1,46 @@
 {
-    "author": "Dylan Meconis",
-    "id": "547",
-    "description": "Cult graphic novelist Dylan Meconis offers a rich reimagining of history in this hybrid novel loosely based on the exile of Queen Elizabeth I by her sister, Queen Mary.When her sister seizes the throne, Queen Eleanor of Albion is banished to a tiny island off the coast of her kingdom, where the nuns of the convent spend their days peacefully praying, sewing, and gardening. But the island is also home to Margaret, a mysterious young orphan girl whose life is upturned when the cold, regal stranger arrives. As Margaret grows closer to Eleanor, she grapples with the revelation of the island\u2019s sinister true purpose as well as the truth of her own past. When Eleanor\u2019s life is threatened, Margaret is faced with a perilous choice between helping Eleanor and protecting herself.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 25,
-        "childrens": 35,
-        "childrens (middle grade)": 129,
-        "fantasy": 33,
-        "fiction": 57,
-        "historical": 77,
-        "historical (historical fiction)": 236,
-        "sequential art (comics)": 45,
-        "sequential art (graphic novels)": 353,
-        "young adult": 73
+  "author": "Dylan Meconis",
+  "id": "547",
+  "description": "Cult graphic novelist Dylan Meconis offers a rich reimagining of history in this hybrid novel loosely based on the exile of Queen Elizabeth I by her sister, Queen Mary.When her sister seizes the throne, Queen Eleanor of Albion is banished to a tiny island off the coast of her kingdom, where the nuns of the convent spend their days peacefully praying, sewing, and gardening. But the island is also home to Margaret, a mysterious young orphan girl whose life is upturned when the cold, regal stranger arrives. As Margaret grows closer to Eleanor, she grapples with the revelation of the island’s sinister true purpose as well as the truth of her own past. When Eleanor’s life is threatened, Margaret is faced with a perilous choice between helping Eleanor and protecting herself.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "547_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "547_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "547_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "547_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "547_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2367,
-        "score": 4.14
+    {
+      "status": "on_loan",
+      "stock_id": "547_2"
     },
-    "pages": 883,
-    "title": "Queen of the Sea",
-    "url": "https://www.goodreads.com/book/show/27411491-queen-of-the-sea",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "547_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "547_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2367,
+    "score": 4.14
+  },
+  "pages": 883,
+  "title": "Queen of the Sea",
+  "url": "https://www.goodreads.com/book/show/27411491-queen-of-the-sea",
+  "year_published": 2019
 }

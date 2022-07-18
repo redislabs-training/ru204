@@ -1,54 +1,54 @@
 {
-    "author": "Gareth Roberts",
-    "id": "689",
-    "description": "From the unique mind of Douglas Adams, the legendary \"lost\" Doctor Who story has been completed at last by Gareth Roberts and narrated by Lalla Ward.The Doctor\u2019s old friend and fellow Time Lord Professor Chronotis has retired to Cambridge University\u2014where nobody will notice if he lives for centuries. But now he needs help from the Doctor, Romana and K-9. When he left Gallifrey he took with him a few little souvenirs\u2014most of them are harmless. But one of them is extremely dangerous.The Worshipful and Ancient Law of Gallifrey isn\u2019t a book for Time Tots. It is one of the Artifacts, dating from the dark days of Rassilon. It must not be allowed to fall into the wrong hands. The sinister Skagra most definitely has the wrong hands. He wants the book. He wants to discover the truth behind Shada. And he wants the Doctor\u2019s mind...Based on the scripts for the original television series by the legendary Douglas Adams, Shada retells an adventure that never made it to the screen.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 17,
-        "fantasy": 55,
-        "fiction": 101,
-        "humor": 29,
-        "humor (comedy)": 8,
-        "media tie in": 12,
-        "media tie in (doctor who)": 314,
-        "science fiction": 229,
-        "science fiction (time travel)": 31,
-        "science fiction fantasy": 20
+  "author": "Gareth Roberts",
+  "id": "689",
+  "description": "From the unique mind of Douglas Adams, the legendary \"lost\" Doctor Who story has been completed at last by Gareth Roberts and narrated by Lalla Ward.The Doctor’s old friend and fellow Time Lord Professor Chronotis has retired to Cambridge University—where nobody will notice if he lives for centuries. But now he needs help from the Doctor, Romana and K-9. When he left Gallifrey he took with him a few little souvenirs—most of them are harmless. But one of them is extremely dangerous.The Worshipful and Ancient Law of Gallifrey isn’t a book for Time Tots. It is one of the Artifacts, dating from the dark days of Rassilon. It must not be allowed to fall into the wrong hands. The sinister Skagra most definitely has the wrong hands. He wants the book. He wants to discover the truth behind Shada. And he wants the Doctor’s mind...Based on the scripts for the original television series by the legendary Douglas Adams, Shada retells an adventure that never made it to the screen.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "689_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "689_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "689_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "689_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "689_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "689_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "689_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5267,
-        "score": 4.24
+    {
+      "status": "maintenance",
+      "stock_id": "689_2"
     },
-    "pages": 327,
-    "title": "Doctor Who: Shada",
-    "url": "https://www.goodreads.com/book/show/13541612-doctor-who",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "689_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "689_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "689_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "689_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5267,
+    "score": 4.24
+  },
+  "pages": 327,
+  "title": "Doctor Who: Shada",
+  "url": "https://www.goodreads.com/book/show/13541612-doctor-who",
+  "year_published": 2012
 }

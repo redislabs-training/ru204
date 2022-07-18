@@ -1,52 +1,52 @@
 {
-    "author": "Isaac Asimov",
-    "id": "1402",
-    "description": "At last, the costly and bitter war between the two Foundations had come to an end. The scientists of the First Foundation had proved victorious; and now they return to Hari Seldon's long-established plan to build a new Empire on the ruins of the old. But rumors persist that the Second Foundation is not destroyed after all\u2014and that its still-defiant survivors are preparing their revenge. Now two exiled citizens of the Foundation\u2014a renegade Councilman and a doddering historian\u2014set out in search of the mythical planet Earth. . .and proof that the Second Foundation still exists.Meanwhile someone\u2014or something\u2014outside of both Foundations seems to be orchestrating events to suit its own ominous purpose. Soon representatives of both the First and Second Foundations will find themselves racing toward a mysterious world called Gaia and a final shocking destiny at the very end of the universe!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 147,
-        "fantasy": 93,
-        "fiction": 937,
-        "hugo awards": 75,
-        "novels": 68,
-        "science fiction": 2790,
-        "science fiction fantasy": 165,
-        "space": 45,
-        "space (space opera)": 92,
-        "speculative fiction": 43
+  "author": "Isaac Asimov",
+  "id": "1402",
+  "description": "At last, the costly and bitter war between the two Foundations had come to an end. The scientists of the First Foundation had proved victorious; and now they return to Hari Seldon's long-established plan to build a new Empire on the ruins of the old. But rumors persist that the Second Foundation is not destroyed after all—and that its still-defiant survivors are preparing their revenge. Now two exiled citizens of the Foundation—a renegade Councilman and a doddering historian—set out in search of the mythical planet Earth. . .and proof that the Second Foundation still exists.Meanwhile someone—or something—outside of both Foundations seems to be orchestrating events to suit its own ominous purpose. Soon representatives of both the First and Second Foundations will find themselves racing toward a mysterious world called Gaia and a final shocking destiny at the very end of the universe!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1402_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1402_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1402_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1402_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1402_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1402_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 71184,
-        "score": 4.14
+    {
+      "status": "maintenance",
+      "stock_id": "1402_2"
     },
-    "pages": 1257,
-    "title": "Foundation's Edge",
-    "url": "https://www.goodreads.com/book/show/76683.Foundation_s_Edge",
-    "year_published": 1982
+    {
+      "status": "available",
+      "stock_id": "1402_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1402_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1402_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 71184,
+    "score": 4.14
+  },
+  "pages": 1257,
+  "title": "Foundation's Edge",
+  "url": "https://www.goodreads.com/book/show/76683.Foundation_s_Edge",
+  "year_published": 1982
 }

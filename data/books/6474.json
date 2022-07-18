@@ -1,58 +1,58 @@
 {
-    "author": "Leigh Bardugo",
-    "id": "6474",
-    "description": "Love speaks in flowers. Truth requires thorns.Travel to a world of dark bargains struck by moonlight, of haunted towns and hungry woods, of talking beasts and gingerbread golems, where a young mermaid's voice can summon deadly storms and where a river might do a lovestruck boy's bidding but only for a terrible price.Inspired by myth, fairy tale, and folklore, #1 New York Times\u2013bestselling author Leigh Bardugo has crafted a deliciously atmospheric collection of short stories filled with betrayals, revenge, sacrifice, and love.Perfect for new readers and dedicated fans, these tales will transport you to lands both familiar and strange\u2014to a fully realized world of dangerous magic that millions have visited through the novels of the Grishaverse.This collection of six stories includes three brand-new tales, all of them lavishly illustrated with art that changes with each turn of the page, culminating in six stunning full-spread illustrations as rich in detail as the stories themselves.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "anthologies": 126,
-        "fantasy": 3242,
-        "fantasy (fairy tales)": 283,
-        "fantasy (high fantasy)": 133,
-        "fantasy (magic)": 199,
-        "fiction": 337,
-        "retellings": 271,
-        "short stories": 1137,
-        "young adult": 1183,
-        "young adult (young adult fantasy)": 233
+  "author": "Leigh Bardugo",
+  "id": "6474",
+  "description": "Love speaks in flowers. Truth requires thorns.Travel to a world of dark bargains struck by moonlight, of haunted towns and hungry woods, of talking beasts and gingerbread golems, where a young mermaid's voice can summon deadly storms and where a river might do a lovestruck boy's bidding but only for a terrible price.Inspired by myth, fairy tale, and folklore, #1 New York Times–bestselling author Leigh Bardugo has crafted a deliciously atmospheric collection of short stories filled with betrayals, revenge, sacrifice, and love.Perfect for new readers and dedicated fans, these tales will transport you to lands both familiar and strange—to a fully realized world of dangerous magic that millions have visited through the novels of the Grishaverse.This collection of six stories includes three brand-new tales, all of them lavishly illustrated with art that changes with each turn of the page, culminating in six stunning full-spread illustrations as rich in detail as the stories themselves.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "anthologies",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "retellings",
+    "short stories",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6474_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6474_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6474_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6474_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "6474_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6474_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6474_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6474_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 34585,
-        "score": 4.39
+    {
+      "status": "maintenance",
+      "stock_id": "6474_2"
     },
-    "pages": 428,
-    "title": "The Language of Thorns: Midnight Tales and Dangerous Magic",
-    "url": "https://www.goodreads.com/book/show/34076952-the-language-of-thorns",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "6474_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "6474_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6474_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "6474_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6474_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 34585,
+    "score": 4.39
+  },
+  "pages": 428,
+  "title": "The Language of Thorns: Midnight Tales and Dangerous Magic",
+  "url": "https://www.goodreads.com/book/show/34076952-the-language-of-thorns",
+  "year_published": 2017
 }

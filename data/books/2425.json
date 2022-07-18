@@ -1,66 +1,66 @@
 {
-    "author": "Jane Yolen",
-    "id": "2425",
-    "description": "Hannah thinks tonight Passover Seder will be the same as always. But this year she will be mysteriously transported into the past. Only she knows the horrors that await.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 126,
-        "childrens (middle grade)": 125,
-        "fantasy": 113,
-        "fiction": 359,
-        "historical": 229,
-        "historical (historical fiction)": 1217,
-        "science fiction (time travel)": 158,
-        "war (world war ii)": 176,
-        "world war ii (holocaust)": 389,
-        "young adult": 642
+  "author": "Jane Yolen",
+  "id": "2425",
+  "description": "Hannah thinks tonight Passover Seder will be the same as always. But this year she will be mysteriously transported into the past. Only she knows the horrors that await.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "war (world war ii)",
+    "world war ii (holocaust)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2425_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2425_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2425_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2425_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2425_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2425_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2425_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2425_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2425_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "2425_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 54666,
-        "score": 4.02
+    {
+      "status": "on_loan",
+      "stock_id": "2425_2"
     },
-    "pages": 993,
-    "title": "The Devil's Arithmetic",
-    "url": "https://www.goodreads.com/book/show/91357.The_Devil_s_Arithmetic",
-    "year_published": 1988
+    {
+      "status": "on_loan",
+      "stock_id": "2425_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2425_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2425_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2425_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2425_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2425_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "2425_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 54666,
+    "score": 4.02
+  },
+  "pages": 993,
+  "title": "The Devil's Arithmetic",
+  "url": "https://www.goodreads.com/book/show/91357.The_Devil_s_Arithmetic",
+  "year_published": 1988
 }

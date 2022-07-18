@@ -1,59 +1,59 @@
 {
-    "author": "Daphne du Maurier",
-    "id": "1035",
-    "description": "Dick Young is lent a house in Cornwall by his friend Professor Magnus Lane. During his stay he agrees to serve as a guinea pig for a new drug that Magnus has discovered in his scientific research. When Dick samples Magnus's potion, he finds himself doing the impossible: traveling through time while staying in place, thrown all the way back into Medieval Cornwall. The concoction wear off after several hours, but its effects are intoxicating and Dick cannot resist his newfound powers. As his journeys increase, Dick begins to resent the days he must spend in the modern world, longing ever more fervently to get back into his world of centuries before, and the home of the beautiful Lady Isolda...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 274,
-        "european literature (british literature)": 41,
-        "fantasy": 116,
-        "fiction": 350,
-        "gothic": 88,
-        "historical": 64,
-        "historical (historical fiction)": 286,
-        "mystery": 104,
-        "science fiction": 112,
-        "science fiction (time travel)": 255
+  "author": "Daphne du Maurier",
+  "id": "1035",
+  "description": "Dick Young is lent a house in Cornwall by his friend Professor Magnus Lane. During his stay he agrees to serve as a guinea pig for a new drug that Magnus has discovered in his scientific research. When Dick samples Magnus's potion, he finds himself doing the impossible: traveling through time while staying in place, thrown all the way back into Medieval Cornwall. The concoction wear off after several hours, but its effects are intoxicating and Dick cannot resist his newfound powers. As his journeys increase, Dick begins to resent the days he must spend in the modern world, longing ever more fervently to get back into his world of centuries before, and the home of the beautiful Lady Isolda...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "gothic",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1035_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1035_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1035_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1035_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1035_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1035_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1035_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1035_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9840,
-        "score": 3.84
+    {
+      "status": "on_loan",
+      "stock_id": "1035_2"
     },
-    "pages": 822,
-    "title": "The House on the Strand",
-    "url": "https://www.goodreads.com/book/show/18869972-the-house-on-the-strand",
-    "year_published": 1969
+    {
+      "status": "available",
+      "stock_id": "1035_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1035_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1035_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1035_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1035_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9840,
+    "score": 3.84
+  },
+  "pages": 822,
+  "title": "The House on the Strand",
+  "url": "https://www.goodreads.com/book/show/18869972-the-house-on-the-strand",
+  "year_published": 1969
 }

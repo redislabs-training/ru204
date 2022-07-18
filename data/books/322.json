@@ -1,43 +1,43 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "322",
-    "description": "An adventure to blow you away!That's what Jack and Annie get when the Magic Tree House whisks them back to the 1870s. They land on the prairie near a one-room schoolhouse, where they meet a teenage schoolteacher, some cool kids, and one big, scary bully. But the biggest and scariest thing is yet to come!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 43,
-        "childrens": 100,
-        "childrens (chapter books)": 49,
-        "childrens (juvenile)": 15,
-        "fantasy": 120,
-        "fantasy (magic)": 19,
-        "fiction": 82,
-        "historical": 19,
-        "historical (historical fiction)": 68,
-        "science fiction (time travel)": 24
+  "author": "Mary Pope Osborne",
+  "id": "322",
+  "description": "An adventure to blow you away!That's what Jack and Annie get when the Magic Tree House whisks them back to the 1870s. They land on the prairie near a one-room schoolhouse, where they meet a teenage schoolteacher, some cool kids, and one big, scary bully. But the biggest and scariest thing is yet to come!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "322_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "322_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "322_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "322_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9313,
-        "score": 3.92
+    {
+      "status": "maintenance",
+      "stock_id": "322_2"
     },
-    "pages": 886,
-    "title": "Twister on Tuesday",
-    "url": "https://www.goodreads.com/book/show/526643.Twister_on_Tuesday",
-    "year_published": 2001
+    {
+      "status": "available",
+      "stock_id": "322_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9313,
+    "score": 3.92
+  },
+  "pages": 886,
+  "title": "Twister on Tuesday",
+  "url": "https://www.goodreads.com/book/show/526643.Twister_on_Tuesday",
+  "year_published": 2001
 }

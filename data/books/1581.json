@@ -1,68 +1,68 @@
 {
-    "author": "Aldous Huxley",
-    "id": "1581",
-    "description": "In Island, his last novel, Huxley transports us to a Pacific island where, for 120 years, an ideal society has flourished. Inevitably, this island of bliss attracts the envy and enmity of the surrounding world. A conspiracy is underway to take over Pala, and events begin to move when an agent of the conspirators, a newspaperman named Faranby, is shipwrecked there. What Faranby doesn't expect is how his time with the people of Pala will revolutionize all his values and\u2014to his amazement\u2014give him hope.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 402,
-        "european literature (british literature)": 46,
-        "fantasy": 47,
-        "fiction": 941,
-        "literature": 120,
-        "novels": 98,
-        "philosophy": 210,
-        "science fiction": 281,
-        "science fiction (dystopia)": 137,
-        "science fiction (utopia)": 67
+  "author": "Aldous Huxley",
+  "id": "1581",
+  "description": "In Island, his last novel, Huxley transports us to a Pacific island where, for 120 years, an ideal society has flourished. Inevitably, this island of bliss attracts the envy and enmity of the surrounding world. A conspiracy is underway to take over Pala, and events begin to move when an agent of the conspirators, a newspaperman named Faranby, is shipwrecked there. What Faranby doesn't expect is how his time with the people of Pala will revolutionize all his values and—to his amazement—give him hope.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "philosophy",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (utopia)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1581_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1581_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1581_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1581_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1581_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1581_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1581_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1581_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1581_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "1581_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 25975,
-        "score": 3.83
+    {
+      "status": "maintenance",
+      "stock_id": "1581_2"
     },
-    "pages": 731,
-    "title": "Island",
-    "url": "https://www.goodreads.com/book/show/5130.Island",
-    "year_published": 1962
+    {
+      "status": "available",
+      "stock_id": "1581_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1581_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1581_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1581_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1581_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1581_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "1581_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 25975,
+    "score": 3.83
+  },
+  "pages": 731,
+  "title": "Island",
+  "url": "https://www.goodreads.com/book/show/5130.Island",
+  "year_published": 1962
 }

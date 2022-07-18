@@ -1,34 +1,34 @@
 {
-    "author": "Nick   Jones",
-    "id": "179",
-    "description": "Librarian Note: This is an alternate cover edition for ASIN B014757M9U.Meet Joseph Bridgeman, a reclusive insomniac with a weakness for \u2018The Beatles\u2019 on vinyl and a constant headache. When his annoying accountant suggests hypnotherapy might help him sleep, Joseph accidentally discovers he can time-travel and things get a little complicated. With the help of Vinny, a local record shop owner, Mark, his old school friend, and Alexia Finch, his hypno-time-travel guru, Joe sets out to change the course of his life. He needs to get back to 1992, the year his world fell apart, the year that Amy, his sister, went missing. The only problem (apart from his clothes disappearing) is that the further back he goes the less time he gets to stay there. Can Joe master his new-found gift before time catches up with him?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult fiction": 2,
-        "business (amazon)": 4,
-        "drama": 2,
-        "fantasy": 17,
-        "fiction": 15,
-        "humor": 2,
-        "science fiction": 20,
-        "science fiction (time travel)": 37,
-        "science fiction fantasy": 3
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "179_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1651,
-        "score": 4.21
-    },
-    "pages": 784,
-    "title": "The Unexpected Gift of Joseph Bridgeman",
-    "url": "https://www.goodreads.com/book/show/34823478-the-unexpected-gift-of-joseph-bridgeman",
-    "year_published": 2015
+  "author": "Nick   Jones",
+  "id": "179",
+  "description": "Librarian Note: This is an alternate cover edition for ASIN B014757M9U.Meet Joseph Bridgeman, a reclusive insomniac with a weakness for ‘The Beatles’ on vinyl and a constant headache. When his annoying accountant suggests hypnotherapy might help him sleep, Joseph accidentally discovers he can time-travel and things get a little complicated. With the help of Vinny, a local record shop owner, Mark, his old school friend, and Alexia Finch, his hypno-time-travel guru, Joe sets out to change the course of his life. He needs to get back to 1992, the year his world fell apart, the year that Amy, his sister, went missing. The only problem (apart from his clothes disappearing) is that the further back he goes the less time he gets to stay there. Can Joe master his new-found gift before time catches up with him?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult fiction",
+    "business (amazon)",
+    "drama",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "179_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1651,
+    "score": 4.21
+  },
+  "pages": 784,
+  "title": "The Unexpected Gift of Joseph Bridgeman",
+  "url": "https://www.goodreads.com/book/show/34823478-the-unexpected-gift-of-joseph-bridgeman",
+  "year_published": 2015
 }

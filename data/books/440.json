@@ -1,42 +1,42 @@
 {
-    "author": "Samuel R. Delany",
-    "id": "440",
-    "description": "These are [at least some of] the ways you can read NOVA: as a fast-action farflung interstellar adventure; as archetypal mystical/mythical allegory (in which the Tarot and the Grail both figure prominently); as modern myth told in the S-F idiom... the reader observes, recollects, or participates in a range of personal experience including violent pain and disfigurement, sensory deprivation and overload, man-machine communion, the drug experience, the creative experience - and inter-personal relationships which include incest and assassination, father-son, leader-follower, human-pet, and lots more!The balance of galactic power in the 31st century revolves around Illyrion, the most precious energy source in the universe. The varied and exotic crew who sign up with Captain Lorq van Ray know their mission is dangerous, and they soon learn that they are involved in a deadly race with the charismatic but vicious leader of an opposing space federation. But they have no idea of Lorq's secret obsession: to gather Illyrion at the source by flying through the very heart of an imploding star.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 11,
-        "fantasy": 13,
-        "fiction": 171,
-        "literature (20th century)": 9,
-        "literature (american)": 10,
-        "novels": 16,
-        "science fiction": 483,
-        "science fiction fantasy": 31,
-        "space (space opera)": 63,
-        "speculative fiction": 37
+  "author": "Samuel R. Delany",
+  "id": "440",
+  "description": "These are [at least some of] the ways you can read NOVA: as a fast-action farflung interstellar adventure; as archetypal mystical/mythical allegory (in which the Tarot and the Grail both figure prominently); as modern myth told in the S-F idiom... the reader observes, recollects, or participates in a range of personal experience including violent pain and disfigurement, sensory deprivation and overload, man-machine communion, the drug experience, the creative experience - and inter-personal relationships which include incest and assassination, father-son, leader-follower, human-pet, and lots more!The balance of galactic power in the 31st century revolves around Illyrion, the most precious energy source in the universe. The varied and exotic crew who sign up with Captain Lorq van Ray know their mission is dangerous, and they soon learn that they are involved in a deadly race with the charismatic but vicious leader of an opposing space federation. But they have no idea of Lorq's secret obsession: to gather Illyrion at the source by flying through the very heart of an imploding star.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (20th century)",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "440_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "440_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "440_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "440_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6700,
-        "score": 3.82
+    {
+      "status": "maintenance",
+      "stock_id": "440_2"
     },
-    "pages": 820,
-    "title": "Nova",
-    "url": "https://www.goodreads.com/book/show/85863.Nova",
-    "year_published": 1968
+    {
+      "status": "on_loan",
+      "stock_id": "440_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6700,
+    "score": 3.82
+  },
+  "pages": 820,
+  "title": "Nova",
+  "url": "https://www.goodreads.com/book/show/85863.Nova",
+  "year_published": 1968
 }

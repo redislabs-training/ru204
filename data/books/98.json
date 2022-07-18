@@ -1,43 +1,43 @@
 {
-    "author": "Christopher L. Bennett",
-    "id": "98",
-    "description": "There\u2019s likely no more of a thankless job in the Federation than temporal investigation. While starship explorers get to live the human adventure of traveling to other times and realities, it\u2019s up to the dedicated agents of the Federation Department of Temporal Investigations to deal with the consequences to the timestream that the rest of the Galaxy has to live with day by day. But when history as we know it could be wiped out at any moment by time warriors from the future, misused relics of ancient races, or accident-prone starships, only the most disciplined, obsessive, and unimaginative government employees have what it takes to face the existential uncertainty of it all on a daily basis . . . and still stay sane enough to complete their assignments. That\u2019s where Agents Lucsly and Dulmur come in\u2014stalwart and unflappable, these men are the Federation\u2019s unsung anchors in a chaotic universe. Together with their colleagues in the DTI\u2014and with the help and sometimes hindrance of Starfleet\u2019s finest\u2014they do what they can to keep the timestream, or at least the paperwork, as neat and orderly as they are. But when a series of escalating temporal incursions threatens to open a new front of the history-spanning Temporal Cold War in the twenty-fourth century, Agents Lucsly and Dulmur will need all their investigative skill and unbending determination to stop those who wish to rewrite the past for their own advantage, and to keep the present and the future from devolving into the kind of chaos they really, really hate.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 5,
-        "adventure": 9,
-        "fiction": 14,
-        "media tie in": 5,
-        "media tie in (star trek)": 191,
-        "science fiction": 43,
-        "science fiction (time travel)": 23,
-        "space": 4,
-        "suspense": 5,
-        "travel": 4
+  "author": "Christopher L. Bennett",
+  "id": "98",
+  "description": "There’s likely no more of a thankless job in the Federation than temporal investigation. While starship explorers get to live the human adventure of traveling to other times and realities, it’s up to the dedicated agents of the Federation Department of Temporal Investigations to deal with the consequences to the timestream that the rest of the Galaxy has to live with day by day. But when history as we know it could be wiped out at any moment by time warriors from the future, misused relics of ancient races, or accident-prone starships, only the most disciplined, obsessive, and unimaginative government employees have what it takes to face the existential uncertainty of it all on a daily basis . . . and still stay sane enough to complete their assignments. That’s where Agents Lucsly and Dulmur come in—stalwart and unflappable, these men are the Federation’s unsung anchors in a chaotic universe. Together with their colleagues in the DTI—and with the help and sometimes hindrance of Starfleet’s finest—they do what they can to keep the timestream, or at least the paperwork, as neat and orderly as they are. But when a series of escalating temporal incursions threatens to open a new front of the history-spanning Temporal Cold War in the twenty-fourth century, Agents Lucsly and Dulmur will need all their investigative skill and unbending determination to stop those who wish to rewrite the past for their own advantage, and to keep the present and the future from devolving into the kind of chaos they really, really hate.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fiction",
+    "media tie in",
+    "media tie in (star trek)",
+    "science fiction",
+    "science fiction (time travel)",
+    "space",
+    "suspense",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "98_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "98_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "98_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "98_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 930,
-        "score": 3.97
+    {
+      "status": "maintenance",
+      "stock_id": "98_2"
     },
-    "pages": 721,
-    "title": "Watching the Clock",
-    "url": "https://www.goodreads.com/book/show/9037520-watching-the-clock",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "98_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 930,
+    "score": 3.97
+  },
+  "pages": 721,
+  "title": "Watching the Clock",
+  "url": "https://www.goodreads.com/book/show/9037520-watching-the-clock",
+  "year_published": 2011
 }

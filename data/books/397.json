@@ -1,52 +1,52 @@
 {
-    "author": "Isaac Asimov",
-    "id": "397",
-    "description": "Andrew was one of Earth's first house robot domestic servants\u2014smoothly designed and functional. But when Andrew started to develop special talents which exceeded the confines of his allotted positronic pathways, he abandoned his domestic duties in favour of more intellectual pursuits. As time passed, Andrew acquired knowledge, feelings and ambitions way beyond anything ever experienced by any other mechanical men. And he found himself launched on to a career which would bring him fame fortune \u2014 and danger. For a robot who wants to be human must also be prepared to die...In the Bicentennial Man, Isaac Asimov returns to his first and most enduring love \u2014 robotics. The result is a brilliant book of first-class entertainment and mind-spinning ideas which confirm Asimov's supreme status as Grand Master of science fiction.Content\"Feminine Intuition\" (1969)\"Waterclap\" (1970) \"That Thou Art Mindful of Him\" (1974)\"Stranger in Paradise\" (1974)\"The Life and Times of Multivac\" (1975)\"The Winnowing\" (1976)\"The Bicentennial Man\" (1976)\"Marching In\" (1976) \"Old-Fashioned\" (1976)\"The Tercentenary Incident\" (1976)\"Birth of a Notion\" (1976)Cover Illustration: Don Dixon",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "anthologies": 15,
-        "anthologies (collections)": 18,
-        "classics": 35,
-        "fantasy": 18,
-        "fiction": 166,
-        "novels": 8,
-        "science fiction": 556,
-        "science fiction (robots)": 21,
-        "science fiction fantasy": 20,
-        "short stories": 134
+  "author": "Isaac Asimov",
+  "id": "397",
+  "description": "Andrew was one of Earth's first house robot domestic servants—smoothly designed and functional. But when Andrew started to develop special talents which exceeded the confines of his allotted positronic pathways, he abandoned his domestic duties in favour of more intellectual pursuits. As time passed, Andrew acquired knowledge, feelings and ambitions way beyond anything ever experienced by any other mechanical men. And he found himself launched on to a career which would bring him fame fortune — and danger. For a robot who wants to be human must also be prepared to die...In the Bicentennial Man, Isaac Asimov returns to his first and most enduring love — robotics. The result is a brilliant book of first-class entertainment and mind-spinning ideas which confirm Asimov's supreme status as Grand Master of science fiction.Content\"Feminine Intuition\" (1969)\"Waterclap\" (1970) \"That Thou Art Mindful of Him\" (1974)\"Stranger in Paradise\" (1974)\"The Life and Times of Multivac\" (1975)\"The Winnowing\" (1976)\"The Bicentennial Man\" (1976)\"Marching In\" (1976) \"Old-Fashioned\" (1976)\"The Tercentenary Incident\" (1976)\"Birth of a Notion\" (1976)Cover Illustration: Don Dixon",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "anthologies",
+    "anthologies (collections)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "397_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "397_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "397_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "397_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "397_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "397_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12449,
-        "score": 4.12
+    {
+      "status": "available",
+      "stock_id": "397_2"
     },
-    "pages": 869,
-    "title": "The Bicentennial Man and Other Stories",
-    "url": "https://www.goodreads.com/book/show/70787.The_Bicentennial_Man_and_Other_Stories",
-    "year_published": 1976
+    {
+      "status": "maintenance",
+      "stock_id": "397_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "397_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "397_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12449,
+    "score": 4.12
+  },
+  "pages": 869,
+  "title": "The Bicentennial Man and Other Stories",
+  "url": "https://www.goodreads.com/book/show/70787.The_Bicentennial_Man_and_Other_Stories",
+  "year_published": 1976
 }

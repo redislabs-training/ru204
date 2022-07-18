@@ -1,60 +1,60 @@
 {
-    "author": "Tony DiTerlizzi",
-    "id": "1628",
-    "description": "Eva Nine is a curious and sensitive twelve-year-old who has existed only in a subterranean home called Sanctuary, cared for by a robot named Muthr. Eva's great desire is to go aboveground, and her wish comes true, though not as she had imagined. On the surface, Eva goes in search of other humans--she has never met one--and soon meets both friend and foe.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 123,
-        "childrens": 99,
-        "childrens (juvenile)": 41,
-        "childrens (middle grade)": 282,
-        "fantasy": 565,
-        "fiction": 130,
-        "science fiction": 227,
-        "science fiction (dystopia)": 53,
-        "science fiction fantasy": 18,
-        "young adult": 153
+  "author": "Tony DiTerlizzi",
+  "id": "1628",
+  "description": "Eva Nine is a curious and sensitive twelve-year-old who has existed only in a subterranean home called Sanctuary, cared for by a robot named Muthr. Eva's great desire is to go aboveground, and her wish comes true, though not as she had imagined. On the surface, Eva goes in search of other humans--she has never met one--and soon meets both friend and foe.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1628_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1628_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1628_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1628_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1628_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1628_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1628_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1628_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11301,
-        "score": 4.08
+    {
+      "status": "on_loan",
+      "stock_id": "1628_2"
     },
-    "pages": 886,
-    "title": "The Search for WondLa",
-    "url": "https://www.goodreads.com/book/show/7327327-the-search-for-wondla",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "1628_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1628_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1628_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1628_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1628_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11301,
+    "score": 4.08
+  },
+  "pages": 886,
+  "title": "The Search for WondLa",
+  "url": "https://www.goodreads.com/book/show/7327327-the-search-for-wondla",
+  "year_published": 2009
 }

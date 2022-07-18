@@ -1,46 +1,46 @@
 {
-    "author": "Robert Kirkman",
-    "id": "1657",
-    "description": "An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months, society has crumbled: There is no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, we are forced to finally begin living. This volume follows our band of survivors on their tragic journey in search of shelter. Characters live and die as they brave a treacherous landscape littered with packs of the walking dead.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 174,
-        "comics (comic book)": 165,
-        "fiction": 302,
-        "graphic novels comics": 194,
-        "horror": 967,
-        "horror (zombies)": 642,
-        "science fiction": 71,
-        "science fiction (dystopia)": 98,
-        "sequential art (comics)": 1526,
-        "sequential art (graphic novels)": 1761
+  "author": "Robert Kirkman",
+  "id": "1657",
+  "description": "An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months, society has crumbled: There is no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, we are forced to finally begin living. This volume follows our band of survivors on their tragic journey in search of shelter. Characters live and die as they brave a treacherous landscape littered with packs of the walking dead.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1657_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1657_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1657_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1657_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1657_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35832,
-        "score": 4.24
+    {
+      "status": "on_loan",
+      "stock_id": "1657_2"
     },
-    "pages": 256,
-    "title": "The Walking Dead, Vol. 2: Miles Behind Us",
-    "url": "https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2",
-    "year_published": 2004
+    {
+      "status": "available",
+      "stock_id": "1657_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1657_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35832,
+    "score": 4.24
+  },
+  "pages": 256,
+  "title": "The Walking Dead, Vol. 2: Miles Behind Us",
+  "url": "https://www.goodreads.com/book/show/138396.The_Walking_Dead_Vol_2",
+  "year_published": 2004
 }

@@ -1,60 +1,60 @@
 {
-    "author": "Edward Bloor",
-    "id": "228",
-    "description": "In the summer after 7th grade Martin meets a boy in a dream who will change his life forever. Where did this boy come from? Is he a dream? But how can his dreams be set in London during the Blitz? How can he wake up with a head full of people and facts and events that he certainly didn't know when he went to sleep--but which turn out to be verifiably real? Recommended for ages 11-15.Martin Conway comes from a family filled with heroes and disgraces. His grandfather was a statesman who worked at the US Embassy in London during WWII. His father is an alcoholic who left his family. His sister is an overachieving Ivy League graduate. And Martin? Martin is stuck in between--floundering.But during the summer after 7th grade, Martin meets a boy who will change his life forever. Jimmy Harker appears one night with a deceptively simple question: Will you help? Where did this boy come from, with his strange accent and urgent request? Is he a dream? It's the most vivid dream Martin's ever had. And he meets Jimmy again and again--but how can his dreams be set in London during the Blitz? How can he see his own grandather, standing outside the Embassy? How can he wake up with a head full of people and facts and events that he certainly didn't know when he went to sleep--but which turn out to be verifiably real?The people and the scenes Martin witnesses have a profound effect on him. They become almost more real to him than his waking companions. And he begins to believe that maybe he can help Jimmy. Or maybe that he must help Jimmy, precisely because all logic and reason argue against it.This is a truly remarkable and deeply affecting novel about fathers and sons, heroes and scapegoats. About finding a way to live with faith and honor and integrity. And about having an answer to the question: What did you do to help?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 23,
-        "fiction": 28,
-        "historical": 28,
-        "historical (historical fiction)": 63,
-        "mystery": 9,
-        "science fiction": 15,
-        "science fiction (time travel)": 40,
-        "war": 9,
-        "war (world war ii)": 10,
-        "young adult": 62
+  "author": "Edward Bloor",
+  "id": "228",
+  "description": "In the summer after 7th grade Martin meets a boy in a dream who will change his life forever. Where did this boy come from? Is he a dream? But how can his dreams be set in London during the Blitz? How can he wake up with a head full of people and facts and events that he certainly didn't know when he went to sleep--but which turn out to be verifiably real? Recommended for ages 11-15.Martin Conway comes from a family filled with heroes and disgraces. His grandfather was a statesman who worked at the US Embassy in London during WWII. His father is an alcoholic who left his family. His sister is an overachieving Ivy League graduate. And Martin? Martin is stuck in between--floundering.But during the summer after 7th grade, Martin meets a boy who will change his life forever. Jimmy Harker appears one night with a deceptively simple question: Will you help? Where did this boy come from, with his strange accent and urgent request? Is he a dream? It's the most vivid dream Martin's ever had. And he meets Jimmy again and again--but how can his dreams be set in London during the Blitz? How can he see his own grandather, standing outside the Embassy? How can he wake up with a head full of people and facts and events that he certainly didn't know when he went to sleep--but which turn out to be verifiably real?The people and the scenes Martin witnesses have a profound effect on him. They become almost more real to him than his waking companions. And he begins to believe that maybe he can help Jimmy. Or maybe that he must help Jimmy, precisely because all logic and reason argue against it.This is a truly remarkable and deeply affecting novel about fathers and sons, heroes and scapegoats. About finding a way to live with faith and honor and integrity. And about having an answer to the question: What did you do to help?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "war",
+    "war (world war ii)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "228_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "228_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "228_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "228_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "228_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "228_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "228_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "228_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1392,
-        "score": 3.72
+    {
+      "status": "on_loan",
+      "stock_id": "228_2"
     },
-    "pages": 274,
-    "title": "London Calling",
-    "url": "https://www.goodreads.com/book/show/203710.London_Calling",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "228_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "228_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "228_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "228_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "228_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1392,
+    "score": 3.72
+  },
+  "pages": 274,
+  "title": "London Calling",
+  "url": "https://www.goodreads.com/book/show/203710.London_Calling",
+  "year_published": 2006
 }

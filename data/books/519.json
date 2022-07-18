@@ -1,35 +1,35 @@
 {
-    "author": "Mark   Tompkins",
-    "id": "519",
-    "description": "An epic novel of magic and mysticism, Celts and faeries, mad kings and druids, and the goddess struggling to reign over magic\u2019s last outpost on the EarthWhat became of magic in the world? Who needed to do away with it, and for what reasons? Drawing on myth, legend, fairy tales, and Biblical mysteries, \nThe Last Days of Magic\n brilliantly imagines answers to these questions, sweeping us back to a world where humans and magical beings co-exist as they had for centuries. Aisling, a goddess in human form, was born to rule both domains and\u2014with her twin, Anya\u2014unite the Celts with the powerful faeries of the Middle Kingdom. But within medieval Ireland interests are divided, and far from its shores greater forces are mustering. Both England and Rome have a stake in driving magic from the Emerald Isle. Jordan, the Vatican commander tasked with vanquishing the remnants of otherworldly creatures from a disenchanted Europe, has built a career on such plots. But increasingly he finds himself torn between duty and his desire to understand the magic that has been forbidden. As kings prepare, exorcists gather, and divisions widen between the warring clans of Ireland, Aisling and Jordan must come to terms with powers given and withheld, while a world that can still foster magic hangs in the balance. Loyalties are tested, betrayals sown, and the coming war will have repercussions that ripple centuries later, in today\u2019s world\u2014and in particular for a young graduate student named Sara Hill. \nThe Last Days of Magic\n introduces us to unforgettable characters who grapple with quests for power, human frailty, and the longing for knowledge that has been made taboo. Mark Tompkins has crafted a remarkable tale\u2014a feat of world-building that poses astonishing and resonant answers to epic questions.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 12,
-        "adult fiction": 11,
-        "cultural (ireland)": 13,
-        "fantasy": 306,
-        "fantasy (magic)": 42,
-        "fantasy (mythology)": 28,
-        "fiction": 87,
-        "historical": 23,
-        "historical (historical fiction)": 87,
-        "science fiction fantasy": 17
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "519_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2540,
-        "score": 3.22
-    },
-    "pages": 507,
-    "title": "The Last Days of Magic",
-    "url": "https://www.goodreads.com/book/show/25734207-the-last-days-of-magic",
-    "year_published": 2016
+  "author": "Mark   Tompkins",
+  "id": "519",
+  "description": "An epic novel of magic and mysticism, Celts and faeries, mad kings and druids, and the goddess struggling to reign over magic’s last outpost on the EarthWhat became of magic in the world? Who needed to do away with it, and for what reasons? Drawing on myth, legend, fairy tales, and Biblical mysteries, \nThe Last Days of Magic\n brilliantly imagines answers to these questions, sweeping us back to a world where humans and magical beings co-exist as they had for centuries. Aisling, a goddess in human form, was born to rule both domains and—with her twin, Anya—unite the Celts with the powerful faeries of the Middle Kingdom. But within medieval Ireland interests are divided, and far from its shores greater forces are mustering. Both England and Rome have a stake in driving magic from the Emerald Isle. Jordan, the Vatican commander tasked with vanquishing the remnants of otherworldly creatures from a disenchanted Europe, has built a career on such plots. But increasingly he finds himself torn between duty and his desire to understand the magic that has been forbidden. As kings prepare, exorcists gather, and divisions widen between the warring clans of Ireland, Aisling and Jordan must come to terms with powers given and withheld, while a world that can still foster magic hangs in the balance. Loyalties are tested, betrayals sown, and the coming war will have repercussions that ripple centuries later, in today’s world—and in particular for a young graduate student named Sara Hill. \nThe Last Days of Magic\n introduces us to unforgettable characters who grapple with quests for power, human frailty, and the longing for knowledge that has been made taboo. Mark Tompkins has crafted a remarkable tale—a feat of world-building that poses astonishing and resonant answers to epic questions.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "cultural (ireland)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "519_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2540,
+    "score": 3.22
+  },
+  "pages": 507,
+  "title": "The Last Days of Magic",
+  "url": "https://www.goodreads.com/book/show/25734207-the-last-days-of-magic",
+  "year_published": 2016
 }

@@ -1,54 +1,54 @@
 {
-    "author": "Alexander Gordon Smith",
-    "id": "807",
-    "description": "Furnace Prison ...Where death is the least of your worries.Escape is just the beginning ...We thought we\u2019d made it, we thought we were free. But we should have known there was no way out of Furnace.All we did was slip deeper into the guts of the prison: into solitary confinement, where the real nightmares live - the warden, the Wheezers, and something much, much worse.The clock\u2019s ticking. Because if we don\u2019t escape soon they will turn us into freaks - like them. For ever.In the darkness of the hole your worst nightmares come to life.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 26,
-        "adventure (survival)": 17,
-        "fantasy": 34,
-        "fiction": 41,
-        "horror": 163,
-        "science fiction": 87,
-        "science fiction (dystopia)": 81,
-        "thriller": 37,
-        "young adult": 180,
-        "young adult (teen)": 21
+  "author": "Alexander Gordon Smith",
+  "id": "807",
+  "description": "Furnace Prison ...Where death is the least of your worries.Escape is just the beginning ...We thought we’d made it, we thought we were free. But we should have known there was no way out of Furnace.All we did was slip deeper into the guts of the prison: into solitary confinement, where the real nightmares live - the warden, the Wheezers, and something much, much worse.The clock’s ticking. Because if we don’t escape soon they will turn us into freaks - like them. For ever.In the darkness of the hole your worst nightmares come to life.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "adventure (survival)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "807_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "807_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "807_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "807_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "807_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "807_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "807_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7777,
-        "score": 4.18
+    {
+      "status": "maintenance",
+      "stock_id": "807_2"
     },
-    "pages": 670,
-    "title": "Solitary",
-    "url": "https://www.goodreads.com/book/show/6633007-solitary",
-    "year_published": 2009
+    {
+      "status": "on_loan",
+      "stock_id": "807_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "807_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "807_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "807_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7777,
+    "score": 4.18
+  },
+  "pages": 670,
+  "title": "Solitary",
+  "url": "https://www.goodreads.com/book/show/6633007-solitary",
+  "year_published": 2009
 }

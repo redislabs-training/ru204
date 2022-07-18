@@ -1,48 +1,48 @@
 {
-    "author": "John Christopher",
-    "id": "897",
-    "description": "Long ago, the Tripods\u2014huge, three-legged machines\u2014descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives.But for a brief time in each person's life\u2014in childhood\u2014he is not a slave. For Will, his time of freedom is about to end\u2014unless he can escape to the White Mountains, where the possibility of freedom still exists.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 36,
-        "apocalyptic (post apocalyptic)": 37,
-        "childrens": 65,
-        "fantasy": 88,
-        "fiction": 216,
-        "science fiction": 600,
-        "science fiction (aliens)": 36,
-        "science fiction (dystopia)": 102,
-        "science fiction fantasy": 35,
-        "young adult": 266
+  "author": "John Christopher",
+  "id": "897",
+  "description": "Long ago, the Tripods—huge, three-legged machines—descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives.But for a brief time in each person's life—in childhood—he is not a slave. For Will, his time of freedom is about to end—unless he can escape to the White Mountains, where the possibility of freedom still exists.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "897_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "897_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "897_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "897_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "897_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11872,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "897_2"
     },
-    "pages": 1225,
-    "title": "The White Mountains",
-    "url": "https://www.goodreads.com/book/show/64316.The_White_Mountains",
-    "year_published": 1967
+    {
+      "status": "maintenance",
+      "stock_id": "897_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "897_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11872,
+    "score": 3.94
+  },
+  "pages": 1225,
+  "title": "The White Mountains",
+  "url": "https://www.goodreads.com/book/show/64316.The_White_Mountains",
+  "year_published": 1967
 }

@@ -1,47 +1,47 @@
 {
-    "author": "John Flanagan",
-    "id": "7784",
-    "description": "They have always scared him in the past \u2014 the Rangers, with their dark cloaks and shadowy ways. The villagers believe the Rangers practice magic that makes them invisible to ordinary people. And now 15-year-old Will, always small for his age, has been chosen as a Ranger's apprentice. What he doesn't yet realize is that the Rangers are the protectors of the kingdom. Highly trained in the skills of battle and surveillance, they fight the battles before the battles reach the people. And as Will is about to learn, there is a large battle brewing. The exiled Morgarath, Lord of the Mountains of Rain and Night, is gathering his forces for an attack on the kingdom. This time, he will not be denied....",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 124,
-        "adventure": 744,
-        "childrens": 246,
-        "childrens (middle grade)": 431,
-        "fantasy": 4382,
-        "fantasy (high fantasy)": 122,
-        "fiction": 615,
-        "young adult": 1477,
-        "young adult (teen)": 128,
-        "young adult (young adult fantasy)": 149
+  "author": "John Flanagan",
+  "id": "7784",
+  "description": "They have always scared him in the past — the Rangers, with their dark cloaks and shadowy ways. The villagers believe the Rangers practice magic that makes them invisible to ordinary people. And now 15-year-old Will, always small for his age, has been chosen as a Ranger's apprentice. What he doesn't yet realize is that the Rangers are the protectors of the kingdom. Highly trained in the skills of battle and surveillance, they fight the battles before the battles reach the people. And as Will is about to learn, there is a large battle brewing. The exiled Morgarath, Lord of the Mountains of Rain and Night, is gathering his forces for an attack on the kingdom. This time, he will not be denied....",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fiction",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "7784_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "7784_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "7784_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7784_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7784_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 129211,
-        "score": 4.21
+    {
+      "status": "available",
+      "stock_id": "7784_2"
     },
-    "pages": 809,
-    "title": "The Ruins of Gorlan",
-    "url": "https://www.goodreads.com/book/show/60400.The_Ruins_of_Gorlan",
-    "year_published": 2004
+    {
+      "status": "maintenance",
+      "stock_id": "7784_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7784_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 129211,
+    "score": 4.21
+  },
+  "pages": 809,
+  "title": "The Ruins of Gorlan",
+  "url": "https://www.goodreads.com/book/show/60400.The_Ruins_of_Gorlan",
+  "year_published": 2004
 }

@@ -1,64 +1,64 @@
 {
-    "author": "Lilith Saintcrow",
-    "id": "724",
-    "description": "Emma Bannon, forensic sorceress in the service of the Empire, has a mission: to protect Archibald Clare, a failed, unregistered mentath. His skills of deduction are legendary, and her own sorcery is not inconsiderable. It doesn't help much that they barely tolerate each other, or that Bannon's Shield, Mikal, might just be a traitor himself. Or that the conspiracy killing registered mentaths and sorcerers alike will just as likely kill them as seduce them into treachery toward their Queen. In an alternate London where illogical magic has turned the Industrial Revolution on its head, Bannon and Clare now face hostility, treason, cannon fire, black sorcery, and the problem of reliably finding hansom cabs. The game is afoot.. \n\n",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 336,
-        "fantasy (magic)": 58,
-        "fantasy (paranormal)": 76,
-        "fantasy (urban fantasy)": 109,
-        "fiction": 65,
-        "historical": 44,
-        "historical (historical fiction)": 44,
-        "mystery": 85,
-        "science fiction": 43,
-        "science fiction (steampunk)": 724
+  "author": "Lilith Saintcrow",
+  "id": "724",
+  "description": "Emma Bannon, forensic sorceress in the service of the Empire, has a mission: to protect Archibald Clare, a failed, unregistered mentath. His skills of deduction are legendary, and her own sorcery is not inconsiderable. It doesn't help much that they barely tolerate each other, or that Bannon's Shield, Mikal, might just be a traitor himself. Or that the conspiracy killing registered mentaths and sorcerers alike will just as likely kill them as seduce them into treachery toward their Queen. In an alternate London where illogical magic has turned the Industrial Revolution on its head, Bannon and Clare now face hostility, treason, cannon fire, black sorcery, and the problem of reliably finding hansom cabs. The game is afoot.. \n\n",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (steampunk)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "724_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "724_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "724_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "724_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "724_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "724_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "724_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "724_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "724_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4522,
-        "score": 3.4
+    {
+      "status": "maintenance",
+      "stock_id": "724_2"
     },
-    "pages": 729,
-    "title": "The Iron Wyrm Affair",
-    "url": "https://www.goodreads.com/book/show/12899734-the-iron-wyrm-affair",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "724_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "724_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "724_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "724_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "724_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "724_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4522,
+    "score": 3.4
+  },
+  "pages": 729,
+  "title": "The Iron Wyrm Affair",
+  "url": "https://www.goodreads.com/book/show/12899734-the-iron-wyrm-affair",
+  "year_published": 2012
 }

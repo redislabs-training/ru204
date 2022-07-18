@@ -1,47 +1,47 @@
 {
-    "author": "Eoin Colfer",
-    "id": "12068",
-    "description": "Twelve-year-old Artemis Fowl is a millionaire, a genius, and above all, a criminal mastermind. But even Artemis doesn't know what he's taken on when he kidnaps a fairy, Captain Holly Short of the LEPrecon Unit. These aren't the fairies of bedtime stories\u2014they're dangerous! Full of unexpected twists and turns, Artemis Fowl is a riveting, magical adventure.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 844,
-        "audiobook": 328,
-        "childrens": 1073,
-        "childrens (middle grade)": 1148,
-        "fantasy": 10049,
-        "fantasy (magic)": 597,
-        "fantasy (urban fantasy)": 471,
-        "fiction": 2273,
-        "science fiction": 761,
-        "young adult": 4066
+  "author": "Eoin Colfer",
+  "id": "12068",
+  "description": "Twelve-year-old Artemis Fowl is a millionaire, a genius, and above all, a criminal mastermind. But even Artemis doesn't know what he's taken on when he kidnaps a fairy, Captain Holly Short of the LEPrecon Unit. These aren't the fairies of bedtime stories—they're dangerous! Full of unexpected twists and turns, Artemis Fowl is a riveting, magical adventure.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "12068_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "12068_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "12068_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "12068_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "12068_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 511042,
-        "score": 3.85
+    {
+      "status": "on_loan",
+      "stock_id": "12068_2"
     },
-    "pages": 1020,
-    "title": "Artemis Fowl",
-    "url": "https://www.goodreads.com/book/show/249747.Artemis_Fowl",
-    "year_published": 2001
+    {
+      "status": "maintenance",
+      "stock_id": "12068_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "12068_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 511042,
+    "score": 3.85
+  },
+  "pages": 1020,
+  "title": "Artemis Fowl",
+  "url": "https://www.goodreads.com/book/show/249747.Artemis_Fowl",
+  "year_published": 2001
 }

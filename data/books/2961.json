@@ -1,52 +1,52 @@
 {
-    "author": "Ilsa J. Bick",
-    "id": "2961",
-    "description": "It could happen tomorrow . . .An electromagnetic pulse flashes across the sky, destroying every electronic device, wiping out every computerized system, and killing billions.Alex hiked into the woods to say good-bye to her dead parents and her personal demons. Now desperate to find out what happened after the pulse crushes her to the ground, Alex meets up with Tom\u2014a young soldier\u2014and Ellie, a girl whose grandfather was killed by the EMP.For this improvised family and the others who are spared, it\u2019s now a question of who can be trusted and who is no longer human.Author Ilsa J. Bick crafts a terrifying and thrilling post-apocalyptic novel about a world that could become ours at any moment, where those left standing must learn what it means not just to survive, but to live amidst the devastation.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 114,
-        "apocalyptic (post apocalyptic)": 254,
-        "fantasy": 88,
-        "fiction": 122,
-        "horror": 377,
-        "horror (zombies)": 549,
-        "science fiction": 210,
-        "science fiction (apocalyptic)": 97,
-        "science fiction (dystopia)": 440,
-        "young adult": 703
+  "author": "Ilsa J. Bick",
+  "id": "2961",
+  "description": "It could happen tomorrow . . .An electromagnetic pulse flashes across the sky, destroying every electronic device, wiping out every computerized system, and killing billions.Alex hiked into the woods to say good-bye to her dead parents and her personal demons. Now desperate to find out what happened after the pulse crushes her to the ground, Alex meets up with Tom—a young soldier—and Ellie, a girl whose grandfather was killed by the EMP.For this improvised family and the others who are spared, it’s now a question of who can be trusted and who is no longer human.Author Ilsa J. Bick crafts a terrifying and thrilling post-apocalyptic novel about a world that could become ours at any moment, where those left standing must learn what it means not just to survive, but to live amidst the devastation.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2961_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2961_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2961_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2961_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2961_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2961_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 24377,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "2961_2"
     },
-    "pages": 1096,
-    "title": "Ashes",
-    "url": "https://www.goodreads.com/book/show/9975679-ashes",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "2961_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2961_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2961_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 24377,
+    "score": 3.93
+  },
+  "pages": 1096,
+  "title": "Ashes",
+  "url": "https://www.goodreads.com/book/show/9975679-ashes",
+  "year_published": 2011
 }

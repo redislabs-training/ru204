@@ -1,55 +1,55 @@
 {
-    "author": "George R.R. Martin",
-    "id": "21983",
-    "description": "Crows will fight over a dead man's flesh, and kill each other for his eyes.Bloodthirsty, treacherous and cunning, the Lannisters are in power on the Iron Throne in the name of the boy-king Tommen. The war in the Seven Kingdoms has burned itself out, but in its bitter aftermath new conflicts spark to life.The Martells of Dorne and the Starks of Winterfell seek vengeance for their dead. Euron Crow's Eye, as black a pirate as ever raised a sail, returns from the smoking ruins of Valyria to claim the Iron Isles. From the icy north, where Others threaten the Wall, apprentice Maester Samwell Tarly brings a mysterious babe in arms to the Citadel.Against a backdrop of incest and fratricide, alchemy and murder, victory will go to the men and women possessed of the coldest steel and the coldest hearts.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 666,
-        "adventure": 588,
-        "audiobook": 491,
-        "epic": 480,
-        "fantasy": 26875,
-        "fantasy (dragons)": 499,
-        "fantasy (epic fantasy)": 1186,
-        "fantasy (high fantasy)": 803,
-        "fiction": 5531,
-        "science fiction fantasy": 891
+  "author": "George R.R. Martin",
+  "id": "21983",
+  "description": "Crows will fight over a dead man's flesh, and kill each other for his eyes.Bloodthirsty, treacherous and cunning, the Lannisters are in power on the Iron Throne in the name of the boy-king Tommen. The war in the Seven Kingdoms has burned itself out, but in its bitter aftermath new conflicts spark to life.The Martells of Dorne and the Starks of Winterfell seek vengeance for their dead. Euron Crow's Eye, as black a pirate as ever raised a sail, returns from the smoking ruins of Valyria to claim the Iron Isles. From the icy north, where Others threaten the Wall, apprentice Maester Samwell Tarly brings a mysterious babe in arms to the Citadel.Against a backdrop of incest and fratricide, alchemy and murder, victory will go to the men and women possessed of the coldest steel and the coldest hearts.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "epic",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "21983_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "21983_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "21983_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "21983_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "21983_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "21983_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "21983_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 641531,
-        "score": 4.14
+    {
+      "status": "maintenance",
+      "stock_id": "21983_2"
     },
-    "pages": 914,
-    "title": "A Feast for Crows",
-    "url": "https://www.goodreads.com/book/show/13497.A_Feast_for_Crows",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "21983_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "21983_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "21983_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "21983_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 641531,
+    "score": 4.14
+  },
+  "pages": 914,
+  "title": "A Feast for Crows",
+  "url": "https://www.goodreads.com/book/show/13497.A_Feast_for_Crows",
+  "year_published": 2005
 }

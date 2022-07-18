@@ -1,68 +1,68 @@
 {
-    "author": "Wade Albert White",
-    "id": "239",
-    "description": "Anne has spent most of her thirteen years dreaming of the day she and her best friend Penelope will finally leave Saint Lupin's Institute for Perpetually Wicked and Hideously Unattractive Children. When the big day arrives, a series of very curious happenings lead to Anne being charged with an epic quest. Anne, Penelope, and new questing partner Hiro have only days to travel to strange new locales, solve myriad riddles, and triumph over monstrous foes--or face the horrible consequences.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 38,
-        "childrens": 19,
-        "childrens (juvenile)": 7,
-        "childrens (middle grade)": 63,
-        "fantasy": 86,
-        "fantasy (dragons)": 14,
-        "fantasy (magic)": 18,
-        "fiction": 12,
-        "humor": 13,
-        "young adult": 10
+  "author": "Wade Albert White",
+  "id": "239",
+  "description": "Anne has spent most of her thirteen years dreaming of the day she and her best friend Penelope will finally leave Saint Lupin's Institute for Perpetually Wicked and Hideously Unattractive Children. When the big day arrives, a series of very curious happenings lead to Anne being charged with an epic quest. Anne, Penelope, and new questing partner Hiro have only days to travel to strange new locales, solve myriad riddles, and triumph over monstrous foes--or face the horrible consequences.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "239_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "239_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "239_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "239_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "239_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "239_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "239_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "239_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "239_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "239_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 827,
-        "score": 4.12
+    {
+      "status": "on_loan",
+      "stock_id": "239_2"
     },
-    "pages": 437,
-    "title": "The Adventurer's Guide to Successful Escapes",
-    "url": "https://www.goodreads.com/book/show/26848831-the-adventurer-s-guide-to-successful-escapes",
-    "year_published": 0
+    {
+      "status": "maintenance",
+      "stock_id": "239_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "239_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "239_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "239_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "239_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "239_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "239_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 827,
+    "score": 4.12
+  },
+  "pages": 437,
+  "title": "The Adventurer's Guide to Successful Escapes",
+  "url": "https://www.goodreads.com/book/show/26848831-the-adventurer-s-guide-to-successful-escapes",
+  "year_published": 0
 }

@@ -1,53 +1,53 @@
 {
-    "author": "Peter J. Tomasi",
-    "id": "11",
-    "description": "It\u2019s no fun for Jon Kent to be visiting Big City with his parents for the\u00a0 funeral of an old friend. So his best pal Damian Wayne decides to follow along and give him the inside scoop on the city. But when they go to meet Robin\u2019s local friend, Dynomutt, they find him injured and in need of help. And Dynomutt\u2019s human superhero companion, Blue Falcon, has seemingly turned evil. What\u2019s the reason for this betrayal between once-loyal companions, and what role might the evil Red Vulture play in this scenario?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "dc comics (superman)": 2,
-        "science fiction": 2,
-        "sequential art (comics)": 6
+  "author": "Peter J. Tomasi",
+  "id": "11",
+  "description": "It’s no fun for Jon Kent to be visiting Big City with his parents for the  funeral of an old friend. So his best pal Damian Wayne decides to follow along and give him the inside scoop on the city. But when they go to meet Robin’s local friend, Dynomutt, they find him injured and in need of help. And Dynomutt’s human superhero companion, Blue Falcon, has seemingly turned evil. What’s the reason for this betrayal between once-loyal companions, and what role might the evil Red Vulture play in this scenario?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "dc comics (superman)",
+    "science fiction",
+    "sequential art (comics)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "11_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "11_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "11_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "11_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "11_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "11_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "11_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "11_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 40,
-        "score": 3.93
+    {
+      "status": "on_loan",
+      "stock_id": "11_2"
     },
-    "pages": 850,
-    "title": "Super Sons/Dynomutt Special (2018) #1",
-    "url": "https://www.goodreads.com/book/show/40238882-super-sons-dynomutt-special-2018-1",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "11_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "11_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "11_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "11_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "11_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 40,
+    "score": 3.93
+  },
+  "pages": 850,
+  "title": "Super Sons/Dynomutt Special (2018) #1",
+  "url": "https://www.goodreads.com/book/show/40238882-super-sons-dynomutt-special-2018-1",
+  "year_published": 2018
 }

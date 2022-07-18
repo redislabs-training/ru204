@@ -1,38 +1,38 @@
 {
-    "author": "Erika Johansen",
-    "id": "10432",
-    "description": "Magic, adventure, mystery, and romance combine in this epic debut in which a young princess must reclaim her dead mother\u2019s throne, learn to be a ruler\u2014and defeat the Red Queen, a powerful and malevolent sorceress determined to destroy her.On her nineteenth birthday, Princess Kelsea Raleigh Glynn, raised in exile, sets out on a perilous journey back to the castle of her birth to ascend her rightful throne. Plain and serious, a girl who loves books and learning, Kelsea bears little resemblance to her mother, the vain and frivolous Queen Elyssa. But though she may be inexperienced and sheltered, Kelsea is not defenseless: Around her neck hangs the Tearling sapphire, a jewel of immense magical power; and accompanying her is the Queen\u2019s Guard, a cadre of brave knights led by the enigmatic and dedicated Lazarus. Kelsea will need them all to survive a cabal of enemies who will use every weapon\u2014from crimson-caped assassins to the darkest blood magic\u2014to prevent her from wearing the crown.Despite her royal blood, Kelsea feels like nothing so much as an insecure girl, a child called upon to lead a people and a kingdom about which she knows almost nothing. But what she discovers in the capital will change everything, confronting her with horrors she never imagined. An act of singular daring will throw Kelsea\u2019s kingdom into tumult, unleashing the vengeance of the tyrannical ruler of neighboring Mortmesne: the Red Queen, a sorceress possessed of the darkest magic. Now Kelsea will begin to discover whom among the servants, aristocracy, and her own guard she can trust.But the quest to save her kingdom and meet her destiny has only just begun\u2014a wondrous journey of self-discovery and a trial by fire that will make her a legend . . . if she can survive.This book will be a beautifully designed package with illustrated endpapers, a map of the Tearling, and a ribbon marker.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 323,
-        "adventure": 225,
-        "audiobook": 244,
-        "fantasy": 6129,
-        "fantasy (high fantasy)": 242,
-        "fantasy (magic)": 376,
-        "fiction": 769,
-        "science fiction (dystopia)": 478,
-        "young adult": 1278,
-        "young adult (young adult fantasy)": 251
+  "author": "Erika Johansen",
+  "id": "10432",
+  "description": "Magic, adventure, mystery, and romance combine in this epic debut in which a young princess must reclaim her dead mother’s throne, learn to be a ruler—and defeat the Red Queen, a powerful and malevolent sorceress determined to destroy her.On her nineteenth birthday, Princess Kelsea Raleigh Glynn, raised in exile, sets out on a perilous journey back to the castle of her birth to ascend her rightful throne. Plain and serious, a girl who loves books and learning, Kelsea bears little resemblance to her mother, the vain and frivolous Queen Elyssa. But though she may be inexperienced and sheltered, Kelsea is not defenseless: Around her neck hangs the Tearling sapphire, a jewel of immense magical power; and accompanying her is the Queen’s Guard, a cadre of brave knights led by the enigmatic and dedicated Lazarus. Kelsea will need them all to survive a cabal of enemies who will use every weapon—from crimson-caped assassins to the darkest blood magic—to prevent her from wearing the crown.Despite her royal blood, Kelsea feels like nothing so much as an insecure girl, a child called upon to lead a people and a kingdom about which she knows almost nothing. But what she discovers in the capital will change everything, confronting her with horrors she never imagined. An act of singular daring will throw Kelsea’s kingdom into tumult, unleashing the vengeance of the tyrannical ruler of neighboring Mortmesne: the Red Queen, a sorceress possessed of the darkest magic. Now Kelsea will begin to discover whom among the servants, aristocracy, and her own guard she can trust.But the quest to save her kingdom and meet her destiny has only just begun—a wondrous journey of self-discovery and a trial by fire that will make her a legend . . . if she can survive.This book will be a beautifully designed package with illustrated endpapers, a map of the Tearling, and a ribbon marker.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10432_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10432_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10432_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 86495,
-        "score": 3.99
-    },
-    "pages": 243,
-    "title": "The Queen of the Tearling",
-    "url": "https://www.goodreads.com/book/show/22864842-the-queen-of-the-tearling",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "10432_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 86495,
+    "score": 3.99
+  },
+  "pages": 243,
+  "title": "The Queen of the Tearling",
+  "url": "https://www.goodreads.com/book/show/22864842-the-queen-of-the-tearling",
+  "year_published": 2014
 }

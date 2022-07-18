@@ -1,34 +1,34 @@
 {
-    "author": "John R. Maxim",
-    "id": "27",
-    "description": "Manhattan executive Corbin is haunted by memories of another time--memories that do not belong to him. Then, in the midst of a raging New York City snowstorm, the inexplicable images become more vivid and real. And before he knows it, Jonathan Corbin has stepped into a bygone world of gaslit streets and horsedrawn carriages--and into the center of a nineteenth-century maelstrom of love, revenge, obsession...and death. Through the swirling snow, he can make out the figure of a woman--someone he can't possibly recognize, but does; someone he knows he is destined to kill.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 6,
-        "fiction": 12,
-        "historical (historical fiction)": 6,
-        "mystery": 5,
-        "science fiction": 2,
-        "science fiction (time travel)": 26,
-        "thriller": 7,
-        "thriller (mystery thriller)": 3
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "27_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 298,
-        "score": 3.9
-    },
-    "pages": 1193,
-    "title": "Time Out of Mind",
-    "url": "https://www.goodreads.com/book/show/163579.Time_Out_of_Mind",
-    "year_published": 1986
+  "author": "John R. Maxim",
+  "id": "27",
+  "description": "Manhattan executive Corbin is haunted by memories of another time--memories that do not belong to him. Then, in the midst of a raging New York City snowstorm, the inexplicable images become more vivid and real. And before he knows it, Jonathan Corbin has stepped into a bygone world of gaslit streets and horsedrawn carriages--and into the center of a nineteenth-century maelstrom of love, revenge, obsession...and death. Through the swirling snow, he can make out the figure of a woman--someone he can't possibly recognize, but does; someone he knows he is destined to kill.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "27_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 298,
+    "score": 3.9
+  },
+  "pages": 1193,
+  "title": "Time Out of Mind",
+  "url": "https://www.goodreads.com/book/show/163579.Time_Out_of_Mind",
+  "year_published": 1986
 }

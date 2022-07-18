@@ -1,55 +1,55 @@
 {
-    "author": "Libba Bray",
-    "id": "1753",
-    "description": "The breath-taking finale to the epic New York Times bestseller, The Diviners, from Printz winner and beloved author, Libba Bray.After the horrifying explosion that claimed one of their own, the Diviners find themselves wanted by the US government, and on the brink of war with the King of Crows.While Memphis and Isaiah run for their lives from the mysterious Shadow Men, Isaiah receives a startling vision of a girl, Sarah Beth Olson, who could shift the balance in their struggle for peace. Sarah Beth says she knows how to stop the King of Crows-but, she will need the Diviners' help to do it.Elsewhere, Jericho has returned after his escape from Jake Marlowe's estate, where he has learned the shocking truth behind the King of Crow's plans. Now, the Diviners must travel to Bountiful, Nebraska, in hopes of joining forces with Sarah Beth and to stop the King of Crows and his army of the dead forever.But as rumors of towns becoming ghost towns and the dead developing unprecedented powers begin to surface, all hope seems to be lost.In this sweeping finale, The Diviners will be forced to confront their greatest fears and learn to rely on one another if they hope to save the nation, and world from catastrophe...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 139,
-        "fantasy": 541,
-        "fantasy (paranormal)": 213,
-        "fantasy (supernatural)": 58,
-        "fiction": 77,
-        "historical": 163,
-        "historical (historical fiction)": 391,
-        "horror": 121,
-        "mystery": 70,
-        "young adult": 397
+  "author": "Libba Bray",
+  "id": "1753",
+  "description": "The breath-taking finale to the epic New York Times bestseller, The Diviners, from Printz winner and beloved author, Libba Bray.After the horrifying explosion that claimed one of their own, the Diviners find themselves wanted by the US government, and on the brink of war with the King of Crows.While Memphis and Isaiah run for their lives from the mysterious Shadow Men, Isaiah receives a startling vision of a girl, Sarah Beth Olson, who could shift the balance in their struggle for peace. Sarah Beth says she knows how to stop the King of Crows-but, she will need the Diviners' help to do it.Elsewhere, Jericho has returned after his escape from Jake Marlowe's estate, where he has learned the shocking truth behind the King of Crow's plans. Now, the Diviners must travel to Bountiful, Nebraska, in hopes of joining forces with Sarah Beth and to stop the King of Crows and his army of the dead forever.But as rumors of towns becoming ghost towns and the dead developing unprecedented powers begin to surface, all hope seems to be lost.In this sweeping finale, The Diviners will be forced to confront their greatest fears and learn to rely on one another if they hope to save the nation, and world from catastrophe...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1753_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1753_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1753_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1753_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1753_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1753_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1753_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7679,
-        "score": 3.99
+    {
+      "status": "maintenance",
+      "stock_id": "1753_2"
     },
-    "pages": 777,
-    "title": "The King of Crows",
-    "url": "https://www.goodreads.com/book/show/25985242-the-king-of-crows",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "1753_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1753_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1753_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1753_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7679,
+    "score": 3.99
+  },
+  "pages": 777,
+  "title": "The King of Crows",
+  "url": "https://www.goodreads.com/book/show/25985242-the-king-of-crows",
+  "year_published": 2020
 }

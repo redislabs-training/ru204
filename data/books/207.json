@@ -1,51 +1,51 @@
 {
-    "author": "Faye Kellerman",
-    "id": "207",
-    "description": "Prism takes us to a slightly alternate universe in which medicine and health care do not exist, and in which sick people are allowed to die without any care. Set in New Mexico and California, the novel features three teens who fall through a cave at Carlsbad Caverns in New Mexico while on a field trip. They are plunged into a frightening parallel universe\u2014seven weeks in the past, in which their \"normal\" worlds of family and high school remain the same\u2026except for the fact that no medicine exists and when people die in the street they are picked up and disposed of.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 6,
-        "fantasy": 21,
-        "fantasy (paranormal)": 8,
-        "fiction": 11,
-        "mystery": 9,
-        "science fiction": 28,
-        "science fiction (alternate universe)": 7,
-        "science fiction (dystopia)": 12,
-        "young adult": 43,
-        "young adult (teen)": 9
+  "author": "Faye Kellerman",
+  "id": "207",
+  "description": "Prism takes us to a slightly alternate universe in which medicine and health care do not exist, and in which sick people are allowed to die without any care. Set in New Mexico and California, the novel features three teens who fall through a cave at Carlsbad Caverns in New Mexico while on a field trip. They are plunged into a frightening parallel universe—seven weeks in the past, in which their \"normal\" worlds of family and high school remain the same…except for the fact that no medicine exists and when people die in the street they are picked up and disposed of.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (alternate universe)",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "207_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "207_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "207_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "207_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "207_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "207_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1293,
-        "score": 3.36
+    {
+      "status": "on_loan",
+      "stock_id": "207_2"
     },
-    "pages": 532,
-    "title": "Prism",
-    "url": "https://www.goodreads.com/book/show/5134555-prism",
-    "year_published": 2009
+    {
+      "status": "on_loan",
+      "stock_id": "207_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "207_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "207_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1293,
+    "score": 3.36
+  },
+  "pages": 532,
+  "title": "Prism",
+  "url": "https://www.goodreads.com/book/show/5134555-prism",
+  "year_published": 2009
 }

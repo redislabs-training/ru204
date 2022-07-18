@@ -1,59 +1,59 @@
 {
-    "author": "Joyce Carol Oates",
-    "id": "884",
-    "description": "An ingenious, dystopian novel of one young woman\u2019s resistance against the constraints of an oppressive society, from the inventive imagination of Joyce Carol Oates\u201cTime travel\u201d \u2014 and its hazards\u2014are made literal in this astonishing new novel in which a recklessly idealistic girl dares to test the perimeters of her tightly controlled (future) world and is punished by being sent back in time to a region of North America \u2014 \u201cWainscotia, Wisconsin\u201d\u2014that existed eighty years before. \u00a0Cast adrift in time in this idyllic Midwestern town she is set upon a course of \u201crehabilitation\u201d\u2014but cannot resist falling in love with a fellow exile and questioning\u00a0the constrains of the Wainscotia world with results that are both devastating and liberating. \u00a0Arresting and visionary, Hazards of Time Travel \u00a0is both a novel of harrowing discovery and an exquisitely wrought love story that may be Joyce Carol Oates\u2019s most unexpected novel so far.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult fiction": 14,
-        "audiobook": 25,
-        "fantasy": 13,
-        "fiction": 138,
-        "novels": 10,
-        "science fiction": 120,
-        "science fiction (dystopia)": 83,
-        "science fiction (time travel)": 106,
-        "science fiction fantasy": 13,
-        "speculative fiction": 12
+  "author": "Joyce Carol Oates",
+  "id": "884",
+  "description": "An ingenious, dystopian novel of one young woman’s resistance against the constraints of an oppressive society, from the inventive imagination of Joyce Carol Oates“Time travel” — and its hazards—are made literal in this astonishing new novel in which a recklessly idealistic girl dares to test the perimeters of her tightly controlled (future) world and is punished by being sent back in time to a region of North America — “Wainscotia, Wisconsin”—that existed eighty years before.  Cast adrift in time in this idyllic Midwestern town she is set upon a course of “rehabilitation”—but cannot resist falling in love with a fellow exile and questioning the constrains of the Wainscotia world with results that are both devastating and liberating.  Arresting and visionary, Hazards of Time Travel  is both a novel of harrowing discovery and an exquisitely wrought love story that may be Joyce Carol Oates’s most unexpected novel so far.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult fiction",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "884_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "884_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "884_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "884_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "884_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "884_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "884_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "884_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4632,
-        "score": 2.99
+    {
+      "status": "on_loan",
+      "stock_id": "884_2"
     },
-    "pages": 415,
-    "title": "Hazards of Time Travel",
-    "url": "https://www.goodreads.com/book/show/36544571-hazards-of-time-travel",
-    "year_published": 2018
+    {
+      "status": "maintenance",
+      "stock_id": "884_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "884_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "884_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "884_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "884_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4632,
+    "score": 2.99
+  },
+  "pages": 415,
+  "title": "Hazards of Time Travel",
+  "url": "https://www.goodreads.com/book/show/36544571-hazards-of-time-travel",
+  "year_published": 2018
 }

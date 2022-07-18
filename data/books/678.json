@@ -1,44 +1,44 @@
 {
-    "author": "Joss Whedon",
-    "id": "678",
-    "description": "Dream-team creators Joss Whedon (TV's Buffy the Vampire Slayer) and John Cassaday (Planetary, Captain America) present the explosive flagship X-Men series - marking a return to classic greatness and the beginning of a brand-new era for the X-Men! Cyclops and Emma Frost re-form the X-Men with the express purpose of \"astonishing\" the world. But when breaking news regarding the mutant gene unexpectedly hits the airwaves, will it derail their new plans before they even get started?Collecting: Astonishing X-Men 1-6",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "comics (comic book)": 130,
-        "comics (superheroes)": 139,
-        "fantasy": 57,
-        "fiction": 103,
-        "graphic novels comics": 118,
-        "marvel (x men)": 131,
-        "science fiction": 41,
-        "sequential art (comics)": 1233,
-        "sequential art (graphic novels)": 740,
-        "superheroes (marvel)": 245
+  "author": "Joss Whedon",
+  "id": "678",
+  "description": "Dream-team creators Joss Whedon (TV's Buffy the Vampire Slayer) and John Cassaday (Planetary, Captain America) present the explosive flagship X-Men series - marking a return to classic greatness and the beginning of a brand-new era for the X-Men! Cyclops and Emma Frost re-form the X-Men with the express purpose of \"astonishing\" the world. But when breaking news regarding the mutant gene unexpectedly hits the airwaves, will it derail their new plans before they even get started?Collecting: Astonishing X-Men 1-6",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "marvel (x men)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "678_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "678_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "678_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "678_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26514,
-        "score": 4.18
+    {
+      "status": "on_loan",
+      "stock_id": "678_2"
     },
-    "pages": 1333,
-    "title": "Astonishing X-Men, Volume 1: Gifted",
-    "url": "https://www.goodreads.com/book/show/31979.Astonishing_X_Men_Volume_1",
-    "year_published": 2004
+    {
+      "status": "available",
+      "stock_id": "678_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26514,
+    "score": 4.18
+  },
+  "pages": 1333,
+  "title": "Astonishing X-Men, Volume 1: Gifted",
+  "url": "https://www.goodreads.com/book/show/31979.Astonishing_X_Men_Volume_1",
+  "year_published": 2004
 }

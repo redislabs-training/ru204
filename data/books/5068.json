@@ -1,54 +1,54 @@
 {
-    "author": "Brent Weeks",
-    "id": "5068",
-    "description": "Guile is the Prism, the most powerful man in the world. He is high priest and emperor, a man whose power, wit, and charm are all that preserves a tenuous peace. Yet Prisms never last, and Guile knows exactly how long he has left to live.When Guile discovers he has a son, born in a far kingdom after the war that put him in power, he must decide how much he's willing to pay to protect a secret that could tear his world apart.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 190,
-        "adventure": 151,
-        "audiobook": 112,
-        "fantasy": 6502,
-        "fantasy (epic fantasy)": 418,
-        "fantasy (high fantasy)": 300,
-        "fantasy (magic)": 243,
-        "fiction": 549,
-        "science fiction fantasy": 127,
-        "young adult": 94
+  "author": "Brent Weeks",
+  "id": "5068",
+  "description": "Guile is the Prism, the most powerful man in the world. He is high priest and emperor, a man whose power, wit, and charm are all that preserves a tenuous peace. Yet Prisms never last, and Guile knows exactly how long he has left to live.When Guile discovers he has a son, born in a far kingdom after the war that put him in power, he must decide how much he's willing to pay to protect a secret that could tear his world apart.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5068_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5068_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "5068_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5068_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "5068_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5068_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5068_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 105541,
-        "score": 4.21
+    {
+      "status": "available",
+      "stock_id": "5068_2"
     },
-    "pages": 1239,
-    "title": "The Black Prism",
-    "url": "https://www.goodreads.com/book/show/7165300-the-black-prism",
-    "year_published": 2010
+    {
+      "status": "on_loan",
+      "stock_id": "5068_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "5068_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5068_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5068_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 105541,
+    "score": 4.21
+  },
+  "pages": 1239,
+  "title": "The Black Prism",
+  "url": "https://www.goodreads.com/book/show/7165300-the-black-prism",
+  "year_published": 2010
 }

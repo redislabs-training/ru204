@@ -1,54 +1,54 @@
 {
-    "author": "Mark Twain",
-    "id": "3150",
-    "description": "One of the greatest satires in American literature, Mark Twain's 'A Connecticut Yankee in King Arthur's Court' begins when Hank Morgan, a skilled mechanic in a nineteenth-century New England arms factory, is struck on the head during a quarrel and awakens to find himself among the knights and magicians of King Arthur's Camelot. The 'Yankee' vows brashly to \"boss the whole country inside of three weeks\" and embarks on an ambitious plan to modernize Camelot with 19th c. industrial inventions like electricity and gunfire. It isn't long before all hell breaks loose!Written in 1889, Mark 'A Connecticut Yankee in King Arthur's Court' is one of literature's first genre mash-ups and one of the first works to feature time travel. It is one of the best known Twain stories, and also one of his most unique. Twain uses the work to launch a social commentary on contemporary society, a thinly veiled critique of the contemporary times despite the Old World setting.While the dark pessimism that would fully blossom in Twain's later works can be discerned in 'A Connecticut Yankee in King Arthur's Court, ' the novel will nevertheless be remembered primarily for its wild leaps of imagination, brilliant wit, and entertaining storytelling.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 225,
-        "classics": 2955,
-        "fantasy": 1033,
-        "fiction": 1758,
-        "historical (historical fiction)": 565,
-        "humor": 411,
-        "literature": 320,
-        "mythology (arthurian)": 169,
-        "science fiction": 211,
-        "science fiction (time travel)": 368
+  "author": "Mark Twain",
+  "id": "3150",
+  "description": "One of the greatest satires in American literature, Mark Twain's 'A Connecticut Yankee in King Arthur's Court' begins when Hank Morgan, a skilled mechanic in a nineteenth-century New England arms factory, is struck on the head during a quarrel and awakens to find himself among the knights and magicians of King Arthur's Camelot. The 'Yankee' vows brashly to \"boss the whole country inside of three weeks\" and embarks on an ambitious plan to modernize Camelot with 19th c. industrial inventions like electricity and gunfire. It isn't long before all hell breaks loose!Written in 1889, Mark 'A Connecticut Yankee in King Arthur's Court' is one of literature's first genre mash-ups and one of the first works to feature time travel. It is one of the best known Twain stories, and also one of his most unique. Twain uses the work to launch a social commentary on contemporary society, a thinly veiled critique of the contemporary times despite the Old World setting.While the dark pessimism that would fully blossom in Twain's later works can be discerned in 'A Connecticut Yankee in King Arthur's Court, ' the novel will nevertheless be remembered primarily for its wild leaps of imagination, brilliant wit, and entertaining storytelling.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "classics",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "humor",
+    "literature",
+    "mythology (arthurian)",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3150_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3150_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3150_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3150_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3150_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "3150_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3150_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 97303,
-        "score": 3.77
+    {
+      "status": "maintenance",
+      "stock_id": "3150_2"
     },
-    "pages": 913,
-    "title": "A Connecticut Yankee in King Arthur's Court",
-    "url": "https://www.goodreads.com/book/show/162898.A_Connecticut_Yankee_in_King_Arthur_s_Court",
-    "year_published": 1889
+    {
+      "status": "maintenance",
+      "stock_id": "3150_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3150_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "3150_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3150_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 97303,
+    "score": 3.77
+  },
+  "pages": 913,
+  "title": "A Connecticut Yankee in King Arthur's Court",
+  "url": "https://www.goodreads.com/book/show/162898.A_Connecticut_Yankee_in_King_Arthur_s_Court",
+  "year_published": 1889
 }

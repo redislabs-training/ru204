@@ -1,54 +1,54 @@
 {
-    "author": "Katsuhiro Otomo",
-    "id": "911",
-    "description": "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 57,
-        "cultural (japan)": 84,
-        "fiction": 151,
-        "graphic novels comics": 80,
-        "science fiction": 351,
-        "science fiction (cyberpunk)": 123,
-        "science fiction (dystopia)": 83,
-        "sequential art (comics)": 772,
-        "sequential art (graphic novels)": 684,
-        "sequential art (manga)": 1353
+  "author": "Katsuhiro Otomo",
+  "id": "911",
+  "description": "The science fiction tale set in 2019 in Tokyo after the city was destroyed by World War III, follows the lives of two teenage friends, Tetsuo and Kaneda, who have a consuming fear of a monstrous power known as Akira.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "cultural (japan)",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "911_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "911_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "911_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "911_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "911_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "911_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "911_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 24932,
-        "score": 4.39
+    {
+      "status": "maintenance",
+      "stock_id": "911_2"
     },
-    "pages": 625,
-    "title": "Akira, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/93371.Akira_Vol_1",
-    "year_published": 1984
+    {
+      "status": "on_loan",
+      "stock_id": "911_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "911_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "911_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "911_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 24932,
+    "score": 4.39
+  },
+  "pages": 625,
+  "title": "Akira, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/93371.Akira_Vol_1",
+  "year_published": 1984
 }

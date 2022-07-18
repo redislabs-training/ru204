@@ -1,64 +1,64 @@
 {
-    "author": "Myke Cole",
-    "id": "766",
-    "description": "Army Officer. Fugitive. Sorcerer.Across the country and in every nation, people are waking up with magical talents. Untrained and panicked, they summon storms, raise the dead, and set everything they touch ablaze. Army officer Oscar Britton sees the worst of it. A lieutenant attached to the military's Supernatural Operations Corps, his mission is to bring order to a world gone mad. Then he abruptly manifests a rare and prohibited magical power, transforming him overnight from government agent to public enemy number one. The SOC knows how to handle this kind of situation: hunt him down--and take him out. Driven into an underground shadow world, Britton is about to learn that magic has changed all the rules he's ever known, and that his life isn't the only thing he's fighting for.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 22,
-        "adult": 13,
-        "fantasy": 435,
-        "fantasy (magic)": 47,
-        "fantasy (paranormal)": 24,
-        "fantasy (urban fantasy)": 273,
-        "fiction": 55,
-        "science fiction": 109,
-        "war": 22,
-        "war (military fiction)": 94
+  "author": "Myke Cole",
+  "id": "766",
+  "description": "Army Officer. Fugitive. Sorcerer.Across the country and in every nation, people are waking up with magical talents. Untrained and panicked, they summon storms, raise the dead, and set everything they touch ablaze. Army officer Oscar Britton sees the worst of it. A lieutenant attached to the military's Supernatural Operations Corps, his mission is to bring order to a world gone mad. Then he abruptly manifests a rare and prohibited magical power, transforming him overnight from government agent to public enemy number one. The SOC knows how to handle this kind of situation: hunt him down--and take him out. Driven into an underground shadow world, Britton is about to learn that magic has changed all the rules he's ever known, and that his life isn't the only thing he's fighting for.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adult",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "war",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "766_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "766_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "766_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "766_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "766_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "766_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "766_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "766_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "766_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6350,
-        "score": 3.51
+    {
+      "status": "on_loan",
+      "stock_id": "766_2"
     },
-    "pages": 516,
-    "title": "Control Point",
-    "url": "https://www.goodreads.com/book/show/11783484-control-point",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "766_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "766_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "766_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "766_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "766_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "766_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6350,
+    "score": 3.51
+  },
+  "pages": 516,
+  "title": "Control Point",
+  "url": "https://www.goodreads.com/book/show/11783484-control-point",
+  "year_published": 2012
 }

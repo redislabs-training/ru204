@@ -1,36 +1,36 @@
 {
-    "author": "Scott Sigler",
-    "id": "645",
-    "description": "From the acclaimed author of Infected comes an epic and exhilarating story of humanity's secret battle against a horrific enemy. Across America, a mysterious pathogen transforms ordinary people into raging killers, psychopaths driven by a terrifying, alien agenda. The human race fights back, yet after every battle the disease responds, adapts, using sophisticated strategies and brilliant ruses to fool its pursuers. The only possible explanation: the epidemic is driven not by evolution but by some malevolent intelligence.Standing against this unimaginable threat is a small group, assembled under the strictest secrecy. Their best weapon is hulking former football star Perry Dawsey, left psychologically shattered by his own struggles with this terrible enemy, who possesses an unexplainable ability to locate the disease's hosts. Violent and unpredictable, Perry is both the nation's best hope and a terrifying liability. Hardened CIA veteran Dew Phillips must somehow forge a connection with him if they're going to stand a chance against this maddeningly adaptable opponent. Alongside them is Margaret Montoya, a brilliant epidemiologist who fights for a cure even as she reels under the weight of endless horrors. These three and their team have kept humanity in the game, but that's not good enough anymore, not when the disease turns contagious, triggering a fast countdown to Armageddon. Meanwhile, other enemies join the battle, and a new threat -- one that comes from a most unexpected source -- may ultimately prove the most dangerous of all.Catapulting the reader into a world where humanity's life span is measured in hours and the president's finger hovers over the nuclear button, rising star Scott Sigler takes us on a breathtaking, hyper-adrenalized ride filled with terror and jaw-dropping action. Contagious is a truly grand work of suspense, science, and horror from a new master.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 28,
-        "fantasy": 10,
-        "fiction": 114,
-        "horror": 327,
-        "horror (zombies)": 28,
-        "science fiction": 170,
-        "science fiction (aliens)": 19,
-        "science fiction (apocalyptic)": 8,
-        "science fiction fantasy": 11,
-        "thriller": 78
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "645_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10024,
-        "score": 4.12
-    },
-    "pages": 207,
-    "title": "Contagious",
-    "url": "https://www.goodreads.com/book/show/3605324-contagious",
-    "year_published": 2008
+  "author": "Scott Sigler",
+  "id": "645",
+  "description": "From the acclaimed author of Infected comes an epic and exhilarating story of humanity's secret battle against a horrific enemy. Across America, a mysterious pathogen transforms ordinary people into raging killers, psychopaths driven by a terrifying, alien agenda. The human race fights back, yet after every battle the disease responds, adapts, using sophisticated strategies and brilliant ruses to fool its pursuers. The only possible explanation: the epidemic is driven not by evolution but by some malevolent intelligence.Standing against this unimaginable threat is a small group, assembled under the strictest secrecy. Their best weapon is hulking former football star Perry Dawsey, left psychologically shattered by his own struggles with this terrible enemy, who possesses an unexplainable ability to locate the disease's hosts. Violent and unpredictable, Perry is both the nation's best hope and a terrifying liability. Hardened CIA veteran Dew Phillips must somehow forge a connection with him if they're going to stand a chance against this maddeningly adaptable opponent. Alongside them is Margaret Montoya, a brilliant epidemiologist who fights for a cure even as she reels under the weight of endless horrors. These three and their team have kept humanity in the game, but that's not good enough anymore, not when the disease turns contagious, triggering a fast countdown to Armageddon. Meanwhile, other enemies join the battle, and a new threat -- one that comes from a most unexpected source -- may ultimately prove the most dangerous of all.Catapulting the reader into a world where humanity's life span is measured in hours and the president's finger hovers over the nuclear button, rising star Scott Sigler takes us on a breathtaking, hyper-adrenalized ride filled with terror and jaw-dropping action. Contagious is a truly grand work of suspense, science, and horror from a new master.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (apocalyptic)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "645_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10024,
+    "score": 4.12
+  },
+  "pages": 207,
+  "title": "Contagious",
+  "url": "https://www.goodreads.com/book/show/3605324-contagious",
+  "year_published": 2008
 }

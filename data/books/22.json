@@ -1,50 +1,50 @@
 {
-    "author": "Arnold Drake",
-    "id": "22",
-    "description": "Made up of misfit super-heroes with unusual powers and abilities, the Doom Patrol embarked on and endured some of the most bizarre adventures ever imaginable. Assembled in this hardcover volume are the earliest escapades of Robotman, Negative Man, Elasti-Girl, and the Chief. Reprinted as they originally appeared in the 1960s, this archive edition includes the Doom Patrol's first appearance and origin, as well as their first battles with their greatest adversary, General Immortus, the prehistoric monster menace Dr. Janus, the subterranean Atomic Furies, and the mutant Animal-Vegetable-Mineral Man.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 6,
-        "comics (superheroes)": 4,
-        "graphic novels comics": 4,
-        "sequential art (comics)": 16,
-        "sequential art (graphic novels)": 16,
-        "superheroes (dc comics)": 6
+  "author": "Arnold Drake",
+  "id": "22",
+  "description": "Made up of misfit super-heroes with unusual powers and abilities, the Doom Patrol embarked on and endured some of the most bizarre adventures ever imaginable. Assembled in this hardcover volume are the earliest escapades of Robotman, Negative Man, Elasti-Girl, and the Chief. Reprinted as they originally appeared in the 1960s, this archive edition includes the Doom Patrol's first appearance and origin, as well as their first battles with their greatest adversary, General Immortus, the prehistoric monster menace Dr. Janus, the subterranean Atomic Furies, and the mutant Animal-Vegetable-Mineral Man.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "graphic novels comics",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (dc comics)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "22_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "22_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "22_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "22_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "22_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "22_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "22_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 158,
-        "score": 4.16
+    {
+      "status": "on_loan",
+      "stock_id": "22_2"
     },
-    "pages": 388,
-    "title": "The Doom Patrol Archives, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/158384.The_Doom_Patrol_Archives_Vol_1",
-    "year_published": 2002
+    {
+      "status": "on_loan",
+      "stock_id": "22_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "22_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "22_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "22_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 158,
+    "score": 4.16
+  },
+  "pages": 388,
+  "title": "The Doom Patrol Archives, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/158384.The_Doom_Patrol_Archives_Vol_1",
+  "year_published": 2002
 }

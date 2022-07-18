@@ -1,51 +1,51 @@
 {
-    "author": "Lauren Beukes",
-    "id": "473",
-    "description": "A frighteningly persuasive, high-tech fable, this novel follows the lives of four narrators living in an alternative futuristic Cape Town, South Africa. Kendra, an art-school dropout, brands herself for a nanotech marketing program; Lerato, an ambitious AIDS baby, plots to defect from her corporate employers; Tendeka, a hot-headed activist, is becoming increasingly rabid; and Toby, a roguish blogger, discovers that the video games he plays for cash are much more than they seem. On a collision course that will rewire their lives, this story crackles with bold and infectious ideas, connecting a ruthless corporate-apartheid government with video games, biotech attack dogs, slippery online identities, a township soccer school, shocking cell phones, addictive branding, and genetically modified art. Taking hedonistic trends in society to their ultimate conclusions, this tale paints anything but a forecasted utopia, satirically undermining the reified idea of progress as society's white knight.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "cultural (africa)": 26,
-        "fantasy": 15,
-        "fantasy (urban fantasy)": 13,
-        "fiction": 134,
-        "novels": 11,
-        "science fiction": 202,
-        "science fiction (cyberpunk)": 101,
-        "science fiction (dystopia)": 52,
-        "science fiction fantasy": 16,
-        "speculative fiction": 20
+  "author": "Lauren Beukes",
+  "id": "473",
+  "description": "A frighteningly persuasive, high-tech fable, this novel follows the lives of four narrators living in an alternative futuristic Cape Town, South Africa. Kendra, an art-school dropout, brands herself for a nanotech marketing program; Lerato, an ambitious AIDS baby, plots to defect from her corporate employers; Tendeka, a hot-headed activist, is becoming increasingly rabid; and Toby, a roguish blogger, discovers that the video games he plays for cash are much more than they seem. On a collision course that will rewire their lives, this story crackles with bold and infectious ideas, connecting a ruthless corporate-apartheid government with video games, biotech attack dogs, slippery online identities, a township soccer school, shocking cell phones, addictive branding, and genetically modified art. Taking hedonistic trends in society to their ultimate conclusions, this tale paints anything but a forecasted utopia, satirically undermining the reified idea of progress as society's white knight.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "cultural (africa)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "473_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "473_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "473_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "473_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "473_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "473_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3204,
-        "score": 3.61
+    {
+      "status": "on_loan",
+      "stock_id": "473_2"
     },
-    "pages": 617,
-    "title": "Moxyland",
-    "url": "https://www.goodreads.com/book/show/3491640-moxyland",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "473_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "473_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "473_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3204,
+    "score": 3.61
+  },
+  "pages": 617,
+  "title": "Moxyland",
+  "url": "https://www.goodreads.com/book/show/3491640-moxyland",
+  "year_published": 2008
 }

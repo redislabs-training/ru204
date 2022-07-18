@@ -1,39 +1,39 @@
 {
-    "author": "Iain Reid",
-    "id": "1748",
-    "description": "A taut, psychological mind-bender from the bestselling author of I\u2019m Thinking of Ending Things.We don\u2019t get visitors. Not out here. We never have. In Iain Reid\u2019s second haunting, philosophical puzzle of a novel, set in the near-future, Junior and Henrietta live a comfortable, solitary life on their farm, far from the city lights, but in close quarters with each other. One day, a stranger from the city arrives with alarming news: Junior has been randomly selected to travel far away from the farm...very far away. The most unusual part? Arrangements have already been made so that when he leaves, Henrietta won't have a chance to miss him, because she won't be left alone\u2014not even for a moment. Henrietta will have company. Familiar company. Told in Reid\u2019s sharp and evocative style, Foe examines the nature of domestic relationships, self-determination, and what it means to be (or not to be) a person. An eerily entrancing page-turner, it churns with unease and suspense from the first words to its shocking finale.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 26,
-        "audiobook": 29,
-        "cultural (canada)": 23,
-        "fiction": 185,
-        "horror": 300,
-        "mystery": 40,
-        "science fiction": 173,
-        "suspense": 26,
-        "thriller": 96,
-        "thriller (mystery thriller)": 39
+  "author": "Iain Reid",
+  "id": "1748",
+  "description": "A taut, psychological mind-bender from the bestselling author of I’m Thinking of Ending Things.We don’t get visitors. Not out here. We never have. In Iain Reid’s second haunting, philosophical puzzle of a novel, set in the near-future, Junior and Henrietta live a comfortable, solitary life on their farm, far from the city lights, but in close quarters with each other. One day, a stranger from the city arrives with alarming news: Junior has been randomly selected to travel far away from the farm...very far away. The most unusual part? Arrangements have already been made so that when he leaves, Henrietta won't have a chance to miss him, because she won't be left alone—not even for a moment. Henrietta will have company. Familiar company. Told in Reid’s sharp and evocative style, Foe examines the nature of domestic relationships, self-determination, and what it means to be (or not to be) a person. An eerily entrancing page-turner, it churns with unease and suspense from the first words to its shocking finale.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "cultural (canada)",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1748_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1748_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1748_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8852,
-        "score": 3.67
-    },
-    "pages": 701,
-    "title": "Foe",
-    "url": "https://www.goodreads.com/book/show/37510662-foe",
-    "year_published": 2018
+    {
+      "status": "maintenance",
+      "stock_id": "1748_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8852,
+    "score": 3.67
+  },
+  "pages": 701,
+  "title": "Foe",
+  "url": "https://www.goodreads.com/book/show/37510662-foe",
+  "year_published": 2018
 }

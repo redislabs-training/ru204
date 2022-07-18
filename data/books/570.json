@@ -1,55 +1,55 @@
 {
-    "author": "O.T. Nelson",
-    "id": "570",
-    "description": "A killing virus has swept the earth, sparing only children through the age of twelve. There is chaos everywhere, even in formely prosperous mid-America. Gangs and fierce armies of children begin to form almost immediately. It would be the same for the children on Grand Avenue but for Lisa, a yen-year-old girl who becomes their leader. Because of Lisa, they have food, even toys, in abundance. And now they can protect themselves from the fierce gangs that roam the neighborhoods. But for how long? Then Lisa conceives the idea of a fortress, a city in which the children could live safely and happily always, and she intends to lead them there.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "academic (school)": 16,
-        "adventure": 18,
-        "adventure (survival)": 16,
-        "apocalyptic (post apocalyptic)": 34,
-        "childrens": 28,
-        "childrens (middle grade)": 22,
-        "fiction": 68,
-        "science fiction": 57,
-        "science fiction (dystopia)": 60,
-        "young adult": 100
+  "author": "O.T. Nelson",
+  "id": "570",
+  "description": "A killing virus has swept the earth, sparing only children through the age of twelve. There is chaos everywhere, even in formely prosperous mid-America. Gangs and fierce armies of children begin to form almost immediately. It would be the same for the children on Grand Avenue but for Lisa, a yen-year-old girl who becomes their leader. Because of Lisa, they have food, even toys, in abundance. And now they can protect themselves from the fierce gangs that roam the neighborhoods. But for how long? Then Lisa conceives the idea of a fortress, a city in which the children could live safely and happily always, and she intends to lead them there.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "academic (school)",
+    "adventure",
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "childrens",
+    "childrens (middle grade)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "570_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "570_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "570_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "570_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "570_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "570_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "570_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4676,
-        "score": 3.8
+    {
+      "status": "available",
+      "stock_id": "570_2"
     },
-    "pages": 278,
-    "title": "The Girl Who Owned a City",
-    "url": "https://www.goodreads.com/book/show/357933.The_Girl_Who_Owned_a_City",
-    "year_published": 1975
+    {
+      "status": "available",
+      "stock_id": "570_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "570_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "570_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "570_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4676,
+    "score": 3.8
+  },
+  "pages": 278,
+  "title": "The Girl Who Owned a City",
+  "url": "https://www.goodreads.com/book/show/357933.The_Girl_Who_Owned_a_City",
+  "year_published": 1975
 }

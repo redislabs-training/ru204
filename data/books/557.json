@@ -1,42 +1,42 @@
 {
-    "author": "Hugh Howey",
-    "id": "557",
-    "description": "A cleaning has been performed, and now the silo is without a sheriff. With only one good candidate available, Mayor Jahns and Deputy Mames set off for the Down Deep to recruit her in person. Along the way, they discover much about each other, troubling news about this candidate, and stumble upon fractured alliances that could spell the doom of a silo they've worked long years to protect.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 15,
-        "apocalyptic (post apocalyptic)": 91,
-        "fantasy": 27,
-        "fiction": 118,
-        "novella": 14,
-        "science fiction": 245,
-        "science fiction (apocalyptic)": 16,
-        "science fiction (dystopia)": 157,
-        "science fiction fantasy": 16,
-        "short stories": 34
+  "author": "Hugh Howey",
+  "id": "557",
+  "description": "A cleaning has been performed, and now the silo is without a sheriff. With only one good candidate available, Mayor Jahns and Deputy Mames set off for the Down Deep to recruit her in person. Along the way, they discover much about each other, troubling news about this candidate, and stumble upon fractured alliances that could spell the doom of a silo they've worked long years to protect.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "557_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "557_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "557_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "557_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11741,
-        "score": 4.15
+    {
+      "status": "available",
+      "stock_id": "557_2"
     },
-    "pages": 1361,
-    "title": "Proper Gauge",
-    "url": "https://www.goodreads.com/book/show/13178410-proper-gauge",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "557_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11741,
+    "score": 4.15
+  },
+  "pages": 1361,
+  "title": "Proper Gauge",
+  "url": "https://www.goodreads.com/book/show/13178410-proper-gauge",
+  "year_published": 2011
 }

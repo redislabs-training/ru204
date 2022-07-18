@@ -1,52 +1,52 @@
 {
-    "author": "Isaac Asimov",
-    "id": "143",
-    "description": "Asimov wrote the short story \"The Ugly Little Boy\" in 1958. But there is much more to the story of the little Neanderthal boy plucked out of time and transferred to the 21st century. Now, Robert Silverberg--in this second collaboration with Asimov--has made this sf classic into an engrossing novel-length tale.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 5,
-        "fantasy": 9,
-        "fiction": 51,
-        "historical (historical fiction)": 4,
-        "literature (american)": 3,
-        "novels": 4,
-        "science fiction": 210,
-        "science fiction (time travel)": 30,
-        "science fiction fantasy": 12,
-        "speculative fiction": 3
+  "author": "Isaac Asimov",
+  "id": "143",
+  "description": "Asimov wrote the short story \"The Ugly Little Boy\" in 1958. But there is much more to the story of the little Neanderthal boy plucked out of time and transferred to the 21st century. Now, Robert Silverberg--in this second collaboration with Asimov--has made this sf classic into an engrossing novel-length tale.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "143_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "143_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "143_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "143_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "143_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "143_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3021,
-        "score": 3.88
+    {
+      "status": "maintenance",
+      "stock_id": "143_2"
     },
-    "pages": 292,
-    "title": "The Ugly Little Boy",
-    "url": "https://www.goodreads.com/book/show/195450.The_Ugly_Little_Boy",
-    "year_published": 1991
+    {
+      "status": "on_loan",
+      "stock_id": "143_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "143_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "143_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3021,
+    "score": 3.88
+  },
+  "pages": 292,
+  "title": "The Ugly Little Boy",
+  "url": "https://www.goodreads.com/book/show/195450.The_Ugly_Little_Boy",
+  "year_published": 1991
 }

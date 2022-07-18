@@ -1,40 +1,40 @@
 {
-    "author": "Terry Pratchett",
-    "id": "4362",
-    "description": "On Discworld, a dying wizard tries to pass on his powers to an eighth son of an eighth son, who is just at that moment being born. The fact that the son is actually a daughter is discovered just a little too late. The town witch insists on turning the baby into a perfectly normal witch, thus mending the magical damage of the wizard's mistake. But now the young girl will be forced to penetrate the inner sanctum of the Unseen University--and attempt to save the world with one well-placed kick in some enchanted shins! Reissue.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 155,
-        "audiobook": 139,
-        "fantasy": 8337,
-        "fantasy (magic)": 257,
-        "fiction": 1554,
-        "humor": 1359,
-        "humor (comedy)": 437,
-        "paranormal (witches)": 188,
-        "science fiction fantasy": 278,
-        "young adult": 125
+  "author": "Terry Pratchett",
+  "id": "4362",
+  "description": "On Discworld, a dying wizard tries to pass on his powers to an eighth son of an eighth son, who is just at that moment being born. The fact that the son is actually a daughter is discovered just a little too late. The town witch insists on turning the baby into a perfectly normal witch, thus mending the magical damage of the wizard's mistake. But now the young girl will be forced to penetrate the inner sanctum of the Unseen University--and attempt to save the world with one well-placed kick in some enchanted shins! Reissue.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "paranormal (witches)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "4362_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "4362_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4362_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 150664,
-        "score": 4.02
-    },
-    "pages": 336,
-    "title": "Equal Rites",
-    "url": "https://www.goodreads.com/book/show/34507.Equal_Rites",
-    "year_published": 1987
+    {
+      "status": "on_loan",
+      "stock_id": "4362_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 150664,
+    "score": 4.02
+  },
+  "pages": 336,
+  "title": "Equal Rites",
+  "url": "https://www.goodreads.com/book/show/34507.Equal_Rites",
+  "year_published": 1987
 }

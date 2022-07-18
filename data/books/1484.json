@@ -1,62 +1,62 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1484",
-    "description": "There's been a murder. Allegedly. William de Worde is the Discworld's first investigative journalist. He didn't mean to be - it was just an accident. But, as William fills his pages with reports of local club meetings and pictures of humorously shaped vegetables, dark forces high up in Ankh-Morpork's society are plotting to overthrow the city's ruler, Lord Vetinari.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 68,
-        "audiobook": 77,
-        "childrens": 63,
-        "childrens (middle grade)": 60,
-        "fantasy": 3906,
-        "fiction": 763,
-        "humor": 618,
-        "humor (comedy)": 205,
-        "science fiction fantasy": 125,
-        "young adult": 71
+  "author": "Terry Pratchett",
+  "id": "1484",
+  "description": "There's been a murder. Allegedly. William de Worde is the Discworld's first investigative journalist. He didn't mean to be - it was just an accident. But, as William fills his pages with reports of local club meetings and pictures of humorously shaped vegetables, dark forces high up in Ankh-Morpork's society are plotting to overthrow the city's ruler, Lord Vetinari.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1484_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1484_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1484_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1484_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1484_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1484_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1484_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1484_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1484_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 59540,
-        "score": 4.23
+    {
+      "status": "available",
+      "stock_id": "1484_2"
     },
-    "pages": 891,
-    "title": "The Truth",
-    "url": "https://www.goodreads.com/book/show/34498.The_Truth",
-    "year_published": 2000
+    {
+      "status": "maintenance",
+      "stock_id": "1484_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1484_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1484_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1484_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1484_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1484_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 59540,
+    "score": 4.23
+  },
+  "pages": 891,
+  "title": "The Truth",
+  "url": "https://www.goodreads.com/book/show/34498.The_Truth",
+  "year_published": 2000
 }

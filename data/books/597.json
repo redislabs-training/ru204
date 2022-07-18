@@ -1,63 +1,63 @@
 {
-    "author": "Jenny Nimmo",
-    "id": "597",
-    "description": "Time is running out for Charlie Bone . . . Charlies hopes that the new term at Bloor's Academy will hold no nasty surprises. But then Henry Yewbeam appears, twisted through time from the icy winter of 1916.With the scheming Yewbeam aunts on the prowl, and the Bloors out to catch him, Henry will need Charlie's help just to stay alive. Bloor's Academy can be a very dangerous place . . .Book Two in The Children of the Red King series!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 38,
-        "childrens": 127,
-        "childrens (juvenile)": 31,
-        "childrens (middle grade)": 115,
-        "fantasy": 682,
-        "fantasy (magic)": 84,
-        "fiction": 122,
-        "mystery": 34,
-        "science fiction (time travel)": 27,
-        "young adult": 156
+  "author": "Jenny Nimmo",
+  "id": "597",
+  "description": "Time is running out for Charlie Bone . . . Charlies hopes that the new term at Bloor's Academy will hold no nasty surprises. But then Henry Yewbeam appears, twisted through time from the icy winter of 1916.With the scheming Yewbeam aunts on the prowl, and the Bloors out to catch him, Henry will need Charlie's help just to stay alive. Bloor's Academy can be a very dangerous place . . .Book Two in The Children of the Red King series!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "mystery",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "597_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "597_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "597_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "597_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "597_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "597_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "597_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "597_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "597_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22269,
-        "score": 3.9
+    {
+      "status": "on_loan",
+      "stock_id": "597_2"
     },
-    "pages": 971,
-    "title": "Charlie Bone and the Time Twister",
-    "url": "https://www.goodreads.com/book/show/227778.Charlie_Bone_and_the_Time_Twister",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "597_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "597_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "597_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "597_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "597_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "597_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22269,
+    "score": 3.9
+  },
+  "pages": 971,
+  "title": "Charlie Bone and the Time Twister",
+  "url": "https://www.goodreads.com/book/show/227778.Charlie_Bone_and_the_Time_Twister",
+  "year_published": 2003
 }

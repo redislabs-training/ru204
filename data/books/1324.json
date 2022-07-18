@@ -1,59 +1,59 @@
 {
-    "author": "Robert Kirkman",
-    "id": "1324",
-    "description": "An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months, society has crumbled: there is no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, we are forced to finally begin living. This volume follows our band of survivors as they set up a permanent camp inside a prison. Relationships change, characters die, and our team of survivors learn there's something far more deadly than zombies out there: each other.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 154,
-        "comics (comic book)": 145,
-        "fiction": 270,
-        "graphic novels comics": 165,
-        "horror": 837,
-        "horror (zombies)": 567,
-        "science fiction": 61,
-        "science fiction (dystopia)": 98,
-        "sequential art (comics)": 1353,
-        "sequential art (graphic novels)": 1564
+  "author": "Robert Kirkman",
+  "id": "1324",
+  "description": "An epidemic of apocalyptic proportions has swept the globe, causing the dead to rise and feed on the living. In a matter of months, society has crumbled: there is no government, no grocery stores, no mail delivery, no cable TV. In a world ruled by the dead, we are forced to finally begin living. This volume follows our band of survivors as they set up a permanent camp inside a prison. Relationships change, characters die, and our team of survivors learn there's something far more deadly than zombies out there: each other.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1324_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1324_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1324_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1324_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1324_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1324_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1324_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1324_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 30650,
-        "score": 4.3
+    {
+      "status": "on_loan",
+      "stock_id": "1324_2"
     },
-    "pages": 1006,
-    "title": "The Walking Dead, Vol. 3: Safety Behind Bars",
-    "url": "https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "1324_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1324_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1324_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1324_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1324_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 30650,
+    "score": 4.3
+  },
+  "pages": 1006,
+  "title": "The Walking Dead, Vol. 3: Safety Behind Bars",
+  "url": "https://www.goodreads.com/book/show/30069.The_Walking_Dead_Vol_3",
+  "year_published": 2005
 }

@@ -1,60 +1,60 @@
 {
-    "author": "Rebecca Roanhorse",
-    "id": "3587",
-    "description": "While most of the world has drowned beneath the sudden rising waters of a climate apocalypse, Din\u00e9tah (formerly the Navajo reservation) has been reborn. The gods and heroes of legend walk the land, but so do monsters.Maggie Hoskie is a Din\u00e9tah monster hunter, a supernaturally gifted killer. When a small town needs help finding a missing girl, Maggie is their last\u2014and best\u2014hope. But what Maggie uncovers about the monster is much larger and more terrifying than anything she could imagine.Maggie reluctantly enlists the aid of Kai Arviso, an unconventional medicine man, and together they travel to the rez to unravel clues from ancient legends, trade favors with tricksters, and battle dark witchcraft in a patchwork world of deteriorating technology.As Maggie discovers the truth behind the disappearances, she will have to confront her past\u2014if she wants to survive.Welcome to the Sixth World.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 141,
-        "apocalyptic (post apocalyptic)": 202,
-        "fantasy": 2012,
-        "fantasy (mythology)": 151,
-        "fantasy (paranormal)": 155,
-        "fantasy (urban fantasy)": 802,
-        "fiction": 468,
-        "science fiction": 193,
-        "science fiction (dystopia)": 297,
-        "young adult": 227
+  "author": "Rebecca Roanhorse",
+  "id": "3587",
+  "description": "While most of the world has drowned beneath the sudden rising waters of a climate apocalypse, Dinétah (formerly the Navajo reservation) has been reborn. The gods and heroes of legend walk the land, but so do monsters.Maggie Hoskie is a Dinétah monster hunter, a supernaturally gifted killer. When a small town needs help finding a missing girl, Maggie is their last—and best—hope. But what Maggie uncovers about the monster is much larger and more terrifying than anything she could imagine.Maggie reluctantly enlists the aid of Kai Arviso, an unconventional medicine man, and together they travel to the rez to unravel clues from ancient legends, trade favors with tricksters, and battle dark witchcraft in a patchwork world of deteriorating technology.As Maggie discovers the truth behind the disappearances, she will have to confront her past—if she wants to survive.Welcome to the Sixth World.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (mythology)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3587_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3587_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3587_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3587_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3587_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3587_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3587_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3587_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17985,
-        "score": 3.97
+    {
+      "status": "on_loan",
+      "stock_id": "3587_2"
     },
-    "pages": 416,
-    "title": "Trail of Lightning",
-    "url": "https://www.goodreads.com/book/show/36373298-trail-of-lightning",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "3587_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3587_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3587_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3587_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3587_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17985,
+    "score": 3.97
+  },
+  "pages": 416,
+  "title": "Trail of Lightning",
+  "url": "https://www.goodreads.com/book/show/36373298-trail-of-lightning",
+  "year_published": 2018
 }

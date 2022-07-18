@@ -1,60 +1,60 @@
 {
-    "author": "Tom Merritt",
-    "id": "181",
-    "description": "What would happen if a time traveler lived in a world where time could not easily be changed and if it was changed, it might destroy everything but himself?Pilot X just wants to fly a time ship. Specifically the Verity. But the Guardians of Alenda, rulers of his people, throw him in the middle of a time war. When he makes peace they don\u2019t seem pleased. In fact, his own people treat him like the enemy.See the book trailer at https://www.youtube.com/watch?v=gHmPs...Pilot X was Tom Merritt\u2019s National Novel Writing Month project in November 2014. Tom Merritt is the host of several podcasts about tech and geeky things.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 18,
-        "fiction": 25,
-        "novels": 3,
-        "science fiction": 67,
-        "science fiction (aliens)": 2,
-        "science fiction (time travel)": 24,
-        "science fiction fantasy": 5,
-        "space": 3,
-        "space (space opera)": 5,
-        "speculative fiction": 4
+  "author": "Tom Merritt",
+  "id": "181",
+  "description": "What would happen if a time traveler lived in a world where time could not easily be changed and if it was changed, it might destroy everything but himself?Pilot X just wants to fly a time ship. Specifically the Verity. But the Guardians of Alenda, rulers of his people, throw him in the middle of a time war. When he makes peace they don’t seem pleased. In fact, his own people treat him like the enemy.See the book trailer at https://www.youtube.com/watch?v=gHmPs...Pilot X was Tom Merritt’s National Novel Writing Month project in November 2014. Tom Merritt is the host of several podcasts about tech and geeky things.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "181_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "181_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "181_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "181_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "181_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "181_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "181_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "181_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1123,
-        "score": 3.69
+    {
+      "status": "available",
+      "stock_id": "181_2"
     },
-    "pages": 359,
-    "title": "Pilot X",
-    "url": "https://www.goodreads.com/book/show/29892325-pilot-x",
-    "year_published": 2017
+    {
+      "status": "available",
+      "stock_id": "181_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "181_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "181_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "181_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "181_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1123,
+    "score": 3.69
+  },
+  "pages": 359,
+  "title": "Pilot X",
+  "url": "https://www.goodreads.com/book/show/29892325-pilot-x",
+  "year_published": 2017
 }

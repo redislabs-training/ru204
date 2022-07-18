@@ -1,40 +1,40 @@
 {
-    "author": "Jasper Fforde",
-    "id": "2777",
-    "description": "In the good old days, magic was indispensable\u2014it could both save a kingdom and clear a clogged drain. But now magic is fading: drain cleaner is cheaper than a spell, and magic carpets are used for pizza delivery. Fifteen-year-old foundling Jennifer Strange runs Kazam, an employment agency for magicians\u2014but it\u2019s hard to stay in business when magic is drying up. And then the visions start, predicting the death of the world\u2019s last dragon at the hands of an unnamed Dragonslayer. If the visions are true, everything will change for Kazam\u2014and for Jennifer. Because something is coming. Something known as . . . Big Magic.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 111,
-        "fantasy": 1825,
-        "fantasy (dragons)": 257,
-        "fantasy (magic)": 180,
-        "fiction": 370,
-        "humor": 215,
-        "science fiction fantasy": 83,
-        "young adult": 743,
-        "young adult (teen)": 78,
-        "young adult (young adult fantasy)": 72
+  "author": "Jasper Fforde",
+  "id": "2777",
+  "description": "In the good old days, magic was indispensable—it could both save a kingdom and clear a clogged drain. But now magic is fading: drain cleaner is cheaper than a spell, and magic carpets are used for pizza delivery. Fifteen-year-old foundling Jennifer Strange runs Kazam, an employment agency for magicians—but it’s hard to stay in business when magic is drying up. And then the visions start, predicting the death of the world’s last dragon at the hands of an unnamed Dragonslayer. If the visions are true, everything will change for Kazam—and for Jennifer. Because something is coming. Something known as . . . Big Magic.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "2777_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "2777_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2777_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19683,
-        "score": 3.88
-    },
-    "pages": 1008,
-    "title": "The Last Dragonslayer",
-    "url": "https://www.goodreads.com/book/show/13316328-the-last-dragonslayer",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "2777_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19683,
+    "score": 3.88
+  },
+  "pages": 1008,
+  "title": "The Last Dragonslayer",
+  "url": "https://www.goodreads.com/book/show/13316328-the-last-dragonslayer",
+  "year_published": 2010
 }

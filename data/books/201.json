@@ -1,36 +1,36 @@
 {
-    "author": "Kenneth   Thomas",
-    "id": "201",
-    "description": "The Past is the first book in the VanWest series, about an Enforcer who lives in a dystopian Earth of the year 3000 and works for an authoritarian ruler called the Universal Council. Tasked with travelling through time to stop a renegade sect, that seeks to change Earth\u2019s past, he comes to learn about his dark origins and his unique ability.Falling in love with the daughter of its leader, he returns to the present to face a difficult choice, whether or not to save her. And be part of the New Beginning.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 77,
-        "european literature (british literature)": 75,
-        "fantasy": 44,
-        "fiction": 121,
-        "historical (historical fiction)": 114,
-        "science fiction": 230,
-        "science fiction (cyberpunk)": 108,
-        "science fiction (dystopia)": 214,
-        "science fiction (time travel)": 254,
-        "young adult": 49
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "201_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4446,
-        "score": 4.29
-    },
-    "pages": 1091,
-    "title": "The Past",
-    "url": "https://www.goodreads.com/book/show/53450218-the-past",
-    "year_published": 2020
+  "author": "Kenneth   Thomas",
+  "id": "201",
+  "description": "The Past is the first book in the VanWest series, about an Enforcer who lives in a dystopian Earth of the year 3000 and works for an authoritarian ruler called the Universal Council. Tasked with travelling through time to stop a renegade sect, that seeks to change Earth’s past, he comes to learn about his dark origins and his unique ability.Falling in love with the daughter of its leader, he returns to the present to face a difficult choice, whether or not to save her. And be part of the New Beginning.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "201_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4446,
+    "score": 4.29
+  },
+  "pages": 1091,
+  "title": "The Past",
+  "url": "https://www.goodreads.com/book/show/53450218-the-past",
+  "year_published": 2020
 }

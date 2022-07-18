@@ -1,58 +1,58 @@
 {
-    "author": "Anne McCaffrey",
-    "id": "892",
-    "description": "Jaxom, a rebellious young aristocrat, and Ruth, his white dragon, fly into another time to retrieve the queen's stolen egg, thereby averting a dragonrider war, and find their planet threatened once again by a Threadfall.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 39,
-        "adventure": 33,
-        "fantasy": 2588,
-        "fantasy (dragons)": 489,
-        "fantasy (high fantasy)": 41,
-        "fiction": 378,
-        "science fiction": 782,
-        "science fiction fantasy": 223,
-        "speculative fiction": 36,
-        "young adult": 64
+  "author": "Anne McCaffrey",
+  "id": "892",
+  "description": "Jaxom, a rebellious young aristocrat, and Ruth, his white dragon, fly into another time to retrieve the queen's stolen egg, thereby averting a dragonrider war, and find their planet threatened once again by a Threadfall.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "892_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "892_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "892_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "892_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "892_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "892_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "892_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "892_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 43076,
-        "score": 4.18
+    {
+      "status": "on_loan",
+      "stock_id": "892_2"
     },
-    "pages": 352,
-    "title": "The White Dragon",
-    "url": "https://www.goodreads.com/book/show/127586.The_White_Dragon",
-    "year_published": 1978
+    {
+      "status": "maintenance",
+      "stock_id": "892_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "892_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "892_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "892_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "892_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 43076,
+    "score": 4.18
+  },
+  "pages": 352,
+  "title": "The White Dragon",
+  "url": "https://www.goodreads.com/book/show/127586.The_White_Dragon",
+  "year_published": 1978
 }

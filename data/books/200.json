@@ -1,62 +1,62 @@
 {
-    "author": "Georgia Byng",
-    "id": "200",
-    "description": "Molly Moon meets . . . Molly Moon? In this third book in the wildly popular New York Times bestselling series, mesmerizing orphan Molly Moon and her fabulouspug, Petula, are off to India, where they discover a new twist in the potential power of hypnosis: time travel! With the book available in trade paperback for the first time, readers can experience Molly\u2019s adventure in an edition perfectly suited for time travel.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 16,
-        "childrens": 64,
-        "childrens (middle grade)": 35,
-        "fantasy": 112,
-        "fantasy (magic)": 11,
-        "fiction": 34,
-        "mystery": 8,
-        "science fiction": 12,
-        "science fiction (time travel)": 27,
-        "young adult": 21
+  "author": "Georgia Byng",
+  "id": "200",
+  "description": "Molly Moon meets . . . Molly Moon? In this third book in the wildly popular New York Times bestselling series, mesmerizing orphan Molly Moon and her fabulouspug, Petula, are off to India, where they discover a new twist in the potential power of hypnosis: time travel! With the book available in trade paperback for the first time, readers can experience Molly’s adventure in an edition perfectly suited for time travel.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "200_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "200_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "200_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "200_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "200_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "200_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "200_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "200_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "200_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5813,
-        "score": 3.83
+    {
+      "status": "maintenance",
+      "stock_id": "200_2"
     },
-    "pages": 303,
-    "title": "Molly Moon's Hypnotic Time Travel Adventure",
-    "url": "https://www.goodreads.com/book/show/799072.Molly_Moon_s_Hypnotic_Time_Travel_Adventure",
-    "year_published": 2004
+    {
+      "status": "maintenance",
+      "stock_id": "200_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "200_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "200_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "200_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "200_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "200_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5813,
+    "score": 3.83
+  },
+  "pages": 303,
+  "title": "Molly Moon's Hypnotic Time Travel Adventure",
+  "url": "https://www.goodreads.com/book/show/799072.Molly_Moon_s_Hypnotic_Time_Travel_Adventure",
+  "year_published": 2004
 }

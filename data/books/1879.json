@@ -1,34 +1,34 @@
 {
-    "author": "Neil Gaiman",
-    "id": "1879",
-    "description": "In Marvel 1602, award-winning writer Neil Gaiman presents a unique vision of the Marvel Universe set four hundred years in the past. Classic Marvel icons such as the X-Men, Spider-Man, the Fantastic Four and Daredevil appear in this intriguing world of 17th-century science and sorcery, instantly familiar to readers, yet subtly different in this new time. Marvel 1602 combines classic Marvel action and adventure with the historically accurate setting of Queen Elizabeth I's reign to create a unique series unlike any other published by Marvel Comics.Collecting Marvel 1602 #1-8 - penciled by andy Kubert and digitally painted by Richard Isanove, with covers by Scott McKowen.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 170,
-        "comics (superheroes)": 208,
-        "fantasy": 591,
-        "fiction": 337,
-        "graphic novels comics": 208,
-        "historical": 133,
-        "historical (historical fiction)": 222,
-        "sequential art (comics)": 1822,
-        "sequential art (graphic novels)": 1879,
-        "superheroes (marvel)": 309
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1879_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 54541,
-        "score": 3.94
-    },
-    "pages": 902,
-    "title": "Marvel 1602",
-    "url": "https://www.goodreads.com/book/show/15719.Marvel_1602",
-    "year_published": 2003
+  "author": "Neil Gaiman",
+  "id": "1879",
+  "description": "In Marvel 1602, award-winning writer Neil Gaiman presents a unique vision of the Marvel Universe set four hundred years in the past. Classic Marvel icons such as the X-Men, Spider-Man, the Fantastic Four and Daredevil appear in this intriguing world of 17th-century science and sorcery, instantly familiar to readers, yet subtly different in this new time. Marvel 1602 combines classic Marvel action and adventure with the historically accurate setting of Queen Elizabeth I's reign to create a unique series unlike any other published by Marvel Comics.Collecting Marvel 1602 #1-8 - penciled by andy Kubert and digitally painted by Richard Isanove, with covers by Scott McKowen.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "historical",
+    "historical (historical fiction)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1879_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 54541,
+    "score": 3.94
+  },
+  "pages": 902,
+  "title": "Marvel 1602",
+  "url": "https://www.goodreads.com/book/show/15719.Marvel_1602",
+  "year_published": 2003
 }

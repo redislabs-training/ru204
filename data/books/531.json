@@ -1,47 +1,47 @@
 {
-    "author": "Terry Pratchett",
-    "id": "531",
-    "description": "2070-71. Nearly six decades after Step Day and in the Long Earth, the new Next post-human society continues to evolve. For Joshua Valient\u00e9, now in his late sixties, it is time to take one last solo journey into the High Meggers: an adventure that turns into a disaster. Alone and facing death, his only hope of salvation lies with a group of trolls. But as Joshua confronts his mortality, the Long Earth receives a signal from the stars. A signal that is picked up by radio astronomers but also in more abstract ways \u2013 by the trolls and by the Great Traversers. Its message is simple but ts implications are enormous:JOIN US.The super-smart Next realise that the Message contains instructions on how to develop an immense artificial intelligence but to build it they have to seek help from throughout the industrious worlds of mankind. Bit by bit, byte by byte, they assemble a computer the size of a continent \u2013 a device that will alter the Long Earth\u2019s place within the cosmos and reveal the ultimate, life-affirming goal of those who sent the Message. Its impact will be felt by and resonate with all \u2013 mankind and other species, young and old, communities and individuals \u2013 who inhabit the Long Earths\u2026",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 13,
-        "audiobook": 23,
-        "european literature (british literature)": 6,
-        "fantasy": 72,
-        "fiction": 109,
-        "science fiction": 277,
-        "science fiction (alternate universe)": 4,
-        "science fiction fantasy": 10,
-        "space (space opera)": 4,
-        "speculative fiction": 9
+  "author": "Terry Pratchett",
+  "id": "531",
+  "description": "2070-71. Nearly six decades after Step Day and in the Long Earth, the new Next post-human society continues to evolve. For Joshua Valienté, now in his late sixties, it is time to take one last solo journey into the High Meggers: an adventure that turns into a disaster. Alone and facing death, his only hope of salvation lies with a group of trolls. But as Joshua confronts his mortality, the Long Earth receives a signal from the stars. A signal that is picked up by radio astronomers but also in more abstract ways – by the trolls and by the Great Traversers. Its message is simple but ts implications are enormous:JOIN US.The super-smart Next realise that the Message contains instructions on how to develop an immense artificial intelligence but to build it they have to seek help from throughout the industrious worlds of mankind. Bit by bit, byte by byte, they assemble a computer the size of a continent – a device that will alter the Long Earth’s place within the cosmos and reveal the ultimate, life-affirming goal of those who sent the Message. Its impact will be felt by and resonate with all – mankind and other species, young and old, communities and individuals – who inhabit the Long Earths…",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "european literature (british literature)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (alternate universe)",
+    "science fiction fantasy",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "531_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "531_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "531_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "531_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "531_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6875,
-        "score": 3.89
+    {
+      "status": "available",
+      "stock_id": "531_2"
     },
-    "pages": 734,
-    "title": "The Long Cosmos",
-    "url": "https://www.goodreads.com/book/show/25859268-the-long-cosmos",
-    "year_published": 2016
+    {
+      "status": "available",
+      "stock_id": "531_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "531_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6875,
+    "score": 3.89
+  },
+  "pages": 734,
+  "title": "The Long Cosmos",
+  "url": "https://www.goodreads.com/book/show/25859268-the-long-cosmos",
+  "year_published": 2016
 }

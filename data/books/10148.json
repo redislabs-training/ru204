@@ -1,44 +1,44 @@
 {
-    "author": "John Scalzi",
-    "id": "10148",
-    "description": "Ensign Andrew Dahl has just been assigned to the Universal Union Capital Ship Intrepid, flagship of the Universal Union since the year 2456. It\u2019s a prestige posting, and Andrew is thrilled all the more to be assigned to the ship\u2019s Xenobiology laboratory.Life couldn\u2019t be better\u2026until Andrew begins to pick up on the fact that: (1) every Away Mission involves some kind of lethal confrontation with alien forces (2) the ship\u2019s captain, its chief science officer, and the handsome Lieutenant Kerensky always survive these confrontations (3) at least one low-ranked crew member is, sadly, always killed.Not surprisingly, a great deal of energy below decks is expended on avoiding, at all costs, being assigned to an Away Mission. Then Andrew stumbles on information that completely transforms his and his colleagues\u2019 understanding of what the starship Intrepid really is\u2026and offers them a crazy, high-risk chance to save their own lives.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 346,
-        "fantasy": 219,
-        "fiction": 1160,
-        "humor": 971,
-        "humor (comedy)": 231,
-        "science fiction": 3600,
-        "science fiction (time travel)": 198,
-        "science fiction fantasy": 289,
-        "space": 119,
-        "space (space opera)": 130
+  "author": "John Scalzi",
+  "id": "10148",
+  "description": "Ensign Andrew Dahl has just been assigned to the Universal Union Capital Ship Intrepid, flagship of the Universal Union since the year 2456. It’s a prestige posting, and Andrew is thrilled all the more to be assigned to the ship’s Xenobiology laboratory.Life couldn’t be better…until Andrew begins to pick up on the fact that: (1) every Away Mission involves some kind of lethal confrontation with alien forces (2) the ship’s captain, its chief science officer, and the handsome Lieutenant Kerensky always survive these confrontations (3) at least one low-ranked crew member is, sadly, always killed.Not surprisingly, a great deal of energy below decks is expended on avoiding, at all costs, being assigned to an Away Mission. Then Andrew stumbles on information that completely transforms his and his colleagues’ understanding of what the starship Intrepid really is…and offers them a crazy, high-risk chance to save their own lives.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10148_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10148_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10148_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10148_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 88754,
-        "score": 3.85
+    {
+      "status": "maintenance",
+      "stock_id": "10148_2"
     },
-    "pages": 249,
-    "title": "Redshirts",
-    "url": "https://www.goodreads.com/book/show/13055592-redshirts",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "10148_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 88754,
+    "score": 3.85
+  },
+  "pages": 249,
+  "title": "Redshirts",
+  "url": "https://www.goodreads.com/book/show/13055592-redshirts",
+  "year_published": 2012
 }

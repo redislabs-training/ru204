@@ -1,59 +1,59 @@
 {
-    "author": "Robert Dickinson",
-    "id": "257",
-    "description": "\"Echoes of Bradbury and Orwell, in the service of a crackerjack conspiracy plot; a seductively intriguing work of speculative fiction.\" ---Kirkus\"A novel that's as fresh and compelling as it is high concept....Immensely enjoyable.\" ---SFX (four stars)THE FUTURE HAS ALREADY HAPPENED.It is expected to be an excursion like any other. There is nothing in the records to indicate that anything out of the ordinary will happen.A bus will take them to the mall. They will have an hour or so to look around. Perhaps buy something, or try the food.A minor traffic incident on the way back to the resort will provide some additional interest - but the tour rep has no reason to expect any trouble.Until he notices that one of his party is missing.Most disturbingly, she is a woman who, according to the records, did not go missing.Now she is a woman whose disappearance could change the world.With breathtaking plot twists that ricochet through time, this is the most ingenious conspiracy novel you will read this year.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 4,
-        "fantasy": 3,
-        "fiction": 25,
-        "mystery": 10,
-        "science fiction": 41,
-        "science fiction (dystopia)": 3,
-        "science fiction (time travel)": 26,
-        "science fiction fantasy": 3,
-        "thriller": 12,
-        "thriller (mystery thriller)": 3
+  "author": "Robert Dickinson",
+  "id": "257",
+  "description": "\"Echoes of Bradbury and Orwell, in the service of a crackerjack conspiracy plot; a seductively intriguing work of speculative fiction.\" ---Kirkus\"A novel that's as fresh and compelling as it is high concept....Immensely enjoyable.\" ---SFX (four stars)THE FUTURE HAS ALREADY HAPPENED.It is expected to be an excursion like any other. There is nothing in the records to indicate that anything out of the ordinary will happen.A bus will take them to the mall. They will have an hour or so to look around. Perhaps buy something, or try the food.A minor traffic incident on the way back to the resort will provide some additional interest - but the tour rep has no reason to expect any trouble.Until he notices that one of his party is missing.Most disturbingly, she is a woman who, according to the records, did not go missing.Now she is a woman whose disappearance could change the world.With breathtaking plot twists that ricochet through time, this is the most ingenious conspiracy novel you will read this year.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "257_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "257_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "257_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "257_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "257_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "257_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "257_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "257_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 915,
-        "score": 2.63
+    {
+      "status": "available",
+      "stock_id": "257_2"
     },
-    "pages": 676,
-    "title": "The Tourist",
-    "url": "https://www.goodreads.com/book/show/29467314-the-tourist",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "257_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "257_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "257_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "257_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "257_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 915,
+    "score": 2.63
+  },
+  "pages": 676,
+  "title": "The Tourist",
+  "url": "https://www.goodreads.com/book/show/29467314-the-tourist",
+  "year_published": 2016
 }

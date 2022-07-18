@@ -1,39 +1,39 @@
 {
-    "author": "Jos\u00e9 Saramago",
-    "id": "16984",
-    "description": "From Nobel Prize\u2013winning author Jos\u00e9 Saramago, a magnificent, mesmerizing parable of lossA city is hit by an epidemic of \"white blindness\" that spares no one. Authorities confine the blind to an empty mental hospital, but there the criminal element holds everyone captive, stealing food rations, and assaulting women. There is one eyewitness to this nightmare who guides her charges\u2014among them a boy with no mother, a girl with dark glasses, a dog of tears\u2014through the barren streets, and their procession becomes as uncanny as the surroundings are harrowing. As Blindness reclaims the age-old story of a plague, it evokes the vivid and trembling horrors of the twentieth century, leaving readers with a powerful vision of the human spirit that's bound both by weakness and exhilarating strength.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 556,
-        "contemporary": 227,
-        "cultural (portugal)": 341,
-        "european literature (portuguese literature)": 287,
-        "fiction": 3707,
-        "horror": 323,
-        "literature": 456,
-        "novels": 487,
-        "science fiction": 826,
-        "science fiction (dystopia)": 908
+  "author": "José Saramago",
+  "id": "16984",
+  "description": "From Nobel Prize–winning author José Saramago, a magnificent, mesmerizing parable of lossA city is hit by an epidemic of \"white blindness\" that spares no one. Authorities confine the blind to an empty mental hospital, but there the criminal element holds everyone captive, stealing food rations, and assaulting women. There is one eyewitness to this nightmare who guides her charges—among them a boy with no mother, a girl with dark glasses, a dog of tears—through the barren streets, and their procession becomes as uncanny as the surroundings are harrowing. As Blindness reclaims the age-old story of a plague, it evokes the vivid and trembling horrors of the twentieth century, leaving readers with a powerful vision of the human spirit that's bound both by weakness and exhilarating strength.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "contemporary",
+    "cultural (portugal)",
+    "european literature (portuguese literature)",
+    "fiction",
+    "horror",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "16984_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "16984_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16984_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 209881,
-        "score": 4.14
-    },
-    "pages": 1204,
-    "title": "Blindness",
-    "url": "https://www.goodreads.com/book/show/40495148-blindness",
-    "year_published": 1995
+    {
+      "status": "on_loan",
+      "stock_id": "16984_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 209881,
+    "score": 4.14
+  },
+  "pages": 1204,
+  "title": "Blindness",
+  "url": "https://www.goodreads.com/book/show/40495148-blindness",
+  "year_published": 1995
 }

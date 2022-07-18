@@ -1,42 +1,42 @@
 {
-    "author": "Martha Wells",
-    "id": "3365",
-    "description": "SciFi\u2019s favorite antisocial A.I. is again on a mission. The case against the too-big-to-fail GrayCris Corporation is floundering, and more importantly, authorities are beginning to ask more questions about where Dr. Mensah\u2019s SecUnit is.And Murderbot would rather those questions went away. For good.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 131,
-        "audiobook": 147,
-        "fiction": 534,
-        "novella": 488,
-        "science fiction": 1743,
-        "science fiction (robots)": 77,
-        "science fiction fantasy": 97,
-        "short stories": 62,
-        "space": 98,
-        "space (space opera)": 97
+  "author": "Martha Wells",
+  "id": "3365",
+  "description": "SciFi’s favorite antisocial A.I. is again on a mission. The case against the too-big-to-fail GrayCris Corporation is floundering, and more importantly, authorities are beginning to ask more questions about where Dr. Mensah’s SecUnit is.And Murderbot would rather those questions went away. For good.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "short stories",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3365_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3365_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3365_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3365_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 35754,
-        "score": 4.27
+    {
+      "status": "maintenance",
+      "stock_id": "3365_2"
     },
-    "pages": 551,
-    "title": "Rogue Protocol",
-    "url": "https://www.goodreads.com/book/show/35519101-rogue-protocol",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "3365_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 35754,
+    "score": 4.27
+  },
+  "pages": 551,
+  "title": "Rogue Protocol",
+  "url": "https://www.goodreads.com/book/show/35519101-rogue-protocol",
+  "year_published": 2018
 }

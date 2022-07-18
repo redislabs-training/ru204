@@ -1,58 +1,58 @@
 {
-    "author": "John Wray",
-    "id": "247",
-    "description": "In his ambitious and fiercely inventive new novel, The Lost Time Accidents, John Wray takes us from turn-of-the-century Viennese salons buzzing with rumors about Einstein's radical new theory to the death camps of World War Two, from the golden age of postwar pulp science fiction to a startling discovery in a Manhattan apartment packed to the ceiling with artifacts of modern life.Haunted by a failed love affair and the darkest of family secrets, Waldemar 'Waldy' Tolliver wakes one morning to discover that he has been exiled from the flow of time. The world continues to turn, and Waldy is desperate to find his way back-a journey that forces him to reckon not only with the betrayal at the heart of his doomed romance but also the legacy of his great-grandfather's fatal pursuit of the hidden nature of time itself.Part madcap adventure, part harrowing family drama, part scientific mystery--and never less than wildly entertaining--The Lost Time Accidents is a bold and epic saga set against the greatest upheavals of the twentieth century.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "contemporary": 5,
-        "fantasy": 17,
-        "fiction": 101,
-        "historical (historical fiction)": 34,
-        "literary fiction": 5,
-        "mystery": 6,
-        "science fiction": 64,
-        "science fiction (time travel)": 53,
-        "science fiction fantasy": 7,
-        "unfinished": 5
+  "author": "John Wray",
+  "id": "247",
+  "description": "In his ambitious and fiercely inventive new novel, The Lost Time Accidents, John Wray takes us from turn-of-the-century Viennese salons buzzing with rumors about Einstein's radical new theory to the death camps of World War Two, from the golden age of postwar pulp science fiction to a startling discovery in a Manhattan apartment packed to the ceiling with artifacts of modern life.Haunted by a failed love affair and the darkest of family secrets, Waldemar 'Waldy' Tolliver wakes one morning to discover that he has been exiled from the flow of time. The world continues to turn, and Waldy is desperate to find his way back-a journey that forces him to reckon not only with the betrayal at the heart of his doomed romance but also the legacy of his great-grandfather's fatal pursuit of the hidden nature of time itself.Part madcap adventure, part harrowing family drama, part scientific mystery--and never less than wildly entertaining--The Lost Time Accidents is a bold and epic saga set against the greatest upheavals of the twentieth century.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literary fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "unfinished"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "247_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "247_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "247_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "247_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "247_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "247_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "247_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "247_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1333,
-        "score": 3.23
+    {
+      "status": "maintenance",
+      "stock_id": "247_2"
     },
-    "pages": 1326,
-    "title": "The Lost Time Accidents",
-    "url": "https://www.goodreads.com/book/show/25666067-the-lost-time-accidents",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "247_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "247_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "247_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "247_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "247_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1333,
+    "score": 3.23
+  },
+  "pages": 1326,
+  "title": "The Lost Time Accidents",
+  "url": "https://www.goodreads.com/book/show/25666067-the-lost-time-accidents",
+  "year_published": 2016
 }

@@ -1,44 +1,44 @@
 {
-    "author": "John Scalzi",
-    "id": "1544",
-    "description": "Following the events of The Last Colony, John Scalzi tells the story of the fight to maintain the unity of the human race.The people of Earth now know that the human Colonial Union has kept them ignorant of the dangerous universe around them. For generations the CU had defended humanity against hostile aliens, deliberately keeping Earth an ignorant backwater and a source of military recruits. Now the CU's secrets are known to all. Other alien races have come on the scene and formed a new alliance\u2014an alliance against the Colonial Union. And they've invited the people of Earth to join them. For a shaken and betrayed Earth, the choice isn't obvious or easy.Against such possibilities, managing the survival of the Colonial Union won't be easy, either. It will take diplomatic finesse, political cunning\u2026and a brilliant \"B Team,\" centered on the resourceful Lieutenant Harry Wilson, that can be deployed to deal with the unpredictable and unexpected things the universe throws at you when you're struggling to preserve the unity of the human race.Being published online from January to April 2013 as a three-month digital serial, The Human Division will appear as a full-length novel of the Old Man's War universe, plus\u2014for the first time in print\u2014the first tale of Lieutenant Harry Wilson, and a coda that wasn't part of the digital serialization.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 52,
-        "fiction": 217,
-        "science fiction": 1024,
-        "science fiction (aliens)": 28,
-        "science fiction (military science fiction)": 23,
-        "science fiction fantasy": 47,
-        "short stories": 32,
-        "space": 43,
-        "space (space opera)": 142,
-        "war (military fiction)": 34
+  "author": "John Scalzi",
+  "id": "1544",
+  "description": "Following the events of The Last Colony, John Scalzi tells the story of the fight to maintain the unity of the human race.The people of Earth now know that the human Colonial Union has kept them ignorant of the dangerous universe around them. For generations the CU had defended humanity against hostile aliens, deliberately keeping Earth an ignorant backwater and a source of military recruits. Now the CU's secrets are known to all. Other alien races have come on the scene and formed a new alliance—an alliance against the Colonial Union. And they've invited the people of Earth to join them. For a shaken and betrayed Earth, the choice isn't obvious or easy.Against such possibilities, managing the survival of the Colonial Union won't be easy, either. It will take diplomatic finesse, political cunning…and a brilliant \"B Team,\" centered on the resourceful Lieutenant Harry Wilson, that can be deployed to deal with the unpredictable and unexpected things the universe throws at you when you're struggling to preserve the unity of the human race.Being published online from January to April 2013 as a three-month digital serial, The Human Division will appear as a full-length novel of the Old Man's War universe, plus—for the first time in print—the first tale of Lieutenant Harry Wilson, and a coda that wasn't part of the digital serialization.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (military science fiction)",
+    "science fiction fantasy",
+    "short stories",
+    "space",
+    "space (space opera)",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1544_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1544_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1544_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1544_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 28234,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "1544_2"
     },
-    "pages": 1338,
-    "title": "The Human Division",
-    "url": "https://www.goodreads.com/book/show/15698479-the-human-division",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "1544_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 28234,
+    "score": 4.08
+  },
+  "pages": 1338,
+  "title": "The Human Division",
+  "url": "https://www.goodreads.com/book/show/15698479-the-human-division",
+  "year_published": 2013
 }

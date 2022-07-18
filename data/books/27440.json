@@ -1,35 +1,35 @@
 {
-    "author": "Bram Stoker",
-    "id": "27440",
-    "description": "You can find an alternative cover edition for this ISBN here and here.A rich selection of background and source materials is provided in three areas: Contexts includes probable inspirations for Dracula in the earlier works of James Malcolm Rymer and Emily Gerard. Also included are a discussion of Stoker's working notes for the novel and \"Dracula's Guest,\" the original opening chapter to Dracula. Reviews and Reactions reprints five early reviews of the novel. \"Dramatic and Film Variations\" focuses on theater and film adaptations of Dracula, two indications of the novel's unwavering appeal. David J. Skal, Gregory A. Waller, and Nina Auerbach offer their varied perspectives. Checklists of both dramatic and film adaptations are included.Criticism collects seven theoretical interpretations of Dracula by Phyllis A. Roth, Carol A. Senf, Franco Moretti, Christopher Craft, Bram Dijkstra, Stephen D. Arata, and Talia Schaffer.A Chronology and a Selected Bibliography are included.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 739,
-        "classics": 21336,
-        "fantasy": 4734,
-        "fantasy (paranormal)": 1173,
-        "fiction": 7205,
-        "gothic": 2208,
-        "horror": 11358,
-        "literature": 1108,
-        "literature (19th century)": 679,
-        "paranormal (vampires)": 2979
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "27440_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 971374,
-        "score": 4.0
-    },
-    "pages": 299,
-    "title": "Dracula",
-    "url": "https://www.goodreads.com/book/show/17245.Dracula",
-    "year_published": 1897
+  "author": "Bram Stoker",
+  "id": "27440",
+  "description": "You can find an alternative cover edition for this ISBN here and here.A rich selection of background and source materials is provided in three areas: Contexts includes probable inspirations for Dracula in the earlier works of James Malcolm Rymer and Emily Gerard. Also included are a discussion of Stoker's working notes for the novel and \"Dracula's Guest,\" the original opening chapter to Dracula. Reviews and Reactions reprints five early reviews of the novel. \"Dramatic and Film Variations\" focuses on theater and film adaptations of Dracula, two indications of the novel's unwavering appeal. David J. Skal, Gregory A. Waller, and Nina Auerbach offer their varied perspectives. Checklists of both dramatic and film adaptations are included.Criticism collects seven theoretical interpretations of Dracula by Phyllis A. Roth, Carol A. Senf, Franco Moretti, Christopher Craft, Bram Dijkstra, Stephen D. Arata, and Talia Schaffer.A Chronology and a Selected Bibliography are included.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "gothic",
+    "horror",
+    "literature",
+    "literature (19th century)",
+    "paranormal (vampires)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "27440_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 971374,
+    "score": 4
+  },
+  "pages": 299,
+  "title": "Dracula",
+  "url": "https://www.goodreads.com/book/show/17245.Dracula",
+  "year_published": 1897
 }

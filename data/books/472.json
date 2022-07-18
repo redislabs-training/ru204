@@ -1,47 +1,47 @@
 {
-    "author": "Jodi Taylor",
-    "id": "472",
-    "description": "'I've done some stupid things in my time. I've been reckless. I've broken a few rules. But never before have I ruined so many lives or left such a trail of destruction behind me.'As Max would be the first to admit, she's never been one for rules. They tend to happen to other people. But this time she's gone too far and everyone is paying the price.Grounded until the end of time, how can she ever put things right?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 36,
-        "audiobook": 37,
-        "fantasy": 125,
-        "fiction": 82,
-        "historical": 39,
-        "historical (historical fiction)": 91,
-        "humor": 35,
-        "science fiction": 114,
-        "science fiction (time travel)": 186,
-        "science fiction fantasy": 21
+  "author": "Jodi Taylor",
+  "id": "472",
+  "description": "'I've done some stupid things in my time. I've been reckless. I've broken a few rules. But never before have I ruined so many lives or left such a trail of destruction behind me.'As Max would be the first to admit, she's never been one for rules. They tend to happen to other people. But this time she's gone too far and everyone is paying the price.Grounded until the end of time, how can she ever put things right?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "humor",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "472_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "472_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "472_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "472_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "472_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6815,
-        "score": 4.42
+    {
+      "status": "on_loan",
+      "stock_id": "472_2"
     },
-    "pages": 788,
-    "title": "Lies, Damned Lies, and History",
-    "url": "https://www.goodreads.com/book/show/26308512-lies-damned-lies-and-history",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "472_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "472_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6815,
+    "score": 4.42
+  },
+  "pages": 788,
+  "title": "Lies, Damned Lies, and History",
+  "url": "https://www.goodreads.com/book/show/26308512-lies-damned-lies-and-history",
+  "year_published": 2016
 }

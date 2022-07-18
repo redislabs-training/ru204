@@ -1,58 +1,58 @@
 {
-    "author": "Norton Juster",
-    "id": "10598",
-    "description": "Librarian's Note: For an alternate cover edition of the same ISBN, click here.Tthis beloved story -first published more than fifty years ago- introduces readers to Milo and his adventures in the Lands Beyond. For Milo, everything\u2019s a bore. When a tollbooth mysteriously appears in his room, he drives through only because he\u2019s got nothing better to do. But on the other side, things seem different. Milo visits the Island of Conclusions (you get there by jumping), learns about time from a ticking watchdog named Tock, and even embarks on a quest to rescue Rhyme and Reason! Somewhere along the way, Milo realizes something astonishing. Life is far from dull. In fact, it\u2019s exciting beyond his wildest dreams. . . .",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 610,
-        "childrens": 2012,
-        "childrens (juvenile)": 240,
-        "childrens (middle grade)": 949,
-        "classics": 1905,
-        "fantasy": 3944,
-        "fiction": 2434,
-        "humor": 364,
-        "science fiction fantasy": 278,
-        "young adult": 1442
+  "author": "Norton Juster",
+  "id": "10598",
+  "description": "Librarian's Note: For an alternate cover edition of the same ISBN, click here.Tthis beloved story -first published more than fifty years ago- introduces readers to Milo and his adventures in the Lands Beyond. For Milo, everything’s a bore. When a tollbooth mysteriously appears in his room, he drives through only because he’s got nothing better to do. But on the other side, things seem different. Milo visits the Island of Conclusions (you get there by jumping), learns about time from a ticking watchdog named Tock, and even embarks on a quest to rescue Rhyme and Reason! Somewhere along the way, Milo realizes something astonishing. Life is far from dull. In fact, it’s exciting beyond his wildest dreams. . . .",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "10598_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "10598_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10598_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10598_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10598_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10598_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "10598_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10598_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 253218,
-        "score": 4.18
+    {
+      "status": "available",
+      "stock_id": "10598_2"
     },
-    "pages": 424,
-    "title": "The Phantom Tollbooth",
-    "url": "https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth",
-    "year_published": 1961
+    {
+      "status": "on_loan",
+      "stock_id": "10598_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10598_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10598_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "10598_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10598_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 253218,
+    "score": 4.18
+  },
+  "pages": 424,
+  "title": "The Phantom Tollbooth",
+  "url": "https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth",
+  "year_published": 1961
 }

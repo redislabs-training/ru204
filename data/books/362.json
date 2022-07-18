@@ -1,38 +1,38 @@
 {
-    "author": "Ted Bell",
-    "id": "362",
-    "description": "\nThe setting is England, 1939, on the eve of war. Nick and his sister, Kate, begin gathering vital information for Winston Churchill as he tries to warn England of the imminent Nazi invasion. But the Nazis become the least of Nick\u2019s problems after he discovers a time machine hidden in a cove. Unfortunately, the evil pirate Captain Billy Blood, who travels through time capturing little children and holding them for ransom, will stop at nothing to possess the priceless machine. With the help of Lord Hawke, whose children have been taken by Blood, Nick must fight the ruthless pirate on land and sea in two different centuries in a desperate attempt to save his home and his family from being utterly destroyed.\nBook Details: \n   Format: Paperback \n   Publication Date: 9/1/2009 \n   Pages: 464 \n   Reading Level: Age 10 and Up \n ",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 34,
-        "childrens": 17,
-        "childrens (middle grade)": 10,
-        "fantasy": 45,
-        "fiction": 31,
-        "historical": 15,
-        "historical (historical fiction)": 54,
-        "science fiction": 16,
-        "science fiction (time travel)": 38,
-        "young adult": 31
+  "author": "Ted Bell",
+  "id": "362",
+  "description": "\nThe setting is England, 1939, on the eve of war. Nick and his sister, Kate, begin gathering vital information for Winston Churchill as he tries to warn England of the imminent Nazi invasion. But the Nazis become the least of Nick’s problems after he discovers a time machine hidden in a cove. Unfortunately, the evil pirate Captain Billy Blood, who travels through time capturing little children and holding them for ransom, will stop at nothing to possess the priceless machine. With the help of Lord Hawke, whose children have been taken by Blood, Nick must fight the ruthless pirate on land and sea in two different centuries in a desperate attempt to save his home and his family from being utterly destroyed.\nBook Details: \n   Format: Paperback \n   Publication Date: 9/1/2009 \n   Pages: 464 \n   Reading Level: Age 10 and Up \n ",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "362_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "362_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "362_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2087,
-        "score": 3.89
-    },
-    "pages": 359,
-    "title": "Nick of Time",
-    "url": "https://www.goodreads.com/book/show/2278470.Nick_of_Time",
-    "year_published": 2000
+    {
+      "status": "available",
+      "stock_id": "362_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2087,
+    "score": 3.89
+  },
+  "pages": 359,
+  "title": "Nick of Time",
+  "url": "https://www.goodreads.com/book/show/2278470.Nick_of_Time",
+  "year_published": 2000
 }

@@ -1,38 +1,38 @@
 {
-    "author": "Gene Doucette",
-    "id": "469",
-    "description": "When a spaceship lands in Sorrow Falls, a lovable and fearless small-town girl is the planet\u2019s only hope for survival \u00a0 Three years ago, a spaceship landed in an open field in the quiet mill town of Sorrow Falls, Massachusetts. It never opened its doors, and for all that time, the townspeople have wondered why the ship landed there, and what\u2014or who\u2014could be inside. Then one day a government operative\u2014posing as a journalist\u2014arrives in town, asking questions. He discovers sixteen-year-old Annie Collins, one of the ship\u2019s closest neighbors and a local fixture known throughout the town, who has some of the answers. As a matter of fact, Annie Collins might be the most important person on the planet. She just doesn\u2019t know it.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 30,
-        "fantasy": 9,
-        "fiction": 51,
-        "humor": 8,
-        "mystery": 7,
-        "science fiction": 149,
-        "science fiction (aliens)": 20,
-        "science fiction fantasy": 7,
-        "space": 6,
-        "young adult": 49
+  "author": "Gene Doucette",
+  "id": "469",
+  "description": "When a spaceship lands in Sorrow Falls, a lovable and fearless small-town girl is the planet’s only hope for survival   Three years ago, a spaceship landed in an open field in the quiet mill town of Sorrow Falls, Massachusetts. It never opened its doors, and for all that time, the townspeople have wondered why the ship landed there, and what—or who—could be inside. Then one day a government operative—posing as a journalist—arrives in town, asking questions. He discovers sixteen-year-old Annie Collins, one of the ship’s closest neighbors and a local fixture known throughout the town, who has some of the answers. As a matter of fact, Annie Collins might be the most important person on the planet. She just doesn’t know it.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "mystery",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "469_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "469_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "469_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3458,
-        "score": 3.99
-    },
-    "pages": 262,
-    "title": "The Spaceship Next Door",
-    "url": "https://www.goodreads.com/book/show/38242137-the-spaceship-next-door",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "469_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3458,
+    "score": 3.99
+  },
+  "pages": 262,
+  "title": "The Spaceship Next Door",
+  "url": "https://www.goodreads.com/book/show/38242137-the-spaceship-next-door",
+  "year_published": 2015
 }

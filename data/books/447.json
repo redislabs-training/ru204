@@ -1,64 +1,64 @@
 {
-    "author": "Charles Stross",
-    "id": "447",
-    "description": "Alex Schwartz had a promising future - until he contracted an unfortunate bout of vampirism, and agreed (on pain of death) to join the Laundry, Britain's only counter-occult secret agency.His first assignment is in Leeds - his old hometown. The thought of telling his parents that he's lost his old job, let alone them finding out about his 'condition', is causing Alex more anxiety than learning how to live as a vampire secret agent preparing to confront multiple apocalypses.His only saving grace is Cassie Brewer, a student appearing in the local Goth Festival, who flirts with him despite his awkward personality and massive amounts of sunblock.But Cassie has secrets of her own - secrets that make Alex's night life seem positively normal . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 12,
-        "fantasy": 172,
-        "fantasy (urban fantasy)": 54,
-        "fiction": 69,
-        "horror": 114,
-        "horror (lovecraftian)": 18,
-        "humor": 19,
-        "paranormal (vampires)": 16,
-        "science fiction": 62,
-        "spy thriller (espionage)": 11
+  "author": "Charles Stross",
+  "id": "447",
+  "description": "Alex Schwartz had a promising future - until he contracted an unfortunate bout of vampirism, and agreed (on pain of death) to join the Laundry, Britain's only counter-occult secret agency.His first assignment is in Leeds - his old hometown. The thought of telling his parents that he's lost his old job, let alone them finding out about his 'condition', is causing Alex more anxiety than learning how to live as a vampire secret agent preparing to confront multiple apocalypses.His only saving grace is Cassie Brewer, a student appearing in the local Goth Festival, who flirts with him despite his awkward personality and massive amounts of sunblock.But Cassie has secrets of her own - secrets that make Alex's night life seem positively normal . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "horror (lovecraftian)",
+    "humor",
+    "paranormal (vampires)",
+    "science fiction",
+    "spy thriller (espionage)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "447_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "447_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "447_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "447_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "447_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "447_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "447_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "447_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "447_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5485,
-        "score": 4.23
+    {
+      "status": "on_loan",
+      "stock_id": "447_2"
     },
-    "pages": 411,
-    "title": "The Nightmare Stacks",
-    "url": "https://www.goodreads.com/book/show/24997064-the-nightmare-stacks",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "447_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "447_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "447_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "447_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "447_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "447_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5485,
+    "score": 4.23
+  },
+  "pages": 411,
+  "title": "The Nightmare Stacks",
+  "url": "https://www.goodreads.com/book/show/24997064-the-nightmare-stacks",
+  "year_published": 2016
 }

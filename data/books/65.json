@@ -1,61 +1,61 @@
 {
-    "author": "Poul Anderson",
-    "id": "65",
-    "description": "A power struggle for time itself.The corridors of time connect the ages to each other. Through them, one can travel backwards and forwards over the history of man. But rival factions have waged war for centuries.... Malcolm is an ordinary man of today, caught up in a time war beyond his comprehension....Cover Illustration by Anthony Roberts.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 3,
-        "fiction": 17,
-        "literature (american)": 2,
-        "science fiction": 96,
-        "science fiction (time travel)": 34,
-        "science fiction fantasy": 7,
-        "speculative fiction": 4
+  "author": "Poul Anderson",
+  "id": "65",
+  "description": "A power struggle for time itself.The corridors of time connect the ages to each other. Through them, one can travel backwards and forwards over the history of man. But rival factions have waged war for centuries.... Malcolm is an ordinary man of today, caught up in a time war beyond his comprehension....Cover Illustration by Anthony Roberts.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "65_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "65_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "65_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "65_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "65_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "65_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "65_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "65_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "65_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 790,
-        "score": 3.62
+    {
+      "status": "on_loan",
+      "stock_id": "65_2"
     },
-    "pages": 450,
-    "title": "The Corridors of Time",
-    "url": "https://www.goodreads.com/book/show/890300.The_Corridors_of_Time",
-    "year_published": 1965
+    {
+      "status": "maintenance",
+      "stock_id": "65_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "65_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "65_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "65_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "65_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "65_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 790,
+    "score": 3.62
+  },
+  "pages": 450,
+  "title": "The Corridors of Time",
+  "url": "https://www.goodreads.com/book/show/890300.The_Corridors_of_Time",
+  "year_published": 1965
 }

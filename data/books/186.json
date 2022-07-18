@@ -1,59 +1,59 @@
 {
-    "author": "Jacqueline Rayner",
-    "id": "186",
-    "description": "Rose and the Doctor return to present-day Earth, and become intrigued by the latest craze \u2013 the video game, Death to Mantodeans. Is it as harmless as it seems? And why are so many local people going on holiday and never returning? Meanwhile, on another world, an alien war is raging. The Quevvils need to find a new means of attacking the ruthless Mantodeans.Searching the galaxy for cunning, warlike but gullible allies, they find the ideal soldiers on Earth. Will Rose be able to save her family and friends from the alien threat? And can the Doctor play the game to the end and win?Featuring the Ninth Doctor and Rose as played by Christopher Eccleston and Billie Piper in the hit science fiction series from BBC Television",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 10,
-        "audiobook": 11,
-        "fantasy": 33,
-        "fiction": 51,
-        "media tie in": 13,
-        "media tie in (doctor who)": 394,
-        "science fiction": 137,
-        "science fiction (aliens)": 7,
-        "science fiction (time travel)": 27,
-        "science fiction fantasy": 8
+  "author": "Jacqueline Rayner",
+  "id": "186",
+  "description": "Rose and the Doctor return to present-day Earth, and become intrigued by the latest craze – the video game, Death to Mantodeans. Is it as harmless as it seems? And why are so many local people going on holiday and never returning? Meanwhile, on another world, an alien war is raging. The Quevvils need to find a new means of attacking the ruthless Mantodeans.Searching the galaxy for cunning, warlike but gullible allies, they find the ideal soldiers on Earth. Will Rose be able to save her family and friends from the alien threat? And can the Doctor play the game to the end and win?Featuring the Ninth Doctor and Rose as played by Christopher Eccleston and Billie Piper in the hit science fiction series from BBC Television",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "186_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "186_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "186_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "186_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "186_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "186_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "186_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "186_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2200,
-        "score": 3.78
+    {
+      "status": "available",
+      "stock_id": "186_2"
     },
-    "pages": 280,
-    "title": "Doctor Who: Winner Takes All",
-    "url": "https://www.goodreads.com/book/show/678080.Doctor_Who",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "186_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "186_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "186_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "186_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "186_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2200,
+    "score": 3.78
+  },
+  "pages": 280,
+  "title": "Doctor Who: Winner Takes All",
+  "url": "https://www.goodreads.com/book/show/678080.Doctor_Who",
+  "year_published": 2005
 }

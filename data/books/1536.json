@@ -1,55 +1,55 @@
 {
-    "author": "Tom Sweterlitsch",
-    "id": "1536",
-    "description": "\u201cI promise you have never read a story like this.\u201d \u2014Blake Crouch, New York Times bestselling author of Dark MatterInception meets True Detective in this science fiction thriller of spellbinding tension and staggering scope that follows a special agent into a savage murder case with grave implications for the fate of mankind...Shannon Moss is part of a clandestine division within the Naval Criminal Investigative Service. In western Pennsylvania, 1997, she is assigned to solve the murder of a Navy SEAL's family--and to locate his vanished teenage daughter. Though she can't share the information with conventional law enforcement, Moss discovers that the missing SEAL was an astronaut aboard the spaceship U.S.S. Libra\u2014a ship assumed lost to the currents of Deep Time. Moss knows first-hand the mental trauma of time-travel and believes the SEAL's experience with the future has triggered this violence.Determined to find the missing girl and driven by a troubling connection from her own past, Moss travels ahead in time to explore possible versions of the future, seeking evidence to crack the present-day case. To her horror, the future reveals that it's not only the fate of a family that hinges on her work, for what she witnesses rising over time's horizon and hurtling toward the present is the Terminus: the terrifying and cataclysmic end of humanity itself.Luminous and unsettling, The Gone World bristles with world-shattering ideas yet remains at its heart an intensely human story.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 31,
-        "fiction": 257,
-        "horror": 108,
-        "mystery": 202,
-        "mystery (crime)": 50,
-        "science fiction": 511,
-        "science fiction (time travel)": 220,
-        "science fiction fantasy": 27,
-        "thriller": 165,
-        "thriller (mystery thriller)": 42
+  "author": "Tom Sweterlitsch",
+  "id": "1536",
+  "description": "“I promise you have never read a story like this.” —Blake Crouch, New York Times bestselling author of Dark MatterInception meets True Detective in this science fiction thriller of spellbinding tension and staggering scope that follows a special agent into a savage murder case with grave implications for the fate of mankind...Shannon Moss is part of a clandestine division within the Naval Criminal Investigative Service. In western Pennsylvania, 1997, she is assigned to solve the murder of a Navy SEAL's family--and to locate his vanished teenage daughter. Though she can't share the information with conventional law enforcement, Moss discovers that the missing SEAL was an astronaut aboard the spaceship U.S.S. Libra—a ship assumed lost to the currents of Deep Time. Moss knows first-hand the mental trauma of time-travel and believes the SEAL's experience with the future has triggered this violence.Determined to find the missing girl and driven by a troubling connection from her own past, Moss travels ahead in time to explore possible versions of the future, seeking evidence to crack the present-day case. To her horror, the future reveals that it's not only the fate of a family that hinges on her work, for what she witnesses rising over time's horizon and hurtling toward the present is the Terminus: the terrifying and cataclysmic end of humanity itself.Luminous and unsettling, The Gone World bristles with world-shattering ideas yet remains at its heart an intensely human story.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "horror",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1536_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1536_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1536_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1536_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1536_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1536_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1536_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11008,
-        "score": 3.95
+    {
+      "status": "available",
+      "stock_id": "1536_2"
     },
-    "pages": 575,
-    "title": "The Gone World",
-    "url": "https://www.goodreads.com/book/show/33413556-the-gone-world",
-    "year_published": 2018
+    {
+      "status": "available",
+      "stock_id": "1536_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1536_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1536_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1536_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11008,
+    "score": 3.95
+  },
+  "pages": 575,
+  "title": "The Gone World",
+  "url": "https://www.goodreads.com/book/show/33413556-the-gone-world",
+  "year_published": 2018
 }

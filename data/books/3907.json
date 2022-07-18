@@ -1,48 +1,48 @@
 {
-    "author": "Max Brooks",
-    "id": "3907",
-    "description": "The Zombie Survival Guide is your key to survival against the hordes of undead who may be stalking you right now. Fully illustrated and exhaustively comprehensive, this book covers everything you need to know, including how to understand zombie physiology and behavior, the most effective defense tactics and weaponry, ways to outfit your home for a long siege, and how to survive and adapt in any territory or terrain.Top 10 Lessons for Surviving a Zombie Attack 1. Organize before they rise! 2. They feel no fear, why should you?3. Use your head: cut off theirs.4. Blades don\u2019t need reloading.5. Ideal protection = tight clothes, short hair.6. Get up the staircase, then destroy it. 7. Get out of the car, get onto the bike.8. Keep moving, keep low, keep quiet, keep alert!9. No place is safe, only safer. 10. The zombie may be gone, but the threat lives on. Don\u2019t be carefree and foolish with your most precious asset\u2014life. This book is your key to survival against the hordes of undead who may be stalking you right now without your even knowing it. The Zombie Survival Guide offers complete protection through trusted, proven tips for safeguarding yourself and your loved ones against the living dead. It is a book that can save your life.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 127,
-        "apocalyptic (post apocalyptic)": 158,
-        "fantasy": 247,
-        "fiction": 951,
-        "horror": 1324,
-        "horror (zombies)": 1318,
-        "humor": 680,
-        "humor (comedy)": 117,
-        "reference": 115,
-        "science fiction": 312
+  "author": "Max Brooks",
+  "id": "3907",
+  "description": "The Zombie Survival Guide is your key to survival against the hordes of undead who may be stalking you right now. Fully illustrated and exhaustively comprehensive, this book covers everything you need to know, including how to understand zombie physiology and behavior, the most effective defense tactics and weaponry, ways to outfit your home for a long siege, and how to survive and adapt in any territory or terrain.Top 10 Lessons for Surviving a Zombie Attack 1. Organize before they rise! 2. They feel no fear, why should you?3. Use your head: cut off theirs.4. Blades don’t need reloading.5. Ideal protection = tight clothes, short hair.6. Get up the staircase, then destroy it. 7. Get out of the car, get onto the bike.8. Keep moving, keep low, keep quiet, keep alert!9. No place is safe, only safer. 10. The zombie may be gone, but the threat lives on. Don’t be carefree and foolish with your most precious asset—life. This book is your key to survival against the hordes of undead who may be stalking you right now without your even knowing it. The Zombie Survival Guide offers complete protection through trusted, proven tips for safeguarding yourself and your loved ones against the living dead. It is a book that can save your life.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "humor",
+    "humor (comedy)",
+    "reference",
+    "science fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3907_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3907_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3907_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3907_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3907_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 97822,
-        "score": 3.86
+    {
+      "status": "maintenance",
+      "stock_id": "3907_2"
     },
-    "pages": 548,
-    "title": "The Zombie Survival Guide: Complete Protection from the Living Dead",
-    "url": "https://www.goodreads.com/book/show/535441.The_Zombie_Survival_Guide",
-    "year_published": 2003
+    {
+      "status": "on_loan",
+      "stock_id": "3907_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3907_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 97822,
+    "score": 3.86
+  },
+  "pages": 548,
+  "title": "The Zombie Survival Guide: Complete Protection from the Living Dead",
+  "url": "https://www.goodreads.com/book/show/535441.The_Zombie_Survival_Guide",
+  "year_published": 2003
 }

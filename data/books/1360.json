@@ -1,54 +1,54 @@
 {
-    "author": "Simon R. Green",
-    "id": "1360",
-    "description": "John Taylor is not a private detective per se, but he has a knack for finding lost things. That's why he's been hired to descend into the Nightside, an otherworldly realm in the center of London where fantasy and reality share renting space and the sun never shines.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "fantasy": 892,
-        "fantasy (magic)": 61,
-        "fantasy (paranormal)": 193,
-        "fantasy (supernatural)": 82,
-        "fantasy (urban fantasy)": 1082,
-        "fiction": 185,
-        "horror": 174,
-        "mystery": 238,
-        "mystery (detective)": 50,
-        "science fiction": 47
+  "author": "Simon R. Green",
+  "id": "1360",
+  "description": "John Taylor is not a private detective per se, but he has a knack for finding lost things. That's why he's been hired to descend into the Nightside, an otherworldly realm in the center of London where fantasy and reality share renting space and the sun never shines.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "mystery",
+    "mystery (detective)",
+    "science fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1360_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1360_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1360_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1360_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1360_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1360_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "1360_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 23190,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "1360_2"
     },
-    "pages": 1101,
-    "title": "Something from the Nightside",
-    "url": "https://www.goodreads.com/book/show/155421.Something_from_the_Nightside",
-    "year_published": 2003
+    {
+      "status": "maintenance",
+      "stock_id": "1360_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1360_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1360_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "1360_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 23190,
+    "score": 3.77
+  },
+  "pages": 1101,
+  "title": "Something from the Nightside",
+  "url": "https://www.goodreads.com/book/show/155421.Something_from_the_Nightside",
+  "year_published": 2003
 }

@@ -1,40 +1,40 @@
 {
-    "author": "Michael Crichton",
-    "id": "3328",
-    "description": "A group of American scientists are rushed to a huge vessel that has been discovered resting on the ocean floor in the middle of the South Pacific. What they find defies their imaginations and mocks their attempts at logical explanation. It is a spaceship of phenomenal dimensions, apparently, undamaged by its fall from the sky. And, most startling, it appears to be at least three hundred years old....\"The suspense is real.\"THE NEW YORK TIMES BOOK REVIEW\"A page-turner...Chichton's writing is cinematic, with powerful visual images and nonstop action. This book should come with hot buttered popcorn.\"NEWSWEEK",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 116,
-        "fantasy": 110,
-        "fiction": 1883,
-        "horror": 230,
-        "mystery": 167,
-        "novels": 126,
-        "science fiction": 2404,
-        "science fiction fantasy": 176,
-        "suspense": 184,
-        "thriller": 799
+  "author": "Michael Crichton",
+  "id": "3328",
+  "description": "A group of American scientists are rushed to a huge vessel that has been discovered resting on the ocean floor in the middle of the South Pacific. What they find defies their imaginations and mocks their attempts at logical explanation. It is a spaceship of phenomenal dimensions, apparently, undamaged by its fall from the sky. And, most startling, it appears to be at least three hundred years old....\"The suspense is real.\"THE NEW YORK TIMES BOOK REVIEW\"A page-turner...Chichton's writing is cinematic, with powerful visual images and nonstop action. This book should come with hot buttered popcorn.\"NEWSWEEK",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3328_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3328_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3328_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 170732,
-        "score": 3.8
-    },
-    "pages": 397,
-    "title": "Sphere",
-    "url": "https://www.goodreads.com/book/show/455373.Sphere",
-    "year_published": 1987
+    {
+      "status": "maintenance",
+      "stock_id": "3328_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 170732,
+    "score": 3.8
+  },
+  "pages": 397,
+  "title": "Sphere",
+  "url": "https://www.goodreads.com/book/show/455373.Sphere",
+  "year_published": 1987
 }

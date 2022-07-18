@@ -1,56 +1,56 @@
 {
-    "author": "Richard  Adams",
-    "id": "14079",
-    "description": "Librarian's note: See alternate cover edition of ISBN13 9780380395866 here.Set in England's Downs, a once idyllic rural landscape, this stirring tale of adventure, courage and survival follows a band of very special creatures on their flight from the intrusion of man and the certain destruction of their home. Led by a stouthearted pair of friends, they journey forth from their native Sandleford Warren through the harrowing trials posed by predators and adversaries, to a mysterious promised land and a more perfect society.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 694,
-        "animals": 1130,
-        "audiobook": 299,
-        "childrens": 714,
-        "classics": 6104,
-        "fantasy": 5063,
-        "fiction": 5384,
-        "literature": 448,
-        "novels": 365,
-        "young adult": 1446
+  "author": "Richard  Adams",
+  "id": "14079",
+  "description": "Librarian's note: See alternate cover edition of ISBN13 9780380395866 here.Set in England's Downs, a once idyllic rural landscape, this stirring tale of adventure, courage and survival follows a band of very special creatures on their flight from the intrusion of man and the certain destruction of their home. Led by a stouthearted pair of friends, they journey forth from their native Sandleford Warren through the harrowing trials posed by predators and adversaries, to a mysterious promised land and a more perfect society.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "audiobook",
+    "childrens",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "14079_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "14079_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "14079_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "14079_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14079_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "14079_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "14079_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 442382,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "14079_2"
     },
-    "pages": 954,
-    "title": "Watership Down",
-    "url": "https://www.goodreads.com/book/show/76620.Watership_Down",
-    "year_published": 1972
+    {
+      "status": "on_loan",
+      "stock_id": "14079_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "14079_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "14079_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "14079_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 442382,
+    "score": 4.06
+  },
+  "pages": 954,
+  "title": "Watership Down",
+  "url": "https://www.goodreads.com/book/show/76620.Watership_Down",
+  "year_published": 1972
 }

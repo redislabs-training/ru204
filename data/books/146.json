@@ -1,42 +1,42 @@
 {
-    "author": "Kathryn Reiss",
-    "id": "146",
-    "description": "When Miranda moves with her family to a new house in a small Massachusetts town, she discovers a mysterious antique--a dollhouse. Through the windows, she is shocked to find what seem to be living people in the tiny rooms, and gradually she realizes that scenes from the lives of the big house\u2019s past inhabitants are being replayed there.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 16,
-        "childrens (middle grade)": 10,
-        "fantasy": 39,
-        "fantasy (paranormal)": 10,
-        "fiction": 23,
-        "horror": 9,
-        "mystery": 24,
-        "paranormal (ghosts)": 8,
-        "science fiction (time travel)": 26,
-        "young adult": 44
+  "author": "Kathryn Reiss",
+  "id": "146",
+  "description": "When Miranda moves with her family to a new house in a small Massachusetts town, she discovers a mysterious antique--a dollhouse. Through the windows, she is shocked to find what seem to be living people in the tiny rooms, and gradually she realizes that scenes from the lives of the big house’s past inhabitants are being replayed there.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "horror",
+    "mystery",
+    "paranormal (ghosts)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "146_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "146_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "146_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "146_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1436,
-        "score": 4.18
+    {
+      "status": "available",
+      "stock_id": "146_2"
     },
-    "pages": 468,
-    "title": "Time Windows",
-    "url": "https://www.goodreads.com/book/show/589428.Time_Windows",
-    "year_published": 1991
+    {
+      "status": "maintenance",
+      "stock_id": "146_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1436,
+    "score": 4.18
+  },
+  "pages": 468,
+  "title": "Time Windows",
+  "url": "https://www.goodreads.com/book/show/589428.Time_Windows",
+  "year_published": 1991
 }

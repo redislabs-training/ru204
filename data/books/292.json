@@ -1,47 +1,47 @@
 {
-    "author": "Tatyana Tolstaya",
-    "id": "292",
-    "description": "Two hundred years after civilization ended in an event known as the Blast, Benedikt isn't one to complain. He's got a job \u2014 transcribing old books and presenting them as the words of the great new leader, Fyodor Kuzmich, Glorybe \u2014 and though he doesn't enjoy the privileged status of a Murza, at least he's not a serf or a half-human four-legged Degenerator harnessed to a troika. He has a house, too, with enough mice to cook up a tasty meal, and he's happily free of mutations: no extra fingers, no gills, no cockscombs sprouting from his eyelids. And he's managed \u2014 at least so far \u2014 to steer clear of the ever-vigilant Saniturions, who track down anyone who manifests the slightest sign of Freethinking, and the legendary screeching Slynx that waits in the wilderness beyond.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 63,
-        "cultural (russia)": 178,
-        "fantasy": 28,
-        "fiction": 206,
-        "literature": 19,
-        "literature (russian literature)": 70,
-        "novels": 21,
-        "science fiction": 133,
-        "science fiction (apocalyptic)": 18,
-        "science fiction (dystopia)": 113
+  "author": "Tatyana Tolstaya",
+  "id": "292",
+  "description": "Two hundred years after civilization ended in an event known as the Blast, Benedikt isn't one to complain. He's got a job — transcribing old books and presenting them as the words of the great new leader, Fyodor Kuzmich, Glorybe — and though he doesn't enjoy the privileged status of a Murza, at least he's not a serf or a half-human four-legged Degenerator harnessed to a troika. He has a house, too, with enough mice to cook up a tasty meal, and he's happily free of mutations: no extra fingers, no gills, no cockscombs sprouting from his eyelids. And he's managed — at least so far — to steer clear of the ever-vigilant Saniturions, who track down anyone who manifests the slightest sign of Freethinking, and the legendary screeching Slynx that waits in the wilderness beyond.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "cultural (russia)",
+    "fantasy",
+    "fiction",
+    "literature",
+    "literature (russian literature)",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "292_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "292_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "292_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "292_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "292_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3814,
-        "score": 3.81
+    {
+      "status": "on_loan",
+      "stock_id": "292_2"
     },
-    "pages": 346,
-    "title": "The Slynx",
-    "url": "https://www.goodreads.com/book/show/310722.The_Slynx",
-    "year_published": 2000
+    {
+      "status": "on_loan",
+      "stock_id": "292_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "292_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3814,
+    "score": 3.81
+  },
+  "pages": 346,
+  "title": "The Slynx",
+  "url": "https://www.goodreads.com/book/show/310722.The_Slynx",
+  "year_published": 2000
 }

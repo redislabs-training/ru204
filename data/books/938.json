@@ -1,60 +1,60 @@
 {
-    "author": "William Gibson",
-    "id": "938",
-    "description": "In William Gibson's first novel since 2014's New York Times bestselling The Peripheral, a gifted \"app-whisperer\" is hired by a mysterious San Francisco start-up and finds herself in contact with a unique and surprisingly combat-savvy AI.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 18,
-        "fiction": 183,
-        "novels": 13,
-        "science fiction": 277,
-        "science fiction (cyberpunk)": 60,
-        "science fiction (dystopia)": 14,
-        "science fiction (time travel)": 14,
-        "science fiction fantasy": 17,
-        "speculative fiction": 16,
-        "thriller": 12
+  "author": "William Gibson",
+  "id": "938",
+  "description": "In William Gibson's first novel since 2014's New York Times bestselling The Peripheral, a gifted \"app-whisperer\" is hired by a mysterious San Francisco start-up and finds herself in contact with a unique and surprisingly combat-savvy AI.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "938_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "938_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "938_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "938_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "938_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "938_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "938_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "938_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6569,
-        "score": 3.81
+    {
+      "status": "available",
+      "stock_id": "938_2"
     },
-    "pages": 364,
-    "title": "Agency",
-    "url": "https://www.goodreads.com/book/show/34943643-agency",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "938_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "938_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "938_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "938_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "938_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6569,
+    "score": 3.81
+  },
+  "pages": 364,
+  "title": "Agency",
+  "url": "https://www.goodreads.com/book/show/34943643-agency",
+  "year_published": 2020
 }

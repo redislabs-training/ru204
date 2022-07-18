@@ -1,59 +1,59 @@
 {
-    "author": "P.W. Singer",
-    "id": "222",
-    "description": "We are just beginning to see a massive shift in military technology that threatens to make the stuff of I, Robot and the Terminator all too real. More then seven thousand robotic systems are now in Iraq. Pilots in Nevada are remotely killing terrorists in Afghanistan. Scientists are debating just how smart - and how lethal - to make their current robotic prototypes. And many of the most renowned science fiction authors are secretly consulting for the Pentagon on the next generation.Blending historic evidence with interviews from the field, Singer vividly shows that as these technologies multiply, they will have profound effects on the front lines as well as on the politics back home. Moving humans off the battlefield makes wars easier to start, but more complex to fight. Replacing men with machines may save some lives, but will lower the morale and psychological barriers to killing. The \"warrior ethos\", which has long defined soldiers' identity, will erode, as will the laws of war that have governed military conflict for generations.While his analysis is unnerving, there's an irresistible gee-whiz quality to the innovations Singer uncovers. Wired for War travels from Iraq to see these robots in combat to the latter-day \"skunk works\" in America's suburbia, where tomorrow's technologies of war are quietly being designed. In Singer's hands, the future of war is as fascinating as it is frightening.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "artificial intelligence": 10,
-        "history": 30,
-        "military (military history)": 9,
-        "nonfiction": 113,
-        "politics": 32,
-        "science": 54,
-        "science (technology)": 54,
-        "science fiction (robots)": 6,
-        "war": 43,
-        "war (military fiction)": 77
+  "author": "P.W. Singer",
+  "id": "222",
+  "description": "We are just beginning to see a massive shift in military technology that threatens to make the stuff of I, Robot and the Terminator all too real. More then seven thousand robotic systems are now in Iraq. Pilots in Nevada are remotely killing terrorists in Afghanistan. Scientists are debating just how smart - and how lethal - to make their current robotic prototypes. And many of the most renowned science fiction authors are secretly consulting for the Pentagon on the next generation.Blending historic evidence with interviews from the field, Singer vividly shows that as these technologies multiply, they will have profound effects on the front lines as well as on the politics back home. Moving humans off the battlefield makes wars easier to start, but more complex to fight. Replacing men with machines may save some lives, but will lower the morale and psychological barriers to killing. The \"warrior ethos\", which has long defined soldiers' identity, will erode, as will the laws of war that have governed military conflict for generations.While his analysis is unnerving, there's an irresistible gee-whiz quality to the innovations Singer uncovers. Wired for War travels from Iraq to see these robots in combat to the latter-day \"skunk works\" in America's suburbia, where tomorrow's technologies of war are quietly being designed. In Singer's hands, the future of war is as fascinating as it is frightening.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "artificial intelligence",
+    "history",
+    "military (military history)",
+    "nonfiction",
+    "politics",
+    "science",
+    "science (technology)",
+    "science fiction (robots)",
+    "war",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "222_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "222_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "222_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "222_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "222_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "222_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "222_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "222_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2180,
-        "score": 3.98
+    {
+      "status": "maintenance",
+      "stock_id": "222_2"
     },
-    "pages": 1244,
-    "title": "Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century",
-    "url": "https://www.goodreads.com/book/show/6098718-wired-for-war",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "222_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "222_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "222_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "222_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "222_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2180,
+    "score": 3.98
+  },
+  "pages": 1244,
+  "title": "Wired for War: The Robotics Revolution and Conflict in the Twenty-First Century",
+  "url": "https://www.goodreads.com/book/show/6098718-wired-for-war",
+  "year_published": 2009
 }

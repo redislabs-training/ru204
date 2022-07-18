@@ -1,58 +1,58 @@
 {
-    "author": "Brandon Sanderson",
-    "id": "13530",
-    "description": "Ten years ago, Calamity came. It was a burst in the sky that gave ordinary men and women extraordinary powers. The awed public started calling them Epics. But Epics are no friend of man. With incredible gifts came the desire to rule. And to rule man you must crush his will.Nobody fights the Epics...nobody but the Reckoners. A shadowy group of ordinary humans, they spend their lives studying Epics, finding their weaknesses, and then assassinating them.And David wants in. He wants Steelheart \u2014 the Epic who is said to be invincible. The Epic who killed David's father. For years, like the Reckoners, David's been studying, and planning \u2014 and he has something they need. Not an object, but an experience.He's seen Steelheart bleed. And he wants revenge.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 265,
-        "audiobook": 284,
-        "comics (superheroes)": 348,
-        "fantasy": 4680,
-        "fantasy (urban fantasy)": 482,
-        "fiction": 849,
-        "science fiction": 1674,
-        "science fiction (dystopia)": 901,
-        "science fiction fantasy": 187,
-        "young adult": 2222
+  "author": "Brandon Sanderson",
+  "id": "13530",
+  "description": "Ten years ago, Calamity came. It was a burst in the sky that gave ordinary men and women extraordinary powers. The awed public started calling them Epics. But Epics are no friend of man. With incredible gifts came the desire to rule. And to rule man you must crush his will.Nobody fights the Epics...nobody but the Reckoners. A shadowy group of ordinary humans, they spend their lives studying Epics, finding their weaknesses, and then assassinating them.And David wants in. He wants Steelheart — the Epic who is said to be invincible. The Epic who killed David's father. For years, like the Reckoners, David's been studying, and planning — and he has something they need. Not an object, but an experience.He's seen Steelheart bleed. And he wants revenge.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "comics (superheroes)",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "13530_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "13530_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "13530_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13530_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "13530_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13530_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13530_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "13530_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 156680,
-        "score": 4.13
+    {
+      "status": "available",
+      "stock_id": "13530_2"
     },
-    "pages": 1042,
-    "title": "Steelheart",
-    "url": "https://www.goodreads.com/book/show/17182126-steelheart",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "13530_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "13530_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13530_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13530_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "13530_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 156680,
+    "score": 4.13
+  },
+  "pages": 1042,
+  "title": "Steelheart",
+  "url": "https://www.goodreads.com/book/show/17182126-steelheart",
+  "year_published": 2013
 }

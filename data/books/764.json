@@ -1,42 +1,42 @@
 {
-    "author": "Dmitry Glukhovsky",
-    "id": "764",
-    "description": "The long-awaited sequel to the cult bestseller Metro 2033, the second volume in the Metro trilogy, Metro 2034 continues the story of survival and struggle that unfolds in the mazes of the Moscow subway after WWIII. As the entire civilization was wiped out by atomic bombs and the surface of the planet is polluted with neclear fallout, the only place suitable for men to live are shelters and bunkers, the largest of which is the subway system of Moscow, aka the Metro. The year is 2034. There's no hope for humans to return to the surface of Earth, to repopulate the forsaken cities, and to become once again the masters of the world they used to be. So they rebuild a strange and grotesque civilization in the tunnels and at the stations of the subway. Stations become city-states that wage trade and war on each other. A fragile equilibrium is established. And then all can be ruined in matter of days. A new horrible threat looms that can eradicate the remains of humanity and end our era. It would take three unlikely heroes to face this menace. The basis of two bestselling computer games Metro 2033 and Metro Last Light, the Metro books have put Dmitry Glukhovsky in the vanguard of Russian speculative fiction. Metro 2034 tells a previously unknown part of the greater Metro saga that some only know from video games. Whether you're new to this series, are a fan of the first novel, or want to explore the world of Metro in depth, Metro 2034 is a perfect read for you! Featuring blistering action, vivid and tough characters, claustrophobic tension and dark satire the Metro books have become bestsellers across the world.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 119,
-        "audiobook": 21,
-        "cultural (russia)": 45,
-        "fantasy": 86,
-        "fiction": 141,
-        "horror": 97,
-        "literature (russian literature)": 21,
-        "novels": 19,
-        "science fiction": 257,
-        "science fiction (dystopia)": 97
+  "author": "Dmitry Glukhovsky",
+  "id": "764",
+  "description": "The long-awaited sequel to the cult bestseller Metro 2033, the second volume in the Metro trilogy, Metro 2034 continues the story of survival and struggle that unfolds in the mazes of the Moscow subway after WWIII. As the entire civilization was wiped out by atomic bombs and the surface of the planet is polluted with neclear fallout, the only place suitable for men to live are shelters and bunkers, the largest of which is the subway system of Moscow, aka the Metro. The year is 2034. There's no hope for humans to return to the surface of Earth, to repopulate the forsaken cities, and to become once again the masters of the world they used to be. So they rebuild a strange and grotesque civilization in the tunnels and at the stations of the subway. Stations become city-states that wage trade and war on each other. A fragile equilibrium is established. And then all can be ruined in matter of days. A new horrible threat looms that can eradicate the remains of humanity and end our era. It would take three unlikely heroes to face this menace. The basis of two bestselling computer games Metro 2033 and Metro Last Light, the Metro books have put Dmitry Glukhovsky in the vanguard of Russian speculative fiction. Metro 2034 tells a previously unknown part of the greater Metro saga that some only know from video games. Whether you're new to this series, are a fan of the first novel, or want to explore the world of Metro in depth, Metro 2034 is a perfect read for you! Featuring blistering action, vivid and tough characters, claustrophobic tension and dark satire the Metro books have become bestsellers across the world.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "cultural (russia)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "literature (russian literature)",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "764_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "764_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "764_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "764_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 15566,
-        "score": 3.49
+    {
+      "status": "available",
+      "stock_id": "764_2"
     },
-    "pages": 451,
-    "title": "Metro 2034",
-    "url": "https://www.goodreads.com/book/show/6667916-metro-2034",
-    "year_published": 2009
+    {
+      "status": "available",
+      "stock_id": "764_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 15566,
+    "score": 3.49
+  },
+  "pages": 451,
+  "title": "Metro 2034",
+  "url": "https://www.goodreads.com/book/show/6667916-metro-2034",
+  "year_published": 2009
 }

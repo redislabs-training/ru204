@@ -1,64 +1,64 @@
 {
-    "author": "Dan Abnett",
-    "id": "107",
-    "description": "In post-Victorian England, nearly everyone of the upper classes has voluntarily become a vampire in order to escape the lower\u00a0classes who are all zombies. Into this simmering cauldron is thrust Chief Inspector George Suttle, a lonely detective who's got\u00a0the slowest beat in London: investigating murders in a world where everyone is already dead! When the body of a young aristocrat\u00a0washes up on the banks of the Thames, Suttle's quest for the truth will take him from the darkest sewers to the gleaming\u00a0halls of power, and reveal the rotten heart at the center of this strange world.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 11,
-        "fiction": 10,
-        "graphic novels comics": 9,
-        "historical (historical fiction)": 12,
-        "horror": 37,
-        "horror (zombies)": 32,
-        "mystery": 23,
-        "paranormal (vampires)": 26,
-        "sequential art (comics)": 76,
-        "sequential art (graphic novels)": 98
+  "author": "Dan Abnett",
+  "id": "107",
+  "description": "In post-Victorian England, nearly everyone of the upper classes has voluntarily become a vampire in order to escape the lower classes who are all zombies. Into this simmering cauldron is thrust Chief Inspector George Suttle, a lonely detective who's got the slowest beat in London: investigating murders in a world where everyone is already dead! When the body of a young aristocrat washes up on the banks of the Thames, Suttle's quest for the truth will take him from the darkest sewers to the gleaming halls of power, and reveal the rotten heart at the center of this strange world.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "historical (historical fiction)",
+    "horror",
+    "horror (zombies)",
+    "mystery",
+    "paranormal (vampires)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "107_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "107_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "107_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "107_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "107_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "107_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "107_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "107_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "107_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 786,
-        "score": 3.68
+    {
+      "status": "on_loan",
+      "stock_id": "107_2"
     },
-    "pages": 1051,
-    "title": "The New Deadwardians",
-    "url": "https://www.goodreads.com/book/show/15797754-the-new-deadwardians",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "107_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "107_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "107_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "107_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "107_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "107_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 786,
+    "score": 3.68
+  },
+  "pages": 1051,
+  "title": "The New Deadwardians",
+  "url": "https://www.goodreads.com/book/show/15797754-the-new-deadwardians",
+  "year_published": 2013
 }

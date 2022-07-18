@@ -1,48 +1,48 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "953",
-    "description": "\nPeacocks for dinner and boys in skirts?\nThat's what Jack and Annie find when the Magic Tree House whisks them back to the Middle Ages for another wild adventure. In the Great Gall of the castle, a feast is under way. But Jack and Annie aren't exactly welcome guests!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 81,
-        "childrens": 271,
-        "childrens (chapter books)": 110,
-        "childrens (juvenile)": 30,
-        "childrens (middle grade)": 33,
-        "fantasy": 264,
-        "fantasy (magic)": 30,
-        "fiction": 168,
-        "historical (historical fiction)": 105,
-        "science fiction (time travel)": 56
+  "author": "Mary Pope Osborne",
+  "id": "953",
+  "description": "\nPeacocks for dinner and boys in skirts?\nThat's what Jack and Annie find when the Magic Tree House whisks them back to the Middle Ages for another wild adventure. In the Great Gall of the castle, a feast is under way. But Jack and Annie aren't exactly welcome guests!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "953_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "953_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "953_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "953_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "953_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20549,
-        "score": 3.87
+    {
+      "status": "available",
+      "stock_id": "953_2"
     },
-    "pages": 941,
-    "title": "The Knight at Dawn",
-    "url": "https://www.goodreads.com/book/show/948526.The_Knight_at_Dawn",
-    "year_published": 1993
+    {
+      "status": "on_loan",
+      "stock_id": "953_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "953_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20549,
+    "score": 3.87
+  },
+  "pages": 941,
+  "title": "The Knight at Dawn",
+  "url": "https://www.goodreads.com/book/show/948526.The_Knight_at_Dawn",
+  "year_published": 1993
 }

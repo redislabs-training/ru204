@@ -1,52 +1,52 @@
 {
-    "author": "Susan Cooper",
-    "id": "828",
-    "description": "The Dark is rising in its last and greatest bid to control the world. And Will Stanton -- last-born of the immortal Old Ones, dedicated to keeping the world free -- must join forces with this ageless master Merriman and Bran, the Welsh boy whose destiny ties him to the Light. Drawn in with them are the three Drew children, who are mortal, but have their own vital part in the story. These six fight fear and death in the darkly brooding Welsh hills, in a quest through time and space that touches the most ancient myths of the British Isles, and that brings Susan Cooper's masterful sequence of novels to a satisfying close.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 76,
-        "childrens": 196,
-        "childrens (middle grade)": 96,
-        "fantasy": 1814,
-        "fantasy (magic)": 62,
-        "fantasy (mythology)": 46,
-        "fiction": 324,
-        "mythology (arthurian)": 89,
-        "science fiction fantasy": 69,
-        "young adult": 526
+  "author": "Susan Cooper",
+  "id": "828",
+  "description": "The Dark is rising in its last and greatest bid to control the world. And Will Stanton -- last-born of the immortal Old Ones, dedicated to keeping the world free -- must join forces with this ageless master Merriman and Bran, the Welsh boy whose destiny ties him to the Light. Drawn in with them are the three Drew children, who are mortal, but have their own vital part in the story. These six fight fear and death in the darkly brooding Welsh hills, in a quest through time and space that touches the most ancient myths of the British Isles, and that brings Susan Cooper's masterful sequence of novels to a satisfying close.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fiction",
+    "mythology (arthurian)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "828_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "828_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "828_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "828_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "828_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "828_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 34715,
-        "score": 4.09
+    {
+      "status": "maintenance",
+      "stock_id": "828_2"
     },
-    "pages": 779,
-    "title": "Silver on the Tree",
-    "url": "https://www.goodreads.com/book/show/11313.Silver_on_the_Tree",
-    "year_published": 1977
+    {
+      "status": "available",
+      "stock_id": "828_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "828_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "828_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 34715,
+    "score": 4.09
+  },
+  "pages": 779,
+  "title": "Silver on the Tree",
+  "url": "https://www.goodreads.com/book/show/11313.Silver_on_the_Tree",
+  "year_published": 1977
 }

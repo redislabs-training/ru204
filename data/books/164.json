@@ -1,63 +1,63 @@
 {
-    "author": "Alan Dean Foster",
-    "id": "164",
-    "description": "Having survived one encounter with an alien, Ripley is persuaded to return to the planet where her crew found the alien ship. A colony has been established there, but suddenly all contact with the settlers has been lost. Accompanied by marines, Ripley is going to find out why.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 7,
-        "audiobook": 8,
-        "fiction": 56,
-        "horror": 112,
-        "media tie in": 6,
-        "novels": 7,
-        "science fiction": 161,
-        "science fiction (aliens)": 28,
-        "thriller": 7,
-        "war (military fiction)": 6
+  "author": "Alan Dean Foster",
+  "id": "164",
+  "description": "Having survived one encounter with an alien, Ripley is persuaded to return to the planet where her crew found the alien ship. A colony has been established there, but suddenly all contact with the settlers has been lost. Accompanied by marines, Ripley is going to find out why.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "audiobook",
+    "fiction",
+    "horror",
+    "media tie in",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "thriller",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "164_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "164_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "164_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "164_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "164_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "164_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "164_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "164_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "164_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5106,
-        "score": 4.13
+    {
+      "status": "on_loan",
+      "stock_id": "164_2"
     },
-    "pages": 1036,
-    "title": "Aliens",
-    "url": "https://www.goodreads.com/book/show/939559.Aliens",
-    "year_published": 1986
+    {
+      "status": "maintenance",
+      "stock_id": "164_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "164_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "164_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "164_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "164_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "164_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5106,
+    "score": 4.13
+  },
+  "pages": 1036,
+  "title": "Aliens",
+  "url": "https://www.goodreads.com/book/show/939559.Aliens",
+  "year_published": 1986
 }

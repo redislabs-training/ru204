@@ -1,35 +1,35 @@
 {
-    "author": "Jomny Sun",
-    "id": "2903",
-    "description": "The illustrated story of a lonely alien sent to observe Earth, where he meets all sorts of creatures with all sorts of perspectives on life, love, and happiness, while learning to feel a little better about himself\u2014based on the enormously popular Twitter account.Here is the unforgettable story of Jomny, an alien sent to study Earth. Always feeling apart, even among his species, Jomny feels at home for the first time among the earthlings he meets. There is a bear tired of other creatures running in fear, an egg struggling to decide what to hatch into, a turtle hiding itself by learning camouflage, a puppy struggling to express its true feelings, and many more.The characters are unique and inventive\u2014bees think long and hard about what love means, birds try to eat the sun, nothingness questions its own existence, a ghost comes to terms with dying, and an introverted hedgehog slowly lets Jomny see its artistic insecurities. At the same time, Jomny\u2019s curious presence allows these characters to open up to him in ways they were never able to before, revealing the power of somebody who is just there to listen.Everyone\u2019s a Aliebn When Ur a Aliebn Too is also the story behind the widely-shared and typo-filled @jonnysun twitter account. Since the beginning, Sun intentionally tweeted from an outsider\u2019s perspective, creating a truly distinct voice. Now, that outsider has taken shape in the character of Jomny, who observes Earth with the same intelligent, empathetic, and charmingly na\u00efve voice that won over his fans on social media. New fans will find it organic, and old fans will delight at seeing the clever words that made them fans in the first place.Through this story of a lost, lonely and confused Alien finding friendship, acceptance, and love among the animals and plants of Earth, we will all learn how to be a little more human. And for all the earth-bound creatures here on this planet, we will all learn how sometimes, it takes an outsider to help us see ourselves for who we truly are.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 54,
-        "fiction": 256,
-        "graphic novels comics": 76,
-        "humor": 65,
-        "philosophy": 39,
-        "poetry": 88,
-        "science fiction": 146,
-        "sequential art (comics)": 246,
-        "sequential art (graphic novels)": 918,
-        "young adult": 54
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2903_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 29226,
-        "score": 4.08
-    },
-    "pages": 605,
-    "title": "Everyone's a Aliebn When Ur a Aliebn Too",
-    "url": "https://www.goodreads.com/book/show/32497573-everyone-s-a-aliebn-when-ur-a-aliebn-too",
-    "year_published": 2017
+  "author": "Jomny Sun",
+  "id": "2903",
+  "description": "The illustrated story of a lonely alien sent to observe Earth, where he meets all sorts of creatures with all sorts of perspectives on life, love, and happiness, while learning to feel a little better about himself—based on the enormously popular Twitter account.Here is the unforgettable story of Jomny, an alien sent to study Earth. Always feeling apart, even among his species, Jomny feels at home for the first time among the earthlings he meets. There is a bear tired of other creatures running in fear, an egg struggling to decide what to hatch into, a turtle hiding itself by learning camouflage, a puppy struggling to express its true feelings, and many more.The characters are unique and inventive—bees think long and hard about what love means, birds try to eat the sun, nothingness questions its own existence, a ghost comes to terms with dying, and an introverted hedgehog slowly lets Jomny see its artistic insecurities. At the same time, Jomny’s curious presence allows these characters to open up to him in ways they were never able to before, revealing the power of somebody who is just there to listen.Everyone’s a Aliebn When Ur a Aliebn Too is also the story behind the widely-shared and typo-filled @jonnysun twitter account. Since the beginning, Sun intentionally tweeted from an outsider’s perspective, creating a truly distinct voice. Now, that outsider has taken shape in the character of Jomny, who observes Earth with the same intelligent, empathetic, and charmingly naïve voice that won over his fans on social media. New fans will find it organic, and old fans will delight at seeing the clever words that made them fans in the first place.Through this story of a lost, lonely and confused Alien finding friendship, acceptance, and love among the animals and plants of Earth, we will all learn how to be a little more human. And for all the earth-bound creatures here on this planet, we will all learn how sometimes, it takes an outsider to help us see ourselves for who we truly are.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "humor",
+    "philosophy",
+    "poetry",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2903_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 29226,
+    "score": 4.08
+  },
+  "pages": 605,
+  "title": "Everyone's a Aliebn When Ur a Aliebn Too",
+  "url": "https://www.goodreads.com/book/show/32497573-everyone-s-a-aliebn-when-ur-a-aliebn-too",
+  "year_published": 2017
 }

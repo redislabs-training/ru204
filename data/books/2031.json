@@ -1,59 +1,59 @@
 {
-    "author": "Hope Larson",
-    "id": "2031",
-    "description": "Late one night, three otherworldly creatures appear and sweep Meg Murry, her brother Charles Wallace, and their friend Calvin O'Keefe away on a mission to save Mr. Murry, who has gone missing while doing top-secret work for the government. They travel via tesseract \u2014 a wrinkle that transports one across space and time \u2014 to the planet Camazotz, where Mr. Murry is being held captive. There they discover a dark force that threatens not only Mr. Murry but the safety of the whole universe.Never before illustrated, A Wrinkle in Time is now available in a spellbinding graphic novel adaptation. Hope Larson takes the classic story to a new level with her vividly imagined interpretations of Mrs Whatsit, Mrs Who, Mrs Which, the Happy Medium, Aunt Beast, and the many other characters that readers have loved for the past fifty years. Winner of the 1963 Newbery Medal, A Wrinkle in Time is the first book in Madeleine L'Engle's Time Quintet.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "childrens": 84,
-        "childrens (middle grade)": 123,
-        "classics": 105,
-        "fantasy": 340,
-        "fiction": 201,
-        "graphic novels comics": 80,
-        "science fiction": 236,
-        "sequential art (comics)": 238,
-        "sequential art (graphic novels)": 1011,
-        "young adult": 216
+  "author": "Hope Larson",
+  "id": "2031",
+  "description": "Late one night, three otherworldly creatures appear and sweep Meg Murry, her brother Charles Wallace, and their friend Calvin O'Keefe away on a mission to save Mr. Murry, who has gone missing while doing top-secret work for the government. They travel via tesseract — a wrinkle that transports one across space and time — to the planet Camazotz, where Mr. Murry is being held captive. There they discover a dark force that threatens not only Mr. Murry but the safety of the whole universe.Never before illustrated, A Wrinkle in Time is now available in a spellbinding graphic novel adaptation. Hope Larson takes the classic story to a new level with her vividly imagined interpretations of Mrs Whatsit, Mrs Who, Mrs Which, the Happy Medium, Aunt Beast, and the many other characters that readers have loved for the past fifty years. Winner of the 1963 Newbery Medal, A Wrinkle in Time is the first book in Madeleine L'Engle's Time Quintet.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2031_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2031_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "2031_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "2031_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2031_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2031_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2031_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2031_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19351,
-        "score": 3.9
+    {
+      "status": "available",
+      "stock_id": "2031_2"
     },
-    "pages": 907,
-    "title": "A Wrinkle in Time: The Graphic Novel",
-    "url": "https://www.goodreads.com/book/show/13513205-a-wrinkle-in-time",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "2031_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2031_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2031_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2031_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2031_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19351,
+    "score": 3.9
+  },
+  "pages": 907,
+  "title": "A Wrinkle in Time: The Graphic Novel",
+  "url": "https://www.goodreads.com/book/show/13513205-a-wrinkle-in-time",
+  "year_published": 2012
 }

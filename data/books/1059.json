@@ -1,64 +1,64 @@
 {
-    "author": "Tamora Pierce",
-    "id": "1059",
-    "description": "When humans start cutting down trees and digging holes in peaceful Dunlath Valley, the wolves know that something is wrong. They send a messenger to the only human who will listen -- Daine, a fourteen-year-old girl with the unpredictable power of wild magic. Daine and her closest companions heed the wolves' cry for help. But the challenge they are about to face in the valley is greater than they can possibly imagine...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 213,
-        "childrens": 117,
-        "childrens (middle grade)": 126,
-        "fantasy": 3384,
-        "fantasy (dragons)": 113,
-        "fantasy (high fantasy)": 123,
-        "fantasy (magic)": 310,
-        "fiction": 343,
-        "young adult": 1484,
-        "young adult (young adult fantasy)": 225
+  "author": "Tamora Pierce",
+  "id": "1059",
+  "description": "When humans start cutting down trees and digging holes in peaceful Dunlath Valley, the wolves know that something is wrong. They send a messenger to the only human who will listen -- Daine, a fourteen-year-old girl with the unpredictable power of wild magic. Daine and her closest companions heed the wolves' cry for help. But the challenge they are about to face in the valley is greater than they can possibly imagine...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1059_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1059_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1059_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1059_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1059_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1059_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1059_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1059_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "1059_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 57536,
-        "score": 4.15
+    {
+      "status": "maintenance",
+      "stock_id": "1059_2"
     },
-    "pages": 208,
-    "title": "Wolf-Speaker",
-    "url": "https://www.goodreads.com/book/show/24094.Wolf_Speaker",
-    "year_published": 1993
+    {
+      "status": "available",
+      "stock_id": "1059_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1059_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1059_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1059_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1059_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "1059_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 57536,
+    "score": 4.15
+  },
+  "pages": 208,
+  "title": "Wolf-Speaker",
+  "url": "https://www.goodreads.com/book/show/24094.Wolf_Speaker",
+  "year_published": 1993
 }

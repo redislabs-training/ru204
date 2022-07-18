@@ -1,54 +1,54 @@
 {
-    "author": "Jim Butcher",
-    "id": "1459",
-    "description": "The power-hungry High Lord of Kalare has launched a rebellion against the aging First Lord, Gaius Sextus, who with the loyal forces of Alera must fight beside the unlikeliest of allies-the equally contentious High Lord of Aquitaine. Meanwhile, young Tavi of Calderon joins a newly formed legion under an assumed name even as the ruthless Kalare unites with the Canim, bestial enemies of the realm whose vast numbers spell certain doom for Alera. When treachery from within destroys the army's command structure, Tavi finds himself leading an inexperienced, poorly equipped legion-the only force standing between the Canim horde and the war-torn realm.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 132,
-        "audiobook": 72,
-        "childrens": 77,
-        "fantasy": 3393,
-        "fantasy (epic fantasy)": 246,
-        "fantasy (high fantasy)": 170,
-        "fantasy (magic)": 126,
-        "fiction": 312,
-        "science fiction fantasy": 100,
-        "young adult": 111
+  "author": "Jim Butcher",
+  "id": "1459",
+  "description": "The power-hungry High Lord of Kalare has launched a rebellion against the aging First Lord, Gaius Sextus, who with the loyal forces of Alera must fight beside the unlikeliest of allies-the equally contentious High Lord of Aquitaine. Meanwhile, young Tavi of Calderon joins a newly formed legion under an assumed name even as the ruthless Kalare unites with the Canim, bestial enemies of the realm whose vast numbers spell certain doom for Alera. When treachery from within destroys the army's command structure, Tavi finds himself leading an inexperienced, poorly equipped legion-the only force standing between the Canim horde and the war-torn realm.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1459_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1459_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1459_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1459_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1459_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1459_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1459_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 63816,
-        "score": 4.32
+    {
+      "status": "on_loan",
+      "stock_id": "1459_2"
     },
-    "pages": 410,
-    "title": "Cursor's Fury",
-    "url": "https://www.goodreads.com/book/show/29394.Cursor_s_Fury",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "1459_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1459_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1459_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1459_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 63816,
+    "score": 4.32
+  },
+  "pages": 410,
+  "title": "Cursor's Fury",
+  "url": "https://www.goodreads.com/book/show/29394.Cursor_s_Fury",
+  "year_published": 2006
 }

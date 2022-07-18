@@ -1,50 +1,50 @@
 {
-    "author": "Richard Matheson",
-    "id": "4988",
-    "description": "Robert Neville is the last living man on Earth...but he is not alone. Every other man, woman, and child on Earth has become a vampire, and they are all hungry for Neville's blood.By day, he is the hunter, stalking the sleeping undead through the abandoned ruins of civilization. By night, he barricades himself in his home and prays for dawn.How long can one man survive in a world of vampires?I am legend --Buried talents --The near departed --Prey --Witch war --Dance of the dead --Dress of white silk --Mad house --The funeral --From shadowed places --Person to person.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 364,
-        "classics": 333,
-        "fantasy": 429,
-        "fiction": 1243,
-        "horror": 2830,
-        "horror (zombies)": 162,
-        "paranormal (vampires)": 577,
-        "science fiction": 951,
-        "science fiction (dystopia)": 242,
-        "short stories": 486
+  "author": "Richard Matheson",
+  "id": "4988",
+  "description": "Robert Neville is the last living man on Earth...but he is not alone. Every other man, woman, and child on Earth has become a vampire, and they are all hungry for Neville's blood.By day, he is the hunter, stalking the sleeping undead through the abandoned ruins of civilization. By night, he barricades himself in his home and prays for dawn.How long can one man survive in a world of vampires?I am legend --Buried talents --The near departed --Prey --Witch war --Dance of the dead --Dress of white silk --Mad house --The funeral --From shadowed places --Person to person.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "paranormal (vampires)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4988_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4988_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4988_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "4988_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "4988_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4988_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 120614,
-        "score": 4.0
+    {
+      "status": "available",
+      "stock_id": "4988_2"
     },
-    "pages": 864,
-    "title": "I Am Legend and Other Stories",
-    "url": "https://www.goodreads.com/book/show/547094.I_Am_Legend_and_Other_Stories",
-    "year_published": 1954
+    {
+      "status": "available",
+      "stock_id": "4988_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "4988_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4988_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 120614,
+    "score": 4
+  },
+  "pages": 864,
+  "title": "I Am Legend and Other Stories",
+  "url": "https://www.goodreads.com/book/show/547094.I_Am_Legend_and_Other_Stories",
+  "year_published": 1954
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Penelope Farmer",
-    "id": "355",
-    "description": "A time-travel story that is both a poignant exploration of human identity and an absorbing tale of suspense.It's natural to feel a little out of place when you're the new girl, but when Charlotte Makepeace wakes up after her first night at boarding school, she's baffled: everyone thinks she's a girl called Clare Mobley, and even more shockingly, it seems she has traveled forty years back in time to 1918. In the months to follow, Charlotte wakes alternately in her own time and in Clare's. And instead of having only one new set of rules to learn, she also has to contend with the unprecedented strangeness of being an entirely new person in an era she knows nothing about. Her teachers think she's slow, the other girls find her odd, and, as she spends more and more time in 1918, Charlotte starts to wonder if she remembers how to be Charlotte at all. If she doesn't figure out some way to get back to the world she knows before the end of the term, she might never have another chance.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "childrens": 69,
-        "childrens (middle grade)": 34,
-        "classics": 32,
-        "fantasy": 115,
-        "fiction": 96,
-        "historical": 32,
-        "historical (historical fiction)": 44,
-        "school stories (boarding school)": 15,
-        "science fiction (time travel)": 103,
-        "young adult": 40
+  "author": "Penelope Farmer",
+  "id": "355",
+  "description": "A time-travel story that is both a poignant exploration of human identity and an absorbing tale of suspense.It's natural to feel a little out of place when you're the new girl, but when Charlotte Makepeace wakes up after her first night at boarding school, she's baffled: everyone thinks she's a girl called Clare Mobley, and even more shockingly, it seems she has traveled forty years back in time to 1918. In the months to follow, Charlotte wakes alternately in her own time and in Clare's. And instead of having only one new set of rules to learn, she also has to contend with the unprecedented strangeness of being an entirely new person in an era she knows nothing about. Her teachers think she's slow, the other girls find her odd, and, as she spends more and more time in 1918, Charlotte starts to wonder if she remembers how to be Charlotte at all. If she doesn't figure out some way to get back to the world she knows before the end of the term, she might never have another chance.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "school stories (boarding school)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "355_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "355_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "355_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "355_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "355_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "355_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "355_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "355_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "355_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3628,
-        "score": 4.09
+    {
+      "status": "on_loan",
+      "stock_id": "355_2"
     },
-    "pages": 845,
-    "title": "Charlotte Sometimes",
-    "url": "https://www.goodreads.com/book/show/158857.Charlotte_Sometimes",
-    "year_published": 1969
+    {
+      "status": "maintenance",
+      "stock_id": "355_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "355_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "355_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "355_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "355_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "355_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3628,
+    "score": 4.09
+  },
+  "pages": 845,
+  "title": "Charlotte Sometimes",
+  "url": "https://www.goodreads.com/book/show/158857.Charlotte_Sometimes",
+  "year_published": 1969
 }

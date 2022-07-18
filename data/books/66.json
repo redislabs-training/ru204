@@ -1,44 +1,44 @@
 {
-    "author": "Connie Willis",
-    "id": "66",
-    "description": "\"Fire Watch\" is a science fiction novelette by American writer Connie Willis. The story, first published in Isaac Asimov's Science Fiction Magazine in February 1982,[1] involves a time-traveling historian who goes back to the Blitz in London, to participate in the fire lookout at St. Paul's Cathedral.The protagonist has a deep emotional attachment to the Cathedral and is highly devoted to his role in defending it - especially due to his bitter knowledge that St. Paul's would survive the World War II bombings but would be obliterated in a terrorist attack in the protagonist's own time.Although Willis' writing of \"Fire Watch\" predates the production of Doomsday Book by about a decade, Kivrin Engle, the main character of Doomsday Book, also appears as a minor character in \"Fire Watch\". The novelette references Engle's experience with the Black Plague while time-traveling in the 14th century.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult fiction": 5,
-        "fantasy": 12,
-        "fiction": 25,
-        "historical": 6,
-        "historical (historical fiction)": 29,
-        "science fiction": 67,
-        "science fiction (time travel)": 65,
-        "science fiction fantasy": 5,
-        "short stories": 21,
-        "war (world war ii)": 4
+  "author": "Connie Willis",
+  "id": "66",
+  "description": "\"Fire Watch\" is a science fiction novelette by American writer Connie Willis. The story, first published in Isaac Asimov's Science Fiction Magazine in February 1982,[1] involves a time-traveling historian who goes back to the Blitz in London, to participate in the fire lookout at St. Paul's Cathedral.The protagonist has a deep emotional attachment to the Cathedral and is highly devoted to his role in defending it - especially due to his bitter knowledge that St. Paul's would survive the World War II bombings but would be obliterated in a terrorist attack in the protagonist's own time.Although Willis' writing of \"Fire Watch\" predates the production of Doomsday Book by about a decade, Kivrin Engle, the main character of Doomsday Book, also appears as a minor character in \"Fire Watch\". The novelette references Engle's experience with the Black Plague while time-traveling in the 14th century.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult fiction",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "short stories",
+    "war (world war ii)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "66_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "66_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "66_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "66_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 757,
-        "score": 3.88
+    {
+      "status": "available",
+      "stock_id": "66_2"
     },
-    "pages": 645,
-    "title": "Fire Watch",
-    "url": "https://www.goodreads.com/book/show/10301442-fire-watch",
-    "year_published": 1982
+    {
+      "status": "maintenance",
+      "stock_id": "66_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 757,
+    "score": 3.88
+  },
+  "pages": 645,
+  "title": "Fire Watch",
+  "url": "https://www.goodreads.com/book/show/10301442-fire-watch",
+  "year_published": 1982
 }

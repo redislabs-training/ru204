@@ -1,56 +1,56 @@
 {
-    "author": "Margaret Peterson Haddix",
-    "id": "671",
-    "description": "A Reluctant HeroTrey may have saved Luke's life, but he still thinks of himself as a coward who can barely stand to be outdoors. Now Trey finds out Luke has been taken prisoner at Population Police headquarters. Trey is terrified, but he knows that if he doesn't rescue his friend, no one will.At police headquarters, Trey impersonates an officer to try getting to Luke. But just when it looks like he's close, Trey suddenly finds himself in danger of exposing not just himself but all shadow children.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 53,
-        "childrens": 58,
-        "childrens (juvenile)": 26,
-        "childrens (middle grade)": 91,
-        "fantasy": 41,
-        "fiction": 131,
-        "science fiction": 149,
-        "science fiction (dystopia)": 239,
-        "young adult": 259,
-        "young adult (teen)": 21
+  "author": "Margaret Peterson Haddix",
+  "id": "671",
+  "description": "A Reluctant HeroTrey may have saved Luke's life, but he still thinks of himself as a coward who can barely stand to be outdoors. Now Trey finds out Luke has been taken prisoner at Population Police headquarters. Trey is terrified, but he knows that if he doesn't rescue his friend, no one will.At police headquarters, Trey impersonates an officer to try getting to Luke. But just when it looks like he's close, Trey suddenly finds himself in danger of exposing not just himself but all shadow children.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "671_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "671_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "671_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "671_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "671_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "671_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "671_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19432,
-        "score": 4.15
+    {
+      "status": "available",
+      "stock_id": "671_2"
     },
-    "pages": 330,
-    "title": "Among the Brave",
-    "url": "https://www.goodreads.com/book/show/303454.Among_the_Brave",
-    "year_published": 2004
+    {
+      "status": "maintenance",
+      "stock_id": "671_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "671_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "671_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "671_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19432,
+    "score": 4.15
+  },
+  "pages": 330,
+  "title": "Among the Brave",
+  "url": "https://www.goodreads.com/book/show/303454.Among_the_Brave",
+  "year_published": 2004
 }

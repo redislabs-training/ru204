@@ -1,35 +1,35 @@
 {
-    "author": "Justin Richards",
-    "id": "395",
-    "description": "WE ARE ALL STORIES, IN THE END...Fifteen tales of ancient wonder and mystery, passed down through generations of Time Lords. Dark, beautiful and twisted, these stories are filled with nightmarish terrors and heroic triumphs, from across all of time and space.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 15,
-        "fantasy": 22,
-        "fantasy (fairy tales)": 31,
-        "fiction": 42,
-        "media tie in": 10,
-        "media tie in (doctor who)": 65,
-        "retellings": 13,
-        "science fiction": 37,
-        "science fiction (time travel)": 24,
-        "short stories": 31
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "395_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2235,
-        "score": 3.89
-    },
-    "pages": 1157,
-    "title": "Doctor Who: Time Lord Fairy Tales",
-    "url": "https://www.goodreads.com/book/show/25361904-doctor-who",
-    "year_published": 2015
+  "author": "Justin Richards",
+  "id": "395",
+  "description": "WE ARE ALL STORIES, IN THE END...Fifteen tales of ancient wonder and mystery, passed down through generations of Time Lords. Dark, beautiful and twisted, these stories are filled with nightmarish terrors and heroic triumphs, from across all of time and space.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fiction",
+    "media tie in",
+    "media tie in (doctor who)",
+    "retellings",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "395_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2235,
+    "score": 3.89
+  },
+  "pages": 1157,
+  "title": "Doctor Who: Time Lord Fairy Tales",
+  "url": "https://www.goodreads.com/book/show/25361904-doctor-who",
+  "year_published": 2015
 }

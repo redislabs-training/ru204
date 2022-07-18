@@ -1,67 +1,67 @@
 {
-    "author": "Brandon Mull",
-    "id": "2995",
-    "description": "Jason Walker has often wished his life could be a bit less predictable--until a routine day at the zoo ends with Jason suddenly transporting from the hippo tank to a place unlike anything he's ever seen. In the past, the people of Lyrian welcomed visitors from the Beyond, but attitudes have changed since the wizard emperor Maldor rose to power. The brave resistors who opposed the emperor have been bought off or broken, leaving a realm where fear and suspicion prevail.In his search for a way home, Jason meets Rachel, who was also mysteriously drawn to Lyrian from our world. With the help of a few scattered rebels, Jason and Rachel become entangled in a quest to piece together the word of power that can destroy the emperor, and learn that their best hope to find a way home will be to save this world without heroes.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 176,
-        "childrens": 68,
-        "childrens (juvenile)": 29,
-        "childrens (middle grade)": 184,
-        "fantasy": 850,
-        "fantasy (magic)": 73,
-        "fiction": 109,
-        "young adult": 191,
-        "young adult (teen)": 28,
-        "young adult (young adult fantasy)": 48
+  "author": "Brandon Mull",
+  "id": "2995",
+  "description": "Jason Walker has often wished his life could be a bit less predictable--until a routine day at the zoo ends with Jason suddenly transporting from the hippo tank to a place unlike anything he's ever seen. In the past, the people of Lyrian welcomed visitors from the Beyond, but attitudes have changed since the wizard emperor Maldor rose to power. The brave resistors who opposed the emperor have been bought off or broken, leaving a realm where fear and suspicion prevail.In his search for a way home, Jason meets Rachel, who was also mysteriously drawn to Lyrian from our world. With the help of a few scattered rebels, Jason and Rachel become entangled in a quest to piece together the word of power that can destroy the emperor, and learn that their best hope to find a way home will be to save this world without heroes.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2995_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2995_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2995_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2995_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2995_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "2995_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2995_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2995_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2995_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "2995_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 36002,
-        "score": 4.11
+    {
+      "status": "maintenance",
+      "stock_id": "2995_2"
     },
-    "pages": 209,
-    "title": "A World Without Heroes",
-    "url": "https://www.goodreads.com/book/show/8306745-a-world-without-heroes",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "2995_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2995_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "2995_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2995_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2995_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2995_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "2995_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 36002,
+    "score": 4.11
+  },
+  "pages": 209,
+  "title": "A World Without Heroes",
+  "url": "https://www.goodreads.com/book/show/8306745-a-world-without-heroes",
+  "year_published": 2011
 }

@@ -1,56 +1,56 @@
 {
-    "author": "Peter Bunzl",
-    "id": "511",
-    "description": "Some secrets change the world in a heartbeat...Lily\u2019s life is in mortal peril. Her father is missing and now silver-eyed men stalk her through the shadows. What could they want from her?With her friends\u2014Robert, the clockmaker\u2019s son, and Malkin, her mechanical fox\u2014Lily is plunged into a murky and menacing world. Too soon Lily realizes that those she holds dear may be the very ones to break her heart...Murder, mayhem and mystery meet in this gripping Victorian adventure.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 29,
-        "childrens": 53,
-        "childrens (middle grade)": 155,
-        "fantasy": 98,
-        "fiction": 30,
-        "historical": 15,
-        "historical (historical fiction)": 9,
-        "science fiction": 23,
-        "science fiction (steampunk)": 84,
-        "young adult": 13
+  "author": "Peter Bunzl",
+  "id": "511",
+  "description": "Some secrets change the world in a heartbeat...Lily’s life is in mortal peril. Her father is missing and now silver-eyed men stalk her through the shadows. What could they want from her?With her friends—Robert, the clockmaker’s son, and Malkin, her mechanical fox—Lily is plunged into a murky and menacing world. Too soon Lily realizes that those she holds dear may be the very ones to break her heart...Murder, mayhem and mystery meet in this gripping Victorian adventure.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "511_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "511_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "511_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "511_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "511_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "511_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "511_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2814,
-        "score": 4.05
+    {
+      "status": "maintenance",
+      "stock_id": "511_2"
     },
-    "pages": 986,
-    "title": "Cogheart",
-    "url": "https://www.goodreads.com/book/show/29939780-cogheart",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "511_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "511_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "511_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "511_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2814,
+    "score": 4.05
+  },
+  "pages": 986,
+  "title": "Cogheart",
+  "url": "https://www.goodreads.com/book/show/29939780-cogheart",
+  "year_published": 2016
 }

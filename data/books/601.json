@@ -1,39 +1,39 @@
 {
-    "author": "Tom King",
-    "id": "601",
-    "description": "Once upon a time a robot and a witch fell in love. What followed was a tale of the dead and the dying, of the hopeful and the lost, of the wronged and the avenged. And in the end, after both had fallen, the witch and the robot rose from their dirt and eyed each other across a field of blood and bone. Forty-five years in the making, this is the story of Scarlet Witch and the Vision. Before family, there was love. And war.Collecting: The Vision 7-12",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 40,
-        "comics (superheroes)": 72,
-        "fantasy": 24,
-        "fiction": 56,
-        "graphic novels comics": 57,
-        "horror": 15,
-        "science fiction": 42,
-        "sequential art (comics)": 458,
-        "sequential art (graphic novels)": 310,
-        "superheroes (marvel)": 150
+  "author": "Tom King",
+  "id": "601",
+  "description": "Once upon a time a robot and a witch fell in love. What followed was a tale of the dead and the dying, of the hopeful and the lost, of the wronged and the avenged. And in the end, after both had fallen, the witch and the robot rose from their dirt and eyed each other across a field of blood and bone. Forty-five years in the making, this is the story of Scarlet Witch and the Vision. Before family, there was love. And war.Collecting: The Vision 7-12",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "601_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "601_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "601_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5550,
-        "score": 4.42
-    },
-    "pages": 1257,
-    "title": "The Vision, Volume 2: Little Better than a Beast",
-    "url": "https://www.goodreads.com/book/show/29507117-the-vision-volume-2",
-    "year_published": 2016
+    {
+      "status": "on_loan",
+      "stock_id": "601_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5550,
+    "score": 4.42
+  },
+  "pages": 1257,
+  "title": "The Vision, Volume 2: Little Better than a Beast",
+  "url": "https://www.goodreads.com/book/show/29507117-the-vision-volume-2",
+  "year_published": 2016
 }

@@ -1,55 +1,55 @@
 {
-    "author": "Arthur Slade",
-    "id": "452",
-    "description": "A gripping new series combines Steampunk, spying, and a fantastic Victorian London. The mysterious Mr. Socrates rescues Modo, a child in a traveling freak show. Modo is a hunchback with an amazing ability to transform his appearance, and Mr. Socrates raises him in isolation as an agent for the Permanent Association, a spy agency behind Brittania's efforts to rule the empire. At 14, Modo is left on the streets of London to fend for himself. When he encounters Octavia Milkweed, another Association agent, the two uncover a plot by the Clockword Guild behind the murders of important men. Furthermore, a mad scientist is turning orphan children into automatons to further the goals of the Guild. Modo and Octavia journey deep into the tunnels under London and discover a terrifying plot against the British government. It's up to them to save their country.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 40,
-        "fantasy": 154,
-        "fiction": 51,
-        "historical": 32,
-        "historical (historical fiction)": 49,
-        "mystery": 57,
-        "science fiction": 64,
-        "science fiction (steampunk)": 321,
-        "young adult": 147,
-        "young adult (teen)": 22
+  "author": "Arthur Slade",
+  "id": "452",
+  "description": "A gripping new series combines Steampunk, spying, and a fantastic Victorian London. The mysterious Mr. Socrates rescues Modo, a child in a traveling freak show. Modo is a hunchback with an amazing ability to transform his appearance, and Mr. Socrates raises him in isolation as an agent for the Permanent Association, a spy agency behind Brittania's efforts to rule the empire. At 14, Modo is left on the streets of London to fend for himself. When he encounters Octavia Milkweed, another Association agent, the two uncover a plot by the Clockword Guild behind the murders of important men. Furthermore, a mad scientist is turning orphan children into automatons to further the goals of the Guild. Modo and Octavia journey deep into the tunnels under London and discover a terrifying plot against the British government. It's up to them to save their country.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "452_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "452_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "452_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "452_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "452_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "452_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "452_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3456,
-        "score": 3.62
+    {
+      "status": "maintenance",
+      "stock_id": "452_2"
     },
-    "pages": 1110,
-    "title": "The Hunchback Assignments",
-    "url": "https://www.goodreads.com/book/show/6261097-the-hunchback-assignments",
-    "year_published": 2009
+    {
+      "status": "on_loan",
+      "stock_id": "452_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "452_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "452_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "452_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3456,
+    "score": 3.62
+  },
+  "pages": 1110,
+  "title": "The Hunchback Assignments",
+  "url": "https://www.goodreads.com/book/show/6261097-the-hunchback-assignments",
+  "year_published": 2009
 }

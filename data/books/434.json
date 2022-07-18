@@ -1,50 +1,50 @@
 {
-    "author": "Kat Falls",
-    "id": "434",
-    "description": "Return to the subsea frontier with Ty and Gemma! The mysteries of the deep are deadlier than ever when Ty'With time running out for his parents, Ty's desperation leads the two teenagers to the underwater underworld...and into an alliance with the outlaws of the Seablite Gang. But one mystery soon leads to another. How has an entire township disappered? Why is the local sealife suddenly so aggressive? And can the Seablite Gang be trusted...or are Ty and Gemma in deeper water than they realize?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 12,
-        "adventure": 37,
-        "apocalyptic (post apocalyptic)": 14,
-        "childrens (middle grade)": 13,
-        "fantasy": 42,
-        "fiction": 25,
-        "science fiction": 90,
-        "science fiction (dystopia)": 63,
-        "young adult": 107,
-        "young adult (teen)": 14
+  "author": "Kat Falls",
+  "id": "434",
+  "description": "Return to the subsea frontier with Ty and Gemma! The mysteries of the deep are deadlier than ever when Ty'With time running out for his parents, Ty's desperation leads the two teenagers to the underwater underworld...and into an alliance with the outlaws of the Seablite Gang. But one mystery soon leads to another. How has an entire township disappered? Why is the local sealife suddenly so aggressive? And can the Seablite Gang be trusted...or are Ty and Gemma in deeper water than they realize?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "434_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "434_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "434_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "434_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "434_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "434_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4307,
-        "score": 3.97
+    {
+      "status": "on_loan",
+      "stock_id": "434_2"
     },
-    "pages": 1136,
-    "title": "Rip Tide",
-    "url": "https://www.goodreads.com/book/show/8811401-rip-tide",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "434_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "434_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "434_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4307,
+    "score": 3.97
+  },
+  "pages": 1136,
+  "title": "Rip Tide",
+  "url": "https://www.goodreads.com/book/show/8811401-rip-tide",
+  "year_published": 2011
 }

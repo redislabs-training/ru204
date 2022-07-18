@@ -1,47 +1,47 @@
 {
-    "author": "Max Barry",
-    "id": "4143",
-    "description": "At an exclusive school somewhere outside of Arlington, Virginia, students aren't taught history, geography, or mathematics--at least not in the usual ways. Instead, they are taught to persuade. Here the art of coercion has been raised to a science. Students harness the hidden power of language to manipulate the mind and learn to break down individuals by psychographic markers in order to take control of their thoughts. The very best will graduate as \"poets\", adept wielders of language who belong to a nameless organization that is as influential as it is secretive.Whip-smart orphan Emily Ruff is making a living running a three-card Monte game on the streets of San Francisco when she attracts the attention of the organization's recruiters. She is flown across the country for the school's strange and rigorous entrance exams, where, once admitted, she will be taught the fundamentals of persuasion by Bronte, Eliot, and Lowell--who have adopted the names of famous poets to conceal their true identities. For in the organization, nothing is more dangerous than revealing who you are: Poets must never expose their feelings lest they be manipulated. Emily becomes the school's most talented prodigy until she makes a catastrophic mistake: She falls in love.Meanwhile, a seemingly innocent man named Wil Jamieson is brutally ambushed by two strange men in an airport bathroom. Although he has no recollection of anything they claim he's done, it turns out Wil is the key to a secret war between rival factions of poets and is quickly caught in their increasingly deadly crossfire. Pursued relentlessly by people with powers he can barely comprehend and protected by the very man who first attacked him, Wil discovers that everything he thought he knew about his past was fiction. In order to survive, must journey to the toxically decimated town of Broken Hill, Australia, to discover who he is and why an entire town was blown off the map.As the two narratives converge, the shocking work of the poets is fully revealed, the body count rises, and the world crashes toward a Tower of Babel event which would leave all language meaningless. A brilliant thriller that connects very modern questions of privacy, identity, and the rising obsession of data collection to centuries-old ideas about the power of language and coercion, Lexicon is Max Barry's most ambitious and spellbinding novel yet.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 76,
-        "adult fiction": 74,
-        "audiobook": 76,
-        "fantasy": 288,
-        "fiction": 781,
-        "mystery": 164,
-        "science fiction": 771,
-        "science fiction (dystopia)": 64,
-        "science fiction fantasy": 80,
-        "thriller": 385
+  "author": "Max Barry",
+  "id": "4143",
+  "description": "At an exclusive school somewhere outside of Arlington, Virginia, students aren't taught history, geography, or mathematics--at least not in the usual ways. Instead, they are taught to persuade. Here the art of coercion has been raised to a science. Students harness the hidden power of language to manipulate the mind and learn to break down individuals by psychographic markers in order to take control of their thoughts. The very best will graduate as \"poets\", adept wielders of language who belong to a nameless organization that is as influential as it is secretive.Whip-smart orphan Emily Ruff is making a living running a three-card Monte game on the streets of San Francisco when she attracts the attention of the organization's recruiters. She is flown across the country for the school's strange and rigorous entrance exams, where, once admitted, she will be taught the fundamentals of persuasion by Bronte, Eliot, and Lowell--who have adopted the names of famous poets to conceal their true identities. For in the organization, nothing is more dangerous than revealing who you are: Poets must never expose their feelings lest they be manipulated. Emily becomes the school's most talented prodigy until she makes a catastrophic mistake: She falls in love.Meanwhile, a seemingly innocent man named Wil Jamieson is brutally ambushed by two strange men in an airport bathroom. Although he has no recollection of anything they claim he's done, it turns out Wil is the key to a secret war between rival factions of poets and is quickly caught in their increasingly deadly crossfire. Pursued relentlessly by people with powers he can barely comprehend and protected by the very man who first attacked him, Wil discovers that everything he thought he knew about his past was fiction. In order to survive, must journey to the toxically decimated town of Broken Hill, Australia, to discover who he is and why an entire town was blown off the map.As the two narratives converge, the shocking work of the poets is fully revealed, the body count rises, and the world crashes toward a Tower of Babel event which would leave all language meaningless. A brilliant thriller that connects very modern questions of privacy, identity, and the rising obsession of data collection to centuries-old ideas about the power of language and coercion, Lexicon is Max Barry's most ambitious and spellbinding novel yet.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "4143_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "4143_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4143_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "4143_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4143_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 34928,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "4143_2"
     },
-    "pages": 994,
-    "title": "Lexicon",
-    "url": "https://www.goodreads.com/book/show/16158596-lexicon",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "4143_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4143_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 34928,
+    "score": 3.91
+  },
+  "pages": 994,
+  "title": "Lexicon",
+  "url": "https://www.goodreads.com/book/show/16158596-lexicon",
+  "year_published": 2013
 }

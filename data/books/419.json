@@ -1,55 +1,55 @@
 {
-    "author": "Nancy Kress",
-    "id": "419",
-    "description": "The year is 2035. After ecological disasters nearly destroyed the Earth, 26 survivors\u2014the last of humanity\u2014are trapped by an alien race in a sterile enclosure known as the Shell. Fifteen-year-old Pete is one of the Six\u2014children who were born deformed or sterile and raised in the Shell. As, one by one, the survivors grow sick and die, Pete and the Six struggle to put aside their anger at the alien Tesslies in order to find the means to rebuild the earth together. Their only hope lies within brief time-portals into the recent past, where they bring back children to replenish their disappearing gene pool. Meanwhile, in 2013, brilliant mathematician Julie Kahn works with the FBI to solve a series of\u00a0inexplicable kidnappings. Suddenly her predictive algorithms begin to reveal more than just criminal activity. As she begins to realize her role in the impending catastrophe,\u00a0simultaneously affecting\u00a0the Earth and the Shell, Julie closes in on the truth. She and Pete are converging in time upon the future of humanity\u2014a future which might never unfold. Weaving three consecutive time lines to unravel both the mystery of the Earth's destruction and the key to its salvation, this taut post-apocalyptic thriller offers a topical plot with a satisfying twist.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 45,
-        "fiction": 77,
-        "novella": 21,
-        "science fiction": 252,
-        "science fiction (aliens)": 10,
-        "science fiction (apocalyptic)": 26,
-        "science fiction (dystopia)": 32,
-        "science fiction (time travel)": 51,
-        "science fiction fantasy": 14,
-        "speculative fiction": 16
+  "author": "Nancy Kress",
+  "id": "419",
+  "description": "The year is 2035. After ecological disasters nearly destroyed the Earth, 26 survivors—the last of humanity—are trapped by an alien race in a sterile enclosure known as the Shell. Fifteen-year-old Pete is one of the Six—children who were born deformed or sterile and raised in the Shell. As, one by one, the survivors grow sick and die, Pete and the Six struggle to put aside their anger at the alien Tesslies in order to find the means to rebuild the earth together. Their only hope lies within brief time-portals into the recent past, where they bring back children to replenish their disappearing gene pool. Meanwhile, in 2013, brilliant mathematician Julie Kahn works with the FBI to solve a series of inexplicable kidnappings. Suddenly her predictive algorithms begin to reveal more than just criminal activity. As she begins to realize her role in the impending catastrophe, simultaneously affecting the Earth and the Shell, Julie closes in on the truth. She and Pete are converging in time upon the future of humanity—a future which might never unfold. Weaving three consecutive time lines to unravel both the mystery of the Earth's destruction and the key to its salvation, this taut post-apocalyptic thriller offers a topical plot with a satisfying twist.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "419_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "419_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "419_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "419_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "419_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "419_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "419_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2634,
-        "score": 3.48
+    {
+      "status": "maintenance",
+      "stock_id": "419_2"
     },
-    "pages": 1065,
-    "title": "After the Fall, Before the Fall, During the Fall",
-    "url": "https://www.goodreads.com/book/show/13163688-after-the-fall-before-the-fall-during-the-fall",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "419_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "419_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "419_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "419_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2634,
+    "score": 3.48
+  },
+  "pages": 1065,
+  "title": "After the Fall, Before the Fall, During the Fall",
+  "url": "https://www.goodreads.com/book/show/13163688-after-the-fall-before-the-fall-during-the-fall",
+  "year_published": 2012
 }

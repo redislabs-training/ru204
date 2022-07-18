@@ -1,66 +1,66 @@
 {
-    "author": "Dan Wells",
-    "id": "319",
-    "description": "Two decades before the events of Partials, the world was locked in a different battle for survival: a global war for the last remaining oil reserves on the planet. It was for the Isolation War that the American government contracted the ParaGen Corporation to manufacture the Partials\u2014our last hope in reclaiming energy independence from China. And it was on these fields of battle that the seeds of humanity's eventual destruction were sown.Isolation takes us back to the front lines of this war, a time when mankind's ambition far outstripped its foresight. Heron, a newly trained Partial soldier who specializes in infiltration, is sent on a mission deep behind enemy lines. What she discovers there has far-reaching implications\u2014not only for the Isolation War, but for Partials and humans alike long after this war is over.A powerful take of our world on the brink, Isolation gives readers a glimpse into the history from which Partials was born\u2014as well as clues to where the Partials Sequence is heading next.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 42,
-        "fantasy": 21,
-        "fiction": 27,
-        "novella": 42,
-        "science fiction": 92,
-        "science fiction (apocalyptic)": 13,
-        "science fiction (dystopia)": 107,
-        "short stories": 56,
-        "young adult": 143,
-        "young adult (teen)": 9
+  "author": "Dan Wells",
+  "id": "319",
+  "description": "Two decades before the events of Partials, the world was locked in a different battle for survival: a global war for the last remaining oil reserves on the planet. It was for the Isolation War that the American government contracted the ParaGen Corporation to manufacture the Partials—our last hope in reclaiming energy independence from China. And it was on these fields of battle that the seeds of humanity's eventual destruction were sown.Isolation takes us back to the front lines of this war, a time when mankind's ambition far outstripped its foresight. Heron, a newly trained Partial soldier who specializes in infiltration, is sent on a mission deep behind enemy lines. What she discovers there has far-reaching implications—not only for the Isolation War, but for Partials and humans alike long after this war is over.A powerful take of our world on the brink, Isolation gives readers a glimpse into the history from which Partials was born—as well as clues to where the Partials Sequence is heading next.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "short stories",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "319_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "319_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "319_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "319_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "319_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "319_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "319_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "319_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "319_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "319_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3757,
-        "score": 3.93
+    {
+      "status": "maintenance",
+      "stock_id": "319_2"
     },
-    "pages": 638,
-    "title": "Isolation",
-    "url": "https://www.goodreads.com/book/show/13645264-isolation",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "319_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "319_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "319_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "319_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "319_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "319_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "319_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3757,
+    "score": 3.93
+  },
+  "pages": 638,
+  "title": "Isolation",
+  "url": "https://www.goodreads.com/book/show/13645264-isolation",
+  "year_published": 2012
 }

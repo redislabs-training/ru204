@@ -1,67 +1,67 @@
 {
-    "author": "Karen Musser Nortman",
-    "id": "109",
-    "description": "LARGE PRINT VERSION. A 1937 vintage camper trailer half hidden in weeds catches Lynne McBriar's eye when she is visiting an elderly friend Ben. Ben eagerly sells it to her and she just as eagerly embarks on a restoration. But after each remodel, sleeping in the trailer lands Lynne and her daughter Dinah in a previous decade-exciting, yet frightening. Glimpses of their home town and ancestors fifty or sixty years earlier is exciting and also offers some clues to the mystery of Ben's lost love. But when Dinah makes a trip on her own, separating herself from her mother by decades, Lynne has never known such fear. It is a trip that may upset the future if Lynne and her estranged husband can't team up to bring their daughter back.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 3,
-        "fantasy": 7,
-        "fiction": 8,
-        "historical": 2,
-        "historical (historical fiction)": 2,
-        "mystery": 2,
-        "science fiction": 6,
-        "science fiction (time travel)": 26,
-        "science fiction fantasy": 2,
-        "thriller (mystery thriller)": 2
+  "author": "Karen Musser Nortman",
+  "id": "109",
+  "description": "LARGE PRINT VERSION. A 1937 vintage camper trailer half hidden in weeds catches Lynne McBriar's eye when she is visiting an elderly friend Ben. Ben eagerly sells it to her and she just as eagerly embarks on a restoration. But after each remodel, sleeping in the trailer lands Lynne and her daughter Dinah in a previous decade-exciting, yet frightening. Glimpses of their home town and ancestors fifty or sixty years earlier is exciting and also offers some clues to the mystery of Ben's lost love. But when Dinah makes a trip on her own, separating herself from her mother by decades, Lynne has never known such fear. It is a trip that may upset the future if Lynne and her estranged husband can't team up to bring their daughter back.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "109_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "109_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "109_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "109_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "109_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "109_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "109_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "109_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "109_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "109_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 671,
-        "score": 4.0
+    {
+      "status": "available",
+      "stock_id": "109_2"
     },
-    "pages": 626,
-    "title": "The Time Travel Trailer",
-    "url": "https://www.goodreads.com/book/show/23667317-the-time-travel-trailer",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "109_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "109_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "109_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "109_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "109_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "109_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "109_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 671,
+    "score": 4
+  },
+  "pages": 626,
+  "title": "The Time Travel Trailer",
+  "url": "https://www.goodreads.com/book/show/23667317-the-time-travel-trailer",
+  "year_published": 2014
 }

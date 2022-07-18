@@ -1,54 +1,54 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "266",
-    "description": "It is a dark and snowy night when the Magic Tree House whisks Jack and Annie back to colonial times. General George Washington is about to lead his army in a sneak attack against their enemy. But now a terrible weather is making the great general question his plans. Can Jack and Annie keep history on track? The fate of the country rests in their hands!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 32,
-        "childrens": 86,
-        "childrens (chapter books)": 38,
-        "fantasy": 96,
-        "fantasy (magic)": 17,
-        "fiction": 76,
-        "historical": 21,
-        "historical (historical fiction)": 100,
-        "science fiction (time travel)": 25,
-        "young adult": 15
+  "author": "Mary Pope Osborne",
+  "id": "266",
+  "description": "It is a dark and snowy night when the Magic Tree House whisks Jack and Annie back to colonial times. General George Washington is about to lead his army in a sneak attack against their enemy. But now a terrible weather is making the great general question his plans. Can Jack and Annie keep history on track? The fate of the country rests in their hands!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "266_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "266_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "266_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "266_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "266_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "266_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "266_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7474,
-        "score": 3.91
+    {
+      "status": "on_loan",
+      "stock_id": "266_2"
     },
-    "pages": 1000,
-    "title": "Revolutionary War on Wednesday",
-    "url": "https://www.goodreads.com/book/show/93734.Revolutionary_War_on_Wednesday",
-    "year_published": 2000
+    {
+      "status": "on_loan",
+      "stock_id": "266_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "266_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "266_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "266_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7474,
+    "score": 3.91
+  },
+  "pages": 1000,
+  "title": "Revolutionary War on Wednesday",
+  "url": "https://www.goodreads.com/book/show/93734.Revolutionary_War_on_Wednesday",
+  "year_published": 2000
 }

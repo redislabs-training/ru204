@@ -1,66 +1,66 @@
 {
-    "author": "Louise Erdrich",
-    "id": "3333",
-    "description": "Louise Erdrich paints a startling portrait of a young woman fighting for her life and her unborn child against oppressive forces that manifest in the wake of a cataclysmic event in this dystopian novel. Twenty-six-year-old Cedar Hawk Songmaker, adopted daughter of a pair of Minneapolis liberals, is as disturbed and uncertain as the rest of America around her. But for Cedar, this change is profound and deeply personal. She is four months pregnant.Though she wants to tell the adoptive parents who raised her from infancy, Cedar first feels compelled to find her birth mother, Mary Potts, an Ojibwe to understand both her and her baby\u2019s origins. As Cedar goes back to her own biological beginnings, society around her begins to disintegrate, fueled by a swelling panic about the end of humanity.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 62,
-        "adult fiction": 52,
-        "audiobook": 76,
-        "fantasy": 60,
-        "feminism": 54,
-        "fiction": 735,
-        "literary fiction": 64,
-        "science fiction": 289,
-        "science fiction (dystopia)": 287,
-        "speculative fiction": 69
+  "author": "Louise Erdrich",
+  "id": "3333",
+  "description": "Louise Erdrich paints a startling portrait of a young woman fighting for her life and her unborn child against oppressive forces that manifest in the wake of a cataclysmic event in this dystopian novel. Twenty-six-year-old Cedar Hawk Songmaker, adopted daughter of a pair of Minneapolis liberals, is as disturbed and uncertain as the rest of America around her. But for Cedar, this change is profound and deeply personal. She is four months pregnant.Though she wants to tell the adoptive parents who raised her from infancy, Cedar first feels compelled to find her birth mother, Mary Potts, an Ojibwe to understand both her and her baby’s origins. As Cedar goes back to her own biological beginnings, society around her begins to disintegrate, fueled by a swelling panic about the end of humanity.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fantasy",
+    "feminism",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3333_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3333_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3333_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3333_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3333_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3333_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3333_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3333_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3333_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3333_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19421,
-        "score": 3.55
+    {
+      "status": "available",
+      "stock_id": "3333_2"
     },
-    "pages": 596,
-    "title": "Future Home of the Living God",
-    "url": "https://www.goodreads.com/book/show/34217599-future-home-of-the-living-god",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "3333_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3333_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3333_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3333_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3333_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3333_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3333_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19421,
+    "score": 3.55
+  },
+  "pages": 596,
+  "title": "Future Home of the Living God",
+  "url": "https://www.goodreads.com/book/show/34217599-future-home-of-the-living-god",
+  "year_published": 2017
 }

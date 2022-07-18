@@ -1,38 +1,38 @@
 {
-    "author": "Robert Charles Wilson",
-    "id": "329",
-    "description": "Scott Warden is a man haunted by the past-and soon to be haunted by the future. In early twenty-first-century Thailand, Scott is an expatriate slacker. Then, one day, he inadvertently witnesses an impossible event: the violent appearance of a 200-foot stone pillar in the forested interior. Its arrival collapses trees for a quarter mile around its base, freezing ice out of the air and emitting a burst of ionizing radiation. It appears to be composed of an exotic form of matter. And the inscription chiseled into it commemorates a military victory--sixteen years in the future.Shortly afterwards, another, larger pillar arrives in the center of Bangkok-obliterating the city and killing thousands. Over the next several years, human society is transformed by these mysterious arrivals from, seemingly, our own near future. Who is the warlord \"Kuin\" whose victories they note? Scott wants only to rebuild his life. But some strange loop of causality keeps drawing him in, to the central mystery and a final battle with the future.\u00a0The Chronoliths is a 2002 Hugo Award Nominee for Best Novel and the winner of the 2002 John W. Campbell Memorial Award.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 10,
-        "cultural (canada)": 5,
-        "fantasy": 8,
-        "fiction": 103,
-        "mystery": 4,
-        "science fiction": 340,
-        "science fiction (near future)": 7,
-        "science fiction (time travel)": 68,
-        "science fiction fantasy": 10,
-        "speculative fiction": 9
+  "author": "Robert Charles Wilson",
+  "id": "329",
+  "description": "Scott Warden is a man haunted by the past-and soon to be haunted by the future. In early twenty-first-century Thailand, Scott is an expatriate slacker. Then, one day, he inadvertently witnesses an impossible event: the violent appearance of a 200-foot stone pillar in the forested interior. Its arrival collapses trees for a quarter mile around its base, freezing ice out of the air and emitting a burst of ionizing radiation. It appears to be composed of an exotic form of matter. And the inscription chiseled into it commemorates a military victory--sixteen years in the future.Shortly afterwards, another, larger pillar arrives in the center of Bangkok-obliterating the city and killing thousands. Over the next several years, human society is transformed by these mysterious arrivals from, seemingly, our own near future. Who is the warlord \"Kuin\" whose victories they note? Scott wants only to rebuild his life. But some strange loop of causality keeps drawing him in, to the central mystery and a final battle with the future. The Chronoliths is a 2002 Hugo Award Nominee for Best Novel and the winner of the 2002 John W. Campbell Memorial Award.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (near future)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "329_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "329_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "329_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4917,
-        "score": 3.67
-    },
-    "pages": 527,
-    "title": "The Chronoliths",
-    "url": "https://www.goodreads.com/book/show/116413.The_Chronoliths",
-    "year_published": 2001
+    {
+      "status": "maintenance",
+      "stock_id": "329_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4917,
+    "score": 3.67
+  },
+  "pages": 527,
+  "title": "The Chronoliths",
+  "url": "https://www.goodreads.com/book/show/116413.The_Chronoliths",
+  "year_published": 2001
 }

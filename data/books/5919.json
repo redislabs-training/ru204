@@ -1,55 +1,55 @@
 {
-    "author": "Ling  Ma",
-    "id": "5919",
-    "description": "Candace Chen, a millennial drone self-sequestered in a Manhattan office tower, is devoted to routine. So she barely notices when a plague of biblical proportions sweeps New York. Then Shen Fever spreads. Families flee. Companies halt operations. The subways squeak to a halt. Soon entirely alone, still unfevered, she photographs the eerie, abandoned city as the anonymous blogger NY Ghost.Candace won\u2019t be able to make it on her own forever, though. Enter a group of survivors, led by the power-hungry IT tech Bob. They\u2019re traveling to a place called the Facility, where, Bob promises, they will have everything they need to start society anew. But Candace is carrying a secret she knows Bob will exploit. Should she escape from her rescuers?A send-up and takedown of the rituals, routines, and missed opportunities of contemporary life, Ling Ma\u2019s Severance is a quirky coming-of-adulthood tale and satire.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 111,
-        "apocalyptic (post apocalyptic)": 189,
-        "audiobook": 121,
-        "contemporary": 132,
-        "fiction": 1337,
-        "literary fiction": 109,
-        "science fiction": 531,
-        "science fiction (apocalyptic)": 91,
-        "science fiction (dystopia)": 370,
-        "speculative fiction": 86
+  "author": "Ling  Ma",
+  "id": "5919",
+  "description": "Candace Chen, a millennial drone self-sequestered in a Manhattan office tower, is devoted to routine. So she barely notices when a plague of biblical proportions sweeps New York. Then Shen Fever spreads. Families flee. Companies halt operations. The subways squeak to a halt. Soon entirely alone, still unfevered, she photographs the eerie, abandoned city as the anonymous blogger NY Ghost.Candace won’t be able to make it on her own forever, though. Enter a group of survivors, led by the power-hungry IT tech Bob. They’re traveling to a place called the Facility, where, Bob promises, they will have everything they need to start society anew. But Candace is carrying a secret she knows Bob will exploit. Should she escape from her rescuers?A send-up and takedown of the rituals, routines, and missed opportunities of contemporary life, Ling Ma’s Severance is a quirky coming-of-adulthood tale and satire.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "contemporary",
+    "fiction",
+    "literary fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "5919_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "5919_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5919_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5919_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5919_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "5919_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "5919_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 44130,
-        "score": 3.84
+    {
+      "status": "on_loan",
+      "stock_id": "5919_2"
     },
-    "pages": 791,
-    "title": "Severance",
-    "url": "https://www.goodreads.com/book/show/36348525-severance",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "5919_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5919_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "5919_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "5919_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 44130,
+    "score": 3.84
+  },
+  "pages": 791,
+  "title": "Severance",
+  "url": "https://www.goodreads.com/book/show/36348525-severance",
+  "year_published": 2018
 }

@@ -1,59 +1,59 @@
 {
-    "author": "Blake Crouch",
-    "id": "16272",
-    "description": "Memory makes reality.That's what NYC cop Barry Sutton is learning, as he investigates the devastating phenomenon the media has dubbed False Memory Syndrome\u2014a mysterious affliction that drives its victims mad with memories of a life they never lived.That's what neuroscientist Helena Smith believes. It's why she's dedicated her life to creating a technology that will let us preserve our most precious memories. If she succeeds, anyone will be able to re-experience a first kiss, the birth of a child, the final moment with a dying parent.As Barry searches for the truth, he comes face to face with an opponent more terrifying than any disease\u2014a force that attacks not just our minds, but the very fabric of the past. And as its effects begin to unmake the world as we know it, only he and Helena, working together, will stand a chance at defeating it.But how can they make a stand when reality itself is shifting and crumbling all around them?At once a relentless pageturner and an intricate science-fiction puzzlebox about time, identity, and memory, Recursion is a thriller as only Blake Crouch could imagine it\u2014and his most ambitious, mind-boggling, irresistible work to date.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 271,
-        "audiobook": 367,
-        "fantasy": 192,
-        "fiction": 2040,
-        "mystery": 284,
-        "science fiction": 2742,
-        "science fiction (time travel)": 610,
-        "science fiction fantasy": 198,
-        "thriller": 1067,
-        "thriller (mystery thriller)": 226
+  "author": "Blake Crouch",
+  "id": "16272",
+  "description": "Memory makes reality.That's what NYC cop Barry Sutton is learning, as he investigates the devastating phenomenon the media has dubbed False Memory Syndrome—a mysterious affliction that drives its victims mad with memories of a life they never lived.That's what neuroscientist Helena Smith believes. It's why she's dedicated her life to creating a technology that will let us preserve our most precious memories. If she succeeds, anyone will be able to re-experience a first kiss, the birth of a child, the final moment with a dying parent.As Barry searches for the truth, he comes face to face with an opponent more terrifying than any disease—a force that attacks not just our minds, but the very fabric of the past. And as its effects begin to unmake the world as we know it, only he and Helena, working together, will stand a chance at defeating it.But how can they make a stand when reality itself is shifting and crumbling all around them?At once a relentless pageturner and an intricate science-fiction puzzlebox about time, identity, and memory, Recursion is a thriller as only Blake Crouch could imagine it—and his most ambitious, mind-boggling, irresistible work to date.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "16272_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "16272_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16272_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16272_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16272_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16272_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "16272_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "16272_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 122865,
-        "score": 4.15
+    {
+      "status": "maintenance",
+      "stock_id": "16272_2"
     },
-    "pages": 536,
-    "title": "Recursion",
-    "url": "https://www.goodreads.com/book/show/42046112-recursion",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "16272_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "16272_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "16272_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "16272_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "16272_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 122865,
+    "score": 4.15
+  },
+  "pages": 536,
+  "title": "Recursion",
+  "url": "https://www.goodreads.com/book/show/42046112-recursion",
+  "year_published": 2019
 }

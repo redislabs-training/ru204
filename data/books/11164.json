@@ -1,44 +1,44 @@
 {
-    "author": "Kurt Vonnegut Jr.",
-    "id": "11164",
-    "description": "Told with deadpan humour and bitter irony, Kurt Vonnegut's cult tale of global destruction preys on our deepest fears of witnessing Armageddon and, worse still, surviving it ...Dr Felix Hoenikker, one of the founding 'fathers' of the atomic bomb, has left a deadly legacy to the world. For he's the inventor of 'ice-nine', a lethal chemical capable of freezing the entire planet. The search for its whereabouts leads to Hoenikker's three ecentric children, to a crazed dictator in the Caribbean, to madness. Felix Hoenikker's Death Wish comes true when his last, fatal gift to humankind brings about the end, that for all of us, is nigh...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "classics": 3592,
-        "fantasy": 220,
-        "fiction": 5866,
-        "humor": 714,
-        "literature": 629,
-        "literature (20th century)": 203,
-        "literature (american)": 337,
-        "novels": 518,
-        "science fiction": 2971,
-        "science fiction (dystopia)": 424
+  "author": "Kurt Vonnegut Jr.",
+  "id": "11164",
+  "description": "Told with deadpan humour and bitter irony, Kurt Vonnegut's cult tale of global destruction preys on our deepest fears of witnessing Armageddon and, worse still, surviving it ...Dr Felix Hoenikker, one of the founding 'fathers' of the atomic bomb, has left a deadly legacy to the world. For he's the inventor of 'ice-nine', a lethal chemical capable of freezing the entire planet. The search for its whereabouts leads to Hoenikker's three ecentric children, to a crazed dictator in the Caribbean, to madness. Felix Hoenikker's Death Wish comes true when his last, fatal gift to humankind brings about the end, that for all of us, is nigh...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "literature",
+    "literature (20th century)",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "11164_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "11164_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "11164_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "11164_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 344663,
-        "score": 4.16
+    {
+      "status": "available",
+      "stock_id": "11164_2"
     },
-    "pages": 812,
-    "title": "Cat's Cradle",
-    "url": "https://www.goodreads.com/book/show/135479.Cat_s_Cradle",
-    "year_published": 1963
+    {
+      "status": "on_loan",
+      "stock_id": "11164_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 344663,
+    "score": 4.16
+  },
+  "pages": 812,
+  "title": "Cat's Cradle",
+  "url": "https://www.goodreads.com/book/show/135479.Cat_s_Cradle",
+  "year_published": 1963
 }

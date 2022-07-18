@@ -1,35 +1,35 @@
 {
-    "author": "Alan Moore",
-    "id": "254",
-    "description": "This is the tale of Neopolis, a modern metropolis with a citizentry made up exclusively of super beings. In a city where everyone is blessed with powers, it takes a unique and powerful police force to protect and serve. In this Eisner Award-winning book, we are introduced to the extremely diverse officers of Precinct Ten; an armored and talking dog, a genetically engineered \"perfect woman,\" a high tech cowboy, an indestructible man, and a rookie with a toy box full of \"helpers.\" Individually they are unique personalities, together they are Neopolis' finest.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 45,
-        "comics (superheroes)": 45,
-        "fantasy": 27,
-        "fiction": 38,
-        "graphic novels comics": 44,
-        "mystery (crime)": 17,
-        "science fiction": 35,
-        "sequential art (comics)": 508,
-        "sequential art (comix)": 11,
-        "sequential art (graphic novels)": 364
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "254_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9616,
-        "score": 4.1
-    },
-    "pages": 987,
-    "title": "Top 10, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/598638.Top_10_Vol_1",
-    "year_published": 2000
+  "author": "Alan Moore",
+  "id": "254",
+  "description": "This is the tale of Neopolis, a modern metropolis with a citizentry made up exclusively of super beings. In a city where everyone is blessed with powers, it takes a unique and powerful police force to protect and serve. In this Eisner Award-winning book, we are introduced to the extremely diverse officers of Precinct Ten; an armored and talking dog, a genetically engineered \"perfect woman,\" a high tech cowboy, an indestructible man, and a rookie with a toy box full of \"helpers.\" Individually they are unique personalities, together they are Neopolis' finest.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "comics (superheroes)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "mystery (crime)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (comix)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "254_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9616,
+    "score": 4.1
+  },
+  "pages": 987,
+  "title": "Top 10, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/598638.Top_10_Vol_1",
+  "year_published": 2000
 }

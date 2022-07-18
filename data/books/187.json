@@ -1,44 +1,44 @@
 {
-    "author": "Michael Swanwick",
-    "id": "187",
-    "description": "World-renowned paleontologist Richard Leyster's universe changedforever the day a stranger named Griffin walked into his office with a remarkable job offer . . . and an ice cooler containing the head of a freshly killed Stegosaurus. For Leyster and a select group of scientific colleagues an impossible fantasy has come true: the ability to study dinosaurs up close, in their own era and milieu. But tampering with time and paradox can have disastrous effects on the future and the past alike, breeding a violent new strain of fundamentalist terror -- and, worse still, encouraging brilliant rebels like Dr. Gertrude Salley to toy with the working mechanisms of natural law, no matter what the consequences. And when they concern the largest, most savage creatures that ever walked the Earth, the consequences may be too horrifying to imagine . . .",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 9,
-        "animals (dinosaurs)": 27,
-        "fantasy": 7,
-        "fiction": 54,
-        "historical (historical fiction)": 3,
-        "science fiction": 131,
-        "science fiction (time travel)": 63,
-        "science fiction fantasy": 5,
-        "speculative fiction": 5,
-        "thriller": 10
+  "author": "Michael Swanwick",
+  "id": "187",
+  "description": "World-renowned paleontologist Richard Leyster's universe changedforever the day a stranger named Griffin walked into his office with a remarkable job offer . . . and an ice cooler containing the head of a freshly killed Stegosaurus. For Leyster and a select group of scientific colleagues an impossible fantasy has come true: the ability to study dinosaurs up close, in their own era and milieu. But tampering with time and paradox can have disastrous effects on the future and the past alike, breeding a violent new strain of fundamentalist terror -- and, worse still, encouraging brilliant rebels like Dr. Gertrude Salley to toy with the working mechanisms of natural law, no matter what the consequences. And when they concern the largest, most savage creatures that ever walked the Earth, the consequences may be too horrifying to imagine . . .",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "animals (dinosaurs)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "187_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "187_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "187_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "187_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1756,
-        "score": 3.49
+    {
+      "status": "on_loan",
+      "stock_id": "187_2"
     },
-    "pages": 752,
-    "title": "Bones of the Earth",
-    "url": "https://www.goodreads.com/book/show/243862.Bones_of_the_Earth",
-    "year_published": 2002
+    {
+      "status": "on_loan",
+      "stock_id": "187_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1756,
+    "score": 3.49
+  },
+  "pages": 752,
+  "title": "Bones of the Earth",
+  "url": "https://www.goodreads.com/book/show/243862.Bones_of_the_Earth",
+  "year_published": 2002
 }

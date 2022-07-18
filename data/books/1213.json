@@ -1,47 +1,47 @@
 {
-    "author": "Danny Tobey",
-    "id": "1213",
-    "description": "You are invited!Come inside and play with G.O.D.Bring your friends!It\u2019s fun!But remember the rules. Win and ALL YOUR DREAMS COME TRUE.\u2122 Lose, you die!With those words, Charlie and his friends enter the G.O.D. Game, a video game run by underground hackers and controlled by a mysterious AI that believes it\u2019s God. Through their phone-screens and high-tech glasses, the teens\u2019 realities blur with a virtual world of creeping vines, smoldering torches, runes, glyphs, gods, and mythical creatures. When they accomplish a mission, the game rewards them with expensive tech, revenge on high-school tormentors, and cash flowing from ATMs. Slaying a hydra and drawing a bloody pentagram as payment to a Greek god seem harmless at first. Fun even.But then the threatening messages start. Worship me. Obey me. Complete a mission, however cruel, or the game reveals their secrets and crushes their dreams. Tasks that seemed harmless at first take on deadly consequences. Mysterious packages show up at their homes. Shadowy figures start following them, appearing around corners, attacking them in parking garages. Who else is playing this game, and how far will they go to win?And what of the game\u2019s first promise: win, win big, lose, you die? Dying in a virtual world doesn\u2019t really mean death in real life\u2014does it?As Charlie and his friends try to find a way out of the game, they realize they\u2019ve been manipulated into a bigger web they can\u2019t escape: an AI that learned its cruelty from watching us.God is always watching, and He says when the game is done.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 10,
-        "contemporary": 15,
-        "fantasy": 20,
-        "fiction": 65,
-        "horror": 18,
-        "science fiction": 129,
-        "suspense": 13,
-        "thriller": 68,
-        "thriller (mystery thriller)": 13,
-        "young adult": 24
+  "author": "Danny Tobey",
+  "id": "1213",
+  "description": "You are invited!Come inside and play with G.O.D.Bring your friends!It’s fun!But remember the rules. Win and ALL YOUR DREAMS COME TRUE.™ Lose, you die!With those words, Charlie and his friends enter the G.O.D. Game, a video game run by underground hackers and controlled by a mysterious AI that believes it’s God. Through their phone-screens and high-tech glasses, the teens’ realities blur with a virtual world of creeping vines, smoldering torches, runes, glyphs, gods, and mythical creatures. When they accomplish a mission, the game rewards them with expensive tech, revenge on high-school tormentors, and cash flowing from ATMs. Slaying a hydra and drawing a bloody pentagram as payment to a Greek god seem harmless at first. Fun even.But then the threatening messages start. Worship me. Obey me. Complete a mission, however cruel, or the game reveals their secrets and crushes their dreams. Tasks that seemed harmless at first take on deadly consequences. Mysterious packages show up at their homes. Shadowy figures start following them, appearing around corners, attacking them in parking garages. Who else is playing this game, and how far will they go to win?And what of the game’s first promise: win, win big, lose, you die? Dying in a virtual world doesn’t really mean death in real life—does it?As Charlie and his friends try to find a way out of the game, they realize they’ve been manipulated into a bigger web they can’t escape: an AI that learned its cruelty from watching us.God is always watching, and He says when the game is done.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1213_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1213_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1213_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1213_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1213_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2773,
-        "score": 3.74
+    {
+      "status": "maintenance",
+      "stock_id": "1213_2"
     },
-    "pages": 900,
-    "title": "The God Game",
-    "url": "https://www.goodreads.com/book/show/37858133-the-god-game",
-    "year_published": 2020
+    {
+      "status": "maintenance",
+      "stock_id": "1213_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1213_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2773,
+    "score": 3.74
+  },
+  "pages": 900,
+  "title": "The God Game",
+  "url": "https://www.goodreads.com/book/show/37858133-the-god-game",
+  "year_published": 2020
 }

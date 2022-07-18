@@ -1,59 +1,59 @@
 {
-    "author": "Iain M. Banks",
-    "id": "1807",
-    "description": "The man known as Cheradenine Zakalwe was one of Special Circumstances' foremost agents, changing the destiny of planets to suit the Culture through intrigue, dirty tricks and military action.The woman known as Diziet Sma had plucked him from obscurity and pushed him towards his present eminence, but despite all their dealings she did not know him as well as she thought.The drone known as Skaffen-Amtiskaw knew both of these people. It had once saved the woman's life by massacring her attackers in a particularly bloody manner. It believed the man to be a lost cause. But not even its machine could see the horrors in his past.Ferociously intelligent, both witty and horrific, USE OF WEAPONS is a masterpiece of science fiction.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 37,
-        "cultural": 71,
-        "fantasy": 54,
-        "fiction": 528,
-        "science fiction": 1535,
-        "science fiction fantasy": 79,
-        "space": 52,
-        "space (space opera)": 225,
-        "speculative fiction": 37,
-        "war": 44
+  "author": "Iain M. Banks",
+  "id": "1807",
+  "description": "The man known as Cheradenine Zakalwe was one of Special Circumstances' foremost agents, changing the destiny of planets to suit the Culture through intrigue, dirty tricks and military action.The woman known as Diziet Sma had plucked him from obscurity and pushed him towards his present eminence, but despite all their dealings she did not know him as well as she thought.The drone known as Skaffen-Amtiskaw knew both of these people. It had once saved the woman's life by massacring her attackers in a particularly bloody manner. It believed the man to be a lost cause. But not even its machine could see the horrors in his past.Ferociously intelligent, both witty and horrific, USE OF WEAPONS is a masterpiece of science fiction.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "cultural",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1807_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1807_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1807_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1807_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1807_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1807_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1807_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "1807_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 40443,
-        "score": 4.18
+    {
+      "status": "on_loan",
+      "stock_id": "1807_2"
     },
-    "pages": 1244,
-    "title": "Use of Weapons",
-    "url": "https://www.goodreads.com/book/show/12007.Use_of_Weapons",
-    "year_published": 1990
+    {
+      "status": "on_loan",
+      "stock_id": "1807_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1807_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1807_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1807_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "1807_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 40443,
+    "score": 4.18
+  },
+  "pages": 1244,
+  "title": "Use of Weapons",
+  "url": "https://www.goodreads.com/book/show/12007.Use_of_Weapons",
+  "year_published": 1990
 }

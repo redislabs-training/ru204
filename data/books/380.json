@@ -1,51 +1,51 @@
 {
-    "author": "Jodi Taylor",
-    "id": "380",
-    "description": "Ever wondered how it all began?It\u2019s two years since the final victory at the Battersea Barricades. The fighting might be finished, but for Dr Bairstow, just now setting up St Mary's, the struggle is only beginning.How will he assemble his team?From where will his funding come?How can he overcome the massed ranks of the Society for the Protection of Historical Buildings?How do stolen furniture, a practical demonstration at the Stirrup Charge at Waterloo, students\u2019 alcohol-ridden urine, a widowed urban guerrilla, a young man wearing exciting knitwear, and four naked security guards all combine to become the St Mary\u2019s of the future?- See more at: http://www.accentpress.co.uk/Book/173...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 16,
-        "audiobook": 63,
-        "fantasy": 110,
-        "fiction": 85,
-        "historical": 25,
-        "historical (historical fiction)": 66,
-        "novella": 15,
-        "science fiction": 114,
-        "science fiction (time travel)": 145,
-        "short stories": 52
+  "author": "Jodi Taylor",
+  "id": "380",
+  "description": "Ever wondered how it all began?It’s two years since the final victory at the Battersea Barricades. The fighting might be finished, but for Dr Bairstow, just now setting up St Mary's, the struggle is only beginning.How will he assemble his team?From where will his funding come?How can he overcome the massed ranks of the Society for the Protection of Historical Buildings?How do stolen furniture, a practical demonstration at the Stirrup Charge at Waterloo, students’ alcohol-ridden urine, a widowed urban guerrilla, a young man wearing exciting knitwear, and four naked security guards all combine to become the St Mary’s of the future?- See more at: http://www.accentpress.co.uk/Book/173...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "novella",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "380_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "380_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "380_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "380_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "380_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "380_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4612,
-        "score": 4.15
+    {
+      "status": "available",
+      "stock_id": "380_2"
     },
-    "pages": 653,
-    "title": "The Very First Damned Thing",
-    "url": "https://www.goodreads.com/book/show/26308468-the-very-first-damned-thing",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "380_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "380_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "380_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4612,
+    "score": 4.15
+  },
+  "pages": 653,
+  "title": "The Very First Damned Thing",
+  "url": "https://www.goodreads.com/book/show/26308468-the-very-first-damned-thing",
+  "year_published": 2015
 }

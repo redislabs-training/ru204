@@ -1,67 +1,67 @@
 {
-    "author": "Charles Soule",
-    "id": "332",
-    "description": "Poe Dameron, former Republic flyer turned Resistance fighter, is the best pilot in the galaxy. Hand-picked for the resistance by General Leia Organa to lead a squadron on a top-secret and vital mission, Poe sets off to investigate sites of historical importance to the Force \u2014 revealing backstory leading directly into The Force Awakens! Follow Poe and his X-Wing squadron on covert missions against the First Order, brought to you by writer Charles Soule (STAR WARS: LANDO, DAREDEVIL) and artist Phil Noto (STAR WARS: CHEWBACCA, BLACK WIDOW)!Collecting issues 1\u20136 from the ongoing series.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 29,
-        "fantasy": 16,
-        "fiction": 40,
-        "graphic novels comics": 35,
-        "media tie in (star wars)": 418,
-        "science fiction": 90,
-        "sequential art (comics)": 282,
-        "sequential art (graphic novels)": 201,
-        "space": 9,
-        "superheroes (marvel)": 42
+  "author": "Charles Soule",
+  "id": "332",
+  "description": "Poe Dameron, former Republic flyer turned Resistance fighter, is the best pilot in the galaxy. Hand-picked for the resistance by General Leia Organa to lead a squadron on a top-secret and vital mission, Poe sets off to investigate sites of historical importance to the Force — revealing backstory leading directly into The Force Awakens! Follow Poe and his X-Wing squadron on covert missions against the First Order, brought to you by writer Charles Soule (STAR WARS: LANDO, DAREDEVIL) and artist Phil Noto (STAR WARS: CHEWBACCA, BLACK WIDOW)!Collecting issues 1–6 from the ongoing series.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "media tie in (star wars)",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "space",
+    "superheroes (marvel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "332_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "332_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "332_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "332_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "332_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "332_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "332_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "332_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "332_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "332_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2890,
-        "score": 3.67
+    {
+      "status": "maintenance",
+      "stock_id": "332_2"
     },
-    "pages": 1195,
-    "title": "Star Wars: Poe Dameron, Vol. 1: Black Squadron",
-    "url": "https://www.goodreads.com/book/show/29775742-star-wars",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "332_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "332_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "332_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "332_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "332_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "332_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "332_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2890,
+    "score": 3.67
+  },
+  "pages": 1195,
+  "title": "Star Wars: Poe Dameron, Vol. 1: Black Squadron",
+  "url": "https://www.goodreads.com/book/show/29775742-star-wars",
+  "year_published": 2016
 }

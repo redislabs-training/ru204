@@ -1,42 +1,42 @@
 {
-    "author": "Christopher G. Nuttall",
-    "id": "56",
-    "description": "Their past is not what they think it is...  Thrown back in time after the spells binding Whitehall School together nearly collapsed, Emily finds herself in the days of Lord Whitehall. But everything she knows about the past is a lie. The Whitehall Commune is in hiding from a great and terrible foe, while some of the legendary founders bicker like children and others call on deadly and untrustworthy entities with agendas of their own.  Desperately seeking a way back to her own time, her mere presence a boon and a curse to established history, Emily is drawn into a conflict against both rogue wizards and a mysterious force intent on exterminating all magicians before the future school can take shape. But as deadly powers converge on the castle, her time is running out...  ...And, deep beneath Old Whitehall, something dark and dangerous is about to be born.  Note: Discounted for a limited time as consideration for those readers who have been patiently awaiting publication of this book.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (school)": 5,
-        "adventure": 7,
-        "fantasy": 71,
-        "fantasy (magic)": 26,
-        "fiction": 4,
-        "paranormal (demons)": 4,
-        "science fiction": 4,
-        "science fiction (time travel)": 8,
-        "young adult": 8,
-        "young adult (young adult fantasy)": 4
+  "author": "Christopher G. Nuttall",
+  "id": "56",
+  "description": "Their past is not what they think it is...  Thrown back in time after the spells binding Whitehall School together nearly collapsed, Emily finds herself in the days of Lord Whitehall. But everything she knows about the past is a lie. The Whitehall Commune is in hiding from a great and terrible foe, while some of the legendary founders bicker like children and others call on deadly and untrustworthy entities with agendas of their own.  Desperately seeking a way back to her own time, her mere presence a boon and a curse to established history, Emily is drawn into a conflict against both rogue wizards and a mysterious force intent on exterminating all magicians before the future school can take shape. But as deadly powers converge on the castle, her time is running out...  ...And, deep beneath Old Whitehall, something dark and dangerous is about to be born.  Note: Discounted for a limited time as consideration for those readers who have been patiently awaiting publication of this book.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (school)",
+    "adventure",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "paranormal (demons)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "56_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "56_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "56_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "56_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2248,
-        "score": 4.4
+    {
+      "status": "on_loan",
+      "stock_id": "56_2"
     },
-    "pages": 541,
-    "title": "Past Tense",
-    "url": "https://www.goodreads.com/book/show/31186178-past-tense",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "56_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2248,
+    "score": 4.4
+  },
+  "pages": 541,
+  "title": "Past Tense",
+  "url": "https://www.goodreads.com/book/show/31186178-past-tense",
+  "year_published": 2016
 }

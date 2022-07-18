@@ -1,43 +1,43 @@
 {
-    "author": "Stephen Baxter",
-    "id": "354",
-    "description": "The year is 2010. More than a century of ecological damage, industrial and technological expansion, and unchecked population growth has left the Earth on the brink of devastation. As the world\u2019s governments turn inward, one man dares to envision a bolder, brighter future. That man, Reid Malenfant, has a very different solution to the problems plaguing the planet: the exploration and colonization of space. Now Malenfant gambles the very existence of time on a single desperate throw of the dice. Battling national sabotage and international outcry, as apocalyptic riots sweep the globe, he builds a spacecraft and launches it into deep space. The odds are a trillion to one against him. Or are they?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 11,
-        "fiction": 146,
-        "novels": 6,
-        "science fiction": 403,
-        "science fiction (hard science fiction)": 12,
-        "science fiction (time travel)": 23,
-        "science fiction fantasy": 11,
-        "space": 8,
-        "space (space opera)": 14,
-        "speculative fiction": 11
+  "author": "Stephen Baxter",
+  "id": "354",
+  "description": "The year is 2010. More than a century of ecological damage, industrial and technological expansion, and unchecked population growth has left the Earth on the brink of devastation. As the world’s governments turn inward, one man dares to envision a bolder, brighter future. That man, Reid Malenfant, has a very different solution to the problems plaguing the planet: the exploration and colonization of space. Now Malenfant gambles the very existence of time on a single desperate throw of the dice. Battling national sabotage and international outcry, as apocalyptic riots sweep the globe, he builds a spacecraft and launches it into deep space. The odds are a trillion to one against him. Or are they?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (hard science fiction)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "354_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "354_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "354_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "354_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6733,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "354_2"
     },
-    "pages": 598,
-    "title": "Time",
-    "url": "https://www.goodreads.com/book/show/63742.Time",
-    "year_published": 1999
+    {
+      "status": "available",
+      "stock_id": "354_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6733,
+    "score": 3.77
+  },
+  "pages": 598,
+  "title": "Time",
+  "url": "https://www.goodreads.com/book/show/63742.Time",
+  "year_published": 1999
 }

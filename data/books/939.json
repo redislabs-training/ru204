@@ -1,54 +1,54 @@
 {
-    "author": "Kazu Kibuishi",
-    "id": "939",
-    "description": "Emily, Trellis, and Vigo visit Algos Island, where they can access and enter lost memories. They're hoping to uncover the events of Trellis's mysterious childhood -- knowledge they can use against the Elf King. What they discover is a dark secret that changes everything. Meanwhile, the Voice of Emily's Amulet is getting stronger, and threatens to overtake her completely.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 73,
-        "childrens": 58,
-        "childrens (middle grade)": 131,
-        "fantasy": 310,
-        "fiction": 50,
-        "graphic novels comics": 39,
-        "science fiction": 27,
-        "sequential art (comics)": 155,
-        "sequential art (graphic novels)": 497,
-        "young adult": 42
+  "author": "Kazu Kibuishi",
+  "id": "939",
+  "description": "Emily, Trellis, and Vigo visit Algos Island, where they can access and enter lost memories. They're hoping to uncover the events of Trellis's mysterious childhood -- knowledge they can use against the Elf King. What they discover is a dark secret that changes everything. Meanwhile, the Voice of Emily's Amulet is getting stronger, and threatens to overtake her completely.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "939_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "939_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "939_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "939_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "939_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "939_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "939_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10091,
-        "score": 4.42
+    {
+      "status": "maintenance",
+      "stock_id": "939_2"
     },
-    "pages": 996,
-    "title": "Firelight",
-    "url": "https://www.goodreads.com/book/show/25943106-firelight",
-    "year_published": 2016
+    {
+      "status": "maintenance",
+      "stock_id": "939_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "939_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "939_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "939_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10091,
+    "score": 4.42
+  },
+  "pages": 996,
+  "title": "Firelight",
+  "url": "https://www.goodreads.com/book/show/25943106-firelight",
+  "year_published": 2016
 }

@@ -1,67 +1,67 @@
 {
-    "author": "John Marsden",
-    "id": "600",
-    "description": "Life in the war zone enters its sixth month of heart-stopping tension in the latest installment of the internationally bestselling Tomorrow series.In the third installment of the Tomorrow saga, the anything-to-survive existence of Ellie and her friends has sharpened their senses and emboldened their plans. They aren't merely on the defensive anymore; they're also striking back. Their strategy? Attack the enemy not just on land, but also on water. If they have any hope of sabotaging the formidable container ship at Cobbler's Bay, then stealth is a must, but so, too, is one very big explosion.And if they fail, they may face a whole new kind of terror -- imprisonment.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 47,
-        "adventure": 60,
-        "adventure (survival)": 27,
-        "cultural (australia)": 64,
-        "fiction": 202,
-        "science fiction": 37,
-        "science fiction (dystopia)": 100,
-        "war": 147,
-        "young adult": 514,
-        "young adult (teen)": 34
+  "author": "John Marsden",
+  "id": "600",
+  "description": "Life in the war zone enters its sixth month of heart-stopping tension in the latest installment of the internationally bestselling Tomorrow series.In the third installment of the Tomorrow saga, the anything-to-survive existence of Ellie and her friends has sharpened their senses and emboldened their plans. They aren't merely on the defensive anymore; they're also striking back. Their strategy? Attack the enemy not just on land, but also on water. If they have any hope of sabotaging the formidable container ship at Cobbler's Bay, then stealth is a must, but so, too, is one very big explosion.And if they fail, they may face a whole new kind of terror -- imprisonment.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "adventure (survival)",
+    "cultural (australia)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "war",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "600_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "600_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "600_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "600_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "600_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "600_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "600_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "600_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "600_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "600_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17791,
-        "score": 4.2
+    {
+      "status": "maintenance",
+      "stock_id": "600_2"
     },
-    "pages": 1351,
-    "title": "A Killing Frost",
-    "url": "https://www.goodreads.com/book/show/71863.A_Killing_Frost",
-    "year_published": 1995
+    {
+      "status": "available",
+      "stock_id": "600_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "600_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "600_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "600_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "600_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "600_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "600_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17791,
+    "score": 4.2
+  },
+  "pages": 1351,
+  "title": "A Killing Frost",
+  "url": "https://www.goodreads.com/book/show/71863.A_Killing_Frost",
+  "year_published": 1995
 }

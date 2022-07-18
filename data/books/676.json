@@ -1,43 +1,43 @@
 {
-    "author": "Jack London",
-    "id": "676",
-    "description": "A dystopian novel about the terrible oppressions of an American oligarchy at the beginning of the Twentieth Century, and the struggles of a socialist revolutionary movement.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 195,
-        "fiction": 345,
-        "literature": 43,
-        "literature (20th century)": 17,
-        "literature (american)": 28,
-        "novels": 34,
-        "politics": 63,
-        "science fiction": 136,
-        "science fiction (dystopia)": 233,
-        "the united states of america": 15
+  "author": "Jack London",
+  "id": "676",
+  "description": "A dystopian novel about the terrible oppressions of an American oligarchy at the beginning of the Twentieth Century, and the struggles of a socialist revolutionary movement.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fiction",
+    "literature",
+    "literature (20th century)",
+    "literature (american)",
+    "novels",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "the united states of america"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "676_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "676_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "676_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "676_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8517,
-        "score": 3.77
+    {
+      "status": "on_loan",
+      "stock_id": "676_2"
     },
-    "pages": 1232,
-    "title": "The Iron Heel",
-    "url": "https://www.goodreads.com/book/show/929783.The_Iron_Heel",
-    "year_published": 1908
+    {
+      "status": "available",
+      "stock_id": "676_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8517,
+    "score": 3.77
+  },
+  "pages": 1232,
+  "title": "The Iron Heel",
+  "url": "https://www.goodreads.com/book/show/929783.The_Iron_Heel",
+  "year_published": 1908
 }

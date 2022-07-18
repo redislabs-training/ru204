@@ -1,68 +1,68 @@
 {
-    "author": "Christopher Paolini",
-    "id": "10285",
-    "description": "It began with Eragon... It ends with Inheritance.Not so very long ago, Eragon \u2014 Shadeslayer, Dragon Rider \u2014 was nothing more than a poor farm boy, and his dragon, Saphira, only a blue stone in the forest. Now the fate of an entire civilization rests on their shoulders.Long months of training and battle have brought victories and hope, but they have also brought heartbreaking loss. And still, the real battle lies ahead: they must confront Galbatorix. When they do, they will have to be strong enough to defeat him. And if they cannot, no one can. There will be no second chance.The Rider and his dragon have come further than anyone dared to hope. But can they topple the evil king and restore justice to Alaga\u00ebsia? And if so, at what cost?This is the spellbinding conclusion to Christopher Paolini's worldwide bestselling Inheritance cycle.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 498,
-        "audiobook": 157,
-        "fantasy": 111,
-        "fantasy (dragons)": 120,
-        "fantasy (epic fantasy)": 253,
-        "fiction": 1144,
-        "science fiction fantasy": 190,
-        "young adult": 748,
-        "young adult (teen)": 148,
-        "young adult (young adult fantasy)": 202
+  "author": "Christopher Paolini",
+  "id": "10285",
+  "description": "It began with Eragon... It ends with Inheritance.Not so very long ago, Eragon — Shadeslayer, Dragon Rider — was nothing more than a poor farm boy, and his dragon, Saphira, only a blue stone in the forest. Now the fate of an entire civilization rests on their shoulders.Long months of training and battle have brought victories and hope, but they have also brought heartbreaking loss. And still, the real battle lies ahead: they must confront Galbatorix. When they do, they will have to be strong enough to defeat him. And if they cannot, no one can. There will be no second chance.The Rider and his dragon have come further than anyone dared to hope. But can they topple the evil king and restore justice to Alagaësia? And if so, at what cost?This is the spellbinding conclusion to Christopher Paolini's worldwide bestselling Inheritance cycle.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (dragons)",
+    "fantasy (epic fantasy)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "10285_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "10285_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10285_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10285_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10285_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "10285_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10285_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "10285_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "10285_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10285_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 225217,
-        "score": 4.09
+    {
+      "status": "available",
+      "stock_id": "10285_2"
     },
-    "pages": 768,
-    "title": "Inheritance",
-    "url": "https://www.goodreads.com/book/show/7664041-inheritance",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "10285_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10285_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "10285_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10285_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "10285_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "10285_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10285_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 225217,
+    "score": 4.09
+  },
+  "pages": 768,
+  "title": "Inheritance",
+  "url": "https://www.goodreads.com/book/show/7664041-inheritance",
+  "year_published": 2011
 }

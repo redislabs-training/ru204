@@ -1,40 +1,40 @@
 {
-    "author": "Scott Lynch",
-    "id": "15210",
-    "description": "An orphan\u2019s life is harsh\u2014and often short\u2014in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous, fooling even the underworld\u2019s most feared ruler. But in the shadows lurks someone still more ambitious and deadly. Faced with a bloody coup that threatens to destroy everyone and everything that holds meaning in his mercenary life, Locke vows to beat the enemy at his own brutal game\u2014or die trying.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 524,
-        "adventure": 720,
-        "audiobook": 395,
-        "fantasy": 15655,
-        "fantasy (epic fantasy)": 478,
-        "fantasy (high fantasy)": 505,
-        "fiction": 1975,
-        "mystery": 307,
-        "mystery (crime)": 278,
-        "science fiction fantasy": 351
+  "author": "Scott Lynch",
+  "id": "15210",
+  "description": "An orphan’s life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous, fooling even the underworld’s most feared ruler. But in the shadows lurks someone still more ambitious and deadly. Faced with a bloody coup that threatens to destroy everyone and everything that holds meaning in his mercenary life, Locke vows to beat the enemy at his own brutal game—or die trying.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fiction",
+    "mystery",
+    "mystery (crime)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "15210_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "15210_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "15210_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 234643,
-        "score": 4.26
-    },
-    "pages": 966,
-    "title": "The Lies of Locke Lamora",
-    "url": "https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora",
-    "year_published": 2006
+    {
+      "status": "on_loan",
+      "stock_id": "15210_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 234643,
+    "score": 4.26
+  },
+  "pages": 966,
+  "title": "The Lies of Locke Lamora",
+  "url": "https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora",
+  "year_published": 2006
 }

@@ -1,55 +1,55 @@
 {
-    "author": "Eric Idle",
-    "id": "123",
-    "description": "With Monty Python's Flying Circus, Eric Idle proved he was one of the funniest people in the world. And with The Road to Mars he reaffirms this with a raucously sidesplitting vengence.Muscroft and Ashby are a comedy team on \"The Road to Mars,\" an interplanetary vaudeville circuit of the future. Accompanied by Carlton, a robot incapable of understanding irony but driven to learn the essence of humor, Alex and Lewis bumble their way into an intergalactic terrorist plot. Supported by a delicious cast, including a micropaleontologist narrator (he studies the evolutionary impact of the last ten minutes) and the ultra-diva Brenda Woolley, The Road to Mars is a fabulous trip through Eric Idle's inimitable world, a \"universe expanding at the speed of laughter.\"",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies (collections)": 2,
-        "fantasy": 6,
-        "fiction": 55,
-        "horror": 3,
-        "humor": 58,
-        "humor (comedy)": 18,
-        "novels": 4,
-        "science fiction": 83,
-        "science fiction fantasy": 4,
-        "space (space opera)": 2
+  "author": "Eric Idle",
+  "id": "123",
+  "description": "With Monty Python's Flying Circus, Eric Idle proved he was one of the funniest people in the world. And with The Road to Mars he reaffirms this with a raucously sidesplitting vengence.Muscroft and Ashby are a comedy team on \"The Road to Mars,\" an interplanetary vaudeville circuit of the future. Accompanied by Carlton, a robot incapable of understanding irony but driven to learn the essence of humor, Alex and Lewis bumble their way into an intergalactic terrorist plot. Supported by a delicious cast, including a micropaleontologist narrator (he studies the evolutionary impact of the last ten minutes) and the ultra-diva Brenda Woolley, The Road to Mars is a fabulous trip through Eric Idle's inimitable world, a \"universe expanding at the speed of laughter.\"",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "humor",
+    "humor (comedy)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "123_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "123_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "123_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "123_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "123_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "123_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "123_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1771,
-        "score": 3.52
+    {
+      "status": "on_loan",
+      "stock_id": "123_2"
     },
-    "pages": 334,
-    "title": "The Road to Mars: A Post-Modem Novel",
-    "url": "https://www.goodreads.com/book/show/77215.The_Road_to_Mars",
-    "year_published": 1990
+    {
+      "status": "available",
+      "stock_id": "123_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "123_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "123_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "123_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1771,
+    "score": 3.52
+  },
+  "pages": 334,
+  "title": "The Road to Mars: A Post-Modem Novel",
+  "url": "https://www.goodreads.com/book/show/77215.The_Road_to_Mars",
+  "year_published": 1990
 }

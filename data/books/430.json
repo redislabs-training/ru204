@@ -1,56 +1,56 @@
 {
-    "author": "Michael Marshall Smith",
-    "id": "430",
-    "description": "Stark lives in Colour, a neighbourhood whose inhabitants like to be co-ordinated with their surroundings \u2013 a neighbourhood where spangly purple trousers are admired by the walls of buildings as you pass them. Close by is Sound, where you mustn\u2019t make any, apart from one designated hour a day when you can scream your lungs raw. Then there\u2019s Red \u2013 get off at Fuck Station Zero if you want to see a tactical nuclear battle recreated as a sales demonstration.Stark has friends in Red, which is just as well because Something is about to happen. And when a Something happens it\u2019s no good chanting \u2018Duck and cover\u2019 while cowering in a corner, because a Something is always from the past, Stark\u2019s past, and it won\u2019t go away until you face it full on.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 97,
-        "fiction": 101,
-        "horror": 26,
-        "humor": 13,
-        "mystery": 9,
-        "science fiction": 217,
-        "science fiction (cyberpunk)": 23,
-        "science fiction (dystopia)": 20,
-        "science fiction fantasy": 15,
-        "speculative fiction": 7
+  "author": "Michael Marshall Smith",
+  "id": "430",
+  "description": "Stark lives in Colour, a neighbourhood whose inhabitants like to be co-ordinated with their surroundings – a neighbourhood where spangly purple trousers are admired by the walls of buildings as you pass them. Close by is Sound, where you mustn’t make any, apart from one designated hour a day when you can scream your lungs raw. Then there’s Red – get off at Fuck Station Zero if you want to see a tactical nuclear battle recreated as a sales demonstration.Stark has friends in Red, which is just as well because Something is about to happen. And when a Something happens it’s no good chanting ‘Duck and cover’ while cowering in a corner, because a Something is always from the past, Stark’s past, and it won’t go away until you face it full on.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "horror",
+    "humor",
+    "mystery",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "430_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "430_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "430_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "430_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "430_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "430_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "430_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5050,
-        "score": 4.24
+    {
+      "status": "maintenance",
+      "stock_id": "430_2"
     },
-    "pages": 947,
-    "title": "Only Forward",
-    "url": "https://www.goodreads.com/book/show/920395.Only_Forward",
-    "year_published": 1994
+    {
+      "status": "maintenance",
+      "stock_id": "430_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "430_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "430_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "430_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5050,
+    "score": 4.24
+  },
+  "pages": 947,
+  "title": "Only Forward",
+  "url": "https://www.goodreads.com/book/show/920395.Only_Forward",
+  "year_published": 1994
 }

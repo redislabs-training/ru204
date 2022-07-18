@@ -1,63 +1,63 @@
 {
-    "author": "Ann Leckie",
-    "id": "8694",
-    "description": "On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest.Once, she was the Justice of Toren - a colossal starship with an artificial intelligence linking thousands of soldiers in the service of the Radch, the empire that conquered the galaxy.Now, an act of treachery has ripped it all away, leaving her with one fragile human body, unanswered questions, and a burning desire for vengeance.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 130,
-        "audiobook": 121,
-        "fantasy": 185,
-        "fiction": 1327,
-        "hugo awards": 98,
-        "science fiction": 4088,
-        "science fiction fantasy": 303,
-        "space": 195,
-        "space (space opera)": 630,
-        "speculative fiction": 126
+  "author": "Ann Leckie",
+  "id": "8694",
+  "description": "On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest.Once, she was the Justice of Toren - a colossal starship with an artificial intelligence linking thousands of soldiers in the service of the Radch, the empire that conquered the galaxy.Now, an act of treachery has ripped it all away, leaving her with one fragile human body, unanswered questions, and a burning desire for vengeance.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "8694_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "8694_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8694_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8694_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8694_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "8694_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8694_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "8694_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8694_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 85518,
-        "score": 3.97
+    {
+      "status": "on_loan",
+      "stock_id": "8694_2"
     },
-    "pages": 1062,
-    "title": "Ancillary Justice",
-    "url": "https://www.goodreads.com/book/show/17333324-ancillary-justice",
-    "year_published": 2013
+    {
+      "status": "on_loan",
+      "stock_id": "8694_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8694_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "8694_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8694_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "8694_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "8694_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 85518,
+    "score": 3.97
+  },
+  "pages": 1062,
+  "title": "Ancillary Justice",
+  "url": "https://www.goodreads.com/book/show/17333324-ancillary-justice",
+  "year_published": 2013
 }

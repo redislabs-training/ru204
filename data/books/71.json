@@ -1,44 +1,44 @@
 {
-    "author": "Dav Pilkey",
-    "id": "71",
-    "description": "A small mouse named Ricky Ricotta and his best friend, a giant flying robot, save the world from Victor Von Vulture and his vicious voodoo vultures from Venus.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 10,
-        "childrens": 20,
-        "childrens (chapter books)": 12,
-        "childrens (juvenile)": 5,
-        "fantasy": 9,
-        "fiction": 16,
-        "humor": 8,
-        "science fiction": 9,
-        "sequential art (comics)": 5,
-        "sequential art (graphic novels)": 9
+  "author": "Dav Pilkey",
+  "id": "71",
+  "description": "A small mouse named Ricky Ricotta and his best friend, a giant flying robot, save the world from Victor Von Vulture and his vicious voodoo vultures from Venus.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "71_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "71_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "71_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "71_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1585,
-        "score": 4.12
+    {
+      "status": "maintenance",
+      "stock_id": "71_2"
     },
-    "pages": 817,
-    "title": "Ricky Ricotta's Mighty Robot vs. the Voodoo Vultures from Venus",
-    "url": "https://www.goodreads.com/book/show/2287658.Ricky_Ricotta_s_Mighty_Robot_vs_the_Voodoo_Vultures_from_Venus",
-    "year_published": 1994
+    {
+      "status": "maintenance",
+      "stock_id": "71_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1585,
+    "score": 4.12
+  },
+  "pages": 817,
+  "title": "Ricky Ricotta's Mighty Robot vs. the Voodoo Vultures from Venus",
+  "url": "https://www.goodreads.com/book/show/2287658.Ricky_Ricotta_s_Mighty_Robot_vs_the_Voodoo_Vultures_from_Venus",
+  "year_published": 1994
 }

@@ -1,56 +1,56 @@
 {
-    "author": "Andre Norton",
-    "id": "310",
-    "description": "If it is possible to conquer space, then perhaps it is also possible to conquer time. At least that was the theory American scientists were exploring in an effort to explain the new sources of knowledge the Russians possessed. Perhaps Russian scientists had discovered how to transport themselves back in time in order to learn long-forgotten secrets of the past. That was why young Ross Murdock, above average in intelligence but a belligerently independent nonconformist, found himself on a \"hush-hush\" government project at a secret base in the Arctic. The very qualities that made him a menace in civilized society were valuable traits in a man who must successfully act the part of a merchant trader of the Beaker people during the Bronze Age.For once they were transferred by time machine to the remote Baltic region where the Russian post was located, Ross and his partner Ashe were swept into a fantastic action-filled adventure involving Russians, superstitious prehistoric men, and the aliens of a lost galactic civilization that demanded every ounce of courage the Americans possessed.Approx. 7 hours",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 10,
-        "audiobook": 9,
-        "classics": 10,
-        "fantasy": 27,
-        "fiction": 66,
-        "science fiction": 292,
-        "science fiction (time travel)": 88,
-        "science fiction fantasy": 16,
-        "speculative fiction": 6,
-        "young adult": 10
+  "author": "Andre Norton",
+  "id": "310",
+  "description": "If it is possible to conquer space, then perhaps it is also possible to conquer time. At least that was the theory American scientists were exploring in an effort to explain the new sources of knowledge the Russians possessed. Perhaps Russian scientists had discovered how to transport themselves back in time in order to learn long-forgotten secrets of the past. That was why young Ross Murdock, above average in intelligence but a belligerently independent nonconformist, found himself on a \"hush-hush\" government project at a secret base in the Arctic. The very qualities that made him a menace in civilized society were valuable traits in a man who must successfully act the part of a merchant trader of the Beaker people during the Bronze Age.For once they were transferred by time machine to the remote Baltic region where the Russian post was located, Ross and his partner Ashe were swept into a fantastic action-filled adventure involving Russians, superstitious prehistoric men, and the aliens of a lost galactic civilization that demanded every ounce of courage the Americans possessed.Approx. 7 hours",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "310_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "310_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "310_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "310_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "310_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "310_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "310_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4478,
-        "score": 3.75
+    {
+      "status": "available",
+      "stock_id": "310_2"
     },
-    "pages": 1198,
-    "title": "The Time Traders",
-    "url": "https://www.goodreads.com/book/show/462373.The_Time_Traders",
-    "year_published": 1958
+    {
+      "status": "available",
+      "stock_id": "310_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "310_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "310_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "310_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4478,
+    "score": 3.75
+  },
+  "pages": 1198,
+  "title": "The Time Traders",
+  "url": "https://www.goodreads.com/book/show/462373.The_Time_Traders",
+  "year_published": 1958
 }

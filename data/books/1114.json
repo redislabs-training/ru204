@@ -1,51 +1,51 @@
 {
-    "author": "Frances Hardinge",
-    "id": "1114",
-    "description": "In Caverna, lies are an art \u2014 and everyone's an artist...In the underground city of Caverna the world's most skilled craftsmen toil in the darkness to create delicacies beyond compare. They create wines that can remove memories, cheeses that can make you hallucinate and perfumes that convince you to trust the wearer even as they slit your throat. The people of Caverna are more ordinary, but for one thing: their faces are as blank as untouched snow. Expressions must be learned. Only the famous Facesmiths can teach a person to show (or fake) joy, despair or fear \u2014 at a price.Into this dark and distrustful world comes Neverfell, a little girl with no memory of her past and a face so terrifying to those around her that she must wear a mask at all times. For Neverfell's emotions are as obvious on her face as those of the most skilled Facesmiths, though entirely genuine. And that makes her very dangerous indeed...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 50,
-        "childrens": 37,
-        "childrens (middle grade)": 127,
-        "fantasy": 842,
-        "fiction": 99,
-        "mystery": 45,
-        "science fiction": 35,
-        "science fiction (dystopia)": 57,
-        "young adult": 250,
-        "young adult (young adult fantasy)": 27
+  "author": "Frances Hardinge",
+  "id": "1114",
+  "description": "In Caverna, lies are an art — and everyone's an artist...In the underground city of Caverna the world's most skilled craftsmen toil in the darkness to create delicacies beyond compare. They create wines that can remove memories, cheeses that can make you hallucinate and perfumes that convince you to trust the wearer even as they slit your throat. The people of Caverna are more ordinary, but for one thing: their faces are as blank as untouched snow. Expressions must be learned. Only the famous Facesmiths can teach a person to show (or fake) joy, despair or fear — at a price.Into this dark and distrustful world comes Neverfell, a little girl with no memory of her past and a face so terrifying to those around her that she must wear a mask at all times. For Neverfell's emotions are as obvious on her face as those of the most skilled Facesmiths, though entirely genuine. And that makes her very dangerous indeed...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1114_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1114_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1114_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1114_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1114_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1114_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6200,
-        "score": 4.18
+    {
+      "status": "on_loan",
+      "stock_id": "1114_2"
     },
-    "pages": 658,
-    "title": "A Face Like Glass",
-    "url": "https://www.goodreads.com/book/show/12666103-a-face-like-glass",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "1114_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1114_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1114_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6200,
+    "score": 4.18
+  },
+  "pages": 658,
+  "title": "A Face Like Glass",
+  "url": "https://www.goodreads.com/book/show/12666103-a-face-like-glass",
+  "year_published": 2012
 }

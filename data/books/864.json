@@ -1,35 +1,35 @@
 {
-    "author": "John Scalzi",
-    "id": "864",
-    "description": "A new near-future science fiction novella by John Scalzi, one of the most popular authors in modern SF. Unlocked traces the medical history behind a virus that will sweep the globe and affect the majority of the world\u2019s population, setting the stage for Lock In, the next major novel by John Scalzi.Free to read here:http://www.tor.com/2014/05/13/unlocke...At the publisher's request, this title is being sold without Digital Rights Management software (DRM) applied.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 16,
-        "audiobook": 60,
-        "fantasy": 17,
-        "fiction": 138,
-        "novella": 86,
-        "science fiction": 445,
-        "science fiction (dystopia)": 26,
-        "science fiction fantasy": 30,
-        "short stories": 99,
-        "speculative fiction": 21
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "864_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 7117,
-        "score": 3.97
-    },
-    "pages": 1019,
-    "title": "Unlocked: An Oral History of Haden's Syndrome",
-    "url": "https://www.goodreads.com/book/show/21805681-unlocked",
-    "year_published": 2014
+  "author": "John Scalzi",
+  "id": "864",
+  "description": "A new near-future science fiction novella by John Scalzi, one of the most popular authors in modern SF. Unlocked traces the medical history behind a virus that will sweep the globe and affect the majority of the world’s population, setting the stage for Lock In, the next major novel by John Scalzi.Free to read here:http://www.tor.com/2014/05/13/unlocke...At the publisher's request, this title is being sold without Digital Rights Management software (DRM) applied.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "864_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 7117,
+    "score": 3.97
+  },
+  "pages": 1019,
+  "title": "Unlocked: An Oral History of Haden's Syndrome",
+  "url": "https://www.goodreads.com/book/show/21805681-unlocked",
+  "year_published": 2014
 }

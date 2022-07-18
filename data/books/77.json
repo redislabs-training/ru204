@@ -1,51 +1,51 @@
 {
-    "author": "Janet McNaughton",
-    "id": "77",
-    "description": "In the year 2368, humankind must struggle to survive under dire environmental conditions and strict government control. In this startling world, one brave young woman begins to unravel a web of lies about life on Earth that will empower her to discover, at last, who she really is. McNaughton vividly imagines an all-too-believable future and celebrates the impact that one person can make on the world.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 17,
-        "cultural (canada)": 6,
-        "fantasy": 9,
-        "fiction": 23,
-        "futuristic": 6,
-        "science fiction": 47,
-        "science fiction (dystopia)": 46,
-        "science fiction fantasy": 5,
-        "young adult": 57,
-        "young adult (teen)": 11
+  "author": "Janet McNaughton",
+  "id": "77",
+  "description": "In the year 2368, humankind must struggle to survive under dire environmental conditions and strict government control. In this startling world, one brave young woman begins to unravel a web of lies about life on Earth that will empower her to discover, at last, who she really is. McNaughton vividly imagines an all-too-believable future and celebrates the impact that one person can make on the world.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "futuristic",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "77_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "77_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "77_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "77_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "77_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "77_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1165,
-        "score": 3.69
+    {
+      "status": "maintenance",
+      "stock_id": "77_2"
     },
-    "pages": 290,
-    "title": "The Secret Under My Skin",
-    "url": "https://www.goodreads.com/book/show/296188.The_Secret_Under_My_Skin",
-    "year_published": 2001
+    {
+      "status": "on_loan",
+      "stock_id": "77_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "77_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "77_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1165,
+    "score": 3.69
+  },
+  "pages": 290,
+  "title": "The Secret Under My Skin",
+  "url": "https://www.goodreads.com/book/show/296188.The_Secret_Under_My_Skin",
+  "year_published": 2001
 }

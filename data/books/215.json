@@ -1,43 +1,43 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "215",
-    "description": "Hello, buffalo!That's what Jack and Annie say when the Magic Tree House whisks them and Teddy, the enchanted dog, back almost 200 years to the Great Plains. There they meet a Lakota boy who shows them how to hunt buffalo. But something goes wrong! Now they need to stop a thousand buffalo from stampeding!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 39,
-        "childrens": 106,
-        "childrens (chapter books)": 42,
-        "childrens (juvenile)": 16,
-        "fantasy": 109,
-        "fantasy (magic)": 18,
-        "fiction": 78,
-        "historical": 21,
-        "historical (historical fiction)": 51,
-        "science fiction (time travel)": 24
+  "author": "Mary Pope Osborne",
+  "id": "215",
+  "description": "Hello, buffalo!That's what Jack and Annie say when the Magic Tree House whisks them and Teddy, the enchanted dog, back almost 200 years to the Great Plains. There they meet a Lakota boy who shows them how to hunt buffalo. But something goes wrong! Now they need to stop a thousand buffalo from stampeding!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (juvenile)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "215_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "215_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "215_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "215_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8086,
-        "score": 3.85
+    {
+      "status": "maintenance",
+      "stock_id": "215_2"
     },
-    "pages": 983,
-    "title": "Buffalo Before Breakfast",
-    "url": "https://www.goodreads.com/book/show/262438.Buffalo_Before_Breakfast",
-    "year_published": 1999
+    {
+      "status": "available",
+      "stock_id": "215_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8086,
+    "score": 3.85
+  },
+  "pages": 983,
+  "title": "Buffalo Before Breakfast",
+  "url": "https://www.goodreads.com/book/show/262438.Buffalo_Before_Breakfast",
+  "year_published": 1999
 }

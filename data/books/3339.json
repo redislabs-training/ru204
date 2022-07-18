@@ -1,48 +1,48 @@
 {
-    "author": "Jeff VanderMeer",
-    "id": "3339",
-    "description": "In a ruined, nameless city of the future, a woman named Rachel, who makes her living as a scavenger, finds a creature she names \u201cBorne\u201d entangled in the fur of Mord, a gigantic, despotic bear. Mord once prowled the corridors of the biotech organization known as the Company, which lies at the outskirts of the city, until he was experimented on, grew large, learned to fly and broke free. Driven insane by his torture at the Company, Mord terrorizes the city even as he provides sustenance for scavengers like Rachel.At first, Borne looks like nothing at all\u2014just a green lump that might be a Company discard. The Company, although severely damaged, is rumoured to still make creatures and send them to distant places that have not yet suffered Collapse.Borne somehow reminds Rachel of the island nation of her birth, now long lost to rising seas. She feels an attachment she resents; attachments are traps, and in this world any weakness can kill you. Yet when she takes Borne to her subterranean sanctuary, the Balcony Cliffs, Rachel convinces her lover, Wick, not to render Borne down to raw genetic material for the drugs he sells\u2014she cannot break that bond.Wick is a special kind of supplier, because the drug dealers in the city don\u2019t sell the usual things. They sell tiny creatures that can be swallowed or stuck in the ear, and that release powerful memories of other people\u2019s happier times or pull out forgotten memories from the user\u2019s own mind\u2014or just produce beautiful visions that provide escape from the barren, craterous landscapes of the city.Against his better judgment, out of affection for Rachel or perhaps some other impulse, Wick respects her decision. Rachel, meanwhile, despite her loyalty to Wick, knows he has kept secrets from her. Searching his apartment, she finds a burnt, unreadable journal titled \u201cMord,\u201d a cryptic reference to the Magician (a rival drug dealer) and evidence that Wick has planned the layout of the Balcony Cliffs to match the blueprint of the Company building. What is he hiding? Why won\u2019t he tell her about what happened when he worked for the Company?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 84,
-        "apocalyptic (post apocalyptic)": 148,
-        "audiobook": 76,
-        "fantasy": 375,
-        "fantasy (weird fiction)": 87,
-        "fiction": 649,
-        "science fiction": 1039,
-        "science fiction (dystopia)": 246,
-        "science fiction fantasy": 91,
-        "speculative fiction": 84
+  "author": "Jeff VanderMeer",
+  "id": "3339",
+  "description": "In a ruined, nameless city of the future, a woman named Rachel, who makes her living as a scavenger, finds a creature she names “Borne” entangled in the fur of Mord, a gigantic, despotic bear. Mord once prowled the corridors of the biotech organization known as the Company, which lies at the outskirts of the city, until he was experimented on, grew large, learned to fly and broke free. Driven insane by his torture at the Company, Mord terrorizes the city even as he provides sustenance for scavengers like Rachel.At first, Borne looks like nothing at all—just a green lump that might be a Company discard. The Company, although severely damaged, is rumoured to still make creatures and send them to distant places that have not yet suffered Collapse.Borne somehow reminds Rachel of the island nation of her birth, now long lost to rising seas. She feels an attachment she resents; attachments are traps, and in this world any weakness can kill you. Yet when she takes Borne to her subterranean sanctuary, the Balcony Cliffs, Rachel convinces her lover, Wick, not to render Borne down to raw genetic material for the drugs he sells—she cannot break that bond.Wick is a special kind of supplier, because the drug dealers in the city don’t sell the usual things. They sell tiny creatures that can be swallowed or stuck in the ear, and that release powerful memories of other people’s happier times or pull out forgotten memories from the user’s own mind—or just produce beautiful visions that provide escape from the barren, craterous landscapes of the city.Against his better judgment, out of affection for Rachel or perhaps some other impulse, Wick respects her decision. Rachel, meanwhile, despite her loyalty to Wick, knows he has kept secrets from her. Searching his apartment, she finds a burnt, unreadable journal titled “Mord,” a cryptic reference to the Magician (a rival drug dealer) and evidence that Wick has planned the layout of the Balcony Cliffs to match the blueprint of the Company building. What is he hiding? Why won’t he tell her about what happened when he worked for the Company?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fantasy",
+    "fantasy (weird fiction)",
+    "fiction",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3339_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3339_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3339_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3339_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3339_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26119,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "3339_2"
     },
-    "pages": 401,
-    "title": "Borne",
-    "url": "https://www.goodreads.com/book/show/31451186-borne",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "3339_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3339_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26119,
+    "score": 3.93
+  },
+  "pages": 401,
+  "title": "Borne",
+  "url": "https://www.goodreads.com/book/show/31451186-borne",
+  "year_published": 2017
 }

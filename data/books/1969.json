@@ -1,51 +1,51 @@
 {
-    "author": "Kurt Vonnegut Jr.",
-    "id": "1969",
-    "description": "Welcome to the Monkey House is a collection of Kurt Vonnegut\u2019s shorter works. Originally printed in publications as diverse as The Magazine of Fantasy and Science Fiction and The Atlantic Monthly, these superb stories share Vonnegut\u2019s audacious sense of humor and extraordinary range of creative vision.Alternative cover edition here ",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies": 42,
-        "classics": 309,
-        "fiction": 1316,
-        "humor": 136,
-        "literature": 146,
-        "literature (american)": 73,
-        "novels": 46,
-        "science fiction": 406,
-        "science fiction (dystopia)": 51,
-        "short stories": 1052
+  "author": "Kurt Vonnegut Jr.",
+  "id": "1969",
+  "description": "Welcome to the Monkey House is a collection of Kurt Vonnegut’s shorter works. Originally printed in publications as diverse as The Magazine of Fantasy and Science Fiction and The Atlantic Monthly, these superb stories share Vonnegut’s audacious sense of humor and extraordinary range of creative vision.Alternative cover edition here ",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies",
+    "classics",
+    "fiction",
+    "humor",
+    "literature",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1969_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1969_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1969_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1969_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1969_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1969_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 56548,
-        "score": 4.11
+    {
+      "status": "maintenance",
+      "stock_id": "1969_2"
     },
-    "pages": 1013,
-    "title": "Welcome to the Monkey House",
-    "url": "https://www.goodreads.com/book/show/4985.Welcome_to_the_Monkey_House",
-    "year_published": 1968
+    {
+      "status": "on_loan",
+      "stock_id": "1969_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1969_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1969_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 56548,
+    "score": 4.11
+  },
+  "pages": 1013,
+  "title": "Welcome to the Monkey House",
+  "url": "https://www.goodreads.com/book/show/4985.Welcome_to_the_Monkey_House",
+  "year_published": 1968
 }

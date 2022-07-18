@@ -1,67 +1,67 @@
 {
-    "author": "Robert J. Sawyer",
-    "id": "83",
-    "description": "Archaeologist Brandon Thackery and his rival Miles 'Klicks' Jordan fulfill a dinosaur lover's dream with history's first time-travel jaunt to the late Mesozoic. Hoping to solve the extinction mystery, they find Earth's gravity is only half its 21st century value and dinosaurs that behave very strangely. Could the slimey blue creatures from Mars have something to do with both?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 3,
-        "animals (dinosaurs)": 12,
-        "audiobook": 2,
-        "cultural (canada)": 5,
-        "fantasy": 5,
-        "fiction": 18,
-        "novels": 3,
-        "science fiction": 71,
-        "science fiction (aliens)": 3,
-        "science fiction (time travel)": 27
+  "author": "Robert J. Sawyer",
+  "id": "83",
+  "description": "Archaeologist Brandon Thackery and his rival Miles 'Klicks' Jordan fulfill a dinosaur lover's dream with history's first time-travel jaunt to the late Mesozoic. Hoping to solve the extinction mystery, they find Earth's gravity is only half its 21st century value and dinosaurs that behave very strangely. Could the slimey blue creatures from Mars have something to do with both?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals (dinosaurs)",
+    "audiobook",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "83_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "83_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "83_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "83_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "83_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "83_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "83_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "83_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "83_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "83_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 944,
-        "score": 3.78
+    {
+      "status": "available",
+      "stock_id": "83_2"
     },
-    "pages": 559,
-    "title": "End of an Era",
-    "url": "https://www.goodreads.com/book/show/264943.End_of_an_Era",
-    "year_published": 1994
+    {
+      "status": "maintenance",
+      "stock_id": "83_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "83_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "83_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "83_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "83_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "83_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "83_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 944,
+    "score": 3.78
+  },
+  "pages": 559,
+  "title": "End of an Era",
+  "url": "https://www.goodreads.com/book/show/264943.End_of_an_Era",
+  "year_published": 1994
 }

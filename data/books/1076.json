@@ -1,34 +1,34 @@
 {
-    "author": "Iain M. Banks",
-    "id": "1076",
-    "description": "The international sensation Iain M. Banks offers readers a deeply imaginative, wittily satirical tale, proving once again that he is \"a talent to be reckoned with\" (\"Locus\"). In Excession, the Culture's espionage and dirty tricks section orders Diplomat Byr Gen-Hofoen to steal the soul of a long-dead starship captain. By accepting the mission, Byr irrevocably plunges himself into a conspiracy: one that could either lead the universe into an age of peace or to the brink of annihilation.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "banking (banks)": 17,
-        "cultural": 67,
-        "fantasy": 47,
-        "fiction": 354,
-        "novels": 21,
-        "science fiction": 1052,
-        "science fiction fantasy": 48,
-        "space": 21,
-        "space (space opera)": 183,
-        "speculative fiction": 21
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1076_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26327,
-        "score": 4.2
-    },
-    "pages": 792,
-    "title": "Excession",
-    "url": "https://www.goodreads.com/book/show/12013.Excession",
-    "year_published": 1996
+  "author": "Iain M. Banks",
+  "id": "1076",
+  "description": "The international sensation Iain M. Banks offers readers a deeply imaginative, wittily satirical tale, proving once again that he is \"a talent to be reckoned with\" (\"Locus\"). In Excession, the Culture's espionage and dirty tricks section orders Diplomat Byr Gen-Hofoen to steal the soul of a long-dead starship captain. By accepting the mission, Byr irrevocably plunges himself into a conspiracy: one that could either lead the universe into an age of peace or to the brink of annihilation.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "banking (banks)",
+    "cultural",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1076_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26327,
+    "score": 4.2
+  },
+  "pages": 792,
+  "title": "Excession",
+  "url": "https://www.goodreads.com/book/show/12013.Excession",
+  "year_published": 1996
 }

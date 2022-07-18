@@ -1,50 +1,50 @@
 {
-    "author": "John Varley",
-    "id": "137",
-    "description": "In the skies over Oakland, California, a DC-10 and a 747 are about to collide. But in the far distant future, a time travel team is preparing to snatch the passengers, leaving prefabricated smoking bodies behind for the rescue teams to find. And in Washington D.C., an air disaster investigator named Smith is about to get a phone call that will change his life...and end the world as we know it.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 5,
-        "fantasy": 3,
-        "fiction": 55,
-        "novels": 3,
-        "science fiction": 163,
-        "science fiction (apocalyptic)": 4,
-        "science fiction (dystopia)": 4,
-        "science fiction (time travel)": 76,
-        "science fiction fantasy": 16,
-        "speculative fiction": 8
+  "author": "John Varley",
+  "id": "137",
+  "description": "In the skies over Oakland, California, a DC-10 and a 747 are about to collide. But in the far distant future, a time travel team is preparing to snatch the passengers, leaving prefabricated smoking bodies behind for the rescue teams to find. And in Washington D.C., an air disaster investigator named Smith is about to get a phone call that will change his life...and end the world as we know it.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "137_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "137_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "137_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "137_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "137_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "137_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2555,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "137_2"
     },
-    "pages": 309,
-    "title": "Millennium",
-    "url": "https://www.goodreads.com/book/show/49848.Millennium",
-    "year_published": 1983
+    {
+      "status": "available",
+      "stock_id": "137_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "137_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "137_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2555,
+    "score": 3.77
+  },
+  "pages": 309,
+  "title": "Millennium",
+  "url": "https://www.goodreads.com/book/show/49848.Millennium",
+  "year_published": 1983
 }

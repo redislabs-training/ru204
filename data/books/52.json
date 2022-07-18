@@ -1,66 +1,66 @@
 {
-    "author": "Dav Pilkey",
-    "id": "52",
-    "description": "With more than 1.8 million books in print, Ricky Ricotta and his Mighty Robot are a big hit with children. Their latest adventure is the best one yet!Ricky Ricotta loves his Mighty Robot, but sometimes it's hard for a little mouse to have a best friend who's so BIG. One night, Ricky makes a wish: If only his Mighty Robot had another friend who was his own size so he wouldn't have to hang out with Ricky all the time. Little does Ricky know, his wish is about to come true. Evil Uncle Unicorn has traveled all the way from Uranus with a mean and nasty plan. He's built a giant Ladybot to trick the Mighty Robot so he can take over planet Earth. Once again, it's up to Ricky and his pals to save the day.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 3,
-        "adventure": 8,
-        "childrens": 17,
-        "childrens (chapter books)": 9,
-        "fantasy": 9,
-        "fiction": 7,
-        "humor": 9,
-        "science fiction": 5,
-        "science fiction (robots)": 5,
-        "sequential art (graphic novels)": 8
+  "author": "Dav Pilkey",
+  "id": "52",
+  "description": "With more than 1.8 million books in print, Ricky Ricotta and his Mighty Robot are a big hit with children. Their latest adventure is the best one yet!Ricky Ricotta loves his Mighty Robot, but sometimes it's hard for a little mouse to have a best friend who's so BIG. One night, Ricky makes a wish: If only his Mighty Robot had another friend who was his own size so he wouldn't have to hang out with Ricky all the time. Little does Ricky know, his wish is about to come true. Evil Uncle Unicorn has traveled all the way from Uranus with a mean and nasty plan. He's built a giant Ladybot to trick the Mighty Robot so he can take over planet Earth. Once again, it's up to Ricky and his pals to save the day.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (robots)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "52_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "52_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "52_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "52_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 959,
-        "score": 4.15
+    {
+      "status": "on_loan",
+      "stock_id": "52_2"
     },
-    "pages": 582,
-    "title": "Ricky Ricotta's Mighty Robot vs. the Uranium Unicorns from Uranus",
-    "url": "https://www.goodreads.com/book/show/830697.Ricky_Ricotta_s_Mighty_Robot_vs_the_Uranium_Unicorns_from_Uranus",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "52_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "52_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "52_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "52_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "52_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "52_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "52_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 959,
+    "score": 4.15
+  },
+  "pages": 582,
+  "title": "Ricky Ricotta's Mighty Robot vs. the Uranium Unicorns from Uranus",
+  "url": "https://www.goodreads.com/book/show/830697.Ricky_Ricotta_s_Mighty_Robot_vs_the_Uranium_Unicorns_from_Uranus",
+  "year_published": 2005
 }

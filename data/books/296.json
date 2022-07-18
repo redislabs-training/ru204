@@ -1,63 +1,63 @@
 {
-    "author": "Jonathan Hickman",
-    "id": "296",
-    "description": "It's the third volume of the Eisner-nominated East Of West. There Is No Us sees the breaking apart of the future-scape of America as the world races forward towards the apocalypse.Collecting: East Of West 11-15",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "comics (comic book)": 36,
-        "fantasy": 87,
-        "fiction": 35,
-        "graphic novels comics": 35,
-        "horror": 17,
-        "science fiction": 74,
-        "science fiction (dystopia)": 20,
-        "sequential art (comics)": 298,
-        "sequential art (graphic novels)": 336,
-        "westerns": 51
+  "author": "Jonathan Hickman",
+  "id": "296",
+  "description": "It's the third volume of the Eisner-nominated East Of West. There Is No Us sees the breaking apart of the future-scape of America as the world races forward towards the apocalypse.Collecting: East Of West 11-15",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "westerns"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "296_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "296_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "296_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "296_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "296_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "296_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "296_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "296_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "296_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5227,
-        "score": 4.17
+    {
+      "status": "maintenance",
+      "stock_id": "296_2"
     },
-    "pages": 442,
-    "title": "East of West, Vol. 3: There Is No Us",
-    "url": "https://www.goodreads.com/book/show/22358464-east-of-west-vol-3",
-    "year_published": 2014
+    {
+      "status": "maintenance",
+      "stock_id": "296_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "296_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "296_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "296_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "296_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "296_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5227,
+    "score": 4.17
+  },
+  "pages": 442,
+  "title": "East of West, Vol. 3: There Is No Us",
+  "url": "https://www.goodreads.com/book/show/22358464-east-of-west-vol-3",
+  "year_published": 2014
 }

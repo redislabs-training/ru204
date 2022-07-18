@@ -1,47 +1,47 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "3903",
-    "description": "It is a tale of revolution, of the rebellion of a former penal colony on the Moon against its masters on the Earth. It is a tale of a culture whose family structures are based on the presence of two men for every woman, leading to novel forms of marriage and family. It is the story of the disparate people, a computer technician, a vigorous young female agitator, and an elderly academic who become the movement's leaders, and of Mike, the supercomputer whose sentience is known only to the revolt's inner circle, who for reasons of his own is committed to the revolution's ultimate success.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 125,
-        "classics": 396,
-        "fantasy": 143,
-        "fiction": 1476,
-        "novels": 102,
-        "politics": 109,
-        "science fiction": 3689,
-        "science fiction fantasy": 275,
-        "space": 103,
-        "speculative fiction": 92
+  "author": "Robert A. Heinlein",
+  "id": "3903",
+  "description": "It is a tale of revolution, of the rebellion of a former penal colony on the Moon against its masters on the Earth. It is a tale of a culture whose family structures are based on the presence of two men for every woman, leading to novel forms of marriage and family. It is the story of the disparate people, a computer technician, a vigorous young female agitator, and an elderly academic who become the movement's leaders, and of Mike, the supercomputer whose sentience is known only to the revolt's inner circle, who for reasons of his own is committed to the revolution's ultimate success.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "novels",
+    "politics",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3903_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "3903_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3903_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3903_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3903_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 118230,
-        "score": 4.15
+    {
+      "status": "maintenance",
+      "stock_id": "3903_2"
     },
-    "pages": 1331,
-    "title": "The Moon Is a Harsh Mistress",
-    "url": "https://www.goodreads.com/book/show/16690.The_Moon_Is_a_Harsh_Mistress",
-    "year_published": 1966
+    {
+      "status": "available",
+      "stock_id": "3903_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3903_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 118230,
+    "score": 4.15
+  },
+  "pages": 1331,
+  "title": "The Moon Is a Harsh Mistress",
+  "url": "https://www.goodreads.com/book/show/16690.The_Moon_Is_a_Harsh_Mistress",
+  "year_published": 1966
 }

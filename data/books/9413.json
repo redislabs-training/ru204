@@ -1,62 +1,62 @@
 {
-    "author": "James Patterson",
-    "id": "9413",
-    "description": "Six unforgettable kids \u2014 with no families, no homes \u2014 are running for their lives. Max Ride and her best friends have the ability to fly. And that's just the beginning of their amazing powers. But they don't know where they come from, who's hunting them, why they are different from all other humans... and if they're meant to save mankind \u2014 or destroy it.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "action": 224,
-        "adventure": 505,
-        "fantasy": 1780,
-        "fantasy (paranormal)": 304,
-        "fantasy (urban fantasy)": 184,
-        "fiction": 669,
-        "mystery": 195,
-        "science fiction": 1173,
-        "young adult": 2344,
-        "young adult (teen)": 232
+  "author": "James Patterson",
+  "id": "9413",
+  "description": "Six unforgettable kids — with no families, no homes — are running for their lives. Max Ride and her best friends have the ability to fly. And that's just the beginning of their amazing powers. But they don't know where they come from, who's hunting them, why they are different from all other humans... and if they're meant to save mankind — or destroy it.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "9413_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "9413_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9413_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9413_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9413_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "9413_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9413_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "9413_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "9413_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 209929,
-        "score": 4.07
+    {
+      "status": "maintenance",
+      "stock_id": "9413_2"
     },
-    "pages": 700,
-    "title": "The Angel Experiment",
-    "url": "https://www.goodreads.com/book/show/13152.The_Angel_Experiment",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "9413_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9413_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "9413_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9413_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "9413_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "9413_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 209929,
+    "score": 4.07
+  },
+  "pages": 700,
+  "title": "The Angel Experiment",
+  "url": "https://www.goodreads.com/book/show/13152.The_Angel_Experiment",
+  "year_published": 2005
 }

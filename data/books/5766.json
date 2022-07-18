@@ -1,58 +1,58 @@
 {
-    "author": "Liu Cixin",
-    "id": "5766",
-    "description": "This is the second novel in \"Remembrance of Earth\u2019s Past\", the near-future trilogy written by the China's multiple-award-winning science fiction author, Cixin Liu. In The Dark Forest, Earth is reeling from the revelation of a coming alien invasion \u2014 four centuries in the future. The aliens' human collaborators have been defeated but the presence of the sophons, the subatomic particles that allow Trisolaris instant access to all human information, means that Earth's defense plans are exposed to the enemy. Only the human mind remains a secret. This is the motivation for the Wallfacer Project, a daring plan that grants four men enormous resources to design secret strategies hidden through deceit and misdirection from Earth and Trisolaris alike. Three of the Wallfacers are influential statesmen and scientists but the fourth is a total unknown. Luo Ji, an unambitious Chinese astronomer and sociologist, is baffled by his new status. All he knows is that he's the one Wallfacer that Trisolaris wants dead.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 96,
-        "cultural (china)": 154,
-        "fantasy": 62,
-        "fiction": 993,
-        "novels": 50,
-        "science fiction": 1871,
-        "science fiction (aliens)": 71,
-        "science fiction fantasy": 107,
-        "space": 59,
-        "speculative fiction": 51
+  "author": "Liu Cixin",
+  "id": "5766",
+  "description": "This is the second novel in \"Remembrance of Earth’s Past\", the near-future trilogy written by the China's multiple-award-winning science fiction author, Cixin Liu. In The Dark Forest, Earth is reeling from the revelation of a coming alien invasion — four centuries in the future. The aliens' human collaborators have been defeated but the presence of the sophons, the subatomic particles that allow Trisolaris instant access to all human information, means that Earth's defense plans are exposed to the enemy. Only the human mind remains a secret. This is the motivation for the Wallfacer Project, a daring plan that grants four men enormous resources to design secret strategies hidden through deceit and misdirection from Earth and Trisolaris alike. Three of the Wallfacers are influential statesmen and scientists but the fourth is a total unknown. Luo Ji, an unambitious Chinese astronomer and sociologist, is baffled by his new status. All he knows is that he's the one Wallfacer that Trisolaris wants dead.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "cultural (china)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "5766_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "5766_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5766_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5766_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5766_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5766_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5766_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5766_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 69779,
-        "score": 4.4
+    {
+      "status": "maintenance",
+      "stock_id": "5766_2"
     },
-    "pages": 1029,
-    "title": "The Dark Forest",
-    "url": "https://www.goodreads.com/book/show/23168817-the-dark-forest",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "5766_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5766_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5766_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "5766_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "5766_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 69779,
+    "score": 4.4
+  },
+  "pages": 1029,
+  "title": "The Dark Forest",
+  "url": "https://www.goodreads.com/book/show/23168817-the-dark-forest",
+  "year_published": 2008
 }

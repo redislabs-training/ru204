@@ -1,46 +1,46 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1976",
-    "description": "It's an offer you can't refuse.Who would not to wish to be the man in charge of Ankh-Morpork's Royal Mint and the bank next door?It's a job for life. But, as former con-man Moist von Lipwig is learning, the life is not necessarily for long.The Chief Cashier is almost certainly a vampire. There's something nameless in the cellar (and the cellar itself is pretty nameless), it turns out that the Royal Mint runs at a loss. A 300 year old wizard is after his girlfriend, he's about to be exposed as a fraud, but the Assassins Guild might get him first. In fact lot of people want him deadOh. And every day he has to take the Chairman for walkies.Everywhere he looks he's making enemies.What he should be doing is . . . Making Money!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 69,
-        "audiobook": 104,
-        "childrens": 62,
-        "childrens (middle grade)": 61,
-        "fantasy": 3936,
-        "fiction": 781,
-        "humor": 663,
-        "humor (comedy)": 210,
-        "science fiction fantasy": 142,
-        "young adult": 76
+  "author": "Terry Pratchett",
+  "id": "1976",
+  "description": "It's an offer you can't refuse.Who would not to wish to be the man in charge of Ankh-Morpork's Royal Mint and the bank next door?It's a job for life. But, as former con-man Moist von Lipwig is learning, the life is not necessarily for long.The Chief Cashier is almost certainly a vampire. There's something nameless in the cellar (and the cellar itself is pretty nameless), it turns out that the Royal Mint runs at a loss. A 300 year old wizard is after his girlfriend, he's about to be exposed as a fraud, but the Assassins Guild might get him first. In fact lot of people want him deadOh. And every day he has to take the Chairman for walkies.Everywhere he looks he's making enemies.What he should be doing is . . . Making Money!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1976_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1976_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1976_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1976_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1976_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 63629,
-        "score": 4.21
+    {
+      "status": "available",
+      "stock_id": "1976_2"
     },
-    "pages": 392,
-    "title": "Making Money",
-    "url": "https://www.goodreads.com/book/show/116296.Making_Money",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "1976_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1976_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 63629,
+    "score": 4.21
+  },
+  "pages": 392,
+  "title": "Making Money",
+  "url": "https://www.goodreads.com/book/show/116296.Making_Money",
+  "year_published": 2007
 }

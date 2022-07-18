@@ -1,50 +1,50 @@
 {
-    "author": "Martha Wells",
-    "id": "10028",
-    "description": "In a corporate-dominated spacefaring future, planetary missions must be approved and supplied by the Company. Exploratory teams are accompanied by Company-supplied security androids, for their own safety.But in a society where contracts are awarded to the lowest bidder, safety isn't a primary concern.On a distant planet, a team of scientists are conducting surface tests, shadowed by their Company-supplied 'droid\u2014a self-aware SecUnit that has hacked its own governor module, and refers to itself (though never out loud) as \"Murderbot.\" Scornful of humans, all it really wants is to be left alone long enough to figure out who it is.But when a neighboring mission goes dark, it's up to the scientists and their Murderbot to get to the truth.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 302,
-        "audiobook": 315,
-        "fantasy": 195,
-        "fiction": 1301,
-        "novella": 814,
-        "science fiction": 3821,
-        "science fiction (robots)": 148,
-        "science fiction fantasy": 238,
-        "short stories": 164,
-        "space": 178
+  "author": "Martha Wells",
+  "id": "10028",
+  "description": "In a corporate-dominated spacefaring future, planetary missions must be approved and supplied by the Company. Exploratory teams are accompanied by Company-supplied security androids, for their own safety.But in a society where contracts are awarded to the lowest bidder, safety isn't a primary concern.On a distant planet, a team of scientists are conducting surface tests, shadowed by their Company-supplied 'droid—a self-aware SecUnit that has hacked its own governor module, and refers to itself (though never out loud) as \"Murderbot.\" Scornful of humans, all it really wants is to be left alone long enough to figure out who it is.But when a neighboring mission goes dark, it's up to the scientists and their Murderbot to get to the truth.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "short stories",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "10028_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "10028_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10028_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10028_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "10028_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10028_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 81820,
-        "score": 4.15
+    {
+      "status": "maintenance",
+      "stock_id": "10028_2"
     },
-    "pages": 455,
-    "title": "All Systems Red",
-    "url": "https://www.goodreads.com/book/show/32758901-all-systems-red",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "10028_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "10028_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10028_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 81820,
+    "score": 4.15
+  },
+  "pages": 455,
+  "title": "All Systems Red",
+  "url": "https://www.goodreads.com/book/show/32758901-all-systems-red",
+  "year_published": 2017
 }

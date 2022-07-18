@@ -1,38 +1,38 @@
 {
-    "author": "Scott Tipton",
-    "id": "184",
-    "description": "The two greatest science-fiction properties of all time cross over for the first time in history! When the Federation's most terrifying enemy strikes an unholy alliance with one of the Doctor's most hated antagonists, the result is devastation on a cosmic scale! Spanning the ends of space and time itself, Captain Jean-Luc Picard and the crew of the USS Enterprise find themselves joining forces with the time-travelling Doctor and his companions, with the fate of the galaxy hanging in the balance!The first collection of the Assimilation 2 comics, including #1-4",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "comics (comic book)": 16,
-        "fiction": 16,
-        "graphic novels comics": 11,
-        "media tie in (doctor who)": 80,
-        "media tie in (star trek)": 69,
-        "science fiction": 75,
-        "science fiction (time travel)": 17,
-        "science fiction fantasy": 6,
-        "sequential art (comics)": 70,
-        "sequential art (graphic novels)": 116
+  "author": "Scott Tipton",
+  "id": "184",
+  "description": "The two greatest science-fiction properties of all time cross over for the first time in history! When the Federation's most terrifying enemy strikes an unholy alliance with one of the Doctor's most hated antagonists, the result is devastation on a cosmic scale! Spanning the ends of space and time itself, Captain Jean-Luc Picard and the crew of the USS Enterprise find themselves joining forces with the time-travelling Doctor and his companions, with the fate of the galaxy hanging in the balance!The first collection of the Assimilation 2 comics, including #1-4",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "comics (comic book)",
+    "fiction",
+    "graphic novels comics",
+    "media tie in (doctor who)",
+    "media tie in (star trek)",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "184_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "184_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "184_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1281,
-        "score": 3.86
-    },
-    "pages": 832,
-    "title": "Star Trek: The Next Generation / Doctor Who: Assimilation2, Volume 1",
-    "url": "https://www.goodreads.com/book/show/16055973-star-trek",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "184_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1281,
+    "score": 3.86
+  },
+  "pages": 832,
+  "title": "Star Trek: The Next Generation / Doctor Who: Assimilation2, Volume 1",
+  "url": "https://www.goodreads.com/book/show/16055973-star-trek",
+  "year_published": 2012
 }

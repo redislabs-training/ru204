@@ -1,66 +1,66 @@
 {
-    "author": "Zetta Elliott",
-    "id": "96",
-    "description": "Genna Colon desperately wants to escape from a drug-infested world of poverty, and every day she wishes for a different life. One day Genna's wish is granted and she is instantly transported back to Civil War-era Brooklyn.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "cultural (african american)": 6,
-        "fantasy": 32,
-        "fiction": 17,
-        "historical": 13,
-        "historical (historical fiction)": 36,
-        "science fiction": 6,
-        "science fiction (time travel)": 28,
-        "speculative fiction": 8,
-        "young adult": 46,
-        "young adult (teen)": 5
+  "author": "Zetta Elliott",
+  "id": "96",
+  "description": "Genna Colon desperately wants to escape from a drug-infested world of poverty, and every day she wishes for a different life. One day Genna's wish is granted and she is instantly transported back to Civil War-era Brooklyn.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "cultural (african american)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "speculative fiction",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "96_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "96_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "96_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "96_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "96_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "96_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "96_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "96_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "96_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "96_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 461,
-        "score": 3.63
+    {
+      "status": "on_loan",
+      "stock_id": "96_2"
     },
-    "pages": 1147,
-    "title": "A Wish After Midnight",
-    "url": "https://www.goodreads.com/book/show/6475623-a-wish-after-midnight",
-    "year_published": 2009
+    {
+      "status": "available",
+      "stock_id": "96_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "96_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "96_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "96_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "96_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "96_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "96_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 461,
+    "score": 3.63
+  },
+  "pages": 1147,
+  "title": "A Wish After Midnight",
+  "url": "https://www.goodreads.com/book/show/6475623-a-wish-after-midnight",
+  "year_published": 2009
 }

@@ -1,58 +1,58 @@
 {
-    "author": "Nick Harkaway",
-    "id": "1720",
-    "description": "The Jorgmund Pipe is the backbone of the world, and it's on fire. Gonzo Lubitsch, professional hero and troubleshooter, is hired to put it out, but there's more to the fire, and the Pipe itself, than meets the eye. The job will take Gonzo and his best friend, our narrator, back to their own beginnings.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 124,
-        "fantasy": 227,
-        "fiction": 398,
-        "humor": 51,
-        "novels": 24,
-        "science fiction": 417,
-        "science fiction (dystopia)": 123,
-        "science fiction fantasy": 48,
-        "speculative fiction": 28,
-        "unfinished": 26
+  "author": "Nick Harkaway",
+  "id": "1720",
+  "description": "The Jorgmund Pipe is the backbone of the world, and it's on fire. Gonzo Lubitsch, professional hero and troubleshooter, is hired to put it out, but there's more to the fire, and the Pipe itself, than meets the eye. The job will take Gonzo and his best friend, our narrator, back to their own beginnings.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "humor",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "unfinished"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1720_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1720_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1720_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1720_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1720_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1720_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1720_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1720_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11748,
-        "score": 4.12
+    {
+      "status": "on_loan",
+      "stock_id": "1720_2"
     },
-    "pages": 482,
-    "title": "The Gone-Away World",
-    "url": "https://www.goodreads.com/book/show/3007704-the-gone-away-world",
-    "year_published": 2008
+    {
+      "status": "on_loan",
+      "stock_id": "1720_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1720_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1720_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1720_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1720_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11748,
+    "score": 4.12
+  },
+  "pages": 482,
+  "title": "The Gone-Away World",
+  "url": "https://www.goodreads.com/book/show/3007704-the-gone-away-world",
+  "year_published": 2008
 }

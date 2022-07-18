@@ -1,44 +1,44 @@
 {
-    "author": "James S.A. Corey",
-    "id": "5808",
-    "description": "We are not alone.On Ganymede, breadbasket of the outer planets, a Martian marine watches as her platoon is slaughtered by a monstrous supersoldier. On Earth, a high-level politician struggles to prevent interplanetary war from reigniting. And on Venus, an alien protomolecule has overrun the planet, wreaking massive, mysterious changes and threatening to spread out into the solar system.In the vast wilderness of space, James Holden and the crew of the Rocinante have been keeping the peace for the Outer Planets Alliance. When they agree to help a scientist search war-torn Ganymede for a missing child, the future of humanity rests on whether a single ship can prevent an alien invasion that may have already begun . . .Caliban's War is a breakneck science fiction adventure following the critically acclaimed Leviathan Wakes.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 82,
-        "audiobook": 201,
-        "fantasy": 99,
-        "fiction": 976,
-        "novels": 62,
-        "science fiction": 3129,
-        "science fiction (aliens)": 63,
-        "science fiction fantasy": 174,
-        "space": 198,
-        "space (space opera)": 611
+  "author": "James S.A. Corey",
+  "id": "5808",
+  "description": "We are not alone.On Ganymede, breadbasket of the outer planets, a Martian marine watches as her platoon is slaughtered by a monstrous supersoldier. On Earth, a high-level politician struggles to prevent interplanetary war from reigniting. And on Venus, an alien protomolecule has overrun the planet, wreaking massive, mysterious changes and threatening to spread out into the solar system.In the vast wilderness of space, James Holden and the crew of the Rocinante have been keeping the peace for the Outer Planets Alliance. When they agree to help a scientist search war-torn Ganymede for a missing child, the future of humanity rests on whether a single ship can prevent an alien invasion that may have already begun . . .Caliban's War is a breakneck science fiction adventure following the critically acclaimed Leviathan Wakes.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "5808_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "5808_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "5808_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5808_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 102557,
-        "score": 4.34
+    {
+      "status": "maintenance",
+      "stock_id": "5808_2"
     },
-    "pages": 865,
-    "title": "Caliban's War",
-    "url": "https://www.goodreads.com/book/show/12591698-caliban-s-war",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "5808_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 102557,
+    "score": 4.34
+  },
+  "pages": 865,
+  "title": "Caliban's War",
+  "url": "https://www.goodreads.com/book/show/12591698-caliban-s-war",
+  "year_published": 2012
 }

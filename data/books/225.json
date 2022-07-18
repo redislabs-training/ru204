@@ -1,38 +1,38 @@
 {
-    "author": "Catherine Austen",
-    "id": "225",
-    "description": "It's the middle of the twenty-first century and the elite children of New Middletown are lined up to receive a treatment that turns them into obedient, well-mannered citizens. Maxwell Connors, a fifteen-year-old prankster, misfit and graffiti artist, observes the changes with growing concern, especially when his younger sister, Ally, is targeted. Max and his best friend, Dallas, escape the treatment, but must pretend to be \"zombies\" while they watch their freedoms and hopes decay. When Max's family decides to take Dallas with them into the unknown world beyond New Middletown's borders, Max's creativity becomes an unexpected bonus rather than a liability. ",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "cultural": 3,
-        "cultural (canada)": 6,
-        "family": 5,
-        "fiction": 18,
-        "health (medicine)": 4,
-        "science fiction": 36,
-        "science fiction (dystopia)": 63,
-        "young adult": 75,
-        "young adult (coming of age)": 4,
-        "young adult (teen)": 13
+  "author": "Catherine Austen",
+  "id": "225",
+  "description": "It's the middle of the twenty-first century and the elite children of New Middletown are lined up to receive a treatment that turns them into obedient, well-mannered citizens. Maxwell Connors, a fifteen-year-old prankster, misfit and graffiti artist, observes the changes with growing concern, especially when his younger sister, Ally, is targeted. Max and his best friend, Dallas, escape the treatment, but must pretend to be \"zombies\" while they watch their freedoms and hopes decay. When Max's family decides to take Dallas with them into the unknown world beyond New Middletown's borders, Max's creativity becomes an unexpected bonus rather than a liability. ",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "cultural",
+    "cultural (canada)",
+    "family",
+    "fiction",
+    "health (medicine)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (coming of age)",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "225_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "225_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "225_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1446,
-        "score": 3.7
-    },
-    "pages": 1288,
-    "title": "All Good Children",
-    "url": "https://www.goodreads.com/book/show/11872039-all-good-children",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "225_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1446,
+    "score": 3.7
+  },
+  "pages": 1288,
+  "title": "All Good Children",
+  "url": "https://www.goodreads.com/book/show/11872039-all-good-children",
+  "year_published": 2011
 }

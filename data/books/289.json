@@ -1,63 +1,63 @@
 {
-    "author": "Walter Jon Williams",
-    "id": "289",
-    "description": "Once upon a time, there were four of them. And though each was good at a number of things, all of them were very good at games...Dagmar is a game designer trapped in Jakarta in the middle of a revolution. The city is tearing itself apart around her and she needs to get out. Her boss Charlie has his own problems \u2014 4.3 billion of them, to be precise, hidden in an off-shore account. Austin is the businessman \u2014 the VC. He's the one with the plan and the one to keep the geeks in line.  BJ was there from the start, but while Charlie's star rose, BJ sank into the depths of customer service. He pads his hours at the call-center slaying on-line orcs, stealing your loot, and selling it on the internet.But when one of them is gunned down in a parking lot, the survivors become players in a very different kind of game. Caught between the dangerous worlds of the Russian Mafia and international finance, Dagmar must draw on all her resources \u2014 not least millions of online gamers \u2014 to track down the killer. In this near-future thriller, Walter Jon Williams weaves a pulse-pounding tale of intrigue, murder, and games where you don't get an extra life.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fiction": 83,
-        "games (gaming)": 6,
-        "games (video games)": 6,
-        "mystery": 25,
-        "mystery (crime)": 8,
-        "science fiction": 119,
-        "science fiction (cyberpunk)": 30,
-        "science fiction (near future)": 7,
-        "science fiction fantasy": 6,
-        "thriller": 52
+  "author": "Walter Jon Williams",
+  "id": "289",
+  "description": "Once upon a time, there were four of them. And though each was good at a number of things, all of them were very good at games...Dagmar is a game designer trapped in Jakarta in the middle of a revolution. The city is tearing itself apart around her and she needs to get out. Her boss Charlie has his own problems — 4.3 billion of them, to be precise, hidden in an off-shore account. Austin is the businessman — the VC. He's the one with the plan and the one to keep the geeks in line.  BJ was there from the start, but while Charlie's star rose, BJ sank into the depths of customer service. He pads his hours at the call-center slaying on-line orcs, stealing your loot, and selling it on the internet.But when one of them is gunned down in a parking lot, the survivors become players in a very different kind of game. Caught between the dangerous worlds of the Russian Mafia and international finance, Dagmar must draw on all her resources — not least millions of online gamers — to track down the killer. In this near-future thriller, Walter Jon Williams weaves a pulse-pounding tale of intrigue, murder, and games where you don't get an extra life.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fiction",
+    "games (gaming)",
+    "games (video games)",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (near future)",
+    "science fiction fantasy",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "289_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "289_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "289_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "289_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "289_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "289_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "289_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "289_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "289_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2540,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "289_2"
     },
-    "pages": 907,
-    "title": "This is Not a Game",
-    "url": "https://www.goodreads.com/book/show/3535568-this-is-not-a-game",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "289_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "289_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "289_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "289_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "289_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "289_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2540,
+    "score": 3.77
+  },
+  "pages": 907,
+  "title": "This is Not a Game",
+  "url": "https://www.goodreads.com/book/show/3535568-this-is-not-a-game",
+  "year_published": 2009
 }

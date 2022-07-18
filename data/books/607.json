@@ -1,36 +1,36 @@
 {
-    "author": "Nnedi Okorafor",
-    "id": "607",
-    "description": "A fiery spirit dances from the pages of the Great Book. She brings the aroma of scorched sand and ozone. She has a story to tell\u2026. The Book of Phoenix is a unique work of magical futurism. A prequel to the highly acclaimed, World Fantasy Award-winning novel, Who Fears Death, it features the rise of another of Nnedi Okorafor\u2019s powerful, memorable, superhuman women.Phoenix was grown and raised among other genetic experiments in New York\u2019s Tower 7. She is an \u201caccelerated woman\u201d\u2014only two years old but with the body and mind of an adult, Phoenix\u2019s abilities far exceed those of a normal human. Still innocent and inexperienced in the ways of the world, she is content living in her room speed reading e-books, running on her treadmill, and basking in the love of Saeed, another biologically altered human of Tower 7.Then one evening, Saeed witnesses something so terrible that he takes his own life. Devastated by his death and Tower 7\u2019s refusal to answer her questions, Phoenix finally begins to realize that her home is really her prison, and she becomes desperate to escape.But Phoenix\u2019s escape, and her destruction of Tower 7, is just the beginning of her story. Before her story ends, Phoenix will travel from the United States to Africa and back, changing the entire course of humanity\u2019s future.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 17,
-        "cultural (africa)": 48,
-        "fantasy": 283,
-        "fiction": 122,
-        "magical realism": 19,
-        "novels": 12,
-        "science fiction": 223,
-        "science fiction (dystopia)": 54,
-        "science fiction fantasy": 30,
-        "speculative fiction": 45
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "607_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4098,
-        "score": 3.95
-    },
-    "pages": 1108,
-    "title": "The Book of Phoenix",
-    "url": "https://www.goodreads.com/book/show/23281789-the-book-of-phoenix",
-    "year_published": 2015
+  "author": "Nnedi Okorafor",
+  "id": "607",
+  "description": "A fiery spirit dances from the pages of the Great Book. She brings the aroma of scorched sand and ozone. She has a story to tell…. The Book of Phoenix is a unique work of magical futurism. A prequel to the highly acclaimed, World Fantasy Award-winning novel, Who Fears Death, it features the rise of another of Nnedi Okorafor’s powerful, memorable, superhuman women.Phoenix was grown and raised among other genetic experiments in New York’s Tower 7. She is an “accelerated woman”—only two years old but with the body and mind of an adult, Phoenix’s abilities far exceed those of a normal human. Still innocent and inexperienced in the ways of the world, she is content living in her room speed reading e-books, running on her treadmill, and basking in the love of Saeed, another biologically altered human of Tower 7.Then one evening, Saeed witnesses something so terrible that he takes his own life. Devastated by his death and Tower 7’s refusal to answer her questions, Phoenix finally begins to realize that her home is really her prison, and she becomes desperate to escape.But Phoenix’s escape, and her destruction of Tower 7, is just the beginning of her story. Before her story ends, Phoenix will travel from the United States to Africa and back, changing the entire course of humanity’s future.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "cultural (africa)",
+    "fantasy",
+    "fiction",
+    "magical realism",
+    "novels",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "607_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4098,
+    "score": 3.95
+  },
+  "pages": 1108,
+  "title": "The Book of Phoenix",
+  "url": "https://www.goodreads.com/book/show/23281789-the-book-of-phoenix",
+  "year_published": 2015
 }

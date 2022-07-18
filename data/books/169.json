@@ -1,44 +1,44 @@
 {
-    "author": "Carl Ashmore",
-    "id": "169",
-    "description": "Becky is a typical thirteen year old girl. She likes Facebook, gossiping and plenty of sleep. So when she and her brother, Joe, are invited to stay with their 'loony' Uncle Percy at his stately home, she thinks it\u2019ll be the worst summer ever. What she doesn't realise is that Bowen Hall is also home to a baby Triceratops, two Sabre-tooth tigers and the mythic hero, Will Scarlet...  'The Time Hunters' is a thrilling adventure that takes Becky, Joe, Uncle Percy and Will on a quest through time to find the legendary Golden Fleece.  The Clock is ticking.... ",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 19,
-        "business (amazon)": 4,
-        "childrens": 9,
-        "childrens (middle grade)": 11,
-        "fantasy": 44,
-        "fiction": 19,
-        "science fiction": 19,
-        "science fiction (time travel)": 62,
-        "science fiction fantasy": 3,
-        "young adult": 28
+  "author": "Carl Ashmore",
+  "id": "169",
+  "description": "Becky is a typical thirteen year old girl. She likes Facebook, gossiping and plenty of sleep. So when she and her brother, Joe, are invited to stay with their 'loony' Uncle Percy at his stately home, she thinks it’ll be the worst summer ever. What she doesn't realise is that Bowen Hall is also home to a baby Triceratops, two Sabre-tooth tigers and the mythic hero, Will Scarlet...  'The Time Hunters' is a thrilling adventure that takes Becky, Joe, Uncle Percy and Will on a quest through time to find the legendary Golden Fleece.  The Clock is ticking.... ",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "business (amazon)",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "169_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "169_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "169_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "169_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1658,
-        "score": 4.07
+    {
+      "status": "available",
+      "stock_id": "169_2"
     },
-    "pages": 1379,
-    "title": "The Time Hunters",
-    "url": "https://www.goodreads.com/book/show/9490327-the-time-hunters",
-    "year_published": 2010
+    {
+      "status": "maintenance",
+      "stock_id": "169_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1658,
+    "score": 4.07
+  },
+  "pages": 1379,
+  "title": "The Time Hunters",
+  "url": "https://www.goodreads.com/book/show/9490327-the-time-hunters",
+  "year_published": 2010
 }

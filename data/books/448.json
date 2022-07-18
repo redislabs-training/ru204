@@ -1,55 +1,55 @@
 {
-    "author": "Jinsei Kataoka",
-    "id": "448",
-    "description": "Ten years have passed since the Great Tokyo Earthquake, and the people's memories of the disaster have faded. Ganta Igarashi, a middle school evacuee, has finally begun to live a normal life... that is, until the day 'Red Man' appears at his school and Ganta's fate is changed forever.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 27,
-        "comics manga": 24,
-        "fantasy": 59,
-        "fiction": 23,
-        "horror": 137,
-        "science fiction": 56,
-        "science fiction (dystopia)": 46,
-        "sequential art (comics)": 55,
-        "sequential art (graphic novels)": 77,
-        "sequential art (manga)": 1526
+  "author": "Jinsei Kataoka",
+  "id": "448",
+  "description": "Ten years have passed since the Great Tokyo Earthquake, and the people's memories of the disaster have faded. Ganta Igarashi, a middle school evacuee, has finally begun to live a normal life... that is, until the day 'Red Man' appears at his school and Ganta's fate is changed forever.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "comics manga",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "448_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "448_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "448_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "448_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "448_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "448_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "448_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 17909,
-        "score": 4.18
+    {
+      "status": "on_loan",
+      "stock_id": "448_2"
     },
-    "pages": 834,
-    "title": "Deadman Wonderland, Vol. 1",
-    "url": "https://www.goodreads.com/book/show/6606855-deadman-wonderland-vol-1",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "448_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "448_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "448_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "448_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 17909,
+    "score": 4.18
+  },
+  "pages": 834,
+  "title": "Deadman Wonderland, Vol. 1",
+  "url": "https://www.goodreads.com/book/show/6606855-deadman-wonderland-vol-1",
+  "year_published": 2007
 }

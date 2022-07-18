@@ -1,55 +1,55 @@
 {
-    "author": "Linda   Davies",
-    "id": "126",
-    "description": "A stunningly exciting and dramatic story set in the wilds of the Welsh mountains, where the brave and beautiful Merry Owen, the Longbow Girl, travels back in time to the autocratic kingdom of King Henry VIII to save her ancestors.Steeped in history, ancient lore and crackling with tension between the central characters Merry and James, Longbow Girl explores the themes of who we are and who we can become when fighting for those we love and for our very lives. Are we prisoners of our history or can we break free? Can we become all that we need to be to meet the ultimate challenge of life and death in the King\u2019s Tournament and in the dungeons of the Black Castle?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 10,
-        "childrens": 4,
-        "fantasy": 43,
-        "fiction": 11,
-        "historical": 19,
-        "historical (historical fiction)": 38,
-        "mystery": 5,
-        "science fiction": 8,
-        "science fiction (time travel)": 43,
-        "young adult": 31
+  "author": "Linda   Davies",
+  "id": "126",
+  "description": "A stunningly exciting and dramatic story set in the wilds of the Welsh mountains, where the brave and beautiful Merry Owen, the Longbow Girl, travels back in time to the autocratic kingdom of King Henry VIII to save her ancestors.Steeped in history, ancient lore and crackling with tension between the central characters Merry and James, Longbow Girl explores the themes of who we are and who we can become when fighting for those we love and for our very lives. Are we prisoners of our history or can we break free? Can we become all that we need to be to meet the ultimate challenge of life and death in the King’s Tournament and in the dungeons of the Black Castle?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "126_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "126_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "126_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "126_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "126_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "126_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "126_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 685,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "126_2"
     },
-    "pages": 740,
-    "title": "Longbow Girl",
-    "url": "https://www.goodreads.com/book/show/25711025-longbow-girl",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "126_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "126_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "126_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "126_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 685,
+    "score": 3.86
+  },
+  "pages": 740,
+  "title": "Longbow Girl",
+  "url": "https://www.goodreads.com/book/show/25711025-longbow-girl",
+  "year_published": 2015
 }

@@ -1,63 +1,63 @@
 {
-    "author": "John Varley",
-    "id": "171",
-    "description": "Fleeing Earth after an alien invasion, the human race stands on the threshold of evolution, like a fish cast on artificial shores. Their new home is Luna, a moon colony blessed with creature comforts, prolonged lifespans, digital memories, and instant sex changes. But the people of Luna are bored, restless, and suicidal -- and so is the computer that monitors their existence...",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "anthologies (collections)": 3,
-        "fiction": 51,
-        "novels": 3,
-        "science fiction": 189,
-        "science fiction (cyberpunk)": 6,
-        "science fiction (dystopia)": 5,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 9,
-        "space (space opera)": 5,
-        "speculative fiction": 9
+  "author": "John Varley",
+  "id": "171",
+  "description": "Fleeing Earth after an alien invasion, the human race stands on the threshold of evolution, like a fish cast on artificial shores. Their new home is Luna, a moon colony blessed with creature comforts, prolonged lifespans, digital memories, and instant sex changes. But the people of Luna are bored, restless, and suicidal -- and so is the computer that monitors their existence...",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "anthologies (collections)",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "171_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "171_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "171_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "171_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "171_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "171_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "171_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "171_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "171_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3001,
-        "score": 3.98
+    {
+      "status": "available",
+      "stock_id": "171_2"
     },
-    "pages": 722,
-    "title": "Steel Beach",
-    "url": "https://www.goodreads.com/book/show/49842.Steel_Beach",
-    "year_published": 1992
+    {
+      "status": "on_loan",
+      "stock_id": "171_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "171_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "171_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "171_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "171_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "171_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3001,
+    "score": 3.98
+  },
+  "pages": 722,
+  "title": "Steel Beach",
+  "url": "https://www.goodreads.com/book/show/49842.Steel_Beach",
+  "year_published": 1992
 }

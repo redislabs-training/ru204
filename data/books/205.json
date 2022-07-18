@@ -1,43 +1,43 @@
 {
-    "author": "Douglas Adams",
-    "id": "205",
-    "description": "Finally, here they are in one outrageous volume--all five best-selling Hitchhiker stories by Douglas Adams. Plus, you'll find a perplexingly frank introduction by the author himself, giving a behind-the-scenes look at each book and the zany radio series that inspired them. But that's not all! You also get a ferocious giggle of a short story, starring the two-headed, three-armed, ex-president of the Universe -- Zaphod Beeblebrox. The saga begins and ends...The Hitchhiker's Guide to the Galaxy--Arthur Dent, mild-mannered, out-to-lunch kind of guy, is plucked from Earth just before it is demolished to make way for a hyperspace bypass. Towel in hand, he begins his journey through space and time with his rescuer Ford Prefect, a traveling research for the Guide.The Restaurant at the End of the Universe--where the floor show is Doomsday and Arthur and Ford dine with Zaphod Beeblebrox, well-appendaged, ex-head honcho of the universe, and Trillian, his human girlfriend. The four friends begin their quest for answers to some of the most confounding questions challenging mankind. When will they finish eating? What is the question to the ultimate answer? (which happens to be 42).Life, the Universe and Everything--Everything important and then some is examined in this third book, when Arthur Dent and his companions find they must avert Armageddon and save the Universe for life as we know it (or think we know it!).So Long, and Thanks for All the Fish--Galaxy-weary space traveler Arthur Dent returns to Earth With his new voidoid gang to discover that it has been mysteriously reinstated. But more pertinent questions remain: Why did all the dolphins disappear? What is God's Final Message to His Creation? What really happened the day the Earth was demolished?And finally, in Young Zaphod Plays it Safe--the two-headed hero travels to the depths of the ocean floor to investigate the mysterious destruction of the ship that \"could one hundred percent positively never crash.\" with the annoying assistance of the Safety and Civil Reassurance Administration, Zaphod learns some disturbing secrets...If you're just discovering Douglas Adams's galactic gangbuster of a series, don't panic--The More Than Complete Hitchhiker's Guide is your chance to have it all! (Towel not included.)--jacket",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 9,
-        "fantasy": 24,
-        "fiction": 119,
-        "humor": 100,
-        "humor (comedy)": 16,
-        "novels": 9,
-        "science fiction": 141,
-        "science fiction (aliens)": 8,
-        "science fiction fantasy": 18,
-        "space": 10
+  "author": "Douglas Adams",
+  "id": "205",
+  "description": "Finally, here they are in one outrageous volume--all five best-selling Hitchhiker stories by Douglas Adams. Plus, you'll find a perplexingly frank introduction by the author himself, giving a behind-the-scenes look at each book and the zany radio series that inspired them. But that's not all! You also get a ferocious giggle of a short story, starring the two-headed, three-armed, ex-president of the Universe -- Zaphod Beeblebrox. The saga begins and ends...The Hitchhiker's Guide to the Galaxy--Arthur Dent, mild-mannered, out-to-lunch kind of guy, is plucked from Earth just before it is demolished to make way for a hyperspace bypass. Towel in hand, he begins his journey through space and time with his rescuer Ford Prefect, a traveling research for the Guide.The Restaurant at the End of the Universe--where the floor show is Doomsday and Arthur and Ford dine with Zaphod Beeblebrox, well-appendaged, ex-head honcho of the universe, and Trillian, his human girlfriend. The four friends begin their quest for answers to some of the most confounding questions challenging mankind. When will they finish eating? What is the question to the ultimate answer? (which happens to be 42).Life, the Universe and Everything--Everything important and then some is examined in this third book, when Arthur Dent and his companions find they must avert Armageddon and save the Universe for life as we know it (or think we know it!).So Long, and Thanks for All the Fish--Galaxy-weary space traveler Arthur Dent returns to Earth With his new voidoid gang to discover that it has been mysteriously reinstated. But more pertinent questions remain: Why did all the dolphins disappear? What is God's Final Message to His Creation? What really happened the day the Earth was demolished?And finally, in Young Zaphod Plays it Safe--the two-headed hero travels to the depths of the ocean floor to investigate the mysterious destruction of the ship that \"could one hundred percent positively never crash.\" with the annoying assistance of the Safety and Civil Reassurance Administration, Zaphod learns some disturbing secrets...If you're just discovering Douglas Adams's galactic gangbuster of a series, don't panic--The More Than Complete Hitchhiker's Guide is your chance to have it all! (Towel not included.)--jacket",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "novels",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "205_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "205_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "205_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "205_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3474,
-        "score": 4.58
+    {
+      "status": "maintenance",
+      "stock_id": "205_2"
     },
-    "pages": 643,
-    "title": "The More Than Complete Hitchhiker's Guide",
-    "url": "https://www.goodreads.com/book/show/64123.The_More_Than_Complete_Hitchhiker_s_Guide",
-    "year_published": 1989
+    {
+      "status": "available",
+      "stock_id": "205_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3474,
+    "score": 4.58
+  },
+  "pages": 643,
+  "title": "The More Than Complete Hitchhiker's Guide",
+  "url": "https://www.goodreads.com/book/show/64123.The_More_Than_Complete_Hitchhiker_s_Guide",
+  "year_published": 1989
 }

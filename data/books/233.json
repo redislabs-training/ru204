@@ -1,54 +1,54 @@
 {
-    "author": "Tim Maughan",
-    "id": "233",
-    "description": "BEFORE: In Bristol's center lies the Croft, a digital no-man's-land cut off from the surveillance, Big Data dependence, and corporate-sponsored, globally hegemonic aspirations that have overrun the rest of the world. Ten years in, it's become a center of creative counterculture. But it's fraying at the edges, radicalizing from inside. How will it fare when its chief architect, Rushdi Mannan, takes off to meet his boyfriend in New York City--now the apotheosis of the new techno-utopian global metropolis?AFTER: An act of anonymous cyberterrorism has permanently switched off the Internet. Global trade, travel, and communication have collapsed. The luxuries that characterized modern life are scarce. In the Croft, Mary--who has visions of people presumed dead--is sought out by grieving families seeking connections to lost ones. But does Mary have a gift or is she just hustling to stay alive? Like Grids, who runs the Croft's black market like personal turf. Or like Tyrone, who hoards music (culled from cassettes, the only medium to survive the crash) and tattered sneakers like treasure.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 5,
-        "contemporary": 6,
-        "fiction": 97,
-        "novels": 11,
-        "science (technology)": 7,
-        "science fiction": 84,
-        "science fiction (cyberpunk)": 9,
-        "science fiction (dystopia)": 14,
-        "science fiction fantasy": 6,
-        "speculative fiction": 8
+  "author": "Tim Maughan",
+  "id": "233",
+  "description": "BEFORE: In Bristol's center lies the Croft, a digital no-man's-land cut off from the surveillance, Big Data dependence, and corporate-sponsored, globally hegemonic aspirations that have overrun the rest of the world. Ten years in, it's become a center of creative counterculture. But it's fraying at the edges, radicalizing from inside. How will it fare when its chief architect, Rushdi Mannan, takes off to meet his boyfriend in New York City--now the apotheosis of the new techno-utopian global metropolis?AFTER: An act of anonymous cyberterrorism has permanently switched off the Internet. Global trade, travel, and communication have collapsed. The luxuries that characterized modern life are scarce. In the Croft, Mary--who has visions of people presumed dead--is sought out by grieving families seeking connections to lost ones. But does Mary have a gift or is she just hustling to stay alive? Like Grids, who runs the Croft's black market like personal turf. Or like Tyrone, who hoards music (culled from cassettes, the only medium to survive the crash) and tattered sneakers like treasure.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "contemporary",
+    "fiction",
+    "novels",
+    "science (technology)",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "233_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "233_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "233_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "233_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "233_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "233_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "233_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1658,
-        "score": 3.76
+    {
+      "status": "maintenance",
+      "stock_id": "233_2"
     },
-    "pages": 600,
-    "title": "Infinite Detail",
-    "url": "https://www.goodreads.com/book/show/40121978-infinite-detail",
-    "year_published": 2019
+    {
+      "status": "maintenance",
+      "stock_id": "233_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "233_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "233_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "233_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1658,
+    "score": 3.76
+  },
+  "pages": 600,
+  "title": "Infinite Detail",
+  "url": "https://www.goodreads.com/book/show/40121978-infinite-detail",
+  "year_published": 2019
 }

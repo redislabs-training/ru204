@@ -1,59 +1,59 @@
 {
-    "author": "Alan Dean Foster",
-    "id": "556",
-    "description": "Luke Skywalker expected trouble when he volunteered to follow Princess Leia on her mission to the planet Circarpous. But he discovered that hidden on the planet was the Kaiburr crystal, a mysterious gem that would give the one who possessed it such powers over the Force that he would be all but invincible. In the wrong hands, the crystal could be deadly. So Luke had to find this treasure and find it fast....",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 17,
-        "fantasy": 66,
-        "fiction": 184,
-        "media tie in": 17,
-        "media tie in (star wars)": 1125,
-        "novels": 22,
-        "science fiction": 480,
-        "science fiction fantasy": 37,
-        "space": 12,
-        "space (space opera)": 39
+  "author": "Alan Dean Foster",
+  "id": "556",
+  "description": "Luke Skywalker expected trouble when he volunteered to follow Princess Leia on her mission to the planet Circarpous. But he discovered that hidden on the planet was the Kaiburr crystal, a mysterious gem that would give the one who possessed it such powers over the Force that he would be all but invincible. In the wrong hands, the crystal could be deadly. So Luke had to find this treasure and find it fast....",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (star wars)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "556_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "556_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "556_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "556_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "556_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "556_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "556_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "556_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 9557,
-        "score": 3.26
+    {
+      "status": "on_loan",
+      "stock_id": "556_2"
     },
-    "pages": 812,
-    "title": "Splinter of the Mind's Eye",
-    "url": "https://www.goodreads.com/book/show/35204.Splinter_of_the_Mind_s_Eye",
-    "year_published": 1978
+    {
+      "status": "available",
+      "stock_id": "556_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "556_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "556_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "556_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "556_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 9557,
+    "score": 3.26
+  },
+  "pages": 812,
+  "title": "Splinter of the Mind's Eye",
+  "url": "https://www.goodreads.com/book/show/35204.Splinter_of_the_Mind_s_Eye",
+  "year_published": 1978
 }

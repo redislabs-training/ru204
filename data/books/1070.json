@@ -1,55 +1,55 @@
 {
-    "author": "Kurt Vonnegut Jr.",
-    "id": "1070",
-    "description": "",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 25,
-        "classics": 138,
-        "fantasy": 23,
-        "fiction": 323,
-        "literature": 20,
-        "literature (american)": 23,
-        "science fiction": 355,
-        "science fiction (dystopia)": 136,
-        "science fiction fantasy": 17,
-        "short stories": 449
+  "author": "Kurt Vonnegut Jr.",
+  "id": "1070",
+  "description": "",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature",
+    "literature (american)",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1070_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1070_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1070_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1070_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1070_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1070_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1070_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16211,
-        "score": 3.95
+    {
+      "status": "available",
+      "stock_id": "1070_2"
     },
-    "pages": 883,
-    "title": "2BR02B",
-    "url": "https://www.goodreads.com/book/show/5048174-2br02b",
-    "year_published": 1968
+    {
+      "status": "available",
+      "stock_id": "1070_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1070_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1070_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1070_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16211,
+    "score": 3.95
+  },
+  "pages": 883,
+  "title": "2BR02B",
+  "url": "https://www.goodreads.com/book/show/5048174-2br02b",
+  "year_published": 1968
 }

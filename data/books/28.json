@@ -1,57 +1,57 @@
 {
-    "author": "Ben Joel Price",
-    "id": "28",
-    "description": "In this sequel to Earth Space Moon Base, Monkey, Robot, and Deep-Sea Diver embark on a dangerous underwater quest! The jellyfish and spider crabs they encounter are the least of their worries as they search the depths for missing starfish in their bathysphere, the Guppy. \u00a0 Ben Joel Price\u2019s cheeky rhymes and limited yet striking palette evoke an enchanting world that will give young readers the explorer\u2019s bug!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 4,
-        "animals": 3,
-        "childrens": 4,
-        "childrens (picture books)": 21,
-        "environment (nature)": 2,
-        "fantasy": 2,
-        "fiction": 2,
-        "science fiction (robots)": 2
+  "author": "Ben Joel Price",
+  "id": "28",
+  "description": "In this sequel to Earth Space Moon Base, Monkey, Robot, and Deep-Sea Diver embark on a dangerous underwater quest! The jellyfish and spider crabs they encounter are the least of their worries as they search the depths for missing starfish in their bathysphere, the Guppy.   Ben Joel Price’s cheeky rhymes and limited yet striking palette evoke an enchanting world that will give young readers the explorer’s bug!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "childrens",
+    "childrens (picture books)",
+    "environment (nature)",
+    "fantasy",
+    "fiction",
+    "science fiction (robots)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "28_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "28_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "28_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "28_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "28_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 118,
-        "score": 2.92
+    {
+      "status": "on_loan",
+      "stock_id": "28_2"
     },
-    "pages": 871,
-    "title": "In the Deep Dark Deep",
-    "url": "https://www.goodreads.com/book/show/23742840-in-the-deep-dark-deep",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "28_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "28_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "28_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 118,
+    "score": 2.92
+  },
+  "pages": 871,
+  "title": "In the Deep Dark Deep",
+  "url": "https://www.goodreads.com/book/show/23742840-in-the-deep-dark-deep",
+  "year_published": 2015
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Samuel R. Delany",
-    "id": "985",
-    "description": "Babel-17 is all about the power of language. Humanity, which has spread throughout the universe, is involved in a war with the Invaders, who have been covertly assassinating officials and sabotaging spaceships. The only clues humanity has to go on are strange alien messages that have been intercepted in space. Poet and linguist Rydra Wong is determined to understand the language and stop the alien threat. (Paul Goat Allen)",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "classics": 57,
-        "fantasy": 24,
-        "fiction": 322,
-        "humanities (language)": 33,
-        "novels": 29,
-        "science fiction": 938,
-        "science fiction fantasy": 57,
-        "space": 20,
-        "space (space opera)": 50,
-        "speculative fiction": 46
+  "author": "Samuel R. Delany",
+  "id": "985",
+  "description": "Babel-17 is all about the power of language. Humanity, which has spread throughout the universe, is involved in a war with the Invaders, who have been covertly assassinating officials and sabotaging spaceships. The only clues humanity has to go on are strange alien messages that have been intercepted in space. Poet and linguist Rydra Wong is determined to understand the language and stop the alien threat. (Paul Goat Allen)",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "humanities (language)",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "985_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "985_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "985_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "985_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "985_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "985_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "985_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "985_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "985_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13861,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "985_2"
     },
-    "pages": 402,
-    "title": "Babel-17",
-    "url": "https://www.goodreads.com/book/show/1199688.Babel_17",
-    "year_published": 1966
+    {
+      "status": "available",
+      "stock_id": "985_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "985_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "985_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "985_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "985_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "985_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13861,
+    "score": 3.77
+  },
+  "pages": 402,
+  "title": "Babel-17",
+  "url": "https://www.goodreads.com/book/show/1199688.Babel_17",
+  "year_published": 1966
 }

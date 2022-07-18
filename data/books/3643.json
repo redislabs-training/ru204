@@ -1,42 +1,42 @@
 {
-    "author": "Christopher Moore",
-    "id": "3643",
-    "description": "\"Hilarious, always inventive, this is a book for all, especially uptight English teachers, bardolaters, and ministerial students.\" --Dallas Morning NewsFool--the bawdy and outrageous New York Times bestseller from the unstoppable Christopher Moore--is a hilarious new take on William Shakespeare's King Lear...as seen through the eyes of the foolish liege's clownish jester, Pocket. A rousing tale of \"gratuitous shagging, murder, spanking, maiming, treason, and heretofore unexplored heights of vulgarity and profanity,\" Fool joins Moore's own Lamb, Fluke, The Stupidest Angel, and You Suck! as modern masterworks of satiric wit and sublimely twisted genius, prompting Carl Hiassen to declare Christopher Moore \"a very sick man, in the very best sense of the word.\"",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 60,
-        "adult fiction": 50,
-        "audiobook": 97,
-        "fantasy": 382,
-        "fiction": 880,
-        "historical": 69,
-        "historical (historical fiction)": 221,
-        "humor": 987,
-        "humor (comedy)": 265,
-        "retellings": 43
+  "author": "Christopher Moore",
+  "id": "3643",
+  "description": "\"Hilarious, always inventive, this is a book for all, especially uptight English teachers, bardolaters, and ministerial students.\" --Dallas Morning NewsFool--the bawdy and outrageous New York Times bestseller from the unstoppable Christopher Moore--is a hilarious new take on William Shakespeare's King Lear...as seen through the eyes of the foolish liege's clownish jester, Pocket. A rousing tale of \"gratuitous shagging, murder, spanking, maiming, treason, and heretofore unexplored heights of vulgarity and profanity,\" Fool joins Moore's own Lamb, Fluke, The Stupidest Angel, and You Suck! as modern masterworks of satiric wit and sublimely twisted genius, prompting Carl Hiassen to declare Christopher Moore \"a very sick man, in the very best sense of the word.\"",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "humor",
+    "humor (comedy)",
+    "retellings"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "3643_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "3643_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "3643_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3643_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 51481,
-        "score": 3.97
+    {
+      "status": "available",
+      "stock_id": "3643_2"
     },
-    "pages": 1298,
-    "title": "Fool",
-    "url": "https://www.goodreads.com/book/show/3684856-fool",
-    "year_published": 2009
+    {
+      "status": "available",
+      "stock_id": "3643_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 51481,
+    "score": 3.97
+  },
+  "pages": 1298,
+  "title": "Fool",
+  "url": "https://www.goodreads.com/book/show/3684856-fool",
+  "year_published": 2009
 }

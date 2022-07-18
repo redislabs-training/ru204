@@ -1,34 +1,34 @@
 {
-    "author": "Robert Sheckley",
-    "id": "142",
-    "description": "First published in 1959 as a startling, revolutionary novel of the future, then pushed to new cinematic limits as the feature film adaptation FREEJACK in 1992, Robert Sheckley's unsettling vision of Tomorrow now arrives in ebook format for the 21st century.Thomas Blaine awoke in a white bed in a white room, and heard someone say, \"He's alive now.\" Then they asked him his name, age and marital status. Yes, that seemed normal enough---but what was this talk about \"death trauma\"?Thus was Thomas Blaine introduced to the year 2110, where science had discovered the technique of transferring a man's consciousness from one body to another. Where a man's mind could be snatched from the past, when his body was at the point of death, and brought forward into a \"host body\" in this fantastic future world. But that was only a small part of it. For the future had proved the reality of life after death, and discovered worlds beyond or simultaneous with our own---worlds where, through scientific techniques, a man could live again, in another body, when he died here. And in the process, the reality of ghosts, poltergeists, and zombies was also established. What did it all mean? How had this discovery of what they called the \"hereafter\" shaped the world of 2110? Thomas Blaine found himself living in a future where the discoveries and techniques imagined by people of his time, while having come about, were completely overwhelmed by discoveries no one had ever dreamed of.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 6,
-        "classics": 5,
-        "fantasy": 12,
-        "fiction": 47,
-        "humor": 6,
-        "science fiction": 176,
-        "science fiction (dystopia)": 6,
-        "science fiction (time travel)": 14,
-        "science fiction fantasy": 5,
-        "speculative fiction": 9
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "142_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2109,
-        "score": 3.82
-    },
-    "pages": 879,
-    "title": "Immortality, Inc",
-    "url": "https://www.goodreads.com/book/show/1038590.Immortality_Inc_",
-    "year_published": 1959
+  "author": "Robert Sheckley",
+  "id": "142",
+  "description": "First published in 1959 as a startling, revolutionary novel of the future, then pushed to new cinematic limits as the feature film adaptation FREEJACK in 1992, Robert Sheckley's unsettling vision of Tomorrow now arrives in ebook format for the 21st century.Thomas Blaine awoke in a white bed in a white room, and heard someone say, \"He's alive now.\" Then they asked him his name, age and marital status. Yes, that seemed normal enough---but what was this talk about \"death trauma\"?Thus was Thomas Blaine introduced to the year 2110, where science had discovered the technique of transferring a man's consciousness from one body to another. Where a man's mind could be snatched from the past, when his body was at the point of death, and brought forward into a \"host body\" in this fantastic future world. But that was only a small part of it. For the future had proved the reality of life after death, and discovered worlds beyond or simultaneous with our own---worlds where, through scientific techniques, a man could live again, in another body, when he died here. And in the process, the reality of ghosts, poltergeists, and zombies was also established. What did it all mean? How had this discovery of what they called the \"hereafter\" shaped the world of 2110? Thomas Blaine found himself living in a future where the discoveries and techniques imagined by people of his time, while having come about, were completely overwhelmed by discoveries no one had ever dreamed of.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "classics",
+    "fantasy",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "142_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2109,
+    "score": 3.82
+  },
+  "pages": 879,
+  "title": "Immortality, Inc",
+  "url": "https://www.goodreads.com/book/show/1038590.Immortality_Inc_",
+  "year_published": 1959
 }

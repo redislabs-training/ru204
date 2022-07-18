@@ -1,36 +1,36 @@
 {
-    "author": "Lamar Giles",
-    "id": "193",
-    "description": "When two adventurous cousins accidentally extend the last day of summer by freezing time, they find the secrets hidden between the unmoving seconds, minutes, and hours are not the endless fun they expected. Otto and Sheed are the local sleuths in their zany Virginia town, masters of unraveling mischief using their unmatched powers of deduction. And as the summer winds down and the first day of school looms, the boys are craving just a little bit more time for fun, even as they bicker over what kind of fun they want to have. That is, until a mysterious man appears with a camera that literally freezes time. Now, with the help of some very strange people and even stranger creatures, Otto and Sheed will have to put aside their differences to save their town\u2014and each other\u2014before time stops for good.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 29,
-        "childrens": 17,
-        "childrens (juvenile)": 15,
-        "childrens (middle grade)": 105,
-        "cultural (african american)": 13,
-        "family": 12,
-        "fantasy": 75,
-        "mystery": 13,
-        "science fiction": 40,
-        "science fiction (time travel)": 24
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "193_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 752,
-        "score": 3.84
-    },
-    "pages": 1046,
-    "title": "The Last Last-Day-of-Summer",
-    "url": "https://www.goodreads.com/book/show/39727174-the-last-last-day-of-summer",
-    "year_published": 2019
+  "author": "Lamar Giles",
+  "id": "193",
+  "description": "When two adventurous cousins accidentally extend the last day of summer by freezing time, they find the secrets hidden between the unmoving seconds, minutes, and hours are not the endless fun they expected. Otto and Sheed are the local sleuths in their zany Virginia town, masters of unraveling mischief using their unmatched powers of deduction. And as the summer winds down and the first day of school looms, the boys are craving just a little bit more time for fun, even as they bicker over what kind of fun they want to have. That is, until a mysterious man appears with a camera that literally freezes time. Now, with the help of some very strange people and even stranger creatures, Otto and Sheed will have to put aside their differences to save their town—and each other—before time stops for good.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "cultural (african american)",
+    "family",
+    "fantasy",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "193_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 752,
+    "score": 3.84
+  },
+  "pages": 1046,
+  "title": "The Last Last-Day-of-Summer",
+  "url": "https://www.goodreads.com/book/show/39727174-the-last-last-day-of-summer",
+  "year_published": 2019
 }

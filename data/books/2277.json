@@ -1,63 +1,63 @@
 {
-    "author": "John  Stephens",
-    "id": "2277",
-    "description": "Called \u201cA new Narnia for the tween set\u201d by the New York Times and perfect for fans of the His Dark Materials series, The Emerald Atlas brims with humor and action as it charts Kate, Michael, and Emma's extraordinary adventures through an unforgettable, enchanted world.These three siblings have been in one orphanage after another for the last ten years, passed along like lost baggage.Yet these unwanted children are more remarkable than they could possibly imagine. Ripped from their parents as babies, they are being protected from a horrible evil of devastating power, an evil they know nothing about.Until now.Before long, Kate, Michael, and Emma are on a journey through time to dangerous and secret corners of the world...a journey of allies and enemies, of magic and mayhem. And \u2014 if an ancient prophesy is correct \u2014 what they do can change history, and it is up to them to set things right.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 203,
-        "audiobook": 68,
-        "childrens": 110,
-        "childrens (juvenile)": 58,
-        "childrens (middle grade)": 228,
-        "fantasy": 1207,
-        "fantasy (magic)": 106,
-        "fiction": 158,
-        "science fiction (time travel)": 103,
-        "young adult": 227
+  "author": "John  Stephens",
+  "id": "2277",
+  "description": "Called “A new Narnia for the tween set” by the New York Times and perfect for fans of the His Dark Materials series, The Emerald Atlas brims with humor and action as it charts Kate, Michael, and Emma's extraordinary adventures through an unforgettable, enchanted world.These three siblings have been in one orphanage after another for the last ten years, passed along like lost baggage.Yet these unwanted children are more remarkable than they could possibly imagine. Ripped from their parents as babies, they are being protected from a horrible evil of devastating power, an evil they know nothing about.Until now.Before long, Kate, Michael, and Emma are on a journey through time to dangerous and secret corners of the world...a journey of allies and enemies, of magic and mayhem. And — if an ancient prophesy is correct — what they do can change history, and it is up to them to set things right.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2277_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2277_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2277_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "2277_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2277_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2277_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "2277_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2277_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2277_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 20168,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "2277_2"
     },
-    "pages": 608,
-    "title": "The Emerald Atlas",
-    "url": "https://www.goodreads.com/book/show/8619814-the-emerald-atlas",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "2277_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2277_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2277_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "2277_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2277_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2277_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 20168,
+    "score": 3.94
+  },
+  "pages": 608,
+  "title": "The Emerald Atlas",
+  "url": "https://www.goodreads.com/book/show/8619814-the-emerald-atlas",
+  "year_published": 2011
 }

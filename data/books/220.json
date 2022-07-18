@@ -1,60 +1,60 @@
 {
-    "author": "Alex Scarrow",
-    "id": "220",
-    "description": "Liam O\u2019Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.But all three have been given a second chance\u2014to work for an agency that no one knows exists. Its purpose: to prevent time travel destroying history...In 1993 British computer hacker Adam Lewis finds his name in a coded manuscript that is almost one thousand years old. How did Adam\u2019s name get in there... and why?Confronted by Adam in 2001, the TimeRiders travel back to Sherwood Forest in 1193 to discover the origins of the ancient message. But when a strange hooded man appears interested in the same thing, they begin to wonder what terrible threat this cryptic link from the past holds for the future...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 8,
-        "adventure": 34,
-        "fantasy": 38,
-        "fiction": 28,
-        "historical (historical fiction)": 17,
-        "mystery": 9,
-        "science fiction": 82,
-        "science fiction (time travel)": 83,
-        "thriller": 7,
-        "young adult": 70
+  "author": "Alex Scarrow",
+  "id": "220",
+  "description": "Liam O’Connor should have died at sea in 1912.Maddy Carter should have died on a plane in 2010.Sal Vikram should have died in a fire in 2026.But all three have been given a second chance—to work for an agency that no one knows exists. Its purpose: to prevent time travel destroying history...In 1993 British computer hacker Adam Lewis finds his name in a coded manuscript that is almost one thousand years old. How did Adam’s name get in there... and why?Confronted by Adam in 2001, the TimeRiders travel back to Sherwood Forest in 1193 to discover the origins of the ancient message. But when a strange hooded man appears interested in the same thing, they begin to wonder what terrible threat this cryptic link from the past holds for the future...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "adventure",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "220_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "220_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "220_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "220_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "220_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "220_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "220_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "220_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3802,
-        "score": 4.11
+    {
+      "status": "on_loan",
+      "stock_id": "220_2"
     },
-    "pages": 600,
-    "title": "The Doomsday Code",
-    "url": "https://www.goodreads.com/book/show/8827905-the-doomsday-code",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "220_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "220_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "220_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "220_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "220_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3802,
+    "score": 4.11
+  },
+  "pages": 600,
+  "title": "The Doomsday Code",
+  "url": "https://www.goodreads.com/book/show/8827905-the-doomsday-code",
+  "year_published": 2011
 }

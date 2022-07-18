@@ -1,46 +1,46 @@
 {
-    "author": "R.F. Kuang",
-    "id": "10337",
-    "description": "When Rin aced the Keju\u2014the Empire-wide test to find the most talented youth to learn at the Academies\u2014it was a shock to everyone: to the test officials, who couldn\u2019t believe a war orphan from Rooster Province could pass without cheating; to Rin\u2019s guardians, who believed they\u2019d finally be able to marry her off and further their criminal enterprise; and to Rin herself, who realized she was finally free of the servitude and despair that had made up her daily existence. That she got into Sinegard\u2014the most elite military school in Nikan\u2014was even more surprising.But surprises aren\u2019t always good.Because being a dark-skinned peasant girl from the south is not an easy thing at Sinegard. Targeted from the outset by rival classmates for her color, poverty, and gender, Rin discovers she possesses a lethal, unearthly power\u2014an aptitude for the nearly-mythical art of shamanism. Exploring the depths of her gift with the help of a seemingly insane teacher and psychoactive substances, Rin learns that gods long thought dead are very much alive\u2014and that mastering control over those powers could mean more than just surviving school.For while the Nikara Empire is at peace, the Federation of Mugen still lurks across a narrow sea. The militarily advanced Federation occupied Nikan for decades after the First Poppy War, and only barely lost the continent in the Second. And while most of the people are complacent to go about their lives, a few are aware that a Third Poppy War is just a spark away . . .Rin\u2019s shamanic powers may be the only way to save her people. But as she finds out more about the god that has chosen her, the vengeful Phoenix, she fears that winning the war may cost her humanity . . . and that it may already be too late.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 660,
-        "audiobook": 253,
-        "fantasy": 6803,
-        "fantasy (high fantasy)": 236,
-        "fantasy (magic)": 187,
-        "fiction": 862,
-        "historical": 279,
-        "historical (historical fiction)": 805,
-        "war": 181,
-        "young adult": 314
+  "author": "R.F. Kuang",
+  "id": "10337",
+  "description": "When Rin aced the Keju—the Empire-wide test to find the most talented youth to learn at the Academies—it was a shock to everyone: to the test officials, who couldn’t believe a war orphan from Rooster Province could pass without cheating; to Rin’s guardians, who believed they’d finally be able to marry her off and further their criminal enterprise; and to Rin herself, who realized she was finally free of the servitude and despair that had made up her daily existence. That she got into Sinegard—the most elite military school in Nikan—was even more surprising.But surprises aren’t always good.Because being a dark-skinned peasant girl from the south is not an easy thing at Sinegard. Targeted from the outset by rival classmates for her color, poverty, and gender, Rin discovers she possesses a lethal, unearthly power—an aptitude for the nearly-mythical art of shamanism. Exploring the depths of her gift with the help of a seemingly insane teacher and psychoactive substances, Rin learns that gods long thought dead are very much alive—and that mastering control over those powers could mean more than just surviving school.For while the Nikara Empire is at peace, the Federation of Mugen still lurks across a narrow sea. The militarily advanced Federation occupied Nikan for decades after the First Poppy War, and only barely lost the continent in the Second. And while most of the people are complacent to go about their lives, a few are aware that a Third Poppy War is just a spark away . . .Rin’s shamanic powers may be the only way to save her people. But as she finds out more about the god that has chosen her, the vengeful Phoenix, she fears that winning the war may cost her humanity . . . and that it may already be too late.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "war",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10337_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10337_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10337_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10337_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "10337_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 58572,
-        "score": 4.03
+    {
+      "status": "available",
+      "stock_id": "10337_2"
     },
-    "pages": 1041,
-    "title": "The Poppy War",
-    "url": "https://www.goodreads.com/book/show/35068705-the-poppy-war",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "10337_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "10337_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 58572,
+    "score": 4.03
+  },
+  "pages": 1041,
+  "title": "The Poppy War",
+  "url": "https://www.goodreads.com/book/show/35068705-the-poppy-war",
+  "year_published": 2018
 }

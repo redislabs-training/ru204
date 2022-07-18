@@ -1,58 +1,58 @@
 {
-    "author": "Shirley Jackson",
-    "id": "3207",
-    "description": "Shirley Jackson's \"The Lottery\" is a memorable and terrifying masterpiece, fueled by a tension that creeps up on you slowly without any clear indication of why. This is just a townful of people, after all, choosing their numbers for the annual lottery. What's there to be scared of?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "academic (read for school)": 109,
-        "academic (school)": 172,
-        "adult": 66,
-        "classics": 1393,
-        "fiction": 877,
-        "horror": 1100,
-        "literature": 75,
-        "science fiction": 91,
-        "science fiction (dystopia)": 246,
-        "short stories": 1989
+  "author": "Shirley Jackson",
+  "id": "3207",
+  "description": "Shirley Jackson's \"The Lottery\" is a memorable and terrifying masterpiece, fueled by a tension that creeps up on you slowly without any clear indication of why. This is just a townful of people, after all, choosing their numbers for the annual lottery. What's there to be scared of?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "academic (read for school)",
+    "academic (school)",
+    "adult",
+    "classics",
+    "fiction",
+    "horror",
+    "literature",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3207_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3207_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3207_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "3207_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3207_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3207_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "3207_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3207_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 60351,
-        "score": 4.09
+    {
+      "status": "on_loan",
+      "stock_id": "3207_2"
     },
-    "pages": 1259,
-    "title": "The Lottery",
-    "url": "https://www.goodreads.com/book/show/6219656-the-lottery",
-    "year_published": 1948
+    {
+      "status": "available",
+      "stock_id": "3207_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3207_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3207_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "3207_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3207_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 60351,
+    "score": 4.09
+  },
+  "pages": 1259,
+  "title": "The Lottery",
+  "url": "https://www.goodreads.com/book/show/6219656-the-lottery",
+  "year_published": 1948
 }

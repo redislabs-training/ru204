@@ -1,52 +1,52 @@
 {
-    "author": "Wesley Chu",
-    "id": "1018",
-    "description": "When out-of-shape IT technician Roen woke up and started hearing voices in his head, he naturally assumed he was losing it. He wasn\u2019t. He now has a passenger in his brain \u2013 an ancient alien life-form called Tao, whose race crash-landed on Earth before the first fish crawled out of the oceans. Now split into two opposing factions \u2013 the peace-loving, but under-represented Prophus, and the savage, powerful Genjix \u2013 the aliens have been in a state of civil war for centuries. Both sides are searching for a way off-planet, and the Genjix will sacrifice the entire human race, if that\u2019s what it takes. Meanwhile, Roen is having to train to be the ultimate secret agent. Like that\u2019s going to end up well\u2026",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 20,
-        "fantasy": 119,
-        "fantasy (urban fantasy)": 35,
-        "fiction": 125,
-        "humor": 29,
-        "science fiction": 496,
-        "science fiction (aliens)": 58,
-        "science fiction fantasy": 27,
-        "speculative fiction": 18,
-        "thriller": 37
+  "author": "Wesley Chu",
+  "id": "1018",
+  "description": "When out-of-shape IT technician Roen woke up and started hearing voices in his head, he naturally assumed he was losing it. He wasn’t. He now has a passenger in his brain – an ancient alien life-form called Tao, whose race crash-landed on Earth before the first fish crawled out of the oceans. Now split into two opposing factions – the peace-loving, but under-represented Prophus, and the savage, powerful Genjix – the aliens have been in a state of civil war for centuries. Both sides are searching for a way off-planet, and the Genjix will sacrifice the entire human race, if that’s what it takes. Meanwhile, Roen is having to train to be the ultimate secret agent. Like that’s going to end up well…",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1018_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1018_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1018_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1018_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1018_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "1018_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8006,
-        "score": 3.75
+    {
+      "status": "on_loan",
+      "stock_id": "1018_2"
     },
-    "pages": 1163,
-    "title": "The Lives of Tao",
-    "url": "https://www.goodreads.com/book/show/15981711-the-lives-of-tao",
-    "year_published": 2013
+    {
+      "status": "maintenance",
+      "stock_id": "1018_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1018_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "1018_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8006,
+    "score": 3.75
+  },
+  "pages": 1163,
+  "title": "The Lives of Tao",
+  "url": "https://www.goodreads.com/book/show/15981711-the-lives-of-tao",
+  "year_published": 2013
 }

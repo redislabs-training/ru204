@@ -1,68 +1,68 @@
 {
-    "author": "Edward Packard",
-    "id": "144",
-    "description": "\"You're the Star! 40 Thrilling Endings!\"\"Will You Become Trapped in Time\"?You are hiking in Snake Canyon when you find yourself lost in the strange, dimly lit Cave of Time. Gradually you can make out two passageways. One curves downward to the right; the other leads upward to the left. It occurs to you that the one leading down may go to the past and the one leading up may go to the future. Which way will you choose?If you take the left branch, turn to page 20. If you take the right branch, turn to page 61. If you walk outside the cave, turn to page 21. Be careful! In the Cave of Time you might meet up with a hungry Tyrannosaurus Rex, or be lured aboard an alien spaceship!What happens next in the story? It all depends on the choices you make. How does the story end? Only you can find out! And the best part is that you can keep reading and rereading until you've had not one but many incredibly daring experiences!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 17,
-        "childrens": 31,
-        "childrens (middle grade)": 9,
-        "fantasy": 24,
-        "fiction": 42,
-        "gamebooks (choose your own adventure)": 45,
-        "games (gamebooks)": 11,
-        "science fiction": 13,
-        "science fiction (time travel)": 25,
-        "young adult": 18
+  "author": "Edward Packard",
+  "id": "144",
+  "description": "\"You're the Star! 40 Thrilling Endings!\"\"Will You Become Trapped in Time\"?You are hiking in Snake Canyon when you find yourself lost in the strange, dimly lit Cave of Time. Gradually you can make out two passageways. One curves downward to the right; the other leads upward to the left. It occurs to you that the one leading down may go to the past and the one leading up may go to the future. Which way will you choose?If you take the left branch, turn to page 20. If you take the right branch, turn to page 61. If you walk outside the cave, turn to page 21. Be careful! In the Cave of Time you might meet up with a hungry Tyrannosaurus Rex, or be lured aboard an alien spaceship!What happens next in the story? It all depends on the choices you make. How does the story end? Only you can find out! And the best part is that you can keep reading and rereading until you've had not one but many incredibly daring experiences!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "gamebooks (choose your own adventure)",
+    "games (gamebooks)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "144_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "144_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "144_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "144_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "144_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "144_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "144_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "144_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "144_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "144_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1509,
-        "score": 3.84
+    {
+      "status": "maintenance",
+      "stock_id": "144_2"
     },
-    "pages": 296,
-    "title": "The Cave of Time (Choose Your Own Adventure, #1",
-    "url": "https://www.goodreads.com/book/show/190917.The_Cave_of_Time",
-    "year_published": 1979
+    {
+      "status": "on_loan",
+      "stock_id": "144_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "144_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "144_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "144_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "144_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "144_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "144_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1509,
+    "score": 3.84
+  },
+  "pages": 296,
+  "title": "The Cave of Time (Choose Your Own Adventure, #1",
+  "url": "https://www.goodreads.com/book/show/190917.The_Cave_of_Time",
+  "year_published": 1979
 }

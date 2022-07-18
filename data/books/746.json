@@ -1,63 +1,63 @@
 {
-    "author": "Frank Beddor",
-    "id": "746",
-    "description": "Imagine this...The power of imagination has been lost!Now it's all about the artillery as AD52s, crystal shooters, spikejack tumblers, and orb cannons are unleashed in a war of weapons and brute force.As Alyss searches wildly for the solution to the disaster that has engulfed her queendom, Arch declares himself King of Wonderland. The moment is desperate enough for Alyss to travel back to London for answers, where Arch's assassins are threatening Alice Liddell and her family. But after coming to the Liddells' assistance, Alyss discovers herself trapped in a conundrum of evaporating puddles. The shimmering portals that exist to transport her home through the Pool of Tears are disappearing!What is happening in Wonderland? Deep within the Valley of Mushroom the Caterpillar Oracles issue this prophecy: \"Action shall be taken to ensure the safety of the Heart Crystal. For Everqueen.\" But who is Everqueen?As the metamorphosis of Wonderland unfolds, enemies become allies, bitter rivals face off, and Queen Alyss and Redd Heart must both confront their pasts in this thrilling, no-holds-barred conclusion to the New York Times bestselling series.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 44,
-        "fantasy": 707,
-        "fantasy (fairy tales)": 45,
-        "fantasy (magic)": 45,
-        "fiction": 98,
-        "retellings": 56,
-        "science fiction (steampunk)": 38,
-        "young adult": 314,
-        "young adult (teen)": 29,
-        "young adult (young adult fantasy)": 32
+  "author": "Frank Beddor",
+  "id": "746",
+  "description": "Imagine this...The power of imagination has been lost!Now it's all about the artillery as AD52s, crystal shooters, spikejack tumblers, and orb cannons are unleashed in a war of weapons and brute force.As Alyss searches wildly for the solution to the disaster that has engulfed her queendom, Arch declares himself King of Wonderland. The moment is desperate enough for Alyss to travel back to London for answers, where Arch's assassins are threatening Alice Liddell and her family. But after coming to the Liddells' assistance, Alyss discovers herself trapped in a conundrum of evaporating puddles. The shimmering portals that exist to transport her home through the Pool of Tears are disappearing!What is happening in Wonderland? Deep within the Valley of Mushroom the Caterpillar Oracles issue this prophecy: \"Action shall be taken to ensure the safety of the Heart Crystal. For Everqueen.\" But who is Everqueen?As the metamorphosis of Wonderland unfolds, enemies become allies, bitter rivals face off, and Queen Alyss and Redd Heart must both confront their pasts in this thrilling, no-holds-barred conclusion to the New York Times bestselling series.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "fantasy (magic)",
+    "fiction",
+    "retellings",
+    "science fiction (steampunk)",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "746_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "746_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "746_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "746_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "746_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "746_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "746_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "746_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "746_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10865,
-        "score": 3.89
+    {
+      "status": "maintenance",
+      "stock_id": "746_2"
     },
-    "pages": 414,
-    "title": "ArchEnemy",
-    "url": "https://www.goodreads.com/book/show/6178354-archenemy",
-    "year_published": 2009
+    {
+      "status": "maintenance",
+      "stock_id": "746_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "746_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "746_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "746_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "746_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "746_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10865,
+    "score": 3.89
+  },
+  "pages": 414,
+  "title": "ArchEnemy",
+  "url": "https://www.goodreads.com/book/show/6178354-archenemy",
+  "year_published": 2009
 }

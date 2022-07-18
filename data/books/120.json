@@ -1,50 +1,50 @@
 {
-    "author": "Jay Hosler",
-    "id": "120",
-    "description": "MEET LUCY. She's a fearless explorer, a brilliant scientist, and a tireless leader.She's also a half inch tall.THERE IS AN ENTIRE CIVILIZATION under the big palm tree by the edge of the desert\u2014a society of beetle. In this bug's paradise, beetles write books, raise families, and some of them, like Lucy, even do scientific research.But as Lucy is about to discover, the world outside Coleopolis is hiding an astonishing\u2014and dangerous\u2014secret...\nInsects are not the only living creatures in the world.\n",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 15,
-        "animals": 15,
-        "childrens": 3,
-        "childrens (juvenile)": 4,
-        "childrens (middle grade)": 13,
-        "graphic novels comics": 5,
-        "humor": 9,
-        "science": 28,
-        "sequential art (comics)": 17,
-        "sequential art (graphic novels)": 85
+  "author": "Jay Hosler",
+  "id": "120",
+  "description": "MEET LUCY. She's a fearless explorer, a brilliant scientist, and a tireless leader.She's also a half inch tall.THERE IS AN ENTIRE CIVILIZATION under the big palm tree by the edge of the desert—a society of beetle. In this bug's paradise, beetles write books, raise families, and some of them, like Lucy, even do scientific research.But as Lucy is about to discover, the world outside Coleopolis is hiding an astonishing—and dangerous—secret...\nInsects are not the only living creatures in the world.\n",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "childrens",
+    "childrens (juvenile)",
+    "childrens (middle grade)",
+    "graphic novels comics",
+    "humor",
+    "science",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "120_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "120_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "120_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "120_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "120_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "120_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 512,
-        "score": 4.03
+    {
+      "status": "on_loan",
+      "stock_id": "120_2"
     },
-    "pages": 1390,
-    "title": "Last of the Sandwalkers",
-    "url": "https://www.goodreads.com/book/show/21469089-last-of-the-sandwalkers",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "120_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "120_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "120_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 512,
+    "score": 4.03
+  },
+  "pages": 1390,
+  "title": "Last of the Sandwalkers",
+  "url": "https://www.goodreads.com/book/show/21469089-last-of-the-sandwalkers",
+  "year_published": 2015
 }

@@ -1,39 +1,39 @@
 {
-    "author": "Piers Anthony",
-    "id": "1670",
-    "description": "Xanth was the enchanted land where magic ruled - where every citizen had a special spell only he could cast. It was a land of centaurs and dragons and basilisks.For Bink of North Village, however, Xanth was no fairy tale. He alone had no magic. And unless he got some - and got some fast! - he would be exiled. Forever!But the Good Magician Humfrey was convinced that Bink did indeed have magic. In fact, both Beauregard the genie and the magic wall chart insisted that Bink had magic. Magic as powerful as any possessed by the King or by Good Magician Humfrey - or even by the Evil Magician TrentBe that as it may, no one could fathom the nature of Bink's very special magic. Bink was in despair. This was even worse than having no magic at all..and he would still be exiled!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 114,
-        "childrens": 87,
-        "childrens (middle grade)": 76,
-        "fantasy": 2991,
-        "fantasy (magic)": 76,
-        "fiction": 362,
-        "humor": 219,
-        "science fiction": 70,
-        "science fiction fantasy": 154,
-        "young adult": 168
+  "author": "Piers Anthony",
+  "id": "1670",
+  "description": "Xanth was the enchanted land where magic ruled - where every citizen had a special spell only he could cast. It was a land of centaurs and dragons and basilisks.For Bink of North Village, however, Xanth was no fairy tale. He alone had no magic. And unless he got some - and got some fast! - he would be exiled. Forever!But the Good Magician Humfrey was convinced that Bink did indeed have magic. In fact, both Beauregard the genie and the magic wall chart insisted that Bink had magic. Magic as powerful as any possessed by the King or by Good Magician Humfrey - or even by the Evil Magician TrentBe that as it may, no one could fathom the nature of Bink's very special magic. Bink was in despair. This was even worse than having no magic at all..and he would still be exiled!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1670_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1670_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1670_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 45174,
-        "score": 3.9
-    },
-    "pages": 887,
-    "title": "A Spell for Chameleon",
-    "url": "https://www.goodreads.com/book/show/76664.A_Spell_for_Chameleon",
-    "year_published": 1977
+    {
+      "status": "available",
+      "stock_id": "1670_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 45174,
+    "score": 3.9
+  },
+  "pages": 887,
+  "title": "A Spell for Chameleon",
+  "url": "https://www.goodreads.com/book/show/76664.A_Spell_for_Chameleon",
+  "year_published": 1977
 }

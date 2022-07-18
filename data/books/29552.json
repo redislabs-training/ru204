@@ -1,58 +1,58 @@
 {
-    "author": "Dan Brown",
-    "id": "29552",
-    "description": "World-renowned Harvard symbologist Robert Langdon is summoned to a Swiss research facility to analyze a cryptic symbol seared into the chest of a murdered physicist. What he discovers is unimaginable: a deadly vendetta against the Catholic Church by a centuries-old underground organization -- the Illuminati. In a desperate race to save the Vatican from a powerful time bomb, Langdon joins forces in Rome with the beautiful and mysterious scientist Vittoria Vetra. Together they embark on a frantic hunt through sealed crypts, dangerous catacombs, and deserted cathedrals, and into the depths of the most secretive vault on earth...the long-forgotten Illuminati lair.(back cover)",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 755,
-        "adventure": 1126,
-        "fiction": 12004,
-        "historical (historical fiction)": 988,
-        "mystery": 6998,
-        "mystery (crime)": 1084,
-        "novels": 844,
-        "suspense": 1512,
-        "thriller": 6092,
-        "thriller (mystery thriller)": 1423
+  "author": "Dan Brown",
+  "id": "29552",
+  "description": "World-renowned Harvard symbologist Robert Langdon is summoned to a Swiss research facility to analyze a cryptic symbol seared into the chest of a murdered physicist. What he discovers is unimaginable: a deadly vendetta against the Catholic Church by a centuries-old underground organization -- the Illuminati. In a desperate race to save the Vatican from a powerful time bomb, Langdon joins forces in Rome with the beautiful and mysterious scientist Vittoria Vetra. Together they embark on a frantic hunt through sealed crypts, dangerous catacombs, and deserted cathedrals, and into the depths of the most secretive vault on earth...the long-forgotten Illuminati lair.(back cover)",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "fiction",
+    "historical (historical fiction)",
+    "mystery",
+    "mystery (crime)",
+    "novels",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "29552_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "29552_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "29552_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "29552_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "29552_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "29552_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "29552_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "29552_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2743156,
-        "score": 3.91
+    {
+      "status": "maintenance",
+      "stock_id": "29552_2"
     },
-    "pages": 496,
-    "title": "Angels & Demons",
-    "url": "https://www.goodreads.com/book/show/960.Angels_Demons",
-    "year_published": 2000
+    {
+      "status": "on_loan",
+      "stock_id": "29552_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "29552_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "29552_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "29552_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "29552_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2743156,
+    "score": 3.91
+  },
+  "pages": 496,
+  "title": "Angels & Demons",
+  "url": "https://www.goodreads.com/book/show/960.Angels_Demons",
+  "year_published": 2000
 }

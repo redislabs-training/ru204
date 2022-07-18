@@ -1,47 +1,47 @@
 {
-    "author": "James Renner",
-    "id": "449",
-    "description": "\nA mind-bending, genre-twisting debut novel\n\u00a0In West Akron, there lived a reclusive elderly man who always wore mittens, even in July. He had no friends and no family; all over town, he was known only as the Man from Primrose Lane. And on a summer day in 2008, someone murdered him.Four years later, David Neff is a broken man. The bestselling author of a true-crime book about an Ohio serial killer, Neff went into exile after his wife\u2019s inexplicable suicide. That is, until an unexpected visit from an old friend introduces him to the strange mystery of \u201cthe man with a thousand mittens.\u201d Soon Neff finds himself drawn back into a world he thought he had left behind forever. But the closer he gets to uncovering the true identity of the Man from Primrose Lane, the more he begins to understand the dangerous power of his own obsessions and how they may be connected to the deaths of both his beloved wife and the old hermit.With a deft and singular blend of suspense, literature, and horror, The Man from Primrose Lane boasts as many twists and turns as a roller coaster. It\u2019s a spellbinding journey of redemption and a reflection on the roles of fate, destiny, and obsession when it comes to matters of the heart.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 8,
-        "fantasy": 14,
-        "fiction": 59,
-        "horror": 32,
-        "mystery": 108,
-        "mystery (crime)": 25,
-        "science fiction": 48,
-        "science fiction (time travel)": 37,
-        "thriller": 45,
-        "thriller (mystery thriller)": 10
+  "author": "James Renner",
+  "id": "449",
+  "description": "\nA mind-bending, genre-twisting debut novel\n In West Akron, there lived a reclusive elderly man who always wore mittens, even in July. He had no friends and no family; all over town, he was known only as the Man from Primrose Lane. And on a summer day in 2008, someone murdered him.Four years later, David Neff is a broken man. The bestselling author of a true-crime book about an Ohio serial killer, Neff went into exile after his wife’s inexplicable suicide. That is, until an unexpected visit from an old friend introduces him to the strange mystery of “the man with a thousand mittens.” Soon Neff finds himself drawn back into a world he thought he had left behind forever. But the closer he gets to uncovering the true identity of the Man from Primrose Lane, the more he begins to understand the dangerous power of his own obsessions and how they may be connected to the deaths of both his beloved wife and the old hermit.With a deft and singular blend of suspense, literature, and horror, The Man from Primrose Lane boasts as many twists and turns as a roller coaster. It’s a spellbinding journey of redemption and a reflection on the roles of fate, destiny, and obsession when it comes to matters of the heart.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (time travel)",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "449_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "449_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "449_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "449_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "449_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2013,
-        "score": 3.62
+    {
+      "status": "on_loan",
+      "stock_id": "449_2"
     },
-    "pages": 1006,
-    "title": "The Man from Primrose Lane",
-    "url": "https://www.goodreads.com/book/show/12476620-the-man-from-primrose-lane",
-    "year_published": 2012
+    {
+      "status": "maintenance",
+      "stock_id": "449_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "449_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2013,
+    "score": 3.62
+  },
+  "pages": 1006,
+  "title": "The Man from Primrose Lane",
+  "url": "https://www.goodreads.com/book/show/12476620-the-man-from-primrose-lane",
+  "year_published": 2012
 }

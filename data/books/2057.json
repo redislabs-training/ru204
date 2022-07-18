@@ -1,47 +1,47 @@
 {
-    "author": "Brent Weeks",
-    "id": "2057",
-    "description": "The second novel in the Night Angel trilogy, the breakneck epic fantasy from New York Times bestselling author Brent Weeks.Kylar Stern has rejected the assassin's life. The Godking's successful coup has left Kylar's master, Durzo, and his best friend, Logan, dead. He is starting over: new city, new friends, and new profession.But when he learns that Logan might actually be alive and in hiding, Kylar is faced with an agonizing choice: will he give up the way of shadows forever and live in peace with his new family, or will he risk everything by taking on the ultimate hit?Devour this blockbuster tale of assassination and magic by Brent Weeks, which has delighted readers all over the world--with over one million copies in print!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 152,
-        "childrens (middle grade)": 69,
-        "fantasy": 4380,
-        "fantasy (dark fantasy)": 96,
-        "fantasy (epic fantasy)": 217,
-        "fantasy (high fantasy)": 152,
-        "fantasy (magic)": 159,
-        "fiction": 330,
-        "science fiction fantasy": 102,
-        "young adult": 93
+  "author": "Brent Weeks",
+  "id": "2057",
+  "description": "The second novel in the Night Angel trilogy, the breakneck epic fantasy from New York Times bestselling author Brent Weeks.Kylar Stern has rejected the assassin's life. The Godking's successful coup has left Kylar's master, Durzo, and his best friend, Logan, dead. He is starting over: new city, new friends, and new profession.But when he learns that Logan might actually be alive and in hiding, Kylar is faced with an agonizing choice: will he give up the way of shadows forever and live in peace with his new family, or will he risk everything by taking on the ultimate hit?Devour this blockbuster tale of assassination and magic by Brent Weeks, which has delighted readers all over the world--with over one million copies in print!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (dark fantasy)",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2057_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2057_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2057_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "2057_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2057_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 95064,
-        "score": 4.24
+    {
+      "status": "on_loan",
+      "stock_id": "2057_2"
     },
-    "pages": 217,
-    "title": "Shadow's Edge",
-    "url": "https://www.goodreads.com/book/show/3754016-shadow-s-edge",
-    "year_published": 2008
+    {
+      "status": "available",
+      "stock_id": "2057_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2057_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 95064,
+    "score": 4.24
+  },
+  "pages": 217,
+  "title": "Shadow's Edge",
+  "url": "https://www.goodreads.com/book/show/3754016-shadow-s-edge",
+  "year_published": 2008
 }

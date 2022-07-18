@@ -1,47 +1,47 @@
 {
-    "author": "Kevin D. Mitnick",
-    "id": "1686",
-    "description": "If they were a hall of fame or shame for computer hackers, a Kevin Mitnick plaque would be mounted the near the entrance. While other nerds were fumbling with password possibilities, this adept break-artist was penetrating the digital secrets of Sun Microsystems, Digital Equipment Corporation, Nokia, Motorola, Pacific Bell, and other mammoth enterprises. His Ghost in the Wires memoir paints an action portrait of a plucky loner motivated by a passion for trickery, not material game. (P.S. Mitnick's capers have already been the subject of two books and a movie. This first-person account is the most comprehensive to date.)",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 86,
-        "autobiography (memoir)": 150,
-        "biography": 338,
-        "biography (autobiography)": 62,
-        "computer science (computers)": 70,
-        "computers (hackers)": 54,
-        "mystery (crime)": 64,
-        "nonfiction": 630,
-        "science": 56,
-        "science (technology)": 192
+  "author": "Kevin D. Mitnick",
+  "id": "1686",
+  "description": "If they were a hall of fame or shame for computer hackers, a Kevin Mitnick plaque would be mounted the near the entrance. While other nerds were fumbling with password possibilities, this adept break-artist was penetrating the digital secrets of Sun Microsystems, Digital Equipment Corporation, Nokia, Motorola, Pacific Bell, and other mammoth enterprises. His Ghost in the Wires memoir paints an action portrait of a plucky loner motivated by a passion for trickery, not material game. (P.S. Mitnick's capers have already been the subject of two books and a movie. This first-person account is the most comprehensive to date.)",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "autobiography (memoir)",
+    "biography",
+    "biography (autobiography)",
+    "computer science (computers)",
+    "computers (hackers)",
+    "mystery (crime)",
+    "nonfiction",
+    "science",
+    "science (technology)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1686_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1686_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1686_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1686_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1686_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 22396,
-        "score": 3.93
+    {
+      "status": "available",
+      "stock_id": "1686_2"
     },
-    "pages": 1396,
-    "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
-    "url": "https://www.goodreads.com/book/show/10256723-ghost-in-the-wires",
-    "year_published": 2011
+    {
+      "status": "maintenance",
+      "stock_id": "1686_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1686_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 22396,
+    "score": 3.93
+  },
+  "pages": 1396,
+  "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
+  "url": "https://www.goodreads.com/book/show/10256723-ghost-in-the-wires",
+  "year_published": 2011
 }

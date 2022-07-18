@@ -1,44 +1,44 @@
 {
-    "author": "Nancy Bond",
-    "id": "20",
-    "description": "Seventeen-year-old Lyn, working in a reconstructed colonial settlement in Nova Scotia, suddenly finds herself transported back to 1744, when the French inhabitants are at war with England.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "childrens": 2,
-        "cultural (canada)": 7,
-        "fantasy": 7,
-        "fiction": 5,
-        "historical": 7,
-        "historical (historical fiction)": 16,
-        "historical fiction (historical fantasy)": 2,
-        "science fiction (time travel)": 24,
-        "young adult": 16,
-        "young adult (teen)": 3
+  "author": "Nancy Bond",
+  "id": "20",
+  "description": "Seventeen-year-old Lyn, working in a reconstructed colonial settlement in Nova Scotia, suddenly finds herself transported back to 1744, when the French inhabitants are at war with England.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "childrens",
+    "cultural (canada)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "20_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "20_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "20_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "20_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 142,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "20_2"
     },
-    "pages": 369,
-    "title": "Another Shore",
-    "url": "https://www.goodreads.com/book/show/724935.Another_Shore",
-    "year_published": 1988
+    {
+      "status": "maintenance",
+      "stock_id": "20_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 142,
+    "score": 3.94
+  },
+  "pages": 369,
+  "title": "Another Shore",
+  "url": "https://www.goodreads.com/book/show/724935.Another_Shore",
+  "year_published": 1988
 }

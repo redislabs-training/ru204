@@ -1,50 +1,50 @@
 {
-    "author": "Stephen King",
-    "id": "7300",
-    "description": "In a future so real and near it might be now, something happens when women go to sleep; they become shrouded in a cocoon-like gauze. If they are awakened, and the gauze wrapping their bodies is disturbed or violated, the women become feral and spectacularly violent; and while they sleep they go to another place. The men of our world are abandoned, left to their increasingly primal devices. One woman, however, the mysterious Evie, is immune to the blessing or curse of the sleeping disease. Is Evie a medical anomaly to be studied, or is she a demon who must be slain?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 102,
-        "audiobook": 184,
-        "fantasy": 808,
-        "fantasy (supernatural)": 86,
-        "fiction": 743,
-        "horror": 1847,
-        "mystery": 155,
-        "science fiction": 121,
-        "science fiction (dystopia)": 80,
-        "thriller": 339
+  "author": "Stephen King",
+  "id": "7300",
+  "description": "In a future so real and near it might be now, something happens when women go to sleep; they become shrouded in a cocoon-like gauze. If they are awakened, and the gauze wrapping their bodies is disturbed or violated, the women become feral and spectacularly violent; and while they sleep they go to another place. The men of our world are abandoned, left to their increasingly primal devices. One woman, however, the mysterious Evie, is immune to the blessing or curse of the sleeping disease. Is Evie a medical anomaly to be studied, or is she a demon who must be slain?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (supernatural)",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "7300_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "7300_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7300_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7300_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "7300_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7300_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 68386,
-        "score": 3.73
+    {
+      "status": "maintenance",
+      "stock_id": "7300_2"
     },
-    "pages": 205,
-    "title": "Sleeping Beauties",
-    "url": "https://www.goodreads.com/book/show/34466922-sleeping-beauties",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "7300_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "7300_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7300_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 68386,
+    "score": 3.73
+  },
+  "pages": 205,
+  "title": "Sleeping Beauties",
+  "url": "https://www.goodreads.com/book/show/34466922-sleeping-beauties",
+  "year_published": 2017
 }

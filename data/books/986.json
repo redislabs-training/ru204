@@ -1,56 +1,56 @@
 {
-    "author": "Sarah J. Maas",
-    "id": "986",
-    "description": "Meet the Assassin: beautiful, defiant, destined for greatness. Celaena Sardothien has challenged her master. Now she must pay the price. Her journey to the Red Desert will be an arduous one, but it may change the fate of her cursed world forever...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fairies (fae)": 45,
-        "fantasy": 864,
-        "fantasy (high fantasy)": 71,
-        "fantasy (magic)": 52,
-        "fiction": 97,
-        "new adult": 81,
-        "novella": 126,
-        "short stories": 139,
-        "young adult": 383,
-        "young adult (young adult fantasy)": 66
+  "author": "Sarah J. Maas",
+  "id": "986",
+  "description": "Meet the Assassin: beautiful, defiant, destined for greatness. Celaena Sardothien has challenged her master. Now she must pay the price. Her journey to the Red Desert will be an arduous one, but it may change the fate of her cursed world forever...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fairies (fae)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "new adult",
+    "novella",
+    "short stories",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "986_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "986_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "986_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "986_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "986_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "986_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "986_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21057,
-        "score": 4.24
+    {
+      "status": "on_loan",
+      "stock_id": "986_2"
     },
-    "pages": 1299,
-    "title": "The Assassin and the Healer",
-    "url": "https://www.goodreads.com/book/show/18333581-the-assassin-and-the-healer",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "986_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "986_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "986_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "986_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21057,
+    "score": 4.24
+  },
+  "pages": 1299,
+  "title": "The Assassin and the Healer",
+  "url": "https://www.goodreads.com/book/show/18333581-the-assassin-and-the-healer",
+  "year_published": 2012
 }

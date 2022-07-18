@@ -1,36 +1,36 @@
 {
-    "author": "Brandon Sanderson",
-    "id": "4832",
-    "description": "All her life, Spensa has dreamed of becoming a pilot. Of proving she's a hero like her father. She made it to the sky, but the truths she learned about her father were crushing.Spensa is sure there's more to the story. And she's sure that whatever happened to her father in his starship could happen to her. When she made it outside the protective shell of her planet, she heard the stars--and it was terrifying. Everything Spensa has been taught about her world is a lie. But Spensa also discovered a few other things about herself--and she'll travel to the end of the galaxy to save humankind if she needs to.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 72,
-        "audiobook": 132,
-        "fantasy": 535,
-        "fiction": 253,
-        "science fiction": 1183,
-        "science fiction (aliens)": 63,
-        "science fiction fantasy": 50,
-        "space": 74,
-        "space (space opera)": 61,
-        "young adult": 687
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "4832_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 42127,
-        "score": 4.44
-    },
-    "pages": 1103,
-    "title": "Starsight",
-    "url": "https://www.goodreads.com/book/show/42769202-starsight",
-    "year_published": 2019
+  "author": "Brandon Sanderson",
+  "id": "4832",
+  "description": "All her life, Spensa has dreamed of becoming a pilot. Of proving she's a hero like her father. She made it to the sky, but the truths she learned about her father were crushing.Spensa is sure there's more to the story. And she's sure that whatever happened to her father in his starship could happen to her. When she made it outside the protective shell of her planet, she heard the stars--and it was terrifying. Everything Spensa has been taught about her world is a lie. But Spensa also discovered a few other things about herself--and she'll travel to the end of the galaxy to save humankind if she needs to.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "4832_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 42127,
+    "score": 4.44
+  },
+  "pages": 1103,
+  "title": "Starsight",
+  "url": "https://www.goodreads.com/book/show/42769202-starsight",
+  "year_published": 2019
 }

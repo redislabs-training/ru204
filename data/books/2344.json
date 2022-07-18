@@ -1,46 +1,46 @@
 {
-    "author": "Robert Charles Wilson",
-    "id": "2344",
-    "description": "One night in October when he was ten years old, Tyler Dupree stood in his back yard and watched the stars go out. They all flared into brilliance at once, then disappeared, replaced by a flat, empty black barrier. He and his best friends, Jason and Diane Lawton, had seen what became known as the Big Blackout. It would shape their lives.Life on Earth is about to get much, much stranger.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "audiobook": 32,
-        "fantasy": 61,
-        "fiction": 476,
-        "hugo awards": 91,
-        "science fiction": 1615,
-        "science fiction (aliens)": 37,
-        "science fiction (dystopia)": 42,
-        "science fiction (time travel)": 67,
-        "science fiction fantasy": 83,
-        "speculative fiction": 38
+  "author": "Robert Charles Wilson",
+  "id": "2344",
+  "description": "One night in October when he was ten years old, Tyler Dupree stood in his back yard and watched the stars go out. They all flared into brilliance at once, then disappeared, replaced by a flat, empty black barrier. He and his best friends, Jason and Diane Lawton, had seen what became known as the Big Blackout. It would shape their lives.Life on Earth is about to get much, much stranger.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "hugo awards",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2344_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2344_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2344_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2344_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2344_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 36483,
-        "score": 4.02
+    {
+      "status": "maintenance",
+      "stock_id": "2344_2"
     },
-    "pages": 560,
-    "title": "Spin",
-    "url": "https://www.goodreads.com/book/show/910863.Spin",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "2344_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2344_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 36483,
+    "score": 4.02
+  },
+  "pages": 560,
+  "title": "Spin",
+  "url": "https://www.goodreads.com/book/show/910863.Spin",
+  "year_published": 2005
 }

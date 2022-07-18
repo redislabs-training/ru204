@@ -1,48 +1,48 @@
 {
-    "author": "Adrian J. Walker",
-    "id": "1309",
-    "description": "Perfect for fans of The Martian, this powerful post-apocalyptic thriller pits reluctant father Edgar Hill in a race against time to get back to his wife and children. When the sky begins to fall and he finds himself alone, his best hope is to run \u2013 or risk losing what he loves forever.When the world ends and you find yourself forsaken, every second counts. No one knows this more than Edgar Hill. Stranded on the other side of the country from his wife and children, Ed must push himself across a devastated wasteland to get back to them. With the clock ticking and hundreds of miles between them, his best hope is to run -- or risk losing what he loves forever.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 14,
-        "apocalyptic (post apocalyptic)": 87,
-        "audiobook": 23,
-        "cultural (scotland)": 11,
-        "fiction": 166,
-        "horror": 12,
-        "science fiction": 113,
-        "science fiction (apocalyptic)": 42,
-        "science fiction (dystopia)": 74,
-        "thriller": 23
+  "author": "Adrian J. Walker",
+  "id": "1309",
+  "description": "Perfect for fans of The Martian, this powerful post-apocalyptic thriller pits reluctant father Edgar Hill in a race against time to get back to his wife and children. When the sky begins to fall and he finds himself alone, his best hope is to run – or risk losing what he loves forever.When the world ends and you find yourself forsaken, every second counts. No one knows this more than Edgar Hill. Stranded on the other side of the country from his wife and children, Ed must push himself across a devastated wasteland to get back to them. With the clock ticking and hundreds of miles between them, his best hope is to run -- or risk losing what he loves forever.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "cultural (scotland)",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1309_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1309_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1309_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1309_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1309_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11378,
-        "score": 3.82
+    {
+      "status": "on_loan",
+      "stock_id": "1309_2"
     },
-    "pages": 1126,
-    "title": "The End of the World Running Club",
-    "url": "https://www.goodreads.com/book/show/33160796-the-end-of-the-world-running-club",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "1309_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1309_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11378,
+    "score": 3.82
+  },
+  "pages": 1126,
+  "title": "The End of the World Running Club",
+  "url": "https://www.goodreads.com/book/show/33160796-the-end-of-the-world-running-club",
+  "year_published": 2014
 }

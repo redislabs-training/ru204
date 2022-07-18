@@ -1,39 +1,39 @@
 {
-    "author": "Waubgeshig Rice",
-    "id": "1461",
-    "description": "A daring post-apocalyptic thriller from a powerful rising literary voiceWith winter looming, a small northern Anishinaabe community goes dark. Cut off, people become passive and confused. Panic builds as the food supply dwindles. While the band council and a pocket of community members struggle to maintain order, an unexpected visitor arrives, escaping the crumbling society to the south. Soon after, others follow.The community leadership loses its grip on power as the visitors manipulate the tired and hungry to take control of the reserve. Tensions rise and, as the months pass, so does the death toll due to sickness and despair. Frustrated by the building chaos, a group of young friends and their families turn to the land and Anishinaabe tradition in hopes of helping their community thrive again. Guided through the chaos by an unlikely leader named Evan Whitesky, they endeavor to restore order while grappling with a grave decision.Blending action and allegory, Moon of the Crusted Snow upends our expectations. Out of catastrophe comes resilience. And as one society collapses, another is reborn.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 57,
-        "apocalyptic (post apocalyptic)": 84,
-        "audiobook": 71,
-        "cultural (canada)": 125,
-        "fiction": 348,
-        "horror": 101,
-        "science fiction": 125,
-        "science fiction (apocalyptic)": 46,
-        "science fiction (dystopia)": 130,
-        "speculative fiction": 34
+  "author": "Waubgeshig Rice",
+  "id": "1461",
+  "description": "A daring post-apocalyptic thriller from a powerful rising literary voiceWith winter looming, a small northern Anishinaabe community goes dark. Cut off, people become passive and confused. Panic builds as the food supply dwindles. While the band council and a pocket of community members struggle to maintain order, an unexpected visitor arrives, escaping the crumbling society to the south. Soon after, others follow.The community leadership loses its grip on power as the visitors manipulate the tired and hungry to take control of the reserve. Tensions rise and, as the months pass, so does the death toll due to sickness and despair. Frustrated by the building chaos, a group of young friends and their families turn to the land and Anishinaabe tradition in hopes of helping their community thrive again. Guided through the chaos by an unlikely leader named Evan Whitesky, they endeavor to restore order while grappling with a grave decision.Blending action and allegory, Moon of the Crusted Snow upends our expectations. Out of catastrophe comes resilience. And as one society collapses, another is reborn.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "cultural (canada)",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1461_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1461_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1461_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8357,
-        "score": 3.9
-    },
-    "pages": 1159,
-    "title": "Moon of the Crusted Snow",
-    "url": "https://www.goodreads.com/book/show/39082248-moon-of-the-crusted-snow",
-    "year_published": 2018
+    {
+      "status": "on_loan",
+      "stock_id": "1461_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8357,
+    "score": 3.9
+  },
+  "pages": 1159,
+  "title": "Moon of the Crusted Snow",
+  "url": "https://www.goodreads.com/book/show/39082248-moon-of-the-crusted-snow",
+  "year_published": 2018
 }

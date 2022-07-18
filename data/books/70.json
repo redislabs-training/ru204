@@ -1,52 +1,52 @@
 {
-    "author": "G.L. Breedon",
-    "id": "70",
-    "description": "An Epic Time Travel Fantasy AdventureGabriel Salvador has dreams about the future, and his dreams always come true. When he dreams one night that he will drown, he knows upon waking it is only a matter of time before his dream becomes reality.Plucked from the timeline of history at the moment of his death and considered dead by his parents and friends, Gabriel mourns the loss of his family as he trains to become an apprentice time mage -- part of an elite team of wizards who travel throughout history to fight the War of Time and Magic.When a mission to stop the creation of an alternate reality fails, Gabriel is revealed as the Seventh True Mage, able to use all six forms of magic. He soon finds himself hunted by three dark mages who hope to use him to rule the whole of the Primary Continuum.From an alternate Windsor Castle to Victorian London, from the Aztec temples of 1487 to the Greek island of Samos in 320 BCE, from Scotland in the Middle Ages to the battle fields of Alexander the Great -- Gabriel struggles to master the different magics and fulfill the responsibility of being the Seventh True Mage as he joins the battle to protect the timeline of history in The Wizard of Time.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 4,
-        "fantasy": 56,
-        "fantasy (magic)": 4,
-        "fantasy (paranormal)": 3,
-        "fantasy (urban fantasy)": 5,
-        "fiction": 11,
-        "historical (historical fiction)": 3,
-        "science fiction": 8,
-        "science fiction (time travel)": 32,
-        "young adult": 35
+  "author": "G.L. Breedon",
+  "id": "70",
+  "description": "An Epic Time Travel Fantasy AdventureGabriel Salvador has dreams about the future, and his dreams always come true. When he dreams one night that he will drown, he knows upon waking it is only a matter of time before his dream becomes reality.Plucked from the timeline of history at the moment of his death and considered dead by his parents and friends, Gabriel mourns the loss of his family as he trains to become an apprentice time mage -- part of an elite team of wizards who travel throughout history to fight the War of Time and Magic.When a mission to stop the creation of an alternate reality fails, Gabriel is revealed as the Seventh True Mage, able to use all six forms of magic. He soon finds himself hunted by three dark mages who hope to use him to rule the whole of the Primary Continuum.From an alternate Windsor Castle to Victorian London, from the Aztec temples of 1487 to the Greek island of Samos in 320 BCE, from Scotland in the Middle Ages to the battle fields of Alexander the Great -- Gabriel struggles to master the different magics and fulfill the responsibility of being the Seventh True Mage as he joins the battle to protect the timeline of history in The Wizard of Time.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "70_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "70_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "70_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "70_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "70_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "70_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 674,
-        "score": 3.81
+    {
+      "status": "maintenance",
+      "stock_id": "70_2"
     },
-    "pages": 1073,
-    "title": "The Wizard of Time",
-    "url": "https://www.goodreads.com/book/show/12111260-the-wizard-of-time",
-    "year_published": 2011
+    {
+      "status": "on_loan",
+      "stock_id": "70_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "70_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "70_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 674,
+    "score": 3.81
+  },
+  "pages": 1073,
+  "title": "The Wizard of Time",
+  "url": "https://www.goodreads.com/book/show/12111260-the-wizard-of-time",
+  "year_published": 2011
 }

@@ -1,34 +1,34 @@
 {
-    "author": "Lauren DeStefano",
-    "id": "8156",
-    "description": "By age sixteen, Rhine Ellery has four years left to live. She can thank modern science for this genetic time bomb. A botched effort to create a perfect race has left all males with a lifespan of 25 years, and females with a lifespan of 20 years. Geneticists are seeking a miracle antidote to restore the human race, desperate orphans crowd the population, crime and poverty have skyrocketed, and young girls are being kidnapped and sold as polygamous brides to bear more children. When Rhine is kidnapped and sold as a bride, she vows to do all she can to escape. Her husband, Linden, is hopelessly in love with her, and Rhine can't bring herself to hate him as much as she'd like to. He opens her to a magical world of wealth and illusion she never thought existed, and it almost makes it possible to ignore the clock ticking away her short life. But Rhine quickly learns that not everything in her new husband's strange world is what it seems. Her father-in-law, an eccentric doctor bent on finding the antidote, is hoarding corpses in the basement. Her fellow sister wives are to be trusted one day and feared the next, and Rhine is desperate to communicate to her twin brother that she is safe and alive. Will Rhine be able to escape--before her time runs out?Together with one of Linden's servants, Gabriel, Rhine attempts to escape just before her seventeenth birthday. But in a world that continues to spiral into anarchy, is there any hope for freedom?",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 184,
-        "fantasy": 605,
-        "fantasy (paranormal)": 105,
-        "fiction": 351,
-        "futuristic": 90,
-        "science fiction": 503,
-        "science fiction (dystopia)": 1598,
-        "young adult": 2487,
-        "young adult (teen)": 204,
-        "young adult (young adult fantasy)": 65
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "8156_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 98720,
-        "score": 3.8
-    },
-    "pages": 944,
-    "title": "Wither",
-    "url": "https://www.goodreads.com/book/show/8525590-wither",
-    "year_published": 2011
+  "author": "Lauren DeStefano",
+  "id": "8156",
+  "description": "By age sixteen, Rhine Ellery has four years left to live. She can thank modern science for this genetic time bomb. A botched effort to create a perfect race has left all males with a lifespan of 25 years, and females with a lifespan of 20 years. Geneticists are seeking a miracle antidote to restore the human race, desperate orphans crowd the population, crime and poverty have skyrocketed, and young girls are being kidnapped and sold as polygamous brides to bear more children. When Rhine is kidnapped and sold as a bride, she vows to do all she can to escape. Her husband, Linden, is hopelessly in love with her, and Rhine can't bring herself to hate him as much as she'd like to. He opens her to a magical world of wealth and illusion she never thought existed, and it almost makes it possible to ignore the clock ticking away her short life. But Rhine quickly learns that not everything in her new husband's strange world is what it seems. Her father-in-law, an eccentric doctor bent on finding the antidote, is hoarding corpses in the basement. Her fellow sister wives are to be trusted one day and feared the next, and Rhine is desperate to communicate to her twin brother that she is safe and alive. Will Rhine be able to escape--before her time runs out?Together with one of Linden's servants, Gabriel, Rhine attempts to escape just before her seventeenth birthday. But in a world that continues to spiral into anarchy, is there any hope for freedom?",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fiction",
+    "futuristic",
+    "science fiction",
+    "science fiction (dystopia)",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "8156_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 98720,
+    "score": 3.8
+  },
+  "pages": 944,
+  "title": "Wither",
+  "url": "https://www.goodreads.com/book/show/8525590-wither",
+  "year_published": 2011
 }

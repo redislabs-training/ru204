@@ -1,38 +1,38 @@
 {
-    "author": "Evan Currie",
-    "id": "684",
-    "description": "Beyond the confines of our small world, beyond the well of our star, lies a galaxy, and universe, larger and more varied than any of us can imagine. Assigned the task of blazing man's first trail into that great unknown, Captain Eric Weston and the crew of the NAC Odyssey launch on a mission destined to make history.Past the bounds of comfort, they encounter horrors and wonders beyond their imagining, with people and monsters beyond reckoning.Odyssey One is the first voyage of the NAC Odyssey and its crew, and the beginnings of a Military Science Fiction Epic that combines both old school space opera, and modern storytelling in one great, exhilarating adventure.Odyssey One is a 150,000 word novel.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 13,
-        "audiobook": 17,
-        "fiction": 65,
-        "science fiction": 336,
-        "science fiction (aliens)": 17,
-        "science fiction (military science fiction)": 33,
-        "space": 20,
-        "space (space opera)": 109,
-        "war": 12,
-        "war (military fiction)": 44
+  "author": "Evan Currie",
+  "id": "684",
+  "description": "Beyond the confines of our small world, beyond the well of our star, lies a galaxy, and universe, larger and more varied than any of us can imagine. Assigned the task of blazing man's first trail into that great unknown, Captain Eric Weston and the crew of the NAC Odyssey launch on a mission destined to make history.Past the bounds of comfort, they encounter horrors and wonders beyond their imagining, with people and monsters beyond reckoning.Odyssey One is the first voyage of the NAC Odyssey and its crew, and the beginnings of a Military Science Fiction Epic that combines both old school space opera, and modern storytelling in one great, exhilarating adventure.Odyssey One is a 150,000 word novel.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fiction",
+    "science fiction",
+    "science fiction (aliens)",
+    "science fiction (military science fiction)",
+    "space",
+    "space (space opera)",
+    "war",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "684_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "684_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "684_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11687,
-        "score": 4.07
-    },
-    "pages": 302,
-    "title": "Odyssey One",
-    "url": "https://www.goodreads.com/book/show/18889230-odyssey-one",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "684_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11687,
+    "score": 4.07
+  },
+  "pages": 302,
+  "title": "Odyssey One",
+  "url": "https://www.goodreads.com/book/show/18889230-odyssey-one",
+  "year_published": 2011
 }

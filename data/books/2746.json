@@ -1,52 +1,52 @@
 {
-    "author": "Marie Lu",
-    "id": "2746",
-    "description": "Born with a gift for music, Nannerl Mozart has just one wish: to be remembered forever. But even as she delights audiences with her masterful playing, she has little hope she'll ever become the acclaimed composer she longs to be. She is a young woman in eighteenth-century Europe, and that means composing is forbidden to her. She will perform only until she reaches a marriageable age\u2014her tyrannical father has made that much clear.As Nannerl's hope grows dimmer with each passing year, the talents of her beloved younger brother, Wolfgang, only seem to shine brighter. His brilliance begins to eclipse her own, until one day a mysterious stranger from a magical land appears with an irresistible offer. He has the power to make her wish come true\u2014but his help may cost her everything.In her first work of historical fiction, #1 New York Times bestselling author Marie Lu spins a lush, lyrically told story of music, magic, and the unbreakable bond between a brother and sister.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 65,
-        "fantasy": 1339,
-        "fiction": 168,
-        "historical": 273,
-        "historical (historical fiction)": 891,
-        "historical fiction (historical fantasy)": 81,
-        "magical realism": 93,
-        "music": 83,
-        "young adult": 689,
-        "young adult (young adult fantasy)": 139
+  "author": "Marie Lu",
+  "id": "2746",
+  "description": "Born with a gift for music, Nannerl Mozart has just one wish: to be remembered forever. But even as she delights audiences with her masterful playing, she has little hope she'll ever become the acclaimed composer she longs to be. She is a young woman in eighteenth-century Europe, and that means composing is forbidden to her. She will perform only until she reaches a marriageable age—her tyrannical father has made that much clear.As Nannerl's hope grows dimmer with each passing year, the talents of her beloved younger brother, Wolfgang, only seem to shine brighter. His brilliance begins to eclipse her own, until one day a mysterious stranger from a magical land appears with an irresistible offer. He has the power to make her wish come true—but his help may cost her everything.In her first work of historical fiction, #1 New York Times bestselling author Marie Lu spins a lush, lyrically told story of music, magic, and the unbreakable bond between a brother and sister.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "magical realism",
+    "music",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "2746_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "2746_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2746_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2746_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "2746_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2746_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10892,
-        "score": 3.73
+    {
+      "status": "maintenance",
+      "stock_id": "2746_2"
     },
-    "pages": 1264,
-    "title": "The Kingdom of Back",
-    "url": "https://www.goodreads.com/book/show/45872054-the-kingdom-of-back",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "2746_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "2746_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2746_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10892,
+    "score": 3.73
+  },
+  "pages": 1264,
+  "title": "The Kingdom of Back",
+  "url": "https://www.goodreads.com/book/show/45872054-the-kingdom-of-back",
+  "year_published": 2020
 }

@@ -1,47 +1,47 @@
 {
-    "author": "Joan Aiken",
-    "id": "1279",
-    "description": "Wicked wolves and a grim governess threaten Bonnie and her cousin Sylvia when Bonnie's parents leave Willoughby Chase for a sea voyage. Left in the care of the cruel Miss Slighcarp, the girls can hardly believe what is happening to their once happy home. The servants are dismissed, the furniture is sold, and Bonnie and Sylvia are sent to a prison-like orphan school. It seems as if the endless hours of drudgery will never cease.With the help of Simon the gooseboy and his flock, they escape. But how will they ever get Willoughby Chase free from the clutches of the evil Miss Slighcarp?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 122,
-        "childrens": 320,
-        "childrens (middle grade)": 150,
-        "classics": 162,
-        "fantasy": 325,
-        "fiction": 291,
-        "gothic": 70,
-        "historical": 75,
-        "historical (historical fiction)": 134,
-        "young adult": 159
+  "author": "Joan Aiken",
+  "id": "1279",
+  "description": "Wicked wolves and a grim governess threaten Bonnie and her cousin Sylvia when Bonnie's parents leave Willoughby Chase for a sea voyage. Left in the care of the cruel Miss Slighcarp, the girls can hardly believe what is happening to their once happy home. The servants are dismissed, the furniture is sold, and Bonnie and Sylvia are sent to a prison-like orphan school. It seems as if the endless hours of drudgery will never cease.With the help of Simon the gooseboy and his flock, they escape. But how will they ever get Willoughby Chase free from the clutches of the evil Miss Slighcarp?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "gothic",
+    "historical",
+    "historical (historical fiction)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1279_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1279_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "1279_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1279_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1279_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19574,
-        "score": 4.03
+    {
+      "status": "available",
+      "stock_id": "1279_2"
     },
-    "pages": 523,
-    "title": "The Wolves of Willoughby Chase",
-    "url": "https://www.goodreads.com/book/show/36638.The_Wolves_of_Willoughby_Chase",
-    "year_published": 1962
+    {
+      "status": "on_loan",
+      "stock_id": "1279_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1279_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19574,
+    "score": 4.03
+  },
+  "pages": 523,
+  "title": "The Wolves of Willoughby Chase",
+  "url": "https://www.goodreads.com/book/show/36638.The_Wolves_of_Willoughby_Chase",
+  "year_published": 1962
 }

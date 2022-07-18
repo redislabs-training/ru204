@@ -1,48 +1,48 @@
 {
-    "author": "Charles Stross",
-    "id": "1173",
-    "description": "The Singularity. It is the era of the posthuman. Artificial intelligences have surpassed the limits of human intellect. Biotechnological beings have rendered people all but extinct. Molecular nanotechnology runs rampant, replicating and reprogramming at will. Contact with extraterrestrial life grows more imminent with each new day.Struggling to survive and thrive in this accelerated world are three generations of the Macx clan: Manfred, an entrepreneur dealing in intelligence amplification technology whose mind is divided between his physical environment and the Internet; his daughter, Amber, on the run from her domineering mother, seeking her fortune in the outer system as an indentured astronaut; and Sirhan, Amber's son, who finds his destiny linked to the fate of all of humanity.For something is systemically dismantling the nine planets of the solar system. Something beyond human comprehension. Something that has no use for biological life in any form.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fiction": 361,
-        "novels": 16,
-        "science fiction": 827,
-        "science fiction (cyberpunk)": 204,
-        "science fiction (hard science fiction)": 21,
-        "science fiction fantasy": 23,
-        "singularity": 47,
-        "space (space opera)": 25,
-        "speculative fiction": 30,
-        "unfinished": 22
+  "author": "Charles Stross",
+  "id": "1173",
+  "description": "The Singularity. It is the era of the posthuman. Artificial intelligences have surpassed the limits of human intellect. Biotechnological beings have rendered people all but extinct. Molecular nanotechnology runs rampant, replicating and reprogramming at will. Contact with extraterrestrial life grows more imminent with each new day.Struggling to survive and thrive in this accelerated world are three generations of the Macx clan: Manfred, an entrepreneur dealing in intelligence amplification technology whose mind is divided between his physical environment and the Internet; his daughter, Amber, on the run from her domineering mother, seeking her fortune in the outer system as an indentured astronaut; and Sirhan, Amber's son, who finds his destiny linked to the fate of all of humanity.For something is systemically dismantling the nine planets of the solar system. Something beyond human comprehension. Something that has no use for biological life in any form.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (hard science fiction)",
+    "science fiction fantasy",
+    "singularity",
+    "space (space opera)",
+    "speculative fiction",
+    "unfinished"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1173_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1173_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1173_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1173_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1173_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 19736,
-        "score": 3.89
+    {
+      "status": "maintenance",
+      "stock_id": "1173_2"
     },
-    "pages": 701,
-    "title": "Accelerando",
-    "url": "https://www.goodreads.com/book/show/17863.Accelerando",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "1173_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1173_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 19736,
+    "score": 3.89
+  },
+  "pages": 701,
+  "title": "Accelerando",
+  "url": "https://www.goodreads.com/book/show/17863.Accelerando",
+  "year_published": 2005
 }

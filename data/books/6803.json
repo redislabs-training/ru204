@@ -1,44 +1,44 @@
 {
-    "author": "Daniel O'Malley",
-    "id": "6803",
-    "description": "\"The body you are wearing used to be mine.\" So begins the letter Myfanwy Thomas is holding when she awakes in a London park surrounded by bodies all wearing latex gloves. With no recollection of who she is, Myfanwy must follow the instructions her former self left behind to discover her identity and track down the agents who want to destroy her.She soon learns that she is a Rook, a high-ranking member of a secret organization called the Chequy that battles the many supernatural forces at work in Britain. She also discovers that she possesses a rare, potentially deadly supernatural ability of her own. In her quest to uncover which member of the Chequy betrayed her and why, Myfanwy encounters a person with four bodies, an aristocratic woman who can enter her dreams, a secret training facility where children are transformed into deadly fighters, and a conspiracy more vast than she ever could have imagined.Filled with characters both fascinating and fantastical, The Rook is a richly inventive, suspenseful, and often wry thriller that marks an ambitious debut from a promising young writer.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 200,
-        "audiobook": 155,
-        "fantasy": 2844,
-        "fantasy (paranormal)": 513,
-        "fantasy (supernatural)": 220,
-        "fantasy (urban fantasy)": 1117,
-        "fiction": 783,
-        "mystery": 790,
-        "science fiction": 446,
-        "thriller": 250
+  "author": "Daniel O'Malley",
+  "id": "6803",
+  "description": "\"The body you are wearing used to be mine.\" So begins the letter Myfanwy Thomas is holding when she awakes in a London park surrounded by bodies all wearing latex gloves. With no recollection of who she is, Myfanwy must follow the instructions her former self left behind to discover her identity and track down the agents who want to destroy her.She soon learns that she is a Rook, a high-ranking member of a secret organization called the Chequy that battles the many supernatural forces at work in Britain. She also discovers that she possesses a rare, potentially deadly supernatural ability of her own. In her quest to uncover which member of the Chequy betrayed her and why, Myfanwy encounters a person with four bodies, an aristocratic woman who can enter her dreams, a secret training facility where children are transformed into deadly fighters, and a conspiracy more vast than she ever could have imagined.Filled with characters both fascinating and fantastical, The Rook is a richly inventive, suspenseful, and often wry thriller that marks an ambitious debut from a promising young writer.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6803_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6803_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "6803_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6803_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 50314,
-        "score": 4.1
+    {
+      "status": "available",
+      "stock_id": "6803_2"
     },
-    "pages": 498,
-    "title": "The Rook",
-    "url": "https://www.goodreads.com/book/show/10836728-the-rook",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "6803_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 50314,
+    "score": 4.1
+  },
+  "pages": 498,
+  "title": "The Rook",
+  "url": "https://www.goodreads.com/book/show/10836728-the-rook",
+  "year_published": 2012
 }

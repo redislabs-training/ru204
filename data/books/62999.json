@@ -1,42 +1,42 @@
 {
-    "author": "Rick Riordan",
-    "id": "62999",
-    "description": "Alternate cover for this ISBN can be found herePercy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse - Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him. When Percy's mom finds out, she knows it's time that he knew the truth about where he came from, and that he go to the one place he'll be safe. She sends Percy to Camp Half Blood, a summer camp for demigods (on Long Island), where he learns that the father he never knew is Poseidon, God of the Sea. Soon a mystery unfolds and together with his friends\u2014one a satyr and the other the demigod daughter of Athena - Percy sets out on a quest across the United States to reach the gates of the Underworld (located in a recording studio in Hollywood) and prevent a catastrophic war between the gods.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 2524,
-        "childrens": 1634,
-        "childrens (middle grade)": 3498,
-        "fantasy": 23203,
-        "fantasy (magic)": 767,
-        "fantasy (mythology)": 5807,
-        "fantasy (urban fantasy)": 1121,
-        "fiction": 4671,
-        "mythology (greek mythology)": 1042,
-        "young adult": 10019
+  "author": "Rick Riordan",
+  "id": "62999",
+  "description": "Alternate cover for this ISBN can be found herePercy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse - Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him. When Percy's mom finds out, she knows it's time that he knew the truth about where he came from, and that he go to the one place he'll be safe. She sends Percy to Camp Half Blood, a summer camp for demigods (on Long Island), where he learns that the father he never knew is Poseidon, God of the Sea. Soon a mystery unfolds and together with his friends—one a satyr and the other the demigod daughter of Athena - Percy sets out on a quest across the United States to reach the gates of the Underworld (located in a recording studio in Hollywood) and prevent a catastrophic war between the gods.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mythology (greek mythology)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "62999_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "62999_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "62999_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "62999_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2073337,
-        "score": 4.26
+    {
+      "status": "maintenance",
+      "stock_id": "62999_2"
     },
-    "pages": 1219,
-    "title": "The Lightning Thief",
-    "url": "https://www.goodreads.com/book/show/28187.The_Lightning_Thief",
-    "year_published": 2005
+    {
+      "status": "on_loan",
+      "stock_id": "62999_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2073337,
+    "score": 4.26
+  },
+  "pages": 1219,
+  "title": "The Lightning Thief",
+  "url": "https://www.goodreads.com/book/show/28187.The_Lightning_Thief",
+  "year_published": 2005
 }

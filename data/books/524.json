@@ -1,60 +1,60 @@
 {
-    "author": "Whitley Strieber",
-    "id": "524",
-    "description": "On December 26, 1985, at a secluded cabin in upstate New York, Whitley Strieber went skiing with his wife and son, ate Christmas dinner leftovers, and went to bed early.Six hours later, he found himself suddenly awake...and forever changed.Thus begins the most astonishing true-life odyssey ever recorded -- one man's riveting account of his extraordinary experiences with visitors from\"elsewhere\"... how they found him, where they took him, what they did to him and why...Believe it. Or don't believe it. But read it -- for this gripping story will move you like no other... will fascinate you, terrify you, and alter the way you experience your world.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "autobiography (memoir)": 32,
-        "biography": 26,
-        "biography (autobiography)": 16,
-        "fantasy (paranormal)": 72,
-        "fantasy (supernatural)": 9,
-        "horror": 103,
-        "nonfiction": 145,
-        "pseudoscience (conspiracy theories)": 10,
-        "science fiction (aliens)": 53,
-        "science fiction fantasy": 9
+  "author": "Whitley Strieber",
+  "id": "524",
+  "description": "On December 26, 1985, at a secluded cabin in upstate New York, Whitley Strieber went skiing with his wife and son, ate Christmas dinner leftovers, and went to bed early.Six hours later, he found himself suddenly awake...and forever changed.Thus begins the most astonishing true-life odyssey ever recorded -- one man's riveting account of his extraordinary experiences with visitors from\"elsewhere\"... how they found him, where they took him, what they did to him and why...Believe it. Or don't believe it. But read it -- for this gripping story will move you like no other... will fascinate you, terrify you, and alter the way you experience your world.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "autobiography (memoir)",
+    "biography",
+    "biography (autobiography)",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "horror",
+    "nonfiction",
+    "pseudoscience (conspiracy theories)",
+    "science fiction (aliens)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "524_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "524_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "524_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "524_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "524_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "524_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "524_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "524_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5211,
-        "score": 3.5
+    {
+      "status": "on_loan",
+      "stock_id": "524_2"
     },
-    "pages": 856,
-    "title": "Communion: A True Story",
-    "url": "https://www.goodreads.com/book/show/294285.Communion",
-    "year_published": 1987
+    {
+      "status": "available",
+      "stock_id": "524_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "524_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "524_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "524_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "524_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5211,
+    "score": 3.5
+  },
+  "pages": 856,
+  "title": "Communion: A True Story",
+  "url": "https://www.goodreads.com/book/show/294285.Communion",
+  "year_published": 1987
 }

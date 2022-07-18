@@ -1,55 +1,55 @@
 {
-    "author": "Katherine Addison",
-    "id": "535",
-    "description": "This is not the story you think it is. These are not the characters you think they are. This is not the book you are expecting.In an alternate 1880s London, angels inhabit every public building, and vampires and werewolves walk the streets with human beings under a well-regulated truce. A fantastic utopia, except for a few things: Angels can Fall, and that Fall is like a nuclear bomb in both the physical and metaphysical worlds. And human beings remain human, with all their kindness and greed and passions and murderous intent.Jack the Ripper stalks the streets of this London too. But this London has an Angel. The Angel of the Crows.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 25,
-        "fantasy": 395,
-        "fantasy (paranormal)": 35,
-        "fantasy (urban fantasy)": 68,
-        "fiction": 49,
-        "historical": 64,
-        "historical (historical fiction)": 104,
-        "historical fiction (historical fantasy)": 26,
-        "mystery": 94,
-        "paranormal (vampires)": 26
+  "author": "Katherine Addison",
+  "id": "535",
+  "description": "This is not the story you think it is. These are not the characters you think they are. This is not the book you are expecting.In an alternate 1880s London, angels inhabit every public building, and vampires and werewolves walk the streets with human beings under a well-regulated truce. A fantastic utopia, except for a few things: Angels can Fall, and that Fall is like a nuclear bomb in both the physical and metaphysical worlds. And human beings remain human, with all their kindness and greed and passions and murderous intent.Jack the Ripper stalks the streets of this London too. But this London has an Angel. The Angel of the Crows.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "historical fiction (historical fantasy)",
+    "mystery",
+    "paranormal (vampires)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "535_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "535_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "535_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "535_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "535_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "535_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "535_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 4116,
-        "score": 3.78
+    {
+      "status": "on_loan",
+      "stock_id": "535_2"
     },
-    "pages": 485,
-    "title": "The Angel of the Crows",
-    "url": "https://www.goodreads.com/book/show/52378874-the-angel-of-the-crows",
-    "year_published": 2020
+    {
+      "status": "on_loan",
+      "stock_id": "535_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "535_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "535_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "535_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 4116,
+    "score": 3.78
+  },
+  "pages": 485,
+  "title": "The Angel of the Crows",
+  "url": "https://www.goodreads.com/book/show/52378874-the-angel-of-the-crows",
+  "year_published": 2020
 }

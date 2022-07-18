@@ -1,48 +1,48 @@
 {
-    "author": "Lisa   Maxwell",
-    "id": "2761",
-    "description": "Stop the Magician. Steal the book. Save the future.In modern-day New York, magic is all but extinct. The remaining few who have an affinity for magic\u2014the Mageus\u2014live in the shadows, hiding who they are. Any Mageus who enters Manhattan becomes trapped by the Brink, a dark energy barrier that confines them to the island. Crossing it means losing their power\u2014and often their lives.Esta is a talented thief, and she\u2019s been raised to steal magical artifacts from the sinister Order that created the Brink. With her innate ability to manipulate time, Esta can pilfer from the past, collecting these artifacts before the Order even realizes she\u2019s there. And all of Esta\u2019s training has been for one final job: traveling back to 1902 to steal an ancient book containing the secrets of the Order\u2014and the Brink\u2014before the Magician can destroy it and doom the Mageus to a hopeless future.But Old New York is a dangerous world ruled by ruthless gangs and secret societies, a world where the very air crackles with magic. Nothing is as it seems, including the Magician himself. And for Esta to save her future, she may have to betray everyone in the past.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 1679,
-        "fantasy (magic)": 210,
-        "fantasy (urban fantasy)": 100,
-        "fiction": 121,
-        "historical": 170,
-        "historical (historical fiction)": 339,
-        "science fiction": 88,
-        "science fiction (time travel)": 261,
-        "young adult": 591,
-        "young adult (young adult fantasy)": 188
+  "author": "Lisa   Maxwell",
+  "id": "2761",
+  "description": "Stop the Magician. Steal the book. Save the future.In modern-day New York, magic is all but extinct. The remaining few who have an affinity for magic—the Mageus—live in the shadows, hiding who they are. Any Mageus who enters Manhattan becomes trapped by the Brink, a dark energy barrier that confines them to the island. Crossing it means losing their power—and often their lives.Esta is a talented thief, and she’s been raised to steal magical artifacts from the sinister Order that created the Brink. With her innate ability to manipulate time, Esta can pilfer from the past, collecting these artifacts before the Order even realizes she’s there. And all of Esta’s training has been for one final job: traveling back to 1902 to steal an ancient book containing the secrets of the Order—and the Brink—before the Magician can destroy it and doom the Mageus to a hopeless future.But Old New York is a dangerous world ruled by ruthless gangs and secret societies, a world where the very air crackles with magic. Nothing is as it seems, including the Magician himself. And for Esta to save her future, she may have to betray everyone in the past.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2761_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2761_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2761_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2761_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2761_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12893,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "2761_2"
     },
-    "pages": 1391,
-    "title": "The Last Magician",
-    "url": "https://www.goodreads.com/book/show/30312855-the-last-magician",
-    "year_published": 2017
+    {
+      "status": "maintenance",
+      "stock_id": "2761_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2761_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12893,
+    "score": 4.06
+  },
+  "pages": 1391,
+  "title": "The Last Magician",
+  "url": "https://www.goodreads.com/book/show/30312855-the-last-magician",
+  "year_published": 2017
 }

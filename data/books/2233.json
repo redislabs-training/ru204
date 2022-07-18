@@ -1,59 +1,59 @@
 {
-    "author": "Diana Wynne Jones",
-    "id": "2233",
-    "description": "Charmain Baker is in over her head. Looking after Great-Uncle William's tiny cottage while he's ill should have been easy. But Great-Uncle William is better known as the Royal Wizard Norland, and his house bends space and time. Its single door leads to any number of places\u2014the bedrooms, the kitchen, the caves under the mountains, the past, and the Royal Mansion, to name just a few.By opening that door, Charmain has become responsible for not only the house, but for an extremely magical stray dog, a muddled young apprentice wizard, and a box of the king's most treasured documents. She has encountered a terrifying beast called a lubbock, irritated a clan of small blue creatures, and wound up smack in the middle of an urgent search. The king and his daughter are desperate to find the lost, fabled Elfgift\u2014so desperate that they've even called in an intimidating sorceress named Sophie to help. And where Sophie is, can the Wizard Howl and fire demon Calcifer be far behind?Of course, with that magical family involved, there's bound to be chaos\u2014and unexpected revelations. No one will be more surprised than Charmain by what Howl and Sophie discover.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 108,
-        "audiobook": 48,
-        "childrens": 188,
-        "childrens (middle grade)": 149,
-        "fantasy": 2610,
-        "fantasy (magic)": 203,
-        "fiction": 349,
-        "science fiction fantasy": 65,
-        "young adult": 679,
-        "young adult (young adult fantasy)": 82
+  "author": "Diana Wynne Jones",
+  "id": "2233",
+  "description": "Charmain Baker is in over her head. Looking after Great-Uncle William's tiny cottage while he's ill should have been easy. But Great-Uncle William is better known as the Royal Wizard Norland, and his house bends space and time. Its single door leads to any number of places—the bedrooms, the kitchen, the caves under the mountains, the past, and the Royal Mansion, to name just a few.By opening that door, Charmain has become responsible for not only the house, but for an extremely magical stray dog, a muddled young apprentice wizard, and a box of the king's most treasured documents. She has encountered a terrifying beast called a lubbock, irritated a clan of small blue creatures, and wound up smack in the middle of an urgent search. The king and his daughter are desperate to find the lost, fabled Elfgift—so desperate that they've even called in an intimidating sorceress named Sophie to help. And where Sophie is, can the Wizard Howl and fire demon Calcifer be far behind?Of course, with that magical family involved, there's bound to be chaos—and unexpected revelations. No one will be more surprised than Charmain by what Howl and Sophie discover.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2233_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2233_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2233_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2233_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2233_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "2233_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "2233_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "2233_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 28645,
-        "score": 4.06
+    {
+      "status": "maintenance",
+      "stock_id": "2233_2"
     },
-    "pages": 582,
-    "title": "House of Many Ways",
-    "url": "https://www.goodreads.com/book/show/2173611.House_of_Many_Ways",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "2233_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2233_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "2233_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "2233_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "2233_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 28645,
+    "score": 4.06
+  },
+  "pages": 582,
+  "title": "House of Many Ways",
+  "url": "https://www.goodreads.com/book/show/2173611.House_of_Many_Ways",
+  "year_published": 2008
 }

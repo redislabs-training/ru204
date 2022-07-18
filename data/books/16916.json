@@ -1,38 +1,38 @@
 {
-    "author": "Josh Malerman",
-    "id": "16916",
-    "description": "Alternate cover edition of ISBN 9780062259653Something is out there, something terrifying that must not be seen. One glimpse of it, and a person is driven to deadly violence. No one knows what it is or where it came from.Five years after it began, a handful of scattered survivors remains, including Malorie and her two young children. Living in an abandoned house near the river, she has dreamed of fleeing to a place where they might be safe. Now that the boy and girl are four, it's time to go, but the journey ahead will be terrifying: twenty miles downriver in a rowboat\u2014blindfolded\u2014with nothing to rely on but her wits and the children's trained ears. One wrong choice and they will die. Something is following them all the while, but is it man, animal, or monster?Interweaving past and present, Bird Box is a snapshot of a world unraveled that will have you racing to the final page.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 344,
-        "apocalyptic (post apocalyptic)": 440,
-        "audiobook": 394,
-        "fiction": 1608,
-        "horror": 4909,
-        "mystery": 552,
-        "science fiction": 451,
-        "science fiction (dystopia)": 591,
-        "suspense": 335,
-        "thriller": 1221
+  "author": "Josh Malerman",
+  "id": "16916",
+  "description": "Alternate cover edition of ISBN 9780062259653Something is out there, something terrifying that must not be seen. One glimpse of it, and a person is driven to deadly violence. No one knows what it is or where it came from.Five years after it began, a handful of scattered survivors remains, including Malorie and her two young children. Living in an abandoned house near the river, she has dreamed of fleeing to a place where they might be safe. Now that the boy and girl are four, it's time to go, but the journey ahead will be terrifying: twenty miles downriver in a rowboat—blindfolded—with nothing to rely on but her wits and the children's trained ears. One wrong choice and they will die. Something is following them all the while, but is it man, animal, or monster?Interweaving past and present, Bird Box is a snapshot of a world unraveled that will have you racing to the final page.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "audiobook",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "16916_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "16916_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "16916_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 149999,
-        "score": 4.02
-    },
-    "pages": 598,
-    "title": "Bird Box",
-    "url": "https://www.goodreads.com/book/show/18498558-bird-box",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "16916_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 149999,
+    "score": 4.02
+  },
+  "pages": 598,
+  "title": "Bird Box",
+  "url": "https://www.goodreads.com/book/show/18498558-bird-box",
+  "year_published": 2014
 }

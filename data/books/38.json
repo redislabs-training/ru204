@@ -1,54 +1,54 @@
 {
-    "author": "Todd A. Fonseca",
-    "id": "38",
-    "description": "THE MYSTERY BEGAN A HUNDRED YEARS AGO. IT WAS NEVER SOLVED. NOW IT'S HAPPENING AGAIN.Ten-year-old Aaron moved from the big city to the country where he met a know-it-all farm girl who said his house is haunted. The Amish boy who had lived there before disappeared after claiming to hear the wind call his name. Aaron knew she was just trying to scare him--she was doing a good job too because the night before Aaron heard the wind call his name.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 4,
-        "childrens": 10,
-        "childrens (juvenile)": 13,
-        "fantasy": 6,
-        "fiction": 5,
-        "science fiction": 14,
-        "science fiction (time travel)": 37,
-        "science fiction fantasy": 2,
-        "young adult": 28,
-        "young adult (young adult fantasy)": 2
+  "author": "Todd A. Fonseca",
+  "id": "38",
+  "description": "THE MYSTERY BEGAN A HUNDRED YEARS AGO. IT WAS NEVER SOLVED. NOW IT'S HAPPENING AGAIN.Ten-year-old Aaron moved from the big city to the country where he met a know-it-all farm girl who said his house is haunted. The Amish boy who had lived there before disappeared after claiming to hear the wind call his name. Aaron knew she was just trying to scare him--she was doing a good job too because the night before Aaron heard the wind call his name.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (juvenile)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "38_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "38_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "38_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "38_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "38_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "38_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "38_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 207,
-        "score": 3.86
+    {
+      "status": "on_loan",
+      "stock_id": "38_2"
     },
-    "pages": 1125,
-    "title": "The Time Cavern",
-    "url": "https://www.goodreads.com/book/show/4541172-the-time-cavern",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "38_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "38_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "38_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "38_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 207,
+    "score": 3.86
+  },
+  "pages": 1125,
+  "title": "The Time Cavern",
+  "url": "https://www.goodreads.com/book/show/4541172-the-time-cavern",
+  "year_published": 2008
 }

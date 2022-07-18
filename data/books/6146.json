@@ -1,39 +1,39 @@
 {
-    "author": "Stephen King",
-    "id": "6146",
-    "description": "WHERE WERE YOU ON OCTOBER 1ST AT 3:03 P.M.?Graphic artist Clay Riddell was in the heart of Boston on that brilliant autumn afternoon when hell was unleashed before his eyes. Without warning, carnage and chaos reigned. Ordinary people fell victim to the basest, most animalistic destruction.And the apocalypse began with the ring of a cell phone....(back cover)",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "apocalyptic (post apocalyptic)": 215,
-        "fantasy": 133,
-        "fiction": 1224,
-        "horror": 3860,
-        "horror (zombies)": 524,
-        "science fiction": 303,
-        "science fiction (apocalyptic)": 115,
-        "science fiction (dystopia)": 103,
-        "suspense": 99,
-        "thriller": 373
+  "author": "Stephen King",
+  "id": "6146",
+  "description": "WHERE WERE YOU ON OCTOBER 1ST AT 3:03 P.M.?Graphic artist Clay Riddell was in the heart of Boston on that brilliant autumn afternoon when hell was unleashed before his eyes. Without warning, carnage and chaos reigned. Ordinary people fell victim to the basest, most animalistic destruction.And the apocalypse began with the ring of a cell phone....(back cover)",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "horror",
+    "horror (zombies)",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "suspense",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "6146_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "6146_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6146_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 197002,
-        "score": 3.65
-    },
-    "pages": 794,
-    "title": "Cell",
-    "url": "https://www.goodreads.com/book/show/10567.Cell",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "6146_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 197002,
+    "score": 3.65
+  },
+  "pages": 794,
+  "title": "Cell",
+  "url": "https://www.goodreads.com/book/show/10567.Cell",
+  "year_published": 2006
 }

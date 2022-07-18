@@ -1,35 +1,35 @@
 {
-    "author": "Kurt Vonnegut Jr.",
-    "id": "27717",
-    "description": "Selected by the Modern Library as one of the 100 best novels of all time, Slaughterhouse-Five, an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 13510,
-        "fantasy": 625,
-        "fiction": 12409,
-        "historical (historical fiction)": 1699,
-        "literature": 1532,
-        "literature (american)": 658,
-        "novels": 1023,
-        "science fiction": 5348,
-        "science fiction (time travel)": 746,
-        "war": 1885
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "27717_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1156725,
-        "score": 4.08
-    },
-    "pages": 1137,
-    "title": "Slaughterhouse-Five",
-    "url": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five",
-    "year_published": 1969
+  "author": "Kurt Vonnegut Jr.",
+  "id": "27717",
+  "description": "Selected by the Modern Library as one of the 100 best novels of all time, Slaughterhouse-Five, an American classic, is one of the world's great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "literature",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "27717_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1156725,
+    "score": 4.08
+  },
+  "pages": 1137,
+  "title": "Slaughterhouse-Five",
+  "url": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five",
+  "year_published": 1969
 }

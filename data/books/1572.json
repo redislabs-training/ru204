@@ -1,36 +1,36 @@
 {
-    "author": "Ursula K. Le Guin",
-    "id": "1572",
-    "description": "Some inhabitants of a peaceful kingdom cannot tolerate the act of cruelty that underlies its happiness.The story \"Omelas\" was first published in New Dimensions 3, a hard-cover science fiction anthology edited by Robert Silverberg, in October 1973, and the following year it won Le Guin the prestigious Hugo Award for best short story.It was subsequently printed in her short story collection The Wind's Twelve Quarters in 1975.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "academic (school)": 49,
-        "classics": 236,
-        "fantasy": 362,
-        "fiction": 413,
-        "horror": 29,
-        "philosophy": 147,
-        "science fiction": 314,
-        "science fiction (dystopia)": 106,
-        "short stories": 866,
-        "speculative fiction": 33
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "1572_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 18176,
-        "score": 4.39
-    },
-    "pages": 1141,
-    "title": "The Ones Who Walk Away from Omelas",
-    "url": "https://www.goodreads.com/book/show/92625.The_Ones_Who_Walk_Away_from_Omelas",
-    "year_published": 1973
+  "author": "Ursula K. Le Guin",
+  "id": "1572",
+  "description": "Some inhabitants of a peaceful kingdom cannot tolerate the act of cruelty that underlies its happiness.The story \"Omelas\" was first published in New Dimensions 3, a hard-cover science fiction anthology edited by Robert Silverberg, in October 1973, and the following year it won Le Guin the prestigious Hugo Award for best short story.It was subsequently printed in her short story collection The Wind's Twelve Quarters in 1975.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "academic (school)",
+    "classics",
+    "fantasy",
+    "fiction",
+    "horror",
+    "philosophy",
+    "science fiction",
+    "science fiction (dystopia)",
+    "short stories",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "1572_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 18176,
+    "score": 4.39
+  },
+  "pages": 1141,
+  "title": "The Ones Who Walk Away from Omelas",
+  "url": "https://www.goodreads.com/book/show/92625.The_Ones_Who_Walk_Away_from_Omelas",
+  "year_published": 1973
 }

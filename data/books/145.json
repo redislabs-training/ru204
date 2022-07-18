@@ -1,42 +1,42 @@
 {
-    "author": "Jodi Taylor",
-    "id": "145",
-    "description": "Everyone deserves to get away for a bit. Even the miscreants at St Mary's. Astonishingly, Dr Bairstow has declared a holiday. Even more astonishingly - he's paying for it. Needless to say, there are strings attached. They have to record the 1601 performance of Hamlet, with Shakespeare himself in the role of the Ghost. It doesn't go well, of course.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 11,
-        "audiobook": 19,
-        "fantasy": 50,
-        "fiction": 35,
-        "historical": 12,
-        "historical (historical fiction)": 38,
-        "humor": 13,
-        "science fiction": 39,
-        "science fiction (time travel)": 86,
-        "short stories": 26
+  "author": "Jodi Taylor",
+  "id": "145",
+  "description": "Everyone deserves to get away for a bit. Even the miscreants at St Mary's. Astonishingly, Dr Bairstow has declared a holiday. Even more astonishingly - he's paying for it. Needless to say, there are strings attached. They have to record the 1601 performance of Hamlet, with Shakespeare himself in the role of the Ghost. It doesn't go well, of course.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "humor",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "145_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "145_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "145_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "145_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2604,
-        "score": 4.44
+    {
+      "status": "on_loan",
+      "stock_id": "145_2"
     },
-    "pages": 542,
-    "title": "The Great St Mary's Day Out",
-    "url": "https://www.goodreads.com/book/show/29982939-the-great-st-mary-s-day-out",
-    "year_published": 2016
+    {
+      "status": "available",
+      "stock_id": "145_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2604,
+    "score": 4.44
+  },
+  "pages": 542,
+  "title": "The Great St Mary's Day Out",
+  "url": "https://www.goodreads.com/book/show/29982939-the-great-st-mary-s-day-out",
+  "year_published": 2016
 }

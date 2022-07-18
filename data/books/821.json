@@ -1,66 +1,66 @@
 {
-    "author": "Joe Haldeman",
-    "id": "821",
-    "description": "Joe Haldeman \"has quietly become one of the most important science fiction writers of our time\" (Rocky Mountain News). Now he delivers a provocative novel of a man who stumbles upon the discovery of a lifetime-or many lifetimes.  Grad-school dropout Matt Fuller is toiling as a lowly research assistant at MIT when, while measuring subtle quantum forces that relate to time changes in gravity and electromagnetic force, his calibrator turns into a time machine. With a dead-end job and a girlfriend who has left him for another man, Matt has nothing to lose taking a time machine trip himself-or so he thinks.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 12,
-        "audiobook": 19,
-        "fantasy": 18,
-        "fiction": 146,
-        "novels": 7,
-        "science fiction": 457,
-        "science fiction (time travel)": 308,
-        "science fiction fantasy": 26,
-        "speculative fiction": 13,
-        "travel": 6
+  "author": "Joe Haldeman",
+  "id": "821",
+  "description": "Joe Haldeman \"has quietly become one of the most important science fiction writers of our time\" (Rocky Mountain News). Now he delivers a provocative novel of a man who stumbles upon the discovery of a lifetime-or many lifetimes.  Grad-school dropout Matt Fuller is toiling as a lowly research assistant at MIT when, while measuring subtle quantum forces that relate to time changes in gravity and electromagnetic force, his calibrator turns into a time machine. With a dead-end job and a girlfriend who has left him for another man, Matt has nothing to lose taking a time machine trip himself-or so he thinks.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "travel"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "821_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "821_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "821_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "821_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "821_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "821_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "821_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "821_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "821_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "821_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 8494,
-        "score": 3.71
+    {
+      "status": "on_loan",
+      "stock_id": "821_2"
     },
-    "pages": 334,
-    "title": "The Accidental Time Machine",
-    "url": "https://www.goodreads.com/book/show/21608.The_Accidental_Time_Machine",
-    "year_published": 2007
+    {
+      "status": "on_loan",
+      "stock_id": "821_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "821_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "821_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "821_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "821_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "821_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "821_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 8494,
+    "score": 3.71
+  },
+  "pages": 334,
+  "title": "The Accidental Time Machine",
+  "url": "https://www.goodreads.com/book/show/21608.The_Accidental_Time_Machine",
+  "year_published": 2007
 }

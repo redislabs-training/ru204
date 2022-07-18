@@ -1,40 +1,40 @@
 {
-    "author": "Alex Alice",
-    "id": "255",
-    "description": "\u201cThis one is Jules Verne meets Miyazaki. It\u2019s the space race in 1869 in a kind of alternate past. \u2026 When you see the book itself, it\u2019s this big, oversized object with this incredible watercolor comics style, and it\u2019s this really big, epic, sweeping story of a boy following in his mother\u2019s discovery and then opening up the solar system, but in the age of the 1800s. It\u2019s got a kind of steampunk but also a kind of young, classic children\u2019s story feel to it.\u201d",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 25,
-        "childrens (middle grade)": 28,
-        "fantasy": 48,
-        "fiction": 16,
-        "historical (historical fiction)": 18,
-        "science fiction": 37,
-        "science fiction (steampunk)": 62,
-        "sequential art (bande dessin\u00e9e)": 43,
-        "sequential art (comics)": 77,
-        "sequential art (graphic novels)": 119
+  "author": "Alex Alice",
+  "id": "255",
+  "description": "“This one is Jules Verne meets Miyazaki. It’s the space race in 1869 in a kind of alternate past. … When you see the book itself, it’s this big, oversized object with this incredible watercolor comics style, and it’s this really big, epic, sweeping story of a boy following in his mother’s discovery and then opening up the solar system, but in the age of the 1800s. It’s got a kind of steampunk but also a kind of young, classic children’s story feel to it.”",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (steampunk)",
+    "sequential art (bande dessinée)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "255_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "255_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "255_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1398,
-        "score": 4.14
-    },
-    "pages": 814,
-    "title": "Castle in the Stars: The Space Race of 1869",
-    "url": "https://www.goodreads.com/book/show/33290524-castle-in-the-stars",
-    "year_published": 2014
+    {
+      "status": "available",
+      "stock_id": "255_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1398,
+    "score": 4.14
+  },
+  "pages": 814,
+  "title": "Castle in the Stars: The Space Race of 1869",
+  "url": "https://www.goodreads.com/book/show/33290524-castle-in-the-stars",
+  "year_published": 2014
 }

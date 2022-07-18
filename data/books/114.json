@@ -1,50 +1,50 @@
 {
-    "author": "Jeff Noon",
-    "id": "114",
-    "description": "Thrown by Zenith O'Clock, the writer of wrongs, from the Victorian age into 1998 Manchester, Alice encounters mutant hybrids, sinister gameplay, chaos theory, a robo-Alice, quantum physics, computermites, jigsaw killers, tickling vurt feathers, puzzle poems and an invisible cat called Quark. This edition is newly revised for ebook publication.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 3,
-        "fantasy": 71,
-        "fiction": 54,
-        "literature": 4,
-        "novels": 7,
-        "science fiction": 54,
-        "science fiction (cyberpunk)": 29,
-        "science fiction (steampunk)": 9,
-        "science fiction fantasy": 12,
-        "speculative fiction": 6
+  "author": "Jeff Noon",
+  "id": "114",
+  "description": "Thrown by Zenith O'Clock, the writer of wrongs, from the Victorian age into 1998 Manchester, Alice encounters mutant hybrids, sinister gameplay, chaos theory, a robo-Alice, quantum physics, computermites, jigsaw killers, tickling vurt feathers, puzzle poems and an invisible cat called Quark. This edition is newly revised for ebook publication.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "fantasy",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (steampunk)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "114_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "114_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "114_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "114_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "114_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "114_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2359,
-        "score": 3.62
+    {
+      "status": "maintenance",
+      "stock_id": "114_2"
     },
-    "pages": 746,
-    "title": "Automated Alice",
-    "url": "https://www.goodreads.com/book/show/17369279-automated-alice",
-    "year_published": 1996
+    {
+      "status": "maintenance",
+      "stock_id": "114_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "114_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "114_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2359,
+    "score": 3.62
+  },
+  "pages": 746,
+  "title": "Automated Alice",
+  "url": "https://www.goodreads.com/book/show/17369279-automated-alice",
+  "year_published": 1996
 }

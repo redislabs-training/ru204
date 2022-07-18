@@ -1,35 +1,35 @@
 {
-    "author": "Brian Daley",
-    "id": "23",
-    "description": "A long time ago in a galaxy far far away, there came a time of revolution when Rebels united to challenge a tyrannical Empire. Experience the epic scope and power of the classic movie, Return of the Jedi, in this six-episode radio production. (3 hours)",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "audiobook": 12,
-        "fantasy": 4,
-        "fiction": 3,
-        "media tie in": 2,
-        "media tie in (star wars)": 49,
-        "novels": 2,
-        "science fiction": 16,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 2,
-        "space": 2
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "23_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 228,
-        "score": 3.89
-    },
-    "pages": 680,
-    "title": "Return of the Jedi: The Original Radio Drama",
-    "url": "https://www.goodreads.com/book/show/3359269-return-of-the-jedi",
-    "year_published": 1996
+  "author": "Brian Daley",
+  "id": "23",
+  "description": "A long time ago in a galaxy far far away, there came a time of revolution when Rebels united to challenge a tyrannical Empire. Experience the epic scope and power of the classic movie, Return of the Jedi, in this six-episode radio production. (3 hours)",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "media tie in",
+    "media tie in (star wars)",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "space"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "23_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 228,
+    "score": 3.89
+  },
+  "pages": 680,
+  "title": "Return of the Jedi: The Original Radio Drama",
+  "url": "https://www.goodreads.com/book/show/3359269-return-of-the-jedi",
+  "year_published": 1996
 }

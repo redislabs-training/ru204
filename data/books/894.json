@@ -1,39 +1,39 @@
 {
-    "author": "Marcus Sedgwick",
-    "id": "894",
-    "description": "A bold, genre-bending epic that chronicles madness, obsession, and creation, from the Paleolithic era through the Witch Hunts and into the space-bound future.Four linked stories boldly chronicle madness, obsession, and creation through the ages. Beginning with the cave-drawings of a young girl on the brink of creating the earliest form of writing, Sedgwick traverses history, plunging into the seventeenth century witch hunts and a 1920s insane asylum where a mad poet's obsession with spirals seems to be about to unhinge the world of the doctor trying to save him. Sedgwick moves beyond the boundaries of historical fiction and into the future in the book's final section, set upon a spaceship voyaging to settle another world for the first time. Merging Sedgwick's gift for suspense with science- and historical-fiction, Ghosts of Heaven is a tale is worthy of intense obsession.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "contemporary": 15,
-        "fantasy": 155,
-        "fiction": 84,
-        "historical": 74,
-        "historical (historical fiction)": 190,
-        "science fiction": 140,
-        "science fiction (time travel)": 23,
-        "short stories": 54,
-        "young adult": 272,
-        "young adult (teen)": 30
+  "author": "Marcus Sedgwick",
+  "id": "894",
+  "description": "A bold, genre-bending epic that chronicles madness, obsession, and creation, from the Paleolithic era through the Witch Hunts and into the space-bound future.Four linked stories boldly chronicle madness, obsession, and creation through the ages. Beginning with the cave-drawings of a young girl on the brink of creating the earliest form of writing, Sedgwick traverses history, plunging into the seventeenth century witch hunts and a 1920s insane asylum where a mad poet's obsession with spirals seems to be about to unhinge the world of the doctor trying to save him. Sedgwick moves beyond the boundaries of historical fiction and into the future in the book's final section, set upon a spaceship voyaging to settle another world for the first time. Merging Sedgwick's gift for suspense with science- and historical-fiction, Ghosts of Heaven is a tale is worthy of intense obsession.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "short stories",
+    "young adult",
+    "young adult (teen)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "894_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "894_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "894_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3393,
-        "score": 3.7
-    },
-    "pages": 1047,
-    "title": "The Ghosts of Heaven",
-    "url": "https://www.goodreads.com/book/show/21469108-the-ghosts-of-heaven",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "894_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3393,
+    "score": 3.7
+  },
+  "pages": 1047,
+  "title": "The Ghosts of Heaven",
+  "url": "https://www.goodreads.com/book/show/21469108-the-ghosts-of-heaven",
+  "year_published": 2015
 }

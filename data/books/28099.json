@@ -1,68 +1,68 @@
 {
-    "author": "Rick Riordan",
-    "id": "28099",
-    "description": "The heroic son of Poseidon makes an action-packed comeback in the second must-read installment of Rick Riordan's amazing young readers series. Starring Percy Jackson, a \"half blood\" whose mother is human and whose father is the God of the Sea, Riordan's series combines cliffhanger adventure and Greek mythology lessons that results in true page-turners that get better with each installment.In this episode, The Sea of Monsters, Percy sets out to retrieve the Golden Fleece before his summer camp is destroyed, surpassing the first book's drama and setting the stage for more thrills to come.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 1815,
-        "childrens": 1007,
-        "childrens (middle grade)": 2519,
-        "fantasy": 15252,
-        "fantasy (magic)": 555,
-        "fantasy (mythology)": 4678,
-        "fantasy (urban fantasy)": 791,
-        "fiction": 2743,
-        "mythology (greek mythology)": 806,
-        "young adult": 6252
+  "author": "Rick Riordan",
+  "id": "28099",
+  "description": "The heroic son of Poseidon makes an action-packed comeback in the second must-read installment of Rick Riordan's amazing young readers series. Starring Percy Jackson, a \"half blood\" whose mother is human and whose father is the God of the Sea, Riordan's series combines cliffhanger adventure and Greek mythology lessons that results in true page-turners that get better with each installment.In this episode, The Sea of Monsters, Percy sets out to retrieve the Golden Fleece before his summer camp is destroyed, surpassing the first book's drama and setting the stage for more thrills to come.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mythology (greek mythology)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "28099_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "28099_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "28099_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28099_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "28099_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "28099_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "28099_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "28099_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28099_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "28099_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 782685,
-        "score": 4.24
+    {
+      "status": "available",
+      "stock_id": "28099_2"
     },
-    "pages": 849,
-    "title": "The Sea of Monsters",
-    "url": "https://www.goodreads.com/book/show/28186.The_Sea_of_Monsters",
-    "year_published": 2006
+    {
+      "status": "maintenance",
+      "stock_id": "28099_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "28099_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "28099_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "28099_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "28099_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28099_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "28099_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 782685,
+    "score": 4.24
+  },
+  "pages": 849,
+  "title": "The Sea of Monsters",
+  "url": "https://www.goodreads.com/book/show/28186.The_Sea_of_Monsters",
+  "year_published": 2006
 }

@@ -1,52 +1,52 @@
 {
-    "author": "Alexander C. Irvine",
-    "id": "110",
-    "description": "\u00a0For twenty-five years the colossal battle between Megatron and Optimus Prime has captivated Transformers fans around the world. Yet the full story of the conflict between the two most famous Transformers\u2014everything that happened before Optimus and Megatron arrived on planet Earth\u2014has always been a mystery . . . until now. Here, for the first time told in its entirety, is the thrilling saga of Optimus and Megatron before they were enemies, before they even knew each other. \u201cFreedom is every Cybertronian\u2019s right!\u201d After Megatron utters these immortal words, the caste-bound planet of Cybertron is rocked to its foundations. Megatron, an undefeated gladiator thug, gives voice to the unspoken longings of the oppressed masses\u2014and opens the mind of an insignificant data clerk to possibilities previously unthinkable.Long before becoming the honorable Optimus Prime, Orion Pax is a mere office underling, an unlikely candidate to answer an outlaw\u2019s call to revolution. But Orion is determined to meet this defiant enemy of all that Cybertron stands for, no matter what he has to do, or how many laws he has to break.What happens between Orion Pax and Megatron forever changes the destiny of all Transformers. This gripping, action-packed novel reveals all the loyalties and treacheries, trust and betrayals, deadly violence and shining ideals, as well as the pivotal roles played by other characters, including Starscream, Sentinel Prime, Omega Supreme, and one of the thirteen original Primes, the last link to Cybertron\u2019s glorious Golden Age.Discover how meek disciple Orion Pax becomes the fearless leader Optimus Prime; follow the tantalizing clues about the lost Matrix of Leadership and the lore surrounding it; find out why the two allies fighting a corrupt regime suddenly turn on each other, and what triggers their epic war. Transformers: Exodus provides everything fans ever wanted to know about one of the fiercest rivalries of all time.\u00a0",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 2,
-        "comics (comic book)": 2,
-        "fantasy": 3,
-        "fiction": 15,
-        "novels": 3,
-        "science fiction": 36,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 3,
-        "sequential art (comics)": 4,
-        "war": 2
+  "author": "Alexander C. Irvine",
+  "id": "110",
+  "description": " For twenty-five years the colossal battle between Megatron and Optimus Prime has captivated Transformers fans around the world. Yet the full story of the conflict between the two most famous Transformers—everything that happened before Optimus and Megatron arrived on planet Earth—has always been a mystery . . . until now. Here, for the first time told in its entirety, is the thrilling saga of Optimus and Megatron before they were enemies, before they even knew each other. “Freedom is every Cybertronian’s right!” After Megatron utters these immortal words, the caste-bound planet of Cybertron is rocked to its foundations. Megatron, an undefeated gladiator thug, gives voice to the unspoken longings of the oppressed masses—and opens the mind of an insignificant data clerk to possibilities previously unthinkable.Long before becoming the honorable Optimus Prime, Orion Pax is a mere office underling, an unlikely candidate to answer an outlaw’s call to revolution. But Orion is determined to meet this defiant enemy of all that Cybertron stands for, no matter what he has to do, or how many laws he has to break.What happens between Orion Pax and Megatron forever changes the destiny of all Transformers. This gripping, action-packed novel reveals all the loyalties and treacheries, trust and betrayals, deadly violence and shining ideals, as well as the pivotal roles played by other characters, including Starscream, Sentinel Prime, Omega Supreme, and one of the thirteen original Primes, the last link to Cybertron’s glorious Golden Age.Discover how meek disciple Orion Pax becomes the fearless leader Optimus Prime; follow the tantalizing clues about the lost Matrix of Leadership and the lore surrounding it; find out why the two allies fighting a corrupt regime suddenly turn on each other, and what triggers their epic war. Transformers: Exodus provides everything fans ever wanted to know about one of the fiercest rivalries of all time. ",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "sequential art (comics)",
+    "war"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "110_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "110_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "110_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "110_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "110_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "110_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1061,
-        "score": 4.08
+    {
+      "status": "maintenance",
+      "stock_id": "110_2"
     },
-    "pages": 742,
-    "title": "Transformers: Exodus: The Official History of the War for Cybertron (Transformers",
-    "url": "https://www.goodreads.com/book/show/7833898-transformers",
-    "year_published": 2010
+    {
+      "status": "available",
+      "stock_id": "110_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "110_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "110_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1061,
+    "score": 4.08
+  },
+  "pages": 742,
+  "title": "Transformers: Exodus: The Official History of the War for Cybertron (Transformers",
+  "url": "https://www.goodreads.com/book/show/7833898-transformers",
+  "year_published": 2010
 }

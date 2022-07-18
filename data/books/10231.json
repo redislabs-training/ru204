@@ -1,59 +1,59 @@
 {
-    "author": "Mitch Albom",
-    "id": "10231",
-    "description": "In this fable, the first man on earth to count the hours becomes Father Time. The inventor of the world's first clock is punished for trying to measure God's greatest gift. He is banished to a cave for centuries and forced to listen to the voices of all who come after him seeking more days, more years. Eventually, with his soul nearly broken, Father Time is granted his freedom, along with a magical hourglass and a mission: a chance to redeem himself by teaching two earthly people the true meaning of time.He returns to our world - now dominated by the hour-counting he so innocently began - and commences a journey with two unlikely partners: one a teenage girl who is about to give up on life, the other a wealthy old businessman who wants to live forever. To save himself, he must save them both. And stop the world to do so.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 120,
-        "adult fiction": 117,
-        "audiobook": 71,
-        "contemporary": 127,
-        "fantasy": 582,
-        "fiction": 1251,
-        "inspirational": 225,
-        "novels": 87,
-        "science fiction": 76,
-        "science fiction (time travel)": 110
+  "author": "Mitch Albom",
+  "id": "10231",
+  "description": "In this fable, the first man on earth to count the hours becomes Father Time. The inventor of the world's first clock is punished for trying to measure God's greatest gift. He is banished to a cave for centuries and forced to listen to the voices of all who come after him seeking more days, more years. Eventually, with his soul nearly broken, Father Time is granted his freedom, along with a magical hourglass and a mission: a chance to redeem himself by teaching two earthly people the true meaning of time.He returns to our world - now dominated by the hour-counting he so innocently began - and commences a journey with two unlikely partners: one a teenage girl who is about to give up on life, the other a wealthy old businessman who wants to live forever. To save himself, he must save them both. And stop the world to do so.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adult fiction",
+    "audiobook",
+    "contemporary",
+    "fantasy",
+    "fiction",
+    "inspirational",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10231_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10231_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "10231_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "10231_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10231_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "10231_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10231_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "10231_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 98837,
-        "score": 3.87
+    {
+      "status": "available",
+      "stock_id": "10231_2"
     },
-    "pages": 359,
-    "title": "The Time Keeper",
-    "url": "https://www.goodreads.com/book/show/13624688-the-time-keeper",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "10231_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10231_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "10231_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "10231_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "10231_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 98837,
+    "score": 3.87
+  },
+  "pages": 359,
+  "title": "The Time Keeper",
+  "url": "https://www.goodreads.com/book/show/13624688-the-time-keeper",
+  "year_published": 2012
 }

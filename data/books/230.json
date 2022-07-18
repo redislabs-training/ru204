@@ -1,68 +1,68 @@
 {
-    "author": "Michael Marshall Smith",
-    "id": "230",
-    "description": "Spares - human clones, the ultimate health insurance. An eye for an eye, but some people are doing all the taking.Spares - the story of Jack Randall: burnt-out, dropped out, and with a zero credit rating at the luck bank. After five years lying low on a Spares farm, looking after inmates that can't even spell luck, he is finally faced with a chance at redemption....if he, and the spares, can run fast enough.Spares - a breathless race through strange, disturbing territories in a world all too close to our own.Spares - it's fiction. But only just...",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fantasy": 15,
-        "fiction": 72,
-        "horror": 22,
-        "mystery": 6,
-        "science fiction": 141,
-        "science fiction (cyberpunk)": 22,
-        "science fiction (dystopia)": 19,
-        "science fiction fantasy": 9,
-        "speculative fiction": 7,
-        "thriller": 14
+  "author": "Michael Marshall Smith",
+  "id": "230",
+  "description": "Spares - human clones, the ultimate health insurance. An eye for an eye, but some people are doing all the taking.Spares - the story of Jack Randall: burnt-out, dropped out, and with a zero credit rating at the luck bank. After five years lying low on a Spares farm, looking after inmates that can't even spell luck, he is finally faced with a chance at redemption....if he, and the spares, can run fast enough.Spares - a breathless race through strange, disturbing territories in a world all too close to our own.Spares - it's fiction. But only just...",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "230_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "230_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "230_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "230_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "230_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "230_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "230_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "230_7"
-        },
-        {
-            "status": "available",
-            "stock_id": "230_8"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "230_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3229,
-        "score": 4.13
+    {
+      "status": "available",
+      "stock_id": "230_2"
     },
-    "pages": 1222,
-    "title": "Spares",
-    "url": "https://www.goodreads.com/book/show/21010.Spares",
-    "year_published": 1996
+    {
+      "status": "available",
+      "stock_id": "230_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "230_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "230_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "230_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "230_7"
+    },
+    {
+      "status": "available",
+      "stock_id": "230_8"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "230_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3229,
+    "score": 4.13
+  },
+  "pages": 1222,
+  "title": "Spares",
+  "url": "https://www.goodreads.com/book/show/21010.Spares",
+  "year_published": 1996
 }

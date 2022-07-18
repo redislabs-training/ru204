@@ -1,40 +1,40 @@
 {
-    "author": "Alix E. Harrow",
-    "id": "10353",
-    "description": "In a sprawling mansion filled with peculiar treasures, January Scaller is a curiosity herself. As the ward of the wealthy Mr. Locke, she feels little different from the artifacts that decorate the halls: carefully maintained, largely ignored, and utterly out of place.Then she finds a strange book. A book that carries the scent of other worlds, and tells a tale of secret doors, of love, adventure and danger. Each page turn reveals impossible truths about the world and January discovers a story increasingly entwined with her own.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult": 161,
-        "adventure": 181,
-        "audiobook": 293,
-        "fantasy": 4347,
-        "fiction": 1231,
-        "historical": 351,
-        "historical (historical fiction)": 1134,
-        "magical realism": 302,
-        "writing (books about books)": 187,
-        "young adult": 643
+  "author": "Alix E. Harrow",
+  "id": "10353",
+  "description": "In a sprawling mansion filled with peculiar treasures, January Scaller is a curiosity herself. As the ward of the wealthy Mr. Locke, she feels little different from the artifacts that decorate the halls: carefully maintained, largely ignored, and utterly out of place.Then she finds a strange book. A book that carries the scent of other worlds, and tells a tale of secret doors, of love, adventure and danger. Each page turn reveals impossible truths about the world and January discovers a story increasingly entwined with her own.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "magical realism",
+    "writing (books about books)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "10353_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "10353_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "10353_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 56362,
-        "score": 4.08
-    },
-    "pages": 918,
-    "title": "The Ten Thousand Doors of January",
-    "url": "https://www.goodreads.com/book/show/43521657-the-ten-thousand-doors-of-january",
-    "year_published": 2019
+    {
+      "status": "on_loan",
+      "stock_id": "10353_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 56362,
+    "score": 4.08
+  },
+  "pages": 918,
+  "title": "The Ten Thousand Doors of January",
+  "url": "https://www.goodreads.com/book/show/43521657-the-ten-thousand-doors-of-january",
+  "year_published": 2019
 }

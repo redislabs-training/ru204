@@ -1,54 +1,54 @@
 {
-    "author": "Brian K. Vaughan",
-    "id": "617",
-    "description": "The fourth collection of the acclaimed Vertigo series, Y: THE LAST MAN: SAFEWORD reprints issues #18-23 of writer Brian K. Vaughan's and artist Pia Guerra's dynamic series. As the Last Man on Earth and his companions continue to head West, the story takes a detour into the psychological.In the care of a fellow Culper Ring member, Yorick Brown is forced to confront his tremendous feelings of survivor guilt that lead him to constantly put his life in danger. Once on the road again, the group runs up against a literal roadblock in Arizona, where the female remains of the Sons of Arizona militia have cut the interstate to keep out any vestiges of the U.S. government.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 38,
-        "apocalyptic (post apocalyptic)": 119,
-        "comics (comic book)": 109,
-        "fantasy": 41,
-        "fiction": 225,
-        "graphic novels comics": 168,
-        "science fiction": 258,
-        "science fiction (dystopia)": 109,
-        "sequential art (comics)": 1380,
-        "sequential art (graphic novels)": 1571
+  "author": "Brian K. Vaughan",
+  "id": "617",
+  "description": "The fourth collection of the acclaimed Vertigo series, Y: THE LAST MAN: SAFEWORD reprints issues #18-23 of writer Brian K. Vaughan's and artist Pia Guerra's dynamic series. As the Last Man on Earth and his companions continue to head West, the story takes a detour into the psychological.In the care of a fellow Culper Ring member, Yorick Brown is forced to confront his tremendous feelings of survivor guilt that lead him to constantly put his life in danger. Once on the road again, the group runs up against a literal roadblock in Arizona, where the female remains of the Sons of Arizona militia have cut the interstate to keep out any vestiges of the U.S. government.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "comics (comic book)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "617_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "617_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "617_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "617_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "617_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "617_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "617_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 26315,
-        "score": 4.25
+    {
+      "status": "available",
+      "stock_id": "617_2"
     },
-    "pages": 307,
-    "title": "Y: The Last Man, Vol. 4: Safeword",
-    "url": "https://www.goodreads.com/book/show/184040.Y",
-    "year_published": 2004
+    {
+      "status": "maintenance",
+      "stock_id": "617_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "617_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "617_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "617_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 26315,
+    "score": 4.25
+  },
+  "pages": 307,
+  "title": "Y: The Last Man, Vol. 4: Safeword",
+  "url": "https://www.goodreads.com/book/show/184040.Y",
+  "year_published": 2004
 }

@@ -1,62 +1,62 @@
 {
-    "author": "Brian Herbert",
-    "id": "298",
-    "description": "Alternate cover edition located here.The breathtaking vision and incomparable storytelling of Brian Herbert and Kevin Anderson's Dune: The Butlerian Jihad, a prequel to Frank Herbert's classic Dune, propelled it to the ranks of speculative fiction's classics in its own right. Now, with all the color, scope, and fascination of the prior novel, comes Dune: The Machine Crusade.. More than two decades have passed since the events chronicled in The Butlerian Jihad. The crusade against thinking robots has ground on for years, but the forces led by Serena Butler and Irbis Ginjo have made only slight gains; the human worlds grow weary of war, of the bloody, inconclusive swing from victory to defeat.The fearsome cymeks, led by Agamemnon, hatch new plots to regain their lost power from Omnius--as their numbers dwindle and time begins to run out. The fighters of Ginaz, led by Jool Noret, forge themselves into an elite warrior class, a weapon against the machine-dominated worlds. Aurelius Venport and Norma Cenva are on the verge of the most important discovery in human history-a way to \"fold\" space and travel instantaneously to any place in the galaxy.And on the faraway, nearly worthless planet of Arrakis, Selim Wormrider and his band of outlaws take the first steps to making themselves the feared fighters who will change the course of history: the Fremen.Here is the unrivaled imaginative power that has put Brian Herbert and Kevin Anderson on bestseller lists everywhere and earned them the high regard of readers around the globe. The fantastic saga of Dune continues in Dune: The Machine Crusade.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 10,
-        "audiobook": 14,
-        "fantasy": 68,
-        "fiction": 128,
-        "novels": 11,
-        "science fiction": 516,
-        "science fiction fantasy": 46,
-        "space": 12,
-        "space (space opera)": 22,
-        "speculative fiction": 8
+  "author": "Brian Herbert",
+  "id": "298",
+  "description": "Alternate cover edition located here.The breathtaking vision and incomparable storytelling of Brian Herbert and Kevin Anderson's Dune: The Butlerian Jihad, a prequel to Frank Herbert's classic Dune, propelled it to the ranks of speculative fiction's classics in its own right. Now, with all the color, scope, and fascination of the prior novel, comes Dune: The Machine Crusade.. More than two decades have passed since the events chronicled in The Butlerian Jihad. The crusade against thinking robots has ground on for years, but the forces led by Serena Butler and Irbis Ginjo have made only slight gains; the human worlds grow weary of war, of the bloody, inconclusive swing from victory to defeat.The fearsome cymeks, led by Agamemnon, hatch new plots to regain their lost power from Omnius--as their numbers dwindle and time begins to run out. The fighters of Ginaz, led by Jool Noret, forge themselves into an elite warrior class, a weapon against the machine-dominated worlds. Aurelius Venport and Norma Cenva are on the verge of the most important discovery in human history-a way to \"fold\" space and travel instantaneously to any place in the galaxy.And on the faraway, nearly worthless planet of Arrakis, Selim Wormrider and his band of outlaws take the first steps to making themselves the feared fighters who will change the course of history: the Fremen.Here is the unrivaled imaginative power that has put Brian Herbert and Kevin Anderson on bestseller lists everywhere and earned them the high regard of readers around the globe. The fantastic saga of Dune continues in Dune: The Machine Crusade.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "298_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "298_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "298_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "298_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "298_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "298_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "298_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "298_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "298_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13211,
-        "score": 3.76
+    {
+      "status": "on_loan",
+      "stock_id": "298_2"
     },
-    "pages": 906,
-    "title": "The Machine Crusade",
-    "url": "https://www.goodreads.com/book/show/99218.The_Machine_Crusade",
-    "year_published": 2003
+    {
+      "status": "available",
+      "stock_id": "298_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "298_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "298_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "298_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "298_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "298_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13211,
+    "score": 3.76
+  },
+  "pages": 906,
+  "title": "The Machine Crusade",
+  "url": "https://www.goodreads.com/book/show/99218.The_Machine_Crusade",
+  "year_published": 2003
 }

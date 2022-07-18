@@ -1,39 +1,39 @@
 {
-    "author": "Alan Dean Foster",
-    "id": "36",
-    "description": "The official novel of the blockbuster film!OUR WORLD. THEIR WAR.They once lived on a distant planet, which was destroyed by the ravages of war-a war waged between the legions who worship chaos and those who follow freedom. In search of a powerful energy source that is essential to the survival of their race, they have now come to Earth. They are among us, silent, undetected, waiting to reveal themselves, for good or evil.The Decepticons will stop at nothing to seize the coveted prize, even if it means the destruction of countless human lives. The only things standing in their way: the Autobots and a handful of determined men and women who realize that when it comes to this advanced race of machines, there is much more than meets the eye. With forces mounting for the ultimate showdown, the future of humankind hangs in the balance.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "action": 2,
-        "comics (superheroes)": 2,
-        "fiction": 9,
-        "media tie in": 4,
-        "novels": 3,
-        "science fiction": 19,
-        "science fiction (robots)": 2,
-        "science fiction fantasy": 3,
-        "sequential art (comics)": 2,
-        "war (military fiction)": 2
+  "author": "Alan Dean Foster",
+  "id": "36",
+  "description": "The official novel of the blockbuster film!OUR WORLD. THEIR WAR.They once lived on a distant planet, which was destroyed by the ravages of war-a war waged between the legions who worship chaos and those who follow freedom. In search of a powerful energy source that is essential to the survival of their race, they have now come to Earth. They are among us, silent, undetected, waiting to reveal themselves, for good or evil.The Decepticons will stop at nothing to seize the coveted prize, even if it means the destruction of countless human lives. The only things standing in their way: the Autobots and a handful of determined men and women who realize that when it comes to this advanced race of machines, there is much more than meets the eye. With forces mounting for the ultimate showdown, the future of humankind hangs in the balance.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "action",
+    "comics (superheroes)",
+    "fiction",
+    "media tie in",
+    "novels",
+    "science fiction",
+    "science fiction (robots)",
+    "science fiction fantasy",
+    "sequential art (comics)",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "36_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "36_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "36_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 1197,
-        "score": 4.06
-    },
-    "pages": 256,
-    "title": "Transformers",
-    "url": "https://www.goodreads.com/book/show/35117.Transformers",
-    "year_published": 2007
+    {
+      "status": "maintenance",
+      "stock_id": "36_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 1197,
+    "score": 4.06
+  },
+  "pages": 256,
+  "title": "Transformers",
+  "url": "https://www.goodreads.com/book/show/35117.Transformers",
+  "year_published": 2007
 }

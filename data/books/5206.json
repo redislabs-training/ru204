@@ -1,43 +1,43 @@
 {
-    "author": "Lauren Beukes",
-    "id": "5206",
-    "description": "In Depression-era Chicago, Harper Curtis finds a key to a house that opens on to other times. But it comes at a cost. He has to kill the shining girls: bright young women, burning with potential. Curtis stalks them through their lives across different eras until, in 1989, one of his victims, Kirby Mazrachi, survives and starts hunting him back.Working with a former homicide reporter who is falling for her, Kirby races against time and reason to unravel an impossible mystery.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 317,
-        "fiction": 827,
-        "horror": 586,
-        "mystery": 702,
-        "mystery (crime)": 331,
-        "science fiction": 396,
-        "science fiction (time travel)": 519,
-        "suspense": 104,
-        "thriller": 598,
-        "thriller (mystery thriller)": 162
+  "author": "Lauren Beukes",
+  "id": "5206",
+  "description": "In Depression-era Chicago, Harper Curtis finds a key to a house that opens on to other times. But it comes at a cost. He has to kill the shining girls: bright young women, burning with potential. Curtis stalks them through their lives across different eras until, in 1989, one of his victims, Kirby Mazrachi, survives and starts hunting him back.Working with a former homicide reporter who is falling for her, Kirby races against time and reason to unravel an impossible mystery.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "horror",
+    "mystery",
+    "mystery (crime)",
+    "science fiction",
+    "science fiction (time travel)",
+    "suspense",
+    "thriller",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "5206_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "5206_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "5206_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "5206_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 43753,
-        "score": 3.56
+    {
+      "status": "on_loan",
+      "stock_id": "5206_2"
     },
-    "pages": 1265,
-    "title": "The Shining Girls",
-    "url": "https://www.goodreads.com/book/show/16131077-the-shining-girls",
-    "year_published": 2013
+    {
+      "status": "available",
+      "stock_id": "5206_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 43753,
+    "score": 3.56
+  },
+  "pages": 1265,
+  "title": "The Shining Girls",
+  "url": "https://www.goodreads.com/book/show/16131077-the-shining-girls",
+  "year_published": 2013
 }

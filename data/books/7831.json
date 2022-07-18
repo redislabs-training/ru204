@@ -1,68 +1,68 @@
 {
-    "author": "Garth Nix",
-    "id": "7831",
-    "description": "Sent to a boarding school in Ancelstierre as a young child, Sabriel has had little experience with the random power of Free Magic or the Dead who refuse to stay dead in the Old Kingdom. But during her final semester, her father, the Abhorsen, goes missing, and Sabriel knows she must enter the Old Kingdom to find him. With Sabriel, the first installment in the Abhorsen series, Garth Nix exploded onto the fantasy scene as a rising star, in a novel that takes readers to a world where the line between the living and the dead isn't always clear\u2014and sometimes disappears altogether.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 467,
-        "audiobook": 265,
-        "fantasy": 10697,
-        "fantasy (high fantasy)": 440,
-        "fantasy (magic)": 633,
-        "fiction": 1377,
-        "science fiction fantasy": 296,
-        "young adult": 3574,
-        "young adult (teen)": 234,
-        "young adult (young adult fantasy)": 444
+  "author": "Garth Nix",
+  "id": "7831",
+  "description": "Sent to a boarding school in Ancelstierre as a young child, Sabriel has had little experience with the random power of Free Magic or the Dead who refuse to stay dead in the Old Kingdom. But during her final semester, her father, the Abhorsen, goes missing, and Sabriel knows she must enter the Old Kingdom to find him. With Sabriel, the first installment in the Abhorsen series, Garth Nix exploded onto the fantasy scene as a rising star, in a novel that takes readers to a world where the line between the living and the dead isn't always clear—and sometimes disappears altogether.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "7831_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "7831_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7831_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7831_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7831_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7831_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7831_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "7831_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "7831_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "7831_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 192113,
-        "score": 4.14
+    {
+      "status": "maintenance",
+      "stock_id": "7831_2"
     },
-    "pages": 604,
-    "title": "Sabriel",
-    "url": "https://www.goodreads.com/book/show/518848.Sabriel",
-    "year_published": 1995
+    {
+      "status": "on_loan",
+      "stock_id": "7831_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7831_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7831_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7831_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "7831_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "7831_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "7831_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 192113,
+    "score": 4.14
+  },
+  "pages": 604,
+  "title": "Sabriel",
+  "url": "https://www.goodreads.com/book/show/518848.Sabriel",
+  "year_published": 1995
 }

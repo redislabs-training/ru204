@@ -1,40 +1,40 @@
 {
-    "author": "Robert A. Heinlein",
-    "id": "407",
-    "description": "Hugh Farnham was a practical, self-made man, and when he saw the clouds of nuclear war gathering, he built a bomb shelter under his house, hoping for peace and preparing for war. What he hadn't expected was that when the apocalypse came, a thermonuclear blast would tear apart the fabric of time and hurl his shelter across two thousand years into a future both strange and appallingly familiar. In the new world order, Farnham and his family, being members of the race that had nearly destroyed the world, were fit only to be slaves. After surviving a global nuclear war, Farnham had no intention of being anybody's slave, but the tyrannical power of the Chosen Race reached throughout the world. Even if he managed to escape, where could he run to?",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 18,
-        "apocalyptic (post apocalyptic)": 42,
-        "fantasy": 18,
-        "fiction": 131,
-        "science fiction": 579,
-        "science fiction (apocalyptic)": 12,
-        "science fiction (dystopia)": 23,
-        "science fiction (time travel)": 23,
-        "science fiction fantasy": 33,
-        "speculative fiction": 12
+  "author": "Robert A. Heinlein",
+  "id": "407",
+  "description": "Hugh Farnham was a practical, self-made man, and when he saw the clouds of nuclear war gathering, he built a bomb shelter under his house, hoping for peace and preparing for war. What he hadn't expected was that when the apocalypse came, a thermonuclear blast would tear apart the fabric of time and hurl his shelter across two thousand years into a future both strange and appallingly familiar. In the new world order, Farnham and his family, being members of the race that had nearly destroyed the world, were fit only to be slaves. After surviving a global nuclear war, Farnham had no intention of being anybody's slave, but the tyrannical power of the Chosen Race reached throughout the world. Even if he managed to escape, where could he run to?",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (apocalyptic)",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "407_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "407_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "407_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 11337,
-        "score": 3.56
-    },
-    "pages": 1302,
-    "title": "Farnham's Freehold",
-    "url": "https://www.goodreads.com/book/show/50840.Farnham_s_Freehold",
-    "year_published": 1964
+    {
+      "status": "maintenance",
+      "stock_id": "407_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 11337,
+    "score": 3.56
+  },
+  "pages": 1302,
+  "title": "Farnham's Freehold",
+  "url": "https://www.goodreads.com/book/show/50840.Farnham_s_Freehold",
+  "year_published": 1964
 }

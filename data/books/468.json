@@ -1,66 +1,66 @@
 {
-    "author": "Carrie Vaughn",
-    "id": "468",
-    "description": "A mysterious murder in a dystopian future leads a novice investigator to question what she\u2019s learned about the foundation of her population-controlled society. Decades after economic and environmental collapse destroys much of civilization in the United States, the Coast Road region isn\u2019t just surviving but thriving by some accounts, building something new on the ruins of what came before. A culture of population control has developed in which people, organized into households, must earn the children they bear by proving they can take care of them and are awarded symbolic banners to demonstrate this privilege. In the meantime, birth control is mandatory.Enid of Haven is an Investigator, called on to mediate disputes and examine transgressions against the community. She\u2019s young for the job and hasn't yet handled a serious case. Now, though, a suspicious death requires her attention. The victim was an outcast, but might someone have taken dislike a step further and murdered him?In a world defined by the disasters that happened a century before, the past is always present. But this investigation may reveal the cracks in Enid\u2019s world and make her question what she really stands for.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 20,
-        "apocalyptic (post apocalyptic)": 56,
-        "fantasy": 18,
-        "fiction": 78,
-        "mystery": 126,
-        "science fiction": 143,
-        "science fiction (dystopia)": 73,
-        "science fiction fantasy": 19,
-        "speculative fiction": 15,
-        "thriller (mystery thriller)": 12
+  "author": "Carrie Vaughn",
+  "id": "468",
+  "description": "A mysterious murder in a dystopian future leads a novice investigator to question what she’s learned about the foundation of her population-controlled society. Decades after economic and environmental collapse destroys much of civilization in the United States, the Coast Road region isn’t just surviving but thriving by some accounts, building something new on the ruins of what came before. A culture of population control has developed in which people, organized into households, must earn the children they bear by proving they can take care of them and are awarded symbolic banners to demonstrate this privilege. In the meantime, birth control is mandatory.Enid of Haven is an Investigator, called on to mediate disputes and examine transgressions against the community. She’s young for the job and hasn't yet handled a serious case. Now, though, a suspicious death requires her attention. The victim was an outcast, but might someone have taken dislike a step further and murdered him?In a world defined by the disasters that happened a century before, the past is always present. But this investigation may reveal the cracks in Enid’s world and make her question what she really stands for.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "apocalyptic (post apocalyptic)",
+    "fantasy",
+    "fiction",
+    "mystery",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction",
+    "thriller (mystery thriller)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "468_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "468_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "468_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "468_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "468_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "468_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "468_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "468_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "468_8"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "468_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2236,
-        "score": 3.7
+    {
+      "status": "available",
+      "stock_id": "468_2"
     },
-    "pages": 872,
-    "title": "Bannerless",
-    "url": "https://www.goodreads.com/book/show/30971629-bannerless",
-    "year_published": 2017
+    {
+      "status": "on_loan",
+      "stock_id": "468_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "468_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "468_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "468_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "468_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "468_8"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "468_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2236,
+    "score": 3.7
+  },
+  "pages": 872,
+  "title": "Bannerless",
+  "url": "https://www.goodreads.com/book/show/30971629-bannerless",
+  "year_published": 2017
 }

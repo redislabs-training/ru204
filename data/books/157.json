@@ -1,40 +1,40 @@
 {
-    "author": "Rysa Walker",
-    "id": "157",
-    "description": "The only things on Prudence Pierce's mind are seducing her violin instructor and, with the help of her sister Deborah, avoiding the wrath of their mother for stepping out of the house dressed like Madonna. Her mother might also be a teensy bit angry about the medallion Pru swiped from the attic--a medallion that glows lime green and has an oddly hypnotic, holographic effect when Pru holds it in her hand.A simple blink is all it takes to yank Pru from the car with her dad into a world of hurt. She awakens in 2305 to find herself pinned under what's left of CHRONOS headquarters, thanks to a recent terrorist attack. Their prime suspect? Her mother, Katherine Shaw. And everyone wants to know how Pru got her hands on a CHRONOS key.Pru is convinced that the key is the answer to all her problems. She'll use it to stop her mother, fix her relationship with Deb, and even restore CHRONOS, so that her new friend Tate can return to the job he loves.She can't do it alone, however. Fortunately, she finds Saul Rand, and he's more than willing to help.This digital novella follows Prudence's story from her fateful first journey with the CHRONOS key to the point where her story intersects with Kiernan Dunne in the first novella, Time's Echo. It also helps sets the stage for Time's Divide, the third and final book in The CHRONOS Files, coming from Skyscape in October.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 8,
-        "fantasy": 16,
-        "fiction": 22,
-        "historical (historical fiction)": 5,
-        "novella": 5,
-        "science fiction": 31,
-        "science fiction (dystopia)": 5,
-        "science fiction (time travel)": 74,
-        "short stories": 5,
-        "young adult": 42
+  "author": "Rysa Walker",
+  "id": "157",
+  "description": "The only things on Prudence Pierce's mind are seducing her violin instructor and, with the help of her sister Deborah, avoiding the wrath of their mother for stepping out of the house dressed like Madonna. Her mother might also be a teensy bit angry about the medallion Pru swiped from the attic--a medallion that glows lime green and has an oddly hypnotic, holographic effect when Pru holds it in her hand.A simple blink is all it takes to yank Pru from the car with her dad into a world of hurt. She awakens in 2305 to find herself pinned under what's left of CHRONOS headquarters, thanks to a recent terrorist attack. Their prime suspect? Her mother, Katherine Shaw. And everyone wants to know how Pru got her hands on a CHRONOS key.Pru is convinced that the key is the answer to all her problems. She'll use it to stop her mother, fix her relationship with Deb, and even restore CHRONOS, so that her new friend Tate can return to the job he loves.She can't do it alone, however. Fortunately, she finds Saul Rand, and he's more than willing to help.This digital novella follows Prudence's story from her fateful first journey with the CHRONOS key to the point where her story intersects with Kiernan Dunne in the first novella, Time's Echo. It also helps sets the stage for Time's Divide, the third and final book in The CHRONOS Files, coming from Skyscape in October.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "novella",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "short stories",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "157_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "157_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "157_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 2456,
-        "score": 4.03
-    },
-    "pages": 454,
-    "title": "Time's Mirror",
-    "url": "https://www.goodreads.com/book/show/25810884-time-s-mirror",
-    "year_published": 2015
+    {
+      "status": "maintenance",
+      "stock_id": "157_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 2456,
+    "score": 4.03
+  },
+  "pages": 454,
+  "title": "Time's Mirror",
+  "url": "https://www.goodreads.com/book/show/25810884-time-s-mirror",
+  "year_published": 2015
 }

@@ -1,40 +1,40 @@
 {
-    "author": "Diana Wynne Jones",
-    "id": "1267",
-    "description": "Cat doesn't mind living in the shadow of his sister, Gwendolen, the most promising young witch ever seen on Coven Street. But trouble starts brewing the moment the two orphans are summoned to live in Chrestomanci Castle. Frustrated that the witches of the castle refuse to acknowledge her talents, Gwendolen conjures up a scheme that could throw whole worlds out of whack.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 60,
-        "childrens": 269,
-        "childrens (middle grade)": 204,
-        "fantasy": 2196,
-        "fantasy (magic)": 201,
-        "fiction": 293,
-        "paranormal (witches)": 46,
-        "science fiction fantasy": 53,
-        "young adult": 477,
-        "young adult (young adult fantasy)": 61
+  "author": "Diana Wynne Jones",
+  "id": "1267",
+  "description": "Cat doesn't mind living in the shadow of his sister, Gwendolen, the most promising young witch ever seen on Coven Street. But trouble starts brewing the moment the two orphans are summoned to live in Chrestomanci Castle. Frustrated that the witches of the castle refuse to acknowledge her talents, Gwendolen conjures up a scheme that could throw whole worlds out of whack.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "paranormal (witches)",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1267_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1267_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1267_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 31055,
-        "score": 3.95
-    },
-    "pages": 1019,
-    "title": "Charmed Life",
-    "url": "https://www.goodreads.com/book/show/244572.Charmed_Life",
-    "year_published": 1977
+    {
+      "status": "on_loan",
+      "stock_id": "1267_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 31055,
+    "score": 3.95
+  },
+  "pages": 1019,
+  "title": "Charmed Life",
+  "url": "https://www.goodreads.com/book/show/244572.Charmed_Life",
+  "year_published": 1977
 }

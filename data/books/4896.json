@@ -1,62 +1,62 @@
 {
-    "author": "Terry Pratchett",
-    "id": "4896",
-    "description": "From the back jacket:NORMALLY, WHEN THERE WAS NOTHING TO DO, HE LISTENED TO THE SILENCE.The Silence was very faint here. Almost drowned out by the sounds of the mundane world. Did people in this polished building understand how noisy it was? The roar of air conditioners and computer fans, the susurration of many voices heard but not decipherable.... This was the office of the transEarth Institute, an arm of the Black Corporation. The faceless office, all plasterboard and chrome, was dominated by a huge logo, a chesspiece knight. This wasn't Joshua's world. None of it was his world. In fact, when you got right down to it, he didn't have a world; he had all of them.ALL OF THE LONG EARTH.From the inside jacket:The possibilites are endless. Just be careful what you wish for....)1916: The Western Front. Private Percy Blakeney wakes up. He is lying on fresh spring grass. He can hear birdsong, and the wind in the leaves. Where has the mud, blood and blasted landscape of no-man's-land gone? For that matter, where has Percy gone?2015: Madison, Wisconsin. Police officer Monica Jansson is exploring the burned-out home of a reclusive--some said mad, others allege dangerous--scientist who seems to have vanished. Sifting through the wreckage, Jansson finds a curious gadget: a box containing some rudimentary wiring, a three-way switch, and...a potato. It is the prototype of an invention that will change the way humankind views the world forever.The first novel in an exciting new collaboration between Discworld creator Terry Pratchett and the acclaimed SF writer Stephen Baxter, The Long Earth transports readers to the ends of the earth and far beyond. All it takes is a single step....",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 42,
-        "adventure": 82,
-        "audiobook": 97,
-        "fantasy": 840,
-        "fiction": 743,
-        "humor": 49,
-        "novels": 36,
-        "science fiction": 1692,
-        "science fiction fantasy": 115,
-        "speculative fiction": 75
+  "author": "Terry Pratchett",
+  "id": "4896",
+  "description": "From the back jacket:NORMALLY, WHEN THERE WAS NOTHING TO DO, HE LISTENED TO THE SILENCE.The Silence was very faint here. Almost drowned out by the sounds of the mundane world. Did people in this polished building understand how noisy it was? The roar of air conditioners and computer fans, the susurration of many voices heard but not decipherable.... This was the office of the transEarth Institute, an arm of the Black Corporation. The faceless office, all plasterboard and chrome, was dominated by a huge logo, a chesspiece knight. This wasn't Joshua's world. None of it was his world. In fact, when you got right down to it, he didn't have a world; he had all of them.ALL OF THE LONG EARTH.From the inside jacket:The possibilites are endless. Just be careful what you wish for....)1916: The Western Front. Private Percy Blakeney wakes up. He is lying on fresh spring grass. He can hear birdsong, and the wind in the leaves. Where has the mud, blood and blasted landscape of no-man's-land gone? For that matter, where has Percy gone?2015: Madison, Wisconsin. Police officer Monica Jansson is exploring the burned-out home of a reclusive--some said mad, others allege dangerous--scientist who seems to have vanished. Sifting through the wreckage, Jansson finds a curious gadget: a box containing some rudimentary wiring, a three-way switch, and...a potato. It is the prototype of an invention that will change the way humankind views the world forever.The first novel in an exciting new collaboration between Discworld creator Terry Pratchett and the acclaimed SF writer Stephen Baxter, The Long Earth transports readers to the ends of the earth and far beyond. All it takes is a single step....",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "humor",
+    "novels",
+    "science fiction",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "4896_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "4896_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "4896_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "4896_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "4896_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4896_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "4896_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "4896_7"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "4896_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 52114,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "4896_2"
     },
-    "pages": 1007,
-    "title": "The Long Earth",
-    "url": "https://www.goodreads.com/book/show/13147230-the-long-earth",
-    "year_published": 2012
+    {
+      "status": "available",
+      "stock_id": "4896_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "4896_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4896_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "4896_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "4896_7"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "4896_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 52114,
+    "score": 3.77
+  },
+  "pages": 1007,
+  "title": "The Long Earth",
+  "url": "https://www.goodreads.com/book/show/13147230-the-long-earth",
+  "year_published": 2012
 }

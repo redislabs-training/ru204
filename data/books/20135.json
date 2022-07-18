@@ -1,39 +1,39 @@
 {
-    "author": "Rick Riordan",
-    "id": "20135",
-    "description": "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse.In this fourth installment of the blockbuster series, time is running out as war between the Olympians and the evil Titan lord Kronos draws near. Even the safe haven of Camp Half-Blood grows more vulnerable by the minute as Kronos's army prepares to invade its once impenetrable borders. To stop the invasion, Percy and his demigod friends must set out on a quest through the Labyrinth - a sprawling underground world with stunning surprises at every turn.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 1575,
-        "childrens": 826,
-        "childrens (middle grade)": 2160,
-        "fantasy": 13194,
-        "fantasy (magic)": 473,
-        "fantasy (mythology)": 4274,
-        "fantasy (urban fantasy)": 720,
-        "fiction": 2347,
-        "mythology (greek mythology)": 748,
-        "young adult": 5474
+  "author": "Rick Riordan",
+  "id": "20135",
+  "description": "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse.In this fourth installment of the blockbuster series, time is running out as war between the Olympians and the evil Titan lord Kronos draws near. Even the safe haven of Camp Half-Blood grows more vulnerable by the minute as Kronos's army prepares to invade its once impenetrable borders. To stop the invasion, Percy and his demigod friends must set out on a quest through the Labyrinth - a sprawling underground world with stunning surprises at every turn.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fantasy (mythology)",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "mythology (greek mythology)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "20135_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "20135_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "20135_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 771511,
-        "score": 4.39
-    },
-    "pages": 1159,
-    "title": "The Battle of the Labyrinth",
-    "url": "https://www.goodreads.com/book/show/2120932.The_Battle_of_the_Labyrinth",
-    "year_published": 2008
+    {
+      "status": "maintenance",
+      "stock_id": "20135_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 771511,
+    "score": 4.39
+  },
+  "pages": 1159,
+  "title": "The Battle of the Labyrinth",
+  "url": "https://www.goodreads.com/book/show/2120932.The_Battle_of_the_Labyrinth",
+  "year_published": 2008
 }

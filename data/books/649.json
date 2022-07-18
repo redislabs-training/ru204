@@ -1,35 +1,35 @@
 {
-    "author": "Edward Bellamy",
-    "id": "649",
-    "description": "Edward Bellamy's classic look at the future has been translated into over twenty languages and is the most widely read novel of its time. A young Boston gentleman is mysteriously transported from the nineteenth to the twenty-first century -- from a world of war and want to one of peace and plenty. This brilliant vision became the blueprint of utopia that stimulated some of the greatest thinkers of our age.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 165,
-        "fiction": 353,
-        "literature": 55,
-        "philosophy": 34,
-        "politics": 54,
-        "science fiction": 203,
-        "science fiction (dystopia)": 31,
-        "science fiction (time travel)": 35,
-        "science fiction (utopia)": 52,
-        "speculative fiction": 27
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "649_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5136,
-        "score": 3.28
-    },
-    "pages": 602,
-    "title": "Looking Backward: 2000-1887",
-    "url": "https://www.goodreads.com/book/show/296977.Looking_Backward",
-    "year_published": 1888
+  "author": "Edward Bellamy",
+  "id": "649",
+  "description": "Edward Bellamy's classic look at the future has been translated into over twenty languages and is the most widely read novel of its time. A young Boston gentleman is mysteriously transported from the nineteenth to the twenty-first century -- from a world of war and want to one of peace and plenty. This brilliant vision became the blueprint of utopia that stimulated some of the greatest thinkers of our age.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fiction",
+    "literature",
+    "philosophy",
+    "politics",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction (utopia)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "649_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5136,
+    "score": 3.28
+  },
+  "pages": 602,
+  "title": "Looking Backward: 2000-1887",
+  "url": "https://www.goodreads.com/book/show/296977.Looking_Backward",
+  "year_published": 1888
 }

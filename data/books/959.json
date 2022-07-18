@@ -1,47 +1,47 @@
 {
-    "author": "Kazu Kibuishi",
-    "id": "959",
-    "description": "A worthy mission...or a trap?Navin and his classmates journey to Lucien, a city ravaged by war and plagued by mysterious creatures, where they search for a beacon essential to their fight against the Elf King. Meanwhile, Emily heads back into the Void with Max, one of the Elf King's loyal followers, where she learns his darkest secrets. The stakes, for both Emily and Navin, are higher than ever.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 83,
-        "childrens": 67,
-        "childrens (middle grade)": 164,
-        "fantasy": 409,
-        "fiction": 62,
-        "graphic novels comics": 47,
-        "science fiction": 32,
-        "sequential art (comics)": 195,
-        "sequential art (graphic novels)": 646,
-        "young adult": 57
+  "author": "Kazu Kibuishi",
+  "id": "959",
+  "description": "A worthy mission...or a trap?Navin and his classmates journey to Lucien, a city ravaged by war and plagued by mysterious creatures, where they search for a beacon essential to their fight against the Elf King. Meanwhile, Emily heads back into the Void with Max, one of the Elf King's loyal followers, where she learns his darkest secrets. The stakes, for both Emily and Navin, are higher than ever.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "graphic novels comics",
+    "science fiction",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "959_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "959_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "959_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "959_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "959_4"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13193,
-        "score": 4.37
+    {
+      "status": "maintenance",
+      "stock_id": "959_2"
     },
-    "pages": 892,
-    "title": "Escape from Lucien",
-    "url": "https://www.goodreads.com/book/show/20578979-escape-from-lucien",
-    "year_published": 2014
+    {
+      "status": "on_loan",
+      "stock_id": "959_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "959_4"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13193,
+    "score": 4.37
+  },
+  "pages": 892,
+  "title": "Escape from Lucien",
+  "url": "https://www.goodreads.com/book/show/20578979-escape-from-lucien",
+  "year_published": 2014
 }

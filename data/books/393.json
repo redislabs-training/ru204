@@ -1,52 +1,52 @@
 {
-    "author": "Sheri S. Tepper",
-    "id": "393",
-    "description": "With the publication of The Gate to Women's Country, Sheri S. Tepper came to be recognized as a major science fiction writer. Now the author of Raising the Stones and Grass -- a New York Times Notable Book and Hugo Award finalist -- turns to Beauty, a fantasy with a story that is more, much more than fable.Drawing on the wellspring of much-loved, well-remembered fairy tales, Tepper delivers a thought-provoking and finely crafted novel that thoroughly involves the reader in the life of one of the most captivating heroines in modern fantasy -- Beauty. On her sixteenth birthday Beauty is seemingly able to sidestep her aunt's curse. Instead she is transported to the future. Here begin her adventures as she travels magically back and forth in time to visit places both imaginary and real. Finally she comes to understand what has been her special gift to humanity all along.For in Beauty, there is beauty. And in beauty, magic. Without our enchanted places, humanity is no more than an upstart ape. And this, we realize, is why Beauty must be saved, both in the fantastical world of Tepper's novel and in the actual world in which we live",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "fairy tales (fairy tale retellings)": 13,
-        "fantasy": 502,
-        "fantasy (fairy tales)": 68,
-        "feminism": 20,
-        "fiction": 91,
-        "retellings": 22,
-        "science fiction": 115,
-        "science fiction (dystopia)": 16,
-        "science fiction (time travel)": 34,
-        "science fiction fantasy": 44
+  "author": "Sheri S. Tepper",
+  "id": "393",
+  "description": "With the publication of The Gate to Women's Country, Sheri S. Tepper came to be recognized as a major science fiction writer. Now the author of Raising the Stones and Grass -- a New York Times Notable Book and Hugo Award finalist -- turns to Beauty, a fantasy with a story that is more, much more than fable.Drawing on the wellspring of much-loved, well-remembered fairy tales, Tepper delivers a thought-provoking and finely crafted novel that thoroughly involves the reader in the life of one of the most captivating heroines in modern fantasy -- Beauty. On her sixteenth birthday Beauty is seemingly able to sidestep her aunt's curse. Instead she is transported to the future. Here begin her adventures as she travels magically back and forth in time to visit places both imaginary and real. Finally she comes to understand what has been her special gift to humanity all along.For in Beauty, there is beauty. And in beauty, magic. Without our enchanted places, humanity is no more than an upstart ape. And this, we realize, is why Beauty must be saved, both in the fantastical world of Tepper's novel and in the actual world in which we live",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "fairy tales (fairy tale retellings)",
+    "fantasy",
+    "fantasy (fairy tales)",
+    "feminism",
+    "fiction",
+    "retellings",
+    "science fiction",
+    "science fiction (dystopia)",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "393_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "393_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "393_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "393_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "393_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "393_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 5456,
-        "score": 3.83
+    {
+      "status": "maintenance",
+      "stock_id": "393_2"
     },
-    "pages": 1108,
-    "title": "Beauty",
-    "url": "https://www.goodreads.com/book/show/387339.Beauty",
-    "year_published": 1991
+    {
+      "status": "available",
+      "stock_id": "393_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "393_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "393_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 5456,
+    "score": 3.83
+  },
+  "pages": 1108,
+  "title": "Beauty",
+  "url": "https://www.goodreads.com/book/show/387339.Beauty",
+  "year_published": 1991
 }

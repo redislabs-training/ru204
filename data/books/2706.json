@@ -1,36 +1,36 @@
 {
-    "author": "Libba Bray",
-    "id": "2706",
-    "description": "New York City.1927.Lights are bright.Jazz is king.Parties are wild.And the dead are coming...After battling a supernatural sleeping sickness that claimed two of their own, the Diviners have had enough lies. They're more determined than ever to uncover the mystery behind their extraordinary powers, even as they face off against an all-new terror. Out on Ward's Island, far from the city's bustle, sits a mental hospital haunted by the lost souls of people long forgotten--ghosts who have unusual and dangerous ties to the man in the stovepipe hat, also known as the King of Crows.With terrible accounts of murder and possession flooding in from all over and New York City on the verge of panic, the Diviners must band together and brave the sinister ghosts invading the asylum, a fight that will bring them face-to-face with the King of Crows. But as the explosive secrets of the past come to light, loyalties and friendships will be tested, love will hang in the balance, and the Diviners will question all that they've ever known. All the while, malevolent forces gather from every corner in a battle for the very soul of a nation--a fight that could claim the Diviners themselves.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "audiobook": 227,
-        "fantasy": 832,
-        "fantasy (paranormal)": 389,
-        "fantasy (supernatural)": 109,
-        "fiction": 142,
-        "historical": 233,
-        "historical (historical fiction)": 655,
-        "horror": 199,
-        "mystery": 160,
-        "young adult": 677
-    },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "2706_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 13952,
-        "score": 4.28
-    },
-    "pages": 790,
-    "title": "Before the Devil Breaks You",
-    "url": "https://www.goodreads.com/book/show/25985241-before-the-devil-breaks-you",
-    "year_published": 2017
+  "author": "Libba Bray",
+  "id": "2706",
+  "description": "New York City.1927.Lights are bright.Jazz is king.Parties are wild.And the dead are coming...After battling a supernatural sleeping sickness that claimed two of their own, the Diviners have had enough lies. They're more determined than ever to uncover the mystery behind their extraordinary powers, even as they face off against an all-new terror. Out on Ward's Island, far from the city's bustle, sits a mental hospital haunted by the lost souls of people long forgotten--ghosts who have unusual and dangerous ties to the man in the stovepipe hat, also known as the King of Crows.With terrible accounts of murder and possession flooding in from all over and New York City on the verge of panic, the Diviners must band together and brave the sinister ghosts invading the asylum, a fight that will bring them face-to-face with the King of Crows. But as the explosive secrets of the past come to light, loyalties and friendships will be tested, love will hang in the balance, and the Diviners will question all that they've ever known. All the while, malevolent forces gather from every corner in a battle for the very soul of a nation--a fight that could claim the Diviners themselves.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "audiobook",
+    "fantasy",
+    "fantasy (paranormal)",
+    "fantasy (supernatural)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "horror",
+    "mystery",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "2706_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 13952,
+    "score": 4.28
+  },
+  "pages": 790,
+  "title": "Before the Devil Breaks You",
+  "url": "https://www.goodreads.com/book/show/25985241-before-the-devil-breaks-you",
+  "year_published": 2017
 }

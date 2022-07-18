@@ -1,44 +1,44 @@
 {
-    "author": "Tamora Pierce",
-    "id": "890",
-    "description": "Fourteen-year-old Keladry of Mindelan is not your average squire. For one thing, she's a girl. For another, she's almost six feet tall. And most important of all, her ability to pass the Ordeal that soon confronts her may determine her kingdom's future. When Kel is chosen by the legendary Lord Raoul to be his squire, the conservatives of the realm hardly think she\u2019s up to the job. Kel earns respect and admiration among the men, as well as the affection of a fellow squire.\u201cThis feminist fantasy is a delightful read.\u201d\u2014KLIATT",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 211,
-        "childrens": 128,
-        "childrens (middle grade)": 122,
-        "fantasy": 2994,
-        "fantasy (high fantasy)": 108,
-        "fantasy (magic)": 175,
-        "fiction": 310,
-        "young adult": 1320,
-        "young adult (teen)": 100,
-        "young adult (young adult fantasy)": 198
+  "author": "Tamora Pierce",
+  "id": "890",
+  "description": "Fourteen-year-old Keladry of Mindelan is not your average squire. For one thing, she's a girl. For another, she's almost six feet tall. And most important of all, her ability to pass the Ordeal that soon confronts her may determine her kingdom's future. When Kel is chosen by the legendary Lord Raoul to be his squire, the conservatives of the realm hardly think she’s up to the job. Kel earns respect and admiration among the men, as well as the affection of a fellow squire.“This feminist fantasy is a delightful read.”—KLIATT",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (high fantasy)",
+    "fantasy (magic)",
+    "fiction",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "890_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "890_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "890_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "890_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 52186,
-        "score": 4.24
+    {
+      "status": "available",
+      "stock_id": "890_2"
     },
-    "pages": 1288,
-    "title": "Squire",
-    "url": "https://www.goodreads.com/book/show/153795.Squire",
-    "year_published": 2001
+    {
+      "status": "on_loan",
+      "stock_id": "890_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 52186,
+    "score": 4.24
+  },
+  "pages": 1288,
+  "title": "Squire",
+  "url": "https://www.goodreads.com/book/show/153795.Squire",
+  "year_published": 2001
 }

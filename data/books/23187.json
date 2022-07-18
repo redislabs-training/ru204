@@ -1,35 +1,35 @@
 {
-    "author": "Neil Gaiman",
-    "id": "23187",
-    "description": "Under the streets of London there's a place most people could never even dream of. A city of monsters and saints, murderers and angels, knights in armour and pale girls in black velvet. This is the city of the people who have fallen between the cracks.Richard Mayhew, a young businessman, is going to find out more than enough about this other London. A single act of kindness catapults him out of his workday existence and into a world that is at once eerily familiar and utterly bizarre. And a strange destiny awaits him down here, beneath his native city: Neverwhere.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 482,
-        "adventure": 593,
-        "audiobook": 814,
-        "fantasy": 17532,
-        "fantasy (urban fantasy)": 2626,
-        "fiction": 5121,
-        "horror": 522,
-        "science fiction": 625,
-        "science fiction fantasy": 787,
-        "young adult": 474
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "23187_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 441920,
-        "score": 4.16
-    },
-    "pages": 1227,
-    "title": "Neverwhere",
-    "url": "https://www.goodreads.com/book/show/14497.Neverwhere",
-    "year_published": 1996
+  "author": "Neil Gaiman",
+  "id": "23187",
+  "description": "Under the streets of London there's a place most people could never even dream of. A city of monsters and saints, murderers and angels, knights in armour and pale girls in black velvet. This is the city of the people who have fallen between the cracks.Richard Mayhew, a young businessman, is going to find out more than enough about this other London. A single act of kindness catapults him out of his workday existence and into a world that is at once eerily familiar and utterly bizarre. And a strange destiny awaits him down here, beneath his native city: Neverwhere.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "adventure",
+    "audiobook",
+    "fantasy",
+    "fantasy (urban fantasy)",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "23187_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 441920,
+    "score": 4.16
+  },
+  "pages": 1227,
+  "title": "Neverwhere",
+  "url": "https://www.goodreads.com/book/show/14497.Neverwhere",
+  "year_published": 1996
 }

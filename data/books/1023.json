@@ -1,51 +1,51 @@
 {
-    "author": "Brandon Sanderson",
-    "id": "1023",
-    "description": "From the author of Legion and the #1 New York Times bestselling Stormlight Archive comes an action-filled novella about privilege, culture clash, and expectations.God-Emperor Kairominas is lord of all he surveys. He has defeated all foes, has united the entire world beneath his rule, and has mastered the arcane arts. He spends his time sparring with his nemesis, who keeps trying to invade Kai's world.Except for today. Today, Kai has to go on a date.Forces have conspired to require him to meet with his equal\u2014a woman from another world who has achieved just as much as he has. What happens when the most important man in the world is forced to have dinner with the most important woman in the world?",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adult": 16,
-        "audiobook": 21,
-        "fantasy": 688,
-        "fiction": 120,
-        "novella": 108,
-        "science fiction": 324,
-        "science fiction (cyberpunk)": 20,
-        "science fiction (dystopia)": 20,
-        "science fiction fantasy": 19,
-        "short stories": 109
+  "author": "Brandon Sanderson",
+  "id": "1023",
+  "description": "From the author of Legion and the #1 New York Times bestselling Stormlight Archive comes an action-filled novella about privilege, culture clash, and expectations.God-Emperor Kairominas is lord of all he surveys. He has defeated all foes, has united the entire world beneath his rule, and has mastered the arcane arts. He spends his time sparring with his nemesis, who keeps trying to invade Kai's world.Except for today. Today, Kai has to go on a date.Forces have conspired to require him to meet with his equal—a woman from another world who has achieved just as much as he has. What happens when the most important man in the world is forced to have dinner with the most important woman in the world?",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "fantasy",
+    "fiction",
+    "novella",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "short stories"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "1023_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "1023_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1023_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1023_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "1023_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1023_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12238,
-        "score": 4.06
+    {
+      "status": "on_loan",
+      "stock_id": "1023_2"
     },
-    "pages": 1399,
-    "title": "Perfect State",
-    "url": "https://www.goodreads.com/book/show/25188109-perfect-state",
-    "year_published": 2015
+    {
+      "status": "on_loan",
+      "stock_id": "1023_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "1023_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1023_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12238,
+    "score": 4.06
+  },
+  "pages": 1399,
+  "title": "Perfect State",
+  "url": "https://www.goodreads.com/book/show/25188109-perfect-state",
+  "year_published": 2015
 }

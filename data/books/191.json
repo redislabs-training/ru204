@@ -1,58 +1,58 @@
 {
-    "author": "Carrie Ryan",
-    "id": "191",
-    "description": "Scholastic's next multi-platform mega-event begins here!Dak, Sera, and Riq might be in over their heads when they attempt to stop a Viking invasion!Hundreds of ships carrying thousands of warriors are laying siege to medieval Paris. The Parisians are holding their own, but the stalemate can only last so long. And that's bad news -- especially since Dak has been captured, forced to work alongside the Vikings while Sera and Riq defend Paris from within. No matter which side wins, the kids lose!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 37,
-        "audiobook": 14,
-        "childrens (middle grade)": 28,
-        "fantasy": 28,
-        "fiction": 22,
-        "historical": 16,
-        "historical (historical fiction)": 32,
-        "science fiction": 46,
-        "science fiction (time travel)": 33,
-        "young adult": 25
+  "author": "Carrie Ryan",
+  "id": "191",
+  "description": "Scholastic's next multi-platform mega-event begins here!Dak, Sera, and Riq might be in over their heads when they attempt to stop a Viking invasion!Hundreds of ships carrying thousands of warriors are laying siege to medieval Paris. The Parisians are holding their own, but the stalemate can only last so long. And that's bad news -- especially since Dak has been captured, forced to work alongside the Vikings while Sera and Riq defend Paris from within. No matter which side wins, the kids lose!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "191_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "191_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "191_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "191_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "191_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "191_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "191_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "191_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3159,
-        "score": 3.94
+    {
+      "status": "maintenance",
+      "stock_id": "191_2"
     },
-    "pages": 1034,
-    "title": "Divide and Conquer",
-    "url": "https://www.goodreads.com/book/show/13356177-divide-and-conquer",
-    "year_published": 2012
+    {
+      "status": "on_loan",
+      "stock_id": "191_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "191_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "191_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "191_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "191_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3159,
+    "score": 3.94
+  },
+  "pages": 1034,
+  "title": "Divide and Conquer",
+  "url": "https://www.goodreads.com/book/show/13356177-divide-and-conquer",
+  "year_published": 2012
 }

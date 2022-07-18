@@ -1,32 +1,32 @@
 {
-    "author": "Charles Dickinson",
-    "id": "61",
-    "description": "Euclid Heights, Illinois, is a town of many shortcuts, between houses, through orchards, and across fields. Josh Winkler, a local artist and longtime resident, knows these irregular pathways well, but he is flabbergasted when a hasty dash down a familiar walk deposits him fifteen minutes in the past. At first, Josh is more intrigued than alarmed by this accidental time travel. Then a disoriented young woman appears, claiming to be from 1908....As his life, his family, his town, and even history itself begin to unravel, Josh gradually realizes that his only salvation may lie in a shortcut in time.Charles Dickinson has written a moving and unforgettable book about the way the past can affect the present, as well as, sometimes, the other way around.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adult fiction": 2,
-        "fantasy": 10,
-        "fiction": 16,
-        "science fiction": 12,
-        "science fiction (time travel)": 56,
-        "science fiction fantasy": 2
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "61_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 427,
-        "score": 3.44
-    },
-    "pages": 446,
-    "title": "A Shortcut in Time",
-    "url": "https://www.goodreads.com/book/show/281825.A_Shortcut_in_Time",
-    "year_published": 2003
+  "author": "Charles Dickinson",
+  "id": "61",
+  "description": "Euclid Heights, Illinois, is a town of many shortcuts, between houses, through orchards, and across fields. Josh Winkler, a local artist and longtime resident, knows these irregular pathways well, but he is flabbergasted when a hasty dash down a familiar walk deposits him fifteen minutes in the past. At first, Josh is more intrigued than alarmed by this accidental time travel. Then a disoriented young woman appears, claiming to be from 1908....As his life, his family, his town, and even history itself begin to unravel, Josh gradually realizes that his only salvation may lie in a shortcut in time.Charles Dickinson has written a moving and unforgettable book about the way the past can affect the present, as well as, sometimes, the other way around.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adult fiction",
+    "fantasy",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "61_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 427,
+    "score": 3.44
+  },
+  "pages": 446,
+  "title": "A Shortcut in Time",
+  "url": "https://www.goodreads.com/book/show/281825.A_Shortcut_in_Time",
+  "year_published": 2003
 }

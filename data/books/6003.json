@@ -1,51 +1,51 @@
 {
-    "author": "Joe Haldeman",
-    "id": "6003",
-    "description": "The Earth's leaders have drawn a line in the interstellar sand\u2014despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But \"home\" may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 202,
-        "fiction": 1449,
-        "science fiction": 4396,
-        "science fiction (time travel)": 168,
-        "science fiction fantasy": 228,
-        "space": 144,
-        "space (space opera)": 219,
-        "speculative fiction": 103,
-        "war": 456,
-        "war (military fiction)": 245
+  "author": "Joe Haldeman",
+  "id": "6003",
+  "description": "The Earth's leaders have drawn a line in the interstellar sand—despite the fact that the fierce alien enemy that they would oppose is inscrutable, unconquerable, and very far away. A reluctant conscript drafted into an elite Military unit, Private William Mandella has been propelled through space and time to fight in the distant thousand-year conflict; to perform his duties without rancor and even rise up through military ranks. Pvt. Mandella is willing to do whatever it takes to survive the ordeal and return home. But \"home\" may be even more terrifying than battle, because, thanks to the time dilation caused by space travel, Mandella is aging months while the Earth he left behind is aging centuries.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fiction",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy",
+    "space",
+    "space (space opera)",
+    "speculative fiction",
+    "war",
+    "war (military fiction)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "6003_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "6003_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "6003_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6003_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "6003_4"
-        },
-        {
-            "status": "available",
-            "stock_id": "6003_5"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 143487,
-        "score": 4.14
+    {
+      "status": "on_loan",
+      "stock_id": "6003_2"
     },
-    "pages": 643,
-    "title": "The Forever War",
-    "url": "https://www.goodreads.com/book/show/21611.The_Forever_War",
-    "year_published": 1974
+    {
+      "status": "maintenance",
+      "stock_id": "6003_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "6003_4"
+    },
+    {
+      "status": "available",
+      "stock_id": "6003_5"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 143487,
+    "score": 4.14
+  },
+  "pages": 643,
+  "title": "The Forever War",
+  "url": "https://www.goodreads.com/book/show/21611.The_Forever_War",
+  "year_published": 1974
 }

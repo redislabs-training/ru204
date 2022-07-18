@@ -1,43 +1,43 @@
 {
-    "author": "Lloyd Alexander",
-    "id": "510",
-    "description": "Gareth's definitely no ordinary cat. For one thing, he can talk. For another, he's got the power to travel through time. And the instant he tells this to Jason, the two of them are in ancient Egypt, on the first of nine amazing adventures that Jason will never forget.",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 47,
-        "animals": 74,
-        "animals (cats)": 67,
-        "childrens": 99,
-        "childrens (middle grade)": 54,
-        "fantasy": 464,
-        "fiction": 101,
-        "historical (historical fiction)": 102,
-        "science fiction (time travel)": 101,
-        "young adult": 94
+  "author": "Lloyd Alexander",
+  "id": "510",
+  "description": "Gareth's definitely no ordinary cat. For one thing, he can talk. For another, he's got the power to travel through time. And the instant he tells this to Jason, the two of them are in ancient Egypt, on the first of nine amazing adventures that Jason will never forget.",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "animals",
+    "animals (cats)",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction (time travel)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "510_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "510_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "510_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "510_3"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 6426,
-        "score": 3.77
+    {
+      "status": "available",
+      "stock_id": "510_2"
     },
-    "pages": 1265,
-    "title": "Time Cat",
-    "url": "https://www.goodreads.com/book/show/822630.Time_Cat",
-    "year_published": 1963
+    {
+      "status": "on_loan",
+      "stock_id": "510_3"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 6426,
+    "score": 3.77
+  },
+  "pages": 1265,
+  "title": "Time Cat",
+  "url": "https://www.goodreads.com/book/show/822630.Time_Cat",
+  "year_published": 1963
 }

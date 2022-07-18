@@ -1,63 +1,63 @@
 {
-    "author": "Philip K. Dick",
-    "id": "13607",
-    "description": "It was January 2021, and Rick Deckard had a license to kill.Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "classics": 1922,
-        "fantasy": 460,
-        "fiction": 4313,
-        "literature (american)": 249,
-        "novels": 391,
-        "science fiction": 8455,
-        "science fiction (cyberpunk)": 743,
-        "science fiction (dystopia)": 1365,
-        "science fiction fantasy": 664,
-        "speculative fiction": 245
+  "author": "Philip K. Dick",
+  "id": "13607",
+  "description": "It was January 2021, and Rick Deckard had a license to kill.Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "classics",
+    "fantasy",
+    "fiction",
+    "literature (american)",
+    "novels",
+    "science fiction",
+    "science fiction (cyberpunk)",
+    "science fiction (dystopia)",
+    "science fiction fantasy",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "13607_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "13607_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13607_2"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13607_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13607_4"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13607_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "13607_6"
-        },
-        {
-            "status": "available",
-            "stock_id": "13607_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "13607_8"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 359503,
-        "score": 4.08
+    {
+      "status": "on_loan",
+      "stock_id": "13607_2"
     },
-    "pages": 518,
-    "title": "Do Androids Dream of Electric Sheep",
-    "url": "https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep",
-    "year_published": 1968
+    {
+      "status": "on_loan",
+      "stock_id": "13607_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13607_4"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13607_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "13607_6"
+    },
+    {
+      "status": "available",
+      "stock_id": "13607_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "13607_8"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 359503,
+    "score": 4.08
+  },
+  "pages": 518,
+  "title": "Do Androids Dream of Electric Sheep",
+  "url": "https://www.goodreads.com/book/show/36402034-do-androids-dream-of-electric-sheep",
+  "year_published": 1968
 }

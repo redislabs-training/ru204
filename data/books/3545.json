@@ -1,67 +1,67 @@
 {
-    "author": "Douglas Adams",
-    "id": "3545",
-    "description": "What do a dead cat, a computer whiz-kid, an Electric Monk who believes the world is pink, quantum mechanics, a Chronologist over 200 years old, Samuel Taylor Coleridge (poet), and pizza have in common? Apparently not much; until Dirk Gently, self-styled private investigator, sets out to prove the fundamental interconnectedness of all things by solving a mysterious murder, assisting a mysterious professor, unravelling a mysterious mystery, and eating a lot of pizza \u2013 not to mention saving the entire human race from extinction along the way (at no extra charge). To find out more, read this book (better still, buy it, then read it) \u2013 or contact Dirk Gently\u2019s Holistic Detective Agency. \u2018A thumping good detective-ghost-horror-whodunnit-time travel-romantic-musical-comedy epic.\u2019 The author",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "fantasy": 1296,
-        "fiction": 1825,
-        "humor": 1291,
-        "humor (comedy)": 414,
-        "mystery": 836,
-        "mystery (detective)": 150,
-        "novels": 125,
-        "science fiction": 2075,
-        "science fiction (time travel)": 167,
-        "science fiction fantasy": 239
+  "author": "Douglas Adams",
+  "id": "3545",
+  "description": "What do a dead cat, a computer whiz-kid, an Electric Monk who believes the world is pink, quantum mechanics, a Chronologist over 200 years old, Samuel Taylor Coleridge (poet), and pizza have in common? Apparently not much; until Dirk Gently, self-styled private investigator, sets out to prove the fundamental interconnectedness of all things by solving a mysterious murder, assisting a mysterious professor, unravelling a mysterious mystery, and eating a lot of pizza – not to mention saving the entire human race from extinction along the way (at no extra charge). To find out more, read this book (better still, buy it, then read it) – or contact Dirk Gently’s Holistic Detective Agency. ‘A thumping good detective-ghost-horror-whodunnit-time travel-romantic-musical-comedy epic.’ The author",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "fantasy",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "mystery",
+    "mystery (detective)",
+    "novels",
+    "science fiction",
+    "science fiction (time travel)",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "3545_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "3545_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3545_2"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3545_3"
-        },
-        {
-            "status": "available",
-            "stock_id": "3545_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "3545_5"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3545_6"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3545_7"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "3545_8"
-        },
-        {
-            "status": "available",
-            "stock_id": "3545_9"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 125278,
-        "score": 3.97
+    {
+      "status": "maintenance",
+      "stock_id": "3545_2"
     },
-    "pages": 882,
-    "title": "Dirk Gently's Holistic Detective Agency",
-    "url": "https://www.goodreads.com/book/show/365.Dirk_Gently_s_Holistic_Detective_Agency",
-    "year_published": 1987
+    {
+      "status": "maintenance",
+      "stock_id": "3545_3"
+    },
+    {
+      "status": "available",
+      "stock_id": "3545_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3545_5"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3545_6"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3545_7"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "3545_8"
+    },
+    {
+      "status": "available",
+      "stock_id": "3545_9"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 125278,
+    "score": 3.97
+  },
+  "pages": 882,
+  "title": "Dirk Gently's Holistic Detective Agency",
+  "url": "https://www.goodreads.com/book/show/365.Dirk_Gently_s_Holistic_Detective_Agency",
+  "year_published": 1987
 }

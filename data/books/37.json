@@ -1,54 +1,54 @@
 {
-    "author": "Daniel H. Wilson",
-    "id": "37",
-    "description": "It goes without saying that robots kill. They hunt, swarm, and fire lasers from their eyes. They even beat humans at chess. So who better to stand with us when the real villains arrive?  Movies instruct us that, whether we like it or not, we will one day be under siege by pirates, ninjas, zombies, aliens, and Godzilla. Also great white sharks. And-let's face it-we're not prepared. But with the advice contained in this brilliantly illustrated, ingenious book, you can build your own robot army to fend off hordes of bloodthirsty foes. From common-sense injunctions (\"never approach an unfamiliar robot in a militarized zone\") to tactical pointers (\"low-power radar beats cameras for detecting mummies in a fog-shrouded crypt\") to engineering advice (\"passive-dynamic exoskeleton suits will increase sprint speeds but not leg strength\"), this book contains all the wisdom you'll need to fend off the coming apocalypse. Witty, informative, and utterly original, How to Build a Robot Army is the ideal book for readers of any age.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure (survival)": 2,
-        "fiction": 8,
-        "horror (zombies)": 4,
-        "humor": 11,
-        "humor (comedy)": 2,
-        "science fiction": 9,
-        "science fiction (robots)": 2,
-        "self help": 2
+  "author": "Daniel H. Wilson",
+  "id": "37",
+  "description": "It goes without saying that robots kill. They hunt, swarm, and fire lasers from their eyes. They even beat humans at chess. So who better to stand with us when the real villains arrive?  Movies instruct us that, whether we like it or not, we will one day be under siege by pirates, ninjas, zombies, aliens, and Godzilla. Also great white sharks. And-let's face it-we're not prepared. But with the advice contained in this brilliantly illustrated, ingenious book, you can build your own robot army to fend off hordes of bloodthirsty foes. From common-sense injunctions (\"never approach an unfamiliar robot in a militarized zone\") to tactical pointers (\"low-power radar beats cameras for detecting mummies in a fog-shrouded crypt\") to engineering advice (\"passive-dynamic exoskeleton suits will increase sprint speeds but not leg strength\"), this book contains all the wisdom you'll need to fend off the coming apocalypse. Witty, informative, and utterly original, How to Build a Robot Army is the ideal book for readers of any age.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure (survival)",
+    "fiction",
+    "horror (zombies)",
+    "humor",
+    "humor (comedy)",
+    "science fiction",
+    "science fiction (robots)",
+    "self help"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "37_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "37_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "37_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "37_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "37_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "37_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "37_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 276,
-        "score": 3.65
+    {
+      "status": "on_loan",
+      "stock_id": "37_2"
     },
-    "pages": 1103,
-    "title": "How to Build a Robot Army: Tips on Defending Planet Earth Against Alien Invaders, Ninjas, and Zombies",
-    "url": "https://www.goodreads.com/book/show/1748095.How_to_Build_a_Robot_Army",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "37_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "37_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "37_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "37_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 276,
+    "score": 3.65
+  },
+  "pages": 1103,
+  "title": "How to Build a Robot Army: Tips on Defending Planet Earth Against Alien Invaders, Ninjas, and Zombies",
+  "url": "https://www.goodreads.com/book/show/1748095.How_to_Build_a_Robot_Army",
+  "year_published": 2007
 }

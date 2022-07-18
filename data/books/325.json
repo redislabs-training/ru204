@@ -1,34 +1,34 @@
 {
-    "author": "Mary Pope Osborne",
-    "id": "325",
-    "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!The Ice Age is very cool...for two kids in bathing suits! Jack and Annie nearly freeze when the Magic Tree House whisks them back to the time of cave people and woolly mammoths. But nothing can stop them from having another wild adventure--not even a saber-toothed tiger!Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 54,
-        "childrens": 174,
-        "childrens (chapter books)": 68,
-        "childrens (middle grade)": 19,
-        "fantasy": 148,
-        "fantasy (magic)": 20,
-        "fiction": 98,
-        "historical": 21,
-        "historical (historical fiction)": 45,
-        "science fiction (time travel)": 32
-    },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "325_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 10826,
-        "score": 3.89
-    },
-    "pages": 1044,
-    "title": "Sunset of the Sabertooth",
-    "url": "https://www.goodreads.com/book/show/948528.Sunset_of_the_Sabertooth",
-    "year_published": 1996
+  "author": "Mary Pope Osborne",
+  "id": "325",
+  "description": "The #1 bestselling chapter book series of all time celebrates 25 years with new covers and a new, easy-to-use numbering system!The Ice Age is very cool...for two kids in bathing suits! Jack and Annie nearly freeze when the Magic Tree House whisks them back to the time of cave people and woolly mammoths. But nothing can stop them from having another wild adventure--not even a saber-toothed tiger!Did you know that there's a Magic Tree House book for every kid?Magic Tree House: Adventures with Jack and Annie, perfect for readers who are just beginning chapter books Merlin Missions: More challenging adventures for the experienced reader Super Edition: A longer and more dangerous adventure Fact Trackers: Nonfiction companions to your favorite Magic Tree House adventuresHave more fun with Jack and Annie at MagicTreeHouse.com!",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (chapter books)",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "historical",
+    "historical (historical fiction)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "325_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 10826,
+    "score": 3.89
+  },
+  "pages": 1044,
+  "title": "Sunset of the Sabertooth",
+  "url": "https://www.goodreads.com/book/show/948528.Sunset_of_the_Sabertooth",
+  "year_published": 1996
 }

@@ -1,59 +1,59 @@
 {
-    "author": "Garth Nix",
-    "id": "342",
-    "description": "The fifth book in Garth Nix's New York Times bestselling series!Four of the seven Trustees have been defeated and their Keys taken, but for Arthur, the week is still getting worse. Suzy Blue and Fred Gold Numbers have been captured by the Piper, and his New Nithling army still controls most of the Great Maze. Superior Saturday is causing trouble wherever she can, including turning off all the elevators in the House and blocking the Front Door.  Amidst all this trouble, Arthur must weigh an offer from Lady Friday that is either a cunning trap for the Rightful Heir or a golden opportunity he must seize - before he's beaten to it!",
-    "editions": [
-        "english",
-        "spanish"
-    ],
-    "genres": {
-        "adventure": 73,
-        "childrens": 78,
-        "childrens (middle grade)": 55,
-        "fantasy": 892,
-        "fantasy (magic)": 44,
-        "fiction": 127,
-        "science fiction fantasy": 23,
-        "young adult": 278,
-        "young adult (teen)": 21,
-        "young adult (young adult fantasy)": 37
+  "author": "Garth Nix",
+  "id": "342",
+  "description": "The fifth book in Garth Nix's New York Times bestselling series!Four of the seven Trustees have been defeated and their Keys taken, but for Arthur, the week is still getting worse. Suzy Blue and Fred Gold Numbers have been captured by the Piper, and his New Nithling army still controls most of the Great Maze. Superior Saturday is causing trouble wherever she can, including turning off all the elevators in the House and blocking the Front Door.  Amidst all this trouble, Arthur must weigh an offer from Lady Friday that is either a cunning trap for the Rightful Heir or a golden opportunity he must seize - before he's beaten to it!",
+  "editions": [
+    "english",
+    "spanish"
+  ],
+  "genres": [
+    "adventure",
+    "childrens",
+    "childrens (middle grade)",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "science fiction fantasy",
+    "young adult",
+    "young adult (teen)",
+    "young adult (young adult fantasy)"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "342_1"
     },
-    "inventory": [
-        {
-            "status": "available",
-            "stock_id": "342_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "342_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "342_3"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "342_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "342_5"
-        },
-        {
-            "status": "available",
-            "stock_id": "342_6"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "342_7"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 21156,
-        "score": 3.92
+    {
+      "status": "available",
+      "stock_id": "342_2"
     },
-    "pages": 1169,
-    "title": "Lady Friday",
-    "url": "https://www.goodreads.com/book/show/17206.Lady_Friday",
-    "year_published": 2007
+    {
+      "status": "available",
+      "stock_id": "342_3"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "342_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "342_5"
+    },
+    {
+      "status": "available",
+      "stock_id": "342_6"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "342_7"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 21156,
+    "score": 3.92
+  },
+  "pages": 1169,
+  "title": "Lady Friday",
+  "url": "https://www.goodreads.com/book/show/17206.Lady_Friday",
+  "year_published": 2007
 }

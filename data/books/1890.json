@@ -1,56 +1,56 @@
 {
-    "author": "Terry Pratchett",
-    "id": "1890",
-    "description": "Discworld's only demonology hacker, Eric, is about to make life very difficult for the rest of Ankh-Morpork's denizens. This would-be Faust is very bad...at his work, that is. All he wants is to fulfill three little wishes:to live forever, to be master of the universe, and to have a stylin' hot babe.But Eric isn't even good at getting his own way. Instead of a powerful demon, he conjures, well, Rincewind, a wizard whose incompetence is matched only by Eric's. And as if that wasn't bad enough, that lovable travel accessory the Luggage has arrived, too. Accompanied by his best friends, there's only one thing Eric wishes now -- that he'd never been born!",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 103,
-        "audiobook": 83,
-        "childrens": 62,
-        "fantasy": 4393,
-        "fantasy (magic)": 74,
-        "fiction": 793,
-        "humor": 767,
-        "humor (comedy)": 255,
-        "science fiction fantasy": 132,
-        "young adult": 89
+  "author": "Terry Pratchett",
+  "id": "1890",
+  "description": "Discworld's only demonology hacker, Eric, is about to make life very difficult for the rest of Ankh-Morpork's denizens. This would-be Faust is very bad...at his work, that is. All he wants is to fulfill three little wishes:to live forever, to be master of the universe, and to have a stylin' hot babe.But Eric isn't even good at getting his own way. Instead of a powerful demon, he conjures, well, Rincewind, a wizard whose incompetence is matched only by Eric's. And as if that wasn't bad enough, that lovable travel accessory the Luggage has arrived, too. Accompanied by his best friends, there's only one thing Eric wishes now -- that he'd never been born!",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "audiobook",
+    "childrens",
+    "fantasy",
+    "fantasy (magic)",
+    "fiction",
+    "humor",
+    "humor (comedy)",
+    "science fiction fantasy",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "1890_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "1890_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1890_2"
-        },
-        {
-            "status": "available",
-            "stock_id": "1890_3"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "1890_4"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1890_5"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "1890_6"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 63979,
-        "score": 3.75
+    {
+      "status": "maintenance",
+      "stock_id": "1890_2"
     },
-    "pages": 772,
-    "title": "Eric",
-    "url": "https://www.goodreads.com/book/show/64218.Eric",
-    "year_published": 1990
+    {
+      "status": "available",
+      "stock_id": "1890_3"
+    },
+    {
+      "status": "maintenance",
+      "stock_id": "1890_4"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1890_5"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "1890_6"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 63979,
+    "score": 3.75
+  },
+  "pages": 772,
+  "title": "Eric",
+  "url": "https://www.goodreads.com/book/show/64218.Eric",
+  "year_published": 1990
 }

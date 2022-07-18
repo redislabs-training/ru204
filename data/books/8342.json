@@ -1,38 +1,38 @@
 {
-    "author": "J.R.R. Tolkien",
-    "id": "8342",
-    "description": "A number-one New York Times bestseller when it was originally published, THE SILMARILLION is the core of J.R.R. Tolkien's imaginative writing, a work whose origins stretch back to a time long before THE HOBBIT.Tolkien considered THE SILMARILLION his most important work, and, though it was published last and posthumously, this great collection of tales and legends clearly sets the stage for all his other writing. The story of the creation of the world and of the the First Age, this is the ancient drama to which the characters in THE LORD OF THE RINGS look back and in whose events some of them, such as Elrond and Galadriel, took part. The three Silmarils were jewels created by Feanor, most gifted of the Elves. Within them was imprisoned the Light of the Two Trees of Valinor before the Trees themselves were destroyed by Morgoth, the first Dark Lord. Thereafter, the unsullied Light of Valinor lived on only in the Silmarils, but they were seized by Morgoth and set in his crown, which was guarded in the impenetrable fortress of Angband in the north of Middle-earth. THE SILMARILLION is the history of the rebellion of Feanor and his kindred against the gods, their exile from Valinor and return to Middle-earth, and their war, hopeless despite all their heroism, against the great Enemy.This second edition features a letter written by J.R.R. Tolkien describing his intentions for the book, which serves as a brilliant exposition of his conception of the earlier Ages of Middle-earth.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adventure": 259,
-        "classics": 1840,
-        "fantasy": 13933,
-        "fantasy (epic fantasy)": 412,
-        "fantasy (high fantasy)": 481,
-        "fantasy (mythology)": 278,
-        "fiction": 3258,
-        "literature": 265,
-        "novels": 220,
-        "science fiction fantasy": 435
+  "author": "J.R.R. Tolkien",
+  "id": "8342",
+  "description": "A number-one New York Times bestseller when it was originally published, THE SILMARILLION is the core of J.R.R. Tolkien's imaginative writing, a work whose origins stretch back to a time long before THE HOBBIT.Tolkien considered THE SILMARILLION his most important work, and, though it was published last and posthumously, this great collection of tales and legends clearly sets the stage for all his other writing. The story of the creation of the world and of the the First Age, this is the ancient drama to which the characters in THE LORD OF THE RINGS look back and in whose events some of them, such as Elrond and Galadriel, took part. The three Silmarils were jewels created by Feanor, most gifted of the Elves. Within them was imprisoned the Light of the Two Trees of Valinor before the Trees themselves were destroyed by Morgoth, the first Dark Lord. Thereafter, the unsullied Light of Valinor lived on only in the Silmarils, but they were seized by Morgoth and set in his crown, which was guarded in the impenetrable fortress of Angband in the north of Middle-earth. THE SILMARILLION is the history of the rebellion of Feanor and his kindred against the gods, their exile from Valinor and return to Middle-earth, and their war, hopeless despite all their heroism, against the great Enemy.This second edition features a letter written by J.R.R. Tolkien describing his intentions for the book, which serves as a brilliant exposition of his conception of the earlier Ages of Middle-earth.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adventure",
+    "classics",
+    "fantasy",
+    "fantasy (epic fantasy)",
+    "fantasy (high fantasy)",
+    "fantasy (mythology)",
+    "fiction",
+    "literature",
+    "novels",
+    "science fiction fantasy"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "8342_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "8342_1"
-        },
-        {
-            "status": "on_loan",
-            "stock_id": "8342_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 227380,
-        "score": 3.93
-    },
-    "pages": 750,
-    "title": "The Silmarillion",
-    "url": "https://www.goodreads.com/book/show/7332.The_Silmarillion",
-    "year_published": 1977
+    {
+      "status": "on_loan",
+      "stock_id": "8342_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 227380,
+    "score": 3.93
+  },
+  "pages": 750,
+  "title": "The Silmarillion",
+  "url": "https://www.goodreads.com/book/show/7332.The_Silmarillion",
+  "year_published": 1977
 }

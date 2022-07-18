@@ -1,34 +1,34 @@
 {
-    "author": "James Gleick",
-    "id": "622",
-    "description": "From the acclaimed author of The Information and Chaos, a mind-bending exploration of time travel: its subversive origins, its evolution in literature and science, and its influence on our understanding of time itself. Gleick's story begins at the turn of the twentieth century with the young H. G. Wells writing and rewriting the fantastic tale that became his first book, an international sensation, The Time Machine. A host of forces were converging to transmute the human understanding of time, some philosophical and some technological the electric telegraph, the steam railroad, the discovery of buried civilizations, and the perfection of clocks. Gleick tracks the evolution of time travel as an idea in the culture from Marcel Proust to Doctor Who, from Woody Allen to Jorge Luis Borges. He explores the inevitable looping paradoxes and examines the porous boundary between pulp fiction and modern physics. Finally, he delves into a temporal shift that is unsettling our own moment: the instantaneous wired world, with its all-consuming present and vanishing future.",
-    "editions": [
-        "english"
-    ],
-    "genres": {
-        "adult": 8,
-        "audiobook": 14,
-        "history": 162,
-        "nonfiction": 311,
-        "philosophy": 66,
-        "science": 358,
-        "science (physics)": 47,
-        "science (popular science)": 9,
-        "science (technology)": 12,
-        "science fiction (time travel)": 120
-    },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "622_1"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 3630,
-        "score": 3.58
-    },
-    "pages": 925,
-    "title": "Time Travel: A History",
-    "url": "https://www.goodreads.com/book/show/28587584-time-travel",
-    "year_published": 2016
+  "author": "James Gleick",
+  "id": "622",
+  "description": "From the acclaimed author of The Information and Chaos, a mind-bending exploration of time travel: its subversive origins, its evolution in literature and science, and its influence on our understanding of time itself. Gleick's story begins at the turn of the twentieth century with the young H. G. Wells writing and rewriting the fantastic tale that became his first book, an international sensation, The Time Machine. A host of forces were converging to transmute the human understanding of time, some philosophical and some technological the electric telegraph, the steam railroad, the discovery of buried civilizations, and the perfection of clocks. Gleick tracks the evolution of time travel as an idea in the culture from Marcel Proust to Doctor Who, from Woody Allen to Jorge Luis Borges. He explores the inevitable looping paradoxes and examines the porous boundary between pulp fiction and modern physics. Finally, he delves into a temporal shift that is unsettling our own moment: the instantaneous wired world, with its all-consuming present and vanishing future.",
+  "editions": [
+    "english"
+  ],
+  "genres": [
+    "adult",
+    "audiobook",
+    "history",
+    "nonfiction",
+    "philosophy",
+    "science",
+    "science (physics)",
+    "science (popular science)",
+    "science (technology)",
+    "science fiction (time travel)"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "622_1"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 3630,
+    "score": 3.58
+  },
+  "pages": 925,
+  "title": "Time Travel: A History",
+  "url": "https://www.goodreads.com/book/show/28587584-time-travel",
+  "year_published": 2016
 }

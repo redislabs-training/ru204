@@ -1,40 +1,40 @@
 {
-    "author": "Hajime Isayama",
-    "id": "323",
-    "description": "TITAN ON THE HUNTOn the way to Eren\u2019s home, deep in Titan territory, the Survey Corps ranks are broken by a charge led by a female Titan! But this Abnormal is different \u2013 she kills not to eat but to protect herself, and she seems to be looking for someone. Armin comes to a shocking conclusion: She\u2019s a human in a Titan\u2019s body, just like Eren!Chapters List:-23.The Female Titan24.The Titan Forest25.Bite26.The Easy Path",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "action": 36,
-        "fantasy": 150,
-        "fiction": 52,
-        "horror": 135,
-        "science fiction": 42,
-        "science fiction (dystopia)": 57,
-        "sequential art (comics)": 112,
-        "sequential art (graphic novels)": 120,
-        "sequential art (manga)": 1810,
-        "young adult": 37
+  "author": "Hajime Isayama",
+  "id": "323",
+  "description": "TITAN ON THE HUNTOn the way to Eren’s home, deep in Titan territory, the Survey Corps ranks are broken by a charge led by a female Titan! But this Abnormal is different – she kills not to eat but to protect herself, and she seems to be looking for someone. Armin comes to a shocking conclusion: She’s a human in a Titan’s body, just like Eren!Chapters List:-23.The Female Titan24.The Titan Forest25.Bite26.The Easy Path",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "action",
+    "fantasy",
+    "fiction",
+    "horror",
+    "science fiction",
+    "science fiction (dystopia)",
+    "sequential art (comics)",
+    "sequential art (graphic novels)",
+    "sequential art (manga)",
+    "young adult"
+  ],
+  "inventory": [
+    {
+      "status": "on_loan",
+      "stock_id": "323_1"
     },
-    "inventory": [
-        {
-            "status": "on_loan",
-            "stock_id": "323_1"
-        },
-        {
-            "status": "available",
-            "stock_id": "323_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 12541,
-        "score": 4.48
-    },
-    "pages": 293,
-    "title": "Attack on Titan, Vol. 6",
-    "url": "https://www.goodreads.com/book/show/17262714-attack-on-titan-vol-6",
-    "year_published": 2011
+    {
+      "status": "available",
+      "stock_id": "323_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12541,
+    "score": 4.48
+  },
+  "pages": 293,
+  "title": "Attack on Titan, Vol. 6",
+  "url": "https://www.goodreads.com/book/show/17262714-attack-on-titan-vol-6",
+  "year_published": 2011
 }

@@ -1,40 +1,40 @@
 {
-    "author": "Dan Simmons",
-    "id": "633",
-    "description": "Librarian's Note: Alternate Edition with same isbn & isbn 13: January 2011THE EXTRAORDINARY AND MAGNIFICENT EPIC CONCLUSION TO THE HUGO AWARD-NOMINATED ILIUMBeneath the gaze of the gods, the mighty armies of Greece and Troy met in fierce and glorious combat, scrupulously following the text set forth in Homer's timeless narrative, but that was before twenty-first century scholar Thomas Hockenberry stirred the bloody brew, causing an enraged Achilles to join forces with his archenemy Hector and turn his murderous wrath on Zeus and the entire pantheon of divine manipulators; before the swift and terrible mechanical creatures that catered for centuries to the pitiful idle remnants of Earth's human race began massing in the millions, to exterminate rather than serve.And now all bets are off.",
-    "editions": [
-        "english",
-        "spanish",
-        "french"
-    ],
-    "genres": {
-        "adventure": 13,
-        "epic": 14,
-        "fantasy": 161,
-        "fantasy (mythology)": 42,
-        "fiction": 167,
-        "historical (historical fiction)": 17,
-        "science fiction": 658,
-        "science fiction fantasy": 41,
-        "space (space opera)": 28,
-        "speculative fiction": 17
+  "author": "Dan Simmons",
+  "id": "633",
+  "description": "Librarian's Note: Alternate Edition with same isbn & isbn 13: January 2011THE EXTRAORDINARY AND MAGNIFICENT EPIC CONCLUSION TO THE HUGO AWARD-NOMINATED ILIUMBeneath the gaze of the gods, the mighty armies of Greece and Troy met in fierce and glorious combat, scrupulously following the text set forth in Homer's timeless narrative, but that was before twenty-first century scholar Thomas Hockenberry stirred the bloody brew, causing an enraged Achilles to join forces with his archenemy Hector and turn his murderous wrath on Zeus and the entire pantheon of divine manipulators; before the swift and terrible mechanical creatures that catered for centuries to the pitiful idle remnants of Earth's human race began massing in the millions, to exterminate rather than serve.And now all bets are off.",
+  "editions": [
+    "english",
+    "spanish",
+    "french"
+  ],
+  "genres": [
+    "adventure",
+    "epic",
+    "fantasy",
+    "fantasy (mythology)",
+    "fiction",
+    "historical (historical fiction)",
+    "science fiction",
+    "science fiction fantasy",
+    "space (space opera)",
+    "speculative fiction"
+  ],
+  "inventory": [
+    {
+      "status": "maintenance",
+      "stock_id": "633_1"
     },
-    "inventory": [
-        {
-            "status": "maintenance",
-            "stock_id": "633_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "633_2"
-        }
-    ],
-    "metrics": {
-        "rating_votes": 16992,
-        "score": 3.94
-    },
-    "pages": 1307,
-    "title": "Olympos",
-    "url": "https://www.goodreads.com/book/show/3972.Olympos",
-    "year_published": 2005
+    {
+      "status": "maintenance",
+      "stock_id": "633_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 16992,
+    "score": 3.94
+  },
+  "pages": 1307,
+  "title": "Olympos",
+  "url": "https://www.goodreads.com/book/show/3972.Olympos",
+  "year_published": 2005
 }
