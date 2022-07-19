@@ -8,6 +8,7 @@ import os
 import redis
 from redis.commands.search.indexDefinition import IndexDefinition, IndexType
 from redis.commands.search.field import TextField, TagField, NumericField
+from redis.commands.search.query import Query
 
 DATASET_SIZE = 1487 # Number of books we expect to load.
 REDIS_KEY_BASE = "ru204:book"
@@ -92,7 +93,21 @@ try:
     num_pages = r.json().get(make_key("253"), "$.pages")
     assert num_pages[0] == 615, "Error verifying book 253 page count."
 
-    # TODO run some sample queries to make sure the data indexing works.
+    # Verify search functionality...
+
+    # Find books with "Brave New World" in the title that don't have
+    # "Revisited" in the title, should return just book 31784.
+    # ft.search idx:books @title:"Brave New World -Revisited"
+    results = r.ft(INDEX_NAME).search(Query("Brave New World -Revisited").limit_fields("title").return_field("id"))
+    assert 1 == len(results.docs), "Error searching for book 31784."
+    assert make_key("31784") == results.docs[0].id, "Wrong book returned when searching for 31784."
+
+    # Find all books by author containing "Vonnegut" published in the 1980s
+    # that have a score between 3 and 5.  Should return just book 2906.
+    # ft.search idx:books "@author:Vonnegut @score:[3 5] @year_published:[1980 1989]
+    results = r.ft(INDEX_NAME).search(Query("@author:Vonnegut @score:[3 5] @year_published:[1980 1989]").return_field("id"))
+    assert 1 == len(results.docs), "Error searching for book 2906."
+    assert make_key("2906") == results.docs[0].id, "Wrong book returned when searching for 2906."
 except AssertionError as e:
     print("Data verification checks failed:")
     print(e)
