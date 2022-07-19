@@ -133,7 +133,18 @@ Now, run the data loader script, passing it the name of the folder containing th
 python data_loader.py --dir data/books
 ```
 
-TODO expected output...
+You should expect to see output similar to the following:
+
+```
+Stored book Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch at key ru204:book:28376.
+Stored book Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer at key ru204:book:35.
+Stored book Eternity's Wheel at key ru204:book:182.
+Stored book Shards and Ashes at key ru204:book:478.
+Loaded 1487 books into Redis.
+Data verification checks completed OK.
+```
+
+If you see the "Loaded 1487 books into Redis." and "Data verification checks completed OK." messages then you've completed the setup steps and are ready to go.
 
 ## You're Ready!
 
