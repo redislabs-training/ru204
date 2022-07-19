@@ -62,7 +62,7 @@ This option doesn't require you to install Redis on your local machine.  We prov
 
 Let's get up and running with Redis in the cloud:
 
-* Use your browser to navigate to the [signup page](https://redis.com/try-free/) on redis.com.
+* Use your browser to navigate to the [signup page](https://redis.com/try-free?utm_medium=referral&utm_source=redisUniversity&utm_campaign=ru204) on redis.com.
 * Complete the signup form and click the "Get Started" button.  Note that you can sign up with your Google or GitHub account if you prefer.
 * When you receive the activation email from Redis, open it and click on the "Activate Account" button.
 * You'll be taken to the dashboard, and a New Subscription dialog appears:
