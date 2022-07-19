@@ -10,7 +10,7 @@ from redis.commands.search.indexDefinition import IndexDefinition, IndexType
 from redis.commands.search.field import TextField, TagField, NumericField
 from redis.commands.search.query import Query
 
-DATASET_SIZE = 1487 # Number of books we expect to load.
+DATASET_SIZE = 1486 # Number of books we expect to load.
 REDIS_KEY_BASE = "ru204:book"
 INDEX_NAME = "idx:books"
 
