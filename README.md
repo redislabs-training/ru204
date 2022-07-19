@@ -177,11 +177,15 @@ Your next step is to load the sample data...
 
 If you used the Docker or local install of Redis Stack options to get your Redis instance, you can choose to use RedisInsight as a web application with no further software to install.  If you're using a Redis instance in the cloud, this option is not currently available to you and you should download and install RedisInsight instead.
 
-TODO URL, agree to terms...
+First, ensure that the Docker container or your local Redis Stack installation is running.
+
+Now, point your browser at `http://localhost:8001/` and you should see the RedisInsight terms and conditions:
+
+![RedisInsight web terms and conditions](readme_images/insight_web_terms.png)
+
+Accept the terms and click "Submit".  RedisInsight will automatically connect to the local Redis Stack instance and display the key browser:
 
 ![RedisInsight web interface](readme_images/insight_web.png)
-
-TODO the rest of the setup instructions...
 
 Your next step is to load the sample data...
 
