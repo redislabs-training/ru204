@@ -6,13 +6,13 @@ This repository contains example data and setup instructions for the Redis Unive
 
 To take this course, you'll first need to do the following:
 
-1. Clone this git repository.
-1. Get a Redis instance with RediSearch and RedisJSON installed (we recommend using [Redis Stack](https://redis.io/docs/stack/)).
-1. (Optional): Install [RedisInsight](https://redis.com/redis-enterprise/redis-insight/) desktop application (if you choose not to do this you'll use the web version of RedisInsight provided with Redis Stack).  Both are equally good options for this course.
-1. Load the course sample data.
-1. Build the RediSearch indexes.
+1. Make sure that you have Python 3.7 or newer installed on your system (we've tested this with Python 3.9).  Check your Python version with `python --version`.
+1. Clone this git repository from GitHub.
+1. Get a [Redis Stack](https://redis.io/docs/stack/) instance locally or in the cloud.
+1. Install [RedisInsight](https://redis.com/redis-enterprise/redis-insight/).
+1. Load the course sample data and create the search index.
 
-To get an appropriate Redis Instance, you can either use the Docker Compose file provided or install [Redis Stack](https://redis.io/docs/stack/) on your machine.
+We've provided detailed instructions for each of these steps below.
 
 ## Clone the Course Git Repository
 
@@ -34,6 +34,8 @@ cd ru204
 
 The remainder of these instructions assume that you start from a terminal session whose current directory is `ru204`.
 
+Your next step is to proceed to "Redis Setup".
+
 ### Option 2: Download a Zip File from GitHub
 
 If you don't have the git command line tools, download the repository as a zip file from GitHub and unzip it on your local machine.
@@ -46,13 +48,55 @@ Now, open up a terminal instance and change to the directory containing the cour
 cd ru204
 ```
 
-The remainder of these instructions assume that you start from a terminal session whose current directory is `ru204`.
+The remainder of these instructions assume that you start from a terminal session whose current directory is `ru204`.  
+
+Your next step is to proceed to "Redis Setup".
 
 ## Redis Setup 
 
-### Option 1: Use Docker
+This course requires an instance of Redis with the RediSearch and RedisJSON modules installed.  These are part of the Redis Stack product.  Review the following options and choose the one that's right for you.
 
-This is the most straightforward option, and the recommended one for Windows users.  First, make sure you have [Docker installed](https://docs.docker.com/get-docker/).
+### Option 1: Redis Cloud
+
+This option doesn't require you to install Redis on your local machine.  We provide a free instance of Redis in the cloud that you can keep and use for your own projects once you're finished with the course.  
+
+Let's get up and running with Redis in the cloud:
+
+* Use your browser to navigate to the [signup page](https://redis.com/try-free/) on redis.com.
+* Complete the signup form and click the "Get Started" button.  Note that you can sign up with your Google or GitHub account if you prefer.
+* When you receive the activation email from Redis, open it and click on the "Activate Account" button.
+* You'll be taken to the dashboard, and a New Subscription dialog appears:
+
+![Redis Cloud New Subscription](readme_images/cloud_new_sub_1.png)
+
+* Select your preferred cloud provider and a region close to you.  This is where we'll host your free Redis instance for you.
+* Click the "Let's start free" button.
+* Your new free database will be created, and you should see something like this:
+
+![Redis Cloud newly created database](readme_images/cloud_new_sub_2.png)
+
+* Click on "Redis-free-db" to drill down into the details for your instance.
+* To set up RedisInsight and connect the course data loader script to your database, you'll need to gather the following items from the dashboard and keep a record of them:
+  * Host name
+  * Port
+  * User name (this will be `default`)
+  * Password
+* Your host name and port can be found in the "General" section (see below for example, here the host name is `redis-15676.c10.us-east-1-3.ec2.cloud.redislabs.com` and the port is `15676`).
+
+![Redis Cloud database details](readme_images/cloud_new_sub_3.png)
+
+* Scroll down to the "Security" section.
+* Click the "Copy" button next to "Default user password" to copy the Redis password into the clipboard.  Paste this somewhere for safekeeping.  Alternatively, click the eye icon to show the password:
+
+![Redis Cloud database password](readme_images/cloud_new_sub_4.png)
+
+* If you see a green check mark next to the "Redis-free-db" title, your database is ready to use!
+
+Your next step is to set up RedisInsight...
+
+### Option 2: Docker
+
+This is the most straightforward option if you want to run Redis locally.  First, make sure you have [Docker installed](https://docs.docker.com/get-docker/).
 
 This course uses the Redis Stack Docker container.  Download and start it with Docker Compose as follows:
 
@@ -79,27 +123,39 @@ Leave the container running for now. When you want to stop it, use this command:
 docker-compose down
 ```
 
-### Option 2: Install Redis Stack 
+Your next step is to set up RedisInsight...
+
+### Option 3: Install Redis Stack 
 
 Redis Stack can be installed using popular package managers for macOS and Linux.  [Follow the instructions on redis.io](https://redis.io/docs/stack/get-started/install/) to install and start Redis Stack.
 
+Your next step is to set up RedisInsight...
+
 ## RedisInsight Setup
 
-RedisInsight is a graphical interface allowing you to interact with data and configure Redis instances.  There are two ways to access RedisInsight and both work equally well for this course.
+RedisInsight is a graphical interface allowing you to interact with data and configure Redis instances.
 
-### Option 1: Use the Web Interface
+### Option 1: Install and Configure the Desktop Application
 
-TODO URL, agree to terms...
+The preferred way to run RedisInsight is as a desktop application.  If you're using a Redis instance in the cloud, you'll need to install the RedisInsight desktop application.  If you chose the Docker or local install of Redis Stack option for your Redis instance, you can either install the RedisInsight desktop application or choose run it as a web application with no further software installation required (see option 2 below).
 
-![RedisInsight web interface](readme_images/insight_web.png)
-
-### Option 2: Install and Configure the Desktop Application
-
-You may prefer to use RedisInsight as a desktop application.  Download and install it using the instructions on the [RedisInsight download page](https://redis.com/redis-enterprise/redis-insight/).
+To use the desktop application, first download and install it using the instructions on the [RedisInsight download page](https://redis.com/redis-enterprise/redis-insight/).  
 
 Once you have installed RedisInsight, start it up and agree to the terms and conditions of use. 
 
-Finally, configure RedisInsight to connect to your Redis Instance... Click the "ADD REDIS DATABASE" button and fill out the new database form with the following values:
+Finally, configure RedisInsight to connect to your Redis Instance... Click the "ADD REDIS DATABASE" button and fill out the new database form with the following values.
+
+If your Redis instance is in the cloud:
+
+* **Host:** The host name for your cloud database
+* **Port:** The port number for your cloud database
+* **Database Alias:** RU204
+* **Username:** default
+* **Password:** The password for your cloud database
+* **Select Logical Database:** [leave unchecked]
+* **Use TLS:** [leave unchecked]
+
+If you are using Docker or you have installed Redis Stack locally:
 
 * **Host:** localhost
 * **Port:** 6379
@@ -113,13 +169,29 @@ Then click the "Add Redis Database" button to connect to your Redis instance.  Y
 
 ![Configuring RedisInsight Desktop](readme_images/insight_setup.gif)
 
-If you see an error while trying to connect to Redis, ensure that your Redis Server is running (make sure the Docker container is up or your locally installed Redis Stack is running) and try again.
+If you see an error while trying to connect to Redis, ensure that your Redis instance is running (make sure the Docker container is up or your locally installed Redis Stack is running) and try again.
+
+Your next step is to load the sample data...
+
+### Option 2: Use the Web Interface
+
+If you used the Docker or local install of Redis Stack options to get your Redis instance, you can choose to use RedisInsight as a web application with no further software to install.  If you're using a Redis instance in the cloud, this option is not currently available to you and you should download and install RedisInsight instead.
+
+TODO URL, agree to terms...
+
+![RedisInsight web interface](readme_images/insight_web.png)
+
+TODO the rest of the setup instructions...
+
+Your next step is to load the sample data...
 
 ## Load the Sample Data into Redis and Create the Search Index
 
-TODO what this does...
+This course uses a sample data set consisting of almost 1500 JSON documents, each containing details about a science fiction book.  These documents are contained in the `data/books` folder.
 
-First, create a Python virtual environment, activate it and install the dependencies:
+Before starting the course, you'll need to use the data loader to load these documents into Redis.  The data loader also sets up a RediSearch index that you'll use to search the document collection.
+
+First, with your shell in the `ru204` folder create a Python virtual environment, activate it and install the dependencies required to run the data loader:
 
 ```bash
 python3 -m venv venv
@@ -127,7 +199,17 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
-Now, run the data loader script, passing it the name of the folder containing the JSON data files to load into Redis:
+Now run the data loader script, passing it the name of the folder containing the JSON data files to load into Redis.
+
+If your Redis instance is in the cloud, start the data loader like this:
+
+```bash
+python data_loader.py --dir data/books --redis redis://default:password@host:port/
+```
+
+Be sure to replace `password`, `host` and `port` with the values for your cloud instance.
+
+If you're using Docker, or have installed Redis Stack locally, start the data loader this way:
 
 ```bash
 python data_loader.py --dir data/books
@@ -136,6 +218,16 @@ python data_loader.py --dir data/books
 You should expect to see output similar to the following:
 
 ```
+Connecting to Redis at redis://localhost:6379/
+Deleting any existing JSON documents for RU204.
+Dropping any existing search index.
+Creating search index.
+Loading JSON files from data/books.
+Stored book In Real Life at key ru204:book:3721.
+Stored book Lines of Departure at key ru204:book:729.
+...
+Lots more loading of books...
+...
 Stored book Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch at key ru204:book:28376.
 Stored book Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer at key ru204:book:35.
 Stored book Eternity's Wheel at key ru204:book:182.
