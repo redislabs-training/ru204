@@ -1,5 +1,7 @@
 import { createClient } from 'redis';
 
+const BOOK_KEY = 'ru204:book:3';
+
 const BOOK = {
   author: 'Redis University',
   id: 3,
@@ -42,17 +44,17 @@ const r = createClient({
 await r.connect();
 
 // Delete any previous data at our book's key
-await r.del('ru204:book:3');
+await r.del(BOOK_KEY);
 
 // Store the book in Redis at key ru204:book:3...
 // Response will be: OK
-let response = await r.json.set('ru204:book:3', '$', BOOK);
+let response = await r.json.set(BOOK_KEY, '$', BOOK);
 console.log(`Book stored: ${response}`);
 
 // Let's get the author and score for this book...
 // Response will be:
 // { '$.author': 'Redis University', '$.metrics.score': 2.3 }
-response = await r.json.get('ru204:book:3', {
+response = await r.json.get(BOOK_KEY, {
   path: [
     '$.author',
     '$.metrics.score'
@@ -64,12 +66,12 @@ console.log(response);
 
 // Add one to the number of rating_votes:
 // Response will be: 13
-response = await r.json.numIncrBy('ru204:book:3', '$.metrics.rating_votes', 1);
+response = await r.json.numIncrBy(BOOK_KEY, '$.metrics.rating_votes', 1);
 console.log(`rating_votes incremented to ${response}`);
 
 // Add another copy of the book to the inventory.
 // Response will be: 3 (new size of the inventory array)
-response = await r.json.arrAppend('ru204:book:3', '$.inventory', {
+response = await r.json.arrAppend(BOOK_KEY, '$.inventory', {
   status: 'available',
   stock_id: '3_3'
 });
