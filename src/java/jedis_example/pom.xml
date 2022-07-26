@@ -9,7 +9,6 @@
   <version>1.0</version>
 
   <name>ru204</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://university.redis.com/courses/ru204/</url>
 
   <properties>
@@ -74,6 +73,15 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.1.0</version>
+          <configuration>
+              <argument>-classpath</argument>
+              <mainClass>com.redis.university.ru204.App</mainClass>
+          </configuration>
+         </plugin>
       </plugins>
     </pluginManagement>
   </build>
