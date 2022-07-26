@@ -1,0 +1,26 @@
+{
+  "name": "node_redis_example",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Node Redis RedisJSON example for RU204 course.",
+  "main": "json_example.js",
+  "scripts": {
+    "start": "node json_example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redislabs-training/ru204.git"
+  },
+  "author": "Redis University",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redislabs-training/ru204/issues"
+  },
+  "homepage": "https://github.com/redislabs-training/ru204#readme",
+  "engines": {
+    "node": ">=14.8"
+  },
+  "dependencies": {
+    "redis": "^4.2.0"
+  }
+}
