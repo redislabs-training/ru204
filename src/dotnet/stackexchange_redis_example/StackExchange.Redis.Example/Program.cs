@@ -2,7 +2,7 @@
 
 using StackExchange.Redis;
 
-const string BOOK_KEY = "ru204:book:3";
+const string BOOK_KEY = "ru204:book:99999";
 
 var bookJson = await File.ReadAllTextAsync("data/Book.json");
 
@@ -16,7 +16,7 @@ var db = muxer.GetDatabase();
 // Delete any previous data at our book's key
 await db.KeyDeleteAsync(BOOK_KEY);
 
-// Store the book in Redis at the key ru204:Book:3
+// Store the book in Redis at the key ru204:book:99999
 // Response Should be "OK"
 var response = await db.ExecuteAsync("JSON.SET", BOOK_KEY, "$", bookJson);
 Console.WriteLine($"Book stored: {response}");
@@ -33,6 +33,6 @@ Console.WriteLine($"rating_votes incremented to {response}");
 
 // add another copy of the book to the inventory
 // response will be: 3 (new size of the inventory array)
-response = await db.ExecuteAsync("JSON.ARRAPPEND", BOOK_KEY, "$.inventory", "{\"status\":\"available\",\"stock_id\":\"3_3\"}");
+response = await db.ExecuteAsync("JSON.ARRAPPEND", BOOK_KEY, "$.inventory", "{\"status\":\"available\",\"stock_id\":\"99999_3\"}");
 var inventoryCount = ((RedisResult[]?) response)?.FirstOrDefault();
 Console.WriteLine($"There are now {inventoryCount} copies of the book in the inventory.");
