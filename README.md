@@ -14,6 +14,12 @@ To take this course, you'll first need to do the following:
 
 We've provided detailed instructions for each of these steps below.
 
+Throughout the course, we've provided example code written in Python, JavaScript (Node.js), Java and C#.  You don't need to run the code to be successful on this course, and the exam does not contain programming language specific questions.  If you'd like to try running some or all of the code samples then you'll also need to install:
+
+* [Node.js](https://nodejs.org/) (version 14.8 or higher)
+* [Java JDK](https://sdkman.io/) (Java 11 or higher)
+* [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (version 6 or higher)
+
 ## Clone the Course Git Repository
 
 There are two ways to get a copy of this git repository on your machine...
