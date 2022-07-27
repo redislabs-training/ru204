@@ -28,8 +28,9 @@ Console.WriteLine($"Author and Score: {response}");
 
 // add one to the number of rating_votes
 // Response will be [13]
-response = await db.ExecuteAsync("JSON.NUMINCRBY", BOOK_KEY, $"$.metrics.rating_votes", 1);
-Console.WriteLine($"rating_votes incremented to {response}");
+var res = (string?)await db.ExecuteAsync("JSON.NUMINCRBY", BOOK_KEY, $"$.metrics.rating_votes", 1);
+var parsedResponse = int.Parse(res.Substring(1, res.Length-2));
+Console.WriteLine($"rating_votes incremented to {parsedResponse}");
 
 // add another copy of the book to the inventory
 // response will be: 3 (new size of the inventory array)
