@@ -3,52 +3,27 @@ package com.redis.university.ru204;
 import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.json.Path2;
 
+import java.io.IOException;
+import java.io.Reader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 
 import org.json.JSONArray;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
-public class App 
+public class App
 {
     private final static String BOOK_KEY = "ru204:book:3";
     private static final Gson GSON = new Gson();
-    private static final Object BOOK = GSON.fromJson(
-        "{" +
-        "   'author': 'Redis University'," +
-        "   'id': 3," +
-        "   'description': 'This is a fictional book used to demonstrate RedisJSON!'," +
-        "   'editions': [" +
-        "     'english'," +
-        "     'french'" +
-        "    ]," +
-        "    'genres': [" +
-        "      'education'," +
-        "      'technology'" +
-        "   ]," +
-        "   'inventory': [" +
-        "     {" +
-        "       'status': 'available'," +
-        "       'stock_id': '3_1'" +
-        "     }," +
-        "     {" +
-        "       'status': 'on_loan'," +
-        "       'stock_id': '3_2'" +
-        "     }" +
-        "   ]," +
-        "   'metrics': {" +
-        "     'rating_votes': 12," +
-        "     'score': 2.3" +
-        "   }," +
-        "   'pages': 1000," +
-        "   'title': 'Up and Running with RedisJSON'," +
-        "   'url': 'https://university.redis.com/courses/ru204/'," +
-        "   'year_published': 2022" +
-        "  }"
-        , Object.class);
 
-    public static void main( String[] args )
+    public static void main( String[] args ) throws IOException
     {
+        Reader reader = Files.newBufferedReader(Paths.get("src/main/resources/data/Book.json"));
+        JsonObject book = new Gson().fromJson(reader, JsonObject.class);
+
         // Connect to Redis
         UnifiedJedis r = new UnifiedJedis(System.getenv().getOrDefault("REDIS_URL", "redis://localhost:6379"));
 
@@ -57,7 +32,7 @@ public class App
 
         // Store the book in Redis at key ru204:book:3...
         // Response will be: OK
-        String strResponse = r.jsonSet(BOOK_KEY, Path2.ROOT_PATH, GSON.toJson(BOOK));
+        String strResponse = r.jsonSet(BOOK_KEY, book);
         System.out.println("Book stored: " + strResponse);
 
         // Let's get the author and score for this book...
@@ -76,8 +51,8 @@ public class App
 
         // Add another copy of the book to the inventory.
         // Response will be: 3 (new size of the inventory array)
-        Object newInventoryItem = GSON.fromJson("{'status': 'available', 'stock_id': '3_3'}", Object.class);
-        List<Long> arrAppendResponse = r.jsonArrAppend(BOOK_KEY, Path2.of("$.inventory"), GSON.toJson(newInventoryItem));
+        JsonObject newInventoryItem = GSON.fromJson("{'status': 'available', 'stock_id': '3_3'}", JsonObject.class);
+        List<Long> arrAppendResponse = r.jsonArrAppend(BOOK_KEY, Path2.of("$.inventory"), newInventoryItem);
         System.out.println("There are now " + arrAppendResponse.get(0) + " copies of the book in the inventory.");
 
         // Disconnect from Redis.
