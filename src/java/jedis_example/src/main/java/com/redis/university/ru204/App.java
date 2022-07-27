@@ -49,8 +49,8 @@ public class App
 
     public static void main( String[] args )
     {
-        // TODO try env vars for REDIS_URL
-        UnifiedJedis r = new UnifiedJedis("redis://localhost:6379");
+        // Connect to Redis
+        UnifiedJedis r = new UnifiedJedis(System.getenv().getOrDefault("REDIS_URL", "redis://localhost:6379"));
 
         // Delete any previous data at our book's key
         r.del(BOOK_KEY);
