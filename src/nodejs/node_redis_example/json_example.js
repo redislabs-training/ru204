@@ -1,10 +1,10 @@
 import { createClient } from 'redis';
 
-const BOOK_KEY = 'ru204:book:3';
+const BOOK_KEY = 'ru204:book:99999';
 
 const BOOK = {
   author: 'Redis University',
-  id: 3,
+  id: 99999,
   description: 'This is a fictional book used to demonstrate RedisJSON!',
   editions: [
     'english',
@@ -17,11 +17,11 @@ const BOOK = {
   inventory: [
     {
       status: 'available',
-      stock_id: 3_1
+      stock_id: 99999_1
     },
     {
       status: 'on_loan',
-      stock_id: 3_2
+      stock_id: 99999_2
     }
   ],
   metrics: {
@@ -46,14 +46,14 @@ await r.connect();
 // Delete any previous data at our book's key
 await r.del(BOOK_KEY);
 
-// Store the book in Redis at key ru204:book:3...
+// Store the book in Redis at key ru204:book:99999...
 // Response will be: OK
 let response = await r.json.set(BOOK_KEY, '$', BOOK);
 console.log(`Book stored: ${response}`);
 
 // Let's get the author and score for this book...
 // Response will be:
-// { '$.author': 'Redis University', '$.metrics.score': 2.3 }
+// { '$.metrics.score': [ 2.3 ], '$.author': [ 'Redis University' ] }
 response = await r.json.get(BOOK_KEY, {
   path: [
     '$.author',
@@ -73,7 +73,7 @@ console.log(`rating_votes incremented to ${response}`);
 // Response will be: 3 (new size of the inventory array)
 response = await r.json.arrAppend(BOOK_KEY, '$.inventory', {
   status: 'available',
-  stock_id: '3_3'
+  stock_id: '99999_3'
 });
 console.log(`There are now ${response} copies of the book in the inventory.`);
 

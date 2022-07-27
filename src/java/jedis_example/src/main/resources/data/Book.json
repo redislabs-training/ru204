@@ -1,6 +1,6 @@
 {
   "author": "Redis University",
-  "id": 3,
+  "id": 99999,
   "description": "This is a fictional book used to demonstrate RedisJSON!",
   "editions": [
     "english",
@@ -13,11 +13,11 @@
   "inventory": [
     {
       "status": "available",
-      "stock_id": "3_1"
+      "stock_id": "99999_1"
     },
     {
       "status": "on_loan",
-      "stock_id": "3_2"
+      "stock_id": "99999_2"
     }
   ],
   "metrics": {
