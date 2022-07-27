@@ -35,4 +35,4 @@ Console.WriteLine($"rating_votes incremented to {response}");
 // response will be: 3 (new size of the inventory array)
 response = await db.ExecuteAsync("JSON.ARRAPPEND", BOOK_KEY, "$.inventory", "{\"status\":\"available\",\"stock_id\":\"3_3\"}");
 var inventoryCount = ((RedisResult[]?) response)?.FirstOrDefault();
-Console.WriteLine($"There are now {inventoryCount} copies of hte book in the inventory.");
+Console.WriteLine($"There are now {inventoryCount} copies of the book in the inventory.");
