@@ -1,0 +1,31 @@
+{
+  "author": "Redis University",
+  "id": 3,
+  "description": "This is a fictional book used to demonstrate RedisJSON!",
+  "editions": [
+    "english",
+    "french"
+  ],
+  "genres": [
+    "education",
+    "technology"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "3_1"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "3_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12,
+    "score": 2.3
+  },
+  "pages": 1000,
+  "title": "Up and Running with RedisJSON",
+  "url": "https://university.redis.com/courses/ru204/",
+  "year_published": 2022
+}
