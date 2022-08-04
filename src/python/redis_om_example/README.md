@@ -17,7 +17,7 @@ python3 -m venv venv
 . ./venv/bin/activate
 ```
 
-Install redis-py and any other dependencies before running the code:
+Install Redis OM Python and any other dependencies before running the code:
 
 ```bash
 pip install -r requirements.txt
