@@ -1,11 +1,11 @@
 from redis_om import (JsonModel, EmbeddedJsonModel)
-from pydantic import (PositiveInt, AnyHttpUrl)
+from pydantic import (PositiveInt, PositiveFloat, AnyHttpUrl)
 from typing import List
 
 # This class models the embedded "metrics" object.
 class Metrics(EmbeddedJsonModel):
     rating_votes: PositiveInt
-    score: PositiveInt
+    score: PositiveFloat
 
 # This class models the "inventory" array of objects.
 class InventoryItem(EmbeddedJsonModel):
@@ -38,14 +38,14 @@ new_book = Book(
     description = "This is a book all about Redis.",
     genres = [ "redis", "tech", "computers" ],
     inventory = [ 
-        {
-            "status": "on_loan",
-            "stock_id": "999_1"
-        },
-        {
-            "status": "maintenance",
-            "stock_id": "999_2"
-        }
+        InventoryItem(
+            status = "on_loan",
+            stock_id = "999_1"
+        ),
+        InventoryItem(
+            status = "maintenance",
+            stock_id = "999_2"
+        )
     ],
     metrics = Metrics(
         rating_votes = 4000,
