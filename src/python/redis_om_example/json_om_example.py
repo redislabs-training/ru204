@@ -73,4 +73,4 @@ print(a_book)
 a_book.author = "Redis University"
 a_book.save()
 print("Updated author and saved to Redis:")
-print(Book.get(new_book.pk))
+print(Book.get(a_book.pk))
