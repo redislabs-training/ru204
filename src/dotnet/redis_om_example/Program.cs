@@ -38,12 +38,17 @@ var book = new Book
     YearPublished = 2022
 };
 
+Console.WriteLine($"book ULID: {book.Pk}");
+
 await books.InsertAsync(book);
 
-Console.WriteLine($"Book ULID: {book.Pk}");
-Console.WriteLine("Book saved to Redis");
+Console.WriteLine("Saved book in Redis.");
 
 var aBook = books.FindById(book.Pk.ToString());
+
+Console.WriteLine("Retrieved from Redis:");
+Console.WriteLine(JsonSerializer.Serialize(aBook));
+
 aBook!.Author = "Redis University";
 books.Update(aBook);
 Console.WriteLine("Updated author and saved to Redis:");
