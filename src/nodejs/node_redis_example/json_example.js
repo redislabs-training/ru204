@@ -17,11 +17,11 @@ const BOOK = {
   inventory: [
     {
       status: 'available',
-      stock_id: 99999_1
+      stock_id: '99999_1'
     },
     {
       status: 'on_loan',
-      stock_id: 99999_2
+      stock_id: '99999_2'
     }
   ],
   metrics: {
