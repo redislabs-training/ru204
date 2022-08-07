@@ -24,4 +24,4 @@ Now, run the code with the Maven wrapper provided:
 
 ## View the Code
 
-The code is contained in [`ExampleApplication.java`](.src/main/java/com/redis/om/spring/example/ExampleApplication.java).
+The code is contained in [`ExampleApplication.java`](./src/main/java/com/redis/om/spring/example/ExampleApplication.java).
