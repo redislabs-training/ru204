@@ -6,14 +6,16 @@ The following example demonstrates data modeling with RedisJSON and the [Redis O
 
 * You'll need [Java 11](https://sdkman.io/sdks) or higher installed.
 * You will need an instance of Redis Stack.  See the [setup instructions](/README.md) in the README at the root of this repo.
-* If you are running your Redis Stack instance in the cloud or somewhere that isn't localhost:6379, you'll need to set the `REDIS_URL` environment variable to point at your instance before running the code.  If you need help with the format for this, check out the [Redis URI scheme specification](https://www.iana.org/assignments/uri-schemes/prov/redis).
+* If you are running your Redis Stack instance in the cloud or somewhere that isn't localhost:6379, you'll need to edit the [`application.properties`](./src/main/resources/application.properties) file (in `src/main/resources`) and provide the host, port and, if necessary, password for your Redis Stack instance.
 
 ## Run the Code
 
-Ensure that your Redis Stack instance is running, and that you have set the `REDIS_URL` environment variable if necessary.  Example:
+Ensure that your Redis Stack instance is running, and that you have edited the [`application.properties`](./src/main/resources/application.properties) file (in `src/main/resources`) if you aren't running Redis Stack at localhost:6379.  Example:
 
-```bash
-export REDIS_URL=redis://user:password@host:port
+```
+spring.redis.host=somehost.somedomain.com
+spring.redis.port=9999
+spring.redis.password=superSecretShhhh9823
 ```
 
 Now, run the code with the Maven wrapper provided:
