@@ -14,4 +14,4 @@ After the prerequisites are met, simply run `dotnet run` from this directory.
 
 ## Where is the Code?
 
-The Model code for this example is spread across `Book.cs`, `InventoryItem.cs`, `Metrics.cs`, the actual logic for creating and inserting the model into Redis is performed in `Program.cs`.
+The Model code for this example is spread across [`Book.cs`](./Book.cs), [`InventoryItem.cs`](./InventoryItem.cs), [`Metrics.cs`](./Metrics.cs), the actual logic for creating and inserting the model into Redis is performed in [`Program.cs`](Program.cs).
