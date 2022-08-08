@@ -10,14 +10,13 @@ The following example demonstrates the execution of RedisJSON commands using the
 
 ## How to Run the App
 
-After the prerequisites are met, all you need to do to run the app is to run the following commands in your terminal:
+After the prerequisites are met, all you need to do to run the app is to run the following command in your terminal:
 
 ```bash
-cd StackExchange.Redis.Example
 dotnet run
 ```
 
 ## Where is the Code?
 
-The code for this example is located in [`StackExchange.Redis.Example/Program.cs`](StackExchange.Redis.Example/Program.cs).
+The code for this example is located in [`Program.cs`](Program.cs).
 
