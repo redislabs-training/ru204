@@ -44,8 +44,6 @@ public class App
         System.out.println(objResponse);
 
         // Add one to the number of rating_votes:
-        // Response will be: void
-        // Requires Jedis 4.3? Might have to use executeCommand meantime?
         JSONArray arrResponse = r.jsonNumIncrBy(BOOK_KEY, Path2.of("$.metrics.rating_votes"), 1d);
         System.out.println("rating_votes incremented to " + arrResponse.getInt(0));
 
