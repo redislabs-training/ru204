@@ -28,7 +28,7 @@ print_results("Star in title, >500 pages", result_set)
 # Search for books with 'Star' but not 'War' in the title, and
 # which don't have 'space' in the description.
 result_set = Book.find(
-    (Book.title % "Star") & ~(Book.title % "War") & (Book.description % "space")
+    (Book.title % "Star") & ~(Book.title % "War") & ~(Book.description % "space")
 ).all()
 
 print_results("'Star' and not 'War' in title, no 'space' in description", result_set)
