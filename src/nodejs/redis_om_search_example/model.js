@@ -5,10 +5,10 @@ class Book extends Entity { };
 export const bookSchema = new Schema(Book, {
   author: { type: 'string' },
   id: { type: 'string' },
-  description: { type: 'string' },
+  description: { type: 'text' },
   genres: { type: 'string[]' },
   pages: { type: 'number' },
-  title: { type: 'string' },
+  title: { type: 'text' },
   url: { type: 'string' },
   yearPublished: { type: 'number' },
   // Redis OM Node does not yet support embedded objects, 

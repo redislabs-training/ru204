@@ -12,9 +12,25 @@ const bookRepository = client.fetchRepository(bookSchema);
 
 const fileNames = await readdir(FILE_PATH);
 for (const fileName of fileNames) {
-  console.log(`${FILE_PATH}${pathSeparator}${fileName}`);
   const bookData = JSON.parse(await readFile(`${FILE_PATH}${pathSeparator}${fileName}`));
-  console.log(bookData);
+  const newBook = bookRepository.createEntity({
+    author: bookData.author,
+    id: bookData.id,
+    description: bookData.description,
+    genres: bookData.genres,
+    pages: bookData.pages,
+    title: bookData.title,
+    url: bookData.url,
+    yearPublished: bookData.year_published,
+    ratingVotes: bookData.metrics.rating_votes,
+    score: bookData.metrics.score
+  });
+
+  await bookRepository.save(newBook);
+  console.log(`Stored book ${newBook.title}.`);
 }
+
+await bookRepository.createIndex();
+console.log('Created search index.');
 
 await client.close();
