@@ -16,12 +16,12 @@ class InventoryItem(EmbeddedJsonModel):
 class Book(JsonModel):
     author: str = Field(index=True)
     id: str = Field(index=True)
-    description: str = Field(index=True)
+    description: str = Field(index=True, full_text_search=True)
     genres: List[str] = Field(index=True)
     inventory: List[InventoryItem]
     metrics: Metrics
     pages: PositiveInt = Field(index=True)
-    title: str = Field(index=True)
+    title: str = Field(index=True, full_text_search=True)
     url: AnyHttpUrl = Field(index=True)
     year_published: PositiveInt = Field(index=True)
 
