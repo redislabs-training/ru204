@@ -1,0 +1,26 @@
+{
+  "name": "redis_om_search_json_example",
+  "version": "0.0.1",
+  "description": "Redis OM Search JSON example for Node.js",
+  "scripts": {
+    "load": "node load_data.js",
+    "search": "node search_om_example.js"
+  },
+  "author": "Redis University",
+  "license": "MIT",
+  "dependencies": {
+    "redis-om": "^0.3.6"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redislabs-training/ru204.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redislabs-training/ru204/issues"
+  },
+  "homepage": "https://github.com/redislabs-training/ru204#readme",
+  "engines": {
+    "node": ">=14.8"
+  }
+}
