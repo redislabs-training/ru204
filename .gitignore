@@ -9,3 +9,6 @@ __pycache__/
 venv/
 .vscode
 .idea
+**/.settings/
+**/.classpath
+**/.project
