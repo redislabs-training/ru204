@@ -39,4 +39,4 @@ result_set = Book.find(
     (Book.author == "Robert A. Heinlein") & (Book.year_published > 1958) & (Book.year_published < 1974)
 ).sort_by("-year_published")
 
-print_results("Robert Heinlein books published x to y", result_set)
+print_results("Robert Heinlein books published 1959 to 1973", result_set)
