@@ -16,9 +16,15 @@ Delete any data currently in Redis, using the following command in `redis-cli` o
 FLUSHDB
 ```
 
-## How to Run the App
+## Load the Sample Data
 
-After the prerequisites are met, simply run `dotnet run` from this directory.  This will load the sample data, build the search index and run the example search queries for you.
+After the prerequisites are met, simply run `dotnet run load` from this directory. 
+
+## Run the Sample Queries
+
+```
+dotnet run search
+```
 
 ## Where is the Code?
 

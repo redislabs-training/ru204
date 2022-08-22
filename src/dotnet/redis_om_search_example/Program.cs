@@ -2,27 +2,44 @@
 using redis_om_search_example;
 using Redis.OM;
 
-var provider = new RedisConnectionProvider("redis://localhost:6379");
-var indexCreated = provider.Connection.CreateIndex(typeof(Book));
-var books = provider.RedisCollection<Book>();
-
-if (indexCreated)
+if (args.Length != 1 || (args[0] != "load" && args[0] != "search"))
 {
-    var insertionTasks = new List<Task>();
-    foreach (var file in Directory.GetFiles("../../../data/books"))
-    {
-        var book = JsonSerializer.Deserialize<Book>(await File.ReadAllTextAsync(file));
-        if (book == null)
-        {
-            continue;
-        }
-
-        insertionTasks.Add(books.InsertAsync(book));
-    }
-
-    await Task.WhenAll(insertionTasks);
+    Console.WriteLine("Usage: dotnet run load|search");
+    System.Environment.Exit(1);
 }
 
+var action = args[0];
+var provider = new RedisConnectionProvider("redis://localhost:6379");
+var books = provider.RedisCollection<Book>();
+
+if (action == "load")
+{
+    var indexCreated = provider.Connection.CreateIndex(typeof(Book));
+
+    if (indexCreated)
+    {
+        var insertionTasks = new List<Task>();
+        foreach (var file in Directory.GetFiles("../../../data/books"))
+        {
+            var book = JsonSerializer.Deserialize<Book>(await File.ReadAllTextAsync(file));
+            if (book == null)
+            {
+                continue;
+            }
+
+            insertionTasks.Add(books.InsertAsync(book));
+            Console.WriteLine($"Stored book {book.title}");
+        }
+
+        await Task.WhenAll(insertionTasks);
+    } else {
+        Console.WriteLine("Nothing to do - data was already loaded.");
+    }
+
+    System.Environment.Exit(0);
+}
+
+// Search action...
 
 void PrintResults(string queryDescription, IEnumerable<Book> results)
 {
