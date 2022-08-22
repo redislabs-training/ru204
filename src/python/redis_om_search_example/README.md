@@ -51,4 +51,4 @@ python search_om_example.py
 
 ## View the Code
 
-The code is contained in [`search_om_example.py`](./search_om_example.py).
+The code is contained in [`search_om_example.py`](./search_om_example.py).  The data model is in [`model.py`](./model.py).
