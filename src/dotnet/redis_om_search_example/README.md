@@ -8,9 +8,17 @@ The following example demonstrates data modeling with RedisJSON and the [Redis O
 * You will need an instance of Redis Stack.  See the [setup instructions](/README.md) in the README at the root of this repo.
 * If you are running your Redis Stack instance in the cloud or somewhere that isn't localhost:6379, you'll need to set the `REDIS_OM_URL` environment variable to a valid StackExchange.Redis [connection string](https://stackexchange.github.io/StackExchange.Redis/Configuration#basic-configuration-strings).
 
+## Delete Everything in Redis
+
+Delete any data currently in Redis, using the following command in `redis-cli` or RedisInsight:
+
+```
+FLUSHDB
+```
+
 ## How to Run the App
 
-After the prerequisites are met, simply run `dotnet run` from this directory.
+After the prerequisites are met, simply run `dotnet run` from this directory.  This will load the sample data, build the search index and run the example search queries for you.
 
 ## Where is the Code?
 

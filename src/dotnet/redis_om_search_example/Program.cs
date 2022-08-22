@@ -1,10 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Text.Json;
+﻿using System.Text.Json;
 using redis_om_search_example;
 using Redis.OM;
 
-Console.WriteLine("Hello, World!");
 var provider = new RedisConnectionProvider("redis://localhost:6379");
 var indexCreated = provider.Connection.CreateIndex(typeof(Book));
 var books = provider.RedisCollection<Book>();
@@ -52,4 +49,4 @@ PrintResults("'Star' and not 'War' in title, no 'space' in description", resultS
 // Search for books by Robert Heinlein published between 1959 and 1973,
 // sort by year of publication descending.
 resultSet = books.Where(b => b.author == "Robert A. Heinlein" && b.year_published > 1958 && b.year_published < 1974);
-PrintResults("Robert Heinlein books published x to y", resultSet);
+PrintResults("Robert Heinlein books published 1959 to 1973", resultSet);
