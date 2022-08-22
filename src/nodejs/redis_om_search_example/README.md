@@ -44,4 +44,4 @@ npm run search
 
 ## View the Code
 
-The code is contained in [`search_om_example.js`](./search_om_example.js).
+The code is contained in [`search_om_example.js`](./search_om_example.js).  The data model is in [`model.js`](./model.js).
