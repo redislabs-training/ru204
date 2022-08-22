@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using StackExchange.Redis;
+﻿using StackExchange.Redis;
 
 const string BOOK_KEY = "ru204:book:99999";
 
