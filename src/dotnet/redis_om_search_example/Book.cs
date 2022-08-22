@@ -6,29 +6,29 @@ namespace redis_om_search_example;
 public class Book
 {
     [Indexed]
-    public string author { get; set; }
+    public string? author { get; set; }
 
     [Indexed]
-    public string id { get; set; }
+    public string? id { get; set; }
 
     [Searchable]
-    public string description { get; set; }
+    public string? description { get; set; }
 
     [Indexed]
-    public List<string> genres { get; set; }
+    public List<string>? genres { get; set; }
 
     [Indexed(JsonPath = "$.status")]
     [Indexed(JsonPath = "$.stock_id")]
-    public List<InventoryItem> items { get; set; }
+    public List<InventoryItem>? items { get; set; }
 
     [Indexed(CascadeDepth = 1)]
-    public Metrics metrics { get; set; }
+    public Metrics? metrics { get; set; }
 
     [Indexed]
     public ulong pages { get; set; }
 
     [Searchable]
-    public string title { get; set; }
+    public string? title { get; set; }
 
     [Indexed]
     public ulong year_published { get; set; }
