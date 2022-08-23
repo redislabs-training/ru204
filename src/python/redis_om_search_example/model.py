@@ -20,10 +20,10 @@ class Book(JsonModel):
     genres: List[str] = Field(index=True)
     inventory: List[InventoryItem]
     metrics: Metrics
-    pages: PositiveInt = Field(index=True)
+    pages: PositiveInt = Field(index=True, sortable=True)
     title: str = Field(index=True, full_text_search=True)
     url: AnyHttpUrl = Field(index=True)
-    year_published: PositiveInt = Field(index=True)
+    year_published: PositiveInt = Field(index=True, sortable=True)
 
     # Extra configuration to specify how to generate key
     # names when saving an instance of the model in Redis.
