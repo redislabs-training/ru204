@@ -55,7 +55,7 @@ var resultSet = books.Where(b => b.author == "Stephen King");
 PrintResults("Books by Stephen King", resultSet);
 
 //Search for books with 'Star' in the title that are over 500 pages long, order by length.
-resultSet = books.Where(b => b.title.Contains("Star") && b.pages > 500);
+resultSet = books.Where(b => b.title.Contains("Star") && b.pages > 500).OrderBy(b => b.pages);
 PrintResults("Star in title, >500 pages", resultSet);
 
 // Search for books with 'Star' but not 'War' in the title, and
@@ -65,5 +65,5 @@ PrintResults("'Star' and not 'War' in title, no 'space' in description", resultS
 
 // Search for books by Robert Heinlein published between 1959 and 1973,
 // sort by year of publication descending.
-resultSet = books.Where(b => b.author == "Robert A. Heinlein" && b.year_published > 1958 && b.year_published < 1974);
+resultSet = books.Where(b => b.author == "Robert A. Heinlein" && b.year_published > 1958 && b.year_published < 1974).OrderByDescending(b => b.year_published);
 PrintResults("Robert Heinlein books published 1959 to 1973", resultSet);

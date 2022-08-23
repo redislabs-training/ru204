@@ -24,12 +24,12 @@ public class Book
     [Indexed(CascadeDepth = 1)]
     public Metrics? metrics { get; set; }
 
-    [Indexed]
+    [Indexed(Sortable=true)]
     public ulong pages { get; set; }
 
     [Searchable]
     public string? title { get; set; }
 
-    [Indexed]
+    [Indexed(Sortable=true)]
     public ulong year_published { get; set; }
 }
