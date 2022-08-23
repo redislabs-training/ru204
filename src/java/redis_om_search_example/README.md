@@ -26,21 +26,13 @@ spring.redis.port=9999
 spring.redis.password=superSecretShhhh9823
 ```
 
-Now, run the code with the Maven wrapper provided:
-
-To run both loading and searching phases:
-
-```bash
-./mvnw clean spring-boot:run
-```
-
-Or, to only load the data:
+## Load the Sample Data
 
 ```bash
 ./mvnw clean spring-boot:run -Dspring-boot.run.arguments="--load"
 ```
 
-Or, to only run the searches:
+## Run the Sample Queries
 
 ```bash
 ./mvnw clean spring-boot:run -Dspring-boot.run.arguments="--search"
