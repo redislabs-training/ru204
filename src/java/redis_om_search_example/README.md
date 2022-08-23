@@ -1,4 +1,4 @@
-# RU204 Redis OM Java/Spring Example
+# RU204 Redis OM Java/Spring Search Example
 
 The following example demonstrates data modeling with RedisJSON and the [Redis OM for Java (Spring)](https://github.com/redis/redis-om-spring) client.
 
