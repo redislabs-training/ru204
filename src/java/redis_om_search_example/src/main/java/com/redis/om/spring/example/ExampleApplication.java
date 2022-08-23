@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,10 +15,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.DefaultApplicationArguments;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.annotation.Id;
+
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
@@ -52,67 +55,79 @@ public class ExampleApplication {
       @Value("${project.root}/../../../data/books") String dataFolder //
   ) throws IOException {
     return args -> {
-      // Delete all books from the database
-      repository.deleteAll();
+      var appArgs = new DefaultApplicationArguments(args);
 
-      // Read JSON data file names
-      List<File> jsonFiles = Files //
-          .list(Paths.get(dataFolder))//
-          .map(Path::toFile).filter(File::isFile)
-          .filter(f -> com.google.common.io.Files.getFileExtension(f.getName()).equals("json"))
-          .collect(Collectors.toList());
+      //
+      // Data Loading
+      //
+      if (appArgs.containsOption("load") || args.length == 0) {
+        // Delete all books from the database
+        repository.deleteAll();
 
-      // Load each JSON data file and create a Book model
-      List<Book> books = new ArrayList<Book>();
-      jsonFiles.forEach(file -> {
-        logger.info(String.format("Loading %s", file));
-        try {
-          books.add(gson.fromJson(Files.readString(file.toPath()), Book.class));
-        } catch (IOException e) {
-          logger.error(e.getMessage());
-        }
-      });
-      repository.saveAll(books);
+        // Read JSON data file names
+        List<File> jsonFiles = Files //
+            .list(Paths.get(dataFolder))//
+            .map(Path::toFile).filter(File::isFile)
+            .filter(f -> com.google.common.io.Files.getFileExtension(f.getName()).equals("json"))
+            .collect(Collectors.toList());
 
-      // Search for books written by Stephen King... returns a list
-      // of Book objects.
-      List<Book> resultSet;
+        // Load each JSON data file and create a Book model
+        List<Book> books = new ArrayList<Book>();
+        jsonFiles.forEach(file -> {
+          logger.info(String.format("Loading %s", file));
+          try {
+            books.add(gson.fromJson(Files.readString(file.toPath()), Book.class));
+          } catch (IOException e) {
+            logger.error(e.getMessage());
+          }
+        });
+        repository.saveAll(books);
+      }
 
-      resultSet = entityStream.of(Book.class) //
-          .filter(Book$.AUTHOR.eq("Stephen King")) //
-          .collect(Collectors.toList());
+      //
+      // Searching
+      //
+      if (appArgs.containsOption("search") || args.length == 0) {
+        // Search for books written by Stephen King... returns a list
+        // of Book objects.
+        List<Book> resultSet;
 
-      printResults("Stephen King Books", resultSet);
+        resultSet = entityStream.of(Book.class) //
+            .filter(Book$.AUTHOR.eq("Stephen King")) //
+            .collect(Collectors.toList());
 
-      // Search for books with 'Star' in the title that are over 500
-      // pages long, order by length.
-      resultSet = entityStream.of(Book.class) //
-          .filter(Book$.TITLE.containing("Star")) //
-          .filter(Book$.PAGES.gt(500)) //
-          .sorted(Book$.PAGES, SortOrder.ASC) //
-          .collect(Collectors.toList());
+        printResults("Stephen King Books", resultSet);
 
-      printResults("Star in title, >500 pages", resultSet);
+        // Search for books with 'Star' in the title that are over 500
+        // pages long, order by length.
+        resultSet = entityStream.of(Book.class) //
+            .filter(Book$.TITLE.containing("Star")) //
+            .filter(Book$.PAGES.gt(500)) //
+            .sorted(Book$.PAGES, SortOrder.ASC) //
+            .collect(Collectors.toList());
 
-      // Search for books with 'Star' but not 'War' in the title, and
-      // which don't have 'space' in the description.
-      resultSet = entityStream.of(Book.class) //
-          .filter(Book$.TITLE.containing("Star")) //
-          .filter(Book$.TITLE.notContaining("War")) //
-          .filter(Book$.DESCRIPTION.containing("space")) //
-          .collect(Collectors.toList());
+        printResults("Star in title, >500 pages", resultSet);
 
-      printResults("'Star' and not 'War' in title, no 'space' in description", resultSet);
+        // Search for books with 'Star' but not 'War' in the title, and
+        // which don't have 'space' in the description.
+        resultSet = entityStream.of(Book.class) //
+            .filter(Book$.TITLE.containing("Star")) //
+            .filter(Book$.TITLE.notContaining("War")) //
+            .filter(Book$.DESCRIPTION.containing("space")) //
+            .collect(Collectors.toList());
 
-      // Search for books by Robert Heinlein published between 1959 and 1973,
-      // sort by year of publication descending.
-      resultSet = entityStream.of(Book.class) //
-          .filter(Book$.AUTHOR.eq("Robert A. Heinlein")) //
-          .filter(Book$.YEAR_PUBLISHED.between(1959, 1973)) //
-          .sorted(Book$.YEAR_PUBLISHED, SortOrder.DESC) //
-          .collect(Collectors.toList());
+        printResults("'Star' and not 'War' in title, no 'space' in description", resultSet);
 
-      printResults("Robert Heinlein books published x to y", resultSet);
+        // Search for books by Robert Heinlein published between 1959 and 1973,
+        // sort by year of publication descending.
+        resultSet = entityStream.of(Book.class) //
+            .filter(Book$.AUTHOR.eq("Robert A. Heinlein")) //
+            .filter(Book$.YEAR_PUBLISHED.between(1959, 1973)) //
+            .sorted(Book$.YEAR_PUBLISHED, SortOrder.DESC) //
+            .collect(Collectors.toList());
+
+        printResults("Robert Heinlein books published x to y", resultSet);
+      }
     };
   }
 
