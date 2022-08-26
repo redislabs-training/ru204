@@ -1,0 +1,57 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>In this hands-on exercise you will create the secondary index from the previous module and verify search functionality by running queries.  You should ensure that you have followed the instructions to load the book JSON data from the data loader in the instructions here. If at any time you have any difficulties or questions don&apos;t hesitate to <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">contact us on our Discord</a>.</p>
+<p>To create an index, we'll use the <span class="code">FT.CREATE</span> command. For a full breakdown of the command and its features, <a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">check the command page</a>.</p>
+<p>We&apos;ll be creating an index with the key name <span class="code">index:bookdemo</span>. It will store the author, title, description fields as indexed text data types and pages and the score values within the metrics subdocument as the numeric sortable data types. Lastly, every string within each book's genres array will be indexed as a tag.</p>
+<p>Start redis-cli or RedisInsight, connect to your Redis instance that contains the books data, enter the following command:</p>
+<p><pre class="code">
+FT.CREATE index:bookdemo ON JSON PREFIX 1 "ru204:book:" SCHEMA $.author AS author TEXT $.title AS title TEXT $.description AS description TEXT $.pages AS pages NUMERIC SORTABLE $.year_published AS year_published NUMERIC SORTABLE $.metrics.score AS score NUMERIC SORTABLE $.genres[*] AS genres TAG
+</pre></p>
+<p>Redis should return with:</p>
+<p><pre class="code">
+"OK"
+</pre></p>
+<p>You have successfully created your first index!</p>
+<p>Now let&apos;s run a few basic queries to verify the book documents have been successfully indexed.</p>
+<h2>Search by Text Values</h2>
+<hr>
+<p>Let&apos;s search for a book by the author Sarah Graley.  We'll need to search the @author field, a text field, for her name:
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@author: Sarah Graley"
+</pre></p>
+<p>Redis returns one matching document:</p>
+<p><pre class="code">
+1) "1"
+2) "ru204:book:128"
+3) 1) "$"
+   2) "{\"author\":\"Sarah Graley\",\"id\":\"128\",\"description\":\"From comics rising star Sarah Graley, a fresh and funny middle-grade graphic novel featuring a girl who must save a virtual world... and her own!Izzy has an incredible secret -- she can enter the world of her new video game! She meets Rae, a robot who says Izzy is destined to save Dungeon City from the Big Boss. How is this possible?! And how can she fight for this virtual world when she's got a whole real life to keep up with: her family (though she could do without her mom's annoying cat), and her best friend, Eric. Things get even weirder when Izzy loses a life while inside the game, and she starts to worry about what might happen if she gets a Game Over for good. Meanwhile, Eric has been super upset with Izzy since she's been keeping secrets and bailing on their plans. Can Izzy survive Dungeon City and save their friendship?\",\"editions\":[\"english\",\"spanish\",\"french\"],\"genres\":[\"adventure\",\"childrens\",\"childrens (middle grade)\",\"fantasy\",\"fiction\",\"graphic novels comics\",\"science fiction\",\"sequential art (comics)\",\"sequential art (graphic novels)\",\"young adult\"],\"inventory\":[{\"status\":\"on_loan\",\"stock_id\":\"128_1\"},{\"status\":\"on_loan\",\"stock_id\":\"128_2\"},{\"status\":\"maintenance\",\"stock_id\":\"128_3\"},{\"status\":\"available\",\"stock_id\":\"128_4\"},{\"status\":\"on_loan\",\"stock_id\":\"128_5\"},{\"status\":\"available\",\"stock_id\":\"128_6\"},{\"status\":\"available\",\"stock_id\":\"128_7\"},{\"status\":\"on_loan\",\"stock_id\":\"128_8\"}],\"metrics\":{\"rating_votes\":943,\"score\":3.89},\"pages\":1216,\"title\":\"Glitch\",\"url\":\"https://www.goodreads.com/book/show/41473811-glitch\",\"year_published\":2019}"
+</pre></p>
+<p>If you see the same result, we have success!</p>
+<ul>
+    <li>The first line <span class="code">1) "1"</span> lets us know how many total documents we have in our query results.</li>
+    <li>The second line <span class="code">2) "ru204:book:128"</span> gives us the document&apos;s key.</li>
+    <li>The third line is the actual document stored in Redis.</li>
+</ul>
+<h2>Querying Numeric values</h2>
+<hr>
+<p>Now let&apos;s find an entry with a numeric value. Let&apos;s find out how many books are between 350 and 500 pages in length. To keep the return value short, we&apos;ll only ask for the number of documents found, not the content (we&apos;ll cover this in a later section):</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo '@pages:[350 500]' LIMIT 0 0
+</p></pre>
+<p>Redis should return this number:</p>
+<p><pre class="code">
+1) "182"
+</pre></p>
+<p>This means that Redis found 182 book documents that have anywhere between 350 and 500 pages.</p>
+<h2>Querying Tag values</h2>
+<p>Finally, let&apos;s search the genres arrays for the specific tag "speculative fiction":</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@genres:{speculative fiction}" LIMIT 0 0
+</pre></p>
+<p>Redis should respond with the number 287:</p>
+<p><pre class="code">
+1) "287"
+</pre></p>
+<p>This means we have 287 book documents that contain the "speculative fiction" tag in their genres array.</p>
+<p>If you have successfully executed the three queries above with the same results we have, you are ready to proceed with this section! Great work!</p>

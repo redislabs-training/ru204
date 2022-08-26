@@ -1,0 +1,45 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Now that you&apos;ve seen how the Redis OM clients make querying JSON documents in Redis more developer friendly, it&apos;s time to try working with your favorite programming language and the sample data provided!</p>
+<p>If you&apos;re not a coder, don&apos;t worry - this is an ungraded exercise!</p>
+<h2>Setup</h2>
+<hr/>
+<p>First, pick a Redis OM client for your preferred programming language, and follow the instructions in the <span class="code">README</span> file to load the sample data into Redis and run the queries provided:</p>
+<ul>
+  <li>Python - <a href="https://github.com/redislabs-training/ru204/tree/main/src/python/redis_om_search_example" target="_blank" class="page-link">start here</a>.</li>
+  <li>Node.js - <a href="https://github.com/redislabs-training/ru204/tree/main/src/nodejs/redis_om_search_example" target="_blank" class="page-link">start here</a>.</li>
+  <li>.NET (C#) - <a href="https://github.com/redislabs-training/ru204/tree/main/src/dotnet/redis_om_search_example" target="_blank" class="page-link">start here</a>.</li>
+  <li>Java (Spring) - <a href="https://github.com/redislabs-training/ru204/tree/main/src/java/redis_om_search_example" target="_blank" class="page-link">start here</a>.</li>
+</ul>  
+<p>Note: if you choose to repeat this exercise in more than one of the supported languages, you must flush the Redis database and reload the data for each new language that you try, using the instructions provided at the links above.</p>
+<h2>Verify the Data Set</h2>
+<hr/>
+<p>Next, quickly use the using redis-cli or RedisInsight to verify that your data loaded correctly.  Run the following command:</p>
+<p><pre class="code">
+DBSIZE
+</pre></p>
+<p>Redis should return:</p>
+<ul>
+  <li>Python: 1487</li>
+  <li>Node.js: 1487</li>
+  <li>.NET: 1486</li>
+  <li>Java: 1487</li>
+</ul>
+<p>The <span class="code"><a href="https://redis.io/commands/dbsize/" target="_blank" class="page-link">DBSIZE</a></span> command returns the number of keys currently set in Redis.  Some of the Redis OM clients use an additional key to store information about the state of the search index in Redis - this is why the output of <span class="code"><a href="https://redis.io/commands/dbsize/" target="_blank" class="page-link">DBSIZE</a></span> varies depending on the language you&apos;re working with here.</p>
+<p>Take a moment to look at how the example queries are formed in each language, and how the results are output to the console.  You may also want to refer to the documentation for the Redis OM client that you&apos;re working with:</p>
+<ul>
+  <li><a href="https://github.com/redis/redis-om-python" target="_blank" class="page-link">Python</a></li>
+  <li><a href="https://github.com/redis/redis-om-node" target="_blank" class="page-link">Node.js</a></li>
+  <li><a href="https://github.com/redis/redis-om-dotnet" target="_blank" class="page-link">.NET (C#)</a></li>
+  <li><a href="https://github.com/redis/redis-om-spring" target="_blank" class="page-link">Java (Spring)</a></li>
+</ul>  
+<p>Now, try adding 2-3 extra search queries of your own design.  For example you might want to search for books that are between 500 and 1000 pages long, published between 1950 and 1999.  Experiment with the different fields, search operators and sort capabilities.</p>
+<p>While running your queries, use the Redis <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command to see the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> commands that Redis OM translates your code into.</p>
+<p>To run <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> from redis-cli, open a new terminal window and start redis-cli, then simply enter the command:</p>
+<p><pre class="code">
+MONITOR
+</pre></p>
+<p>To use <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> in RedisInsight, <a href="https://docs.redis.com/latest/ri/using-redisinsight/profiler/" target="_blank" class="page-link">check out the Profiler documentation</a>.</p>
+<p>Should you need help or would like to share your success with Redis staff and your fellow students, reach out to us on the <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">course Discord channel</a>.</p>
+<p>Best of luck!</p>

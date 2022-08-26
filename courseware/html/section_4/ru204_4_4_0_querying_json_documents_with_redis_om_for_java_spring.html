@@ -1,0 +1,94 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Let&apos;s see how Redis OM for Spring allows us to store and query JSON documents in a more developer friendly way than using the lower level <a href="https://github.com/redis/jedis" target="_blank" class="page-link">Jedis client</a> and the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command directly.</p>
+<p>In this module, we&apos;ll refer to the source code contained in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/java/redis_om_search_example" target="_blank" class="page-link">src/java/redis_om_search_example</a></span> folder of the course GitHub repository.  We suggest that you have this folder open in a separate browser tab, or your preferred IDE while studying this module.</p>
+<h2>Data Model</h2>
+<hr/>
+<p>For this example, we&apos;ll continue using our Book data model that you saw in section 2 when we saw how to save JSON documents in Redis with Redis OM for Spring.  It&apos;s now time to add indexing and search capabilities to this, so let&apos;s take a look at what's changed since section 2...</p>
+<p>The data model is defined in the <span class="code">Book</span>, <span class="code">Metrics</span> and <span class="code">InventoryItem</span> classes which can all be found in the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/java/redis_om_search_example/src/main/java/com/redis/om/spring/example/ExampleApplication.java" target="_blank" class="page-link">ExampleApplication.java</a></span>.  Let&apos;s look at our updated Book class which now has additional annotations to tell Redis OM Spring how to create a RediSearch index for it:</p>
+<p><pre class="code">
+@Data
+@RequiredArgsConstructor(staticName = "of")
+@Document
+class Book {
+  @Indexed @Id
+  private String id;
+  @Indexed @NonNull
+  private String author;
+  @Searchable @NonNull
+  private String description;
+  @NonNull
+  private List<String> editions;
+  @Indexed @NonNull
+  private List<String> genres;
+  @Indexed @NonNull
+  private Integer pages;
+  @Searchable @NonNull
+  private String title;
+  @NonNull
+  private URL url;
+  @NonNull
+  @Indexed
+  private Integer year_published;
+  @NonNull
+  private Metrics metrics;
+
+  private List<InventoryItem> inventory;
+
+  @Override
+  public String toString() {
+    return String.format("%s by %s %s pages, published %s.", title, author, pages, year_published);
+  }
+}  
+</pre></p>
+<p>We tell Redis OM that it should index a data field using <span class="code">@Indexed</span> or <span class="code">@Searchable</span>.</p>
+<p>String fields decorated with <span class="code">@Indexed</span> will be indexed as <span class="code">TAG</span> in the RediSearch index.  Numeric data types such as <span class="code">Integer</span> will be indexed as <span class="code">NUMERIC</span>.</p>
+<h2>Creating the Search Index</h2>
+<hr/>
+<p>Redis OM Spring manages the creation of the RediSearch index for us, there&apos;s no need for us to use the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command directly, know its syntax or write any specific code.</p>
+<p>Adding documents to the index is then as simple as creating new instances of a model and saving them in Redis.  This process is the same as you saw in section 2, let&apos;s create a new <span class="code">Book</span> and save it using a <span class="code">BookRepository</span>:</p>
+<p><pre class="code">
+Book newBook = Book.of(
+    "Redis University",
+    "Redis: An Introduction",
+    // Other fields…
+);
+
+repository.save(newBook);
+</pre></p>
+<p>RediSearch automatically adds the book to the search index for us, and keeps the index updated with any future changes to the book&apos;s JSON document in Redis.</p>
+<p>That&apos;s all there is to it!</p>
+<h2>Querying the Index</h2>
+<hr/>
+<p>Redis OM for Spring also provides us with a Java 8 streams interface to query collections of JSON documents stored in Redis.  This operates at a higher level of abstraction than the underlying <a href="https://github.com/redis/jedis" target="_blank" class="page-link">Jedis</a> client, and doesn't require you to learn the query syntax for the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command.</p>
+<p>Open the file  <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/java/redis_om_search_example/src/main/java/com/redis/om/spring/example/ExampleApplication.java" target="_blank" class="page-link">ExampleApplication.java</a></span> to follow along.</p>
+<p>Let&apos;s begin by finding books written by Stephen King:</p>
+<p><pre class="code">
+EntityStream entityStream;
+List<Book> resultSet;
+
+resultSet = entityStream.of(Book.class) //
+  .filter(Book$.AUTHOR.eq("Stephen King")) //
+  .collect(Collectors.toList());
+</pre></p>
+<p>Here, we&apos;re saying "Find all books where the author field has the value Stephen King".  <span class="code">resultSet</span> will contain a list of matching <span class="code">Book</span> instances.  Redis OM Spring handles translating this query to the correct <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command invocation, running it, and parsing the results.  As the author field was indexed as a <span class="code">TAG</span>, we can use <span class="code">eq</span> to get an exact match on "Stephen King".</p>
+<p>When working with fields that were indexed as <span class="code">TEXT</span>, we can use containing to perform a full-text search.  We can also combine search clauses, here we&apos;ll look for books with "Star" in the title field that are also over 500 pages long:</p>
+<p><pre class="code">
+resultSet = entityStream.of(Book.class) //
+  .filter(Book$.TITLE.containing("Star")) //
+  .filter(Book$.PAGES.gt(500)) //
+  .sorted(Book$.PAGES, SortOrder.ASC) //
+  .collect(Collectors.toList());
+</pre></p>
+<p>Note that as well as combining search clauses, we&apos;re asking Redis OM to sort the results by the number of pages in ASCending order.  If we wanted a descending sort, we&apos;d use:</p>
+<p><pre class="code">
+.sorted(Book$.PAGES, SortOrder.DESC)
+</pre></p>
+<p>When querying numeric fields by range, we can use <span class="code">between</span>.  Let&apos;s find books published between 1959 and 1973 inclusive:</p>
+<p><pre class="code">
+resultSet = entityStream.of(Book.class) //
+  .filter(Book$.YEAR_PUBLISHED.between(1959, 1973)) //
+  .collect(Collectors.toList());
+</pre></p>
+<p>To learn more about Redis OM for Spring&apos;s query syntax, please <a href="https://github.com/redis/redis-om-spring" target="_blank" class="page-link">refer to the documentation</a> and <a href="https://developer.redis.com/develop/java/spring/redis-om/redis-om-spring" target="_blank" class="page-link">tutorial</a>.</p>

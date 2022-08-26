@@ -1,0 +1,77 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important; }
+</style>
+<p>RedisJSON is a component within Redis Stack that lets you store, update and retrieve JSON documents in Redis as a native data type. With RedisJSON, documents can be updated atomically and efficiently in-place in Redis.  Your application code no longer needs to read an entire document from Redis or deal with serialization and deserialization in order to update or retrieve document fragments.</p>
+<p>RedisJSON allows users to store a JSON document at a single Redis key regardless of depth or child data types. There are no additional keys or data structure mappings required. JSON document fragments can also be viewed and modified without retrieving the entire object - saving a lot of custom application code, time and network bandwidth.</p>
+<p>Here are some key features of RedisJSON:</p>
+<ul>
+  <li>Full support for the JSON standard: JSON created and utilized by programming languages and their frameworks can be natively stored in Redis.</li>
+  <li>JSONPath syntax for selecting/updating elements inside documents: individual and multiple values can be selected and retrieved using the standard JSONPath syntax.</li>
+  <li>New commands enabling atomic operations on all JSON value types.</li>
+</ul>
+<h2>Commands</h2>
+<hr>
+<p>RedisJSON adds many new commands to Redis. All RedisJSON commands have the "JSON." prefix.  To store or update a document, we use <span class="code">JSON.SET</span>.  To retrieve either a complete document or a fragment of one, we'll use <span class="code">JSON.GET</span>.</p>
+<p>In this section, we'll introduce some RedisJSON commands, using the following simple document as our data source:</p>
+<p><pre class="code">
+{
+    "base_id": 18161,
+    "author": " Jennifer L. Armentrout",
+    "title": "Obsidian",
+    "pages": 999,
+    "inventory": [
+        {
+            "stock_number": "18161_1",
+            "status": "on_loan"
+        },
+        {
+            "stock_number": "18161_3",
+            "status": "maintenance"
+        }
+    ],
+    "genres": [
+        "Young Adult",
+        "Fantasy",
+        "Science Fiction (Aliens) ",
+        "Science Fiction"
+    ]
+}
+</pre></p>
+<h3>1. Storing a JSON Document</h3>
+<p>To create a new JSON document in Redis, use the <span class="code">JSON.SET</span> command:</p>
+<p><span class="code">JSON.SET ru204:book:18161 $ '{"base_id":18161,"author":"Jennifer L. Armentrout","title":"Obsidian","pages":999,"inventory":[{"stock_number":"18161_1","status":"on_loan"},{"stock_number":"18161_3","status":"maintenance"}],"genres":["Young Adult","Fantasy","Science Fiction (Aliens)","Science Fiction"]}'</span></p>
+<p>Redis responds with:<br/>
+<span class="code">"OK"</span>
+</p>
+<p>Notice the dollar sign <span class="code">$</span> after the key name and before the JSON string in single quotes. This is a JSONPath that represents the root of the document. We'll see how to use this path to perform partial updates on existing documents later.</p>
+<img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@Screen_Shot_2022-07-26_at_9.52.07_AM.png">
+<p>If you are using RedisInsight, you should see the document displayed as above when you navigate to <span class="code">ru204:book/Keys/book:18161</span> in the key browser.</p>
+<h3>2. Setting a value within an existing JSON Document</h3>
+<p>The <span class="code">JSON.SET</span> command is also used to update existing documents.  For example, to change the number of pages in our book, we need to update the value of the "pages" field.  As this field is at the root level, we use the JSONPath <span class="code">$.pages</span> to identify it. To change the number of pages from 999 to 1025 for the book whose ID is 18161, use this command:</p>
+<p>
+    <span class="code">
+        JSON.SET ru204:book:18161 $.pages 1025
+    </span>
+</p>
+<p>Redis responds with:</p>
+<p>
+    <span class="code">"OK"</span>
+</p>
+<p><span class="code">$.pages</span> refers to the pages field within the JSON document.</p>
+<p>The JSONPath selector syntax to access embedded objects and arrays is similar to using dot notation when working with objects in JavaScript, or square brackets when working with dictionaries in Python.</p>
+<h3>3. Accessing a JSON Document</h3>
+<p>Use the <span class="code">JSON.GET</span> command to retrieve RedisJSON documents from Redis. <span class="code">JSON.GET</span> can be used to retrieve the entire document, multiple fields, or a single field.</p>
+<p>Let's get the entire document for book 18161:</p>
+<p>
+    <span class="code">
+      JSON.GET ru204:book:18161 $
+    </span>
+</p>
+<p>Redis returns an array containing the JSON for book 18161:</p>
+<p>
+<span class="code">
+    "[{\"base_id\":18161,\"author\":\"Jennifer L. Armentrout\",\"title\":\"Obsidian\",\"pages\":999,\"inventory\":[{\"stock_number\":\"18161_1\",\"status\":\"on_loan\"},{\"stock_number\":\"18161_3\",\"status\":\"maintenance\"}],\"genres\":[\"Young Adult\",\"Fantasy\",\"Science Fiction (Aliens) \",\"Science Fiction\"]}]"
+</span>
+</p>
+<p>In the next module we'll examine how to use JSONPath expressions to retrieve single fields and parts of a document.</p>
+  

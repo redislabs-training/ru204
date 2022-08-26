@@ -1,0 +1,103 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>In this exercise we will examine how to manage the number of fields returned from each document that matched a query and how to enforce pagination to keep our queries efficient and fast.</p>
+<p>Let's find the top 5 highest rated book titles in 2015:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@year_published:[2015 2015]" SORTBY score DESC RETURN 2 title score LIMIT 0 5
+</pre></p>
+<p>Redis returns 5 books out of a possible 86 documents total:</p>
+<p><pre class="code">
+1) "86"
+2) "ru204:book:12596"
+3) 1) "score"
+   2) "4.44"
+   3) "title"
+   4) "Golden Son"
+4) "ru204:book:457"
+5) 1) "score"
+   2) "4.42"
+   3) "title"
+   4) "What Could Possibly Go Wrong"
+6) "ru204:book:244"
+7) 1) "score"
+   2) "4.39"
+   3) "title"
+   4) "Star Wars: Jedi Academy 3: The Phantom Bully"
+8) "ru204:book:1857"
+9) 1) "score"
+   2) "4.37"
+   3) "title"
+   4) "The Hollow Boy"
+10) "ru204:book:35"
+11) 1) "score"
+   2) "4.37"
+   3) "title"
+   4) "Johannes Cabal and the Blustery Day: And Other Tales of the Necromancer"
+</pre></p>
+<p>Let&apos;s find the next 5 highest rated books in 2015:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@year_published:[2015 2015]" SORTBY score DESC RETURN 2 title score LIMIT 5 5
+</pre></p>
+<p>Redis returns the next five books in the descending list of highest rated books in 2015:</p>
+<p><pre class="code">
+1) "86"
+2) "ru204:book:2350"
+3) 1) "score"
+   2) "4.31"
+   3) "title"
+   4) "The Fate of Ten"
+4) "ru204:book:25"
+5) 1) "score"
+   2) "4.29"
+   3) "title"
+   4) "Ricky Ricotta's Mighty Robot vs. The Naughty Nightcrawlers From Neptune"
+6) "ru204:book:6301"
+7) 1) "score"
+   2) "4.27"
+   3) "title"
+   4) "Children of Time"
+8) "ru204:book:6050"
+9) 1) "score"
+   2) "4.27"
+   3) "title"
+   4) "Firefight"
+10) "ru204:book:789"
+11) 1) "score"
+   2) "4.25"
+   3) "title"
+   4) "Akarnae"
+</pre></p>
+<p>Knowing that there are 86 books in total for 2015, let&apos;s find the lowest 5 scoring books without changing the sortby order. If we know the total number of documents in our results, we can subtract 5 from the total to calculate our offset then request the five total documents starting at that offset in our result set:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@year_published:[2015 2015]" SORTBY score DESC RETURN 2 title score LIMIT 81 5
+</pre></p>
+<p>Redis returns the 5 lowest scoring books of 2015:</p>
+<p><pre class="code">
+1) "86"
+2) "ru204:book:6473"
+3) 1) "score"
+   2) "3.38"
+   3) "title"
+   4) "The Heart Goes Last"
+4) "ru204:book:1342"
+5) 1) "score"
+   2) "3.3"
+   3) "title"
+   4) "Gold Fame Citrus"
+6) "ru204:book:3324"
+7) 1) "score"
+   2) "3.26"
+   3) "title"
+   4) "Aftermath"
+8) "ru204:book:63"
+9) 1) "score"
+   2) "2.93"
+   3) "title"
+   4) "Weighing Shadows"
+10) "ru204:book:28"
+11) 1) "score"
+   2) "2.92"
+   3) "title"
+   4) "In the Deep Dark Deep"
+</pre></p>

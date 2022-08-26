@@ -1,0 +1,31 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold;}
+</style>
+<p>The goal of this exercise is to become familiar with storing and retrieving simple JSON documents in Redis.  If you have any questions or difficulties, don't hesitate to ask for clarification in the <a href="https://discord.com/channels/697882427875393627/910996015266558022" target="new" class="page-link">ru204</a> channel in Discord, we are more than happy to help.</p>
+<p>Before continuing with this challenge, you should have a Redis instance running with the RU204 data loaded.  If you haven't done so already, refer to the instructions <a href="https://github.com/redislabs-training/ru204/blob/main/README.md" target="new" class="page-link">here</a>.</p>
+<h2>Document creation</h2>
+<hr>
+<h3>1. Store a JSON Document in Redis</h3>
+<p>To create a new JSON document in Redis, use the <span class="code">JSON.SET</span> command.  The command format is:</p>
+<p><span class="code">JSON.SET KEY $ JSONSTRING</span></p>
+<ul>
+  <li><p><span class="code">KEY</span>: The name of the Redis key that the document will be stored at.  The key naming convention is at the discretion of the developer. We recommend using colons `:` between words to build up a key name that describes the contents of the document. For RU204, the data set consists of documents each of which is about a book. Each book has its own unique ID. Therefore, our keys have the format <span class="code">ru204:book:&lt;book_id&gt;</span>. For this exercise you'll store a document whose key is <span class="code">ru204:exercise:1.2.1</span></p></li>
+  <li><span class="code">$</span>: this is the JSONPath symbol representing the root level of the new document. When updating an existing document, you use a JSONPath expression representing the section of the document to modify. You should always use <span class="code">$</span> as the JSONPath  when creating a new document.</li>
+  <li><span class="code">JSONSTRING</span>: This is the JSON encoded string representing the document to store. Ensure that the JSON string uses double quotes around the properties and string values.  The entire JSONSTRING must be wrapped in single quotes. For this example the JSONSTRING will be: 
+<p><span class="code">'{"course":"ru204", "exercise": "1.2.1", "status":"complete"}'</span></p>
+</li>
+</ul>
+<p>In RedisInsight or at the redis-cli, enter the complete command:</p>
+<p><span class="code">JSON.SET ru204:exercise:1.2.1 $  '{"course":"ru204", "exercise": "1.2.1", "status":"complete"}'</span></p>
+<p>If you receive an <span class="code">"OK"</span> response from Redis then you have successfully stored your first JSON document in Redis!</p>
+<h3>2. Retrieve an existing JSON Document from Redis</h3>
+<p>Now that we have stored our first JSON document into our database, we can retrieve all or a some of it back with the <span class="code">JSON.GET</span> command. The command structure is similar to the <span class="code">JSON.SET</span> command in the previous step:</p>
+<p><span class="code">JSON.GET ru204:exercise:1.2.1 $</span></p>
+<p>After the <span class="code">JSON.GET</span> command, we provide the name of the  key we want followed by the JSONPath expression <span class="code">$</span>, meaning that we want to retrieve all of the document from its root. This command returns the document contained within square brackets in quotes:
+<p><span class="code">"[{\"course\":\"ru204\",\"exercise\":\"1.2.2\",\"status\":\"complete\"}]"</span></p>
+<p>Lets try retrieving a book object from the preloaded data set. Call <span class="code">JSON.GET</span> on the book with the key <span class="code">ru204:book:687</span>:</p>
+<p><span class="code">JSON.GET ru204:book:687 $</span></p>
+<p>Redis returns the following response containing the JSON document stored at <span class="code">ru204:book:687</span>.</p>
+<p><span class="code">"[{\"author\":\"David Brin\",\"id\":\"687\",\"description\":\"In all the universe, no species reached for the stars without \xe2\x80\x9cuplift\xe2\x80\x9d guidance, except possibly humankind. Did some cryptic patron race begin the job long ago, then abandon us? Or did we leap all by ourselves? That question burns, yet a greater mystery looms ahead, in the furnace of a star. Under the caverns of Mercury, Expedition Sundiver prepares for the most momentous voyage in our history \xe2\x80\x93 into the boiling inferno of the sun, seeking our destiny in the cosmic order of life.\",\"editions\":[\"english\"],\"genres\":[\"fantasy\",\"fiction\",\"mystery\",\"novels\",\"science fiction\",\"science fiction (aliens)\",\"science fiction fantasy\",\"space\",\"space (space opera)\",\"speculative fiction\"],\"inventory\":[{\"status\":\"available\",\"stock_id\":\"687_1\"},{\"status\":\"available\",\"stock_id\":\"687_2\"},{\"status\":\"on_loan\",\"stock_id\":\"687_3\"},{\"status\":\"available\",\"stock_id\":\"687_4\"},{\"status\":\"maintenance\",\"stock_id\":\"687_5\"},{\"status\":\"on_loan\",\"stock_id\":\"687_6\"},{\"status\":\"available\",\"stock_id\":\"687_7\"}],\"metrics\":{\"rating_votes\":23721,\"score\":3.69},\"pages\":710,\"title\":\"Sundiver\",\"url\":\"https://www.goodreads.com/book/show/96472.Sundiver\",\"year_published\":1980}]"</span></p>
+
+<p>Note that this response is contained in an array. This is because <span class="code">JSON.GET</span> can accept multiple JSONPaths, returning the matching parts of the document as a single array response. This is something that we'll explore later.</p>

@@ -1,0 +1,134 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>RediSearch Aggregations allow you to process search results before Redis returns them to you. Counting the number of documents with a certain criteria, grouping documents with different shared values, and finding trends between multiple values are all examples of aggregations performed within Redis.</p>
+<h2>Aggregation Example</h2>
+<hr>
+<p>This aggregation displays the top ten years the most books were published in descending order:</p>
+<p><pre class="code">
+FT.AGGREGATE index:bookdemo * 
+  GROUPBY 1 @year_published 
+    REDUCE COUNT 0 AS total_published 
+  SORTBY 2 @total_published DESC 
+  MAX 10
+</pre></p>
+<p>Redis returns ten records of <span class="code">years_published</span> and <span class="code">total_published</span> in descending order:</p>
+<p><pre class="code">
+1) "106"
+2) 1) "year_published"
+   2) "2015"
+   3) "total_published"
+   4) "86"
+3) 1) "year_published"
+   2) "2013"
+   3) "total_published"
+   4) "85"
+4) 1) "year_published"
+   2) "2014"
+   3) "total_published"
+   4) "82"
+5) 1) "year_published"
+   2) "2012"
+   3) "total_published"
+   4) "74"
+6) 1) "year_published"
+   2) "2011"
+   3) "total_published"
+   4) "73"
+7) 1) "year_published"
+   2) "2016"
+   3) "total_published"
+   4) "70"
+8) 1) "year_published"
+   2) "2017"
+   3) "total_published"
+   4) "70"
+9) 1) "year_published"
+   2) "2010"
+   3) "total_published"
+   4) "59"
+10) 1) "year_published"
+   2) "2018"
+   3) "total_published"
+   4) "57"
+11) 1) "year_published"
+   2) "2007"
+   3) "total_published"
+   4) "52"
+</pre></p>
+<p>Let&apos;s break down the aggregate command into its individual parts:</p>
+<ul>
+  <li><span class="code">FT.AGGREGATE index:bookdemo *</span>: this line collects all documents indexed within <span class="code">index:bookdemo</span>.  You could also include a query to filter results, but since every document has a <span class="code">year_published value</span>, we&apos;ll gather everything.</li>
+  <li><span class="code">GROUPBY 1 @year_published</span>: this separates every document by year into individual groups. Only one field will be used to separate the documents: <span class="code">year_published</span>. </li>
+  <li><span class="code">REDUCE</span>: this declares an intent to transform the multiple records separated by <span class="code">year_published</span> into one single record.</li>
+  <li><span class="code">COUNT 0 AS total_published</span>: this function is executed by <span class="code">REDUCE</span> and converts all of the documents within each grouping of <span class="code">year_published</span> into a single number. That number is referred to as <span class="code">total_published</span>.</li>
+  <li><span class="code">SORTBY 2 @total_published DESC</span>: this sorts each <span class="code">year_published</span> and <span class="code">total_published</span> pair by <span class="code">total_published</span> in descending order.</li>
+  <li><span class="code">MAX 10</span>: a maximum of 10 results will be returned. Note that this <span class="code">MAX</span> is different from the <span class="code">REDUCE</span> function <span class="code">MAX</span>.</li>
+</ul>
+<p>The number and arguments directly after <span class="code">GROUPBY</span>, <span class="code">COUNT</span>, and <span class="code">SORTBY</span> are called parameter arguments. These are used with parameters that take a variable number of arguments. Think of these as a list, with the first argument being a number that specifies how many other arguments follow it. This allows RediSearch to avoid a parsing ambiguity in case one of the arguments has the name of another parameter. For example, to sort by first name, last name, and country, one would specify:</p>
+<pre class="code">SORTBY 6 firstName ASC lastName DESC country ASC</pre>
+<h2>Anatomy of an Aggregation</h2>
+<hr>
+<p>An aggregation first identifies what documents to collect via a query or wildcard operator (<span class="code">*</span>). It then performs actions upon the documents in a linear fashion; this is known as the pipeline. Here are the most common procedures one would need to perform typical aggregations:</p>
+<p><span class="code">GROUPBY</span>: Group the results in the pipeline based on one or more properties. Each group should have at least one reducer (see below), a function that handles the group entries, either counting them or performing multiple aggregate operations (see below).</p>
+<p><span class="code">REDUCE</span>: Reduce the matching results in each group into a single record, using a reduction function. For example, <span class="code">COUNT</span> will count the number of records in the group.</p>
+<p>The reducers can have their own property names using the <span class="code">AS</span> optional argument. If a name is not given, the resulting name will be the name of the reduce function and the group properties. For example, if a name is not given to <span class="code">COUNT_DISTINCT</span> by property <span class="code">@foo</span>, the resulting name will be <span class="code">count_distinct(@foo)</span>.</p>
+<p><span class="code">SORTBY</span>: Sort the pipeline up until the point of <span class="code">SORTBY</span>, using a list of properties. By default, sorting is ascending, but <span class="code">ASC</span> or <span class="code">DESC</span> can be added for each property.</p>
+<p><span class="code">MAX</span> is used to optimize sorting, by sorting only for the n-largest elements.</p>
+<p><span class="code">APPLY</span>: Apply a 1-to-1 transformation on one or more properties, and either store the result as a new property down the pipeline, or replace any property using this transformation.</p>
+<p><span class="code">LIMIT</span>: Limit the number of results to return just num results starting at index offset (zero based). As mentioned above, it is much more efficient to use <span class="code">SORTBY ... MAX</span> if we are interested in just limiting the output of a sort operation.</p>
+<p><span class="code">FILTER</span>: Filter the results using predicate expressions relating to values in each result. They are applied post-query and relate to the current state of the pipeline.</p>
+<h2>Aggregation Example, continued</h2>
+<hr>
+<p>Let&apos;s explore one more aggregation example. Let&apos;s find the top ten authors who have produced the most books in our document collection.  </p>
+<p><pre class="code">
+FT.AGGREGATE index:bookdemo *
+  GROUPBY 1 @author 
+    REDUCE COUNT 0 AS published_works 
+  SORTBY 2 @published_works DESC
+  MAX 10
+</pre></p>
+<p>Redis returns ten records showing each author with their published works, from the highest <span class="code">published_works</span> value down to the lowest:</p>
+<p><pre class="code">
+1) "770"
+2) 1) "author"
+   2) "Terry Pratchett"
+   3) "published_works"
+   4) "26"
+3) 1) "author"
+   2) "Mary Pope Osborne"
+   3) "published_works"
+   4) "18"
+4) 1) "author"
+   2) "Brandon Sanderson"
+   3) "published_works"
+   4) "17"
+5) 1) "author"
+   2) "Margaret Peterson Haddix"
+   3) "published_works"
+   4) "16"
+6) 1) "author"
+   2) "Stephen King"
+   3) "published_works"
+   4) "15"
+7) 1) "author"
+   2) "Jodi Taylor"
+   3) "published_works"
+   4) "15"
+8) 1) "author"
+   2) "Brian K. Vaughan"
+   3) "published_works"
+   4) "14"
+9) 1) "author"
+   2) "Philip K. Dick"
+   3) "published_works"
+   4) "13"
+10) 1) "author"
+   2) "Isaac Asimov"
+   3) "published_works"
+   4) "13"
+11) 1) "author"
+   2) "James Dashner"
+   3) "published_works"
+   4) "12"
+</pre></p>

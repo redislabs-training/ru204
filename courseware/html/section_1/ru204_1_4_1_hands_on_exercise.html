@@ -1,0 +1,70 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold;}
+</style>
+<p>In this exercise you will update existing RedisJSON documents with new properties and new values. While we will be using every command covered in this unit, this is not an exhaustive list of commands available in RedisJSON. Refer to the <a href="https://redis.io/commands/?group=json" class="page-link" target="_blank">RedisJSON command documentation</a> for a full list of available commands.</p>
+<h2>Adding new properties to an existing document</h2>
+<hr>
+<h3>1. Adding a new property and value to a document</h3>
+<p>The <span class="code">JSON.SET</span> command can be used to add property value pairs to any existing document.  In this exercise we will be using the data set of book objects, specifically the object <span class="code">ru204:book:425</span></p>
+<p>Let's add a publisher property with the value "Simon and Schuster" to the object:</p>
+<p><span class="code">JSON.SET ru204:book:425 $.publisher '"Simon and Schuster"'</span></p>
+<p>Redis responds with <span class="code">"OK"</span> when the document has been updated.</p>
+<p>The <span class="code">JSON.SET</span> command will accept the JSONPath <span class="code">$.publisher</span> as a new property if it doesn't already exist. For the value, the string must be a valid JSON string, which requires that it be encased in double quotes as well as single quotes.</p>
+<h3>2. Adding an array to an existing document</h3>
+<p>Arrays and objects can also be added to documents with the <span class="code">JSON.SET</span> command. Lets add an array of available book formats <span class="code">["paperback", "hardcover", "audio book", ".epub", ".txt"]</span> to the book document:</p>
+<p><span class="code">JSON.SET ru204:book:425 $.formats '["paperback", "hardcover", "audio book", ".epub", ".txt"]'</span></p>
+<p>Redis again responds with an <span class="code">"OK"</span> when the document is updated.</p>
+<h3>3. Adding objects to existing documents</h3>
+<p>Objects can also be added with a similar pattern to an array. Let's add an object tracking checkout popularity amongst age groups  to the <span class="code">metrics</span> subdocument in the book <span class="code">ru204:book:425</span>.</p>
+<p><span class="code">JSON.SET ru204:book:425 $.metrics.popularity '{"<18": 20, "18-25": 32, "26-35": 48, "36-45": 56, "46-55": 64, ">55": 37}'</span></p>
+<p>Redis responds with <span class="code">"OK"</span>.</p>
+<h3>4. Adding an element to an array in an existing document</h3>
+<p>To add an element to an existing array within a document, RedisJSON offers two commands: <span class="code">ARRAPPEND</span> and <span class="code">ARRINSERT</span>.</p>
+<p><span class="code">ARRAPPEND</span> appends an element to the end of a given array within a document. Lets add another book into the inventory array of the book object <span class="code">ru204:book:425</span>:</p>
+<p><span class="code">JSON.ARRAPPEND ru204:book:425 $.inventory '{"status":"available","stock_id":"425_10"}'</span></p>
+<p>Redis returns <span class="code">10</span> as the new length of the array <span class="code">inventory</span>.</p>
+<p><span class="code">ARRINSERT</span> allows the client to insert an element into the array at a given index. This is useful when the order of elements is important. The <span class="code">genres</span> array in each book is maintained in alphabetical order, so lets add a new genre <span class="code">futuristic</span> at index 4.</p>
+<p><span class="code">JSON.ARRINSERT ru204:book:425 $.genres 4 '"futuristic"'</span></p>
+<p>Redis responds with <span class="code">11</span>, the new length of the array. 
+<h3>5. Removing an element from an array in an existing document</h3>
+<p>RedisJSON provides the <span class="code">ARRPOP</span> command to remove an element from an array within a document. Normally, a list <span class="code">pop</span> function removes the last element within an array; this is the default behavior of <span class="code">ARRPOP</span> when an index argument is not provided. <span class="code">ARRPOP</span> will remove an element at any position in the array when an index is provided.</p>
+<p>Let&apos;s remove the the genre <span class="code">fiction</span> from our book object <span class="code">ru204:book:425</span>:</p>
+<p><span class="code">JSON.ARRPOP ru204:book:425 $.genres 3</span></p>
+<p>The return value is the element <span class="code">fiction</span> "popped" from the list.
+<h2>Updating existing properties in a document</h2>
+<hr>
+<h3>1. Updating an existing property's value in a document</h3>
+<p>To update an existing property with a known value  in a document, the <span class="code">JSON.SET</span> command can again be used. The full command is similar to adding a new property and value to an existing document:</p>
+<p><span class="code">JSON.SET ru204:book:425 $.publisher '"Random House"'</span></p>
+<p> Redis responds with an <span class="code">"OK"</span>.</p>
+<h3>2. Updating an existing array element in a document</h3>
+<p>To update an existing value within an array in a document, the <span class="code">JSON.SET</span> command should be used.  Let's set the status of one of the books in our inventory for <span class="code">ru204:book:425</span> from <span class="code">maintenance</span> to <span class="code">available</span>. We will use bracket notation to access the specific element within the array then dot notation to target the <span class="code">status</span> property. </p>
+<p><span class="code">JSON.SET ru204:book:425 $.inventory[7].status '"available"'</span></p>
+<p>"OK"</p>
+<h2>Working with numbers in existing documents</h2>
+<hr>
+<p>Practice using the <span class="code">JSON.NUMINCRBY</span> command by increasing the <span class="code">rating_votes</span> count by 23. <span class="code">rating_votes</span> is stored within the <span class="code">metrics</span> subdocument of the book object. Let's continue using the document <span class="code">ru204:book:425</span>:</p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:425 $.metrics.rating_votes 23</span></p>
+<p>Redis responds with the updated value for <span class="code">rating_votes</span>:</p>
+<p><span class="code">[3436]</span></p>
+<p>The <span class="code">JSON.NUMINCRBY</span> command may also be used to decrement numerical values as well. Using a negative number performs subtraction upon any numerical value within the document. Let's reduce the <span class="code">rating_votes</span> by 10:</p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:425 $.metrics.rating_votes 23</span></p>
+<p>Redis responds with the updated value for <span class="code">rating_votes</span>:</p>
+<p><span class="code">[3426]</span></p>
+<h2>Removing elements, arrays, objects, properties, and documents</h2>
+<hr>
+<p>The <span class="code">JSON.DEL</span> command can be used to remove properties of an existing document or delete an entire existing document.</p>
+<p>Let's remove the last book from the <span class="code">inventory</span> array in the object <span class="code">ru204:book:425</span>:</p>
+<p><span class="code">JSON.DEL ru204:book:425 $.inventory[-1]</span></p>
+<p>Redis responds with the number of properties deleted:</p>
+<p><span class="code">1</span></p>
+<p>Now let's remove the document entirely from Redis:</p>
+<p><span class="code">JSON.DEL ru204:book:425</span></p>
+<p>Redis responds with the number of documents deleted:</p>
+<p><span class="code">1</span</p>
+<p>Let's add the book <span class="code">ru204:book:425</span> back to our documents collection for future use:</p>
+<p><pre class="code">
+JSON.SET ru204:book:425 $ '{  "author":"Sophie Littlefield",  "id":"425",  "description":  "Awakening in a bleak landscape as scarred as her body, Cass Dollar vaguely recalls surviving something terrible. Having no idea how many weeks have passed, she slowly realizes the horrifying truth: Ruthie has vanished.And with her, nearly all of civilization.Where once-lush hills carried cars and commerce, the roads today see only cannibalistic Beaters -- people turned hungry for human flesh by a government experiment gone wrong.In a broken, barren California, Cass will undergo a harrowing quest to get Ruthie back. Few people trust an outsider, let alone a woman who became a zombie and somehow turned back, but she finds help from an enigmatic outlaw, Smoke. Smoke is her savior, and her safety.For the Beaters are out there.And the humans grip at survival with their trigger fingers. Especially when they learn that she and Ruthie have become the most feared, and desired, of weapons in a brave new worldxe2x80xa6.",  "editions":["english","spanish","french"],  "genres":["apocalyptic (post apocalyptic)","fantasy (paranormal)","fantasy (urban fantasy)","futuristic","horror","horror (zombies)","science fiction","science fiction (apocalyptic)","science fiction (dystopia)","young adult"],  "inventory":[    {"status":"maintenance","stock_id":"425_1"},{"status":"maintenance","stock_id":"425_2"},{"status":"maintenance","stock_id":"425_3"},{"status":"available","stock_id":"425_4"},{"status":"on_loan","stock_id":"425_5"},{"status":"available","stock_id":"425_6"},{"status":"available","stock_id":"425_7"},{"status":"available","stock_id":"425_8"},{"status":"maintenance","stock_id":"425_9"},{"status":"available","stock_id":"425_10"}  ],    "metrics":{      "rating_votes":3459,      "score":3.54,      "popularity":{"<18":20,"18-25":32,"26-35":48,"36-45":56,"46-55":64,">55":37}    },  "pages":738,  "title":"Aftertime",  "url":"https://www.goodreads.com/book/show/9065272-aftertime",  "year_published":2011,  "publisher":"Random House",  "formats":["paperback","hardcover","audio book",".epub",".txt"]}'
+</pre></p>
+<p>Redis returns an "OK" meaning the document has been successfully created:</p>  
+<p><pre class="code">"OK"</pre></p>

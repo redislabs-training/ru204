@@ -1,0 +1,87 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Let&apos;s see how Redis OM for Node.js allows us to store and query JSON documents in a more developer friendly way than using the lower level <a href="https://github.com/redis/node-redis" target="_blank" class="page-link">node-redis</a> client and the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command directly.</p>
+<p>In this module, we&apos;ll refer to the source code contained in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/nodejs/redis_om_search_example" target="_blank" class="page-link">src/nodejs/redis_om_search_example</a></span> folder of the course GitHub repository.  We suggest that you have this folder open in a separate browser tab, or your preferred IDE while studying this module.</p>
+<h2>Data Model</h2>
+<hr/>
+<p>For this example, we&apos;ll continue using our Book data model that you saw in section 2 when we saw how to save JSON documents in Redis with Redis OM Node.  It's now time to add indexing and search capabilities to this, so let's take a look at what's changed since section 2...</p>
+<p>The data model is defined in a schema in the file  <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/nodejs/redis_om_search_example/model.js" target="_blank" class="page-link">model.js</a></span>.  This is largely unchanged from section 2 and looks like this:</p>
+<p><pre class="code">
+import { Entity, Schema } from 'redis-om';
+
+class Book extends Entity {};
+
+export const bookSchema = new Schema(Book, {
+  author: { type: 'string' },
+  id: { type: 'string' },
+  description: { type: 'text' },
+  genres: { type: 'string[]' },
+  pages: { type: 'number', sortable: true },
+  title: { type: 'text' },
+  url: { type: 'string' },
+  yearPublished: { type: 'number', sortable: true },
+  // Redis OM Node does not yet support embedded objects, 
+  // so the metrics object has been flattened to the following
+  // two fields, and we have omitted the inventory array of 
+  // objects for the same reason.
+  ratingVotes: { type: 'number' },
+  score: { type: 'number' }
+}, {
+  prefix: 'ru204:redis-om-node:book'
+});"  
+</pre></p>
+<p>Note that we&apos;ve changed the type for the <span class="code">description</span> and <span class="code">title</span> fields since section 2.  These used to be of type <span class="code">string</span>, now they're <span class="code">text</span>.  We'll see why next...</p>
+<h2>Creating the Search Index</h2>
+<hr/>
+<p>Redis OM Node manages the creation of the RediSearch index for us, there's no need for us to use the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command directly or to know its syntax.</p>
+<p>Open the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/nodejs/redis_om_search_example/load_data.js" target="_blank" class="page-link">load_data.js</a></span>. Let&apos;s see how the index is created and documents added to it...</p>
+<p>First, use the <span class="code">createIndex</span> function that Redis OM Node provides on our book repository:</p>
+<p><pre class="code">
+await bookRepository.createIndex();
+</pre></p>
+<p>And that&apos;s it... our index is created for us!  Redis OM Node uses the model definition to determine how to index each field.  Fields of type <span class="code">string</span> become <span class="code">TAG</span> fields in the index, fields of type <span class="code">text</span> become <span class="code">TEXT</span> (full-text search) fields, and fields of type <span class="code">number</span> become <span class="code">NUMERIC</span> fields.  If we want to be able to sort a field, we declare it as <span class="code">sortable: true</span>.</p>
+<p>Adding documents to the index is then as simple as creating new book instances and saving them in Redis.  This process is the same as you saw in section 2, let&apos;s create a new book and save it:</p>
+<p><pre class="code">
+const bookRepository = client.fetchRepository(bookSchema);
+const newBook = bookRepository.createEntity({
+    'title': 'Redis: An Introduction',
+    'author': 'Redis University',
+    // Other fields…
+);
+
+await bookRepository.save();  
+</pre></p>
+<p>RediSearch automatically adds the book to the search index for us, and keeps the index updated with any future changes to the book&apos;s JSON document in Redis.</p>
+<p>That&apos;s all there is to it!</p>
+<h2>Querying the Index</h2>
+<hr/>
+<p>Redis OM for Node also provides us with a fluent querying interface.  This operates at a higher level of abstraction than the underlying <a href="https://github.com/redis/node-redis" target="_blank" class="page-link">node-redis</a> client, and doesn&apos;t require you to learn the query syntax for the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command.</p>
+<p>Open the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/nodejs/redis_om_search_example/search_om_example.js" target="_blank" class="page-link">search_om_example.js</a></span> to follow along.</p>
+<p>Repositories in Redis OM Node have a <span class="code">search</span> function.  We use this to write queries, and it returns an array of matching instances.  Let&apos;s find books that were written by Stephen King:</p>
+<p><pre class="code">
+let resultSet = await bookRepository.search()
+  .where('author').equals('Stephen King')
+  .return.all();
+</pre></p>
+<p>Here, we&apos;re saying "Find all books where the author field has the value Stephen King".  <span class="code">resultSet</span> will contain an array of matching book instances.  Redis OM Node handles translating this query to the correct <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command invocation, running it, and parsing the results into instances of our model.</p>
+<p>When working with fields that were indexed as <span class="code">TEXT</span>, we can use the matches function to perform a full-text search.  We can also combine search clauses, here we&apos;ll look for books with "Star" in the title field that are also over 500 pages long:</p>
+<p><pre class="code">
+resultSet = await bookRepository.search()
+  .where('title').matches('Star')
+  .and('pages').is.greaterThan(500)
+  .sortAscending('pages')
+  .return.all();
+</pre></p>
+<p>Note that as well as combining search clauses, we&apos;re asking Redis OM to sort the results by the number of pages in ascending order.  If we wanted a descending sort, we&apos;d use <span class="code">sortDescending</span>:</p>
+<p><pre class="code">
+.sortDescending('pages')
+</pre></p>
+<p>When querying numeric fields, we can use the <span class="code">greaterThan</span> and <span class="code">lessThan</span> functions.  Let&apos;s find books published between 1959 and 1973 inclusive:</p>
+<p><pre class="code">
+resultSet = await bookRepository.search()
+  .where('yearPublished').is.greaterThan(1958)
+  .and('yearPublished').is.lessThan(1974)
+  .return.all();
+</pre></p>
+<p>To learn more about Redis OM for Node's query syntax, please <a href="https://github.com/redis/redis-om-node#-using-redisearch" target="_blank" class="page-link">refer to the documentation</a>.</p>

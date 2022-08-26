@@ -1,0 +1,66 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>The results of a query don&apos;t have to be limited to either the entire document or just one or more of the indexed fields. RediSearch supports JSONPath projections so that you can specify which fields from the matching documents to return, even if those fields are not indexed.</p>
+<p>Let's consider a typical search result for Adrian Tchaikovsky&apos;s book "Children of Time". We'll search by the author's name AND the book title to receive a single document:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@author:Adrian Tchaikovsky @title:Children of Time"
+</pre></p>
+<p>Because we provided clauses to match both the author and title fields, both of these must be satisfied in order for there to be a match. Here is the resulting book:</p>
+<p><pre class="code">
+1) "1"
+2) "ru204:book:6301"
+3) 1) "$"
+    2) "{\"author\":\"Adrian Tchaikovsky\",\"id\":\"6301\",\"description\":\"A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?WHO WILL INHERIT THIS NEW EARTH?The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age\xe2\x80\x94a world terraformed and prepared for human life.But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?\",\"editions\":[\"english\",\"spanish\",\"french\"],\"genres\":[\"adult\",\"apocalyptic (post apocalyptic)\",\"audiobook\",\"fantasy\",\"fiction\",\"science fiction\",\"science fiction (dystopia)\",\"science fiction fantasy\",\"space\",\"space (space opera)\"],\"inventory\":[{\"status\":\"on_loan\",\"stock_id\":\"6301_1\"},{\"status\":\"on_loan\",\"stock_id\":\"6301_2\"},{\"status\":\"on_loan\",\"stock_id\":\"6301_3\"},{\"status\":\"maintenance\",\"stock_id\":\"6301_4\"},{\"status\":\"maintenance\",\"stock_id\":\"6301_5\"}],\"metrics\":{\"rating_votes\":63766,\"score\":4.27},\"pages\":552,\"title\":\"Children of Time\",\"url\":\"https://www.goodreads.com/book/show/25499718-children-of-time\",\"year_published\":2015}"    
+</pre></p>
+<p>With JSONPath projections added to the optional <span class="code">RETURN</span> argument, we can choose which fields of the document to receive.  If we only wanted the title and description, we could use the standard search field <span class="code">title</span> and the JSONPath <span class="code">$.description</span>.  We could also include the URL with <span class="code">$.url</span>.  Let&apos;s request all three in the following query:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@author:Adrian Tchaikovsky @title:Children of Time" RETURN 3 title $.description $.url
+</pre></p>
+<p>The return value is now smaller, thus reducing memory and network overheads, plus it only provides the information requested:</p>
+<p><pre class="code">
+1) "1"
+2) "ru204:book:6301"
+3) 1) "title"
+    2) "Children of Time"
+    3) "$.description"
+    4) "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?WHO WILL INHERIT THIS NEW EARTH?The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age\xe2\x80\x94a world terraformed and prepared for human life.But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
+    5) "$.url"
+    6) "https://www.goodreads.com/book/show/25499718-children-of-time" 
+</pre></p>
+<p>Let's find all books by Adrian Tchaikovsky and view their title, description, and url; this time we'll convert the JSONPath projections to human-readable names with the <span class="code">AS</span> argument for each field returned. Note that <span class="code">RETURN</span> is followed by <span class="code">9</span>, which is the total number of argument strings after <span class="code">RETURN</span>.</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@author:Adrian Tchaikovsky" RETURN 9 title AS book_title $.description AS book_description $.url AS book_url
+</pre></p>
+<p>Redis returns a list of two matching documents with only the requested data for each:</p>
+<p><pre class="code">
+1) "2"
+2) "ru204:book:573"
+3) 1) "book_title"
+   2) "Dogs of War"
+   3) "book_description"
+   4) "My name is Rex. I am a good dog. Rex is also seven foot tall at the shoulder, bulletproof, bristling with heavy calibre weaponry and his voice resonates with subsonics especially designed to instil fear. With Dragon, Honey and Bees, he's part of a Multiform Assault Pack operating in the lawless anarchy of Campeche, south-eastern Mexico. Rex is a genetically engineered Bioform, a deadly weapon in a dirty war. He has the intelligence to carry out his orders and feedback implants to reward him when he does. All he wants to be is a Good Dog. And to do that he must do exactly what Master says and Master says he's got to kill a lot of enemies. But who, exactly, are the enemies? What happens when Master is tried as a war criminal? What rights does the Geneva Convention grant weapons? Do Rex and his fellow Bioforms even have a right to exist? And what happens when Rex slips his leash? "
+   5) "book_url"
+   6) "https://www.goodreads.com/book/show/35827220-dogs-of-war"
+4) "ru204:book:6301"
+5) 1) "book_title"
+   2) "Children of Time"
+   3) "book_description"
+   4) "A race for survival among the stars... Humanity's last survivors escaped earth's ruins to find a new home. But when they find it, can their desperation overcome its dangers?WHO WILL INHERIT THIS NEW EARTH?The last remnants of the human race left a dying Earth, desperate to find a new home among the stars. Following in the footsteps of their ancestors, they discover the greatest treasure of the past age\xe2\x80\x94a world terraformed and prepared for human life.But all is not right in this new Eden. In the long years since the planet was abandoned, the work of its architects has borne disastrous fruit. The planet is not waiting for them, pristine and unoccupied. New masters have turned it from a refuge into mankind's worst nightmare.Now two civilizations are on a collision course, both testing the boundaries of what they will do to survive. As the fate of humanity hangs in the balance, who are the true heirs of this new Earth?"
+   5) "book_url"
+   6) "https://www.goodreads.com/book/show/25499718-children-of-time"
+</pre></p>
+<p>All of the standard JSONPath operators function in the <span class="code">RETURN</span> projections. Let&apos;s retrieve all of Adrian Tchaikovsky's books and display the amount of rating votes each book received:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@author:Adrian Tchaikovsky" RETURN 3 $..rating_votes as rating_votes
+</pre></p>
+<p>Redis returns the <span class="code">$.rating_votes</span> value for each match:</p>
+<p><pre class="code">
+1) "2"
+2) "ru204:book:573"
+3) 1) "rating_votes"
+    2) "4766"
+4) "ru204:book:6301"
+5) 1) "rating_votes"
+    2) "63766"    
+</pre></p>

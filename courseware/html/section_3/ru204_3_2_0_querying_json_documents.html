@@ -1,0 +1,397 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<h2>Searching Text Fields</h2>
+<hr>
+<p>Now that we have established a search index let&apos;s begin with a few queries against our book documents.</p>
+<p>Let&apos;s revisit our first search query for the book titled "Aftertime":</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@title:aftertime"
+</pre></p>
+<p>The command <span class="code"><a href="" target="_blank" class="page-link">FT.SEARCH</a></span> requires an index to use - in this case, <span class="code">index:bookdemo</span> - followed by the search query.</p>
+<p>The <span class="code">@</span> symbol followed by a field name, <span class="code">@title</span>, indicates which field to search. The string <span class="code">"aftertime"</span> is the value to be searched for. </p>
+<p>Redis returns the entire document that matches this query.</p>
+<p><pre class="code">
+1) "1"
+2) "ru204:book:425"
+3) 1) "$"
+    2) "{\"author\":\"Sophie Littlefield\",\"id\":\"425\",\"description\":\"Awakening in a bleak landscape as scarred as her body, Cass Dollar vaguely recalls surviving something terrible. Having no idea how many weeks have passed, she slowly realizes the horrifying truth: Ruthie has vanished.And with her, nearly all of civilization.Where once-lush hills carried cars and commerce, the roads today see only cannibalistic Beaters -- people turned hungry for human flesh by a government experiment gone wrong.In a broken, barren California, Cass will undergo a harrowing quest to get Ruthie back. Few people trust an outsider, let alone a woman who became a zombie and somehow turned back, but she finds help from an enigmatic outlaw, Smoke. Smoke is her savior, and her safety.For the Beaters are out there.And the humans grip at survival with their trigger fingers. Especially when they learn that she and Ruthie have become the most feared, and desired, of weapons in a brave new world\xe2\x80\xa6.\",\"editions\":[\"english\",\"spanish\",\"french\"],\"genres\":[\"apocalyptic (post apocalyptic)\",\"fantasy (paranormal)\",\"fantasy (urban fantasy)\",\"futuristic\",\"horror\",\"horror (zombies)\",\"science fiction\",\"science fiction (apocalyptic)\",\"science fiction (dystopia)\",\"young adult\"],\"inventory\":[{\"status\":\"maintenance\",\"stock_id\":\"425_1\"},{\"status\":\"maintenance\",\"stock_id\":\"425_2\"},{\"status\":\"maintenance\",\"stock_id\":\"425_3\"},{\"status\":\"available\",\"stock_id\":\"425_4\"},{\"status\":\"on_loan\",\"stock_id\":\"425_5\"},{\"status\":\"available\",\"stock_id\":\"425_6\"},{\"status\":\"available\",\"stock_id\":\"425_7\"},{\"status\":\"available\",\"stock_id\":\"425_8\"},{\"status\":\"maintenance\",\"stock_id\":\"425_9\"},{\"status\":\"available\",\"stock_id\":\"425_10\"}],\"metrics\":{\"rating_votes\":3459,\"score\":3.54,\"popularity\":{\"<18\":20,\"18-25\":32,\"26-35\":48,\"36-45\":56,\"46-55\":64,\">55\":37}},\"pages\":738,\"title\":\"Aftertime\",\"url\":\"https://www.goodreads.com/book/show/9065272-aftertime\",\"year_published\":2011}"    
+</pre></p>
+<p>If the search value is truncated from <span class="code">"aftertime"</span> to <span class="code">"after"</span>, all of the documents with a title containing the string <span class="code">"after"</span> in their <span class="code">"title"</span> field will be returned.</p>
+<p>You may not always want Redis to return the whole document.  Use the optional <span class="code">RETURN</span> parameter to only receive fields that you specify.  This approach saves compute time and memory in your application, on the Redis Server and also reduces network transfer time. Let's return just the <span class="code">title</span> field:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@title:after" RETURN 1 title
+</pre></p>
+<p>Redis has found 10 search results with titles containing "After":</p>
+<p><pre class="code">
+1) "10"
+2) "ru204:book:1588"
+3) 1) "title"
+    2) "In the After"
+4) "ru204:book:6623"
+5) 1) "title"
+    2) "One Second After"
+6) "ru204:book:364"
+7) 1) "title"
+    2) "After the Apocalypse"
+8) "ru204:book:96"
+9) 1) "title"
+    2) "A Wish After Midnight"
+10) "ru204:book:419"
+11) 1) "title"
+    2) "After the Fall, Before the Fall, During the Fall"
+12) "ru204:book:438"
+13) 1) "title"
+    2) "After the Snow"
+14) "ru204:book:307"
+15) 1) "title"
+    2) "After Eden"
+16) "ru204:book:496"
+17) 1) "title"
+    2) "After Atlas"
+18) "ru204:book:24453"
+19) 1) "title"
+    2) "Life After Life"
+20) "ru204:book:106"
+21) 1) "title"
+    2) "The Day After Never"    
+</pre></p>
+<p><span class="code">RETURN</span> must be followed by the number of properties requested then each property name.</p>
+<p>As an example, to search for books containing the word "shadow" and only receive the book title and author, the following command should be executed:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@title:shadow" RETURN 2 title author
+</pre></p>
+<p>Redis returns ten documents with only their <span class="code">title</span> and <span class="code">author</span> values:</p>
+<p><pre class="code">
+1) "10"
+2) "ru204:book:3750"
+3) 1) "title"
+    2) "The Shadow Rising"
+    3) "author"
+    4) "Robert Jordan"
+4) "ru204:book:1155"
+5) 1) "title"
+    2) "Alien: Out of the Shadows"
+    3) "author"
+    4) "Tim Lebbon"
+6) "ru204:book:5285"
+7) 1) "title"
+    2) "Ender's Shadow"
+    3) "author"
+    4) "Orson Scott Card"
+8) "ru204:book:293"
+9) 1) "title"
+    2) "King of Shadows"
+    3) "author"
+    4) "Susan Cooper"
+10) "ru204:book:1559"
+11) 1) "title"
+    2) "The Creeping Shadow"
+    3) "author"
+    4) "Jonathan Stroud"
+12) "ru204:book:5198"
+13) 1) "title"
+    2) "The Way of Shadows"
+    3) "author"
+    4) "Brent Weeks"
+14) "ru204:book:1120"
+15) 1) "title"
+    2) "Shadows"
+    3) "author"
+    4) "Ilsa J. Bick"
+16) "ru204:book:2255"
+17) 1) "title"
+    2) "Beyond the Shadows"
+    3) "author"
+    4) "Brent Weeks"
+18) "ru204:book:2057"
+19) 1) "title"
+    2) "Shadow's Edge"
+    3) "author"
+    4) "Brent Weeks"
+20) "ru204:book:63"
+21) 1) "title"
+    2) "Weighing Shadows"
+    3) "author"
+    4) "Lisa Goldstein"    
+</pre></p>
+<p>To reduce the response size to only the number of matches and the keys of the matching documents, use the <span class="code">NOCONTENT</span> option after the query:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@title:cat" NOCONTENT
+</pre></p>
+<p>Redis returns with only the number of matches and matching keys:</p>
+<p><pre class="code">
+1) "4"
+2) "ru204:book:697"
+3) "ru204:book:510"
+4) "ru204:book:11164"
+5) "ru204:book:743"
+</pre></p>
+<h2>Search by TAG</h2>
+<hr>
+<p>Searching by the TAG search type allows the developer to efficiently search through arrays or strings of keywords within a document. In the book example, RediSearch indexes every element within the genres array as a TAG. This allows us to search for all documents that may have "Science Fiction" or "Fantasy" within their respective arrays.</p>
+<p>The following is an example of a genres array that will be indexed as 5 separate TAGS by RediSearch:</p>
+<p><pre class="code">
+["Science Fiction", "Dystopian Fiction", "Dark Fiction", "Fantasy", "Space Opera"]
+</pre></p>
+<p>TAGS can also be assigned to string values that may have multiple keywords with separators or white space. Redis will parse these keywords out of the string when provided with an optional <span class="code">SEPARATOR</span> argument and the separator character or white space. Here is an example of a string of 5 genres in one string separated commas.</p>
+<p><pre class="code">
+"science fiction (aliens), science fiction (dystopian), apocalyptic (post apocalyptic), fantasy, space opera"
+</pre></p>
+<p>This is an example of creating an index with genres set as a string of keywords separated by a comma rather than an array of keywords:</p>
+<p><pre class="code">
+FT.CREATE index:bookdemo 
+  ON JSON 
+  PREFIX 1 "ru204:book:" 
+SCHEMA 
+  $.author AS author TEXT
+  $.title AS title TEXT
+  $.description AS description TEXT
+  $.pages AS pages NUMERIC SORTABLE
+  $.metrics.score AS score NUMERIC SORTABLE
+  $.genres AS genres TAG SEPARATOR ,
+</pre></p>
+<p>Let&apos;s explore the usage of TAG values by searching for all books with the tag <span class="code">science fiction (dystopia)</span>:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@genres:{science fiction \\(dystopia\\)}" nocontent
+</pre></p>
+<p>Note that when searching tag fields, the key word(s) must be wrapped in curly brackets. Also, when a query for tags contains punctuation, the punctuation must be escaped with a backslash character <span class="code">"\\".</span></p>
+<p>Redis returns a response indicating that 521 results matched our tag phrase <span class="code">"science fiction (dystopia)"</span></p>
+<p><pre class="code">
+1) "521"
+2) "ru204:book:551"
+3) "ru204:book:676"
+4) "ru204:book:1070"
+5) "ru204:book:585"
+6) "ru204:book:548"
+7) "ru204:book:1950"
+8) "ru204:book:649"
+9) "ru204:book:718"
+10) "ru204:book:557"
+11) "ru204:book:897"    
+</pre></p>
+<p>Multiple TAG keywords may also be used when searching for documents. Lets search for books that have either <span class="code">"science fiction (dystopia)"</span> or <span class="code">"science fiction (apocalyptic)"</span> as TAGs:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@genres:{science fiction \\(dystopia\\) | science fiction \\(apocalyptic\\)}" nocontent
+</pre></p>
+<p>Note the pipe operator <span class="code">|</span> separating the two TAG values. This acts as an OR operator and will return documents that have either TAG.</p>
+<p>Redis returns 524 documents this time:</p>
+<p><pre class="code">
+1) "524"
+2) "ru204:book:557"
+3) "ru204:book:485"
+4) "ru204:book:6146"
+5) "ru204:book:844"
+6) "ru204:book:1340"
+7) "ru204:book:424"
+8) "ru204:book:646"
+9) "ru204:book:2006"
+10) "ru204:book:4234"
+11) "ru204:book:665"    
+</pre></p>
+<p>To search for books that have BOTH TAG words, include the query once for each TAG entry:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@genres:{science fiction \\(dystopia\\) @genres:{science fiction \\(apocalyptic\\)}" nocontent
+</pre></p>
+<p>Note that there are two distinct queries that must be matched before a document is considered a match. This is the equivalent of an AND operator.</p>
+<p>Redis returns 111 distinct documents that match both TAG searches:</p>
+<p><pre class="code">
+1) "111"
+2) "ru204:book:557"
+3) "ru204:book:485"
+4) "ru204:book:6146"
+5) "ru204:book:844"
+6) "ru204:book:1340"
+7) "ru204:book:424"
+8) "ru204:book:646"
+9) "ru204:book:2006"
+10) "ru204:book:4234"
+11) "ru204:book:665"    
+</pre></p>
+<p>Full documentation on the TAG field type in RediSearch can be found <a href="https://redis.io/docs/stack/search/reference/tags/" target="_blank" class="page-link">here</a>.</p>    
+<h2>Searching Numeric Fields</h2>
+<hr>
+<p>Use the NUMERIC search type when you want to search numeric data by exact value or a range of values.</p>
+<p>Let's look for books that have exactly 1000 pages. It should be noted that numeric queries require two number values, the upper and lower bounds for a range. If we are searching for one specific value, use that value as the upper and lower bound. Numeric queries also require square brackets surrounding the two values. Here is the full query for books that contain exactly 1000 pages:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@pages:[1000 1000]" RETURN 1 title
+</pre></p>
+<p>Redis returns 2 matches for books with exactly 1000 pages:</p>
+<p><pre class="code">
+1) "2"
+2) "ru204:book:266"
+3) 1) "title"
+    2) "Revolutionary War on Wednesday"
+4) "ru204:book:497"
+5) 1) "title"
+    2) "How to Invent Everything: A Survival Guide for the Stranded Time Traveler"    
+</pre></p>
+<p>Let's find books that are between 100 and 350 pages in length. Our lower bound is 100 and our upper bound is 350, inclusively.</p>
+<p>Our search query would be:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@pages:[100 350]" return 2 title pages
+</pre></p>
+<p>We'll get a count of the number of matching documents back plus the first 10 matches. Redis returns 10 documents by default - later we'll see how to paginate through the entire result set​​:</p>
+<p><pre class="code">
+1) "192"
+2) "ru204:book:32"
+3) 1) "title"
+    2) "Can I Build Another Me"
+    3) "pages"
+    4) "256"
+4) "ru204:book:594"
+5) 1) "title"
+    2) "House of Stairs"
+    3) "pages"
+    4) "311"
+6) "ru204:book:664"
+7) 1) "title"
+    2) "The Cyberiad"
+    3) "pages"
+    4) "246"
+8) "ru204:book:2900"
+9) 1) "title"
+    2) "Red Clocks"
+    3) "pages"
+    4) "207"
+10) "ru204:book:7300"
+11) 1) "title"
+    2) "Sleeping Beauties"
+    3) "pages"
+    4) "205"
+12) "ru204:book:2006"
+13) 1) "title"
+    2) "Earth Abides"
+    3) "pages"
+    4) "226"
+14) "ru204:book:6364"
+15) 1) "title"
+    2) "A God in Ruins"
+    3) "pages"
+    4) "284"
+16) "ru204:book:19551"
+17) 1) "title"
+    2) "The Passage"
+    3) "pages"
+    4) "239"
+18) "ru204:book:8851"
+19) 1) "title"
+    2) "Rivers of London"
+    3) "pages"
+    4) "321"
+20) "ru204:book:955"
+21) 1) "title"
+    2) "A Dead Djinn in Cairo"
+    3) "pages"
+    4) "288"    
+</pre></p>
+<p>Now let's search for books that have a ratings score higher than 4.5. To represent boundless range limits, Redis uses the special "numbers" <span class="code">-inf</span>, <span class="code">inf</span> and <span class="code">+inf</span>. We'll also want to search for all scores greater than 4.5 - this can be represented by a parenthesis to the left of 4.5: <span class="code">"(4.5"</span>. Here is the full query:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@score:[(4.5 +inf]" return 1 score
+</pre></p>
+<p>Redis has returned 17 matches of books with scores higher than 4.5:</p>
+<p><pre class="code">
+1) "17"
+2) "ru204:book:10640"
+3) 1) "score"
+    2) "4.53"
+4) "ru204:book:1559"
+5) 1) "score"
+    2) "4.51"
+6) "ru204:book:10542"
+7) 1) "score"
+    2) "4.51"
+8) "ru204:book:458"
+9) 1) "score"
+    2) "4.53"
+10) "ru204:book:302"
+11) 1) "score"
+    2) "4.52"
+12) "ru204:book:365"
+13) 1) "score"
+    2) "4.55"
+14) "ru204:book:1600"
+15) 1) "score"
+    2) "4.6"
+16) "ru204:book:422"
+17) 1) "score"
+    2) "4.55"
+18) "ru204:book:22369"
+19) 1) "score"
+    2) "4.53"
+20) "ru204:book:384"
+21) 1) "score"
+    2) "4.56"    
+</pre></p>
+<h2>Querying Timestamp Values</h2>
+<hr>
+<p>Timestamps may be queried by converting them to the UNIX timestamp format. Lets search for book documents that were entered into the system within the last seven days of the current timestamp (1660521906). This would create a query with the lower bound being the current time (1660521906) minutes 7 weeks of seconds (604800), resulting in 1659917106:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@date_created:[1659917106 1660521906]"
+</pre></p>
+<p>This would return all documents with UNIX timestamps from the current time to 1 week ago. Note that the documents in <span class="code">index:bookdemo</span> do not have a numeric timestamp field, but we could include one in our <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command like so:</p>
+<p><pre class="code">
+FT.CREATE index:bookdemo
+...
+$.date_created AS date_created NUMERIC SORTABLE
+...   
+</pre></p>
+<h2>Geographic Searches</h2>
+<p>Values for the GEO search type must be formatted as a string containing a longitude (first) and latitude separated by a comma. Let's take a look at the longitude and latitude of the Golden Gate Bridge in San Francisco, California:</p>
+<ul>
+    <li>Longitude: -122.4783</li> 
+    <li>Latitude: 37.8199</li>
+</ul>
+<p>If we were making a document storing GEO data on attractions to visit, we might store this data like so:</p>
+<p><pre class="code">
+{
+    "name": "Golden Gate Bridge",
+    "type": "infrastructure",
+    "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San Francisco, California—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait.",
+    "location": "-122.4783, 37.8199"
+}      
+</pre></p>
+<p>To create an index for this attraction document, we would use the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command to assign a GEO type to the JSONPath for the <span class="code">location</span> field:</p>
+<p><pre class="code">
+FT.CREATE index:bookdemo 
+...
+    $.location AS location GEO SORTABLE
+...   
+</pre></p>
+<p>Geosearches can now be performed on locations to find documents with location coordinates that are within a given radius measured in kilometers, miles, meters, or feet of a supplied longitude / latitude point.</p>
+<p>The query format is as follows:</p>
+<p><pre class="code">
+@location:[{lon} {lat} {radius} {m|km|mi|ft}]
+</pre></p>
+<p>Querying for a location that would return the Golden Gate Bridge as a result would look like this:</p>
+<p><pre class="code">
+FT.SEARCH index:geotest "@location:[-122.4783 37.8175 50 km]"
+</pre></p>
+<p>The query provides a longitude, latitude, a radius length, and a unit of measurement. Redis searches all documents for GEO coordinates that would match that query:</p>
+<p><pre class="code">
+1) "1"
+2) "attractions:1"
+3) 1) "$"
+    2) "{\"name\":\"Golden Gate Bridge\",\"type\":\"infrastructure\",\"description\":\"The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San Francisco, California\xe2\x80\x94the northern tip of the San Francisco Peninsula\xe2\x80\x94to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait.\",\"location\":\"-122.4783, 37.8199\"}"
+</pre></p>
+<h2>Query Syntax</h2>
+<p>RediSearch supports a wide variety of query options to search throughout the indexes in an efficient manner. Here is a summary of the query syntax (for an in depth dive into the search syntax, we recommend the <a href="https://university.redis.com/courses/ru203/" target="_blank" class="page-link">Redis University RU203 course</a>):</p>
+<ul>
+    <li>Multi-word phrases simply a list of tokens, e.g. <span class="code">foo bar baz</span>, implies intersection (AND) of the terms.</li>
+    <li>Exact phrases are wrapped in quotes, e.g <span class="code">"hello world"</span>.</li>
+    <li>OR Unions (i.e <span class="code">word1 OR word2</span>), are expressed with a pipe (<span class="code">|</span>), e.g. <span class="code">hello|hallo|shalom|hola</span>.</li>
+    <li>NOT negation using <span class="code">-</span> (i.e. <span class="code">word1 NOT word2</span>) of expressions or sub-queries. e.g. <span class="code">hello -world</span>. As of version 0.19.3, purely negative queries (i.e. <span class="code">-foo</span> or <span class="code">-@title:(foo|bar)</span>) are supported.</li>
+    <li>Prefix/Infix/Suffix matches (all terms starting/containing/ending with a term) are expressed with a <span class="code">*</span>. For performance reasons, a minimum term length is enforced (2 by default, but is configurable).</li>
+    <li>Wildcard pattern matches: <span class="code">w'foo*bar?'</span>.</li>
+    <li>A special "wildcard query" that returns all results in the index - <span class="code">*</span> (cannot be combined with anything else).</li>
+    <li>Selection of specific fields using the <span class="code">@{field name}:</span> syntax: <span class="code">hello @field:world</span>.</li>
+    <li>Numeric Range matches on numeric fields with the syntax <span class="code">@field:[{min} {max}]</span>.</li>
+    <li>Geo radius matches on geo fields with the syntax <span class="code">@field:[{lon} {lat} {radius} {m|km|mi|ft}]</span>.</li>
+    <li>Tag field filters with the syntax <span class="code">@field:{tag | tag | ...}</span>.</li>
+    <li>Optional terms or clauses: <span class="code">foo ~bar</span> means <span class="code">bar</span> is optional but documents with <span class="code">bar</span> in them will rank higher.</li>
+    <li>Fuzzy matching on terms: <span class="code">%hello%</span> means all terms with <a href="https://en.wikipedia.org/wiki/Levenshtein_distance" target="_blank" class="page-link">Levenshtein distance</a> of 1 from "hello".</li>
+    <li>An expression in a query can be wrapped in parentheses to disambiguate, e.g. <span class="code">(hello|hella) (world|werld)</span>.</li>
+    <li>Query attributes can be applied to individual clauses, e.g. <span class="code">(foo bar) => { $weight: 2.0; $slop: 1; $inorder: false; }</span>.</li>
+    <li>Combinations of the above can be used together, e.g <span class="code">hello (world|foo) "bar baz" bbbb</span>.</li>
+</ul>
+<p>The full RediSearch query syntax documentation can be found <a href="https://redis.io/docs/stack/search/reference/query_syntax/" target="_blank" class="page-link">here</a>.</p>
