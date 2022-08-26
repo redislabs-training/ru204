@@ -1,0 +1,47 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>We've provided you with a small example program that uses the <a href="https://stackexchange.github.io/StackExchange.Redis/" target="_blank" class="page-link">StackExchange.Redis</a> client for .NET to store and manipulate a new book object in Redis.</p>
+<p>The code is located in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/dotnet/stackexchange_redis_example" target="_blank" class="page-link">src/dotnet/stackexchange_redis_example</a></span> folder in the course GitHub repository.  You should have already cloned this repository to your machine as part of the initial course setup step.</p>
+<p>Follow the instructions in the <a href="https://github.com/redislabs-training/ru204/blob/main/src/dotnet/stackexchange_redis_example/README.md" target="_blank" class="page-link">README.md</a> file if you'd like to run the code in your local environment.</p>
+<h2>Code Walkthrough</h2>
+<hr>
+<p>The code is contained in a single file, <span class="code">Program.cs</span>.  <a href="https://github.com/redislabs-training/ru204/blob/main/src/dotnet/stackexchange_redis_example/Program.cs" target="_blank" class="page-link">Click here to open this file in GitHub</a> - you will need to refer to it throughout this module.</p>
+<p>Let's take a look at the code that stores and updates JSON documents.</p>
+<p>First, notice that our book document is stored in a file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/dotnet/stackexchange_redis_example/data/Book.json" target="_blank" class="page-link">data/Book.json</a></span> and read into the program as follows:</p>
+<p><pre class="code">
+var bookJson = await File.ReadAllTextAsync("data/Book.json");
+</pre></p>
+<h2>Storing a JSON Document in Redis</h2>
+<hr>
+<p>To store this object as a JSON document in Redis, we use the Redis <span class="code"><a href="https://redis.io/commands/json.set/" target="_blank" class="page-link">JSON.SET</a></span> command, which looks like this when working with StackExchange.Redis:</p>
+<p><pre class="code">
+var response = await db.ExecuteAsync("JSON.SET", BOOK_KEY, "$", bookJson);
+</pre></p>
+<p>Here, <span class="code">BOOK_KEY</span> is the name of the key to store the document at, <span class="code">"$"</span> is the JSONPath (recall that we should always use <span class="code">"$"</span> meaning root when creating new documents) and <span class="code">bookJson</span> is the vairable containing the book data.</p>
+<p>This function returns <span class="code">OK</span> if the data was stored successfully in Redis.</p>
+<h2>Retrieving Parts of a Stored JSON Document</h2>
+<hr>
+<p>Let's retrieve the <span class="code">author</span> and <span class="code">score</span> properties for our book.  The <span class="code">author</span> property is at the root level of the document, and the <span class="code">score</span> property is inside an object named <span class="code">metrics</span>.  With StackExchange.Redis we retrieve these using the <span class="code"><a href="https://redis.io/commands/json.get/" target="_blank" class="page-link">JSON.GET</a></span> command, providing the key name and two JSONPath strings:</p>
+<p><pre class="code">
+response = await db.ExecuteAsync("JSON.GET", BOOK_KEY, "$.author", "$.metrics.score");
+</pre></p>
+<p>The value of <span class="code">response</span> will be:</p>
+<p><pre class="code">
+{"$.metrics.score":[2.3],"$.author":["Redis University"]}
+</pre></p>
+<h2>Modifying a Stored JSON Document</h2>
+<hr>
+<p>We can add 1 to the value stored at <span class="code">$.metrics.rating_votes</span> using <span class="code"><a href="https://redis.io/commands/json.numincrby/" target="_blank" class="page-link">JSON.NUMINCRBY</a></span>:</p>
+<p><pre class="code">
+var res = (string?)await db.ExecuteAsync("JSON.NUMINCRBY", BOOK_KEY, $"$.metrics.rating_votes", 1);
+</pre></p>
+<p>The value of <span class="code">response</span> will be <span class="code">[13]</span>: the new value of <span class="code">$.metrics.rating_votes</span>.  We can parse this into an integer like so:</p>
+<p><pre class="code">
+var parsedResponse = int.Parse(res.Substring(1, res.Length-2));
+</pre></p>
+<p>To add a new copy of the book to the inventory array, we use <span class="code"><a href="https://redis.io/commands/json.arrappend/" target="_blank" class="page-link">JSON.ARRAPPEND</a></span>:</p>
+<p><pre class="code">
+response = await db.ExecuteAsync("JSON.ARRAPPEND", BOOK_KEY, "$.inventory", "{\"status\":\"available\",\"stock_id\":\"99999_3\"}");
+</pre></p>
+<p>The value of <span class="code">response</span> will be <span class="code">3</span>: the new length of the array in the JSON document stored in Redis.</p>

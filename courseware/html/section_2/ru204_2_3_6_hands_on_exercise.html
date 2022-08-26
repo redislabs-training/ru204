@@ -1,0 +1,32 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>We've shown you the basics of JSON data modeling with the four Redis OM clients, now it's your turn to try it out in your preferred programming language.</p>
+<p>If you're not a coder, don't worry - this is an ungraded exercise!</p>
+<h2>Coding Exercise</h2>
+<hr>
+<p>Imagine we're operating a video rental store.  We've decided to represent each of the movies in our inventory using JSON documents that have the following structure:</p>
+<p><pre class="code">
+{
+"title": "The Matrix",
+"released": 1999,
+"runtime": 137,
+"stars": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Ann Moss"
+],
+"Summary": "A stranger leads computer hacker Neo to a forbidding underworld, he discovers the truth: the life he knows is the elaborate deception of an evil cyber-intelligence."
+} 
+</pre></p>
+<p>Using the sample code from the previous modules as a template, write code in your preferred language that uses the Redis OM client to:</p>
+<ul>
+<li>Model the JSON structure above as an entity of class <span class="code">Movie</span>.</li>
+<li>Create some <span class="code">Movie</span> instances for 2-3 of your favorite movies (<a href="https://www.imdb.com/" target="_blank" class="page-link">look them up on IMDB</a>!)</li>
+<li>Persist them to Redis, and verify that the correct JSON structure is stored in Redis for each document.</li>
+</ul>
+<p>Don't forget that you'll need to have your Redis Stack instance up and running with the course sample data loaded.  If you need help with this, please consult the <a href="https://github.com/redislabs-training/ru204/" target="_blank" class="page-link">README</a> in the course GitHub repository.</p>
+<p>Check that your code worked by using RedisInsight or the redis-cli to view the contents of the database.</p>
+<p>Should you need help or would like to share your success with Redis staff and your fellow students, reach out to us on the <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">course Discord channel</a>.</p>
+<p>Best of luck!</p>
+  

@@ -1,0 +1,24 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Now that you've seen how to work with JSON documents and RedisJSON commands with four different Redis clients, it's time to try working with your favorite programming language and the sample data provided!</p>
+<p>If you're not a coder, don't worry - this is an ungraded exercise!</p>  
+<h2>Coding Exercise</h2>
+<p>Using the sample code from the previous modules as a template, write code in your preferred language that performs some of all of the following operations on the sample data set:</p>
+<ul>
+<li>Try out the <span class="code"><a href="https://redis.io/commands/json.strappend/" target="_blank" class="page-link">JSON.STRAPPEND</a></span> command to add the "Jr." suffix to the author of the book at key <span class="code">ru204:book:21</span>, making the author's name "Kurt Busiek Jr.".</li>
+<li>Use the <span class="code"><a href="https://redis.io/commands/json.mget/" target="_blank" class="page-link">JSON.MGET</a></span> path to get the titles for the books whose keys are <span class="code">ru204:book:91</span>, <span class="code">ru204:book:2718</span> and <span class="code">ru204:book:171</span>.</li>
+<li>Add a new entry to the <span class="code">inventory</span> array for the book at key <span class="code">ru204:book:10542</span> with the <span class="code"><a href="https://redis.io/commands/json.arrinsert/" target="_blank" class="page-link">JSON.ARRINSERT</a></span> command.  Add your new entry at position 2 in the array, and use the following object:</li>
+</ul>
+<p><pre class="code">
+{
+"status": "maintenance",
+"stock_id": "10542_5"
+}
+</pre></p>
+<p>Don't forget that you'll need to have your Redis Stack instance up and running with the course sample data loaded.  If you need help with this, please consult the <a href="https://github.com/redislabs-training/ru204/blob/main/README.md" target="_blank" class="page-link">README</a> in the course GitHub repository.</p>
+<p>Check that your code worked by using RedisInsight or the redis-cli to view the contents of the database.</p>
+<p>Should you need help or would like to share your success with Redis staff and your fellow students, reach out to us on the <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">course Discord channel</a>.</p>
+<p>If you like to code in a language other than Python, Node.js, C# or Java and would like to implement the example code in that language, <a href="https://github.com/redislabs-training/ru204/pulls" target="_blank" class="page-link">send us a pull request</a> - we'd love to expand the scope of this section of the course!</p>
+<p>Best of luck!</p>
+  

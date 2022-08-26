@@ -1,0 +1,62 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold;}
+</style>
+<p>In this exercise you will explore a few JSONPath expressions to retrieve specific fragments of a stored document.  You'll be using the <span class="code">JSON.GET</span> command and writing JSONPath expressions so that you can select a specific intended target or retrieve all fragments that match a given criteria.  These exercises won't cover all possibilities, but will provide examples of the most common use cases. Refer to the <a href="https://goessner.net/articles/JsonPath/" class="page-link" target="_blank">JSONPath documentation</a> for a full explanation of the expressions.</p>
+<h2>Retrieve a single value from a document</h2>
+<hr>
+<p>In this exercise, we will use the book object <span class="code">ru204:book:206</span>. To only retrieve the <span class="code">title</span> property of the JSON document, we use the JSONPath expression <span class="code">$.title</span>. Recall that <span class="code">$</span> represents the root level of the JSON document. JSONPath uses dot notation similar to Javascript to navigate properties.</p>
+<h3>1. Retrieve a single property from a document</h3>
+<p>Enter the following command to retrieve the title of the book object:</p>
+<p><span class="code">JSON.GET ru204:book:206 $.title</span></p>
+<p>Redis responds with the value in an array:</p>
+<p><span class="code">"[\"Timeless: Diego and the Rangers of the Vastlantic\"]"</span></p>
+<p>Using the JSONPath expression to retrieve only one property saves bandwidth by avoiding returning the entire JSON object, which can be costly and inefficient.</p>
+<h3>2. Retrieve an element of an array in a document</h3>
+<p>Accessing an array within a document begins with using dot notation to identify the property containing the array. Bracket notation is then used to access individual elements of the array, similar to Javascript and other programming languages.</p>
+<p>The book object <span class="code">ru204:book:206</span> contains an inventory array. Lets access the first element within that array, remembering that arrays are zero-indexed.</p>
+<p><span class="code">JSON.GET ru204:book:206 $.inventory[0]</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">"[{\"status\":\"available\",\"stock_id\":\"206_1\"}]"</span></p>
+<p>In the command above, the JSONPath expression first specifies the path to the inventory array. It then seeks out the element at index 0. In this case, the return value is an object.</p>
+<p>This command retrieves the element at index 3 of the array <span class="code">genres</span> within the stored document:</p>
+<p><span class="code">JSON.GET ru204:book:206 $.genres[3]</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">"[\"fantasy\"]"</span></p>
+<h3>3. Retrieve a property within an element of an array</h3>
+<p>Dot notation may further be used  to access properties within the objects stored inside the inventory array. Here is an example of accessing the <span class="code">stock_id</span> of the second element of the inventory array (at index 1):</p>
+<p><span class="code">JSON.GET ru204:book:206 $.inventory[1].stock_id</span></p>
+<p>Redis returns the <span class="code">stock_id</span> value:
+<p><span class="code">"[\"206_2\"]"</span></p>
+<h2>Retrieving Multiple Elements </h2>
+<hr>
+<h3>1. Recursive scanning for properties</h3>
+<p>JSON documents stored in Redis can be traversed recursively to find specific properties wherever they occur in the document's structure. These properties do not need to be on the same depth or within the same data type.</p>
+<p>Lets retrieve all <span class="code">stock_id</span> properties of the book <span class="code">ru204:book:206</span>:</p>
+<p><span class="code">JSON.GET ru204:book:206 $..stock_id</span></p>
+<p>Redis returns a list of all <span class="code">stock_id</span> values:</p>
+<p><span class="code">"[\"206_1\",\"206_2\",\"206_3\",\"206_4\",\"206_5\",\"206_6\",\"206_7\"]"</span></p>
+<p>The double dot notation after the dollar sign <span class="code">$</span> and before the property name is a JSONPath expression that signifies that the command should recursively traverse the entire object and retrieve all values associated with the property name of <span class="code">stock_id</span>. Redis then returns a list of all retrieved values.</p>
+<h3>2. Array Slice Operations </h3>
+<p>JSONPath uses the colon <span class="code">:</span> operator within bracket notation selection to select a range of elements within an array.</p>
+<p>This example retrieves all of the elements of the inventory array from index 2 until index 4:</p>
+<p><span class="code">JSON.GET ru204:book:206 $.inventory[2:4]</span></p>
+<p>Redis returns:</p>
+<p><span class="code">"[{\"status\":\"available\",\"stock_id\":\"206_3\"},{\"status\":\"maintenance\",\"stock_id\":\"206_4\"}]"</span></p>
+<p>Notice the bracket notation selector <span class="code">[2:4]</span>. This means the JSONPATH expression is to capture the elements starting at index 2 and up to but not including index 4.  </p>
+<p>This next example retrieves all of the elements from the beginning of the array up to but not including index 3:</p>
+<p><span class="code">JSON.GET ru204:book:206 $.inventory[:3]</span></p>
+<p>Redis returns:</p>
+<p><span class="code">"[{\"status\":\"available\",\"stock_id\":\"206_1\"},{\"status\":\"maintenance\",\"stock_id\":\"206_2\"},{\"status\":\"available\",\"stock_id\":\"206_3\"}]"</span></p>
+<p>The bracket notation selector <span class="code">[:3]</span> signifies that all elements from the beginning will be captured up to but not including index 3.</p>
+<p>Alternatively, a bracket notation selector of <span class="code">[3:]</span>retrieves all elements from index 3 to the end of the array:</p>
+<p><span class="code">JSON.GET ru204:book:206 $.inventory[3:]</span></p>
+<p>Redis returns:</p>
+<p><span class="code">"[{\"status\":\"maintenance\",\"stock_id\":\"206_4\"},{\"status\":\"on_loan\",\"stock_id\":\"206_5\"},{\"status\":\"available\",\"stock_id\":\"206_6\"},{\"status\":\"maintenance\",\"stock_id\":\"206_7\"}]"</span></p>
+<h2>Miscellaneous</h2>
+<hr>
+<h3>1. Retrieving the length of a string in a document</h3>
+<p>The <span class="code">JSON.STRLEN</span> command returns the length of a string value within a document. Lets check the length of the title in the document <span class="code">ru204:book:206</span>:</p>
+<p><span class="code">JSON.STRLEN ru204:book:206 $.title</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">49</span></p>
+<p>Redis selects the <span class="code">title</span> property and returns the length of the title value "Timeless: Diego and the Rangers of the Vastlantic".</p>

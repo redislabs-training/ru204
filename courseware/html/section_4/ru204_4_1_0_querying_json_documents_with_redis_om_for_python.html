@@ -1,0 +1,93 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Let&apos;s see how <a href="https://github.com/redis/redis-om-python" target="_blank" class="page-link">Redis OM for Python</a> allows us to store and query JSON documents in a more developer friendly way than using the lower level <a href="https://github.com/redis/redis-py" target="_blank" class="page-link">redis-py</a> client and the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command directly.</p>
+<p>In this module, we&apos;ll refer to the source code contained in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/python/redis_om_search_example" target="_blank" class="page-link">src/python/redis_om_search_example</a></span> folder of the course GitHub repository.  We suggest that you have this folder open in a separate browser tab, or your preferred IDE while studying this module.</p>
+<h2>Data Model</h2>
+<hr/>
+<p>For this example, we&apos;ll continue using our Book data model that you saw in section 2 when we saw how to save JSON documents in Redis with Redis OM Python.  It&apos;s now time to add indexing and search capabilities to this, so let&apos;s take a look at what&apos;s changed since section 2...</p>
+<p>The data model is defined in the <span class="code">Book</span>, <span class="code">Metrics</span> and <span class="code">InventoryItem</span> classes which can all be found in the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/python/redis_om_search_example/model.py" target="_blank" class="page-link">model.py</a></span>.  What&apos;s different from our previous example is that we&apos;re now importing <span class="code">Field</span> from Redis OM, and using that to tell Redis OM which data fields we want to index with RediSearch.</p>
+<p>Let's look at our updated <span class="code">Book</span> class:</p>
+<p><pre class="code">
+class Book(JsonModel):
+    author: str = Field(index=True)
+    id: str = Field(index=True)
+    description: str = Field(index=True, full_text_search=True)
+    genres: List[str] = Field(index=True)
+    inventory: List[InventoryItem]
+    metrics: Metrics
+    pages: PositiveInt = Field(index=True, sortable=True)
+    title: str = Field(index=True, full_text_search=True)
+    url: AnyHttpUrl = Field(index=True)
+    year_published: PositiveInt = Field(index=True, sortable=True)
+
+    # Extra configuration to specify how to generate key
+    # names when saving an instance of the model in Redis.
+    class Meta:
+        global_key_prefix="ru204:redis-om-python"
+        model_key_prefix="book"
+</pre></p>
+<p>We tell Redis OM that it should index a data field using:</p>
+<p><pre class="code">
+Field(index=True)
+</pre></p>
+<p>Redis OM uses the data type of each indexed field to determine how to tell RediSearch to index it.  <span class="code">str</span> fields will be indexed as <span class="code">TAG</span> (match on the full value of the string), numeric fields (those declared as <span class="code">PositiveInt</span> in our model) will be indexed as <span class="code">NUMERIC</span>.   We can declare that a field should be indexed as <span class="code">TEXT</span> (full-text searchable) using this <span class="code">Field</span> declaration:</p>
+<p><pre class="code">
+Field(index=True, full_text_search=True)
+</pre></p>
+<p>To declare a sortable field, set <span class="code">sortable</span> to <span class="code">True</span>:</p>
+<p><pre class="code">
+Field(index=True, sortable=True)
+</pre></p>
+<h2>Creating the Search Index</h2>
+<hr/>
+<p>Redis OM Python manages the creation of the RediSearch index for us, there&apos;s no need for us to use the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command directly or to know its syntax.</p>
+<p>Open the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/python/redis_om_search_example/load_data.py" target="_blank" class="page-link">load_data.py</a></span>. Let's see how the index is created and documents added to it...</p>
+<p>First, we need to import <span class="code">Migrator</span> from Redis OM Python:</p>
+<p><pre class="code">
+from redis_om import Migrator
+</pre></p>
+<p>The Migrator manages the creation of indexes for us automatically.  Creating an index is as simple as importing or defining one or more data model classes that have fields set to <span class="code">Field(index=True)</span>, then calling  <span class="code">run</span>:
+<p><pre class="code">
+Migrator().run()
+</pre></p>
+<p>Adding documents to the index is then as simple as creating new instances of a model and saving them in Redis.  This process is the same as you saw in section 2, let's create a new <span class="code">Book</span> and save it:</p>
+<p><pre class="code">
+book = Book(
+    title="Redis: An Introduction",
+    author="Redis University,
+    # Other fields…
+)
+
+book.save()
+</pre></p>
+<p>RediSearch automatically adds the book to the search index for us, and keeps the index updated with any future changes to the book&apos;s JSON document in Redis.</p>
+<p>That&apos;s all there is to it!</p>
+<h2>Querying the Index</h2>
+<hr/>
+<p>Redis OM for Python also provides us with a fluent querying interface.  This operates at a higher level of abstraction than the underlying <a href="https://github.com/redis/redis-py" target="_blank" class="page-link">redis-py</a> client, and doesn&apos;t require you to learn the query syntax for the <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command.</p>
+<p>Open the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/python/redis_om_search_example/search_om_example.py" target="_blank" class="page-link">search_om_example.py</a></span> to follow along.</p>
+<p>Models in Redis OM Python have a <span class="code">find</span> method.  We use this to write queries, and it returns a list of matching instances of the model.  Let&apos;s find books that were written by Stephen King:</p>
+<p><pre class="code">
+result_set = Book.find(
+    Book.author == "Stephen King"
+).all()
+</pre></p>
+<p>Here, we&apos;re saying "Find all books where the author field has the value Stephen King".  <span class="code">result_set</span> will contain a list of matching <span class="code">Book</span> instances.  Redis OM Python handles translating this query to the correct <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command invocation, running it, and parsing the results.</p>
+<p>When working with fields that were indexed as <span class="code">TEXT</span>, we can use the <span class="code">%</span> operator to perform a full-text search.  We can also combine search clauses, here we&apos;ll look for books with "Star" in the title field that are also over 500 pages long:</p>
+<p><pre class="code">
+result_set = Book.find(
+    (Book.title % "Star") & (Book.pages > 500)
+).sort_by("pages")
+</pre></p>
+<p>Note that as well as combining search clauses, we&apos;re asking Redis OM to sort the results by the number of pages.  The default sort order is ASCending.  If we wanted a DESCending sort, we&apos;d place the minus character in front of the sort field:</p>
+<p><pre class="code">
+.sort_by("-pages")
+</pre></p>
+<p>When querying numeric fields, we can use the <span class="code">&gt;</span> and <span class="code">&lt;</span> operators.  Let&apos;s find books published between 1959 and 1973 inclusive:</p>
+<p><pre class="code">
+result_set = Book.find(
+    (Book.year_published > 1958) & (Book.year_published < 1974)
+).all()
+</pre></p>
+<p>To learn more about Redis OM for Python&apos;s query syntax, please <a href="https://github.com/redis/redis-om-python/blob/main/docs/getting_started.md#querying-for-models-with-expressions" target="_blank" class="page-link">refer to the documentation</a>.</p>

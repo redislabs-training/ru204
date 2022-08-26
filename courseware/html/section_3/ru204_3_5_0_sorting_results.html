@@ -1,0 +1,82 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>When querying an index, it is possible to sort the results by one of the indexed fields. Supported field types are <span class="code">TEXT</span> and <span class="code">NUMERIC</span>.  They must be declared <span class="code">SORTABLE</span> at the time the index is created with the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command. Note that sorting large <span class="code">TEXT</span> fields can degrade search performance.</p>
+<p>To sort the results of a query, use the <span class="code">SORTBY</span> option after the query expression.  We'll specify which field to sort by  in <span class="code">ASC</span>ending or <span class="code">DESC</span>ending order. If neither option is provided, results are returned in ascending order.</p>
+<p>Here is an example of a search for all books from 0 to 1000 pages sorted in ascending order. To keep things simple, we are only returning the key name and pages value.</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@pages:[0 1000]" SORTBY pages ASC RETURN 1 pages
+</pre></p>
+<p>Redis returns 1001 documents with the smallest page count of 202 listed first:</p>
+<p><pre class="code">
+1) "1001"
+2) "ru204:book:61754"
+3) 1) "pages"
+   2) "202"
+4) "ru204:book:4361"
+5) 1) "pages"
+   2) "203"
+6) "ru204:book:66239"
+7) 1) "pages"
+   2) "204"
+8) "ru204:book:7300"
+9) 1) "pages"
+   2) "205"
+10) "ru204:book:1539"
+11) 1) "pages"
+   2) "205"
+12) "ru204:book:565"
+13) 1) "pages"
+   2) "206"
+14) "ru204:book:2900"
+15) 1) "pages"
+   2) "207"
+16) "ru204:book:645"
+17) 1) "pages"
+   2) "207"
+18) "ru204:book:1059"
+19) 1) "pages"
+   2) "208"
+20) "ru204:book:9208"
+21) 1) "pages"
+   2) "209"
+</pre></p>
+<p>We can also find the highest rating scored books within our document collection. We'll want to search from the highest score possible (5) to the lowest score (0). Adding <span class="code">SORTBY score DESC</span> returns documents with the highest scores first:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@score:[0 5]" SORTBY score DESC RETURN 1 score
+</pre></p>
+<p>By default, Redis returns the first ten documents of the search query. When sorted we see the highest rated book received a 4.66:</p>
+<p><pre class="code">
+1) "1487"
+2) "ru204:book:352"
+3) 1) "score"
+   2) "4.66"
+4) "ru204:book:21334"
+5) 1) "score"
+   2) "4.62"
+6) "ru204:book:1600"
+7) 1) "score"
+   2) "4.6"
+8) "ru204:book:116"
+9) 1) "score"
+   2) "4.59"
+10) "ru204:book:205"
+11) 1) "score"
+   2) "4.58"
+12) "ru204:book:2217"
+13) 1) "score"
+   2) "4.57"
+14) "ru204:book:384"
+15) 1) "score"
+   2) "4.56"
+16) "ru204:book:7"
+17) 1) "score"
+   2) "4.56"
+18) "ru204:book:365"
+19) 1) "score"
+   2) "4.55"
+20) "ru204:book:422"
+21) 1) "score"
+   2) "4.55"
+</pre></p>
+<p>While this is helpful, it should be noted that only the first ten results are given. What if we wanted only the top 3 or 5? What if we wanted to display a list of more than ten results? Proceed to the next unit on <span class="code">LIMIT</span> to explore paginating results.</p>

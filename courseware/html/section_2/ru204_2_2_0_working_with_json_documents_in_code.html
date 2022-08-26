@@ -1,0 +1,57 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>In this unit, we'll demonstrate how to use popular Redis Clients to store and manipulate JSON documents in Redis.</p>
+<p>You'll see how to initialize each client, connect to Redis and work with RedisJSON commands.  We'll use the same example in all four programming languages.  You don't need to read and understand all four - focus on the language(s) that are relevant to your application development needs.</p>
+<h2>Getting the Code</h2>
+<hr>
+<p>The code is located in the <span class="code">src</span> folder in the <a href="https://github.com/redislabs-training/ru204/" class="page-link" target="_blank">course GitHub repository</a>.  You should have already cloned this repository to your machine as part of the initial course setup step.</p>
+<h2>Example Data</h2>
+<hr>
+<p>The example code creates a new JSON document in Redis that models a book called "Up and running with RedisJSON".  The book will be stored in a key named <span class="code">ru204:book:99999</span> and the document initially looks like this:</p>
+<p><pre class="code">
+{
+  "author": "Redis University",
+  "id": 99999,
+  "description": "This is a fictional book used to demonstrate RedisJSON!",
+  "editions": [
+    "english",
+    "french"
+  ],
+  "genres": [
+    "education",
+    "technology"
+  ],
+  "inventory": [
+    {
+      "status": "available",
+      "stock_id": "99999_1"
+    },
+    {
+      "status": "on_loan",
+      "stock_id": "99999_2"
+    }
+  ],
+  "metrics": {
+    "rating_votes": 12,
+    "score": 2.3
+  },
+  "pages": 1000,
+  "title": "Up and Running with RedisJSON",
+  "url": "https://university.redis.com/courses/ru204/",
+  "year_published": 2022
+}      
+</pre></p>
+<h2>RedisJSON Commands Used in the Example Code</h2>
+<hr>
+<p>Each example program uses the following RedisJSON commands to store and manipulate the book data:</p>
+<ul>
+    <li><span class="code"><a href="https://redis.io/commands/json.set/" class="page-link" target="_blank">JSON.SET</a></span> to create the document at key <span class="code">ru204:book:99999</span> in Redis.</li>
+    <li><span class="code"><a href="https://redis.io/commands/json.get/" class="page-link" target="_blank">JSON.GET</a></span> to retrieve data from the document using JSONPath expressions.</li>
+    <li><span class="code"><a href="https://redis.io/commands/json.numincrby/" class="page-link" target="_blank">JSON.NUMINCRBY</a></span> to atomically update numeric data in the document.</li>
+    <li><span class="code"><a href="https://redis.io/commands/json.arrappend/" class="page-link" target="_blank">JSON.ARRAPPEND</a></span> to add extra entries to an array in the document.</li>
+</ul>
+<h2>Running the Code</h2>
+<hr>
+<p>In the modules that follow this one, we'll walk you through how the code works and how you can run it on your machine to add data to your Redis instance.  While you don't have to run the code, we'd strongly recommend that you try it with at least one of the languages.</p>
+<p>Let's begin with Python...</p>

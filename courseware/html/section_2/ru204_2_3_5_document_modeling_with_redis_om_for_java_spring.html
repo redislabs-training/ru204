@@ -1,0 +1,100 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>We've provided you with a small example program that uses the Redis OM client for Java/Spring to store and manipulate a new book object in Redis.</p>
+<p>The code is located in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/java/redis_om_example" target="_blank" class="page-link">src/java/redis_om_example</a></span> folder in the course GitHub repository.  You should have already cloned this repository to your machine as part of the initial course setup step.</p>
+<p>Follow the instructions in the <a href="https://github.com/redislabs-training/ru204/blob/main/src/java/redis_om_example/README.md" target="_blank" class="page-link">README.md</a> file if you'd like to run the code in your local environment.</p>
+<h2>Code Walkthrough</h2>
+<hr>
+<p>The code is contained in a single file, <span class="code">ExampleApplication.java</span>.  <a href="https://github.com/redislabs-training/ru204/blob/main/src/java/redis_om_example/src/main/java/com/redis/om/spring/example/ExampleApplication.java" target="_blank" class="page-link">Click here to open this file in GitHub</a> - you will need to refer to it throughout this module.</p>
+<h2>Data Model</h2>
+<p>Let's begin by looking at the way that Redis OM for Java/Spring models our book document.  We have a class <span class="code">Book</span> that defines the names and types of the data fields as well as the key format to use when persisting these to Redis:</p>
+<p><pre class="code">
+@Data
+@RequiredArgsConstructor(staticName = "of")
+@Document
+class Book {
+    @Id private String id;
+    @NonNull private String author;
+    @NonNull private String description;
+    @NonNull private List<String> genres;
+    @NonNull private Integer pages;
+    @NonNull private String title;
+    @NonNull private URL url;
+    @NonNull private Integer yearPublished;
+    @NonNull private Metrics metrics;
+
+    private List<InventoryItem> inventory;
+
+    @Override
+    public String toString() {
+        return gson.toJson(this);
+    }
+
+    // used to print the object as a JSON document
+    private static final Gson gson = GsonBuidlerFactory.getBuilder().setPrettyPrinting().create();
+}  
+</pre></p>
+<p>Nested objects are modeled as their own classes, for example an inventory item looks like this:</p>
+<p><pre class="code">
+@Data
+@RequiredArgsConstructor(staticName = "of")
+class InventoryItem {
+    @NonNull private String status;
+    @NonNull private String stockId;
+}  
+</pre></p>
+<p>And the metrics object like this:</p>
+<p><pre class="code">
+@Data
+@RequiredArgsConstructor(staticName = "of")
+class Metrics {
+    @NonNull private Integer ratingVotes;
+    @NonNull private Double score;
+}  
+</pre></p>
+<h2>Storing Entities in Redis</h2>
+<hr>
+<p>Let's create a new instance of the <span class="code">Book</span> model:</p>
+<p><pre class="code">
+Book newBook = Book.of(
+    "Redis Staff",
+    "This is a book all about Redis.",
+    List.of("redis", "tech", "computers"),
+    1000,
+    "Redis for Beginners",
+    new URL("https://university.redis.com/courses/ru204/"),
+    2022,
+    Metrics.of(4000, 4.5)
+);
+
+// set inventory items
+newBook.setInventory(List.of(
+    InventoryItem.of("on_loan", "999_1"), //
+    InventoryItem.of("maintenance", "999_2") //
+));
+</pre></p> 
+<p>Redis OM generates a ULID ID for this entity that we can access using the <span class="code">getId</span> method:</p>
+<p><pre class="code">
+String id = newBook.getId();
+</pre></p>
+<p>Without knowing what the Redis command(s) involved are, we can store our new book in Redis like this:</p>
+<p><pre class="code">
+repository.save(newBook);
+</pre></p>
+<h2>Retrieving Entities from Redis</h2>
+<hr>
+<p>Let's retrieve that book using its ULID (note we don't need to know the entire Redis key to retrieve the book):</p>
+<p><pre class="code">
+Optional<Book> maybeABook = repository.findById(newBook.getId());
+Book aBook = maybeABook.get();    
+</pre></p>
+<h2>Updating Entities in Redis</h2>
+<hr>
+<p>To update a property, change its value and save the book back to Redis using <span class="code">updateField</span> which performs both of these actions:</p>
+<p><pre class="code">
+repository.updateField(aBook, Book$.AUTHOR, "Redis University");
+</pre></p>
+<h2>Further Details</h2>
+<hr>
+<p>For more about the Redis OM for Java/Spring client, <a href="https://github.com/redis/redis-om-spring" target="_blank" class="page-link">explore the documentation on GitHub</a>.  We'll cover indexing and searching capabilities later in this course.</p>

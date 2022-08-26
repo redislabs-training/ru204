@@ -1,0 +1,51 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>We've provided you with a small example program that uses the <a href="https://github.com/redis/jedis" target="_blank" class="page-link">Jedis</a> client for Java to store and manipulate a new book object in Redis.</p>
+<p>The code is located in the <span class="code"><a href="https://github.com/redislabs-training/ru204/tree/main/src/java/jedis_example" target="_blank" class="page-link">src/java/jedis_example</a></span> folder in the course GitHub repository.  You should have already cloned this repository to your machine as part of the initial course setup step.</p>
+<p>Follow the instructions in the <a href="https://github.com/redislabs-training/ru204/blob/main/src/java/jedis_example/README.md" target="_blank" class="page-link">README.md</a> file if you'd like to run the code in your local environment.</p>
+<h2>Code Walkthrough</h2>
+<hr>
+<p>The code is contained in a single file, <span class="code">App.java</span>.  <a href="https://github.com/redislabs-training/ru204/blob/main/src/java/jedis_example/src/main/java/com/redis/university/ru204/App.java" target="_blank" class="page-link">Click here to open this file in GitHub</a> - you will need to refer to it throughout this module.</p>
+<p>Let's take a look at the code that stores and updates JSON documents.</p>
+<p>First, notice that our book document is stored in a file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/java/jedis_example/src/main/resources/data/Book.json" target="_blank" class="page-link">src/main/resources/data/Book.json</a></span> and read into the program as follows:</p>
+<p><pre class="code">
+Reader reader = Files.newBufferedReader(Paths.get("src/main/resources/data/Book.json"));
+</pre></p>
+<p>We then use <a href="https://github.com/google/gson" target="_blank" class="page-link">GSON</a> to parse this into an object representation:</p>
+<p><pre class="code">
+JsonObject book = new Gson().fromJson(reader, JsonObject.class);
+</pre></p>
+<h2>Storing a JSON Document in Redis</h2>
+<hr>
+<p>To store this object as a JSON document in Redis, we use the Redis <span class="code"><a href="https://redis.io/commands/json.set/" target="_blank" class="page-link">JSON.SET</a></span> command, which looks like this when working with Jedis:</p>
+<p><pre class="code">
+String strResponse = r.jsonSet(BOOK_KEY, book);
+</pre></p>
+<p>Here, <span class="code">BOOK_KEY</span> is the name of the key to store the document at and <span class="code">book</span> is the variable containing the book object.</p>
+<p>This function returns <span class="code">OK</span> if the data was stored successfully in Redis.</p>
+<h2>Retrieving Parts of a Stored JSON Document</h2>
+<p>Let's retrieve the <span class="code">author</span> and <span class="code">score</span> properties for our book.  The <span class="code">author</span> property is at the root level of the document, and the <span class="code">score</span> property is inside an object named <span class="code">metrics</span>.  With Jedis we retrieve these using the <span class="code"><a href="https://redis.io/commands/json.get/" target="_blank" class="page-link">JSON.GET</a></span> command, providing the key name and two JSONPath arguments:</p>
+<p><pre class="code">
+Object objResponse = r.jsonGet(BOOK_KEY, Path2.of("$.author"), Path2.of("$.metrics.score"));
+</pre></p>
+<p>The value of <span class="code">objResponse</span> will be:</p>
+<p><pre class="code">
+{"$.metrics.score":[2.3],"$.author":["Redis University"]}
+</pre></p>
+<h2>Modifying a Stored JSON Document</h2>
+<hr>
+<p>We can add 1 to the value stored at <span class="code">$.metrics.rating_votes</span> using <span class="code"><a href="https://redis.io/commands/json.numincrby/" target="_blank" class="page-link">JSON.NUMINCRBY</a></span>:</p>
+<p><pre class="code">
+JSONArray arrResponse = r.jsonNumIncrBy(BOOK_KEY, Path2.of("$.metrics.rating_votes"), 1d);
+</pre></p>  
+<p>The value of <span class="code">arrResponse</span> will be <span class="code">[13]</span>: the new value of <span class="code">$.metrics.rating_votes</span>.  We can parse this into an integer like so:</p>
+<p><pre class="code">
+arrResponse.getInt(0);
+</pre></p>
+<p>To add a new copy of the book to the <span class="code">inventory</span> array, we create a new object with GSON then use the <span class="code"><a href="https://redis.io/commands/json.arrappend/" target="_blank" class="page-link">JSON.ARRAPPEND</a></span> command:</p>
+<p><pre class="code">
+JsonObject newInventoryItem = GSON.fromJson("{'status': 'available', 'stock_id': '99999_3'}", JsonObject.class);
+List<Long> arrAppendResponse = r.jsonArrAppend(BOOK_KEY, Path2.of("$.inventory"), newInventoryItem);
+</pre></p>
+<p>The value of <span class="code">arrAppendResponse</span> will be a list containing the <span class="code">Long</span> value 3: the new length of the array in the JSON document stored in Redis.</p>

@@ -1,0 +1,45 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>The <span class="code"><a href="https://redis.io/commands/ft.search/" target="_blank" class="page-link">FT.SEARCH</a></span> command option <span class="code">LIMIT</span> allows us to specify a start position in the result set to return results from, and how many results from that position to return.  By default all queries have a <span class="code">LIMIT</span> of 10 documents beginning with the first result (index 0). <span class="code">LIMIT</span> allows for pagination by taking two parameters: the offset to start at and how many results should be returned from that point.  Use <span class="code">LIMIT</span> to paginate through large result sets in a resource efficient manner.</p>
+<p>Let's look at a previous query where we searched for the top scoring books. We'll add the extra clause <span class="code">LIMIT 0 5</span> to return only 5 documents starting at the beginning of the result set.</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo '@score:[0 5]' SORTBY score DESC RETURN 2 score title LIMIT 0 5
+</pre></p>
+<p>This will give us the top five scoring books only:</p>
+<p><pre class="code">
+1) "1487"
+2) "ru204:book:352"
+3) 1) "score"
+   2) "4.66"
+   3) "title"
+   4) "Saga: Book Two"
+4) "ru204:book:21334"
+5) 1) "score"
+   2) "4.62"
+   3) "title"
+   4) "The Way of Kings"
+6) "ru204:book:1600"
+7) 1) "score"
+   2) "4.6"
+   3) "title"
+   4) "The Empty Grave"
+8) "ru204:book:116"
+9) 1) "score"
+   2) "4.59"
+   3) "title"
+   4) "The Wandering Inn: Volume 2"
+10) "ru204:book:205"
+11) 1) "score"
+   2) "4.58"
+   3) "title"
+   4) "The More Than Complete Hitchhiker's Guide"
+</pre></p>
+<p>To receive the number of documents matched by a query without actually receiving the documents, use <span class="code">LIMIT</span> with an offset of 0 and a number of documents of 0. Let's see how many books have the <span class="code">science fiction (robots)</span> tag:</p>
+<p><pre class="code">
+FT.SEARCH index:bookdemo "@genres:{science fiction \\(robots\\)}" LIMIT 0 0
+</pre></p>
+<p>Redis returns the number 45:</p>
+<p><pre class="code">
+1) "45"
+</pre></p>

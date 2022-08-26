@@ -1,0 +1,81 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important; }
+</style>
+<p>RedisJSON includes many commands specifically designed for updating each of the data types used in JSON documents.  These include the ability to atomically update parts of a document on the Redis server without the complexities, performance issues and network bandwidth associated with handling this in your application code.  Let's begin with a look at how to efficiently and atomically update an array in a JSON document stored in Redis.</p>
+<h2>Updating Arrays in a JSON Document</h2>
+<hr>
+<h3>1.  Adding an element to an array with <span class="code">JSON.ARRAPPEND</span></h3>
+<p><span class="code">JSON.ARRAPPEND</span> pushes one or more new elements onto the right of a given array. This can be compared to an <span class="code">RPUSH</span> command when working with Redis Lists.</p>
+<p>Let's add a new copy of book 18161 to the <span class="code">inventory</span> array of the JSON document stored at <span class="code">ru204:book:18161</span>:</p>
+<p><span class="code">
+JSON.ARRAPPEND ru204:book:18161 $.inventory '{"stock_number": "18161_5","status": "maintenance"}'
+</span></p>
+<p>Redis returns the new length of the array that was appended to:</p>
+<p><span class="code">3</span></p>
+<h3>2. Inserting a new element into an array with <span class="code">JSON.ARRINSERT</span></h3>
+<p>The <span class="code">JSON.ARRINSERT</span> command extends the functionality of <span class="code">JSON.ARRAPPEND</span> by providing an index argument. This command allows the insertion of a new element directly before the provided index (thus shifting the original index element to the right). Using 0 as an index inserts the element at the beginning of the array. Using -1 as the  index inserts the element at the end of the array.</p>
+<p>This command inserts a new object in the book <span class="code">inventory</span> array at index position 1:</p>
+<p><span class="code">JSON.ARRINSERT ru204:book:18161 $.inventory 1 '{"stock_number": "18161_2","status": "available"}'</span></p>
+<p>Redis responds with the new length of the array:</p>
+<p><span class="code">4</span></p>
+<p>This command inserts a new object into the book <span class="code">inventory</span> array at index position 3:</p>
+<p><span class="code">JSON.ARRINSERT ru204:book:18161 $.inventory 3 '{"stock_number": "18161_2","status": "available"}'</span></p>
+<p>Again, the response from Redis contains the new length of the array:</p>
+<p><span class="code">5</span></p>
+<h3>3. Removing elements from an array with <span class="code">JSON.ARRPOP</span></h3>
+<p>Use the <span class="code">JSON.ARRPOP</span> command to remove elements from an array. By default, <span class="code">JSON.ARRPOP</span> removes the last element of a specified array within a document. When an optional index argument is provided, <span class="code">JSON.ARRPOP</span> removes and returns the element at that index.</p>
+<p>This command removes the last element in the <span class="code">inventory</span> array of the <span class="code">ru204:book:18161</span> document:</p>
+<p><span class="code">JSON.ARRPOP ru204:book:18161 $.inventory</span></p>
+<p>Redis responds with the element that was removed:</p>
+<p><span class="code">"{\"stock_number\":\"18161_5\",\"status\":\"maintenance\"}"</span></p>
+<p>This command removes the element at index 2 of the <span class="code">inventory</span> array:</p>
+<p><span class="code">JSON.ARRPOP ru204:book:18161 $.inventory 2</span></p>
+<p>Again, Redis responds with the element that was removed:</p>
+<p><span class="code">"{\"stock_number\":\"18161_3\",\"status\":\"maintenance\"}"</p>
+<h2>Updating numerical data in a JSON document</h2>
+<hr>
+<p>RedisJSON includes commands similar to the Redis <span class="code">INCRBY</span> command to handle atomic addition and subtraction operations on numerical data stored in a JSON document.  This is useful for incrementing page views, adjusting inventory counts, and any situation where only the value needs to be updated, not the entire document.</p>
+<p>Here is a command that we can use to keep a count of the total number of times a specific book title has been checked out to a user. Each time a user checks out a book to read, the system runs this to increment the <span class="code">checked_out</span> value by 1:</p>
+<p>First, lets create a <span class="code">checked_out</span> property within the book document:</p>
+<p><span class="code">JSON.SET ru204:book:18161 $.checked_out 0</span></p>
+<p>Then let's call the <span class="code">JSON.NUMINCRBY</span> command:</p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:18161 $.checked_out 1</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">[1]</span></p>
+<p>And if we run the same command again, we can see that Redis updates the value stored at <span class="code">$.checked_out</span> to 2:</p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:18161 $.checked_out 1</span></p>
+<p>Redis responds with an updated value:</p>
+<p><span class="code">[2]</span></p>
+<p>To decrement a numerical value, use a negative number. Let's add some ratings metrics to the document <span class="code">ru204:book:18161</span> then decrement the <span class="code">rating_votes</span> stored within:</p>
+<p><span class="code">JSON.SET ru204:book:18161 $.metrics '{"rating_votes":784, "score":3.97}'</span></p>
+<p>Now let's call <span class="code">JSON.NUMINCRBY</span> on the property <span class="code">ratings_votes</span> with a negative value:</p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:18161 $.metrics.rating_votes -10</span></p>
+<p>Redis responds with the new value stored at <span class="code">$.metrics.rating_votes</span>:</p>
+<p><span class="code">[774]</span></p>
+<p>It should be noted that numerical values within a document <strong>MUST</strong> exist before performing commands upon them.</p>
+<h2>Updating strings in a JSON document</h2>
+<h3>1. Updating a string value in a JSON document</h3>
+<p>To change the value of a string within a document, use the <span class="code">JSON.SET</span> command. Let's change the value of <span class="code">author</span> from <span class="code">Jennifer L Armentrout</span> to <span class="code">Jennifer Lynn Armentrout</span>:</p>
+<p><span class="code">JSON.SET ru204:book:18161 $.author '"Jennifer Lynn Armentrout"'</span></p>
+<h3>Appending to a string value in a JSON document</h3>
+<p>The command <span class="code">JSON.STRAPPEND</span> provides a simple method to add a string to the end of an existing string within a document. Let's maybe add the suffix ", Esq."</p>
+<p><span class="code">JSON.STRAPPEND ru204:book:18161 $.author '", Esq."'</p></span>
+<p>Redis returns the new length of the string:</p>
+<p><span class="code">30</span></p>
+<h2>Updating boolean data in a JSON document</h2>
+<hr>
+<p>Boolean values in a document can be quickly "flipped" by using the <span class="code">JSON.TOGGLE</span> command. Let's add a property <span class="code">has_ebook_version</span> and set it to <span class="code">false</span>:</p>
+<p><span class="code">JSON.SET ru204:book:18161 $.has_ebook_version false</span></p>
+<p>Note that booleans do not need any quotes around them as they are interpreted by Redis as boolean true or false.</p>
+<p>Now when the <span class="code">JSON.TOGGLE</span> command is called on the value, the boolean state is flipped:</p>
+<p><span class="code">JSON.TOGGLE ru204:book:18161 $.has_ebook_version</span></p>
+<p>Redis responds with a numeric representation of the new boolean state:</p>
+<p><span class="code">1</span></p>
+<h2>Removing properties from a JSON document</h2>
+<hr>
+<p>Use the <span class="code">JSON.DEL</span> command to remove a property and its associated value from a JSON document.<p>
+<p>Let's remove the entire <span class="code">genres</span> array from the <span class="code">ru204:book:18161</span> document:</p>
+<p><span class="code">JSON.DEL ru204:book:18161 $.genres</span></p>
+<p>Redis returns the number of properties successfully removed; in this case one:</p>
+<p><span class="code">1</span></p>  
+<p>While it is important to understand how to use the Redis CLI to use the RedisJSON commands to create and maintain documents within Redis, most developers will want to perform these operations from their application code directly. In the next section, we will explore how to manage JSON documents in Redis using  popular Redis client libraries for commonly used programming languages.</p>

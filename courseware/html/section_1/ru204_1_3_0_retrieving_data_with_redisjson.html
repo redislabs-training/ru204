@@ -1,0 +1,131 @@
+<style type= text/css>
+  .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>The key to efficient data retrieval with RedisJSON is a good understanding of the JSONPath syntax.  Using the correct JSONPath expression ensures that only the data that your application needs is returned by Redis. This saves time and data transfer bandwidth between your application and the Redis Server.  Let's see how JSONPath expressions can help us retrieve book data from the course data set.</p>
+<p>JSONPath expressions begin with the dollar sign <span class="code">$</span>, representing the root of the document.</p>
+<p>The following table shows the JSONPath operators supported by RedisJSON:</p>
+<table>
+<thead>
+<tr>
+    <th>JSONPath Selector</th>
+    <th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><span class="code">$</span></td>
+    <td>the root object or element</td>
+</tr>
+<tr>
+    <td><span class="code">@</span></td>
+    <td>current object or element</td>
+</tr>
+<tr>
+    <td><span class="code">.</span></td>
+    <td>child operator, used to denote a child element of the current element</td>
+</tr>
+<tr>
+    <td><span class="code">..</span></td>
+    <td>recursive scan</td>
+</tr>
+<tr>
+    <td><span class="code">*</span></td>
+    <td>wildcard, returning all objects or elements regardless of their names</td>
+</tr>
+<tr>
+    <td><span class="code">[]</span></td>
+    <td>subscript operator / array operator</td>
+</tr>
+<tr>
+    <td><span class="code">,</span></td>
+    <td>union operator, returns the union of the children or indexes indicated</td>
+</tr>
+<tr>
+    <td><span class="code">:</span></td>
+    <td>array slice operator; you can slice arrays using the syntax [start:step]</td>
+</tr>  
+<tr>
+    <td class="code">()</td>
+    <td>lets you pass a script expression in the underlying implementation’s script language
+</td>
+</tr>
+<tr>
+    <td class="code">?()</td>
+    <td>applies a filter/script expression to query all items that meet certain criteria</td>
+</tr>  
+</tbody>
+</table>
+<h2>1. Retrieving a Document</h2>
+<hr>
+<p>Use the <span class="code">JSON.GET</span> command to retrieve an existing JSON document from Redis.  <span class="code">JSON.GET</span> can be used to retrieve the entire document, multiple fields, or a single field. The JSONPath <span class="code">$</span> after the key name retrieves the entire document (from root level).</p>
+<p>When we run the command:</p>
+<p>
+<span class="code">JSON.GET ru204:book:18161 $</span>
+</p>
+<p>We get the following JSON document response from Redis:<br>
+<span class="code">
+"[{\"base_id\":18161,\"author\":\"Jennifer L. Armentrout\",\"title\":\"Obsidian\",\"pages\":999,\"inventory\":[{\"stock_number\":\"18161_1\",\"status\":\"on_loan\"},{\"stock_number\":\"18161_3\",\"status\":\"maintenance\"}],\"genres\":[\"Young Adult\",\"Fantasy\",\"Science Fiction (Aliens) \",\"Science Fiction\"]}]"
+</span>
+</p>
+<p>
+Note that this response is contained in an array.  This is because <span class="code">JSON.GET</span> can accept multiple JSONPaths, returning the matching parts of the document as a single array response.  This is something that we'll explore later.</p>
+<h2>2. Retrieve a single field from a document</h2>
+<hr>
+<p>To retrieve a single field at the root level of a document, we use a JSONPath expression consisting of the  <span class="code">$</span> (root) followed by a dot <span class="code">.</span> and the name of the desired field. To retrieve the page count of our book object, we'll use the JSONPath expression <span class="code">$.pages</span></p>
+<p><span class="code">
+JSON.GET ru204:book:18161 $.pages
+</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">"[999]"</span></p>
+<h2>3. Retrieve a field within an embedded object or list</h2>
+<hr>
+<p>Recall that our book object contains an "inventory" array, containing information about the status of each copy of the book in the library system:</p>
+<p><pre class="code">
+"inventory": [
+    {"stock_number": "18161_1","status": "on_loan"},
+    {"stock_number": "18161_3","status": "maintenance"}
+]
+</pre></p>
+<p>Let's create a JSONPath expression to retrieve the value of the "status" field from the first object in the inventory array.  First use bracket notation to access the desired element. A second dot notation child operator `.` is then necessary to access the "status" field. The final JSONPath expression is: <span class="code">$.inventory[0].status</span></p>
+<p><span class="code">JSON.GET ru204:book:18161 $.inventory[0].status</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">"[\"on_loan\"]"</span></p>
+<h2>4. Retrieve multiple fields with one JSONPath Expression</h2>
+<hr>
+<p>JSONPath allows us to select multiple paths in a single expression. To select multiple paths with different property names, list each one in the <span class="code">JSON.GET</span> command with a full JSONPath expression:</p>
+<p><span class="code">JSON.GET ru204:book:18161 $.title $.author $.genres[0]</span></p>
+<p>Redis responds with:</p>
+<p><span class="code">"{\"$.author\":[\"Jennifer L. Armentrout\"],\"$.genres[0]\":[\"Young Adult\"],\"$.title\":[\"Obsidian\"]}"<p><span class="code">
+<p>To select all fields named "status" no matter where they occur in the document, use two dots before the field name.  Here, we're looking for all fields names "status" no matter where they occur in the document: </p>
+<p><span class="code">$..status</span></p>
+<p>Note that this captures all fields named "status" including those in nested objects, and objects inside arrays.</p>
+<p><span class="code">$..</span> refers to all fields available descended from root (recursively).<br/>
+<span class="code">$..</span>status captures all status fields that are descended from root.</p>
+<p><span class="code">JSON.GET ru204:book:18161 $..status</span></p>
+<p><span class="code">"[\"on_loan\",\"maintenance\"]"</span></p>
+<p>This command searches for all fields titled "status" and returns an array of their values.</p>
+<h2>5. Find the length of an array within a document</h2>
+<hr>
+<p>RedisJSON provides data-type specific commands to return values and properties of a stored document. The command <span class="code">JSON.ARRLEN</span> returns the number of elements in an embedded array inside a document.</p>
+<p><span class="code">JSON.ARRLEN ru204:book:18161 $.inventory</span></p>
+<p>Redis responds:</p>
+<p><span class="code">"2"</span></p>
+<p>This is an efficient method to retrieve the length of an array without fetching its contents into your application, thus saving network traffic and client work.</p>
+<h2>6. Retrieve the same property from multiple documents</h2>
+<hr>
+<p>The command <span class="code">JSON.MGET</span> retrieves one property from multiple documents. Let's gather the titles from the documents <span class="code">ru204:book:18161</span> and <span class="code">ru204:book:684</span>:</p>
+<p><span class="code">
+JSON.MGET ru204:book:18161 ru204:book:684 $.title
+</span></p>
+<p>Redis returns:</p>
+<p><span class="code">
+1) "[\"Obsidian\"]"<br/>
+2) "[\"Odyssey One\"]"</span></p>
+<p>Note that key order is preserved in the response, so "Obsidian" is the title of the book whose key is <span class="code">ru204:book:18161</span> and "Odyssey One" is the title of the book whose key is <span class="code">ru204:book:684</span>.</p>
+<p>Let's collect the genres arrays for both book documents:</p>
+<p><span class="code">JSON.MGET ru204:book:18161 ru204:book:684 $.genres</span></p>
+<p>Redis returns:</p>
+<p><span class="code">
+1) "[[\"Young Adult\",\"Fantasy\",\"Science Fiction (Aliens) \",\"Science Fiction\"]]"<br/>
+2) "[[\"adventure\",\"audiobook\",\"fiction\",\"science fiction\",\"science fiction (aliens)\",\"science fiction (military science fiction)\",\"space\",\"space (space opera)\",\"war\",\"war (military fiction)\"]]"</span></p>
+<p>In the next module we'll explore how to update documents by amending existing properties and adding new ones.</p>
