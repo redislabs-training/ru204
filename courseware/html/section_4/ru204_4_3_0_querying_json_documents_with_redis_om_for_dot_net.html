@@ -48,9 +48,10 @@ public class Book
 <hr/>
 <p>Redis OM .NET manages the creation of the RediSearch index for us, there's no need for us to use the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command directly or to know its syntax.</p>
 <p>Open the file <span class="code"><a href="https://github.com/redislabs-training/ru204/blob/main/src/dotnet/redis_om_search_example/Program.cs" target="_blank" class="page-link">Program.cs</a></span>. Let's see how the index is created and documents added to it...</p>
-<p>First, we need to connect to Redis:</p>
+<p>First, we need to connect to Redis (setting the envronment variable `REDIS_OM_URL` to a valid <a href="https://stackexchange.github.io/StackExchange.Redis/Configuration#basic-configuration-strings" target="_blank" class="page-link">StackExchange.Redis connection string</a> if connecting to a cloud Redis instance, or Redis on a non-standard host and port):</p>
 <p><pre class="code">
-var provider = new RedisConnectionProvider("redis://localhost:6379");
+var url = Environment.GetEnvironmentVariable("REDIS_OM_URL") ?? "redis://localhost:6379";
+var provider = new RedisConnectionProvider(url);
 </pre></p>
 <p>Using this connection provider, we then call <span class="code">CreateIndex</span>, passing the model class that we want an index created for:</p>
 <p><pre class="code">
