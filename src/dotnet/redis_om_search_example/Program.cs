@@ -9,7 +9,8 @@ if (args.Length != 1 || (args[0] != "load" && args[0] != "search"))
 }
 
 var action = args[0];
-var url = Environment.GetEnvironmentVariable("REDIS_OM_URL") ?? "redis://localhost:6379";
+var uri = Environment.GetEnvironmentVariable("REDIS_OM_URL") ?? "redis://localhost:6379";
+
 var provider = new RedisConnectionProvider(url);
 var books = provider.RedisCollection<Book>();
 
