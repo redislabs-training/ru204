@@ -1,0 +1,126 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+  </style>
+  <p>In this section we will explore the use of debugging commands that you may find helpful when creating indexes for RediSearch. We will also create advanced indexes that have specific features above and beyond the scope of the indexes created in the previous sections.  If you have any questions about any of the commands, we are available to help on our <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">Discord channel</a>.</p>
+  <h2>1. MONITOR</h2>
+  <hr>
+  <p><span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> allows for the inspection of commands sent to the Redis Server in real-time. This is particularly useful when we want to observe commands sent to the server from client libraries.</p>
+  <p>Let&apos;s explore this by running a Python script after we have executed the <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command in a redis-cli terminal or the <a href="https://developer.redis.com/explore/redisinsightv2/profiler/" target="_blank" class="page-link">Profiler</a> window in RedisInsight.</p>
+  <p>If you are using redis-cli in a terminal window, enter the command <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span>. This should return an <span class="code">"OK"</span> from the server.</p>
+  <p>If you are using RedisInsight, select the Profiler tab on the bottom of the window.</p>
+  <p>Now let&apos;s run a <a href="https://github.com/redislabs-training/ru204/blob/main/src/python/redis_om_search_example/search_om_example.py" target="_blank" class="page-link">Python script</a> from a previous section that queries our index. If you prefer another programming language example, feel free to choose any previous section&apos;s code examples. Our main goal is to observe <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> and the Profiler recording the commands sent to the Redis Server.</p>
+  <p>After running the script, our <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command reports a timestamped sequence of commands sent to Redis:</p>
+  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_2.png">
+  <p>In the RedisInsight window, after the Python script is executed, we see the following output:</p>
+  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_1.png">
+  <p>The <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command helps to reveal the underlying commands sent to the server from the client libraries. This may help to debug your application when results you receive are not exactly what is expected or when invalid commands are sent to Redis.</p>
+  <h2>2. FT.EXPLAINCLI</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.explaincli/" target="_blank" class="page-link">FT.EXPLAINCLI</a></span> command allows us to see the RediSearch execution plan for a given query.  This is helpful for debugging queries that return unexpected results.</p>
+  <p>Let&apos;s explore the command with the first command from the previous section where we used <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span>.  In the Python script that was chosen, this was the first query:</p>
+  <p><pre class="code">
+  result_set = Book.find(
+      Book.author == "Stephen King"
+  ).all()
+  </pre></p>
+  <p>The corresponding output from the <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command shows this command was sent to Redis:</p>
+  <p><pre class="code">
+  1661881352.077671 [0 172.17.0.1:60666] "ft.search" "ru204:redis-om-python:book:index" "@author:{Stephen\\ King}" "LIMIT" "0" "10"
+  </pre></p>
+  <p>When we execute <span class="code"><a href="https://redis.io/commands/ft.explaincli/" target="_blank" class="page-link">FT.EXPLAINCLI</a></span> specifying our index and query, we receive the following response from Redis:</p>
+  <p><pre class="code">
+  FT. FT.EXPLAINCLI  ru204:redis-om-python:book:index '@author:{Stephen\\ King}'
+  1) TAG:@author {
+  2)   INTERSECT {
+  3)     stephen\
+  4)     king
+  5)   }
+  6) }
+  7)   
+  </pre></p>
+  <p>We can see that RediSearch is interpreting our query as the intersection of all books that contain the tag words &quot;stephen&quot; and &quot;king&quot;. Notice that the query has changed the words to lowercase.  This is the execution plan we should expect for this sort of query.</p>
+  <h2>3. FT.INFO</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.info/" target="_blank" class="page-link">FT.INFO</a></span> command displays information about an index, for example which attributes are available to us, what data types those attributes are, how many documents have been indexed, and how many indexing errors there may have been.</p>
+  <p>Let&apos;s retrieve information about the index <span class="code">index:bookdemo</span>:</p>
+  <p><pre class="code">
+  FT.INFO index:bookdemo
+  </pre></p>
+  <p>The command returns information about this specific index. Here are some especially useful parts of the response:</p>
+  <p><pre class="code">
+  ...
+  5) "index_definition"
+  6) 1) "key_type"
+     2) "JSON"
+     3) "prefixes"
+     4) 1) "ru204:book:"
+  ...
+  </pre></p>
+  <p>Here we see this index covers JSON documents that all begin with the prefix <span class="code">"ru204:book:"</span>:</p>
+  <p><pre class="code">
+  ...
+  7) 1) "identifier"
+      2) "$.genres[*]"
+      3) "attribute"
+      4) "genres"
+      5) "type"
+      6) "TAG"
+      7) "SEPARATOR"
+      8) ""
+  ...
+  </pre></p>
+  <p>This shows that the <span class="code">genres</span> attribute is an array of all elements within a genres array of the JSON document.</p>
+  <p>And this tells us how many documents were scanned and indexed since the creation of the index:</p>
+  <p><pre class="code">
+  ...
+  9) "num_docs"
+  10) "1486"
+  ...  
+  </pre></p>
+  <p>This is helpful if you have an expected quantity of indexed documents to compare with the actual number of indexed documents.</p>
+  <h2>4. FT.DROPINDEX</h2>
+  <hr>
+  <p>There may be times when it is necessary to delete an existing index, such as during development or when indexes are dynamically created by your application. When deleting indexes, there are two options; retain the original documents or delete them as well.</p>
+  <p>Let&apos;s first call <span class="code"><a href="https://redis.io/commands/ft.dropindex/" target="_blank" class="page-link">FT.DROPINDEX</a></span> without destroying the original documents that have been indexed:</p>
+  <p><pre class="code">
+  FT.DROPINDEX index:bookdemo
+  </pre></p>
+  <p>Redis returns <span class="code">"OK"</span> and we can observe that the index no longer exists by calling the <span class="code"><a href="https://redis.io/commands/ft._list/" target="_blank" class="page-link">FT._LIST</a></span> command to show all indexes:</p>
+  <p><pre class="code">
+  FT._LIST
+  1) "ru204:redis-om-python:book:index"  
+  </pre></p>
+  <p>If we want to delete an index and all of the indexed documents, we would call <span class="code"><a href="https://redis.io/commands/ft.dropindex/" target="_blank" class="page-link">FT.DROPINDEX</a></span> with the optional <span class="code">DD</span> clause.</p>
+  <p>Let&apos;s delete another index and all of the associated documents. Careful, this is permanent!</p>
+  <p><pre class="code">
+  FT.DROPINDEX ru204:redis-om-python:book:index DD
+  </pre></p>
+  <p>Redis returns <span class="code">"OK"</span> again and if we check for documents that were previously indexed by <span class="code">ru204:redis-om-python:book:index</span> or the index of your choosing, you should see that they have been deleted as well.</p>
+  <h2>5. Advanced Index Creation</h2>
+  <hr>
+  <p>When creating indexes, there are many options available to optimize for speed, size, and document specificity. The following commands will demonstrate various indexing options by creating small indexes with specific purposes.</p>
+  <h3>5.1 FILTER</h3>
+  <p>Let&apos;s create an index of books that consists of only books that are 400 pages or less:</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:400-pages-or-less ON JSON PREFIX 1 "ru204:book:" FILTER '@pages <= 400' SCHEMA $.pages AS pages NUMERIC SORTABLE
+  </pre></p>
+  <p>By running <span class="code"><a href="https://redis.io/commands/ft.info/" target="_blank" class="page-link">FT.INFO</a></span> on the index <span class="code">index:bookdemo:400-pages-or-less</span>, we&apos;ll see that there are fewer books in this index than our standard <span class="code">index:bookdemo</span>, meaning the filter only allowed books with pages values less than or equal to 400.</p>
+  <h3>5.2 TEMPORARY</h3>
+  <p>Let&apos;s create an index that will be removed if it isn&apos;t accessed within a minute (60 seconds). If the index is accessed before the 60 second timer elapses, the timer will be reset to 60 seconds.</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:temporary ON JSON PREFIX 1 "ru204:book:" TEMPORARY 60 SCHEMA $.title AS title TEXT
+  </pre></p>
+  <p>Try accessing the index after a minute has elapsed. You&apos;ll find that the index has been removed!</p>
+  <h3>5.3 SCORE and SCORE FIELD</h3>
+  <p>Let&apos;s create an index that reduces the default score for all documents to 0.5 and sets the <span class="code">SCORE_FIELD</span> attribute to <span class="code">"book_score"</span>:</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:scored ON JSON PREFIX 1 "ru204:book:" SCORE 0.5 SCORE_FIELD "book_score" SCHEMA $.author AS author TEXT $.title AS title TEXT
+  </pre></p>
+  <p>Now, every document has a default score of 0.5. If new documents are added with a higher <span class="code">book_score</span> value, they will appear higher in the search results. If documents have a lower <span class="code">book_score</span> than 0.5, they will appear lower in the search results. Existing documents may also be updated with a new <span class="code">book_score</span> value.</p>
+  <h3>5.4 FT.ALTER</h3>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.alter/" target="_blank" class="page-link">FT.ALTER</a></span> command allows for the addition of attributes to an existing index.  Let&apos;s add a title and author attribute to our filtered index from exercise 5.1:</p>
+  <p><pre class="code">
+  FT.ALTER index:bookdemo:400-pages-or-less SCHEMA ADD $.title AS title TEXT $.author AS author TEXT
+  </pre></p>
+  <p>Now, subsequent document additions will have the title and author fields indexed.</p>
+  <p>That&apos;s all for the hands-on exercises for Section 5. We look forward to your participation in the Final Exam in the next section!</p>

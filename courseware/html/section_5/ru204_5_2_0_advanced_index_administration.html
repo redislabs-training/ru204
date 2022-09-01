@@ -1,0 +1,102 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+  </style>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command has numerous optional clauses that allow the indexing function to be customized and optimized for various use cases.  This section will outline some clauses that may be useful for your indexing needs.</p>
+  <h2>FILTER</h2>
+  <hr>
+  <p>The filter clause may be used to apply indexing to documents that pass a given criteria based on the <a href="https://redis.io/docs/stack/search/reference/aggregations/" target="_blank" class="page-link">RediSearch aggregation expression language</a>. An example of this would be whether a book has been published within the last ten years or if the book has received an award or has a high enough rating score.</p>
+  <p>This allows for one or more indexes that would search among a more refined collection of documents.</p>
+  <p>Let&apos;s create a new index that would filter for only books published since 2015:</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:2015+
+    ON JSON 
+    PREFIX 1 "ru204:book:"
+    FILTER '@year_published > 2014'
+  SCHEMA 
+    $.year_published AS year_published NUMERIC SORTABLE
+  </pre></p>
+  <p>This will scan every document with the <span class="code">ru204:book</span> prefix but will NOT index the document if the <span class="code">year_published</span> value does not satisfy the filter expression <span class="code">(@year_published > 2014)</span>.</p>
+  <h2>TEMPORARY</h2>
+  <hr>
+  <p>The Temporary clause essentially adds a TTL (Time-To-Live) to an index with a specified number of seconds to exist unless it is accessed. If the index is accessed before the seconds have elapsed, then the timer will reset to the original time set. Here's an example with a simple timestamp to illustrate the behavior of <span class="code">TEMPORARY</span>:</p>
+  <p>Time: 00:00</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:temporary
+      ON JSON 
+      PREFIX 1 "ru204:book:"
+      TEMPORARY 30
+  SCHEMA 
+      $.year_published AS year_published NUMERIC SORTABLE
+  </pre></p>
+  <p>The index is created and has a <span class="code">TEMPORARY</span> clause of 30 seconds.</p>
+  <p>Time: 00:15</p>
+  <p><pre class="code">
+  FT.SEARCH index:bookdemo:temporary * nocontent
+  &lt;result&gt;
+  </pre></p>
+  <p>The index is accessed within the 30 second countdown, therefore the timer will restart at 30 seconds.</p>
+  <p>Time: 01:00</p>
+  <p><pre class="code">
+  FT.SEARCH index:bookdemo:temporary * nocontent
+  "index:bookdemo:temporary: no such index"
+  </pre></p>
+  <p>After the 30 second timer on the index elapses, the index is deleted.</p>
+  <p>This allows for many indexes to be created and destroyed without degrading performance.</p>
+  <h2>SCORE and SCORE_FIELD</h2>
+  <hr>
+  <p>The <span class="code">SCORE</span> attribute within the <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command allows for the addition of a custom score for each document added. The default value is 1.0, giving all documents the same score. This means that there is no preference for any document to appear higher or lower than any other document in a search result.</p>
+  <p>The <span class="code">SCORE_FIELD</span> attribute allows for a specific score to be added to individual documents to raise or lower the individual score compared to the default score.</p>
+  <p>Here is an example of the <span class="code">SCORE</span> and <span class="code">SCORE_FIELD</span> used in an <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command:</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:scored
+      ON JSON 
+      PREFIX 1 "ru204:book:"
+      SCORE 0.5 
+      SCORE_FIELD "book_score" 
+  SCHEMA 
+      $.author AS author TEXT
+      $.title AS title TEXT
+  ...
+  </pre></p>
+  <p>Now, when documents are created, they will have a default score of 0.5. To set a specific score for a document, set the attribute <span class="code">book_score</span> to a value between 0 and 1.</p>
+  <h2>STOPWORDS</h2>
+  <hr>
+  <p><a href="https://redis.io/docs/stack/search/reference/stopwords/" target="_blank" class="page-link">Stop-words</a> are commonly occurring words that are ignored by Redisearch, as they usually aren&apos;t relevant to search queries. Stop-words are ignored to prevent Redis from spending CPU time on results that would offer little relevance to the actual search. These words are not indexed at creation and are parsed out of queries before execution.</p>
+  <p>Here is a list of predefined stop-words that RediSearch ignores by default:</p>
+  <p><pre class="code">
+  a,    is,    the,   an,   and,  are, as,  at,   be,   but,  by,   for,
+  if,   in,    into,  it,   no,   not, of,  on,   or,   such, that, their,
+  then, there, these, they, this, to,  was, will, with 
+  </pre></p>
+  <p>When creating an index, stop-words can be overwritten or disabled completely by using the <span class="code">STOPWORDS</span> clause. This should be inserted before the <span class="code">SCHEMA</span> is declared.  Here is an example of setting the words &quot;science&quot;, &quot;fiction&quot;,  and &quot;reality&quot; as the stop-words in an index: </p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:stopwords
+      ON JSON 
+      PREFIX 1 "ru204:book:"
+      STOPWORDS 3 science fiction reality
+  SCHEMA (
+      $.author AS author TEXT
+      $.title AS title TEXT
+  ...
+  </pre></p>
+  <p>Note that the number 3 directly after <span class="code">STOPWORDS</span> is the number of stop-words that follow.</p>
+  <p>To completely disable stop-words in the index, use <span class="code">STOPWORDS 0</span> (empty stop-words list). Here is an example of creating an index with stop-words disabled:</p>
+  <p><pre class="code">
+  FT.CREATE index:bookdemo:no-stopwords
+    ON JSON 
+    PREFIX 1 "ru204:book:"
+    STOPWORDS 0
+  SCHEMA 
+    $.author AS author TEXT
+    $.title AS title TEXT
+  ...
+  </pre></p>
+  <h2>FT.ALTER</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.alter/" target="_blank" class="page-link">FT.ALTER</a></span> command is used to add additional attributes to an existing index. This triggers a reindexing of all documents with the new attribute. This is ideal for adding attributes to an existing index rather than dropping and rebuilding it.</p>
+  <p>Let&apos;s add a <span class="code">votes</span> search field to our index:bookdemo index. We'll set it to numeric and sortable:</p>
+  <p><pre class="code">
+  FT.ALTER index:bookdemo SCHEMA ADD $.metrics.rating_votes AS votes NUMERIC SORTABLE
+  </pre></p>
+  <p>The first paramater that <span class="code"><a href="https://redis.io/commands/ft.alter/" target="_blank" class="page-link">FT.ALTER</a></span> expects is the name of the index to update. We then use the <span class="code">SCHEMA ADD</span> clause followed by the attributes to insert. These are treated the same as the attributes in a <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command; they can receive aliases with the <span class="code">AS</span> clause and all standard JSONPath projections apply.</p>
+  <p>It should be noted that <span class="code"><a href="https://redis.io/commands/ft.alter/" target="_blank" class="page-link">FT.ALTER</a></span> does not trigger a reindex of previously indexed documents with the updated attributes.</p>
