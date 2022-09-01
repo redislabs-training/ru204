@@ -44,7 +44,7 @@
 <span class="code">"OK"</span>
 </p>
 <p>Notice the dollar sign <span class="code">$</span> after the key name and before the JSON string in single quotes. This is a JSONPath that represents the root of the document. We'll see how to use this path to perform partial updates on existing documents later.</p>
-<img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@Screen_Shot_2022-07-26_at_9.52.07_AM.png">
+<img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@Screen_Shot_2022-07-26_at_9.52.07_AM.png" alt="RedisInsight showing JSON data in Redis">
 <p>If you are using RedisInsight, you should see the document displayed as above when you navigate to <span class="code">ru204:book/Keys/book:18161</span> in the key browser.</p>
 <h3>2. Setting a value within an existing JSON Document</h3>
 <p>The <span class="code">JSON.SET</span> command is also used to update existing documents.  For example, to change the number of pages in our book, we need to update the value of the "pages" field.  As this field is at the root level, we use the JSONPath <span class="code">$.pages</span> to identify it. To change the number of pages from 999 to 1025 for the book whose ID is 18161, use this command:</p>

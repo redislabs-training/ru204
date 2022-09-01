@@ -10,9 +10,9 @@
   <p>If you are using RedisInsight, select the Profiler tab on the bottom of the window.</p>
   <p>Now let&apos;s run a <a href="https://github.com/redislabs-training/ru204/blob/main/src/python/redis_om_search_example/search_om_example.py" target="_blank" class="page-link">Python script</a> from a previous section that queries our index. If you prefer another programming language example, feel free to choose any previous section&apos;s code examples. Our main goal is to observe <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> and the Profiler recording the commands sent to the Redis Server.</p>
   <p>After running the script, our <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command reports a timestamped sequence of commands sent to Redis:</p>
-  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_2.png">
+  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_2.png" alt="Running the MONITOR command in redis-cli">
   <p>In the RedisInsight window, after the Python script is executed, we see the following output:</p>
-  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_1.png">
+  <img src="//university.redis.com/asset-v1:redislabs+RU204+2022_01+type@asset+block@5.3_image_1.png" alt="Running the Profiler in RedisInsight">
   <p>The <span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> command helps to reveal the underlying commands sent to the server from the client libraries. This may help to debug your application when results you receive are not exactly what is expected or when invalid commands are sent to Redis.</p>
   <h2>2. FT.EXPLAINCLI</h2>
   <hr>
