@@ -1,0 +1,412 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+  </style>
+  <p>When creating a new index for your JSON documents, there may be a need to look &quot;into&quot; the indexing process to ensure that your documents are being indexed as intended. This module introduces commands used to ensure that your RediSearch indexing and application development runs smoothly and efficiently. This is not an exhaustive list of commands and methods, but will provide you with the most used commands. For more information, check out the command list for Redisearch <a href="https://redis.io/commands/?group=search" target="_blank" class="page-link">here</a>.</p>
+  <h2>MONITOR</h2>
+  <hr>
+  <p><span class="code"><a href="https://redis.io/commands/monitor/" target="_blank" class="page-link">MONITOR</a></span> is a debugging command that streams back every command processed by the Redis server. It can help in understanding what is happening to the database. The ability to see all the requests processed by the server is useful in order to spot bugs in an application using client libraries.</p>
+  <p>RedisInsight has the built-in <a href="https://docs.redis.com/latest/ri/using-redisinsight/profiler/" target="_blank" class="page-link">Profiler</a> tool which performs the same function as <span class="code">MONITOR</span>.</p>
+  <h2>FT._LIST</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft._list/" target="_blank" class="page-link">FT._LIST</a></span> command lists all indexes created by Redisearch. This allows you to check what indexes are available.</p>
+  <p>Here is an example call to <span class="code">FT._LIST</span> that returns multiple indexes:</p>
+  <p><pre class="code">
+  FT._LIST
+  1) "index:bookdemo"
+  2) "index:users:profiles"
+  3) "index:products
+  4) "inventory-index"
+  5) "search:locations"  
+  </pre></p>
+  <h2>FT.INFO</h2>
+  <hr>
+  <p><span class="code"><a href="https://redis.io/commands/ft.info/" target="_blank" class="page-link">FT.INFO</a></span> returns a list of key value pairs with information about a specified index. This is especially useful to track whether or not your new index is scanning the correct documents and indexing them as intended.</p>
+  <p>Returned values include:</p>
+  <ul>
+    <li><span class="code">index_definition</span>: reflection of <span class="code"><a href="https://redis.io/commands/ft.create/" target="_blank" class="page-link">FT.CREATE</a></span> command parameters. This includes what data type the index is over (JSON or Hash), the prefix used for scanning, and the default score given to all documents when indexed.</li>
+    <li><span class="code">attributes</span>: index schema - field names, types, and attributes.</li>
+    <li>Number of documents.</li>
+    <li>Number of distinct terms.</li>
+    <li>Average bytes per record.</li>
+    <li>Size and capacity of the index buffers.</li>
+    <li>Indexing state and percentage as well as failures:</li>
+    <ul>
+      <li><span class="code">indexing</span>: whether or not the index is being scanned in the background.</li>
+      <li><span class="code">percent_indexed</span>: progress of background indexing (1 if complete).</li>
+      <li><span class="code">hash_indexing_failures</span>: number of failures due to document formats not compatible with a supplied index schema.</li>
+    </ul>
+  </ul>
+  <p>Optional statistics include:</p>
+  <ul>
+    <li>Garbage collection information.</li>
+    <li>Cursors if a cursor exists for the index.</li>
+    <li>Stopword lists if a custom stopword list is used. <a href="https://redis.io/docs/stack/search/reference/stopwords/#:~:text=RediSearch%20has%20a%20pre%2Ddefined,are%20discarded%20and%20not%20indexed" target="_blank" class="page-link">Stop words</a> are words that are usually so common that they do not add much information to search, but take up a lot of space and CPU time in the index. When indexing, stop-words are discarded and not indexed. When searching, they are also ignored and treated as if they were not sent to the query processor.</li>
+  </ul>
+  <p>The <span class="code">attributes</span> list outlines all of the search field attributes given to the index . The <span class="code">num_docs</span> key tells us how many documents have been indexed.</p>
+  <p>Here we see <span class="code">FT.INFO</span> called on one of our book indexes used in this course:</p>
+  <p><pre class="code">
+  FT.INFO index:bookdemo
+  </pre></p>
+  <p>Redis returns information about the specific index:</p>
+  <p><pre class="code">
+    1) "index_name"
+    2) "index:bookdemo"
+    3) "index_options"
+    4) (empty list or set)
+    5) "index_definition"
+    6) 1) "key_type"
+       2) "JSON"
+       3) "prefixes"
+       4) 1) "ru204:book:"
+       5) "default_score"
+       6) "1"
+    7) "attributes"
+    8) 1) 1) "identifier"
+          2) "$.author"
+          3) "attribute"
+          4) "author"
+          5) "type"
+          6) "TEXT"
+          7) "WEIGHT"
+          8) "1"
+       2) 1) "identifier"
+          2) "$.title"
+          3) "attribute"
+          4) "title"
+          5) "type"
+          6) "TEXT"
+          7) "WEIGHT"
+          8) "1"
+       3) 1) "identifier"
+          2) "$.description"
+          3) "attribute"
+          4) "description"
+          5) "type"
+          6) "TEXT"
+          7) "WEIGHT"
+          8) "1"
+       4) 1) "identifier"
+          2) "$.year_published"
+          3) "attribute"
+          4) "year_published"
+          5) "type"
+          6) "NUMERIC"
+          7) "SORTABLE"
+       5) 1) "identifier"
+          2) "$.pages"
+          3) "attribute"
+          4) "pages"
+          5) "type"
+          6) "NUMERIC"
+          7) "SORTABLE"
+       6) 1) "identifier"
+          2) "$.metrics.score"
+          3) "attribute"
+          4) "score"
+          5) "type"
+          6) "NUMERIC"
+          7) "SORTABLE"
+       7) 1) "identifier"
+          2) "$.genres[*]"
+          3) "attribute"
+          4) "genres"
+          5) "type"
+          6) "TAG"
+          7) "SEPARATOR"
+          8) ""
+    9) "num_docs"
+    10) "1486"
+    11) "max_doc_id"
+    12) "1486"
+    13) "num_terms"
+    14) "29095"
+    15) "num_records"
+    16) "185593"
+    17) "inverted_sz_mb"
+    18) "1.1262779235839844"
+    19) "vector_index_sz_mb"
+    20) "0"
+    21) "total_inverted_index_blocks"
+    22) "68338"
+    23) "offset_vectors_sz_mb"
+    24) "0.21737957000732422"
+    25) "doc_table_size_mb"
+    26) "0.11415290832519531"
+    27) "sortable_values_size_mb"
+    28) "0.1020355224609375"
+    29) "key_table_size_mb"
+    30) "0.046214103698730469"
+    31) "records_per_doc_avg"
+    32) "124.89434814453125"
+    33) "bytes_per_record_avg"
+    34) "6.3633217811584473"
+    35) "offsets_per_term_avg"
+    36) "1.1415139436721802"
+    37) "offset_bits_per_record_avg"
+    38) "8.6072778701782227"
+    39) "hash_indexing_failures"
+    40) "0"
+    41) "indexing"
+    42) "0"
+    43) "percent_indexed"
+    44) "1"
+    45) "gc_stats"
+    46) 1) "bytes_collected"
+       2) "0"
+       3) "total_ms_run"
+       4) "0"
+       5) "total_cycles"
+       6) "0"
+       7) "average_cycle_time_ms"
+       8) "-nan"
+       9) "last_run_time_ms"
+       10) "0"
+       11) "gc_numeric_trees_missed"
+       12) "0"
+       13) "gc_blocks_denied"
+       14) "0"
+    47) "cursor_stats"
+    48) 1) "global_idle"
+       2) "0"
+       3) "global_total"
+       4) "0"
+       5) "index_capacity"
+       6) "128"
+       7) "index_total"
+       8) "0"  
+  </pre></p>
+  <h2>FT.EXPLAIN / FT.EXPLAINCLI</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.explain/" target="_blank" class="page-link">FT.EXPLAIN</a></span> command returns a description of the provided query as understood by RediSearch. This helps identify the search intersections, unions, optional, and not clauses.</p>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.explaincli/" target="_blank" class="page-link">FT.EXPLAINCLI</a></span> command returns the description in a way that is easy to read when using a command line interface.</p>
+  <p>Let&apos;s have RediSearch explain our search query for books by Stephen King that are 500 pages or less:</p>
+  <p><pre class="code">
+  FT.EXPLAINCLI index:bookdemo "@author:Stephen King @pages:[-inf 500]"
+  1) "INTERSECT {"
+  2) "  @author:INTERSECT {"
+  3) "    @author:UNION {"
+  4) "      @author:stephen"
+  5) "      @author:+stephen(expanded)"
+  6) "    }"
+  7) "    @author:UNION {"
+  8) "      @author:king"
+  9) "      @author:+king(expanded)"
+  10) "    }"
+  11) "  }"
+  12) "  NUMERIC {-inf <= @pages <= 500.000000}"
+  13) "}"
+  14) ""  
+  </pre></p>
+  <h2>FT.PROFILE</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.profile/" target="_blank" class="page-link">FT.PROFILE</a></span> command accepts an index and query or aggregation as parameters and returns the results as well as an array of statistics on performance. Performance statistics include total runtime of the query as well as the time required to parse the parameters and iterate through the query clauses (Intersection, Union, etc).  This is useful for optimizing query performance by analyzing runtimes.</p>
+  <p>Let&apos;s profile our query for Stephen King books with 500 pages or less:</p>
+  <p><pre class="code">
+  FT.PROFILE index:bookdemo SEARCH QUERY "@author:Stephen King @pages:[-inf 500]"
+  1) 1) "3"
+        2) <Book results…>
+  2) 1) 1) "Total profile time"
+        2) "0.434"
+      2) 1) "Parsing time"
+        2) "0.052999999999999999"
+      3) 1) "Pipeline creation time"
+        2) "0.064000000000000001"
+      4) 1) "Iterators profile"
+        2) 1) "Type"
+            2) "INTERSECT"
+            3) "Time"
+            4) "0.20100000000000001"
+            5) "Counter"
+            6) "3"
+            7) "Child iterators"
+            8) 1) "Type"
+              2) "INTERSECT"
+              3) "Time"
+              4) "0.083000000000000004"
+              5) "Counter"
+              6) "15"
+              7) "Child iterators"
+              8) 1) "Type"
+                  2) "UNION"
+                  3) "Query type"
+                  4) "UNION"
+                  5) "Time"
+                  6) "0.045999999999999999"
+                  7) "Counter"
+                  8) "22"
+                  9) "Child iterators"
+                  10) 1) "Type"
+                    2) "TEXT"
+                    3) "Term"
+                    4) "stephen"
+                    5) "Time"
+                    6) "0.010999999999999999"
+                    7) "Counter"
+                    8) "20"
+                    9) "Size"
+                    10) "35"
+                  11) 1) "Type"
+                    2) "TEXT"
+                    3) "Term"
+                    4) "+stephen"
+                    5) "Time"
+                    6) "0.0030000000000000001"
+                    7) "Counter"
+                    8) "3"
+                    9) "Size"
+                    10) "4"
+              9) 1) "Type"
+                  2) "TEXT"
+                  3) "Term"
+                  4) "king"
+                  5) "Time"
+                  6) "0.012"
+                  7) "Counter"
+                  8) "15"
+                  9) "Size"
+                  10) "74"
+            9) 1) "Type"
+              2) "UNION"
+              3) "Query type"
+              4) "NUMERIC"
+              5) "Time"
+              6) "0.098000000000000004"
+              7) "Counter"
+              8) "15"
+              9) "Child iterators"
+              10) 1) "Type"
+                  2) "NUMERIC"
+                  3) "Term"
+                  4) "202 - 326.946"
+                  5) "Time"
+                  6) "0.029999999999999999"
+                  7) "Counter"
+                  8) "13"
+                  9) "Size"
+                  10) "158"
+              11) 1) "Type"
+                  2) "NUMERIC"
+                  3) "Term"
+                  4) "326.946 - 454.514"
+                  5) "Time"
+                  6) "0.0080000000000000002"
+                  7) "Counter"
+                  8) "12"
+                  9) "Size"
+                  10) "163"
+              12) 1) "Type"
+                  2) "NUMERIC"
+                  3) "Term"
+                  4) "454.514 - 589.523"
+                  5) "Time"
+                  6) "0.01"
+                  7) "Counter"
+                  8) "10"
+                  9) "Size"
+                  10) "155"
+      5) 1) "Result processors profile"
+        2) 1) "Type"
+            2) "Index"
+            3) "Time"
+            4) "0.20899999999999999"
+            5) "Counter"
+            6) "3"
+        3) 1) "Type  
+  </pre></p>
+  <h2>FT.CONFIG GET/SET</h2>
+  <hr>
+  <p>Note: These commands are not available for Redis Cloud instances.</p>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.config-get/" target="_blank" class="page-link">FT.CONFIG GET</a></span> and <span class="code"><a href="https://redis.io/commands/ft.config-set/" target="_blank" class="page-link">FT.CONFIG SET</a></span> commands retrieve and update the settings of the RediSearch module. To retrieve all of the settings with their current values, use the wildcard (<span class="code">*</span>) modifier after <span class="code">FT.CONFIG GET</span>:</p>
+  <p><pre class="code">
+  FT.CONFIG GET *
+  1) 1) "EXTLOAD"
+      2) "null"
+  2) 1) "SAFEMODE"
+      2) "true"
+  3) 1) "CONCURRENT_WRITE_MODE"
+      2) "false"
+  4) 1) "NOGC"
+      2) "false"
+  5) 1) "MINPREFIX"
+      2) "2"
+  6) 1) "FORKGC_SLEEP_BEFORE_EXIT"
+      2) "0"
+  7) 1) "MAXDOCTABLESIZE"
+      2) "1000000"
+  8) 1) "MAXSEARCHRESULTS"
+      2) "10000"
+  9) 1) "MAXAGGREGATERESULTS"
+      2) "10000"
+  10) 1) "MAXEXPANSIONS"
+      2) "200"
+  11) 1) "MAXPREFIXEXPANSIONS"
+      2) "200"
+  12) 1) "TIMEOUT"
+      2) "500"
+  13) 1) "INDEX_THREADS"
+      2) "8"
+  14) 1) "SEARCH_THREADS"
+      2) "20"
+  15) 1) "FRISOINI"
+      2) "null"
+  16) 1) "ON_TIMEOUT"
+      2) "return"
+  17) 1) "GCSCANSIZE"
+      2) "100"
+  18) 1) "MIN_PHONETIC_TERM_LEN"
+      2) "3"
+  19) 1) "GC_POLICY"
+      2) "fork"
+  20) 1) "FORK_GC_RUN_INTERVAL"
+      2) "30"
+  21) 1) "FORK_GC_CLEAN_THRESHOLD"
+      2) "100"
+  22) 1) "FORK_GC_RETRY_INTERVAL"
+      2) "5"
+  23) 1) "FORK_GC_CLEAN_NUMERIC_EMPTY_NODES"
+      2) "true"
+  24) 1) "_FORK_GC_CLEAN_NUMERIC_EMPTY_NODES"
+      2) "true"
+  25) 1) "_MAX_RESULTS_TO_UNSORTED_MODE"
+      2) "1000"
+  26) 1) "UNION_ITERATOR_HEAP"
+      2) "20"
+  27) 1) "CURSOR_MAX_IDLE"
+      2) "300000"
+  28) 1) "NO_MEM_POOLS"
+      2) "false"
+  29) 1) "PARTIAL_INDEXED_DOCS"
+      2) "false"
+  30) 1) "UPGRADE_INDEX"
+      2) "Upgrade config for upgrading"
+  31) 1) "_NUMERIC_COMPRESS"
+      2) "false"
+  32) 1) "_FREE_RESOURCE_ON_THREAD"
+      2) "true"
+  33) 1) "_PRINT_PROFILE_CLOCK"
+      2) "true"
+  34) 1) "RAW_DOCID_ENCODING"
+      2) "false"
+  35) 1) "_NUMERIC_RANGES_PARENTS"
+      2) "0"
+  36) 1) "DEFAULT_DIALECT"
+      2) "1"
+  37) 1) "VSS_MAX_RESIZE"
+      2) "0"  
+  </pre></p>
+  <p>Similar to <span class="code">CONFIG GET / SET</span> for Redis Core, all settings can be updated with the <span class="code"><a href="https://redis.io/commands/ft.config-set/" target="_blank" class="page-link">FT.CONFIG SET</a></span> command.</p>
+  <p>For a full list of descriptions for every RediSearch configuration option, <a href="https://redis.io/docs/stack/search/configuring/" target="_blank" class="page-link">refer to the documentation</a>.</p>
+  <p><span class="code">TIMEOUT</span> and <span class="code">ON_TIMEOUT</span> may be of particular interest, as these dictate how long a query is allowed to run before ending automatically, and with either a <span class="code">RETURN</span> or <span class="code">FAIL</span> result.</p>
+  <h2>FT.DROPINDEX</h2>
+  <hr>
+  <p>The <span class="code"><a href="https://redis.io/commands/ft.dropindex/" target="_blank" class="page-link">FT.DROPINDEX</a></span> command deletes an index. With the optional <span class="code">DD</span> clause, all of the documents that are indexed will also be deleted from Redis.</p>
+  <p>Here is an example of deleting just the index and retaining the documents:</p>
+  <p><pre class="code">
+  FT.DROPINDEX index:bookdemo
+  </pre></p>
+  <p>Here is an example of deleting the index and all of the documents that were indexed:</p>
+  <p><pre class="code">
+  FT.DROPINDEX index:bookdemo DD
+  </pre></p>
+  <p>In the next module, we&apos;ll cover advanced options for creating indexes.</p>
+  
