@@ -31,7 +31,7 @@ SCHEMA
 </pre></p>
 <p>Let's breakdown this command line by line:</p>
 <ul>
-    <li><span class="code">FT.CREATE index:bookdemo</span> - this declares that we will be creating an index named <span class="code">ru204:book:index</span>.
+    <li><span class="code">FT.CREATE index:bookdemo</span> - this declares that we will be creating an index named <span class="code">index:bookdemo</span>.
     <li><span class="code">ON JSON</span> - this declares that the index will be searching through JSON documents.</li>
     <li><span class="code">PREFIX 1 "ru204:book:"</span> - this tells RediSearch to only index JSON documents whose keys have the single prefix: <span class="code">ru204:book:</span>. Indexes can include multiple prefixes which must all be declared here when the index is created.</li>
     <li><span class="code">SCHEMA</span> - this declares the following patterns as schemas to apply to the search index. Think of this as a list that contains mappings between a JSONPath that points to the data that we want to index from each document, and the type of indexing to perform on that data.</li>
