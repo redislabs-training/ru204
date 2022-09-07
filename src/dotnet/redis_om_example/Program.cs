@@ -4,8 +4,8 @@ using System.Text.Json;
 using Redis.OM;
 using Redis.OM.Example;
 
-var url = Environment.GetEnvironmentVariable("REDIS_OM_URL") ?? "redis://localhost:6379";
-var provider = new RedisConnectionProvider(url);
+var uri = Environment.GetEnvironmentVariable("REDIS_OM_URL") ?? "redis://localhost:6379";
+var provider = new RedisConnectionProvider(uri);
 var books = provider.RedisCollection<Book>();
 
 var book = new Book
