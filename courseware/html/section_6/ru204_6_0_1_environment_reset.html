@@ -1,0 +1,20 @@
+<style type= text/css>
+    .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
+</style>
+<p>Before starting the final exam, you will need to reset your environment to a known state.  <b>Some of the exam questions depend on this, so it&apos;s important to take a moment to do this now</b>.</p>
+<p>1. If you&apos;re running Redis Stack in Docker, make sure that the container is running.  If you&apos;re using Redis Stack in the cloud, there&apos;s nothing to do for this step so go to step 2!</p>
+<p>2. Connect to your Redis instance using redis-cli or RedisInsight.  If you&apos;re using RedisInsight, open up the built-in CLI.</p>
+<p>3. Enter the following command to delete all of the keys and search indexes in Redis:</p>
+<p><pre class="code">
+FLUSHDB
+</pre></p>
+<p>Redis should respond with:</p>
+<p><pre class="code">
+OK
+</pre></p>
+<p>4. Make sure that you have the latest version of the course repository files on your machine.  Run the following command in your local <span class="code">ru204</span> folder:</p>
+<p><pre class="code">
+git pull origin main
+</pre></p>
+<p>5. Now run the course data loader to load a fresh copy of the course data set into Redis.  Follow the instructions in the <a href="https://github.com/redislabs-training/ru204#load-the-sample-data-into-redis-and-create-the-search-index" target="_blank" class="page-link">course GitHub README</a> to do this.</p>
+<p>OK, you&apos;re ready to move forwards! If you have trouble resetting your environment, please <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">contact us on Discord</a> - we&apos;re here to help!</p>
