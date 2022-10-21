@@ -4,7 +4,7 @@
 <p>In this hands-on exercise we&apos;ll be performing Text, Numeric, and Tag queries against our <span class="code">index:bookdemo</span> index. We&apos;ll also create a simple index for GEO data and perform a few georadius queries as well. Understanding this section is crucial to successfully navigating the next section. If you have any questions or need assistance, please <a href="https://discord.gg/46upnugY5B" target="_blank" class="page-link">reach out to us on Discord</a>.</p>
 <h2>Search by Text</h2>
 <hr>
-<p>In this part we&apos;ll be performing query on Text search fields. To keep keep this document manageable, where relevant we&apos;ve included the <span class="code">NOCONTENT</span> clause in our queries so that we only receive the document keys instead of the entire document.</p>
+<p>In this part we&apos;ll be performing query on Text search fields. To keep this document manageable, where relevant we&apos;ve included the <span class="code">NOCONTENT</span> clause in our queries so that we only receive the document keys instead of the entire document.</p>
 <h3>1. Simple Text search</h3>
 <p>The following query searches for any document with the author field populated with "Margaret Peterson Haddix". The <span class="code">NOCONTENT</span> clause flags that no documents should be returned, only the number of total documents found and the default first ten matching document keys.</p>
 <p><pre class="code">
@@ -171,7 +171,7 @@ FT.SEARCH index:bookdemo "@genres:{Young Adult} @genres:{Adventure \\(survival\\
 10) "ru204:book:306"
 11) "ru204:book:1647"
 </pre></p>
-<p>Finally, let&apos;s explore the usage of negation in queries. We can intentionally remove certain query matches of documents we don&apos;t want as results. This can be used with all search fields. Lets add a negated query to our search for books that have Young Adult and Adventure (survival) tag words: no horror! We&apos;ll simply add this as another <span class="code">@genres</span> query only with a minus (<span class="code">-</span>) at the beginning of the field name:
+<p>Finally, let&apos;s explore the usage of negation in queries. We can intentionally remove certain query matches of documents we don&apos;t want as results. This can be used with all search fields. Let&apos;s add a negated query to our search for books that have Young Adult and Adventure (survival) tag words: no horror! We&apos;ll simply add this as another <span class="code">@genres</span> query only with a minus (<span class="code">-</span>) at the beginning of the field name:
 </p>
 <p><pre class="code">
 FT.SEARCH index:bookdemo "@genres:{Young Adult} @genres:{Adventure \\(survival\\) -@genres:{horror}" NOCONTENT
@@ -223,7 +223,7 @@ FT.CREATE index:library ON JSON PREFIX 1 "hands-on_3.2:library:" SCHEMA $.name A
 </pre></p>
 <p>We should now have a small index of 8 JSON documents representing various libraries in New York City. Let's run some queries!</p>
 <h3>1. GEO search</h3>
-<p>Let's find the nearest library from a specific location, say -73.9616473° longitude and 40.772253° latitude. Lets see if there are any available within three kilometers:</p>
+<p>Let's find the nearest library from a specific location, say -73.9616473° longitude and 40.772253° latitude. Let&apos;s see if there are any available within three kilometers:</p>
 <p><pre class="code">
 FT.SEARCH index:library "@coordinates:[-73.9616473 40.772253 3 km]"
 </pre></p>
@@ -238,7 +238,7 @@ FT.SEARCH index:library "@coordinates:[-73.9616473 40.772253 3 km]"
    2) "{\"name\":\"Aguilar Library\",\"address\":{\"street\":\"174 East 110th Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"10029\"},\"coordinates\":\"-73.9456247, 40.7942365\",\"facilities\":[\"wifi\",\"laptops\",\"photocopier\"]}"
 </pre></p>
 <h3>3. GEO Search with Tag queries</h3>
-<p>Lets find any library around the same location within three kilometers that have wifi facilities:</p>
+<p>Let&apos;s find any library around the same location within three kilometers that have wifi facilities:</p>
 <p><pre class="code">
 FT.SEARCH index:library "@coordinates:[-73.9616473 40.772253 3 km] @facilities:{wifi}"
 </pre></p>
