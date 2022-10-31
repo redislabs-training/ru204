@@ -1,7 +1,7 @@
 <style type= text/css>
   .code {font-family: 'courier new', courier; font-weight: bold; font-size: 18px !important;}
 </style>
-<p>In this hands-on exercise we'll explore the capabilities of JSONPath projections when querying our index of book documents.</p>
+<p>In this hands-on exercise we&apos;ll explore the capabilities of JSONPath projections when querying our index of book documents.</p>
 <p>Let's retrieve the <span class="code">title</span>, <span class="code">description</span>, and <span class="code">year_published</span> of all books by the author Neil Gaiman. Let&apos;s rename <span class="code">description</span> as <span class="code">about_the_book</span> and <span class="code">year_published</span> as <span class="code">release_year</span> in our result set.</p>
 <p><pre class="code">
 FT.SEARCH index:bookdemo "@author:Neil Gaiman" RETURN 7 title $.description AS about_the_book $.year_published AS release_year LIMIT 0 3
