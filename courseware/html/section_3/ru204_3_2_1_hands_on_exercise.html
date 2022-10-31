@@ -221,9 +221,9 @@ JSON.SET hands-on_3.2:library:8 $ '{"name": "Throg\'s Neck Library", "address": 
 <p><pre class="code">
 FT.CREATE index:library ON JSON PREFIX 1 "hands-on_3.2:library:" SCHEMA $.name AS name TEXT $.address.street AS street_address TEXT $.address.zip AS zip TAG $.address.city AS city TAG $.coordinates AS coordinates GEO $.facilities[*] AS facilities TAG
 </pre></p>
-<p>We should now have a small index of 8 JSON documents representing various libraries in New York City. Let's run some queries!</p>
+<p>We should now have a small index of 8 JSON documents representing various libraries in New York City. Let&apos;s run some queries!</p>
 <h3>1. GEO search</h3>
-<p>Let's find the nearest library from a specific location, say -73.9616473° longitude and 40.772253° latitude. Let&apos;s see if there are any available within three kilometers:</p>
+<p>Let&apos;s find the nearest library from a specific location, say -73.9616473° longitude and 40.772253° latitude. Let&apos;s see if there are any available within three kilometers:</p>
 <p><pre class="code">
 FT.SEARCH index:library "@coordinates:[-73.9616473 40.772253 3 km]"
 </pre></p>
@@ -255,4 +255,4 @@ FT.SEARCH index:library "@coordinates:[-73.9616473 40.772253 3 km] @facilities:{
 FT.DROPINDEX index:library
 </pre></p>
 <p>Redis should return an "OK" to indicate successful deletion.</p>
-<p>Now that we're comfortable querying our index, let&apos;s explore ways to tailor the return values with JSONPath projections in the next module.</p>
+<p>Now that we&apos;re comfortable querying our index, let&apos;s explore ways to tailor the return values with JSONPath projections in the next module.</p>
