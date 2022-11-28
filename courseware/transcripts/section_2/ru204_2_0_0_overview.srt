@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,500
+
+
+2
+00:00:00,500 --> 00:00:02,000
+[BIRDS CHIRPING]
+
+3
+00:00:02,000 --> 00:00:04,000
+[BELL RINGING]
+
+4
+00:00:04,000 --> 00:00:07,390
+Now that you've seen how to
+create and manage JSON document
+
+5
+00:00:07,390 --> 00:00:10,510
+data in Redis using Redis
+CLI and RedisInsight,
+
+6
+00:00:10,510 --> 00:00:12,640
+it's time to switch
+gears and consider
+
+7
+00:00:12,640 --> 00:00:15,310
+how to use the
+capabilities of RedisJSON
+
+8
+00:00:15,310 --> 00:00:16,870
+in your application code.
+
+9
+00:00:16,870 --> 00:00:20,230
+In this section, you'll learn
+what Redis client libraries are
+
+10
+00:00:20,230 --> 00:00:23,320
+and how to use them to
+execute RedisJSON commands
+
+11
+00:00:23,320 --> 00:00:25,150
+from popular
+programming languages.
+
+12
+00:00:25,150 --> 00:00:27,460
+We'll then show you how
+to model and persist
+
+13
+00:00:27,460 --> 00:00:30,190
+document data using the
+higher-level [? RedisOM ?]
+
+14
+00:00:30,190 --> 00:00:31,480
+family of clients.
+
+15
+00:00:31,480 --> 00:00:33,540
+Let's get started.

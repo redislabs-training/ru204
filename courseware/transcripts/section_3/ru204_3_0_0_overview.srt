@@ -1,0 +1,62 @@
+1
+00:00:00,000 --> 00:00:01,848
+[BIRDS CHIRPING]
+
+2
+00:00:01,848 --> 00:00:03,660
+[BELL RINGING]
+
+3
+00:00:03,660 --> 00:00:04,160
+
+
+4
+00:00:04,160 --> 00:00:05,930
+Welcome to Section 3.
+
+5
+00:00:05,930 --> 00:00:08,990
+Here, you'll learn how to
+use the powerful RediSearch
+
+6
+00:00:08,990 --> 00:00:12,230
+secondary indexing and full
+text query capabilities
+
+7
+00:00:12,230 --> 00:00:14,600
+to search collections
+of JSON documents
+
+8
+00:00:14,600 --> 00:00:18,440
+and extract statistics from
+them using aggregate queries.
+
+9
+00:00:18,440 --> 00:00:21,830
+In this section, you'll work
+with RediSearch at the Redis
+
+10
+00:00:21,830 --> 00:00:24,230
+CLI or add RedisInsight.
+
+11
+00:00:24,230 --> 00:00:26,330
+Once you've mastered
+the commands here,
+
+12
+00:00:26,330 --> 00:00:29,000
+we'll move on to show you how
+to include these capabilities
+
+13
+00:00:29,000 --> 00:00:30,410
+in your application code.
+
+14
+00:00:30,410 --> 00:00:32,350
+Let's go.

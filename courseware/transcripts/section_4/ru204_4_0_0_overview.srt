@@ -1,0 +1,117 @@
+1
+00:00:00,000 --> 00:00:01,872
+[BIRDS CHIRPING]
+
+2
+00:00:01,872 --> 00:00:03,720
+[BELL RINGING]
+
+3
+00:00:03,720 --> 00:00:04,220
+
+
+4
+00:00:04,220 --> 00:00:06,630
+You've reached Section
+4 of the course.
+
+5
+00:00:06,630 --> 00:00:09,950
+Now it's time to see how you
+can integrate the JSON search
+
+6
+00:00:09,950 --> 00:00:12,470
+capabilities that were
+introduced in Section 3
+
+7
+00:00:12,470 --> 00:00:14,120
+into your application.
+
+8
+00:00:14,120 --> 00:00:18,290
+We'll look at examples written
+in Python, .NET, Node.js,
+
+9
+00:00:18,290 --> 00:00:19,700
+and Java.
+
+10
+00:00:19,700 --> 00:00:22,430
+You'll learn how to query
+a collection of documents
+
+11
+00:00:22,430 --> 00:00:24,140
+with the Redisson clients.
+
+12
+00:00:24,140 --> 00:00:26,720
+Remember that to be
+successful in this course,
+
+13
+00:00:26,720 --> 00:00:29,750
+you don't need to know all
+four programming languages.
+
+14
+00:00:29,750 --> 00:00:32,780
+While we'd recommend that you
+read each unit that follows,
+
+15
+00:00:32,780 --> 00:00:34,910
+feel free to focus
+on the languages that
+
+16
+00:00:34,910 --> 00:00:36,890
+are relevant to your
+application development
+
+17
+00:00:36,890 --> 00:00:38,960
+needs and personal experience.
+
+18
+00:00:38,960 --> 00:00:41,090
+It's also important
+to note that you
+
+19
+00:00:41,090 --> 00:00:43,640
+don't have to use the
+Redisson clients to leverage
+
+20
+00:00:43,640 --> 00:00:47,060
+functionality from
+RediSearch in an application.
+
+21
+00:00:47,060 --> 00:00:50,540
+The lower-level clients
+redis-py, Node Redis,
+
+22
+00:00:50,540 --> 00:00:53,960
+and Jedis all include support
+for RediSearch commands.
+
+23
+00:00:53,960 --> 00:00:56,300
+And StackExchange.Redis
+allows you
+
+24
+00:00:56,300 --> 00:01:00,170
+to run these commands using the
+generic ExecuteAsync function
+
+25
+00:01:00,170 --> 00:01:03,400
+to send arbitrary
+commands to Redis.
