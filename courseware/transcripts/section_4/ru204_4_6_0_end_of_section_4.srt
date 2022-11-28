@@ -1,0 +1,58 @@
+1
+00:00:00,000 --> 00:00:01,968
+[BIRDS CHIRPING]
+
+2
+00:00:01,968 --> 00:00:03,444
+[BELL RINGING]
+
+3
+00:00:03,444 --> 00:00:04,430
+
+
+4
+00:00:04,430 --> 00:00:05,690
+Congratulations.
+
+5
+00:00:05,690 --> 00:00:08,000
+You're now at the
+end of Section 4.
+
+6
+00:00:08,000 --> 00:00:09,920
+We hope that you've
+seen how to use
+
+7
+00:00:09,920 --> 00:00:12,590
+the power of the [? RedisOM ?]
+clients to query collections
+
+8
+00:00:12,590 --> 00:00:15,020
+of JSON documents
+stored in Redis.
+
+9
+00:00:15,020 --> 00:00:16,370
+What do you plan to build?
+
+10
+00:00:16,370 --> 00:00:18,500
+We'd love to hear
+from you on Discord.
+
+11
+00:00:18,500 --> 00:00:20,780
+It's now time to
+move on to Section 5
+
+12
+00:00:20,780 --> 00:00:23,240
+where you'll learn some
+debugging and advanced index
+
+13
+00:00:23,240 --> 00:00:25,870
+creation techniques.

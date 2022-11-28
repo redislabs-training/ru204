@@ -1,0 +1,82 @@
+1
+00:00:00,000 --> 00:00:04,260
+[BIRDS CHIRPING AND SCHOOL BELL
+ RINGING]
+
+2
+00:00:04,260 --> 00:00:08,370
+Welcome to the first section
+of RU204, Managing JSON
+
+3
+00:00:08,370 --> 00:00:09,630
+Data in Redis.
+
+4
+00:00:09,630 --> 00:00:12,480
+In the next four units,
+you'll learn the following,
+
+5
+00:00:12,480 --> 00:00:14,580
+the rationale for
+using the Redis JSON
+
+6
+00:00:14,580 --> 00:00:17,280
+module over the core
+Redis offering, how
+
+7
+00:00:17,280 --> 00:00:21,090
+to store JSON documents
+in Redis with Redis JSON,
+
+8
+00:00:21,090 --> 00:00:23,880
+how to retrieve subdocuments
+and specific values
+
+9
+00:00:23,880 --> 00:00:27,510
+within documents, how to
+update existing documents
+
+10
+00:00:27,510 --> 00:00:30,090
+and add new
+subdocuments and values.
+
+11
+00:00:30,090 --> 00:00:32,940
+Each unit will have a
+hands-on exercise designed
+
+12
+00:00:32,940 --> 00:00:35,940
+to explore the topics covered
+and solidify your Redis JSON
+
+13
+00:00:35,940 --> 00:00:37,260
+skills.
+
+14
+00:00:37,260 --> 00:00:40,110
+Since the goal of this
+section is to familiarize you
+
+15
+00:00:40,110 --> 00:00:42,390
+with Redis JSON,
+the exercises will
+
+16
+00:00:42,390 --> 00:00:45,390
+be based on entering commands
+into the Command Line Interface
+
+17
+00:00:45,390 --> 00:00:49,790
+to demonstrate common actions
+performed on JSON documents.
