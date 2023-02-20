@@ -63,12 +63,13 @@ def load_graduates():
     return list(map(lambda x: x.strip('\r\n'), lines))
 
 
-def add_graduate(email):
+def add_graduate(email, score):
     # open graduates.js and add email to list
+    grad_date = str(date.today())
     with open("graduates", "a+") as grad_list:
         # Append text at the end of file
         grad_list.write('\n')
-        grad_list.write(email)
+        grad_list.write(f'{email}, {grad_date}, {score}')
 
 def load_failures():
     with open('failures') as fail_list:
@@ -76,12 +77,13 @@ def load_failures():
     return list(map(lambda x: x.strip('\r\n'), lines))
 
 
-def add_failure(email):
+def add_failure(email, score):
     # open failures.js and add email to list
+    fail_date = str(date.today())
     with open("failures", "a+") as grad_list:
         # Append text at the end of file
         grad_list.write('\n')
-        grad_list.write(email)
+        grad_list.write(f'{email}, {fail_date}, {score}')
 
 def load_topic_map(filename):
     """ The topic map is just a single column of numbers,
@@ -202,12 +204,12 @@ with open('grade_report.csv') as csvfile:
             new_row.extend(calculate_percentage_per_topic(csv_row))
             scaled_score = calculate_scaled_score(new_row.pop())
             if scaled_score >= CUTOFF_SCORE:
-                add_graduate(email)
+                add_graduate(email, scaled_score)
                 new_row[2] = scaled_score
                 insert_user_into_emailer(scaled_score, new_row, "pass")   
                 credentials_list.append(accredible_format(name, email))
             elif scaled_score > 0:
-                add_failure(email)
+                add_failure(email, scaled_score)
                 insert_user_into_emailer(scaled_score, new_row, "fail")   
                 
 bulk_create_accredible(credentials_list)
