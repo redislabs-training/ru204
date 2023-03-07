@@ -1,0 +1,898 @@
+1
+00:00:00,000 --> 00:00:02,790
+Hello, and welcome back.
+
+2
+00:00:02,790 --> 00:00:06,350
+In this video, we'll take a look
+at what's new with Redis JSON.
+
+3
+00:00:06,350 --> 00:00:08,960
+The big news is that you
+can now efficiently query
+
+4
+00:00:08,960 --> 00:00:11,960
+and index your JSON
+documents in Redis.
+
+5
+00:00:11,960 --> 00:00:14,660
+I want to revisit my previous
+challenge of organizing
+
+6
+00:00:14,660 --> 00:00:16,430
+my favorite food
+trucks in Oakland,
+
+7
+00:00:16,430 --> 00:00:19,760
+but this time let's add some
+extra spice with JSON path
+
+8
+00:00:19,760 --> 00:00:22,670
+syntax and querying
+documents with Redis search.
+
+9
+00:00:22,670 --> 00:00:31,740
+Tuck in, and let's get started
+
+10
+00:00:31,740 --> 00:00:34,710
+To start, we'll fire up
+a Redis Stack instance,
+
+11
+00:00:34,710 --> 00:00:39,390
+which supports JSON, indexing,
+queries, and quite a bit more.
+
+12
+00:00:39,390 --> 00:00:42,450
+We'll also be using
+RedisInsight, the Redis GUI,
+
+13
+00:00:42,450 --> 00:00:44,250
+in these demos.
+
+14
+00:00:44,250 --> 00:00:47,310
+Let's first check out the
+JSON we'll be working with.
+
+15
+00:00:47,310 --> 00:00:49,620
+Our food trucks have been busy.
+
+16
+00:00:49,620 --> 00:00:52,590
+Each food truck JSON
+object, known as a vendor,
+
+17
+00:00:52,590 --> 00:00:55,200
+has a name, an array
+of cuisines offered,
+
+18
+00:00:55,200 --> 00:00:58,320
+a primary cuisine,
+and an address.
+
+19
+00:00:58,320 --> 00:01:00,030
+There are events
+about town that have
+
+20
+00:01:00,030 --> 00:01:02,970
+a number of attending
+vendors, a start and end time,
+
+21
+00:01:02,970 --> 00:01:06,190
+and an associated location ID.
+
+22
+00:01:06,190 --> 00:01:09,670
+Lastly, there are locations that
+host events for the vendors.
+
+23
+00:01:09,670 --> 00:01:11,890
+Locations contain
+an address object
+
+24
+00:01:11,890 --> 00:01:15,220
+with coordinates providing
+the longitude and latitude.
+
+25
+00:01:15,220 --> 00:01:17,470
+We can use these
+three JSON object
+
+26
+00:01:17,470 --> 00:01:19,450
+types to discover
+which food trucks will
+
+27
+00:01:19,450 --> 00:01:23,110
+be at certain locations
+during specific events.
+
+28
+00:01:23,110 --> 00:01:25,600
+Let's start by inserting
+a new vendor JSON
+
+29
+00:01:25,600 --> 00:01:28,450
+object into our Redis instance.
+
+30
+00:01:28,450 --> 00:01:30,540
+Our new vendor is
+one of my favorites--
+
+31
+00:01:30,540 --> 00:01:32,670
+Tacos Mi Rancho.
+
+32
+00:01:32,670 --> 00:01:34,620
+Here's the JSON object.
+
+33
+00:01:34,620 --> 00:01:37,440
+We haven't inserted any
+event for Tacos Mi Rancho
+
+34
+00:01:37,440 --> 00:01:38,440
+to attend yet.
+
+35
+00:01:38,440 --> 00:01:40,410
+We'll do that in a bit.
+
+36
+00:01:40,410 --> 00:01:43,950
+I'll call JSON.SET
+followed by a key name.
+
+37
+00:01:43,950 --> 00:01:47,100
+I'll use the format truck
+colon and a unique ID number
+
+38
+00:01:47,100 --> 00:01:48,910
+for each vendor.
+
+39
+00:01:48,910 --> 00:01:50,290
+This is a new document.
+
+40
+00:01:50,290 --> 00:01:53,010
+So I'll be storing
+it at the root path.
+
+41
+00:01:53,010 --> 00:01:55,020
+I'll do this by
+setting the path option
+
+42
+00:01:55,020 --> 00:01:57,780
+to the dollar sign followed
+by the JSON document
+
+43
+00:01:57,780 --> 00:01:59,740
+in single quotes.
+
+44
+00:01:59,740 --> 00:02:01,890
+Now we'll add
+another JSON document
+
+45
+00:02:01,890 --> 00:02:05,650
+that we'll use to store
+details about a location.
+
+46
+00:02:05,650 --> 00:02:09,389
+Here's a location JSON object
+representing the San Francisco
+
+47
+00:02:09,389 --> 00:02:11,490
+International Airport.
+
+48
+00:02:11,490 --> 00:02:14,190
+We'll store the entire
+JSON document in Redis
+
+49
+00:02:14,190 --> 00:02:17,730
+in the same manner we used
+with the previous truck object.
+
+50
+00:02:17,730 --> 00:02:22,710
+Only this time, the key
+name will be location:23.
+
+51
+00:02:22,710 --> 00:02:25,090
+Finally, to bring
+everything together,
+
+52
+00:02:25,090 --> 00:02:29,160
+we'll create a third document
+containing an event object.
+
+53
+00:02:29,160 --> 00:02:33,240
+This object contains a location
+ID, start and end dates,
+
+54
+00:02:33,240 --> 00:02:36,570
+and the number of
+vendors attending.
+
+55
+00:02:36,570 --> 00:02:40,080
+Let's create an event at
+SFO on the 14th of July
+
+56
+00:02:40,080 --> 00:02:43,470
+starting at 10:30 AM
+and ending at 2:00 PM.
+
+57
+00:02:43,470 --> 00:02:45,270
+I'm converting the
+start time and end
+
+58
+00:02:45,270 --> 00:02:48,450
+time to Unix timestamps,
+so we can query the dates.
+
+59
+00:02:48,450 --> 00:02:50,940
+Now, we need to update
+our vendors that
+
+60
+00:02:50,940 --> 00:02:53,430
+have the events within
+their object populated
+
+61
+00:02:53,430 --> 00:02:56,140
+with all of the events
+that they are attending.
+
+62
+00:02:56,140 --> 00:02:59,470
+Since the events property
+within the vendor is an array,
+
+63
+00:02:59,470 --> 00:03:02,290
+I'll use an array
+append function.
+
+64
+00:03:02,290 --> 00:03:08,260
+I'll call JSON.ARRAPPEND,
+truck:42, the JSON path,
+
+65
+00:03:08,260 --> 00:03:12,880
+$.events, and lastly,
+the idea of the event.
+
+66
+00:03:12,880 --> 00:03:16,270
+Events also need to take
+place at a location.
+
+67
+00:03:16,270 --> 00:03:18,490
+Fortunately, we
+have JSON documents
+
+68
+00:03:18,490 --> 00:03:21,190
+representing various locations
+within the Bay Area that
+
+69
+00:03:21,190 --> 00:03:24,250
+will host the food trucks.
+
+70
+00:03:24,250 --> 00:03:27,250
+Here's the JSON document
+for our location.
+
+71
+00:03:27,250 --> 00:03:30,190
+Notice the info object
+within containing the address
+
+72
+00:03:30,190 --> 00:03:32,110
+information and coordinates.
+
+73
+00:03:32,110 --> 00:03:35,500
+Redis JSON has no problem
+storing embedded objects--
+
+74
+00:03:35,500 --> 00:03:37,690
+a vast improvement
+over storing data
+
+75
+00:03:37,690 --> 00:03:39,610
+as traditional flat hashes.
+
+76
+00:03:39,610 --> 00:03:42,010
+Now, each event must
+have a location,
+
+77
+00:03:42,010 --> 00:03:45,550
+so I'll insert the location
+ID into the event JSON with
+
+78
+00:03:45,550 --> 00:03:52,750
+JSON.SET, event:11,
+$.location_id.
+
+79
+00:03:52,750 --> 00:03:54,760
+I've shown you how to
+create and manipulate
+
+80
+00:03:54,760 --> 00:03:58,480
+JSON documents in Redis with the
+newest version of Redis JSON.
+
+81
+00:03:58,480 --> 00:04:02,560
+But did you know you can also
+index and query your JSON data?
+
+82
+00:04:02,560 --> 00:04:05,650
+RediSearch, another
+component of Redis Stack,
+
+83
+00:04:05,650 --> 00:04:08,680
+allows us to index data
+within our JSON documents
+
+84
+00:04:08,680 --> 00:04:11,680
+and perform queries over
+a collection of documents.
+
+85
+00:04:11,680 --> 00:04:14,330
+I'll show you how
+to do just that.
+
+86
+00:04:14,330 --> 00:04:17,769
+I'm using Redis Stack, so
+RediSearch is already installed
+
+87
+00:04:17,769 --> 00:04:19,459
+and ready to go.
+
+88
+00:04:19,459 --> 00:04:22,000
+I'm going to create an
+index on a few select fields
+
+89
+00:04:22,000 --> 00:04:24,100
+within my JSON data structure.
+
+90
+00:04:24,100 --> 00:04:26,800
+This means I search using
+terms that I would expect
+
+91
+00:04:26,800 --> 00:04:29,020
+to find within these fields.
+
+92
+00:04:29,020 --> 00:04:32,410
+I want to search for a vendor's
+name, a particular cuisine,
+
+93
+00:04:32,410 --> 00:04:35,530
+locations of events near
+me, or maybe events that
+
+94
+00:04:35,530 --> 00:04:37,720
+have more than five
+food trucks, so we can
+
+95
+00:04:37,720 --> 00:04:39,880
+enjoy some culinary variety.
+
+96
+00:04:39,880 --> 00:04:44,020
+To do this, we'll want to create
+search indexes on the vendor
+
+97
+00:04:44,020 --> 00:04:45,310
+and event documents.
+
+98
+00:04:45,310 --> 00:04:48,070
+I'll start with the vendors.
+
+99
+00:04:48,070 --> 00:04:50,590
+To create an index
+on all food trucks,
+
+100
+00:04:50,590 --> 00:04:54,320
+I'll call FT.CREATE
+followed by a name.
+
+101
+00:04:54,320 --> 00:04:57,340
+I'll call it idx:truck.
+
+102
+00:04:57,340 --> 00:05:01,030
+ON JSON tells RediSearch that
+will be indexing and searching
+
+103
+00:05:01,030 --> 00:05:03,130
+through JSON documents.
+
+104
+00:05:03,130 --> 00:05:07,030
+PREFIX 1 truck colon
+instructs RediSearch
+
+105
+00:05:07,030 --> 00:05:11,170
+to look inside all documents
+of the key prefix truck colon.
+
+106
+00:05:11,170 --> 00:05:14,200
+This means that all subsequent
+vendor documents should also
+
+107
+00:05:14,200 --> 00:05:16,990
+have the truck colon key prefix.
+
+108
+00:05:16,990 --> 00:05:20,500
+SCHEMA tells RediSearch to
+create indexes with ensuing
+
+109
+00:05:20,500 --> 00:05:23,790
+property and search type pairs.
+
+110
+00:05:23,790 --> 00:05:28,740
+$.name AS name TEXT allows us
+to search the name properties
+
+111
+00:05:28,740 --> 00:05:31,140
+as text under the
+search field name.
+
+112
+00:05:31,140 --> 00:05:33,060
+SORTABLE means we'll
+receive the return search
+
+113
+00:05:33,060 --> 00:05:36,090
+results in a sortable list.
+
+114
+00:05:36,090 --> 00:05:38,180
+The next line is a
+bit more complex.
+
+115
+00:05:38,180 --> 00:05:40,790
+We're flagging everything
+within the array cuisines
+
+116
+00:05:40,790 --> 00:05:43,550
+within the vendor
+object as a tag search
+
+117
+00:05:43,550 --> 00:05:45,660
+type separated by commas.
+
+118
+00:05:45,660 --> 00:05:48,830
+So as an example, if we had
+a cuisines array containing
+
+119
+00:05:48,830 --> 00:05:54,200
+BBQ, barbecue, and Texas, all
+three will be counted as tags.
+
+120
+00:05:54,200 --> 00:05:56,210
+Now, I'll demonstrate
+searching using
+
+121
+00:05:56,210 --> 00:05:58,215
+the index we just created.
+
+122
+00:05:58,215 --> 00:05:59,840
+I'll look for the
+food truck we created
+
+123
+00:05:59,840 --> 00:06:02,690
+by their name, Tacos Mi Rancho.
+
+124
+00:06:02,690 --> 00:06:05,660
+Since they have
+the key, truck:42,
+
+125
+00:06:05,660 --> 00:06:08,630
+RediSearch will have included
+this document in the index
+
+126
+00:06:08,630 --> 00:06:11,090
+based on the truck colon prefix.
+
+127
+00:06:11,090 --> 00:06:17,690
+I'll call FT.SEARCH, the index,
+idx:truck, then the query.
+
+128
+00:06:17,690 --> 00:06:19,770
+Since I'll be
+searching for a name,
+
+129
+00:06:19,770 --> 00:06:23,210
+I'll use @name to indicate I
+want to search within the name
+
+130
+00:06:23,210 --> 00:06:25,580
+field of the JSON entries.
+
+131
+00:06:25,580 --> 00:06:28,530
+I'll enter the word
+tacos as the search term.
+
+132
+00:06:28,530 --> 00:06:32,780
+And I've received the vendor
+object for Tacos Mi Rancho.
+
+133
+00:06:32,780 --> 00:06:35,630
+If I want to search using a
+phrase with multiple words,
+
+134
+00:06:35,630 --> 00:06:38,450
+I'll want to wrap the entire
+query in single quotes
+
+135
+00:06:38,450 --> 00:06:40,610
+like this.
+
+136
+00:06:40,610 --> 00:06:43,490
+Next, I'll search
+for a tag data type.
+
+137
+00:06:43,490 --> 00:06:45,890
+Remember that we set the
+cuisines array in our vendor
+
+138
+00:06:45,890 --> 00:06:49,280
+documents as a list of
+tags in our search index.
+
+139
+00:06:49,280 --> 00:06:53,300
+This allows me to enter one of
+the tag words as a search term.
+
+140
+00:06:53,300 --> 00:06:59,090
+I'll call FT.SEARCH, idx:truck,
+followed by the cuisines field.
+
+141
+00:06:59,090 --> 00:07:01,040
+I want to find
+vendors with a tag
+
+142
+00:07:01,040 --> 00:07:03,570
+word Peruvian within
+their cuisines array.
+
+143
+00:07:03,570 --> 00:07:06,410
+So I'll enter Peruvian
+in curly braces.
+
+144
+00:07:06,410 --> 00:07:09,080
+Note that when searching
+tags, the term must
+
+145
+00:07:09,080 --> 00:07:11,570
+be wrapped in curly braces.
+
+146
+00:07:11,570 --> 00:07:15,470
+Now, I want to create an index
+for our event JSON documents.
+
+147
+00:07:15,470 --> 00:07:17,870
+For this index, I'll be
+searching through all keys
+
+148
+00:07:17,870 --> 00:07:20,150
+with the prefix event colon.
+
+149
+00:07:20,150 --> 00:07:22,910
+The SCHEMA will have three
+fields to search through--
+
+150
+00:07:22,910 --> 00:07:27,380
+$.assigned_vendors AS
+assigned_underscore NUMERIC
+
+151
+00:07:27,380 --> 00:07:28,580
+SORTABLE.
+
+152
+00:07:28,580 --> 00:07:31,610
+This indicates that assigned
+vendors will be a number.
+
+153
+00:07:31,610 --> 00:07:33,480
+I'll want to be able
+to sort the results,
+
+154
+00:07:33,480 --> 00:07:36,180
+so I'm including the
+option, SORTABLE.
+
+155
+00:07:36,180 --> 00:07:40,560
+$.name will be treated the same
+as the vendor object's name.
+
+156
+00:07:40,560 --> 00:07:42,600
+I'll set it as a
+text search type,
+
+157
+00:07:42,600 --> 00:07:44,790
+and the results
+will be sortable.
+
+158
+00:07:44,790 --> 00:07:48,600
+I want to treat $.location_name
+the same as name.
+
+159
+00:07:48,600 --> 00:07:52,410
+I'll set it as
+location_name TEXT.
+
+160
+00:07:52,410 --> 00:07:55,980
+Now, I'll try to find an event
+with five or more food trucks.
+
+161
+00:07:55,980 --> 00:08:00,990
+I'll call FT.SEARCH, specifying
+idx:event as the index
+
+162
+00:08:00,990 --> 00:08:02,190
+the search.
+
+163
+00:08:02,190 --> 00:08:05,700
+In my query, @assigned_vendors
+tells RediSearch
+
+164
+00:08:05,700 --> 00:08:09,360
+the field to look at and 5 and
+infinite in square brackets
+
+165
+00:08:09,360 --> 00:08:12,210
+to find the range of
+values to search for.
+
+166
+00:08:12,210 --> 00:08:15,570
+Pro tip-- if I wanted to
+search for events with exactly
+
+167
+00:08:15,570 --> 00:08:17,490
+five assigned vendors,
+I would simply
+
+168
+00:08:17,490 --> 00:08:20,420
+set the range from 5 to 5.
+
+169
+00:08:20,420 --> 00:08:23,030
+The event I created earlier
+is returned since it
+
+170
+00:08:23,030 --> 00:08:24,830
+has eight assigned vendors.
+
+171
+00:08:24,830 --> 00:08:27,820
+That's a lot of
+delicious options.
+
+172
+00:08:27,820 --> 00:08:28,700
+OK.
+
+173
+00:08:28,700 --> 00:08:30,950
+That was a lot of
+info to go over.
+
+174
+00:08:30,950 --> 00:08:33,470
+If you'd like to learn more
+about the new Redis JSON
+
+175
+00:08:33,470 --> 00:08:36,740
+and how well it interacts with
+RediSearch at your own pace,
+
+176
+00:08:36,740 --> 00:08:38,480
+check out our new
+Redis University
+
+177
+00:08:38,480 --> 00:08:42,919
+course, RU204, Storing,
+Querying, and Indexing
+
+178
+00:08:42,919 --> 00:08:44,450
+JSON at Speed.
+
+179
+00:08:44,450 --> 00:08:47,180
+It's just one of many courses
+available to you covering
+
+180
+00:08:47,180 --> 00:08:49,545
+specific topics within Redis.
+
+181
+00:08:49,545 --> 00:08:51,860
+If you'd like to try
+it out Redis Stack,
+
+182
+00:08:51,860 --> 00:08:55,020
+use one of the links in the
+video description below.
+
+183
+00:08:55,020 --> 00:08:56,750
+You can download
+Redis Stack, or you
+
+184
+00:08:56,750 --> 00:08:59,930
+can provision a basic instance
+in the cloud for free.
+
+185
+00:08:59,930 --> 00:09:03,710
+No installation or local
+configuration necessary.
+
+186
+00:09:03,710 --> 00:09:05,010
+Thanks for watching.
+
+187
+00:09:05,010 --> 00:09:08,270
+I hope you enjoy these delicious
+new updates to Redis JSON
+
+188
+00:09:08,270 --> 00:09:11,860
+and find them just as
+appetizing as I do.
+
+189
+00:09:11,860 --> 00:09:20,000
