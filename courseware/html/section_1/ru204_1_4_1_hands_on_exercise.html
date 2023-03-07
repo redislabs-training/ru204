@@ -48,7 +48,7 @@
 <p>Redis responds with the updated value for <span class="code">rating_votes</span>:</p>
 <p><span class="code">[3436]</span></p>
 <p>The <span class="code">JSON.NUMINCRBY</span> command may also be used to decrement numerical values as well. Using a negative number performs subtraction upon any numerical value within the document. Let's reduce the <span class="code">rating_votes</span> by 10:</p>
-<p><span class="code">JSON.NUMINCRBY ru204:book:425 $.metrics.rating_votes 23</span></p>
+<p><span class="code">JSON.NUMINCRBY ru204:book:425 $.metrics.rating_votes -10</span></p>
 <p>Redis responds with the updated value for <span class="code">rating_votes</span>:</p>
 <p><span class="code">[3426]</span></p>
 <h2>Removing elements, arrays, objects, properties, and documents</h2>
