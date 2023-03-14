@@ -56,15 +56,17 @@ def calculate_scaled_score(score):
     return int(float(score) * 700)
 
 # loads in a list of emails from previous graduates to skip
-# preiously graded students
+# previously graded students
 def load_graduates():
     with open('graduates') as grad_list:
         lines = grad_list.readlines()
-    return list(map(lambda x: x.strip('\r\n'), lines))
+        grad_list = list(map(lambda x: x.strip('\r\n'), lines))
+        return grad_list
 
 
 def add_graduate(email, score):
     # open graduates.js and add email to list
+    print(f'ADDING GRAD: {email} {score}')
     grad_date = str(date.today())
     with open("graduates", "a+") as grad_list:
         # Append text at the end of file
@@ -74,11 +76,14 @@ def add_graduate(email, score):
 def load_failures():
     with open('failures') as fail_list:
         lines = fail_list.readlines()
-    return list(map(lambda x: x.strip('\r\n'), lines))
+        fail_list = list(map(lambda x: x.strip('\r\n'), lines))
+    return fail_list
 
 
 def add_failure(email, score):
     # open failures.js and add email to list
+    print(f'ADDING FAIL: {email} {score}')
+
     fail_date = str(date.today())
     with open("failures", "a+") as grad_list:
         # Append text at the end of file
@@ -175,6 +180,15 @@ float_matcher = re.compile(r'\d+[.]\d+')
 grad_list = load_graduates()
 fail_list = load_failures()
 
+grad_email_list = []
+for email_line in grad_list:
+    grad_email = email_line.split(',')[0]
+    grad_email_list.append(grad_email)
+
+fail_email_list = []
+for email_line in fail_list:
+    fail_email = email_line.split(',')[0]
+    fail_email_list.append(fail_email)
 
 with open('grade_report.csv') as csvfile:
     reader = csv.reader(csvfile)
@@ -182,12 +196,14 @@ with open('grade_report.csv') as csvfile:
     for csv_row in reader:
         email = csv_row[1]
 
+        
+        # print(grad_list)
         # check if a past graduate
-        if email in grad_list:
+        if email in grad_email_list:
             continue
         
         # check if a past graduate
-        if email in fail_list:
+        if email in fail_email_list:
             continue
         
         # check if redis employee
@@ -220,10 +236,10 @@ if(email_pass_global_vars['user_vars']):
     complete_filename = os.path.join(save_path, file_name)
     pass_json = open(complete_filename, "w")
     pass_json.write(str(json.dumps(email_pass_global_vars)))
-    print(json.dumps(email_pass_global_vars, indent=2))
+    # print(json.dumps(email_pass_global_vars, indent=2))
 
 if(email_fail_global_vars['user_vars']):
     fail_json = open('fail-json-' + str(date.today()) + '.json', "w")
     fail_json.write(str(json.dumps(email_fail_global_vars)))
-    print(json.dumps(email_fail_global_vars, indent=2))
+    # print(json.dumps(email_fail_global_vars, indent=2))
     
