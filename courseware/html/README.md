@@ -7,4 +7,4 @@ This folder contains the HTML documents used for the RU204: Storing, Querying an
 
 Thanks,
 
-The Redis University team.
+The Redis Developer Relations team.
