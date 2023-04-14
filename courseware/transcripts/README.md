@@ -7,4 +7,4 @@ This folder contains the video transcripts used for the RU204: Storing, Querying
 
 Thanks,
 
-The Redis University team.
+The Redis Developer Relations team.
