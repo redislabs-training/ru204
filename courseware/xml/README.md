@@ -7,4 +7,4 @@ This folder contains the XML files containing the final exam questions for the R
 
 Thanks,
 
-The Redis University team.
+The Redis Developer Relations team.
