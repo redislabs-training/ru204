@@ -7,4 +7,4 @@ This folder contains the images used in HTML documents used for the RU204: Stori
 
 Thanks,
 
-The Redis University team.
+The Redis Developer Relations team.
