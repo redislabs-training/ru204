@@ -129,6 +129,8 @@ Leave the container running for now. When you want to stop it, use this command:
 docker-compose down
 ```
 
+The container will persist Redis data to the `redisdata` folder.
+
 Your next step is to set up RedisInsight...
 
 ### Option 3: Install Redis Stack 

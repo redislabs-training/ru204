@@ -12,3 +12,4 @@ venv/
 **/.settings/
 **/.classpath
 **/.project
+redisdata/
