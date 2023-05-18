@@ -6,7 +6,7 @@ services:
     volumes:
       - ./redisdata:/data
     environment:
-      - REDIS_ARGS=--appendonly yes
+      - REDIS_ARGS=--appendonly yes --save ""
     ports:
       - "6379:6379"
       - "8001:8001"
