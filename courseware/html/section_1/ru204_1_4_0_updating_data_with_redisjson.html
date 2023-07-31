@@ -78,4 +78,16 @@ JSON.ARRAPPEND ru204:book:18161 $.inventory '{"stock_number": "18161_5","status"
 <p><span class="code">JSON.DEL ru204:book:18161 $.genres</span></p>
 <p>Redis returns the number of properties successfully removed; in this case one:</p>
 <p><span class="code">1</span></p>  
+<h2>Updating multiple JSONPaths and/or documents at once</h2>
+<hr/>
+<p>Each of the Redis commands that we&apos;ve introduced so far works on a single JSON document (stored at a given Redis key) or on a single JSONPath into that document.  When we want to update multiple documents and/or multiple paths into the same document at the same time, we can use the <span class="code">JSON.MSET</span> command.</p>
+<p><i>The <span class="code">JSON.MSET</span> command was added in version 2.6.0 of RedisJSON.  If your Redis Stack instance doesn&apos;t have this command, you&apos;ll need to upgrade it.</i></p>
+<p>This command accepts one or more key name, JSONPath expression and value triplets as its arguments. It performs all of the updates in a single network round trip to the Redis server.</p>
+<p>Let&apos;s see how <span class="code">JSON.MSET</span> works by adding the <span class="code">has_ebook_version</span> property to three more books at once:
+<p><span class="code">JSON.MSET ru204:book:16085 $.has_ebook_version true ru204:book:519 $.has_ebook_version false ru204:book:46 $.has_ebook_version true</span></p>
+<p>Redis returns <span class="code">OK</span>.</p>
+<p>Next, let&apos;s update two properties of book 519 and a single property of book 46:</p>
+<p><span class="code">JSON.MSET ru204:book:519 $.metrics.score 3.5 ru204:book:519 $.has_ebook_version true ru204:book:46 $.has_ebook_version false</span></p>
+<p>Redis returns <span class="code">OK</span>.</p>
+<h2>Conclusion</h2>
 <p>While it is important to understand how to use the Redis CLI to use the RedisJSON commands to create and maintain documents within Redis, most developers will want to perform these operations from their application code directly. In the next section, we will explore how to manage JSON documents in Redis using  popular Redis client libraries for commonly used programming languages.</p>
