@@ -78,4 +78,58 @@ JSON.ARRAPPEND ru204:book:18161 $.inventory '{"stock_number": "18161_5","status"
 <p><span class="code">JSON.DEL ru204:book:18161 $.genres</span></p>
 <p>Redis returns the number of properties successfully removed; in this case one:</p>
 <p><span class="code">1</span></p>  
+<h2>Performing Merge and Patch operations</h2>
+<hr/>
+<p>Oftentimes, we&apos;ll want to make multiple changes to a JSON document at once, atomically, by merging a new JSON value into a JSON document.  <a href="https://datatracker.ietf.org/doc/html/rfc7396" target="_blank" class="page-link">RFC7396 - JSON Merge Patch</a> defines the rules for how such operations should behave.</p>  This RFC is implemented by the RedisJSON <span class="code">JSON.MERGE</span> command.</p>
+<p>The <span class="code">JSON.MERGE</span> command allows us to make the following different types of change to a JSON document stored in Redis.  All of these can be performed with a single invocation of the command.</p>
+<p>The types of change are:</p>
+<ul>
+  <li>Create a new value at a new path.</li>
+  <li>Replace an existing value at an existing path.</li>
+  <li>Delete an existing value at a path.</li>
+  <li>Merge all of the above types of change at once.
+</ul>
+<p>Let&apos;s look at examples of each.</p>
+<p>Here, we&apos;re removing the <span class="code">author</span> property from book 274 whilst also changing the contents of <span class="code">editions</span>, updating the number of <span class="code">pages</span> and adding a new <span class="code">has_ebook_version</span> property.  First let's look at these values in the original document:</p>
+<p><span class="code">JSON.GET ru204:book:274 $.author $.editions $.pages $.has_ebook_version</span></p>
+<p>Redis returns:</p>
+<p><span class="code">"{\"$.editions\":[[\"english\",\"spanish\"]],\"$.pages\":[311],\"$.author\":[\"S.E. Grove\"],\"$.has_ebook_version\":[]}"</span></p>
+<p>Now we can modify the document with <span class="code">JSON.MERGE</span>:</p>
+<p><span class="code">JSON.MERGE ru204:book:274 $ '{"pages": 350, "editions": [ "english", "spanish", "french"], "author": null, "has_ebook_version": true}'
+</span></p>
+<p>Redis returns <span class="code">OK</span>. Let&apos;s see what the updated document contains:</p>  
+<p><span class="code">JSON.GET ru204:book:274 $.author $.editions $.pages $.has_ebook_version</span></p>
+<p>Redis returns:</p>
+<p><span class="code">"{\"$.pages\":[350],\"$.has_ebook_version\":[true],\"$.author\":[],\"$.editions\":[[\"english\",\"spanish\",\"french\"]]}"</span></p>
+<p>Next, undo some of those changes with a second <span class="code">JSON.MERGE</span> invocation.  This time, we&apos;ll set <span class="code">author</span> back to the original value and remove the <span class="code">has_ebook_version</span> property:</p>
+<p><span class="code">JSON.MERGE ru204:book:274 $ '{"author": "S.E. Grove", "has_ebook_version": null }'</span></p>
+<p>Again, Redis returns <span class="code">OK</span> (this is the return value of all successful <span class="code">JSON.MERGE</span> invocations).</p>
+<p>Finally, check that the <span class="code">has_ebook_version</span> property no longer exists (we could use <span class="code">JSON.GET</span> but instead let&apos;s use <span class="code">JSON.TYPE</span>):</p>
+<p><span class="code">JSON.TYPE ru204:book:274 $.has_ebook_version</span></p>
+<p>Redis returns <span class="code">(empty array)</span> indicating that there is no value at this key.</p>
+<p>When storing new JSON documents in Redis, <span class="code">JSON.MERGE</span> behaves in the same way as <span class="code">JSON.SET</span>.  New documents can only be created at the root (<span class="code">$</span>) path.</p>
+<p>Here&apos;s an example demonstrating this.  First, we check that book 9999 doesn&apos;t already exist:</p>
+<p><span class="code">EXISTS ru204:book:9999</span></p>
+<p>Redis returns <span class="code">0</span> indicating that this key does not exist.  If we try to create a new document there by setting values at a path other than the root, Redis will return an error:</p>
+<p><span class="code">JSON.MERGE ru204:book:9999 $.metrics '{"rating_votes": 22}'</span></p>
+<p>Result:</p>
+<p><span class="code">(error) ERR new objects must be created at the root</span></p>
+<p>This example creates a new key <span class="code">ru204:book:9999</span> containing a new JSON document:</p>
+<p><span class="code">JSON.MERGE ru204:book:9999 $ '{"author": "Redis", "id": "9999"}'</span></p>
+<p><b>Note - setting <span class="code">null</span> values:</b></p>
+<p>The <span class="code">JSON.MERGE</span> command uses <span class="code">null</span> values to indicate that a property should be removed from the document.  If you want to explicitly store <span class="code">null</span> as a property&apos;s value.  When you want to do that, use <span class="code">JSON.SET</span> or <span class="code">JSON.MSET</span> instead.</p>
+<p>As an example, let&apos;s set book 9999&apos;s <span class="code">author</span> to <span class="code">null</span> and check what is stored in Redis:</p>
+<p><span class="code">JSON.SET ru204:book:9999 $.author "null"</span></p>
+<p><span class="code">JSON.GET ru204:book:9999 $</span></p>
+<p><span class="code">"[{\"author\":null,\"id\":\"9999\"}]"</span></p>
+<p>Note that the property <span class="code">author</span> exists and has <span class="code">null</span> as its value.</p>
+<p>Compare this with the same update using <span class="code">JSON.MERGE</span>:
+<p><span class="code">JSON.MERGE ru204:book:9999 $ '{"author": null}'</span></p>
+<p><span class="code"></span</p>
+<p>Note that this time the <span class="code">author</span> property has been deleted:</p>
+<p><span class="code">JSON.GET ru204:book:9999 $</span></p>
+<p><span class="code">"[{\"id\":\"9999\"}]"</span></p>
+<p>Finally, clean up by deleting book 9999 from Redis:</p>
+<p><span class="code">DEL ru204:book:9999</span></p>
+<p><i>The <span class="code">JSON.MERGE</span> command was added in version 2.6.0 of RedisJSON. If your Redis Stack instance doesn&apos;t have this command, you&apos;ll need to upgrade it.</i></p>
 <p>While it is important to understand how to use the Redis CLI to use the RedisJSON commands to create and maintain documents within Redis, most developers will want to perform these operations from their application code directly. In the next section, we will explore how to manage JSON documents in Redis using  popular Redis client libraries for commonly used programming languages.</p>
