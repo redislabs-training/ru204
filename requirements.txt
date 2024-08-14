@@ -4,3 +4,4 @@ packaging==21.3
 pyparsing==3.0.9
 redis==4.3.4
 wrapt==1.14.1
+redis-om==0.3.2
