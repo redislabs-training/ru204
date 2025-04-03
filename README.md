@@ -1,8 +1,8 @@
-# RU204: Storing, Querying and Indexing JSON at Speed
+# RU204: Redis JSON
 
 ## Introduction
 
-This repository contains example data and setup instructions for the Redis University course [RU204: Storing, Querying, and Indexing JSON at Speed](https://university.redis.com/courses/ru204/).
+This repository contains example data and setup instructions for the [Redis JSON](https://university.redis.io/learningpath/6q3tbh3qk2gexx?tab=details) learning path on [Redis University](https://university.redis.io/).
 
 To take this course, you'll first need to do the following:
 
