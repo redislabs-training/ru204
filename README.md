@@ -1,4 +1,4 @@
-# RU204: Redis JSON
+# Redis University: Redis JSON
 
 ## Introduction
 
